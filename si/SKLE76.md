@@ -4,9 +4,9 @@ naziv: "Sklep o soglasju k aktu o ustanovitvi ustanove Stanovanjska ustanova del
 vrsta: "sklep"
 datum: 1997-12-05
 sop: 1997-01-3595
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3595"
 ---
 

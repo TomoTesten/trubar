@@ -4,9 +4,9 @@ naziv: "Odredba o homologiranju vozil glede na zaščito potnikov v primeru boč
 vrsta: "odredba"
 datum: 1997-12-04
 sop: 1997-01-3569
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3569"
 ---
 

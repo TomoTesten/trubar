@@ -4,9 +4,9 @@ naziv: "Odredba o homologiranju osebnih vozil glede na njihove zunanje štrleče
 vrsta: "odredba"
 datum: 1997-12-04
 sop: 1997-01-3552
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3552"
 ---
 
