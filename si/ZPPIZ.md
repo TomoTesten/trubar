@@ -2,26 +2,26 @@
 kratica: ZPPIZ
 naziv: "Zakon o spremembi zakona o prispevkih za pokojninsko in invalidsko zavarovanje, zdravstveno varstvo in zaposlovanje"
 vrsta: "Sprejet zakon"
-datum: 1993-07-22
-sop: 1993-01-1698
-objava: "Uradni list RS 42/93  str. 2373"
+datum: 1993-10-14
+sop: 1993-01-2093
+objava: "Uradni list RS 57/93  str. 2850"
 kljucne_besede: ["prispevek za socialno varnost", "sistem pokojninskega zavarovanja", "invalidsko zavarovanje", "zdravstveno varstvo"]
-vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1698"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2093"
 ---
 
 # Zakon o spremembi zakona o prispevkih za pokojninsko in invalidsko zavarovanje, zdravstveno varstvo in zaposlovanje
 
-Na podlagi prvega odstavka 107. in prvega odstavka 91. člena Ustave Republike Slovenije izdajam
+Na podlagi druge alinee prvega odstavka 107. in prvega odstavka 91. člena ustave Republike Slovenije izdajam
 
 
 ## UKAZ
-o razglasitvi Zakona o spremembi zakona o prispevkih za pokojninsko in invalidsko zavarovanje, zdravstveno varstvo in zaposlovanje
+o razglasitvi zakona o spremembi zakona o prispevkih za pokojninsko in invalidsko zavarovanje, zdravstveno varstvo in zaposlovanje
 
-Razglašam Zakon o spremembi zakona o prispevkih za pokojninsko in invalidsko zavarovanje, zdravstveno varstvo in zaposlovanje, ki ga je sprejel Državni zbor Republike Slovenije na seji dne 9. julija 1993.
+Razglašam zakon o spremembi zakona o prispevkih za pokojninsko in invalidsko zavarovanje, zdravstveno varstvo in zaposlovanje, ki ga je sprejel Državni, zbor Republike Slovenije na seji dne J. oktobra 1993.
 
-Št. 0100-95/93
+Št. 0100-118/93
 
-Ljubljana, dne 17. julija 1993.
+Ljubljana, dne 9. oktobra 1993.
 
 Predsednik
 Republike Slovenije
@@ -29,21 +29,21 @@ Milan Kučan l. r.
 
 
 ## ZAKON
-o spremembi Zakona o prispevkih za pokojninsko in invalidsko zavarovanje, zdravstveno varstvo in zaposlovanje
+o spremembi zakona o prispevkih za pokojninsko in invalidsko zavarovanje, zdravstveno varstvo in zaposlovanje
 
 
 ### 1. člen
 
-V Zakonu o prispevkih za pokojninsko in invalidsko zavarovanje, zdravstveno varstvo in zaposlovanje (Uradni list RS, št. 48/90 in 10/93) se v1l. členu prispevna stopnja za zaposlovanje "2,35%" nadomesti s stopnjo "1,70%".
+V zakonu o prispevkih za pokojninsko in invalidsko zavarovanje, zdravstveno varstvo in zaposlovanje (Uradni list RS, št. 48/90, 10/93 in 42/93) se v 11. členu prispevna stopnja za zaposlovanje "1,70%" nadomesti s stopnjo "0,70%".
 
 
 ### 2. člen
 
 Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
 
-Št. 411-09/90-4/17
+Št. 411-09/90-4/14
 
-Ljubljana, dne 9. julija 1993.
+Ljubljana, dne 1. oktobra 1993.
 
 Predsednik
 Državnega zbora
