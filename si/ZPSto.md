@@ -7,6 +7,11 @@ sop: 1997-01-1949
 objava: "Uradni list RS 35/97  str. 3057"
 kljucne_besede: ["pošta in telekomunikacije", "poštne storitve"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1949"
+spremembe:
+  - kratica: ZPSto-A
+    datum: 2001-08-03
+    sop: 2001-01-3473
+    naziv: "Zakon o spremembi zakona o poštnih storitvah"
 ---
 
 # Zakon o poštnih storitvah
