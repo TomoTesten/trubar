@@ -7,6 +7,11 @@ sop: 1993-01-0583
 objava: "Uradni list RS 13/93  str. 557"
 kljucne_besede: ["poletni čas"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0583"
+spremembe:
+  - kratica: ZRC-A
+    datum: 1996-02-12
+    sop: 1996-01-0378
+    naziv: "Zakon o spremembah zakona o računanju časa"
 ---
 
 # Zakon o računanju časa
