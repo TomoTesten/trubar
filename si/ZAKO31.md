@@ -4,9 +4,9 @@ naziv: "Zakon o izvrševanju kazenskih sankcij (ZIKS)"
 vrsta: "akt"
 datum: 1978-08-04
 sop: 1978-04-1192
-organ: "SKUPŠČINA SRS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1978-04-1192"
 ---
 

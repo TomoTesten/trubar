@@ -4,9 +4,9 @@ naziv: "Zakon o seizmološki službi (ZSeiS)"
 vrsta: "akt"
 datum: 1978-07-11
 sop: 1978-04-0994
-organ: "SKUPŠČINA SRS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1978-04-0994"
 ---
 

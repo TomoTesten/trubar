@@ -4,9 +4,9 @@ naziv: "Zakon o pokopališki in pogrebni dejavnosti ter o urejanju pokopališč 
 vrsta: "akt"
 datum: 1984-11-19
 sop: 1984-04-1606
-organ: "SKUPŠČINA SRS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1984-04-1606"
 ---
 

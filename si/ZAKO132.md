@@ -4,9 +4,9 @@ naziv: "Zakon o temeljni geodetski izmeri (ZTGI)"
 vrsta: "akt"
 datum: 1974-04-26
 sop: 1974-04-0142
-organ: "SKUPŠČINA SRS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1974-04-0142"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o prepovedi nomadske paše (ZPNomP)"
 vrsta: "akt"
 datum: 1974-12-19
 sop: 1974-04-0449
-organ: "SKUPŠČINA SRS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1974-04-0449"
 ---
 

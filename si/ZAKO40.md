@@ -4,9 +4,9 @@ naziv: "Zakon o zakonski zvezi in družinskih razmerjih (ZZZDR)"
 vrsta: "akt"
 datum: 1976-06-04
 sop: 1976-04-0644
-organ: "SKUPŠČINA SRS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1976-04-0644"
 ---
 

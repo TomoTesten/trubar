@@ -4,9 +4,9 @@ naziv: "Zakon o javnem tožilstvu"
 vrsta: "akt"
 datum: 1977-05-07
 sop: 1977-04-0525
-organ: "SKUPŠČINA SRS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1977-04-0525"
 ---
 

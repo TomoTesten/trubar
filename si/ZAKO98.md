@@ -4,9 +4,9 @@ naziv: "Zakon o Rudniku živega srebra v Idriji (ZRIdr)"
 vrsta: "akt"
 datum: 1979-04-28
 sop: 1979-04-0672
-organ: "SKUPŠČINA SRS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1979-04-0672"
 ---
 

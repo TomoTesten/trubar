@@ -4,9 +4,9 @@ naziv: "Zakon o intervencijah v kmetijstvu in porabi hrane"
 vrsta: "akt"
 datum: 1979-01-13
 sop: 1979-04-0007
-organ: "SKUPŠČINA SRS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1979-04-0007"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o nepravdnem postopku (ZNP)"
 vrsta: "akt"
 datum: 1986-07-28
 sop: 1986-04-1481
-organ: "SKUPŠČINA SRS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1986-04-1481"
 ---
 

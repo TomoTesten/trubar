@@ -4,9 +4,9 @@ naziv: "Zakon o varstvu pred požarom"
 vrsta: "akt"
 datum: 1976-01-28
 sop: 1976-04-0073
-organ: "SKUPŠČINA SRS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1976-04-0073"
 ---
 

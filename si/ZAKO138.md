@@ -4,9 +4,9 @@ naziv: "Zakon o komunalnih dejavnostih (ZKD)"
 vrsta: "akt"
 datum: 1982-03-05
 sop: 1982-04-0350
-organ: "SKUPŠČINA SRS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1982-04-0350"
 ---
 
