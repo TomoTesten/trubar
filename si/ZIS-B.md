@@ -1,0 +1,230 @@
+---
+kratica: ZIS-B
+naziv: "Zakon o spremembah in dopolnitvah zakona o igrah na srečo"
+vrsta: "Sprejet zakon"
+datum: 2003-10-21
+sop: 2003-01-4499
+objava: "Uradni list RS 101/2003  str. 14057"
+kljucne_besede: ["policija"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4499"
+---
+
+# Zakon o spremembah in dopolnitvah zakona o igrah na srečo
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam
+
+
+## U K A Z
+o razglasitvi zakona o spremembah in dopolnitvah zakona o igrah na srečo (ZIS-B)
+
+Razglašam zakon o spremembah in dopolnitvah zakona o igrah na srečo (ZIS-B), ki ga je sprejel Državni zbor Republike Slovenije na seji 2. oktobra 2003.
+
+Št. 001-22-79/03
+
+Ljubljana, dne 10. oktobra  2003.
+
+Predsednik
+Republike Slovenije
+dr. Janez Drnovšek l. r.
+
+
+## Z A K O N
+O SPREMEMBAH IN DOPOLNITVAH ZAKONA
+O IGRAH NA SREČO (ZIS-B)
+
+
+### 1. člen
+
+V zakonu o igrah na srečo (Uradni list RS, št. 27/95, 35/97 – sklep US, 43/97 – popravek sklepa US, 22/2000 – ORZIS46, ORZIS124, ORZIS127, 85/2001, 52/2002 – ZDU-1, 54/2002 – odločba US in 60/2002 – sklep US; v nadaljnjem besedilu ZIS) se prvi odstavek 8. člena spremeni tako, da se glasi:
+»Dejavnost prirejanja iger na srečo opravljajo prireditelji, koncesionarji oziroma koncesionarji za igralni salon, v katerih kapitalu je lahko udeležena le oseba, ki ima državljanstvo Republike Slovenije ali države članice Evropskega gospodarskega prostora oziroma sedež v Republiki Sloveniji ali državi članici Evropskega gospodarskega prostora.«
+Dodajo se novi tretji, četrti in peti odstavek, ki se glasijo:
+»O dodelitvi koncesije za prirejanje iger na srečo in njenem podaljšanju, izdaji soglasij in o zadevah iz 53., 81. in petega odstavka 92. člena tega zakona odločata Vlada Republike Slovenije in minister, pristojen za finance, po prostem preudarku, pri čemer upoštevata zlasti:
+1. zasičenost ponudbe iger na srečo v državi oziroma v posamezni lokalni skupnosti in uravnoteženost s ponudbo sosednjih držav;
+2. zagotavljanje harmoničnega, optimalnega in trajnostnega razvoja dejavnosti;
+3. vpliv na socialno, kulturno in naravno okolje ter posameznika;
+4. obseg prirejanja iger na srečo z vidika dopolnjevanja turistične ponudbe;
+5. izkušnje in reference pri prirejanju iger na srečo in število dodeljenih koncesij;
+6. lastniško strukturo in vodstveni kader pravne osebe;
+7. dejavnost, posle, dosedanja ravnanja in finančno boniteto pravne osebe oziroma z njo povezanih oseb;
+8. vpliv izdaje soglasja na poslovanje pravne osebe;
+9. izpolnjevanje davčnih, koncesijskih in drugih javnofinančnih obveznosti s strani pravne osebe in njenih lastnikov;
+10. posledice za opravljanje nadzora po določbah tega zakona;
+11. primernost in kvaliteto vloge za dodelitev koncesije, dovoljenja ali soglasja;
+12. strateške razvojne dokumente za področje prirejanja iger na srečo;
+13. druge okoliščine, povezane z odločanjem o zadevi.
+Povezane osebe po tem zakonu so osebe, ki se štejejo za povezane osebe po drugih zakonih.
+Na območju Republike Slovenije trajno prirejata klasične igre na srečo največ dva prireditelja, Vlada Republike Slovenije pa lahko dodeli največ 15 koncesij za prirejanje posebnih iger na srečo v igralnicah in 45 koncesij za prirejanje posebnih iger na srečo v igralnih salonih.«
+
+
+### 2. člen
+
+V prvem odstavku 31. člena se črta beseda »domače«.
+Drugi odstavek se spremeni tako, da se glasi:
+»Delež posamezne pravne osebe in z njo povezanih oseb v osnovnem kapitalu prireditelja ne sme presegati 20% delnic.«
+
+
+### 3. člen
+
+Drugi odstavek 32. člena se spremeni tako, da se glasi:
+»Delnice prireditelja so navadne in se lahko glasijo le na ime.«
+Za drugim odstavkom se dodajo novi tretji, četrti in peti odstavek, ki se glasijo:
+»Pravna oseba lahko pridobi ali odsvoji delnice prireditelja le ob predhodnem soglasju ministra, pristojnega za finance, v nasprotnem primeru je posel ničen.
+Zahtevi za izdajo soglasja iz prejšnjega odstavka mora pravna oseba, ki želi pridobiti delnice prireditelja, priložiti:
+1. podatke o pravni osebi, ki vlaga zahtevo za izdajo soglasja, skupaj z njenim ustanovitvenim aktom;
+2. izpisek iz sodnega registra oziroma drugega ustreznega javnega registra, če gre za tujo osebo;
+3. izpisek delničarjev iz knjige delničarjev, če je pravna oseba delniška družba;
+4. revidirano letno poročilo za zadnji dve poslovni leti;
+5. dokazilo o izpolnjevanju davčnih in drugih javnofinančnih obveznosti do države, kjer ima pravna oseba sedež, če gre za tujo osebo;
+6. seznam oseb, ki so posredno ali neposredno povezane s pravno osebo, z opisom načina povezave;
+7. podroben opis nameravanega pravnega posla;
+8. natančno obrazložitev razlogov za pridobitev oziroma odsvojitev delnic;
+9. podrobno obrazložitev z razvojnimi nameni in cilji, ki jih ima pravna oseba kot delničar prireditelja;
+10. oceno vpliva pridobitve delnic na prihodnje poslovanje prireditelja;
+11. drugo dokumentacijo, o kateri pravna oseba, ki želi pridobiti delnice, sodi, da bo na njeni podlagi mogoče oceniti primernost pravne osebe kot delničarja prireditelja in vpliv pridobitve delnic na prihodnje poslovanje prireditelja in razvoj dejavnosti prirejanja iger na srečo.
+Minister, pristojen za finance, mora o vlogi za izdajo soglasja iz tretjega odstavka tega člena odločiti v roku enega meseca od vložitve popolne vloge in popolne dokumentacije, sicer se šteje, da je soglasje dano.«
+
+
+### 4. člen
+
+Za 55. členom se doda nov 55.a člen, ki se glasi:
+
+
+### »55.a člen
+
+Delničarji koncesionarja so lahko Republika Slovenija, lokalne skupnosti in pravne osebe, katerih 100% lastnik ali edini ustanovitelj je Republika Slovenija.
+Ne glede na prejšnji odstavek je lahko delničar koncesionarja tudi gospodarska družba, organizirana v obliki delniške družbe, ki izpolnjuje naslednje pogoje:
+1. delež posamezne gospodarske družbe in z njo povezanih oseb v osnovnem kapitalu koncesionarja ne sme presegati 20% navadnih delnic;
+2. delež posamezne fizične osebe v osnovnem kapitalu gospodarske družbe ne sme presegati 10% delnic, pri čemer skupni delež fizičnih oseb ne sme presegati 49% delnic;
+3. gospodarska družba mora izpolnjevati merila za veliko družbo po predpisih, ki urejajo gospodarske družbe, ali pa mora pretežni del prihodkov ustvariti iz dejavnosti investicijskih in pokojninskih družb oziroma skladov, bančništva, zavarovalništva oziroma finančnega posredništva ali s turistično dejavnostjo.
+Gospodarske družbe iz prejšnjega odstavka lahko skupaj pridobijo največ 49% navadnih delnic koncesionarja.
+Določbe 1. in 3. točke drugega odstavka tega člena in prejšnjega odstavka se ne uporabljajo za gospodarske družbe, ki imajo koncesijo vlade za prirejanje posebnih iger na srečo v igralnicah.«
+
+
+### 5. člen
+
+56. člen se spremeni tako, da se glasi:
+»Delnice koncesionarja so navadne, ki se glasijo na ime, in prednostne, brez glasovalne pravice.
+Navadne delnice se smejo pridobiti ali odsvojiti le ob predhodnem soglasju ministra, pristojnega za finance, v nasprotnem primeru je posel ničen.
+Zahtevi za izdajo soglasja iz prejšnjega odstavka se mora priložiti dokumentacija iz četrtega odstavka 32. člena tega zakona.
+Minister, pristojen za finance, mora o vlogi za izdajo soglasja iz drugega odstavka tega člena odločiti v roku enega meseca od vložitve popolne vloge in popolne dokumentacije, sicer se šteje, da je soglasje dano.«
+
+
+### 6. člen
+
+57. člen se spremeni tako, da se glasi:
+»Koncesionar ima lahko naložbe v kapital pravnih oseb, katerih dejavnost in prihodki so pretežno s področja gostinstva in turizma ter s področja razvoja in proizvodnje igralniških tehnologij.
+Za naložbe v kapital vseh drugih pravnih oseb in za vse naložbe v kapital tujih pravnih oseb mora koncesionar pridobiti predhodno soglasje ministra, pristojnega za finance, če te naložbe presegajo 5% osnovnega kapitala koncesionarja.
+Ne glede na prejšnji odstavek mora koncesionar pridobiti predhodno soglasje ministra, pristojnega za finance, za vsako naložbo v kapital drugih in tujih pravnih oseb iz prejšnjega odstavka, če skupna vrednost vseh naložb v druge in tuje pravne osebe preseže 20% kapitala koncesionarja.
+Minister, pristojen za finance, mora o vlogi za izdajo soglasja iz drugega in tretjega odstavka tega člena odločiti v roku enega meseca od vložitve popolne vloge in popolne dokumentacije, sicer se šteje, da je soglasje dano.«
+
+
+### 7. člen
+
+V 68. členu se za besedilom »na njenem območju« doda besedilo »in mnenje sosednjih lokalnih skupnosti.«, nadaljnje besedilo pa se črta.
+
+
+### 8. člen
+
+Prvi stavek prvega odstavka 74. člena se spremeni tako, da se glasi:
+»2,2% koncesijske dajatve je prihodek fondacije iz 47. člena, 2,2% koncesijske dajatve pa je prihodek fondacije iz 48. člena tega zakona.«
+Na koncu prvega odstavka se doda naslednje besedilo:
+»Ta koncesijska dajatev se ne upošteva pri izračunu lastnih prihodkov občin iz prvega odstavka 25. člena zakona o financiranju občin (Uradni list RS, št. 80/94, 45/97 – odločba US, 56/98, 1/99 – ZNIDC, 59/99 – odločba US, 61/99 – odločba US, 97/99 – ZJF in 89/99 – odločba US).«
+Dodajo se novi drugi, tretji in četrti odstavek, ki se glasijo:
+»Zaokroženo turistično območje iz prejšnjega odstavka na podlagi sklepa vlade o dodelitvi koncesije za prirejanje posebnih iger na srečo v igralnici določi z odločbo minister, pristojen za turizem, in to tako, da ga poleg lokalne skupnosti, na območju katere je igralnica, sestavljajo tudi lokalne skupnosti, ki izrazijo interes za vključitev v zaokroženo turistično območje, in ki izpolnjujejo vsaj dva od naslednjih kriterijev, upoštevaje tudi njihovo intenzivnost:
+1. dodatna obremenjenost okolja zaradi izvajanja igralniške dejavnosti;
+2. prostorska povezanost in soodvisnost pri rabi prostora za razvoj turizma in oblikovanje skupne turistične ponudbe;
+3. skupno investiranje ali vzdrževanje objektov in naprav turistične infrastrukture (športno-rekreativni, kulturni objekti in naprave, namenjene pretežno turistom in izletnikom);
+4. skupne aktivnosti na področju turistično-informativne in promotivne dejavnosti;
+5. skupna komunalna infrastruktura, če je ta izrazito v funkciji turizma.
+Posamezna lokalna skupnost se lahko uvrsti le v eno zaokroženo turistično območje.
+Lokalne skupnosti, ki so uvrščene v posamezno zaokroženo turistično območje, se dogovorijo o višini deležev koncesijske dajatve, ki jih prejme posamezna lokalna skupnost, s posebno pogodbo.«
+
+
+### 9. člen
+
+V prvem odstavku 92. člena se črta besedilo »ter 19. in 20. člena zakona o lastninskem preoblikovanju pravnih oseb z družbenim kapitalom, ki prirejajo posebne igre na srečo in o strukturi kapitala pravnih oseb, ki opravljajo dejavnost prirejanja posebnih iger na srečo (Uradni list RS, št. 40/97)«.
+
+
+### 10. člen
+
+Prvi odstavek 93. člena se spremeni tako, da se glasi:
+»Delničar ali družbenik pravne osebe, ki ima koncesijo za igralni salon, ne sme biti član uprave koncesionarja oziroma vodja igralnice koncesionarja.«
+
+
+### 11. člen
+
+V 100. členu se za besedilom »razen 3.a,« doda besedilo »55.a, 57.,«.
+Doda se nov drugi odstavek, ki se glasi:
+»Ne glede na prejšnji odstavek, se za delitev koncesijske dajatve iz prvega odstavka 74. člena tega zakona za igralne salone ne oblikuje zaokroženih turističnih območij. V primeru, da se igralni salon nahaja znotraj zaokroženega turističnega območja iz 74. člena tega zakona, se koncesijska dajatev v delu, ki pripada lokalnim skupnostim, nameni vsem lokalnim skupnostim znotraj zaokroženega turističnega območja. Če pa se igralni salon ne nahaja znotraj zaokroženega turističnega območja iz 74. člena tega zakona, je koncesijska dajatev, ki jo plačuje koncesionar za igralni salon, v delu, ki sicer pripada lokalnim skupnostim v zaokroženem turističnem območju, prihodek lokalne skupnosti, kjer se igralni salon nahaja oziroma se deli v skladu s posebno pogodbo med lokalnimi skupnostmi, ki so sklenile dogovor o opravljanju igralniške dejavnosti na podlagi predpisa iz 99. člena tega zakona.«
+
+
+### 12. člen
+
+Drugi stavek petega odstavka 107. člena se nadomesti z naslednjim besedilom:
+»Rok ne sme biti daljši kot 30 dni od vročitve odločbe. Pritožba zoper to odločbo ne zadrži njene izvršitve.«
+
+
+### 13. člen
+
+3. točka prvega odstavka 118. člena se spremeni tako, da se glasi:
+»3. če ne oblikuje obvezne varnostne rezerve (59. in 95. člen), če delnice prenaša v nasprotju z določbami tega zakona (32. in 56. člen) ali če ima naložbe v druge pravne osebe v nasprotju z določbami tega zakona (57. člen);«
+
+
+### PREHODNE IN KONČNE DOLOČBE
+
+
+### 14. člen
+
+Postopki za dodelitev koncesije za prirejanje iger na srečo, začeti pred uveljavitvijo tega zakona, se vodijo po določbah tega zakona.
+
+
+### 15. člen
+
+Podrobnejšo vsebino dokumentacije, postopke in način izvajanja določb 3., 4., 5. in 6. člena tega zakona določi vlada z uredbo, ki jo izda v dveh mesecih po uveljavitvi tega zakona.
+Z uredbo iz prejšnjega odstavka se določi tudi podrobnejša vsebina kriterijev, ki jih poleg kriterijev, določenih v 1. členu tega zakona, upošteva minister, pristojen za finance, pri odločanju o izdaji soglasij iz 3., 5. in 6. člena tega zakona, kot so zlasti:
+1. vpliv na odpiranje novih delovnih mest v Republiki Sloveniji;
+2. vpliv na razvoj dejavnosti igralništva, gostinstva in turizma ter s področja razvoja in proizvodnje igralniških tehnologij oziroma vpliv na druge dejavnosti, v katere se namenjajo sredstva iz igralništva;
+3. vpliv na višino koncesijske dajatve in drugih dajatev, ki jih je dolžan plačevati koncesionar;
+4. možnost nadzora vlaganj v povezane pravne osebe in s povezanimi pravnimi osebami ter v odvisne pravne osebe in z odvisnimi pravnimi osebami;
+5. možnosti repatriacije dobička v Republiko Slovenijo v primeru vlaganj v tujino.
+
+
+### 16. člen
+
+Minister, pristojen za turizem, v skladu z 8. členom tega zakona v treh mesecih po uveljavitvi tega zakona na novo določi zaokroženi turistični območji, ki sta bili na podlagi odredbe o določitvi zaokroženih turističnih območij za potrebe posebnih iger na srečo (Uradni list RS, št. 67/95, 21/97, 68/99, 91/2001, 54/2002 – odločba US in 111/2002 – pravilnik; v nadaljnjem besedilu: odredba) določeni kot četrto in peto zaokroženo turistično območje.
+Do določitve zaokroženih turističnih območij iz prejšnjega odstavka se lokalnim skupnostim, ki so bile na podlagi odredbe uvrščene v četrto in peto zaokroženo turistično območje, izplačuje koncesijska dajatev v enakih deležih, razen če se niso dogovorile drugače, in za enake namene, kot so jih prejemale do sedaj.
+Minister, pristojen za finance, izda v enem mesecu po sklenitvi pogodbe iz 8. člena tega zakona odločbo posamezni lokalni skupnosti iz prvega in prejšnjega odstavka tega člena, s katero ugotovi višino prejetih sredstev iz naslova koncesijske dajatve za prirejanje posebnih iger na srečo od učinkovanja razveljavitve četrte in pete alinee 3. člena odredbe na podlagi odločbe Ustavnega sodišča Republike Slovenije št. U-I-50/00-18 z dne 30. 5. 2002 (Uradni list RS, št. 54/2002) in določi zneske doplačila oziroma zneske vračila preveč izplačanih sredstev, skupaj z roki in načinom plačila.
+Z odločbo ministra, pristojnega za finance, iz prejšnjega odstavka se tudi določi, da se v primeru, če občina, ki ima ugotovljena preplačila, v roku, določenem v tej odločbi, ne vrne preveč prejetih sredstev, opravi ustrezen poračun v okviru razpoložljivih sredstev na podračunu enotnega zakladniškega računa proračuna te občine.
+Minister, pristojen za turizem, v skladu s kriteriji iz 8. člena tega zakona na novo določi ostala zaokrožena turistična območja v šestih mesecih po uveljavitvi tega zakona. Po izteku tega roka odredba iz prvega odstavka tega člena preneha veljati.
+
+
+### 17. člen
+
+Ne glede na 39. člen zakona o spremembah in dopolnitvah zakona o igrah na srečo (Uradni list RS, št. 85/2001; v nadaljnjem besedilu: ZIS-A), se določbi 80.a in 85.a člena ZIS začneta uporabljati v igralnicah 30. 10. 2004.
+Ne glede na 39. člen ZIS-A se določba 3.b člena ZIS za igralnice in prireditelje klasičnih iger na srečo začne uporabljati 30. 10. 2004, če je za igralne naprave, ki so v uporabi na dan 30. 10. 2003, podana zahteva za pridobitev certifikata o skladnosti v skladu s predpisom iz 3.b člena ZIS do 31. 12. 2003.
+
+
+### 18. člen
+
+Z dnem uveljavitve tega zakona prenehata veljati 19. in 20. člen zakona o lastninskem preoblikovanju pravnih oseb z družbenim kapitalom, ki prirejajo posebne igre na srečo in o strukturi kapitala pravnih oseb, ki opravljajo dejavnost prirejanja posebnih iger na srečo (Uradni list RS, št. 40/97 in 13/2002 – odločba US) in 59. člen zakona o pospeševanju turizma (Uradni list RS, št. 57/98, 68/2000 – sklep US, 21/2002, 86/2002 – odločba US in 94/2002 – odločba US).
+
+
+### 19. člen
+
+Določbe prvega odstavka 1., 2. in 10. člena tega zakona se začnejo uporabljati z dnem pristopa Republike Slovenije k Evropski uniji.
+
+
+### 20. člen
+
+Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 470-01/90-2/70
+
+Ljubljana, dne 2. oktobra 2003.
+
+EPA 871-III
+
+Predsednik
+Državnega zbora
+Republike Slovenije
+Borut Pahor l. r.
