@@ -4,9 +4,9 @@ naziv: "Zneski drugih osebnih prejemkov in povračil državnih pravobranilcev"
 vrsta: "drugi akt"
 datum: 1997-09-30
 sop: 1997-01-2992
-organ: "Ministrstvo za pravosodje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2992"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Oredbo o prepovedi uvoza in prevoza pošiljk domačih in divjih prašič
 vrsta: "odredba"
 datum: 1997-10-10
 sop: 1997-01-3102
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3102"
 ---
 

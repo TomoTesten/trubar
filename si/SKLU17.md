@@ -4,9 +4,9 @@ naziv: "Sklep o začasnem zadržanju izvrševanja 27. člena pravilnika o uporab
 vrsta: "akt"
 datum: 1997-10-09
 sop: 1997-01-3030
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3030"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o potrditvi letnega obračuna Banke Slovenije za leto 1996 in o ra
 vrsta: "akt"
 datum: 1997-10-17
 sop: 1997-01-3109
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3109"
 ---
 

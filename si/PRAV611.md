@@ -4,9 +4,9 @@ naziv: "Pravilnik o elektromagnetni združljivosti (EMC)"
 vrsta: "pravilnik"
 datum: 1997-10-03
 sop: 1997-01-3007
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3007"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Kriteriji za individualne pogodbe o zaposlitvi managerjev"
 vrsta: "drugi akt"
 datum: 1997-10-17
 sop: 1997-01-3118
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3118"
 ---
 

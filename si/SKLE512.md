@@ -4,9 +4,9 @@ naziv: "Sklep o načinu in pogojih za prijavo terjatev in obveznosti, ki jih ima
 vrsta: "sklep"
 datum: 1997-10-17
 sop: 1997-01-3165
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3165"
 ---
 

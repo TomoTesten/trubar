@@ -4,9 +4,9 @@ naziv: "Sklep o pogojih, pod katerimi smejo domače osebe, razen fizičnih oseb,
 vrsta: "sklep"
 datum: 1997-10-03
 sop: 1997-01-3029
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3029"
 ---
 

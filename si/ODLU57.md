@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi dela 87. člena zakona o volitvah v Državni zb
 vrsta: "akt"
 datum: 1997-10-30
 sop: 1997-01-3226
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3226"
 ---
 

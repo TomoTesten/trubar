@@ -4,9 +4,9 @@ naziv: "Dopolnitev tarife o taksah in nadomestilih za določanje o zahtevah za i
 vrsta: "akt"
 datum: 1997-10-24
 sop: 1997-01-3175
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3175"
 ---
 

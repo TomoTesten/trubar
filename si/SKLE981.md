@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi vzorca pooblastila za glasovanje na skupščini delni
 vrsta: "sklep"
 datum: 1997-10-30
 sop: 1997-01-3232
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3232"
 ---
 

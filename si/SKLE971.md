@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o načinu izvrševanja plačilnih nalogov iz ok
 vrsta: "sklep"
 datum: 1997-10-30
 sop: 1997-01-3227
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3227"
 ---
 

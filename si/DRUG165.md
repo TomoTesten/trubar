@@ -4,9 +4,9 @@ naziv: "Študentska ustava"
 vrsta: "drugi akt"
 datum: 1997-10-24
 sop: 1997-01-3181
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3181"
 ---
 
