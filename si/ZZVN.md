@@ -20,6 +20,10 @@ spremembe:
     datum: 1997-11-14
     sop: 1997-01-3372
     naziv: "Zakon o spremembah in dopolnitvah zakona o žrtvah vojnega nasilja"
+  - kratica: ZZVN-D
+    datum: 1999-06-04
+    sop: 1999-01-2110
+    naziv: "Zakon o spremembah in dopolnitvah zakona o žrtvah vojnega nasilja"
 ---
 
 # Zakon o žrtvah vojnega nasilja
