@@ -1,0 +1,29 @@
+---
+kratica: DRUG83
+naziv: "Seznam zdravil skupine A in B, za katere je bilo od 10. 10. 1998 do 4. 12. 1998 razveljavljeno dovoljenje za promet"
+vrsta: "drugi akt"
+datum: 1999-01-15
+sop: 1999-01-0063
+organ: "Ministrstvo za zdravstvo"
+zbirka: "Drugi splošni in posamični akti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0063"
+---
+
+# Seznam zdravil skupine A in B, za katere je bilo od 10. 10. 1998 do 4. 12. 1998 razveljavljeno dovoljenje za promet
+
+Na podlagi 56. člena zakona o zdravilih (Uradni list RS, št. 9/96) objavlja Urad Republike Slovenije za zdravila
+
+
+## S E Z N A M
+zdravil skupine A in B, za katere je bilo  od 10. 10. 1998 do 4. 12. 1998 razveljavljeno dovoljenje za promet
+
+Seznam zdravil skupine A in B
+
+Št. 512-3/99-47
+
+Ljubljana, dne 7. januarja 1999.
+
+Urad Republike Slovenije za zdravila
+Nada Irgolič, mag. farm., spec. l. r.
+Direktorica
