@@ -16,6 +16,10 @@ spremembe:
     datum: 2002-03-11
     sop: 2002-01-0911
     naziv: "Zakona o spremembah in dopolnitvah zakona o varnosti cestnega prometa"
+  - kratica: ZVCP-C
+    datum: 2002-07-26
+    sop: 2002-01-3233
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varnosti cestnega prometa"
 ---
 
 # Zakon o varnosti cestnega prometa
