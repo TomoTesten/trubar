@@ -7,6 +7,11 @@ sop: 1999-01-2649
 objava: "Uradni list RS 56/99  str. 7044"
 kljucne_besede: ["omejevanje konkurence"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2649"
+spremembe:
+  - kratica: ZPOmK-A
+    datum: 2004-04-15
+    sop: 2004-01-1599
+    naziv: "Zakon o spremembah in dopolnitvah zakona o preprečevanju omejevanja konkurence"
 ---
 
 # Zakon o preprečevanju omejevanja konkurence
