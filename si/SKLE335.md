@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi in dopolnitvi sklepa o revidiranju poslovanja investic
 vrsta: "sklep"
 datum: 1998-02-13
 sop: 1998-01-0465
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0465"
 ---
 

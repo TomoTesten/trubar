@@ -4,9 +4,9 @@ naziv: "Odredba o valorizaciji zneskov za odmero dohodnine za leto 1997"
 vrsta: "odredba"
 datum: 1998-02-20
 sop: 1998-01-0524
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0524"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o soglasju Republike Slovenije DARS d.d. za najetje kreditov za gr
 vrsta: "akt"
 datum: 1998-02-20
 sop: 1998-01-0518
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0518"
 ---
 

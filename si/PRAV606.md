@@ -4,8 +4,9 @@ naziv: "Pravilnik o meroslovnih zahtevah za statične števce delovne električn
 vrsta: "pravilnik"
 datum: 1998-02-20
 sop: 1998-01-0526
-organ: "Ministrstvo za znanost in tehnologijo"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0526"
 ---
 

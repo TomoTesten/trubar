@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi dela drugega odstavka 94. člena ter tretjega i
 vrsta: "akt"
 datum: 1998-02-20
 sop: 1998-01-0538
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0538"
 ---
 

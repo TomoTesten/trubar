@@ -4,9 +4,9 @@ naziv: "Odredba o spremembi odredbe o obrazcu za obračun davka od dobička prav
 vrsta: "odredba"
 datum: 1998-02-13
 sop: 1998-01-0510
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0510"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o finančnih intervencijah za celostno urejanje podeželja in obn
 vrsta: "uredba"
 datum: 1998-02-20
 sop: 1998-01-0626
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0626"
 ---
 

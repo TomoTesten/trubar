@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi prve in druge alinee prvega odstavka 1. člena 
 vrsta: "akt"
 datum: 1998-02-20
 sop: 1998-01-0541
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0541"
 ---
 

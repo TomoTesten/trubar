@@ -4,9 +4,9 @@ naziv: "Odredba o največjem dovoljenem ugrezu ladij za plovbo v III. bazenu kop
 vrsta: "odredba"
 datum: 1998-02-13
 sop: 1998-01-0454
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0454"
 ---
 

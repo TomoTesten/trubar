@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o preoblikovanju podjetja Telekom Slovenija p.o
 vrsta: "sklep"
 datum: 1998-02-13
 sop: 1998-01-0508
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0508"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Etični kodeks članov Inženirske zbornice Slovenije"
 vrsta: "drugi akt"
 datum: 1998-02-13
 sop: 1998-01-0463
-organ: "Inženirska zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0463"
 ---
 
