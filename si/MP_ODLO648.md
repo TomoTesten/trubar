@@ -1,0 +1,63 @@
+---
+kratica: MP_ODLO648
+naziv: "Odlok o spremembi odloka o proračunu Občine Črnomelj za leto 1999 (ODLO)"
+vrsta: "občinski odlok"
+datum: 1999-10-28
+sop: 1999-01-4180
+organ: "Občina Črnomelj"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4180"
+---
+
+# Odlok o spremembi odloka o proračunu Občine Črnomelj za leto 1999 (ODLO)
+
+Na podlagi 45. člena zakona o financiranju občin (Uradni list RS, št. 80/94) in 19. člena statuta Občine Črnomelj (Uradni list RS, št. 39/95 in 65/95) je Občinski svet občine Črnomelj na 8. redni seji dne 14. 10. 1999 sprejel
+
+
+## O D L O K
+o spremembi odloka o proračunu Občine Črnomelj za leto 1999
+
+
+### 1. člen
+
+Spremeni se 2. člen odloka, ki glasi:
+»Proračun Občine Črnomelj za leto 1999 se določa v naslednjih zneskih:
+
+----------------------------------------------------------
+A)     Bilanca prihodkov in odhodkov:
+I.     Skupaj prihodki                       1.451,339.920
+II.    Skupaj odhodki                        1.408,977.720
+III.   Proračunski presežek (I.-II.)            42,362.200
+----------------------------------------------------------
+B)     Račun finančnih terjatev in naložb:
+IV.    Prejeta vrač. danih posojil
+       in prodaja kapit. deležev                11,257.800
+V.     Dana posojila
+       in povečanje kapitalskih deležev          1,420.000
+VI.    Prejeta minus dana posojila
+       in sprem. kapit. deležev                  9,837.800
+       (IV.–V.)
+----------------------------------------------------------
+C)     Račun financiranja:
+VIII.  Zadolževanje proračuna                            –
+IX.    Odplačilo dolga                          52,200.000
+X.     Neto zadolževanje (VIII.–IX.)          – 52,200.000
+XI.    Povečanje sredstev
+       na računih (VII.–X.)                              –
+----------------------------------------------------------
+
+Prihodki in odhodki ter drugi prejemki in izdatki proračuna Občine Črnomelj so izkazani v bilanci prihodkov in odhodkov, v računu finančnih terjatev in naložb ter v računu financiranja. Odhodki in drugi izdatki proračuna so po uporabnikih izkazani v posebnem delu tega proračuna.«
+
+
+### 2. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije; določbe, ki se nanašajo na določitev višine sredstev za financiranje nalog uporabnikov, pa se uporabljajo od 1. januarja 1999.
+
+Št. 403-02-1/99
+
+Črnomelj, dne 14. oktobra 1999.
+
+Župan
+Občine Črnomelj
+Andrej Fabjan l. r.
