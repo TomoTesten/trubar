@@ -7,6 +7,11 @@ sop: 1999-01-2652
 objava: "Uradni list RS 56/99  str. 7063"
 kljucne_besede: ["varstvo pri delu", "zdravje pri delu"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2652"
+spremembe:
+  - kratica: ZVZD-A
+    datum: 2001-08-03
+    sop: 2001-01-3475
+    naziv: "Zakon o spremembi in dopolnitvi zakona o varnosti in zdravju pri delu"
 ---
 
 # Zakon o varnosti in zdravju pri delu
