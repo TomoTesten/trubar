@@ -7,6 +7,11 @@ sop: 1993-01-2629
 objava: "Uradni list RS 72/93  str. 3766"
 kljucne_besede: ["občina", "delitev pristojnosti", "odnosi med državo in regijami"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2629"
+spremembe:
+  - kratica: ZLS-A
+    datum: 1994-09-29
+    sop: 1994-01-2035
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi"
 ---
 
 # Zakon o lokalni samoupravi
