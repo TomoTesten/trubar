@@ -7,6 +7,11 @@ sop: 1999-01-2796
 objava: "Uradni list RS 59/99  str. 7545"
 kljucne_besede: ["tehnični standard", "varnost proizvoda"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2796"
+spremembe:
+  - kratica: ZTZPUS-A
+    datum: 2004-04-15
+    sop: 2004-01-1600
+    naziv: "Zakon o spremembah in dopolnitvah zakona o tehničnih zahtevah za proizvode in o ugotavljanju skladnosti"
 ---
 
 # Zakon o tehničnih zahtevah za proizvode in o ugotavljanju skladnosti
