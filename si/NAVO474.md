@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu izvajanja akreditiranja in splošnih pogojih, ki jih 
 vrsta: "navodilo"
 datum: 1998-12-28
 sop: 1998-01-4703
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4703"
 ---
 

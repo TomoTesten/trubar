@@ -4,8 +4,9 @@ naziv: "Uredba o ratifikaciji sprememb Protokola B Sporazuma med državami EFTE 
 vrsta: "uredba"
 datum: 1998-12-28
 sop: 1998-02-0061
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-02-0061"
 ---
 

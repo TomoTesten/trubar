@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve pravil obveznega zdravstvenega zavarovanja"
 vrsta: "drugi akt"
 datum: 1998-12-28
 sop: 1998-01-4707
-organ: "Zavod za zdravstveno zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4707"
 ---
 

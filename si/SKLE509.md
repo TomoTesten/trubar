@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi leta 1999 za leto starejših v Republiki Sloveniji"
 vrsta: "sklep"
 datum: 1998-12-28
 sop: 1998-01-4698
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4698"
 ---
 
