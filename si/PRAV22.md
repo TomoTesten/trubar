@@ -4,9 +4,9 @@ naziv: "Pravilnik o izvajanju PIC postopka"
 vrsta: "pravilnik"
 datum: 2001-06-15
 sop: 2001-01-2722
-organ: "Ministrstvo za zdravje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2722"
 ---
 

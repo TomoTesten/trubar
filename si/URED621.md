@@ -4,9 +4,9 @@ naziv: "Uredba o emisiji snovi pri odvajanju odpadne vode iz naprav za čiščen
 vrsta: "uredba"
 datum: 2001-06-21
 sop: 2001-01-2773
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2773"
 ---
 
