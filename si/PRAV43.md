@@ -4,9 +4,9 @@ naziv: "Pravilnik o farmakovigilanci za zdravila za uporabo v veterinarski medic
 vrsta: "pravilnik"
 datum: 2001-08-10
 sop: 2001-01-3576
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3576"
 ---
 

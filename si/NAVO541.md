@@ -4,9 +4,9 @@ naziv: "Navodila za izvajanje ukrepov aktivne politike zaposlovanja v skladih de
 vrsta: "navodilo"
 datum: 2001-08-17
 sop: 2001-01-3653
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3653"
 ---
 
