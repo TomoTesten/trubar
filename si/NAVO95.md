@@ -4,9 +4,9 @@ naziv: "Navodilo o vrsti in načinu pošiljanja podatkov o stanju in spremembah 
 vrsta: "navodilo"
 datum: 1998-07-24
 sop: 1998-01-2404
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2404"
 ---
 

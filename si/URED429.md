@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi zneska davka iz tarifne številke 6 tarife davka od 
 vrsta: "uredba"
 datum: 1998-07-31
 sop: 1998-01-2501
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2501"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o uvedbi in uporabi standardnih klasifikacij institucionalnih sek
 vrsta: "uredba"
 datum: 1998-08-07
 sop: 1998-01-2545
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2545"
 ---
 

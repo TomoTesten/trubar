@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve pravil igre na srečo \"Športni krog\""
 vrsta: "drugi akt"
 datum: 1998-08-07
 sop: 1998-01-2599
-organ: "Športna loterija in igre na srečo d.d."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2599"
 ---
 

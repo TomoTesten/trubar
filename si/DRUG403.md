@@ -4,9 +4,9 @@ naziv: "Posebni znak za alarmiranje ob neposredni nevarnosti nesreče s klorom"
 vrsta: "drugi akt"
 datum: 1998-07-31
 sop: 1998-01-2444
-organ: "Uprava Republike Slovenije za zaščito in reševanje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2444"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o ustavnosti tretjega odstavka 68. člena in drugega odstavka 7
 vrsta: "akt"
 datum: 1998-08-07
 sop: 1998-01-2569
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2569"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o javni razgrnitvi a.) osnutka lokacijskega načrta za avtocesto n
 vrsta: "sklep"
 datum: 1998-07-17
 sop: 1998-01-2344
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2344"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o izvedbi 35. člena zakona o izvrševanju proračuna Republike
 vrsta: "navodilo"
 datum: 1998-08-07
 sop: 1998-01-2561
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2561"
 ---
 
