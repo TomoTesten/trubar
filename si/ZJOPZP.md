@@ -7,6 +7,11 @@ sop: 1992-01-2345
 objava: "Uradni list RS 51/92  str. 2933"
 kljucne_besede: ["poroštvo", "dobava", "zemeljski plin", "prenos energije"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2345"
+spremembe:
+  - kratica: ZJOPZP-A
+    datum: 1994-08-05
+    sop: 1994-01-1827
+    naziv: "Zakon o spremembah in dopolnitvah zakona o jamstvu Republike Slovenije za obveznosti podjetja Petrol Zemeljski plin d.o.o. Ljubljana za plačilo stroškov prenosa zemeljskega plina"
 ---
 
 # Zakon o jamstvu Republike Slovenije za obveznosti podjetja Petrol Zemeljski plin d.o.o. Ljubljana za plačilo stroškov prenosa zemeljskega plina
