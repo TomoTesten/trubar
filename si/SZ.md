@@ -12,6 +12,10 @@ spremembe:
     datum: 1994-04-22
     sop: 1994-01-0893
     naziv: "Zakon o spremembah in dopolnitvah stanovanjskega zakona"
+  - kratica: SZ-C
+    datum: 1996-04-29
+    sop: 1996-01-1314
+    naziv: "Zakon o spremembah in dopolnitvah stanovanjskega zakona"
 ---
 
 # Stanovanjski zakon
