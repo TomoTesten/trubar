@@ -1,74 +1,93 @@
 ---
 kratica: ZZNSGC
-naziv: "Zakon o zagotovitvi namenskih sredstev za gradnjo avtocestnega omrežja v Republiki Sloveniji"
+naziv: "Zakon o zagotovitvi namenskih sredstev za graditev državnih cest, določenih v nacionalnem programu izgradnje avtocest v Republiki Sloveniji"
 vrsta: "Sprejet zakon"
-datum: 1993-08-06
-sop: 1993-01-1801
-objava: "Uradni list RS 46/93  str. 2484"
-kljucne_besede: ["avtocesta", "cestno omrežje"]
-vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1801"
+datum: 1998-08-14
+sop: 1998-01-2600
+objava: "Uradni list RS 57/98  str. 4133"
+kljucne_besede: ["cestno omrežje", "avtocesta"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2600"
 ---
 
-# Zakon o zagotovitvi namenskih sredstev za gradnjo avtocestnega omrežja v Republiki Sloveniji
+# Zakon o zagotovitvi namenskih sredstev za graditev državnih cest, določenih v nacionalnem programu izgradnje avtocest v Republiki Sloveniji
 
-Na podlagi prvega odstavka 107. in 91. člena Ustave Republike Slovenije izdajam
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam
 
 
-## UKAZ
-o razglasitvi Zakona o zagotovitvi namenskih sredstev za gradnjo avtocestnega omrežja v Republiki Sloveniji
+## U K A Z
+o razglasitvi zakona o zagotovitvi namenskih sredstev za graditev državnih cest, določenih  v nacionalnem programu izgradnje avtocest  v Republiki Sloveniji (ZZNSGC)
 
-Razglašam Zakon o zagotovitvi namenskih sredstev za gradnjo avtocestnega omrežja v Republiki Sloveniji, ki ga je sprejel Državni zbor Republike Slovenije na seji dne 26. julija 1993.
+Razglašam zakon o zagotovitvi namenskih sredstev za graditev državnih cest, določenih v nacionalnem programu izgradnje avtocest v Republiki Sloveniji (ZZNSGC), ki ga je sprejel Državni zbor Republike Slovenije na seji 27. julija 1998.
 
-Št. 0100-96/93
+Št. 001-22-72/98
 
-Ljubljana, dne 4. avgusta 1993.
+Ljubljana, dne 4. avgusta 1998.
 
 Predsednik
 Republike Slovenije
 Milan Kučan l. r.
 
 
-## ZAKON
-O ZAGOTOVITVI NAMENSKIH SREDSTEV ZA GRADNJO AVTOCESTNEGA OMREŽJA V REPUBLIKI SLOVENIJI
+## Z A K O N
+O ZAGOTOVITVI NAMENSKIH SREDSTEV  ZA GRADITEV DRŽAVNIH CEST, DOLOČENIH  V NACIONALNEM PROGRAMU IZGRADNJE AVTOCEST V REPUBLIKI SLOVENIJI (ZZNSGC)
 
 
 ### 1. člen
 
-Ta zakon določa način zagotavljanja in uporabe sredstev za uresničitev izgradnje posameznih avtocestnih odsekov prednostno na smeri vzhod – zahod (državna meja pri Lendavi – državna meja pri Novi Gorici z avtocestnim odsekom za Koper ter državno mejo pri Sežani in Šentilju).
+Ta zakon določa način zagotavljanja in uporabe sredstev, namenjenih za graditev državnih cest določenih v nacionalnem programu izgradnje avtocest v Republiki Sloveniji (Uradni list RS, št. 13/96 in 41/98).
 
 
 ### 2. člen
 
-V proračunu Republike Slovenije se od 1. 1. 1994 do 31. 12. 1999 namensko zagotavljajo sredstva za graditev avtocest v znesku, ki je enak 16% drobnoprodajne cene na liter prodanih količin motornih bencinov in dieselskih goriv.
-Sredstva iz prejšnjega odstavka se zagotovijo iz davka od prometa motornih bencinov in dieselskih goriv v višini 16% drobnoprodajne cene navedenih naftnih derivatov.
+V proračunu Republike Slovenije se do 31. 12. 2007 namensko zagotavljajo vplačana sredstva za graditev državnih cest iz prejšnjega člena v znesku, ki je enak 20% drobnoprodajne cene na liter prodanih količin motornih bencinov in dieselskih goriv.
+Sredstva iz prejšnjega odstavka se zagotovijo iz davka od prometa motornih bencinov in dieselskih goriv.
 
 
 ### 3. člen
 
-V proračunu Republike Slovenije za leto 1993 se od 15. 8. 1993 do 31. 12. 1993 namensko zagotovijo sredstva za pospešitev gradenj avtocest na odsekih: Hrušica-Vrba in Razdrto-Čebulovica ter za dokončanje avtocestnih odsekov v gradnji, v znesku 1.200 mio tolarjev.
-Sredstva iz prejšnjega odstavka se zagotovijo s predpisano stopnjo prometnega davka na motorne bencine in dieselska goriva.
+Sredstva zagotovljena na način iz prejšnjega člena, zagotavljajo delež Republike Slovenije v okviru celotnega programa financiranja graditve državnih cest iz 1. člena tega zakona.
+S tem zakonom zagotovljena namenska sredstva se uporabljajo za:
+– pripravo projektne dokumentacije,
+– pridobitev dovoljenj za posege v prostor in gradnjo,
+– odkupe zemljišč,
+– plačila odškodnin in drugih stroškov v zvezi s pripravo na gradnjo,
+– gradnjo in rekonstrukcijo državnih cest iz 1. člena tega zakona,
+– po letu 1999 tudi za poplačilo obveznosti iz najetih kreditov za gradnjo državnih cest iz nacionalnega programa izgradnje avtocest.
 
 
 ### 4. člen
 
-Sredstva, zagotovljena na način iz 2. člena tega zakona, zagotavljajo delež Republike Slovenije v okviru celotnega programa financiranja graditve avtocest in cest ustreznega standarda v Republiki Sloveniji.
-S tem zakonom zagotovljena namenska sredstva se uporabljajo za: pripravo tehnične dokumentacije, pridobitev dovoljenj za posege v prostor, odkupe zemljišč, plačila odškodnin in drugih stroškov v zvezi s pripravo na gradnjo ter gradnjo avtocest iz prejšnjega odstavka.
+Vplačana sredstva na račun proračuna Republike Slovenije iz 2. člena tega zakona, ministrstvo, pristojno za finance, mesečno razporeja na posebno podpartijo žiro računa Republike Slovenije. Na to podpartijo se tekoče nakazujejo tudi pripadajoče obresti od upravljanja s sredstvi, zagotovljenimi po tem zakonu.
+S sredstvi na posebni podpartiji žiro računa Republike Slovenije upravlja ministrstvo, pristojno za finance. Iz te podpartije se sredstva nakazujejo na račun DARS d.d. na podlagi pisnega zahtevka DARS d.d. in po odredbi pooblaščene osebe ministrstva, pristojnega za promet v skladu s pravili, ki veljajo za izplačila iz proračuna.
+DARS d.d. daje pisne zahtevke za črpanje sredstev po tem zakonu le v okviru sprejetega letnega plana razvoja in vzdrževanja avtocest ter finančnega načrta DARS d.d. na osnovi dokumentacije, predpisane za izplačila uporabnikom državnega proračuna in dodatne dokumentacije, ki jo predpiše minister, pristojen za promet.
+Utemeljenost zahtevkov DARS d.d. glede na sprejeti letni plan in finančni načrt iz prejšnjega odstavka, kot tudi glede upoštevanja predpisov, ki urejajo pripravo investicijske dokumentacije in spremljanje investicij, preveri ministrstvo, pristojno za promet.
+Če letni plan razvoja in vzdrževanja avtocest ni sprejet do 1. januarja tekočega leta, lahko DARS d.d. daje pisne zahtevke za črpanje s tem zakonom zagotovljenih sredstev, na podlagi začasnega finančnega načrta, ki mora biti usklajen z nacionalnim programom izgradnje avtocest za to leto, vendar najdlje do 30. junija tekočega leta.
 
 
 ### 5. člen
 
-Vlada Republike Slovenije poroča o izdvajanju sredstev iz 2. in 3. člena tega zakona in o njihovi namenski porabi Državnemu zboru Republike Slovenije štirikrat letno.
+Vlada Republike Slovenije poroča o izdvajanju sredstev iz 2. člena tega zakona in njihovi namenski porabi Državnemu zboru RS vsaj dvakrat letno.
 
 
 ### 6. člen
 
-Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+V letu 1998 se zagotovijo sredstva iz davka od prometa motornih bencinov in dieselskih goriv za namene iz drugega odstavka 3. člena tega zakona v višini 28.300 mio tolarjev, v skladu s sprejetim finančnim načrtom Družbe za avtoceste v Republiki Sloveniji d.d.
 
-Št. 433-03/92-2/2
 
-Ljubljana, dne 27. julija 1993.
+### 7. člen
+
+Z dnem uveljavitve tega zakona preneha veljati zakon o zagotovitvi namenskih sredstev za gradnjo avtocestnega omrežja v Republiki Sloveniji (Uradni list RS, št. 46/93).
+
+
+### 8. člen
+
+Ta zakon začne veljati naslednji dan po objavi v Uradnem listu RS.
+
+Št. 433-03/94-4/3
+
+Ljubljana, dne 27. julija 1998.
 
 Predsednik
 Državnega zbora
 Republike Slovenije
-mag. Herman Rigelnik l. r.
+Janez Podobnik, dr. med. l. r.
