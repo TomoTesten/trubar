@@ -4,9 +4,9 @@ naziv: "Dopolnitev liste eksplozivnih snovi, ki se smejo dajati v promet"
 vrsta: "drugi akt"
 datum: 1995-06-16
 sop: 1995-01-1599
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1599"
 ---
 

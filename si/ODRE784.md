@@ -4,9 +4,9 @@ naziv: "Odredba o delih, ki niso združljiva z naravo dejavnosti organov za notr
 vrsta: "odredba"
 datum: 1995-06-23
 sop: 1995-01-1670
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1670"
 ---
 

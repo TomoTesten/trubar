@@ -4,9 +4,9 @@ naziv: "Odlok o povračilu stroškov in nagradah sodnikom porotnikom"
 vrsta: "odlok"
 datum: 1995-06-16
 sop: 1995-01-1591
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1591"
 ---
 

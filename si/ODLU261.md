@@ -4,9 +4,9 @@ naziv: "Odločba o odpravi prvega in petega odstavka 1. člena ter o delni odpra
 vrsta: "akt"
 datum: 1995-06-30
 sop: 1995-01-1752
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1752"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o minimalni stopnji izobrazbe oseb, ki opravljajo dela v gosti
 vrsta: "pravilnik"
 datum: 1995-06-22
 sop: 1995-01-1651
-organ: "Ministrstvo za gospodarske dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1651"
 ---
 

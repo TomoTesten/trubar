@@ -4,9 +4,9 @@ naziv: "Sklep o načinu izvrševanja plačilnih nalogov okvirnih posojil"
 vrsta: "sklep"
 datum: 1995-06-30
 sop: 1995-01-1833
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1833"
 ---
 

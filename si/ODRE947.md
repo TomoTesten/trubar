@@ -4,9 +4,9 @@ naziv: "Odredba o metodologiji za izračun višine solventne meje, garancijskega
 vrsta: "odredba"
 datum: 1995-06-30
 sop: 1995-01-1828
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1828"
 ---
 
