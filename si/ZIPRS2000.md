@@ -7,6 +7,11 @@ sop: 2000-01-0443
 objava: "Uradni list RS 9/2000  str. 1117"
 kljucne_besede: ["izvrševanje proračuna"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0443"
+spremembe:
+  - kratica: ZIPRS2000-A
+    datum: 2000-09-26
+    sop: 2000-01-3809
+    naziv: "Zakon o spremembi in dopolnitvi zakona o izvrševanju proračuna Republike Slovenije za leto 2000"
 ---
 
 # Zakon o izvrševanju proračuna Republike Slovenije za leto 2000
