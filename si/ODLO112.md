@@ -4,9 +4,9 @@ naziv: "Odlok o soglasju k poslovniku Računskega sodišča Republike Slovenije"
 vrsta: "odlok"
 datum: 1995-04-07
 sop: 1995-01-0887
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0887"
 ---
 

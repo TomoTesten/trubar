@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi števila delovnih mest strokovnih sodelavcev, admin
 vrsta: "odredba"
 datum: 1995-04-07
 sop: 1995-01-0894
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0894"
 ---
 

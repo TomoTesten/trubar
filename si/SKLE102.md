@@ -4,9 +4,9 @@ naziv: "Sklep o dopolnitvi sklepov Vlade Republike Slovenije o dokapitalizaciji 
 vrsta: "sklep"
 datum: 1995-05-06
 sop: 1995-01-1153
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1153"
 ---
 

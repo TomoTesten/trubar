@@ -4,9 +4,9 @@ naziv: "Odločba o tem, da se vzame iz prometa zdravilo ENTEROFERMENT za uporabo
 vrsta: "akt"
 datum: 1995-04-14
 sop: 1995-01-0970
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0970"
 ---
 

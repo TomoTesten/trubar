@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah Zakona o veterinarstvu (ZVet-A)"
 vrsta: "akt"
 datum: 1995-04-14
 sop: 1995-01-0957
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0957"
 ---
 

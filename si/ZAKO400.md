@@ -4,9 +4,9 @@ naziv: "Zakon o ukrepih za sanacijo gospodarskega položaja TAM Maribor, d.d. in
 vrsta: "akt"
 datum: 1995-04-07
 sop: 1995-01-0951
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0951"
 ---
 

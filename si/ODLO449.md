@@ -4,9 +4,9 @@ naziv: "Odlok o imenovanju predsednika in devetih članov nadzornega odbora Ekol
 vrsta: "odlok"
 datum: 1995-05-06
 sop: 1995-01-1148
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1148"
 ---
 
