@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-11-14
     sop: 2002-01-4805
     naziv: "Zakon o spremembah in dopolnitvah zakona o pravdnem postopku"
+  - kratica: ZPP-B
+    datum: 2004-01-15
+    sop: 2004-01-0069
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pravdnem postopku"
 ---
 
 # Zakon o pravdnem postopku
