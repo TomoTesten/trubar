@@ -16,6 +16,10 @@ spremembe:
     datum: 2001-10-10
     sop: 2001-01-4108
     naziv: "Zakon o spremembah in dopolnitvah zakona o javnih financah"
+  - kratica: ZJF-C
+    datum: 2002-04-05
+    sop: 2002-01-1253
+    naziv: "Zakon o spremembah in dopolnitvah zakona o javnih financah"
 ---
 
 # Zakon o javnih financah
