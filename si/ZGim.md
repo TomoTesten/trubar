@@ -7,6 +7,11 @@ sop: 1996-01-0571
 objava: "Uradni list RS 12/96  str. 889"
 kljucne_besede: ["srednješolsko izobraževanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0571"
+spremembe:
+  - kratica: ZGim-A
+    datum: 2001-07-19
+    sop: 2001-01-3148
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gimnazijah"
 ---
 
 # Zakon o gimnazijah
