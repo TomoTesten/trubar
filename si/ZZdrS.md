@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-07-26
     sop: 2002-01-3227
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravniški službi"
+  - kratica: ZZdrS-B
+    datum: 2003-02-14
+    sop: 2003-01-0590
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravniški službi"
 ---
 
 # Zakon o zdravniški službi
