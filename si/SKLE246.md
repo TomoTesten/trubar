@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah in dopolnitvi navodila o načinu opravljanja plačiln
 vrsta: "sklep"
 datum: 1999-01-29
 sop: 1999-01-0245
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0245"
 ---
 

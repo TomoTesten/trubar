@@ -4,9 +4,9 @@ naziv: "Pozitivno mnenje oziroma soglasje in priporočil"
 vrsta: "drugi akt"
 datum: 1999-02-05
 sop: 1999-01-0325
-organ: "Svet za visoko šolstvo RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0325"
 ---
 

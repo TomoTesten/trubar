@@ -4,9 +4,9 @@ naziv: "Statut Zavoda za pokojninsko in invalidsko zavarovanje Slovenije (preči
 vrsta: "akt"
 datum: 1999-02-18
 sop: 1999-01-0439
-organ: "Zavod za pokojninsko in invalidsko zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0439"
 ---
 

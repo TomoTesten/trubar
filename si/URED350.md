@@ -4,8 +4,9 @@ naziv: "Uredba o ratifikaciji Tehničnega dogovora med Glavnim poveljstvom karab
 vrsta: "uredba"
 datum: 1999-02-13
 sop: 1999-02-0006
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-02-0006"
 ---
 

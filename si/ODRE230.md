@@ -4,9 +4,9 @@ naziv: "Odredba o spremembi odredbe o valorizaciji zneskov za odmero davkov po z
 vrsta: "odredba"
 datum: 1999-02-05
 sop: 1999-01-0293
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0293"
 ---
 

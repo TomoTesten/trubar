@@ -4,9 +4,9 @@ naziv: "Sklep o uskladitvi vrednosti točke v zakonu o sodnih taksah"
 vrsta: "sklep"
 datum: 1999-02-10
 sop: 1999-01-0347
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0347"
 ---
 

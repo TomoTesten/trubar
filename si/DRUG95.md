@@ -4,9 +4,9 @@ naziv: "Objavlja, da je standard SIST EN 45501 harmoniziran"
 vrsta: "drugi akt"
 datum: 1999-02-05
 sop: 1999-01-0294
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0294"
 ---
 

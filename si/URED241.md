@@ -4,9 +4,9 @@ naziv: "Uredba o emisiji snovi pri odvajanju odpadnih vod iz objektov in naprav 
 vrsta: "uredba"
 datum: 1999-02-18
 sop: 1999-01-0430
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0430"
 ---
 

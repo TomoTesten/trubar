@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi enotne tarife, po kateri depotna banka zaračunava pr
 vrsta: "sklep"
 datum: 1999-02-18
 sop: 1999-01-0437
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0437"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo za oblikovanje cen storitev obveznih lokalnih javnih služb odv
 vrsta: "navodilo"
 datum: 1999-02-19
 sop: 1999-01-0517
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0517"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembah in dopolnitvah pravilnika o postopkih za izvršev
 vrsta: "pravilnik"
 datum: 1999-02-13
 sop: 1999-01-0400
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0400"
 ---
 
