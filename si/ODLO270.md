@@ -1,0 +1,92 @@
+---
+kratica: ODLO270
+naziv: "Odlok o razglasitvi Gradu Rajhenburg in njegovega območja za kulturni spomenik državnega pomena"
+vrsta: "odlok"
+datum: 1999-10-05
+sop: 1999-01-3849
+organ: "Vlada Republike Slovenije"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3849"
+---
+
+# Odlok o razglasitvi Gradu Rajhenburg in njegovega območja za kulturni spomenik državnega pomena
+
+Na podlagi 5., 6., 12., 13. in 79. člena zakona o varstvu kulturne dediščine (Uradni list RS, št. 7/99) in 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96, 47/97 in 23/99) je Vlada Republike Slovenije na 123. seji dne 9. 9. 1999 izdala
+
+
+## O D L O K
+o razglasitvi Gradu Rajhenburg in njegovega območja za kulturni spomenik državnega  pomena
+
+
+### 1
+
+Za kulturni spomenik državnega pomena se razglasi enoto dediščine:
+– Brestanica – Območje gradu Brestanica (EŠD11168),
+– Brestanica – Grad Rajhenburg (EŠD 46).
+Enoti imata zaradi izjemnih kulturnih, umetnostno-arhitekturnih, zgodovinskih in krajinskih lastnosti poseben pomen za Republiko Slovenijo. Zato jo razglašamo za kulturni spomenik državnega pomena z lastnostmi umetnostno-arhitekturnega, zgodovinskega in krajinskega spomenika.
+
+
+### 2
+
+Grad Rajhenburg, postavljen na strmem skalnem pomolu nad Brestanico, je najstarejši na Slovenskem izpričani srednjeveški grad, v virih omenjen že leta 895. Grad z izjemnimi prostorskimi sklopi iz različnih obdobij stavbne zgodovine, zlasti z romanskim obrambnim stolpom, romansko dvonadstropno in gotsko dvonadstropno kapelo ter z najstarejšo ohranjeno profano grajsko slikarijo na slovenskih tleh, datirano v 20. leta 16. stoletja, je današnjo podobo dobil okrog leta 1600, ko ga je Gall pl. Gallenstein preoblikoval v mogočno renesančno rezidenco s poligonalno tlorisno zasnovo. Grad je imel izjemno vlogo kot zbirališče izgnancev med drugo svetovno vojno.
+
+
+### 3
+
+Meje varovanega in vplivnega območja spomenika so vrisane na temeljnem topografskem načrtu v merilu 1:5000. Izvirnika načrta, ki sta sestavni del tega odloka, hranita Ministrstvo za kulturo, Uprava Republike Slovenije za kulturno dediščino in Javni zavod Republike Slovenije za varstvo kulturne dediščine (v nadaljnjem besedilu: zavod).
+Vplivno območje spomenika obsega vse površine radialno v razdalji 200 metrov od grajskega kompleksa ter območja v širši okolici, na katerih bi bili postavljeni objekti ali zasajene kulture, ki bi s svojo namembnostjo, obliko ali velikostjo lahko negativno vplivali na zaščitene elemente spomenika.
+
+
+### 4
+
+Za spomenik velja varstveni režim, ki določa:
+– varovanje kulturnih, zgodovinskih, arhitekturnih, umetnostnih, arheoloških in krajinskih vrednot v celostni, neokrnjeni in izvirni podobi,
+– podrejanje posegov ohranjanju, sanaciji in prenovi spomenika,
+– zagotavljanje rednega vzdrževanja dobro ohranjenih ter sanacijo ogroženih ali propadajočih delov spomenika,
+– zagotavljanje take namembnosti, ki ne bo v nasprotju s spomeniškimi lastnostmi in katere cilj je obstoj in razvoj spomenika,
+– zagotavljanje predstavitve spomenika,
+– zagotavljanje dostopa javnosti do spomenika, tako da ne bodo poškodovane ali uničene spomeniške lastnosti.
+Prepovedano je:
+– poseganje v zemeljske plasti spomenika, razen pooblaščenim osebam ob predhodnem pisnem soglasju pristojnega zavoda,
+– spreminjanje varovanih arhitekturnih in likovnih prvin spomenika,
+– postavljanje novih objektov trajnega ali začasnega značaja, vključno z nadzemno in podzemno infrastrukturo ter reklamnimi panoji, razen v primerih, ki jih s kulturnovarstvenim soglasjem odobri pristojni zavod.
+Zavarovano območje je namenjeno:
+– trajni ohranitvi kulturnih, arheoloških, arhitekturnih, likovnih, zgodovinskih in krajinskih vrednot,
+– povečanju pričevalnosti spomenika,
+– prezentaciji spomenika,
+– učno-vzgojnemu delu,
+– znanstveno-raziskovalnemu delu,
+– kulturni in muzejski dejavnosti.
+
+
+### 5
+
+Za vsako morebitno spremembo funkcije kulturnega spomenika ali njegovega dela in za vsak poseg v spomenik, njegove dele ali zemljišče, so potrebni predhodni pisni kulturnovarstveni pogoji in na njihovi podlagi kulturnovarstveno soglasje zavoda.
+
+
+### 6
+
+Pristojni organ mora v treh mesecih po uveljavitvi tega odloka izdati lastniku spomenika odločbo o varstvu na podlagi 13. člena zakona o varstvu kulturne dediščine (Uradni list RS, št. 7/99).
+Odločbe iz prejšnjega odstavka določajo pogoje za fizične posege in zavarovanje, pogoje za raziskovanje, načine vzdrževanja, pravni promet, načine upravljanja in rabe spomenika za javnost in časovne okvire dostopnosti, posamezne druge omejitve in prepovedi ter ukrepe za čim bolj učinkovito varstvo spomenika. Varstveni režim lahko omejuje lastninsko pravico le v obsegu, ki je nujen za izvajanje varstva spomenika.
+
+
+### 7
+
+Nadzor nad izvajanjem tega odloka opravlja Inšpektorat Republike Slovenije za varstvo kulturne dediščine.
+
+
+### 8
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 634-03/99-1
+
+Ljubljana, dne 9. septembra 1999.
+
+
+### Vlada Republike Slovenije
+
+Marjan Podobnik l. r.
+Podpredsednik
+
+Kulturni spomenik državnega pomena; Grad Rajhenburg ( topografski načrt )
