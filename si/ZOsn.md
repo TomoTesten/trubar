@@ -7,6 +7,11 @@ sop: 1996-01-0570
 objava: "Uradni list RS 12/96  str. 879"
 kljucne_besede: ["osnovnošolsko izobraževanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0570"
+spremembe:
+  - kratica: ZOsn-A
+    datum: 1997-06-06
+    sop: 1997-01-1842
+    naziv: "Zakon o spremembah zakona o osnovni šoli"
 ---
 
 # Zakon o osnovni šoli
