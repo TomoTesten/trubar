@@ -7,6 +7,11 @@ sop: 2002-01-2809
 objava: "Uradni list RS 58/2002  str. 6034"
 kljucne_besede: ["seme", "sadika", "sadjarstvo", "zelenjava", "žita", "krmna rastlina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2809"
+spremembe:
+  - kratica: ZSMKR-A
+    datum: 2004-08-05
+    sop: 2004-01-3848
+    naziv: "Zakon o spremembah in dopolnitvah zakona o semenskem materialu kmetijskih rastlin"
 ---
 
 # Zakon o semenskem materialu kmetijskih rastlin
