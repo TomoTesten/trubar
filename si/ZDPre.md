@@ -12,6 +12,10 @@ spremembe:
     datum: 1994-11-18
     sop: 1994-01-2549
     naziv: "Zakon o spremembah in dopolnitvah zakona o družinskih prejemkih"
+  - kratica: ZDPre-B
+    datum: 1995-12-22
+    sop: 1995-01-3377
+    naziv: "Zakon o spremembah in dopolnitvah zakona o družinskih prejemkih"
 ---
 
 # Zakon o družinskih prejemkih
