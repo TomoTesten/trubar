@@ -7,6 +7,11 @@ sop: 1993-01-1299
 objava: "Uradni list RS 30/93  str. 1677"
 kljucne_besede: ["gozd", "gozdarska politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1299"
+spremembe:
+  - kratica: ZG-A
+    datum: 2002-07-26
+    sop: 2002-01-3231
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gozdovih"
 ---
 
 # Zakon o gozdovih
