@@ -4,9 +4,9 @@ naziv: "Odredba o spremembi odredbe o prepovedi uporabe mesno-kostne moke v preh
 vrsta: "odredba"
 datum: 1996-11-29
 sop: 1996-01-3806
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3806"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah odredbe o določitvi števila delovnih mest strokov
 vrsta: "odredba"
 datum: 1996-11-29
 sop: 1996-01-3731
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3731"
 ---
 

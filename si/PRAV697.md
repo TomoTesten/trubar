@@ -4,9 +4,9 @@ naziv: "Pravilnik o dopolnitvi pravilnika o napredovanju zaposlenih v vrtcih v n
 vrsta: "pravilnik"
 datum: 1996-11-29
 sop: 1996-01-3735
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3735"
 ---
 

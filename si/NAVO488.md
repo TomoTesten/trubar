@@ -4,8 +4,9 @@ naziv: "Navodilo za opravljanje preventivnih zdravstvenih pregledov delavcev"
 vrsta: "navodilo"
 datum: 1996-11-29
 sop: 1996-01-3739
-organ: "Ministrstvo za zdravstvo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3739"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o spremembi uredbe o določitvi oseb in objektov, ki jih varujejo
 vrsta: "uredba"
 datum: 1996-11-29
 sop: 1996-01-3800
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3800"
 ---
 

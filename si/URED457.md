@@ -4,9 +4,9 @@ naziv: "Uredba o začasni uporabi začasnega sporazuma o trgovini in zadevah v z
 vrsta: "uredba"
 datum: 1996-11-27
 sop: 1996-01-3717
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3717"
 ---
 
