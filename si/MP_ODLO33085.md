@@ -2,11 +2,11 @@
 kratica: MP_ODLO33085
 naziv: "Odlok o ustanovitvi javnega podjetja  (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-04
+datum: 1996-12-09
 sop: 1996-98-0032
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Gornji Grad"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-98-0032"
 ---
 
