@@ -1,0 +1,29 @@
+---
+kratica: UKAZ42
+naziv: "Ukaz o imenovanju izrednega in pooblaščenega veleposlanika Republike Slovenije v Združenih državah Mehike"
+vrsta: "akt"
+datum: 2000-07-21
+sop: 2000-01-2991
+organ: "Predsednik Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2991"
+---
+
+# Ukaz o imenovanju izrednega in pooblaščenega veleposlanika Republike Slovenije v Združenih državah Mehike
+
+Na podlagi četrte alinee prvega odstavka 107. člena ustave Republike Slovenije in prvega odstavka 21. člena zakona o zunanjih zadevah (Uradni list RS, št. 1/91-I) izdajam
+
+
+## U K A Z
+o imenovanju izrednega in pooblaščenega veleposlanika Republike Slovenije v Združenih državah Mehike
+
+Za izrednega in pooblaščenega veleposlanika Republike Slovenije v Združenih državah Mehike s sedežem v Washingtonu imenujem dr. Davorina Kračuna.
+
+Št. 001-09-13/00
+
+Ljubljana, dne 19. julija 2000.
+
+Predsednik
+Republike Slovenije
+Milan Kučan l. r.
