@@ -7,6 +7,11 @@ sop: 1998-01-2141
 objava: "Uradni list RS 49/98  str. 3479"
 kljucne_besede: ["naravna nesreča", "naravna nesreča v kmetijstvu", "državna pomoč"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2141"
+spremembe:
+  - kratica: ZZSO97-A
+    datum: 1998-10-02
+    sop: 1998-01-3182
+    naziv: "Zakon o spremembah zakona o zagotovitvi sredstev za odpravo posledic plazenja tal in odpravo posledic pozebe, suše in neurja v letu 1997"
 ---
 
 # Zakon o zagotovitvi sredstev za odpravo posledic plazenja tal in odpravo posledic pozebe, suše in neurja v letu 1997
