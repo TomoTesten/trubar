@@ -4,9 +4,9 @@ naziv: "Odločba o omejitvi in prepovedi uvoza določenih pošiljk iz Ukrajine"
 vrsta: "akt"
 datum: 2002-11-15
 sop: 2002-01-4882
-organ: "Veterinarska uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4882"
 ---
 

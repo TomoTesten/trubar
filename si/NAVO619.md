@@ -4,9 +4,9 @@ naziv: "Metodološko navodilo za predložitev letnih poročil pravnih oseb zaseb
 vrsta: "navodilo"
 datum: 2002-11-13
 sop: 2002-01-4790
-organ: "Agencija Republike Slovenije za javnopravne evidence in storitve"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4790"
 ---
 

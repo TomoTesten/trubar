@@ -2,11 +2,11 @@
 kratica: ODRE215
 naziv: "Pravilnik o protieksplozijski zaščiti"
 vrsta: "odredba"
-datum: 2000-11-10
+datum: 2002-10-25
 sop: 2000-01-4272
-organ: "Ministrstvo za gospodarske dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4272"
 ---
 

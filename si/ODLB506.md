@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju na funkcijo pomočnice okrožnega državnega toži
 vrsta: "akt"
 datum: 2002-10-25
 sop: 2002-01-4535
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4535"
 ---
 

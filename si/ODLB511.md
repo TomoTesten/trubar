@@ -4,9 +4,9 @@ naziv: "Odločba o spremembi odločbe o prepovedi uvoza in prevoza določenih po
 vrsta: "akt"
 datum: 2002-11-08
 sop: 2002-01-4703
-organ: "Veterinarska uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4703"
 ---
 

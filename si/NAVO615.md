@@ -4,9 +4,9 @@ naziv: "Pravilnik o pooblaščencu, načinu izvajanja notranje kontrole, hrambi 
 vrsta: "navodilo"
 datum: 2002-10-18
 sop: 2002-01-4399
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4399"
 ---
 

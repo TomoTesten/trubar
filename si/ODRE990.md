@@ -2,11 +2,11 @@
 kratica: ODRE990
 naziv: "Pravilnik o smeri strokovne izobrazbe, ki jo morajo imeti učitelji, korepetitorji in knjižničarji v glasbenih šolah"
 vrsta: "odredba"
-datum: 2000-05-24
+datum: 2002-11-13
 sop: 2000-01-1992
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1992"
 ---
 
