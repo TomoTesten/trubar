@@ -4,9 +4,9 @@ naziv: "Zakon o dopolnitvi zakona o notranjih zadevah (ZNZ-E)"
 vrsta: "akt"
 datum: 1993-10-17
 sop: 1993-01-2119
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2119"
 ---
 

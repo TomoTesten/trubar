@@ -4,9 +4,9 @@ naziv: "Sklep o datumu izdaje lastniških certifikatov državljanov"
 vrsta: "sklep"
 datum: 1993-10-01
 sop: 1993-01-2014
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2014"
 ---
 

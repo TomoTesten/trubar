@@ -4,9 +4,9 @@ naziv: "Statut Zavoda za pokojninsko in invalidsko zavarovanje Slovenije"
 vrsta: "akt"
 datum: 1993-10-01
 sop: 1993-01-2019
-organ: "Zavod za pokojninsko in invalidsko zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2019"
 ---
 

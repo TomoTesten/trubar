@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu jemanja vzorcev pogonskega goriva za analize in super
 vrsta: "navodilo"
 datum: 1993-10-29
 sop: 1993-01-2177
-organ: "Tržni inšpektorat RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2177"
 ---
 

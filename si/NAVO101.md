@@ -4,9 +4,9 @@ naziv: "Navodilo za pripravo prostorskih ureditvenih pogojev za sanacijo degradi
 vrsta: "navodilo"
 datum: 1993-10-08
 sop: 1993-01-2044
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2044"
 ---
 

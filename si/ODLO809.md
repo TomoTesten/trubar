@@ -4,9 +4,9 @@ naziv: "Odlok o soglasju k Statutu Zavoda za pokojninsko in invalidsko zavarovan
 vrsta: "odlok"
 datum: 1993-10-01
 sop: 1993-01-1991
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1991"
 ---
 
