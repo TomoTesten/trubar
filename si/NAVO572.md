@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu za uveljavljanje pravice koriščenja carinskega kont
 vrsta: "navodilo"
 datum: 2002-02-28
 sop: 2002-01-0729
-organ: "Ministrstvo za gospodarstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0729"
 ---
 

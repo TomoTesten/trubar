@@ -4,9 +4,9 @@ naziv: "Navodilo o sistemskem obratovanju distribucijskega omrežja za električ
 vrsta: "navodilo"
 datum: 2002-02-21
 sop: 2002-01-0623
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0623"
 ---
 
