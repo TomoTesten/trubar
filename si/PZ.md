@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-02-11
     sop: 2002-01-0908
     naziv: "Zakon o spremembah in dopolnitvah Pomorskega zakonika"
+  - kratica: PZ-B
+    datum: 2004-01-15
+    sop: 2004-01-0077
+    naziv: "Zakon o dopolnitvah pomorskega zakonika"
 ---
 
 # Pomorski zakonik
