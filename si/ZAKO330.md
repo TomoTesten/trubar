@@ -4,9 +4,9 @@ naziv: "Zakon o javnih glasilih (ZJG)"
 vrsta: "akt"
 datum: 1994-04-08
 sop: 1994-01-0728
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0728"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o obvezni vsebini prospekta za javno prodajo delnic podjetij v 
 vrsta: "navodilo"
 datum: 1994-04-01
 sop: 1994-01-0676
-organ: "Agencija RS za prestrukturiranje in privatizacijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0676"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o službeni izkaznici pooblaščenih uradnih oseb organov cari
 vrsta: "pravilnik"
 datum: 1994-03-25
 sop: 1994-01-0621
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0621"
 ---
 

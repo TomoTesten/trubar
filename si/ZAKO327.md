@@ -4,9 +4,9 @@ naziv: "Zakon o filmskem skladu Republike Slovenije (ZFS)"
 vrsta: "akt"
 datum: 1994-04-01
 sop: 1994-01-0664
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0664"
 ---
 

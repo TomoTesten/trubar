@@ -4,9 +4,9 @@ naziv: "Pravilnik o evidenci visokošolskih zavodov"
 vrsta: "pravilnik"
 datum: 1994-04-22
 sop: 1994-01-0902
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0902"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Navodilo o spremembah navodila o vojaški evidenci"
 vrsta: "navodilo"
 datum: 1994-04-22
 sop: 1994-01-0905
-organ: "Ministrstvo za obrambo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0905"
 ---
 

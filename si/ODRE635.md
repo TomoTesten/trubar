@@ -4,8 +4,9 @@ naziv: "Odredba o pogojih za uvoz živilskih proizvodov v Republiko Slovenijo"
 vrsta: "odredba"
 datum: 1994-04-22
 sop: 1994-01-0900
-organ: "MINISTRSTVO ZA KMETIJSTVO IN GOZDARSTVO"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0900"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Tarifa o taksah in nadomestilih za določanje o zahtevah za izdajo dovol
 vrsta: "akt"
 datum: 1994-04-13
 sop: 1994-01-0794
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0794"
 ---
 

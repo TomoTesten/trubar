@@ -4,9 +4,9 @@ naziv: "Uredba o vpisu družb in drugih pravnih oseb v sodni register"
 vrsta: "uredba"
 datum: 1994-04-15
 sop: 1994-01-0813
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0813"
 ---
 

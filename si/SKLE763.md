@@ -4,9 +4,9 @@ naziv: "Sklep o dopolnitvi sklepa o tretji emisiji dvodelnega prenosljivega blag
 vrsta: "sklep"
 datum: 1994-04-01
 sop: 1994-01-0674
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0674"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o dostavljanju podatkov o zunanjetrgovinskem in deviznem poslovan
 vrsta: "uredba"
 datum: 1994-04-01
 sop: 1994-01-0667
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0667"
 ---
 

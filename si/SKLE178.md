@@ -4,9 +4,9 @@ naziv: "Sklep o pogojih dodeljevanja proračunskih sredstev za financiranje usta
 vrsta: "sklep"
 datum: 1994-04-01
 sop: 1994-01-0668
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0668"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo za izdajanje in prenašanje atestov o ustreznosti, ki se nanaš
 vrsta: "navodilo"
 datum: 1994-04-22
 sop: 1994-01-0908
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0908"
 ---
 

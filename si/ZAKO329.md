@@ -4,9 +4,9 @@ naziv: "Zakon o razmerjih plač v javnih zavodih, državnih organih in v organih
 vrsta: "akt"
 datum: 1994-04-08
 sop: 1994-01-0727
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0727"
 ---
 

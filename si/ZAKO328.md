@@ -4,9 +4,9 @@ naziv: "Zakon o pogojih za refundiranje prispevkov, ki jih plačujejo delodajalc
 vrsta: "akt"
 datum: 1994-04-08
 sop: 1994-01-0726
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0726"
 ---
 
