@@ -12,6 +12,10 @@ spremembe:
     datum: 1998-10-23
     sop: 1998-01-3622
     naziv: "Zakon o spremembah in dopolnitvah zakona o kazenskem postopku"
+  - kratica: ZKP-B
+    datum: 1999-01-29
+    sop: 1999-01-0213
+    naziv: "Zakon o spremembi zakona o spremembah in dopolnitvah zakona o kazenskem postopku"
 ---
 
 # Zakon o kazenskem postopku
