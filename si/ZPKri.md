@@ -7,6 +7,11 @@ sop: 1996-01-3395
 objava: "Uradni list RS 59/96  str. 5060"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3395"
+spremembe:
+  - kratica: ZPKri-A
+    datum: 2001-02-16
+    sop: 2001-01-0664
+    naziv: "Zakon o spremembah zakona o popravi krivic"
 ---
 
 # Zakon o popravi krivic
