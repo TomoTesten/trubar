@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi, da so 20. člen (drugi odstavek), 4. člen (drugi
 vrsta: "akt"
 datum: 1997-01-17
 sop: 1997-01-0094
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0094"
 ---
 

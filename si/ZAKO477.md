@@ -4,9 +4,9 @@ naziv: "Uredba o začasnem financiranju potreb iz proračuna Republike Slovenije
 vrsta: "akt"
 datum: 1996-12-28
 sop: 1996-01-4098
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-4098"
 ---
 

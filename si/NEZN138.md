@@ -4,9 +4,9 @@ naziv: "Soglasje k aktu o ustanovitvi Ustanove za razvoj podjetniškega izobraž
 vrsta: "akt"
 datum: 1997-01-24
 sop: 1997-01-0181
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0181"
 ---
 

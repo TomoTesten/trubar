@@ -4,9 +4,9 @@ naziv: "Sklep o začasnem zadržanju izvrševanja 5. točke prvega odstavka 231.
 vrsta: "akt"
 datum: 1996-12-30
 sop: 1996-01-4173
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-4173"
 ---
 

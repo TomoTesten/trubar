@@ -4,9 +4,9 @@ naziv: "Seznam sort, ki se izbrišejo iz registra novih sort oziroma iz evidence
 vrsta: "drugi akt"
 datum: 1997-01-24
 sop: 1997-01-0180
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0180"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Navodilo o zakloniščnem redu"
 vrsta: "navodilo"
 datum: 1997-01-10
 sop: 1997-01-0009
-organ: "Ministrstvo za obrambo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0009"
 ---
 

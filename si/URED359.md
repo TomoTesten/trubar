@@ -4,9 +4,9 @@ naziv: "Uredba o pogojih, pod katerimi je potrebno plačila in prejemke davčnim
 vrsta: "uredba"
 datum: 1996-12-28
 sop: 1996-01-4105
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-4105"
 ---
 

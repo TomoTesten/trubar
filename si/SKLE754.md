@@ -4,9 +4,9 @@ naziv: "Sklep o osmi emisiji dvodelnega prenosljivega blagajniškega zapisa Bank
 vrsta: "sklep"
 datum: 1997-01-17
 sop: 1997-01-0095
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0095"
 ---
 

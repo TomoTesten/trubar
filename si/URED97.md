@@ -4,9 +4,9 @@ naziv: "Uredba o spremembah in dopolnitvah uredbe o taksi za obremenjevanje zrak
 vrsta: "uredba"
 datum: 1997-01-17
 sop: 1997-01-0153
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0153"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o ukrepih za ugotavljanje, preprečevanje in izkoreninjanje enz
 vrsta: "navodilo"
 datum: 1997-01-24
 sop: 1997-01-0177
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0177"
 ---
 

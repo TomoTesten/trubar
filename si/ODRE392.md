@@ -4,9 +4,9 @@ naziv: "Odredba o največji dovoljeni količini histamina v morskih ribah"
 vrsta: "odredba"
 datum: 1996-12-28
 sop: 1996-01-4121
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-4121"
 ---
 
