@@ -12,6 +12,10 @@ spremembe:
     datum: 1993-05-29
     sop: 1993-01-1222
     naziv: "Zakon o spremembah in dopolnitvah zakona o industrijski lastnini"
+  - kratica: ZIL-B
+    datum: 1997-12-05
+    sop: 1997-01-3589
+    naziv: "Zakon o dopolnitvi zakona o industrijski lastnini"
 ---
 
 # Zakon o industrijski lastnini
