@@ -7,6 +7,11 @@ sop: 2001-01-0663
 objava: "Uradni list RS 11/2001  str. 1163"
 kljucne_besede: ["fitosanitarni nadzor", "zdravstveni nadzor", "pesticid", "strupena snov", "tržni standard", "javna služba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0663"
+spremembe:
+  - kratica: ZFfS-A
+    datum: 2004-04-15
+    sop: 2004-01-1598
+    naziv: "Zakon o spremembah in dopolnitvah zakona o fitofarmacevtskih sredstvih"
 ---
 
 # Zakon o fitofarmacevtskih sredstvih
