@@ -7,6 +7,11 @@ sop: 1995-01-0884
 objava: "Uradni list RS 20/95  str. 1505"
 kljucne_besede: ["privatizacija", "javna lastnina", "pravna oseba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0884"
+spremembe:
+  - kratica: ZZPPPOP-A
+    datum: 1995-06-30
+    sop: 1995-01-1812
+    naziv: "Zakon o dopolnitvi zakona o začasni prepovedi privatizacije pravnih oseb in premoženja v lasti Republike Slovenije"
 ---
 
 # Zakon o začasni prepovedi privatizacije pravnih oseb in premoženja v lasti Republike Slovenije
