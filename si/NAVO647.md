@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve splošnega navodila o pogojih in okoliščinah z
 vrsta: "navodilo"
 datum: 2003-06-06
 sop: 2003-01-2713
-organ: "Državno tožilstvo RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2713"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Pravilnik o obliki tehničnih smernic za projektiranje, gradnjo in vzdr�
 vrsta: "navodilo"
 datum: 2003-06-06
 sop: 2003-01-2705
-organ: "Ministrstvo za okolje, prostor in energijo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2705"
 ---
 

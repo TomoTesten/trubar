@@ -4,9 +4,9 @@ naziv: "Odločba Vlada Republike Slovenije o ugotovitvi kapitalskih deležev v n
 vrsta: "akt"
 datum: 2003-06-03
 sop: 2003-01-2636
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2636"
 ---
 
