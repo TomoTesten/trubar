@@ -28,6 +28,10 @@ spremembe:
     datum: 2001-12-07
     sop: 2001-01-4848
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
+  - kratica: ZZVZZ-F
+    datum: 2002-07-10
+    sop: 2002-01-2883
+    naziv: "Zakon o spremembi zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
