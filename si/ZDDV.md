@@ -24,6 +24,10 @@ spremembe:
     datum: 2004-04-29
     sop: 2004-01-2132
     naziv: "Zakon o spremembah in dopolnitvah zakona o davku na dodano vrednost"
+  - kratica: ZDDV-E
+    datum: 2004-10-22
+    sop: 2004-01-4707
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davku na dodano vrednost"
 ---
 
 # Zakon o davku na dodano vrednost
