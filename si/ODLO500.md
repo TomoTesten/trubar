@@ -2,10 +2,11 @@
 kratica: ODLO500
 naziv: "Odlok o načinu določanja vrednosti kmetijskih zamljišč, gozdov in zemljišč, uporabljenih za gradnjo, v postopku denacionalizacije"
 vrsta: "odlok"
-datum: 1992-03-31
+datum: 1992-04-30
 sop: 1992-01-0783
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0783"
 ---
 

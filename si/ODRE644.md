@@ -4,8 +4,9 @@ naziv: "Odredba o določitvi podjetij za strokovno usposabljanje oseb, ki ravnaj
 vrsta: "odredba"
 datum: 1992-04-10
 sop: 1992-01-0915
-organ: "Ministrstvo za notranje zadeve"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0915"
 ---
 

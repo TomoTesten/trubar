@@ -4,9 +4,9 @@ naziv: "Odlok o določitvi mejnega prehoda za mednarodni morski morski promet"
 vrsta: "odlok"
 datum: 1992-04-30
 sop: 1992-01-1048
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1048"
 ---
 

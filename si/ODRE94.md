@@ -4,9 +4,9 @@ naziv: "Odredba o obveznem atestiranju protieksplozijsko zaščitenih električn
 vrsta: "odredba"
 datum: 1992-03-20
 sop: 1992-01-0723
-organ: "Urad RS za standardizacijo in meroslovje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0723"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o ustanovitvi štabov in zav
 vrsta: "odredba"
 datum: 1992-04-10
 sop: 1992-01-0865
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0865"
 ---
 

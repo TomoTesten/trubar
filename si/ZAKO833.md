@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah zakona o izplačevanju osebnih dohodko
 vrsta: "akt"
 datum: 1992-03-20
 sop: 1992-01-0720
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0720"
 ---
 

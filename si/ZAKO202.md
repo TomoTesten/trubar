@@ -4,9 +4,9 @@ naziv: "Zakon o obrestni meri zamudnih obresti (ZOMZO)"
 vrsta: "akt"
 datum: 1992-03-27
 sop: 1992-01-0726
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0726"
 ---
 

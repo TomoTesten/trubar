@@ -4,9 +4,9 @@ naziv: "Sklep o izdaji enotne menične golice"
 vrsta: "sklep"
 datum: 1992-04-24
 sop: 1992-01-1041
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1041"
 ---
 

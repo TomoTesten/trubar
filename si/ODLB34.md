@@ -4,9 +4,9 @@ naziv: "Odločba o prenehanju dela carinske izpostave Umag Carinarnice Koper"
 vrsta: "akt"
 datum: 1992-04-30
 sop: 1992-01-1109
-organ: "Carinska uprava RS (MF)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1109"
 ---
 
