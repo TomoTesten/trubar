@@ -4,9 +4,9 @@ naziv: "Sklep o zneskih dodatka za pomoč in postrežbo"
 vrsta: "sklep"
 datum: 1999-08-26
 sop: 1999-01-3429
-organ: "Zavod za pokojninsko in invalidsko zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3429"
 ---
 

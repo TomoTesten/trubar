@@ -4,9 +4,9 @@ naziv: "Sklep o prenehanju opravljanja funkcije poslanca v skladu s 14. členom 
 vrsta: "sklep"
 datum: 1999-08-20
 sop: 1999-01-3373
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3373"
 ---
 

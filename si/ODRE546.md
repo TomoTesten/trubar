@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi najnižjega katastrskega dohodka oziroma drugega do
 vrsta: "odredba"
 datum: 1999-08-12
 sop: 1999-01-3131
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3131"
 ---
 

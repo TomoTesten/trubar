@@ -4,9 +4,9 @@ naziv: "Zaključni račun proračuna Republike Slovenije za leto 1995 (RZ95)"
 vrsta: "drugi akt"
 datum: 1999-08-10
 sop: 1999-01-3094
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3094"
 ---
 

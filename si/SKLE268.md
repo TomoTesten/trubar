@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o uskladitvi ustanovnega akta javnega raziskova
 vrsta: "sklep"
 datum: 1999-08-12
 sop: 1999-01-3120
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3120"
 ---
 

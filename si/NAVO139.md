@@ -4,9 +4,9 @@ naziv: "Sprememba navodila za izpolnjevanje obrazcev o uporabi sodobnih plačiln
 vrsta: "navodilo"
 datum: 1999-08-27
 sop: 1999-01-3499
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3499"
 ---
 

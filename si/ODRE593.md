@@ -4,9 +4,9 @@ naziv: "Odredba o uvedbi namakanja na kompleksu imenovanem Namakalni sistem Ormo
 vrsta: "odredba"
 datum: 1999-08-20
 sop: 1999-01-3376
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3376"
 ---
 

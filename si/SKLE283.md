@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah in dopolnitvah sklepa o ustanovitvi Komisije Vlade Re
 vrsta: "sklep"
 datum: 1999-08-20
 sop: 1999-01-3374
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3374"
 ---
 

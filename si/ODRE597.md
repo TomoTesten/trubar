@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o prepovedi uporabe cestno-�
 vrsta: "odredba"
 datum: 1999-08-27
 sop: 1999-01-3492
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3492"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o pogojih za opravljanje aktuarskih poslov"
 vrsta: "pravilnik"
 datum: 1999-08-13
 sop: 1999-01-3189
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3189"
 ---
 
