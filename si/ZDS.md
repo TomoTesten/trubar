@@ -28,6 +28,10 @@ spremembe:
     datum: 2000-09-23
     sop: 2000-01-3806
     naziv: "Zakon o spremembi zakona o davčni službi"
+  - kratica: ZDS-F
+    datum: 2001-10-10
+    sop: 2001-01-4103
+    naziv: "Zakon o spremembi in dopolnitvi zakona o davčni službi"
 ---
 
 # Zakon o davčni službi
