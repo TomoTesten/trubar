@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve poslovnika Državnega zbora (PoDZ-B)"
 vrsta: "akt"
 datum: 1996-05-30
 sop: 1996-01-1752
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1752"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o prepovedi uporabe mesno-kostne moke v prehrani prežvekovalcev
 vrsta: "odredba"
 datum: 1996-05-24
 sop: 1996-01-1747
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1747"
 ---
 

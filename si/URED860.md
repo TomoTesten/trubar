@@ -4,9 +4,9 @@ naziv: "Uredba o spremembi uredbe o določitvi kmetijskih in živilskih proizvod
 vrsta: "uredba"
 datum: 1996-05-24
 sop: 1996-01-1740
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1740"
 ---
 

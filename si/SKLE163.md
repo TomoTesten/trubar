@@ -4,9 +4,9 @@ naziv: "Sklep o javni razgrnitvi osnutka lokacijskega načrta za obnovo in doins
 vrsta: "sklep"
 datum: 1996-05-17
 sop: 1996-01-1641
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1641"
 ---
 
