@@ -4,9 +4,9 @@ naziv: "Sporočilo o cenah plemenitih kovin na dan 30.6.1999"
 vrsta: "akt"
 datum: 1999-07-08
 sop: 1999-01-2562
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2562"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o uveljavitvi sprememb in dopolnitev tretje izdaje Evropske farmak
 vrsta: "sklep"
 datum: 1999-06-28
 sop: 1999-01-2389
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2389"
 ---
 

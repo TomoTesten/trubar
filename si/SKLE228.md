@@ -4,9 +4,9 @@ naziv: "Sklep o načinu in pogojih, pod katerimi nerezident kupuje vrednostne pa
 vrsta: "sklep"
 datum: 1999-06-28
 sop: 1999-01-2395
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2395"
 ---
 

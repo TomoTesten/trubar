@@ -4,8 +4,9 @@ naziv: "Uredba o ratifikaciji Protokola iz leta 1993, ki podaljšuje in spreminj
 vrsta: "uredba"
 datum: 1999-06-29
 sop: 1999-02-0054
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-02-0054"
 ---
 
