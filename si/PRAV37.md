@@ -4,9 +4,9 @@ naziv: "Pravilnik o izjemni uporabi zdravil za zdravljenje živali in evidencah 
 vrsta: "pravilnik"
 datum: 2000-08-25
 sop: 2000-01-3600
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3600"
 ---
 

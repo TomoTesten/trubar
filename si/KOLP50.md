@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za dejavnost zasebnega varovanja"
 vrsta: "akt"
 datum: 2000-08-19
 sop: 2000-01-3436
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3436"
 ---
 

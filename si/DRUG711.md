@@ -4,9 +4,9 @@ naziv: "Dopolnitev seznama potrjenih domačih sort kmetijskih rastlin in tujih s
 vrsta: "drugi akt"
 datum: 2000-09-01
 sop: 2000-01-3623
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3623"
 ---
 

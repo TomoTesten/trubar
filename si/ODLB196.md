@@ -4,9 +4,9 @@ naziv: "Odločba o prepovedi uvoza in prevoza pošilj domačih in divjih praši�
 vrsta: "akt"
 datum: 2000-08-22
 sop: 2000-01-3467
-organ: "Veterinarska uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3467"
 ---
 
