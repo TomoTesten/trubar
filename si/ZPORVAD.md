@@ -7,6 +7,11 @@ sop: 1994-01-1696
 objava: "Uradni list RS 42/94  str. 2765"
 kljucne_besede: ["avdiovizualna politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1696"
+spremembe:
+  - kratica: ZPORVAD-A
+    datum: 1994-08-12
+    sop: 1994-01-1867
+    naziv: "Zakon o dopolnitvi zakona o pogojih za opravljanje reproduktivne video in avdio dejavnosti"
 ---
 
 # Zakon o pogojih za opravljanje reproduktivne video in avdio dejavnosti
