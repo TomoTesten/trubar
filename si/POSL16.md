@@ -4,9 +4,9 @@ naziv: "Poslovnik Sveta za radiodifuzijo Republike Slovenije"
 vrsta: "akt"
 datum: 2000-01-13
 sop: 2000-01-0097
-organ: "Svet za radiodifuzijo Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0097"
 ---
 

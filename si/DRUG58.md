@@ -4,9 +4,9 @@ naziv: "Pravilnik o proizvodih zavajajočega videza"
 vrsta: "drugi akt"
 datum: 2000-01-21
 sop: 2000-01-0261
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0261"
 ---
 

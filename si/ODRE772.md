@@ -4,9 +4,9 @@ naziv: "Odredba o izobraževalnih programih za pridobitev srednje strokovne izob
 vrsta: "odredba"
 datum: 2000-01-07
 sop: 2000-01-0009
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0009"
 ---
 

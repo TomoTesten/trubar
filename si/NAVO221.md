@@ -4,8 +4,9 @@ naziv: "Pravilnik za izdelavo in potrditev etažnega načrta"
 vrsta: "navodilo"
 datum: 2000-01-13
 sop: 2000-01-0096
-organ: "Ministrstvo za okolje in prostor"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0096"
 ---
 

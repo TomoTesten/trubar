@@ -4,9 +4,9 @@ naziv: "Odredba o imenovanju svetovalcev za begunce"
 vrsta: "odredba"
 datum: 2000-01-14
 sop: 2000-01-0126
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0126"
 ---
 

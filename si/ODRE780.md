@@ -4,8 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o uvedbi namakanja na komple
 vrsta: "odredba"
 datum: 2000-01-07
 sop: 2000-01-0019
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0019"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Povprečni znesek trošarine za plinsko olje za pogonski namen v drugi p
 vrsta: "drugi akt"
 datum: 2000-01-21
 sop: 2000-01-0290
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0290"
 ---
 

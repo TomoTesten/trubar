@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah odredbe o določitvi števila delovnih mest strokov
 vrsta: "odredba"
 datum: 2000-01-07
 sop: 2000-01-0007
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0007"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o potrditvi zbirke vaj: PRIPRAVA PROIZVODNJE"
 vrsta: "sklep"
 datum: 2000-01-07
 sop: 2000-01-0038
-organ: "STROKOVNI SVET ZA POKLICNO IN STROKOVNO IZOBRAŽEVANJE"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0038"
 ---
 

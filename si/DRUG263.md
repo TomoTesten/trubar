@@ -4,9 +4,9 @@ naziv: "Sklep o pogojih za uvedbo, trgovanje in poravnavo obveznosti iz trgovanj
 vrsta: "drugi akt"
 datum: 2000-01-27
 sop: 2000-01-0315
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0315"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odredba o spremembi izobraževalnega programa za pridobitev višje strok
 vrsta: "odredba"
 datum: 2000-01-14
 sop: 2000-01-0174
-organ: "Ministrstvo za šolstvo in šport"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0174"
 ---
 
