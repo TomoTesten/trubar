@@ -7,6 +7,11 @@ sop: 1995-02-0011
 objava: "Uradni list RS MP 2/95  str. 40"
 kljucne_besede: ["dvostranski sporazum", "Slovenija", "Hrvaška", "izročitev"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-02-0011"
+spremembe:
+  - kratica: BHRI-A
+    datum: 1995-10-20
+    sop: 1995-02-0070
+    naziv: "Zakon o spremembi zakona o ratifikaciji Pogodbe med Republiko Slovenijo in Republiko Hrvaško o izročitvi"
 ---
 
 # Zakon o ratifikaciji Pogodbe med Republiko Slovenijo in Republiko Hrvaško o izročitvi
