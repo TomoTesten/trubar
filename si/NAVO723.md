@@ -4,8 +4,9 @@ naziv: "Zakon o ratifikaciji Sporazuma med Vlado Republike Slovenije in Svetom m
 vrsta: "navodilo"
 datum: 2005-03-08
 sop: 2005-02-0005
-organ: "Državni zbor RS"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-02-0005"
 ---
 
