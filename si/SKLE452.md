@@ -1,0 +1,39 @@
+---
+kratica: SKLE452
+naziv: "Sklep o veljavnosti tretjega dodatka k tretji izdaji Evropske farmakopeje"
+vrsta: "sklep"
+datum: 1999-12-03
+sop: 1999-01-4621
+organ: "Ministrstvo za zdravstvo"
+zbirka: "Drugi splošni in posamični akti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4621"
+---
+
+# Sklep o veljavnosti tretjega dodatka k tretji izdaji Evropske farmakopeje
+
+Na podlagi prvega odstavka 10. člena zakona o zdravilih (Uradni list RS, št. 9/96) izdaja minister za zdravstvo
+
+
+## S K L E P
+o veljavnosti tretjega dodatka k tretji izdaji  Evropske farmakopeje
+
+
+### 1
+
+V skladu z “Resolucijo AP-CSP (99) 3”, ki jo je sprejel Svet Evrope, Odbor za splošno zdravstveno varstvo (Delni sporazum) (CD-P-SP) dne 25. aprila 1999, začne 1. januarja 2000 v Republiki Sloveniji veljati tretji dodatek (Supplement 2000) k tretji izdaji Evropske farmakopeje (European Pharmacopoeia Third Edition), ki ga je založil Evropski oddelek za kakovost zdravil (European Department for the Quality of Medicines) pri Svetu Evrope v Strasbourgu.
+
+
+### 2
+
+Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 512-411/99
+
+1999-2711-0030
+
+Ljubljana, dne 9. novembra 1999.
+
+dr. Marjan Jereb l. r.
+Minister
+za zdravstvo
