@@ -16,6 +16,10 @@ spremembe:
     datum: 2001-07-19
     sop: 2001-01-3143
     naziv: "Zakon o spremembah in dopolnitvah zakona o referendumu in o ljudski iniciativi"
+  - kratica: ZRLI-C
+    datum: 2004-07-29
+    sop: 2004-01-3691
+    naziv: "Zakon o spremembah in dopolnitvah zakona o referendumu in o ljudski iniciativi"
 ---
 
 # Zakon o referendumu in o ljudski iniciativi
