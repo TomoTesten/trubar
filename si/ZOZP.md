@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-07-26
     sop: 2002-01-3238
     naziv: "Zakon o spremembah in dopolnitvah zakona o obveznih zavarovanjih v prometu"
+  - kratica: ZOZP-B
+    datum: 2005-02-11
+    sop: 2005-01-0385
+    naziv: "Zakon o spremembah in dopolnitvah zakona o obveznih zavarovanjih v prometu"
 ---
 
 # Zakon o obveznih zavarovanjih v prometu
