@@ -1,10 +1,10 @@
 ---
-kratica: MP_ODLO7785
+kratica: MP_ODLO7784
 naziv: "Odlok o prostorskih ureditvenih pogojih za območje planske celote Bled (ODLO)"
 vrsta: "občinski odlok"
 datum: 2004-05-20
 sop: 2004-01-2542
-organ: "Občina Gorje"
+organ: "Občina Bled"
 zbirka: "Neveljavni akti lokalnih skupnosti"
 status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2542"
