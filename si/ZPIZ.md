@@ -16,6 +16,10 @@ spremembe:
     datum: 1996-02-07
     sop: 1996-01-0330
     naziv: "Zakon o spremembah in dopolnitvah zakona o pokojninskem in invalidskem zavarovanju"
+  - kratica: ZPIZ-C
+    datum: 1998-07-31
+    sop: 1998-01-2417
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pokojninskem in invalidskem zavarovanju"
 ---
 
 # Zakon o pokojninskem in invalidskem zavarovanju
