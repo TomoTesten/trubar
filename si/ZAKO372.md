@@ -4,9 +4,9 @@ naziv: "Zakon o zagotovitvi sredstev za pokritje izgube v podjetju Radeče papir
 vrsta: "akt"
 datum: 1994-11-05
 sop: 1994-01-2473
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2473"
 ---
 

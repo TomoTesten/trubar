@@ -4,9 +4,9 @@ naziv: "Odločba ustavnega sodišča da 2. alinea drugega odstavka 274. člena Z
 vrsta: "akt"
 datum: 1994-10-27
 sop: 1994-01-2399
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2399"
 ---
 

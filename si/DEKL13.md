@@ -4,9 +4,9 @@ naziv: "Deklaracija o odnosih Slovenije z Italijo in Evropsko unijo"
 vrsta: "akt"
 datum: 1994-11-18
 sop: 1994-01-2586
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2586"
 ---
 

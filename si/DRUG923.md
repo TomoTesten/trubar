@@ -4,9 +4,9 @@ naziv: "Seznam gotovih zdravil, za katera je bilo od 1. 7. 94 do 30. 9. 94 dano 
 vrsta: "drugi akt"
 datum: 1994-10-27
 sop: 1994-01-2396
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2396"
 ---
 

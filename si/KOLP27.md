@@ -4,9 +4,9 @@ naziv: "Aneks h kolektivni pogodbi za dejavnost železniškega prometa"
 vrsta: "akt"
 datum: 1994-11-05
 sop: 1994-01-2487
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2487"
 ---
 

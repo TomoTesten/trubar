@@ -4,9 +4,9 @@ naziv: "Pravilnik o infrastrukturnih raziskovalnih centrih"
 vrsta: "pravilnik"
 datum: 1994-10-28
 sop: 1994-01-2421
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2421"
 ---
 

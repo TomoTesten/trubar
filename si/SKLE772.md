@@ -4,9 +4,9 @@ naziv: "Sklep o drugi izdaji blagajniškega zapisa Banke Slovenije z nakupnim bo
 vrsta: "sklep"
 datum: 1994-11-05
 sop: 1994-01-2482
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2482"
 ---
 

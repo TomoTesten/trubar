@@ -4,9 +4,9 @@ naziv: "Količnik za določitev osnove za davek od osebnih prejemkov od pokojnin
 vrsta: "drugi akt"
 datum: 1994-11-05
 sop: 1994-01-2481
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2481"
 ---
 

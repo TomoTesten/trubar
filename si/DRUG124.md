@@ -4,9 +4,9 @@ naziv: "Spisek izdanih dovoljenj (atestov) za telekomunikacijsko opremo v drugem
 vrsta: "drugi akt"
 datum: 1994-10-28
 sop: 1994-01-2422
-organ: "Uprava RS za telekomunikacije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2422"
 ---
 

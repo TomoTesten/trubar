@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju kontrolnih organizacij za ocenjevanje kakovosti go
 vrsta: "akt"
 datum: 1994-11-18
 sop: 1994-01-2560
-organ: "MINISTRSTVO ZA KMETIJSTVO IN GOZDARSTVO"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2560"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o zagotavljanju sredstev za odplačilo kreditov za trajna obratna 
 vrsta: "akt"
 datum: 1994-11-11
 sop: 1994-01-2510
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2510"
 ---
 
