@@ -7,6 +7,11 @@ sop: 1998-01-2303
 objava: "Uradni list RS 51/98  str. 3641"
 kljucne_besede: ["terjatev", "civilno pravo", "obligacijsko pravo", "izvršitev sodne odločbe"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2303"
+spremembe:
+  - kratica: ZIZ-A
+    datum: 2002-08-22
+    sop: 2002-01-3570
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izvršbi in zavarovanju"
 ---
 
 # Zakon o izvršbi in zavarovanju
