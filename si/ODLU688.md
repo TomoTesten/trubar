@@ -1,0 +1,59 @@
+---
+kratica: ODLU688
+naziv: "Odločba, da se razveljavi drugi stavek drugega odstavka 20. člena Zakona o davčnem postopku, da prvi stavek drugega odstavka 20. člena Zakona o davčnem postopku ni v neskladju z Ustavo ter da se pobuda za oceno ustavnosti prvega odstavka 20. člena Zakona o davčnem postopku zavrne"
+vrsta: "akt"
+datum: 2004-02-20
+sop: 2004-01-0649
+organ: "Ustavno sodišče Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0649"
+---
+
+# Odločba, da se razveljavi drugi stavek drugega odstavka 20. člena Zakona o davčnem postopku, da prvi stavek drugega odstavka 20. člena Zakona o davčnem postopku ni v neskladju z Ustavo ter da se pobuda za oceno ustavnosti prvega odstavka 20. člena Zakona o davčnem postopku zavrne
+
+Ustavno sodišče je v postopku za oceno ustavnosti družbe RAP – Raiffeisen Leasing, d.o.o., Ljubljana, ki jo zastopajo Miro Senica in drugi, odvetniki v Ljubljani, na seji dne 5. februarja 2004
+
+
+## o d l o č i l o:
+
+1. Drugi stavek drugega odstavka 20. člena Zakona o davčnem postopku (Uradni list RS, št. 18/96, 87/97, 82/98, 91/98 in 108/99) se razveljavi.
+2. Prvi stavek drugega odstavka 20. člena Zakona o davčnem postopku ni v neskladju z Ustavo.
+3. Pobuda za oceno ustavnosti prvega odstavka 20. člena Zakona o davčnem postopku se zavrne.
+
+
+## O b r a z l o ž i t e v
+
+
+### A)
+
+1. Pobudnica utemeljuje pravni interes za izpodbijanje 20. člena Zakona o davčnem postopku (v nadaljevanju: ZDavP) z vloženo pritožbo zoper davčno odločbo in predlogom za odlog izterjave. Ker pritožba na podlagi prvega odstavka 20. člena ZDavP ni suspenzivna, meni, da varstvo njenih pravic in interesov ni učinkovito. Zato zatrjuje s tretjim odstavkom 15. člena Ustave neskladen poseg v pravico do pritožbe iz 25. člena Ustave. V utemeljitev navaja, da nesuspenzivnost ni nujna, ne sorazmerna. Iz drugega odstavka 26. člena Zakona o upravnem sporu (Uradni list RS, št. 50/97 in nasl. – ZUS) naj bi namreč izhajalo, da postane izpodbijana odločba dokončna in s tem izvršljiva najkasneje v 2 mesecih in 15 dneh, ko pretečeta rok za pritožbo in rok za odločitev o pritožbi. Za nesorazmernost pa naj bi šlo, ker se izpolnitev davčnih obveznosti lahko zagotovi tudi z drugimi sredstvi (npr. zavarovanje dolga). Ker naj bi se davčnemu zavezancu z izvršbo odvzela denarna sredstva na podlagi odločbe, ki ni dokončna, ne pravnomočna, naj bi šlo tudi za neskladje prvega odstavka 20. člena ZDavP s 33. členom Ustave. Hkrati pobudnica zatrjuje še neskladje drugega odstavka 20. člena ZDavP z 2. in s 23. členom Ustave, saj ni predpisan rok, v katerem bi moral davčni organ odločiti o predlogu za odlog izterjave, oziroma ni predpisana suspenzivnost izterjave, ko je predlagan njen odlog. V neskladju z načeli pravne države pa naj bi bila tudi rešitev, da odlog prisilne izterjave ne prekine obračunavanja zamudnih obresti. Za neskladje naj bi šlo zaradi nekonsistentnosti z določbo, ki dovoljuje odlog izterjave v primeru ocene, da bo pritožbi mogoče ugoditi.
+2. Sekretariat Državnega zbora za zakonodajo in pravne zadeve je glede izpodbijanega prvega odstavka 20. člena ZDavP poudaril, da iz Ustave ne izhaja, da mora biti pravno sredstvo suspenzivno, temveč mora biti učinkovito, kar pravno sredstvo v davčnem postopku je. Slednje naj bi potrjevale tudi pobudničine navedbe o siceršnjem kratkem suspenzivnem učinku, ki je le dodatna pravica v primerih, ko je glede na naravo stvari izvršbo mogoče odložiti do odločitve o pravnem sredstvu. Zato ob tem izpostavlja naravo davkov, zaradi katere je nasproti pravici do suspenzivnosti pravica državljanov do socialnih in drugih funkcij države. V nadaljevanju: nasprotni udeleženec še oporeka, da bi bila z drugim odstavkom 20. člena ZDavP kršena pravica do sodnega varstva, saj je zoper odločbo o neodložitvi izvršbe dopustna pritožba oziroma upravni spor. Glede nepretrganega teka zamudnih obresti pa poudarja, da sam odlog izvršbe nima vpliva na tek obresti, saj je namen odložitve preprečiti težko popravljivo škodo in ne zmanjševati obveznosti dolžnika.
+
+
+### B)
+
+3. Ustavno sodišče je o ustavnosti določbe, po kateri pritožba ne zadrži izvršitve odločbe o odmeri davka (prvi odstavek 20. člena ZDavP), na podlagi katere mora davčni zavezanec izpolniti svojo denarno obveznost, še preden je v upravnem postopku na drugi stopnji ocenjena zakonitost in pravilnost odločbe, saj se v nasprotnem primeru uvede prisilna izterjava (40. člen ZDavP), z vidika 25. in 33. člena Ustave, ki ju izpostavlja pobudnica, že odločalo v zadevi št. U-I-297/95 z dne 28. 10. 1998 (Uradni list RS, št. 76/98 in OdlUS VII, 198). Iz odločbe, sprejete v navedeni zadevi, izhaja, da prvi odstavek 20. člena ZDavP ni v neskladju z Ustavo. Da sama nesuspenzivnost pravnega sredstva ni nezdružljiva z zahtevo po učinkovitosti pravnega sredstva iz 25. člena Ustave, je Ustavno sodišče nato ponovno poudarilo tudi v odločbi št. U-I-339/98 z dne 21. 1. 1999 (Uradni list RS, št. 11/99 in OdlUS VIII, 13). Ustavno sodišče ustavnosti prvega odstavka 20. člena ZDavP ni ponovno ocenjevalo, ker pobudnica ni navedla nobenih novih razlogov, na podlagi katerih bi bilo mogoče pričakovati drugačno odločitev. Zato je pobudo v tem delu kot očitno neutemeljeno zavrnilo.
+4. Sprejelo pa je pobudo za oceno ustavnosti drugega odstavka 20. člena ZDavP. Ker so bili izpolnjeni pogoji iz četrtega odstavka 26. člena Zakona o Ustavnem sodišču (Uradni list RS, št. 15/94 – v nadaljevanju: ZUstS), je Ustavno sodišče po sprejemu pobude nadaljevalo z odločanjem.
+5. Po določbi drugega odstavka 20. člena ZDavP lahko davčni organ do odločitve o pritožbi odloži prisilno izterjavo, če oceni, da bo pritožbi mogoče ugoditi (prvi stavek), s tem da odlog prisilne izterjave ne prekine obračunavanja zamudnih obresti (drugi stavek). Navedeno pomeni, da nesuspenzivnost pravnega sredstva ni absolutna, temveč omejena, saj je omiljena. Z vidika davčnega zavezanca kot davčnega dolžnika predstavljajo omilitev tiste utemeljene objektivne okoliščine posameznega primera, zaradi katerih davčni organ na podlagi ocene pritožbenih razlogov z vidika možnega uspeha davčnega dolžnika s pritožbo odloži izvršbo. Pri izdelavi te ocene ZDavP davčnega organa časovno izrecno ne omejuje, saj mu ne predpisuje roka, v katerem bi moral odločiti o predlogu za odlog izterjave. Vendar določba prvega stavka drugega odstavka 20. člena ZDavP zaradi tega ni v neskladju z 2. členom Ustave, kot to zatrjuje pobudnica. Skladno s petim odstavkom 1. člena ZDavP se namreč glede vseh vprašanj postopka, razen tistih, ki so z ZDavP urejena drugače, uporablja Zakon o splošnem upravnem postopku (Uradni list RS, št. 80/99 in nasl. – v nadaljevanju: ZUP). To pomeni, da mora davčni organ odločiti v časovnem okviru, določenim z 222. členom ZUP (najpozneje v enem oziroma dveh mesecih).(*1) Prav tako prvi stavek drugega odstavka 20. člena ZDavP ni v neskladju s 23. členom Ustave, saj je pravica do učinkovitega sodnega varstva pravic, interesov in pravnih koristi iz prvega odstavka 23. člena Ustave zagotovljena kljub temu, da ZDavP ne predpisuje, da je izterjava odložena v času, ko davčni organ odloča o predlogu za odlog izterjave. Morebitna uvedba prisilne izterjave, na podlagi izdanega sklepa davčnega organa (42. člen ZDavP),(*2) zoper katerega se davčni zavezanec lahko pritoži, davčni organ pa odloži začeti postopek prisilne izterjave (45. člen ZDavP), namreč ni takšno ravnanje, ki bi povzročilo, da sodno varstvo ne bi moglo doseči svojega namena. Za kaj takega ne gre tudi zaradi predhodno navedenih določb ZDavP, na podlagi katerih ima davčni zavezanec možnost doseči odložitev izterjave še po tem, ko je že izdan sklep o prisilni izterjavi oziroma ko je postopek prisilne izterjave dejansko uveden. Poleg tega pa uvedba oziroma izvedba postopka prisilne izterjave v davčnem postopku tudi ni dejanje, ki bi izničilo morebitni kasnejši uspeh v postopku, ker vzpostavitev stanja, kakršno je bilo pred postopkom prisilne izterjave, ni nemogoča in tudi ne nesorazmerno otežena, saj gre praviloma za denarna sredstva. Ker se ta vrnejo (95. člen ZDavP), je neutemeljeno pobudničino zatrjevanje neskladnosti prvega stavka drugega odstavka 20. člena ZDavP s 23. členom Ustave.
+6. Pritrditi pa je treba pobudničinemu zatrjevanju neustavnosti drugega stavka drugega odstavka 20. člena ZDavP. Gre za določbo, na podlagi katere odlog prisilne izterjave ne prekine obračunavanja zamudnih obresti, s katero je v neskladju z načeli pravne države (2. člen Ustave) povzročeno notranje nasprotje znotraj pravnega reda.
+7. Za davčnega zavezanca predstavlja namreč uzakonjena možnost odloga prisilne izterjave omilitev uveljavljene nesuspenzivnosti pravnega sredstva v davčnem postopku v tistih primerih, ko davčni organ oceni, da bo pritožbi mogoče ugoditi. Vendar to omilitev določba drugega stavka drugega odstavka 20. člena ZDavP izniči, saj davčnega zavezanca vrne v položaj, v katerem bi bil, če mu davčni organ ne bi odložil prisilne izterjave. S tem pa na občutljivem področju pravnega urejanja, kot je davčno obremenjevanje vzbuja pri prizadetih negotovost in dvom v doslednost pravnega reda in stabilnost prava, saj se kljub utemeljeni uporabi omilitvene določbe končni položaj davčnega dolžnika ne spremeni, čeprav ni za to nobenih utemeljenih razlogov. Navedeno povzroča neskladje znotraj pravnega reda, ki je kot tako v neskladju z Ustavo; kadar zakonodajalec uveljavi določeno ureditev, ki naj bi omilila položaj prizadetega subjekta, tedaj ni dopustno takšno nadaljnje urejanje področja, ki povsem izvotli predhodno predpisano omilitev. Lahko pa se omilitvi postavi razumen okvir. V obravnavanem primeru bi tak razumen okvir predstavljalo npr. obrestovanje, ki bi zagotavljalo ohranjanje realne vrednosti denarja. Ker pa izpodbijana ureditev iz drugega stavka drugega odstavka 20. člena ZDavP, po kateri odlog prisilne izterjave ne prekine obračunavanja zamudnih obresti od davčnega dolga, ne dopušča take razlage, jo je Ustavno sodišče razveljavilo.
+
+
+### C)
+
+8. Ustavno sodišče je sprejelo to odločbo na podlagi 21. člena, drugega odstavka 26. člena in 43. člena ZUstS v sestavi: predsednica dr. Dragica Wedam Lukić ter sodnice in sodniki dr. Janez Čebulj, dr. Zvonko Fišer, Lojze Janko, mag. Marija Krisper Kramberger, Milojka Modrijan, dr. Ciril Ribičič, dr. Mirjam Škrk in Jože Tratnik. Prvo točko izreka je sprejelo s petimi glasovi proti štirim. Proti sta glasovali sodnici Krisper Kramberger in Modrijan ter sodnika Fišer in Tratnik. Drugo in tretjo točko izreka je sprejelo soglasno.
+
+Št. U-I-233/01-14
+
+Ljubljana, dne 5. februarja 2004.
+
+Predsednica
+dr. Dragica Wedam Lukić l. r.
+
+(*1) Člen 222 ZUP določa:
+"(1) Kadar se začne postopek na zahtevo stranke oziroma po uradni dolžnosti, če je to v interesu stranke, pa pred odločitvijo ni potreben poseben ugotovitveni postopek, mora pristojni organ izdati odločbo in jo vročiti stranki čimprej, najpozneje pa v enem mesecu od dneva, ko je prejel popolno vlogo za začetek postopka, oziroma od dneva, ko je bil začet postopek po uradni dolžnosti, če ni s posebnim predpisom določen krajši rok. V drugih primerih, ko se začne postopek na zahtevo stranke oziroma po uradni dolžnosti, če je to v interesu stranke, mora pristojni organ izdati odločbo in jo vročiti stranki najpozneje v dveh mesecih.
+(2) Če stranka vloži vlogo, ki je nepopolna in jo po pozivu dopolni, začne teči rok iz prejšnjega odstavka od dne, ko je organ prejel dopolnitev vloge.
+(3) Rok iz prvega odstavka tega člena ne teče v času, ko je postopek prekinjen.
+(4) Če pristojni organ, zoper katerega odločbo je dovoljena pritožba, ne izda odločbe in je ne vroči stranki v predpisanem roku, ima stranka pravico do pritožbe, kot da bi bil njen zahtevek zavrnjen."
+(*2) Skladno z navedeno določbo davčni organ uvede prisilno izterjavo z izdajo sklepa o prisilni izterjavi.
