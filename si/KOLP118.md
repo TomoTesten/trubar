@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za kmetijstvo in živilsko industrijo Slovenije"
 vrsta: "akt"
 datum: 2001-07-13
 sop: 2001-01-3072
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3072"
 ---
 

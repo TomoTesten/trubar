@@ -4,9 +4,9 @@ naziv: "Navodilo o vpisu v seznam pravnih in fizičnih oseb, ki opravljajo proiz
 vrsta: "navodilo"
 datum: 2001-07-13
 sop: 2001-01-3141
-organ: "Ministrstvo za zdravje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3141"
 ---
 

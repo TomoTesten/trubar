@@ -4,9 +4,9 @@ naziv: "Navodilo za oblikovanje cen storitev obveznih lokalnih javnih služb"
 vrsta: "navodilo"
 datum: 2001-07-06
 sop: 2001-01-2973
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2973"
 ---
 

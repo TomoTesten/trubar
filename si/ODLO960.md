@@ -4,9 +4,9 @@ naziv: "Odlok o imenovanju članov Nadzornega odbora Sklada kmetijskih zemljiš�
 vrsta: "odlok"
 datum: 2001-07-06
 sop: 2001-01-2960
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2960"
 ---
 
