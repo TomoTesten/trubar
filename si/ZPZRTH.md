@@ -12,6 +12,10 @@ spremembe:
     datum: 2003-05-09
     sop: 2003-01-2011
     naziv: "Zakon o spremembah in dopolnitvah zakona o postopnem zapiranju Rudnika Trbovlje - Hrastnik in razvojnem prestrukturiranju regije"
+  - kratica: ZPZRTH-B
+    datum: 2004-06-30
+    sop: 2004-01-3165
+    naziv: "Zakon o spremembah in dopolnitvah zakona o postopnem zapiranju Rudnika Trbovlje-Hrastnik in razvojnem prestrukturiranju regije"
 ---
 
 # Zakon o postopnem zapiranju Rudnika Trbovlje - Hrastnik in razvojnem prestrukturiranju regije
