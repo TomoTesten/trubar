@@ -7,6 +7,11 @@ sop: 2001-01-4107
 objava: "Uradni list RS 79/2001  str. 8055"
 kljucne_besede: ["poroštvo", "zračni promet", "prevoz po zraku", "letalski potniški promet", "terorizem", "vojna škoda"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4107"
+spremembe:
+  - kratica: ZJODLPKŠ-A
+    datum: 2001-12-29
+    sop: 2001-01-5494
+    naziv: "Zakon o spremembah in dopolnitvah zakona o jamstvu Republike Slovenije za obveznosti domačega letalskega prevoznika za kritje škod, nastalih kot posledica vojne oziroma terorizma in o pogojih jamstva za tuje letalske prevoznike"
 ---
 
 # Zakon o jamstvu Republike Slovenije za obveznosti domačega letalskega prevoznika za kritje škod, nastalih kot posledica vojne oziroma terorizma in o pogojih jamstva za tuje letalske prevoznike
