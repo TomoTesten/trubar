@@ -4,9 +4,9 @@ naziv: "Akt o nasledstvu Sporazumov nekdanje Jugoslavije s Švicarsko konfederac
 vrsta: "akt"
 datum: 1996-05-31
 sop: 1996-02-0026
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-02-0026"
 ---
 

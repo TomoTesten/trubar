@@ -4,9 +4,9 @@ naziv: "Koeficient zvišanja najnižjih zavarovalnih vsot iz 12., 19. in 31. čl
 vrsta: "drugi akt"
 datum: 1996-05-31
 sop: 1996-01-1844
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1844"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o vsebini prijave za registracijo topografije polprevodniških
 vrsta: "pravilnik"
 datum: 1996-06-14
 sop: 1996-01-2022
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2022"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o kakovosti mesa klavne živine in divjadi"
 vrsta: "pravilnik"
 datum: 1996-06-14
 sop: 1996-01-2020
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2020"
 ---
 
