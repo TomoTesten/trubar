@@ -4,8 +4,9 @@ naziv: "Navodilo o dopolnitvi navodila o določitvi pokojninske osnove za odmero
 vrsta: "navodilo"
 datum: 1998-12-15
 sop: 1998-01-4387
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4387"
 ---
 

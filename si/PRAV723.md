@@ -4,9 +4,9 @@ naziv: "Pravilnik o ravnanju z odpadnimi olji"
 vrsta: "pravilnik"
 datum: 1998-12-15
 sop: 1998-01-4386
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4386"
 ---
 

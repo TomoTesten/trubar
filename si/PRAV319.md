@@ -4,9 +4,9 @@ naziv: "Pravilnik o ravnanju z odpadki"
 vrsta: "pravilnik"
 datum: 1998-12-11
 sop: 1998-01-4330
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4330"
 ---
 

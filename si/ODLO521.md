@@ -4,9 +4,9 @@ naziv: "Odlok o določitvi zneska omejitev odškodninske odgovornosti uporabnika
 vrsta: "odlok"
 datum: 1998-12-11
 sop: 1998-01-4325
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4325"
 ---
 

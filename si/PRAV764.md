@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembi pravilnika o kakovosti mesa klavne živine in divj
 vrsta: "pravilnik"
 datum: 1998-12-15
 sop: 1998-01-4388
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4388"
 ---
 

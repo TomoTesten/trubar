@@ -4,9 +4,9 @@ naziv: "Navodilo za določitev kategorij nastanitvenih obratov na podlagi ocene"
 vrsta: "navodilo"
 datum: 1998-12-18
 sop: 1998-01-4418
-organ: "Ministrstvo za malo gospodarstvo in turizem"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4418"
 ---
 

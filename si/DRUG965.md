@@ -4,9 +4,9 @@ naziv: "Seznam zdravil skupine C, za katere je bilo od 21. 7. 1998 do 30. 11. 19
 vrsta: "drugi akt"
 datum: 1998-12-11
 sop: 1998-01-4332
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4332"
 ---
 

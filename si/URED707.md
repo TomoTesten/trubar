@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi uporabe znižane carinske stopnje in stopnje \"prost
 vrsta: "uredba"
 datum: 1998-12-15
 sop: 1998-01-4382
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4382"
 ---
 

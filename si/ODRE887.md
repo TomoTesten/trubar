@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi cen pšenice iz državnih blagovnih rezerv"
 vrsta: "odredba"
 datum: 1998-12-18
 sop: 1998-01-4416
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4416"
 ---
 
