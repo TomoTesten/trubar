@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu in rokih usklajevanja terjatev in obveznosti po 37. �
 vrsta: "navodilo"
 datum: 2001-01-12
 sop: 2001-01-0124
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0124"
 ---
 

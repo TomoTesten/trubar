@@ -4,9 +4,9 @@ naziv: "Odlok o imenovanju ministrov"
 vrsta: "odlok"
 datum: 2001-01-18
 sop: 2001-01-0197
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0197"
 ---
 

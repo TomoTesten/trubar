@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi odloka o organizaciji in delu služb Državnega zbora 
 vrsta: "odlok"
 datum: 2000-12-29
 sop: 2000-01-5210
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-5210"
 ---
 

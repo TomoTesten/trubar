@@ -4,9 +4,9 @@ naziv: "Sklep o podrobnejših pravilih in minimalnih standardih za izračun zava
 vrsta: "drugi akt"
 datum: 2001-01-18
 sop: 2001-01-0220
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0220"
 ---
 
