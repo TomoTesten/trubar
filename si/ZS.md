@@ -16,6 +16,10 @@ spremembe:
     datum: 1999-05-21
     sop: 1999-01-1874
     naziv: "Zakon o spremembi zakona o sodiščih"
+  - kratica: ZS-C
+    datum: 2000-03-30
+    sop: 2000-01-1254
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodiščih"
 ---
 
 # Zakon o sodiščih
