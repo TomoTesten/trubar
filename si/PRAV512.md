@@ -4,9 +4,9 @@ naziv: "Pravilnik o meroslovnih zahtevah za plinomere, ki lahko nosijo oznake in
 vrsta: "pravilnik"
 datum: 2001-09-14
 sop: 2001-01-3874
-organ: "Ministrstvo za šolstvo, znanost in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3874"
 ---
 

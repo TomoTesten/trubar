@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu, obliki in rokih posredovanja podatkov o upravičenci
 vrsta: "navodilo"
 datum: 2001-08-31
 sop: 2001-01-3792
-organ: "Ministrstvo za gospodarstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3792"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o vodenju in vsebini evidence o brezplačni pravni pomoči"
 vrsta: "navodilo"
 datum: 2001-09-26
 sop: 2001-01-3959
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3959"
 ---
 

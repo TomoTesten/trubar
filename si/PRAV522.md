@@ -4,9 +4,9 @@ naziv: "Pravilnik o meroslovnih zahtevah za taksimetre, ki lahko nosijo oznake i
 vrsta: "pravilnik"
 datum: 2001-09-21
 sop: 2001-01-3927
-organ: "Ministrstvo za šolstvo, znanost in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3927"
 ---
 

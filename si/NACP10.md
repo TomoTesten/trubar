@@ -4,9 +4,9 @@ naziv: "Srednjeročni program statističnih raziskovanj 2001-2002"
 vrsta: "akt"
 datum: 2001-09-26
 sop: 2001-01-3954
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3954"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o dopolnitvi odločbe o prepovedi uvoza in prevoza določenih p
 vrsta: "akt"
 datum: 2001-08-31
 sop: 2001-01-3796
-organ: "Veterinarska uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3796"
 ---
 
