@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o preoblikovanju Urbanističnega inštituta Rep
 vrsta: "sklep"
 datum: 1993-08-06
 sop: 1993-01-1809
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1809"
 ---
 

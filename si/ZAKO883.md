@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah zakona o predsanaciji, sanaciji, stečaju in likvidac
 vrsta: "akt"
 datum: 1993-08-06
 sop: 1993-01-1798
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1798"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o taksi na izvoženo blago (ZTIB)"
 vrsta: "akt"
 datum: 1993-08-06
 sop: 1993-01-1799
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1799"
 ---
 

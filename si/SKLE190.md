@@ -4,9 +4,9 @@ naziv: "Sklep o soglasju k izobraževalnim programom v visokem izobraževanju"
 vrsta: "sklep"
 datum: 1993-08-06
 sop: 1993-01-1807
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1807"
 ---
 

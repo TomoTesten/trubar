@@ -4,9 +4,9 @@ naziv: "Odredba o dopolnitvi odredbe o proizvodih, ki spadajo med kmetijsko meha
 vrsta: "odredba"
 datum: 1993-08-20
 sop: 1993-01-1876
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1876"
 ---
 
