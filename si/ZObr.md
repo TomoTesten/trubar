@@ -20,6 +20,10 @@ spremembe:
     datum: 2002-05-29
     sop: 2002-01-2276
     naziv: "Zakon o spremembah in dopolnitvah zakona o obrambi"
+  - kratica: ZObr-D
+    datum: 2004-04-20
+    sop: 2004-01-1665
+    naziv: "Zakon o spremembah in dopolnitvah zakona o obrambi"
 ---
 
 # Zakon o obrambi
