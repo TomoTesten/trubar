@@ -7,6 +7,11 @@ sop: 1994-01-0513
 objava: "Uradni list RS 13/94  str. 704"
 kljucne_besede: ["pripravništvo", "sodnik", "sodnik/državni tožilec", "pravniški poklic", "notar", "odvetnik", "izpit"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0513"
+spremembe:
+  - kratica: ZPDI-A
+    datum: 1994-11-18
+    sop: 1994-01-2550
+    naziv: "Zakon o spremembi zakona o pravniškem državnem izpitu"
 ---
 
 # Zakon o pravniškem državnem izpitu
