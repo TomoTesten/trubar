@@ -1,0 +1,84 @@
+---
+kratica: ODLU679
+naziv: "Odločba o razveljavitvi 97.a člena Zakona o zdravstveni dejavnosti in ugotovitev, da 87. člen Zakona o zdravstveni dejavnosti ni v neskladju z Ustavo"
+vrsta: "akt"
+datum: 2003-12-31
+sop: 2003-01-5860
+organ: "Ustavno sodišče Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5860"
+---
+
+# Odločba o razveljavitvi 97.a člena Zakona o zdravstveni dejavnosti in ugotovitev, da 87. člen Zakona o zdravstveni dejavnosti ni v neskladju z Ustavo
+
+Ustavno sodišče je v postopku za oceno ustavnosti, začetem na pobudo Zbornice fizioterapevtov Slovenije, Ljubljana, ki jo zastopa predsednica Friderika Kresal, in Zbornice laboratorijske medicine Slovenije, Ljubljana, ki jo zastopa predsednik dr. Borut Božič, na seji dne 11. decembra 2003
+
+
+## o d l o č i l o:
+
+1. Člen 87 a Zakona o zdravstveni dejavnosti (Uradni list RS, št. 9/92, 26/92, 37/95, 8/96, 90/99, 98/99, 31/2000, 36/2000 in 45/01) se razveljavi.
+2. Člen 87 Zakona o zdravstveni dejavnosti ni v neskladju z Ustavo.
+3. Člen 14 Zakona o spremembah in dopolnitvah Zakona o zdravstveni dejavnosti (Uradni list RS, št. 45/01) ni v neskladju z Ustavo.
+
+
+## O b r a z l o ž i t e v
+
+
+### A)
+
+1. Pobudnici izpodbijata določbe 11., 12. in 14. člena Zakona o spremembah in dopolnitvah Zakona o zdravstveni dejavnosti (v nadaljevanju: ZZDej-F), ki spreminjajo in dopolnjujejo Zakon o zdravstveni dejavnosti (Uradni list RS, št. 9/92 in nasl. – v nadaljevanju: ZZDej).
+2. Navajata, da je 11. člen ZZDej-F, ki spreminja 87. člen ZZDej, v neskladju z Ustavo, ker ne določa kriterijev in postopkov za ustanovitev poklicnih zbornic, ki jih predvideva v prvem odstavku istega člena. Spremenjeni 87. člen ZZDej naj ne bi bil bistveno drugačen od prej veljavnega. Za te določbe oziroma za ZZDej pa je Ustavno sodišče v odločbi št. U-I-77/98 z dne 17. 6. 1999 (Uradni list RS, št. 59/99 in OdlUS VIII, 156) ugotovilo, da je v neskladju z Ustavo, ker ne določa postopka in kriterijev za ustanovitev zbornic po 87. členu. Spremenjeni 87.člen ZZDej sicer vsebuje določbe o kriterijih in postopku za ustanovitev poklicnih zbornic, vendar postopek ustanavljanja veže na določbe Zakona o društvih (Uradni list RS, št. 60/95 in nasl. – v nadaljevanju: ZDru). To naj bi bilo po mnenju pobudnic v neskladju z načeli pravne države (2. člen Ustave), predvsem z načelom jasnosti in določnosti predpisov.
+3. Člen 12 ZZDej-F, ki v Zakon dodaja 87.a in 87.b člen, naj bi bil v neskladju z drugim odstavkom 121. člena Ustave, ki določa, da se javno pooblastilo za opravljanje nekaterih funkcij državne uprave lahko prenese na samoupravne skupnosti, podjetja in druge organizacije ter posameznike z zakonom. Iz navedb pobude izhaja, da je za pobudnici ustavno sporen samo 87.a člen. Navajata namreč, da je v neskladju z Ustavo določba Zakona, ki pooblašča ministra, pristojnega za zdravje, za prenos javnih pooblastil na poklicno zbornico oziroma strokovno združenje. To pooblastilo pa ureja 87.a člen.
+4. Dalje navajata, da je tudi določba 14. člena ZZDej-F, ki nalaga že ustanovljenim zbornicam uskladitev delovanja z določbami ZZDej-F, v neskladju z Ustavo, saj posega v pravico do svobodnega združevanja (42. člen Ustave).
+5. Sekretariat za zakonodajo in pravne zadeve Državnega zbora je v pojasnilu na navedbe pobude zavrnil očitek neskladja izpodbijanih členov ZZDej-F z Ustavo kot neutemeljen. Meni, da opredelitev zbornice kot osebe zasebnega prava, ki se ustanovi in deluje po pravilih ZDru ne pomeni kršitve 2. in 42. člena Ustave. V skladu z drugim odstavkom 121. člena Ustave naj bi bile tudi določbe 12. člena ZZDej-F. Podobno meni tudi Vlada.
+
+
+### B) – I.
+
+6. Ustavno sodišče je s sklepom št. U-I-137/01 z dne 12. 7. 2001 zadržalo izvrševanje 12. člena ZZDej-F, zavrnilo pa predlog za zadržanje 11. in 14. člena ZZDej-F. Dne 21. 3. 2002 je zavrnilo ponovni predlog za zadržanje 14. člena ZZDej-F.
+7. Ustavno sodišče je pobudo sprejelo in, ker so bili izpolnjeni pogoji iz četrtega odstavka 26. člena Zakona o Ustavnem sodišču, (Uradni list RS, št. 15/94 – v nadaljevanju: ZUstS), nadaljevalo z odločanjem o stvari sami.
+
+
+### B) – II.
+
+8. Očitek pobudnic, da so določbe 87. člena ZZDej nejasne in nedoločne ter zato v neskladju z načeli pravne države iz 2. člena Ustave, ni utemeljen. Iz prvega odstavka 87. člena ZZDej izhaja, da lahko ustanovijo zdravstveni delavci iz posamezne poklicne skupine poklicne zbornice ali strokovna združenja. V drugem odstavku istega člena pa je določeno, da so takšne zbornice ali društva osebe zasebnega prava in da se ustanovijo in delujejo po pravilih ZDru. Iz navedene določbe jasno izhaja: da gre za prostovoljno združevanje zdravstvenih delavcev iz posamezne poklicne skupine; da imajo takšne zbornice oziroma strokovna združenja status društev po ZDru; da so osebe zasebnega prava. Z izpodbijano določbo je zakonodajalec odpravil nejasen položaj zbornic, ustanovljenih po 87. členu, kot je veljal pred sprejemom ZZDej-F. To je bil dolžan storiti na podlagi odločbe Ustavnega sodišča št. U-I-77/98. Prav tako ni mogoče pritrditi pobudnicama, da bi moral zakonodajalec zbornicam zdravstvenih delavcev, ustanovljenih po prej veljavnem 87. členu ZZdej, dati enak status, kakor ga ima Zdravniška zbornica, in da takšna dolžnost izhaja iz navedene odločbe Ustavnega sodišča. Zakaj je takšno prepričanje pobudnic zmotno, je Ustavno sodišče obširno obrazložilo v navedeni odločbi.
+9. Neutemeljen je tudi očitek, da je 14. člen ZZDej-F v neskladju z 42. členom Ustave. Navedeni člen ne določa obveznega ustanavljanja društev oziroma obveznega združevanja zdravstvenih delavcev v društva, temveč obvezno uskladitev delovanja že ustanovljenih poklicnih zbornic po prej veljavnem 87. členu ZZDej. Tako po prej veljavnem kakor tudi po spremenjenem 87. členu ZZDej (11. členu ZZDej-F) je združevanje zdravstvenih delavcev prostovoljno. Zato ni jasen očitek pobudnic, da 14. člen krši pravico do svobodnega združevanja iz 42. člena Ustave. Vse, kar 14. člen ZZDej-F zahteva, je da že ustanovljene zbornice zdravstvenih delavcev uskladijo svoje delovanje s pravili, ki veljajo za društva. Pobudnici bosta še naprej prostovoljni poklicni zbornici zdravstvenih delavcev iz posamezne poklicne skupine s prostovoljnim članstvom. Takšna zahteva v ničemer ne posega v prostovoljnost združevanja in ne nalaga obveznega združevanja v društva, zato ni v neskladju z 42. členom Ustave.
+
+
+### B) – III.
+
+10. Člen 87 a ZZDej pooblašča ministra, pristojnega za zdravstvo, da lahko posamezno poklicno zbornico ali strokovno združenje iz 87. člena ZZDej pooblasti za izvajanje posameznih nalog iz 34., 35. in 42. člena ZZDej ter za izvajanje strokovnega nadzora s svetovanjem za posamezno poklicno skupino. Pobudnici menita, da predstavlja izpodbijana določba pooblastilo za podeljevanje javnega pooblastila, ki pa naj bi bilo mogoče samo z zakonom in ne z aktom ministra (na podlagi zakona). Sporno vprašanje torej je, ali lahko zakon pooblasti posameznega ministra za dodelitev javnega pooblastila oziroma, ali se lahko pridobi javno pooblastilo samo z zakonom ali tudi na podlagi zakona.
+11. Ustava v drugem odstavku 121. člena določa, da samoupravne skupnosti, podjetja in druge organizacije ter posamezniki lahko z zakonom dobijo javno pooblastilo za opravljanje nekaterih funkcij državne uprave.
+12. Ustavno sodišče je v odločbi št. U-I-305/94 z dne 3. 4. 1997 (Uradni list RS, št. 23/97 in OdlUS VI, 44) zavzelo stališče, da se po določbi drugega odstavka 121. člena Ustave javno pooblastilo lahko prenese samo z zakonom. Iz navedene odločbe izhaja tudi, da ima zakonodajalec glede podeljevanja javnih pooblastil dve možnosti: z zakonom določno in jasno predpisati javna pooblastila in jih neposredno podeliti konkretni osebi ali pa ustanoviti osebo javnega prava, katere naloge so med drugimi tudi izvrševanje v zakonu določenih javnih pooblastil. Glede na navedeno stališče, bi bile lahko izpodbijane določbe 87.a člena ZZDej v neskladju z drugim odstavkom 121. člena Ustave.
+13. Pravna teorija(*1) zagovarja stališče, temu je sledil tudi zakonodajalec(*2), da je ob določenih pogojih mogoče podeliti javno pooblastilo tudi na podlagi zakona, tj., da se osebo, kateri se javno pooblastilo podeljuje, določi z aktom Vlade ali ministrstva. To pogojuje potrebo, da ob presojanju izpodbijanih določb ZZDej Ustavno sodišče ponovno pretehta svoje stališče iz odločbe št. U-I-305/94, ali ni morebiti preveč ozko in preveč utesnjujoče in ali ne dopušča drugi odstavek 121. člena Ustave tudi širše razlage.
+14. Ustava opredeljuje javno pooblastilo kot pravico posameznikov in organizacij, ki niso državni organi, da izvršujejo funkcijo uprave. Gre torej za to, da javno oblast izvršujejo organizacije oziroma subjekti, ki niso del državnega aparata. Te funkcije so različne, podrobneje jih opredeljuje Zakon o državni upravi (Uradni list RS, št. 83/03 ur. p. b. – v nadaljevanju: ZDU-1-UPB1). Javno pooblastilo se izvršuje na tri načine, kot to tudi sicer velja za izvrševanje upravnih funkcij: z izdajanjem splošnih aktov, z izdajanjem posamičnih aktov oziroma z odločanjem v posamičnih stvareh in z opravljanjem materialnih (realnih) dejanj.(*3)
+15. Podelitev javnega pooblastila nujno obsega dva elementa: določitev vsebine javnega pooblastila, tj., katere upravne naloge se zaupajo (dodelijo) kot javno pooblastilo, in določitev nosilca javnega pooblastila, tj., kateri osebi se zaupajo (dodelijo).(*4)
+16. Vsebino javnega pooblastila mora jasno in podrobno določiti zakon. Gre za urejanje pristojnosti, ki se po prvem odstavku 120. člena Ustave lahko ureja samo z zakonom. Določitev vsebine javnega pooblastila pomeni določanje pristojnosti oziroma določanje nalog (funkcij) državne uprave, ki bo sicer dodeljena v izvrševanje nosilcu javnega pooblastila. Iz zakona mora biti jasno razvidno, za katere upravne naloge gre.
+17. Iz jezikovne razlage drugega odstavka 121. člena Ustave izhaja, da bi z zakonom moral biti določen tudi nosilec javnega pooblastila. Zakon bi torej moral določiti tudi konkretno organizacijo ali osebo, ki bo izvrševala javno pooblastilo. Tudi Ustavno sodišče je v odločbi št. U-I-305/94 zavzelo takšno stališče. Večina javnih pooblastil je bilo doslej podeljenih z zakonom, saj so bila praviloma podeljena javnim osebam (predvsem različnim zbornicam), ki so bile tudi neposredno ustanovljene z zakonom.
+18. Vendar pa se po drugem odstavku 121. člena Ustave javnega pooblastila ne podeljuje samo osebam javnega prava, ustanovljenim z zakonom, temveč tudi organizacijam zasebnega prava in tudi posameznikom. V takih primerih pa je večinoma nemogoče že z zakonom, ki določa vsebino javnega pooblastila, določiti tudi njenega nosilca. Zato bi moral zakonodajalec, potem ko bi bila izbrana organizacija ali posameznik, za vsak primer podelitve javnega pooblastila sprejeti poseben zakon, s katerim bi določil nosilca pooblastila. Zato je treba sprejeti stališče, da drugi odstavek 121. člena Ustave dopušča širšo razlago, tj., da je mogoče javno pooblastilo podeliti tudi na podlagi zakona. To pa pomeni, da mora zakon, ki določa vsebino javnega pooblastila, podrobno urediti način njegove podelitve. Zakon mora natančno določiti pogoje, ki jih mora izpolnjevati nosilec javnega pooblastila, določiti organ, ki podeli javno pooblastilo oziroma določi enega ali več nosilcev javnega pooblastila, ter določiti postopek za podelitev javnega pooblastila. Ocena, kdaj je mogoče podeliti javno pooblastilo z zakonom in kdaj na podlagi zakona, je v pristojnosti zakonodajalca. Pri tem pa ni povsem nevezan. Za podelitev javnega pooblastila na podlagi zakona se lahko odloči le, če ugotovi obstoj okoliščin, ki onemogočajo ali znatno otežujejo določitev nosilca javnega pooblastila z zakonom.
+19. Očitek pobudnic, da so izpodbijane določbe 87. a člena ZZDej v neskladju z drugim odstavkom 121. člena Ustave samo zato, ker pooblaščajo za podelitev javnega pooblastila ministra, pristojnega za zdravstvo, ni utemeljen. Kot je obrazloženo v prejšnjih točkah, se lahko javno pooblastilo podeli tudi na podlagi zakona in ne izključno z zakonom. Pri tem pa morajo biti spoštovana opisana načela. Za presojo ustavnosti navedene določbe ZZDej je torej treba oceniti, ali izpodbijane določbe ustrezajo navedenim načelom.
+20. Prvo načelo je, da mora zakon, v konkretnem primeru ZZDej, jasno in podrobno določiti vsebino javnega pooblastila.
+21. Iz 87.a člena ZZDej izhaja, da so vsebina pooblastila posamezne naloge iz 34., 35. in 42. člena ter izvajanje strokovnega nadzora s svetovanjem za posamezno poklicno skupino (2. točka prvega odstavka 76. člena). V navedenih določbah, razen v 2. točki prvega odstavka 76. člena ZZDej, pa zakonodajalec ni jasno in podrobno določil, kaj je vsebina javnega pooblastila oziroma katere upravne naloge, se lahko dodelijo posamezni poklicni zbornici ali strokovnemu združenju kot javno pooblastilo.Tako ni jasno, ali bo minister, pristojen za zdravstvo, pooblastil za izdajanje splošnih aktov iz 34. in 35. člena ZZDej poklicno zbornico ali strokovno združenje. Dalje ni jasno, ali naj bo vsebina javnega pooblastila odločanje o izpolnjevanju pogojev za opravljanje zasebne zdravstvene dejavnosti in vodenje registra zasebnih zdravstvenih delavcev. Prav tako ni jasno, katere naloge iz 42. člena se lahko dodelijo kot javno pooblastilo. Sodelovanje poklicnih zbornic ali strokovnih združenj, kot ga opredeljuje prvi odstavek 34. člena ZZDej, ni upravna naloga in enako velja za mnenje iz pete alineje prvega odstavka 35. člena ter za mnenje iz tretjega odstavka 42. člena ZZDej. Načelu, da mora biti vsebina naloge, ki se lahko podeli kot javno pooblastilo, v zakonu določena jasno in podrobno, ustreza samo določba 2. točke prvega odstavka 76. člena ZZDej. Pri določanju, katere upravne naloge se lahko opravljajo kot javno pooblastilo, mora zakonodajalec upoštevati tudi načela, ki jih določa prvi odstavek 15. člena ZDU. Ta ocena ne sme biti prepuščena organu, ki bo pooblaščen za podelitev javnega pooblastila.
+22. Drugo načelo je, da mora zakon, konkretno ZZDej, natančno določiti pogoje, ki jih mora izpolnjevati nosilec javnega pooblastila, določiti organ, ki podeli javno pooblastilo in določiti postopek za podelitev javnega pooblastila. ZZDej določa v 87.a členu organ, pristojen za podelitev pooblastila (minister, pristojen za zdravstvo), določa pogoje, ki jih mora izpolnjevati poklicna zbornica ali strokovno združenje, postopek podelitve javnega pooblastila pa ureja ZDU-1-UPB1 (15. člen). Vendar pa pušča Zakon nekatera vprašanja nerešena oziroma so njegove določbe nejasne. Tako ni mogoče ugotoviti, ali je podelitev javnega pooblastila prepuščena prosti presoji ministra, pristojnega za zdravstvo. ZZDej namreč določa, da minister lahko podeli javno pooblastilo poklicni zbornici ali strokovnemu združenju, če izpolnjuje predpisane pogoje. Vprašanje ostaja, ali lahko odkloni podelitev javnega pooblastila, če so pogoji izpolnjeni, in pod kakšnimi pogoji. Prav tako ni urejeno vprašanje, kako ravnati, če je za pridobitev javnega pooblastila zainteresiranih več poklicnih zbornic oziroma združenj. ZDU sicer v tretjem odstavku 15. člena predvideva, da se v takšnih primerih izbira opravi z javnim natečajem. Ni pa določeno, kako se izvede javni natečaj, niti ni določeno ali imajo udeleženci natečaja zagotovljeno pravno varstvo in kakšno. Zakon ne določa jasno, ali se lahko podeli javno pooblastilo samo eni poklicni zbornici oziroma enemu združenju v posamezni poklicni skupini, in kako opraviti izbiro.
+23. Iz navedenih razlogov je določba 87.a člena ZZDej v neskladju z drugim odstavkom 121. člena Ustave in se zato razveljavi. To pa ne pomeni, da javnega pooblastila ni mogoče podeliti na podlagi zakona. Vendar bo moral zakonodajalec, če se bo za to odločil, upoštevati v tej odločbi navedena načela.
+
+
+### C)
+
+24. Ustavno sodišče je sprejelo to odločbo na podlagi 21. in 43. člena ZUstS v sestavi: predsednica dr. Dragica Wedam Lukić ter sodnice in sodniki dr. Janez Čebulj, Lojze Janko, mag. Marija Krisper Kramberger, Milojka Modrijan, dr. Ciril Ribičič, dr. Mirjam Škrk in Jože Tratnik. Odločbo je sprejelo s šestimi glasovi proti dvema. Proti sta glasovala sodnika Čebulj in Janko.
+
+Št. U-I-137/01-23
+
+Ljubljana, dne 11. decembra 2003.
+
+Predsednica
+Ustavnega sodišča RS
+dr. Dragica Wedam Lukić l. r.
+
+(*1) R. Pirnat: komentar 121. člena Ustave v L. Šturm (urednik): Komentar Ustave Republike Slovenije, Fakultete za podiplomske državne in evropske študije, Ljubljana 2002.
+R. Pirnat: Nekaj vprašanj javnega pooblastila kot ustavnega instituta, v VII. Dnevi javnega prava Portorož 2001, str. 271–279.
+M. Horvat: Podelitev javnega pooblastila, v VI. Dnevi javnega prava, Portorož 2000, str. 197–206.
+(*2) ZDU, drugi odstavek 15. člena.
+(*3) R. Pirnat, glej delo citirano pod op. št. 1, str. 888.
+(*4) Ibidem, str. 892.
