@@ -7,6 +7,11 @@ sop: 1991-01-1094
 objava: "Uradni list RS 27/91  str. 1093"
 kljucne_besede: ["denacionalizacija", "lastnina", "javna lastnina", "nacionalizacija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1094"
+spremembe:
+  - kratica: ZDen-A
+    datum: 1993-06-11
+    sop: 1993-01-1310
+    naziv: "Zakon o spremembi in dopolnitvi zakona o denacionalizaciji"
 ---
 
 # Zakon o denacionalizaciji
