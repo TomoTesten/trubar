@@ -7,6 +7,11 @@ sop: 1994-01-2510
 objava: "Uradni list RS 70/94  str. 3916"
 kljucne_besede: ["odplačevanje", "kredit", "investicijski stroški", "železarska in jeklarska industrija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2510"
+spremembe:
+  - kratica: ZZSOK-A
+    datum: 1995-04-03
+    sop: 1995-01-0650
+    naziv: "Zakon o spremembi in dopolnitvi zakona o zagotavljanju sredstev za odplačilo kreditov za trajna obratna sredsva in kreditov za izvedbo nujnih investicijskih del Slovenskih železarn"
 ---
 
 # Zakon o zagotavljanju sredstev za odplačilo kreditov za trajna obratna sredstva in kreditov za izvedbo nujnih investicijskih del Slovenskih železarn
