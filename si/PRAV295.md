@@ -4,9 +4,9 @@ naziv: "Pravilnik o načinu vodenja kletarske evidence in spremnih dokumentih za
 vrsta: "pravilnik"
 datum: 2004-05-07
 sop: 2004-01-2315
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2315"
 ---
 

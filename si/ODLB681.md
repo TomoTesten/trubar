@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju uradnega kontrolnega laboratorija za analizno pres
 vrsta: "akt"
 datum: 2004-05-07
 sop: 2004-01-2324
-organ: "Ministrstvo za zdravje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2324"
 ---
 

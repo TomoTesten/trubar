@@ -4,9 +4,9 @@ naziv: "Odločba o določitvi strokovne organizacije za organiziranje usposablja
 vrsta: "akt"
 datum: 2004-05-28
 sop: 2004-01-2687
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2687"
 ---
 
