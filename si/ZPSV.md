@@ -12,6 +12,10 @@ spremembe:
     datum: 1996-06-29
     sop: 1996-01-2200
     naziv: "Zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost"
+  - kratica: ZPSV-B
+    datum: 1998-01-17
+    sop: 1998-01-0137
+    naziv: "Zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost"
 ---
 
 # Zakon o prispevkih za socialno varnost
