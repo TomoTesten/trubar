@@ -7,6 +7,11 @@ sop: 1991-01-0018
 objava: "Uradni list RS 1/91  str. 58"
 kljucne_besede: ["banka", "hranilnica"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0018"
+spremembe:
+  - kratica: ZBH-A
+    datum: 1992-08-01
+    sop: 1992-01-1893
+    naziv: "Zakon o spremembi zakona o bankah in hranilnicah"
 ---
 
 # Zakon o bankah in hranilnicah
