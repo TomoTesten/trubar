@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi drugega odstavka 17. člena zakona o spremembah
 vrsta: "akt"
 datum: 1996-03-08
 sop: 1996-01-0656
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0656"
 ---
 

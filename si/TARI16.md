@@ -4,9 +4,9 @@ naziv: "Tarifa o pravnih storitvah"
 vrsta: "akt"
 datum: 1996-03-08
 sop: 1996-01-0692
-organ: "Avtorska agencija za Slovenijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0692"
 ---
 

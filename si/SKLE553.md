@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o imenovanju članov in delovanju Odbora za raz
 vrsta: "sklep"
 datum: 1996-03-15
 sop: 1996-01-0744
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0744"
 ---
 

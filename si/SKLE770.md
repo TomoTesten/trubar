@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o četrti izdaji blagajniškega zapisa Banke Sl
 vrsta: "sklep"
 datum: 1996-03-15
 sop: 1996-01-0841
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0841"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi in dopolnitvi navodila o postopku za uveljavljanje 
 vrsta: "navodilo"
 datum: 1996-03-22
 sop: 1996-01-0855
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0855"
 ---
 
