@@ -7,6 +7,11 @@ sop: 1996-01-0568
 objava: "Uradni list RS 12/96  str. 862"
 kljucne_besede: ["izobraževanje", "poklicno izobraževanje", "strokovno izpopolnjevanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0568"
+spremembe:
+  - kratica: ZPSI-A
+    datum: 2000-05-26
+    sop: 2000-01-2063
+    naziv: "Zakon o spremembah in dopolnitvah zakona o poklicnem in strokovnem izobraževanju"
 ---
 
 # Zakon o poklicnem in strokovnem izobraževanju
