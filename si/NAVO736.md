@@ -4,9 +4,9 @@ naziv: "Navodilo o vodenju in vsebini evidenc v čezmejnih sporih"
 vrsta: "navodilo"
 datum: 2005-01-11
 sop: 2005-01-0053
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0053"
 ---
 

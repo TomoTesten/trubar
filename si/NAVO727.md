@@ -4,9 +4,9 @@ naziv: "Pravilnik o uporabi tablet kalijevega jodida"
 vrsta: "navodilo"
 datum: 2004-12-30
 sop: 2004-01-6226
-organ: "Ministrstvo za zdravje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-6226"
 ---
 

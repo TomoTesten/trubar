@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah Navodila za organizacijo in delo Sk
 vrsta: "navodilo"
 datum: 2005-01-11
 sop: 2005-01-0055
-organ: "Vrhovno državno tožilstvo Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0055"
 ---
 
