@@ -7,6 +7,11 @@ sop: 1994-01-0664
 objava: "Uradni list RS 17/94  str. 941"
 kljucne_besede: ["filmska produkcija", "sklad"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0664"
+spremembe:
+  - kratica: ZFS-A
+    datum: 2001-07-19
+    sop: 2001-01-3150
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Filmskem skladu Republike Slovenije"
 ---
 
 # Zakon o filmskem skladu Republike Slovenije
