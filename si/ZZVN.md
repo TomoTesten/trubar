@@ -16,6 +16,10 @@ spremembe:
     datum: 1996-08-09
     sop: 1996-01-2702
     naziv: "Zakon o dopolnitvah zakona o žrtvah vojnega nasilja"
+  - kratica: ZZVN-C
+    datum: 1997-11-14
+    sop: 1997-01-3372
+    naziv: "Zakon o spremembah in dopolnitvah zakona o žrtvah vojnega nasilja"
 ---
 
 # Zakon o žrtvah vojnega nasilja
