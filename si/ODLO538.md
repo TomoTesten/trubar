@@ -4,9 +4,9 @@ naziv: "Odlok o preferencialnih pravilih o poreklu blaga, ki se v letu 2000 upor
 vrsta: "odlok"
 datum: 2000-03-06
 sop: 2000-01-0909
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0909"
 ---
 

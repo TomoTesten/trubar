@@ -4,9 +4,9 @@ naziv: "Odlok o dopolnitvi odloka o dodatnem premoženju, ki se preda pooblašč
 vrsta: "odlok"
 datum: 1999-12-17
 sop: 1999-01-4918
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4918"
 ---
 

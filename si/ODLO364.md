@@ -4,9 +4,9 @@ naziv: "Odlok o preferencialnih pravilih o poreklu blaga, ki se v letu 2000 upor
 vrsta: "odlok"
 datum: 1999-12-24
 sop: 1999-01-4992
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4992"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi odloka o dodatnem premoženju, ki se preda pooblašče
 vrsta: "odlok"
 datum: 2000-01-21
 sop: 2000-01-0288
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0288"
 ---
 

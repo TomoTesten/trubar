@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi obsega kontingentov za uvoz blaga v letu 2000"
 vrsta: "odlok"
 datum: 1999-11-29
 sop: 1999-01-4614
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4614"
 ---
 

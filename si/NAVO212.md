@@ -2,11 +2,11 @@
 kratica: NAVO212
 naziv: "Navodilo za uskladitev računovodskih evidenc za uporabnike enotnega kontnega načrta z zakonom o računovodstvu"
 vrsta: "navodilo"
-datum: 2000-03-24
+datum: 1999-12-30
 sop: 1999-01-5177
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-5177"
 ---
 

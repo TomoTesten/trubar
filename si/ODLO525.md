@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi odloka o razpisu prvih volitev v svet Kmetijsko gozdar
 vrsta: "odlok"
 datum: 2000-02-18
 sop: 2000-01-0694
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0694"
 ---
 

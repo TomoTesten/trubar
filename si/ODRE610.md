@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi obrazca zahteve za uveljavitev pravice do nadomesti
 vrsta: "odredba"
 datum: 1999-09-24
 sop: 1999-01-3696
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za delo, družino in socialne zadeve"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3696"
 ---
 

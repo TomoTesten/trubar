@@ -4,9 +4,9 @@ naziv: "Odredba o izobraževalnem programu umetniške gimnazije dramsko - gledal
 vrsta: "odredba"
 datum: 2000-01-21
 sop: 2000-01-0257
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za šolstvo in šport"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0257"
 ---
 

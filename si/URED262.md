@@ -4,9 +4,9 @@ naziv: "Uredba o izvajanju Srednjeevropskega sporazuma o prosti trgovini (CEFTA)
 vrsta: "uredba"
 datum: 1999-12-21
 sop: 1999-01-4940
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4940"
 ---
 
