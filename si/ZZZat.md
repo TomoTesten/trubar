@@ -7,6 +7,11 @@ sop: 1997-01-1139
 objava: "Uradni list RS 20/97  str. 1618"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1139"
+spremembe:
+  - kratica: ZZZat-A
+    datum: 2002-07-26
+    sop: 2002-01-3241
+    naziv: "Zakon o dopolnitvah zakona o začasnem zatočišču"
 ---
 
 # Zakon o začasnem zatočišču
