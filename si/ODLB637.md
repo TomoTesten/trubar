@@ -4,9 +4,9 @@ naziv: "Odločba o podelitvi statusa družba, ki deluje v javnem interesu na pod
 vrsta: "akt"
 datum: 2004-03-05
 sop: 2004-01-0901
-organ: "Ministrstvo za okolje, prostor in energijo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0901"
 ---
 
