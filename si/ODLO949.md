@@ -4,9 +4,9 @@ naziv: "Odlok o razglasitvi Tomaževe hiše v Črni vasi za kulturni spomenik dr
 vrsta: "odlok"
 datum: 2001-04-12
 sop: 2001-01-1592
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1592"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odlok o razglasitvi Domačije Puštal 74 za kulturni spomenik državnega
 vrsta: "odlok"
 datum: 2001-04-12
 sop: 2001-01-1588
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1588"
 ---
 

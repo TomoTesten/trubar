@@ -4,8 +4,9 @@ naziv: "Odlok o razglasitvi Robbovega vodnjaka treh kranjskih rek v Ljubljani za
 vrsta: "odlok"
 datum: 2001-04-12
 sop: 2001-01-1587
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1587"
 ---
 

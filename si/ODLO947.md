@@ -4,8 +4,9 @@ naziv: "Odlok o razglasitvi Pelikanovega ateljeja v Celju za kulturni spomenik d
 vrsta: "odlok"
 datum: 2001-04-12
 sop: 2001-01-1590
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1590"
 ---
 

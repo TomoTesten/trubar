@@ -4,9 +4,9 @@ naziv: "Odlok o imenovanju guvernerja Banke Slovenije"
 vrsta: "odlok"
 datum: 2001-04-05
 sop: 2001-01-1457
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1457"
 ---
 
