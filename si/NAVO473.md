@@ -4,9 +4,9 @@ naziv: "Pravilnik o načinu, obliki in rokih za pošiljanje podatkov Uradu Repub
 vrsta: "navodilo"
 datum: 1996-02-23
 sop: 1996-01-0518
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0518"
 ---
 

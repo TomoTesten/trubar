@@ -4,8 +4,9 @@ naziv: "Uredba o spremembi uredbe o teritorialnem obsegu upravnih enot v Republi
 vrsta: "uredba"
 datum: 1996-02-12
 sop: 1996-01-0386
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0386"
 ---
 

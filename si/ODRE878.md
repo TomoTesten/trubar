@@ -4,9 +4,9 @@ naziv: "Odredba o spremembi in dopolnitvi odredbe o obrazcu za obračun davka od
 vrsta: "odredba"
 datum: 1996-02-19
 sop: 1996-01-0504
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0504"
 ---
 

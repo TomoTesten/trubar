@@ -4,9 +4,9 @@ naziv: "Nacionalni program razvoja Slovenske železniške infrastrukture (NPRSZI
 vrsta: "akt"
 datum: 1996-03-01
 sop: 1996-01-0609
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0609"
 ---
 

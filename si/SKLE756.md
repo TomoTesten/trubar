@@ -4,9 +4,9 @@ naziv: "Sklep o sedmi emisiji dvodelnega prenosljivega blagajniškega zapisa Ban
 vrsta: "sklep"
 datum: 1996-02-19
 sop: 1996-01-0505
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0505"
 ---
 

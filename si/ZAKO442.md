@@ -4,9 +4,9 @@ naziv: "Zakon o najetju posojila pri Mednarodni banki za obnovo in razvoj za pri
 vrsta: "akt"
 datum: 1996-02-12
 sop: 1996-01-0382
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0382"
 ---
 

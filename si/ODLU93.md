@@ -4,9 +4,9 @@ naziv: "Odločba, da se določbe 51. člena zakona o prisilni poravnavi, stečaj
 vrsta: "akt"
 datum: 1996-02-12
 sop: 1996-01-0393
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0393"
 ---
 

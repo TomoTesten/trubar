@@ -4,9 +4,9 @@ naziv: "Soglasje k ceni utekočinjenega naftnega plina"
 vrsta: "drugi akt"
 datum: 1996-03-01
 sop: 1996-01-0627
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0627"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o evidencah, ki je potrebna pri uveljavljanju odškodnine za ž
 vrsta: "navodilo"
 datum: 1996-02-16
 sop: 1996-01-0424
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0424"
 ---
 
