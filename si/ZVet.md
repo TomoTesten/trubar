@@ -16,6 +16,10 @@ spremembe:
     datum: 1996-03-22
     sop: 1996-01-0843
     naziv: "Zakon o spremembah zakona o veterinarstvu"
+  - kratica: ZVet-C
+    datum: 1999-12-16
+    sop: 1999-01-4815
+    naziv: "Zakon o spremembah in dopolnitvah zakona o veterinarstvu"
 ---
 
 # Zakon o veterinarstvu
