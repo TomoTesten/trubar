@@ -7,6 +7,11 @@ sop: 1998-01-2140
 objava: "Uradni list RS 49/98  str. 3465"
 kljucne_besede: ["policija", "policijska kontrola", "javni red"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2140"
+spremembe:
+  - kratica: ZPol-A
+    datum: 2001-11-23
+    sop: 2001-01-4635
+    naziv: "Zakon o dopolnitvah zakona o policiji"
 ---
 
 # Zakon o policiji
