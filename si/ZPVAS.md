@@ -20,6 +20,10 @@ spremembe:
     datum: 1997-04-18
     sop: 1997-01-1287
     naziv: "Zakon o spremembah zakona o ponovni vzpostavitvi agrarnih skupnosti ter vrnitvi njihovega premoženja in pravic"
+  - kratica: ZPVAS-D
+    datum: 1999-07-13
+    sop: 1999-01-2650
+    naziv: "Zakon o spremembi zakona o ponovni vzpostavitvi agrarnih skupnosti ter vrnitvi njihovega premoženja in pravic"
 ---
 
 # Zakon o ponovni vzpostavitvi agrarnih skupnosti ter vrnitvi njihovega premoženja in pravic
