@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju okrožnega državnega tožilca"
 vrsta: "akt"
 datum: 2004-10-29
 sop: 2004-01-4800
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4800"
 ---
 

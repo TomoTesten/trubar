@@ -4,9 +4,9 @@ naziv: "Pravilnik za izvajanje dobre kmetijske prakse pri gnojenju"
 vrsta: "navodilo"
 datum: 2004-12-03
 sop: 2004-01-5427
-organ: "Ministrstvo za okolje, prostor in energijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-5427"
 ---
 
