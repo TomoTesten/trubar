@@ -7,6 +7,11 @@ sop: 2000-01-3301
 objava: "Uradni list RS 70/2000  str. 8654"
 kljucne_besede: ["potrošniški kredit"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3301"
+spremembe:
+  - kratica: ZPotK-A
+    datum: 2004-04-22
+    sop: 2004-01-1695
+    naziv: "Zakon o spremembah in dopolnitvah zakona o potrošniških kreditih"
 ---
 
 # Zakon o potrošniških kreditih
