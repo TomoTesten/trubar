@@ -7,6 +7,11 @@ sop: 1991-01-0014
 objava: "Uradni list RS 1/91  str. 36"
 kljucne_besede: ["carina", "carinski poklic", "carinski predpisi"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0014"
+spremembe:
+  - kratica: ZCS-A
+    datum: 1993-10-17
+    sop: 1993-01-2122
+    naziv: "Zakon o dopolnitvi zakona o carinski službi"
 ---
 
 # Zakon o carinski službi
