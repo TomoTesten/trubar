@@ -4,9 +4,9 @@ naziv: "Odredba o obrazcu napovedi za odmero davka na promet nepremičnin"
 vrsta: "odredba"
 datum: 1999-04-15
 sop: 1999-01-1216
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1216"
 ---
 

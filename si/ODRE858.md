@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi števila mest sodnikov za prekrške na posameznem o
 vrsta: "odredba"
 datum: 1998-05-08
 sop: 1998-01-1510
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za pravosodje"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1510"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o uvajanju in spremljanju učnega načrta za pouk slovenščine 
 vrsta: "odredba"
 datum: 1998-10-05
 sop: 1998-01-3299
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za šolstvo in šport"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3299"
 ---
 

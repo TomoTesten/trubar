@@ -4,9 +4,9 @@ naziv: "Odredba o podaljšanju veljavnosti izobraževalnih programov za pridobit
 vrsta: "odredba"
 datum: 1998-07-17
 sop: 1998-01-2316
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za šolstvo in šport"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2316"
 ---
 

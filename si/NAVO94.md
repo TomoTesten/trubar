@@ -4,9 +4,9 @@ naziv: "Navodilo o uporabi sredstev proračuna Republike Slovenije za nakup opre
 vrsta: "navodilo"
 datum: 1998-06-12
 sop: 1998-01-1961
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1961"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodila in pojasnila za izvedbo volitev članov Sveta sodnikov za prekr
 vrsta: "navodilo"
 datum: 1998-01-15
 sop: 1998-01-0116
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za pravosodje"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0116"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu zbiranja ponudb za odkup novih terjatev z obveznicami
 vrsta: "akt"
 datum: 1998-09-11
 sop: 1998-01-2849
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2849"
 ---
 

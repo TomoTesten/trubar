@@ -4,9 +4,9 @@ naziv: "Odredba o obliki in vsebini napovedi za odmero takse za obremenjevanje z
 vrsta: "odredba"
 datum: 1999-04-22
 sop: 1999-01-1350
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za okolje, prostor in energijo"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1350"
 ---
 

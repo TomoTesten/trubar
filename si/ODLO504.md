@@ -4,9 +4,9 @@ naziv: "Odlok o spremembah in dopolnitvah odloka o dodatnem premoženju, ki se p
 vrsta: "odlok"
 datum: 1998-10-09
 sop: 1998-01-3453
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3453"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o varstvu in razvoju naravnega rezervata Škocjanski zatok"
 vrsta: "odlok"
 datum: 1999-04-30
 sop: 1999-01-1490
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1490"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o izobraževalnih programih za gimnazije"
 vrsta: "odredba"
 datum: 1998-07-31
 sop: 1998-01-2441
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za šolstvo in šport"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2441"
 ---
 

@@ -2,11 +2,11 @@
 kratica: ODLO490
 naziv: "Odlok o dodatnem premoženju, ki se preda pooblaščenim investicijskim družbam za lastniške certifikate"
 vrsta: "odlok"
-datum: 1998-10-09
+datum: 1998-08-07
 sop: 1998-01-2598
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2598"
 ---
 

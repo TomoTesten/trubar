@@ -2,11 +2,11 @@
 kratica: PRAV541
 naziv: "Pravilnik o označevanju zdravil"
 vrsta: "pravilnik"
-datum: 1998-07-03
+datum: 1998-05-19
 sop: 1998-01-1724
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za zdravstvo"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1724"
 ---
 

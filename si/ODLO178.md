@@ -4,9 +4,9 @@ naziv: "Odlok o spremembah in dopolnitvi odloka o dodatnem premoženju, ki se pr
 vrsta: "odlok"
 datum: 1999-06-01
 sop: 1999-01-2033
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2033"
 ---
 
