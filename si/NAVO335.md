@@ -4,9 +4,9 @@ naziv: "Navodilo o izvajanju odloka o plačilnem prometu"
 vrsta: "navodilo"
 datum: 1991-10-11
 sop: 1991-01-0698
-organ: "Agencija za plačilni promet"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0698"
 ---
 

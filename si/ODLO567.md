@@ -4,9 +4,9 @@ naziv: "Odlok o obveznem pobotanju obveznosti in terjatev pravnih oseb v Republi
 vrsta: "odlok"
 datum: 1991-10-08
 sop: 1991-01-0607
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0607"
 ---
 

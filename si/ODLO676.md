@@ -4,9 +4,9 @@ naziv: "Odlok o potrditvi letnega obračuna Narodne banke Slovenije za leto 1990
 vrsta: "odlok"
 datum: 1991-10-08
 sop: 1991-01-0600
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0600"
 ---
 
