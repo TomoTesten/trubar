@@ -4,9 +4,9 @@ naziv: "Sklep o dopolnitvah sklepa o enotni tarifi, po kateri se zaračunavajo p
 vrsta: "sklep"
 datum: 1992-01-23
 sop: 1992-01-0186
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0186"
 ---
 

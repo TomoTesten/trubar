@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za dejavnost prevoza blaga v cestnem prometu Slovenij
 vrsta: "akt"
 datum: 1992-01-23
 sop: 1992-01-0189
-organ: "Sindikat delavcev prometa in zvez Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0189"
 ---
 

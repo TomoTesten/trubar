@@ -4,9 +4,9 @@ naziv: "Odredba o ustanovitvi Šole za podčastnike Teritorialne obrambe Republi
 vrsta: "odredba"
 datum: 1992-01-23
 sop: 1992-01-0181
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0181"
 ---
 
