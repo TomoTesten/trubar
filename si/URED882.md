@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi elementov cene proizvodnje in distribucije pare in t
 vrsta: "uredba"
 datum: 1999-11-26
 sop: 1999-01-4610
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4610"
 ---
 

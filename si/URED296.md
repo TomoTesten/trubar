@@ -4,9 +4,9 @@ naziv: "Uredba o načinu opravljanja obvezne gospodarske javne službe poštnih 
 vrsta: "uredba"
 datum: 1999-12-09
 sop: 1999-01-4699
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4699"
 ---
 

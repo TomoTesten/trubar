@@ -4,9 +4,9 @@ naziv: "Odredba o blagu, ki je oproščeno obveznosti prevoza od carinske črte 
 vrsta: "odredba"
 datum: 1999-12-10
 sop: 1999-01-4776
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4776"
 ---
 

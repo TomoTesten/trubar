@@ -4,9 +4,9 @@ naziv: "Poročilo o gibanju plač za oktober 1999"
 vrsta: "drugi akt"
 datum: 1999-12-24
 sop: 1999-01-5005
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-5005"
 ---
 

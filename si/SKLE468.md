@@ -4,9 +4,9 @@ naziv: "Sklep št. 5/99 Pridružitvenega sveta z dne 3. 11. 1999, s katerim se s
 vrsta: "sklep"
 datum: 1999-12-16
 sop: 1999-01-4816
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4816"
 ---
 

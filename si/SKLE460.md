@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o ustanovitvi Javnega zavoda Republike Slovenij
 vrsta: "sklep"
 datum: 1999-12-09
 sop: 1999-01-4701
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4701"
 ---
 

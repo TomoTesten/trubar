@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi najvišjih cen osnovnih telefonskih storitev"
 vrsta: "uredba"
 datum: 1999-12-17
 sop: 1999-01-4922
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4922"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o ustanovitvi javnega gospodarskega zavoda za obvezne rezerve naft
 vrsta: "sklep"
 datum: 1999-12-03
 sop: 1999-01-4631
-organ: "Zavod Republike Slovenije za obvezne rezerve nafte in njenih derivatov"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4631"
 ---
 

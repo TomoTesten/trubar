@@ -4,9 +4,9 @@ naziv: "Razlaga splošne kolektivne pogodbe za gospodarske dejavnosti"
 vrsta: "drugi akt"
 datum: 1999-12-03
 sop: 1999-01-4629
-organ: "Komisija za razlago splošne kolektivne pogodbe za gospodarske dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4629"
 ---
 
