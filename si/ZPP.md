@@ -7,6 +7,11 @@ sop: 1999-01-1210
 objava: "Uradni list RS 26/99  str. 2829"
 kljucne_besede: ["pravdni postopek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1210"
+spremembe:
+  - kratica: ZPP-A
+    datum: 2002-11-14
+    sop: 2002-01-4805
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pravdnem postopku"
 ---
 
 # Zakon o pravdnem postopku
