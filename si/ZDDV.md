@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-04-26
     sop: 2001-01-1829
     naziv: "Zakon o spremembah in dopolnitvah zakona o davku na dodano vrednost"
+  - kratica: ZDDV-B
+    datum: 2002-07-26
+    sop: 2002-01-3239
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davku na dodano vrednost"
 ---
 
 # Zakon o davku na dodano vrednost
