@@ -7,6 +7,11 @@ sop: 1995-01-2167
 objava: "Uradni list RS 45/95  str. 3519"
 kljucne_besede: ["obresti"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2167"
+spremembe:
+  - kratica: ZPOMZO-A
+    datum: 2001-12-28
+    sop: 2001-01-5321
+    naziv: "Zakon o spremembah in dopolnitvah zakona o predpisani obrestni meri zamudnih obresti in temeljni obrestni meri"
 ---
 
 # Zakon o predpisani obrestni meri zamudnih obresti in temeljni obrestni meri
