@@ -4,8 +4,9 @@ naziv: "Pravilnik o načinu izdajanja dovoljenj za lete zrakoplovov"
 vrsta: "pravilnik"
 datum: 1992-12-04
 sop: 1992-01-2659
-organ: "Ministrstvo za promet in zveze"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2659"
 ---
 

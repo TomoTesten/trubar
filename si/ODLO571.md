@@ -4,8 +4,9 @@ naziv: "Odlok o spremembi odloka o plačilnem prometu"
 vrsta: "odlok"
 datum: 1993-01-08
 sop: 1993-01-0006
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0006"
 ---
 

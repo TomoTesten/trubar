@@ -4,8 +4,9 @@ naziv: "Odredba o ureditvi določenih vprašanj pri prometu z vrednostnimi papir
 vrsta: "odredba"
 datum: 1992-12-24
 sop: 1992-01-2769
-organ: "Ministrstvo za finance"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2769"
 ---
 

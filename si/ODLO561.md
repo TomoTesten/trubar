@@ -4,8 +4,9 @@ naziv: "Odlok o izdaji kovancev za 5 tolarjev, 2 tolarja in 1 tolar ter za 50, 2
 vrsta: "odlok"
 datum: 1992-12-11
 sop: 1992-01-2688
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2688"
 ---
 

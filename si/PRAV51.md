@@ -4,9 +4,9 @@ naziv: "Pravilnik o pripravništvu in strokovnih izpitih delavcev na področju z
 vrsta: "pravilnik"
 datum: 1992-12-11
 sop: 1992-01-2715
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2715"
 ---
 

@@ -1,0 +1,55 @@
+---
+kratica: URED917
+naziv: "Uredba o ugotavljanju in vpisovanju zavarovalne dobe osebam, ki so prestopile v Teritorialno obrambo Republike Slovenije"
+vrsta: "uredba"
+datum: 1992-12-28
+sop: 1992-01-2843
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2843"
+---
+
+# Uredba o ugotavljanju in vpisovanju zavarovalne dobe osebam, ki so prestopile v Teritorialno obrambo Republike Slovenije
+
+Na podlagi 21. člena v zvezi s 14. členom ustavnega zakona za izvedbo temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije (Uradni list Republike Slovenije, št. 1/91-I) izdaja Vlada Republike Slovenije
+
+
+## UREDBO
+o ugotavljanju in vpisovanju zavarovalne dobe osebam, ki so prestopile v Teritorialno obrambo Republike Slovenije
+
+
+### 1. člen
+
+Ministrstvo za obrambo Republike Slovenije ugotavlja zavarovalno dobo, doseženo v času do izstopa iz JLA, tistim aktivnim vojaškim osebam in civilnim osebam v službi v JLA, ki so skladno z določbami ustavnega zakona za izvedbo temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije ter odločitvami pristojnih republiških organov prestopile v Teritorialno obrambo Republike Slovenije in ki te dobe nimajo vpisane v delovno knjižico.
+
+
+### 2. člen
+
+Zavarovalno dobo iz prejšnjega člena ugotavlja Ministrstvo za obrambo na podlagi uradnih listin, izjave prizadetega in drugih dokaznih sredstev.
+
+
+### 3. člen
+
+Vpis zavarovalne dobe, ugotovljene po prejšnjem členu, v delovno knjižico opravi Zavod za pokojninsko in invalidsko zavarovanje Slovenije, skladno s predpisi o pokojninskem in invalidskem zavarovanju ter predpisi o delovni knjižici.
+Zavod za pokojninsko in invalidsko zavarovanje Slovenije lahko spremeni vpis v delovni knjižici, če je na podlagi podatkov iz uradne evidence oziroma kasneje pridobljenih uradnih listin mogoče ugotoviti drugačno dolžino zavarovalne dobe iz 1. člena te uredbe.
+
+
+### 4. člen
+
+Kot zavarovalna doba se po tej uredbi šteje dejanska delovna doba ter zavarovalna doba s povečanjem, ki se priznava v skladu z ustavnim zakonom za izvedbo temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije.
+
+
+### 5. člen
+
+Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 191-02/92-5/1-8
+
+Ljubljana, dne 17. decembra 1992.
+
+
+### Vlada Republike Slovenije
+
+dr. Janez Drnovšek l. r.
+Predsednik

@@ -4,8 +4,9 @@ naziv: "Navodilo o vrsti dokumentacije, načinu in roku za njeno predložitev Ba
 vrsta: "navodilo"
 datum: 1992-12-18
 sop: 1992-01-2759
-organ: "Ministrstvo za finance"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2759"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Poslovnik o delu Skupščine Zavoda za pokojninsko in invalidsko zavarov
 vrsta: "akt"
 datum: 1992-12-11
 sop: 1992-01-2704
-organ: "Zavod za pokojninsko in invalidsko zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2704"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi 41. in 13.a člena zakona o državljanstvu Repu
 vrsta: "akt"
 datum: 1992-12-24
 sop: 1992-01-2773
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2773"
 ---
 

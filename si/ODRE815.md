@@ -4,8 +4,9 @@ naziv: "Odredba o prenosu določenih nalog zaščite in reševanja na operativne
 vrsta: "odredba"
 datum: 1992-12-04
 sop: 1992-01-2654
-organ: "Ministrstvo za obrambo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2654"
 ---
 

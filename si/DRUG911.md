@@ -4,9 +4,9 @@ naziv: "Seznam gotovih zdravil, za katera je bilo od 17. julija do 27. novembra 
 vrsta: "drugi akt"
 datum: 1992-12-11
 sop: 1992-01-2693
-organ: "MINISTRSTVO ZA ZDRAVSTVO, DRUŽINO IN SOCIALNO VARSTVO"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2693"
 ---
 

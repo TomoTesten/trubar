@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o ustanovitvi štabov, zavod
 vrsta: "odredba"
 datum: 1992-12-24
 sop: 1992-01-2770
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2770"
 ---
 

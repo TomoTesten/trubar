@@ -4,9 +4,9 @@ naziv: "Sklep o zaokroževanju končnih obračunov v gotovinskem prometu"
 vrsta: "sklep"
 datum: 1992-12-24
 sop: 1992-01-2816
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2816"
 ---
 

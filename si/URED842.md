@@ -4,9 +4,9 @@ naziv: "Uredba o izdajanju potrdil in overjanju listin,ki se pošiljajo z blagom
 vrsta: "uredba"
 datum: 1992-12-11
 sop: 1992-01-2685
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2685"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odlok o glavnih znamenjih kovancev za 5 tolarjev, 2 tolarja in 1 tolar t
 vrsta: "odlok"
 datum: 1992-12-11
 sop: 1992-01-2687
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2687"
 ---
 

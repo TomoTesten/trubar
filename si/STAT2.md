@@ -4,9 +4,9 @@ naziv: "Statut republiškega zavoda za zaposlovanje"
 vrsta: "akt"
 datum: 1992-12-18
 sop: 1992-01-2730
-organ: "Zavod Republike Slovenije za zaposlovanje"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2730"
 ---
 
