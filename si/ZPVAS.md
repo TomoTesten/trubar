@@ -12,6 +12,10 @@ spremembe:
     datum: 1994-06-30
     sop: 1994-01-1521
     naziv: "Zakon o spremembah zakona o ponovni vzpostavitvi agrarnih skupnosti ter vrnitvi njihovega premoženja in pravic"
+  - kratica: ZPVAS-B
+    datum: 1995-12-01
+    sop: 1995-01-3131
+    naziv: "Zakon o spremembi zakona o ponovni vzpostavitvi agrarnih skupnosti ter vrnitvi njihovega premoženja in pravic"
 ---
 
 # Zakon o ponovni vzpostavitvi agrarnih skupnosti ter vrnitvi njihovega premoženja in pravic
