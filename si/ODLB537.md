@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju kontrolne organizacije za ocenjevanje in razvršč
 vrsta: "akt"
 datum: 2003-03-21
 sop: 2003-01-1134
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-1134"
 ---
 

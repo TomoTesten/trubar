@@ -4,9 +4,9 @@ naziv: "Navodilo o izračunu postavke \"Posebni prevrednotovalni popravek kapita
 vrsta: "navodilo"
 datum: 2003-03-27
 sop: 2003-01-1247
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-1247"
 ---
 
