@@ -12,6 +12,10 @@ spremembe:
     datum: 1997-06-05
     sop: 1997-01-1812
     naziv: "Zakon o spremembah in dopolnitvah zakona o inšpekciji dela"
+  - kratica: ZID-B
+    datum: 2000-04-26
+    sop: 2000-01-1686
+    naziv: "Zakon o spremembah in dopolnitvah zakona o inšpekciji dela"
 ---
 
 # Zakon o inšpekciji dela
