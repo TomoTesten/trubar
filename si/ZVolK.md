@@ -7,6 +7,11 @@ sop: 1994-01-2109
 objava: "Uradni list RS 62/94  str. 3399"
 kljucne_besede: ["volilna kampanja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2109"
+spremembe:
+  - kratica: ZVolK-A
+    datum: 1997-03-28
+    sop: 1997-01-0951
+    naziv: "Zakon o spremembah in dopolnitvah zakona o volilni kampanji"
 ---
 
 # Zakon o volilni kampanji
