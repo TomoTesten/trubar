@@ -1,0 +1,95 @@
+---
+kratica: URED557
+naziv: "Uredba o pristojbinah in stroških za pridobitev in vzdrževanje akreditacije"
+vrsta: "uredba"
+datum: 1998-11-03
+sop: 1998-01-3727
+organ: "Vlada Republike Slovenije"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3727"
+---
+
+# Uredba o pristojbinah in stroških za pridobitev in vzdrževanje akreditacije
+
+Na podlagi 26. člena zakona o standardizaciji (Uradni list RS, št. 1/95) in 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96 in 47/97) izdaja Vlada Republike Slovenije
+
+
+## U R E D B O
+o pristojbinah in stroških za pridobitev  in vzdrževanje akreditacije
+
+
+### 1. člen
+
+V postopku za pridobitev in vzdrževanje akreditacije se plačujejo naslednje pristojbine:
+
+1. prijavna pristojbina                               48.000 SIT
+2. izdaja akreditacijske listine                      96.000 SIT
+
+Za razširitev akreditacijske listine se plača pristojbina v višini 50% pristojbine iz 2. točke tega člena.
+
+
+### 2. člen
+
+V postopku za pridobitev in vzdrževanje akreditacije se plačujejo naslednji stroški:
+1. priprava letnega nadzornega obiska:
+v laboratoriju in nadzornem organu z
+
+– do 5 delavci                                        24.000 SIT
+– 5 in več delavci                                    48.000 SIT
+
+2. priprava letnega nadzornega obiska:
+
+v certifikacijskem organu                             96.000 SIT
+
+3. stroški za delo ocenjevalca v postopku
+akreditacije za izvedbo predocenjevanja,
+ocenjevanja, rednega nadzornega obiska in
+izrednega nadzornega obiska znašajo na dan           120.000 SIT
+
+Število potrebnih dni za izvedbo predocenjevanja, ocenjevanja oziroma nadzornega obiska in število ocenjevalcev je odvisno od področja in obsega zahtevane akreditacije in se določi v vsakem postopku posebej.
+
+
+### 3. člen
+
+Stroški za delo ocenjevalca iz tretje točke 2. člena te uredbe ne zajemajo stroškov dnevnic in potnih stroškov, ki jih zaračuna ocenjevalec za svoj obisk.
+
+
+### 4. člen
+
+Stroške, ki nastanejo zaradi zahtev Urada Republike Slovenije za standardizacijo in meroslovje za sodelovanje akreditiranega organa v programih preverjanja usposobljenosti ali primerjavah rezultatov akreditiranih dejavnosti, nosi akreditiran organ.
+
+
+### 5. člen
+
+Akreditirani organ je dolžan plačati stroške izrednega nadzornega obiska ter dnevnice in potne stroške ocenjevalcev pod enakimi pogoji, kot se plačujejo stroški za redni nadzorni obisk, če se pri izrednem nadzornem obisku ugotovijo neskladnosti pri njegovem delovanju.
+
+
+### 6. člen
+
+Vložnik zahteve priloži potrdilo o vplačilu prijavne pristojbine zahtevi za akreditacijo.
+Ostale pristojbine, stroške, dnevnice in potne stroške vložnik plača v roku 15 dni po prejemu računa za plačilo.
+
+
+### 7. člen
+
+Pristojbine in zaračunani stroški po tej uredbi so prihodek proračuna Republike Slovenije in se vplačujejo na ustrezen vplačilni račun pristojbin in vplačilni račun prihodkov upravnih organov pri Agenciji Republike Slovenije za plačilni promet v Ljubljani.
+
+
+### 8. člen
+
+Z dnem, ko začne veljati ta uredba, preneha veljati uredba o pristojbinah in stroških za pridobitev in vzdrževanje akreditacije (Uradni list RS, št. 45/95).
+
+
+### 9. člen
+
+Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 427-02/98-1
+
+Ljubljana, dne 22. oktobra 1998.
+
+
+### Vlada Republike Slovenije
+
+dr. Janez Drnovšek l. r.
+Predsednik
