@@ -4,8 +4,9 @@ naziv: "Pravilnik o pogojih za občasno varovanje otrok na domu"
 vrsta: "pravilnik"
 datum: 1997-07-11
 sop: 1997-01-2337
-organ: "Ministrstvo za šolstvo in šport"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2337"
 ---
 

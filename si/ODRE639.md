@@ -4,9 +4,9 @@ naziv: "Odredba o obsegu carinskih kvot za uvoz pšenice v letu 1997 po splošne
 vrsta: "odredba"
 datum: 1997-07-25
 sop: 1997-01-2494
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2494"
 ---
 

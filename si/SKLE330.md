@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o določitvi postopka medsebojnega trgovanja po
 vrsta: "sklep"
 datum: 1997-07-17
 sop: 1997-01-2347
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2347"
 ---
 

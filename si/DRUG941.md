@@ -4,9 +4,9 @@ naziv: "Seznam zdravil skupin A in B, za katera je bilo od 10. 5. 1997 do 27. 6.
 vrsta: "drugi akt"
 datum: 1997-07-18
 sop: 1997-01-2374
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2374"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep, s katerim se na predlog Državnega zbora rok, določen v 4. točk
 vrsta: "sklep"
 datum: 1997-07-11
 sop: 1997-01-2290
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2290"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep razširjene komisije EUROCONTROL, št. 36 v zvezi z amandmaji k po
 vrsta: "sklep"
 datum: 1997-07-17
 sop: 1997-01-2346
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2346"
 ---
 

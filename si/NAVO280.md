@@ -4,9 +4,9 @@ naziv: "Navodilo o razporejanju in pošiljanju obsojencev na prestajanje kazni v
 vrsta: "navodilo"
 datum: 1997-07-11
 sop: 1997-01-2339
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2339"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi in dopolnitvi sklepa o osmi emisiji dvodelnega prenosl
 vrsta: "sklep"
 datum: 1997-07-25
 sop: 1997-01-2452
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2452"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odredba o spremembi EUROCONTROL pogojev uporabe sistema pristojbin na zr
 vrsta: "odredba"
 datum: 1997-07-17
 sop: 1997-01-2345
-organ: "Ministrstvo za promet in zveze"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2345"
 ---
 
