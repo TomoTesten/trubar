@@ -12,6 +12,10 @@ spremembe:
     datum: 1991-12-14
     sop: 1991-01-1238
     naziv: "Zakon o dopolnitvi zakona o državljanstvu Republike Slovenije"
+  - kratica: ZDRS-B
+    datum: 1992-08-01
+    sop: 1992-01-1892
+    naziv: "Zakon o spremembi in dopolnitvi zakona o državljanstvu Republike Slovenije"
 ---
 
 # Zakon o državljanstvu Republike Slovenije
