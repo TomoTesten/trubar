@@ -12,6 +12,10 @@ spremembe:
     datum: 1994-09-29
     sop: 1994-01-2035
     naziv: "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi"
+  - kratica: ZLS-B
+    datum: 1995-03-10
+    sop: 1995-01-0677
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi"
 ---
 
 # Zakon o lokalni samoupravi
