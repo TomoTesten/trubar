@@ -4,9 +4,9 @@ naziv: "Pravilnik o enotnem obrazcu za sporočanje podatkov o oddanih javnih nar
 vrsta: "navodilo"
 datum: 2002-03-22
 sop: 2002-01-1117
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1117"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o vsebini programov promocije vina in o načinu pridobitve pod
 vrsta: "navodilo"
 datum: 2002-05-17
 sop: 2002-01-2030
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2030"
 ---
 
