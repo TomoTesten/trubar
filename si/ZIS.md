@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-10-29
     sop: 2001-01-4386
     naziv: "Zakon o spremembah in dopolnitvah zakona o igrah na srečo"
+  - kratica: ZIS-B
+    datum: 2003-10-21
+    sop: 2003-01-4499
+    naziv: "Zakon o spremembah in dopolnitvah zakona o igrah na srečo"
 ---
 
 # Zakon o igrah na srečo
