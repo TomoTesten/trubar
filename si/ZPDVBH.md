@@ -7,6 +7,11 @@ sop: 1997-01-4013
 objava: "Uradni list RS 87/97  str. 8371"
 kljucne_besede: ["davek na dobiček pravnih oseb", "banka"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-4013"
+spremembe:
+  - kratica: ZPDVBH-A
+    datum: 1998-12-11
+    sop: 1998-01-4321
+    naziv: "Zakon o spremembah in dopolnitvah zakona o posebnem davku na bilančno vsoto bank in hranilnic"
 ---
 
 # Zakon o posebnem davku na bilančno vsoto bank in hranilnic
