@@ -4,9 +4,9 @@ naziv: "Nacionalni program statističnih raziskovanj (NPSR)"
 vrsta: "akt"
 datum: 1997-11-14
 sop: 1997-01-3375
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3375"
 ---
 

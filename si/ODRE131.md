@@ -4,9 +4,9 @@ naziv: "Odredba o dopolnitvi odredbe o prepovedi uporabe govejih možgan, hrbten
 vrsta: "odredba"
 datum: 1997-11-07
 sop: 1997-01-3277
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3277"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembah in dopolnitvah Pravilnika o pogojih za pridobitev
 vrsta: "pravilnik"
 datum: 1997-11-13
 sop: 1997-01-3360
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3360"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o vrstah finančnih zavarovanj, s katerimi ponudniki zavarujejo
 vrsta: "navodilo"
 datum: 1997-11-28
 sop: 1997-01-3496
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3496"
 ---
 

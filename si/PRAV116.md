@@ -4,9 +4,9 @@ naziv: "Pravilnik za varno vzletanje in pristajanje letal v pogojih zmanjšane v
 vrsta: "pravilnik"
 datum: 1997-11-07
 sop: 1997-01-3280
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3280"
 ---
 

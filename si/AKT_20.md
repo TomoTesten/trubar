@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi odloka o preoblikovanju Unizerze v Ljubljani (OdPUL-B)
 vrsta: "akt"
 datum: 1997-11-27
 sop: 1997-01-3454
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3454"
 ---
 

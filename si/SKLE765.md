@@ -4,9 +4,9 @@ naziv: "Sklep o osmi izdaji blagajniškega zapisa Banke Slovenije z nakupnim bon
 vrsta: "sklep"
 datum: 1997-11-14
 sop: 1997-01-3401
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3401"
 ---
 

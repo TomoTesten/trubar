@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah in dopolnitvah sklepa o kontnem okviru za banke in hr
 vrsta: "sklep"
 datum: 1997-11-28
 sop: 1997-01-3503
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3503"
 ---
 

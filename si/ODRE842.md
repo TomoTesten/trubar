@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi števila strokovnih sodelavcev ter upravno tehničn
 vrsta: "odredba"
 datum: 1997-11-28
 sop: 1997-01-3534
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3534"
 ---
 

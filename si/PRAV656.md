@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembi pravilnika o kakovosti zaklanih prašičev in kate
 vrsta: "pravilnik"
 datum: 1997-11-21
 sop: 1997-01-3407
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3407"
 ---
 
