@@ -7,6 +7,11 @@ sop: 1996-01-0567
 objava: "Uradni list RS 12/96  str. 841"
 kljucne_besede: ["financiranje", "izobraževanje", "način financiranja", "šolanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0567"
+spremembe:
+  - kratica: ZOFVI-A
+    datum: 2001-08-03
+    sop: 2001-01-3472
+    naziv: "Zakon o spremembah in dopolnitvah zakona o organizaciji in financiranju vzgoje in izobraževanja"
 ---
 
 # Zakon o organizaciji in financiranju vzgoje in izobraževanja
