@@ -7,6 +7,11 @@ sop: 1993-01-1351
 objava: "Uradni list RS 32/93  str. 1750"
 kljucne_besede: ["varstvo okolja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1351"
+spremembe:
+  - kratica: ZVO-A
+    datum: 1996-01-12
+    sop: 1996-01-0005
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu okolja"
 ---
 
 # Zakon o varstvu okolja
