@@ -7,6 +7,11 @@ sop: 1994-01-0779
 objava: "Uradni list RS 19/94  str. 1089"
 kljucne_besede: ["sodišča", "organizacija sodstva"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0779"
+spremembe:
+  - kratica: ZS-A
+    datum: 1995-08-04
+    sop: 1995-01-2161
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodiščih"
 ---
 
 # Zakon o sodiščih
