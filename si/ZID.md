@@ -7,6 +7,11 @@ sop: 1994-01-1523
 objava: "Uradni list RS 38/94  str. 2446"
 kljucne_besede: ["inšpektorat za delo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1523"
+spremembe:
+  - kratica: ZID-A
+    datum: 1997-06-05
+    sop: 1997-01-1812
+    naziv: "Zakon o spremembah in dopolnitvah zakona o inšpekciji dela"
 ---
 
 # Zakon o inšpekciji dela
