@@ -4,9 +4,9 @@ naziv: "Pravilnik o omrežju GSM"
 vrsta: "pravilnik"
 datum: 1996-01-26
 sop: 1996-01-0209
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0209"
 ---
 

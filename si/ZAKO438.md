@@ -4,9 +4,9 @@ naziv: "Zakon o poroštvu Republike Slovenije za obveznosti Nove Ljubljanske ban
 vrsta: "akt"
 datum: 1996-01-12
 sop: 1996-01-0001
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0001"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Seznam gotovih zdravil, za katera je bilo od 24. 6. 1995 do 29. 9. 1995 
 vrsta: "drugi akt"
 datum: 1996-02-02
 sop: 1996-01-0286
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0286"
 ---
 
