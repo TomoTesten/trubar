@@ -1,0 +1,48 @@
+---
+kratica: ODRE504
+naziv: "Odredba o sprejemu letnega gozdnogospodarskega načrta gozdnogospodarske enote Most na Soči za leto 2000"
+vrsta: "odredba"
+datum: 1999-07-23
+sop: 1999-01-2805
+organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2805"
+---
+
+# Odredba o sprejemu letnega gozdnogospodarskega načrta gozdnogospodarske enote Most na Soči za leto 2000
+
+Na podlagi drugega odstavka 94. člena zakona o gozdovih (Uradni list RS, št. 30/93), 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95 – odl. US in 29/95) ter  6. člena zakona o prevzemu državnih funkcij, ki so jih do 31. 12. 1994 opravljali organi občin (Uradni list RS, št. 29/95, 44/96 – odl. US), izdaja minister za kmetijstvo, gozdarstvo in prehrano
+
+
+## O D R E D B O
+o sprejemu letnega gozdnogospodarskega  načrta gozdnogospodarske enote Most na Soči za leto 2000
+
+
+### 1. člen
+
+Sprejme se letni gozdnogospodarski načrt za gozdnogospodarsko enoto Most na Soči, št. 01-06/00 z dne  30. 4. 1999, ki ga je izdelal Zavod za gozdove Slovenije, Območna enota Tolmin, za obdobje od 1. 1. 2000 do  31. 12. 2000.
+Usmeritve in ukrepi, ki so določeni v letnem gozdnogospodarskem načrtu za gozdnogospodarsko enoto Most na Soči na ravneh gospodarskih razredov in odsekov, so sestavni del te odredbe.
+
+
+### 2. člen
+
+Letni gozdnogospodarski načrt za gozdnogospodarsko enoto Most na Soči je izdelan v treh izvodih za 7834,47 hektarjev gozdov, ki ležijo v gozdnogospodarskem območju Tolmin, v občini Nova Gorica in Tolmin, oziroma v katastrskih občinah Ponikve, Most na Soči, Tolminski Lom, Kanalski Lom, Idrija pri Bači, Slap od Idrijci, Pečine, Šentviška Gora, Prapetno Brdo, Gorenja Trebuša, Utre in Lazna.
+
+
+### 3. člen
+
+Po en izvod letnega dela gozdnogospodarskega načrta za gozdnogospodarsko enoto Most na Soči je na vpogled na sedežu Zavoda za gozdove Slovenije, Območne enote Tolmin, Tumov drevored 17, Tolmin, na sedežu Zavoda za gozdove Slovenije, Krajevne enote Most na Soči, Tumov drevored 17, Tolmin, in na Ministrstvu za kmetijstvo, gozdarstvo in prehrano Republike Slovenije, Dunajska 56, 58, Ljubljana, kjer se hrani tudi dokumentacija v zvezi s postopkom sprejemanja letnega gozdnogospodarskega načrta za gozdnogospodarsko enoto Most na Soči.
+
+
+### 4. člen
+
+Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 322-01-1/17-99
+
+Ljubljana, dne 18. junija 1999.
+
+Minister
+za kmetijstvo,
+gozdarstvo in prehrano
+Ciril Smrkolj l. r.
