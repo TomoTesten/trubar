@@ -7,6 +7,11 @@ sop: 1999-01-2913
 objava: "Uradni list RS 61/99  str. 7825"
 kljucne_besede: ["dovoljenje za bivanje", "Jugoslavija", "tuji državljan"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2913"
+spremembe:
+  - kratica: ZUSDDD-A
+    datum: 2001-08-03
+    sop: 2001-01-3471
+    naziv: "Zakon o spremembah in dopolnitvah zakona o urejanju statusa državljanov drugih držav naslednic nekdanje SFRJ v Republiki Sloveniji"
 ---
 
 # Zakon o urejanju statusa državljanov drugih držav naslednic nekdanje SFRJ v Republiki Sloveniji
