@@ -7,6 +7,11 @@ sop: 1994-02-0016
 objava: "Uradni list RS MP 2/94  str. 90"
 kljucne_besede: ["ratifikacija sporazuma", "Italija", "Slovenija", "psihotropna snov", "organizirani kriminal", "promet s prepovedanimi drogami"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-02-0016"
+spremembe:
+  - kratica: BITTMOK-A
+    datum: 1995-03-10
+    sop: 1995-02-0022
+    naziv: "Zakon o dopolnitvi zakona o ratifikaciji Sporazuma o sodelovanju med Ministrstvom za notranje zadeve Republike Slovenije in Ministrstvom za notranje zadeve Republike Italije v boju proti nezakonitemu trgovanju z opojnimi in psihotropnimi snovmi ter proti organiziranemu kriminalu in Zapisnika o srečanju med Ministrstvom za notranje zadeve Republike Slovenije in Ministrstvom za notranje zadeve Republike Italije o izmenjavi računalniško obdelanih informacij, ki se nanašajo na nezakonito trgovanje z opojnimi in psihotropnimi snovmi po balkanski poti in v Mediteranu"
 ---
 
 # Zakon o ratifikaciji Sporazuma o sodelovanju med Ministrstvom za notranje zadeve Republike Slovenije in Ministrstvom za notranje zadeve Republike Italije v boju proti nezakonitemu trgovanju z opojnimi in psihotropnimi snovmi ter proti organiziranemu kriminalu in zapisnika o srečanju med Ministrstvom za notranje zadeve Republike Slovenije in Ministrstvom za notranje zadeve Republike Italije o izmenjavi računalniško obdelanih informacij, ki se nanašajo na nezakonito trgovanje z opojnimi in psihotropnimi snovmi po balkanski poti in v Mediteranu
