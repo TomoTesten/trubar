@@ -4,9 +4,9 @@ naziv: "Pravilnik o vsebini in obliki vloge za dodelitev sredstev za odpravo pos
 vrsta: "navodilo"
 datum: 2005-02-04
 sop: 2005-01-0304
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za okolje in prostor"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0304"
 ---
 
