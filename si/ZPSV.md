@@ -7,6 +7,11 @@ sop: 1996-01-0277
 objava: "Uradni list RS 5/96  str. 458"
 kljucne_besede: ["prispevek za socialno varnost"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0277"
+spremembe:
+  - kratica: ZPSV-B
+    datum: 1996-06-29
+    sop: 1996-01-2200
+    naziv: "Zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost"
 ---
 
 # Zakon o prispevkih za socialno varnost
