@@ -7,6 +7,11 @@ sop: 2002-01-1252
 objava: "Uradni list RS 30/2002  str. 2626"
 kljucne_besede: ["plačilna bilanca", "plačilna sposobnost"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1252"
+spremembe:
+  - kratica: ZPlaP-A
+    datum: 2003-02-14
+    sop: 2003-01-0587
+    naziv: "Zakon o dopolnitvi zakona o plačilnem prometu"
 ---
 
 # Zakon o plačilnem prometu
