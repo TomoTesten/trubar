@@ -24,6 +24,10 @@ spremembe:
     datum: 2002-07-26
     sop: 2002-01-3232
     naziv: "Zakon o spremembah in dopolnitvah zakona o sodniški službi"
+  - kratica: ZSS-E
+    datum: 2004-06-30
+    sop: 2004-01-3164
+    naziv: "Zakon o spremembi in dopolnitvi zakona o sodniški službi"
 ---
 
 # Zakon o sodniški službi
