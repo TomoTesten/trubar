@@ -7,6 +7,11 @@ sop: 2002-01-2759
 objava: "Uradni list RS 56/2002  str. 5850"
 kljucne_besede: ["javni uslužbenec", "javna uprava"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2759"
+spremembe:
+  - kratica: ZJU-A
+    datum: 2005-03-10
+    sop: 2005-01-0770
+    naziv: "Zakon o spremembah in dopolnitvah zakona o javnih uslužbencih"
 ---
 
 # Zakon o javnih uslužbencih
