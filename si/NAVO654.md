@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu izvajanja obveznosti delodajalca in tujca do nadzorst
 vrsta: "navodilo"
 datum: 2003-07-14
 sop: 2003-01-3259
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3259"
 ---
 

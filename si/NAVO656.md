@@ -4,9 +4,9 @@ naziv: "Sprememba navodila za izdelavo poročila za izračun in izpolnitev obvez
 vrsta: "navodilo"
 datum: 2003-07-18
 sop: 2003-01-3408
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3408"
 ---
 

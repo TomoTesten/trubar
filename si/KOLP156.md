@@ -4,9 +4,9 @@ naziv: "Razlaga kolektivne pogodbe za cestno gospodarstvo"
 vrsta: "akt"
 datum: 2003-07-21
 sop: 2003-01-3474
-organ: "Komisija za razlago Kolektivne pogodbe za cestno gospodarstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3474"
 ---
 

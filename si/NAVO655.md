@@ -4,9 +4,9 @@ naziv: "Navodilo za preverjanje izpolnjevanja pogojev za čezmejno izvajanje sto
 vrsta: "navodilo"
 datum: 2003-07-18
 sop: 2003-01-3429
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3429"
 ---
 

@@ -2,11 +2,11 @@
 kratica: PRAV87
 naziv: "Pravilnik o vodenju registra dobaviteljev semenskega materiala kmetijskih rastlin"
 vrsta: "pravilnik"
-datum: 2003-03-21
+datum: 2003-07-21
 sop: 2003-01-1132
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-1132"
 ---
 

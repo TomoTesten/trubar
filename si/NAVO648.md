@@ -4,9 +4,9 @@ naziv: "Pravilnik o sistemskih obratovalnih navodilih za prenos zemeljskega plin
 vrsta: "navodilo"
 datum: 2003-07-04
 sop: 2003-01-3147
-organ: "Ministrstvo za okolje, prostor in energijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3147"
 ---
 
