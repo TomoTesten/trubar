@@ -12,6 +12,10 @@ spremembe:
     datum: 1999-06-01
     sop: 1999-01-2028
     naziv: "Zakon o spremembah in dopolnitvah zakona o socialnem varstvu"
+  - kratica: ZSV-B
+    datum: 2001-04-12
+    sop: 2001-01-1583
+    naziv: "Zakon o spremembah in dopolnitvah zakona o socialnem varstvu"
 ---
 
 # Zakon o socialnem varstvu
