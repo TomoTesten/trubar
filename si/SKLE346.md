@@ -4,9 +4,9 @@ naziv: "Sklep o dopolnitvah statuta Odvetniške zbornice Slovenije"
 vrsta: "sklep"
 datum: 1995-02-18
 sop: 1995-01-0577
-organ: "Odvetniška zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0577"
 ---
 

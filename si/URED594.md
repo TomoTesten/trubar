@@ -4,9 +4,9 @@ naziv: "Uredba o načinu izdelave razdelitvene bilance in načinu ugotavljanja d
 vrsta: "uredba"
 datum: 1995-02-18
 sop: 1995-01-0583
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0583"
 ---
 

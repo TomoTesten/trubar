@@ -4,9 +4,9 @@ naziv: "Navodilo o vsebini in načinu vodenja plana računov za opravljanje pla�
 vrsta: "navodilo"
 datum: 1995-02-17
 sop: 1995-01-0546
-organ: "Agencija za plačilni promet"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Konzumiran ali obsoleten predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0546"
 ---
 

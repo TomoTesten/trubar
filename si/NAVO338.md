@@ -4,9 +4,9 @@ naziv: "Navodilo o vsebini in načinu vodenja registra imetnikov računov pri Ag
 vrsta: "navodilo"
 datum: 1995-02-17
 sop: 1995-01-0547
-organ: "Agencija za plačilni promet"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0547"
 ---
 

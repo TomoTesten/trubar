@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o preoblikovanju dela Zavoda za raziskavo mater
 vrsta: "sklep"
 datum: 1995-02-24
 sop: 1995-01-0589
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0589"
 ---
 

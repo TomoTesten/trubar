@@ -4,9 +4,9 @@ naziv: "Navodilo o dopolnitvi navodila o postopku homologacije vozil v Republiki
 vrsta: "navodilo"
 datum: 1995-03-03
 sop: 1995-01-0659
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0659"
 ---
 

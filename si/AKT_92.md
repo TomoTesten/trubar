@@ -4,9 +4,9 @@ naziv: "Akt o nasledstvu Sporazumov nekdanje Jugoslavije z Madžarsko, ki naj os
 vrsta: "akt"
 datum: 1995-02-18
 sop: 1995-02-0008
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-02-0008"
 ---
 

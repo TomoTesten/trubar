@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi skladnosti tretjega odstavka 14. člena zakona o d
 vrsta: "akt"
 datum: 1995-03-03
 sop: 1995-01-0665
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0665"
 ---
 

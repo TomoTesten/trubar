@@ -4,9 +4,9 @@ naziv: "Odlok o soglasju k statutu Agencije za trg vrednostnih papirjev"
 vrsta: "odlok"
 datum: 1995-02-17
 sop: 1995-01-0541
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0541"
 ---
 

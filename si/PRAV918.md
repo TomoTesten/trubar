@@ -4,9 +4,9 @@ naziv: "Pravilnik o pogojih, ki jih morajo izpolnjevati pooblaščene organizaci
 vrsta: "pravilnik"
 datum: 1995-03-03
 sop: 1995-01-0657
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0657"
 ---
 

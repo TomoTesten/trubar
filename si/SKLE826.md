@@ -4,9 +4,9 @@ naziv: "Sklep o dopolnitvi sklepa o izdaji bankovcev za 5.000, 1.000, 500, 200, 
 vrsta: "sklep"
 datum: 1995-02-28
 sop: 1995-01-0637
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0637"
 ---
 
