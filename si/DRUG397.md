@@ -1,0 +1,29 @@
+---
+kratica: DRUG397
+naziv: "Osnova za določanje plač in drugih prejemkov iz delovnega razmerja od vključno januarja 2000 dalje"
+vrsta: "drugi akt"
+datum: 2000-01-14
+sop: 2000-01-0139
+organ: "Ministrstvo za delo, družino in socialne zadeve"
+zbirka: "Drugi splošni in posamični akti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0139"
+---
+
+# Osnova za določanje plač in drugih prejemkov iz delovnega razmerja od vključno januarja 2000 dalje
+
+Na podlagi 4. člena zakona o začasni določitvi osnove za določanje plač in drugih prejemkov iz delovnega razmerja (Uradni list RS, št. 19/97) minister za delo, družino in socialne zadeve objavlja
+
+
+## O S N O V O
+za določanje plač in drugih prejemkov iz delovnega razmerja od vključno januarja 2000 dalje
+
+V skladu s 3. členom zakona o začasni določitvi osnove za določanje plač in drugih prejemkov iz delovnega razmerja (Uradni list RS, št. 19/97) je osnova za določanje plač in drugih prejemkov iz delovnega razmerja od 1. januarja 2000 dalje bruto 148.697 SIT oziroma neto 94.951 SIT.
+
+Št. 663-02-001/2000-001
+
+Ljubljana, dne 31. decembra 1999.
+
+mag. Anton Rop l. r.
+Minister
+za delo, družino in socialne zadeve
