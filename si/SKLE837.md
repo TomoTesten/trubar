@@ -1,0 +1,43 @@
+---
+kratica: SKLE837
+naziv: "Sklep o izročitvi bankovca za 5000 tolarjev v obtok"
+vrsta: "sklep"
+datum: 1998-01-30
+sop: 1998-01-0300
+organ: "Banka Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0300"
+---
+
+# Sklep o izročitvi bankovca za 5000 tolarjev v obtok
+
+Na podlagi tretjega odstavka 69. člena zakona o Banki Slovenije (Uradni list RS, št. 1/91-I) in 2. člena zakona o denarni enoti Republike Slovenije (Uradni list RS, št. 17/91-I in 33/92) izdaja Svet Banke Slovenije
+
+
+## S K L E P
+o izročitvi bankovca za 5000 tolarjev v obtok
+
+
+### 1
+
+Banka Slovenije bo izročila preko podružnic Agencije Republike Slovenije za plačilni promet dne 10. februarja 1998 v obtok bankovec za 5000 tolarjev z znamenji, ki so določena s sklepom o spremembi glavnih znamenj bankovca za 5000 tolarjev (Uradni list RS, št. 7/98).
+
+
+### 2
+
+Bankovci za 5000 tolarjev, izdani na podlagi sklepa o izdaji bankovcev za 5000, 1000, 500, 200, 100, 50, 20 in 10 tolarjev (Uradni list RS, št. 45/92) in ki so bili izročeni v obtok z glavnimi znamenji, določenimi s sklepom o glavnih znamenjih bankovca za 5000 tolarjev (Uradni list RS, št. 66/93) v skladu s sklepom o izročitvi bankovca za 5000 tolarjev v obtok (Uradni list RS, št. 66/93), ostanejo še naprej zakonito plačilno sredstvo.
+
+
+### 3
+
+Ta sklep začne veljati z dnem objave v Uradnem listu Republike Slovenije.
+
+Št. GP-42
+
+Ljubljana, dne 27. januarja 1998.
+
+Predsednik
+Sveta Banke Slovenije
+Guverner
+dr. France Arhar l. r.
