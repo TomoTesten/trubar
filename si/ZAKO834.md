@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah zakona o upravnih taksah"
 vrsta: "akt"
 datum: 1992-03-13
 sop: 1992-01-0635
-organ: "SKUPŠČINA RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0635"
 ---
 

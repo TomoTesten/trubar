@@ -4,9 +4,9 @@ naziv: "Pravilnik o varstvu pri delu v grafični industriji (tiskarnah)"
 vrsta: "pravilnik"
 datum: 1992-02-14
 sop: 1992-01-0385
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0385"
 ---
 

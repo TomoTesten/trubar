@@ -4,9 +4,9 @@ naziv: "Navodilo o pošiljanju mesečnih poročil o knjigovodskem stanju računo
 vrsta: "navodilo"
 datum: 1992-02-28
 sop: 1992-01-0557
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0557"
 ---
 

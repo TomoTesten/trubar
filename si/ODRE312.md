@@ -4,9 +4,9 @@ naziv: "Odredba o proizvodih, ki spadajo med kmetijsko mehanizacijo, naprave in 
 vrsta: "odredba"
 datum: 1992-02-07
 sop: 1992-01-0335
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0335"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o višini stroškov za ugotavljanje sposobnosti čolnov za plovb
 vrsta: "odredba"
 datum: 1992-01-31
 sop: 1992-01-0275
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0275"
 ---
 

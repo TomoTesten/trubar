@@ -4,9 +4,9 @@ naziv: "Odlok o ustanovitvi Britanskega sveta - Centra za angleški jezik"
 vrsta: "odlok"
 datum: 1992-01-31
 sop: 1992-01-0271
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0271"
 ---
 

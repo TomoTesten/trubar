@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah zakona o izvrševanju kazenskih sankci
 vrsta: "akt"
 datum: 1992-03-13
 sop: 1992-01-0633
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0633"
 ---
 

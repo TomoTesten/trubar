@@ -4,9 +4,9 @@ naziv: "Pravilnik o strokovnem izpitu in izobraževanju delavcev v organih carin
 vrsta: "pravilnik"
 datum: 1992-01-31
 sop: 1992-01-0284
-organ: "Carinska uprava RS (MF)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0284"
 ---
 

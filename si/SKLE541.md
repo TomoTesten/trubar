@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi dneva civilne zaščite v Republiki Sloveniji"
 vrsta: "sklep"
 datum: 1992-02-28
 sop: 1992-01-0560
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0560"
 ---
 

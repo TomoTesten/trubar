@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembi pravilnika o uporabi zakona o prometnem davku"
 vrsta: "pravilnik"
 datum: 1992-02-20
 sop: 1992-01-0413
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0413"
 ---
 

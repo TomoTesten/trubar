@@ -4,9 +4,9 @@ naziv: "Odredba o davčnih evidencah in načinu obračuna prometnega davka pri z
 vrsta: "odredba"
 datum: 1992-02-07
 sop: 1992-01-0339
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0339"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o obrazcu za obračun davka od dobička"
 vrsta: "odredba"
 datum: 1992-02-14
 sop: 1992-01-0383
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0383"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Deklaracija o sprejemanju in spoštovanju obveznosti, ki izhajajo iz dok
 vrsta: "akt"
 datum: 1992-02-21
 sop: 1992-01-0482
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0482"
 ---
 
