@@ -4,9 +4,9 @@ naziv: "Odločba o napredovanju na mesto vrhovne državne tožilke na Vrhovnem d
 vrsta: "akt"
 datum: 2003-10-29
 sop: 2003-01-4628
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4628"
 ---
 
