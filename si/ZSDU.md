@@ -7,6 +7,11 @@ sop: 1993-01-1696
 objava: "Uradni list RS 42/93  str. 2363"
 kljucne_besede: ["soodločanje delavcev", "upravljanje podjetja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1696"
+spremembe:
+  - kratica: ZSDU-A
+    datum: 2001-07-06
+    sop: 2001-01-2956
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodelovanju delavcev pri upravljanju"
 ---
 
 # Zakon o sodelovanju delavcev pri upravljanju
