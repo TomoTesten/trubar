@@ -4,9 +4,9 @@ naziv: "Program pripravništva za poklic zdravstveni tehnik"
 vrsta: "drugi akt"
 datum: 1995-08-11
 sop: 1995-01-2231
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2231"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o matični evidenci zavarovancev in uživalcev pravic iz pokojnins
 vrsta: "akt"
 datum: 1995-08-04
 sop: 1995-01-2164
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2164"
 ---
 

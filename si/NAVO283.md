@@ -4,8 +4,9 @@ naziv: "Navodilo o delu sodišč v zvezi s pomilostitvenim postopkom"
 vrsta: "navodilo"
 datum: 1995-09-08
 sop: 1995-01-2444
-organ: "Ministrstvo za pravosodje"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2444"
 ---
 

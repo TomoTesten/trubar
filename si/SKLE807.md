@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah sklepa o kratkoročnih posojilih bankam"
 vrsta: "sklep"
 datum: 1995-09-01
 sop: 1995-01-2412
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2412"
 ---
 

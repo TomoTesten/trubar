@@ -4,9 +4,9 @@ naziv: "Pravilnik o omrežju ISDN"
 vrsta: "pravilnik"
 datum: 1995-09-08
 sop: 1995-01-2442
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2442"
 ---
 

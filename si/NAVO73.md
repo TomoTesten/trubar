@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu izvajanja akreditiranja in o splošnih pogojih, ki ji
 vrsta: "navodilo"
 datum: 1995-08-09
 sop: 1995-01-2217
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2217"
 ---
 

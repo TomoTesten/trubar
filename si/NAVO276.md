@@ -4,9 +4,9 @@ naziv: "Navodilo o metodologiji za oblikovanje najemnin v neprofitnih stanovanji
 vrsta: "navodilo"
 datum: 1995-08-11
 sop: 1995-01-2229
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2229"
 ---
 

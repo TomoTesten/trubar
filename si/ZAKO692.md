@@ -4,9 +4,9 @@ naziv: "Zakon o ratifikaciji Sporazuma med Republiko Slovenijo in Kraljevino Dan
 vrsta: "akt"
 datum: 1995-08-09
 sop: 1995-02-0056
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-02-0056"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o spremembi zakona o najemu posojil in poroštvu za najeta posojil
 vrsta: "akt"
 datum: 1995-08-04
 sop: 1995-01-2160
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2160"
 ---
 
