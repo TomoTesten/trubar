@@ -16,6 +16,10 @@ spremembe:
     datum: 1996-04-29
     sop: 1996-01-1314
     naziv: "Zakon o spremembah in dopolnitvah stanovanjskega zakona"
+  - kratica: SZ-D
+    datum: 2000-01-07
+    sop: 2000-01-0002
+    naziv: "Zakon o spremembah in dopolnitvah stanovanjskega zakona"
 ---
 
 # Stanovanjski zakon
