@@ -1,0 +1,84 @@
+---
+kratica: KOLP196
+naziv: "Aneks h kolektivni pogodbi za zavarovalstvo Slovenije"
+vrsta: "akt"
+datum: 2005-01-21
+sop: 2005-01-0155
+organ: "Gospodarska zbornica Slovenije"
+zbirka: "Neveljavni predpisi"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0155"
+---
+
+# Aneks h kolektivni pogodbi za zavarovalstvo Slovenije
+
+Na podlagi Zakona o izvajanju dogovora o politiki plač v obdobju 2004–2005 (Uradni list RS, št. 70/04), Dogovora o politiki plač v obdobju 2004–2005 (Uradni list RS, št. 55/04), Kolektivne pogodbe za zavarovalstvo Slovenije (Uradni list RS, št. 60/98)
+
+pogodbene stranke
+Združenje delodajalcev Slovenije – Sekcija za storitve
+Gospodarska zbornica Slovenije
+Združenje za zavarovalstvo
+Slovensko zavarovalno združenje
+kot predstavnik delodajalcev
+in
+Sindikat finančnih organizacij Slovenije
+kot predstavnik delojemalcev
+sklepata
+
+
+## A N E K S
+h kolektivni pogodbi za zavarovalstvo Slovenije
+
+
+### 1. člen
+
+V skladu z Zakonom o izvajanju dogovora o politiki plač v zasebnem sektorju za obdobje 2004–2005 in Dogovorom o politiki plač v zasebnem sektorju za obdobje 2004–2005 s tem aneksom določamo višino in način izplačevanja zneska uskladitve k izplačani plači zaposlenih pri delodajalcih, za katere se uporablja Kolektivna pogodba za zavarovalstvo Slovenije (v nadaljevanju: delavcem).
+
+
+### 2. člen
+
+Podpisniki tega aneksa se strinjamo, da se ob izplačilu plač za mesec oktober 2004 in dalje plača vsakega delavca za poln delovni čas, poveča za 7.100 SIT, kar v skladu z zakonom in dogovorom iz prvega odstavka predstavlja znesek uskladitve.
+
+
+### 3. člen
+
+Znesek uskladitve iz 2. člena se izplačuje kot poseben dodatek k izplačanim plačam in mora biti prikazan na plačilni listi zaposlenega.
+
+
+### 4. člen
+
+Znesek uskladitve iz 2. člena se izplačuje vse dokler se v kolektivni pogodbi dejavnosti ne vključi v sistem plač.
+
+
+### 5. člen
+
+Podpisniki soglašamo, da se bomo o uskladitvi plač za leto 2005 dogovorili, ko bodo znani podatki o izplačanih plačah za december 2004.
+
+
+### 6. člen
+
+Aneks začne veljati naslednji dan po objavi v Uradnem listu RS in se uporablja od 1. 10. 2004 dalje.
+
+
+### 7. člen
+
+V primeru spora se uporabljajo določbe te kolektivne pogodbe.
+
+Ljubljana, dne 5. oktobra 2004.
+
+Podpisniki:
+Predstavnik delojemalcev:
+Sindikat finančnih organizacij Slovenije
+Sekretar
+Drago Ščernjavič l. r.
+Predstavniki delodajalcev:
+Združenje delodajalcev Slovenije
+Sekcija za zavarovalstvo
+Renato Frelih l. r.
+Gospodarska zbornica Slovenije
+Združenje za zavarovalstvo
+mag. Mirko Kaluža l. r.
+Slovensko zavarovalno združenje
+mag. Mirko Kaluža l. r.
+
+Ta aneks h kolektivni pogodbi je bil s sklepom o registraciji kolektivne pogodbe, ki ga je izdalo Ministrstvo za delo, družino in socialne zadeve vpisan v register kolektivnih pogodb z datumom 26. 10. 2004 pod zap. št. 59/1 in št. spisa 02047-3/2004/2.
