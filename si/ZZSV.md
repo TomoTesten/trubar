@@ -7,6 +7,11 @@ sop: 1992-01-2111
 objava: "Uradni list RS 45/92  str. 2706"
 kljucne_besede: ["socialna varnost", "upokojenec", "Jugoslavija", "sistem pokojninskega zavarovanja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2111"
+spremembe:
+  - kratica: ZZSV-A
+    datum: 2001-03-14
+    sop: 2001-01-1063
+    naziv: "Zakon o dopolnitvi zakona o zagotavljanju socialne varnosti slovenskim državljanom, ki so upravičeni do pokojnin iz republik nekdanje SFRJ"
 ---
 
 # Zakon o zagotavljanju socialne varnosti slovenskim državljanom, ki so upravičeni do pokojnin iz republik nekdanje SFRJ
