@@ -12,6 +12,10 @@ spremembe:
     datum: 1993-10-17
     sop: 1993-01-2122
     naziv: "Zakon o dopolnitvi zakona o carinski službi"
+  - kratica: ZCS-B
+    datum: 1993-12-03
+    sop: 1993-01-2372
+    naziv: "Zakon o spremembah in dopolnitvah zakona o carinski službi"
 ---
 
 # Zakon o carinski službi
