@@ -1,0 +1,56 @@
+---
+kratica: MP_ODLO549
+naziv: "Odlok o spremembah in dopolnitvah odloka o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Trebnje (ODLO)"
+vrsta: "občinski odlok"
+datum: 1999-08-26
+sop: 1999-01-3475
+organ: "Občina Trebnje"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3475"
+---
+
+# Odlok o spremembah in dopolnitvah odloka o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Trebnje (ODLO)
+
+Na podlagi 3. člena zakona o zavodih (Uradni list RS, št. 12/91), prvega odstavka 41. člena zakona o organizaciji in financiranju vzgoje in izobraževanja (Uradni list RS, št. 12/96), 29. člena zakona o lokalni samoupravi (Uradni list RS, št. 72/93, 6/94, 45/94, 57/94, 14/95, 20/95, 63/95, 73/95, 9/96, 39/96, 44/96, 26/97, 70/97, 74/98) ter 19. člena statuta Občine Trebnje (Uradni list RS, št. 50/95, 80/98) je Občinski svet občine Trebnje na 6. seji dne 4. 8. 1999 sprejel
+
+
+## O D L O K
+o spremembah in dopolnitvah odloka o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Trebnje
+
+
+### 1. člen
+
+Odlok o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Trebnje (Uradni list RS, št. 20/97) se v 3. členu v tretjem odstavku črta naselje Gor. Prapreče.
+
+
+### 2. člen
+
+V 3. členu se četrti odstavek dopolni tako, da se na koncu doda naselje Gor. Prapreče.
+
+
+### 3. člen
+
+Spremeni in dopolni se drugi odstavek 4. člena, tako da glasi:
+V okviru dejavnosti zavoda sodijo še:
+
+– M/80.422     – drugo izobraževanje, d.n.,
+– H/55.52      – priprava in dostava hrane (catering),
+– H/55.51      – dejavnost menz,
+– I/60.23      – drug kopenski potniški promet,
+– O/92.32      – obratovanje objektov za kulturne prireditve,
+– O/92.511     – dejavnost knjižnic,
+– O/92.623     – druge športne dejavnosti.
+
+
+### 4. člen
+
+Ta odlok začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 026-2/1997
+
+Trebnje, dne 4. avgusta 1999.
+
+Župan
+Občine Trebnje
+Ciril Metod Pungartnik l. r.
