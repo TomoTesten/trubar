@@ -7,6 +7,11 @@ sop: 1991-01-0652
 objava: "Uradni list RS 18/91  str. 589"
 kljucne_besede: ["stanovanje", "stanovanjska politika", "stanovanjsko pravo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0652"
+spremembe:
+  - kratica: SZ-A
+    datum: 1994-04-22
+    sop: 1994-01-0893
+    naziv: "Zakon o spremembah in dopolnitvah stanovanjskega zakona"
 ---
 
 # Stanovanjski zakon
