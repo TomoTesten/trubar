@@ -7,6 +7,11 @@ sop: 2000-01-3804
 objava: "Uradni list RS 85/2000  str. 9993"
 kljucne_besede: ["železniški promet", "prevozne zmogljivosti", "varnost prevoza"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3804"
+spremembe:
+  - kratica: ZVZP-A
+    datum: 2004-04-29
+    sop: 2004-01-2133
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varnosti v železniškem prometu"
 ---
 
 # Zakon o varnosti v železniškem prometu
