@@ -24,6 +24,10 @@ spremembe:
     datum: 1998-12-11
     sop: 1998-01-4322
     naziv: "Zakon o dopolnitvi zakona o gospodarskih družbah"
+  - kratica: ZGD-E
+    datum: 1999-01-29
+    sop: 1999-01-0215
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gospodarskih družbah"
 ---
 
 # Zakon o gospodarskih družbah
