@@ -7,6 +7,11 @@ sop: 1996-01-3454
 objava: "Uradni list RS 59/96  str. 5132"
 kljucne_besede: ["kmetijsko zemljišče", "raba zemljišč", "zakup kmetijskih zemljišč"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3454"
+spremembe:
+  - kratica: ZKZ-A
+    datum: 2002-07-26
+    sop: 2002-01-3230
+    naziv: "Zakon o spremembah zakona o kmetijskih zemljiščih"
 ---
 
 # Zakon o kmetijskih zemljiščih
