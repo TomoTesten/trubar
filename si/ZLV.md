@@ -12,6 +12,10 @@ spremembe:
     datum: 1994-02-16
     sop: 1994-01-0310
     naziv: "Zakon o spremembah in dopolnitvah zakona o lokalnih volitvah"
+  - kratica: ZLV-B
+    datum: 1994-06-13
+    sop: 1994-01-1353
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lokalnih volitvah"
 ---
 
 # Zakon o lokalnih volitvah
