@@ -7,6 +7,11 @@ sop: 2001-01-2642
 objava: "Uradni list RS 48/2001  str. 5229"
 kljucne_besede: ["pravna pomoč"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2642"
+spremembe:
+  - kratica: ZBPP-A
+    datum: 2004-05-06
+    sop: 2004-01-2293
+    naziv: "Zakon o spremembah in dopolnitvah zakona o brezplačni pravni pomoči"
 ---
 
 # Zakon o brezplačni pravni pomoči
