@@ -4,9 +4,9 @@ naziv: "Zakon o izvajanju resolucije varnostnega sveta OZN št. 757/1992, ki dol
 vrsta: "akt"
 datum: 1992-11-06
 sop: 1992-01-2438
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2438"
 ---
 

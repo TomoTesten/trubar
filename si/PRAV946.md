@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembah pravilnika o gasilski službi na letališču"
 vrsta: "pravilnik"
 datum: 1992-12-04
 sop: 1992-01-2660
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2660"
 ---
 

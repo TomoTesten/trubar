@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi podjetij za opravljanje posebnih pregledov motornih
 vrsta: "odredba"
 datum: 1992-11-27
 sop: 1992-01-2575
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2575"
 ---
 

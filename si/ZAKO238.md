@@ -4,9 +4,9 @@ naziv: "Zakon o jamstvu Republike Slovenije za obveznice, izdane zaradi sanacije
 vrsta: "akt"
 datum: 1992-11-20
 sop: 1992-01-2518
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2518"
 ---
 

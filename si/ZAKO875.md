@@ -4,9 +4,9 @@ naziv: "Zakon o civilnih invalidih vojne (ZCI)"
 vrsta: "akt"
 datum: 1992-11-27
 sop: 1992-01-2570
-organ: "SKUPŠČINA RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2570"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi in dopolnitvi sklepa o izdaji dvodelnega prenosljivega
 vrsta: "sklep"
 datum: 1992-11-13
 sop: 1992-01-2489
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2489"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o valorizaciji denarnih kazni za kazniva dejanja in gospodarske pr
 vrsta: "akt"
 datum: 1992-11-20
 sop: 1992-01-2515
-organ: "SKUPŠČINA RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2515"
 ---
 

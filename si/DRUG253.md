@@ -4,9 +4,9 @@ naziv: "Sporazum o olajševanju mednarodnega kroženja vizualnih in audio gradiv
 vrsta: "drugi akt"
 datum: 1992-11-13
 sop: 1992-02-0087
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-02-0087"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o preoblikovanju Inštituta za narodnostna vprašanja v javni razi
 vrsta: "odlok"
 datum: 1992-10-30
 sop: 1992-01-2390
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2390"
 ---
 

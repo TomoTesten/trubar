@@ -4,9 +4,9 @@ naziv: "Zakon o kritju izgube slovenskih železarn (ZKIS)"
 vrsta: "akt"
 datum: 1992-11-30
 sop: 1992-01-2639
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2639"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o uporabi sredstev rezerve Republike Slovenije"
 vrsta: "odlok"
 datum: 1992-11-13
 sop: 1992-01-2513
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2513"
 ---
 

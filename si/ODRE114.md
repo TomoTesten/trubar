@@ -4,9 +4,9 @@ naziv: "Odredba o obvezni presoji usposobljenosti podjetij za proizvodnjo, servi
 vrsta: "odredba"
 datum: 1992-11-06
 sop: 1992-01-2448
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2448"
 ---
 

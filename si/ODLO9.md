@@ -4,9 +4,9 @@ naziv: "Odlok o ustanovitvi Centra šolskih in obšolskih dejavnosti"
 vrsta: "odlok"
 datum: 1992-11-06
 sop: 1992-01-2441
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2441"
 ---
 

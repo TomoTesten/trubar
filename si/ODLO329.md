@@ -4,9 +4,9 @@ naziv: "Odlok o določitvi začasne protidumpinške dajatve"
 vrsta: "odlok"
 datum: 1992-11-27
 sop: 1992-01-2637
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2637"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o dopolnitvi odločbe o določitvi organizacij za izvajanje nal
 vrsta: "akt"
 datum: 1992-11-06
 sop: 1992-01-2444
-organ: "Ministrstvo za okolje, prostor in energijo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2444"
 ---
 
