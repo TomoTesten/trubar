@@ -4,9 +4,9 @@ naziv: "Seznam zdravil skupine C, za katere je bilo od 16. 7. 1999 do 15. 9. 199
 vrsta: "drugi akt"
 datum: 1999-09-30
 sop: 1999-01-3769
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3769"
 ---
 

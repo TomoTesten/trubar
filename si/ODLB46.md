@@ -4,9 +4,9 @@ naziv: "Odločba o omejitvi prometa z nevarnimi proizvodi, ki vsebujejo naftalen
 vrsta: "akt"
 datum: 1999-09-09
 sop: 1999-01-3587
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3587"
 ---
 

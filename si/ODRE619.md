@@ -4,9 +4,9 @@ naziv: "Odredba o spremembi odredbe o homologiranju vozil za javni prevoz potnik
 vrsta: "odredba"
 datum: 1999-10-01
 sop: 1999-01-3778
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3778"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o razvrščanju, pakiranju in označevanju nevarnih pripravkov
 vrsta: "drugi akt"
 datum: 1999-09-09
 sop: 1999-01-3582
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3582"
 ---
 

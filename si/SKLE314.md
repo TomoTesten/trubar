@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi in dopolnitvi sklepa o določitvi enotne tarife, po ka
 vrsta: "sklep"
 datum: 1999-09-24
 sop: 1999-01-3713
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3713"
 ---
 

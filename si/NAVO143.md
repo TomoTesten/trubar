@@ -4,9 +4,9 @@ naziv: "Navodilo za razvrščanje blaga v carinsko tarifo"
 vrsta: "navodilo"
 datum: 1999-09-22
 sop: 1999-01-3690
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3690"
 ---
 

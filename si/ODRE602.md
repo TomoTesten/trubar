@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o ekonomski klasifikaciji ja
 vrsta: "odredba"
 datum: 1999-09-10
 sop: 1999-01-3591
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3591"
 ---
 

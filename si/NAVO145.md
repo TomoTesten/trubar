@@ -4,9 +4,9 @@ naziv: "Navodilo o zamenjavi obarvanih bankovcev"
 vrsta: "navodilo"
 datum: 1999-09-24
 sop: 1999-01-3714
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3714"
 ---
 
