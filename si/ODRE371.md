@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o izvozu, uvozu in tranzitu 
 vrsta: "odredba"
 datum: 1998-08-21
 sop: 1998-01-2737
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2737"
 ---
 

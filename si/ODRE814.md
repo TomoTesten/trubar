@@ -4,8 +4,9 @@ naziv: "Pravilnik o cenah in normativih za določanje cen gradbenih del za popot
 vrsta: "odredba"
 datum: 1998-08-21
 sop: 1998-01-2736
-organ: "Ministrstvo za okolje in prostor"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2736"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o ustanovitvi odbora za priznanja Republike Slovenije za poslovno 
 vrsta: "sklep"
 datum: 1998-08-07
 sop: 1998-01-2552
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2552"
 ---
 

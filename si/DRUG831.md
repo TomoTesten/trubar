@@ -4,9 +4,9 @@ naziv: "Tipična delovna mesta v dejavnosti G - trgovina, popravila motornih voz
 vrsta: "drugi akt"
 datum: 1998-08-14
 sop: 1998-01-2638
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2638"
 ---
 

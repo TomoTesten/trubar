@@ -4,9 +4,9 @@ naziv: "Odločba o oceni ustavnosti in zakonitosti pravilnika o uporabi igralnih
 vrsta: "akt"
 datum: 1998-08-07
 sop: 1998-01-2568
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2568"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah zakona o najetju kredita Republike Slo
 vrsta: "akt"
 datum: 1998-08-14
 sop: 1998-01-2601
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2601"
 ---
 

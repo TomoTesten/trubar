@@ -4,9 +4,9 @@ naziv: "Seznam medicinskih pripomočkov skupine D, za katere je bilo do 30. 6. 1
 vrsta: "drugi akt"
 datum: 1998-08-28
 sop: 1998-01-2769
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2769"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba, da sta 145.a in 145. c člen zakona o izvrševanju kazenskih s
 vrsta: "akt"
 datum: 1998-08-07
 sop: 1998-01-2563
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2563"
 ---
 

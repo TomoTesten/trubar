@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah odredbe o določitvi števila strokovnih sodelavcev
 vrsta: "odredba"
 datum: 1998-09-04
 sop: 1998-01-2844
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2844"
 ---
 
