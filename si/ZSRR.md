@@ -7,6 +7,11 @@ sop: 1999-01-2868
 objava: "Uradni list RS 60/99  str. 7674"
 kljucne_besede: ["regionalna politika", "regionalni razvoj"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2868"
+spremembe:
+  - kratica: ZSRR-A
+    datum: 2003-06-13
+    sop: 2003-01-2776
+    naziv: "Zakon o spremembah in dopolnitvah zakona o spodbujanju skladnega regionalnega razvoja"
 ---
 
 # Zakon o spodbujanju skladnega regionalnega razvoja
