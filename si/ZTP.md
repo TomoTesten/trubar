@@ -7,6 +7,11 @@ sop: 2001-01-4450
 objava: "Uradni list RS 87/2001  str. 8697"
 kljucne_besede: ["varstvo podatkov", "zaupnost", "državna tajnost"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4450"
+spremembe:
+  - kratica: ZTP-A
+    datum: 2003-10-21
+    sop: 2003-01-4504
+    naziv: "Zakon o spremembah in dopolnitvah zakona o tajnih podatkih"
 ---
 
 # Zakon o tajnih podatkih
