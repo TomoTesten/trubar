@@ -7,6 +7,11 @@ sop: 2001-01-3468
 objava: "Uradni list RS 64/2001  str. 6579"
 kljucne_besede: ["mednarodno sodišče", "sodnik", "kandidat"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3468"
+spremembe:
+  - kratica: ZPKSMS-A
+    datum: 2002-07-05
+    sop: 2002-01-2839
+    naziv: "Zakon o spremembah in dopolnitvah zakona o predlaganju kandidatov iz Republike Slovenije za sodnike mednarodnih sodišč"
 ---
 
 # Zakon o predlaganju kandidatov iz Republike Slovenije za sodnike mednarodnih sodišč
