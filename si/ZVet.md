@@ -7,6 +7,11 @@ sop: 1994-01-2981
 objava: "Uradni list RS 82/94  str. 5045"
 kljucne_besede: ["veterinarska zakonodaja", "veterina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2981"
+spremembe:
+  - kratica: ZVet-A
+    datum: 1995-07-14
+    sop: 1995-01-0957
+    naziv: "Zakon o spremembah in dopolnitvah zakona o veterinarstvu"
 ---
 
 # Zakon o veterinarstvu
