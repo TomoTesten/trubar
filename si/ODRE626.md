@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi pooblaščenih podjetij za opravljanje pregledov vk
 vrsta: "odredba"
 datum: 1995-09-01
 sop: 1995-01-2408
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za promet in zveze"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2408"
 ---
 

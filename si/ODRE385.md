@@ -4,9 +4,9 @@ naziv: "Odredba o obliki druge serije obveznic Republike Slovenije za odkup terj
 vrsta: "odredba"
 datum: 1994-11-30
 sop: 1994-01-2643
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2643"
 ---
 

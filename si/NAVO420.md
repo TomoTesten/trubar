@@ -4,9 +4,9 @@ naziv: "Navodilo spremembah navodila za uveljavljanje finančnih intervencij za 
 vrsta: "navodilo"
 datum: 1995-01-13
 sop: 1995-01-0225
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "MINISTRSTVO ZA KMETIJSTVO IN GOZDARSTVO"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0225"
 ---
 

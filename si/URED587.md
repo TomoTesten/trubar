@@ -4,9 +4,9 @@ naziv: "Uredba o ustanovitvi družbe Rudnik Zagorje v zapiranju, d.o.o."
 vrsta: "uredba"
 datum: 1995-07-21
 sop: 1995-01-1986
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1986"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o ugotovitvi dokončnega nominalnega zneska in drugih pogojev obv
 vrsta: "uredba"
 datum: 1996-06-07
 sop: 1996-01-1996
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1996"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila o pooblastilih za imenovan
 vrsta: "navodilo"
 datum: 1995-12-15
 sop: 1995-01-3375
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za obrambo"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3375"
 ---
 

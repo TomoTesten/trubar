@@ -4,9 +4,9 @@ naziv: "Uredba o uporabi znižanih carinskih stopenj"
 vrsta: "uredba"
 datum: 1995-11-17
 sop: 1995-01-3023
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3023"
 ---
 

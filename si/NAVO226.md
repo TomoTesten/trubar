@@ -4,9 +4,9 @@ naziv: "Navodilo o pooblastilih za imenovanja in razrešitve v Slovenski vojski"
 vrsta: "navodilo"
 datum: 1995-05-26
 sop: 1995-01-1308
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za obrambo"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1308"
 ---
 

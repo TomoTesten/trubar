@@ -4,9 +4,9 @@ naziv: "Odredba o tretji izdaji enomesečnih zakladnih menic na ime"
 vrsta: "odredba"
 datum: 1995-03-10
 sop: 1995-01-0721
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0721"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu pregleda potnikov, ki uživajo diplomatsko in konzula
 vrsta: "navodilo"
 datum: 1994-11-11
 sop: 1994-01-2514
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za notranje zadeve"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2514"
 ---
 

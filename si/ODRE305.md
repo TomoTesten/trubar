@@ -2,11 +2,11 @@
 kratica: ODRE305
 naziv: "Odredba o dajanju podatkov za vodenje davčne evidence o odmeri, obračunu, izterjavi in knjiženju davkov za pravne osebe"
 vrsta: "odredba"
-datum: 1996-12-28
+datum: 1996-05-17
 sop: 1996-01-1645
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1645"
 ---
 

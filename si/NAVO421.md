@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila za uveljavljanje finančni
 vrsta: "navodilo"
 datum: 1995-03-10
 sop: 1995-01-0722
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "MINISTRSTVO ZA KMETIJSTVO IN GOZDARSTVO"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0722"
 ---
 

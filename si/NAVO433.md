@@ -4,9 +4,9 @@ naziv: "Navodilo za kakovost in nadzor kakovosti tolčenca za gramozno gredo že
 vrsta: "navodilo"
 datum: 1995-07-07
 sop: 1995-01-1851
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za promet in zveze"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1851"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o preoblikovanju podjetja Rudnik živega srebra Idrija, p.o."
 vrsta: "uredba"
 datum: 1995-06-09
 sop: 1995-01-1577
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1577"
 ---
 

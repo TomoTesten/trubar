@@ -4,9 +4,9 @@ naziv: "Odredba o prenehanju veljavnosti odredb o obveznem atestiranju bombaža,
 vrsta: "odredba"
 datum: 1995-02-18
 sop: 1995-01-0569
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za znanost in tehnologijo"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0569"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila za uveljavljanje finančni
 vrsta: "navodilo"
 datum: 1994-10-14
 sop: 1994-01-2216
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "MINISTRSTVO ZA KMETIJSTVO IN GOZDARSTVO"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2216"
 ---
 

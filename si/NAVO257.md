@@ -4,9 +4,9 @@ naziv: "Navodilo o predaji in prevzemu zadev, arhiva in drugega gradiva ter pren
 vrsta: "navodilo"
 datum: 1994-12-31
 sop: 1994-01-3023
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za pravosodje"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-3023"
 ---
 
