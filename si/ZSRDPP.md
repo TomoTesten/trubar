@@ -7,6 +7,11 @@ sop: 1997-01-2141
 objava: "Uradni list RS 39/97  str. 3513"
 kljucne_besede: ["pomoč za prestrukturiranje", "gospodarska družba", "gospodarstvo v tranziciji"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2141"
+spremembe:
+  - kratica: ZSRDPP-A
+    datum: 1997-11-07
+    sop: 1997-01-3268
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Slovenski razvojni družbi in programu prestrukturiranja podjetij"
 ---
 
 # Zakon o Slovenski razvojni družbi in programu prestrukturiranja podjetij
