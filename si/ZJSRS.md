@@ -12,6 +12,10 @@ spremembe:
     datum: 1998-02-12
     sop: 1998-01-0439
     naziv: "Zakon o spremembah in dopolnitvah zakona o Jamstvenem skladu Republike Slovenije"
+  - kratica: ZJSRS-B
+    datum: 1999-06-01
+    sop: 1999-01-2027
+    naziv: "Zakon o spremembah in dopolnitvi zakona o Jamstvenem skladu Republike Slovenije"
 ---
 
 # Zakon o Jamstvenem skladu Republike Slovenije
