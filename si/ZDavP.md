@@ -16,6 +16,10 @@ spremembe:
     datum: 1998-12-04
     sop: 1998-01-4282
     naziv: "Zakon o dopolnitvi zakona o davčnem postopku"
+  - kratica: ZDavP-C
+    datum: 1998-12-30
+    sop: 1998-01-4743
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davčnem postopku"
 ---
 
 # Zakon o davčnem postopku
