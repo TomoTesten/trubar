@@ -12,6 +12,10 @@ spremembe:
     datum: 1993-06-11
     sop: 1993-01-1310
     naziv: "Zakon o spremembi in dopolnitvi zakona o denacionalizaciji"
+  - kratica: ZDen-B
+    datum: 1998-09-25
+    sop: 1998-01-3015
+    naziv: "Zakon o spremembah in dopolnitvah zakona o denacionalizaciji"
 ---
 
 # Zakon o denacionalizaciji
