@@ -7,6 +7,11 @@ sop: 1996-01-1062
 objava: "Uradni list RS 18/96  str. 1477"
 kljucne_besede: ["davčni sistem", "davčni zavezanec", "davek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1062"
+spremembe:
+  - kratica: ZDavP-A
+    datum: 1997-12-29
+    sop: 1997-01-4010
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davčnem postopku"
 ---
 
 # Zakon o davčnem postopku
