@@ -7,6 +7,11 @@ sop: 1993-01-2464
 objava: "Uradni list RS 67/93  str. 3281"
 kljucne_besede: ["likvidacija", "prisilna poravnava", "stečaj"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2464"
+spremembe:
+  - kratica: ZPPSL-A
+    datum: 1997-06-30
+    sop: 1997-01-2142
+    naziv: "Zakon o spremembah in dopolnitvah zakona o prisilni poravnavi, stečaju in likvidaciji"
 ---
 
 # Zakon o prisilni poravnavi, stečaju in likvidaciji
