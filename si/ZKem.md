@@ -7,6 +7,11 @@ sop: 1999-01-1752
 objava: "Uradni list RS 36/99  str. 4165"
 kljucne_besede: ["posebne kemikalije", "nevarna snov"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1752"
+spremembe:
+  - kratica: ZKem-A
+    datum: 2003-07-04
+    sop: 2003-01-3142
+    naziv: "Zakon o spremembah in dopolnitvah zakona o kemikalijah"
 ---
 
 # Zakon o kemikalijah
