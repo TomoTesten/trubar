@@ -7,6 +7,11 @@ sop: 2000-01-0975
 objava: "Uradni list RS 22/2000  str. 3140"
 kljucne_besede: ["posebne kemikalije", "promet s prepovedanimi drogami"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0975"
+spremembe:
+  - kratica: ZPSPD-A
+    datum: 2003-07-04
+    sop: 2003-01-3141
+    naziv: "Zakon o spremembah in dopolnitvah zakona o predhodnih sestavinah za prepovedane droge"
 ---
 
 # Zakon o predhodnih sestavinah za prepovedane droge
