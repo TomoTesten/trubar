@@ -4,9 +4,9 @@ naziv: "Razpis volitev članov sodnega sveta"
 vrsta: "drugi akt"
 datum: 1999-03-26
 sop: 1999-01-0937
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0937"
 ---
 

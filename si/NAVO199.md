@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve navodila za izvajanje sklepa o obveznosti poroč
 vrsta: "navodilo"
 datum: 1999-03-26
 sop: 1999-01-0953
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0953"
 ---
 

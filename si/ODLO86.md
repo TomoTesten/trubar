@@ -4,9 +4,9 @@ naziv: "Odlok o preferencialnih pravilih o poreklu blaga, ki se v letu 1999 upor
 vrsta: "odlok"
 datum: 1999-03-27
 sop: 1999-01-0984
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0984"
 ---
 

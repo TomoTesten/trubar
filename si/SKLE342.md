@@ -4,9 +4,9 @@ naziv: "Sklep o višini stroškov vpogleda v izpitno dokumentacijo"
 vrsta: "sklep"
 datum: 1999-04-02
 sop: 1999-01-1019
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1019"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o spremembah in dopolnitvah uredbe o uvedbi finančnih intervenci
 vrsta: "uredba"
 datum: 1999-03-19
 sop: 1999-01-0867
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0867"
 ---
 

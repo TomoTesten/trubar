@@ -4,9 +4,9 @@ naziv: "Pravilnik o načinu in postopku izvajanja nadzora nad izpolnjevanjem obv
 vrsta: "pravilnik"
 datum: 1999-03-24
 sop: 1999-01-0878
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0878"
 ---
 

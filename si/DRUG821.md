@@ -4,9 +4,9 @@ naziv: "Dogovor o politiki plač za obdobje 1999-2001"
 vrsta: "drugi akt"
 datum: 1999-04-02
 sop: 1999-01-1017
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1017"
 ---
 

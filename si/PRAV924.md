@@ -4,9 +4,9 @@ naziv: "Pravilnik o potrjevanju učbenikov"
 vrsta: "pravilnik"
 datum: 1999-04-02
 sop: 1999-01-1005
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1005"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Akt o spremembi akta o notifikaciji nasledstva glede konvencij Organizac
 vrsta: "akt"
 datum: 1999-03-27
 sop: 1999-02-0007
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-02-0007"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o postavitvi častnega konzula v Denverju"
 vrsta: "sklep"
 datum: 1999-03-19
 sop: 1999-01-0820
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0820"
 ---
 

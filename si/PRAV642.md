@@ -4,9 +4,9 @@ naziv: "Pravilnik o izvajanju nadzora nad delom Zavoda Republike Slovenije za za
 vrsta: "pravilnik"
 datum: 1999-03-24
 sop: 1999-01-0875
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0875"
 ---
 

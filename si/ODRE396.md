@@ -4,9 +4,9 @@ naziv: "Odredba o prepovedi vznemirjanja zavarovanih vrst ptic v stenah na obmo�
 vrsta: "odredba"
 datum: 1999-04-02
 sop: 1999-01-1004
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1004"
 ---
 
