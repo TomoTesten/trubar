@@ -7,6 +7,11 @@ sop: 1991-01-0009
 objava: "Uradni list RS 1/91  str. 10"
 kljucne_besede: ["tuji državljan"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0009"
+spremembe:
+  - kratica: ZTuj-A
+    datum: 1997-07-24
+    sop: 1997-01-2414
+    naziv: "Zakon o spremembah zakona o tujcih"
 ---
 
 # Zakon o tujcih
