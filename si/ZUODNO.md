@@ -7,6 +7,11 @@ sop: 1994-01-2082
 objava: "Uradni list RS 60/94  str. 3335"
 kljucne_besede: ["občina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2082"
+spremembe:
+  - kratica: ZUODNO-A
+    datum: 1994-11-05
+    sop: 1994-01-2508
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ustanovitvi občin ter o določitvi njihovih območij"
 ---
 
 # Zakon o ustanovitvi občin ter o določitvi njihovih območij
