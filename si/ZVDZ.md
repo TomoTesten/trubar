@@ -7,6 +7,11 @@ sop: 1992-01-2068
 objava: "Uradni list RS 44/92  str. 2665"
 kljucne_besede: ["volitve", "parlamentarne volitve", "Državni zbor"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2068"
+spremembe:
+  - kratica: ZVDZ-A
+    datum: 1995-10-20
+    sop: 1995-01-2787
+    naziv: "Zakon o dopolnitvi zakona o volitvah v Državni zbor"
 ---
 
 # Zakon o volitvah v državni zbor
