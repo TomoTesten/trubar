@@ -4,9 +4,9 @@ naziv: "Sklep o veliki izpostavljenosti bank in hranilnic"
 vrsta: "akt"
 datum: 1999-05-06
 sop: 1999-01-1551
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1551"
 ---
 

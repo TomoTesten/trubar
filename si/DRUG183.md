@@ -4,9 +4,9 @@ naziv: "Seznam fitofarmacevtskih sredstev, za katera so bila v času od 1. janua
 vrsta: "drugi akt"
 datum: 1999-04-23
 sop: 1999-01-1455
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1455"
 ---
 

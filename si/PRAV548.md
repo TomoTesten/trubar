@@ -4,9 +4,9 @@ naziv: "Pravilnik o splošnem označevanju predpakiranih živil"
 vrsta: "pravilnik"
 datum: 1999-04-28
 sop: 1999-01-1465
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1465"
 ---
 

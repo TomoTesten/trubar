@@ -4,8 +4,9 @@ naziv: "Pravilnik o postopku in metodah preizkušanja razločljivosti, izenačen
 vrsta: "pravilnik"
 datum: 1999-04-28
 sop: 1999-01-1468
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1468"
 ---
 

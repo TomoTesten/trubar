@@ -4,9 +4,9 @@ naziv: "Uredba o spremembah in dopolnitvah uredbe o začasni uporabi sporazuma o
 vrsta: "uredba"
 datum: 1999-04-30
 sop: 1999-01-1512
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1512"
 ---
 
