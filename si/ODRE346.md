@@ -4,8 +4,9 @@ naziv: "Odredba o določitvi programa šole za ravnatelje in o določitvi vsebin
 vrsta: "odredba"
 datum: 1997-05-16
 sop: 1997-01-1636
-organ: "Ministrstvo za šolstvo in šport"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1636"
 ---
 

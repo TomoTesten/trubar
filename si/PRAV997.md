@@ -4,9 +4,9 @@ naziv: "Pravilnik o odnosih v zasebni veterinarski dejavnosti"
 vrsta: "pravilnik"
 datum: 1997-05-16
 sop: 1997-01-1572
-organ: "Veterinarska zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1572"
 ---
 

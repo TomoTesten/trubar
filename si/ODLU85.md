@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi drugega odstavka 9. člena zakona o spremembah 
 vrsta: "akt"
 datum: 1997-05-23
 sop: 1997-01-1688
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1688"
 ---
 

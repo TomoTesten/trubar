@@ -4,9 +4,9 @@ naziv: "Odlok o spremembah in dopolnitvah odloka o ustanovitvi in nalogah komisi
 vrsta: "odlok"
 datum: 1997-05-23
 sop: 1997-01-1643
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1643"
 ---
 

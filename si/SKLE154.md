@@ -4,9 +4,9 @@ naziv: "Sklep o javni razgrnitvi A) Osnutka lokacijskega načrta za avtocesto na
 vrsta: "sklep"
 datum: 1997-05-23
 sop: 1997-01-1694
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1694"
 ---
 

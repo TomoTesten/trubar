@@ -4,9 +4,9 @@ naziv: "Navodilo o dopolnitvi navodila o načinu in postopku vodenja računa obv
 vrsta: "navodilo"
 datum: 1997-05-23
 sop: 1997-01-1690
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1690"
 ---
 

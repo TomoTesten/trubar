@@ -4,9 +4,9 @@ naziv: "Pravilnik o izdaji, podaljšanju in odvzemu osebnega dovoljenja za oprav
 vrsta: "pravilnik"
 datum: 1997-05-16
 sop: 1997-01-1578
-organ: "MINISTRSTVO ZA KMETIJSTVO IN GOZDARSTVO"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1578"
 ---
 

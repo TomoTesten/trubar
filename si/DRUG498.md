@@ -4,9 +4,9 @@ naziv: "Stalna lista arbitrov pred arbitražo pri Zavarovalnici Triglav, d.d."
 vrsta: "drugi akt"
 datum: 1997-05-30
 sop: 1997-01-1745
-organ: "Zavarovalnica Triglav d.d."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1745"
 ---
 

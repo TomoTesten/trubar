@@ -4,9 +4,9 @@ naziv: "Pravilnik o določitvi poklicnih bolezni zaradi izpostavljenosti azbestu
 vrsta: "pravilnik"
 datum: 1997-05-16
 sop: 1997-01-1568
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1568"
 ---
 
