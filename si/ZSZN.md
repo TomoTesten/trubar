@@ -7,6 +7,11 @@ sop: 1998-01-2047
 objava: "Uradni list RS 47/98  str. 3351"
 kljucne_besede: ["diploma", "izobraževanje", "podiplomsko izobraževanje", "znanstveno izobraževanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2047"
+spremembe:
+  - kratica: ZSZN-A
+    datum: 2003-06-09
+    sop: 2003-01-2754
+    naziv: "Zakon o spremembah zakona o strokovnih in znanstvenih naslovih"
 ---
 
 # Zakon o strokovnih in znanstvenih naslovih
