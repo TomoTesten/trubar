@@ -4,9 +4,9 @@ naziv: "Odlok o ustanovitvi Sveta za radiodifuzijo in o imenovanju predsednika i
 vrsta: "odlok"
 datum: 1994-06-03
 sop: 1994-01-1249
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1249"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o najetju kredita Republike Slovenije pri Evropski banki za obnovo
 vrsta: "akt"
 datum: 1994-06-10
 sop: 1994-01-3031
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-3031"
 ---
 

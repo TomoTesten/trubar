@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi drugega odstavka 1. člena navodila za pripravo
 vrsta: "akt"
 datum: 1994-05-31
 sop: 1994-01-1236
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1236"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o homologiranju motorjev z notranjim izgorevanjem, namenjenih za
 vrsta: "odredba"
 datum: 1994-06-17
 sop: 1994-01-1396
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1396"
 ---
 

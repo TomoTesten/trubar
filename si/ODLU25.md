@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi tretjega odstavka 51. člena in o ugotovitvi, d
 vrsta: "akt"
 datum: 1994-06-10
 sop: 1994-01-1332
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1332"
 ---
 

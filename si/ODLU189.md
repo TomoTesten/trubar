@@ -4,9 +4,9 @@ naziv: "Odločba, da določbe 32. člena carinskega zakona - prečiščeno besed
 vrsta: "akt"
 datum: 1994-05-31
 sop: 1994-01-1234
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1234"
 ---
 

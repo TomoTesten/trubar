@@ -4,9 +4,9 @@ naziv: "Odredba o dopolnitvi odredbe o prepovedi uporabe cestno-železniških pr
 vrsta: "odredba"
 datum: 1994-05-31
 sop: 1994-01-1230
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1230"
 ---
 

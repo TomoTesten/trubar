@@ -4,9 +4,9 @@ naziv: "Uredba o načinu valorizacije vrednosti nepremičnin pri davku od dobič
 vrsta: "uredba"
 datum: 1994-06-10
 sop: 1994-01-1322
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1322"
 ---
 
