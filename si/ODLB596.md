@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k aktu o ustanovitvi Ustanove \"Živa-konzorcij za t
 vrsta: "akt"
 datum: 2003-10-17
 sop: 2003-01-4420
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4420"
 ---
 

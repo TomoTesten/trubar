@@ -4,9 +4,9 @@ naziv: "Odločba o ustanovitvi Ustanove PROREC.SI"
 vrsta: "akt"
 datum: 2003-10-10
 sop: 2003-01-4343
-organ: "Ministrstvo za zdravje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4343"
 ---
 
