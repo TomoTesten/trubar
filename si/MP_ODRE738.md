@@ -1,0 +1,164 @@
+---
+kratica: MP_ODRE738
+naziv: "Odredba o izvajanju preventivnih ukrepov zaradi odkrivanja in preprečevanja živalskih kužnih bolezni v letu 1994 v občini Kočevje (ODRE)"
+vrsta: "akt"
+datum: 1994-04-15
+sop: 1994-01-0837
+organ: "Občina Kočevje"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0837"
+---
+
+# Odredba o izvajanju preventivnih ukrepov zaradi odkrivanja in preprečevanja živalskih kužnih bolezni v letu 1994 v občini Kočevje (ODRE)
+
+Na podlagi 2. člena odredbe o izvajanju preventivnih ukrepov zaradi odkrivanja in preprečevanja živalskih kužnih bolezni v letu 1994 (Uradni list RS, št. 72/93) ter 187. člena statuta občine Kočevje (Uradni list SRS, št. 6/79, 2/82, 34/84 in 47/86) je Izvršni svet Skupščine občine Kočevje sprejel
+
+
+## ODREDBO
+o izvajanju preventivnih ukrepov zaradi odkrivanja in preprečevanja živalskih kužnih bolezni v letu 1994 v občini Kočevje
+
+
+### 1. člen
+
+Da se odkrijejo in preprečijo v tej odredbi navedene živalske kužne bolezni, morajo pooblaščene veterinarske organizacije opraviti v letu 1994 s to odredbo predpisane ukrepe.
+Imetniki živali so dolžni izvajati ukrepe iz te odredbe.
+
+
+### 2. člen
+
+Preventivne ukrepe iz te odredbe izvaja Veterinarski zavod ljubljanske regije p.o. Grosuplje d.e. Kočevje in Veterinarska obratna ambulanta M-KG Kočevje Prašičereja.
+
+
+### 3. člen
+
+Navedena izvajalca sta dolžna pred vsakim začetkom izvajanja ukrepov iz te odredbe o tem obvestiti medobčinski upravni organ, pristojen za veterinarsko inšpekcijo. O opravljenem delu morajo poročati na predpisanih obrazcih.
+
+
+### 4. člen
+
+Preventivna cepljenja se morajo opraviti tolikokrat, kolikorkrat je potrebno, da so živali stalno zaščitene.
+Kontrolo imunosti opravi Veterinarska fakulteta v Ljubljani po programu, ki ga določi Republiška veterinarska uprava.
+
+
+### 5. člen
+
+Pooblaščene veterinarske ustanove, ki opravljajo preventivna cepljenja ali diagnostične preiskave, morajo voditi evidenco o datumu cepljenja oziroma preiskave, imenu in bivališču imetnika živali, opisu živali, proizvajalcu, seriji in kontrolni številki cepiva ter o rezultatu cepljenje in preiskave. Veterinarski zavodi in obratne veterinarske ambulante morajo spremljati zdravstveno stanje živali po uporabi biološkega preparata in obveščati občinski upravni organ, pristojen za veterinarsko inšpekcijo o vseh nezaželenih stranskih pojavih in o pojavih, ki kažejo na morebitno nezanesljivo imunost.
+
+
+### 6. člen
+
+Splošna vakcinacija psov proti steklini mora biti opravljena od 1. 2. do 15. 4. 1994.
+Mladi psi morajo biti vakcinirani proti steklini takoj, ko dopolnijo 4 mesece starosti.
+Na okuženem in ogroženem območju je treba vakcinirati proti steklini tudi domače živali, ki se pasejo brez nadzorstva.
+Peroralno vakcinacijo lisic je treba opraviti po programu, ki ga odredi RVU.
+Vakcinacijo iz prvega do četrtega odstavka tega člena opravi Veterinarska postaja Kočevje z inaktivno (mrtvo) vakcino.
+Vakcinacijo lisic iz četrtega odstavka tega člena opravi Veterinarska postaja Kočevje in lovske organizacije v roku, ki ga določi Republiška veterinarska uprava, z vakcino, ki jo odobri minister za kmetijstvo in gozdarstvo.
+
+
+### 7. člen
+
+Proti atipični kokošji kugi je treba vakcinirati kokoši, piščance, brojlerje, japonske prepelice:
+– v perutninskih obratih organizacij in podjetij
+– v naseljih, kjer so perutninski obrati organizacij in podjetij, ali večje reje individualnih proizvajalcev (Zgornji Cvišlerji, Klinja vas, Mlaka, Gotenica).
+Vakcinacija iz prejšnjega odstavka se opravi z živo ali mrtvo vakcino po programu imunoprofilakse (obvezno strokovno navodilo Republiške veterinarske uprave, št. 322/A-026/82 z dne 11. 3. 1982) oziroma po programu imunoprofilakse prilagojenim epizootiološki situaciji AKK v letu 1994.
+Vakcinacijo po tem členu opravi Veterinarska postaja Kočevje. Cepljenje se opravi na način, ki ga za posamezno vakcino določi proizvajalec.
+Vzorce krvi za kontrolo imunosti po določenih vakcinacijah iz 7. člena te odredbe vzamejo obratne veterinarske ambulante po programu Republiške veterinarske uprave. Preiskave na kontrolo imunosti morajo zagotoviti obratne veterinarske ambulante pri pooblaščenem inštitutu Veterinarske fakultete v Ljubljani.
+
+
+### 8. člen
+
+Proti prašičji kugi je treba preventivno vakcinirati prašiče v vseh gospodarstvih, ki imajo 10 ali več plemenskih svinj oziroma najmanj 50 pitancev.
+Vakcinacijo iz prejšnjega odstavka se opravi s sevom K-lapiniziranega virusa.
+Vakcinacijo opravi Veterinarska postaja Kočevje in obratna ambulanta M-KG Kočevje.
+Proti prašičji kugi je treba vakcinirati prašiče imetnikov živali v neposredni okolici prašičerejskih farm.
+
+
+### 9. člen
+
+Tuberkulinizirati je treba:
+– 50% vseh krav in brejih telic v občini (X. tuberkulinizacija)
+– osnovne goveje črede podjetij
+– vse plemenske merjasce
+– plemenice neokuženih rej po naslednjem reprezentativnem vzorcu:
+plemenice tuberkulinizirati
+– do 300 vse plemenice
+– od 300 do 500 350
+– od 500 do 1.000 400
+– od 1.000 do 2.000 450
+– od 2.000 do 5.000 500
+Tuberkulinizacijo plemenskih prašičev na farmah opravi Veterinarska obratna ambulanta M-KG, tuberkulinizacijo v hlevih kooperantov in drugih kmečkih rejah ter v Gotenici opravi Veterinarska postaja Kočevje.
+Na tuberkulozo je treba preiskati vse plemenske prašiče čred prašičerejskih obratov. Pregled opravi Veterinarska postaja Kočevje s pregledom mezenterialnih, portalnih in drugih bezgavk zaklanih živali.
+Veterinarska postaja Kočevje mora pri vsaki patoanatomski preiskavi prašičev opraviti pregled mezenterialnih, portalnih in drugih bezgavk na tuberkulozo.
+
+
+### 10. člen
+
+Na brucelozo je treba preiskati enkrat letno:
+– 10% rej krav in brejih telic v hlevih individualnih proizvajalcev z 10 ali več krav in/ali brejih telic s serološkim pregledom krvi po programu, ki ga določi občinska veterinarska inšpekcija,
+– 20% plemenskih živali v osnovnih govejih čredah organizacij in podjetij s serološkim pregledom krvi po programu, ki ga določi občinska veterinarska inšpekcija,
+– 2 x letno je treba klinično in serološko pregledati vse ovne na infekcijo z Brucella ovis,
+– 20% plemenskih prašičev s serološko preiskavo krvi po programu, ki ga določi občinska veterinarska inšpekcija.
+Vzorce mleka in krvi odvzame Veterinarska postaja Kočevje. Vzorce krvi v prašičerejskih obratih odvzame Veterinarska postaja Kočevje s sodelovanjem tehnične ekipe Obratne veterinarske ambulante M-KG Kočevje.
+Laboratorijske preiskave krvi goved, ovac in prašičev opravi Veterinarska fakulteta v Ljubljani.
+
+
+### 11. člen
+
+Na bolezen Aujeszkega in TGE virus (enterična in respiratorna varianta) je treba preiskati 5% vzorcev krvi plemenskih prašičev.
+Vzorce krvi v prašičerejski farmi vzame Veterinarska postaja Kočevje s sodelovanjem tehnične ekipe obratne veterinarske ambulante.
+
+
+### 12. člen
+
+Na mehurčasti izpuščaj pri govedu (IBR-IPV) je treba enkrat letno preiskati plemenjake v naravnem pripustu. Ravno tako je treba preiskati na IBR-IPV reje bikovskih mater sivorjave in svetlo lisaste pasme.
+Enkrat letno je treba pregledati plemenjake v naravnem pripustu na vibriozo, kompilobakteriozo, leptospirozo, trihomoniazo, levkozo ter bakteriološki pregled semena glede na onesnaženost z ubikvitarnimi bakterijami.
+Vzorce vzame Veterinarska postaja Kočevje. Preiskavo opravi Veterinarska fakulteta v Ljubljani.
+
+
+### 13. člen
+
+Na govejo levkozo je treba pregledati 5% vseh plemenskih živali v osnovnih čredah na govedorejskih obratih, organizacij in podjetij.
+Vzorce krvi odvzame Veterinarska postaja Kočevje. Preiskava seruma s preizkusom (precipitacije) v agarskem gelu opravi Veterinarska fakulteta v Ljubljani.
+
+
+### 14. člen
+
+Na leptospirozo je treba enkrat letno pregledati 20% vseh še nepregledanih plemenskih živali v osnovnih čredah govedorejskih obratov, organizacij in podjetij, po programu, ki ga določi občinska veterinarska inšpekcija.
+Na leptospirozo je treba preiskati 20% vzorcev krvi plemenskih prašičev po programu, ki ga določi občinska veterinarska inšpekcija. Vzorce krvi odvzame Veterinarska postaja Kočevje s sodelovanjem tehnične ekipe obratne veterinarske ambulante.
+Serološke preiskave krvi opravi Veterinarska fakulteta v Ljubljani.
+
+
+### 15. člen
+
+Na kužno malokrvnost kopitarjev in theilerozo je treba preiskati žrebce plemenjake v občini Kočevje.
+Vzorce krvi žrebcev plemenjakov odvzame Veterinarska postaja Kočevje.
+Serološki pregled vzorcev krvi z gelprecipitinskim testom opravi Veterinarska fakulteta v Ljubljani.
+Na kužno malokrvnost je treba preiskati vse kopitarje v okuženih hlevih.
+
+
+### 16. člen
+
+Na vrtoglavost postrvi je treba v ribogojnicah pregledati enkrat letno postrvi, ki se vlagajo, prodajajo ali prevažajo. Vzorci mladic morajo biti poslani v preiskavo od 1. 6. do 31. 12. 1994. Vzorci tržnih rib pa ko to odredi občinski upravni organ pristojen za veterinarsko inšpekcijo.
+Vzorce rib za preiskavo po tem členu vzame Veterinarska postaja Kočevje in jih pošlje Veterinarski fakulteti v Ljubljano.
+
+
+### 17. člen
+
+Na stroške imetnika živali je treba opraviti:.
+– vakcinacijo proti steklini živali, ki se gonijo na pašo,
+– pregled krvi na leptospirozo konj v rejah športnih konj, najmanj 50 dni pred tekmovanjem.
+
+
+### 18. člen
+
+Ta odredba začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 061-1/91-2/1
+
+Kočevje, dne 15. februarja 1994.
+
+Predsednik
+Izvršnega sveta
+Skupščine občine Kočevje
+Alojz Petek, dipl. jur. l. r.
