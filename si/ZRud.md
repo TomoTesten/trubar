@@ -7,6 +7,11 @@ sop: 1999-01-2653
 objava: "Uradni list RS 56/99  str. 7071"
 kljucne_besede: ["rudarstvo", "varstvo okolja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2653"
+spremembe:
+  - kratica: ZRud-A
+    datum: 2004-04-30
+    sop: 2004-01-2213
+    naziv: "Zakon o spremembah in dopolnitvah zakona o rudarstvu"
 ---
 
 # Zakon o rudarstvu
