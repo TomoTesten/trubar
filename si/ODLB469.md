@@ -4,9 +4,9 @@ naziv: "Odločba o priznanju veljavnosti ES listinam o skladnosti in preskusnim 
 vrsta: "akt"
 datum: 2002-05-06
 sop: 2002-01-1870
-organ: "Ministrstvo za gospodarstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1870"
 ---
 
