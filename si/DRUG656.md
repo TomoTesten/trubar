@@ -4,9 +4,9 @@ naziv: "Dogovor o usklajevanju davčne politike v letu 1991"
 vrsta: "drugi akt"
 datum: 1991-08-16
 sop: 1991-01-0421
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0421"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odredba o ovirah za odpust iz državljanstva Republike Slovenije zaradi 
 vrsta: "odredba"
 datum: 1991-08-08
 sop: 1991-01-0377
-organ: "Ministrstvo za obrambo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0377"
 ---
 

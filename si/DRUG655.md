@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve pregleda stopenj občinskih prispevkov za zdravs
 vrsta: "drugi akt"
 datum: 1991-08-16
 sop: 1991-01-0420
-organ: "Davčna uprava RS (MF)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0420"
 ---
 

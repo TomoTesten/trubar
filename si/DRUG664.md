@@ -4,9 +4,9 @@ naziv: "Soglasje k cenam naftnih derivatov"
 vrsta: "drugi akt"
 datum: 1991-09-21
 sop: 1991-01-0518
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0518"
 ---
 

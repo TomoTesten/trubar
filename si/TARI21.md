@@ -4,9 +4,9 @@ naziv: "Tarifa o odvetniških storitvah"
 vrsta: "akt"
 datum: 1991-08-26
 sop: 1991-01-0451
-organ: "Odvetniška zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Konzumiran ali obsoleten predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0451"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odlok o obveznem sprejemanju čekov občanov"
 vrsta: "odlok"
 datum: 1991-09-13
 sop: 1991-01-0482
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0482"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Skupna deklaracija ministrske trojke Evropske skupnosti in predstavnikov
 vrsta: "akt"
 datum: 1991-08-16
 sop: 1991-02-0001
-organ: "SKUPŠČINA SRS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-02-0001"
 ---
 

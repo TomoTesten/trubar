@@ -4,9 +4,9 @@ naziv: "Deklaracija Skupščine Republike Slovenije o vojni v Republiki Hrvaški
 vrsta: "akt"
 datum: 1991-09-06
 sop: 1991-01-0469
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0469"
 ---
 

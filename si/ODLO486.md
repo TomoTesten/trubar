@@ -4,9 +4,9 @@ naziv: "Odlok o višini denarnega nadomestila med izvrševanjem določenih dolž
 vrsta: "odlok"
 datum: 1991-09-13
 sop: 1991-01-0483
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0483"
 ---
 
