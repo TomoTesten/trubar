@@ -16,6 +16,10 @@ spremembe:
     datum: 2001-08-10
     sop: 2001-01-3563
     naziv: "Zakon o spremembah in dopolnitvah zakona o uporabi sredstev pridobljenih iz naslova kupnine na podlagi zakona o lastninskem preoblikovanju podjetij"
+  - kratica: ZUKLPP-C
+    datum: 2002-05-29
+    sop: 2002-01-2275
+    naziv: "Zakon o spremembah in dopolnitvah zakona o uporabi sredstev pridobljenih iz naslova kupnine na podlagi zakona o lastninskem preoblikovanju podjetij"
 ---
 
 # Zakon o uporabi sredstev pridobljenih iz naslova kupnine na podlagi zakona o lastninskem preoblikovanju podjetij
