@@ -7,6 +7,11 @@ sop: 2002-01-2760
 objava: "Uradni list RS 56/2002  str. 5879"
 kljucne_besede: ["plača", "javni uslužbenec", "javna uprava"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2760"
+spremembe:
+  - kratica: ZSPJS-A
+    datum: 2003-07-25
+    sop: 2003-01-3509
+    naziv: "Zakon o dopolnitvi zakona o sistemu plač v javnem sektorju"
 ---
 
 # Zakon o sistemu plač v javnem sektorju
