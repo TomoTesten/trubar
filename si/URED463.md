@@ -1,0 +1,70 @@
+---
+kratica: URED463
+naziv: "Uredba o spremembah in dopolnitvah uredbe o izvajanju Srednjeevropskega sporazuma o prosti trgovini (CEFTA) v letu 1998 za industrijske izdelke"
+vrsta: "uredba"
+datum: 1998-09-18
+sop: 1998-01-2896
+organ: "Vlada Republike Slovenije"
+zbirka: "Neveljavni predpisi"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2896"
+---
+
+# Uredba o spremembah in dopolnitvah uredbe o izvajanju Srednjeevropskega sporazuma o prosti trgovini (CEFTA) v letu 1998 za industrijske izdelke
+
+Na podlagi 4. člena zakona o ratifikaciji sporazuma o pristopu Republike Slovenije k Srednjeevropskemu sporazumu o prosti trgovini ter dodatnih protokolov št. 4 in št. 5 k Srednjeevropskemu sporazumu o prosti trgovini (Uradni list RS, – Mednarodne pogodbe št. 14/97), drugega odstavka 3. člena zakona o carinski tarifi (Uradni list RS, št. 74/95) in prvega odstavka 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96 in 47/97) izdaja Vlada Republike Slovenije
+
+
+## U R E D B O
+o spremembah in dopolnitvah uredbe o izvajanju Srednjeevropskega sporazuma o prosti trgovini (CEFTA) v letu 1998 za industrijske izdelke
+
+
+### 1. člen
+
+V uredbi o izvajanju Srednjeevropskega sporazuma o prosti trgovini (CEFTA) v letu 1998 za industrijske izdelke (Uradni list RS, št. 82/97) se priloga 1 in priloga 2 dopolnita tako, da se:
+za tarifno oznako 8703 23 191 s pripadajočim besedilom doda nova tarifna oznaka, ki se glasi:
+
+“ 8703 23 192        – – – – – enoprostorska, razen vozil
+                     za kombinirani prevoz ljudi in blaga
+                     (tipa “karavan”, “kombi”, itd.) in
+                     dirkalnih avtomobilov                 9,9“
+
+za tarifno oznako 8703 32 191 s pripadajočim besedilom doda nova tarifna oznaka, ki se glasi:
+
+“ 8703 32 192        – – – – – enoprostorska, razen vozil
+                     za kombinirani prevoz ljudi in blaga
+                     (tipa “karavan”, “kombi”, itd.) in
+                     dirkalnih avtomobilov                 9,9“
+
+Tarifna oznaka 8703 24 100 se spremeni tako, da se glasi:
+
+“8703 24 10          – – – nova
+8703 24 101          – – – – enoprostorska, razen vozil za
+                     kombinirani prevoz ljudi in blaga (tipa
+                     “karavan”, “kombi”, itd.) in dirkalnih
+                     avtomobilov                            9,9
+8703 24 109          – – – – druga                        11,3“
+
+Tarifna oznaka 8703 33 190 se spremeni tako, da se glasi:
+
+“8703 33 19          – – – – druga
+8703 33 191          – – – – – enoprostorska, razen vozil
+                     za kombinirani prevoz ljudi in blaga
+                     (tipa “karavan”, “kombi”, itd.) in
+                     dirkalnih avtomobilov                   9,9
+8703 33 199          – – – – – druga                     11,3“.
+
+
+### 2. člen
+
+Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 334–06/98–1
+
+Ljubljana, dne 10. septembra 1998.
+
+
+### Vlada Republike Slovenije
+
+dr. Janez Drnovšek l. r.
+Predsednik
