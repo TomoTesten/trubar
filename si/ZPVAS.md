@@ -24,6 +24,10 @@ spremembe:
     datum: 1999-07-13
     sop: 1999-01-2650
     naziv: "Zakon o spremembi zakona o ponovni vzpostavitvi agrarnih skupnosti ter vrnitvi njihovega premoženja in pravic"
+  - kratica: ZPVAS-E
+    datum: 2000-08-11
+    sop: 2000-01-3391
+    naziv: "Zakon o dopolnitvi zakona o ponovni vzpostavitvi agrarnih skupnosti ter vrnitvi njihovega premoženja in pravic"
 ---
 
 # Zakon o ponovni vzpostavitvi agrarnih skupnosti ter vrnitvi njihovega premoženja in pravic
