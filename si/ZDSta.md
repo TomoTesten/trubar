@@ -7,6 +7,11 @@ sop: 1995-01-2169
 objava: "Uradni list RS 45/95  str. 3524"
 kljucne_besede: ["državna statistika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2169"
+spremembe:
+  - kratica: ZDSta-A
+    datum: 2001-02-09
+    sop: 2001-01-0529
+    naziv: "Zakon o spremembah in dopolnitvah zakona o državni statistiki"
 ---
 
 # Zakon o državni statistiki
