@@ -1,11 +1,12 @@
 ---
 kratica: NEZN167
 naziv: "Pravilnik o zahtevanih izkoristkih za nove toplovodne ogrevalne kotle na tekoče ali plinasto gorivo"
-vrsta: "nezn"
+vrsta: "akt"
 datum: 2001-12-22
 sop: 2001-01-5204
-organ: "Ministrstvo za okolje in prostor"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5204"
 ---
 

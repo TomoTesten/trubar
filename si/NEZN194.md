@@ -4,9 +4,9 @@ naziv: "Slovenski računovodski standardi"
 vrsta: "akt"
 datum: 2001-12-22
 sop: 2001-01-5172
-organ: "Slovenski inštitut za revizijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Konzumiran ali obsoleten predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5172"
 ---
 

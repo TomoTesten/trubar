@@ -2,11 +2,11 @@
 kratica: NAVO524
 naziv: "Pravilnik centrom za socialno delo o načinu izvajanja nalog šolskih uprav, ki jih določa zakon o usmerjanju otrok s posebnimi potrebami"
 vrsta: "navodilo"
-datum: 2001-06-01
+datum: 2001-12-21
 sop: 2001-01-2490
-organ: "Ministrstvo za šolstvo, znanost in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2490"
 ---
 

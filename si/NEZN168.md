@@ -4,9 +4,9 @@ naziv: "Pravilnik o zahtevah za energijsko učinkovitost električnih gospodinjs
 vrsta: "akt"
 datum: 2001-12-22
 sop: 2001-01-5205
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5205"
 ---
 

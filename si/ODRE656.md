@@ -4,9 +4,9 @@ naziv: "Odredba o izdelkih iz kristalnega stekla"
 vrsta: "odredba"
 datum: 2001-12-27
 sop: 2001-01-5219
-organ: "Ministrstvo za gospodarstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5219"
 ---
 
