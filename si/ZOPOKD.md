@@ -7,6 +7,11 @@ sop: 1999-01-2791
 objava: "Uradni list RS 59/99  str. 7529"
 kljucne_besede: ["pravna oseba", "kaznivo dejanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2791"
+spremembe:
+  - kratica: ZOPOKD-A
+    datum: 2004-05-06
+    sop: 2004-01-2294
+    naziv: "Zakon o spremembah zakona o odgovornosti pravnih oseb za kazniva dejanja"
 ---
 
 # Zakon o odgovornosti pravnih oseb za kazniva dejanja
