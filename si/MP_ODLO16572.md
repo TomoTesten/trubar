@@ -1,0 +1,230 @@
+---
+kratica: MP_ODLO16572
+naziv: "Odlok o proračunu občine Novo mesto za leto 1992 (ODLO)"
+vrsta: "občinski odlok"
+datum: 1992-04-03
+sop: 1992-01-0842
+organ: "Mestna občina Novo mesto"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0842"
+---
+
+# Odlok o proračunu občine Novo mesto za leto 1992 (ODLO)
+
+Na podlagi 14. člena zakona o financiranju javne porabe (Uradni list RS, št. 48/9 in 34/91) in 8. člena odloka o sestavi in pristojnostih zborov Skupščine občine Novo mesto (Skupščinski Dolenjski list, št. 21/89 in 6/90) je Skupščina občine Novo mesto na seji vseh zborov dne 26. 3. 1992 sprejela
+
+
+## ODLOK
+o proračunu občine Novo mesto za leto 1992
+
+
+### 1. člen
+
+Ta odlok določa proračun občine Novo mesto za leto 1992 (v nadaljevanju: proračun), iz katerega se financira tisti del javne porabe občine Novo mesto, ki ga v skladu z zakonom financira občina.
+
+
+### 2. člen
+
+Proračun za leto 1992 obsega:
+
+SLT
+– skupne prihodke v višini            1,023.616
+ki so razporejeni za:
+– tekoče obveznosti                     882.916
+– investicijske obveznosti              140.700
+
+Izvršni svet Skupščine občine Novo mesto (v nadaljnjem besedilu: izvršni svet), v okviru obstoječih virov prihodkov med letom usklajuje postavke v bilanci prihodkov in odhodkov z gibanjem javne porabe, ki jo določa Skupščina Republike Slovenije oziroma Vlada Republike Slovenije.
+Bilanca prihodkov in odhodkov proračuna za leto 1992 je sestavni del tega odloka.
+
+
+### 3. člen
+
+Od izvirnih prihodkov proračuna se izloča 0,1% v stalno proračunsko rezervo.
+
+
+### 4. člen
+
+Uporabniki proračuna (v nadaljnjem besedilu: uporabniki) so vsi, ki iz njega dobivajo sredstva.
+Uporabniki pridobivajo sredstva iz proračuna, kot dotacije ali kot plačilo po pogodbi. Pogodba se sklene za tiste oblike javne porabe, ki ne pomenijo z zakonom predpisane obvezne dejavnosti uporabnika (izvajanja programov) ali pa jih lahko izvaja več konkurenčnih izvajalcev.
+
+
+### 5. člen
+
+Uporabniki so dolžni uporabljati sredstva proračuna le za namene, ki so opredeljeni v posebnem delu proračuna, ki je sestavni del tega odloka.
+
+
+### 6. člen
+
+Če z odlokom ali pogodbo ni drugače določeno, se sredstva uporabnikom dodeljujejo praviloma kot mesečne akontacije. Pri tem se upošteva zapadlost uporabnikovih obveznosti in likvidnostni položaj proračuna.
+
+
+### 7. člen
+
+Kot sredstva za delo državnim organom in zavodom se zagotavljajo:
+– sredstva za plače,
+– sredstva za druge osebne prejemke,
+– sredstva za prispevke delodajalca,
+– sredstva za materialne stroške,
+– sredstva za amortizacijo,
+– sredstva za druge odhodke.
+
+
+### 8. člen
+
+Sredstva za plače se državnim organom in zavodom zagotavlja mesečno glede na koeficiente za določanje plač, osnovo za obračun plač, delovno dobo, dodatno obremenjenost in delovno uspešnost.
+
+
+### 9. člen
+
+Sredstva za materialne stroške in amortizacijo se določijo v okviru možnosti proračuna in potreb državnih organov in zavodov.
+Sredstva za druge osebne prejemke se državnim organom in zavodom dodeljujejo na podlagi pisnih zahtevkov v okviru možnosti proračuna.
+Sredstva za druge odhodke se poravnavajo na podlagi faktur, pogodb, oziroma sklepov izvršnega sveta.
+
+
+### 10. člen
+
+Če se med letom znatno spremenijo delovno področje ali pristojnosti, obseg ali narava nalog ter pogoji za njihovo izvrševanje, se uporabnikom lahko sorazmerno poveča ali zmanjša obseg sredstev za delo na podlagi programa dela, ki ga potrdi izvršni svet.
+
+
+### 11. člen
+
+Če se med letom ukine uporabnik, njegovega dela pa ne prevzame drug uporabnik, se neporabljena sredstva prenesejo v tekočo proračunsko rezervo.
+
+
+### 12. člen
+
+Uporabniki morajo svoje naloge izvrševati v mejah sredstev, ki so jim dodeljena s proračunom.
+Uporabniki ne smejo prevzemati na račun proračuna obveznosti, ki presegajo s proračunom določena sredstva za posamezne namene.
+
+
+### 13. člen
+
+Izvršni svet lahko zmanjša obseg sredstev, razporejenih za določene namene, ali zadrži uporabo teh sredstev, če prihodki občinskega proračuna med letom ne dotekajo v predvideni višini.
+
+
+### 14. člen
+
+Vsi prihodki, ki jih uporabniki proračuna ustvarijo iz plačil za storitve, oziroma dosežejo s svojo dejavnostjo, so prihodek občinskega proračuna, če ni s tem odlokom drugače določeno.
+
+
+### 15. člen
+
+Prihodke, ki jih ustvarijo iz plačil za storitve oziroma dosežejo s svojo dejavnostjo po 14. členu tega odloka, uporabljajo za opravljanje svoje dejavnosti naslednji uporabniki:
+– uprava inšpekcijskih služb
+– geodetska uprava
+– sekretariat za občo upravo
+– občinski sodnik za prekrške
+– javno pravobranilstvo
+– sekretariat za notranje zadeve
+– Zavod za družbeno planiranje in urbanistično načrtovanje
+– izvajalske organizacije na področju družbenih dejavnosti.
+Prihodke iz prvega odstavka tega člena se uporabnikom upošteva pri dodeljevanju sredstev iz proračuna.
+Uporabniki, ki s svojo dejavnostjo ustvarjajo prihodke, so dolžni v mesecu septembru 1992 predložiti Izvršnemu svetu poročilo o višini ustvarjenih prihodkov in njihovi porabi.
+
+
+### 16. člen
+
+Uporabniki morajo sekretariatu za finance predložiti do 28. februarja zaključne račune za leto 1991. Dodatno morajo uporabniki predložiti do 15. aprila predračune za leto 1992 in podatke za analizo zaključnih računov skladno z navodilom sekretariata za finance.
+
+
+### 17. člen
+
+Za zakonito uporabo sredstev, ki so uporabnikom dodeljena iz proračuna je odgovoren predstojnik uporabnika kot odredbodajalec. Poleg predstojnika je za zakonito uporabo sredstev odgovoren tudi vodja računovodstva uporabnika.
+
+
+### 18. člen
+
+Izvršni svet je pooblaščen, da odloča:
+1. o prenosu sredstev med posameznimi nameni proračuna, določenimi v bilanci odhodkov; dokončno prerazporeditev sredstev potrjuje skupščina občine;
+2. o uporabi sredstev stalne rezerve občine Novo mesto do višine 300.000 SLT v posameznem primeru, vendar samo za namene iz 1. točke 31. člena zakona o financiranju javne porabe (Uradni list RS, št. 48/90);
+3. o uporabi sredstev tekoče proračunske rezerve proračuna za naloge, za katere v proračunu niso bila zagotovljena sredstva v letu 1992 in sodijo po svoji vsebini v javno porabo ter za naloge, za katere se med letom izkaže, da v proračunu zanje niso bila zagotovljena sredstva v zadostnem obsegu.
+
+
+### 19. člen
+
+Sekretariat za finance v skladu z 39. členom zakona o financiranju javne porabe opravlja nadzor:
+– nad finančnim, materialnim in računovodskim poslovanjem uporabnikov sredstev proračuna po namenu, obsegu in dinamiki porabe,
+– nad financiranjem investicij, intervencij, subvencij ali nalog, ki imajo investicijski značaj, za katere se sredstva delno ali v celoti zagotavljajo iz proračuna.
+Če se pri opravljanju nadzora pri uporabnikih ugotovi, da sredstva niso bila porabljena za tiste namene, za katere so bila dodeljena, mora sekretariat za finance zahtevati, da uporabniki ta sredstva vrnejo v proračun, o tem pa obvestiti izvršni svet.
+Če sekretariat za finance pri opravljanju nadzora ugotovi, da finančno ali materialno knjigovodstvo pri uporabnikih ni ustrezno urejeno, mora o tem obvestiti izvršni svet in mu predlagati ustrezne ukrepe.
+
+
+### 20. člen
+
+Sekretariat za finance je pristojen, da:
+– odloča o uporabi sredstev rezerve za premoščanje likvidnostnih problemov proračuna,
+– odloča o začasni uporabi tekočih likvidnostnih proračunskih sredstev zaradi ohranjanja njihove realne vrednosti in zagotovitve tekoče likvidnosti proračuna,
+– na podlagi sklepov pristojnega organa dodeljuje uporabnikom sredstva za usklajevanje plač delavcev in o tem obvešča izvršni svet,
+– daje soglasja k pogodbam za financiranje investicijskih objektov, nalog investicijskega značaja, nakupa opreme in k pogodbam za izdelavo študij in plansko izvedbenih dokumentov. Pogodbe, sklenjene brez predhodnega soglasja sekretariata za finance, so nične.
+
+
+### 21. člen
+
+Nosilci sredstev proračuna po posebnem delu proračuna so:
+1. Predsedstvo občinske skupščine za sredstva za: politične stranke, stike s tujino, sejnine, potne stroške delegatov in pokroviteljstva
+2. Izvršni svet za sredstva za:
+prevzem pokroviteljstva, reprezentanco, krajevne skupnosti, preventivo v prometu, kongres oblikovalcev, druge organizacije in društva, druge stroške
+3. Sekretariat skupščine in izvršnega sveta za sredstva za:
+glasilo ODLOČAJMO, tiske in objave, občinsko volilno komisijo
+4. Sekretariat za občo upravo za sredstva za:
+delo državnih organov (plače, druge osebne prejemke, materialne stroške, amortizacijo, reševanje stanovanjskih problemov Romov, odškodnino po Romih, investicije, invest. vzdrževanje, vzdrževanje grobov in grobišč)
+5. Sekretariat za družbene dejavnosti za sredstva za: področja družbenih dejavnosti (osnovno izobraževanje, otroško varstvo, kulturo, telesno kulturo, raziskovanje, socialno skrbstvo, zdravstvo, OO RK, ZPM in ZOTK).
+6. Sekretariat za družbeni razvoj za sredstva za: intervencije v osnovni preskrbi, razvoj obrtništva in podjetništva
+7. Sekretariat za varstvo okolja in urejanje prostora za sredstva za:
+gospodarsko infrastrukturo (komunalno, cestno gospodarstvo), varstvo okolja, subvencije v komunali
+8. Sekretariat za kmetijstvo in gozdarstvo za sredstva za:
+intervencije v kmetijstvu, varstvo kmetijskih zemljišč, zatiranje stekline, VH službo
+9. Sekretariat za obrambo za sredstva za: obrambo, varstvo pred požarom
+10. Geodetska uprava za sredstva za: geodezijo
+11. ZDPUN za sredstva za: plansko izvedbene dokumente
+12. Sekretariat za finance za sredstva za:
+stroške banke, SDK, PTT, prenos obveznosti iz leta 1991, obresti obveznic občine Novo mesto, rezerve proračuna
+
+
+### 22. člen
+
+Sredstva, ki so v proračunu zagotovljena za delo krajevnih skupnosti se bodo dodeljevala po merilih, za katere se sporazumejo krajevne skupnosti in izvršni svet.
+
+
+### 23. člen
+
+Sredstva v proračunu za elektrifikacijo gospodinjstev se bodo dodelila po posebnem sklepu izvršnega sveta.
+
+
+### 24. člen
+
+Sredstva za zdravstveno varstvo živali se vodijo na posebnem računu, podpartiji žiro računa. Odredbodajalec za ta sredstva je veterinarska inšpekcija pri Upravi inšpekcijskih služb Novo mesto.
+
+
+### 25. člen
+
+Sredstva kupnin stanovanj, sredstva za investicije v družbenih dejavnostih, sredstva za izvajanje republiškega programa na področju otroškega varstva, sredstva 2. BIENALA SLOVENSKE GRAFIKE, sredstva občinskega samoprispevka se vodijo na računih, vezanih na žiro račun proračuna in so opredeljena za dogovorjene programe.
+
+
+### 26. člen
+
+Za financiranje nalog s področja javne porabe se lahko občina Novo mesto zadolžuje kratkoročno, za financiranje gospodarske infrastrukture pa tudi dolgoročno.
+Višina zadolževanja znaša lahko največ v obsegu proračuna. O dolgoročni zadolžitvi odloča občinska skupščina, o kratkoročni zadolžitvi pa izvršni svet, kreditne pogodbe sklepa izvršni svet.
+
+
+### 27. člen
+
+Z denarno kaznijo od 10.000 do 30.000 SLT se kaznuje za prekršek uporabnik:
+1. če ne porabi sredstev proračuna za tiste namene, za katere so bila dodeljena (5. člen, 15/3 člen),
+2. če svojih nalog, ne izvršuje v mejah sredstev, ki so jim dodeljena s proračunom, ali če na račun proračuna prevzamejo obveznosti, ki presegajo s proračunom določena sredstva za posamezne namene (12. člen).
+3. če sekretariatu ne predloži v določenem roku predračuna (finančnega načrta) za leto 1992, zaključnega računa za leto 1991 ter podatkov za analizo zaključnega računa (16. člen).
+Z denarno kaznijo od 1.000 do 5.000 SLT se kaznuje za prekršek odgovorna oseba uporabnika, ki stori prekršek iz predhodnega odstavka tega člena.
+
+
+### 28. člen
+
+Ta odlok začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se od 1. januarja 1992 dalje.
+
+Št. 400-01/92
+
+Novo mesto, dne 26. marca 1992.
+
+Predsednik
+Skupščine občine Novo mesto
+Marjan Dvornik l. r.
