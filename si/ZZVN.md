@@ -7,6 +7,11 @@ sop: 1995-01-2917
 objava: "Uradni list RS 63/95  str. 4930"
 kljucne_besede: ["žrtev vojne"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2917"
+spremembe:
+  - kratica: ZZVN-A
+    datum: 1996-02-12
+    sop: 1996-01-0381
+    naziv: "Zakon o spremembah in dopolnitvah zakona o žrtvah vojnega nasilja"
 ---
 
 # Zakon o žrtvah vojnega nasilja
