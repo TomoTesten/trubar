@@ -7,6 +7,11 @@ sop: 1994-01-2110
 objava: "Uradni list RS 62/94  str. 3402"
 kljucne_besede: ["politična stranka"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2110"
+spremembe:
+  - kratica: ZPolS-A
+    datum: 2000-08-08
+    sop: 2000-01-3303
+    naziv: "Zakon o spremembah in dopolnitvah zakona o političnih strankah"
 ---
 
 # Zakon o političnih strankah
