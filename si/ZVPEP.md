@@ -7,6 +7,11 @@ sop: 2002-01-4803
 objava: "Uradni list RS 96/2002  str. 10508"
 kljucne_besede: ["evropske volitve", "Evropski parlament", "članstvo v Evropski uniji"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4803"
+spremembe:
+  - kratica: ZVPEP-A
+    datum: 2004-03-10
+    sop: 2004-01-0920
+    naziv: "Zakon o spremembah in dopolnitvah zakona o volitvah poslancev iz Republike Slovenije v Evropski parlament"
 ---
 
 # Zakon o volitvah poslancev v Evropski parlament iz Republike Slovenije
