@@ -7,6 +7,11 @@ sop: 1997-01-1486
 objava: "Uradni list RS 25/97  str. 2041"
 kljucne_besede: ["plačilna sposobnost", "delodajalec", "delojemalec"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1486"
+spremembe:
+  - kratica: ZJSRS-A
+    datum: 1998-02-12
+    sop: 1998-01-0439
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Jamstvenem skladu Republike Slovenije"
 ---
 
 # Zakon o Jamstvenem skladu Republike Slovenije
