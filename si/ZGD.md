@@ -12,6 +12,10 @@ spremembe:
     datum: 1994-05-31
     sop: 1994-01-1227
     naziv: "Zakon o spremembah in dopolnitvah zakona o gospodarskih družbah"
+  - kratica: ZGD-B
+    datum: 1994-12-30
+    sop: 1994-01-2979
+    naziv: "Zakon o spremembi zakona o gospodarskih družbah"
 ---
 
 # Zakon o gospodarskih družbah
