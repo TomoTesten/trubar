@@ -7,6 +7,11 @@ sop: 1995-01-2168
 objava: "Uradni list RS 45/95  str. 3520"
 kljucne_besede: ["industrijska lastnina", "intelektualna lastnina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2168"
+spremembe:
+  - kratica: ZPILDR-A
+    datum: 2002-11-14
+    sop: 2002-01-4800
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pravicah industrijske lastnine iz delovnega razmerja"
 ---
 
 # Zakon o pravicah industrijske lastnine iz delovnega razmerja
