@@ -1,0 +1,54 @@
+---
+kratica: SKLU64
+naziv: "Razveljavitev odloka o namenskem turističnem pristanišču"
+vrsta: "akt"
+datum: 2003-06-30
+sop: 2003-01-3083
+organ: "Ustavno sodišče Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Objavljen akt brez datuma začetka veljavnosti"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3083"
+---
+
+# Razveljavitev odloka o namenskem turističnem pristanišču
+
+Ustavno sodišče je v postopku za oceno ustavnosti in zakonitosti, začetem na pobudi  družbe Skat, d.o.o., Izola, ki jo zastopa mag. Josip Rugelj, odvetnik v Kopru, in  družbe Marinvest, inženiring, investicije, turizem, d.o.o., Izola, ki jo zastopa mag. Gregor Velkaverh, odvetnik v Kopru, na seji dne 5. junija 2003
+
+
+## o d l o č i l o :
+
+1. Odlok o namenskem turističnem pristanišču (Uradne objave občine Izola, št. 9/2000) se razveljavi.
+2. Razveljavitev 2. člena odloka iz prejšnje točke začne učinkovati 31. 12. 2003. Do takrat je sedanji upravljalec turističnega pristanišča dolžan izvajati nujne ukrepe za zagotovitev varnosti v turističnem pristanišču iz 1. točke sklepa Občinskega sveta občine Izola št. 342-2/98 z dne 12. 9. 2001.
+
+
+## O b r a z l o ž i t e v
+
+
+### A)
+
+1. Družba Skat izpodbija odlok o namenskem turističnem pristanišču (v nadaljevanju: odlok), ki predpisuje območje pristanišča, določa pogoje za njegovo upravljanje in rabo ter podelitev koncesije znanemu koncesionarju (dosedanjemu upravljalcu). Območje marine po 2. členu odloka obsega med drugim pristaniško infrastrukturo, ki vključuje pomol (parc. št. 1373/11 k.o. Izola, ki je morska parcela), na katerem naj bi imela pobudnica lastninsko pravico. Na podlagi 14. člena odloka se vsa infrastruktura po preteku koncesijskega razmerja neodplačno vrne občini. Tudi 33. člen odloka naj bi predvideval, da bo občina na njenem pomolu pridobila lastninsko pravico. Odlok naj bi bil zato v neskladju z 20. členom zakona o varstvu okolja (Uradni list RS, št. 32/93 in nasl. – v nadaljevanju: ZVO) in v neskladju z 69. členom ustave. Vnaprejšnja podelitev koncesije znanemu koncesionarju (dosedanjemu upravljalcu) naj bi bila v neskladju z 21. členom ZVO, ki za izbiro koncesionarja predvideva javni razpis. Z odlokom naj ne bi bilo mogoče urejati pravnega statusa morja, ki je naravna dobrina v lasti države.
+2. Družba Marinvest izpodbija odlok kot lastnica dela nepremičnin pristanišča, ki naj bi ga zgradila. V letih 1991 in 1992 naj bi bila na podlagi takratnega predpisa njegova upravljalka. Občina naj ne bi bila lastnica pristanišča, ki ni niti v njeni posesti, ker je v posesti  družbe Porting na podlagi pogodbe, ki jo je sama sklenila s to  družbo. Odlok naj bi brez zakonske podlage razpolagal s pristaniško infrastrukturo pobudnice in jo razlaščal, kar je v neskladju s 67. in z 69. členom ustave. Z odlokom naj bi občina v neskladju s 140. členom ustave urejala vprašanja, ki so v pristojnosti države, kot so koncesijska razmerja in raba dobrin, ki niso pristaniška infrastruktura. Odlok naj bi bil zato v neskladju tudi s 153. členom ustave.
+3. Občina odgovarja, da  družbi Skat in Marinvest nimata pravnega interesa za izpodbijanje odloka, ker ta ne posega v njuno lastninsko pravico in ne spreminja njunega pravnega položaja. Odlok naj bi v 2. členu na splošno določal pristaniško infrastrukturo in v 31. členu opredeljeval zgrajeno infrastrukturo, v katero pomol  družbe Skat ne sodi, ker ga je treba šele zgraditi. To naj bi izhajalo tudi iz 33. člena odloka, ki pomole na parc. št. od 1373/7 do 1373/16 izvzema iz prehoda v last občine. Pomol pobudnice naj ne bi prešel v last občine niti po 14. členu odloka. Družba Marinvest naj bi se sama odpovedala upravičenjem na pristanišču, saj je na drugo  družbo prenesla nepremičnine, terjatve, obveznosti in druga upravičenja, ki so povezana z upravljanjem in gradnjo pristanišča. Na podlagi 10. točke 111.b člena ZVO naj bi odlok upošteval pridobljeno pravico koncesijskega značaja, ki jo ima dosedanji upravljalec luke (to je  družba Porting) po prejšnjem odloku, ki je temeljil na 5. in 20. členu zakona o lukah (Uradni list SRS, št. 7/77 in nasl. – v nadaljevanju: ZL). Zato naj bi prvo koncesijsko razmerje z njim sklenila brez javnega razpisa. Vendar do tega ni prišlo (o tem se vodi pravda), torej naj bi takšna možnost podelitve koncesije prenehala. Izveden naj bi bil tudi postopek javnega razpisa za izbiro koncesionarja, vendar ni bil uspešen, ker ni bilo prijav. Sedaj naj bi pristanišče upravljal dosedanji upravljalec. Zaradi zagotovitve varnosti v njem naj bi sprejeli sklepa o nujnih začasnih ukrepih za zagotovitev varnosti v tem pristanišču, ki sta veljala določen čas. Zadnji sklep naj bi sprejel občinski svet 12. 9. 2001 in je veljal šest mesecev. Občinski svet naj bi imel pooblastilo za izdajo odloka v 20. členu ZL. Zakon o prevzemu državnih funkcij, ki so jih do 31. 12. 1994 opravljali organi občin (Uradni list RS, št. 29/95 – v nadaljevanju: ZPDF) naj bi v 3. členu prenesel na upravne enote le upravne naloge in ne odločanja (strokovnega oziroma normativnega) o upravljanju luke in zemljišč v lasti občine. Zakon o lokalni samoupravi (Uradni list RS, št. 72/93 in nasl. – ZLS) naj bi primeroma našteval naloge občine. Po 993. členu Pomorskega zakonika (Uradni list RS, št. 26/01 – v nadaljevanju: PZ) naj bi se za obstoječa razmerja glede pristanišč uporabljali predpisi, ki so veljali v času pred uveljavitvijo odloka.
+4. Ministrstvo za promet in zveze pojasnjuje, da pristojnost lokalnih skupnosti v času sprejemanja odloka ni bila natančno določena. Na podlagi 992. člena PZ je prenehal veljati ZL. Za morebitna razmerja, ki so nastala po odloku pred uveljavitvijo PZ, naj bi se na podlagi 993. člena PZ uporabljali takrat veljavni predpisi, kolikor urejajo pravice in dolžnosti strank iz morebitnega razmerja med njima. Po 32. členu PZ naj bi lokalna skupnost prepustila upravljanje, vodenje in razvoj pristaniške infrastrukture upravljalcu pristanišča s koncesijo, vendar mora hkrati pridobiti vodno dovoljenje na podlagi 125. člena zakon o vodah (Uradni list RS, št. 67/02 – v nadaljevanju: ZV-1). Pojasnila je dalo tudi Ministrstvo za okolje, prostor in energijo. Navaja, da je pridobitev vodne pravice v pristaniščih odvisna od vrste investitorja. Če je investitor oseba zasebnega prava, naj bi bila potrebna koncesija, če je oseba javnega prava, pa vodno dovoljenje. ZV-1 naj bi v 7. razdelku VI. poglavja (to je od 195. do 199. člena) urejal tudi prilagoditev pridobljenih vodnih pravic novi ureditvi. Nepremičnine, ki so pristaniška infrastruktura, naj bi lahko pridobile status grajenega javnega dobra lokalnega pomena po določbah 211. do 214. člena zakona o graditvi objektov (Uradni list RS, št. 110/02 – ZGO-1).
+
+
+### B)
+
+5. Po 1. členu odlok določa območje namenskega turističnega pristanišča (marine), pogoje za njegovo upravljanje in rabo ter podelitev koncesije. Po 3. členu odloka je predmet koncesije upravljanje in uporaba marine, ki na podlagi njegovega 2. člena obsega pristaniški akvatorij, z njim neposredno povezani kopni prostor ter njima pripadajočo pristaniško infrastrukturo in superstrukturo. Z akvatorijem neposredno povezani prostor obsega tudi zemljišče parc. št. 1373/11 k.o. Izola. Ker je  družba Skat lastnica pomola na njem, izkazuje pravni interes za oceno odloka. Družba Marinvest izpodbija odlok iz podobnih razlogov kot  družba Skat, zato ustavnemu sodišču v obravnavanem primeru ni bilo treba ugotavljati še njenega pravnega interesa. Ustavno sodišče je zaradi skupnega obravnavanja in odločanja pobudi obeh družb združilo. Pobudi je sprejelo in glede na izpolnjene pogoje iz četrtega odstavka 26. člena zakona o ustavnem sodišču (Uradni list RS, št. 15/94 – v nadaljevanju: ZUstS) takoj nadaljevalo z odločanjem o stvari sami.
+6. Odlok je bil sprejet v času, ko je pristanišča urejal ZL. Na podlagi prvega odstavka 20. člena ZL je občinski svet z aktom o dodelitvi luke oziroma dela obale za gradnjo namenske luke določil območje luke in njeno namembnost ter pogoje njene uporabe, upoštevaje predhodno mnenje luške kapetanije. Ker gre v tem primeru za normativno nalogo lokalne skupnosti, je ZPDF v 3. členu ni prenesel na upravno enoto. To pomeni, da je bila občina pristojna za sprejem akta o dodelitvi pristanišča v upravljanje z vsebino, ki jo je takrat predpisoval ZL. Odlok je uredil dodelitev pristanišča v upravljanje drugače, kot je to nalagal 20. člen ZL, zato je bil ob sprejemu v neskladju s citirano določbo ZL.
+7. Ker je ustavno sodišče presodilo, da je bil odlok v času sprejema v neskladju z 20. členom ZL, ni ocenilo še drugih očitkov pobudnic.
+8. Med postopkom za oceno ustavnosti in zakonitosti je podeljevanje koncesij v pristaniščih uredila nova zakonodaja, ki jo predstavljata PZ in ZV-1. Ustavno sodišče je ocenilo, da je odlok v neskladju tudi s citirano zakonodajo. Občina bo morala pri pripravi odloka, ki bo urejal pristanišče, upoštevati, da po tretjem odstavku 32. člena PZ lokalna skupnost lahko upravljalcu pristanišča podeli koncesijo, s katero prepusti upravljanje, vodenje in razvoj takšne pristaniške infrastrukture, ki je v njeni lasti oziroma lahko z njo razpolaga. Hkrati bo morala upoštevati, da je po 108. členu ZV-1 treba za posebno rabo morskega dobra v pristanišču pridobiti vodno pravico, to je vodno dovoljenje za neposredno rabo vode za pristanišče, če je investitor oseba javnega prava (125. člen ZV-1), ali koncesijo za pristanišče, če je investitor oseba zasebnega prava (136. člen ZV-1).
+9. Iz zgoraj navedenih razlogov je ustavno sodišče odlok razveljavilo. Ker ga je razveljavilo že iz teh razlogov, ni ocenilo še drugih očitkov pobudnic.
+10. Ustavno sodišče je upoštevalo, da odlok v 2. členu opredeljuje območje namenskega turističnega pristanišča. Takojšnja razveljavitev citirane določbe odloka bi pomenila, da njegov status in območje sploh ne bi bila določena, kar bi lahko povzročilo večjo škodo, kot jo povzroča njegova sedanja nezakonita ureditev. Ustavno sodišče je zato za razveljavitev te določbe odloka določilo odložni rok in pri tem upoštevalo, da bo lahko lokalna skupnost v njem uredila pristanišče v skladu z zakonom. Ustavno sodišče je na podlagi drugega odstavka 40. člena ZUstS določilo tudi način izvršitve te odločbe. Sedanji upravljalec turističnega pristanišča je dolžan v odložnem roku izvajati nujne ukrepe za zagotovitev varnosti v turističnem pristanišču, ki jih je določil Občinski svet občine Izola v 1. točki sklepa št. 342-2/98 z dne 12. 9. 2001.
+
+
+### C)
+
+11. Ustavno sodišče je sprejelo to odločbo na podlagi drugega odstavka 40. člena in tretjega odstavka 45. člena ZUstS v sestavi: predsednica dr. Dragica Wedam Lukić ter sodnice in sodniki dr. Janez Čebulj, dr. Zvonko Fišer, Lojze Janko, mag. Marija Krisper Kramberger, Milojka Modrijan, dr. Ciril Ribičič, dr. Mirjam Škrk in Jože Tratnik. Odločbo je sprejelo soglasno.
+
+Št. U-I-205/00-29
+
+Ljubljana, dne 5. junija 2003.
+
+Predsednica
+dr. Dragica Wedam Lukić l. r.
