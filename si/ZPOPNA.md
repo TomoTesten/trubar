@@ -7,6 +7,11 @@ sop: 1994-01-0996
 objava: "Uradni list RS 23/94  str. 1421"
 kljucne_besede: ["poroštvo", "kredit", "kreditna garancija", "EBRD", "avtocesta", "cestno omrežje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0996"
+spremembe:
+  - kratica: ZPOPNA-A
+    datum: 1996-03-29
+    sop: 1996-01-0959
+    naziv: "Zakon o dopolnitvi zakona o poroštvu Republike Slovenije za obveznosti iz pogodbe o najetju kredita Evropske banke za obnovo in razvoj za izgradnjo avtocestnega odseka Pesnica - Šentilj"
 ---
 
 # Zakon o poroštvu Republike Slovenije za obveznosti iz pogodbe o najetju kredita Evropske banke za obnovo in razvoj za izgradnjo avtocestnega odseka Pesnica - Šentilj
