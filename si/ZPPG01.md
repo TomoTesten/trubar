@@ -7,6 +7,11 @@ sop: 2000-01-3056
 objava: "Uradni list RS 66/2000  str. 8204"
 kljucne_besede: ["popis prebivalstva", "popis", "stanovanje", "statistika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3056"
+spremembe:
+  - kratica: ZPPG01-A
+    datum: 2001-04-12
+    sop: 2001-01-1584
+    naziv: "Zakon o spremembah in dopolnitvah zakona o popisu prebivalstva, gospodinjstev in stanovanj v Republiki Sloveniji leta 2001"
 ---
 
 # Zakon o popisu prebivalstva, gospodinjstev in stanovanj v Republiki Sloveniji leta 2001
