@@ -7,6 +7,11 @@ sop: 1994-01-1317
 objava: "Uradni list RS 32/94  str. 2045"
 kljucne_besede: ["preiskava", "storitev"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1317"
+spremembe:
+  - kratica: ZDD-A
+    datum: 2002-11-14
+    sop: 2002-01-4802
+    naziv: "Zakon o spremembah in dopolnitvah zakona o detektivski dejavnosti"
 ---
 
 # Zakon o detektivski dejavnosti
