@@ -7,6 +7,11 @@ sop: 1992-01-2515
 objava: "Uradni list RS 55/92  str. 3124"
 kljucne_besede: ["gospodarski prekršek", "kazenski postopek", "denarna kazen"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2515"
+spremembe:
+  - kratica: ZVDK-A
+    datum: 1993-12-10
+    sop: 1993-01-2402
+    naziv: "Zakon o spremembah zakona o valorizaciji denarnih kazni za kazniva dejanja in gospodarske prestopke ter drugih denarnih zneskov"
 ---
 
 # Zakon o valorizaciji denarnih kazni za kazniva dejanja in gospodarske prestopke ter drugih denarnih zneskov
