@@ -7,6 +7,11 @@ sop: 2002-01-2813
 objava: "Uradni list RS 58/2002  str. 6065"
 kljucne_besede: ["telekomunikacije", "odškodninski zahtevek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2813"
+spremembe:
+  - kratica: ZVVJTO-A
+    datum: 2003-06-09
+    sop: 2003-01-2757
+    naziv: "Zakon o spremembah in dopolnitvah zakona o vračanju vlaganj v javnotelekomunikacijsko omrežje"
 ---
 
 # Zakon o vračanju vlaganj v javno telekomunikacijsko omrežje
