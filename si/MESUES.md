@@ -7,6 +7,11 @@ sop: 2000-02-0079
 objava: "Uradni list RS MP 15/2000  str. 521"
 kljucne_besede: ["ratifikacija sporazuma", "Evropsko sodišče za človekove pravice", "človekove pravice"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-02-0079"
+spremembe:
+  - kratica: MESUES-A
+    datum: 2001-10-19
+    sop: 2001-02-0057
+    naziv: "Zakon o spremembi Zakona o ratifikaciji Evropskega sporazuma, ki se nanaša na osebe, udeležene v postopkih Evropskega sodišča za človekove pravice"
 ---
 
 # Zakon o ratifikaciji Evropskega sporazuma, ki se nanaša na osebe, udeležene v postopkih Evropskega sodišča za človekove pravice
