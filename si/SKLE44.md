@@ -4,9 +4,9 @@ naziv: "Sklep o uskladitvi ustanovnega akta javnega raziskovalnega zavoda Gozdar
 vrsta: "sklep"
 datum: 1994-01-08
 sop: 1994-01-0020
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0020"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o sklenitvi pogodb o dobavi električne energije nekaterim uporabn
 vrsta: "sklep"
 datum: 1993-12-31
 sop: 1993-01-2647
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2647"
 ---
 

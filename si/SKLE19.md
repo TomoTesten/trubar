@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi slovenskih računovodskih standardov"
 vrsta: "sklep"
 datum: 1993-12-23
 sop: 1993-01-2533
-organ: "ZVEZA RAČUNOVODIJ, FINANČNIKOV IN REVIZORJEV SLOVENIJE"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2533"
 ---
 

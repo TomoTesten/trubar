@@ -4,8 +4,9 @@ naziv: "Uredba o valorizaciji katastrskega dohodka in o določitvi količnika za
 vrsta: "uredba"
 datum: 1993-12-31
 sop: 1993-01-2635
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2635"
 ---
 

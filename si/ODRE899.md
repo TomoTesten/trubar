@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o shemi bilance stanja in bi
 vrsta: "odredba"
 datum: 1993-12-31
 sop: 1993-01-2656
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2656"
 ---
 

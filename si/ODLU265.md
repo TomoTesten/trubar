@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi neskladnosti določb 92. člena Zakona o izvršiln
 vrsta: "akt"
 datum: 1994-01-08
 sop: 1994-01-0032
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0032"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o davku od dobička pravnih oseb (ZDDPO)"
 vrsta: "akt"
 datum: 1993-12-31
 sop: 1993-01-2631
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2631"
 ---
 

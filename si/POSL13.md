@@ -4,9 +4,9 @@ naziv: "Poslovnik o načinu dela Komisije po zakonu o nezdružljivosti opravljan
 vrsta: "akt"
 datum: 1993-12-30
 sop: 1993-01-2586
-organ: "Državni zbor - Komisija o nezdružljivosti opravljanja javne funkcije s pridobitno dejavnostjo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2586"
 ---
 

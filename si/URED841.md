@@ -2,10 +2,11 @@
 kratica: URED841
 naziv: "Uredba o metodologiji za izdelavo otvoritvene bilance stanja"
 vrsta: "uredba"
-datum: 1993-05-14
+datum: 1993-12-31
 sop: 1993-01-1081
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1081"
 ---
 
