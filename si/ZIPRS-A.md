@@ -1,27 +1,27 @@
 ---
 kratica: ZIPRS-A
-naziv: "Zakon o spremembah in dopolnitvah zakona o izvrševanju proračuna Republike Slovenije za leto 1994"
+naziv: "Zakon o spremembah in dopolnitvah zakona o izvrševanju proračuna Republike Slovenije"
 vrsta: "Sprejet zakon"
-datum: 1995-07-13
-sop: 1995-01-1923
-objava: "Uradni list RS 40/95  str. 3071"
-kljucne_besede: ["proračun", "izvrševanje proračuna", "državni proračun"]
-vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1923"
+datum: 1997-10-12
+sop: 1997-01-3694
+objava: "Uradni list RS 78/97  str. 6645"
+kljucne_besede: ["izvrševanje proračuna"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3694"
 ---
 
-# Zakon o spremembah in dopolnitvah zakona o izvrševanju proračuna Republike Slovenije za leto 1994
+# Zakon o spremembah in dopolnitvah zakona o izvrševanju proračuna Republike Slovenije
 
 Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam
 
 
 ## U K A Z
-o razglasitvi zakona o spremembah in dopolnitvah zakona o izvrševanju proračuna Republike Slovenije za leto 1994
+o razglasitvi zakona o spremembah in dopolnitvah zakona o izvrševanju proračuna (ZIPRS-A)
 
-Razglašam zakon o spremembah in dopolnitvah zakona o izvrševanju proračuna Republike Slovenije za leto 1994, ki ga je sprejel Državni zbor Republike Slovenije na seji dne 3. julija 1995.
+Razglašam zakon o spremembah in dopolnitvah zakona o izvrševanju proračuna (ZIPRS-A), ki ga je sprejel Državni zbor Republike Slovenije na seji 3. decembra 1997.
 
-Št. 012-01/95-61
+Št. 001-22-116/97
 
-Ljubljana, dne 11. julija 1995.
+Ljubljana, dne 11. decembra 1997.
 
 Predsednik
 Republike Slovenije
@@ -29,375 +29,382 @@ Milan Kučan l. r.
 
 
 ## Z A K O N
-O SPREMEMBAH IN DOPOLNITVAH ZAKONA O IZVRŠEVANJU PRORAČUNA REPUBLIKE SLOVENIJE ZA LETO 1994
+O SPREMEMBAH IN DOPOLNITVAH ZAKONA O IZVRŠEVANJU PRORAČUNA (ZIPRS-A)
 
 
 ### 1. člen
 
-V zakonu o izvrševanju proračuna Republike Slovenije za leto 1994 (Uradni list RS, št. 26/94) se v naslovu za letnico “1994” dodata besedi “in 1995”.
+V zakonu o izvrševanju proračuna Republike Slovenije (Uradni list RS, št. 5/96, v nadaljnjem besedilu: zakon) se v 4. členu doda nov peti odstavek, ki se glasi:
+
+“Proračun se poveča za znesek prihodkov in odhodkov iz naslova prodaje in zamenjave državnega premoženja iz 52. člena tega zakona.”
+
+Sedanji peti odstavek postane šesti odstavek.
 
 
 ### 2. člen
 
-V 1. členu se za letnico “1994” dodata besedi “in 1995”.
+V prvem odstavku 8. člena se za besedama “tega zakona” doda besedilo “ter prihodki od upravljanja s temi sredstvi”.
 
 
 ### 3. člen
 
-V 3. členu se za prvim odstavkom doda nov drugi odstavek, ki se glasi:
-
-“Če med izvajanjem proračuna Republika Slovenija sprejme pomoč iz tujine, se za znesek prejete pomoči poveča proračun.”
-
-Sedanji drugi odstavek, ki postane tretji odstavek, se spremeni tako, da se glasi:
-
-“Znesek odhodkov in prihodkov iz prejšnjih odstavkov je sestavni del proračuna za tekoče leto.”
+V 10. členu se na koncu prvega odstavka pika nadomesti z vejico in doda besedilo: “razen za obveznosti iz naslova najemnin, donacij in namenskih posojil.”
 
 
 ### 4. člen
 
-V 5. členu se dodata tretji in četrti odstavek, ki se glasita:
+V 13. členu se doda drugi odstavek, ki se glasi:
 
-“Uporabniki v svojem letnem finančnem načrtu izkažejo celotno vrednost nabav.
-
-Ne glede na določila prejšnjega odstavka, se nabave za realizacijo temeljnih razvojnih programov obrambnih sil izkazujejo v skladu s posebnim zakonom, nabave poslovnih prostorov diplomatsko-konzularnih predstavništev, rezidenc veleposlanikov in šefov misij ter stanovanj generalnih konzulov pa se izkazujejo v letnem finančnem načrtu v znesku, ki je enak odplačilom najetih posojil.”
+“Sredstva, ki se nanašajo na odplačila glavnic državnega dolga predstavljajo načrtovane vrednosti in ne najvišjih zneskov, do katerih se lahko vršijo plačila iz tega naslova.”
 
 
 ### 5. člen
 
-V 6. členu se na koncu tretjega odstavka doda nov stavek, ki se glasi: “Zavarovanje predplačil ni potrebno pri dogovarjanju oddaje dobav in storitev, katerih pogodbena vrednost ne presega 500.000 tolarjev.”
+V 16. členu se drugi odstavek spremeni, tako da se glasi:
+
+“Minister, pristojen za finance, podrobneje predpiše način sporočanja in izvrševanja mesečnih načrtov.”
+
+Tretji odstavek se črta.
 
 
 ### 6. člen
 
-V 7. členu se besedilo drugega stavka v prvem odstavku nadomesti z besedilom, ki se glasi: “Prevzete obveznosti iz naslova investicijskih izdatkov ne smejo presegati 50% sredstev v tekočem letu, iz naslova drugih namenov pa ne 25% teh sredstev.” Za drugim odstavkom se doda tretji odstavek, ki se glasi:
-
-“Prevzete obveznosti iz prvega odstavka tega člena uporabniki vključijo v proračun leta, na katerega se nanašajo.”
+23. člen se črta.
 
 
 ### 7. člen
 
-V 8. členu se v petem odstavku besedi “31. januarja” nadomestita z besedama “zadnjega dne februarja”.
-V šestem odstavku se besede “31. januarja tekočega leta za preteklo leto” nadomestijo z besedami “zadnjega dne februarja prihodnjega leta”.
+Za 24. členom se dodata 24.a in 24.b člen, ki se glasita:
+
+
+### “24.a člen
+
+Sredstva za plače zaposlenih pri uporabniku se zagotavljajo v skladu z zakoni in drugimi predpisi, ki urejajo področje plač.
+
+V finančnem načrtu uporabnika se zagotovijo sredstva za plače že zaposlenih, za uspešnost, nove zaposlitve, napredovanja, nadurno delo in druge dodatke za delo v posebnih pogojih.
+
+Sredstva iz prejšnjega odstavka se zagotovijo na podlagi načrta delovnih mest, ki jih za upravne organe sprejme vlada, za druge uporabnike pa njihovi predstojniki oziroma z zakonom določen organ.
+
+
+### 24.b člen
+
+Načrt delovnih mest vsebuje pregled sistemiziranih delovnih mest in funkcij ter zasedenih delovnih mest in funkcij. Prikazu števila zasedenih delovnih mest po plačilnih razredih je potrebno dodati prikaz števila plačilnih koeficientov po plačilnih razredih, število koeficientov za predvidena napredovanja, predvidene spremembe v zaposlenosti in spremenjeno število koeficientov iz tega naslova. Prav tako se v načrtu prikažejo sredstva za uspešnost, predvideno število nadur in potrebna sredstva za njihovo izplačilo ter potrebna sredstva za posamezen dodatek za delo v posebnih pogojih.
+Kadar se plače izračunavajo od različnih osnov, je potrebno zaradi lažje primerljivosti v prikazu vse koeficiente preračunati na osnovo, ki velja za določanje plače zaposlenih v upravi.”
 
 
 ### 8. člen
 
-V 20. členu se za besedami “sprememb med letom” doda besedilo “in postavki sredstev PHARE”. Na koncu člena se doda nov stavek, ki se glasi: “Sredstva na postavki sprememb med letom se razporejajo na podlagi odločb ministra za finance.”
+25., 26., 27., 28. in 29. člen se črta.
 
 
 ### 9. člen
 
-V 21. členu se črta drugi odstavek.
+V 31. členu se v prvem odstavku besedilo “25., 26., 27., 28. in 29.” nadomesti z besedilom “24.a in 24.b.”.
 
 
 ### 10. člen
 
-V 24. členu se doda drugi odstavek, ki se glasi:
+V 34. členu se v prvi alinei drugega odstavka besedilo “Ministrstvo za notranje zadeve, Ministrstvo za obrambo in Slovensko obveščevalno-varnostno agencijo” nadomesti z besedilom “spodaj navedene upravne organe in službe”, za šesto alineo pa se doda sedma alinea, ki se glasi:
 
-“Sredstva iz prejšnjega odstavka se med letom razporejajo na ustrezne postavke pri upravnih organih.”
+“– Ministrstva za okolje in prostor – za specialno opremo za organe v sestavi.”
+
+V četrtem in šestem odstavku se za besedami “Varuh človekovih pravic” dodajo besede “Agencija Republike Slovenije za revidiranje lastninskega preoblikovanja”.
+Doda se osmi odstavek, ki se glasi:
+
+“V načrtu nabav iz prvega odstavka tega člena se ločeno izkažejo tudi nabave na osnovi leasinga in drugih odplačnih načinov pridobitve lastninske pravice.”
 
 
 ### 11. člen
 
-Za 26. členom se doda nov 26.a člen, ki se glasi:
+Za 34. členom se doda 34.a člen, ki se glasi:
 
 
-### “26.a člen
+### “34.a člen
 
-Sredstva za plače delavcev in funkcionarjev, obračunane po zakonu o razmerjih plač v javnih zavodih, državnih organih in v organih lokalnih skupnosti (Uradni list RS, št. 18/94) in drugih zakonih, se uporabnikom zagotavljajo v letu 1995 mesečno glede na število zasedenih delovnih mest po načrtu delovnih mest.”
+Upravičence in način uporabe službenih avtomobilov za proračunske uporabnike, razen za uporabnike iz četrtega odstavka prejšnjega člena, določi Vlada Republike Slovenije na predlog ministra, pristojnega za finance.”
 
 
 ### 12. člen
 
-V 27. členu se črta drugi odstavek.
+V prvem odstavku 35. člena se za besedami “Računskega sodišča” dodajo besede “Agencije Republike Slovenije za revidiranje lastninskega preoblikovanja”.
 
 
 ### 13. člen
 
-V 28. členu se na koncu prvega odstavka pika nadomesti z vejico in doda besedilo “v letu 1995 pa skladno s 26.a členom tega zakona.”
-Drugi in tretji odstavek se črtata.
+Za 40. členom se doda 40.a člen, ki se glasi:
+
+
+### “40.a člen
+
+“Sredstva subvencij in posojil se dodelijo na podlagi predhodno izvedenega javnega razpisa, objavljenega v Uradnem listu Republike Slovenije, razen če s posebnim zakonom ni določeno drugače.”
 
 
 ### 14. člen
 
-29. člen se spremeni tako, da se glasi:
+V 42. členu se doda tretji odstavek, ki se glasi:
 
-“Sredstva za investicijske izdatke, razen sredstev za informatizacijo, se uporabljajo v skladu z načrtom nabave zemljišč, zgradb, stanovanj, poslovnih prostorov, opreme, vključno s pisarniško opremo, prevoznih sredstev ter investicijskega vzdrževanja (v nadaljnjem besedilu: načrt nabav).
-
-Vlada določi načrt nabav na predlog:
-– Servisa skupnih služb vlade – za upravne organe in druge uporabnike, razen za Ministrstvo za notranje zadeve in Ministrstvo za obrambo;
-– Ministrstva za zunanje zadeve – za diplomatsko-konzularna predstavništva;
-– Ministrstva za pravosodje – za pravosodne organe in kazensko-poboljševalne zavode;
-– Ministrstva za notranje zadeve;
-– Ministrstva za obrambo.
-Pri odločanju o načrtu nabav iz prejšnjega odstavka je vlada dolžna upoštevati enotne standarde in normative.
-Državni zbor, Državni svet, Predsednik Republike Slovenije, Ustavno sodišče, Računsko sodišče in Varuh človekovih pravic določijo načrt nabav in ga posredujejo vladi.
-Sredstva po načrtu nabav iz prve alinee drugega odstavka tega člena se zagotavljajo na postavki Servisa skupnih služb vlade.
-Če s proračunom dodeljena sredstva ne zagotavljajo izvrševanja načrta nabav, morajo vlada, Državni zbor, Državni svet, Predsednik Republike Slovenije, ustavno sodišče, računsko sodišče in varuh človekovih pravic v 30 dneh po sprejemu proračuna spremeniti načrt nabav.
-Osnovno sredstvo, pridobljeno na podlagi načrta nabav, se izkazuje v premoženjski bilanci uporabnika, ki je osnovno sredstvo pridobil.”
+“Ne glede na določbe prvega in drugega odstavka tega člena lahko uporabniki v letu 1997 sklepajo pogodbe do vključno 20. decembra 1997, zahteve za izdajo soglasja k pogodbam, za katere je potrebno soglasje Ministrstva za finance, pa predložijo Ministrstvu za finance do vključno 15. decembra 1997.”
 
 
 ### 15. člen
 
-V 30. členu se v prvem odstavku za besedama “Državnega zbora” dodata besedi “Državnega sveta”, za besedama “Ustavnega sodišča” pa postavi vejica in dodata besedi “Računskega sodišča”.
-Črta se zadnji odstavek.
+V 43. členu se prvi odstavek spremeni, tako da se glasi:
+
+“K finančnim določbam pogodb, ki jih sklepajo proračunski uporabniki v imenu in za račun Republike Slovenije in katerih vrednost presega 150,000.000 tolarjev, razen k pogodbam, ki se nanašajo na zadolževanje, je potrebno predhodno soglasje Ministrstva za finance. Predhodno soglasje je sestavni del pogodbe.”
 
 
 ### 16. člen
 
-V 31. členu se besedilo prvega odstavka nadomesti z besedilom, ki se glasi:
+V prvem odstavku 44. člena se besedi “z najetjem” nadomestita z besedama “s črpanjem”.
+Drugi odstavek se spremeni tako, da se glasi:
 
-“Uporabnikom se zagotavljajo sredstva za amortizacijo do višine, ki je zagotovljena s proračunom.”
+“O sklepanju poslov, ki so podlaga za zadolževanje iz prejšnjega odstavka odloča vlada, pogodbe pa sklepa minister, pristojen za finance, ki lahko za sklenitev posameznega posla pooblasti drugo osebo.”
 
-Črta se drugi odstavek.
-Sedanji tretji odstavek postane drugi odstavek.
+Dodata se četrti in peti odstavek, ki se glasita:
+
+“Če se zaradi občasno neusklajenih prihodkov in odhodkov izvrševanje proračuna ne more uravnovesiti, se lahko Republika Slovenija kratkoročno zadolži do višine 5% zadnjega sprejetega proračuna. Kot kratkoročno zadolževanje se šteje tudi črpanje kratkoročnih sredstev na podlagi pogodbe sklenjene za daljše časovno obdobje.
+
+O zadolžitvi iz prejšnjega odstavka odloča minister, pristojen za finance.”
 
 
 ### 17. člen
 
-V 35. členu se v prvem odstavku za besedama “vzdrževalna dela” postavi vejica in doda beseda “subvencije”.
+V 45. členu se na koncu prvega odstavka pika nadomesti z vejico in doda besedilo: “razen če s posebnim zakonom ni določeno drugače.”
 
 
 ### 18. člen
 
-V 39. členu se doda četrti odstavek, ki se glasi:
+Za 48. členom se doda 48.a člen, ki se glasi:
 
-“O nakupih iz prvega odstavka tega člena vlada dvakrat letno obvešča Državni zbor.”
+
+### “48.a člen
+
+Vlada Republike Slovenije na predlog ministra, pristojnega za finance, določi:
+
+– seznam oseb javnega prava, ki pošiljajo Ministrstvu za finance podatke o stanju in spremembah svojih dolgov in dolgov tretjih oseb, za katerih obveznosti so izdale svoja jamstva in način ter roke poročanja;
+
+– posle za pridobitev denarnega posojila, prevzem obveznosti za tuje dolgove ali obremenitev lastnega premoženja, ki jih smejo pravne osebe javnega prava sklepati samo s soglasjem ministra, pristojnega za finance, ter pogoje in postopek za pridobitev soglasja iz prejšnje alinee.
+
+Organizacije iz prejšnjega odstavka se lahko zadolžijo le do skupne višine, določene s tem zakonom.
+
+Osebe javnega prava po tem zakonu so pravne osebe, ki so registrirane kot javna podjetja, javni zavodi ali javni gospodarski zavodi, katerih ustanovitelj je Republika Slovenija ter pravne osebe, katerih ustanovitelj ali soustanovitelj je Republika Slovenija in so ustanovljene s posebnim zakonom ali podzakonskim predpisom vlade zaradi izvajanja dejavnosti v javnem interesu.
+
+Vlada poroča Državnemu zboru o stanju in spremembah dolgov in poroštev javnega sektorja enkrat letno.”
 
 
 ### 19. člen
 
-Na koncu 46. člena se pika spremeni v vejico ter doda besedilo “vlada pa Državni zbor Republike Slovenije in Računsko sodišče Republike Slovenije.”
+V 51. členu se v prvem odstavku za besedo “uporabnik” doda pika in črta besedilo”v soglasju s komisijo, ki jo imenuje vlada.”
+Drugi odstavek se spremeni tako, da se glasi:
+
+“Ne glede na določbe zakona o začasni prepovedi privatizacije pravnih oseb in premoženja v lasti Republike Slovenije (Uradni list RS, št. 20/95 in 37/95) razpolaga vlada, na predlog ministra, pristojnega za finance, s kapitalskimi vlogami Republike Slovenije v gospodarskih družbah, ki niso javna podjetja in s terjatvami, ki so predmet postopkov prisilnih poravnav, stečajev in likvidacij, v skladu z zakonom o prisilni poravnavi, stečaju in likvidaciji (Uradni list RS, št. 67/93, 74/94 – odločba US, 8/96 – odločba US in 39/97), če je to potrebno zaradi zagotavljanja prihodkov in odhodkov proračuna.”
 
 
 ### 20. člen
 
-Za 46. členom se naslov podpoglavja točka g) spremeni tako, da se glasi:
+52. člen se spremeni tako, da se glasi:
 
-“g) Sredstva za finančno izravnavo v občinah”
+“Prihodki od prodaje in zamenjave državnega premoženja ter od odškodnin iz naslova zavarovanj, se uporabljajo za investicijske izdatke za izvajanje nalog uporabnikov, ki so določene s posebnimi zakoni, v skladu s posebnim načrtom prodaj in nabav, ki ga določi vlada na način iz drugega, tretjega in četrtega odstavka 34. člena tega zakona.
 
-Doda se nov 46.a člen, ki se glasi:
-
-
-### “46.a člen
-
-Občine, ki prejemajo sredstva za finančno izravnavo, uporabljajo sredstva proračunov za kritje odhodkov iz naslova zagotovljene porabe v skladu z drugim in tretjim odstavkom 20. člena zakona o financiranju občin (Uradni list RS, št. 80/94). Vlada lahko na predlog resornega ministrstva ustavi nakazovanje sredstev za finančno izravnavo občini, ki ne uporablja sredstev proračuna za kritje odhodkov v skladu s prejšnjim odstavkom.”
+Odprodaja in oddaja državnega premoženja se lahko izvrši samo na podlagi predhodno objavljenega javnega razpisa.
+Za razpolaganje z državnim premoženjem za namene iz prvega odstavka tega člena se ne uporabljajo določbe zakona o začasni prepovedi privatizacije pravnih oseb in premoženja v lasti Republike Slovenije (Uradni list RS, št. 20/95 in 37/95).”
 
 
 ### 21. člen
 
-Členi od 47. do 58. se črtajo.
+V 53. in 54. členu se besedilo “Javno pravobranilstvo Republike Slovenije” nadomesti z besedilom “Državno pravobranilstvo Republike Slovenije” v ustreznem sklonu.
 
 
 ### 22. člen
 
-V 60. členu se na koncu drugega odstavka pika nadomesti z vejico ter doda besedilo “do 31. januarja naslednjega leta.”
+V 56. členu se drugi odstavek spremeni tako, da se glasi:
+
+“Država lahko neplačane dajatve tudi pobota s terjatvami dolžnikov do Republike Slovenije. Pobotane dajatve se knjižijo med prihodke, pobotani dolgovi med odhodke.”
 
 
 ### 23. člen
 
-V 61. členu se v prvem odstavku besedilo “z Ministrstvom za finance” nadomesti z besedilom “s komisijo, ki jo imenuje vlada”.
-Doda se nov drugi odstavek, ki se glasi:
+Za 56. členom se doda 56.a člen, ki se glasi:
 
-“Glede upravljanja in razpolaganja z državnim premoženjem odloča vlada v letu 1995 skladno z zakonom o začasni prepovedi privatizacije pravnih oseb in premoženja v lasti Republike Slovenije (Uradni list RS, št. 20/95 in 37/95).”
 
-Dosedanji drugi odstavek postane tretji odstavek.
+### “56.a člen
+
+Pravne osebe, v katerih ima Republika Slovenija najmanj 25% delež v kapitalu, morajo najkasneje v 180 dneh po zaključku poslovnega leta vendar najmanj 30 dni pred sklicem seje skupščine, posredovati Ministrstvu za finance vsa revizijska poročila in poročila nadzornih organov za preteklo poslovno leto.
+
+Minister, pristojen za finance, lahko v pravnih osebah, v katerih ima Republika Slovenija najmanj 25% delež v kapitalu, zahteva revizijo poslovanja na stroške revidirane osebe.”
 
 
 ### 24. člen
 
-V 62. členu se v prvem odstavku za besedama “državnega premoženja” doda besedilo “ter od odškodnin iz naslova zavarovanj”.
+V 59. členu se na koncu prvega odstavka pika nadomesti z vejico in doda besedilo “enako tudi v letu 1997.”.
+Drugi odstavek se spremeni, tako da se glasi:
+
+“Vlada poroča državnemu zboru o stanju in spremembah dolgov z državnim poroštvom dvakrat letno.”
+
+Dodata se novi tretji in četrti odstavek, ki se glasita:
+
+“Ne glede na določbo prvega odstavka tega člena lahko vlada na predlog Ministrstva za delo, družino in socialne zadeve v okviru zneska iz prvega odstavka tega člena daje poroštva tudi za izpolnitev posojilnih obveznosti študentov za kritje stroškov študija.
+
+Natančnejši način, pogoje in merila za dajanje poroštev iz prejšnjega odstavka predpiše minister, pristojen za delo, v soglasju z ministrom, pristojnim za finance.”
+Sedanji tretji odstavek postane peti odstavek.
 
 
 ### 25. člen
 
-V 65. členu se doda tretji odstavek, ki se glasi:
+V 60. členu se v prvem odstavku črtajo besede “nadziranje in informiranje”, beseda “obračunane” pa se nadomesti z besedama “zakonite zamudne”.
+Drugi odstavek se spremeni, tako da se glasi:
 
-“V letu 1995 vlada razpolaga z deleži iz prvega odstavka tega člena skladno z zakonom o začasni prepovedi privatizacije pravnih oseb in premoženja v lasti Republike Slovenije (Uradni list RS, št. 20/95 in 37/95).”
+“Sredstva proračuna, ki so bila uporabljena za izpolnitev obveznosti iz posojilnih pogodb ali drugih obveznosti dolžnikov, se evidentirajo v knjigovodstvu proračuna kot terjatev do dolžnika.”
 
 
 ### 26. člen
 
-V 66. členu se v prvem odstavku črta besedilo “za katere vodi računovodstvo Ministrstvo za finance”.
-Za prvim odstavkom se doda nov drugi odstavek, ki se glasi:
-
-“Uporabniki odpirajo in odpravljajo račune le s soglasjem Ministrstva za finance; na predlog Ministrstva za finance se računi uporabnikov odpravijo tudi po uradni dolžnosti.”
-
-Sedanja drugi in tretji odstavek postaneta tretji in četrti odstavek.
+V 67. členu se v prvem odstavku besedilo “porabe proračunskih sredstev” nadomesti z besedilom “upravljanja s proračunskimi sredstvi ter državnim premoženjem”.
 
 
 ### 27. člen
 
-V 71. členu se doda drugi odstavek, ki se glasi:
+V 75. členu se doda drugi odstavek, ki se glasi:
 
-“Ministrstvo za finance kupuje in prodaja državne vrednostne papirje neposredno ali preko organiziranega trga vrednostnih papirjev.”
+“Sredstva za realizacijo nacionalnih programov in zakonov, s katerimi je določen poseben način financiranja posameznih javnih potreb, se v letu 1997 zagotavljajo v znesku, določenim s proračunom, ne glede na znesek, ki je določen z nacionalnim programom ali zakonom.”
 
 
 ### 28. člen
 
-V 73. členu se v prvem odstavku za besedami “Vlada lahko odloča o” dodata besedi “predčasnem vračilu,” ter doda nova prva alinea, ki se glasi:
+V 76. členu se doda četrti odstavek, ki se glasi:
 
-“– če se s tem podpirajo ukrepi za doseganje gospodarskega ravnotežja”.
-
-Dosedanja prva in druga alinea postaneta druga in tretja alinea.
-V drugem odstavku se črta besedilo “o reprogramiranju državnih dolgov”.
-Za tretjim odstavkom se doda nov četrti odstavek, ki se glasi:
-
-“Ne glede na določbe prvega odstavka tega člena, se lahko predčasno vnovči državni dolg do Zavoda za pokojninsko in invalidsko zavarovanje Slovenije in do Zavoda za zdravstveno zavarovanje Slovenije, če je to potrebno zaradi izvajanja obveznega pokojninskega in zdravstvenega zavarovanja.”
-
-V sedanjem četrtem odstavku, ki postane peti odstavek, se za besedama “O reprogramiranju” dodajo besede “in o predčasnem vračilu”.
+“V letu 1997 se za sredstva rezerve Republike Slovenije, oziroma za državne pomoči v skladu s posebnim zakonom, nameni 250,000.000 tolarjev.”
 
 
 ### 29. člen
 
-V 74. členu se prvi odstavek spremeni tako, da se glasi:
+V 78. členu se doda drugi odstavek, ki se glasi:
 
-“Vlada lahko daje poroštva za izpolnitev kratkoročnih posojilnih in drugih obveznosti pravnih oseb do bank z območja Republike Slovenije skladno z zakonom o merilih in postopku za dajanje poroštev Republike Slovenije (Uradni list RS, št. 21/95).”
-
-Doda se nov drugi odstavek, ki se glasi:
-
-“O drugih poroštvih države za izpolnitev kratkoročnih posojilnih in drugih obveznosti odloča Državni zbor s posebnim zakonom.”
-
-Dosedanji drugi in tretji odstavek se črtata.
+“Sredstva za graditev avtocest se v letu 1997 zagotavljajo skladno z drugim odstavkom 75. člena tega zakona.”
 
 
 ### 30. člen
 
-75. člen se črta.
+80. člen se spremeni tako, da se glasi:
+
+“Ne glede na določbo prvega stavka prvega odstavka 10. člena tega zakona, lahko Ministrstvo za promet in zveze za izvedbo del na cestnih odsekih:
+
+– M 3 244, 245 Dravograd–Maribor,
+– M 10-8 1257-1262 Dravograd–Celje,
+– M 10-9 Šentjakob–Ribče–Litija–Trbovlje–Hrastnik,
+– M 10-3 Celje–Krško,
+– M 10-10 Robič–Kalce–Logatec,
+– R 301/1008 Kanal,
+– R 355/1314 in R 355/1315 Hodoš–Martjanci,
+– R 370/1355 Ribnica–Podvelka,
+– M 1 Višnja gora–Obrežje (preplastitve),
+prevzema obveznosti, ki bodo terjale plačilo v naslednjih letih.”
 
 
 ### 31. člen
 
-V 76. členu se v prvem odstavku črta besedilo “garancije, potrjuje garancije (supergarancija) ali druge oblike”.
+81. člen se spremeni tako, da se glasi:
+
+“V okviru sredstev iz 59. člena tega zakona lahko vlada odloča tudi o dajanju poroštev za domače kredite, ki jih najameta Zavod Republike Slovenije za blagovne rezerve za odkup pšenice v letu 1997, pri katerih skupna višina glavnic ne presega 3.500,000.000 tolarjev in Slovenske železnice d.d., Ljubljana za pokritje obveznosti do EIB in EBRD, ki zapadejo v letu 1997 in pri katerih skupna višina glavnic ne presega 1.500,000.000 tolarjev.”
 
 
 ### 32. člen
 
-V 77. členu se črta besedilo “garancijo, supergarancijo ali drugo obliko”, besede “službi družbenega knjigovodstva” se nadomestijo z besedami “Agenciji Republike Slovenije za plačilni promet, nadziranje in informiranje”, beseda “posojilojemalca” pa se nadomesti z besedo “dolžnika”.
-Doda se drugi odstavek, ki se glasi:
-
-“Vlada lahko odloči, da Ministrstvo za finance ne izda naloga iz prejšnjega odstavka, ali ga izda v drugačnem roku, če so bila sredstva proračuna uporabljena za izpolnitev obveznosti iz posojilnih pogodb ali drugih obveznosti javnih podjetij, zapadlih v letu 1995, za katere je dala poroštvo Republika Slovenija.”
+V 83. členu se v prvem odstavku v prvi alinei za besedo “pravic,” doda besedilo “ne glede na omejitev iz prvega odstavka 44. člena tega zakona,”, v drugi alinei pa se beseda “vnovči” nadomesti z besedo “odplača”.
 
 
 ### 33. člen
 
-Za 79. členom se doda 79.a člen, ki se glasi:
+V 85. členu se v prvem odstavku pika nadomesti z vejico in doda besedilo “v letu 1997 pa do višine 55.000,000.000 tolarjev.”
+Dodata se četrti in peti odstavek, ki se glasita:
 
+“V zadolžitev iz prvega odstavka tega člena se šteje tudi stanje kratkoročne zadolžitve na dan 31. decembra tekočega leta.
 
-### “79.a člen
-
-Vrste in roke za vključitev prihodkov in odhodkov v bilanco prihodkov in odhodkov ter način enotnega vodenja poslovnih knjig in letnih poročil za proračun in uporabnike proračunskih sredstev za leto 1995 predpiše minister za finance.”
+V zadolžitev iz prvega odstavka tega člena se ne šteje izdaja obveznic na podlagi 26. člena zakona o Slovenski razvojni družbi in programu prestrukturiranja podjetij (Uradni list RS, št. 39/97).”
 
 
 ### 34. člen
 
-Za 82. členom se doda nov 82.a člen, ki se glasi:
+Za 85. členom se dodajo 85.a, 85.b in 85.c člen, ki se glasijo:
 
 
-### “82.a člen
+### “85.a člen
 
-Sredstva za realizacijo nacionalnih programov in zakonov, s katerimi je določen poseben način financiranja posameznih javnih potreb, se v letu 1995 zagotavljajo v znesku, določenim s proračunom, ne glede na znesek, ki je določen z nacionalnim programom ali zakonom, razen za namen iz 86. člena tega zakona.”
+Skladno s 16. členom zakona o Družbi za zavarovanje in financiranje izvoza Slovenije (Uradni list RS, št. 32/92, 37/95, 34/96 in 31/97) se določi kot skupni največji možni obseg rizikov za leto 1997:
+
+– iz naslova zavarovanj pred nekomercialnimi in srednjeročnimi komercialnimi riziki 73.000,000.000 tolarjev;
+
+– iz naslova zavarovanj pred riziki sprememb vrednosti valut 51.000,000.000 tolarjev.
+
+
+### 85.b člen
+
+Skupna višina zadolžitve na podlagi 48.a člena tega zakona se za leto 1997 določi v višini 55.000,000.000 tolarjev.
+
+
+### 85.c člen
+
+Ustanovitelj javnega zavoda lahko izda soglasje za povečano delovno uspešnost, skladno s tretjim odstavkom 18. člena zakona o razmerjih plač v javnih zavodih, državnih organih in organih lokalnih skupnosti (Uradni list RS, št. 18/94 in 36/96) le, če z javnim zavodom sklene pogodbo o upravljanju sredstev ustanovitelja in če javni zavod presega cilje in načrtovane rezultate. Obseg povečanja delovne uspešnosti ne sme presegati 1/12 načrtovanih letnih sredstev za plače in ne more biti večji od polovice presežka prihodkov nad odhodki.”
 
 
 ### 35. člen
 
-V 84. členu se v prvem odstavku doda nov stavek, ki se glasi: “Od prihodkov proračuna za leto 1995, izkazanih v bilanci prihodkov in odhodkov, se izloči 400,000.000 tolarjev v rezerve Republike Slovenije.”
-V drugem odstavku se znesek “1.000,000.000 tolarjev” nadomesti z zneskom “2.000,000.000 tolarjev”.
-V tretjem odstavku se besedi “letu 1995” nadomesti z besedama “naslednjem letu”.
+V 86. členu se v prvem odstavku druga alinea nadomesti z novo alineo, ki se glasi:
+
+“– če odpre račun brez soglasja Ministrstva za finance (drugi odstavek 57. člena),”.
+
+Doda se četrta alinea, ki se glasi:
+
+“– če sklene pogodbo brez soglasja Ministrstva za finance (prvi odstavek 43. člen).”
 
 
 ### 36. člen
 
-V 85. členu se v prvem odstavku za besedami “do zneska 100,000.000 tolarjev” doda besedilo “in v letu 1995 do zneska 200,000.000 tolarjev.”
+V roku 60 dni po uveljavitvi tega zakona izda minister, pristojen za finance, predpis iz 16. člena zakona, vlada pa predpisa iz 34.a in 48.a člena zakona.
 
 
 ### 37. člen
 
-Za 86. členom se doda nov 86.a člen, ki se glasi:
-
-
-### “86.a člen
-
-Plačilo za storitve plačilnega prometa, ki ga opravlja Agencija Republike Slovenije za plačilni promet, nadziranje in informiranje za proračun in za uporabnike proračuna, se najkasneje od 31. 12. 1995 dalje izvršuje na podlagi pogodbe, ki jo sklene minister za finance z Agencijo Republike Slovenije za plačilni promet, nadziranje in informiranje.”
+Določbe 1., 7., 8. in 9. člena tega zakona se začnejo uporabljati s 1. januarjem 1998, določbe 85.a člena zakona pa se začnejo uporabljati s 1. aprilom 1998.
 
 
 ### 38. člen
 
-V 89. členu se besedilo “do 31. 12. 1994.” nadomesti z besedami “v koledarskem letu.”
+Z dnem uveljavitve tega zakona preneha veljati zakon o zagotovitvi sredstev za potrebe Republike Slovenije v obdobju začasnega financiranja v letu 1997 (Uradni list RS, št. 31/97).
 
 
 ### 39. člen
 
-V 92. členu se v prvem odstavku znesek “500.000 tolarjev” nadomesti z zneskom “1,000.000 tolarjev”.
+Prvo poročilo o stanju in spremembah dolga in poroštev javnega sektorja v skladu z 48.a členom zakona se pripravi za leto 1998.
 
 
 ### 40. člen
 
-V 93. členu se dodajo drugi, tretji in četrti odstavek, ki se glasijo:
-
-“Za kritje odhodkov proračuna za leto 1995 in odplačilo dolga se Republika Slovenija v letu 1995 lahko zadolži do višine 25.500 milijonov tolarjev.
-
-V zadolžitev iz prejšnjega odstavka se ne šteje zadolžitev po zakonu o zagotavljanju sredstev za realizacijo razvojnih programov obrambnih sil Republike Slovenije v letih 1994–2003 in dodatna zadolžitev za predčasno vnovčenje državnega dolga, če je to potrebno za izvajanje obveznega pokojninskega in zdravstvenega zavarovanja.
-Za nabavo poslovnih prostorov diplomatsko-konzularnih predstavništev, rezidenc veleposlanikov in šefov misij ter stanovanj generalnih konzulov, lahko Republika Slovenija v letu 1995 najame hipotekarna posojila do višine 2.200 milijonov tolarjev. Hipotekarna posojila se lahko najamejo, če mesečna anuiteta posameznega posojila ne preseže zneska mesečne najemnine za navedene prostore.”
+Med prihodke proračuna Republike Slovenije za leto 1997 se vključijo tudi prihodki od prometnega davka, ki so vplačani do 15. januarja leta 1998 in se nanašajo na promet v letu 1997.
+Med odhodke proračuna Republike Slovenije za leto 1997 se vključujejo tudi sredstva, ki so bila zagotovljena iz prihodkov leta 1997 in nakazana proračunskim uporabnikom do 30. januarja leta 1998 za poravnavo obveznosti, ki so nastale v letu 1997.
+Med prihodke in odhodke uporabnikov se vključujejo tudi sredstva, ki so nakazana proračunskim uporabnikom do 30. januarja leta 1998 in se nanašajo na poravnavo obveznosti za leto 1997.
+Dokumentacija za izplačilo iz proračuna Republike Slovenije leta 1997 mora biti predložena Ministrstvu za finance najkasneje do vključno 15. januarja 1998.
 
 
 ### 41. člen
 
-Za 94. členom se doda 94.a člen, ki se glasi:
-
-
-### “94. a člen
-
-Vlada lahko v letu 1995 odloča o dajanju poroštev v skupnem znesku največ do 15.000 milijonov tolarjev.
-
-O izdanih poroštvih obvešča vlada Državni zbor vsakih šest mesecev.”
+Ne glede na določbo četrtega odstavka 57. člena zakona o lokalni samoupravi (Uradni list RS, št. 72/93, 6/94 – odločba US, 45/94 – odločba US, 57/94, 14/95, 20/95 – odločba US, 63/95 – obvezna razlaga, 9/96 – odločba US, 39/96 – odločba US, 44/96 – odločba US, 26/97 in 70/97), se v občinske proračune za leto 1997 vključijo vsa sredstva, ki so do 31. decembra 1997 kot prihodki proračuna vplačana in razporejena na račune proračuna ali kot odhodki proračuna nakazana iz proračuna.
 
 
 ### 42. člen
 
-V 95. členu se doda nov drugi odstavek, ki se glasi:
-
-“Z denarno kaznijo najmanj 100.000 tolarjev se kaznuje za prekršek odgovorna oseba uporabnika:
-
-– če v roku ne predloži Ministrstvu za finance predloga mesečnega finančnega načrta (11. člen);
-– če proračunskim inšpektorjem ne nudi zahtevanih podatkov, listin in poročil, ki se nanašajo na inšpekcijski pregled (42. člen);
-– če v roku ne predloži Ministrstvu za finance premoženjske bilance (60. člen).
+Z dnem uveljavitve tega zakona preneha veljati tretji odstavek 11. člena in 21. člen zakona o financiranju javne porabe (Uradni list RS, št. 48/90, 34/91-I, 30/92, 52/92 – odločba US, 7/93 in 43/93).
 
 
 ### 43. člen
 
-Za 98. členom se dodata 98.a in 98.b člen, ki se glasita:
-
-
-### “98.a člen
-
-Ministrstvo za finance od 1. januarja 1996 dalje vodi računovodstvo za proračun in za vse uporabnike proračuna, razen za pravosodne organe.
-
-
-### 98.b člen
-
-Do vzpostavitve enotnega računovodskega izkazovanja se pri upravnih enotah v proračunu izkazuje le razlika med prihodki in odhodki iz naslova upravnih taks in nabave registrskih tablic.”
-
-
-### 44. člen
-
-Prihranke pri sredstvih za plače delavcev in funkcionarjev, ki preostanejo uporabnikom na dan uveljavitve tega zakona, uporabniki najpozneje do predložitve periodičnih obračunov za obdobje januar–junij 1995 prenesejo v proračun.
-
-
-### 45. člen
-
-Določbe 88., 90. in 91. člena se ne uporabljajo za izvrševanje proračuna Republike Slovenije za leto 1995.
-
-
-### 46. člen
-
 Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
 
-Št. 411-01/93-33/30
+Št. 411-01/95-45/12
 
-Ljubljana, dne 3. julija 1995.
+Ljubljana, dne 3. decembra 1997.
 
 Predsednik
 Državnega zbora
 Republike Slovenije
-Jožef Školč l. r.
+Janez Podobnik, dr. med. l. r.
