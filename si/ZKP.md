@@ -20,6 +20,10 @@ spremembe:
     datum: 2000-07-26
     sop: 2000-01-3053
     naziv: "Zakon o spremembi zakona o spremembah in dopolnitvah zakona o kazenskem postopku"
+  - kratica: ZKP-D
+    datum: 2001-12-29
+    sop: 2001-01-5492
+    naziv: "Zakon o spremembah in dopolnitvah zakona o kazenskem postopku"
 ---
 
 # Zakon o kazenskem postopku
