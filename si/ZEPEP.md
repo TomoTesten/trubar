@@ -7,6 +7,11 @@ sop: 2000-01-2615
 objava: "Uradni list RS 57/2000  str. 7465"
 kljucne_besede: ["elektronski podpis", "elektronsko poslovanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2615"
+spremembe:
+  - kratica: ZEPEP-A
+    datum: 2004-03-19
+    sop: 2004-01-1066
+    naziv: "Zakon o spremembah in dopolnitvah zakona o elektronskem poslovanju in elektronskem podpisu"
 ---
 
 # Zakon o elektronskem poslovanju in elektronskem podpisu
