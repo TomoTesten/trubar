@@ -7,6 +7,11 @@ sop: 1999-01-3777
 objava: "Uradni list RS 80/99  str. 12441"
 kljucne_besede: ["upravni postopek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3777"
+spremembe:
+  - kratica: ZUP-A
+    datum: 2000-08-08
+    sop: 2000-01-3310
+    naziv: "Zakon o spremembi in dopolnitvi zakona o splošnem upravnem postopku"
 ---
 
 # Zakon o splošnem upravnem postopku
