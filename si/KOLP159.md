@@ -4,9 +4,9 @@ naziv: "Spremembe kolektivne pogodbe dejavnosti trgovine Slovenije"
 vrsta: "akt"
 datum: 2003-07-29
 sop: 2003-01-3579
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3579"
 ---
 

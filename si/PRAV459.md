@@ -4,9 +4,9 @@ naziv: "Pravilnik o veterinarskih pregledih proizvodov pri vnosu na teritorij EU
 vrsta: "pravilnik"
 datum: 2003-07-30
 sop: 2003-01-5970
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5970"
 ---
 

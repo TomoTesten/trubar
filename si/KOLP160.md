@@ -4,9 +4,9 @@ naziv: "Razlaga kolektivne pogodbe za dejavnost poslovanja z nepremičninami"
 vrsta: "akt"
 datum: 2003-08-08
 sop: 2003-01-3712
-organ: "Komisija za razlago kolektivne pogodbe za poslovanje z nepremičninami"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3712"
 ---
 

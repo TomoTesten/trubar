@@ -4,9 +4,9 @@ naziv: "Navodilo za izvajanje sklepa o razvrstitvi aktivnih bilančnih in zunajb
 vrsta: "navodilo"
 datum: 2003-08-08
 sop: 2003-01-3707
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3707"
 ---
 
