@@ -1,0 +1,71 @@
+---
+kratica: SKLE170
+naziv: "Sklep o ustanovitvi, organizaciji in delovnem področju urada Vlade Republike Slovenije za denacionalizacijo"
+vrsta: "sklep"
+datum: 1999-04-10
+sop: 1999-01-1204
+organ: "Vlada Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1204"
+---
+
+# Sklep o ustanovitvi, organizaciji in delovnem področju urada Vlade Republike Slovenije za denacionalizacijo
+
+Na podlagi prvega odstavka 22. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96 in 47/97) je Vlada Republike Slovenije na 103. seji dne 1. aprila 1999 sprejela
+
+
+## S K L E P
+o ustanovitvi, organizaciji in delovnem področju Urada Vlade Republike Slovenije za denacionalizacijo
+
+
+### 1. člen
+
+Ustanovi se Urad Vlade Republike Slovenije za denacionalizacijo (v nadaljnjem besedilu: urad) in organizira kot vladna služba z delovnim področjem, določenim s tem sklepom.
+
+
+### 2. člen
+
+Urad opravlja naslednje naloge:
+– koordinira delo med upravnimi organi, pristojnimi za izvajanje zakona o denacionalizaciji in drugimi organi ali pravnimi osebami, ki so nosilci javnih pooblastil, na področju denacionalizacije,
+– usklajuje medresorsko delo pri pripravi strokovnih podlag za sistemske predpise na področju denacionalizacije,
+– oblikuje in predlaga Vladi Republike Slovenije medresorsko usklajene predloge za učinkovito izvajanje denacionalizacije ter za koordiniranje izvajanja poenotenih metod cenitve denacionaliziranega premoženja,
+– strokovno pomaga pri reševanju problemov v zvezi z določitvijo zavezanca,
+– v sodelovanju s pristojnimi organi po zakonu o denacionalizaciji redno analitično spremlja stanja na področju izvajanja zakona o denacionalizaciji in pripravlja pregled stanja denacionaliziranega premoženja v gospodarskih družbah, ki so se lastninsko preoblikovale oziroma denacionaliziranega premoženja v stečajnih postopkih,
+– vodi zbirni seznam o denacionalizacijskih zadevah, ki se vodijo pri posameznih upravnih organih,
+– pripravlja medresorsko usklajena letna poročila o izvajanju zakona o denacionalizaciji za Vlado Republike Slovenije na podlagi zbirnih evidenc in spremljanja stanja,
+– sodeluje z upravitelji podatkovnih zbirk,
+– obravnava vprašanja in problematiko uresničevanja zakona o denacionalizaciji in ostala vprašanja, pomembna za področje denacionalizacije,
+– opravlja druge strokovne naloge na področju denacionalizacije, za katere jo pooblasti Vlada Republike Slovenije.
+
+
+### 3. člen
+
+Urad pri opravljanju svojih nalog sodeluje z ministrstvi, z drugimi vladnimi službami, medresorsko komisijo Vlade Republike Slovenije za spremljanje uresničevanja zakona o denacionalizaciji ter z drugimi pravnimi institucijami in strokovnjaki.
+
+
+### 4. člen
+
+Urad vodi direktor.
+Direktorja imenuje in razreši Vlada Republike Slovenije na predlog generalnega sekretarja Vlade Republike Slovenije.
+Direktor je za delo urada odgovoren generalnemu sekretarju Vlade Republike Slovenije.
+
+
+### 5. člen
+
+Akt o notranji organizaciji in sistemizaciji delovnih mest v uradu izda na predlog direktorja urada generalni sekretar Vlade Republike Slovenije po predhodnem soglasju Vlade Republike Slovenije v 30 dneh po uveljavitvi tega sklepa.
+
+
+### 6. člen
+
+Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 023-03/98-4
+
+Ljubljana, dne 1. aprila 1999.
+
+
+### Vlada Republike Slovenije
+
+dr. Janez Drnovšek l. r.
+Predsednik
