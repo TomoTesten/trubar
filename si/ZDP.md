@@ -12,6 +12,10 @@ spremembe:
     datum: 1993-12-30
     sop: 1993-01-2580
     naziv: "Zakon o dopolnitvah zakona o deviznem poslovanju"
+  - kratica: ZDP-B
+    datum: 1995-11-06
+    sop: 1995-01-2919
+    naziv: "Zakon o spremembah in dopolnitvah zakona o deviznem poslovanju"
 ---
 
 # Zakon o deviznem poslovanju
