@@ -16,6 +16,10 @@ spremembe:
     datum: 1994-02-16
     sop: 1994-01-0311
     naziv: "Zakon o spremembah in dopolnitvah zakona o zunanjetrgovinskem poslovanju"
+  - kratica: ZZP-C
+    datum: 1995-10-13
+    sop: 1995-01-2697
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zunanjetrgovinskem poslovanju"
 ---
 
 # Zakon o zunanjetrgovinskem poslovanju
