@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah zakona o delnem povračilu škode povz
 vrsta: "akt"
 datum: 1991-12-24
 sop: 1991-01-1331
-organ: "SKUPŠČINA RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1331"
 ---
 

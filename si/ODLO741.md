@@ -4,9 +4,9 @@ naziv: "Odlok o spremembah in dopolnitvi odloka o določitvi števila sodnikov i
 vrsta: "odlok"
 datum: 1991-12-14
 sop: 1991-01-1241
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1241"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah zakona o davku od dobička pravnih ose
 vrsta: "akt"
 datum: 1991-12-24
 sop: 1991-01-1332
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1332"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o višini reeskontne kvote za črpanje reeskontnih in lombardnih k
 vrsta: "sklep"
 datum: 1991-12-20
 sop: 1991-01-1280
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1280"
 ---
 

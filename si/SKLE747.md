@@ -4,9 +4,9 @@ naziv: "Sklep o obračunavanju, izločanju in uporabi obvezne rezerve bank"
 vrsta: "sklep"
 datum: 1991-12-14
 sop: 1991-01-1252
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1252"
 ---
 

@@ -1,0 +1,59 @@
+---
+kratica: ODLO745
+naziv: "Odlok o prenehanju veljavnosti odloka o plačilu posebne takse za uvoženo blago v letu 1991"
+vrsta: "odlok"
+datum: 1991-12-14
+sop: 1991-01-1246
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1246"
+---
+
+# Odlok o prenehanju veljavnosti odloka o plačilu posebne takse za uvoženo blago v letu 1991
+
+Na podlagi 4. člena ustavnega zakona za izvedbo temeljne ustavne listine o neodvisnosti in samostojnosti Republike Slovenije (Uradni list RS, št. 1/91-I) ter na podlagi drugega odstavka 1. člena zakona o plačevanju uvoženega blaga (Uradni list SFRJ, št. 63/80) izdaja Izvršni svet Skupščine Republike Slovenije
+
+
+## ODLOK
+o prenehanju veljavnosti odloka o plačilu posebne takse za uvoženo blago v letu 1991
+
+
+### 1. člen
+
+Preneha veljati odlok o plačilu posebne takse za uvoženo blago v letu 1991 (Uradni list SFRJ, št. 83/90, 3/91, 6/91, 8/91, 9/91, 13/91, 22/91, 38/91, 46/91) razen za uvoz blaga iz naslednjih tarifnih številk carinske tarife:
+
+----------------------------------------------------------------------------
+Tarifna
+številka       Poimenovanje blaga
+----------------------------------------------------------------------------
+22.03    Pivo iz slada
+22.04    Vino iz svežega grozdja, vštevši ojačena vina; grozdni mošt, razen
+         tistega iz tar. št. 20.09
+22.05    Vermut in druga vina iz svežega grozdja, aromatizirana z rastlinami
+         ali sredstvi za aromatiziranje
+22.06    Druge fermentirane pijače (npr. jabolčnik, hruškovec in medica)
+22.08    Nedenaturiran alkohol, z alkoholno močjo pod 80% na prostornino,
+         žganja, likerji in druge alkoholne pijače; sestavljeni alkoholni
+         izdelki za proizvodnjo pijač, razen 2208.10
+24.02    Cigare, cigarilosi in cigarete iz tobaka in tobakovega nadomestka
+24.03    Drugi predelan tobak in tobačni nadomestki; homogeniziran in
+         rekonstituiran tobak; tobakovi ekstrakti in sokovi, razen izdelkov
+         pod 2403.9 - Drugo
+----------------------------------------------------------------------------
+
+
+### 2. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 423-01/91-3/1-8
+
+Ljubljana, dne 12. decembra 1991.
+
+
+### Izvršni svet
+Skupščine Republike Slovenije
+
+Predsednik
+Lojze Peterle l. r.

@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah sklepa o določitvi pogojev in načina za nakup in pr
 vrsta: "sklep"
 datum: 1991-12-24
 sop: 1991-01-1343
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1343"
 ---
 

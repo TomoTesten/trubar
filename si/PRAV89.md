@@ -4,9 +4,9 @@ naziv: "Pravilnik o dopolnitvi pravilnika o rajonizaciji vinogradniškega območ
 vrsta: "pravilnik"
 datum: 1991-12-14
 sop: 1991-01-1248
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1248"
 ---
 
