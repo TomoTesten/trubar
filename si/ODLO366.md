@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi odloka o izvolitvi pridružene delegacije Državnega z
 vrsta: "odlok"
 datum: 1999-12-27
 sop: 1999-01-5030
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-5030"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o izvolitvi sodnikov porotnikov Delovnega sodišča v Kopru"
 vrsta: "odlok"
 datum: 1999-12-27
 sop: 1999-01-5033
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-5033"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu plačevanja mednarodnih pristojbin za mednarodne pate
 vrsta: "navodilo"
 datum: 1999-12-27
 sop: 1999-01-5045
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-5045"
 ---
 

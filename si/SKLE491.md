@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi zneska za enoto obremenitve voda za leto 2000"
 vrsta: "sklep"
 datum: 1999-12-30
 sop: 1999-01-5170
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-5170"
 ---
 

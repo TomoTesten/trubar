@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi odloka o preferencialnih pravilih o poreklu blaga, ki 
 vrsta: "odlok"
 datum: 1999-12-29
 sop: 1999-01-5049
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-5049"
 ---
 

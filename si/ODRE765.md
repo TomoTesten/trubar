@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi zdravil, ki se izdajajo na recept ali brez recepta 
 vrsta: "odredba"
 datum: 1999-12-30
 sop: 1999-01-5178
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-5178"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o izvajanju Sporazuma med državami članicami EFTE in Republiko 
 vrsta: "uredba"
 datum: 1999-12-21
 sop: 1999-01-4939
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4939"
 ---
 

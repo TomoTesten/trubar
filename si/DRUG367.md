@@ -4,9 +4,9 @@ naziv: "Količnik za določitev letne akontacije davka od dohodkov iz dejavnosti
 vrsta: "drugi akt"
 datum: 2000-01-07
 sop: 2000-01-0023
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0023"
 ---
 

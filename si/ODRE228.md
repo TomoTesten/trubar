@@ -4,9 +4,9 @@ naziv: "Pravilnik o navajanju surovinske sestave in o tekstilnih imenih"
 vrsta: "odredba"
 datum: 1999-12-29
 sop: 1999-01-5051
-organ: "Ministrstvo za gospodarske dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-5051"
 ---
 

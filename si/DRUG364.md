@@ -4,9 +4,9 @@ naziv: "Soglasje k aktu o ustanovitvi Ustanove Ivana Cankarja za štipendiranje"
 vrsta: "drugi akt"
 datum: 2000-01-07
 sop: 2000-01-0025
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0025"
 ---
 

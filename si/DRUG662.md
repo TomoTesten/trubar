@@ -4,9 +4,9 @@ naziv: "Poročilo o izidu volitev članov personalnega sveta, ki jih volijo sodn
 vrsta: "drugi akt"
 datum: 1999-12-29
 sop: 1999-01-5059
-organ: "Sodni svet Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-5059"
 ---
 
