@@ -7,6 +7,11 @@ sop: 1996-01-0569
 objava: "Uradni list RS 12/96  str. 871"
 kljucne_besede: ["otrok", "otroško varstvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0569"
+spremembe:
+  - kratica: ZVrt-A
+    datum: 2000-05-26
+    sop: 2000-01-2064
+    naziv: "Zakon o spremembah in dopolnitvah zakona o vrtcih"
 ---
 
 # Zakon o vrtcih
