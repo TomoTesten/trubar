@@ -7,6 +7,11 @@ sop: 1994-01-0512
 objava: "Uradni list RS 13/94  str. 693"
 kljucne_besede: ["notar"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0512"
+spremembe:
+  - kratica: ZN-A
+    datum: 1994-08-05
+    sop: 1994-01-1823
+    naziv: "Zakon o spremembi zakona o notariatu"
 ---
 
 # Zakon o notariatu
