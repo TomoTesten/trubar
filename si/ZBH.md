@@ -12,6 +12,10 @@ spremembe:
     datum: 1992-08-01
     sop: 1992-01-1893
     naziv: "Zakon o spremembi zakona o bankah in hranilnicah"
+  - kratica: ZBH-B
+    datum: 1993-08-06
+    sop: 1993-01-1802
+    naziv: "Zakon o spremembah in dopolnitvah zakona o bankah in hranilnicah"
 ---
 
 # Zakon o bankah in hranilnicah
