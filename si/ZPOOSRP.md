@@ -20,6 +20,10 @@ spremembe:
     datum: 2001-07-19
     sop: 2001-01-3144
     naziv: "Zakon o spremembah in dopolnitvah zakona o popotresni obnovi objektov in spodbujanju razvoja v Posočju"
+  - kratica: ZPOOSRP-D
+    datum: 2004-08-05
+    sop: 2004-01-3854
+    naziv: "Zakon o spremembah in dopolnitvah zakona o popotresni obnovi objektov in spodbujanju razvoja v Posočju"
 ---
 
 # Zakon o popotresni obnovi objektov in spodbujanju razvoja v Posočju
