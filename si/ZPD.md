@@ -7,6 +7,11 @@ sop: 1992-01-0245
 objava: "Uradni list RS 4/92  str. 265"
 kljucne_besede: ["davek", "davčni sistem", "posredni davek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0245"
+spremembe:
+  - kratica: ZPD-A
+    datum: 1993-12-30
+    sop: 1993-01-2572
+    naziv: "Zakon o spremembi zakona o prometnem davku"
 ---
 
 # Zakon o prometnem davku
