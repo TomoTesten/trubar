@@ -16,6 +16,10 @@ spremembe:
     datum: 2003-12-18
     sop: 2003-01-5392
     naziv: "Zakon o spremembah in dopolnitvah zakona o sistemu plač v javnem sektorju"
+  - kratica: ZSPJS-C
+    datum: 2004-06-28
+    sop: 2004-01-3159
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sistemu plač v javnem sektorju"
 ---
 
 # Zakon o sistemu plač v javnem sektorju
