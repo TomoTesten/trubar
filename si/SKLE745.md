@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o obvezni rezervi bank in hranilnic"
 vrsta: "sklep"
 datum: 1998-11-20
 sop: 1998-01-3979
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3979"
 ---
 

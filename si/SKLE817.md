@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah sklepa o aktivnih in pasivnih obrestnih merah Banke S
 vrsta: "sklep"
 datum: 1998-11-20
 sop: 1998-01-3978
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3978"
 ---
 

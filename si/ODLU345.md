@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi kršitve ustavnih pravic in ugotovitev o neustavno
 vrsta: "akt"
 datum: 1998-11-13
 sop: 1998-01-3846
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3846"
 ---
 

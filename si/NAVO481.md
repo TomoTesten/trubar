@@ -4,9 +4,9 @@ naziv: "Navodilo za prilagajanje izobraževalnih programov poklicnega in strokov
 vrsta: "navodilo"
 datum: 1998-11-27
 sop: 1998-01-4034
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4034"
 ---
 

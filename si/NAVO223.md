@@ -4,9 +4,9 @@ naziv: "Navodilo za izvrševanje uredbe o izvajanju materialne dolžnosti za pot
 vrsta: "navodilo"
 datum: 1998-12-04
 sop: 1998-01-4193
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4193"
 ---
 

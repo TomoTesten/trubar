@@ -4,9 +4,9 @@ naziv: "Odločba o oceni ustavnosti tretjega odstavka 3. člena zakona o načinu
 vrsta: "akt"
 datum: 1998-12-04
 sop: 1998-01-4195
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4195"
 ---
 

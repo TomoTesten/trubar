@@ -4,7 +4,8 @@ naziv: "Navodilo o postopku in načinu dokazovanja poravnava davčnih obveznosti
 vrsta: "navodilo"
 datum: 1998-11-26
 sop: 1998-01-4019
-organ: "Ministrstvo za promet in zveze"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4019"
 ---

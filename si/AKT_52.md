@@ -4,9 +4,9 @@ naziv: "Odlok o razpisu zakonodajnega referenduma o financiranju izgradnje TET 3
 vrsta: "akt"
 datum: 1998-11-26
 sop: 1998-01-4017
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4017"
 ---
 

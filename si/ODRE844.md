@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi cene obrazca vloge za izdajo potnega lista in cene 
 vrsta: "odredba"
 datum: 1998-12-04
 sop: 1998-01-4183
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4183"
 ---
 
