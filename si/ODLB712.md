@@ -4,9 +4,9 @@ naziv: "Odločba o razširitvi imenovanja za izvajanje strokovno tehničnih nalo
 vrsta: "akt"
 datum: 2005-02-24
 sop: 2005-01-0530
-organ: "Ministrstvo za visoko šolstvo, znanost in tehnologijo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0530"
 ---
 
