@@ -7,6 +7,11 @@ sop: 1999-01-2488
 objava: "Uradni list RS 52/99  str. 6562"
 kljucne_besede: ["davek na motorna vozila"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2488"
+spremembe:
+  - kratica: ZDMV-A
+    datum: 2004-04-23
+    sop: 2004-01-1856
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davkih na motorna vozila"
 ---
 
 # Zakon o davkih na motorna vozila
