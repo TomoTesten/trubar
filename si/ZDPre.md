@@ -7,6 +7,11 @@ sop: 1993-01-2371
 objava: "Uradni list RS 65/93  str. 3178"
 kljucne_besede: ["družinska politika", "porodniški dopust", "starševski dodatki"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2371"
+spremembe:
+  - kratica: ZDPre-A
+    datum: 1994-11-18
+    sop: 1994-01-2549
+    naziv: "Zakon o spremembah in dopolnitvah zakona o družinskih prejemkih"
 ---
 
 # Zakon o družinskih prejemkih
