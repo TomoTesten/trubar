@@ -7,6 +7,11 @@ sop: 1995-01-0860
 objava: "Uradni list RS 18/95  str. 1436"
 kljucne_besede: ["pomorski prevoz", "dolg", "trgovsko ladjevje", "terjatev", "družba z omejeno odgovornostjo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0860"
+spremembe:
+  - kratica: ZPDLPSP-A
+    datum: 1995-12-01
+    sop: 1995-01-3130
+    naziv: "Zakon o spremembi in dopolnitvi zakona o prevzemu dolgov in lastninskem preoblikovanju splošne plovbe p.o., Portorož"
 ---
 
 # Zakon o prevzemu dolgov in lastninskem preoblikovanju Splošne plovbe, p.o., Portorož
