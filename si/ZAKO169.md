@@ -4,9 +4,9 @@ naziv: "Zakon o evidenci volilne pravice (ZEVP)"
 vrsta: "akt"
 datum: 1992-09-28
 sop: 1992-01-2157
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2157"
 ---
 

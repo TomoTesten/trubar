@@ -4,9 +4,9 @@ naziv: "Zakon o jamstvu Republike Slovenije za obveznosti podjetja Petrol Zemelj
 vrsta: "akt"
 datum: 1992-10-23
 sop: 1992-01-2345
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2345"
 ---
 

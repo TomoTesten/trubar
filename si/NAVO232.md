@@ -4,8 +4,9 @@ naziv: "Navodilo za delo diplomatskih in konzularnih predstavništev Republike S
 vrsta: "navodilo"
 datum: 1992-09-27
 sop: 1992-01-2574
-organ: "Ministrstvo za obrambo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2574"
 ---
 

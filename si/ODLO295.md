@@ -4,9 +4,9 @@ naziv: "Odlok Vlade Republike Slovenije o proračunu zamudnih obresti za davke, 
 vrsta: "odlok"
 datum: 1992-09-30
 sop: 1992-01-2205
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2205"
 ---
 

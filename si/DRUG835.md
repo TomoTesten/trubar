@@ -4,9 +4,9 @@ naziv: "Seznam gotovih zdravil, za katere je bilo od 19. junija do 17. julija 19
 vrsta: "drugi akt"
 datum: 1992-09-28
 sop: 1992-01-2126
-organ: "MINISTRSTVO ZA ZDRAVSTVO, DRUŽINO IN SOCIALNO VARSTVO"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2126"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o izdaji bankovcev za 5000, 1000, 500, 200, 100, 50, 20 in 10 tola
 vrsta: "sklep"
 datum: 1992-09-21
 sop: 1992-01-2121
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2121"
 ---
 

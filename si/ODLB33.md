@@ -4,9 +4,9 @@ naziv: "Odločba o ustanovitvi novih organizacijskih enot carinarnic na območju
 vrsta: "akt"
 datum: 1992-10-30
 sop: 1992-01-2394
-organ: "Carinska uprava RS (MF)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2394"
 ---
 

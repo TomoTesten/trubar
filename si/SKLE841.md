@@ -4,9 +4,9 @@ naziv: "Sklep o izročitvi tolarskih bankovcev za 1000, 500 in 100 tolarjev v ob
 vrsta: "sklep"
 datum: 1992-09-28
 sop: 1992-01-2129
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2129"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o nezdružljivosti opravljanja javne funkcije s pridobitno dejavno
 vrsta: "akt"
 datum: 1992-10-10
 sop: 1992-01-2242
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2242"
 ---
 

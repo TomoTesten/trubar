@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o ustanovitvi štabov, enot 
 vrsta: "odredba"
 datum: 1992-10-23
 sop: 1992-01-2356
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2356"
 ---
 

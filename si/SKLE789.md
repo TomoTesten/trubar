@@ -4,9 +4,9 @@ naziv: "Sklep o dopolnitvi sklepa o izdaji dvodelnega prenosljivega blagajniške
 vrsta: "sklep"
 datum: 1992-09-21
 sop: 1992-01-2120
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2120"
 ---
 
