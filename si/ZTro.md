@@ -12,6 +12,10 @@ spremembe:
     datum: 1999-07-16
     sop: 1999-01-2685
     naziv: "Zakon o spremembah in dopolnitvah zakona o trošarinah"
+  - kratica: ZTro-B
+    datum: 2001-05-05
+    sop: 2001-01-1961
+    naziv: "Zakon o spremembi in dopolnitvi zakona o trošarinah"
 ---
 
 # Zakon o trošarinah
