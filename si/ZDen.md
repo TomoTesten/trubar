@@ -16,6 +16,10 @@ spremembe:
     datum: 1998-09-25
     sop: 1998-01-3015
     naziv: "Zakon o spremembah in dopolnitvah zakona o denacionalizaciji"
+  - kratica: ZDen-C
+    datum: 2000-07-26
+    sop: 2000-01-3054
+    naziv: "Zakon o spremembah in dopolnitvah zakona o denacionalizaciji"
 ---
 
 # Zakon o denacionalizaciji
