@@ -4,9 +4,9 @@ naziv: "Proračun Republike Slovenije za leto 2005 (DP2005)"
 vrsta: "akt"
 datum: 2003-12-23
 sop: 2003-01-5511
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5511"
 ---
 

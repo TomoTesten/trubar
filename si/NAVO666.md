@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila za izračun kazalnikov"
 vrsta: "navodilo"
 datum: 2003-12-22
 sop: 2003-01-5506
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5506"
 ---
 
