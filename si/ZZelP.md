@@ -7,6 +7,11 @@ sop: 1999-01-4349
 objava: "Uradni list RS 92/99  str. 13631"
 kljucne_besede: ["železniški promet", "železniško omrežje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4349"
+spremembe:
+  - kratica: ZZelP-A
+    datum: 2001-02-16
+    sop: 2001-01-0667
+    naziv: "Zakon o dopolnitvi zakona o železniškem prometu"
 ---
 
 # Zakon o železniškem prometu
