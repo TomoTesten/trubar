@@ -16,6 +16,10 @@ spremembe:
     datum: 2003-06-09
     sop: 2003-01-2756
     naziv: "Zakon o spremembah in dopolnitvah zakona o bančništvu"
+  - kratica: ZBan-C
+    datum: 2004-04-23
+    sop: 2004-01-1857
+    naziv: "Zakon o spremembah in dopolnitvah zakona o bančništvu"
 ---
 
 # Zakon o bančništvu
