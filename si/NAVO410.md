@@ -4,9 +4,9 @@ naziv: "Navodilo o vsebini in obliki prijave za vpis v register, prijavi spremem
 vrsta: "navodilo"
 datum: 2000-06-29
 sop: 2000-01-2655
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2655"
 ---
 

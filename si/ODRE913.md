@@ -2,11 +2,11 @@
 kratica: ODRE913
 naziv: "Odredba o začasnem zavarovanju fosilnih vretenčarjev pri Kozini"
 vrsta: "odredba"
-datum: 2000-03-24
+datum: 2000-07-07
 sop: 2000-01-1157
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1157"
 ---
 

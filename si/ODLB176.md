@@ -4,9 +4,9 @@ naziv: "Odločba o podelitvi statusa društva v javnem interesu na področju kul
 vrsta: "akt"
 datum: 2000-06-30
 sop: 2000-01-2690
-organ: "Ministrstvo za kulturo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2690"
 ---
 

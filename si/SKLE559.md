@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi upravljalcev distribucijskih omrežij električne ene
 vrsta: "sklep"
 datum: 2000-06-16
 sop: 2000-01-2519
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2519"
 ---
 

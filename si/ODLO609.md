@@ -4,9 +4,9 @@ naziv: "Odlok o dopolnitvah odloka o organizaciji in delovnem področju Službe 
 vrsta: "odlok"
 datum: 2000-06-30
 sop: 2000-01-2738
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2738"
 ---
 

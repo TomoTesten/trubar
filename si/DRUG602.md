@@ -1,0 +1,29 @@
+---
+kratica: DRUG602
+naziv: "Seznam zdravil, za katera je bilo od 19. 11. 1999 do 19. 5. 2000 izdano dovoljenje za promet"
+vrsta: "drugi akt"
+datum: 2000-07-06
+sop: 2000-01-2760
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2760"
+---
+
+# Seznam zdravil, za katera je bilo od 19. 11. 1999 do 19. 5. 2000 izdano dovoljenje za promet
+
+Na podlagi 28. člena zakona o zdravilih in medicinskih pripomočkih (Uradni list RS, št. 101/99) objavlja Urad Republike Slovenije za zdravila
+
+
+## S E Z N A M
+zdravil, za katera je bilo od 19. 11. 1999 do 19. 5. 2000 izdano dovoljenje za promet
+
+Seznam
+
+Št. 512-9/00-104
+
+Ljubljana, dne 28. junija 2000.
+
+Urad Republike Slovenije za zdravila
+Nada Irgolič, mag. farm., spec. l. r.
+Direktorica

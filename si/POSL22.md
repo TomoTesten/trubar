@@ -4,9 +4,9 @@ naziv: "Poslovnik državne revizijske komisije za revizijo postopkov oddaje javn
 vrsta: "akt"
 datum: 2000-06-20
 sop: 2000-01-2548
-organ: "Državna revizijska komisija za revizijo postopkov oddaje javnih naročil"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2548"
 ---
 

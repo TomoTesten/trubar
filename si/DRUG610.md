@@ -4,9 +4,9 @@ naziv: "Količnik povišanja plač od vključno meseca julija 2000 dalje"
 vrsta: "drugi akt"
 datum: 2000-07-07
 sop: 2000-01-2836
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2836"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Ugotovitev, da mandat poslanca Državnega zbora preide na naslednjega ka
 vrsta: "drugi akt"
 datum: 2000-06-22
 sop: 2000-01-2557
-organ: "Republiška volilna komisija"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2557"
 ---
 

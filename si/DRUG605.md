@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve pravil obveznega zdravstvenega zavarovanja"
 vrsta: "drugi akt"
 datum: 2000-07-06
 sop: 2000-01-2774
-organ: "Zavod za zdravstveno zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2774"
 ---
 
