@@ -7,6 +7,11 @@ sop: 1994-01-2594
 objava: "Uradni list RS 72/94  str. 4036"
 kljucne_besede: ["cestni promet", "cestni prevoz", "prevoz oseb", "prevoz blaga"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2594"
+spremembe:
+  - kratica: ZPCP-A
+    datum: 1996-09-27
+    sop: 1996-01-3126
+    naziv: "Zakon o spremembah in dopolnitvah zakona o prevozih v cestnem prometu"
 ---
 
 # Zakon o prevozih v cestnem prometu
