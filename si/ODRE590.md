@@ -1,0 +1,48 @@
+---
+kratica: ODRE590
+naziv: "Odredba o sprejemu splošnega dela gozdnogospodarskega načrta gozdnogospodarske enote Pokljuka"
+vrsta: "odredba"
+datum: 2001-03-23
+sop: 2001-01-1190
+organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1190"
+---
+
+# Odredba o sprejemu splošnega dela gozdnogospodarskega načrta gozdnogospodarske enote Pokljuka
+
+Na podlagi sedmega odstavka 14. člena zakona o gozdovih (Uradni list RS, št. 30/93, 13/98 – odl. US in 56/99 – ZON) izdaja minister za kmetijstvo, gozdarstvo in prehrano
+
+
+## O D R E D B O
+o sprejemu splošnega dela gozdnogospodarskega načrta gozdnogospodarske enote Pokljuka
+
+
+### 1. člen
+
+Sprejme se splošni del gozdnogospodarskega načrta gozdnogospodarske enote Pokljuka, št. 02-04/96 z dne 18. 1. 2001, ki ga je izdelal Zavod za gozdove Slovenije, Območna enota Bled, za obdobje od 1. 1. 1996 do 31. 12. 2005.
+Cilji, usmeritve in ukrepi, ki so določeni v splošnem delu gozdnogospodarskega načrta gozdnogospodarske enote Pokljuka na ravneh celotne gozdnogospodarske enote, gospodarskih razredov in odsekov, so sestavni del te odredbe.
+
+
+### 2. člen
+
+Splošni del gozdnogospodarskega načrta gozdnogospodarske enote Pokljuka je izdelan v treh izvodih za 4382,62 hektarjev gozdov, ki ležijo v gozdnogospodarskem območju Bled, v občinah Bled in Bohinj, oziroma v katastrskih občinah Bohinjska Bela, Bohinjska Češnjica, Bohinjska Srednja vas, Gorjuše in Zgornje Gorje.
+
+
+### 3. člen
+
+Po en izvod splošnega dela gozdnogospodarskega načrta gozdnogospodarske enote Pokljuka je na vpogled na sedežu Zavoda za gozdove Slovenije, Območne enote Bled, Ljubljanska c.19, Bled, na sedežu Zavoda za gozdove Slovenije, Krajevne enote Pokljuka, Triglavska c. 47, Bled, in na Ministrstvu za kmetijstvo, gozdarstvo in prehrano Republike Slovenije, Dunajska 58, Ljubljana, kjer se hrani tudi dokumentacija v zvezi s postopkom sprejemanja splošnega dela gozdnogospodarskega načrta gozdnogospodarske enote Pokljuka.
+
+
+### 4. člen
+
+Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 322-01-02/6-99
+
+Ljubljana, dne 27. februarja 2001.
+
+Minister
+za kmetijstvo, gozdarstvo in
+prehrano
+mag. Franc But l. r.
