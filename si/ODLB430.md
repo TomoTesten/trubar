@@ -4,9 +4,9 @@ naziv: "Odločba o določitvi količin predhodnih sestavin za prepovedane droge,
 vrsta: "akt"
 datum: 2002-03-08
 sop: 2002-01-0884
-organ: "Ministrstvo za zdravje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0884"
 ---
 
