@@ -4,8 +4,9 @@ naziv: "Navodilo o načinu obračunavanja in plačevanja v sklad za financiranje
 vrsta: "navodilo"
 datum: 1996-09-20
 sop: 1996-01-3083
-organ: "Ministrstvo za gospodarske dejavnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3083"
 ---
 

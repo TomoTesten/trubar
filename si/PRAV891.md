@@ -4,7 +4,8 @@ naziv: "Pravilnik o študijskem koledarju v višjih strokovnih šolah"
 vrsta: "pravilnik"
 datum: 1996-09-27
 sop: 1996-01-3138
-organ: "Ministrstvo za šolstvo in šport"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3138"
 ---

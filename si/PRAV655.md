@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembi in dopolnitvi pravilnika o kakovosti zaklanih pra�
 vrsta: "pravilnik"
 datum: 1996-09-20
 sop: 1996-01-3123
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3123"
 ---
 

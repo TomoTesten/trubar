@@ -4,9 +4,9 @@ naziv: "Odredba o homologiranju žarometov s halogeno žarnico HS2 za mopede in 
 vrsta: "odredba"
 datum: 1996-10-04
 sop: 1996-01-3175
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3175"
 ---
 

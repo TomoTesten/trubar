@@ -4,9 +4,9 @@ naziv: "Soglasje k aktu o ustanovitvi ustanove Fundacije Avgusta Kuharja"
 vrsta: "akt"
 datum: 1996-10-11
 sop: 1996-01-3247
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3247"
 ---
 

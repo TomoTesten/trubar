@@ -4,8 +4,9 @@ naziv: "Odredba o pogojih za ustanovitev javne poklicne šole, strokovne šole, 
 vrsta: "odredba"
 datum: 1996-09-27
 sop: 1996-01-3136
-organ: "Ministrstvo za šolstvo in šport"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3136"
 ---
 
