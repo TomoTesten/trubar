@@ -7,6 +7,11 @@ sop: 1999-01-4262
 objava: "Uradni list RS 89/99  str. 13433"
 kljucne_besede: ["zemljiški kataster", "lastnina", "zgradba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4262"
+spremembe:
+  - kratica: ZPPLPS-A
+    datum: 2001-12-04
+    sop: 2001-01-4800
+    naziv: "Zakon o spremembi zakona o posebnih pogojih za vpis lastninske pravice na posameznih delih stavbe v zemljiško knjigo"
 ---
 
 # Zakon o posebnih pogojih za vpis lastninske pravice na posameznih delih stavbe v zemljiško knjigo
