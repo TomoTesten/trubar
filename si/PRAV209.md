@@ -4,9 +4,9 @@ naziv: "Pravilnik o metodah za določanje kakovosti žit, ki so predmet interven
 vrsta: "pravilnik"
 datum: 2001-07-13
 sop: 2001-01-3065
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3065"
 ---
 

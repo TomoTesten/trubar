@@ -4,9 +4,9 @@ naziv: "Odlok o spremembah in dopolnitvah odloka o dodatnem premoženju, ki se p
 vrsta: "odlok"
 datum: 2001-05-10
 sop: 2001-01-2040
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2040"
 ---
 

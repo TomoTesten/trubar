@@ -4,9 +4,9 @@ naziv: "Navodilo o postopku odpiranja ponudb"
 vrsta: "navodilo"
 datum: 2001-10-29
 sop: 2001-01-4393
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4393"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o postavitvi generalnega konzula v Clevelandu"
 vrsta: "odlok"
 datum: 2001-05-11
 sop: 2001-01-2052
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2052"
 ---
 

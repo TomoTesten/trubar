@@ -4,9 +4,9 @@ naziv: "Odlok o postavitvi generalnega konzula Republike Slovenije v Podgorici"
 vrsta: "odlok"
 datum: 2001-05-18
 sop: 2001-01-2220
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2220"
 ---
 
