@@ -12,6 +12,10 @@ spremembe:
     datum: 1998-10-02
     sop: 1998-01-3181
     naziv: "Zakon o spremembah in dopolnitvah zakona o popotresni obnovi in spodbujanju razvoja v Posočju"
+  - kratica: ZPOOSRP-B
+    datum: 1999-12-30
+    sop: 1999-01-5163
+    naziv: "Zakon o dopolnitvi zakona o popotresni obnovi objektov in spodbujanju razvoja v Posočju"
 ---
 
 # Zakon o popotresni obnovi objektov in spodbujanju razvoja v Posočju
