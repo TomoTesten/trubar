@@ -4,9 +4,9 @@ naziv: "Razlaga kolektivne pogodbe gradbenih dejavnosti (KPGD)"
 vrsta: "akt"
 datum: 2001-11-09
 sop: 2001-01-4489
-organ: "Komisija za razlago kolektivne pogodbe gradbene dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4489"
 ---
 

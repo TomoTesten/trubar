@@ -4,9 +4,9 @@ naziv: "Navodilo o zaključku izvrševanja državnega in občinskih proračunov 
 vrsta: "navodilo"
 datum: 2001-11-02
 sop: 2001-01-4432
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4432"
 ---
 

@@ -1,13 +1,13 @@
 ---
-kratica: NAVO552
+kratica: NAVO550
 naziv: "Navodilo o postopku odpiranja ponudb"
 vrsta: "navodilo"
-datum: 2001-11-02
-sop: 2001-01-4431
+datum: 2001-10-29
+sop: 2001-01-4393
 organ: ""
 zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
-vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4431"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4393"
 ---
 
 # Navodilo o postopku odpiranja ponudb
@@ -34,7 +34,7 @@ Odpiranje ponudb se izvede na kraju in ob času, ki sta navedena v objavi javneg
 
 ### 3. člen
 
-Pristojne za odpiranje ponudb imenuje naročnik in se lahko imenujejo za vsak postopek odpiranja posebej.
+Pristojne za odpiranje ponudb imenujejo naročnik in se lahko imenujejo za vsak postopek odpiranja posebej.
 
 
 ### 4. člen
@@ -48,8 +48,8 @@ Pristojni za odpiranje ponudb in drugi, ki imajo dostop do podatkov v ponudbah, 
 Pristojni za odpiranje vodijo zapisnik o odpiranju ponudb po enotnem obrazcu, ki se smiselno uporablja glede na vrsto postopka.
 Ponudbe se odpirajo po vrstnem redu dospelosti.
 Iz ponudb je potrebno navesti naziv ponudnika ali šifro, če je bil razpis anonimen in ponudbeno ceno ter morebitne popuste, lahko pa se navedejo tudi drugi podatki iz ponudb (roki, reference in drugo), kot tudi ugotovitve o tem ali ponudbe vsebujejo vsa zahtevana dokazila o izpolnjevanju pogojev iz razpisne dokumentacije.
-Med odpiranjem se lahko označi vse dele ponudbe tako, da se prepreči možnost poznejše zamenjave (na primer preluknja in zveže, podpiše ali na drug način označi).
-Pred zaključkom postopka odpiranja ponudb lahko predstavniki ponudnikov, ki so predložili pooblastila, podajo morebitne pripombe, ki se nanašajo na postopek odpiranja ponudb. Pripombe se vpišejo v zapisnik o odpiranju ponudb.
+Med odpiranjem se lahko označi vse dele ponudbe tako, da se prepreči možnost kasnejše zamenjave (na primer preluknja in zveže, podpiše ali na drug način označi).
+Pred zaključkom postopka odpiranja ponudb lahko predstavniki ponudnikov, ki so predložili pooblastila podajo morebitne pripombe, ki se nanašajo na postopek odpiranja ponudb. Pripombe se vpiše v zapisnik o odpiranju ponudb.
 
 
 ### 6. člen
@@ -62,7 +62,7 @@ Zapisnik o odpiranju ponudb vsebuje:
 – imena drugih navzočih,
 – navedbo vrstnega reda odpiranja predloženih ponudb, glede na čas dospelosti,
 – zaporedno številko ponudbe,
-– naziv ali šifro ponudnika, če je bil razpis anonimen,
+– naziv ali šifra ponudnika, če je bil razpis anonimen,
 – cene iz posamezne ponudbe ter morebitne druge prebrane podatke,
 – navedbe pristojnih za odpiranje ponudb o pomanjkljivostih ponudb,
 – morebitne pripombe predstavnikov ponudnikov s pooblastili,
@@ -86,12 +86,9 @@ Z dnem, ko začne veljati to navodilo, preneha veljati navodilo o postopku odpir
 
 To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
 
-Št. 418-27/01-01
-
 Ljubljana, dne 18. oktobra 2001.
 
 mag. Anton Rop l. r.
-Minister
-za finance
+Minister za finance
 
 Enotni obrazec za vodenje zapisnika o odpiranju ponudb
