@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-03-11
     sop: 2002-01-0912
     naziv: "Zakon o spremembah in dopolnitvah zakona o zavarovalništvu"
+  - kratica: ZZavar-B
+    datum: 2004-05-06
+    sop: 2004-01-2292
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zavarovalništvu"
 ---
 
 # Zakon o zavarovalništvu
