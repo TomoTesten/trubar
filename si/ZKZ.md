@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-07-26
     sop: 2002-01-3230
     naziv: "Zakon o spremembah zakona o kmetijskih zemljiščih"
+  - kratica: ZKZ-B
+    datum: 2003-04-16
+    sop: 2003-01-1718
+    naziv: "Zakon o spremembah in dopolnitvah zakona o kmetijskih zemljiščih"
 ---
 
 # Zakon o kmetijskih zemljiščih
