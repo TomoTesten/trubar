@@ -7,6 +7,11 @@ sop: 1994-01-0233
 objava: "Uradni list RS 5/94  str. 233"
 kljucne_besede: ["zaplemba premoženja", "privatizacija", "kmetijska politika", "kmetijska skupnost"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0233"
+spremembe:
+  - kratica: ZPVAS-A
+    datum: 1994-06-30
+    sop: 1994-01-1521
+    naziv: "Zakon o spremembah zakona o ponovni vzpostavitvi agrarnih skupnosti ter vrnitvi njihovega premoženja in pravic"
 ---
 
 # Zakon o ponovni vzpostavitvi agrarnih skupnosti ter vrnitvi njihovega premoženja in pravic
