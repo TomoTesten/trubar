@@ -1,0 +1,48 @@
+---
+kratica: ODRE961
+naziv: "Odredba o sprejemu splošnega dela gozdnogospodarskega načrta gozdnogospodarske enote Luče"
+vrsta: "odredba"
+datum: 2000-04-21
+sop: 2000-01-1626
+organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1626"
+---
+
+# Odredba o sprejemu splošnega dela gozdnogospodarskega načrta gozdnogospodarske enote Luče
+
+Na podlagi sedmega odstavka 14. člena zakona o gozdovih (Uradni list RS, št. 30/93, 13/98 – odl. US) in 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95 – odl. US) izdaja minister za kmetijstvo, gozdarstvo in prehrano
+
+
+## ODREDBO
+o sprejemu splošnega dela gozdnogospodarskega načrta gozdnogospodarske enote Luče
+
+
+### 1. člen
+
+Sprejme se splošni del gozdnogospodarskega načrta gozdnogospodarske enote Luče, št. 10-03/96 z dne 22. 2. 2000, ki ga je izdelal Zavod za gozdove Slovenije, Območna enota Nazarje, za obdobje od 1. 1. 1996 do 31.12.2005.
+Cilji, usmeritve in ukrepi, ki so določeni v splošnem delu gozdnogospodarskega načrta gozdnogospodarske enote Luče na ravneh celotne gozdnogospodarske enote, gospodarskih razredov in odsekov, so sestavni del te odredbe.
+
+
+### 2. člen
+
+Splošni del gozdnogospodarskega načrta gozdnogospodarske enote Luče je izdelan v treh izvodih za 9333,32 hektarjev gozdov, ki ležijo v gozdnogospodarskem območju Nazarje, v občinah Luče in Gornji Grad, oziroma v katastrskih občinah Konjski vrh, Krnica, Raduha, Podveža, Luče, Podvolovjek, Tirosek in Solčava.
+
+
+### 3. člen
+
+Po en izvod splošnega dela gozdnogospodarskega načrta gozdnogospodarske enote Luče je na vpogled na sedežu Zavoda za gozdove Slovenije, Območne enote Ljubljana, Tržaška cesta 2, Ljubljana, na sedežu Zavoda za gozdove Slovenije, Krajevne enote Luče, Luče 80, in na Ministrstvu za kmetijstvo, gozdarstvo in prehrano Republike Slovenije, Ljubljana, Dunajska 58, kjer se hrani tudi dokumentacija v zvezi s postopkom sprejemanja splošnega dela gozdnogospodarskega načrta gozdnogospodarske enote Luče.
+
+
+### 4. člen
+
+Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 322-01-10/5-97
+
+Ljubljana, dne 14. marca 2000.
+
+Minister
+za kmetijstvo,
+gozdarstvo in prehrano
+Ciril Smrkolj l. r.
