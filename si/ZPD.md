@@ -24,6 +24,10 @@ spremembe:
     datum: 1998-01-17
     sop: 1998-01-0138
     naziv: "Zakon o spremembi zakona o prometnem davku"
+  - kratica: ZPD-F
+    datum: 1998-05-08
+    sop: 1998-01-1501
+    naziv: "Zakon o spremembah zakona o prometnem davku"
 ---
 
 # Zakon o prometnem davku
