@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-08-03
     sop: 2001-01-3472
     naziv: "Zakon o spremembah in dopolnitvah zakona o organizaciji in financiranju vzgoje in izobraževanja"
+  - kratica: ZOFVI-B
+    datum: 2002-12-12
+    sop: 2002-01-5313
+    naziv: "Zakon o spremembah in dopolnitvah zakona o organizaciji in financiranju vzgoje in izobraževanja"
 ---
 
 # Zakon o organizaciji in financiranju vzgoje in izobraževanja
