@@ -24,6 +24,10 @@ spremembe:
     datum: 1997-11-14
     sop: 1997-01-3373
     naziv: "Zakon o spremembah in dopolnitvah Zakona o lokalni samoupravi"
+  - kratica: ZLS-I
+    datum: 1998-02-12
+    sop: 1998-01-0437
+    naziv: "Zakon o spremembi zakona o lokalni samoupravi"
 ---
 
 # Zakon o lokalni samoupravi
