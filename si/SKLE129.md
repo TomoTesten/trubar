@@ -1,0 +1,50 @@
+---
+kratica: SKLE129
+naziv: "Sklep o določitvi višine povračil za nove priključitve in za povečanje obstoječih moči na nizki napetosti 0,4 kV in napetosti 1-35 kV"
+vrsta: "sklep"
+datum: 1997-01-31
+sop: 1997-01-0292
+organ: "Ministrstvo za gospodarske dejavnosti"
+zbirka: "Drugi splošni in posamični akti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0292"
+---
+
+# Sklep o določitvi višine povračil za nove priključitve in za povečanje obstoječih moči na nizki napetosti 0,4 kV in napetosti 1-35 kV
+
+Na podlagi 19. člena zakona o energetskem gospodarstvu (Uradni list SRS, št. 33/81 in 29/86) in 18. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93 in 23/96) izdaja minister za gospodarske dejavnosti
+
+
+## S K L E P
+o določitvi višine povračil za nove priključitve  in za povečanje obstoječih moči na nizki napetosti 0,4 kV in napetosti 1-35 kV
+
+
+### I
+
+Višina specifičnega stroška “a” (SIT/kV na napetosti 0,4 kV po 15. členu meril in kriterijev o povračilih za nove priključitve in za povečanje obstoječih priključnih moči uporabnikov na nizki napetosti 0,4 kV in na napetosti 1-35 kV (Uradni list SRS, št. 2/82, 1/83, 1/84, 27/85, 50/86, 45/87 in 3/88) znaša za
+
+– gospodinjski odjem                               21.094 SIT/kW
+– ostali odjem na 0,4 kV                           30.467 SIT/kW
+
+
+### II
+
+Višina specifičnega stroška “b” (SIT kW) za uporabnike na napetosti 1-35 kW po 25. členu meril in kriterijev iz prejšnje točke znaša 46.794 SIT/kW.
+
+
+### III
+
+Z dnem uveljavitve tega sklepa preneha veljati sklep o določitvi višine povračil za nove priključitve in za povečanje obstoječih moči na nizki napetosti 0,4 kV in napetosti 1-35 kV (Uradni list RS, št. 19/95).
+
+
+### IV
+
+Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 420-2/96
+
+Ljubljana, dne 22. januarja 1997.
+
+Minister
+za gospodarske dejavnosti
+Metod Dragonja l. r.
