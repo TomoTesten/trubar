@@ -7,6 +7,11 @@ sop: 1996-01-2704
 objava: "Uradni list RS 44/96  str. 3802"
 kljucne_besede: ["privatizacija", "igra na srečo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2704"
+spremembe:
+  - kratica: ZLPLS-A
+    datum: 1997-08-01
+    sop: 1997-01-2506
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lastninskem preoblikovanju Loterije Slovenije"
 ---
 
 # Zakon o lastninskem preoblikovanju Loterije Slovenije
