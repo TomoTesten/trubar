@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi davčnih uradov davčne uprave Republike Slovenije i
 vrsta: "uredba"
 datum: 1996-05-10
 sop: 1996-01-1495
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1495"
 ---
 

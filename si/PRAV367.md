@@ -4,9 +4,9 @@ naziv: "Pravilnik o preventivnih ukrepih za zagotavljanje neoporečnega pregleda
 vrsta: "pravilnik"
 datum: 1996-04-12
 sop: 1996-01-1146
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1146"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba, da je člen 18 stanovanjskega zakona v neskladju z ustavo in s
 vrsta: "akt"
 datum: 1996-05-10
 sop: 1996-01-1467
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1467"
 ---
 

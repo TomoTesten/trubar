@@ -4,9 +4,9 @@ naziv: "Odločba o odpravi besedila na koncu prve alinee 9. člena uredbe o prip
 vrsta: "akt"
 datum: 1996-05-10
 sop: 1996-01-1466
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1466"
 ---
 

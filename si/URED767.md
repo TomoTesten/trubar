@@ -4,8 +4,9 @@ naziv: "Uredba o spremembi in dopolnitvi uredbe o določitvi blaga, za katerega 
 vrsta: "uredba"
 datum: 1996-04-19
 sop: 1996-01-1309
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1309"
 ---
 
