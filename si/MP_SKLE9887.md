@@ -1,0 +1,43 @@
+---
+kratica: MP_SKLE9887
+naziv: "Sklep o javni razgrnitvi osnutka lokacijskega načrta Severne obvoznice Novega mesta (SKLE)"
+vrsta: "občinski sklep"
+datum: 1995-05-12
+sop: 1995-01-1225
+organ: "Mestna občina Novo mesto"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1225"
+---
+
+# Sklep o javni razgrnitvi osnutka lokacijskega načrta Severne obvoznice Novega mesta (SKLE)
+
+Na podlagi 10. in 37. člena statuta Mestne občine Novo mesto (Uradni list RS, št. 13/95) in 37. člena zakona o urejanju naselij in drugih posegov v prostor (Uradni list SRS, št. 18/84, 37/85, 29/86 in 26/90 ter Uradni list RS, št. 18/93 in 47/93) je župan Mestne občine Novo mesto dne 4. 5. 1995 sprejel
+
+
+## S K L E P
+o javni razgrnitvi osnutka lokacijskega načrta severne obvoznice Novega mesta
+
+
+### 1. člen
+
+Javno se razgrne osnutek lokacijskega načrta severne obvoznice Novega mesta kot dopolnitev prostorskih sestavin družbenega plana občine Novo mesto za obdobje od leta 1986 do leta 1990 (Skupščinski Dolenjski list št. 24/86, 18/88, 6/89, 15/90, 9/91 in 12/91 ter Uradni list RS, št. 7/92, 23/92, 28/92, 35/92, 50/92, 1/93, 28/93, 32/93 in 69/93).
+
+
+### 2. člen
+
+Osnutek lokacijskega načrta iz 1. člena tega sklepa bo razgrnjen v prostorih Mestne občine Novo mesto, Seidlova cesta 1, I. nadstropje, vsak delovni dan od 7. do 15. ure oziroma v sredo do 17. ure, 30 dni od objave sklepa v Uradnem listu Republike Slovenije.
+V času javne razgrnitve bo organizirana tudi javna obravnava osnutka. Obvestilo o času in kraju obravnave bo objavljeno v Dolenjskem listu.
+
+
+### 3. člen
+
+Podjetja in druge organizacije, organi, društva in občani lahko podajo pisne pripombe, mnenja in predloge na kraju razgrnitve ali pa jih pošljejo Sekretariatu za varstvo okolja in urejanje prostora – Zavodu za družbeno planiranje in urbanistično načrtovanje, Mestna občina Novo mesto, Seidlova cesta 1.
+
+Št. 352-01-2/95-19
+
+Novo mesto, dne 4. maja 1995.
+
+Župan
+Mestne občine Novo mesto
+Franci Koncilija l. r.
