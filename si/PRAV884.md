@@ -4,9 +4,9 @@ naziv: "Pravilnik o merilih za določanje zahtevnih objektov po zakonu o graditv
 vrsta: "pravilnik"
 datum: 1998-05-08
 sop: 1998-01-1517
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1517"
 ---
 

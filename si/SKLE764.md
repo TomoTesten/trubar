@@ -4,9 +4,9 @@ naziv: "Sklep o deveti izdaji blagajniškega zapisa Banke Slovenije z nakupnim b
 vrsta: "sklep"
 datum: 1998-05-15
 sop: 1998-01-1647
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1647"
 ---
 

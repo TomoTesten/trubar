@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve kolektivne pogodbe dejavnosti bank in hranilnic 
 vrsta: "akt"
 datum: 1998-05-14
 sop: 1998-01-1593
-organ: "Združenje bank Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1593"
 ---
 

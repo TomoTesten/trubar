@@ -4,9 +4,9 @@ naziv: "Poročilo o izidu referendumov za ustanovitev občin in za določitev oz
 vrsta: "drugi akt"
 datum: 1998-05-14
 sop: 1998-01-1592
-organ: "Republiška volilna komisija"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1592"
 ---
 
