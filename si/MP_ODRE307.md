@@ -1,0 +1,165 @@
+---
+kratica: MP_ODRE307
+naziv: "Odredba o pristojbinah za veterinarsko-sanitarne preglede živali in živil živalskega izvora, za izdajo dovoljenja za prodajo mleka, plačevanje dela stroškov veterinarsko-higienske službe in plačevanje dejavnosti diagnostike kužnih bolezni izven rednega delovnega časa v občini Sevnica (ODRE)"
+vrsta: "akt"
+datum: 1991-12-20
+sop: 1991-01-1299
+organ: "Občina Sevnica"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1299"
+---
+
+# Odredba o pristojbinah za veterinarsko-sanitarne preglede živali in živil živalskega izvora, za izdajo dovoljenja za prodajo mleka, plačevanje dela stroškov veterinarsko-higienske službe in plačevanje dejavnosti diagnostike kužnih bolezni izven rednega delovnega časa v občini Sevnica (ODRE)
+
+Na podlagi 29. in 30. člena zakona o zdravstvenem varstvu živali (Uradni list SRS, št. 37/85), 4., 5., 6., 7. in 8. člena odloka o pristojbinah za zdravstvena spričevala in potrdila ter o kriterijih in merilih za določitev pristojbin za veterinarsko-sanitarne preglede in dovoljenja (Uradni list SRS, št. 6/78, 25/80, 8/82, 41/83) in 202. člena statuta občine Sevnica je Izvršni svet Skupščine občine Sevnica na seji dne 10. 12. 1991 sprejel
+
+
+## ODREDBO
+o pristojbinah za veterinarsko-sanitarne preglede živali in živil živalskega izvora, za izdajo dovoljenja za. prodajo mleka, plačevanje dela stroškov veterinarsko-higienske službe in plačevanje dejavnosti diagnostike kužnih bolezni izven rednega delovnega časa v občini Sevnica
+
+
+### 1. člen
+
+S to odredbo se določa višina pristojbin:
+1. za veterinarsko-sanitarne preglede,
+2. za izdajo dovoljenja za promet z mlekom,
+3. način in višina zbiranja sredstev za delno pokrivanje stroškov neškodljivega odstranjevanja trupel in odpadkov živalskega izvora,
+4. višina pristojbin za opravljanje diagnostike kužnih bolezni izven rednega delovnega časa.
+Osnova za določitev višine pristojbin je izražena s točkami. K pristojbinam se prišteje še 15% kot obvezni prispevek za zdravstveno varstvo živali.
+
+
+### 2. člen
+
+Za obvezne veterinarsko-sanitarne preglede pošiljk živali in živalskih proizvodov, živalskih surovih in živalskih odpadkov, ki se nakladajo, razkladajo, prekladajo in nato odpravljajo ali gonijo prek državne meje ali iz območja občine, se plača naslednja pristojbina:
+
+a) za pregled vagonske ali kamionske pošiljke do 10 ton
+                                                                     točk
+- za izvoz                                                         207,00
+- za notranji promet                                               182,00
+- za pregled vsake nadaljnje tone
+- za izvoz                                                          21,00
+- za notranji promet                                                18,00
+b) za kosovne pošiljke
+- kopitarjev, odraslih govedi in jelenov (od glave)                 23,00
+- telet, prašičev, sr. divjadi in drobnice (od glave)               16,00
+- odojkov, psov (od glave)                                           8,00
+- za vsako čebeljo družino                                           3,00
+- za vsak kos perutnine                                              0,40
+c) za meso kopitarjev in parkljarjev od kg
+- za vsak kg mesa, drobovine ali mesnega izdelka                     0,10
+- od jajc/kos                                                        0,05
+- od svežih ali zmrznjenih rib/kg                                    0,05
+- od sirov/kg                                                        0,05
+
+Pregled je potrebno prijaviti veterinarski inšpekciji oziroma pooblaščeni veterinarski organizaciji najmanj 12 ur pred nakladanjem, prekladanjem in razkladanjem. Če prijavljena pošiljka ni pravočasno pripravljena za pregled ali ne pride ob določenem času na mesto nakladanja, razkladanja, prekladanja mora tisti, ki je zastonj povzročil plačati zamudnino v protivrednosti 175,00 točk za vsako začeto uro čakanja.
+Lastnik, pošiljatelj ali prejemnik lahko zahteva povrnitev škode, ki bi nastala, če delavec veterinarske inšpekcije ali pooblaščene veterinarske organizacije po tem, ko je dobil pravočasno obvestilo, brez opravičila ni opravil pregleda v dogovorjenem roku.
+Za pregled izven rednega delovnega časa se pristojbine povečajo za 50%. Materialni stroški, to so stroški prevoza in dnevnic, niso všteti v pristojbine in se obračunajo posebej.
+
+
+### 3. člen
+
+Za veterinarsko sanitarne preglede jajc zasebnega in družbenega sektorja, ki se prodajajo strankam v gospodinjstvih ali na tržnici, se plača pristojbina v višini 0,06 točk po kosu.
+
+
+### 4. člen
+
+Za veterinarsko sanitarne preglede mesa živali, zaklanih za gostinsko uporabo in pregled divjadi za javno potrošnjo se plača naslednja pristojbina:
+
+točk
+– tele/kom                                                             79,00
+– prašiče in medvede s trihinoskopskim pregledom/kom                  165,00
+– srednjo, veliko divjad/kom                                           79,00
+– odojke in jagnjeta/kom                                               43,00
+– meso v sili zaklane živali z odvzemom vzorca za bakt. preglede
+brez stroškov b.p./rež. ura                                           182,00
+– perutnino/rež. ura                                                  182,00
+
+
+### 5. člen
+
+Za izdajo dovoljenja za promet z mlekom in mlečnimi izdelki v javni potrošnji oziroma za podaljšanje veljavnosti dovoljenja plača proizvajalec mleka oziroma prodajalec mleka pristojbino v višini 60,00 točk za vsako kravo molznico. V tej vsoti je zajet tudi del pristojbine za neškodljivo odstranjevanje živalskih trupel na osnovi 12,00 točk in del stroškov nepretrgane diagnostike kužnih bolezni izven rednega delovnega časa v višini 7,00 točk. Pristojbino obračunava in pobira organizator odkupa mleka ob plačilu mleka.
+Posestnik, ki ne oddaja mleka v zbiralnico ali mlekarno, pač pa ga daje na drug način v javno potrošnjo, plača poleg te pristojbine še stroške obveznega pregleda molznic na tuberklozo in brucelozo.
+
+
+### 6. člen
+
+Za veterinarsko sanitarni pregled mesa klavnih živali v klavnici ali zbiralnici mleka se plača pristojbina 157,00 točk za vsako uro nadzora pooblaščenega veterinarja.
+V tej vsoti niso zajeti stroški zakonsko obveznih kontrolnih pregledov vzorcev, kakor tudi materialni stroški prevozov. Sestavni del veterinarsko-sanitarnega pregleda klavnih živali je tudi pregled pri razkladanju živali, surovin in odprema živil ter odpadkov v klavnici. Zaradi tega se v klavnih obratih ne plača pristojbina iz 2. člena te odredbe.
+
+
+### 7. člen
+
+Za stalen nadzor živine na dogonih in na sejmih se plača pristojbina 182,00 točk na uro, ki jo pobere pri nadzoru pristojni veterinar. Če se pri nadzoru zaračunajo pristojbine za preglede kosovnih ali kamionskih pošiljk, se zaračuna urna postavka za znesek, ki je zmanjšan za pobrano pristojbino.
+
+
+### 8. člen
+
+Pristojbina za veterinarsko-sanitarne preglede se lahko plačuje tudi v letnem pavšalu, ki ga na podlagi pogodbe sporazumno določita in medsebojno obračunata pooblaščena veterinarska organizacija in organizacija, za katero se pregledi opravijo. Letni pavšali se mesečno akontirajo v višini 1/12.
+
+
+### 9. člen
+
+Del stroškov neškodljivega odstranjevanja živalskih trupel in odpadkov živalskega izvora plačujejo delovne organizacije in druge organizacije ter posamezniki, ki se ukvarjajo z varstvom in gojitvijo živali. Pristojbine za vsako žival se obračuna na osnovi naslednjega števila točk:
+
+točka
+- za goveda in konje                                    13,00
+- za žrebeta in teleta                                   9,00
+- za prašiče nad 50 kg                                   6,00
+- za prašiče do 50%                                      2,50
+- za odstreljeno in prodano parkljasto divjad           13,00
+- za pse                                                13,00
+za spremembo kategorije živali
+- za goveda in konje                                    13,00
+- za prašiče                                             6,00
+
+
+### 10. člen
+
+Za pokritje dela stroškov zagotavljanja nepretrgane veterinarske diagnostike izven rednega časa, plačujejo delovne organizacije in druge organizacije ter posamezniki pristojbino v višini 7,00 točk.
+Ta pristojbina je sestavni del pristojbine iz 2., 3., 4., 5., 6. in 7. člena te odredbe.
+Sredstva, zbrana za ta namen, se zbirajo na računu pooblaščene veterinarske organizacije, ki mora voditi evidenco namenske porabe teh sredstev in o temu obveščati pristojni izvršni svet občinskih skupščin vsaj dvakrat letno.
+
+
+### 11. člen
+
+Posestniki živali poravnajo svoje obveznosti po tej odredbi:
+– pri izdaji zdravstvenega spričevala živali,
+– pri prvem vsakoletnem cepljenju in registraciji psov proti steklini
+– lovske družine pri prodaji divjadi,
+– pred izdajo dovoljenja za promet z mlekom. Pristojbine obračunavajo:
+1. občinski ali od njega pooblaščen organ za izdajo zdravstvenih spričeval za živali; iz 2. člena te odredbe,
+2. zavod oziroma organizacija, ki je na območju občine pooblaščena za izvajanje obveznega cepljenja psov proti steklini in registraciji psov,
+3. lovske družine na območju občine za uplenjeno in prodano divjad,
+4. organizator odkupa mleka.
+
+
+### 12. člen
+
+Sredstva po tej odredbi se zbirajo v proračun občine Sevnica na računu za zdravstveno varstvo živali občine Sevnica in se na osnovi izstavljenih računov nakazujejo na ZR pooblaščenega veterinarskega zavoda.
+Pri nakazilu pristojbin iz 9. člena odredbe se pri namenu obvezno navede namen za službo VHS.
+Pooblaščeni zavod oziroma organizacija, ki opravlja veterinarsko-higiensko službo, je dolžna vsako leto ob zaključnem računu pripraviti poročilo o realizaciji svojega programa dela, predvsem o tistem delu, ki se financira s sredstvi, zbranimi po tej odredbi, in ga predložiti v obravnavo Izvršnemu svetu občine. Do 30. novembra pa mora predložiti izvršnemu svetu tudi program dela in finančni načrt službe za naslednje leto.
+
+
+### 13. člen
+
+Vrednost točke za izračunano pristojbino znaša 2,90 SLT neto. K tej vrednosti pa se priračuna še 15% pribitek za posebni račun.
+
+
+### 14. člen
+
+Z dnem, ko začne veljati ta odredba, preneha veljati odredba o spremembah odredbe o pristojbinah za veterinarsko-sanitarne preglede in za dovoljenja za prodajo mleka.
+
+
+### 15. člen
+
+Ta odredba začne veljati z dnem objave v Uradnem listu RS.
+
+Št. 385-24/91-I
+
+Sevnica, dne 10. decembra 1991.
+
+Predsednik
+Izvršnega sveta
+Skupščine občine Sevnica
+Marjan Kurnik, ek. l. r.
