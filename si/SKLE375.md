@@ -4,9 +4,9 @@ naziv: "Sklep o javnem pozivu sodnikom za prekrške k vložitvi kandidatur za pr
 vrsta: "sklep"
 datum: 1999-10-22
 sop: 1999-01-4132
-organ: "Svet sodnikov za prekrške"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4132"
 ---
 

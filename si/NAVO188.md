@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu vpisovanja podatkov, potrebnih za spremljanje izvrše
 vrsta: "navodilo"
 datum: 1999-10-22
 sop: 1999-01-4123
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4123"
 ---
 

@@ -2,11 +2,11 @@
 kratica: DRUG317
 naziv: "Pravila fundacije za financiranje invalidskih in humanitarnih organizacij v Republiki Sloveniji"
 vrsta: "drugi akt"
-datum: 1999-02-13
+datum: 1999-11-04
 sop: 1999-01-0415
-organ: "Fundacija za financiranje invalidskih in humanitarnih organizacij v Republiki Sloveniji"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0415"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Dodatek iz 10. člena zakona o minimalni plači, o načinu usklajevanja 
 vrsta: "drugi akt"
 datum: 1999-10-22
 sop: 1999-01-4125
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4125"
 ---
 

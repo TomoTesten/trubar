@@ -4,9 +4,9 @@ naziv: "Odlok o potrditvi finančnega načrta Banke Slovenije za leto 1999 (OdFN
 vrsta: "odlok"
 datum: 1999-11-04
 sop: 1999-01-4266
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4266"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Aneks h kolektivni pogodbi dejavnosti bank in hranilnic v Republiki Slov
 vrsta: "akt"
 datum: 1999-10-22
 sop: 1999-01-4133
-organ: "Združenje bank Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4133"
 ---
 

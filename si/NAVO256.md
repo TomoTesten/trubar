@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila o obliki, vsebini in upora
 vrsta: "navodilo"
 datum: 1999-10-29
 sop: 1999-01-4217
-organ: "Agencija za plačilni promet"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4217"
 ---
 

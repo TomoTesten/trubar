@@ -4,9 +4,9 @@ naziv: "Odredba o izobraževalnem programu Redno obnavljanje in dopolnjevanje zn
 vrsta: "odredba"
 datum: 1999-10-29
 sop: 1999-01-4211
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4211"
 ---
 
