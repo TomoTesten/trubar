@@ -4,9 +4,9 @@ naziv: "Seznam zdravil, za katera je bilo od 19. 1. 1996 do 12. 4. 1996 izdano d
 vrsta: "drugi akt"
 datum: 1996-07-31
 sop: 1996-01-2618
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2618"
 ---
 

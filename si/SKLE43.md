@@ -4,9 +4,9 @@ naziv: "Sklep o razdelitvi javnega zavoda Slovenski gledališki in filmski muzej
 vrsta: "sklep"
 datum: 1996-08-19
 sop: 1996-01-2797
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2797"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah zakona o poroštvu Republike Slovenije
 vrsta: "akt"
 datum: 1996-07-31
 sop: 1996-01-2612
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2612"
 ---
 

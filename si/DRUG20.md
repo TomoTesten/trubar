@@ -4,9 +4,9 @@ naziv: "Odločba o: - razveljavitvi 1. člena zakona o prevzemu državnih funkci
 vrsta: "drugi akt"
 datum: 1996-08-09
 sop: 1996-01-2776
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2776"
 ---
 

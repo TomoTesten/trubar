@@ -4,9 +4,9 @@ naziv: "Odlok o preoblikovanju javnega podjetja Agencija za radioaktivne odpadke
 vrsta: "odlok"
 datum: 1996-08-19
 sop: 1996-01-2796
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2796"
 ---
 
