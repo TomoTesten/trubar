@@ -4,8 +4,9 @@ naziv: "Uredba o posebnih varstvenih območjih (območjih Natura 2000)"
 vrsta: "uredba"
 datum: 2004-04-30
 sop: 2004-01-2277
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2277"
 ---
 

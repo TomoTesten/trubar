@@ -4,9 +4,9 @@ naziv: "Navodilo za izvajanje sklepa o najmanjšem obsegu likvidnosti, ki jo mor
 vrsta: "navodilo"
 datum: 2004-04-23
 sop: 2004-01-1896
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1896"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o vsebini in formatu vizuma"
 vrsta: "navodilo"
 datum: 2004-04-26
 sop: 2004-01-1932
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1932"
 ---
 

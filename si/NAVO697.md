@@ -4,9 +4,9 @@ naziv: "Navodilo za izpolnjevanje poročila o tokovih tolarske likvidnosti bank"
 vrsta: "navodilo"
 datum: 2004-04-26
 sop: 2004-01-1944
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1944"
 ---
 
