@@ -4,9 +4,9 @@ naziv: "Odredba o obliki in vsebini obrazca zahtevka za izdajo dovoljenja za izv
 vrsta: "odredba"
 datum: 2000-06-01
 sop: 2000-01-2283
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2283"
 ---
 
