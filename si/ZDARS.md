@@ -7,6 +7,11 @@ sop: 1993-01-2092
 objava: "Uradni list RS 57/93  str. 2849"
 kljucne_besede: ["avtocesta", "ustanovitev družbe", "delniška družba", "javno podjetje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2092"
+spremembe:
+  - kratica: ZDARS-A
+    datum: 2003-12-18
+    sop: 2003-01-5390
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Družbi za avtoceste v Republiki Sloveniji"
 ---
 
 # Zakon o družbi za avtoceste v Republiki Sloveniji
