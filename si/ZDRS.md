@@ -7,6 +7,11 @@ sop: 1991-01-0008
 objava: "Uradni list RS 1/91  str. 6"
 kljucne_besede: ["državljanstvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0008"
+spremembe:
+  - kratica: ZDRS-A
+    datum: 1991-12-14
+    sop: 1991-01-1238
+    naziv: "Zakon o dopolnitvi zakona o državljanstvu Republike Slovenije"
 ---
 
 # Zakon o državljanstvu Republike Slovenije
