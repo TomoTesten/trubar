@@ -4,9 +4,9 @@ naziv: "Nacionalni program varstva pred naravnimi in drugimi nesrečami (NPVNDN)
 vrsta: "akt"
 datum: 2002-05-21
 sop: 2002-01-2147
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2147"
 ---
 

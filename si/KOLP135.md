@@ -4,9 +4,9 @@ naziv: "Aneks št. 2 k tarifni prilogi k splošni kolektivni pogodbi za gospodar
 vrsta: "akt"
 datum: 2002-05-24
 sop: 2002-01-2233
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2233"
 ---
 

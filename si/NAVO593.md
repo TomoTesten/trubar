@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila centrom za socialno delo o
 vrsta: "navodilo"
 datum: 2002-05-31
 sop: 2002-01-2336
-organ: "Ministrstvo za šolstvo, znanost in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2336"
 ---
 

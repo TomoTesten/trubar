@@ -4,9 +4,9 @@ naziv: "Tarifa o taksah in nadomestilih"
 vrsta: "akt"
 datum: 2002-05-24
 sop: 2002-01-2235
-organ: "Slovenski inštitut za revizijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2235"
 ---
 

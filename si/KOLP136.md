@@ -4,9 +4,9 @@ naziv: "Razlage določil kolektivne pogodbe delavcev gostinstva in turizma"
 vrsta: "akt"
 datum: 2002-05-24
 sop: 2002-01-2234
-organ: "Komisija za razlago kolektivne pogodbe dejavnosti gostinstva in turizma Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2234"
 ---
 
