@@ -16,6 +16,10 @@ spremembe:
     datum: 1994-12-30
     sop: 1994-01-2979
     naziv: "Zakon o spremembi zakona o gospodarskih družbah"
+  - kratica: ZGD-C
+    datum: 1998-03-13
+    sop: 1998-01-0816
+    naziv: "Zakon o spremembi zakona o gospodarskih družbah"
 ---
 
 # Zakon o gospodarskih družbah
