@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi odkupne cene sladkorne pese letine 1998"
 vrsta: "uredba"
 datum: 1998-10-23
 sop: 1998-01-3626
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3626"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba, da 7. člena zakona o spremembah in dopolnitvah zakona o poro�
 vrsta: "akt"
 datum: 1998-10-16
 sop: 1998-01-3459
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3459"
 ---
 

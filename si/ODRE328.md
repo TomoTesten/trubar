@@ -4,9 +4,9 @@ naziv: "Odredba o izobraževalnih programih za pridobitev nižje poklicne izobra
 vrsta: "odredba"
 datum: 1998-10-09
 sop: 1998-01-3375
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3375"
 ---
 

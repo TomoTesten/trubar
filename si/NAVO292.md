@@ -4,9 +4,9 @@ naziv: "Navodilo o obliki, vsebini in uporabi obrazcev za opravljanje plačilneg
 vrsta: "navodilo"
 datum: 1998-10-23
 sop: 1998-01-3580
-organ: "Agencija za plačilni promet"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3580"
 ---
 

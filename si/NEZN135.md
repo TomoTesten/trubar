@@ -4,9 +4,9 @@ naziv: "Soglasje k aktu o ustanovitvi Skavtske fundacije, ustanove Zveze taborni
 vrsta: "akt"
 datum: 1998-10-02
 sop: 1998-01-3245
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3245"
 ---
 

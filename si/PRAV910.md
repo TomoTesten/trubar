@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembah in dopolnitvah pravilnika o vrednotenju kakovosti
 vrsta: "pravilnik"
 datum: 1998-10-02
 sop: 1998-01-3244
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3244"
 ---
 
