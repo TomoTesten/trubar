@@ -7,6 +7,11 @@ sop: 2001-01-5060
 objava: "Uradni list RS 103/2001  str. 10663"
 kljucne_besede: ["državni proračun", "izvrševanje proračuna"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5060"
+spremembe:
+  - kratica: ZIPRS0203-A
+    datum: 2002-07-19
+    sop: 2002-01-3072
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izvrševanju proračuna Republike Slovenije za leto 2002 in 2003"
 ---
 
 # Zakon o izvrševanju proračuna Republike Slovenije za leto 2002 in 2003
