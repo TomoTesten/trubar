@@ -7,6 +7,11 @@ sop: 1991-01-0006
 objava: "Uradni list RS 1/91  str. 2"
 kljucne_besede: ["državna suverenost", "nacionalna neodvisnost", "ustava"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0006"
+spremembe:
+  - kratica: UZITUL-A
+    datum: 1994-07-27
+    sop: 1994-01-1734
+    naziv: "Ustavni zakon o dopolnitvah ustavnega zakona za izvedbo Temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije"
 ---
 
 # Ustavni zakon za izvedbo temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije
