@@ -7,6 +7,11 @@ sop: 1994-01-0727
 objava: "Uradni list RS 18/94  str. 1014"
 kljucne_besede: ["plača", "državni organi", "javna uprava", "lokalna uprava"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0727"
+spremembe:
+  - kratica: ZRPJZ-A
+    datum: 1996-07-12
+    sop: 1996-01-2347
+    naziv: "Zakon o spremembi zakona o razmerjih plač v javnih zavodih, državnih organih in v organih lokalnih skupnosti"
 ---
 
 # Zakon o razmerjih plač v javnih zavodih, državnih organih in v organih lokalnih skupnosti
