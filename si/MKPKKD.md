@@ -7,6 +7,11 @@ sop: 1997-02-0043
 objava: "Uradni list RS MP 11/97  str. 638"
 kljucne_besede: ["mednarodna konvencija", "kaznivo dejanje", "zaplemba premoženja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-02-0043"
+spremembe:
+  - kratica: MKPKKD-A
+    datum: 1998-04-18
+    sop: 1998-02-0020
+    naziv: "Zakon o spremembi zakona o ratifikaciji Konvencije o pranju, odkrivanju, zasegu in zaplembi premoženjske koristi, pridobljene s kaznivim dejanjem"
 ---
 
 # Zakon o ratifikaciji Konvencije o pranju, odkrivanju, zasegu in zaplembi premoženjske koristi, pridobljene s kaznivim dejanjem
