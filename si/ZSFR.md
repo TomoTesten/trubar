@@ -7,6 +7,11 @@ sop: 1994-01-2681
 objava: "Uradni list RS 75/94  str. 4262"
 kljucne_besede: ["jedrska elektrarna", "radioaktivni odpadki", "radioaktivno onesnaževanje", "sklad"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2681"
+spremembe:
+  - kratica: ZSFR-A
+    datum: 2003-03-07
+    sop: 2003-01-0901
+    naziv: "Zakon o spremembah zakona o Skladu za financiranje razgradnje Nuklearne elektrarne Krško in odlaganju radioaktivnih odpadkov iz Nuklearne elektrarne Krško"
 ---
 
 # Zakon o skladu za financiranje razgradnje Nuklearne elektrarne Krško in odlaganja radioaktivnih odpadkov iz Nuklearne elektrarne Krško
