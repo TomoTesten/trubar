@@ -7,6 +7,11 @@ sop: 1992-01-0632
 objava: "Uradni list RS 12/92  str. 741"
 kljucne_besede: ["invalidsko zavarovanje", "sistem pokojninskega zavarovanja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0632"
+spremembe:
+  - kratica: ZPIZ-A
+    datum: 1994-02-04
+    sop: 1994-01-0232
+    naziv: "Zakon o spremembah zakona o pokojninskem in invalidskem zavarovanju"
 ---
 
 # Zakon o pokojninskem in invalidskem zavarovanju
