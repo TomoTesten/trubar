@@ -16,6 +16,10 @@ spremembe:
     datum: 1998-03-27
     sop: 1998-01-1046
     naziv: "Zakon o spremembi in dopolnitvi zakona o sodniški službi"
+  - kratica: ZSS-C
+    datum: 2001-06-13
+    sop: 2001-01-2641
+    naziv: "Zakon o spremembi zakona o sodniški službi"
 ---
 
 # Zakon o sodniški službi
