@@ -20,6 +20,10 @@ spremembe:
     datum: 2000-12-22
     sop: 2000-01-5010
     naziv: "Zakon o spremembah in dopolnitvah zakona o Vladi Republike Slovenije"
+  - kratica: ZVRS-D
+    datum: 2004-11-18
+    sop: 2004-01-5120
+    naziv: "Zakon o spremembah in dopolnitvah zakona o vladi"
 ---
 
 # Zakon o Vladi Republike Slovenije
