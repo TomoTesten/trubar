@@ -2,11 +2,11 @@
 kratica: MP_STAT1692
 naziv: "Spremembe in dopolnitve Statuta Občine Gornji Grad (STAT)"
 vrsta: "akt"
-datum: 2026-01-04
+datum: 2002-11-08
 sop: 2002-98-0032
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Gornji Grad"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-98-0032"
 ---
 
