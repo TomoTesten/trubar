@@ -4,9 +4,9 @@ naziv: "Odlok o razglasitvi ustavnega zakona za izvedbo ustave Republike Sloveni
 vrsta: "odlok"
 datum: 1991-12-28
 sop: 1991-01-1410
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1410"
 ---
 

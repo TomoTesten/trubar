@@ -4,9 +4,9 @@ naziv: "Odlok o spremembah in dopolnitvah odloka o načinu oblikovanja cen svež
 vrsta: "odlok"
 datum: 1992-01-17
 sop: 1992-01-0150
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0150"
 ---
 

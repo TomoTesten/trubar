@@ -4,8 +4,9 @@ naziv: "Navodilo za poslovanje v zvezi z zahtevami za denacionalizacijo"
 vrsta: "navodilo"
 datum: 1991-12-24
 sop: 1991-01-1337
-organ: "Ministrstvo za pravosodje"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1337"
 ---
 

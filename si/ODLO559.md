@@ -4,9 +4,9 @@ naziv: "Odlok o kontnem planu bank in drugih finančnih organizacij"
 vrsta: "odlok"
 datum: 1991-12-28
 sop: 1991-01-1432
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1432"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah zakona o dohodnini (ZDoh-)"
 vrsta: "akt"
 datum: 1991-12-31
 sop: 1991-01-1447
-organ: "SKUPŠČINA RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1447"
 ---
 

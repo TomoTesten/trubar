@@ -4,9 +4,9 @@ naziv: "Zakon o začasnem financiranju potreb iz republiškega proračuna v prve
 vrsta: "akt"
 datum: 1991-12-31
 sop: 1991-01-1449
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1449"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odlok o upravljanju gozdov v družbeni lastnini, za katere zakon o denac
 vrsta: "odlok"
 datum: 1991-12-28
 sop: 1991-01-1419
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1419"
 ---
 
