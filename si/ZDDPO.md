@@ -7,6 +7,11 @@ sop: 1993-01-2631
 objava: "Uradni list RS 72/93  str. 3781"
 kljucne_besede: ["davek na dobiček pravnih oseb"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2631"
+spremembe:
+  - kratica: ZDDPO-A
+    datum: 1995-04-07
+    sop: 1995-01-0885
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davku od dobička pravnih oseb"
 ---
 
 # Zakon o davku od dobička pravnih oseb
