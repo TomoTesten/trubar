@@ -4,8 +4,9 @@ naziv: "Navodila za uvrščanje blaga v kombinirano nomenklaturo"
 vrsta: "navodilo"
 datum: 2003-06-26
 sop: 2003-01-2998
-organ: "Ministrstvo za gospodarstvo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2998"
 ---
 

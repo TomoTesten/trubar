@@ -4,9 +4,9 @@ naziv: "Pravilnik o varnosti igrač"
 vrsta: "drugi akt"
 datum: 2003-06-27
 sop: 2003-01-3047
-organ: "Ministrstvo za zdravje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3047"
 ---
 

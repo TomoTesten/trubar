@@ -4,9 +4,9 @@ naziv: "Metodološko navodilo o posredovanju podatkov iz podatkovne baze letnih 
 vrsta: "navodilo"
 datum: 2003-06-27
 sop: 2003-01-3053
-organ: "Agencija Republike Slovenije za javnopravne evidence in storitve"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3053"
 ---
 
