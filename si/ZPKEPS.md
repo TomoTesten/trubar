@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-05-15
     sop: 2002-01-2004
     naziv: "Zakon o spremembah zakona o pogojih koncesije za izkoriščanje energetskega potenciala Spodnje Save"
+  - kratica: ZPKEPS-B
+    datum: 2003-12-08
+    sop: 2003-01-5212
+    naziv: "Zakon o spremembi in dopolnitvah zakona o pogojih koncesije za izkoriščanje energetskega potenciala spodnje Save"
 ---
 
 # Zakon o pogojih koncesije za izkoriščanje energetskega potenciala spodnje Save
