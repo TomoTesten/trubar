@@ -4,9 +4,9 @@ naziv: "Navodilo o dopolnitvah navodila o ukrepih za ugotavljanje, preprečevanj
 vrsta: "navodilo"
 datum: 2000-09-22
 sop: 2000-01-3778
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3778"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Seznam standardov katerih uporaba ustvarja domnevo o skladnosti s pravil
 vrsta: "drugi akt"
 datum: 2000-09-20
 sop: 2000-01-3752
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3752"
 ---
 

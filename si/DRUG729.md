@@ -4,9 +4,9 @@ naziv: "Spremembe pravil kviz loterije \"Olimpijska srečka\""
 vrsta: "drugi akt"
 datum: 2000-09-21
 sop: 2000-01-3759
-organ: "Urad RS za nadzor prirejanja iger na srečo (MF)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3759"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Spremembe pravil Kviz loterije \"Dobim podarim\""
 vrsta: "drugi akt"
 datum: 2000-09-29
 sop: 2000-01-3854
-organ: "Ministrstvo za malo gospodarstvo in turizem"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3854"
 ---
 
