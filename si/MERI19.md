@@ -4,9 +4,9 @@ naziv: "Merila in postopki za ocenjevanje študijskih programov in visokošolski
 vrsta: "akt"
 datum: 2002-12-19
 sop: 2002-01-5423
-organ: "Svet za visoko šolstvo RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5423"
 ---
 

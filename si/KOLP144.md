@@ -4,9 +4,9 @@ naziv: "Razlaga o uporabi splošne kolektivne pogodbe za gospodarske dejavnosti 
 vrsta: "akt"
 datum: 2002-12-23
 sop: 2002-01-5569
-organ: "Komisija za razlago splošne kolektivne pogodbe za gospodarske dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5569"
 ---
 
