@@ -12,6 +12,10 @@ spremembe:
     datum: 1994-11-05
     sop: 1994-01-2508
     naziv: "Zakon o spremembah in dopolnitvah zakona o ustanovitvi občin ter o določitvi njihovih območij"
+  - kratica: ZUODNO-B
+    datum: 1998-08-07
+    sop: 1998-01-2520
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ustanovitvi občin ter o določitvi njihovih območij"
 ---
 
 # Zakon o ustanovitvi občin ter o določitvi njihovih območij
