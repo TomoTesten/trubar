@@ -7,6 +7,11 @@ sop: 1996-01-0382
 objava: "Uradni list RS 8/96  str. 618"
 kljucne_besede: ["Svetovna banka", "poroštvo", "kredit", "kreditna garancija", "namakanje", "upravljanje z vodami v kmetijstvu"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0382"
+spremembe:
+  - kratica: ZNPMBP-A
+    datum: 1996-07-19
+    sop: 1996-01-2450
+    naziv: "Zakon o spremembah in dopolnitvah zakona o najetju posojila pri Mednarodni banki za obnovo in razvoj za pripravo projektov za realizacijo strategije namakanja"
 ---
 
 # Zakon o najetju posojila pri Mednarodni banki za obnovo in razvoj za pripravo projektov za realizacijo strategije namakanja
