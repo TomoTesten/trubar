@@ -7,6 +7,11 @@ sop: 1999-01-1115
 objava: "Uradni list RS 23/99  str. 2707"
 kljucne_besede: ["tajna služba", "varstvo podatkov"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1115"
+spremembe:
+  - kratica: ZSOVA-A
+    datum: 2003-12-18
+    sop: 2003-01-5382
+    naziv: "Zakon o spremembah in dopolnitvah zakona o slovenski obveščevalno-varnostni agenciji"
 ---
 
 # Zakon o Slovenski obveščevalno-varnostni agenciji
