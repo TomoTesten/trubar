@@ -4,9 +4,9 @@ naziv: "Dopolnitev seznama zdravil skupine A in B, za katera je bilo od 13. 3. 1
 vrsta: "drugi akt"
 datum: 1999-07-29
 sop: 1999-01-2885
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2885"
 ---
 

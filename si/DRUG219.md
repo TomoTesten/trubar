@@ -4,9 +4,9 @@ naziv: "Razpis volitev sodnikov porotnikov delovnih in socialnih sodišč"
 vrsta: "drugi akt"
 datum: 1999-08-06
 sop: 1999-01-3015
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3015"
 ---
 

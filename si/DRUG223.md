@@ -4,9 +4,9 @@ naziv: "Soglasje k aktu o ustanovitvi Ustanove - fundacije za razvoj Splošne bo
 vrsta: "drugi akt"
 datum: 1999-08-06
 sop: 1999-01-3038
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3038"
 ---
 

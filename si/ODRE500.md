@@ -4,9 +4,9 @@ naziv: "Odredba o dostavi podatkov za odmero dohodnine za leto 1999"
 vrsta: "odredba"
 datum: 1999-07-23
 sop: 1999-01-2799
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2799"
 ---
 

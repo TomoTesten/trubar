@@ -4,9 +4,9 @@ naziv: "Koeficienti rasti cen v Republiki Sloveniji, junij 1999"
 vrsta: "drugi akt"
 datum: 1999-07-16
 sop: 1999-01-2728
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2728"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o homologiranju odsevnikov za cestna motorna vozila in njihove p
 vrsta: "odredba"
 datum: 1999-08-05
 sop: 1999-01-2970
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2970"
 ---
 
