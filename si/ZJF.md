@@ -7,6 +7,11 @@ sop: 1999-01-3758
 objava: "Uradni list RS 79/99  str. 12394"
 kljucne_besede: ["javne finance"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3758"
+spremembe:
+  - kratica: ZJF-A
+    datum: 2000-12-29
+    sop: 2000-01-5204
+    naziv: "Zakon o dopolnitvi zakona o javnih financah"
 ---
 
 # Zakon o javnih financah
