@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi slovenskih poslovnofinančnih standardov za ocenjevan
 vrsta: "sklep"
 datum: 1998-01-30
 sop: 1998-01-0307
-organ: "SLOVENSKI INSTITUT ZA REVIZIJO"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0307"
 ---
 

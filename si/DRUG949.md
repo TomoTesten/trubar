@@ -4,9 +4,9 @@ naziv: "Seznam zdravil skupine A in B, za katera je bilo od 19. junija 1992 do 5
 vrsta: "drugi akt"
 datum: 1998-01-29
 sop: 1998-01-0288
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0288"
 ---
 

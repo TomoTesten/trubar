@@ -4,9 +4,9 @@ naziv: "Sklep o izročitvi bankovca za 5000 tolarjev v obtok"
 vrsta: "sklep"
 datum: 1998-01-30
 sop: 1998-01-0300
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0300"
 ---
 

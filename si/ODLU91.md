@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi členov od 150 do 156 zakona o kazenskem postop
 vrsta: "akt"
 datum: 1998-01-23
 sop: 1998-01-0247
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0247"
 ---
 

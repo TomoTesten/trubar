@@ -4,9 +4,9 @@ naziv: "Dopolnilna odločba o načinu izvršitve odločbe ustavnega sodišča š
 vrsta: "akt"
 datum: 1998-01-30
 sop: 1998-01-0344
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0344"
 ---
 

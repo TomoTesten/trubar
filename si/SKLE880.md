@@ -4,9 +4,9 @@ naziv: "Sklep o delovnem času Agencije Republike Slovenije za plačilni promet 
 vrsta: "sklep"
 datum: 1998-01-23
 sop: 1998-01-0258
-organ: "Agencija za plačilni promet"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0258"
 ---
 

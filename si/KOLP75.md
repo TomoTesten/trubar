@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za dejavnost poslovanja z nepremičninami"
 vrsta: "akt"
 datum: 1998-02-06
 sop: 1998-01-0386
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0386"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila o izvajanju mesečnega sta
 vrsta: "navodilo"
 datum: 1998-01-30
 sop: 1998-01-0303
-organ: "Agencija za plačilni promet"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0303"
 ---
 
