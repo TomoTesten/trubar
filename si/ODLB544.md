@@ -4,9 +4,9 @@ naziv: "Odločba o zadevi lastninskega preoblikovanja Zavarovalnice Triglav, d.d
 vrsta: "akt"
 datum: 2003-04-18
 sop: 2003-01-1725
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-1725"
 ---
 

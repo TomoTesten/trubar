@@ -4,9 +4,9 @@ naziv: "Aneks št. 3 k tarifni prilogi k splošni kolektivni pogodbi za gospodar
 vrsta: "akt"
 datum: 2003-04-25
 sop: 2003-01-1810
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-1810"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o podelitvi statusa društva v javnem interesu"
 vrsta: "akt"
 datum: 2003-04-18
 sop: 2003-01-1735
-organ: "Ministrstvo za kulturo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-1735"
 ---
 
