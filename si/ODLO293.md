@@ -4,9 +4,9 @@ naziv: "Odlok o razglasitvi Arboretuma Volčji Potok za kulturni spomenik držav
 vrsta: "odlok"
 datum: 1999-10-08
 sop: 1999-01-3894
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3894"
 ---
 

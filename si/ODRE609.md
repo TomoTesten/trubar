@@ -4,9 +4,9 @@ naziv: "Odredba o dopolnitvi odredbe o finančnem poslovanju proračunskih porab
 vrsta: "odredba"
 datum: 1999-09-24
 sop: 1999-01-3695
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3695"
 ---
 

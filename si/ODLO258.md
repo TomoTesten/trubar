@@ -4,8 +4,9 @@ naziv: "Odlok o razglasitvi Dvorca Račji dvor za kulturni spomenik državnega p
 vrsta: "odlok"
 datum: 1999-10-05
 sop: 1999-01-3837
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3837"
 ---
 

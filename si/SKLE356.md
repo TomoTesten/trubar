@@ -4,9 +4,9 @@ naziv: "Sklep št. UE-SI 959/99 Pridružitvenega sveta z dne 29. 4. 1999, s kate
 vrsta: "sklep"
 datum: 1999-10-08
 sop: 1999-01-3895
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3895"
 ---
 

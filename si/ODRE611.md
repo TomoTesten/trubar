@@ -4,9 +4,9 @@ naziv: "Odredba o dodatnih pogojih uvoza živih klavnih živali, surovin živals
 vrsta: "odredba"
 datum: 1999-09-24
 sop: 1999-01-3697
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3697"
 ---
 

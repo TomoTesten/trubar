@@ -4,8 +4,9 @@ naziv: "Odlok o razglasitvi Rojstne hiše Frana Saleškega Finžgarja za kulturn
 vrsta: "odlok"
 datum: 1999-10-05
 sop: 1999-01-3819
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3819"
 ---
 
