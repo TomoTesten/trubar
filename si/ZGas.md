@@ -7,6 +7,11 @@ sop: 1993-01-2576
 objava: "Uradni list RS 71/93  str. 3695"
 kljucne_besede: ["varstvo pred požarom", "civilna zaščita"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2576"
+spremembe:
+  - kratica: ZGas-A
+    datum: 2000-03-30
+    sop: 2000-01-1256
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gasilstvu"
 ---
 
 # Zakon o gasilstvu
