@@ -7,6 +7,11 @@ sop: 1992-01-2229
 objava: "Uradni list RS 48/92  str. 2834"
 kljucne_besede: ["naravna nesreča v kmetijstvu", "invalidsko zavarovanje", "sistem pokojninskega zavarovanja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2229"
+spremembe:
+  - kratica: ZPKZ-A
+    datum: 1995-04-14
+    sop: 1995-01-0960
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pogojih, pod katerimi se kmetom zmanjšani ali odpisani prispevki štejejo za plačane"
 ---
 
 # Zakon o pogojih, pod katerimi se kmetom zmanjšani ali odpisani prispevki štejejo za plačane
