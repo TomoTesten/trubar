@@ -7,6 +7,11 @@ sop: 1995-01-2918
 objava: "Uradni list RS 63/95  str. 4933"
 kljucne_besede: ["vojni veteran"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2918"
+spremembe:
+  - kratica: ZVV-A
+    datum: 1999-12-27
+    sop: 1999-01-5026
+    naziv: "Zakon o spremembah in dopolnitvah zakona o vojnih veteranih"
 ---
 
 # Zakon o vojnih veteranih
