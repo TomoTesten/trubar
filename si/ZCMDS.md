@@ -7,6 +7,11 @@ sop: 1993-01-0064
 objava: "Uradni list RS 2/93  str. 61"
 kljucne_besede: ["Slovenija", "MDS"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0064"
+spremembe:
+  - kratica: ZCMDS-A
+    datum: 1998-10-16
+    sop: 1998-01-3456
+    naziv: "Zakon o spremembi in dopolnitvi zakona o članstvu Republike Slovenije v Mednarodnem denarnem skladu"
 ---
 
 # Zakon o članstvu Republike Slovenije v Mednarodnem denarnem skladu
