@@ -4,9 +4,9 @@ naziv: "Odlok o organizaciji in delovnem področju servisa skupnih služb Vlade 
 vrsta: "odlok"
 datum: 1996-11-08
 sop: 1996-01-3505
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3505"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Statut Zdravniške zbornice Slovenije (čistopis)"
 vrsta: "akt"
 datum: 1996-11-15
 sop: 1996-01-3593
-organ: "Zdravniška zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3593"
 ---
 

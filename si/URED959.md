@@ -4,8 +4,9 @@ naziv: "Uredba o izdaji obveznic in o izvrševanju odločb, ki se glasijo na od�
 vrsta: "uredba"
 datum: 1996-11-04
 sop: 1996-01-3504
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3504"
 ---
 

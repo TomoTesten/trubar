@@ -4,9 +4,9 @@ naziv: "Odredba o krajevni pristojnosti carinskih organov"
 vrsta: "odredba"
 datum: 1996-11-08
 sop: 1996-01-3507
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3507"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o napredovanju zaposlenih v vrtcih v nazive"
 vrsta: "pravilnik"
 datum: 1996-11-15
 sop: 1996-01-3587
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3587"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o šesti izdaji blagajniškega zapisa Banke Slovenije z nakupnim b
 vrsta: "sklep"
 datum: 1996-11-15
 sop: 1996-01-3592
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3592"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Spremembe programa pripravništva za poklic zdravnik"
 vrsta: "akt"
 datum: 1996-11-08
 sop: 1996-01-3511
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3511"
 ---
 

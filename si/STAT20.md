@@ -4,9 +4,9 @@ naziv: "Statut Agencije Republike Slovenije za plačilni promet"
 vrsta: "akt"
 datum: 1996-11-08
 sop: 1996-01-3520
-organ: "Agencija za plačilni promet"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3520"
 ---
 

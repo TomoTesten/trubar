@@ -4,9 +4,9 @@ naziv: "Sklep o začasnem zadržanju izvrševanja zakona o vojnih invalidih, kol
 vrsta: "akt"
 datum: 1996-11-08
 sop: 1996-01-3513
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3513"
 ---
 

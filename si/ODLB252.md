@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k aktu o ustanovitvi ustanove za študij slovenskega
 vrsta: "akt"
 datum: 1996-11-08
 sop: 1996-01-3512
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3512"
 ---
 
