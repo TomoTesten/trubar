@@ -7,6 +7,11 @@ sop: 1992-01-2228
 objava: "Uradni list RS 48/92  str. 2830"
 kljucne_besede: ["poslanski status", "parlamentarec", "poslanec"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2228"
+spremembe:
+  - kratica: ZPos-A
+    datum: 2004-11-18
+    sop: 2004-01-5122
+    naziv: "Zakon o dopolnitvi zakona o poslancih"
 ---
 
 # Zakon o poslancih
