@@ -7,6 +7,11 @@ sop: 1993-01-0494
 objava: "Uradni list RS 12/93  str. 497"
 kljucne_besede: ["javno podjetje", "pravna oseba", "davek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0494"
+spremembe:
+  - kratica: ZPDPJPS-A
+    datum: 1995-06-09
+    sop: 1995-01-1537
+    naziv: "Zakon o spremembi zakona o poravnavanju davkov in prispevkov javnega podjetja Slovenske železnice Ljubljana"
 ---
 
 # Zakon o poravnavanju davkov in prispevkov javnega podjetja Slovenske železnice Ljubljana
