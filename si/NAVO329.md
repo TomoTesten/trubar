@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu vnovčevanja čekov"
 vrsta: "navodilo"
 datum: 1995-11-24
 sop: 1995-01-3100
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3100"
 ---
 

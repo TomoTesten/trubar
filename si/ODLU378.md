@@ -4,9 +4,9 @@ naziv: "Odločba o odpravi drugega stavka 1. člena; 2., 4., 5., 6., 7. in 8. č
 vrsta: "akt"
 datum: 1995-11-16
 sop: 1995-01-3010
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3010"
 ---
 

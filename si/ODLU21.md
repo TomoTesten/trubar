@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi, da določbe prvega in drugega odstavka 14. člena
 vrsta: "akt"
 datum: 1995-11-24
 sop: 1995-01-3096
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3096"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o vodenju in vzdrževanju poslovnega registra Slovenije"
 vrsta: "uredba"
 datum: 1995-12-08
 sop: 1995-01-3219
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3219"
 ---
 

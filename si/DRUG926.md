@@ -4,9 +4,9 @@ naziv: "Seznam gotovih zdravil, za katera je bilo od 17. 12. 1994 do 23. 6. 1995
 vrsta: "drugi akt"
 datum: 1995-11-16
 sop: 1995-01-3006
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3006"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o javni razgrnitvi osnutka lokacijskega načrta za hitro cesto na 
 vrsta: "sklep"
 datum: 1995-11-24
 sop: 1995-01-3127
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3127"
 ---
 

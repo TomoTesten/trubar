@@ -4,9 +4,9 @@ naziv: "Pravilnik o kakovosti zaklanih prašičev in kategorizaciji svinjskega m
 vrsta: "pravilnik"
 datum: 1995-11-24
 sop: 1995-01-3508
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3508"
 ---
 

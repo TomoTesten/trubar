@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah zakona o ukrepih za sanacijo gospodars
 vrsta: "akt"
 datum: 1995-12-08
 sop: 1995-01-3296
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3296"
 ---
 

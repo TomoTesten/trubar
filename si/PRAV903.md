@@ -4,9 +4,9 @@ naziv: "Pravilnik o vsebini in načinu vodenja registra naprav certificiranih ti
 vrsta: "pravilnik"
 datum: 1995-11-24
 sop: 1995-01-3129
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3129"
 ---
 

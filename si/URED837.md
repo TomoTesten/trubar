@@ -4,9 +4,9 @@ naziv: "Uredba o spremembi uredbe o načinu, rokih in pogojih razdelitve konting
 vrsta: "uredba"
 datum: 1995-12-01
 sop: 1995-01-3210
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3210"
 ---
 

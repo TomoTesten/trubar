@@ -4,8 +4,9 @@ naziv: "Uredba o priznanjih in nagradah na področju varstva pred naravnimi in d
 vrsta: "uredba"
 datum: 1995-11-10
 sop: 1995-01-2939
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2939"
 ---
 

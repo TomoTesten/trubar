@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembah in dopolnitvah pravilnika o pogojih, ki jih moraj
 vrsta: "pravilnik"
 datum: 1995-12-01
 sop: 1995-01-3170
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3170"
 ---
 
