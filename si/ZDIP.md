@@ -16,6 +16,10 @@ spremembe:
     datum: 2001-12-28
     sop: 2001-01-5322
     naziv: "Zakon o spremembah in dopolnitvah zakona o davku na izplačane plače"
+  - kratica: ZDIP-C
+    datum: 2004-07-29
+    sop: 2004-01-3692
+    naziv: "Zakon o spremembah zakona o davku na izplačane plače"
 ---
 
 # Zakon o davku na izplačane plače
