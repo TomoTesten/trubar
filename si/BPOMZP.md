@@ -7,6 +7,11 @@ sop: 1997-02-0026
 objava: "Uradni list RS MP 7/97  str. 145"
 kljucne_besede: ["ratifikacija sporazuma", "Portugalska", "zračni promet"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-02-0026"
+spremembe:
+  - kratica: BPOMZP-A
+    datum: 2000-03-24
+    sop: 2000-02-0036
+    naziv: "Zakon o spremembi zakona o ratifikaciji Sporazuma med Republiko Slovenijo in Republiko Portugalsko o zračnem prometu"
 ---
 
 # Zakon o ratifikaciji Sporazuma med Republiko Slovenijo in Republiko Portugalsko o zračnem prometu
