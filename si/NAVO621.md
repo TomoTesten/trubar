@@ -4,9 +4,9 @@ naziv: "Pravilnik za izpolnjevanje enotne carinske listine"
 vrsta: "navodilo"
 datum: 2002-12-24
 sop: 2002-01-5584
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5584"
 ---
 
