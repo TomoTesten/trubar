@@ -12,6 +12,10 @@ spremembe:
     datum: 1995-06-30
     sop: 1995-01-1816
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstveni dejavnosti"
+  - kratica: ZZDej-C
+    datum: 1996-02-12
+    sop: 1996-01-0380
+    naziv: "Zakon o spremembi zakona o zdravstveni dejavnosti"
 ---
 
 # Zakon o zdravstveni dejavnosti
