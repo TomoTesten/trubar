@@ -12,6 +12,10 @@ spremembe:
     datum: 1999-05-21
     sop: 1999-01-1876
     naziv: "Zakon o dopolnitvah zakona o blagovnih rezervah"
+  - kratica: ZBR-B
+    datum: 2004-05-06
+    sop: 2004-01-2297
+    naziv: "Zakon o spremembah in dopolnitvah zakona o blagovnih rezervah"
 ---
 
 # Zakon o blagovnih rezervah
