@@ -4,9 +4,9 @@ naziv: "Odločba o skladnosti prvega odstavka 38. člena zakona o stavbnih zemlj
 vrsta: "akt"
 datum: 1998-04-03
 sop: 1998-01-1073
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1073"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Seznam zdravil skupine C, za katere je bilo od 1. 7. 1997 do 31. 3. 1998
 vrsta: "drugi akt"
 datum: 1998-04-09
 sop: 1998-01-1139
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1139"
 ---
 

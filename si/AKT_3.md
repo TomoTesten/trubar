@@ -4,9 +4,9 @@ naziv: "Zaključni račun proračuna Republike Slovenije za leto 1994 (RZ94)"
 vrsta: "akt"
 datum: 1998-04-09
 sop: 1998-01-1138
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1138"
 ---
 

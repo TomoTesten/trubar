@@ -4,8 +4,9 @@ naziv: "Odredba o spremembi odredbe o številu in sedežih notarskih mest"
 vrsta: "odredba"
 datum: 1998-03-27
 sop: 1998-01-1002
-organ: "Ministrstvo za pravosodje"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1002"
 ---
 

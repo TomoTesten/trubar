@@ -4,9 +4,9 @@ naziv: "Pravilnik o merilih za oblikovanje cen zdravil in o načinu obveščanja
 vrsta: "pravilnik"
 datum: 1998-04-03
 sop: 1998-01-1067
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1067"
 ---
 

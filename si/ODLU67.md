@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi, da je 18. točka 18. člena zakona o prometnem da
 vrsta: "akt"
 datum: 1998-03-27
 sop: 1998-01-1004
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1004"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi 4. člena zakona o spremembah in dopolnitvah za
 vrsta: "akt"
 datum: 1998-04-03
 sop: 1998-01-1070
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1070"
 ---
 

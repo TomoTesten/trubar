@@ -4,9 +4,9 @@ naziv: "Pravilnik o ciljnih raziskovalnih programih za podporo strateškega razv
 vrsta: "pravilnik"
 datum: 1998-03-20
 sop: 1998-01-0935
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0935"
 ---
 

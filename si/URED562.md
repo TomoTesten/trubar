@@ -4,9 +4,9 @@ naziv: "Uredba o spremembi uredbe o taksi za obremenjevanje zraka z emisijo oglj
 vrsta: "uredba"
 datum: 1998-03-27
 sop: 1998-01-1048
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1048"
 ---
 

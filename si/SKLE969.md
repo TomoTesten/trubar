@@ -4,9 +4,9 @@ naziv: "Sklep o vzpostavitvi sistema bruto poravnave v realnem času"
 vrsta: "sklep"
 datum: 1998-03-28
 sop: 1998-01-1053
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1053"
 ---
 

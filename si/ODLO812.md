@@ -4,9 +4,9 @@ naziv: "Odlok o imenovanju člana Nadzornega sveta Kapitalskega sklada pokojnins
 vrsta: "odlok"
 datum: 1998-04-10
 sop: 1998-01-1147
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1147"
 ---
 

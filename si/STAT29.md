@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve statuta Zdravniške zbornice Slovenije"
 vrsta: "akt"
 datum: 1998-03-20
 sop: 1998-01-0943
-organ: "Zdravniška zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0943"
 ---
 

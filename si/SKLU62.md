@@ -4,9 +4,9 @@ naziv: "Sklep o zavrženju pobude za oceno ustavnosti tretje in četrte alinee p
 vrsta: "akt"
 datum: 1998-04-03
 sop: 1998-01-1072
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1072"
 ---
 

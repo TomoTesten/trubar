@@ -4,9 +4,9 @@ naziv: "Akt o odreditvi parlamentarne preiskave o sumu zlorabe javnih pooblastil
 vrsta: "akt"
 datum: 1998-03-27
 sop: 1998-01-0995
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0995"
 ---
 

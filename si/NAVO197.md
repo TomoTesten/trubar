@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve navodila za izvajanje sklepa o obveznosti poroč
 vrsta: "navodilo"
 datum: 1998-04-02
 sop: 1998-01-1063
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1063"
 ---
 
