@@ -1,18 +1,18 @@
 ---
-kratica: ZAKO979
-naziv: "Zakon o spremembah in dopolnitvah zakona o družbi za zavarovanje in financiranje izvoza Slovenije (ZDZFI-B)"
+kratica: ZAKO959
+naziv: "Zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost (ZPSV-B)"
 vrsta: "akt"
 datum: 1996-06-29
-sop: 1996-01-2204
+sop: 1996-01-2200
 organ: ""
 zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
-vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2204"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2200"
 ---
 
-# Zakon o spremembah in dopolnitvah zakona o družbi za zavarovanje in financiranje izvoza Slovenije (ZDZFI-B)
+# Zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost (ZPSV-B)
 
-Na podlagi druge alinee prvega odstavka 107. člena in 91. člena ustave Republike Slovenije izdajam
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam
 
 
 ## U K A Z
@@ -20,7 +20,7 @@ o razglasitvi zakona o spremembah in dopolnitvah zakona o prispevkih za socialno
 
 Razglašam zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost (ZPSV-B), ki ga je sprejel Državni zbor Republike Slovenije na seji dne 13. junija 1996.
 
-Št.
+Št. 001-22-61/96
 
 Ljubljana, dne 21. junija 1996.
 

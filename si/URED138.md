@@ -4,9 +4,9 @@ naziv: "Uredba o dopolnitvah uredbe o kriterijih za ugotavljanje in o načinu do
 vrsta: "uredba"
 datum: 1996-06-21
 sop: 1996-01-2172
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2172"
 ---
 

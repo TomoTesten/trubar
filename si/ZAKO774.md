@@ -4,9 +4,9 @@ naziv: "Zakon o ratifikaciji Sporazuma med Vlado Republike Slovenije in Vlado Sl
 vrsta: "akt"
 datum: 1996-06-21
 sop: 1996-02-0035
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-02-0035"
 ---
 

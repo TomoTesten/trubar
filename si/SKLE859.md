@@ -4,9 +4,9 @@ naziv: "Sklep o izročitvi priložnostnih kovancev v prodajo in obtok"
 vrsta: "sklep"
 datum: 1996-06-21
 sop: 1996-01-2189
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2189"
 ---
 

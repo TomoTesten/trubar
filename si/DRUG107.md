@@ -4,9 +4,9 @@ naziv: "Pooblastilo za opravljanje preizkušanja in izdajanja potrdil"
 vrsta: "drugi akt"
 datum: 1996-06-21
 sop: 1996-01-2127
-organ: "Ministrstvo za gospodarske dejavnosti"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2127"
 ---
 

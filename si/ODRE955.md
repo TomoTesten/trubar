@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o prepovedi uvoza pošiljk g
 vrsta: "odredba"
 datum: 1996-06-29
 sop: 1996-01-2211
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2211"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o programu preizkusa strokovne usposobljenosti ter o postopku 
 vrsta: "pravilnik"
 datum: 1996-06-21
 sop: 1996-01-2124
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2124"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odredba o spremembi odredbe o koeficientu povečanja dolarskih cen nacio
 vrsta: "odredba"
 datum: 1996-06-21
 sop: 1996-01-2184
-organ: "Ministrstvo za finance"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2184"
 ---
 
