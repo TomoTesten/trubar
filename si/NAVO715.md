@@ -4,9 +4,9 @@ naziv: "Navodilo za prikazovanje podatkov o plačah v zasebnem sektorju"
 vrsta: "navodilo"
 datum: 2004-08-06
 sop: 2004-01-3899
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3899"
 ---
 

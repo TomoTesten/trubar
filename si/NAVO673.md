@@ -4,9 +4,9 @@ naziv: "Navodilo o vodenju in posredovanju podatkov nepremičninske družbe o sk
 vrsta: "navodilo"
 datum: 2004-08-20
 sop: 2004-01-4176
-organ: "Ministrstvo za okolje, prostor in energijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4176"
 ---
 

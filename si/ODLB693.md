@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju za izvajanje postopkov ugotavljanja skladnosti ter
 vrsta: "akt"
 datum: 2004-08-06
 sop: 2004-01-3900
-organ: "Ministrstvo za šolstvo, znanost in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3900"
 ---
 
