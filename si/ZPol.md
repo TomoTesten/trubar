@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-11-23
     sop: 2001-01-4635
     naziv: "Zakon o dopolnitvah zakona o policiji"
+  - kratica: ZPol-B
+    datum: 2003-08-12
+    sop: 2003-01-3740
+    naziv: "Zakon o spremembah in dopolnitvah zakona o policiji"
 ---
 
 # Zakon o policiji
