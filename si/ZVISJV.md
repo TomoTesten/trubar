@@ -7,6 +7,11 @@ sop: 2002-01-3234
 objava: "Uradni list RS 67/2002  str. 7602"
 kljucne_besede: ["ionizirajoče sevanje", "varstvo pred sevanjem", "jedrska varnost"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3234"
+spremembe:
+  - kratica: ZVISJV-A
+    datum: 2003-03-07
+    sop: 2003-01-0902
+    naziv: "Zakon o dopolnitvi zakona o varstvu pred ionizirajočimi sevanji in jedrski varnosti"
 ---
 
 # Zakon o varstvu pred ionizirajočimi sevanji in jedrski varnosti
