@@ -7,6 +7,11 @@ sop: 1999-01-3691
 objava: "Uradni list RS 78/99  str. 12273"
 kljucne_besede: ["javno naročilo", "revizija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3691"
+spremembe:
+  - kratica: ZRPJN-A
+    datum: 2002-12-18
+    sop: 2002-01-5396
+    naziv: "Zakon o spremembah in dopolnitvah zakona o reviziji postopkov javnega naročanja"
 ---
 
 # Zakon o reviziji postopkov javnega naročanja
