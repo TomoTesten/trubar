@@ -7,6 +7,11 @@ sop: 1999-01-2911
 objava: "Uradni list RS 61/99  str. 7801"
 kljucne_besede: ["pravica do azila", "begunec"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2911"
+spremembe:
+  - kratica: ZAzil-A
+    datum: 2000-12-29
+    sop: 2000-01-5208
+    naziv: "Zakon o spremembah in dopolnitvah zakona o azilu"
 ---
 
 # Zakon o azilu
