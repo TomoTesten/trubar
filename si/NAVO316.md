@@ -4,9 +4,9 @@ naziv: "Navodilo za izpolnjevanje obrazcev o uporabi sodobnih plačilnih instrum
 vrsta: "navodilo"
 datum: 1995-12-28
 sop: 1995-01-3444
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3444"
 ---
 

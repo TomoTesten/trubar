@@ -4,9 +4,9 @@ naziv: "Navodilo o dopolnitvah navodila o načinu izvajanja akreditiranja in o s
 vrsta: "navodilo"
 datum: 1995-12-15
 sop: 1995-01-3331
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3331"
 ---
 

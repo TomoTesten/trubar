@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi neskladnosti z ustavo: 2. in 3. člena zakona o us
 vrsta: "akt"
 datum: 1995-12-22
 sop: 1995-01-3384
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3384"
 ---
 

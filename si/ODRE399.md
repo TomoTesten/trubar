@@ -4,9 +4,9 @@ naziv: "Odredba o pristojbinah na zračnih poteh"
 vrsta: "odredba"
 datum: 1995-12-30
 sop: 1995-01-3498
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3498"
 ---
 

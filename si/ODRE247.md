@@ -4,9 +4,9 @@ naziv: "Odredba o zahtevah, katerim morajo ustrezati gradbeni proizvodi"
 vrsta: "odredba"
 datum: 1995-12-28
 sop: 1995-01-3440
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3440"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o enotnem vodenju poslovnih knjig za proračun in proračunske 
 vrsta: "navodilo"
 datum: 1995-12-15
 sop: 1995-01-3374
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3374"
 ---
 

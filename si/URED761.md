@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi carinskih kontingentov pri uvozu blaga v letu 1996"
 vrsta: "uredba"
 datum: 1995-12-27
 sop: 1995-01-3435
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3435"
 ---
 

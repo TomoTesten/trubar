@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembah in dopolnitvah pravilnika o uporabi listin v cari
 vrsta: "pravilnik"
 datum: 1995-12-28
 sop: 1995-01-3443
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3443"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o spremembah in dopolnitvah odloka o preoblikovanju Univerze v Lju
 vrsta: "odlok"
 datum: 1995-12-30
 sop: 1995-01-3486
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3486"
 ---
 

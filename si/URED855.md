@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi kmetijskih in živilskih proizvodov, za katere se pr
 vrsta: "uredba"
 datum: 1995-12-30
 sop: 1995-01-3491
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3491"
 ---
 

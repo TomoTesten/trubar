@@ -4,9 +4,9 @@ naziv: "Sklep razširjene komisije EUROCONTROL št. 31 o določitvi pristojbin z
 vrsta: "sklep"
 datum: 1995-12-30
 sop: 1995-01-3499
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3499"
 ---
 

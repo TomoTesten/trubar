@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o določitvi mejnih prehodov
 vrsta: "odredba"
 datum: 1995-12-22
 sop: 1995-01-3424
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3424"
 ---
 
