@@ -12,6 +12,10 @@ spremembe:
     datum: 1999-05-21
     sop: 1999-01-1873
     naziv: "Zakon o dopolnitvi zakona o lekarniški dejavnosti"
+  - kratica: ZLD-B
+    datum: 2004-01-15
+    sop: 2004-01-0065
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lekarniški dejavnosti"
 ---
 
 # Zakon o lekarniški dejavnosti
