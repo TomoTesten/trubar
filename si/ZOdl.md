@@ -7,6 +7,11 @@ sop: 1995-01-0002
 objava: "Uradni list RS 1/95  str. 1"
 kljucne_besede: ["častno odlikovanje", "Slovenija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0002"
+spremembe:
+  - kratica: ZOdl-A
+    datum: 2004-03-10
+    sop: 2004-01-0919
+    naziv: "Zakon o spremembah in dopolnitvah zakona o odlikovanjih Republike Slovenije"
 ---
 
 # Zakon o odlikovanjih Republike Slovenije
