@@ -12,6 +12,10 @@ spremembe:
     datum: 2000-07-06
     sop: 2000-01-2748
     naziv: "Zakon o dopolnitvah obrtnega zakona"
+  - kratica: ObrZ-B
+    datum: 2002-05-15
+    sop: 2002-01-2007
+    naziv: "Zakon o spremembi in dopolnitvah obrtnega zakona"
 ---
 
 # Obrtni zakon
