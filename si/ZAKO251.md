@@ -4,9 +4,9 @@ naziv: "Zakon o priložnostnih kovancih (ZPK)"
 vrsta: "akt"
 datum: 1993-02-04
 sop: 1993-01-0302
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0302"
 ---
 

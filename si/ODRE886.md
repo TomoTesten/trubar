@@ -4,9 +4,9 @@ naziv: "Odredba o dopolnitvi odredbe o izdaji blagajniških zapisov Republike Sl
 vrsta: "odredba"
 datum: 1993-01-29
 sop: 1993-01-0237
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0237"
 ---
 

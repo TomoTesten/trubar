@@ -4,9 +4,9 @@ naziv: "Navodilo za izvajanje sklepa o obveznosti poročanja o poslovanju s tuji
 vrsta: "navodilo"
 datum: 1993-02-12
 sop: 1993-01-0347
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0347"
 ---
 
