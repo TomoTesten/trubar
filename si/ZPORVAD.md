@@ -12,6 +12,10 @@ spremembe:
     datum: 1994-08-12
     sop: 1994-01-1867
     naziv: "Zakon o dopolnitvi zakona o pogojih za opravljanje reproduktivne video in avdio dejavnosti"
+  - kratica: ZPORVAD-B
+    datum: 1995-01-10
+    sop: 1995-01-0001
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pogojih za opravljanje reproduktivne video in avdio dejavnosti"
 ---
 
 # Zakon o pogojih za opravljanje reproduktivne video in avdio dejavnosti
