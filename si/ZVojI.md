@@ -7,6 +7,11 @@ sop: 1995-01-2916
 objava: "Uradni list RS 63/95  str. 4917"
 kljucne_besede: ["invalid", "žrtev vojne"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2916"
+spremembe:
+  - kratica: ZVojI-A
+    datum: 1997-04-04
+    sop: 1997-01-1130
+    naziv: "Zakon o spremembah in dopolnitvah zakona o vojnih invalidih"
 ---
 
 # Zakon o vojnih invalidih
