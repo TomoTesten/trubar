@@ -7,6 +7,11 @@ sop: 1997-01-3267
 objava: "Uradni list RS 68/97  str. 5341"
 kljucne_besede: ["poroštvo", "posojilo", "elektrarna", "oskrba z električno energijo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3267"
+spremembe:
+  - kratica: ZPRSTB-A
+    datum: 1998-12-30
+    sop: 1998-01-4742
+    naziv: "Zakon o spremembah in dopolnitvah zakona o poroštvu Republike Slovenije za najetje posojil za izgradnjo plinskih blokov moči 2 x 114 MW v termoelektrarni Brestanica"
 ---
 
 # Zakon o poroštvu Republike Slovenije za najetje posojil za izgradnjo plinskih blokov moči 2 X 114 MW v Termoelektrarni Brestanica
