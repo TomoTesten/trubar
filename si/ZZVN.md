@@ -24,6 +24,10 @@ spremembe:
     datum: 1999-06-04
     sop: 1999-01-2110
     naziv: "Zakon o spremembah in dopolnitvah zakona o žrtvah vojnega nasilja"
+  - kratica: ZZVN-E
+    datum: 2000-03-30
+    sop: 2000-01-1258
+    naziv: "Zakon o spremembi in dopolnitvah zakona o žrtvah vojnega nasilja"
 ---
 
 # Zakon o žrtvah vojnega nasilja
