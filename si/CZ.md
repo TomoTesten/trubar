@@ -16,6 +16,10 @@ spremembe:
     datum: 1999-05-06
     sop: 1999-01-1515
     naziv: "Zakon o spremembah in dopolnitvah carinskega zakona"
+  - kratica: CZ-C
+    datum: 2002-07-05
+    sop: 2002-01-2833
+    naziv: "Zakon o spremembah in dopolnitvah carinskega zakona"
 ---
 
 # Carinski zakon
