@@ -1,0 +1,166 @@
+---
+kratica: NAVO604
+naziv: "Navodilo o obliki, vsebini in uporabi obrazca za opravljanje tolarskega plačilnega prometa neposrednih in posrednih uporabnikov državnega in občinskih proračunov v Upravi Republike Slovenije za javna plačila"
+vrsta: "navodilo"
+datum: 2002-06-28
+sop: 2002-01-2770
+organ: "Ministrstvo za finance"
+zbirka: "Neveljavni predpisi"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2770"
+---
+
+# Navodilo o obliki, vsebini in uporabi obrazca za opravljanje tolarskega plačilnega prometa neposrednih in posrednih uporabnikov državnega in občinskih proračunov v Upravi Republike Slovenije za javna plačila
+
+Na podlagi 2. in 3. točke prvega odstavka 74. člena zakona o plačilnem prometu (Uradni list RS, št. 30/02) izdaja minister za finance
+
+
+## N A V O D I L O
+o obliki, vsebini in uporabi obrazca za opravljanje tolarskega plačilnega prometa neposrednih in posrednih uporabnikov državnega in občinskih proračunov v Upravi Republike Slovenije za javna plačila
+
+
+### I. SPLOŠNA DOLOČBA
+
+
+### 1. člen
+
+To navodilo določa obliko, vsebino in uporabo obrazca za opravljanje negotovinskih tolarskih plačil v državi v breme podračunov neposrednih in posrednih uporabnikov državnega in občinskih proračunov (v nadaljevanju: proračunski uporabnik) v Upravi Republike Slovenije za javna plačila (v nadaljevanju: UJP).
+
+
+### II. VRSTA IN OBLIKA OBRAZCA
+
+
+### 2. člen
+
+Obrazec, ki ga proračunski uporabnik uporablja za tolarsko negotovinsko plačilo v breme svojih podračunov, je nalog za prenos – obrazec št. 40.
+Obrazec je v prilogi 1 tega navodila in je njegov sestavni del.
+
+
+### 3. člen
+
+Obrazec je natisnjen na papirju določene standardne kakovosti.
+Kakovost papirja mora biti takšna, da je pri računalniškem in ročnem izpolnjevanju zapis podatkov viden in čitljiv na vseh izvodih obrazca, da je vse izvode obrazca mogoče enostavno ločevati, razvrščati in arhivirati ter z njih prenesti podatke na računalniške in mikrografske nosilce podatkov.
+Ob običajnih pogojih arhiviranja morajo biti podatki na vseh izvodih obrazca čitljivi najmanj tri leta.
+Obrazec je natisnjen na samokopirnem papirju pravokotne oblike, velikosti 170 x 102 mm.
+Razvrstitev podatkov, velikost prostora za vpisovanje številčnih in črkovnih podatkov ter besedilo na obrazcih morajo biti v skladu s tem navodilom.
+Grafično-tehnična obdelava obrazca mora zagotoviti:
+­ hkratno izpolnjevanje obeh izvodov obrazca,
+­ možnost računalniškega izpolnjevanja obrazca,
+­ povezanost obeh izvodov posameznega obrazca (zlepljenega po zgornjem ali levem robu obrazca) in
+­ vidno razločevanje posameznega obrazca in njegovih izvodov.
+Obrazec je natisnjen na papirju bele barve. Izvod za proračunskega uporabnika plačnika, čigar podračun bo obremenjen, je natisnjen z rdečim odtisom.
+
+
+### III. VSEBINA IN UPORABA NALOGA ZA PRENOS
+
+
+### 4. člen
+
+Nalog za prenos se uporablja, kadar proračunski uporabnik plačnik naloži UJP, naj v breme njegovega podračuna prenese sredstva na račun drugega imetnika podračuna oziroma računa. Ta obrazec se uporablja za vsa plačila, pri katerih daje pobudo za poravnavo obveznosti proračunski uporabnik dolžnik.
+Nalog za prenos se uporablja tudi, kadar UJP obremeni podračun proračunskega uporabnika v skladu z zakonom.
+
+
+### 5. člen
+
+Nalog za prenos obsega:
+1) ime in sedež urada UJP,
+2) ime in sedež proračunskega uporabnika plačnika,
+3) številko podračuna proračunskega uporabnika plačnika,
+4) sklicevanje na številko (obremenitev),
+5) namen nakazila,
+6) datum valutacije,
+7) šifro,
+8) znesek,
+9) ime in sedež prejemnika,
+10) številko računa prejemnika,
+11) sklicevanje na številko (odobritev),
+12) štampiljko in podpis proračunskega uporabnika plačnika,
+13) kraj in datum izdaje.
+
+
+### 6. člen
+
+Nalog za prenos ima dva izvoda: nalog za prenos in sporočilo o obremenitvi.
+Nalog za prenos ostane pri UJP kot dokument o obremenitvi podračuna proračunskega uporabnika in o odobritvi prejemnikovega računa.
+Sporočilo o obremenitvi zadrži proračunski uporabnik plačnik, da spremlja izvršitev plačila.
+UJP in proračunski uporabnik plačnik se lahko dogovorita o izmenjavi podatkov v računalniški obliki, če za to obstajajo tehnični pogoji.
+
+
+### IV. IZPOLNJEVANJE NALOGA ZA PRENOS
+
+
+### 7. člen
+
+Proračunski uporabnik plačnik izpolni hkrati oba izvoda naloga za prenos in vse podatke na nalogu, razen tistih, ki jih izpolni UJP, in sicer oznako za zvezo.
+
+
+### 8. člen
+
+UJP ne bo sprejemala obrazca, ki ni pravilno izpolnjen, ki je nečitljiv, nepopoln ali na katerem so dopisani drugi podatki, ki niso predpisani s tem navodilom.
+Nepravilno izpolnjen obrazec je obrazec, na katerem posamezni podatki niso na predpisani način vpisani v zanje predvidene prostore.
+Nečitljivo izpolnjen obrazec je obrazec, na katerem podatki niso čitljivo vpisani na obeh izvodih.
+Nepopoln obrazec je obrazec, na katerem niso vpisani vsi predpisani podatki.
+
+
+### 9. člen
+
+Pri izpolnjevanju obrazca se besedilo vpiše na levo, številčni podatki pa na desno stran obrazca.
+Pri izpolnjevanju besedila na levi strani obrazca je treba upoštevati:
+1. Pod besedami “Uprava Republike Slovenije za javna plačila “ se vpiše kraj, kjer je sedež urada UJP, v katerem je obrazec predložen.
+2. Nad besedami “ime in sedež plačnika“ se vpiše ime oziroma skrajšano ime podračuna proračunskega uporabnika pri UJP in kraj njegovega sedeža, kot je to vpisano v register neposrednih in posrednih uporabnikov državnega in občinskih proračunov (v nadaljevanju: register proračunskih uporabnikov) pri UJP.
+3. Nad besedami “ime in sedež prejemnika“ se vpiše ime oziroma skrajšano ime podračuna proračunskega uporabnika pri UJP in kraj njegovega sedeža, kot je to vpisano v register proračunskih uporabnikov pri UJP oziroma imetnika računa pri drugih izvajalcih plačilnega prometa.
+4. V “namen nakazila“ se vpiše kratko besedilo, iz katerega je razviden namen oziroma podlaga za nakazilo denarnih sredstev, npr. plačilo fakture, prenos predujma, odplačilo posojila, plačilo obresti itd.
+Obrazec podpisujejo za to pooblaščene osebe proračunskega uporabnika nalogodajalca, katerih podpisi so deponirani pri UJP.
+Pri izpolnjevanju številčnih podatkov na desni strani obrazca se številčni podatki izpisujejo samo z arabskimi številkami, brez posebnih oznak (poševnih črt, oklepajev idr.), z naslednjimi izjemami:
+1. uporaba vezaja (-) za povezovanje posameznih skupin podatkov pri številki računa in pri podatku o sklicevanju na številko obremenitve in odobritve,
+2. uporaba zvezdice (*) ali enačaja (=) za označevanje začetka podatka o znesku,
+3. uporaba vejice (,) za ločitev tolarjev od stotinov pri izpisovanju podatka o znesku.
+Posamezni številčni podatki na obrazcu se izpolnjujejo takole:
+1. Podatek “številka“ podračuna proračunskega uporabnika plačnika oziroma prejemnika se vpiše v strukturi transakcijskega računa, z največ enim vezajem in sicer med 5. in 6. podatkom v številki transakcijskega računa.
+2. Podatek “znesek“ se vpiše v tolarjih s stotini; tolarji se ločijo od stotinov z vejico (,). Pred zneskom, se vpiše enačaj (=) ali zvezdica (*), npr. *678.235,00.
+3. Podatek “datum valutacije“ je šestmestni podatek, ki pomeni datum (dan, mesec, leto), na katerega naj se plačilo izvede.
+4. Podatek “šifra“ je sestavljen iz treh polj. Podatek v prvem polju se imenuje “oznaka za zvezo“ in ga izpolni UJP.
+Podatek v drugem polju se imenuje “šifra izdatkov”, podatek v tretjem polju pa “šifra prejemkov”. Podatek v drugem in tretjem polju izpolni proračunski uporabnik plačnik.
+Proračunski uporabnik plačnik izpolni šifre izdatkov in šifre prejemkov na podlagi navodil Agencije Republike Slovenije za javnopravne evidence in storitve.
+5. Podatek “sklicevanje na številko obremenitve“ je podrobnejša informacija proračunskemu uporabniku plačniku o opravljenem plačilu.
+Način določitve in izpolnjevanja tega podatka je popolnoma enak določitvi in izpolnjevanju podatka “sklicevanja na številko odobritve“.
+6. Podatek “sklicevanje na številko odobritve“ vpiše proračunski uporabnik plačnik na podlagi podatka, ki mu ga sporoči prejemnik plačila. Namen tega podatka je, da prejemnik plačila, ob prejemu denarnih sredstev na svoj račun, dobi podrobno informacijo o plačniku in namenu nakazila (številka plačane fakture, številka situacije, oznaka dolžnika ipd.).
+Ker ta podrobnejša informacija o plačniku in namenu nakazila služi prejemniku plačila, mora prejemnik določiti njen standardizirani številčni zapis in ga sporočiti proračunskemu uporabniku plačniku, ki ga mora vpisati na obrazec.
+Standardizirana oblika zapisa daje več možnosti za številčno opredelitev informacije o nakazilu.
+Opis standardizirane oblike zapisa podatka “sklicevanje na številko obremenitve“ in “sklicevanje na številko odobritve“ je v pregledu in vsebini osnovnih modelov za sklicevanje na številko obremenitve in odobritve ter pojasnilih za njihovo uporabo, ki je priloga 2 tega navodila in sestavni del tega navodila.
+
+
+### 10. člen
+
+Proračunski uporabnik plačnik za dva ali več nalogov v breme istega podračuna UJP predloži tudi konsignacijo (popis zneskov s posamičnih plačilnih nalogov in njihov seštevek).
+Proračunski uporabnik plačnik lahko predloži UJP tudi naloge, z različnimi datumi valutacije, vendar v ločenih konsignacijah po datumih izvršitve.
+
+
+### 11. člen
+
+UJP proračunskemu uporabniku imetniku podračuna zagotavlja računalniški izpis podatkov o opravljenem plačilu na papirju oziroma v računalniški obliki. Izjeme so postopki za reševanje rekalamacij.
+
+
+### V. PREHODNA IN KONČNA DOLOČBA
+
+
+### 12. člen
+
+Obrazca plačilnega prometa nalog za prenos – obrazec št. 40 in interni prenosni nalog – obrazec št. 50, ki sta predpisana z navodilom o obliki, vsebini in uporabi obrazcev za opravljanje plačilnega prometa prek Agencije Republike Slovenije za plačilni promet (Uradni list RS, št. 72/98 in 15/00) se lahko uporabljata za plačila v breme podračunov proračunskega uporabnika v UJP do 31. decembra 2002.
+
+
+### 13. člen
+
+To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se od 29. junija 2002.
+
+Št. 431-18/02
+
+Ljubljana, dne 19. junija 2002.
+
+mag. Anton Rop l. r.
+Minister
+za finance
+
+Priloga 1: Nalog za prenos; Sporočilo o obremenitvi
+
+Priloga 2: Pregled in vsebina osnovnih modelov za sklicevanje na številko obremenitve in odobritve ter pojasnila za njihivi uporabo
