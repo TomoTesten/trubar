@@ -28,6 +28,10 @@ spremembe:
     datum: 2001-06-07
     sop: 2001-01-2545
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstveni dejavnosti"
+  - kratica: ZZDej-G
+    datum: 2004-01-15
+    sop: 2004-01-0076
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstveni dejavnosti"
 ---
 
 # Zakon o zdravstveni dejavnosti
