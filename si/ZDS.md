@@ -24,6 +24,10 @@ spremembe:
     datum: 1999-04-15
     sop: 1999-01-1212
     naziv: "Zakon o spremembi in dopolnitvi zakona o davčni službi"
+  - kratica: ZDS-E
+    datum: 2000-09-23
+    sop: 2000-01-3806
+    naziv: "Zakon o spremembi zakona o davčni službi"
 ---
 
 # Zakon o davčni službi
