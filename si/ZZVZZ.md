@@ -24,6 +24,10 @@ spremembe:
     datum: 1999-01-29
     sop: 1999-01-0214
     naziv: "Zakon o dopolnitvi zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
+  - kratica: ZZVZZ-E
+    datum: 2001-12-07
+    sop: 2001-01-4848
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
