@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila o vrsti in načinu pošilj
 vrsta: "navodilo"
 datum: 1998-09-25
 sop: 1998-01-3025
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3025"
 ---
 

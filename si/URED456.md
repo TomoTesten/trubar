@@ -4,9 +4,9 @@ naziv: "Uredba o spremembah in dopolnitvah uredbe o izvajanju sporazuma med drž
 vrsta: "uredba"
 datum: 1998-09-18
 sop: 1998-01-2892
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2892"
 ---
 

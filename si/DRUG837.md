@@ -4,9 +4,9 @@ naziv: "Program pripravništva in strokovnega izpita za poklic diplomirani sanit
 vrsta: "drugi akt"
 datum: 1998-09-18
 sop: 1998-01-2904
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2904"
 ---
 

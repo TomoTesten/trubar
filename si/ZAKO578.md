@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah zakona o zagotovitvi sredstev za odpravo posledic pla
 vrsta: "akt"
 datum: 1998-10-02
 sop: 1998-01-3182
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3182"
 ---
 

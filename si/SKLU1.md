@@ -4,9 +4,9 @@ naziv: "Sklep o začasnem zadržanju izvrševanja zakona o spremembah in dopolni
 vrsta: "akt"
 datum: 1998-10-02
 sop: 1998-01-3250
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3250"
 ---
 
