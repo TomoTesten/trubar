@@ -7,6 +7,11 @@ sop: 1994-01-2546
 objava: "Uradni list RS 71/94  str. 3975"
 kljucne_besede: ["upravna organizacija", "izvršilna oblast", "ministrstvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2546"
+spremembe:
+  - kratica: ZODPM-A
+    datum: 1997-08-01
+    sop: 1997-01-2507
+    naziv: "Zakon o spremembah in dopolnitvah zakona o organizaciji in delovnem področju ministrstev"
 ---
 
 # Zakon o organizaciji in delovnem področju ministrstev
