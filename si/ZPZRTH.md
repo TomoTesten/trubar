@@ -7,6 +7,11 @@ sop: 2000-01-2749
 objava: "Uradni list RS 61/2000  str. 7675"
 kljucne_besede: ["rudarski obrat", "prestrukturiranje industrije", "regija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2749"
+spremembe:
+  - kratica: ZPZRTH-A
+    datum: 2003-05-09
+    sop: 2003-01-2011
+    naziv: "Zakon o spremembah in dopolnitvah zakona o postopnem zapiranju Rudnika Trbovlje - Hrastnik in razvojnem prestrukturiranju regije"
 ---
 
 # Zakon o postopnem zapiranju Rudnika Trbovlje - Hrastnik in razvojnem prestrukturiranju regije
