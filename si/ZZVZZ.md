@@ -7,6 +7,11 @@ sop: 1992-01-0459
 objava: "Uradni list RS 9/92  str. 577"
 kljucne_besede: ["zdravstveno varstvo", "zdravstveno zavarovanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0459"
+spremembe:
+  - kratica: ZZVZZ-A
+    datum: 1993-03-12
+    sop: 1993-01-0582
+    naziv: "Zakon o spremembi in dopolnitvi zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
