@@ -7,6 +7,11 @@ sop: 1998-01-0928
 objava: "Uradni list RS 22/98  str. 1421"
 kljucne_besede: ["častno odlikovanje", "kakovost izdelka"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0928"
+spremembe:
+  - kratica: ZPPO-A
+    datum: 2003-06-09
+    sop: 2003-01-2753
+    naziv: "Zakon o spremembah in dopolnitvah zakona o priznanju Republike Slovenije za poslovno odličnost"
 ---
 
 # Zakon o priznanju Republike Slovenije za poslovno odličnost
