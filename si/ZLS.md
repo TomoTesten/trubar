@@ -16,6 +16,10 @@ spremembe:
     datum: 1995-03-10
     sop: 1995-01-0677
     naziv: "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi"
+  - kratica: ZLS-D
+    datum: 1997-05-16
+    sop: 1997-01-1562
+    naziv: "Zakon o dopolnitvi zakona o lokalni samoupravi"
 ---
 
 # Zakon o lokalni samoupravi
