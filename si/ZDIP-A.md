@@ -1,0 +1,70 @@
+---
+kratica: ZDIP-A
+naziv: "Zakon o spremembi zakona o davku na izplačane plače"
+vrsta: "Sprejet zakon"
+datum: 1997-05-30
+sop: 1997-01-1811
+objava: "Uradni list RS 31/97  str. 2842"
+kljucne_besede: ["davek od plač"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1811"
+---
+
+# Zakon o spremembi zakona o davku na izplačane plače
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam
+
+
+## U K A Z
+o razglasitvi zakona o spremembi in dopolnitvi zakona  o davku na izplačane plače (ZDIP-A)
+
+Razglašam zakon o spremembi in dopolnitvi zakona o davku na izplačane plače (ZDIP-A), ki ga je sprejel Državni zbor Republike Slovenije na seji dne 21. maja 1997.
+
+Št. 001-22-44/97
+
+Ljubljana, dne 29. maja 1997.
+
+Predsednik
+Republike Slovenije
+Milan Kučan l. r.
+
+
+## Z A K O N
+O SPREMEMBI IN DOPOLNITVI ZAKONA  O DAVKU NA IZPLAČANE PLAČE (ZDIP-A)
+
+
+### 1. člen
+
+V zakonu o davku na izplačane plače (Uradni list RS, št. 34/96) se v 2. členu doda nov drugi odstavek, ki se glasi:
+
+“Davka ne plačujejo invalidska podjetja.”
+
+
+### 2. člen
+
+V 4. členu se prvi odstavek spremeni tako, da se glasi:
+
+“Stopnje davka so:
+
+---------------------------------------------------------
+če znaša mesečna bruto plača zaposlenega      znaša davek
+---------------------------------------------------------
+do 110.000 tolarjev                                  0%
+od 110.001 do 130.000 tolarjev                       2%
+od 130.001 do 400.000 tolarjev                       4%
+od 400.001 do 750.000 tolarjev                       8%
+nad 750.000 tolarjev                              15%."
+-------------------------------------------------------
+
+
+### 3. člen
+
+Ta zakon začne veljati 1. julija 1997.
+
+Št. 435-03/96-3/3
+
+Ljubljana, dne 21. maja 1997
+
+Predsednik
+Državnega zbora
+Republike Slovenije
+Janez Podobnik, dr. med. l. r.
