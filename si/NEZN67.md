@@ -4,9 +4,9 @@ naziv: "Pravilnik o uporabi izraza mleko in uporabi označb za mlečne izdelke"
 vrsta: "akt"
 datum: 2001-02-16
 sop: 2001-01-0731
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0731"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o izvolitvi varuha človekovih pravic"
 vrsta: "odlok"
 datum: 2001-02-28
 sop: 2001-01-0856
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0856"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o seznamu organov tujih držav, pristojnih za izdajo listin o i
 vrsta: "navodilo"
 datum: 2001-02-28
 sop: 2001-01-0870
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0870"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Pravilnik o emisiji hrupa gospodinjskih strojev"
 vrsta: "pravilnik"
 datum: 2001-02-28
 sop: 2001-01-0865
-organ: "Ministrstvo za okolje in prostor"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0865"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve poslovnika Državnega zbora Republike Slovenije 
 vrsta: "akt"
 datum: 2001-02-09
 sop: 2001-01-0532
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0532"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o razrešitvi in imenovanju člana Nadzornega sveta Družbe za avt
 vrsta: "odlok"
 datum: 2001-02-09
 sop: 2001-01-0549
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0549"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Uredba o emisiji snovi pri odvajanju odpadnih vod iz objektov in naprav 
 vrsta: "uredba"
 datum: 2001-02-16
 sop: 2001-01-0669
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0669"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo za izvajanje subvencionirane študentske prehrane"
 vrsta: "navodilo"
 datum: 2001-02-23
 sop: 2001-01-0744
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0744"
 ---
 
