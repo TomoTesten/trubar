@@ -4,8 +4,9 @@ naziv: "Uredba o emisiji kadmija pri odvajanju odpadnih vod"
 vrsta: "uredba"
 datum: 1999-10-15
 sop: 1999-01-3992
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3992"
 ---
 

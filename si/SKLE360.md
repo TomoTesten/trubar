@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi pogojev v zvezi z naložbami investicijskih skladov v
 vrsta: "sklep"
 datum: 1999-10-15
 sop: 1999-01-4000
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4000"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Statut Zavoda Republike Slovenije za zaposlovanje"
 vrsta: "akt"
 datum: 1999-10-15
 sop: 1999-01-4001
-organ: "Zavod Republike Slovenije za zaposlovanje"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4001"
 ---
 

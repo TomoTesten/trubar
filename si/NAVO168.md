@@ -4,9 +4,9 @@ naziv: "Pravilnik o ukrepih za ugotavljanje, preprečevanje in zatiranje listeri
 vrsta: "navodilo"
 datum: 1999-10-21
 sop: 1999-01-4062
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4062"
 ---
 

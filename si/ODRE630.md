@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o financiranju in sofinancir
 vrsta: "odredba"
 datum: 1999-10-08
 sop: 1999-01-3897
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3897"
 ---
 
