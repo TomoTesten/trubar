@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah in dopolnitvah sklepa o pogojih in načinu nakupa, pr
 vrsta: "sklep"
 datum: 1997-12-15
 sop: 1997-01-3710
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3710"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi drugega odstavka 3. člena, prve, pete, šeste 
 vrsta: "akt"
 datum: 1997-12-10
 sop: 1997-01-3660
-organ: "Upravno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3660"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o poslovnih knjigah in poslovnih poročilih borzno posredniških d
 vrsta: "sklep"
 datum: 1997-12-19
 sop: 1997-01-3795
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3795"
 ---
 

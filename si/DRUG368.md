@@ -4,9 +4,9 @@ naziv: "Poročilo o izidu volitev članov Državnega sveta"
 vrsta: "drugi akt"
 datum: 1997-12-10
 sop: 1997-01-3662
-organ: "Republiška volilna komisija"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3662"
 ---
 

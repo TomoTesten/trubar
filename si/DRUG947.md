@@ -4,9 +4,9 @@ naziv: "Dopolnitev seznama zdravil skupine A in B, za katere je bilo od 28. 6. 1
 vrsta: "drugi akt"
 datum: 1997-12-22
 sop: 1997-01-3890
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3890"
 ---
 

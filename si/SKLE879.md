@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o temeljni obrestni meri"
 vrsta: "sklep"
 datum: 1997-12-19
 sop: 1997-01-3791
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3791"
 ---
 

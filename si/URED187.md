@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi obsega kontingentov za uvoz blaga v letu 1998"
 vrsta: "uredba"
 datum: 1997-12-19
 sop: 1997-01-3784
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3784"
 ---
 

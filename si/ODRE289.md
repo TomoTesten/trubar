@@ -4,8 +4,9 @@ naziv: "Odredba o valorizaciji zneskov za odmero davkov po zakonu o davkih obča
 vrsta: "odredba"
 datum: 1997-12-18
 sop: 1997-01-3764
-organ: "Ministrstvo za finance"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3764"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi uporabe znižane carinske stopnje in stopnje \"prost
 vrsta: "uredba"
 datum: 1997-12-15
 sop: 1997-01-3699
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3699"
 ---
 
