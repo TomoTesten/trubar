@@ -4,9 +4,9 @@ naziv: "Sklep o metodologiji za prevzem terjatev in obveznosti iz nasledstva nek
 vrsta: "sklep"
 datum: 1994-07-22
 sop: 1994-01-1741
-organ: "Sklad Republike Slovenije za sukcesijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1741"
 ---
 

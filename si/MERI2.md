@@ -4,9 +4,9 @@ naziv: "Merila za prehode med študijskimi programi"
 vrsta: "akt"
 datum: 1994-07-22
 sop: 1994-01-1739
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1739"
 ---
 

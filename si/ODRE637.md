@@ -4,9 +4,9 @@ naziv: "Odredba o spremembi odredbe o prepovedi prodaje in uvoza vozil brez kata
 vrsta: "odredba"
 datum: 1994-07-15
 sop: 1994-01-1719
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1719"
 ---
 

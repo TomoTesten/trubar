@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah sklepa o organizaciji in začetku dela Zavoda za gozd
 vrsta: "sklep"
 datum: 1994-07-15
 sop: 1994-01-1717
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1717"
 ---
 

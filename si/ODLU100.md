@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi 2. alinee 1. odstavka 50. člena zakon o gradit
 vrsta: "akt"
 datum: 1994-07-08
 sop: 1994-01-1656
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1656"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odredba o določitvi obrazca podpore volivca"
 vrsta: "odredba"
 datum: 1994-07-15
 sop: 1994-01-1721
-organ: "Ministrstvo za notranje zadeve"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1721"
 ---
 

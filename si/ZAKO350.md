@@ -4,9 +4,9 @@ naziv: "Zakon o najemu posojil in poroštvu za najeta posojila za odkup pšenice
 vrsta: "akt"
 datum: 1994-07-08
 sop: 1994-01-1675
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1675"
 ---
 

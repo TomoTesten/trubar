@@ -4,9 +4,9 @@ naziv: "Aneks h kolektivni pogodbi za kulturne dejavnosti Republike Slovenije"
 vrsta: "akt"
 datum: 1994-07-22
 sop: 1994-01-1745
-organ: "Ministrstvo za kulturo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1745"
 ---
 

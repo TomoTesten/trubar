@@ -4,9 +4,9 @@ naziv: "Pravilnik o šolninah in drugih prispevkih v visokem šolstvu"
 vrsta: "pravilnik"
 datum: 1994-07-08
 sop: 1994-01-1647
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1647"
 ---
 

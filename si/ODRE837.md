@@ -4,8 +4,9 @@ naziv: "Odredba o številu in sedežih notarskih mest"
 vrsta: "odredba"
 datum: 1994-07-08
 sop: 1994-01-1678
-organ: "Ministrstvo za pravosodje"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1678"
 ---
 

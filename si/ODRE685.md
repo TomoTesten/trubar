@@ -4,9 +4,9 @@ naziv: "Odredba o dopolnitvi odredbe o homologiranju vozil glede na emisijo ones
 vrsta: "odredba"
 datum: 1994-07-15
 sop: 1994-01-1718
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1718"
 ---
 
