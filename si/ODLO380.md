@@ -1,0 +1,125 @@
+---
+kratica: ODLO380
+naziv: "Odlok o določanju kratic aktov"
+vrsta: "odlok"
+datum: 1995-10-06
+sop: 1995-01-2655
+organ: "Državni zbor RS"
+zbirka: "Drugi splošni in posamični akti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2655"
+---
+
+# Odlok o določanju kratic aktov
+
+Na podlagi 166. člena in drugega odstavka 181. člena svojega poslovnika (Uradni list RS, št. 40/93 in 80/94) je Državni zbor Republike Slovenije na seji dne 28. septembra 1995 sprejel
+
+
+## O D L O K
+o določanju kratic aktov
+
+
+### 1. člen
+
+Splošni akti Državnega zbora, ki se objavljajo v Uradnem listu Republike Slovenije (v nadaljnjem besedilu: akt) se označijo s kratico na način, ki ga določa ta odlok.
+
+
+### 2. člen
+
+Kratica akta je skupek črk in številk, ki enopomensko označujejo posamezen akt.
+
+
+### 3. člen
+
+Vsakemu aktu se določi samo ena kratica, ki se mora razlikovati od kratic ostalih aktov.
+Sekretariat za zakonodajo in pravne zadeve (v nadaljnjem besedilu: sekretariat) določi kratico ob prejemu predloga akta v skladu z določbami tega odloka.
+
+
+### 4. člen
+
+Kratica akta je sestavljena iz oznake akta in začetnic za akt značilnih besed iz naslova akta.
+Kratica mora biti čim krajša, vendar ne manj kot dve in ne več kot osem znakov.
+
+
+### 5. člen
+
+Oznaka akta je sestavljena iz ene ali dveh črk, ki označujeta vrsto predpisa, in sicer:
+U ustava,
+UA ustavni amandma,
+UZ ustavni zakon,
+Z zakon,
+B zakon o ratifikaciji bilateralnega mednarodnega sporazuma,
+M zakon o ratifikaciji multilateralnega mednarodnega sporazuma,
+DP državni proračun,
+Rb rebalans proračuna,
+RZ zaključni račun državnega proračuna,
+De deklaracija,
+NP nacionalni program,
+Od odlok,
+OR obvezna razlaga akta,
+Po poslovnik,
+Pp priporočilo,
+Re resolucija.
+
+
+### 6. člen
+
+Kratica zakona o ratifikaciji mednarodnega bilateralnega akta vsebuje takoj za oznako predpisa dvočrkovno oznako države ter kratico naslova akta.
+Če je v naslovu akta premalo besed, da bi ga lahko le po začetnicah ločili od drugih aktov, se kratici dodata naslednji dve črki besede, ki najbolje označuje akt. Ti dve črki se v nastali kratici pišeta kot mali tiskani črki.
+Če je del naslova akta tudi letnica, se kratici lahko doda letnica brez tisočletja in stoletja.
+
+
+### 7. člen
+
+Kratica akta, ki dopolnjuje ali spreminja akt, je enaka kratici veljavnega akta, kateri se na koncu doda zaporedna velika tiskana črka. Oznaka se v kratici piše za pomišljajem.
+
+
+### 8. člen
+
+Pri aktih, za katere je kratica splošno znana, sekretariat odloči, ali naj se uveljavljena kratica nadomesti z novo kratico, ki ustreza določbam tega odloka.
+
+
+### 9. člen
+
+Če predlagatelj v predlogu akta uporablja kratico, ki ni v skladu s kratico, ki jo določi sekretariat, lahko sekretariat kratico redakcijsko popravi.
+
+
+### 10. člen
+
+Kratica akta se objavi skupaj z aktom v Uradnem listu Republike Slovenije takoj za naslovom akta v oklepaju.
+
+
+### 11. člen
+
+Sekretariat vodi seznam vseh kratic aktov. Seznam vsebuje polni naslov akta in njegovo kratico in se najmanj enkrat letno objavi v Uradnem listu Republike Slovenije.
+
+
+### 12. člen
+
+Če je predlog akta umaknjen iz obravnave ali ni sprejet, se sprosti tudi kratica, ki jo je ob prejemu akta določil sekretariat.
+Če akt preneha veljati, se kratica izbriše iz seznama kratic.
+
+
+### 13. člen
+
+Če pride do določitve dveh povsem enakih kratic, sekretariat ustrezno popravi novejšo kratico oziroma jo nadomesti z novo.
+
+
+### 14. člen
+
+Za veljavne zakone, ki so bili sprejeti po 25. juniju 1991 sekretariat evidenčno določi kratice, ki se uporabljajo do določitve kratic v skladu s tem odlokom.
+Za predloge aktov, ki so bili že sprejeti v prvi ali drugi obravnavi v Državnem zboru, sekretariat določi kratico najkasneje do odločanja o predlogu akta v zadnji obravnavi na seji Državnega zbora.
+
+
+### 15. člen
+
+Ta odlok začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 020-02/95-39/1
+
+Ljubljana, dne 28. septembra 1995.
+
+Predsednik
+Državnega zbora
+Republike Slovenije
+Jožef Školč l. r.
