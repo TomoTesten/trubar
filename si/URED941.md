@@ -4,8 +4,9 @@ naziv: "Uredba o teritorialnem obsegu upravnih enot v Republiki Sloveniji"
 vrsta: "uredba"
 datum: 1994-12-02
 sop: 1994-01-2690
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2690"
 ---
 

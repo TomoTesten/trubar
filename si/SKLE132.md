@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi cene električne energije družbam Tovarna dušika Ru
 vrsta: "sklep"
 datum: 1994-11-25
 sop: 1994-01-2622
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2622"
 ---
 

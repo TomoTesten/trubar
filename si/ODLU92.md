@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi neskladja 51. člena zakona o prisilni poravnavi, 
 vrsta: "akt"
 datum: 1994-11-30
 sop: 1994-01-2651
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2651"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o izdaji druge serije obveznic za odkup terjatev do Iraka, Kube in
 vrsta: "sklep"
 datum: 1994-11-25
 sop: 1994-01-2621
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2621"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi drugega odstavka 31. člena zakona o Radiotelev
 vrsta: "akt"
 datum: 1994-11-25
 sop: 1994-01-2630
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2630"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o skladu za financiranje razgradnje Nuklearne elektrarne Krško in
 vrsta: "akt"
 datum: 1994-12-02
 sop: 1994-01-2681
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2681"
 ---
 

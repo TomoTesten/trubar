@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi neskladnosti 2. in 3. člena zakona o ustanovitvi 
 vrsta: "akt"
 datum: 1994-11-25
 sop: 1994-01-2629
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2629"
 ---
 

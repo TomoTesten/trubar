@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve navodila o pošiljanju mesečnih poročil o knji
 vrsta: "navodilo"
 datum: 1994-12-15
 sop: 1994-01-2781
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2781"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Uredba o spremembah in dopolnitvah odloka o lokacijskem načrtu za avtoc
 vrsta: "odlok"
 datum: 1994-11-25
 sop: 1994-01-2618
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2618"
 ---
 

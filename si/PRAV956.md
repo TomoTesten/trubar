@@ -4,9 +4,9 @@ naziv: "Pravilnik o uporabi kvantitativnih kriterijev za razvrščanje v znanstv
 vrsta: "pravilnik"
 datum: 1994-12-02
 sop: 1994-01-2693
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2693"
 ---
 
