@@ -12,6 +12,10 @@ spremembe:
     datum: 1997-05-09
     sop: 1997-01-1487
     naziv: "Zakon o spremembah in dopolnitvah zakona o investicijskih skladih in družbah za upravljanje"
+  - kratica: ZISDU-B
+    datum: 1998-02-12
+    sop: 1998-01-0436
+    naziv: "Zakon o spremembi in dopolnitvi zakona o investicijskih skladih in družbah za upravljanje"
 ---
 
 # Zakon o investicijskih skladih in družbah za upravljanje
