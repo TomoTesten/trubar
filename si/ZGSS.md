@@ -1,0 +1,147 @@
+---
+kratica: ZGSS
+naziv: "Zakon o geometričnem središču Slovenije"
+vrsta: "Sprejet zakon"
+datum: 2003-10-21
+sop: 2003-01-4501
+objava: "Uradni list RS 101/2003  str. 14064"
+kljucne_besede: ["kulturna geografija"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4501"
+---
+
+# Zakon o geometričnem središču Slovenije
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam
+
+
+## U K A Z
+o razglasitvi zakona o geometričnem središču Slovenije (ZGSS)
+
+Razglašam zakon o geometričnem središču Slovenije (ZGSS), ki ga je sprejel Državni zbor Republike Slovenije na seji 2. oktobra 2003.
+
+Št. 001-22-81/03
+
+Ljubljana, dne 10. oktobra 2003.
+
+Predsednik
+Republike Slovenije
+dr. Janez Drnovšek l. r.
+
+
+## Z A K O N
+O GEOMETRIČNEM SREDIŠČU SLOVENIJE (ZGSS)
+
+
+### 1. člen
+
+
+### (predmet zakona)
+
+Zakon opredeljuje pomen geometričnega središča Republike Slovenije, določa njegovo lokacijo in območje, odkup območja, način določitve upravljavca, naloge upravljanja ter vire financiranja teh nalog.
+
+
+### 2. člen
+
+
+### (namen zakona)
+
+Namen tega zakona je določiti geometrično središče Republike Slovenije, opredeliti njegov poseben pomen za Republiko Slovenijo ter zagotoviti pogoje in določiti naloge za delovanje in nadaljnji razvoj območja GEOSS.
+
+
+### 3. člen
+
+
+### (pomen geometričnega središča Republike Slovenije)
+
+Geometrično središče Republike Slovenije je iz državnega in narodnega vidika posebnega pomena in simbolizira zakoreninjenost Slovencev na območju Republike Slovenije, zato država prevzema skrb za doseganje namena tega zakona in nadaljnje utrjevanje pomena geometričnega središča Republike Slovenije.
+
+
+### 4. člen
+
+
+### (lokacija geometričnega središča Republike Slovenije)
+
+(1) Geometrično središče Republike Slovenije (v nadaljevanju: GEOSS) se nahaja na zemljišču, parcelna številka 2037, k.o. Vače.
+(2) Simbol GEOSS je pomnik GEOSS, postavljen na zemljišču iz prejšnjega odstavka.
+
+
+### 5. člen
+
+
+### (območje GEOSS)
+
+Za območje GEOSS se po tem zakonu šteje nepremičnina, ki obsega zemljišče, parcelna številka 2037, k.o. Vače, skupaj z vsemi sestavinami.
+
+
+### 6. člen
+
+
+### (odkup območja GEOSS)
+
+(1) Zaradi posebnega pomena, navedenega v 3. členu tega zakona, država odkupi območje GEOSS. O načinu izvedbe in pogojih odkupa se stranki dogovorita s pogodbo.
+(2) Vrednost nepremičnine iz prejšnjega odstavka se določi na podlagi opravljene sodne cenitve.
+(3) Če se stranki ne sporazumeta o odkupu iz prvega odstavka tega člena, država zaradi javnega interesa lastninsko pravico območja GEOSS odvzame po postopku in na način, ki ga določa zakon, ki ureja razlastitev nepremičnin.
+
+
+### 7. člen
+
+
+### (upravljanje območja GEOSS)
+
+Upravljanje območja GEOSS se izvaja kot javna služba in obsega naslednje naloge:
+1. vzdrževanje, obnavljanje, dograjevanje in moderniziranje pomnika GEOSS z območjem GEOSS;
+2. pripravljanje, vzdrževanje in dopolnjevanje poti in označb ter druge infrastrukture na območju GEOSS;
+3. organiziranje tradicionalnih kulturnih prireditev in skrb za popularizacijo GEOSS;
+4. izdajanje publikacij o GEOSS in informiranje javnosti;
+5. pripravljanje letnega programa dela in opravljanje tam določenih nalog.
+
+
+### 8. člen
+
+
+### (izbira upravljavca)
+
+(1) Za opravljanje nalog iz prejšnjega člena tega zakona vlada izda koncesijski akt in na njegovi podlagi z javnim razpisom podeli koncesijo.
+(2) Za postopek izbire koncesionarja, za vprašanja v zvezi s koncesijsko pogodbo, za prenehanje koncesijskega razmerja in druga vprašanja iz koncesijskega razmerja se smiselno uporabljajo določbe zakona, ki ureja gospodarske javne službe.
+
+
+### 9. člen
+
+
+### (financiranje nalog)
+
+(1) Sredstva za opravljanje nalog iz 7. člena tega zakona se pridobivajo iz:
+– državnega proračuna;
+– sredstev lastne dejavnosti upravljavca;
+– dotacij in donacij;
+– drugih virov.
+(2) Sredstva iz prve alinee prejšnjega odstavka upravljavec pridobi na podlagi potrjenega letnega programa dela in razvoja, katerega sestavni del je tudi finančni načrt (v nadaljevanju: letni program dela). Upravljavec pripravi letni program dela, na katerega da mnenje pristojna lokalna skupnost, potrdi pa ga vlada.
+(3) Upravljavec izdela poročilo o izvajanju letnega programa dela ter ga posreduje vladi in lokalni skupnosti najkasneje v treh mesecih po preteku koledarskega leta.
+
+
+### 10. člen
+
+
+### (prehodni določbi)
+
+(1) Vlada izda podzakonski predpis iz prvega odstavka 8. člena tega zakona v šestih mesecih po uveljavitvi tega zakona.
+(2) Če v roku enega leta od uveljavitve tega zakona stranki ne skleneta pogodbe iz prvega odstavka 6. člena tega zakona, vlada sproži postopek za razlastitev iz tretjega odstavka 6. člena tega zakona.
+
+
+### 11. člen
+
+
+### (veljavnost zakona)
+
+Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 801-07/99-8/2
+
+Ljubljana, dne 2. oktobra 2003.
+
+EPA 602-III
+
+Predsednik
+Državnega zbora
+Republike Slovenije
+Borut Pahor l. r.
