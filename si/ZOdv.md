@@ -7,6 +7,11 @@ sop: 1993-01-0817
 objava: "Uradni list RS 18/93  str. 828"
 kljucne_besede: ["odvetnik"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0817"
+spremembe:
+  - kratica: ZOdv-A
+    datum: 2001-04-05
+    sop: 2001-01-1455
+    naziv: "Zakon o spremembah in dopolnitvah zakona o odvetništvu"
 ---
 
 # Zakon o odvetništvu
