@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-02-16
     sop: 2001-01-0664
     naziv: "Zakon o spremembah zakona o popravi krivic"
+  - kratica: ZPKri-B
+    datum: 2001-11-08
+    sop: 2001-01-4448
+    naziv: "Zakon o spremembi zakona o popravi krivic"
 ---
 
 # Zakon o popravi krivic
