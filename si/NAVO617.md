@@ -4,9 +4,9 @@ naziv: "Metodološko navodilo za predložitev letnih poročil društev za leto 2
 vrsta: "navodilo"
 datum: 2002-10-17
 sop: 2002-01-4381
-organ: "Agencija Republike Slovenije za javnopravne evidence in storitve"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4381"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Pravilnik o preventivnih zdravstvenih pregledih delavcev"
 vrsta: "pravilnik"
 datum: 2002-10-17
 sop: 2002-01-4367
-organ: "Ministrstvo za zdravje"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4367"
 ---
 
