@@ -4,9 +4,9 @@ naziv: "Odločba o podelitvi statusa društva v javnem interesu na področju kul
 vrsta: "akt"
 datum: 2001-08-03
 sop: 2001-01-3488
-organ: "Ministrstvo za kulturo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3488"
 ---
 

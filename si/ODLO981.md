@@ -4,9 +4,9 @@ naziv: "Odlok o potrditvi finančnega načrta Banke Slovenije za leto 2001 (OdFN
 vrsta: "odlok"
 datum: 2001-07-20
 sop: 2001-01-3166
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3166"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju na mesto višjega državnega tožilca na Višjem d
 vrsta: "akt"
 datum: 2001-07-27
 sop: 2001-01-3271
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3271"
 ---
 

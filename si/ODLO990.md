@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi odloka o ustanovitvi Odbora Državnega zbora Republike
 vrsta: "odlok"
 datum: 2001-07-27
 sop: 2001-01-3260
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3260"
 ---
 
