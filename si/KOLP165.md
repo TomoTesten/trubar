@@ -4,9 +4,9 @@ naziv: "Razlaga kolektivne pogodbe za kmetijstvo in živilsko industrijo Sloveni
 vrsta: "akt"
 datum: 2003-12-03
 sop: 2003-01-5153
-organ: "Komisija za razlago kolektivne pogodbe za kmetijsko in živilsko industrijo Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5153"
 ---
 

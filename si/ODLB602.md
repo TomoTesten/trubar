@@ -4,9 +4,9 @@ naziv: "Odločba o podaljšanju statusa Društva za varstvo in proti mučenju ž
 vrsta: "akt"
 datum: 2003-11-28
 sop: 2003-01-5076
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5076"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Aneks h kolektivni pogodbi za tekstilne, oblačilne, usnjarske in usnjar
 vrsta: "akt"
 datum: 2003-11-21
 sop: 2003-01-4994
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4994"
 ---
 
