@@ -7,6 +7,11 @@ sop: 1993-01-0125
 objava: "Uradni list RS 4/93  str. 137"
 kljucne_besede: ["delnica", "delniški kapital", "Slovenija", "EBRD"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0125"
+spremembe:
+  - kratica: ZVVD-A
+    datum: 1997-12-29
+    sop: 1997-01-4005
+    naziv: "Zakon o spremembah in dopolnitvah zakona o vpisu in vplačilu delnic v delniški kapital Evropske banke za obnovo in razvoj"
 ---
 
 # Zakon o vpisu in vplačilu delnic v delniški kapital Evropske banke za obnovo in razvoj
