@@ -7,6 +7,11 @@ sop: 1994-01-1828
 objava: "Uradni list RS 48/94  str. 3021"
 kljucne_besede: ["davčni nadzor", "revidiranja", "privatizacija", "finančni posel", "agencija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1828"
+spremembe:
+  - kratica: ZAPPNI-A
+    datum: 1995-10-13
+    sop: 1995-01-2696
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Agenciji Republike Slovenije za plačilni promet, nadziranje in informiranje"
 ---
 
 # Zakon o Agenciji Republike Slovenije za plačilni promet, nadziranje in informiranje
