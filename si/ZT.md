@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-11-14
     sop: 2002-01-4799
     naziv: "Zakon o spremembah in dopolnitvah zakona o trgovini"
+  - kratica: ZT-B
+    datum: 2004-03-10
+    sop: 2004-01-0918
+    naziv: "Zakon o spremembah zakona o trgovini"
 ---
 
 # Zakon o trgovini
