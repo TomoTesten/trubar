@@ -12,6 +12,10 @@ spremembe:
     datum: 1993-02-04
     sop: 1993-01-0290
     naziv: "Zakon o spremembah zakona o lastninskem preoblikovanju podjetij"
+  - kratica: ZLPP-B
+    datum: 1993-06-11
+    sop: 1993-01-1309
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lastninskem preoblikovanju podjetij"
 ---
 
 # Zakon o lastninskem preoblikovanju podjetij
