@@ -7,6 +7,11 @@ sop: 1998-01-1948
 objava: "Uradni list RS 45/98  str. 3195"
 kljucne_besede: ["potres", "naravna nesreča", "državna pomoč"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1948"
+spremembe:
+  - kratica: ZPOOSRP-A
+    datum: 1998-10-02
+    sop: 1998-01-3181
+    naziv: "Zakon o spremembah in dopolnitvah zakona o popotresni obnovi in spodbujanju razvoja v Posočju"
 ---
 
 # Zakon o popotresni obnovi objektov in spodbujanju razvoja v Posočju
