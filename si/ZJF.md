@@ -12,6 +12,10 @@ spremembe:
     datum: 2000-12-29
     sop: 2000-01-5204
     naziv: "Zakon o dopolnitvi zakona o javnih financah"
+  - kratica: ZJF-B
+    datum: 2001-10-10
+    sop: 2001-01-4108
+    naziv: "Zakon o spremembah in dopolnitvah zakona o javnih financah"
 ---
 
 # Zakon o javnih financah
