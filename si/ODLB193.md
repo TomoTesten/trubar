@@ -4,9 +4,9 @@ naziv: "Odločba o višini RTV naročnine"
 vrsta: "akt"
 datum: 1991-12-06
 sop: 1991-01-1179
-organ: "Svet RTV Slovenija"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1179"
 ---
 

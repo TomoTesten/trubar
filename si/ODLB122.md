@@ -4,9 +4,9 @@ naziv: "Odločba o izdaji dovoljenja za izdajo dolgoročnih vrednostnih papirjev
 vrsta: "akt"
 datum: 1991-12-06
 sop: 1991-01-1173
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1173"
 ---
 

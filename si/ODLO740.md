@@ -4,8 +4,9 @@ naziv: "Odlok o spremembi in dopolnitvi odloka o razvrstitvi blaga v oblike izvo
 vrsta: "odlok"
 datum: 1991-12-06
 sop: 1991-01-1205
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1205"
 ---
 

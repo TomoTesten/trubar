@@ -4,9 +4,9 @@ naziv: "Sklep o izdajanju blagajniških zapisov Banke Slovenije"
 vrsta: "sklep"
 datum: 1991-12-06
 sop: 1991-01-1175
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1175"
 ---
 
