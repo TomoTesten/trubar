@@ -7,6 +7,11 @@ sop: 1999-02-0071
 objava: "Uradni list RS MP 23/99  str. 973"
 kljucne_besede: ["ratifikacija sporazuma", "Makedonija", "prosti trg", "trgovinsko sodelovanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-02-0071"
+spremembe:
+  - kratica: BMKPT-A
+    datum: 2002-11-08
+    sop: 2002-02-0078
+    naziv: "Zakon o ratifikaciji Sporazuma o spremembi in dopolnitvi Sporazuma o prosti trgovini med Republiko Slovenijo in Republiko Makedonijo"
 ---
 
 # Zakon o ratifikaciji Sporazuma o prosti trgovini med Republiko Slovenijo in Republiko Makedonijo
