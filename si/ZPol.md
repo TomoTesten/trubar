@@ -16,6 +16,10 @@ spremembe:
     datum: 2003-08-12
     sop: 2003-01-3740
     naziv: "Zakon o spremembah in dopolnitvah zakona o policiji"
+  - kratica: ZPol-C
+    datum: 2004-05-06
+    sop: 2004-01-2296
+    naziv: "Zakon o spremembah in dopolnitvah zakona o policiji"
 ---
 
 # Zakon o policiji
