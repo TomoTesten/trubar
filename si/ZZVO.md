@@ -7,6 +7,11 @@ sop: 1994-01-1318
 objava: "Uradni list RS 32/94  str. 2048"
 kljucne_besede: ["varovanje in nadzor"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1318"
+spremembe:
+  - kratica: ZZVO-B
+    datum: 1998-02-06
+    sop: 1998-01-0432
+    naziv: "Zakon o spremembah zakona o zasebnem varovanju in o obveznem organiziranju službe varovanja"
 ---
 
 # Zakon o zasebnem varovanju in o obveznem organiziranju službe varovanja
