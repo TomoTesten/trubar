@@ -4,9 +4,9 @@ naziv: "Odločba o ustanovitvi, ukinitvi in spremembi naziva ali kategorije orga
 vrsta: "akt"
 datum: 1998-11-03
 sop: 1998-01-3731
-organ: "Carinska uprava RS (MF)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3731"
 ---
 

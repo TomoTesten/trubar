@@ -4,9 +4,9 @@ naziv: "Sklep o začasnem zadržanju izvrševanja 1. in 2. točke prvega odstavk
 vrsta: "akt"
 datum: 1998-10-23
 sop: 1998-01-3579
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3579"
 ---
 

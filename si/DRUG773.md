@@ -4,9 +4,9 @@ naziv: "Pravila klasične igre na srečo srečolov"
 vrsta: "drugi akt"
 datum: 1998-10-30
 sop: 1998-01-3642
-organ: "Športna loterija in igre na srečo d.d."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3642"
 ---
 

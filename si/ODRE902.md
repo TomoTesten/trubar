@@ -4,9 +4,9 @@ naziv: "Odredba o postopku obračunavanja in plačevanja davka pri združitvah d
 vrsta: "odredba"
 datum: 1998-11-04
 sop: 1998-01-3742
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3742"
 ---
 

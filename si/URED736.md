@@ -4,9 +4,9 @@ naziv: "Uredba o ekonomskih conah"
 vrsta: "uredba"
 datum: 1998-11-03
 sop: 1998-01-3728
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3728"
 ---
 

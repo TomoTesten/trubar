@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi dela določbe 45. točke 2. člena zakona o ust
 vrsta: "akt"
 datum: 1998-10-23
 sop: 1998-01-3577
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3577"
 ---
 

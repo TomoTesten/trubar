@@ -4,9 +4,9 @@ naziv: "Navodilo o pripravljanju in izdajanju tehničnih specifikacij za javne c
 vrsta: "navodilo"
 datum: 1998-10-09
 sop: 1998-01-3455
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3455"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o dopolnitvah sklepa o tarifi, po kateri se zaračunavajo plačila
 vrsta: "sklep"
 datum: 1998-11-06
 sop: 1998-01-3784
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3784"
 ---
 
