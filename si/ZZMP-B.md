@@ -1,0 +1,51 @@
+---
+kratica: ZZMP-B
+naziv: "Zakon o spremembi zakona o zdravilih in medicinskih pripomočkih"
+vrsta: "Sprejet zakon"
+datum: 2002-01-30
+sop: 2002-01-0355
+objava: "Uradni list RS 7/2002  str. 653"
+kljucne_besede: ["zdravilo", "medicinski in kirurški instrumenti"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0355"
+---
+
+# Zakon o spremembi zakona o zdravilih in medicinskih pripomočkih
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam
+
+
+## U K A Z
+o razglasitvi zakona o spremembi zakona  o zdravilih in medicinskih pripomočkih (ZZMP-B)
+
+Razglašam zakon o spremembi zakona o zdravilih in medicinskih pripomočkih (ZZMP-B), ki ga je sprejel Državni zbor Republike Slovenije na seji 17. januarja 2002.
+
+Št. 001-22-1/02
+
+Ljubljana, dne 25. januarja 2002.
+
+Predsednik
+Republike Slovenije
+Milan Kučan l. r.
+
+
+## Z A K O N
+O SPREMEMBI ZAKONA O ZDRAVILIH  IN MEDICINSKIH PRIPOMOČKIH (ZZMP-B)
+
+
+### 1. člen
+
+V zakonu o zdravilih in medicinskih pripomočkih (Uradni list RS, št. 101/99 in 70/00) se črta 116.a člen.
+
+
+### 2. člen
+
+Ta zakon začne veljati šestdeseti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 520-02/99-3/10
+
+Ljubljana, dne 17. januarja 2002.
+
+Predsednik
+Državnega zbora
+Republike Slovenije
+Borut Pahor l. r.
