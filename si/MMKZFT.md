@@ -1,0 +1,600 @@
+---
+kratica: MMKZFT
+naziv: "Zakon o ratifikaciji Mednarodne konvencije o zatiranju financiranja terorizma"
+vrsta: "Sprejet zakon"
+datum: 2004-07-27
+sop: 2004-02-0082
+objava: "Uradni list RS MP 21/04  str. 4457"
+kljucne_besede: ["sistem pokojninskega zavarovanja", "invalidsko zavarovanje"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-02-0082"
+---
+
+# Zakon o ratifikaciji Mednarodne konvencije o zatiranju financiranja terorizma
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam
+
+
+## U K A Z
+O RAZGLASITVI ZAKONA O RATIFIKACIJI MEDNARODNE KONVENCIJE O ZATIRANJU FINANCIRANJA TERORIZMA (MMKZFT)
+
+Razglašam Zakon o ratifikaciji Mednarodne konvencije o zatiranju financiranja terorizma (MMKZFT), ki ga je sprejel Državni zbor Republike Slovenije na seji 15. julija 2004.
+
+Št. 001-22-173/04
+
+Ljubljana, dne 23. julija 2004
+
+dr. Janez Drnovšek l. r.
+Predsednik
+Republike Slovenije
+
+
+## Z A K O N
+O RATIFIKACIJI MEDNARODNE KONVENCIJE O ZATIRANJU FINANCIRANJA TERORIZMA (MMKZFT)
+
+
+### 1. člen
+
+Ratificira se Mednarodna konvencija o zatiranju financiranja terorizma, podpisana 10. januarja 2000 v New Yorku.
+
+
+### 2. člen
+
+Besedilo konvencije se v izvirniku v angleškem jeziku ter v prevodu v slovenskem jeziku glasi:*
+
+
+## International Convention
+for the Suppression of the Financing of Terrorism
+
+
+### Preamble
+
+The States Parties to this Convention,
+Bearing in mind the purposes and principles of the Charter of the United Nations concerning the maintenance of international peace and security and the promotion of good-neighbourliness and friendly relations and cooperation among States,
+Deeply concerned about the worldwide escalation of acts of terrorism in all its forms and manifestations,
+Recalling the Declaration on the Occasion of the Fiftieth Anniversary of the United Nations, contained in General Assembly resolution 50/6 of 24 October 1995,
+Recalling also all the relevant General Assembly resolutions on the matter, including resolution 49/60 of 9 December 1994 and the annex thereto on the Declaration on Measures to Eliminate International Terrorism, in which the States Members of the United Nations solemnly reaffirmed their unequivocal condemnation of all acts, methods and practices of terrorism as criminal and unjustifiable, wherever and by whomever committed, including those which jeopardize the friendly relations among States and peoples and threaten the territorial integrity and security of States,
+Noting that the Declaration on Measures to Eliminate International Terrorism also encouraged States to review urgently the scope of the existing international legal provisions on the prevention, repression and elimination of terrorism in all its forms and manifestations, with the aim of ensuring that there is a comprehensive legal framework covering all aspects of the matter,
+Recalling General Assembly resolution 51/210 of 17 December 1996, paragraph 3, subparagraph (f), in which the Assembly called upon all States to take steps to prevent and counteract, through appropriate domestic measures, the financing of terrorists and terrorist organizations, whether such financing is direct or indirect through organizations which also have or claim to have charitable, social or cultural goals or which are also engaged in unlawful activities such as illicit arms trafficking, drug dealing and racketeering, including the exploitation of persons for purposes of funding terrorist activities, and in particular to consider, where appropriate, adopting regulatory measures to prevent and counteract movements of funds suspected to be intended for terrorist purposes without impeding in any way the freedom of legitimate capital movements and to intensify the exchange of information concerning international movements of such funds,
+Recalling also General Assembly resolution 52/165 of 15 December 1997, in which the Assembly called upon States to consider, in particular, the implementation of the measures set out in paragraphs 3 (a) to (f) of its resolution 51/210 of 17 December 1996,
+Recalling further General Assembly resolution 53/108 of 8 December 1998, in which the Assembly decided that the Ad Hoc Committee established by General Assembly resolution 51/210 of 17 December 1996 should elaborate a draft international convention for the suppression of terrorist financing to supplement related existing international instruments,
+Considering that the financing of terrorism is a matter of grave concern to the international community as a whole,
+Noting that the number and seriousness of acts of international terrorism depend on the financing that terrorists may obtain,
+Noting also that existing multilateral legal instruments do not expressly address such financing,
+Being convinced of the urgent need to enhance international cooperation among States in devising and adopting effective measures for the prevention of the financing of terrorism, as well as for its suppression through the prosecution and punishment of its perpetrators,
+Have agreed as follows:
+
+
+### Article 1
+
+For the purposes of this Convention:
+1. "Funds" means assets of every kind, whether tangible or intangible, movable or immovable, however acquired, and legal documents or instruments in any form, including electronic or digital, evidencing title to, or interest in, such assets, including, but not limited to, bank credits, travellers cheques, bank cheques, money orders, shares, securities, bonds, drafts, letters of credit.
+2. "A State or government facility" means any permanent or temporary facility or conveyance that is used or occupied by representatives of a State, members of Government, the legislature or the judiciary or by officials or employees of a State or any other public authority or entity or by employees or officials of an intergovernmental organization in connection with their official duties.
+3. "Proceeds" means any funds derived from or obtained, directly or indirectly, through the commission of an offence set forth in article 2.
+
+
+### Article 2
+
+1. Any person commits an offence within the meaning of this Convention if that person by any means, directly or indirectly, unlawfully and wilfully, provides or collects funds with the intention that they should be used or in the knowledge that they are to be used, in full or in part, in order to carry out:
+(a) An act which constitutes an offence within the scope of and as defined in one of the treaties listed in the annex; or
+(b) Any other act intended to cause death or serious bodily injury to a civilian, or to any other person not taking an active part in the hostilities in a situation of armed conflict, when the purpose of such act, by its nature or context, is to intimidate a population, or to compel a Government or an international organization to do or to abstain from doing any act.
+2. (a) On depositing its instrument of ratification, acceptance, approval or accession, a State Party which is not a party to a treaty listed in the annex may declare that, in the application of this Convention to the State Party, the treaty shall be deemed not to be included in the annex referred to in paragraph 1, subparagraph (a). The declaration shall cease to have effect as soon as the treaty enters into force for the State Party, which shall notify the depositary of this fact;
+(b) When a State Party ceases to be a party to a treaty listed in the annex, it may make a declaration as provided for in this article, with respect to that treaty.
+3. For an act to constitute an offence set forth in paragraph 1, it shall not be necessary that the funds were actually used to carry out an offence referred to in paragraph 1, subparagraph (a) or (b).
+4. Any person also commits an offence if that person attempts to commit an offence as set forth in paragraph 1 of this article.
+5. Any person also commits an offence if that person:
+(a) Participates as an accomplice in an offence as set forth in paragraph 1 or 4 of this article;
+(b) Organizes or directs others to commit an offence as set forth in paragraph 1 or 4 of this article;
+(c) Contributes to the commission of one or more offences as set forth in paragraph 1 or 4 of this article by a group of persons acting with a common purpose. Such contribution shall be intentional and shall either:
+(i) Be made with the aim of furthering the criminal activity or criminal purpose of the group, where such activity or purpose involves the commission of an offence as set forth in paragraph 1 of this article; or
+(ii) Be made in the knowledge of the intention of the group to commit an offence as set forth in paragraph 1 of this article.
+
+
+### Article 3
+
+This Convention shall not apply where the offence is committed within a single State, the alleged offender is a national of that State and is present in the territory of that State and no other State has a basis under article 7, paragraph 1 or 2, to exercise jurisdiction, except that the provisions of articles 12 to 18 shall, as appropriate, apply in those cases.
+
+
+### Article 4
+
+Each State Party shall adopt such measures as may be necessary:
+(a) To establish as criminal offences under its domestic law the offences as set forth in article 2;
+(b) To make those offences punishable by appropriate penalties which take into account the grave nature of the offences.
+
+
+### Article 5
+
+1. Each State Party, in accordance with its domestic legal principles, shall take the necessary measures to enable a legal entity located in its territory or organized under its laws to be held liable when a person responsible for the management or control of that legal entity has, in that capacity, committed an offence as set forth in article 2. Such liability may be criminal, civil or administrative.
+2. Such liability is incurred without prejudice to the criminal liability of individuals who have committed the offences.
+3. Each State Party shall ensure, in particular, that legal entities liable in accordance with paragraph 1 above are subject to effective, proportionate and dissuasive criminal, civil or administrative sanctions. Such sanctions may include monetary sanctions.
+
+
+### Article 6
+
+Each State Party shall adopt such measures as may be necessary, including, where appropriate, domestic legislation, to ensure that criminal acts within the scope of this Convention are under no circumstances justifiable by considerations of a political, philosophical, ideological, racial, ethnic, religious or other similar nature.
+
+
+### Article 7
+
+1. Each State Party shall take such measures as may be necessary to establish its jurisdiction over the offences set forth in article 2 when:
+(a) The offence is committed in the territory of that State;
+(b) The offence is committed on board a vessel flying the flag of that State or an aircraft registered under the laws of that State at the time the offence is committed;
+(c) The offence is committed by a national of that State.
+2. A State Party may also establish its jurisdiction over any such offence when:
+(a) The offence was directed towards or resulted in the carrying out of an offence referred to in article 2, paragraph 1, subparagraph (a) or (b), in the territory of or against a national of that State;
+(b) The offence was directed towards or resulted in the carrying out of an offence referred to in article 2, paragraph 1, subparagraph (a) or (b), against a State or government facility of that State abroad, including diplomatic or consular premises of that State;
+(c) The offence was directed towards or resulted in an offence referred to in article 2, paragraph 1, subparagraph (a) or (b), committed in an attempt to compel that State to do or abstain from doing any act;
+(d) The offence is committed by a stateless person who has his or her habitual residence in the territory of that State;
+(e) The offence is committed on board an aircraft which is operated by the Government of that State.
+3. Upon ratifying, accepting, approving or acceding to this Convention, each State Party shall notify the Secretary-General of the United Nations of the jurisdiction it has established in accordance with paragraph 2. Should any change take place, the State Party concerned shall immediately notify the Secretary-General.
+4. Each State Party shall likewise take such measures as may be necessary to establish its jurisdiction over the offences set forth in article 2 in cases where the alleged offender is present in its territory and it does not extradite that person to any of the States Parties that have established their jurisdiction in accordance with paragraphs 1 or 2.
+5. When more than one State Party claims jurisdiction over the offences set forth in article 2, the relevant States Parties shall strive to coordinate their actions appropriately, in particular concerning the conditions for prosecution and the modalities for mutual legal assistance.
+6. Without prejudice to the norms of general international law, this Convention does not exclude the exercise of any criminal jurisdiction established by a State Party in accordance with its domestic law.
+
+
+### Article 8
+
+1. Each State Party shall take appropriate measures, in accordance with its domestic legal principles, for the identification, detection and freezing or seizure of any funds used or allocated for the purpose of committing the offences set forth in article 2 as well as the proceeds derived from such offences, for purposes of possible forfeiture.
+2. Each State Party shall take appropriate measures, in accordance with its domestic legal principles, for the forfeiture of funds used or allocated for the purpose of committing the offences set forth in article 2 and the proceeds derived from such offences.
+3. Each State Party concerned may give consideration to concluding agreements on the sharing with other States Parties, on a regular or case-by-case basis, of the funds derived from the forfeitures referred to in this article.
+4. Each State Party shall consider establishing mechanisms whereby the funds derived from the forfeitures referred to in this article are utilized to compensate the victims of offences referred to in article 2, paragraph 1, subparagraph (a) or (b), or their families.
+5. The provisions of this article shall be implemented without prejudice to the rights of third parties acting in good faith.
+
+
+### Article 9
+
+1. Upon receiving information that a person who has committed or who is alleged to have committed an offence set forth in article 2 may be present in its territory, the State Party concerned shall take such measures as may be necessary under its domestic law to investigate the facts contained in the information.
+2. Upon being satisfied that the circumstances so warrant, the State Party in whose territory the offender or alleged offender is present shall take the appropriate measures under its domestic law so as to ensure that person's presence for the purpose of prosecution or extradition.
+3. Any person regarding whom the measures referred to in paragraph 2 are being taken shall be entitled:
+(a) To communicate without delay with the nearest appropriate representative of the State of which that person is a national or which is otherwise entitled to protect that person's rights or, if that person is a stateless person, the State in the territory of which that person habitually resides;
+(b) To be visited by a representative of that State;
+(c) To be informed of that person's rights under subparagraphs (a) and (b).
+4. The rights referred to in paragraph 3 shall be exercised in conformity with the laws and regulations of the State in the territory of which the offender or alleged offender is present, subject to the provision that the said laws and regulations must enable full effect to be given to the purposes for which the rights accorded under paragraph 3 are intended.
+5. The provisions of paragraphs 3 and 4 shall be without prejudice to the right of any State Party having a claim to jurisdiction in accordance with article 7, paragraph 1, subparagraph (b), or paragraph 2, subparagraph (b), to invite the International Committee of the Red Cross to communicate with and visit the alleged offender.
+6. When a State Party, pursuant to the present article, has taken a person into custody, it shall immediately notify, directly or through the Secretary-General of the United Nations, the States Parties which have established jurisdiction in accordance with article 7, paragraph 1 or 2, and, if it considers it advisable, any other interested States Parties, of the fact that such person is in custody and of the circumstances which warrant that person's detention. The State which makes the investigation contemplated in paragraph 1 shall promptly inform the said States Parties of its findings and shall indicate whether it intends to exercise jurisdiction.
+
+
+### Article 10
+
+1. The State Party in the territory of which the alleged offender is present shall, in cases to which article 7 applies, if it does not extradite that person, be obliged, without exception whatsoever and whether or not the offence was committed in its territory, to submit the case without undue delay to its competent authorities for the purpose of prosecution, through proceedings in accordance with the laws of that State. Those authorities shall take their decision in the same manner as in the case of any other offence of a grave nature under the law of that State.
+2. Whenever a State Party is permitted under its domestic law to extradite or otherwise surrender one of its nationals only upon the condition that the person will be returned to that State to serve the sentence imposed as a result of the trial or proceeding for which the extradition or surrender of the person was sought, and this State and the State seeking the extradition of the person agree with this option and other terms they may deem appropriate, such a conditional extradition or surrender shall be sufficient to discharge the obligation set forth in paragraph 1.
+
+
+### Article 11
+
+1. The offences set forth in article 2 shall be deemed to be included as extraditable offences in any extradition treaty existing between any of the States Parties before the entry into force of this Convention. States Parties undertake to include such offences as extraditable offences in every extradition treaty to be subsequently concluded between them.
+2. When a State Party which makes extradition conditional on the existence of a treaty receives a request for extradition from another State Party with which it has no extradition treaty, the requested State Party may, at its option, consider this Convention as a legal basis for extradition in respect of the offences set forth in article 2. Extradition shall be subject to the other conditions provided by the law of the requested State.
+3. States Parties which do not make extradition conditional on the existence of a treaty shall recognize the offences set forth in article 2 as extraditable offences between themselves, subject to the conditions provided by the law of the requested State.
+4. If necessary, the offences set forth in article 2 shall be treated, for the purposes of extradition between States Parties, as if they had been committed not only in the place in which they occurred but also in the territory of the States that have established jurisdiction in accordance with article 7, paragraphs 1 and 2.
+5. The provisions of all extradition treaties and arrangements between States Parties with regard to offences set forth in article 2 shall be deemed to be modified as between States Parties to the extent that they are incompatible with this Convention.
+
+
+### Article 12
+
+1. States Parties shall afford one another the greatest measure of assistance in connection with criminal investigations or criminal or extradition proceedings in respect of the offences set forth in article 2, including assistance in obtaining evidence in their possession necessary for the proceedings.
+2. States Parties may not refuse a request for mutual legal assistance on the ground of bank secrecy.
+3. The requesting Party shall not transmit or use information or evidence furnished by the requested Party for investigations, prosecutions or proceedings other than those stated in the request without the prior consent of the requested Party.
+4. Each State Party may give consideration to establishing mechanisms to share with other States Parties information or evidence needed to establish criminal, civil or administrative liability pursuant to article 5.
+5. States Parties shall carry out their obligations under paragraphs 1 and 2 in conformity with any treaties or other arrangements on mutual legal assistance or information exchange that may exist between them. In the absence of such treaties or arrangements, States Parties shall afford one another assistance in accordance with their domestic law.
+
+
+### Article 13
+
+None of the offences set forth in article 2 shall be regarded, for the purposes of extradition or mutual legal assistance, as a fiscal offence. Accordingly, States Parties may not refuse a request for extradition or for mutual legal assistance on the sole ground that it concerns a fiscal offence.
+
+
+### Article 14
+
+None of the offences set forth in article 2 shall be regarded for the purposes of extradition or mutual legal assistance as a political offence or as an offence connected with a political offence or as an offence inspired by political motives. Accordingly, a request for extradition or for mutual legal assistance based on such an offence may not be refused on the sole ground that it concerns a political offence or an offence connected with a political offence or an offence inspired by political motives.
+
+
+### Article 15
+
+Nothing in this Convention shall be interpreted as imposing an obligation to extradite or to afford mutual legal assistance, if the requested State Party has substantial grounds for believing that the request for extradition for offences set forth in article 2 or for mutual legal assistance with respect to such offences has been made for the purpose of prosecuting or punishing a person on account of that person's race, religion, nationality, ethnic origin or political opinion or that compliance with the request would cause prejudice to that person's position for any of these reasons.
+
+
+### Article 16
+
+1. A person who is being detained or is serving a sentence in the territory of one State Party whose presence in another State Party is requested for purposes of identification, testimony or otherwise providing assistance in obtaining evidence for the investigation or prosecution of offences set forth in article 2 may be transferred if the following conditions are met:
+(a) The person freely gives his or her informed consent;
+(b) The competent authorities of both States agree, subject to such conditions as those States may deem appropriate.
+2. For the purposes of the present article:
+(a) The State to which the person is transferred shall have the authority and obligation to keep the person transferred in custody, unless otherwise requested or authorized by the State from which the person was transferred;
+(b) The State to which the person is transferred shall without delay implement its obligation to return the person to the custody of the State from which the person was transferred as agreed beforehand, or as otherwise agreed, by the competent authorities of both States;
+(c) The State to which the person is transferred shall not require the State from which the person was transferred to initiate extradition proceedings for the return of the person;
+(d) The person transferred shall receive credit for service of the sentence being served in the State from which he or she was transferred for time spent in the custody of the State to which he or she was transferred.
+3. Unless the State Party from which a person is to be transferred in accordance with the present article so agrees, that person, whatever his or her nationality, shall not be prosecuted or detained or subjected to any other restriction of his or her personal liberty in the territory of the State to which that person is transferred in respect of acts or convictions anterior to his or her departure from the territory of the State from which such person was transferred.
+
+
+### Article 17
+
+Any person who is taken into custody or regarding whom any other measures are taken or proceedings are carried out pursuant to this Convention shall be guaranteed fair treatment, including enjoyment of all rights and guarantees in conformity with the law of the State in the territory of which that person is present and applicable provisions of international law, including international human rights law.
+
+
+### Article 18
+
+1. States Parties shall cooperate in the prevention of the offences set forth in article 2 by taking all practicable measures, inter alia, by adapting their domestic legislation, if necessary, to prevent and counter preparations in their respective territories for the commission of those offences within or outside their territories, including:
+(a) Measures to prohibit in their territories illegal activities of persons and organizations that knowingly encourage, instigate, organize or engage in the commission of offences set forth in article 2;
+(b) Measures requiring financial institutions and other professions involved in financial transactions to utilize the most efficient measures available for the identification of their usual or occasional customers, as well as customers in whose interest accounts are opened, and to pay special attention to unusual or suspicious transactions and report transactions suspected of stemming from a criminal activity. For this purpose, States Parties shall consider:
+(i) Adopting regulations prohibiting the opening of accounts, the holders or beneficiaries of which are unidentified or unidentifiable, and measures to ensure that such institutions verify the identity of the real owners of such transactions;
+(ii) With respect to the identification of legal entities, requiring financial institutions, when necessary, to take measures to verify the legal existence and the structure of the customer by obtaining, either from a public register or from the customer or both, proof of incorporation, including information concerning the customer's name, legal form, address, directors and provisions regulating the power to bind the entity;
+(iii) Adopting regulations imposing on financial institutions the obligation to report promptly to the competent authorities all complex, unusual large transactions and unusual patterns of transactions, which have no apparent economic or obviously lawful purpose, without fear of assuming criminal or civil liability for breach of any restriction on disclosure of information if they report their suspicions in good faith;
+(iv) Requiring financial institutions to maintain, for at least five years, all necessary records on transactions, both domestic and international.
+2. States Parties shall further cooperate in the prevention of offences set forth in article 2 by considering:
+(a) Measures for the supervision, including, for example, the licensing, of all money-transmission agencies;
+(b) Feasible measures to detect or monitor the physical cross-border transportation of cash and bearer negotiable instruments, subject to strict safeguards to ensure proper use of information and without impeding in any way the freedom of capital movements.
+3. States Parties shall further cooperate in the prevention of the offences set forth in article 2 by exchanging accurate and verified information in accordance with their domestic law and coordinating administrative and other measures taken, as appropriate, to prevent the commission of offences set forth in article 2, in particular by:
+(a) Establishing and maintaining channels of communication between their competent agencies and services to facilitate the secure and rapid exchange of information concerning all aspects of offences set forth in article 2;
+(b) Cooperating with one another in conducting inquiries, with respect to the offences set forth in article 2, concerning:
+(i) The identity, whereabouts and activities of persons in respect of whom reasonable suspicion exists that they are involved in such offences;
+(ii) The movement of funds relating to the commission of such offences.
+4. States Parties may exchange information through the International Criminal Police Organization (Interpol).
+
+
+### Article 19
+
+The State Party where the alleged offender is prosecuted shall, in accordance with its domestic law or applicable procedures, communicate the final outcome of the proceedings to the Secretary-General of the United Nations, who shall transmit the information to the other States Parties.
+
+
+### Article 20
+
+The States Parties shall carry out their obligations under this Convention in a manner consistent with the principles of sovereign equality and territorial integrity of States and that of non-intervention in the domestic affairs of other States.
+
+
+### Article 21
+
+Nothing in this Convention shall affect other rights, obligations and responsibilities of States and individuals under international law, in particular the purposes of the Charter of the United Nations, international humanitarian law and other relevant conventions.
+
+
+### Article 22
+
+Nothing in this Convention entitles a State Party to undertake in the territory of another State Party the exercise of jurisdiction or performance of functions which are exclusively reserved for the authorities of that other State Party by its domestic law.
+
+
+### Article 23
+
+1. The annex may be amended by the addition of relevant treaties:
+(a) That are open to the participation of all States;
+(b) That have entered into force;
+(c) That have been ratified, accepted, approved or acceded to by at least twenty-two States Parties to the present Convention.
+2. After the entry into force of this Convention, any State Party may propose such an amendment. Any proposal for an amendment shall be communicated to the depositary in written form. The depositary shall notify proposals that meet the requirements of paragraph 1 to all States Parties and seek their views on whether the proposed amendment should be adopted.
+3. The proposed amendment shall be deemed adopted unless one third of the States Parties object to it by a written notification not later than 180 days after its circulation.
+4. The adopted amendment to the annex shall enter into force 30 days after the deposit of the twenty-second instrument of ratification, acceptance or approval of such amendment for all those States Parties that have deposited such an instrument. For each State Party ratifying, accepting or approving the amendment after the deposit of the twenty-second instrument, the amendment shall enter into force on the thirtieth day after deposit by such State Party of its instrument of ratification, acceptance or approval.
+
+
+### Article 24
+
+1. Any dispute between two or more States Parties concerning the interpretation or application of this Convention which cannot be settled through negotiation within a reasonable time shall, at the request of one of them, be submitted to arbitration. If, within six months from the date of the request for arbitration, the parties are unable to agree on the organization of the arbitration, any one of those parties may refer the dispute to the International Court of Justice, by application, in conformity with the Statute of the Court.
+2. Each State may at the time of signature, ratification, acceptance or approval of this Convention or accession thereto declare that it does not consider itself bound by paragraph 1. The other States Parties shall not be bound by paragraph 1 with respect to any State Party which has made such a reservation.
+3. Any State which has made a reservation in accordance with paragraph 2 may at any time withdraw that reservation by notification to the Secretary-General of the United Nations.
+
+
+### Article 25
+
+1. This Convention shall be open for signature by all States from 10 January 2000 to 31 December 2001 at United Nations Headquarters in New York.
+2. This Convention is subject to ratification, acceptance or approval. The instruments of ratification, acceptance or approval shall be deposited with the Secretary-General of the United Nations.
+3. This Convention shall be open to accession by any State. The instruments of accession shall be deposited with the Secretary-General of the United Nations.
+
+
+### Article 26
+
+1. This Convention shall enter into force on the thirtieth day following the date of the deposit of the twenty-second instrument of ratification, acceptance, approval or accession with the Secretary-General of the United Nations.
+2. For each State ratifying, accepting, approving or acceding to the Convention after the deposit of the twenty-second instrument of ratification, acceptance, approval or accession, the Convention shall enter into force on the thirtieth day after deposit by such State of its instrument of ratification, acceptance, approval or accession.
+
+
+### Article 27
+
+1. Any State Party may denounce this Convention by written notification to the Secretary-General of the United Nations.
+2. Denunciation shall take effect one year following the date on which notification is received by the Secretary-General of the United Nations.
+
+
+### Article 28
+
+The original of this Convention, of which the Arabic, Chinese, English, French, Russian and Spanish texts are equally authentic, shall be deposited with the Secretary-General of the United Nations who shall send certified copies thereof to all States.
+IN WITNESS WHEREOF, the undersigned, being duly authorized thereto by their respective Governments, have signed this Convention, opened for signature at United Nations Headquarters in New York on 10 January 2000.
+
+
+### Annex
+
+1. Convention for the Suppression of Unlawful Seizure of Aircraft, done at The Hague on 16 December 1970.
+2. Convention for the Suppression of Unlawful Acts against the Safety of Civil Aviation, done at Montreal on 23 September 1971.
+3. Convention on the Prevention and Punishment of Crimes against Internationally Protected Persons, including Diplomatic Agents, adopted by the General Assembly of the United Nations on 14 December 1973.
+4. International Convention against the Taking of Hostages, adopted by the General Assembly of the United Nations on 17 December 1979.
+5. Convention on the Physical Protection of Nuclear Material, adopted at Vienna on 3 March 1980.
+6. Protocol for the Suppression of Unlawful Acts of Violence at Airports Serving International Civil Aviation, supplementary to the Convention for the Suppression of Unlawful Acts against the Safety of Civil Aviation, done at Montreal on 24 February 1988.
+7. Convention for the Suppression of Unlawful Acts against the Safety of Maritime Navigation, done at Rome on 10 March 1988.
+8. Protocol for the Suppression of Unlawful Acts against the Safety of Fixed Platforms located on the Continental Shelf, done at Rome on 10 March 1988.
+9. International Convention for the Suppression of Terrorist Bombings, adopted by the General Assembly of the United Nations on 15 December 1997.
+
+
+## Mednarodna konvencija
+o zatiranju financiranja terorizma
+
+
+### Uvod
+
+Države pogodbenice te konvencije
+se zavedajo ciljev in načel Ustanovne listine Združenih narodov, ki se nanašajo na ohranjanje mednarodnega miru in varnosti, na spodbujanje dobrih sosedskih in prijateljskih odnosov ter na sodelovanje med državami,
+so globoko zaskrbljene zaradi stopnjevanja vseh oblik in vrst terorizma po vsem svetu,
+se sklicujejo na Deklaracijo, sprejeto ob 50. obletnici ustanovitve Združenih narodov, ki jo vsebuje Resolucija Generalne skupščine 50/6 z dne 24. oktobra 1995,
+se sklicujejo tudi na vse ustrezne resolucije Generalne skupščine o tej zadevi, vključno z Resolucijo 49/60 z dne 9. decembra 1994 ter njeno prilogo o Deklaraciji o ukrepih za odpravo mednarodnega terorizma, v kateri države članice Združenih narodov ponovno svečano potrjujejo, da soglasno obsojajo vsa dejanja, metode in oblike terorizma kot kriminalne in neopravičljive ne glede na to, kje in kdo jih stori, vključno s tistimi, ki ogrožajo prijateljske odnose med državami in narodi ter ozemeljsko celovitost in varnost držav,
+ugotavljajo, da tudi Deklaracija o ukrepih za odpravo mednarodnega terorizma spodbuja države, da nujno ponovno pregledajo področje uporabe obstoječih mednarodnih predpisov o preprečevanju, zatiranju in odpravi vseh oblik in vrst terorizma z namenom, da se zagotovi vsestranski pravni okvir za vse vidike problematike,
+se sklicujejo na pododstavek f) tretjega odstavka Resolucije Generalne skupščine 51/210 z dne 17. decembra 1996, v kateri Skupščina poziva vse države, da sprejmejo ustrezne notranje ukrepe za preprečevanje in zatiranje financiranja teroristov in terorističnih organizacij ne glede na to, ali tako financiranje poteka neposredno ali posredno prek organizacij, ki imajo ali trdijo, da imajo dobrodelne, socialne ali kulturne cilje, ali so vpletene tudi v nezakonite dejavnosti, kot so nedovoljena trgovina z orožjem, drogami in izsiljevanje, vključno z izkoriščanjem oseb za financiranje terorističnih dejavnosti, ter zlasti da proučijo, kjer je to primerno, sprejetje ureditvenih ukrepov za preprečevanje in zatiranje prenosa sredstev, za katera sumijo, da so namenjena terorizmu, ne da bi pri tem kakor koli omejevale prost pretok zakonitega kapitala, in okrepijo izmenjavo informacij o mednarodnem prenosu takih sredstev,
+se sklicujejo tudi na Resolucijo Generalne skupščine 52/165 z dne 15. decembra 1997, v kateri Skupščina poziva države, naj proučijo zlasti izvajanje ukrepov iz pododstavkov a) do f) tretjega odstavka Resolucije 51/210 z dne 17. decembra 1996;
+se prav tako sklicujejo na Resolucijo Generalne skupščine 53/108 z dne 8. decembra 1998, v kateri je Skupščina sklenila, da ad hoc odbor, ustanovljen na podlagi Resolucije Generalne skupščine 51/210 z dne 17. decembra 1996, izdela osnutek mednarodne konvencije o zatiranju financiranja terorizma kot dopolnitev obstoječih mednarodnih instrumentov s tega področja,
+upoštevajo, da je financiranje terorizma skrb vzbujajoč problem za mednarodno skupnost kot celoto,
+ugotavljajo, da sta število in teža dejanj mednarodnega terorizma odvisna od finančnih sredstev, ki jih teroristi lahko pridobijo,
+ugotavljajo tudi, da obstoječi večstranski pravni instrumenti takega financiranja izrecno ne obravnavajo,
+so prepričane, da je nujno treba razširiti mednarodno sodelovanje med državami pri načrtovanju in sprejemanju učinkovitih ukrepov za preprečevanje financiranja terorizma in za njegovo zatiranje s pregonom in kaznovanjem storilcev,
+so se dogovorile:
+
+
+### 1. člen
+
+V tej konvenciji:
+1. »sredstva« pomenijo kakršno koli premoženje, materialno ali nematerialno, premično ali nepremično, pridobljeno na kakršen koli način, ter pravne dokumente ali listine v kakršni koli obliki, tudi v elektronski ali digitalni, ki dokazujejo pravico do takega premoženja ali udeležbo na njem, vključno, vendar ne samo, z bančnimi krediti, potovalnimi čeki, bančnimi čeki, denarnimi nakaznicami, delnicami, vrednostnimi papirji, obveznicami, menicami, akreditivi;
+2. »državni ali vladni objekt« pomeni vse stalne ali začasne objekte ali prevozna sredstva, ki jih pri opravljanju svojih uradnih dolžnosti uporabljajo ali zasedajo predstavniki države, člani vlade, zakonodajne oblasti ali sodstva, uradniki ali zaposleni v državni upravi ali v katerem koli drugem javnem organu ali subjektu, zaposleni ali uradniki v medvladni organizaciji;
+3. »premoženjska korist« pomeni vsa sredstva, ki neposredno ali posredno izhajajo iz ali so pridobljena s storitvijo kaznivega dejanja iz 2. člena.
+
+
+### 2. člen
+
+1. Oseba stori kaznivo dejanje v smislu te konvencije, če kakor koli neposredno ali posredno, nezakonito in naklepno zagotovi ali zbere sredstva z namenom, da se uporabijo, ali z vednostjo, da se bodo v celoti ali delno uporabila za storitev:
+(a) dejanja, ki je v kateri koli mednarodni pogodbi iz priloge določeno kot kaznivo dejanje, ali
+(b) vsakega drugega dejanja, katerega cilj je povzročiti smrt ali hudo telesno poškodbo civilista ali katere koli druge osebe, ki ne sodeluje aktivno v sovražnostih v oboroženem spopadu, in je namen takšnega dejanja po naravi ali vsebini prestrašiti ljudi oziroma prisiliti vlado ali mednarodno organizacijo, da stori ali opusti kakšno dejanje.
+2. (a) Država pogodbenica, ki ni pogodbenica katere od mednarodnih pogodb iz priloge, lahko ob deponiranju listine o ratifikaciji, sprejetju, potrditvi ali pristopu izjavi, da se pri uporabi te konvencije zanjo šteje, da pogodba ni vključena v prilogi iz pododstavka a) prvega odstavka. Ta izjava preneha veljati takoj, ko mednarodna pogodba začne veljati za državo pogodbenico, ki o tem obvesti depozitarja.
+(b) Ko država pogodbenica preneha biti pogodbenica mednarodne pogodbe iz priloge, lahko glede te mednarodne pogodbe da izjavo, kot določa ta člen.
+3. Za obstoj kaznivega dejanja iz prvega odstavka tega člena ni potrebno, da so bila sredstva dejansko uporabljena za storitev kaznivega dejanja iz pododstavka (a) ali (b) prvega odstavka.
+4. Kaznivo dejanje stori tudi oseba, ki poskusi storiti kaznivo dejanje iz prvega odstavka tega člena.
+5. Kaznivo dejanje stori tudi oseba, ki:
+(a) sodeluje kot sostorilec pri kaznivem dejanju iz prvega ali četrtega odstavka tega člena;
+(b) organizira ali napeljuje druge, da storijo kaznivo dejanje iz prvega ali četrtega odstavka tega člena;
+(c) pomaga pri storitvi enega ali več kaznivih dejanj iz prvega ali četrtega odstavka tega člena, ki jih za doseganje skupnega cilja stori skupina oseb. Taka pomoč mora biti naklepna in je
+(i) njen namen podpreti kriminalno dejavnost ali cilj skupine, če takšna dejavnost ali cilj vključujejo storitev kaznivega dejanja iz prvega odstavka tega člena, ali
+(ii) je ob tem oseba vedela za namen skupine, da stori kaznivo dejanje iz prvega odstavka tega člena.
+
+
+### 3. člen
+
+Ta konvencija se ne uporablja, kadar je kaznivo dejanje storjeno v eni sami državi, kadar je domnevni storilec državljan te države in je na ozemlju te države ter kadar nobena druga država nima pristojnosti na podlagi prvega ali drugega odstavka 7. člena te konvencije, razen da se v takih primerih smiselno uporabljajo določbe 12. do 18. člena.
+
+
+### 4. člen
+
+Vsaka država pogodbenica sprejme take ukrepe, kot so potrebni, da:
+(a) v svoji notranji zakonodaji kot kazniva dejanja določi kazniva dejanja iz 2. člena;
+(b) za ta kazniva dejanja določi primerne kazni, pri čemer upošteva težo kaznivih dejanj.
+
+
+### 5. člen
+
+1. Vsaka država pogodbenica v skladu s svojimi notranjimi pravnimi načeli sprejme potrebne ukrepe, ki omogočajo uveljavitev odgovornosti pravnih oseb, ki so na njenem ozemlju ali so organizirane na podlagi njenih predpisov, kadar oseba, odgovorna za vodenje ali nadzor te pravne osebe, v tej vlogi stori kaznivo dejanje iz 2. člena. Ta odgovornost je lahko kazenska, civilna ali upravna.
+2. Takšna odgovornost obstaja ne glede na kazensko odgovornost posameznikov, ki so storili kazniva dejanja.
+3. Vsaka država pogodbenica predvsem zagotovi, da se pravne osebe, odgovorne po prvem odstavku, kaznujejo z učinkovitimi, sorazmernimi in odvračilnimi kazenskimi, civilnimi ali upravnimi sankcijami. Takšne sankcije lahko vključujejo denarne sankcije.
+
+
+### 6. člen
+
+Vsaka država pogodbenica sprejme vse potrebne ukrepe, vključno, kadar je to potrebno, z notranjo zakonodajo, s katerimi zagotovi, da kazniva dejanja iz te konvencije na noben način niso opravičljiva iz političnih, filozofskih, ideoloških, rasnih, etničnih, verskih ali podobnih razlogov.
+
+
+### 7. člen
+
+1. Vsaka država pogodbenica sprejme vse potrebne ukrepe za vzpostavitev svoje pristojnosti glede kaznivih dejanj iz 2. člena, kadar:
+(a) je kaznivo dejanje storjeno na ozemlju te države;
+(b) je kaznivo dejanje storjeno na ladji, ki pluje pod zastavo te države, ali na letalu, ki je v času storitve kaznivega dejanja registrirano po predpisih te države;
+(c) kaznivo dejanje stori državljan te države.
+2. Država pogodbenica lahko vzpostavi svojo pristojnost tudi glede kaznivega dejanja:
+(a) katerega namen ali posledica je bila storitev kaznivega dejanja iz pododstavka (a) ali (b) prvega odstavka 2. člena na ozemlju te države ali proti državljanu te države;
+(b) katerega namen ali posledica je bila storitev kaznivega dejanja iz pododstavka (a) ali (b) prvega odstavka 2. člena proti njenemu državnemu ali vladnemu objektu v tujini, vključno z diplomatskimi ali konzularnim prostori te države;
+(c) katerega namen ali posledica je bila storitev kaznivega dejanja iz pododstavka (a) ali (b) prvega odstavka 2. člena z namenom, da se država skuša prisiliti v izvršitev ali opustitev nekega dejanja;
+(d) kadar je kaznivo dejanje storila oseba brez državljanstva, ki prebiva na ozemlju te države;
+(e) kadar je kaznivo dejanje storjeno na letalu, ki ga uporablja vlada te države.
+3. Ob ratifikaciji, sprejetju, potrditvi konvencije ali pristopu k njej vsaka država pogodbenica obvesti generalnega sekretarja Združenih narodov o pristojnosti, vzpostavljeni v skladu z drugim odstavkom. Ob kakršni koli spremembi ta država takoj obvesti generalnega sekretarja.
+4. Vsaka država pogodbenica prav tako sprejme vse potrebne ukrepe za vzpostavitev svoje pristojnosti glede kaznivih dejanj iz 2. člena tudi v primerih, ko je domnevni storilec na njenem ozemlju in ga ne izroči nobeni od držav pogodbenic, ki so vzpostavile svojo pristojnost v skladu s prvim ali drugim odstavkom.
+5. Kadar več držav pogodbenic uveljavlja svojo pristojnost glede kaznivih dejanj iz 2. člena, si te države pogodbenice prizadevajo primerno uskladiti svoja ravnanja, zlasti v zvezi s pogoji za kazenski pregon in načini medsebojne pravne pomoči.
+6. Ne glede na splošna načela mednarodnega prava ta konvencija ne izključuje izvajanja kazenske pristojnosti, ki jo država pogodbenica vzpostavi v skladu s svojo notranjo zakonodajo.
+
+
+### 8. člen
+
+1. Zaradi morebitnega odvzema sredstev vsaka država pogodbenica v skladu s svojimi notranjepravnimi načeli sprejme ustrezne ukrepe za identifikacijo, odkrivanje, zamrznitev ali zaseg kakršnih koli sredstev, uporabljenih ali namenjenih za storitev kaznivih dejanj iz 2. člena, kot tudi premoženjske koristi, pridobljene s takimi kaznivimi dejanji.
+2. Vsaka država pogodbenica v skladu s svojimi notranjepravnimi načeli sprejme ustrezne ukrepe za odvzem sredstev, uporabljenih ali namenjenih za storitev kaznivih dejanj iz 2. člena, in premoženjske koristi, pridobljene s takimi kaznivimi dejanji.
+3. Vsaka država pogodbenica lahko prouči možnost sklenitve sporazumov z drugimi državami pogodbenicami o delitvi odvzetih sredstev iz tega člena za vse primere ali za vsak primer posebej.
+4. Vsaka država pogodbenica prouči vzpostavitev mehanizmov, da se sredstva, odvzeta po tem členu, uporabijo za nadomestilo škode žrtvam kaznivih dejanj iz pododstavka (a) ali (b) prvega odstavka 2. člena ali njihovim družinam.
+5. Izvajanje določb tega člena ne vpliva na pravice tretjih, ki ravnajo v dobri veri.
+
+
+### 9. člen
+
+1. Ko država pogodbenica prejme informacijo, da je storilec ali osumljenec kaznivega dejanja iz 2. člena lahko na njenem ozemlju, sprejme ukrepe, ki so v skladu z njenim notranjim pravom potrebni za preveritev dejstev iz informacije.
+2. Ko se država pogodbenica, na ozemlju katere je storilec ali osumljenec kaznivega dejanja, prepriča, da okoliščine to narekujejo, v skladu s svojim notranjim pravom sprejme ustrezne ukrepe za zagotovitev navzočnosti te osebe zaradi kazenskega pregona ali izročitve.
+3. Vsaka oseba, proti kateri so bili uvedeni ukrepi iz drugega odstavka, ima pravico:
+(a) takoj obvestiti najbližjega ustreznega predstavnika države, katere državljan je, ali države, ki je pooblaščena za zaščito pravic te osebe, ali v primeru osebe brez državljanstva, države, na ozemlju katere ta oseba prebiva;
+(b) do obiska predstavnika te države;
+(c) do seznanitve s pravicami iz pododstavkov (a) in (b).
+4. Pravice iz tretjega odstavka se uresničujejo v skladu z zakoni in predpisi države, na katere ozemlju je storilec ali osumljenec kaznivega dejanja, če ti zakoni in predpisi omogočajo učinkovito uveljavitev pravic, ki izhajajo iz določb tretjega odstavka.
+5. Določbe tretjega in četrtega odstavka ne vplivajo na pravice katere koli države pogodbenice, ki ima pravico do uveljavitve svoje pristojnosti v skladu s pododstavkom (b) prvega odstavka ali pododstavkom (b) drugega odstavka 7. člena, da povabi Mednarodni odbor Rdečega križa, da naveže stik z domnevnim storilcem in ga obišče.
+6. Kadar država pogodbenica na podlagi tega člena pripre osebo, takoj neposredno ali prek generalnega sekretarja Združenih narodov obvesti države pogodbenice, ki so vzpostavile svojo pristojnost v skladu s prvim in drugim odstavkom 7. člena, in če se ji to zdi primerno, katero koli drugo zainteresirano državo pogodbenico o tem, da je ta oseba priprta, ter o okoliščinah, ki pripor te osebe opravičujejo. Država, ki opravlja preiskavo iz prvega odstavka, takoj obvesti omenjene države pogodbenice o svojih ugotovitvah in o tem, ali namerava uveljavljati pristojnost.
+
+
+### 10. člen
+
+1. Če v primerih iz 7. člena država pogodbenica, na katere ozemlju je domnevni storilec kaznivega dejanja, te osebe ne izroči, mora brez izjeme in ne glede na to, ali je bilo kaznivo dejanje storjeno na njenem ozemlju, zaradi pregona zadevo takoj predati svojim pristojnim organom po postopkih, predvidenih v njeni zakonodaji. Ti organi o zadevi odločijo na enak način kot pri katerem koli drugem hudem kaznivem dejanju po pravu te države.
+2. Kadar država pogodbenica v skladu s svojo notranjo zakonodajo lahko izroči ali kako drugače preda svoje državljane samo pod pogojem, da bo oseba vrnjena v to državo zaradi prestajanja kazni, izrečene na sodni obravnavi, ali kot posledica postopka, zaradi katerega se zahteva izročitev oziroma predaja, ter ta država in država, ki zaprosi za izročitev osebe, soglašata s to možnostjo in drugimi pogoji, ki se jima zdijo ustrezni, takšna pogojna izročitev ali predaja zadošča za izpolnitev obveznosti iz prvega odstavka.
+
+
+### 11. člen
+
+1. Šteje se, da so kazniva dejanja iz 2. člena, vključena kot kazniva dejanja, za katera se lahko zahteva izročitev, v vse mednarodne pogodbe med državami pogodbenicami, ki so obstajale pred začetkom veljavnosti te konvencije. Države pogodbenice se zavezujejo, da bodo ta kazniva dejanja vključena med kazniva dejanja, za katera se lahko zahteva izročitev, v vse mednarodne pogodbe o izročitvi, ki jih bodo sklenile pozneje.
+2. Kadar država pogodbenica, ki pogojuje izročitev z obstojem mednarodne pogodbe, prejme zaprosilo za izročitev od druge države pogodbenice, s katero takšne pogodbe ni sklenila, lahko zaprošena država pogodbenica upošteva to konvencijo kot pravno podlago za izročitev zaradi kaznivih dejanj iz 2. člena. Za izročitev morajo biti izpolnjeni drugi pogoji, določeni z zakonodajo zaprošene države.
+3. Države pogodbenice, ki ne pogojujejo izročitve z obstojem mednarodne pogodbe, medsebojno priznavajo kazniva dejanja iz 2. člena kot kazniva dejanja, za katera se lahko zahteva izročitev, v skladu s pogoji, določenimi z zakonodajo zaprošene države.
+4. Če je potrebno, se zaradi izročitve med državama pogodbenicama kazniva dejanja iz 2. člena obravnavajo, kot da niso bila izvršena samo na kraju storitve, ampak tudi na ozemlju držav, ki so vzpostavile svojo pristojnost v skladu s prvim in drugim odstavkom 7. člena.
+5. Šteje se, da so določbe mednarodnih pogodb in dogovorov o izročitvi med državami pogodbenicami glede kaznivih dejanj iz 2. člena ustrezno spremenjene, če niso skladne s to konvencijo.
+
+
+### 12. člen
+
+1. Države pogodbenice si pri preiskovanju kaznivih dejanj, kazenskih ali izročitvenih postopkih v zvezi s kaznivimi dejanji iz 2. člena čim bolj pomagajo, vključno pri pridobivanju dokazov, s katerim razpolagajo in so potrebni za izvajanje postopkov.
+2. Države pogodbenice ne smejo zavrniti zaprosila za medsebojno pravno pomoč zaradi varovanja bančne tajnosti.
+3. Pogodbenica prosilka ne sme brez predhodnega soglasja zaprošene pogodbenice posredovati ali uporabiti informacij ali dokazov, pridobljenih od zaprošene pogodbenice, za preiskovanje, pregon ali postopke, ki niso navedeni v zaprosilu.
+4. Vsaka država pogodbenica lahko prouči vzpostavitev mehanizmov za izmenjavo informacij ali dokazov, potrebnih za vzpostavitev kazenske, civilne ali upravne odgovornosti na podlagi 5. člena, z drugimi državami pogodbenicami.
+5. Države pogodbenice izvajajo svoje obveznosti iz prvega in drugega odstavka v skladu z že obstoječimi mednarodnimi pogodbami ali drugimi dogovori o medsebojni pravni pomoči ali izmenjavi informacij. Če takšnih mednarodnih pogodb ali dogovorov ni, si države pogodbenice med seboj pomagajo v skladu s svojo zakonodajo.
+
+
+### 13. člen
+
+Nobeno od kaznivih dejanj iz 2. člena se za namene izročitve ali medsebojne pravne pomoči ne šteje kot davčno kaznivo dejanje. Države pogodbenice ne smejo zavrniti prošnje za izročitev ali zaprosila za medsebojno pravno pomoč samo iz razloga, da se nanaša na davčno kaznivo dejanje.
+
+
+### 14. člen
+
+Nobeno kaznivo dejanje iz 2. člena se za namene izročitve ali medsebojne pravne pomoči ne šteje kot politično kaznivo dejanje, kot kaznivo dejanje v zvezi s političnim kaznivim dejanjem ali kot kaznivo dejanje s političnimi motivi. Prošnja za izročitev ali medsebojno pravno pomoč glede takšnega kaznivega dejanja se ne sme zavrniti samo iz razloga, da se nanaša na politično kaznivo dejanje, kaznivo dejanje v zvezi s političnim kaznivim dejanjem ali kaznivo dejanje s političnimi motivi.
+
+
+### 15. člen
+
+Nič v tej konvenciji se ne razlaga, kot da nalaga dolžnost izročitve ali medsebojne pravne pomoči, če zaprošena država pogodbenica utemeljeno domneva, da je bila prošnja za izročitev ali medsebojno pravno pomoč zaradi kaznivih dejanj iz 2. člena posredovana z namenom pregona ali kaznovanja osebe zaradi rase, vere, državljanstva, etničnega izvora ali političnega prepričanja ali da bi iz navedenih razlogov ugoditev prošnji poslabšala položaj te osebe.
+
+
+### 16. člen
+
+1. Oseba, ki je v priporu ali prestaja kazen na ozemlju ene od držav pogodbenic in katere navzočnost v drugi državi pogodbenici se zahteva zaradi identifikacije, pričanja ali druge oblike pomoči pri pridobivanju dokazov za preiskavo ali pregon kaznivih dejanj iz 2. člena, se lahko premesti, če so izpolnjeni naslednji pogoji:
+(a) če je oseba o tem ustrezno obveščena in v to prostovoljno privoli;
+(b) če se o tem sporazumejo pristojni organi obeh držav pod pogoji, ki jih državi štejeta za primerne.
+2. Za namene tega člena:
+(a) ima država, v katero je oseba premeščena, pravico in dolžnost to osebo obdržati v priporu, če država, iz katere je oseba premeščena, ne zahteva ali dovoli drugače;
+(b) država, v katero je oseba premeščena, brez odlašanja izpolni svojo obveznost in osebo vrne v pripor države, iz katere je bila premeščena, v skladu s predhodnim ali kakšnim drugačnim dogovorom pristojnih organov obeh držav;
+(c) država, v katero je oseba premeščena, ne more zahtevati, da država, iz katere je bila oseba premeščena, začne z izročitvenim postopkom za vrnitev te osebe;
+(d) se premeščeni osebi čas, ki ga prebije v priporu države, v katero je bila premeščena, upošteva pri prestajanju kazni v državi, iz katere je bila premeščena.
+3. Razen če se država pogodbenica, iz katere je oseba premeščena v skladu s tem členom, strinja, se ta oseba na ozemlju države, v katero je premeščena, ne glede na državljanstvo ne sme sodno preganjati ali pridržati ali se ji kakor koli drugače omejiti osebna svoboda zaradi dejanj ali obsodb pred njenim odhodom z ozemlja države, iz katere je bila premeščena.
+
+
+### 17. člen
+
+Osebi, ki je v skladu s to konvencijo v priporu ali so proti njej uvedeni kakšni drugi ukrepi ali postopki, se zagotavlja pravično obravnavanje, vključno z vsemi pravicami in jamstvi po pravu države, na ozemlju katere je ta oseba, ter po veljavnem mednarodnem pravu, vključno z mednarodnim pravom o človekovih pravicah.
+
+
+### 18. člen
+
+1. Države pogodbenice sodelujejo pri preprečevanju kaznivih dejanj iz 2. člena tako, da sprejmejo vse ustrezne ukrepe, med drugim po potrebi prilagodijo tudi svojo notranjo zakonodajo, da bi na svojem ozemlju in zunaj njega preprečile in ustavile priprave za storitev kaznivih dejanj, in sicer:
+(a) ukrepe, da se na njihovih ozemljih prepovejo nezakonite dejavnosti oseb in organizacij, ki zavestno spodbujajo ali napeljujejo k storitvi kaznivih dejanj iz 2. člena, jih organizirajo ali sodelujejo pri njihovi storitvi;
+(b) ukrepe, ki od finančnih organizacij in drugih poklicev, vpletenih v finančne transakcije, zahtevajo, da uporabijo najučinkovitejše ukrepe za identifikacijo njihovih stalnih ali občasnih strank in strank, za katere so odprti računi, in da posebno pozornost posvetijo neobičajnim ali sumljivim transakcijam in sporočajo transakcije, v zvezi s katerimi obstaja sum, da so povezane s kriminalno dejavnostjo. V ta namen države pogodbenice proučijo možnost:
+(i) da sprejmejo predpise, ki prepovedujejo odpiranje računov, katerih imetniki ali upravičenci niso identificirani ali jih ni mogoče identificirati, ter ukrepe za zagotovitev, da te organizacije preverijo identiteto dejanskih nosilcev takih transakcij;
+(ii) da v zvezi z identifikacijo pravnih oseb od finančnih organizacij po potrebi zahtevajo sprejetje ukrepov za preverjanje pravnega obstoja in strukture njihovih strank, tako da iz javnega registra ali od stranke ali od obeh pridobijo dokaz o ustanovitvi, vključno s podatki o nazivu, pravni obliki, naslovu, odgovornih osebah in določbah o zastopanju pravne osebe;
+(iii) da sprejmejo predpise, ki od finančnih organizacij zahtevajo, da pristojnim organom takoj poročajo o vseh zapletenih finančnih transakcijah, finančnih transakcijah v neobičajno visokih zneskih in o nenavadnih oblikah transakcij brez jasnega ekonomskega ali očitnega pravnega razloga brez strahu pred kazensko ali civilno odgovornostjo zaradi kršitve kakršnih koli omejitev pri razkrivanju informacij, če o svojih sumih poročajo v dobri veri;
+(iv) da zahtevajo, da finančne organizacije najmanj pet let hranijo vso potrebno dokumentacijo o domačih in mednarodnih transakcijah.
+2. Države pogodbenice sodelujejo pri preprečevanju kaznivih dejanj iz 2. člena tudi tako, da proučijo:
+(a) ukrepe za nadzor vseh organizacij, ki se ukvarjajo s prenosom denarja, vključno z izdajanjem dovoljenj za opravljanje njihove dejavnosti;
+(b) ustrezne ukrepe za odkrivanje in spremljanje fizičnega prenosa gotovine in vrednostnih papirjev na prinosnika čez državno mejo ob strogih zaščitnih ukrepih, ki zagotavljajo pravilno uporabo informacij in na noben način ne ovirajo prostega pretoka kapitala.
+3. Države pogodbenice sodelujejo pri preprečevanju kaznivih dejanj iz 2. člena tudi tako, da v skladu s svojo notranjo zakonodajo izmenjujejo natančne in verodostojne informacije ter usklajujejo upravne in druge potrebne ukrepe, še posebej tako, da:
+(a) vzpostavijo in vzdržujejo komunikacijske poti med pristojnimi agencijami in službami, da bi omogočile varno in hitro izmenjavo informacij o vseh vidikih kaznivih dejanj iz 2. člena;
+(b) med seboj sodelujejo pri zbiranju obvestil o kaznivih dejanj iz 2. člena, ki se nanašajo na:
+(i) identiteto, bivališče in dejavnosti oseb, v zvezi s katerimi obstajajo razlogi za sum, da so udeležene pri teh kaznivih dejanjih;
+(ii) prenos finančnih sredstev, povezanih s temi kaznivimi dejanji.
+4. Države pogodbenice lahko izmenjujejo informacije prek Mednarodne organizacije kriminalistične policije (Interpol).
+
+
+### 19. člen
+
+Država pogodbenica, v kateri je proti domnevnemu storilcu uveden kazenski pregon, v skladu s svojo notranjo zakonodajo ali veljavnimi postopki sporoči generalnemu sekretarju Združenih narodov končni izid postopkov, ta pa informacijo pošlje drugim državam pogodbenicam.
+
+
+### 20. člen
+
+Države pogodbenice obveznosti iz te konvencije izpolnjujejo na način, ki je v skladu z načeli državne suverenosti, ozemeljske celovitosti držav in nevmešavanja v notranje zadeve drugih držav.
+
+
+### 21. člen
+
+Nič v tej konvenciji ne vpliva na druge pravice, obveznosti in odgovornosti držav in posameznikov po mednarodnem pravu, še posebej ne na cilje Ustanovne listine Združenih narodov, mednarodnega humanitarnega prava in drugih ustreznih konvencij.
+
+
+### 22. člen
+
+Nič v tej konvenciji državi pogodbenici ne daje pravice, da bi lahko na ozemlju druge države pogodbenice izvajala svojo pristojnost ali opravljala naloge, ki so v izključni pristojnosti organov te druge države pogodbenice na podlagi njene notranje zakonodaje.
+
+
+### 23. člen
+
+1. Priloga se lahko spremeni tako, da se dodajo ustrezne mednarodne pogodbe, ki:
+(a) so na voljo za sodelovanje vsem državam;
+(b) so že začele veljati;
+(c) jih je ratificiralo, sprejelo, potrdilo ali k njim pristopilo vsaj dvaindvajset držav pogodbenic te konvencije.
+2. Po začetku veljavnosti te konvencije lahko tako spremembo predlaga vsaka država pogodbenica. Predlog spremembe se pisno sporoči depozitarju. Depozitar o predlogih, ki so v skladu z zahtevami iz prvega odstavka, obvesti vse države pogodbenice in pridobi njihova mnenja o tem, ali naj se predlagana sprememba sprejme.
+3. Šteje se, da je predlagana sprememba sprejeta, razen če tretjina držav pogodbenic s pisnim obvestilom najpozneje 180 dni od obvestila o spremembi temu nasprotuje.
+4. Sprejeta sprememba priloge začne veljati 30 dni po deponiranju dvaindvajsete listine o ratifikaciji, sprejetju ali potrditvi te spremembe za vse tiste države pogodbenice, ki so deponirale takšno listino. Za vsako državo pogodbenico, ki ratificira, sprejme ali potrdi spremembo po deponiranju dvaindvajsete listine, sprememba začne veljati trideseti dan po tem, ko je ta država pogodbenica deponirala svojo listino o ratifikaciji, sprejetju ali potrditvi.
+
+
+### 24. člen
+
+1. Kakršen koli spor med dvema ali več državami pogodbenicami glede razlage ali uporabe te konvencije, ki ga ni mogoče rešiti s pogajanji v razumnem času, se na zahtevo ene od njih predloži v arbitražo. Če se v šestih mesecih od dneva, ko je bila vložena prošnja za arbitražo, strankam v sporu ne uspe dogovoriti o organizaciji arbitraže, lahko katera koli stranka v sporu preda spor v reševanje Meddržavnemu sodišču v skladu z njegovim statutom.
+2. Vsaka država lahko ob podpisu, ratifikaciji, sprejetju ali potrditvi te konvencije ali ob pristopu k njej izjavi, da je prvi odstavek ne zavezuje. Drugih držav pogodbenic prvi odstavek ne zavezuje glede držav pogodbenic, ki so izrazile takšen pridržek.
+3. Vsaka država, ki je izrazila pridržek v skladu z drugim odstavkom, ga lahko kadar koli umakne z obvestilom generalnemu sekretarju Združenih narodov.
+
+
+### 25. člen
+
+1. Ta konvencija je na voljo za podpis vsem državam od 10. januarja 2000 do 31. decembra 2001 na sedežu Združenih narodov v New Yorku.
+2. Ta konvencija se ratificira, sprejme ali potrdi. Listine o ratifikaciji, sprejetju ali potrditvi se deponirajo pri generalnem sekretarju Združenih narodov.
+3. K tej konvenciji lahko pristopi vsaka država. Listina o pristopu se deponira pri generalnem sekretarju Združenih narodov.
+
+
+### 26. člen
+
+1. Ta konvencija začne veljati trideseti dan po datumu deponiranja dvaindvajsete listine o ratifikaciji, sprejetju, potrditvi ali pristopu pri generalnem sekretarju Združenih narodov.
+2. Za vsako državo, ki ratificira, sprejme, potrdi konvencijo ali k njej pristopi po deponiranju dvaindvajsete listine o ratifikaciji, sprejetju, potrditvi ali pristopu, konvencija začne veljati trideseti dan po tem, ko je ta država deponirala svojo listino o ratifikaciji, sprejetju, potrditvi ali pristopu.
+
+
+### 27. člen
+
+1. Vsaka država pogodbenica lahko to konvencijo odpove s pisnim obvestilom generalnemu sekretarju Združenih narodov.
+2. Odpoved začne veljati eno leto po datumu, ko je generalni sekretar Združenih narodov prejel obvestilo.
+
+
+### 28. člen
+
+Izvirnik te konvencije, katerega besedila v angleškem, arabskem, francoskem, kitajskem, ruskem in španskem jeziku so enako verodostojna, se hrani pri generalnem sekretarju Združenih narodov, ki overjene kopije pošlje vsem državam.
+V POTRDITEV TEGA so podpisani, ki so jih za to pravilno pooblastile njihove vlade, 10. januarja 2000 podpisali to konvencijo, ki je na voljo za podpis na sedežu Združenih narodov v New Yorku.
+
+
+### PRILOGA
+
+1. Konvencija o zatiranju nezakonite ugrabitve zrakoplovov, sestavljena v Haagu 16. decembra 1970.
+2. Konvencija o zatiranju nezakonitih dejanj zoper varnost civilnega zrakoplovstva, sestavljena v Montrealu 23. septembra 1971.
+3. Konvencija o preprečevanju in kaznovanju kaznivih dejanj zoper mednarodno zaščitene osebe, vključno z diplomatskim osebjem, ki jo je 14. decembra 1973 sprejela Generalna skupščina ZN.
+4. Mednarodna konvencija o preprečevanju jemanja talcev, ki jo je 17. decembra 1979 sprejela Generalna skupščina ZN.
+5. Konvencija o fizični zaščiti jedrskih materialov, sprejeta na Dunaju 3. marca 1980.
+6. Protokol o zatiranju nezakonitih nasilnih dejanj na letališčih za mednarodni civilni zračni promet kot dopolnilo Konvencije o zatiranju nezakonitih dejanj zoper varnost civilnega zrakoplovstva, sestavljen v Montrealu 24. februarja 1988.
+7. Konvencija o zatiranju nezakonitih dejanj zoper varnost v pomorskem prometu, sestavljena v Rimu 10. marca 1988.
+8. Protokol o zatiranju nezakonitih dejanj zoper varnost na pritrjenih ploščadih na epikontinentalnem pasu, sestavljen v Rimu 10. marca 1988.
+9. Mednarodna konvencija o zatiranju terorističnih bombnih napadov, ki jo je 15. decembra 1997 sprejela Generalna skupščina ZN.
+
+
+### 3. člen
+
+Za izvajanje konvencije skrbi Ministrstvo za pravosodje.
+
+
+### 4. člen
+
+Republika Slovenija bo ob deponiranju listine o ratifikaciji Mednarodne konvencije o zatiranju financiranja terorizma dala naslednjo izjavo:
+
+"Skladno s tretjim odstavkom 7. člena Mednarodne konvencije o zatiranju financiranja terorizma Republika Slovenija izjavlja, da ima pristojnost glede kaznivih dejanj iz drugega odstavka 7. člena konvencije."
+
+
+### 5. člen
+
+Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.
+
+Št. 212-05/04-46/1
+
+Ljubljana, dne 15. julija 2004
+
+EPA 1387-III
+
+Predsednik
+Državnega zbora
+Republike Slovenije
+Feri Horvat l. r.
+
+* Besedilo konvencije v arabskem, francoskem, kitajskem, ruskem in španskem jeziku je na vpogled v Sektorju za mednarodnopravne zadeve Ministrstva za zunanje zadeve.
