@@ -7,6 +7,11 @@ sop: 1999-01-4618
 objava: "Uradni list RS 98/99  str. 14653"
 kljucne_besede: ["zdravstvena služba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4618"
+spremembe:
+  - kratica: ZZdrS-A
+    datum: 2002-07-26
+    sop: 2002-01-3227
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravniški službi"
 ---
 
 # Zakon o zdravniški službi
