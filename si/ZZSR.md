@@ -7,6 +7,11 @@ sop: 1994-01-0518
 objava: "Uradni list RS 13/94  str. 717"
 kljucne_besede: ["izdatki za obrambo", "obrambna politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0518"
+spremembe:
+  - kratica: ZZSR-A
+    datum: 2001-12-04
+    sop: 2001-01-4799
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zagotavljanju sredstev za realizacijo temeljnih razvojnih programov obrambnih sil Republike Slovenije v letih 1994 - 2003"
 ---
 
 # Zakon o zagotavljanju sredstev za realizacijo temeljnih razvojnih programov obrambnih sil Republike Slovenije v letih 1994-2003
