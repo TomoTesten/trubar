@@ -4,9 +4,9 @@ naziv: "Pravilnik o odvzemu velikih zveri iz narave za leto 2004"
 vrsta: "akt"
 datum: 2004-02-13
 sop: 2004-01-0573
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0573"
 ---
 

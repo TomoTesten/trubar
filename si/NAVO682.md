@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi in dopolnitvi navodila za izvajanje sklepa o poroč
 vrsta: "navodilo"
 datum: 2004-02-20
 sop: 2004-01-0653
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0653"
 ---
 

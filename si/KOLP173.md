@@ -4,9 +4,9 @@ naziv: "Razlaga kolektivne pogodbe za cestni potniški promet Slovenije"
 vrsta: "akt"
 datum: 2004-02-12
 sop: 2004-01-0541
-organ: "Komisija za razlago kolektivne pogodbe za cestni potniški promet"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0541"
 ---
 
