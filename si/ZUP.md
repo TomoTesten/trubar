@@ -12,6 +12,10 @@ spremembe:
     datum: 2000-08-08
     sop: 2000-01-3310
     naziv: "Zakon o spremembi in dopolnitvi zakona o splošnem upravnem postopku"
+  - kratica: ZUP-B
+    datum: 2002-06-14
+    sop: 2002-01-2524
+    naziv: "Zakon o dopolnitvah zakona o splošnem upravnem postopku"
 ---
 
 # Zakon o splošnem upravnem postopku
