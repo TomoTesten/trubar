@@ -4,9 +4,9 @@ naziv: "Seznam sort, ki se izbrišejo iz seznama potrjenih domačih kmetijskih r
 vrsta: "akt"
 datum: 1998-07-17
 sop: 1998-01-2311
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2311"
 ---
 

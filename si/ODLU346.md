@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi dela besedila 257. člena pravil obveznega zava
 vrsta: "akt"
 datum: 1998-07-17
 sop: 1998-01-2320
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2320"
 ---
 

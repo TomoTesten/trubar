@@ -4,9 +4,9 @@ naziv: "Navodilo o donacijah, ki so prihodek proračuna Republike Slovenije"
 vrsta: "navodilo"
 datum: 1998-07-17
 sop: 1998-01-2313
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2313"
 ---
 

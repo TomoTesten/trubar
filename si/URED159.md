@@ -4,8 +4,9 @@ naziv: "Uredba o ratifikaciji Resolucije št. 48, ki jo je 2. julija 1993 spreje
 vrsta: "uredba"
 datum: 1998-07-10
 sop: 1998-02-0033
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-02-0033"
 ---
 

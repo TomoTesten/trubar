@@ -4,9 +4,9 @@ naziv: "Navodilo o uporabi sredstev od prodaje in zamenjave nepremičnin in prem
 vrsta: "navodilo"
 datum: 1998-07-17
 sop: 1998-01-2312
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2312"
 ---
 

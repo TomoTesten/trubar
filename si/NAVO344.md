@@ -4,9 +4,9 @@ naziv: "Navodilo o izvrševanju plačilnih nalogov imetnikov računov iz okvirni
 vrsta: "navodilo"
 datum: 1998-07-17
 sop: 1998-01-2325
-organ: "Agencija za plačilni promet"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2325"
 ---
 
