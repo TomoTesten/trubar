@@ -7,6 +7,11 @@ sop: 1997-01-2259
 objava: "Uradni list RS 40/97  str. 3746"
 kljucne_besede: ["minimalna plača"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2259"
+spremembe:
+  - kratica: ZDMPNU-A
+    datum: 1998-02-06
+    sop: 1998-01-0430
+    naziv: "Zakon o spremembah in dopolnitvah zakona o določitvi minimalne plače in o načinu usklajevanja plač"
 ---
 
 # Zakon o določitvi minimalne plače in o načinu usklajevanja plač
