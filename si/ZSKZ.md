@@ -7,6 +7,11 @@ sop: 1993-01-0432
 objava: "Uradni list RS 10/93  str. 454"
 kljucne_besede: ["sklad kmetijskih zemljišč", "gozdarska politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0432"
+spremembe:
+  - kratica: ZSKZ-A
+    datum: 1996-01-12
+    sop: 1996-01-0004
+    naziv: "Zakon o spremembah in dopolnitvah zakona o skladu kmetijskih zemljišč in gozdov Republike Slovenije"
 ---
 
 # Zakon o Skladu kmetijskih zemljišč in gozdov Republike Slovenije
