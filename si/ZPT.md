@@ -7,6 +7,11 @@ sop: 1998-01-2602
 objava: "Uradni list RS 57/98  str. 4134"
 kljucne_besede: ["turizem", "turistična politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2602"
+spremembe:
+  - kratica: ZPT-A
+    datum: 2002-03-11
+    sop: 2002-01-0910
+    naziv: "Zakon o dopolnitvi zakona o pospeševanju turizma"
 ---
 
 # Zakon o pospeševanju turizma
