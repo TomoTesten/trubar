@@ -7,6 +7,11 @@ sop: 1991-01-0016
 objava: "Uradni list RS 1/91  str. 43"
 kljucne_besede: ["devizna politika", "tuja valuta"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0016"
+spremembe:
+  - kratica: ZDP-A
+    datum: 1993-12-30
+    sop: 1993-01-2580
+    naziv: "Zakon o dopolnitvah zakona o deviznem poslovanju"
 ---
 
 # Zakon o deviznem poslovanju
