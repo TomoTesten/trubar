@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-07-04
     sop: 2002-01-2812
     naziv: "Zakon o spremembah zakona o prvem pokojninskem skladu in preoblikovanju pooblaščenih investicijskih družb"
+  - kratica: ZPSPID-B
+    datum: 2004-06-04
+    sop: 2004-01-2801
+    naziv: "Zakon o dopolnitvah zakona o prvem pokojninskem skladu Republike Slovenije in preoblikovanju pooblaščenih investicijskih družb"
 ---
 
 # Zakon o Prvem pokojninskem skladu Republike Slovenije in preoblikovanju pooblaščenih investicijskih družb
