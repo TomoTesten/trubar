@@ -4,9 +4,9 @@ naziv: "Pravilnik o obratovalnem monitoringu pri vnosu nevarnih snovi in rastlin
 vrsta: "pravilnik"
 datum: 1997-09-11
 sop: 1997-01-2869
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2869"
 ---
 

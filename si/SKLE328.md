@@ -4,9 +4,9 @@ naziv: "Sklep o dopolnitvi sklepa o poročanju in obveščanju javnosti o poslov
 vrsta: "sklep"
 datum: 1997-09-12
 sop: 1997-01-2880
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2880"
 ---
 

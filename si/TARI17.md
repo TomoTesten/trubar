@@ -4,9 +4,9 @@ naziv: "Tarifni sistem za dobavo in prodajo zemeljskega plina iz transportnega o
 vrsta: "akt"
 datum: 1997-08-18
 sop: 1997-01-2697
-organ: "Geoplin d.o.o."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2697"
 ---
 

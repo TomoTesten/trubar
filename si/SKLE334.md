@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi in dopolnitvi sklepa o določitvi pogojev za uvrstitev
 vrsta: "sklep"
 datum: 1997-09-12
 sop: 1997-01-2879
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2879"
 ---
 

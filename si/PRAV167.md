@@ -4,9 +4,9 @@ naziv: "Pravilnik o tehničnih zahtevah za radijske postaje"
 vrsta: "pravilnik"
 datum: 1997-08-18
 sop: 1997-01-2642
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2642"
 ---
 

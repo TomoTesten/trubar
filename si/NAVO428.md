@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu minimalnega označevanja in zavarovanja določenih de
 vrsta: "navodilo"
 datum: 1997-09-19
 sop: 1997-01-2911
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2911"
 ---
 

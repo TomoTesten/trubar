@@ -4,8 +4,9 @@ naziv: "Odredba o normativih in kadrovskih pogojih za opravljanje dejavnosti pre
 vrsta: "odredba"
 datum: 1997-09-19
 sop: 1997-01-2933
-organ: "Ministrstvo za šolstvo in šport"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2933"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o pristojbini za pregled zrakoplova"
 vrsta: "odredba"
 datum: 1997-09-05
 sop: 1997-01-2835
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2835"
 ---
 
