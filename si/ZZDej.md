@@ -32,6 +32,10 @@ spremembe:
     datum: 2004-01-15
     sop: 2004-01-0076
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstveni dejavnosti"
+  - kratica: ZZDej-H
+    datum: 2004-07-23
+    sop: 2004-01-3536
+    naziv: "Zakon o dopolnitvah zakona o zdravstveni dejavnosti"
 ---
 
 # Zakon o zdravstveni dejavnosti
