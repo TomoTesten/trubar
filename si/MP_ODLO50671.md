@@ -2,11 +2,11 @@
 kratica: MP_ODLO50671
 naziv: "Odlok o ustanovitvi Javnega zavoda Splošna knjižnica Ljutomer (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-05
+datum: 2004-05-20
 sop: 2004-88-0031
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Ljutomer"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-88-0031"
 ---
 
