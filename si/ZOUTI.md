@@ -7,6 +7,11 @@ sop: 1996-01-3318
 objava: "Uradni list RS 57/96  str. 4770"
 kljucne_besede: ["tobak", "kajenje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3318"
+spremembe:
+  - kratica: ZOUTI-A
+    datum: 2002-12-30
+    sop: 2002-01-5830
+    naziv: "Zakon o spremembah in dopolnitvah zakona o omejevanju uporabe tobačnih izdelkov"
 ---
 
 # Zakon o omejevanju uporabe tobačnih izdelkov
