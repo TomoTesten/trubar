@@ -4,9 +4,9 @@ naziv: "Odlok o razrešitvi in imenovanju predsednika Sveta Agencije Republike S
 vrsta: "odlok"
 datum: 2000-12-29
 sop: 2000-01-5213
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-5213"
 ---
 

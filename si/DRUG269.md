@@ -4,9 +4,9 @@ naziv: "Sklep o načinu izračuna količnikov likvidnosti sredstev in najmanjše
 vrsta: "drugi akt"
 datum: 2000-12-21
 sop: 2000-01-4962
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4962"
 ---
 

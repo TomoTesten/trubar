@@ -4,8 +4,9 @@ naziv: "Navodilo o spremembi navodila o pripravi finančnih načrtov posrednih u
 vrsta: "navodilo"
 datum: 2000-12-28
 sop: 2000-01-5086
-organ: "Ministrstvo za finance"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-5086"
 ---
 

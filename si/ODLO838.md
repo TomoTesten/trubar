@@ -4,9 +4,9 @@ naziv: "Odlok o preferencialnih pravilih o poreklu blaga, ki se v letu 2001 upor
 vrsta: "odlok"
 datum: 2000-12-28
 sop: 2000-01-5146
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-5146"
 ---
 

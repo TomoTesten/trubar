@@ -4,9 +4,9 @@ naziv: "Navodilo o vsebini objav za javna naročila v Uradnem listu Republike Sl
 vrsta: "navodilo"
 datum: 2000-12-29
 sop: 2000-01-5230
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-5230"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o vrstah in lastnostih kritnega premoženja in premoženja kritneg
 vrsta: "drugi akt"
 datum: 2000-12-28
 sop: 2000-01-5093
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-5093"
 ---
 

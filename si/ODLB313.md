@@ -4,9 +4,9 @@ naziv: "Odločba o društvu proti mučenju živali Nova Gorica"
 vrsta: "akt"
 datum: 2000-12-15
 sop: 2000-01-4859
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4859"
 ---
 

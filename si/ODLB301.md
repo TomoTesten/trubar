@@ -4,9 +4,9 @@ naziv: "Odločba o prepovedi uvoza in prevoza pošiljk domačih in divjih parklj
 vrsta: "akt"
 datum: 2000-12-15
 sop: 2000-01-4858
-organ: "Veterinarska uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4858"
 ---
 
