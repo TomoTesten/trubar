@@ -4,9 +4,9 @@ naziv: "Pravilnik o smeri izobrazbe strokovnih delavcev v devetletni osnovni šo
 vrsta: "odredba"
 datum: 1999-07-16
 sop: 1999-01-2721
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2721"
 ---
 

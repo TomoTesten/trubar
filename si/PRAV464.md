@@ -4,9 +4,9 @@ naziv: "Pravilnik o obrazcu zdravstvenega spričevala za živali in obrazcu vete
 vrsta: "pravilnik"
 datum: 1999-07-13
 sop: 1999-01-2660
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2660"
 ---
 

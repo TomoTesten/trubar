@@ -4,9 +4,9 @@ naziv: "Navodilo o poravnavanju v kazenskih zadevah"
 vrsta: "navodilo"
 datum: 1999-07-23
 sop: 1999-01-2817
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2817"
 ---
 

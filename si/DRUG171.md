@@ -2,11 +2,11 @@
 kratica: DRUG171
 naziv: "Seznam strokovnih in znanstvenih naslovov ter njihovih okrajšav"
 vrsta: "drugi akt"
-datum: 1999-04-02
+datum: 1999-07-16
 sop: 1999-01-1012
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1012"
 ---
 

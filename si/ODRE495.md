@@ -4,9 +4,9 @@ naziv: "Odredba o območjih in sedežih policijskih postaj"
 vrsta: "odredba"
 datum: 1999-07-09
 sop: 1999-01-2602
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2602"
 ---
 

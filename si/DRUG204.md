@@ -4,9 +4,9 @@ naziv: "Dopolnitev seznama potrjenih domačih sort kmetijskih rastlin in tujih s
 vrsta: "drugi akt"
 datum: 1999-07-13
 sop: 1999-01-2663
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2663"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o pogojih za imenovanje skupine za zbiranje, pridobivanje, pri
 vrsta: "pravilnik"
 datum: 1999-07-09
 sop: 1999-01-2607
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2607"
 ---
 
