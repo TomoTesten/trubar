@@ -1,0 +1,37 @@
+---
+kratica: MP_SKLE2063
+naziv: "Sklep o javni obravnavi sprememb in dopolnitev prostorskih sestavin dolgoročnega in družbenega plana Občine Jesenice za Občino Žirovnica (SKLE)"
+vrsta: "občinski sklep"
+datum: 2001-02-28
+sop: 2001-01-0896
+organ: "Občina Žirovnica"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0896"
+---
+
+# Sklep o javni obravnavi sprememb in dopolnitev prostorskih sestavin dolgoročnega in družbenega plana Občine Jesenice za Občino Žirovnica (SKLE)
+
+Na podlagi 37. člena zakona o urejanju prostora in drugih posegov v prostor (Uradni list SRS, št. 8/84, 37/85, 29/86 in Uradni list RS, št. 26/90, 47/93, 71/93, 44/97) ter 44. člena statuta Občine Žirovnica (Uradni list RS, št. 23/99) izdajam
+
+
+## S K L E P
+o javni obravnavi sprememb in dopolnitev prostorskih sestavin dolgoročnega  in družbenega plana Občine Jesenice  za Občino Žirovnica
+
+
+### 1
+
+Javna razgrnitev sprememb in dopolnitev prostorskih sestavin dolgoročnega in družbenega plana Občine Jesenice za Občino Žirovnica (Uradni list RS, št. 51/98 in 65/99) bo potekala v Kulturnem domu na Breznici v četrtek, 1. 3. 2001, z začetkom ob 18. uri.
+
+
+### 2
+
+Ta sklep se objavi v Uradnem listu Republike Slovenije in začne veljati naslednji dan po objavi.
+
+Št. 35007-0004/99
+
+Žirovnica, dne 26. januarja 2001.
+
+Župan
+Občine Žirovnica
+Franc Pfajfar, gr. inž. l. r.
