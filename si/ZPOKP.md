@@ -7,6 +7,11 @@ sop: 1998-01-3183
 objava: "Uradni list RS 67/98  str. 5007"
 kljucne_besede: ["poroštvo", "kredit", "potres", "regionalni razvoj"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3183"
+spremembe:
+  - kratica: ZPOKP-A
+    datum: 2001-02-16
+    sop: 2001-01-0666
+    naziv: "Zakon o spremembi in dopolnitvi zakona o poroštvu Republike Slovenije za obveznosti iz kredita, ki sta ga najela Stanovanjski sklad Republike Slovenije in Sklad za regionalni razvoj in ohranjanje slovenskega podeželja pri Skladu Sveta Evrope za socialni razvoj, za izvedbo programov pri popotresni obnovi in spodbujanju razvoja Posočja"
 ---
 
 # Zakon o poroštvu Republike Slovenije za obveznosti iz kredita, ki sta ga najela Stanovanjski sklad Republike Slovenije in Sklad za regionalni razvoj in ohranjanje slovenskega podeželja pri Skladu sveta Evrope za socialni razvoj, za izvedbo programov pri popotresni obnovi in spodbujanju razvoja Posočja
