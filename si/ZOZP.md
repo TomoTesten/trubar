@@ -7,6 +7,11 @@ sop: 1994-01-2509
 objava: "Uradni list RS 70/94  str. 3911"
 kljucne_besede: ["obvezno škodno zavarovanje", "zavarovanje motornih vozil"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2509"
+spremembe:
+  - kratica: ZOZP-A
+    datum: 2002-07-26
+    sop: 2002-01-3238
+    naziv: "Zakon o spremembah in dopolnitvah zakona o obveznih zavarovanjih v prometu"
 ---
 
 # Zakon o obveznih zavarovanjih v prometu
