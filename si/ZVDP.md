@@ -7,6 +7,11 @@ sop: 1997-01-3374
 objava: "Uradni list RS 70/97  str. 5483"
 kljucne_besede: ["vino", "vinogradništvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3374"
+spremembe:
+  - kratica: ZVDP-A
+    datum: 2001-03-07
+    sop: 2001-01-0957
+    naziv: "Zakon o spremembah in dopolnitvah zakona o vinu in drugih proizvodih iz grozdja in vina"
 ---
 
 # Zakon o vinu in drugih proizvodih iz grozdja in vina
