@@ -7,6 +7,11 @@ sop: 1993-01-0493
 objava: "Uradni list RS 12/93  str. 498"
 kljucne_besede: ["sistem pokojninskega zavarovanja", "socialna varnost", "zavarovanje za primer brezposelnosti"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0493"
+spremembe:
+  - kratica: ZUPDN93-A
+    datum: 1993-04-05
+    sop: 1993-01-0803
+    naziv: "Zakon o spremembah zakona o usklajevanju pokojnin in denarnih nadomestil za primer brezposelnosti v letu 1993"
 ---
 
 # Zakon o usklajevanju pokojnin in denarnih nadomestil za primer brezposelnosti v letu 1993
