@@ -12,6 +12,10 @@ spremembe:
     datum: 1995-08-04
     sop: 1995-01-2161
     naziv: "Zakon o spremembah in dopolnitvah zakona o sodiščih"
+  - kratica: ZS-B
+    datum: 1999-05-21
+    sop: 1999-01-1874
+    naziv: "Zakon o spremembi zakona o sodiščih"
 ---
 
 # Zakon o sodiščih
