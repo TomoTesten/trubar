@@ -1,0 +1,63 @@
+---
+kratica: MP_ODLO6964
+naziv: "Odlok o povprečni gradbeni ceni stanovanj, ceni za stavbna zemljišča in povprečnih stroških komunalnega urejanja stavbnih zemljišč (ODLO)"
+vrsta: "občinski odlok"
+datum: 2003-10-29
+sop: 2003-01-4650
+organ: "Občina Šmarje pri Jelšah"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4650"
+---
+
+# Odlok o povprečni gradbeni ceni stanovanj, ceni za stavbna zemljišča in povprečnih stroških komunalnega urejanja stavbnih zemljišč (ODLO)
+
+Na podlagi 143., 144., 146. člena in v povezavi s 179. členom zakona o urejanju prostora (Uradni list RS, št. 110/02) in 7., 12. in 20. člena pravilnika o enotni metodologiji za izračun prometne vrednosti stanovanjskih hiš in stanovanj ter drugih nepremičnin (Uradni list SRS, št. 8/87) ter 16. člena statuta Občine Šmarje pri Jelšah (Uradni list RS, št. 41/99) je Občinski svet občine Šmarje pri Jelšah na 8. redni seji dne 16. 10. 2003 sprejel
+
+
+## O D L O K
+o povprečni gradbeni ceni stanovanj, ceni
+za stavbna zemljišča in povprečnih stroških
+komunalnega urejanja stavbnih zemljišč
+
+
+### 1. člen
+
+Povprečna gradbena cena za m2 koristne stanovanjske površine, ki se izračuna po JUS U.C2.100, III. stopnje opremljenosti zmanjšana za povprečne stroške urejanja stavbnega zemljišča in za vrednost zemljišča na dan 30. 9. 2003 za območje Občine Šmarje pri Jelšah znaša 153.295 SIT.
+
+
+### 2. člen
+
+Povprečna cena za stavbno zemljišče se določi v odstotkih od povprečne gradbene cene iz 1. člena tega odloka in znaša 1,2% povprečne gradbene cene, to je: 1.839,50 SIT za m2.
+
+
+### 3. člen
+
+Povprečni stroški komunalnega urejanja stavbnih zemljišč na območju Občine Šmarje pri Jelšah za III. stopnjo opremljenosti in gostoto naseljenosti 100 do 200 prebivalcev na hektar znašajo na dan 30. 9. 2003 21.739 SIT za m2 koristne stanovanjske površine.
+Od tega:
+– stroški za naprave individualne komunalne rabe 9.684 SIT za m2 koristne stanovanjske površine,
+– stroški za naprave kolektivne komunalne rabe 12.055 SIT za m2 koristne stanovanjske površine.
+Povprečni stroški komunalnega opremljanja stavbnega zemljišča na m2 stavbnega zemljišča v občini Šmarje pri Jelšah znašajo na dan 30. 9. 2003 8.696 SIT.
+
+
+### 4. člen
+
+Tako določena gradbena cena, cena za stavbno zemljišče in povprečni stroški komunalnega urejanja stavbnih zemljišč komunalnega urejanja stavbnih zemljišč se letno valorizirajo v skladu z indeksi podražitev, ki jih mesečno objavlja Gospodarska zbornica Slovenije – Združenje za gradbeništvo in industrijo gradbenega materiala.
+
+
+### 5. člen
+
+Z dnem uveljavitve tega odloka preneha veljati odlok o povprečni gradbeni ceni stanovanj, ceni za stavbna zemljišča in povprečnih stroških komunalnega urejanja stavbnih zemljišč v letu 2002 (Uradni list RS, št. 94/02).
+
+
+### 6. člen
+
+Ta odlok začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 06202-0059/03
+
+Šmarje pri Jelšah, dne 16. oktobra 2003.
+
+Župan
+Občine Šmarje pri Jelšah
+Jožef Čakš l. r.
