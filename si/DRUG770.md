@@ -4,9 +4,9 @@ naziv: "Seznam pravnih oseb, ki bodo prenesle račun v bančno okolje v obdobju 
 vrsta: "drugi akt"
 datum: 2000-10-06
 sop: 2000-01-3910
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3910"
 ---
 

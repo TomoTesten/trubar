@@ -4,9 +4,9 @@ naziv: "Seznam standardov, katerih uporaba ustvarja domnevo o skladnosti proizvo
 vrsta: "drugi akt"
 datum: 2000-10-20
 sop: 2000-01-4077
-organ: "Ministrstvo za gospodarske dejavnosti"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4077"
 ---
 

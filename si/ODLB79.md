@@ -4,9 +4,9 @@ naziv: "Odločba o količinah predhodnih sestavin za prepovedane droge, ki se la
 vrsta: "akt"
 datum: 2000-10-13
 sop: 2000-01-3991
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3991"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Seznam zdravil, katerim je od 30. 6. 2000 do 3. 10. 2000 razveljavljeno 
 vrsta: "drugi akt"
 datum: 2000-10-12
 sop: 2000-01-3960
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3960"
 ---
 

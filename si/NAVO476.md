@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi navodila o načinu izvajanja akreditiranja in o spl
 vrsta: "navodilo"
 datum: 2000-10-20
 sop: 2000-01-4086
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4086"
 ---
 

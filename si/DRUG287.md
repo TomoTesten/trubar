@@ -4,9 +4,9 @@ naziv: "Pravilnik o živilih, namenjenih za uporabo v energijsko omejenih dietah
 vrsta: "drugi akt"
 datum: 2000-10-05
 sop: 2000-01-3898
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3898"
 ---
 

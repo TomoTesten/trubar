@@ -4,9 +4,9 @@ naziv: "Poročilo o izidu rednih volitev poslancev v Državni zbor"
 vrsta: "akt"
 datum: 2000-10-24
 sop: 2000-01-4130
-organ: "Republiška volilna komisija"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4130"
 ---
 

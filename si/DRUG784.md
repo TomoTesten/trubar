@@ -4,9 +4,9 @@ naziv: "Koeficienti rasti cen v Republiki Sloveniji, september 2000"
 vrsta: "drugi akt"
 datum: 2000-10-12
 sop: 2000-01-3962
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3962"
 ---
 
