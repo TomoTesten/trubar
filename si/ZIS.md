@@ -7,6 +7,11 @@ sop: 1995-01-1254
 objava: "Uradni list RS 27/95  str. 1909"
 kljucne_besede: ["igra na srečo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1254"
+spremembe:
+  - kratica: ZIS-A
+    datum: 2001-10-29
+    sop: 2001-01-4386
+    naziv: "Zakon o spremembah in dopolnitvah zakona o igrah na srečo"
 ---
 
 # Zakon o igrah na srečo
