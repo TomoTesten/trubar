@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi prostorskih sestavin dolgoročnega in srednjero
 vrsta: "akt"
 datum: 1991-07-31
 sop: 1991-01-0288
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0288"
 ---
 

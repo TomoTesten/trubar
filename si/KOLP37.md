@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba o spremembah in dopolnitvah kolektivne pogodbe za tek
 vrsta: "akt"
 datum: 1991-07-31
 sop: 1991-01-0298
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0298"
 ---
 
