@@ -4,9 +4,9 @@ naziv: "Navodilo o vsebini, načinu in rokih, v katerih izvajalci plačilnega pr
 vrsta: "navodilo"
 datum: 2002-12-28
 sop: 2002-01-5723
-organ: "Agencija Republike Slovenije za javnopravne evidence in storitve"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5723"
 ---
 

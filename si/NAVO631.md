@@ -4,9 +4,9 @@ naziv: "Sprememba navodila o načinu elektronskega poročanja zavarovalnice o na
 vrsta: "navodilo"
 datum: 2002-12-28
 sop: 2002-01-5736
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5736"
 ---
 

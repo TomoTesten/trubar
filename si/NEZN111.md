@@ -2,11 +2,11 @@
 kratica: NEZN111
 naziv: "Pravilnik o označevanju hranilne vrednosti živil"
 vrsta: "akt"
-datum: 2002-07-10
+datum: 2002-12-28
 sop: 2002-01-2888
-organ: "Ministrstvo za zdravje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2888"
 ---
 

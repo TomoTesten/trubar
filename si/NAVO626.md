@@ -4,9 +4,9 @@ naziv: "Navodilo za izvajanje subvencionirane študentske prehrane"
 vrsta: "navodilo"
 datum: 2002-12-27
 sop: 2002-01-5617
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5617"
 ---
 
