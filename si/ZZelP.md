@@ -16,6 +16,10 @@ spremembe:
     datum: 2001-05-05
     sop: 2001-01-1960
     naziv: "Zakon o dopolnitvi zakona o železniškem prometu"
+  - kratica: ZZelP-C
+    datum: 2002-12-18
+    sop: 2002-01-5393
+    naziv: "Zakon o spremembah in dopolnitvah zakona o železniškem prometu"
 ---
 
 # Zakon o železniškem prometu
