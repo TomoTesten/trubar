@@ -32,6 +32,10 @@ spremembe:
     datum: 2001-06-07
     sop: 2001-01-2548
     naziv: "Zakon o spremembah in dopolnitvah zakona o gospodarskih družbah"
+  - kratica: ZGD-G
+    datum: 2004-05-27
+    sop: 2004-01-2666
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gospodarskih družbah"
 ---
 
 # Zakon o gospodarskih družbah
