@@ -4,9 +4,9 @@ naziv: "Poslovnik o načinu dela sodnega sveta po zakonu o nezdružljivosti opra
 vrsta: "akt"
 datum: 2003-02-28
 sop: 2003-01-0835
-organ: "Sodni svet Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0835"
 ---
 
