@@ -7,6 +7,11 @@ sop: 1993-01-0431
 objava: "Uradni list RS 10/93  str. 453"
 kljucne_besede: ["terjatev", "lastnina", "delitev lastnine", "Jugoslavija", "sklad", "sukcesija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0431"
+spremembe:
+  - kratica: ZSSuk-A
+    datum: 1994-06-30
+    sop: 1994-01-1520
+    naziv: "Zakon o spremembah in dopolnitvah zakona o skladu Republike Slovenije za sukcesijo"
 ---
 
 # Zakon o Skladu Republike Slovenije za sukcesijo
