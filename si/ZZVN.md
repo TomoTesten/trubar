@@ -28,6 +28,10 @@ spremembe:
     datum: 2000-03-30
     sop: 2000-01-1258
     naziv: "Zakon o spremembi in dopolnitvah zakona o žrtvah vojnega nasilja"
+  - kratica: ZZVN-F
+    datum: 2001-08-03
+    sop: 2001-01-3469
+    naziv: "Zakon o dopolnitvi zakona o žrtvah vojnega nasilja"
 ---
 
 # Zakon o žrtvah vojnega nasilja
