@@ -1,0 +1,56 @@
+---
+kratica: MP_SKLE12116
+naziv: "Sklep o dajanju soglasja k cenam (SKLE)"
+vrsta: "občinski sklep"
+datum: 1993-11-12
+sop: 1993-01-2266
+organ: "Občina Lenart"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2266"
+---
+
+# Sklep o dajanju soglasja k cenam (SKLE)
+
+Na podlagi 3. in 10. člena Zakona o cenah (Uradni list RS, št. 1/91-I), 1. člena Uredbe o prenosu pristojnosti za določanje cen na izvršne svete skupščin občin in družbenopolitičnih skupnosti (Uradni list RS, št. 15/93) je Izvršni svet Skupščine občine Lenart na seji dne 28. 10. 1993 sprejel
+
+
+## SKLEP
+o dajanju soglasja k cenam
+
+
+### 1. člen
+
+Nosilci samostojnega osebnega dela in vzgojnovarstveni zavod smejo povečati cene dimnikarskih storitev, pogrebne službe in urejanje ter vzdrževanje pokopališč ter cene dnevnega bivanja otrok v vrtcu in jaslih na podlagi soglasja Izvršnega sveta Skupščine občine Lenart.
+
+
+### 2. člen
+
+Nosilci samostojnega osebnega dela in vzgojno varstveni zavod predložijo Izvršnemu svetu Skupščine občine Lenart zahtevo za soglasje v dveh izvodih.
+Zahteva vsebuje naslednje podatke:
+– veljavno ceno, datum njene uveljavitve in odstotek zahtevanega povečanja cen,
+– razloge, ki pogojujejo predlagano ceno.
+
+
+### 3. člen
+
+Če zahteva za soglasje ne vsebuje podatkov iz 2. člena tega sklepa, zahteva izvršni svet v 10 dneh po prejemu zahteve, dopolnitev.
+Če predlagatelj cene zahtevane dopolnitve ne pošlje v roku 8 dni po prejemu obvestila za dopolnitev zahteve, se šteje, da zahteva ni bila vložena.
+
+
+### 4. člen
+
+Izvršni svet Skupščine občine Lenart odloči o soglasju v 30 dneh po prejemu zahteve. Če Izvršni svet Skupščine občine Lenart v roku iz prejšnjega stavka tega člena ne izda soglasja, se šteje, da je dano soglasje za spremembo cene.
+
+
+### 5. člen
+
+Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se od 1. 11. 1993.
+
+Št. 382-1/90
+
+Lenart, dne 28. oktobra 1993.
+
+Predsednik
+izvršnega sveta
+Avgust Zavernik, dipl. inž. l. r.
