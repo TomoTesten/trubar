@@ -1,0 +1,29 @@
+---
+kratica: SKLE281
+naziv: "Ugotovitveni sklep v zvezi s prenehanjem opravljanja funkcije poslanca Državnega zbora"
+vrsta: "sklep"
+datum: 1999-08-20
+sop: 1999-01-3372
+organ: "Državni zbor RS"
+zbirka: "Drugi splošni in posamični akti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3372"
+---
+
+# Ugotovitveni sklep v zvezi s prenehanjem opravljanja funkcije poslanca Državnega zbora
+
+Na podlagi 14. člena zakona o poslancih (Uradni list RS, št. 48/92 in 44/94 – odločba US) se je Državni zbor Republike Slovenije na seji dne 30. 7. 1999 seznanil z naslednjim
+
+
+## U G O T O V I T V E N I M  S K L E P O M
+
+Državni zbor Republike Slovenije ugotavlja, da je bil Jožetu Leniču s 30. 7. 1999 potrjen mandat poslanca, kar je po 10. členu zakona o poslancih nezdružljivo z opravljanjem funkcije poslanca po drugem odstavku 14. člena zakona o poslancih, zato v skladu s peto alineo prvega odstavka in drugim odstavkom 9. člena zakona o poslancih preneha z opravljanjem funkcije poslanca s 30. 7. 1999.
+
+Št. 020-02/92-27/104
+
+Ljubljana, dne 30. julija 1999.
+
+Predsednik
+Državnega zbora
+Republike Slovenije
+Janez Podobnik, dr. med. l. r.
