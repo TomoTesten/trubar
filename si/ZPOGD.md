@@ -7,6 +7,11 @@ sop: 1994-01-2472
 objava: "Uradni list RS 69/94  str. 3845"
 kljucne_besede: ["poroštvo", "dolg", "gospodarska družba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2472"
+spremembe:
+  - kratica: ZPOGD-A
+    datum: 1995-03-03
+    sop: 1995-01-0654
+    naziv: "Zakon o spremembah in dopolnitvah zakona o poroštvih Republike Slovenije za obveznosti gospodarskih družb iz poslov restrukturiranja dolgov"
 ---
 
 # Zakon o poroštvih Republike Slovenije za obveznosti gospodarskih družb iz poslov restrukturiranja dolgov
