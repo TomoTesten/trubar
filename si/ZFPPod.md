@@ -7,6 +7,11 @@ sop: 1999-01-2543
 objava: "Uradni list RS 54/99  str. 6753"
 kljucne_besede: ["gospodarska družba", "finančno poslovodenje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2543"
+spremembe:
+  - kratica: ZFPPod-A
+    datum: 1999-12-30
+    sop: 1999-01-5162
+    naziv: "Zakon o spremembah in dopolnitvah zakona o finančnem poslovanju podjetij"
 ---
 
 # Zakon o finančnem poslovanju podjetij
