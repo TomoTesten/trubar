@@ -4,9 +4,9 @@ naziv: "Zakon o prisilni poravnavi, stečaju in likvidaciji (ZPPSL)"
 vrsta: "akt"
 datum: 1993-12-17
 sop: 1993-01-2464
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2464"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Poslovnik o parlamentarni preiskavi"
 vrsta: "akt"
 datum: 1993-11-19
 sop: 1993-01-2286
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2286"
 ---
 

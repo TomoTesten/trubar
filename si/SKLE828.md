@@ -4,9 +4,9 @@ naziv: "Sklep o glavnih znamenjih bankovca za 5000 tolarjev"
 vrsta: "sklep"
 datum: 1993-12-10
 sop: 1993-01-2459
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2459"
 ---
 

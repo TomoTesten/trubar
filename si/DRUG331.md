@@ -2,11 +2,11 @@
 kratica: DRUG331
 naziv: "Poročilo o gospodarskih družbah, podjetjih ali zavodih"
 vrsta: "drugi akt"
-datum: 1993-10-01
+datum: 1993-12-10
 sop: 1993-01-1992
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1992"
 ---
 

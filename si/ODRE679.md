@@ -4,9 +4,9 @@ naziv: "Odredba o dopolnitvi odredbe o izdajanju potrdil in overjanju listin, ki
 vrsta: "odredba"
 datum: 1993-12-10
 sop: 1993-01-2426
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2426"
 ---
 

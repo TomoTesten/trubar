@@ -4,9 +4,9 @@ naziv: "Akt o nasledstvu sporazumov nekdanje Jugoslavije z Zvezno republiko Nem�
 vrsta: "akt"
 datum: 1993-12-17
 sop: 1993-02-0092
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-02-0092"
 ---
 
