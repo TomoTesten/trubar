@@ -20,6 +20,10 @@ spremembe:
     datum: 2002-12-18
     sop: 2002-01-5393
     naziv: "Zakon o spremembah in dopolnitvah zakona o železniškem prometu"
+  - kratica: ZZelP-D
+    datum: 2003-06-13
+    sop: 2003-01-2774
+    naziv: "Zakon o spremembah in dopolnitvah zakona o železniškem prometu"
 ---
 
 # Zakon o železniškem prometu
