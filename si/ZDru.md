@@ -7,6 +7,11 @@ sop: 1995-01-2789
 objava: "Uradni list RS 60/95  str. 4746"
 kljucne_besede: ["združenje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2789"
+spremembe:
+  - kratica: ZDru-A
+    datum: 1999-11-04
+    sop: 1999-01-4265
+    naziv: "Zakon o spremembah in dopolnitvah zakona o društvih"
 ---
 
 # Zakon o društvih
