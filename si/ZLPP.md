@@ -7,6 +7,11 @@ sop: 1992-01-2514
 objava: "Uradni list RS 55/92  str. 3117"
 kljucne_besede: ["javna lastnina", "privatizacija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2514"
+spremembe:
+  - kratica: ZLPP-A
+    datum: 1993-02-04
+    sop: 1993-01-0290
+    naziv: "Zakon o spremembah zakona o lastninskem preoblikovanju podjetij"
 ---
 
 # Zakon o lastninskem preoblikovanju podjetij
