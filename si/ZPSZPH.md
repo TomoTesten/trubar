@@ -7,6 +7,11 @@ sop: 1998-01-2113
 objava: "Uradni list RS 48/98  str. 3421"
 kljucne_besede: ["poroštvo", "posojilo", "železniški promet"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2113"
+spremembe:
+  - kratica: ZPSZPH-A
+    datum: 2000-09-23
+    sop: 2000-01-3807
+    naziv: "Zakon o spremembah in dopolnitvah zakona o poroštvu Republike Slovenije za obveznosti Slovenskih železnic, d.d., iz naslova posojil, najetih za financiranje gradnje železniške proge v smeri Puconci-Hodoš-državna meja"
 ---
 
 # Zakon o poroštvu Republike Slovenije za obveznosti Slovenskih železnic d.d., iz naslova posojil, najetih za financiranje gradnje železniške proge v smeri Puconci - Hodoš - državna meja
