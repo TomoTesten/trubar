@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi skladnosti prve alinee prvega odstavka 16. člena 
 vrsta: "akt"
 datum: 1997-12-22
 sop: 1997-01-3891
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3891"
 ---
 

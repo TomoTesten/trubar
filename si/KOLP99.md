@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba dejavnosti gostinstva in turizma Slovenije"
 vrsta: "akt"
 datum: 1997-12-23
 sop: 1997-01-3898
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3898"
 ---
 

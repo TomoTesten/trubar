@@ -4,8 +4,9 @@ naziv: "Pravilnik o pregledu in preizkušanju tlačnih posod"
 vrsta: "pravilnik"
 datum: 1997-12-24
 sop: 1997-01-3949
-organ: "Ministrstvo za gospodarske dejavnosti"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3949"
 ---
 

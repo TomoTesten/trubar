@@ -4,9 +4,9 @@ naziv: "Uredba o spremembah in dopolnitvah uredbe o določitvi režima izvoza in
 vrsta: "uredba"
 datum: 1997-12-27
 sop: 1996-01-3991
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3991"
 ---
 

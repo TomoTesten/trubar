@@ -4,9 +4,9 @@ naziv: "Odlok o razrešitvi in imenovanju člana Nadzornega sveta Kapitalskega s
 vrsta: "odlok"
 datum: 1997-12-22
 sop: 1997-01-3879
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3879"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o izvajanju Srednjeevropskega sporazuma o prosti trgovini (CEFTA)
 vrsta: "uredba"
 datum: 1997-12-22
 sop: 1997-01-3870
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3870"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o vsebini in poteku sekundarijata"
 vrsta: "pravilnik"
 datum: 1997-12-23
 sop: 1997-01-3897
-organ: "ZDRAVNIŠKA ZBORNICA SLOVENIJE"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3897"
 ---
 
