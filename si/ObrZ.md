@@ -7,6 +7,11 @@ sop: 1994-01-1868
 objava: "Uradni list RS 50/94  str. 3075"
 kljucne_besede: ["obrt"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1868"
+spremembe:
+  - kratica: ObrZ-A
+    datum: 2000-07-06
+    sop: 2000-01-2748
+    naziv: "Zakon o dopolnitvah obrtnega zakona"
 ---
 
 # Obrtni zakon
