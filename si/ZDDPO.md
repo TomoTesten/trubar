@@ -16,6 +16,10 @@ spremembe:
     datum: 1996-06-29
     sop: 1996-01-2270
     naziv: "Zakon o spremembah in dopolnitvah zakona o davku od dobička pravnih oseb"
+  - kratica: ZDDPO-C
+    datum: 2002-12-12
+    sop: 2002-01-5315
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davku od dobička pravnih oseb"
 ---
 
 # Zakon o davku od dobička pravnih oseb
