@@ -32,6 +32,10 @@ spremembe:
     datum: 1998-11-03
     sop: 1998-01-3725
     naziv: "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi"
+  - kratica: ZLS-K
+    datum: 2000-08-08
+    sop: 2000-01-3308
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi"
 ---
 
 # Zakon o lokalni samoupravi
