@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi in dopolnitvi odloka o organizaciji in delovnem podro�
 vrsta: "odlok"
 datum: 2000-08-04
 sop: 2000-01-3256
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3256"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o odprtju Generalnega konzulata Republike Slovenije v Podgorici"
 vrsta: "odlok"
 datum: 2001-01-12
 sop: 2001-01-0114
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0114"
 ---
 

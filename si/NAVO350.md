@@ -4,9 +4,9 @@ naziv: "Navodilo za izdelavo programov popotresne obnove objektov in vsebino ter
 vrsta: "navodilo"
 datum: 2000-05-17
 sop: 2000-01-1944
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za okolje in prostor"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1944"
 ---
 

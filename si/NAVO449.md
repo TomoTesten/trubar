@@ -4,9 +4,9 @@ naziv: "Navodilo o pogojih ter načinu ponudbe prostih denarnih sredstev oziroma
 vrsta: "navodilo"
 datum: 2000-09-15
 sop: 2000-01-3749
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3749"
 ---
 

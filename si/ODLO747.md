@@ -4,9 +4,9 @@ naziv: "Odlok o razrešitvi generalnega konzula Republike Slovenije v Münchnu"
 vrsta: "odlok"
 datum: 2000-08-24
 sop: 2000-01-3515
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3515"
 ---
 
