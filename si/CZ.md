@@ -12,6 +12,10 @@ spremembe:
     datum: 1995-05-26
     sop: 1995-01-1288
     naziv: "Zakon o spremembi carinskega zakona"
+  - kratica: CZ-B
+    datum: 1999-05-06
+    sop: 1999-01-1515
+    naziv: "Zakon o spremembah in dopolnitvah carinskega zakona"
 ---
 
 # Carinski zakon
