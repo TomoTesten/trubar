@@ -12,6 +12,10 @@ spremembe:
     datum: 1994-08-05
     sop: 1994-01-1823
     naziv: "Zakon o spremembi zakona o notariatu"
+  - kratica: ZN-B
+    datum: 1994-12-30
+    sop: 1994-01-2977
+    naziv: "Zakon o spremembah zakona o notariatu"
 ---
 
 # Zakon o notariatu
