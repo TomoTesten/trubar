@@ -7,6 +7,11 @@ sop: 1995-01-1815
 objava: "Uradni list RS 37/95  str. 2695"
 kljucne_besede: ["kredit", "poroštvo", "elektrarna", "najem posojila"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1815"
+spremembe:
+  - kratica: ZPNPHE-A
+    datum: 1996-07-31
+    sop: 1996-01-2612
+    naziv: "Zakon o spremembah in dopolnitvah zakona o poroštvu Republike Slovenije za najetje posojil za obnovo in doinstaliranje HE Doblar I + II in HE Plave I + II"
 ---
 
 # Zakon o poroštvu Republike Slovenije za najetje posojil za obnovo in doinstaliranje HE Doblar + II in HE Plave I + II
