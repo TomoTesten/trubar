@@ -7,6 +7,11 @@ sop: 1992-01-0805
 objava: "Uradni list RS 16/92  str. 1268"
 kljucne_besede: ["plača", "izobraževalni zavod"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0805"
+spremembe:
+  - kratica: ZPDJVZ-A
+    datum: 1993-07-22
+    sop: 1993-01-1697
+    naziv: "Zakon o spremembah in dopolnitvah zakona o plačah delavcev v javnih vzgojnoizobraževalnih zavodih"
 ---
 
 # Zakon o plačah delavcev v javnih vzgojnoizobraževalnih zavodih
