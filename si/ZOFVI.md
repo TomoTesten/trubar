@@ -16,6 +16,10 @@ spremembe:
     datum: 2002-12-12
     sop: 2002-01-5313
     naziv: "Zakon o spremembah in dopolnitvah zakona o organizaciji in financiranju vzgoje in izobraževanja"
+  - kratica: ZOFVI-C
+    datum: 2003-04-10
+    sop: 2003-01-1435
+    naziv: "Zakon o dopolnitvi zakona o organizaciji in financiranju vzgoje in izobraževanja"
 ---
 
 # Zakon o organizaciji in financiranju vzgoje in izobraževanja
