@@ -7,6 +7,11 @@ sop: 1994-01-0782
 objava: "Uradni list RS 19/94  str. 1118"
 kljucne_besede: ["zdravstvena ustanova", "zdravstveni dom", "zdravstvena politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0782"
+spremembe:
+  - kratica: ZIJZ-A
+    datum: 2000-03-30
+    sop: 2000-01-1255
+    naziv: "Zakon o spremembah zakona o investicijah v javne zdravstvene zavode, katerih ustanovitelj je Republika Slovenija, za obdobje 1994-1999"
 ---
 
 # Zakon o investicijah v javne zdravstvene zavode, katerih ustanovitelj je Republika Slovenija, za obdobje 1994 do 1999
