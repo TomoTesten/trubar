@@ -2,10 +2,11 @@
 kratica: ODRE976
 naziv: "Odredba o pogojih sklepanja poslov z vrednostnimi papirji, ki kotirajo na Ljubljanski borzi. d.d. Ljubljana"
 vrsta: "odredba"
-datum: 1992-12-24
+datum: 1993-07-22
 sop: 1992-01-2768
-organ: "Ministrstvo za finance"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2768"
 ---
 

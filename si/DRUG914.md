@@ -4,9 +4,9 @@ naziv: "Seznam gotovih zdravil, za katera je bilo od 8.5.1993 do 2.7.1993 dano d
 vrsta: "drugi akt"
 datum: 1993-07-17
 sop: 1993-01-1676
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1676"
 ---
 

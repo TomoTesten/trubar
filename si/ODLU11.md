@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi določb 49. člena zakona o pokojninskem in inv
 vrsta: "akt"
 datum: 1993-07-24
 sop: 1993-01-1737
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1737"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o spremembi Zakona o prispevkih za pokojninsko in invalidsko zavar
 vrsta: "akt"
 datum: 1993-07-22
 sop: 1993-01-1698
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1698"
 ---
 

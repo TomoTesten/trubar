@@ -4,9 +4,9 @@ naziv: "Odškodninski cenik o spremembah odškodninskega cenika za povračilo š
 vrsta: "drugi akt"
 datum: 1993-07-24
 sop: 1993-01-1732
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1732"
 ---
 

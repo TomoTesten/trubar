@@ -4,9 +4,9 @@ naziv: "Sklep o ustanovitvi regijskih štabov za civilno zaščito ter imenovanj
 vrsta: "sklep"
 datum: 1993-07-17
 sop: 1993-01-1671
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1671"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o razvrstitvi blaga v oblike izvoza in uvoza"
 vrsta: "uredba"
 datum: 1993-07-21
 sop: 1993-01-1686
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1686"
 ---
 

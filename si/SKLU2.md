@@ -4,9 +4,9 @@ naziv: "Sklep ustavnega sodišča o zadržanju izvrševanja tretjega odstavka 51
 vrsta: "akt"
 datum: 1993-07-24
 sop: 1993-01-1736
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1736"
 ---
 

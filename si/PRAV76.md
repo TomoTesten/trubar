@@ -4,9 +4,9 @@ naziv: "Pravilnik o ukrepih za preprečevanje, ugotavljanje in zatiranje vnetja 
 vrsta: "pravilnik"
 datum: 1993-07-15
 sop: 1993-01-1614
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1614"
 ---
 
