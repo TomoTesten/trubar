@@ -12,6 +12,10 @@ spremembe:
     datum: 1999-07-23
     sop: 1999-01-2793
     naziv: "Zakon o spremembah in dopolnitvah zakona o državnem tožilstvu"
+  - kratica: ZDT-B
+    datum: 2002-12-18
+    sop: 2002-01-5389
+    naziv: "Zakon o spremembah in dopolnitvah zakona o državnem tožilstvu"
 ---
 
 # Zakon o državnem tožilstvu
