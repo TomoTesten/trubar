@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi odloka o tarifnem sistemu za prodajo telefonskih stori
 vrsta: "odlok"
 datum: 2001-03-23
 sop: 2001-01-1260
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1260"
 ---
 
