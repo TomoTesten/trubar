@@ -16,6 +16,10 @@ spremembe:
     datum: 2002-04-11
     sop: 2002-01-1347
     naziv: "Zakon o spremembi in dopolnitvi zakona o jamstvu Republike Slovenije za obveznosti domačega letalskega prevoznika za kritje škod, nastalih kot posledica vojne oziroma terorizma in o pogojih jamstva za tuje letalske prevoznike"
+  - kratica: ZJODLPKŠ-C
+    datum: 2002-12-12
+    sop: 2002-01-5316
+    naziv: "Zakon o spremembah in dopolnitvah zakona o jamstvu Republike Slovenije za obveznosti domačega letalskega prevoznika za kritje škod, nastalih kot posledica vojne oziroma terorizma in o pogojih jamstva za tuje letalske prevoznike"
 ---
 
 # Zakon o jamstvu Republike Slovenije za obveznosti domačega letalskega prevoznika za kritje škod, nastalih kot posledica vojne oziroma terorizma in o pogojih jamstva za tuje letalske prevoznike
