@@ -7,6 +7,11 @@ sop: 1999-01-3757
 objava: "Uradni list RS 79/99  str. 12378"
 kljucne_besede: ["energetika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3757"
+spremembe:
+  - kratica: EZ-A
+    datum: 2004-05-07
+    sop: 2004-01-2307
+    naziv: "Zakon o spremembah in dopolnitvah energetskega zakona"
 ---
 
 # Energetski zakon
