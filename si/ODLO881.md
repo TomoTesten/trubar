@@ -4,9 +4,9 @@ naziv: "Odlok o ustanovitvi Odbora Državnega zbora Republike Slovenije za gospo
 vrsta: "odlok"
 datum: 2000-11-28
 sop: 2000-01-4524
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4524"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odlok o spremembi odloka o razglasitvi Grada Ptuj za kulturni spomenik d
 vrsta: "odlok"
 datum: 2000-12-01
 sop: 2000-01-4600
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4600"
 ---
 

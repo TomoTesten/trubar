@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi navodila o minimalni obvezni vsebini in metodologij
 vrsta: "navodilo"
 datum: 2000-12-01
 sop: 2000-01-4616
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4616"
 ---
 
