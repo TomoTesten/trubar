@@ -12,6 +12,10 @@ spremembe:
     datum: 1997-07-24
     sop: 1997-01-2415
     naziv: "Zakon o spremembi in dopolnitvi zakona o obrambi"
+  - kratica: ZObr-B
+    datum: 1997-12-29
+    sop: 1997-01-4011
+    naziv: "Zakon o spremembah in dopolnitvah zakona o obrambi"
 ---
 
 # Zakon o obrambi
