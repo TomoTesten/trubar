@@ -7,6 +7,11 @@ sop: 1994-01-0781
 objava: "Uradni list RS 19/94  str. 1109"
 kljucne_besede: ["sodnik"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0781"
+spremembe:
+  - kratica: ZSS-A
+    datum: 1996-02-12
+    sop: 1996-01-0383
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodniški službi"
 ---
 
 # Zakon o sodniški službi
