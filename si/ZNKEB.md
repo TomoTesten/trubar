@@ -7,6 +7,11 @@ sop: 1994-01-1316
 objava: "Uradni list RS 32/94  str. 2045"
 kljucne_besede: ["kredit", "kreditna garancija", "EBRD", "cestno omrežje", "prometna infrastruktura"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1316"
+spremembe:
+  - kratica: ZNKEB-A
+    datum: 1998-08-14
+    sop: 1998-01-2601
+    naziv: "Zakon o spremembah in dopolnitvah zakona o najetju kredita Republike Slovenije pri Evropski banki za obnovo in razvoj za projekt prenove obstoječih magistralnih cest"
 ---
 
 # Zakon o najetju kredita Republike Slovenije pri Evropski banki za obnovo in razvoj za projekt prenove obstoječih magistralnih cest
