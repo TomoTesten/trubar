@@ -16,6 +16,10 @@ spremembe:
     datum: 1993-06-11
     sop: 1993-01-1309
     naziv: "Zakon o spremembah in dopolnitvah zakona o lastninskem preoblikovanju podjetij"
+  - kratica: ZLPP-C
+    datum: 1996-01-12
+    sop: 1996-01-0003
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lastninskem preoblikovanju podjetij"
 ---
 
 # Zakon o lastninskem preoblikovanju podjetij
