@@ -4,9 +4,9 @@ naziv: "Odločba o tem, da se vzame iz prometa zdravilo DEPEDIN VEYX za uporabo 
 vrsta: "akt"
 datum: 1994-12-16
 sop: 1994-01-2851
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2851"
 ---
 

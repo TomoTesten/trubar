@@ -4,9 +4,9 @@ naziv: "Uredba o listi A obrtnih in listi B obrti podobnih dejavnostih"
 vrsta: "uredba"
 datum: 1994-12-09
 sop: 1994-01-2725
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2725"
 ---
 

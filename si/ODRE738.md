@@ -4,9 +4,9 @@ naziv: "Pravilnik o določitvi števila mest državnih tožilcev na Državnem to
 vrsta: "odredba"
 datum: 1994-12-31
 sop: 1994-01-3021
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-3021"
 ---
 

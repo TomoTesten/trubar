@@ -4,9 +4,9 @@ naziv: "Odredba o ustanovitvi zunanjih oddelkov okrožnih državnih tožilstev"
 vrsta: "odredba"
 datum: 1994-12-31
 sop: 1994-01-3022
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-3022"
 ---
 

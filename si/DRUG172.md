@@ -4,9 +4,9 @@ naziv: "Pravila o varovanju izpitne tajnosti pri maturi"
 vrsta: "drugi akt"
 datum: 1994-12-16
 sop: 1994-01-2805
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2805"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve poslovnika Državnega zbora"
 vrsta: "akt"
 datum: 1994-12-23
 sop: 1994-01-2894
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2894"
 ---
 

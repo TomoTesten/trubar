@@ -4,9 +4,9 @@ naziv: "Odredba o računih ter načinu vplačevanja in razporejanja javnofinanč
 vrsta: "odredba"
 datum: 1994-12-27
 sop: 1994-01-2961
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2961"
 ---
 

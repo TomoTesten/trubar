@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila o uporabi prisilnih sredst
 vrsta: "navodilo"
 datum: 1994-12-21
 sop: 1994-01-2854
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2854"
 ---
 

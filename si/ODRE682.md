@@ -4,9 +4,9 @@ naziv: "Odredba o dopolnitvi odredbe o izdajanju potrdil in overjanju listin, ki
 vrsta: "odredba"
 datum: 1994-12-30
 sop: 1994-01-2989
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2989"
 ---
 

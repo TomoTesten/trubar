@@ -4,9 +4,9 @@ naziv: "Sklep o nalogah Urada vlade za informiranje"
 vrsta: "sklep"
 datum: 1994-12-30
 sop: 1994-01-2988
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2988"
 ---
 

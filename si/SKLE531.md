@@ -4,9 +4,9 @@ naziv: "Sklep o izdaji prve serije obveznic Slovenskega odškodninskega sklada"
 vrsta: "sklep"
 datum: 1994-12-16
 sop: 1994-01-2849
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2849"
 ---
 

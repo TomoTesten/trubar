@@ -4,9 +4,9 @@ naziv: "Sprememba navodila o načinu opravljanja plačilnega prometa s tujino"
 vrsta: "sklep"
 datum: 1994-12-31
 sop: 1994-01-3025
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-3025"
 ---
 
