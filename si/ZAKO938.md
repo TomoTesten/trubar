@@ -4,9 +4,9 @@ naziv: "Zakon o spremembi carinskega zakona (CZ-A)"
 vrsta: "akt"
 datum: 1995-05-26
 sop: 1995-01-1288
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1288"
 ---
 

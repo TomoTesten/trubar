@@ -4,9 +4,9 @@ naziv: "Zakon o prevzemu državnih funkcij, ki so jih do 31.12.1994 opravljali o
 vrsta: "akt"
 datum: 1995-05-30
 sop: 1995-01-1356
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1356"
 ---
 

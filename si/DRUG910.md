@@ -4,9 +4,9 @@ naziv: "Sklep o izjemni odmeri družinske pokojnine družinskemu članu osebe, k
 vrsta: "drugi akt"
 datum: 1995-05-19
 sop: 1995-01-1257
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1257"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Notarska tarifa"
 vrsta: "akt"
 datum: 1995-05-26
 sop: 1995-01-1320
-organ: "Notarska zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1320"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o številu in sestavi članov posadke letala"
 vrsta: "pravilnik"
 datum: 1995-05-19
 sop: 1995-01-1287
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1287"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o pogojih, ki jih morajo izpolnjevati gospodarske družbe, zad
 vrsta: "pravilnik"
 datum: 1995-05-19
 sop: 1995-01-1259
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1259"
 ---
 

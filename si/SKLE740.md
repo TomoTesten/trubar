@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi in dopolnitvi sklepa o obvezni rezervi bank in hraniln
 vrsta: "sklep"
 datum: 1995-05-12
 sop: 1995-01-1207
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1207"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep za podaljšanje plačilnega roka uporabnikom elektične energije -
 vrsta: "sklep"
 datum: 1995-06-09
 sop: 1995-01-1583
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1583"
 ---
 

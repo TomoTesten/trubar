@@ -4,9 +4,9 @@ naziv: "Uredba o spremembi in dopolnitvi uredbe o razvrstitvi blaga v oblike izv
 vrsta: "uredba"
 datum: 1995-05-12
 sop: 1995-01-1198
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1198"
 ---
 

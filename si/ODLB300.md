@@ -4,9 +4,9 @@ naziv: "Odločba o denarnih prejemkih"
 vrsta: "akt"
 datum: 1995-05-12
 sop: 1995-01-1253
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1253"
 ---
 

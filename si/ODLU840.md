@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi določb zakona o družbenem pravobranilcu Repub
 vrsta: "akt"
 datum: 1995-06-07
 sop: 1995-01-0904
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0904"
 ---
 

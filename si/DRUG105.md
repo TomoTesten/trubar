@@ -4,9 +4,9 @@ naziv: "Spisek izdanih dovoljenj (atestov) za telekomunikacijsko opremo v prvih 
 vrsta: "drugi akt"
 datum: 1995-05-26
 sop: 1995-01-1309
-organ: "Uprava RS za telekomunikacije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1309"
 ---
 

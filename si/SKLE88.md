@@ -4,9 +4,9 @@ naziv: "Sklep o ustanovitvi javnega raziskovalnega zavoda Inštitut za geografij
 vrsta: "sklep"
 datum: 1995-05-12
 sop: 1995-01-1251
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1251"
 ---
 

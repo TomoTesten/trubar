@@ -4,9 +4,9 @@ naziv: "Navodilo o ravnanju z odpadki, ki nastajajo pri opravljanju zdravstvene 
 vrsta: "navodilo"
 datum: 1995-06-02
 sop: 1995-01-1520
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1520"
 ---
 

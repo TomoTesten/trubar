@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi in dopolnitvi navodila o načinu opravljanja plači
 vrsta: "navodilo"
 datum: 1995-06-02
 sop: 1995-01-1521
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1521"
 ---
 

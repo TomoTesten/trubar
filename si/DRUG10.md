@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi, da določbe 22., 33. člena, četrtega odstavka 4
 vrsta: "drugi akt"
 datum: 1995-05-06
 sop: 1995-01-1157
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1157"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o regresu za letni dopust sodnikov"
 vrsta: "sklep"
 datum: 1995-06-02
 sop: 1995-01-1476
-organ: "Sodni svet Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1476"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o spremembi Zakona o poravnavanju davkov in prispevkov javnega pod
 vrsta: "akt"
 datum: 1995-06-09
 sop: 1995-01-1537
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1537"
 ---
 
