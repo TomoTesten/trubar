@@ -20,6 +20,10 @@ spremembe:
     datum: 2002-05-15
     sop: 2002-01-2008
     naziv: "Zakon o spremembah in dopolnitvah zakona o upravnih taksah"
+  - kratica: ZUT-D
+    datum: 2004-02-27
+    sop: 2004-01-0777
+    naziv: "Zakon o spremembah in dopolnitvah zakona o upravnih taksah"
 ---
 
 # Zakon o upravnih taksah
