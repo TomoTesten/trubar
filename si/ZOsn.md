@@ -16,6 +16,10 @@ spremembe:
     datum: 2001-07-19
     sop: 2001-01-3147
     naziv: "Zakon o spremembah in dopolnitvah zakona o osnovni šoli"
+  - kratica: ZOsn-C
+    datum: 2004-06-30
+    sop: 2004-01-3163
+    naziv: "Zakon o spremembah in dopolnitvah zakona o osnovni šoli"
 ---
 
 # Zakon o osnovni šoli
