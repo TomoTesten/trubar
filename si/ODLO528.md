@@ -1,0 +1,31 @@
+---
+kratica: ODLO528
+naziv: "Odlok o izvolitvi v sodniško funkcijo"
+vrsta: "odlok"
+datum: 2000-02-25
+sop: 2000-01-0742
+organ: "Državni zbor RS"
+zbirka: "Drugi splošni in posamični akti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0742"
+---
+
+# Odlok o izvolitvi v sodniško funkcijo
+
+Na podlagi 130. člena ustave Republike Slovenije, prvega odstavka 28. člena zakona o sodiščih (Uradni list RS, št. 19/94, 45/95 in 38/99), prvega odstavka 258.c člena zakona o spremembah in dopolnitvah zakona o prekrških (Uradni list RS, št. 87/97), osme alinee drugega odstavka 48. člena in 172. člena poslovnika Državnega zbora Republike Slovenije, je Državni zbor Republike Slovenije na seji dne 18. 2. 2000 sprejel
+
+
+## O D L O K
+o izvolitvi v sodniško funkcijo
+
+V sodniško funkcijo se izvoli:
+Martina HROVAT, na sodniško mesto sodnice za prekrške pri Sodniku za prekrške Jesenice.
+
+Št. 716-01/89-2/88
+
+Ljubljana, dne 18. februarja 2000.
+
+Predsednik
+Državnega zbora
+Republike Slovenije
+Janez Podobnik, dr. med. l. r.
