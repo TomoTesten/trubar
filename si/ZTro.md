@@ -16,6 +16,10 @@ spremembe:
     datum: 2001-05-05
     sop: 2001-01-1961
     naziv: "Zakon o spremembi in dopolnitvi zakona o trošarinah"
+  - kratica: ZTro-C
+    datum: 2001-12-07
+    sop: 2001-01-4847
+    naziv: "Zakon o spremembah in dopolnitvah zakona o trošarinah"
 ---
 
 # Zakon o trošarinah
