@@ -4,9 +4,9 @@ naziv: "Odredba o dopolnitvah odredbe o izvajanju letnega ocenjevanja, odbire in
 vrsta: "odredba"
 datum: 2000-05-24
 sop: 2000-01-1990
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1990"
 ---
 

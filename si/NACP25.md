@@ -4,9 +4,9 @@ naziv: "Nacionalni stanovanjski program (NPSta)"
 vrsta: "akt"
 datum: 2000-05-24
 sop: 2000-01-1985
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1985"
 ---
 

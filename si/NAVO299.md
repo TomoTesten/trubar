@@ -4,9 +4,9 @@ naziv: "Navodilo o vsebini in formatu vizuma"
 vrsta: "navodilo"
 datum: 2000-05-27
 sop: 2000-01-2097
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2097"
 ---
 

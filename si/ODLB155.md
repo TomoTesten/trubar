@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k spremembi akta o ustanovitvi Ustanove za vzpodbuja
 vrsta: "akt"
 datum: 2000-05-31
 sop: 2000-01-2133
-organ: "Ministrstvo za kulturo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2133"
 ---
 
