@@ -12,6 +12,10 @@ spremembe:
     datum: 1994-11-18
     sop: 1994-01-2550
     naziv: "Zakon o spremembi zakona o pravniškem državnem izpitu"
+  - kratica: ZPDI-B
+    datum: 1999-01-28
+    sop: 1999-01-0197
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pravniškem državnem izpitu"
 ---
 
 # Zakon o pravniškem državnem izpitu
