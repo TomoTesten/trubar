@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-12-18
     sop: 2002-01-5396
     naziv: "Zakon o spremembah in dopolnitvah zakona o reviziji postopkov javnega naročanja"
+  - kratica: ZRPJN-B
+    datum: 2004-04-23
+    sop: 2004-01-1860
+    naziv: "Zakon o spremembah in dopolnitvah zakona o reviziji postopkov javnega naročanja"
 ---
 
 # Zakon o reviziji postopkov javnega naročanja
