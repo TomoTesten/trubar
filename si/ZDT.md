@@ -7,6 +7,11 @@ sop: 1994-01-2169
 objava: "Uradni list RS 63/94  str. 3567"
 kljucne_besede: ["državno tožilstvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2169"
+spremembe:
+  - kratica: ZDT-A
+    datum: 1999-07-23
+    sop: 1999-01-2793
+    naziv: "Zakon o spremembah in dopolnitvah zakona o državnem tožilstvu"
 ---
 
 # Zakon o državnem tožilstvu
