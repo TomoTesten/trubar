@@ -7,6 +7,11 @@ sop: 1991-01-0598
 objava: "Uradni list RS 17/91  str. 557"
 kljucne_besede: ["denar", "nacionalna valuta"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0598"
+spremembe:
+  - kratica: ZDE-A
+    datum: 1992-07-03
+    sop: 1992-01-1626
+    naziv: "Zakon o spremembi zakona o denarni enoti Republike Slovenije"
 ---
 
 # Zakon o denarni enoti Republike Slovenije
