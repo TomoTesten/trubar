@@ -7,6 +7,11 @@ sop: 1999-01-2025
 objava: "Uradni list RS 41/99  str. 4865"
 kljucne_besede: ["stanovska zbornica", "gozdarska politika", "kmetijska politika", "ribiška politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2025"
+spremembe:
+  - kratica: ZKGZ-A
+    datum: 2004-03-19
+    sop: 2004-01-1065
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Kmetijsko gozdarski zbornici Slovenije"
 ---
 
 # Zakon o Kmetijsko gozdarski zbornici Slovenije
