@@ -7,6 +7,11 @@ sop: 1998-01-4578
 objava: "Uradni list RS 89/98  str. 8433"
 kljucne_besede: ["DDV"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4578"
+spremembe:
+  - kratica: ZDDV-A
+    datum: 2001-04-26
+    sop: 2001-01-1829
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davku na dodano vrednost"
 ---
 
 # Zakon o davku na dodano vrednost
