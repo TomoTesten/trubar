@@ -1,0 +1,281 @@
+---
+kratica: MP_ODLO853
+naziv: "Odlok o organizaciji in delovnem področju Občinske uprave občine Kidričevo (ODLO)"
+vrsta: "občinski odlok"
+datum: 1999-12-17
+sop: 1999-01-4888
+organ: "Občina Kidričevo"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4888"
+---
+
+# Odlok o organizaciji in delovnem področju Občinske uprave občine Kidričevo (ODLO)
+
+Na podlagi 29. in 49. člena zakona o lokalni samoupravi (Uradni list RS, št. 72/93, 57/94, 14/95, 26/97, 10/97, 10/98 in 74/98), 21. in 52. člena statuta Občine Kidričevo (Uradni list RS, št. 52/99) in v skladu z uredbo o skupnih osnovah in kriterijih za notranjo organizacijo in sistemizacijo delovnih mest v organih državne uprave (Uradni list RS, št. 24/98, 56/98) je Občinski svet občine Kidričevo na 9. seji dne 30. 11. 1999 na predlog župana sprejel
+
+
+## O D L O K
+o organizaciji in delovnem področju Občinske uprave občine Kidričevo
+
+
+### I. SPLOŠNE DOLOČBE
+
+
+### 1. člen
+
+S tem odlokom se ustanovi občinska uprava, določi organizacija in delovno področje ter urejajo druga vprašanja v zvezi z delovanjem Občinske uprave občine Kidričevo.
+
+
+### 2. člen
+
+Občinska uprava opravlja upravne, strokovne in druge naloge v okviru pravic in dolžnosti občine na delovnih področjih, ki so določeni s tem odlokom.
+
+
+### 3. člen
+
+Pri opravljanju svojih nalog občinska uprava sodeluje z občinskimi upravami drugih občin, nosilci javnih pooblastil, državnimi organi, zavodi, podjetji, družbami in drugimi organizacijami z izmenjavo mnenj in izkušenj ter podatkov in obvestil ter preko skupnih delovnih teles.
+
+
+### 4. člen
+
+Javnost dela občinske uprave se zagotavlja z uradnimi sporočili ter z dajanjem informacij sredstvom javnega obveščanja, novinarskimi konferencami, z udeležbo na konferencah, okroglih mizah in drugih oblikah sodelovanja s predstavniki sredstev javnega obveščanja oziroma na drug ustrezen način, ki omogoča javnosti, da se seznani z delom občinske uprave.
+Uradna sporočila za javnost, informacije, obvestila, pojasnila in druge podatke v smislu prejšnjega odstavka dajejo predstavnikom sredstev javnega obveščanja župan in tajnik občine, po njunem pooblastilu pa lahko tudi drug delavec v občinskih pravi.
+
+
+### II. ORGANIZACIJA IN DELOVNO PODROČJE OBČINSKE UPRAVE
+
+
+### 5. člen
+
+Za opravljanje nalog občinske uprave se v Občini Kidričevo ustanovi enovit organ: Občinska uprava občine Kidričevo, s sedežem v Kidričevem, Ul. Borisa Kraigherja 25 (v nadaljnjem besedilu: občinska uprava).
+Občinska uprava zagotavlja:
+– strokovno, učinkovito in racionalno izvrševanje nalog občinske uprave,
+– zakonito, pravočasno in učinkovito uresničevanje pravic, interesov in obveznosti strank in drugih udeležencev v postopkih,
+– polno zaposlenost delavcev v občinski upravi in
+– učinkovito sodelovanje z drugimi organi in institucijami.
+
+
+### 6. člen
+
+Občinska uprava opravlja strokovne, uprave, organizacijsko-tehnične in administrativne naloge na področju:
+– splošnih zadev,
+– normativno pravnih zadev,
+– upravnih zadev,
+– javnih financ,
+– gospodarskih dejavnosti in kmetijstva,
+– družbenih dejavnosti,
+– varstva okolja in urejanje prostora,
+– gospodarskih javnih služb in infrastrukture,
+– inšpekcijskega komunalnega nadzorstva in občinskega redarstva,
+– gospodarjenje s stavbnimi zemljišči, poslovnimi prostori in stanovanjskim fondom.
+Občinska uprava opravlja tudi druge naloge iz pristojnosti občine.
+
+
+### 7. člen
+
+Na področju splošnih zadev opravlja občinska uprava naslednje naloge:
+– opravlja strokovna, organizacijska, administrativna in tehnična opravila za potrebe župana, občinskega sveta in njegovih delovnih in posvetovalnih teles, nadzorni odbor ter druge občinske organe;
+– kadrovske zadeve;
+– sprejem in odprava pošte ter arhiviranje za potrebe občinskih organov;
+– gospodarjenje z zgradbo občine in tehnično opremo, s premičnim in nepremičnim premoženjem;
+– avtomatska obdelava podatkov za potrebe organov občine;
+– ki se nanašajo na področje civilne zaščite in reševanja;
+– nudi strokovno pomoč krajevnim odborom pri njihovem delovanju in
+– druge naloge, ki po svoji naravi sodijo v to področje.
+
+
+### 8. člen
+
+Na področju normativno-pravnih zadev občinska uprava opravlja naslednje naloge:
+– priprava splošnih in drugih aktov ter mnenj in stališč, ki jih sprejemajo župan, občinski svet in drugi občinski organi;
+– sestavljanje pogodb, oceno sprejetih pogodb in pravno spremljanje pogodb;
+– strokovno pravno pomoč pri izvajanju volilnih opravil;
+– pravno pomoč županu, občinskemu svetu in drugim občinskim organom;
+– opravlja druge naloge, ki spadajo v to področje.
+
+
+### 9. člen
+
+Na področju upravnih zadev občinska uprava opravlja naslednje naloge:
+– vodi upravni postopek in izdaja odločbe v teh postopkih na I. stopnji;
+– vodi evidenco o upravnih stvareh;
+– sodeluje v upravnih postopkih, ki jih vodijo drugi pristojni organi;
+– opravlja druge naloge s področja upravnih zadev.
+
+
+### 10. člen
+
+Na področju javnih financ občinska uprava opravlja naslednje naloge:
+– pripravlja proračun in skrbi za njegovo izvrševanje v skladu s predpisi, ki urejajo to področje;
+– pripravlja finančna poročila in zaključni račun proračuna;
+– zagotavlja strokovno pomoč občinskim organom pri sprejemanju in izvrševanju občinskih splošnih in drugih aktov s področja javnih financ;
+– opravlja finančno-knjigovodska in druga strokovna opravila za proračun, občinske sklade, režijske obrate itd;
+– spremlja, analizira in oblikuje cene iz pristojnosti občine in daje mnenje k oblikovanju cen iz koncesijskih razmerij;
+– spremlja in analizira davke iz občinske pristojnosti in v skladu z zakonom pripravlja strokovne podlaga za njihovo uvedbo oziroma usklajevanje;
+– pripravlja premoženjsko bilanco občine;
+– opravlja druge naloge, ki spadajo v to področje.
+
+
+### 11. člen
+
+Na področju gospodarstva in kmetijstva občinska uprava sodeluje pri pripravi naslednjih nalog:
+– pripravlja strategijo razvoja občine ter programske usmeritve in programe razvoja posameznih dejavnosti s področja gospodarstva in kmetijstva;
+– izvaja strokovne naloge za občino in njene organe, kadar je občina ustanovitelj ali soustanovitelj javnega podjetja ali zavoda na področju gospodarskih javnih služb;
+– spremlja in analizira gibanja v občini na področju gospodarstva in kmetijstva;
+– opravlja druge naloge s tega področja.
+
+
+### 12. člen
+
+Na področju družbenih dejavnosti občinska uprava sodeluje pri pripravi naslednjih nalog:
+– pripravlja razvojne usmeritve in razvojne programe na različnih področjih družbenih dejavnosti v sodelovanju z javnimi zavodi in drugimi porabniki proračunskih sredstev iz tega naslova;
+– skrbi za finančno realizacijo opredeljenih občinskih programov v skladu s proračunom, koordinira delovanje različnih subjektov na področju družbenih dejavnosti in vrši nadzor nad izvajanjem programov;
+– pripravlja in izvaja programe javnih del;
+– opravlja druge naloge, ki sodijo v področje družbenih dejavnosti.
+
+
+### 13. člen
+
+Na področju urejanja prostora občinska uprava sodeluje pri pripravi naslednjih nalog:
+– pripravlja programska izhodišča za sprejemanje prostorskih aktov in pripravlja smernice za izdelavo prostorskih izvedbenih aktov;
+– pripravlja prostorske akte občine;
+– vodi evidenco posegov v prostor in analizira stanje posegov v prostor;
+– nudi strokovno pomoč pravnim in fizičnim osebam pri urejanju prostora;
+– opravlja druge naloge, ki spadajo v to področje.
+
+
+### 14. člen
+
+Na področju varstva okolja občinska uprava sodeluje pri pripravi naslednjih nalog:
+– pripravlja programe varstva okolja;
+– pripravlja sanacijske programe za odpravo posledic elementarnih nesreč;
+– opravlja druge upravne naloge varstva okolja, ki jih določajo posebni predpisi s področja varstva okolja;
+– opravlja druge naloge, ki spadajo v to področje.
+
+
+### 15. člen
+
+Na področju gospodarskih javnih služb in infrastrukture občinska uprava sodeluje pri pripravi naslednjih nalog:
+– pripravlja strokovne podlage za ustanovitev in organizacijo gospodarskih javnih služb;
+– skrbi za izvajanje programov razvoja gospodarskih javnih služb in opravlja nadzor nad njihovim izvajanjem;
+– pripravlja projekte in investicijske programe in opravlja nadzor nad investicijami;
+– opravlja druge naloge na tem področju.
+
+
+### 16. člen
+
+Občinska uprava v režijskem obratu, ki je samostojna notranja organizacijska enota občinske uprave, lahko opravlja dejavnosti naslednjih gospodarskih javnih služb:
+– gospodarjenje s stavbnimi zemljišči,
+– vzdrževanje občinskih cest, zimske službe ter urejanje in vzdrževanje parkirišč,
+– urejanje zelenih površin,
+– vzdrževanje in urejanja pokopališč,
+– urejanja javnih tržnic,
+– urejanja in vzdrževanja mest za plakatiranje in oglaševanje.
+
+
+### 17. člen
+
+Občinska uprava opravlja naloge občinske inšpekcije.
+Občinska inšpekcija opravlja nadzor nad izvajanjem občinskih predpisov in drugih aktov, s katerimi občina ureja zadeve iz svoje pristojnosti.
+
+
+### 18. člen
+
+Občinska uprava opravlja naloge občinskega redarstva.
+Na tem področju občinska uprava opravlja nadzor nad izvajanjem zakona o varnosti cestnega prometa in nadzor nad izvajanjem občinskih predpisov in drugih aktov, s katerimi občina ureja zadeve iz svoje pristojnosti.
+
+
+### 19. člen
+
+Naloge in pooblastila občinske uprave oziroma delavcev občinske uprave na področju občinske inšpekcije in občinskega redarstva se določijo s posebnim odlokom.
+
+
+### III. NAČIN DELA, POOBLASTILA IN ODGOVORNOST DELAVCEV
+
+
+### 20. člen
+
+Predstojnik občinske uprave je župan, ki predstavlja in zastopa občino ter nadzoruje, usmerja ter daje navodila za vodenje občinske uprave.
+
+
+### 21. člen
+
+Občinsko upravo neposredno vodi tajnik občine, ki ga imenuje in razrešuje župan.
+Tajnik občine:
+– neposredno vodi občinsko upravo, organizira in koordinira delo delavcev v občinski upravi in jim nudi strokovno pomoč, razporeja delo med delavce v občinski upravi in skrbi za delovno disciplino;
+– izdaja odločbe v upravnem postopku na prvi stopnji;
+– opravlja najzahtevnejše naloge občinske uprave in vodi ter sodeluje v najzahtevnejših projektnih skupinah v občini;
+– skrbi za zakonito, učinkovito in smotrno opravljanje naloge občinske uprave;
+– opravlja druge naloge po nalogu župana.
+Tajnik občine lahko izdaja odločbe in druge akte, ki se nanašajo na uresničevanje pravic, obveznosti in odgovornosti iz delovnega razmerja delavcev občinske uprave, če ga župan za to pooblasti.
+Tajnik občine je za svoje delo odgovoren županu.
+Tajnik občine mora imeti najmanj višjo strokovno izobrazbo in izpolnjevati z zakonskimi predpisi določene pogoje za zasedbo delovnega mesta tajnika občine.
+
+
+### 22. člen
+
+Z aktom o sistemizaciji delovnih mest v občinski upravi mora župan zagotoviti podlago za opravljanje nalog vodenja upravnih postopkov in odločanje v upravnih stvareh na prvi stopnji ter zaposlitev delavcev, ki izpolnjujejo pogoje, ki jih za odločanje v upravnih stvareh predpisuje zakon in drugi predpisi.
+Župan lahko izda pooblastilo delavcu za opravljanje upravnih nalog na prvi stopnji, v skladu z zakonom.
+
+
+### 23. člen
+
+Razvrstitev in število delovnih mest v občinski upravi ter razvrstitev nalog iz posameznega delovnega področja občinske uprave, ki jih opravlja posamezen delavec, se določi s pravilnikom o sistemizaciji delovnih mest v občinski upravi, ki ga izda župan.
+
+
+### 24. člen
+
+Posamezno nalogo občinske uprave, ki je določena s tem odlokom, opravi tisti delavec, v katerega delovno področje spada naloga po pravilniku o sistemizaciji delovnih mest oziroma po svoji naravi.
+Če je naloga takšna, da po svoji naravi ne spada v delovno področje nobenega od delavcev občinske uprave, jo opravi delavec, ki ga določi tajnik občine.
+
+
+### 25. člen
+
+Delavci občinske uprave opravljajo naloge, določene z zakoni in drugimi predpisi, statutom občine in pravilnikom o sistemizaciji delovnih mest, v skladu s pristojnostmi in pooblastili, ki jih za opravljanje posameznih nalog določajo zakoni in drugi predpisi ter po navodilih tajnika občine. Za svoje delo so odgovorni tajniku občine, disciplinsko in odškodninsko pa županu.
+O disciplinski in odškodninski odgovornosti delavcev v občinski upravi odloča na I. stopnji župan, na II. stopnji pa disciplinska komisija na podlagi zakona in pravilnika o disciplinski in odškodninski odgovornosti.
+Disciplinsko komisijo imenuje župan s posebnim sklepom o imenovanju.
+
+
+### 26. člen
+
+V občinski upravi se lahko kot posvetovalno telo župana oblikuje kolegij, ki obravnava pomembnejša vprašanja z delovnega področja občinske uprave. Župan določi sestavo kolegija glede na obravnavano problematiko.
+Kolegij sklicuje župan, v njegovi odsotnosti pa tajnik občine. Kolegij se sklicuje po potrebi, vendar pa najmanj enkrat na mesec.
+
+
+### 27. člen
+
+Za naloge v občinski upravi, ki zahtevajo sodelovanje več delavcev oziroma sodelovanje različnih strok in stopenj znanja, lahko župan ustanovi delovne skupine in druge oblike sodelovanja.
+S sklepom o ustanovitvi župan določi sestavo delovne skupine, vodjo delovne skupine ter rok za izvedbo naloge.
+
+
+### 28. člen
+
+Za naloge, ki zahtevajo posebno proučevanje ali posebno strokovnost in jih delavci občinske uprave ne morejo opraviti sami, lahko župan ustanovi delovno ali projektno skupino ter sklene pogodbo z ustreznimi izvajalci nalog.
+S sklepom o ustanovitvi projektne skupine se določi sestava, naloge, roki za izvedbo nalog, sredstva in drugi pogoji za njeno delo.
+
+
+### IV. PREHODNE IN KONČNE DOLOČBE
+
+
+### 29. člen
+
+Župan Občine Kidričevo v roku enega meseca po uveljavitvi tega odloka izda pravilnik o sistemizaciji delovnih mest v Občinski upravi občine Kidričevo, ki je podlaga za razporeditev delavcev na ustrezna delovna mesta.
+
+
+### 30. člen
+
+Z dnem uveljavitve tega odloka preneha veljati odlok o organizaciji in delovnem področju Občinske uprave občine Kidričevo (Uradni vestnik občin Ormož in Ptuj, št. 13/95, 36/95 in 21/96).
+
+
+### 31. člen
+
+Ta odlok začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 062-02/99-9-73
+
+Kidričevo, dne 3. decembra 1999.
+
+Župan
+Občine Kidričevo
+Alojz Šprah l. r.
