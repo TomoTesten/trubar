@@ -7,6 +7,11 @@ sop: 1992-01-2438
 objava: "Uradni list RS 53/92  str. 3021"
 kljucne_besede: ["resolucija OZN", "Varnostni svet ZN", "blago in storitve", "ekonomski odnosi", "Srbija in Črna gora"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2438"
+spremembe:
+  - kratica: ZIRVS-A
+    datum: 1993-05-29
+    sop: 1993-01-1223
+    naziv: "Zakon o spremembi in dopolnitvi zakona o izvajanju Resolucije Varnostnega sveta OZN št. 757/1992"
 ---
 
 # Zakon o izvajanju resolucije varnostnega sveta OZN št. 757/1992
