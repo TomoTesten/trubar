@@ -20,6 +20,10 @@ spremembe:
     datum: 1999-07-02
     sop: 1999-01-2513
     naziv: "Zakon o spremembah in dopolnitvah zakona o Jamstvenem skladu"
+  - kratica: ZJSRS-D
+    datum: 2002-12-30
+    sop: 2002-01-5833
+    naziv: "Zakon o spremembah in dopolnitvah zakona o jamstvenem in preživninskem skladu Republike Slovenije"
 ---
 
 # Zakon o Jamstvenem skladu Republike Slovenije
