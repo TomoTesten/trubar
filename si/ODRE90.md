@@ -4,8 +4,9 @@ naziv: "Odredba o označevanju domačih živali v prometu"
 vrsta: "odredba"
 datum: 1994-06-30
 sop: 1994-01-1545
-organ: "MINISTRSTVO ZA KMETIJSTVO IN GOZDARSTVO"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1545"
 ---
 

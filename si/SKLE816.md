@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah in dopolnitvah sklepa o aktivnih in pasivnih obrestni
 vrsta: "sklep"
 datum: 1994-06-30
 sop: 1994-01-1555
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1555"
 ---
 

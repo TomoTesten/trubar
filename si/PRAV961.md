@@ -4,9 +4,9 @@ naziv: "Pravilnik o vzpodbujanju tehnološkega razvoja"
 vrsta: "pravilnik"
 datum: 1994-06-24
 sop: 1994-01-1484
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1484"
 ---
 

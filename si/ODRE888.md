@@ -4,9 +4,9 @@ naziv: "Odredba o listi arbitrov za sestavo arbitraže za razreševanje medseboj
 vrsta: "odredba"
 datum: 1994-06-24
 sop: 1994-01-1483
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1483"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o usposabljanju in vključevanju mladih raziskovalcev v razisk
 vrsta: "pravilnik"
 datum: 1994-06-30
 sop: 1994-01-1551
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1551"
 ---
 

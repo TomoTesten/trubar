@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi, da zakon o prometnem davku ni v skladu z Mednarod
 vrsta: "akt"
 datum: 1994-06-17
 sop: 1994-01-1473
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1473"
 ---
 

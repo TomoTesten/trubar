@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah zakona o zajamčenih osebnih dohodkih (ZZOD-A)"
 vrsta: "akt"
 datum: 1994-06-30
 sop: 1994-01-1525
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1525"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi 5. točke 126. člena in drugega stavka drugega
 vrsta: "akt"
 datum: 1994-07-08
 sop: 1994-01-1657
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1657"
 ---
 

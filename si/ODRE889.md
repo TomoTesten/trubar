@@ -4,9 +4,9 @@ naziv: "Odredba o merilih za določanje nagrad stečajnim upraviteljem in upravi
 vrsta: "odredba"
 datum: 1994-06-24
 sop: 1994-01-1517
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1517"
 ---
 
