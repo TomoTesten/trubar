@@ -4,9 +4,9 @@ naziv: "Deklaracija o stališčih za začetek delovanja Republike Slovenije v in
 vrsta: "akt"
 datum: 2004-06-03
 sop: 2004-01-2754
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2754"
 ---
 
