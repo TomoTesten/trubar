@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila o vsebini in načinu voden
 vrsta: "navodilo"
 datum: 1998-06-19
 sop: 1998-01-1999
-organ: "Agencija za plačilni promet"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Konzumiran ali obsoleten predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1999"
 ---
 

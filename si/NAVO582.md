@@ -4,9 +4,9 @@ naziv: "Spremembe navodila za izvajanje preventivnega zdravstvenega varstva na p
 vrsta: "navodilo"
 datum: 1998-06-29
 sop: 1998-01-2054
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2054"
 ---
 

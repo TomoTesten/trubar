@@ -4,9 +4,9 @@ naziv: "Odredba o spremembi odredbe o obratovalnem času javnih letališč"
 vrsta: "odredba"
 datum: 1998-07-03
 sop: 1998-01-2207
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2207"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o načinu in pogojih za vpis potrošniških organizacij v regi
 vrsta: "drugi akt"
 datum: 1998-06-19
 sop: 1998-01-1996
-organ: "Ministrstvo za gospodarske dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1996"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Uredba o določitvi delovnih mest, na katerih se šteje zavarovalna doba
 vrsta: "uredba"
 datum: 1998-06-30
 sop: 1998-01-2122
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2122"
 ---
 

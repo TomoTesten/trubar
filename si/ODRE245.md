@@ -4,9 +4,9 @@ naziv: "Pravilnik o tehničnih zahtevah za naprave, ki se uporabljajo v potencia
 vrsta: "odredba"
 datum: 1998-06-19
 sop: 1998-01-1994
-organ: "Ministrstvo za gospodarske dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1994"
 ---
 
