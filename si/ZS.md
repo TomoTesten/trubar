@@ -20,6 +20,10 @@ spremembe:
     datum: 2000-03-30
     sop: 2000-01-1254
     naziv: "Zakon o spremembah in dopolnitvah zakona o sodiščih"
+  - kratica: ZS-D
+    datum: 2004-07-05
+    sop: 2004-01-3236
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodiščih"
 ---
 
 # Zakon o sodiščih
