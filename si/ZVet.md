@@ -12,6 +12,10 @@ spremembe:
     datum: 1995-07-14
     sop: 1995-01-0957
     naziv: "Zakon o spremembah in dopolnitvah zakona o veterinarstvu"
+  - kratica: ZVet-B
+    datum: 1996-03-22
+    sop: 1996-01-0843
+    naziv: "Zakon o spremembah zakona o veterinarstvu"
 ---
 
 # Zakon o veterinarstvu
