@@ -4,9 +4,9 @@ naziv: "Odredba o oblikah žigov za označevanje pravilne sestave in čistoče p
 vrsta: "odredba"
 datum: 1997-07-04
 sop: 1997-01-2262
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2262"
 ---
 

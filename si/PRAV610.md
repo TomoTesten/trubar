@@ -4,9 +4,9 @@ naziv: "Pravilnik o nadzoru izvajanja postopkov preskušanja in certificiranja"
 vrsta: "pravilnik"
 datum: 1997-07-04
 sop: 1997-01-2264
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2264"
 ---
 

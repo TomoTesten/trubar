@@ -4,9 +4,9 @@ naziv: "Zakon o zagotovitvi sredstev za obnovo v zimi 1996/1997 uničenih in po�
 vrsta: "akt"
 datum: 1997-06-20
 sop: 1997-01-2091
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2091"
 ---
 

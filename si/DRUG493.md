@@ -4,9 +4,9 @@ naziv: "Splošna kolektivna pogodba za gospodarske dejavnosti"
 vrsta: "drugi akt"
 datum: 1997-07-04
 sop: 1997-01-2205
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2205"
 ---
 

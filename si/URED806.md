@@ -4,9 +4,9 @@ naziv: "Uredba o začasni uporabi sporazuma o pristopu Romunije k srednjeevropsk
 vrsta: "uredba"
 datum: 1997-06-28
 sop: 1997-01-2118
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2118"
 ---
 

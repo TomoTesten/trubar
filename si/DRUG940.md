@@ -4,9 +4,9 @@ naziv: "Seznam zdravil skupine C, za katera je bilo do 31. 5. 1997 izdano dovolj
 vrsta: "drugi akt"
 datum: 1997-06-20
 sop: 1997-01-2040
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2040"
 ---
 

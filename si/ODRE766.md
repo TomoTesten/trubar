@@ -4,9 +4,9 @@ naziv: "Odredba o obrazcih poročil o zbranih in porabljenih sredstvih za voliln
 vrsta: "odredba"
 datum: 1997-06-30
 sop: 1997-01-2144
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2144"
 ---
 
