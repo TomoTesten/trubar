@@ -7,6 +7,11 @@ sop: 1995-01-1590
 objava: "Uradni list RS 33/95  str. 2335"
 kljucne_besede: ["poroštvo", "onesnaževanje ozračja", "elektrarna", "varstvo okolja", "najem posojila"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1590"
+spremembe:
+  - kratica: ZPNPIR-A
+    datum: 1996-07-31
+    sop: 1996-01-2611
+    naziv: "Zakon o spremembah zakona o poroštvu Republike Slovenije za najetje posojil za izgradnjo razžveplalne naprave na bloku 5 TE Šoštanj"
 ---
 
 # Zakon o poroštvu Republike Slovenije za najetje posojil za izgradnjo razžveplalne naprave na bloku 5 TE Šoštanj
