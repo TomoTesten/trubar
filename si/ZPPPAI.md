@@ -7,6 +7,11 @@ sop: 1996-01-3229
 objava: "Uradni list RS 56/96  str. 4641"
 kljucne_besede: ["azbest", "nevarna snov"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3229"
+spremembe:
+  - kratica: ZPPPAI-A
+    datum: 1998-05-08
+    sop: 1998-01-1502
+    naziv: "Zakon o spremembah in dopolnitvah zakona o prepovedi proizvodnje in prometa z azbestnimi izdelki ter o zagotovitvi sredstev za prestrukturiranje azbestne proizvodnje v neazbestno"
 ---
 
 # Zakon o prepovedi proizvodnje in prometa z azbestnimi izdelki ter o zagotovitvi sredstev za prestrukturiranje azbestne proizvodnje v neazbestno
