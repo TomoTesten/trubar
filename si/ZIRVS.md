@@ -12,6 +12,10 @@ spremembe:
     datum: 1993-05-29
     sop: 1993-01-1223
     naziv: "Zakon o spremembi in dopolnitvi zakona o izvajanju Resolucije Varnostnega sveta OZN št. 757/1992"
+  - kratica: ZIRVS-B
+    datum: 1994-12-09
+    sop: 1994-01-2724
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izvajanju Resolucij Varnostnega sveta OZN št. 757/1992 in 820/1993"
 ---
 
 # Zakon o izvajanju resolucije varnostnega sveta OZN št. 757/1992
