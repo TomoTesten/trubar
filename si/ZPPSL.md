@@ -12,6 +12,10 @@ spremembe:
     datum: 1997-06-30
     sop: 1997-01-2142
     naziv: "Zakon o spremembah in dopolnitvah zakona o prisilni poravnavi, stečaju in likvidaciji"
+  - kratica: ZPPSL-B
+    datum: 1999-06-30
+    sop: 1999-01-2487
+    naziv: "Zakon o spremembah in dopolnitvah zakona o prisilni poravnavi, stečaju in likvidaciji"
 ---
 
 # Zakon o prisilni poravnavi, stečaju in likvidaciji
