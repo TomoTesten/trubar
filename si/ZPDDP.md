@@ -16,6 +16,10 @@ spremembe:
     datum: 1995-08-04
     sop: 1995-01-2162
     naziv: "Zakon o dopolnitvi zakona o posebnem davku na določene prejemke"
+  - kratica: ZPDDP-C
+    datum: 1996-02-29
+    sop: 1996-01-0573
+    naziv: "Zakon o dopolnitvi zakona o posebnem davku na določene prejemke"
 ---
 
 # Zakon o posebnem davku na določene prejemke
