@@ -4,9 +4,9 @@ naziv: "Pravilnik o registraciji vojaških zrakoplovov"
 vrsta: "pravilnik"
 datum: 1996-09-13
 sop: 1996-01-3061
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3061"
 ---
 

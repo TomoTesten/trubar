@@ -4,9 +4,9 @@ naziv: "Uredba o začasni uporabi sporazuma o prosti trgovini med Republiko Slov
 vrsta: "uredba"
 datum: 1996-08-30
 sop: 1996-01-2890
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2890"
 ---
 

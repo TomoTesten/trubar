@@ -4,8 +4,9 @@ naziv: "Uredba o lokacijskem načrtu za avtocesto na odseku Blagovica-Šentjakob
 vrsta: "uredba"
 datum: 1996-08-23
 sop: 1996-01-2837
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2837"
 ---
 
