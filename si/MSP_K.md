@@ -7,6 +7,11 @@ sop: 2000-02-0114
 objava: "Uradni list RS MP 23/2000  str. 1210"
 kljucne_besede: ["ratifikacija sporazuma", "čezmejno sodelovanje", "organizirani kriminal"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-02-0114"
+spremembe:
+  - kratica: MSPČK-A
+    datum: 2003-06-13
+    sop: 2003-02-0035
+    naziv: "Zakon o dopolnitvi zakona o ratifikaciji Sporazuma o sodelovanju za preprečevanje čezmejnega kriminala in boj proti njemu"
 ---
 
 # Zakon o ratifikaciji Sporazuma o sodelovanju za preprečevanje čezmejnega kriminala in boj proti njemu
