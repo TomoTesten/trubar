@@ -7,6 +7,11 @@ sop: 1994-01-2547
 objava: "Uradni list RS 71/94  str. 3982"
 kljucne_besede: ["privatizacija", "pravna oseba", "javna lastnina", "agencija", "sklad"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2547"
+spremembe:
+  - kratica: ZPPOLS-A
+    datum: 1995-10-06
+    sop: 1995-01-2654
+    naziv: "Zakon o spremembah in dopolnitvah zakona o privatizaciji pravnih oseb v lasti sklada Republike Slovenije za razvoj in obveznostih Agencije Republike Slovenije za prestrukturiranje in privatizacijo"
 ---
 
 # Zakon o privatizaciji pravnih oseb v lasti Sklada Republike Slovenije za razvoj in obveznostih Agencije Republike Slovenije za prestrukturiranje in privatizacijo
