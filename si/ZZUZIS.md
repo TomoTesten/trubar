@@ -7,6 +7,11 @@ sop: 2000-01-2452
 objava: "Uradni list RS 52/2000  str. 6949"
 kljucne_besede: ["varnost živil", "prehrana ljudi", "živilska inšpekcija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2452"
+spremembe:
+  - kratica: ZZUZIS-A
+    datum: 2002-05-15
+    sop: 2002-01-2005
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstveni ustreznosti živil in izdelkov ter snovi, ki prihajajo v stik z živili - EU"
 ---
 
 # Zakon o zdravstveni ustreznosti živil in izdelkov ter snovi, ki prihajajo v stik z živili
