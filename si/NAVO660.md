@@ -4,9 +4,9 @@ naziv: "Navodilo za izvajanje sklepa o opravljanju menjalniških poslov"
 vrsta: "navodilo"
 datum: 2003-10-03
 sop: 2003-01-4291
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4291"
 ---
 

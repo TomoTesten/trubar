@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju okrožne državne tožilke na Okrožnem državnem 
 vrsta: "akt"
 datum: 2003-09-15
 sop: 2003-01-4116
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4116"
 ---
 

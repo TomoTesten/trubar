@@ -4,8 +4,9 @@ naziv: "Pravilnik o energijskem označevanju gospodinjskih električnih pečic"
 vrsta: "odredba"
 datum: 2003-09-12
 sop: 2003-01-4087
-organ: "Ministrstvo za okolje, prostor in energijo"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4087"
 ---
 
