@@ -7,6 +7,11 @@ sop: 1991-01-0462
 objava: "Uradni list RS 11/91  str. 417"
 kljucne_besede: ["škoda", "povrnitev škode", "vojna škoda"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0462"
+spremembe:
+  - kratica: ZDPVA91-A
+    datum: 1991-12-24
+    sop: 1991-01-1331
+    naziv: "Zakon o spremembah in dopolnitvah zakona o delnem povračilu škode povzročene z vojaško agresijo na Republiko Slovenijo v letu 1991"
 ---
 
 # Zakon o delnem povračilu škode povzročene z vojaško agresijo na Republiko Slovenijo v letu 1991
