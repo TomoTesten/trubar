@@ -4,9 +4,9 @@ naziv: "Začasni statut Zavoda za zdravstveno zavarovanje Slovenije"
 vrsta: "akt"
 datum: 1993-04-16
 sop: 1993-01-0874
-organ: "Zavod za zdravstveno zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0874"
 ---
 

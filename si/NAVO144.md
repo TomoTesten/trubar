@@ -4,9 +4,9 @@ naziv: "Navodilo o uveljavljanju popusta pri plačilu letnega povračila za upor
 vrsta: "navodilo"
 datum: 1993-04-09
 sop: 1993-01-0825
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0825"
 ---
 

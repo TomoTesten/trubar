@@ -2,11 +2,11 @@
 kratica: ZAKO256
 naziv: "Zakon o usklajevanju pokojnin in denarnih nadomestil za primer brezposelnosti v letu 1993 (ZUPDN93)"
 vrsta: "akt"
-datum: 1993-03-05
+datum: 1993-04-05
 sop: 1993-01-0493
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0493"
 ---
 

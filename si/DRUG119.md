@@ -4,9 +4,9 @@ naziv: "Seznam pravnih oseb pooblaščenih za opravljanje strokovnih pregledov v
 vrsta: "drugi akt"
 datum: 1993-03-26
 sop: 1993-01-0681
-organ: "Urad RS za standardizacijo in meroslovje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0681"
 ---
 
