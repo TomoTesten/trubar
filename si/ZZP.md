@@ -7,6 +7,11 @@ sop: 1993-01-0588
 objava: "Uradni list RS 13/93  str. 561"
 kljucne_besede: ["izvoz", "uvoz", "zunanja trgovina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0588"
+spremembe:
+  - kratica: ZZP-A
+    datum: 1993-12-10
+    sop: 1993-01-2403
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zunanjetrgovinskem poslovanju"
 ---
 
 # Zakon o zunanjetrgovinskem poslovanju
