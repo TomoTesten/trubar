@@ -4,9 +4,9 @@ naziv: "Navodilo za predpisovanje in izdajanje magistralno pripravljenih zdravil
 vrsta: "navodilo"
 datum: 2004-06-30
 sop: 2004-01-3172
-organ: "Zavod za zdravstveno zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3172"
 ---
 
