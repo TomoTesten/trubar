@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu, postopkih in udeležencih za izvajanje statističneg
 vrsta: "navodilo"
 datum: 2003-05-09
 sop: 2003-01-2048
-organ: "Agencija Republike Slovenije za javnopravne evidence in storitve"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2048"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Razlaga kolektivne pogodbe gradbenih dejavnosti"
 vrsta: "akt"
 datum: 2003-05-23
 sop: 2003-01-2374
-organ: "Komisija za razlago kolektivne pogodbe gradbene dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2374"
 ---
 

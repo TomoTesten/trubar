@@ -4,9 +4,9 @@ naziv: "Sklep o prepovedi uvoza in prevoza določenih pošiljk iz Kraljevine Niz
 vrsta: "akt"
 datum: 2003-05-22
 sop: 2003-01-2290
-organ: "Veterinarska uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2290"
 ---
 

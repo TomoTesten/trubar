@@ -4,9 +4,9 @@ naziv: "Odločba o določitvi mej posebno nadzorovanega območja in ukrepih za p
 vrsta: "akt"
 datum: 2003-05-23
 sop: 2003-01-2418
-organ: "Fitosanitarna uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2418"
 ---
 

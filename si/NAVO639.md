@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi navodila o pripravljanju in izdajanju tehničnih sp
 vrsta: "navodilo"
 datum: 2003-05-09
 sop: 2003-01-2032
-organ: "Ministrstvo za promet"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2032"
 ---
 
