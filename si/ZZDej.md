@@ -16,6 +16,10 @@ spremembe:
     datum: 1996-02-12
     sop: 1996-01-0380
     naziv: "Zakon o spremembi zakona o zdravstveni dejavnosti"
+  - kratica: ZZDej-D
+    datum: 1999-11-05
+    sop: 1999-01-4299
+    naziv: "Zakon o dopolnitvi zakona o zdravstveni dejavnosti"
 ---
 
 # Zakon o zdravstveni dejavnosti
