@@ -7,6 +7,11 @@ sop: 1995-01-0958
 objava: "Uradni list RS 21/95  str. 1585"
 kljucne_besede: ["avtorska pravica", "intelektualna lastnina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0958"
+spremembe:
+  - kratica: ZASP-A
+    datum: 2001-02-09
+    sop: 2001-01-0531
+    naziv: "Zakon o spremembah in dopolnitvah zakona o avtorski in sorodnih pravicah"
 ---
 
 # Zakon o avtorski in sorodnih pravicah
