@@ -4,9 +4,9 @@ naziv: "Pravilnik o homeopatskih izdelkih"
 vrsta: "pravilnik"
 datum: 2001-11-30
 sop: 2001-01-4773
-organ: "Ministrstvo za zdravje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4773"
 ---
 

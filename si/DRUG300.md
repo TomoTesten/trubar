@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah zakona o ekonomskih conah (ZEC-A)"
 vrsta: "drugi akt"
 datum: 2001-12-04
 sop: 2001-01-4795
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4795"
 ---
 
