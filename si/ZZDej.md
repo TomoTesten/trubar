@@ -7,6 +7,11 @@ sop: 1992-01-0460
 objava: "Uradni list RS 9/92  str. 590"
 kljucne_besede: ["državna zdravstvena služba", "javno zdravje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0460"
+spremembe:
+  - kratica: ZZDej-B
+    datum: 1995-06-30
+    sop: 1995-01-1816
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstveni dejavnosti"
 ---
 
 # Zakon o zdravstveni dejavnosti
