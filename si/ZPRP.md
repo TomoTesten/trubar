@@ -7,6 +7,11 @@ sop: 1994-01-0726
 objava: "Uradni list RS 18/94  str. 1013"
 kljucne_besede: ["delodajalec", "prispevek za socialno varnost"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0726"
+spremembe:
+  - kratica: ZPRP-A
+    datum: 1995-06-30
+    sop: 1995-01-1813
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pogojih za refundiranje prispevkov, ki jih plačujejo delodajalci za socialno zavarovanje"
 ---
 
 # Zakon o pogojih za refundiranje prispevkov, ki jih plačujejo delodajalci za socialno zavarovanje
