@@ -7,6 +7,11 @@ sop: 1994-01-0561
 objava: "Uradni list RS 15/94  str. 817"
 kljucne_besede: ["referendum", "peticija", "ljudska iniciativa"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0561"
+spremembe:
+  - kratica: ZRLI-A
+    datum: 1996-07-19
+    sop: 1996-01-2501
+    naziv: "Zakon o spremembah in dopolnitvah zakona o referendumu in ljudski iniciativi"
 ---
 
 # Zakon o referendumu in o ljudski iniciativi
