@@ -16,6 +16,10 @@ spremembe:
     datum: 1998-01-17
     sop: 1998-01-0137
     naziv: "Zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost"
+  - kratica: ZPSV-C
+    datum: 2000-09-15
+    sop: 2000-01-3711
+    naziv: "Zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost"
 ---
 
 # Zakon o prispevkih za socialno varnost
