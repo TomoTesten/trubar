@@ -7,6 +7,11 @@ sop: 2001-01-1582
 objava: "Uradni list RS 26/2001  str. 2677"
 kljucne_besede: ["območje proste trgovine", "brezcarinska prodaja", "prosta cona"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1582"
+spremembe:
+  - kratica: PZ-A
+    datum: 2002-02-11
+    sop: 2002-01-0908
+    naziv: "Zakon o spremembah in dopolnitvah Pomorskega zakonika"
 ---
 
 # Pomorski zakonik
