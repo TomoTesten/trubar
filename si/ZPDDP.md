@@ -7,6 +7,11 @@ sop: 1993-01-2632
 objava: "Uradni list RS 72/93  str. 3786"
 kljucne_besede: ["davek na dohodek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2632"
+spremembe:
+  - kratica: ZPDDP-A
+    datum: 1994-04-28
+    sop: 1994-01-0954
+    naziv: "Zakon o spremembah in dopolnitvah zakona o posebnem davku na določene prejemke"
 ---
 
 # Zakon o posebnem davku na določene prejemke
