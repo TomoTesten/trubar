@@ -7,6 +7,11 @@ sop: 1999-01-4693
 objava: "Uradni list RS 99/99  str. 14758"
 kljucne_besede: ["javno zdravje", "zdravstveni nadzor"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4693"
+spremembe:
+  - kratica: ZZdrI-A
+    datum: 2004-01-15
+    sop: 2004-01-0064
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstveni inšpekciji"
 ---
 
 # Zakon o zdravstveni inšpekciji
