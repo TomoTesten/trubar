@@ -4,9 +4,9 @@ naziv: "Sklep o profesionalni funkciji predsednika Državnega sveta Republike Sl
 vrsta: "sklep"
 datum: 1993-02-12
 sop: 1993-01-0327
-organ: "Državni svet RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0327"
 ---
 

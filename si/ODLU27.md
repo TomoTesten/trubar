@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi nekaterih določb Zakona o denacionalizaciji in
 vrsta: "akt"
 datum: 1993-03-12
 sop: 1993-01-0603
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0603"
 ---
 

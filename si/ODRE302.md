@@ -4,9 +4,9 @@ naziv: "Odredba o videzu atestnega znaka za naprave in opremo informacijske tehn
 vrsta: "odredba"
 datum: 1993-02-25
 sop: 1993-01-0438
-organ: "Urad RS za standardizacijo in meroslovje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0438"
 ---
 
