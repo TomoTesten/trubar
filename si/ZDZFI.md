@@ -16,6 +16,10 @@ spremembe:
     datum: 1996-06-29
     sop: 1996-01-2204
     naziv: "Zakon o spremembah in dopolnitvah zakona o družbi za zavarovanje in financiranje izvoza Slovenije"
+  - kratica: ZDZFI-C
+    datum: 1997-05-30
+    sop: 1997-01-1734
+    naziv: "Zakon o spremembah in dopolnitvah zakona o družbi za zavarovanje in financiranje izvoza Slovenije"
 ---
 
 # Zakon o Družbi za zavarovanje in financiranje izvoza Slovenije
