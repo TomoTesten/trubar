@@ -4,9 +4,9 @@ naziv: "Odredba o ugotavljanju obsega škode in zmanjšanega donosa na gozdnih z
 vrsta: "odredba"
 datum: 1994-09-30
 sop: 1994-01-2071
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2071"
 ---
 

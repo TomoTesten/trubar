@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi mejnih prehodov za mednarodni in meddržavni cestni 
 vrsta: "uredba"
 datum: 1994-09-09
 sop: 1994-01-1968
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1968"
 ---
 

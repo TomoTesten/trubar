@@ -4,9 +4,9 @@ naziv: "Pravilnik o financiranju in sofinanciranju vlaganj v gozdove iz sredstev
 vrsta: "odredba"
 datum: 1994-09-30
 sop: 1994-01-2065
-organ: "MINISTRSTVO ZA KMETIJSTVO IN GOZDARSTVO"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2065"
 ---
 

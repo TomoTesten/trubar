@@ -4,9 +4,9 @@ naziv: "Navodila za izdajanje predhodnega soglasja agencije po drugem odstavku 2
 vrsta: "navodilo"
 datum: 1994-08-30
 sop: 1994-01-1946
-organ: "Agencija RS za prestrukturiranje in privatizacijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1946"
 ---
 

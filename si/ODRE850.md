@@ -4,9 +4,9 @@ naziv: "Odredba o enotni metodologiji računalniškega vodenja knjige gostov s k
 vrsta: "odredba"
 datum: 1994-08-30
 sop: 1994-01-1926
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1926"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o prostorskih ureditvenih pogojih za sanacijo degradiranega prost
 vrsta: "uredba"
 datum: 1994-10-07
 sop: 1994-01-2134
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2134"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o izvolitvi varuha človekovih pravic"
 vrsta: "odlok"
 datum: 1994-10-04
 sop: 1994-01-2089
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2089"
 ---
 
