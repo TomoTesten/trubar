@@ -7,6 +7,11 @@ sop: 1995-01-1730
 objava: "Uradni list RS 37/95  str. 2605"
 kljucne_besede: ["najem posojila", "poroštvo", "pšenica"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1730"
+spremembe:
+  - kratica: ZNPP95-A
+    datum: 1995-08-04
+    sop: 1995-01-2160
+    naziv: "Zakon o spremembi zakona o najemu posojil in poroštvu za najeta posojila za odkup pridelka pšenice v letu 1995"
 ---
 
 # Zakon o najemu posojil in poroštvu za najeta posojila za odkup pridelka pšenice v letu 1995
