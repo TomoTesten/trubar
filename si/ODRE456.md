@@ -4,9 +4,9 @@ naziv: "Odredba o pogojih za vračilo in o načinu vračila trošarine za minera
 vrsta: "odredba"
 datum: 1999-06-18
 sop: 1999-01-2262
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2262"
 ---
 

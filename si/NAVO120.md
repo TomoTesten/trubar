@@ -4,9 +4,9 @@ naziv: "Odredba o poročanju občin o prihodkih in odhodkih, danih in vrnjenih p
 vrsta: "navodilo"
 datum: 1999-06-11
 sop: 1999-01-2199
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2199"
 ---
 

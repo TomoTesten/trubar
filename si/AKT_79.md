@@ -4,9 +4,9 @@ naziv: "Sklep o letnem nadomestilu za opravljanje nadzora in pavšalnih stroški
 vrsta: "akt"
 datum: 1999-06-03
 sop: 1999-01-2098
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2098"
 ---
 

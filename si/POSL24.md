@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve poslovnika o delu Skupščine Zavoda za pokojnin
 vrsta: "akt"
 datum: 1999-06-18
 sop: 1999-01-2274
-organ: "Zavod za pokojninsko in invalidsko zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2274"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o smeri strokovne izobrazbe predavateljev in drugih strokovnih d
 vrsta: "odredba"
 datum: 1999-06-18
 sop: 1999-01-2265
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2265"
 ---
 

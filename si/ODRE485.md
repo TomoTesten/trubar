@@ -4,9 +4,9 @@ naziv: "Odredba o spremembi odredbe o ekonomski klasifikaciji javnofinančnih pr
 vrsta: "odredba"
 datum: 1999-06-18
 sop: 1999-01-2261
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2261"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o načinu oblikovanja cen komunalnih storitev"
 vrsta: "uredba"
 datum: 1999-06-04
 sop: 1999-01-2146
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2146"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Splošno navodilo o pogojih in okoliščinah za odstopanje ovadb v posto
 vrsta: "navodilo"
 datum: 1999-06-23
 sop: 1999-01-2330
-organ: "Državno tožilstvo RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2330"
 ---
 

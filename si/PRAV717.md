@@ -4,9 +4,9 @@ naziv: "Pravilnik o razvrstitvi vitaminskih in mineralnih izdelkov za peroralno 
 vrsta: "pravilnik"
 datum: 1999-06-18
 sop: 1999-01-2272
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2272"
 ---
 

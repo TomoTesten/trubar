@@ -4,9 +4,9 @@ naziv: "Sklep o ugotavljanju in poročanju vrednosti naložb bank in hranilnic v
 vrsta: "akt"
 datum: 1999-06-03
 sop: 1999-01-2097
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2097"
 ---
 

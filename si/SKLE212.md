@@ -4,9 +4,9 @@ naziv: "Sklep o podrobnejšem načinu izračuna obveznosti, terjatev in naložb 
 vrsta: "sklep"
 datum: 1999-06-03
 sop: 1999-01-2096
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2096"
 ---
 

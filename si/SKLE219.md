@@ -4,9 +4,9 @@ naziv: "Sklep o soglasju za odprtje Konzulata Republike Južne Afrike v Republik
 vrsta: "sklep"
 datum: 1999-06-11
 sop: 1999-01-2218
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2218"
 ---
 
