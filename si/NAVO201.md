@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi in dopolnitvi navodila o finančnem poslovanju upra
 vrsta: "navodilo"
 datum: 1999-11-18
 sop: 1999-01-4399
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4399"
 ---
 

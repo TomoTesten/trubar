@@ -4,9 +4,9 @@ naziv: "Navodilo za organizacijo in delo skupine državnih tožilcev za posebne 
 vrsta: "navodilo"
 datum: 1999-11-25
 sop: 1999-01-4538
-organ: "Vrhovno državno tožilstvo Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4538"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi mejnih prehodov, preko katerih se lahko uvažajo, i
 vrsta: "odredba"
 datum: 1999-11-12
 sop: 1999-01-4357
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4357"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Program pripravništva in strokovnega izpita za poklic diplomirani inže
 vrsta: "drugi akt"
 datum: 1999-11-25
 sop: 1999-01-4525
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4525"
 ---
 

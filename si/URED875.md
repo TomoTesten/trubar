@@ -4,8 +4,9 @@ naziv: "Uredba o spremembah in dopolnitvah uredbe o upravljanju z vojaškimi nep
 vrsta: "uredba"
 datum: 1999-11-12
 sop: 1999-01-4396
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4396"
 ---
 

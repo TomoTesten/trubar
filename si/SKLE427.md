@@ -4,9 +4,9 @@ naziv: "Sklep o potrditvi učbenika za osnovno šolo L'ITALIANO A MODO MIO? MAGA
 vrsta: "sklep"
 datum: 1999-11-18
 sop: 1999-01-4405
-organ: "STROKOVNI SVET ZA POKLICNO IN STROKOVNO IZOBRAŽEVANJE"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4405"
 ---
 

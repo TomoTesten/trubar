@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o tarifi, po kateri se zaračunavajo plačila z
 vrsta: "sklep"
 datum: 1999-11-05
 sop: 1999-01-4303
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4303"
 ---
 

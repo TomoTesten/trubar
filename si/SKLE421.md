@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah in dopolnitvah sklepa o vsebini letnega in polletnega
 vrsta: "sklep"
 datum: 1999-11-12
 sop: 1999-01-4369
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4369"
 ---
 

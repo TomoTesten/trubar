@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah slovenskega računovodskega standarda 36 - računovod
 vrsta: "sklep"
 datum: 1999-11-25
 sop: 1999-01-4537
-organ: "SLOVENSKI INSTITUT ZA REVIZIJO"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4537"
 ---
 

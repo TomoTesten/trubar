@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi cene osebne izkaznice"
 vrsta: "sklep"
 datum: 1999-11-25
 sop: 1999-01-4524
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4524"
 ---
 

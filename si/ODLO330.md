@@ -4,9 +4,9 @@ naziv: "Odlok o operativnem programu odvodnje in čiščenja komunalnih odpadnih
 vrsta: "odlok"
 datum: 1999-11-19
 sop: 1999-01-4485
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4485"
 ---
 

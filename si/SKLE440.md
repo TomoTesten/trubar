@@ -4,9 +4,9 @@ naziv: "Sklep št. 4/99 Pridružitvenega sveta med EU in Slovenijo z dne 30. 9. 
 vrsta: "sklep"
 datum: 1999-11-26
 sop: 1999-01-4580
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4580"
 ---
 

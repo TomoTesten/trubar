@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o podrobnejši vsebini poročil iz 127. člena 
 vrsta: "sklep"
 datum: 1999-11-04
 sop: 1999-01-4284
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4284"
 ---
 

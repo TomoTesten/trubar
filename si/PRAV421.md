@@ -4,9 +4,9 @@ naziv: "Pravilnik o varnosti in zdravju pri uporabi delovne opreme"
 vrsta: "pravilnik"
 datum: 1999-11-04
 sop: 1999-01-4278
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4278"
 ---
 

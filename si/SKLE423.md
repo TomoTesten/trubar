@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o ustanovitvi Veterinarskega zavoda Slovenije"
 vrsta: "sklep"
 datum: 1999-11-12
 sop: 1999-01-4398
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4398"
 ---
 

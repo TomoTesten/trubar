@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k Aktu o ustanovitvi Sklada dela SKLAD DELA POSOČJE
 vrsta: "akt"
 datum: 1999-11-19
 sop: 1999-01-4494
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4494"
 ---
 

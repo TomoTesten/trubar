@@ -4,9 +4,9 @@ naziv: "Poročilo o rasti cen življenjskih potrebščin in cen na drobno na obm
 vrsta: "drugi akt"
 datum: 1999-11-05
 sop: 1999-01-4304
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4304"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi števila državnih tožilcev v Skupini državnih to
 vrsta: "odredba"
 datum: 1999-11-19
 sop: 1999-01-4488
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4488"
 ---
 
