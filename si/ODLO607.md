@@ -4,9 +4,9 @@ naziv: "Odlok o potrditvi letnega obračuna Banke Slovenije za leto 1999 in o ra
 vrsta: "odlok"
 datum: 2000-06-06
 sop: 2000-01-2331
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2331"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o soglasju k Programu dela družbe za avtoceste v Republiki Sloven
 vrsta: "odlok"
 datum: 2000-06-09
 sop: 2000-01-2391
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2391"
 ---
 

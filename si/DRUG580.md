@@ -4,9 +4,9 @@ naziv: "Aneks k tarifni prilogi k splošni kolektivni pogodbi za gospodarske dej
 vrsta: "drugi akt"
 datum: 2000-06-16
 sop: 2000-01-2528
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2528"
 ---
 

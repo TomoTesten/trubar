@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k aktu o ustanovitvi Sklada dela REGIONALNI SKLAD DE
 vrsta: "akt"
 datum: 2000-06-02
 sop: 2000-01-2323
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2323"
 ---
 

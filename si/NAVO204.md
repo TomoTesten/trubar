@@ -4,9 +4,9 @@ naziv: "Pravilnik o organizaciji in pogojih za opravljanje nalog regionalne razv
 vrsta: "navodilo"
 datum: 2000-06-13
 sop: 2000-01-2455
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2455"
 ---
 

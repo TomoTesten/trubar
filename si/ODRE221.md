@@ -4,9 +4,9 @@ naziv: "Odredba o električni opremi, ki je namenjena za uporabo znotraj določe
 vrsta: "odredba"
 datum: 2000-06-15
 sop: 2000-01-2479
-organ: "Ministrstvo za gospodarske dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2479"
 ---
 
