@@ -24,6 +24,10 @@ spremembe:
     datum: 1999-12-27
     sop: 1999-01-5027
     naziv: "Zakon o spremembah in dopolnitvah zakona o davčnem postopku"
+  - kratica: ZDavP-E
+    datum: 2001-12-04
+    sop: 2001-01-4798
+    naziv: "Zakon o spremembi zakona o davčnem postopku"
 ---
 
 # Zakon o davčnem postopku
