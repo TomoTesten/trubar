@@ -12,6 +12,10 @@ spremembe:
     datum: 2000-08-08
     sop: 2000-01-3303
     naziv: "Zakon o spremembah in dopolnitvah zakona o političnih strankah"
+  - kratica: ZPolS-B
+    datum: 2002-06-11
+    sop: 2002-01-2483
+    naziv: "Zakon o spremembah in dopolnitvah zakona o političnih strankah"
 ---
 
 # Zakon o političnih strankah
