@@ -4,9 +4,9 @@ naziv: "Odlok o regresu za pogonsko gorivo, ki se uporablja v kmetijstvu"
 vrsta: "odlok"
 datum: 1991-10-08
 sop: 1991-01-0610
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0610"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odlok o spremembah odloka o pristojbinah za zdravstvena spričevala in p
 vrsta: "odlok"
 datum: 1991-10-05
 sop: 1991-01-0573
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0573"
 ---
 

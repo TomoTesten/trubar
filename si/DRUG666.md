@@ -4,9 +4,9 @@ naziv: "Soglasje k cenam prevoza potnikov po železnici v domačem potniškem pr
 vrsta: "drugi akt"
 datum: 1991-09-30
 sop: 1991-01-0523
-organ: "Ministrstvo za gospodarstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0523"
 ---
 

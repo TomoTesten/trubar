@@ -4,9 +4,9 @@ naziv: "Poročilo o rasti cen življenskih potrebščin in cen na drobno na obmo
 vrsta: "drugi akt"
 datum: 1991-10-08
 sop: 1991-01-0639
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0639"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o kadrovskem štipendiranju učencev in študentov za potrebe repu
 vrsta: "odlok"
 datum: 1991-10-05
 sop: 1991-01-0572
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0572"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o izvzetju avionskega bencina in reaktivnega goriva GM-1 iz režim
 vrsta: "odlok"
 datum: 1991-09-21
 sop: 1991-01-0517
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0517"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Ukaz o odprtju Biroja Republike Slovenije v Zvezni republiki Nemčiji"
 vrsta: "akt"
 datum: 1991-10-05
 sop: 1991-01-0570
-organ: "Predsednik Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0570"
 ---
 

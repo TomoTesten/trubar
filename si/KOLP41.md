@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za komunalno in stanovanjsko gospodarstvo Republike S
 vrsta: "akt"
 datum: 1991-09-21
 sop: 1991-01-0503
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0503"
 ---
 
