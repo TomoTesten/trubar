@@ -7,6 +7,11 @@ sop: 2000-01-0409
 objava: "Uradni list RS 8/2000  str. 955"
 kljucne_besede: ["sodni stroški", "kolkovina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0409"
+spremembe:
+  - kratica: ZUT-A
+    datum: 2000-05-26
+    sop: 2000-01-2068
+    naziv: "Zakon o spremembah in dopolnitvah zakona o upravnih taksah"
 ---
 
 # Zakon o upravnih taksah
