@@ -1,0 +1,168 @@
+---
+kratica: MP_ODLO10554
+naziv: "Odlok o proračunu Občine Sv. Jurij ob Ščavnici za leto 1998 (ODLO)"
+vrsta: "občinski odlok"
+datum: 1998-04-28
+sop: 1998-01-1500
+organ: "Občina Sveti Jurij ob Ščavnici"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1500"
+---
+
+# Odlok o proračunu Občine Sv. Jurij ob Ščavnici za leto 1998 (ODLO)
+
+Na podlagi 3. člena zakona o financiranju občin (Uradni list RS, št. 80/94), 57. člena zakona o lokalni samoupravi (Uradni list RS, št. 72/93, 57/94 in 14/95) in 19. člena statuta Občine Sv. Jurij ob Ščavnici (Uradni list RS, št. 39/95) je Občinski svet občine Sv. Jurij ob Ščavnici na 31. seji dne 31. 3. 1998 sprejel
+
+
+## O D L O K
+o proračunu Občine Sv. Jurij ob Ščavnici za leto 1998
+
+
+### I. SPLOŠNE DOLOČBE
+
+
+### 1. člen
+
+S tem odlokom se ureja način izvrševanja proračuna Občine Sv. Jurij ob Ščavnici za leto 1998 (v nadaljnjem besedilu: proračun), upravljanje s prihodki in odhodki proračuna ter občinskim premoženjem.
+
+
+### 2. člen
+
+Proračun občine sestavljata bilanca prihodkov in odhodkov ter račun financiranja.
+V bilanci prihodkov in odhodkov se izkazujejo načrtovani prihodki iz davkov, taks, pristojbin, drugih dajatev in drugi odhodki ter prihodki od upravljanja in razpolaganja z občinskim premoženjem in načrtovanimi odhodki.
+V računu financiranja se izkaže odplačevanje dolgov in zadolževanje občine.
+
+
+### 3. člen
+
+Proračunski prihodki za leto 1998 se določijo v višini 237,803.593 SIT in se razporedijo za:
+
+– tekoče obveznosti                              125,355.069 SIT
+– investicijske obveznosti                       112,448.524 SIT
+
+Račun financiranja Občine Sv. Jurij ob Ščavnici za leto 1998 obsega prhodke v višini 10,000.000 SIT in odhodke v višini 10,000.000 SIT.
+
+
+### 4. člen
+
+Uporabniki sredstev občinskega proračuna smejo uporabljati ta sredstva le za namene, ki so določeni v bilanci odhodkov tega proračuna.
+
+
+### 5. člen
+
+V proračunu so zagotovljena sredstva za delo občinskih organov in občinske uprave, sredstva za izvajanje dejavnosti na področju osnovnega izobraževanja, otroškega varstva, socialnega varstva, kulture, športa, raziskovalne dejavnosti, zdravstva in drugih družbenih dejavnosti, sredstva za pospeševanje gospodarstva, komunalno cestno gospodarstvo, stanovanjsko dejavnost, urejanje prostora, požarno varnost in varstvo pred naravnimi in drugimi nesrečami, mrliško ogledno službo, druge javne potrebe in sredstva za gospodarjenje s stavbnimi zemljišči.
+
+
+### 6. člen
+
+Sredstva občinskega proračuna se med letom dodeljujejo praviloma enakomerno kot mesečne akontacije med vse uporabnike proračuna, vendar v odvisnosti od zapadlih obveznosti ter ob upoštevanju likvidnostnega položaja občinskega proračuna.
+
+
+### 7. člen
+
+Uporabniki občinskega proračuna morajo izvrševati svoje naloge in skrbeti za financiranje dejavnosti, do višine sredstev, ki so jim za te namene odobrene v občinskem proračunu. Na račun proračuna ne smejo prevzemati nobenih obveznosti, ki bi presegala za ta namen določena proračunska sredstva.
+
+
+### 8. člen
+
+Porabniki proračuna so dolžni Občini Sv. Jurij ob Ščavnici predložiti naslednje dokumente:
+– poročilo o opravljenem delu in računovodske izkaze v roku 20 dni po oddaji obračunov Agenciji za plačilni promet,
+– program dela ter osnutek finančnega načrta za naslednje leto najkasneje do 30. 11. tekočega leta.
+
+
+### 9. člen
+
+Nadzor nad poslovanjem uporabnikov proračunskih sredstev ter smotrnost in namembnost porabe teh sredstev opravlja nadzorni odbor.
+
+
+### 10. člen
+
+Od prihodkov proračuna za leto 1998 izkazanih v bilanci prihodkov in odhodkov, se izloči 1% v rezervo Občine Sv. Jurij ob Ščavnici.
+
+
+### 11. člen
+
+Sredstva rezerv se uporabljajo:
+1. za odhodke, nastale kot posledica naravnih in drugih nesreč, kot so suša, potres, požar, poplave in druge naravne oziroma ekološke nesreče v skladu z zakonom, epidemije, živalske kužne bolezni in rastlinski škodljivci;
+2. za zagotovitev sredstev proračuna, kadar prihodki pritekajo neenakomerno;
+3. za kritje proračunskega primanjkljaja.
+Sredstva za namene iz 1. in 3. točke se dajejo praviloma brez obveznosti vračanja, sredstva iz 2. točke morajo biti vrnjena v rezerve do konca leta.
+O uporabi sredstev za namene iz 1. in 3. točke tega člena odloča občinski svet, za namene po 2. točki pa župan.
+
+
+### 12. člen
+
+V proračunu se zagotavljajo sredstva za tekočo proračunsko rezervo.
+Sredstva za tekočo proračunsko rezervo se uporabljajo:
+– za nepredvidene naloge, za katere v proračunu niso zagotovljena sredstva,
+– za namene, za katere se med letom izkaže, da v proračunu niso bila zagotovljena sredstva v zadostnem obsegu.
+Porabljena sredstva za tekočo proračunsko rezervo se razporejajo pri uprabnikih na postavko, na katero se nanašajo, če takšne postavke ni, pa se zanje odpre nova postavka.
+O uporabi sredstev tekoče proračunske rezerve odloča župan.
+
+
+### 13. člen
+
+Za izvrševanje proračuna je odgovoren župan občine.
+
+
+### 14. člen
+
+Če proračunski prihodki pritekajo neenakomerno se lahko za začasno kritje odhodkov uporabijo:
+1. sredstva rezerve občine
+2. najame posojilo do 5% sprejetega proračuna, ki mora biti odplačano do konca proračunskega leta.
+O najetju posojila po 2. točki tega člena odloča župan.
+
+
+### 15. člen
+
+Javno podjetje ali javni zavodi, katerih ustanoviteljica je občina, se smejo zadolževati le s soglasjem ustanovitelja. O soglasju odloča občinski svet.
+
+
+### 16. člen
+
+O dajanju poroštev določenih v 19. členu zakona o financiranju občin odloča občinski svet.
+
+
+### 17. člen
+
+Uporabniki proračuna so dolžni nabavo opreme, investicijsko vzdrževalna dela in storitve oddajati s pogodbo in v skladu s predpisi, ki veljajo za državni proračun, dokler ne bo sprejet ustrezen zakon.
+
+
+### 18. člen
+
+Pristojni občinski upravni organ lahko opravlja nadzor nad materialnim, finančnim in računovodskim poslovanjem porabnikov proračuna po namenu, obsegu in dinamiki porabe.
+Uporabniki proračuna pa so dolžni predložiti vse zahtevane podatke, potrebne za analizo porabe sredstev.
+
+
+### 19. člen
+
+Sredstva za amortizacijo se zagotavljajo uporabnikom le za amortizacjo premičnin (ali v skladu s proračunskimi možnostmi).
+
+
+### 20. člen
+
+S prostimi denarnimi sredstvi na računu proračuna upravlja župan.
+Prosta denarna sredstva morajo biti naložena tako, da so na razpolago, če se pokaže potreba. Prihodki od upravljanja s prostimi denarnimi sredstvi se vplačujejo v proračun.
+
+
+### II. PREHODNE IN KONČNE DOLOČBE
+
+
+### 21. člen
+
+Prihodki in odhodki vodeni na ločenem računu v obdobju začasnega financiranja v letu 1998 so sestavni del bilance prihodkov in odhodkov proračuna leta 1998.
+
+
+### 22. člen
+
+Ta odlok začne veljati petnajsti dan po objavi v Uradnem listu RS, uporablja pa se od 1. 1. 1998 dalje.
+
+Št. 403/042/98
+
+Sv. Jurij ob Ščavnici, dne 31. marca 1998.
+
+Predsednik
+Občinskega sveta
+občine Sv. Jurij ob Ščavnici
+Franc Lančič l. r.
