@@ -4,9 +4,9 @@ naziv: "Odredba o homologiranju žarometov za mopede in njim enaka cestna motorn
 vrsta: "odredba"
 datum: 1995-01-20
 sop: 1995-01-0283
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0283"
 ---
 

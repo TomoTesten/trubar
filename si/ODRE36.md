@@ -4,9 +4,9 @@ naziv: "Odredba o homologiranju vozil glede na trdnost ključavnic in tečajev v
 vrsta: "odredba"
 datum: 1995-01-27
 sop: 1995-01-0359
-organ: "Urad RS za standardizacijo in meroslovje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0359"
 ---
 

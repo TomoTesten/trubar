@@ -4,8 +4,9 @@ naziv: "Uredba o ratifikaciji Programa kulturnega sodelovanja med Vlado Republik
 vrsta: "uredba"
 datum: 1995-01-13
 sop: 1995-02-0007
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-02-0007"
 ---
 

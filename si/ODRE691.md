@@ -4,9 +4,9 @@ naziv: "Odredba o homologiranju motornih koles in mopedov glede na zaviranje (š
 vrsta: "odredba"
 datum: 1995-01-20
 sop: 1995-01-0277
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0277"
 ---
 

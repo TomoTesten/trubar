@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve poslovnika o načinu dela Komisije po zakonu o n
 vrsta: "akt"
 datum: 1995-01-20
 sop: 1995-01-0267
-organ: "Državni zbor - Komisija o nezdružljivosti opravljanja javne funkcije s pridobitno dejavnostjo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0267"
 ---
 

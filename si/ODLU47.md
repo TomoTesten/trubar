@@ -4,9 +4,9 @@ naziv: "Odločba o določbi četrte alinee prvega odstavka 16. člena zakona o d
 vrsta: "akt"
 datum: 1995-01-13
 sop: 1995-01-0229
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0229"
 ---
 

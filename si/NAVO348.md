@@ -4,9 +4,9 @@ naziv: "Navodilo za uskladitev računovodskih evidenc zavarovalnic s slovenskim 
 vrsta: "navodilo"
 datum: 1995-01-20
 sop: 1995-01-0297
-organ: "Slovenski inštitut za revizijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0297"
 ---
 

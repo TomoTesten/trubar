@@ -4,9 +4,9 @@ naziv: "Zakon o izvajanju dogovora o politiki plač in drugih prejemkov zaposlen
 vrsta: "akt"
 datum: 1995-01-13
 sop: 1995-01-1357
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1357"
 ---
 
