@@ -4,9 +4,9 @@ naziv: "Zakon o poštnih storitvah (ZPSto)"
 vrsta: "akt"
 datum: 1997-06-13
 sop: 1997-01-1949
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1949"
 ---
 

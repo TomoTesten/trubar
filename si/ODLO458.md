@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi odloka o izvolitvi Delegacije Državnega zbora Republi
 vrsta: "odlok"
 datum: 1997-06-05
 sop: 1997-01-1814
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1814"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o soglasju k ustanovitvenemu aktu ustanove Fondacije Elan Vital"
 vrsta: "sklep"
 datum: 1997-06-13
 sop: 1997-01-1957
-organ: "Ministrstvo za kulturo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1957"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi števila mest državnih pravobranilcev in pomočnik
 vrsta: "odredba"
 datum: 1997-06-13
 sop: 1997-01-1953
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1953"
 ---
 

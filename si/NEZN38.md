@@ -4,9 +4,9 @@ naziv: "Seznam potrjenih domačih sort kmetijskih rastlin in tujih sort kmetijsk
 vrsta: "akt"
 datum: 1997-05-30
 sop: 1997-01-1740
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1740"
 ---
 

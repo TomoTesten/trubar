@@ -4,9 +4,9 @@ naziv: "Sklep o kriterijih za sklepanje pogodb o zaposlitvi direktorjev javnih z
 vrsta: "sklep"
 datum: 1997-06-06
 sop: 1997-01-1861
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1861"
 ---
 
