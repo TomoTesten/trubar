@@ -7,6 +7,11 @@ sop: 1994-01-2893
 objava: "Uradni list RS 80/94  str. 4567"
 kljucne_besede: ["občina", "občinski proračun", "financiranje", "finančna izravnava", "javne finance"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2893"
+spremembe:
+  - kratica: ZFO-A
+    datum: 1998-08-07
+    sop: 1998-01-2519
+    naziv: "Zakon o spremembah in dopolnitvah zakona o financiranju občin"
 ---
 
 # Zakon o financiranju občin
