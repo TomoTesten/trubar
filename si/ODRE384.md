@@ -4,9 +4,9 @@ naziv: "Odredba o obliki obveznic Republike Slovenije za odkup terjatev do Iraka
 vrsta: "odredba"
 datum: 1994-02-16
 sop: 1994-01-0314
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0314"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo za uveljavljanje finančnih intervencij za ohranjanje in razvoj
 vrsta: "navodilo"
 datum: 1994-07-05
 sop: 1994-01-1608
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "MINISTRSTVO ZA KMETIJSTVO IN GOZDARSTVO"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1608"
 ---
 

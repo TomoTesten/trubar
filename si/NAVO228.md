@@ -4,9 +4,9 @@ naziv: "Navodilo o izvajanju zaščitnih ukrepov"
 vrsta: "navodilo"
 datum: 1994-07-05
 sop: 1994-01-1606
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za obrambo"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1606"
 ---
 

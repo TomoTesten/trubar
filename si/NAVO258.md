@@ -4,9 +4,9 @@ naziv: "Navodilo o sklenitvi in prenosu pisarniško-tehničnega in materialno-fi
 vrsta: "navodilo"
 datum: 1994-05-20
 sop: 1994-01-1136
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za pravosodje"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1136"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi cene lastninske nakaznice in vpisnice za pooblašč
 vrsta: "odredba"
 datum: 1994-07-15
 sop: 1994-01-1720
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za ekonomske odnose in razvoj"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1720"
 ---
 

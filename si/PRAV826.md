@@ -4,9 +4,9 @@ naziv: "Pravilnik o razpisu za vpis in izvedbo vpisa v študijskem letu 1994/95"
 vrsta: "pravilnik"
 datum: 1994-02-04
 sop: 1994-01-0238
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za šolstvo in šport"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0238"
 ---
 

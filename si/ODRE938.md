@@ -4,9 +4,9 @@ naziv: "Odredba o načinu spreminjanja nominacije in o izplačevanju zakladnih m
 vrsta: "odredba"
 datum: 1993-03-12
 sop: 1993-01-0600
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0600"
 ---
 

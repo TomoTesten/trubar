@@ -4,9 +4,9 @@ naziv: "Odredba o vodenju knjige naročil za trgovanje z vrednostnimi papirji"
 vrsta: "odredba"
 datum: 1993-09-10
 sop: 1993-01-1920
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1920"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o višini povračil stroškov v zvezi z delom in drugih prejemkov
 vrsta: "uredba"
 datum: 1993-12-31
 sop: 1993-01-2663
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2663"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o pogojih in postopku za izdajo jamstva Republike Slovenije za k
 vrsta: "odredba"
 datum: 1993-01-29
 sop: 1993-01-0238
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0238"
 ---
 

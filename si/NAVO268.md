@@ -4,9 +4,9 @@ naziv: "Navodilo o dopolnitvi Navodila za izvajanje Zakona o overitvi podpisa, p
 vrsta: "navodilo"
 datum: 1992-11-27
 sop: 1992-01-2579
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za pravosodje"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2579"
 ---
 

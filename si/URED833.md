@@ -4,9 +4,9 @@ naziv: "Uredba o prenehanju veljavnosti uredbe o začasnem izvozu in uvozu blaga
 vrsta: "uredba"
 datum: 1993-05-14
 sop: 1993-01-1082
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1082"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o uporabi sredstev solidarnosti za odpravo posledic suše v kmetij
 vrsta: "akt"
 datum: 1993-12-03
 sop: 1993-01-2368
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Državni zbor RS"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2368"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o izdaji obveznic za odkup terjatev do Iraka, Kube in Ljudske Rep
 vrsta: "uredba"
 datum: 1994-02-16
 sop: 1994-01-0312
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0312"
 ---
 

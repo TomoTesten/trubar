@@ -4,9 +4,9 @@ naziv: "Uredba o spremembah in dopolnitvah uredbe o višini povračil stroškov 
 vrsta: "uredba"
 datum: 1994-07-15
 sop: 1994-01-1715
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1715"
 ---
 

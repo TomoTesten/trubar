@@ -4,9 +4,9 @@ naziv: "Navodilo za izvajanje posebnih ukrepov za varovanje dokumentov in drugih
 vrsta: "navodilo"
 datum: 1993-07-10
 sop: 1993-01-1569
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za obrambo"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1569"
 ---
 

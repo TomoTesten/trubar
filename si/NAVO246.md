@@ -4,9 +4,9 @@ naziv: "Navodilo o dostavljanju podatkov za izdajo lastniških certifikatov dela
 vrsta: "navodilo"
 datum: 1993-12-23
 sop: 1993-01-2517
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za delo, družino in socialne zadeve"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2517"
 ---
 

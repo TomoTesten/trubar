@@ -4,9 +4,9 @@ naziv: "Pravilnik o napredovanju zaposlenih v državni upravi"
 vrsta: "pravilnik"
 datum: 1994-07-12
 sop: 1994-01-1680
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za notranje zadeve"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1680"
 ---
 

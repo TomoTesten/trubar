@@ -4,9 +4,9 @@ naziv: "Uredba o prenehanju veljavnosti odloka o določitvi začasne protidumpin
 vrsta: "uredba"
 datum: 1993-12-31
 sop: 1993-01-2634
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2634"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi objektov in okolišev objektov, ki so posebnega pom
 vrsta: "odredba"
 datum: 1994-08-05
 sop: 1994-01-1844
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za obrambo"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1844"
 ---
 

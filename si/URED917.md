@@ -4,9 +4,9 @@ naziv: "Uredba o ugotavljanju in vpisovanju zavarovalne dobe osebam, ki so prest
 vrsta: "uredba"
 datum: 1992-12-28
 sop: 1992-01-2843
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2843"
 ---
 
