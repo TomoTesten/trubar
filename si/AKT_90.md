@@ -4,9 +4,9 @@ naziv: "Akt o nasledstvu mednarodnih pogodb, sklenjenih v zvezi s Splošnim spor
 vrsta: "akt"
 datum: 1994-03-11
 sop: 1994-02-0031
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-02-0031"
 ---
 

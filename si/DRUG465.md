@@ -4,9 +4,9 @@ naziv: "Kontni okvir za gospodarske družbe"
 vrsta: "drugi akt"
 datum: 1994-03-25
 sop: 1994-01-0627
-organ: "SLOVENSKI INSTITUT ZA REVIZIJO"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0627"
 ---
 

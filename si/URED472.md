@@ -4,9 +4,9 @@ naziv: "Uredba o barvi in oznakah službene obleke v Republiški carinski upravi
 vrsta: "uredba"
 datum: 1994-03-18
 sop: 1994-01-0564
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0564"
 ---
 

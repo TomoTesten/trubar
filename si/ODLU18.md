@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi 30. člena, 3. tretje točke 134. člena in 138
 vrsta: "akt"
 datum: 1994-02-23
 sop: 1994-01-0370
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0370"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembi in dopolnitvah pravilnika o redu v lukah in drugih
 vrsta: "pravilnik"
 datum: 1994-03-25
 sop: 1994-01-0624
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0624"
 ---
 

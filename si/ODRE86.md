@@ -4,9 +4,9 @@ naziv: "Odredba o višini stroškov postopka za potrditev nove sorte oziroma za 
 vrsta: "odredba"
 datum: 1994-02-28
 sop: 1994-01-0436
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0436"
 ---
 
