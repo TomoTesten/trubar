@@ -16,6 +16,10 @@ spremembe:
     datum: 2002-01-30
     sop: 2002-01-0355
     naziv: "Zakon o spremembi zakona o zdravilih in medicinskih pripomočkih"
+  - kratica: ZZMP-C
+    datum: 2002-07-26
+    sop: 2002-01-3228
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravilih in medicinskih pripomočkih"
 ---
 
 # Zakon o zdravilih in medicinskih pripomočkih
