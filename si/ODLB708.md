@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju za izvajanje strokovno tehničnih nalog v okviru p
 vrsta: "akt"
 datum: 2005-02-11
 sop: 2005-01-0394
-organ: "Ministrstvo za visoko šolstvo, znanost in tehnologijo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0394"
 ---
 

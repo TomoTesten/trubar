@@ -4,9 +4,9 @@ naziv: "Aneks h kolektivni pogodbi za zavarovalstvo Slovenije"
 vrsta: "akt"
 datum: 2005-01-21
 sop: 2005-01-0155
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0155"
 ---
 
