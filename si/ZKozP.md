@@ -7,6 +7,11 @@ sop: 2000-01-3057
 objava: "Uradni list RS 66/2000  str. 8208"
 kljucne_besede: ["kozmetični izdelek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3057"
+spremembe:
+  - kratica: ZKozP-A
+    datum: 2003-07-04
+    sop: 2003-01-3143
+    naziv: "Zakon o spremembah in dopolnitvah zakona o kozmetičnih proizvodih"
 ---
 
 # Zakon o kozmetičnih proizvodih
