@@ -12,6 +12,10 @@ spremembe:
     datum: 1999-04-08
     sop: 1999-01-1035
     naziv: "Zakon o spremembah in dopolnitvah kazenskega zakonika Republike Slovenije"
+  - kratica: KZ-B
+    datum: 2004-04-20
+    sop: 2004-01-1662
+    naziv: "Zakon o spremembah in dopolnitvah kazenskega zakonika"
 ---
 
 # Kazenski zakonik Republike Slovenije
