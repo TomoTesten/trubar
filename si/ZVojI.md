@@ -12,6 +12,10 @@ spremembe:
     datum: 1997-04-04
     sop: 1997-01-1130
     naziv: "Zakon o spremembah in dopolnitvah zakona o vojnih invalidih"
+  - kratica: ZVojI-C
+    datum: 1997-12-05
+    sop: 1997-01-3588
+    naziv: "Zakon o spremembah in dopolnitvah zakona o vojnih invalidih"
 ---
 
 # Zakon o vojnih invalidih
