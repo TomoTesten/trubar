@@ -7,6 +7,11 @@ sop: 1992-01-1564
 objava: "Uradni list RS 32/92  str. 2137"
 kljucne_besede: ["financiranje izvoza", "zavarovanje izvoznih kreditov"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1564"
+spremembe:
+  - kratica: ZDZFI-A
+    datum: 1995-06-30
+    sop: 1995-01-1814
+    naziv: "Zakon o spremembah in dopolnitvah zakona o družbi za zavarovanje in financiranje izvoza Slovenije"
 ---
 
 # Zakon o Družbi za zavarovanje in financiranje izvoza Slovenije
