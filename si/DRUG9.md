@@ -1,0 +1,81 @@
+---
+kratica: DRUG9
+naziv: "Odločba o razveljavitvi prvega odstavka 101. člena zakona o upravi in tretjega odstavka 99.a člena zakona o lokalni samoupravi"
+vrsta: "drugi akt"
+datum: 1995-04-07
+sop: 1995-01-0905
+organ: "Ustavno sodišče Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Objavljen akt brez datuma začetka veljavnosti"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0905"
+---
+
+# Odločba o razveljavitvi prvega odstavka 101. člena zakona o upravi in tretjega odstavka 99.a člena zakona o lokalni samoupravi
+
+Ustavno sodišče je v postopku za oceno ustavnosti, začetem na zahtevi Izvršnega sveta Občine Krško in Državnega sveta, po javni obravnavi dne 17. 3. 1995 na seji dne 30. 3. 1995
+
+
+### o d l o č i l o:
+
+Prvi odstavek 101. člena zakona o upravi (Uradni list RS, št. 67/94) in tretji odstavek 99.a člena zakona o lokalni samoupravi (Uradni list RS, št. 72/93, 57/94 in 14/95) se razveljavita. Razveljavitev začne učinkovati 1. junija 1995.
+
+
+### O b r a z l o ž i t e v
+
+
+### A)
+
+1. Po mnenju prvega predlagatelja (Izvršnega sveta Občine Krško) določba prvega odstavka 101. člena zakona o upravi (v nadaljevanju: ZU) prenaša na državo vse funkcije prejšnjih občin, kar po njegovem mnenju ni v skladu s 140. členom ustave. V 21. členu zakona o lokalni samoupravi (v nadaljevanju: ZLS) so bile sicer določene temeljne naloge občine, vendar niso bile taksativno naštete, tako da po mnenju predlagatelja izpodbijana določba ZU omogoča podržavljenje vseh nalog novih občin. Izvirne pristojnosti občin bi po njegovem mnenju morale biti določene še s področno zakonodajo, ki pa do prevzema nalog po 101. členu ZU še ne bo sprejeta. Zato predlaga, da ustavno sodišče sporno določbo razveljavi oziroma sprejme v skladu z 48. členom zakona o ustavnem sodišču (Uradni list RS, št. 15/94; v nadaljevanju: ZUstS) ugotovitveno odločbo o njeni neskladnosti z ustavo.
+2. Drugi predlagatelj (Državni svet) se pri utemeljevanju neustavnosti izpodbijane določbe prav tako sklicuje na 140. člen ustave in na 21. člen ZLS, poleg tega pa tudi opozarja, da zakon o organizaciji in delovnem področju ministrstev (Uradni list RS, št. 71/94) zelo splošno določa pristojnosti posameznih ministrstev, zaradi česar po njegovem mnenju ni mogoče trditi, da izpodbijana določba ZU ne pomeni prenosa vseh občinskih upravnih zadev na pristojna ministrstva. Tudi v primeru, da pomeni izpodbijana določba le začasno rešitev, ker še niso sprejeti vsi področni zakoni, po mnenju Državnega sveta pomeni poseg države v lokalne zadeve, ki bi zaradi hkratnega prevzema upravnih delavcev povsem onemogočil uspešno opravljanje občinskih upravnih zadev.
+3. Državni zbor v svojem odgovoru navaja, da je potrebno izpodbijano določbo razlagati v kontekstu celotnega ZU, katerega del je, in v povezavi s 5. členom ustavnega zakona za izvedbo ustave Republike Slovenije (Uradni list RS, št. 33/91), ki je določil, da organi občine opravljajo državne funkcije, dokler jih ne prevzame država, in podaljšal mandatno dobo organom prejšnjih občin do 31. 12. 1994. Izpodbijana določba naj bi torej urejala zgolj prenos državnih funkcij na področju uprave, ki so jih do navedenega datuma opravljali organi prejšnjih občin, na organe državne uprave. Zato naj ne bi bil posegel v lokalne zadeve, ki so po 140. členu ustave ter po 21. in 22. členu ZLS v pristojnosti novih občin, in ne prenaša lokalnih upravnih zadev iz pristojnosti novih občin v pristojnosti organov državne uprave.
+4. Državni zbor poudarja, da bistvena vsebina izpodbijane določbe ni razmejitev med državnimi in lokalnimi upravnimi zadevami, ampak v tem, da se državne funkcije na področju uprave, ki so jih opravljale prejšnje občine, prenesejo na upravne enote, razen nalog geodetske službe, nalog upravnega nadzorstva in nalog na področju obrambe, ki se prenesejo neposredno na pristojna ministrstva. Razmejitev med državnimi funkcijami na področju uprave in lokalnimi upravnimi zadevami pa naj ne bi bila stvar ZU, ampak področne zakonodaje. Po njegovem mnenju naj bi bil način prevzema državnih funkcij na področju uprave po 101. členu ZU z generalno klavzulo najbolj čist in najbolj jasen in naj bi izključeval vsako arbitrarnost pri presoji glede tega, kaj utegne biti na posameznem področju lokalnega in kaj državnega pomena. Meni, da bi uporaba drugačnega pristopa, to je z metodo naštevanja konkretnih pristojnosti, ki je bil sicer v zakonodajnem postopku tudi predlagan, privedla do neprimerno večjega tveganja, ker bi lahko prišlo do napak pri tem naštevanju, poleg tega pa tudi do arbitrarnega razmejevanja nalog.
+5. Na javni obravnavi, ki je bila 17. 3. 1995, so udeleženci vztrajali pri svojih navedbah, vsebovanih v zahtevah za oceno ustavnosti prvega odstavka 101. člena ZU in v odgovoru na zahteve. Predlagatelja sta tako ponovno poudarila, da izpodbijana določba pomeni prenos vseh nalog bivših občin na državo. Pri tem naj bi prihajalo tudi do njenega različnega razlaganja, kar povzroča zmedo, ki bo imela za posledico vse večje število sporov o pristojnosti.
+Predstavnik Državnega zbora pa je vztrajal, da izpodbijana določba ZU ne bi smela biti sporna kot metoda prenosa nalog “en bloc” od občin na državo. Oporekati bi bilo mogoče le konkretne primere nalog, ki so bile prenesene v tem “paketu” in dokazovati, da gre za lokalne zadeve.
+6. Ustavno sodišče je od občin in upravnih enot pridobilo tudi podatke o tem, kako se izpodbijana določba dejansko izvršuje, zlasti pa, ali občine po 1. januarju 1995 izdajajo kakšne upravne odločbe in na katerih področjih, kdo jih izdaja in kdo je določen kot pritožbeni organ.
+
+
+### B)
+
+7. Načelo lokalne samouprave je uvrščeno med temeljne določbe ustave ter podrobneje razčlenjeno v posebnem poglavju o lokalni in drugi samoupravi. Temeljno ustavno zagotovilo lokalne samouprave (“V Sloveniji je zagotovljena lokalna samouprava”, 9. člen ustave) je institucionalni okvir odločanja o lokalnih javnih zadevah in s tem tudi temeljne ustavne pravice vsakogar do sodelovanja pri upravljanju javnih zadev (44. člen ustave). Tudi Evropska listina lokalne samouprave v preambuli neposredno sooča naslednje tri določbe:
+– da so lokalne oblasti eden od glavnih temeljev vsake demokratične vladavine;
+– da je pravica državljanov, da sodelujejo pri opravljanju javnih zadev, eno od demokratičnih načel, ki so skupna vsem državam članicam Sveta Evrope, in
+– da se ta pravica lahko najbolj neposredno izvršuje na lokalni ravni.
+Iz zgornjih načelnih ugotovitev pa Evropska listina v 3. členu izvede opredelitev lokalne samouprave kot “pravico in sposobnost lokalnih oblasti, da v mejah zakona urejajo in opravljajo bistveni del javnih zadev v lastni pristojnosti in v korist lokalnega prebivalstva.”
+8. Že v odločbi U-I-13/94 z dne 20. 1. 1994 (Uradni list RS, št. 6/94), s katero je razveljavilo 95. člen zakona o lokalni samoupravi, je ustavno sodišče poudarilo, da je temelj ustavnih in zakonskih določb o lokalni samoupravi vzpostavitev in zagotovitev temeljnih pogojev za uresničevanje lokalne samouprave po nekaj desetletij trajajočem obdobju “jugoslovanske komune”. Ta temeljni cilj pa je mogoče udejaniti tako:
+– da se oblikujejo območja in meje novih občin;
+– da država prevzame v lastno izvrševanje državne upravne zadeve;
+– da se opredelijo pristojnosti nove občine in
+– da se vzpostavijo predstavniška in izvršilna telesa občin, ki naj omogočijo občanom pravico do lokalne demokracije, se pravi sodelovanje pri odločanju o lokalnih zadevah v okviru samoupravne občine.
+Ustavno sodišče je torej že takrat povsem jasno povedalo, da mora Državni zbor ob prehodu v sistem lokalne samouprave razmejiti in določiti pristojnosti države in lokalnih skupnosti.
+9. Uvedba lokalne samouprave pomeni tudi to, da država prevzame državne funkcije, ki so jih v komunalnem sistemu opravljale občine kot podaljšek državne oblasti. Na področju uprave to pomeni prevzem tistih upravnih nalog, ki sodijo v okvir funkcij državne uprave. V nasprotju s 140. členom ustave pa bi bil prevzem tistih upravnih nalog, ki so povezane z uresničevanjem lokalne samouprave oziroma lokalnih javnih zadev in ki jih občina, enako kot država, opravlja na oblasten način. Občina je namreč v razmerju do države kakor tudi do svojih prebivalcev lokalna oblast. To posredno izhaja tudi iz v prejšnji točki citiranih treh določb Evropske listine lokalne samouprave. Prva namreč govori o lokalnih oblasteh, ki da so eden glavnih temeljev vsake demokratične vladavine, druga in tretja pa o demokratičnem načelu sodelovanja državljanov pri upravljanju javnih zadev in sicer na centralni in lokalni ravni, le da na lokalni ravni “najbolj neposredno”.
+10. Izpodbijani prvi odstavek 101. člena ZU določa, da s 1. januarjem 1995 prevzame država od občin vse upravne naloge in pristojnosti na področjih, za katera so ustanovljena posamezna ministrstva, ter vse druge z zakonom določene upravne naloge oblastvenega značaja iz pristojnosti občin.
+11. Izpodbijana določba ZU tudi po navedbah Državnega zbora predstavlja normo za realizacijo 5. člena ustavnega zakona za izvedbo ustave. Ta člen določa, da, dokler država ne prevzame državnih funkcij, ki jih je doslej opravljala občina, opravljajo te funkcije organi občine. Njegova izvršitev torej zahteva natančno razmejitev med pristojnostmi države in pristojnostmi lokalnih skupnosti. Ta pa je mogoča le, če se določijo državne funkcije, ki jih prevzame država, ali pristojnosti, ki ostanejo kot izvirne lokalnim skupnostim, ali pa oboje.
+12. Vendar Državni zbor tega ni storil. Namesto jasne razmejitve pristojnosti in določitve državnih funkcij, ki jih prevzame država, je sprejel izpodbijano določbo z nejasno vsebino, ki po razlagi Državnega zbora pomeni, da so z njo prenesene na organe državne uprave vse državne funkcije na področju uprave, ki so jih opravljale prejšnje občine. Pri tem je izhajal iz predpostavke, da že samo dejstvo, da so bile prejšnjim občinam pristojnosti naložene z zakoni, pomeni, da so to državne in ne lokalne zadeve. S tem je Državni zbor v nasprotju s 140. členom ustave posegel v pristojnosti občin. Ministrstva so namreč ustanovljena za vsa področja javnega življenja v družbi, tudi za tista, ki spadajo po 21. in 22. členu ZLS med lokalne zadeve (npr. socialno skrbstvo, šolstvo, zdravstvo, kultura, turizem, gospodarske javne službe).
+13. Državni zbor v svojem odgovoru na zahtevi za oceno ustavnosti izpodbijane odločbe navaja, da prevzem državnih nalog z generalno klavzulo ustvarja čist odnos med državo in lokalno samoupravo, da pa bo pri vsakem zakonu, ki bo izdan po 1. januarju 1995, potrebno presoditi, katere naloge so po naravi take, da sodijo kot lokalne zadeve v pristojnost občin – vseh ali samo mestnih – v skladu s 140. in 141. členom ustave ter 21. in 22. členom ZLS. To pomeni, da Državni zbor v istem odgovoru enkrat navaja, da se z izpodbijano določbo ne posega v izvirne pristojnosti lokalnih skupnosti, drugič pa, da je z izpodbijano določbo prenesel na državo tudi naloge, ki bodo prenesene nazaj občinam in sicer ne kot prenesene naloge, temveč v njihovo izvirno pristojnost.
+14. Izvedba 5. člena ustavnega zakona za izvedbo ustave torej zahteva, da se določijo državne funkcije in v tem okviru upravne naloge in pristojnosti, ki jih država oziroma njeni organi prevzamejo. Samo tak način prevzema državnih funkcij zagotavlja po eni strani učinkovito izvrševanje lokalne samouprave po drugi strani pa spoštovanje načela pravne države oziroma načela pravne varnosti.
+15. V praksi je prišlo tudi do neenakega obsega prevzetih občinskih upravnih nalog, tako da se v posameznih občinah sedaj kot občinske opravljajo naloge, ki se v drugih občinah opravljajo kot državne.Takšno stanje je pravno nedopustno, ker povzroča pri uveljavljanju pravic in urejanju pravnih razmerij, ki sodijo v upravno pristojnost državne uprave ali organov lokalne samouprave, pravni nered in ogroža pravno varnost.
+16. Prevzem pristojnosti z generalno določbo 101. člena ZU je v nasprotju z načeli pravne države in delitve oblasti, ki zahtevajo normativno ureditev pristojnosti po posameznih področjih upravnih funkcij in nalog z enim ali več zakoni, saj določbe o pristojnosti pomenijo pooblastilo določenemu organu za odločanje v posameznih upravnih stvareh.
+17. Med postopkom odločanja o ustavnosti izpodbijane določbe ZU je bil ZLS spremenjen in dopolnjen (Uradni list RS, št. 14/95). V novem 99.a členu ureja veljavnost predpisov prejšnjih občin in pristojnost za njihovo spreminjanje, v tretjem odstavku pa določa, da z zakoni in drugimi državnimi predpisi določene pristojnosti organov prejšnjih občin za urejanje in izvrševanje zadev iz državne pristojnosti ne preidejo na organe novih občin. Ker so navedene določbe v medsebojni zvezi z izpodbijanim 101. členom ZU, se je ustavno sodišče skladno s 30. členom ZUstS odločilo, da bo ocenilo tudi njihovo skladnost z ustavo.
+18. Določba tretjega odstavka 99. a člena ZLS je nejasna. Določa, da z zakoni in drugimi državnimi predpisi določene pristojnosti organov prejšnjih občin za urejanje in izvrševanje zadev iz državne pristojnosti ne preidejo na organe novih občin. To pomeni, da so pristojnosti prejšnjih občin, med njimi so nujno tudi izvirne pristojnosti, prešle na državo, ker pojem “zadeve iz državne pristojnosti” ni opredeljen v nobenem predpisu. Zato je ustavno sodišče ocenilo, da ta določba ni v skladu s 120. in 140. členom ustave.
+19. Ustavno sodišče je razveljavilo obe določbi z odložnim rokom zaradi tega, da se ohrani vsaj dosežena raven pravne varnosti. Razveljavitev s takojšnim učinkom bi namreč po njegovi oceni stanje, nastalo na podlagi dejanskega izvajanja izpodbijane določbe, še poslabšalo.
+20. Za razveljavitev z odložnim rokom se je torej ustavno sodišče odločilo zato, da se ublažijo posledice razveljavitve 101. člena ZU, ki bi nastale, če bi vse občinske naloge takoj prešle nazaj na nove občine. Vse med njimi namreč niti še niso usposobljene za prevzem funkcij, saj še nimajo sprejetih statutov in drugih splošnih aktov in tudi ne organizirane uprave. Pravno varnost državljanov pa bi zmanjšala tudi ponovna (začasna) organizacijsko-kadrovska reorganizacija zaradi prenosa pristojnosti. Poleg tega ustavno sodišče ocenjuje, da začasno vzdrževanje sicer neustavnega stanja, nastalega na podlagi dejanskega izvajanja 101. člena ZU, do razmejitve pristojnosti v skladu s to odločbo, zagotavlja vsaj doseženo stopnjo pravne varnosti, ki je in kolikor je bila v skladu s 140. členom ustave dosežena na podlagi dosedanje dejanske razdelitve funkcij oziroma pristojnosti med državo in lokalnimi skupnostmi.
+21. Ustavno sodišče je sprejelo razveljavitev z odložnim rokom tudi zato, da bi Državni zbor v tem času lahko z zakonom nadomestil razveljavljeno določbo tako, da določi posamične pristojnosti in naloge, ki jih prevzame država. Po presoji ustavnega sodišča bi pri tem moral biti:
+– zagotovljen istočasen prenos nalog v vseh občinah,
+– upoštevan poseben ustavni status mestnih občin,
+– urejena veljavnost posamičnih aktov, izdanih v obdobju, dokler organi lokalnih skupnosti ne bodo prevzeli izvrševanja lokalnih zadev na podlagi zakonske razmejitve pristojnosti,
+– lokalnim skupnostim zagotovljen potreben čas za prilagoditev občinskih aktov, organov in občinske uprave,
+– zagotovljeno, da bosta organizacija občinske uprave in sistemizacija delovnih mest v njej pogojena s pristojnostmi občin,
+– urejen položaj zaposlenih glede na morebitne spremembe obsega pristojnosti upravnih enot in občinske uprave.
+22. če Državni zbor do 1. junija 1995 ne bo določil pristojnosti v smislu te odločbe, bodo od dneva pričetka učinkovanja razveljavitve občine same na podlagi 140. člena ustave in na podlagi 21. in 22. člena ZLS prevzele opravljanje upravnih nalog, ki spadajo v njihovo izvirno pristojnost.
+
+
+### C)
+
+23. Ustavno sodišče je sprejelo to odločbo na podlagi 43. člena ZUstS v naslednji sestavi: predsednik dr. Tone Jerovšek in sodniki dr. Peter Jambrek, mag. Matevž Krivic, mag. Janez Snoj, dr. Janez Šinkovec, dr. Lovro Šturm, Franc Testen, dr. Lojze Ude in dr. Boštjan M. Zupančič. Odločbo je sprejelo z osmimi glasovi proti enemu. Proti je glasoval sodnik Krivic, ki je dal odklonilno ločeno mnenje. Pritrdilno ločeno mnenje je napovedal sodnik Testen.
+
+Št. U-I-285/94-105
+
+Ljubljana, dne 30. marca 1995.
+
+Predsednik
+dr. Tone Jerovšek l. r.
