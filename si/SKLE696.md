@@ -4,9 +4,9 @@ naziv: "Sklep o dajanju posebnih likvidnostnih posojil s sodelovanjem banke"
 vrsta: "sklep"
 datum: 1997-05-09
 sop: 1997-01-1559
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1559"
 ---
 

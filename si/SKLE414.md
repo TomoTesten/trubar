@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi tolarskih zneskov za izračun višine solventne meje i
 vrsta: "sklep"
 datum: 1997-04-18
 sop: 1997-01-1352
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1352"
 ---
 

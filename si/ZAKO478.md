@@ -4,9 +4,9 @@ naziv: "Zakon o poroštvih Republike Slovenije za obveznosti iz pogodb o najetju
 vrsta: "akt"
 datum: 1997-04-04
 sop: 1997-01-1055
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1055"
 ---
 

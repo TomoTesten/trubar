@@ -4,9 +4,9 @@ naziv: "Sklep o zadržanju izvrševanja 29. člena petega odstavka 26.a člena z
 vrsta: "akt"
 datum: 1997-04-25
 sop: 1997-01-1364
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1364"
 ---
 

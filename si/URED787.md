@@ -4,9 +4,9 @@ naziv: "Uredba o spremembah in dopolnitvah uredbe o pogojih za uvoz blaga, ki se
 vrsta: "uredba"
 datum: 1997-04-18
 sop: 1997-01-1341
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1341"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o izvolitvi podpredsednikov Državnega zbora Republike Slovenije"
 vrsta: "odlok"
 datum: 1997-05-05
 sop: 1997-01-1465
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1465"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o uradnih izkaznicah delavcev, pooblaščenih za nadzor nad br
 vrsta: "pravilnik"
 datum: 1997-04-25
 sop: 1997-01-1461
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1461"
 ---
 

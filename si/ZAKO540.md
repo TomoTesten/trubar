@@ -2,11 +2,11 @@
 kratica: ZAKO540
 naziv: "Zakon o začasni ureditvi organizacije in pristojnosti občinskih sodnikov za prekrške in občinskih javnih pravobranilcev (ZZUOPSP)"
 vrsta: "akt"
-datum: 1994-12-30
+datum: 1997-04-10
 sop: 1994-01-2978
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2978"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o izhodiščni ceni za dobavljeno električno energijo v letu 1997
 vrsta: "sklep"
 datum: 1997-04-25
 sop: 1997-01-1448
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1448"
 ---
 
