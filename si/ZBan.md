@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-07-19
     sop: 2001-01-3151
     naziv: "Zakon o spremembah in dopolnitvah zakona o bančništvu"
+  - kratica: ZBan-B
+    datum: 2003-06-09
+    sop: 2003-01-2756
+    naziv: "Zakon o spremembah in dopolnitvah zakona o bančništvu"
 ---
 
 # Zakon o bančništvu
