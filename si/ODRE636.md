@@ -4,9 +4,9 @@ naziv: "Odredba o prepovedi prodaje in uvoza vozil brez katalizatorja"
 vrsta: "odredba"
 datum: 1994-05-20
 sop: 1994-01-1178
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1178"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o vsebini prospekta za javno ponudbo investicijskih kuponov vzajem
 vrsta: "sklep"
 datum: 1994-05-06
 sop: 1994-01-1012
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1012"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o imenovanju članov volilne komisije"
 vrsta: "sklep"
 datum: 1994-05-13
 sop: 1994-01-1066
-organ: "Sodni svet Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1066"
 ---
 

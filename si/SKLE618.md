@@ -4,9 +4,9 @@ naziv: "Sklep (pravica do bivanja, zdravstvenega varstva, šolanja in usposablja
 vrsta: "sklep"
 datum: 1994-05-20
 sop: 1994-01-1134
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1134"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi, da prvi odstavek 113. člena Stanovanjskega zakon
 vrsta: "akt"
 datum: 1994-04-28
 sop: 1994-01-0967
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0967"
 ---
 

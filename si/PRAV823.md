@@ -4,8 +4,9 @@ naziv: "Pravilnik o postopku za vpis in izbris iz razvida zasebnih visokošolski
 vrsta: "pravilnik"
 datum: 1994-04-22
 sop: 1994-01-0901
-organ: "Ministrstvo za šolstvo in šport"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0901"
 ---
 

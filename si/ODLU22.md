@@ -4,9 +4,9 @@ naziv: "Odločba o razveljaviti 8. in 9. člena zakona o civilnih invalidih vojn
 vrsta: "akt"
 datum: 1994-04-22
 sop: 1994-01-0911
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0911"
 ---
 

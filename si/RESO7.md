@@ -4,9 +4,9 @@ naziv: "Resolucija o strategiji Republike Slovenije do tujih vlaganj"
 vrsta: "akt"
 datum: 1994-05-06
 sop: 1994-01-0997
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0997"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o poroštvu Republike Slovenije za obveznosti iz pogodbe o najetju
 vrsta: "akt"
 datum: 1994-05-06
 sop: 1994-01-0996
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0996"
 ---
 

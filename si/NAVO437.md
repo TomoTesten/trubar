@@ -4,9 +4,9 @@ naziv: "Navodilo za določanje in prikazovanje potreb obrambe in zaščite v pro
 vrsta: "navodilo"
 datum: 1994-05-06
 sop: 1994-01-1003
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1003"
 ---
 

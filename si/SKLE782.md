@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi in dopolnitvi sklepa o izdaji blagajniških zapisov Ba
 vrsta: "sklep"
 datum: 1994-05-26
 sop: 1994-01-1190
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1190"
 ---
 
