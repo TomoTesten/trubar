@@ -32,6 +32,10 @@ spremembe:
     datum: 2001-08-03
     sop: 2001-01-3469
     naziv: "Zakon o dopolnitvi zakona o žrtvah vojnega nasilja"
+  - kratica: ZZVN-G
+    datum: 2002-12-18
+    sop: 2002-01-5392
+    naziv: "Zakon o spremembah in dopolnitvah zakona o žrtvah vojnega nasilja"
 ---
 
 # Zakon o žrtvah vojnega nasilja
