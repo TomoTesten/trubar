@@ -36,6 +36,10 @@ spremembe:
     datum: 2000-08-08
     sop: 2000-01-3308
     naziv: "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi"
+  - kratica: ZLS-L
+    datum: 2002-06-11
+    sop: 2002-01-2484
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi"
 ---
 
 # Zakon o lokalni samoupravi
