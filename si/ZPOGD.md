@@ -12,6 +12,10 @@ spremembe:
     datum: 1995-03-03
     sop: 1995-01-0654
     naziv: "Zakon o spremembah in dopolnitvah zakona o poroštvih Republike Slovenije za obveznosti gospodarskih družb iz poslov restrukturiranja dolgov"
+  - kratica: ZPOGD-B
+    datum: 1996-07-05
+    sop: 1996-01-2279
+    naziv: "Zakon o spremembah in dopolnitvah zakona o poroštvih Republike Slovenije za obveznosti gospodarskih družb iz poslov restrukturiranja dolgov"
 ---
 
 # Zakon o poroštvih Republike Slovenije za obveznosti gospodarskih družb iz poslov restrukturiranja dolgov
