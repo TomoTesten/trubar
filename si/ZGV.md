@@ -7,6 +7,11 @@ sop: 1999-01-3007
 objava: "Uradni list RS 63/99  str. 8121"
 kljucne_besede: ["turizem", "gorsko območje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3007"
+spremembe:
+  - kratica: ZGV-A
+    datum: 2004-04-15
+    sop: 2004-01-1603
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gorskih vodnikih"
 ---
 
 # Zakon o gorskih vodnikih
