@@ -16,6 +16,10 @@ spremembe:
     datum: 1992-08-01
     sop: 1992-01-1892
     naziv: "Zakon o spremembi in dopolnitvi zakona o državljanstvu Republike Slovenije"
+  - kratica: ZDRS-C
+    datum: 1994-03-10
+    sop: 1994-01-0516
+    naziv: "Zakon o spremembah in dopolnitvah zakona o državljanstvu Republike Slovenije"
 ---
 
 # Zakon o državljanstvu Republike Slovenije
