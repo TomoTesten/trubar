@@ -7,6 +7,11 @@ sop: 1995-01-0961
 objava: "Uradni list RS 21/95  str. 1609"
 kljucne_besede: ["poroštvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0961"
+spremembe:
+  - kratica: ZMPDP-A
+    datum: 1996-04-02
+    sop: 1996-01-1064
+    naziv: "Zakon o spremembah in dopolnitvah zakona o merilih in postopku za dajanje poroštev Republike Slovenije"
 ---
 
 # Zakon o merilih in postopku za dajanje poroštev Republike Slovenije
