@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o prvi emisiji blagajniškega zapisa z nakupnim
 vrsta: "sklep"
 datum: 1994-08-12
 sop: 1994-01-1876
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1876"
 ---
 

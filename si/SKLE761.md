@@ -4,9 +4,9 @@ naziv: "Sklep o četrti emisiji dvodelnega prenosljivega blagajniškega zapisa B
 vrsta: "sklep"
 datum: 1994-08-12
 sop: 1994-01-1875
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1875"
 ---
 

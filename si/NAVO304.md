@@ -4,9 +4,9 @@ naziv: "Navodilo o denaturaciji rafineriranega sladkorja iz lastne predelave na 
 vrsta: "navodilo"
 datum: 1994-08-18
 sop: 1994-01-1911
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1911"
 ---
 

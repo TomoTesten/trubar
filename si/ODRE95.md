@@ -4,8 +4,9 @@ naziv: "Odredba o spremembi odredbe o označevanju domačih živali v prometu"
 vrsta: "odredba"
 datum: 1994-07-30
 sop: 1994-01-1788
-organ: "MINISTRSTVO ZA KMETIJSTVO IN GOZDARSTVO"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1788"
 ---
 

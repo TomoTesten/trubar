@@ -4,9 +4,9 @@ naziv: "Odredba o obvezni dobaviteljevi deklaraciji o ustreznosti naprav in opre
 vrsta: "odredba"
 datum: 1994-08-12
 sop: 1994-01-1869
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1869"
 ---
 

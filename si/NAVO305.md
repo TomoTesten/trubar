@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila o denaturaciji rafineriran
 vrsta: "navodilo"
 datum: 1994-08-30
 sop: 1994-01-1928
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1928"
 ---
 

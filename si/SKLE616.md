@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi strokovne komisije za opravljanje preizkusa znanja sl
 vrsta: "sklep"
 datum: 1994-07-30
 sop: 1994-01-1821
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1821"
 ---
 

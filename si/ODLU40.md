@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi neskladnosti zakona o zavodih, zakona o zdravstven
 vrsta: "akt"
 datum: 1994-07-27
 sop: 1994-01-3034
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-3034"
 ---
 

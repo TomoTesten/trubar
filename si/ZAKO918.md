@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah zakona o jamstvu Republike Slovenije z
 vrsta: "akt"
 datum: 1994-08-05
 sop: 1994-01-1827
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1827"
 ---
 
