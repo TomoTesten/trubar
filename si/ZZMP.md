@@ -7,6 +7,11 @@ sop: 1999-01-4814
 objava: "Uradni list RS 101/99  str. 15013"
 kljucne_besede: ["zdravilo", "nadzor zdravil", "veterina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4814"
+spremembe:
+  - kratica: ZZMP-A
+    datum: 2000-08-08
+    sop: 2000-01-3309
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravilih in medicinskih pripomočkih"
 ---
 
 # Zakon o zdravilih in medicinskih pripomočkih
