@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve pravil igre na srečo \"POLO\""
 vrsta: "akt"
 datum: 2003-08-28
 sop: 2003-01-4000
-organ: "Športna loterija in igre na srečo d.d."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4000"
 ---
 
