@@ -7,6 +7,11 @@ sop: 1996-01-2449
 objava: "Uradni list RS 38/96  str. 3274"
 kljucne_besede: ["železniško omrežje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2449"
+spremembe:
+  - kratica: ZGPHKD-A
+    datum: 1998-06-30
+    sop: 1998-01-2110
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ureditvi določenih vprašanj v zvezi z graditvijo železniške proge na smeri Puconci - Hodoš - državna meja in dograditvijo drugega tira železniške proge Koper - Divača"
 ---
 
 # Zakon o ureditvi določenih vprašanj, v zvezi z graditvijo železniške proge na smeri Puconci - Hodoš - državna meja, in dograditvijo drugega tira železniške proge Koper - Divača
