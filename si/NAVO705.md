@@ -4,9 +4,9 @@ naziv: "Navodilo o obliki in tehničnih pogojih za vložitev zahteve za vpis pod
 vrsta: "navodilo"
 datum: 2004-06-24
 sop: 2004-01-3101
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za pravosodje"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3101"
 ---
 
