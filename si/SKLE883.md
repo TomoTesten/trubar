@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa Izvršnega sveta Skupščine Republike Slovenij
 vrsta: "sklep"
 datum: 1994-10-21
 sop: 1994-01-2380
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2380"
 ---
 

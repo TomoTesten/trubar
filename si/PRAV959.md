@@ -4,9 +4,9 @@ naziv: "Pravilnik o merilih za ocenjevanje kakovosti raziskovalne dejavnosti in 
 vrsta: "pravilnik"
 datum: 1994-10-20
 sop: 1994-01-2254
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2254"
 ---
 

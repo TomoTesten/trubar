@@ -4,9 +4,9 @@ naziv: "Statut Zdravniške zbornice Slovenije"
 vrsta: "akt"
 datum: 1994-10-20
 sop: 1994-01-2255
-organ: "Zdravniška zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2255"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o kriterijih za ocenjevanje delovne uspešnosti generalnega dire
 vrsta: "odredba"
 datum: 1994-10-20
 sop: 1994-01-2251
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2251"
 ---
 

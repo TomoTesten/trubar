@@ -4,9 +4,9 @@ naziv: "Zakon o državnem tožilstvu (ZDT)"
 vrsta: "akt"
 datum: 1994-10-13
 sop: 1994-01-2169
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2169"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Navodilo o izvajanju določb drugega in tretjega odstavka 2. člena zako
 vrsta: "navodilo"
 datum: 1994-10-21
 sop: 1994-01-2383
-organ: "Ministrstvo za finance"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2383"
 ---
 

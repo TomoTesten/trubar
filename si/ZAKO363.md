@@ -4,9 +4,9 @@ naziv: "Zakon o zavarovalnicah (ZZav)"
 vrsta: "akt"
 datum: 1994-10-14
 sop: 1994-01-2182
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2182"
 ---
 
