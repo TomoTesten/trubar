@@ -7,6 +7,11 @@ sop: 1992-01-0461
 objava: "Uradni list RS 9/92  str. 601"
 kljucne_besede: ["javno zdravje", "lekarna"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0461"
+spremembe:
+  - kratica: ZLD-A
+    datum: 1999-05-21
+    sop: 1999-01-1873
+    naziv: "Zakon o dopolnitvi zakona o lekarniški dejavnosti"
 ---
 
 # Zakon o lekarniški dejavnosti
