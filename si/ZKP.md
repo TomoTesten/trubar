@@ -16,6 +16,10 @@ spremembe:
     datum: 1999-01-29
     sop: 1999-01-0213
     naziv: "Zakon o spremembi zakona o spremembah in dopolnitvah zakona o kazenskem postopku"
+  - kratica: ZKP-C
+    datum: 2000-07-26
+    sop: 2000-01-3053
+    naziv: "Zakon o spremembi zakona o spremembah in dopolnitvah zakona o kazenskem postopku"
 ---
 
 # Zakon o kazenskem postopku
