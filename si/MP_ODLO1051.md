@@ -1,0 +1,219 @@
+---
+kratica: MP_ODLO1051
+naziv: "Odlok o organizaciji in delovnem področju Občinske uprave občine Žužemberk (ODLO)"
+vrsta: "občinski odlok"
+datum: 2000-01-31
+sop: 2000-01-0439
+organ: "Občina Žužemberk"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0439"
+---
+
+# Odlok o organizaciji in delovnem področju Občinske uprave občine Žužemberk (ODLO)
+
+Na podlagi 29. in 49. člena zakona o lokalni samoupravi (Uradni list RS, št. 72/93, 57/94, 14/95, 26/97, 10/97, 10/98 in 74/98), 52. člena statuta Občine Žužemberk (Uradni list RS, št. 34/99) in v skladu z uredbo o skupnih osnovah in kriterijih za notranjo organizacijo in sistemizacijo delovnih mest v organih državne uprave (Uradni list RS, št. 24/98, 56/98) je Občinski svet občine Žužemberk, na 9. seji dne 16. 12. 1999, na predlog župana sprejel
+
+
+## O D L O K
+o organizaciji in delovnem področju Občinske uprave občine Žužemberk
+
+
+### I. SPLOŠNE DOLOČBE
+
+
+### 1. člen
+
+S tem odlokom se ustanovi občinska uprava, določi organizacija in delovno področje ter urejajo druga vprašanja v zvezi z delovanjem Občinske uprave občine Žužemberk.
+
+
+### 2. člen
+
+Občinska uprava opravlja upravne, strokovne in druge naloge v okviru pravic in dolžnosti občine na delovnih področjih, ki so določeni s tem odlokom.
+
+
+### 3. člen
+
+Pri opravljanju svojih nalog občinska uprava sodeluje z občinskimi upravami drugih občin, nosilci javnih pooblastil, državnimi organi, zavodi, podjetji, družbami in drugimi organizacijami z izmenjavo mnenj in izkušenj ter podatkov in obvestil ter preko skupnih delovnih teles.
+
+
+### 4. člen
+
+Javnost dela občinske uprave se zagotavlja z uradnimi sporočili ter z dajanjem informacij sredstvom javnega obveščanja, novinarskimi konferencami, z udeležbo na konferencah, okroglih mizah in drugih oblikah sodelovanja s predstavniki sredstev javnega obveščanja oziroma na drug ustrezen način, ki omogoča javnosti, da se seznani z delom občinske uprave.
+Uradna sporočila za javnost, informacije, obvestila, pojasnila in druge podatke v smislu prejšnjega odstavka dajejo predstavnikom sredstev javnega obveščanja župan in direktor občinske uprave občine, po njunem pooblastilu pa lahko tudi drug delavec v občinski upravi.
+
+
+### II. ORGANIZACIJA IN DELOVNO PODROČJE OBČINSKE UPRAVE
+
+
+### 5. člen
+
+Za opravljanje nalog občinske uprave se v Občini Žužemberk ustanovi enovit organ: Občinska uprava občine Žužemberk, s sedežem v Žužemberku, Grajski trg 33.
+Občinska uprava zagotavlja:
+– strokovno, učinkovito in racionalno izvrševanje nalog občinske uprave,
+– zakonito, pravočasno in učinkovito uresničevanje pravic, interesov in obveznosti strank in drugih udeležencev v postopkih,
+– učinkovito sodelovanje z drugimi organi in institucijami.
+Za opravljanje določenih nalog lahko s posebnim aktom občina ustanovi skupno občinsko upravo.
+Občinska uprava lahko naroči izvajanje nekaterih strokovnih nalog pri zunanjih sodelavcih, organizacijah in posameznikih, vendar le v skladu s sklenjeno pogodbo ali v skladu s koncesijskim aktom.
+
+
+### 6. člen
+
+Občinska uprava opravlja strokovne, upravne, organizacijsko-tehnične in administrativne naloge na področju:
+– splošnih, normativno-pravnih in upravnih zadev,
+– javnih financ, gospodarskih dejavnosti,
+– družbenih dejavnosti,
+– varstva okolja in urejanja prostora, gospodarskih javnih služb in infrastrukture, kmetijstva, inšpekcijskega nadzorstva in občinskega redarstva ter gospodarjenja s stavbnimi zemljišči.
+Občinska uprava opravlja tudi druge naloge iz pristojnosti občine.
+
+
+### 7. člen
+
+Na področju splošnih, normativno-pravnih in upravnih zadev opravlja občinska uprava naslednje naloge:
+– opravlja strokovna, organizacijska, administrativna in tehnična opravila za potrebe župana, občinskega sveta in njegovih delovnih teles, za člane občinskega sveta, za nadzorni odbor ter druge občinske organe;
+– kadrovske zadeve;
+– sprejem in odprava pošte ter arhiviranje za potrebe občinskih organov;
+– gopodarjenje z zgradbo občine in tehnično opremo;
+– avtomatska obdelava podatkov za potrebe organov občine;
+– naloge, ki se nanašajo na civilno zaščito in reševanje;
+– nudi strokovno pomoč krajevnim skupnostim ali drugim ožjim delom občine pri njihovem delovanju;
+– priprava splošnih in drugih aktov ter mnenj in stališč, ki jih sprejemajo župan, občinski svet in drugi občinski organi;
+– sestavljanje pogodb, oceno sprejetih pogodb in pravno spremljanje pogodb;
+– strokovno pravno pomoč pri izvajanju volilnih opravil;
+– pravno pomoč županu, občinskemu svetu in drugim občinskim organom;
+– opravlja druge naloge, ki spadajo v to področje;
+– vodi upravni postopek in izdaja odločbe v teh postopkih na I. stopnji;
+– vodi evidenco o upravnih stvareh;
+– sodeluje v upravnih postopkih, ki jih vodijo drugi pristojni organi;
+– druge naloge, ki po svoji naravi sodijo v to področje.
+
+
+### 8. člen
+
+Na področju javnih financ in gospodarstva občinska uprava opravlja naslednje naloge:
+– pripravlja proračun in skrbi za njegovo izvrševanje v skladu s predpisi, ki urejajo to področje;
+– pripravlja finančna poročila in zaključni račun proračuna;
+– zagotavlja strokovno pomoč občinskim organom pri sprejemanju in izvrševanju občinskih splošnih in drugih aktov s področja javnih financ;
+– opravlja finančno-knjigovodska in druga strokovna opravila za proračun, občinske sklade, režijske obrate, krajevne skupnosti ali druge ožje dele občine;
+– spremlja, analizira in oblikuje cene iz pristojnosti občine in daje mnenje k oblikovanju cen iz koncesijskih razmerij;
+– pripravlja premoženjsko bilanco občine;
+– spremlja in analizira davke iz občinske pristojnosti in v skladu z zakonom pripravlja strokovne podlage za njihovo uvedbo oziroma usklajevanje;
+– pripravlja strategijo razvoja občine ter programske usmeritve in programe razvoja posameznih dejavnosti s področja gospodarstva;
+– izvaja strokovne naloge za občino in njene organe, kadar je občina ustanovitelj ali soustanovitelj javnega podjetja ali zavoda na področju gospodarskih javnih služb,
+– spremlja in analizira gopodarska gibanja v občini;
+– opravlja druge naloge, ki spadajo v to področje.
+
+
+### 9. člen
+
+Na področju družbenih dejavnosti občinska uprava opravlja naslednje naloge:
+– pripravlja razvojne usmeritve in razvojne programe na različnih področjih družbenih dejavnosti;
+– skrbi za realizacijo programov v skladu s proračunom, koordinira delovanje različnih subjektov na področjih družbenih dejavnosti in vrši nadzor nad izvajanjem programov;
+– pripravlja in izvaja programe javnih del;
+– opravlja druge naloge, ki sodijo v področje družbenih dejavnosti.
+
+
+### 10. člen
+
+Na področju urejanja prostora, varstva okolja, gospodarskih javnih služb in infrastrukture občinska uprava opravlja naslednje naloge:
+– pripravlja programska izhodišča za sprejemanje prostorskih aktov in pripravlja smernice za izdelavo prostorskih izvedbenih aktov;
+– pripravlja prostorske akte občine;
+– izdaja lokacijske dokumentacije;
+– vodi evidenco posegov v prostor in analizira stanje posegov v prostor;
+– nudi strokovno pomoč pravnim in fizičnim osebam pri urejanju prostora;
+– pripravlja programe varstva okolja, operativne programe in študije ranljivosti okolja za območje občine;
+– pripravlja sanacijske programe za odpravo posledic in virov obremenitve okolja in skrbi za njihovo izvedbo;
+– opravlja druge upravne naloge varstva okolja, ki jih določajo posebni predpisi s področja varstva okolja;
+– pripravlja strokovne podlage za ustanovitev in organizacijo gospodarskih javnih služb;
+– izdeluje programe razvoja gospodarskih javnih služb, skrbi za njihovo izvajanje in izvaja nadzor nad njihovim izvajanjem;
+– pripravlja projekte in investicijske programe ter opravlja nadzor nad investicijami;
+– vzdrževanja občinskih cest, zimske službe ter urejanja in vzdrževanja parkirišč;
+– urejanja zelenih površin;
+– vzdrževanja in urejanja pokopališč;
+– urejanja in vzdrževanja mest za plakatiranje in oglaševanje;
+– opravlja druge naloge, ki spadajo v to področje.
+
+
+### 11. člen
+
+Občinska uprava opravlja naloge občinske inšpekcije.
+Občinska inšpekcija opravlja nadzor nad izvajanjem občinskih predpisov in drugih aktov, s katerimi občina ureja zadeve iz svoje pristojnosti.
+
+
+### 12. člen
+
+Občinska uprava opravlja naloge občinskega redarstva.
+Na tem področju občinska uprava opravlja nadzor nad izvajanjem zakona o varnosti cestnega prometa in nadzor nad izvajanjem občinskih predpisov in drugih aktov, s katerimi občina ureja zadeve iz svoje pristojnosti.
+
+
+### 13. člen
+
+Naloge in pooblastila občinske uprave oziroma delavcev občinske uprave na področju občinske inšpekcije in občinskega redarstva se določijo s posebnim odlokom.
+
+
+### III. NAČIN DELA, POOBLASTILA IN ODGOVORNOSTI DELAVCEV
+
+
+### 14. člen
+
+Predstojnik občinske uprave je župan, ki predstavlja in zastopa občino ter nadzoruje, usmerja ter daje navodila za vodenje občinske uprave.
+
+
+### 15. člen
+
+Občinsko upravo neposredno vodi direktor občinske uprave občine, ki ga imenuje in razrešuje župan.
+Direktor občinske uprave občine:
+– neposredno vodi občinsko upravo, organizira in koordinira delo delavcev v občinski upravi in jim nudi strokovno pomoč, razporeja delo med delavce v občinski upravi in skrbi za delovno disciplino;
+– opravlja najzahtevnejše naloge občinske uprave in vodi ter sodeluje v najzahtevnejših projektnih skupinah v občini;
+– skrbi za zakonito, učinkovito in smotrno opravljanje nalog občinske uprave;
+– opravlja druge naloge po nalogu župana.
+Direktor občinske uprave občine lahko izdaja odločbe in druge akte, ki se nanašajo na uresničevanje pravic, obveznosti in odgovornosti iz delovnega razmerja delavcev občinske uprave, če ga župan za to pooblasti.
+Direktor občinske uprave občine je za svoje delo odgovoren županu.
+Direktor občinske uprave občine ima lahko V. stopnjo izobrazbe, vendar mora župan z aktom o sistemizaciji delovnih mest v občinski upravi zagotoviti podlago za opravljanje nalog vodenja upravnih postopkov in odločanja v upravnih stvareh na prvi stopnji. S tem mora zagotoviti zaposlitev delavca, ki bo izpolnjeval pogoje, ki jih za to delo predpisuje zakon in drugi predpisi in ga bo mogoče pooblastiti za odločanje v upravnih stvareh.
+
+
+### 16. člen
+
+Razvrstitev in število delovnih mest v občinski upravi ter razvrstitev nalog iz posameznega delovnega področja občinske uprave, ki jih opravlja posamezen delavec, se določi s pravilnikom o sistemizaciji delovnih mest v občinski upravi, ki ga izda župan.
+
+
+### 17. člen
+
+Delavci občinske uprave opravljajo naloge, določene z zakoni in drugimi predpisi, statutom občine in pravilnikom o sistemizaciji delovnih mest, v skladu s pristojnostmi in pooblastili, ki jih za opravljanje posameznih nalog določajo zakoni in drugi predpisi ter po navodilih direktorja občinske uprave občine. Za svoje delo so odgovorni direktorju občinske uprave občine, disciplinsko in odškodninsko pa županu.
+
+
+### 18. člen
+
+Za naloge v občinski upravi, ki zahtevajo sodelovanje več delavcev oziroma sodelovanje različnih strok in stopenj znanja, lahko župan ustanovi delovne skupine in druge oblike sodelovanja. S sklepom o ustanovitvi župan določi sestavo delovne skupine, vodjo delovne skupine ter rok za izvedbo naloge.
+
+
+### 19. člen
+
+Za naloge, ki zahtevajo posebno proučevanje ali posebno strokovnost in jih delavci občinske uprave ne morejo opraviti sami, lahko župan ustanovi delovno ali projektno skupino ter sklene pogodbo z ustreznimi izvajalci nalog.
+S sklepom o ustanovitvi projektne skupine se določi sestava, naloge, roki za izvedbo nalog, sredstva in drugi pogoji za njeno delo.
+
+
+### IV. PREHODNE IN KONČNE DOLOČBE
+
+
+### 20. člen
+
+Župan Občine Žužemberk v roku enega meseca po uveljavitvi tega odloka izda pravilnik o sistemizaciji delovnih mest v Občinski upravi občine Žužemberk, ki je podlaga za razporeditev delavcev na ustrezna delovna mesta.
+
+
+### 21. člen
+
+Z dnem uveljavitve tega odloka preneha veljati odlok o začasni organizaciji Občinske uprave občine Žužemberk (Uradni list RS, št. 10/99).
+
+
+### 22. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu RS.
+
+Št. 546/99
+
+Žužemberk, dne 16. decembra 1999.
+
+Župan
+Občine Žužemberk
+Franc Škufca l. r.
