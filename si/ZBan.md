@@ -7,6 +7,11 @@ sop: 1999-01-0286
 objava: "Uradni list RS 7/99  str. 521"
 kljucne_besede: ["banka", "hranilnica", "bančni sistem"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0286"
+spremembe:
+  - kratica: ZBan-A
+    datum: 2001-07-19
+    sop: 2001-01-3151
+    naziv: "Zakon o spremembah in dopolnitvah zakona o bančništvu"
 ---
 
 # Zakon o bančništvu
