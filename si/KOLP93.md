@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za dejavnosti pridobivanja in predelave nekovinskih r
 vrsta: "akt"
 datum: 1998-06-11
 sop: 1998-01-1926
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1926"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o oceni ustavnosti 24. in 68. člena zakona o davčni službi"
 vrsta: "akt"
 datum: 1998-05-08
 sop: 1998-01-1529
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1529"
 ---
 

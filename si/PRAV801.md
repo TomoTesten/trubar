@@ -4,9 +4,9 @@ naziv: "Pravilnik o identifikacijskem znaku - priponki za osebe, zaposlene v Upr
 vrsta: "pravilnik"
 datum: 1998-06-05
 sop: 1998-01-1873
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1873"
 ---
 

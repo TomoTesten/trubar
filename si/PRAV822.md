@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembah in dopolnitvah pravilnika o šolninah in drugih p
 vrsta: "pravilnik"
 datum: 1998-06-12
 sop: 1998-01-1959
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1959"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Akt o nasledstvu sporazumov nekdanje Jugoslavije z Združenim kraljestvo
 vrsta: "akt"
 datum: 1998-06-05
 sop: 1998-02-0021
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-02-0021"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi slovenskega računovodskega standarda 37 - računovod
 vrsta: "sklep"
 datum: 1998-05-30
 sop: 1998-01-1836
-organ: "SLOVENSKI INSTITUT ZA REVIZIJO"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1836"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah in dopolnitvah sklepa o preoblikovanju dela Zavoda za
 vrsta: "sklep"
 datum: 1998-06-05
 sop: 1998-01-1925
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1925"
 ---
 

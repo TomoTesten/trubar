@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi, da 7. člena pravilnika o spremembah in dopolnitv
 vrsta: "akt"
 datum: 1998-06-12
 sop: 1998-01-1967
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1967"
 ---
 

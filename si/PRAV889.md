@@ -4,9 +4,9 @@ naziv: "Pravilnik o obliki in vsebini enotnega žiga projektivnih podjetij"
 vrsta: "pravilnik"
 datum: 1998-05-22
 sop: 1998-01-1744
-organ: "Inženirska zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1744"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o uskladitvi preživnin"
 vrsta: "sklep"
 datum: 1998-05-22
 sop: 1998-01-1786
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1786"
 ---
 
