@@ -20,6 +20,10 @@ spremembe:
     datum: 1998-06-30
     sop: 1998-01-2111
     naziv: "Zakon o spremembah in dopolnitvah zakona o davčni službi"
+  - kratica: ZDS-D
+    datum: 1999-04-15
+    sop: 1999-01-1212
+    naziv: "Zakon o spremembi in dopolnitvi zakona o davčni službi"
 ---
 
 # Zakon o davčni službi
