@@ -7,6 +7,11 @@ sop: 1993-01-2577
 objava: "Uradni list RS 71/93  str. 3702"
 kljucne_besede: ["varstvo pred požarom"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2577"
+spremembe:
+  - kratica: ZVPoz-A
+    datum: 2001-11-08
+    sop: 2001-01-4447
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu pred požarom"
 ---
 
 # Zakon o varstvu pred požarom
