@@ -7,6 +7,11 @@ sop: 2002-01-0536
 objava: "Uradni list RS 13/2002  str. 933"
 kljucne_besede: ["krma", "živalska krma", "prehrana živali", "zdravje živali", "živilska inšpekcija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0536"
+spremembe:
+  - kratica: ZKrmi-A
+    datum: 2004-04-29
+    sop: 2004-01-2130
+    naziv: "Zakon o spremembah in dopolnitvah zakona o krmi"
 ---
 
 # Zakon o krmi
