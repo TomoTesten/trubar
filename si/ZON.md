@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-12-30
     sop: 2002-01-5832
     naziv: "Zakon o spremembah in dopolnitvah zakona o ohranjanju narave"
+  - kratica: ZON-B
+    datum: 2004-04-22
+    sop: 2004-01-1693
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ohranjanju narave"
 ---
 
 # Zakon o ohranjanju narave
