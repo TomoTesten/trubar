@@ -7,6 +7,11 @@ sop: 1994-01-2471
 objava: "Uradni list RS 69/94  str. 3844"
 kljucne_besede: ["davek od plač", "privatizacija", "javna lastnina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2471"
+spremembe:
+  - kratica: ZUOPDD-A
+    datum: 1995-02-04
+    sop: 1995-01-0449
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ureditvi obračunavanja in plačevanja določenih davkov in prispevkov v postopkih lastninskega preoblikovanja podjetij"
 ---
 
 # Zakon o ureditvi obračunavanja in plačevanja določenih davkov in prispevkov v postopkih lastninskega preoblikovanja podjetij
