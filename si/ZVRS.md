@@ -12,6 +12,10 @@ spremembe:
     datum: 1996-04-29
     sop: 1996-01-1315
     naziv: "Zakon o spremembah in dopolnitvah zakona o Vladi Republike Slovenije"
+  - kratica: ZVRS-B
+    datum: 1997-08-01
+    sop: 1997-01-2505
+    naziv: "Zakon o spremembah zakona o Vladi Republike Slovenije"
 ---
 
 # Zakon o Vladi Republike Slovenije
