@@ -4,8 +4,9 @@ naziv: "Odredba o izobraževalnem programu za pridobitev višje strokovne izobra
 vrsta: "odredba"
 datum: 1997-08-08
 sop: 1997-01-2591
-organ: "Ministrstvo za šolstvo in šport"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2591"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi odloka o sestavi in izvolitvi Odbora Državnega zbora 
 vrsta: "odlok"
 datum: 1997-08-01
 sop: 1997-01-2511
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2511"
 ---
 

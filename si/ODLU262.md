@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi točke a) do e) 3. člena odloka o taksah in po
 vrsta: "akt"
 datum: 1997-07-25
 sop: 1997-01-2442
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2442"
 ---
 

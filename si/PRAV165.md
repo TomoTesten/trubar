@@ -4,9 +4,9 @@ naziv: "Pravilnik o zdravstveni ustreznosti in sistematičnih preiskavah plemens
 vrsta: "pravilnik"
 datum: 1997-08-08
 sop: 1997-01-2595
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2595"
 ---
 

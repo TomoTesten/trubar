@@ -4,8 +4,9 @@ naziv: "Uredba o merilih za kategorizacijo javnih cest"
 vrsta: "uredba"
 datum: 1997-08-08
 sop: 1997-01-2576
-organ: "Vlada Republike Slovenije"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2576"
 ---
 

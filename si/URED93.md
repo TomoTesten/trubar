@@ -4,9 +4,9 @@ naziv: "Uredba o podelitvi koncesije za uporabo radiofrekvenčnega spektra za st
 vrsta: "uredba"
 datum: 1997-08-08
 sop: 1997-01-2578
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2578"
 ---
 

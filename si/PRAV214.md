@@ -4,9 +4,9 @@ naziv: "Pravilnik o zdravstveni ustreznosti pitne vode"
 vrsta: "pravilnik"
 datum: 1997-07-31
 sop: 1997-01-2497
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2497"
 ---
 

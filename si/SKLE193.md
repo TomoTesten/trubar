@@ -4,9 +4,9 @@ naziv: "Sklep o ustanovitvi letališke kontrole letenja Cerklje, Cerklje ob Krki
 vrsta: "sklep"
 datum: 1997-08-08
 sop: 1997-01-2589
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2589"
 ---
 

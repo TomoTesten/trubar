@@ -4,9 +4,9 @@ naziv: "Odredba o izobraževalnih programih za pridobitev srednje poklicne izobr
 vrsta: "odredba"
 datum: 1997-08-08
 sop: 1997-01-2590
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2590"
 ---
 
