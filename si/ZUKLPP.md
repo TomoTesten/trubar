@@ -7,6 +7,11 @@ sop: 1995-01-2166
 objava: "Uradni list RS 45/95  str. 3516"
 kljucne_besede: ["javna lastnina", "privatizacija", "tehnologija", "razvojna politika", "namenska poraba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2166"
+spremembe:
+  - kratica: ZUKLPP-A
+    datum: 1996-06-29
+    sop: 1996-01-2203
+    naziv: "Zakon o spremembah in dopolnitvah zakona o uporabi sredstev pridobljenih iz naslova kupnine na podlagi zakona o lastninskem preoblikovanju podjetij"
 ---
 
 # Zakon o uporabi sredstev pridobljenih iz naslova kupnine na podlagi zakona o lastninskem preoblikovanju podjetij
