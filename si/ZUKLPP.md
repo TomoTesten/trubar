@@ -12,6 +12,10 @@ spremembe:
     datum: 1996-06-29
     sop: 1996-01-2203
     naziv: "Zakon o spremembah in dopolnitvah zakona o uporabi sredstev pridobljenih iz naslova kupnine na podlagi zakona o lastninskem preoblikovanju podjetij"
+  - kratica: ZUKLPP-B
+    datum: 2001-08-10
+    sop: 2001-01-3563
+    naziv: "Zakon o spremembah in dopolnitvah zakona o uporabi sredstev pridobljenih iz naslova kupnine na podlagi zakona o lastninskem preoblikovanju podjetij"
 ---
 
 # Zakon o uporabi sredstev pridobljenih iz naslova kupnine na podlagi zakona o lastninskem preoblikovanju podjetij
