@@ -4,9 +4,9 @@ naziv: "Odredba o pošiljanju obvestila o spremembi cen"
 vrsta: "odredba"
 datum: 1996-12-20
 sop: 1996-01-4083
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-4083"
 ---
 

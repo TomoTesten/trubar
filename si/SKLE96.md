@@ -4,9 +4,9 @@ naziv: "Sklep o soglašanju z aktom o ustanovitvi fundacije \"Okolje smo vsi\""
 vrsta: "sklep"
 datum: 1996-12-20
 sop: 1996-01-4086
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-4086"
 ---
 

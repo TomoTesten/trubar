@@ -4,9 +4,9 @@ naziv: "Navodilo o vsebini in obliki obrazcev prijave za vpis v register davčni
 vrsta: "navodilo"
 datum: 1996-12-28
 sop: 1996-01-4119
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-4119"
 ---
 

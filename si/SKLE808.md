@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah sklepa o kratkoročnih posojilih bankam"
 vrsta: "sklep"
 datum: 1996-12-06
 sop: 1996-01-3829
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3829"
 ---
 

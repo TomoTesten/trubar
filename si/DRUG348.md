@@ -4,9 +4,9 @@ naziv: "Poročilo o izidu glasovanja na referendumu o volilnem sistemu, ki je bi
 vrsta: "drugi akt"
 datum: 1996-12-20
 sop: 1996-01-4020
-organ: "Republiška volilna komisija"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-4020"
 ---
 

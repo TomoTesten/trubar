@@ -4,9 +4,9 @@ naziv: "Soglasje k ustanovitvenemu aktu Ustanove za vzpodbujanje ustvarjalnosti,
 vrsta: "akt"
 datum: 1996-12-20
 sop: 1996-01-4089
-organ: "Ministrstvo za kulturo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-4089"
 ---
 
