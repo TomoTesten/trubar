@@ -7,6 +7,11 @@ sop: 1998-01-1947
 objava: "Uradni list RS 45/98  str. 3189"
 kljucne_besede: ["prosta cona", "industrijska prosta cona", "davčna olajšava"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1947"
+spremembe:
+  - kratica: ZEC-A
+    datum: 2001-12-04
+    sop: 2001-01-4795
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ekonomskih conah"
 ---
 
 # Zakon o ekonomskih conah
