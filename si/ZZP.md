@@ -12,6 +12,10 @@ spremembe:
     datum: 1993-12-10
     sop: 1993-01-2403
     naziv: "Zakon o spremembah in dopolnitvah zakona o zunanjetrgovinskem poslovanju"
+  - kratica: ZZP-B
+    datum: 1994-02-16
+    sop: 1994-01-0311
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zunanjetrgovinskem poslovanju"
 ---
 
 # Zakon o zunanjetrgovinskem poslovanju
