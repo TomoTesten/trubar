@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o ustanovitvi štabov in zav
 vrsta: "odredba"
 datum: 1991-11-19
 sop: 1991-01-1027
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1027"
 ---
 

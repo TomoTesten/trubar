@@ -4,8 +4,9 @@ naziv: "Odlok o izplačevanju akontacij pokojnin, ki so jih osebe s stalnim preb
 vrsta: "odlok"
 datum: 1991-11-21
 sop: 1991-01-1063
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1063"
 ---
 

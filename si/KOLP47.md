@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba dejavnosti elektrogospodarstva Slovenije"
 vrsta: "akt"
 datum: 1991-11-29
 sop: 1991-01-1147
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1147"
 ---
 

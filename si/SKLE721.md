@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi pogojev in načina za nakup in prodajo državnih vred
 vrsta: "sklep"
 datum: 1991-11-29
 sop: 1991-01-1132
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1132"
 ---
 

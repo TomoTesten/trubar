@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba med delavci in zasebnimi delodajalci"
 vrsta: "akt"
 datum: 1991-11-21
 sop: 1991-01-1069
-organ: "Obrtna zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1069"
 ---
 

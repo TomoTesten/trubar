@@ -4,8 +4,9 @@ naziv: "Odlok o znižanju stopenj povračil za ceste ob ceni naftnih derivatov"
 vrsta: "odlok"
 datum: 1991-11-14
 sop: 1991-01-1022
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1022"
 ---
 

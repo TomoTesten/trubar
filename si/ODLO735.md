@@ -4,9 +4,9 @@ naziv: "Odlok o določitvi enotnega povprečnega količnika za valorizacijo kata
 vrsta: "odlok"
 datum: 1991-11-21
 sop: 1991-01-1062
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1062"
 ---
 

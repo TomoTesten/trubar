@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi, da določbe 3. in 4. člena odloka o ustanovitvi 
 vrsta: "akt"
 datum: 1991-11-19
 sop: 1991-01-1033
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1033"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba premogovništva Slovenije"
 vrsta: "akt"
 datum: 1991-11-29
 sop: 1991-01-1148
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1148"
 ---
 

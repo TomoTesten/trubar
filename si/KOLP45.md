@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za dejavnost zdravstva in socialnega skrbstva Sloveni
 vrsta: "akt"
 datum: 1991-11-21
 sop: 1991-01-1068
-organ: "MINISTRSTVO ZA ZDRAVSTVO, DRUŽINO IN SOCIALNO VARSTVO"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1068"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Objava zneskov povračil, nadomestil in drugih prejemkov za zaposlene v 
 vrsta: "drugi akt"
 datum: 1991-11-29
 sop: 1991-01-1124
-organ: "Ministrstvo za pravosodje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1124"
 ---
 
