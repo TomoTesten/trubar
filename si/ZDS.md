@@ -7,6 +7,11 @@ sop: 1996-01-1063
 objava: "Uradni list RS 18/96  str. 1498"
 kljucne_besede: ["davčna uprava", "davčni sistem"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1063"
+spremembe:
+  - kratica: ZDS-A
+    datum: 1996-07-12
+    sop: 1996-01-2346
+    naziv: "Zakon o spremembi in dopolnitvi zakona o davčni službi"
 ---
 
 # Zakon o davčni službi
