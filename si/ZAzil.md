@@ -12,6 +12,10 @@ spremembe:
     datum: 2000-12-29
     sop: 2000-01-5208
     naziv: "Zakon o spremembah in dopolnitvah zakona o azilu"
+  - kratica: ZAzil-B
+    datum: 2001-08-10
+    sop: 2001-01-3564
+    naziv: "Zakon o spremembah in dopolnitvah zakona o azilu"
 ---
 
 # Zakon o azilu
