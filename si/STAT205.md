@@ -4,9 +4,9 @@ naziv: "Statut Zdravniške zbornice Slovenije"
 vrsta: "akt"
 datum: 1995-09-22
 sop: 1995-01-2563
-organ: "Zdravniška zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2563"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o instrumentih in postopku zavarovanja carinskega dolga"
 vrsta: "uredba"
 datum: 1995-10-04
 sop: 1995-01-2637
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2637"
 ---
 

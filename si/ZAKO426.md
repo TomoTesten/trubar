@@ -4,9 +4,9 @@ naziv: "Zakon o zamenjavi obveznic Republike Slovenije za obveznice Agencije Rep
 vrsta: "akt"
 datum: 1995-10-19
 sop: 1995-01-2778
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2778"
 ---
 

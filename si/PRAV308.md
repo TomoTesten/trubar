@@ -4,9 +4,9 @@ naziv: "Pravilnik o pregledu blaga ter o pogojih in načinu jemanja vzorcev blag
 vrsta: "pravilnik"
 datum: 1995-10-04
 sop: 1995-01-2649
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2649"
 ---
 

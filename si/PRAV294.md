@@ -4,9 +4,9 @@ naziv: "Pravilnik o vodenju evidenc v carinskih skladiščih"
 vrsta: "pravilnik"
 datum: 1995-10-04
 sop: 1995-01-2651
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2651"
 ---
 

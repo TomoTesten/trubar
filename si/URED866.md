@@ -4,9 +4,9 @@ naziv: "Uredba o dopolnitvi uredbe o določitvi kmetijskih in živilskih proizvo
 vrsta: "uredba"
 datum: 1995-09-15
 sop: 1995-01-2548
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2548"
 ---
 

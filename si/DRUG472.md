@@ -4,9 +4,9 @@ naziv: "Soglasje k ceni utekočinjenega naftnega plina v jeklenkah"
 vrsta: "drugi akt"
 datum: 1995-09-22
 sop: 1995-01-2596
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2596"
 ---
 
