@@ -16,6 +16,10 @@ spremembe:
     datum: 1998-08-07
     sop: 1998-01-2520
     naziv: "Zakon o spremembah in dopolnitvah zakona o ustanovitvi občin ter o določitvi njihovih območij"
+  - kratica: ZUODNO-C
+    datum: 1998-11-04
+    sop: 1998-01-3739
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ustanovitvi občin ter o določitvi njihovih območij"
 ---
 
 # Zakon o ustanovitvi občin ter o določitvi njihovih območij
