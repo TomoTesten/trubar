@@ -7,6 +7,11 @@ sop: 1993-01-0296
 objava: "Uradni list RS 7/93  str. 267"
 kljucne_besede: ["prenos kapitala", "davek", "sklad"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0296"
+spremembe:
+  - kratica: ZPODPP-A
+    datum: 1994-11-05
+    sop: 1994-01-2470
+    naziv: "Zakon o spremembah in dopolnitvah zakona o poravnavanju odloženih davkov in prispevkov za podjetja, ki so družbeni kapital prenesla na Sklad Republike Slovenije za razvoj"
 ---
 
 # Zakon o poravnavanju odloženih davkov in prispevkov za podjetja, ki so družbeni kapital prenesla na Sklad Republike Slovenije za razvoj
