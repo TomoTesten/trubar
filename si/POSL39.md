@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve poslovnika Ustavnega sodišča Republike Sloveni
 vrsta: "akt"
 datum: 2002-04-05
 sop: 2002-01-1271
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1271"
 ---
 

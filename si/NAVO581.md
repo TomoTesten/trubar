@@ -4,8 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila za izvajanje preventivnega
 vrsta: "navodilo"
 datum: 2002-04-12
 sop: 2002-01-1391
-organ: "Ministrstvo za zdravje"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1391"
 ---
 

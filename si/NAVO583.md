@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi navodila o opremljanju jabolk in hrušk v specialno
 vrsta: "navodilo"
 datum: 2002-04-12
 sop: 2002-01-1393
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1393"
 ---
 

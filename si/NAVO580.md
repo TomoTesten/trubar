@@ -4,9 +4,9 @@ naziv: "Navodilo o označitvi in zavarovanju vozil, ustavljenih na odstavnem pas
 vrsta: "navodilo"
 datum: 2002-04-11
 sop: 2002-01-1354
-organ: "Ministrstvo za promet"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1354"
 ---
 

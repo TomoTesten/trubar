@@ -4,9 +4,9 @@ naziv: "Odločba o prepovedi uvoza določenih pošiljk, ki izvirajo iz Ljudske R
 vrsta: "akt"
 datum: 2002-03-15
 sop: 2002-01-1022
-organ: "Veterinarska uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1022"
 ---
 

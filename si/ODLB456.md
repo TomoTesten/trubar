@@ -4,9 +4,9 @@ naziv: "Odločba o določitvi mej posebno nadzorovanega območja in o ukrepih za
 vrsta: "akt"
 datum: 2002-04-09
 sop: 2002-01-1346
-organ: "Fitosanitarna uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1346"
 ---
 
