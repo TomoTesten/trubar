@@ -20,6 +20,10 @@ spremembe:
     datum: 2000-09-15
     sop: 2000-01-3711
     naziv: "Zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost"
+  - kratica: ZPSV-D
+    datum: 2001-12-04
+    sop: 2001-01-4797
+    naziv: "Zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost"
 ---
 
 # Zakon o prispevkih za socialno varnost
