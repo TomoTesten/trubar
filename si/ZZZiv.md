@@ -7,6 +7,11 @@ sop: 1999-01-4617
 objava: "Uradni list RS 98/99  str. 14645"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4617"
+spremembe:
+  - kratica: ZZZiv-A
+    datum: 2003-12-18
+    sop: 2003-01-5388
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zaščiti živali"
 ---
 
 # Zakon o zaščiti živali
