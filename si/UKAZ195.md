@@ -1,0 +1,32 @@
+---
+kratica: UKAZ195
+naziv: "Ukaz o podelitvi odlikovanja Častni znak svobode Republike Slovenije"
+vrsta: "akt"
+datum: 2002-05-31
+sop: 2002-01-2319
+organ: "Predsednik Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2319"
+---
+
+# Ukaz o podelitvi odlikovanja Častni znak svobode Republike Slovenije
+
+Na podlagi sedme alinee prvega odstavka 107. člena ustave Republike Slovenije, pete alinee 3. člena, druge in tretje alinee 4. člena ter prvega odstavka 7. člena zakona o odlikovanju Častni znak svobode Republike Slovenije (Uradni list RS, št. 24/92) izdajam
+
+
+## U K A Z
+o podelitvi odlikovanja Častni znak svobode  Republike Slovenije
+
+Za zasluge pri organiziranju in utrjevanju planinske organizacije, predvsem še Gorske reševalne službe in za drugo pomembno delo, podeljujem
+Srebrni častni znak svobode Republike Slovenije Albinu Vengustu.
+Za prizadevno delo v planinski organizaciji in posebej v Gorski reševalni službi podeljujem
+Častni znak svobode Republike Slovenije Janku Korenu, Pavletu Šeguli in Francu Telcerju.
+
+Št. 996-01-21/2002
+
+Ljubljana, dne 27. maja 2002.
+
+Predsednik
+Republike Slovenije
+Milan Kučan l. r.
