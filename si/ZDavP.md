@@ -12,6 +12,10 @@ spremembe:
     datum: 1997-12-29
     sop: 1997-01-4010
     naziv: "Zakon o spremembah in dopolnitvah zakona o davčnem postopku"
+  - kratica: ZDavP-B
+    datum: 1998-12-04
+    sop: 1998-01-4282
+    naziv: "Zakon o dopolnitvi zakona o davčnem postopku"
 ---
 
 # Zakon o davčnem postopku
