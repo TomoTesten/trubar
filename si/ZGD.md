@@ -28,6 +28,10 @@ spremembe:
     datum: 1999-01-29
     sop: 1999-01-0215
     naziv: "Zakon o spremembah in dopolnitvah zakona o gospodarskih družbah"
+  - kratica: ZGD-F
+    datum: 2001-06-07
+    sop: 2001-01-2548
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gospodarskih družbah"
 ---
 
 # Zakon o gospodarskih družbah
