@@ -7,6 +7,11 @@ sop: 1998-01-2600
 objava: "Uradni list RS 57/98  str. 4133"
 kljucne_besede: ["cestno omrežje", "avtocesta"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2600"
+spremembe:
+  - kratica: ZZNSGC-A
+    datum: 2002-02-28
+    sop: 2002-01-0719
+    naziv: "Zakon o spremembah zakona o zagotovitvi namenskih sredstev za graditev državnih cest, določenih v nacionalnem programu izgradnje avtocest v Republiki Sloveniji"
 ---
 
 # Zakon o zagotovitvi namenskih sredstev za graditev državnih cest, določenih v nacionalnem programu izgradnje avtocest v Republiki Sloveniji
