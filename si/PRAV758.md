@@ -4,9 +4,9 @@ naziv: "Pravilnik o pripravništvu, strokovnih izpitih in izpopolnjevanju stroko
 vrsta: "pravilnik"
 datum: 1998-01-09
 sop: 1998-01-0113
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0113"
 ---
 

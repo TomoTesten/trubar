@@ -4,9 +4,9 @@ naziv: "Uredba o spremembah in dopolnitvah uredbe o začasni uporabi sporazuma o
 vrsta: "uredba"
 datum: 1998-01-17
 sop: 1998-01-0223
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0223"
 ---
 

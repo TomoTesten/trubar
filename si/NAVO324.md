@@ -4,9 +4,9 @@ naziv: "Navodilo za izplačilo gotovine fizičnim osebam z nakaznico"
 vrsta: "navodilo"
 datum: 1998-01-23
 sop: 1998-01-0259
-organ: "Agencija za plačilni promet"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Konzumiran ali obsoleten predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0259"
 ---
 

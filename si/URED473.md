@@ -4,9 +4,9 @@ naziv: "Uredba o začasnem financiranju potreb iz proračuna Republike Slovenije
 vrsta: "uredba"
 datum: 1997-12-29
 sop: 1997-01-4015
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-4015"
 ---
 

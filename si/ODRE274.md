@@ -4,9 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o obrazcih za obračun davko
 vrsta: "odredba"
 datum: 1998-01-23
 sop: 1998-01-0284
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0284"
 ---
 

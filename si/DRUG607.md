@@ -4,9 +4,9 @@ naziv: "Pravila obveznega zdravstvenega zavarovanja (prečiščeno besedilo)"
 vrsta: "drugi akt"
 datum: 1998-01-17
 sop: 1998-01-0154
-organ: "Zavod za zdravstveno zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0154"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o posebnem davku na bilančno vsoto bank in hranilnic (ZPDVBH)"
 vrsta: "akt"
 datum: 1997-12-29
 sop: 1997-01-4013
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-4013"
 ---
 

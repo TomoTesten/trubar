@@ -4,8 +4,9 @@ naziv: "Pravilnik o spremembah in dopolnitvah pravilnika o merilih za ocenjevanj
 vrsta: "pravilnik"
 datum: 1998-01-09
 sop: 1998-01-0004
-organ: "Ministrstvo za znanost in tehnologijo"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0004"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o obrazcih napovedi za odmero dohodnine za leto 1997, davka od o
 vrsta: "odredba"
 datum: 1998-01-09
 sop: 1998-01-0002
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0002"
 ---
 
