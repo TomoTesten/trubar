@@ -4,9 +4,9 @@ naziv: "Odločba o dopolnitvah odločbe o prepovedi uvoza in prevoza določenih 
 vrsta: "akt"
 datum: 2002-06-14
 sop: 2002-01-2543
-organ: "Veterinarska uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2543"
 ---
 

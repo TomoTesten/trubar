@@ -4,9 +4,9 @@ naziv: "Navodilo za vsebino in obliko vloge za dodelitev sredstev državne pomo�
 vrsta: "navodilo"
 datum: 2002-06-07
 sop: 2002-01-2454
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2454"
 ---
 

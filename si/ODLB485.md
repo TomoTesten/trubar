@@ -4,9 +4,9 @@ naziv: "Odločba št. 10 o priznavanju naravne mineralne vode Perrier"
 vrsta: "akt"
 datum: 2002-06-21
 sop: 2002-01-2642
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2642"
 ---
 

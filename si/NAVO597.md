@@ -4,9 +4,9 @@ naziv: "Navodilo o postopkih in aktivnostih na področju pridobivanja darovalcev
 vrsta: "navodilo"
 datum: 2002-06-20
 sop: 2002-01-2586
-organ: "Ministrstvo za zdravje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2586"
 ---
 

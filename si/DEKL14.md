@@ -4,9 +4,9 @@ naziv: "Deklaracija o podpori resoluciji o vlogi parlamentov v podpori izvajanja
 vrsta: "akt"
 datum: 2002-06-07
 sop: 2002-01-2449
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2449"
 ---
 
