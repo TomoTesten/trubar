@@ -24,6 +24,10 @@ spremembe:
     datum: 2001-12-29
     sop: 2001-01-5492
     naziv: "Zakon o spremembah in dopolnitvah zakona o kazenskem postopku"
+  - kratica: ZKP-E
+    datum: 2003-06-13
+    sop: 2003-01-2770
+    naziv: "Zakon o spremembah in dopolnitvah zakona o kazenskem postopku"
 ---
 
 # Zakon o kazenskem postopku
