@@ -7,6 +7,11 @@ sop: 1997-01-2418
 objava: "Uradni list RS 44/97  str. 3996"
 kljucne_besede: ["lastnina", "nepremično premoženje", "privatizacija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2418"
+spremembe:
+  - kratica: ZLNDL-A
+    datum: 2001-07-19
+    sop: 2001-01-3146
+    naziv: "Zakon o dopolnitvah zakona o lastninjenju nepremičnin v družbeni lastnini"
 ---
 
 # Zakon o lastninjenju nepremičnin v družbeni lastnini
