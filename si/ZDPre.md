@@ -16,6 +16,10 @@ spremembe:
     datum: 1995-12-22
     sop: 1995-01-3377
     naziv: "Zakon o spremembah in dopolnitvah zakona o družinskih prejemkih"
+  - kratica: ZDPre-C
+    datum: 1999-04-15
+    sop: 1999-01-1211
+    naziv: "Zakon o spremembah in dopolnitvah zakona o družinskih prejemkih"
 ---
 
 # Zakon o družinskih prejemkih
