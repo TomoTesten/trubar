@@ -7,6 +7,11 @@ sop: 1998-01-1225
 objava: "Uradni list RS 30/98  str. 1972"
 kljucne_besede: ["varnost v cestnem prometu"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1225"
+spremembe:
+  - kratica: ZVCP-A
+    datum: 2000-07-06
+    sop: 2000-01-2746
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varnosti cestnega prometa"
 ---
 
 # Zakon o varnosti cestnega prometa
