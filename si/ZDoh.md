@@ -12,6 +12,10 @@ spremembe:
     datum: 1992-03-27
     sop: 1992-01-0727
     naziv: "Zakon o dohodnini (prečiščeno besedilo)"
+  - kratica: ZDoh-A
+    datum: 1995-02-04
+    sop: 1995-01-0450
+    naziv: "Zakon o spremembah in dopolnitvah zakona o dohodnini"
 ---
 
 # Zakon o dohodnini
