@@ -7,6 +7,11 @@ sop: 1994-01-2167
 objava: "Uradni list RS 63/94  str. 3455"
 kljucne_besede: ["kazenski zakonik"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2167"
+spremembe:
+  - kratica: KZ-A
+    datum: 1999-04-08
+    sop: 1999-01-1035
+    naziv: "Zakon o spremembah in dopolnitvah kazenskega zakonika Republike Slovenije"
 ---
 
 # Kazenski zakonik Republike Slovenije
