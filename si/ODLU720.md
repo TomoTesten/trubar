@@ -1,0 +1,69 @@
+---
+kratica: ODLU720
+naziv: "Odločba, da določbe 22. in 23. člena Zakona o spremembah in dopolnitvah Zakona o financiranju vzgoje in izobraževanja niso v neskladju z Ustavo"
+vrsta: "akt"
+datum: 2004-04-28
+sop: 2004-01-2032
+organ: "Ustavno sodišče Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Objavljen akt brez datuma začetka veljavnosti"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2032"
+---
+
+# Odločba, da določbe 22. in 23. člena Zakona o spremembah in dopolnitvah Zakona o financiranju vzgoje in izobraževanja niso v neskladju z Ustavo
+
+Ustavno sodišče je v postopku za oceno ustavnosti, začetem na zahtevo Občine Oplotnica, ki jo zastopa župan Vladimir Globovnik, na seji dne 8. aprila 2004
+
+
+## o d l o č i l o:
+
+Določbe 22. in 23. člena Zakona o spremembah in dopolnitvah Zakona o organizaciji in financiranju vzgoje in izobraževanja (Uradni list RS, št. 64/01) niso v neskladju z Ustavo.
+
+
+## O b r a z l o ž i t e v
+
+1. Predlagateljica izpodbija 22. in 23. člen Zakona o spremembah in dopolnitvah Zakona o organizaciji in financiranju vzgoje in izobraževanja (v nadaljevanju ZOFVI-A). Meni, da sta bila s sprejemom izpodbijanih določb kršena 138. in 140. člen Ustave, ker država za prenos opravljanja posameznih nalog iz državne pristojnosti na občine ni pridobila predhodnega soglasja občin, niti ni zagotovila občinam ustreznih finančnih sredstev za njihovo opravljanje. Navaja, da je bilo z izpodbijanima določbama iz državne pristojnosti na občine preneseno zagotavljanje brezplačnih prevozov učencev v prvem razredu osnovne šole ne glede na oddaljenost njihovega prebivališča in zagotavljanje brezplačnega prevoza učencev s posebnimi potrebami iz prvega odstavka 12. člena Zakona o osnovni šoli (Uradni list RS, št. 12/96 in nasl. – v nadaljevanju ZOŠ), ne glede na oddaljenost njihovega prebivališča od osnovne šole, če je tako določeno v odločbi o usmeritvi. Pavšalno odmerjena dodatna sredstva v okviru primerne porabe za leto 2001 za stroške šolskih prevozov na nevarnih poteh naj ne bi zadostovala za pokritje dejanskih stroškov. Ustavnemu sodišču predlaga, naj zahtevo obravnava prednostno in zadrži izvajanje izpodbijanih določb do končne odločitve. Z izpodbijanimi določbami naj bi občinam nastajala težko popravljiva materialna škoda, saj morajo za izvajanje prenesene naloge uporabljati lastna finančna sredstva, ki so sicer namenjena za izvajanje drugih z Ustavo in zakoni določenih nalog občine. Tako občine ne morejo v celoti uresničiti svojih ustavnih in zakonskih nalog, zaradi česar naj bi se neposredno zavirala in upočasnila njihov razvoj in uresničevanje pravice do lokalne samouprave.
+2. Državni zbor kot nasprotni udeleženec v postopku na zahtevo ni odgovoril, Vlada ter Ministrstvo za šolstvo, znanost in šport (v nadaljevanju Ministrstvo) pa v mnenju podrobno pojasnjujeta način zagotavljanja sredstev za prevoze učencev osnovne šole. Vlada in Ministrstvo menita, da veljavna ureditev prevozov šolskih otrok dosledno izhaja iz ustavne zasnove občine, po kateri naj bo občina sposobna samostojno opravljati lokalne zadeve oziroma zadovoljevati potrebe in interese svojih prebivalcev. člen 21 Zakona o lokalni samoupravi (Uradni list RS, št. 72/93 in nasl. – v nadaljevanju ZLS) po njunem mnenju sicer primeroma kot izvirno nalogo občine navaja, da pospešuje vzgojno-izobraževalno dejavnost na svojem območju, vendar pa določa tudi pristojnost, ki je v obravnavani zadevi povezana s prevozi otrok. Občine so imele nalogo ugotoviti nevarne odseke cest, po katerih otroci hodijo v šolo, ter pripraviti programe za postopno odpravo prometnih nevarnosti za otroke na teh poteh v šolo. Ministrstvo je sodelovalo pri usklajevanju tega dela in delno sofinanciralo stroške. Zaradi težavnosti ločevanja stroškov za nevarne in nenevarne poti ter zaradi dogovora, da se v občinah kritične prometne točke postopoma sanirajo, s čimer bi odpadli razlogi za posebno plačevanje prevozov na nevarnih poteh, je bilo v letu 1998 pokritje teh stroškov sestavni del meril za ugotovitev obsega zagotovljene porabe, ki je bila predmet dopolnjevanja občinskih proračunov iz državnega proračuna. Tak način financiranja naj bi tudi po ekonomski plati stimuliral občine, da vodijo racionalnejšo proračunsko politiko in hitreje izvršujejo svoje sanacijske programe. Na izvirno pristojnost naj bi kazal tudi 13. člen ZLS, ki določa, da mora biti občina sposobna zadovoljevati potrebe in interese svojih prebivalcev in izpolnjevati druge naloge v skladu z zakonom. Pri tem naj bi se štelo, da je to občina sposobna izpolnjevati, če je med taksativno naštetimi pogoji za njeno ustanovitev izpolnjen tudi pogoj o zagotovljeni popolni osnovni šoli.
+
+
+### B) – I.
+
+3. člen 22 ZOFVI-A je določil, da se iz sredstev državnega proračuna zagotavljajo tudi sredstva za kritje materialnih stroškov v skladu s standardi in normativi za izvedbo osnovnošolskega izobraževanja za:
+– prevoze učencev s posebnimi potrebami v skladu z določbo šestega odstavka 56. člena ZOŠ ob pouka prostih dnevih in
+– prevoze predšolskih otrok v skladu s 15. členom Zakona o usmerjanju otrok s posebnimi potrebami (Uradni list RS, št. 54/2000 – ZUOPP).
+Prav tako je določil, da se iz državnega proračuna zagotavljajo tudi sredstva za dejavnosti in naloge, ki so potrebne za opravljanje dejavnosti vzgoje in izobraževanja:
+– sredstva za obvezne zdravniške preglede dijakov, vajencev in študentov višje strokovne šole zaradi praktičnega pouka oziroma praktičnega izobraževanja,
+– sredstva za izvedbo obravnave in postopkov usmerjanja otrok in mladostnikov s posebnimi potrebami v skladu z zakonom o usmerjanju otrok s posebnimi potrebami,
+– sredstva za prevoze učencev osnovne šole in sredstva za varstvo vozačev, katerih pot v šolo je ogrožena zaradi velikih zveri.
+4. člen 23 ZOFVI-A je določil, da se iz sredstev lokalne skupnosti v skladu z normativi in standardi zagotavljajo sredstva za prevoze učencev osnovne šole v skladu s 56. členom ZOŠ(1), razen za prevoze učencev s posebnimi potrebami ob pouka prostih dnevih.
+5. Izpodbijani določbi pomenita novelo 81. in 82. člena Zakona o organizaciji in financiranju vzgoje in izobraževanja (Uradni list RS, št. 12/96 in nasl. – v nadaljevanju ZOFVI), ki urejata razmejitev zagotavljanja sredstev za prevoze učencev osnovne šole med državo in lokalnimi skupnostmi. Pred novelo je 81. člen ZOFVI med drugim določal, da se iz državnega proračuna zagotavljajo sredstva za prevoze učencev osnovne šole in sredstva za varstvo vozačev. Člen 82 pa je določal, da se iz sredstev lokalne skupnosti zagotavljajo sredstva za prevoze učencev osnovne šole in sredstva za varstvo vozačev, katerih prebivališče je oddaljeno od osnovne šole več kot 4 km. Zakonodajalec je z novelo večji del obveznosti zagotavljanja sredstev za prevoze učencev osnovne šole prenesel na lokalne skupnosti (23. člen ZOFVI-A v zvezi s 56. členom ZOŠ).
+6. Glede na trditve predlagateljice, da je zakonodajalec na občine prenesel opravljanje nalog iz državne pristojnosti, je treba oceniti, ali so naloge, ki jih ZOFVI-A v 23. členu opredeljuje kot naloge lokalne skupnosti, naloge, ki so lahko opredeljene kot izvirne naloge občine na podlagi prvega odstavka 140. člena Ustave. Če namreč gre za takšne naloge, Zakon ne prenaša nalog iz državne pristojnosti na občino in zato ne gre za kršitev drugega odstavka 140. člena Ustave.
+7. Pri razmejitvi nalog mora zakonodajalec skrbeti, da določi kot naloge lokalne službe, ki so v pristojnosti občine, le tiste naloge, ki jih je mogoče opredeliti kot naloge lokalnega značaja, ki jih občina lahko samostojno opravlja in ki zadevajo prebivalce občine. Ustavno sodišče je že v odločbi št. U-I-98/95 z dne 11. 7. 1996 (Uradni list RS, št. 44/96 in OdlUS V, 118) razčlenilo pomen prvega odstavka 140. člena Ustave. Sprejelo je stališče, da tovrstnih nalog zakonodajalec ne sme opredeliti kot zadev iz državne pristojnosti, niti ne sme zadev, ki po navedenih kriterijih sodijo v državno pristojnost, opredeliti kot lokalne zadeve. Zapisalo je, da je funkcija občine zadovoljevanje potreb na ravni lokalne skupnosti. Te potrebe se nanašajo zlasti na urejanje rabe občinskega prostora, zagotavljanje gospodarskih javnih služb, gradnjo in vzdrževanje lokalne infrastrukture, zagotavljanje zdravstvene oskrbe na primarni ravni, varstva in osnovnega šolanja otrok, osnovno socialno pomoč, zagotavljanje neprofitnih stanovanj, pa tudi urejanje lokalnega prometa in drugih področij življenja, kadar gre za zadeve lokalnega pomena. Zapisalo je tudi, da temelji opredelitev obsega izvirnih pristojnosti občine na pojmu "lokalna javna zadeva". člen 2 ZLS določa, da občina v okviru Ustave in zakonov samostojno ureja in opravlja svoje zadeve in izvršuje naloge, ki so nanjo prenesene z zakoni. Podobno prvi odstavek 21. člena ZLS določa, da občina samostojno opravlja lokalne zadeve javnega pomena (izvirne naloge), ki jih določi s splošnim aktom občine ali so določene z zakonom. Tudi prvi odstavek 4. člena Evropske listine lokalne samouprave (Uradni list RS, št. 57/96, MP, št. 15/96 – v nadaljevanju MELLS) določa, da so temeljna pooblastila in naloge lokalnih skupnosti predpisane z Ustavo in zakonom. MELLS s pojmom "lokalna samouprava" označuje pravico in sposobnost lokalnih oblasti, da v mejah zakona urejajo in opravljajo bistveni del javnih zadev v okviru svojih nalog in v korist lokalnega prebivalstva (prvi odstavek 3. člena MELLS). Drugi odstavek 140. člena Ustave bi bil dolžan zakonodajalec upoštevati samo, če bi želel na občine prenesti tudi naloge iz državne pristojnosti.
+8. Ustavno sodišče je skladnost 81. in 82. člena ZOFVI, ki ga v navedenem obsegu spreminjata 22. in 23. člen ZOFVI-A, že presojalo (odločba št. U-I-215/96 z dne 25. 11. 1999, Uradni list RS, št. 101/99 in OdlUS VIII, 265). Ugotovilo je, da ureditev ni v neskladju z Ustavo. V obrazložitvi odločbe je navedlo, da je izvedba (in financiranje) obveznega osnovnošolskega programa v pristojnosti države, lokalna skupnost pa je dolžna zagotavljati prostore in opremo (investicije in investicijsko vzdrževanje), del materialnih stroškov (praviloma tistih, ki niso neposredno vezani na izvajanje pouka in jih zagotavlja država) in sredstva za prevoze učencev. Po presoji Ustavnega sodišča tudi izpodbijane določbe ZOFVI-A ne odstopajo od navedenih kriterijev, zato niso v neskladju s prvim in drugim odstavkom 140. člena Ustave. Naloge lokalne skupnosti v zvezi s financiranjem prevozov učencev osnovne šole so v ZOFVI-A določene v skladu s prvim odstavkom 140. člena Ustave in torej ne gre za naloge iz državne pristojnosti, ki bi jih država prenesla na občine. Zato tudi ni bilo treba upoštevati drugega odstavka 140. člena Ustave.
+
+
+### B) – II.
+
+9. Predlagateljica zatrjuje tudi neskladje izpodbijanih določb s 138. členom Ustave, ker naj občine zaradi nezagotovitve ustreznih finančnih sredstev ne bi mogle uresničevati lokalne samouprave.
+10. Razdelitvi funkcij in pristojnosti na področju osnovnošolskega izobraževanja je prilagojen tudi sistem financiranja (81. in 82. člen ZOFVI). Država zagotavlja sredstva, ki so vezana neposredno na izvajanje osnovnošolskega programa (pouka), lokalna skupnost pa sredstva za investicijsko vzdrževanje prostorov in opremo osnovnih šol ter za tiste materialne in druge stroške, ki zadevajo predvsem njene prebivalce (prevozi učencev, dodatne in nadstandardne dejavnosti). Zato je dolžna občina finančna sredstva za izvajanje naloge prevoza otrok iz 23. člena ZOFVI-A zagotoviti sama. Tisti obseg sredstev, s katerim posamezna občina lahko zagotovi izvajanje ustavnih in zakonskih nalog, se šteje za primeren obseg sredstev za financiranje lokalnih zadev javnega pomena (t. i. primerna poraba, gl. prvi odstavek 20. člena ZFO). Če občina izračunanega obsega primerne porabe ne more zagotoviti z lastnimi prihodki, se ji manjkajoča sredstva zagotovijo iz državnega proračuna (t. i. finančna izravnava). Uresničevanje temeljnih funkcij lokalne samouprave s tem ni ogroženo, zato izpodbijana ureditev ni v neskladju s 138. členom Ustave. S pavšalnimi navedbami o neustreznosti načina izračunavanja primerne porabe oziroma finančne izravnave za posamezno občino pa predlagateljica ne izkaže neustavnosti izpodbijanih določb.
+
+
+### C)
+
+11. Ustavno sodišče je sprejelo to odločbo na podlagi 21. člena Zakona o Ustavnem sodišču (Uradni list RS, št. 15/94 – ZUstS) v sestavi: predsednica dr. Dragica Wedam Lukić ter sodnice in sodniki dr. Janez Čebulj, dr. Zvonko Fišer, Lojze Janko, mag. Marija Krisper Kramberger, Milojka Modrijan, dr. Ciril Ribičič, dr. Mirjam Škrk in Jože Tratnik. Odločbo je sprejelo z osmimi glasovi proti enemu. Proti je glasoval sodnik Čebulj.
+
+Št. U-I-256/01-13
+
+Ljubljana, dne 8. aprila 2004.
+
+Predsednica
+dr. Dragica Wedam Lukić l. r.
+
+1 Člen 56 ZOŠ določa:
+"Učenec ima pravico do brezplačnega prevoza, če je njegovo prebivališče oddaljeno več kot štiri kilometre od osnovne šole.
+Učenec ima pravico do brezplačnega prevoza ne glede na oddaljenost njegovega prebivališča od osnovne šole v prvem razredu, v ostalih razredih pa, če pristojni organ za preventivo v cestnem prometu ugotovi, da je ogrožena varnost učenca na poti v šolo.
+Učenec, ki obiskuje osnovno šolo zunaj šolskega okoliša, v katerem prebiva, ima pravico do povračila stroškov prevoza v višini, ki bi mu pripadala, če bi obiskoval osnovno šolo v šolskem okolišu, v katerem prebiva.
+O načinu prevoza se osnovna šola dogovori s starši in lokalno skupnostjo.
+Otroci s posebnimi potrebami iz prvega odstavka 12. člena tega zakona imajo pravico do brezplačnega prevoza ne glede na oddaljenost njihovega prebivališča od osnovne šole, če je tako določeno v odločbi o usmeritvi.
+Če učencu ni mogoče zagotoviti prevoza, ima pravico do brezplačne oskrbe v kraju izobraževanja in pravico do brezplačnega prevoza domov ob pouka prostih dnevih.
+Osnovna šola mora učencem, ki morajo čakati na organiziran prevoz, zagotoviti varstvo."
