@@ -1,0 +1,69 @@
+---
+kratica: ZJKTOS-A
+naziv: "Zakon o spremembah in dopolnitvah Zakona o jamstvu Republike Slovenije za kredite za trajna obratna sredstva Slovenskih železarn"
+vrsta: "Sprejet zakon"
+datum: 1997-08-18
+sop: 1997-01-2633
+objava: "Uradni list RS 50/97  str. 43333"
+kljucne_besede: ["železniški promet", "posojilo", "kredit"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2633"
+---
+
+# Zakon o spremembah in dopolnitvah Zakona o jamstvu Republike Slovenije za kredite za trajna obratna sredstva Slovenskih železarn
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam
+
+
+## U K A Z
+o razglasitvi zakona o spremembah in dopolnitvah zakona o jamstvu Republike Slovenije za kredite  za trajna obratna sredstva Slovenskih železarn  (ZJKTOS-A)
+
+Razglašam zakon o spremembah in dopolnitvah zakona o jamstvu Republike Slovenije za kredite za trajna obratna sredstva Slovenskih železarn (ZJKTOS-A), ki ga je sprejel Državni zbor Republike Slovenije na seji 31. julija 1997.
+
+Št. 001-22-95/97
+
+Ljubljana, dne 8. avgusta 1997.
+
+Predsednik
+Republike Slovenije
+Milan Kučan l. r.
+
+
+## Z A K O N
+O SPREMEMBAH IN DOPOLNITVAH ZAKONA  O JAMSTVU REPUBLIKE SLOVENIJE  ZA KREDITE ZA TRAJNA OBRATNA SREDSTVA SLOVENSKIH ŽELEZARN (ZJKTOS-A)
+
+
+### 1. člen
+
+V zakonu o jamstvu Republike Slovenije za kredite za trajna obratna sredstva Slovenskih železarn (Uradni list RS, št. 55/92) se v prvem odstavku 1. člena številka “8” nadomesti s številko “10”.
+V drugem odstavku se besedilo “72 milijonov DEM” nadomesti z besedilom “100 milijonov DEM”.
+
+
+### 2. člen
+
+Za 1. členom se doda nov 1.a člen, ki se glasi:
+
+
+### “1.a člen
+
+Natančnejše pogoje za uporabo kreditov za trajna obratna sredstva, ki jih najamejo Slovenske železarne z jamstvom Republike Slovenije v skladu s prejšnjim členom, se določi s pogodbo, ki jo v imenu Vlade Republike Slovenije podpiše minister, pristojen za gospodarske dejavnosti.”
+
+
+### 3. člen
+
+V 2. členu se doda nov drugi odstavek, ki se glasi:
+
+“Vlada Republike Slovenije najmanj enkrat letno seznani Državni zbor Republike Slovenije s potekom sanacije Slovenskih železarn.”
+
+
+### 4. člen
+
+Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 440-03/92-33/2
+
+Ljubljana, dne 31. julija 1997.
+
+Predsednik
+Državnega zbora
+Republike Slovenije
+Janez Podobnik, dr. med. l. r.
