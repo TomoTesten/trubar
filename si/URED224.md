@@ -4,8 +4,9 @@ naziv: "Uredba o vodenju in vzdrževanju centralnega registra prebivalstva ter p
 vrsta: "uredba"
 datum: 2000-08-08
 sop: 2000-01-3338
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3338"
 ---
 

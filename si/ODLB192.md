@@ -4,9 +4,9 @@ naziv: "Odločba o prepovedi uvoza in prevoza pošiljk domače in divje perutnin
 vrsta: "akt"
 datum: 2000-08-10
 sop: 2000-01-3354
-organ: "Veterinarska uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3354"
 ---
 

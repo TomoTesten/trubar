@@ -4,9 +4,9 @@ naziv: "KoeficientI rasti cen v Republiki Sloveniji, julij 2000"
 vrsta: "drugi akt"
 datum: 2000-08-11
 sop: 2000-01-3405
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3405"
 ---
 

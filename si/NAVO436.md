@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve navodila o vpisu v seznam pravnih in fizičnih o
 vrsta: "navodilo"
 datum: 2000-08-19
 sop: 2000-01-3431
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3431"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Pravilnik o pogojih, pod katerimi se lahko daje živalsko seme v promet"
 vrsta: "pravilnik"
 datum: 2000-08-10
 sop: 2000-01-3349
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3349"
 ---
 

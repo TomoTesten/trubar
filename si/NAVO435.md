@@ -4,8 +4,9 @@ naziv: "Navodilo o spremembah navodila o ukrepih za ugotavljanje, preprečevanje
 vrsta: "navodilo"
 datum: 2000-08-10
 sop: 2000-01-3352
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3352"
 ---
 
