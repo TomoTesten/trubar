@@ -4,9 +4,9 @@ naziv: "Zakon o načinu glasovanja in ugotavljanju izida glasovanja na referendu
 vrsta: "akt"
 datum: 1996-10-19
 sop: 1996-01-3315
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Državni zbor RS"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3315"
 ---
 

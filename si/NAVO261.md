@@ -4,9 +4,9 @@ naziv: "Navodilo o predaji in prevzemu zadev v zvezi z začetkom dela Upravnega 
 vrsta: "navodilo"
 datum: 1998-01-17
 sop: 1998-01-0225
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za pravosodje"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0225"
 ---
 

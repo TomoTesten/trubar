@@ -4,9 +4,9 @@ naziv: "Odredba o dodatni določitvi pooblaščenega podjetja za opravljanje pre
 vrsta: "odredba"
 datum: 1996-09-20
 sop: 1996-01-3075
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za promet in zveze"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3075"
 ---
 

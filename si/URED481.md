@@ -4,9 +4,9 @@ naziv: "Uredba o listinah iz tretjega odstavka 7. člena zakona o merilih in pos
 vrsta: "uredba"
 datum: 1996-11-29
 sop: 1996-01-3797
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3797"
 ---
 

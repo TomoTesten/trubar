@@ -4,9 +4,9 @@ naziv: "Odredba o dopolnitvi odredbe o videzu in uporabi certifikacijskega znaka
 vrsta: "odredba"
 datum: 1997-07-04
 sop: 1997-01-2263
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za znanost in tehnologijo"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2263"
 ---
 

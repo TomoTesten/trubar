@@ -4,9 +4,9 @@ naziv: "Odlok o organizaciji in delovnem področju službe Vlade Republike Slove
 vrsta: "odlok"
 datum: 1996-11-29
 sop: 1996-01-3802
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3802"
 ---
 

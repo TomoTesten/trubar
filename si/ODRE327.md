@@ -4,9 +4,9 @@ naziv: "Odredba o obsegu carinskih kvot za uvoz kmetijskih izdelkov v letu 1997 
 vrsta: "odredba"
 datum: 1997-10-10
 sop: 1997-01-3106
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za ekonomske odnose in razvoj"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3106"
 ---
 

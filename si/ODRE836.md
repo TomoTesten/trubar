@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi števila sekretarjev, višjih strokovnih sodelavcev
 vrsta: "odredba"
 datum: 1997-08-22
 sop: 1997-01-2780
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za pravosodje"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2780"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah navodila za kakovost in nadzor kakovosti tolčenca
 vrsta: "navodilo"
 datum: 1996-12-20
 sop: 1996-01-4011
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za promet in zveze"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-4011"
 ---
 

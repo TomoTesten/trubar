@@ -4,9 +4,9 @@ naziv: "Odredba o odprodaji terjatev Republike Slovenije"
 vrsta: "odredba"
 datum: 1997-07-04
 sop: 1997-01-2198
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2198"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o videzu in uporabi certifikacijskega znaka za označevanje proi
 vrsta: "odredba"
 datum: 1996-10-04
 sop: 1996-01-3164
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za znanost in tehnologijo"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3164"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o obrazcih za vpis v zemljiško knjigo"
 vrsta: "odredba"
 datum: 1997-09-25
 sop: 1997-01-2939
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za pravosodje"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2939"
 ---
 

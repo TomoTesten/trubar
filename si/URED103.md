@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi prehoda iz srednjeevropskega pasovnega časa na pole
 vrsta: "uredba"
 datum: 1997-12-05
 sop: 1997-01-3591
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3591"
 ---
 

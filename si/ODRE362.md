@@ -4,9 +4,9 @@ naziv: "Odredba o izobraževalnih programih (poklicnih tečajih) za pridobitev s
 vrsta: "odredba"
 datum: 1997-07-25
 sop: 1997-01-2431
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za šolstvo in šport"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2431"
 ---
 
