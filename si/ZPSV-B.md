@@ -2,26 +2,26 @@
 kratica: ZPSV-B
 naziv: "Zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost"
 vrsta: "Sprejet zakon"
-datum: 1996-06-29
-sop: 1996-01-2200
-objava: "Uradni list RS 34/96  str. 2817"
+datum: 1998-01-17
+sop: 1998-01-0137
+objava: "Uradni list RS 3/98  str. 125"
 kljucne_besede: ["prispevek za socialno varnost"]
-vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2200"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0137"
 ---
 
 # Zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost
 
-Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam
+Na podlagi druge alinee prvega odstavka 107. člena in drugega odstavka 91. člena ustave Republike Slovenije izdajam
 
 
 ## U K A Z
-o razglasitvi zakona o spremembah in dopolnitvah zakona o prispevkih za socialno varnost (ZPSV-B)
+o razglasitvi zakona o spremembah  in dopolnitvah zakona o prispevkih za socialno varnost (ZPSV-B)
 
-Razglašam zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost (ZPSV-B), ki ga je sprejel Državni zbor Republike Slovenije na seji dne 13. junija 1996.
+Razglašam zakon o spremembah in dopolnitvah zakona o prispevkih za socialno varnost (ZPSV-B), ki ga je sprejel Državni zbor Republike Slovenije na seji 18. decembra 1997 in o njem ponovno odločal na seji 8. januarja 1998.
 
-Št. 001-22-61/96
+Št. 001-22-2/98
 
-Ljubljana, dne 21. junija 1996.
+Ljubljana, dne 15. januarja 1998.
 
 Predsednik
 Republike Slovenije
@@ -29,52 +29,82 @@ Milan Kučan l. r.
 
 
 ## Z A K O N
-O SPREMEMBAH IN DOPOLNITVAH ZAKONA O PRISPEVKIH ZA SOCIALNO VARNOST (ZPSV-B)
+O SPREMEMBAH IN DOPOLNITVAH ZAKONA  O PRISPEVKIH ZA SOCIALNO VARNOST  (ZPSV-B)
 
 
 ### 1. člen
 
-V zakonu o prispevkih za socialno varnost (Uradni list RS, št. 5/96) se v 8. členu v drugi alinei številka “12,85%” nadomesti s številko “8,85%”.
+V zakonu o prispevkih za socialno varnost (Uradni list RS, št. 5/96 in 34/96) se v 1. členu doda nov drugi odstavek, ki se glasi:
+
+“S tem zakonom se določa tudi osnova za obračunavanje in plačevanje prispevkov za socialno varnost od drugih prejemkov iz delovnega razmerja.”
 
 
 ### 2. člen
 
-V 9. členu se v drugi alinei številka “11,05%” nadomesti s številko “8,85%”.
+V 2. členu se na koncu člena črta pika in doda besedilo “(v nadaljnjem besedilu: zakoni).”
 
 
 ### 3. člen
 
-V 12. členu se v 2. točki črta besedilo “pravne in fizične osebe za primer  iz 1. do 9. točke 17. člena in 18. člena ter zavarovanci iz 10. točke 17. člena”.
+V 3. členu se tretji odstavek spremeni tako, da se glasi:
+
+“Ne glede na prvi in drugi odstavek tega člena in ne glede na to, če je z zakoni drugače določeno, plačujejo zavezanci prispevke za socialno varnost tudi od vseh drugih prejemkov iz delovnega razmerja, vključno s stimulacijami in bonitetami ter povračili stroškov v zvezi z delom, izplačanih v denarju, bonih ali v naravi.”
+
+Za tretjim odstavkom se dodata nova četrti in peti odstavek, ki se glasita:
+
+“Prispevki za socialno varnost iz prejšnjega odstavka se obračunavajo in plačujejo iz bruto prejemkov.
+
+Ne glede na prejšnji odstavek se prispevki za socialno varnost obračunavajo in plačujejo:
+– pri jubilejnih nagradah, odpravninah in solidarnostnih pomočeh ter povračilih stroškov v delu, ki presegajo s predpisom vlade določen znesek teh prejemkov, ki se v skladu z zakonom o dohodnini ne vštevajo v osnovo za davek od osebnih prejemkov;
+– od stimulacij in bonitet, od osnove, ugotovljene v skladu z zakonom o dohodnini;
+– pri regresih za letni dopust, v delu, ki presega 70% poprečne plače predpreteklega meseca zaposlenih v Republiki Sloveniji; če se izplačilo regresa opravi v dveh ali več delih, se ob izplačilu naslednjega oziroma zadnjega dela regresa ugotovi celotna višina regresa in izvrši obračun prispevkov ter poračun plačanih prispevkov od posameznih delov regresa za letni dopust.”
+Sedanji četrti odstavek postane šesti odstavek.
 
 
 ### 4. člen
 
-V 16. členu se prvi odstavek spremeni tako, da se glasi:
+V 6. členu se doda nov drugi odstavek, ki se glasi:
 
-“Delodajalci so dolžni dostaviti davčnemu organu obračun prispevkov za socialno varnost, zasebniki  pa tudi plačilne liste za pri njih zaposlene, najkasneje na dan izplačila plač. Vsebino obračuna prispevkov za socialno varnost  predpiše minister, pristojen za finance. “
+“Ne glede na prejšnji odstavek in ne glede na to, če je z zakoni drugače določeno, plačujejo delodajalci prispevke za socialno varnost od drugih bruto prejemkov iz delovnega razmerja od osnov, določenih v tretjem, četrtem in petem odstavku 3. člena tega zakona.”
 
-V drugem odstavku se besedilo “Republiški upravi za javne prihodke” nadomesti z besedilom “davčnemu organu”.
+V dosedanjem drugem odstavku, ki postane tretji odstavek, se besedi “prejšnjega odstavka” nadomestita z besedilom “iz prvega odstavka tega člena”.
+Dosedanji tretji odstavek postane četrti odstavek.
+V dosedanjem četrtem odstavku, ki postane peti odstavek, se beseda “drugega” nadomesti z besedo “tretjega”.
+Dosedanji peti odstavek postane šesti odstavek.
 
 
 ### 5. člen
 
-V 17. členu se besedilo “opravljata Agencija Republike Slovenije za plačilni promet, nadziranje in informiranje in Republiška uprava za javne prihodke” nadomesti z besedilom “opravlja davčni organ”.
+Za 7. členom se doda nov 7.a člen, ki se glasi:
+
+
+### “7.a člen
+
+Ne glede na določbe zakonov se v izračun osnov za pravice iz pokojninskega in invalidskega zavarovanja, zdravstvenega zavarovanja, zavarovanja za primer nezaposlenosti in nadomestila za čas porodniškega dopusta štejejo tudi drugi prejemki iz delovnega razmerja, od katerih se po tem zakonu plačujejo prispevki za socialno varnost.”
 
 
 ### 6. člen
 
-V 18. členu se v prvem odstavku v drugi alinei besedilo “Republiški upravi za javne prihodke” nadomesti z besedilom “davčnemu organu”.
+15. člen se spremeni tako, da se glasi:
+
+“Glede obračunavanja in plačevanja prispevkov, zamudnih obresti, prisilne izterjave in drugih vprašanj postopka se uporabljajo določbe zakona o davčnem postopku, tega zakona in zakonov.”
 
 
 ### 7. člen
 
-Ta zakon začne veljati 1. julija 1996.
+V 18. členu se v prvem odstavku številka “400.000” nadomesti s številko “100.000” ter besedilo “od 1,000.000 do 6,000.000 tolarjev” nadomesti z besedilom “od 1,000.000 do 18,000.000 tolarjev”.
+V prvi alinei se besedilo “če ne obračuna in ne plača” nadomesti z besedilom “če ne obračuna ali ne plača”.
 
-Št. 433-02/96-11/4
 
-Ljubljana, dne 13. junija 1996.
+### 8. člen
+
+Ta zakon začne veljati 1. januarja 1998.
+
+Št. 433-02/96-11/6
+
+Ljubljana, dne 8. januarja 1998.
 
 Predsednik
 Državnega zbora
 Republike Slovenije
-Jožef Školč l. r.
+Janez Podobnik, dr. med. l. r.
