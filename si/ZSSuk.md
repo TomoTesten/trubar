@@ -12,6 +12,10 @@ spremembe:
     datum: 1994-06-30
     sop: 1994-01-1520
     naziv: "Zakon o spremembah in dopolnitvah zakona o skladu Republike Slovenije za sukcesijo"
+  - kratica: ZSSuk-B
+    datum: 1997-07-04
+    sop: 1997-01-2258
+    naziv: "Zakon o dopolnitvah zakona o Skladu Republike Slovenije za sukcesijo"
 ---
 
 # Zakon o Skladu Republike Slovenije za sukcesijo
