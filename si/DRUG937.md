@@ -4,9 +4,9 @@ naziv: "Seznam zdravil, za katera je bilo od 19. junija 1992 do 7. marca 1997 ra
 vrsta: "drugi akt"
 datum: 1997-03-28
 sop: 1997-01-0959
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0959"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Soglasje k aktu o ustanovitvi Ustanove LIONS-Fundacije za pomoč slepim 
 vrsta: "akt"
 datum: 1997-03-21
 sop: 1997-01-0900
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0900"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi pogojev za uvrstitev delnic pooblaščenih investicij
 vrsta: "sklep"
 datum: 1997-03-28
 sop: 1997-01-0965
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0965"
 ---
 

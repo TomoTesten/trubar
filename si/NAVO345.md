@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila za predložitev in prevzem
 vrsta: "navodilo"
 datum: 1997-03-28
 sop: 1997-01-0966
-organ: "Agencija za plačilni promet"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0966"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o izvajanju preventivnih ukrepov zaradi odkrivanja in preprečeva
 vrsta: "odredba"
 datum: 1997-03-21
 sop: 1997-01-0947
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0947"
 ---
 

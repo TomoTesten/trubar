@@ -4,9 +4,9 @@ naziv: "Navodilo o pripravi investicijske dokumentacije in spremljanju investici
 vrsta: "navodilo"
 datum: 1997-03-21
 sop: 1997-01-0949
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0949"
 ---
 
