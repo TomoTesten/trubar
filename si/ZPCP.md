@@ -12,6 +12,10 @@ spremembe:
     datum: 1996-09-27
     sop: 1996-01-3126
     naziv: "Zakon o spremembah in dopolnitvah zakona o prevozih v cestnem prometu"
+  - kratica: ZPCP-B
+    datum: 1998-06-30
+    sop: 1998-01-2112
+    naziv: "Zakon o spremembah in dopolnitvah zakona o prevozih v cestnem prometu"
 ---
 
 # Zakon o prevozih v cestnem prometu
