@@ -20,6 +20,10 @@ spremembe:
     datum: 1995-12-08
     sop: 1995-01-3297
     naziv: "Zakon o spremembah in dopolnitvah zakona o lokalnih volitvah"
+  - kratica: ZLV-D
+    datum: 2002-06-11
+    sop: 2002-01-2482
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lokalnih volitvah"
 ---
 
 # Zakon o lokalnih volitvah
