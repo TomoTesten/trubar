@@ -4,8 +4,9 @@ naziv: "Navodilo o merilih za ocenjevanje vrednosti podržavljenih premičnin, n
 vrsta: "navodilo"
 datum: 1992-05-15
 sop: 1992-01-1234
-organ: "Ministrstvo za gospodarske dejavnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1234"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Pravilnik o varstvu pri delu pred nevarnostjo električnega toka"
 vrsta: "pravilnik"
 datum: 1992-06-12
 sop: 1992-01-1483
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1483"
 ---
 

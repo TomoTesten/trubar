@@ -4,8 +4,9 @@ naziv: "Odlok o dopolnitvah odloka o načinu določanja vrednosti kmetijskih zam
 vrsta: "odlok"
 datum: 1992-04-30
 sop: 1992-01-1050
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1050"
 ---
 

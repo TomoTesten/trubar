@@ -4,8 +4,9 @@ naziv: "Pravilnik o pogojih za opravljanje zasebne zdravstvene dejavnosti"
 vrsta: "pravilnik"
 datum: 1992-05-22
 sop: 1992-01-1316
-organ: "Ministrstvo za zdravstvo"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1316"
 ---
 

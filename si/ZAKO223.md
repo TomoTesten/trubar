@@ -4,9 +4,9 @@ naziv: "Zakon o ustanovitvi Visoke kmetijske šole v Mariboru (ZUVKme)"
 vrsta: "akt"
 datum: 1992-06-15
 sop: 1992-01-1509
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1509"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi določb 9.do 28. člena zakona o stavbnih zemlj
 vrsta: "akt"
 datum: 1992-05-22
 sop: 1992-01-1253
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1253"
 ---
 

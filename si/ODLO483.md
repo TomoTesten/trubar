@@ -4,9 +4,9 @@ naziv: "Odlok o minimumu sredstev in opreme za osebno in skupinsko zaščito ob 
 vrsta: "odlok"
 datum: 1992-06-30
 sop: 1992-01-1570
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1570"
 ---
 

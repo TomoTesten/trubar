@@ -4,8 +4,9 @@ naziv: "Odlok o višini in načinu plačevanja povračila za stroške kontrole k
 vrsta: "odlok"
 datum: 1992-05-15
 sop: 1992-01-1227
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1227"
 ---
 

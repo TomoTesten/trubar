@@ -4,8 +4,9 @@ naziv: "Odredba o koeficientu povečanja dolarskih cen nacionaliziranega premož
 vrsta: "odredba"
 datum: 1992-05-22
 sop: 1992-01-1246
-organ: "Ministrstvo za finance"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1246"
 ---
 
