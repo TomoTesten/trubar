@@ -12,6 +12,10 @@ spremembe:
     datum: 1995-06-09
     sop: 1995-01-1537
     naziv: "Zakon o spremembi zakona o poravnavanju davkov in prispevkov javnega podjetja Slovenske železnice Ljubljana"
+  - kratica: ZPDPJPS-B
+    datum: 1998-02-12
+    sop: 1998-01-0438
+    naziv: "Zakon o spremembah in dopolnitvah zakona o poravnavanju davkov in prispevkov javnega podjetja Slovenske železnice Ljubljana"
 ---
 
 # Zakon o poravnavanju davkov in prispevkov javnega podjetja Slovenske železnice Ljubljana
