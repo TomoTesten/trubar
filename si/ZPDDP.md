@@ -12,6 +12,10 @@ spremembe:
     datum: 1994-04-28
     sop: 1994-01-0954
     naziv: "Zakon o spremembah in dopolnitvah zakona o posebnem davku na določene prejemke"
+  - kratica: ZPDDP-B
+    datum: 1995-08-04
+    sop: 1995-01-2162
+    naziv: "Zakon o dopolnitvi zakona o posebnem davku na določene prejemke"
 ---
 
 # Zakon o posebnem davku na določene prejemke
