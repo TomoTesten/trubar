@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi skladnosti tretjega odtavka 18. člena in dela 19.
 vrsta: "drugi akt"
 datum: 1996-07-26
 sop: 1996-01-2530
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2530"
 ---
 

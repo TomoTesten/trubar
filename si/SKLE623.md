@@ -4,9 +4,9 @@ naziv: "Sklep o razvrstitvi zdravil na liste"
 vrsta: "sklep"
 datum: 1996-07-26
 sop: 1996-01-2533
-organ: "Zavod za zdravstveno zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2533"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi blaga, ki se začasno izvaža na oplemenitenje in pri
 vrsta: "sklep"
 datum: 1996-07-26
 sop: 1996-01-2589
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2589"
 ---
 
