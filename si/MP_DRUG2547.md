@@ -1,0 +1,40 @@
+---
+kratica: MP_DRUG2547
+naziv: "Razpis drugega kroga volitev za župana (DRUG)"
+vrsta: "akt"
+datum: 1998-11-27
+sop: 1998-01-4051
+organ: "Občina Hajdina"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4051"
+---
+
+# Razpis drugega kroga volitev za župana (DRUG)
+
+Na podlagi 107. člena zakona o lokalnih volitvah (Uradni list RS, št. 72/93, 7/94, 33/94, 61/95, 70/95 in 20/98) Občinska volilna komisija občine Hajdina
+
+
+## R A Z P I S U J E
+drugi krog volitev za župana Občine Hajdina
+
+
+### I
+
+Opravi se drugi krog volitev za župana Občine Hajdina, in sicer med kandidatoma, ki sta v prvem krogu dobila najvišje število glasov:
+1. Radoslav Simonič, roj. 20. 12. 1952, stanujoč Zg. Hajdina 127, poklic: ekonomist, delo: direktor, predlagatelj: SLS – Slovenska ljudska stranka.
+2. Štefan Kirbiš, roj. 19. 11. 1942, stanujoč Zg. Hajdina 84b, poklic: inž. strojništva, delo: samostojni podjetnik, predlagatelj: Socialdemokratska stranka Slovenije SDS.
+
+
+### II
+
+Drugi krog volitev bo v nedeljo, 6. decembra 1998.
+
+Št. 46/98
+
+Hajdina, dne 23. novembra 1998.
+
+Predsednica
+Občinske volilne komisije
+občine Hajdina
+Cvetka Merc, dipl. pravnica l. r.
