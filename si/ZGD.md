@@ -7,6 +7,11 @@ sop: 1993-01-1298
 objava: "Uradni list RS 30/93  str. 1611"
 kljucne_besede: ["gospodarska družba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1298"
+spremembe:
+  - kratica: ZGD-A
+    datum: 1994-05-31
+    sop: 1994-01-1227
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gospodarskih družbah"
 ---
 
 # Zakon o gospodarskih družbah
