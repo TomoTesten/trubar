@@ -16,6 +16,10 @@ spremembe:
     datum: 1999-12-30
     sop: 1999-01-5163
     naziv: "Zakon o dopolnitvi zakona o popotresni obnovi objektov in spodbujanju razvoja v Posočju"
+  - kratica: ZPOOSRP-C
+    datum: 2001-07-19
+    sop: 2001-01-3144
+    naziv: "Zakon o spremembah in dopolnitvah zakona o popotresni obnovi objektov in spodbujanju razvoja v Posočju"
 ---
 
 # Zakon o popotresni obnovi objektov in spodbujanju razvoja v Posočju
