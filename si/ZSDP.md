@@ -7,6 +7,11 @@ sop: 2001-01-4794
 objava: "Uradni list RS 97/2001  str. 9345"
 kljucne_besede: ["družina", "otrok", "porodniški dopust", "starševski dodatki", "starševski dopust", "družinski proračun", "otroško varstvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4794"
+spremembe:
+  - kratica: ZSDP-A
+    datum: 2003-08-04
+    sop: 2003-01-3647
+    naziv: "Zakon o spremembah in dopolnitvah zakona o starševskem varstvu in družinskih prejemkih"
 ---
 
 # Zakon o starševskem varstvu in družinskih prejemkih
