@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-12-29
     sop: 2001-01-5491
     naziv: "Zakon o spremembah in dopolnitvah zakona o Skladu za poplačilo odškodnine žrtvam vojnega in povojnega nasilja"
+  - kratica: ZSPOZ-B
+    datum: 2002-07-26
+    sop: 2002-01-3236
+    naziv: "Zakon o spremembah in dopolnitvah zakona o plačilu odškodnine žrtvam vojnega in povojnega nasilja"
 ---
 
 # Zakon o Skladu za poplačilo odškodnine žrtvam vojnega in povojnega nasilja
