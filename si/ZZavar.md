@@ -7,6 +7,11 @@ sop: 2000-01-0595
 objava: "Uradni list RS 13/2000  str. 1632"
 kljucne_besede: ["zavarovalnica", "zavarovanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0595"
+spremembe:
+  - kratica: ZZavar-A
+    datum: 2002-03-11
+    sop: 2002-01-0912
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zavarovalništvu"
 ---
 
 # Zakon o zavarovalništvu
