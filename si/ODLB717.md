@@ -4,9 +4,9 @@ naziv: "Odločba o pooblastitvi Zavoda za zdravstveno varstvo Maribor"
 vrsta: "akt"
 datum: 2005-04-15
 sop: 2005-01-1322
-organ: "Ministrstvo za zdravje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-1322"
 ---
 
