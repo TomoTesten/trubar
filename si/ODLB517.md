@@ -4,9 +4,9 @@ naziv: "Odločba o priznanju enakovrednosti semenskega materiala kmetijskih rast
 vrsta: "akt"
 datum: 2002-11-20
 sop: 2002-01-4898
-organ: "Fitosanitarna uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4898"
 ---
 
