@@ -4,9 +4,9 @@ naziv: "Deklaracija o skupnem boju proti terorizmu (DeSBT)"
 vrsta: "akt"
 datum: 2001-10-15
 sop: 2001-01-4202
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4202"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Kmetijsko gozdarskega zavoda Maribor v Organizacij
 vrsta: "akt"
 datum: 2001-10-19
 sop: 2001-01-4217
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4217"
 ---
 

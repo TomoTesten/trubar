@@ -4,9 +4,9 @@ naziv: "Program pripravništva in strokovnega izpita za poklic diplomirana medic
 vrsta: "drugi akt"
 datum: 2001-10-25
 sop: 2001-01-4298
-organ: "Ministrstvo za zdravje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4298"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o meroslovnih zahtevah za vodomere za hladno vodo, ki lahko no
 vrsta: "pravilnik"
 datum: 2001-09-28
 sop: 2001-01-3981
-organ: "Ministrstvo za šolstvo, znanost in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3981"
 ---
 
