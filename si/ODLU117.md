@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi prvega odstavka 34.b člena pravilnika o uporab
 vrsta: "akt"
 datum: 1997-01-31
 sop: 1997-01-0296
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0296"
 ---
 

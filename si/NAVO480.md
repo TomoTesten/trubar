@@ -4,8 +4,9 @@ naziv: "Navodilo o hranjenju maturitetne izpitne dokumentacije"
 vrsta: "navodilo"
 datum: 1997-01-24
 sop: 1997-01-0204
-organ: "Ministrstvo za šolstvo in šport"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0204"
 ---
 

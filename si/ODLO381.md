@@ -4,9 +4,9 @@ naziv: "Odlok o ustanovitvi in nalogah komisij in odborov Državnega zbora (OdUN
 vrsta: "odlok"
 datum: 1997-01-31
 sop: 1997-01-0261
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0261"
 ---
 

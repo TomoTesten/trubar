@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi slovenskega računovodskega standarda 35 - računovod
 vrsta: "sklep"
 datum: 1997-01-24
 sop: 1997-01-0185
-organ: "SLOVENSKI INSTITUT ZA REVIZIJO"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0185"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o obrazcu za obračun davka od dobička pravnih oseb in načinu 
 vrsta: "odredba"
 datum: 1997-01-31
 sop: 1997-01-0288
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0288"
 ---
 
