@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k aktu o spremembi akta o ustanovitvi Ustanove CEEMA
 vrsta: "akt"
 datum: 2000-03-10
 sop: 2000-01-0995
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0995"
 ---
 

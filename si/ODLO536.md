@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi odloka o ustanovitvi Sveta za radiodifuzijo in o imeno
 vrsta: "odlok"
 datum: 2000-02-25
 sop: 2000-01-0748
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0748"
 ---
 

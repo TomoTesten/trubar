@@ -4,9 +4,9 @@ naziv: "Dopolnitev seznama medicinskih pripomočkov skupine D, za katere je bilo
 vrsta: "drugi akt"
 datum: 2000-03-03
 sop: 2000-01-0867
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0867"
 ---
 

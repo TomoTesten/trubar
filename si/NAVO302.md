@@ -4,9 +4,9 @@ naziv: "Navodilo o vpisu v seznam pravnih in fizičnih oseb, ki opravljajo proiz
 vrsta: "navodilo"
 datum: 2000-03-10
 sop: 2000-01-0992
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0992"
 ---
 

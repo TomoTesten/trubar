@@ -4,9 +4,9 @@ naziv: "Sprememba sodnega reda"
 vrsta: "drugi akt"
 datum: 2000-03-10
 sop: 2000-01-0993
-organ: "Ministrstvo za pravosodje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0993"
 ---
 

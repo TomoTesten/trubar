@@ -4,9 +4,9 @@ naziv: "Nacionalni program razvoja telekomunikacij (NPRTel)"
 vrsta: "akt"
 datum: 2000-03-15
 sop: 2000-01-1048
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1048"
 ---
 

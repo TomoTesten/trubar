@@ -4,9 +4,9 @@ naziv: "Sklep o poslovnih knjigah borzno posredniških družb"
 vrsta: "sklep"
 datum: 2000-01-27
 sop: 2000-01-0313
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0313"
 ---
 

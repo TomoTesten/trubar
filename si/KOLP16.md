@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve kolektivne pogodbe gradbenih dejavnosti"
 vrsta: "akt"
 datum: 2000-03-03
 sop: 2000-01-0874
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0874"
 ---
 

@@ -4,8 +4,8 @@ naziv: "Daljinar s časi vožnje relacij primestnih in medkrajevnih avtobusnih v
 vrsta: "drugi akt"
 datum: 2000-03-10
 sop: 2000-01-0994
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Drugi splošni in posamični akti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0994"
 ---
