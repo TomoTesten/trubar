@@ -4,9 +4,9 @@ naziv: "Odločba o priznavanju naravne mineralne vode San Pellegrino"
 vrsta: "akt"
 datum: 2002-07-25
 sop: 2002-01-3189
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3189"
 ---
 

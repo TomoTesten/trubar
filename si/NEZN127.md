@@ -4,9 +4,9 @@ naziv: "Pravilnik o higieni živil"
 vrsta: "akt"
 datum: 2002-07-10
 sop: 2002-01-2890
-organ: "Ministrstvo za zdravje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2890"
 ---
 

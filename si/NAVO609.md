@@ -4,9 +4,9 @@ naziv: "Navodilo o obrazcih za dajanje podpore v postopku kandidiranja na volitv
 vrsta: "navodilo"
 datum: 2002-07-10
 sop: 2002-01-2897
-organ: "Republiška volilna komisija"
-zbirka: "Drugi splošni in posamični akti"
-status: "Konzumiran ali obsoleten predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2897"
 ---
 
