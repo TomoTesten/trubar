@@ -12,6 +12,10 @@ spremembe:
     datum: 1993-03-12
     sop: 1993-01-0582
     naziv: "Zakon o spremembi in dopolnitvi zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
+  - kratica: ZZVZZ-B
+    datum: 1996-02-16
+    sop: 1996-01-0414
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
