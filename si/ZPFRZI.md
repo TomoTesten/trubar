@@ -7,6 +7,11 @@ sop: 1999-01-1479
 objava: "Uradni list RS 31/99  str. 3577"
 kljucne_besede: ["poroštvo", "železniški promet", "posojilo", "železniško omrežje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1479"
+spremembe:
+  - kratica: ZPFRZI-A
+    datum: 1999-11-04
+    sop: 1999-01-4264
+    naziv: "Zakon o spremembah in dopolnitvah zakona o poroštvu Republike Slovenije za obveznosti Slovenskih železnic, d.d., iz naslova posojil, najetih za financiranje določenih del za posodobitev in razvoj slovenske železniške infrastrukture"
 ---
 
 # Zakon o poroštvu Republike Slovenije za obveznosti Slovenskih železnic, d.d., iz naslova posojil, najetih za financiranje določenih del za posodobitev in razvoj slovenske železniške infrastrukture
