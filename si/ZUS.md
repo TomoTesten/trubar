@@ -7,6 +7,11 @@ sop: 1997-01-2634
 objava: "Uradni list RS 50/97  str. 4334"
 kljucne_besede: ["upravni postopek", "tožba pred upravnim sodiščem"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2634"
+spremembe:
+  - kratica: ZUS-A
+    datum: 2000-08-08
+    sop: 2000-01-3304
+    naziv: "Zakon o spremembah in dopolnitvah zakona o upravnem sporu"
 ---
 
 # Zakon o upravnem sporu
