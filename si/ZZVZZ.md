@@ -32,6 +32,10 @@ spremembe:
     datum: 2002-07-10
     sop: 2002-01-2883
     naziv: "Zakon o spremembi zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
+  - kratica: ZZVZZ-G
+    datum: 2003-12-18
+    sop: 2003-01-5383
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
