@@ -16,6 +16,10 @@ spremembe:
     datum: 1996-02-16
     sop: 1996-01-0414
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
+  - kratica: ZZVZZ-C
+    datum: 1998-04-10
+    sop: 1998-01-1145
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
