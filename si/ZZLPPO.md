@@ -7,6 +7,11 @@ sop: 1998-01-1224
 objava: "Uradni list RS 30/98  str. 1961"
 kljucne_besede: ["privatizacija", "gospodarska družba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1224"
+spremembe:
+  - kratica: ZZLPPO-A
+    datum: 1999-02-26
+    sop: 1999-01-0551
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zaključku lastninjenja in privatizaciji pravnih oseb v lasti Slovenske razvojne družbe"
 ---
 
 # Zakon o zaključku lastninjenja in privatizaciji pravnih oseb v lasti Slovenske razvojne družbe
