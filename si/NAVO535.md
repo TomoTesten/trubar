@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila o finančnem poslovanju up
 vrsta: "navodilo"
 datum: 2001-05-25
 sop: 2001-01-2392
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2392"
 ---
 

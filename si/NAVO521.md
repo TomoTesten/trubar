@@ -4,8 +4,9 @@ naziv: "Navodilo o fizikalno kemijskih analizah grozdnega mošta in vina"
 vrsta: "navodilo"
 datum: 2001-05-31
 sop: 2001-01-2439
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2439"
 ---
 

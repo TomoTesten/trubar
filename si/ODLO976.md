@@ -4,9 +4,9 @@ naziv: "Odlok o imenovanju druge namestnice predsednika Računskega sodišča Re
 vrsta: "odlok"
 datum: 2001-05-31
 sop: 2001-01-2432
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2432"
 ---
 
