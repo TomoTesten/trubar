@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o glavnih znamenjih bankovca za 200 tolarjev"
 vrsta: "sklep"
 datum: 1998-02-27
 sop: 1998-01-0719
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0719"
 ---
 

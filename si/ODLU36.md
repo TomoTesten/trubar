@@ -4,9 +4,9 @@ naziv: "Odločba o delni zavrnitvi pobud; razveljavitvi drugega stavka v drugem 
 vrsta: "akt"
 datum: 1998-03-06
 sop: 1998-01-0746
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0746"
 ---
 

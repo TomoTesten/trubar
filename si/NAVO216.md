@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah navodila o finančnem poslovanju upravnih enot ter
 vrsta: "navodilo"
 datum: 1998-03-13
 sop: 1998-01-0843
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0843"
 ---
 

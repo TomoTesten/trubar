@@ -4,8 +4,9 @@ naziv: "Pravilnik o pogojih za ustanavljanje javnih osnovnih šol, javnih osnovn
 vrsta: "odredba"
 datum: 1998-03-03
 sop: 1998-01-0724
-organ: "Ministrstvo za šolstvo in šport"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0724"
 ---
 
