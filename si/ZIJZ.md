@@ -12,6 +12,10 @@ spremembe:
     datum: 2000-03-30
     sop: 2000-01-1255
     naziv: "Zakon o spremembah zakona o investicijah v javne zdravstvene zavode, katerih ustanovitelj je Republika Slovenija, za obdobje 1994-1999"
+  - kratica: ZIJZ-B
+    datum: 2001-12-29
+    sop: 2001-01-5493
+    naziv: "Zakon o spremembah in dopolnitvah zakona o investicijah v javne zdravstvene zavode, katerih ustanovitelj je Republika Slovenija za obdobje 1994 - 2003"
 ---
 
 # Zakon o investicijah v javne zdravstvene zavode, katerih ustanovitelj je Republika Slovenija, za obdobje 1994 do 1999
