@@ -4,9 +4,9 @@ naziv: "Sklep o zavrnitvi pobude za začetek postopka za oceno ustavnosti drugeg
 vrsta: "sklep"
 datum: 1998-12-30
 sop: 1998-01-4754
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4754"
 ---
 

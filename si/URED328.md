@@ -4,8 +4,9 @@ naziv: "Uredba o ratifikaciji Sporazuma o sodelovanju vojaške policije Slovensk
 vrsta: "uredba"
 datum: 1999-01-09
 sop: 1999-02-0001
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-02-0001"
 ---
 

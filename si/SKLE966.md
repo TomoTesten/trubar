@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi kontnega načrta za vzajemne sklade"
 vrsta: "sklep"
 datum: 1998-12-30
 sop: 1998-01-4756
-organ: "SLOVENSKI INSTITUT ZA REVIZIJO"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4756"
 ---
 

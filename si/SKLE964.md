@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi slovenskega računovodskega standarda 38 - Računovod
 vrsta: "sklep"
 datum: 1998-12-30
 sop: 1998-01-4755
-organ: "SLOVENSKI INSTITUT ZA REVIZIJO"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4755"
 ---
 

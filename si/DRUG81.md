@@ -4,9 +4,9 @@ naziv: "Seznam medicinskih pripomočkov skupine D, za katere je bilo od 16. 12. 
 vrsta: "drugi akt"
 datum: 1999-01-15
 sop: 1999-01-0061
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0061"
 ---
 

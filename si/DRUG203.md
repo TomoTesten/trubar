@@ -4,9 +4,9 @@ naziv: "Sporočilo o cenah plemenitih kovin na dan 31. 12. 1998"
 vrsta: "drugi akt"
 datum: 1999-01-09
 sop: 1999-01-0020
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0020"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Količnik povišanja izhodiščnih plač od vključno meseca januarja 19
 vrsta: "drugi akt"
 datum: 1999-01-09
 sop: 1999-01-0012
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0012"
 ---
 

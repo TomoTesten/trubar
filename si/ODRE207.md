@@ -4,9 +4,9 @@ naziv: "Odredba o službeni obleki delavcev v Upravi Republike Slovenije za pomo
 vrsta: "odredba"
 datum: 1999-01-09
 sop: 1999-01-0006
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0006"
 ---
 

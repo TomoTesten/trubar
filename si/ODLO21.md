@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi odloka o tarifnem sistemu za prodajo telefonskih stori
 vrsta: "odlok"
 datum: 1999-01-15
 sop: 1999-01-0132
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0132"
 ---
 

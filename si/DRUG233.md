@@ -4,9 +4,9 @@ naziv: "Koeficienti rasti cen"
 vrsta: "drugi akt"
 datum: 1999-01-15
 sop: 1999-01-0074
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0074"
 ---
 

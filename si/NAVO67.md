@@ -4,9 +4,9 @@ naziv: "Navodilo o postopku za uveljavljanje pravice uvoza cestnih vozil po zni�
 vrsta: "navodilo"
 datum: 1999-01-15
 sop: 1999-01-0060
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0060"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Seznam fitofarmacevtskih sredstev, za katera so od 1. aprila 1998 do 28.
 vrsta: "drugi akt"
 datum: 1999-01-09
 sop: 1999-01-0010
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0010"
 ---
 

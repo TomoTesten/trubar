@@ -4,9 +4,9 @@ naziv: "Količnik za določitev letne akontacije davka od dohodkov iz dejavnosti
 vrsta: "drugi akt"
 datum: 1999-01-09
 sop: 1999-01-0015
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0015"
 ---
 

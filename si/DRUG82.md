@@ -4,9 +4,9 @@ naziv: "Seznam zdravil skupine A in B, za katera je bilo od 10. 10. 1998 do 4. 1
 vrsta: "drugi akt"
 datum: 1999-01-15
 sop: 1999-01-0062
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0062"
 ---
 
