@@ -16,6 +16,10 @@ spremembe:
     datum: 2002-05-15
     sop: 2002-01-2007
     naziv: "Zakon o spremembi in dopolnitvah obrtnega zakona"
+  - kratica: ObrZ-C
+    datum: 2004-02-27
+    sop: 2004-01-0775
+    naziv: "Zakon o spremembah in dopolnitvah obrtnega zakona"
 ---
 
 # Obrtni zakon
