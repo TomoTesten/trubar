@@ -16,6 +16,10 @@ spremembe:
     datum: 1997-12-29
     sop: 1997-01-4011
     naziv: "Zakon o spremembah in dopolnitvah zakona o obrambi"
+  - kratica: ZObr-C
+    datum: 2002-05-29
+    sop: 2002-01-2276
+    naziv: "Zakon o spremembah in dopolnitvah zakona o obrambi"
 ---
 
 # Zakon o obrambi
