@@ -4,9 +4,9 @@ naziv: "Navodilo za uskladitev računovodskih evidenc po tretjem odstavku 591. �
 vrsta: "navodilo"
 datum: 1994-01-28
 sop: 1994-01-0187
-organ: "ZVEZA RAČUNOVODIJ, FINANČNIKOV IN REVIZORJEV SLOVENIJE"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0187"
 ---
 

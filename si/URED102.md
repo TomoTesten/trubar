@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi višine in načinu plačevanja cestnine za uporabo c
 vrsta: "uredba"
 datum: 1994-02-11
 sop: 1994-01-0305
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0305"
 ---
 

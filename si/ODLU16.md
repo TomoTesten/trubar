@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi prvega odstavka 95. člena zakona o lokalni sam
 vrsta: "akt"
 datum: 1994-02-11
 sop: 1994-01-0289
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0289"
 ---
 

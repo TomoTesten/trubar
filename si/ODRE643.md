@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi cest, po katerih smejo motorna vozila prevažati ne
 vrsta: "odredba"
 datum: 1994-02-18
 sop: 1994-01-0363
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0363"
 ---
 

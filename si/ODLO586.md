@@ -4,9 +4,9 @@ naziv: "Odlok o soglasju k statutu Slovenskega inštituta za revizijo"
 vrsta: "odlok"
 datum: 1994-02-11
 sop: 1994-01-0269
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0269"
 ---
 

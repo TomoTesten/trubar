@@ -4,9 +4,9 @@ naziv: "Sklep o kontnem okviru za banke in hranilnice"
 vrsta: "sklep"
 datum: 1994-02-04
 sop: 1994-01-0241
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0241"
 ---
 

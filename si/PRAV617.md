@@ -4,9 +4,9 @@ naziv: "Pravilnik o pogojih, ki jih morajo izpolnjevati zaposleni v Zavodu za go
 vrsta: "pravilnik"
 datum: 1994-02-04
 sop: 1994-01-0237
-organ: "MINISTRSTVO ZA KMETIJSTVO IN GOZDARSTVO"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0237"
 ---
 

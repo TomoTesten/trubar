@@ -4,9 +4,9 @@ naziv: "Odredba o podatkih in poročilih, ki jih morajo Ministrstvu za finance s
 vrsta: "odredba"
 datum: 1994-01-14
 sop: 1994-01-0088
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0088"
 ---
 

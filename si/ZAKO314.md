@@ -4,9 +4,9 @@ naziv: "Zakon o investicijskih skladih in družbah za upravljanje (ZISDU)"
 vrsta: "akt"
 datum: 1994-02-11
 sop: 1994-01-0268
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0268"
 ---
 
