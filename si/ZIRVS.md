@@ -16,6 +16,10 @@ spremembe:
     datum: 1994-12-09
     sop: 1994-01-2724
     naziv: "Zakon o spremembah in dopolnitvah zakona o izvajanju Resolucij Varnostnega sveta OZN št. 757/1992 in 820/1993"
+  - kratica: ZIRVS-C
+    datum: 1995-12-15
+    sop: 1995-01-3328
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izvajanju resolucij Varnostnega sveta OZN, ki določajo ukrepe zoper Republiko Srbijo, Republiko Črno goro in območja Bosne in Hercegovine pod nadzorom sil bosanskih Srbov"
 ---
 
 # Zakon o izvajanju resolucije varnostnega sveta OZN št. 757/1992
