@@ -7,6 +7,11 @@ sop: 1992-01-2484
 objava: "Uradni list RS 54/92  str. 3077"
 kljucne_besede: ["socialna politika", "socialna pomoč", "socialna varnost", "socialno skrbstvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2484"
+spremembe:
+  - kratica: ZSV-A
+    datum: 1999-06-01
+    sop: 1999-01-2028
+    naziv: "Zakon o spremembah in dopolnitvah zakona o socialnem varstvu"
 ---
 
 # Zakon o socialnem varstvu
