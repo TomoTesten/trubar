@@ -7,6 +7,11 @@ sop: 1995-01-0003
 objava: "Uradni list RS 1/95  str. 3"
 kljucne_besede: ["carina", "carinski predpisi"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0003"
+spremembe:
+  - kratica: CZ-A
+    datum: 1995-05-26
+    sop: 1995-01-1288
+    naziv: "Zakon o spremembi carinskega zakona"
 ---
 
 # Carinski zakon
