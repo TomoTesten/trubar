@@ -4,9 +4,9 @@ naziv: "Odločba o podelitvi statusa društva Slovenskemu društvu za zaščito 
 vrsta: "akt"
 datum: 2004-04-08
 sop: 2004-01-1490
-organ: "Ministrstvo za okolje, prostor in energijo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1490"
 ---
 

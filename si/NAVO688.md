@@ -4,9 +4,9 @@ naziv: "Navodilo o obrazcih za dajanje podpore v postopku kandidiranja na volitv
 vrsta: "navodilo"
 datum: 2004-03-31
 sop: 2004-01-1361
-organ: "Republiška volilna komisija"
-zbirka: "Drugi splošni in posamični akti"
-status: "Konzumiran ali obsoleten predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1361"
 ---
 
