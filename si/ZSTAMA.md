@@ -7,6 +7,11 @@ sop: 1995-01-0951
 objava: "Uradni list RS 20/95  str. 1577"
 kljucne_besede: ["podjetje v težavah", "pomoč podjetjem"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0951"
+spremembe:
+  - kratica: ZSTAMA-A
+    datum: 1995-12-08
+    sop: 1995-01-3296
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ukrepih za sanacijo gospodarskega položaja TAM Maribor, d.d. in njegovih odvisnih družb ter Avtomontaže AM BUS d.o.o., Ljubljana"
 ---
 
 # Zakon o ukrepih za sanacijo gospodarskega položaja TAM Maribor, d.d. in njegovih odvisnih družb ter Avtomontaže AM BUS, d.o.o., Ljubljana
