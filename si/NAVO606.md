@@ -4,9 +4,9 @@ naziv: "Pravilnik o obrazcih in načinu izvajanja tujih plačilnih navodil"
 vrsta: "navodilo"
 datum: 2002-06-28
 sop: 2002-01-2772
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2772"
 ---
 
