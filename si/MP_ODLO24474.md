@@ -2,11 +2,11 @@
 kratica: MP_ODLO24474
 naziv: "Odlok o javnem oglaševanju v občini Piran (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-05
+datum: 2004-08-24
 sop: 2004-53-0029
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Piran"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-53-0029"
 ---
 
