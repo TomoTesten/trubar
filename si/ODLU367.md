@@ -1,0 +1,39 @@
+---
+kratica: ODLU367
+naziv: "Odločba o zavrnitvi ustavne pritožbe zoper sodbo Vrhovnega sodišča v zvezi s sodbo Višjega sodišča v Mariboru in s sodbo Okrajnega sodišča v Mariboru"
+vrsta: "akt"
+datum: 2000-12-14
+sop: 2000-01-4810
+organ: "Ustavno sodišče Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Objavljen akt brez datuma začetka veljavnosti"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4810"
+---
+
+# Odločba o zavrnitvi ustavne pritožbe zoper sodbo Vrhovnega sodišča v zvezi s sodbo Višjega sodišča v Mariboru in s sodbo Okrajnega sodišča v Mariboru
+
+Ustavno sodišče je v postopku za preizkus ustavne pritožbe A. A. iz Ž. na seji dne 16. novembra 2000
+
+
+## o d l o č i l o:
+
+Ustavna pritožba A. A. zoper sodbo Vrhovnega sodišča št. II Ips 295/97 z dne 9. 7. 1998 v zvezi s sodbo Višjega sodišča v Mariboru št. Cp 1340/96 z dne 28. 1. 1997 in sodbo Okrajnega sodišča v Mariboru št. III P 304/94 z dne 30. 5. 1995 se zavrne.
+
+
+## O b r a z l o ž i t e v
+
+1. V pravdnem postopku so sodišča odločila, da zaradi odpovedi preneha najemna pogodba in da mora pritožnica (tedaj toženka) izprazniti sporni poslovni prostor. Sodišča vseh treh stopenj so ugotovila, da je bila sporna nepremičnina predmet zaključenega denacionalizacijskega postopka in da je tožnica lastnica 1/2 sporne nepremičnine, glede druge polovice pa ji je (do zaključka zapuščinskega postopka po umrli solastnici) priznan položaj skrbnice za posebni primer.
+2. V ustavni pritožbi pritožnica navaja, da je na podlagi odločitve sodišč prisiljena izprazniti poslovne prostore, katerih vrednost je v preteklosti z vlaganji povečala. Navaja tudi, da je bilo v sodnih postopkih drugih najemnikov poslovnih prostorov v isti stavbi proti isti tožnici odločeno drugače in da so bili zahtevki zavrnjeni ali pa je bila sodba sodišča prve stopnje razveljavljena. Sodišča naj bi v enakih primerih zavzela stališče, da tožnica ni legitimirana za vložitev tožbe za odpoved najemne pogodbe in izpraznitev poslovnih prostorov. Pritožnica meni, da je s tem, ko odločitev sodišča v njenem primeru odstopa od odločitev v drugih enakih primerih, kršena njena pravica do enakega varstva pravic po 22. členu ustave oziroma pravica do enakosti pred zakonom po 14. členu ustave. V dopolnitvi ustavne pritožbe še navaja, da tudi iz drugih, med tem izvedenih postopkov, izhaja, da tožnica ni edina dedinja in lastnica sporne nepremičnine.
+3. Senat ustavnega sodišča je na seji dne 30. 5. 2000 sklenil, da se ustavna pritožba sprejme v obravnavo – 54. člen zakona o ustavnem sodišču (Uradni list RS, št. 15/94 – v nadaljevanju: ZUstS). V postopku je ustavno sodišče skladno s 56. členom ZUstS ustavno pritožbo in sklep o sprejemu vročilo sodišču, ki je izdalo izpodbijani sklep, v skladu z 22. členom ustave pa tudi nasprotni stranki iz pravdnega postopka (tožnici), in jima omogočilo, da na ustavno pritožbo odgovorita. B. B., ki je v pravdnem postopku, v katerem je bila izdana izpodbijana sodba, sodelovala kot tožnica, v odgovoru na ustavno pritožbo navaja, da odpoved najemnega razmerja spada v posle redne uprave, odpoved najemne pogodbe pa naj bi bila upravičena tudi zato, ker da najemnica že več let ni plačala najemnine. Meni, da druge sodne odločbe, na katere se sklicuje pritožnica, z obravnavano zadevo nimajo zveze. Navaja tudi, da z drugima najemnikoma v isti stavbi ni enakih sporov kot s pritožnico.
+4. Navedb pritožnice glede vlaganj v poslovni prostor ter glede drugih sodnih postopkov v zvezi z dedovanjem spornih nepremičnin v postopku preizkusa te ustavne pritožbe ni mogoče upoštevati, saj tudi za odločitev sodišč v času, ko so odločala, te okoliščine niso bile relevantne. Sicer pa je ustrezno varstvo pravic najemnikov denacionaliziranih poslovnih prostorov naknadno zagotovil zakon o spremembah in dopolnitvah zakona o denacionalizaciji (Uradni list RS, št. 65/98), ki v 24. členu omogoča tudi poseganje v že pravnomočno odločene zadeve.
+5. Pač pa je za odločitev ustavnega sodišča lahko pomembna pritožničina navedba, da naj bi sodišče v njenem primeru odločilo drugače kot v podobnih istovrstnih primerih. Iz pravice do enakega varstva pravic v postopku po 22. členu ustave, ki je poseben izraz pravice do enakosti pred zakonom po drugem odstavku 14. člena ustave, namreč izhaja med drugim tudi zahteva, da sodišče ne sme samovoljno in arbitrarno odstopiti od uveljavljene in enotne sodne prakse. Vendar je v obravnavani zadevi treba upoštevati, da je na zadnji stopnji v pritožničinem primeru odločalo Vrhovno sodišče, v drugih primerih, na katere se sklicuje pritožnica (in tudi prilaga sklep višjega sodišča v enem izmed teh primerov), pa je doslej na najvišji stopnji odločalo le višje sodišče. Zaradi tega ni sprejemljiva trditev, da naj bi Vrhovno sodišče odstopilo od sodne prakse. Sodna praksa se očitno pred odločanjem v pritožničini zadevi še ni izoblikovala. Pritožnica pa ni izkazala, da bi Vrhovno sodišče v njeni zadevi odločilo drugače, kot sicer redno odloča v istovrstnih zadevah. Za kršitev pravice do enakega varstva pravic po 22. členu ustave torej ne gre.
+6. Odločitev sodišč v obravnavani zadevi tudi ni očitno napačna in brez razumne pravne obrazložitve ter s tem samovoljna in arbitrarna, kar bi tudi bilo v nasprotju s pravico do enakega varstva pravic po 22. členu ustave. Za odločitev v zadevi je bilo bistveno sporno vprašanje, ali je tožnica kot skrbnica za posebni primer lahko samostojno, brez soglasja centra za socialno delo, odločala o odpovedi najemne pogodbe. V skladu z 211. členom zakona o zakonski zvezi in družinskih razmerjih (Uradni list SRS, št. 14/89 in nasl.) skrbnik za posebni primer lahko samostojno opravlja pravne posle, ki ne presegajo okvira rednega upravljanja. Stališče, da med takšne posle sodi tudi odpoved najemne pogodbe, je razumno in (kot izhaja tudi iz obrazložitve sodbe višjega sodišča) v teoriji in sodni praksi priznano. Stališču sodišč, da je tožnica lahko v svojstvu skrbnika za posebni primer tudi v imenu ostalih solastnikov odločala o odpovedi najemne pogodbe, ni mogoče očitati nerazumnosti in očitne napačnosti.
+7. Ker z izpodbijano sodbo niso bile kršene človekove pravice, je ustavno sodišče ustavno pritožbo zavrnilo.
+8. Ustavno sodišče je to odločbo sprejelo na podlagi prvega odstavka 59. člena ZUstS v sestavi: predsednik Franc Testen ter sodnice in sodniki dr. Janez Čebulj, dr. Zvonko Fišer, Lojze Janko, Milojka Modrijan, dr. Lojze Ude,  dr. Mirjam Škrk in dr. Dragica Wedam-Lukić. Odločbo je sprejelo soglasno.
+
+Št. Up 300/98-11
+
+Ljubljana, dne 16. novembra 2000.
+
+Predsednik
+Franc Testen l. r.
