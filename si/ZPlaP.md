@@ -12,6 +12,10 @@ spremembe:
     datum: 2003-02-14
     sop: 2003-01-0587
     naziv: "Zakon o dopolnitvi zakona o plačilnem prometu"
+  - kratica: ZPlaP-B
+    datum: 2004-04-15
+    sop: 2004-01-1604
+    naziv: "Zakon o spremembah in dopolnitvah zakona o plačilnem prometu"
 ---
 
 # Zakon o plačilnem prometu
