@@ -7,6 +7,11 @@ sop: 1992-01-2156
 objava: "Uradni list RS 46/92  str. 2797"
 kljucne_besede: ["delitev na volilne enote", "volitve", "parlamentarne volitve", "Državni zbor"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2156"
+spremembe:
+  - kratica: ZDVEDZ-A
+    datum: 2004-07-23
+    sop: 2004-01-3533
+    naziv: "Zakon o spremembah in dopolnitvah zakona o določitvi volilnih enot za volitve poslancev v državni zbor"
 ---
 
 # Zakon o določitvi volilnih enot za volitve poslancev v državni zbor
