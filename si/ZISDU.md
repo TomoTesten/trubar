@@ -7,6 +7,11 @@ sop: 1994-01-0268
 objava: "Uradni list RS 6/94  str. 332"
 kljucne_besede: ["družba za upravljanje", "investicijska družba", "vrednostni papirji"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0268"
+spremembe:
+  - kratica: ZISDU-A
+    datum: 1997-05-09
+    sop: 1997-01-1487
+    naziv: "Zakon o spremembah in dopolnitvah zakona o investicijskih skladih in družbah za upravljanje"
 ---
 
 # Zakon o investicijskih skladih in družbah za upravljanje
