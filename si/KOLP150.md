@@ -4,9 +4,9 @@ naziv: "Razlaga kolektivne pogodbe dejavnosti gostinstva in turizma Slovenije"
 vrsta: "akt"
 datum: 2003-04-04
 sop: 2003-01-1433
-organ: "Komisija za razlago kolektivne pogodbe dejavnosti gostinstva in turizma Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-1433"
 ---
 

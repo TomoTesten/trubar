@@ -4,9 +4,9 @@ naziv: "Navodilo o unovčevanju menic pri bankah"
 vrsta: "navodilo"
 datum: 2003-04-11
 sop: 2003-01-1483
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-1483"
 ---
 
