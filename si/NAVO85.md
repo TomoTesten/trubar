@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu izdajanja mnenja, da posamezne barve za fasade, zidov
 vrsta: "navodilo"
 datum: 1992-08-07
 sop: 1992-01-1981
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1981"
 ---
 

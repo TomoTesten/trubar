@@ -4,9 +4,9 @@ naziv: "Navodilo o uresničevanju pravic vojaških obveznikov med opravljanjem v
 vrsta: "navodilo"
 datum: 1992-07-24
 sop: 1992-01-1798
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1798"
 ---
 

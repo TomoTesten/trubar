@@ -4,9 +4,9 @@ naziv: "Akt o potrditvi nasledstva glede konvencij, statutov in drugih mednarodn
 vrsta: "akt"
 datum: 1992-07-17
 sop: 1992-02-0054
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-02-0054"
 ---
 

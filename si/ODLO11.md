@@ -4,9 +4,9 @@ naziv: "Odlok o preoblikovanju Inštituta za novejšo zgodovino v javni raziskov
 vrsta: "odlok"
 datum: 1992-08-07
 sop: 1992-01-1978
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1978"
 ---
 

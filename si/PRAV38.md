@@ -4,9 +4,9 @@ naziv: "Pravilnik o pogojih za opravljanje lekarniške dejavnosti"
 vrsta: "pravilnik"
 datum: 1992-07-28
 sop: 1992-01-1885
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1885"
 ---
 

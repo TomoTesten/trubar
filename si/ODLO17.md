@@ -2,10 +2,11 @@
 kratica: ODLO17
 naziv: "Odlok o razdelitvi javnega zavoda Slovensko narodno gledališče Ljubljana na javne zavode"
 vrsta: "odlok"
-datum: 1992-04-17
+datum: 1992-08-07
 sop: 1992-01-0930
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0930"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o jamstvu Republike Slovenije za najetje kreditov in izdajo obvezn
 vrsta: "akt"
 datum: 1992-08-01
 sop: 1992-01-1933
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1933"
 ---
 

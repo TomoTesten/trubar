@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembah in dopolnitvah pravilnika o pogojih, ki jih moraj
 vrsta: "pravilnik"
 datum: 1992-08-07
 sop: 1992-01-1949
-organ: "MINISTRSTVO ZA ZDRAVSTVO, DRUŽINO IN SOCIALNO VARSTVO"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1949"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odlok o najnižjih zavarovalnih vsotah, na katere mora biti sklenjeno za
 vrsta: "odlok"
 datum: 1992-08-01
 sop: 1992-01-1905
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1905"
 ---
 

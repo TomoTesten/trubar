@@ -4,9 +4,9 @@ naziv: "Odredba o kontrolnih listkih za označevanje tobačnih izdelkov"
 vrsta: "odredba"
 datum: 1992-08-31
 sop: 1992-01-2035
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2035"
 ---
 

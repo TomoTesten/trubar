@@ -4,9 +4,9 @@ naziv: "Odlok o spremembah in dopolnitvah odloka o kontnem planu bank in drugih 
 vrsta: "odlok"
 datum: 1992-08-01
 sop: 1992-01-1896
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1896"
 ---
 

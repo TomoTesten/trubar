@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah sklepa o izdajanju blagajniških zapisov Banke Sloven
 vrsta: "sklep"
 datum: 1992-08-01
 sop: 1992-01-1941
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1941"
 ---
 

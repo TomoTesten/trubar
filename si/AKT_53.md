@@ -4,9 +4,9 @@ naziv: "Akt o notifikaciji nasledstva glede konvencij Organizacije združenih na
 vrsta: "akt"
 datum: 1992-07-17
 sop: 1992-02-0055
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-02-0055"
 ---
 
