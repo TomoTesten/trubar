@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-08-22
     sop: 2002-01-3570
     naziv: "Zakon o spremembah in dopolnitvah zakona o izvršbi in zavarovanju"
+  - kratica: ZIZ-B
+    datum: 2004-02-20
+    sop: 2004-01-0631
+    naziv: "Zakon o spremembi zakona o spremembah in dopolnitvah zakona o izvršbi in zavarovanju"
 ---
 
 # Zakon o izvršbi in zavarovanju
