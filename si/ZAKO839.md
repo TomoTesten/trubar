@@ -4,9 +4,9 @@ naziv: "Zakon o spremembi zakona o začasni prepovedi sečnje v gozdovih v druž
 vrsta: "akt"
 datum: 1991-06-28
 sop: 1991-01-0022
-organ: "SKUPŠČINA RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0022"
 ---
 
