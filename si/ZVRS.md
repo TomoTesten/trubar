@@ -7,6 +7,11 @@ sop: 1993-01-0124
 objava: "Uradni list RS 4/93  str. 133"
 kljucne_besede: ["vlada"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0124"
+spremembe:
+  - kratica: ZVRS-A
+    datum: 1996-04-29
+    sop: 1996-01-1315
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Vladi Republike Slovenije"
 ---
 
 # Zakon o Vladi Republike Slovenije
