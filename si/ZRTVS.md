@@ -7,6 +7,11 @@ sop: 1994-01-0729
 objava: "Uradni list RS 18/94  str. 1033"
 kljucne_besede: ["radiodifuzija", "televizija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0729"
+spremembe:
+  - kratica: ZRTVS-B
+    datum: 1999-10-29
+    sop: 1999-01-4207
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Radioteleviziji Slovenija"
 ---
 
 # Zakon o Radioteleviziji Slovenija
