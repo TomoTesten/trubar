@@ -7,6 +7,11 @@ sop: 1999-01-2368
 objava: "Uradni list RS 50/99  str. 6225"
 kljucne_besede: ["investicijska družba", "sistem pokojninskega zavarovanja", "sklad"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2368"
+spremembe:
+  - kratica: ZPSPID-A
+    datum: 2002-07-04
+    sop: 2002-01-2812
+    naziv: "Zakon o spremembah zakona o prvem pokojninskem skladu in preoblikovanju pooblaščenih investicijskih družb"
 ---
 
 # Zakon o Prvem pokojninskem skladu Republike Slovenije in preoblikovanju pooblaščenih investicijskih družb
