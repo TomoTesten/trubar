@@ -12,6 +12,10 @@ spremembe:
     datum: 1999-12-27
     sop: 1999-01-5026
     naziv: "Zakon o spremembah in dopolnitvah zakona o vojnih veteranih"
+  - kratica: ZVV-B
+    datum: 2003-08-04
+    sop: 2003-01-3648
+    naziv: "Zakon o spremembah zakona o vojnih veteranih"
 ---
 
 # Zakon o vojnih veteranih
