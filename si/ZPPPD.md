@@ -7,6 +7,11 @@ sop: 1999-01-5025
 objava: "Uradni list RS 108/99  str. 16521"
 kljucne_besede: ["promet s prepovedanimi drogami"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-5025"
+spremembe:
+  - kratica: ZPPPD-A
+    datum: 2000-05-26
+    sop: 2000-01-2066
+    naziv: "Zakon o spremembi zakona o proizvodnji in prometu s prepovedanimi drogami"
 ---
 
 # Zakon o proizvodnji in prometu s prepovedanimi drogami
