@@ -12,6 +12,10 @@ spremembe:
     datum: 1999-10-29
     sop: 1999-01-4207
     naziv: "Zakon o spremembah in dopolnitvah zakona o Radioteleviziji Slovenija"
+  - kratica: ZRTVS-C
+    datum: 2001-10-10
+    sop: 2001-01-4106
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Radioteleviziji Slovenija"
 ---
 
 # Zakon o Radioteleviziji Slovenija
