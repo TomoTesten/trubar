@@ -4,9 +4,9 @@ naziv: "Odlok o ustanovitvi javnega zdravstvenega zavoda Klinični center Ljublj
 vrsta: "odlok"
 datum: 1992-07-10
 sop: 1992-01-1747
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1747"
 ---
 

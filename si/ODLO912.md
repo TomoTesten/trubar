@@ -4,9 +4,9 @@ naziv: "Odlok o spremembah in dopolnitvah odloka o ustanovitvi javnega podjetja 
 vrsta: "odlok"
 datum: 1992-07-03
 sop: 1992-01-1658
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1658"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah sklepa o dajanju reeskontnih in lombardnih kreditov"
 vrsta: "sklep"
 datum: 1992-07-03
 sop: 1992-01-1631
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1631"
 ---
 

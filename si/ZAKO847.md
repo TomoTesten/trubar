@@ -4,9 +4,9 @@ naziv: "Zakon o spremembi zakona o denarni enoti Republike Slovenije (ZDE-A)"
 vrsta: "akt"
 datum: 1992-07-03
 sop: 1992-01-1626
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1626"
 ---
 
