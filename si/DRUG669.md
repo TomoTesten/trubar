@@ -4,9 +4,9 @@ naziv: "Minimalna plača za mesec avgust 2000"
 vrsta: "drugi akt"
 datum: 2000-08-04
 sop: 2000-01-3264
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3264"
 ---
 

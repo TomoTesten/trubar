@@ -4,9 +4,9 @@ naziv: "Odlok o razglasitvi ustavnega zakona o dopolnitvi 80. člena ustave Repu
 vrsta: "odlok"
 datum: 2000-07-26
 sop: 2000-01-3051
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3051"
 ---
 

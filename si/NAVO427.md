@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu sporočanja podatkov o pogodbah o delu Zavodu Republi
 vrsta: "navodilo"
 datum: 2000-07-28
 sop: 2000-01-3193
-organ: "Zavod Republike Slovenije za zaposlovanje"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3193"
 ---
 
