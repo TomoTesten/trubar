@@ -4,9 +4,9 @@ naziv: "Zakon o lastninjenju spomenikov in znamenitosti v družbeni lastnini (ZL
 vrsta: "akt"
 datum: 1996-03-22
 sop: 1996-01-0950
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0950"
 ---
 

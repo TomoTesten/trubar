@@ -4,9 +4,9 @@ naziv: "Uredba o določitvi blaga, za katerega se pri izvozu plačuje taksa v le
 vrsta: "uredba"
 datum: 1996-03-29
 sop: 1996-01-1056
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1056"
 ---
 

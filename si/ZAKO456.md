@@ -4,9 +4,9 @@ naziv: "Zakon o davčnem postopku (ZDavP)"
 vrsta: "akt"
 datum: 1996-04-02
 sop: 1996-01-1062
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1062"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Statut Združenja zdravstvenih zavodov Slovenije (prečiščeno besedilo
 vrsta: "akt"
 datum: 1996-03-22
 sop: 1996-01-0866
-organ: "MINISTRSTVO ZA ZDRAVSTVO, DRUŽINO IN SOCIALNO VARSTVO"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0866"
 ---
 

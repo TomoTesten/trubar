@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve kolektivne pogodbe dejavnosti bank in hranilnic 
 vrsta: "akt"
 datum: 1996-04-02
 sop: 1996-01-1069
-organ: "Združenje bank Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1069"
 ---
 

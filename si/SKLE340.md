@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o vsebini letnega in polletnega poročila o pos
 vrsta: "sklep"
 datum: 1996-03-22
 sop: 1996-01-0864
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0864"
 ---
 
