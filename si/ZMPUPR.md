@@ -7,6 +7,11 @@ sop: 1999-01-1963
 objava: "Uradni list RS 39/99  str. 4565"
 kljucne_besede: ["nadzorni organ", "živilska inšpekcija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1963"
+spremembe:
+  - kratica: ZMPUPR-A
+    datum: 2000-12-29
+    sop: 2000-01-5206
+    naziv: "Zakon o dopolnitvi zakona o minimalni plači, o načinu usklajevanja plač in o regresu za letni dopust v obdobju 1999-2001"
 ---
 
 # Zakon o minimalni plači, o načinu usklajevanja plač in o regresu za letni dopust v obdobju 1999 - 2001
