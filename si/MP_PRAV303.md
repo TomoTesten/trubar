@@ -1,0 +1,178 @@
+---
+kratica: MP_PRAV303
+naziv: "Pravilnik o plačah občinskih funkcionarjev in nagradah članov delovnih teles občinskega sveta ter članov drugih občinskih organov ter o povračilih stroškov (PRAV)"
+vrsta: "občinski pravilnik"
+datum: 1999-05-18
+sop: 1999-01-1848
+organ: "Občina Podčetrtek"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1848"
+---
+
+# Pravilnik o plačah občinskih funkcionarjev in nagradah članov delovnih teles občinskega sveta ter članov drugih občinskih organov ter o povračilih stroškov (PRAV)
+
+Na podlagi 19. člena statuta Občine Podčetrtek (Uradni list RS, št. 30/95 in 58/98) ter v skladu s 100.b členom zakona o lokalni samoupravi (Uradni list RS, št. 72/93, 57/94, 14/95, 26/97, 70/97, 10/98 in 74/98) je Občinski svet občine Podčetrtek na 5. redni seji dne 22. 4. 1999 sprejel
+
+
+## P R A V I L N I K
+o plačah občinskih funkcionarjev in nagradah članov delovnih teles občinskega sveta ter članov drugih občinskih organov ter o povračilih stroškov
+
+
+### I. SPLOŠNE DOLOČBE
+
+
+### 1. člen
+
+Za ureditev plač in delovnih razmerij občinskih funkcionarjev se smiselno uporabljajo določbe zakona o funkcionarjih v državnih organih (Uradni list SRS, št. 30/90, 18/91, 22/91; Uradni list RS, št. 2/91-I, 4/93) in določbe zakona o razmerjih plač v javnih zavodih, državnih organih in v organih lokalnih skupnosti (Uradni list RS, št. 18/94, 36/96), kolikor zakon o lokalni samoupravi (Uradni list RS, št. 72/93, 57/94, 14/95, 26/97, 70/97, 10/98 in 74/98) ne določa drugače.
+Za opravljanje občinskih funkcij imajo občinski funkcionarji pravico do plače, če funkcijo opravljajo poklicno oziroma do dela plače, če funkcijo opravljajo nepoklicno.
+Članom delovnih teles občinskega sveta, ki niso člani občinskega sveta, ter članom nadzornega odbora in volilne komisije pripadajo nagrade za njihovo delo, ki se oblikujejo na podlagi tega pravilnika smiselno določbam zakonov iz prvega odstavka tega člena.
+
+
+### 2. člen
+
+Občinski funkcionarji so: člani občinskega sveta, župan in podžupan.
+Člani občinskega sveta in podžupan opravljajo svojo funkcijo nepoklicno.
+Župan se lahko odloči, da bo svojo funkcijo opravljal poklicno.
+
+
+### 3. člen
+
+Z zakonom je za opravljanje funkcije župana Občine Podčetrtek, ki sodi v šesto skupino občin, določen količnik osnovne plače v višini 5,0. Županu pripada funkcijski dodatek v višini 50% količnika ter dodatek za delovno dobo v skladu z zakonom.
+Županu pripada za nepoklicno opravljanje funkcije 50% plače, oblikovane na podlagi zakona.
+
+
+### 4. člen
+
+Z zakonom določeni najvišji dovoljeni obseg sredstev, v okviru katerega se lahko oblikuje plačilo za opravljeno delo članom občinskega sveta, je podlaga za ugotovitev najvišjega možnega letnega obsega sredstev članom občinskega sveta ter nagrad članom delovnih teles občinskega sveta, ki niso člani občinskega sveta in članom nadzornega odbora ter drugih organov Občine Podčetrtek.
+Sredstva iz prejšnjega odstavka se zagotovijo v proračunu in v posameznem proračunskem letu lahko znašajo največ 15% plače župana za posameznega člana.
+
+
+### II. VIŠINA IN NAČIN DOLOČANJA DELA PLAČE
+
+
+### 5. člen
+
+Plača podžupana za nepoklicno opravljanje funkcije se lahko oblikuje v višini največ 30% plače župana, v skladu z naslednjimi kriteriji in merili:
+– za nadomeščanje župana v primeru odsotnosti ali zadržanosti - 5% plače župana,
+– za vodenje občinskega sveta - 5% plače župana,
+– za koordinacijo dela delovnih teles - 5% plače župana,
+– za pomoč županu pri izvrševanju nalog - 10% plače župana,
+– za opravljanje nalog iz pristojnosti župana po pooblastilu - 5% plače župana.
+Podžupan v primeru predčasnega prenehanja funkcije župana opravlja funkcijo župana in mu v času, ko opravlja funkcijo župana, pripada plača, ki bi jo dobil župan.
+Z odločbo oziroma s sklepom v skladu z zakonom in tem pravilnikom se na podlagi nalog, ki jih podžupan opravlja oziroma pooblastil, ki jih ima, določi količnik dela plače oziroma plačilo glede na dejansko opravljene ure.
+
+
+### 6. člen
+
+Članom občinskega sveta pripada za opravljeno delo pri izvrševanju funkcije občinskega svetnika pravica do plačila, ki znaša 0,30 količnika. Če se svetnik ne udeleži seje, mu plačilo, določeno s tem pravilnikom, ne pripada. Evidenco prisotnosti na sejah občinskega sveta vodi za to zadolženi delavec občinske uprave.
+Skupni del plačila člana občinskega sveta, ki vodi ali sodeluje v delovnih telesih, obračunano tako mesečno kot letno, ne sme presagati 15% dela plače župana.
+
+
+### 7. člen
+
+Podlaga za obračun plačila na podlagi tega pravilnika je znesek, ki je kot izhodiščna plača za prvi tarifni razred, za polni delovni čas, dogovorjen s kolektivno pogodbo za negospodarske dejavnosti.
+Plača oziroma del plače župana se ugotovi tako, da se osnova za obračun plače pomnoži s količnikom za plačo župana. Znesek se poveča za funkcijski dodatek ter dodatek za delovno dobo
+V okviru ugotovljenega zneska plače župana za poklicno opravljanje funkcije se določi najvišji možni znesek dela plače oziroma plačila za opravljeno delo posameznega občinskega funkcionarja ter zagotovi, da ta mesečno ali letno ne preseže najvišjega možnega zneska, ki ga določa zakon.
+
+
+### 8. člen
+
+Odločbo oziroma sklep o plači, delu plače oziroma plačilu za opravljeno delo, izda za posameznega občinskega funkcionarja komisija za mandatna vprašanja, volitve in imenovanja občinskega sveta.
+
+
+### 9. člen
+
+Delodajalcu, kjer je občinski funkcionar, ki opravlja funkcijo nepoklicno, v rednem delovnem razmerju in ki uveljavlja pravico do povračila dela plače za čas, ko je občinski funkcionar v rednem delovnem času opravljal občinsko funkcijo, se prizna povračilo največ v višini 33% plače, ki mu jo izplačuje za redni delovni čas.
+
+
+### III. NAGRADE
+
+
+### 10. člen
+
+Članom delovnih teles občinskega sveta, se za opravljanje dela v komisiji ali odboru občinskega sveta določi nagrada v obliki sejnine, ki se izplača za udeležbo na seji na podlagi pogodbe o delu, sklenjene za posamezno koledarsko leto.
+Sejnina za posamezno sejo znaša za:
+1. predsednika v višini - 0,24 količnika,
+2. člana v višini - 0,12 količnika.
+
+
+### 11. člen
+
+Predsednik in člani nadzornega odbora občine imajo pravico do nagrade v višini največ 10% za predsednika in največ 5% plače župana za člana. Nagrade ne smejo niti mesečno niti letno preseči najvišjega možnega zneska.
+– Nagrada se oblikuje glede na opravljeno delo, in sicer:
+– kot sejnina, ki se izplača za udeležbo na seji - 60%,
+– kot plačilo za izvedbo nadzora po programu dela ali sklepu nadzornega odbora - 60%.
+Nagrade predsednika in članov nadzornega odbora se izplačujejo na podlagi pogodbe o delu, sklenjene za posamezno koledarsko leto v skladu z evidenco opravljenega dela, ki jo vodi občinska uprava.
+
+
+### 12. člen
+
+Predsednik, tajnik in člani občinske volilne komisije imajo za opravljanje dela v zvezi z izvedbo lokalnih referendumov in volitev v skladu z zakonom pravico do nagrade.
+Sklep o obsegu sredstev za nagrade iz prejšnjega odstavka sprejme občinski svet najkasneje v 15 dneh po razpisu referenduma ali volitev.
+Nagrade članom volilne komisije se oblikujejo kot:
+– sejnina, ki se izplača za udeležbo na seji ter
+– plačilo za izvedbo nalog po sklepu komisije.
+Nagrade članom volilne komisije se oblikujejo v skladu z merili, ki jih določi s sklepom volilna komisija in izplačujejo na podlagi pogodbe o delu, sklenjene za posamezne volitve oziroma referendum.
+
+
+### IV. POVRAČILA, NADOMESTILA IN DRUGI PREJEMKI
+
+
+### 13. člen
+
+Občinski funkcionarji imajo pravico do povračil, nadomestil in drugih prejemkov v skladu s predpisi, ki urejajo te pravice.
+Občinski funkcionar ima pravico do povračila stroškov prevoza na službeni poti, ki nastanejo pri opravljanju funkcije ali v zvezi z njo. Stroški prevoza se povrnejo v skladu s predpisi.
+Občinski funkcionar ima pravico do dnevnice za službeno potovanje v skladu s predpisi.
+Občinski funkcionar ima pravico do povračila stroškov prenočevanja, ki nastanejo na službeni poti. Stroški prenočevanja se povrnejo na podlagi predloženega računa v skladu s predpisi.
+
+
+### 14. člen
+
+Pravice iz 13. člena tega pravilnika uveljavlja občinski funkcionar na podlagi naloga za službeno potovanje.
+Nalog za službeno potovanje izda župan.
+
+
+### V. NAČIN IZPLAČEVANJA
+
+
+### 15. člen
+
+Sredstva za izplačevanje plač, nagrad in povračil stroškov, ki jih imajo občinski funkcionarji, se zagotovijo iz sredstev proračuna.
+
+
+### 16. člen
+
+Plače se izplačujejo mesečno za pretekli mesec najkasneje do 15. dne v tekočem mesecu, plačilo za opravljeno delo in nagrade pa se izplačujejo trimesečno.
+Prejemki, določeni v 13. členu tega pravilnika, se izplačajo v petnajstih dneh po končanem službenem potovanju.
+
+
+### 17. člen
+
+Plače se usklajujejo skladno s spremembo zneska, ki je kot izhodiščna plača za prvi tarifni razred za polni delovni čas, dogovorjen s kolektivno pogodbo za negospodarske dejavnosti, nagrade se usklajujejo enkrat letno, povračila stroškov v zvezi z delom pa v skladu s predpisi, ki jih urejajo.
+
+
+### VI. PREHODNE IN KONČNE DOLOČBE
+
+
+### 18. člen
+
+Plače, nagrade in povračila, ki pripadajo občinskim funkcionarjem, predsedniku in članom nadzornega odbora ter članom komisij in odborov občinskega sveta, ki niso člani občinskega sveta, se izplačajo za nazaj in sicer od dneva potrditve mandata oziroma imenovanja.
+
+
+### 19. člen
+
+Določbe tega pravilnika, ki se nanašajo na člane komisij in odborov občinskega sveta, ki niso člani občinskega sveta, se smiselno uporabljajo tudi za izplačilo sejnin članom štaba za civilno zaščito in članom drugih komisij, odborov, svetov, ki jih ustanovi ali imenuje občinski svet ali župan.
+
+
+### 20. člen
+
+Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 06202-032/99
+
+Podčetrtek, dne 23. aprila 1999.
+
+Župan
+Občine Podčetrtek
+Marjan Drofenik, dipl. inž. str. l. r.
