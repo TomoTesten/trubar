@@ -4,9 +4,9 @@ naziv: "Sklep o ustanovitvi in sestavi Komisije za nadzor nad državnimi pomočm
 vrsta: "sklep"
 datum: 2000-03-15
 sop: 2000-01-1051
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1051"
 ---
 

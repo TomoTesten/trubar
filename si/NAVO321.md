@@ -4,8 +4,9 @@ naziv: "Navodilo o spremembah navodila za izvajanje preventivnega zdravstvenega 
 vrsta: "navodilo"
 datum: 2000-03-24
 sop: 2000-01-1164
-organ: "Ministrstvo za zdravstvo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1164"
 ---
 

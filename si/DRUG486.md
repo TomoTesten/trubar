@@ -4,9 +4,9 @@ naziv: "Seznam pooblaščenih izdelovalcev študij požarne varnosti (dopolnitev
 vrsta: "drugi akt"
 datum: 2000-03-31
 sop: 2000-01-1315
-organ: "Ministrstvo za obrambo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1315"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o spremembi odločbe o prepovedi uvoza in prevoza pošiljk doma
 vrsta: "akt"
 datum: 2000-03-31
 sop: 2000-01-1314
-organ: "Veterinarska uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1314"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o prenehanju mandata poslancu"
 vrsta: "sklep"
 datum: 2000-03-17
 sop: 2000-01-1066
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1066"
 ---
 

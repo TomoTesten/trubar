@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi premije za nakup pravice do nakupa deviz"
 vrsta: "sklep"
 datum: 2000-03-24
 sop: 2000-01-1167
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1167"
 ---
 
