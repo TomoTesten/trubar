@@ -24,6 +24,10 @@ spremembe:
     datum: 2000-04-07
     sop: 2000-01-1440
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstveni dejavnosti"
+  - kratica: ZZDej-F
+    datum: 2001-06-07
+    sop: 2001-01-2545
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstveni dejavnosti"
 ---
 
 # Zakon o zdravstveni dejavnosti
