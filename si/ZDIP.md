@@ -12,6 +12,10 @@ spremembe:
     datum: 1997-05-30
     sop: 1997-01-1811
     naziv: "Zakon o spremembi zakona o davku na izplačane plače"
+  - kratica: ZDIP-B
+    datum: 2001-12-28
+    sop: 2001-01-5322
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davku na izplačane plače"
 ---
 
 # Zakon o davku na izplačane plače
