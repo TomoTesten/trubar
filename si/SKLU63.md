@@ -1,0 +1,54 @@
+---
+kratica: SKLU63
+naziv: "Razveljavitev sklepov višjega in okrajnega sodišča"
+vrsta: "akt"
+datum: 2003-06-30
+sop: 2003-01-3082
+organ: "Ustavno sodišče Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Objavljen akt brez datuma začetka veljavnosti"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3082"
+---
+
+# Razveljavitev sklepov višjega in okrajnega sodišča
+
+Ustavno sodišče je v postopku odločanja o ustavni pritožbi A. A. iz Ž., ki jo zastopa B. B., odvetnica v Z., na seji dne 5. junija 2003
+
+
+## o d l o č i l o :
+
+1. Sklep Višjega sodišča v Kopru št. Cp 1081/99 z dne 29. 2. 2000 in sklep Okrajnega sodišča v Piranu št. Pl 20/97 z dne 29. 9. 1998 se razveljavita.
+2. Zadeva se vrne Okrajnemu sodišču v Piranu v novo odločanje.
+
+
+## O b r a z l o ž i t e v
+
+
+### A)
+
+1. S sklepom št. Pl 20/97 z dne 4. 7. 1997 je Okrajno sodišče v Piranu izdalo plačilni nalog zoper tožene stranke med katerimi je tudi pritožnica. Zoper plačilni nalog je pritožnica dne 21. 9. 1998 vložila ugovor, ki ga je Okrajno sodišče v Piranu z izpodbijanim sklepom kot prepoznega zavrglo, ker naj bi pritožnica plačilni nalog prejela dne 22. 8. 1997. Pritožbo pritožnice je Višje sodišče v Kopru s sklepom št. Cp 1081/99 z dne 29. 2. 2000 zavrnilo z obrazložitvijo, da je iz vročilnice v spisu razvidno, da ji je bil plačilni nalog vročen dne 22. 8. 1997 z nadomestno vročitvijo, kar je po mnenju sodišča v skladu s 141. in 142. členom tedaj veljavnega zakona o pravdnem postopku (Uradni list SFRJ, št. 4/77 in nasl. – v nadaljevanju: ZPP-77).
+2. Pritožnica v ustavni pritožbi navaja, da je okrajno sodišče zavrglo njen ugovor zoper plačilni nalog kot prepozen, ne da bi upoštevalo njene navedbe, da ji plačilni nalog sploh ni bil vročen in je zanj zvedela šele, ko je bil izdan sklep o izvršbi, v katerem je bil plačilni nalog št. Pl 20/97 z dne 4. 7. 1997 naveden kot izvršilni naslov. Prav tako naj sodišče ne bi upoštevalo njenega zatrjevanja, da v Ž. na naslovu V. 6a, kjer naj bi bila opravljena nadomestna vročitev sodelavcu, ni bila nikoli zaposlena. Po mnenju pritožnice je Okrajno sodišče v Piranu s tem, da izpodbijanega sklepa o zavrženju ni obrazložilo, storilo absolutno kršitev določb pravdnega postopka, na katero višje sodišče ni reagiralo. S tem je po mnenju pritožnice odstopilo od ustaljene sodne prakse. Od sodne prakse (priloženi so sklepi Višjega sodišča v Kopru št. Cp 1082/99 z dne 20. 6. 2000, št. Cp 1080/99 z dne 4. 4. 2000 in Cp 1074/99 z dne 20. 6. 2000) naj bi odstopilo tudi s tem, ko je v navedenih primerih, ki so popolnoma identični kot obravnavani, izpodbijane sklepe razveljavilo in zadevo vrnilo v nov postopek, v katerem bo treba preveriti, ali je bila nadomestna vročitev opravljena pravilno. Pritožnica Višjemu sodišču v Kopru očita tudi, da se ni opredelilo do njenih pritožbenih navedb o kršitvi postopka osebnega vročanja v zvezi z navedbami v ugovoru zoper plačilni nalog, do katerih sodišče prve stopnje sploh ni zavzelo stališča. Z izpodbijanima sklepoma naj bi bile pritožnici kršene pravice do enakosti pred zakonom iz 14. člena, pravica do enakega varstva pravic iz 22. člena in pravica do pritožbe iz 25. člena ustave.
+3. Senat ustavnega sodišča je s sklepom št. Up-426/01 z dne 17. 6. 2002 ustavno pritožbo sprejel v obravnavo. V skladu z določbo 56. člena zakona o ustavnem sodišču (Uradni list RS, št. 15/94 – v nadaljevanju: ZUstS) je ustavno sodišče ustavno pritožbo vročilo Višjemu sodišču v Kopru v skladu z določbo 22. člena ustave pa nasprotni stranki v pravdi. Poskusilo je ustavno pritožbo vročiti tudi solidarnim dolžnikom v pravdi, vendar vročitev ni uspela. Na navedbe v ustavni pritožbi ni odgovoril nihče.
+
+
+### B)
+
+4. Sestavni del pravice do enakega varstva pravic iz 22. člena ustave, ki je izraz pravice do enakosti pred zakonom iz drugega odstavka 14. člena ustave v postopkih pred sodišči in drugimi organi, je pravica stranke, da se v kontradiktornem postopku izjavi glede okoliščin, pomembnih za odločitev, ter poda svoja pravna naziranja. Obveznost sodišča, ki logično izhaja iz te pravice stranke, je, da se z navedbami strank seznani, prouči njihovo dopustnost in pravno relevantnost ter se do njih, če so dopustne in za odločitev pomembne, v obrazložitvi svoje odločbe opredeli. Obveznost obrazložitve sodne odločbe torej po eni strani izhaja iz pravice do izjave, po drugi strani pa je tudi v funkciji zagotavljanja pravice do pritožbe iz 25. člena ustave. Stranka namreč šele potem, ko izve, iz katerih razlogov je sodišče prve stopnje izdalo svojo odločbo, lahko učinkovito izvrši svojo pravico do pritožbe.
+5. V obravnavani zadevi je Okrajno sodišče v Piranu odločalo o pritožničini vlogi, naslovljeni kot ugovor zoper plačilni nalog in predlog za odpravo izvršljivosti plačilnega naloga. Pritožničina vloga vsebuje poleg navedb, ki predstavljajo vsebino ugovora, tudi obširne navedbe v zvezi z njegovo pravočasnostjo. Pritožnica je zatrjevala, da ji plačilni nalog ni bil vročen ter da je zanj izvedela šele v postopku za njegovo izvršitev. Zatrjevala je tudi, da podpis na povratnici ni njen, da je bila vročitev opravljena na naslovu, na katerem ni bila nikoli zaposlena, poleg tega pa je imela oseba, ki ji je bila pošiljka vročena, interes, da je pritožnica ne prejme, saj je njena sotožena stranka.
+6. Okrajno sodišče v Piranu je v obrazložitvi izpodbijanega sklepa, s katerim je zavrglo pritožničin ugovor zoper plačilni nalog, napisalo le, da je pritožnica plačilni nalog prejela dne 22. 8. 1997, njena pooblaščenka pa je ugovor vložila dne 22. 9.1998 in je torej zamudila 8-dnevni rok za vložitev ugovora. O predlogu za odpravo izvršljivosti plačilnega naloga sodišče z izpodbijanim sklepom ni odločilo.
+7. V okviru presoje utemeljenosti te ustavne pritožbe se ustavnemu sodišču ni treba opredeliti do vprašanja, ali je pritožnica ravnala pravilno, ko je svojo vlogo naslovila kot ugovor, ali bi vloženo pravno sredstvo moralo biti morebiti predlog za obnovo ali predlog za vrnitev v prejšnje stanje. Za to ustavnosodno presojo je pomembna vsebina pritožničine vloge in dejstvo, da je sodišče njeno vlogo obravnavalo kot ugovor. Od pravnega stališča oziroma pravne opredelitve sodišča, ki odloča v zadevi, je namreč odvisno, katere navedbe so tiste, ki so za odločitev relevantne in do katerih se mora sodišče opredeliti.
+8. Obrazložena sodna odločba je bistveni del poštenega postopka. Z njo je sodišče dolžno na konkreten način in z zadostno jasnostjo opredeliti razloge, na podlagi katerih je sprejelo svojo odločitev. Sodišče prve stopnje pa se v izpodbijanem sklepu do nobene izmed pritožničinih navedb v zvezi z okoliščinami vročitve sploh ni opredelilo. Glede na to, da je sodišče odločalo o pravočasnosti in s tem dopustnosti ugovora zoper plačilni nalog, ni mogoče reči, da navedbe v zvezi z okoliščinami vročitve plačilnega naloga za odločitev niso relevantne in da sodišču nanje ni bilo treba odgovoriti. Tudi ni mogoče šteti, da je sodišče s tem, ko je zapisalo, da je bila vročitev opravljena dne 22. 8. 1997, svojo odločitev o zavrženju ugovora ustrezno obrazložilo, saj taka obrazložitev ne vsebuje odgovorov na pritožničine konkretne, za odločitev o pravočasnosti ugovora relevantne in odločilne navedbe. Z izpodbijanim sklepom je torej sodišče prve stopnje prikrajšalo pritožnico za obrazloženo sodno odločbo in s tem kršilo njeno pravico do enakega varstva pravic iz 22. člena ustave ter, kot je razvidno iz naslednje točke obrazložitve, tudi pravico do pritožbe iz 25. člena ustave.
+9. Pritožnica je kljub temu, da iz sklepa sodišča prve stopnje niso razvidni razlogi za odločitev sodišča, zoper ta sklep vložila pritožbo. Pritožbeno sodišče se je v izpodbijanem sklepu, s katerim je pritožbo zavrnilo, sicer opredelilo do pritožničine pritožbene trditve, da vročitev ni bila opravljena v skladu z določbama 141. in 142. člena ZPP-77, vendar je obrazložitev, ki jo vsebuje izpodbijani sklep višjega sodišča, z vidika pravic iz 22. člena in 25. člena ustave nezadostna in neustrezna. Višje sodišče je napisalo, da je iz vročilnice razvidno, da je bil plačilni nalog vročen dne 22. 8. 1997 z nadomestno vročitvijo pritožničinemu sodelavcu. Ker pa naj pritožnica v nasprotju z ugovorom v pritožbi ne bi zatrjevala, da na naslovu, kjer je bila vročitev opravljena, ni bila zaposlena, ter da je prišlo pri vročitvi do nasprotij interesov, je bilo po mnenju višjega sodišča pritožbo treba zavrniti. Taka obrazložitev višjega sodišča pomeni kršitev pritožničine pravice do pritožbe, saj ne vsebuje odgovorov na vse relevantne pritožbene navedbe. Iz pritožničine pritožbe je razvidno, da je pritožnica tudi v njej zatrjevala, da bi moralo že sodišče prve stopnje preveriti, komu je bil plačilni nalog vročen, saj je to za vročitev pomembno. Pritožnica pa na svojo navedbo, da je bila vročitev opravljena na nepravem naslovu in nepravi osebi, ni dobila odgovora ne v postopku na prvi ne na drugi stopnji. Obrazložitev pritožbenega sodišča, da bo sodišče prve stopnje o pritožničinem predlogu za odpravo potrdila o izvršljivosti moralo še odločiti, pa je nesmiselna. O razlogih, zaradi katerih je ta predlog vložen in od katerih je odvisna odločitev o tem predlogu, je namreč sodišče prve stopnje že odločilo. V sklepu, s katerim je zavrglo pritožničin ugovor, je zavzelo stališče, da je bil pritožnici plačilni nalog pravilno vročen dne 22. 8. 1997. S tem je že zavzelo svoje stališče glede okoliščin v zvezi z vročitvijo, ki so za odločitev o pritožničinem predlogu za odpravo potrdila o izvršljivosti bistvene.
+10. Ker sta bili z izpodbijanima sklepoma kršeni pritožničini ustavni pravici iz 22. in 25. člena ustave, ju je ustavno sodišče razveljavilo in vrnilo zadevo Okrajnemu sodišču v Piranu v novo odločanje.
+
+
+### C)
+
+11. Ustavno sodišče je sprejelo to odločbo na podlagi prvega odstavka 59. člena ZUstS v sestavi: predsednica dr. Dragica Wedam Lukić ter sodnice in sodniki dr. Janez Čebulj, dr. Zvonko Fišer, Lojze Janko, mag. Marija Krisper Kramberger, Milojka Modrijan, dr. Ciril Ribičič, dr. Mirjam Škrk in Jože Tratnik. Odločbo je sprejelo soglasno.
+
+Št. Up-426/01-17
+
+Ljubljana, dne 5. junija 2003.
+
+Predsednica
+dr. Dragica Wedam Lukić l. r.
