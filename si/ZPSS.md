@@ -7,6 +7,11 @@ sop: 1991-01-0020
 objava: "Uradni list RS 1/91  str. 67"
 kljucne_besede: ["stečaj", "likvidacija", "banka", "hranilnica"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0020"
+spremembe:
+  - kratica: ZPSS-A
+    datum: 1993-08-06
+    sop: 1993-01-1798
+    naziv: "Zakon o spremembah zakona o predsanaciji, sanaciji, stečaju in likvidaciji bank in hranilnic"
 ---
 
 # Zakon o predsanaciji, sanaciji, stečaju in likvidaciji bank in hranilnic
