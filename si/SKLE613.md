@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi skupnega števila pripravniških mest na posameznih s
 vrsta: "sklep"
 datum: 1997-02-28
 sop: 1997-01-0689
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0689"
 ---
 

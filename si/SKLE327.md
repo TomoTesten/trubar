@@ -4,9 +4,9 @@ naziv: "Sklep o dopolnitvi sklepa o poročanju in obveščanju javnosti o poslov
 vrsta: "sklep"
 datum: 1997-02-14
 sop: 1997-01-0442
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0442"
 ---
 

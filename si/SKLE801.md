@@ -4,9 +4,9 @@ naziv: "Sklep o vključevanju žiro računov in drugih računov, odprtih pri Age
 vrsta: "sklep"
 datum: 1997-02-07
 sop: 1997-01-0422
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0422"
 ---
 

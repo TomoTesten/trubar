@@ -4,9 +4,9 @@ naziv: "Telekomunikacijska oprema v obdobju med oktobrom 1996 in februarjem 1997
 vrsta: "drugi akt"
 datum: 1997-02-21
 sop: 1997-01-0510
-organ: "Agencija za telekomunikacije, radiodifuzijo in pošto Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0510"
 ---
 

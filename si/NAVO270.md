@@ -4,9 +4,9 @@ naziv: "Navodilo o pridobitvi statusa društva, ki deluje v javnem interesu na p
 vrsta: "navodilo"
 datum: 1997-02-28
 sop: 1997-01-0612
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0612"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o dopolnitvah sklepa o kontnem okviru za banke in hranilnice"
 vrsta: "sklep"
 datum: 1997-02-14
 sop: 1997-01-0440
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0440"
 ---
 

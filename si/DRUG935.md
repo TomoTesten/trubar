@@ -4,9 +4,9 @@ naziv: "Seznam zdravil, za katera je bilo od 9. 11. 1996 do 20. 12. 1996 izdano 
 vrsta: "drugi akt"
 datum: 1997-03-14
 sop: 1997-01-0767
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0767"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi višine povračil za nove priključitve in za poveča
 vrsta: "sklep"
 datum: 1997-01-31
 sop: 1997-01-0292
-organ: "Ministrstvo za gospodarske dejavnosti"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0292"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o prenosu vodenja računov obvezne rezerve bank in hranilnic na Ba
 vrsta: "sklep"
 datum: 1997-02-21
 sop: 1997-01-0576
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0576"
 ---
 

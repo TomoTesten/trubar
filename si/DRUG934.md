@@ -4,9 +4,9 @@ naziv: "Spremembe seznama zdravil, za katera je bilo od 19. 6. 1992 do 9. 11. 19
 vrsta: "drugi akt"
 datum: 1997-03-14
 sop: 1997-01-0766
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0766"
 ---
 

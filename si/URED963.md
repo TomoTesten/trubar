@@ -4,9 +4,9 @@ naziv: "Uredba o kriterijih za razporejanje državljanov na obrambne dolžnosti"
 vrsta: "uredba"
 datum: 1997-02-07
 sop: 1997-01-0362
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0362"
 ---
 
