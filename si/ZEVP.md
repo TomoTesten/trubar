@@ -7,6 +7,11 @@ sop: 1992-01-2157
 objava: "Uradni list RS 46/92  str. 2801"
 kljucne_besede: ["aktivna volilna pravica", "pasivna volilna pravica", "vpis v volilni imenik", "volilni imenik"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2157"
+spremembe:
+  - kratica: ZEVP-A
+    datum: 2000-08-11
+    sop: 2000-01-3389
+    naziv: "Zakon o dopolnitvah zakona o evidenci volilne pravice"
 ---
 
 # Zakon o evidenci volilne pravice
