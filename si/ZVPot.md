@@ -7,6 +7,11 @@ sop: 1998-01-0815
 objava: "Uradni list RS 20/98  str. 1293"
 kljucne_besede: ["varstvo potrošnikov"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0815"
+spremembe:
+  - kratica: ZVPot-A
+    datum: 2002-12-18
+    sop: 2002-01-5391
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu potrošnikov"
 ---
 
 # Zakon o varstvu potrošnikov
