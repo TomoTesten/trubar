@@ -12,6 +12,10 @@ spremembe:
     datum: 2003-03-07
     sop: 2003-01-0902
     naziv: "Zakon o dopolnitvi zakona o varstvu pred ionizirajočimi sevanji in jedrski varnosti"
+  - kratica: ZVISJV-B
+    datum: 2004-04-30
+    sop: 2004-01-2214
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu pred ionizirajočimi sevanji in jedrski varnosti"
 ---
 
 # Zakon o varstvu pred ionizirajočimi sevanji in jedrski varnosti
