@@ -4,9 +4,9 @@ naziv: "Sklep o merilih za določanje višine subvencij za usposabljanje mladih 
 vrsta: "sklep"
 datum: 1995-11-10
 sop: 1995-01-2941
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2941"
 ---
 

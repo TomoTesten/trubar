@@ -4,8 +4,9 @@ naziv: "Uredba o spremembi uredbe o omejevanju obtežb in porabe električne ene
 vrsta: "uredba"
 datum: 1995-11-10
 sop: 1995-01-2940
-organ: "Vlada Republike Slovenije"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2940"
 ---
 

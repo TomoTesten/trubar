@@ -4,9 +4,9 @@ naziv: "Zakon o poroštvu Republike Slovenije za najete kredite Nuklearne elektr
 vrsta: "akt"
 datum: 1995-10-20
 sop: 1995-01-2786
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2786"
 ---
 

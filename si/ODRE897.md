@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi cen utekočinjenega naftnega plina iz republiških 
 vrsta: "odredba"
 datum: 1995-11-06
 sop: 1995-01-2927
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2927"
 ---
 

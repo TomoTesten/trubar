@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi območij občin, ki jih je v letu 1995 prizadelo neur
 vrsta: "sklep"
 datum: 1995-10-20
 sop: 1995-01-2844
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2844"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o izvrševanju obveznosti do predsednika republike na obrambnem
 vrsta: "navodilo"
 datum: 1995-11-10
 sop: 1995-01-2946
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2946"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o gospodarjenju s počitniškimi kapacitetami slovenskih železnic
 vrsta: "akt"
 datum: 1995-11-10
 sop: 1995-01-2936
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2936"
 ---
 

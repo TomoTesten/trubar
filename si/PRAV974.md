@@ -4,9 +4,9 @@ naziv: "Pravilnik o postopku in merilih za sofinanciranje programov dejavnosti o
 vrsta: "pravilnik"
 datum: 1995-10-30
 sop: 1995-01-2867
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2867"
 ---
 
