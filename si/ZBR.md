@@ -7,6 +7,11 @@ sop: 1995-01-2790
 objava: "Uradni list RS 60/95  str. 4749"
 kljucne_besede: ["minimalna zaloga", "državne rezerve", "rezerve"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2790"
+spremembe:
+  - kratica: ZBR-A
+    datum: 1999-05-21
+    sop: 1999-01-1876
+    naziv: "Zakon o dopolnitvah zakona o blagovnih rezervah"
 ---
 
 # Zakon o blagovnih rezervah
