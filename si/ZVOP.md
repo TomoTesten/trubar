@@ -7,6 +7,11 @@ sop: 1999-01-2792
 objava: "Uradni list RS 59/99  str. 7534"
 kljucne_besede: ["varstvo podatkov", "osebni podatki"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2792"
+spremembe:
+  - kratica: ZVOP-A
+    datum: 2001-07-09
+    sop: 2001-01-3013
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu osebnih podatkov"
 ---
 
 # Zakon o varstvu osebnih podatkov
