@@ -4,8 +4,9 @@ naziv: "Pravilnik za energijsko označevanje gospodinjskih pralno-sušilnih stro
 vrsta: "odredba"
 datum: 2001-12-19
 sop: 2001-01-5082
-organ: "Ministrstvo za okolje in prostor"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5082"
 ---
 

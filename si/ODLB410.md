@@ -4,9 +4,9 @@ naziv: "Odločba o podelitvi statusa društva"
 vrsta: "akt"
 datum: 2001-12-13
 sop: 2001-01-4919
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4919"
 ---
 

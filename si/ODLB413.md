@@ -4,9 +4,9 @@ naziv: "Odločba o dodelitvi licence za opravljanje dejavnosti organiziranja tur
 vrsta: "akt"
 datum: 2001-12-19
 sop: 2001-01-5087
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5087"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Proračun Republike Slovenije za leto 2002 (DP 2002)"
 vrsta: "akt"
 datum: 2001-12-17
 sop: 2001-01-5059
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5059"
 ---
 

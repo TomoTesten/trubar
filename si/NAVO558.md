@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila za obveščanje o naravnih
 vrsta: "navodilo"
 datum: 2001-12-17
 sop: 2001-01-5065
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5065"
 ---
 

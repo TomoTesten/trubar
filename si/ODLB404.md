@@ -4,9 +4,9 @@ naziv: "Odločba št. 5 o priznavanju naravne mineralne vode"
 vrsta: "akt"
 datum: 2001-12-07
 sop: 2001-01-4869
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4869"
 ---
 

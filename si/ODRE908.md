@@ -4,9 +4,9 @@ naziv: "Odredba za energijsko označevanje gospodinjskih pomivalnih strojev"
 vrsta: "odredba"
 datum: 2001-12-19
 sop: 2001-01-5083
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5083"
 ---
 
