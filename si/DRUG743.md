@@ -4,9 +4,9 @@ naziv: "Spisek izdanih dovoljenj (atestov) za telekomunikacijsko opremo v četrt
 vrsta: "drugi akt"
 datum: 1995-02-10
 sop: 1995-01-0495
-organ: "Uprava RS za telekomunikacije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0495"
 ---
 

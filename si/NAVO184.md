@@ -4,9 +4,9 @@ naziv: "Navodilo o postopku homologacije vozil v Republiki Sloveniji"
 vrsta: "navodilo"
 datum: 1995-01-27
 sop: 1995-01-0376
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0376"
 ---
 

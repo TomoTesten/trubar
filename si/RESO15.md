@@ -4,9 +4,9 @@ naziv: "Resolucija o strateških ciljih na področju razvoja turizma v Republiki
 vrsta: "akt"
 datum: 1995-02-04
 sop: 1995-01-0455
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0455"
 ---
 

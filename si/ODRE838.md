@@ -4,8 +4,9 @@ naziv: "Odredba o spremembi odredbe o številu in sedežu notarskih mest"
 vrsta: "odredba"
 datum: 1995-02-10
 sop: 1995-01-0493
-organ: "Ministrstvo za pravosodje"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0493"
 ---
 

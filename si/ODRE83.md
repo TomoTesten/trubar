@@ -4,9 +4,9 @@ naziv: "Odredba o kakovosti tekočih goriv glede vsebnosti žvepla, svinca in be
 vrsta: "odredba"
 datum: 1995-02-10
 sop: 1995-01-0492
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0492"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o obrazcu za obračun davka od dobička pravnih oseb"
 vrsta: "odredba"
 datum: 1995-01-31
 sop: 1995-01-0432
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0432"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Seznam gotovih zdravil, za katera je bilo od 12.11.1994 do 16.12.1994 da
 vrsta: "drugi akt"
 datum: 1995-01-31
 sop: 1995-01-0433
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0433"
 ---
 

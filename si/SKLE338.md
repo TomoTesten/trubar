@@ -4,9 +4,9 @@ naziv: "Sklep o vsebini letnega in polletnega poročila o poslovanju investicijs
 vrsta: "sklep"
 datum: 1995-01-27
 sop: 1995-01-0389
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0389"
 ---
 

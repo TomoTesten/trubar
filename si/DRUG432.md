@@ -4,9 +4,9 @@ naziv: "Odvetniška tarifa"
 vrsta: "drugi akt"
 datum: 1995-02-04
 sop: 1995-01-0458
-organ: "Odvetniška zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0458"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi vrednosti točke za izračun vrednosti nadomestila 
 vrsta: "odredba"
 datum: 1995-01-27
 sop: 1995-01-0379
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0379"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o homologiranju avtoplaščev za cestna motorna vozila in njihov
 vrsta: "odredba"
 datum: 1995-01-27
 sop: 1995-01-0368
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0368"
 ---
 
