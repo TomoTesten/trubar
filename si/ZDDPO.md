@@ -12,6 +12,10 @@ spremembe:
     datum: 1995-04-07
     sop: 1995-01-0885
     naziv: "Zakon o spremembah in dopolnitvah zakona o davku od dobička pravnih oseb"
+  - kratica: ZDDPO-B
+    datum: 1996-06-29
+    sop: 1996-01-2270
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davku od dobička pravnih oseb"
 ---
 
 # Zakon o davku od dobička pravnih oseb
