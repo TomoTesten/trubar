@@ -4,9 +4,9 @@ naziv: "Pravilnik o minimalnih zahtevah pri zagotavljanju medicinske oskrbe posa
 vrsta: "pravilnik"
 datum: 2001-04-19
 sop: 2001-01-1683
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1683"
 ---
 

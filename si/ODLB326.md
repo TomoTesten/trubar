@@ -4,9 +4,9 @@ naziv: "Odločba o dopolnitvi odločbe o prepovedi uvoza v Republiko Slovenijo i
 vrsta: "akt"
 datum: 2001-04-28
 sop: 2001-01-1912
-organ: "Veterinarska uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1912"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Proračun Republike Slovenije za leto 2001 (DP2001)"
 vrsta: "akt"
 datum: 2001-05-04
 sop: 2001-01-1951
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1951"
 ---
 

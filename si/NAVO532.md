@@ -4,8 +4,9 @@ naziv: "Navodilo o načinu označevanja izdelkov iz plemenitih kovin"
 vrsta: "navodilo"
 datum: 2001-04-13
 sop: 2001-01-1619
-organ: "Ministrstvo za šolstvo, znanost in šport"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1619"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o prepovedi uvoza pošiljk domačih in divjih prašičev ter iz
 vrsta: "akt"
 datum: 2001-04-20
 sop: 2001-01-1804
-organ: "Veterinarska uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1804"
 ---
 

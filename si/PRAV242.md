@@ -4,9 +4,9 @@ naziv: "Pravilnik o ocenjevanju in razvrščanju trupov ovc jagnjet in sesnih ja
 vrsta: "pravilnik"
 datum: 2001-04-19
 sop: 2001-01-1682
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1682"
 ---
 
