@@ -1,81 +1,70 @@
 ---
 kratica: ZIOD91
-naziv: "Zakon o spremembah in dopolnitvah zakona o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto"
+naziv: "Zakon o spremembah in dopolnitvah zakona o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto in prvo tromesečje 1992 leta"
 vrsta: "Sprejet zakon"
-datum: 1991-11-21
-sop: 1991-01-1092
-objava: "Uradni list RS 26/91  str. 1089"
+datum: 1992-03-20
+sop: 1992-01-0720
+objava: "Uradni list RS 13/92  str. 877"
 kljucne_besede: ["mesečna plača"]
-vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1092"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0720"
 ---
 
-# Zakon o spremembah in dopolnitvah zakona o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto
+# Zakon o spremembah in dopolnitvah zakona o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto in prvo tromesečje 1992 leta
 
-Na podlagi 3. točke 379. člena ustave Republike Slovenije izdaja Predsedstvo Republike Slovenije
+Na podlagi prvega odstavka 107. člena ustave Republike Slovenije izdaja Predsedstvo Republike Slovenije
 
 
 ## UKAZ
-o razglasitvi zakona o spremembah in dopolnitvah zakona o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto
+o razglasitvi zakona o spremembah in dopolnitvah zakona o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto in prvo trimesečje 1992. leta
 
-Razglaša se zakon o spremembah in dopolnitvah zakona o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto, ki ga je sprejela Skupščina Republike Slovenije na sejah Družbenopolitičnega zbora, Zbora občin in Zbora združenega dela dne 21. novembra 1991.
+Razglaša se zakon o spremembah in dopolnitvah zakona o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto in za prva dva meseca 1992. leta, ki ga je sprejela Skupščina Republike Slovenije na seji družbenopolitičnega zbora dne 4. marca 1992, na seji zbora občin dne 19. marca 1992 in na seji zbora združenega dela dne 5. marca 1992.
 
-Št. 0100-31/91
+Št. 0100-57/92
 
-Ljubljana, dne 21. novembra 1991.
-
-
-### Predsedstvo
-Republike Slovenije
+Ljubljana, dne 19. marca 1992.
 
 Predsednik
 Milan Kučan l. r.
 
 
 ## ZAKON
-o spremembah in dopolnitvah zakona o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto
+o spremembah in dopolnitvah zakona o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto in prvo trimesečje 1992. leta
 
 
 ### 1. člen
 
-V zakonu o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto (Uradni list RS, št. 48/90) se naslov spremeni tako, da se glasi:
-»Zakon o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto in prvo trimesečje 1992. leta.«
+V zakonu o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto in prvo trimesečje 1992. leta (Uradni list RS, št. 48/90 in 26/91) se naslov spremeni tako, da se glasi:
+»Zakon o spremembah in dopolnitvah zakona o izplačevanju osebnih dohodkov in nekaterih drugih prejemkov delavcev za 1991. leto in za prva dva meseca 1992. leta.«
 
 
 ### 2. člen
 
-V 1. členu se besedilo prvega odstavka do dvopičja spremeni tako, da se glasi:
-»V skladu z določbami kolektivnih pogodb in v okviru tega zakona se za 1991. leto in prvo trimesečje 1992. leta izplačujejo:«.
+V prvem odstavku 1. člena se besedi »prvo trimesečje« nadomestita z besedami »prva dva meseca«:
 
 
 ### 3. člen
 
-Za 3. členom se doda nov 3.a člen, ki se glasi:
-»Ne glede na določbe 3., 4. in 5. člena tega zakona, mesečnih akontacij ni dopustno povečati v tistih pravnih osebah iz prve in druge alinee drugega odstavka 2. člena, v katerih povprečni osebni dohodki presegajo raven 145% povprečno izplačanih osebnih dohodkov za mesec september v gospodarstvu Republike Slovenije, po podatkih Zavoda Republike Slovenije za statistiko.
-Omejitev iz prejšnjega odstavka velja za izplačila osebnih dohodkov za mesec november 1991 in naprej.«.
+V 3.a členu se dodata nova tretji in četrti odstavek, ki se glasita:
+»Pravne osebe iz prvega odstavka lahko od izplačil osebnih dohodkov za mesec januar 1992 dalje izplačujejo osebne dohodke v skladu s tretjim odstavkom 3. člena tega zakona.
+Osebni dohodki za mesec januar in nadaljnje mesece se lahko povečajo za mesečno dovoljeno rast osebnih dohodkov glede na ugotovljeno rast življenjskih stroškov v predhodnem mesecu.«
 
 
 ### 4. člen
 
-9. člen se spremeni tako, da se glasi:
-»Dejansko izplačana najvišja mesečna akontacija osebnega dohodka za polni delovni čas v pravni osebi (pred letnim obračunom poslovanja), ne sme preseči 15-kratnega zneska zajamčenega osebnega dohodka, določenega z odlokom o določitvi zajamčenega osebnega dohodka za mesec julij (Uradni list RS, št. 2/91-I).«.
+9. člen se spremeni, tako da se glasi:
+»Dejansko izplačana najvišja mesečna akontacija osebnega dohodka za polni delovni čas v pravni osebi ne sme preseči 10-kratnega zneska zajamčenega osebnega dohodka, določenega z odlokom Vlade Republike Slovenije.«
 
 
 ### 5. člen
 
-Po uveljavitvi tega zakona pravne osebe iz 1. člena tega zakona ne smejo izplačevati regresa za letni dopust za leto 1991 in 1992, niti ne sredstev neposredne skupne porabe iz prvega odstavka 11. člena zakona.
+Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 430-03/90-1/19
+
+Ljubljana, dne 19. marca 1992.
 
 
-### 6. člen
-
-Ta zakon začne veljati z dnem objave v Uradnem listu Republike Slovenije.
-
-Št. 430-03/90-1/15
-
-Ljubljana, dne 21. novembra 1991.
-
-
-### Skupščina
-Republike Slovenije
+### Skupščina Republike Slovenije
 
 Predsednik
-dr. France Bučar l. r.
+France Bučar l. r.
