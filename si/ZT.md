@@ -7,6 +7,11 @@ sop: 1993-01-0815
 objava: "Uradni list RS 18/93  str. 821"
 kljucne_besede: ["trgovinski predpisi"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0815"
+spremembe:
+  - kratica: ZT-A
+    datum: 2002-11-14
+    sop: 2002-01-4799
+    naziv: "Zakon o spremembah in dopolnitvah zakona o trgovini"
 ---
 
 # Zakon o trgovini
