@@ -4,9 +4,9 @@ naziv: "Navodilo za izvajanje 7. člena sklepa o vzdrževanju likvidnosti bank v
 vrsta: "navodilo"
 datum: 1991-10-11
 sop: 1991-01-0683
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0683"
 ---
 

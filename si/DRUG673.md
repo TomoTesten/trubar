@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve pregleda stopenj občinskih prispevkov za zdravs
 vrsta: "drugi akt"
 datum: 1991-10-25
 sop: 1991-01-0742
-organ: "Zavod za pokojninsko in invalidsko zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0742"
 ---
 

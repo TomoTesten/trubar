@@ -4,9 +4,9 @@ naziv: "Sklep o načinu preračunavanja obrestnih mer iz dinarjev v tolarje"
 vrsta: "sklep"
 datum: 1991-10-17
 sop: 1991-01-0720
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0720"
 ---
 

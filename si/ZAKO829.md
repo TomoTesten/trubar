@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah zakona o upravnih taksah"
 vrsta: "akt"
 datum: 1991-10-25
 sop: 1991-01-0813
-organ: "SKUPŠČINA RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0813"
 ---
 

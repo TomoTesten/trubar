@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za cestno gospodarstvo"
 vrsta: "akt"
 datum: 1991-10-17
 sop: 1991-01-0722
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0722"
 ---
 

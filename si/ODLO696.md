@@ -4,9 +4,9 @@ naziv: "Odlok o načinu valorizacije vrednosti nepremičnin in premičnih predme
 vrsta: "odlok"
 datum: 1991-10-25
 sop: 1991-01-0815
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0815"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o razvoju malega gospodarstva (ZRMG)"
 vrsta: "akt"
 datum: 1991-10-11
 sop: 1991-01-0653
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0653"
 ---
 
