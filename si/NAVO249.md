@@ -4,8 +4,9 @@ naziv: "Navodilo o spremembah navodila za poslovanje v zvezi z zahtevami za dena
 vrsta: "navodilo"
 datum: 1993-06-24
 sop: 1993-01-1434
-organ: "Ministrstvo za pravosodje"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1434"
 ---
 

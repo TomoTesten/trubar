@@ -4,9 +4,9 @@ naziv: "Odločba o ustanovitvi novih organizacijskih enot carinarnic na območju
 vrsta: "akt"
 datum: 1993-07-01
 sop: 1993-01-1471
-organ: "Carinska uprava RS (MF)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1471"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Navodilo o tem, kaj se šteje za dokumentacijo za prenos kmetijskih zeml
 vrsta: "navodilo"
 datum: 1993-06-17
 sop: 1993-01-1358
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1358"
 ---
 

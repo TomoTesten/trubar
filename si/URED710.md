@@ -4,9 +4,9 @@ naziv: "Uredba o cestni pristojbini za tuje vozilo, ki vozi po cestah v Republik
 vrsta: "uredba"
 datum: 1993-06-05
 sop: 1993-01-1288
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1288"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Seznam gotovih zdravil, za katere je bilo od 20.2.1993 do 7.5.1993 dano 
 vrsta: "drugi akt"
 datum: 1993-07-03
 sop: 1993-01-1521
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1521"
 ---
 
