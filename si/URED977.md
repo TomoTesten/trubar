@@ -4,9 +4,9 @@ naziv: "Uredba o činih in poviševanju v Ministrstvu za obrambo Republike Slove
 vrsta: "uredba"
 datum: 1993-05-28
 sop: 1993-01-1163
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1163"
 ---
 

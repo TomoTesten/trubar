@@ -4,9 +4,9 @@ naziv: "Odredba o začasnem izvozu in uvozu blaga"
 vrsta: "odredba"
 datum: 1993-05-14
 sop: 1993-01-1083
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1083"
 ---
 

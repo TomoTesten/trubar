@@ -4,9 +4,9 @@ naziv: "Odlok o organizaciji in delovanju služb predsednika republike"
 vrsta: "odlok"
 datum: 1993-04-23
 sop: 1993-01-0908
-organ: "Predsednik Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0908"
 ---
 

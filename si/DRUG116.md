@@ -4,9 +4,9 @@ naziv: "Seznam pravnih oseb v Republiki Sloveniji, pooblaščenih za atestiranje
 vrsta: "drugi akt"
 datum: 1993-05-28
 sop: 1993-01-1172
-organ: "Urad RS za standardizacijo in meroslovje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1172"
 ---
 
