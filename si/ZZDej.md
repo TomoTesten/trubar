@@ -20,6 +20,10 @@ spremembe:
     datum: 1999-11-05
     sop: 1999-01-4299
     naziv: "Zakon o dopolnitvi zakona o zdravstveni dejavnosti"
+  - kratica: ZZDej-E
+    datum: 2000-04-07
+    sop: 2000-01-1440
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstveni dejavnosti"
 ---
 
 # Zakon o zdravstveni dejavnosti
