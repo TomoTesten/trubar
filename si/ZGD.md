@@ -20,6 +20,10 @@ spremembe:
     datum: 1998-03-13
     sop: 1998-01-0816
     naziv: "Zakon o spremembi zakona o gospodarskih družbah"
+  - kratica: ZGD-D
+    datum: 1998-12-11
+    sop: 1998-01-4322
+    naziv: "Zakon o dopolnitvi zakona o gospodarskih družbah"
 ---
 
 # Zakon o gospodarskih družbah
