@@ -7,6 +7,11 @@ sop: 1992-01-0675
 objava: "Uradni list RS 13/92  str. 805"
 kljucne_besede: ["zadruga"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0675"
+spremembe:
+  - kratica: ZZad-A
+    datum: 1993-02-04
+    sop: 1993-01-0291
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zadrugah"
 ---
 
 # Zakon o zadrugah
