@@ -7,6 +7,11 @@ sop: 1999-01-2655
 objava: "Uradni list RS 56/99  str. 7146"
 kljucne_besede: ["varstvo gozdov", "varstvo okolja", "varstvo rastlinstva", "varstvo živalstva", "ekologija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2655"
+spremembe:
+  - kratica: ZON-A
+    datum: 2002-12-30
+    sop: 2002-01-5832
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ohranjanju narave"
 ---
 
 # Zakon o ohranjanju narave
