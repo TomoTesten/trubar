@@ -7,6 +7,11 @@ sop: 1995-01-0007
 objava: "Uradni list RS 1/95  str. 41"
 kljucne_besede: ["gostinstvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0007"
+spremembe:
+  - kratica: ZGos-A
+    datum: 1999-05-28
+    sop: 1999-01-1990
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gostinstvu"
 ---
 
 # Zakon o gostinstvu
