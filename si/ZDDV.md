@@ -20,6 +20,10 @@ spremembe:
     datum: 2003-10-21
     sop: 2003-01-4498
     naziv: "Zakon o spremembah in dopolnitvah zakona o davku na dodano vrednost"
+  - kratica: ZDDV-D
+    datum: 2004-04-29
+    sop: 2004-01-2132
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davku na dodano vrednost"
 ---
 
 # Zakon o davku na dodano vrednost
