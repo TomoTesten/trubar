@@ -7,6 +7,11 @@ sop: 1997-01-1642
 objava: "Uradni list RS 29/97  str. 2553"
 kljucne_besede: ["cestnina", "cestno omrežje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1642"
+spremembe:
+  - kratica: ZJC-A
+    datum: 2002-02-28
+    sop: 2002-01-0717
+    naziv: "Zakon o spremembah in dopolnitvah zakona o javnih cestah"
 ---
 
 # Zakon o javnih cestah
