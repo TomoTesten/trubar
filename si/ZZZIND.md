@@ -7,6 +7,11 @@ sop: 1997-01-2569
 objava: "Uradni list RS 49/97  str. 4213"
 kljucne_besede: ["denacionalizacija", "kazenska sankcija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2569"
+spremembe:
+  - kratica: ZZZIND-A
+    datum: 1997-12-29
+    sop: 1997-01-4008
+    naziv: "Zakon o spremembah zakona o začasnem zadržanju izvajanja nekaterih določb zakona o denacionalizaciji in zakona o izvrševanju kazenskih sankcij"
 ---
 
 # Zakon o začasnem zadržanju izvajanja nekaterih določb zakona o denacionalizaciji in zakona o izvrševanju kazenskih sankcij
