@@ -4,9 +4,9 @@ naziv: "Odločbe o dodelitvi licence za opravljanje dejavnosti organiziranja tur
 vrsta: "akt"
 datum: 2000-04-14
 sop: 2000-01-1533
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1533"
 ---
 

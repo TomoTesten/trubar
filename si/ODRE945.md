@@ -4,9 +4,9 @@ naziv: "Odredba o ukrepih za preprečevanje širjenja in zatiranja šarke, ki jo
 vrsta: "odredba"
 datum: 2000-04-13
 sop: 2000-01-1484
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1484"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o potrditvi učbenika za osnovno šolo TEHNIKA IN DELO, učbenik z
 vrsta: "sklep"
 datum: 2000-03-31
 sop: 2000-01-1327
-organ: "Strokovni svet RS za poklicno in strokovno izobraževanje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1327"
 ---
 

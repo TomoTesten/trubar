@@ -4,9 +4,9 @@ naziv: "Navodilo za izvajanje dobre kmetijske prakse pri gnojenju"
 vrsta: "drugi akt"
 datum: 2000-04-17
 sop: 2000-01-1555
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1555"
 ---
 

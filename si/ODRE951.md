@@ -4,8 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o postopnem uvajanju Kurikul
 vrsta: "odredba"
 datum: 2000-04-14
 sop: 2000-01-1521
-organ: "Ministrstvo za šolstvo in šport"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1521"
 ---
 

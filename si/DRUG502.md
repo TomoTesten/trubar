@@ -4,9 +4,9 @@ naziv: "Koeficienti rasti cen v Republiki Sloveniji, marec 2000"
 vrsta: "drugi akt"
 datum: 2000-04-13
 sop: 2000-01-1508
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1508"
 ---
 

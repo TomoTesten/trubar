@@ -4,9 +4,9 @@ naziv: "Sklep o soglasju k imenovanju gospe Nine Remec Šelih za častno general
 vrsta: "sklep"
 datum: 2000-03-31
 sop: 2000-01-1309
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1309"
 ---
 

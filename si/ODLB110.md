@@ -4,9 +4,9 @@ naziv: "Odločba o določitvi Kmetijskega inštituta Slovenije, Hacquetova 17, L
 vrsta: "akt"
 datum: 2000-04-21
 sop: 2000-01-1643
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1643"
 ---
 

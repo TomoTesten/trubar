@@ -4,8 +4,9 @@ naziv: "Pravilnik o varnosti in zdravju pri delu s slikovnim zaslonom"
 vrsta: "pravilnik"
 datum: 2000-04-06
 sop: 2000-01-1404
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1404"
 ---
 

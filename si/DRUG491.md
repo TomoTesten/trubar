@@ -4,9 +4,9 @@ naziv: "Sporočilo o cenah plemenitih kovin na dan 31.3.2000"
 vrsta: "drugi akt"
 datum: 2000-04-07
 sop: 2000-01-1454
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1454"
 ---
 

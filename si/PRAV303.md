@@ -4,8 +4,9 @@ naziv: "Pravilnik o postopku in načinu ocenjevanja mošta, vina in drugih proiz
 vrsta: "pravilnik"
 datum: 2000-04-13
 sop: 2000-01-1491
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1491"
 ---
 

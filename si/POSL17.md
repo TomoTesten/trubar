@@ -4,9 +4,9 @@ naziv: "Spremembe poslovnika Sveta za radiodifuzijo Republike Slovenije"
 vrsta: "akt"
 datum: 2000-04-07
 sop: 2000-01-1455
-organ: "Svet za radiodifuzijo Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1455"
 ---
 

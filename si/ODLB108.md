@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k ustanovitvenemu aktu Fundacije dr. Bruno Breschi, 
 vrsta: "akt"
 datum: 2000-04-14
 sop: 2000-01-1526
-organ: "Ministrstvo za kulturo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1526"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Splošni dolgoročni program razvoja in opremljanja Slovenske vojske"
 vrsta: "drugi akt"
 datum: 2000-04-13
 sop: 2000-01-1483
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1483"
 ---
 

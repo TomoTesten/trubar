@@ -4,9 +4,9 @@ naziv: "Odredba o pogojih za tranzit pošiljk krompirja, ki se prekladajo v Luki
 vrsta: "odredba"
 datum: 2000-04-13
 sop: 2000-01-1485
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1485"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Nezaupnica Vladi Republike Slovenije"
 vrsta: "drugi akt"
 datum: 2000-04-13
 sop: 2000-01-1481
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1481"
 ---
 
