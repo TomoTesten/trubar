@@ -16,6 +16,10 @@ spremembe:
     datum: 2003-02-14
     sop: 2003-01-0590
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravniški službi"
+  - kratica: ZZdrS-C
+    datum: 2004-01-15
+    sop: 2004-01-0066
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravniški službi"
 ---
 
 # Zakon o zdravniški službi
