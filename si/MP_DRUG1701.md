@@ -1,0 +1,153 @@
+---
+kratica: MP_DRUG1701
+naziv: "Program priprave občinskega lokacijskega načrta za del območja urejanja ŠS 3/5 Podutik (vzhodni del) (DRUG)"
+vrsta: "akt"
+datum: 2004-08-12
+sop: 2004-01-4064
+organ: "Mestna občina Ljubljana"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4064"
+---
+
+# Program priprave občinskega lokacijskega načrta za del območja urejanja ŠS 3/5 Podutik (vzhodni del) (DRUG)
+
+Na podlagi 27. člena Zakona o urejanju prostora (Uradni list RS, št. 110/02 in 8/03 – ZUreP-1) in 51. člena Statuta Mestne občine Ljubljana (Uradni list RS, št. 26/01 in 28/01) sprejemam
+
+
+## P R O G R A M   P R I P R A V E
+občinskega lokacijskega načrta za del območja urejanja ŠS 3/5 Podutik (vzhodni del)
+
+
+### 1. člen
+
+S tem programom se podrobneje določajo programska izhodišča, vsebina strokovnih podlag, način pridobitve strokovnih rešitev in geodetskih podlag za pripravo občinskega lokacijskega načrta (v nadaljevanju: OLN) za del območja urejanja ŠS 3/5 Podutik (vzhodni del), subjekti, ki sodelujejo pri pripravi OLN, ter roki za posamezne faze priprave OLN.
+
+
+### 2. člen
+
+
+### Ocena stanja, razlogi in pravna podlaga
+
+(1) Ocena stanja, urbanistična dokumentacija in razlogi za pripravo novih OLN
+Za obravnavano območje so bile v maju 2004 sprejete spremembe in dopolnitve prostorskih sestavin dolgoročnega plana občin in mesta Ljubljane za obdobje 1986–2000 za območje Mestne občine Ljubljana (za območje urejanja ŠR 3/3 Kamna gorica). Del površin območja urejanja ŠR 3/3 (opuščeni kamnolom), ki za parkovne in rekreacijske dejavnosti ni primeren, se je priključil k stanovanjskemu območju ŠS 3/5. Opuščeni kamnolom je zaključena prostorska celota, zato se izdela lokacijski načrt ločeno od ostalega območja urejanja ŠS 3/5. Z novim dokumentom se predvidi sanacija terena ter stanovanjska gradnja.
+(2) Pravna podlaga
+Pravna podlaga za pripravo OLN sta ZUreP-1 in Dolgoročni plan občin in mesta Ljubljane za obdobje 1986–2000 za območje Mestne občine Ljubljana (Uradni list SRS, št. 11/86 in Uradni list RS, št. 23/91, 71/93, 62/94, 33/97, 72/98, 13/99, 26/99, 28/99, 41/99, 79/99, 98/99, 31/00, 36/00, 59/00, 75/00, 37/01, 63/02, 52/03, 70/03 – odl. US, 64/04, 69/04).
+
+
+### 3. člen
+
+
+### Predmet in programska izhodišča OLN
+
+(1) V območju se predvidi kompleks večstanovanjskih objektov. Površina območja je 8.127 m2. V večetažnih objektih je predvideno ca. 120 stanovanj. Parkiranje je predvideno v podzemnih etažah. Med stanovanjskimi objekti se predvidijo zelenice in otroška igrišča.
+(2) Komunalna ureditev
+Povzamejo se obstoječi komunalni vodi in predvidijo nove komunalne ureditve v skladu z usmeritvami nosilcev urejanja prostora.
+(3) Varovanje okolja
+V OLN se upoštevajo pogoji iz odloka, ki ureja varovanje vodnih virov. Določi se stopnjo zaščite pred hrupom ter predvidijo posegi in merila v zvezi z varovanjem pred hrupom. Opredelijo se pogoji za zagotovitev čistosti zraka.
+Ukrepi in posegi za zaščito okolja se predvidijo v skladu s smernicami nosilcev urejanja v prostoru in z merili, ki izhajajo iz veljavnih predpisov.
+(4) Varovanje naravne in kulturne dediščine
+Načrtovani posegi morajo biti usklajeni s smernicami nosilcev urejanja v prostoru. Upoštevati je treba Odlok o zaščiti spomeniško-kulturne dediščine in zavarovati naravno in kulturno dediščino.
+(5) Ostale usmeritve
+Določi se faznost posegov.
+Opredeli se pogoje za obrambo in zaščito.
+
+
+### 4. člen
+
+
+### Ureditveno območje OLN
+
+Ureditveno območje OLN meji na severu na območje gozda s posebnim namenom, na vzhodu na območje avtoceste, na jugu na rekreacijsko rekreativno območje ŠR 3/3-3 in na zahodu na del stanovanjskega območja ŠS 3/5.
+
+
+### 5. člen
+
+Nosilci urejanja prostora, ki dajejo smernice, in drugi udeleženci, ki bodo sodelovali pri pripravi prostorskega akta
+(1) Nosilci urejanja prostora:
+1. JP Vodovod – Kanalizacija, d.o.o., Področje oskrbe z vodo, Vodovodna 90, Ljubljana,
+2. JP Vodovod – Kanalizacija, d.o.o., Področje odvajanja odpadnih voda, Vodovodna 90, Ljubljana,
+3. Zavod za varstvo kulturne dediščine Slovenije, Območna enota Ljubljana, Tržaška 4, Ljubljana,
+4. Zavod za gozdove Slovenije, Območna enota Ljubljana, Tržaška cesta 2, Ljubljana
+5. Zavod RS za varstvo narave, Območna enota Ljubljana, Kersnikova 3, Ljubljana,
+6. MU, Oddelek za gospodarske javne službe in promet, Trg MDB 7, Ljubljana,
+7. RS, Ministrstvo za okolje, prostor in energijo, Agencija RS za okolje, Območna enota Ljubljana (za področje varstva okolja), Vojkova 52, Ljubljana,
+8. RS, Ministrstvo za okolje, prostor in energijo, Agencija RS za okolje, Območna enota Ljubljana (za področje varstva narave), Vojkova 52, Ljubljana,
+9. RS, Ministrstvo za okolje, prostor in energijo, Agencija RS za okolje, Območna enota Ljubljana (za področje gospodarjenja z vodami), Vojkova 52, Ljubljana,
+10. RS, Ministrstvo za zdravje, Zdravstveni inšpektorat RS, Enota Ljubljana, Vilharjeva 33, Ljubljana,
+11. JP Elektro Ljubljana d.d., DE Ljubljana mesto, Kotnikova 9, 1516 Ljubljana,
+12. JP Energetika Ljubljana p.o., Oskrba s plinom, Verovškova 70, Ljubljana,
+13. JP Energetika Ljubljana p.o., Daljinska oskrba s toplotno energijo, Verovškova 70, Ljubljana,
+14. RS, Ministrstvo za obrambo, Inšpektorat RS za varstvo pred naravnimi in drugimi nesrečami, Izpostava Ljubljana, Kardeljeva ploščad 26, Ljubljana,
+15. RS, Ministrstvo za obrambo, Urad za obrambne zadeve, Sektor za civilno obrambo, Kardeljeva ploščad 25, Ljubljana,
+16. Telekom Slovenije d.d., PE Ljubljana, Stegne 19, 1547 Ljubljana.
+(2) Drugi udeleženci:
+1. RS, Ministrstvo za promet in zveze, Direkcija RS za ceste, Tržaška cesta 19, Ljubljana.
+
+
+### 6. člen
+
+
+### Potrebne strokovne podlage
+
+Potrebne strokovne podlage za izdelavo OLN so:
+– analiza obstoječega stanja z usmeritvami za izdelavo OLN:
+– vplivi, povezave in soodvisnosti s sosednjimi območji,
+– značilnosti grajenega prostora (morfologija pozidave, tipologija objektov, gabariti objektov, ambientalne značilnosti območja, kvalitetni pogledi, gostota pozidave, namembnost površin in objektov, kulturna dediščina, itd.),
+– značilnosti odprtega nezazidanega prostora in krajinska slika,
+– parcelacija in lastništvo,
+– zelene površine;
+– variantne rešitve zazidave;
+– ocena osončenja stanovanjskih objektov.
+Kot podlago za izdelavo OLN se izdela tudi:
+– študijo obremenitve stanovanjskih območij s hrupom;
+– geomehansko in hidrogeološko poročilo;
+– mnenje Inštituta za varovanje zdravja (IVZ) glede gradnje garaž z ozirom varovanja vodnih virov in glede vpliva elektromagnetnih valovanj oziroma drugih možnih vplivih s strani trafo postaje ter morebitne druge obremenitve okolja;
+– morebitne druge dodatne ekspertize in poročila;
+– programsko idejno zasnovo komunalnih vodov glede na zahteve nosilcev urejanja v prostoru.
+V skladu z zahtevami soglasodajalcev se po potrebi opredelijo še druge strokovne podlage.
+
+
+### 7. člen
+
+
+### Način pridobitve strokovnih rešitev
+
+Pridobijo se najmanj tri strokovne rešitve prostorske ureditve.
+
+
+### 8. člen
+
+
+### Način pridobitve geodetskih podlog
+
+Digitalni geodetsko-katastrski načrt pridobi Oddelek za urbanizem Mestne uprave MOL iz uradne evidence Geodetske uprave RS. Investitor pridobi reambulirani posnetek, ki mora biti uradno potrjen.
+
+
+### 9. člen
+
+
+### Roki za pripravo OLN
+
+Izdelava PSP je predvidena dva meseca po prostorski konferenci. Sprejem predloga OLN je predviden eno leto po oddaji PSP. Upoštevani so minimalni okvirni roki.
+
+
+### 10. člen
+
+
+### Obveznosti v zvezi s financiranjem OLN
+
+Pripravo OLN financira investitor, ki v ta namen sklene pogodbo z izvajalcem, ki izpolnjuje zakonite pogoje za prostorsko načrtovanje. Obveznosti investitorja se določijo z dogovorom o sodelovanju med MOL in investitorjem.
+
+
+### 11. člen
+
+Ta program priprave se objavi v Uradnem listu Republike Slovenije.
+
+Št. 3521-27/2004-2
+
+Ljubljana, dne 19. julija 2004.
+
+Županja
+Mestne občine Ljubljana
+Danica Simšič l. r.
