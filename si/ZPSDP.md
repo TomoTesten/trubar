@@ -7,6 +7,11 @@ sop: 1997-01-4007
 objava: "Uradni list RS 87/97  str. 8368"
 kljucne_besede: ["negospodarski sektor", "državni organi", "dodatki in povračilo stroškov"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-4007"
+spremembe:
+  - kratica: ZPSDP-A
+    datum: 1998-02-06
+    sop: 1998-01-0431
+    naziv: "Zakon o spremembi zakona o višini povračil stroškov v zvezi z delom in nekaterih drugih prejemkov"
 ---
 
 # Zakon o višini povračil stroškov v zvezi z delom in nekaterih drugih prejemkov
