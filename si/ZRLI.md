@@ -12,6 +12,10 @@ spremembe:
     datum: 1996-07-19
     sop: 1996-01-2501
     naziv: "Zakon o spremembah in dopolnitvah zakona o referendumu in ljudski iniciativi"
+  - kratica: ZRLI-B
+    datum: 2001-07-19
+    sop: 2001-01-3143
+    naziv: "Zakon o spremembah in dopolnitvah zakona o referendumu in o ljudski iniciativi"
 ---
 
 # Zakon o referendumu in o ljudski iniciativi
