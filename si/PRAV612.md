@@ -4,9 +4,9 @@ naziv: "Pravilnik o napredovanju v nazive v osnovnem in srednjem šolstvu"
 vrsta: "pravilnik"
 datum: 1992-08-07
 sop: 1992-01-1952
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za šolstvo in šport"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1952"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o pogojih, pod katerimi so zavezanci za dohodnino dolžni odpreti 
 vrsta: "odlok"
 datum: 1991-07-08
 sop: 1991-01-0128
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0128"
 ---
 

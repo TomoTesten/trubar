@@ -4,9 +4,9 @@ naziv: "Odlok o spremembah in dopolnitvah odloka o območjih, ki se štejejo za 
 vrsta: "odlok"
 datum: 1991-07-12
 sop: 1991-01-0165
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0165"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o ugotavljanju vrednosti ter določanju najemnin za stanovanja iz 
 vrsta: "odlok"
 datum: 1992-02-20
 sop: 1992-01-0457
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0457"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o varnostnih ukrepih na obrambnem področju"
 vrsta: "odlok"
 datum: 1992-10-10
 sop: 1992-01-2288
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2288"
 ---
 

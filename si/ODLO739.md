@@ -4,9 +4,9 @@ naziv: "Odlok o obrestni meri zamudnih obresti za davke, prispevke, carine in dr
 vrsta: "odlok"
 datum: 1991-12-06
 sop: 1991-01-1171
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1171"
 ---
 

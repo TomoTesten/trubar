@@ -4,9 +4,9 @@ naziv: "Odredba o spremembi odredbe o enotnem zaščitnem znaku"
 vrsta: "odredba"
 datum: 1992-02-20
 sop: 1992-01-0412
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za finance"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0412"
 ---
 

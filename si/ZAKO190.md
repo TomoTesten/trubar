@@ -4,9 +4,9 @@ naziv: "Zakon o obrambi in zaščiti (ZOZ)"
 vrsta: "akt"
 datum: 1991-04-06
 sop: 1991-03-0555
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "SKUPŠČINA SRS"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-03-0555"
 ---
 

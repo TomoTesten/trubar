@@ -4,9 +4,9 @@ naziv: "Odlok o izdajanju zakladnih menic"
 vrsta: "odlok"
 datum: 1992-12-18
 sop: 1992-01-2757
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2757"
 ---
 

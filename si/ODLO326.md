@@ -4,9 +4,9 @@ naziv: "Odlok o vračilu carinskih, davčnih in drugih dajatev ter o drugih ukre
 vrsta: "odlok"
 datum: 1992-11-13
 sop: 1992-01-2486
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2486"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o določitvi držav, od katerih je izterjava terjatev onemogočena
 vrsta: "odlok"
 datum: 1992-05-15
 sop: 1992-01-1229
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Vlada Republike Slovenije"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1229"
 ---
 

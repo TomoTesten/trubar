@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu preverjanja ustreznosti točkovanja stanovanj in stan
 vrsta: "navodilo"
 datum: 1991-10-11
 sop: 1991-01-0681
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za okolje in prostor"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0681"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o oprostitvi plačila posebne davščine za izravnavo davčne obre
 vrsta: "odlok"
 datum: 1991-10-08
 sop: 1991-01-0618
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0618"
 ---
 

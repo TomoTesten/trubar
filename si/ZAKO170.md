@@ -4,9 +4,9 @@ naziv: "Zakon o prenehanju veljavnosti zakona o skladih skupnih rezerv in o pren
 vrsta: "akt"
 datum: 1991-12-14
 sop: 1991-01-1240
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Državni zbor RS"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1240"
 ---
 

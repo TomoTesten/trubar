@@ -4,9 +4,9 @@ naziv: "Navodilo o izpisu vojaških obveznikov iz vojaške evidence"
 vrsta: "navodilo"
 datum: 1992-03-06
 sop: 1992-01-0630
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za obrambo"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0630"
 ---
 
