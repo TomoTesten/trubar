@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-12-04
     sop: 2001-01-4800
     naziv: "Zakon o spremembi zakona o posebnih pogojih za vpis lastninske pravice na posameznih delih stavbe v zemljiško knjigo"
+  - kratica: ZPPLPS-B
+    datum: 2003-02-14
+    sop: 2003-01-0586
+    naziv: "Zakon o spremembi zakona o posebnih pogojih za vpis lastninske pravice na posameznih delih stavbe v zemljiško knjigo"
 ---
 
 # Zakon o posebnih pogojih za vpis lastninske pravice na posameznih delih stavbe v zemljiško knjigo
