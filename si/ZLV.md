@@ -7,6 +7,11 @@ sop: 1993-01-2630
 objava: "Uradni list RS 72/93  str. 3772"
 kljucne_besede: ["lokalne volitve"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2630"
+spremembe:
+  - kratica: ZLV-A
+    datum: 1994-02-16
+    sop: 1994-01-0310
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lokalnih volitvah"
 ---
 
 # Zakon o lokalnih volitvah
