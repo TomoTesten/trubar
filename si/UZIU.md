@@ -7,6 +7,11 @@ sop: 1991-01-1411
 objava: "Uradni list RS 33/91  str. 1386"
 kljucne_besede: ["uporaba zakona", "ustava"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1411"
+spremembe:
+  - kratica: UZIU-A
+    datum: 1994-04-22
+    sop: 1994-01-0895
+    naziv: "Ustavni zakon o dopolnitvi ustavnega zakona za izvedbo ustave Republike Slovenije"
 ---
 
 # Ustavni zakon za izvedbo ustave Republike Slovenije
