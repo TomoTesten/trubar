@@ -4,8 +4,9 @@ naziv: "Pravilnik o kakovosti kavinih in cikorijinih ekstraktov"
 vrsta: "pravilnik"
 datum: 2004-01-15
 sop: 2004-01-0080
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0080"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju pomočnice okrožnega državnega tožilca na Okro�
 vrsta: "akt"
 datum: 2004-01-16
 sop: 2004-01-0116
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0116"
 ---
 

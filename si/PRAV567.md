@@ -4,9 +4,9 @@ naziv: "Pravilnik o konzervansih za površinsko obdelavo citrusov"
 vrsta: "pravilnik"
 datum: 2004-01-15
 sop: 2004-01-0082
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0082"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o odvzemu licence za opravljanje dejavnosti organiziranja turis
 vrsta: "akt"
 datum: 2003-12-31
 sop: 2003-01-5867
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5867"
 ---
 
