@@ -4,9 +4,9 @@ naziv: "Dodatek k pravilom igre na srečo \"Petica\""
 vrsta: "drugi akt"
 datum: 2000-05-19
 sop: 2000-01-1968
-organ: "Športna loterija in igre na srečo d.d."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1968"
 ---
 

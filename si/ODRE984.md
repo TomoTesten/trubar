@@ -4,9 +4,9 @@ naziv: "Odredba o dopolnitvi odredbe o ukrepih za preprečevanje širjenja in za
 vrsta: "odredba"
 datum: 2000-05-12
 sop: 2000-01-1895
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1895"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo za obveščanje o naravnih in drugih nesrečah"
 vrsta: "navodilo"
 datum: 2000-05-19
 sop: 2000-01-1958
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1958"
 ---
 

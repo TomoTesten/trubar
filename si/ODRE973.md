@@ -4,9 +4,9 @@ naziv: "Odredba o prilogi k diplomi"
 vrsta: "odredba"
 datum: 2000-04-26
 sop: 2000-01-1701
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1701"
 ---
 

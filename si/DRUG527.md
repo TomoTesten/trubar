@@ -4,9 +4,9 @@ naziv: "Soglasje k aktu o ustanovitvi Ustanove vrtnica za pomoč ljudem v stiski
 vrsta: "drugi akt"
 datum: 2000-05-12
 sop: 2000-01-1901
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1901"
 ---
 

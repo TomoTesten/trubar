@@ -4,9 +4,9 @@ naziv: "Obvezna razlaga 2. člena zakona o zagotavljanju sredstev za realizacijo
 vrsta: "akt"
 datum: 2000-05-19
 sop: 2000-01-1950
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1950"
 ---
 

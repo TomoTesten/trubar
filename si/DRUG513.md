@@ -4,9 +4,9 @@ naziv: "Poziv za zbiranje predlogov možnih kandidatov za generalnega direktorja
 vrsta: "drugi akt"
 datum: 2000-05-10
 sop: 2000-01-1853
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1853"
 ---
 

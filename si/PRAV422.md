@@ -4,9 +4,9 @@ naziv: "Pravilnik o varovanju delavcev pred tveganji zaradi izpostavljenosti rak
 vrsta: "pravilnik"
 datum: 2000-05-10
 sop: 2000-01-1862
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1862"
 ---
 

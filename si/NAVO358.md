@@ -4,9 +4,9 @@ naziv: "Navodilo o vrstah finančnih zavarovanj, s katerimi ponudniki zavarujejo
 vrsta: "navodilo"
 datum: 2000-05-24
 sop: 2000-01-1999
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1999"
 ---
 

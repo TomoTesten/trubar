@@ -4,9 +4,9 @@ naziv: "Odredba o delih, ki jih policist ne sme opravljati"
 vrsta: "odredba"
 datum: 2000-05-19
 sop: 2000-01-1953
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1953"
 ---
 

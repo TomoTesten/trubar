@@ -4,9 +4,9 @@ naziv: "Odločba o pooblastitvi inštituta za opravljanje nalog"
 vrsta: "akt"
 datum: 2000-05-10
 sop: 2000-01-1863
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1863"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Dodatek k pravilom igre na srečo \"Hitra srečka\""
 vrsta: "drugi akt"
 datum: 2000-05-12
 sop: 2000-01-1907
-organ: "Športna loterija in igre na srečo d.d."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1907"
 ---
 

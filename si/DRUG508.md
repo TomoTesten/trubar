@@ -4,9 +4,9 @@ naziv: "Seznam fitofarmacevtskih sredstev, za katera je bila v času od 31. janu
 vrsta: "drugi akt"
 datum: 2000-05-05
 sop: 2000-01-1815
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1815"
 ---
 

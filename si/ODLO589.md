@@ -4,9 +4,9 @@ naziv: "Odlok o izvolitvi predsednika Vlade Republike Slovenije"
 vrsta: "odlok"
 datum: 2000-05-05
 sop: 2000-01-1807
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1807"
 ---
 

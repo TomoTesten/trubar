@@ -4,7 +4,8 @@ naziv: "Pravilnik o avtobusnih voznih redih"
 vrsta: "pravilnik"
 datum: 2000-03-31
 sop: 2000-01-1312
-organ: "Ministrstvo za promet in zveze"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1312"
 ---

@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k aktu o ustanovitvi Sklada dela Regionalni sklad de
 vrsta: "akt"
 datum: 2000-05-12
 sop: 2000-01-1900
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1900"
 ---
 
