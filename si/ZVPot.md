@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-12-18
     sop: 2002-01-5391
     naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu potrošnikov"
+  - kratica: ZVPot-B
+    datum: 2004-05-07
+    sop: 2004-01-2306
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu potrošnikov"
 ---
 
 # Zakon o varstvu potrošnikov
