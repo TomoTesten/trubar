@@ -12,6 +12,10 @@ spremembe:
     datum: 2000-05-26
     sop: 2000-01-2068
     naziv: "Zakon o spremembah in dopolnitvah zakona o upravnih taksah"
+  - kratica: ZUT-B
+    datum: 2000-09-15
+    sop: 2000-01-3713
+    naziv: "Zakon o spremembah in dopolnitvah zakona o upravnih taksah"
 ---
 
 # Zakon o upravnih taksah
