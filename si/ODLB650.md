@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju okrožnega državnega tožilca na Okrožnem držav
 vrsta: "akt"
 datum: 2004-04-09
 sop: 2004-01-1546
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1546"
 ---
 

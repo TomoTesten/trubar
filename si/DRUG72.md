@@ -4,9 +4,9 @@ naziv: "Pravilnik o vzpostavitvi in delovanju mreže za zbiranje računovodskih 
 vrsta: "drugi akt"
 datum: 2004-04-15
 sop: 2004-01-1607
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1607"
 ---
 

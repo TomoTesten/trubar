@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju vodje okrožnega državnega tožilstva na Okrožne
 vrsta: "akt"
 datum: 2004-04-20
 sop: 2004-01-1670
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1670"
 ---
 
