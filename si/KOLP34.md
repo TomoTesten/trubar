@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za gradbene dejavnosti Republike Slovenije"
 vrsta: "akt"
 datum: 1991-07-03
 sop: 1991-01-0095
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0095"
 ---
 

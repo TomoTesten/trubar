@@ -4,9 +4,9 @@ naziv: "Stališča Skupščine Republike Slovenije v zvezi s političnim in varn
 vrsta: "drugi akt"
 datum: 1991-07-03
 sop: 1991-01-0093
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0093"
 ---
 

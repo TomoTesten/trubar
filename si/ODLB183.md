@@ -4,9 +4,9 @@ naziv: "Odločba o odpravi 4. člena odloka Skupščine mesta Ljubljane o združ
 vrsta: "akt"
 datum: 1991-07-08
 sop: 1991-01-0132
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0132"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o obrestni meri zamudnih obresti za davek na promet nepremičnin"
 vrsta: "odlok"
 datum: 1991-07-31
 sop: 1991-01-0272
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0272"
 ---
 

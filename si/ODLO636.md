@@ -4,9 +4,9 @@ naziv: "Odlok o obrestni meri zamudnih obresti za davke in prispevke"
 vrsta: "odlok"
 datum: 1991-07-03
 sop: 1991-01-0094
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0094"
 ---
 

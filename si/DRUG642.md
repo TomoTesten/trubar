@@ -4,9 +4,9 @@ naziv: "Poročilo o rasti cen življenjskih potrebščin na območju Republike S
 vrsta: "drugi akt"
 datum: 1991-07-08
 sop: 1991-01-0131
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0131"
 ---
 

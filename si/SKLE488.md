@@ -4,9 +4,9 @@ naziv: "Sklep o sprejetju Skupne deklaracije, vključno s prilogama I in II"
 vrsta: "sklep"
 datum: 1991-07-12
 sop: 1991-01-0163
-organ: "SKUPŠČINA SRS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0163"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o obrazcu za obračun davka od dobička"
 vrsta: "odredba"
 datum: 1991-07-12
 sop: 1991-01-0164
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0164"
 ---
 
