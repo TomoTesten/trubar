@@ -7,6 +7,11 @@ sop: 1994-01-2168
 objava: "Uradni list RS 63/94  str. 3503"
 kljucne_besede: ["kazenski postopek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2168"
+spremembe:
+  - kratica: ZKP-A
+    datum: 1998-10-23
+    sop: 1998-01-3622
+    naziv: "Zakon o spremembah in dopolnitvah zakona o kazenskem postopku"
 ---
 
 # Zakon o kazenskem postopku
