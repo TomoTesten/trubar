@@ -4,9 +4,9 @@ naziv: "Cenik storitev javne službe ravnanja z radioaktivnimi odpadki"
 vrsta: "drugi akt"
 datum: 2000-11-10
 sop: 2000-01-4268
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4268"
 ---
 

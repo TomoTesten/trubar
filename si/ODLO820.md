@@ -4,9 +4,9 @@ naziv: "Odlok o izvolitvi predsednika, podpredsednika in članov Komisije Držav
 vrsta: "odlok"
 datum: 2000-11-06
 sop: 2000-01-4210
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4210"
 ---
 

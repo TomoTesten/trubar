@@ -4,9 +4,9 @@ naziv: "Program pripravništva in strokovnega izpita za poklic diplomirana babic
 vrsta: "drugi akt"
 datum: 2000-11-15
 sop: 2000-01-4364
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4364"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Poziv za zbiranje predlogov možnih kandidatov za sodnika Evropskega sod
 vrsta: "drugi akt"
 datum: 2000-11-23
 sop: 2000-01-4442
-organ: "Predsednik Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4442"
 ---
 

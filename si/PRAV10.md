@@ -4,9 +4,9 @@ naziv: "Pravilnik o ravnanju z embalažo in odpadno embalažo"
 vrsta: "pravilnik"
 datum: 2000-11-15
 sop: 2000-01-4360
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4360"
 ---
 

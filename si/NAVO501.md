@@ -4,9 +4,9 @@ naziv: "Navodilo o vključevanju sredstev SAPARD v proračun Republike Slovenije
 vrsta: "navodilo"
 datum: 2000-11-17
 sop: 2000-01-4386
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4386"
 ---
 

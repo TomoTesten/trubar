@@ -4,9 +4,9 @@ naziv: "Navodilo za reševanje pritožb"
 vrsta: "navodilo"
 datum: 2000-11-14
 sop: 2000-01-4346
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4346"
 ---
 

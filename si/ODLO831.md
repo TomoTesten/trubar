@@ -4,8 +4,9 @@ naziv: "Odlok o dopolnilnem premoženju, ki se preda Prvemu pokojninskemu skladu
 vrsta: "odlok"
 datum: 2000-11-10
 sop: 2000-01-4333
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4333"
 ---
 
