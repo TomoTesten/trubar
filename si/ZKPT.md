@@ -7,6 +7,11 @@ sop: 1991-01-0015
 objava: "Uradni list RS 1/91  str. 41"
 kljucne_besede: ["kreditna politika", "mednarodni kredit"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0015"
+spremembe:
+  - kratica: ZKPT-A
+    datum: 1995-11-06
+    sop: 1995-01-2920
+    naziv: "Zakon o spremembah in dopolnitvah zakona o kreditnih poslih s tujino"
 ---
 
 # Zakon o kreditnih poslih s tujino
