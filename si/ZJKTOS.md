@@ -7,6 +7,11 @@ sop: 1992-01-2519
 objava: "Uradni list RS 55/92  str. 3128"
 kljucne_besede: ["poroštvo", "kredit", "kreditna garancija", "železarska in jeklarska industrija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2519"
+spremembe:
+  - kratica: ZJKTOS-A
+    datum: 1997-08-18
+    sop: 1997-01-2633
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o jamstvu Republike Slovenije za kredite za trajna obratna sredstva Slovenskih železarn"
 ---
 
 # Zakon o jamstvu Republike Slovenije za kredite za trajna obratna sredstva Slovenskih železarn
