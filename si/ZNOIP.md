@@ -7,6 +7,11 @@ sop: 1993-01-0590
 objava: "Uradni list RS 13/93  str. 568"
 kljucne_besede: ["plača"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0590"
+spremembe:
+  - kratica: ZNOIP-A
+    datum: 1993-04-05
+    sop: 1993-01-0802
+    naziv: "Zakon o spremembah in dopolnitvah zakona o načinu obračunavanja in izplačevanja plač"
 ---
 
 # Zakon o načinu obračunavanja in izplačevanja plač
