@@ -20,6 +20,10 @@ spremembe:
     datum: 1997-05-16
     sop: 1997-01-1562
     naziv: "Zakon o dopolnitvi zakona o lokalni samoupravi"
+  - kratica: ZLS-E
+    datum: 1997-11-14
+    sop: 1997-01-3373
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o lokalni samoupravi"
 ---
 
 # Zakon o lokalni samoupravi
