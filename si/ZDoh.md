@@ -7,6 +7,11 @@ sop: 1993-01-2582
 objava: "Uradni list RS 71/93  str. 3715"
 kljucne_besede: ["dohodnina", "davek na dohodek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2582"
+spremembe:
+  - kratica: ZDoh-PB
+    datum: 1992-03-27
+    sop: 1992-01-0727
+    naziv: "Zakon o dohodnini (prečiščeno besedilo)"
 ---
 
 # Zakon o dohodnini
