@@ -7,6 +7,11 @@ sop: 2002-01-5795
 objava: "Uradni list RS 118/2002  str. 16626"
 kljucne_besede: ["državni proračun", "izvrševanje proračuna"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5795"
+spremembe:
+  - kratica: ZIPRS0304-A
+    datum: 2003-06-30
+    sop: 2003-01-3065
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izvrševanju proračuna Republike Slovenije za leti 2003 in 2004"
 ---
 
 # Zakon o izvrševanju proračuna Republike Slovenije za leto 2003 in 2004
