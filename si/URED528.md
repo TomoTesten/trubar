@@ -1,0 +1,67 @@
+---
+kratica: URED528
+naziv: "Uredba o prostorskih ureditvenih pogojih za sanacijo degradiranega prostora občine Tržič"
+vrsta: "uredba"
+datum: 1994-10-07
+sop: 1994-01-2138
+organ: "Vlada Republike Slovenije"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2138"
+---
+
+# Uredba o prostorskih ureditvenih pogojih za sanacijo degradiranega prostora občine Tržič
+
+Na podlagi četrtega odstavka 16. člena zakona o spremembah in dopolnitvah zakona o urejanju naselij in drugih posegov v prostor (Uradni list RS, št. 18/93 in 47/93) in v zvezi s prvim odstavkom 6. člena uredbe o postopku priprave in sprejemanja prostorskih ureditvenih pogojev za sanacijo degradiranega prostora (Uradni list RS, št. 56/93 in 47/94) ter na podlagi prvega odstavka 26. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93) izdaja Vlada Republike Slovenije
+
+
+## UREDBO
+o prostorskih ureditvenih pogojih za sanacijo degradiranega prostora občine Tržič
+
+
+### 1. člen
+
+S to uredbo se sprejmejo prostorski ureditveni pogoji za sanacijo degradiranega prostora občin Tržič (v nadaljevanju: akt legalizacije), ki jih je izdelal Domplan Kranj, PE Urbanizem, pod številko projekta UD/306-63/93.
+
+
+### 2. člen
+
+Splošni podatki o aktu legalizacije, vsebinsko kazalo o vseh sestavinah akta legalizacije, skupna obrazložitev oziroma utemeljitev akta legalizacije, pregledna karta občine z označeno razvrstitvijo posegov, evidentiranih po 11. členu zakona o spremembah in dopolnitvah zakona o urejanju naselij in drugih posegov v prostor, vsa potrebna soglasja organov in organizacij, ki so dali pogoje k tem posegom, projektne rešitve sanacij ter ocene prispevkov vsakega posega k stroškom za pripravo in opremljanje stavbnih zemljišč, so sestavni del te uredbe in so na vpogled pri upravnem organu občine Tržič, pristojnem za urejanje prostora.
+
+
+### 3. člen
+
+Meja območja, ki ga obravnava akt legalizacije, se določi po naslednjih, parcelah in sicer:
+k.o. BISTRICA: 337/2, 26/5, 187/6;
+k.o. KOVOR: 537/1;
+k.o. KRIŽE: 726/2, 726/3, 777/2, 572/2;
+ko. LEŠE: 702/1;
+k.o. LOM: 516/5, 695/1, 394/42, 391/2, 411/16, 434/3, 695/1;
+k.o. PODLJUBELJ: 506, 735/5;
+k.o. SENIČNO: 373/1, 258, 309/2, 310/2;
+k.o. ŽIGANJA VAS: 164,
+ki so sestavni del tega območja.
+
+
+### 4. člen
+
+Funkcija območja s pogoji za izrabo in kvaliteto graditve ali drugega posega v prostor, pogoji za urbanistično, arhitektonsko in krajinsko oblikovanje ter drugi pogoji, pomembni za izvedbo akta legalizacije, so sestavni del te uredbe in so razvidni za vsak poseg ali skupine posegov posebej iz projektnih rešitev sanacije kot sestavni del akta legalizacije, ki je na vpogled pri upravnem organu občine Tržič, pristojnem za urejanje prostora.
+
+
+### 5. člen
+
+Nadzor nad izvajanjem te uredbe opravlja organ urbanistične inšpekcije.
+
+
+### 6. člen
+
+Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 350-01/94-5/4-8
+
+Ljubljana, dne 29. septembra 1994.
+
+
+### Vlada Republike Slovenije
+
+dr. Janez Drnovšek l. r.
+Predsednik
