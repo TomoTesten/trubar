@@ -4,8 +4,9 @@ naziv: "Navodilo o izdelavi poročila o upravnikovem delu"
 vrsta: "navodilo"
 datum: 2004-10-07
 sop: 2004-01-4539
-organ: "Ministrstvo za okolje, prostor in energijo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4539"
 ---
 

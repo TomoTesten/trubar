@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila o minimalni obvezni vsebin
 vrsta: "navodilo"
 datum: 2004-10-11
 sop: 2004-01-4606
-organ: "Služba Vlade Republike Slovenije za strukturno politiko in regionalni razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4606"
 ---
 
