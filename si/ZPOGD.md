@@ -16,6 +16,10 @@ spremembe:
     datum: 1996-07-05
     sop: 1996-01-2279
     naziv: "Zakon o spremembah in dopolnitvah zakona o poroštvih Republike Slovenije za obveznosti gospodarskih družb iz poslov restrukturiranja dolgov"
+  - kratica: ZPOGD-C
+    datum: 1997-05-30
+    sop: 1997-01-1733
+    naziv: "Zakon o spremembi in dopolnitvi zakona o poroštvih Republike Slovenije za obveznosti gospodarskih družb iz poslov restrukturiranja dolgov"
 ---
 
 # Zakon o poroštvih Republike Slovenije za obveznosti gospodarskih družb iz poslov restrukturiranja dolgov
