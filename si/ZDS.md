@@ -12,6 +12,10 @@ spremembe:
     datum: 1996-07-12
     sop: 1996-01-2346
     naziv: "Zakon o spremembi in dopolnitvi zakona o davčni službi"
+  - kratica: ZDS-B
+    datum: 1997-12-29
+    sop: 1997-01-4009
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davčni službi"
 ---
 
 # Zakon o davčni službi
