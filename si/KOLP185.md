@@ -4,9 +4,9 @@ naziv: "Razlaga Kolektivne pogodbe za kemično in gumarsko industrijo Slovenije"
 vrsta: "akt"
 datum: 2004-07-29
 sop: 2004-01-3745
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3745"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve kolektivne pogodbe za kemično in gumarsko indus
 vrsta: "akt"
 datum: 2004-07-23
 sop: 2004-01-3563
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3563"
 ---
 

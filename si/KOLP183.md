@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba dejavnosti bank in hranilnic v Republiki Sloveniji"
 vrsta: "akt"
 datum: 2004-07-23
 sop: 2004-01-3562
-organ: "Združenje bank Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3562"
 ---
 
