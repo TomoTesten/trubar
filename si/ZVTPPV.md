@@ -7,6 +7,11 @@ sop: 1995-01-0959
 objava: "Uradni list RS 21/95  str. 1606"
 kljucne_besede: ["elektronska komponenta", "industrijska lastnina", "intelektualna lastnina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0959"
+spremembe:
+  - kratica: ZVTPPV-A
+    datum: 2002-11-14
+    sop: 2002-01-4811
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu topografije polprevodniških vezij"
 ---
 
 # Zakon o varstvu topografije polprevodniških vezij
