@@ -7,6 +7,11 @@ sop: 2001-01-2044
 objava: "Uradni list RS 35/2001  str. 4042"
 kljucne_besede: ["davek na motorna vozila"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2044"
+spremembe:
+  - kratica: ZOU-A
+    datum: 2002-07-05
+    sop: 2002-01-2840
+    naziv: "Zakon o dopolnitvah zakona o omejevalnih ukrepih"
 ---
 
 # Zakon o omejevalnih ukrepih
