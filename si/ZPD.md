@@ -12,6 +12,10 @@ spremembe:
     datum: 1993-12-30
     sop: 1993-01-2572
     naziv: "Zakon o spremembi zakona o prometnem davku"
+  - kratica: ZPD-B
+    datum: 1996-03-22
+    sop: 1996-01-0842
+    naziv: "Zakon o spremembah in dopolnitvah zakona o prometnem davku"
 ---
 
 # Zakon o prometnem davku
