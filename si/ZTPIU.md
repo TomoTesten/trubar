@@ -7,6 +7,11 @@ sop: 1992-01-1788
 objava: "Uradni list RS 36/92  str. 2321"
 kljucne_besede: ["izkopavanje rude", "rudarstvo", "uran"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1788"
+spremembe:
+  - kratica: ZTPIU-A
+    datum: 2000-03-30
+    sop: 2000-01-1257
+    naziv: "Zakon o spremembah in dopolnitvah zakona o trajnem prenehanju izkoriščanja uranove rude in preprečevanju posledic rudarjenja v Rudniku urana Žirovski vrh"
 ---
 
 # Zakon o trajnem prenehanju izkoriščanja uranove rude in preprečevanje posledic rudarjenja v Rudniku urana Žirovski vrh
