@@ -4,9 +4,9 @@ naziv: "Odlok o razrešitvi in imenovanju dveh članov Upravnega odbora Prešern
 vrsta: "odlok"
 datum: 2001-05-05
 sop: 2001-01-1964
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1964"
 ---
 

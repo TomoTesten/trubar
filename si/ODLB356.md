@@ -4,9 +4,9 @@ naziv: "Odločba o pooblastitvi Kmetijskega zavoda Maribor za izvajanje določen
 vrsta: "akt"
 datum: 2001-05-18
 sop: 2001-01-2227
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2227"
 ---
 

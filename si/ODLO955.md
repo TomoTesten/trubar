@@ -4,9 +4,9 @@ naziv: "Odlok o izvolitvi v sodniško funkcijo"
 vrsta: "odlok"
 datum: 2001-05-05
 sop: 2001-01-1968
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1968"
 ---
 
