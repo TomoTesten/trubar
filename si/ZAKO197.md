@@ -2,11 +2,11 @@
 kratica: ZAKO197
 naziv: "Zakon o začasni prepovedi sečnje v gozdovih v družbeni lastnini in začasni prepovedi prometa z nepremičninami v družbeni lastnini (ZZPS)"
 vrsta: "akt"
-datum: 1990-07-06
+datum: 1990-11-28
 sop: 1990-03-1321
-organ: "SKUPŠČINA RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1990-03-1321"
 ---
 

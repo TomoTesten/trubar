@@ -4,9 +4,9 @@ naziv: "Zakon o spremembah in dopolnitvah zakona o varnosti cestnega prometa (ZV
 vrsta: "akt"
 datum: 1991-06-25
 sop: 1991-01-0012
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0012"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o predsanaciji, sanaciji, stečaju in likvidaciji bank in hranilni
 vrsta: "akt"
 datum: 1991-06-25
 sop: 1991-01-0020
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0020"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o amnestiji (ZA)"
 vrsta: "akt"
 datum: 1990-10-05
 sop: 1990-03-1793
-organ: "SKUPŠČINA RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1990-03-1793"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o razglasitvi ustavnega zakona za izvedbo temeljne ustavne listine
 vrsta: "odlok"
 datum: 1991-06-25
 sop: 1991-01-0005
-organ: "SKUPŠČINA RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0005"
 ---
 

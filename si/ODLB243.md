@@ -2,11 +2,11 @@
 kratica: ODLB243
 naziv: "Odločba o določitvi organizacije za izvajanje nalog s področja varstva pred ionizirajočimi sevanji"
 vrsta: "akt"
-datum: 1991-03-08
+datum: 1991-04-12
 sop: 1991-03-0361
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-03-0361"
 ---
 

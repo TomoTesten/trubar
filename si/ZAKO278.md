@@ -4,9 +4,9 @@ naziv: "Zakon o prenehanju veljavnosti zakona o združevanju kmetov"
 vrsta: "akt"
 datum: 1990-04-16
 sop: 1990-03-0712
-organ: "SKUPŠČINA RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1990-03-0712"
 ---
 

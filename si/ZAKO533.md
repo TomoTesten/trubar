@@ -4,9 +4,9 @@ naziv: "Zakon o popisu prebivalstva, gospodinjstev, stanovanj in kmečkih gospod
 vrsta: "akt"
 datum: 1990-03-16
 sop: 1990-03-0409
-organ: "SKUPŠČINA RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1990-03-0409"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Deklaracija o suverenosti države Republike Slovenije"
 vrsta: "akt"
 datum: 1990-07-06
 sop: 1990-03-1320
-organ: "SKUPŠČINA SRS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1990-03-1320"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o Agenciji Republike Slovenije za zavarovanje vlog v bankah in hra
 vrsta: "akt"
 datum: 1991-06-25
 sop: 1991-01-0019
-organ: "SKUPŠČINA RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0019"
 ---
 

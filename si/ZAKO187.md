@@ -4,9 +4,9 @@ naziv: "Zakon o funkcionarjih v državnih organih (ZFDO)"
 vrsta: "akt"
 datum: 1990-08-10
 sop: 1990-03-1530
-organ: "SKUPŠČINA RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1990-03-1530"
 ---
 
