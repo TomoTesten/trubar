@@ -16,6 +16,10 @@ spremembe:
     datum: 1997-08-01
     sop: 1997-01-2505
     naziv: "Zakon o spremembah zakona o Vladi Republike Slovenije"
+  - kratica: ZVRS-C
+    datum: 2000-12-22
+    sop: 2000-01-5010
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Vladi Republike Slovenije"
 ---
 
 # Zakon o Vladi Republike Slovenije
