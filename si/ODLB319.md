@@ -4,9 +4,9 @@ naziv: "Odločba o spremembi odločbe o prepovedi uvoza v Republiko Slovenijo in
 vrsta: "akt"
 datum: 2001-03-02
 sop: 2001-01-0956
-organ: "Veterinarska uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0956"
 ---
 

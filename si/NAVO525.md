@@ -4,9 +4,9 @@ naziv: "Pravilnik za vodenje evidenc količin mleka in mlečnih izdelkov ter por
 vrsta: "navodilo"
 datum: 2001-03-23
 sop: 2001-01-1264
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1264"
 ---
 

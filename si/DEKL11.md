@@ -4,9 +4,9 @@ naziv: "Deklaracija ob 25-letnici Organizacije za varnost in sodelovanje v Evrop
 vrsta: "akt"
 datum: 2001-03-07
 sop: 2001-01-0958
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0958"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Akt o nasledstvu sporazumov nekdanje Jugoslavije z Republiko Turčijo, k
 vrsta: "akt"
 datum: 2001-03-16
 sop: 2001-02-0015
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-02-0015"
 ---
 
