@@ -4,8 +4,9 @@ naziv: "Uredba o ratifikaciji Protokola o predvidenih ukrepih za zagotavljanje t
 vrsta: "uredba"
 datum: 1996-07-12
 sop: 1996-02-0038
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-02-0038"
 ---
 

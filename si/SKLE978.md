@@ -4,9 +4,9 @@ naziv: "Sklep o vsebini in načinu objave podatkov, ki so jih dolžni objavljeni
 vrsta: "sklep"
 datum: 1996-07-18
 sop: 1996-01-2391
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2391"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Obvezna razlaga 4. člena zakona o skladu za financiranje razgradnje NEK
 vrsta: "akt"
 datum: 1996-07-05
 sop: 1996-01-2281
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2281"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o spremembi zakona o razmerjih plač v javnih zavodih, državnih o
 vrsta: "akt"
 datum: 1996-07-12
 sop: 1996-01-2347
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2347"
 ---
 

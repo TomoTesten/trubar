@@ -4,9 +4,9 @@ naziv: "Pravilnik o prvih meritvah in obratovalnem monitoringu odpadnih vod ter 
 vrsta: "pravilnik"
 datum: 1996-07-05
 sop: 1996-01-2299
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2299"
 ---
 

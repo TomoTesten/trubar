@@ -4,9 +4,9 @@ naziv: "Zakon o zagotovitvi sredstev za odpravo posledic zime v letu 1995/1996 (
 vrsta: "akt"
 datum: 1996-06-29
 sop: 1996-01-2202
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2202"
 ---
 
