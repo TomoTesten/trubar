@@ -7,6 +7,11 @@ sop: 2000-01-3708
 objava: "Uradni list RS 81/2000  str. 9769"
 kljucne_besede: ["poklicna kvalifikacija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3708"
+spremembe:
+  - kratica: ZNPK-A
+    datum: 2003-06-09
+    sop: 2003-01-2755
+    naziv: "Zakon o spremembi zakona o nacionalnih poklicnih kvalifikacijah"
 ---
 
 # Zakon o nacionalnih poklicnih kvalifikacijah
