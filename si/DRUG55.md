@@ -4,9 +4,9 @@ naziv: "Pravilnik o biorazgradljivosti in označevanju detergentov"
 vrsta: "drugi akt"
 datum: 2002-08-13
 sop: 2002-01-3481
-organ: "Ministrstvo za zdravje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3481"
 ---
 

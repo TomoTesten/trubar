@@ -4,9 +4,9 @@ naziv: "Razlaga kolektivne pogodbe za cestno gospodarstvo"
 vrsta: "akt"
 datum: 2002-09-06
 sop: 2002-01-3811
-organ: "Komisija za razlago splošne kolektivne pogodbe za gospodarske dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3811"
 ---
 

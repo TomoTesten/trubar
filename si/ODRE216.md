@@ -4,9 +4,9 @@ naziv: "Pravilnik o tlačnih posodah tipa jeklenke"
 vrsta: "odredba"
 datum: 2002-08-13
 sop: 2002-01-3477
-organ: "Ministrstvo za gospodarstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3477"
 ---
 

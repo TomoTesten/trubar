@@ -4,9 +4,9 @@ naziv: "Odločba o podelitvi statusa društva v javnem interesu na področju kul
 vrsta: "akt"
 datum: 2002-07-26
 sop: 2002-01-3252
-organ: "Ministrstvo za kulturo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3252"
 ---
 

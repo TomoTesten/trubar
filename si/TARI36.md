@@ -4,9 +4,9 @@ naziv: "Tarife agencijskih storitev"
 vrsta: "akt"
 datum: 2002-08-30
 sop: 2002-01-3720
-organ: "Zveza pomorskih prometnih agencij Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3720"
 ---
 

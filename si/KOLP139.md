@@ -4,9 +4,9 @@ naziv: "Aneks h kolektivni pogodbi za gozdarstvo Slovenije"
 vrsta: "akt"
 datum: 2002-08-22
 sop: 2002-01-3576
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3576"
 ---
 

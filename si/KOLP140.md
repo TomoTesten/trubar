@@ -4,9 +4,9 @@ naziv: "Tarifna priloga kolektivne pogodbe za dejavnost železniškega prometa z
 vrsta: "akt"
 datum: 2002-08-22
 sop: 2002-01-3577
-organ: "Ministrstvo za promet"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3577"
 ---
 

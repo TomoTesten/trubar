@@ -4,9 +4,9 @@ naziv: "Razlage določil kolektivne pogodbe za kmetijstvo in živilsko industrij
 vrsta: "akt"
 datum: 2002-09-06
 sop: 2002-01-3810
-organ: "Komisija za razlago kolektivne pogodbe za kmetijsko in živilsko industrijo Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3810"
 ---
 
