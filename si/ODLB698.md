@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju pomočnika okrožnega državnega tožilca"
 vrsta: "akt"
 datum: 2004-09-24
 sop: 2004-01-4443
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4443"
 ---
 

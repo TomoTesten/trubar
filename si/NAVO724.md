@@ -4,9 +4,9 @@ naziv: "Sprememba navodila za izdelavo poročila o izračunu obveznih rezerv"
 vrsta: "navodilo"
 datum: 2004-09-17
 sop: 2004-01-4352
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4352"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o razširitvi imenovanja za izvajanje overitev meril"
 vrsta: "akt"
 datum: 2004-09-24
 sop: 2004-01-4446
-organ: "Urad RS za meroslovje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4446"
 ---
 

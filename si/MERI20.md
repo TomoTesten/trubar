@@ -4,9 +4,9 @@ naziv: "Merila za akreditacijo visokošolskih zavodov in študijskih programov"
 vrsta: "akt"
 datum: 2004-09-17
 sop: 2004-01-4355
-organ: "Svet za visoko šolstvo RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4355"
 ---
 

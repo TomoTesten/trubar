@@ -4,9 +4,9 @@ naziv: "Navodilo o izračunu postavke \"Posebni prevrednotovalni popravek kapita
 vrsta: "navodilo"
 datum: 2004-08-27
 sop: 2004-01-4222
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4222"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Dopolnitev meril za ocenjevanje pedagoških študijskih programov, njiho
 vrsta: "akt"
 datum: 2004-09-17
 sop: 2004-01-4356
-organ: "Svet za visoko šolstvo RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4356"
 ---
 

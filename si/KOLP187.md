@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba komunalnih dejavnosti"
 vrsta: "akt"
 datum: 2004-08-26
 sop: 2004-01-4205
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4205"
 ---
 

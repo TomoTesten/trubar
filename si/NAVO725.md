@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah Navodila za izvajanje subvencionira
 vrsta: "navodilo"
 datum: 2004-10-01
 sop: 2004-01-4519
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4519"
 ---
 

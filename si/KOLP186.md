@@ -4,9 +4,9 @@ naziv: "Aneks št. 1 h kolektivni pogodbi premogovništva Slovenije"
 vrsta: "akt"
 datum: 2004-09-13
 sop: 2004-01-4332
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4332"
 ---
 
