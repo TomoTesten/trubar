@@ -7,6 +7,11 @@ sop: 1999-02-0079
 objava: "Uradni list RS MP 25/99  str. 1091"
 kljucne_besede: ["ratifikacija sporazuma", "evropska konvencija", "pravna pomoč", "protokol k sporazumu", "kaznivo dejanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-02-0079"
+spremembe:
+  - kratica: MEKPPKZ-A
+    datum: 2001-06-08
+    sop: 2001-02-0032
+    naziv: "Zakon o dopolnitvi zakona o ratifikaciji Evropske konvencije o medsebojni pravni pomoči v kazenskih zadevah in dodatnega protokola k Evropski konvenciji o medsebojni pravni pomoči v kazenskih zadevah"
 ---
 
 # Zakon o ratifikaciji Evropske konvencije o medsebojni pravni pomoči v kazenskih zadevah in Dodatnega protokola k Evropski konvenciji o medsebojni pravni pomoči v kazenskih zadevah
