@@ -7,6 +7,11 @@ sop: 2002-01-3235
 objava: "Uradni list RS 67/2002  str. 7635"
 kljucne_besede: ["genetsko spremenjen organizem"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3235"
+spremembe:
+  - kratica: ZRGSO-A
+    datum: 2004-07-05
+    sop: 2004-01-3240
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ravnanju z gensko spremenjenimi organizmi"
 ---
 
 # Zakon o ravnanju z gensko spremenjenimi organizmi
