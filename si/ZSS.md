@@ -12,6 +12,10 @@ spremembe:
     datum: 1996-02-12
     sop: 1996-01-0383
     naziv: "Zakon o spremembah in dopolnitvah zakona o sodniški službi"
+  - kratica: ZSS-B
+    datum: 1998-03-27
+    sop: 1998-01-1046
+    naziv: "Zakon o spremembi in dopolnitvi zakona o sodniški službi"
 ---
 
 # Zakon o sodniški službi
