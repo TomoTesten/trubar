@@ -7,6 +7,11 @@ sop: 1992-01-0676
 objava: "Uradni list RS 13/92  str. 816"
 kljucne_besede: ["industrijska lastnina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0676"
+spremembe:
+  - kratica: ZIL-A
+    datum: 1993-05-29
+    sop: 1993-01-1222
+    naziv: "Zakon o spremembah in dopolnitvah zakona o industrijski lastnini"
 ---
 
 # Zakon o industrijski lastnini
