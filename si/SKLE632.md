@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi višine prispevka za RTV programe"
 vrsta: "sklep"
 datum: 2000-02-18
 sop: 2000-01-0629
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0629"
 ---
 

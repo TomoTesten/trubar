@@ -4,9 +4,9 @@ naziv: "Odlok o soglasju k spremembam pravilnika o merilih in pogojih za uporabo
 vrsta: "odlok"
 datum: 2000-02-18
 sop: 2000-01-0622
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0622"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o merilih za organiziranje in opremljanje Civilne zaščite"
 vrsta: "odredba"
 datum: 2000-02-23
 sop: 2000-01-0701
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0701"
 ---
 

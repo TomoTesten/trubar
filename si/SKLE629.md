@@ -4,9 +4,9 @@ naziv: "Sklep o spremembi sklepa o odprtju Generalnega konzulata Republike Slove
 vrsta: "sklep"
 datum: 2000-02-18
 sop: 2000-01-0628
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0628"
 ---
 

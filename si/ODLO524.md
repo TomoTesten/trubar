@@ -4,9 +4,9 @@ naziv: "Odlok o pomilostitvi obsojenke in obsojenca"
 vrsta: "odlok"
 datum: 2000-02-18
 sop: 2000-01-0624
-organ: "Predsednik Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0624"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odredba o začasnem zavarovanju območja Mlak"
 vrsta: "odredba"
 datum: 2000-02-18
 sop: 2000-01-0634
-organ: "Ministrstvo za okolje in prostor"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0634"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o obrazcu za obračun davka od dobička pravnih oseb in načinu 
 vrsta: "odredba"
 datum: 2000-02-18
 sop: 2000-01-0630
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0630"
 ---
 

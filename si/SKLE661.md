@@ -4,9 +4,9 @@ naziv: "Sklep o potrditvi učnega sredstva AVSTRALIJA, OCEANIJA IN POLARNA OBMO�
 vrsta: "sklep"
 datum: 2000-02-23
 sop: 2000-01-0726
-organ: "Strokovni svet RS za poklicno in strokovno izobraževanje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0726"
 ---
 

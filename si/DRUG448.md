@@ -4,9 +4,9 @@ naziv: "Seznam fitofarmacevtskih sredstev, ki imajo veljavno dovoljenje za trgov
 vrsta: "drugi akt"
 datum: 2000-02-23
 sop: 2000-01-0703
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0703"
 ---
 

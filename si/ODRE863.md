@@ -4,9 +4,9 @@ naziv: "Odredba o valorizaciji zneskov za odmero dohodnine za leto 1999"
 vrsta: "odredba"
 datum: 2000-02-23
 sop: 2000-01-0700
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0700"
 ---
 

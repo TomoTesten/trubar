@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila o obliki, vsebini in upora
 vrsta: "navodilo"
 datum: 2000-02-23
 sop: 2000-01-0707
-organ: "Agencija za plačilni promet"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Konzumiran ali obsoleten predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0707"
 ---
 

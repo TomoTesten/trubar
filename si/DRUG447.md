@@ -4,9 +4,9 @@ naziv: "Poročilo o izidu glasovanja na nadomestnih volitvah člana Sveta sodnik
 vrsta: "drugi akt"
 datum: 2000-02-18
 sop: 2000-01-0639
-organ: "Senat za prekrške RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0639"
 ---
 
