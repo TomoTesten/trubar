@@ -7,6 +7,11 @@ sop: 2000-01-2751
 objava: "Uradni list RS 61/2000  str. 7686"
 kljucne_besede: ["koncesija za opravljanje storitev", "elektrarna", "raba voda", "proizvodnja energije", "električna energija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2751"
+spremembe:
+  - kratica: ZPKEPS-A
+    datum: 2002-05-15
+    sop: 2002-01-2004
+    naziv: "Zakon o spremembah zakona o pogojih koncesije za izkoriščanje energetskega potenciala Spodnje Save"
 ---
 
 # Zakon o pogojih koncesije za izkoriščanje energetskega potenciala spodnje Save
