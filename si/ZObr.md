@@ -7,6 +7,11 @@ sop: 1994-01-2980
 objava: "Uradni list RS 82/94  str. 5029"
 kljucne_besede: ["obrambna politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2980"
+spremembe:
+  - kratica: ZObr-A
+    datum: 1997-07-24
+    sop: 1997-01-2415
+    naziv: "Zakon o spremembi in dopolnitvi zakona o obrambi"
 ---
 
 # Zakon o obrambi
