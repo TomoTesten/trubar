@@ -4,9 +4,9 @@ naziv: "Navodilo za izračun komunalnega prispevka"
 vrsta: "navodilo"
 datum: 1999-01-22
 sop: 1999-01-0162
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0162"
 ---
 

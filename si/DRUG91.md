@@ -4,9 +4,9 @@ naziv: "Zneski povračil, nadomestil in drugih prejemkov za zaposlene v državni
 vrsta: "drugi akt"
 datum: 1999-01-29
 sop: 1999-01-0239
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0239"
 ---
 

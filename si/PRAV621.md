@@ -4,9 +4,9 @@ naziv: "Pravilnik o merilih za oblikovanje cen zdravil na debelo in o načinu ob
 vrsta: "pravilnik"
 datum: 1999-01-22
 sop: 1999-01-0159
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0159"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o nagradah in priznanjih na področju zaposlovanja"
 vrsta: "pravilnik"
 datum: 1999-01-28
 sop: 1999-01-0200
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0200"
 ---
 

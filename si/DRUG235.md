@@ -4,9 +4,9 @@ naziv: "Podaljšanje roka prodaje srečk"
 vrsta: "drugi akt"
 datum: 1999-01-22
 sop: 1999-01-0174
-organ: "Športna loterija in igre na srečo d.d."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0174"
 ---
 

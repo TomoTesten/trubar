@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi cene rumene koruze iz državnih blagovnih rezerv"
 vrsta: "odredba"
 datum: 1999-01-22
 sop: 1999-01-0157
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0157"
 ---
 

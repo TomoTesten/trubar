@@ -4,8 +4,9 @@ naziv: "Navodilo o načinu ugotavljanja stalnega bivališča državljanov držav
 vrsta: "navodilo"
 datum: 1999-01-22
 sop: 1999-01-0161
-organ: "Ministrstvo za notranje zadeve"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0161"
 ---
 

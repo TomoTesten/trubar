@@ -4,9 +4,9 @@ naziv: "Poročilo o izidu zakonodajnega referenduma o financiranju izgradnje TET
 vrsta: "drugi akt"
 datum: 1999-01-22
 sop: 1999-01-0168
-organ: "Republiška volilna komisija"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0168"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o soglasju k višini RTV naročnine"
 vrsta: "sklep"
 datum: 1999-01-15
 sop: 1999-01-0133
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0133"
 ---
 

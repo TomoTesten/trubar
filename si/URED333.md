@@ -4,8 +4,9 @@ naziv: "Uredba o ratifikaciji sprememb protokola 4 k začasnemu sporazumu o trgo
 vrsta: "uredba"
 datum: 1999-01-21
 sop: 1999-02-0002
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-02-0002"
 ---
 

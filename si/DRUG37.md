@@ -4,9 +4,9 @@ naziv: "Navodilo o vsebini programa opremljanja stavbnih zemljišč"
 vrsta: "drugi akt"
 datum: 1999-01-22
 sop: 1999-01-0163
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0163"
 ---
 

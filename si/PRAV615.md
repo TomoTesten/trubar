@@ -4,9 +4,9 @@ naziv: "Pravilnik o natančnejših pogojih za promet na debelo z zdravili iz sku
 vrsta: "pravilnik"
 datum: 1999-01-15
 sop: 1999-01-0057
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0057"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Program pripravništva za poklic farmacevt"
 vrsta: "drugi akt"
 datum: 1999-01-22
 sop: 1999-01-0165
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0165"
 ---
 
