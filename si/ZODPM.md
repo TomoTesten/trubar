@@ -12,6 +12,10 @@ spremembe:
     datum: 1997-08-01
     sop: 1997-01-2507
     naziv: "Zakon o spremembah in dopolnitvah zakona o organizaciji in delovnem področju ministrstev"
+  - kratica: ZODPM-B
+    datum: 1999-07-29
+    sop: 1999-01-2866
+    naziv: "Zakon o spremembah in dopolnitvah zakona o organizaciji in delovnem področju ministrstev"
 ---
 
 # Zakon o organizaciji in delovnem področju ministrstev
