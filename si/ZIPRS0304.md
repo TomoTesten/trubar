@@ -12,6 +12,10 @@ spremembe:
     datum: 2003-06-30
     sop: 2003-01-3065
     naziv: "Zakon o spremembah in dopolnitvah zakona o izvrševanju proračuna Republike Slovenije za leti 2003 in 2004"
+  - kratica: ZIPRS0304-B
+    datum: 2003-12-08
+    sop: 2003-01-5214
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izvrševanju proračuna Republike Slovenije za leto 2003 in 2004"
 ---
 
 # Zakon o izvrševanju proračuna Republike Slovenije za leto 2003 in 2004
