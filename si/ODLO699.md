@@ -4,9 +4,9 @@ naziv: "Odlok o oznaki države pripadnosti letal"
 vrsta: "odlok"
 datum: 1991-10-31
 sop: 1991-01-0818
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0818"
 ---
 

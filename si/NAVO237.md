@@ -4,9 +4,9 @@ naziv: "Navodilo o identifikaciji motornih vozil, namenjenih za potrebe teritori
 vrsta: "navodilo"
 datum: 1991-10-31
 sop: 1991-01-0820
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0820"
 ---
 

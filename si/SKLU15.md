@@ -4,8 +4,8 @@ naziv: "Sklep za oceno ustavnosti 3., 4., 35. in 36. člena zakona o osnovni šo
 vrsta: "akt"
 datum: 1991-11-14
 sop: 1991-01-0957
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0957"
 ---

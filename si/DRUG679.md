@@ -4,9 +4,9 @@ naziv: "Dopolnitev navodila za izvajanje sklepa o opravljanju plačilnega promet
 vrsta: "drugi akt"
 datum: 1991-11-14
 sop: 1991-01-0953
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0953"
 ---
 

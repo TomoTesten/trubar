@@ -2,11 +2,11 @@
 kratica: NAVO430
 naziv: "Navodilo za izvajanje 4., 11. in prvega odstavka 13. člena sklepa o vzdrževanju likvidnosti bank v plačilih do tujine"
 vrsta: "navodilo"
-datum: 1991-10-11
+datum: 1991-10-31
 sop: 1991-01-0684
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0684"
 ---
 

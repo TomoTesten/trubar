@@ -4,9 +4,9 @@ naziv: "Odlok o spremembi in dopolnitvi odloka o določitvi zneska omejitve odš
 vrsta: "odlok"
 datum: 1991-11-06
 sop: 1991-01-0878
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0878"
 ---
 

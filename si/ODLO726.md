@@ -4,9 +4,9 @@ naziv: "Odlok o spremembah in dopolnitvah odloka o določitvi zneska zavarovanja
 vrsta: "odlok"
 datum: 1991-11-06
 sop: 1991-01-0877
-organ: "IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0877"
 ---
 
