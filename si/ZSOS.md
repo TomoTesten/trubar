@@ -7,6 +7,11 @@ sop: 1993-01-0294
 objava: "Uradni list RS 7/93  str. 265"
 kljucne_besede: ["odškodnina", "privatizacija", "zaplemba premoženja", "lastnina", "sklad"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0294"
+spremembe:
+  - kratica: ZSOS-A
+    datum: 1994-08-05
+    sop: 1994-01-1826
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Slovenskem odškodninskem skladu"
 ---
 
 # Zakon o Slovenskem odškodninskem skladu
