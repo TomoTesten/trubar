@@ -12,6 +12,10 @@ spremembe:
     datum: 2000-12-29
     sop: 2000-01-5206
     naziv: "Zakon o dopolnitvi zakona o minimalni plači, o načinu usklajevanja plač in o regresu za letni dopust v obdobju 1999-2001"
+  - kratica: ZMPUPR-B
+    datum: 2001-06-13
+    sop: 2001-01-2644
+    naziv: "Zakon o spremembah in dopolnitvah zakona o minimalni plači, o načinu usklajevanja plač in o regresu za letni dopust v obdobju 1999-2001"
 ---
 
 # Zakon o minimalni plači, o načinu usklajevanja plač in o regresu za letni dopust v obdobju 1999 - 2001
