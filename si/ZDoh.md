@@ -16,6 +16,10 @@ spremembe:
     datum: 1995-02-04
     sop: 1995-01-0450
     naziv: "Zakon o spremembah in dopolnitvah zakona o dohodnini"
+  - kratica: ZDoh-B
+    datum: 1996-08-09
+    sop: 1996-01-2703
+    naziv: "Zakon o spremembah in dopolnitvah zakona o dohodnini"
 ---
 
 # Zakon o dohodnini
