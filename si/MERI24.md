@@ -1,11 +1,12 @@
 ---
 kratica: MERI24
 naziv: "Merila za spremljanje, ugotavljanje in zagotavljanje kakovosti visokošolskih zavodov, študijskih programov ter znanstvenoraziskovalnega, umetniškega in strokovnega dela"
-vrsta: "meri"
+vrsta: "akt"
 datum: 2004-11-19
 sop: 2004-01-5199
-organ: "Nacionalna komisija za kvaliteto visokega šolstva"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-5199"
 ---
 

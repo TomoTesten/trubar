@@ -4,9 +4,9 @@ naziv: "Merila za kreditno vrednotenje študijskih programov po ECTS"
 vrsta: "akt"
 datum: 2004-11-19
 sop: 2004-01-5200
-organ: "Svet za visoko šolstvo RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-5200"
 ---
 

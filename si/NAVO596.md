@@ -4,8 +4,9 @@ naziv: "Pravilnik o načinu in rokih zagotavljanja podatkov za vodenje centralne
 vrsta: "navodilo"
 datum: 2004-12-03
 sop: 2004-01-5402
-organ: "Ministrstvo za finance"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-5402"
 ---
 
