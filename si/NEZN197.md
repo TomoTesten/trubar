@@ -4,9 +4,9 @@ naziv: "Ugotovitveni sklep"
 vrsta: "akt"
 datum: 2002-01-25
 sop: 2002-01-0352
-organ: "Odbor za spremljanje Kolektivne pogodbe za negospodarske dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0352"
 ---
 

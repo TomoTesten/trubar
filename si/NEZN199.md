@@ -4,9 +4,9 @@ naziv: "Količnik povišanja plač zaposlenih v RS po splošni kolektivni pogodb
 vrsta: "akt"
 datum: 2002-01-25
 sop: 2002-01-0354
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0354"
 ---
 

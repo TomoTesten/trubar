@@ -4,9 +4,9 @@ naziv: "Pravilnik o kakovosti rib, rakov, glavonožcev, školjk in izdelkov iz n
 vrsta: "pravilnik"
 datum: 2002-01-21
 sop: 2002-01-0258
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0258"
 ---
 
