@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi navodila za izvajanje sklepa o obveznosti poročanj
 vrsta: "navodilo"
 datum: 2003-01-23
 sop: 2003-01-0256
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0256"
 ---
 
