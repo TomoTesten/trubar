@@ -16,6 +16,10 @@ spremembe:
     datum: 1999-06-01
     sop: 1999-01-2027
     naziv: "Zakon o spremembah in dopolnitvi zakona o Jamstvenem skladu Republike Slovenije"
+  - kratica: ZJSRS-C
+    datum: 1999-07-02
+    sop: 1999-01-2513
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Jamstvenem skladu"
 ---
 
 # Zakon o Jamstvenem skladu Republike Slovenije
