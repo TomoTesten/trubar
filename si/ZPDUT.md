@@ -7,6 +7,11 @@ sop: 1991-01-1448
 objava: "Uradni list RS 34/91  str. 1459"
 kljucne_besede: ["kolkovina", "upravni postopek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1448"
+spremembe:
+  - kratica: ZPDUT-A
+    datum: 1993-03-12
+    sop: 1993-01-0584
+    naziv: "Zakon o spremembi zakona o plačevanju določenih upravnih taks"
 ---
 
 # Zakon o plačevanju določenih upravnih taks
