@@ -7,6 +7,11 @@ sop: 1998-01-1047
 objava: "Uradni list RS 24/98  str. 1562"
 kljucne_besede: ["varstvo kulturne dediščine", "financiranje", "arheologija", "knjižnica", "spomenik", "muzej"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1047"
+spremembe:
+  - kratica: ZSNNPK-A
+    datum: 2002-12-12
+    sop: 2002-01-5312
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zagotavljanju sredstev za nekatere nujne programe Republike Slovenije v kulturi"
 ---
 
 # Zakon o zagotavljanju sredstev za nekatere nujne programe Republike Slovenije v kulturi
