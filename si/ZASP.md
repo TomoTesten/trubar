@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-02-09
     sop: 2001-01-0531
     naziv: "Zakon o spremembah in dopolnitvah zakona o avtorski in sorodnih pravicah"
+  - kratica: ZASP-B
+    datum: 2004-04-26
+    sop: 2004-01-1927
+    naziv: "Zakon o spremembah in dopolnitvah zakona o avtorski in sorodnih pravicah"
 ---
 
 # Zakon o avtorski in sorodnih pravicah
