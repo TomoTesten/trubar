@@ -28,6 +28,10 @@ spremembe:
     datum: 2003-06-13
     sop: 2003-01-2770
     naziv: "Zakon o spremembah in dopolnitvah zakona o kazenskem postopku"
+  - kratica: ZKP-F
+    datum: 2004-04-26
+    sop: 2004-01-1926
+    naziv: "Zakon o spremembah in dopolnitvah zakona o kazenskem postopku"
 ---
 
 # Zakon o kazenskem postopku
