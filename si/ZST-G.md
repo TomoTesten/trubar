@@ -2,26 +2,26 @@
 kratica: ZST-G
 naziv: "Zakon o spremembah in dopolnitvah zakona o sodnih taksah"
 vrsta: "Sprejet zakon"
-datum: 1996-07-19
-sop: 1996-01-2451
-objava: "Uradni list RS 38/96  str. 3277"
+datum: 1998-03-13
+sop: 1998-01-0811
+objava: "Uradni list RS 20/98  str. 1285"
 kljucne_besede: ["sodni stroški"]
-vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2451"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0811"
 ---
 
 # Zakon o spremembah in dopolnitvah zakona o sodnih taksah
 
-Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam
+Na podlagi druge alinee prvega odstavka 107. člena in drugega odstavka 91. člena ustave Republike Slovenije izdajam
 
 
 ## U K A Z
-o razglasitvi zakona o spremembah in dopolnitvah  zakona o sodnih taksah (ZST-G)
+o razglasitvi zakona o spremembah in dopolnitvah zakona o sodnih taksah (ZST-G)
 
-Razglašam zakon o spremembah in dopolnitvah zakona o sodnih taksah (ZST-G), ki ga je sprejel Državni zbor Republike Slovenije na seji dne 2. julija 1996.
+Razglašam zakon o spremembah in dopolnitvah zakona o sodnih taksah (ZST-G), ki ga je sprejel Državni zbor Republike Slovenije na seji 29. januarja 1998 in o njem ponovno odločal na seji 4. marca 1998.
 
-Št. 001-22-74/96
+Št. 001-22-18/98
 
-Ljubljana, dne 10. julija 1996.
+Ljubljana, dne 5. marca 1998.
 
 Predsednik
 Republike Slovenije
@@ -29,151 +29,187 @@ Milan Kučan l. r.
 
 
 ## Z A K O N
-O SPREMEMBAH IN DOPOLNITVAH ZAKONA  O SODNIH TAKSAH (ZST-G)
+O SPREMEMBAH IN DOPOLNITVAH ZAKONA O SODNIH TAKSAH (ZST-G)
 
 
 ### 1. člen
 
-V zakonu o sodnih taksah (Uradni list SRS, št. 30/78, 10/79, 36/83, 46/86, 34/88, 1/90 in Uradni list RS, št. 14/91) se v 1. členu besede “rednimi sodišči v Republiki Sloveniji” nadomestijo z besedami “sodišči v Republiki Sloveniji”.
+V zakonu o sodnih taksah (Uradni list SRS, št. 1/90 ter Uradni list RS, št. 14/91 in 38/96) se v prvem odstavku 8. člena črta beseda “tem“.
 
 
 ### 2. člen
 
-V 10. točki 2. člena se pred besedama “taksna tarifa” dodata besedi “zakon ali”.
+V prvem odstavku 11. člena se črtajo besede “Agencija Republike Slovenije za plačilni promet, nadziranje in informiranje“.
 
 
 ### 3. člen
 
-V tretjem odstavku 7. člena se besede “Izvršni svet Skupščine Republike Slovenije” nadomestijo z besedami “Vlada Republike Slovenije”, beseda “rednih” pa se črta.
-V petem odstavku se besede “uprava za družbene prihodke” nadomestijo z besedami “pristojni davčni urad” v ustreznem sklonu, beseda “tretji” v oklepaju pa se nadomesti z besedo “drugi”.
+V prvi alinea prvega odstavka 12. člena se pred vejico dodajo besede “za fizične osebe“.
+Druga alinee se spremeni tako, da se glasi:
+
+“– za prijavo terjatev delavcev iz drugega odstavka 160. člena zakona o prisilni poravnavi, stečaju in likvidaciji (Uradni list RS, št. 67/93, 8/96 in 39/97).“
+
+Doda se nov tretji odstavek, ki se glasi:
+
+“(3) Takse ne plača delavec v individualnih delovnih sporih o sklenitvi, obstoju in prenehanju delovnega razmerja in učenec ali študent v individualnih delovnih sporih zoper organizacijo oziroma delodajalca v zvezi s kadrovsko štipendijo ter začasnim ali občasnim opravljanjem dela.“
 
 
 ### 4. člen
 
-Prvi odstavek 11. člena se spremeni tako, da se glasi:
+Za 12. členom se doda nov 12.a člen, ki se glasi:
 
-“Plačila sodnih taks so oproščeni država in državni organi, lokalne samoupravne skupnosti, Agencija Republike Slovenije za plačilni promet, nadziranje in informiranje, Rdeči križ Slovenije in druge humanitarne organizacije ter tuja država in tuji državljani, če tako določa mednarodna pogodba ali če velja vzajemnost.”
 
-V drugem odstavku se besede “Republiški sekretariat za pravosodje in upravo” nadomestijo z besedami “ministrstvo, pristojno za pravosodje”.
+### “12.a člen
+
+V postopku v socialnih sporih, ki so premoženjske narave, se plača taksa po taksni tarifi, ki je določena za pravdni postopek, zmanjšana za 70%.
+
+Plačilo takse v socialnih sporih zapade v plačilo z dnem, ko zapadejo v plačilo stroški postopka.“
 
 
 ### 5. člen
 
-28. člen se spremeni tako, da se glasi:
+V 13. členu se doda nov drugi odstavek, ki se glasi:
 
-“Če ima taksni zavezanec prebivališče ali ima sedež v tujini, pa ne plača takse tedaj, ko nastane taksna obveznost, sodišče po končanem postopku s sklepom ugotovi, koliko znaša neplačana taksa in kazenska taksa ter naloži taksnemu zavezancu, da v roku, ki ne sme biti krajši kot 30 dni in ne daljši kot 90 dni od prejema odločbe, plača dolžno takso.
+“(2) Ne glede na določbo prejšnjega odstavka tega člena lahko sodišče stranki plačilo taks tudi odloži do izdaje odločbe ali pa ji dovoli obročno plačilo.“
 
-Kazenska taksa iz prejšnjega odstavka znaša 50% vrednosti neplačane takse.
-Zoper sklep iz prvega odstavka tega člena je dopustna pritožba na sodišče druge stopnje v 15 dneh od vročitve sklepa.
-Pravnomočen sklep iz prvega odstavka tega člena je izvršilni naslov.
-Pravnomočen sklep iz prvega odstavka tega člena pošlje sodišče organu, ki je po zakonu pristojen za zastopanje in uveljavljanje premoženjskih pravic in koristi Republike Slovenije v tujini.”
+Dosedanji drugi in tretji odstavek, ki postaneta tretji in četrti odstavek, se spremenita tako, da se glasita:
+
+“(3) Sklep o oprostitvi izda sodišče na predlog stranke. Predlogu mora stranka predložiti svojo zadnjo odločbo o dohodnini in zadnje odločbe o dohodnini družinskih članov iz prvega odstavka tega člena, potrdilo o svojih dohodkih in dohodkih družinskih članov iz prvega odstavka tega člena v zadnjih treh mesecih pred vložitvijo vloge za oprostitev ter potrdilo o premoženjskem stanju.
+
+(4) Predpis o izdaji potrdil iz prejšnjega odstavka in o kriterijih za oprostitev izda minister, pristojen za finance.“
 
 
 ### 6. člen
 
-V prvem odstavku 29. člena se črtajo besede “oziroma v 28.”, besede “uprava za družbene prihodke občine” v ustreznem sklonu pa se nadomestijo z besedami “pristojni davčni urad” v ustreznem sklonu.
-Drugi odstavek se črta.
-V dosedanjem tretjem odstavku, ki postane drugi odstavek, se besede “uprava za družbene prihodke občine” nadomestijo z besedami “pristojni davčni urad”.
-Dosedanji četrti odstavek postane tretji odstavek.
+V 22. členu se 1., 2., 3. in 4. točka črtajo.
+Dosedanje 5., 6., 7. in 8. točka postanejo 1., 2., 3. in 4. točka.
 
 
 ### 7. člen
 
-V prvem odstavku 30. člena se beseda “tretji” nadomesti z besedo “drugi”.
-Drugi odstavek se nadomesti z naslednjim besedilom:
-
-“(2) Zoper sklep iz prvega odstavka je dopustna pritožba v petnajstih dneh od vročitve sklepa.
-
-(3) O pritožbi odloča sodišče druge stopnje.
-(4) Sodišče prve stopnje lahko na podlagi pritožbe spremeni ali razveljavi sklep iz prvega odstavka, če je pritožbi priloženo potrdilo o plačilu takse.”.
-Dosedanji tretji in četrti odstavek postaneta peti in šesti odstavek.
-V petem in šestem odstavku se besede “Služba družbenega knjigovodstva” v ustreznem sklonu nadomestijo z besedami “Agencija Republike Slovenije za plačilni promet, nadziranje in informiranje” v ustreznem sklonu.
+V 31. členu se številka “75“ nadomesti s številko “150“.
 
 
 ### 8. člen
 
-V prvem, drugem in tretjem odstavku 35. člena se besede “za finance pristojni upravni organ občine” v ustreznem sklonu nadomestijo z besedami “pristojni davčni urad” v ustreznem sklonu.
+V taksni tarifi se prvi odstavek tarifne številke 1 spremeni tako, da se glasi:
+
+“(1) Za tožbo in nasprotno tožbo se plača po vrednosti zahtevka taksa s tem, da:
+
+------------------------------------------------
+   Pri vrednosti zahtevka            Znaša taksa
+nad točk            do točk             v točkah
+------------------------------------------------
+                    10.000                   600
+10.000              20.000                   700
+20.000              50.000                   800
+50.000             100.000                   900
+100.000
+------------------------------------------------
+
+1% od tolarske vrednosti, vendar največ v tolarski vrednosti 20.000 točk.“
+Doda se nov četrti odstavek, ki se glasi:
+
+“(4) Za tožbo v sporih zaradi motenja posesti se plača taksa 1000 točk, za tožbo v sporih o stvarnih služnostih se plača taksa 800 točk, za tožbo o sporih o osebnih služnostih in o dosmrtnem preživljanju se plača taksa 400 točk, za tožbo v zakonskih sporih se plača taksa 400 točk, za tožbo v sporih o ugotovitvi ali izpodbijanju očetovstva ali materinstva, v sporih o varstvu, vzgoji in preživljanju otrok se plača taksa 250 točk, za tožbo v socialnih sporih, ki niso premoženjske narave in za tožbo v individualnih delovnih sporih o posamičnih pravicah in obveznostih iz delovnega razmerja ali v zvezi z delovnim razmerjem, ki niso premoženjske narave se plača taksa 250 točk.“
+
+Dosedanji četrti in peti odstavek postaneta peti in šesti odstavek.
+V prvem odstavku tarifne številke 2 se črtajo besede “in za sklep zaradi motenja posesti“.
+Doda se nov peti odstavek, ki se glasi:
+
+“(5) Za sklep zaradi motenja posesti in za sodbe v sporih iz četrtega odstavka tarifne številke 1 se plača enaka taksa kot je določena v četrtem odstavku tarifne številke 1 za tožbo v teh sporih.“
+
+Dosedanji peti in šesti odstavek postaneta šesti in sedmi odstavek.
+V tarifni številki 3 se doda nov šesti odstavek, ki se glasi:
+
+“(6) V postopku v gospodarskih sporih se za pravna sredstva iz prvega, drugega, tretjega, četrtega in petega odstavka te tarifne številke plača taksa, določena v teh odstavkih, povečana za 100%.“
+
+Dosedanji šesti odstavek postane sedmi odstavek.
+V prvem odstavku tarifne številke 12 se besedilo “v tolarski vrednosti 10.000“ nadomesti z besedilom “v tolarski vrednosti 20.000“.
+V prvem odstavku tarifne številke 13 se številka “300“ nadomesti s številko “800“, v drugem odstavku se številka “500“ nadomesti s številko “1.000“, v tretjem odstavku pa se številka “600“ nadomesti s številko “1.200“.
+V prvem odstavku tarifne številke 15 se za besedami “prvega vpisa ladje“ dodajo besede “s katero se opravlja ribiška dejavnost“ številka “750“ pa se nadomesti s številko “1.000“.
+Za prvim odstavkom se doda nov drugi odstavek, ki se glasi:
+
+“(2) Za predlog za dovolitev prvega vpisa drugih ladij, ki se vpisujejo v vpisnik ladij, se plača taksa 1% od tolarske vrednosti ladje, vendar največ v tolarski vrednosti 20.000 točk.“
+
+Drugi odstavek, ki postane tretji odstavek se spremeni tako, da se glasi:
+
+“(3) Za sklep o vpisu se plača polovica takse iz prvega in drugega odstavka te tarifne številke.“
+
+V tretjem odstavku, ki postane četrti odstavek, se za besedo “prvega“ doda vejica in beseda “drugega“, za besedo “oziroma“ pa se beseda “drugega“ nadomesti z besedo “tretjega“.
+V prvem odstavku tarifne številke 18 se številka “15.000“ nadomesti s številko “20.000“.
+V drugem odstavku se v 1. točki številka “5.000“ nadomesti s številko “20.000“, v 2. točki pa se številka “200“ nadomesti s številko “500“.
+
+
+### Poglavje “VII. POSTOPEK V UPRAVNIH SPORIH IN RAČUNSKIH UPRAVNIH SPORIH“ se nadomesti z novim poglavjem, ki se glasi:
+
+
+### “VII. POSTOPEK V UPRAVNIH SPORIH
+
+
+### 1. Vloga
+
+
+### Tarifna številka 27
+
+(1) Za tožbo ali drugo pravno sredstvo, s katerim se začne upravni spor se plača taksa 1.500 točk.
+(2) Za tožbo v zadevah socialnega varstva se plača taksa 500 točk.
+(3) Za tožbo zoper odločbo o odmeri davka se plača taksa 3.000 točk.
+(4) Za zahtevo za izdajo začasne odredbe se plača taksa 500 točk.
+
+
+### 2. Odločbe
+
+
+### Tarifna številka 28
+
+(1) Za sodbo se plača taksa 1.500 točk.
+(2) Za sodbo v zadevah socialnega varstva se plača taksa 500 točk.
+(3) Za sodbo, izdano po tožbi iz tretjega odstavka tarifne številke 27 se plača taksa 3.000 točk.
+(4) Za sklep, s katerim se tožba zavrže in za sklep, s katerim se postopek ustavi zaradi umika tožbe se plača taksa 500 točk.
+(5) Za sklep o zahtevi za izdajo začasne odredbe se plača taksa 500 točk.
+Pojasnilo:
+Taksa po tej tarifni številki se ne plača, če je tožbi ugodeno in je izpodbijani akt odpravljen, ali če je razveljavljena sodba ali sklep sodišča.
+
+
+### 3. Pravna sredstva
+
+
+### Tarifna številka 28a
+
+(1) Za pritožbo zoper sodbo se plača dvojna taksa iz prvega, drugega ali tretjega odstavka tarifne številke 28.
+(2) Za pritožbo zoper sklep se plača enaka taksa kot je predpisana v četrtem ali petem odstavku tarifne številke 28.
+(3) Za predlog za obnovo postopka se plača taksa kot za pritožbo.“
+V prvem odstavku tarifne številke 29 se številka “75“ nadomesti s številko “200“, v drugem odstavku se številka “200“ nadomesti s številko “300“, v tretjem odstavku pa se številka “50“ nadomesti s številko “100“.
+V prvem odstavku tarifne številke 32 se številka “30“ nadomesti s številko “40“, številka “10“ pa s številko “20“, v drugem odstavku se številka “30“ nadomesti s številko “40“.
+V tarifni številki 34 se številka “50“ nadomesti s številko “75“, številka “75“ pa se nadomesti s številko “100“.
+V tarifni številki 35 se črtata drugi in tretji odstavek.
+Tarifna številka 36 se spremeni tako, da se glasi:
+
+“Za vsako poslovanje sodnika ali sodnega delavca zunaj sodišča se plača ne glede na število delavcev taksa 100 točk.“
+
+V tarifni številki 37 se številka “30“ nadomesti s številko “50“, številka “75“ s številko “100“ in številka “150“ s številko “200“.
 
 
 ### 9. člen
 
-V 37. členu se besede “Republiški sekretariat za pravosodje in upravo” nadomestijo z besedami “ministrstvo, pristojno za pravosodje”.
+Taksa za vloge in dejanja, za katera je nastala taksna obveznost do dneva uveljavitve tega zakona, se plača po dosedanjih predpisih in po dosedanji taksni tarifi.
+Če je bila do uveljavitve tega zakona plačana taksa za dejanje, ki bo opravljeno po uveljavitvi tega zakona, se ne doplača taksa po tem zakonu, preveč plačana taksa pa se ne vrne.
 
 
 ### 10. člen
 
-V 38. členu se besede “Republiški sekretariat za finance” nadomestijo z besedami “ministrstvo, pristojno za finance”.
+Z dnem, ko začne veljati ta zakon, preneha veljati 62. člen zakona o delovnih in socialnih sodiščih (Uradni list RS, št. 19/94).
 
 
 ### 11. člen
 
-V taksni tarifi se v tarifni številki 1 doda nov peti odstavek, ki se glasi:
-
-“(5) V izvršilnem postopku, v katerem postopa sodišče za prisilno izvršitev sodne odločbe, izdane v postopku v gospodarskih sporih ali v katerih odloča o dovolitvi izvršbe na podlagi verodostojne listine in bi v primeru ugovora moralo postopati po pravilih postopka v gospodarskih sporih, se za vloge iz drugega in tretjega odstavka te tarifne številke plača taksa, določena v teh odstavkih, povečana za 100%.”
-
-V tarifni številki 2 se doda nov šesti odstavek, ki  se glasi:
-
-“(6) V izvršilnem postopku, v katerem postopa sodišče za prisilno izvršitev sodne odločbe, izdane v postopku v gospodarskih sporih ali v katerih odloča o dovolitvi izvršbe na podlagi verodostojne listine in bi v primeru ugovora moralo postopati po pravilih postopka v gospodarskih sporih, se za odločbe iz tretjega in četrtega odstavka te tarifne številke plača taksa, določena v teh odstavkih, povečana za 100%.”
-
-V tarifni številki 3 se doda nov šesti odstavek, ki se glasi:
-
-“(6) Za pritožbo zoper odločbo Agencije za trg vrednostnih papirjev se plača taksa v vrednosti 10.000 točk.”
-
-Prvi, drugi in tretji odstavek tarifne številke 19 se spremenijo tako, da se glasijo:
-
-“(1) Za predlog za stečaj, prisilno poravnavo in likvidacijo, kadar se ta ne uvede po uradni dolžnosti, se plača taksa 5.000 točk.
-
-(2) Za prijavo terjatev se plača taksa v višini 5% tolarske vrednosti od vsote prijavljenih terjatev posameznih upnikov, vendar največ do vrednosti 2.000 točk.
-(3) Za pritožbo zoper odločbo stečajnega senata o glavni razdelitvi se plača taksa 10.000 točk, za pritožbo zoper druge odločbe pa taksa 1.000 točk.”
-Pojasnilo k tarifni številki 19 se spremeni tako, da se glasi:
-
-“Taksa za predlog, da se uvede stečajni postopek in taksa za predlog za začetek postopka prisilne poravnave se ne plača, če predlog vloži dolžnik.”
-
-V 1. točki prvega odstavka tarifne številke 20 se podpičje nadomesti z vejico in doda besedilo “vendar največ v tolarski vrednosti 20.000 točk;”, v 2. točki pa se pika črta in doda besedilo “vendar največ v tolarski vrednosti 50.000 točk.”
-V prvem odstavku tarifne številke 21 se številka “150” nadomesti s številko “1.000”.
-Tarifna številka 22 se spremeni tako, da se glasi:
-
-“(1) Za vpis ustanovitve delniške družbe in komanditne delniške družbe se plača taksa 15.000 točk.
-
-(2) Za vpis ustanovitve družbe z omejeno odgovornostjo se plača taksa 7.000 točk.
-(3) Za vpis ustanovitve drugih subjektov vpisa se plača taksa 3.000 točk.
-(4) Za vpis statusnih sprememb in sprememb pravnoorganizacijske oblike subjekta vpisa se plača taksa 1.000 točk.
-(5) Za vpis podatkov, ki se vpisujejo v sodni register, in za vpis spremembe teh podatkov se plača za vsak registrski list taksa 500 točk.
-(6) Za vpis prenehanja subjekta vpisa se plača taksa 3.000 točk.
-(7) Subjekti vpisa, ki izvajajo gospodarske javne službe, plačajo za vpise polovico takse po tej tarifni številki.”
-Tarifna številka 23 se spremeni tako, da se glasi:
-
-“(1) Za vlogo za vpis dela subjekta vpisa se plača polovica takse iz tarifne številke 21.
-
-(2) Za vpis dela subjekta vpisa se plača taksa 1.000 točk.
-(3) Za vpis podatkov, ki se o delu subjekta vpisa vpisujejo v register in za vpis sprememb teh podatkov se plača polovico takse iz petega odstavka tarifne številke 22.
-(4) Za vpis sprememb dela subjekta vpisa se plača taksa 500 točk.
-(5) Za vpis prenehanja dela subjekta vpisa se plača taksa 1.000 točk.”
-V tarifni številki 26 se v tretjem odstavku črtajo besede “za zahtevo za izreden preizkus pravnomočne sodbe in”.
-V prvem odstavku tarifne številke 27 se številka “75” nadomesti s številko “300”, v tretjem odstavku se številka “50” nadomesti s številko “200”, v petem odstavku se številka “100” nadomesti s številko “400”. Doda se nov šesti odstavek, ki se glasi:
-
-“(6) Za zahtevo za izreden preizkus zoper pravnomočno odločbo, izdano v računsko upravnem sporu se plača taksa 3.200 točk, ne glede na četrti odstavek te tarifne številke.”
-
-V prvem odstavku tarifne številke 28 se številka “200” nadomesti s številko “800”, v tretjem odstavku se številka “50” nadomesti s številko “200”, v četrtem odstavku se številka “50” nadomesti s številko “400”, v petem odstavku se številka “50” nadomesti s številko “200”.
-V prvem odstavku tarifne številke 29 se številka “50” nadomesti s številko “75”, v drugem odstavku pa številka “100” s številko “200”.
-
-
-### 12. člen
-
-Taksa za vloge, odločbe in dejanja, glede katerih je nastala taksna obveznost do dneva, ko začne veljati ta zakon, se plačujejo po dosedanjih predpisih in po dosedanji tarifi.
-Če je bila do uveljavitve tega zakona plačana taksa za dejanje, ki bo opravljeno po uveljavitvi tega zakona, se ne plača taksa po tem zakonu, preveč plačana taksa pa se ne vrne.
-Če po uveljavitvi tega zakona sodišče druge stopnje razveljavi odločbo, ki jo je sodišče prve stopnje izdalo, preden je začel veljati ta zakon, se za odločbo sodišča prve stopnje taksa ne doplača, preveč plačana taksa pa se ne vrne.
-
-
-### 13. člen
-
 Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
 
-Št. 436-03/89-1/13
+Št. 436-03/89-1/14
 
-Ljubljana, dne 2. julija 1996.
+Ljubljana, dne 4. marca 1998.
 
 Predsednik
 Državnega zbora
 Republike Slovenije
-Jožef Školč l. r.
+Janez Podobnik, dr. med. l. r.
