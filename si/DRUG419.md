@@ -4,9 +4,9 @@ naziv: "Sodni red"
 vrsta: "drugi akt"
 datum: 1995-03-18
 sop: 1995-01-0817
-organ: "Ministrstvo za pravosodje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0817"
 ---
 

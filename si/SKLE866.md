@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah sklepa o pogojih, pod katerimi se sme pri poslovanju 
 vrsta: "sklep"
 datum: 1995-03-10
 sop: 1995-01-0692
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0692"
 ---
 

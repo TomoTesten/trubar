@@ -4,9 +4,9 @@ naziv: "Zakon o poravnavanju obveznosti do bank iz izplačanih deviznih vlog (ZP
 vrsta: "akt"
 datum: 1995-04-07
 sop: 1995-01-0886
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0886"
 ---
 

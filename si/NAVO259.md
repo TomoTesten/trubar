@@ -4,9 +4,9 @@ naziv: "Navodilo za sestavo mnenj o delu sodniškega pripravnika"
 vrsta: "navodilo"
 datum: 1995-03-10
 sop: 1995-01-0688
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0688"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o prevzemu dolgov in lastninskem preoblikovanju Splošne plovbe, p
 vrsta: "akt"
 datum: 1995-03-24
 sop: 1995-01-0860
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0860"
 ---
 

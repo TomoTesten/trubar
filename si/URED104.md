@@ -4,8 +4,9 @@ naziv: "Uredba o pristojbinah Urada Republike Slovenije za intelektualno lastnin
 vrsta: "uredba"
 datum: 1995-03-10
 sop: 1995-01-0678
-organ: "Vlada Republike Slovenije"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0678"
 ---
 

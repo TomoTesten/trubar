@@ -4,9 +4,9 @@ naziv: "Navodilo za izvajanje sklepa o načinu opravljanja menjalniških poslov"
 vrsta: "navodilo"
 datum: 1995-03-31
 sop: 1995-01-0882
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0882"
 ---
 

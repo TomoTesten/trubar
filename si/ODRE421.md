@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi mejnih prehodov, preko katerih se lahko rastline uv
 vrsta: "odredba"
 datum: 1995-03-24
 sop: 1995-01-0822
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0822"
 ---
 

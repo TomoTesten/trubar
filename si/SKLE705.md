@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah in dopolnitvah sklepa o kontnem okviru za banke in hr
 vrsta: "sklep"
 datum: 1995-03-31
 sop: 1995-01-0881
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0881"
 ---
 
