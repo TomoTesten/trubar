@@ -4,9 +4,9 @@ naziv: "Odredba o smeri izobrazbe učiteljev in laborantov v izobraževalnih pro
 vrsta: "odredba"
 datum: 1999-03-12
 sop: 1999-01-0686
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0686"
 ---
 

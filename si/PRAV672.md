@@ -4,9 +4,9 @@ naziv: "Pravilnik o zvočni zaščiti stavb"
 vrsta: "pravilnik"
 datum: 1999-03-12
 sop: 1999-01-0687
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0687"
 ---
 

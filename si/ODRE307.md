@@ -4,9 +4,9 @@ naziv: "Odredba o vsebini in vodenju evidence o plačani turistični taksi"
 vrsta: "odredba"
 datum: 1999-03-05
 sop: 1999-01-0620
-organ: "Ministrstvo za malo gospodarstvo in turizem"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0620"
 ---
 

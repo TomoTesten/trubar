@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve poslovnika Državnega sveta"
 vrsta: "akt"
 datum: 1999-03-12
 sop: 1999-01-0681
-organ: "Državni svet RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0681"
 ---
 

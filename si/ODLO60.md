@@ -4,9 +4,9 @@ naziv: "Odlok o ustanovitvi, območju in sedežu policijskih uprav v Republiki S
 vrsta: "odlok"
 datum: 1999-02-26
 sop: 1999-01-0611
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0611"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Soglasje k aktu o ustanovitvi Fundacije Leona Štuklja, ustanove za šti
 vrsta: "drugi akt"
 datum: 1999-03-19
 sop: 1999-01-0832
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0832"
 ---
 

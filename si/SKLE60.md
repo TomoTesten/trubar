@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah in dopolnitvah sklepa o imenovanju poveljnika Civilne
 vrsta: "sklep"
 datum: 1999-03-05
 sop: 1999-01-0678
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0678"
 ---
 

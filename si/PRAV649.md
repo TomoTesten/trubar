@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembi pravilnika o dokumentaciji v osnovni šoli"
 vrsta: "pravilnik"
 datum: 1999-02-19
 sop: 1999-01-0515
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0515"
 ---
 

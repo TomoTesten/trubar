@@ -4,9 +4,9 @@ naziv: "Daljinar s časi vožnje relacij primestnih in medkrajevnih avtobusnih v
 vrsta: "drugi akt"
 datum: 1999-03-12
 sop: 1999-01-0690
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0690"
 ---
 

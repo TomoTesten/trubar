@@ -4,9 +4,9 @@ naziv: "Povprečna letna stopnja davka in prispevkov, ki se obračunavajo in pla
 vrsta: "drugi akt"
 datum: 1999-03-19
 sop: 1999-01-0831
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0831"
 ---
 

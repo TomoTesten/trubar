@@ -4,9 +4,9 @@ naziv: "Sklep o odprtju Konzulata Republike Slovenije v Sao Paulu"
 vrsta: "sklep"
 datum: 1999-03-12
 sop: 1999-01-0684
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0684"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o pogojih za izdajo soglasja ministrstva za obrambo za promet s
 vrsta: "navodilo"
 datum: 1999-03-12
 sop: 1999-01-0689
-organ: "Ministrstvo za obrambo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0689"
 ---
 
