@@ -4,9 +4,9 @@ naziv: "Razlaga kolektivne pogodbe za tekstilne, oblačilne, usnjarske in usnjar
 vrsta: "akt"
 datum: 2002-04-19
 sop: 2002-01-1630
-organ: "Komisija za razlago kolektivne pogodbe za tekstilne, oblačilne, usnjarske in usnjarsko predelovalne"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1630"
 ---
 

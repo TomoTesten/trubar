@@ -4,9 +4,9 @@ naziv: "Navodilo za vpis v register pokojninskih načrtov"
 vrsta: "navodilo"
 datum: 2002-04-19
 sop: 2002-01-1620
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1620"
 ---
 
