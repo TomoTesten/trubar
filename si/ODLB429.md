@@ -4,9 +4,9 @@ naziv: "Odločba o pooblastitvi Inštituta za varovanje zdravja Republike Sloven
 vrsta: "akt"
 datum: 2002-02-04
 sop: 2002-01-0426
-organ: "Ministrstvo za zdravje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0426"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o pooblaščencu, načinu izvajanja notranje kontrole, hrambi i
 vrsta: "navodilo"
 datum: 2002-01-25
 sop: 2002-01-0274
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0274"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Količnik povišanja plač zaposlenih, za katere velja kolektivna pogodb
 vrsta: "akt"
 datum: 2002-02-01
 sop: 2002-01-0425
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0425"
 ---
 
