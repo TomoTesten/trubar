@@ -4,9 +4,9 @@ naziv: "Pravilnik o tehničnih pogojih za rabo ribolovnih virov"
 vrsta: "pravilnik"
 datum: 2004-03-25
 sop: 2004-01-1226
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1226"
 ---
 

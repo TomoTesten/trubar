@@ -4,9 +4,9 @@ naziv: "Razlaga kolektivne pogodbe grafične dejavnosti"
 vrsta: "akt"
 datum: 2004-03-15
 sop: 2004-01-1017
-organ: "Komisija za razlago kolektivne pogodbe grafične dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1017"
 ---
 
