@@ -20,6 +20,10 @@ spremembe:
     datum: 2001-06-13
     sop: 2001-01-2641
     naziv: "Zakon o spremembi zakona o sodniški službi"
+  - kratica: ZSS-D
+    datum: 2002-07-26
+    sop: 2002-01-3232
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodniški službi"
 ---
 
 # Zakon o sodniški službi
