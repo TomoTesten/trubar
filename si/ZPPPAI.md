@@ -12,6 +12,10 @@ spremembe:
     datum: 1998-05-08
     sop: 1998-01-1502
     naziv: "Zakon o spremembah in dopolnitvah zakona o prepovedi proizvodnje in prometa z azbestnimi izdelki ter o zagotovitvi sredstev za prestrukturiranje azbestne proizvodnje v neazbestno"
+  - kratica: ZPPPAI-B
+    datum: 2000-09-26
+    sop: 2000-01-3810
+    naziv: "Zakon o spremembah in dopolnitvah zakona o prepovedi proizvodnje in prometa z azbestnimi izdelki ter o zagotovitvi sredstev za prestrukturiranje azbestne proizvodnje v neazbestno"
 ---
 
 # Zakon o prepovedi proizvodnje in prometa z azbestnimi izdelki ter o zagotovitvi sredstev za prestrukturiranje azbestne proizvodnje v neazbestno
