@@ -24,6 +24,10 @@ spremembe:
     datum: 2003-12-18
     sop: 2003-01-5387
     naziv: "Zakon o spremembah in dopolnitvah zakona o trošarinah"
+  - kratica: ZTro-E
+    datum: 2004-04-23
+    sop: 2004-01-1855
+    naziv: "Zakon o spremembah in dopolnitvah zakona o trošarinah"
 ---
 
 # Zakon o trošarinah
