@@ -7,6 +7,11 @@ sop: 1995-01-2165
 objava: "Uradni list RS 45/95  str. 3514"
 kljucne_besede: ["zastaranje izvršitve kazni", "kazenska sankcija", "izvršitev kazni"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2165"
+spremembe:
+  - kratica: ZPom-A
+    datum: 2004-08-05
+    sop: 2004-01-3837
+    naziv: "Zakon o spremembi in dopolnitvi zakona o pomilostitvi"
 ---
 
 # Zakon o pomilostitvi
