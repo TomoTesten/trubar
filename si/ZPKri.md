@@ -16,6 +16,10 @@ spremembe:
     datum: 2001-11-08
     sop: 2001-01-4448
     naziv: "Zakon o spremembi zakona o popravi krivic"
+  - kratica: ZPKri-C
+    datum: 2003-04-10
+    sop: 2003-01-1434
+    naziv: "Zakon o spremembah in dopolnitvah zakona o popravi krivic"
 ---
 
 # Zakon o popravi krivic
