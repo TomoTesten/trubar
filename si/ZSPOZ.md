@@ -7,6 +7,11 @@ sop: 2001-01-1064
 objava: "Uradni list RS 18/2001  str. 1774"
 kljucne_besede: ["odškodnina", "žrtev vojne"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1064"
+spremembe:
+  - kratica: ZSPOZ-A
+    datum: 2001-12-29
+    sop: 2001-01-5491
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Skladu za poplačilo odškodnine žrtvam vojnega in povojnega nasilja"
 ---
 
 # Zakon o Skladu za poplačilo odškodnine žrtvam vojnega in povojnega nasilja
