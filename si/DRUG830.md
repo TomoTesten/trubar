@@ -4,9 +4,9 @@ naziv: "Dogovor o zagotavljanju kakovosti vzgoje in izobraževanja, o reševanju
 vrsta: "drugi akt"
 datum: 1999-04-22
 sop: 1999-01-1357
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1357"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o dopolnitvah sklepa o tarifi, po kateri se zaračunavajo plačila
 vrsta: "sklep"
 datum: 1999-04-16
 sop: 1999-01-1307
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1307"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Deklaracija o podpori uveljavljanju zaščite slovenske manjšine v Ital
 vrsta: "akt"
 datum: 1999-04-10
 sop: 1999-01-1116
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1116"
 ---
 

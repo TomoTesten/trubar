@@ -4,9 +4,9 @@ naziv: "Odredba o valorizaciji zneskov za odmero davkov po zakonu o davkih obča
 vrsta: "odredba"
 datum: 1999-04-22
 sop: 1999-01-1348
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1348"
 ---
 

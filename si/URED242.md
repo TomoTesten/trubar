@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi mejnih prehodov za uvoz, izvoz in prevoz pošiljk �
 vrsta: "uredba"
 datum: 1999-04-22
 sop: 1999-01-1352
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1352"
 ---
 

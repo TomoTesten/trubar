@@ -4,9 +4,9 @@ naziv: "Navodilo o uporabi sredstev proračuna Republike Slovenije za nakup opre
 vrsta: "navodilo"
 datum: 1999-04-15
 sop: 1999-01-1217
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1217"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odlok o uvedbi finančnih intervencij za zagotavljanje primerne in uravn
 vrsta: "odlok"
 datum: 1999-04-10
 sop: 1999-01-1203
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1203"
 ---
 
