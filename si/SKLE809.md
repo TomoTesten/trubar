@@ -4,9 +4,9 @@ naziv: "Sklep o izpolnjevanju najmanjšega zneska deviz, ki ga morajo imeti poob
 vrsta: "sklep"
 datum: 1999-05-18
 sop: 1999-01-1796
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1796"
 ---
 

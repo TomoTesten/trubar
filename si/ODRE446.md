@@ -4,9 +4,9 @@ naziv: "Odredba o tujih odobritvah in uporabi digitalne radijske terminalske opr
 vrsta: "odredba"
 datum: 1999-05-13
 sop: 1999-01-1731
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1731"
 ---
 

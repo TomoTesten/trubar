@@ -4,9 +4,9 @@ naziv: "Navodilo za pridobitev dovoljenja Urada Republike Slovenije za zdravila 
 vrsta: "navodilo"
 datum: 1999-05-14
 sop: 1999-01-1792
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1792"
 ---
 

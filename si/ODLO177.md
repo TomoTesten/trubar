@@ -4,8 +4,9 @@ naziv: "Odlok o spremembah in dopolnitvah odloka o cenah za obračunavanje del i
 vrsta: "odlok"
 datum: 1999-05-21
 sop: 1999-01-1959
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1959"
 ---
 

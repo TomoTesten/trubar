@@ -4,9 +4,9 @@ naziv: "Razlaga kolektivne pogodbe dejavnosti trgovine Slovenije"
 vrsta: "akt"
 datum: 1999-06-01
 sop: 1999-01-2042
-organ: "Združenje za trgovino"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2042"
 ---
 

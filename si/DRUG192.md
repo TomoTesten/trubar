@@ -4,9 +4,9 @@ naziv: "Dopolnitev seznama zdravil skupine A in B, za katera je bilo od 5. decem
 vrsta: "drugi akt"
 datum: 1999-06-01
 sop: 1999-01-2035
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2035"
 ---
 

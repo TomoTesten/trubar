@@ -4,8 +4,9 @@ naziv: "Odredba o spremembah in dopolnitvah odredbe o normativih in kadrovskih p
 vrsta: "odredba"
 datum: 1999-05-28
 sop: 1999-01-1995
-organ: "Ministrstvo za šolstvo in šport"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1995"
 ---
 

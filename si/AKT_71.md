@@ -4,9 +4,9 @@ naziv: "Sklep o najmanjšem obsegu ter vsebini revizijskega pregleda in revizorj
 vrsta: "akt"
 datum: 1999-05-25
 sop: 1999-01-1967
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1967"
 ---
 

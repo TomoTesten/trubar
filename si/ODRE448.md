@@ -4,9 +4,9 @@ naziv: "Odredba o pogojih za odkup pšenice in rži letine 1999"
 vrsta: "odredba"
 datum: 1999-05-14
 sop: 1999-01-1785
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1785"
 ---
 

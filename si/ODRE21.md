@@ -4,9 +4,9 @@ naziv: "Odredba o tečaju, ki se uporablja za preračun zneskov v domačo valuto
 vrsta: "odredba"
 datum: 1999-05-28
 sop: 1999-01-1997
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1997"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembah pravilnika o avtobusnih voznih redih"
 vrsta: "pravilnik"
 datum: 1999-05-10
 sop: 1999-01-1705
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1705"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Odredba o sprejemu splošnega dela gozdnogospodarskega načrta gozdnogos
 vrsta: "odredba"
 datum: 1999-05-21
 sop: 1999-01-1886
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1886"
 ---
 
