@@ -16,6 +16,10 @@ spremembe:
     datum: 2001-08-10
     sop: 2001-01-3564
     naziv: "Zakon o spremembah in dopolnitvah zakona o azilu"
+  - kratica: ZAzil-C
+    datum: 2003-10-13
+    sop: 2003-01-4366
+    naziv: "Zakon o spremembah in dopolnitvah zakona o azilu"
 ---
 
 # Zakon o azilu
