@@ -4,9 +4,9 @@ naziv: "Navodilo o vsebini in načinu vodenja sistema zbirk prostorskih podatkov
 vrsta: "navodilo"
 datum: 2003-12-11
 sop: 2003-01-5258
-organ: "Ministrstvo za okolje, prostor in energijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5258"
 ---
 

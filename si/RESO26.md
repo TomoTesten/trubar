@@ -4,9 +4,9 @@ naziv: "Resolucija o nacionalnem programu varnosti in zdravja pri delu (ReNPVZD)
 vrsta: "akt"
 datum: 2003-12-18
 sop: 2003-01-5394
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5394"
 ---
 

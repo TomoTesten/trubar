@@ -4,9 +4,9 @@ naziv: "Razlaga kolektivne pogodbe za lesarstvo Slovenije"
 vrsta: "akt"
 datum: 2003-12-08
 sop: 2003-01-5220
-organ: "Komisija za razlago kolektivne pogodbe za lesarstvo Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5220"
 ---
 
