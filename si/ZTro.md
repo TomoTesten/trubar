@@ -7,6 +7,11 @@ sop: 1998-01-4323
 objava: "Uradni list RS 84/98  str. 7083"
 kljucne_besede: ["trošarina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4323"
+spremembe:
+  - kratica: ZTro-A
+    datum: 1999-07-16
+    sop: 1999-01-2685
+    naziv: "Zakon o spremembah in dopolnitvah zakona o trošarinah"
 ---
 
 # Zakon o trošarinah
