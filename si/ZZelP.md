@@ -24,6 +24,10 @@ spremembe:
     datum: 2003-06-13
     sop: 2003-01-2774
     naziv: "Zakon o spremembah in dopolnitvah zakona o železniškem prometu"
+  - kratica: ZZelP-E
+    datum: 2004-08-05
+    sop: 2004-01-3846
+    naziv: "Zakon o spremembi zakona o spremembah in dopolnitvah zakona o železniškem prometu"
 ---
 
 # Zakon o železniškem prometu
