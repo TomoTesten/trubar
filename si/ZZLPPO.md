@@ -12,6 +12,10 @@ spremembe:
     datum: 1999-02-26
     sop: 1999-01-0551
     naziv: "Zakon o spremembah in dopolnitvah zakona o zaključku lastninjenja in privatizaciji pravnih oseb v lasti Slovenske razvojne družbe"
+  - kratica: ZZLPPO-B
+    datum: 2001-10-10
+    sop: 2001-01-4105
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zaključku lastninjenja in privatizaciji pravnih oseb v lasti Slovenske razvojne družbe"
 ---
 
 # Zakon o zaključku lastninjenja in privatizaciji pravnih oseb v lasti Slovenske razvojne družbe
