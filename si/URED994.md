@@ -4,9 +4,9 @@ naziv: "Uredba o načinu izvajanja vodnogospodarske javne službe v Republiki Sl
 vrsta: "uredba"
 datum: 1996-10-19
 sop: 1996-01-3385
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3385"
 ---
 

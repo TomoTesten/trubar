@@ -4,9 +4,9 @@ naziv: "Dopolnitev seznama zdravil, za katera je bilo od 12. 4. 1996 do 28. 6. 1
 vrsta: "drugi akt"
 datum: 1996-10-19
 sop: 1996-01-3331
-organ: "Urad RS za zdravila (MZ)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3331"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zakon o omejevanju uporabe tobačnih izdelkov (ZOUTI)"
 vrsta: "akt"
 datum: 1996-10-19
 sop: 1996-01-3318
-organ: "Državni zbor RS"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3318"
 ---
 

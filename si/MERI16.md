@@ -4,9 +4,9 @@ naziv: "Merila za določitev strokovnega naziva prvak"
 vrsta: "akt"
 datum: 1996-10-19
 sop: 1996-01-3390
-organ: "Ministrstvo za kulturo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3390"
 ---
 

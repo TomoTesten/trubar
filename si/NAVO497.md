@@ -4,9 +4,9 @@ naziv: "Navodilo o določitvi pokojninske osnove za odmero pokojnine upravičenc
 vrsta: "navodilo"
 datum: 1996-10-19
 sop: 1996-01-3389
-organ: "Inšpektorat Republike Slovenije za delo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3389"
 ---
 

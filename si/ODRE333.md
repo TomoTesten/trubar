@@ -4,9 +4,9 @@ naziv: "Odredba o obrazcih javnih listin v višjem strokovnem izobraževanju"
 vrsta: "odredba"
 datum: 1996-10-25
 sop: 1996-01-3401
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3401"
 ---
 

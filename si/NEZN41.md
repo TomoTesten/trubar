@@ -4,9 +4,9 @@ naziv: "Program pripravništva in strokovnega izpita za poklic višja medicinska
 vrsta: "akt"
 datum: 1996-10-11
 sop: 1996-01-3244
-organ: "Ministrstvo za zdravstvo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3244"
 ---
 
