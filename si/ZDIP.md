@@ -7,6 +7,11 @@ sop: 1996-01-2199
 objava: "Uradni list RS 34/96  str. 2817"
 kljucne_besede: ["davek od plač"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2199"
+spremembe:
+  - kratica: ZDIP-A
+    datum: 1997-05-30
+    sop: 1997-01-1811
+    naziv: "Zakon o spremembi zakona o davku na izplačane plače"
 ---
 
 # Zakon o davku na izplačane plače
