@@ -7,6 +7,11 @@ sop: 1993-01-1352
 objava: "Uradni list RS 32/93  str. 1769"
 kljucne_besede: ["revidiranja", "revizija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1352"
+spremembe:
+  - kratica: ZRev-A
+    datum: 1993-12-03
+    sop: 1993-01-2370
+    naziv: "Zakon o spremembah zakona o revidiranju"
 ---
 
 # Zakon o revidiranju
