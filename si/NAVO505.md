@@ -4,9 +4,9 @@ naziv: "Navodilo o oblikah in izvajanju notranjega finančnega nadzora v občina
 vrsta: "navodilo"
 datum: 2001-02-09
 sop: 2001-01-0568
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0568"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Pravilnik o snoveh s hormonskih ali tireostatskim delovanjem, beta agoni
 vrsta: "pravilnik"
 datum: 2001-01-19
 sop: 2001-01-0290
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0290"
 ---
 

@@ -4,8 +4,9 @@ naziv: "Pravilnik o varnosti in zdravju pri delu na ribiških ladjah"
 vrsta: "pravilnik"
 datum: 2001-01-26
 sop: 2001-01-0364
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0364"
 ---
 

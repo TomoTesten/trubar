@@ -4,9 +4,9 @@ naziv: "Aneks h kolektivni pogodbi za tekstilne, oblačilne, usnjarske in usnjar
 vrsta: "akt"
 datum: 2001-01-26
 sop: 2001-01-0377
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0377"
 ---
 
