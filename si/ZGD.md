@@ -36,6 +36,10 @@ spremembe:
     datum: 2004-05-27
     sop: 2004-01-2666
     naziv: "Zakon o spremembah in dopolnitvah zakona o gospodarskih družbah"
+  - kratica: ZGD-H
+    datum: 2004-12-28
+    sop: 2004-01-5984
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gospodarskih družbah"
 ---
 
 # Zakon o gospodarskih družbah
