@@ -20,6 +20,10 @@ spremembe:
     datum: 1997-09-19
     sop: 1997-01-2899
     naziv: "Zakon o spremembi zakona o prometnem davku"
+  - kratica: ZPD-E
+    datum: 1998-01-17
+    sop: 1998-01-0138
+    naziv: "Zakon o spremembi zakona o prometnem davku"
 ---
 
 # Zakon o prometnem davku
