@@ -4,8 +4,9 @@ naziv: "Uredba spremembi in dopolnitvi uredbe o lokacijskem načrtu za avtocesto
 vrsta: "uredba"
 datum: 1995-08-04
 sop: 1995-01-2207
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2207"
 ---
 

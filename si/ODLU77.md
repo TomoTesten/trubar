@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi dela petega odstavka 8. člena zakona o notaria
 vrsta: "akt"
 datum: 1995-07-14
 sop: 1995-01-1937
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1937"
 ---
 

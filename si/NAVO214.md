@@ -4,9 +4,9 @@ naziv: "Navodilo za izvajanje uredbe o pisarniškem poslovanju in o dolžnostih 
 vrsta: "navodilo"
 datum: 1995-07-14
 sop: 1995-01-1936
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1936"
 ---
 

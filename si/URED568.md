@@ -4,8 +4,9 @@ naziv: "Uredba o omejevanju obtežb in porabe električne energije v elektroener
 vrsta: "uredba"
 datum: 1995-07-21
 sop: 1995-01-1990
-organ: "Vlada Republike Slovenije"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1990"
 ---
 

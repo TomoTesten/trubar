@@ -4,9 +4,9 @@ naziv: "Pravilnik o nošenju, uporabi in hrambi orožja pooblaščenih uradnih o
 vrsta: "pravilnik"
 datum: 1995-07-21
 sop: 1995-01-2000
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2000"
 ---
 

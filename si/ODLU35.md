@@ -4,9 +4,9 @@ naziv: "Odločba o razveljavitvi določbe drugega odstavka 60. člena zakona o v
 vrsta: "akt"
 datum: 1995-07-07
 sop: 1995-01-1854
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1854"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi carinskih izpostav, ki so pristojne za carinjenje k
 vrsta: "odredba"
 datum: 1995-07-21
 sop: 1995-01-1998
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1998"
 ---
 

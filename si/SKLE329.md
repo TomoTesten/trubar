@@ -4,9 +4,9 @@ naziv: "Sklep o določitvi postopka medsebojnega trgovanja pooblaščenih invest
 vrsta: "sklep"
 datum: 1995-07-28
 sop: 1995-01-2120
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2120"
 ---
 

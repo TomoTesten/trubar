@@ -4,8 +4,9 @@ naziv: "Uredba o spremembi in dopolnitvi uredbe o lokacijskem načrtu za vzhodno
 vrsta: "uredba"
 datum: 1995-07-21
 sop: 1995-01-2044
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2044"
 ---
 

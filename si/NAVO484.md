@@ -4,8 +4,9 @@ naziv: "Navodilo o določitvi vrednosti deleža družbenega kapitala in določit
 vrsta: "navodilo"
 datum: 1995-07-28
 sop: 1995-01-2115
-organ: "Ministrstvo za kulturo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2115"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Uredba o podeljevanju činov, o poviševanju in odvzemu činov v Slovens
 vrsta: "uredba"
 datum: 1995-07-21
 sop: 1995-01-1994
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1994"
 ---
 

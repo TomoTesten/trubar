@@ -4,8 +4,9 @@ naziv: "Navodilo o pripravi ocen ogroženosti"
 vrsta: "navodilo"
 datum: 1995-07-07
 sop: 1995-01-1852
-organ: "Ministrstvo za obrambo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1852"
 ---
 

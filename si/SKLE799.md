@@ -4,9 +4,9 @@ naziv: "Sklep o dopolnitvi sklepa o načinu izvajanja poslov za Republiko Sloven
 vrsta: "sklep"
 datum: 1995-07-14
 sop: 1995-01-1982
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1982"
 ---
 

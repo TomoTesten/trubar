@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi, da določba prvega odstavka 5. člena zakona o la
 vrsta: "drugi akt"
 datum: 1995-07-26
 sop: 1995-01-2049
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2049"
 ---
 

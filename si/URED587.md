@@ -1,22 +1,22 @@
 ---
-kratica: URED585
-naziv: "Uredba o ustanovitvi družbe Rudnik Senovo v zapiranju, d.o.o."
+kratica: URED587
+naziv: "Uredba o ustanovitvi družbe Rudnik Zagorje v zapiranju, d.o.o."
 vrsta: "uredba"
 datum: 1995-07-21
-sop: 1995-01-1988
+sop: 1995-01-1986
 organ: ""
 zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
-vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1988"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1986"
 ---
 
-# Uredba o ustanovitvi družbe Rudnik Senovo v zapiranju, d.o.o.
+# Uredba o ustanovitvi družbe Rudnik Zagorje v zapiranju, d.o.o.
 
 Na podlagi 26. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93), 408. člena zakona o gospodarskih družbah (Uradni list RS, št. 30/93) in 2. člena zakona o zagotavljanju sredstev za zaprtje rudnikov rjavega premoga Zagorje, Senovo in Kanižarica (Uradni list RS, št. 1/95) Vlada Republike Slovenije izdaja
 
 
 ## U R E D B O
-o ustanovitvi družbe Rudnik Senovo v zapiranju, d.o.o.
+o ustanovitvi družbe Rudnik Zagorje v zapiranju, d.o.o.
 
 
 ### 1. TEMELJNE DOLOČBE
@@ -24,8 +24,8 @@ o ustanovitvi družbe Rudnik Senovo v zapiranju, d.o.o.
 
 ### 1. člen
 
-Družba Rudnik Senovo v zapiranju, d.o.o. se kot družba z omejeno odgovornostjo ustanovi iz delovne enote Rudnik rjavega premoga Senovo, ki je doslej delovala v sklopu Rudnikov rjavega premoga Slovenije, p.o..
-Ustanovitelj družbe Rudnik Senovo v zapiranju, d.o.o. je Republika Slovenija.
+Družba Rudnik Zagorje v zapiranju, d.o.o. se kot družba z omejeno odgovornostjo ustanovi iz delovne enote Rudnik rjavega premoga Zagorje, ki je doslej delovala v sklopu Rudnikov rjavega premoga Slovenije, p.o..
+Ustanovitelj družbe Rudnik Zagorje v zapiranju, d.o.o. je Republika Slovenija.
 
 
 ### 2. FIRMA IN SEDEŽ
@@ -33,8 +33,8 @@ Ustanovitelj družbe Rudnik Senovo v zapiranju, d.o.o. je Republika Slovenija.
 
 ### 2. člen
 
-Firma družbe je: Rudnik Senovo v zapiranju, d.o.o., Titova 106, Senovo.
-Sedež družbe je v Senovem, Titova 106.
+Firma družbe je: Rudnik Zagorje v zapiranju, d.o.o., Zagorje, Grajska 2.
+Sedež družbe je v Zagorju, Grajska 2.
 
 
 ### 3. DEJAVNOST DRUŽBE
@@ -46,14 +46,18 @@ Dejavnosti družbe so:
 – F 45/11 Rušenje objektov in zemeljska dela
 – K 74/20 Projektiranje, inženiring in tehnično svetovanje, izdelava tehnične dokumentacije za rudarstvo in separacijo, izmera in kartiranje zemljišč, geodetska in druga katastrska dela na področu rudarstva
 – CA 10/20 Pridobivanje rjavega premoga in lignita
+– I/60.10 Železniški prevoz
 – G/51.70 Druga trgovina na debelo
-– DJ 28.52 Splošno mehanska dela
+– O/93/01 Storitve pralnice
+– DJ 28.52 Splošno mehanična dela
+– I 63.12 Skladiščenje
 – K 70.20 Dajanje lastnih nepremičnin v najem
+– K 74.30 Tehnični preizkusi in analize (izvajanje meritev na električnih napravah in instalacijah visoke in nizke napetosti)
 – A/02.01 Gozdarstvo
 – DD/20.10 Žaganje in skobljanje lesa ter impregniranje lesa
-– F/45.11 Raziskovalno vrtanje in sondiranje
+– F/45.12 Raziskovalno vrtanje in sondiranje
 – F/45.31 Električne instalacije
-– G/51.57 Trgovina na debelo z ostanki in odpadki
+– G/51.70 Trgovina na debelo z ostanki in odpadki
 – I/63.12 Skladiščenje
 – K/74.832 Fotokopiranje in drugo razmnoževanje
 – K/73.101 Vrtanje, izdelava rovov in drugih rudarskih del
@@ -74,8 +78,8 @@ Družba poleg dejavnosti iz prejšnjega člena opravlja tudi dopolnilne dejavnos
 
 ### 5. člen
 
-Sredstva podjetja Rudniki rjavega premoga Slovenije, p.o. se razporedijo v 2,74% ali 754,195.000 SIT na Rudnik Senovo v zapiranju d.o.o., obveznosti pa se razporedijo v višini 20,28% ali 663,447.000 SIT.
-Osnovni kapital družbe, ki ga ustanovitelj vloži kot ustanovitveni vložek v družbo Rudnik Senovo v zapiranju d.o.o., znaša po delitveni bilanci po stanju na dan 31. 12. 1994 90,748.000 SIT in ga sestavljajo premične in nepremične stvari ter poslovna sredstva.
+Sredstva podjetja Rudniki rjavega premoga Republike Slovenije se razporedijo v 11,98 % ali 3.305,725.000 SIT na Rudnik Zagorje v zapiranju d.o.o., obveznosti pa se razporedijo v višini 61,63 % ali 2.016,342.000 SIT.
+Osnovni kapital družbe, ki ga ustanovitelj vloži kot ustanovitveni vložek v družbo Rudnik Zagorje v zapiranju d.o.o., znaša po delitveni bilanci po stanju na dan 31. 12. 1994 1.289,383.000 SIT in ga sestavljajo premične in nepremične stvari ter poslovna sredstva.
 
 
 ### 6. člen
@@ -104,12 +108,12 @@ Premoženje družbe, ki predstavlja infrastrukturo, ni v stečajni masi.
 
 ### 9. člen
 
-Vse tri družbe, Rudnik Senovo v zapiranju, d.o.o., Rudnik Zagorje v zapiranju, d.o.o. in Rudnik Kanižarica v zapiranju, d.o.o., odgovarjajo solidarno za obveznosti podjetja Rudniki rjavega premoga Slovenije, p.o..
+Vse tri družbe, Rudnik Zagorje v zapiranju, d.o.o., Rudnik Senovo v zapiranju, d.o.o. in Rudnik Kanižarica v zapiranju, d.o.o., odgovarjajo solidarno za obveznosti podjetja Rudniki rjavega premoga Slovenije, p.o..
 
 
 ### 10. člen
 
-Direktor mora za posle, ki se nanašajo na pridobivanje, odtujitev in obremenitev nepremičnin in drugih sredstev, izvajanje investicijskih del in najemanje ter dajanje posojil in kreditov, ki presegajo 10% osnovnega kapitala družbe, podeljevanje prokure in neomejenih pooblastil, pridobiti soglasje ustanovitelja.
+Direktor mora za posle, ki se nanašajo na pridobivanje, odtujitev in obremenitev nepremičnin in drugih sredstev, izvajanje investicijskih del in najemanje ter dajanje posojil in kreditov, ki presegajo 10 % osnovnega kapitala družbe, podeljevanje prokure in neomejenih pooblastil, pridobiti soglasje ustanovitelja.
 
 
 ### 7. ORGANI DRUŽBE
@@ -133,7 +137,7 @@ Ustanovitelj odloča o vseh vprašanjih iz 439. člena zakona o gospodarskih dru
 ### 13. člen
 
 Direktorja družbe in njegovega namestnika imenuje in razrešuje ustanovitelj družbe za dobo 4 let.
-Direktor izvaja poslovno politiko družbe ter predstavlja in zastopa družbo z omejitvami, navedenimi v 10. členu te uredbe.
+Direktor izvaja poslovno politiko družbe, predstavlja in zastopa družbo z omejitvami, navedenimi v 10. členu te uredbe.
 Za posamezne posle lahko direktor pisno pooblasti tudi druge delavce družbe.
 
 
@@ -168,21 +172,21 @@ Ustanovitelj družbe z internimi akti družbe podrobneje uredi zlasti organizaci
 ### 17. člen
 
 V družbi nadaljujejo z delom delavci Rudnika rjavega premoga Slovenije, p.o., ki bodo z razporeditveno odločbo razporejeni v to družbo.
-Stalež zaposlenih se mora prilagajati posameznim fazam izvedenih zapiralnih del, skladno s programom izvajanja zapiralnih del, ki bo izdelan za Rudnik Senovo v zapiranju.
-V primeru potreb po delavcih za zapiralna dela je družba Rudnik Senovo v zapiranju, d.o.o. dolžna zaposliti delavce Rudnika Trbovlje - Hrastnik, ki bodo imeli potrebno strokovno izobrazbo in izpolnjevali ostale zahtevane pogoje.
-Vsi delavci javnega podjetja Rudnika Trbovlje - Hrastnik, d.o.o., ki bodo postali presežni delavci zaradi izvajanja zakona o zagotavljanju sredstev za zaprtje rudnikov rjavega premoga Zagorje, Senovo in Kanižarica, se bodo reševali v okviru rudnikov v zapiranju z oblikami in sredstvi, ki bodo v proračunu Republike Slovenije zagotovljena za izvajanje kadrovsko socialnega programa za delavce rudnikov v zapiranju.
+Stalež zaposlenih se mora prilagajati posameznim fazam izvedenih zapiralnih del, skladno s programom izvajanja zapiralnih del, ki bo izdelan za Rudnik Zagorje v zapiranju, d.o.o..
+V primeru dodatnih potreb po delavcih za zapiralna dela je družba Rudnik Zagorje v zapiranju, d.o.o. dolžna zaposliti delavce Rudnika Trbovlje - Hrastnik, ki bodo imeli potrebno strokovno izobrazbo in izpolnjevali ostale zahtevane pogoje.
+Vsi delavci javnega podjetja Rudnik Trbovlje - Hrastnik, d.o.o., ki bodo postali presežni delavci zaradi izvajanja zakona o zagotavljanju sredstev za zaprtje rudnikov rjavega premoga Zagorje, Senovo in Kanižarica, se bodo reševali v okviru rudnikov v zapiranju z oblikami in sredstvi, ki bodo v proračunu Republike Slovenije zagotovljena za izvajanje kadrovsko socialnega programa za delavce rudnikov v zapiranju.
 
 
 ### 18. člen
 
-Družba Rudnik Senovo v zapiranju, d.o.o., preneha z zaprtjem rudnika na podlagi določil zakona o rudarstvu (Uradni list SRS, št. 17/75).
+Družba Rudnik Zagorje v zapiranju, d.o.o., preneha z zaprtjem rudnika na podlagi določil zakona o rudarstvu (Uradni list SRS, št. 17/75).
 
 
 ### 19. člen
 
 Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
 
-Št. 310-03/94-6/2-8
+Št. 310-03/94-5/2-8
 
 Ljubljana, dne 6. julija 1995.
 

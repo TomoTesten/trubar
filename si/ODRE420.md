@@ -4,9 +4,9 @@ naziv: "Odredba o obveznem sodelovanju imetnikov pri zatiranju škodljivih organ
 vrsta: "odredba"
 datum: 1995-07-21
 sop: 1995-01-2046
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2046"
 ---
 

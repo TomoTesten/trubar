@@ -4,9 +4,9 @@ naziv: "Sklep o odprtju generalnega konzulata Republike Slovenije v Splitu"
 vrsta: "sklep"
 datum: 1995-07-07
 sop: 1995-01-1849
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1849"
 ---
 
