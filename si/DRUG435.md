@@ -4,9 +4,9 @@ naziv: "Seznam strokovnih in znanstvenih naslovov in njihovih okrajšav (3. dopo
 vrsta: "drugi akt"
 datum: 2000-02-04
 sop: 2000-01-0469
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0469"
 ---
 

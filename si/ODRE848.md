@@ -4,9 +4,9 @@ naziv: "Odredba o izvajanju preventivnih cepljenj in diagnostičnih ter drugih p
 vrsta: "odredba"
 datum: 2000-02-04
 sop: 2000-01-0467
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0467"
 ---
 

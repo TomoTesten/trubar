@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve pravil igre na srečo \"PETICA\""
 vrsta: "drugi akt"
 datum: 2000-02-10
 sop: 2000-01-0537
-organ: "Športna loterija in igre na srečo d.d."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0537"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Zneski povračil, nadomestil in drugih prejemkov za zaposlene v državni
 vrsta: "drugi akt"
 datum: 2000-02-04
 sop: 2000-01-0473
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0473"
 ---
 

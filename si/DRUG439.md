@@ -4,9 +4,9 @@ naziv: "Soglasje k aktu o ustanovitvi Ustanove Petra Pavla Glavarja"
 vrsta: "drugi akt"
 datum: 2000-02-11
 sop: 2000-01-0570
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0570"
 ---
 

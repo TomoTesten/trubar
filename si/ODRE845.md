@@ -4,9 +4,9 @@ naziv: "Odredba o obrazcu za posredovanje podatkov, ki so potrebni za določanje
 vrsta: "odredba"
 datum: 2000-02-04
 sop: 2000-01-0464
-organ: "Ministrstvo za ekonomske odnose in razvoj"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0464"
 ---
 

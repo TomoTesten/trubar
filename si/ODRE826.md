@@ -4,9 +4,9 @@ naziv: "Odredba o dopolnitvi odredbe o imenovanju svetovalcev za begunce"
 vrsta: "odredba"
 datum: 2000-01-28
 sop: 2000-01-0407
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0407"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah in dopolnitvah statuta Odvetniške zbornice Slovenije
 vrsta: "sklep"
 datum: 2000-01-20
 sop: 2000-01-0191
-organ: "Odvetniška zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0191"
 ---
 

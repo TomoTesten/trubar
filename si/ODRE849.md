@@ -4,9 +4,9 @@ naziv: "Odredba o določitvi vstopnega mejnega prehoda za mednarodne inšpekcije
 vrsta: "odredba"
 datum: 2000-02-04
 sop: 2000-01-0532
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0532"
 ---
 

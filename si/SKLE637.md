@@ -4,9 +4,9 @@ naziv: "Sklep o objavi javnega poziva sodnikom k vložitvi kandidatur za prosto 
 vrsta: "sklep"
 datum: 2000-02-04
 sop: 2000-01-0477
-organ: "Sodni svet Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0477"
 ---
 
