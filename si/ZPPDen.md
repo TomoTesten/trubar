@@ -7,6 +7,11 @@ sop: 1994-01-1474
 objava: "Uradni list RS 36/94  str. 2341"
 kljucne_besede: ["pranje denarja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1474"
+spremembe:
+  - kratica: ZPPDen-A
+    datum: 1995-11-06
+    sop: 1995-01-2921
+    naziv: "Zakon o spremembah in dopolnitvah zakona o preprečevanju pranja denarja"
 ---
 
 # Zakon o preprečevanju pranja denarja
