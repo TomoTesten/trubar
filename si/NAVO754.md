@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah navodila o minimalni obvezni vsebin
 vrsta: "navodilo"
 datum: 2005-04-19
 sop: 2005-01-1403
-organ: "Služba Vlade Republike Slovenije za lokalno samoupravo in regionalno politiko"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-1403"
 ---
 

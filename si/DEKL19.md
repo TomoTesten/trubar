@@ -4,9 +4,9 @@ naziv: "Deklaracija o usmeritvah za delovanje Republike Slovenije v institucijah
 vrsta: "akt"
 datum: 2005-04-19
 sop: 2005-01-1391
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-1391"
 ---
 

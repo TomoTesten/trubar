@@ -4,9 +4,9 @@ naziv: "Navodilo za izvajanje sklepa o poročanju monetarnih finančnih instituc
 vrsta: "navodilo"
 datum: 2005-04-21
 sop: 2005-01-1440
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-1440"
 ---
 
