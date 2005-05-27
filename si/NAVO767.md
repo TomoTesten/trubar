@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu ugotavljanja in valorizacije katastrskega dohodka"
 vrsta: "navodilo"
 datum: 2005-06-15
 sop: 2005-01-2500
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-2500"
 ---
 

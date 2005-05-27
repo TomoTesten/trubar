@@ -4,7 +4,8 @@ naziv: "Navodilo za pripravo in izdajo tehničnih specifikacij za proge in sesta
 vrsta: "navodilo"
 datum: 2005-05-31
 sop: 2005-01-2230
-organ: "Ministrstvo za promet"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-2230"
 ---
