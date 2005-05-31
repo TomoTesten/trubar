@@ -20,6 +20,10 @@ spremembe:
     datum: 2004-06-30
     sop: 2004-01-3163
     naziv: "Zakon o spremembah in dopolnitvah zakona o osnovni šoli"
+  - kratica: ZOsn-D
+    datum: 2005-05-31
+    sop: 2005-01-2220
+    naziv: "Zakon o spremembah in dopolnitvah zakona o osnovni šoli"
 ---
 
 # Zakon o osnovni šoli
