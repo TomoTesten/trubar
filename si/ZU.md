@@ -7,6 +7,11 @@ sop: 1995-01-2788
 objava: "Uradni list RS 60/95  str. 4742"
 kljucne_besede: ["javna ustanova", "pravna oseba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2788"
+spremembe:
+  - kratica: ZU-A
+    datum: 2005-05-31
+    sop: 2005-01-2218
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ustanovah"
 ---
 
 # Zakon o ustanovah
