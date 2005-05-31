@@ -20,6 +20,10 @@ spremembe:
     datum: 2003-04-10
     sop: 2003-01-1434
     naziv: "Zakon o spremembah in dopolnitvah zakona o popravi krivic"
+  - kratica: ZPKri-D
+    datum: 2005-05-31
+    sop: 2005-01-2217
+    naziv: "Zakon o spremembah in dopolnitvah zakona o popravi krivic"
 ---
 
 # Zakon o popravi krivic
