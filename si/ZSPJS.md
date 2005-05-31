@@ -20,6 +20,10 @@ spremembe:
     datum: 2004-06-28
     sop: 2004-01-3159
     naziv: "Zakon o spremembah in dopolnitvah zakona o sistemu plač v javnem sektorju"
+  - kratica: ZSPJS-D
+    datum: 2005-05-31
+    sop: 2005-01-2223
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sistemu plač v javnem sektorju"
 ---
 
 # Zakon o sistemu plač v javnem sektorju
