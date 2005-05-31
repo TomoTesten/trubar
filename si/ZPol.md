@@ -20,6 +20,10 @@ spremembe:
     datum: 2004-05-06
     sop: 2004-01-2296
     naziv: "Zakon o spremembah in dopolnitvah zakona o policiji"
+  - kratica: ZPol-D
+    datum: 2005-05-31
+    sop: 2005-01-2219
+    naziv: "Zakon o spremembi zakona o policiji"
 ---
 
 # Zakon o policiji
