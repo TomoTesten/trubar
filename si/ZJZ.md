@@ -7,6 +7,11 @@ sop: 2002-01-2834
 objava: "Uradni list RS 59/2002  str. 6089"
 kljucne_besede: ["javni red", "svoboda zbiranja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2834"
+spremembe:
+  - kratica: ZJZ-A
+    datum: 2005-06-24
+    sop: 2005-01-2622
+    naziv: "Zakon o spremembah in dopolnitvah zakona o javnih zbiranjih"
 ---
 
 # Zakon o javnih zbiranjih
