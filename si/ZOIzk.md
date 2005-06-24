@@ -7,6 +7,11 @@ sop: 1997-01-3590
 objava: "Uradni list RS 75/97  str. 5894"
 kljucne_besede: ["osebni dokument"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3590"
+spremembe:
+  - kratica: ZOIzk-A
+    datum: 2005-06-24
+    sop: 2005-01-2523
+    naziv: "Zakon o spremembah zakona o osebni izkaznici"
 ---
 
 # Zakon o osebni izkaznici
