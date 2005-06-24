@@ -4,9 +4,9 @@ naziv: "Navodilo za izračun višine namenskih sredstev za odpravo nesorazmerij 
 vrsta: "navodilo"
 datum: 2005-06-24
 sop: 2005-01-2657
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za javno upravo"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-2657"
 ---
 
