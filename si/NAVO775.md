@@ -4,9 +4,9 @@ naziv: "Navodilo o rokih, obliki in načinu posredovanja podatkov ter o načinu 
 vrsta: "navodilo"
 datum: 2005-07-15
 sop: 2005-01-2978
-organ: "Kapitalski sklad pokojninskega in invalidskega zavarovanja"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-2978"
 ---
 

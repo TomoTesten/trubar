@@ -4,9 +4,9 @@ naziv: "Navodilo o prehodu na mednarodne standarde računovodskega poročanja"
 vrsta: "navodilo"
 datum: 2005-07-15
 sop: 2005-01-2975
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-2975"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Aneks št. 2 h kolektivni pogodbi za poštne in kurirske dejavnosti"
 vrsta: "akt"
 datum: 2005-06-30
 sop: 2005-01-2743
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-2743"
 ---
 

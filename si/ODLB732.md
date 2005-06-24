@@ -4,9 +4,9 @@ naziv: "Odločba o nujnih ukrepih za preprečevanje vnosa in širjenja kostanjev
 vrsta: "akt"
 datum: 2005-06-24
 sop: 2005-01-2658
-organ: "Fitosanitarna uprava RS (MKGP)"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-2658"
 ---
 
