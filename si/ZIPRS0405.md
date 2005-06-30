@@ -7,6 +7,11 @@ sop: 2003-01-5512
 objava: "Uradni list RS 130/03  str. 18516"
 kljucne_besede: ["državni proračun", "izvrševanje proračuna"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5512"
+spremembe:
+  - kratica: ZIPRS0405-A
+    datum: 2005-06-30
+    sop: 2005-01-2660
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izvrševanju proračuna Republike Slovenije za leti 2004 in 2005"
 ---
 
 # Zakon o izvrševanju proračuna Republike Slovenije za leti 2004 in 2005
