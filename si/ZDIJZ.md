@@ -7,6 +7,11 @@ sop: 2003-01-0900
 objava: "Uradni list RS 24/2003  str. 2786"
 kljucne_besede: ["dostop do informacij", "informacija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0900"
+spremembe:
+  - kratica: ZDIJZ-A
+    datum: 2005-06-30
+    sop: 2005-01-2663
+    naziv: "Zakon o spremembah in dopolnitvah zakona o dostopu do informacij javnega značaja"
 ---
 
 # Zakon o dostopu do informacij javnega značaja
