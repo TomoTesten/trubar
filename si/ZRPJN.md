@@ -16,6 +16,10 @@ spremembe:
     datum: 2004-04-23
     sop: 2004-01-1860
     naziv: "Zakon o spremembah in dopolnitvah zakona o reviziji postopkov javnega naročanja"
+  - kratica: ZRPJN-C
+    datum: 2005-06-30
+    sop: 2005-01-2662
+    naziv: "Zakon o spremembah in dopolnitvah zakona o reviziji postopkov javnega naročanja"
 ---
 
 # Zakon o reviziji postopkov javnega naročanja
