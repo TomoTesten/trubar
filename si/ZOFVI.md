@@ -24,6 +24,10 @@ spremembe:
     datum: 2003-08-12
     sop: 2003-01-3742
     naziv: "Zakon o spremembah in dopolnitvah zakona o organizaciji in financiranju vzgoje in izobraževanja"
+  - kratica: ZOFVI-E
+    datum: 2005-07-08
+    sop: 2005-01-2838
+    naziv: "Zakon o spremembah in dopolnitvah zakona o organizaciji in financiranju vzgoje in izobraževanja"
 ---
 
 # Zakon o organizaciji in financiranju vzgoje in izobraževanja
