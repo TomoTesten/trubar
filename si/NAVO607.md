@@ -4,8 +4,9 @@ naziv: "Uredba o okoljskem poročilu in podrobnejšem postopku celovite presoje 
 vrsta: "navodilo"
 datum: 2005-08-01
 sop: 2005-01-3253
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3253"
 ---
 
