@@ -7,6 +7,11 @@ sop: 2002-01-4801
 objava: "Uradni list RS 96/2002  str. 10495"
 kljucne_besede: ["razstrelivo", "denarna kazen", "kazenska sankcija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4801"
+spremembe:
+  - kratica: ZE-A
+    datum: 2005-07-22
+    sop: 2005-01-3067
+    naziv: "Zakon o spremembah in dopolnitvah zakona o eksplozivih"
 ---
 
 # Zakon o eksplozivih
