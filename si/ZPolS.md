@@ -16,6 +16,10 @@ spremembe:
     datum: 2002-06-11
     sop: 2002-01-2483
     naziv: "Zakon o spremembah in dopolnitvah zakona o političnih strankah"
+  - kratica: ZPolS-C
+    datum: 2005-07-22
+    sop: 2005-01-3066
+    naziv: "Zakon o spremembah in dopolnitvah zakona o političnih strankah"
 ---
 
 # Zakon o političnih strankah
