@@ -7,6 +7,11 @@ sop: 2004-01-2873
 objava: "Uradni list RS 63/04  str. 8029"
 kljucne_besede: ["invalid", "politika zaposlovanja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2873"
+spremembe:
+  - kratica: ZZRZI-A
+    datum: 2005-07-29
+    sop: 2005-01-3212
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zaposlitveni rehabilitaciji in zaposlovanju invalidov"
 ---
 
 # Zakon o zaposlitveni rehabilitaciji in zaposlovanju invalidov
