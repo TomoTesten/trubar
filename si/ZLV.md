@@ -24,6 +24,10 @@ spremembe:
     datum: 2002-06-11
     sop: 2002-01-2482
     naziv: "Zakon o spremembah in dopolnitvah zakona o lokalnih volitvah"
+  - kratica: ZLV-E
+    datum: 2005-07-29
+    sop: 2005-01-3215
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lokalnih volitvah"
 ---
 
 # Zakon o lokalnih volitvah
