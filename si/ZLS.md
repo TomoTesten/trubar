@@ -40,6 +40,10 @@ spremembe:
     datum: 2002-06-11
     sop: 2002-01-2484
     naziv: "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi"
+  - kratica: ZLS-M
+    datum: 2005-07-29
+    sop: 2005-01-3216
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi"
 ---
 
 # Zakon o lokalni samoupravi
