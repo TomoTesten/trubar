@@ -7,6 +7,11 @@ sop: 1999-01-2682
 objava: "Uradni list RS 57/99  str. 7257"
 kljucne_besede: ["osebno zavarovanje", "premoženjsko zavarovanje", "zavarovanje", "davek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2682"
+spremembe:
+  - kratica: ZDPZP-A
+    datum: 2005-07-29
+    sop: 2005-01-3211
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davku od prometa zavarovalnih poslov"
 ---
 
 # Zakon o davku od prometa zavarovalnih poslov
