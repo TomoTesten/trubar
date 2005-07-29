@@ -16,6 +16,10 @@ spremembe:
     datum: 2003-08-08
     sop: 2003-01-3698
     naziv: "Zakon o spremembah in dopolnitvah zakona o vrtcih"
+  - kratica: ZVrt-C
+    datum: 2005-07-29
+    sop: 2005-01-3210
+    naziv: "Zakon o spremembah in dopolnitvah zakona o vrtcih"
 ---
 
 # Zakon o vrtcih
