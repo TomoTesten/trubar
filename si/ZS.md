@@ -24,6 +24,10 @@ spremembe:
     datum: 2004-07-05
     sop: 2004-01-3236
     naziv: "Zakon o spremembah in dopolnitvah zakona o sodiščih"
+  - kratica: ZS-E
+    datum: 2005-07-29
+    sop: 2005-01-3213
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodiščih"
 ---
 
 # Zakon o sodiščih
