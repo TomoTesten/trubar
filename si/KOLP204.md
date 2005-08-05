@@ -4,9 +4,9 @@ naziv: "Ankes k tarifni prilogi kolektivne pogodbe za kmetijstvo in živilsko in
 vrsta: "akt"
 datum: 2005-08-19
 sop: 2005-01-3498
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3498"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba k ustanovitvi ustanove"
 vrsta: "akt"
 datum: 2005-08-09
 sop: 2005-01-3361
-organ: "Ministrstvo za zdravje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3361"
 ---
 

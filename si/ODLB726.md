@@ -4,9 +4,9 @@ naziv: "Odločba o pooblastitvi Inštituta Republike Slovenije za rehabilitacijo
 vrsta: "akt"
 datum: 2005-08-16
 sop: 2005-01-3473
-organ: "Ministrstvo za zdravje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3473"
 ---
 
