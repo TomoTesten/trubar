@@ -7,6 +7,11 @@ sop: 1992-01-2069
 objava: "Uradni list RS 44/92  str. 2673"
 kljucne_besede: ["Državni svet", "nacionalni parlament", "parlamentarni dom"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2069"
+spremembe:
+  - kratica: ZDSve-A
+    datum: 2005-08-12
+    sop: 2005-01-3386
+    naziv: "Zakon o dopolnitvah zakona o državnem svetu"
 ---
 
 # Zakon o državnem svetu
