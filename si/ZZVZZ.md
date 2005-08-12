@@ -36,6 +36,10 @@ spremembe:
     datum: 2003-12-18
     sop: 2003-01-5383
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
+  - kratica: ZZVZZ-H
+    datum: 2005-08-12
+    sop: 2005-01-3383
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
