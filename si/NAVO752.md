@@ -4,8 +4,9 @@ naziv: "Navodilo o načinu in vrsti izdajanja orožnih listin članom tujih misi
 vrsta: "navodilo"
 datum: 2005-09-23
 sop: 2005-01-3688
-organ: "Ministrstvo za notranje zadeve"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3688"
 ---
 

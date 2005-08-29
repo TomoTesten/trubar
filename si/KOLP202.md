@@ -4,9 +4,9 @@ naziv: "Aneks št. 2 h Kolektivni pogodbi elektrogospodarstva Slovenije"
 vrsta: "akt"
 datum: 2005-09-02
 sop: 2005-01-3575
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3575"
 ---
 
