@@ -4,8 +4,9 @@ naziv: "Navodilo za pripravo poročila o izvajanju dopolnilnega zdravstvenega za
 vrsta: "navodilo"
 datum: 2005-10-21
 sop: 2005-01-4042
-organ: "Ministrstvo za zdravje"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-4042"
 ---
 
