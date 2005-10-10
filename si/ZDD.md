@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-11-14
     sop: 2002-01-4802
     naziv: "Zakon o spremembah in dopolnitvah zakona o detektivski dejavnosti"
+  - kratica: ZDD-B
+    datum: 2005-10-10
+    sop: 2005-01-3850
+    naziv: "Zakon o spremembah zakona o detektivski dejavnosti"
 ---
 
 # Zakon o detektivski dejavnosti
