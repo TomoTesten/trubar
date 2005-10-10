@@ -12,6 +12,10 @@ spremembe:
     datum: 1998-08-07
     sop: 1998-01-2519
     naziv: "Zakon o spremembah in dopolnitvah zakona o financiranju občin"
+  - kratica: ZFO-B
+    datum: 2005-10-10
+    sop: 2005-01-3853
+    naziv: "Zakon o spremembah in dopolnitvah zakona o financiranju občin"
 ---
 
 # Zakon o financiranju občin
