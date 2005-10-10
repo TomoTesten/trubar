@@ -12,6 +12,10 @@ spremembe:
     datum: 2004-11-18
     sop: 2004-01-5122
     naziv: "Zakon o dopolnitvi zakona o poslancih"
+  - kratica: ZPos-B
+    datum: 2005-10-10
+    sop: 2005-01-3849
+    naziv: "Zakon o spremembah zakona o poslancih"
 ---
 
 # Zakon o poslancih
