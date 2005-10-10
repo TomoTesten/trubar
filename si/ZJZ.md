@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-06-24
     sop: 2005-01-2622
     naziv: "Zakon o spremembah in dopolnitvah zakona o javnih zbiranjih"
+  - kratica: ZJZ-B
+    datum: 2005-10-10
+    sop: 2005-01-3851
+    naziv: "Zakon o dopolnitvah zakona o javnih zbiranjih"
 ---
 
 # Zakon o javnih zbiranjih
