@@ -7,6 +7,11 @@ sop: 1996-01-3317
 objava: "Uradni list RS 57/96  str. 4767"
 kljucne_besede: ["uradni list"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3317"
+spremembe:
+  - kratica: ZUL-A
+    datum: 2005-10-10
+    sop: 2005-01-3852
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Uradnem listu Republike Slovenije"
 ---
 
 # Zakon o Uradnem listu Republike Slovenije
