@@ -7,6 +7,11 @@ sop: 1991-01-1091
 objava: "Uradni list RS 26/91  str. 1088"
 kljucne_besede: ["državni praznik"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1091"
+spremembe:
+  - kratica: ZPDPD-A
+    datum: 2005-10-14
+    sop: 2005-01-3888
+    naziv: "Zakon o spremembah in dopolnitvah zakona o praznikih in dela prostih dnevih v Republiki Sloveniji"
 ---
 
 # Zakon o praznikih in dela prostih dnevih v Republiki Sloveniji
