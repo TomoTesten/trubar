@@ -1,0 +1,213 @@
+---
+kratica: MP_ODLO9791
+naziv: "Odlok o spremembi odloka o proračunu Občine Vipava za leto 2005 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2005-10-14
+sop: 2005-01-3944
+organ: "Občina Vipava"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3944"
+---
+
+# Odlok o spremembi odloka o proračunu Občine Vipava za leto 2005 (ODLO)
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 72/93 in dopolnitve), 29. člena Zakona o javnih financah (Uradni list RS, št. 79/99, 124/00 in 79/01) in 97. člena Statuta Občine Vipava (Uradni list RS, št. 54/02) je Občinski svet Občine Vipava na 25. redni seji dne 29. 9. 2005 sprejel
+
+
+## O D L O K
+o spremembi odloka o proračunu Občine Vipava za leto 2005
+
+
+### 1. člen
+
+S tem odlokom se spreminja Odlok o proračunu Občine Vipava za leto 2005 (Uradni list RS, št. 142/04).
+
+
+### 2. člen
+
+Črta se 3. člen odloka in nadomesti z novim besedilom:
+»Splošni del proračuna občinske uprave na ravni podskupin kontov se določa v naslednjih zneskih:
+
+-------------------------------------------------------------------------
+A)    BILANCA PRIHODKOV IN ODHODKOV
+                                                         v tisoč tolarjev
+Skupina/podskupina kontov                              Proračun leta 2005
+-------------------------------------------------------------------------
+I.    SKUPAJ PRIHODKI (70+71+72+73+74)                            828.853
+      TEKOČI PRIHODKI (70+71)                                     546.196
+70    DAVČNI PRIHODKI                                             396.203
+      700 Davki na dohodek in dobiček                             289.961
+      703 Davki na premoženje                                      57.787
+      704 Domači davki na blago in storitve                        48.455
+      706 Drugi davki
+71    NEDAVČNI PRIHODKI                                           149.993
+      710 Udeležba na dobičku in dohodki
+          od premoženja                                           122.710
+      711 Takse in pristojbine                                      1.310
+      712 Denarne kazni                                                75
+      713 Prihodki od prodaje blaga in storitev                       400
+      714 Drugi nedavčni prihodki                                  25.498
+72    KAPITALSKI PRIHODKI                                           7.700
+      720 Prihodki od prodaje osnovnih sredstev
+      721 Prihodki od prodaje zalog
+      722 Prihodki od prodaje zemljišč
+          in materialnega premoženja                                7.700
+73    PREJETE DONACIJE                                                763
+      730 Prejete donacije iz domačih virov
+      731 Prejete donacije iz tujine
+74    TRANSFERNI PRIHODKI                                         274.195
+      740 Transferni prihodki
+          iz drugih javnofinančnih institucij                     260.248
+      741 Prejeti transferi predpristopne pomoči EU                13.947
+II.   SKUPAJ ODHODKI (40+41+42+43)                                876.550
+40    TEKOČI ODHODKI                                              200.990
+      400 Plače in drugi izdatki zaposlenim                        34.113
+      401 Prispevki delodajalcev za socialno varnost                6.598
+      402 Izdatki za blago in storitve                            146.128
+      403 Plačila domačih obresti
+      409 Rezerve                                                  14.150
+41    TEKOČI TRANSFERI                                            305.103
+      410 Subvencije                                                5.000
+      411 Transferi posameznikom
+          in gospodinjstvom                                       175.710
+      412 Transferi neprofitnim organizacijam
+          in ustanovam                                             33.658
+      413 Drugi tekoči domači transferi                            90.735
+      414 Tekoči transferi v tujino
+42    INVESTICIJSKI ODHODKI                                       321.681
+      420 Nakup in gradnja osnovnih sredstev                      321.681
+43    INVESTICIJSKI TRANSFERI                                      48.776
+      430 Investicijski transferi                                  48.776
+III.  PRORAČUNSKI PRESEŽEK (I.-II.)
+      (PRORAČUNSKI PRIMANJKLJAJ)                                   47.697
+ 
+B)    RAČUN FINANČIH TERJATEV IN NALOŽB
+IV.   PREJETA VRAČILA DANIH POSOJIL
+      IN PRODAJA KAPITALSKIH DELEŽEV
+      (750+751+752)                                                   550
+75    PREJETA VRAČILA DANIH POSOJIL                                   550
+      750 Prejeta vračila danih posojil
+      751 Prodaja kapitalskih deležev
+      752 Kupnine iz naslova privatizacije                            550
+ 
+V.    DANA POSOJILA IN POVEČANJE
+      KAPITALSKIH DELEŽEV (440+441+442)                               165
+44    DANA POSOJILA
+      IN POVEČANJE KAPITALSKIH DELEŽEV                                165
+      440 Dana posojila
+      441 Povečanje kapitalskih deležev in naložb
+      442 Poraba sredstev kupnin
+          iz naslova privatizacije                                    165
+VI.   PREJETA MINUS DANA POSOJILA
+      IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.-V.)                       385
+ 
+C)    RAČUN FINANCIRANJA
+VII.  ZADOLŽEVANJE (500)
+50    ZADOLŽEVANJE
+      500 Domače zadolževanje
+VIII. ODPLAČILA DOLGA (550)
+55    ODPLAČILA DOLGA
+      550 Odplačila domačega dolga
+IX.   SPREMEMBA STANJA SREDSTEV
+      NA RAČUNU (I.+IV.+VII. – II. – V. – VIII.)                  -47.312
+      Stanje sredstev na računu 31. 12. 2004                       73.457
+X.    NETO ZADOLŽEVANJE (VII.-VIII.)
+XI.   NETO FINANCIRAJE (VI. – IX. +X.)                             47.697
+-------------------------------------------------------------------------
+
+Splošni del proračuna vseh enajstih krajevnih skupnosti na ravni podskupin kontov se določa v naslednjih zneskih:
+
+-------------------------------------------------------------------------
+A)    BILANCA PRIHODKOV IN ODHODKOV
+                                                         v tisoč tolarjev
+Skupina/podskupina kontov                              Proračun leta 2005
+-------------------------------------------------------------------------
+I.    SKUPAJ PRIHODKI (70+71+72+73+74)                             26.085
+      TEKOČI PRIHODKI (70+71)                                       5.524
+70    DAVČNI PRIHODKI                                                   0
+      700 Davki na dohodek in dobiček
+      703 Davki na premoženje
+      704 Domači davki na blago in storitve                             0
+      706 Drugi davki                                                   0
+71    NEDAVČNI PRIHODKI                                             5.524
+      710 Udeležba na dobičku
+          in dohodki od premoženja                                  1.635
+      711 Takse in pristojbine
+      712 Denarne kazni
+      713 Prihodki od prodaje blaga in storitev                     3.441
+      714 Drugi nedavčni prihodki                                     448
+72    KAPITALSKI PRIHODKI                                           7.500
+      720 Prihodki od prodaje osnovnih sredstev                     7.500
+      721 Prihodki od prodaje zalog
+      722 Prihodki od prodaje zemljišč
+          in materialnega premoženja
+73    PREJETE DONACIJE                                                100
+      730 Prejete donacije iz domačih virov                           100
+      731 Prejete donacije iz tujine
+74    TRANSFERNI PRIHODKI                                          20.461
+      740 Transferni prihodki
+          iz drugih javnofinančnih institucij                      20.461
+II.   SKUPAJ ODHODKI (40+41+42+43)                                 33.305
+40    TEKOČI ODHODKI                                               15.117
+      400 Plače in drugi izdatki zaposlenim
+      401 Prispevki delodajalcev za socialno varnost
+      402 Izdatki za blago in storitve                             15.117
+      403 Plačila domačih obresti
+      409 Rezerve
+41    TEKOČI TRANSFERI                                              1.150
+      410 Subvencije
+      411 Transferi posameznikom in gospodinjstvom
+      412 Transferi neprofitnim organizacijam
+          in ustanovam                                              1.150
+      413 Drugi tekoči domači transferi
+      414 Tekoči transferi v tujino
+42    INVESTICIJSKI ODHODKI                                        17.038
+      420 Nakup in gradnja osnovnih sredstev                       17.038
+43    INVESTICIJSKI TRANSFERI
+      430 Investicijski transferi
+      III. PRORAČUNSKI PRESEŽEK (I.-II.)
+      (PRORAČUNSKI PRIMANJKLJAJ)                                    7.220
+ 
+C)    RAČUN FINANCIRANJA
+VII.  ZADOLŽEVANJE (500)                                                0
+50    ZADOLŽEVANJE
+      500 Domače zadolževanje
+VIII. ODPLAČILA DOLGA (550)
+55    ODPLAČILA DOLGA
+      550 Odplačila domačega dolga
+IX.   SPREMEMBA STANJA SREDSTEV
+      NA RAČUNU (I.+IV.+VII. – II. – V. – VIII.)
+X.    NETO ZADOLŽEVANJE (VII.-VIII.)
+XI.   NETO FINANCIRAJE (VI. – IX.+X.)                               7.220
+-------------------------------------------------------------------------
+
+Splošni del po ekonomski klasifikaciji sestavljajo:
+– bilanca prihodkov in odhodkov
+– račun finančnih terjatev in naložb
+– račun financiranja.
+Posebni del proračuna – odhodki po področjih proračunske porabe, sestavljen po ekonomski klasifikaciji javnofinančnih prejemkov in izdatkov na ravni podskupin kontov, finančni načrti neposrednih uporabnikov, načrt razvojnih programov, kadrovski načrt in načrt nabav in gradenj so priloga k temu odloku in se objavljajo na spletnih straneh Občine Vipava.«
+
+
+### 3. člen
+
+V prvem odstavku 8. člena se številka 1.500.000 tolarjev nadomesti s številko 12.000.000 tolarjev.
+
+
+### 4. člen
+
+Črta se 11. člen odloka in nadomesti z novim besedilom:
+»Občina se lahko zadolži na podlagi prvega odstavka 17. člena ZFO za izdajo soglasja in poroštva Javnemu podjetju Komunalno stanovanjska družba Ajdovščina za nabavo vozil za odvoz odpadkov in čiščenje greznic.«
+
+
+### 5. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 40302-0001/2005-8
+
+Vipava, dne 29. septembra 2005
+
+Župan
+Občine Vipava
+Ivan Princes l.r.
