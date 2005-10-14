@@ -7,6 +7,11 @@ sop: 1994-01-0514
 objava: "Uradni list RS 13/94  str. 708"
 kljucne_besede: ["vpis družbe v sodni register", "gospodarska družba", "pravica do ustanavljanja", "pravni status", "pravo družb"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0514"
+spremembe:
+  - kratica: ZSReg-A
+    datum: 2005-10-14
+    sop: 2005-01-3886
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodnem registru"
 ---
 
 # Zakon o sodnem registru
