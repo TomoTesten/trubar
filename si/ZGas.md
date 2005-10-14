@@ -12,6 +12,10 @@ spremembe:
     datum: 2000-03-30
     sop: 2000-01-1256
     naziv: "Zakon o spremembah in dopolnitvah zakona o gasilstvu"
+  - kratica: ZGas-B
+    datum: 2005-10-14
+    sop: 2005-01-3887
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gasilstvu"
 ---
 
 # Zakon o gasilstvu
