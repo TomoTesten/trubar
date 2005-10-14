@@ -7,6 +7,11 @@ sop: 2002-01-5394
 objava: "Uradni list RS 110/2002  str. 13170"
 kljucne_besede: ["gospodarska družba", "pomoč za prestrukturiranje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5394"
+spremembe:
+  - kratica: ZPRPGDT-A
+    datum: 2005-10-14
+    sop: 2005-01-3890
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pomoči za reševanje in prestrukturiranje gospodarskih družb v težavah"
 ---
 
 # Zakon o pomoči za reševanje in prestrukturiranje gospodarskih družb v težavah
