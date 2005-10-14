@@ -7,6 +7,11 @@ sop: 1996-01-1827
 objava: "Uradni list RS 29/96  str. 2356"
 kljucne_besede: ["šolska inšpekcija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1827"
+spremembe:
+  - kratica: ZSolI-A
+    datum: 2005-10-14
+    sop: 2005-01-3885
+    naziv: "Zakon o spremembah in dopolnitvah zakona o šolski inšpekciji"
 ---
 
 # Zakon o šolski inšpekciji
