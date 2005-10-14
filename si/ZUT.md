@@ -24,6 +24,10 @@ spremembe:
     datum: 2004-02-27
     sop: 2004-01-0777
     naziv: "Zakon o spremembah in dopolnitvah zakona o upravnih taksah"
+  - kratica: ZUT-E
+    datum: 2005-10-14
+    sop: 2005-01-3884
+    naziv: "Zakon o spremembah in dopolnitvah zakona o upravnih taksah"
 ---
 
 # Zakon o upravnih taksah
