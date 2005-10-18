@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-02-28
     sop: 2002-01-0717
     naziv: "Zakon o spremembah in dopolnitvah zakona o javnih cestah"
+  - kratica: ZJC-B
+    datum: 2005-10-18
+    sop: 2005-01-3952
+    naziv: "Zakon o spremembah in dopolnitvah zakona o javnih cestah"
 ---
 
 # Zakon o javnih cestah
