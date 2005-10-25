@@ -4,8 +4,9 @@ naziv: "Pravilnik o programu izobraževanja in navodilu o usposabljanju za točk
 vrsta: "navodilo"
 datum: 2005-11-04
 sop: 2005-01-4261
-organ: "Ministrstvo za okolje in prostor"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-4261"
 ---
 
