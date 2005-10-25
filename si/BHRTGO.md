@@ -7,6 +7,11 @@ sop: 1994-02-0059
 objava: "Uradni list RS MP 10/94  str. 319"
 kljucne_besede: ["ratifikacija sporazuma", "Slovenija", "Hrvaška", "trgovinski odnosi", "trgovinsko sodelovanje", "gospodarsko sodelovanje", "ekonomski odnosi"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-02-0059"
+spremembe:
+  - kratica: BHRTGO-A
+    datum: 2005-10-25
+    sop: 2005-02-0051
+    naziv: "Zakon o ratifikaciji Sporazuma med Vlado Republike Slovenije in Vlado Republike Hrvaške o spremembah in dopolnitvah Sporazuma med Vlado Republike Slovenije in Vlado Republike Hrvaške o trgovinsko-gospodarskih odnosih in sodelovanju"
 ---
 
 # Zakon o ratifikaciji Sporazuma med Vlado Republike Slovenije in Vlado Republike Hrvaške o trgovinsko-gospodarskih odnosih in sodelovanju
