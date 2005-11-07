@@ -7,6 +7,11 @@ sop: 2002-01-0913
 objava: "Uradni list RS 21/2002  str. 1592"
 kljucne_besede: ["naravna nesreča", "finančna pomoč"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0913"
+spremembe:
+  - kratica: ZUOPZP-A
+    datum: 2005-11-07
+    sop: 2005-01-4294
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ukrepih za odpravo posledic določenih zemeljskih plazov večjega obsega iz let 2000 in 2001"
 ---
 
 # Zakon o ukrepih za odpravo posledic določenih zemeljskih plazov večjega obsega iz let 2000 in 2001
