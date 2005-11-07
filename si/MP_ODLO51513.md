@@ -2,11 +2,11 @@
 kratica: MP_ODLO51513
 naziv: "Odlok o načinu opravljanja obveznih lokalnih gospodarskih javnih služb zbiranja in prevoza komunalnih odpadkov in odlaganja ostankov predelave ali odstranjevanja komunalnih odpadkov na območju Občine Gorišnica (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-05
+datum: 2005-11-21
 sop: 2005-97-0011
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Gorišnica"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-97-0011"
 ---
 
