@@ -24,6 +24,10 @@ spremembe:
     datum: 2005-05-31
     sop: 2005-01-2219
     naziv: "Zakon o spremembi zakona o policiji"
+  - kratica: ZPol-E
+    datum: 2005-11-07
+    sop: 2005-01-4297
+    naziv: "Zakon o spremembah in dopolnitvah zakona o policiji"
 ---
 
 # Zakon o policiji
