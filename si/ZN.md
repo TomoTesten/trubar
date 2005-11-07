@@ -20,6 +20,10 @@ spremembe:
     datum: 2004-07-05
     sop: 2004-01-3239
     naziv: "Zakon o spremembah in dopolnitvah zakona o notariatu"
+  - kratica: ZN-D
+    datum: 2005-11-07
+    sop: 2005-01-4292
+    naziv: "Zakon o spremembah in dopolnitvah zakona o notariatu"
 ---
 
 # Zakon o notariatu
