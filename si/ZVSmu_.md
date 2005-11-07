@@ -7,6 +7,11 @@ sop: 2002-01-5390
 objava: "Uradni list RS 110/2002  str. 13145"
 kljucne_besede: ["zdravstveno varstvo", "zdravstveno zavarovanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5390"
+spremembe:
+  - kratica: ZVSmuč-A
+    datum: 2005-11-07
+    sop: 2005-01-4295
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varnosti na smučiščih"
 ---
 
 # Zakon o varnosti na smučiščih
