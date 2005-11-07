@@ -7,6 +7,11 @@ sop: 2003-01-3620
 objava: "Uradni list RS 75/2003  str. 11333"
 kljucne_besede: ["naravna nesreča"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3620"
+spremembe:
+  - kratica: ZOPNN-A
+    datum: 2005-11-07
+    sop: 2005-01-4293
+    naziv: "Zakon o spremembah in dopolnitvah zakona o odpravi posledic naravnih nesreč"
 ---
 
 # Zakon o odpravi posledic naravnih nesreč
