@@ -7,6 +7,11 @@ sop: 2000-01-3058
 objava: "Uradni list RS 66/2000  str. 8211"
 kljucne_besede: ["tuji državljan", "politika zaposlovanja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3058"
+spremembe:
+  - kratica: ZZDT-A
+    datum: 2005-11-11
+    sop: 2005-01-4398
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zaposlovanju in delu tujcev"
 ---
 
 # Zakon o zaposlovanju in delu tujcev
