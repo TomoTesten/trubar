@@ -7,6 +7,11 @@ sop: 1999-01-3756
 objava: "Uradni list RS 79/99  str. 12369"
 kljucne_besede: ["prevoz nevarnega blaga"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3756"
+spremembe:
+  - kratica: ZPNB-A
+    datum: 2005-11-11
+    sop: 2005-01-4400
+    naziv: "Zakon o spremembah in dopolnitvah zakona o prevozu nevarnega blaga"
 ---
 
 # Zakon o prevozu nevarnega blaga
