@@ -32,6 +32,10 @@ spremembe:
     datum: 2004-04-26
     sop: 2004-01-1926
     naziv: "Zakon o spremembah in dopolnitvah zakona o kazenskem postopku"
+  - kratica: ZKP-G
+    datum: 2005-11-11
+    sop: 2005-01-4401
+    naziv: "Zakon o spremembah in dopolnitvah zakona o kazenskem postopku"
 ---
 
 # Zakon o kazenskem postopku
