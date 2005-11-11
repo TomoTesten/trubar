@@ -12,6 +12,10 @@ spremembe:
     datum: 1999-05-28
     sop: 1999-01-1990
     naziv: "Zakon o spremembah in dopolnitvah zakona o gostinstvu"
+  - kratica: ZGos-B
+    datum: 2005-11-11
+    sop: 2005-01-4397
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gostinstvu"
 ---
 
 # Zakon o gostinstvu
