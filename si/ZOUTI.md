@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-12-30
     sop: 2002-01-5830
     naziv: "Zakon o spremembah in dopolnitvah zakona o omejevanju uporabe tobačnih izdelkov"
+  - kratica: ZOUTI-B
+    datum: 2005-11-11
+    sop: 2005-01-4396
+    naziv: "Zakon o spremembah in dopolnitvah zakona o omejevanju uporabe tobačnih izdelkov"
 ---
 
 # Zakon o omejevanju uporabe tobačnih izdelkov
