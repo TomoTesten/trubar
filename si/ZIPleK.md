@@ -7,6 +7,11 @@ sop: 2000-01-3803
 objava: "Uradni list RS 85/2000  str. 9989"
 kljucne_besede: ["plemenita kovina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3803"
+spremembe:
+  - kratica: ZIPleK-A
+    datum: 2005-11-11
+    sop: 2005-01-4399
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izdelkih iz plemenitih kovin"
 ---
 
 # Zakon o izdelkih iz plemenitih kovin
