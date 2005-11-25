@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za kovinsko industrijo Slovenije"
 vrsta: "akt"
 datum: 2005-12-02
 sop: 2005-01-4708
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-4708"
 ---
 

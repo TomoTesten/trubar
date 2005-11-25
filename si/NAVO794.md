@@ -4,9 +4,9 @@ naziv: "Metodološko navodilo za predložitev letnih poročil in drugih podatkov
 vrsta: "navodilo"
 datum: 2005-12-15
 sop: 2005-01-4930
-organ: "Agencija Republike Slovenije za javnopravne evidence in storitve"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-4930"
 ---
 

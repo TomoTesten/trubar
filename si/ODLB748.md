@@ -4,9 +4,9 @@ naziv: "Odločba o izdaji soglasja k Aktu o ustanovitvi ustanove USTANOVA PITERS
 vrsta: "akt"
 datum: 2005-12-02
 sop: 2005-01-4706
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-4706"
 ---
 
