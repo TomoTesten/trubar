@@ -28,6 +28,10 @@ spremembe:
     datum: 2004-10-22
     sop: 2004-01-4707
     naziv: "Zakon o spremembah in dopolnitvah zakona o davku na dodano vrednost"
+  - kratica: ZDDV-F
+    datum: 2005-12-02
+    sop: 2005-01-4688
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davku na dodano vrednost"
 ---
 
 # Zakon o davku na dodano vrednost
