@@ -20,6 +20,10 @@ spremembe:
     datum: 2004-07-29
     sop: 2004-01-3692
     naziv: "Zakon o spremembah zakona o davku na izplačane plače"
+  - kratica: ZDIP-D
+    datum: 2005-12-02
+    sop: 2005-01-4689
+    naziv: "Zakon o spremembi in dopolnitvah zakona o davku na izplačane plače"
 ---
 
 # Zakon o davku na izplačane plače
