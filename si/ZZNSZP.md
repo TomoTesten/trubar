@@ -7,6 +7,11 @@ sop: 2003-01-4502
 objava: "Uradni list RS 101/2003  str. 14065"
 kljucne_besede: ["zračni promet", "navigacijske naprave", "letalski potniški promet"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4502"
+spremembe:
+  - kratica: ZZNSZP-A
+    datum: 2005-12-09
+    sop: 2005-01-4798
+    naziv: "Zakon o spremembah zakona o zagotavljanju navigacijskih služb zračnega prometa"
 ---
 
 # Zakon o zagotavljanju navigacijskih služb zračnega prometa
