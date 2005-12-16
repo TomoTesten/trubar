@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-03-10
     sop: 2005-01-0770
     naziv: "Zakon o spremembah in dopolnitvah zakona o javnih uslužbencih"
+  - kratica: ZJU-B
+    datum: 2005-12-16
+    sop: 2005-01-5004
+    naziv: "Zakon o spremembah in dopolnitvah zakona o javnih uslužbencih"
 ---
 
 # Zakon o javnih uslužbencih
