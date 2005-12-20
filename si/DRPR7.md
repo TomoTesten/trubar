@@ -4,9 +4,9 @@ naziv: "Proračun Republike Slovenije za leto 2007 (DP2007)"
 vrsta: "akt"
 datum: 2005-12-22
 sop: 2005-01-5136
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-5136"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o načinu elektronskega poročanja zavarovalnice o naložbah kr
 vrsta: "navodilo"
 datum: 2005-12-27
 sop: 2005-01-5296
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-5296"
 ---
 

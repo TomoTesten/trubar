@@ -2,11 +2,11 @@
 kratica: STAT98
 naziv: "Statut Univerze v Ljubljani"
 vrsta: "akt"
-datum: 2005-01-28
+datum: 2005-12-27
 sop: 2005-01-0230
-organ: "Univerza v Ljubljani"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0230"
 ---
 
