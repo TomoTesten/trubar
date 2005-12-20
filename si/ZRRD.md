@@ -7,6 +7,11 @@ sop: 2002-01-4808
 objava: "Uradni list RS 96/2002  str. 10533"
 kljucne_besede: ["znanstvene raziskave"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4808"
+spremembe:
+  - kratica: ZRRD-A
+    datum: 2005-12-20
+    sop: 2005-01-5086
+    naziv: "Zakon o spremembi zakona o raziskovalni in razvojni dejavnosti"
 ---
 
 # Zakon o raziskovalni in razvojni dejavnosti
