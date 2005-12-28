@@ -7,6 +7,11 @@ sop: 1995-01-3133
 objava: "Uradni list RS 69/95  str. 5291"
 kljucne_besede: ["nalezljiva bolezen"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3133"
+spremembe:
+  - kratica: ZNB-A
+    datum: 2005-12-28
+    sop: 2005-01-5311
+    naziv: "Zakon o spremembah in dopolnitvah zakona o nalezljivih boleznih"
 ---
 
 # Zakon o nalezljivih boleznih
