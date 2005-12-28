@@ -20,6 +20,10 @@ spremembe:
     datum: 2004-07-05
     sop: 2004-01-3234
     naziv: "Zakon o spremembah in dopolnitvah zakona o splošnem upravnem postopku"
+  - kratica: ZUP-D
+    datum: 2005-12-28
+    sop: 2005-01-5310
+    naziv: "Zakon o spremembah in dopolnitvah zakona o splošnem upravnem postopku"
 ---
 
 # Zakon o splošnem upravnem postopku
