@@ -12,6 +12,10 @@ spremembe:
     datum: 2000-03-30
     sop: 2000-01-1257
     naziv: "Zakon o spremembah in dopolnitvah zakona o trajnem prenehanju izkoriščanja uranove rude in preprečevanju posledic rudarjenja v Rudniku urana Žirovski vrh"
+  - kratica: ZTPIU-B
+    datum: 2005-12-30
+    sop: 2005-01-5541
+    naziv: "Zakon o spremembah in dopolnitvah zakona o trajnem prenehanju izkoriščanja uranove rude in preprečevanju posledic rudarjenja v rudniku urana Žirovski vrh"
 ---
 
 # Zakon o trajnem prenehanju izkoriščanja uranove rude in preprečevanje posledic rudarjenja v Rudniku urana Žirovski vrh
