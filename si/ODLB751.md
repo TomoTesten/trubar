@@ -4,9 +4,9 @@ naziv: "Odločba o podelitvi statusa društva"
 vrsta: "akt"
 datum: 2006-01-10
 sop: 2006-01-0075
-organ: "Ministrstvo za okolje in prostor"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-0075"
 ---
 
