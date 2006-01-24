@@ -16,6 +16,10 @@ spremembe:
     datum: 2004-03-10
     sop: 2004-01-0918
     naziv: "Zakon o spremembah zakona o trgovini"
+  - kratica: ZT-C
+    datum: 2006-01-24
+    sop: 2006-01-0267
+    naziv: "Zakon o spremembah zakona o trgovini"
 ---
 
 # Zakon o trgovini
