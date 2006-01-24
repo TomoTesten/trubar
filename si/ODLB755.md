@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k Aktu o ustanovitvi Fundacije Parus - ustanova za f
 vrsta: "akt"
 datum: 2006-01-27
 sop: 2006-01-0309
-organ: "Ministrstvo za visoko šolstvo, znanost in tehnologijo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-0309"
 ---
 
