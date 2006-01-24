@@ -4,9 +4,9 @@ naziv: "Navodilo za izračun višine namenskih sredstev za odpravo nesorazmerij 
 vrsta: "navodilo"
 datum: 2006-07-14
 sop: 2006-01-3190
-organ: ""
-zbirka: "Neuradna prečiščena besedila"
-status: "Neznano"
+organ: "Ministrstvo za javno upravo"
+zbirka: "Obsoletni in konzumirani predpisi"
+status: "Konzumiran ali obsoleten predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-3190"
 ---
 
