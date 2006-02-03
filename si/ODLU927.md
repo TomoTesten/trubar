@@ -1,0 +1,69 @@
+---
+kratica: ODLU927
+naziv: "Odločba o razveljavitvi sodbe Vrhovnega sodišča, Višjega sodišča v Ljubljani in Okrožnega sodišča v Ljubljani"
+vrsta: "akt"
+datum: 2006-02-03
+sop: 2006-01-0426
+organ: "Ustavno sodišče Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Objavljen akt brez datuma začetka veljavnosti"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-0426"
+---
+
+# Odločba o razveljavitvi sodbe Vrhovnega sodišča, Višjega sodišča v Ljubljani in Okrožnega sodišča v Ljubljani
+
+Številka:   Up-518/03-14
+Datum:      19. 1. 2006
+
+
+## O D L O Č B A
+
+Ustavno sodišče je v postopku odločanja o ustavni pritožbi A. A. iz Ž., ki ga zastopa B. B., odvetnik v Z., na seji dne 19. januarja 2006
+
+
+## o d l o č i l o:
+
+Sodba Vrhovnega sodišča št. I Ips 210/98 z dne 11. 12. 2002, sodba Višjega sodišča v Ljubljani št. I Kp 627/98 z dne 4. 6. 1998 in sodba Okrožnega sodišča v Ljubljani št. I K 130/97 z dne 20. 11. 1997 se razveljavijo v delu, ki se nanaša na pritožnika A. A., in se zadeva v tem delu vrne Okrožnemu sodišču v Ljubljani v novo odločanje.
+
+
+## O b r a z l o ž i t e v
+
+
+### A.
+
+1. Pritožnik je bil v postopku pred Okrožnim sodiščem spoznan za krivega kaznivega dejanja pomoči h kaznivemu dejanju neupravičene proizvodnje in prometa z mamili iz prvega odstavka 196. člena Kazenskega zakonika (Uradni list RS, št. 63/94 in nasl. – v nadaljevanju KZ) v zvezi s 27. členom KZ. Zoper to sodbo se je pritožil njegov zagovornik, pritožbo je Višje sodišče zavrnilo. Zoper sodbo Višjega sodišča je njegov zagovornik vložil zahtevo za varstvo zakonitosti, ki jo je Vrhovno sodišče zavrnilo.
+2. V ustavni pritožbi pritožnik ponavlja očitke, ki jih je uveljavljal že v pritožbi in v zahtevi za varstvo zakonitosti. Navaja, da se nobena od sodb ni opredelila do relevantnih trditev obrambe, zato naj te sodbe ne bi imele razlogov o odločilnih dejstvih. Pri tem podrobno razčlenjuje dogajanje v dneh, ko naj bi bilo storjeno kaznivo dejanje oziroma ko je bil pritožnik prijet, in hkrati pojasnjuje, katera so tista odločilna dejstva, dokazi in argumenti obrambe, glede katerih naj bi se izpodbijane sodbe ne opredelile oziroma naj bi se opredelile napačno.
+3. Poleg tega pritožnik navaja, da sodišče ni hotelo zaslišati uslužbenke Zavarovalnice Triglav, ki naj bi potrdila, da je bil ustavni pritožnik v času, ko je bila opravljena predaja mamil, na zavarovalnici, s tem pa bi dokazal alibi, ki ga je zatrjeval. Končno pritožnik še navaja, da sodišče ni hotelo zaslišati obremenilnih prič – tajnih policijskih sodelavcev, ki naj bi v resnici videle, kaj se je dogajalo. Namesto tega naj bi sodišče zaslišalo zgolj koordinatorje policijske akcije; ti so podpisali pisno poročilo na podlagi ustnih izjav, ki so jih tajni policijski sodelavci posredovali svojim nadrejenim. Pritožnik naj se tako ne bi imel možnosti soočiti z obremenilnimi pričami, kar mu sicer zagotavlja Konvencija o varstvu človekovih pravic in temeljnih svoboščin (Uradni list RS, št. 33/94, MP, št. 7/94 – v nadaljevanju EKČP).
+4. Z vsem tem naj bi bile pritožniku kršene pravica do sodnega varstva človekovih pravic iz četrtega odstavka 15. člena Ustave, pravica do enakega varstva pravic iz 22. člena Ustave, pravica do neodvisnega in nepristranskega sodišča iz 23. člena Ustave in pravica do pravnega sredstva iz 25. člena Ustave. Pritožnik Ustavnemu sodišču predlaga, naj izpodbijane sodbe razveljavi in vrne zadevo Okrožnemu sodišču v novo odločanje pred popolnoma spremenjenim senatom.
+5. Senat Ustavnega sodišča je dne 12. 9. 2005 sklenil, da sprejme ustavno pritožbo v obravnavo. V skladu z določbo 56. člena Zakona o Ustavnem sodišču (Uradni list RS, št. 15/94 – v nadaljevanju ZUstS) je Ustavno sodišče ustavno pritožbo poslalo Vrhovnemu sodišču, ki nanjo ni odgovorilo.
+6. V skladu s 5. členom ZUstS je Ustavno sodišče vpogledalo v spis zadeve, v kateri so bile izdane izpodbijane odločbe.
+
+
+### B.
+
+7. Pritožnik v ustavni pritožbi med drugim navaja očitek, da sodišče ni hotelo zaslišati obremenilnih prič – tajnih policijskih sodelavcev, ki naj bi v resnici videle, kaj se je dogajalo. Namesto tega naj bi sodišče zaslišalo zgolj koordinatorje policijske akcije; ti so podpisali pisno poročilo na podlagi ustnih izjav, ki so jih tajni policijski sodelavci posredovali svojim nadrejenim. Pritožnik naj tako ne bi imel možnosti soočiti se z obremenilnimi pričami, s čimer naj bi bile kršene njegove pravice, ki mu jih zagotavlja EKČP.
+8. Ustavno sodišče je v odločbi št. Up-207/99 z dne 4. 7. 2002 (Uradni list RS, št. 65/02 in OdlUS XI, 266) opozorilo na določbo točke d) tretjega odstavka 6. člena EKČP, ki med drugim določa, da ima vsakdo, kdor je obdolžen kaznivega dejanja, pravico, da zaslišuje oziroma zahteva zaslišanje obremenilnih prič. (*1) Ker takšno jamstvo, kot je ugotovilo Ustavno sodišče v omenjeni odločbi, v Ustavi ni izrecno navedeno, je treba to določbo EKČP na temelju 8. člena Ustave uporabljati neposredno.
+9. Vprašanje pravice do zaslišanja obremenilnih prič v primerih, ko sodba temelji na poročilih tajnih policijskih sodelavcev, je Evropsko sodišče za človekove pravice (v nadaljevanju ESČP) presojalo v zadevi Lüdi proti Švici.(*2) ESČP je sicer priznalo legitimen interes policijskih organov, da ohranijo anonimnost tajnega sodelavca ter ga tako zaščitijo in omogočijo njegovo uporabo tudi v prihodnosti. Vendar bi bilo kljub temu treba omogočiti obdolžencu ali njegovemu zagovorniku, da zaslišita tajnega policijskega sodelavca in omajeta njegovo verodostojnost. Ker to ni bilo storjeno, je ESČP odločilo, da je šlo v navedeni zadevi za kršitev točke d) tretjega odstavka 6. člena v povezavi s prvim odstavkom 6. člena EKČP.
+10. Iz spisa Okrožnega sodišča je razvidno, da je navedeno sodišče v preiskavi kot priči zaslišalo delavca policije M. P. in Š. S. Med zaslišanjem je M. P. povedal, da je kot načelnik Urada kriminalistične službe v Kopru usmerjal policijsko akcijo na tistem območju. Glede delovanja tajnih policijskih sodelavcev, ki so se s pritožnikovim soobdolžencem dogovarjali o nakupu mamila, je M. P. povedal, da so tajni sodelavci o svojem delovanju ustno poročali svojim operativcem. Slednji so na podlagi teh informacij izdelali pisno poročilo, ki so ga posredovali njemu kot načelniku. Š. S. je bil koordinator celotne policijske akcije, pri čemer je po lastni izjavi neposredno sodeloval pri delu akcije na območju Ljubljane, kjer je potekala predaja mamila. Njegov položaj v ljubljanskem delu akcije je bil podoben kot položaj M. P. v primorskem delu. Pritožnikov zagovornik je med preiskavo predlagal, naj sodišče neposredno zasliši tajne policijske sodelavce, vendar je preiskovalni sodnik to zavrnil, prav tako zunajobravnavni senat.
+11. Še pred zaslišanjem M. P. in Š. S. v preiskavi so bili v spis vloženi različni dokumenti, ki se nanašajo na delovanje tajnih policijskih sodelavcev. Gre za več poročil o ugotovitvah tajnega policijskega sodelavca in poročil o izvajanju tajnega opazovanja, vsa ta poročila je podpisal M. P. Po zaslišanju Š. S. med preiskavo je bilo v spis vloženo dopolnilo poročila o tajnem opazovanju v Ljubljani. Poročilo je napisano v prvi osebi dvojine, a je brez imena in podpisa.
+12. Na naroku glavne obravnave dne 8. 5. 1997 je sodišče kot priči zaslišalo M. P. in Š. S. Pritožnikov zagovornik je temu nasprotoval, saj po njegovem mnenju omenjeni priči nista ničesar zaznali neposredno, namesto tega pa je predlagal zaslišanje tajnih policijskih sodelavcev. Med zaslišanjem M. P. in Š. S. so zagovorniki obdolžencev pričama zastavili več vprašanj v zvezi z delovanjem tajnih policijskih sodelavcev, vendar sta priči odgovore na nekatera vprašanja zavrnili, češ da gre za uradno tajnost. Sodišče je po opravljenem naroku zaprosilo Ministrstvo za notranje zadeve (v nadaljevanju MNZ) za ugotovitev identitete tajnih policijskih sodelavcev, da bi jih lahko zaslišalo. MNZ je prošnjo sodišča zavrnilo in sodišču predlagalo, naj od tajnih policijskih sodelavcev zahteva dopolnitev poročila. Sodišče tega ni storilo. Na naroku dne 21. 8. 1997 je ponovno zaslišalo M. P., ki na nekaj vprašanj ni znal odgovoriti. Pritožnikov zagovornik je kasneje ponovno zahteval zaslišanje tajnih policijskih sodelavcev kot obremenilnih prič, kar pa je sodišče zavrnilo. Dne 20. 11. 1997 je Okrožno sodišče izdalo obsodilno sodbo, v kateri se je med drugim oprlo na ugotovitve, ki izhajajo iz delovanja tajnih policijskih sodelavcev.
+13. Kot torej izhaja iz spisa Okrožnega sodišča, to v dokaznem postopku ni zaslišalo tajnih policijskih sodelavcev, ki so prispevali bistvene obremenilne dokaze, na katerih temelji obsodilna sodba zoper pritožnika in njegova soobdolženca.
+14. Pritožnik je pravico do zaslišanja tajnih policijskih sodelavcev uveljavljal tudi v pravnih sredstvih. V zahtevi za varstvo zakonitosti je tako izrecno opozoril, da mu takšno pravico zagotavlja EKČP. Na njegove navedbe mu je obširno odgovorilo Vrhovno sodišče (strani 15 in 16 izpodbijane sodbe). Uvodoma je štelo, da pritožnik s tem izpodbija ugotovljeno dejansko stanje. V nadaljevanju je pritrdilo pritožniku, da ima vsak obdolženec pravico, da se pred sodiščem zaslišijo zanj obremenilne priče in da se z njimi sooči. Vendar pa je Vrhovno sodišče nato presodilo, da bi moral pritožnik v zahtevi za varstvo zakonitosti obrazložiti, glede katerih dejstev bi bilo treba zaslišati priče in zakaj je bila zaradi zavrnitve njegovih dokaznih predlogov kršena njegova pravica do obrambe, da je to vplivalo na zakonitost sodbe. Ker tega pritožnik ni storil, je Vrhovno sodišče štelo, da zatrjevane kršitve ne more preizkusiti.
+15. Vrhovno sodišče je s tem poseglo v pritožnikovo pravico do zaslišanja obremenilnih prič iz točke d) tretjega odstavka 6. člena EKČP. Od pritožnika je pričakovalo, da obrazloži, glede česa je želel zaslišati tajne policijske sodelavce in kakšen vpliv naj bi dejstvo, da tega ni mogel storiti, imelo na zakonitost sodbe. Vendar pa se breme utemeljevanja lahko naloži obrambi le tedaj, kadar ta zahteva zaslišanje razbremenilnih prič ali izvedbo drugega (razbremenilnega) dokaza (pogoje v zvezi s tem je Ustavno sodišče postavilo že v odločbi št. Up-34/93 z dne 8. 6. 1995, OdlUS IV, 129), ne pa tudi tedaj, kadar gre za obremenilne priče. Če sodišče v kazenskem postopku uporabi obremenilne izjave (kar je v konkretnem primeru storilo z uporabo izjav tajnih policijskih sodelavcev) in jih dopusti kot dokaz v kazenskem postopku, mora skladno z EKČP in z ustaljeno sodno prakso ESČP (*3) obrambi omogočiti, da v zvezi s temi izjavami zaslišuje njihovega avtorja.
+16. Ker pritožniku ni bilo omogočeno zaslišanje tajnih policijskih sodelavcev, je bila s tem kršena njegova pravica do zaslišanja obremenilnih prič iz točke d) tretjega odstavka 6. člena EKČP. Ustavno sodišče je zato izpodbijane sodbe razveljavilo in zadevo v delu, ki se nanaša na pritožnika, vrnilo Okrožnemu sodišču v novo odločanje. To bo pri novem odločanju moralo pritožniku omogočiti, da zasliši tajne policijske sodelavce.
+17. Ustavno sodišče še opozarja, da sta Zakon o spremembah in dopolnitvah Zakona o kazenskem postopku (Uradni list RS, št. 72/98 – ZKP-A) in Zakon o spremembah in dopolnitvah Zakona o kazenskem postopku (Uradni list RS, št. 43/04 – ZKP-F) v Zakon o kazenskem postopku (Uradni list RS, št. 63/94 – v nadaljevanju ZKP) vpeljala različne možnosti, s katerimi je mogoče zaščititi anonimnost in varnost tajnih policijskih sodelavcev. Skladno s tretjim odstavkom 240. člena ZKP se od priče, ki izvaja posebni preiskovalni ukrep kot tajni policijski sodelavec, praviloma ne zahteva njegovih osebnih podatkov (tretji odstavek 240. člena ZKP). Še širša je zaščita priče, ki jo pod določenimi pogoji pri zaslišanju nudi 240.a člen ZKP (npr. izbrisanje določenih podatkov iz kazenskega spisa, označitev nekaterih podatkov za uradno tajnost, določitev psevdonima priči, zaslišanje s pomočjo tehničnih sredstev, kot so zaščitna stena, naprava za popačenje glasu, prenos zvoka iz posebnega prostora ipd.). Takšne možnosti bo pri ponovnem odločanju moralo upoštevati tudi Okrožno sodišče, da bi tajnim policijskim sodelavcem zagotovilo varnost.
+18. Ker je bilo izpodbijane sodbe treba razveljaviti že zaradi kršitve, navedene v 16. točki te obrazložitve, ni bilo treba ugotavljati, ali so podane tudi druge kršitve človekovih pravic.
+
+
+### C.
+
+19. Ustavno sodišče je sprejelo to odločbo na podlagi prvega odstavka 59. člena ZUstS v sestavi: predsednik dr. Janez Čebulj ter sodnice in sodniki Lojze Janko, mag. Marija Krisper Kramberger, Milojka Modrijan, dr. Ciril Ribičič, dr. Mirjam Škrk in dr. Dragica Wedam Lukić. Odločbo je sprejelo soglasno. Sodnik dr. Zvonko Fišer je bil pri odločanju o tej zadevi izločen.
+
+Predsednik
+dr. Janez Čebulj l.r.
+
+(*1) Tretji odstavek 6. člena EKČP določa: »Kdor je obdolžen kaznivega dejanja, ima naslednje minimalne pravice:
+…
+d) da zaslišuje oziroma zahteva zaslišanje obremenilnih prič in da doseže navzočnost in zaslišanje razbremenilnih prič ob enakih pogojih, kot veljajo za obremenilne priče.«
+(*2) Sodba št. A 238 z dne 15. 6. 1992. Obsodba je med drugim temeljila na izjavah iz poročil tajnega policijskega sodelavca po imenu Toni, ki ga sodišče kljub obdolženčevi zahtevi ni poklicalo za pričo, z namenom, da bi zaščitilo sodelavčevo anonimnost. Ker je Toni v svojih poročilih dal izjave, ki so obremenile gospoda Lüdija, ga je ESČP štelo za pričo, čeprav v kazenskem postopku formalno ni dobil takšnega statusa.
+(*3) Stališče, da je treba v kazenskem postopku obrambi omogočiti, da zaslišuje avtorja obremenilnih izjav, ki jih sodišče sicer uporabi kot dokaz v kazenskem postopku, je ESČP sprejelo v zadevi Kostovski proti Nizozemski (sodba št. A 166 z dne 20. 11. 1989, par. 41). To stališče je ponovilo v več drugih zadevah, med drugim v navedeni zadevi Lüdi proti Švici (par. 47), nazadnje pa v zadevi Mild in Virtanen proti Finski (zadevi št. 39481/98 in 40227/98, sodba z dne 26. 10. 2005, par. 42).
