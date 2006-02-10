@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah Navodila za izvajanje sklepa o obve
 vrsta: "navodilo"
 datum: 2006-02-24
 sop: 2006-01-0765
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-0765"
 ---
 
