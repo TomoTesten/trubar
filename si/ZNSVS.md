@@ -7,6 +7,11 @@ sop: 2000-01-3811
 objava: "Uradni list RS 86/2000  str. 10018"
 kljucne_besede: ["stanovanje", "kredit", "posojilo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3811"
+spremembe:
+  - kratica: ZNSVS-A
+    datum: 2006-02-14
+    sop: 2006-01-0539
+    naziv: "Zakon o spremembah in dopolnitvah zakona o nacionalni stanovanjski varčevalni shemi"
 ---
 
 # Zakon o nacionalni stanovanjski varčevalni shemi
