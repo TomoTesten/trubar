@@ -24,6 +24,10 @@ spremembe:
     datum: 2005-05-31
     sop: 2005-01-2223
     naziv: "Zakon o spremembah in dopolnitvah zakona o sistemu plač v javnem sektorju"
+  - kratica: ZSPJS-E
+    datum: 2006-02-14
+    sop: 2006-01-0538
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sistemu plač v javnem sektorju"
 ---
 
 # Zakon o sistemu plač v javnem sektorju
