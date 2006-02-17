@@ -20,6 +20,10 @@ spremembe:
     datum: 2003-10-13
     sop: 2003-01-4366
     naziv: "Zakon o spremembah in dopolnitvah zakona o azilu"
+  - kratica: ZAzil-D
+    datum: 2006-02-17
+    sop: 2006-01-0626
+    naziv: "Zakon o spremembah in dopolnitvah zakona o azilu"
 ---
 
 # Zakon o azilu
