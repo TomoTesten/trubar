@@ -7,6 +7,11 @@ sop: 1997-01-1141
 objava: "Uradni list RS 20/97  str. 1625"
 kljucne_besede: ["državni organi", "tožba pred sodiščem"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1141"
+spremembe:
+  - kratica: ZDPra-A
+    datum: 2006-02-17
+    sop: 2006-01-0623
+    naziv: "Zakon o spremembah in dopolnitvah zakona o državnem pravobranilstvu"
 ---
 
 # Zakon o državnem pravobranilstvu
