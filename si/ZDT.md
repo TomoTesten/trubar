@@ -16,6 +16,10 @@ spremembe:
     datum: 2002-12-18
     sop: 2002-01-5389
     naziv: "Zakon o spremembah in dopolnitvah zakona o državnem tožilstvu"
+  - kratica: ZDT-C
+    datum: 2006-02-17
+    sop: 2006-01-0624
+    naziv: "Zakon o spremembah in dopolnitvah zakona o državnem tožilstvu"
 ---
 
 # Zakon o državnem tožilstvu
