@@ -16,6 +16,10 @@ spremembe:
     datum: 2004-02-20
     sop: 2004-01-0631
     naziv: "Zakon o spremembi zakona o spremembah in dopolnitvah zakona o izvršbi in zavarovanju"
+  - kratica: ZIZ-C
+    datum: 2006-02-17
+    sop: 2006-01-0621
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izvršbi in zavarovanju"
 ---
 
 # Zakon o izvršbi in zavarovanju
