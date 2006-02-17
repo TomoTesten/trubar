@@ -16,6 +16,10 @@ spremembe:
     datum: 2004-04-26
     sop: 2004-01-1927
     naziv: "Zakon o spremembah in dopolnitvah zakona o avtorski in sorodnih pravicah"
+  - kratica: ZASP-C
+    datum: 2006-02-17
+    sop: 2006-01-0622
+    naziv: "Zakon o spremembah in dopolnitvah zakona o avtorski in sorodnih pravicah"
 ---
 
 # Zakon o avtorski in sorodnih pravicah
