@@ -2,11 +2,11 @@
 kratica: MP_ODLO18626
 naziv: "Odlok o koncesiji za opravljanje obvezne gospodarske javne službe vzdrževanje občinskih cest (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-13
+datum: 2006-02-24
 sop: 2006-01-0796
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Mestna občina Ljubljana"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis, ki se še uporablja"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-0796"
 ---
 
