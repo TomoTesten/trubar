@@ -7,6 +7,11 @@ sop: 2000-01-2497
 objava: "Uradni list RS 54/2000  str. 7110"
 kljucne_besede: ["kmetijska politika", "kmetijski proizvod"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2497"
+spremembe:
+  - kratica: ZKme-A
+    datum: 2006-02-24
+    sop: 2006-01-0750
+    naziv: "Zakon o spremembah in dopolnitvah zakona o kmetijstvu"
 ---
 
 # Zakon o kmetijstvu
