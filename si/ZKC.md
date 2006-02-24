@@ -7,6 +7,11 @@ sop: 1999-01-3008
 objava: "Uradni list RS 63/99  str. 8124"
 kljucne_besede: ["določanje cen", "cenovna politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3008"
+spremembe:
+  - kratica: ZKC-A
+    datum: 2006-02-24
+    sop: 2006-01-0747
+    naziv: "Zakon o spremembah in dopolnitvah zakona o kontroli cen"
 ---
 
 # Zakon o kontroli cen
