@@ -4,9 +4,9 @@ naziv: "Navodilo o izvajanju pomoči v primeru tranzita tujca, ki se prisilno od
 vrsta: "navodilo"
 datum: 2006-03-09
 sop: 2006-01-1031
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1031"
 ---
 
