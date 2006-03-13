@@ -24,6 +24,10 @@ spremembe:
     datum: 2002-06-14
     sop: 2002-01-2523
     naziv: "Zakon o spremembah in dopolnitvah zakona o ustanovitvi občin ter o določitvi njihovih območij"
+  - kratica: ZUODNO-E
+    datum: 2006-03-13
+    sop: 2006-01-1104
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ustanovitvi občin ter o določitvi njihovih območij"
 ---
 
 # Zakon o ustanovitvi občin ter o določitvi njihovih območij
