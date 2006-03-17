@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-06-30
     sop: 2005-01-2663
     naziv: "Zakon o spremembah in dopolnitvah zakona o dostopu do informacij javnega značaja"
+  - kratica: ZDIJZ-B
+    datum: 2006-03-17
+    sop: 2006-01-1130
+    naziv: "Zakon o spremembah in dopolnitvah zakona o dostopu do informacij javnega značaja"
 ---
 
 # Zakon o dostopu do informacij javnega značaja
