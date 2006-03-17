@@ -7,6 +7,11 @@ sop: 1994-01-2183
 objava: "Uradni list RS 64/94  str. 3598"
 kljucne_besede: ["civilna zaščita", "naravna nesreča"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2183"
+spremembe:
+  - kratica: ZVNDN-A
+    datum: 2006-03-17
+    sop: 2006-01-1129
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu pred naravnimi in drugimi nesrečami"
 ---
 
 # Zakon o varstvu pred naravnimi in drugimi nesrečami
