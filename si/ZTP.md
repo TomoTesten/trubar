@@ -12,6 +12,10 @@ spremembe:
     datum: 2003-10-21
     sop: 2003-01-4504
     naziv: "Zakon o spremembah in dopolnitvah zakona o tajnih podatkih"
+  - kratica: ZTP-B
+    datum: 2006-03-17
+    sop: 2006-01-1128
+    naziv: "Zakon o spremembah in dopolnitvah zakona o tajnih podatkih"
 ---
 
 # Zakon o tajnih podatkih
