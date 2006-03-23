@@ -2,11 +2,11 @@
 kratica: MP_ODLO48344
 naziv: "Odlok o ustanovitvi javnega vzgojno – izobraževalnega zavoda Osnovna šola Frana Kocbeka Gornji Grad (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-04
+datum: 2006-03-24
 sop: 2006-98-0003
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Gornji Grad"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-98-0003"
 ---
 
