@@ -16,6 +16,10 @@ spremembe:
     datum: 2005-02-11
     sop: 2005-01-0385
     naziv: "Zakon o spremembah in dopolnitvah zakona o obveznih zavarovanjih v prometu"
+  - kratica: ZOZP-C
+    datum: 2006-03-23
+    sop: 2006-01-1228
+    naziv: "Zakon o spremembah in dopolnitvah zakona o obveznih zavarovanjih v prometu"
 ---
 
 # Zakon o obveznih zavarovanjih v prometu
