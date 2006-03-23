@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah Navodila o izračunu postavke \"Pos
 vrsta: "navodilo"
 datum: 2006-03-24
 sop: 2006-01-1283
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1283"
 ---
 

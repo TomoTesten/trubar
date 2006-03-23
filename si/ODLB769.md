@@ -4,9 +4,9 @@ naziv: "Odločba o podelitvi statusa društva v javnem interesu"
 vrsta: "akt"
 datum: 2006-03-31
 sop: 2006-01-1414
-organ: "Ministrstvo za kulturo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1414"
 ---
 
