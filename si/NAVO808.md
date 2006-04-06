@@ -4,9 +4,9 @@ naziv: "Sprememba navodila za izdelavo poročila o medbančnih depozitih"
 vrsta: "navodilo"
 datum: 2006-04-19
 sop: 2006-01-1804
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1804"
 ---
 
