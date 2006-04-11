@@ -40,6 +40,10 @@ spremembe:
     datum: 2005-08-12
     sop: 2005-01-3383
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
+  - kratica: ZZVZZ-I
+    datum: 2006-04-11
+    sop: 2006-01-1558
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
