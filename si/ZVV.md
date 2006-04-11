@@ -16,6 +16,10 @@ spremembe:
     datum: 2003-08-04
     sop: 2003-01-3648
     naziv: "Zakon o spremembah zakona o vojnih veteranih"
+  - kratica: ZVV-C
+    datum: 2006-04-11
+    sop: 2006-01-1557
+    naziv: "Zakon o spremembah in dopolnitvah zakona o vojnih veteranih"
 ---
 
 # Zakon o vojnih veteranih
