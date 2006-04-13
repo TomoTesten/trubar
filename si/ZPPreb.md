@@ -7,6 +7,11 @@ sop: 2001-01-0530
 objava: "Uradni list RS 9/2001  str. 819"
 kljucne_besede: ["prebivališče", "register prebivalstva", "stanovanje", "gospodinjstvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0530"
+spremembe:
+  - kratica: ZPPreb-A
+    datum: 2006-04-13
+    sop: 2006-01-1680
+    naziv: "Zakon o spremembah zakona o prijavi prebivališča"
 ---
 
 # Zakon o prijavi prebivališča
