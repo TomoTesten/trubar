@@ -16,6 +16,10 @@ spremembe:
     datum: 2004-04-15
     sop: 2004-01-1604
     naziv: "Zakon o spremembah in dopolnitvah zakona o plačilnem prometu"
+  - kratica: ZPlaP-C
+    datum: 2006-04-13
+    sop: 2006-01-1677
+    naziv: "Zakon o spremembah in dopolnitvah zakona o plačilnem prometu"
 ---
 
 # Zakon o plačilnem prometu
