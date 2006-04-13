@@ -12,6 +12,10 @@ spremembe:
     datum: 2004-01-15
     sop: 2004-01-0064
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstveni inšpekciji"
+  - kratica: ZZdrI-B
+    datum: 2006-04-13
+    sop: 2006-01-1681
+    naziv: "Zakon o spremembi zakona o zdravstveni inšpekciji"
 ---
 
 # Zakon o zdravstveni inšpekciji
