@@ -7,6 +7,11 @@ sop: 2003-01-1720
 objava: "Uradni list RS 37/2003  str. 4301"
 kljucne_besede: ["register prebivalstva"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-1720"
+spremembe:
+  - kratica: ZMatR-A
+    datum: 2006-04-13
+    sop: 2006-01-1679
+    naziv: "Zakon o spremembah in dopolnitvah zakona o matičnem registru"
 ---
 
 # Zakon o matičnem registru
