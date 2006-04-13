@@ -7,6 +7,11 @@ sop: 1999-01-0002
 objava: "Uradni list RS 1/99  str. 2"
 kljucne_besede: ["register prebivalstva"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0002"
+spremembe:
+  - kratica: ZCRP-A
+    datum: 2006-04-13
+    sop: 2006-01-1678
+    naziv: "Zakon o spremembi in dopolnitvi zakona o centralnem registru prebivalstva"
 ---
 
 # Zakon o centralnem registru prebivalstva
