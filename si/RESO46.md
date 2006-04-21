@@ -4,9 +4,9 @@ naziv: "Resolucija o preprečevanju in zatiranju kriminalitete (RePZK)"
 vrsta: "akt"
 datum: 2006-04-21
 sop: 2006-01-1838
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1838"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Lucije Vuga za državno pravobranilko na Državnem
 vrsta: "akt"
 datum: 2006-05-19
 sop: 2006-01-2209
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-2209"
 ---
 
