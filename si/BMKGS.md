@@ -7,6 +7,11 @@ sop: 1992-02-0015
 objava: "Uradni list RS MP 5/92  str. 43"
 kljucne_besede: ["ratifikacija sporazuma", "gospodarsko sodelovanje", "Slovenija", "Makedonija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-02-0015"
+spremembe:
+  - kratica: BMKGS-A
+    datum: 2006-04-28
+    sop: 2006-02-0050
+    naziv: "Zakon o ratifikaciji Sporazuma o spremembi Sporazuma o gospodarskem sodelovanju med Republiko Slovenijo in Republiko Makedonijo"
 ---
 
 # Zakon o ratifikaciji sporazuma o gospodarskem sodelovenju med Republiko Slovenijo in Republiko Makedonijo
