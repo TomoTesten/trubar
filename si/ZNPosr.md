@@ -7,6 +7,11 @@ sop: 2003-01-2010
 objava: "Uradni list RS 42/2003  str. 4793"
 kljucne_besede: ["nepremičnine", "nepremičninska družba", "nepremičninski trg"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2010"
+spremembe:
+  - kratica: ZNPosr-A
+    datum: 2006-05-09
+    sop: 2006-01-2025
+    naziv: "Zakon o spremembah in dopolnitvah zakona o nepremičninskem posredovanju"
 ---
 
 # Zakon o nepremičninskem posredovanju
