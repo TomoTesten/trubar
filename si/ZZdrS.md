@@ -20,6 +20,10 @@ spremembe:
     datum: 2004-01-15
     sop: 2004-01-0066
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravniški službi"
+  - kratica: ZZdrS-D
+    datum: 2006-05-09
+    sop: 2006-01-2029
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravniški službi"
 ---
 
 # Zakon o zdravniški službi
