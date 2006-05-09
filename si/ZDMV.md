@@ -12,6 +12,10 @@ spremembe:
     datum: 2004-04-23
     sop: 2004-01-1856
     naziv: "Zakon o spremembah in dopolnitvah zakona o davkih na motorna vozila"
+  - kratica: ZDMV-B
+    datum: 2006-05-09
+    sop: 2006-01-2027
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davku na motorna vozila"
 ---
 
 # Zakon o davkih na motorna vozila
