@@ -12,6 +12,10 @@ spremembe:
     datum: 2003-08-04
     sop: 2003-01-3647
     naziv: "Zakon o spremembah in dopolnitvah zakona o starševskem varstvu in družinskih prejemkih"
+  - kratica: ZSDP-B
+    datum: 2006-05-09
+    sop: 2006-01-2026
+    naziv: "Zakon o spremembah in dopolnitvah zakona o starševskem varstvu in družinskih prejemkih"
 ---
 
 # Zakon o starševskem varstvu in družinskih prejemkih
