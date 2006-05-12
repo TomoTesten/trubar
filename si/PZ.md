@@ -16,6 +16,10 @@ spremembe:
     datum: 2004-01-15
     sop: 2004-01-0077
     naziv: "Zakon o dopolnitvah pomorskega zakonika"
+  - kratica: PZ-C
+    datum: 2006-05-12
+    sop: 2006-01-2092
+    naziv: "Zakon o spremembah in dopolnitvah Pomorskega zakonika"
 ---
 
 # Pomorski zakonik
