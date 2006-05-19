@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k Aktu o ustanovitvi ustanove USTANOVA LOKALNA RAZVO
 vrsta: "akt"
 datum: 2006-06-06
 sop: 2006-01-2436
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-2436"
 ---
 
