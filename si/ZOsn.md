@@ -24,6 +24,10 @@ spremembe:
     datum: 2005-05-31
     sop: 2005-01-2220
     naziv: "Zakon o spremembah in dopolnitvah zakona o osnovni šoli"
+  - kratica: ZOsn-E
+    datum: 2006-06-09
+    sop: 2006-01-2541
+    naziv: "Zakon o spremembah in dopolnitvah zakona o osnovni šoli"
 ---
 
 # Zakon o osnovni šoli
