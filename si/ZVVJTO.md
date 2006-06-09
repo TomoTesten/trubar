@@ -16,6 +16,10 @@ spremembe:
     datum: 2004-08-05
     sop: 2004-01-3849
     naziv: "Zakon o spremembah zakona o vračanju vlaganj v javno telekomunikacijsko omrežje"
+  - kratica: ZVVJTO-C
+    datum: 2006-06-09
+    sop: 2006-01-2539
+    naziv: "Zakon o spremembah in dopolnitvah zakona o vračanju vlaganj v javno telekomunikacijsko omrežje"
 ---
 
 # Zakon o vračanju vlaganj v javno telekomunikacijsko omrežje
