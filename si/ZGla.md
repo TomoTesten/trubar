@@ -7,6 +7,11 @@ sop: 2000-01-0851
 objava: "Uradni list RS 19/2000  str. 2577"
 kljucne_besede: ["umetnostna vzgoja", "glasba", "izobraževalni zavod", "izobraževanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0851"
+spremembe:
+  - kratica: ZGla-A
+    datum: 2006-06-09
+    sop: 2006-01-2540
+    naziv: "Zakon o spremembah zakona o glasbenih šolah"
 ---
 
 # Zakon o glasbenih šolah
