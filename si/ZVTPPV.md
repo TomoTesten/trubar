@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-11-14
     sop: 2002-01-4811
     naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu topografije polprevodniških vezij"
+  - kratica: ZVTPPV-B
+    datum: 2006-06-09
+    sop: 2006-01-2538
+    naziv: "Zakon o spremembah zakona o varstvu topografije polprevodniških vezij"
 ---
 
 # Zakon o varstvu topografije polprevodniških vezij
