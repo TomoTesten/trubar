@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi Navodila za izdelavo poročila o količnikih likvid
 vrsta: "navodilo"
 datum: 2006-06-15
 sop: 2006-01-2638
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-2638"
 ---
 

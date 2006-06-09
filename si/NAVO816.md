@@ -4,9 +4,9 @@ naziv: "Navodilo o dopolnitvi Navodila za predpisovanje in izdajanje magistralno
 vrsta: "navodilo"
 datum: 2006-07-06
 sop: 2006-01-3040
-organ: "Zavod za zdravstveno zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-3040"
 ---
 
