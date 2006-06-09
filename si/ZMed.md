@@ -7,6 +7,11 @@ sop: 2001-01-2043
 objava: "Uradni list RS 35/2001  str. 4017"
 kljucne_besede: ["mediji", "televizija", "pravica do obveščenosti", "avdiovizualni program"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2043"
+spremembe:
+  - kratica: ZMed-A
+    datum: 2006-06-09
+    sop: 2006-01-2536
+    naziv: "Zakon o spremembah in dopolnitvah zakona o medijih"
 ---
 
 # Zakon o medijih
