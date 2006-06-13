@@ -12,6 +12,10 @@ spremembe:
     datum: 2003-12-18
     sop: 2003-01-5382
     naziv: "Zakon o spremembah in dopolnitvah zakona o slovenski obveščevalno-varnostni agenciji"
+  - kratica: ZSOVA-B
+    datum: 2006-06-13
+    sop: 2006-01-2575
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Slovenski obveščevalno-varnostni agenciji"
 ---
 
 # Zakon o Slovenski obveščevalno-varnostni agenciji
