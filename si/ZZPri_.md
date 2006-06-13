@@ -7,6 +7,11 @@ sop: 2005-01-5003
 objava: "Uradni list RS 113/05  str. 12189"
 kljucne_besede: ["boj proti kriminalu", "pričanje", "sodni postopek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-5003"
+spremembe:
+  - kratica: ZZPrič-A
+    datum: 2006-06-13
+    sop: 2006-01-2576
+    naziv: "Zakon o dopolnitvi zakona o zaščiti prič"
 ---
 
 # Zakon o zaščiti prič
