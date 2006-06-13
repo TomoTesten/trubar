@@ -24,6 +24,10 @@ spremembe:
     datum: 2002-12-30
     sop: 2002-01-5833
     naziv: "Zakon o spremembah in dopolnitvah zakona o jamstvenem in preživninskem skladu Republike Slovenije"
+  - kratica: ZJSRS-E
+    datum: 2006-06-13
+    sop: 2006-01-2572
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Javnem jamstvenem in preživninskem skladu Republike Slovenije"
 ---
 
 # Zakon o Jamstvenem skladu Republike Slovenije
