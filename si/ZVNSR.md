@@ -7,6 +7,11 @@ sop: 1998-01-4411
 objava: "Uradni list RS 86/98  str. 7409"
 kljucne_besede: ["rastlinstvo", "varstvo rastlinstva"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4411"
+spremembe:
+  - kratica: ZVNSR-A
+    datum: 2006-06-13
+    sop: 2006-01-2573
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu novih sort rastlin"
 ---
 
 # Zakon o varstvu novih sort rastlin
