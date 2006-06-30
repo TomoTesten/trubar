@@ -7,6 +7,11 @@ sop: 2004-01-2235
 objava: "Uradni list RS 47/04  str. 6277"
 kljucne_besede: ["zavarovanje", "finančni trg", "finančni posel"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2235"
+spremembe:
+  - kratica: ZFZ-A
+    datum: 2006-06-30
+    sop: 2006-01-2953
+    naziv: "Zakon o spremembi in dopolnitvah zakona o finančnih zavarovanjih"
 ---
 
 # Zakon o finančnih zavarovanjih
