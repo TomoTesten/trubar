@@ -7,6 +7,11 @@ sop: 1996-01-0572
 objava: "Uradni list RS 12/96  str. 894"
 kljucne_besede: ["izobraževanje odraslih"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0572"
+spremembe:
+  - kratica: ZIO-A
+    datum: 2006-07-03
+    sop: 2006-01-2980
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izobraževanju odraslih"
 ---
 
 # Zakon o izobraževanju odraslih
