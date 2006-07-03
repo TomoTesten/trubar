@@ -20,6 +20,10 @@ spremembe:
     datum: 2006-02-17
     sop: 2006-01-0621
     naziv: "Zakon o spremembah in dopolnitvah zakona o izvršbi in zavarovanju"
+  - kratica: ZIZ-D
+    datum: 2006-07-03
+    sop: 2006-01-2979
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izvršbi in zavarovanju"
 ---
 
 # Zakon o izvršbi in zavarovanju
