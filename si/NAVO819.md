@@ -4,9 +4,9 @@ naziv: "Navodilo o obrazcih za dajanje podpore v postopku kandidiranja na lokaln
 vrsta: "navodilo"
 datum: 2006-07-20
 sop: 2006-01-3314
-organ: "Republiška volilna komisija"
-zbirka: "Drugi splošni in posamični akti"
-status: "Konzumiran ali obsoleten predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-3314"
 ---
 
