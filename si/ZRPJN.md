@@ -20,6 +20,10 @@ spremembe:
     datum: 2005-06-30
     sop: 2005-01-2662
     naziv: "Zakon o spremembah in dopolnitvah zakona o reviziji postopkov javnega naročanja"
+  - kratica: ZRPJN-D
+    datum: 2006-07-25
+    sop: 2006-01-3442
+    naziv: "Zakon o dopolnitvah zakona o reviziji postopkov javnega naročanja"
 ---
 
 # Zakon o reviziji postopkov javnega naročanja
