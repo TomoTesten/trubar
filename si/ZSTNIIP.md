@@ -7,6 +7,11 @@ sop: 2004-01-3838
 objava: "Uradni list RS 86/04  str. 10406"
 kljucne_besede: ["podjetništvo", "tuja naložba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3838"
+spremembe:
+  - kratica: ZSTNIIP-A
+    datum: 2006-07-25
+    sop: 2006-01-3403
+    naziv: "Zakon o spremembi in dopolnitvi zakona o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij"
 ---
 
 # Zakon o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij
