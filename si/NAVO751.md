@@ -4,7 +4,8 @@ naziv: "Pravilnik o pogojih in postopku za začetek, izvajanje in dokončanje te
 vrsta: "navodilo"
 datum: 2006-08-02
 sop: 2006-01-3572
-organ: "Ministrstvo za promet"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-3572"
 ---

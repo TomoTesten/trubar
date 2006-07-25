@@ -4,9 +4,9 @@ naziv: "Pravilnik o preverjanju usposobljenosti delavnic za vzdrževanje železn
 vrsta: "navodilo"
 datum: 2006-08-02
 sop: 2006-01-3571
-organ: "Ministrstvo za promet"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-3571"
 ---
 
