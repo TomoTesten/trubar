@@ -12,6 +12,10 @@ spremembe:
     datum: 1995-10-20
     sop: 1995-01-2787
     naziv: "Zakon o dopolnitvi zakona o volitvah v Državni zbor"
+  - kratica: ZVDZ-B
+    datum: 2006-07-25
+    sop: 2006-01-3401
+    naziv: "Zakon o spremembah in dopolnitvah zakona o volitvah v državni zbor"
 ---
 
 # Zakon o volitvah v državni zbor
