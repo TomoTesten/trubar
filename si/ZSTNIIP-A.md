@@ -1,0 +1,65 @@
+---
+kratica: ZSTNIIP-A
+naziv: "Zakon o spremembi in dopolnitvi zakona o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij"
+vrsta: "Sprejet zakon"
+datum: 2006-07-25
+sop: 2006-01-3403
+objava: "Uradni list RS 78/06  str. 8382"
+kljucne_besede: ["transnacionalno podjetje", "tuja naložba"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-3403"
+---
+
+# Zakon o spremembi in dopolnitvi zakona o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam
+
+
+## U K A Z
+o razglasitvi Zakona o spremembi in dopolnitvi Zakona o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij (ZSTNIIP-A)
+
+Razglašam Zakon o spremembi in dopolnitvi Zakona o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij (ZSTNIIP-A), ki ga je sprejel Državni zbor Republike Slovenije na seji 12. julija 2006.
+
+Št. 001-22-109/06
+
+Ljubljana, dne 20. julija 2006
+
+dr. Janez Drnovšek l.r.
+Predsednik
+Republike Slovenije
+
+
+## Z A K O N
+O SPREMEMBI IN DOPOLNITVI ZAKONA
+O SPODBUJANJU TUJIH NEPOSREDNIH INVESTICIJ IN INTERNACIONALIZACIJE PODJETIJ (ZSTNIIP-A)
+
+
+### 1. člen
+
+V Zakonu o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij (Uradni list RS, št. 86/04) se v 14. členu prvi odstavek spremeni tako, da se glasi:
+»(1) Na podlagi analize ekonomske upravičenosti lahko agencija ob predhodnem soglasju vlade odpre ali zapre svoje predstavništvo v tujini.«.
+Doda se nov tretji odstavek, ki se glasi:
+»(3) Organizacijo, upravljanje in način delovanja predstavništev agencije v tujini in vrste storitev, ki jih predstavništva agencije v tujini zaračunavajo, določi vlada.«.
+
+
+### PREHODNA IN KONČNA DOLOČBA
+
+
+### 2. člen
+
+Vlada izda akt iz tretjega odstavka 14. člena najkasneje v treh mesecih po uveljavitvi tega zakona.
+
+
+### 3. člen
+
+Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 310-08/04-24/2
+
+Ljubljana, dne 12. julija 2006
+
+EPA 897-IV
+
+Predsednik
+Državnega zbora
+Republike Slovenije
+France Cukjati, dr. med., l.r.
