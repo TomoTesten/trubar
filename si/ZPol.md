@@ -28,6 +28,10 @@ spremembe:
     datum: 2005-11-07
     sop: 2005-01-4297
     naziv: "Zakon o spremembah in dopolnitvah zakona o policiji"
+  - kratica: ZPol-F
+    datum: 2006-07-25
+    sop: 2006-01-3402
+    naziv: "Zakon o spremembah in dopolnitvah zakona o policiji"
 ---
 
 # Zakon o policiji
