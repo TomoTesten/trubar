@@ -16,6 +16,10 @@ spremembe:
     datum: 2004-05-06
     sop: 2004-01-2292
     naziv: "Zakon o spremembah in dopolnitvah zakona o zavarovalništvu"
+  - kratica: ZZavar-C
+    datum: 2006-07-27
+    sop: 2006-01-3453
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zavarovalništvu"
 ---
 
 # Zakon o zavarovalništvu
