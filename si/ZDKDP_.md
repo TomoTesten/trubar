@@ -7,6 +7,11 @@ sop: 2003-01-3743
 objava: "Uradni list RS 79/2003  str. 11754"
 kljucne_besede: ["dodatna dajatev", "študent/dijak", "začasno delo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3743"
+spremembe:
+  - kratica: ZDKDPŠ-A
+    datum: 2006-07-27
+    sop: 2006-01-3452
+    naziv: "Zakon o spremembah in dopolnitvah zakona o dodatni koncesijski dajatvi od prejemkov, izplačanih za občasna in začasna dela študentov in dijakov"
 ---
 
 # Zakon o dodatni koncesijski dajatvi od prejemkov, izplačanih za občasna in začasna dela študentov in dijakov
