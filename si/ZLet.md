@@ -7,6 +7,11 @@ sop: 2001-01-1062
 objava: "Uradni list RS 18/2001  str. 1729"
 kljucne_besede: ["letalski potniški promet", "zračni promet", "varnost v zračnem prometu", "letališče"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1062"
+spremembe:
+  - kratica: ZLet-A
+    datum: 2006-07-27
+    sop: 2006-01-3448
+    naziv: "Zakon o spremembah in dopolnitvah zakona o letalstvu"
 ---
 
 # Zakon o letalstvu
