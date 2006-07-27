@@ -7,6 +7,11 @@ sop: 1996-01-1826
 objava: "Uradni list RS 29/96  str. 2353"
 kljucne_besede: ["kulturna dediščina", "reja živali", "turizem"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-1826"
+spremembe:
+  - kratica: ZKL-A
+    datum: 2006-07-27
+    sop: 2006-01-3455
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o Kobilarni Lipica"
 ---
 
 # Zakon o Kobilarni Lipica
