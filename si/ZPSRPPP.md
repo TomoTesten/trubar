@@ -7,6 +7,11 @@ sop: 2003-01-3741
 objava: "Uradni list RS 79/2003  str. 11751"
 kljucne_besede: ["poroštvo", "univerza", "financiranje", "kredit"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3741"
+spremembe:
+  - kratica: ZPSRPPP-A
+    datum: 2006-07-27
+    sop: 2006-01-3451
+    naziv: "Zakon o spremembah in dopolnitvah zakona o poroštvu Republike Slovenije za obveznosti Univerze v Ljubljani, Univerze v Mariboru in Študentske organizacije Slovenije, iz naslova kreditov, najetih za sofinanciranje razširitve in posodobitve prostorskih pogojev in tehnološke opremljenosti ter izgradnjo in prenovo študentskih bivalnih zmogljivosti"
 ---
 
 # Zakon o poroštvu Republike Slovenije za obveznosti Univerze v Ljubljani, Univerze v Mariboru in Študentske organizacije Slovenije iz naslova kreditov, najetih za sofinanciranje razširitve in posodobitve prostorskih pogojev in tehnološke opremljenosti ter izgradnjo in prenovo študentskih bivalnih zmogljivosti
