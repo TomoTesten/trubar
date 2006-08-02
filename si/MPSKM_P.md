@@ -7,6 +7,11 @@ sop: 2004-02-0008
 objava: "Uradni list RS MP 2/04  str. 65"
 kljucne_besede: ["ratifikacija sporazuma", "protokol", "mednarodna konvencija", "železniški promet"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-02-0008"
+spremembe:
+  - kratica: MPSKMŽP-A
+    datum: 2006-08-02
+    sop: 2006-02-0082
+    naziv: "Zakon o dopolnitvi zakona o ratifikaciji Protokola o spremembi Konvencije o mednarodnem železniškem prometu (COTIF) z dne 9. maja 1980 (Protokol 1999)"
 ---
 
 # Zakon o ratifikaciji Protokola o spremembi Konvencije o mednarodnem železniškem prometu (COTIF) z dne 9. maja 1980 (Protokol 1999)
