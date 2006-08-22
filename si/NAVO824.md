@@ -4,9 +4,9 @@ naziv: "Navodilo za pošiljanje poročil v zvezi z zamenjavo gotovine"
 vrsta: "navodilo"
 datum: 2006-09-15
 sop: 2006-01-4149
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4149"
 ---
 
