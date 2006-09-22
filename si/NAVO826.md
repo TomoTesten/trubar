@@ -4,9 +4,9 @@ naziv: "Navodilo o registru transakcijskih računov"
 vrsta: "navodilo"
 datum: 2006-10-12
 sop: 2006-01-4511
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4511"
 ---
 

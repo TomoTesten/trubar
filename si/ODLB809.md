@@ -4,9 +4,9 @@ naziv: "Odločba o izdaji soglasja k aktu o ustanovitvi Ustanove - Zdravstvene f
 vrsta: "akt"
 datum: 2006-09-22
 sop: 2006-01-4197
-organ: "Ministrstvo za zdravje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4197"
 ---
 

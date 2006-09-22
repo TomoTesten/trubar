@@ -4,9 +4,9 @@ naziv: "Navodilo za obračun in nakazovanje dodatne koncesijske dajatve"
 vrsta: "navodilo"
 datum: 2006-10-06
 sop: 2006-01-4443
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4443"
 ---
 
