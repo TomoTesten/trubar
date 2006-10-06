@@ -12,6 +12,10 @@ spremembe:
     datum: 1997-03-28
     sop: 1997-01-0951
     naziv: "Zakon o spremembah in dopolnitvah zakona o volilni kampanji"
+  - kratica: ZVolK-B
+    datum: 2006-10-06
+    sop: 2006-01-4431
+    naziv: "Zakon o spremembi zakona o volilni kampanji"
 ---
 
 # Zakon o volilni kampanji
