@@ -7,6 +7,11 @@ sop: 2005-01-5137
 objava: "Uradni list RS 116/05  str. 13151"
 kljucne_besede: ["izvrševanje proračuna", "proračun", "državni proračun"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-5137"
+spremembe:
+  - kratica: ZIPRS0607-A
+    datum: 2006-10-06
+    sop: 2006-01-4432
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izvrševanju proračuna Republike Slovenije za leto 2006 in 2007"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2006 in 2007
