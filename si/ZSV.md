@@ -20,6 +20,10 @@ spremembe:
     datum: 2004-01-15
     sop: 2004-01-0068
     naziv: "Zakon o spremembah in dopolnitvah zakona o socialnem varstvu"
+  - kratica: ZSV-D
+    datum: 2006-10-12
+    sop: 2006-01-4490
+    naziv: "Zakon o spremembah in dopolnitvah zakona o socialnem varstvu"
 ---
 
 # Zakon o socialnem varstvu
