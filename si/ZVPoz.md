@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-11-08
     sop: 2001-01-4447
     naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu pred požarom"
+  - kratica: ZVPoz-B
+    datum: 2006-10-12
+    sop: 2006-01-4491
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu pred požarom"
 ---
 
 # Zakon o varstvu pred požarom
