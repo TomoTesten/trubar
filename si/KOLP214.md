@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba dejavnosti trgovine Slovenije"
 vrsta: "akt"
 datum: 2006-10-27
 sop: 2006-01-4697
-organ: "Zveza svobodnih sindikatov Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4697"
 ---
 

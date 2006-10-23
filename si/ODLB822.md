@@ -4,9 +4,9 @@ naziv: "Odločba o napredovanju Tatjane Kozel na mesto višje državne tožilke 
 vrsta: "akt"
 datum: 2006-11-03
 sop: 2006-01-4781
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4781"
 ---
 

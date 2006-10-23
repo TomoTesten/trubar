@@ -4,9 +4,9 @@ naziv: "Avtentična razlaga prvega odstavka 40. člena Zakona o gozdovih (ORZG40
 vrsta: "akt"
 datum: 2006-11-10
 sop: 2006-01-4911
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4911"
 ---
 

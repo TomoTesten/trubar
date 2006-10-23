@@ -4,9 +4,9 @@ naziv: "Resolucija o nacionalnem programu za kemijsko varnost z akcijskimi načr
 vrsta: "akt"
 datum: 2006-11-20
 sop: 2006-01-5081
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5081"
 ---
 
