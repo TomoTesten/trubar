@@ -7,6 +7,11 @@ sop: 1999-01-1034
 objava: "Uradni list RS 23/99  str. 2505"
 kljucne_besede: ["vrednostni papirji"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1034"
+spremembe:
+  - kratica: ZNVP-A
+    datum: 2006-11-09
+    sop: 2006-01-4836
+    naziv: "Zakon o spremembah in dopolnitvah zakona o nematerializiranih vrednostnih papirjih"
 ---
 
 # Zakon o nematerializiranih vrednostnih papirjih
