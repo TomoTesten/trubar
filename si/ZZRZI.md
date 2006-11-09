@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-07-29
     sop: 2005-01-3212
     naziv: "Zakon o spremembah in dopolnitvah zakona o zaposlitveni rehabilitaciji in zaposlovanju invalidov"
+  - kratica: ZZRZI-B
+    datum: 2006-11-09
+    sop: 2006-01-4834
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zaposlitveni rehabilitaciji in zaposlovanju invalidov"
 ---
 
 # Zakon o zaposlitveni rehabilitaciji in zaposlovanju invalidov
