@@ -24,6 +24,10 @@ spremembe:
     datum: 2005-11-07
     sop: 2005-01-4292
     naziv: "Zakon o spremembah in dopolnitvah zakona o notariatu"
+  - kratica: ZN-E
+    datum: 2006-11-10
+    sop: 2006-01-4905
+    naziv: "Zakon o spremembah in dopolnitvah zakona o notariatu"
 ---
 
 # Zakon o notariatu
