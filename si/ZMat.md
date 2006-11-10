@@ -7,6 +7,11 @@ sop: 2003-01-0592
 objava: "Uradni list RS 15/2003  str. 2113"
 kljucne_besede: ["izpit", "srednješolsko izobraževanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0592"
+spremembe:
+  - kratica: ZMat-A
+    datum: 2006-11-10
+    sop: 2006-01-4910
+    naziv: "Zakon o spremembah in dopolnitvah zakona o maturi"
 ---
 
 # Zakon o maturi
