@@ -7,6 +7,11 @@ sop: 2004-01-1664
 objava: "Uradni list RS 40/04  str. 4709"
 kljucne_besede: ["podjetništvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1664"
+spremembe:
+  - kratica: ZPOP-A
+    datum: 2006-11-10
+    sop: 2006-01-4908
+    naziv: "Zakon o spremembah in dopolnitvah zakona o podpornem okolju za podjetništvo"
 ---
 
 # Zakon o podpornem okolju za podjetništvo
