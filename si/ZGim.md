@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-07-19
     sop: 2001-01-3148
     naziv: "Zakon o spremembah in dopolnitvah zakona o gimnazijah"
+  - kratica: ZGim-B
+    datum: 2006-11-10
+    sop: 2006-01-4909
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gimnazijah"
 ---
 
 # Zakon o gimnazijah
