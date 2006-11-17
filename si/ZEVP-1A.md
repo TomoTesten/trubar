@@ -1,0 +1,63 @@
+---
+kratica: ZEVP-1A
+naziv: "Zakon o dopolnitvah zakona o evidenci volilne pravice"
+vrsta: "Sprejet zakon"
+datum: 2006-11-17
+sop: 2006-01-5021
+objava: "Uradni list RS 118/06  str. 12412"
+kljucne_besede: ["vpis v volilni imenik", "aktivna volilna pravica", "pasivna volilna pravica", "volilni imenik"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5021"
+---
+
+# Zakon o dopolnitvah zakona o evidenci volilne pravice
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam
+
+
+## U K A Z
+o razglasitvi Zakona o dopolnitvah Zakona o evidenci volilne pravice (ZEVP-1A)
+
+Razglašam Zakon o dopolnitvah Zakona o evidenci volilne pravice (ZEVP-1A), ki ga je sprejel Državni zbor Republike Slovenije na seji 2. novembra 2006.
+
+Št.  001-22-167/06
+
+Ljubljana, 10. novembra 2006
+
+dr. Janez Drnovšek l.r.
+Predsednik
+Republike Slovenije
+
+
+## Z A K O N
+O DOPOLNITVAH ZAKONA O EVIDENCI VOLILNE PRAVICE (ZEVP-1A)
+
+
+### 1. člen
+
+V Zakonu o evidenci volilne pravice (Uradni list RS, št. 52/02) se v 10. členu dodata deveti in deseti odstavek, ki se glasita:
+»Ne glede na določbo prvega odstavka tega člena pristojni organ v evidenco volilne pravice državljanov RS, ki nimajo stalnega prebivališča v Republiki Sloveniji, vpiše državljana RS, ki nima stalnega prebivališča v Republiki Sloveniji, po uradni dolžnosti, če razpolaga s podatki iz tretjega odstavka tega člena.
+Podatke iz tretjega odstavka tega člena pristojni organ pridobi iz uradnih evidenc, ki jih vodi, pri pristojnem diplomatsko-konzularnem predstavništvu Republike Slovenije v tujini in tudi od državljanov RS, ki nimajo stalnega prebivališča v Republiki Sloveniji.«.
+
+
+### PREHODNA IN KONČNA DOLOČBA
+
+
+### 2. člen
+
+Pristojni organ vzpostavi evidenco volilne pravice državljanov RS, ki nimajo stalnega prebivališča v Republiki Sloveniji, po uradni dolžnosti iz 1. člena tega zakona v šestih mesecih po uveljavitvi tega zakona.
+
+
+### 3. člen
+
+Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št.  213-12/89-1/19
+
+Ljubljana, dne 2. novembra 2006
+
+EPA 1003-IV
+
+Predsednik
+Državnega zbora
+Republike Slovenije
+France Cukjati, dr. med., l.r.
