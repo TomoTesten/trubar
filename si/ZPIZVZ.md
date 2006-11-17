@@ -7,6 +7,11 @@ sop: 1998-01-2142
 objava: "Uradni list RS 49/98  str. 3480"
 kljucne_besede: ["sistem pokojninskega zavarovanja", "invalidsko zavarovanje", "vojaško osebje", "socialna varnost", "upokojenec"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2142"
+spremembe:
+  - kratica: ZPIZVZ-A
+    datum: 2006-11-17
+    sop: 2006-01-5022
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pravicah iz pokojninskega in invalidskega zavarovanja bivših vojaških zavarovancev"
 ---
 
 # Zakon o pravicah iz pokojninskega in invalidskega zavarovanja bivših vojaških zavarovancev
