@@ -20,6 +20,10 @@ spremembe:
     datum: 2006-01-24
     sop: 2006-01-0267
     naziv: "Zakon o spremembah zakona o trgovini"
+  - kratica: ZT-D
+    datum: 2006-11-17
+    sop: 2006-01-5025
+    naziv: "Zakon o spremembah zakona o trgovini"
 ---
 
 # Zakon o trgovini
