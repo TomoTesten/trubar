@@ -7,6 +7,11 @@ sop: 2000-01-1687
 objava: "Uradni list RS 36/2000  str. 4189"
 kljucne_besede: ["delo na črno", "siva ekonomija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1687"
+spremembe:
+  - kratica: ZPDZC-A
+    datum: 2006-11-17
+    sop: 2006-01-5026
+    naziv: "Zakon o spremembah in dopolnitvah zakona o preprečevanju dela in zaposlovanja na črno"
 ---
 
 # Zakon o preprečevanju dela in zaposlovanja na črno
