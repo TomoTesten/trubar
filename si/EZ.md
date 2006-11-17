@@ -12,6 +12,10 @@ spremembe:
     datum: 2004-05-07
     sop: 2004-01-2307
     naziv: "Zakon o spremembah in dopolnitvah energetskega zakona"
+  - kratica: EZ-B
+    datum: 2006-11-17
+    sop: 2006-01-5019
+    naziv: "Zakon o spremembah in dopolnitvah Energetskega zakona"
 ---
 
 # Energetski zakon
