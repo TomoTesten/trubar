@@ -12,6 +12,10 @@ spremembe:
     datum: 2003-06-09
     sop: 2003-01-2755
     naziv: "Zakon o spremembi zakona o nacionalnih poklicnih kvalifikacijah"
+  - kratica: ZNPK-B
+    datum: 2006-11-17
+    sop: 2006-01-5023
+    naziv: "Zakon o spremembah in dopolnitvah zakona o nacionalnih poklicnih kvalifikacijah"
 ---
 
 # Zakon o nacionalnih poklicnih kvalifikacijah
