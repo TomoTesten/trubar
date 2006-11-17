@@ -7,6 +7,11 @@ sop: 2000-01-2496
 objava: "Uradni list RS 54/2000  str. 7105"
 kljucne_besede: ["socialno skrbstvo", "skrb za osebe s posebnimi potrebami", "varstvo otrok", "otrokove pravice"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2496"
+spremembe:
+  - kratica: ZUOPP-A
+    datum: 2006-11-17
+    sop: 2006-01-5024
+    naziv: "Zakon o spremembah in dopolnitvah zakona o usmerjanju otrok s posebnimi potrebami"
 ---
 
 # Zakon o usmerjanju otrok s posebnimi potrebami
