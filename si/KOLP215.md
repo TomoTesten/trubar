@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za tekstilne, oblačilne, usnjarske in usnjarsko-pred
 vrsta: "akt"
 datum: 2006-12-07
 sop: 2006-01-5383
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5383"
 ---
 

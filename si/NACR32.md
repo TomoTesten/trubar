@@ -1,11 +1,12 @@
 ---
 kratica: NACR32
 naziv: "Zakon o ratifikaciji Sporazuma o razvojnem sodelovanju med Vlado Republike Slovenije in Svetom ministrov Bosne in Hercegovine (BBHRS)"
-vrsta: "nacr"
+vrsta: "akt"
 datum: 2006-12-12
 sop: 2006-02-0133
-organ: "Državni zbor RS"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-02-0133"
 ---
 

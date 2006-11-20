@@ -4,9 +4,9 @@ naziv: "Sistemska obratovalna navodila za distribucijsko omrežje zemeljskega pl
 vrsta: "navodilo"
 datum: 2006-12-15
 sop: 2006-01-5525
-organ: "JEKO-IN, javno komunalno podjetje, d.o.o."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5525"
 ---
 

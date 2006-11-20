@@ -4,9 +4,9 @@ naziv: "Tarifa o vrednosti točke za leto 2007 za plačilo na podlagi obvestila,
 vrsta: "akt"
 datum: 2006-12-15
 sop: 2006-01-5523
-organ: "Agencija za pošto in elektronske komunikacije Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5523"
 ---
 

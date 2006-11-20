@@ -4,9 +4,9 @@ naziv: "Odločba o prenehanju Sklada dela SVILA, Ustanove za izvajanje aktivne p
 vrsta: "akt"
 datum: 2006-12-07
 sop: 2006-01-5378
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5378"
 ---
 
