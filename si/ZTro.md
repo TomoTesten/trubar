@@ -28,6 +28,10 @@ spremembe:
     datum: 2004-04-23
     sop: 2004-01-1855
     naziv: "Zakon o spremembah in dopolnitvah zakona o trošarinah"
+  - kratica: ZTro-F
+    datum: 2006-11-28
+    sop: 2006-01-5239
+    naziv: "Zakon o spremembah in dopolnitvah zakona o trošarinah"
 ---
 
 # Zakon o trošarinah
