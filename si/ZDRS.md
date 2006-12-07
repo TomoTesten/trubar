@@ -20,6 +20,14 @@ spremembe:
     datum: 1994-03-10
     sop: 1994-01-0516
     naziv: "Zakon o spremembah in dopolnitvah zakona o državljanstvu Republike Slovenije"
+  - kratica: ZDRS-A
+    datum: 1991-12-14
+    sop: 1991-01-1238
+    naziv: "Zakon o dopolnitvi zakona o državljanstvu Republike Slovenije"
+  - kratica: ZDRS-D
+    datum: 2006-12-07
+    sop: 2006-01-5355
+    naziv: "Zakon o spremembah in dopolnitvah zakona o državljanstvu Republike Slovenije"
 ---
 
 # Zakon o državljanstvu Republike Slovenije
