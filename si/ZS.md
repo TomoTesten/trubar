@@ -28,6 +28,10 @@ spremembe:
     datum: 2005-07-29
     sop: 2005-01-3213
     naziv: "Zakon o spremembah in dopolnitvah zakona o sodiščih"
+  - kratica: ZS-F
+    datum: 2006-12-07
+    sop: 2006-01-5354
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodiščih"
 ---
 
 # Zakon o sodiščih
