@@ -32,6 +32,10 @@ spremembe:
     datum: 2006-02-17
     sop: 2006-01-0625
     naziv: "Zakon o spremembah in dopolnitvah zakona o sodniški službi"
+  - kratica: ZSS-G
+    datum: 2006-12-07
+    sop: 2006-01-5353
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodniški službi"
 ---
 
 # Zakon o sodniški službi
