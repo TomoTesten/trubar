@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-03-14
     sop: 2001-01-1063
     naziv: "Zakon o dopolnitvi zakona o zagotavljanju socialne varnosti slovenskim državljanom, ki so upravičeni do pokojnin iz republik nekdanje SFRJ"
+  - kratica: ZZSV-B
+    datum: 2006-12-12
+    sop: 2006-01-5431
+    naziv: "Zakon o dopolnitvi zakona o zagotavljanju socialne varnosti slovenskim državljanom, ki so upravičeni do pokojnin iz republik nekdanje SFRJ"
 ---
 
 # Zakon o zagotavljanju socialne varnosti slovenskim državljanom, ki so upravičeni do pokojnin iz republik nekdanje SFRJ
