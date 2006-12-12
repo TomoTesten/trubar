@@ -28,6 +28,10 @@ spremembe:
     datum: 2005-07-08
     sop: 2005-01-2838
     naziv: "Zakon o spremembah in dopolnitvah zakona o organizaciji in financiranju vzgoje in izobraževanja"
+  - kratica: ZOFVI-F
+    datum: 2006-12-12
+    sop: 2006-01-5432
+    naziv: "Zakon o spremembah in dopolnitvah zakona o organizaciji in financiranju vzgoje in izobraževanja"
 ---
 
 # Zakon o organizaciji in financiranju vzgoje in izobraževanja
