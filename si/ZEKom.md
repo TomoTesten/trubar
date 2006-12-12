@@ -7,6 +7,11 @@ sop: 2004-01-1925
 objava: "Uradni list RS 43/04  str. 5217"
 kljucne_besede: ["elektronsko poslovanje", "telekomunikacije"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1925"
+spremembe:
+  - kratica: ZEKom-A
+    datum: 2006-12-12
+    sop: 2006-01-5430
+    naziv: "Zakon o spremembah in dopolnitvah zakona o elektronskih komunikacijah"
 ---
 
 # Zakon o elektronskih komunikacijah
