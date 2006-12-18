@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k spremembi ustanovitvenega akta ustanove Fundacija 
 vrsta: "akt"
 datum: 2006-12-22
 sop: 2006-01-5697
-organ: "Ministrstvo za visoko šolstvo, znanost in tehnologijo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5697"
 ---
 

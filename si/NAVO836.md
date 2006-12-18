@@ -4,8 +4,9 @@ naziv: "Navodilo o dopolnitvah Navodila za pripravo poročila o izvajanju dopoln
 vrsta: "navodilo"
 datum: 2006-12-27
 sop: 2006-01-5888
-organ: "Ministrstvo za zdravje"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5888"
 ---
 

@@ -2,11 +2,11 @@
 kratica: ODRE218
 naziv: "Odredba o enostavnih tlačnih posodah"
 vrsta: "odredba"
-datum: 2002-02-11
+datum: 2006-12-28
 sop: 2002-01-0466
-organ: "Ministrstvo za gospodarstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0466"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah Navodila za izvajanje Sklepa o ocen
 vrsta: "navodilo"
 datum: 2006-12-27
 sop: 2006-01-5751
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5751"
 ---
 
