@@ -20,6 +20,10 @@ spremembe:
     datum: 2006-02-17
     sop: 2006-01-0622
     naziv: "Zakon o spremembah in dopolnitvah zakona o avtorski in sorodnih pravicah"
+  - kratica: ZASP-D
+    datum: 2006-12-29
+    sop: 2006-01-6042
+    naziv: "Zakon o spremembah in dopolnitvah zakona o avtorski in sorodnih pravicah"
 ---
 
 # Zakon o avtorski in sorodnih pravicah
