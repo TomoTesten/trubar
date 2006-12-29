@@ -20,6 +20,10 @@ spremembe:
     datum: 2004-07-29
     sop: 2004-01-3691
     naziv: "Zakon o spremembah in dopolnitvah zakona o referendumu in o ljudski iniciativi"
+  - kratica: ZRLI-D
+    datum: 2006-12-29
+    sop: 2006-01-6044
+    naziv: "Zakon o spremembah in dopolnitvah zakona o referendumu in o ljudski iniciativi"
 ---
 
 # Zakon o referendumu in o ljudski iniciativi
