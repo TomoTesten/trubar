@@ -7,6 +7,11 @@ sop: 2006-01-1556
 objava: "Uradni list RS 38/06  str. 3953"
 kljucne_besede: ["azbest", "nevarna snov"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1556"
+spremembe:
+  - kratica: ZOPDA-A
+    datum: 2006-12-29
+    sop: 2006-01-6041
+    naziv: "Zakon o spremembah in dopolnitvah zakona o odpravljanju posledic dela z azbestom"
 ---
 
 # Zakon o odpravljanju posledic dela z azbestom
