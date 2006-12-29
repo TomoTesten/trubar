@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-11-14
     sop: 2002-01-4800
     naziv: "Zakon o spremembah in dopolnitvah zakona o pravicah industrijske lastnine iz delovnega razmerja"
+  - kratica: ZPILDR-B
+    datum: 2006-12-29
+    sop: 2006-01-6043
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pravicah industrijske lastnine iz delovnega razmerja"
 ---
 
 # Zakon o pravicah industrijske lastnine iz delovnega razmerja
