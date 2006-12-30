@@ -4,9 +4,9 @@ naziv: "Metodološko navodilo za predložitev letnih poročil društev"
 vrsta: "navodilo"
 datum: 2007-01-16
 sop: 2007-01-0156
-organ: "Agencija Republike Slovenije za javnopravne evidence in storitve"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-0156"
 ---
 
