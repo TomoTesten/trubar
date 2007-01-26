@@ -4,9 +4,9 @@ naziv: "Navodilo o rokih, obliki in načinu posredovanja podatkov ter o načinu 
 vrsta: "navodilo"
 datum: 2007-02-20
 sop: 2007-01-0692
-organ: "Kapitalski sklad pokojninskega in invalidskega zavarovanja"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-0692"
 ---
 
