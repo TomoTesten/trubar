@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-12-04
     sop: 2001-01-4795
     naziv: "Zakon o spremembah in dopolnitvah zakona o ekonomskih conah"
+  - kratica: ZEC-B
+    datum: 2007-02-12
+    sop: 2007-01-0565
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ekonomskih conah"
 ---
 
 # Zakon o ekonomskih conah
