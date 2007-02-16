@@ -12,6 +12,10 @@ spremembe:
     datum: 2003-12-18
     sop: 2003-01-5388
     naziv: "Zakon o spremembah in dopolnitvah zakona o zaščiti živali"
+  - kratica: ZZZiv-B
+    datum: 2007-02-16
+    sop: 2007-01-0606
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zaščiti živali"
 ---
 
 # Zakon o zaščiti živali
