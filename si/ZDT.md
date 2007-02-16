@@ -20,6 +20,10 @@ spremembe:
     datum: 2006-02-17
     sop: 2006-01-0624
     naziv: "Zakon o spremembah in dopolnitvah zakona o državnem tožilstvu"
+  - kratica: ZDT-D
+    datum: 2007-02-16
+    sop: 2007-01-0602
+    naziv: "Zakon o spremembah in dopolnitvah zakona o državnem tožilstvu"
 ---
 
 # Zakon o državnem tožilstvu
