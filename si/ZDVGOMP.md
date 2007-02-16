@@ -7,6 +7,11 @@ sop: 2001-01-5495
 objava: "Uradni list RS 111/2001  str. 13095"
 kljucne_besede: ["zunanja meja Evropske unije", "nepremičnine", "zgradba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5495"
+spremembe:
+  - kratica: ZDVGOMP-A
+    datum: 2007-02-16
+    sop: 2007-01-0604
+    naziv: "Zakon o spremembah in dopolnitvah zakona o ureditvi določenih vprašanj v zvezi z graditvijo objektov na mejnih prehodih"
 ---
 
 # Zakon o ureditvi določenih vprašanj v zvezi z graditvijo objektov na mejnih prehodih
