@@ -12,6 +12,10 @@ spremembe:
     datum: 2004-04-15
     sop: 2004-01-1598
     naziv: "Zakon o spremembah in dopolnitvah zakona o fitofarmacevtskih sredstvih"
+  - kratica: ZFfS-B
+    datum: 2007-02-16
+    sop: 2007-01-0605
+    naziv: "Zakon o spremembah in dopolnitvah zakona o fitofarmacevtskih sredstvih"
 ---
 
 # Zakon o fitofarmacevtskih sredstvih
