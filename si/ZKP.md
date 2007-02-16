@@ -36,6 +36,10 @@ spremembe:
     datum: 2005-11-11
     sop: 2005-01-4401
     naziv: "Zakon o spremembah in dopolnitvah zakona o kazenskem postopku"
+  - kratica: ZKP-H
+    datum: 2007-02-16
+    sop: 2007-01-0601
+    naziv: "Zakon o spremembi in dopolnitvi zakona o kazenskem postopku"
 ---
 
 # Zakon o kazenskem postopku
