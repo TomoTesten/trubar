@@ -28,6 +28,10 @@ spremembe:
     datum: 2004-08-05
     sop: 2004-01-3846
     naziv: "Zakon o spremembi zakona o spremembah in dopolnitvah zakona o železniškem prometu"
+  - kratica: ZZelP-F
+    datum: 2007-02-20
+    sop: 2007-01-0680
+    naziv: "Zakon o spremembah in dopolnitvah zakona o železniškem prometu"
 ---
 
 # Zakon o železniškem prometu
