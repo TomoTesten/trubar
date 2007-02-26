@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Vesne Rebernik Jamnik za okrožno državno tožilk
 vrsta: "akt"
 datum: 2007-03-12
 sop: 2007-01-1076
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-1076"
 ---
 

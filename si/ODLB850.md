@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Irene Škerbec za državno pravobranilko na Držav
 vrsta: "akt"
 datum: 2007-02-26
 sop: 2007-01-0798
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-0798"
 ---
 

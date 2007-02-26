@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju mag. Jurija Groznika za državnega pravobranilca n
 vrsta: "akt"
 datum: 2007-03-12
 sop: 2007-01-1075
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-1075"
 ---
 
