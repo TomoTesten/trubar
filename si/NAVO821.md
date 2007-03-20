@@ -4,9 +4,9 @@ naziv: "Pravilnik o zavrnitvi vstopa v Republiko Slovenijo državljanu tretje dr
 vrsta: "navodilo"
 datum: 2007-03-30
 sop: 2007-01-1439
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-1439"
 ---
 

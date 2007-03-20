@@ -4,9 +4,9 @@ naziv: "Navodilo o vsebini podatkov o strukturi plač zaposlenih oseb pri poslov
 vrsta: "navodilo"
 datum: 2007-03-23
 sop: 2007-01-1348
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-1348"
 ---
 

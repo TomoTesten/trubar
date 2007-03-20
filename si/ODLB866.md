@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k aktu o ustanovitvi Ustanove - Fundacije Tomaž Hum
 vrsta: "akt"
 datum: 2007-03-23
 sop: 2007-01-1292
-organ: "Ministrstvo za zdravje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-1292"
 ---
 

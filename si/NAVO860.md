@@ -4,8 +4,8 @@ naziv: "Sistemska obratovalna navodila za distribucijsko omrežje zemeljskega pl
 vrsta: "navodilo"
 datum: 2007-04-03
 sop: 2007-01-1522
-organ: "Komunalno podjetje Vrhnika, d.o.o., Vrhnika"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-1522"
 ---

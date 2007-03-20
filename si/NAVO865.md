@@ -4,9 +4,9 @@ naziv: "Navodilo o izračunu postavke \"Presežek iz prevrednotenja v zvezi s sr
 vrsta: "navodilo"
 datum: 2007-03-22
 sop: 2007-01-1257
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-1257"
 ---
 
