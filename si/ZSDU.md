@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-07-06
     sop: 2001-01-2956
     naziv: "Zakon o spremembah in dopolnitvah zakona o sodelovanju delavcev pri upravljanju"
+  - kratica: ZSDU-B
+    datum: 2007-03-23
+    sop: 2007-01-1283
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodelovanju delavcev pri upravljanju"
 ---
 
 # Zakon o sodelovanju delavcev pri upravljanju
