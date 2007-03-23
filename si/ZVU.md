@@ -7,6 +7,11 @@ sop: 2000-01-2065
 objava: "Uradni list RS 44/2000  str. 5934"
 kljucne_besede: ["kopalne vode", "upravljanje voda", "spremljanje stanja okolja", "javno zdravje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2065"
+spremembe:
+  - kratica: ZVU-A
+    datum: 2007-03-23
+    sop: 2007-01-1282
+    naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu pred utopitvami"
 ---
 
 # Zakon o varstvu pred utopitvami
