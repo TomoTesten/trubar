@@ -7,6 +7,11 @@ sop: 2002-01-2758
 objava: "Uradni list RS 56/2002  str. 5845"
 kljucne_besede: ["inšpektorat za delo", "poročilo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2758"
+spremembe:
+  - kratica: ZIN-A
+    datum: 2007-03-23
+    sop: 2007-01-1281
+    naziv: "Zakon o spremembah in dopolnitvah zakona o inšpekcijskem nadzoru"
 ---
 
 # Zakon o inšpekcijskem nadzoru
