@@ -12,6 +12,10 @@ spremembe:
     datum: 1999-12-30
     sop: 1999-01-5162
     naziv: "Zakon o spremembah in dopolnitvah zakona o finančnem poslovanju podjetij"
+  - kratica: ZFPPod-B
+    datum: 2007-04-06
+    sop: 2007-01-1562
+    naziv: "Zakon o spremembah zakona o finančnem poslovanju podjetij"
 ---
 
 # Zakon o finančnem poslovanju podjetij
