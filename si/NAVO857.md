@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi Navodila o statističnih raziskovanjih s področja 
 vrsta: "navodilo"
 datum: 2007-05-07
 sop: 2007-01-2183
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2183"
 ---
 

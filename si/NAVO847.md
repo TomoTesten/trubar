@@ -4,9 +4,9 @@ naziv: "Sistemska obratovalna navodila za distribucijsko omrežje zemeljskega pl
 vrsta: "navodilo"
 datum: 2007-05-04
 sop: 2007-01-2129
-organ: "Petrol Plin, d.o.o., Ljubljana"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2129"
 ---
 

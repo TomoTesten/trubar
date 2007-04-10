@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Miše Markovič za državno pravobranilko na Drža
 vrsta: "akt"
 datum: 2007-05-07
 sop: 2007-01-2176
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2176"
 ---
 

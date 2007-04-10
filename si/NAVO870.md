@@ -4,9 +4,9 @@ naziv: "Navodilo o dopolnitvi Navodila o vsebini podatkov o strukturi plač zapo
 vrsta: "navodilo"
 datum: 2007-04-17
 sop: 2007-01-1856
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-1856"
 ---
 
