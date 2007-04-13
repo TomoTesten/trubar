@@ -16,6 +16,10 @@ spremembe:
     datum: 2005-12-16
     sop: 2005-01-5004
     naziv: "Zakon o spremembah in dopolnitvah zakona o javnih uslužbencih"
+  - kratica: ZJU-C
+    datum: 2007-04-13
+    sop: 2007-01-1764
+    naziv: "Zakon o spremembah in dopolnitvah zakona o javnih uslužbencih"
 ---
 
 # Zakon o javnih uslužbencih
