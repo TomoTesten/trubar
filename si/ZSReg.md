@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-10-14
     sop: 2005-01-3886
     naziv: "Zakon o spremembah in dopolnitvah zakona o sodnem registru"
+  - kratica: ZSReg-B
+    datum: 2007-04-13
+    sop: 2007-01-1763
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodnem registru"
 ---
 
 # Zakon o sodnem registru
