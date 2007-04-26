@@ -1,0 +1,41 @@
+---
+kratica: UKAZ534
+naziv: "Ukaz o podelitvi odlikovanja Republike Slovenije"
+vrsta: "akt"
+datum: 2007-04-26
+sop: 2007-01-2037
+organ: "Predsednik Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2037"
+---
+
+# Ukaz o podelitvi odlikovanja Republike Slovenije
+
+Na podlagi sedme alinee prvega odstavka 107. člena Ustave Republike Slovenije ter 2. točke 7. člena in 10. člena Zakona o odlikovanjih Republike Slovenije – ZOdl-UPB1 (Uradni list RS, št. 69/04) izdajam
+
+
+## U K A Z
+o podelitvi odlikovanja Republike Slovenije
+
+Za izjemno požrtvovalno dejanje pri reševanju slovenskega alpinista Tomaža Humarja iz stene himalajskega osemtisočaka Nanga Parbata podeljujem
+
+
+### Zlati red za zasluge
+
+
+### podpolkovniku Rashidu Ullahu Begu
+
+
+### in
+
+
+### podpolkovniku Khalidu Amirju Rani.
+
+Št. 996-01-4/2007
+
+Ljubljana, dne 24. aprila 2007
+
+dr. Janez Drnovšek l.r.
+Predsednik
+Republike Slovenije
