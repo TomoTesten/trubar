@@ -12,6 +12,10 @@ spremembe:
     datum: 2004-04-15
     sop: 2004-01-1599
     naziv: "Zakon o spremembah in dopolnitvah zakona o preprečevanju omejevanja konkurence"
+  - kratica: ZPOmK-B
+    datum: 2007-05-07
+    sop: 2007-01-2170
+    naziv: "Zakon o spremembah in dopolnitvah zakona o preprečevanju omejevanja konkurence"
 ---
 
 # Zakon o preprečevanju omejevanja konkurence
