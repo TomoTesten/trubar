@@ -7,6 +7,11 @@ sop: 2001-01-4287
 objava: "Uradni list RS 83/2001  str. 8345"
 kljucne_besede: ["obligacijsko pravo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4287"
+spremembe:
+  - kratica: OZ-A
+    datum: 2007-05-07
+    sop: 2007-01-2169
+    naziv: "Zakon o spremembi in dopolnitvi Obligacijskega zakonika"
 ---
 
 # Obligacijski zakonik
