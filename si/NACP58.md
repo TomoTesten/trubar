@@ -4,9 +4,9 @@ naziv: "Resolucija o nacionalnem programu preprečevanja in zatiranja kriminalit
 vrsta: "akt"
 datum: 2007-05-07
 sop: 2007-01-2174
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2174"
 ---
 

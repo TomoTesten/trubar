@@ -4,8 +4,8 @@ naziv: "Sistemska obratovalna navodila za distribucijsko omrežje za oskrbo s to
 vrsta: "navodilo"
 datum: 2007-05-29
 sop: 2007-01-2521
-organ: "Petrol d.d., Ljubljana"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2521"
 ---

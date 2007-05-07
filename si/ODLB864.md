@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Dragice Abrahamsberg za okrožno državno tožilko
 vrsta: "akt"
 datum: 2007-05-18
 sop: 2007-01-2357
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2357"
 ---
 

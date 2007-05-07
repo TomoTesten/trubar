@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k Aktu o ustanovitvi ustanove \"Ustanova-Fundacija D
 vrsta: "akt"
 datum: 2007-05-25
 sop: 2007-01-2472
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2472"
 ---
 
