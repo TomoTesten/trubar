@@ -12,6 +12,10 @@ spremembe:
     datum: 1993-02-04
     sop: 1993-01-0291
     naziv: "Zakon o spremembah in dopolnitvah zakona o zadrugah"
+  - kratica: ZZad-B
+    datum: 2007-05-11
+    sop: 2007-01-2222
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zadrugah"
 ---
 
 # Zakon o zadrugah
