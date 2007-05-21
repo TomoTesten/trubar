@@ -7,6 +7,11 @@ sop: 2000-02-0084
 objava: "Uradni list RS MP 17/2000  str. 777"
 kljucne_besede: ["ratifikacija sporazuma", "evropska listina", "manjšinski jezik", "regionalni jezik", "Svet Evrope"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-02-0084"
+spremembe:
+  - kratica: MELRJ-A
+    datum: 2007-05-21
+    sop: 2007-02-0055
+    naziv: "Zakon o spremembi zakona o ratifikaciji Evropske listine o regionalnih ali manjšinskih jezikih"
 ---
 
 # Zakon o ratifikaciji Evropske listine o regionalnih ali manjšinskih jezikih
