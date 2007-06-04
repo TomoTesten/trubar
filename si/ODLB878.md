@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Damjane Draksler Zupanc na mesto pomočnice držav
 vrsta: "akt"
 datum: 2007-06-22
 sop: 2007-01-2926
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2926"
 ---
 

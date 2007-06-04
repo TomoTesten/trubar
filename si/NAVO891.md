@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah Navodila za izvajanje Sklepa o minimalnih zahtevah
 vrsta: "navodilo"
 datum: 2007-06-22
 sop: 2007-01-2941
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2941"
 ---
 

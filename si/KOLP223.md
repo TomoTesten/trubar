@@ -4,9 +4,9 @@ naziv: "Aneks h kolektivni pogodbi za kmetijstvo in živilsko industrijo Sloveni
 vrsta: "akt"
 datum: 2007-06-04
 sop: 2007-01-2639
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2639"
 ---
 

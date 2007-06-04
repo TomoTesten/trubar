@@ -4,9 +4,9 @@ naziv: "Sistemska obratovalna navodila za prenosno omrežje električne energije
 vrsta: "navodilo"
 datum: 2007-06-04
 sop: 2007-01-2638
-organ: "Elektro-Slovenija, d.o.o."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2638"
 ---
 

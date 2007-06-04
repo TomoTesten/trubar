@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Katje Toth za pomočnico državnega pravobranilca 
 vrsta: "akt"
 datum: 2007-06-06
 sop: 2007-01-2692
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2692"
 ---
 
