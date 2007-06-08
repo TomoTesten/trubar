@@ -7,6 +7,11 @@ sop: 1994-01-0562
 objava: "Uradni list RS 15/94  str. 820"
 kljucne_besede: ["ustavno sodišče"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0562"
+spremembe:
+  - kratica: ZUstS-A
+    datum: 2007-06-08
+    sop: 2007-01-2719
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Ustavnem sodišču"
 ---
 
 # Zakon o ustavnem sodišču
