@@ -7,6 +7,11 @@ sop: 2002-01-4154
 objava: "Uradni list RS 85/2002  str. 9345"
 kljucne_besede: ["prehrana", "študent/dijak"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4154"
+spremembe:
+  - kratica: ZSŠP-A
+    datum: 2007-06-12
+    sop: 2007-01-2781
+    naziv: "Zakon o spremembah in dopolnitvah zakona o subvencioniranju študentske prehrane"
 ---
 
 # Zakon o subvencioniranju študentske prehrane
