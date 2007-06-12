@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-11-11
     sop: 2005-01-4398
     naziv: "Zakon o spremembah in dopolnitvah zakona o zaposlovanju in delu tujcev"
+  - kratica: ZZDT-B
+    datum: 2007-06-12
+    sop: 2007-01-2779
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zaposlovanju in delu tujcev"
 ---
 
 # Zakon o zaposlovanju in delu tujcev
