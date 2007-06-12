@@ -16,6 +16,10 @@ spremembe:
     datum: 2004-01-15
     sop: 2004-01-0069
     naziv: "Zakon o spremembah in dopolnitvah zakona o pravdnem postopku"
+  - kratica: ZPP-C
+    datum: 2007-06-12
+    sop: 2007-01-2778
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pravdnem postopku"
 ---
 
 # Zakon o pravdnem postopku
