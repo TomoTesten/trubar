@@ -20,6 +20,10 @@ spremembe:
     datum: 2006-03-23
     sop: 2006-01-1228
     naziv: "Zakon o spremembah in dopolnitvah zakona o obveznih zavarovanjih v prometu"
+  - kratica: ZOZP-D
+    datum: 2007-06-12
+    sop: 2007-01-2780
+    naziv: "Zakon o spremembah in dopolnitvah zakona o obveznih zavarovanjih v prometu"
 ---
 
 # Zakon o obveznih zavarovanjih v prometu
