@@ -7,6 +7,11 @@ sop: 2002-01-4807
 objava: "Uradni list RS 96/2002  str. 10518"
 kljucne_besede: ["javni interes", "kultura", "kulturna dobrina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4807"
+spremembe:
+  - kratica: ZUJIK-A
+    datum: 2007-06-15
+    sop: 2007-01-2830
+    naziv: "Zakon o spremembah in dopolnitvah zakona o uresničevanju javnega interesa za kulturo"
 ---
 
 # Zakon o uresničevanju javnega interesa za kulturo
