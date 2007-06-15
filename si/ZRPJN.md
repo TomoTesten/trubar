@@ -24,6 +24,10 @@ spremembe:
     datum: 2006-07-25
     sop: 2006-01-3442
     naziv: "Zakon o dopolnitvah zakona o reviziji postopkov javnega naročanja"
+  - kratica: ZRPJN-E
+    datum: 2007-06-15
+    sop: 2007-01-2829
+    naziv: "Zakon o spremembah in dopolnitvah zakona o reviziji postopkov javnega naročanja"
 ---
 
 # Zakon o reviziji postopkov javnega naročanja
