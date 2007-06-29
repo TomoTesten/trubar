@@ -36,6 +36,10 @@ spremembe:
     datum: 2006-12-07
     sop: 2006-01-5353
     naziv: "Zakon o spremembah in dopolnitvah zakona o sodniški službi"
+  - kratica: ZSS-H
+    datum: 2007-06-29
+    sop: 2007-01-3030
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodniški službi"
 ---
 
 # Zakon o sodniški službi
