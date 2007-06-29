@@ -32,6 +32,10 @@ spremembe:
     datum: 2006-06-30
     sop: 2006-01-2952
     naziv: "Zakon o spremembah in dopolnitvah zakona o sistemu plač v javnem sektorju"
+  - kratica: ZSPJS-G
+    datum: 2007-06-29
+    sop: 2007-01-3029
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sistemu plač v javnem sektorju"
 ---
 
 # Zakon o sistemu plač v javnem sektorju
