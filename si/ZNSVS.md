@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-02-14
     sop: 2006-01-0539
     naziv: "Zakon o spremembah in dopolnitvah zakona o nacionalni stanovanjski varčevalni shemi"
+  - kratica: ZNSVS-B
+    datum: 2007-07-06
+    sop: 2007-01-3212
+    naziv: "Zakon o spremembah in dopolnitvah zakona o nacionalni stanovanjski varčevalni shemi in subvencijah mladim družinam za prvo reševanje stanovanjskega vprašanja"
 ---
 
 # Zakon o nacionalni stanovanjski varčevalni shemi
