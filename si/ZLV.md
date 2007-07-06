@@ -32,6 +32,10 @@ spremembe:
     datum: 2005-12-30
     sop: 2005-01-5540
     naziv: "Zakon o spremembah zakona o lokalnih volitvah"
+  - kratica: ZLV-G
+    datum: 2007-07-06
+    sop: 2007-01-3209
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lokalnih volitvah"
 ---
 
 # Zakon o lokalnih volitvah
