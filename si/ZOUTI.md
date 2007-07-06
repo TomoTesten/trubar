@@ -16,6 +16,10 @@ spremembe:
     datum: 2005-11-11
     sop: 2005-01-4396
     naziv: "Zakon o spremembah in dopolnitvah zakona o omejevanju uporabe tobačnih izdelkov"
+  - kratica: ZOUTI-C
+    datum: 2007-07-06
+    sop: 2007-01-3210
+    naziv: "Zakon o spremembah in dopolnitvah zakona o omejevanju uporabe tobačnih izdelkov"
 ---
 
 # Zakon o omejevanju uporabe tobačnih izdelkov
