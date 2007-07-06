@@ -16,6 +16,10 @@ spremembe:
     datum: 2005-11-11
     sop: 2005-01-4397
     naziv: "Zakon o spremembah in dopolnitvah zakona o gostinstvu"
+  - kratica: ZGos-C
+    datum: 2007-07-06
+    sop: 2007-01-3211
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gostinstvu"
 ---
 
 # Zakon o gostinstvu
