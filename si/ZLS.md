@@ -44,6 +44,10 @@ spremembe:
     datum: 2005-07-29
     sop: 2005-01-3216
     naziv: "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi"
+  - kratica: ZLS-N
+    datum: 2007-07-06
+    sop: 2007-01-3208
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi"
 ---
 
 # Zakon o lokalni samoupravi
