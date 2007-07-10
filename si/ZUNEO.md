@@ -7,6 +7,11 @@ sop: 2004-01-2295
 objava: "Uradni list RS 50/04  str. 6706"
 kljucne_besede: ["enako obravnavanje", "človekove pravice"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2295"
+spremembe:
+  - kratica: ZUNEO-A
+    datum: 2007-07-10
+    sop: 2007-01-3299
+    naziv: "Zakon o spremembah in dopolnitvah zakona o uresničevanju načela enakega obravnavanja"
 ---
 
 # Zakon o uresničevanju načela enakega obravnavanja
