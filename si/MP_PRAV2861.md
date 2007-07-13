@@ -1,0 +1,562 @@
+---
+kratica: MP_PRAV2861
+naziv: "Pravilnik o dodelitvi pomoči za ohranjanje in razvoj kmetijstva, gozdarstva in podeželja v Občini Tržič (PRAV)"
+vrsta: "občinski pravilnik"
+datum: 2007-07-24
+sop: 2007-01-3683
+organ: "Občina Tržič"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3683"
+---
+
+# Pravilnik o dodelitvi pomoči za ohranjanje in razvoj kmetijstva, gozdarstva in podeželja v Občini Tržič (PRAV)
+
+Na podlagi 36. člena Zakona o kmetijstvu – uradno prečiščeno besedilo (Uradni list RS, št. 51/06) in 11. in 18. člena Statuta Občine Tržič (Uradni list RS, št. 15/99, 20/01 in 79/01) je Občinski svet Občine Tržič na 7. redni seji dne 11. 7. 2007 sprejel
+
+
+## P R A V I L N I K
+o dodelitvi pomoči za ohranjanje in razvoj kmetijstva, gozdarstva in podeželja v Občini Tržič
+
+
+### I. SPLOŠNE DOLOČBE
+
+
+### 1. člen
+
+
+### (vsebina pravilnika)
+
+Ta pravilnik določa cilje, vrste ukrepov in način dodeljevanja pomoči za majhna in srednje velika podjetja in ohranjanje in razvoj kmetijstva, gozdarstva in podeželja v Občini Tržič, v skladu z Uredbo Komisije (ES) št. 1857/2006 z dne 15. decembra 2006 o uporabi členov 87 in 88 Pogodbe pri državni pomoči za majhna in srednje velika podjetja, ki se ukvarjajo s proizvodnjo kmetijskih proizvodov, in o spremembi Uredbe (ES) št. 70/2001 (UL L št. 358, z dne 16. 12. 2006, str. 3) – Uredbo za skupinske izjeme in Uredbo Komisije (ES) št. 1998/2006 z dne 15. decembra 2006 o uporabi členov 87 in 88 Pogodbe pri pomoči »de minimis« (UL L št. 379, z dne 28. 12. 2006, str. 5–10), s prilogo I k Uredbi Komisije št. 70/2001 z dne 12. 1. 2001 o uporabi členov 87 in 88 Pogodbe Evropske skupnosti pri pomoči za majhna in srednje velika podjetja (UL L št. 10 z dne 13. 1. 2001, str. 33, z vsemi spremembami) in z Uredbo Sveta (ES) št. 1698/2005 z dne 20. septembra 2005 o podpori za razvoj podeželja Evropskega kmetijskega sklada za razvoj podeželja (EKSRP) (UL L št. 277, z dne 21. 10. 2005, str. 1–40).
+
+
+### 2. člen
+
+
+### (način zagotavljanja sredstev, nabor ukrepov in višina sredstev za posamezne ukrepe)
+
+Sredstva za pomoči po tem pravilniku se zagotavljajo s proračunom Občine Tržič (v nadaljevanju občine).
+Letni nabor ukrepov in višina sredstev za ukrepe se za vsako leto določi s proračunom občine.
+
+
+### 3. člen
+
+
+### (oblika, kumulacija in višina pomoči)
+
+Pomoči po tem pravilniku so nepovratna sredstva, ki se dodeljujejo v obliki dotacij.
+Pomoči, ki se dodeljujejo preko ukrepov, določenih v 8. do 16. člena tega pravilnika so državne pomoči.
+Pri dodeljevanju pomoči se upošteva kumulacija pomoči, ki določa, da se pomoči, ki jih prejme upravičenec iz kateregakoli javnega vira za iste upravičene stroške, seštevajo in ne smejo preseči maksimalne višine pomoči določene s tem pravilnikom.
+Pri posameznih ukrepih veljajo naslednje omejitve višine pomoči:
+– za naložbe v majhna in srednje velika podjetja za primarno proizvodnjo (8. člen) najvišji znesek posameznemu podjetju ne sme preseči 400.000 EUR v katerem koli obdobju treh proračunskih let ali 500.000 EUR, če gre za podjetje na območjih z omejenimi dejavniki,
+– za ostale ukrepe (9. do 13. člen) se upošteva najvišja intenzivnost pomoči, ki je navedena pri posameznemu ukrepu,
+– za ukrepe po pravilih »de minimis« (14. do 16. člen) pomoč dodeljena kateremu koli podjetju ne sme presegati 200.000 EUR bruto v katerem koli obdobju treh proračunskih let. Izjema velja za podjetja, ki delujejo na področju transporta, kjer skupna pomoč de minimis ne sme presegati 100.000 EUR v kateremkoli obdobju treh proračunskih let.
+
+
+### 4. člen
+
+
+### (prejemniki pomoči)
+
+Prejemniki pomoči po tem pravilniku so:
+– kmetijska gospodarstva, pravne in fizične osebe – (SME podjetja), skladno s prilogo 1 k Uredbi Komisije št. 70/2001, ki se ukvarjajo s pridelavo kmetijskih proizvodov, imajo sedež na območju občine in so vpisani v register kmetijskih gospodarstev (v nadaljevanju: nosilci kmetijskih gospodarstev),
+– člani kmetijskega gospodinjstva, ki imajo stalno prebivališče na naslovu nosilca kmetijskega gospodarstva,
+– organizacije ali subjekti, ki so registrirane za opravljanje storitev s področij pomoči v kmetijstvu,
+– društva in njihova združenja, ki so registrirana ali delujejo na področju kmetijstva, gozdarstva in prehrane na območju občine,
+– dijaki in študentje programov iz kmetijstva in gozdarstva.
+Do pomoči po tem pravilniku niso upravičeni subjekti, ki so:
+– v prisilni poravnavi, stečaju ali likvidaciji,
+– podjetja v težavah,
+– velika podjetja, oziroma podjetja nad 250 zaposlenimi ter letni promet, ki ne presega 50 miljonov EUR in/ali letno bilančno vsoto, ki ne presega 43 milijonov EUR,
+– za isti namen in za iste upravičene stroške, kot jih navajajo v vlogi za pridobitev sredstev že prejeli javna sredstva Republike Slovenije ali Evropske unije,
+– naložbo ali storitev že zaključili,
+– nenamensko koristili sredstva iz občinskega, državnega ali evropskega proračuna v obdobju 5 let od ugotovitve nepravilnosti.
+
+
+### 5. člen
+
+
+### (cilji)
+
+Cilji pomoči za ohranjanje in razvoj kmetijstva, gozdarstva in podeželja v Občini Tržič v obdobju 2007–2013 so:
+– ohranjanje in ustvarjanje delovnih mest na podeželju,
+– zagotavljanje večje konkurenčnosti in inovativnosti podeželskega prostora,
+– prispevanje k varovanju okolja, kulturne krajine in trajnostnemu razvoju.
+
+
+### 6. člen
+
+
+### (splošna določila)
+
+Pomoč se lahko dodeli na podlagi vloge, ki vsebuje osnovne podatke o upravičencu/izvajalcu, podatke o naložbi oziroma storitvi, časovni potek in predvidene stroške. Podrobna vsebina in zahtevane priloge se določijo z javnim razpisom.
+Upravičenec mora predložiti izjavo, da za iste upravičene stroške in za isti namen ni pridobil sredstev oziroma ni v postopku pridobivanja sredstev iz kateregakoli drugega javnega vira.
+Naložbe oziroma dela ali storitve, ki so odobrene na podlagi javnega razpisa morajo biti zaključene pred zadnjim izplačilom zahtevka.
+Po zaključku naložbe mora biti ta v uporabi za namen, za katerega je upravičenec pridobil sredstva, vsaj še 5 let po izplačilu sredstev.
+Upravičenec, ki pridobi pomoč iz tega pravilnika mora voditi predpisano dokumentacijo, ki je določena z javnim razpisom in pogodbo o dodelitvi sredstev in jo mora hraniti še najmanj 5 let po zadnjem izplačilu sredstev.
+Prejemnik sredstev ne sme uporabljati naložbe v nasprotju z namenom dodelitve sredstev.
+Upravičenec, ki je pridobil pomoč iz tega pravilnika, za isto naložbo ne more kandidirati naslednjih 5 let.
+
+
+### 7. člen
+
+
+### (vrste ukrepov)
+
+Za uresničevanje ciljev ohranjanja in razvoja kmetijstva, gozdarstva in podeželja v občini se pomoči usmerjajo preko naslednjih ukrepov:
+A. Na podlagi Uredbe za skupinske izjeme:
+1. Naložbe v kmetijska gospodarstva za primarno proizvodnjo
+2. Varstvo tradicionalnih krajin in stavb
+3. Pomoč za plačilo zavarovalnih premij
+4. Pomoč za zaokrožitev zemljišč
+5. Zagotavljanje tehnične podpore v kmetijstvu
+6. Zagotavljanje tehnične podpore v kmetijstvu – nadomeščanje nosilca kmetijskega gospodarstva ali njegovega zakonskega ali izvenzakonskega partnerja zaradi bolezni.
+B. Na podlagi Uredbe Komisije (ES) št. 1998/2006
+1. Naložbe za opravljanje dopolnilne dejavnosti na kmetijah
+2. Nove investicije za delo v gozdu
+3. Nova znanja na področju dopolnilnih dejavnosti in gozdarstva.
+C. Ostali ukrepi:
+1. Šolanje na poklicnih in srednješolskih kmetijskih in gozdarskih programih
+2. Delovanje društev
+3. Raziskovalne naloge
+4. Izvajanje lokalne razvojne strategije (Leader).
+
+
+### II. UKREPI
+
+
+### A. POMOČI, DODELJENE PO UREDBI ZA SKUPINSKE IZJEME
+
+
+### 8. člen
+
+
+### (naložbe v kmetijska gospodarstva za primarno proizvodnjo) (4. člen Uredbe Komisije (ES) št. 1857/2006)
+
+Namen ukrepa: z ukrepom se bo dvignila konkurenčnost primarnega sektorja, saj sta na majhnih kmetijah dvig produktivnosti z novimi tehnologijami ključnega pomena za ohranitev in razvoj primarne dejavnosti na kmetijah. Ukrep bo prispeval k zmanjšanju proizvodnih stroškov, izboljšanju in preusmeritvi proizvodnje, izboljšanju kakovosti, ohranjanju in izboljšanju naravnega okolja, higienskih razmer ali standardov za dobro počutje živali.
+Predmet pomoči:
+1. Posodabljanje kmetijskih gospodarstev z živinorejsko in rastlinsko proizvodnjo
+– naložbe v posodobitev hlevov s pripadajočo notranjo opremo (oprema za krmljenje, molžo in izločke) za prirejo mleka in mesa,
+– naložbe v posodobitev skladišč za krmo s pripadajočo opremo,
+– nakup kmetijske mehanizacije in opreme, vključno z računalniško programsko opremo,
+– prva postavitev oziroma prestrukturiranje obstoječih trajnih sadnih nasadov,
+– nakup in postavitev rastlinjakov in plastenjakov, vključno s pripadajočo opremo,
+– naložbe v prvo postavitev pašnikov,
+– naložbe v obnovo namakalnih sistemov, ki so v lasti kmetijskih gospodarstev in po naložbi zagotavljajo vsaj 25% zmanjšanje prejšnje uporabe vode,
+– naložbe v ureditev kmetijskih zemljišč in dostopov na kmetijskih gospodarstvih, ki niso javne poti (dovozne poti, poljske poti, poti v trajnih nasadih na kmetiji).
+2. Naložbe v prilagajanje novo uvedenega standarda dobrega počutja živali v živinorejski proizvodnji, skladno s predpisi EU:
+– naložbe v izgradnjo stojišč, ležišč in boksov s pripadajočo opremo,
+– naložbe v objekte za zavarovanje živali, ki živijo na prostem, pred neugodnimi vremenskimi pogoji,
+– naložbe v električno infrastrukturo,
+– naložbe v prezračevalni sistem,
+– naložbe v napajališča za živino.
+Podpore za naložbe v prilagajanje novo uvedenega standarda dobrega počutja živali v živinorejski proizvodnji se izvaja do konca prehodnega obdobja. Obdobje dodeljevanja pomoči bo opredeljeno v javnem razpisu.
+Upravičenci: nosilci kmetijskih gospodarstev, ki ustrezajo velikosti SME podjetij kot je opredeljeno v Prilogi I, Uredbe Komisije št. 70/2001.
+Splošni pogoji upravičenosti za 1. in 2. točko:
+Upravičenec mora imeti v času oddaje vloge za naložbo MID številko ter v uporabi najmanj 1 ha primerljivih površin. Za en ha primerljivih površin se šteje: 1 ha njiv, 2 ha travnikov oziroma ekstenzivnih sadovnjakov, 4 ha pašnikov, 0,25 ha plantažnih sadovnjakov ali vinogradov, 0,2 ha vrtov, vključno z zavarovanimi prostori pri pridelavi vrtnin, 8 ha gozdov, 5 ha gozdnih plantaž ali 6 ha barjanskih travnikov ali drugih površin.
+Upravičenci morajo predložiti mnenje pristojne strokovne službe o upravičenosti naložbe.
+Upravičenci morajo imeti ustrezno dovoljenje za izvedbo naložbe, kolikor se za te vrste naložbe izdajajo dovoljenja.
+Naložba mora ustrezati veterinarsko sanitarnim, zdravstveno sanitarnim in okoljevarstvenim zahtevam (napisana in podpisana izjava s strani upravičenca).
+Gradbena dela morajo biti izvedena v skladu z veljavnimi predpisi o gradnji objektov, urejanju prostora in varstvu okolja.
+Kot zaključek naložbe se šteje vključitev kmetijske mehanizacije ali opreme v objektih v proizvodni proces ali vpis intenzivnih sadovnjakov ali nasadov v register, ki ga vodi Ministrstvo za kmetijstvo, gozdarstvo in prehrano.
+Specifični pogoji upravičenosti za točko 1. Posodabljanje kmetijskih gospodarstev z živinorejsko in rastlinsko proizvodnjo:
+Upravičenec lahko kandidira za pomoč, če gre za investicije v:
+– lastno primarno pridelavo kmetijskih proizvodov, ki jih opredeljuje Priloga 1 k Pogodbi in spadajo v naslednje sektorje: mleko, meso, med, poljščine, sadje in zelenjava, okrasne rastline in grmovnice, semena in ostali semenski material,
+– rejo govedi,
+– rejo drobnice na območjih z omejenimi dejavniki in je le-ta na paši vsaj 5 mesecev/leto, ne glede na sedež kmetijskega gospodarstva,
+– rejo avtohtonih in tradicionalnih pasem konj.
+Upravičenec mora poleg vloge zahtevane v razpisu predložiti načrte ureditve; vsebine načrtov se določijo v razpisu.
+Specifični pogoji upravičenosti za točko 2. Naložbe v prilagajanje novo uvedenega standarda dobrega počutja živali v živinorejski proizvodnji:
+– podpora se lahko dodeli le za izpolnjevanje novih standardov,
+– po naložbi morajo biti standardi doseženi,
+– po naložbi v prilaganje dobrega počutja živali, upravičenec predloži izjavo o uskladitvi z zahtevami standardov (napisana in podpisana izjava s strani upravičenca).
+Upravičeni stroški:
+splošni stroški za 1. in 2. točko:
+– stroški gradbenih in obrtniških del (rušitvena, zemeljska dela, zidarska, tesarska, fasaderska, krovska, kleparska, keramičarska, mizarska, pleskarska, ključavničarska, kamnoseška, elektro inštalacijska, vodovodna in druga inštalaterska dela, ureditev zunanje infrastrukture in dodatna dela). Pri posameznih gradbenih in obrtniških delih se upoštevajo stroški dobave gotovih elementov (nakup in prevoz), njihova montaža in stroški izvedbe del na licu mesta (stroški materiala, prevoza in opravljenih del).
+– Splošni stroški: honorarji arhitektov, inženirjev in svetovalcev (strokovnih in podjetniških), stroški za študije izvedljivosti, nakup patentov in licenc.
+Specifični stroški za točko 1. Posodabljanje kmetijskih gospodarstev z živinorejsko in rastlinsko proizvodnjo:
+– stroški nakupa in montaže nove tehnološke opreme (za krmljenje, molžo, izločke ...),
+– stroški nakupa opreme vključno z računalniško programsko opremo,
+– stroški nakupa materiala, opreme in stroški izgradnje pomožnih živinorejskih objektov; obnova ali rekonstrukcija gnojnih jam in gnojišč zaradi izpolnjevanja standarda nitratne direktive ni opravičljiv strošek,
+– stroški nakupa nove kmetijske mehanizacije,
+– stroški prve postavitve oziroma prestrukturiranja obstoječih trajnih sadnih nasadov (priprava zemljišča, nakup in postavitev opore, mrež in ograje),
+– stroški nakupa in postavitve rastlinjaka in plastenjaka s pripadajočo opremo (oprema za osvetljevanje in senčenje, oprema za zračenje oziroma ogrevanje, oprema za pripravo tal in substratov, oprema za setev in sajenje),
+– stroški nakupa opreme za obnovo namakalnih sistemov, če se po naložbi prejšnja poraba vode zmanjša vsaj za 25%,
+– stroški nakupa opreme za ureditev pašnikov in obor (oprema za ograditev in pregraditev pašnika na pašne čredinke, ureditev napajališč za živino),
+– stroški izvedbe agromelioracijskih del (stroški odstranjevanja skal, zarasti, ravnanja zemljišča, nasipanja; razen drenažnih del in materiala za drenažo).
+Specifični stroški za točko 2. Naložbe v prilagajanje novo uvedenega standarda dobrega počutja živali v živinorejski proizvodnji:
+– stroški nakupa opreme stojišč, ležišč, privezov in boksov,
+– stroški nakupa električne opreme (svetila, električna instalacija …),
+– stroški nakupa prezračevalnih sistemov (ventilatorji, prezračevalni kanali, avtomatika za prezračevalne sisteme …),
+– stroški ureditve dostopa do napajališč (napajalni sistemi …).
+Višina pomoči:
+– za območja z omejenimi možnostmi za kmetijsko dejavnost do 50% upravičenih stroškov,
+– za druga območja za kmetijsko dejavnost do 40% upravičenih stroškov.
+Znesek pomoči: se določi z javnim razpisom.
+
+
+### 9. člen
+
+
+### (varstvo tradicionalnih krajin in stavb) (5. člen Uredbe Komisije (ES) št. 1857/2006)
+
+Namen ukrepa je ohranitev neproizvodne in proizvodne dediščine na podeželju. Podpirajo se manjše investicije v obnovo objektov, ki imajo poseben pomen za ohranjanje stavbne dediščine na kmetijskih gospodarstvih, povezanih z osnovno dejavnostjo na kmetiji (kozolci, kašče, sušilnice sadja, čebelnjaki, žage, mlini ...) in pripravljalno dokumentacijo, če je povezana z začetno naložbo.
+Predmet podpore:
+Pomoči so namenjene obnovi tradicionalnih stavb/objektov, in sicer:
+– neproizvodne dediščine, ki se nahajajo na kmetijskih gospodarstvih (arheološke, zgodovinske znamenitosti, tradicionalni izgled …);
+– kmetijskih poslopij, če naložba ne povzroči povečanja zmogljivosti kmetije.
+Upravičenci: nosilci kmetijskih gospodarstev, ki imajo v lasti tradicionalno stavbo (objekt).
+Splošni pogoji upravičenosti:
+– dokazilo o vpisu v register nepremične dediščine,
+– pred obnovo tradicionalnih stavb nepremične dediščine upravičenec predloži izjavo, da bo pri obnovi sledil usmeritvam Zavoda za naravno in kulturno dediščino, če so le-te za posamezno obnovo potrebne,
+– v primeru, da gre za rekonstrukcijo, upravičenec predloži dokazilo, da gre za zgodovinsko izpričano lokacijo in obstoj objekta (foto dokumentacija, zemljiškoknjižni izpisek, katastrski načrt),
+– v primeru, da gre za obstoječ objekt, so potrebna ustrezna dovoljenja za obnovo objekta.
+Specifični pogoji upravičenosti:
+Do pomoči niso upravičena območja in objekti s statusom kulturnega spomenika državnega pomena oziroma objekti, ki so sofinancirani s strani Republike Slovenije in EU.
+Upravičeni stroški:
+– stroški priprave dokumentacije za rekonstrukcijo (ponovno postavitev) ali obnovo oziroma sanacijo objekta (posnetek stanja, arhitekturni in statični načrt, projekt gradnje ali obnove, popisa del),
+– stroški nakupa materiala za obnovo,
+– stroški gradbenih in obrtniških del (zemeljska dela, zidarska, tesarska, fasaderska, krovska, kleparska, keramičarska, mizarska, pleskarska, parketarska, ključavničarska, kamnoseška, elektroinštalacijska, vodovodna in druga inštalaterska dela, in dodatna dela); pri posameznih gradbenih in obrtniških delih se upoštevajo stroški dobave gotovih elementov (nakup in prevoz), njihova montaža in stroški izvedbe del na licu mesta (stroški materiala, prevoza in opravljenih del).
+Višina pomoči:
+– za naložbe v neproizvodne objekte do 100% upravičenih stroškov,
+– za naložbe v proizvodne objekte na kmetijah do 60% upravičenih stroškov oziroma do 75% na območjih z omejenimi dejavniki, pod pogojem, da naložba ne povzroči povečanja proizvodnih zmogljivosti.
+Znesek pomoči se določi z javnim razpisom.
+
+
+### 10. člen
+
+
+### (pomoč za plačilo zavarovalnih premij) (12. člen Uredbe Komisije (ES) št. 1857/2006)
+
+Namen ukrepa je zmanjšanje posledic in tveganj, ki jih na plodovih in posevkih povzročijo neugodne vremenske razmere ter zmanjšanje izgub zaradi bolezni živali.
+Predmet podpore je doplačilo zavarovalnih premij za zavarovanje posevkov, plodov in živine v skladu z nacionalnimi predpisi o sofinanciranju zavarovalnih premij za zavarovanje kmetijske proizvodnje za tekoče leto.
+Upravičenci: nosilci kmetijskih gospodarstev.
+Splošni pogoji upravičenosti:
+Kmetijska gospodarstva morajo imeti sklenjeno pogodbo z zavarovalnico za zavarovanje posevkov in plodov pred nevarnostjo toče, požara, udara strele, spomladanske pozebe, viharja in poplave ter živali za primer bolezni.
+Specifični pogoji upravičenosti:
+Zavarovalne pogodbe sklenjene po roku, ki jih kot upravičene za sofinanciranje določi nacionalni predpis o sofinanciranju zavarovalnih premij za zavarovanje kmetijske proizvodnje za tekoče leto, niso upravičene do sofinanciranja.
+Upravičeni stroški:
+– sofinanciranje zavarovalne premije za posevke in plodove (zavarovanje posevkov in plodov pred nevarnostjo toče, požara, udara strele, spomladanske pozebe, viharja in poplave) za eno rastno dobo,
+– sofinanciranje zavarovalne premije za bolezni živali (pred nevarnostjo pogina zaradi bolezni, zakola z veterinarsko napotnico oziroma usmrtitve zaradi bolezni in ekonomskega zakola zaradi bolezni) za eno zavarovalno leto.
+Višina pomoči: višina sofinanciranja občine je razlika med višino sofinanciranja zavarovalne premije iz nacionalnega proračuna do 50% opravičljivih stroškov zavarovalne premije za zavarovanje posevkov in plodov ter zavarovanje živali za primer bolezni.
+Znesek pomoči se določi z javnim razpisom.
+
+
+### 11. člen
+
+
+### (pomoč za zaokrožitev zemljišč) (13. člen Uredbe Komisije (ES) št. 1857/2006)
+
+Namen ukrepa: je vzpodbuditi menjavo kmetijskih zemljišč med kmetijskimi gospodarstvi na območju občine zaradi velikega števila majhnih in razpršenih parcel ter neugodne posestne strukture in s tem povečati gospodarsko uspešnost kmetijskih gospodarstev.
+Predmet podpore: sofinanciranje stroškov, nastalih z menjavo (zaokrožitvijo) kmetijskih zemljišč.
+Upravičenci: nosilci kmetijskih gospodarstev, ki izvedejo medsebojno menjavo kmetijskih zemljišč.
+Splošni pogoji upravičenosti:
+Upravičenec predloži dokumentacijo iz katere je razvidno, da je bila menjava zemljišč izvedena (notarsko overjena menjalna pogodba o menjavi zemljišč).
+Upravičeni stroški: stroški pravnih in upravnih postopkov pri medsebojni menjavi (zaokrožitvi) kmetijskih zemljišč.
+Višina pomoči: do 50% dejansko nastalih pravnih in upravnih stroškov.
+Znesek pomoči: se določi z javnim razpisom.
+
+
+### 12. člen
+
+
+### (zagotavljanje tehnične podpore v primarnem kmetijstvu) (15. člen Uredbe Komisije (ES) št. 1857/2006)
+
+Namen ukrepa: usposobljenost in znanje nosilcev kmetijskih gospodarstev in družinskih članov je še vedno na prenizki ravni, zato z ukrepom podpiramo izobraževanje, usposabljanje, prenos dobrih praks in novih znanj ter promocijo na področju primarnega kmetijstva, kar bo doprineslo k večji konkurenčnosti kmetijskih gospodarstev.
+Predmet podpore:
+– usposabljanje, izobraževanje in svetovanje kmetom v primarni kmetijski pridelavi,
+– organizacije forumov za izmenjavo znanj med gospodarstvi, tekmovanj, razstav in sejmov ter sodelovanja na njih,
+– publikacije, kot so katalogi in spletišča.
+Upravičenci: izvajalci, ki so registrirani za opravljanje dejavnosti iz predmetov te podpore.
+Splošni pogoji upravičenosti:
+Izvajalec mora zagotoviti, da bo izobraževanje oziroma usposabljanje dostopno vsem končnim prejemnikom (upravičencem).
+Če je izbrani izvajalec skupina proizvajalcev ali druga kmetijska organizacija za vzajemno pomoč mora zagotoviti, da je pomoč dostopna tudi nečlanom. Prispevek za udeležbo nečlanov se omeji na stroške za zagotavljanje storitev.
+Izvajalec je dolžan po zaključenem usposabljanju občini predložiti seznam upravičenih udeležencev izobraževanja, usposabljanja ali svetovanja z vsemi zakonsko obveznimi podatki. Udeleženci (končni prejemniki) morajo biti vpisani v register kmetijskih gospodarstev ali morajo biti njihovi družinski člani.
+Specifični pogoji upravičenosti:
+– pomoč se dodeli izvajalcu in ne sme vključevati neposrednih plačil v denarju končnim prejemnikom,
+– za predstavitve v publikacijah, kot so katalogi ali spletišča, mora izvajalec zagotoviti, da material na kateremkoli mediju vsebuje dejanske podatke o proizvajalcih iz določenega območja ali dejanske podatke o proizvajalcih danega proizvoda ter da so informacije in predstavitve nevtralne in imajo vsi zadevni proizvajalci enake možnosti, da se predstavijo.
+Upravičeni stroški:
+Usposabljanje in izobraževanje ter svetovanje kmetom v primarni kmetijski pridelavi:
+– stroški organiziranja in izvedbe programov usposabljanja in izobraževanja (najem prostora, honorar predavateljem, oglaševanje, gradiva za udeležence, stroški izvedbe strokovnih ekskurzij),
+– honorarji za storitve, ki ne spadajo med trajne ali občasne dejavnosti niti niso v zvezi z običajnimi operativnimi stroški podjetja, na primer rutinsko davčno svetovanje, redne pravne storitve ali oglaševanje.
+Organizacije forumov za izmenjavo znanj med gospodarstvi, tekmovanj, razstav in sejmov ter sodelovanja na njih: stroški udeležbe in potni stroški, stroški publikacij, najemnine razstavnih prostorov, simbolične nagrade, podeljene na tekmovanjih do vrednosti 250 EUR na nagrado in zmagovalca, stroški publikacij ocenjevanja izdelkov.
+Publikacije: stroški priprave in tiska publikacij, katalogov in stroški oblikovanja in priprave spletnih strani.
+Višina pomoči: do 100% upravičenih stroškov v obliki subvencioniranih storitev.
+Znesek pomoči: se določi z javnim razpisom.
+
+
+### 13. člen
+
+
+### (zagotavljanje tehnične podpore v primarnem kmetijstvu – nadomeščanje nosilca kmetijskega gospodarstva ali njegovega zakonskega ali izvenzakonskega partnerja zaradi bolezni) (15. člen Uredbe Komisije (ES) št. 1857/2006)
+
+Namen ukrepa je omogočiti nadomeščanje oziroma opravljanje dela na kmetiji v primeru več kot 30-dnevne bolezni ali nezmožnosti za delo nosilca ali ožjega družinskega člana na kmetijskih gospodarstvih, kjer nosilec ali njegov ožji družinski član živi le od kmetijstva in je pokojninsko in invalidsko zavarovan kot kmet.
+Upravičenci: subjekti, registrirani za opravljanje tovrstnih storitev nadomeščanja.
+Splošni pogoji upravičenosti:
+Upravičenec predloži dokazilo o bolezni oziroma nezmožnosti za delo daljše od 30 dni in potrdilo o kmečkem zavarovanju nosilca kmetijskega gospodarstva ali njegovega ožjega družinskega člana.
+Upravičeni stroški: stroški dela na kmetiji.
+Višina pomoči: do 100% upravičenih stroškov v obliki subvencioniranih storitev.
+Znesek pomoči: se določi z javnim razpisom.
+
+
+### B. DE MINIMIS
+
+
+### 14. člen
+
+
+### (naložbe za opravljanje dopolnilne dejavnosti na kmetijah) (2. člen Uredbe Komisije (ES) št. 1998/2006)
+
+Namen ukrepa je ohranjanje in ustvarjanje novih delovnih mest na podeželju ter izboljšanje konkurenčnosti kmetijskih gospodarstev. Podpirajo se kmetijska gospodarstva, ki bodo obstoječo primarno dejavnost nadgradila z zagonom oziroma širjenjem dopolnilne dejavnosti in si s tem zagotovila dodatni vir dohodka, kar bo dolgoročno vplivalo tudi na obstoj primarne dejavnosti na kmetiji.
+Predmet podpore:
+Podpore bodo dodeljene naložbam, ki so potrebne za začetek opravljanja dopolnilne dejavnosti ali za posodobitev in širjenje že obstoječe dopolnilne dejavnosti:
+– predelava kmetijskih proizvodov, opredeljenih v Prilogi 1 (mesa, mleka, vrtnin, sadja, mlevskih in škrobnih izdelkov, rastlinskih in živalskih olj in maščob, pripravljenih krmil za živali, drugih živil, pijač, lesa), medu in čebeljih izdelkov, zelišč, gozdnih sadežev in gozdnih sortimentov,
+– neposredna prodaja kmetijskih proizvodov na kmetijah in izven kmetije,
+– turizem na kmetiji (gostinska in negostinska dejavnost),
+– dejavnost (storitve in izdelki) povezana s tradicionalnimi znanji na kmetiji (oglarstvo, tradicionalno krovstvo s slamo, skodlami in skriljem, peka v kmečki peči, izdelava drobnih galanterijskih izdelkov iz lesa, zbirke, izdelava podkev, podkovno kovaštvo, tradicionalni izdelki iz zelišč in dišavnic),
+– pridobivanje in prodaja energije iz obnovljivih virov na kmetiji,
+– storitve s kmetijsko in gozdarsko mehanizacijo, opremo, orodji in živalmi ter oddaja le-teh v najem,
+– izobraževanje na kmetijah, povezano s kmetijsko, gozdarsko in dopolnilno dejavnostjo na kmetiji,
+– zbiranje in kompostiranje organskih snovi,
+– druge dopolnilne dejavnosti.
+Upravičenci: so nosilci kmetijskih gospodarstev in člani kmetijskega gospodinjstva, ki imajo stalno bivališče na naslovu nosilca kmetijskega gospodarstva.
+Splošni pogoji upravičenosti:
+Upravičenci morajo imeti dovoljenje za opravljanje dopolnilne dejavnosti. Če tega še nimajo, ga morajo predložiti v 12 mesecih po odobritvi pomoči (izjava).
+Upravičenci morajo imeti v času oddaje vloge MID številko ter v uporabi najmanj 1 ha primerljivih površin. Za en ha primerljivih površin, se po podatkih GERK se štejejo: 1 ha njiv, 2 ha travnikov oziroma ekstenzivnih sadovnjakov, 4 ha pašnikov, 0,25 ha plantažnih sadovnjakov ali vinogradov, 0,2 ha vrtov, vključno z zavarovanimi prostori pri pridelavi vrtnin, 8 ha gozdov, 5 ha gozdnih plantaž ali 6 ha barjanskih travnikov oziroma drugih površin.
+Upravičenci morajo predložiti mnenje pristojne strokovne službe o upravičenosti naložbe.
+Upravičenci morajo imeti ustrezno dovoljenje za izvedbo naložbe, kolikor se za te vrste naložbe izdajajo dovoljenja.
+Naložba mora ustrezati veterinarsko sanitarnim, zdravstveno sanitarnim in okoljevarstvenim zahtevam.
+Gradbena dela morajo biti izvedena v skladu s predpisi o gradnji objektov, urejanju prostora in varstvu okolja.
+Kot zaključek naložbe se šteje tehnični prevzem ali vključitev kmetijske mehanizacije ali opreme v objektih v proces dela dopolnilne dejavnosti.
+Po zaključku naložbe mora biti ta v uporabi za namen, za katerega je upravičenec pridobil sredstva, vsaj še 5 let po izplačilu sredstev.
+Dopolnilno dejavnost, za katero je upravičenec pridobil sredstva po tem pravilniku, mora upravičenec opravljati vsaj še 5 let po zaključeni naložbi.
+Specifični pogoji upravičenosti:
+Za dopolnilno dejavnost predelave živil rastlinskega izvora morajo lastne surovine predstavljati najmanj 50% količine potrebnih surovin, ostale pa izhajati od drugih kmetij.
+Za dopolnilno dejavnost predelave živil živalskega izvora morajo pri neposredni prodaji končnemu potrošniku lastne surovine predstavljati 100% potrebnih surovin, v drugih primerih pa najmanj 50% količine.
+Za dopolnilno dejavnost prodaje pridelkov in izdelkov kmetij mora vrednost prodaje lastnih kmetijskih pridelkov in izdelkov znašati najmanj 30% celotne vrednosti prodaje na kmetiji.
+Za dopolnilno dejavnost turizem na kmetiji – gostinska dejavnost se mora zagotoviti takšen obseg kmetijske dejavnosti, ki zagotavlja najmanj 30% lastnih surovin, pri čemer se do največ 30% surovin lahko dokupi v trgovini, ostalo pa od drugih kmetij.
+Za dopolnilno dejavnost predelave medu mora končni prejemnik imeti ob času oddaje vloge v lasti vsaj 10 čebeljih družin.
+Za dopolnilno dejavnost predelave gozdnih sortimentov in za dopolnilno dejavnost pridobivanje energije iz biomase morajo lastne surovine predstavljati najmanj 20% potrebnih surovin.
+Pri dopolnilni dejavnosti ribogojstvo in predelava sladkovodnih rib mora biti vodno zemljišče sestavni del kmetije.
+Upravičeni stroški:
+– stroški gradbenih in obrtniških del (rušitvena, zemeljska dela, zidarska, tesarska, fasaderska, krovska, kleparska, keramičarska, mizarska, pleskarska, parketarska, ključavničarska, kamnoseška, elektro inštalacijska, vodovodna in druga inštalaterska dela, ureditev zunanje infrastrukture in dodatna dela); pri posameznih gradbenih in obrtniških delih se upoštevajo stroški dobave gotovih elementov (nakup in prevoz), njihova montaža in stroški izvedbe del na licu mesta (stroški materiala, prevoza in opravljenih del),
+– splošni stroški: honorarji arhitektov, inženirjev in svetovalcev (strokovnih in podjetniških), stroški za študije izvedljivosti, nakup patentov in licenc,
+– nakup računalniške programske opreme (osebni računalniki in računalniški programi),
+– nakup opreme, ki je nujno potrebna in neposredno povezana s tehnološkim postopkom in trženjem glede na vrsto dopolnilne dejavnosti.
+Višina pomoči:
+– za območja izven območij z omejenimi možnostmi za kmetijsko dejavnost do 40% upravičenih stroškov,
+– za območja z omejenimi možnostmi za kmetijsko dejavnost do 50% upravičenih stroškov.
+Znesek pomoči: se določi z javnim razpisom.
+
+
+### 15. člen
+
+
+### (nove investicije za delo v gozdu) (2. člen Uredbe Komisije (ES) št. 1998/2006)
+
+Namen ukrepa: z ukrepom prispevamo k zmanjšanju nesreč v gozdu ter k boljši strojni in tehnični opremi kmetijskih gospodarstev, ki imajo v lasti gozdne površine.
+Predmet podpore: naložbe v stroje in manjšo opremo za kvalitetnejše delo v gozdu.
+Upravičenci: nosilci kmetijskih gospodarstev, ki imajo v lasti gozdne površine.
+Splošni pogoji upravičenosti:
+– upravičenec predloži dokazilo o lastništvu gozdnih parcel (podrobneje se določi z javnim razpisom),
+– kot zaključek naložbe se šteje tehnični prevzem ali vključitev gozdarske mehanizacije ali opreme v proces dela v gozdu,
+– pridobljen stroj ali opremo mora upravičenec uporabljati vsaj še 5 let po zaključeni investiciji.
+Upravičeni stroški: stroški nakupa gozdarskih strojev in opreme za delo v gozdu (manjše gozdarske mehanizacije: motorne žage, cepilci, in zaščitna oprema za delo v gozdu …).
+Višina pomoči:
+– za območja z omejenimi možnostmi za kmetijsko dejavnost do 50% upravičenih stroškov,
+– za ostala območja do 40% upravičenih stroškov.
+Znesek pomoči: se določi z javnim razpisom.
+
+
+### 16. člen
+
+
+### (nova znanja na področju dopolnilnih dejavnosti in gozdarstva) (2. člen Uredbe Komisije (ES) št. 1998/2006)
+
+Namen ukrepa: usposobljenost in znanje nosilcev kmetijskih gospodarstev in družinskih članov je še vedno na prenizki ravni, zato z ukrepom podpiramo usposabljanje, izobraževanje, prenos dobrih praks in novih znanj ter promocijo na področju dopolnilnih dejavnosti in gozdarstva, kar bo doprineslo k večji konkurenčnosti kmetijskih gospodarstev.
+Predmet podpore:
+– usposabljanje, izobraževanje in svetovanje kmetom s področij dopolnilnih dejavnosti in gozdarstva,
+– organizacija forumov za izmenjavo znanj med gospodarstvi, tekmovanj, razstav in sejmov ter sodelovanje na njih,
+– publikacije, kot so katalogi in spletišča.
+Upravičenci: subjekti, ki so registrirani za opravljanje storitev iz predmetov podpore (izvajalci).
+Splošni pogoji upravičenosti:
+– izvajalec mora zagotoviti, da bo pomoč dostopna vsem končnim prejemnikom.
+– Če je izvajalec skupina proizvajalcev ali druga kmetijska organizacija za vzajemno pomoč mora zagotoviti, da je pomoč dostopna tudi nečlanom. Prispevek za udeležbo nečlanov se omeji na stroške za zagotavljanje storitev. Izvajalec je dolžan po zaključenem usposabljanju občini predložiti seznam upravičenih udeležencev izobraževanja in usposabljanja ali svetovanja z vsemi zakonsko obveznimi podatki. Udeleženci (končni prejemniki) morajo biti vpisani v register kmetijskih gospodarstev ali morajo biti njihovi družinski člani.
+Specifični pogoji upravičenosti:
+Pomoč se dodeli izvajalcu in ne sme vključevati neposrednih plačil v denarju končnim prejemnikom. Pri promociji mora izvajalec zagotoviti, da promocijski material na katerem koli mediju vsebuje dejanske podatke o proizvajalcih iz določenega območja ali dejanske podatke o proizvajalcih danega proizvoda, ter da so informacije in predstavitve nevtralne in imajo zadevni proizvajalci enake možnosti, da se predstavijo.
+Upravičeni stroški:
+Usposabljanje, izobraževanje in svetovanje kmetom iz področja dopolnilnih dejavnosti in gozdarstva:
+– stroški organiziranja in izvedbe programov usposabljanja in izobraževanja (najem prostora, honorar predavateljem, oglaševanje, gradiva za udeležence, stroški izvedbe strokovnih ekskurzij),
+– honorarji za storitve, ki ne spadajo med trajne ali občasne dejavnosti niti niso v zvezi z običajnimi operativnimi stroški podjetja, na primer rutinsko davčno svetovanje, redne pravne storitve ali oglaševanje.
+Organizacije forumov za izmenjavo znanj med gospodarstvi, tekmovanj, razstav in sejmov ter sodelovanja na njih: stroški udeležbe, potni stroški, najemnine razstavnih prostorov, simbolične nagrade, podeljene na tekmovanjih do vrednosti 250 EUR na nagrado in zmagovalca.
+Publikacije: stroški priprave in tiska publikacij, katalogov in stroški oblikovanja in vzpostavitve spletnih strani.
+Višina pomoči: do 100% upravičenih stroškov v obliki subvencioniranih storitev in ne sme vključevati neposrednih plačil v denarju proizvajalcem.
+Znesek pomoči: se določi z javnim razpisom.
+
+
+### C. OSTALI UKREPI
+
+
+### 17. člen
+
+
+### (šolanje na poklicnih in srednješolskih kmetijskih in gozdarskih programih)
+
+Namen ukrepa: zagotavljanje usposobljenih kadrov za delo na kmetijskih gospodarstvih.
+Upravičenci: dijaki poklicnih, srednješolskih programov s področja kmetijstva in gozdarstva.
+Splošni pogoji upravičenosti:
+– dijak mora imeti stalno prebivališče na naslovu nosilca kmetijskega gospodarstva (po končanem šolanju se mora zaposliti na kmetiji in mora skleniti kmečko zavarovanje najmanj za dobo prejemanja podpore),
+– potrdilo o vpisu.
+Višina pomoči: do 400 EUR/dijaka (neto) za šolsko leto.
+
+
+### 18. člen
+
+
+### (delovanje društev in njihovih združenj)
+
+Namen ukrepa: spodbujanje delovanja društev in njihovih združenj, ki predstavljajo temelj za izmenjavo znanj in izkušenj med prebivalstvom, ki živi na podeželju.
+Predmet podpore: sofinanciranje delovanja različnih neprofitnih oblik sodelovanja kmetov in drugih neprofitnih združenj povezanih s kmetijstvom, gozdarstvom in razvojem podeželja.
+Upravičenci: društva in njihova združenja, ki so registrirana ali delujejo na območju občine na področju kmetijstva ali gozdarstva.
+Splošni pogoji upravičenosti:
+– sofinancirajo se izključno nepridobitne dejavnosti društev,
+– izvajanje izobraževanj in usposabljanj, katerih upravičenci so nosilci kmetijske dejavnosti, ni predmet sofinanciranja.
+Specifični pogoji upravičenosti:
+– odločba o vpisu v register društev,
+– seznam članov društva z območja občine.
+Upravičeni stroški: materialni stroški za delovanje društev.
+Višina pomoči: do 100% upravičenih stroškov.
+Znesek pomoči: se določi z javnim razpisom.
+
+
+### 19. člen
+
+
+### (raziskovalne naloge)
+
+Namen ukrepa: spodbujanje izdelave kakovostnih raziskovalnih nalog s področja kmetijstva, gozdarstva in razvoja podeželja.
+Upravičenci: šole, dijaki in študentje kmetijskih in gozdarskih programov.
+Pogoji upravičenosti: časovno definirana in finančno ovrednotena izdelava naloge.
+Upravičeni stroški: stroški izdelave nalog.
+Višina pomoči: do 100% upravičenih stroškov.
+Znesek pomoči: se določi z javnim razpisom.
+
+
+### 20. člen
+
+
+### (izvajanje lokalne razvojne strategije (Leader)) (63. člen Uredbe Sveta (ES) št. 1698/2005)
+
+Namen ukrepa: zagotavljanje večletne podpore inovativnim partnerskim razvojnim iniciativam na podeželju, ki bodo prispevale k razvoju delovnih mest in kakovosti življenja na podeželju (izvajanje projektov po načelih Leader).
+Upravičenci: lokalna akcijska skupina, priznana s strani ministrstva, pristojnega za kmetijstvo.
+Pogoji upravičenosti:
+– lokalna razvojna strategija, potrjena s strani ministrstva, pristojnega za kmetijstvo,
+– lokalna akcijska skupina, priznana s strani ministrstva, pristojnega za kmetijstvo,
+– predložen letni program upravljanja in izvajanja lokalne razvojne strategije.
+Finančne določbe: Sredstva bodo dodeljena za upravljanje in izvajanje lokalne razvojne strategije na podlagi letnega programa lokalne akcijske skupine.
+Višina pomoči: do 50% opravičljivih stroškov za izvajanje projektov.
+
+
+### III. POSTOPKI ZA DODELITEV POMOČI IN IZBOR UPRAVIČENCEV
+
+
+### 21. člen
+
+
+### (postopek za dodelitev pomoči)
+
+Pomoči se bodo dodeljevale na podlagi letno izvedenega javnega razpisa, v katerem se podrobneje določijo kriteriji ter način uveljavljanja in koriščenja sredstev. Postopek javnega razpisa vodi komisija, ki jo imenuje župan.
+O dodelitvi sredstev po tem pravilniku odloča direktor občinske uprave s sklepom, s katerim se opredeli namen, višina odobrenih sredstev in opravičljive stroške za posamezen ukrep.
+Zoper sklep iz prejšnjega odstavka tega člena lahko upravičenec vloži pritožbo pri županu.
+Medsebojne obveznosti med občino in prejemnikom se uredijo s pogodbo.
+Občina poroča ministrstvu, pristojnemu za nadzor državnih pomoči, o višini dodeljenih sredstev po upravičencih in namenih, kot je to določeno z veljavnimi predpisi, ki urejajo to področje.
+
+
+### 22. člen
+
+
+### (javni razpis)
+
+Javni razpis določi višino razpoložljivih sredstev za posamezen ukrep, višino dodeljene pomoči za posamezen ukrep, kriterije ter način uveljavljanja in koriščenja sredstev.
+Javni razpis je objavljen na krajevno običajen način in vsebuje:
+– ime oziroma naziv in sedež občine, ki dodeljuje sredstva,
+– pravno podlago za izvedbo javnega razpisa,
+– predmet javnega razpisa,
+– navedbo osnovnih pogojev za kandidiranje na javnem razpisu in meril, s pomočjo katerih se med tistimi, ki izpolnjujejo pogoje, izberejo prejemniki sredstev,
+– okvirno višino sredstev, ki so na razpolago za predmet javnega razpisa,
+– določitev obdobja, v katerem morajo biti porabljena dodeljena sredstva oziroma roki, če je predvideno zaporedno dodeljevanje sredstev,
+– rok, do katerega morajo biti predložene vloge za dodelitev sredstev,
+– datum odpiranja vlog za dodelitev sredstev oziroma datumi odpiranja vlog, če je v javnem razpisu predvideno zaporedno odpiranje le-teh,
+– rok, v katerem bodo potencialni prejemniki – upravičenci obveščeni o izidu javnega razpisa,
+– kraj, čas ter osebo, pri kateri lahko zainteresirani dvignejo razpisno dokumentacijo,
+– druga obvezna določila, navedena v Pravilniku o postopkih za izvrševanje proračuna Republike Slovenije.
+Kolikor je za določen ukrep manjše število vlog glede na razpoložljiva sredstva, se lahko prerazporedijo za drug ukrep znotraj okvira javnega razpisa.
+
+
+### 23. člen
+
+
+### (pregled in ocena vlog)
+
+Vloge prispele na javni razpis pregleda in oceni komisija, ki jo za ta namen imenuje župan.
+O pregledu in oceni vlog komisija vodi zapisnik, ki mora vsebovati zlasti:
+– kraj, datum in uro pregleda ter oceno vlog,
+– imena članov komisije,
+– seznam vlagateljev prispelih vlog,
+– seznam vlagateljev nepopolnih in neutemeljenih vlog z navedbo pomanjkljivosti,
+– predlog upravičencev do pomoči po tem pravilniku in predlagana višina sredstev, ki se dodeli posameznemu upravičencu,
+– pripombe.
+Zapisnik podpišejo vsi člani komisije.
+
+
+### 24. člen
+
+
+### (odločitev o vlogah)
+
+Komisija vlagatelje nepopolnih vlog pozove, da vloge dopolnijo v roku, ki se določi v javnem razpisu. Nepopolne vloge, ki jih vlagatelji v navedenem roku ne dopolnijo, se zavrže. Na podlagi predloga komisije o dodelitvi sredstev odloči direktor občinske uprave, najkasneje v roku 45 dni od odpiranja vlog. Zoper sklep je dopustna pritožba županu v roku 15 dni od vročitve. Zoper županovo odločbo ni pritožbe, možno je sprožiti upravni spor pred pristojnim sodiščem.
+
+
+### 25. člen
+
+
+### (pogodba)
+
+Na podlagi sklepov o dodelitvi sredstev občina z upravičenci sklene pogodbo, s katero se podrobneje uredijo način in pogoji koriščenja dodeljenih sredstev.
+
+
+### 26. člen
+
+
+### (vračilo sredstev)
+
+Namensko porabo sredstev spremljata in preverjata komisija in pristojni urad občinske uprave. V primeru nenamenske rabe sredstev je prejemnik dolžan vrniti celotno višino dodeljenih sredstev skupaj z zakonskimi zamudnimi obrestmi od dneva nakazila do dneva vračila sredstev. Prejemnik izgubi tudi pravico do pridobitve drugih sredstev po tem pravilniku za naslednjih pet let.
+
+
+### 27. člen
+
+
+### (uporaba pravilnika)
+
+Ta pravilnik se uporablja za Občino Tržič in za uresničevanje strategije Lokalne akcijske skupine, ki deluje na območju občine.
+
+
+### IV. KONČNE DOLOČBE
+
+
+### 28. člen
+
+Z dnem uveljavitve tega pravilnika preneha veljati Pravilnik o finančnih intervencijah za ohranjanje in razvoj kmetijstva v Občini Tržič (Uradni list RS, št. 58/03).
+
+
+### 28. člen
+
+Ta pravilnik začne veljati štirinajsti delovni dan po objavi v Uradnem listu Republike Slovenije in se uporablja za programsko obdobje 2007–2013.
+
+Št. 3301-6/2007-43
+
+Tržič, dne 11. julija 2007
+
+Župan
+Občine Tržič
+mag. Borut Sajovic l.r.
