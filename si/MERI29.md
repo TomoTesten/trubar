@@ -4,9 +4,9 @@ naziv: "Merila za povečan obseg dela"
 vrsta: "akt"
 datum: 2007-07-24
 sop: 2007-01-3654
-organ: "Sodni svet Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3654"
 ---
 

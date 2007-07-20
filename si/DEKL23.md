@@ -4,9 +4,9 @@ naziv: "Deklaracija o podpori prizadevanjem za mednarodno prepoved kasetnih bomb
 vrsta: "akt"
 datum: 2007-07-24
 sop: 2007-01-3633
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3633"
 ---
 

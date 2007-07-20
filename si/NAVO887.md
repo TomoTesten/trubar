@@ -4,9 +4,9 @@ naziv: "Sistemska obratovalna navodila za distribucijsko omrežje zemeljskega pl
 vrsta: "navodilo"
 datum: 2007-07-30
 sop: 2007-01-3768
-organ: "Komunalno podjetje Velenje, d.o.o., Velenje"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3768"
 ---
 

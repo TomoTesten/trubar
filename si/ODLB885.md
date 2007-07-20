@@ -4,9 +4,9 @@ naziv: "Odločba o napredovanju Borisa Ostruha na mesto višjega državnega tož
 vrsta: "akt"
 datum: 2007-07-27
 sop: 2007-01-3704
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3704"
 ---
 
