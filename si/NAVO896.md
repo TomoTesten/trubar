@@ -1,0 +1,749 @@
+---
+kratica: NAVO896
+naziv: "Sistemska obratovalna navodila za distribucijsko omrežje zemeljskega plina za geografska območja Mestne občine Ljubljana, Občine Brezovica, Občine Dobrova - Polhov Gradec, Občine Dol pri Ljubljani, Občine Ig, Občine Medvode in Občine Škofljica"
+vrsta: "navodilo"
+datum: 2007-07-20
+sop: 2007-01-3570
+organ: "Javna agencija Republike Slovenije za energijo"
+zbirka: "Splošni akti za izvrševanje javnih pooblastil"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3570"
+---
+
+# Sistemska obratovalna navodila za distribucijsko omrežje zemeljskega plina za geografska območja Mestne občine Ljubljana, Občine Brezovica, Občine Dobrova - Polhov Gradec, Občine Dol pri Ljubljani, Občine Ig, Občine Medvode in Občine Škofljica
+
+Na podlagi četrtega odstavka 40. člena in prvega odstavka 87.a člena Energetskega zakona (Uradni list RS, št. 27/07 – uradno prečiščeno besedilo) Javna agencija Republike Slovenije za energijo izdaja
+
+
+## S I S T E M S K A  O B R A T O V A L N A  N A V O D I L A
+za distribucijsko omrežje zemeljskega plina za geografska območja Mestne občine Ljubljana, Občine Brezovica, Občine Dobrova - Polhov Gradec, Občine Dol pri Ljubljani, Občine Ig, Občine Medvode in Občine Škofljica
+
+
+### I. SPLOŠNE DOLOČBE
+
+
+### 1. Namen in predmet urejanja
+
+
+### 1. člen
+
+(1) Ta akt ureja obratovanje in način vodenja distribucijskega omrežja za zemeljski plin, ki je v upravljanju Javnega podjetja Energetika Ljubljana, d.o.o., za geografska območja naslednjih občin: Mestna občina Ljubljana, Občina Brezovica, Občina Dobrova - Polhov Gradec, Občina Dol pri Ljubljani, Občina Ig, Občina Medvode in Občina Škofljica.
+(2) Ta akt se uporablja za sistemskega operaterja distribucijskega omrežja zemeljskega plina (v nadaljnjem besedilu: sistemski operater), odjemalce in uporabnike, ki so oskrbovani po distribucijskem omrežju (v nadaljnjem besedilu: uporabniki).
+(3) Ta akt se uporablja tudi za tiste pravne ali fizične osebe, ki načrtujejo, projektirajo, gradijo ter izvajajo vzdrževalna dela na distribucijskem omrežju ali na drugih soodvisnih objektih.
+(4) Ta akt določa predvsem:
+– tehnične in druge pogoje za varno obratovanje distribucijskega omrežja z namenom zanesljive in kvalitetne oskrbe z zemeljskim plinom;
+– način zagotavljanja sistemskih storitev;
+– postopke za obratovanje distribucijskega omrežja v kriznih stanjih;
+– tehnične in druge pogoje za priključitev na distribucijsko omrežje;
+– tehnične pogoje za medsebojno priključitev in delovanje distribucijskih omrežij različnih sistemskih operaterjev.
+(5) Ta akt se uporablja za distribucijsko omrežje zemeljskega plina za geografsko območje, navedeno v prvem odstavku tega člena.
+
+
+### 2. Naloge sistemskega operaterja
+
+
+### 2. člen
+
+Sistemski operater je odgovoren za:
+– distribucijo zemeljskega plina;
+– obratovanje, vzdrževanje in razvoj distribucijskega omrežja;
+– zagotavljanje dolgoročne zmogljivosti distribucijskega omrežja, da omogoča razumne zahteve za priključitev in dostop do omrežja;
+– zanesljivost oskrbe z zemeljskim plinom s tem, da zagotavlja ustrezno zmogljivost in zanesljivost obratovanja distribucijskega omrežja;
+– nediskriminatorno obravnavanje uporabnikov distribucijskega omrežja;
+– zagotavljanje potrebnih podatkov drugim sistemskim operaterjem, z omrežji katerih je distribucijsko omrežje, ki ga upravlja, povezano;
+– zagotavljanje potrebnih podatkov uporabnikom, da lahko učinkovito uveljavljajo dostop do distribucijskega omrežja;
+– napoved porabe zemeljskega plina z uporabo metode celovitega načrtovanja, z upoštevanjem varčevalnih ukrepov pri uporabnikih.
+
+
+### 3. Uporaba podatkov in informacij
+
+
+### 3. člen
+
+(1) Sistemski operater mora varovati zaupnost podatkov in informacij, ki jih pridobi od uporabnikov, razen če predpis zahteva, da se taki podatki objavijo ali posredujejo državnim organom ali drugim organom.
+(2) Sistemski operater ne sme zlorabiti podatkov in informacij o tretjih osebah pri zagotavljanju dostopa do distribucijskega omrežja.
+(3) Pridobljene osebne podatke uporabnikov in odjemalcev mora sistemski operater skladno s predpisi, ki urejajo varstvo osebnih podatkov, uporabljati zakonito in pošteno. Zaradi zavarovanja osebnih podatkov mora sistemski operater organizirati organizacijske, tehnične in logistično-tehnične postopke in ukrepe s katerimi se varujejo osebni podatki, preprečuje slučajno ali namerno nepooblaščeno uničevanje podatkov, njihova sprememba ali izguba ter nepooblaščena obdelava teh podatkov.
+(4) Osebne podatke sistemski operater shranjuje, dokler je to potrebno za dosego namena, zaradi katerega so se zbirali ali nadalje obdelovali.
+
+
+### 4. Pojmi in definicije
+
+
+### 4. člen
+
+(1) V tem aktu so uporabljeni pojmi, kot so določeni v Energetskem zakonu in podzakonskih predpisih, poleg njih pa imajo uporabljeni pojmi naslednji pomen:
+
++--------------------+-----------------------------------------+
+|– distribucija      |je transport zemeljskega plina po        |
+|zemeljskega plina:  |distribucijskem omrežju;                 |
++--------------------+-----------------------------------------+
+|– distribucijsko    |je omrežje plinovodov, ki so funkcionalno|
+|omrežje:            |zgrajeni na zaključenem geografskem      |
+|                    |območju, določenim s strani lokalne      |
+|                    |skupnosti kot območje izvajanja          |
+|                    |gospodarske javne službe dejavnost       |
+|                    |sistemskega operaterja distribucijskega  |
+|                    |omrežja zemeljskega plina in po katerem  |
+|                    |se izvaja distribucija zemeljskega plina |
+|                    |do končnih odjemalcev;                   |
++--------------------+-----------------------------------------+
+|– dobava            |je prodaja, tudi nadaljnja zemeljskega   |
+|zemeljskega plina:  |plina odjemalcem;                        |
++--------------------+-----------------------------------------+
+|– dobavitelj        |pravna ali fizična oseba, ki odjemalcu na|
+|zemeljskega plina:  |osnovi pogodbe dobavlja zemeljski plin;  |
++--------------------+-----------------------------------------+
+|– dostop:           |uporaba distribucijskega omrežja za odjem|
+|                    |dogovorjene količine zemeljskega plina ob|
+|                    |dogovorjenem času;                       |
++--------------------+-----------------------------------------+
+|– glavni plinovod:  |je plinovod v distribucijskem omrežju, na|
+|                    |katerega so vezani priključni plinovodi; |
++--------------------+-----------------------------------------+
+|– izravnava:        |je postopek izravnave med pogodbeno      |
+|                    |prevzeto količino na enem ali več        |
+|                    |prevzemnih mestih in predano količino    |
+|                    |zemeljskega plina na enem ali več        |
+|                    |predajnih mestih uporabnika omrežja;     |
++--------------------+-----------------------------------------+
+|– odorizacija:      |dodajanje odorirnega sredstva zemeljskemu|
+|                    |plinu s čemer dosežemo, da zemeljski plin|
+|                    |pridobi značilen in prepoznaven vonj;    |
++--------------------+-----------------------------------------+
+|– odjemalec:        |pravna ali fizična oseba, ki je na       |
+|                    |pogodbeni osnovi oskrbovana z zemeljskim |
+|                    |plinom za lastno rabo ali nadaljnjo      |
+|                    |prodajo;                                 |
++--------------------+-----------------------------------------+
+|– oskrba:           |je distribucija in dobava zemeljskega    |
+|                    |plina;                                   |
++--------------------+-----------------------------------------+
+|– plinovod:         |je sistem cevovodov z vso pripadajočo    |
+|                    |opremo in postajami do izstopnega mesta; |
++--------------------+-----------------------------------------+
+|– pogodba o dobavi: |je pogodba, ki jo skleneta odjemalec in  |
+|                    |dobavitelj zemeljskega plina, s katero si|
+|                    |odjemalec zagotovi dobavo zemeljskega    |
+|                    |plina v dogovorjeni količini, dinamiki in|
+|                    |kvaliteti;                               |
++--------------------+-----------------------------------------+
+|– pogodba o         |je pogodba, s katero se uredi odnos med  |
+|dostopu:            |sistemskim operaterjem in uporabnikom    |
+|                    |distribucijskega omrežja;                |
++--------------------+-----------------------------------------+
+|– pogodba o         |je pogodba, ki jo po potrebi skleneta    |
+|priključitvi:       |vlagatelj vloge za priključitev na       |
+|                    |distribucijsko omrežje in sistemski      |
+|                    |operater, s katero dogovorita pravna,    |
+|                    |tehnična in komercialna razmerja za      |
+|                    |izvedbo priključitve na distribucijsko   |
+|                    |omrežje;                                 |
++--------------------+-----------------------------------------+
+|– predajno mesto:   |je mesto, na katerem sistemski operater  |
+|                    |preda uporabniku omrežja zemeljski plin; |
++--------------------+-----------------------------------------+
+|– prevzemno mesto:  |je točka na distribucijskem omrežju, v   |
+|                    |kateri sistemski operater na podlagi     |
+|                    |pogodbe z uporabnikom prevzame v         |
+|                    |distribucijo dogovorjene količine        |
+|                    |zemeljskega plina;                       |
++--------------------+-----------------------------------------+
+|– priključitev:     |je izvedba fizične povezave priključnega |
+|                    |plinovoda na distribucijsko omrežje      |
+|                    |sistemskega operaterja;                  |
++--------------------+-----------------------------------------+
+|– priključni        |je plinovod od glavnega plinovoda do     |
+|plinovod:           |izstopnega mesta;                        |
++--------------------+-----------------------------------------+
+|– uporabnik:        |je pravna ali fizična oseba, ki iz       |
+|                    |distribucijskega omrežja odjema ali v    |
+|                    |distribucijsko omrežje oddaja zemeljski  |
+|                    |plin;                                    |
++--------------------+-----------------------------------------+
+|– zaplinjanje:      |zapolnitev plinovoda, postrojenj ali     |
+|                    |objektov z zemeljskim plinom.            |
++--------------------+-----------------------------------------+
+
+
+### II. TEHNIČNI IN DRUGI POGOJI ZA VARNO OBRATOVANJE DISTRIBUCIJSKEGA OMREŽJA Z NAMENOM ZANESLJIVE IN KVALITETNE OSKRBE Z ZEMELJSKIM PLINOM
+
+
+### 1. Distribucijsko omrežje
+
+
+### 5. člen
+
+(1) Distribucijsko omrežje poteka od prevzemnih mest do predajnih mest uporabnikom.
+(2) Z ustreznim načrtovanjem, gradnjo in vzdrževanjem plinovodnega omrežja, merilno-regulacijskih postaj ter druge opreme, s skrbnim upravljanjem in izvajanjem nadzora nad distribucijskim omrežjem ter nadziranjem vseh posegov v varnostnem pasu plinovodov, je sistemski operater dolžan zagotavljati varno in zanesljivo obratovanje distribucijskega omrežja.
+
+
+### 2. Razvoj distribucijskega omrežja
+
+
+### 6. člen
+
+Sistemski operater izdela predloge za nadaljnji razvoj distribucijskega omrežja, skladno z odlokom lokalne skupnosti o načinu izvajanja gospodarske javne službe dejavnost sistemskega operaterja ter na podlagi analize izvajanja distribucije in upravljanja distribucijskega omrežja, značilnosti pretočnih in tlačnih obratovalnih parametrov, dejanske zasedenosti distribucijskega omrežja, zanesljivosti obratovanja, izdanih soglasij za priključitev, anket ter drugih podatkov.
+
+
+### 3. Pogoji za graditev, obratovanje in vzdrževanje distribucijskega omrežja
+
+
+### 7. člen
+
+Pri načrtovanju, graditvi, preskušanju, obratovanju, začetku in prenehanju obratovanja, vzdrževanju, obnavljanju ter drugih delih na distribucijskem omrežju se morajo upoštevati določbe predpisov, ki urejajo tehnične pogoje za graditev, obratovanje in vzdrževanje plinovodov z največjim delovnim tlakom do vključno 16 barov in drugih predpisov.
+
+
+### 8. člen
+
+(1) Pri načrtovanju, graditvi, preskušanju, obratovanju, začetku in prenehanju obratovanja, vzdrževanju, obnavljanju ter drugih delih na distribucijskem omrežju se zaradi poenotenja opreme, dimenzij cevi ter zapornih elementov, materialov, načinov izvedbe, geodetskih posnetkov, katodne zaščite in drugih elementov distribucijskega omrežja, uporablja tudi tehnične zahteve sistemskega operaterja.
+(2) Tehnične zahteve sistemskega operaterja so javne.
+
+
+### 4. Nadzor in varovanje plinovoda
+
+
+### 9. člen
+
+(1) Sistemski operater ima zaradi zagotovitve zanesljivega delovanja distribucijskega omrežja pravico in dolžnost predlagati potrebne spremembe na distribucijskem omrežju ter podati tehnične zahteve, katere mora distribucijsko omrežje zagotavljati.
+(2) Sistemski operater ima zaradi zagotovitve zanesljivega delovanja distribucijskega omrežja pravico in dolžnost gradnje ter izključno pravico nadzora nad gradnjo plinovoda na stroške investitorja gradnje.
+(3) Pred začetkom projektiranja ali poseganja v prostor je dolžan projektant, izvajalec del ali investitor gradnje pridobiti podatke o katastru plinovoda od sistemskega operaterja.
+(4) Po končani izgradnji morajo biti vsi plinovodi geodetsko posneti in vneseni v kataster energetskih in komunalnih vodov, skladno s predpisi in tehničnimi zahtevami sistemskega operaterja.
+
+
+### 10. člen
+
+(1) Za zagotovitev varnosti plinovodov, naprav in objektov na plinovodih ter varnosti objektov, naprav in premoženja ter zdravja in življenja ljudi in živali v območju plinovodov, izdaja sistemski operater soglasja k nameravanim posegom tretjih oseb v varnostni pas plinovoda.
+(2) Na podlagi zahteve za izdajo soglasja za nameravane posege v območje varnostnih pasov plinovodov in predložene projektne dokumentacije, sistemski operater, upoštevajoč določbe tehničnih predpisov, odloči o zahtevi za izdajo soglasja.
+
+
+### 11. člen
+
+Na podlagi izdanega soglasja iz prejšnjega člena se poseg v varnostnem pasu plinovoda izvede skladno s predpisi o graditvi objektov, Pravilnikom o tehničnih pogojih za graditev, obratovanje in vzdrževanje plinovodov z največjim delovnim tlakom do vključno 16 barov in s tem aktom.
+
+
+### 12. člen
+
+V varnostnem pasu plinovoda ima sistemski operater pravico nadzorovati dejavnosti in posege in pravico dostopa do plinovoda. Širina pasu na vsako stran plinovoda je določena glede na delovni tlak zemeljskega plina v plinovodu.
+
+
+### 13. člen
+
+Uporabnik zemeljskega plina, fizična ali pravna oseba so dolžni za izvrševanje obveznosti zagotoviti sistemskemu operaterju prost dostop do plinovoda, kadar se le-ta nahaja na njegovih nepremičninah.
+
+
+### 5. Služba stalne pripravljenosti
+
+
+### 14. člen
+
+Sistemski operater mora organizirati nadzor nad delovanjem in vodenjem distribucijskega omrežja.
+
+
+### 15. člen
+
+(1) Nadzor nad delovanjem in vodenjem distribucijskega omrežja se izvaja s pomočjo procesne, merilne, registracijske, telemetrijske in programske opreme, ki omogoča:
+– distribucijo zemeljskega plina in vodenje distribucijskega omrežja,
+– simuliranje in napovedovanje pretočno-tlačnih razmer v distribucijskem omrežju,
+– ugotavljanje in javljanje kriznih stanj in neuravnoteženih obratovalnih razmer,
+– nadzor nad delovanjem ključnih objektov na distribucijskem omrežju kot na primer merilno-regulacijskih postaj ter drugih objektov,
+– nadzor nad prevzemom in predajo zemeljskega plina večjih uporabnikov,
+– napovedovanje odjema zemeljskega plina,
+– nadzor nad delovanjem in vodenjem distribucijskega omrežja, napovedovanje odjema zemeljskega plina in alociranje prevzetih količin zemeljskega plina.
+(2) Sistemski operater mora organizirati službo stalne pripravljenosti, ki izvaja 24-urni nadzor nad delovanjem distribucijskega omrežja.
+(3) Sistemski operater mora organizirati dispečersko službo, ki izvaja 24-urni nadzor nad delovanjem in vodenjem distribucijskega omrežja.
+(4) Dispečerski center sistemskega operaterja mora biti na primeren način povezan z dispečerskimi centri sistemskega operaterja prenosnega omrežja, sistemskih operaterjev distribucijskih omrežij v sosednjih občinah in večjih odjemalcev zemeljskega plina.
+
+
+### 6. Izvajanje aktivnosti na distribucijskem omrežju
+
+
+### 16. člen
+
+Za zagotovitev varnega in zanesljivega obratovanja distribucijskega omrežja je sistemski operater dolžan izvajati naslednje aktivnosti:
+– vzdrževanje distribucijskega omrežja,
+– redna, izredna (intervencijska) in nepredvidena popravila, adaptacije in rekonstrukcije distribucijskega omrežja,
+– zaščito plinovodnega omrežja pred mehanskimi, električnimi in kemičnimi vplivi,
+– sistemsko kontrolo distribucijskega omrežja,
+– nadzor nad trasami in nad aktivnostmi tretjih oseb v varnostnem pasu plinovodov,
+– servisiranje naprav in opreme.
+
+
+### 7. Predvidena dela na distribucijskem omrežju
+
+
+### 17. člen
+
+(1) Sistemski operater sme začasno prekiniti distribucijo zemeljskega plina zaradi:
+– rednega vzdrževanja,
+– pregledov ali remontov,
+– preskusov ali kontrolnih meritev,
+– razširitev omrežja.
+(2) Za predvideno omejitev ali prekinitev distribucije zemeljskega plina mora sistemski operater izbrati čas, ki čim manj prizadene uporabnike oziroma odjemalce zemeljskega plina. Za začasno omejitev ali prekinitev distribucije zemeljskega plina, ki je posledica izvedbe teh del, sistemski operater ni odškodninsko odgovoren. Predvidena dela se ne smejo izvajati v času, ko je pričakovati večjo porabo zemeljskega plina.
+(3) Sistemski operater mora o predvideni prekinitvi pravočasno obvestiti odjemalce v pisni obliki, v primeru, da gre za širši krog odjemalcev, pa preko sredstev javnega obveščanja vsaj 48 ur pred prekinitvijo.
+(4) Obvestilo iz prejšnjega odstavka mora vsebovati:
+– del plinovodnega omrežja, ki je v delu;
+– predvideni čas omejitve ali prekinitve distribucije zemeljskega plina.
+
+
+### 18. člen
+
+(1) Če je sistemski operater pozvan, da izvede na distribucijskem omrežju določena dela zaradi potrebe tretjih oseb, izvede ta dela na stroške naročnika del, po predhodni presoji upravičenosti zahtevanih del in vpliva predvidenih del na uporabnike. Sistemski operater ni odškodninsko odgovoren za omejitve ali prekinitve distribucije oziroma dobave zemeljskega plina zaradi izvedbe takih del.
+(2) Sistemski operater prične z deli na zahtevo tretje osebe potem, ko mu je ta predložila usklajen dogovor z vsemi prizadetimi uporabniki.
+
+
+### 8. Izredna in nepredvidena dela na distribucijskem omrežju
+
+
+### 19. člen
+
+V primeru motenj ali okvar na distribucijskem omrežju, ki nastanejo kot posledica višje sile ali tretje osebe mora sistemski operater v najkrajšem možnem času izvesti izredna in nepredvidena dela za zagotovitev nemotenega ter zanesljivega delovanja distribucijskega omrežja oziroma organizirati potrebna popravila za vzpostavitev uravnoteženega delovanja.
+
+
+### 20. člen
+
+V primeru iz prejšnjega člena lahko sistemski operater, če je to nujno potrebno zaradi varnosti, zaradi čimprejšnje vzpostavitve nemotenega delovanja ali zaradi drugih upravičenih razlogov, začasno omeji ali prekine distribucijo zemeljskega plina. O dogodku mora z navedbo predvidenega časa za odpravo nastalih motenj nemudoma obvestiti prizadete odjemalce.
+
+
+### 21. člen
+
+(1) Zaradi izrednih in nepredvidenih del, z namenom zagotovitve nemotenega in zanesljivega delovanja distribucijskega omrežja, sistemski operater uporabnikom ne odgovarja za morebitno nastalo škodo zaradi omejene ali prekinjene distribucije zemeljskega plina.
+(2) Tretja oseba, ki povzroči motnje ali okvare na distribucijskem omrežju, nosi vse stroške potrebnih izrednih in nepredvidenih del ter odgovarja za morebitno nastalo škodo.
+
+
+### 9. Prekinitev distribucije
+
+
+### 22. člen
+
+Sistemski operater ustavi uporabniku distribucijo zemeljskega plina po predhodnem obvestilu, če le-ta v roku, določenem v obvestilu, ne izpolni svoje obveznosti, in sicer, če uporabnik omrežja:
+– moti distribucijo zemeljskega plina drugim uporabnikom,
+– odreče ali onemogoči osebam, ki imajo pooblastilo sistemskega operaterja, dostop do vseh delov priključnega plinovoda, do zaščitnih in merilnih naprav in do energetskih objektov, naprav ali napeljav, kadar te naprave povzročajo motnje,
+– brez soglasja sistemskega operaterja priključi na omrežje svoje energetske naprave ali napeljave ali če omogoči prek svojih energetskih naprav priključitev energetskih naprav drugih uporabnikov,
+– na opomin sistemskega operaterja ne zniža odjema oziroma oddaje moči oziroma količine na dogovorjeno vrednost v zahtevanem roku,
+– onemogoča pravilno registriranje obračunskih količin ali če uporablja zemeljski plin brez zahtevanih oziroma dogovorjenih merilnih naprav ali mimo njih,
+– ne plača odstopanj ali cene za uporabo omrežij v roku, določenem v skladu s splošnimi pogoji za dobavo in odjem zemeljskega plina,
+– v roku, ki ga določi sistemski operater oziroma pristojni inšpekcijski organ, ne odstrani oziroma ne zniža do dovoljene meje motenj, ki jih povzročajo njegovi objekti, naprave ali napeljave ali odjemalci,
+– nima dobavitelja.
+
+
+### 23. člen
+
+Sistemski operater ustavi uporabniku omrežja distribucijo zemeljskega plina brez predhodnega obvestila, če uporabnik:
+– z obratovanjem svojih energetskih objektov, naprav ali napeljav ogroža življenje ali zdravje ljudi ali ogroža premoženje,
+– ob pomanjkanju zemeljskega plina ne upošteva posebnih ukrepov o omejevanju odjema plina iz distribucijskega omrežja.
+
+
+### 24. člen
+
+Sistemski operater lahko brez obvestila prekine distribucijo zemeljskega plina tistemu uporabniku, ki si na prevzemnem mestu ni zagotovil količin zemeljskega plina, kar dokazuje s sklenjeno pogodbo o dobavi.
+
+
+### 25. člen
+
+(1) Sistemski operater je dolžan uporabnika distribucijskega omrežja, ki mu je bila ustavljena distribucija plina, na njegove stroške ponovno priključiti na omrežje najkasneje v treh delovnih dneh, ko ugotovi, da je uporabnik omrežja odpravil razloge za ustavitev distribucije plina.
+(2) Sistemski operater, ki je uporabniku omrežja neutemeljeno ustavil ali prekinil distribucijo plina, mora nemudoma in na svoje stroške znova priključiti objekte, naprave ali napeljave uporabnika omrežja na svoje omrežje.
+
+
+### 26. člen
+
+(1) Sistemski operater ima pravico do povračila škode, ki je nastala zaradi ravnanj uporabnika distribucijskega omrežja, zaradi katerih mu je ustavil distribucijo plina po predhodnem obvestilu oziroma brez predhodnega obvestila.
+(2) Uporabnik omrežja, ki mu je sistemski operater neutemeljeno ustavil ali prekinil distribucijo plina, ima pravico do povračila škode, ki mu je bila s tem povzročena.
+
+
+### III. OBRATOVANJE DISTRIBUCIJSKEGA OMREŽJA
+
+
+### 1. Sistemske storitve
+
+
+### 27. člen
+
+Sistemske storitve, ki jih sistemski operater zagotavlja uporabniku omrežja v obsegu koriščenja dostopa, so:
+– vodenje, upravljanje in zagotavljanje dostopa do distribucijskega omrežja,
+– odoriranje zemeljskega plina,
+– zagotavljanje lastne rabe zemeljskega plina,
+– zagotavljanje izgub zemeljskega plina,
+– ugotavljanje in obračunavanje odstopanj med pogodbeno in predano količino zemeljskega plina od napovedi,
+– zagotavljanje potrebnih podatkov uporabnikom omrežja, da lahko učinkovito uveljavljajo dostop do omrežja.
+
+
+### 2. Vodenje, upravljanje in zagotavljanje dostopa do distribucijskega omrežja
+
+
+### 28. člen
+
+(1) Vodenje, upravljanje in zagotavljanje dostopa do distribucijskega omrežja vključujejo predvsem naslednje aktivnosti:
+– zagotavljanje dostopa do distribucijskega omrežja,
+– varno in zanesljivo obratovanje distribucijskega omrežja,
+– načrtovanje distribucijskega omrežja,
+– vodenje distribucijskega omrežja,
+– usklajeno delovanje s sistemskim operaterjem prenosnega omrežja in s sistemskimi operaterji distribucijskih omrežij v sosednjih občinah,
+– zagotavljanje potrebnih podatkov drugim sistemskim operaterjem prenosnih in distribucijskih omrežij, ki so povezana z omrežjem sistemskega operaterja,
+– obdelavo podatkov in obračun distribucije zemeljskega plina in sistemskih storitev,
+– izvajanje ukrepov v primeru okvar in poškodb na distribucijskem omrežju,
+– izvajanje meritev.
+(2) Sistemski operater upravlja distribucijsko omrežje, vključno s priključnimi plinovodi. V primeru priključitve uporabnika na omrežje mora uporabnik dovoliti sistemskemu operaterju brezplačno uporabo zemljišča in delov stavbe za izgradnjo priključnega plinovoda, namestitev regulatorja tlaka in merilnih naprav.
+
+
+### 3. Vodenje distribucijskega omrežja
+
+
+### 29. člen
+
+(1) Sistemski operater mora skrbeti za uravnotežene obratovalne razmere v distribucijskem omrežju.
+(2) V okviru tehničnih možnosti je sistemski operater dolžan vzdrževati takšne pretočno-tlačne razmere v distribucijskem omrežju, da zagotovi varno in zanesljivo obratovanje.
+(3) Za potrebe vodenja distribucijskega omrežja in obračuna storitev ter ugotavljanja količin prevzetega zemeljskega plina v distribucijsko omrežje in predanega iz njega morajo biti na vseh prevzemnih in predajnih mestih ustrezne merilne naprave.
+
+
+### 30. člen
+
+(1) Uporabnik mora zagotoviti, da se plinska napeljava od konca priključnega plinovoda uporablja na način, da niso možne motnje na drugih plinskih napeljavah in da ni motečih posledic za naprave sistemskega operaterja.
+(2) Uporabnik mora sistemskemu operaterju omogočiti dostop do naprav sistemskega operaterja kot tudi do plinske napeljave, priključene na distribucijsko omrežje po predhodni najavi, razen v primeru preteče nevarnosti, na način, da sistemskemu operaterju omogoča uresničevanje naslednjih pravic in dolžnosti:
+– odčitavanje merilnih naprav,
+– vzdrževanje naprav sistemskega operaterja,
+– evidentiranje in preverjanje tehničnih naprav.
+
+
+### 4. Napovedovanje in potrjevanje uporabe distribucijskega omrežja
+
+
+### 31. člen
+
+(1) Uporabniki morajo sistemskemu operaterju posredovati tehnične podatke iz veljavne pogodbe o dobavi zemeljskega plina v zvezi z roki in količinami dobave plina najkasneje v roku sedmih delovnih dni pred začetkom veljavnosti posamezne pogodbe o dobavi.
+(2) Sistemski operater lahko zahteva od uporabnika, da mu posreduje dnevno napoved za posameznega odjemalca, kadar je letni odjem na predajnem mestu odjemalca večji od 100.000 Sm³ zemeljskega plina, pri čemer mora sistemski operater ravnati nediskriminatorno.
+(3) Izvajanje dnevne napovedi koriščenja zmogljivosti za predajno mesto je možno samo v primeru, kadar odjemalec razpolaga z napravo za spremljanje porabe zemeljskega plina, ki omogoča sistemskemu operaterju odčitavanje urnega in dnevnega odjema.
+(4) Uporabnik je pri napovedovanju odjema zemeljskega plina in uporabe distribucijskega omrežja odgovoren za pravilnost posredovanih podatkov.
+
+
+### 32. člen
+
+Če sistemski operater od uporabnika ne prejme zahtevanih podatkov iz prejšnjega člena, lahko sistemski operater temu uporabniku do prejetja le-teh zaradi zagotavljanja zanesljivosti oskrbe, ustavi distribucijo zemeljskega plina.
+
+
+### 5. Obravnavanje odstopanj
+
+
+### 33. člen
+
+(1) Vsak uporabnik zagotavlja, da ne pride do razlik med količino zemeljskega plina, ki jo dobavitelj zanj preda v distribucijsko omrežje, in količino zemeljskega plina, ki jo uporabnik odjema iz distribucijskega omrežja.
+(2) Če uporabnik ugotovi razliko iz prejšnjega odstavka, mora o tem nemudoma obvestiti sistemskega operaterja in v najkrajšem času zagotoviti, da pride do uskladitve med predano in prevzeto količino zemeljskega plina iz distribucijskega omrežja.
+(3) Če uporabnik ne zagotovi uskladitve iz prejšnjega odstavka, mu sistemski operater lahko omeji ali prekine distribucijo zemeljskega plina. V tem primeru sistemski operater ni odgovoren za morebitne škodne posledice. Uporabnik je odgovoren za morebitno škodo, ki jo povzroči drugim uporabnikom distribucijskega omrežja.
+(4) V zvezi z ugotavljanjem morebitne škode, ki jo povzroči določen uporabnik drugim uporabnikom z neuskladitvijo količin zemeljskega plina, ki jih preda v distribucijsko omrežje, in količinami zemeljskega plina, ki jih odjema iz distribucijskega omrežja, mora sistemski operater prenosnega omrežja na zahtevo sistemskega operaterja temu posredovati podatke o prevzetih količinah posameznih dobaviteljev zemeljskega plina po posameznih prevzemnih mestih, na katerih sistemski operater prevzame zemeljski plin od sistemskega operaterja prenosnega omrežja za potrebe posameznega dobavitelja.
+
+
+### 34. člen
+
+(1) Sistemski operater lahko spremlja odstopanja med prevzemom in predajo zemeljskega plina za posameznega odjemalca, ki odjema več kot 70.000 Sm3 /leto zemeljskega plina na enem odjemnem mestu in ima k merilni napravi prigrajen korektor volumna s spominom ali tarifno spominsko enoto za ugotavljanje dnevne in urne predaje zemeljskega plina.
+(2) Sistemski operater mora spremljati odstopanja med prevzemom in predajo zemeljskega plina za posameznega odjemalca, ki odjema več kot 100.000 Sm3 /leto zemeljskega plina na enem odjemnem mestu in ima k merilni napravi prigrajen korektor volumna s spominom ali tarifno spominsko enoto za ugotavljanje dnevne in urne predaje zemeljskega plina.
+(3) Če ni usklajene predaje in odjema, sistemski operater lahko pozove odjemalca, da v določenem roku uskladi odstopanja. Kolikor odjemalec te uskladitve ne izvede v roku predpisanem s strani sistemskega operaterja, mu sistemski operater omeji ali prekine distribucijo zemeljskega plina.
+(4) Sistemski operater ugotavlja količino prevzetega zemeljskega plina za odjemalca iz prvega in drugega odstavka na podlagi naprave iz 60. člena tega akta, ki omogoča daljinski prenos podatkov.
+(5) Če uporabnik ne zagotovi podatkov o količini prevzetega zemeljskega plina za konkretnega odjemalca, ima sistemski operater pravico omejiti ali prekiniti distribucijo zemeljskega plina vsem odjemalcem tega uporabnika brez odgovornosti za morebitne škodne posledice.
+
+
+### 6. Zasedenost distribucijskega omrežja
+
+
+### 35. člen
+
+(1) Podatki o zasedenosti distribucijskega omrežja so javni.
+(2) Sistemski operater podatke o zasedenosti distribucijskega omrežja ugotavlja na podlagi pretočno-tlačnih razmer v distribucijskem omrežju in podatkov iz sklenjenih pogodb o dostopu, sklenjenih pogodb o priključitvi ter izdanih soglasij k priključitvi na distribucijsko omrežje.
+(3) Sistemski operater mora podatke o zasedenosti distribucijskega omrežja posredovati (potencialnemu) uporabniku najkasneje v roku trideset dni po prejemu zahteve za dostop do distribucijskega omrežja.
+
+
+### IV. OBRATOVANJE DISTRIBUCIJSKEGA OMREŽJA V KRIZNIH STANJIH
+
+
+### 1. Krizna stanja
+
+
+### 36. člen
+
+(1) Krizno stanje na distribucijskem omrežju je vsak nenačrtovani dogodek ali okoliščina, zaradi katere je moteno uravnoteženo obratovanje dela ali celotnega distribucijskega omrežja in prekinjena ali ustavljena distribucija zemeljskega plina.
+(2) V primeru kriznih stanj distribucijskega omrežja ima sistemski operater pravico in obveznost, da takoj izvede možne tehnične ukrepe, s katerimi prepreči širjenje motenj ter vzpostavi nemoteno distribucijo zemeljskega plina.
+
+
+### 2. Višja sila
+
+
+### 37. člen
+
+Kot višjo silo se obravnava vsak dogodek ali okoliščino, ki je izven nadzora sistemskega operaterja in je ni bilo mogoče pričakovati, se ji izogniti oziroma jo odvrniti, kot so na primer: povodnji in poplave, zemeljski plazovi, potresi, ukrepi državnih organov, tehnične okvare in poškodbe na povezanih prenosnih in distribucijskih omrežjih, izpad električnega omrežja na območju uporabnika ali odjemalca zemeljskega plina in zmrzovanje ali nastajanje hidratov na plinskih napeljavah.
+
+
+### 38. člen
+
+(1) Kadar sistemski operater delno ali v celoti ne izpolni pogodbenih obveznosti zaradi nastopa višje sile, je za čas njenega trajanja prost kakršnekoli odgovornosti do uporabnikov.
+(2) V primeru, da višja sila sistemskemu operaterju delno ali v celoti preprečuje izpolnjevanje pogodbenih obveznosti več kot 30 dni, se morata sistemski operater in uporabnik pisno dogovoriti o nadaljnjem izvrševanju pogodbe.
+
+
+### 3. Obveščanje uporabnikov
+
+
+### 39. člen
+
+Sistemski operater mora preko sredstev javnega obveščanja ali na drug primeren način obveščati uporabnike o nastanku kriznega stanja ali višje sile.
+
+
+### 4. Odškodninska odgovornost
+
+
+### 40. člen
+
+(1) V primeru omejitve ali prekinitve distribucije zemeljskega plina zaradi delovanja višje sile ali nastanka kriznega stanja, sistemski operater ni odškodninsko odgovoren dobaviteljem, uporabnikom in odjemalcem zemeljskega plina ter tretjim osebam, kolikor spoštuje obveznost obveščanja iz 39. člena tega akta.
+(2) Sistemski operater je odškodninsko odgovoren, če povzroči krizno stanje.
+
+
+### V. TEHNIČNI IN DRUGI POGOJI ZA PRIKLJUČITEV NA DISTRIBUCIJSKO OMREŽJE
+
+
+### 1. Postopek priključitve na distribucijsko omrežje
+
+
+### 41. člen
+
+Postopek in pogoje priključitve urejajo splošni pogoji za dobavo in odjem zemeljskega plina iz distribucijskega omrežja.
+
+
+### 42. člen
+
+Priključitev energetskih objektov, naprav, napeljav in plinovodov na distribucijsko omrežje je potrebno izvesti skladno z zakoni, ki urejajo posege v prostor, graditev objektov, energetskim zakonom ter drugimi veljavnimi predpisi.
+
+
+### 2. Priključitev na distribucijsko omrežje
+
+
+### 43. člen
+
+(1) Energetski objekti, naprave, napeljave in plinovodi, ki se priključujejo na distribucijsko omrežje, morajo izpolnjevati predpisane tehnične normative in druge pogoje za zagotavljanje njihovega nemotenega ter varnega delovanja v povezavi z distribucijskim omrežjem.
+(2) Energetski objekti, naprave, napeljave in plinovodi, ki se priključujejo na distribucijsko omrežje, morajo biti zgrajeni po enakih ali primerljivih tehničnih normativih kot del distribucijskega omrežja, na katerega se priključijo in za katerega je bilo izdano uporabno dovoljenje.
+(3) Neposredno priključitev na distribucijsko omrežje izvede sistemski operater.
+(4) Sistemski operater mora izvesti prvo zaplinjanje distribucijskega omrežja z zemeljskim plinom.
+
+
+### 44. člen
+
+Z izvedbo ali opustitvijo preskusa plinske napeljave uporabnika omrežja, kot tudi z odobritvijo in izvedbo zaplinjanja, sistemski operater ne prevzame nobene odgovornosti za brezhibnost plinske napeljave.
+
+
+### 3. Postopek zaplinjanja
+
+
+### 45. člen
+
+(1) Uporabnik mora pred izvedbo zaplinjanja glavnega plinovoda sistemskemu operaterju predložiti naslednje dokumente:
+– uporabno dovoljenje ali
+– odločbo o poskusnem obratovanju.
+(2) Po končanem poskusnem obratovanju mora uporabnik skladno z zakonom, ki ureja graditev objektov, sistemskemu operaterju predložiti uporabno dovoljenje.
+(3) Zaplinjanje glavnega plinovoda izvede sistemski operater.
+
+
+### 46. člen
+
+(1) Uporabnik mora pred izvedbo zaplinjanja priključnega plinovoda sistemskemu operaterju predložiti:
+a) dokazilo o zanesljivosti objekta v skladu s predpisi, ki urejajo graditev objektov ali
+b) odločbo o poskusnem obratovanju ali
+c) dokazila o usposobljenosti instalacijskega podjetja ali obrtnika, ki je izvedlo priključni plinovod, da je za to dejavnost registrirano in usposobljeno; certifikate o skladnosti vgrajenih materialov; zapisnik o tlačnem preskusu priključnega plinovoda; dokazilo o vrisu priključnega plinovoda v kataster plinovodnega omrežja ter izjavo o izvajanju nadzora s strani sistemskega operaterja.
+(2) Pod točkama a) in b) mora uporabnik po končanem tehničnem pregledu oziroma po končanem poskusnem obratovanju, skladno z zakonom, ki ureja graditev objektov sistemskemu operaterju predložiti uporabno dovoljenje.
+(3) Sistemski operater lahko zaradi zagotovitve varnosti zahteva tudi izpolnjevanje dodatnih pogojev.
+(4) Zaplinjanje priključnega plinovoda izvede sistemski operater.
+(5) Zaplinjanje priključnega plinovoda, uporabniku ne dovoljuje tudi odjema plina.
+
+
+### 4. Merjenje pretoka in količin zemeljskega plina
+
+
+### 47. člen
+
+Sistemski operater mora zagotoviti meritve pretečenih količin zemeljskega plina iz distribucijskega omrežja na vseh predajnih in prevzemnih mestih, razen na tistih prevzemnih mestih, ki so v lasti sistemskega operaterja prenosnega omrežja.
+
+
+### 48. člen
+
+Na predajnih in prevzemnih mestih se meri količino pretečenega zemeljskega plina v standardnih kubičnih metrih (Sm3). Standardni kubični meter (Sm3) je količina zemeljskega plina v volumnu 1 m3 pri absolutnem tlaku 101,325 kPa (1,01325 bar) in temperaturi 15 °C.
+
+
+### 49. člen
+
+(1) Merilne naprave za ugotavljanje predanih količin zemeljskega plina so plinomeri in korektorji volumna.
+(2) Pri uporabnikih, ki imajo merilne naprave nameščene na delu plinske napeljave, kjer je nadtlak zemeljskega plina večji od 20 mbar ali manjši oziroma enak 30 mbar, se količine predanega zemeljskega plina lahko merijo s plinomerom s prigrajenim korektorjem volumna ali z uporabo korekcijskega faktorja, pri nadtlaku večjem od 30 mbar pa se morajo količine predanega zemeljskega plina meriti s plinomerom s prigrajenim korektorjem volumna.
+(3) Korekcijski faktor se izračuna na podlagi lokalnih klimatskih pogojev, ki jih sistemski operater izračuna na podlagi tehničnih pravil in predpisov.
+(4) Korektor volumna mora omogočati arhiviranje vseh urnih in dnevnih podatkov vsaj za zadnje 4 mesece.
+(5) V primeru delovanja plinomera in nedelovanja korektorja volumna, se za ugotavljanje predanih količin zemeljskega plina uporablja korekcijski faktor.
+
+
+### 50. člen
+
+(1) Kolikor merilne naprave pri uporabnikih, ki so nameščene na delu plinske napeljave, kjer je nadtlak zemeljskega plina večji od 20 mbar ali manjši oziroma enak 30 mbar, nimajo prigrajenega korektorja volumna, se upošteva kot da so na predajnem mestu izpolnjeni standardni pogoji iz 48. člena.
+(2) Uporabnik ima možnost nabave in vgradnje korektorja volumna na lastne stroške.
+
+
+### 51. člen
+
+Merilne naprave sistemski operater namesti vsakemu novemu uporabniku na njegove stroške. Tip, velikost in mesto namestitve merilne naprave določi projektant v skladu s pogoji sistemskega operaterja. Vse merilne naprave morajo imeti žig pooblaščenega organa. Po namestitvi merilne naprave, se na napravo namesti plomba, ki onemogoča njeno demontažo brez poškodbe.
+
+
+### 52. člen
+
+Vsa dela v zvezi z nameščanjem, premeščanjem in vzdrževanjem merilnih naprav lahko izvaja samo sistemski operater.
+
+
+### 53. člen
+
+Redne preglede merilnih naprav v zakonitem roku in zamenjavo teh izvaja sistemski operater v skladu z zakonodajo.
+
+
+### 54. člen
+
+Količine predanega zemeljskega plina se ugotovijo na podlagi odčitka merilne naprave. Merilne naprave odčitava pooblaščena oseba sistemskega operaterja, ali po predhodnem dogovoru s sistemskim operaterjem uporabnik sam ali se odčitavajo z napravo, ki omogoča daljinski prenos podatkov.
+
+
+### 55. člen
+
+Sistemski operater zaračunava uporabniku posredovanje podatkov o odčitkih merilnih naprav, ki niso zajeti v omrežnini za distribucijsko omrežje.
+
+
+### 56. člen
+
+Pri izvajanju aktivnosti iz 53., 54. in 55. člena tega akta mora uporabnik sistemskemu operaterju omogočiti neoviran dostop do vseh merilnih naprav na predajnih mestih zemeljskega plina.
+
+
+### 57. člen
+
+Če sistemski operater zaradi odsotnosti uporabnika ali zaradi drugih razlogov na strani uporabnika ni mogel odčitati merilne naprave, je uporabnik dolžan na osnovi obvestila sistemskega operaterja javiti pravilen odčitek v roku in na način, ki ga določi sistemski operater. Če uporabnik ne javi odčitka ali sistemskemu operaterju ne omogoči dostopa do merilnih naprav na predajnih mestih, mu sistemski operater določi količino predanega plina glede na njegovo dinamiko oskrbe s plinom v preteklem obdobju, upoštevaje tudi druge možne vplive.
+
+
+### 58. člen
+
+(1) Če se ugotovi, da so zaradi okvare merilne naprave, ki je nastala brez krivde uporabnika, količine predanega zemeljskega plina nepravilno registrirane oziroma nepravilno merjene, se na podlagi dokumentiranih podatkov izmerjene količine plina sporazumno popravijo za čas, od zadnje kontrole merilne naprave do ugotovitve nepravilnosti, vendar za največ 12 mesecev od dneva, ko so bile nepravilnosti ugotovljene.
+(2) Pri tem je potrebno upoštevati vse okoliščine, v katerih je uporabnik odjemal zemeljski plin v času, ko je merilna naprava nepravilno merila oziroma registrirala količine predanega zemeljskega plina.
+(3) Če ne pride do sporazumnega popravka izmerjenih količin, se popravek izvrši tako, da se predane količine plina za obračunsko obdobje, v katerem merilne naprave niso pravilno merile oziroma registrirale teh količin, določi na osnovi srednjih vrednosti predanih količin, v obdobju pred in po nastanku okvare, z upoštevanjem dinamike distribucije plina.
+(4) Če je pri odjemalcu zaradi namestitve ali odstranitve plinskih naprav treba zamenjati merilno napravo z novo drugih dimenzij in karakteristik, nosi stroške nabave in vgradnje nove merilne naprave ter ostale stroške predelave plinske napeljave odjemalec.
+(5) Sistemski operater in odjemalec imata poleg rednih pregledov vedno pravico kontrolirati točnost merilne naprave. Če se pri preskusu izkaže, da je točnost merilne naprave izven dopustnih meja, plača stroške pregleda sistemski operater, v nasprotnem primeru pa odjemalec oziroma lastnik merilne naprave.
+
+
+### 59. člen
+
+(1) Odjemalci, katerim sistemski operater preda več kot 70.000 Sm3/leto zemeljskega plina na enem odjemnem mestu, imajo lahko k merilni napravi prigrajeno tarifno spominsko enoto za ugotavljanje dnevne in urne predaje plina. V primeru vgrajenega korektorja volumna s spominsko enoto, tarifna spominska enota ni potrebna.
+(2) Odjemalci, katerim sistemski operater preda več kot 100.000 Sm3/leto zemeljskega plina na enem odjemnem mestu, morajo imeti k merilni napravi prigrajeno tarifno spominsko enoto za ugotavljanje dnevne in urne predaje plina. V primeru vgrajenega korektorja volumna s spominsko enoto, tarifna spominska enota ni potrebna.
+(3) Odjemalci iz prejšnjega odstavka morajo k merilni napravi s prigrajeno tarifno spominsko enoto oziroma korektorju volumna, prigraditi še napravo, ki omogoča daljinski prenos podatkov o predani količini plina in o drugih parametrih plina (tlak, temperatura), če to ne omogoča že sama naprava. Zahtevane lastnosti naprav s funkcijo daljinskega prenosa podatkov predpiše sistemski operater.
+(4) V primeru da odjemalec nima vgrajene merilne naprave iz drugega odstavka tega člena, je do vgradnje merilne naprave uvrščen v ustrezno nižjo odjemno skupino, za katero namestitev takšne naprave ni potrebna.
+(5) Tarifne spominske enote in naprave, ki omogočajo daljinski prenos podatkov, namešča, premešča in vzdržuje sistemski operater na stroške uporabnika.
+(6) Odjemalci pri katerih so nameščene merilne naprave, ki za svoje delovanje potrebujejo električno energijo morajo sistemskemu operaterju, če je to tehnično možno, omogočiti priklop na električno omrežje.
+
+
+### 60. člen
+
+(1) Vsem uporabnikom omrežja, ki nimajo prigrajenega korektorja volumna ali tarifne spominske enote, sistemski operater obračunava omrežnino na osnovi standardnega obremenitvenega profila skladno s pogodbo o dostopu.
+(2) Vsem ostalim uporabnikom omrežja sistemski operater obračunava omrežnino na podlagi podatkov, odčitanih s korektorja volumna oziroma tarifne spominske enote, upoštevajoč pogodbo o dostopu.
+
+
+### 5. Kakovost zemeljskega plina
+
+
+### 61. člen
+
+(1) Kakovost prevzetega zemeljskega plina na prevzemnem mestu se dvakrat mesečno spremlja s certifikati o sestavi zemeljskega plina, ki jih sistemskemu operaterju posreduje sistemski operater prenosnega omrežja.
+(2) Vsak dobavitelj, ki dobavlja zemeljski plin odjemalcem, priključenim na distribucijsko omrežje, je dolžan na zahtevo sistemskega operaterja predložiti specifikacijo o količini in/ali sestavi zemeljskega plina, ki ga je predal v transport.
+
+
+### 62. člen
+
+(1) Sistemski operater je dolžan sprejeti v distribucijo le zemeljski plin z lastnostmi določenimi v Prilogi 1, ki je sestavni del tega akta. Kolikor kakovost zemeljskega plina odstopa od te specifikacije, sistemski operater ni dolžan prevzeti zemeljskega plina v distribucijo.
+(2) Sistemski operater ima pravico, da uporabniku na predajnem mestu predaja zemeljski plin z drugačno sestavo, kot je tista na prevzemnem mestu, kolikor zemeljski plin ustreza zahtevanim lastnostim iz Priloge 1 tega akta.
+(3) Sistemski operater mora zemeljski plin v distribucijskem omrežju odorirati z dodajanjem odorirnega sredstva, s čemer zemeljski plin pridobi značilen vonj. Odorirno sredstvo se zemeljskemu plinu izjemoma ne dodaja, ko to zaradi tehnoloških omejitev ni dopustno. V tem primeru mora sistemski operater zagotoviti nadomestno metodo ali sredstvo za ugotavljanje netesnosti omrežja.
+
+
+### VII. PREHODNA DOLOČBA
+
+
+### 63. člen
+
+Z dnem začetka uporabe tega akta prenehajo veljati določila Pogojev za dobavo in odjem plina iz plinovodnega omrežja Javnega podjetja Energetika Ljubljana, d.o.o. (Uradni list RS, št. 15/92, 37/94 in 22/95), ki so v nasprotju s tem aktom.
+
+
+### VIII. KONČNA DOLOČBA
+
+
+### 64. člen
+
+Ta akt začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+
+### 65. člen
+
+Ta akt velja do uveljavitve sistemskih obratovalnih navodil za geografsko območje iz 1. člena tega akta, objavljenih s strani sistemskega operaterja, ki opravlja dejavnost na tem območju.
+
+Št. 22-25/2006-15/ZP-22
+
+Maribor, dne 9. julija 2007
+
+EVA 2007-2111-0117
+
+Predsednik sveta
+Javne agencije Republike Slovenije
+za energijo
+dr. Franc Žlahtič l.r.
+
+PRILOGA 1
+
+        Kemične in fizikalne lastnosti zemeljskega plina
+
+   Sistemski operater je dolžan sprejeti v distribucijo le
+zemeljski plin z naslednjimi lastnostmi:
+
+a. Kemična sestava (v mol odstotkih):
++----------------------------+-----------------+---------------+
+|metan (C(1))                |minimum          |          89,7%|
++----------------------------+-----------------+---------------+
+|etan (C(2))                 |maksimum         |           6,3%|
++----------------------------+-----------------+---------------+
+|propan, butan in težji      |maksimum         |           2,1%|
++----------------------------+-----------------+---------------+
+|(C(3), C(4)+)               |                 |               |
++----------------------------+-----------------+---------------+
+|kisik (O(2))                |brez             |               |
++----------------------------+-----------------+---------------+
+|dušik (N(2))                |maksimum         |           2,1%|
++----------------------------+-----------------+---------------+
+|ogljikov dioksid (CO(2))    |maksimum         |         1,575%|
++----------------------------+-----------------+---------------+
+
+
+b. Vsebnost žvepla:
++----------------------------+-----------------+---------------+
+|žveplovodik (H(2)S)         |maksimum         |     6,3 mg/Sm3|
++----------------------------+-----------------+---------------+
+|merkaptansko žveplo         |maksimum         |   15,75 mg/Sm3|
++----------------------------+-----------------+---------------+
+|skupaj žvepla               |maksimum         |  105,00 mg/Sm3|
++----------------------------+-----------------+---------------+
+
+
+c. Spodnja kurilna vrednost:
+
++----------------------------+-----------------+---------------+
+|minimum                     |33650 kJ/Sm3     |        (15 °C)|
++----------------------------+-----------------+---------------+
+|maksimum                    |36630 kJ/Sm3     |        (15 °C)|
++----------------------------+-----------------+---------------+
+
+
+d. Rosišče:
+
++----------------------------+---------------------------------+
+|vode:                       |ne višje kot minus 7 °C pri      |
+|                            |tlaku 39 bar                     |
++----------------------------+---------------------------------+
+|ogljikovodikov:             |ne višje kot minus 5 °C pri      |
+|                            |tlaku od 39 bar do 69 bar        |
++----------------------------+---------------------------------+
+
+
+e. Temperatura:
++----------------------------+---------------------------------+
+|maksimum                    |42° C                            |
++----------------------------+---------------------------------+
+
+
+f. Plin brez mehanskih primesi, smol ali spojin, ki tvorijo
+smole.
