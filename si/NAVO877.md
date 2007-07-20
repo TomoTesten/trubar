@@ -1,0 +1,549 @@
+---
+kratica: NAVO877
+naziv: "Sistemska obratovalna navodila za distribucijsko omrežje za oskrbo s toploto za geografsko območje Mestne občine Maribor"
+vrsta: "navodilo"
+datum: 2007-07-20
+sop: 2007-01-3569
+organ: "Javno podjetje Toplotna oskrba, d.o.o., Maribor"
+zbirka: "Splošni akti za izvrševanje javnih pooblastil"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3569"
+---
+
+# Sistemska obratovalna navodila za distribucijsko omrežje za oskrbo s toploto za geografsko območje Mestne občine Maribor
+
+Na podlagi četrtega odstavka 40. člena Energetskega zakona (Uradni list RS, št. 27/07 – uradno prečiščeno besedilo) Javno podjetje Toplotna oskrba, d.o.o., Maribor kot izvajalec gospodarske javne službe dejavnosti distribucije toplote na geografskem območju Mestne občine Maribor, po pridobitvi soglasja sveta Javne agencije Republike Slovenije za energijo št. 33-8/2006/DT-36, z dne, 13. junija 2007 izdaja
+
+
+## S I S T E M S K A  O B R A T O V A L N A  N A V O D I L A
+za distribucijsko omrežje za oskrbo s toploto za geografsko območje Mestne občine Maribor
+
+
+### I. SPLOŠNE DOLOČBE
+
+
+### 1. Namen in predmet urejanja
+
+
+### 1. člen
+
+(1) Ta akt ureja obratovanje in način vodenja distribucijskega omrežja za oskrbo s toploto (v nadaljnjem besedilu: distribucijsko omrežje), ki je v upravljanju Javnega podjetja Toplotna oskrba, d.o.o., Maribor (v nadaljnjem besedilu: distributer toplote) za geografsko območje Mestne občine Maribor.
+(2) Ta akt se uporablja za distributerja toplote, odjemalce toplote in uporabnike, ki so oskrbovani po distribucijskem omrežju.
+(3) Ta akt se uporablja tudi za tiste pravne ali fizične osebe, ki načrtujejo, projektirajo, gradijo ter izvajajo vzdrževalna dela na distribucijskem omrežju ali na drugih soodvisnih objektih.
+(4) Ta akt določa predvsem:
+– tehnične in druge pogoje za varno obratovanje distribucijskega omrežja z namenom zanesljive in kvalitetne oskrbe s toploto;
+– način zagotavljanja sistemskih storitev;
+– postopke za obratovanje distribucijskega omrežja v kriznih stanjih;
+– tehnične in druge pogoje za priključitev na distribucijsko omrežje.
+(5) Ta akt se uporablja za distribucijsko omrežje za geografsko območje, navedeno v prvem odstavku, za katero je bilo ustanovljeno javno podjetje.
+
+
+### 2. Naloge distributerja toplote
+
+
+### 2. člen
+
+Distributer toplote je odgovoren za:
+– distribucijo toplotne energije;
+– obratovanje, vzdrževanje in razvoj distribucijskega omrežja;
+– zagotavljanje dolgoročne zmogljivosti distribucijskega omrežja, da omogoča razumne zahteve za priključitev in dostop do omrežja;
+– zanesljivost oskrbe s toploto s tem, da zagotavlja ustrezno zmogljivost in zanesljivost obratovanja distribucijskega omrežja;
+– nediskriminatorno obravnavanje uporabnikov in odjemalcev toplote distribucijskega omrežja;
+– zagotavljanje potrebnih podatkov uporabnikom in odjemalcem toplote, da lahko učinkovito uveljavljajo dostop do distribucijskega omrežja;
+– napoved porabe toplote z uporabo metode celovitega načrtovanja, z upoštevanjem varčevalnih ukrepov pri porabnikih.
+
+
+### 3. Uporaba podatkov in informacij
+
+
+### 3. člen
+
+(1) Distributer toplote mora varovati zaupnost podatkov in informacij, ki jih pridobi od uporabnikov in odjemalcev toplote, razen če predpisi zahtevajo, da se podatki objavijo ali posredujejo državnim ali drugim organom.
+(2) Distributer toplote ne sme zlorabiti podatkov in informacij o tretjih osebah pri zagotavljanju dostopa do distribucijskega omrežja.
+(3) Pridobljene osebne podatke uporabnikov in odjemalcev toplote mora distributer toplote skladno s predpisi, ki urejajo varstvo osebnih podatkov uporabljati zakonito in pošteno. Zaradi varstva osebnih podatkov mora distributer toplote organizirati organizacijske, tehnične in logistično-tehnične postopke in ukrepe, s katerimi se varujejo osebni podatki, preprečuje naključno ali namerno nepooblaščeno uničevanje podatkov, njihova sprememba ali izguba ter nepooblaščena obdelava teh podatkov.
+(4) Osebne podatke distributer toplote shranjuje, dokler je to potrebno za dosego namena, zaradi katerega so se zbirali ali nadalje obdelovali.
+
+
+### 4. Pojmi in definicije
+
+
+### 4. člen
+
+V tem aktu so uporabljeni pojmi, kot so določeni v Energetskem zakonu in podzakonskih predpisih, poleg njih pa imajo uporabljeni pojmi naslednji pomen:
+
++------------------+-------------------------------------------+
+|-distribucija     |je izbirna lokalna gospodarska javna       |
+|toplote           |služba, ki obsega tako dejavnosti dobave   |
+|                  |toplote ali hladu iz omrežij za            |
+|                  |distribucijo, kot tudi dejavnosti          |
+|                  |sistemskega operaterja distribucijskega    |
+|                  |omrežja;                                   |
++------------------+-------------------------------------------+
+|– distribucija    |je prenos tople vode, vroče vode, pare ali |
+|toplotne energije |hladu po distribucijskem omrežju;          |
++------------------+-------------------------------------------+
+|– distribucijsko  |je omrežje za prenos tople vode, vroče     |
+|omrežje           |vode, pare ali hladu, katerega predstavlja |
+|                  |sistem povezanih naprav, ki so namenjene   |
+|                  |distribuciji energije do priključnega voda |
+|                  |oziroma do odjemnega mesta;                |
++------------------+-------------------------------------------+
+|– distributer     |je izvajalec dejavnosti distribucije       |
+|toplote           |toplote, kar pomeni tako izvajalec         |
+|                  |dejavnosti dobave toplote ali hladu kot    |
+|                  |tudi izvajalec dejavnosti sistemskega      |
+|                  |operaterja distribucijskega omrežja;       |
++------------------+-------------------------------------------+
+|– dostop          |uporaba distribucijskega omrežja za odjem  |
+|                  |ali oddajo dogovorjene količine toplote v  |
+|                  |dogovorjenem časovnem obdobju;             |
++------------------+-------------------------------------------+
+|– merilna naprava |– merilnik toplotne energije na odjemnem   |
+|je                |mestu, ki meri dobavljeno toploto          |
+|                  |neposredno in na katerem se odčita         |
+|                  |količina, ki je osnova za obračunavanje    |
+|                  |dobavljene toplote odjemalcem toplote; –   |
+|                  |vodomer na merilnem mestu, ki meri toploto |
+|                  |posredno z merjenjem porabe količine vode  |
+|                  |za sanitarno toplo vodo in na katerem se   |
+|                  |odčita količina, ki je osnova za           |
+|                  |obračunavanje dobavljene toplote za        |
+|                  |ogrevanje sanitarne tople vode;            |
++------------------+-------------------------------------------+
+|– odjemalec       |je vsaka fizična ali pravna oseba, kateri  |
+|toplote           |distributer toplote na podlagi pisne       |
+|                  |pogodbe dobavlja toplo vodo, vročo vodo,   |
+|                  |paro ali hlad po distribucijskem omrežju.  |
+|                  |Odjemalec toplote je lahko tudi skupina    |
+|                  |fizičnih ali pravnih oseb, ki so           |
+|                  |priključene na skupno odjemno mesto;       |
++------------------+-------------------------------------------+
+|– odjemno mesto   |je točka v toplotni postaji, kjer          |
+|                  |distributer toplote pod pogoji za dobavo in|
+|                  |odjem toplote omogoča priključitev na      |
+|                  |distribucijsko omrežje in kjer odjemalec   |
+|                  |toplote prevzema dobavljeno energijo;      |
++------------------+-------------------------------------------+
+|– prevzemno mesto |točka na distribucijskem omrežju, v kateri |
+|                  |distributer toplote na podlagi pogodbe z   |
+|                  |uporabnikom prevzame v distribucijo        |
+|                  |dogovorjene količine toplotne energije;    |
++------------------+-------------------------------------------+
+|– priključitev    |izvedba fizične povezave priključnega voda |
+|                  |distribucijskega omrežja na distribucijsko |
+|                  |omrežje;                                   |
++------------------+-------------------------------------------+
+|– priključni vod  |je vod, ki z energijo oskrbuje posamezno   |
+|                  |stavbo in poteka od priključnega odcepa na |
+|                  |glavnem vodu do toplotne postaje;          |
++------------------+-------------------------------------------+
+|– toplotna        |je vezni člen med toplotnim omrežjem       |
+|postaja           |(vključno s priključnim vodom) in internimi|
+|                  |toplotnimi napravami odjemalca toplote.    |
+|                  |Sestavljena je iz priključne in hišne      |
+|                  |postaje in s svojim delovanjem uravnava    |
+|                  |dobavo toplote v interne toplotne naprave. |
+|                  |Deli se na primarni in sekundarni del, ki  |
+|                  |sta med seboj povezana posredno preko      |
+|                  |toplotnih prenosnikov;                     |
++------------------+-------------------------------------------+
+|– uporabnik       |pravna ali fizična oseba, ki iz            |
+|                  |distribucijskega omrežja odjema ali oddaja |
+|                  |toploto v distribucijsko omrežje;          |
++------------------+-------------------------------------------+
+|– varnostni pas   |je območje širine 1,5 metra na vsako stran |
+|distribucijskega  |zunanjega gabarita elementov               |
+|omrežja           |distribucijskega omrežja.                  |
++------------------+-------------------------------------------+
+
+
+### II. TEHNIČNI IN DRUGI POGOJI ZA VARNO OBRATOVANJE DISTRIBUCIJSKEGA OMREŽJA Z NAMENOM ZANESLJIVE IN KVALITETNE OSKRBE S TOPLOTO
+
+
+### 1. Distribucijsko omrežje
+
+
+### 5. člen
+
+(1) Distribucijsko omrežje predstavlja sistem povezanih naprav, ki so namenjene distribuciji toplotne energije od prevzemnega mesta do priključnega voda oziroma do odjemnega mesta.
+(2) Z ustreznim načrtovanjem, gradnjo in vzdrževanjem distribucijskega omrežja ter druge opreme, s skrbnim upravljanjem in izvajanjem nadzora nad distribucijskim omrežjem ter nadziranjem vseh posegov v varnostnem pasu distribucijskega omrežja (v nadaljnjem besedilu: varnostni pas), je distributer toplote dolžan zagotavljati varno in zanesljivo obratovanje distribucijskega omrežja.
+
+
+### 2. Razvoj distribucijskega omrežja
+
+
+### 6. člen
+
+Distributer toplote izdela predloge za nadaljnji razvoj distribucijskega omrežja, skladno z odlokom lokalne skupnosti o načinu izvajanja gospodarske javne službe distribucije toplote ter na podlagi analize izvajanja distribucije toplotne energije, značilnosti temperaturnih, pretočnih in tlačnih obratovalnih parametrov, dejanske zasedenosti distribucijskega omrežja, zanesljivosti obratovanja, izdanih soglasij za priključitev, anket ter drugih relevantnih podatkov.
+
+
+### 3. Pogoji za graditev, obratovanje in vzdrževanje distribucijskega omrežja
+
+
+### 7. člen
+
+(1) Pri načrtovanju, graditvi, preskušanju, obratovanju, začetku in prenehanju obratovanja, vzdrževanju, obnavljanju ter drugih delih na distribucijskem omrežju, se zaradi poenotenja opreme, dimenzij cevi ter zapornih elementov, materialov, načinov izvedbe, geodetskih posnetkov in drugih elementov distribucijskega omrežja uporabljajo tudi tehnične zahteve distributerja toplote.
+(2) Tehnične zahteve distributerja toplote so javne.
+
+
+### 4. Nadzor in varovanje distribucijskega omrežja
+
+
+### 8. člen
+
+(1) Distributer toplote zagotavlja nadzor nad delovanjem in vodenjem distribucijskega omrežja.
+(2) Nadzor nad delovanjem in vodenjem distribucijskega omrežja se izvaja s pomočjo procesne, merilne, registracijske, telemetrijske in programske opreme. Oprema omogoča:
+– distribucijo toplotne energije in vodenje distribucijskega omrežja;
+– simuliranje in napovedovanje pretočno-tlačnih razmer v distribucijskem omrežju;
+– ugotavljanje in javljanje kriznih stanj in neuravnoteženih obratovalnih razmer;
+– nadzor nad delovanjem ključnih objektov na distribucijskem omrežju ter drugih objektov;
+– nadzor nad prevzemom in predajo toplote uporabnikom;
+– nadzor nad delovanjem in vodenjem distribucijskega omrežja, napovedovanje odjema toplote in določanje prevzetih količin toplote.
+
+
+### 9. člen
+
+(1) Distributer toplote ima zaradi zagotovitve zanesljivega delovanja distribucijskega omrežja pravico in dolžnost predlagati potrebne spremembe na distribucijskem omrežju ter podati minimalne tehnične zahteve, katere mora distribucijsko omrežje zagotavljati.
+(2) Predvidene potrebne spremembe distribucijskega omrežja distributer toplote poda lastniku omrežja vsako leto ob sprejemanju letnih planov, skladno z dolgoročnim razvojnim načrtom za obdobje desetih let.
+(3) Po končani izgradnji oziroma spremembi distribucijskega omrežja, morajo nastale spremembe distribucijskega omrežja biti geodetsko posnete in vnesene v kataster energetskih in komunalnih vodov, skladno z veljavnimi predpisi.
+
+
+### 10. člen
+
+(1) Za zagotovitev varnosti vodov distribucijskega omrežja, naprav in objektov na distribucijskem omrežju, objektov, naprav in premoženja ter življenja in zdravja ljudi in živali v območju distribucijskega omrežja izdaja distributer toplote soglasja k nameravanim posegom tretjih oseb v varnostni pas.
+(2) Na podlagi zahteve za izdajo soglasja za nameravane posege v območje varnostnih pasov in predložene projektne dokumentacije distributer toplote, upoštevajoč določbe veljavnih tehničnih predpisov, odloči o zahtevi za izdajo soglasja.
+
+
+### 11. člen
+
+Na podlagi izdanega soglasja iz prejšnjega člena se poseg v varnostnem pasu izvede skladno s predpisi o graditvi objektov in s tehničnimi zahtevami distributerja toplote.
+
+
+### 12. člen
+
+V varnostnem pasu distribucijskega omrežja ima distributer toplote pravico nadzorovati dejavnosti in posege, ki se izvajajo, kakor tudi pravico dostopa do distribucijskega omrežja.
+
+
+### 5. Dispečerska služba
+
+
+### 13. člen
+
+Distributer toplote mora organizirati dispečersko službo, ki izvaja 24-urni nadzor nad delovanjem in vodenjem distribucijskega omrežja.
+
+
+### 6. Izvajanje aktivnosti na distribucijskem omrežju
+
+
+### 14. člen
+
+(1) Za zagotovitev varnega in zanesljivega obratovanja distribucijskega omrežja je distributer toplote dolžan izvajati naslednje aktivnosti:
+– vzdrževanje distribucijskega omrežja;
+– redna, izredna (intervencijska) in nepredvidena popravila, obnavljanje in rekonstrukcije distribucijskega omrežja;
+– zaščito distribucijskega omrežja pred mehanskimi, električnimi in kemičnimi vplivi;
+– sistemsko kontrolo distribucijskega omrežja;
+– nadzor nad trasami in nad aktivnostmi tretjih oseb v varnostnem pasu;
+– servisiranje naprav in opreme.
+(2) Vsa dela na distribucijskem omrežju se morajo izvajati skladno z internimi operativnimi tehnološkimi navodili distributerja toplote. Izvedbo del lahko distributer toplote prepusti tudi ustrezno usposobljenemu izvajalcu.
+
+
+### 7. Splošni ukrepi za varno obratovanje omrežja
+
+
+### 15. člen
+
+Vod distribucijskega omrežja, zgrajen v brezkanalni izvedbi, je po celotni trasi dovodne in povratne cevi označen z opozorilnim trakom rumene barve z oznako »Vročevod«. Opozorilni trak se položi na posteljico voda distribucijskega omrežja v vertikalni oddaljenosti minimalno 10 cm nad cevjo.
+
+
+### 16. člen
+
+(1) Distributer toplote vodi zbirni topografski kataster distribucijskega omrežja. V zbirni topografski kataster distribucijskega omrežja mora distributer toplote vnesti vse izdelane geodetske načrte za novogradnje vodov distribucijskega omrežja, ki so ali bodo postali sestavni del le tega.
+(2) Pred začetkom projektiranja ali poseganja v prostor, v katerem poteka distribucijsko omrežje, je dolžan projektant, izvajalec del ali investitor novogradnje pri distributerju toplote pridobiti potrebne podatke o poteku vodov distribucijskega omrežja iz zbirnega topografskega katastra distribucijskega omrežja. Kolikor projektant, izvajalec del ali investitor novogradnje ne pridobi navedenih podatkov za območje novogradnje, odškodninsko odgovarja za škodo, ki bi nastala distributerju toplote zaradi posega v prostor.
+
+
+### 8. Ukrepi v primeru izrednih del ali ogroženosti distribucijskega omrežja
+
+
+### 17. člen
+
+(1) Distributer toplote mora nemudoma in v najkrajšem možnem času popraviti in odpraviti vse poškodbe in okvare, do katerih pride na distribucijskem omrežju. Informacije o motnjah v delovanju, poškodbah ali okvarah na distribucijskem omrežju ter o nenadnih dogodkih, ki lahko vplivajo na delovanje distribucijskega omrežja ali njegovega dela, mora dispečerska služba nemudoma posredovati vodji distribucijskega omrežja.
+(2) Vodja distribucijskega omrežja s pomočjo dežurnih ekip in zunanjih izvajalcev izvede vse potrebne aktivnosti za preprečevanje materialne škode in poškodb ljudi.
+(3) Distributer toplote mora imeti v stalni pripravljenosti na domu organizirano operativno osebje, ki je sposobno izvesti nujne posege za odpravo oziroma omilitev poškodb oziroma motenj na distribucijskem omrežju in organizacijo potrebnih popravil za vzpostavitev uravnoteženega delovanja v najkrajšem možnem času.
+
+
+### 9. Povzetek tehnoloških postopkov
+
+
+### 18. člen
+
+Tehnološki postopki za zanesljivo in varno obratovanje distribucijskega omrežja predpisujejo oziroma zajemajo:
+– kemične lastnosti ogrevalnega medija distribucijskega omrežja;
+– tehnične zahteve za izgradnjo distribucijskega omrežja;
+– izgradnjo in vzdrževanje distribucijskega omrežja (načini spajanja vodov, tlačne preizkušnje in drugo);
+– zagon distribucijskega omrežja (polnjenje, praznjenje in drugo);
+– tehnična navodila proizvajalcev opreme distribucijskega omrežja.
+
+
+### 10. Časovni razpored sistemske kontrole distribucijskega omrežja
+
+
+### 19. člen
+
+(1) Distributer toplote izvaja nadzor nad stanjem distribucijskega omrežja praviloma po naslednjem časovnem razporedu:
+– redna dnevna vizualna kontrola trase distribucijskega omrežja ob obhodu toplotnih postaj;
+– redna dnevna kontrola distribucijskega omrežja preko sistema daljinskega nadzora primarnih parametrov delovanja toplotnih postaj;
+– redna mesečna kontrola distribucijskega omrežja preko instaliranega detekcijskega sistema prisotnosti vlažnosti v predizoliranih razvodih;
+– redna letna kontrola distribucijskega omrežja ob letnem remontu (v mesecih izven ogrevalne sezone);
+– izredna kontrola distribucijskega omrežja, ki se izvede na podlagi suma pojava netesnosti na zahtevo vodje distribucijskega omrežja.
+(2) Hkrati z omenjenimi aktivnostmi distributer toplote občasno z ustreznim programskim orodjem opravlja hidravlično analizo cevnih mrež in rezultate meritev primerja z dejanskimi parametri delovanja distribucijskega omrežja. Na podlagi primerjalne analize se določijo kritična mesta distribucijskega omrežja ter potrebni ukrepi za njihovo sanacijo.
+
+
+### 11. Predvidena dela na distribucijskem omrežju
+
+
+### 20. člen
+
+(1) Distributer toplote sme začasno prekiniti distribucijo toplotne energije zaradi rednega vzdrževanja, pregledov, rekonstrukcij, preizkusov ali kontrolnih meritev ter razširitev omrežja.
+(2) Predvidena dela je distributer toplote dolžan opraviti v času, ki je nujno potreben, da se delo opravi in izbrati čas, ki čim manj prizadene uporabnike oziroma odjemalce toplote. Za začasno omejitev ali prekinitev distribucije toplotne energije, ki je posledica izvedbe teh del, distributer toplote ni odškodninsko odgovoren. Predvidena dela se ne smejo izvajati v času, ko je pričakovati večjo porabo toplote.
+(3) Distributer toplote mora o predvideni prekinitvi v pisni obliki pravočasno obvestiti uporabnike oziroma odjemalce toplote iz prejšnjega odstavka, v primeru, da gre za širši krog odjemalcev toplote, pa preko sredstev javnega obveščanja vsaj 48 ur pred prekinitvijo.
+(4) Obvestilo iz prejšnjega odstavka mora vsebovati:
+– del omrežja, kjer se bodo predvidena dela izvajala;
+– začetek in predvideno končanje del;
+– načrt omejitev ali prekinitev distribucije toplotne energije;
+– seznam odjemnih mest, ki bodo prizadeta.
+
+
+### 21. člen
+
+(1) Če je distributer toplote pozvan, da izvede na distribucijskem omrežju določena dela zaradi potrebe tretjih oseb, izvede ta dela na stroške naročnika del po predhodni presoji upravičenosti zahtevanih del in vpliva predvidenih del na uporabnike.
+(2) Distributer toplote prične z deli na zahtevo tretje osebe potem, ko mu je ta predložila usklajen dogovor z vsemi prizadetimi uporabniki.
+
+
+### 12. Izredna in nepredvidena dela na distribucijskem omrežju
+
+
+### 22. člen
+
+V primeru motenj ali okvar na distribucijskem omrežju, ki nastanejo kot posledica višje sile ali delovanja tretje osebe, mora distributer toplote v najkrajšem možnem času izvesti izredna in nepredvidena dela za zagotovitev nemotenega ter zanesljivega delovanja distribucijskega omrežja oziroma organizirati potrebna popravila za vzpostavitev uravnoteženega delovanja.
+
+
+### 23. člen
+
+V primeru iz prejšnjega člena lahko distributer toplote, če je to nujno potrebno zaradi varnosti, zaradi čimprejšnje vzpostavitve nemotenega delovanja ali zaradi drugih upravičenih razlogov, začasno omeji ali prekine distribucijo toplotne energije. O dogodku mora z navedbo predvidenega časa za odpravo nastalih motenj nemudoma obvestiti prizadete odjemalce toplote.
+
+
+### 24. člen
+
+(1) Zaradi izrednih in nepredvidenih del, z namenom zagotovitve nemotenega in zanesljivega delovanja distribucijskega omrežja, distributer toplote uporabnikom ne odgovarja za morebitno nastalo škodo zaradi omejene ali prekinjene distribucije toplotne energije.
+(2) Tretja oseba, ki povzroči motnje ali okvare na distribucijskem omrežju, nosi vse stroške potrebnih izrednih in nepredvidenih del ter odgovarja za morebitno nastalo škodo.
+
+
+### 13. Ustavitev distribucije toplotne energije
+
+
+### 25. člen
+
+Distributer toplote ustavi uporabniku distribucijo toplotne energije po predhodnem obvestilu, če le-ta v roku določenem v obvestilu, ne izpolni svoje obveznosti, in sicer v naslednjih primerih, če uporabnik:
+– moti distribucijo toplotne energije drugim uporabnikom;
+– odreče ali onemogoči osebam, ki imajo pooblastilo distributerja toplote, dostop do vseh delov priključka, do zaščitnih in merilnih naprav in do energetskih objektov, naprav ali napeljav ki so v lasti oziroma upravljanju distributerja, kadar te naprave povzročajo motnje;
+– brez soglasja distributerja toplote priključi na omrežje svoje energetske naprave ali napeljave, ali če omogoči prek svojih energetskih naprav priključitev energetskih naprav drugih uporabnikov;
+– na opomin distributerja toplote ne zniža odjema oziroma oddaje moči oziroma količine na dogovorjeno vrednost v zahtevanem roku;
+– onemogoča pravilno registriranje obračunskih količin, ali če uporablja toploto brez zahtevanih oziroma dogovorjenih merilnih naprav ali mimo njih;
+– v roku, ki ga določi distributer toplote oziroma pristojni inšpekcijski organ, ne odstrani oziroma ne zniža do dovoljene meje motenj, ki jih povzročajo njegovi objekti, naprave ali napeljave ali odjemalci.
+
+
+### 26. člen
+
+Distributer toplote ustavi uporabniku distribucijo toplotne energije brez predhodnega obvestila, če:
+– uporabnik z obratovanjem svojih energetskih objektov, naprav ali napeljav ogroža življenje ali zdravje ljudi ali ogroža premoženje;
+– uporabnik ob pomanjkanju toplote ne upošteva posebnih ukrepov o omejevanju odjema toplote iz distribucijskega omrežja.
+
+
+### 27. člen
+
+(1) Distributer toplote je dolžan uporabnika, ki mu je bila ustavljena distribucija toplotne energije, na njegove stroške ponovno priključiti na omrežje, ko ugotovi, da je uporabnik odpravil razloge za ustavitev distribucije toplotne energije.
+(2) Distributer toplote, ki je uporabniku neutemeljeno ustavil distribucijo toplotne energije, mora nemudoma in na svoje stroške znova priključiti objekte, naprave ali napeljave uporabnika na svoje omrežje.
+
+
+### 28. člen
+
+(1) Distributer toplote ima pravico do povračila škode, ki je nastala zaradi ravnanj uporabnika, zaradi katerih mu je ustavil distribucijo toplotne energije po predhodnem obvestilu oziroma brez predhodnega obvestila.
+(2) Uporabnik, ki mu je distributer toplote neutemeljeno ustavil distribucijo toplotne energije, ima pravico do povračila škode, ki mu je bila s tem povzročena.
+
+
+### III. OBRATOVANJE DISTRIBUCIJSKEGA OMREŽJA
+
+
+### 1. Sistemske storitve
+
+
+### 29. člen
+
+Sistemske storitve, ki jih distributer toplote zagotavlja uporabniku v obsegu koriščenja dostopa, so:
+– vodenje, upravljanje in zagotavljanje dostopa do distribucijskega omrežja;
+– pokrivanje nastalih izgub toplote;
+– zagotavljanje potrebnih podatkov uporabnikom, da lahko učinkovito uveljavljajo dostop do omrežja.
+
+
+### 2. Vodenje, upravljanje in zagotavljanje dostopa do distribucijskega omrežja
+
+
+### 30. člen
+
+(1) Vodenje, upravljanje in zagotavljanje dostopa do distribucijskega omrežja vključuje predvsem naslednje aktivnosti:
+– načrtovanje distribucijskega omrežja;
+– načrtovanje obratovanja distribucijskega omrežja;
+– zagotavljanje varnega in zanesljivega obratovanja distribucijskega omrežja;
+– obdelavo podatkov in obračun distribucije toplotne energije in sistemskih storitev;
+– izvajanje ukrepov v primeru okvar in poškodb na distribucijskem omrežju;
+– izvajanje meritev.
+(2) Distributer toplote upravlja distribucijsko omrežje, vključno s priključnimi vodi. V primeru priključitve uporabnika na omrežje mora uporabnik dovoliti distributerju toplote brezplačno uporabo zemljišča in delov stavbe za izgradnjo priključnega voda ter za namestitev merilnih naprav in ostalih priključnih elementov omrežja.
+
+
+### 31. člen
+
+(1) Distributer toplote mora skrbeti za uravnotežene obratovalne razmere na distribucijskem omrežju.
+(2) V okviru tehničnih možnosti je distributer toplote dolžan vzdrževati takšne temperaturne in pretočno-tlačne razmere na distribucijskem omrežju, da zagotovi varno in zanesljivo obratovanje ter zadostne količine toplote vsem odjemalcem toplote.
+(3) Za potrebe vodenja distribucijskega omrežja in obračuna storitev ter ugotavljanja količin prevzete toplote v distribucijsko omrežje oziroma predane iz njega, morajo biti na vseh prevzemnih oziroma odjemnih mestih ustrezne merilne naprave.
+
+
+### 32. člen
+
+(1) Uporabnik mora zagotoviti, da so njegove naprave in napeljave izvedene, uporabljene in vzdrževane na način, da niso možne motnje na drugih napravah in napeljavah v sistemu daljinskega ogrevanja.
+(2) Uporabnik mora distributerju toplote omogočiti dostop do naprav in napeljav distributerja toplote, kot tudi do toplotne postaje priključene na distribucijsko omrežje po predhodni najavi, razen v primeru preteče nevarnosti, na način, ki distributerju toplote omogoča uresničevanje pravic in dolžnosti:
+– odčitavanje merilnih naprav;
+– vzdrževanje naprav in napeljav, ki so v upravljanju distributerja toplote;
+– evidentiranje in preverjanje tehničnih naprav.
+(3) Distributer toplote lahko brez predhodne najave dostopa do toplotnih postaj z namenom uresničevanja pravic in dolžnosti navedenih v drugem odstavku v primeru predhodnega dogovora z lastniki le-teh ali v primeru preteče nevarnosti.
+
+
+### 3. Zasedenost distribucijskega omrežja
+
+
+### 33. člen
+
+(1) Podatki o zasedenosti distribucijskega omrežja so javni.
+(2) Distributer toplote podatke o zasedenosti distribucijskega omrežja ugotavlja na podlagi temperaturnih in pretočno-tlačnih razmer v distribucijskem omrežju, ki izhajajo iz instalirane moči in podatkov iz sklenjenih pogodb o dobavi in odjemu ter izdanih soglasij k priključitvi na distribucijsko omrežje.
+(3) Distributer toplote mora podatke o zasedenosti distribucijskega omrežja posredovati morebitnemu uporabniku najkasneje v roku 30 dni po prejemu zahteve za dostop do distribucijskega omrežja.
+
+
+### IV. OBRATOVANJE DISTRIBUCIJSKEGA OMREŽJA V KRIZNIH STANJIH
+
+
+### 1. Krizna stanja
+
+
+### 34. člen
+
+(1) Krizno stanje na distribucijskem omrežju je vsak nenačrtovani dogodek ali okoliščina, zaradi katere je moteno uravnoteženo obratovanje celotnega distribucijskega omrežja ali njegovega dela in prekinjena ali ustavljena distribucija toplotne energije.
+(2) V primeru kriznih stanj distribucijskega omrežja ima distributer toplote pravico in dolžnost, da takoj izvede možne tehnične ukrepe, s katerimi prepreči širjenje motenj ter vzpostavi nemoteno distribucijo toplotne energije.
+
+
+### 2. Višja sila
+
+
+### 35. člen
+
+Kot višjo silo se obravnava vsak dogodek ali okoliščino, ki je izven nadzora distributerja toplote in je ni bilo mogoče pričakovati, se ji izogniti oziroma jo odvrniti, kot so na primer: povodnji in poplave, zemeljski plazovi, potresi, ukrepi državnih organov, izpad električnega omrežja.
+
+
+### 36. člen
+
+(1) Kadar distributer toplote delno ali v celoti ne izpolni pogodbenih obveznosti zaradi nastopa višje sile, je za čas njenega trajanja prost kakršnekoli odgovornosti do uporabnikov.
+(2) V primeru, da višja sila distributerju toplote delno ali v celoti preprečuje izpolnjevanje pogodbenih obveznosti več kot 30 dni, se morata distributer toplote in uporabnik pisno dogovoriti o nadaljnjem izvrševanju pogodbe.
+
+
+### 3. Obveščanje uporabnikov
+
+
+### 37. člen
+
+Distributer toplote mora preko sredstev javnega obveščanja ali na drug primeren način obveščati uporabnike o nastanku kriznega stanja ali višje sile.
+
+
+### 4. Odškodninska odgovornost
+
+
+### 38. člen
+
+(1) V primeru omejitve ali prekinitve distribucije toplotne energije zaradi delovanja višje sile distributer toplote ni odškodninsko odgovoren uporabnikom in odjemalcem toplote ter tretjim osebam.
+(2) Distributer toplote je odškodninsko odgovoren, če povzroči krizno stanje.
+
+
+### V. TEHNIČNI IN DRUGI POGOJI ZA PRIKLJUČITEV NA DISTRIBUCIJSKO OMREŽJE
+
+
+### 1. Postopek priključitve na distribucijsko omrežje
+
+
+### 39. člen
+
+Pogoje priključitve urejajo Splošni pogoji za dobavo in odjem toplote iz distribucijskega omrežja Mestne občine Maribor in tehnični pogoji distributerja toplote.
+
+
+### 40. člen
+
+(1) Energetski objekti, naprave, napeljave in vodi distribucijskega omrežja, ki se priključujejo na distribucijsko omrežje, morajo izpolnjevati predpisane tehnične normative in druge pogoje za zagotavljanje njihovega nemotenega ter varnega delovanja v povezavi z distribucijskim omrežjem. Potrebne minimalne pogoje, katere mora upoštevati izvedbena projektna dokumentacije in katera je osnova za pridobitev soglasja s strani distributerja toplote, poda na zahtevo investitorja distributer toplote.
+(2) Energetski objekti, naprave, napeljave in vodi distribucijskega omrežja, ki se priključujejo na distribucijsko omrežje, morajo biti zgrajeni po enakih ali primerljivih tehničnih normativih, kot del distribucijskega omrežja, na katerega se priključujejo in za katerega je bilo izdano uporabno dovoljenje.
+(3) Priključitev na distribucijsko omrežje izvede investitor z ustrezno usposobljenim in s strani distributerja potrjenim izvajalcem. Nadzor nad izvedbo priključitve izvaja distributer toplote.
+
+
+### 41. člen
+
+Toplota iz distribucijskega omrežja se lahko uporablja za ogrevanje, pripravo sanitarne tople vode, klimatizacijo ali hlajenje. Za uporabo toplote iz distribucijskega omrežja za druge namene se odjemalec toplote in distributer toplote posebej dogovorita z ustrezno pogodbo.
+
+
+### 2. Začetek uporabe toplote
+
+
+### 42. člen
+
+Distribucijsko omrežje in naprave je mogoče pričeti uporabljati, ko:
+– je izdano soglasje za priključitev;
+– je sklenjena pogodba o dobavi in odjemu toplote;
+– so izvedeni pregledi in preizkusi in so o tem izdana poročila;
+– je odjemalec toplote poučen o ravnanju s toplovodnimi napravami in napeljavami;
+– so poravnane morebitne finančne obveznosti bodočega odjemalca toplote do distributerja toplote.
+
+
+### 3. Kakovost toplote
+
+
+### 43. člen
+
+Kakovost dobavljene toplote se ugotavlja na odjemnem mestu.
+
+
+### 44. člen
+
+(1) Temperatura ogrevne vode v distribucijskem omrežju se spreminja v odvisnosti od zunanje temperature že na proizvodnem viru. Sprememba temperature ogrevne vode na odjemnem mestu v odvisnosti od zunanje temperature je razvidna iz temperaturnega diagrama, ki je kot priloga sestavni del tega akta.
+(2) Najnižja temperatura ogrevne vode, ki jo zagotavlja distributer toplote na odjemnem mestu znaša v dovodu 65 °C.
+(3) Najvišja temperatura ogrevne vode, ki jo zagotavlja distributer toplote na odjemnem mestu znaša v dovodu:
+● 130 °C pri zunanji temperaturi –18 °C (za objekte, zgrajene pred letom 2003),
+● 110 °C pri zunanji temperaturi –13 °C (za objekte, zgrajene od leta 2003).
+
+
+### VI. PREHODNA IN KONČNA DOLOČBA
+
+
+### 45. člen
+
+Ne glede na določbo 50. člena Splošnih pogojev za dobavo in odjem toplote iz distribucijskega omrežja Mestne občine Maribor (Medobčinski uradni vestnik, št. 4/06) se do uveljavitve tehničnih pogojev navedenih v 39. členu tega akta uporabljajo Tehnični pogoji za priključitev na vročevodno omrežje Javnega podjetja Toplotna oskrba d.o.o. Maribor (Medobčinski uradni vestnik, št. 1/00).
+
+
+### 46. člen
+
+Ta akt začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 16
+
+Maribor, dne 5. junija 2007
+
+EVA 2007-2111-0069
+
+Javno podjetje
+Toplotna oskrba, d.o.o., Maribor
+direktor
+mag. Viktor Krajnc l.r.
+
+Priloga: Temperaturni diagram
