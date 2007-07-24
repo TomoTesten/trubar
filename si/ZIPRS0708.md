@@ -7,6 +7,11 @@ sop: 2006-01-5342
 objava: "Uradni list RS 126/06  str. 13865"
 kljucne_besede: ["izvrševanje proračuna", "proračun", "državni proračun"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5342"
+spremembe:
+  - kratica: ZIPRS0708-A
+    datum: 2007-07-24
+    sop: 2007-01-3631
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izvrševanju proračunov Republike Slovenije za leti 2007 in 2008"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2007 in 2008
