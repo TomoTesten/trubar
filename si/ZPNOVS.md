@@ -7,6 +7,11 @@ sop: 2003-01-0985
 objava: "Uradni list RS 26/2003  str. 3215"
 kljucne_besede: ["parlamentarni nadzor", "tajna služba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0985"
+spremembe:
+  - kratica: ZPNOVS-A
+    datum: 2007-07-27
+    sop: 2007-01-3702
+    naziv: "Zakon o spremembah in dopolnitvah zakona o parlamentarnem nadzoru obveščevalnih in varnostnih služb"
 ---
 
 # Zakon o parlamentarnem nadzoru obveščevalnih in varnostnih služb
