@@ -32,6 +32,10 @@ spremembe:
     datum: 2006-12-07
     sop: 2006-01-5354
     naziv: "Zakon o spremembah in dopolnitvah zakona o sodiščih"
+  - kratica: ZS-G
+    datum: 2007-07-27
+    sop: 2007-01-3700
+    naziv: "Zakon o spremembah in dopolnitvah zakona o sodiščih"
 ---
 
 # Zakon o sodiščih
