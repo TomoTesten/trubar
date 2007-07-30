@@ -7,6 +7,11 @@ sop: 1994-02-0104
 objava: "Uradni list RS MP 22/94  str. 1471"
 kljucne_besede: ["izročitev", "evropska konvencija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-02-0104"
+spremembe:
+  - kratica: MEKIDP-A
+    datum: 2007-07-30
+    sop: 2007-02-0073
+    naziv: "Zakon o spremembi zakona o ratifikaciji Evropske konvencije o izročitvi, Dodatnega protokola k Evropski konvenciji o izročitvi in Drugega dodatnega protokola k Evropski konvenciji o izročitvi"
 ---
 
 # Zakon o ratifikaciji Evropske konvencije o izročitvi, Dodatnega protokola k Evropski konvenciji o izročitvi in Drugega dodatnega protokola k evropski konvenciji o izročitvi
