@@ -4,9 +4,9 @@ naziv: "Aneks h Kolektivni pogodbi dejavnosti gostinstva in turizma Slovenije"
 vrsta: "akt"
 datum: 2007-09-14
 sop: 2007-01-4221
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-4221"
 ---
 
