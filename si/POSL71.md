@@ -4,9 +4,9 @@ naziv: "Dopolnitev Poslovnika Državnega sveta"
 vrsta: "akt"
 datum: 2007-09-24
 sop: 2007-01-4306
-organ: "Državni svet RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-4306"
 ---
 

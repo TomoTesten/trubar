@@ -4,9 +4,9 @@ naziv: "Navodilo o vsebini in načinu sporočanja podatkov o izplačanih plačah
 vrsta: "navodilo"
 datum: 2007-10-12
 sop: 2007-01-4616
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-4616"
 ---
 

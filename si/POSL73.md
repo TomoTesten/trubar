@@ -4,9 +4,9 @@ naziv: "Poslovnik državnega zbora (uradno prečiščeno besedilo) (PoDZ-1-UPB1)
 vrsta: "akt"
 datum: 2007-10-10
 sop: 2007-01-4543
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-4543"
 ---
 
