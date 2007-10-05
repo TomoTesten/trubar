@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-11-07
     sop: 2005-01-4293
     naziv: "Zakon o spremembah in dopolnitvah zakona o odpravi posledic naravnih nesreč"
+  - kratica: ZOPNN-B
+    datum: 2007-10-05
+    sop: 2007-01-4414
+    naziv: "Zakon o spremembah in dopolnitvah zakona o odpravi posledic naravnih nesreč"
 ---
 
 # Zakon o odpravi posledic naravnih nesreč
