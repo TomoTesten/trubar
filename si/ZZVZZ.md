@@ -44,6 +44,10 @@ spremembe:
     datum: 2006-04-11
     sop: 2006-01-1558
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
+  - kratica: ZZVZZ-J
+    datum: 2007-10-08
+    sop: 2007-01-4489
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
