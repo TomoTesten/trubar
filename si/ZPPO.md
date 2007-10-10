@@ -12,6 +12,10 @@ spremembe:
     datum: 2003-06-09
     sop: 2003-01-2753
     naziv: "Zakon o spremembah in dopolnitvah zakona o priznanju Republike Slovenije za poslovno odličnost"
+  - kratica: ZPPO-B
+    datum: 2007-10-10
+    sop: 2007-01-4542
+    naziv: "Zakon o spremembah in dopolnitvah zakona o priznanju Republike Slovenije za poslovno odličnost"
 ---
 
 # Zakon o priznanju Republike Slovenije za poslovno odličnost
