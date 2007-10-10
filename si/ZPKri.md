@@ -24,6 +24,10 @@ spremembe:
     datum: 2005-05-31
     sop: 2005-01-2217
     naziv: "Zakon o spremembah in dopolnitvah zakona o popravi krivic"
+  - kratica: ZPKri-E
+    datum: 2007-10-10
+    sop: 2007-01-4539
+    naziv: "Zakon o spremembah in dopolnitvah zakona o popravi krivic"
 ---
 
 # Zakon o popravi krivic
