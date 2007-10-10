@@ -7,6 +7,11 @@ sop: 2002-01-0909
 objava: "Uradni list RS 21/2002  str. 1585"
 kljucne_besede: ["priznavanje poklicnih kvalifikacij", "Evropska unija", "Slovenija", "državljan Skupnosti"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0909"
+spremembe:
+  - kratica: ZPKEU-A
+    datum: 2007-10-10
+    sop: 2007-01-4540
+    naziv: "Zakon o spremembah in dopolnitvah zakona o postopku priznavanja kvalifikacij državljanom držav članic Evropske unije za opravljanje reguliranih poklicev oziroma reguliranih poklicnih dejavnosti v Republiki Sloveniji"
 ---
 
 # Zakon o postopku  priznavanja kvalifikacij državljanom držav članic Evropske Unije za opravljanje reguliranih poklicev oziroma reguliranih poklicnih dejavnosti v Republiki Sloveniji
