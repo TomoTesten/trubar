@@ -7,6 +7,11 @@ sop: 2000-01-0559
 objava: "Uradni list RS 12/2000  str. 1549"
 kljucne_besede: ["letalski potniški promet", "letalsko pravo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0559"
+spremembe:
+  - kratica: ZOSRL-A
+    datum: 2007-10-10
+    sop: 2007-01-4541
+    naziv: "Zakon o spremembah in dopolnitvah zakona o obligacijskih in stvarnopravnih razmerjih v letalstvu"
 ---
 
 # Zakon o obligacijskih in stvarnopravnih razmerjih v letalstvu
