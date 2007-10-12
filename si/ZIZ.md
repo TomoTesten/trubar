@@ -28,6 +28,10 @@ spremembe:
     datum: 2006-11-10
     sop: 2006-01-4906
     naziv: "Zakon o spremembah in dopolnitvah zakona o izvršbi in zavarovanju"
+  - kratica: ZIZ-F
+    datum: 2007-10-12
+    sop: 2007-01-4598
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izvršbi in zavarovanju"
 ---
 
 # Zakon o izvršbi in zavarovanju
