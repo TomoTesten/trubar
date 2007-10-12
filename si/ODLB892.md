@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Jelke Štumberger Mlakar na mesto vodje okrožnega
 vrsta: "akt"
 datum: 2007-11-02
 sop: 2007-01-4981
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-4981"
 ---
 

@@ -2,11 +2,11 @@
 kratica: KOLP222
 naziv: "Kolektivna pogodba za kemično in gumarsko industrijo Slovenije"
 vrsta: "akt"
-datum: 2007-04-23
+datum: 2007-10-19
 sop: 2007-01-1992
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-1992"
 ---
 
