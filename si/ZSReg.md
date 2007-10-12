@@ -16,6 +16,10 @@ spremembe:
     datum: 2007-04-13
     sop: 2007-01-1763
     naziv: "Zakon o spremembah in dopolnitvah zakona o sodnem registru"
+  - kratica: ZSReg-C
+    datum: 2007-10-12
+    sop: 2007-01-4599
+    naziv: "Zakon o spremembah zakona o spremembah in dopolnitvah zakona o sodnem registru"
 ---
 
 # Zakon o sodnem registru
