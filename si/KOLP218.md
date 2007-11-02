@@ -4,9 +4,9 @@ naziv: "Aneks št. 3 h Kolektivni pogodbi premogovništva Slovenije"
 vrsta: "akt"
 datum: 2007-11-19
 sop: 2007-01-5247
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-5247"
 ---
 
