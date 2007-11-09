@@ -16,6 +16,10 @@ spremembe:
     datum: 2007-10-05
     sop: 2007-01-4414
     naziv: "Zakon o spremembah in dopolnitvah zakona o odpravi posledic naravnih nesreč"
+  - kratica: ZOPNN-C
+    datum: 2007-11-09
+    sop: 2007-01-5074
+    naziv: "Zakon o spremembah in dopolnitvah zakona o odpravi posledic naravnih nesreč"
 ---
 
 # Zakon o odpravi posledic naravnih nesreč
