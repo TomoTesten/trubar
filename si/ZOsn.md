@@ -28,6 +28,10 @@ spremembe:
     datum: 2006-06-09
     sop: 2006-01-2541
     naziv: "Zakon o spremembah in dopolnitvah zakona o osnovni šoli"
+  - kratica: ZOsn-F
+    datum: 2007-11-09
+    sop: 2007-01-5073
+    naziv: "Zakon o spremembah in dopolnitvah zakona o osnovni šoli"
 ---
 
 # Zakon o osnovni šoli
