@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-10-10
     sop: 2005-01-3852
     naziv: "Zakon o spremembah in dopolnitvah zakona o Uradnem listu Republike Slovenije"
+  - kratica: ZUL-B
+    datum: 2007-11-09
+    sop: 2007-01-5071
+    naziv: "Zakon o spremembah in dopolnitvah zakona o Uradnem listu Republike Slovenije"
 ---
 
 # Zakon o Uradnem listu Republike Slovenije
