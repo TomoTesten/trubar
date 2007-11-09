@@ -20,6 +20,10 @@ spremembe:
     datum: 2006-07-27
     sop: 2006-01-3453
     naziv: "Zakon o spremembah in dopolnitvah zakona o zavarovalništvu"
+  - kratica: ZZavar-D
+    datum: 2007-11-09
+    sop: 2007-01-5070
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zavarovalništvu"
 ---
 
 # Zakon o zavarovalništvu
