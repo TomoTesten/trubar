@@ -20,6 +20,10 @@ spremembe:
     datum: 2006-04-13
     sop: 2006-01-1677
     naziv: "Zakon o spremembah in dopolnitvah zakona o plačilnem prometu"
+  - kratica: ZPlaP-D
+    datum: 2007-11-09
+    sop: 2007-01-5067
+    naziv: "Zakon o dopolnitvah zakona o plačilnem prometu"
 ---
 
 # Zakon o plačilnem prometu
