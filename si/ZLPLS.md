@@ -12,6 +12,10 @@ spremembe:
     datum: 1997-08-01
     sop: 1997-01-2506
     naziv: "Zakon o spremembah in dopolnitvah zakona o lastninskem preoblikovanju Loterije Slovenije"
+  - kratica: ZLPLS-B
+    datum: 2007-11-09
+    sop: 2007-01-5072
+    naziv: "Zakon o spremembah in dopolnitvah zakona o lastninskem preoblikovanju Loterije Slovenije"
 ---
 
 # Zakon o lastninskem preoblikovanju Loterije Slovenije
