@@ -20,6 +20,10 @@ spremembe:
     datum: 2004-02-27
     sop: 2004-01-0775
     naziv: "Zakon o spremembah in dopolnitvah obrtnega zakona"
+  - kratica: ObrZ-D
+    datum: 2007-11-09
+    sop: 2007-01-5069
+    naziv: "Zakon o spremembah in dopolnitvah obrtnega zakona"
 ---
 
 # Obrtni zakon
