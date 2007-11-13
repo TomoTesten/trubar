@@ -20,6 +20,10 @@ spremembe:
     datum: 2005-07-22
     sop: 2005-01-3066
     naziv: "Zakon o spremembah in dopolnitvah zakona o političnih strankah"
+  - kratica: ZPolS-D
+    datum: 2007-11-13
+    sop: 2007-01-5133
+    naziv: "Zakon o spremembah in dopolnitvah zakona o političnih strankah"
 ---
 
 # Zakon o političnih strankah
