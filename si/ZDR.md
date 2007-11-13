@@ -7,6 +7,11 @@ sop: 2002-01-2006
 objava: "Uradni list RS 42/2002  str. 4075"
 kljucne_besede: ["delavec", "delodajalec", "delovni čas", "dopust iz socialnih pravic", "pogodba", "konkurenčna klavzula", "pripravništvo", "politika zaposlovanja", "sindikat"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2006"
+spremembe:
+  - kratica: ZDR-A
+    datum: 2007-11-13
+    sop: 2007-01-5131
+    naziv: "Zakon o spremembah in dopolnitvah zakona o delovnih razmerjih"
 ---
 
 # Zakon o delovnih razmerjih
