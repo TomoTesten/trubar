@@ -7,6 +7,11 @@ sop: 2002-01-2836
 objava: "Uradni list RS 59/2002  str. 6099"
 kljucne_besede: ["Evropski svet delavcev"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2836"
+spremembe:
+  - kratica: ZESD-A
+    datum: 2007-11-13
+    sop: 2007-01-5132
+    naziv: "Zakon o spremembah in dopolnitvah zakona o evropskih svetih delavcev"
 ---
 
 # Zakon o evropskih svetih delavcev
