@@ -1,0 +1,41 @@
+---
+kratica: SKLU148
+naziv: "Sklep o sprejemu ustavne pritožbe in o zadržanju izvedbe volitev v 18. volilni enoti za volitve predstavnikov lokalnih interesov v Državni svet (območja občin Koper, Izola in Piran)"
+vrsta: "akt"
+datum: 2007-11-19
+sop: 2007-01-5228
+organ: "Ustavno sodišče Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Objavljen akt brez datuma začetka veljavnosti"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-5228"
+---
+
+# Sklep o sprejemu ustavne pritožbe in o zadržanju izvedbe volitev v 18. volilni enoti za volitve predstavnikov lokalnih interesov v Državni svet (območja občin Koper, Izola in Piran)
+
+Številka: Up-3486/07-6
+
+Up-3503/07-5
+Datum: 15. 11. 2007
+
+
+## S K L E P
+
+Senat Ustavnega sodišča je v postopku za preizkus ustavnih pritožb, ki so ju vložili Boris Popovič, Koper, Jani Bačič, Pobegi, Karin Felicijan, Ankaran, Igor Hrvatin, Koper, Nataša Likar, Koper, Narciso Urbanz, Koper, ki jih zastopa Odvetniška družba Matoz, o. p., d. n. o., Divača, na seji 15. novembra 2007
+
+
+## s k l e n i l:
+
+1. Ustavni pritožbi zoper sklep Vrhovnega sodišča št. II Uv 13/2007 z dne 9. 11. 2007 se sprejmeta v obravnavo.
+2. Predlog, naj se do končne odločitve Ustavnega sodišča zadrži izvršitev sklepa Vrhovnega sodišča v zvezi z odločbo Volilne komisije 2. volilne enote št. 041-1/2007-90 z dne 5. 11. 2007, se zavrne.
+3. Do končne odločitve Ustavnega sodišča se zadrži izvedba volitev v 18. volilni enoti za volitve predstavnikov lokalnih interesov v Državni svet (območja občin Koper, Izola in Piran).
+4. Ta sklep začne učinkovati naslednji dan po njegovi vročitvi Volilni komisiji 2. volilne enote s sedežem v Postojni.
+* * *
+1. Vrhovno sodišče je z izpodbijanim sklepom odpravilo odločbo Volilne komisije 2. volilne enote (v nadaljevanju Volilna komisija) št. 041-1/2007-90 z dne 5. 11. 2007. S to odločbo je Volilna komisija ugotovila, da je njena prva odločba o potrditvi kandidature za člana Državnega sveta z dne 24. 10. 2007 v skladu s sklepoma Vrhovnega sodišča št. II Uv 6/2007 in št. II Uv 7/2007, obeh z dne 30. 10. 2007 (1. točka izreka). Glede seznama predstavnikov Mestne občine Koper (v nadeljevanju MOK) v volilnem telesu je ugotovila, da je delno v skladu (2. točka izreka) in delno v neskladju z navedenima sklepoma (3. točka izreka), nato pa je v obsegu 3. točke izreka svojo prvo odločbo odpravila. Pri tem je v 2. in 3. točki izreka navedla imena predstavnikov MOK, na katere se ta odločitev nanaša. Z izpodbijanim sklepom je Vrhovno sodišče združilo v skupno obravnavo in odločanje pritožbo Marijana Križmana, ki je izpodbijal odločbo Volilne komisije z dne 5. 11. 2007 v celoti, in pritožbo tistih predlaganih predstavnikov MOK v volilnem telesu, glede katerih je bila prva odločba Volilne komisije kot nezakonita odpravljena.
+2. Pritožnik Boris Popovič, ki ga je MOK določila za kandidata za člana Državnega sveta - predstavnika lokalnih interesov iz 18. volilne enote, izpodbija odločitev Vrhovnega sodišča v delu, ki se nanaša na njegovo kandidaturo. Meni, da je z izpodbijanim sklepom Vrhovno sodišče naložilo Volilni komisiji, naj zavrne njegovo kandidaturo za člana Državnega sveta kot nezakonito. Volilna komisija naj ne bi imela pooblastil za podaljšanje roka za predložitev kandidatur niti za neupoštevanje spremenjenih Pravil za izvolitev predstavnikov v volilno telo za volitve člana Državnega sveta ter za določitev kandidata člana Državnega sveta (v nadaljevanju Pravila). Vrhovno sodišče pa naj s sklepoma z dne 30. 10. 2007 tega roka ne bi podaljšalo in tudi ne odpravilo odločbe Volilne komisije o potrditvi kandidatur z dne 24. 10. 2007. Zato naj bi mu bili z izpodbijanim sklepom Vrhovnega sodišča kršeni pravici iz 43. in iz 44. člena Ustave. Navaja, da ni sporno, da je MOK v času volilnih opravil spremenila svoja Pravila. Vendar zatrjuje, da je bila njegova kandidatura vložena v skladu s Pravili, ki so veljala v času razpisa teh volitev, in v rokih, ki jih je na podlagi teh Pravil ter v skladu z rokovnikom Državne volilne komisije (v nadaljevanju DVK) določala Komisija za mandatna vprašanja, volitve in imenovanja MOK. Glede na to naj bi bile ugotovitve Vrhovnega sodišča o nezakonitosti kandidature pravno povsem napačne. Pritožnik predlaga, naj Ustavno sodišče ustavno pritožbo obravnava absolutno prednostno in naj do končne odločitve o ustavni pritožbi zadrži izvršitev izpodbijanega sklepa Vrhovnega sodišča.
+3. Pritožniki Jani Bačič, Karin Felicijan, Igor Hrvatin, Nataša Likar in Narciso Urbanz prav tako izpodbijajo v izreku navedeni sklep Vrhovnega sodišča, ker naj bi jim bile z njim kršene pravice iz 25., 43. in iz 44. člena Ustave. Po njihovem mnenju naj bi izpodbijana odločitev pomenila, da mora Volilna komisija seznam predstavnikov MOK v volilno telo za volitve člana Državnega sveta kot nezakonit zavrniti. Menijo, da je Volilna komisija prekoračila svoja pooblastila, ko je prejeti seznam izvoljenih predstavnikov v volilno telo presojala na podlagi smiselne uporabe 54. člena Zakona o volitvah v Državni zbor (Uradni list RS, št. 44/92 in nasl. - v nadaljevanju ZVDZ), kar bi lahko storila le v zvezi s predlaganimi kandidaturami za člane Državnega sveta. Kolikor se izpodbijani sklep Vrhovnega sodišča sklicuje na predhodno sprejeta sklepa Vrhovnega sodišča št. II Uv 6/2007 in št. II Uv 7/2007, obeh z dne 30. 10. 2007, pa naj bi bilo z vidika 2. člena Ustave nejasno, kaj šteti za akte Občinskega sveta MOK. Nejasnost naj bi bila toliko večja, ker ta dva sklepa določata, da se volilna opravila za konkretne volitve v MOK izvedejo v skladu s Pravili, ki so veljala ob dnevu razpisa teh volitev, rok za oddajo seznamov Volilni komisiji pa naj bi se iztekel že 22. 10. 2007. Vrhovno sodišče naj kljub temu, da je odločilo, da je treba ponovno izvesti volilna opravila, tega roka ne bi podaljšalo. Poudarjajo tudi, da Vrhovno sodišče ni razveljavilo odločb Volilne komisije o potrditvi seznama izvoljenih predstavnikov MOK v volilno telo in o potrditvi kandidata MOK za člana Državnega sveta z dne 24. 10. 2007. Zato naj bi še vedno veljali, zaradi česar naj Občinski svet MOK ne bi mogel nadomestiti svojih aktov z novimi akti v skladu s prvo odločitvijo Vrhovnega sodišča. Kršitev pravice iz 25. člena Ustave utemeljujejo z navedbo, da izpodbijani sklep ni obrazložen, ker naj sodišče ne bi presojalo njihovih pritožbenih navedb in naj bi odločilo tudi o delu odločbe Volilne komisije, ki naj je ne bi izpodbijali. Pritožniki predlagajo, naj Ustavno sodišče do končne odločitve o ustavni pritožbi zadrži izvršitev izpodbijanega sklepa Vrhovnega sodišča in odločbe Volilne komisije 2. volilne enote št. 041-1/2007-90 z dne 5. 11. 2007.
+4. Senat Ustavnega sodišča je ustavni pritožbi sprejel v obravnavo. O njuni utemeljenosti bo odločalo Ustavno sodišče, ki bo presodilo, ali so bile z izpodbijano sodno odločbo kršene človekove pravice oziroma temeljne svoboščine pritožnikov.
+5. Predlog, naj se do končne odločitve zadrži izpodbijani sklep Vrhovnega sodišča v zvezi z odločbo Volilne komisije št. 041-1/2007-90 z dne 5. 11. 2007, pritožniki utemeljujejo z navedbo, da jim je onemogočeno sodelovanje na volitvah, prizadet pa naj bi bil tudi javni interes, saj naj občani MOK posledično na teh volitvah ne bi imeli svojega kandidata in predstavnikov v volilnem telesu. Senat Ustavnega sodišča ugotavlja, da je zatrjevanje nastanka škodljivih posledic utemeljeno, vendar je predlog zavrnil, ker z zadržanjem izpodbijanega sklepa ni mogoče preprečiti nastanka posledic, ki jih zatrjujejo pritožniki. Da zatrjevane škodljive posledice ne bi nastale, pa je na podlagi drugega odstavka 40. člena v zvezi s prvim odstavkom 49. člena Zakona o Ustavnem sodišču (Uradni list RS, št. 64/07 - ur. p. b. - v nadaljevanju ZUstS) odločilo, kot izhaja iz 3. in 4. točke izreka tega sklepa.
+6. Senat Ustavnega sodišča je sprejel ta sklep na podlagi druge alineje drugega odstavka 55.b člena, 58. člena in drugega odstavka 40. člena v zvezi s prvim odstavkom 49. člena ZUstS ter prve alineje drugega odstavka 46. člena Poslovnika Ustavnega sodišča (Uradni list RS, št. 86/07) v sestavi: predsednica senata Milojka Modrijan ter člana dr. Janez Čebulj in mag. Miroslav Mozetič.
+
+Predsednica senata
+Milojka Modrijan l.r.
