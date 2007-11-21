@@ -4,9 +4,9 @@ naziv: "Odločba o napredovanju Vojke Vidovič na mesto višje državne tožilke
 vrsta: "akt"
 datum: 2007-12-07
 sop: 2007-01-5554
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-5554"
 ---
 

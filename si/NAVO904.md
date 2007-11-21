@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah Navodila o razporejanju in pošilja
 vrsta: "navodilo"
 datum: 2007-12-07
 sop: 2007-01-5564
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-5564"
 ---
 
