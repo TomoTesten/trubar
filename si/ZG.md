@@ -12,6 +12,10 @@ spremembe:
     datum: 2002-07-26
     sop: 2002-01-3231
     naziv: "Zakon o spremembah in dopolnitvah zakona o gozdovih"
+  - kratica: ZG-B
+    datum: 2007-12-03
+    sop: 2007-01-5469
+    naziv: "Zakon o spremembah in dopolnitvah zakona o gozdovih"
 ---
 
 # Zakon o gozdovih
