@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-06-13
     sop: 2006-01-2576
     naziv: "Zakon o dopolnitvi zakona o zaščiti prič"
+  - kratica: ZZPrič-B
+    datum: 2007-12-03
+    sop: 2007-01-5468
+    naziv: "Zakon o spremembah in dopolnitvah zakona o zaščiti prič"
 ---
 
 # Zakon o zaščiti prič
