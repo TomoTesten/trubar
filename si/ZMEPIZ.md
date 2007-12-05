@@ -7,6 +7,11 @@ sop: 2000-01-3709
 objava: "Uradni list RS 81/2000  str. 9773"
 kljucne_besede: ["evidenca dokumentarnega gradiva", "sistem pokojninskega zavarovanja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3709"
+spremembe:
+  - kratica: ZMEPIZ-A
+    datum: 2007-12-05
+    sop: 2007-01-5508
+    naziv: "Zakon o spremembah in dopolnitvah zakona o matični evidenci zavarovancev in uživalcev pravic iz pokojninskega in invalidskega zavarovanja"
 ---
 
 # Zakon o matični evidenci zavarovancev in uživalcev pravic iz pokojninskega in invalidskega zavarovanja
