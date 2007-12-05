@@ -20,6 +20,10 @@ spremembe:
     datum: 2003-06-09
     sop: 2003-01-2752
     naziv: "Zakon o spremembah in dopolnitvah zakona o pravniškem državnem izpitu"
+  - kratica: ZPDI-D
+    datum: 2007-12-05
+    sop: 2007-01-5506
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pravniškem državnem izpitu"
 ---
 
 # Zakon o pravniškem državnem izpitu
