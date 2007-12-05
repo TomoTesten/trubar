@@ -12,6 +12,10 @@ spremembe:
     datum: 2004-04-22
     sop: 2004-01-1695
     naziv: "Zakon o spremembah in dopolnitvah zakona o potrošniških kreditih"
+  - kratica: ZPotK-B
+    datum: 2007-12-05
+    sop: 2007-01-5507
+    naziv: "Zakon o spremembah in dopolnitvah zakona o potrošniških kreditih"
 ---
 
 # Zakon o potrošniških kreditih
