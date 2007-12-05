@@ -7,6 +7,11 @@ sop: 2004-01-1064
 objava: "Uradni list RS 25/04  str. 2821"
 kljucne_besede: ["Evropska unija", "carinski predpisi"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1064"
+spremembe:
+  - kratica: ZICPES-A
+    datum: 2007-12-05
+    sop: 2007-01-5509
+    naziv: "Zakon o spremembah in dopolnitvah zakona o izvajanju carinskih predpisov Evropske skupnosti"
 ---
 
 # Zakon o izvajanju carinskih predpisov Evropske skupnosti
