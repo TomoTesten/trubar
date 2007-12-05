@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-04-13
     sop: 2006-01-1680
     naziv: "Zakon o spremembah zakona o prijavi prebivališča"
+  - kratica: ZPPreb-B
+    datum: 2007-12-05
+    sop: 2007-01-5505
+    naziv: "Zakon o spremembah in dopolnitvah zakona o prijavi prebivališča"
 ---
 
 # Zakon o prijavi prebivališča
