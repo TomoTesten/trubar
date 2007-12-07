@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-12-20
     sop: 2005-01-5086
     naziv: "Zakon o spremembi zakona o raziskovalni in razvojni dejavnosti"
+  - kratica: ZRRD-B
+    datum: 2007-12-07
+    sop: 2007-01-5553
+    naziv: "Zakon o spremembah in dopolnitvah zakona o raziskovalni in razvojni dejavnosti"
 ---
 
 # Zakon o raziskovalni in razvojni dejavnosti
