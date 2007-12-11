@@ -4,9 +4,9 @@ naziv: "Sistemska obratovalna navodila za distribucijsko omrežje zemeljskega pl
 vrsta: "navodilo"
 datum: 2007-12-27
 sop: 2007-01-6104
-organ: "Istrabenz plini, d.o.o., Koper"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-6104"
 ---
 
