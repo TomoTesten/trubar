@@ -2,11 +2,11 @@
 kratica: URED71
 naziv: "Uredba o vrsti dejavnosti in naprav, ki lahko povzročajo onesnaževanje okolja večjega obsega"
 vrsta: "uredba"
-datum: 2004-09-03
+datum: 2007-12-28
 sop: 2004-01-4267
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4267"
 ---
 

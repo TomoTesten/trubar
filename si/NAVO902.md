@@ -4,8 +4,9 @@ naziv: "Pravilnik o obrazcih prijav podatkov o reševanju kolektivnih delovnih s
 vrsta: "navodilo"
 datum: 2007-12-29
 sop: 2007-01-6353
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-6353"
 ---
 
