@@ -24,6 +24,10 @@ spremembe:
     datum: 2005-12-28
     sop: 2005-01-5310
     naziv: "Zakon o spremembah in dopolnitvah zakona o splošnem upravnem postopku"
+  - kratica: ZUP-E
+    datum: 2007-12-31
+    sop: 2007-01-6415
+    naziv: "Zakon o spremembah in dopolnitvah zakona o splošnem upravnem postopku"
 ---
 
 # Zakon o splošnem upravnem postopku
