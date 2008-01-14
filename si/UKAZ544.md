@@ -4,9 +4,9 @@ naziv: "Ukaz o imenovanju izrednega in pooblaščenega veleposlanika Republike S
 vrsta: "akt"
 datum: 2008-02-07
 sop: 2008-01-0425
-organ: "Predsednik Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-0425"
 ---
 

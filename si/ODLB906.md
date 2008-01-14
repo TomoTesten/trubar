@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju mag. Verene Klemenc za pomočnico državnega pravo
 vrsta: "akt"
 datum: 2008-01-28
 sop: 2008-01-0290
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-0290"
 ---
 

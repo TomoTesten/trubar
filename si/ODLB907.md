@@ -4,9 +4,9 @@ naziv: "Odločba o izdaji soglasja k čistopisu Akta o ustanovitvi ustanove: Ust
 vrsta: "akt"
 datum: 2008-02-01
 sop: 2008-01-0341
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-0341"
 ---
 

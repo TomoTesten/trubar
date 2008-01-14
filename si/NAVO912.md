@@ -4,9 +4,9 @@ naziv: "Navodilo o predložitvi letnih poročil in drugih podatkov gospodarskih 
 vrsta: "navodilo"
 datum: 2008-01-24
 sop: 2008-01-0247
-organ: "Agencija Republike Slovenije za javnopravne evidence in storitve"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-0247"
 ---
 
