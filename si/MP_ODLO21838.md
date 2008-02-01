@@ -2,11 +2,11 @@
 kratica: MP_ODLO21838
 naziv: "Odlok o ustanovitvi organov skupne občinske uprave (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-05
+datum: 2008-02-22
 sop: 2008-01-0622
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Hrpelje Kozina"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-0622"
 ---
 
