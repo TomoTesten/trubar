@@ -4,9 +4,9 @@ naziv: "Tarifna priloga h Kolektivni pogodbi za gozdarstvo"
 vrsta: "akt"
 datum: 2008-02-25
 sop: 2008-01-0652
-organ: "Združenje za gozdarstvo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-0652"
 ---
 
