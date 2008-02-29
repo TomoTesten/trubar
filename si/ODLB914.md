@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k Aktu o ustanovitvi ustanove \"Ustanova Sklad Hospi
 vrsta: "akt"
 datum: 2008-04-11
 sop: 2008-01-1469
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-1469"
 ---
 

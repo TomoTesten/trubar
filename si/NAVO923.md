@@ -4,8 +4,8 @@ naziv: "Sistemska obratovalna navodila za distribucijsko omrežje za oskrbo s to
 vrsta: "navodilo"
 datum: 2008-04-09
 sop: 2008-01-1431
-organ: "Javno podjetje Komunala Slovenj Gradec d.o.o."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-1431"
 ---

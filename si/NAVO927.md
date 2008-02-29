@@ -4,9 +4,9 @@ naziv: "Sprememba navodila za izvajanje sklepa o poročanju monetarnih finančni
 vrsta: "navodilo"
 datum: 2008-04-21
 sop: 2008-01-1639
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-1639"
 ---
 
