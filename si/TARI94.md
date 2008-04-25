@@ -4,9 +4,9 @@ naziv: "Tarifna priloga 2008 h Kolektivni pogodbi za dejavnost kovinskih materia
 vrsta: "akt"
 datum: 2008-05-13
 sop: 2008-01-2034
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-2034"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Aneks h Kolektivni pogodbi dejavnosti gostinstva in turizma Slovenije"
 vrsta: "akt"
 datum: 2008-04-30
 sop: 2008-01-1825
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-1825"
 ---
 

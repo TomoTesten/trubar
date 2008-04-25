@@ -4,9 +4,9 @@ naziv: "Ukaz o odpoklicu izrednega in pooblaščenega veleposlanika Republike Sl
 vrsta: "akt"
 datum: 2008-05-05
 sop: 2008-01-1889
-organ: "Predsednik Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-1889"
 ---
 
