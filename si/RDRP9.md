@@ -4,9 +4,9 @@ naziv: "Rebalans proračuna Republike Slovenije za leto 2008 (Rb2008)"
 vrsta: "akt"
 datum: 2008-06-10
 sop: 2008-01-2479
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-2479"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Tarifa o taksah in nadomestilih"
 vrsta: "akt"
 datum: 2008-06-02
 sop: 2008-01-2278
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-2278"
 ---
 
