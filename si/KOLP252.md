@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba o izredni uskladitvi plač za leto 2007 in načinu us
 vrsta: "akt"
 datum: 2008-06-20
 sop: 2008-01-2656
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-2656"
 ---
 

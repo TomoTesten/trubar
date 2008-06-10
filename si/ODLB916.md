@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Marije Simič za državno pravobranilko na Državn
 vrsta: "akt"
 datum: 2008-06-20
 sop: 2008-01-2638
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-2638"
 ---
 
