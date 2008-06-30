@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba Javnega gospodarskega zavoda Brdo Protokolarne storit
 vrsta: "akt"
 datum: 2008-07-08
 sop: 2008-01-3023
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3023"
 ---
 
