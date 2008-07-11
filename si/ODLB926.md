@@ -4,9 +4,9 @@ naziv: "Odločba o prenehanju priznanja naravna mineralna voda za blagovno znamk
 vrsta: "akt"
 datum: 2008-07-22
 sop: 2008-01-3294
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3294"
 ---
 

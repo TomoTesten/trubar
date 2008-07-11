@@ -4,9 +4,9 @@ naziv: "Ukaz o podelitvi odlikovanja Republike Slovenije"
 vrsta: "akt"
 datum: 2008-07-14
 sop: 2008-01-3110
-organ: "Predsednik Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3110"
 ---
 

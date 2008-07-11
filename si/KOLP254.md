@@ -4,9 +4,9 @@ naziv: "Tarifna priloga h Kolektivni pogodbi za kmetijstvo in živilsko industri
 vrsta: "akt"
 datum: 2008-07-14
 sop: 2008-01-3162
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3162"
 ---
 

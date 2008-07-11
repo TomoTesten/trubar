@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za obrt in podjetništvo"
 vrsta: "akt"
 datum: 2008-07-18
 sop: 2008-01-3228
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3228"
 ---
 
