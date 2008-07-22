@@ -1,11 +1,12 @@
 ---
 kratica: MERI32
 naziv: "Pravilnik o merilih za doseganje naziva prvak in vrhunski glasbenik"
-vrsta: "meri"
+vrsta: "akt"
 datum: 2008-08-14
 sop: 2008-01-3616
-organ: "Ministrstvo za kulturo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3616"
 ---
 

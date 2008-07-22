@@ -4,8 +4,8 @@ naziv: "Sistemska obratovalna navodila za distribucijsko omrežje za oskrbo s to
 vrsta: "navodilo"
 datum: 2008-08-01
 sop: 2008-01-3541
-organ: "Energetika Celje, javno podjetje, d.o.o., Celje"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
 status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3541"
 ---

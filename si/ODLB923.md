@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Edit Novak za okrožno državno tožilko na Okrož
 vrsta: "akt"
 datum: 2008-07-30
 sop: 2008-01-3520
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3520"
 ---
 

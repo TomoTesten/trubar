@@ -4,9 +4,9 @@ naziv: "Deklaracija o usmeritvah za delovanje Republike Slovenije v institucijah
 vrsta: "akt"
 datum: 2008-07-28
 sop: 2008-01-3451
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3451"
 ---
 

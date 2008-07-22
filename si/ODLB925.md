@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Edvarda Ermenca za pomočnika okrožnega državneg
 vrsta: "akt"
 datum: 2008-07-30
 sop: 2008-01-3499
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3499"
 ---
 
