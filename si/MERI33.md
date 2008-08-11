@@ -4,9 +4,9 @@ naziv: "Merila, obseg in način plačila delovne uspešnosti iz naslova povečan
 vrsta: "akt"
 datum: 2008-08-29
 sop: 2008-01-3700
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3700"
 ---
 

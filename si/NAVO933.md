@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah Navodila o postopku za uveljavljanje pravice do na
 vrsta: "navodilo"
 datum: 2008-08-25
 sop: 2008-01-3666
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3666"
 ---
 
