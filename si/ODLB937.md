@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Marte Sušin za državno pravobranilko na Državne
 vrsta: "akt"
 datum: 2008-09-19
 sop: 2008-01-3820
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3820"
 ---
 

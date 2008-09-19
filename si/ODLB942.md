@@ -4,9 +4,9 @@ naziv: "Soglasje k spremembi imena Solidarnostnega sklada Študentske organizaci
 vrsta: "akt"
 datum: 2008-09-26
 sop: 2008-01-3924
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3924"
 ---
 

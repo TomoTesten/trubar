@@ -4,9 +4,9 @@ naziv: "Sistemska obratovalna navodila za distribucijsko omrežje za oskrbo s to
 vrsta: "navodilo"
 datum: 2008-09-26
 sop: 2008-01-3900
-organ: "Energetika Črnomelj, družba za proizvodnjo in distribucijo energije, d.o.o."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3900"
 ---
 
