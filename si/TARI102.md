@@ -4,9 +4,9 @@ naziv: "Tarifa o spremembah in dopolnitvah Tarife o taksah in nadomestilih"
 vrsta: "akt"
 datum: 2008-10-30
 sop: 2008-01-4374
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-4374"
 ---
 

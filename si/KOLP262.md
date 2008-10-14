@@ -4,9 +4,9 @@ naziv: "Tarifna priloga h Kolektivni pogodbi za cestni potniški promet"
 vrsta: "akt"
 datum: 2008-10-17
 sop: 2008-01-4219
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-4219"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sistemska obratovalna navodila za distribucijsko omrežje za oskrbo s to
 vrsta: "navodilo"
 datum: 2008-10-17
 sop: 2008-01-4216
-organ: "EKOEN d.o.o., Družba za proizvodnjo in distribucijo ekološke energije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-4216"
 ---
 

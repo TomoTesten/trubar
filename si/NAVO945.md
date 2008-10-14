@@ -4,9 +4,9 @@ naziv: "Navodilo o dopolnitvi Navodila za elektronsko posredovanje poročil o ka
 vrsta: "navodilo"
 datum: 2008-10-28
 sop: 2008-01-4342
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-4342"
 ---
 
