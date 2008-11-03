@@ -4,9 +4,9 @@ naziv: "Navodilo za izvajanje sklepa o obveznosti poročanja o poslovanju s tuji
 vrsta: "navodilo"
 datum: 2008-11-14
 sop: 2008-01-4597
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-4597"
 ---
 
