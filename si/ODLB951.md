@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Ane Pešec za državno pravobranilko na Državnem 
 vrsta: "akt"
 datum: 2008-11-28
 sop: 2008-01-4856
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-4856"
 ---
 

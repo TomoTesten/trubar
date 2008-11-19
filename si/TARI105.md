@@ -4,9 +4,9 @@ naziv: "Tarifa Združenja SAZAS za reproduciranje avtorskih del s področja glas
 vrsta: "akt"
 datum: 2008-11-28
 sop: 2008-01-4868
-organ: "Združenje skladateljev, avtorjev in založnikov za zaščito avtorskih pravic Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-4868"
 ---
 
