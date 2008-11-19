@@ -20,6 +20,10 @@ spremembe:
     datum: 2002-04-05
     sop: 2002-01-1253
     naziv: "Zakon o spremembah in dopolnitvah zakona o javnih financah"
+  - kratica: ZJF-D
+    datum: 2008-11-19
+    sop: 2008-01-4692
+    naziv: "Zakon o spremembi in dopolnitvah zakona o javnih financah"
 ---
 
 # Zakon o javnih financah
