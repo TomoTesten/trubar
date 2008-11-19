@@ -24,6 +24,10 @@ spremembe:
     datum: 2004-11-18
     sop: 2004-01-5120
     naziv: "Zakon o spremembah in dopolnitvah zakona o vladi"
+  - kratica: ZVRS-E
+    datum: 2008-11-19
+    sop: 2008-01-4694
+    naziv: "Zakon o dopolnitvi zakona o Vladi Republike Slovenije"
 ---
 
 # Zakon o Vladi Republike Slovenije
