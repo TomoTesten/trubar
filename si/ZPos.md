@@ -16,6 +16,10 @@ spremembe:
     datum: 2005-10-10
     sop: 2005-01-3849
     naziv: "Zakon o spremembah zakona o poslancih"
+  - kratica: ZPos-C
+    datum: 2008-11-19
+    sop: 2008-01-4695
+    naziv: "Zakon o spremembi zakona o poslancih"
 ---
 
 # Zakon o poslancih
