@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah Navodila o načinih zavarovanja in 
 vrsta: "navodilo"
 datum: 2008-12-29
 sop: 2008-01-5577
-organ: "Ministrstvo za finance"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-5577"
 ---
 

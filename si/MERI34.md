@@ -4,9 +4,9 @@ naziv: "Merila za določitev vidnih dosežkov na strokovnem področju za pridobi
 vrsta: "akt"
 datum: 2009-01-09
 sop: 2009-01-0016
-organ: "Strokovni svet RS za poklicno in strokovno izobraževanje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-0016"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Statut Univerze na Primorskem (uradno prečiščeno besedilo) (Statut UP
 vrsta: "akt"
 datum: 2008-12-30
 sop: 2008-01-5630
-organ: "Univerza na Primorskem"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-5630"
 ---
 
