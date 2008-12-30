@@ -1,0 +1,2247 @@
+---
+kratica: STAT142
+naziv: "Statut Univerze na Primorskem (uradno prečiščeno besedilo) (Statut UP-UPB1)"
+vrsta: "akt"
+datum: 2008-12-30
+sop: 2008-01-5630
+organ: "Univerza na Primorskem"
+zbirka: "Splošni akti za izvrševanje javnih pooblastil"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-5630"
+---
+
+# Statut Univerze na Primorskem (uradno prečiščeno besedilo) (Statut UP-UPB1)
+
+Na podlagi 11. člena Odloka o ustanovitvi Univerze na Primorskem (Uradni list RS, št. 138/03 in spremembe) in 38., 50. in 209. člena Statuta Univerze na Primorskem (Uradni list RS, št. 73/03 in spremembe) sta Senat Univerze na Primorskem na 13. redni seji dne 12. 11. 2008 in Upravni odbor Univerze na Primorskem na 11. redni seji dne 8. 12. 2008 v enakem besedilu sprejela naslednji
+
+
+## S T A T U T
+Univerze na Primorskem (uradno prečiščeno besedilo) (Statut UP-UPB1)
+
+
+### I. SPLOŠNA DOLOČILA
+
+
+### 1. člen
+
+Univerza na Primorskem (v nadaljnjem besedilu: univerza) je pravna oseba v statusnopravni obliki javnega zavoda in je avtonomni izobraževalni, znanstveno-raziskovalni in umetniški visokošolski zavod s posebnim položajem.
+Univerzo sestavljajo članice in pridružene članice.
+Ustanoviteljica univerze je Republika Slovenija.
+
+
+### 2. člen
+
+Univerza na Primorskem uresničuje svoje poslanstvo z izobraževalnim, znanstveno-raziskovalnim, strokovnim in umetniškim delom in tako sprejema odgovornost za skladen razvoj Slovenije v regiji, v Evropi in v svetu. Njeno delovanje usmerjajo nacionalni program visokega šolstva, nacionalni raziskovalno-razvojni program, strateški dokumenti Republike Slovenije ter smernice razvoja enotnega evropskega visokošolskega in raziskovalnega prostora, s posebnim poudarkom na sredozemski regiji.
+
+
+### 3. člen
+
+Univerza je pri izvajanju svoje dejavnosti avtonomna.
+Univerza uresničuje svojo avtonomijo s tem, da v skladu z načeli o svobodi raziskovanja, umetniškega ustvarjanja in posredovanja znanja s svojim izobraževalnim, znanstveno-raziskovalnim ter umetniškim delom in z zagotavljanjem avtonomije visokošolskega učitelja oziroma raziskovalnega delavca samostojno:
+– oblikuje poslanstvo, strategijo in vizijo svojega razvoja,
+– določa pravila svojega organiziranja in delovanja,
+– oblikuje študijske in znanstveno-raziskovalne programe in določa način njihovega izvajanja,
+– odloča o zaposlovanju in izvolitvah v nazive visokošolskih učiteljev in visokošolskih sodelavcev, znanstvenih delavcev in raziskovalnih sodelavcev ter o merilih za izvolitev,
+– voli, imenuje in odpokliče organe v skladu s statutom in drugimi akti,
+– upravlja in razpolaga s premoženjem, ki ga uporablja za opravljanje svoje dejavnosti, v skladu z namenom, za katerega je bilo pridobljeno,
+– podeljuje strokovne in znanstvene naslove oziroma nazive v skladu z zakonom in podzakonskimi akti ter podeljuje častni doktorat in naziv zaslužni profesor,
+– spodbuja sodelovanje med študentsko skupnostjo in univerzo,
+– opravlja druge naloge v zvezi s svojim poslanstvom.
+
+
+### 4. člen
+
+Na univerzi ni dovoljeno delovanje političnih strank.
+Pripadniki policije, varnostnih služb in oboroženih sil ne smejo nepovabljeni vstopiti v prostore univerze.
+
+
+### 5. člen
+
+V statutu uporabljeni izrazi, zapisani v moški slovnični obliki, so uporabljeni kot nevtralni za moške in ženske.
+
+
+### 6. člen
+
+Univerza ima žig okrogle oblike: v sredini leži grb Republike Slovenije, po obodu pa je izpisano ime univerze v slovenskem in italijanskem jeziku.
+Univerza uporablja v slavnostne namene tudi žig v slepem tisku (pečat).
+Žigi članic so enake oblike in vsebine kot žig univerze, le da vsebujejo še ime članice v slovenskem in italijanskem jeziku.
+
+
+### 7. člen
+
+Univerza ima svoj znak, zastavo, simbol, himno in celostno podobo univerze. Njihova uporaba je pravica in dolžnost univerze in članic. Članice uporabljajo znak univerze na vseh listinah, publikacijah in pri vseh tiskanih in elektronskih objavah, s soglasjem univerze pa tudi druge pravne in fizične osebe.
+Geometrijska, likovna in barvna pravila za oblikovanje znaka, zastave, simbola in drugih sestavin celostne podobe univerze in članic ter način, pravico in pogoje uporabe znaka, zastave, simbola in himne ter drugih sestavin celostne podobe univerze in članic se uredi s pravilnikom, ki ga sprejme senat univerze.
+Znak je sestavljen iz prepletenih inicialk »UP« in dvojezičnega polkrožnega napisa Univerza na Primorskem – Università del Litorale.
+Zastava je modro-sive barve in ima v spodnjem delu znak UP z dvojezičnega polkrožnega napisa Univerza na Primorskem – Università del Litorale.
+Simbol ima obliko morskega konjička.
+Univerza ima Dan univerze in Rektorjev dan.
+Dan univerze je 17. marec, dan, ko je bila leta 2003 univerza vpisana v sodni register. Na Dan univerze oziroma v okviru obeleževanja tega dne se praviloma promovirajo novi doktorji znanosti, podeljujejo častni doktorati in priznanja Univerze na Primorskem.
+Rektorjev dan je pedagoškega procesa prost dan. Na Rektorjev dan se v sodelovanju s organizacijami študentov univerze organizirajo športne, kulturne in druge prireditve. Določi ga rektor za vsako leto posebej pred koncem letnega semestra in se natančneje določi s študijskim koledarjem.
+
+
+### II. STATUSNA DOLOČILA
+
+
+### 1. Univerza, članice in pridružene članice
+
+
+### Univerza
+
+
+### 8. člen
+
+Ime univerze je: Univerza na Primorskem
+Skrajšano ime: UP
+Ime v italijanskem jeziku: Università del Litorale
+Prevod imena v angleški jezik: University of Primorska
+Sedež: Koper, Titov trg 4.
+
+
+### 9. člen
+
+V okviru univerze se ustanovijo fakultete, umetniške akademije, visoke strokovne šole ter raziskovalni in drugi zavodi (v nadaljnjem besedilu: članice univerze).
+V univerzo se lahko kot pridružene članice vključijo samostojni visokošolski in drugi zavodi.
+Članice univerze imajo pravice in obveznosti, določene z veljavno zakonodajo, aktom o ustanovitvi univerze in s tem statutom.
+
+
+### Članice
+
+
+### 10. člen
+
+Univerza ima naslednje članice:
+fakultete:
+Univerza na Primorskem
+Fakulteta za humanistične študije Koper
+Skrajšano ime: UP FHŠ
+Ime v italijanskem jeziku: Università del Litorale, Facoltà di Studi Umanistici di Capodistria
+Prevod imena v angleški jezik: University of Primorska, Faculty of Humanities Koper
+Sedež: Koper, Titov trg 5
+Univerza na Primorskem
+Fakulteta za management Koper
+Skrajšano ime: UP FM
+Ime v italijanskem jeziku: Università del Litorale, Facoltà di Management di Capodistria
+Prevod imena v angleški jezik: University of Primorska, Faculty of Management Koper
+Sedež: Koper, Cankarjeva 5
+Univerza na Primorskem
+Fakulteta za matematiko, naravoslovje in informacijske tehnologije Koper
+Skrajšano ime: UP FAMNIT
+Ime v italijanskem jeziku: Università del Litorale, Facoltà di scienze matematiche, naturali e tecnologie informatiche di Capodistria
+Prevod imena v angleški jezik: University of Primorska, Faculty of Mathematics, Natural Sciences and Information Technologies Koper
+Sedež: Koper, Glagoljaška 8
+Univerza na Primorskem
+Pedagoška fakulteta Koper
+Skrajšano ime: UP PEF
+Ime v italijanskem jeziku: Università del Litorale, Facoltà di Studi Educativi di Capodistria
+Prevod imena v angleški jezik: University of Primorska, Faculty of Education Koper
+Sedež: Koper, Cankarjeva 5
+Univerza na Primorskem
+Fakulteta za turistične študije Portorož – Turistica
+Skrajšano ime: UP FTŠ Turistica
+Ime v italijanskem jeziku: Facoltà di Studi per il Turismo Portorose – Turistica
+Prevod imena v angleški jezik: Faculty of Tourism Studies Portorož – Turistica
+Sedež: Portorož, Obala 11a
+visoko strokovno šolo:
+Univerza na Primorskem
+Visoka šola za zdravstvo Izola
+Skrajšano ime: UP VŠZI
+Ime v italijanskem jeziku: Istituto universitario di sanità Isola
+Prevod imena v angleški jezik: University of Primorska, College of Health Care Izola
+Sedež: Izola, Polje 42
+raziskovalna zavoda:
+Univerza na Primorskem
+Znanstveno-raziskovalno središče Koper
+Skrajšano ime: UP ZRS
+Ime v italijanskem jeziku: Università del Litorale, Centro di Ricerche Scientifiche di Capodistria
+Prevod imena v angleški jezik: University of Primorska, Science and Research Centre of Koper
+Sedež: Koper, Garibaldijeva 1
+Univerza na Primorskem
+Primorski inštitut za naravoslovne in tehnične vede Koper
+Skrajšano ime: UP PINT
+Ime v italijanskem jeziku: Università del Litorale, Istituto della Primorska di Scienze Naturali e Tecniche di Capodistria
+Prevod imena v angleški jezik: University of Primorska, Primorska Institute of Natural Sciences and Technology Koper
+Sedež: Koper, Muzejski trg 2
+drug zavod:
+Univerza na Primorskem
+Študentski domovi
+Skrajšano ime: UP ŠD
+Ime v italijanskem jeziku: Case dello studente
+Prevod imena v angleški jezik: University of Primorska, Student Residences
+Sedež: Koper, Muzejski trg 2.
+
+
+### 10.a člen
+
+Študijska področja, razvrščena v skladu z Iscedovo klasifikacijo (Unesco, november 1997), na posameznih fakultetah ali visokih strokovnih šolah, so:
+Fakulteta za humanistične študije: (22) humanistične vede, (31) družbene vede;
+Fakulteta za management Koper: (31) družbene vede, (34) poslovne in upravne vede;
+Fakulteta za matematiko, naravoslovje in informacijske tehnologije: (42) vede o živi naravi, (46) matematika in statistika, (48) računalništvo, (52) tehniške vede, (62) kmetijstvo, gozdarstvo in ribištvo, (85) varstvo okolja;
+Pedagoška fakulteta Koper: (14) izobraževanje učiteljev in pedagoške vede;
+Fakulteta za turistične študije Portorož – Turistica: (81) osebne storitve;
+Visoka šola za zdravstvo Izola: (72) zdravstvo.
+
+
+### 11. člen
+
+Črtan.
+
+
+### 2. Ustanavljanje in vključevanje članic in pridruženih članic ter prenehanje članstva
+
+
+### 12. člen
+
+Ob izpolnjevanju pogojev, ki jih določata zakon, ki ureja področje visokega šolstva, in ta statut, se lahko v okviru univerze kot nove članice ustanovijo fakultete, umetniške akademije, visoke strokovne šole in raziskovalni ter drugi zavodi. V univerzo se lahko kot članice vključijo tudi obstoječe fakultete, umetniške akademije, raziskovalni zavodi oziroma visoke strokovne šole.
+
+
+### 13. člen
+
+Izpolnjevanje pogojev za opravljanje dejavnosti članice preverja posebna komisija senata univerze po postopkih notranje evalvacije in samoevalvacije v skladu s pravilnikom, ki ga sprejme senat univerze.
+
+
+### 14. člen
+
+O ustanovitvi nove članice, vključitvi nove članice in vključitvi pridružene članice v univerzo odloča po predhodnem soglasju upravnega odbora univerze senat univerze z dvotretjinsko večino glasov vseh članov s sklepom. S sklepom se določi ime, sedež, statusna oblika in organiziranost nove ali vključene članice.
+Članica je vključena v univerzo oziroma ustanovljena z dnem spremembe Odloka o ustanovitvi Univerze na Primorskem, pridružena članica pa je vključena v univerzo z dnem sklenitve pogodbe o pridruženem članstvu med univerzo in pridruženo članico.
+
+
+### 15. člen
+
+Članstvo v univerzi lahko preneha:
+– če izobraževalna ali raziskovalna dejavnost članice v celoti izpade iz nacionalnega programa visokega šolstva ali iz nacionalnega raziskovalno-razvojnega programa,
+– če članica ne izpolnjuje več pogojev iz druge in tretje alinee drugega odstavka 12. člena tega statuta,
+– če njeno delo ne ustreza univerzitetnim standardom kakovosti, kar ugotovi senat univerze s posebnim sklepom,
+– z razdružitvijo ali spojitvijo članic, pridružitvijo k drugi članici ali k več obstoječim članicam,
+– če senat univerze potrdi prenehanje članstva na predlog same članice.
+O prenehanju članstva sklepa po predhodnem soglasju upravnega odbora senat univerze z dvotretjinsko večino vseh članov. Sklep z obrazložitvijo univerza posreduje ustanovitelju.
+
+
+### 16. člen
+
+Visokošolski in drugi zavod, ki želi postati pridružena članica univerze, mora biti finančno samostojen in neodvisen, mora imeti prostore in opremo za izvajanje svojega programa, imeti kader, ki ustreza zahtevam univerze, mora izvajati dejavnosti, ki jih ne izvaja nobena od članic univerze, visokošolski zavod pa mora imeti akreditiran vsaj en študijski program.
+
+
+### 17. člen
+
+Pridružena članica sme:
+– uporabljati informacijski in knjižnični sistem univerze,
+– po posebnem dogovoru uporabljati raziskovalno opremo univerze pri izvajanju skupnih raziskovalnih projektov s članico univerze,
+– sodelovati pri izvajanju izobraževalnega, raziskovalnega in umetniškega programa članic,
+– na univerzi izvoliti v naziv svoje učitelje, sodelavce in raziskovalce.
+
+
+### 18. člen
+
+Pravice in obveznosti med univerzo in pridruženo članico se uredijo s posebno pogodbo. Pridružena članica uporablja ime Univerza na Primorskem v primerih, določenih s pogodbo o pridruženem članstvu.
+
+
+### 19. člen
+
+O prenehanju pridruženega članstva odloča na podlagi pisne vloge pridružene članice, da želi izstopiti, senat univerze z dvotretjinsko večino glasov vseh članov senata, po predhodnem soglasju upravnega odbora univerze. Sklep mora biti obrazložen.
+
+
+### 3. Dejavnost univerze in članic ter skupne naloge univerze
+
+
+### 20. člen
+
+Univerza zagotavlja razvoj znanosti, strokovnosti in umetnosti ter prek svojih članic v izobraževalnem procesu posreduje spoznanja z več znanstvenih oziroma umetniških področij ali disciplin.
+Dejavnosti univerze in članic so določene v prilogi, ki je sestavni del tega statuta.
+Univerza lahko neposredno organizira izvajanje študijskih in znanstveno-raziskovalnih interdisciplinarnih programov.
+Univerza ali članica, ki opravlja dejavnost, za katero je potrebno javno pooblastilo, opravlja to dejavnost v okviru tega pooblastila.
+
+
+### 21. člen
+
+Članice izvajajo nacionalni program visokega šolstva in nacionalni raziskovalno-razvojni program ter opravljajo druge dejavnosti, navedene v prilogi, ki je sestavni del statuta.
+Za izvajanje nacionalnih programov iz prvega odstavka tega člena, za katero zagotavlja sredstva Republika Slovenija, zaposluje univerza izobraževalno, izobraževalno-raziskovalno, raziskovalno in drugo osebje v skladu s sistemizacijo delovnih mest na univerzi.
+
+
+### 22. člen
+
+Članice izvajajo nacionalni program visokega šolstva in nacionalni raziskovalno-razvojni program po načelu avtonomije stroke v skladu z registriranimi dejavnostmi posameznih članic.
+Študijske programe ter raziskovalne programe in projekte lahko izvaja več članic skupaj. Način izvajanja in delitev sredstev se uredi s sporazumom med članicami, ki ga s sklepom potrdi rektor.
+
+
+### 22.a člen
+
+Članica Univerza na Primorskem, Študentski domovi (v nadaljnjem besedilu: Študentski domovi) opravlja dejavnost dijaških, študentskih domov in internatov ter zagotavlja nastanitev ostalih udeležencev v izobraževalno-raziskovalnem procesu Univerze na Primorskem.
+
+
+### 23. člen
+
+Za izvajanje nacionalnega programa visokega šolstva in nacionalnega raziskovalno-razvojnega programa pridobivajo članice sredstva prek računa univerze v skladu z veljavnimi predpisi in v okviru sprejetega finančnega načrta.
+V skladu z veljavnimi predpisi se za izvajanje skupnih nalog univerze zagotavljajo namenska sredstva, s katerimi v skladu s finančnim načrtom gospodari rektorat univerze. Delež sredstev, ki jih posamezna članica prispeva za izvajanje skupnih nalog, ki jih izvaja rektorat, določi ob sodelovanju kolegija dekanov in direktorjev ter predhodni podpori senata univerze, ki odloči z dvotretjinsko večino prisotnih članov, upravni odbor univerze enkrat letno z dvotretjinsko večino prisotnih članov. Ta sredstva omogočajo uresničevanje skupnih nalog na naslednjih področjih:
+– izobraževanje,
+– znanstveno-raziskovalno delo,
+– meduniverzitetno in mednarodno sodelovanje in umetniško delo,
+– knjižnična dejavnost,
+– organiziranje in izvedba univerzitetnega športa,
+– finance in računovodstvo,
+– kadrovsko, splošno in pravno področje,
+– izvajanje in vodenje investicij in investicijskega vzdrževanja univerze ter upravljanje premoženja,
+– razvoj in vzdrževanje računalniške infrastrukture ter nadzor nad delovanjem informacijskega sistema,
+– notranji nadzor nad izvajanjem vseh dejavnosti univerze in članic,
+– spremljanje in zagotavljanje kakovosti delovanja univerze,
+– izvajanje skrbniške funkcije organov univerze in njihovih delovnih teles,
+– protokol in promocija ter uresničevanje drugih nalog, ki se opredelijo kot skupne na podlagi akta, ki določa skupne naloge in način njihovega financiranja in ga na podlagi letnega načrta dela in letnega finančnega načrta na predlog rektorja sprejme upravni odbor univerze.
+
+
+### 4. Pravice, obveznosti in odgovornosti univerze in njenih članic v pravnem prometu
+
+
+### 24. člen
+
+Univerza nastopa v pravnem prometu v svojem imenu in za svoj račun.
+Članice lahko samostojno v svojem imenu in za svoj račun na študijskih in raziskovalnih področjih opravljajo izobraževalno, raziskovalno, strokovno, razvojno, svetovalno in umetniško dejavnost ter druge s tem povezane dejavnosti, kadar pri tem ne gre za izvajanje nacionalnega programa visokega šolstva in nacionalnega raziskovalnega in razvojnega programa.
+Članice opravljajo dejavnosti iz prejšnjega odstavka tega člena tako, da ne ovirajo dejavnosti, ki je javna služba.
+Članice zagotovijo nadomestilo stroškov, nastalih pri izvajanju teh dejavnosti. Evidenca stroškov in sredstev ter premoženja pridobljenega iz dejavnosti drugega odstavka tega člena se izkazujejo v ločenih evidencah.
+Pooblastilo za samostojno sklepanje pravnih poslov v okviru dejavnosti iz drugega odstavka tega člena ne obsega sklepanja pogodb o zaposlitvi ter pogodb, s katerimi se razpolaga z lastninsko in drugimi stvarnimi pravicami na nepremičninah.
+Razmerje med univerzo in članicami, povezano z dejavnostmi iz drugega odstavka tega člena, se uredi s posebnim aktom, ki ga sprejme upravni odbor univerze.
+
+
+### 25. člen
+
+Univerza odgovarja za obveznosti iz svoje dejavnosti z vsem svojim premoženjem.
+Za obveznosti članice, ki nastanejo z opravljanjem dejavnosti iz 24. člena tega statuta in 7. člena odloka o ustanovitvi Univerze na Primorskem, odgovarja članica z vsem svojim premoženjem.
+
+
+### 26. člen
+
+Članice univerze imajo svoje podračune.
+
+
+### III. UPRAVLJANJE IN ORGANIZIRANOST UNIVERZE
+
+
+### 1. Organi univerze
+
+
+### 27. člen
+
+Organi univerze so:
+– rektor,
+– senat,
+– upravni odbor,
+– študentski svet.
+
+
+### 27.a člen
+
+Delo organov univerze in članic je javno.
+Javnost dela se zagotavlja z obveščanjem javnosti o delu organov univerze in članic ter na druge načine, ki jih določajo akti o poslovanju organov in članic univerze. Javnosti niso dostopni dokumenti in gradivo organov univerze in članic, ki so skladno z zakonom ali s sklepom pristojnega organa univerze in članic določeni kot akti zaupne narave.
+O vseh odločitvah organi univerze in članic odločajo javno, če ni z zakonom, statutom ali pravili članice določeno tajno glasovanje. Posamezni organ lahko sprejme sklep, da bo o določenih zadevah odločal tajno.
+
+
+### 1.1 Rektor
+
+
+### 28. člen
+
+Rektor vodi, zastopa in predstavlja univerzo, s tem da:
+– skrbi in odgovarja za zakonitost dela univerze in za izvrševanje njenih obveznosti, določenih z zakonom in drugimi predpisi ter splošnimi akti univerze,
+– podpisuje listine univerze in pogodbe, ki jih sklepa univerza,
+– usklajuje izobraževalno, znanstveno-raziskovalno oziroma umetniško in drugo delo članic univerze pri izvajanju nacionalnega programa visokega šolstva in nacionalnega raziskovalno-razvojnega programa,
+– s soglasjem senata univerze sprejema merila o kakovosti univerze, študijskih programov, znanstveno-raziskovalnega, umetniškega ter strokovnega dela in je pristojen za spremljanje, ugotavljanje in zagotavljanje kakovosti (samoevalvacija univerze),
+– s soglasjem senata univerze imenuje in razrešuje prorektorje,
+– na predlog senata oziroma znanstvenega sveta članice imenuje dekana oziroma direktorja članice,
+– na predlog dekana oziroma direktorja članice odloča o sklenitvi in prenehanju delovnega razmerja, o delovnih pogojih delavcev zaradi opravljanja javne službe in o soglasjih za njihovo delo pri drugem delodajalcu,
+– promovira doktorje znanosti,
+– podeljuje nagrade in priznanja univerze, o katerih odloči senat,
+– poroča o delu univerze senatu, upravnemu odboru in ustanovitelju,
+– izda sklep o razpisu in izvedbi volitev članov senata in upravnega odbora univerze,
+– sprejema pravilnik o sistemizaciji in organizaciji delovnih mest na univerzi,
+– predstavlja, sklicuje in vodi seje senata ter je član senata po položaju,
+– podpiše in objavi splošne akte univerze, ki se objavijo na spletnih straneh,
+– predlaga senatu in upravnemu odboru v sprejem splošne in druge akte iz njune pristojnosti,
+– skrbi za izvajanje odločitev senata in upravnega odbora,
+– sprejema pravilnike in druge akte univerze, če ni določeno, da jih sprejemata senat in upravni odbor,
+– določa programe delovanja za posamezna področja v skladu z zakoni in drugimi splošnimi akti,
+– nadzoruje in usmerja delo uprave univerze,
+– skrbi za upravljanje z nepremičninami v lasti univerze,
+– skrbi za izvrševanje letnega programa dela univerze,
+– odloča o pridobitvi in odtujitvi premičnega premoženja do višine zneska določenega z letnim programom dela univerze,
+– imenuje in razrešuje glavnega tajnika univerze,
+– imenuje in razrešuje svetovalce rektorja za določena področja,
+– podpisuje zavodsko kolektivno pogodbo,
+– sprejema pravilnik o povračilu stroškov v zvezi z delom članov organov univerze in njihovih delovnih teles,
+– imenuje delovne skupine za pripravo ali izvedbo konkretnih odločitev; oblikuje in imenuje stalna in začasna delovna telesa za reševanje posameznih vprašanj s svojega delovnega področja, ter delovne skupine za nadzor poslovanja ali notranjo revizijo,
+– lahko zadrži izvedbo akta, ki ga je sprejel drug organ, funkcionar ali pooblaščeni delavec, če pri njegovi sestavi ni upoštevan zakon, statut univerze ali drug splošni akt oziroma drug predpis,
+– vodi in odloča o disciplinski odgovornosti ter izvršuje disciplinske ukrepe zaradi kršitev pogodbenih in drugih obveznosti iz delovnega razmerja; za vodenje disciplinskega postopka lahko imenuje disciplinsko komisijo,
+– opravlja druge naloge v skladu z zakonom, tem statutom in drugimi splošnimi akti univerze.
+Rektor lahko za opravljanje posameznih opravil iz prvega odstavka tega člena pooblasti prorektorja s pisnim pooblastilom.
+Rektor lahko za izvrševanje nalog iz svoje pristojnosti, ki se nanašajo na izvajanje dejavnosti članic, pooblasti dekane visokošolskih zavodov oziroma direktorje raziskovalnih zavodov.
+
+
+### 29. člen
+
+Odsotnega rektorja nadomešča eden od prorektorjev, ki ga določi rektor s pisnim pooblastilom.
+Prorektor, ki nadomešča rektorja, ima v času rektorjeve odsotnosti pri vodenju tekočih zadev pravice in dolžnosti v okviru obsega pooblastila.
+V primeru njegove odsotnosti ali zadržanosti ga nadomešča tisti prorektor, ki ga določi rektor, če ga ne določi, pa najstarejši prorektor. V času nadomeščanja opravlja prorektor tekoče naloge iz pristojnosti rektorja in tiste naloge, za katere ga rektor pooblasti.
+Kadar nastopijo razlogi, da tako rektor kot prorektorji ne morejo opravljati svoje funkcije, nadomešča rektorja član senata, ki ga določi rektor, če ga ne določi, pa najstarejši član senata. V času nadomeščanja opravlja član senata tekoče naloge iz pristojnosti rektorja.
+
+
+### 30. člen
+
+Za rektorja je lahko izvoljen redni profesor ali znanstveni svetnik, ki izkazuje:
+– da je sposoben s svojim znanjem, razgledanostjo in izkušnjami ustvarjalno prispevati k razvoju visokošolske izobraževalne in znanstveno-raziskovalne dejavnosti,
+– da je na podlagi svojega dosedanjega večletnega odgovornega dela sposoben uspešno voditi univerzo,
+– da je znanstveno-raziskovalno in izobraževalno aktiven in odmeven.
+Rektor je po izvolitvi za čas opravljanja funkcije zaposlen na univerzi s polnim delovnim časom.
+Rektor je izvoljen za dobo 4 let, največ dvakrat zaporedoma.
+
+
+### 31. člen
+
+Univerza ima največ štiri prorektorje.
+Prorektorje imenuje rektor univerze s soglasjem senata univerze.
+Prorektor je lahko visokošolski učitelj oziroma znanstveni delavec, ki izpolnjuje pogoje za izvolitev v senat univerze.
+Za prorektorja ne more biti imenovani dekan ali direktor članice univerze.
+Prorektorju preneha funkcija s prenehanjem mandata rektorja ali z razrešitvijo, razen v primeru iz 32. člena tega statuta.
+
+
+### 32. člen
+
+Če rektorju preneha funkcija pred potekom dobe, za katero je bil izvoljen, določi senat univerze enega izmed prorektorjev, da do izvolitve novega rektorja opravlja njegove naloge. Določenemu prorektorju preneha funkcija z izvolitvijo novega rektorja.
+
+
+### 33. člen
+
+Posvetovalna telesa rektorja so kolegij rektorja, kolegij dekanov in direktorjev ter svet zaupnikov. Kolegij rektorja sestavljajo rektor, prorektorji, glavni tajnik ter svetovalci rektorja za posamezna področja. Kolegij dekanov in direktorjev sestavljajo rektor, dekani visokošolskih zavodov in direktorji raziskovalnih zavodov članic univerze.
+Rektor sklicuje kolegija po potrebi. Nanju praviloma vabi predstavnika študentskega sveta univerze.
+Rektor lahko izmed visokošolskih učiteljev in sodelavcev ter znanstvenih delavcev in raziskovalnih sodelavcev na Univerzi na Primorskem na funkcijo za čas trajanja funkcije imenuje svetovalce rektorja za določeno področje.
+
+
+### 33.a člen
+
+Svet zaupnikov je rektorjevo posvetovalno telo, ki oblikuje mnenja k letnemu načrtu dela, srednjeročnemu načrtu dela in letnemu poročilu. Rektor v Svet zaupnikov imenuje vsakokratne zakonite zastopnike pravnih oseb iz področja gospodarstva in lokalnih skupnosti.
+Svet zaupnikov preko ekspertnih skupin za študijske programe in razvojno raziskovalne dejavnosti oblikuje mnenja k predlogom za nove študijske programe, predlogom za ciljne raziskovalne programe in razvojne raziskovalne grozde oziroma skupne tehnološke podlage.
+
+
+### 34. člen
+
+Rektorja volijo vsi visokošolski učitelji in znanstveni delavci, visokošolski in raziskovalni sodelavci, zaposleni na univerzi. Volilno pravico imajo tudi študentje, in sicer v obsegu ene petine vseh glasov visokošolskih učiteljev, znanstvenih delavcev, visokošolskih in raziskovalnih sodelavcev, ki so zaposleni na univerzi.
+Število volivcev iz vrst študentov se razporedi po članicah sorazmerno glede na število vseh visokošolskih učiteljev, znanstvenih delavcev, visokošolskih sodelavcev in raziskovalnih sodelavcev, zaposlenih na univerzi in delo opravljajo na članici, ki je visokošolski zavod. Študentski svet univerze na osnovi predloga študentskih svetov članic pripravi volilni imenik predstavnikov študentov v skladu z volilnimi opravili.
+Volitve rektorja natančneje določa pravilnik, ki ureja volilna opravila pri volitvah rektorja univerze.
+Rektor in prorektorji opravljajo svojo funkcijo do izvolitve novega rektorja.
+
+
+### 34.a člen
+
+Senat univerze najkasneje šest mesecev pred potekom mandata rektorja oziroma najkasneje en mesec po dnevu, ko funkcija rektorju preneha pred iztekom mandata, razpiše volitve za novega rektorja.
+Za rektorja univerze je izvoljen kandidat, ki je v prvem krogu volitev prejel večino glasov vseh volilnih upravičencev. Če senat ugotovi, da nobeden izmed kandidatov za rektorja ni dobil večine glasov vseh volilnih upravičencev, se v roku osmih dni izvede drugi krog volitev, v katerem sodelujeta tista dva kandidata za rektorja, ki sta v prvem krogu dobila največ glasov. V drugem krogu je za rektorja izvoljen tisti kandidat, ki dobi večino glasov volilnih upravičencev, ki so glasovali. V primeru enakega števila glasov se volitve med kandidatoma ponovijo po enakem pravilu, kot je določeno za drugi krog volitev.
+
+
+### 1.2 Senat univerze
+
+
+### 35. člen
+
+Senat univerze je najvišji strokovni organ univerze. Število članov senata zagotavlja enakopravno zastopanost vseh znanstvenih in umetniških disciplin ter strokovnih področij članic.
+Senat univerze ima najmanj 21 članov. Za člane senata univerze so lahko izvoljeni visokošolski učitelji (docent, izredni profesor, redni profesor) in znanstveni delavci (znanstveni sodelavec, višji znanstveni sodelavec, znanstveni svetnik), ki so zaposleni na univerzi, ter študentje, ki imajo v senatu najmanj eno petino članov. Člani senata univerze iz visokih strokovnih šol so lahko tudi drugi visokošolski učitelji.
+Rektor je član senata po položaju.
+Člani upravnega odbora univerze ne morejo biti člani senata univerze.
+
+
+### 35.a člen
+
+Člani senata univerze so izvoljeni v senatih oziroma znanstvenih svetih članic tako, da vsak senat članice, ki je visokošolski zavod in znanstveni svet članice, ki je raziskovalni zavod, izvoli po tri člane senata univerze. Eno petino članov senata iz vrst študentov pa izvoli študentski svet univerze.
+
+
+### 36. člen
+
+Mandatna doba članov senata iz vrst učiteljev in znanstvenih delavcev traja štiri leta, iz vrst študentov pa dve leti. Član senata je lahko ponovno izvoljen.
+Članstvo v senatu preneha s potekom mandata, s prenehanjem funkcije oziroma statusa, ki je bil podlaga za imenovanje v senat, s prenehanjem delovnega razmerja in z odstopom.
+
+
+### 37. člen
+
+Šest mesecev pred iztekom mandata članom senata univerze ali v primeru nadomestnih volitev rektor pozove senate in znanstvene svete članic ter študentski svet univerze, da izvedejo volitve v senat univerze, v skladu s tem statutom in pravilnikom, ki ureja volitve organov univerze.
+
+
+### 38. člen
+
+Senat univerze:
+– oblikuje strategijo razvoja univerze in predlaga ustanovitelju sprejem ustreznih ukrepov za njeno uresničitev,
+– daje predhodno soglasje k letnemu programu dela ter finančnemu načrtu in programu razvoja univerze,
+– skupaj z upravnim odborom sprejema statut univerze,
+– odloča o ustanovitvi oziroma sprejemu nove ali pridružene članice v univerzo, o prenehanju članstva v univerzi ter drugih statusnih spremembah članic,
+– sprejema splošne akte univerze za področje izobraževalnega, umetniškega in znanstveno-raziskovalnega dela univerze,
+– sprejema pravilnik, ki ureja volitve organov univerze,
+– določa pogoje za oblikovanje programov v visokošolskem izobraževanju,
+– potrjuje enotni informacijski knjižnični načrt univerze,
+– sprejema študijske programe na predlog senata članice oziroma senatov članic,
+– sprejema vsebino razpisa za vpis in omejitev vpisa v dodiplomske in podiplomske študijske programe ter sprejme poročilo o vpisu,
+– potrjuje teme doktorskih disertacij,
+– sprejema pravilnik za preverjanje in ocenjevanje znanja v visokošolskem izobraževanju,
+– daje soglasje k vsebini dokumentacije, ki se vodi v visokošolskem izobraževanju za študente,
+– kot drugostopenjski organ odloča o ugovorih in pritožbah študentov zoper sklepe, s katerimi senat članice odloči o pravicah, obveznostih in odgovornostih študenta; za odločanje lahko senat pooblasti komisijo pristojno za odločanje o študentskih zadevah,
+– sprejema merila in postopke za volitve v nazive učiteljev, znanstvenih delavcev in sodelavcev,
+– s sklepom imenuje člane komisij in delovnih teles senata univerze,
+– sprejema merila za priznanje pomembnih umetniških del pri volitvah učiteljev umetniških disciplin,
+– povezuje in usklajuje raziskovalno delo članic univerze,
+– daje soglasje k merilom o kakovosti univerze, študijskih programov, znanstvenoraziskovalnega, umetniškega ter strokovnega dela (samoevalvacija univerze),
+– pripravlja in sprejema merila, po katerih študentje pripravljajo mnenje o izobraževalnem delu učiteljev,
+– na predlog senata članice voli visokošolske učitelje in znanstvene sodelavce v naziv rednega profesorja, znanstvenega svetnika in raziskovalno-razvojnega svetnika,
+– daje članicam univerze soglasje pred prvo izvolitvijo v naziv ali izvolitvijo v višji naziv za visokošolske učitelje in znanstvene delavce, razen za redne profesorje, znanstvene svetnike in raziskovalno-razvojne svetnike,
+– odloča o podelitvi častnega doktorata, naslova »Zaslužni profesor« in naslova »Častni senator Univerze na Primorskem in drugih nagrad univerze,
+– sprejema študijski koledar,
+– daje soglasje h kandidatom za prorektorje,
+– imenuje komisijo ter odloča o priznavanju tujega izobraževanja za nadaljevanje izobraževanja v primeru interdisciplinarnih študijskih programov oziroma programov, ki jih ne izvaja nobena članica univerze,
+– razpravlja in odloča o mnenjih študentskega sveta univerze s področja njegove pristojnosti,
+– sprejema poslovnik za svoje delo,
+– opravlja druge naloge, če je tako določeno z zakonom, tem statutom ali drugim splošnim aktom univerze.
+
+
+### 39. člen
+
+Senat univerze obravnava vprašanja iz svoje pristojnosti in sklepa na sejah.
+Senat univerze je sklepčen, če je na seji navzoča več kot polovica članov. Sklep je sprejet, če zanj glasuje večina navzočih članov, če ni s tem statutom določeno drugače.
+Za sprejem in spremembe statuta sta potrebni dve tretjini glasov vseh članov senata.
+Delovanje senata se ureja s poslovnikom, ki ga sprejme senat univerze. Za sprejem poslovnika senata sta potrebni dve tretjini glasov vseh članov senata.
+
+
+### 40. člen
+
+Pred sprejemom splošnega akta ali sklepa, ki ima za posledico povečano porabo finančnih sredstev, mora senat pridobiti o tem soglasje upravnega odbora univerze.
+
+
+### 41. člen
+
+Seje senata sklicuje in vodi rektor. V odsotnosti ga nadomešča pooblaščeni oziroma najstarejši član senata.
+Sejo senata rektor skliče po potrebi ali na zahtevo članice. Sklic lahko predlagata tudi upravni odbor univerze ali študentski svet univerze.
+
+
+### 1.3 Komisije senata univerze
+
+
+### 42. člen
+
+Senat ima naslednje komisije:
+– za študijske zadeve,
+– za študentske zadeve,
+– za znanstveno-raziskovalno in razvojno delo,
+– za meduniverzitetno in mednarodno sodelovanje,
+– za izvolitve v nazive,
+– za spodbujanje in spremljanje kakovosti izobraževalnega, raziskovalnega in umetniškega dela,
+– za notranjo revizijo izvajanja študijske dejavnosti,
+– in statutarno komisijo.
+Senat univerze lahko po potrebi ustanovi še druge komisije.
+Sestavo in število članov komisije, naloge in pooblastila ter trajanje mandata članov določi senat s sklepom o ustanovitvi, če ni s tem statutom določeno drugače. Za člane komisije so lahko imenovani zaposleni na univerzi, le izjemoma pa lahko senat univerze imenuje za člane komisije tudi zunanje strokovnjake z določenih področij, za katera se komisija imenuje.
+
+
+### 43. člen
+
+Po funkciji so člani posameznih komisij prorektorji s področij dela komisije. Delo posamezne komisije vodi predsednik, ki ga izmed sebe izvolijo člani komisije.
+Študenti imajo v komisijah, ki obravnavajo pravice in obveznosti študentov, svoje predstavnike.
+Komisije so sklepčne, če je na seji navzoča večina članov. Sklep je sprejet, če zanj glasuje večina navzočih članov, če ni s tem statutom ali drugimi akti določeno drugače.
+Rektor univerze ter dekani in direktorji članic univerze ne morejo biti člani komisij senata.
+
+
+### 44. člen
+
+Komisija za izvolitve v nazive daje senatu univerze mnenje za izvolitev visokošolskih učiteljev in znanstvenih delavcev v naziv rednega profesorja, znanstvenega svetnika in raziskovalno-razvojnega svetnika.
+
+
+### 45. člen
+
+Komisija za izvolitve v nazive daje mnenje na osnovi meril za izvolitve v naziv učiteljev, znanstvenih delavcev in sodelavcev v vseh disciplinah, ki so predmet študija, raziskovanja in umetniškega delovanja na univerzi.
+Merila za izvolitve v nazive učiteljev, znanstvenih delavcev in sodelavcev so določena s posebnim aktom, ki ga sprejme senat univerze.
+Kandidatu, ki je v skladu z merili za izvolitev pravočasno vložil popolno vlogo za izvolitev, vendar postopek do izteka veljavnosti dotedanjega naziva še ni končan, se veljavnost obstoječega naziva podaljša do dokončne odločitve.
+
+
+### 46. člen
+
+V komisiji so po en predstavnik vsake članice univerze, ki izvajajo izobraževalno ali raziskovalno dejavnost, tako da so v komisiji enakovredno zastopana vsa študijska in raziskovalna področja.
+Člane komisije za izvolitve v nazive imenuje senat univerze za dobo štirih let izmed kandidatov, ki jih predlagajo senati oziroma znanstveni sveti članic univerze.
+Član komisije za izvolitve v nazive je lahko redni profesor, znanstveni svetnik in raziskovalno razvojni svetnik. Člani komisije za izvolitve v nazive na prvi seji izvolijo predsednika in namestnika predsednika.
+V primeru, da na članici univerze ne opravlja dela visokošolski učitelj oziroma znanstveni delavec z nazivom redni profesor, znanstveni svetnik ali raziskovalno razvojni svetnik, ki bi lahko predstavljal članico univerze v komisiji za izvolitve v nazive, lahko senat oziroma znanstveni svet članice predlaga drugega kandidata z nazivom izrednega profesorja oziroma višjega znanstvenega sodelavca. Član komisije, ki ima nižji naziv od kandidata, pri izvolitvi ne more glasovati.
+
+
+### 47. člen
+
+Komisija za študentske zadeve univerze ima pet članov, in sicer tri iz vrst delavcev univerze in dva iz vrst študentov. Vsak član ima namestnika.
+Člane komisije in njihove namestnike iz vrst delavcev imenuje senat univerze, člana komisije iz vrst študentov in njuna namestnika pa študentski svet univerze.
+Komisija dela po poslovniku, ki ga sprejme senat univerze.
+V pritožbenem postopku se smiselno uporabljajo določbe upravnega postopka.
+
+
+### 47.a člen
+
+Statutarna komisija je komisija senata in upravnega odbora univerze, ki pripravlja in predlaga v sprejem senatu in upravnemu odboru univerze predlog sprememb in dopolnitev statuta univerze in podaja mnenje organom univerze o usklajenosti splošnih aktov univerze ter članic s statutom univerze.
+Statutarna komisija ima pet članov. En član komisije je predstavnik študentov. Mandat članov traja štiri leta, razen mandata predstavnika študentov, ki traja dve leti.
+Člane na predlog rektorja in članic univerze imenuje senat univerze.
+
+
+### 47.b člen
+
+Statutarna komisija se lahko o statutarnih vsebinah v okviru univerze in izven nje pri svojem delu posvetuje s pravno stroko in pridobiva njena mnenja.
+Statutarna komisija dela v skladu s poslovnikom, ki ga sprejme senat univerze in potrdi upravni odbor univerze.
+
+
+### 1.4 Upravni odbor univerze
+
+
+### 48. člen
+
+Upravni odbor je organ upravljanja, ki odloča zlasti o gospodarskih zadevah in skrbi za gospodarjenje univerze.
+
+
+### 49. člen
+
+Upravni odbor ima devet članov, in sicer:
+– tri predstavnike ustanovitelja,
+– štiri predstavnike univerze, od tega tri iz vrst delavcev, ki opravljajo visokošolsko ali znanstveno-raziskovalno dejavnost (visokošolski učitelji, znanstveni delavci, visokošolski in raziskovalni sodelavci) in enega predstavnika drugih delavcev,
+– enega predstavnika študentov,
+– enega predstavnika delodajalcev.
+V upravni odbor univerze ne morejo biti izvoljeni rektor, prorektorji ter člani senata univerze.
+Upravni odbor je konstituiran, če je imenovana oziroma izvoljena več kot polovica njegovih članov. Prvo sejo skliče rektor.
+
+
+### 50. člen
+
+Upravni odbor:
+– skupaj s senatom sprejema statut univerze,
+– sprejema splošne akte, ki urejajo upravljanje in gospodarjenje univerze,
+– na predlog senata univerze sprejema letni program dela in finančni načrt ter program razvoja univerze in spremlja njuno uresničevanje,
+– daje predhodno soglasje ob sprejemanju oziroma ustanovitvi nove ali pridružene članice v univerzo,
+– daje ustanovitelju in rektorju predloge in mnenja o posameznih vprašanjih,
+– sprejema izhodišča za sistemizacijo delovnih mest,
+– sprejema sklepe o šolninah ter prispevkih za študij in cenik nastanitev ter drugih storitev v Študentskih domovih,
+– sprejema odločitve o upravljanju premoženja in o investicijah univerze,
+– sprejema poslovnik o svojem delu,
+– sprejema merila za razporejanje letnih sredstev za študijsko dejavnost,
+– sprejema druge odločitve v zvezi z upravljanjem univerze.
+Pred sprejetjem letnega delovnega načrta in programa razvoja univerze si mora upravni odbor pridobiti soglasje senata univerze.
+
+
+### 51. člen
+
+Mandat članov upravnega odbora traja štiri leta, mandat predstavnika študentov pa dve leti.
+Delovanje upravnega odbora se ureja s poslovnikom.
+
+
+### 52. člen
+
+Na listi kandidatov za člana upravnega odbora iz vrst delavcev, ki opravljajo visokošolsko ali znanstvenoraziskovalno dejavnost, so izvoljeni trije kandidati, ki so prejeli največ glasov.
+Predstavnika delodajalcev univerza določi prek javnega poziva v soglasju z ustanoviteljem med kandidati, ki jih predlagajo predstavniki delodajalcev v skladu z določbami akta o ustanovitvi univerze. Predstavnike ustanovitelja imenuje Vlada Republike Slovenije.
+Člana upravnega odbora iz vrst študentov imenuje študentski svet univerze po postopku, ki ga določa pravilnik o volitvah predstavnikov študentov v organe univerze. Za člana upravnega odbora ne more biti izvoljen absolvent.
+Postopek volitev upravnega odbora določa pravilnik, ki ureja volitve organov univerze.
+
+
+### 52.a člen
+
+Pred potekom mandata upravni odbor sproži postopek za izvolitev članov nove sestave upravnega odbora. Sklep o začetku postopka za izvolitev članov upravnega odbora sprejme rektor najkasneje devetdeset dni pred potekom mandata članom upravnega odbora.
+Nadomestna izvolitev članov upravnega odbora se opravi, če se spremeni razmerje članov glede na njihovo sestavo določeno v tem statutu. Mandat nadomestnega člana traja do poteka mandata člana, namesto katerega je izvoljen.
+Volitve se opravijo s tajnim glasovanjem.
+
+
+### 53. člen
+
+Upravni odbor je sklepčen, če je navzoča večina članov.
+Sklep je sprejet, če zanj glasuje večina navzočih članov.
+Za sprejem statuta je potrebna dvotretjinska večina vseh članov.
+Na seje upravnega odbora so vabljeni brez pravice glasovanja tudi predstavniki tistih članic univerze, ki v upravnem odboru nimajo svojega izvoljenega člana.
+
+
+### 54. člen
+
+Upravni odbor lahko ustanovi komisije in delovna telesa.
+
+
+### 1.5 Študentski svet univerze
+
+
+### Študentski svet univerze
+
+
+### 55. člen
+
+Študentski svet je organ univerze, ki zastopa interese študentov.
+
+
+### 56. člen
+
+Volitve in način organiziranja študentskega sveta univerze so opredeljene v pravilih o delu študentskega sveta univerze, ki jih sprejme študentski svet.
+
+
+### 57. člen
+
+Študentski svet univerze sestavljajo predsedniki študentskih svetov članic univerze in po en predstavnik študentskega sveta vsake članice, ki ga izvoli študentski svet posamezne članice.
+
+
+### 58. člen
+
+Črtan.
+
+
+### 59. člen
+
+Študentski svet univerze obravnava statut univerze in vse zadeve, ki se nanašajo na pravice in dolžnosti študentov, ter daje pristojnim organom univerze mnenje o njih. Študentski svet univerze oblikuje mnenje o kandidatih za rektorja univerze in voli člane organov univerze in njihovih delovnih teles iz vrst študentov v skladu z veljavno zakonodajo in tem statutom.
+Če mnenje iz prejšnjega odstavka ni upoštevano, lahko študentski svet univerze zahteva, da pristojni organ na način in po postopku, določenem s statutom, še enkrat obravnava in odloči o posamezni zadevi.
+
+
+### 60. člen
+
+Študentski svet univerze sprejme splošni akt univerze, s katerim uredi delovanje študentskega sveta univerze in študentskih svetov članic univerze. Potrdi ga senat univerze.
+Študentski svet članice lahko svoje delovanje podrobneje uredi tudi s samostojno sprejetimi pravili, ki pa morajo biti v skladu s splošnim aktom univerze iz prejšnjega odstavka tega člena.
+
+
+### 61. člen
+
+Mandat članov študentskega sveta univerze traja eno leto oziroma do prenehanja položaja predsednika oziroma članstva v študentskem svetu članice.
+Član študentskega sveta univerze lahko ponovno opravlja mandat.
+
+
+### 2. Organi članic univerze
+
+
+### 2.1 Organi visokošolskih zavodov univerze
+
+
+### 62. člen
+
+Organi članice, ki je visokošolski zavod, so:
+– dekan,
+– senat,
+– akademski zbor,
+– upravni odbor in
+– študentski svet.
+
+
+### 2.1.1 Dekan
+
+
+### 63. člen
+
+Dekan vodi, zastopa in predstavlja članico ter odgovarja za zakonitost dela članice.
+Dekan je strokovni vodja članice in opravlja naloge na temelju zakona, odloka o ustanovitvi univerze, tega statuta in pooblastil rektorja, ki jih le-ta prenese na dekana.
+Dekan je hkrati poslovodni organ članice, ko ta posluje v okviru dejavnosti iz drugega odstavka 24. člena tega statuta.
+
+
+### 64. člen
+
+Dekana imenuje rektor za dobo štirih let na predlog senata članice izmed njenih visokošolskih učiteljev oziroma znanstvenih delavcev v 15 dneh po prejetem sklepu o izvolitvi v senatu članice.
+Rektor lahko imenovanje dekana zadrži. V tem primeru predlog z obrazložitvijo v 15 dneh po prejetem sklepu o izvolitvi v senatu članice vrne senatu članice v ponovno obravnavo in odločanje. V primeru, da senat članice ponovno predlaga istega kandidata, ga rektor v 15 dneh imenuje za dekana.
+Dekan je lahko ponovno imenovan.
+Dekan je lahko predčasno razrešen:
+1. na lastno zahtevo,
+2. če s svojim delom huje ali večkrat krši zakonodajo Republike Slovenije ter predpise, statut ali druge splošne akte univerze ali če neutemeljeno ne izvršuje zakonitih sklepov organov univerze ali očitno ravna v nasprotju z njimi,
+3. če s svojim nevestnim ali nepravilnim delom ali s prekoračitvijo pooblastil prizadene univerzi ali njenim članicam večjo škodo ali če bi zaradi takšnega njegovega dela taka škoda lahko nastala,
+4. če so bile z izvajanjem njegovih sklepov kršene zakonite pravice delavcev ali študentov ali je bila po njegovi krivdi povzročena škoda univerzi ali članicam univerze,
+5. če izgubi naziv ali mu je prenehalo delovno razmerje na univerzi.
+Razrešeni dekan vrši dolžnosti do izvolitve novega.
+Rektor lahko razreši dekana pred potekom njegovega mandata tudi na predlog senata članice, izglasovanega z dvotretjinsko večino vseh članov senata članice.
+
+
+### 65. člen
+
+Dekan:
+– organizira, vodi in usklajuje izobraževalno, znanstveno-raziskovalno, umetniško delo in strokovno delo ter poslovanje članice,
+– v skladu s svojimi pooblastili skrbi za zakonitost dela članice,
+– je pristojen za spremljanje, ugotavljanje in zagotavljanje kakovosti članice univerze, študijskih programov, znanstvenoraziskovalnega, umetniškega ter strokovnega dela in pripravo letnega poročila o kakovosti (samoevalvacija članice),
+– predlaga temeljne razvojne in poslovne politike,
+– predlaga ustanavljanje organizacijskih enot,
+– predlaga letno in večletno poročilo o izvajanju programa senatu članice,
+– sklicuje in vodi seje senata članice,
+– izvršuje sklepe senata članice,
+– najmanj enkrat na leto poroča o delu akademskemu zboru, senatu članice in rektorju,
+– s soglasjem senata članice imenuje prodekane ter komisije in druga delovna telesa,
+– opravlja druge naloge v skladu z zakonom, tem statutom in splošnimi akti univerze.
+
+
+### 66. člen
+
+Članica ima enega ali več prodekanov. Število in delovno področje prodekanov določi članica s pravili.
+Dekan za čas svoje odsotnosti s pisnim pooblastilom določi prodekana, ki ga nadomešča, ter obseg nadomeščanja.
+
+
+### 67. člen
+
+Postopek za imenovanje dekana se začne šest mesecev pred iztekom njegovega mandata.
+Če senat članice do izteka mandata dekana ne predlaga kandidata za dekana, imenuje dekana rektor izmed učiteljev članice, ki izpolnjujejo pogoje za izvolitev v senat univerze.
+Članica s svojimi pravili določi postopek izvolitve dekana.
+
+
+### 2.1.2 Senat
+
+
+### 68. člen
+
+Senat je najvišji strokovni organ članice.
+Senat sestavljajo visokošolski učitelji in znanstveni delavci, ki so zaposleni na univerzi in delo opravljajo na članici, ter študentje. Ima najmanj sedem članov.
+Člane senata iz vrst visokošolskih učiteljev in znanstvenih delavcev voli akademski zbor članice.
+Število članov senata določi članica s pravili, tako da so v njem enakopravno zastopane vse znanstvene in umetniške discipline ter strokovna področja članice.
+Po svoji funkciji so člani senata dekan in predstavniki študentskega sveta članice.
+Mandatna doba članov senata traja štiri leta. Število in način izvolitve članov senata določi članica s pravili, s tem da mora biti najmanj petina članov iz vrst študentskega sveta. Mandat predstavnikov študentov v senatu traja dve leti. S prenehanjem statusa študenta preneha tudi članstvo v senatu članice.
+Članstvo v senatu preneha s potekom mandata, s prenehanjem funkcije oziroma statusa, ki je bila podlaga za imenovanje v senat, v primeru prenehanja delovnega razmerja in z odstopom.
+
+
+### 69. člen
+
+Način volitev članov senata iz vrst študentov določi pravilnik, ki določa način izvolitve predstavnikov v organe članic in ga sprejme študentski svet univerze.
+
+
+### 70. člen
+
+Seje senata sklicuje in vodi dekan. V njegovi odsotnosti ga nadomešča pooblaščeni oziroma najstarejši član senata.
+
+
+### 71. člen
+
+Senat članice razpravlja in sklepa o strokovnih vprašanjih s področja znanstveno-raziskovalnega, umetniškega in izobraževalnega dela članice in predlaga senatu univerze sprejem sklepov.
+Senat:
+– sprejema pravila članice,
+– oblikuje in predlaga v sprejem senatu univerze študijske programe za pridobitev izobrazbe in za izpopolnjevanje,
+– predlaga rektorju v imenovanje dekana,
+– v postopku izvolitve v naziv visokošolskega učitelja, znanstvenega delavca in visokošolskega sodelavca imenuje strokovne poročevalce, zadolžene za ocenitev usposobljenosti kandidata,
+– voli visokošolske učitelje, znanstvene delavce in visokošolske sodelavce v naziv, razen rednega profesorja, znanstvenega svetnika in raziskovalno-razvojnega svetnika, oziroma predlaga senatu univerze kandidata za izvolitev v naziv rednega profesorja, znanstvenega svetnika in raziskovalno-razvojnega svetnika,
+– sprejema letni delovni načrt in poročilo o delu članice,
+– imenuje komisijo za oceno primernosti teme doktorske disertacije in usposobljenosti kandidata za opravljanje doktorata znanosti ter predlaga senatu univerze v potrditev temo doktorske disertacije,
+– imenuje poročevalce za oceno in komisijo za zagovor predložene doktorske disertacije,
+– določa način sprejemanja in ocenjevanja magistrskih del in specialističnih nalog,
+– imenuje mentorja oziroma somentorja podiplomskemu študentu,
+– imenuje komisijo ter odloča o priznavanju tujega izobraževanja za nadaljevanje izobraževanja v primerih, ki jih določa zakon,
+– imenuje komisije in delovna telesa senata članice,
+– kot prvostopenjski organ odloča o vlogah študentov članice v študijskih zadevah; za odločanje lahko senat članice pooblasti komisijo pristojno za odločanje o študentskih zadevah,
+– oblikuje predloge za priznanja in nagrade članice in univerze,
+– razpravlja in odloča o mnenjih študentskega sveta članice s področja njegove pristojnosti,
+– skrbi za spremljanje kakovosti izobraževalnega, znanstveno-raziskovalnega in umetniškega dela,
+– predlaga imenovanja predstavnikov visokošolskega zavoda v strokovne organizacije in organe zunaj visokošolskega zavoda,
+– opravlja druge naloge, če je tako določeno z zakonom, tem statutom ali drugim splošnim aktom senata, ki ga sprejme senat z dvotretjinsko večino vseh članov senata.
+Način dela senata določi članica s poslovnikom.
+
+
+### Delovna telesa senata visokošolskega zavoda
+
+
+### 72. člen
+
+Senat članice ima komisijo za izvolitve v nazive, komisijo za študijske zadeve in komisijo za znanstveno-raziskovalno oziroma umetniško dejavnost.
+Po potrebi lahko članica s pravili ali senat članice s sklepom oblikuje dodatne komisije in delovna telesa senata članice.
+
+
+### 2.1.3 Akademski zbor
+
+
+### 73. člen
+
+Akademski zbor članice sestavljajo vsi na univerzi zaposleni, ki delo opravljajo na članici kot visokošolski učitelji, znanstveni delavci, visokošolski in raziskovalni sodelavci.
+Pri delu akademskega zbora sodelujejo tudi predstavniki študentov; njihovo število ne sme biti manjše od ene petine vseh članov akademskega zbora.
+Predstavnike študentov voli študentski svet. Način volitev predstavnikov študentov, ki sodelujejo v akademskem zboru, določi pravilnik, ki določa način izvolitve predstavnikov v organe članic in ga sprejme študentski svet univerze.
+
+
+### 74. člen
+
+Akademski zbor voli člane senata članice in predlaga senatu članice enega kandidata za dekana. Pravico do glasovanja za člane senata in predloge za dekana imajo vsi člani akademskega zbora. Način volitev članov senata določa članica s pravili.
+Akademski zbor obravnava poročila dekana o delu članice ter daje predloge in pobude senatu.
+Akademski zbor se sestane vsaj enkrat na leto.
+Akademski zbor je sklepčen, če je na seji prisotna vsaj polovica vseh članov akademskega zbora. Akademski zbor sprejema odločitve z večino glasov prisotnih članov.
+
+
+### 2.1.4 Upravni odbor
+
+
+### 75. člen
+
+Upravni odbor visokošolskega zavoda odloča v primerih, ko gre za dejavnosti iz drugega odstavka 24. člena in skrbi za nemoteno poslovanje članice v primerih, ko le-ta nastopa v pravnem prometu v svojem imenu in za svoj račun.
+Na koncu poslovnega leta sprejme upravni odbor letno poročilo in odloči o razporejanju presežka prihodkov nad odhodki ter presežka odhodkov nad prihodki, ustvarjenih iz lastne dejavnosti v primeru, ko gre za sredstva, ki jih ni zagotovila Republika Slovenija, v skladu z določili, ki jih predvideva zakon.
+Upravni odbor univerze lahko prenese na upravni odbor članice določena pooblastila iz svoje pristojnosti.
+
+
+### 76. člen
+
+Mandat članov upravnega odbora traja štiri leta.
+Število in volitve članov upravnega odbora, njegovo vodenje ter način odločanja določi članica s pravili.
+
+
+### 2.1.5 Študentski svet visokošolskega zavoda univerze
+
+
+### 77. člen
+
+Študentski svet članice je organ študentov članice.
+Študentski svet ima najmanj devet članov, ki jih izmed sebe izvolijo študentje članice.
+Način volitev članov in njihovo delovanje določi poseben akt, ki ga sprejme študentski svet univerze.
+Študentski svet članice lahko svoje delovanje podrobneje uredi tudi s samostojno sprejetimi pravili, ki morajo biti v skladu s splošnim aktom univerze iz 60. člena.
+
+
+### 78. člen
+
+Študentski svet članice:
+– razpravlja o vseh zadevah, ki se nanašajo na pravice in dolžnosti študentov,
+– na podlagi študentske ankete daje mnenje o izobraževalnem delu v postopkih izvolitve v naziv učiteljev in sodelavcev,
+– oblikuje mnenja študentov članice za študentski svet univerze in voli člane delovnih teles in organov članice iz vrst študentov, kadar je tako določeno s pravili članice,
+– oblikuje mnenje o kandidatih za dekana.
+
+
+### 79. člen
+
+Če mnenje, ki ga je dal študentski svet članice v zadevah iz svoje pristojnosti, ni bilo upoštevano, lahko študentski svet zahteva, da pristojni organ članice univerze na prvi naslednji seji zadevo ponovno obravnava, o njej odloči in o svojih stališčih obvesti študentski svet.
+
+
+### 80. člen
+
+Mandat članov študentskega sveta članic traja eno leto. S prenehanjem statusa študenta preneha tudi članstvo v študentskem svetu članice.
+Član študentskega sveta članice je lahko ponovno izvoljen, če ni absolvent.
+
+
+### 2.2 Organi raziskovalnih zavodov univerze
+
+
+### 81. člen
+
+Organi članice, ki je raziskovalni zavod, so:
+– direktor,
+– znanstveni svet in
+– upravni odbor.
+
+
+### 2.2.1 Direktor
+
+
+### 82. člen
+
+Direktor vodi, zastopa in predstavlja članico ter odgovarja za zakonitost dela članice.
+Direktor je strokovni vodja članice in opravlja naloge na temelju zakona, odloka o ustanovitvi univerze, tega statuta in pooblastil rektorja, ki jih le-ta prenese na direktorja.
+Direktor je hkrati poslovodni organ članice, ko ta posluje v okviru dejavnosti iz drugega odstavka 24. člena tega statuta.
+
+
+### 83. člen
+
+Direktorja imenuje rektor za dobo petih let na predlog znanstvenega sveta članice v 15 dneh po prejetem sklepu o izvolitvi v znanstvenem svetu članice.
+Rektor lahko imenovanje direktorja zadrži. V tem primeru predlog z obrazložitvijo v 15 dneh po prejetem sklepu o izvolitvi v znanstvenem svetu članice vrne znanstvenemu svetu članice v ponovno obravnavo in odločanje. V primeru, da znanstveni svet članice ponovno predlaga istega kandidata, ga rektor v 15 dneh imenuje za direktorja.
+Direktor je lahko ponovno imenovan.
+Direktor je lahko predčasno razrešen:
+1. na lastno zahtevo,
+2. če s svojim delom huje ali večkrat krši zakonodajo Republike Slovenije ter predpise, statut ali druge splošne akte univerze ali če neutemeljeno ne izvršuje zakonitih sklepov organov univerze ali očitno ravna v nasprotju z njimi,
+3. če s svojim nevestnim ali nepravilnim delom ali s prekoračitvijo pooblastil prizadene univerzi ali njenim članicam večjo škodo ali če bi zaradi takšnega njegovega dela taka škoda lahko nastala,
+4. če so bile z izvajanjem njegovih sklepov kršene zakonite pravice delavcev ali študentov ali je bila po njegovi krivdi povzročena škoda univerzi ali članicam univerze,
+5. če izgubi naziv ali mu je prenehalo delovno razmerje na univerzi.
+Razrešeni direktor vrši dolžnosti do izvolitve novega.
+Rektor lahko razreši direktorja pred potekom njegovega mandata tudi na predlog znanstvenega sveta članice, izglasovanega z dvotretjinsko večino vseh članov znanstvenega sveta članice.
+
+
+### 84. člen
+
+Direktor:
+– organizira, vodi in usklajuje znanstveno-raziskovalno, izobraževalno in strokovno delo ter poslovanje članice,
+– v skladu s svojimi pooblastili skrbi za zakonitost dela članice,
+– je pristojen za spremljanje, ugotavljanje in zagotavljanje kakovosti članice univerze, znanstvenoraziskovalnega ter strokovnega dela in pripravo letnega poročila o kakovosti (samoevalvacija članice),
+– predlaga temeljne razvojne in poslovne politike,
+– predlaga ustanavljanje organizacijskih enot,
+– predlaga letno in večletno poročilo o izvajanju programa znanstvenemu svetu članice,
+– sklicuje in vodi seje znanstvenega sveta članice,
+– izvršuje sklepe znanstvenega sveta članice,
+– najmanj enkrat na leto poroča o delu znanstvenemu svetu članice in rektorju,
+– s soglasjem znanstvenega sveta članice imenuje komisije in druga delovna telesa,
+– opravlja druge naloge v skladu z zakonom, s tem statutom in splošnimi akti univerze.
+
+
+### 84.a člen
+
+Članica ima lahko enega ali več namestnikov ali pomočnikov direktorja. Število in delovno področje določi članica s pravili.
+Direktor za čas svoje odsotnosti s pisnim pooblastilom določi namestnika ali pomočnika, ki ga nadomešča ter obseg nadomeščanja.
+
+
+### 85. člen
+
+Postopek za imenovanje direktorja se začne šest mesecev pred iztekom njegovega mandata.
+Če znanstveni svet članice do izteka mandata direktorja ne predlaga kandidata za direktorja, imenuje direktorja rektor izmed raziskovalcev članice, ki izpolnjujejo pogoje za izvolitev v direktorja po zakonu, ki ureja raziskovalno dejavnost.
+Članica s svojimi pravili določi postopek izvolitve direktorja.
+
+
+### 2.2.2 Znanstveni svet
+
+
+### 86. člen
+
+Znanstveni svet je najvišji strokovni organ članice.
+Znanstveni svet raziskovalnega zavoda ima najmanj sedem članov.
+Število članov in način oblikovanja znanstvenega sveta določi članica s pravili. Za člana je lahko imenovan znanstveni svetnik, raziskovalno-razvojni svetnik, višji znanstveni sodelavec, znanstveni sodelavec, višji raziskovalno-razvojni sodelavec, vodja notranje organizacijske enote in vodja programa raziskovalnega zavoda.
+Direktor je član znanstvenega sveta po funkciji in mu predseduje.
+Mandat članov znanstvenega sveta traja 4 leta.
+Znanstveni svet ima namestnika predsednika, ki ga izmed sebe izvolijo njegovi člani.
+
+
+### 87. člen
+
+Postopek volitev članov, mandat ter način dela znanstvenega sveta določa pravilnik, ki ga sprejme znanstveni svet raziskovalnega zavoda.
+
+
+### 88. člen
+
+Pristojnosti znanstvenega sveta:
+– sprejema pravila članice,
+– oblikuje strokovne podlage za pripravo raziskovalnih programov raziskovalnega zavoda,
+– oblikuje strokovne podlage za študijske programe na področjih, na katerih raziskuje,
+– rektorju predlaga v imenovanje direktorja raziskovalnega zavoda,
+– vsebinsko usklajuje pripravo programa dela,
+– voli raziskovalce v znanstveno-raziskovalne in raziskovalno-razvojne nazive, skladno z določili tega statuta, razen v naziv znanstvenega svetnika in raziskovalno-razvojnega svetnika, ki ju izvoli senat univerze,
+– daje mnenja in pobude glede organizacije in pogojev za razvoj dejavnosti,
+– daje mnenje k letnemu programu dela raziskovalnega zavoda,
+– daje mnenje k izbiri delavcev s posebnimi odgovornostmi,
+– na zahtevo rektorja in senata univerze, upravnega odbora in direktorja daje predloge in mnenja o vseh strokovnih vprašanjih,
+– predlaga in daje mnenje o nabavi pomembnejše raziskovalne opreme,
+– spodbuja inovacijsko dejavnost, evidentira, obravnava in daje mnenja o prijavah patentov, inovacij in koristnih predlogov,
+– predlaga imenovanja predstavnikov raziskovalnega zavoda v strokovne organizacije in organe zunaj raziskovalnega zavoda,
+– opravlja druge strokovne zadeve, za katere ga pooblastijo posamezni organi raziskovalnega zavoda ali je tako določeno z zakonom, tem statutom in drugimi splošnimi akti raziskovalnega zavoda.
+Znanstveni svet dela in sklepa na sejah skladno s poslovnikom.
+
+
+### 2.2.3 Upravni odbor
+
+
+### 89. člen
+
+Upravni odbor raziskovalnega zavoda odloča v primerih, ko gre za dejavnosti iz drugega odstavka 24. člena in skrbi za nemoteno poslovanje članice v primerih, ko le-ta nastopa v pravnem prometu v svojem imenu in za svoj račun.
+Na koncu poslovnega leta sprejme upravni odbor letno poročilo in odloči o razporejanju presežka prihodkov nad odhodki ter presežka odhodkov nad prihodki, ustvarjenih iz lastne dejavnosti v primeru, ko gre za sredstva, ki jih ni zagotovila Republika Slovenija, v skladu z določili, ki jih predvideva zakon.
+Upravni odbor univerze lahko prenese na upravni odbor raziskovalnega zavoda določena pooblastila iz svoje pristojnosti.
+
+
+### 90. člen
+
+Mandat članov upravnega odbora traja štiri leta.
+Število in volitve članov upravnega odbora, njegovo vodenje ter način odločanja določi raziskovalni zavod s pravili.
+
+
+### 2.3 Organi drugega zavoda, članice univerze – Študentski domovi
+
+
+### 2.3.1 Direktor članice Študentski domovi
+
+
+### 90.a člen
+
+Direktor članice Študentski domovi je strokovni vodja članice. Direktorja članice po izvedenem javnem razpisu in predhodnem mnenju sveta Študentskih domov imenuje rektor za dobo štirih let in je lahko po preteku tega časa ponovno imenovan.
+
+
+### 90.b člen
+
+Za direktorja članice Študentski domovi je lahko imenovan, kdor ima:
+– visokošolsko izobrazbo,
+– vodstvene in organizacijske sposobnosti,
+– praviloma pet let delovnih izkušenj,
+– aktivno znanje vsaj enega tujega jezika.
+
+
+### 90.c člen
+
+Direktor zastopa in predstavlja članico Študentski domovi, vodi in usklajuje njen delovni proces in poslovanje ter skrbi in odgovarja za zakonitost dela.
+Enkrat letno poroča o delu članice svetu Študentskih domov, senatu univerze in rektorju univerze.
+Direktor je hkrati poslovodni organ članice, ko ta posluje v okviru dejavnosti iz drugega odstavka 24. člena tega statuta.
+Direktor opravlja tudi druge naloge v skladu z zakonom, drugimi predpisi ter splošnimi akti univerze.
+
+
+### 90.č člen
+
+Direktorju članice Študentski domovi preneha mandat, oziroma je lahko razrešen, pred potekom časa, za katerega je imenovan:
+– če direktor sam zahteva razrešitev,
+– če nastane kateri od razlogov, ki je po predpisih o delovnih razmerjih razlog za prenehanje pogodbe o zaposlitvi,
+– če direktor pri svojem delu ne ravna po predpisih in splošnih aktih članice ali univerze ali neutemeljeno ne izvršuje sklepov upravnega odbora ali ravna v nasprotju z njimi,
+– če direktor s svojim nevestnim ali nepravilnim delom povzroči članici večjo škodo ali če zanemarja ali malomarno opravlja svoje dolžnosti, tako da nastanejo ali bi lahko nastale hujše motnje pri opravljanju dejavnosti članice,
+– če mu na osnovi zakona preneha mandat iz drugih razlogov.
+Razrešitev direktorja se smiselno izvede po postopku, kot je bil imenovan.
+Svet Študentskih domov mora pred sprejetjem sklepa o razrešitvi, razen če razrešitev zahteva sam direktor, seznaniti direktorja z razlogi za razrešitev in mu dati možnost, da se v roku osmih dni o njih izjavi.
+
+
+### 2.3.2 Svet Študentskih domov
+
+
+### 90.d člen
+
+Svet Študentskih domov je najvišji organ članice, ki ga sestavljajo: predstavnik delavcev članice, predstavnik študentov stanovalcev študentskih domov, trije predstavniki univerze.
+Mandat članov traja štiri leta.
+Predstavnika delavcev članice izmed sebe izvolijo delavci na zboru delavcev, predstavnike univerze imenuje rektor, predstavnika stanovalcev študentskih domov pa izmed sebe izvolijo stanovalci.
+
+
+### 90.e člen
+
+Svet Študentskih domov:
+– obravnava in sklepa o organizacijskih vprašanjih in drugih programskih zadevah;
+– določa podlage za program dela in razvoja Študentskih domov;
+– spremlja izvajanje programa dela in razvoja;
+– direktorju članice Študentski domovi daje mnenja in predloge glede organiziranosti dela in pogojev za razvoj dejavnosti;
+– rektorju univerze daje mnenje o kandidatu za direktorja;
+– opravlja druge naloge, ki jih določa zakon ali ta statut.
+Svet Študentskih domov opravlja tudi funkcijo upravnega odbora članice na način, da se smiselno uporabljajo določbe, ki veljajo za upravne odbore drugih članic, s tem da se upoštevajo določbe statuta, ki razmejujejo pristojnosti direktorja članice Študentskih domov.
+
+
+### 90.f člen
+
+Člani Sveta Študentskih domov izmed sebe izvolijo predsednika in njegovega namestnika, ki nadomešča predsednika v času njegove zadržanosti ali če ga je predsednik za to pooblastil. Svet dela na sejah, ki jih sklicuje in vodi predsednik.
+Svet Študentskih domov sklepa veljavno, če je na seji prisotna večina članov sveta, svoje odločitve pa sprejme z večino navzočih članov, če s statutom ali zakonom ni določeno drugače.
+
+
+### 2.3.3 Študentski svet stanovalcev
+
+
+### 90.g člen
+
+Študentski svet stanovalcev je organ stanovalcev v Študentskih domovih univerze. Oblikuje se na način, da se zagotovi ustrezna zastopanost študentov po posameznih študentskih domovih.
+Študentski svet stanovalcev ima smiselno enake pristojnosti in naloge, kot jih imajo študentski sveti članic univerze. Delovanje, volitve in način organiziranja študentskega sveta stanovalcev se natančneje opredeli v pravilih delovanja članice ter v poslovniku o delu študentskega sveta stanovalcev.
+Študentski svet stanovalcev z večino vseh članov izvoli svojega predsednika, ki sklicuje seje in vodi delo organa. Seja je sklepčna, če je navzoča večina članov. Sklepi se sprejemajo z večino glasov navzočih članov.
+
+
+### 3. Organiziranost univerze in članic
+
+
+### 91. člen
+
+Univerza ima naslednjo organiziranost:
+– upravo univerze in
+– univerzitetne centre.
+
+
+### 91.a člen
+
+Univerza ima za opravljanje upravno-administrativnih in strokovno-tehničnih nalog pri izvajanju nacionalnega programa visokega šolstva ter nacionalnega raziskovalno-razvojnega programa, pri izvajanju javne službe in za izvajanje skupnih nalog univerze in članic, upravo univerze.
+Upravo univerze usklajuje glavni tajnik univerze, ki je hkrati vodja tajništva univerze.
+Naloge uprave izvajajo tajništvo univerze in tajništva članic.
+
+
+### 3.1 Tajništvo univerze
+
+
+### 92. člen
+
+Tajništvo univerze opravlja upravno-administrativne in strokovno-tehnične naloge za univerzo kot celoto in tiste naloge za članice, ki so skupne in jih ne opravljajo tajništva članic, zlasti na področjih kot so določena v 23. členu tega statuta.
+Tajništvo univerze ima notranje organizacijske enote: sektorje, službe in druge notranje organizacijske enote, kot jih določa akt o organizaciji univerze in članic.
+
+
+### 92.a člen
+
+Tajništvo univerze, kabinet rektorja in univerzitetni centri tvorijo rektorat univerze. Rektorat usmerja in nadzoruje rektor.
+
+
+### 93. člen
+
+Črtan.
+
+
+### 94. člen
+
+Za glavnega tajnika je lahko imenovan, kdor ima:
+– vsaj univerzitetno oziroma drugostopenjsko izobrazbo pravne ali druge ustrezne smeri,
+– vodstvene in organizacijske sposobnosti,
+– vsaj pet let delovnih izkušenj na vodstvenih delovnih mestih,
+– aktivno znanje vsaj enega tujega jezika.
+
+
+### 95. člen
+
+Glavnega tajnika nadomešča v času njegove daljše odsotnosti pooblaščenec, ki ga izmed vodstvenih delavcev tajništva univerze za to pisno pooblasti glavni tajnik.
+
+
+### 3.2 Tajništvo članic
+
+
+### 96. člen
+
+Tajništvo članice izvaja upravno-administrativne in strokovno-tehnične naloge. Tajništvo članice opravlja tudi upravno-administrativne in gospodarske naloge v zvezi z izvajanjem dejavnosti članice iz drugega odstavka 24. člena tega statuta.
+
+
+### 97. člen
+
+Tajništvo članice vodi tajnik članice.
+
+
+### 98. člen
+
+Za tajnika članice je lahko imenovan, kdor ima:
+– vsaj univerzitetno oziroma drugostopenjsko izobrazbo pravne ali druge ustrezne smeri,
+– vodstvene in organizacijske sposobnosti,
+– praviloma pet let, vendar ne manj kot štiri leta delovnih izkušenj,
+– aktivno znanje vsaj enega tujega jezika.
+
+
+### 4. Univerzitetni centri
+
+
+### 99. člen
+
+Da bi povečala učinkovitost in racionalnost svojega delovanja, zagotavlja univerza organizacijsko podporo dejavnostim, ki so skupnega pomena za vse članice. Za doseganje omenjenih ciljev ima univerza univerzitetne centre, ki se lahko organizirajo v eni od naslednjih oblik:
+– univerzitetni razvojno-raziskovalni center,
+– univerzitetni center za izvajanje interdisciplinarnih študijskih programov II. in III. stopnje,
+– univerzitetna katedra.
+Univerzitetni centri se lahko organizirajo z dejavnostjo zagotavljanja razvoja znanosti, strokovnosti ali umetnosti, ustanovijo pa se na podlagi sklepa senata univerze in njihova organiziranost se določi s pravilnikom senata univerze.
+
+
+### 100. člen
+
+Črtan.
+
+
+### 101. člen
+
+Črtan.
+
+
+### 102. člen
+
+Črtan.
+
+
+### 103. člen
+
+Črtan.
+
+
+### 104. člen
+
+Črtan.
+
+
+### 5. Notranja organiziranost članic
+
+
+### 105. člen
+
+Organizacijske enote članice so: oddelki, katedre, raziskovalne skupine, inštituti, centri in knjižnice. Način oblikovanja in prenehanja ter vodenja organizacijskih enot uredijo članice s pravili.
+
+
+### IV. IZOBRAŽEVALNO, ZNANSTVENO-RAZISKOVALNO IN UMETNIŠKO DELO UNIVERZE
+
+
+### 1. Izobraževalno delo univerze
+
+
+### 1.1 Študijski programi
+
+
+### 106. člen
+
+Izobraževalno delo na univerzi poteka po študijskih programih za pridobitev izobrazbe.
+Izobraževalno delo poteka tudi po študijskih programih za izpopolnjevanje in z različnimi oblikami neformalnega učenja (poletne šole, tečaji, programi usposabljanja, seminarji, delavnice ipd.).
+Izvajanje študijskih programov za izpopolnjevanje in izvajanje oblik neformalnega učenja ne smeta ovirati izvajanja študijskih programov za pridobitev izobrazbe.
+
+
+### 1.1 Oblikovanje in izvajanje študijskih programov
+
+
+### 107. člen
+
+Študijski programi za pridobitev izobrazbe se razvrščajo v tri stopnje, in sicer:
+a) prva stopnja: visokošolski strokovni študijski programi in univerzitetni študijski programi,
+b) druga stopnja: magistrski študijski programi in enoviti magistrski študijski programi,
+c) tretja stopnja: doktorski študijski programi.
+Študijski programi prve stopnje so dodiplomski študijski programi, študijski programi druge in tretje stopnje pa so podiplomski študijski programi.
+
+
+### 107.a člen
+
+Interdisciplinarni študijski programi so študijski programi za pridobitev izobrazbe, ki vključujejo več znanstvenih disciplin oziroma študijskih področij.
+Skupni študijski programi so študijski programi za pridobitev izobrazbe, ki jih skupno izvajajo dve ali več članic univerze oziroma jih univerza ali članica univerze izvaja skupaj z enim ali več visokošolskimi zavodi iz Republike Slovenije ali iz tujine.
+
+
+### 107.b člen
+
+Študijski programi za izpopolnjevanje so oblika vseživljenjskega učenja in so namenjeni predvsem izpopolnjevanju, dopolnjevanju, poglabljanju in posodabljanju znanja.
+
+
+### Oblikovanje, sprejemanje in spreminjanje študijskih programov
+
+
+### 108. člen
+
+Študijski programi za pridobitev izobrazbe in študijski programi za izpopolnjevanje se oblikujejo in sprejemajo na študijskih področjih, ki izhajajo iz ustanovitvenega akta univerze.
+Študijske programe iz prvega odstavka oblikujejo članice na področjih, na katerih opravljajo izobraževalno in raziskovalno delo.
+
+
+### 108.a člen
+
+Študijske programe za pridobitev izobrazbe in študijske programe za izpopolnjevanje na predlog senata članice sprejme senat univerze.
+Skupne študijske programe, ki jih skupno oblikujejo dve ali več članic, sprejme senat univerze na predlog senatov članic univerze, ki sodelujejo pri snovanju in izvajanju teh študijskih programov.
+Skupne študijske programe, ki jih univerza ali članica univerze oblikuje v sodelovanju z univerzami iz Republike Slovenije ali tujine, univerza sprejme skupaj s partnerskimi visokošolskimi zavodi, pri čemer jih predhodno sprejme senat univerze.
+
+
+### 108.b člen
+
+Senat univerze si mora k študijskim programom iz prejšnjega člena pridobiti soglasje Sveta Republike Slovenije za visoko šolstvo. S soglasjem Sveta Republike Slovenije za visoko šolstvo postanejo študijski programi javnoveljavni.
+
+
+### 108.c člen
+
+Obvezne sestavine študijskih programov za pridobitev izobrazbe in študijskih programov za izpopolnjevanje določa zakon.
+Obvezne sestavine študijskih programov se spreminjajo po enakem postopku, kot se sprejemajo.
+
+
+### Pogoji za vpis
+
+
+### 109. člen
+
+Pogoji za vpis v študijske programe za pridobitev izobrazbe so določeni z zakonom in s študijskim programom.
+Pogoji za vpis v študijske programe za izpopolnjevanje so določeni s študijskim programom.
+
+
+### 109.a člen
+
+Pogoje za vpis v študijske programe za pridobitev izobrazbe in v študijske programe za izpopolnjevanje izpolnjuje tudi, kdor je končal enakovredno izobraževanje v tujini.
+Postopek za priznavanje tuje listine izobraževanja v tujini za namen nadaljevanja izobraževanja v Sloveniji se izvede v skladu z zakonom, ki ureja priznavanje in vrednotenje izobraževanja, in pravilnikom univerze, ki ureja postopek za priznavanje tujega izobraževanja za namen nadaljevanja izobraževanja. Pravilnik sprejme senat univerze.
+
+
+### Trajanje študija in kreditno ovrednotenje študijskih programov
+
+
+### 110. člen
+
+Trajanje dodiplomskih in podiplomskih študijskih programov je določeno z zakonom in s študijskim programom.
+Trajanje študija po študijskih programih, ki izobražujejo za poklice, urejene z direktivami Evropske unije, mora biti usklajeno s temi direktivami.
+Študij po študijskih programih prve in druge stopnje se lahko izvaja tudi po delih, določenih s študijskim programom.
+
+
+### 110.a člen
+
+Študijski programi za pridobitev izobrazbe in študijski programi za izpopolnjevanje se ovrednotijo s kreditnimi točkami po Evropskem prenosnem kreditnem sistemu ECTS (European Credit Transfer System), skladno z zakonom in merili, ki jih sprejme Svet Republike Slovenije za visoko šolstvo, in z merili univerze, ki urejajo kreditno vrednotenje študijskih programov na univerzi.
+Število kreditnih točk po posameznih letnikih in stopnjah študija določa zakon.
+
+
+### Razpis za vpis
+
+
+### 111. člen
+
+Vpis v študijske programe z javno veljavnostjo se opravi na podlagi javnega razpisa.
+Razpis za vpis sprejme senat univerze na predlog senata članice univerze. O vsebini razpisa si mora univerza pred objavo pridobiti soglasje Vlade Republike Slovenije.
+Razpis za vpis v dodiplomske študijske programe je skupen in se objavi najmanj šest mesecev pred začetkom novega študijskega leta.
+Razpis za vpis v podiplomske študijske programe se objavi najmanj štiri mesece pred začetkom študijskega leta.
+
+
+### 111.a člen
+
+Sestavine razpisa določa zakon.
+Postopki in roki za prijavo na razpis in izvedbo vpisa ter način objave razpisa so določeni skladno z veljavno zakonodajo.
+
+
+### Omejitev vpisa
+
+
+### 111.b člen
+
+Univerza lahko omeji vpis v študijske programe, ki se izvajajo v okviru javne službe, če število prijav za vpis bistveno presega število razpisanih mest oziroma njegove kadrovske, prostorske, opremske ali druge zmogljivosti.
+Univerza si mora za omejitev vpisa pridobiti soglasje Vlade Republike Slovenije.
+V primeru omejitve vpisa se kandidati dodiplomskih in podiplomskih študijskih programov razvrščajo skladno z merili, ki jih za omejitev vpisa predvidevata zakon in študijski program.
+
+
+### Učni jezik
+
+
+### 112. člen
+
+Učni jezik na univerzi je slovenski.
+Univerza skrbi za razvoj slovenščine kot strokovnega oziroma znanstvenega jezika na način, kot ga določa veljavna zakonodaja. V ta namen lahko univerza ponudi študentom ustrezni del izbirnih vsebin.
+Tujcem in Slovencem brez slovenskega državljanstva univerza omogoči učenje slovenščine na določeni ravni.
+
+
+### 112.a člen
+
+Študijski programi se lahko na podlagi sklepa senata univerze na predlog senata članice izvajajo v tujem jeziku.
+Če se dodiplomski in podiplomski študijski programi izvajajo v okviru javne službe, se lahko izvajajo v tujem jeziku v naslednjih primerih:
+– ko gre za programe tujih jezikov;
+– deli študijskih programov, če pri njihovem izvajanju sodelujejo gostujoči visokošolski učitelji iz tujine ali je vanje vpisano večje število tujih študentov;
+– študijski programi, če se ti programi na visokošolskem zavodu izvajajo tudi v slovenskem jeziku.
+O izvajanju študijskih programov ali delov programov v tujem jeziku sklepa senat univerze.
+V posebnem splošnem aktu, ki ga sprejme senat univerze, se opredeli pravila za izdelavo in zagovor zaključne naloge (diplomsko ter magistrsko delo in naloga, doktorska disertacija) v tujem jeziku.
+
+
+### 112.b člen
+
+V posebnem pravilniku, ki ga sprejme Senat univerze, se natančneje opredeli način skrbi za razvoj in učenje slovenščine na univerzi ter učenje in rabo tujih jezikov, ki se uvajajo v izobraževalni proces, v skladu z zakonom in tem statutom.
+
+
+### Prehodi med študijskimi programi
+
+
+### 113. člen
+
+Splošne pogoje za prehode določajo zakon in merila, ki jih sprejme Svet Republike Slovenije za visoko šolstvo.
+Prehajati je možno med študijskimi programi iste stopnje in iz višješolskih študijskih programov v študijske programe prve stopnje, skladno z zakonom, z merili iz prvega odstavka tega člena ter s študijskim programom.
+Prehajanje med študijskimi programi iste stopnje je mogoče ob izpolnjevanju pogojev, ki jih določa študijski program.
+Vloge kandidatov za prehod med študijskimi programi obravnava pristojni organ članice.
+
+
+### Načini in oblike izvedbe študija
+
+
+### 114. člen
+
+Študijski programi za pridobitev izobrazbe se izvajajo praviloma kot redni študij, lahko pa tudi kot izredni študij, če to dopuščajo narava študija ter lastne kadrovske in prostorske možnosti članice univerze, ki izvaja študijski program.
+Izredni študij je po vsebini in zahtevnosti enak rednemu.
+Postopek in način prilagoditve izvedbe študija na izrednem študiju natančneje določata študijski program in pravilnik, ki ga sprejme senat univerze.
+
+
+### Izvajanje in organiziranje študijskih programov
+
+
+### 115. člen
+
+Študijske programe za pridobitev izobrazbe in študijske programe za izpopolnjevanje skladno z zakonom in ustanovitvenim aktom univerze izvajajo in organizirajo univerza ali članice.
+Izvajanje skupnih študijskih programov za pridobitev izobrazbe se uredi s sporazumom med univerzo in partnerskimi institucijami, kadar gre za študijske programe, ki jih univerza oziroma članice izvajajo s partnerskimi institucijami iz Republike Slovenije ali tujine, oziroma s sporazumom med članicami, ki ga potrdi rektor, kadar gre za študijske programe v sodelovanju članic.
+
+
+### 115.a člen
+
+Podiplomski študij je lahko organiziran pri članici, ki je visokošolski zavod, oziroma na podiplomski šoli univerze. Skupni podiplomski študijski programi so lahko organizirani na podiplomski šoli univerze.
+
+
+### Študijsko leto in študijski koledar
+
+
+### 116. člen
+
+Študijsko leto traja od 1. oktobra do 30. septembra.
+Dodiplomski študijski programi obsegajo najmanj 20 in največ 30 ur predavanj, seminarjev in vaj tedensko in 30 tednov letno. Če študijski program vsebuje praktično usposabljanje, skupna obremenitev študenta ne sme preseči 40 ur na teden in 42 tednov letno.
+Če narava študija to omogoča, se, ne glede na določbe iz prvega in drugega odstavka tega člena, v okviru izrednega študija s študijskim programom lahko prilagodita organizacija in časovna razporeditev organiziranega izobraževalnega dela možnostim študentov.
+
+
+### Preverjanje in ocenjevanje znanja
+
+
+### 117. člen
+
+Oblike preverjanja znanja so: izpiti, kolokviji, seminarske naloge in seminarska dela ter naloge na vajah, seminarske naloge z zagovorom, aktivno sodelovanje na vajah in seminarjih, testi, nastopi, poročila s strokovne prakse, predstavitve umetniških in drugih del, zaključne naloge ter druge oblike, ki so določene s študijskim programom.
+Preverjanje znanja je lahko ustno ali pisno oziroma ustno in pisno ali s preverjanjem pisnih, grafičnih, tehničnih in drugih izdelkov oziroma nalog in njihovega zagovora ali s preverjanjem posebnega nastopa.
+Preverjanje in ocenjevanja znanja podrobneje ureja pravilnik, ki ga sprejme senat univerze.
+
+
+### 117.a člen
+
+Uspeh pri preverjanju in ocenjevanju se ocenjuje z ocenami: odlično (10), prav dobro (9 in 8), dobro (7), zadostno (6) in nezadostno (1 do 5), pri praktičnem usposabljanju pa z »opravil« oziroma »ni opravil«.
+Kandidat uspešno opravi preverjanje in ocenjevanje, če dobi oceno od zadostno (6) do odlično (10) oziroma »opravil«.
+Študenti morajo biti seznanjeni z načinom preverjanja in ocenjevanja znanja ter z načinom določanja končne ocene predmeta.
+
+
+### Napredovanje po programu in hitrejše napredovanje
+
+
+### 118. člen
+
+Študent se lahko vpiše v višji letnik, če je do izteka študijskega leta opravil vse obveznosti, določene s študijskim programom za vpis v višji letnik.
+
+
+### 118.a člen
+
+Študent se lahko izjemoma vpiše v višji letnik, tudi če ni opravil vseh obveznosti, določenih s študijskim programom za vpis v višji letnik, ko ima za to opravičene razloge ali podeljen status v skladu z veljavnimi pravili univerze.
+
+
+### 118.b člen
+
+Študentu, ki v krajšem času od enega akademskega leta doseže potrebno število kreditov za prehod, se omogoči hitrejše napredovanje.
+Sklep o tem sprejme senat članice na podlagi prošnje kandidata in obrazloženega mnenja komisije za študijske zadeve ali drugega organa, določenega s pravili članice.
+S sklepom se določi način hitrejšega napredovanja.
+
+
+### Ponavljanje letnika
+
+
+### 118.c člen
+
+Študent, ki ni opravil vseh obveznosti, določenih s študijskim programom za vpis v višji letnik, ali je spremenil študijski program, lahko v času študija enkrat ponavlja letnik.
+Študent lahko ponavlja letnik pod pogoji, določenimi s študijskim programom.
+
+
+### Vzporedni študij
+
+
+### 119. člen
+
+Uspešnim študentom, ki imajo po opravljenem prvem letniku študija povprečno izpitno oceno najmanj prav dobro (8), lahko pristojni organ članice univerze omogoči, da se hkrati izobražujejo po dveh ali več študijskih programih, ki jih izvaja en ali več visokošolskih zavodov. Pri tem hkrati odloči tudi o olajšavah pri takem študiju (oprostitve od obiskovanja predavanj, vaj idr.).
+
+
+### 1.2 Javne in druge listine o zaključenem izobraževanju oziroma izpopolnjevanju
+
+
+### Diplome o pridobljeni izobrazbi
+
+
+### 120. člen
+
+Po opravljenih študijskih obveznostih po javnoveljavnem študijskem programu za pridobitev izobrazbe izda univerza študentu diplomo, ki je javna listina.
+Sestavni del diplome je »Priloga k diplomi«. Univerza jo, skladno z zakonom, izda v slovenščini in v še enem od uradnih jezikov Evropske unije in je za študenta brezplačna.
+
+
+### 120.a člen
+
+Diplomo podpišeta rektor univerze in dekan članice, ki je izvajalka študijskega programa, diplomo po skupnem programu, ki ga je izoblikovalo več članic, pa rektor univerze in dekani članic, ki so izvajalke študijskega programa.
+Vsebino, obliko in postopek izdaje diplome ter obliko, podpisnike in postopek izdaje priloge k diplomi natančneje določa pravilnik, ki ureja izdajanje javnih in drugih listin univerze. Pravilnik sprejeme senat univerze.
+
+
+### 120.b člen
+
+Kdor uspešno opravi obveznosti po vseh študijskih programih vzporednega študija, dobi ločene diplome in priloge k diplomi za vsakega od vzporednih študijskih programov.
+
+
+### 120.c člen
+
+Kdor uspešno zaključi skupni študijski program, ki ga univerza ali članica univerze izvaja skupaj z enim ali več visokošolskimi zavodi iz Republike Slovenije ali iz tujine, dobi skupno diplomo, v kateri so navedeni vsi visokošolski zavodi, ki so nosilci skupnega programa.
+Vsebino, obliko in postopek izdaje skupne diplome ter priloge k diplomi določijo sodelujoči visokošolski zavodi. Skupna diploma je javna listina.
+
+
+### Potrdila o opravljenem izpopolnjevanju
+
+
+### 121. člen
+
+Kdor opravi vse obveznosti po javnoveljavnem študijskem programu za izpopolnjevanje ali po delu javnoveljavnega študijskega programa za pridobitev izobrazbe, dobi potrdilo, ki je javna listina.
+Vsebino, obliko in postopek izdaje potrdila natančneje ureja pravilnik, ki ureja izdajanje javnih in drugih listin univerze in ga sprejme senat univerze.
+
+
+### 121a. člen
+
+Kdor opravi vse obveznosti po programu oziroma po drugi obliki neformalnega izobraževanja, ki nima javne veljavnosti, dobi potrdilo, ki ni javna listina.
+Potrdilo podpiše odgovorna oseba izvajalca programa. V primeru, da program izvaja ena od organizacijskih enot univerze, potrdilo podpiše predstojnik organizacijske enote.
+Obvezne sestavine potrdila so: podatki o udeležencu izobraževanja, naslov programa izobraževanja, zaporedna številka potrdila, datum izdaje potrdila, žig članice univerze oziroma univerze ter podpis odgovorne osebe izvajalca programa.
+Potrdilo ima lahko tudi druge sestavine, če je tako določeno s pravilnikom članice univerze oziroma organizacijske enote univerze. Če je izvajalec univerza, so morebitne druge sestavine potrdila določene s pravilnikom, ki ureja izdajanje javnih in drugih listin univerze.
+
+
+### 1.3 Strokovni in znanstveni naslovi ter priznanje pomembnih umetniških del
+
+
+### 122. člen
+
+Kdor opravi vse obveznosti po študijskem programu prve in druge stopnje, pridobi javnoveljavno izobrazbo in strokovni naslov v skladu z zakonom in študijskim programom.
+Kdor opravi vse obveznosti po študijskem programu tretje stopnje, pridobi javnoveljavno izobrazbo in znanstveni naslov v skladu z zakonom in študijskim programom.
+Postopek za odvzem strokovnega oziroma znanstvenega naslova ureja pravilnik, ki ga sprejme senat univerze.
+Umetniško delo je temelj za kvalitetno izvajanje izobraževalnega dela na umetniških programih univerze.
+
+
+### 123. člen
+
+Univerza podeljuje priznanje pomembnih umetniških del v skladu s pravilnikom, ki ga sprejme senat univerze.
+V postopku volitev v naziv učiteljev in sodelavcev na umetniških področjih je priznanje pomembnih umetniških del enakovredno doktoratu znanosti.
+
+
+### 2. Znanstveno-raziskovalno delo
+
+
+### 124. člen
+
+Univerza prek svojih članic izvaja znanstveno-raziskovalno delo, ki je neposredno vezano na izobraževalni proces in je sestavina nacionalnega programa visokega šolstva, ter temeljno, aplikativno in razvojno raziskovalno delo, ki je sestavina nacionalnega raziskovalno-razvojnega programa.
+Raziskovalna dejavnost temelji na načelih etičnosti in odgovornosti za uresničevanje ciljev, zapisanih v nacionalnem raziskovalnem in razvojnem programu in v proračunskih memorandumih, ob spoštovanju socialnega, okoljevarstvenega in trajnostnega vidika družbenega razvoja, na načelu konkurenčnosti, kakovosti, učinkovitosti, odprtosti ter na medsebojnem interesnem sodelovanju in povezovanju v državnem in mednarodnem okolju v skladu s programom razvoja.
+
+
+### 125. člen
+
+Znanstveno-raziskovalno delo na univerzi poteka v skladu s programom, ki ga sprejme senat univerze.
+
+
+### 126. člen
+
+Univerza spodbuja in omogoča prenos znanstvenih in strokovnih spoznanj in dosežkov v uporabo.
+V posebnem pravilniku, ki ga sprejme upravni odbor univerze, se uredijo materialne in nematerialne pravice na znanstvenih in strokovnih spoznanjih in dosežkih, oblike spodbujanja in nagrajevanja avtorjev ter razmerja med univerzo, članicami in avtorji.
+
+
+### 127. člen
+
+Učitelji, znanstveni delavci in sodelavci svoje znanstveno-raziskovalno delo opravljajo v okviru univerze.
+Rektor lahko na predlog senata ali znanstvenega sveta članice dovoli posameznemu učitelju, znanstvenemu delavcu in sodelavcu, da del raziskovalnega dela izvaja zunaj univerze.
+
+
+### 128. člen
+
+Učitelji, znanstveni delavci in sodelavci posredujejo pristojnim službam uprave univerze podatke o svojem znanstveno-raziskovalnem delu, ki so potrebni za sprotno vodenje kadrovskih in drugih evidenc.
+
+
+### 3. Svetovalno delo
+
+
+### 129. člen
+
+Učitelji, znanstveni delavci in sodelavci, ki redno in v celoti opravljajo svoje izobraževalne in znanstveno-raziskovalne obveznosti, lahko opravljajo svetovalno delo.
+Svetovalno delo iz prvega odstavka tega člena je dajanje pisnih in ustnih strokovnih mnenj in nasvetov uporabnikom zunaj univerze.
+O prevzemu svetovalne naloge mora učitelj, znanstveni delavec in sodelavec pisno obvestiti dekana oziroma direktorja raziskovalnega zavoda.
+
+
+### 4. Umetniško delo
+
+
+### 130. člen
+
+Umetniško delo je temelj za kvalitetno izvajanje izobraževalnega dela na umetniških programih univerze in je z njim neločljivo povezano.
+Učitelj na umetniških programih lahko opravlja tudi drugo umetniško delo, o katerem pisno obvesti dekana.
+
+
+### V. VISOKOŠOLSKI UČITELJI, ZNANSTVENI DELAVCI IN VISOKOŠOLSKI TER RAZISKOVALNI SODELAVCI
+
+
+### 131. člen
+
+Izobraževalni proces izvajajo visokošolski učitelji, ki imajo ustrezen naziv.
+V izobraževalnem procesu dodiplomskega študija lahko sodelujejo tudi visokošolski sodelavci.
+Pri obravnavi posameznih problemov ali tem lahko ob prisotnosti nosilca predmeta v skladu s potrebami študijskega programa sodelujejo priznani strokovnjaki iz prakse, ki nimajo ustreznega naziva.
+
+
+### 132. člen
+
+Črtan.
+
+
+### 1. Nazivi
+
+
+### 133. člen
+
+Visokošolski učitelji (učitelji) so:
+– redni profesor,
+– izredni profesor,
+– docent in
+– lektor.
+Visokošolski učitelji na visokih strokovnih šolah oziroma na programih za pridobitev specializacije in visoke strokovne izobrazbe ter na programih športne vzgoje so tudi:
+– višji predavatelji in
+– predavatelji.
+
+
+### 134. člen
+
+Znanstveni delavci so:
+– znanstveni svetnik,
+– višji znanstveni sodelavec,
+– znanstveni sodelavec in
+– drugi znanstveni delavci, opredeljeni z veljavno zakonodajo.
+
+
+### 135. člen
+
+Visokošolski ali raziskovalni sodelavci so:
+– asistent,
+– bibliotekar,
+– strokovni svetnik,
+– višji strokovni sodelavec,
+– strokovni sodelavec in
+– učitelj veščin.
+
+
+### 2. Postopek za izvolitev v naziv
+
+
+### 136. člen
+
+Redne profesorje, znanstvene svetnike in raziskovalno-razvojne svetnike voli senat univerze za neomejeno dobo.
+Izredne profesorje, docente, višje predavatelje, predavatelje, znanstvene sodelavce, višje znanstvene sodelavce in lektorje voli senat ali znanstveni svet članice za dobo petih let.
+Asistente voli senat ali znanstveni svet članice za dobo treh let.
+Druge visokošolske in raziskovalne sodelavce voli senat ali znanstveni svet članice za dobo petih let.
+
+
+### 137. člen
+
+Na podlagi pisne vloge kandidata se v dobo izvolitve v naziv ne štejejo čas starševskega dopusta in več kot trimesečna bolniška odsotnost.
+
+
+### 138. člen
+
+Postopek za izvolitev v naziv visokošolskega učitelja in znanstvenega delavca ter visokošolskega in raziskovalnega sodelavca se začne na pisno vlogo kandidata za izvolitev v naziv za določeno znanstveno področje.
+Kandidat mora vložiti vlogo pri članici, ki razvija področje, za katero se želi izvoliti v naziv. Vlogi mora priložiti ustrezne dokumente v skladu z merili za izvolitev v naziv.
+
+
+### 139. člen
+
+Senat ali znanstveni svet članice, na kateri teče postopek za izvolitev v naziv visokošolskega učitelja in znanstvenega delavca ter visokošolskega in raziskovalnega sodelavca, imenuje v enem mesecu od vložitve prošnje tričlansko strokovno komisijo, ki ugotavlja usposobljenost kandidata, in ji določi rok za izdelavo mnenj. Rok ne sme biti daljši od treh mesecev.
+Član strokovne komisije je lahko učitelj, ki ima enak ali višji naziv, kot je naziv, v katerega se voli kandidat.
+Vsak član strokovne komisije mora članici, na kateri teče postopek, v roku predložiti mnenje iz prejšnjega odstavka.
+Vsebina mnenja je uradna skrivnost.
+
+
+### 140. člen
+
+V primeru prve izvolitve v naziv ali izvolitve v višji naziv članica predloži celotno gradivo komisiji za izvolitve v nazive univerze, skupaj z mnenji poročevalcev in mnenjem študentov o kandidatovem izobraževalnem delu skladno z merili za izvolitve v nazive.
+Komisija za izvolitve v nazive v roku dveh mesecev oblikuje mnenje o prošnji za izvolitev v naziv in svojo odločitev predloži senatu univerze.
+Če komisija za izvolitve v nazive ugotovi, da so mnenja večine poročevalcev za ugotavljanje strokovne usposobljenosti kandidata negativna, seznani senat, da niso izpolnjeni pogoji za izvolitev kandidata v naziv, in o tem obvesti senat oziroma znanstveni svet članice, pri kateri teče postopek za izvolitev v naziv.
+
+
+### 141. člen
+
+Senat ali znanstveni svet članice v roku enega meseca po prejemu mnenja komisije za izvolitve v nazive odloči o izvolitvi kandidata v naziv za ustrezno področje.
+
+
+### 142. člen
+
+Kandidat, ki v postopku za izvolitev v naziv ni bil izvoljen, ne more ponovno zaprositi za izvolitev v ta naziv ali za to področje pred potekom enega leta od negativne rešitve njegove vloge.
+
+
+### 3. Pritožba v postopku za izvolitev v naziv
+
+
+### 143. člen
+
+Kandidat lahko v 15 dneh od dneva, ko mu je bila vročena odločba, s katero je bila njegova vloga za izvolitev v naziv ali področje zavrnjena, oziroma s katero je bilo odločeno o njegovi ponovni izvolitvi v isti naziv ali področje, vloži pritožbo na senat univerze.
+
+
+### 144. člen
+
+Pritožba se lahko vloži iz naslednjih razlogov:
+– če so bile kršene določbe zakona ali tega statuta o postopku za izvolitev v naziv,
+– če so bila v postopku za izvolitev nepravilno ali nepopolno ugotovljena dejstva, ki so pomembna za odločitev.
+
+
+### 145. člen
+
+Pritožba se vloži pri članici, ki je vodila postopek za izvolitev v naziv. Ta jo je dolžna v roku sedmih dni predložiti senatu univerze.
+Senat univerze na prvi seji po prejemu pritožbe določi izmed svojih članov poročevalca.
+Poročevalec izdela v roku 30 dni poročilo in ga predloži senatu univerze.
+
+
+### 146. člen
+
+Senat univerze odloča o pritožbi na prvi seji po prejemu poročevalčevega poročila.
+Obravnavanje pritožbe se začne s poročilom poročevalca, ki obrazloži zadevo in predlaga senatu ustrezen sklep.
+Senat univerze lahko po opravljeni razpravi pritožbo zavrne ali ji ugodi, s tem da odločbo razveljavi in zadevo vrne v ponovno odločanje članici v fazo postopka, v kateri je prišlo do kršitve.
+Na razpravo o pritožbi senat univerze povabi pritožnika.
+Odločitev senata univerze je dokončna.
+
+
+### 4. Postopek za odvzem naziva
+
+
+### 147. člen
+
+Če učitelj, znanstveni delavec ali sodelavec ne izpolnjuje predpisanih pogojev za izvolitev v naziv, začne organ, ki je pristojen za izvolitev, postopek za odvzem naziva.
+
+
+### 148. člen
+
+Postopek za odvzem naziva zaradi neizpolnjevanja pogojev, določenih za izvolitev v naziv, se začne tudi, če obstaja utemeljen sum, da je kandidat v postopku za izvolitev v naziv navajal netočne podatke, ki so bistveno vplivali na njegovo izvolitev v naziv.
+
+
+### 149. člen
+
+V postopku za odvzem naziva se smiselno uporabljajo določbe tega statuta o postopku za izvolitev v naziv.
+
+
+### 5. Posledice izgube naziva
+
+
+### 150. člen
+
+Zaposleni, ki ni obnovil postopka za izvolitev v naziv, ki je pogoj za opravljanje del, na katere je razporejen, teh del ne sme opravljati.
+Pristojni organ je dolžan v tem primeru odločiti o položaju delavca v skladu s predpisi.
+
+
+### 6. Gostujoči učitelj in gostujoči znanstveni delavec
+
+
+### 151. člen
+
+Članica lahko vključi v svoje izobraževalno in znanstveno-raziskovalno ter umetniško delo učitelje in raziskovalce tujih univerz za izvedbo ciklusa ali vseh predavanj posameznega predmeta, skladno z veljavno zakonodajo.
+
+
+### 152. člen
+
+Univerza povabi k sodelovanju gostujočega učitelja oziroma znanstvenega delavca v primeru in za čas odsotnosti učitelja, ki je na sobotnem letu, in v drugih primerih, ko to zahteva izobraževalni proces.
+
+
+### 153. člen
+
+Gostujoči učitelj oziroma raziskovalec lahko sodeluje pri delu organov, komisij in delovnih teles članice brez pravice glasovanja, razen če se sprejemajo odločitve o vprašanjih, ki neposredno zadevajo predmet ali predmetno področje njegovega dela.
+
+
+### 7. Sobotno leto
+
+
+### 154. člen
+
+Učitelj oziroma znanstveni delavec ima skladno z veljavno zakonodajo v šestih letih opravljanja dela pravico do odsotnosti največ dvanajstih mesecev za poglobljeno izpopolnjevanje doma ali v tujini.
+Odsotnost učitelja zaradi sobotnega leta ne sme ovirati poteka izobraževanja.
+Sredstva za izvedbo sobotnega leta se zagotovijo s finančnim načrtom članice.
+V času odsotnosti iz prvega odstavka tega člena pripada visokošolskemu učitelju plača, določena za njegovo delovno mesto.
+
+
+### 155. člen
+
+O pravici do sobotnega leta odloči rektor na podlagi dekanovega ali direktorjevega predloga in kandidatove pisne vloge v skladu s pravilnikom, ki podrobneje ureja sobotno leto in ga sprejme senat univerze.
+Dekanov ali direktorjev predlog mora vsebovati tudi podatke o nadomeščanju v času odsotnosti visokošolskega učitelja.
+Pisna vloga za sobotno leto mora biti vložena eno študijsko leto pred začetkom planirane odsotnosti in mora vsebovati načrt dela za čas sobotnega leta in predvideno obliko nadomeščanja.
+
+
+### 8. Pravice in dolžnosti visokošolskih učiteljev (v nadaljevanju: učiteljev), znanstvenih delavcev in visokošolskih in raziskovalnih sodelavcev v izobraževalnem procesu
+
+
+### 156. člen
+
+Univerza prek svojih članic v okviru materialnih možnosti zagotavlja materialne temelje za nemoteno izobraževalno in znanstveno-raziskovalno delo učiteljev, znanstvenih delavcev in visokošolskih in raziskovalnih sodelavcev, s tem da skrbi za:
+– smotrno vlaganje v vzdrževanje in širitev obstoječih prostorskih zmogljivosti,
+– vzdrževanje, nabavo in posodabljanje opreme za raziskovalno in izobraževalno delo,
+– nabavo strokovne literature in periodike ter
+– razvoj informacijskih in knjižničnih sistemov na univerzi.
+
+
+### 157. člen
+
+Učitelj, znanstveni delavec in visokošolski in raziskovalni sodelavec je dolžan pri svojem delu:
+– izhajati iz načel humanizma in avtonomije univerze, svobode znanstvenega in umetniškega ustvarjanja ter poučevanja,
+– spoštovati sprejete akte univerze in iz njih izhajajoče sklepe njenih organov,
+– spoštovati načela stroke in znanstvene etike,
+– utrjevati ugled univerze.
+
+
+### 158. člen
+
+Učitelj in visokošolski in raziskovalni sodelavec je dolžan pri delu s študenti dosledno opravljati svoje izobraževalne obveznosti, zlasti s tem da:
+– pripravlja in izvaja predavanja, seminarje, vaje in druge oblike izobraževalnega dela,
+– pripravlja ustrezno študijsko gradivo za svoj predmet,
+– opravlja mentorstvo pri diplomskih in seminarskih nalogah ter pri raziskovalnem delu študentov,
+– ima vsaj eno uro na teden pogovorne ure za študente, pri čemer ima na vsakih 250 vpisanih študentov pri svojih predmetih še dodatne pogovorne ure ter
+– zagotovi nemoten potek izpitov v razpisanih izpitnih rokih.
+
+
+### 159. člen
+
+Učitelj, znanstveni delavec in visokošolski in raziskovalni sodelavec, ki je član organa univerze ali članice oziroma je imenovan za poročevalca ali člana komisije za izvedbo posamezne naloge, je dolžan prevzeti naloge in jih vestno in v roku opraviti.
+
+
+### 160. člen
+
+Univerza spodbuja visokošolske učitelje, znanstvene delavce, visokošolske in raziskovalne sodelavce k mednarodnim in drugim oblikam znanstvenega in strokovnega sodelovanja in povezovanja, ki koristijo njihovemu poklicnemu in strokovnemu razvoju.
+
+
+### 161. člen
+
+Rektor lahko določi, katerih del in kakšnih poslov zaposleni s polnim delovnim časom, ne smejo opravljati na pogodbenih temeljih zunaj univerze zaradi konkuriranja na področju dejavnosti, ki niso javna služba.
+O omejitvi iz prvega odstavka tega člena odloči rektor s sklepom.
+Zoper sklep iz drugega odstavka tega člena lahko delavec ugovarja v roku 15 dni pri senatu oziroma znanstvenem svetu članice.
+Senat oziroma znanstveni svet članice o pritožbi odloči v roku 30 dni.
+Odločitev senata oziroma znanstvenega sveta je dokončna.
+
+
+### 9. Varstvo pravic delavcev univerze
+
+
+### 162. člen
+
+Črtan.
+
+
+### 163. člen
+
+Črtan.
+
+
+### 164. člen
+
+Črtan.
+
+
+### 165. člen
+
+Črtan.
+
+
+### 10. Disciplinska odgovornost delavcev univerze
+
+
+### 166. člen
+
+Črtan.
+
+
+### VI. ŠTUDENTI
+
+
+### 1. Status študenta
+
+
+### 167. člen
+
+Študent je oseba, ki je vpisana na študijske programe za pridobitev izobrazbe na Univerzi na Primorskem.
+Status študenta pridobi, kdor se na podlagi javnega razpisa vpiše na univerzo in se skladno z določili zakona in tega statuta izobražuje po določenem dodiplomskem ali podiplomskem študijskem programu.
+Status študenta se izkazuje z univerzitetno študentsko izkaznico. Vsebino in obliko študentske izkaznice določa poseben pravilnik.
+
+
+### 168. člen
+
+Študenti s posebnimi potrebami oziroma študenti invalidi so osebe, ki se zaradi dolgotrajnih fizičnih, mentalnih, intelektualnih ali senzornih okvar, v nasprotju z ostalimi študenti, srečujejo z ovirami, ki preprečujejo ali ovirajo njihovo polno in učinkovito vključevanje in sodelovanje v študijskih procesih.
+Študenti športniki, umetniki, kulturniki in študenti s priznanimi zaslugami zaradi obštudijskih dejavnosti so osebe, ki so jim zaradi aktivnosti, ki jih opravljajo izven študijskega procesa, priznani posebni pogoji izobraževanja.
+Poseben status iz prvega in drugega odstavka tega člena podeli komisija za študentske zadeve univerze na podlagi ustreznih dokazil. Zoper sklep komisije za študentske zadeve univerze se lahko študent pritoži v 15 dneh od njegove vročitve na senat univerze. Odločitev senata je dokončna.
+Pridobitev statusa iz prvega oziroma drugega odstavka tega člena se uredi v pravilnikih, ki ju sprejme senat univerze.
+
+
+### 169. člen
+
+Študentke matere, ki v času študija rodijo, imajo pravico do podaljšanja študentskega statusa za eno leto za vsakega živorojenega otroka. Smiselno s tem se obravnava tudi varstveni dopust, ki ga koristi študent oče.
+Študentu miruje status študenta v času služenja vojaškega roka ali bolniške odsotnosti, daljše od enega leta.
+
+
+### 170. člen
+
+Študentom, ki imajo status iz 168. člena tega statuta in ne morejo v roku opravljati študijskih obveznosti, se lahko izjemoma podaljša status študenta. O vlogi odloči senat članice oziroma od njega pooblaščena komisija.
+
+
+### 171. člen
+
+Status študenta preneha, če študent:
+– diplomira,
+– ne diplomira v dvanajstih mesecih po zaključku zadnjega semestra,
+– se izpiše,
+– se med študijem ne vpiše v naslednji letnik oziroma semester,
+– je izključen,
+– dokonča podiplomski študij,
+– ne dokonča podiplomskega študija v skladu s 110. členom statuta.
+V primerih iz druge, četrte in sedme alinee prejšnjega odstavka se študentu iz upravičenih razlogov status študenta lahko tudi podaljša, vendar največ za eno leto.
+
+
+### 172. člen
+
+Prekinitev študija se računa od dne, ko je študentu prenehal status študenta.
+Ne šteje se, da je prekinil študij študent, ki je v času pred prenehanjem statusa študenta opravil vse izpite in druge s študijskim programom predvidene obveznosti, ni pa še oddal diplomske naloge, če od prenehanja statusa študenta nista minili več kot dve leti.
+
+
+### 173. člen
+
+Če študent prekine študij za manj kot dve leti, ga lahko nadaljuje in dokonča po istem študijskem programu, ki je veljal ob vpisu.
+
+
+### 173.a člen
+
+Če sta minili več kot dve leti, odkar je študent prekinil študij, mora za nadaljevanje študija vložiti prošnjo na pristojni organ članice univerze.
+Če se je v času prekinitve študija spremenil študijski program, določi organ iz prejšnjega odstavka študentu dodatne obveznosti kot pogoj za nadaljevanje študija.
+
+
+### 2. Pravice in dolžnosti študentov
+
+
+### 174. člen
+
+Študent ima pravice in dolžnosti, ki izhajajo iz zakona in iz tega statuta.
+
+
+### 175. člen
+
+Študent, ki meni, da so bile kršene njegove pravice, ima v skladu s tem statutom pravico do ugovora ali pritožbe.
+
+
+### 176. člen
+
+Študentje imajo pravico prek svojih predstavnikov sodelovati pri delu organov univerze in članic, dajati pobude, mnenja in sprejemati odločitve v skladu s tem statutom.
+
+
+### 177. člen
+
+Slovenci brez slovenskega državljanstva se lahko izobražujejo po javno veljavnih dodiplomskih in podiplomskih študijskih programih in po programih za izpopolnjevanje pod enakimi pogoji kot državljani Republike Slovenije.
+
+
+### 178. člen
+
+Državljani članic Evropske unije imajo pravico do izobraževanja po javno veljavnih dodiplomskih in podiplomskih študijskih programih in po programih za izpopolnjevanje pod enakimi pogoji kot državljani Republike Slovenije.
+
+
+### 3. Varstvo pravic študentov
+
+
+### 179. člen
+
+Študent univerze ima pravico do ugovora zoper sklepe, ki jih organi univerze ali članic sprejmejo o njegovih pravicah, obveznostih in odgovornostih.
+Če ni s tem statutom določeno drugače, lahko študent vloži ugovor iz prvega odstavka tega člena v 15 dneh od dneva, ko mu je bil sklep vročen.
+Če ni s tem statutom določeno drugače, o ugovoru študenta iz prejšnjega odstavka odloča komisija za študentske zadeve univerze.
+
+
+### 180. člen
+
+Črtan.
+
+
+### 181. člen
+
+Črtan.
+
+
+### 4. Disciplinska odgovornost študentov
+
+
+### 182. člen
+
+Disciplinsko odgovornost študentov univerze ureja pravilnik, ki ga sprejme senat univerze. Pred sprejemom pravilnika o disciplinski odgovornosti študentov mora senat pridobiti mnenje študentskega sveta univerze.
+
+
+### VII. PRIZNANJA IN NAGRADE UNIVERZE
+
+
+### 183. člen
+
+Univerza podeljuje priznanja in nagrade.
+S pravilnikom se določijo vrste, število, pogoji, postopek ter oblika priznanj oziroma pravice in status, ki izvirajo iz posameznih priznanj.
+
+
+### 184. člen
+
+Članica lahko s svojimi pravili določi posebna priznanja članice.
+
+
+### VIII. FINANCIRANJE UNIVERZE
+
+
+### 1. Viri financiranja
+
+
+### 185. člen
+
+Dejavnost univerze, ki se nanaša na izvajanje nacionalnega programa visokega šolstva in nacionalnega raziskovalno-razvojnega programa, se financira iz proračuna Republike Slovenije.
+Preostala dejavnost univerze se financira iz drugih virov, in sicer:
+– šolnin in drugih prispevkov za študij,
+– plačil za opravljene storitve,
+– donacij, dediščin, sponzorstev, daril in
+– drugih virov.
+
+
+### 186. člen
+
+Upravni odbor univerze lahko določi šolnine za izobraževanje na dodiplomskih in podiplomskih študijskih programih, ki niso ali so samo deloma financirani v okviru nacionalnega programa visokega šolstva.
+
+
+### 187. člen
+
+Upravni odbor univerze lahko določi prispevke za študij in druge storitve, če niso ali so samo deloma financirani v okviru nacionalnega programa, zlasti za:
+– stroške izbirnega in vpisnega postopka,
+– storitve, ki so del potrjenega študijskega programa (stroški terenskega dela, strokovnih ekskurzij, prakse itd.),
+– izvolitve v nazive kandidatov, ki niso v delovnem razmerju na univerzi,
+– izdajo potrdil, dvojnikov, prepisov in izpisov iz dokumentacije univerze,
+– sprejemne, diferencialne in druge izpite,
+– plačilo obveznega zavarovanja študentov v skladu s predpisi,
+– stroške varstva pri delu,
+– druge storitve, predvidene s sklepom, ki ga sprejme upravni odbor univerze.
+
+
+### 188. člen
+
+Višina šolnine in drugih prispevkov za študij se določa v skladu z veljavnim pravilnikom, ki ureja šolnine in druge prispevke v visokem šolstvu, in s sklepom upravnega odbora univerze.
+Z aktom iz prejšnjega odstavka tega člena se določi tudi način zaračunavanja šolnin in drugih prispevkov za študij.
+
+
+### 189. člen
+
+Šolnine in prispevki so prihodek organizatorja študijskega programa, za katerega se plačuje šolnina, ali opravi storitev, za katero se zaračunava prispevek.
+
+
+### 190. člen
+
+Upravni odbor članice lahko študenta na njegovo prošnjo in na predlog komisije za študijske zadeve članice iz utemeljenih razlogov v celoti ali delno oprosti plačila šolnine in drugih prispevkov za študij oziroma mu dovoli plačevanje v obrokih ter hkrati določi vir, iz katerega se bo pokril izpad prihodka iz tega naslova.
+
+
+### 2. Letni načrt financiranja
+
+
+### 191. člen
+
+Na temelju letnega delovnega načrta univerze upravni odbor univerze sprejme letni finančni načrt.
+Letni program dela in letni finančni načrt upravni odbor univerze sprejme na temelju predlogov članic in tajništva univerze.
+
+
+### 192. člen
+
+Članica sprejme letni finančni načrt na podlagi letnega delovnega načrta, ki obsega vse njene dejavnosti.
+
+
+### 193. člen
+
+Sredstva za izvajanje nacionalnega programa visokega šolstva in nacionalnega raziskovalno-razvojnega programa se članicam in tajništvu univerze določijo na temelju meril, v skladu z veljavno zakonodajo, sprejme pa jih upravni odbor univerze.
+
+
+### 194. člen
+
+Na temelju sprejetega finančnega načrta, poročila o obsegu in izvedbi dejavnosti ter poročila o učinkovitosti izobraževalnega, znanstveno-raziskovalnega, umetniškega in strokovnega dela univerza oblikuje zahtevke za financiranje svoje dejavnosti in jih posreduje ministru, pristojnemu za visoko šolstvo.
+
+
+### IX. PREMOŽENJE UNIVERZE IN ČLANIC
+
+
+### 195. člen
+
+Univerza pridobiva in ustvarja premoženje, članica pa premično premoženje iz naslednjih virov:
+– proračuna Republike Slovenije,
+– šolnin in drugih prispevkov za študij,
+– plačil za opravljene storitve,
+– donacij, dediščin, daril in
+– drugih virov.
+
+
+### 196. člen
+
+Univerza je lastnica premoženja, ki ga je pridobila iz javnih in drugih virov.
+Članice univerze so lastnice premičnega premoženja, pridobljenega na osnovi drugih virov.
+
+
+### 197. člen
+
+Premoženje univerze upravlja upravni odbor univerze s skrbnostjo dobrega gospodarja in v skladu z veljavnimi predpisi.
+Upravni odbor odloča o dejanskem uporabniku premoženja, ki ga je pridobila univerza ali članica v skladu z merili iz pete alinee 50. člena tega statuta.
+
+
+### 198. člen
+
+Univerza lahko odtuji ali obremeni nepremičnino ali opremo večje vrednosti, pridobljeno iz javnih sredstev, le ob predhodnem soglasju ustanovitelja. Za opremo večje vrednosti se šteje oprema, katere vrednost presega znesek, določen za javni razpis.
+Sredstva, pridobljena s prodajo premoženja iz prvega odstavka, se lahko uporabijo za investicije, investicijsko vzdrževanje in opremo.
+
+
+### 199. člen
+
+Članica samostojno razpolaga s premičnim premoženjem, pridobljenim z dejavnostjo iz drugega odstavka 24. člena tega statuta, in s premičnim premoženjem, pridobljenim z dediščinami, sponzorstvi, donacijami, raziskovalnim temeljnim in aplikativnim ter svetovalnim delom, volili ali darili.
+Premično premoženje članice iz prejšnjega odstavka upravlja upravni odbor članice v skladu z veljavnimi predpisi in s skrbnostjo dobrega gospodarja.
+
+
+### 200. člen
+
+Univerza lahko s soglasjem ustanovitelja, senata univerze in upravnega odbora univerze v okviru svoje dejavnosti ustanovi zavod, gospodarsko družbo, ustanovo ali drugo pravno osebo.
+
+
+### 200.a člen
+
+Univerza lahko za upravljanje s sredstvi ustanovi sklad. Na predlog rektorja upravni odbor univerze sprejme sklep o ustanovitvi ali ukinitvi in pravila o delovanju sklada.
+Upravni odbor sklada, ki ima najmanj 11 članov, po svoji funkciji sestavljajo dekani oziroma direktorji članic, predsednik sveta zaupnikov, predsednik študentskega sveta univerze in glavni tajnik. Po položaju je član rektor, ki mu tudi predseduje.
+Program sklada sprejme upravni odbor sklada z večino glasov vseh članov po predhodnem soglasju upravnega odbora univerze.
+
+
+### X. SPLOŠNI AKTI UNIVERZE
+
+
+### 200.b člen
+
+Črtan.
+
+
+### 200.c člen
+
+Črtan.
+
+
+### 200.d člen
+
+Statut, njegove spremembe in dopolnitve ter drugi splošni akti se oblikujejo in sprejemajo po potrebi ali kadar to zahteva zakon ali drug predpis.
+Predlog za začetek postopka sprejemanja sprememb in dopolnitev statuta ali drugega splošnega akta poda rektor univerze po lastni presoji ali na pobudo organov univerze ali članic univerze.
+Osnutek statuta ali splošnega akta oziroma njegove spremembe in dopolnitve pripravijo strokovne službe univerze in delovna telesa univerze s področja, ki ga obravnava splošni akt. Predlog sprememb in dopolnitev statuta pripravi statutarna komisija.
+
+
+### 200.e člen
+
+Predlog sprememb in dopolnitev statuta se posreduje v najmanj petnajstdnevno obravnavo članicam univerze, predlog drugega splošnega akta univerze in njegovih sprememb in dopolnitev, ki jih sprejema senat ali upravni odbor univerze, se posreduje v obravnavo kolegiju dekanov in direktorjev.
+
+
+### 200.f člen
+
+Splošni akti univerze se objavijo na spletnih straneh univerze in začnejo veljati petnajsti dan po objavi, če ni v njih drugače določeno.
+
+
+### XI. PREHODNE IN KONČNE DOLOČBE
+
+
+### 1. Prehodne in končne določbe ob uveljavitvi Statuta UP z dne 29. 7. 2003
+
+
+### 201. člen
+
+Dekani oziroma direktorji zavodov, ki to funkcijo opravljajo na dan uveljavitve tega statuta, jo opravljajo do izteka mandata oziroma do imenovanja novih dekanov in direktorjev po statutu univerze. Mandat drugih organov zavodov traja do izteka oziroma do oblikovanja novih organov po statutu univerze.
+Visokošolski učitelji, znanstveni delavci in visokošolski sodelavci ohranijo pridobljene nazive do izteka izvolitvene dobe.
+
+
+### 202. člen
+
+Članice univerze izvajajo izobraževalne programe, raziskovalne programe ter znanstvene, razvojne in druge projekte do izteka programov oziroma projektov tudi po sprejetju tega statuta.
+
+
+### 203. člen
+
+Članice volijo člane senata univerze v skladu s 35. in 36. členom tega statuta. V prvi senat univerze senati in znanstvena sveta članic izvolijo:
+– Fakulteta za humanistične študije Koper – tri člane,
+– Fakulteta za management Koper – tri člane,
+– Pedagoška fakulteta Koper – tri člane,
+– Turistica – Visoka šola za turizem Portorož – tri člane,
+– Visoka šola za zdravstvo Izola – tri člane,
+– Znanstveno-raziskovalno središče Koper – tri člane,
+– Primorski inštitut za naravoslovne in tehnične vede Koper – tri člane.
+Študentski svet univerze imenuje v senat univerze štiri člane.
+
+
+### 204. člen
+
+Delovanje senata ureja poslovnik, ki ga na konstitutivni seji sprejme senat univerze v skladu z 39. členom tega statuta.
+
+
+### 205. člen
+
+Sklep o izvedbi volitev članov senata univerze izda v.d. direktorice v roku 15 dni od uveljavitve tega statuta.
+V.d. direktorice pozove senate in znanstvene svete članic, da v 30 dneh izvolijo v senat univerze izmed svojih učiteljev in znanstvenih delavcev svoje predstavnike v senat univerze v skladu s 35. členom in 203. členom tega statuta.
+
+
+### 206. člen
+
+Sklep o izvedbi volitev in pravila za volitev prvega rektorja izda senat univerze v roku 15 dni od konstituiranja.
+
+
+### 207. člen
+
+Univerza in članice morajo sprejeti splošne akte, predvidene s tem statutom, oziroma jih uskladiti z njim ter konstituirati organe najkasneje v šestih mesecih po njegovi uveljavitvi.
+
+
+### 208. člen
+
+Članice registrirajo začetno premoženje ob vstopu v univerzo v otvoritveni bilanci stanja.
+
+
+### 209. člen
+
+Statut sprejmeta v enakem besedilu upravni odbor in začasni senat univerze.
+Statut začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+
+### 2. Prehodne in končne določbe ob uveljavitvi Sprememb in dopolnitev Statuta UP z dne 20. 5. 2005
+
+
+### 210. člen
+
+Članice univerze prenovljene študijske programe po določilih Zakona o spremembah in dopolnitvah Zakona o visokem šolstvu (Uradni list RS, št. 63-2875/04) in tega statuta uvajajo postopoma in jih skladno z 48. členom taistega zakona uvedejo najpozneje v študijskem letu 2009/10.
+Do vključno študijskega leta 2008/09 lahko članice univerze razpisujejo in izvajajo tudi dodiplomske in podiplomske študijske programe za pridobitev izobrazbe in študijske programe za izpopolnjevanje, sprejete pred 11. 6. 2004.
+Študenti, ki se vpišejo v študijske programe pred uvedbo študijskih programov iz prvega odstavka tega člena, se izobražujejo in končajo izobraževanje pod pogoji, ki so veljali pred uveljavitvijo Zakona o spremembah in dopolnitvah Zakona o visokem šolstvu (Uradni list RS, št. 63-2875/04), vendar najdlje do izteka študijskega leta 2015/16.
+Študenti iz prejšnjega odstavka, ki imajo pravico do ponavljanja in zaradi postopnega uvajanja novih študijskih programov ne morejo ponavljati letnika po študijskih programih, v katere so se vpisali, nadaljujejo in končajo študij po novih študijskih programih.
+
+
+### 211. člen
+
+Organi in delovna telesa univerze, ki to funkcijo opravljajo na dan uveljavitve tega statuta, jo opravljajo do izteka mandata.
+Dopolnitve sestave organov in delovnih teles univerze, določenih s tem statutom, se opravijo v šestih mesecih od uveljavitve sprememb in dopolnitev statuta. Novoizvoljenim članom traja mandat do izteka mandata posameznega organa oziroma delovnega telesa univerze.
+
+
+### 212. člen
+
+Pravilnike iz poglavja IV.1. Izobraževalno delo univerze sprejme pristojni organ univerze v šestih mesecih od uveljavitve tega statuta.
+
+
+### 213. člen
+
+Svoja pravila morajo članice uskladiti z določili tega statuta v roku šestih mesecev po uveljavitvi sprememb in dopolnitev statuta.
+V roku devetih mesecev od uveljavitve sprememb in dopolnitev statuta se morajo organi članic preoblikovati skladno z določili statuta. Novoizvoljenim članom organov članic traja mandat do izteka mandata posameznega organa.
+
+
+### 214. člen
+
+Člani študentskega sveta stanovalcev Študentskega doma v Portorožu opravljajo to funkcijo do konstituiranja Študentskega sveta stanovalcev v skladu s statutom.
+
+
+### 215. člen
+
+Spremembe in dopolnitve statuta sprejmeta v enakem besedilu upravni odbor in senat univerze, veljati pa začnejo naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+
+### 3. Prehodne in končne določbe ob uveljavitvi Sprememb in dopolnitev Statuta UP z dne 11. 11. 2008
+
+
+### 216. člen
+
+Senat univerze v šestih mesecih od uveljavitve teh sprememb in dopolnitev statuta sprejme oziroma spremeni in dopolni akte iz 3., 11., 43., 70., 78., 86., 88., 92., 97., 98., 104., 106. in 121. člena.
+Akt iz 49. člena sprejme študentski svet univerze v šestih mesecih od uveljavitve tega statuta.
+
+
+### 217. člen
+
+Članice morajo svoja pravila uskladiti v roku šestih mesecev po uveljavitvi teh sprememb in dopolnitev statuta.
+
+
+### 218. člen
+
+Spremembe in dopolnitve statuta sprejmeta v enakem besedilu upravni odbor in senat univerze, veljati pa začnejo naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 0221-21/08
+
+Rektor
+Univerze na Primorskem
+red. prof. dr. Rado Bohinc l.r.
+Predsednik Upravnega odbora
+Univerze na Primorskem
+mag. Marjan Tkalčič l.r.
