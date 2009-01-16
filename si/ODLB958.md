@@ -4,9 +4,9 @@ naziv: "Odločba"
 vrsta: "akt"
 datum: 2009-01-23
 sop: 2009-01-0171
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-0171"
 ---
 

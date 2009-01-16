@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba Banke Slovenija"
 vrsta: "akt"
 datum: 2009-01-30
 sop: 2009-01-0196
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-0196"
 ---
 
