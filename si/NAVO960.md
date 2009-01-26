@@ -4,9 +4,9 @@ naziv: "Navodilo o predložitvi letnih poročil pravnih oseb javnega prava"
 vrsta: "navodilo"
 datum: 2009-02-20
 sop: 2009-01-0453
-organ: "Agencija Republike Slovenije za javnopravne evidence in storitve"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-0453"
 ---
 
