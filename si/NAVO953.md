@@ -4,9 +4,9 @@ naziv: "Navodilo o pripravljanju in izdajanju tehničnih specifikacij za motorna
 vrsta: "navodilo"
 datum: 2009-03-16
 sop: 2009-01-0763
-organ: "Ministrstvo za promet"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-0763"
 ---
 
