@@ -24,6 +24,10 @@ spremembe:
     datum: 2007-11-09
     sop: 2007-01-5070
     naziv: "Zakon o spremembah in dopolnitvah zakona o zavarovalništvu"
+  - kratica: ZZavar-F
+    datum: 2009-03-13
+    sop: 2009-01-0698
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zavarovalništvu"
 ---
 
 # Zakon o zavarovalništvu
