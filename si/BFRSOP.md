@@ -7,6 +7,11 @@ sop: 2002-02-0053
 objava: "Uradni list RS MP 15/2002  str. 681"
 kljucne_besede: ["ratifikacija sporazuma", "Francija", "obrambna politika", "mednarodno sodelovanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-02-0053"
+spremembe:
+  - kratica: BFRSOP-A
+    datum: 2009-03-20
+    sop: 2009-02-0006
+    naziv: "Predlog zakona o ratifikaciji Sporazuma o spremembi sporazuma med Vlado Republike Slovenije in Vlado Francoske republike o sodelovanju na obrambnem področju"
 ---
 
 # Zakon o ratifikaciji Sporazuma med Vlado Republike Slovenije in Vlado Francoske republike o sodelovanju na obrambnem področju
