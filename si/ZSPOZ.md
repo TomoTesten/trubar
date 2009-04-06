@@ -16,6 +16,10 @@ spremembe:
     datum: 2002-07-26
     sop: 2002-01-3236
     naziv: "Zakon o spremembah in dopolnitvah zakona o plačilu odškodnine žrtvam vojnega in povojnega nasilja"
+  - kratica: ZSPOZ-C
+    datum: 2009-04-06
+    sop: 2009-01-1143
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o plačilu odškodnine žrtvam vojnega in povojnega nasilja"
 ---
 
 # Zakon o Skladu za poplačilo odškodnine žrtvam vojnega in povojnega nasilja
