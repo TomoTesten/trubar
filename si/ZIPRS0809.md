@@ -7,6 +7,11 @@ sop: 2007-01-5700
 objava: "Uradni list RS 114/07  str. 16280"
 kljucne_besede: ["državni proračun", "proračun", "izvrševanje proračuna"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-5700"
+spremembe:
+  - kratica: ZIPRS0809-B
+    datum: 2009-04-06
+    sop: 2009-01-1133
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2008 in 2009"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2008 in 2009
