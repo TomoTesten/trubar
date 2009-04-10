@@ -32,6 +32,10 @@ spremembe:
     datum: 2007-10-12
     sop: 2007-01-4598
     naziv: "Zakon o spremembah in dopolnitvah zakona o izvršbi in zavarovanju"
+  - kratica: ZIZ-G
+    datum: 2009-04-10
+    sop: 2009-01-1187
+    naziv: "Zakon o dopolnitvi Zakona o izvršbi in zavarovanju"
 ---
 
 # Zakon o izvršbi in zavarovanju
