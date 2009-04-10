@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-11-17
     sop: 2006-01-5022
     naziv: "Zakon o spremembah in dopolnitvah zakona o pravicah iz pokojninskega in invalidskega zavarovanja bivših vojaških zavarovancev"
+  - kratica: ZPIZVZ-B
+    datum: 2009-04-10
+    sop: 2009-01-1189
+    naziv: "Zakon o spremembah in dopolnitvah zakona o pravicah iz pokojninskega in invalidskega zavarovanja bivših vojaških zavarovancev"
 ---
 
 # Zakon o pravicah iz pokojninskega in invalidskega zavarovanja bivših vojaških zavarovancev
