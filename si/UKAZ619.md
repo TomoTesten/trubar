@@ -4,9 +4,9 @@ naziv: "Ukaz o imenovanju izrednega in pooblaščenega veleposlanika Republike S
 vrsta: "akt"
 datum: 2009-04-20
 sop: 2009-01-1380
-organ: "Predsednik Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1380"
 ---
 
