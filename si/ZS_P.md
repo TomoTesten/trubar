@@ -12,6 +12,10 @@ spremembe:
     datum: 2007-06-12
     sop: 2007-01-2781
     naziv: "Zakon o spremembah in dopolnitvah zakona o subvencioniranju študentske prehrane"
+  - kratica: ZSŠP-B
+    datum: 2009-04-30
+    sop: 2009-01-1512
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o subvencioniranju študentske prehrane"
 ---
 
 # Zakon o subvencioniranju študentske prehrane
