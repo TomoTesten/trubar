@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-07-27
     sop: 2006-01-3448
     naziv: "Zakon o spremembah in dopolnitvah zakona o letalstvu"
+  - kratica: ZLet-B
+    datum: 2009-04-30
+    sop: 2009-01-1511
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o letalstvu"
 ---
 
 # Zakon o letalstvu
