@@ -4,9 +4,9 @@ naziv: "Ukaz o imenovanju izredne in pooblaščene veleposlanice Republike Slove
 vrsta: "akt"
 datum: 2009-05-08
 sop: 2009-01-1634
-organ: "Predsednik Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1634"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Resolucija o nacionalnem programu preprečevanja nasilja v družini 2009
 vrsta: "akt"
 datum: 2009-06-01
 sop: 2009-01-1987
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1987"
 ---
 
