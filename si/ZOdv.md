@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-04-05
     sop: 2001-01-1455
     naziv: "Zakon o spremembah in dopolnitvah zakona o odvetništvu"
+  - kratica: ZOdv-C
+    datum: 2009-05-08
+    sop: 2009-01-1633
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o odvetništvu"
 ---
 
 # Zakon o odvetništvu
