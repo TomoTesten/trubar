@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k dopolnitvi Akta o ustanovitvi ustanove \"Fundacija
 vrsta: "akt"
 datum: 2009-06-29
 sop: 2009-01-2453
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2453"
 ---
 

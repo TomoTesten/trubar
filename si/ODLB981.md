@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k Aktu o ustanovitvi ustanove \"Krog 74, ustanova\""
 vrsta: "akt"
 datum: 2009-06-29
 sop: 2009-01-2452
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2452"
 ---
 
