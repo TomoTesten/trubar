@@ -7,6 +7,11 @@ sop: 2007-01-3157
 objava: "Uradni list RS 59/07  str. 8085"
 kljucne_besede: ["štipendija za izobraževanje", "študent/dijak"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3157"
+spremembe:
+  - kratica: ZŠtip-A
+    datum: 2009-05-29
+    sop: 2009-01-1924
+    naziv: "Zakon o spremembah in dopolnitvah zakona o štipendiranju"
 ---
 
 # Zakon o štipendiranju
