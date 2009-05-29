@@ -7,6 +7,11 @@ sop: 2007-01-3760
 objava: "Uradni list RS 68/07  str. 9621"
 kljucne_besede: ["investicijska družba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3760"
+spremembe:
+  - kratica: ZPNPID-B
+    datum: 2009-05-29
+    sop: 2009-01-1921
+    naziv: "Zakon o spremembi zakona o pravnih naslednicah pooblaščenih investicijskih družb"
 ---
 
 # Zakon o pravnih naslednicah pooblaščenih investicijskih družb
