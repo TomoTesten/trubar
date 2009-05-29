@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi Navodila o vsebini, načinu in rokih, v katerih izv
 vrsta: "navodilo"
 datum: 2009-06-23
 sop: 2009-01-2343
-organ: "Agencija Republike Slovenije za javnopravne evidence in storitve"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2343"
 ---
 

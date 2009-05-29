@@ -4,8 +4,9 @@ naziv: "Pravilnik o podrobnejših merilih za ugotavljanje okoljske škode"
 vrsta: "navodilo"
 datum: 2009-06-19
 sop: 2009-01-2276
-organ: "Ministrstvo za okolje in prostor"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2276"
 ---
 

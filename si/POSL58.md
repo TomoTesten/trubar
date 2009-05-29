@@ -2,11 +2,11 @@
 kratica: POSL58
 naziv: "Poslovnik Komisije Državnega zbora Republike Slovenije po zakonu o preprečevanju korupcije"
 vrsta: "akt"
-datum: 2005-03-22
+datum: 2009-06-05
 sop: 2005-01-0984
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0984"
 ---
 
