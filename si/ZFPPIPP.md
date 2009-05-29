@@ -7,6 +7,11 @@ sop: 2007-01-6413
 objava: "Uradni list RS 126/07  str. 18637"
 kljucne_besede: ["plačilna sposobnost", "stečaj"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-6413"
+spremembe:
+  - kratica: ZFPPIPP-A
+    datum: 2009-05-29
+    sop: 2009-01-1917
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju"
 ---
 
 # Zakon o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju
