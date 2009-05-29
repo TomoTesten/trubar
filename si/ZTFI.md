@@ -7,6 +7,11 @@ sop: 2007-01-3699
 objava: "Uradni list RS 67/07  str. 9429"
 kljucne_besede: ["objava računovodskih izkazov", "kreditna institucija", "finančna institucija", "bančništvo", "kreditna garancija", "obveznica", "vrednostni papirji", "borzna kotacija", "borza vrednostnih papirjev", "razširjanje informacij", "kapitalski trg", "finančni instrument", "trgovanje na podlagi notranjih informacij", "finančna zakonodaja", "finančni trg", "plačilna sposobnost"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3699"
+spremembe:
+  - kratica: ZTFI-B
+    datum: 2009-05-29
+    sop: 2009-01-1920
+    naziv: "Zakon o spremembah in dopolnitvah zakona o trgu finančnih instrumentov"
 ---
 
 # Zakon o trgu finančnih instrumentov
