@@ -7,6 +7,11 @@ sop: 2009-01-0143
 objava: "Uradni list RS 5/09  str. 337"
 kljucne_besede: ["ohranjanje delovnih mest", "politika zaposlovanja", "zaposlitev s polnim delovnim časom", "pomoč podjetjem", "podjetje v težavah", "gospodarska recesija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-0143"
+spremembe:
+  - kratica: ZDSPDČ-A
+    datum: 2009-05-29
+    sop: 2009-01-1923
+    naziv: "Zakon o spremembi Zakona o delnem subvencioniranju polnega delovnega časa"
 ---
 
 # Zakon o delnem subvencioniranju polnega delovnega časa
