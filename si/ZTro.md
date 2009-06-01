@@ -36,6 +36,10 @@ spremembe:
     datum: 2009-04-03
     sop: 2009-01-1049
     naziv: "Zakon o spremembah in dopolnitvah Zakona o trošarinah"
+  - kratica: ZTro-H
+    datum: 2009-06-01
+    sop: 2009-01-1981
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o trošarinah"
 ---
 
 # Zakon o trošarinah
