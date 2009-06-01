@@ -7,6 +7,11 @@ sop: 2003-01-5385
 objava: "Uradni list RS 126/03  str. 17240"
 kljucne_besede: ["banka", "privatizacija", "delnica"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5385"
+spremembe:
+  - kratica: ZZasV-B
+    datum: 2009-06-01
+    sop: 2009-01-1984
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zasebnem varovanju"
 ---
 
 # Zakon o zasebnem varovanju
