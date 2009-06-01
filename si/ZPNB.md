@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-11-11
     sop: 2005-01-4400
     naziv: "Zakon o spremembah in dopolnitvah zakona o prevozu nevarnega blaga"
+  - kratica: ZPNB-B
+    datum: 2009-06-01
+    sop: 2009-01-1985
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o prevozu nevarnega blaga"
 ---
 
 # Zakon o prevozu nevarnega blaga
