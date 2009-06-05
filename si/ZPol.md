@@ -32,6 +32,10 @@ spremembe:
     datum: 2006-07-25
     sop: 2006-01-3402
     naziv: "Zakon o spremembah in dopolnitvah zakona o policiji"
+  - kratica: ZPol-G
+    datum: 2009-06-05
+    sop: 2009-01-2039
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o policiji"
 ---
 
 # Zakon o policiji
