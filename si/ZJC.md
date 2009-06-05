@@ -16,6 +16,10 @@ spremembe:
     datum: 2005-10-18
     sop: 2005-01-3952
     naziv: "Zakon o spremembah in dopolnitvah zakona o javnih cestah"
+  - kratica: ZJC-D
+    datum: 2009-06-05
+    sop: 2009-01-2038
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o javnih cestah"
 ---
 
 # Zakon o javnih cestah
