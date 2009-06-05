@@ -7,6 +7,11 @@ sop: 2009-01-1509
 objava: "Uradni list RS 33/09  str. 4657"
 kljucne_besede: ["gospodarska recesija", "denarna kriza", "vlaganja v industriji", "poroštvo", "banka", "najem posojila", "gospodarska družba", "financiranje industrije"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1509"
+spremembe:
+  - kratica: ZJShemRS-A
+    datum: 2009-06-05
+    sop: 2009-01-2041
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o jamstveni shemi Republike Slovenije"
 ---
 
 # Zakon o jamstveni shemi Republike Slovenije
