@@ -36,6 +36,10 @@ spremembe:
     datum: 2007-06-29
     sop: 2007-01-3029
     naziv: "Zakon o spremembah in dopolnitvah zakona o sistemu plač v javnem sektorju"
+  - kratica: ZSPJS-K
+    datum: 2009-06-26
+    sop: 2009-01-2381
+    naziv: "Zakon o spremembi Zakona o sistemu plač v javnem sektorju"
 ---
 
 # Zakon o sistemu plač v javnem sektorju
