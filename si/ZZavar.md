@@ -28,6 +28,10 @@ spremembe:
     datum: 2009-03-13
     sop: 2009-01-0698
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zavarovalništvu"
+  - kratica: ZZavar-G
+    datum: 2009-06-29
+    sop: 2009-01-2430
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zavarovalništvu"
 ---
 
 # Zakon o zavarovalništvu
