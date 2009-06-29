@@ -24,6 +24,10 @@ spremembe:
     datum: 2008-11-19
     sop: 2008-01-4692
     naziv: "Zakon o spremembi in dopolnitvah zakona o javnih financah"
+  - kratica: ZJF-E
+    datum: 2009-06-29
+    sop: 2009-01-2428
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o javnih financah"
 ---
 
 # Zakon o javnih financah
