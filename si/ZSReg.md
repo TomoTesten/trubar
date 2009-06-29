@@ -20,6 +20,10 @@ spremembe:
     datum: 2007-10-12
     sop: 2007-01-4599
     naziv: "Zakon o spremembah zakona o spremembah in dopolnitvah zakona o sodnem registru"
+  - kratica: ZSReg-E
+    datum: 2009-06-29
+    sop: 2009-01-2429
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o sodnem registru"
 ---
 
 # Zakon o sodnem registru
