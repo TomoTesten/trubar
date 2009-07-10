@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k Aktu o ustanovitvi ustanove Fundacija mag. Alenke 
 vrsta: "akt"
 datum: 2009-07-10
 sop: 2009-01-2602
-organ: "Ministrstvo za visoko šolstvo, znanost in tehnologijo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2602"
 ---
 

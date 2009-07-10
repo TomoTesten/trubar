@@ -4,9 +4,9 @@ naziv: "Rebalans proračuna Republike Slovenije za leto 2009 (Rb2009-1)"
 vrsta: "akt"
 datum: 2009-07-30
 sop: 2009-01-2910
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2910"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za tekstilne, oblačilne, usnjarske in usnjarsko-pred
 vrsta: "akt"
 datum: 2009-07-17
 sop: 2009-01-2724
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2724"
 ---
 

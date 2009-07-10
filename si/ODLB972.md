@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Darinke Novak Zalaznik za državno pravobranilko n
 vrsta: "akt"
 datum: 2009-07-27
 sop: 2009-01-2873
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2873"
 ---
 

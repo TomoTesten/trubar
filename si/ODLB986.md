@@ -4,9 +4,9 @@ naziv: "Odločba o soglasju k aktu o ustanovitvi Fundacije Vrabček upanja"
 vrsta: "akt"
 datum: 2009-07-10
 sop: 2009-01-2601
-organ: "Ministrstvo za zdravje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2601"
 ---
 
