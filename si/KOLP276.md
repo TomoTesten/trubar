@@ -4,9 +4,9 @@ naziv: "Razlaga 53. člena Kolektivne pogodbe za cestni potniški promet (Uradni
 vrsta: "akt"
 datum: 2009-10-16
 sop: 2009-01-3592
-organ: "Komisija za razlago kolektivne pogodbe za cestni potniški promet"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3592"
 ---
 

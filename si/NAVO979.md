@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi Navodila za izvajanje Sklepa o minimalnih zahtevah 
 vrsta: "navodilo"
 datum: 2009-10-05
 sop: 2009-01-3393
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3393"
 ---
 
