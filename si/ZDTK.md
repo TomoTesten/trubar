@@ -7,6 +7,11 @@ sop: 2007-01-4537
 objava: "Uradni list RS 92/07  str. 12245"
 kljucne_besede: ["tvegani kapital", "gospodarska družba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-4537"
+spremembe:
+  - kratica: ZDTK-A
+    datum: 2009-07-24
+    sop: 2009-01-2788
+    naziv: "Zakon o dopolnitvah zakona o družbah tveganega kapitala"
 ---
 
 # Zakon o družbah tveganega kapitala
