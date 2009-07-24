@@ -12,6 +12,10 @@ spremembe:
     datum: 2009-05-29
     sop: 2009-01-1923
     naziv: "Zakon o spremembi Zakona o delnem subvencioniranju polnega delovnega časa"
+  - kratica: ZDSPDČ-B
+    datum: 2009-07-24
+    sop: 2009-01-2787
+    naziv: "Zakon o spremembi Zakona o delnem subvencioniranju polnega delovnega časa"
 ---
 
 # Zakon o delnem subvencioniranju polnega delovnega časa
