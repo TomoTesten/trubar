@@ -2,11 +2,11 @@
 kratica: MP_DRUG11453
 naziv: "Soglasje k ceni storitev odvajanja komunalne in industrijske odpadne vode (DRUG)"
 vrsta: "akt"
-datum: 2026-01-05
+datum: 2009-07-31
 sop: 2009-88-0025
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Ljutomer"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-88-0025"
 ---
 
