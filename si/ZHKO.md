@@ -7,6 +7,11 @@ sop: 2006-01-0620
 objava: "Uradni list RS 17/06  str. 1489"
 kljucne_besede: ["hipoteka", "kredit", "obveznica"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-0620"
+spremembe:
+  - kratica: ZHKO-A
+    datum: 2009-07-27
+    sop: 2009-01-2865
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o hipotekarni in komunalni obveznici"
 ---
 
 # Zakon o hipotekarni in komunalni obveznici
