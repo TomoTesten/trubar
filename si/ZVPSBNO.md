@@ -7,6 +7,11 @@ sop: 2006-01-2091
 objava: "Uradni list RS 49/06  str. 5265"
 kljucne_besede: ["odškodnina", "sodni postopek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-2091"
+spremembe:
+  - kratica: ZVPSBNO-A
+    datum: 2009-07-27
+    sop: 2009-01-2867
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o varstvu pravice do sojenja brez nepotrebnega odlašanja"
 ---
 
 # Zakon o varstvu pravice do sojenja brez nepotrebnega odlašanja
