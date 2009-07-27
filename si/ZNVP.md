@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-11-09
     sop: 2006-01-4836
     naziv: "Zakon o spremembah in dopolnitvah zakona o nematerializiranih vrednostnih papirjih"
+  - kratica: ZNVP-B
+    datum: 2009-07-27
+    sop: 2009-01-2866
+    naziv: "Zakon o spremembah zakona o nematerializiranih vrednostnih papirjih"
 ---
 
 # Zakon o nematerializiranih vrednostnih papirjih
