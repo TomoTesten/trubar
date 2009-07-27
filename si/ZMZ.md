@@ -7,6 +7,11 @@ sop: 2007-01-5504
 objava: "Uradni list RS 111/07  str. 15213"
 kljucne_besede: ["begunec", "pravice tujcev", "pravica do azila", "dovoljenje za vstop tujcev"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-5504"
+spremembe:
+  - kratica: ZMZ-A
+    datum: 2009-07-27
+    sop: 2009-01-2872
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o mednarodni zaščiti"
 ---
 
 # Zakon o mednarodni zaščiti
