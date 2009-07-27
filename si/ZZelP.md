@@ -32,6 +32,10 @@ spremembe:
     datum: 2007-02-20
     sop: 2007-01-0680
     naziv: "Zakon o spremembah in dopolnitvah zakona o železniškem prometu"
+  - kratica: ZZelP-G
+    datum: 2009-07-27
+    sop: 2009-01-2869
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o železniškem prometu"
 ---
 
 # Zakon o železniškem prometu
