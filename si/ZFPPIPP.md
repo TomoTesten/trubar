@@ -12,6 +12,10 @@ spremembe:
     datum: 2009-05-29
     sop: 2009-01-1917
     naziv: "Zakon o spremembah in dopolnitvah Zakona o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju"
+  - kratica: ZFPPIPP-B
+    datum: 2009-07-30
+    sop: 2009-01-2913
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju"
 ---
 
 # Zakon o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju
