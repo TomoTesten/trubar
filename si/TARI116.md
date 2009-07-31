@@ -4,9 +4,9 @@ naziv: "Tarifna priloga 2009 h Kolektivni pogodbi gradbenih dejavnosti"
 vrsta: "akt"
 datum: 2009-08-10
 sop: 2009-01-3023
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3023"
 ---
 

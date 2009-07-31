@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembah in dopolnitvah Navodila o razporejanju in pošilja
 vrsta: "navodilo"
 datum: 2009-08-21
 sop: 2009-01-3065
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3065"
 ---
 

@@ -2,11 +2,11 @@
 kratica: KOLP269
 naziv: "Kolektivna pogodba celulozne, papirne in papirno predelovalne dejavnosti"
 vrsta: "akt"
-datum: 2009-02-20
+datum: 2009-08-14
 sop: 2009-01-0456
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-0456"
 ---
 
