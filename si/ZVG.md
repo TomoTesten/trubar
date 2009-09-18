@@ -7,6 +7,11 @@ sop: 2003-01-3144
 objava: "Uradni list RS 65/2003  str. 10070"
 kljucne_besede: ["pokopališče", "vojna"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3144"
+spremembe:
+  - kratica: ZVG-A
+    datum: 2009-09-18
+    sop: 2009-01-3183
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o vojnih grobiščih"
 ---
 
 # Zakon o vojnih grobiščih
