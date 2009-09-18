@@ -36,6 +36,10 @@ spremembe:
     datum: 2002-12-18
     sop: 2002-01-5392
     naziv: "Zakon o spremembah in dopolnitvah zakona o žrtvah vojnega nasilja"
+  - kratica: ZZVN-H
+    datum: 2009-09-18
+    sop: 2009-01-3184
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o žrtvah vojnega nasilja"
 ---
 
 # Zakon o žrtvah vojnega nasilja
