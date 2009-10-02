@@ -16,6 +16,10 @@ spremembe:
     datum: 2007-06-29
     sop: 2007-01-3031
     naziv: "Zakon o spremembah in dopolnitvah zakona o državnem pravobranilstvu"
+  - kratica: ZDPra-C
+    datum: 2009-10-02
+    sop: 2009-01-3351
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o državnem pravobranilstvu"
 ---
 
 # Zakon o državnem pravobranilstvu
