@@ -40,6 +40,10 @@ spremembe:
     datum: 2007-02-16
     sop: 2007-01-0601
     naziv: "Zakon o spremembi in dopolnitvi zakona o kazenskem postopku"
+  - kratica: ZKP-J
+    datum: 2009-10-02
+    sop: 2009-01-3350
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o kazenskem postopku"
 ---
 
 # Zakon o kazenskem postopku
