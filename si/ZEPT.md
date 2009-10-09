@@ -7,6 +7,11 @@ sop: 2006-01-2566
 objava: "Uradni list RS 61/06  str. 6601"
 kljucne_besede: ["elektronsko poslovanje", "informacijska družba", "komunikacijska industrija", "telekomunikacije", "interaktivno omrežje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-2566"
+spremembe:
+  - kratica: ZEPT-A
+    datum: 2009-10-09
+    sop: 2009-01-3438
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o elektronskem poslovanju na trgu"
 ---
 
 # Zakon o elektronskem poslovanju na trgu
