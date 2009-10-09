@@ -48,6 +48,10 @@ spremembe:
     datum: 2007-07-06
     sop: 2007-01-3208
     naziv: "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi"
+  - kratica: ZLS-P
+    datum: 2009-10-09
+    sop: 2009-01-3437
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o lokalni samoupravi"
 ---
 
 # Zakon o lokalni samoupravi
