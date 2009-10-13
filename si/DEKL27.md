@@ -4,9 +4,9 @@ naziv: "Deklaracija o seznanitvi z Resolucijo Evropskega parlamenta o evropski z
 vrsta: "akt"
 datum: 2009-10-27
 sop: 2009-01-3756
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3756"
 ---
 

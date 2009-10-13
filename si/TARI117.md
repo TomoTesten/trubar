@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Tarife o taksah in nadomestilih"
 vrsta: "akt"
 datum: 2009-10-30
 sop: 2009-01-3817
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3817"
 ---
 
