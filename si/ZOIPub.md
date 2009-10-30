@@ -7,6 +7,11 @@ sop: 2006-01-2977
 objava: "Uradni list RS 69/06  str. 7230"
 kljucne_besede: ["obvezni izvod", "publikacija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-2977"
+spremembe:
+  - kratica: ZOIPub-A
+    datum: 2009-10-30
+    sop: 2009-01-3807
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o obveznem izvodu publikacij"
 ---
 
 # Zakon o obveznem izvodu publikacij
