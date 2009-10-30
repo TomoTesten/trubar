@@ -7,6 +7,11 @@ sop: 2007-01-3296
 objava: "Uradni list RS 61/07  str. 8524"
 kljucne_besede: ["pomorski prevoz", "davek od dohodkov iz dejavnosti", "davek na dohodek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3296"
+spremembe:
+  - kratica: ZDTon-A
+    datum: 2009-10-30
+    sop: 2009-01-3788
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o davku na tonažo"
 ---
 
 # Zakon o davku na tonažo
