@@ -16,6 +16,10 @@ spremembe:
     datum: 2006-11-17
     sop: 2006-01-5023
     naziv: "Zakon o spremembah in dopolnitvah zakona o nacionalnih poklicnih kvalifikacijah"
+  - kratica: ZNPK-C
+    datum: 2009-10-30
+    sop: 2009-01-3792
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o nacionalnih poklicnih kvalifikacijah"
 ---
 
 # Zakon o nacionalnih poklicnih kvalifikacijah
