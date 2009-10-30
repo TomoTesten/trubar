@@ -12,6 +12,10 @@ spremembe:
     datum: 2007-10-10
     sop: 2007-01-4540
     naziv: "Zakon o spremembah in dopolnitvah zakona o postopku priznavanja kvalifikacij državljanom držav članic Evropske unije za opravljanje reguliranih poklicev oziroma reguliranih poklicnih dejavnosti v Republiki Sloveniji"
+  - kratica: ZPKEU-B
+    datum: 2009-10-30
+    sop: 2009-01-3793
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o postopku priznavanja poklicnih kvalifikacij državljanom držav članic Evropske unije, Evropskega gospodarskega prostora in Švicarske konfederacije za opravljanje reguliranih poklicev oziroma dejavnosti v Republiki Sloveniji"
 ---
 
 # Zakon o postopku  priznavanja kvalifikacij državljanom držav članic Evropske Unije za opravljanje reguliranih poklicev oziroma reguliranih poklicnih dejavnosti v Republiki Sloveniji
