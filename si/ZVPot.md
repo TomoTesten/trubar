@@ -16,6 +16,10 @@ spremembe:
     datum: 2004-05-07
     sop: 2004-01-2306
     naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu potrošnikov"
+  - kratica: ZVPot-D
+    datum: 2009-10-30
+    sop: 2009-01-3804
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o varstvu potrošnikov"
 ---
 
 # Zakon o varstvu potrošnikov
