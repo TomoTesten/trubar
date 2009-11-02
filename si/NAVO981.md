@@ -4,8 +4,9 @@ naziv: "Navodilo o označitvi in zavarovanju vozil, ustavljenih na avtocestah in
 vrsta: "navodilo"
 datum: 2009-11-13
 sop: 2009-01-4014
-organ: "Ministrstvo za promet"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-4014"
 ---
 

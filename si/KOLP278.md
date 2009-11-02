@@ -4,9 +4,9 @@ naziv: "Aneks št. 3 h Kolektivni pogodbi za poštne in kurirske dejavnosti"
 vrsta: "akt"
 datum: 2009-11-13
 sop: 2009-01-3986
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3986"
 ---
 
