@@ -32,6 +32,10 @@ spremembe:
     datum: 2007-06-29
     sop: 2007-01-3032
     naziv: "Zakon o spremembah in dopolnitvah zakona o državnem tožilstvu"
+  - kratica: ZDT-G
+    datum: 2009-11-02
+    sop: 2009-01-3840
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o državnem tožilstvu"
 ---
 
 # Zakon o državnem tožilstvu
