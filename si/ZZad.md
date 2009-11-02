@@ -16,6 +16,10 @@ spremembe:
     datum: 2007-05-11
     sop: 2007-01-2222
     naziv: "Zakon o spremembah in dopolnitvah zakona o zadrugah"
+  - kratica: ZZad-C
+    datum: 2009-11-02
+    sop: 2009-01-3841
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zadrugah"
 ---
 
 # Zakon o zadrugah
