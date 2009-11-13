@@ -40,6 +40,10 @@ spremembe:
     datum: 2009-06-26
     sop: 2009-01-2381
     naziv: "Zakon o spremembi Zakona o sistemu plač v javnem sektorju"
+  - kratica: ZSPJS-L
+    datum: 2009-11-13
+    sop: 2009-01-3971
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o sistemu plač v javnem sektorju"
 ---
 
 # Zakon o sistemu plač v javnem sektorju
