@@ -4,9 +4,9 @@ naziv: "Aneks h Kolektivni pogodbi za kemično in gumarsko industrijo Slovenije"
 vrsta: "akt"
 datum: 2009-12-18
 sop: 2009-01-4589
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-4589"
 ---
 

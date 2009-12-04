@@ -4,9 +4,9 @@ naziv: "Proračun Republike Slovenije za leto 2010 (DP2010)"
 vrsta: "akt"
 datum: 2009-12-07
 sop: 2009-01-4370
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-4370"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Tarifa o nadomestilih stroškov postopkov Agencije za javni nadzor nad r
 vrsta: "akt"
 datum: 2009-12-18
 sop: 2009-01-4588
-organ: "Agencija za javni nadzor nad revidiranjem"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-4588"
 ---
 
