@@ -20,6 +20,10 @@ spremembe:
     datum: 2009-06-05
     sop: 2009-01-2038
     naziv: "Zakon o spremembah in dopolnitvah Zakona o javnih cestah"
+  - kratica: ZJC-E
+    datum: 2009-12-28
+    sop: 2009-01-4926
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o javnih cestah"
 ---
 
 # Zakon o javnih cestah
