@@ -16,6 +16,10 @@ spremembe:
     datum: 2007-11-09
     sop: 2007-01-5071
     naziv: "Zakon o spremembah in dopolnitvah zakona o Uradnem listu Republike Slovenije"
+  - kratica: ZUL-C
+    datum: 2009-12-28
+    sop: 2009-01-4929
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o Uradnem listu Republike Slovenije"
 ---
 
 # Zakon o Uradnem listu Republike Slovenije
