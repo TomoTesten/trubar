@@ -7,6 +7,11 @@ sop: 2007-01-1761
 objava: "Uradni list RS 33/07  str. 4585"
 kljucne_besede: ["prostorsko načrtovanje", "urejanje prostora"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-1761"
+spremembe:
+  - kratica: ZPNačrt-A
+    datum: 2009-12-28
+    sop: 2009-01-4890
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o prostorskem načrtovanju"
 ---
 
 # Zakon o prostorskem načrtovanju
