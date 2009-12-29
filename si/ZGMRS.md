@@ -7,6 +7,11 @@ sop: 2004-01-0921
 objava: "Uradni list RS 22/04  str. 2496"
 kljucne_besede: ["glavno mesto"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0921"
+spremembe:
+  - kratica: ZGMRS-A
+    datum: 2009-12-29
+    sop: 2009-01-4987
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o glavnem mestu Republike Slovenije"
 ---
 
 # Zakon o glavnem mestu Republike Slovenije
