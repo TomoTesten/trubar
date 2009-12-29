@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-12-12
     sop: 2006-01-5430
     naziv: "Zakon o spremembah in dopolnitvah zakona o elektronskih komunikacijah"
+  - kratica: ZEKom-B
+    datum: 2009-12-29
+    sop: 2009-01-4985
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o elektronskih komunikacijah"
 ---
 
 # Zakon o elektronskih komunikacijah
