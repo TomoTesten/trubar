@@ -7,6 +7,11 @@ sop: 2006-01-2537
 objava: "Uradni list RS 60/06  str. 6549"
 kljucne_besede: ["gospodarska zbornica"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-2537"
+spremembe:
+  - kratica: ZGZ-A
+    datum: 2009-12-29
+    sop: 2009-01-4986
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o gospodarskih zbornicah"
 ---
 
 # Zakon o gospodarskih zbornicah
