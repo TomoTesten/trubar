@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Edit Novak za okrožno državno tožilko na Okrož
 vrsta: "akt"
 datum: 2009-12-31
 sop: 2009-01-5218
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-5218"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o imenovanju Tatjane Verbič Šulgaj za pomočnico okrožnega d
 vrsta: "akt"
 datum: 2010-01-08
 sop: 2010-01-0009
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0009"
 ---
 

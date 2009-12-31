@@ -4,9 +4,9 @@ naziv: "Aneks h Kolektivni pogodbi za cestni potniški promet"
 vrsta: "akt"
 datum: 2010-01-22
 sop: 2010-01-0144
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0144"
 ---
 

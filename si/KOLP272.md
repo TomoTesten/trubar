@@ -2,11 +2,11 @@
 kratica: KOLP272
 naziv: "Kolektivna pogodba za cestni potniški promet Slovenije"
 vrsta: "akt"
-datum: 2009-05-08
+datum: 2010-01-22
 sop: 2009-01-1697
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1697"
 ---
 
