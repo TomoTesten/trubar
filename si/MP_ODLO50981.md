@@ -2,11 +2,11 @@
 kratica: MP_ODLO50981
 naziv: "Odlok o odvajanju in čiščenju komunalne in padavinske odpadne vode na območju Občine Ljutomer (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-05
+datum: 2010-02-10
 sop: 2010-88-0002
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Ljutomer"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-88-0002"
 ---
 
