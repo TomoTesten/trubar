@@ -7,6 +7,11 @@ sop: 2004-01-1602
 objava: "Uradni list RS 37/04  str. 4454"
 kljucne_besede: ["izvoz", "orožje za množično uničevanje", "biološko orožje", "kemično orožje", "razstrelivo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1602"
+spremembe:
+  - kratica: ZNIBDR-A
+    datum: 2010-02-05
+    sop: 2010-01-0252
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o nadzoru izvoza blaga z dvojno rabo"
 ---
 
 # Zakon o nadzoru izvoza blaga z dvojno rabo
