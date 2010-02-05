@@ -12,6 +12,10 @@ spremembe:
     datum: 1996-01-12
     sop: 1996-01-0004
     naziv: "Zakon o spremembah in dopolnitvah zakona o skladu kmetijskih zemljišč in gozdov Republike Slovenije"
+  - kratica: ZSKZ-B
+    datum: 2010-02-05
+    sop: 2010-01-0254
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o Skladu kmetijskih zemljišč in gozdov Republike Slovenije"
 ---
 
 # Zakon o Skladu kmetijskih zemljišč in gozdov Republike Slovenije
