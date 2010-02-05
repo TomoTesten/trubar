@@ -28,6 +28,10 @@ spremembe:
     datum: 2007-12-31
     sop: 2007-01-6415
     naziv: "Zakon o spremembah in dopolnitvah zakona o splošnem upravnem postopku"
+  - kratica: ZUP-G
+    datum: 2010-02-05
+    sop: 2010-01-0251
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o splošnem upravnem postopku"
 ---
 
 # Zakon o splošnem upravnem postopku
