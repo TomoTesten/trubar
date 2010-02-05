@@ -7,6 +7,11 @@ sop: 2004-01-3841
 objava: "Uradni list RS 86/04  str. 10418"
 kljucne_besede: ["jezik"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3841"
+spremembe:
+  - kratica: ZJRS-A
+    datum: 2010-02-05
+    sop: 2010-01-0253
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o javni rabi slovenščine"
 ---
 
 # Zakon o javni rabi slovenščine
