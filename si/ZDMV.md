@@ -16,6 +16,10 @@ spremembe:
     datum: 2006-05-09
     sop: 2006-01-2027
     naziv: "Zakon o spremembah in dopolnitvah zakona o davku na motorna vozila"
+  - kratica: ZDMV-C
+    datum: 2010-02-09
+    sop: 2010-01-0314
+    naziv: "Zakon o spremembah in dopolnitvah zakona o davku na motorna vozila"
 ---
 
 # Zakon o davkih na motorna vozila
