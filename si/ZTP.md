@@ -16,6 +16,10 @@ spremembe:
     datum: 2006-03-17
     sop: 2006-01-1128
     naziv: "Zakon o spremembah in dopolnitvah zakona o tajnih podatkih"
+  - kratica: ZTP-C
+    datum: 2010-02-09
+    sop: 2010-01-0313
+    naziv: "Zakon o spremembah Zakona o tajnih podatkih"
 ---
 
 # Zakon o tajnih podatkih
