@@ -16,6 +16,10 @@ spremembe:
     datum: 2003-10-21
     sop: 2003-01-4499
     naziv: "Zakon o spremembah in dopolnitvah zakona o igrah na srečo"
+  - kratica: ZIS-C
+    datum: 2010-02-12
+    sop: 2010-01-0391
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o igrah na srečo"
 ---
 
 # Zakon o igrah na srečo
