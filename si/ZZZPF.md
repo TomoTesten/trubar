@@ -7,6 +7,11 @@ sop: 2009-01-0754
 objava: "Uradni list RS 20/09  str. 2609"
 kljucne_besede: ["določanje plač", "znižanje plač", "plača"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-0754"
+spremembe:
+  - kratica: ZZZPF-A
+    datum: 2010-02-22
+    sop: 2010-01-0521
+    naziv: "Zakon o spremembi Zakona o začasnem znižanju plač funkcionarjev"
 ---
 
 # Zakon o začasnem znižanju plač funkcionarjev
