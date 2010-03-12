@@ -7,6 +7,11 @@ sop: 2006-01-5410
 objava: "Uradni list RS 128/06  str. 14041"
 kljucne_besede: ["oddaja javnega naročila", "poštne storitve", "prometna politika", "voda", "javno naročilo", "javno naročilo za izvedbo gradbenih del", "pogodba za dobavo blaga", "javno naročilo za storitve"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5410"
+spremembe:
+  - kratica: ZJNVETPS-B
+    datum: 2010-03-12
+    sop: 2010-01-0806
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o javnem naročanju na vodnem, energetskem, transportnem področju in področju poštnih storitev"
 ---
 
 # Zakon o javnem naročanju na vodnem, energetskem, transportnem področju in področju poštnih storitev
