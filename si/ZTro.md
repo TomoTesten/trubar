@@ -40,6 +40,10 @@ spremembe:
     datum: 2009-06-01
     sop: 2009-01-1981
     naziv: "Zakon o spremembah in dopolnitvah Zakona o trošarinah"
+  - kratica: ZTro-I
+    datum: 2010-03-12
+    sop: 2010-01-0804
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o trošarinah"
 ---
 
 # Zakon o trošarinah
