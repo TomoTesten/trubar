@@ -16,6 +16,10 @@ spremembe:
     datum: 2007-02-12
     sop: 2007-01-0565
     naziv: "Zakon o spremembah in dopolnitvah zakona o ekonomskih conah"
+  - kratica: ZEC-C
+    datum: 2010-03-12
+    sop: 2010-01-0807
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o ekonomskih conah"
 ---
 
 # Zakon o ekonomskih conah
