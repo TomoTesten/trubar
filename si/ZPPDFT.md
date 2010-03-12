@@ -7,6 +7,11 @@ sop: 2007-01-3206
 objava: "Uradni list RS 60/07  str. 8332"
 kljucne_besede: ["ratifikacija sporazuma", "Bosna in Hercegovina", "zračni promet"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3206"
+spremembe:
+  - kratica: ZPPDFT-A
+    datum: 2010-03-12
+    sop: 2010-01-0808
+    naziv: "Zakon o spremebah in dopolnitvah Zakona o preprečevanju pranja denarja in financiranja terorizma"
 ---
 
 # Zakon o preprečevanju pranja denarja in financiranja terorizma
