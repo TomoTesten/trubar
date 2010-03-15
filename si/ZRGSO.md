@@ -12,6 +12,10 @@ spremembe:
     datum: 2004-07-05
     sop: 2004-01-3240
     naziv: "Zakon o spremembah in dopolnitvah zakona o ravnanju z gensko spremenjenimi organizmi"
+  - kratica: ZRGSO-B
+    datum: 2010-03-15
+    sop: 2010-01-0882
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o ravnanju z gensko spremenjenimi organizmi"
 ---
 
 # Zakon o ravnanju z gensko spremenjenimi organizmi
