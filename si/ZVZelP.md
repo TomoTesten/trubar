@@ -7,6 +7,11 @@ sop: 2007-01-3295
 objava: "Uradni list RS 61/07  str. 8501"
 kljucne_besede: ["železniški promet", "prevozne zmogljivosti", "varnost prevoza", "promet visokih hitrosti", "tehnični predpisi", "prometna politika", "uporabnina za infrastrukturo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3295"
+spremembe:
+  - kratica: ZVZelP-A
+    datum: 2010-03-15
+    sop: 2010-01-0883
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o varnosti v železniškem prometu"
 ---
 
 # Zakon o varnosti v železniškem prometu
