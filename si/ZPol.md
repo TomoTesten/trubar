@@ -36,6 +36,10 @@ spremembe:
     datum: 2009-06-05
     sop: 2009-01-2039
     naziv: "Zakon o spremembah in dopolnitvah Zakona o policiji"
+  - kratica: ZPol-H
+    datum: 2010-03-19
+    sop: 2010-01-0900
+    naziv: "Zakon o dopolnitvah Zakona o policiji"
 ---
 
 # Zakon o policiji
