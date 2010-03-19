@@ -16,6 +16,10 @@ spremembe:
     datum: 2006-11-17
     sop: 2006-01-5019
     naziv: "Zakon o spremembah in dopolnitvah Energetskega zakona"
+  - kratica: EZ-D
+    datum: 2010-03-19
+    sop: 2010-01-0901
+    naziv: "Zakon o spremembah in dopolnitvah Energetskega zakona"
 ---
 
 # Energetski zakon
