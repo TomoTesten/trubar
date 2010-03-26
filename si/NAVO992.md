@@ -4,9 +4,9 @@ naziv: "Navodilo o delu komisije za pregled in prevzem izvedenih obnovitvenih de
 vrsta: "navodilo"
 datum: 2010-04-13
 sop: 2010-01-1346
-organ: "Ministrstvo za promet"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-1346"
 ---
 
