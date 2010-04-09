@@ -7,6 +7,11 @@ sop: 2009-01-4372
 objava: "Uradni list RS 99/09  str. 13426"
 kljucne_besede: ["državni proračun", "proračun", "izvrševanje proračuna"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-4372"
+spremembe:
+  - kratica: ZIPRS1011-A
+    datum: 2010-04-09
+    sop: 2010-01-1262
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2010 in 2011"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2010 in 2011
