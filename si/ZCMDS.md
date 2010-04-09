@@ -12,6 +12,10 @@ spremembe:
     datum: 1998-10-16
     sop: 1998-01-3456
     naziv: "Zakon o spremembi in dopolnitvi zakona o članstvu Republike Slovenije v Mednarodnem denarnem skladu"
+  - kratica: ZCMDS-B
+    datum: 2010-04-09
+    sop: 2010-01-1264
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o članstvu Republike Slovenije v Mednarodnem denarnem skladu"
 ---
 
 # Zakon o članstvu Republike Slovenije v Mednarodnem denarnem skladu
