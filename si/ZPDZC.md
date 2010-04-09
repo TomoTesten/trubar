@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-11-17
     sop: 2006-01-5026
     naziv: "Zakon o spremembah in dopolnitvah zakona o preprečevanju dela in zaposlovanja na črno"
+  - kratica: ZPDZC-B
+    datum: 2010-04-09
+    sop: 2010-01-1263
+    naziv: "Zakon o dopolnitvi Zakona o preprečevanju dela in zaposlovanja na črno"
 ---
 
 # Zakon o preprečevanju dela in zaposlovanja na črno
