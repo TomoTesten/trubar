@@ -20,6 +20,10 @@ spremembe:
     datum: 2007-07-06
     sop: 2007-01-3213
     naziv: "Zakon o spremembah in dopolnitvah zakona o detektivski dejavnosti"
+  - kratica: ZDD-D
+    datum: 2010-04-09
+    sop: 2010-01-1265
+    naziv: "Zakon o spremembah in dopolnitvah zakona o detektivski dejavnosti"
 ---
 
 # Zakon o detektivski dejavnosti
