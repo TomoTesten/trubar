@@ -7,6 +7,11 @@ sop: 2009-01-2864
 objava: "Uradni list RS 58/09  str. 8089"
 kljucne_besede: ["finančna institucija", "bančništvo", "elektronski prenos sredstev", "finančna zakonodaja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2864"
+spremembe:
+  - kratica: ZPlaSS-A
+    datum: 2010-04-30
+    sop: 2010-01-1624
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o plačilnih storitvah in sistemih"
 ---
 
 # Zakon o plačilnih storitvah in sistemih
