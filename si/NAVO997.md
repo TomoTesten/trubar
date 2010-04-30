@@ -4,9 +4,9 @@ naziv: "Navodilo o spremembi Navodila o razporejanju in pošiljanju obsojencev n
 vrsta: "navodilo"
 datum: 2010-04-30
 sop: 2010-01-1629
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-1629"
 ---
 

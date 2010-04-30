@@ -4,9 +4,9 @@ naziv: "Sistemska obratovalna navodila za distribucijsko omrežje zemeljskega pl
 vrsta: "navodilo"
 datum: 2010-05-21
 sop: 2010-01-2001
-organ: "DOMPLAN, d.d."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-2001"
 ---
 
