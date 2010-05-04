@@ -20,6 +20,10 @@ spremembe:
     datum: 2005-07-29
     sop: 2005-01-3210
     naziv: "Zakon o spremembah in dopolnitvah zakona o vrtcih"
+  - kratica: ZVrt-E
+    datum: 2010-05-04
+    sop: 2010-01-1737
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o vrtcih"
 ---
 
 # Zakon o vrtcih
