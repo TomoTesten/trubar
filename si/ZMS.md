@@ -7,6 +7,11 @@ sop: 2000-01-3305
 objava: "Uradni list RS 70/2000  str. 8663"
 kljucne_besede: ["mladinska politika", "mladinsko gibanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3305"
+spremembe:
+  - kratica: ZMS-A
+    datum: 2010-05-28
+    sop: 2010-01-2103
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o mladinskih svetih"
 ---
 
 # Zakon o mladinskih svetih
