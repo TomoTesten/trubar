@@ -7,6 +7,11 @@ sop: 2004-01-1470
 objava: "Uradni list RS 34/04  str. 3949"
 kljucne_besede: ["Državni zbor", "vlada", "Evropska unija", "institucionalno sodelovanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1470"
+spremembe:
+  - kratica: ZSDZVZEU-A
+    datum: 2010-05-31
+    sop: 2010-01-2190
+    naziv: "Zakon o spremembi Zakona o sodelovanju med državnim zborom in vlado v zadevah Evropske unije"
 ---
 
 # Zakon o sodelovanju med državnim zborom in vlado v zadevah Evropske unije
