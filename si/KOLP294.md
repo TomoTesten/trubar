@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Kolektivne pogodbe za obrt in podjetništvo"
 vrsta: "akt"
 datum: 2010-07-12
 sop: 2010-01-3054
-organ: "Združenje delodajalcev obrti in podjetnikov Slovenije - GIZ, Ljubljana"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-3054"
 ---
 

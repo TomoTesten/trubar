@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba o višini regresa za letni dopust v letu 2010 za deja
 vrsta: "akt"
 datum: 2010-06-30
 sop: 2010-01-2835
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-2835"
 ---
 

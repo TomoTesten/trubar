@@ -2,11 +2,11 @@
 kratica: NAVO820
 naziv: "Navodilo za izvajanje Sklepa o pošiljanju podatkov o uporabi sodobnih plačilnih instrumentov"
 vrsta: "navodilo"
-datum: 2006-08-25
+datum: 2010-07-09
 sop: 2006-01-3910
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-3910"
 ---
 
