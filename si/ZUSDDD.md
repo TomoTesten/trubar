@@ -12,6 +12,10 @@ spremembe:
     datum: 2001-08-03
     sop: 2001-01-3471
     naziv: "Zakon o spremembah in dopolnitvah zakona o urejanju statusa državljanov drugih držav naslednic nekdanje SFRJ v Republiki Sloveniji"
+  - kratica: ZUSDDD-B
+    datum: 2010-06-24
+    sop: 2010-01-2648
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o urejanju statusa državljanov drugih držav naslednic nekdanje SFRJ v Republiki Sloveniji"
 ---
 
 # Zakon o urejanju statusa državljanov drugih držav naslednic nekdanje SFRJ v Republiki Sloveniji
