@@ -52,6 +52,10 @@ spremembe:
     datum: 2009-10-09
     sop: 2009-01-3437
     naziv: "Zakon o spremembah in dopolnitvah Zakona o lokalni samoupravi"
+  - kratica: ZLS-R
+    datum: 2010-06-28
+    sop: 2010-01-2763
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o lokalni samoupravi"
 ---
 
 # Zakon o lokalni samoupravi
