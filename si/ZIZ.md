@@ -36,6 +36,10 @@ spremembe:
     datum: 2009-04-10
     sop: 2009-01-1187
     naziv: "Zakon o dopolnitvi Zakona o izvršbi in zavarovanju"
+  - kratica: ZIZ-H
+    datum: 2010-06-28
+    sop: 2010-01-2762
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvršbi in zavarovanju"
 ---
 
 # Zakon o izvršbi in zavarovanju
