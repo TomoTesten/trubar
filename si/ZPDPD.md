@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-10-14
     sop: 2005-01-3888
     naziv: "Zakon o spremembah in dopolnitvah zakona o praznikih in dela prostih dnevih v Republiki Sloveniji"
+  - kratica: ZPDPD-B
+    datum: 2010-06-30
+    sop: 2010-01-2823
+    naziv: "Zakon o dopolnitvah Zakona o praznikih in dela prostih dnevih v Republiki Sloveniji"
 ---
 
 # Zakon o praznikih in dela prostih dnevih v Republiki Sloveniji
