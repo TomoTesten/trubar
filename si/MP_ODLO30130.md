@@ -1,0 +1,52 @@
+---
+kratica: MP_ODLO30130
+naziv: "Odlok o spremembah in dopolnitvah Odloka o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Brusnice (ODLO)"
+vrsta: "občinski odlok"
+datum: 2010-07-02
+sop: 2010-01-2893
+organ: "Mestna občina Novo mesto"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-2893"
+---
+
+# Odlok o spremembah in dopolnitvah Odloka o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Brusnice (ODLO)
+
+Na podlagi 3. člena Zakona o zavodih (Uradni list RS, št. 12/91, 45/94 - odl. US: U-I-104/92, 8/96, 18/98 odl. US: U-I-34/98, 31/00 - ZP-L, 36/00 - ZPDZC in 127/06 - ZJZP), prvega odstavka 41. člena Zakona o organizaciji in financiranju vzgoje in izobraževanja (Uradni list RS, št. 16/07 - UPB5, 36/08, 58/09, 64/09 in 65/09) ter 16. člena Statuta Mestne občine Novo mesto (Uradni list RS, št. 96/08 - UPB2) je Občinski svet Mestne občine Novo mesto na 30. seji dne 10. 6. 2010 sprejel
+
+
+## O D L O K
+o spremembah in dopolnitvah Odloka o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Brusnice
+
+
+### 1. člen
+
+V Odloku o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Brusnice (Uradni list RS, št. 75/08) se v tretjem stavku prvega odstavka 8. člena beseda »devet« nadomesti z besedo »enajst«.
+V drugi alineji prvega odstavka 8. člena se besedi »trije predstavniki « nadomestita z besedama »pet predstavnikov«.
+Drugi stavek tretjega odstavka 8. člena se spremeni tako, da se glasi: »Štiri predstavnike delavcev zavoda se izvoli izmed delavcev osnovne šole, enega pa izmed delavcev enote vrtca.«
+
+
+### 2. člen
+
+Spremeni se tretji odstavek 11. člena tako, da se za besedo ravnatelja doda besede »in pomočnika ravnatelja«.
+
+
+### PREHODNA IN KONČNA DOLOČBA
+
+
+### 3. člen
+
+Obstoječi svet zavoda nadaljuje svoje delo do poteka mandata sveta zavoda, oblikovanega pred izvolitvijo dodatnih dveh predstavnikov delavcev. Dodatno izvoljenima predstavnikoma delavcev mandat poteče s potekom mandata obstoječega sveta zavoda.
+
+
+### 4. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 007-8/2010
+
+Novo mesto, dne 10. junija 2010
+
+Župan
+Mestne občine Novo mesto
+Alojzij Muhič l.r.
