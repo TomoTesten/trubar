@@ -12,6 +12,10 @@ spremembe:
     datum: 2010-04-09
     sop: 2010-01-1262
     naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2010 in 2011"
+  - kratica: ZIPRS1011-B
+    datum: 2010-07-15
+    sop: 2010-01-3118
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2010 in 2011"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2010 in 2011
