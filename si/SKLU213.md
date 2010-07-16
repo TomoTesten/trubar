@@ -1,0 +1,57 @@
+---
+kratica: SKLU213
+naziv: "Sklep o začetku postopka za oceno ustavnosti četrtega odstavka 7. člena Zakona o državnem tožilstvu, o začasnem zadržanju izvrševanja te določbe in določitvi načina izvršitve"
+vrsta: "akt"
+datum: 2010-07-16
+sop: 2010-01-3153
+organ: "Ustavno sodišče Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Objavljen akt brez datuma začetka veljavnosti"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-3153"
+---
+
+# Sklep o začetku postopka za oceno ustavnosti četrtega odstavka 7. člena Zakona o državnem tožilstvu, o začasnem zadržanju izvrševanja te določbe in določitvi načina izvršitve
+
+Številka: U-I-82/10-13
+
+Datum: 8. 7. 2010
+
+
+## S K L E P
+
+Ustavno sodišče je v postopku za oceno ustavnosti in zakonitosti, začetem z zahtevo skupine poslank in poslancev Državnega zbora, na seji 8. julija 2010
+
+
+## s k l e n i l o:
+
+1. Začne se postopek za oceno ustavnosti četrtega odstavka 7. člena Zakona o državnem tožilstvu (Uradni list RS, št. 94/07 - uradno prečiščeno besedilo, 77/09 - popr. in 87/09).
+2. Izvrševanje četrtega odstavka 7. člena Zakona o državnem tožilstvu se do končne odločitve Ustavnega sodišča zadrži.
+3. Obvezna navodila za uporabo Državnotožilskega reda (št. 701-1/2010 z dne 22. 2. 2010) se do končne odločitve Ustavnega sodišča ne smejo uporabljati.
+
+
+## O b r a z l o ž i t e v
+
+
+### A.
+
+1. Skupina poslancev izpodbija Obvezna navodila za uporabo Državnotožilskega reda (v nadaljevanju Navodila). Uveljavlja neskladje izpodbijanega akta z drugim odstavkom 120. člena ter s 153. in 154. členom Ustave. Navaja, da so Navodila v neskladju s hierarhično nadrejenimi predpisi - Zakonom o državnem tožilstvu (v nadaljevanju ZDT) in Državnotožilskim redom (Uradni list RS, št. 109/04, 65/06, 98/07 in 4/10 - v nadaljevanju DTR). Po mnenju predlagatelja gre za poseg v načelo delitve oblasti in v avtonomnost državnega tožilstva, ki je kot del pravosodja samostojen državni organ. Navodila naj bi neposredno posegala v ZDT, rušila njegovo logično strukturo in bila očitno v nasprotju z namenom zakonodajalca. Navodila naj formalno ne bi bila predpis, vendar naj bi jim naravo predpisa dajale pravne norme, ki povzročajo eksterne pravne učinke. Predlagatelj predlaga začasno zadržanje izvrševanja Navodil. Med drugim navaja, da bi z izvrševanjem Navodil lahko nastopili negativni učinki, povezani s posegom izvršilne veje oblasti v državno tožilstvo, težko popravljiva škodljiva posledica pa naj bi bila očitna protiustavnost Navodil.
+2. Ustavno sodišče je zahtevo za oceno ustavnosti in zakonitosti Navodil s predlogom za začasno zadržanje poslalo v odgovor Ministru za pravosodje (v nadaljevanju Minister).
+3. Minister v odgovoru na predlog za začasno zadržanje navaja, da pomenijo Navodila sklop korektivnih ukrepov za pravilno izvrševanje ZDT in DTR, ki je interne narave in ki v okviru pooblastil iz četrtega odstavka 7. člena ZDT ureja organizacijska razmerja znotraj državnega tožilstva. Navodila naj bi nastala kot rezultat izrednega pravosodnega nadzora in naj ne bi imela zunanjih učinkov ter naj ne bi urejala pravic in obveznosti pravnih subjektov. Minister meni, da niso izpolnjeni pogoji za začasno zadržanje iz 39. člena Zakona o Ustavnem sodišču (Uradni list RS, št. 64/07 - uradno prečiščeno besedilo - v nadaljevanju ZUstS). Navaja, da predlagatelj ne izkaže nastanka težko popravljivih škodljivih posledic in da bi z začasnim zadržanjem nastala škoda pri uresničevanju načela zakonitosti (2. člen, drugi odstavek 120. člena in četrti odstavek 153. člena Ustave), ki vključuje tudi učinkovito uresničevanje nadzornih pristojnosti Ministrstva za pravosodje ter načelo zavor in ravnovesij v širšem pomenu besede.
+
+
+### B.
+
+4. Izpodbijana Navodila je izdal Minister na podlagi četrtega odstavka 7. člena ZDT, ki določa: »Za uporabo državnotožilskega reda sprejema minister, pristojen za pravosodje, po predhodnem mnenju generalnega državnega tožilca, obvezna navodila in neobvezne razlage, ki se objavijo v notranjem tožilskem glasilu in pošljejo državnim tožilcem.«
+5. Za uporabo DTR kot podzakonskega predpisa, s katerim se določajo notranja ureditev državnih tožilstev in nekatera pravila poslovanja, določena v prvem in drugem odstavku 7. člena ZDT, torej pristojni minister lahko sprejme tako obvezna navodila kot neobvezne razlage. Oboja se sprejemajo po enakem postopku in za oboja se zahteva, da so objavljena v notranjem tožilskem glasilu in da so poslana državnim tožilstvom. Po prvem odstavku 7. člena ZDT se z DTR med drugim urejata tudi dodeljevanje in odvzem zadev državnim tožilcem, kar pomeni, da se z njim na ravni izvršilnega predpisa urejajo tudi vprašanja, katerih zakonski okvir je določen v 65. in 66. členu ZDT, ki udejanjata načelo hierarhične strukture državnega tožilstva. Ta pravila so še posebej pomembna, ker se tudi na njihovi podlagi sprejemajo odločitve o pregonu domnevnih storilcev kaznivih dejanj, zaradi česar morajo biti takšna, da se z njimi zagotavlja spoštovanje enakosti pred zakonom, ki ga zapoveduje drugi odstavek 14. člena Ustave. DTR predpiše po tretjem odstavku 7. člena ZDT minister, pristojen za pravosodje, na predlog generalnega državnega tožilca, medtem ko za izdajo (tudi) obveznih navodil za njegovo uporabo glede na četrti odstavek 7. člena ZDT ne potrebuje predloga, ampak jih lahko sprejme po lastni presoji, vendar po predhodnem mnenju generalnega državnega tožilca, na katerega, razen argumentiranega odgovora na mnenje, minister ni vezan.
+6. Predlagatelj zatrjuje, da so izpodbijana navodila po vsebini predpis, medtem ko Minister v odgovoru z dne 13. 4. 2010 trdi, da niso predpis, ker nimajo eksternih učinkov, in da se z njimi le »podaja ustavnoskladna razlaga ZDT in DTR«, da bi se zagotovila pravilno in enotno izvrševanje ter uporaba obeh predpisov. Če so izpodbijana navodila po vsebini predpis, je Ustavno sodišče pristojno za presojo njihove ustavnosti oziroma zakonitosti, če to niso, pristojnost Ustavnega sodišča za njihovo oceno ni podana.
+7. ZDT skrb za enotno uporabo zakona v prvem odstavku 64. člena ZDT poverja generalnemu državnemu tožilcu, ki v ta namen lahko izdaja tudi splošna navodila za ravnanje državnih tožilcev. Hkrati pa ta zakon prav s četrtim odstavkom 7. člena omogoča pristojnemu ministru sprejemanje tako neobveznih razlag kot obveznih navodil glede uporabe DTR, torej tudi glede uporabe tistih določb DTR, ki po svoji vsebini pomenijo na ravni izvršilnega predpisa ureditev vprašanj, določenih s 65. in 66. členom ZDT. Da bi Ustavno sodišče lahko presodilo, kakšna je pravna narava izpodbijanih navodil, mora najprej odgovoriti na vprašanje, kakšna je sploh vsebina četrtega odstavka 7. člena ZDT, in v tem okviru, kakšno je po svoji pravni naravi pooblastilo pristojnemu ministru, da izdaja tako neobvezne razlage kot obvezna navodila, kdaj lahko izdaja neobvezne razlage in kakšen je sploh njihov namen in pomen, kdaj lahko izdaja obvezna navodila in kakšna je njihova vloga, ter v tem okviru še posebej, ali izdana obvezna navodila za uporabo DTR lahko vsebujejo tudi obvezna navodila, ki so po svoji vsebini navodila za uporabo zakona, v tem primeru 65. in 66. člena ZDT. Brez podrobnejše ustavnopravne analize ni mogoče jasno reči, ali je takšno zakonsko pooblastilo dopustno, in če je dopustno, ali je jasno opredeljeno, kot to zahteva načelo jasnosti in določnosti predpisov iz 2. člena Ustave. Ko gre za obvezna navodila, kot v tem primeru, pa je neposredno z njimi povezano še vprašanje, ali so jasno razmejene pristojnosti in pooblastila ministra glede na prvi odstavek 64. člena ZDT in glede na to, da DTR v 2. členu določa, da njegovo izvajanje nadzoruje generalni državni tožilec, ki tudi izdaja odredbe na njegovi podlagi in daje usmeritve za izvajanje DTR. Ustavno sodišče je že v odločbi št. U-I-307/94 z dne 14. 5. 1998 (Uradni list RS, št. 42/98, in OdlUS VII, 84) navedlo, da je na podlagi drugega odstavka 135. člena Ustave ustavodajalec prepustil zakonski ureditvi urejanje položaja državnega tožilstva in nosilcev državnotožilske funkcije, ki je vendarle specifična državna funkcija. Nedvomno jo izvršuje samostojni državni organ, in že iz načel pravne države iz 2. člena Ustave izhaja, da morajo biti zakonske določbe, ki urejajo pristojnosti posameznih državnih organov, jasno določene in razmejene, tako da so iz njih jasno razvidna razmerja med posameznimi državnimi organi in njihova pooblastila, da bi bila na tej podlagi zagotovljena predvidljivost njihovega ravnanja in še posebej spoštovano načelo enakosti, kadar se v izvrševanju teh pristojnosti lahko posega v pravice, tudi človekove pravice posameznikov in pravnih oseb.
+8. Ker se je ob razlagi četrtega ostavka 7. člena ZDT, ki je zakonski temelj za izdajo izpodbijanih navodil, zastavilo prikazano vprašanje njegove ustavnosti, mora Ustavno sodišče najprej oceniti ustavnost te zakonske določbe, da bi na tej podlagi sploh lahko presodilo o pravni naravi izpodbijanih navodil. Zato je na podlagi 30. člena ZUstS začelo postopek za oceno ustavnosti te določbe. Presodilo bo njeno ustavnost z vidika 2. člena Ustave, pri čemer se v okviru presoje ne bo moglo izogniti odgovoru na vprašanje o položaju državnega tožilstva v sistemu državne oblasti v smislu 135. člena Ustave (1. točka izreka).
+9. Ustavno sodišče je sklenilo, da bo v tej zadevi odločalo absolutno prednostno. Ker se je izkazalo, da je za odločanje o morebitni protiustavnosti izpodbijanih navodil poprej treba opraviti presojo ustavnosti zakonske določbe, bo za odločitev o zadevi potreben ustrezno daljši čas. Ob začetem postopku za oceno ustavnosti zakonske določbe se zastavlja vprašanje, ali lahko zaradi njenega nadaljnjega izvrševanja nastanejo težko popravljive škodljive posledice. Če bi se ob presoji ustavnosti četrtega odstavka 7. člena ZDT izkazalo, da ta določba ni protiustavna, bi Ustavno sodišče ob tem, ko bi bila jasna pravna narava obveznih navodil in s tem pooblastila pristojnega ministra, ocenjevalo le še, ali so bila sicer ustavnoskladna pooblastila ministra prav v primeru izpodbijanih navodil prekoračena. Zadržanje izvrševanja zakona že sámo po sebi lahko povzroči težko popravljive škodljive posledice. Vendar je moralo Ustavno sodišče upoštevati, da bi bile težko popravljive posledice, ki bi nastale, če bi se izkazalo nasprotno, da je namreč že zakonska ureditev protiustavna, hujše, saj bi bile te lahko celo nepopravljive v izvajanju funkcije kazenskega pregona in bi lahko pomenile najmanj kršitev načela enakosti pred zakonom iz 14. člena Ustave. To pa je utemeljen razlog, zaradi katerega mora Ustavno sodišče za čas, dokler ne odloči o zadevi, dati zadržanju izvrševanja zakonske določbe prednost (2. točka izreka). V primeru izpodbijanih navodil samo zadržanje izvrševanja zakonske določbe ne bi pomenilo nobenega učinka. Zato je moralo Ustavno sodišče prav iz navedenih razlogov na podlagi tretjega odstavka 39. člena ZUstS določiti tudi način izvršitve odločitve o zadržanju z začasno prepovedjo uporabe izpodbijanih navodil (3. točka izreka).
+
+
+### C.
+
+10. Ustavno sodišče je sprejelo ta sklep na podlagi 30. člena ter prvega in tretjega odstavka 39. člena ZUstS v sestavi: predsednik Jože Tratnik ter sodnice in sodniki dr. Mitja Deisinger, mag. Marta Klampfer, mag. Marija Krisper Kramberger, mag. Miroslav Mozetič, Jasna Pogačar, mag. Jadranka Sovdat in Jan Zobec. Sklep je glede 1. točke izreka sprejelo soglasno, glede 2. in 3. točke izreka pa s sedmimi glasovi proti enemu. Proti je glasovala sodnica Pogačar.
+
+Jože Tratnik l.r.
+Predsednik
