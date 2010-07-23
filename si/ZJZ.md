@@ -20,6 +20,10 @@ spremembe:
     datum: 2009-10-30
     sop: 2009-01-3790
     naziv: "Zakon o spremembah in dopolnitvah Zakona o javnih zbiranjih"
+  - kratica: ZJZ-D
+    datum: 2010-07-23
+    sop: 2010-01-3277
+    naziv: "Zakon o dopolnitvi Zakona o javnih zbiranjih"
 ---
 
 # Zakon o javnih zbiranjih
