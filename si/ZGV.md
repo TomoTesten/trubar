@@ -12,6 +12,10 @@ spremembe:
     datum: 2004-04-15
     sop: 2004-01-1603
     naziv: "Zakon o spremembah in dopolnitvah zakona o gorskih vodnikih"
+  - kratica: ZGV-B
+    datum: 2010-07-23
+    sop: 2010-01-3276
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o gorskih vodnikih"
 ---
 
 # Zakon o gorskih vodnikih
