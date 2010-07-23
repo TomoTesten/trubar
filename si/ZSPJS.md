@@ -48,6 +48,10 @@ spremembe:
     datum: 2010-02-22
     sop: 2010-01-0520
     naziv: "Zakon o spremembah in dopolnitvah Zakona o sistemu plač v javnem sektorju"
+  - kratica: ZSPJS-N
+    datum: 2010-07-23
+    sop: 2010-01-3273
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o sistemu plač v javnem sektorju"
 ---
 
 # Zakon o sistemu plač v javnem sektorju
