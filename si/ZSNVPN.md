@@ -7,6 +7,11 @@ sop: 2006-01-1182
 objava: "Uradni list RS 29/06  str. 2978"
 kljucne_besede: ["sukcesija", "Jugoslavija", "sklad", "lastnina", "delitev lastnine", "terjatev"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1182"
+spremembe:
+  - kratica: ZSNVPN-A
+    datum: 2010-07-23
+    sop: 2010-01-3274
+    naziv: "Zakon o spremembah in dopolnitvi Zakona o Skladu Republike Slovenije za nasledstvo in visokem predstavniku Republike Slovenije za nasledstvo"
 ---
 
 # Zakon o Skladu Republike Slovenije za nasledstvo in visokem predstavniku Republike Slovenije za nasledstvo
