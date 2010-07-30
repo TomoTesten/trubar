@@ -16,6 +16,10 @@ spremembe:
     datum: 2009-04-30
     sop: 2009-01-1511
     naziv: "Zakon o spremembah in dopolnitvah Zakona o letalstvu"
+  - kratica: ZLet-C
+    datum: 2010-07-30
+    sop: 2010-01-3389
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o letalstvu"
 ---
 
 # Zakon o letalstvu
