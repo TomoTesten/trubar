@@ -4,9 +4,9 @@ naziv: "Sklep o sprejemu pobude in o zadržanju izvrševanja Akta o razpisu redn
 vrsta: "akt"
 datum: 2010-09-10
 sop: 2010-01-3903
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-3903"
 ---
 
