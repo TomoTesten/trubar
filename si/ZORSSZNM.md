@@ -7,6 +7,11 @@ sop: 2006-01-1836
 objava: "Uradni list RS 43/06  str. 4605"
 kljucne_besede: ["varstvo manjšin", "pomoč ob vrnitvi v matično državo", "diaspora", "migracijska politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1836"
+spremembe:
+  - kratica: ZORSSZNM-A
+    datum: 2010-10-01
+    sop: 2010-01-4129
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o odnosih Republike Slovenije s Slovenci zunaj njenih meja"
 ---
 
 # Zakon o odnosih Republike Slovenije s Slovenci zunaj njenih meja
