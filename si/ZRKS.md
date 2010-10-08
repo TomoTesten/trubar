@@ -7,6 +7,11 @@ sop: 1993-01-0301
 objava: "Uradni list RS 7/93  str. 274"
 kljucne_besede: ["Rdeči križ", "nevladna organizacija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0301"
+spremembe:
+  - kratica: ZRKS-A
+    datum: 2010-10-08
+    sop: 2010-01-4268
+    naziv: "Zakon o spremembah in dopolnitvi Zakona o Rdečem križu Slovenije"
 ---
 
 # Zakon o Rdečem križu Slovenije
