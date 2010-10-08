@@ -32,6 +32,10 @@ spremembe:
     datum: 2009-06-29
     sop: 2009-01-2430
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zavarovalništvu"
+  - kratica: ZZavar-H
+    datum: 2010-10-08
+    sop: 2010-01-4267
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zavarovalništvu"
 ---
 
 # Zakon o zavarovalništvu
