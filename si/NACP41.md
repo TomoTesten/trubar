@@ -4,9 +4,9 @@ naziv: "Resolucija o nacionalnem programu razvoja pomorstva Republike Slovenije 
 vrsta: "akt"
 datum: 2010-11-03
 sop: 2010-01-4686
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-4686"
 ---
 
