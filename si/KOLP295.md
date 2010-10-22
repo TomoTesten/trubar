@@ -1,0 +1,45 @@
+---
+kratica: KOLP295
+naziv: "Sklep o odpovedi Kolektivne pogodbe za javni sektor"
+vrsta: "akt"
+datum: 2010-10-22
+sop: 2010-01-4495
+organ: "Vlada Republike Slovenije"
+zbirka: "Drugi splošni in posamični akti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-4495"
+---
+
+# Sklep o odpovedi Kolektivne pogodbe za javni sektor
+
+Na podlagi prvega odstavka 13. člena Kolektivne pogodbe za javni sektor (Uradni list RS, št. 57/08, 23/09 in 91/09) je Vlada Republike Slovenije sprejela
+
+
+## S K L E P
+o odpovedi Kolektivne pogodbe za javni sektor
+
+
+### I.
+
+Kolektivna pogodba za javni sektor (Uradni list RS, št. 57/08, 23/09 in 91/09) se odpove s šestmesečnim odpovednim rokom s ponudbo nove, ki jo bo Vlada Republike Slovenije predložila v razumnem roku.
+
+
+### II.
+
+Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 10101-7/2010/4
+
+Ljubljana, dne 30. septembra 2010
+
+EVA 2010-3111-0050
+
+
+### Vlada Republike Slovenije
+
+Irma Pavlinič Krebs l.r.
+Ministrica
+za javno upravo
+dr. Franc Križanič l.r.
+Minister
+za finance
