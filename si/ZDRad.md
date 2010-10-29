@@ -7,6 +7,11 @@ sop: 2007-01-5066
 objava: "Uradni list RS 102/07  str. 13762"
 kljucne_besede: ["elektronska pošta", "telekomunikacije", "urejanje telekomunikacij", "prenosno omrežje", "kabelska televizija", "satelitske komunikacije"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-5066"
+spremembe:
+  - kratica: ZDRad-A
+    datum: 2010-10-29
+    sop: 2010-01-4556
+    naziv: "Zakon o dopolnitvah Zakona o digitalni radiodifuziji"
 ---
 
 # Zakon o digitalni radiodifuziji
