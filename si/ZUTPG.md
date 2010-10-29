@@ -7,6 +7,11 @@ sop: 2006-01-4833
 objava: "Uradni list RS 114/06  str. 11836"
 kljucne_besede: ["dohodek", "socialna varnost", "socialni transferji"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4833"
+spremembe:
+  - kratica: ZUTPG-B
+    datum: 2010-10-29
+    sop: 2010-01-4555
+    naziv: "Zakon o dopolnitvi Zakona o usklajevanju transferjev posameznikom in gospodinjstvom v Republiki Sloveniji"
 ---
 
 # Zakon o usklajevanju transferjev posameznikom in gospodinjstvom v Republiki Sloveniji
