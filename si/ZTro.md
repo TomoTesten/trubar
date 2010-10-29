@@ -48,6 +48,10 @@ spremembe:
     datum: 2010-07-15
     sop: 2010-01-3120
     naziv: "Zakon o spremembah in dopolnitvah Zakona o trošarinah"
+  - kratica: ZTro-K
+    datum: 2010-10-29
+    sop: 2010-01-4553
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o trošarinah"
 ---
 
 # Zakon o trošarinah
