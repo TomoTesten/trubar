@@ -7,6 +7,11 @@ sop: 2005-01-4394
 objava: "Uradni list RS 101/05  str. 10605"
 kljucne_besede: ["kaznivo dejanje", "odškodnina", "žrtev"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-4394"
+spremembe:
+  - kratica: ZOZKD-A
+    datum: 2010-11-02
+    sop: 2010-01-4657
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o odškodnini žrtvam kaznivih dejanj"
 ---
 
 # Zakona o odškodnini žrtvam kaznivih dejanj
