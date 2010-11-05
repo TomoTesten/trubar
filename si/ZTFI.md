@@ -12,6 +12,10 @@ spremembe:
     datum: 2009-05-29
     sop: 2009-01-1920
     naziv: "Zakon o spremembah in dopolnitvah zakona o trgu finančnih instrumentov"
+  - kratica: ZTFI-C
+    datum: 2010-11-05
+    sop: 2010-01-4708
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o trgu finančnih instrumentov"
 ---
 
 # Zakon o trgu finančnih instrumentov
