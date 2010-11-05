@@ -32,6 +32,10 @@ spremembe:
     datum: 2007-02-16
     sop: 2007-01-0603
     naziv: "Zakon o spremembah in dopolnitvah zakona o upravnih taksah"
+  - kratica: ZUT-H
+    datum: 2010-11-05
+    sop: 2010-01-4709
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o upravnih taksah"
 ---
 
 # Zakon o upravnih taksah
