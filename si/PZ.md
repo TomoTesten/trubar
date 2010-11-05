@@ -20,6 +20,10 @@ spremembe:
     datum: 2006-05-12
     sop: 2006-01-2092
     naziv: "Zakon o spremembah in dopolnitvah Pomorskega zakonika"
+  - kratica: PZ-D
+    datum: 2010-11-05
+    sop: 2010-01-4707
+    naziv: "Zakon o spremembah in dopolnitvah Pomorskega zakonika"
 ---
 
 # Pomorski zakonik
