@@ -4,9 +4,9 @@ naziv: "Resolucija o spremembah in dopolnitvah Resolucije o Nacionalnem programu
 vrsta: "akt"
 datum: 2010-11-29
 sop: 2010-01-4988
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-4988"
 ---
 

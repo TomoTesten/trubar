@@ -4,9 +4,9 @@ naziv: "Merila za uvrstitev v register strokovnjakov"
 vrsta: "akt"
 datum: 2010-11-29
 sop: 2010-01-4996
-organ: "Nacionalna agencija Republike Slovenije za kakovost v visokem šolstvu"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-4996"
 ---
 

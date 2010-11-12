@@ -4,9 +4,9 @@ naziv: "Spremembe proračuna Republike Slovenije za leto 2011 (DP2011-A)"
 vrsta: "akt"
 datum: 2010-12-01
 sop: 2010-01-5012
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-5012"
 ---
 
