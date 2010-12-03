@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-03-17
     sop: 2006-01-1129
     naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu pred naravnimi in drugimi nesrečami"
+  - kratica: ZVNDN-B
+    datum: 2010-12-03
+    sop: 2010-01-5021
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o varstvu pred naravnimi in drugimi nesrečami"
 ---
 
 # Zakon o varstvu pred naravnimi in drugimi nesrečami
