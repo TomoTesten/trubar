@@ -4,9 +4,9 @@ naziv: "Sprememba Poslovnika Državnotožilskega sveta"
 vrsta: "akt"
 datum: 2010-12-03
 sop: 2010-01-5043
-organ: "Državnotožilski svet"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-5043"
 ---
 
