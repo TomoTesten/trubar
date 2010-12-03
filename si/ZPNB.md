@@ -16,6 +16,10 @@ spremembe:
     datum: 2009-06-01
     sop: 2009-01-1985
     naziv: "Zakon o spremembah in dopolnitvah Zakona o prevozu nevarnega blaga"
+  - kratica: ZPNB-C
+    datum: 2010-12-03
+    sop: 2010-01-5022
+    naziv: "Zakon o spremembah in dopolnitvi Zakona o prevozu nevarnega blaga"
 ---
 
 # Zakon o prevozu nevarnega blaga
