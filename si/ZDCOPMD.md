@@ -16,6 +16,10 @@ spremembe:
     datum: 2007-05-07
     sop: 2007-01-2172
     naziv: "Zakon o spremembah in dopolnitvah zakona o delovnem času in obveznih počitkih mobilnih delavcev ter o zapisovalni opremi v cestnih prevozih"
+  - kratica: ZDCOPMD-C
+    datum: 2010-12-03
+    sop: 2010-01-5023
+    naziv: "Zakona o spremembah in dopolnitvah Zakona o delovnem času in obveznih počitkih mobilnih delavcev ter o zapisovalni opremi v cestnih prevozih"
 ---
 
 # Zakon o delovnem času in obveznih počitkih mobilnih delavcev ter o zapisovalni opremi v cestnih prevozih
