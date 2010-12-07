@@ -2,11 +2,11 @@
 kratica: MP_PRAV7503
 naziv: "Pravilnik o plačah in drugih prejemkih občinskih funkcionarjev, članov delovnih teles in članov drugih občinskih organov Občine Cerklje na Gorenjskem (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2026-01-04
+datum: 2010-12-21
 sop: 2010-63-0019
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Cerklje na Gorenjskem"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-63-0019"
 ---
 
