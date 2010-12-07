@@ -12,6 +12,10 @@ spremembe:
     datum: 2009-07-27
     sop: 2009-01-2872
     naziv: "Zakon o spremembah in dopolnitvah Zakona o mednarodni zaščiti"
+  - kratica: ZMZ-B
+    datum: 2010-12-07
+    sop: 2010-01-5103
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o mednarodni zaščiti"
 ---
 
 # Zakon o mednarodni zaščiti
