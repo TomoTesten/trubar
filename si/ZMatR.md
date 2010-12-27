@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-04-13
     sop: 2006-01-1679
     naziv: "Zakon o spremembah in dopolnitvah zakona o matičnem registru"
+  - kratica: ZMatR-B
+    datum: 2010-12-27
+    sop: 2010-01-5479
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o matičnem registru"
 ---
 
 # Zakon o matičnem registru
