@@ -16,6 +16,10 @@ spremembe:
     datum: 2007-12-03
     sop: 2007-01-5469
     naziv: "Zakon o spremembah in dopolnitvah zakona o gozdovih"
+  - kratica: ZG-C
+    datum: 2010-12-27
+    sop: 2010-01-5480
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o gozdovih"
 ---
 
 # Zakon o gozdovih
