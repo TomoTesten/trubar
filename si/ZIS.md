@@ -20,6 +20,10 @@ spremembe:
     datum: 2010-02-12
     sop: 2010-01-0391
     naziv: "Zakon o spremembah in dopolnitvah Zakona o igrah na srečo"
+  - kratica: ZIS-D
+    datum: 2010-12-27
+    sop: 2010-01-5478
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o igrah na srečo"
 ---
 
 # Zakon o igrah na srečo
