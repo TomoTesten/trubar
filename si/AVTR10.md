@@ -4,9 +4,9 @@ naziv: "Avtentična razlaga 3. točke prvega odstavka 21. člena Zakona o finan�
 vrsta: "akt"
 datum: 2010-12-27
 sop: 2010-01-5483
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-5483"
 ---
 
