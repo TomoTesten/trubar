@@ -56,6 +56,10 @@ spremembe:
     datum: 2010-10-29
     sop: 2010-01-4554
     naziv: "Zakon o spremembi Zakona o sistemu plač v javnem sektorju"
+  - kratica: ZSPJS-P
+    datum: 2010-12-29
+    sop: 2010-01-5583
+    naziv: "Zakon o spremembi Zakona o sistemu plač v javnem sektorju"
 ---
 
 # Zakon o sistemu plač v javnem sektorju
