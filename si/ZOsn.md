@@ -32,6 +32,10 @@ spremembe:
     datum: 2007-11-09
     sop: 2007-01-5073
     naziv: "Zakon o spremembah in dopolnitvah zakona o osnovni šoli"
+  - kratica: ZOsn-G
+    datum: 2010-12-29
+    sop: 2010-01-5585
+    naziv: "Zakon o spremembi Zakona o spremembah in dopolnitvah Zakona o osnovni šoli"
 ---
 
 # Zakon o osnovni šoli
