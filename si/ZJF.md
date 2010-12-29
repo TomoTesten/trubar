@@ -28,6 +28,10 @@ spremembe:
     datum: 2009-06-29
     sop: 2009-01-2428
     naziv: "Zakon o spremembah in dopolnitvah Zakona o javnih financah"
+  - kratica: ZJF-F
+    datum: 2010-12-29
+    sop: 2010-01-5582
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o javnih financah"
 ---
 
 # Zakon o javnih financah
