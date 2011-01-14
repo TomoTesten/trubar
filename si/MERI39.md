@@ -4,9 +4,9 @@ naziv: "Rasti elementov cen socialno varstvenih storitev za leto 2011"
 vrsta: "akt"
 datum: 2011-01-28
 sop: 2011-01-0204
-organ: "Ministrstvo za delo, družino in socialne zadeve"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0204"
 ---
 

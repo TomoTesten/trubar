@@ -4,9 +4,9 @@ naziv: "Deklaracija Republike Slovenije o položaju narodnih skupnosti pripadnik
 vrsta: "akt"
 datum: 2011-02-04
 sop: 2011-01-0210
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0210"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Avtentična razlaga prvega in drugega odstavka 39. člena Zakona o varst
 vrsta: "akt"
 datum: 2011-02-07
 sop: 2011-01-0278
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0278"
 ---
 
