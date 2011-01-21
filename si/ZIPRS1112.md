@@ -7,6 +7,11 @@ sop: 2010-01-5014
 objava: "Uradni list RS 96/10  str. 14994"
 kljucne_besede: ["izvrševanje proračuna", "državni proračun", "proračun"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-5014"
+spremembe:
+  - kratica: ZIPRS1112-A
+    datum: 2011-01-21
+    sop: 2011-01-0100
+    naziv: "Zakon o spremembi in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2011 in 2012"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2011 in 2012
