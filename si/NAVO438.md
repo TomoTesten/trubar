@@ -2,11 +2,11 @@
 kratica: NAVO438
 naziv: "Navodilo o razporejanju in pošiljanju obsojencev na prestajanje kazni zapora v zavode za prestajanje kazni zapora"
 vrsta: "navodilo"
-datum: 2000-09-01
+datum: 2011-02-18
 sop: 2000-01-3622
-organ: "Ministrstvo za pravosodje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3622"
 ---
 

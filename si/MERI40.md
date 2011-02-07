@@ -4,9 +4,9 @@ naziv: "Merila za zunanjo evalvacijo višjih strokovnih šol"
 vrsta: "akt"
 datum: 2011-02-11
 sop: 2011-01-0336
-organ: "Nacionalna agencija Republike Slovenije za kakovost v visokem šolstvu"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0336"
 ---
 

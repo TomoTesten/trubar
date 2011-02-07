@@ -4,9 +4,9 @@ naziv: "Tarifa o plačilih za izvajanje poštnih storitev za leto 2011"
 vrsta: "akt"
 datum: 2011-02-18
 sop: 2011-01-0395
-organ: "Agencija za pošto in elektronske komunikacije Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0395"
 ---
 
