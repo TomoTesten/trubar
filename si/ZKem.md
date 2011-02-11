@@ -12,6 +12,10 @@ spremembe:
     datum: 2003-07-04
     sop: 2003-01-3142
     naziv: "Zakon o spremembah in dopolnitvah zakona o kemikalijah"
+  - kratica: ZKem-C
+    datum: 2011-02-11
+    sop: 2011-01-0326
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o kemikalijah"
 ---
 
 # Zakon o kemikalijah
