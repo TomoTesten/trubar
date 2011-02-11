@@ -20,6 +20,10 @@ spremembe:
     datum: 2009-04-06
     sop: 2009-01-1143
     naziv: "Zakon o spremembah in dopolnitvah Zakona o plačilu odškodnine žrtvam vojnega in povojnega nasilja"
+  - kratica: ZSPOZ-D
+    datum: 2011-02-11
+    sop: 2011-01-0328
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o plačilu odškodnine žrtvam vojnega in povojnega nasilja"
 ---
 
 # Zakon o Skladu za poplačilo odškodnine žrtvam vojnega in povojnega nasilja
