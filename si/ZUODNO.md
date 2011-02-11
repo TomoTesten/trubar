@@ -32,6 +32,10 @@ spremembe:
     datum: 2006-06-13
     sop: 2006-01-2574
     naziv: "Zakon o spremembah in dopolnitvah zakona o ustanovitvi občin ter o določitvi njihovih območij"
+  - kratica: ZUODNO-G
+    datum: 2011-02-11
+    sop: 2011-01-0322
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o ustanovitvi občin ter o določitvi njihovih območij"
 ---
 
 # Zakon o ustanovitvi občin ter o določitvi njihovih območij
