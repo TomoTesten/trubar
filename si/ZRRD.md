@@ -16,6 +16,10 @@ spremembe:
     datum: 2007-12-07
     sop: 2007-01-5553
     naziv: "Zakon o spremembah in dopolnitvah zakona o raziskovalni in razvojni dejavnosti"
+  - kratica: ZRRD-C
+    datum: 2011-02-11
+    sop: 2011-01-0325
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o raziskovalni in razvojni dejavnosti"
 ---
 
 # Zakon o raziskovalni in razvojni dejavnosti
