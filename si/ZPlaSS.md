@@ -12,6 +12,10 @@ spremembe:
     datum: 2010-04-30
     sop: 2010-01-1624
     naziv: "Zakon o spremembah in dopolnitvah Zakona o plačilnih storitvah in sistemih"
+  - kratica: ZPlaSS-B
+    datum: 2011-02-11
+    sop: 2011-01-0319
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o plačilnih storitvah in sistemih"
 ---
 
 # Zakon o plačilnih storitvah in sistemih
