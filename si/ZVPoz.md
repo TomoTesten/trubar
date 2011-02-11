@@ -16,6 +16,10 @@ spremembe:
     datum: 2006-10-12
     sop: 2006-01-4491
     naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu pred požarom"
+  - kratica: ZVPoz-C
+    datum: 2011-02-11
+    sop: 2011-01-0323
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o varstvu pred požarom"
 ---
 
 # Zakon o varstvu pred požarom
