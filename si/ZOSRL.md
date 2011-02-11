@@ -12,6 +12,10 @@ spremembe:
     datum: 2007-10-10
     sop: 2007-01-4541
     naziv: "Zakon o spremembah in dopolnitvah zakona o obligacijskih in stvarnopravnih razmerjih v letalstvu"
+  - kratica: ZOSRL-B
+    datum: 2011-02-11
+    sop: 2011-01-0327
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o obligacijskih in stvarnopravnih razmerjih v letalstvu"
 ---
 
 # Zakon o obligacijskih in stvarnopravnih razmerjih v letalstvu
