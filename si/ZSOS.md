@@ -12,6 +12,10 @@ spremembe:
     datum: 1994-08-05
     sop: 1994-01-1826
     naziv: "Zakon o spremembah in dopolnitvah zakona o Slovenskem odškodninskem skladu"
+  - kratica: ZSOS-B
+    datum: 2011-02-11
+    sop: 2011-01-0321
+    naziv: "Zakon o dopolnitvi Zakona o Slovenskem odškodninskem skladu"
 ---
 
 # Zakon o Slovenskem odškodninskem skladu
