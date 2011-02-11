@@ -12,6 +12,10 @@ spremembe:
     datum: 2007-03-23
     sop: 2007-01-1282
     naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu pred utopitvami"
+  - kratica: ZVU-B
+    datum: 2011-02-11
+    sop: 2011-01-0324
+    naziv: "Zakon o dopolnitvah Zakona o varstvu pred utopitvami"
 ---
 
 # Zakon o varstvu pred utopitvami
