@@ -7,6 +7,11 @@ sop: 2007-01-2221
 objava: "Uradni list RS 41/07  str. 5633"
 kljucne_besede: ["referendum", "volilna kampanja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2221"
+spremembe:
+  - kratica: ZVRK-A
+    datum: 2011-02-21
+    sop: 2011-01-0448
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o volilni in referendumski kampanji"
 ---
 
 # Zakon o volilni in referendumski kampanji
