@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-07-25
     sop: 2006-01-3403
     naziv: "Zakon o spremembi in dopolnitvi zakona o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij"
+  - kratica: ZSTNIIP-B
+    datum: 2011-02-21
+    sop: 2011-01-0447
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij"
 ---
 
 # Zakon o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij
