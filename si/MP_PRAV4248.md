@@ -1,0 +1,367 @@
+---
+kratica: MP_PRAV4248
+naziv: "Pravilnik o sprejemu otrok v vrtec (PRAV)"
+vrsta: "občinski pravilnik"
+datum: 2011-02-25
+sop: 2011-01-0525
+organ: "Mestna občina Kranj"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0525"
+---
+
+# Pravilnik o sprejemu otrok v vrtec (PRAV)
+
+Na podlagi 20. člena in 20.f člena Zakona o vrtcih (Uradni list RS, št. 100/05 - UPB2, 25/08, 98/09 - ZIUZGK, 36/10, 62/10 - ZUPJS) in 18. člena Statuta Mestne občine Kranj (Uradni list RS, št. 33/07) je Svet Mestne občine Kranj na 4. seji dne 16. 2. 2011 sprejel
+
+
+## P R A V I L N I K
+o sprejemu otrok v vrtec
+
+
+### I. SPLOŠNA DOLOČBA
+
+
+### 1. člen
+
+Ta pravilnik ureja postopek sprejemanja otrok v javne vrtce na območju Mestne občine Kranj (v nadaljevanju: vrtec), sestavo in način dela komisije za sprejem otrok ter kriterije za sprejem otrok v vrtec.
+
+
+### II. VPIS IN SPREJEM OTROKA V VRTEC
+
+
+### 2. člen
+
+Predšolska vzgoja v vrtcih poteka v dveh starostnih obdobjih:
+- prvo obdobje: otroci v starosti do treh let in
+- drugo obdobje: otroci v starosti od treh let do vstopa v šolo.
+
+
+### 3. člen
+
+Vrtec lahko glede na trajanje izvaja naslednje programe:
+- dnevne programe, ki trajajo od šest do devet ur in se lahko izvajajo dopoldne, popoldne, celodnevno ali izmenično,
+- poldnevne programe, ki trajajo od štiri do šest ur in se lahko izvajajo dopoldne, popoldne ali izmenično.
+
+
+### 4. člen
+
+Vrtec vpisuje in sprejema predšolske otroke v svoje programe na podlagi prijav in prostih mest vse leto.
+Vrtec lahko sprejme otroka, ko je dopolnil starost najmanj 11 mesecev, če starši ne uveljavljajo več pravice do starševskega dopusta v obliki polne odsotnosti z dela. Za starše otrok, ki so oddali vlogo za vpis otroka v vrtec, vrtcu na njegovo zahtevo pristojni center za socialno delo posreduje podatke o izteku pravice do starševskega dopusta v obliki polne odsotnosti z dela.
+
+
+### 5. člen
+
+Vrtec mora na svojih spletnih straneh objaviti informacije o številu mest, ki jih zagotavlja za predšolske otroke, o številu prostih mest, ki so staršem na voljo, in podatek o predvideni čakalni dobi, ki predstavlja čas od vpisa otroka v vrtec do možnosti njegove vključitve v program vrtca.
+
+
+### 6. člen
+
+Za vpis otrok v vrtec se uvede enoten vpis otrok v vrtce in vzpostavi centralna evidenca vpisanih otrok v vrtec. Vrtec najmanj enkrat letno objavi javni vpis novincev, praviloma v marcu za naslednje šolsko leto. Enoten vpis novincev v vrtec med vrtci uskladi organ Mestne občine Kranj, pristojen za predšolsko vzgojo (v nadaljevanju: pristojen organ).
+Enotni vpis otrok v vrtce poteka na način, pod pogoji in po postopku, ki je določen s tem pravilnikom.
+
+
+### 7. člen
+
+Posamezni vrtec vzpostavi evidenco vpisanih otrok in evidenco vključenih otrok. Mestna občina Kranj vzpostavi centralno evidenco vpisanih otrok in centralni čakalni seznam. Evidence iz prejšnjega odstavka vsebujejo podatke, ki jih določa zakon.
+Vpogled v centralno evidenco vpisanih otrok imajo vsi vrtci.
+
+
+### 8. člen
+
+Javni vpis novincev objavi vrtec na svoji spletni strani, na oglasni deski vrtca in ga posreduje v objavo sredstvom javnega obveščanja ter Mestni občini Kranj. Mestna občina Kranj objavi obvestilo o javnem vpisu novincev v vrtce na spletni strani Mestne občine Kranj.
+
+
+### 9. člen
+
+Starši oziroma skrbniki otroka (v nadaljevanju: starši) vpišejo otroka tako, da oddajo vlogo za vpis otroka v vrtec (v nadaljevanju: vloga) na predpisanem obrazcu, h kateremu morajo biti priloženi zahtevani dokazi. Vlogo odda eden od staršev oziroma otrokov skrbnik (v nadaljevanju: vlagatelj).
+Vloge dobijo vlagatelji na sedežu vrtca, v enotah vrtca, na spletnih straneh vrtca in Mestne občine Kranj.
+
+
+### 10. člen
+
+Vlagatelj lahko odda le eno vlogo za posameznega otroka.
+Vlagatelj na vlogi navede vrtec, v katerega želi vključiti otroka (v nadaljevanju: vrtec prve izbire), in v ta vrtec odda vlogo.
+Vlagatelj lahko v vlogi navede tudi drug vrtec (v nadaljevanju: vrtec druge izbire) in tretji vrtec (v nadaljevanju: vrtec tretje izbire), v katerega želi vključiti otroka, če otrok ne bo sprejet v vrtec prve izbire oziroma druge izbire.
+Vlagatelj lahko v vlogi navede tudi, da želi vključiti otroka v katerikoli vrtec (v nadaljevanju: vrtec četrte izbire), če otrok ne bo sprejet v vrtec prve izbire, niti v vrtec druge izbire in niti v vrtec tretje izbire.
+Vlagatelj odda vlogo na sedežu vrtca ali jo pošlje po pošti. Vrtec vlagatelja pisno obvesti o prejemu vloge in šifri, pod katero se vodi otrok v evidenci vpisanih otrok.
+
+
+### 11. člen
+
+V primeru, da vlagatelj odda vlogo kadarkoli po poteku roka za prijavo na javni vpis novincev, mora vrtec v roku 15 dni po prejemu vloge vlagatelja pisno obvestiti o prejemu vloge, šifri, pod katero se vodi otrok v evidenci vpisanih otrok, o datumu vključitve otroka v vrtec in o drugih pogojih za sprejem otroka v vrtec. Če v vrtcu ni prostih mest, vrtec vlagatelja pisno obvesti o postopku sprejema otroka ob nastanku prostega mesta oziroma obravnavi njegove vloge na komisiji za sprejem otrok (v primeru odprtja novega oddelka). Vrtec starše tudi obvesti, da poslana vloga velja le za tekoče šolsko leto in da je potrebno v času javnega vpisa novincev za naslednje šolsko leto v primeru, da otrok ni sprejet, ponovno vložiti vlogo. Otrok, za katerega je bila vloga oddana po poteku vpisa in ni bil sprejet, se ne uvrsti na centralni čakalni seznam.
+
+
+### 12. člen
+
+Če je v vrtcu dovolj prostih mest, potrdi ob izpolnitvi pogojev sprejem otrok ravnatelj ali od njega pooblaščena oseba.
+Vrtec starše pisno obvesti o datumu vključitve otroka v vrtec, o roku za sklenitev pogodbe o medsebojnih pravicah in obveznostih med vrtcem in starši, o roku za plačilo are in o obveznosti staršev, da ob vključitvi otroka v vrtec predložijo potrdilo pediatra o zdravstvenem stanju otroka.
+Ara je namenjena resnosti vpisa otroka v vrtec in se praviloma ne vrača. Izjemoma se ara vrne, če se otrok zaradi zdravstvenih razlogov (zdravniško potrdilo) ne more vključiti v vrtec. Ara znaša 40,00 EUR in se poračuna ob plačilu oskrbnine prvega meseca.
+
+
+### 13. člen
+
+Če starši oddajo nepopolno vlogo ali če vrtec zaradi uporabe kriterijev za sprejem potrebuje še druge podatke, lahko starše pozove k odpravi pomanjkljivosti ali dopolnitvi vloge tudi po elektronski pošti, telefonu ali ustno, če starši pridejo v vrtec. O tem se napiše uradni zaznamek. Če vloga ni dopolnjena, se jo obravnava in o sprejemu otroka odloči na podlagi podatkov, ki jih vsebuje vloga.
+
+
+### III. SESTAVA IN NAČIN DELA KOMISIJE ZA SPREJEM OTROK
+
+
+### 14. člen
+
+Če je v vrtec vpisanih več otrok, kakor je v vrtcu prostih mest, odloča o sprejemu komisija za sprejem otrok.
+V primeru, ko o sprejemu otrok odloča komisija, morajo starši vključiti otroka v vrtec s 1. septembrom tekočega leta ali z dnem oblikovanja novega oddelka med šolskim letom.
+
+
+### 15. člen
+
+Komisijo za sprejem otrok (v nadaljevanju: komisija) sestavljajo:
+- predstavnik sveta staršev in njegov namestnik, ki ju imenuje svet staršev,
+- predstavnik ustanovitelja in njegov namestnik, ki ju imenuje župan,
+- predstavnik strokovnih delavcev vrtca in njegov namestnik, ki ju imenuje ravnatelj vrtca.
+Delo komisije vodi predsednik komisije, ki je predstavnik delavcev vrtca. Člane komisije se imenuje za eno šolsko leto. Mandat članov komisije začne teči z dnem konstituiranja. Ravnatelj vrtca skliče prvo konstitutivno sejo komisije najkasneje v 15 dneh po imenovanju vseh članov komisije in njihovih namestnikov.
+Namestniki predsednika in članov komisije nadomeščajo predsednika in člane komisije v primeru njihove odsotnosti ali zadržanosti. Namestniki imajo v primeru nadomeščanja enake pravice in obveznosti kot predsednik ali člana komisije.
+Ravnatelj vrtca pozove najmanj 60 dni pred potekom mandata članom komisije svet staršev in župana Mestne občine Kranj, naj imenujeta člana komisije in njegova namestnika. Če kateremu od članov preneha mandat ali preneha z delom v komisiji, organ, ki ga imenuje, poskrbi za njegovo imenovanje. Člani komisije za svoje delo odgovarjajo organu, ki jih je imenoval.
+
+
+### 16. člen
+
+Komisija o poteku seje komisije vodi zapisnik, v katerega vpiše zlasti naslednje podatke:
+- ime in sedež vrtca, kjer komisija deluje,
+- kraj, datum in uro seje komisije,
+- imena navzočih,
+- kratek potek dela komisije,
+- sprejete sklepe komisije, katerih obvezni del je prednostni vrstni red.
+Zapisnik podpišejo vsi člani komisije.
+Zapisnik je potrebno hraniti v dokumentaciji vrtca skladno z veljavnimi predpisi. Pisanje zapisnika zagotavlja vrtec, ki posreduje en izvod zapisnika pristojnemu organu Mestne občine Kranj.
+
+
+### 17. člen
+
+Komisija se mora sestati v 10 delovnih dneh po zaključku vpisa. Komisija obravnava vloge na svoji seji, ki ni javna, v skladu z določbami Zakona o vrtcih. Na seji komisije so lahko prisotni samo člani komisije in zapisnikar.
+
+
+### 18. člen
+
+Komisija obravnava vse vloge na podlagi podatkov, ki so navedeni v vlogi, oziroma podatkov, ki jih pridobi pri upravljavcih zbirk osebnih podatkov, določi število točk po posameznih kriterijih in določi prednostni vrstni red otrok.
+Komisija lahko preverja pravilnost podatkov, navedenih v vlogah, pri upravljavcih zbirk osebnih podatkov, ki jih vodijo v skladu z zakonom. Če komisija ugotovi nepravilnost podatkov, navedenih v vlogi, odloči na podlagi podatkov, pridobljenih pri upravljavcih zbirk osebnih podatkov.
+Komisija odloča po določbah skrajšanega ugotovitvenega postopka, določenem v zakonu, ki ureja splošni upravni postopek.
+
+
+### 19. člen
+
+Komisija izmed vpisanih otrok najprej obravnava otroke s posebni potrebami, za katere so vlagatelji predložili odločbo o usmeritvi, in otroke, za katere so vlagatelji predložili mnenje centra za socialno delo o ogroženosti zaradi socialnega položaja družine. Mnenje o ogroženosti otroka zaradi socialnega položaja družine vsebuje navedbe, da je družina v skladu s predpisi, ki urejajo socialno varnost oziroma položaj družine, obravnavana kot socialno ogrožena družina s strani centra za socialno delo, kar je razvidno iz uradnih evidenc, ki jih vodijo centri za socialno delo.
+
+
+### 20. člen
+
+Za preostale vpisane otroke komisija določi na podlagi kriterijev prednostni vrstni red tako, da razvrsti vse vpisane otroke po doseženem številu točk od najvišjega do najnižjega števila. Otroci se vključujejo v vrtec s prednostnega vrstnega reda glede na starost, prosto mesto v posameznem oddelku in glede na program vrtca, ki se izvaja v oddelku.
+V primeru, ko ima več otrok, rojenih na isti dan, enako število točk, se uporabi še dodatni kriterij, in sicer zadnje tri številke EMŠO otroka, pri čemer ima prednost otrok z manjšo vsoto zadnjih treh številk.
+Vrtec v osmih dneh po seji komisije glede na število prostih mest po posameznih oddelkih in enotah vrtca in v skladu s prednostnim vrstnim redom odloči, koliko otrok bo sprejetih v vrtec. Otroci, ki niso sprejeti v vrtec, se v skladu s prednostnim vrstnim redom uvrstijo na čakalni seznam.
+Vrtec izda v osmih dneh po seji komisije prednostni vrstni red, iz katerega izhaja seznam sprejetih otrok in čakalni seznam, ki se objavi na oglasni deski in na spletnih straneh vrtca. Podatki o otrocih se objavijo pod šifro, pod katero se vodi otroka v evidenci vpisanih otrok in je vlagatelj z njo pisno seznanjen.
+Čakalni seznam posameznega vrtca velja do oblikovanja centralnega čakalnega seznama.
+
+
+### 21. člen
+
+Vrtec pošlje staršem v osmih dneh po seji komisije obvestilo z izpisom vseh podatkov iz seznama sprejetih otrok ali čakalnega seznama za njihovega otroka z navadno poštno pošiljko in po elektronski pošti, če so starši navedli elektronski naslov, na katerega želijo prejemati obvestila vrtca.
+Zoper obvestilo iz prejšnjega odstavka o prednostnem vrstnem redu lahko starši v 15 dneh po vročitvi obvestila z navadno pošiljko vložijo ugovor na svet zavoda, ki o ugovoru odloči v 15 dneh po prejemu ugovora v skladu z Zakonom o vrtcih in s smiselno uporabo zakona, ki ureja splošni upravni postopek. Ugovor se lahko vloži zaradi nepravilnega upoštevanja kriterija. Ugovor na kriterij in težo posameznega kriterija ni dopusten.
+O ugovoru odloči svet zavoda ob smiselni uporabi zakona, ki ureja splošni upravni postopek, z odločbo, ki se vroči staršem, kot to določa Zakon o vrtcih. Zoper odločitev sveta zavoda lahko starši sprožijo upravni spor.
+
+
+### 22. člen
+
+Ko je v vrtcu odločeno o vseh ugovorih staršev zoper obvestilo o prednostnem vrstnem redu otrok, vrtec staršem otrok, ki so sprejeti v vrtec, pošlje poziv k sklenitvi pogodbe o medsebojnih pravicah in obveznostih med vrtcem in starši.
+V pozivu vrtec izrecno navede, da se šteje, da so starši umaknili vlogo za vpis otroka v vrtec, če v 15 dneh od vročitve poziva ne podpišejo pogodbe z vrtcem in ne plačajo are. V takem primeru vrtec pozove k sklenitvi pogodbe starše naslednjega otroka po vrstnem redu s čakalnega seznama.
+S podpisom pogodbe med vrtcem in starši ter s plačilom are se šteje, da je otrok vključen v vrtec.
+Starši, ki so odklonili sprejem otroka v vrtec, lahko ponovno vložijo vlogo za vpis otroka v vrtec, vendar nimajo prednosti pri ponovnem postopku sprejema otroka v vrtec.
+
+
+### 23. člen
+
+Po končanem postopku sprejema otrok v vrtec pristojen organ čakalne sezname vseh vrtcev združi v centralni čakalni seznam (ločeno za I. starostno obdobje in II. starostno obdobje). Prednostni vrstni red se oblikuje po doseženem številu točk, ki so ga določile komisije za sprejem otrok v posameznih vrtcih.
+Če je več otrok doseglo enako število točk, se pri določitvi vrstnega reda na centralnem čakalnem seznamu upošteva dodatni kriterij starost otroka, pri čemer imajo prednost starejši otroci.
+V primeru, ko ima več otrok, rojenih na isti dan, enako število točk, se uporabi še dodatni kriterij, in sicer zadnje tri številke EMŠO otroka, pri čemer ima prednost otrok z manjšo vsoto zadnjih treh številk.
+Z dnem oblikovanja centralnega čakalnega seznama prenehajo veljati čakalni seznami v posameznih vrtcih.
+Centralni čakalni seznam otrok velja do zadnjega dne šolskega leta, za katerega je bil oblikovan.
+Centralni čakalni seznam se objavi na oglasnih deskah v vseh javnih vrtcih na območju občine in na njihovih spletnih straneh ter na spletni strani Mestne občine Kranj.
+
+
+### 24. člen
+
+Vrtec, ki ima po končanem postopku sprejema otrok v vrtec, novo prosto mesto za sprejem otroka v vrtec, pozove k podpisu pogodbe o vključitvi otroka v vrtec po prednostnem vrstnem redu s centralnega čakalnega seznama starše tistega otroka, za katerega so starši navedli ta vrtec kot eno izmed izbir (vrtec prve izbire, vrtec druge izbire ali vrtec tretje izbire) ali če so se v vlogi opredelili za katerikoli vrtec (vrtec četrte izbire), glede na starost otroka, prosto mesto v posameznem oddelku in glede na program vrtca, ki se izvaja v oddelku.
+Vrtec, ki pozove starše otroka po prednostnem vrstnem redu s centralnega čakalnega seznama k podpisu pogodbe o vključitvi otroka v vrtec, pridobi vlogo iz vrtca, pri katerem je bila prvotno vložena, ob izrecnem privoljenju staršev za prenos vloge, ki je bilo dano v vlogi ob vpisu otroka.
+Vrtec, ki ima prosto mesto, pozove starše otrok s centralnega čakalnega seznama k podpisu pogodbe o vključitvi otroka v vrtec takoj oziroma najkasneje v roku 3 delovnih dneh od dneva ugotovitve, da ima vrtec prosto mesto. Starši otroka so dolžni v 15 dneh od dneva vročitve poziva k sklenitvi pogodbe podpisati pogodbo in plačati aro. Če tega ne storijo, vrtec pozove k sklenitvi pogodbe starše naslednjega otroka po vrstnem redu iz centralnega čakalnega seznama. Vrtec starše pozove k podpisu pogodbe z navadno pošto in po elektronski pošti, če so starši navedli elektronski naslov, na katerega želijo prejemati obvestila vrtca.
+Če starši odklonijo sprejem otroka, uvrščenega na centralni čakalni seznam, ne podpišejo pogodbe z vrtcem in ne plačajo določene are, kot to določa 21. člen tega pravilnika, se ne šteje, da so umaknili vlogo za vpis v vrtec in ostanejo na centralnem čakalnem seznamu do vključitve otroka v vrtec oziroma do zadnjega dne šolskega leta, za katerega je bil oblikovan centralni čakalni seznam.
+
+
+### 25. člen
+
+Dokler velja centralni čakalni seznam, vrtec ne sme sprejeti v vrtec otrok, ki niso uvrščeni na centralni čakalni seznam, razen otrok s posebnimi potrebami, za katere so vlagatelji predložili odločbo o usmeritvi, in otrok, za katere so vlagatelji predložili mnenje centra za socialno delo o ogroženosti zaradi socialnega položaja družine, ali če starši vseh otrok, ki so na centralnem čakalnem seznamu, odklonijo sprejem otroka v vrtec oziroma ne podpišejo pogodbe o vključitvi otroka v vrtec in ne plačajo are, in sicer v 15 dneh od dneva vročitve poziva k sklenitvi pogodbe in k plačilu are ali, če na prosto mesto v vrtcu, upoštevajoč starost otroka ter program vrtca, ki se izvaja v oddelku, ne more vključiti nobenega izmed otrok, ki so uvrščeni na centralni čakalni seznam.
+
+
+### 26. člen
+
+Odločitve vrtca in druge listine v postopku sprejemanja otroka v vrtec se vročajo po pošti z navadno poštno pošiljko in po elektronski pošti, če so starši navedli naslov, na katerega želijo prejemati obvestila vrtca. Šteje se, da je pošiljka vročena naslovniku osmi dan od odpreme na pošto.
+
+
+### 27. člen
+
+Starši lahko otroka kadarkoli trajno izpišejo iz vrtca. Izpisani otrok nima prednosti pri ponovnem sprejemu v vrtec. Izjavo o izpisu otroka iz vrtca morajo starši izpolniti v 14 dneh pred želenim datumom izpisa.
+
+
+### IV. KRITERIJI ZA SPREJEM OTROK V VRTEC
+
+
+### 28. člen
+
+Komisija odloča o sprejemu otrok v vrtec na podlagi naslednjih kriterijev:
+
++--------+--------+----------------------------------+----------+
+|Zap. št.|        |Kriteriji                         | Št. točk |
++--------+--------+----------------------------------+----------+
+|        |        |Prebivališče (upošteva se ena     |          |
+|        |        |izmed variant)                    |          |
++--------+--------+----------------------------------+----------+
+|1.      |a)      |Otrok ima skupaj vsaj z enim od   |   100    |
+|        |        |staršev stalno prebivališče na    |          |
+|        |        |območju Mestne občine Kranj.      |          |
+|        +--------+----------------------------------+          |
+|        |b)      |Otrok tujcev ima skupaj vsaj z    |          |
+|        |        |enim od staršev začasno           |          |
+|        |        |prebivališče na območju Mestne    |          |
+|        |        |občine Kranj, in je vsaj eden od  |          |
+|        |        |staršev zavezanec za dohodnino v  |          |
+|        |        |Republiki Sloveniji.              |          |
++--------+--------+----------------------------------+----------+
+|2.      |        |Otrok obeh zaposlenih staršev oz. |    20    |
+|        |        |zaposlene matere samohranilke ali |          |
+|        |        |očeta samohranilca in otrok obeh  |          |
+|        |        |staršev s statusom študenta oz.   |          |
+|        |        |eden od staršev v primeru         |          |
+|        |        |enostarševske družine ima status  |          |
+|        |        |študenta.                         |          |
++--------+--------+----------------------------------+----------+
+|3.      |        |Dlje časa trajajoča težja bolezen |    10    |
+|        |        |v družini, invalidnost oz. druga  |          |
+|        |        |specifikacija (na podlagi         |          |
+|        |        |potrdila pristojne službe).       |          |
++--------+--------+----------------------------------+----------+
+|4.      |        |Otrok, ki je bil v preteklem letu |    20    |
+|        |        |na centralnem čakalnem seznamu    |          |
+|        |        |oz. na listi zavrnjenih do prvega |          |
+|        |        |oblikovanega centralnega          |          |
+|        |        |čakalnega seznama.                |          |
++--------+--------+----------------------------------+----------+
+|5.      |        |Otrok, katerega stalno            |    12    |
+|        |        |prebivališče je v krajevni        |          |
+|        |        |skupnosti ustrezne enote vrtca.   |          |
+|        |        |Če v krajevni skupnosti ni        |          |
+|        |        |ustrezne enote vrtca, velja       |          |
+|        |        |enako, če starši prosijo za vpis  |          |
+|        |        |v najbližji krajevni skupnosti,   |          |
+|        |        |kjer je ustrezna enota. Za        |          |
+|        |        |naselje Ilovka se kot prva        |          |
+|        |        |ustrezna enota vrtca za otroke    |          |
+|        |        |II. starostnega obdobja šteje     |          |
+|        |        |enota vrtca pri OŠ Predoslje.     |          |
++--------+--------+----------------------------------+----------+
+|6.      |        |Starši v razpisanem šolskem letu  |    7     |
+|        |        |hkrati vpisujejo v isti vrtec dva |          |
+|        |        |ali več otrok. Ta kriterij velja  |          |
+|        |        |tudi, ko je v vrtec že vključen   |          |
+|        |        |otrok iz iste družine.            |          |
++--------+--------+----------------------------------+----------+
+|7.      |        |Vključevanje starejših otrok -    |          |
+|        |        |otrok bo 1. 9. tekočega           |          |
+|        |        |koledarskega leta oziroma na dan  |          |
+|        |        |oblikovanja oddelka med šolskim   |          |
+|        |        |letom dopolnil starost (upošteva  |          |
+|        |        |se ena izmed variant):            |          |
++--------+--------+----------------------------------+----------+
+|        |a)      |tri leta in več,                  |    50    |
++--------+--------+----------------------------------+----------+
+|        |b)      |dve leti in več,                  |    45    |
++--------+--------+----------------------------------+----------+
+|        |c)      |enajst mesecev in več.            |    40    |
++--------+--------+----------------------------------+----------+
+|8.      |        |Vključevanje mlajših otrok - v    |          |
+|        |        |vrtec se vključuje otrok, ki 1.   |          |
+|        |        |9. tekočega koledarskega leta     |          |
+|        |        |oziroma na dan oblikovanja novega |          |
+|        |        |oddelka med šolskim letom še ne   |          |
+|        |        |bo dopolnil starosti 11 mesecev   |          |
+|        |        |(upošteva se ena izmed variant):  |          |
++--------+--------+----------------------------------+----------+
+|        |a)      |11 mesecev bo dopolnil do         |    6     |
+|        |        |vključno 1. 10. tekočega          |          |
+|        |        |koledarskega leta oziroma         |          |
+|        |        |najkasneje en mesec po            |          |
+|        |        |oblikovanju novega oddelka med    |          |
+|        |        |šolskim letom.                    |          |
++--------+--------+----------------------------------+----------+
+|        |b)      |11 mesecev bo dopolnil do         |    5     |
+|        |        |vključno 1. 11. tekočega          |          |
+|        |        |koledarskega leta oziroma         |          |
+|        |        |najkasneje en mesec po            |          |
+|        |        |oblikovanju novega oddelka med    |          |
+|        |        |šolskim letom.                    |          |
++--------+--------+----------------------------------+----------+
+|        |c)      |11 mesecev bo dopolnil do         |    4     |
+|        |        |vključno 1. 12. tekočega          |          |
+|        |        |koledarskega leta oziroma         |          |
+|        |        |najkasneje en mesec po            |          |
+|        |        |oblikovanju novega oddelka med    |          |
+|        |        |šolskim letom.                    |          |
++--------+--------+----------------------------------+----------+
+|        |č)      |11 mesecev bo dopolnil do         |    3     |
+|        |        |vključno 1. 1. prihodnjega        |          |
+|        |        |koledarskega leta oziroma         |          |
+|        |        |najkasneje en mesec po            |          |
+|        |        |oblikovanju novega oddelka med    |          |
+|        |        |šolskim letom.                    |          |
++--------+--------+----------------------------------+----------+
+|        |d)      |11 mesecev bo dopolnil do         |    2     |
+|        |        |vključno 1. 2. prihodnjega        |          |
+|        |        |koledarskega leta oziroma         |          |
+|        |        |najkasneje en mesec po            |          |
+|        |        |oblikovanju novega oddelka med    |          |
+|        |        |šolskim letom.                    |          |
++--------+--------+----------------------------------+----------+
+|        |e)      |11 mesecev bo dopolnil do         |    1     |
+|        |        |vključno 1. 3. prihodnjega        |          |
+|        |        |koledarskega leta oziroma         |          |
+|        |        |najkasneje en mesec po            |          |
+|        |        |oblikovanju novega oddelka med    |          |
+|        |        |šolskim letom.                    |          |
++--------+--------+----------------------------------+----------+
+
+Za enostarševsko družino po tem pravilniku se šteje skupnost enega od staršev z otroki:
+- kadar je drugi od staršev umrl ali je drugi od staršev neznana ali pogrešan ali
+- kadar otrok živi z enim od staršev na podlagi pravnomočne sodne odločbe, s katero je odločeno o varstvu in vzgoji otrok, ali kadar pred pristojnim sodiščem teče postopek za odločitev o varstvu in vzgoji otrok.
+
+
+### V. PREHODNE IN KONČNE DOLOČBE
+
+
+### 29. člen
+
+Komisije za sprejem otrok, ki so bile imenovane pred uveljavitvijo tega pravilnika, in mandat članom še ni potekel, nadaljujejo svoje delo do poteka mandata članom komisije.
+
+
+### 30. člen
+
+Z uveljavitvijo tega pravilnika preneha veljati Pravilnik o sprejemu otrok v vrtec (Uradni list RS, št. 107/09).
+
+
+### 31. člen
+
+Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 602-520/2010-1-(47/09)
+
+Kranj, dne 16. februarja 2011
+
+Župan
+Mestne občine Kranj
+Mohor Bogataj l.r.
