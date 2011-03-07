@@ -2,11 +2,11 @@
 kratica: MERI35
 naziv: "Merila za akreditacijo in zunanjo evalvacijo visokošolskih zavodov in študijskih programov"
 vrsta: "akt"
-datum: 2010-11-29
+datum: 2011-03-11
 sop: 2010-01-4993
-organ: "Nacionalna agencija Republike Slovenije za kakovost v visokem šolstvu"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-4993"
 ---
 
