@@ -7,6 +7,11 @@ sop: 2010-01-1847
 objava: "Uradni list RS 38/10  str. 5251"
 kljucne_besede: ["kapitalska naložba", "javna lastnina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-1847"
+spremembe:
+  - kratica: ZUKN-A
+    datum: 2011-03-15
+    sop: 2011-01-0767
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o upravljanju kapitalskih naložb Republike Slovenije"
 ---
 
 # Zakon o upravljanju kapitalskih naložb Republike Slovenije
