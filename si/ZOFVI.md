@@ -36,6 +36,10 @@ spremembe:
     datum: 2009-07-27
     sop: 2009-01-2871
     naziv: "Zakon o spremembah in dopolnitvah Zakona o organizaciji in financiranju vzgoje in izobraževanja"
+  - kratica: ZOFVI-I
+    datum: 2011-03-18
+    sop: 2011-01-0821
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o organizaciji in financiranju vzgoje in izobraževanja"
 ---
 
 # Zakon o organizaciji in financiranju vzgoje in izobraževanja
