@@ -16,6 +16,10 @@ spremembe:
     datum: 2010-01-22
     sop: 2010-01-0129
     naziv: "Zakon o spremembah in dopolnitvah Zakona o uresničevanju javnega interesa za kulturo"
+  - kratica: ZUJIK-D
+    datum: 2011-03-18
+    sop: 2011-01-0822
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o uresničevanju javnega interesa za kulturo"
 ---
 
 # Zakon o uresničevanju javnega interesa za kulturo
