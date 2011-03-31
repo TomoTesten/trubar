@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za zavarovalstvo Slovenije"
 vrsta: "akt"
 datum: 2011-04-01
 sop: 2011-01-1063
-organ: "Sindikat finančnih organizacij Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-1063"
 ---
 
