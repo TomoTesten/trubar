@@ -12,6 +12,10 @@ spremembe:
     datum: 2007-12-05
     sop: 2007-01-5508
     naziv: "Zakon o spremembah in dopolnitvah zakona o matični evidenci zavarovancev in uživalcev pravic iz pokojninskega in invalidskega zavarovanja"
+  - kratica: ZMEPIZ-B
+    datum: 2011-04-04
+    sop: 2011-01-1094
+    naziv: "Zakon o spremembi Zakona o matični evidenci zavarovancev in uživalcev pravic iz pokojninskega in invalidskega zavarovanja"
 ---
 
 # Zakon o matični evidenci zavarovancev in uživalcev pravic iz pokojninskega in invalidskega zavarovanja
