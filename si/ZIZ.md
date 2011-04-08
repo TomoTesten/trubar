@@ -40,6 +40,10 @@ spremembe:
     datum: 2010-06-28
     sop: 2010-01-2762
     naziv: "Zakon o spremembah in dopolnitvah Zakona o izvršbi in zavarovanju"
+  - kratica: ZIZ-I
+    datum: 2011-04-08
+    sop: 2011-01-1157
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvršbi in zavarovanju"
 ---
 
 # Zakon o izvršbi in zavarovanju
