@@ -7,6 +7,11 @@ sop: 2010-01-2226
 objava: "Uradni list RS 45/10  str. 6581"
 kljucne_besede: ["korupcija", "javni uslužbenec", "javna uprava", "interesna skupina", "navzkrižje interesov"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-2226"
+spremembe:
+  - kratica: ZIntPK-A
+    datum: 2011-04-08
+    sop: 2011-01-1154
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o integriteti in preprečevanju korupcije"
 ---
 
 # Zakon o integriteti in preprečevanju korupcije
