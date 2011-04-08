@@ -20,6 +20,10 @@ spremembe:
     datum: 2010-06-30
     sop: 2010-01-2822
     naziv: "Zakon o spremembah in dopolnitvah Zakona o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju"
+  - kratica: ZFPPIPP-D
+    datum: 2011-04-08
+    sop: 2011-01-1155
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju"
 ---
 
 # Zakon o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju
