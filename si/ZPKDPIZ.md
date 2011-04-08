@@ -7,6 +7,11 @@ sop: 2010-01-4265
 objava: "Uradni list RS 79/10  str. 11875"
 kljucne_besede: ["naložbena politika", "javna lastnina", "gospodarska družba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-4265"
+spremembe:
+  - kratica: ZPKDPIZ-A
+    datum: 2011-04-08
+    sop: 2011-01-1156
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o preoblikovanju Kapitalske družbe pokojninskega in invalidskega zavarovanja ter o naložbeni politiki Kapitalske družbe pokojninskega in invalidskega zavarovanja in Slovenske odškodninske družbe"
 ---
 
 # Zakon o preoblikovanju Kapitalske družbe pokojninskega in invalidskega zavarovanja ter o naložbeni politiki Kapitalske družbe pokojninskega in invalidskega zavarovanja in Slovenske odškodninske družbe
