@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-06-30
     sop: 2006-01-2953
     naziv: "Zakon o spremembi in dopolnitvah zakona o finančnih zavarovanjih"
+  - kratica: ZFZ-B
+    datum: 2011-05-03
+    sop: 2011-01-1586
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o finančnih zavarovanjih"
 ---
 
 # Zakon o finančnih zavarovanjih
