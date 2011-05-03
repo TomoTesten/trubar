@@ -40,6 +40,10 @@ spremembe:
     datum: 2009-11-27
     sop: 2009-01-4178
     naziv: "Zakon o spremembah in dopolnitvah Zakona o sodiščih"
+  - kratica: ZS-J
+    datum: 2011-05-03
+    sop: 2011-01-1589
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o sodiščih"
 ---
 
 # Zakon o sodiščih
