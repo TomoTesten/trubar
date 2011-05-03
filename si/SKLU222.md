@@ -4,9 +4,9 @@ naziv: "Sklep o zadržanju izvrševanja 39. člena Odloka o prostorskih ureditve
 vrsta: "akt"
 datum: 2011-05-16
 sop: 2011-01-1815
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-1815"
 ---
 

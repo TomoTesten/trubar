@@ -4,9 +4,9 @@ naziv: "Sklep o zavrženju in zavrnitvi pobude ter zavrženju predloga za obnovo
 vrsta: "akt"
 datum: 2011-05-20
 sop: 2011-01-1851
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-1851"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Avtentična razlaga 49.a člena Zakona o sistemu plač v javnem sektorju
 vrsta: "akt"
 datum: 2011-05-13
 sop: 2011-01-1743
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-1743"
 ---
 

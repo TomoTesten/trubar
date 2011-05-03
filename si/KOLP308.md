@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za kmetijstvo in živilsko industrijo Slovenije"
 vrsta: "akt"
 datum: 2011-05-16
 sop: 2011-01-1817
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-1817"
 ---
 

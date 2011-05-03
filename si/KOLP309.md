@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba o višini regresa za letni dopust v letu 2011 za deja
 vrsta: "akt"
 datum: 2011-05-20
 sop: 2011-01-1853
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-1853"
 ---
 
