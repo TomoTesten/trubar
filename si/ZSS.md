@@ -40,6 +40,10 @@ spremembe:
     datum: 2007-06-29
     sop: 2007-01-3030
     naziv: "Zakon o spremembah in dopolnitvah zakona o sodniški službi"
+  - kratica: ZSS-J
+    datum: 2011-05-03
+    sop: 2011-01-1588
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o sodniški službi"
 ---
 
 # Zakon o sodniški službi
