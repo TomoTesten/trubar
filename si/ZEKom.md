@@ -16,6 +16,10 @@ spremembe:
     datum: 2009-12-29
     sop: 2009-01-4985
     naziv: "Zakon o spremembah in dopolnitvah Zakona o elektronskih komunikacijah"
+  - kratica: ZEKom-C
+    datum: 2011-05-03
+    sop: 2011-01-1590
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o elektronskih komunikacijah"
 ---
 
 # Zakon o elektronskih komunikacijah
