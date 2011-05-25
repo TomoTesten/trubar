@@ -24,6 +24,10 @@ spremembe:
     datum: 2010-07-23
     sop: 2010-01-3277
     naziv: "Zakon o dopolnitvi Zakona o javnih zbiranjih"
+  - kratica: ZJZ-E
+    datum: 2011-05-25
+    sop: 2011-01-1903
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o javnih zbiranjih"
 ---
 
 # Zakon o javnih zbiranjih
