@@ -4,9 +4,9 @@ naziv: "Resolucija o Nacionalnem programu visokega šolstva 2011–2020 (ReNPVŠ
 vrsta: "akt"
 datum: 2011-05-30
 sop: 2011-01-1974
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-1974"
 ---
 
