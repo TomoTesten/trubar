@@ -12,6 +12,10 @@ spremembe:
     datum: 2011-04-08
     sop: 2011-01-1154
     naziv: "Zakon o spremembah in dopolnitvah Zakona o integriteti in preprečevanju korupcije"
+  - kratica: ZIntPK-B
+    datum: 2011-06-03
+    sop: 2011-01-2043
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o integriteti in preprečevanju korupcije"
 ---
 
 # Zakon o integriteti in preprečevanju korupcije
