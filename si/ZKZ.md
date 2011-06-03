@@ -16,6 +16,10 @@ spremembe:
     datum: 2003-04-16
     sop: 2003-01-1718
     naziv: "Zakon o spremembah in dopolnitvah zakona o kmetijskih zemljiščih"
+  - kratica: ZKZ-C
+    datum: 2011-06-03
+    sop: 2011-01-2042
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o kmetijskih zemljiščih"
 ---
 
 # Zakon o kmetijskih zemljiščih
