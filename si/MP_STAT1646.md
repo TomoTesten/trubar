@@ -2,11 +2,11 @@
 kratica: MP_STAT1646
 naziv: "Statut Občine Lukovica (STAT)"
 vrsta: "akt"
-datum: 2026-01-04
+datum: 2011-07-07
 sop: 2011-71-0001
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Lukovica"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-71-0001"
 ---
 
