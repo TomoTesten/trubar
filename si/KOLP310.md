@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba celulozne, papirne in papirno predelovalne dejavnosti
 vrsta: "akt"
 datum: 2011-06-24
 sop: 2011-01-2303
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-2303"
 ---
 
