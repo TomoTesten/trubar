@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-05-09
     sop: 2006-01-2025
     naziv: "Zakon o spremembah in dopolnitvah zakona o nepremičninskem posredovanju"
+  - kratica: ZNPosr-B
+    datum: 2011-06-24
+    sop: 2011-01-2354
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o nepremičninskem posredovanju"
 ---
 
 # Zakon o nepremičninskem posredovanju
