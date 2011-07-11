@@ -4,9 +4,9 @@ naziv: "Avtentična razlaga 40. člena Zakona o gospodarskih javnih službah (OR
 vrsta: "akt"
 datum: 2011-07-15
 sop: 2011-01-2638
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-2638"
 ---
 
