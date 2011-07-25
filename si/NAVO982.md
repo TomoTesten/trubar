@@ -2,11 +2,11 @@
 kratica: NAVO982
 naziv: "Navodilo za poročanje upravljavcev plačilnih sistemov"
 vrsta: "navodilo"
-datum: 2009-10-30
+datum: 2011-09-23
 sop: 2009-01-3814
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3814"
 ---
 
