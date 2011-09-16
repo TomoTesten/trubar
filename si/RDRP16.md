@@ -4,9 +4,9 @@ naziv: "Rebalans proračuna Republike Slovenije za leto 2011 (Rb2011)"
 vrsta: "akt"
 datum: 2011-09-23
 sop: 2011-01-3162
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-3162"
 ---
 
