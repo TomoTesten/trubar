@@ -4,9 +4,9 @@ naziv: "Dodatek št. 6 h Kolektivni pogodbi za kovinsko industrijo Slovenije"
 vrsta: "akt"
 datum: 2011-10-21
 sop: 2011-01-3536
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-3536"
 ---
 
