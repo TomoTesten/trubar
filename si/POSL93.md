@@ -4,9 +4,9 @@ naziv: "Sprememba Poslovnika Vlade Republike Slovenije"
 vrsta: "akt"
 datum: 2011-11-25
 sop: 2011-01-4102
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-4102"
 ---
 
