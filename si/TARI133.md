@@ -4,9 +4,9 @@ naziv: "Tarifa za izvajanje storitev Javne agencije za civilno letalstvo Republi
 vrsta: "akt"
 datum: 2011-12-13
 sop: 2011-01-4409
-organ: "Javna agencija za civilno letalstvo Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-4409"
 ---
 
