@@ -7,6 +7,11 @@ sop: 2006-02-0131
 objava: "Uradni list RS MP 22/06  str. 1712"
 kljucne_besede: ["davek od dohodkov iz dejavnosti", "davek od premoženja", "dvojna obdavčitev", "Nemčija", "ratifikacija sporazuma"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-02-0131"
+spremembe:
+  - kratica: BDEIDOD-A
+    datum: 2011-11-18
+    sop: 2011-02-0094
+    naziv: "Zakon o ratifikaciji Protokola o spremembah Sporazuma z dne 3. maja 2006 med Republiko Slovenijo in Zvezno republiko Nemčijo o izogibanju dvojnega obdavčevanja v zvezi z davki od dohodka in premoženja"
 ---
 
 # Zakon o ratifikaciji Sporazuma med Republiko Slovenijo in Zvezno republiko Nemčijo o izogibanju dvojnega obdavčevanja v zvezi z davki od dohodka in premoženja
