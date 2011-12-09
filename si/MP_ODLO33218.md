@@ -2,11 +2,11 @@
 kratica: MP_ODLO33218
 naziv: "Odlok o ustanovitvi JEKO-IN, javnega komunalnega podjetja, d.o.o., Jesenice (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-04
+datum: 2011-12-21
 sop: 2011-01-4546
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Žirovnica"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-4546"
 ---
 
