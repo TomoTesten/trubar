@@ -2,11 +2,11 @@
 kratica: NAVO943
 naziv: "Navodilo za elektronsko posredovanje poročil o kapitalu in kapitalskih zahtevah"
 vrsta: "navodilo"
-datum: 2008-10-14
+datum: 2011-12-23
 sop: 2008-01-4147
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-4147"
 ---
 

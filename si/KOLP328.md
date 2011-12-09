@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba dejavnosti gostinstva in turizma Slovenije"
 vrsta: "akt"
 datum: 2011-12-30
 sop: 2011-01-4948
-organ: "Gospodarska zbornica Slovenije, Turistično gostinska zbornica"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-4948"
 ---
 
