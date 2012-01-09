@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba Komunalnih dejavnosti za leto 2012"
 vrsta: "akt"
 datum: 2012-03-13
 sop: 2012-01-0739
-organ: "Gospodarska zbornica Slovenije- Zbornica komunalnih dejavnosti"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-0739"
 ---
 

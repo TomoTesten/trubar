@@ -4,9 +4,9 @@ naziv: "Merila za visokošolsko transnacionalno izobraževanje"
 vrsta: "akt"
 datum: 2012-03-09
 sop: 2012-01-0695
-organ: "Nacionalna agencija Republike Slovenije za kakovost v visokem šolstvu"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-0695"
 ---
 
