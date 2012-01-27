@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za cestni potniški promet Slovenije"
 vrsta: "akt"
 datum: 2012-02-24
 sop: 2012-01-0542
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-0542"
 ---
 

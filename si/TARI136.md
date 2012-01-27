@@ -4,9 +4,9 @@ naziv: "Tarifa o vrednosti točke za leto 2012 za plačilo na podlagi obvestila,
 vrsta: "akt"
 datum: 2012-02-14
 sop: 2012-01-0424
-organ: "Agencija za pošto in elektronske komunikacije Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-0424"
 ---
 
