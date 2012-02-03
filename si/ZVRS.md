@@ -28,6 +28,10 @@ spremembe:
     datum: 2008-11-19
     sop: 2008-01-4694
     naziv: "Zakon o dopolnitvi zakona o Vladi Republike Slovenije"
+  - kratica: ZVRS-F
+    datum: 2012-02-03
+    sop: 2012-01-0268
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o Vladi Republike Slovenije"
 ---
 
 # Zakon o Vladi Republike Slovenije
