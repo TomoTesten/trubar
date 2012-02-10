@@ -20,6 +20,10 @@ spremembe:
     datum: 2010-03-19
     sop: 2010-01-0901
     naziv: "Zakon o spremembah in dopolnitvah Energetskega zakona"
+  - kratica: EZ-E
+    datum: 2012-02-10
+    sop: 2012-01-0370
+    naziv: "Zakon o spremembah in dopolnitvah Energetskega zakona"
 ---
 
 # Energetski zakon
