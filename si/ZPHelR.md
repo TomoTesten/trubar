@@ -7,6 +7,11 @@ sop: 2010-01-3119
 objava: "Uradni list RS 56/10  str. 8524"
 kljucne_besede: ["finančna pomoč", "gospodarska recesija", "Grčija", "posojilo", "Evroskupina (euroobmočje)"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-3119"
+spremembe:
+  - kratica: ZPHelR-A
+    datum: 2012-03-19
+    sop: 2012-01-0816
+    naziv: "Zakon o spremembah Zakona o posojilu Helenski republiki"
 ---
 
 # Zakon o posojilu Helenski republiki
