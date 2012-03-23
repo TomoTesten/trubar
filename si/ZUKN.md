@@ -12,6 +12,10 @@ spremembe:
     datum: 2011-03-15
     sop: 2011-01-0767
     naziv: "Zakon o spremembah in dopolnitvah Zakona o upravljanju kapitalskih naložb Republike Slovenije"
+  - kratica: ZUKN-C
+    datum: 2012-03-23
+    sop: 2012-01-0851
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o upravljanju kapitalskih naložb Republike Slovenije"
 ---
 
 # Zakon o upravljanju kapitalskih naložb Republike Slovenije
