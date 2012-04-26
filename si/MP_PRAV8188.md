@@ -2,11 +2,11 @@
 kratica: MP_PRAV8188
 naziv: "Pravilnik o dodeljevanju pomoči za pospeševanje razvoja malega gospodarstva v Občini Markovci (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2026-01-05
+datum: 2012-04-26
 sop: 2012-97-0124
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Markovci"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-97-0124"
 ---
 

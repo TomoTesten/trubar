@@ -1,0 +1,39 @@
+---
+kratica: MP_ODLO33994
+naziv: "Odlok o spremembi Odloka o gospodarskih javnih službah v Občini Brežice (ODLO)"
+vrsta: "občinski odlok"
+datum: 2012-05-18
+sop: 2012-01-1571
+organ: "Občina Brežice"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-1571"
+---
+
+# Odlok o spremembi Odloka o gospodarskih javnih službah v Občini Brežice (ODLO)
+
+Na podlagi 3., 4., 6., 7. in 14. člena Zakona o gospodarskih javnih službah (Uradni list RS, št. 32/93, 30/98 – ZZLPPO, 127/06 – ZJZP, 38/10 – ZUKN in 57/11), 21., 29., 49., 61. in 62. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 76/08, 79/09 in 51/10), 149. člena Zakona o varstvu okolja (Uradni list RS, št. 39/06 – uradno prečiščeno besedilo, 49/06 – ZMetD, 66/06 – odločba US, 33/07 – ZPNačrt, 57/08 – ZFO-1A, 70/08 in 108/09), 16. člena Zakona o cestah (Uradni list RS, št. 109/10), 30. člena Energetskega zakona (Uradni list RS, št. 27/07 – uradno prečiščeno besedilo, 70/08, 22/10, 37/11 – Odl. US in 10/12), 2. člena Zakona o pogrebni in pokopališki dejavnosti (Uradni list SRS, št. 34/84, Uradni list SFRJ, št. 83/89, Uradni list SRS, št. 5/90, Uradni list RS, št. 26/90, 10/91, 17/91-I – ZUDE, 13/93, 66/93, 66/00 – odl. US, 61/02 – odl. US, 110/02 – ZGO-1 in 2/04 – ZZdrl-A), 141., 142. in 143. člena Zakona o javno-zasebnem partnerstvu (Uradni list RS, št. 127/06) in 19. člena Statuta Občine Brežice (Uradni list RS, št. 10/09 in 3/10) je Občinski svet Občine Brežice na 15. redni seji dne 14. 5. 2012 sprejel
+
+
+## O D L O K
+o spremembi Odloka o gospodarskih javnih službah v Občini Brežice
+
+
+### 1. člen
+
+V 1. točki prvega odstavka 10. člena Odloka o gospodarskih javnih službah v Občini Brežice (Uradni list RS, št. 32/08, 99/08, 87/11 in 104/11) se doda nova, sedma alineja, ki se glasi:
+»– pokopališka in pogrebna dejavnost in urejanje pokopališč.«
+Črta se četrta alineja 2. točke prvega odstavka 10. člena Odloka o gospodarskih javnih službah v Občini Brežice.
+
+
+### 2. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne 1. junija 2012.
+
+Št. 007-7/2011
+
+Brežice, dne 14. maja 2012
+
+Župan
+Občine Brežice
+Ivan Molan l.r.
