@@ -16,6 +16,10 @@ spremembe:
     datum: 2011-02-11
     sop: 2011-01-0319
     naziv: "Zakon o spremembah in dopolnitvah Zakona o plačilnih storitvah in sistemih"
+  - kratica: ZPlaSS-C
+    datum: 2012-05-04
+    sop: 2012-01-1403
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o plačilnih storitvah in sistemih"
 ---
 
 # Zakon o plačilnih storitvah in sistemih
