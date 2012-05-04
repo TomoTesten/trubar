@@ -16,6 +16,10 @@ spremembe:
     datum: 2009-06-01
     sop: 2009-01-1986
     naziv: "Zakon o spremembah in dopolnitvah Zakona o semenskem materialu kmetijskih rastlin"
+  - kratica: ZSMKR-C
+    datum: 2012-05-04
+    sop: 2012-01-1404
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o semenskem materialu kmetijskih rastlin"
 ---
 
 # Zakon o semenskem materialu kmetijskih rastlin
