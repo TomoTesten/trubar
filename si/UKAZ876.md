@@ -4,9 +4,9 @@ naziv: "Ukaz o podelitvi odlikovanja Republike Slovenije"
 vrsta: "akt"
 datum: 2012-05-28
 sop: 2012-01-1681
-organ: "Predsednik Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-1681"
 ---
 

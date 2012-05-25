@@ -4,9 +4,9 @@ naziv: "Dopolnitev Tarife nadomestil za objave v postopkih zaradi insolventnosti
 vrsta: "akt"
 datum: 2012-05-30
 sop: 2012-01-1701
-organ: "Agencija Republike Slovenije za javnopravne evidence in storitve"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-1701"
 ---
 
