@@ -12,6 +12,10 @@ spremembe:
     datum: 2009-07-27
     sop: 2009-01-2867
     naziv: "Zakon o spremembah in dopolnitvah Zakona o varstvu pravice do sojenja brez nepotrebnega odlašanja"
+  - kratica: ZVPSBNO-B
+    datum: 2012-05-25
+    sop: 2012-01-1629
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o varstvu pravice do sojenja brez nepotrebnega odlašanja"
 ---
 
 # Zakon o varstvu pravice do sojenja brez nepotrebnega odlašanja
