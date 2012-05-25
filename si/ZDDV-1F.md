@@ -1,0 +1,73 @@
+---
+kratica: ZDDV-1F
+naziv: "Zakon o spremembah Zakona o davku na dodano vrednost"
+vrsta: "Sprejet zakon"
+datum: 2012-05-25
+sop: 2012-01-1628
+objava: "Uradni list RS 38/12  str. 4068"
+kljucne_besede: ["davek", "dodana vrednost"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-1628"
+---
+
+# Zakon o spremembah Zakona o davku na dodano vrednost
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam
+
+
+## U K A Z
+o razglasitvi Zakona o spremembah Zakona o davku na dodano vrednost (ZDDV-1F)
+
+Razglašam Zakon o spremembah Zakona o davku na dodano vrednost (ZDDV-1F), ki ga je sprejel Državni zbor Republike Slovenije na seji dne 15. maja 2012.
+
+Št. 003-02-4/2012-7
+
+Ljubljana, dne 23. maja 2012
+
+dr. Danilo Türk l.r.
+Predsednik
+Republike Slovenije
+
+
+## Z A K O N
+O SPREMEMBAH ZAKONA O DAVKU NA DODANO VREDNOST (ZDDV-1F)
+
+
+### 1. člen
+
+V Zakonu o davku na dodano vrednost (Uradni list RS, št. 13/11 – uradno prečiščeno besedilo, 18/11 in 78/11) se 66.a člen črta.
+
+
+### 2. člen
+
+V prvem odstavku 141. člena se na koncu 17. točke podpičje nadomesti s piko, 18. točka pa se črta.
+
+
+### PREHODNI IN KONČNA DOLOČBA
+
+
+### 3. člen
+
+(1) Davčni zavezanec, ki v skladu s 66.a členom Zakona o davku na dodano vrednost (Uradni list RS, št. 13/11 – uradno prečiščeno besedilo, 18/11 in 78/11) še ni uveljavljal odbitka DDV, lahko DDV odbije v skladu s 67. členom zakona.
+(2) Davčni zavezanec iz prejšnjega odstavka odbitka DDV ne more uveljaviti prej kakor v obračunu DDV za davčno obdobje, v katerem je ta zakon začel veljati.
+(3) Davčni zavezanec mora davčnemu organu zagotoviti informacijo o uveljavljanju odbitka DDV po tem členu v elektronski obliki, ob predložitvi obračuna za zadevno davčno obdobje.
+
+
+### 4. člen
+
+Postopki o prekršku, ki so bili uvedeni na podlagi 18. točke prvega odstavka 141. člena Zakona o davku na dodano vrednost (Uradni list RS, št. 13/11 – uradno prečiščeno besedilo, 18/11 in 78/11) do uveljavitve tega zakona, odločba o prekršku pa do uveljavitve tega zakona še ni bila izdana ali še ni pravnomočna, se ustavijo.
+
+
+### 5. člen
+
+Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 434-02/12-1/10
+
+Ljubljana, dne 15. maja 2012
+
+EPA 235-VI
+
+Državni zbor
+Republike Slovenije
+dr. Gregor Virant l.r.
+Predsednik
