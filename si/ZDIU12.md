@@ -7,6 +7,11 @@ sop: 2011-01-4999
 objava: "Uradni list RS 110/11  str. 14999"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-4999"
+spremembe:
+  - kratica: ZDIU12-A
+    datum: 2012-06-08
+    sop: 2012-01-1776
+    naziv: "Zakon o dopolnitvah Zakona o dodatnih interventnih ukrepih za leto 2012"
 ---
 
 # Zakon o dodatnih interventnih ukrepih za leto 2012
