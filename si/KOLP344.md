@@ -4,9 +4,9 @@ naziv: "Spremembe Tarifne priloge h Kolektivni pogodbi dejavnosti trgovine Slove
 vrsta: "akt"
 datum: 2012-07-06
 sop: 2012-01-2134
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-2134"
 ---
 

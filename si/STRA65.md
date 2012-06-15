@@ -4,9 +4,9 @@ naziv: "Statut Univerze v Mariboru (uradno prečiščeno besedilo) (Statut UM-UP
 vrsta: "akt"
 datum: 2012-06-19
 sop: 2012-01-1929
-organ: "Univerza v Mariboru"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-1929"
 ---
 
