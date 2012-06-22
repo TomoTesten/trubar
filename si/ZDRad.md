@@ -12,6 +12,10 @@ spremembe:
     datum: 2010-10-29
     sop: 2010-01-4556
     naziv: "Zakon o dopolnitvah Zakona o digitalni radiodifuziji"
+  - kratica: ZDRad-B
+    datum: 2012-06-22
+    sop: 2012-01-1961
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o digitalni radiodifuziji"
 ---
 
 # Zakon o digitalni radiodifuziji
