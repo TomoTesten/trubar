@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-06-09
     sop: 2006-01-2536
     naziv: "Zakon o spremembah in dopolnitvah zakona o medijih"
+  - kratica: ZMed-B
+    datum: 2012-06-22
+    sop: 2012-01-1962
+    naziv: "Zakon o spremembi Zakona o medijih"
 ---
 
 # Zakon o medijih
