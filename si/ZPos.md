@@ -20,6 +20,10 @@ spremembe:
     datum: 2008-11-19
     sop: 2008-01-4695
     naziv: "Zakon o spremembi zakona o poslancih"
+  - kratica: ZPos-E
+    datum: 2012-06-26
+    sop: 2012-01-2015
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o poslancih"
 ---
 
 # Zakon o poslancih
