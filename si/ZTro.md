@@ -52,6 +52,10 @@ spremembe:
     datum: 2010-10-29
     sop: 2010-01-4553
     naziv: "Zakon o spremembah in dopolnitvah Zakona o trošarinah"
+  - kratica: ZTro-L
+    datum: 2012-06-26
+    sop: 2012-01-2014
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o trošarinah"
 ---
 
 # Zakon o trošarinah
