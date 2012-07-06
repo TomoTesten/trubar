@@ -4,9 +4,9 @@ naziv: "Spremembe Tarife o nadomestilih stroškov postopkov Agencije za javni na
 vrsta: "akt"
 datum: 2012-07-13
 sop: 2012-01-2288
-organ: "Agencija za javni nadzor nad revidiranjem"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-2288"
 ---
 

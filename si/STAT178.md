@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Statuta Visoke šole za zdravstveno nego Jesenic
 vrsta: "akt"
 datum: 2012-07-13
 sop: 2012-01-2234
-organ: "Visoka šola za zdravstveno nego Jesenice"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-2234"
 ---
 

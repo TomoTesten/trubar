@@ -2,10 +2,11 @@
 kratica: NAVO744
 naziv: "Navodilo za izpolnjevanje obrazca prijave v zavarovanje za invalide"
 vrsta: "navodilo"
-datum: 2005-02-04
+datum: 2012-07-13
 sop: 2005-01-0308
-organ: "Ministrstvo za zdravje"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0308"
 ---
 

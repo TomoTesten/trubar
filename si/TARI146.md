@@ -4,9 +4,9 @@ naziv: "Začasna tarifa v primeru kabelske retransmisije avtorskih del s področ
 vrsta: "akt"
 datum: 2012-07-06
 sop: 2012-01-2135
-organ: "Združenje SAZAS- Združenje skladateljev in avtorjev za zaščito avtorske pravice Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-2135"
 ---
 
