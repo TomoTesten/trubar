@@ -2,11 +2,11 @@
 kratica: MP_ODLO51627
 naziv: "Odlok o predmetu in pogojih za podelitev koncesije za opravljanje obvezne lokalne gospodarske javne službe ravnanja s komunalnimi odpadki v Občini Gorišnica (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-05
+datum: 2012-07-25
 sop: 2012-97-0225
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Gorišnica"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-97-0225"
 ---
 
