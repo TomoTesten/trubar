@@ -7,6 +7,11 @@ sop: 2010-01-2184
 objava: "Uradni list RS 43/10  str. 6131"
 kljucne_besede: ["poroštvo", "financiranje", "investicijski kredit", "gospodarska družba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-2184"
+spremembe:
+  - kratica: ZPFIGD-B
+    datum: 2012-07-20
+    sop: 2012-01-2330
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o poroštvih Republike Slovenije za financiranje investicij gospodarskih družb"
 ---
 
 # Zakon o poroštvih Republike Slovenije za financiranje investicij gospodarskih družb
