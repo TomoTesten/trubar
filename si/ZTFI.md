@@ -16,6 +16,10 @@ spremembe:
     datum: 2010-11-05
     sop: 2010-01-4708
     naziv: "Zakon o spremembah in dopolnitvah Zakona o trgu finančnih instrumentov"
+  - kratica: ZTFI-E
+    datum: 2012-07-20
+    sop: 2012-01-2328
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o trgu finančnih instrumentov"
 ---
 
 # Zakon o trgu finančnih instrumentov
