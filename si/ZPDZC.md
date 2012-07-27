@@ -16,6 +16,10 @@ spremembe:
     datum: 2010-04-09
     sop: 2010-01-1263
     naziv: "Zakon o dopolnitvi Zakona o preprečevanju dela in zaposlovanja na črno"
+  - kratica: ZPDZC-C
+    datum: 2012-07-27
+    sop: 2012-01-2403
+    naziv: "Zakon o spremembi in dopolnitvah Zakona o preprečevanju dela in zaposlovanja na črno"
 ---
 
 # Zakon o preprečevanju dela in zaposlovanja na črno
