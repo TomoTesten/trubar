@@ -7,6 +7,11 @@ sop: 2011-01-1151
 objava: "Uradni list RS 26/11  str. 3381"
 kljucne_besede: ["pospeševanje prodaje", "samooskrbno kmetijstvo", "proizvodnja živil", "kakovost izdelka", "kmetijski proizvod", "obveščanje potrošnikov"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-1151"
+spremembe:
+  - kratica: ZPKŽP-A
+    datum: 2012-07-27
+    sop: 2012-01-2417
+    naziv: "Zakon o spremembah Zakona o promociji kmetijskih in živilskih proizvodov"
 ---
 
 # Zakon o promociji kmetijskih in živilskih proizvodov
