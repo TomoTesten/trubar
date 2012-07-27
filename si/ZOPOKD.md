@@ -12,6 +12,10 @@ spremembe:
     datum: 2004-05-06
     sop: 2004-01-2294
     naziv: "Zakon o spremembah zakona o odgovornosti pravnih oseb za kazniva dejanja"
+  - kratica: ZOPOKD-C
+    datum: 2012-07-27
+    sop: 2012-01-2402
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o odgovornosti pravnih oseb za kazniva dejanja"
 ---
 
 # Zakon o odgovornosti pravnih oseb za kazniva dejanja
