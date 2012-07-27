@@ -24,6 +24,10 @@ spremembe:
     datum: 2006-10-12
     sop: 2006-01-4490
     naziv: "Zakon o spremembah in dopolnitvah zakona o socialnem varstvu"
+  - kratica: ZSV-E
+    datum: 2012-07-27
+    sop: 2012-01-2404
+    naziv: "Zakon o dopolnitvi Zakona o socialnem varstvu"
 ---
 
 # Zakon o socialnem varstvu
