@@ -7,6 +7,11 @@ sop: 2010-01-5733
 objava: "Uradni list RS 109/10  str. 16876"
 kljucne_besede: ["cestnoprometni predpisi", "varnost v cestnem prometu"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-5733"
+spremembe:
+  - kratica: ZPrCP-A
+    datum: 2012-07-27
+    sop: 2012-01-2411
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o pravilih cestnega prometa"
 ---
 
 # Zakon o pravilih cestnega prometa
