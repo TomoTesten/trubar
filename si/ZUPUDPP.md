@@ -7,6 +7,11 @@ sop: 2010-01-4305
 objava: "Uradni list RS 80/10  str. 12126"
 kljucne_besede: ["urejanje prostora"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-4305"
+spremembe:
+  - kratica: ZUPUDPP-A
+    datum: 2012-07-27
+    sop: 2012-01-2414
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o umeščanju prostorskih ureditev državnega pomena v prostor"
 ---
 
 # Zakon o umeščanju prostorskih ureditev državnega pomena v prostor
