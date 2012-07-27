@@ -12,6 +12,10 @@ spremembe:
     datum: 2009-12-28
     sop: 2009-01-4890
     naziv: "Zakon o spremembah in dopolnitvah Zakona o prostorskem načrtovanju"
+  - kratica: ZPNačrt-B
+    datum: 2012-07-27
+    sop: 2012-01-2413
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o prostorskem načrtovanju"
 ---
 
 # Zakon o prostorskem načrtovanju
