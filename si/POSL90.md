@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Poslovnika Vlade Republike Slovenije"
 vrsta: "akt"
 datum: 2012-08-24
 sop: 2012-01-2579
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-2579"
 ---
 
