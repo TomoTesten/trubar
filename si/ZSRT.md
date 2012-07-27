@@ -7,6 +7,11 @@ sop: 2004-01-0073
 objava: "Uradni list RS 2/04  str. 207"
 kljucne_besede: ["turizem"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0073"
+spremembe:
+  - kratica: ZSRT-A
+    datum: 2012-07-27
+    sop: 2012-01-2408
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o spodbujanju razvoja turizma"
 ---
 
 # Zakon o spodbujanju razvoja turizma
