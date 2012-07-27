@@ -16,6 +16,10 @@ spremembe:
     datum: 2011-02-21
     sop: 2011-01-0447
     naziv: "Zakon o spremembah in dopolnitvah Zakona o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij"
+  - kratica: ZSTNIIP-C
+    datum: 2012-07-27
+    sop: 2012-01-2407
+    naziv: "Zakon o spremembah Zakona o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij"
 ---
 
 # Zakon o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij
