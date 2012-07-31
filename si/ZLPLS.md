@@ -20,6 +20,10 @@ spremembe:
     datum: 2011-04-08
     sop: 2011-01-1158
     naziv: "Zakon o spremembi Zakona o lastninskem preoblikovanju Loterije Slovenije"
+  - kratica: ZLPLS-E
+    datum: 2012-07-31
+    sop: 2012-01-2469
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o lastninskem preoblikovanju Loterije Slovenije"
 ---
 
 # Zakon o lastninskem preoblikovanju Loterije Slovenije
