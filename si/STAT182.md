@@ -4,9 +4,9 @@ naziv: "Spremembe Statuta Kmetijsko gozdarske zbornice Slovenije"
 vrsta: "akt"
 datum: 2012-10-05
 sop: 2012-01-2862
-organ: "Kmetijsko gozdarska zbornica"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-2862"
 ---
 
