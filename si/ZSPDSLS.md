@@ -7,6 +7,11 @@ sop: 2010-01-4654
 objava: "Uradni list RS 86/10  str. 13125"
 kljucne_besede: ["javna lastnina", "nepremično premoženje", "premično premoženje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-4654"
+spremembe:
+  - kratica: ZSPDSLS-A
+    datum: 2012-10-05
+    sop: 2012-01-2849
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o stvarnem premoženju države in samoupravnih lokalnih skupnosti"
 ---
 
 # Zakon o stvarnem premoženju države in samoupravnih lokalnih skupnosti
