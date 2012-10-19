@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-08-02
     sop: 2006-02-0082
     naziv: "Zakon o dopolnitvi zakona o ratifikaciji Protokola o spremembi Konvencije o mednarodnem železniškem prometu (COTIF) z dne 9. maja 1980 (Protokol 1999)"
+  - kratica: MPSKMŽP-B
+    datum: 2012-10-19
+    sop: 2012-02-0067
+    naziv: "Zakon o spremembi Zakona o ratifikaciji Protokola o spremembi Konvencije o mednarodnem železniškem prometu (COTIF) z dne 9. maja 1980 (Protokol 1999)"
 ---
 
 # Zakon o ratifikaciji Protokola o spremembi Konvencije o mednarodnem železniškem prometu (COTIF) z dne 9. maja 1980 (Protokol 1999)
