@@ -20,6 +20,10 @@ spremembe:
     datum: 2009-10-30
     sop: 2009-01-3805
     naziv: "Zakon o spremembah in dopolnitvah Zakona o blagovnih rezervah"
+  - kratica: ZBR-D
+    datum: 2012-11-06
+    sop: 2012-01-3289
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o blagovnih rezervah"
 ---
 
 # Zakon o blagovnih rezervah
