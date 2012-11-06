@@ -36,6 +36,10 @@ spremembe:
     datum: 2007-07-06
     sop: 2007-01-3209
     naziv: "Zakon o spremembah in dopolnitvah zakona o lokalnih volitvah"
+  - kratica: ZLV-I
+    datum: 2012-11-06
+    sop: 2012-01-3291
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o lokalnih volitvah"
 ---
 
 # Zakon o lokalnih volitvah
