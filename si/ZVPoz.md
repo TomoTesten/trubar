@@ -20,6 +20,10 @@ spremembe:
     datum: 2011-02-11
     sop: 2011-01-0323
     naziv: "Zakon o spremembah in dopolnitvah Zakona o varstvu pred požarom"
+  - kratica: ZVPoz-D
+    datum: 2012-11-06
+    sop: 2012-01-3292
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o varstvu pred požarom"
 ---
 
 # Zakon o varstvu pred požarom
