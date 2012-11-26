@@ -7,6 +7,11 @@ sop: 2000-02-0102
 objava: "Uradni list RS MP 19/2000  str. 930"
 kljucne_besede: ["ratifikacija sporazuma", "mednarodna konvencija", "dostava dokumentov", "sodna odločba", "pravosodno sodelovanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-02-0102"
+spremembe:
+  - kratica: MKVLCG-A
+    datum: 2012-11-26
+    sop: 2012-02-0076
+    naziv: "Zakon o dopolnitvi Zakona o ratifikaciji Konvencije o vročitvi sodnih in zunajsodnih listin v civilnih ali gospodarskih zadevah v tujini"
 ---
 
 # Zakon o ratifikaciji Konvencije o vročitvi sodnih in zunajsodnih listin v civilnih ali gospodarskih zadevah v tujini
