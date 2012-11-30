@@ -12,6 +12,10 @@ spremembe:
     datum: 2010-03-12
     sop: 2010-01-0806
     naziv: "Zakon o spremembah in dopolnitvah Zakona o javnem naročanju na vodnem, energetskem, transportnem področju in področju poštnih storitev"
+  - kratica: ZJNVETPS-D
+    datum: 2012-11-30
+    sop: 2012-01-3527
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o javnem naročanju na vodnem, energetskem, transportnem področju in področju poštnih storitev"
 ---
 
 # Zakon o javnem naročanju na vodnem, energetskem, transportnem področju in področju poštnih storitev
