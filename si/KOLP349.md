@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Kolektivne pogodbe za obrt in podjetništvo"
 vrsta: "akt"
 datum: 2012-12-18
 sop: 2012-01-3803
-organ: "Združenje delodajalcev obrti in podjetnikov Slovenije - GIZ, Ljubljana"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-3803"
 ---
 
