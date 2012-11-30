@@ -36,6 +36,10 @@ spremembe:
     datum: 2010-10-08
     sop: 2010-01-4267
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zavarovalništvu"
+  - kratica: ZZavar-I
+    datum: 2012-11-30
+    sop: 2012-01-3530
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zavarovalništvu"
 ---
 
 # Zakon o zavarovalništvu
