@@ -7,6 +7,11 @@ sop: 1993-02-0031
 objava: "Uradni list RS MP 6/93  str. 236"
 kljucne_besede: ["mednarodna konvencija", "varstvo otrok"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-02-0031"
+spremembe:
+  - kratica: MKCVMUO-A
+    datum: 2012-12-06
+    sop: 2012-02-0085
+    naziv: "Zakon o spremembah Zakona o ratifikaciji Konvencije o civilnopravnih vidikih mednarodne ugrabitve otrok"
 ---
 
 # Zakon o ratifikaciji konvencije o civilnopravnih vidikih mednarodne ugrabitve otrok
