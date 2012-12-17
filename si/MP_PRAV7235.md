@@ -2,11 +2,11 @@
 kratica: MP_PRAV7235
 naziv: "Pravilnik o sofinanciranju drugih interesnih skupin in njihovih programov v Občini Gornji Grad (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2026-01-04
+datum: 2012-12-21
 sop: 2012-97-0455
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Gornji Grad"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-97-0455"
 ---
 
