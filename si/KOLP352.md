@@ -4,9 +4,9 @@ naziv: "Aneks h Kolektivni pogodbi za kmetijstvo in živilsko industrijo Sloveni
 vrsta: "akt"
 datum: 2012-12-31
 sop: 2012-01-4330
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-4330"
 ---
 

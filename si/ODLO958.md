@@ -2,11 +2,11 @@
 kratica: ODLO958
 naziv: "Odlok o ustanovitvi Sveta za elektronske komunikacije"
 vrsta: "odlok"
-datum: 2001-07-06
+datum: 2012-12-31
 sop: 2001-01-2958
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2958"
 ---
 
