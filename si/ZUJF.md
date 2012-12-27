@@ -7,6 +7,11 @@ sop: 2012-01-1700
 objava: "Uradni list RS 40/12  str. 4227"
 kljucne_besede: ["javne finance"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-1700"
+spremembe:
+  - kratica: ZUJF-A
+    datum: 2012-12-27
+    sop: 2012-01-4001
+    naziv: "Zakon o dopolnitvi Zakona za uravnoteženje javnih financ"
 ---
 
 # Zakon za uravnoteženje javnih financ
