@@ -4,9 +4,9 @@ naziv: "Sprememba Notarske tarife"
 vrsta: "akt"
 datum: 2013-01-25
 sop: 2013-01-0229
-organ: "Ministrstvo za pravosodje in javno upravo"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0229"
 ---
 

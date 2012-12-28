@@ -4,9 +4,9 @@ naziv: "Aneks št. 1 h Kolektivni pogodbi komunalnih dejavnosti za leto 2012"
 vrsta: "akt"
 datum: 2013-01-18
 sop: 2013-01-0131
-organ: "Združenje delodajalcev Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0131"
 ---
 
