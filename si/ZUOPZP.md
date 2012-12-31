@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-11-07
     sop: 2005-01-4294
     naziv: "Zakon o spremembah in dopolnitvah zakona o ukrepih za odpravo posledic določenih zemeljskih plazov večjega obsega iz let 2000 in 2001"
+  - kratica: ZUOPZP-B
+    datum: 2012-12-31
+    sop: 2012-01-4324
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o ukrepih za odpravo posledic določenih zemeljskih plazov večjega obsega iz let 2000 in 2001"
 ---
 
 # Zakon o ukrepih za odpravo posledic določenih zemeljskih plazov večjega obsega iz let 2000 in 2001
