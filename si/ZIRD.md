@@ -7,6 +7,11 @@ sop: 2002-01-5388
 objava: "Uradni list RS 110/2002  str. 13132"
 kljucne_besede: ["družina", "otrok", "družinska politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5388"
+spremembe:
+  - kratica: ZIRD-A
+    datum: 2012-12-31
+    sop: 2012-01-4322
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvajanju rejniške dejavnosti"
 ---
 
 # Zakon o izvajanju rejniške dejavnosti
