@@ -7,6 +7,11 @@ sop: 2003-01-0588
 objava: "Uradni list RS 15/2003  str. 2106"
 kljucne_besede: ["predsednik", "republika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0588"
+spremembe:
+  - kratica: ZZPOFPR-A
+    datum: 2012-12-31
+    sop: 2012-01-4328
+    naziv: "Zakon o spremembah in dopolnitvi Zakona o zagotavljanju pogojev za opravljanje funkcije predsednika republike"
 ---
 
 # Zakon o zagotavljanju pogojev za opravljanje funkcije predsednika republike
