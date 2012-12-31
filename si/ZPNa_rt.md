@@ -16,6 +16,10 @@ spremembe:
     datum: 2012-07-27
     sop: 2012-01-2413
     naziv: "Zakon o spremembah in dopolnitvah Zakona o prostorskem načrtovanju"
+  - kratica: ZPNačrt-C
+    datum: 2012-12-31
+    sop: 2012-01-4323
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o spremembah in dopolnitvah Zakona o prostorskem načrtovanju"
 ---
 
 # Zakon o prostorskem načrtovanju
