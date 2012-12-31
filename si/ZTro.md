@@ -56,6 +56,10 @@ spremembe:
     datum: 2012-06-26
     sop: 2012-01-2014
     naziv: "Zakon o spremembi in dopolnitvi Zakona o trošarinah"
+  - kratica: ZTro-M
+    datum: 2012-12-31
+    sop: 2012-01-4317
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o trošarinah"
 ---
 
 # Zakon o trošarinah
