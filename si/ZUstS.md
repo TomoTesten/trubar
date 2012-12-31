@@ -12,6 +12,10 @@ spremembe:
     datum: 2007-06-08
     sop: 2007-01-2719
     naziv: "Zakon o spremembah in dopolnitvah zakona o Ustavnem sodišču"
+  - kratica: ZUstS-B
+    datum: 2012-12-31
+    sop: 2012-01-4326
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o ustavnem sodišču"
 ---
 
 # Zakon o ustavnem sodišču
