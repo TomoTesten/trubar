@@ -7,6 +7,11 @@ sop: 1993-01-2573
 objava: "Uradni list RS 71/93  str. 3687"
 kljucne_besede: ["človekove pravice", "posrednik"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2573"
+spremembe:
+  - kratica: ZVarCP-A
+    datum: 2012-12-31
+    sop: 2012-01-4327
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o varuhu človekovih pravic"
 ---
 
 # Zakon o varuhu človekovih pravic
