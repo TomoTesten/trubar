@@ -7,6 +7,11 @@ sop: 2010-01-3387
 objava: "Uradni list RS 62/10  str. 9339"
 kljucne_besede: ["socialni transferji", "socialna varnost"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-3387"
+spremembe:
+  - kratica: ZUPJS-B
+    datum: 2013-02-15
+    sop: 2013-01-0370
+    naziv: "Zakon o spremembi Zakona o uveljavljanju pravic iz javnih sredstev"
 ---
 
 # Zakon o uveljavljanju pravic iz javnih sredstev
