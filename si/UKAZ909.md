@@ -4,9 +4,9 @@ naziv: "Ukaz o odpoklicu izredne in pooblaščene veleposlanice Republike Sloven
 vrsta: "akt"
 datum: 2013-02-22
 sop: 2013-01-0482
-organ: "Predsednik Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0482"
 ---
 

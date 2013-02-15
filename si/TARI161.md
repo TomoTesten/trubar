@@ -4,9 +4,9 @@ naziv: "Tarifna priloga h Kolektivni pogodbi dejavnosti bančništva Slovenije z
 vrsta: "akt"
 datum: 2013-02-15
 sop: 2013-01-0388
-organ: "Sindikat bančništva Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0388"
 ---
 
