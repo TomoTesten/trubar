@@ -36,6 +36,10 @@ spremembe:
     datum: 2004-07-23
     sop: 2004-01-3536
     naziv: "Zakon o dopolnitvah zakona o zdravstveni dejavnosti"
+  - kratica: ZZDej-J
+    datum: 2013-02-15
+    sop: 2013-01-0372
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zdravstveni dejavnosti"
 ---
 
 # Zakon o zdravstveni dejavnosti
