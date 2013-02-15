@@ -7,6 +7,11 @@ sop: 2010-01-3350
 objava: "Uradni list RS 61/10  str. 9195"
 kljucne_besede: ["pomoč socialno ogroženim", "socialno skrbstvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-3350"
+spremembe:
+  - kratica: ZSVarPre-B
+    datum: 2013-02-15
+    sop: 2013-01-0371
+    naziv: "Zakon o spremembi Zakona o socialno varstvenih prejemkih"
 ---
 
 # Zakon o socialno varstvenih prejemkih
