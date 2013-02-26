@@ -1,0 +1,102 @@
+---
+kratica: MP_ODLO35251
+naziv: "Odlok o spremembah in dopolnitvah Odloka o ureditvi položaja Javnega podjetja – Azienda pubblica Komunala Koper, d.o.o.-s.r.l. (ODLO)"
+vrsta: "občinski odlok"
+datum: 2013-02-26
+sop: 2013-01-0580
+organ: "Mestna občina Koper"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0580"
+---
+
+# Odlok o spremembah in dopolnitvah Odloka o ureditvi položaja Javnega podjetja – Azienda pubblica Komunala Koper, d.o.o.-s.r.l. (ODLO)
+
+Na podlagi 180. člena Statuta Mestne občine Koper (Uradne objave, št. 40/2000, 30/2001 in 29/2003 ter Uradni list RS, št. 90/05, 67/06 in 39/08)
+
+
+## R A Z G L A Š A M   O D L O K
+o spremembah in dopolnitvah Odloka o ureditvi položaja Javnega podjetja – Azienda pubblica Komunala Koper, d.o.o.-s.r.l.
+
+Št. 014-14/2012
+
+Koper, dne 22. februarja 2013
+
+Župan
+Mestne občine Koper
+Boris Popovič l.r.
+
+Na podlagi določila 25. in 28. člena Zakona o gospodarskih javnih službah (Uradni list RS, št. 32/93, 30/98 – ZZLPPO, 127/06 – ZJZP, 38/10 – ZUKN in 57/11), 473. člena Zakona o gospodarskih družbah (Uradni list RS, št. 65/09 – UPB3, 83/09 odločba US: U-I-165/08-10, Up-1772/08-14, Up-379/09-8, 33/11, 91/11, 100/11 sklep US: U-I-311/11-5, 32/12, 57/12), 20. in 61. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – UPB2, 76/08, 79/09, 51/10 in 40/12 – ZUJF) in 27. člena Statuta Mestne občine Koper (Uradne objave št. 40/2000, 30/2001, 29/2003 ter Uradni list RS, št. 90/05, 67/06 in 39/08) je Občinski svet Mestne občine Koper na seji dne 21. februarja 2013 sprejel
+
+
+## O D L O K
+o spremembah in dopolnitvah Odloka o ureditvi položaja Javnega podjetja – Azienda pubblica Komunala Koper, d.o.o.-s.r.l.
+
+
+### 1. člen
+
+Besedilo 7. člena Odloka o ureditvi položaja Javnega podjetja – Azienda pubblica Komunala Koper, d.o.o.-s.r.l. (Uradne objave, št. 53/02 in Uradni list RS, št. 74/05, 84/06, 39/12 in 103/12) se spremeni tako, da se glasi:
+»(1) Osnovni kapital javnega podjetja znaša 5.455.810,00 EUR.
+(2) Mestna občina Koper, Verdijeva ulica 10, 6000 Koper, ima kot edini družbenik v javnem podjetju tri osnovne vložke, ki skupaj predstavljajo 100 % poslovni delež, in sicer:
+– en osnovni vložek v nominalnem znesku 3.405.810,00 EUR, kar predstavlja 62,4254 % poslovni delež;
+– en osnovni vložek v znesku 1.350.000,00 EUR, kar predstavlja 24.7443 % poslovni delež;
+– en osnovni vložek v znesku 700.000,00 EUR, kar predstavlja 12.8304 % poslovni delež.
+(3) Osnovni vložek v znesku 1.350.000,00 EUR je bil v celoti vplačan s stvarnim vložkom in sicer z izročitvijo nepremičnine, parcele številka 878/54 k.o. Ankaran, ID znak 2594-878/54-0.
+(4) Osnovni vložek v znesku 700.000,00 EUR je bil vplačan s finančnim vložkom iz proračuna Mestne občine Koper za leto 2013.«
+
+
+### 2. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 014-14/2012
+
+Koper, dne 21. februarja 2013
+
+Župan
+Mestne občine Koper
+Boris Popovič l.r.
+
+Visto l’articolo 180 dello Statuto del Comune città di Capodistria (Bollettino uff. n. 40/00, 30/01 e 29/03 e Gazzetta ufficiale della RS, n. 90/05, 67/06 e 39/08)
+
+
+## P R O M U LG O   I L   D E C R E T O
+sulle modifiche ed integrazioni al Decreto sulla regolamentazione dello status dell’Azienda pubblica Komunala Koper, d.o.o.-s.r.l.
+
+N. 014-14/2012
+Capodistria, 22 febbraio 2013
+
+Il Sindaco
+Comune città di Capodistria
+Boris Popovič m.p.
+
+Ai sensi degli articoli 25 e 28 della Legge sui servizi pubblici economici (Gazzetta ufficiale della RS, n. 32/93, 30/98 – ZZLPPO, 127/06 – ZJZP, 38/10 – ZUKN e 57/11), per effetto dell’articolo 473 della Legge sulle società commerciali (Gazzetta ufficiale della RS, n. 65/09 – testo unico ufficiale 3, 83/09 – sentenza della CC, U-I-165/08-10, Up-1772/08-14, Up-379/09-8, 33/11, 91/11, 100/11 delibera della CC: U-I-311/11-5, 32/12, 57/12), visti gli articoli 20 e 61 della Legge sull’autonomia locale (Gazzetta ufficiale della RS, n. 94/07 – testo unico ufficiale 2, 76/08, 79/09, 51/10 e 40/12 – ZUJF) e in virtù dell’articolo 27 dello Statuto del Comune città di Capodistria (Bollettino ufficiale, n. 40/00, 30/01, 29/03 e Gazzetta ufficiale della RS, n. 90/05, 67/06 e 39/08) il Consiglio comunale del Comune città di Capodistria, nella seduta del 21 febbraio 2013 ha accolto il seguente
+
+
+## D E C R E T O
+sulle modifiche ed integrazioni al Decreto sulla regolamentazione dello status dell’Azienda pubblica Komunala Koper, d.o.o.-s.r.l.
+
+
+### Articolo 1
+
+Il testo dell’articolo 7 del Decreto sulla regolamentazione dello status dell’Azienda pubblica Komunala Koper, d.o.o.-s.r.l. (Bollettino ufficiale, n. 53/02 e Gazzetta ufficiale della RS, n. 74/05, 84/06, 39/12 e 103/12) viene modificato e recita come segue:
+
+“(1) Il capitale sociale dell’azienda pubblica ammonta a EURO 5.455.810,00.
+
+(2) Il Comune città di Capodistria, Via Verdi 10, 6000 Capodistria, in quanto socio unico dell’Azienda pubblica Komunala Koper, d.o.o. – s.r.l, possiede tre conferimenti in capitale costituenti nel complesso il 100 % della quota di capitale sociale, ossia:
+– un conferimento in capitale dall’importo nominale pari a EURO 3.405.810,00 che costituisce il 62,4254 % della quota di capatale sociale;
+– un conferimento in capitale dall’importo pari a EURO 1.350.000,00 che costituisce il 24.7443 % della quota di capitale sociale;
+– un conferimento in capitale dall’importo pari a EURO 700.000,00 che costituisce il 12.8304 % della quota di capitale sociale.
+(3) Il conferimento sociale dall’importo di EURO 1.350.000,00 è stato interamente versato mediante beni imputabili al capitale sociale ovvero attraverso l’apporto di un immobile, identificato con la particella numero 878/54, c.c. di Ancarano, codice ID 2594-878/54-0.
+(4) Il conferimento sociale dall’importo di EURO 700.000,00 è stato interamente versato attraverso un apporto finanziario stanziato dal bilancio di previsione del Comune città di Capodistria per l’anno 2013.«
+
+
+### Articolo 2
+
+Il presente decreto entra in vigore il giorno successivo a quello della sua pubblicazione nella Gazzetta ufficiale della Repubblica di Slovenia.
+N. 014-14/2012
+Capodistria, 21 febbraio 2013
+
+Il Sindaco
+Comune città di Capodistria
+Boris Popovič m.p.
