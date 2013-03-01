@@ -1,0 +1,55 @@
+---
+kratica: TARI159
+naziv: "Tarifa nadomestil stroškov za izvajanje obveznega večstranskega pobota"
+vrsta: "akt"
+datum: 2013-03-01
+sop: 2013-01-0624
+organ: "Agencija Republike Slovenije za javnopravne evidence in storitve"
+zbirka: "Splošni akti za izvrševanje javnih pooblastil"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0624"
+---
+
+# Tarifa nadomestil stroškov za izvajanje obveznega večstranskega pobota
+
+Na podlagi prvega odstavka 27. člena Zakona o preprečevanju zamud pri plačilih – ZPreZP-1 (Uradni list RS, št. 57/12), 40. člena Zakona o javnih agencijah (Uradni list RS, št. 52/02 in 51/04 – EZ-A) in 3. točke 15. člena Sklepa o ustanovitvi Agencije Republike Slovenije za javnopravne evidence in storitve (Uradni list RS, št. 53/02, 87/02 in 16/07) je Svet Agencije Republike Slovenije za javnopravne evidence in storitve v soglasju z Vlado Republike Slovenije (št. 00712-7/2013/3) z dne 14. 2. 2013 sprejel
+
+
+## T A R I F O
+nadomestil stroškov za izvajanje obveznega večstranskega pobota
+
+
+### 1. člen
+
+Ta tarifa določa višino nadomestil stroškov za izvajanje obveznega večstranskega pobota, ki ga Agencija za javnopravne evidence in storitve (v nadaljnjem besedilu: AJPES) opravlja na podlagi prvega odstavka 26. člena Zakona o preprečevanju zamud pri plačilih (Uradni list RS, št. 57/12; v nadaljnjem besedilu: ZPreZP-1) v skladu s pravili o izvajanju obveznega večstranskega pobota.
+
+
+### 2. člen
+
+Prijave in spremembe prijav podatkov o obveznostih v sistem obveznega večstranskega pobota so brezplačne.
+Nadomestilo stroškov za izvajanje obveznega večstranskega pobota plačajo dolžniki v višini 0,8 tisočine od dejansko pobotanega zneska obveznosti v posameznem krogu pobota ali najmanj 1,50 EUR za posamezni krog pobota. Nadomestila ne plačajo dolžniki, ki pobotajo manj kot 50 EUR prijavljenih obveznosti v posameznem krogu večstranskega pobota.
+AJPES dolžnikom obračuna nadomestilo stroškov iz tega člena mesečno. Dolžniki plačajo račun najkasneje v 15 dneh po datumu njegove izstavitve.
+
+
+### 3. člen
+
+Vpogledi, ki se zagotavljajo upnikom v skladu z 29. členom ZPreZP-1, so brezplačni.
+
+
+### 4. člen
+
+Carinski upravi Republike Slovenije, Davčni upravi Republike Slovenije in Tržnemu inšpektoratu Republike Slovenije, ki v skladu s prvim odstavkom 55. člena ZPreZP-1 nadzirajo izvajanje 28., 30., 32. in 33. člena ZPreZP-1, AJPES zagotavlja brezplačne vpoglede v prijave denarnih obveznosti posameznega dolžnika.
+
+
+### 5. člen
+
+Ta tarifa začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 007-10/2013
+
+Ljubljana, dne 24. januarja 2013
+
+EVA 2013-1611-0015
+
+Suzana Lep Šimenko l.r.
+namestnica predsednika Sveta AJPES
