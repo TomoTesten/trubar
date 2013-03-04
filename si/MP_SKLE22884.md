@@ -1,0 +1,36 @@
+---
+kratica: MP_SKLE22884
+naziv: "Sklep o izbrisu grajenega javnega dobra lokalnega pomena (SKLE)"
+vrsta: "občinski sklep"
+datum: 2013-03-04
+sop: 2013-01-0688
+organ: "Občina Sežana"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0688"
+---
+
+# Sklep o izbrisu grajenega javnega dobra lokalnega pomena (SKLE)
+
+Na podlagi 16. člena Statuta Občine Sežana (Uradni list RS, št. 117/07) je Občinski svet Občine Sežana na seji dne 21. 2. 2013 sprejel naslednji
+
+
+## S K L E P
+
+
+### 1.
+
+Pri zemljišču s parc. št. 1163/178, k.o. 2455 – Sežana se izbriše zaznamba grajenega javnega dobra lokalnega pomena.
+
+
+### 2.
+
+Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 032-1/2013-19
+
+Sežana, dne 21. februarja 2013
+
+Župan
+Občine Sežana
+Davorin Terčon l.r.
