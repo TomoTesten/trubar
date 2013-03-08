@@ -4,9 +4,9 @@ naziv: "Resolucija o nacionalnem programu socialnega varstva za obdobje 2013-202
 vrsta: "akt"
 datum: 2013-05-06
 sop: 2013-01-1517
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-1517"
 ---
 

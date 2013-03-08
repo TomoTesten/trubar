@@ -4,9 +4,9 @@ naziv: "Sklep o začasnem zadržanju izvrševanja drugega odstavka 5. člena Pra
 vrsta: "akt"
 datum: 2013-05-06
 sop: 2013-01-1523
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-1523"
 ---
 

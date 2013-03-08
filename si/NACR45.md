@@ -4,9 +4,9 @@ naziv: "Pravilnik o spremembah in dopolnitvi Pravilnika o pogojih za registracij
 vrsta: "akt"
 datum: 2013-05-24
 sop: 2013-01-1693
-organ: "Ministrstvo za kmetijstvo in okolje"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-1693"
 ---
 
