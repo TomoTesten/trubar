@@ -32,6 +32,10 @@ spremembe:
     datum: 2012-02-03
     sop: 2012-01-0268
     naziv: "Zakon o spremembah in dopolnitvah Zakona o Vladi Republike Slovenije"
+  - kratica: ZVRS-G
+    datum: 2013-03-13
+    sop: 2013-01-0787
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o Vladi Republike Slovenije"
 ---
 
 # Zakon o Vladi Republike Slovenije
