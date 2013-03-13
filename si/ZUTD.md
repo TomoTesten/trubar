@@ -7,6 +7,11 @@ sop: 2010-01-4304
 objava: "Uradni list RS 80/10  str. 12097"
 kljucne_besede: ["trg dela", "politika zaposlovanja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-4304"
+spremembe:
+  - kratica: ZUTD-A
+    datum: 2013-03-13
+    sop: 2013-01-0785
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o urejanju trga dela"
 ---
 
 # Zakon o urejanju trga dela
