@@ -16,6 +16,10 @@ spremembe:
     datum: 2007-02-16
     sop: 2007-01-0606
     naziv: "Zakon o spremembah in dopolnitvah zakona o zaščiti živali"
+  - kratica: ZZZiv-C
+    datum: 2013-03-18
+    sop: 2013-01-0848
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zaščiti živali"
 ---
 
 # Zakon o zaščiti živali
