@@ -7,6 +7,11 @@ sop: 1999-02-0013
 objava: "Uradni list RS MP 5/99  str. 102"
 kljucne_besede: ["ratifikacija sporazuma", "vodotok", "jezero", "varstvo voda"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-02-0013"
+spremembe:
+  - kratica: MKVVJ-A
+    datum: 2013-03-28
+    sop: 2013-02-0023
+    naziv: "Zakon o ratifikaciji Dopolnitev 25. in 26. člena Konvencije o varstvu in uporabi čezmejnih vodotokov in mednarodnih jezer"
 ---
 
 # Zakon o ratifikaciji Konvencije o varstvu in uporabi čezmejnih vodotokov in mednarodnih jezer
