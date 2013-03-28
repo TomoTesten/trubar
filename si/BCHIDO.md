@@ -7,6 +7,11 @@ sop: 1997-02-0054
 objava: "Uradni list RS MP 15/97  str. 1475"
 kljucne_besede: ["ratifikacija sporazuma", "Švica", "dvojna obdavčitev", "davek od dohodkov iz dejavnosti", "davek od premoženja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-02-0054"
+spremembe:
+  - kratica: BCHIDO-A
+    datum: 2013-03-28
+    sop: 2013-02-0024
+    naziv: "Zakon o ratifikaciji Protokola med Vlado Republike Slovenije in Švicarskim zveznim svetom o spremembah Konvencije med Vlado Republike Slovenije in Zveznim svetom švicarske konfederacije o izogibanju dvojnega obdavčevanja v zvezi z davki na dohodek in premoženje, podpisane v Ljubljani 12. junija 1996"
 ---
 
 # Zakon o ratifikaciji Konvencije med Republiko Slovenijo in Švicarsko konfederacijo o izogibanju dvojnega obdavčevanja v zvezi z davki na dohodek in premoženje
