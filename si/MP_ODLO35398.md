@@ -1,0 +1,312 @@
+---
+kratica: MP_ODLO35398
+naziv: "Odlok o proračunu Občine Šalovci za leto 2013 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2013-03-29
+sop: 2013-01-1010
+organ: "Občina Šalovci"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-1010"
+---
+
+# Odlok o proračunu Občine Šalovci za leto 2013 (ODLO)
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – UPB2, 76/08, 79/09 in 51/10), 29. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – UPB4 in 14/13 – popr.) in 16. člena Statuta Občine Šalovci (Uradni list RS, št. 38/06) je Občinski svet Občine Šalovci na 21. redni seji dne 21. marca 2013 sprejel
+
+
+## O D L O K
+o proračunu Občine Šalovci za leto 2013
+
+
+### 1. SPLOŠNA DOLOČBA
+
+
+### 1. člen
+
+S tem odlokom se za Občino Šalovci za leto 2013 določajo proračun, postopki izvrševanja proračuna ter obseg zadolževanja in poroštev občine in javnega sektorja na ravni občine (v nadaljnjem besedilu: proračun).
+
+
+### 2. VIŠINA SPLOŠNEGA DELA PRORAČUNA IN STRUKTURA POSEBNEGA DELA PRORAČUNA
+
+
+### 2. člen
+
++-----+---------------------------+---------+
+|A)   |BILANCA PRIHODKOV IN       |       v |
+|     |ODHODKOV                   |   eurih |
++-----+---------------------------+---------+
+|     |skupina/podskupina kontov  |Proračun |
+|     |                           | za leto |
+|     |                           |    2013 |
++-----+---------------------------+---------+
+|I.   |SKUPAJ PRIHODKI            |2.611.759|
+|     |(70+71+72+73+74)           |         |
++-----+---------------------------+---------+
+|     |TEKOČI PRIHODKI (70+71)    |1.373.723|
++-----+---------------------------+---------+
+|70   |DAVČNI PRIHODKI            |1.322.313|
++-----+---------------------------+---------+
+|     |700 Davki na dohodek in    |1.191.131|
+|     |dobiček                    |         |
++-----+---------------------------+---------+
+|     |703 Davki na premoženje    |  80.820 |
++-----+---------------------------+---------+
+|     |704 Domači davki na blago  |  50.362 |
+|     |in storitve                |         |
++-----+---------------------------+---------+
+|     |706 Drugi davki            |       – |
++-----+---------------------------+---------+
+|71   |NEDAVČNI PRIHODKI          |  51.410 |
++-----+---------------------------+---------+
+|     |710 Udeležba na dobičku in |  24.410 |
+|     |dohodki od premoženja      |         |
++-----+---------------------------+---------+
+|     |711 Takse in pristojbine   |     500 |
++-----+---------------------------+---------+
+|     |712 Globe in druge denarne |       – |
+|     |kazni                      |         |
++-----+---------------------------+---------+
+|     |713 Prihodki od prodaje    |       – |
+|     |blaga in storitev          |         |
++-----+---------------------------+---------+
+|     |714 Drugi nedavčni prihodki|  26.500 |
++-----+---------------------------+---------+
+|72   |KAPITALSKI PRIHODKI        |       – |
++-----+---------------------------+---------+
+|     |720 Prihodki od prodaje    |       – |
+|     |osnovnih sredstev          |         |
++-----+---------------------------+---------+
+|     |721 Prihodki od prodaje    |       – |
+|     |zalog                      |         |
++-----+---------------------------+---------+
+|     |722 Prihodki od prod.      |       – |
+|     |zemlj. in neopred. sredstev|         |
++-----+---------------------------+---------+
+|73   |PREJETE DONACIJE           |       – |
++-----+---------------------------+---------+
+|     |730 Prejete donacije iz    |       – |
+|     |domačih virov              |         |
++-----+---------------------------+---------+
+|     |731 Prejete donacije iz    |       – |
+|     |tujine                     |         |
++-----+---------------------------+---------+
+|74   |TRANSFERNI PRIHODKI        |1.238.036|
++-----+---------------------------+---------+
+|     |740 Transferni prihodki iz |1.238.036|
+|     |drugih javnofinančnih      |         |
+|     |institucij                 |         |
++-----+---------------------------+---------+
+|II.  |SKUPAJ ODHODKI             |2.603.759|
+|     |(40+41+42+43)              |         |
++-----+---------------------------+---------+
+|40   |TEKOČI ODHODKI             | 814.864 |
++-----+---------------------------+---------+
+|     |400 Plače in drugi izdatki |  60.398 |
+|     |zaposlenim                 |         |
++-----+---------------------------+---------+
+|     |401 Prispevki delodajalca  |   9.611 |
+|     |za socialno varnost        |         |
++-----+---------------------------+---------+
+|     |402 Izdatki za blago in    | 675.999 |
+|     |storitve                   |         |
++-----+---------------------------+---------+
+|     |403 Plačila domačih obresti|  48.755 |
++-----+---------------------------+---------+
+|     |409 Rezerve                |  20.101 |
++-----+---------------------------+---------+
+|41   |TEKOČI TRANSFERI           | 490.791 |
++-----+---------------------------+---------+
+|     |410 Subvencije             |   2.000 |
++-----+---------------------------+---------+
+|     |411 Transferi posameznikom | 280.713 |
+|     |in gospodinjstvom          |         |
++-----+---------------------------+---------+
+|     |412 Transferi neprofitnim  |  93.645 |
+|     |organizacijam in ustanovam |         |
++-----+---------------------------+---------+
+|     |413 Drugi tekoči domači    | 114.433 |
+|     |transferi                  |         |
++-----+---------------------------+---------+
+|     |414 Tekoči transferi v     |       – |
+|     |tujino                     |         |
++-----+---------------------------+---------+
+|42   |INVESTICIJSKI ODHODKI      |1.268.928|
++-----+---------------------------+---------+
+|     |420 Nakup in gradnja       |1.268.928|
+|     |osnovnih sredstev          |         |
++-----+---------------------------+---------+
+|43   |INVESTICIJSKI TRANSFERI    |  29.176 |
++-----+---------------------------+---------+
+|     |431 Investicijski transferi|   7.800 |
+|     |prav. in fizič. osebam, ki |         |
+|     |niso pror. uporabniki      |         |
++-----+---------------------------+---------+
+|     |432 Investicijski transferi|  21.376 |
+|     |proračunskim uporabnikom   |         |
++-----+---------------------------+---------+
+|III. |PRORAČUNSKI PRESEŽEK       |   8.000 |
+|     |(PRIMANJKLJAJ) (I.-II.)    |         |
++-----+---------------------------+---------+
+|B)   |RAČUN FINANČNIH TERJATEV IN|         |
+|     |NALOŽB                     |         |
++-----+---------------------------+---------+
+|IV.  |PREJETA VRAČILA DANIH      |         |
+|     |POSOJIL IN PRODAJA KAPITAL.|         |
+|     |DELEŽEV (750+751+752)      |         |
++-----+---------------------------+---------+
+|     |750 Prejeta vračila danih  |       – |
+|     |posojil                    |         |
++-----+---------------------------+---------+
+|     |751 Prodaja kapitalskih    |       – |
+|     |deležev                    |         |
++-----+---------------------------+---------+
+|     |752 Kupnine iz naslova     |       – |
+|     |privatizacije              |         |
++-----+---------------------------+---------+
+|V.   |DANA POSOJILA IN POVEČANJE |   8.000 |
+|     |KAPITALSKIH DELEŽEV        |         |
+|     |(440+441+442+443)          |         |
++-----+---------------------------+---------+
+|     |440 Dana posojila          |   8.000 |
++-----+---------------------------+---------+
+|     |441 Povečanje kapitalskih  |       – |
+|     |deležev in finančnih naložb|         |
++-----+---------------------------+---------+
+|     |442 Poraba sredstev kupnin |       – |
+|     |iz naslova privatizacije   |         |
++-----+---------------------------+---------+
+|     |443 Povečanje namenskega   |       – |
+|     |premoženja v javnih skladih|         |
+|     |in pravnih osebah javnega  |         |
+|     |prava, ki imajo premoženje |         |
+|     |v svoji lasti              |         |
++-----+---------------------------+---------+
+|VI.  |PREJETA MINUS DANA POSOJILA|  –8.000 |
+|     |IN SPREMEMBE KAPITALSKIH   |         |
+|     |DELEŽEV (IV.-V.)           |         |
++-----+---------------------------+---------+
+|VII. |SKUPNI PRESEŽEK            |       – |
+|     |(PRIMANJKLJAJ) PRIHODKI    |         |
+|     |MINUS ODHODKI TER SALDO    |         |
+|     |PREJETIH IN DANIH POSOJIL  |         |
+|     |(I.+IV.) – (II.+V.)        |         |
++-----+---------------------------+---------+
+|C)   |RAČUN FINANCIRANJA         |         |
++-----+---------------------------+---------+
+|VIII.|ZADOLŽEVANJE (500)         |         |
++-----+---------------------------+---------+
+|50   |ZADOLŽEVANJE               |       – |
++-----+---------------------------+---------+
+|     |500 Domače zadolževanje    |       – |
++-----+---------------------------+---------+
+|IX.  |ODPLAČILA DOLGA (550)      |         |
++-----+---------------------------+---------+
+|55   |ODPLAČILA DOLGA            |       – |
++-----+---------------------------+---------+
+|     |550 Odplačila domačega     |       – |
+|     |dolga                      |         |
++-----+---------------------------+---------+
+|X.   |NETO ZADOLŽEVANJE (VIII.-  |       – |
+|     |IX.)                       |         |
++-----+---------------------------+---------+
+|XI.  |POVEČANJE (ZMANJŠANJE)     |       – |
+|     |SREDSTEV NA RAČUNIH        |         |
+|     |(III.+VI.+X                |         |
+|     |.I.+IV.+VIII.)-(II.+V.+IX.)|         |
++-----+---------------------------+---------+
+|     |STANJE SREDSTEV NA RAČUNIH |         |
+|     |DNE 31. 12. PRETEKLEGA LETA|         |
++-----+---------------------------+---------+
+|     |9009 Splošni sklad za drugo|   1.250 |
++-----+---------------------------+---------+
+
+Posebni del proračuna sestavljajo finančni načrti neposrednih uporabnikov, ki so razdeljeni na naslednje programske dele: področja proračunske porabe, glavne programe in podprograme, predpisane s programsko klasifikacijo izdatkov občinskih proračunov. Podprogram je razdeljen na proračunske postavke, te pa na podskupine kontov in konte, določene s predpisanim kontnim načrtom.
+Posebni del proračuna do ravni proračunskih postavk –podskupin kontov in načrt razvojnih programov sta prilogi k temu odloku in se objavita na spletni strani Občine Šalovci.
+
+
+### 3. POSTOPKI IZVRŠEVANJA PRORAČUNA
+
+
+### 3. člen
+
+Namenski prihodki proračuna so poleg prihodkov, določenih v prvem stavku prvega odstavka 43. člena Zakona o javnih financah, tudi naslednji prihodki:
+– prihodki požarne takse po 59. členu Zakona o varstvu pred požari (Uradni list RS, št. 3/07 – UPB1, 9/11 in 83/12)
+– prihodki turistične takse
+– prihodki iz naslova okoljske dajatve za onesnaževanje okolja zaradi odlaganja odpadkov
+– prihodki iz naslova okoljske dajatve za onesnaževanje okolja zaradi odvajanja odpadnih voda
+– prihodki iz naslova takse za vzdrževanje gozdnih cest
+– prejemki iz državnega proračuna in iz drugih virov za določene namene
+– prispevki občanov za izgradnjo komunalne infrastrukture
+– zbrana sredstva iz naslova reklam in drugih sporočil v glasilu Občine Šalovci.
+Namenska sredstva, ki niso bila porabljena v preteklem letu se prenesejo v proračun za tekoče leto.
+
+
+### 4. člen
+
+Župan odloča o prerazporeditvah pravic porabe v posebnem delu proračuna med glavnimi programi v okviru področja proračunske porabe.
+Osnova za prerazporejanje porabe je zadnji sprejeti proračun, spremembe proračuna ali rebalans proračuna.
+Župan s poročilom o izvrševanju proračuna v mesecu juliju za obdobje januar–junij in konec leta z zaključnim računom poroča občinskemu svetu o veljavnem proračunu za leto 2013 in o njegovi realizaciji.
+Župan odloča o razporeditvi sredstev splošne proračunske rezervacije in o tem obvesti občinski svet. Župan odloča o likvidnostnem zadolževanju po predhodni odobritvi občinskega sveta.
+
+
+### 5. člen
+
+Proračunskim uporabnikom se sredstva tekočih transferov dodeljujejo mesečno oziroma v skladu s pogodbo.
+Proračunski uporabnik lahko v tekočem letu za projekte iz načrta razvojnih programov prične s postopkom prevzemanja obveznosti za celotno vrednost projekta, ki je vključen v načrt razvojnih programov.
+Skupni obseg prevzetih obveznosti proračunskega uporabnika, ki bodo zapadle v plačilo v prihodnjih letih za investicijske transfere ne sme presegati 70 % pravic porabe v sprejetem finančnem načrtu proračunskega uporabnika.
+Skupni obseg prevzetih obveznosti proračunskega uporabnika, ki bodo zapadle v plačilo v prihodnjih letih za blago in storitve in za tekoče transfere, ne sme presegati 25 % pravic porabe v sprejetem finančnem načrtu neposrednega uporabnika.
+Omejitve iz prvega in drugega odstavka tega člena ne veljajo za prevzemanje obveznosti z najemnimi pogodbami in prevzemanje obveznosti za dobavo elektrike, telefona, vode, komunalnih storitev in drugih storitev, potrebnih za operativno delovanje proračunskih uporabnikov.
+Prevzete obveznosti iz drugega in tretjega odstavka tega člena se načrtujejo v finančnem načrtu proračunskega uporabnika in v načrtu razvojnih programov.
+
+
+### 6. člen
+
+Proračunski skladi so:
+1. račun proračunske rezerve, oblikovane po Zakonu o javnih financah.
+Sredstva proračunske rezerve občine se v letu 2013 oblikuje v višini 0,5 % skupno doseženih prihodkov v letu 2013.
+Izločanje sredstev v proračunsko rezervo preneha, ko višina skupno doseženih sredstev proračunske rezerve doseže 1,5 % vseh prihodkov proračuna.
+Sredstva proračunske rezerve se uporabljajo za financiranje izdatkov za odpravo posledic naravnih nesreč in drugih nesreč, ki jih povzročajo naravne sile in ekološke nesreče. O uporabi sredstev proračunske rezerve za namene iz drugega odstavka 49. člena Zakona o javnih financah odloča župan in o porabi obvesti občinski svet.
+
+
+### 4. POSEBNOSTI UPRAVLJANJA IN PRODAJE STVARNEGA IN FINANČNEGA PREMOŽENJA DRŽAVE
+
+
+### 7. člen
+
+Če so izpolnjeni pogoji iz tretjega odstavka 77. člena Zakona o javnih financah, lahko župan dolžniku do višine 100 EUR odpiše oziroma delno odpiše plačilo dolga. Za odločanje o pridobitvi in odtujitvi premičnega premoženja se pooblašča župana. Za pridobitev in odtujitev nepremičnega premoženja, v skladu s sprejetim programom, se pooblašča župana s predhodnim soglasjem občinskega sveta.
+
+
+### 5. OBSEG ZADOLŽEVANJA IN POROŠTEV OBČINE IN JAVNEGA SEKTORJA
+
+
+### 8. člen
+
+Zaradi kritja presežkov odhodkov nad prihodki v bilanci prihodkov in odhodkov, presežkov izdatkov nad prejemki v računu finančnih terjatev in naložb ter odplačila dolgov v računu financiranja se občina za proračun leta 2013 lahko zadolži v skladu z Zakonom o javnih financah in Zakonom o financiranju občin.
+Obseg poroštev občine za izpolnitev obveznosti javnih zavodov in javnih podjetij, katerih ustanoviteljica je Občina Šalovci, v letu 2013 ne sme preseči z zakonom določenega zneska.
+
+
+### 9. člen
+
+Pravne osebe javnega sektorja na ravni občine (javni zavodi in javna podjetja, katerih ustanoviteljica je občina) se lahko v letu 2013 zadolžijo v skladu z Zakonom o javnih financah in Zakonom o financiranju občin s soglasjem ustanovitelja. Poroštvene pogodbe v imenu občine sklepa župan s soglasjem občinskega sveta.
+
+
+### 6. PREHODNE IN KONČNE DOLOČBE
+
+
+### 10. člen
+
+V obdobju začasnega financiranja Občine Šalovci v letu 2014, če bo začasno financiranje potrebno, se uporablja ta odlok in sklep o določitvi začasnega financiranja.
+
+
+### 11. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 410-11/2013-1
+
+Šalovci, dne 21. marca 2013
+
+Župan
+Občine Šalovci
+Iztok Fartek l.r.
