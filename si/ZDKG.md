@@ -7,6 +7,11 @@ sop: 1995-01-3295
 objava: "Uradni list RS 70/95  str. 5520"
 kljucne_besede: ["prenos kmetij"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3295"
+spremembe:
+  - kratica: ZDKG-A
+    datum: 2013-04-12
+    sop: 2013-01-1128
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o dedovanju kmetijskih gospodarstev"
 ---
 
 # Zakon o dedovanju kmetijskih gospodarstev
