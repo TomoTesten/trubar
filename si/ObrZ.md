@@ -24,6 +24,10 @@ spremembe:
     datum: 2007-11-09
     sop: 2007-01-5069
     naziv: "Zakon o spremembah in dopolnitvah obrtnega zakona"
+  - kratica: ObrZ-E
+    datum: 2013-04-12
+    sop: 2013-01-1129
+    naziv: "Zakon o spremembah in dopolnitvah Obrtnega zakona"
 ---
 
 # Obrtni zakon
