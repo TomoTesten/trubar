@@ -12,6 +12,10 @@ spremembe:
     datum: 2012-03-19
     sop: 2012-01-0816
     naziv: "Zakon o spremembah Zakona o posojilu Helenski republiki"
+  - kratica: ZPHelR-B
+    datum: 2013-04-12
+    sop: 2013-01-1126
+    naziv: "Zakon o spremembi in dopolnitvah Zakona o posojilu Helenski republiki"
 ---
 
 # Zakon o posojilu Helenski republiki
