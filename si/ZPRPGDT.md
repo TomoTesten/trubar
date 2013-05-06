@@ -16,6 +16,10 @@ spremembe:
     datum: 2007-04-06
     sop: 2007-01-1563
     naziv: "Zakon o spremembah in dopolnitvah zakona o pomoči za reševanje in prestrukturiranje gospodarskih družb v težavah"
+  - kratica: ZPRPGDT-D
+    datum: 2013-05-06
+    sop: 2013-01-1514
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o pomoči za reševanje in prestrukturiranje gospodarskih družb v težavah"
 ---
 
 # Zakon o pomoči za reševanje in prestrukturiranje gospodarskih družb v težavah
