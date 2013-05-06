@@ -7,6 +7,11 @@ sop: 2012-01-3999
 objava: "Uradni list RS 105/12  str. 11387"
 kljucne_besede: ["holding"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-3999"
+spremembe:
+  - kratica: ZSDH-A
+    datum: 2013-05-06
+    sop: 2013-01-1513
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o Slovenskem državnem holdingu"
 ---
 
 # Zakon o Slovenskem državnem holdingu
