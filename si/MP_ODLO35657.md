@@ -1,0 +1,54 @@
+---
+kratica: MP_ODLO35657
+naziv: "Odlok o zaključnem računu proračuna Mestne občine Novo mesto za leto 2012 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2013-05-17
+sop: 2013-01-1674
+organ: "Mestna občina Novo mesto"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-1674"
+---
+
+# Odlok o zaključnem računu proračuna Mestne občine Novo mesto za leto 2012 (ODLO)
+
+Na podlagi tretjega odstavka 98. člena Zakona o javnih financah (Uradni list RS, št. 79/99, 124/00, 79/01, 30/02, 56/02 – ZJU, 110/02 – ZDT-B, 127/06 – ZJZT, 14/07 – ZSPDPO, 109/08, 49/09, 58/10/1847, 107/10, 110/11) in 16. člena Statuta Mestne občine Novo mesto (Uradni list RS, št. 7/13) je Občinski svet Mestne občine Novo mesto na 21. redni seji 25. aprila 2013 sprejel
+
+
+## O D L O K
+o zaključnem računu proračuna Mestne občine Novo mesto za leto 2012
+
+
+### 1. člen
+
+S tem odlokom občinski svet sprejme zaključni račun proračuna Mestne občine Novo mesto za leto 2012.
+
+
+### 2. člen
+
+Zaključni račun proračuna Mestne občine Novo mesto za leto 2012 izkazuje realizirane prihodke, odhodke ter druge prejemke in druge izdatke v zneskih, ki so prikazani v bilanci prihodkov in odhodkov, v računu finančnih terjatev in naložb ter računu financiranja.
+
+Bilanca prihodkov in odhodkov
+
+
+### 3. člen
+
+Saldo sredstev proračunske rezerve na dan 31. 12. 2012 v višini 107.045,00 EUR se prenese med sredstva proračunske rezerve v letu 2013.
+
+
+### 4. člen
+
+Sestavni deli tega odloka so tudi dokumenti zaključnega računa, pripravljeni v skladu z Navodilom o pripravi zaključnega računa državnega in občinskega proračuna ter metodologijo za pripravo poročila o doseženih ciljih in rezultatih neposrednih in posrednih uporabnikov proračuna (Uradni list RS, št. 12/01, 10/06, 8/07 in 102/10).
+
+
+### 5. člen
+
+Odlok o zaključnem računu proračuna Mestne občine Novo mesto za leto 2012 se objavi v Uradnem listu Republike Slovenije.
+
+Št. 4103-1/2012
+
+Novo mesto, dne 25. aprila 2013
+
+Župan
+Mestne občine Novo mesto
+Alojzij Muhič l.r.
