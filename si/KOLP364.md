@@ -4,9 +4,9 @@ naziv: "Aneks št. 6 h Kolektivni pogodbi za javni sektor (KPJS)"
 vrsta: "akt"
 datum: 2013-05-29
 sop: 2013-01-1767
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-1767"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Tarifne priloge h Kolektivni pogodbi dejavnosti 
 vrsta: "akt"
 datum: 2013-05-31
 sop: 2013-01-1801
-organ: "Trgovinska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-1801"
 ---
 
