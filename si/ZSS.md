@@ -44,6 +44,10 @@ spremembe:
     datum: 2011-05-03
     sop: 2011-01-1588
     naziv: "Zakon o spremembah in dopolnitvah Zakona o sodniški službi"
+  - kratica: ZSS-K
+    datum: 2013-05-29
+    sop: 2013-01-1754
+    naziv: "Zakon o dopolnitvi Zakona o sodniški službi"
 ---
 
 # Zakon o sodniški službi
