@@ -20,6 +20,10 @@ spremembe:
     datum: 2009-10-02
     sop: 2009-01-3351
     naziv: "Zakon o spremembah in dopolnitvah Zakona o državnem pravobranilstvu"
+  - kratica: ZDPra-D
+    datum: 2013-05-29
+    sop: 2013-01-1755
+    naziv: "Zakon o dopolnitvi Zakona o državnem pravobranilstvu"
 ---
 
 # Zakon o državnem pravobranilstvu
