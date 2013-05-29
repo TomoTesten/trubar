@@ -7,6 +7,11 @@ sop: 2012-01-3990
 objava: "Uradni list RS 104/12  str. 11368"
 kljucne_besede: ["državni proračun"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-3990"
+spremembe:
+  - kratica: ZIPRS1314-A
+    datum: 2013-05-29
+    sop: 2013-01-1756
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2013 in 2014"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2013 in 2014
