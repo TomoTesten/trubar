@@ -24,6 +24,10 @@ spremembe:
     datum: 2011-04-08
     sop: 2011-01-1155
     naziv: "Zakon o spremembah in dopolnitvah Zakona o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju"
+  - kratica: ZFPPIPP-E
+    datum: 2013-05-31
+    sop: 2013-01-1781
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju"
 ---
 
 # Zakon o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju
