@@ -44,6 +44,10 @@ spremembe:
     datum: 2009-10-02
     sop: 2009-01-3350
     naziv: "Zakon o spremembah in dopolnitvah Zakona o kazenskem postopku"
+  - kratica: ZKP-L
+    datum: 2013-05-31
+    sop: 2013-01-1782
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o kazenskem postopku"
 ---
 
 # Zakon o kazenskem postopku
