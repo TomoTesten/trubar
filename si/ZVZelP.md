@@ -12,6 +12,10 @@ spremembe:
     datum: 2010-03-15
     sop: 2010-01-0883
     naziv: "Zakon o spremembah in dopolnitvah Zakona o varnosti v železniškem prometu"
+  - kratica: ZVZelP-C
+    datum: 2013-05-31
+    sop: 2013-01-1784
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o varnosti v železniškem prometu"
 ---
 
 # Zakon o varnosti v železniškem prometu
