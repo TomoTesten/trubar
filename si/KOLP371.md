@@ -4,9 +4,9 @@ naziv: "Dodatek št. 7 h Kolektivni pogodbi za kovinsko industrijo Slovenije"
 vrsta: "akt"
 datum: 2013-06-14
 sop: 2013-01-1942
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-1942"
 ---
 
