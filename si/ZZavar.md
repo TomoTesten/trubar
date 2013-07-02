@@ -40,6 +40,10 @@ spremembe:
     datum: 2012-11-30
     sop: 2012-01-3530
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zavarovalništvu"
+  - kratica: ZZavar-J
+    datum: 2013-07-02
+    sop: 2013-01-2144
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zavarovalništvu"
 ---
 
 # Zakon o zavarovalništvu
