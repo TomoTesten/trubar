@@ -7,6 +7,11 @@ sop: 2003-01-5391
 objava: "Uradni list RS 126/03  str. 17280"
 kljucne_besede: ["žičniški prevoz"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5391"
+spremembe:
+  - kratica: ZŽNPO-A
+    datum: 2013-07-02
+    sop: 2013-01-2145
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o žičniških napravah za prevoz oseb"
 ---
 
 # Zakon o žičniških napravah za prevoz oseb
