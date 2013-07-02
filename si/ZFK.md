@@ -7,6 +7,11 @@ sop: 2006-01-1837
 objava: "Uradni list RS 43/06  str. 4613"
 kljucne_besede: ["konglomerat"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1837"
+spremembe:
+  - kratica: ZFK-B
+    datum: 2013-07-02
+    sop: 2013-01-2142
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o finančnih konglomeratih"
 ---
 
 # Zakon o finančnih konglomeratih
