@@ -20,6 +20,10 @@ spremembe:
     datum: 2013-05-06
     sop: 2013-01-1514
     naziv: "Zakon o spremembah in dopolnitvah Zakona o pomoči za reševanje in prestrukturiranje gospodarskih družb v težavah"
+  - kratica: ZPRPGDT-E
+    datum: 2013-07-02
+    sop: 2013-01-2141
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o pomoči za reševanje in prestrukturiranje gospodarskih družb v težavah"
 ---
 
 # Zakon o pomoči za reševanje in prestrukturiranje gospodarskih družb v težavah
