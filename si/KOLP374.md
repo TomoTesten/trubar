@@ -4,9 +4,9 @@ naziv: "Tarifna priloga 2013 št. 1. h Kolektivni pogodbi za dejavnost kovinskih
 vrsta: "akt"
 datum: 2013-07-12
 sop: 2013-01-2303
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-2303"
 ---
 
