@@ -12,6 +12,10 @@ spremembe:
     datum: 2013-05-29
     sop: 2013-01-1756
     naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2013 in 2014"
+  - kratica: ZIPRS1314-B
+    datum: 2013-07-19
+    sop: 2013-01-2459
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2013 in 2014"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2013 in 2014
