@@ -12,6 +12,10 @@ spremembe:
     datum: 2013-03-13
     sop: 2013-01-0785
     naziv: "Zakon o spremembah in dopolnitvah Zakona o urejanju trga dela"
+  - kratica: ZUTD-B
+    datum: 2013-07-26
+    sop: 2013-01-2512
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o urejanju trga dela"
 ---
 
 # Zakon o urejanju trga dela
