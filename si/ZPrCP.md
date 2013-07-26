@@ -12,6 +12,10 @@ spremembe:
     datum: 2012-07-27
     sop: 2012-01-2411
     naziv: "Zakon o spremembah in dopolnitvah Zakona o pravilih cestnega prometa"
+  - kratica: ZPrCP-B
+    datum: 2013-07-26
+    sop: 2013-01-2517
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o pravilih cestnega prometa"
 ---
 
 # Zakon o pravilih cestnega prometa
