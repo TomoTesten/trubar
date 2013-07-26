@@ -7,6 +7,11 @@ sop: 2011-01-2040
 objava: "Uradni list RS 43/11  str. 5660"
 kljucne_besede: ["javno naročilo", "načelo pravne varnosti"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-2040"
+spremembe:
+  - kratica: ZPVPJN-A
+    datum: 2013-07-26
+    sop: 2013-01-2513
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o pravnem varstvu v postopkih javnega naročanja"
 ---
 
 # Zakon o pravnem varstvu v postopkih javnega naročanja
