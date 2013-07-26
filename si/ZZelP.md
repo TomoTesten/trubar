@@ -40,6 +40,10 @@ spremembe:
     datum: 2010-12-27
     sop: 2010-01-5481
     naziv: "Zakona o spremembah in dopolnitvah Zakona o železniškem prometu"
+  - kratica: ZZelP-I
+    datum: 2013-07-26
+    sop: 2013-01-2518
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o železniškem prometu"
 ---
 
 # Zakon o železniškem prometu
