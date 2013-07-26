@@ -1,0 +1,554 @@
+---
+kratica: ZS-K
+naziv: "Zakon o spremembah in dopolnitvah Zakona o sodiščih"
+vrsta: "Sprejet zakon"
+datum: 2013-07-26
+sop: 2013-01-2514
+objava: "Uradni list RS 63/13  str. 7636"
+kljucne_besede: ["sodišča"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-2514"
+---
+
+# Zakon o spremembah in dopolnitvah Zakona o sodiščih
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam
+
+
+## U K A Z
+o razglasitvi Zakona o spremembah in dopolnitvah Zakona o sodiščih (ZS-K)
+
+Razglašam Zakon o spremembah in dopolnitvah Zakona o sodiščih (ZS-K), ki ga je sprejel Državni zbor Republike Slovenije na seji dne 15. julija 2013.
+
+Št. 003-02-7/2013-19
+
+Ljubljana, dne 23. julija 2013
+
+Borut Pahor l.r.
+Predsednik
+Republike Slovenije
+
+
+## Z A K O N
+O SPREMEMBAH IN DOPOLNITVAH ZAKONA O SODIŠČIH (ZS-K)
+
+
+### 1. člen
+
+V Zakonu o sodiščih (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 45/08, 96/09, 86/10 – ZJNepS, 33/11 in 75/12 – ZSPDSLS-A) se za 1. členom doda nov 1.a člen, ki se glasi:
+
+
+### »1.a člen
+
+S tem zakonom se v zakonodajo Republike Slovenije kot pravni akt Evropske unije prenaša tudi Okvirni sklep Sveta z dne 27. novembra 2008 o varstvu osebnih podatkov, ki se obdelujejo v okviru policijskega in pravosodnega sodelovanja v kazenskih zadevah (UL L št. 350, 30. decembra 2008, str. 60).«.
+
+
+### 2. člen
+
+Za 12. členom se doda nov 12.a člen, ki se glasi:
+
+
+### »12.a člen
+
+V zadevah iz sodne pristojnosti si sodišča dajejo pravno pomoč, ki obsega opravljanje postopkovnih dejanj ter posredovanje osebnih in drugih podatkov, v skladu z zakonom. Drugim državnim organom, organom samoupravnih lokalnih skupnosti in nosilcem javnih pooblastil sodišča dajejo pomoč s posredovanjem podatkov, spisov in listin na vpogled oziroma omogočajo njihovo kopiranje, izpis ali prepis, kadar tako določa zakon.
+Sodišča obdelujejo osebne in druge podatke v okviru in za namen sodnega odločanja ter za opravljanje zadev sodne uprave v skladu s tem zakonom, zakoni, ki urejajo sodne postopke ali pristojnost sodišč, in zakonom, ki ureja varstvo osebnih podatkov. Osebni podatki, ki jih obdelujejo sodišča, morajo biti potrebni, ustrezni in po obsegu primerni namenom, za katere se zbirajo in naprej obdelujejo.
+Sodnik ali senat, ki odloča v zadevi iz sodne pristojnosti, skrbi, da so osebni podatki v spisih in zbirkah osebnih podatkov po tem zakonu iz pristojnosti sodišč čim bolj točni, popolni, posodobljeni in zanesljivi ter jih popravi, dopolni, uniči ali blokira, ko izve, da je to potrebno, v skladu z zakonom, ki ureja sodni postopek glede zadeve, v kateri odloča. Posameznik, na katerega se nanašajo osebni podatki v sodnem postopku, uresničuje svojo zahtevo za popravek osebnih podatkov z uporabo ugovorov, rednih ali izrednih pravnih sredstev v skladu z zakoni, ki urejajo sodni postopek v njegovi zadevi.
+Sodišča čezmejno in brezplačno posredujejo osebne podatke iz spisov, vpisnikov, imenikov, pomožnih knjig, registrov in javnih knjig iz pristojnosti sodišč pristojnim sodnim organom držav članic Evropske unije, tretjih držav in mednarodnih organizacij, če tako določa zakon, mednarodna pogodba ali neposredno uporaben pravni akt ali odločitev mednarodne organizacije, na katero je Republika Slovenija prenesla uresničevanje dela svojih suverenih pravic (v nadaljnjem besedilu: čezmejna izmenjava). Sodišča morajo pri posredovanju podatkov, če je to glede na vsebino podatkov ali zaprosila organa iz prejšnjega stavka potrebno, posebej navesti stanje njihove točnosti, popolnosti, posodobljenosti in zanesljivosti ter zaprositi za enako delovanje sodnih organov, ki njim zagotovijo potrebne osebne podatke s čezmejno izmenjavo. Pri obdelavi prejetih podatkov iz drugih držav ali mednarodnih organizacij so sodišča vezana na omejitve, ki jih je določil organ posredovanja podatkov.
+Pri čezmejni izmenjavi po prejšnjem odstavku se osebni podatki posredujejo le sodnim organom ali drugim podobnim organom drugih držav ali mednarodnih organizacij, če so potrebni za delovanje oziroma odločanje teh organov in če njihova obdelava ni v neskladju z nameni iz prvega in četrtega odstavka 3. člena tega zakona. Organom iz tretjih držav se podatki lahko posredujejo le na podlagi mednarodne pogodbe ali v skladu z odločbo državnega nadzornega organa za varstvo osebnih podatkov po določbah zakona, ki ureja varstvo osebnih podatkov. Organi iz prvega stavka tega odstavka so vezani na omejitve obdelave podatkov, ki jih na podlagi pravnega reda Republike Slovenije določi sodišče Republike Slovenije, ki posreduje osebne podatke iz Republike Slovenije, zlasti zaradi varstva postopkovnih interesov, tajnosti postopkov, zasebnosti oseb ali varstva domneve nedolžnosti in pravic do poštenega sojenja. Sodišče Republike Slovenije lahko te omejitve označi tudi s priloženimi opombami, ki se nanašajo na opis stanja zadeve oziroma faze sodnega postopka ali na pomen uradnega zapisa po pravnem redu Republike Slovenije.«.
+
+
+### 3. člen
+
+13. člen se spremeni tako, da se glasi:
+
+
+### »13. člen
+
+Sodišče mora po uradni dolžnosti pridobiti za sodni postopek potrebne sodbe in sklepe sodišč ter odločitve državnih organov, organov samoupravnih lokalnih skupnosti in nosilcev javnih pooblastil, ki jih navajajo oziroma katerih pridobitev predlagajo stranke sodnih postopkov in se nanašajo nanje oziroma na njihovo zadevo. Državni organi, organi samoupravnih lokalnih skupnosti in nosilci javnih pooblastil morajo sodiščem oziroma državnim organom ali nosilcem javnih pooblastil, ki jih določi sodišče pri izvajanju svojih pristojnosti, v kar najkrajšem roku in brezplačno predložiti zahtevane odločitve.
+Sodišče ima pri izvajanju svojih pristojnosti iz prejšnjega odstavka pravico zahtevati podatke iz prejšnjega odstavka tudi od drugih pravnih oseb in posameznikov, za katere meni, da z njimi razpolagajo, razen če zakon določa pridobitev podatkov le na podlagi sodne odločbe ali da gre za zaupno razmerje. Za izvajanje teh pristojnosti lahko obdeluje tudi podatke, ki so mu jih prostovoljno dale druge pravne osebe, posamezniki, druge države ali mednarodne organizacije, če drug zakon tega ne prepoveduje.
+Upravljavci podatkov ali zbirk podatkov, ki jih sodišče potrebuje za ugotovitev ali presojo dejstev za odločanje v postopkih iz svoje pristojnosti, morajo posredovati zahtevane podatke sodiščem brezplačno in nemudoma, najpozneje pa v osmih dneh. Če se ti podatki v javnem sektorju ali osebah javnega prava obdelujejo v informatizirani obliki in je zagotovljena tehnična izvedljivost neposrednega elektronskega dostopa do njih, imajo sodišča pravico do neposrednega in brezplačnega elektronskega dostopa, ki ga vključno z omogočanjem ustreznega prenosa podatkov zagotovi upravljavec evidenc, registrov ali javnih knjig. Sodišče lahko te podatke iz zbirk pregleduje, jih kopira, prepiše ali izpiše ter naprej obdeluje v postopkih, v katerih izpolnjuje svoje zakonsko določene naloge in pristojnosti. Povezovanje zbirk osebnih podatkov iz drugega stavka tega odstavka se izvede z enotno matično številko (EMŠO) ali davčno številko stranke ali naslovom njenega prebivališča ali pa z drugimi podatki, ki v povezavi z osebnim imenom stranke zagotavljajo enoznačno identifikacijo osebe, katere podatek se zahteva. Zbirke osebnih podatkov sodišč z drugimi zbirkami osebnih podatkov se povezujejo v skladu z zakoni, ki urejajo sodne postopke ali pristojnost sodišč, in zakonom, ki ureja varstvo osebnih podatkov.
+Sodnik ali po pooblastilu sodnika ali predsednika sodišča javni uslužbenec sodišča v zahtevi za predložitev podatkov ali ob neposrednem dostopu do podatkov iz prejšnjega odstavka navede, katere podatke zahteva, namen njihove obdelave oziroma pravno podlago, osebno ime in rojstni datum ali enotno matično številko (EMŠO) ali pa naslov prebivališča stranke ali drugih oseb, katerih podatke sodišče zahteva, ter enoznačno številko zadeve sodišča, po potrebi pa tudi primeren rok, v katerem naj bi bili zahtevani podatki predloženi sodišču.
+Za izvajanje pristojnosti ter izpolnitev nalog in obveznosti po tem zakonu in zakonih, ki urejajo sodne postopke ali pristojnost sodišč, lahko sodišče brezplačno pridobi in obdeluje te osebne podatke: za fizično osebo osebno ime, enotno matično številko občana (EMŠO), drugo uradno identifikacijsko številko, datum in kraj rojstva, poklic, zaposlitev in naslov ter vrsto prebivališča; če je fizična oseba tujec, namesto enotne matične številke občana ali druge uradne identifikacijske številke osebno ime, datum in kraj rojstva, poklic, zaposlitev in naslov stalnega ali začasnega prebivališča; za odgovorno osebo pravne osebe poleg podatkov iz tega odstavka tudi seznam del in nalog, ki jih opravlja; za pravno osebo pa firmo, sedež in matično številko.
+Občutljive osebne podatke lahko sodišče pridobi in obdeluje le, če je to nujno potrebno za izvajanje pristojnosti ter izpolnjevanje nalog in obveznosti po tem zakonu in zakonih, ki urejajo sodne postopke ali pristojnost sodišč, pri njihovi obdelavi pa mora zlasti upoštevati njihovo tajnost, sprotno spremljati izvajanje ukrepov njihovega zavarovanja in preprečevati nepooblaščene vpoglede.
+Sodišču do zastaranja kazenskega pregona ali do pravnomočnosti sodbe izjemoma ni treba obvestiti posameznika, katerega se ti podatki nanašajo, o pridobivanju teh podatkov, razen če zakon določa drugače.
+Sodišča imajo dostop do vsebine tajnih podatkov v skladu z zakonom, ki ureja tajne podatke, in jih lahko obdelujejo v sodnih postopkih v skladu z zakoni, ki urejajo sodne postopke ali pristojnost sodišč.«.
+
+
+### 4. člen
+
+V prvem odstavku 17.a člena se za besedo »deski« doda besedilo »in na spletni strani«.
+Četrti odstavek se spremeni tako, da se glasi:
+»Oglasna deska je deska primerne velikosti, pritrjena na steno sodišča, ki je dostopna javnosti. Podatki na njej se lahko objavijo tudi v elektronski obliki na način, ki zagotavlja dostop javnosti.«.
+Peti odstavek se spremeni tako, da se glasi:
+»Če se podatki, objavljeni na oglasni deski, in na spletni strani sodišča razlikujejo, se šteje, da so pravilni podatki, objavljeni na oglasni deski.«.
+
+
+### 5. člen
+
+V prvem odstavku 23. člena se besedilo »ministrstvo, pristojno za pravosodje« nadomesti z besedilom »Vrhovno sodišče Republike Slovenije«.
+V drugem odstavku se besedilo »ministrstvo, pristojno za pravosodje« nadomesti z besedilom »Vrhovno sodišče Republike Slovenije«.
+V četrtem odstavku se beseda »ministrstvo« nadomesti z besedilom »Vrhovno sodišče Republike Slovenije«.
+
+
+### 6. člen
+
+V prvem odstavku 28. člena se v osmi alinei črta besedilo »in merila za kakovost dela sodišč«.
+Deveta in deseta alinea se črtata.
+V drugem odstavku se besedilo »razrešitev sodnikov, o merilih za kakovost dela sodnikov in merilih za kakovosti dela sodišč in sprejme letno poročilo o učinkovitosti in uspešnosti sodišč,« nadomesti z besedilom »razrešitev sodnikov in o merilih za kakovost dela sodnikov«.
+
+
+### 7. člen
+
+V tretjem odstavku 28.a člena se črta besedilo »obravnava letno poročilo učinkovitosti in uspešnosti sodišč,«.
+
+
+### 8. člen
+
+Člen 28.b in 28.c se črtata.
+
+
+### 9. člen
+
+V drugem odstavku 29. člena se črta drugi stavek.
+
+
+### 10. člen
+
+Prvi odstavek 38. člena se spremeni tako, da se glasi:
+»Predsednik Vrhovnega sodišča Republike Slovenije s soglasjem ministra, pristojnega za pravosodje, po predhodnem mnenju predsednika sodišča, določi število sodniških mest na posameznem sodišču.«.
+
+
+### 11. člen
+
+V tretjem odstavku 40. člena se črta besedilo »in za okrajne in okrožne sodnike iz petega odstavka 38. člena tega zakona«.
+Četrti odstavek se črta.
+
+
+### 12. člen
+
+V drugem odstavku 40.a člena se črta besedilo »kot sodniki posamezniki ali predsedniki in člani senatov«. Za prvim stavkom se dodata nov drugi in tretji stavek, ki se glasita: »Predsednik okrožnega sodišča na sedežu višjega sodišča določi z letnim razporedom kot člane senatov in za opravljanje nujnih procesnih dejanj v zadevah specializiranega oddelka tudi druge okrožne sodnike tega okrožnega sodišča. Predsednik okrožnega sodišča na sedežu višjega sodišča določi z letnim razporedom kot člane senatov in za opravljanje nujnih procesnih dejanj v teh zadevah tudi okrajne sodnike okrajnih sodišč, ki so organizacijska enota tega okrožnega sodišča, vendar samo v tistih v zadevah specializiranega oddelka, za katere je zagrožena denarna kazen ali kazen zapora do treh let.«.
+V tretjem odstavku se besedilo »sodni svet na predlog ministra, pristojnega za pravosodje,« nadomesti z besedilom »predsednik Vrhovnega sodišča Republike Slovenije s soglasjem ministra, pristojnega za pravosodje«, besedilo »po predhodnem mnenju predsednika posameznega višjega sodišča« pa se črta.
+
+
+### 13. člen
+
+V 49. členu se besedilo »sodni svet na predlog ministra, pristojnega za pravosodje« nadomesti z besedilom »predsednik Vrhovnega sodišča Republike Slovenije s soglasjem ministra, pristojnega za pravosodje«.
+
+
+### 14. člen
+
+V sedmem odstavku 51. člena se besedilo »se sodnik porotnik lahko pritoži v roku osmih dni na ministrstvo, pristojno za pravosodje« nadomesti z besedilom »je dovoljeno sprožiti upravni spor«.
+
+
+### 15. člen
+
+V četrtem odstavku 53.b člena se besedilo »minister, pristojen za pravosodje« nadomesti z besedilom »predsednik Vrhovnega sodišča Republike Slovenije«.
+
+
+### 16. člen
+
+V 55. členu se besedilo »po pridobljenem strokovnem naslovu univerzitetni diplomirani pravnik« nadomesti z besedilom »v skladu z zakonom, ki ureja pravniški državni izpit,«.
+
+
+### 17. člen
+
+V četrtem odstavku 60. člena se besedi »sodni svet« nadomestita z besedilom »Vrhovno sodišče Republike Slovenije«.
+
+
+### 18. člen
+
+60.a člen se spremeni tako, da se glasi:
+
+
+### »60.a člen
+
+V zadeve sodne uprave spada tudi spremljanje, ugotavljanje in analiziranje učinkovitosti dela sodnikov na posameznem sodišču. Analiza učinkovitosti in uspešnosti dela sodnikov je sestavni del letnega poročila o poslovanju sodišča, ki ga predsednik sodišča za preteklo leto najpozneje do 28. februarja v tekočem letu predloži neposredno pristojnemu višjemu sodišču, Vrhovnemu sodišču Republike Slovenije, sodnemu svetu in ministrstvu, pristojnemu za pravosodje. Vrhovno sodišče Republike Slovenije pošlje letno poročilo o svojem poslovanju sodnemu svetu in ministrstvu, pristojnemu za pravosodje.
+Letno poročilo o poslovanju sodišča obsega naslednja področja:
+1. kadrovska opremljenost sodišča:
+– število sodniških mest in sistemiziranih delovnih mest sodnega osebja na zadnji dan v letu;
+– število zasedenih sodniških mest in delovnih mest sodnega osebja na zadnji dan v letu;
+– dejansko prisotnost sodnikov in sodnega osebja na delovnem mestu v poslovnem letu;
+2. sodna statistika:
+– število pripadlih pomembnejših in drugih zadev v poslovnem letu;
+– število rešenih pomembnejših in drugih zadev v poslovnem letu;
+– število nerešenih pomembnejših in drugih zadev v poslovnem letu;
+– število pomembnejših in drugih zadev v delu v poslovnem letu;
+– število pomembnejših in drugih zadev, v katerih je bilo vloženo pravno sredstvo;
+– število potrjenih, spremenjenih ali razveljavljenih odločb;
+– kriterij učinkovitosti – število rešenih zadev na sodnika in sodno osebje;
+– število prenosov pristojnosti za rešitev pomembnejših in drugih zadev (105.a člen tega zakona);
+– število dodeljenih zadev specializiranemu oddelku sodnikov, ki sodijo v zahtevnejših zadevah organiziranega in gospodarskega kriminala, terorizma, korupcijskih in drugih podobnih kaznivih dejanj;
+3. časovni standardi:
+– količnik reševanja pripada;
+– pričakovani čas rešitve zadev;
+– povprečna starost nerešenih zadev;
+– povprečni čas rešitve zadev v zadnjih 12 mesecih;
+– število rešenih in nerešenih pomembnejših in drugih zadev, ki so opredeljene kot sodni zaostanek;
+– reševanje zadev, starejših od pet let;
+– reševanje zadev, starejših od deset let;
+4. oceno doseganja ciljev iz sprejetega letnega programa dela za preteklo leto, pri čemer se posebej oceni doseganje poslovnih rezultatov.
+Pomembnejše zadeve iz 2. točke prejšnjega odstavka se določijo s sodnim redom.
+Letno poročilo o poslovanju posameznega sodišča pripravi predsednik sodišča.
+Pred predložitvijo letnega poročila v skladu s prvim odstavkom tega člena mora predsednik sodišča to poročilo obravnavati na letni konferenci sodnikov.
+Podrobnejšo obliko letnega poročila o poslovanju sodišča določi s podzakonskim predpisom minister, pristojen za pravosodje.«.
+
+
+### 19. člen
+
+Za 60.a členom se dodata nova 60.b in 60.c člen, ki se glasita:
+
+
+### »60.b člen
+
+Letno poročilo, v katerem Vrhovno sodišče Republike Slovenije oceni izvajanje sodne oblasti, obsega naslednja področja:
+1. kadrovska opremljenost sodišč:
+– število sodniških mest in sistemiziranih delovnih mest sodnega osebja na zadnji dan v letu;
+– število zasedenih sodniških mest in delovnih mest sodnega osebja na zadnji dan v letu;
+– dejansko prisotnost sodnikov in sodnega osebja na delovnem mestu v poslovnem letu;
+– oceno ustreznosti števila sodniških mest in mest sodnega osebja na posameznem sodišču;
+2. sodna statistika:
+– število pripadlih pomembnejših in drugih zadev v poslovnem letu;
+– število rešenih pomembnejših in drugih zadev v poslovnem letu;
+– število nerešenih pomembnejših in drugih zadev v poslovnem letu;
+– število pomembnejših in drugih zadev v delu v poslovnem letu;
+– število pomembnejših in drugih zadev, v katerih je bilo vloženo pravno sredstvo;
+– število potrjenih, spremenjenih ali razveljavljenih odločb;
+– kriterij učinkovitosti – število rešenih zadev na sodnika in sodno osebje;
+– število prenosov pristojnosti za rešitev pomembnejših in drugih zadev (105.a člen tega zakona);
+– število dodeljenih zadev specializiranemu oddelku sodnikov, ki sodijo v zahtevnejših zadevah organiziranega in gospodarskega kriminala, terorizma, korupcijskih in drugih podobnih kaznivih dejanj;
+3. časovni standardi:
+– količnik reševanja pripada;
+– pričakovani čas rešitve zadev;
+– povprečna starost nerešenih zadev;
+– povprečni čas rešitve zadev v zadnjih 12 mesecih;
+– število rešenih in nerešenih pomembnejših in drugih zadev, ki so opredeljene kot sodni zaostanek;
+– reševanje zadev, starejših od pet let;
+– reševanje zadev, starejših od deset let;
+4. primerjalna ocena zbranih podatkov med sodišči iste stopnje in iste vrste na podlagi meril iz 3. točke tega odstavka;
+5. drugi podatki, ki so potrebni za oceno učinkovitosti in uspešnosti dela sodišč.
+Letno poročilo Vrhovnega sodišča Republike Slovenije se izdela za vsako sodišče posebej, za vsa sodišča iste stopnje skupaj (okrajna, okrožna in višja sodišča), za specializirana sodišča (delovna in socialna sodišča, upravno sodišče) in za Vrhovno sodišče Republike Slovenije ter za vsa sodišča skupaj.
+Vrhovno sodišče Republike Slovenije pošlje letno poročilo o učinkovitosti in uspešnosti sodišč Državnemu zboru Republike Slovenije, v vednost pa tudi sodnemu svetu in ministrstvu, pristojnemu za pravosodje, do 15. maja v tekočem letu za preteklo leto ter ga objavi na svojih spletnih straneh.
+
+
+### 60.c člen
+
+Na podlagi poročila iz prejšnjega člena za preteklo leto Vrhovno sodišče Republike Slovenije sprejme merila za kakovost dela sodišč za naslednje leto, ki vsebujejo procese reševanja zadev, navodila za učinkovito izvajanje sodne uprave ter določajo pričakovani čas opravljanja tipičnih procesnih dejanj in reševanja zadev na posameznih vrstah in stopnjah sodišč. K merilom za kakovost dela sodišč v delu, ki se nanaša na določitev časa za opravljanje tipičnih procesnih dejanj in reševanja zadev na posameznih vrstah in stopnjah sodišč, daje predhodno soglasje minister, pristojen za pravosodje.«.
+
+
+### 20. člen
+
+V prvem odstavku 61.b člena se besedilo »minister, pristojen za pravosodje, na predlog predsednika sodišča« nadomesti z besedama »predsednik sodišča«.
+Četrti in peti odstavek se spremenita tako, da se glasita:
+»Predsednik sodišča izbere najustreznejšega kandidata, pri čemer upošteva znanje, izkušnje, priporočila in dosežke kandidatov na področjih iz prvega odstavka 61.c člena tega zakona.
+Predsednik sodišča v odločbi o imenovanju navede razloge za imenovanje. Če kandidata ne izbere, mora navesti razloge za neimenovanje. Odločbo o imenovanju ali sklep, s katerim predsednik sodišča ne izbere nobenega kandidata, se vroči vsem prijavljenim kandidatom. Zoper odločbo ali sklep je dovoljeno sprožiti upravni spor v osmih dneh od dneva vročitve odločbe oziroma sklepa.«.
+
+
+### 21. člen
+
+V prvem odstavku 61.c člena se besedi »šestih mesecih« nadomestita z besedama »enem letu«, besedilo »ministru, pristojnemu za pravosodje,« se nadomesti z besedilom »predsedniku sodišča«.
+
+
+### 22. člen
+
+V prvem odstavku 62. člena se besedi »naslednje pogoje« nadomestita z besedama »naslednja pogoja«. 1. točka se črta, dosedanji 2. in 3. točka pa postaneta 1. in 2. točka.
+V drugem odstavku se besedi »šestih mesecih« nadomestita z besedama »enem letu«, za besedo »svetu« pa se dodata vejica in besedilo »predsedniku Vrhovnega sodišča Republike Slovenije«.
+V tretjem odstavku se besedilo »minister, pristojen za pravosodje« nadomesti z besedilom »predsednik sodišča«.
+
+
+### 23. člen
+
+Drugi odstavek 62.a člena se spremeni tako, da se glasi:
+»Predsednike drugih sodišč imenuje z odločbo sodni svet po predhodnem mnenju ministra, pristojnega za pravosodje, predhodnem mnenju predsednika Vrhovnega sodišča Republike Slovenije in predhodnem mnenju predsednika neposredno višjega sodišča oziroma predsednika okrožnega sodišča za imenovanje predsednika okrajnega sodišča, ki je organizacijska enota tega okrožnega sodišča, za šest let z možnostjo ponovnega imenovanja.«.
+
+
+### 24. člen
+
+V petem odstavku 62.b člena se besedi »Pisno mnenje« nadomestita z besedilom »Pisni mnenji predsednika Vrhovnega sodišča Republike Slovenije in«, beseda »vroči« pa z besedo »vročita«.
+
+
+### 25. člen
+
+V prvem odstavku 64. člena se v 1. točki za besedo »predpisi« doda besedilo »ali merili za kakovost dela sodišč«.
+Za tretjim odstavkom se doda nov četrti odstavek, ki se glasi:
+»Poročilo iz drugega odstavka tega člena in izjava iz prejšnjega odstavka se pošljeta sodnemu svetu.«.
+Dosedanji četrti odstavek, ki postane peti odstavek, se spremeni tako, da se glasi:
+»O razrešitvi predsednika sodišča odloči sodni svet, ki mora pred odločitvijo pridobiti mnenje ministra, pristojnega za pravosodje, in predsednika Vrhovnega sodišča Republike Slovenije.«.
+V dosedanjem petem odstavku, ki postane šesti odstavek, se beseda »četrtega« nadomesti z besedo »petega«.
+
+
+### 26. člen
+
+Za 65. členom se dodata nova 65.a in 65.b člen, ki se glasita:
+
+
+### »65.a člen
+
+Minister, pristojen za pravosodje, ustanovi službo za nadzor organizacije poslovanja sodišč, ki deluje v okviru ministrstva, pristojnega za pravosodje (v nadaljnjem besedilu: služba za nadzor), in po določbah tega zakona skrbi za nadzor nad organizacijo poslovanja sodišč.
+Pristojnosti službe za nadzor so:
+– izvajanje nadzora nad sodno upravo, zlasti glede organizacije poslovanja sodišč;
+– nadzor nad izpolnjevanjem meril za kakovost dela sodišč pri opravljanju zadev sodne uprave;
+– opravljanje taksnih pregledov po določbah zakona, ki ureja sodne takse, in
+– skrb za izvajanje sodnega reda in opravljanje administrativnih pregledov v skladu s sodnim redom.
+Za izvajanje svojih pristojnosti lahko služba za nadzor:
+– vpogleduje v vpisnike in drugo dokumentacijo sodišča, povezano z opravljanjem zadev sodne uprave, ter zahteva ustna ali pisna pojasnila od predsednika sodišča, direktorja sodišča, generalnega sekretarja Vrhovnega sodišča Republike Slovenije in sodnega osebja v zvezi z zatrjevanimi, domnevnimi ali ugotovljenimi nepravilnostmi pri opravljanju teh zadev, pri taksnih in administrativnih pregledih pa lahko vpogleduje še v spise sodišča;
+– zahteva predložitev podatkov o poslovanju sodišča, delu predsednika oziroma direktorja sodišča v zadevah sodne uprave, zahteva predložitev pisnih pojasnil ter poročil o organizaciji in nadzoru dela na sodišču in opravljanju posameznih nalog sodne uprave, pri čemer se predsednik sodišča višje stopnje hkrati s predložitvijo podatkov oziroma pojasnil in poročil do njih opredeli v svojem mnenju;
+– vstopa v prostore sodišča, opravlja razgovore s predsednikom sodišča, direktorjem sodišča, generalnim sekretarjem Vrhovnega sodišča Republike Slovenije in sodnim osebjem, ter
+– zahteva ali predlaga druge ukrepe za izvajanje svoje pristojnosti po tem zakonu.
+Sodišče mora službi za nadzor omogočiti izvajanje pristojnosti, ki so določene z zakonom.
+Služba za nadzor pri izvajanju svojih pristojnosti ne sme posegati v neodvisnost sodnika pri opravljanju sodniške službe, v domnevo nedolžnosti, tajnost sodnega postopka ali jamstvo poštenega sojenja in ne sme pregledovati sodnih spisov, razen v delu, ki se nanaša na taksne in administrativne preglede.
+Služba za nadzor izvaja nadzor neposredno pri sodišču ali na podlagi predloženih dokumentov sodišča. O ugotovitvah nadzora se pripravi poročilo in pošlje predsedniku tistega sodišča, kjer je bil opravljen nadzor. V poročilu se lahko predsedniku sodišča predlaga, da odpravi nezakonitosti ali izvede druge potrebne ukrepe.
+Služba za nadzor lahko v zvezi z ugotovitvami nadzora od predsednika sodišča zahteva, da preveri ugotovitve nadzora v skladu z 71.c členom tega zakona in sprejme ustrezne ukrepe. Služba za nadzor predlaga ministru, pristojnemu za pravosodje, da izvede nadaljnje ukrepe v skladu s tem zakonom in zakonom, ki ureja sodniško službo.
+Službo za nadzor vodi sodnik, dodeljen tej službi v skladu z določbami zakona, ki ureja sodniško službo.
+Podrobnejšo organizacijo dela in izvajanje pristojnosti službe za nadzor določi minister, pristojen za pravosodje.
+
+
+### 65.b člen
+
+Sodišče, pri katerem je služba za nadzor na podlagi prejšnjega člena ugotovila nepravilnosti, ji mora predložiti odzivno poročilo o odpravljanju ugotovljenih nepravilnosti, ki ga pripravi predsednik sodišča. Predložiti ga mora v 30 dneh po vročitvi poročila iz šestega odstavka prejšnjega člena sodišču. Odzivno poročilo ni potrebno, če je v poročilu iz šestega odstavka prejšnjega člena navedeno, da so bili že med izvajanjem nadzora sprejeti ustrezni ukrepi za odpravo ugotovljenih nepravilnosti. Služba za nadzor lahko preveri odzivno poročilo z dodatnim nadzorom.
+Če služba za nadzor ugotovi, da v odzivnem poročilu ni navedeno zadovoljivo odpravljanje ugotovljenih nepravilnosti, ali če sodišče ne predloži odzivnega poročila v predpisanem roku, služba za nadzor obvesti o svojih ugotovitvah sodni svet, predsednika Vrhovnega sodišča Republike Slovenije in ministra, pristojnega za pravosodje. Če ugotovljene nepravilnosti vplivajo na izpolnjevanje meril za kakovost dela sodišč, lahko služba za nadzor predlaga sodnemu svetu razrešitev predsednika sodišča. Sodni svet ravna v skladu s 64. členom tega zakona.
+Sodni svet po prejemu obvestila iz prejšnjega odstavka to obvestilo obravnava in po potrebi odredi obvezujoča navodila predsedniku sodišča glede izvedbe predlogov službe za nadzor o odpravi nezakonitosti oziroma o izvedbi drugih potrebnih ukrepov.
+Služba za nadzor enkrat letno o opravljenih nadzorih in svojih ugotovitvah poroča ministru, pristojnemu za pravosodje. Ta s poročilom seznani tudi sodni svet in predsednika Vrhovnega sodišča Republike Slovenije ter jima predlaga potrebne ukrepe za izboljšanje stanja.«.
+
+
+### 27. člen
+
+67. člen se spremeni tako, da se glasi:
+
+
+### »67. člen
+
+Opravljanje zadev sodne uprave na prvostopenjskih sodiščih nadzoruje predsednik sodišča višje stopnje, na sodiščih vseh stopenj pa predsednik Vrhovnega sodišča Republike Slovenije in služba za nadzor.
+Pri izvajanju nadzora sodne uprave lahko predsedniki sodišč višje stopnje zahtevajo pisna pojasnila in poročila o opravljanju posameznih nalog ter pregledujejo sodne spise.
+Določbe prejšnjih odstavkov se ne nanašajo na nadzor sodne uprave na Vrhovnem sodišču Republike Slovenije.«.
+
+
+### 28. člen
+
+67.a člen se spremeni tako, da se glasi:
+
+
+### »67.a člen
+
+Ministrstvo, pristojno za pravosodje, lahko od predsednikov sodišč zahteva podatke in poročila o stanju reševanja posamezne zadeve ali vrste zadev ali druge podatke v zvezi z delom sodišča, ki jih potrebuje za obveščanje javnosti, za odgovore na vprašanja Državnega zbora Republike Slovenije, Državnega sveta Republike Slovenije, Vlade Republike Slovenije, Računskega sodišča Republike Slovenije, Ustavnega sodišča Republike Slovenije, varuha človekovih pravic in predsednika Republike Slovenije ali za izvajanje svojih pristojnosti po tem zakonu ali zakonu, ki ureja sodniško službo.
+Ministrstvo, pristojno za pravosodje, pošlje zahtevo z navedbo razloga iz prejšnjega odstavka predsedniku sodišča, ki mora ministrstvu, pristojnemu za pravosodje, odgovoriti prednostno, da je mogoč pravočasen odgovor.
+Ministrstvo, pristojno za pravosodje, pri izvajanja svojih pristojnosti po tem členu ne sme posegati v neodvisnost sodnika pri opravljanju sodniške službe, v domnevo nedolžnosti, tajnost sodnega postopka ali jamstvo poštenega sojenja. Predsednik sodišča lahko zavrne predložitev odgovora v celoti ali delno, če bi to posegalo v ta načela ali jamstvo, in to obrazloži. Na zahtevo ministra, pristojnega za pravosodje, o zahtevi iz prvega odstavka tega člena oziroma utemeljenosti zavrnitve odgovora dokončno odloči predsednik Vrhovnega sodišča Republike Slovenije.«.
+
+
+### 29. člen
+
+Peti odstavek 70. člena se črta.
+Dosedanji šesti in sedmi odstavek, ki postaneta peti in šesti odstavek, se spremenita tako, da se glasita:
+»Strategijo razvoja informacijske podpore v poslovanju sodišč sprejme Svet uporabnikov za informatizacijo sodišč na podlagi predhodnega mnenja ministrstva, pristojnega za javno upravo, na predlog direktorja Centra za informatiko pri Vrhovnem sodišču Republike Slovenije.
+Sestavo Sveta uporabnikov za informatizacijo sodišč ter način in pogoje za njegovo delovanje določa sodni red.«.
+
+
+### 30. člen
+
+Za tretjim odstavkom 71. člena se doda nov četrti odstavek, ki se glasi:
+»Predsednik okrožnega sodišča lahko okrajnega sodnika, ki izpolnjuje pogoje za okrožnega sodnika, in opravlja sodniško službo na okrajnem sodišču, ki je organizacijska enota tega okrožnega sodišča, z letnim razporedom razporedi tudi na okrožno sodišče, za sojenje v zadevah iz pristojnosti tega sodišča, če je to potrebno zaradi izvajanja ukrepov za doseganje meril za kakovost dela sodišč.«.
+V dosedanjem četrtem odstavku, ki postane peti odstavek, se prvi stavek spremeni tako, da se glasi: »Zoper razporeditev v skladu s tem členom, drugim odstavkom 40.a člena ali prvim odstavkom 40.d člena lahko razporejeni sodnik v treh dneh po objavi letnega razporeda na oglasni deski sodišča napove pritožbo predsedniku sodišča, ki določi letni razpored, ta pa mora v nadaljnjih treh dneh svojo odločitev obrazložiti.«.
+Dosedanji peti, šesti in sedmi odstavek postanejo šesti, sedmi in osmi odstavek.
+
+
+### 31. člen
+
+V prvem odstavku 71.a člena se besedilo »do 30. junija« nadomesti z besedilom »do 31. oktobra« in črta besedilo »sodnemu svetu,«.
+
+
+### 32. člen
+
+73. člen se spremeni tako, da se glasi:
+
+
+### »73. člen
+
+Če predsednik sodišča višje stopnje na podlagi podatkov o poslovanju sodišča nižje stopnje, vložene nadzorstvene pritožbe, rokovnega predloga ali drugih podatkov oceni, da je bila ali bi lahko bila kršena pravica stranke do sojenja brez nepotrebnega odlašanja, ali da niso bila ali bi lahko ne bila spoštovana pravila o vrstnem redu reševanja zadev, zakonski roki za razpis narokov ali izdelavo sodnih odločb ali druga pravila procesnega vodstva, lahko odredi pregled poslovanja v zadevi pri sodišču nižje stopnje. Ta pregled se lahko odredi v zadevi, v kateri je že bilo ali še ni bilo pravnomočno odločeno.
+Predsednik višje stopnje mora odrediti pregled poslovanja iz prejšnjega odstavka, če prejme obrazloženo zahtevo predsednika Vrhovnega sodišča Republike Slovenije, sodnega sveta, disciplinskega tožilca, disciplinskega sodišča ali ministra, pristojnega za pravosodje.
+Na zahtevo predsednika višje stopnje dokončno odloči o utemeljenosti zahteve iz prejšnjega odstavka predsednik Vrhovnega sodišča Republike Slovenije, o utemeljenosti zahteve predsednika Vrhovnega sodišča Republike Slovenije pa sodni svet.
+Predsednik sodišča višje stopnje z odredbo določi sodnika, ki opravi pregled poslovanja in ki ne sme opravljati funkcije na sodišču, na katerem se vodi zadeva, v kateri se odredi ta pregled.
+O pregledu poslovanja se sestavi poročilo, v katerem se navedejo zlasti potek reševanja zadeve, razlogi in ocena morebitnih nepravilnosti iz prvega odstavka tega člena ter ugotovitve pregleda in morebitni sprejeti ukrepi. Poročilo o pregledu poslovanja predsednik sodišča višje stopnje predloži predsedniku sodišča, na katerem je bil opravljen pregled, če je bil opravljen na zahtevo, pa tudi vlagatelju zahteve.
+Predsednik Vrhovnega sodišča Republike Slovenije, sodnega sveta, disciplinski tožilec ali disciplinsko sodišče, minister, pristojen za pravosodje, predsednik sodišča višje stopnje in predsednik sodišča, na katerem je bil opravljen pregled, lahko podatke oziroma ugotovitve iz poročila uporabijo za izvedbo ali predlaganje uvedbe ukrepov ali postopkov po določbah tega zakona, zakona, ki ureja sodniško službo, in zakona, ki ureja varstvo pravice do sojenja brez nepotrebnega odlašanja, zlasti glede ocene sodniške službe, postopka ugotavljanja disciplinske odgovornosti sodnika, za izvedbo ali predlaganje uvedbe ukrepov ali postopkov na podlagi drugih zakonskih pristojnosti ali obveznosti ministrstva, pristojnega za pravosodje, zlasti glede ocene službe državnega tožilca ali postopka ugotavljanja disciplinske odgovornosti državnega tožilca.«.
+
+
+### 33. člen
+
+Drugi odstavek 74.b člena se spremeni tako, da se glasi:
+»Minister, pristojen za pravosodje, lahko državnim pravobranilcem, javnim uslužbencem državnega pravobranilstva in ministrstva, pristojnega za pravosodje, predsednik Vrhovnega sodišča Republike Slovenije pa javnim uslužbencem sodišč, sodnikom in drugim funkcionarjem sodišč praviloma na dan pravosodja podeljujeta priznanja za posebne delovne uspehe ali prizadevanje in za uspešno končane zahtevne projekte iz njihove pristojnosti oziroma opravljanje nalog ali izvajanje pooblastil.«.
+V tretjem odstavku se črta besedilo »državnega tožilstva,«.
+
+
+### 34. člen
+
+Za 74.b členom se doda nov 74.c člen, ki se glasi:
+
+
+### »74.c člen
+
+Strokovno združenje, ki zastopa interes najmanj polovice sodnikov, ima status društva v javnem interesu.«.
+
+
+### 35. člen
+
+78. člen se spremeni tako, da se glasi:
+
+
+### »78. člen
+
+Centralno kadrovsko evidenco za sodnike in javne uslužbence sodišč upravlja Vrhovno sodišče Republike Slovenije.
+Centralna kadrovska evidenca se lahko upravlja z uporabo informacijske tehnologije.
+V centralni kadrovski evidenci se obdelujejo osebni in drugi podatki sodnikov:
+1. identifikacijski podatki (osebno ime, naslov prebivališča in EMŠO),
+2. podatki o službenem razmerju za sodnika (datum nastopa sodniške službe oziroma odločba o izvolitvi in imenovanju sodnika, sodniško mesto);
+3. podatki o opravljanju funkcij, sodelovanju v projektnih skupinah in opravljanju drugega dela v interesu delodajalca;
+4. podatki o stopnji izobrazbe, funkcionalnem in specialnem znanju, udeležbi na različnih oblikah izpopolnjevanja in usposabljanja ter drugi podatki o strokovni usposobljenosti;
+5. podatki o izkušnjah iz evropskih zadev;
+6. podatki o prejšnjih delovnih razmerjih, delovni, pokojninski in službeni dobi;
+7. podatki o prenehanju službenega razmerja za sodnika;
+8. podatki, potrebni za obračun plače;
+9. ocena sodniške službe in podatki o učinkovitosti sodnikovega dela;
+10. evidenca napredovanj, priznanj, nagrad, dodelitev in razporeditev;
+11. podatki o dokončno ugotovljeni disciplinski in odškodninski odgovornosti;
+12. podatki o pospešitvenih pravnih sredstvih po določbah zakona, ki ureja varstvo pravice do sojenja brez nepotrebnega odlašanja, ki niso bila očitno neutemeljena, in o ukrepih v zvezi z njimi ter podatki o izvedenih službenih nadzorih;
+13. podatki o zadevah, ki jih je reševal oziroma jih rešuje sodnik in v katerih je Evropsko sodišče za človekove pravice dokončno odločilo, da je bila pravica ali svoboščina stranke kršena zaradi ravnanja sodnika, ali je bila zaradi te kršitve sklenjena poravnava v postopku pred navedenim sodiščem (navedba sodnika, zadeve, pravne podlage, ki je bila kršena, navedba točke ali točk sodbe, v kateri je bilo ugotovljeno, da je sodišče Republike Slovenije kršilo pravno podlago);
+14. drugi podatki v skladu z zakonom.
+V centralni kadrovski evidenci se obdelujejo osebni in drugi podatki javnih uslužbencev:
+1. identifikacijski podatki (osebno ime, naslov prebivališča in EMŠO);
+2. podatki o delovnem razmerju za javnega uslužbenca (vrsta delovnega razmerja – za določen ali nedoločen čas; datum sklenitve delovnega razmerja);
+3. podatki o sedanjem delovnem mestu oziroma položaju in o prejšnjih delovnih mestih, dodelitvah oziroma položajih v organih;
+4. podatki o imenovanjih, napredovanjih in veljavnem nazivu oziroma položaju;
+5. podatki o stopnji izobrazbe, funkcionalnem in specialnem znanju, udeležbi na različnih oblikah izpopolnjevanja in usposabljanja ter o opravljenih strokovnih izpitih in preizkusih znanja, pa tudi drugi podatki o strokovni usposobljenosti;
+6. podatki o izkušnjah iz evropskih zadev;
+7. podatki o prejšnjih delovnih razmerjih, delovni, pokojninski in službeni dobi;
+8. podatki o opravljanju funkcij, sodelovanju v projektnih skupinah in opravljanju drugega dela v interesu delodajalca;
+9. podatki o letnih ocenah;
+10. podatki o priznanjih in nagradah;
+11. podatki o dokončno ugotovljeni disciplinski in odškodninski odgovornosti;
+12. podatki o dokončni ugotovitvi nesposobnosti;
+13. podatki o prenehanju delovnega razmerja;
+14. kratek življenjepis, če tako želi oziroma s tem soglaša javni uslužbenec;
+15. podatki o dovoljenju za dostop do tajnih podatkov;
+16. podatki, potrebni za obračun plače, in
+17. drugi podatki v skladu z zakonom.
+Zbirka dokumentov, ki se nanašajo na podatke iz prejšnjih dveh odstavkov, se obdeluje na sodišču, na katerem sodnik opravlja sodniško službo oziroma na katerem javni uslužbenec dela, lahko pa tudi v centralni kadrovski evidenci.
+Podatki iz centralne kadrovske evidence za sodnike so zaupni, razen podatkov iz 2. in 10. točke tretjega odstavka tega člena. Organi, ki so pristojni sprejemati odločitve, o katerih se po določbi prejšnjega odstavka vodi centralna kadrovska evidenca, in organi, ki upravljajo zbirke osebnih podatkov oziroma evidence, ki vsebujejo te podatke, morajo podatke brezplačno zagotoviti Vrhovnemu sodišču Republike Slovenije, če niso javno dostopni. Državno pravobranilstvo zagotovi Vrhovnemu sodišču Republike Slovenije podatke iz 13. točke tretjega odstavka tega člena.
+Podatki iz centralne kadrovske evidence se hranijo še deset let po prenehanju službenega razmerja sodnika ali delovnega razmerja javnega uslužbenca. Po poteku teh rokov se podatki arhivirajo v skladu s predpisi, ki urejajo arhivsko gradivo in arhive.«.
+
+
+### 36. člen
+
+79. člen se spremeni tako, da se glasi:
+
+
+### »79. člen
+
+Oseba, katere podatki so vpisani v centralni kadrovski evidenci, ima pravico zahtevati brezplačni dostop do vsebine podatkov, ki se nanašajo nanjo, in zahtevati popravek, če so podatki napačni.
+Pravico do brezplačnega dostopa v centralno kadrovsko evidenco imajo sodni svet, ministrstvo, pristojno za pravosodje, disciplinsko sodišče, disciplinski tožilec, personalni svet in predsednik sodišča zaradi izvajanja pooblastil po tem zakonu oziroma zakonu, ki ureja sodniško službo. Pravico do dostopa iz prejšnjega stavka imajo tudi nadzorni organi, določeni z zakonom.
+Podatki iz centralne kadrovske evidence se lahko uporabijo za izvajanje tega zakona in zakona, ki ureja sodniško službo, zlasti glede urejanja položaja, pravic, dolžnosti in odgovornosti sodnikov ter za opravljanje zadev pravosodne in sodne uprave. Podatki iz centralne kadrovske evidence, ki se nanašajo na javne uslužbence, se lahko uporabijo tudi za izvajanje politike upravljanja kadrovskih virov, za obračun plač in izpolnjevanje drugih obveznosti delodajalca ter za odločanje o pravicah in obveznostih iz delovnih razmerij.«
+
+
+### 37. člen
+
+82. člen se spremeni tako, da se glasi:
+
+
+### »82. člen
+
+Zaradi učinkovitega opravljanja zadev sodne uprave, vodenja in preglednosti sodnih zadev, zakonitega odločanja sodišč, spoštovanja pravic strank in drugih udeležencev sodnih postopkov, zaradi njihove evidence in statističnega poročanja, upravljajo sodišča vpisnike, imenike, pomožne knjige, registre in javne knjige, v katerih obdelujejo osebne in druge podatke iz spisov sodnih zadev.
+Podatke iz prejšnjega odstavka obdelujejo in naprej posredujejo sodišča v skladu s tem zakonom, zakoni, ki urejajo sodne postopke, in drugimi zakoni, ki urejajo pristojnost sodišč. Dostop do arhiviranih podatkov ima sodišče, druge osebe pa v skladu s tem členom in z določbami zakona, ki ureja varstvo osebnih podatkov. Podatki iz vpisnikov, imenikov in pomožnih knjige se zaradi pravne varnosti oseb hranijo trajno, podatki iz registrov in javnih knjig iz pristojnosti sodišča pa v skladu z roki iz zakonov, ki urejajo registre in javne knjige.
+Vpisnike, imenike in pomožne knjige sodišče hrani v skladu z zakonom, ki ureja varstvo dokumentarnega gradiva, in zakonom, ki ureja varstvo osebnih podatkov. Registri in javne knjige iz pristojnosti sodišč se hranijo v skladu z zakoni, ki urejajo registre in javne knjige.
+Podrobnejšo obliko in vsebino posameznih sodnih vpisnikov, imenikov, pomožnih knjig in tipiziranih obrazcev za poslovanje sodišč in učinkovito vodenje postopkov ter statistično poročanje predpiše v skladu z zakonom minister, pristojen za pravosodje.
+Posameznik, na katerega se nanašajo osebni podatki, lahko zahteva seznanitev z vpisanimi podatki v vpisnikih, imenikih in pomožnih knjigah v skladu z zakonom, ki ureja varstvo osebnih podatkov, razen če zakon ne določa drugače. Seznanitev z vpisanimi osebnimi in drugimi podatki lahko predsednik sodišča dovoli tudi vsakomur s pravnim interesom za seznanitev v skladu z zakonom, ki ureja sodni postopek ali pristojnost sodišč.
+Predsednik sodišča lahko dovoli vpogled, prepis, kopiranje ali izpis iz vpisnikov, imenikov, evidenc in spisov sodišča posamezniku, ki dokaže, da podatke iz njih potrebuje za znanstvenoraziskovalno delo. Dovoljenje se lahko nanaša le na vpisnike, imenike, evidence in spise, ki so arhivirani. Posameznik lahko v podatke iz vpisnikov, imenikov, evidenc in spisov sodišča vpogleda ali jih prepiše brezplačno, kopira ali izpiše pa jih na svoje stroške. Vpogled, prepis, kopiranje ali izpis se opravi pod nadzorom javnega uslužbenca sodišča, ki je za to pisno pooblaščen.
+Stroški pravice do seznanitve po petem in šestem odstavku tega člena se odmerijo in zaračunajo s smiselno uporabo predpisov, ki urejajo varstvo osebnih podatkov.«.
+
+
+### 38. člen
+
+V prvem odstavku 87. člena se v 5. točki za besedama »univerzitetno izobrazbo« doda besedilo »ali končan magistrski študijski program«.
+V četrtem odstavku se za besedo »izobrazbo« doda besedilo »ali končan magistrski študijski program«.
+
+
+### 39. člen
+
+V 92. členu se besedilo »določbe drugega in tretjega odstavka 87. člena« nadomesti z besedilom »določbe drugega, tretjega in šestega odstavka 87. člena«.
+
+
+### 40. člen
+
+Za prvim odstavkom 94. člena se doda nov drugi odstavek, ki se glasi:
+»Sodni tolmači morajo v tridesetih dneh po prisegi zaradi overitve svojih podpisov in pečatov na listinah, ki so namenjene uporabi v tujini, deponirati podpise in pečate na ministrstvu, pristojnem za pravosodje.«.
+
+
+### PREHODNE IN KONČNE DOLOČBE
+
+
+### 41. člen
+
+Sodni tolmači, imenovani do uveljavitve tega zakona, morajo deponirati podpise in pečate na ministrstvu, pristojnem za pravosodje, v treh mesecih po uveljavitvi tega zakona.
+
+
+### 42. člen
+
+Organi, ki so pristojni sprejemati odločitve, glede katerih se upravlja osebna evidenca, in organi, ki upravljajo zbirke osebnih podatkov oziroma evidence s podatki, ki so potrebni za obdelavo podatkov v osebni evidenci, morajo Vrhovnemu sodišču Republike Slovenije podatke brezplačno posredovati v enem mesecu po uveljavitvi tega zakona.
+V šestih mesecih po uveljavitvi tega zakona ministrstvo, pristojno za pravosodje, prenese centralno kadrovsko evidenco sodnikov in javnih uslužbencev sodišč na Vrhovno sodišče Republike Slovenije, ki jo uskladi z določbami tega zakona.
+
+
+### 43. člen
+
+Postopki za imenovanje in razrešitev direktorjev sodišč, ki so bili začeti pred uveljavitvijo tega zakona, se končajo po dosedanjih predpisih.
+
+
+### 44. člen
+
+Letno poročilo o učinkovitosti in uspešnosti sodišč za leto 2013 se sprejme v skladu z določbami Zakona o sodiščih (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 45/08, 96/09, 86/10 – ZJNepS, 33/11 in 75/12 – ZSPDSLS-A).
+
+
+### 45. člen
+
+Služba za nadzor organizacije poslovanja sodišč se ustanovi in začne delati v šestih mesecih po uveljavitvi tega zakona.
+Do začetka dela službe za nadzor organizacije poslovanja sodišč se uporabljajo določbe 67. člena Zakona o sodiščih (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 45/08, 96/09, 86/10 – ZJNepS, 33/11 in 75/12 – ZSPDSLS-A).
+
+
+### 46. člen
+
+Ne glede na 78. in 79. člen zakona se do ustrezne spremembe 58. člena Zakona o državnem pravobranilstvu (Uradni list RS, št. 94/07 − uradno prečiščeno besedilo, 77/09 in 46/13) za državne pravobranilce, pomočnike državnih pravobranilcev in druge zaposlene v državnem pravobranilstvu še naprej smiselno uporabljata 78. in 79. člen Zakona o sodiščih (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 45/08, 96/09, 86/10 – ZJNepS, 33/11 in 75/12 – ZSPDSLS-A).
+
+
+### 47. člen
+
+Ne glede na določbe Zakona o javnih uslužbencih (Uradni list RS, št. 63/07 – uradno prečiščeno besedilo, 65/08, 69/08 – ZTFI-A, 69/08 – ZZavar-E in 40/12 – ZUJF) do začetka uporabe sprememb zakona, ki ureja javne uslužbence, ki se nanašajo na pristojnost za vodenje kadrovskih evidenc, centralno kadrovsko evidenco za sodnike in javne uslužbence sodišč upravlja Vrhovno sodišče Republike Slovenije.
+
+
+### 48. člen
+
+V Zakonu o bančništvu (Uradni list RS, št. 99/10 – uradno prečiščeno besedilo (52/11 – popr.), 9/11 – ZPlaSS-B, 35/11, 59/11, 85/11, 48/12 in 105/12) z dnem uveljavitve tega zakona preneha veljati 339. člen.
+V Zakonu o trgu finančnih instrumentov (Uradni list RS, št. 108/10 – uradno prečiščeno besedilo, 78/11, 55/12 in 105/12 – ZBan-1J) z dnem uveljavitve tega zakona preneha veljati 508. člen. V petem odstavku 499.b člena se v drugem in tretjem stavku črta beseda »vrhovno«.
+V Zakonu o prevzemih (Uradni list RS, št. 79/06, 67/07 – ZTFI (100/07 – popr.), 1/08, 68/08, 35/11, 105/11 – odl. US, 10/12, 38/12 in 56/13) se z dnem uveljavitve tega zakona v četrtem odstavku 64. člena beseda »Vrhovno« nadomesti z besedo »Upravno«.
+V Zakonu o revidiranju (Uradni list RS, št. 65/08) z dnem uveljavitve tega zakona preneha veljati 111. člen.
+V Zakonu o zavarovalništvu (Uradni list RS, št. 99/10 – uradno prečiščeno besedilo, 90/12 in 102/12) z dnem uveljavitve tega zakona preneha veljati 283. člen. V drugem in tretjem stavku petega odstavka 275. člena in v tretjem odstavku 282. člena se črta beseda »Vrhovno«. V četrtem odstavku 293. člena se za besedama »Vrhovno sodišče« postavi piko, besedilo v nadaljevanju pa se črta.
+V Zakonu o preprečevanju omejevanja konkurence (Uradni list RS, št. 36/08, 40/09, 26/11, 87/11, 57/12 in 39/2013 – odl. US) z dnem uveljavitve tega zakona preneha veljati 56. člen.
+V Zakonu o ukrepih Republike Slovenije za krepitev stabilnosti bank (Uradni list RS, št. 105/12) z dnem uveljavitve tega zakona preneha veljati drugi odstavek 31. člena.
+V postopkih sodnega varstva po zakonih, določenih v prvem do sedmem odstavku tega člena, odloča Upravno sodišče Republike Slovenije v senatu treh sodnikov.
+Postopki sodnega varstva po zakonih, določenih v prvem do sedmem odstavku tega člena, ki so se začeli pred uveljavitvijo tega zakona, se dokončajo po dosedanjih predpisih.
+
+
+### 49. člen
+
+Minister, pristojen za pravosodje, sprejme podzakonski predpis iz 60.a člena zakona v šestih mesecih po uveljaviti tega zakona.
+Minister, pristojen za pravosodje, sprejme podzakonski predpis iz 65.a člena zakona v šestih mesecih po uveljaviti tega zakona.
+Minister, pristojen za pravosodje, uskladi podzakonski predpis iz 82. člena zakona z določbami tega zakona v enem letu po uveljavitvi tega zakona.
+
+
+### 50. člen
+
+Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 700-01/13-7/25
+
+Ljubljana, dne 15. julija 2013
+
+EPA 1237-VI
+
+Državni zbor
+Republike Slovenije
+Janko Veber l.r.
+Predsednik
