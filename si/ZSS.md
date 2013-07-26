@@ -48,6 +48,10 @@ spremembe:
     datum: 2013-05-29
     sop: 2013-01-1754
     naziv: "Zakon o dopolnitvi Zakona o sodniški službi"
+  - kratica: ZSS-L
+    datum: 2013-07-26
+    sop: 2013-01-2515
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o sodniški službi"
 ---
 
 # Zakon o sodniški službi
