@@ -7,6 +7,11 @@ sop: 2007-01-5552
 objava: "Uradni list RS 112/07  str. 15437"
 kljucne_besede: ["državna pomoč", "kulturna politika", "javna ustanova", "agencija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-5552"
+spremembe:
+  - kratica: ZJAKRS-A
+    datum: 2013-07-26
+    sop: 2013-01-2520
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o Javni agenciji za knjigo Republike Slovenije"
 ---
 
 # Zakon o Javni agenciji za knjigo Republike Slovenije
