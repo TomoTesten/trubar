@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Statuta Fakultete za informacijske študije v No
 vrsta: "akt"
 datum: 2013-09-09
 sop: 2013-01-2778
-organ: "Fakulteta za informacijske študije Novo mesto"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-2778"
 ---
 
