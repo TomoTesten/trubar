@@ -7,6 +7,11 @@ sop: 2001-02-0084
 objava: "Uradni list RS MP 29/2001  str. 1929"
 kljucne_besede: ["železniški promet"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-02-0084"
+spremembe:
+  - kratica: MRSMKS-A
+    datum: 2013-08-30
+    sop: 2013-02-0059
+    naziv: "Zakon o ratifikaciji Sprememb Rimskega statuta Mednarodnega kazenskega sodišča, Kampala, 10. in 11. junij 2010"
 ---
 
 # Zakon o ratifikaciji Rimskega statuta Mednarodnega kazenskega sodišča
