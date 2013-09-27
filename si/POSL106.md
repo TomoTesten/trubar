@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitev Poslovnika Državnega zbora (PoDZ-1D)"
 vrsta: "akt"
 datum: 2013-09-30
 sop: 2013-01-2908
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-2908"
 ---
 

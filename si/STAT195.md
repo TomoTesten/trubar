@@ -4,9 +4,9 @@ naziv: "Dopolnitev Statuta Univerze v Ljubljani"
 vrsta: "akt"
 datum: 2013-10-11
 sop: 2013-01-3089
-organ: "Univerza v Ljubljani"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3089"
 ---
 
