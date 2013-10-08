@@ -16,6 +16,10 @@ spremembe:
     datum: 2011-05-03
     sop: 2011-01-1586
     naziv: "Zakon o spremembah in dopolnitvah Zakona o finančnih zavarovanjih"
+  - kratica: ZFZ-C
+    datum: 2013-10-08
+    sop: 2013-01-3037
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o finančnih zavarovanjih"
 ---
 
 # Zakon o finančnih zavarovanjih
