@@ -32,6 +32,10 @@ spremembe:
     datum: 2010-02-05
     sop: 2010-01-0251
     naziv: "Zakon o spremembah in dopolnitvah Zakona o splošnem upravnem postopku"
+  - kratica: ZUP-H
+    datum: 2013-10-08
+    sop: 2013-01-3034
+    naziv: "Zakon o spremembah in dopolnitvi Zakona o splošnem upravnem postopku"
 ---
 
 # Zakon o splošnem upravnem postopku
