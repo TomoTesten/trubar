@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za obrt in podjetništvo"
 vrsta: "akt"
 datum: 2013-11-08
 sop: 2013-01-3344
-organ: "Združenje delodajalcev obrti in podjetnikov Slovenije - GIZ, Ljubljana"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3344"
 ---
 
