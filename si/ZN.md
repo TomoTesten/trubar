@@ -28,6 +28,10 @@ spremembe:
     datum: 2006-11-10
     sop: 2006-01-4905
     naziv: "Zakon o spremembah in dopolnitvah zakona o notariatu"
+  - kratica: ZN-G
+    datum: 2013-11-05
+    sop: 2013-01-3304
+    naziv: "Zakon o spremembi Zakona o notariatu"
 ---
 
 # Zakon o notariatu
