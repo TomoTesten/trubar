@@ -48,6 +48,10 @@ spremembe:
     datum: 2007-10-08
     sop: 2007-01-4489
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
+  - kratica: ZZVZZ-M
+    datum: 2013-11-05
+    sop: 2013-01-3306
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
