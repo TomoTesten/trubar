@@ -7,6 +7,11 @@ sop: 2002-01-4360
 objava: "Uradni list RS 87/2002  str. 9559"
 kljucne_besede: ["zakonik", "nepremičnine", "premično premoženje", "lastnina", "služnost"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4360"
+spremembe:
+  - kratica: SPZ-A
+    datum: 2013-11-05
+    sop: 2013-01-3303
+    naziv: "Zakon o spremembah Stvarnopravnega zakonika"
 ---
 
 # Stvarnopravni zakonik
