@@ -1,0 +1,145 @@
+---
+kratica: ZDoh-2M
+naziv: "Zakon o spremembah in dopolnitvah Zakona o dohodnini"
+vrsta: "Sprejet zakon"
+datum: 2013-11-22
+sop: 2013-01-3441
+objava: "Uradni list RS 96/13  str. 10349"
+kljucne_besede: ["dohodnina"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3441"
+---
+
+# Zakon o spremembah in dopolnitvah Zakona o dohodnini
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam
+
+
+## U K A Z
+o razglasitvi Zakona o spremembah in dopolnitvah Zakona o dohodnini (ZDoh-2M)
+
+Razglašam Zakon o spremembah in dopolnitvah Zakona o dohodnini (ZDoh-2M), ki ga je sprejel Državni zbor Republike Slovenije na seji dne 14. novembra 2013.
+
+Št. 003-02-9/2013-15
+
+Ljubljana, dne 22. novembra 2013
+
+Borut Pahor l.r.
+Predsednik
+Republike Slovenije
+
+
+## Z A K O N
+O SPREMEMBAH IN DOPOLNITVAH ZAKONA O DOHODNINI (ZDoh-2M)
+
+
+### 1. člen
+
+V Zakonu o dohodnini (Uradni list RS, št. 13/11 – uradno prečiščeno besedilo, 9/11 – ZUKD-1, 24/12, 30/12, 40/12 – ZUJF, 75/12 in 94/12) se v četrtem odstavku 41. člena v prvem stavku za besedo »za« doda besedilo »obvezne prispevke za socialno varnost, ki jih je na podlagi posebnih predpisov dolžan plačati delojemalec in za«.
+
+
+### 2. člen
+
+V prvem odstavku 44. člena se v 9. točki v prvem stavku za besedilom »v višini odpravnine,« doda besedilo »kot je določena zaradi odpovedi pogodbe o zaposlitvi iz poslovnih razlogov ali iz razloga nesposobnosti«, besedilo »109. člena Zakona o delovnih razmerjih (Uradni list RS, št. 42/02)« pa se nadomesti z besedilom »Zakona o delovnih razmerjih (Uradni list RS, št. 21/13)«. V drugem stavku se besedilo »odpravnina, izplačana delojemalcu, ki sklene novo pogodbo« nadomesti z besedilom »odpravnina zaradi odpovedi vsake naslednje pogodbe«.
+Na koncu 10. točke se pika nadomesti s podpičjem in se doda nova 11. točka, ki se glasi:
+»11. odpravnina zaradi prenehanja pogodbe o zaposlitvi za določen čas, ki je določena kot pravica iz delovnega razmerja in izplačana pod pogoji, ki jih določa Zakon o delovnih razmerjih, v višini odpravnine, ki jo je delodajalec dolžan izplačati na podlagi Zakona o delovnih razmerjih, vendar največ do višine treh povprečnih mesečnih plač zaposlenih v Sloveniji. Za odpravnino iz prejšnjega stavka se ne šteje odpravnina zaradi prenehanja vsake naslednje pogodbe o zaposlitvi za določen čas pri istem delodajalcu ali pri osebi, ki je z delodajalcem povezana oseba in odpravnina, izplačana delojemalcu, ki je z delodajalcem povezana oseba.«.
+V tretjem odstavku se besedilo »9. in 10.« nadomesti z besedilom »9., 10. in 11.«.
+V četrtem odstavku se besedilo »9. in 10.« nadomesti z besedilom »9., 10. in 11.«.
+
+
+### 3. člen
+
+V 65. členu se besedilo »iz 302. do 305. člena Zakona o pokojninskem in invalidskem zavarovanju (Uradni list RS, št. 104/05 – uradno prečiščeno besedilo in 69/06)« nadomesti z besedilom »v zvezi s kolektivnim prostovoljnim dodatnim pokojninskim zavarovanjem, določene po zakonu, ki ureja pokojninsko in invalidsko zavarovanje«.
+
+
+### 4. člen
+
+V drugem odstavku 86. člena se besedilo »pričakovani življenjski dobi moškega ali ženske v Sloveniji« nadomesti z besedilom »pričakovanem trajanju življenja ob rojstvu v Sloveniji, in sicer kot povprečje pričakovanega trajanja življenja ob rojstvu moškega in ženske«.
+
+
+### 5. člen
+
+V 107. členu se 5. točka spremeni tako, da se glasi:
+»5. izplačila odkupne vrednosti izplačevalcu pokojninske rente v enkratnem znesku v primeru rednega prenehanja prostovoljnega dodatnega pokojninskega zavarovanja zaradi uveljavitve pravice do pokojninske rente, ko upravljavec v imenu in za račun zavarovanca sklene zavarovanje po pokojninskem načrtu za izplačevanje pokojninskih rent, po katerem zavarovanec pridobi pravico do doživljenjske pokojninske rente v skladu z zakonom, ki ureja pokojninsko in invalidsko zavarovanje;«.
+6. točka se spremeni tako, da se glasi:
+»6. prenosa sredstev, ki je opravljen v skladu z zakonom, ki ureja pokojninsko in invalidsko zavarovanje, med pokojninskimi načrti prostovoljnega dodatnega pokojninskega zavarovanja, med podskladi krovnega pokojninskega sklada in med kritnimi skladi, ki spadajo v skupino kritnih skladov, ki izvajajo naložbeno politiko življenjskega cikla, ter iz poklicnega v prostovoljno dodatno zavarovanje;«.
+
+
+### 6. člen
+
+Drugi odstavek 112. člena se črta.
+V četrtem odstavku se besedilo »v skladu s 397. členom Zakona o pokojninskem in invalidskem zavarovanju (Uradni list RS, št. 104/05 – uradno prečiščeno besedilo in 69/06)« nadomesti z besedilom »uživalcu pravic na podlagi preostale delovne zmožnosti (II. in III. kategorija invalidnosti), uveljavljenih po predpisih o pokojninskem in invalidskem zavarovanju, ki so se uporabljali do 31. decembra 2002«.
+Doda se nov šesti odstavek, ki se glasi:
+»(6) Rezidentu, prejemniku poklicne pokojnine iz obveznega dodatnega pokojninskega zavarovanja, se prizna zmanjšanje dohodnine v višini 13,5% odmerjene poklicne pokojnine iz obveznega dodatnega pokojninskega zavarovanja.«.
+V dosedanjem šestem odstavku, ki postane sedmi odstavek, se besedilo »četrtega in petega« nadomesti z besedilom »četrtega, petega in šestega«, besedilo »četrtem in petem« pa se nadomesti z besedilom »četrtem, petem in šestem«.
+
+
+### 7. člen
+
+Peti odstavek 113. člena se črta.
+
+
+### 8. člen
+
+V 116. členu se za številom »112.« doda vejica, besedilo »in 114.« pa se nadomesti z besedilom »prvem, drugem in četrtem odstavku 113., 114. in 117.«.
+
+
+### 9. člen
+
+118. člen se spremeni tako, da se glasi:
+
+
+### »118. člen
+
+
+### (uskladitev olajšav)
+
+(1) Z zakonom, ki ureja izvrševanje proračuna, se lahko, upoštevaje cilje ekonomske politike vlade, določi koeficient, s katerim se uskladijo zneski olajšav, določeni v 111. členu, prvem odstavku 112. člena, prvem in drugem odstavku 114. člena ter v prvem odstavku 117. člena tega zakona. Navedeni koeficient se mora določiti, če koeficient rasti cen življenjskih potrebščin v Sloveniji za mesec avgust tekočega leta v primerjavi z mesecem avgustom prejšnjega leta, po podatkih Statističnega urada Republike Slovenije, preseže 1,03.
+(2) Zneske olajšav iz prvega odstavka tega člena določi minister, pristojen za finance, najpozneje v decembru tekočega leta za naslednje leto, če je z zakonom o izvrševanju proračuna za naslednje leto določena uskladitev.«.
+
+
+### 10. člen
+
+Drugi in tretji odstavek 122. člena se spremenita tako, da se glasita:
+»(2) Z zakonom, ki ureja izvrševanje proračuna, se lahko, upoštevaje cilje ekonomske politike vlade, določi koeficient, s katerim se uskladijo zneski neto letnih davčnih osnov iz prvega odstavka tega člena; temu ustrezno se zneski dohodnine izračunajo. Navedeni koeficient se mora določiti, če koeficient rasti cen življenjskih potrebščin v Sloveniji za mesec avgust tekočega leta v primerjavi z mesecem avgustom prejšnjega leta, po podatkih Statističnega urada Republike Slovenije, preseže 1,03.«
+(3) Zneske iz drugega odstavka tega člena določi minister, pristojen za finance, najpozneje v decembru tekočega leta za naslednje leto, če je z zakonom o izvrševanju proračuna za naslednje leto določena uskladitev.«.
+
+
+### 11. člen
+
+V tretjem odstavku 127. člena se za besedilom »112. člena« črtata vejica in besedilo »petega odstavka 113. člena«. Na koncu odstavka se doda nov stavek, ki se glasi: »Pri izračunu akontacije dohodnine od poklicne pokojnine se upošteva tudi olajšava iz šestega odstavka 112. člena tega zakona.«.
+Sedmi odstavek se spremeni tako, da se glasi:
+»(7) Ne glede na drugi in tretji odstavek tega člena se izračun akontacije dohodnine od nadomestila iz obveznega invalidskega zavarovanja, ki ga prejema delovni invalid, od polovice oziroma sorazmernega dela pokojnine uživalcu pokojnine, ki začne ponovno delati oziroma opravljati dejavnost, od delne pokojnine in od 20% predčasne ali starostne pokojnine, ki jo v skladu s predpisi, ki urejajo pokojninsko in invalidsko zavarovanje, za mesečno obdobje izplačuje Zavod za pokojninsko in invalidsko zavarovanje Slovenije, opravi v skladu s šestim odstavkom tega člena, če prejemnik navedenega dohodka hkrati prejema tudi plačo ali nadomestilo plače. Pri izračunu akontacije dohodnine od nadomestila iz obveznega invalidskega zavarovanja se upošteva olajšava iz četrtega odstavka 112. člena tega zakona, pri izračunu akontacije dohodnine od polovice oziroma sorazmernega dela pokojnine, od delne pokojnine in od 20% predčasne ali starostne pokojnine pa se upošteva olajšava iz tretjega odstavka 112. člena tega zakona.«.
+V osmem odstavku se prvi stavek spremeni tako, da se glasi: »Ne glede na sedmi odstavek tega člena se lahko akontacija dohodnine od nadomestila iz obveznega invalidskega zavarovanja, ki ga prejema delovni invalid, od polovice oziroma sorazmernega dela pokojnine uživalcu pokojnine, ki začne ponovno delati oziroma opravljati dejavnost, od delne pokojnine in od 20% predčasne ali starostne pokojnine, ki jo prejema upravičenec po predpisih, ki urejajo pokojninsko in invalidsko zavarovanje, izračuna in plača po znižani stopnji, vendar ne nižji od 16%.«.
+
+
+### 12. člen
+
+V drugem odstavku 128. člena se na koncu doda nov stavek, ki se glasi: »Ne glede na prvi odstavek tega člena se pri izračunu akontacije dohodnine od dohodka iz dejavnosti lahko upošteva olajšava iz 117. člena tega zakona za premije prostovoljnega dodatnega pokojninskega zavarovanja, ki jih zavezanec plačuje zase v pokojninski načrt kolektivnega zavarovanja, če je obvezno pokojninsko in invalidsko zavarovan kot samozaposlena oseba.«.
+
+
+### PREHODNA IN KONČNE DOLOČBE
+
+
+### 13. člen
+
+Ne glede na spremenjeni drugi odstavek 86. člena zakona se določba drugega odstavka 86. člena Zakona o dohodnini (Uradni list RS, št. 13/11 – uradno prečiščeno besedilo, 9/11 – ZUKD-1, 24/12, 30/12, 40/12 – ZUJF, 75/12 in 94/12) uporablja za izplačila po pogodbah o življenjskem zavarovanju, sklenjenih pred dnem uveljavitve tega zakona, ki so se začela izplačevati pred dnem uveljavitve tega zakona.
+
+
+### 14. člen
+
+(1) Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije in se uporablja že za odmero dohodnine za leto 2013, razen:
+1. določb spremenjenega 41., 44., 112., 113. in 127. člena zakona, ki se uporabljajo od 1. januarja 2014,
+2. določbe spremenjenega drugega odstavka 86. člena zakona, ki se uporablja od uveljavitve tega zakona, in
+3. določb spremenjenega 118. in 122. člena zakona, ki se uporabljajo za odmero dohodnine za leta od 2014 dalje.
+(2) Do začetka uporabe določb spremenjenega 41., 44., 112., 113. in 127. člena zakona se uporabljajo določbe 41., 44., 112., 113. in 127. člena Zakona o dohodnini (Uradni list RS, št. 13/11 – uradno prečiščeno besedilo, 9/11 – ZUKD-1, 24/12, 30/12, 40/12 – ZUJF, 75/12 in 94/12).
+
+Št. 435-01/13-7/34
+
+Ljubljana, dne 14. novembra 2013
+
+EPA 1385-VI
+
+Državni zbor
+Republike Slovenije
+Janko Veber l.r.
+Predsednik
