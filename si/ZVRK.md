@@ -12,6 +12,10 @@ spremembe:
     datum: 2011-02-21
     sop: 2011-01-0448
     naziv: "Zakon o spremembah in dopolnitvah Zakona o volilni in referendumski kampanji"
+  - kratica: ZVRK-B
+    datum: 2013-11-29
+    sop: 2013-01-3490
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o volilni in referendumski kampanji"
 ---
 
 # Zakon o volilni in referendumski kampanji
