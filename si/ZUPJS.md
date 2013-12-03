@@ -12,6 +12,10 @@ spremembe:
     datum: 2013-02-15
     sop: 2013-01-0370
     naziv: "Zakon o spremembi Zakona o uveljavljanju pravic iz javnih sredstev"
+  - kratica: ZUPJS-C
+    datum: 2013-12-03
+    sop: 2013-01-3548
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o uveljavljanju pravic iz javnih sredstev"
 ---
 
 # Zakon o uveljavljanju pravic iz javnih sredstev
