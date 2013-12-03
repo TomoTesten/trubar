@@ -12,6 +12,10 @@ spremembe:
     datum: 2013-02-15
     sop: 2013-01-0371
     naziv: "Zakon o spremembi Zakona o socialno varstvenih prejemkih"
+  - kratica: ZSVarPre-C
+    datum: 2013-12-03
+    sop: 2013-01-3549
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o socialno varstvenih prejemkih"
 ---
 
 # Zakon o socialno varstvenih prejemkih
