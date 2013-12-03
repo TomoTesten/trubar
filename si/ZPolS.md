@@ -24,6 +24,10 @@ spremembe:
     datum: 2007-11-13
     sop: 2007-01-5133
     naziv: "Zakon o spremembah in dopolnitvah zakona o političnih strankah"
+  - kratica: ZPolS-E
+    datum: 2013-12-03
+    sop: 2013-01-3550
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o političnih strankah"
 ---
 
 # Zakon o političnih strankah
