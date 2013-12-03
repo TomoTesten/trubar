@@ -1,0 +1,527 @@
+---
+kratica: ZSVarPre-C
+naziv: "Zakon o spremembah in dopolnitvah Zakona o socialno varstvenih prejemkih"
+vrsta: "Sprejet zakon"
+datum: 2013-12-03
+sop: 2013-01-3549
+objava: "Uradni list RS 99/13  str. 10707"
+kljucne_besede: ["socialna pomoč"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3549"
+---
+
+# Zakon o spremembah in dopolnitvah Zakona o socialno varstvenih prejemkih
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam
+
+
+## U K A Z
+o razglasitvi Zakona o spremembah in dopolnitvah Zakona o socialno varstvenih prejemkih (ZSVarPre-C)
+
+Razglašam Zakon o spremembah in dopolnitvah Zakona o socialno varstvenih prejemkih (ZSVarPre-C), ki ga je sprejel Državni zbor Republike Slovenije na seji dne 21. novembra 2013.
+
+Št. 003-02-10/2013-9
+
+Ljubljana, dne 29. novembra 2013
+
+Borut Pahor l.r.
+Predsednik
+Republike Slovenije
+
+
+## Z A K O N
+O SPREMEMBAH IN DOPOLNITVAH ZAKONA O SOCIALNO VARSTVENIH PREJEMKIH (ZSVarPre-C)
+
+
+### 1. člen
+
+V Zakonu o socialno varstvenih prejemkih (Uradni list RS, št. 61/10, 40/11, 110/11 – ZDIU12, 40/12 – ZUJF in 14/13) se v 1. členu za besedilom »postopek ugotavljanja neupravičeno prejete denarne socialne pomoči« vejica nadomesti z »in« in črta besedilo »in način vračila neupravičeno prejete denarne socialne pomoči«.
+
+
+### 2. člen
+
+Za 1. členom se doda nov 1.a člen, ki se glasi:
+
+
+### »1.a člen
+
+
+### (pojmi, uporabljeni v tem zakonu)
+
+Pojmi, uporabljeni v tem zakonu, imajo naslednji pomen:
+1. lastni dohodek – dohodek, ki se upošteva po zakonu, ki ureja uveljavljanje pravic iz javnih sredstev, in na način, določen v tem zakonu
+2. družinski član ali članica (v nadaljnjem besedilu: družinski član) – oseba, ki se upošteva pri ugotavljanju materialnega položaja vlagatelja vloge za denarno socialno pomoč in varstveni dodatek po zakonu, ki ureja uveljavljanje pravic iz javnih sredstev.«.
+
+
+### 3. člen
+
+V prvem odstavku 3. člena se pred besedo »tujci« črta beseda »ter« in na koncu besedila pred piko doda besedilo »ter osebe, ki jim je priznana mednarodna zaščita in njihovi družinski člani, ki so na podlagi pravice do združitve družine pridobili dovoljenje za prebivanje v Republiki Sloveniji in imajo prijavljeno stalno oziroma začasno prebivališče v Republiki Sloveniji«.
+
+
+### 4. člen
+
+5. člen se spremeni tako, da se glasi:
+
+
+### »5. člen
+
+
+### (upoštevanje zakonov)
+
+Pri ugotavljanju upravičenosti do denarne socialne pomoči in varstvenega dodatka ter pri določanju njune višine se upoštevajo osnove in merila, določene s tem zakonom in z zakonom, ki ureja uveljavljanje pravic iz javnih sredstev.«.
+
+
+### 5. člen
+
+Na koncu drugega odstavka 6. člena se pred piko doda besedilo »in z zakonom, ki ureja uveljavljanje pravic iz javnih sredstev«.
+Na koncu tretjega odstavka se pred piko doda besedilo »in po zakonu, ki ureja uveljavljanje pravic iz javnih sredstev«.
+
+
+### 6. člen
+
+7. člen se spremeni tako, da se glasi:
+
+
+### »7. člen
+
+
+### (upravičenci do varstvenega dodatka)
+
+(1) Do varstvenega dodatka so upravičene osebe, ki so:
+– trajno nezaposljive
+– trajno nezmožne za delo ali
+– nezaposlene starejše od 63 let za ženske oziroma od 65 let za moške.
+(2) Osebe iz prejšnjega odstavka so upravičene do varstvenega dodatka, če so upravičene do denarne socialne pomoči oziroma bi do nje lahko bile upravičene ali katerih lastni dohodek oziroma lastni dohodek družine, ugotovljen na način, kot velja za ugotavljanje upravičenosti do denarne socialne pomoči po tem zakonu, presega višino njihovega minimalnega dohodka oziroma seštevka minimalnih dohodkov posameznih družinskih članov družine, ugotovljenega na način, kot velja za ugotavljanje upravičenosti do denarne socialne pomoči po tem zakonu, ne presega pa višine njihovega minimalnega dohodka oziroma seštevka minimalnih dohodkov posameznih družinskih članov družine za varstveni dodatek, ter izpolnjujejo druge pogoje po tem zakonu in po zakonu, ki ureja uveljavljanje pravic iz javnih sredstev.
+(3) Ne glede na prejšnji odstavek do varstvenega dodatka niso upravičene osebe, ki so v celodnevnem institucionalnem varstvu v socialnovarstvenem zavodu.«.
+
+
+### 7. člen
+
+V oddelku »1. Način ugotavljanja materialnega položaja« se črta naslov pododdelka »1.1 Osebe, ki se upoštevajo pri ugotavljanju materialnega položaja« ter 9. in 10. člen.
+
+
+### 8. člen
+
+Naslov pododdelka »1.2 Družinski člani, ki se ne upoštevajo pri ugotavljanju upravičenosti do denarne socialne pomoči« in 11. člen se spremenita tako, da se glasita:
+
+
+### »1.2 Uporaba zakona, ki ureja uveljavljanje pravic iz javnih sredstev
+
+
+### 11. člen
+
+
+### (ugotavljanje dohodka in premoženja)
+
+(1) Pri uveljavljanju pravice do denarne socialne pomoči se pri ugotavljanju materialnega položaja upoštevajo osebe, določene z zakonom, ki ureja uveljavljanje pravic iz javnih sredstev, njihov dohodek in premoženje, razen načina in obdobja upoštevanja dohodka in premoženja, glede katerih se uporablja ta zakon.
+(2) Ne glede na prejšnji odstavek se glede načina in obdobja upoštevanja dohodka iz dejavnosti ter dohodka iz osnovne kmetijske in osnovne gozdarske dejavnosti, uporablja zakon, ki ureja uveljavljanje pravic iz javnih sredstev.«.
+
+
+### 9. člen
+
+12. člen se črta.
+
+
+### 10. člen
+
+15. in 16. člen se črtata.
+
+
+### 11. člen
+
+Prvi odstavek 17. člena se spremeni tako, da se glasi:
+»(1) Osebam, ki so poročene, živijo v življenjski skupnosti, ki je po zakonu, ki ureja zakonsko zvezo in družinska razmerja v pravnih posledicah izenačena z zakonsko zvezo, ali v registrirani istospolni partnerski skupnosti ali postanejo starši in skrbijo za otroka in so jih zaradi šolanja dolžni preživljati starši, se ob izpolnjevanju drugih pogojev po tem zakonu in po zakonu, ki ureja uveljavljanje pravic iz javnih sredstev, v lastni dohodek šteje preživnina, ki jo prejemajo na podlagi izvršljivega pravnega naslova.«.
+
+
+### 12. člen
+
+18. člen se spremeni tako, da se glasi:
+
+
+### »18. člen
+
+
+### (upoštevanje dohodkov osebam z družinskimi člani, ki ne izpolnjujejo splošnega pogoja)
+
+Osebam, katerih družinski član ne izpolnjuje splošnega pogoja iz 3. člena tega zakona, se ob izpolnjevanju drugih pogojev po tem zakonu v lastni dohodek šteje povprečni mesečni dohodek tega družinskega člana, prejet v obdobju iz 20. člena tega zakona, zmanjšan za višino minimalnega dohodka, ki po tem zakonu pripada vsaki naslednji odrasli osebi.«.
+
+
+### 13. člen
+
+Tretji in četrti odstavek 20. člena se črtata.
+
+
+### 14. člen
+
+Drugi odstavek 21. člena se spremeni tako, da se glasi:
+»(2) Če je upravičenec v obdobju iz prejšnjega člena periodični dohodek šele začel prejemati ali če je iz ugotovljenega dejanskega stanja razvidno, da je periodični dohodek začel prejemati šele v mesecu vložitve vloge, se kot višina njegovega lastnega dohodka upošteva višina zadnjega prejetega mesečnega dohodka.«
+
+
+### 15. člen
+
+Prvi odstavek 22. člena se spremeni tako, da se glasi:
+»(1) Priložnostni dohodki prejeti v obdobju iz 20. člena tega zakona se upoštevajo samo v višini razlike med povprečno mesečno višino priložnostnega dohodka in 0,5 osnovnega zneska minimalnega dohodka iz 8. člena tega zakona.«.
+
+
+### 16. člen
+
+Naslov pododdelka »1.5 Premoženje in prihranki« ter 24. in 25. člen se črtajo.
+
+
+### 17. člen
+
+26. člen se spremeni tako, da se glasi:
+
+
+### »26. člen
+
+
+### (merila za določitev višine minimalnega dohodka)
+
+(1) Višina minimalnega dohodka za vlagatelja in posameznega družinskega člana vlagatelja se v razmerju do osnovnega zneska minimalnega dohodka iz 8. člena tega zakona določi po naslednjih merilih:
+1. prva odrasla oseba: 1,
+2. prva odrasla oseba, ki je delovno aktivna v obsegu od 60 do 128 ur na mesec: 1,28 (vsota osnovnega ponderja 1 in dodatka za delovno aktivnost 0,28),
+3. prva odrasla oseba, ki je delovno aktivna v obsegu več kot 128 ur na mesec: 1,56 (vsota osnovnega ponderja 1 in dodatka za delovno aktivnost 0,56),
+4. samska oseba med dopolnjenim 18. in dopolnjenim 26. letom starosti, prijavljena pri pristojnem organu za zaposlovanje v evidenci brezposelnih oseb oziroma v evidenci iskalcev zaposlitve, ki ima prijavljeno stalno prebivališče na istem naslovu kot starši ali dejansko prebiva z njimi ter imajo starši dovolj lastnih sredstev za preživljanje: 0,7,
+5. samska oseba, ki je trajno nezaposljiva ali trajno nezmožna za delo ali nezaposlena in starejša od 63 let za ženske in 65 let za moške, ki ima prijavljeno stalno ali začasno prebivališče na istem naslovu kot osebe, ki niso družinski člani po tem zakonu in imajo dovolj lastnih sredstev za preživljanje, oziroma dejansko prebiva z njimi: 0,7,
+6. vsaka naslednja odrasla oseba: 0,5,
+7. vsaka naslednja odrasla oseba, ki je delovno aktivna v obsegu več kot 128 ur na mesec: 0,78 (vsota osnovnega ponderja 0,5 in polovičnega ponderja dodatka za delovno aktivnost prve odrasle osebe, ki je delovno aktivna v enakem obsegu ur na mesec, 0,28),
+8. vsaka naslednja odrasla oseba, ki je delovno aktivna v obsegu od 60 do 128 ur na mesec: 0,64 (vsota osnovnega ponderja 0,5 in polovičnega ponderja dodatka za delovno aktivnost prve odrasle osebe, ki je delovno aktivna v enakem obsegu ur na mesec, 0,14),
+9. prvi otrok osebe, ki uveljavlja pravico do denarne socialne pomoči, dokler ga je ta dolžna preživljati v skladu s predpisi, ki urejajo dolžnost preživljanja, ki je najstarejši: 0,7,
+10. vsak naslednji otrok osebe, ki uveljavlja pravico do denarne socialne pomoči, dokler ga je ta dolžna preživljati v skladu s predpisi, ki urejajo dolžnost preživljanja: 0,6.
+(2) V primeru dodelitve otroka v skupno varstvo in vzgojo se višina minimalnega dohodka za otroka v razmerju do osnovnega zneska minimalnega dohodka določi v polovični višini merila iz prejšnjega odstavka.
+(3) Kot prva odrasla oseba se šteje:
+1. samska oseba,
+2. mladoletna oseba brez staršev, ker so ti umrli ali ker v življenjski skupnosti zaradi nasilja v družini, zaradi katerega so začeti ali tečejo postopki s skladu s predpisi, ki urejajo preprečevanje nasilja v družini, ni več dejansko povezana z njimi,
+3. polnoletna oseba, dokler so jo starši v skladu s predpisi, ki urejajo dolžnost preživljanja, dolžni preživljati in ki v življenjski skupnosti zaradi nasilja v družini, zaradi katerega so sproženi ali tečejo postopki v skladu s predpisi, ki urejajo preprečevanje nasilja v družini, ni več dejansko povezana z njimi.
+(4) Kot prva odrasla oseba v družini se:
+1. v primeru zakoncev oziroma oseb, ki živita v življenjski skupnosti, ki je po zakonu, ki ureja zakonsko zvezo in družinska razmerja v pravnih posledicah izenačena z zakonsko zvezo, ali v registrirani istospolni partnerski skupnosti, od katerih nobena nima statusa aktivne osebe, šteje tista oseba, ki uveljavlja pravico do denarne socialne pomoči, razen če je na njeni strani podan krivdni razlog iz tega zakona,
+2. v primeru zakoncev oziroma oseb, ki živita v življenjski skupnosti, ki je po zakonu, ki ureja zakonsko zvezo in družinska razmerja v pravnih posledicah izenačena z zakonsko zvezo, ali v registrirani istospolni partnerski skupnosti, ki imata obe status aktivne osebe, šteje tista oseba, ki uveljavlja pravico do denarne socialne pomoči oziroma tista oseba, ki ima status delovno aktivne osebe, razen če je na njeni strani podan krivdni razlog iz tega zakona,
+3. v primeru zakoncev oziroma oseb, ki živita v življenjski skupnosti, ki je po zakonu, ki ureja zakonsko zvezo in družinska razmerja v pravnih posledicah izenačena z zakonsko zvezo, ali v registrirani istospolni partnerski skupnosti, od katerih ima ena status aktivne osebe, šteje tista oseba, ki ima status aktivne osebe, razen če je na njeni strani podan krivdni razlog iz tega zakona,
+4. v primeru enostarševske družine, šteje tista oseba, ki je roditelj.
+(5) Za naslednjo odraslo osebo v družini se šteje polnoletna oseba, ki se po tem zakonu šteje v družino in ki ni otrok iz 9. ali 10. točke prvega odstavka tega člena.
+(6) Kot aktivna oseba se šteje oseba, ki je zaposlena ali nezaposlena in je zmožna za delo.
+(7) Dodatek za delovno aktivnost je dodatek k minimalnemu dohodku delovno aktivne samske osebe ali odraslega družinskega člana, namenjen spodbujanju k delu ali ohranjanju motivacije za delo.
+(8) Kot delovno aktivne osebe se štejejo zaposlene osebe, osebe, ki opravljajo dejavnost, osebe, ki so vključene v ukrepe aktivne politike zaposlovanja in programe psihosocialne rehabilitacije, katerih cilj je zaposlitev, družinski pomočnik po zakonu, ki ureja socialno varstvo, osebe, ki so upravičene do delnega plačila za izgubljeni dohodek po zakonu, ki ureja starševsko varstvo in družinske prejemke, osebe, ki imajo sklenjeno pogodbo o opravljanju volonterskega pripravništva, osebe, ki imajo sklenjen pisni dogovor o prostovoljskem delu po zakonu, ki ureja prostovoljstvo, ter osebe, ki so vključene v zaposlitveno rehabilitacijo.
+(9) Za osebe iz prejšnjega odstavka, ki so vključene v programe psihosocialne rehabilitacije, ter za osebe, ki imajo sklenjen pisni dogovor o prostovoljnem delu, se šteje, da so delovno aktivne v obsegu od 60 do 128 ur na mesec.
+(10) Za osebe, ki opravljajo dejavnost, se štejejo osebe, ki opravljajo katerokoli samostojno dejavnost, kot so samostojni podjetniki posamezniki ali samostojne podjetnice posameznice po zakonu, ki ureja gospodarske družbe, osebe, ki opravljajo kmetijsko in gozdarsko dejavnost, osebe, ki z osebnim delom samostojno opravljajo umetniško ali kakšno drugo kulturno dejavnost, osebe, ki samostojno opravljajo dejavnost s področja zdravstva, socialne varnosti, znanosti ali zasebno veterinarsko dejavnost, osebe, ki opravljajo odvetniško ali notarsko dejavnost, osebe, ki opravljajo duhovniško oziroma drugo versko službo.
+(11) Za osebe, ki opravljajo dejavnost, se šteje, da so delovno aktivne v obsegu več kot 128 ur na mesec, razen če se iz drugih okoliščin ugotovi drugače.
+(12) Šteje se, da imajo osebe iz 4. in 5. točke prvega odstavka tega člena, ki niso družinski člani, dovolj lastnih sredstev za preživljanje, če njihov dohodek presega minimalni dohodek, ki bi jim pripadal, če ne bi imele drugih dohodkov.
+(13) V primeru otroka, ki živi v enostarševski družini po zakonu, ki ureja uveljavljanje pravic iz javnih sredstev, se višina minimalnega dohodka za družino za vsakega takega otroka poveča za 20 odstotkov osnovnega zneska minimalnega dohodka iz 8. člena tega zakona.«.
+
+
+### 18. člen
+
+V prvem odstavku 27. člena se besedilo »ki ima prihranke oziroma premoženje, ki se upoštevajo po tem zakonu« nadomesti z besedilom »ki ima premoženje, ki se upošteva po zakonu, ki ureja uveljavljanje pravic iz javnih sredstev«.
+V napovednem stavku drugega odstavka se beseda »stanovanje« nadomesti z besedilom »stanovanje ali stanovanjsko hišo (v nadaljnjem besedilu: stanovanje)« in besedilo »po drugem odstavku 24. člena tega zakona« nadomesti z besedilom »v zakonu, ki ureja uveljavljanje pravic iz javnih sredstev«, 1. in 2. točka pa se spremenita tako, da se glasita:
+»1. in v zadnjih 24 mesecih denarne socialne pomoči ni prejela ali jo je prejela največ osemnajstkrat ali
+2. je v zadnjih 24 mesecih denarno socialno pomoč prejela več kot osemnajstkrat in soglaša z vpisom prepovedi odtujitve in obremenitve nepremičnine, katere lastnik ali lastnica (v nadaljnjem besedilu: lastnik) je, v zemljiško knjigo v korist Republike Slovenije ter izpolnjuje ostale pogoje za upravičenost do denarne socialne pomoči po tem zakonu.«.
+Za tretjim odstavkom se dodata nov četrti in peti odstavek, ki se glasita:
+»(4) Ne glede na določbo prvega odstavka tega člena lahko center za socialno delo odloči, da se denarna socialna pomoč dodeli samski osebi ali družini, ki ima v lasti nepremičnino oziroma nepremičnine, katere vrednost oziroma katerih skupna vrednost presega višino iz prvega odstavka tega člena, ne presega pa višine 50.000 eurov, in za katero je mogoče sklepati, da si s to nepremičnino oziroma s temi nepremičninami preživetja začasno ne more zagotoviti zaradi okoliščin, na katere ne more vplivati.
+(5) Kot okoliščine iz prejšnjega odstavka, na katere oseba ne more vplivati, se štejejo zlasti:
+– nasilje v družini, zaradi katerega so začeti ali tečejo postopki v skladno s predpisi, ki urejajo nasilje v družini,
+– začet postopek odtujitve ali razdružitve nepremičnine z namenom pridobitve sredstev za preživetje, ki ne traja več kot 24 mesecev,
+– če je oseba upravičena do oprostitve plačil socialnovarstvenih storitev ali do prispevka k plačilu sredstev, namenjenih za plačilo oziroma doplačilo pravic družinskega pomočnika po zakonu, ki ureja socialno varstvo, in je začet postopek zaznambe prepovedi odtujitve in obremenitve nepremičnine v zemljiški knjigi.«.
+
+
+### 19. člen
+
+V drugem odstavku 28. člena se:
+1. v 1. točki:
+– prva alineja spremeni tako, da se glasi:
+»– pisnega sporazuma o prenehanju pogodbe o zaposlitvi«;
+– tretja alineja spremeni tako, da se glasi:
+»– redne odpovedi pogodbe o zaposlitvi s strani delavca, razen v primeru, ko zakon, ki ureja delovna razmerja, določa, da ima delavec kljub redni odpovedi enake pravice, kot če pogodbo o zaposlitvi odpove delodajalec iz poslovnih razlogov«;
+– četrta alineja spremeni tako, da se glasi:
+»– delodajalčeve redne odpovedi pogodbe o zaposlitvi, podane delavcu iz krivdnega razloga in delodajalčeve izredne odpovedi iz razlogov na strani delavca«;
+– peta alineja spremeni tako, da se glasi:
+»– redne odpovedi pogodbe o zaposlitvi iz poslovnega razloga ali razloga nesposobnosti v primerih, ko je delodajalec delavcu ponudil sklenitev nove pogodbe o zaposlitvi za ustrezno delo in za nedoločen čas, delavec pa je to ponudbo odklonil«;
+– šesta alineja črta;
+– dosedanja sedma alineja, ki postane šesta alineja, spremeni tako, da se glasi:
+»– če sodišče s pravnomočno sodbo ugotovi, da je odpoved pogodbe o zaposlitvi delavcu nezakonita, pa delavec ni želel nadaljevati delovnega razmerja«;
+– dosedanja osma alineja, ki postane sedma alineja, spremeni tako, da se glasi:
+»– delodajalčeve redne odpovedi v nasprotju z določbami zakona, ki ureja delovna razmerja, ki določajo posebno varstvo delavca pred odpovedjo, delavec pa za zavarovanje svojih pravic ni zahteval arbitražne odločitve ali sodnega varstva«;
+– dosedanja deveta alineja, ki postane osma alineja, spremeni tako, da se glasi:
+»– če delavcu pred upokojitvijo, kot ga opredeljuje zakon, ki ureja delovna razmerja, ni zagotovljena pravica do denarnega nadomestila iz naslova zavarovanja za primer brezposelnosti do izpolnitve pogojev za starostno pokojnino, pa je dal pisno soglasje k odpovedi pogodbe o zaposlitvi iz poslovnega razloga«;
+2. v 3. točki:
+– šesta alineja spremeni tako, da se glasi:
+»– odkloni podpis zaposlitvenega načrta;«;
+3. v 4. točki:
+– druga alineja spremeni tako, da se glasi:
+»– če se oseba v obdobju 6 mesecev po prijavi niti enkrat ne javi pri zavodu;«;
+4. 5. točka spremeni tako, da se glasi:
+»5. neprijavljenost pri pristojnem organu za zaposlovanje, kadar bi se oseba po predpisih, ki urejajo trg dela, lahko štela za brezposelno osebo«;
+5. 6. točka spremeni tako, da se glasi:
+»6. neprijavljenost pri pristojnem organu za zaposlovanje, kadar bi se oseba s statusom študenta, starejša od 26 let, po predpisih, ki urejajo trg dela, lahko vpisala v evidenco iskalcev zaposlitve;«.
+V tretjem odstavku se za besedo »dohodki« dodata besedi »in premoženje«.
+
+
+### 20. člen
+
+Prvi odstavek 31. člena se spremeni tako, da se glasi:
+»(1) Center za socialno delo lahko odloči, da se denarna socialna pomoč ne dodeli ali se dodeli v nižjem znesku samski osebi ali družini, za katero je mogoče sklepati, da ji je dohodek v višini minimalnega dohodka v celoti ali delno zagotovljen, ker:
+1. ima premoženje, ki se upošteva po zakonu, ki ureja uveljavljanje pravic iz javnih sredstev, ki ne dosega vrednosti premoženja iz 27. člena tega zakona,
+2. je najmanj 30 dni v bolnišnici ali drugi ustanovi, v kateri ji je zagotovljena celodnevna oskrba, in sama ni zavezana k plačilu ali je zavezana k delnemu plačilu stroškov, razen, če je v celodnevnem institucionalnem varstvu,
+3. živi z osebami oziroma ji pri preživljanju pomagajo osebe, ki niso družinski člani po tem zakonu, ali je njeno preživetje zagotovljeno na drug način.«.
+V drugem odstavku se v 1. točki črtata besedi »prihrankov oziroma«.
+
+
+### 21. člen
+
+Četrti odstavek 32. člena se črta.
+Dosedanji peti odstavek postane četrti.
+
+
+### 22. člen
+
+33. člen se spremeni tako, da se glasi:
+
+
+### »33. člen
+
+
+### (namen in dodelitev)
+
+(1) Ne glede na določbe tega poglavja se lahko samski osebi oziroma družini kot posebna oblika denarne socialne pomoči dodeli izredna denarna socialna pomoč, če se ugotovi, da se je samska oseba ali družina iz razlogov, na katere ni mogla ali ne more vplivati, znašla v položaju materialne ogroženosti oziroma, če izkazuje izredne stroške, ki so vezani na preživljanje, ki jih z lastnim dohodkom ali lastnim dohodkom družine ne more pokriti.
+(2) Izredna denarna socialna pomoč se glede na potrebe samske osebe ali družine dodeli v enkratnem znesku ali za obdobje iz drugega in tretjega odstavka 36. člena tega zakona.
+(3) Višina izredne denarne socialne pomoči mesečno ne sme presegati višine enega minimalnega dohodka samske osebe ali družine, v enem koledarskem letu pa ne sme presegati višine petih njenih minimalnih dohodkov, od katerih se lahko višina treh njenih minimalnih dohodkov dodeli le za izredne stroške, nastale zaradi naravne nesreče ali višje sile.
+(4) Ne glede na prejšnji odstavek se v primeru osebe, ki je imela v prejšnji odločbi o upravičenosti do izredne denarne socialne pomoči status otroka, ob novi vlogi za izredno denarno socialno pomoč pa se šteje kot samska oseba ali kot družinski član nove družine, znesek izredne denarne socialne pomoči, prejete na podlagi prejšnje odločbe, ne šteje v višino petih minimalnih dohodkov v enem koledarskem letu.«.
+
+
+### 23. člen
+
+Na koncu četrtega odstavka 34. člena se pred piko doda vejica in besedilo »razen v primeru vložitve nove vloge za izredno denarno socialno pomoč zaradi naravne nesreče ali višje sile«.
+Za četrtim odstavkom se doda nov peti odstavek, ki se glasi:
+»(5) Ne glede na prejšnji odstavek je do izredne denarne socialne pomoči lahko upravičena oseba, ki je imela v prejšnji odločbi o upravičenosti do izredne denarne socialne pomoči status otroka, ob novi vlogi za izredno denarno socialno pomoč pa se šteje kot samska oseba ali kot družinski član nove družine.«.
+Dosedanji peti odstavek postane šesti.
+
+
+### 24. člen
+
+Za 34. členom se dodata novi 34.a in 34.b člen, ki se glasita:
+
+
+### »34.a člen
+
+
+### (posebna oblika izredne denarne socialne pomoči po smrti družinskega člana)
+
+(1) Ne glede na določbe tega poglavja se družinskemu članu umrlega kot posebna oblika izredne denarne socialne pomoči dodeli enkratna izredna denarna socialna pomoč v višini osnovnega zneska minimalnega dohodka iz 8. člena tega zakona.
+(2) Do pravice iz prejšnjega odstavka je upravičen družinski član umrlega, če je bil na dan smrti umrlega upravičen do socialno varstvenih pravic po tem zakonu ali katerega lastni dohodek oziroma katerega skupni lastni dohodek družine, pri izračunu katerega se ne upoštevajo denarna socialna pomoč in varstveni dodatek po tem zakonu, otroški dodatek po zakonu, ki ureja družinske prejemke in državna štipendija po zakonu, ki ureja štipendiranje, ni presegal višine njegovega minimalnega dohodka oziroma seštevka minimalnih dohodkov, določenega na način iz 50. člena tega zakona, pri čemer se dodatki za delovno aktivnost iz 26. člena tega zakona in krivdni razlogi iz 28. člena tega zakona ne upoštevajo.
+(3) Pri izračunu višine minimalnega dohodka oziroma seštevka minimalnih dohodkov, določenega na način iz 50. člena tega zakona, se šteje, da samo družinski član umrlega, ki uveljavlja pravico iz tega člena, izpolnjuje pogoj iz drugega odstavka 50. člena tega zakona.
+(4) Kot družinski člani umrlega iz tega člena se štejejo naslednje osebe:
+1. zakonec oziroma oseba, s katero je umrli živel v življenjski skupnosti, ki je po zakonu, ki ureja zakonsko zvezo in družinska razmerja, v pravnih posledicah izenačena z zakonsko zvezo oziroma oseba, s katero je umrli živel v registrirani istospolni partnerski skupnosti,
+2. otroci in pastorki,
+3. starši oziroma oseba, s katero eden izmed staršev živi v zakonski zvezi ali v življenjski skupnosti, ki je po zakonu, ki ureja zakonsko zvezo in družinska razmerja v pravnih posledicah izenačena z zakonsko zvezo ali v registrirani istospolni partnerski skupnosti.
+(5) Vloga za enkratno izredno denarno socialno pomoč iz prvega odstavka tega člena se vloži pri pristojnem centru za socialno delo v roku enega leta od datuma smrti umrlega. Vlogi je treba priložiti dokazilo o smrti, če podatek ni vpisan v matični register o smrti.
+(6) Enkratna izredna denarna socialna pomoč iz prvega odstavka tega člena se dodeli in izplača vlagatelju kot pomoč za vse družinske člane umrlega.
+
+
+### 34.b člen
+
+
+### (posebna oblika izredne denarne socialne pomoči kot pomoč pri kritju stroškov pogreba)
+
+(1) Ne glede na določbe tega poglavja se družinskemu članu umrlega, ki je poskrbel za pogreb v Republiki Sloveniji, kot posebna oblika izredne denarne socialne pomoči dodeli izredna denarna socialna pomoč kot pomoč pri kritju stroškov pogreba v višini dvakratnika osnovnega zneska minimalnega dohodka iz 8. člena tega zakona, vendar ne več kot znašajo stroški pogreba.
+(2) Do pravice iz prejšnjega odstavka je upravičen družinski član umrlega, če je bil na dan smrti umrlega upravičen do socialno varstvenih pravic po tem zakonu ali katerega lastni dohodek oziroma skupni lastni dohodek družine, pri izračunu katerega se ne upoštevajo denarna socialna pomoč in varstveni dodatek po tem zakonu, otroški dodatek po zakonu, ki ureja družinske prejemke in državna štipendija po zakonu, ki ureja štipendiranje, ni presegal višine 606 eurov za samsko osebo oziroma 909 eurov za družino.
+(3) Kot družinski člani umrlega iz tega člena se štejejo naslednje osebe:
+1. zakonec oziroma oseba, s katero je umrli živel v življenjski skupnosti, ki je po zakonu, ki ureja zakonsko zvezo in družinska razmerja v pravnih posledicah izenačena z zakonsko zvezo oziroma oseba, s katero je umrli živel v registrirani istospolni partnerski skupnosti;
+2. otroci in pastorki,
+3. starši oziroma oseba, s katero eden izmed staršev živi v zakonski zvezi ali v življenjski skupnosti, ki je po zakonu, ki ureja zakonsko zvezo in družinska razmerja v pravnih posledicah izenačena z zakonsko zvezo ali v registrirani istospolni partnerski skupnosti.
+(4) Družinski član umrlega, ki je poskrbel za pogreb, vlogo za izredno denarno socialno pomoč iz prvega odstavka tega člena vloži pri pristojnem centru za socialno delo v roku enega leta od datuma smrti umrlega, če zneska te pomoči pri računu za opravljene pogrebne storitve ni odštelo že pogrebno podjetje na podlagi podatka o upravičenosti družinskega člana do socialno varstvenih pravic po tem zakonu. Vlogi je treba priložiti originalni račun za opravljeni pogreb ali predračun stroškov pogreba in dokazilo o smrti, če podatek ni vpisan v matični register o smrti.
+(5) Če je pogrebno podjetje pri računu za opravljene pogrebne storitve odštelo znesek izredne denarne socialne pomoči iz prvega odstavka tega člena, pogrebnemu podjetju ta znesek povrne izplačevalec pravice iz prvega odstavka tega člena.
+(6) Izredna denarna socialna pomoč iz prvega odstavka tega člena se izplača v denarju družinskemu članu, ki je poskrbel za pogreb, oziroma z nakazilom pogrebnemu podjetju.
+(7) Zneska iz drugega odstavka tega člena minister, pristojen za socialno varstvo, na novo določi s sklepom po letu, ki sledi letu, v katerem gospodarska rast preseže 2 odstotka bruto domačega proizvoda, na podlagi zadnjih znanih končnih podatkov Statističnega urada Republike Slovenije o pragu tveganja revščine.
+
+
+### 25. člen
+
+Peti in šesti odstavek 36. člena se spremenita tako, da se glasita:
+»(5) Upravičencu, ki se v skladu s 54. členom tega zakona šteje kot trajno nezaposljiv ali trajno nezmožen za delo ali ki je nezaposlen in starejši od 63 let za ženske in od 65 let za moške ter je brez premoženja, ki se upošteva po zakonu, ki ureja uveljavljanje pravic iz javnih sredstev, ali je v institucionalnem varstvu in tudi njegovi družinski člani izpolnjujejo pogoje iz tega odstavka, se dodeli trajna denarna socialna pomoč.
+(6) Center za socialno delo enkrat letno po uradni dolžnosti preveri, ali osebe iz prejšnjega odstavka na dan 1. aprila še izpolnjujejo pogoje za upravičenost do socialno varstvenih pravic po tem zakonu in ali so nastopile spremembe, ki vplivajo na višino oziroma obdobje upravičenosti do teh pravic in izda novo odločbo. Za potrebe odločanja se kot dan vložitve vloge šteje 31. marec«.
+
+
+### 26. člen
+
+37. člen se črta.
+
+
+### 27. člen
+
+V 39. členu se črta besedilo »in se izplačuje vlagatelju ali njegovemu družinskemu članu, ki se upošteva pri ugotavljanju upravičenosti do denarne socialne pomoči, če izplačilo na transakcijski račun vlagatelja ni mogoče«.
+
+
+### 28. člen
+
+43. člen se spremeni tako, da se glasi:
+
+
+### »43. člen
+
+
+### (odločanje po zakonu, ki ureja uveljavljanje pravic iz javnih sredstev)
+
+Pri uveljavljanju pravice do denarne socialne pomoči se v zvezi z dolžnostjo in rokom sporočanja sprememb, načinom upoštevanja sprememb, postopkom ugotavljanja upravičenosti do denarne socialne pomoči in vračilom neupravičeno prejete denarne socialne pomoči, upoštevajo določbe zakona, ki ureja uveljavljanje pravic iz javnih sredstev, če ni s tem zakonom določeno drugače.«.
+
+
+### 29. člen
+
+44. in 45. člen se črtata.
+
+
+### 30. člen
+
+V prvem odstavku 46. člena se besedilo »iz prvega odstavka prejšnjega člena« nadomesti z besedilom »treh let po dokončnosti odločbe o upravičenosti do denarne socialne pomoči in ves čas prejemanja trajne denarne socialne pomoči«.
+V tretjem odstavku se za besedilom »Pristojni organ odpravi« dodata besedi »ali razveljavi«.
+
+
+### 31. člen
+
+48. člen se črta.
+
+
+### 32. člen
+
+52. člen se spremeni tako, da se glasi:
+
+
+### »52. člen
+
+
+### (smiselna uporaba določb, ki veljajo za ugotavljanje upravičenosti do denarne socialne pomoči)
+
+Pri presoji upravičenosti do varstvenega dodatka se v zvezi z ugotavljanjem družine oziroma družinskih članov, lastnega dohodka, upoštevanjem premoženja, dodeljevanjem, zmanjševanjem, izplačevanjem in povečanjem varstvenega dodatka za dodatek za pomoč in postrežbo, uskladitvijo višine dodeljenega varstvenega dodatka, zaznambo prepovedi odtujitve in obremenitve nepremičnine, katere lastnik je upravičenec do varstvenega dodatka, v korist Republike Slovenije, pristojnostjo organa, ugotavljanjem razlogov za nedodelitev oziroma neupravičenost, smiselno uporabljajo določbe, ki veljajo za ugotavljanje upravičenosti do denarne socialne pomoči po tem zakonu.«.
+
+
+### 33. člen
+
+54. člen se spremeni tako, da se glasi:
+
+
+### »54. člen
+
+
+### (oseba, trajno nezmožna za delo in trajno nezaposljiva oseba)
+
+(1) V postopku ugotavljanja upravičenosti do varstvenega dodatka se kot oseba, ki je trajno nezmožna za delo, šteje oseba, ki:
+– ima status invalida I. kategorije
+– je invalidsko upokojena
+– ima status invalida po zakonu, ki ureja varstvo duševno in telesno prizadetih oseb ali
+– ima mnenje invalidskih komisij Zavoda za pokojninsko in invalidsko zavarovanje Slovenije (v nadaljnjem besedilu: invalidska komisija) o trajni nezmožnosti za delo.
+(2) Invalidska komisija iz četrte alineje prejšnjega odstavka na zahtevo osebe, ki uveljavlja pravico do varstvenega dodatka po tem zakonu, izdela mnenje o tem, ali je oseba trajno nezmožna za delo.
+(3) Pri pripravi mnenja v zvezi s postopkom in ugotavljanjem trajne nezmožnosti za delo invalidska komisija smiselno uporablja določbe, ki veljajo za ugotavljanje trajne nezmožnosti za delo po predpisih o pokojninskem in invalidskem zavarovanju.
+(4) Stroški za izdelavo mnenja invalidske komisije gredo v breme osebe, ki uveljavlja pravico do varstvenega dodatka.
+(5) V postopku ugotavljanja upravičenosti do varstvenega dodatka se kot trajno nezaposljiva oseba šteje oseba, ki razpolaga z odločbo o nezaposljivosti Zavoda Republike Slovenije za zaposlovanje po predpisih o zaposlitveni rehabilitaciji in zaposlovanju invalidov oziroma drugega ustreznega organa po predpisih, ki urejajo status invalidov.«.
+
+
+### 34. člen
+
+V 62. členu se za sedmim odstavkom doda nov osmi odstavek, ki se glasi:
+»(8) Za potrebe odštetja zneska izredne denarne socialne pomoči iz 34.b člena tega zakona pri računu za opravljene pogrebne storitve lahko pogrebno podjetje iz centralne zbirke podatkov iz 60. člena tega zakona pridobi podatke o upravičenosti do socialno varstvenih pravic po tem zakonu. Pogrebno podjetje v zahtevi za posredovanje podatkov navede osebno ime in EMŠO osebe, ki je poskrbela za pogreb, in podatek o EMŠO osebe, ki je umrla. Pogrebno podjetje lahko podatke iz prejšnjega stavka pridobi od osebe, ki je poskrbela za pogreb, samo za namen iz tega odstavka in ga po pridobitvi podatka o upravičenosti do socialno varstvenih pravic po tem zakonu ne sme nadalje obdelovati.«
+
+
+### PREHODNE IN KONČNA DOLOČBA
+
+
+### 35. člen
+
+
+### (način dokončanja postopkov za pridobitev denarne socialne pomoči in varstvenega dodatka)
+
+(1) Postopki ugotavljanja upravičenosti do denarne socialne pomoči in varstvenega dodatka na podlagi vloženih vlog na prvi stopnji decembra 2013, se dokončajo po tem zakonu.
+(2) Upravičenec, ki ima odločbo o priznanju pravice do denarne socialne pomoči ali varstvenega dodatka, lahko ne glede na obdobje veljavnosti te odločbe pred potekom obdobja, za katerega mu je bila pravica priznana, v roku od 1. septembra do 31. oktobra 2014 uveljavlja odmero teh pravic po tem zakonu.
+(3) Za potrebe odločanja po prejšnjem odstavku se kot dan vložitve vloge šteje 31. avgust 2014.
+
+
+### 36. člen
+
+
+### (veljava posameznih določb zakona)
+
+(1) Ne glede na prvi odstavek 8. člena zakona se osnovni znesek minimalnega dohodka v obdobju do vključno leta, ki sledi letu, v katerem gospodarska rast preseže 2 odstotka bruto domačega proizvoda, določi v višini 265,22 eurov in se usklajuje po zakonu, ki ureja usklajevanje transferjev posameznikom in gospodinjstvom v Republiki Sloveniji, uporablja pa se od prvega dne naslednjega meseca po uskladitvi.
+(2) Ne glede na drugi odstavek 23. člena zakona se v obdobju do vključno leta, ki sledi letu, v katerem gospodarska rast preseže 2 odstotka bruto domačega proizvoda, občasni, neperiodični dohodki, ki jih je upravičenec prejel pred obdobjem iz prvega odstavka 20. člena zakona, vendar v obdobju dvanajstih mesecev pred mesecem vložitve vloge, upoštevajo, če dosegajo ali presegajo višino 13.780 eurov.
+(3) Ne glede na peti odstavek 34.a člena zakona se do vzpostavitve informacijske izmenjave podatkov iz osmega odstavka 62. člena zakona vloga za enkratno izredno denarno socialno pomoč po smrti družinskega člana vloži pri kateremkoli centru za socialno delo.
+(4) Ne glede na četrti odstavek 34.b člena zakona se do vzpostavitve informacijske izmenjave podatkov iz osmega odstavka 62. člena zakona vloga za izredno denarno socialno pomoč kot pomoč pri kritju stroškov pogreba vloži pri kateremkoli centru za socialno delo.
+(5) Ne glede na 5., 6., 7., 8., 9. in 10. točke prvega odstavka 26. člena zakona se v obdobju do vključno leta, ki sledi letu, v katerem gospodarska rast preseže 2 odstotka bruto domačega proizvoda, višine minimalnega dohodka za posameznega družinskega člana, v razmerju do osnovnega zneska minimalnega dohodka, povečajo za 0,1 osnovnega zneska minimalnega dohodka.
+(6) Ne glede na prvi odstavek 27. člena zakona se v obdobju do vključno leta, ki sledi letu, v katerem gospodarska rast preseže 2 odstotka bruto domačega proizvoda, denarna socialna pomoč ne dodeli samski osebi ali družini, ki ima premoženje, ki se upošteva po zakonu, ki ureja uveljavljanje pravic iz javnih sredstev, ki dosega ali presega 13.780 eurov.
+(7) Ne glede na 8.a člen in drugi odstavek 9.a člena Zakona o družbenem varstvu duševno in telesno prizadetih oseb (Uradni list SRS, št. 41/83 ter Uradni list RS, št. 114/06 – ZUTPG, 122/07 – odločba US, 61/10 – ZSVarPre, 40/11 – ZSVarPre-A, 110/11 – ZDIU12 in 40/12 – ZUJF; v nadaljnjem besedilu: ZDVDTP), se do vključno leta, ki sledi letu, v katerem gospodarska rast preseže 2 odstotka bruto domačega proizvoda, višina transferjev za osebe, ki jih določa ZDVDTP, določi v višini, kot je določena s Sklepom o usklajenih višinah transferjev, ki so določeni v nominalnih zneskih ter o odstotku uskladitve drugih transferjev posameznikom in gospodinjstvom v Republiki Sloveniji od 1. julija 2011 (Uradni list RS, št. 57/11), za nadomestilo za invalidnost in za dodatek za tujo nego in pomoč.
+(8) Ne glede na 1. točko drugega odstavka 50. člena zakona se višina minimalnega dohodka, določena v skladu s prvim odstavkom 50. člena zakona, v razmerju do osnovnega zneska minimalnega dohodka iz 8. člena zakona, v obdobju do vključno leta, ki sledi letu, v katerem gospodarska rast preseže 2 odstotka bruto domačega proizvoda, poveča za 0,73 osnovnega zneska minimalnega dohodka.
+(9) Ne glede na 2. točko drugega odstavka 50. člena zakona se višina minimalnega dohodka, določena v skladu s prvim odstavkom 50. člena zakona, v obdobju do vključno leta, ki sledi letu, v katerem gospodarska rast preseže 2 odstotka bruto domačega proizvoda v razmerju do osnovnega zneska minimalnega dohodka iz 8. člena zakona, poveča za 0,36 osnovnega zneska minimalnega dohodka.
+(10) Ne glede na prvi odstavek in 1. točko četrtega odstavka 51. člena zakona se višina varstvenega dodatka v obdobju do vključno leta, ki sledi letu, v katerem gospodarska rast preseže 2 odstotka bruto domačega proizvoda, določi v višini 0,73 osnovnega zneska minimalnega dohodka.
+(11) Ne glede na 2. točko četrtega odstavka 51. člena zakona se višina varstvenega dodatka v obdobju do vključno leta, ki sledi letu, v katerem gospodarska rast preseže 2 odstotka bruto domačega proizvoda, določi v višini 0,36 osnovnega zneska minimalnega dohodka.
+
+
+### 37. člen
+
+
+### (ugotavljanje gospodarske rasti)
+
+Gospodarsko rast v skladu s 34.b členom in prejšnjim členom ugotovi Statistični urad Republike Slovenije. Sklep o ugotovitvi, da je gospodarska rast presegla 2 odstotka bruto domačega proizvoda, Vlada Republike Slovenije objavi v Uradnem listu Republike Slovenije do 30. septembra leta, ki sledi letu, v katerem gospodarska rast preseže 2 odstotka bruto domačega proizvoda.
+
+
+### 38. člen
+
+
+### (prenehanje veljavnosti posameznih določb nekaterih zakonov)
+
+(1) Z dnem uveljavitve tega zakona v Zakonu za uravnoteženje javnih financ (Uradni list RS, št. 40/12, 96/12 – ZPIZ-2, 104/12 – ZIPRS1314, 105/12, 25/13 – odločba US, 46/13 – ZIPRS1314-A, 47/13, 56/13 – ZŠtip-1, 63/13 – ZOsn-I in 63/13 – ZJAKRS-A) prenehajo veljati prvi, drugi, četrti, peti, šesti, sedmi, osmi, deveti in deseti odstavek 152. člena, ki pa se uporabljajo do 31. decembra 2013.
+(2) Z dnem uveljavitve tega zakona v Zakonu o zdravstvenem varstvu in zdravstvenem zavarovanju (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo, 114/06 – ZUTPG, 91/07, 76/08, 62/10 – ZUPJS, 87/11, 40/12 – ZUJF, 21/13 – ZUTD-A, 63/13 – ZIUPTDSV in 91/13) prenehajo veljati:
+1. 3. točka drugega odstavka 13. člena,
+2. peti odstavek 23. člena v delu, ki se nanaša na pogrebnino in posmrtnino,
+3. poglavje Pogrebnina in posmrtnina s členi 36., 37. in 38.,
+4. 2. in 4. točka 46. člena v delu, ki se nanaša na pogrebnino in posmrtnino,
+5. 2. točka prvega odstavka 47. člena v delu, ki se nanaša na pogrebnino in posmrtnino in
+6. 84. člen v delu, ki se nanaša na pogrebnino in posmrtnino,
+ki se uporabljajo do 31. decembra 2013.
+(3) Z dnem uveljavitve tega zakona v Zakonu o prispevkih za socialno varnost (Uradni list RS, št. 5/96, 18/96 – ZDavP, 34/96, 87/97 – ZDavP-A, 3/98, 7/98 – odločba US RS, 106/99 – ZPIZ-1, 81/00 – ZPSV-C, 97/01 – ZSDP, 97/01, 62/10 – odločba US, 4/12 in 96/12) prenehajo veljati:
+1. 2. in 4. točka 11. člena v delu, ki se nanaša na pogrebnino in posmrtnino in
+2. 2. točka 12. člena v delu, ki se nanaša na pogrebnino in posmrtnino,
+ki se uporabljajo do 31. decembra 2013.
+(4) Z dnem uveljavitve tega zakona v Pravilih obveznega zdravstvenega zavarovanja (Uradni list RS, št. 30/03 – prečiščeno besedilo, 35/03 – popr., 78/03, 84/04, 44/05, 86/06, 90/06 – popr., 64/07, 33/08, 71/08 – odločba US, 118/08 – sklep US, 7/09, 88/09, 30/11, 49/12 in 106/12) prenehajo veljati:
+1. 9. in 10. točka prvega odstavka 22. člena,
+2. prvi odstavek 22.a člena v delu, ki se nanaša na pogrebnino in posmrtnino,
+3. poglavje »XII/2. Pravica do pogrebnine in posmrtnine« s členi 148., 149., 150., 151. in 152.,
+4. prvi odstavek 159. člena v delu, ki se nanaša na pogrebnino in posmrtnino,
+5. v naslovu poglavja XIII/12. besedilo »,pogrebnine in posmrtnine«,
+6. 248. člen,
+7. 249. člen,
+8. 2. točka tretjega odstavka 256. člena v delu, ki se nanaša na pogrebnino in posmrtnino,
+ki se uporabljajo do 31. decembra 2013.
+(5) Z dnem uveljavitve tega zakona v Zakonu o starševskem varstvu in družinskih prejemkih (Uradni list RS, št. 110/06 – uradno prečiščeno besedilo, 114/06 – ZUTPG, 10/08, 62/10 – ZUPJS, 40/12 – ZUJF in 63/13 – ZIUPTDSV) prenehajo veljati:
+1. 42.a člen v delu, ki se nanaša na pogrebnino in posmrtnino,
+2. 48. člen v delu, ki se nanaša na pogrebnino in posmrtnino,
+3. 48.a člen v delu, ki se nanaša na pogrebnino in posmrtnino
+4. 84. člen v delu, ki se nanaša na pogrebnino in posmrtnino,
+ki se uporabljajo do 31. decembra 2013.
+(6) Z dnem uveljavitve tega zakona v Zakonu o pokojninskem in invalidskem zavarovanju (Uradni list RS, št. 96/12, 39/13 in 63/13 – ZIUPTDSV) preneha veljati šesti odstavek 406. člena v delu, ki se nanaša na pogrebnino in posmrtnino, ki se uporablja do 31. decembra 2013.
+
+
+### 39. člen
+
+
+### (omejitev dedovanja)
+
+(1) Ne glede na določbe 128. in 129. člena Zakona o dedovanju (Uradni list SRS, št. 15/76, 23/78, Uradni list SRS/I, št. 17/91 – ZUDE, Uradni list RS, št. 13/94 – ZN, 40/94 – odločba US, 82/94 – ZN-B, 117/00 – odločba US, 67/01, 83/01 – OZ, 73/04 – ZN-C in 31/13 – odločba US) se do nove ureditve omejitve dedovanja premoženja zapustnika, ki je užival pomoč v skladu s predpisi o socialnem varstvu, dedovanje zapustnikovega premoženja omeji do višine 2/3 prejetih sredstev, ki jih je zapustnik prejel iz naslova varstvenega dodatka, oprostitve plačil socialnovarstvenih storitev in prispevka k plačilu sredstev, namenjenih za plačilo oziroma doplačilo pravic družinskega pomočnika.
+(2) Ne glede na določbe 128. in 129. člena Zakona o dedovanju (Uradni list SRS, št. 15/76 in 23/78, ter Uradni list RS, št. 13/94 – ZN, 40/94 – odločba US, 82/94 – ZN-B, 117/00 – odločba US, 67/01, 83/01 – OZ, 73/04 – ZN-C in 31/13 – odločba US) se do nove ureditve omejitve dedovanja premoženja zapustnika, ki je užival pomoč v skladu s predpisi o socialnem varstvu, za prejeto denarno socialno pomoč dedovanje zapustnikovega premoženja ne omeji, če je zapustnik to pomoč prejel za 12 ali manj mesecev.
+(3) Če je zapustnik pomoč iz prejšnjega odstavka prejel za več kot 12 mesecev, se dedovanje zapustnikovega premoženja omeji do višine prejete pomoči, zmanjšane za 12 najvišjih mesečnih zneskov, nato pa zmanjšane še za 1/3 od preostalih mesečnih zneskov prejete pomoči.
+(4) Ne glede na določbo 128. člena Zakona o dedovanju (Uradni list SRS, št. 15/76 in 23/78, ter Uradni list RS, št. 13/94 – ZN, 40/94 – odločba US, 82/94 – ZN-B, 117/00 – odločba US, 67/01, 83/01 – OZ, 73/04 – ZN-C in 31/13 – odločba US) se do nove ureditve omejitve dedovanja premoženja zapustnika, ki je užival pomoč v skladu s predpisi o socialnem varstvu, za prejeto izredno denarno socialno pomoč iz 33., 34.a in 34.b člena zakona, dedovanje zapustnikovega premoženja ne omeji.
+
+
+### 40. člen
+
+
+### (uveljavitev in začetek uporabe zakona)
+
+(1) Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se od 1. septembra 2014.
+(2) Ne glede na prejšnji odstavek se sprememba 3. člena in 7. člena zakona, 9. in 10. točka prvega odstavka 26. člena zakona, sprememba 1. in 2. točke drugega odstavka 27. člena zakona, sprememba 28. člena, 33. člena in 34. člena zakona, 34.a člen in 34.b člen zakona, sprememba 39. člena, 54. člena in 62. člena zakona ter prvi odstavek 35. člena, 36. člen, 37. člen in 39. člen tega zakona začnejo uporabljati 1. januarja 2014.
+(3) Do začetka uporabe določb iz prvega in drugega odstavka tega člena se glede vprašanj, ki jih te določbe urejajo, še naprej uporabljajo določbe Zakona o socialno varstvenih prejemkih (Uradni list RS, št. št. 61/10, 40/11, 110/11 – ZDIU12, 40/12 – ZUJF in 14/13).
+
+Št. 541-01/13-12/35
+
+Ljubljana, dne 21. novembra 2013
+
+EPA 1502-VI
+
+Državni zbor
+Republike Slovenije
+Janko Veber l.r.
+Predsednik
