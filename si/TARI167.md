@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Tarife o taksah in nadomestilih"
 vrsta: "akt"
 datum: 2013-12-16
 sop: 2013-01-3828
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3828"
 ---
 

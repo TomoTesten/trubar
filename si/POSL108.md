@@ -4,9 +4,9 @@ naziv: "Dopolnitev Poslovnika Državne revizijske komisije za revizijo postopkov
 vrsta: "akt"
 datum: 2013-12-03
 sop: 2013-01-3561
-organ: "Državna revizijska komisija za revizijo postopkov oddaje javnih naročil"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3561"
 ---
 

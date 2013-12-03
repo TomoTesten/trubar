@@ -2,11 +2,11 @@
 kratica: NAVO875
 naziv: "Navodilo za izvajanje Sklepa o minimalnih zahtevah za zagotavljanje ustrezne likvidnostne pozicije bank in hranilnic"
 vrsta: "navodilo"
-datum: 2007-03-29
+datum: 2013-12-06
 sop: 2007-01-1401
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-1401"
 ---
 

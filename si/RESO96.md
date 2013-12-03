@@ -4,9 +4,9 @@ naziv: "Resolucija o nacionalnem programu za kulturo 2014–2017 (ReNPK14–17)"
 vrsta: "akt"
 datum: 2013-12-03
 sop: 2013-01-3551
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3551"
 ---
 
