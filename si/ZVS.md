@@ -7,6 +7,11 @@ sop: 2007-01-0599
 objava: "Uradni list RS 14/07  str. 1533"
 kljucne_besede: ["cerkev", "religija", "svoboda veroizpovedi", "verska skupina", "verska ustanova"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-0599"
+spremembe:
+  - kratica: ZVS-A
+    datum: 2013-12-06
+    sop: 2013-01-3604
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o verski svobodi"
 ---
 
 # Zakon o verski svobodi
