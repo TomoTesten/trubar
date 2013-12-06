@@ -7,6 +7,11 @@ sop: 2004-01-3840
 objava: "Uradni list RS 86/04  str. 10409"
 kljucne_besede: ["strokovno izpopolnjevanje", "visokošolsko izobraževanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3840"
+spremembe:
+  - kratica: ZVSI-A
+    datum: 2013-12-06
+    sop: 2013-01-3603
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o višjem strokovnem izobraževanju"
 ---
 
 # Zakon o višjem strokovnem izobraževanju
