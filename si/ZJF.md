@@ -32,6 +32,10 @@ spremembe:
     datum: 2010-12-29
     sop: 2010-01-5582
     naziv: "Zakon o spremembah in dopolnitvah Zakona o javnih financah"
+  - kratica: ZJF-G
+    datum: 2013-12-09
+    sop: 2013-01-3677
+    naziv: "Zakon o dopolnitvi Zakona o javnih financah"
 ---
 
 # Zakon o javnih financah
