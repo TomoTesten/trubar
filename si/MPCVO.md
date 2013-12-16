@@ -7,6 +7,11 @@ sop: 1998-02-0030
 objava: "Uradni list RS MP 11/98  str. 188"
 kljucne_besede: ["ratifikacija sporazuma", "vpliv na okolje", "varstvo okolja", "mednarodna konvencija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-02-0030"
+spremembe:
+  - kratica: MPCVO-A
+    datum: 2013-12-16
+    sop: 2013-02-0081
+    naziv: "Zakon o ratifikaciji Spremembe in Druge spremembe Konvencije o presoji čezmejnih vplivov na okolje"
 ---
 
 # Zakon o ratifikaciji Konvencije o presoji čezmejnih vplivov na okolje
