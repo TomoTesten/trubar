@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba dejavnosti gostinstva in turizma Slovenije"
 vrsta: "akt"
 datum: 2013-12-27
 sop: 2013-01-4033
-organ: "Turistično gostinska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-4033"
 ---
 
