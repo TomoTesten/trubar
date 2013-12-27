@@ -24,6 +24,10 @@ spremembe:
     datum: 2006-12-29
     sop: 2006-01-6042
     naziv: "Zakon o spremembah in dopolnitvah zakona o avtorski in sorodnih pravicah"
+  - kratica: ZASP-F
+    datum: 2013-12-27
+    sop: 2013-01-4030
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o avtorski in sorodnih pravicah"
 ---
 
 # Zakon o avtorski in sorodnih pravicah
