@@ -7,6 +7,11 @@ sop: 2010-01-3271
 objava: "Uradni list RS 59/10  str. 8887"
 kljucne_besede: ["finančna zakonodaja", "proračun", "opravljanje storitev", "plačilo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-3271"
+spremembe:
+  - kratica: ZOPSPU-A
+    datum: 2013-12-27
+    sop: 2013-01-4128
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o opravljanju plačilnih storitev za proračunske uporabnike"
 ---
 
 # Zakon o opravljanju plačilnih storitev za proračunske uporabnike
