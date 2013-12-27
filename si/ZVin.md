@@ -7,6 +7,11 @@ sop: 2006-01-4488
 objava: "Uradni list RS 105/06  str. 10616"
 kljucne_besede: ["vino", "vinogradništvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4488"
+spremembe:
+  - kratica: ZVin-B
+    datum: 2013-12-27
+    sop: 2013-01-4133
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o vinu"
 ---
 
 # Zakon o vinu
