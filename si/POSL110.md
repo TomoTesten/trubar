@@ -4,9 +4,9 @@ naziv: "Spremembe Poslovnika Državnega sveta (PoDS-1C)"
 vrsta: "akt"
 datum: 2014-01-24
 sop: 2014-01-0116
-organ: "Državni svet RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0116"
 ---
 
