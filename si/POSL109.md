@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Poslovnika Vlade Republike Slovenije"
 vrsta: "akt"
 datum: 2014-02-07
 sop: 2014-01-0248
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0248"
 ---
 
