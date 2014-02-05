@@ -16,6 +16,10 @@ spremembe:
     datum: 2009-12-28
     sop: 2009-01-4925
     naziv: "Zakon o spremembah in dopolnitvah Zakona o volitvah poslancev iz Republike Slovenije v Evropski parlament"
+  - kratica: ZVPEP-C
+    datum: 2014-02-05
+    sop: 2014-01-0219
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o volitvah poslancev iz Republike Slovenije v Evropski parlament"
 ---
 
 # Zakon o volitvah poslancev v Evropski parlament iz Republike Slovenije
