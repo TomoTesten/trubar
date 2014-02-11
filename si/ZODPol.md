@@ -7,6 +7,11 @@ sop: 2013-01-0436
 objava: "Uradni list RS 15/13  str. 2064"
 kljucne_besede: ["policija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0436"
+spremembe:
+  - kratica: ZODPol-A
+    datum: 2014-02-11
+    sop: 2014-01-0291
+    naziv: "Zakon o dopolnitvah Zakona o organiziranosti in delu v policiji"
 ---
 
 # Zakon o organiziranosti in delu v policiji
