@@ -4,9 +4,9 @@ naziv: "Dopolnitev Notarske tarife"
 vrsta: "akt"
 datum: 2014-02-28
 sop: 2014-01-0452
-organ: "Ministrstvo za pravosodje"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0452"
 ---
 

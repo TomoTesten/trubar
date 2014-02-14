@@ -4,9 +4,9 @@ naziv: "Spremembe Poslovnika Sodnega sveta"
 vrsta: "akt"
 datum: 2014-03-03
 sop: 2014-01-0512
-organ: "Sodni svet Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0512"
 ---
 
