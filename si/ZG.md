@@ -24,6 +24,10 @@ spremembe:
     datum: 2013-07-26
     sop: 2013-01-2521
     naziv: "Zakon o spremembah in dopolnitvah Zakona o gozdovih"
+  - kratica: ZG-E
+    datum: 2014-03-07
+    sop: 2014-01-0541
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o gozdovih"
 ---
 
 # Zakon o gozdovih
