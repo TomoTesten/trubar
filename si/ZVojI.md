@@ -16,6 +16,10 @@ spremembe:
     datum: 1997-12-05
     sop: 1997-01-3588
     naziv: "Zakon o spremembah in dopolnitvah zakona o vojnih invalidih"
+  - kratica: ZVojI-D
+    datum: 2014-03-17
+    sop: 2014-01-0668
+    naziv: "Zakon o dopolnitvi Zakona o vojnih invalidih"
 ---
 
 # Zakon o vojnih invalidih
