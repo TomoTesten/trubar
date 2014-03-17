@@ -12,6 +12,10 @@ spremembe:
     datum: 2010-03-12
     sop: 2010-01-0808
     naziv: "Zakon o spremebah in dopolnitvah Zakona o preprečevanju pranja denarja in financiranja terorizma"
+  - kratica: ZPPDFT-C
+    datum: 2014-03-17
+    sop: 2014-01-0666
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o preprečevanju pranja denarja in financiranja terorizma"
 ---
 
 # Zakon o preprečevanju pranja denarja in financiranja terorizma
