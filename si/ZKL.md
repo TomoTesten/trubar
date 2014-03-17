@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-07-27
     sop: 2006-01-3455
     naziv: "Zakon o spremembah in dopolnitvah Zakona o Kobilarni Lipica"
+  - kratica: ZKL-B
+    datum: 2014-03-17
+    sop: 2014-01-0667
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o Kobilarni Lipica"
 ---
 
 # Zakon o Kobilarni Lipica
