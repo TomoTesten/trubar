@@ -16,6 +16,10 @@ spremembe:
     datum: 2006-03-17
     sop: 2006-01-1130
     naziv: "Zakon o spremembah in dopolnitvah zakona o dostopu do informacij javnega značaja"
+  - kratica: ZDIJZ-C
+    datum: 2014-04-02
+    sop: 2014-01-0876
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o dostopu do informacij javnega značaja"
 ---
 
 # Zakon o dostopu do informacij javnega značaja
