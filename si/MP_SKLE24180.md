@@ -1,0 +1,92 @@
+---
+kratica: MP_SKLE24180
+naziv: "Sklep o tarifnem sistemu za obračun storitev obveznih občinskih gospodarskih javnih služb varstva okolja (SKLE)"
+vrsta: "občinski sklep"
+datum: 2014-04-04
+sop: 2014-01-0952
+organ: "Občina Ig"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0952"
+---
+
+# Sklep o tarifnem sistemu za obračun storitev obveznih občinskih gospodarskih javnih služb varstva okolja (SKLE)
+
+Na podlagi 16. člena Statuta Občine Ig (Uradni list RS, št. 129/06, 124/07, 18/08 in 90/10) ter 30. člena v povezavi s 5. in 23. členom Uredbe o metodologiji za oblikovanje cen storitev obveznih občinskih gospodarskih javnih služb varstva okolja (Uradni list RS, št. 87/12 in 109/12) je Občinski svet Občine Ig na 23. redni seji dne 12. 3. 2014 sprejel
+
+
+## S K L E P
+o tarifnem sistemu za obračun storitev obveznih občinskih gospodarskih javnih služb varstva okolja
+
+1. S tem sklepom se določi tarifni sistem za obračun storitev obveznih občinskih gospodarskih javnih služb varstva okolja za:
+– zbiranje določenih vrst komunalnih odpadkov, ki vključuje zbiranje ločenih frakcij določenih komunalnih odpadkov in kosovnih odpadkov, ločeno zbrane odpadne embalaže in mešanih komunalnih odpadkov (v nadaljevanju: zbiranje določenih vrst komunalnih odpadkov),
+– zbiranje biološko razgradljivih kuhinjskih odpadkov in zelenega vrtnega odpada (v nadaljevanju: zbiranje BIO odpadkov),
+– obdelavo določenih vrst komunalnih odpadkov in
+– odlaganje ostankov predelave ali odstranjevanja komunalnih odpadkov.
+2. Tarifne postavke so v denarni vrednosti izraženi elementi tarifnega sistema, ki omogoča izračun cene v obračunskem obdobju in so:
+– cena za eno praznjenje zabojnika za komunalne odpadke (EUR/liter),
+– cena za prevzem tipizirane vrečke za mešane komunalne odpadke (EUR/liter),
+– cena za prevzem tipizirane vrečke za BIO odpadke (EUR/liter),
+– cena za maso obdelanih določenih vrst komunalnih odpadkov (EUR/kg),
+– cena za maso odloženih komunalnih odpadkov (EUR/kg) in
+– cena za nadstandardne storitve po javno objavljenem ceniku izvajalca javne službe (EUR).
+3. Elementi tarifnega sistema obračuna storitev obveznih občinskih gospodarskih javnih služb varstva okolja iz 1. točke tega sklepa (v nadaljevanju tudi: javna služba ravnanja s komunalnimi odpadki) so:
+– storitev zbiranja določenih vrst komunalnih odpadkov,
+– storitev zbiranja BIO odpadkov,
+– storitev obdelave določenih vrst komunalnih odpadkov,
+– storitev odlaganja komunalnih odpadkov in
+– nadstandardne storitve.
+4. Osnova za izračun tarifnih postavk oziroma zaračunanih cen so s strani Občinskega sveta Občine Ig potrjene cene storitev obveznih občinskih gospodarskih javnih služb iz 1. točke tega sklepa za obračunski enoti kg in m3, ki so sestavljene v skladu s podzakonskim predpisom, ki določa metodologijo za oblikovanje cen storitev obveznih občinskih gospodarskih javnih služb varstva okolja. Iz povprečnih cen, potrjenih na m3 se za redno zbiranje komunalnih odpadkov, po vrstah javnih služb in storitev in glede na velikost zabojnikov in vrečk, v sorazmernem deležu prostornine, izračuna cenik izražen v litrih, upoštevaje, da je 1 m3 1.000 litrov.
+5. Obračun storitev obveznih občinskih gospodarskih javnih služb varstva okolja iz 1. točke tega sklepa se za uporabnike v gospodinjstvih, počitniških hišah in poslovnih prostorih, kjer se komunalni odpadki zbirajo v zabojnikih prostornine od 80 do 1.100 l, izvaja mesečno. Vsem uporabnikom se obračunajo storitve iz prve, druge, tretje in četrte alineje 1. točke tega sklepa, razen uporabnikom, ki BIO odpadke hišno kompostirajo in nimajo zabojnika za zbiranje BIO odpadkov. Tem uporabnikom se ne zaračuna storitev iz druge alineje 1. točke tega sklepa. Za obračun storitve odlaganja ostankov predelave komunalnih odpadkov se upošteva s poslovnim načrtom in z letnim poročilom izvajalca javne službe določen delež izločenih odpadkov, ki se ob vsaki spremembi objavi v ceniku izvajalca javne službe.
+Mesečni obračun storitev javne službe ravnanja s komunalnimi odpadki iz 1. točke tega sklepa za uporabnika, ki BIO odpadke hišno kompostira in nima zabojnika za zbiranje BIO odpadkov:
+Zu = Cmko x Šmko
+kjer je:
+Zu – znesek, ki ga uporabnik plača v EUR/mesec,
+Cmko – cena za prostornino zabojnika za mešane komunalne odpadke,
+Šmko – povprečno mesečno število praznjenj zabojnika za mešane komunalne odpadke, izračunano na letni ravni in določeno na dve decimalni mesti.
+Mesečni obračun storitev javne službe ravnanja s komunalnimi odpadki iz 1. točke tega sklepa za uporabnika, ki ima zabojnik za zbiranje BIO odpadkov:
+Zu = (Cmko x Šmko) + (Cbio x Šbio)
+kjer je:
+Zu – znesek, ki ga uporabnik plača v EUR/mesec,
+Cmko – cena za prostornino zabojnika za mešane komunalne odpadke,
+Cbio – cena za prostornino zabojnika za BIO odpadke,
+Šmko – povprečno mesečno število praznjenj zabojnika za mešane komunalne odpadke, izračunano na letni ravni in določeno na dve decimalni mesti,
+Šbio – povprečno mesečno število praznjenj zabojnika za BIO odpadke, izračunano na letni ravni in določeno na dve decimalni mesti.
+6. Obračun obdelave določenih vrst komunalnih odpadkov, ki se v obdelavo pripeljejo izven rednega zbiranja komunalnih odpadkov, je:
+Zo = Ko x Cob
+kjer je:
+Zo – znesek, ki ga uporabnik plača,
+Ko – masa sprejetih določenih vrst komunalnih odpadkov izražena v kg,
+Cob – cena obdelave določenih vrst komunalnih odpadkov izražena v EUR/kg.
+7. Pri obračunu obdelave določenih vrst komunalnih odpadkov in odlaganja ostankov predelave ali odstranjevanja komunalnih odpadkov, se za obračun storitve odlaganja ostankov predelave komunalnih odpadkov upošteva s poslovnim načrtom in z letnim poročilom izvajalca javne službe določen delež izločenih odpadkov, ki se ob vsaki spremembi objavi v ceniku izvajalca javne službe. Obračun obdelave in odlaganja ostankov predelave komunalnih odpadkov, ki se v obdelavo pripeljejo izven rednega zbiranja komunalnih odpadkov je:
+Zo = (Ko x Cob) + (KKo x Cod)
+kjer je:
+Zo – znesek, ki ga uporabnik plača,
+Ko – masa sprejetih določenih vrst komunalnih odpadkov izražena v kg,
+KKo – masa sprejetih določenih vrst komunalnih odpadkov, zmanjšana za delež z obdelavo izločenih odpadkov, objavljen v ceniku izvajalca javne službe, izražena v kg,
+Cob – cena obdelave določenih vrst komunalnih odpadkov izražena v EUR/kg,
+Cod – cena odlaganja ostankov predelave komunalnih odpadkov izražena v EUR/kg.
+8. Obračun odlaganja ostankov predelave ali odstranjevanja komunalnih odpadkov, ki se na odlaganje pripeljejo izven rednega zbiranja komunalnih odpadkov, je:
+Zo = Ko x Cod
+kjer je:
+Zo – znesek, ki ga uporabnik plača,
+Ko – masa odloženih odpadkov izražena v kg,
+Cod – cena odlaganja ostankov predelave komunalnih odpadkov izražena v EUR/kg.
+9. Obračun nadstandardnih storitev se opravi po veljavnem ceniku izvajalca javne službe.
+10. Kot merilo za razdeljevanje stroškov storitev javne službe ravnanja s komunalnimi odpadki iz 1. točke tega sklepa med posameznimi stanovanji v stavbi ali več stavbah s skupnim zbirnim mestom za prepuščanje komunalnih odpadkov se uporablja število prebivalcev s stalnim ali začasnim prebivališčem v posameznem stanovanju, za pravne osebe pa število zaposlenih. Če izvajalcu javne službe lastniki stavbe ali njen upravitelj ali plačniki računov storitev javne službe ravnanja s komunalnimi odpadki iz 1. točke tega sklepa niso posredovali pisnih podatkov in dokazil o številu prebivalcev s stalnim ali začasnim prebivališčem v posameznih stanovanjih ali število zaposlenih pri pravnih osebah, se uporabi kot merilo, za razdelitev stroškov storitev javne službe ravnanja s komunalnimi odpadki iz 1. točke tega sklepa po posameznih stanovanjih in poslovnih prostorih, podatke o tlorisnih površinah stanovanj in poslovnih prostorov.
+11. Za stavbo, v kateri ni stalno prijavljenih prebivalcev in za katero ni podatka o velikosti zabojnika, se za porazdelitev količine opravljenih storitev javne službe ravnanja s komunalnimi odpadki iz 1. točke tega sklepa upoštevata najmanj ena tretjina najmanjše velikosti zabojnika in najmanjša pogostost odvoza, obračun storitev pa se izvede 2-krat letno.
+12. V primeru občasnega nastanka večjih količin mešanih komunalnih odpadkov ali BIO odpadkov, lahko uporabniki posamezno vrsto odpadka prepuščajo v ustrezni tipizirani vrečki za mešane komunalne odpadke ali za BIO odpadke, ki jo nabavijo na prodajnih mestih, ki jih določi izvajalec javne službe. Z nakupom tipizirane vrečke so plačane tudi storitve posamezne javne službe ravnanja s komunalnimi odpadki iz 1. točke tega sklepa.
+13. Obračun storitev javne službe ravnanja s komunalnimi odpadki iz 1. točke tega sklepa se izvaja na osnovi podatkov za posameznega uporabnika, za posamezno stavbo in podatkov registra zbirnih mest. Spremembe podatkov, ki vplivajo na obračun storitev, so možne na osnovi podatkov iz uradnih evidenc in podatkov, ki jih izvajalcu javne službe sporočajo uporabniki.
+14. Izvajalec javne službe, lahko na pisno vlogo uporabnika, brez dodatnih stroškov, zamenja zabojnike za vse vrste odpadkov za manjše ali večje, razen v primeru zmanjšanja volumna za zabojnike za mešane komunalne odpadke ali biološke odpadke, ki se uporabniku zaračuna po veljavnem ceniku izvajalca javne službe.
+15. Izvajalec javne službe je dolžan zaračunati vse zakonsko predpisane dajatve.
+16. Z dnem uveljavitve tega sklepa, preneha veljati sklep št. 3544/006/2013 z dne 7. 3. 2013, objavljen v Uradnem glasilu Občine Ig, letnik XIX, št. 2.
+17. Ta sklep začne veljati naslednji dan po objavi v Uradnem glasilu Občine Ig, uporabljati pa se začne na podlagi potrjenih cen storitev obveznih občinskih gospodarskih javnih služb varstva okolja iz 1. točke tega sklepa, z dnem objave cenikov.
+18. Cenik storitev obveznih občinskih javnih služb varstva okolja s potrjeno ceno in cenik nadstandardnih storitev oblikuje in objavi izvajalec javne službe na svojih spletnih straneh in na krajevno običajen način.
+
+Št. 3544/001/2014
+
+Ig, dne 13. marca 2014
+
+Župan
+Občine Ig
+Janez Cimperman l.r.
