@@ -4,9 +4,9 @@ naziv: "Resolucija o Nacionalnem programu športa v Republiki Sloveniji za obdob
 vrsta: "akt"
 datum: 2014-04-14
 sop: 2014-01-1071
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-1071"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Statuta Fakultete za informacijske študije v No
 vrsta: "akt"
 datum: 2014-04-11
 sop: 2014-01-0990
-organ: "Fakulteta za informacijske študije Novo mesto"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0990"
 ---
 

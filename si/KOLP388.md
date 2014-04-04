@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba dejavnosti trgovine Slovenije"
 vrsta: "akt"
 datum: 2014-04-04
 sop: 2014-01-0899
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0899"
 ---
 
