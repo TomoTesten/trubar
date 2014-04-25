@@ -1,0 +1,60 @@
+---
+kratica: MP_ODLO50296
+naziv: "Odlok o spremembah in dopolnitvah Odloka o ustanovitvi javnega vzgojno-izobraževalnega zavoda Glasbena šola Rogaška Slatina 2014 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2014-04-25
+sop: 2014-01-1252
+organ: "Občina Šmarje pri Jelšah"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-1252"
+---
+
+# Odlok o spremembah in dopolnitvah Odloka o ustanovitvi javnega vzgojno-izobraževalnega zavoda Glasbena šola Rogaška Slatina 2014 (ODLO)
+
+Na podlagi Zakona o organizaciji in financiranju vzgoje in izobraževanja (Uradni list RS, št. 16/07 – UPB5, 101/07 Odl. US, 36/08, 22/09 Odl. US, 55/09 Skl. US, 58/09 (64/09 – popr., 65/09 – popr.), 16/10 Odl. US, 47/10 Odl. US, 20/11, 34/11 Odl. US, 40/12 – ZUJF, 57/12 – ZPCP-2D), Zakona o zavodih (Uradni list RS, št. 12/91, 45I/94 Odl. US, 8/96, 18/98 Odl. US, 36/00 – ZPDZC, 127/06 – ZJZP) in 16. člena Statuta Občine Rogaška Slatina (Uradni list RS, št. 26/12), 16. člena Statuta Občine Šmarje pri Jelšah (Uradni list RS, št. 35/10), 17. člena Statuta Občine Podčetrtek (Uradni list RS, št. 54/10), 16. člena Statuta Občine Rogatec (Uradni list RS, št. 13/06, 27/06, 50/10, 56/11), 19. člena Statuta Občine Bistrica ob Sotli (Uradni list RS, št. 25/13) so Občinski svet Občine Rogaška Slatina na 31. redni seji dne 26. 2. 2014, Občinski svet Občine Šmarje pri Jelšah, na 24. redni seji dne 27. 3. 2014, Občinski svet Občine Podčetrtek na 24. redni seji dne 28. 3. 2014, Občinski svet Občine Rogatec na 19. redni seji, dne 12. 2. 2014 in Občinski svet Občine Bistrica ob Sotli na 24. redni seji dne 6. 2. 2014 sprejeli
+
+
+## O D L O K
+o spremembah in dopolnitvah Odloka o ustanovitvi javnega vzgojno-izobraževalnega zavoda Glasbena šola Rogaška Slatina
+
+
+### 1. člen
+
+S tem odlokom se spreminja in dopolnjuje Odlok o ustanovitvi Javnega vzgojno-izobraževalnega zavoda Glasbena šola Rogaška Slatina (Uradni list RS, št. 73/98, 22/00, 52/03, 42/08, 116/08, 49/10).
+
+
+### 2. člen
+
+Besedilo 3. člena se v celoti nadomesti z besedilom, ki glasi:
+»Glasbena šola izvaja osnovno glasbeno izobraževanje na sedežu glasbene šole v Rogaški Slatini, v podružnični šoli v Šmarju pri Jelšah ter v dislociranih oddelkih Bistrica ob Sotli in Podčetrtek.
+V Rogaški Slatini se izvaja osnovno glasbeno izobraževanje za potrebe Občine Rogaška Slatina in Občine Rogatec ter po potrebi za druge občine.
+V Podružnični šoli Šmarje pri Jelšah se izvaja osnovno glasbeno izobraževanje za potrebe Občine Šmarje pri Jelšah.
+V dislociranem oddelku Bistrica ob Sotli se izvaja osnovno glasbeno izobraževanje za potrebe Občine Bistrica ob Sotli.
+V dislociranem oddelku Podčetrtek se izvaja osnovno glasbeno izobraževanje za potrebe Občine Podčetrtek.
+Glasbena šola lahko po predhodnem soglasju ustanovitelja organizira delo v novem dislociranem oddelku ali ukine obstoječega, če so za to podani zakonski razlogi.«
+
+
+### 3. člen
+
+Ta odlok začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 0320-0003/2014
+
+Rogaška Slatina, dne 28. marca 2014
+
+Župan
+Občine Rogaška Slatina
+mag. Branko Kidrič l.r.
+Župan
+Občine Bistrica ob Sotli
+Franjo Debelak l.r.
+Župan
+Občine Rogatec
+Martin Mikolič l.r.
+Župan
+Občine Podčetrtek
+Peter Misja l.r.
+Župan
+Občine Šmarje pri Jelšah
+Jože Čakš l.r.
