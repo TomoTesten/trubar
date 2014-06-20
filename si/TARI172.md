@@ -4,9 +4,9 @@ naziv: "Sprememba tarife za izvajanje storitev Javne agencije za knjigo Republik
 vrsta: "akt"
 datum: 2014-07-04
 sop: 2014-01-2100
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-2100"
 ---
 
