@@ -7,6 +7,11 @@ sop: 1998-02-0013
 objava: "Uradni list RS MP 5/98  str. 74"
 kljucne_besede: ["ratifikacija sporazuma", "Madžarska", "vojaško sodelovanje", "zračni prostor"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-02-0013"
+spremembe:
+  - kratica: BHULZO-A
+    datum: 2014-06-23
+    sop: 2014-02-0032
+    naziv: "Zakon o ratifikaciji Sporazuma med Vlado Republike Slovenije in Vlado Madžarske o spremembi Sporazuma med Vlado Republike Slovenije in Vlado Republike Madžarske o vojaškem sodelovanju na področju letalstva in zračne obrambe"
 ---
 
 # Zakon o ratifikaciji Sporazuma med Vlado Republike Slovenije in Vlado Republike Madžarske o vojaškem sodelovanju na področju letalstva in zračne obrambe
