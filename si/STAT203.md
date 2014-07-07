@@ -4,9 +4,9 @@ naziv: "Sprememba Statuta javnega zavoda Radiotelevizije Slovenija"
 vrsta: "akt"
 datum: 2014-07-21
 sop: 2014-01-2448
-organ: "Radiotelevizija Slovenija"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-2448"
 ---
 
