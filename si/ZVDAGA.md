@@ -7,6 +7,11 @@ sop: 2006-01-1229
 objava: "Uradni list RS 30/06  str. 3125"
 kljucne_besede: ["arhiv", "evidenca dokumentarnega gradiva"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1229"
+spremembe:
+  - kratica: ZVDAGA-A
+    datum: 2014-07-07
+    sop: 2014-01-2170
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o varstvu dokumentarnega in arhivskega gradiva ter arhivih"
 ---
 
 # Zakon o varstvu dokumentarnega in arhivskega gradiva ter arhivih
