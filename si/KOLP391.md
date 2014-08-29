@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba Banke Slovenije"
 vrsta: "akt"
 datum: 2014-10-10
 sop: 2014-01-2980
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-2980"
 ---
 

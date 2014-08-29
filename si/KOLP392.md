@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Kolektivne pogodbe za poštne in kurirske dejavn
 vrsta: "akt"
 datum: 2014-10-17
 sop: 2014-01-3066
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-3066"
 ---
 
