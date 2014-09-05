@@ -36,6 +36,10 @@ spremembe:
     datum: 2013-03-13
     sop: 2013-01-0787
     naziv: "Zakon o spremembah in dopolnitvah Zakona o Vladi Republike Slovenije"
+  - kratica: ZVRS-H
+    datum: 2014-09-05
+    sop: 2014-01-2739
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o Vladi Republike Slovenije"
 ---
 
 # Zakon o Vladi Republike Slovenije
