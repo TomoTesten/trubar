@@ -4,9 +4,9 @@ naziv: "Rebalans proračuna Republike Slovenije za leto 2014 (Rb2014)"
 vrsta: "akt"
 datum: 2014-11-28
 sop: 2014-01-3440
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-3440"
 ---
 

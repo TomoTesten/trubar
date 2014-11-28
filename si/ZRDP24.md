@@ -4,9 +4,9 @@ naziv: "Zaključni račun proračuna Republike Slovenije za leto 2013 (RZ2013)"
 vrsta: "akt"
 datum: 2014-12-01
 sop: 2014-01-3487
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-3487"
 ---
 
