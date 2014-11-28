@@ -12,6 +12,10 @@ spremembe:
     datum: 2012-12-27
     sop: 2012-01-4001
     naziv: "Zakon o dopolnitvi Zakona za uravnoteženje javnih financ"
+  - kratica: ZUJF-B
+    datum: 2014-11-28
+    sop: 2014-01-3442
+    naziv: "Zakon o spremembah in dopolnitvah Zakona za uravnoteženje javnih financ"
 ---
 
 # Zakon za uravnoteženje javnih financ
