@@ -7,6 +7,11 @@ sop: 2013-01-3675
 objava: "Uradni list RS 101/13  str. 11111"
 kljucne_besede: ["državni proračun", "izvrševanje proračuna"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3675"
+spremembe:
+  - kratica: ZIPRS1415-B
+    datum: 2014-11-28
+    sop: 2014-01-3441
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2014 in 2015"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2014 in 2015
