@@ -4,9 +4,9 @@ naziv: "Tarifa za izvajanje storitev Javne agencije za civilno letalstvo Republi
 vrsta: "akt"
 datum: 2014-12-08
 sop: 2014-01-3558
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-3558"
 ---
 
