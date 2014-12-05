@@ -48,6 +48,10 @@ spremembe:
     datum: 2013-05-31
     sop: 2013-01-1782
     naziv: "Zakon o spremembah in dopolnitvah Zakona o kazenskem postopku"
+  - kratica: ZKP-M
+    datum: 2014-12-05
+    sop: 2014-01-3503
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o kazenskem postopku"
 ---
 
 # Zakon o kazenskem postopku
