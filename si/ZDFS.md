@@ -7,6 +7,11 @@ sop: 2012-01-3642
 objava: "Uradni list RS 94/12  str. 9561"
 kljucne_besede: ["davek", "finančne storitve"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-3642"
+spremembe:
+  - kratica: ZDFS-A
+    datum: 2014-12-15
+    sop: 2014-01-3649
+    naziv: "Zakon o spremembah Zakona o davku na finančne storitve"
 ---
 
 # Zakon o davku na finančne storitve
