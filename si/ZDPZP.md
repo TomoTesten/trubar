@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-07-29
     sop: 2005-01-3211
     naziv: "Zakon o spremembah in dopolnitvah zakona o davku od prometa zavarovalnih poslov"
+  - kratica: ZDPZP-B
+    datum: 2014-12-15
+    sop: 2014-01-3648
+    naziv: "Zakon o spremembah Zakona o davku od prometa zavarovalnih poslov"
 ---
 
 # Zakon o davku od prometa zavarovalnih poslov
