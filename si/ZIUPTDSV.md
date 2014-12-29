@@ -7,6 +7,11 @@ sop: 2013-01-2511
 objava: "Uradni list RS 63/13  str. 7633"
 kljucne_besede: ["trg dela", "varstvo otrok"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-2511"
+spremembe:
+  - kratica: ZIUPTDSV-A
+    datum: 2014-12-29
+    sop: 2014-01-3950
+    naziv: "Zakon o spremembi Zakona o interventnih ukrepih na področju trga dela in starševskega varstva"
 ---
 
 # Zakon o interventnih ukrepih na področju trga dela in starševskega varstva
