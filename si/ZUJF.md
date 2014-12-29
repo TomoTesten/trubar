@@ -16,6 +16,10 @@ spremembe:
     datum: 2014-11-28
     sop: 2014-01-3442
     naziv: "Zakon o spremembah in dopolnitvah Zakona za uravnoteženje javnih financ"
+  - kratica: ZUJF-C
+    datum: 2014-12-29
+    sop: 2014-01-3951
+    naziv: "Zakon o spremembah in dopolnitvah Zakona za uravnoteženje javnih financ"
 ---
 
 # Zakon za uravnoteženje javnih financ
