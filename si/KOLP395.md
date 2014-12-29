@@ -4,9 +4,9 @@ naziv: "Aneks št. 7 h Kolektivni pogodbi za javni sektor (KPJS)"
 vrsta: "akt"
 datum: 2014-12-29
 sop: 2014-01-3963
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-3963"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Tarifa o vrednosti točke za letno plačilo na podlagi dovoljenja za izv
 vrsta: "akt"
 datum: 2014-12-29
 sop: 2014-01-4062
-organ: "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-4062"
 ---
 

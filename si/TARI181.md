@@ -4,9 +4,9 @@ naziv: "Tarifa o vrednosti točke in o višini deleža glede na zaračunano upor
 vrsta: "akt"
 datum: 2014-12-29
 sop: 2014-01-4063
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-4063"
 ---
 
