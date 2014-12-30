@@ -16,6 +16,10 @@ spremembe:
     datum: 2009-05-08
     sop: 2009-01-1633
     naziv: "Zakon o spremembah in dopolnitvah Zakona o odvetništvu"
+  - kratica: ZOdv-D
+    datum: 2014-12-30
+    sop: 2014-01-4071
+    naziv: "Zakon o dopolnitvah Zakona o odvetništvu"
 ---
 
 # Zakon o odvetništvu
