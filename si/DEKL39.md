@@ -4,9 +4,9 @@ naziv: "Deklaracija o usmeritvah za delovanje Republike Slovenije v institucijah
 vrsta: "akt"
 datum: 2015-02-06
 sop: 2015-01-0223
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-0223"
 ---
 
