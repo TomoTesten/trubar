@@ -16,6 +16,10 @@ spremembe:
     datum: 2014-12-29
     sop: 2014-01-3952
     naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2014 in 2015"
+  - kratica: ZIPRS1415-D
+    datum: 2015-02-28
+    sop: 2015-01-0506
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2014 in 2015"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2014 in 2015
