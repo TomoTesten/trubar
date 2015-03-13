@@ -48,6 +48,10 @@ spremembe:
     datum: 2013-07-26
     sop: 2013-01-2514
     naziv: "Zakon o spremembah in dopolnitvah Zakona o sodiščih"
+  - kratica: ZS-L
+    datum: 2015-03-13
+    sop: 2015-01-0624
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o sodiščih"
 ---
 
 # Zakon o sodiščih
