@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Kolektivne pogodbe za obrt in podjetništvo"
 vrsta: "akt"
 datum: 2015-04-24
 sop: 2015-01-1172
-organ: "Obrtno-podjetniška zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-1172"
 ---
 

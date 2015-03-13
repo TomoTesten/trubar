@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Poslovnika Državnega sveta (PoDS-1D)"
 vrsta: "akt"
 datum: 2015-04-17
 sop: 2015-01-1104
-organ: "Državni svet RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-1104"
 ---
 
