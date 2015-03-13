@@ -20,6 +20,10 @@ spremembe:
     datum: 2012-07-27
     sop: 2012-01-2407
     naziv: "Zakon o spremembah Zakona o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij"
+  - kratica: ZSTNIIP-D
+    datum: 2015-03-13
+    sop: 2015-01-0621
+    naziv: "Zakon o spremembi Zakona o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij"
 ---
 
 # Zakon o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij
