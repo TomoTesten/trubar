@@ -52,6 +52,10 @@ spremembe:
     datum: 2013-07-26
     sop: 2013-01-2515
     naziv: "Zakon o spremembah in dopolnitvah Zakona o sodniški službi"
+  - kratica: ZSS-M
+    datum: 2015-03-13
+    sop: 2015-01-0623
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o sodniški službi"
 ---
 
 # Zakon o sodniški službi
