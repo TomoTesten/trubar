@@ -12,6 +12,10 @@ spremembe:
     datum: 2012-07-27
     sop: 2012-01-2408
     naziv: "Zakon o spremembah in dopolnitvah Zakona o spodbujanju razvoja turizma"
+  - kratica: ZSRT-B
+    datum: 2015-03-13
+    sop: 2015-01-0620
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o spodbujanju razvoja turizma"
 ---
 
 # Zakon o spodbujanju razvoja turizma
