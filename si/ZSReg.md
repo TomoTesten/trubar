@@ -24,6 +24,10 @@ spremembe:
     datum: 2009-06-29
     sop: 2009-01-2429
     naziv: "Zakon o spremembah in dopolnitvah Zakona o sodnem registru"
+  - kratica: ZSReg-F
+    datum: 2015-03-13
+    sop: 2015-01-0625
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o sodnem registru"
 ---
 
 # Zakon o sodnem registru
