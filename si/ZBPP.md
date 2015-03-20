@@ -12,6 +12,10 @@ spremembe:
     datum: 2004-05-06
     sop: 2004-01-2293
     naziv: "Zakon o spremembah in dopolnitvah zakona o brezplačni pravni pomoči"
+  - kratica: ZBPP-C
+    datum: 2015-03-20
+    sop: 2015-01-0713
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o brezplačni pravni pomoči"
 ---
 
 # Zakon o brezplačni pravni pomoči
