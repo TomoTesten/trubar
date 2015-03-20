@@ -12,6 +12,10 @@ spremembe:
     datum: 2009-10-09
     sop: 2009-01-3438
     naziv: "Zakon o spremembah in dopolnitvah Zakona o elektronskem poslovanju na trgu"
+  - kratica: ZEPT-B
+    datum: 2015-03-20
+    sop: 2015-01-0714
+    naziv: "Zakon o spremembi Zakona o elektronskem poslovanju na trgu"
 ---
 
 # Zakon o elektronskem poslovanju na trgu
