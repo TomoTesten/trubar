@@ -20,6 +20,10 @@ spremembe:
     datum: 2009-10-30
     sop: 2009-01-3804
     naziv: "Zakon o spremembah in dopolnitvah Zakona o varstvu potrošnikov"
+  - kratica: ZVPot-G
+    datum: 2015-03-20
+    sop: 2015-01-0709
+    naziv: "Zakon o spremembi Zakona o varstvu potrošnikov"
 ---
 
 # Zakon o varstvu potrošnikov
