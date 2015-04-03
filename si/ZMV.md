@@ -7,6 +7,11 @@ sop: 2010-01-5475
 objava: "Uradni list RS 106/10  str. 16403"
 kljucne_besede: ["motorno vozilo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-5475"
+spremembe:
+  - kratica: ZMV-A
+    datum: 2015-04-03
+    sop: 2015-01-0897
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o motornih vozilih"
 ---
 
 # Zakon o motornih vozilih
