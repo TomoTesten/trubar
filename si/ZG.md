@@ -28,6 +28,10 @@ spremembe:
     datum: 2014-03-07
     sop: 2014-01-0541
     naziv: "Zakon o spremembah in dopolnitvah Zakona o gozdovih"
+  - kratica: ZG-F
+    datum: 2015-04-10
+    sop: 2015-01-0992
+    naziv: "Zakon o spremembah Zakona o gozdovih"
 ---
 
 # Zakon o gozdovih
