@@ -2,11 +2,11 @@
 kratica: MP_PRAV7524
 naziv: "Pravilnik o ohranjanju in spodbujanju razvoja kmetijstva in podeželja v Mestni občini Novo mesto za programsko obdobje 2015 - 2020 (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2026-01-04
+datum: 2015-05-04
 sop: 2015-23-0008
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Mestna občina Novo mesto"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-23-0008"
 ---
 
