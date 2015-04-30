@@ -16,6 +16,10 @@ spremembe:
     datum: 2010-12-29
     sop: 2010-01-5584
     naziv: "Zakon o dopolnitvi Zakona o sodelovanju med državnim zborom in vlado v zadevah Evropske unije"
+  - kratica: ZSDZVZEU-C
+    datum: 2015-04-30
+    sop: 2015-01-1252
+    naziv: "Zakon o dopolnitvah Zakona o sodelovanju med državnim zborom in vlado v zadevah Evropske unije"
 ---
 
 # Zakon o sodelovanju med državnim zborom in vlado v zadevah Evropske unije
