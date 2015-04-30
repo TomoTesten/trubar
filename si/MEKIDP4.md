@@ -7,6 +7,11 @@ sop: 2014-02-0009
 objava: "Uradni list RS MP 3/14  str. 63"
 kljucne_besede: ["evropska konvencija", "izročitev", "protokol"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-02-0009"
+spremembe:
+  - kratica: MEKIDP4-A
+    datum: 2015-04-30
+    sop: 2015-02-0030
+    naziv: "Zakon o spremembah Zakona o ratifikaciji Četrtega dodatnega protokola k Evropski konvenciji o izročitvi"
 ---
 
 # Zakon o ratifikaciji Četrtega dodatnega protokola k Evropski konvenciji o izročitvi
