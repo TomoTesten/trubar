@@ -7,6 +7,11 @@ sop: 2003-01-5389
 objava: "Uradni list RS 126/03  str. 17274"
 kljucne_besede: ["javni uslužbenec", "sistem pokojninskega zavarovanja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5389"
+spremembe:
+  - kratica: ZKDPZJU-A
+    datum: 2015-05-08
+    sop: 2015-01-1328
+    naziv: "Zakon o spremembah Zakona o kolektivnem dodatnem pokojninskem zavarovanju za javne uslužbence"
 ---
 
 # Zakon o kolektivnem dodatnem pokojninskem zavarovanju za javne uslužbence
