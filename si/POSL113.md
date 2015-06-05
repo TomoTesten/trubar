@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Poslovnika sodnega sveta"
 vrsta: "akt"
 datum: 2015-06-22
 sop: 2015-01-1822
-organ: "Sodni svet Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-1822"
 ---
 

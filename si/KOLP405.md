@@ -4,9 +4,9 @@ naziv: "Aneks št. 4 h Kolektivni pogodbi premogovništva Slovenije"
 vrsta: "akt"
 datum: 2015-06-24
 sop: 2015-01-1856
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-1856"
 ---
 
