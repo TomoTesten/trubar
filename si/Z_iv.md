@@ -7,6 +7,11 @@ sop: 2002-01-0716
 objava: "Uradni list RS 18/2002  str. 1325"
 kljucne_besede: ["živinoreja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0716"
+spremembe:
+  - kratica: ZŽiv-A
+    datum: 2015-06-24
+    sop: 2015-01-1853
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o živinoreji"
 ---
 
 # Zakon o živinoreji
