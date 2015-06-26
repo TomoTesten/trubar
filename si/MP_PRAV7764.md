@@ -2,11 +2,11 @@
 kratica: MP_PRAV7764
 naziv: "Pravilnik o dodeljevanju pomoči za ohranjanje in razvoj kmetijstva ter podeželja v Občini Duplek za obdobje 2015 - 2020 (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2026-01-05
+datum: 2015-07-03
 sop: 2015-97-0381
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Duplek"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-97-0381"
 ---
 
