@@ -7,6 +7,11 @@ sop: 2000-01-2969
 objava: "Uradni list RS 65/2000  str. 8093"
 kljucne_besede: ["zbiranje podatkov", "zdravstveno varstvo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2969"
+spremembe:
+  - kratica: ZZPPZ-A
+    datum: 2015-06-30
+    sop: 2015-01-1933
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zbirkah podatkov s področja zdravstvenega varstva"
 ---
 
 # Zakon o zbirkah podatkov s področja zdravstvenega varstva
