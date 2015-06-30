@@ -1,0 +1,61 @@
+---
+kratica: ZPZPŠ-A
+naziv: "Zakon o spremembi Zakona o premostitvenem zavarovanju poklicnih športnikov"
+vrsta: "Sprejet zakon"
+datum: 2015-06-30
+sop: 2015-01-1932
+objava: "Uradni list RS 47/15  str. 5147"
+kljucne_besede: ["poklicni šport", "zavarovanje"]
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-1932"
+---
+
+# Zakon o spremembi Zakona o premostitvenem zavarovanju poklicnih športnikov
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam
+
+U K A Z
+
+o razglasitvi Zakona o spremembi Zakona o premostitvenem zavarovanju poklicnih športnikov (ZPZPŠ-A)
+
+Razglašam Zakon o spremembi Zakona o premostitvenem zavarovanju poklicnih športnikov (ZPZPŠ-A), ki ga je sprejel Državni zbor Republike Slovenije na seji dne 16. junija 2015.
+
+Št. 003-02-5/2015-2
+
+Ljubljana, dne 24. junija 2015
+
+Borut Pahor
+l.r.
+
+Predsednik
+
+Republike Slovenije
+
+Z A K O N
+
+O SPREMEMBI ZAKONA O PREMOSTITVENEM ZAVAROVANJU POKLICNIH ŠPORTNIKOV (ZPZPŠ-A)
+
+1.
+člen
+
+V Zakonu o premostitvenem zavarovanju poklicnih športnikov (Uradni list RS, št. 41/14) se prvi odstavek 41. člena spremeni tako, da se glasi:
+
+»(1) Upravljavec oblikuje premostitveni sklad in določi način konstituiranja odbora premostitvenega sklada do 1. novembra 2015.«.
+
+2. člen
+
+Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 170-01/15-2/11
+
+Ljubljana, dne 16. junija 2015
+
+EPA 565-VII
+
+Državni zbor
+
+Republike Slovenije
+
+dr. Milan Brglez
+l.r.
+
+Predsednik
