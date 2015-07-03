@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Poslovnika Državnotožilskega sveta"
 vrsta: "akt"
 datum: 2015-07-17
 sop: 2015-01-2204
-organ: "Državnotožilski svet"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-2204"
 ---
 

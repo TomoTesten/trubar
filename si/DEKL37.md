@@ -4,9 +4,9 @@ naziv: "Deklaracija o zunanji politiki Republike Slovenije (DeZPRS-1)"
 vrsta: "akt"
 datum: 2015-07-17
 sop: 2015-01-2197
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-2197"
 ---
 
