@@ -2,11 +2,11 @@
 kratica: MP_PRAV7977
 naziv: "Pravilnik o ohranjanju in spodbujanju razvoja kmetijstva in podeželja v Občini Lovrenc na Pohorju za programsko obdobje 2015 - 2020 (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2026-01-05
+datum: 2015-09-30
 sop: 2015-97-0475
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Lovrenc na Pohorju"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-97-0475"
 ---
 
