@@ -44,6 +44,10 @@ spremembe:
     datum: 2011-04-08
     sop: 2011-01-1157
     naziv: "Zakon o spremembah in dopolnitvah Zakona o izvršbi in zavarovanju"
+  - kratica: ZIZ-K
+    datum: 2015-07-20
+    sop: 2015-01-2226
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvršbi in zavarovanju"
 ---
 
 # Zakon o izvršbi in zavarovanju
