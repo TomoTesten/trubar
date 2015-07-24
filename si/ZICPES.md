@@ -12,6 +12,10 @@ spremembe:
     datum: 2007-12-05
     sop: 2007-01-5509
     naziv: "Zakon o spremembah in dopolnitvah zakona o izvajanju carinskih predpisov Evropske skupnosti"
+  - kratica: ZICPES-B
+    datum: 2015-07-24
+    sop: 2015-01-2278
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvajanju carinskih predpisov Evropske skupnosti"
 ---
 
 # Zakon o izvajanju carinskih predpisov Evropske skupnosti
