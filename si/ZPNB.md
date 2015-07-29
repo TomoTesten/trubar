@@ -20,6 +20,10 @@ spremembe:
     datum: 2010-12-03
     sop: 2010-01-5022
     naziv: "Zakon o spremembah in dopolnitvi Zakona o prevozu nevarnega blaga"
+  - kratica: ZPNB-D
+    datum: 2015-07-29
+    sop: 2015-01-2361
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o prevozu nevarnega blaga"
 ---
 
 # Zakon o prevozu nevarnega blaga
