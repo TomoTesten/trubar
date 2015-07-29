@@ -28,6 +28,10 @@ spremembe:
     datum: 2013-12-27
     sop: 2013-01-4030
     naziv: "Zakon o spremembah in dopolnitvah Zakona o avtorski in sorodnih pravicah"
+  - kratica: ZASP-G
+    datum: 2015-07-29
+    sop: 2015-01-2358
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o avtorski in sorodnih pravicah"
 ---
 
 # Zakon o avtorski in sorodnih pravicah
