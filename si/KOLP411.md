@@ -2,11 +2,11 @@
 kratica: KOLP411
 naziv: "Kolektivna pogodba za lesarstvo"
 vrsta: "akt"
-datum: 2015-06-19
+datum: 2015-08-21
 sop: 2015-01-1776
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-1776"
 ---
 
