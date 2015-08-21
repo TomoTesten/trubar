@@ -4,8 +4,9 @@ naziv: "Pravilnik o programu in načinu opravljanja strokovnih izpitov pri Inže
 vrsta: "pravilnik"
 datum: 1998-05-08
 sop: 1998-01-1515
-organ: "Ministrstvo za okolje in prostor"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1515"
 ---
 

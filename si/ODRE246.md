@@ -4,9 +4,9 @@ naziv: "Odredba o ceniku za certificiranje hmelja in hmeljnih proizvodov"
 vrsta: "odredba"
 datum: 1998-04-18
 sop: 1998-01-1228
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1228"
 ---
 

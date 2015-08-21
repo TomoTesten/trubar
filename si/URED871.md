@@ -4,9 +4,9 @@ naziv: "Uredba o načinu oblikovanja odkupne cene kravjega mleka"
 vrsta: "uredba"
 datum: 1998-04-28
 sop: 1998-01-1493
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1493"
 ---
 

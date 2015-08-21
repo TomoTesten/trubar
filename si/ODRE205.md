@@ -4,9 +4,9 @@ naziv: "Odredba o homologaciji vozil"
 vrsta: "odredba"
 datum: 1998-04-24
 sop: 1998-01-1458
-organ: "Ministrstvo za znanost in tehnologijo"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1458"
 ---
 

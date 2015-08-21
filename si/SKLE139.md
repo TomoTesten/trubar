@@ -4,9 +4,9 @@ naziv: "Sklep o višini stroškov vpogleda v izpitno dokumentacijo"
 vrsta: "sklep"
 datum: 1998-04-18
 sop: 1998-01-1241
-organ: "Ministrstvo za šolstvo in šport"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1241"
 ---
 

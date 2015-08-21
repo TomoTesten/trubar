@@ -4,9 +4,9 @@ naziv: "Pravilnik o posebnih pooblastilih članov posadke morskih ladij in izpit
 vrsta: "pravilnik"
 datum: 1998-04-24
 sop: 1998-01-1461
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1461"
 ---
 

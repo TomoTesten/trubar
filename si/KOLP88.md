@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za cestni potniški promet Slovenije"
 vrsta: "akt"
 datum: 1998-04-23
 sop: 1998-01-1430
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1430"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o soglasju k omejitvi vpisa na Visoki šoli za management v Kopru 
 vrsta: "sklep"
 datum: 1998-04-24
 sop: 1998-01-1489
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1489"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Odločba o ugotovitvi, da se razveljavi določba drugega odstavka 124. �
 vrsta: "akt"
 datum: 1998-04-18
 sop: 1998-01-1234
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1234"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o ustanovitvi javnega zavoda Slovenska filharmonija"
 vrsta: "sklep"
 datum: 1998-04-18
 sop: 1998-01-1227
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1227"
 ---
 

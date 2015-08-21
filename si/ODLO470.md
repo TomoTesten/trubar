@@ -4,9 +4,9 @@ naziv: "Odlok o ustanovitvi in nalogah Sveta za nacionalno varnost"
 vrsta: "odlok"
 datum: 1998-04-24
 sop: 1998-01-1456
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1456"
 ---
 

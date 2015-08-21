@@ -4,9 +4,9 @@ naziv: "Sklep o spremembah in dopolnitvah sklepa o pavšalnih prispevkih za obve
 vrsta: "sklep"
 datum: 1998-04-24
 sop: 1998-01-1474
-organ: "Zavod za zdravstveno zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1474"
 ---
 
