@@ -1,0 +1,1507 @@
+---
+kratica: MP_STAT1413
+naziv: "Statut Občine Loški Potok (STAT)"
+vrsta: "akt"
+datum: 2015-10-23
+sop: 2015-01-3119
+organ: "Občina Loški Potok"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-3119"
+---
+
+# Statut Občine Loški Potok (STAT)
+
+Na podlagi 64. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 76/08, 79/09, 51/10) je Občinski svet Občine Loški Potok na 5. redni seji dne 17. 9. 2015 sprejel
+
+S T A T U T
+
+Občine Loški Potok
+
+1. SPLOŠNE DOLOČBE
+
+1. člen
+
+(uporaba izrazov)
+
+V statutu uporabljeni izrazi v slovnični obliki za moški spol se uporabljajo kot nevtralni za ženski in moški spol.
+
+2. člen
+
+(območje, ime in sedež občine)
+
+(1)
+Občina Loški Potok (v nadaljevanju: občina) je samoupravna lokalna skupnost, ustanovljena z zakonom na območju naslednjih naselij: Črni Potok pri Dragi, Draga, Glažuta, Hrib - Loški Potok, Lazec, Mali Log, Novi Kot, Podplanina, Podpreska, Pungert, Retje, Srednja vas pri Dragi, Srednja vas - Loški Potok, Stari Kot, Šegova vas, Trava in Travnik.
+
+(2) Sedež občine je v kraju Hrib - Loški Potok.
+
+(3) Občina je pravna oseba javnega prava s pravico posedovati, pridobivati in razpolagati z vsemi vrstami premoženja.
+
+(4) Občino predstavlja in zastopa župan.
+
+(5) Območje, ime in sedež občine se lahko spremeni z zakonom po postopku, ki ga določa zakon.
+
+(6) Območja in imena naselij v občini se v skladu z zakonom spremenijo z občinskim odlokom.
+
+3. člen
+
+(izvirne in prenesene naloge)
+
+(1)
+Občina v okviru ustave in zakona samostojno ureja in opravlja naloge, določene v zakonu, ki ureja lokalno samoupravo ter naloge, določene s predpisi občine na podlagi zakona.
+
+(2) Če zakon tako določa, lahko opravljajo občine posamezne naloge iz državne pristojnosti, če država za to zagotovi potrebna sredstva.
+
+4. člen
+
+(občani)
+
+(1) Osebe, ki imajo na območju občine stalno prebivališče, so občani.
+
+(2) Občani odločajo o lokalnih javnih zadevah po organih občine, ki jih volijo na podlagi splošne in enake volilne pravice na svobodnih volitvah s tajnim glasovanjem, ter v drugih organih v skladu s tem statutom.
+
+(3) Občani sodelujejo pri upravljanju lokalnih javnih zadev tudi na zborih občanov, z referendumom in ljudsko iniciativo.
+
+(4) Na podlagi odločitve organov občine se lahko v posamezne oblike odločanja vključijo tudi osebe, ki imajo v občini začasno prebivališče, in osebe, ki so lastniki zemljišč in drugih nepremičnin na območju občine.
+
+5. člen
+
+(uresničevanje skupnih nalog)
+
+(1)
+Občina pri uresničevanju skupnih nalog sodeluje s sosednjimi in drugimi občinami, širšimi lokalnimi skupnostmi in državo.
+
+(2) Občina samostojno odloča o povezovanju v širše lokalne samoupravne skupnosti na način in po postopku, predpisanem v zakonu.
+
+(3) Občina lahko sodeluje tudi z lokalnimi skupnostmi drugih držav ter z mednarodnimi organizacijami lokalnih skupnosti.
+
+(4) Občina sodeluje z drugimi občinami po načelih prostovoljnosti in solidarnosti in lahko v ta namen z njimi združuje sredstva, oblikuje skupne organe in organizacije ter službe za opravljanje skupnih zadev.
+
+6. člen
+
+(grb, zastava in praznik občine)
+
+(1)
+Občina ima grb, zastavo in lento, ki jo uporablja župan, katerih oblika, vsebina in uporaba se določi z odlokom.
+
+(2) Občina ima pečat, ki je okrogle oblike. Pečat ima v zunanjem krogu na zgornji polovici napis: OBČINA LOŠKI POTOK, v notranjem krogu pa naziv organa občine – Župan; Nadzorni odbor; Občinska uprava, Volilna komisija. V sredini pečata je grb občine.
+
+(3) Velikost, uporabo in hrambo pečata občine določi župan s sklepom.
+
+(4) Za prispevek k razvoju občine podeljuje občina zaslužnim občanom, organizacijam in drugim občinska priznanja in nagrade v skladu s posebnim odlokom.
+
+2. NALOGE OBČINE
+
+7. člen
+
+(naloge občine)
+
+(1) Občina samostojno opravlja lokalne zadeve javnega pomena (izvirne naloge), določene z zakonom in s tem statutom, zlasti pa:
+
+1. Normativno ureja lokalne zadeve javnega pomena tako, da:
+
+– sprejema statut in druge predpise občine,
+
+– sprejema proračun in zaključni račun občine,
+
+– načrtuje prostorski razvoj ter sprejema prostorske akte,
+
+– sprejema programe razvoja občine.
+
+2. Upravlja občinsko premoženje tako, da:
+
+– ureja način in pogoje upravljanja z občinskim premoženjem,
+
+– pridobiva in razpolaga z vsemi vrstami premoženja,
+
+– sklepa pogodbe o pridobitvi in odtujitvi nepremičnin in premičnin,
+
+– sestavlja premoženjsko bilanco, s katero izkazuje vrednost svojega premoženja.
+
+3. Omogoča pogoje za gospodarski razvoj občine tako, da:
+
+– spremlja in analizira gospodarske rezultate v občini,
+
+– sprejema prostorske akte, ki omogočajo in pospešujejo razvoj gospodarstva v občini,
+
+– pospešuje gospodarski razvoj,
+
+– sodeluje z gospodarskimi subjekti in v okviru interesov in nalog občine pomaga gospodarskim subjektom pri razreševanju gospodarskih problemov,
+
+– z javnimi sredstvi, v skladu s predpisi, pospešuje razvoj gospodarskih panog oziroma gospodarskih subjektov.
+
+4. Ustvarja pogoje za gradnjo stanovanj in skrbi za povečanje najemnega socialnega sklada stanovanj tako, da:
+
+– v prostorskih aktih predvidi gradnjo stanovanjskih objektov,
+
+– sprejema dolgoročni in kratkoročni stanovanjski program občine,
+
+– spremlja in analizira stanje na stanovanjskem področju občine,
+
+– spremlja ponudbo in povpraševanje stanovanj v občini ter se vključuje v stanovanjski trg,
+
+– gradi stanovanja za socialno ogrožene in prenavlja objekte, ki so primerni za gradnjo stanovanj.
+
+5. Skrbi za lokalne javne službe tako, da:
+
+– zagotavlja izvajanje obveznih in izbirnih lokalnih javnih služb v skladu z zakonom,
+
+– odloča o koncesijah,
+
+– sprejema splošne akte, ki urejajo način ustanovitve in delovanje lokalnih javnih služb,
+
+– zagotavlja sredstva za delovanje lokalnih javnih služb,
+
+– nadzira delovanje lokalnih javnih služb,
+
+– gradi in vzdržuje komunalno infrastrukturo.
+
+6. Zagotavlja in pospešuje vzgojno-izobraževalno in zdravstveno dejavnost tako, da:
+
+– ustanovi vzgojno-izobraževalni (javna osnovna šola in javni vrtec), zdravstveni zavod in v skladu z zakonom zagotavlja pogoje za njegovo delovanje,
+
+– v skladu z zakoni, ki urejajo to področje, zagotavlja sredstva za izvajanje teh dejavnosti in v okviru finančnih možnosti omogoča izvajanje nadstandardnih programov,
+
+– sodeluje z vzgojno-izobraževalnim zavodom in zdravstvenim zavodom,
+
+– z različnimi ukrepi pospešuje vzgojno-izobraževalno dejavnost in zdravstveno varstvo občanov,
+
+– ustvarja pogoje za izobraževanje odraslih, ki je pomembno za razvoj občine in za kvaliteto življenja njenih prebivalcev.
+
+7. Pospešuje službe socialnega skrbstva, predšolskega varstva, osnovnega varstva otrok in družine, za socialno ogrožene, invalide in ostarele tako, da:
+
+– spremlja stanje na tem področju,
+
+– pristojnim organom in institucijam predlaga določene ukrepe na tem področju,
+
+– sodeluje s centrom za socialno delo, javnimi zavodi in drugimi pristojnimi organi in institucijami,
+
+– lahko podeljuje denarne pomoči in simbolične nagrade ob posebnih priložnostih ali obletnicah občanov.
+
+Pospešuje raziskovalno, kulturno in društveno dejavnost ter razvoj športa in rekreacije tako, da:
+
+– omogoča dostopnost kulturnih programov, skrbi za kulturno dediščino na svojem območju,
+
+– določa občinski program športa,
+
+– zagotavlja splošno izobraževalno knjižnično dejavnost,
+
+– z dotacijami spodbuja te dejavnosti,
+
+– sodeluje z društvi in jih vključuje v programe aktivnosti občine.
+
+9. Skrbi za varstvo zraka, tal, vodnih virov, za varstvo pred hrupom, za zbiranje in odlaganje odpadkov in opravlja druge dejavnosti varstva okolja tako, da:
+
+– izvaja naloge, ki jih določajo zakon, uredbe in drugi predpisi s področja varstva okolja,
+
+– spremlja stanje na tem področju in v okviru svojih pristojnosti sprejema ukrepe, s katerimi zagotavlja varstvo okolja,
+
+– sprejema splošne akte, s katerimi pospešuje in zagotavlja varstvo okolja,
+
+– sodeluje s pristojnimi inšpekcijskimi organi in jih obvešča o ugotovljenih nepravilnostih,
+
+– z drugimi ukrepi pospešuje varstvo okolja v občini.
+
+10. Upravlja, gradi in vzdržuje:
+
+– občinske ceste, ulice in javne poti,
+
+– površine za pešce in kolesarje,
+
+– igrišča za šport in rekreacijo ter otroška igrišča,
+
+– javne parkirne prostore, parke, trge in druge javne površine ter
+
+– zagotavlja varnost v cestnem prometu na občinskih cestah in ureja promet v občini.
+
+11. Skrbi za požarno varnost in varnost občanov v primeru elementarnih in drugih nesreč tako, da v skladu z merili in normativi:
+
+– organizira reševalno pomoč v požarih,
+
+– organizira obveščanje, alarmiranje, pomoč in reševanje za primere elementarnih in drugih nesreč,
+
+– zagotavlja sredstva za organiziranje, opremljanje in izvajanje požarne varnosti in varstva pred naravnimi nesrečami,
+
+– zagotavlja sredstva za odpravo posledic elementarnih in drugih naravnih nesreč,
+
+– sodeluje z občinskim poveljstvom gasilske službe in štabom za civilno zaščito ter spremlja njihovo delo,
+
+– opravlja druge naloge, ki pripomorejo k boljši požarni varnosti in varstvu pred elementarnimi in drugimi nesrečami.
+
+12. Ureja javni red v občini tako, da:
+
+– sprejema programe varnosti,
+
+– določa prekrške in globe za prekrške, s katerimi se kršijo predpisi občine,
+
+– organizira občinsko redarstvo,
+
+– opravlja inšpekcijsko nadzorstvo nad izvajanjem občinskih predpisov in drugih aktov, s katerimi ureja zadeve iz svoje pristojnosti, če ni z zakonom drugače določeno,
+
+– opravlja druge naloge v okviru teh pristojnosti.
+
+(2) V okviru lokalnih zadev javnega pomena občina opravlja tudi naloge, ki se nanašajo na:
+
+– ugotavljanje javnega interesa za uresničevanje predkupnih pravic občine v skladu z zakonom in v primeru razlastitve za potrebe občine,
+
+– določanje namembnosti prostora,
+
+– gospodarjenje s stavbnimi zemljišči in določanje pogojev za njihovo uporabo,
+
+– evidenco občinskih zemljišč in drugega premoženja,
+
+– zagotavljanje varstva naravnih in kulturnih spomenikov v sodelovanju s pristojnimi institucijami,
+
+– mrliško ogledno službo in
+
+– urejanje drugih lokalnih zadev javnega pomena.
+
+8. člen
+
+(statistične, evidenčne in analitične naloge)
+
+(1)
+Občina opravlja statistične, evidenčne in analitične naloge za svoje potrebe.
+
+(2) Občina obdeluje podatke, ki jih potrebuje za opravljanje nalog iz svoje pristojnosti in jih pridobi v skladu z zakonom.
+
+(3) Za potrebe iz prvega odstavka tega člena pridobiva občina od upravljavcev zbirk podatke o fizičnih osebah, ki imajo v občini stalno ali začasno prebivališče, in o fizičnih osebah, ki imajo v občini nepremičnine, ter podatke o pravnih osebah, ki imajo sedež in premoženje oziroma del premoženja v občini.
+
+(4) Od upravljavca Centralnega registra prebivalstva lahko občina za potrebe izvajanja svojih nalog pridobiva osebne podatke v skladu z zakonom. Osebne podatke lahko pridobi občina v pisni obliki, na magnetnih medijih, po elektronski pošti, za fizične osebe, ki imajo v občini stalno ali začasno prebivališče, pa tudi neposredno preko računalniške povezave. Za pridobivanje podatkov neposredno preko računalniške povezave je potrebno dovoljenje pristojnega ministra.
+
+3. ORGANI OBČINE
+
+3.1.
+Skupne določbe
+
+9. člen
+
+(organi občine)
+
+(1)
+Organi občine so:
+
+– občinski svet,
+
+– župan in
+
+– nadzorni odbor.
+
+(2) Občina ima občinsko volilno komisijo kot samostojni občinski organ, ki v skladu z zakonom o lokalnih volitvah in drugimi predpisi ter splošnimi akti občine skrbi za izvedbo volitev in referendumov ter varstvo zakonitosti volilnih postopkov.
+
+(3) Občina ima lahko tudi druge organe, katerih ustanovitev in naloge določa zakon.
+
+(4) Volitve oziroma imenovanja organov občine oziroma članov občinskih organov se izvajajo v skladu z zakonom, tem statutom in poslovnikom občinskega sveta.
+
+(5) Člani občinskega sveta, župan in podžupan so občinski funkcionarji.
+
+(6) Razloge in postopek za predčasno prenehanje mandata člana občinskega sveta in župana, potrditev mandata nadomestnega člana oziroma nadomestne volitve ureja zakon.
+
+10. člen
+
+(sprejemanje odločitev na sejah organov)
+
+Če ni v zakonu ali tem statutu drugače določeno, lahko organi občine, ki delajo na sejah, sprejemajo odločitve, če je na seji navzoča večina članov organa občine. Odločitev je sprejeta, če zanjo glasuje večina navzočih članov.
+
+11. člen
+
+(javnost dela)
+
+(1)
+Delo organov občine je javno.
+
+(2) Javnost dela se zagotavlja z obveščanjem javnosti o delu občinskih organov, predvsem pa z uradnim objavljanjem splošnih aktov občine, z navzočnostjo občanov in predstavnikov sredstev javnega obveščanja na javnih sejah občinskih organov, z vpogledom v dokumentacijo in gradiva, ki so podlaga za odločanje občinskih organov. Splošni akti in prečiščena besedila občine se objavijo v Uradnem listu RS
+ter v Katalogu informacij javnega značaja in na spletni strani občine.
+
+(3) Način zagotavljanja javnosti dela občinskih organov, razloge in postopke izključitve javnosti s sej organov občine, pravice javnosti ter zagotovitev varstva osebnih podatkov, dokumentov in gradiv, ki vsebujejo podatke, ki so v skladu z zakonom, drugim predpisom ali splošnim aktom občine oziroma druge javne ali zasebno pravne osebe zaupne narave oziroma državna, vojaška ali uradna tajnost, določajo zakon, ta statut in poslovnik občinskega sveta.
+
+(4) Občani in njihovi pravni zastopniki imajo pravico vpogleda v dokumente, ki so podlaga za odločanje organov občine o njihovih pravicah, obveznostih in pravnih koristih, če izkažejo pravni interes.
+
+3.2.
+Občinski svet
+
+12. člen
+
+(občinski svet)
+
+(1)
+Občinski svet je najvišji organ odločanja o vseh zadevah v okviru pravic in dolžnosti občine.
+
+(2) Občinski svet šteje devet članov.
+
+(3) Člani občinskega sveta se volijo za štiri leta. Mandatna doba članov občinskega sveta se začne s potekom mandata prejšnjih članov občinskega sveta ter traja do prve seje na naslednjih rednih volitvah izvoljenega občinskega sveta, če ni z zakonom drugače določeno.
+
+(4) Občinski svet se konstituira na prvi seji po volitvah, na kateri je potrjenih več kot polovica mandatov članov občinskega sveta.
+
+(5) Prvo sejo občinskega sveta skliče prejšnji župan najkasneje v dvajsetih (20) dneh po izvolitvi članov občinskega sveta, če je za izvolitev župana potreben drug krog volitev, pa najkasneje v desetih (10) dneh po drugem krogu volitev. Če seja ni sklicana v navedenem roku, jo skliče predsednik občinske volilne komisije.
+
+(6) Prvo sejo občinskega sveta vodi najstarejši član občinskega sveta oziroma član, ki ga na predlog najstarejšega člana določi občinski svet.
+
+(7) Ko članom občinskega sveta preneha mandat, jim preneha tudi članstvo v vseh občinskih organih, odborih in komisijah.
+
+(8) Mandat članov občinskega sveta v organih javnih zavodov, javnih podjetij ter skladov, katerih ustanoviteljica je občina in v katere so bili imenovani kot predstavniki občinskega sveta, traja in preneha v skladu z ustanovitvenim aktom javnega zavoda, javnega podjetja, skladov in drugih organizacij, razen če občinski svet ne odloči drugače.
+
+13. člen
+
+(volitve članov občinskega sveta)
+
+(1)
+Volitve članov občinskega sveta so neposredne in se opravijo na podlagi splošne in enake volilne pravice s tajnim glasovanjem v skladu z zakonom.
+
+(2) Občinski svet se voli po večinskem sistemu.
+
+(3) O oblikovanju volilnih enot za volitve občinskega sveta odloči občinski svet z odlokom.
+
+14. člen
+
+(pristojnosti občinskega sveta)
+
+(1)
+Občinski svet sprejema statut občine, poslovnik občinskega sveta, odloke in druge predpise občine ter sprejema mnenja o vsebini zakonov in drugih predpisov, ki se tičejo koristi občine.
+
+(2) V okviru svojih pristojnosti občinski svet predvsem:
+
+– sprejema statut občine,
+
+– sprejema odloke in druge občinske akte,
+
+– sprejema prostorske in druge plane razvoja občine,
+
+– sprejema občinski proračun in zaključni račun proračuna,
+
+– imenuje in razrešuje člane nadzornega odbora ter člane komisij in odborov občinskega sveta,
+
+– nadzoruje delo župana, podžupana in občinske uprave glede izvrševanja odločitev občinskega sveta,
+
+– odloča o pridobitvi in odtujitvi občinskega premoženja, če ni z zakonom določeno drugače,
+
+– odloča o drugih zadevah, ki jih določa zakon in ta statut.
+
+15. člen
+
+(funkcija člana občinskega sveta)
+
+(1)
+Člani občinskega sveta opravljajo svojo funkcijo nepoklicno.
+
+(2) Nezdružljivost članstva v občinskem svetu s funkcijami občinskih funkcionarjev in delom v občinski upravi ureja zakon.
+
+(3) Član občinskega sveta, ki je imenovan za podžupana, opravlja funkcijo člana občinskega sveta in funkcijo podžupana hkrati. Podžupan, ki v primeru predčasnega prenehanja mandata župana opravlja funkcijo župana, v tem času ne opravlja funkcije člana občinskega sveta.
+
+16. člen
+
+(župan)
+
+(1)
+Župan predstavlja občinski svet ter sklicuje in vodi njegove seje, nima pa pravice glasovanja.
+
+(2) Nezdružljivost funkcije župana s funkcijo člana občinskega sveta in podžupana, članstvom v nadzornem odboru in z delom v občinski upravi ureja zakon.
+
+(3) Za vodenje sej občinskega sveta lahko župan pooblasti podžupana ali drugega člana občinskega sveta. Če je župan odstoten ali zadržan, vodi sejo podžupan.
+
+(4) Če nastopijo razlogi, zaradi katerih župan, podžupan oziroma pooblaščeni član občinskega sveta ne more voditi že sklicane seje, jo brez posebnega pooblastila vodi najstarejši navzoči član občinskega sveta.
+
+(5) Župan sklicuje seje občinskega sveta v skladu z določbami tega statuta in poslovnika občinskega sveta ter glede na potrebe odločanja na občinskem svetu, mora pa jih sklicati najmanj štirikrat letno. Podžupan lahko opravi sklic seje le na podlagi posamičnega pooblastila župana.
+
+(6) Župan mora sklicati sejo občinskega sveta, če to zahteva najmanj četrtina članov občinskega sveta, seja pa mora biti v petnajstih dneh po tem, ko je bila podana pisna zahteva za sklic seje, ki je vsebovala predlog dnevnega reda in nujno potrebno gradivo oziroma utemeljeno zahtevo občinski upravi za pripravo gradiva. Župan mora dati na dnevni red seje predlagane točke. Predlagan dnevni red pa lahko dopolni še z novimi točkami. Če seja občinskega sveta ni sklicana v roku sedmih dni po prejemu pisne zahteve, jo lahko skličejo člani občinskega sveta, ki so zahtevo podali. Župan in občinska uprava so dolžni zagotoviti pogoje za vodenje in izvedbo seje.
+
+17. člen
+
+(organizacijsko in administrativno delo za potrebe občinskega sveta)
+
+Strokovno pripravo gradiv, organizacijsko in administrativno delo za potrebe občinskega sveta ter pomoč pri pripravi in vodenju sej občinskega sveta ter njegovih komisij in odborov zagotavlja občinska uprava.
+
+18. člen
+
+(seje občinskega sveta)
+
+(1)
+Občinski svet dela in odloča na sejah.
+
+(2) Dnevni red seje občinskega sveta predlaga župan.
+
+(3) Vsak član občinskega sveta lahko predlaga občinskemu svetu v sprejem odloke in druge akte iz njegove pristojnosti, razen proračuna in zaključnega računa proračuna in drugih aktov, za katere je v zakonu ali v statutu občine določeno, da jih sprejme občinski svet na predlog župana.
+
+(4) Župan mora predloge komisij in odborov občinskega sveta ter predloge članov občinskega sveta iz prejšnjega odstavka dati na dnevni red, ko so pripravljeni tako, kot je določeno v poslovniku občinskega sveta.
+
+(5) O sprejemu dnevnega reda odloča občinski svet na začetku seje.
+
+(6) Na vsaki seji občinskega sveta mora biti predvidena točka za vprašanja in odgovore na vprašanja, ki jih postavljajo člani sveta. Na seji se odgovarja na vsa vprašanja in pobude, ki so bila oddana do začetka seje, ter na ustna vprašanja, dana ob obravnavi vprašanj in pobud članov sveta. Če zahteva odgovor na vprašanje podrobnejši pregled dokumentacije oziroma proučitev, lahko župan ali direktor občinske uprave
+odgovorita na naslednji seji.
+
+(7) Za vsako sejo občinskega sveta se pošlje vabilo županu, podžupanu, članom občinskega sveta, predsedniku nadzornega odbora občine, direktorju občinske uprave
+in vodji organa skupne občinske uprave. O sklicu seje občinskega sveta se obvesti javna občila. Vabilo z gradivom za sejo sveta se objavi v katalogu informacij javnega značaja občine na svetovnem spletu.
+
+(8) Predsednik nadzornega odbora občine, predsedniki komisij in odborov občinskega sveta, direktor občinske uprave in organ skupne občinske uprave so se dolžni udeležiti seje občinskega sveta in odgovarjati na vprašanja članov občinskega sveta, kadar se obravnavajo vprašanja iz njihove pristojnosti oziroma njihovega področja dela.
+
+19. člen
+
+(odločanje članov občinskega sveta)
+
+(1)
+Občinski svet veljavno sklepa, če je na seji navzoča večina njegovih članov. Občinski svet sprejema odločitve z večino opredeljenih glasov navzočih članov, razen če zakon določa drugačno večino.
+
+(2) Občinski svet sprejema odločitve z javnim glasovanjem. Tajno se glasuje v primeru, ko je tako določeno z zakonom ali če tako sklene občinski svet.
+
+(3) Način dela in odločanja, razmerja do drugih občinskih organov ter druga vprašanja delovanja občinskega sveta se določijo s poslovnikom občinskega sveta, ki ga sprejme občinski svet z dvotretjinsko večino navzočih članov.
+
+(4) Odločitve občinskega sveta izvršujeta župan in občinska uprava.
+
+(5) Župan in direktor občinske uprave
+o izvrševanju odločitev občinskega sveta poročata občinskemu svetu najmanj enkrat letno.
+
+20. člen
+
+(predčasno prenehanje mandata člana občinskega sveta)
+
+(1)
+Predčasno prenehanje mandata člana občinskega sveta ureja zakon.
+
+(2) Razlogi za prenehanje mandata člana občinskega sveta se ugotovijo na podlagi pravnomočne sodne odločbe ali pisnega obvestila o odločitvi člana občinskega sveta.
+
+(3) Članu občinskega sveta preneha mandat z dnem, ko občinski svet na podlagi poročila komisije za mandatna vprašanja, volitve in imenovanja ugotovi, da so nastali zakonski razlogi za prenehanje mandata, razen v primeru odstopa. Ugotovitveni sklep sprejme občinski svet na prvi seji po nastanku razlogov in drugega odstavka tega člena.
+
+(4) Če član občinskega sveta odstopi, mu preneha mandat z dnem, ko je podal odstopno izjavo županu. Župan mora občinski svet in občinsko volilno komisijo obvestiti o odstopu člana občinskega sveta v roku osmih dni od prejema pisne odstopne izjave.
+
+(5) Če župan v roku iz prejšnjega odstavka ne obvesti občinskega sveta in občinske volilne komisije, lahko občinski funkcionar, ki mu je prenehal mandat, v osmih dneh od poteka roka iz prejšnjega odstavka vloži tožbo na upravno sodišče. Upravno sodišče o tožbi iz tega odstavka in tožbi iz drugega odstavka tega člena odloči meritorno v 30 dneh. O morebitni pritožbi odloči vrhovno sodišče v 30 dneh. Enako sodno varstvo lahko uveljavlja tudi kandidat za člana občinskega sveta, ki bi bil izvoljen, če ne bi bil izvoljen član občinskega sveta, ki mu je mandat prenehal, predstavnik kandidature oziroma predstavnik liste kandidatov za člane občinskega sveta, s katere bi bil ta kandidat izvoljen.
+
+(6) Izvolitev oziroma potrditev mandata nadomestnega člana občinskega sveta določa zakon.
+
+21. člen
+
+(komisija za mandatna vprašanja, volitve in imenovanja)
+
+(1)
+Občinski svet ima komisijo za mandatna vprašanja, volitve in imenovanja.
+
+(2) Občinski svet lahko ustanovi eno ali več komisij in odborov kot svoja stalna ali občasna delovna telesa.
+
+(3) Organizacijo in delovno področje stalnih delovnih teles občinskega sveta določa poslovnik občinskega sveta.
+
+(4) Občasna delovna telesa ustanovi občinski svet s sklepom, s katerim določi naloge delovnega telesa in število članov ter opravi imenovanje.
+
+22. člen
+
+(naloge komisije za mandatna vprašanja, volitve in imenovanja)
+
+(1)
+Komisija za mandatna vprašanja, volitve in imenovanja ima tri člane, ki jih občinski svet imenuje izmed svojih članov.
+
+(2) Komisija za mandatna vprašanja, volitve in imenovanja opravlja zlasti naslednje naloge:
+
+– občinskemu svetu predlaga kandidate za delovna telesa občinskega sveta in druge organe, ki jih imenuje občinski svet,
+
+– občinskemu svetu ali županu daje pobude oziroma predloge v zvezi s kadrovskimi vprašanji v občini,
+
+– pripravlja predloge odločitev občinskega sveta v zvezi s plačili za opravljanje funkcije ter drugimi prejemki občinskih funkcionarjev ter izvršuje odločitve občinskega sveta, zakone in predpise, ki urejajo plačila za opravljanje funkcije in druge prejemke občinskih funkcionarjev,
+
+– opravlja naloge po zakonu, ki ureja preprečevanje korupcije,
+
+– obravnava druga vprašanja, ki mu jih določi občinski svet,
+
+– izdaja akte v zvezi s pravicami in obveznostmi funkcionarjev.
+
+23. člen
+
+(stalna in občasna delovna telesa občinskega sveta)
+
+(1)
+Občinski svet lahko ustanovi enega ali več odborov in komisij kot svoja stalna ali občasna delovna telesa.
+
+(2) Stalna delovna telesa občinskega sveta so:
+
+– odbor za negospodarstvo in javne službe družbenih dejavnosti,
+
+– odbor za gospodarstvo, varstvo okolja in gospodarske javne službe, prostorsko planiranje in gospodarjenje z nepremičninami,
+
+– statutarno pravna komisija.
+
+(3) Odbori štejejo od tri do pet članov, komisije pa tri člane. Delovno področje in število članov posameznega delovnega telesa občinskega sveta se določi s poslovnikom občinskega sveta.
+
+24. člen
+
+(imenovanje članov odborov in komisij)
+
+(1)
+Člane odborov in komisij imenuje občinski svet izmed svojih članov in največ polovico članov izmed drugih občanov. Predlog kandidatov za člane pripravi Komisija za mandatna vprašanja, volitve in imenovanja.
+
+(2) Delo delovnega telesa občinskega sveta vodi član občinskega sveta kot predsednik.
+
+(3) Prvo sejo delovnega telesa skliče župan najpozneje v roku 90 dni po konstituiranja občinskega sveta.
+
+(4) Članstvo v komisiji ali odboru občinskega sveta ni združljivo s članstvom v nadzornem odboru občine ali z delom v občinski upravi.
+
+25. člen
+
+(pristojnosti komisij in odborov občinskega sveta)
+
+(1)
+Komisije in odbori občinskega sveta v okviru svojega delovnega področja, določenega s poslovnikom občinskega sveta, obravnavajo zadeve iz pristojnosti občinskega sveta in dajejo občinskemu svetu mnenja in predloge.
+
+(2) Komisije in odbori občinskega sveta lahko predlagajo občinskemu svetu v sprejem odloke in druge akte iz njegove pristojnosti, razen proračuna in zaključnega računa proračuna in drugih aktov, za katere je v zakonu ali v statutu občine določeno, da jih sprejme občinski svet na predlog župana.
+
+26. člen
+
+(razrešitev člana delovnega telesa občinskega sveta)
+
+Občinski svet lahko razreši predsednika, posameznega člana delovnega telesa občinskega sveta ali delovno telo v celoti na predlog najmanj četrtine članov občinskega sveta. Predlog novih kandidatov za člane delovnih teles občinskega sveta pripravi Komisija za mandatna vprašanja, volitve in imenovanja do prve naslednje seje občinskega sveta.
+
+3.3.
+Župan
+
+27. člen
+
+(župan)
+
+(1)
+Župana volijo volivci na neposrednih in tajnih volitvah. Volitve župana se opravijo v skladu z zakonom.
+
+(2) Mandatna doba župana traja štiri leta.
+
+(3) Novoizvoljeni župan nastopi mandat, ko občinski svet na svoji prvi seji po izvolitvi članov občinskega sveta na podlagi potrdila občinske volilne komisije o izvolitvi župana odloči o morebitnih pritožbah drugih kandidatov ali predstavnikov kandidatur za župana oziroma ugotovi, da takih pritožb ni bilo.
+
+(4) Župan svojo funkcijo opravlja nepoklicno, lahko pa se odloči, da bo funkcijo opravljal poklicno. O svoji odločitvi je župan dolžan obvestiti občinski svet na prvi naslednji seji.
+
+28. člen
+
+(pristojnosti župana)
+
+(1)
+Župan predstavlja in zastopa občino. Župan predstavlja občinski svet, ga sklicuje in vodi seje občinskega sveta, nima pa pravice glasovanja.
+
+(2) Poleg tega župan predvsem:
+
+– predlaga občinskemu svetu v sprejem proračun občine in zaključni račun proračuna, odloke in druge akte iz pristojnosti občinskega sveta,
+
+– izvršuje občinski proračun ter pooblašča druge osebe za izvajanje posameznih nalog izvrševanja občinskega proračuna,
+
+– skrbi za izvajanje splošnih aktov občine in drugih odločitev občinskega sveta,
+
+– odloča o pridobitvi in odtujitvi premičnega premoženja ter o pridobitvi nepremičnega premoženja občine, če zakon ali predpis občine ne določa drugače,
+
+– skrbi za objavo statuta, odlokov in drugih splošnih aktov občine,
+
+– predlaga ustanovitev organov občinske uprave in njihovega delovnega področja, naloge in notranjo organizacijo občinske uprave, določa sistemizacijo delovnih mest v občinski upravi, odloča o imenovanju javnih uslužbencev v nazive ter o sklenitvi delovnega razmerja zaposlenih v občinski upravi in odloča o drugih pravicah in obveznostih javnih uslužbencev iz delovnega razmerja,
+
+– imenuje in razrešuje direktorja občinske uprave
+in vodjo organa skupne občinske uprave skupaj z drugimi župani občin ustanoviteljic,
+
+– usmerja in nadzoruje delo občinske uprave in organov skupne občinske uprave,
+
+– opravlja druge naloge, ki jih določa zakon in ta statut.
+
+(3) Župan v skladu z zakonom odloča tudi o na občino prenesenih zadevah iz državne pristojnosti.
+
+29. člen
+
+(zadržanje objave splošnega akta)
+
+(1)
+Župan zadrži objavo splošnega akta občine, če meni, da je neustaven ali nezakonit, in predlaga občinskemu svetu, da o njem ponovno odloči na prvi naslednji seji, pri čemer mora navesti razloge za zadržanje.
+
+(2) Če občinski svet vztraja pri svoji odločitvi, se splošni akt objavi, župan pa lahko vloži pri ustavnem sodišču zahtevo za oceno njegove skladnosti z ustavo in zakonom.
+
+(3) Župan zadrži izvajanje odločitve občinskega sveta, če meni, da je nezakonita ali je v nasprotju s statutom ali drugim splošnim aktom občine, in predlaga občinskemu svetu, da o njej ponovno odloči na prvi naslednji seji, pri čemer mora navesti razloge za zadržanje.
+
+(4) Ob zadržanju izvajanja odločitve občinskega sveta župan opozori pristojno ministrstvo na nezakonitost take odločitve. Če občinski svet ponovno sprejme enako odločitev, lahko župan začne postopek pri upravnem sodišču.
+
+(5) Če se odločitev občinskega sveta nanaša na zadevo, ki je z zakonom prenesena v opravljanje občini, župan opozori pristojno ministrstvo na nezakonitost oziroma neprimernost take odločitve.
+
+30. člen
+
+(naloge župana na področju zaščite in reševanja)
+
+Župan opravlja z zakonom predpisane naloge na področju zaščite in reševanja, predvsem pa:
+
+– skrbi za izvajanje priprav za varstvo pred naravnimi in drugimi nesrečami in uresničevanje zaščitnih ukrepov ter za odpravljanje posledic naravnih in drugih nesreč,
+
+– imenuje poveljnike in štabe civilne zaščite občine ter poverjenike za civilno zaščito,
+
+– sprejme načrt zaščite in reševanja,
+
+– vodi zaščito, reševanje in pomoč,
+
+– določi organizacije, ki opravljajo javno službo oziroma naloge zaščite, reševanja in pomoči in organizacije, ki morajo izdelati načrte zaščite in reševanja,
+
+– ugotavlja in razglaša stopnjo požarne ogroženosti v naravnem okolju na območju občine,
+
+– sprejema akte in ukrepe v vojnem stanju, če se občinski svet ne more sestati,
+
+– v primeru nastale nevarnosti odredi evakuacijo ogroženih in prizadetih prebivalcev,
+
+– predlaga pristojnemu organu razporeditev državljanov na delovno dolžnost, dolžnost v civilni zaščiti ter materialno dolžnost.
+
+31. člen
+
+(nujni ukrepi)
+
+V primeru razmer, v katerih bi bilo lahko v večjem obsegu ogroženo življenje in premoženje občanov, pa se občinski svet ne more pravočasno sestati, lahko župan sprejme začasne nujne ukrepe. Te mora predložiti v potrditev občinskemu svetu takoj, ko se ta lahko sestane.
+
+32. člen
+
+(podžupan občine)
+
+(1)
+Za pomoč pri opravljanju nalog župana ima občina podžupana. Podžupana izmed članov občinskega sveta imenuje in razrešuje župan.
+
+(2) Podžupan pomaga županu pri njegovem delu ter opravlja posamezne naloge iz pristojnosti župana, za katere ga župan pooblasti.
+
+(3) Podžupan nadomešča župana v primeru njegove odsotnosti ali zadržanosti. V času nadomeščanja opravlja podžupan tekoče naloge iz pristojnosti župana in tiste naloge, za katere ga župan pooblasti.
+
+(4) Podžupan v primeru predčasnega prenehanja mandata župana začasno opravlja funkcijo župana. Podžupan, ki opravlja funkcijo župana, nima pravice glasovati za odločitve občinskega sveta.
+
+(5) V soglasju z županom se lahko tudi podžupan odloči, da bo funkcijo opravljal poklicno.
+
+33. člen
+
+(nadomeščanje župana in podžupana)
+
+(1)
+Kadar nastopijo razlogi, da tako župan kot podžupan ne moreta opravljati svoje funkcije, nadomešča župana član občinskega sveta, ki ga določi župan, če ga ne določi, pa najstarejši član občinskega sveta.
+
+(2) V času nadomeščanja opravlja član občinskega sveta tekoče naloge iz pristojnosti župana.
+
+34. člen
+
+(komisije in drugi strokovni organi občine)
+
+(1)
+Če je tako določeno v zakonu ali drugem predpisu, lahko tudi župan imenuje komisije in druge strokovne organe občine.
+
+(2) Župan lahko ustanovi komisije in druga delovna telesa kot strokovna in posvetovalna telesa za proučevanje posameznih zadev iz svoje pristojnosti.
+
+35. člen
+
+(predčasno prenehanje mandata župana)
+
+(1)
+Predčasno prenehanje mandata župana je določeno z zakonom.
+
+(2) Razlogi za prenehanje mandata župana se ugotovijo na podlagi pravnomočne sodne odločbe ali pisnega obvestila o odločitvi župana.
+
+(3) Županu preneha mandat z dnem, ko občinski svet na podlagi pisne izjave oziroma predloga komisije za mandatna vprašanja, volitve in imenovanja ugotovi, da so nastali razlogi za prenehanje mandata, razen v primeru odstopa.
+
+(4) Če župan odstopi, mu preneha mandat z dnem, ko o svojem odstopu pisno obvesti občinski svet in občinsko volilno komisijo.
+
+(5) Ugotovitveni sklep iz tretjega odstavka tega člena sprejme občinski svet na prvi seji po nastanku razlogov iz drugega odstavka tega člena.
+
+(6) Ugotovitveni sklep posreduje občinski svet predsedniku občinske volilne komisije. Če županu preneha mandat več kot šest mesecev pred potekom mandatne dobe, razpiše občinska volilna komisija nadomestne volitve.
+
+(7) Podžupanu preneha mandat s prenehanjem mandata člana občinskega sveta.
+
+(8) Podžupanu preneha mandat podžupana, če ga župan razreši in z izvolitvijo novega župana, če je prejšnjemu predčasno prenehal mandat. Prenehanje mandata podžupana zaradi razrešitve ali izvolitve novega župana ne vpliva na njegov mandat člana občinskega sveta.
+
+3.4.
+Nadzorni odbor občine
+
+36. člen
+
+(nadzorni odbor občine)
+
+(1)
+Nadzorni odbor občine je najvišji organ nadzora javne porabe v občini.
+
+(2) Nadzorni odbor ima v skladu z zakonom naslednje pristojnosti:
+
+– opravlja nadzor nad razpolaganjem s premoženjem občine,
+
+– nadzoruje namenskost in smotrnost porabe sredstev občinskega proračuna,
+
+– nadzoruje finančno poslovanje uporabnikov proračunskih sredstev.
+
+(3) Nadzorni odbor v okviru svojih pristojnosti ugotavlja zakonitost in pravilnost poslovanja občinskih organov, občinske uprave, javnih zavodov, javnih podjetij in občinskih skladov ter drugih porabnikov sredstev občinskega proračuna in pooblaščenih oseb z občinskimi javnimi sredstvi in občinskim premoženjem ter ocenjuje učinkovitost in gospodarnost porabe občinskih proračunskih sredstev.
+
+37. člen
+
+(imenovanje in razrešitev članov nadzornega odbora)
+
+(1)
+Nadzorni odbor ima tri člane. Člane nadzornega odbora imenuje občinski svet izmed občanov najkasneje v 45 dneh po svoji prvi seji. Člani nadzornega odbora morajo imeti najmanj VI. stopnjo strokovne izobrazbe in primerne izkušnje s finančno-računovodskega ali pravnega področja. Kandidate za člane nadzornega odbora občine predlaga občinskemu svetu Komisija za mandatna vprašanja, volitve in imenovanja.
+
+(2) Člani nadzornega odbora ne morejo biti člani občinskega sveta, župan, podžupan, člani krajevnih odborov, direktor občinske uprave, delavci občinske uprave ter člani poslovodstev javnih zavodov, javnih podjetij in občinskih skladov ter drugih organizacij, ki so uporabniki občinskih proračunskih sredstev.
+
+(3) Članstvo v nadzornem odboru preneha z dnem razrešitve oziroma z dnem poteka mandata članom občinskega sveta, ki je nadzorni odbor imenoval. Za predčasno razrešitev člana nadzornega odbora se primerno uporabljajo razlogi za predčasno prenehanje mandata člana občinskega sveta. Razrešitev opravi občinski svet na predlog nadzornega odbora.
+
+38. člen
+
+(konstituiranje nadzornega odbora)
+
+(1)
+Prvo sejo nadzornega odbora občine po imenovanju skliče župan. Nadzorni odbor se konstituira, če je na prvi seji navzočih večina članov.
+
+(2) Člani nadzornega odbora izvolijo izmed sebe predsednika nadzornega odbora.
+
+(3) Predsednik predstavlja nadzorni odbor, sklicuje in vodi njegove seje.
+
+(4) Nadzorni odbor dela in sprejema odločitve na seji, na kateri je navzočih večina članov nadzornega odbora, z večino opredeljenih glasov navzočih članov.
+
+(5) Sedež nadzornega odbora je na sedežu Občine Loški Potok v naselju Hrib - Loški Potok. Nadzorni odbor za seje uporablja prostore občine.
+
+(6) Nadzorni odbor za svoja pisanja uporablja pečat občine.
+
+39. člen
+
+(program dela nadzornega odbora)
+
+(1)
+Nadzorni odbor samostojno določa svoj program dela, ki vsebuje letni nadzorni program in predlog finančnega načrta, ki ju v mesecu decembru koledarskega leta predloži županu.
+
+(2) Nadzorni odbor mora vsako proračunsko leto izvesti nadzor:
+
+– proračuna in zaključnega računa proračuna občine,
+
+– finančnih načrtov in zaključnih računov uporabnikov proračunskih sredstev.
+
+(3) Nadzorni odbor lahko začne postopek nadzora le, če je tak nadzor določen v nadzornem programu. Če nadzorni odbor želi izvesti nadzor, ki ni vključen v nadzorni program, mora najprej dopolniti nadzorni program. Dopolnitev nadzornega programa posreduje županu in občinskemu svetu. Enako velja za spremembo nadzornega programa. Dopolnitev in sprememba nadzornega programa mora biti obrazložena.
+
+(4) Nadzorni odbor mora posredovati letno poročilo o svojem delu županu in občinskemu svetu do konca meseca januarja koledarskega leta za preteklo leto.
+
+(5) Nadzorni odbor mora sodelovati z županom in občinskim svetom ter drugimi organi občine in njenih ožjih delov, organi uporabnikov občinskih proračunskih sredstev in drugimi osebami.
+
+(6) Predsednik ali od njega pooblaščen član nadzornega odbora se mora udeležiti seje občinskega sveta, ko obravnava predlog proračuna in druge zadeve, za katere nadzorni odbor oceni, da so pomembne za njegovo delo.
+
+40. člen
+
+(pristojnosti nadzornega odbora)
+
+(1)
+Na občini in pri občinskih organih nadzorni odbor lahko opravlja neposredni nadzor.
+
+(2) Nadzorni odbor preverja finančno poslovanje uporabnikov proračunskih sredstev (javnih podjetij, javnih zavodov in drugih) na podlagi preverjanj poslovnih poročil in zaključnih računov ter sklenjenih pogodb med občino in uporabnikom proračunskih sredstev in po potrebi druge pridobljene dokumentacije.
+
+(3) Nadzorni odbor pred nadzorom obvesti o nadzoru župana in odgovorno osebo uporabnika proračuna. Sklep o izvedbi nadzora mora vsebovati opredelitev vsebine nadzora, časa in kraja nadzora in navedbo nadzorovane osebe.
+
+(4) V postopku nadzora so odgovorni in nadzorovane osebe dolžni nadzornemu odboru predložiti vso potrebno dokumentacijo, sodelovati v postopku nadzora, odgovoriti na ugotovitve in dajati pojasnila.
+
+41. člen
+
+(izločitev člana nadzornega odbora)
+
+(1)
+Nadzorni odbor izloči člana nadzornega odbora iz nadzora in odločanja na seji v primeru, če so podane okoliščine, ki vzbujajo dvom o njegovi nepristranskosti.
+
+(2) Šteje se, da so podane okoliščine iz prejšnjega odstavka, če:
+
+– je odgovorna oseba, zakonit zastopnik, prokurist ali pooblaščenec nadzorovane osebe s članom nadzornega odbora v krvnem sorodstvu v ravni vrsti ali v stranski vrsti do vštetega četrtega kolena ali če je z njo v zakonski ali zunajzakonski skupnosti ali v svaštvu do vštetega drugega kolena, četudi je zakonska zveza ali zunajzakonska skupnost prenehala,
+
+– je član nadzornega odbora skrbnik, posvojitelj, posvojenec ali rejnik odgovorne osebe, zakonitega zastopnika, prokurista ali pooblaščenca nadzorovane osebe,
+
+– če je član nadzornega odbora udeležen ali je sodeloval v postopku, ki je predmet nadzora.
+
+(3) Izločitev člana nadzornega odbora lahko zahteva tudi nadzorovana oseba in sam član nadzornega odbora. Zahtevo za izločitev mora vložiti pri nadzornem odboru. V zahtevi je potrebno navesti okoliščine, na katere opira svojo zahtevo za izločitev. O izločitvi odloči nadzorni odbor z večino glasov vseh članov.
+
+42. člen
+
+(poročilo nadzornega odbora)
+
+(1)
+Za posamezen nadzor je pristojen član nadzornega odbora, ki je določen v nadzornem programu (v nadaljevanju: nadzornik). Nadzornik pripravi osnutek poročila o nadzoru in ga posreduje predsedniku nadzornega odbora. Osnutek poročila o nadzoru mora vsebovati enake sestavine kot poročilo o nadzoru.
+
+(2) Predsednik nadzornega odbora lahko poda v roku treh dni pripombe na osnutek poročila o nadzoru. Če pripomb nadzornik ne upošteva, predsednik nadzornega odbora pošlje osnutek poročila o nadzoru, skupaj s pripombami, ostalim članom nadzornega odbora in skliče sejo najpozneje v roku 8 dni od posredovanega osnutka poročila o nadzoru.
+
+(3) Osnutek poročila obravnava nadzorni odbor na seji. Vsak član se mora o osnutku poročila izjaviti, na koncu izjavo poda še predsednik nadzornega odbora. Po podanih izjavah nadzorni odbor sprejme osnutek poročila o nadzoru.
+
+(4) Če osnutek poročila o nadzoru ni sprejet, je dolžan nadzorni odbor sprejeti usmeritve za njegovo spremembo ali dopolnitev. Usmeritve mora upoštevati nadzornik in osnutek poročila o nadzoru dopolniti.
+
+(5) Osnutek poročila o nadzoru podpiše predsednik nadzornega odbora.
+
+43. člen
+
+(odzivno poročilo)
+
+(1)
+Nadzorni odbor pošlje nadzorovani osebi osnutek poročila o nadzoru najpozneje v roku osmih (8) dni po sprejemu. Nadzorovana oseba ima pravico v roku petnajstih (15) dni od prejema osnutka poročila o nadzoru odgovoriti na posamezne navedbe (odzivno poročilo). Odzivno poročilo vsebuje mnenja, pripombe in pojasnila nadzorovanega organa za vsako posamezno ugotovitev iz osnutka poročila, pri kateri se ugotovijo kršitve predpisov. Če nadzorovani organ razpolaga z listinskimi dokazi, jih priloži odzivnemu poročilu.
+
+(2) Po preteku roka iz prejšnjega odstavka sprejme nadzorni odbor poročilo o nadzoru, ki ga pošlje nadzorovani osebi, občinskemu svetu in županu, po potrebi pa tudi računskemu sodišču in pristojnemu ministrstvu.
+
+44. člen
+
+(vsebina poročila nadzornega odbora)
+
+(1)
+Poročilo o nadzoru mora vsebovati obvezne sestavine v skladu z zakonom in pravilnikom o obveznih sestavinah poročila nadzornega odbora občine, ki ga izda pristojni minister.
+
+(2) V ugotovitvah se navede popolno in verodostojno dejansko stanje, ki je bilo ugotovljeno v nadzoru in na katerem temeljijo ocene, mnenje, priporočila oziroma predlogi.
+
+(3) Z ocenami nadzorni odbor presodi, kateri predpisi so bili kršeni (pravilnost poslovanja) in/ali je bilo poslovanje nadzorovane osebe smotrno glede na ugotovitve in ocene v nadzoru.
+
+(4) V mnenju se izrazi, ali je bilo poslovanje nadzorovane osebe pravilno in/ali smotrno.
+
+(5) Nepravilno poslovanje je takrat, če je nadzorovana oseba poslovala v nasprotju s predpisi, proračunom in drugimi akti (pogodbo, kolektivno pogodbo in drugimi splošnimi ter posamičnimi akti), ki bi jih morala upoštevati pri svojem poslovanju.
+
+(6) Nesmotrno poslovanje je negospodarno in/ali neučinkovito in/ali neuspešno.
+
+(7) Negospodarno poslovanje je tisto poslovanje, ko bi nadzorovana oseba enake učinke lahko dosegla pri manjših stroških.
+
+(8) Neučinkovito poslovanje je tisto, ko bi pri enakih stroških lahko nadzorovana oseba dosegla večje učinke.
+
+(9) Neuspešno poslovanje je tisto, ko se niso uresničili cilji poslovanja nadzorovane osebe.
+
+(10) Priporočila vsebujejo predloge za izboljšanje pravilnosti poslovanja oziroma smotrnosti (za gospodarnejšo, učinkovitejšo in uspešnejšo porabo sredstev javnih financ). S priporočili oziroma predlogi nadzorni odbor praviloma svetuje, kako nadzorovana oseba izboljša poslovanje tako, da nakaže le poti za izboljšanje.
+
+45. člen
+
+(postopanje nadzornega odbora)
+
+(1)
+Če je nadzorni odbor ugotovil hujšo kršitev predpisov ali nepravilnosti pri poslovanju občine, ki so opredeljene v poslovniku nadzornega odbora, mora o teh kršitvah v petnajstih dneh od dokončnosti poročila obvestiti pristojno ministrstvo in Računsko sodišče Republike Slovenije.
+
+(2) V primeru, da nadzorni odbor ugotovi, da obstaja utemeljen sum, da je nadzorovana oseba ali odgovorna oseba storila prekršek ali kaznivo dejanje, je dolžan svoje ugotovitve posredovati pristojnemu organu pregona.
+
+46. člen
+
+(obravnava poročila nadzornega odbora)
+
+(1)
+Nadzorovane osebe so dolžne spoštovati mnenja, priporočila in predloge nadzornega odbora. Občinski svet, župan in organi porabnikov občinskih proračunskih sredstev so dolžni obravnavati poročila nadzornega odbora in v skladu s svojimi pristojnostmi upoštevati priporočila in predloge nadzornega odbora.
+
+(2) Župan je dolžan nadzorni odbor tekoče seznanjati s pomembnimi zakoni in drugimi predpisi ter akti občine, ki se nanašajo na javne finance in lokalno samoupravo (proračun občine, odlok, statut, akt o sistemizaciji delovnih mest in akt, ki določa plačni sistem, akti o ustanovitvi pravnih oseb javnega prava, katerih ustanoviteljica je občina, in drugi) ter za poslovanje občine pomembnimi odločitvami.
+
+(3) Župan je dolžan vabiti predsednika nadzornega odbora na seje občinskega sveta ter ga obveščati o pomembnejših ugotovitvah iz pristojnosti občinskega sveta, ki se nanašajo na pravilnost in smotrnost poslovanja občine ali finančno poslovanje pravnih oseb javnega prava, ki jih je ustanovila občina.
+
+47. člen
+
+(letno poročilo o delu in porabi sredstev nadzornega odbora)
+
+Nadzorni odbor mora županu in občinskemu svetu predložiti pisno letno poročilo o delu in porabi sredstev in najmanj enkrat na leto poročati o svojem delu ter ju seznaniti s pomembnimi ugotovitvami s področja svojega dela in predlagati rešitve za izboljšanje poslovanja.
+
+48. člen
+
+(javnost dela nadzornega odbora)
+
+(1)
+Delo nadzornega odbora je javno.
+
+(2) Nadzorni odbor lahko z večino glasov vseh svojih članov odloči, da se javnost dela omeji ali izključi, če to zahtevajo razlogi varovanja osebnih podatkov, dokumentov in gradiv, ki vsebujejo podatke, ki so v skladu z zakonom, drugim predpisom ali splošnim aktom občine oziroma druge javne ali zasebno pravne osebe zaupne narave oziroma državna, vojaška ali uradna tajnost.
+
+(3) Nadzorni odbor lahko z večino glasov vseh svojih članov odloči, da se iz letnega poročila o njegovem delu in posameznega poročila o nadzoru, ki se javno objavi, izločijo podatki, če so podani razlogi, ki jih zakon, ki ureja dostop do informacij javnega značaja, določa kot razloge, zaradi katerih je mogoče zavrniti zahtevo za informacijo javnega značaja.
+
+(4) Način zagotavljanja javnosti dela in način omejitve javnosti dela nadzornega odbora določa poslovnik.
+
+(5) Za obveščanje javnosti o delu nadzornega odbora je pristojen predsednik nadzornega odbora oziroma oseba, ki jo on pooblasti.
+
+49. člen
+
+(strokovna in administrativna pomoč za delo nadzornega odbora)
+
+(1)
+Strokovno in administrativno pomoč za delo nadzornega odbora zagotavljata župan in občinska uprava.
+
+(2) Župan določi javnega uslužbenca v občinski upravi, ki pomaga pri pripravi in vodenju sej ter pisanju in odpravi zapisnikov in drugih pisanj nadzornega odbora, arhiviranje gradiva, sprejemanje in urejanje pošte ter za opravljanje drugih opravil, potrebnih za nemotena administrativna tehnična dela nadzornega odbora.
+
+(3) Strokovno pomoč lahko nudijo nadzornemu odboru javni uslužbenci, zaposleni v občinski upravi ali zunanji strokovnjaki, notranji revizorji in drugi. Za posamezne posebne strokovne naloge nadzora lahko poda izvid in mnenje izvedenec, ki ga na predlog nadzornega odbora imenuje občinski svet. Nadzorni odbor je odgovoren za nadzor tudi, ko se opira na mnenje ali izvid izvedenca ali mnenje zunanjega strokovnjaka, ne pa, ko se opira na poročilo notranje revizijske službe.
+
+50. člen
+
+(sredstva za delo nadzornega odbora)
+
+Sredstva za delo nadzornega odbora se zagotavljajo v občinskem proračunu na posebni proračunski postavki, na podlagi letnega programa dela in finančnega načrta nadzornega odbora. Za porabo sredstev župan določi skrbnika.
+
+51. člen
+
+(plačilo za opravljanje dela članov nadzornega odbora)
+
+Predsednik in člani nadzornega odbora imajo pravico do plačila za opravljanje dela v skladu z aktom občinskega sveta – pravilnikom o plačah občinskih funkcionarjev in nagradah članov delovnih teles občinskega sveta ter članov volilnih drugih občinskih organov ter o povračilih stroškov, ki ga je sprejel občinski svet. Izvedencu in drugim strokovnjakom pripada plačilo, ki se določi s podjemno pogodbo ali avtorsko pogodbo, ki jo sklene župan. Za delo izvedenca se plačilo določi na podlagi pravilnika o tarifi za sodne izvedence.
+
+52. člen
+
+(poslovnik o delu nadzornega odbora)
+
+Podrobneje uredi nadzorni odbor svoje delo s poslovnikom, ki ga sprejme z večino glasov svojih članov.
+
+4. OBČINSKA UPRAVA
+
+53. člen
+
+(občinska uprava)
+
+(1)
+Občina ima občinsko upravo, ki v skladu z zakonom, statutom in splošnimi akti občine opravlja upravne, strokovne, pospeševalne in razvojne naloge ter naloge v zvezi z zagotavljanjem javnih služb iz občinske pristojnosti.
+
+(2) Občinska uprava odloča o upravnih stvareh iz občinske pristojnosti na prvi stopnji ter opravlja inšpekcijske naloge in naloge občinskega redarstva oziroma drugih služb nadzora.
+
+(3) Občinska uprava opravlja strokovna, organizacijska in administrativna opravila za občinske organe.
+
+(4) Občinsko upravo lahko sestavljajo notranje organizacijske enote in organi občinske uprave. Organe občinske uprave ustanovi občinski svet z odlokom, s katerim določi tudi njihovo notranjo organizacijo in delovno področje.
+
+(5) Občinsko upravo vodi direktor občinske uprave, usmerja in nadzoruje pa jo župan.
+
+54. člen
+
+(občinska uprava)
+
+(1)
+Notranjo organizacijo in delovno področje občinske uprave določi občinski svet na predlog župana z odlokom.
+
+(2) Podrobnejšo notranjo organizacijo in sistemizacijo delovnih mest v občinski upravi določi župan.
+
+55. člen
+
+(ustanovitev skupne občinske uprave)
+
+(1)
+Občinski svet lahko na predlog župana odloči, da se z drugo občino ali z drugimi občinami ustanovi skupna občinska uprava.
+
+(2) Organizacija in delo skupne občinske uprave se določi z odlokom o ustanovitvi, ki ga na skupen predlog županov sprejmejo občinski sveti občin.
+
+56. člen
+
+(odločanje o upravnih zadevah)
+
+(1)
+Organi občine odločajo o pravicah in dolžnostih posameznikov in pravnih oseb ter o njihovih pravnih koristih v upravnih zadevah v upravnem postopku.
+
+(2) Občina odloča s posamičnimi akti o upravnih zadevah iz lastne pristojnosti in iz prenesene državne pristojnosti.
+
+(3) O upravnih zadevah iz občinske pristojnosti odloča na prvi stopnji občinska uprava, na drugi stopnji župan, če ni za posamezne primere z zakonom drugače določeno.
+
+(4) O pritožbah zoper odločbe organa skupne občinske uprave odloča župan občine, v katere krajevno pristojnost zadeva spada, če zakon ne določa drugače.
+
+57. člen
+
+(pristojnosti za odločanje v upravnih zadevah)
+
+(1)
+Posamične upravne akte iz pristojnosti občinske uprave podpisuje direktor občinske uprave po pooblastilu župana, ki lahko vsebuje pooblastilo za pooblaščanje drugih uradnih oseb občinske uprave, ki izpolnjujejo zakonske pogoje za odločanje v upravnih zadevah, za opravljanje posameznih dejanj v postopku ali za vodenje celotnega postopka in za odločanje v upravnih zadevah.
+
+(2) Osebe iz prejšnjega odstavka odločajo tudi o upravnih zadevah iz prenesene državne pristojnosti, če ni z zakonom drugače določeno.
+
+58. člen
+
+(izvajanje zakona o splošnem upravnem postopku)
+
+Direktor občinske uprave skrbi in je odgovoren za dosledno izvajanje zakona o splošnem upravnem postopku in drugih predpisov o upravnem postopku in zagotavlja upravno poslovanje v skladu z uredbo vlade.
+
+59. člen
+
+(odločanje o upravnih zadevah iz izvirne pristojnosti občine)
+
+O upravnih zadevah iz občinske izvirne pristojnosti lahko odloča samo uradna oseba, ki je pooblaščena za opravljanje teh zadev in izpolnjuje pogoje v skladu z uredbo ter ima opravljen strokovni izpit iz upravnega postopka.
+
+60. člen
+
+(odločanje o pristojnostih zoper posamične akte)
+
+(1)
+O pritožbah zoper posamične akte iz izvirne pristojnosti občinske uprave odloča župan. Zoper odločitev župana je dopusten upravni spor.
+
+(2) O pritožbah zoper posamične akte, ki jih v zadevah iz državne pristojnosti na prvi stopnji izdaja občinska uprava, odloča državni organ, določen z zakonom.
+
+61. člen
+
+(izločitev uradne osebe)
+
+(1)
+O izločitvi zaposlenega v občinski upravi odloča direktor občinske uprave, ki v primeru izločitve javnega uslužbenca o stvari tudi odloči, če je javni uslužbenec pooblaščen za odločanje v upravnih stvareh.
+
+(2) O izločitvi direktorja občinske uprave
+ali župana odloča občinski svet, ki v primeru izločitve o stvari tudi odloči.
+
+5. DRUGI ORGANI OBČINE
+
+62. člen
+
+(drugi organi občine)
+
+Organizacijo, delovno področje ter sestavo organov, ki jih mora občina imeti v skladu s posebnimi zakoni, ki urejajo naloge občine na posameznih področjih javne uprave, določi župan oziroma občinski svet na podlagi zakona s sklepom o ustanovitvi in imenovanju članov posameznega organa.
+
+63. člen
+
+(poveljnik in štab civilne zaščite)
+
+(1)
+Občina ima poveljnika in štab civilne zaščite občine, ki izvajata operativno strokovno vodenje civilne zaščite in drugih sil za zaščito, reševanje in pomoč v skladu s sprejetimi načrti.
+
+(2) Poveljnik in poverjeniki za civilno zaščito so za svoje delo odgovorni županu.
+
+6. VAŠKI ODBORI
+
+64. člen
+
+(vaški odbori)
+
+(1)
+Zaradi zagotovitve sodelovanja vaških
+skupnosti pri opravljanju javnih zadev, ustanovi občinski svet z odlokom vaške odbore kot svoja posvetovalna telesa. Z odlokom se določi organizacija in način dela vaških
+odborov.
+
+(2) Predsednika in člane vaških
+odborov imenujejo in razrešujejo na svojih zborih prebivalci vaških skupnosti.
+
+(3) Vaške skupnosti ustanovi, ukine ali spremeni njihovo območje občinski svet z odlokom po poprej ugotovljeni volji prebivalcev o imenu in območju skupnosti. Volja prebivalcev se ugotovi na zborih občanov, ki jih skliče župan za območje, na katerem naj bi se ustanovila vaška skupnost.
+
+65. člen
+
+(pristojnosti
+vaških
+skupnosti)
+
+Vaške skupnosti sodelujejo pri opravljanju javnih zadev v občini, in sicer:
+
+– dajejo predloge in sodelujejo pri pripravi razvojnih programov na območju občine na področju javne infrastrukture na svojem območju ter sodelujejo pri izvajanju investicij v komunalno infrastrukturo in sodelujejo pri nadzoru nad opravljenimi deli,
+
+– sodelujejo pri pripravi programov oskrbe s pitno vodo in zaščiti virov pitne vode, sodelujejo pri pridobivanju soglasij lastnikov zemljišč za delo s področja javnih služb,
+
+– dajejo predloge za sanacijo divjih odlagališč komunalnih odpadkov in sodelujejo pri njihovi sanaciji,
+
+– dajejo predloge za ureditev in olepševanje kraja v smislu ureditve in vzdrževanja javnih prostorov, sprehajalnih poti ipd. in pri tem sodelujejo,
+
+– dajejo pobude za dodatno prometno ureditev (prometna signalizacija, ureditev dovozov in izvozov, omejitve hitrosti ipd.),
+
+– oblikujejo pobude za spremembo prostorskih, planskih in izvedbenih aktov ter jih posredujejo pristojnemu organu občine,
+
+– dajejo mnenja glede sprememb namembnosti kmetijskega prostora v druge namene, predvidenih gradenj večjih proizvodnih in drugih objektov v skupnosti, za posege v kmetijski prostor (agromelioracija, komasacija), pri katerih je prišlo do spremembe režima vodnih virov,
+
+– seznanjajo pristojni organ občine s problemi in potrebami prebivalcev vaške skupnosti na področju urejanja prostora in varstva okolja,
+
+– sodelujejo pri organizaciji kulturnih, športnih in drugih prireditev,
+
+– spremljajo nevarnosti na svojem območju in o tem obveščajo štab za civilno zaščito ter po potrebi prebivalstvo in sodelujejo pri ostalih nalogah s področja zaščite in reševanja,
+
+– dajejo mnenje k odločitvi o razpolaganju in upravljanju s premoženjem občine, ki je skupnostim dano za uporabo za opravljanje njihovih nalog.
+
+66. člen
+
+(svet predsednikov vaških odborov)
+
+Zaradi obravnave določenih skupnih vprašanj in nalog ter za obravnavo zadev iz občinske pristojnosti lahko župan oblikuje svet predsednikov vaških odborov kot svoj posvetovalni organ.
+
+7. NEPOSREDNO SODELOVANJE OBČANOV PRI ODLOČANJU V OBČINI
+
+7.1.
+Zbor občanov
+
+67. člen
+
+(zbor občanov)
+
+(1)
+Občani na zboru občanov:
+
+– obravnavajo pobude in predloge za spremembo območja občine, njenega imena ali sedeža ter dajejo pobude v zvezi s tem in oblikujejo mnenja,
+
+– obravnavajo predloge in pobude za sodelovanje in povezovanje z drugimi občinami v širše samoupravne lokalne skupnosti,
+
+– predlagajo, obravnavajo in oblikujejo stališča o spremembah območij naselij, imen naselij ter imen ulic,
+
+– opravljajo naloge zborov volivcev v skladu z zakonom,
+
+– dajejo predloge občinskim organom v zvezi s pripravo programov razvoja občine, gospodarjenja s prostorom ter varovanja življenjskega okolja,
+
+– oblikujejo stališča v zvezi z večjimi posegi v prostor, kot so gradnja energetskih objektov, odlagališč odpadkov in nevarnih stvari,
+
+– obravnavajo in oblikujejo mnenja, stališča ter odločajo o zadevah, za katere je tako določeno z zakonom, s tem statutom ali odlokom občine ter o zadevah, za katere tako sklene občinski svet ali župan.
+
+(2) Odločitve, predloge, pobude, stališča in mnenja zbora občanov so občinski organi, v katerih pristojnost posamezna zadeva spada, dolžni obravnavati in pri izvajanju svojih nalog upoštevati. Če pristojni občinski organ meni, da predlogov, pobud, stališč, mnenj in odločitev zbora občanov ni mogoče upoštevati, je občanom dolžan na primeren način in v primernem roku svoje mnenje predstaviti in utemeljiti.
+
+68. člen
+
+(sklic zbora občanov)
+
+(1) Zbor občanov se lahko skliče za vso občino ali za njen posamezen del.
+
+(2) Zbor občanov skliče župan na lastno pobudo ali na pobudo občinskega sveta ali vaškega odbora.
+
+(3) Župan mora sklicati zbor občanov, če je tako predpisano z zakonom ali statutom občine ali če tako zahteva najmanj deset odstotkov volivcev v občini. Zbor občanov za del občine pa na zahtevo najmanj deset odstotkov volivcev tega dela.
+
+(4) Zahteva volivcev za sklic zbora občanov mora vsebovati pisno obrazložen predlog zadeve, ki naj jo zbor obravnava. Zahtevi je treba priložiti seznam volivcev, ki so zahtevo podprli. Seznam mora vsebovati ime in priimek volivca, datum rojstva in naslov stalnega prebivališča ter njihove podpise. Župan lahko zahtevo s sklepom zavrne, če ugotovi, da zahteve ni podprlo zadostno število volivcev. Sklep z obrazložitvijo se vroči pobudniku zahteve ali prvemu podpisanemu volivcu na seznamu. Župan skliče zbor občanov najkasneje v tridesetih dneh po prejemu pravilno vložene zahteve.
+
+69. člen
+
+(območje, kraj in čas sklica zbora občanov)
+
+(1)
+Sklic zbora občanov mora vsebovati območje, za katerega se sklicuje zbor občanov, kraj in čas zbora občanov ter predlog dnevnega reda.
+
+(2) Sklic zbora občanov je treba objaviti na krajevno običajen način.
+
+70. člen
+
+(vodenje zbora občanov)
+
+(1)
+Zbor občanov vodi župan ali od njega pooblaščeni podžupan. Župan lahko zboru občanov predlaga imenovanje predsedstva zbora, ki naj zbor vodi.
+
+(2) Zbor občanov veljavno sprejema svoje odločitve, predloge, pobude, stališča in mnenja, če na zboru sodeluje najmanj pet odstotkov volivcev z območja občine, za katero je zbor sklican. Odločitev zbora občanov je sprejeta, če zanjo glasuje najmanj polovica volivcev, ki so glasovali.
+
+(3) Javni uslužbenec, ki ga določi direktor občinske uprave, ugotovi sklepčnost zbora občanov, koliko volivcev je glasovalo za njegove odločitve ter vodi zapisnik o odločitvah zbora. Z zapisnikom zbora občanov direktor občinske uprave seznani občinski svet in župana ter ga na krajevno običajen način objavi.
+
+7.2.
+Referendum o splošnem aktu občine
+
+71. člen
+
+(referendum o splošnem aktu občine)
+
+(1)
+Občani lahko odločajo na referendumu o vprašanjih, ki so vsebina splošnih aktov občine, ki jih sprejema občinski svet, razen o proračunu in zaključnem računu občine ter o splošnih aktih, s katerimi se v skladu z zakonom predpisujejo občinski davki in druge dajatve.
+
+(2) Občinski svet lahko o splošnem aktu iz prejšnjega odstavka razpiše referendum na predlog župana ali člana občinskega sveta.
+
+(3) Občinski svet mora razpisati referendum, če to zahteva najmanj pet odstotkov volivcev v občini in če tako določa zakon ali statut občine. Pobudo za vložitev zahteve za razpis referenduma mora podpreti najmanj sto volivcev v občini.
+
+(4) Naknadni referendum o splošnem aktu občine ureja zakon.
+
+7.3.
+Svetovalni referendum
+
+72. člen
+
+(svetovalni referendum)
+
+(1)
+Občinski svet lahko pred odločanjem o posameznih vprašanjih iz svoje pristojnosti razpiše svetovalni referendum.
+
+(2) Svetovalni referendum se razpiše za vso občino ali za njen del.
+
+(3) Svetovalni referendum se izvede v skladu z določbami tega statuta, ki urejajo referendum o splošnem aktu občine in zakonom, ki ureja referendum in ljudsko iniciativo.
+
+7.4.
+Drugi referendumi
+
+73. člen
+
+(referendum o samoprispevku in drugih vprašanjih)
+
+(1)
+Občani lahko odločajo na referendumu o samoprispevkih in tudi o drugih vprašanjih, če tako določa zakon.
+
+(2) Referendum iz prejšnjega odstavka se opravi v skladu z določbami zakona, ki ureja lokalni referendum, če z zakonom, ki določa in ureja referendum, ni drugače določeno.
+
+7.5.
+Ljudska iniciativa
+
+74. člen
+
+(ljudska iniciativa)
+
+(1)
+Najmanj pet odstotkov volivcev v občini lahko zahteva izdajo ali razveljavitev splošnega akta ali druge odločitve iz pristojnosti občinskega sveta oziroma drugih občinskih organov.
+
+(2) Glede pobude volivcem za vložitev zahteve iz prejšnjega odstavka in postopka s pobudo se primerno uporabljajo določbe zakona in tega statuta, s katerimi je urejen postopek s pobudo volivcem za razpis referenduma o splošnem aktu občine.
+
+(3) Če se zahteva nanaša na razveljavitev splošnega akta občine ali drugo odločitev občinskega sveta, mora občinski svet obravnavo zahteve uvrstiti na prvo naslednjo sejo, o njej pa odločiti najkasneje v treh mesecih od dne pravilno vložene zahteve.
+
+(4) Če se zahteva nanaša na odločitve drugih občinskih organov, morajo ti o njej odločiti najkasneje v enem mesecu od dne pravilno vložene zahteve.
+
+75. člen
+
+(sredstva za neposredno sodelovanje občanov pri odločanju v občini)
+
+Sredstva za neposredno sodelovanje občanov pri odločanju v občini na zborih občanov in referendumih ter njihovo izvedbo se zagotovijo v občinskem proračunu.
+
+8. OBČINSKE JAVNE SLUŽBE
+
+76. člen
+
+(občinske javne službe)
+
+(1)
+Občina zagotavlja opravljanje javnih služb, ki jih v skladu z zakonom lahko sama določi, in javnih služb, za katere je določeno z zakonom, da jih zagotavlja občina.
+
+(2) Občina lahko določi kot gospodarsko javno službo tudi druge dejavnosti, ki so pogoj za izvrševanje nalog iz njene pristojnosti ali so takšne dejavnosti pogoj za izvrševanje gospodarskih, socialnih ali ekoloških funkcij občine.
+
+(3) Izvajanje občinskih javnih služb uredi občina z odlokom v skladu z zakonom.
+
+77. člen
+
+(izvajalci javnih služb)
+
+(1)
+Režijski obrat in pravne osebe javnega prava, ki izvajajo občinske javne službe, ustanavlja občina z odlokom ob upoštevanju pogojev, določenih z zakonom.
+
+(2) Občina lahko za opravljanje javnih služb v skladu z zakonom in občinskim odlokom podeli koncesijo.
+
+9. SODELOVANJE OBČINE Z DRUGIMI OBČINAMI
+
+78. člen
+
+(medobčinsko sodelovanje)
+
+(1)
+Občina samostojno odloča o povezovanju v širše lokalne skupnosti, na način in po postopku, predpisanem v zakonu.
+
+(2) Občina sodeluje z drugimi občinami po načelih prostovoljnosti in solidarnosti in lahko v ta namen z njimi združuje sredstva, oblikuje skupne organe in organizacije ter službe za opravljanje skupnih zadev.
+
+(3) Občina se zaradi predstavljanja in uveljavljanja lokalne samouprave ter usklajevanja in skupnega zagotavljanja svojih interesov lahko povezuje v združenja.
+
+(4) Občina sodeluje z lokalnimi skupnostmi drugih držav ter z mednarodnimi organizacijami lokalnih skupnosti.
+
+79. člen
+
+(izvrševanje ustanoviteljskih pravic)
+
+(1)
+V aktu o ustanovitvi skupnega organa za izvrševanje ustanoviteljskih pravic in za usklajevanje odločitev občin v zvezi z zagotavljanjem javnih služb, ki jih izvajajo pravne osebe javnega prava, ki jih je občina ustanovila skupaj z drugo/mi občino/ami se določijo njegove naloge, organizacija dela in način sprejemanja odločitev, način financiranja in delitve stroškov za delo skupnega organa.
+
+(2) Župan mora občinskemu svetu poročati o delu skupnega organa iz prejšnjega odstavka najmanj enkrat letno.
+
+10. PREMOŽENJE IN FINANCIRANJE OBČINE
+
+80. člen
+
+(premoženje občine)
+
+(1) Upravljanje in razpolaganje s premoženjem občine se izvede po postopku in na način, ki ga določa zakon in predpisi, ki veljajo za upravljanje in razpolaganje z državnim premoženjem.
+
+(2) Za neodplačno pridobitev premoženja je treba predhodno pridobiti soglasje občinskega sveta, če bi takšno premoženje povzročilo večje stroške ali če je pridobitev povezana s pogoji, ki pomenijo obveznost občine.
+
+81. člen
+
+(prihodki občine)
+
+(1)
+Občina pridobiva prihodke iz lastnih virov, davkov, taks, pristojbin in drugih dajatev v skladu z zakonom.
+
+(2) Občina je pod pogoji, določenimi z zakonom, upravičena do sredstev finančne izravnave in drugih sredstev sofinanciranja iz državnega proračuna.
+
+82. člen
+
+(proračun občine)
+
+(1)
+Prihodki in drugi prejemki ter odhodki in drugi izdatki občine so zajeti v proračunu občine, ki ga sprejme občinski svet po postopku, določenem v poslovniku občinskega sveta.
+
+(2) Občinski svet mora sprejeti proračun občine v roku, ki omogoča njegovo uveljavitev s 1. januarjem leta, za katerega se sprejema.
+
+(3) Za pripravo in predložitev proračuna občine občinskemu svetu v sprejem v skladu z zakonom je odgovoren župan.
+
+(4) Predlogi za povečanje izdatkov proračuna morajo vsebovati predlog za povečanje prejemkov proračuna ali za zmanjšanje drugih izdatkov v isti višini, pri čemer povečani izdatki ne smejo biti v breme proračunske rezerve, splošne proračunske rezervacije ali v breme dodatnega zadolževanja.
+
+83. člen
+
+(sestava proračuna občine)
+
+(1)
+Proračun občine sestavljajo splošni del, posebni del, načrt razvojnih programov ter obrazložitve.
+
+(2) Splošni del proračuna sestavljajo skupna bilanca prihodkov in odhodkov, račun finančnih terjatev in naložb ter račun financiranja.
+
+(3) Posebni del proračuna sestavljajo finančni načrti neposrednih uporabnikov proračuna občine.
+
+(4) Načrt razvojnih programov sestavljajo letni načrti razvojnih programov neposrednih uporabnikov proračuna občine, ki so opredeljeni z dokumenti dolgoročnega načrtovanja.
+
+84. člen
+
+(izvrševanje proračuna občine)
+
+(1)
+Za izvrševanje proračuna je župan odgovoren občinskemu svetu.
+
+(2) V okviru izvrševanja proračuna ima župan pooblastila, določena z zakonom, predpisi, izdanimi na podlagi zakona, odlokom o proračunu občine ali drugim splošnim aktom občine.
+
+(3) Župan mora zagotoviti izvajanje nalog notranjega finančnega nadzora v skladu z zakonom in predpisom ministra, pristojnega za finance, izdanim na podlagi zakona.
+
+(4) Župan je odredbodajalec za sredstva proračuna. Za izvrševanje proračuna občine lahko župan pooblasti podžupana in posamezne delavce občinske uprave.
+
+(5) Župan v mesecu juliju poroča občinskemu svetu o izvrševanju proračuna za tekoče leto. Poročilo vsebuje podatke in informacije, ki jih določa zakon, ki ureja sistem javnih financ.
+
+85. člen
+
+(sprejem proračuna občine)
+
+(1)
+Proračun občine se sprejme z odlokom, rebalans oziroma spremembe proračuna občine se sprejmejo z odlokom o rebalansu proračuna oziroma z odlokom o spremembah proračuna.
+
+(2) Odlok o proračunu občine določa ukrepe za zagotavljanje likvidnosti proračuna, prerazporejanje sredstev, začasno zadržanje izvrševanja proračuna, ukrepe za zagotavljanje proračunskega ravnovesja ter druge ukrepe in posebna pooblastila za izvrševanje proračuna.
+
+(3) V odloku o proračunu se določi obseg zadolževanja proračuna in obseg predvidenih poroštev ter drugi elementi, ki jih določa zakon.
+
+(4) Rebalans proračuna predlaga župan, če v teku proračunskega leta ni možno uravnovesiti proračuna občine.
+
+(5) Župan predlaga spremembe proračuna občine pred začetkom leta, na katerega se sprejeti proračun nanaša.
+
+86. člen
+
+(začasno financiranje)
+
+(1)
+Če proračun občine ni sprejet pred začetkom leta, na katero se nanaša, se financiranje občine začasno nadaljuje na podlagi zadnjega sprejetega proračuna in za iste namene. V obdobju začasnega financiranja se smejo uporabiti sredstva do višine sorazmerno porabljenih sredstev v enakem obdobju v proračunu za preteklo leto.
+
+(2) Župan sprejme sklep o začasnem financiranju v skladu z zakonom. Sklep velja največ tri mesece in se lahko na županov predlog s sklepom občinskega sveta podaljša še za tri mesece.
+
+87. člen
+
+(uporaba sredstev proračuna)
+
+Sredstva proračuna občine se smejo uporabljati, če so izpolnjeni vsi z zakonom ali drugim aktom določeni pogoji, le za namene in v višini, določeni s proračunom.
+
+88. člen
+
+(prerazporejanje proračunskih sredstev)
+
+(1)
+Proračunskih sredstev ni mogoče prerazporejati, razen pod pogoji in na način, določen z zakonom ali odlokom o proračunu občine.
+
+(2) Če se med letom spremeni delovno področje proračunskega uporabnika, župan sorazmerno poveča ali zmanjša obseg sredstev za njegovo delo oziroma, če se uporabnik ukine in njegovega dela ne prevzame drug uporabnik proračuna, na katerega se sredstva prerazporedijo, prenese sredstva v proračunsko rezervo.
+
+89. člen
+
+(zaključni račun proračuna)
+
+(1)
+Župan predloži predlog zaključnega računa občinskega proračuna občinskemu svetu v sprejem do 15. aprila tekočega leta.
+
+(2) Župan o sprejetem zaključnem računu občinskega proračuna obvesti ministrstvo, pristojno za finance, v 30 dneh po sprejemu.
+
+90. člen
+
+(zadolževanje občine)
+
+Občina se lahko dolgoročno zadolži za investicije, ki jih sprejme občinski svet, v skladu s pogoji, določenimi z zakonom.
+
+91. člen
+
+(zadolževanje javnih podjetij in javnih zavodov)
+
+(1)
+Javna podjetja in javni zavodi, katerih ustanoviteljica je občina, se lahko zadolžujejo in izdajajo poroštvo samo, če je to dovoljeno z zakonom in pod pogoji, ki jih določi občinski svet. Soglasje izda župan.
+
+(2) O poroštvih za izpolnitev obveznosti javnih podjetij in javnih zavodov, katerih ustanoviteljica je občina, odloča na predlog župana občinski svet.
+
+(3) Kadar občina z eno ali več občinami ustanovi javno podjetje ali javni zavod, o soglasju k zadolževanju odločajo občinski sveti vseh občin ustanoviteljic.
+
+92. člen
+
+(finančno poslovanje občine)
+
+(1)
+Finančno poslovanje občine izvršuje finančna služba v okviru občinske uprave ali skupnega organa občinske uprave.
+
+(2) Opravljanje posameznih nalog finančne službe ali notranjega finančnega nadzora sme župan naročiti pri izvajalcu, ki izpolnjuje pogoje strokovnosti oziroma pogoje, predpisane z zakonom in podzakonskimi predpisi.
+
+93. člen
+
+(javno naročanje)
+
+Nabavo blaga, nabavo storitev ter oddajo gradbenih del izvaja župan občine v skladu s predpisi, ki urejajo javno naročanje.
+
+11. SPLOŠNI IN POSAMIČNI AKTI OBČINE
+
+11.1.
+Splošni akti občine
+
+94. člen
+
+(splošni akti občine)
+
+(1)
+Splošni akti občine so statut, poslovnik občinskega sveta, odloki, odredbe, pravilniki in navodila.
+
+(2) Občinski svet sprejema kot splošne akte tudi prostorske in druge načrte razvoja občine, občinski proračun in zaključni račun, ki sta posebni vrsti splošnih aktov.
+
+(3) Kadar ne odloči z drugim aktom, sprejme občinski svet sklep, ki je lahko splošni ali posamični akt.
+
+(4) Postopek za sprejem splošnih aktov občine ureja poslovnik občinskega sveta.
+
+95. člen
+
+(statut občine)
+
+(1)
+Statut je temeljni splošni akt občine, ki ga sprejme občinski svet z dvotretjinsko večino glasov vseh članov občinskega sveta.
+
+(2) Statut se sprejme po enakem postopku, kot je predpisan za sprejem odloka.
+
+96. člen
+
+(poslovnik občinskega sveta)
+
+S poslovnikom, ki ga sprejme občinski svet z dvotretjinsko večino glasov navzočih članov, se podrobneje uredi organizacija in način dela občinskega sveta in delovnih teles občinskega sveta pri izvrševanju nalog iz pristojnosti občinskega sveta, zagotavljanje javnosti dela občinskega sveta, uresničevanje pravic in dolžnosti članov občinskega sveta, postopki sprejemanja občinskih splošnih aktov in proračuna, sodelovanje občanov pri pripravi predlogov predpisov, volitve in imenovanja in druge zadeve, pomembne za delo občinskega sveta.
+
+97. člen
+
+(odlok občine)
+
+(1)
+Z odlokom ureja občina na splošen način zadeve iz svoje pristojnosti, ustanavlja organe občinske uprave in določa način njihovega dela, ustanavlja pravne osebe javnega prava, izvajalce občinskih javnih služb, in ureja druge zadeve, če je tako določeno z zakonom.
+
+(2) Z odlokom ureja občina tudi zadeve iz prenesene pristojnosti, kadar je tako določeno z zakonom.
+
+98. člen
+
+(pravilnik)
+
+S pravilnikom se razčlenijo posamezne določbe statuta ali odloka v procesu njihovega izvrševanja.
+
+99. člen
+
+(objavljanje splošnih aktov občine)
+
+(1)
+Statut, odloki in drugi predpisi občine morajo biti objavljeni v Uradnem listu Republike Slovenije
+in veljati praviloma petnajsti dan po objavi, če ni v njih drugače določeno.
+
+(2) V Uradnem listu Republike Slovenije se objavljajo tudi drugi akti, za katere tako določi občinski svet.
+
+11.2.
+Posamični akti občine
+
+100. člen
+
+(posamični akti občine)
+
+(1)
+Posamični akti občine so odločbe in sklepi.
+
+(2) S posamičnimi akti – sklepom ali odločbo – odloča občina o upravnih stvareh iz lastne pristojnosti in iz prenesene državne pristojnosti.
+
+101. člen
+
+(odločanje o pritožbah zoper posamične akte občine)
+
+(1)
+O pritožbah zoper posamične akte, ki jih izdajo organi občinske uprave v upravnem postopku, odloča na drugi stopnji župan, če ni za posamezne primere z zakonom drugače določeno.
+
+(2) O pritožbah zoper posamične akte, izdane v upravnih stvareh iz prenesene državne pristojnosti, odloča državni organ, ki ga določi zakon.
+
+(3) O zakonitosti dokončnih posamičnih aktov občinskih organov odloča v upravnem sporu pristojno sodišče.
+
+102. člen
+
+(obveščenost o upravnih postopkih)
+
+(1)
+Župan mora od pristojnih državnih organov zahtevati, da je občina obveščena o vsakem upravnem postopku, v katerem pristojni državni organ odloča na podlagi predpisov občine. Ta organ mora občino pisno obvestiti o začetku upravnega postopka v osmih dneh.
+
+(2) Župan mora vstopiti v upravni ali sodni postopek kot stranka ali kot stranski intervenient, če bi lahko bile v teh postopkih oziroma, če so z že izdanimi akti prizadete pravice in pravne koristi občine, določene z ustavo in zakoni.
+
+12. NADZOR NAD ZAKONITOSTJO DELA
+
+103. člen
+
+(nadzor nad zakonitostjo dela)
+
+(1)
+Vsako ministrstvo na svojem področju nadzoruje zakonitost splošnih in posamičnih aktov, ki jih iz svoje izvirne pristojnosti izdajajo župan, občinski svet in pooblaščeni delavci občinske uprave.
+
+(2) Ministrstvo mora zaradi opravljanja nadzorstva nad zakonitostjo dela organov občin zagotoviti ustrezno sodelovanje, medsebojno obveščanje in strokovno pomoč organom občin.
+
+(3) V zadevah, ki jih na organe občine prenese država, opravljajo pristojna ministrstva tudi nadzorstvo nad primernostjo in strokovnostjo njihovega dela.
+
+(4) Pri izvajanju nadzorstva po prejšnjem odstavku lahko pristojno ministrstvo predpiše organizacijo služb za izvajanje nalog iz državne pristojnosti in pogoje za opravljanje nalog na teh delovnih mestih ter daje obvezna navodila za opravljanje nalog iz državne pristojnosti.
+
+13. PREHODNE IN KONČNE DOLOČBE
+
+104. člen
+
+(prenehanje veljavnosti)
+
+Z dnem uveljavitve tega statuta preneha veljati Statut Občine Loški Potok objavljen v Uradnem listu RS, št. 86/06 in Spremembe in dopolnitve Statuta Občine Loški Potok, objavljene v Uradnem listu RS, št. 49/10.
+
+105. člen
+
+(objava in začetek veljavnosti)
+
+Ta statut začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Šifra: 007-0002/2015
+
+Loški Potok, dne 12. oktobra 2015
+
+Župan
+
+Občine Loški Potok
+
+Ivan Benčina
+l.r.
