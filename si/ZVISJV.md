@@ -16,6 +16,10 @@ spremembe:
     datum: 2004-04-30
     sop: 2004-01-2214
     naziv: "Zakon o spremembah in dopolnitvah zakona o varstvu pred ionizirajočimi sevanji in jedrski varnosti"
+  - kratica: ZVISJV-D
+    datum: 2015-10-02
+    sop: 2015-01-2872
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o varstvu pred ionizirajočimi sevanji in jedrski varnosti"
 ---
 
 # Zakon o varstvu pred ionizirajočimi sevanji in jedrski varnosti
