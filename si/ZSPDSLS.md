@@ -12,6 +12,10 @@ spremembe:
     datum: 2012-10-05
     sop: 2012-01-2849
     naziv: "Zakon o spremembah in dopolnitvah Zakona o stvarnem premoženju države in samoupravnih lokalnih skupnosti"
+  - kratica: ZSPDSLS-C
+    datum: 2015-10-09
+    sop: 2015-01-2976
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o stvarnem premoženju države in samoupravnih lokalnih skupnosti"
 ---
 
 # Zakon o stvarnem premoženju države in samoupravnih lokalnih skupnosti
