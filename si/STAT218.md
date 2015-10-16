@@ -4,9 +4,9 @@ naziv: "Priloge k Statutu Univerze v Ljubljani"
 vrsta: "akt"
 datum: 2015-11-03
 sop: 2015-01-3271
-organ: "Univerza v Ljubljani"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-3271"
 ---
 
