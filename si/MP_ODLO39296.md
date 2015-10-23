@@ -1,0 +1,209 @@
+---
+kratica: MP_ODLO39296
+naziv: "Odlok o rebalansu proračuna Občine Dobrova - Polhov Gradec za leto 2015 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2015-10-23
+sop: 2015-01-3111
+organ: "Občina Dobrova - Polhov Gradec"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-3111"
+---
+
+# Odlok o rebalansu proračuna Občine Dobrova - Polhov Gradec za leto 2015 (ODLO)
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 76/08, 79/09, 51/10 in 40/12 – ZUJF), 29. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13 – popr. in 101/13) in 16. člena Statuta Občine Dobrova - Polhov Gradec (Uradni list RS, št. 26/12) je Občinski svet Občine Dobrova - Polhov Gradec na 8. redni seji dne 7. oktobra 2015 sprejel
+
+O D L O K
+
+o rebalansu proračuna Občine Dobrova - Polhov Gradec za leto 2015
+
+1. člen
+
+V Odloku o proračunu Občine Dobrova - Polhov Gradec za leto 2015 (Uradni list RS, št. 17/15) se drugi odstavek 2. člena spremeni tako, da se glasi:
+
+»Splošni del proračuna na ravni podskupin kontov se določa v naslednjih zneskih:
+
+v eurih
+A.
+BILANCA PRIHODKOV IN ODHODKOV
+Skupina/Podskupina kontov
+Proračun leta 2015
+I
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+7.729.789
+TEKOČI PRIHODKI (70+71)
+6.398.192
+70
+DAVČNI PRIHODKI (700+703+704+706)
+4.768.575
+700 DAVKI NA DOHODEK IN DOBIČEK
+4.276.575
+703 DAVKI NA PREMOŽENJE
+299.280
+704 DOMAČI DAVKI NA BLAGO
+IN STORITVE
+193.000
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+1.629.337
+710 UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+201.218
+711 TAKSE IN PRISTOJBINE
+4.500
+712 GLOBE IN DRUGE DENARNE KAZNI
+98.400
+713 PRIHODKI OD PRODAJE BLAGA IN STORITEV
+202.100
+714 DRUGI NEDAVČNI PRIHODKI
+1.123.119
+72
+KAPITALSKI PRIHODKI (720+722)
+221.653
+720 PRIHODKI OD PRODAJE
+OSNOVNIH SREDSTEV
+2.200
+722 PRIHODKI OD PRODAJE
+ZEMLJIŠČ IN NEOPREDMETENIH DOLGOROČNIH SREDSTEV
+219.453
+73
+PREJETE DONACIJE (730+731)
+1.000
+730 PREJETE DONACIJE IZ DOMAČIH VIROV
+1.000
+74
+TRANSFERNI PRIHODKI (740)
+1.108.944
+740 TRANSFERNI PRIH. IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+1.108.944
+II
+SKUPAJ ODHODKI (40+41+42+43+45)
+7.733.031
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+3.210.968
+400 PLAČE IN DRUGI IZDATKI
+ZAPOSLENIM
+253.603
+401 PRISPEVKI DELODAJALCEV
+ZA SOCIALNO VARNOST
+41.564
+402 IZDATKI ZA BLAGO IN STORITVE
+2.762.801
+403 PLAČILA DOMAČIH OBRESTI
+35.000
+409 REZERVE
+118.000
+41
+TEKOČI TRANSFERI (410+411+412+413)
+2.332.364
+410 SUBVENCIJE
+98.291
+411 TRANSFERI POSAMEZNIKOM
+IN GOSPODINJSTVOM
+1.615.690
+412 TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+183.533
+413 DRUGI TEKOČI DOMAČI
+TRANSFERI
+434.850
+42
+INVESTICIJSKI ODHODKI (420)
+2.024.178
+420 NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+2.024.178
+43
+INVESTICIJSKI TRANSFERI (430)
+165.521
+431 INVESTICIJSKI TRANSFER
+PRAVNIM IN FINANČNIM OSEBAM
+160.451
+432 INVESTICIJSKI TRANSFERI
+PRORAČUNSKIM UPORABNIKOM
+5.070
+III
+PRORAČUNSKI PRESEŽEK
+(PRORAČUNSKI PRIMANJKLJAJ) (I-II)
+–3.242
+B.
+RAČUN FINANČNIH TERJATEV IN NALOŽB
+IV
+PREJETA VRAČILA DANIH POSOJIL
+IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0,00
+75
+PREJETA VRAČILA DANIH POSOJIL
+IN PRODAJA KAPITALSKIH DELEŽEV
+0,00
+751 PRODAJA KAPITALSKIH DELEŽEV
+0,00
+V
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441+442)
+0,00
+44
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV
+0,00
+441 POVEČANJE KAPITALSKIH
+DELEŽEV IN FINANČNIH NALOŽB
+0,00
+VI
+PREJETA MINUS DANA POSOJILA
+IN SPREMEMBE KAPITALSKIH
+DELEŽEV (IV-V)
+0,00
+C.
+RAČUN FINANCIRANJA
+VII
+ZADOLŽEVANJE (50)
+0
+50
+ZADOLŽEVANJE
+0
+500 DOMAČE ZADOLŽEVANJE
+0
+VIII
+ODPLAČILA DOLGA (55)
+262.570
+55
+ODPLAČILA DOLGA
+262.570
+550 ODPLAČILA DOMAČEGA DOLGA
+262.570
+IX
+SPREMEMBA STANJA SREDSTEV NA RAČUNU (I+IV+VII-II-V-VIII)
+–265.812
+X
+NETO ZADOLŽEVANJE (VII-VIII)
+–262.570
+XI
+NETO FINANCIRANJE (VI+X-IX)
+3.242
+XII
+STANJE SREDSTEV NA RAČUNIH NA DAN 31. 12. PRETEKLEGA LETA
+265.812
+
+«
+
+2. člen
+
+10.
+člen Odloka o proračunu Občine Dobrova - Polhov Gradec za leto 2015 se spremeni tako, da se v celoti glasi: »Občina se za proračun leta 2015 ne bo zadolžila«.
+
+3. člen
+
+V 12. členu Odloka o proračunu Občine Dobrova - Polhov Gradec za leto 2015, se številka »216.000 EUR« nadomesti s številko »265.680 EUR«. Ostala določila ostanejo nespremenjena.
+
+4. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 007-0019/2015-1
+
+Dobrova, dne 7. oktobra 2015
+
+Župan
+
+Občine Dobrova - Polhov Gradec
+
+Franc Setnikar
+l.r.
