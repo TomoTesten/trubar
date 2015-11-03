@@ -7,6 +7,11 @@ sop: 2004-01-0074
 objava: "Uradni list RS 2/04  str. 216"
 kljucne_besede: ["poroštvo", "posojilo", "postavitev hidroelektrarne"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0074"
+spremembe:
+  - kratica: ZZFMGP-A
+    datum: 2015-11-03
+    sop: 2015-01-3255
+    naziv: "Zakon o spremembi in dopolnitvah Zakona o zavarovanju in financiranju mednarodnih gospodarskih poslov"
 ---
 
 # Zakon o zavarovanju in financiranju mednarodnih gospodarskih poslov
