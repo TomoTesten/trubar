@@ -12,6 +12,10 @@ spremembe:
     datum: 2012-07-20
     sop: 2012-01-2330
     naziv: "Zakon o spremembah in dopolnitvah Zakona o poroštvih Republike Slovenije za financiranje investicij gospodarskih družb"
+  - kratica: ZPFIGD-C
+    datum: 2015-11-03
+    sop: 2015-01-3257
+    naziv: "Zakon o dopolnitvi Zakona o poroštvih Republike Slovenije za financiranje investicij gospodarskih družb"
 ---
 
 # Zakon o poroštvih Republike Slovenije za financiranje investicij gospodarskih družb
