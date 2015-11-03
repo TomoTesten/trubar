@@ -7,6 +7,11 @@ sop: 2009-01-3839
 objava: "Uradni list RS 87/09  str. 11773"
 kljucne_besede: ["Pomurska", "gospodarska recesija", "ohranjanje delovnih mest", "ustvarjanje delovnih mest", "gospodarski razvoj"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3839"
+spremembe:
+  - kratica: ZRPPR1015-A
+    datum: 2015-11-03
+    sop: 2015-01-3256
+    naziv: "Zakon o spremembah Zakona o razvojni podpori Pomurski regiji v obdobju 2010–2015"
 ---
 
 # Zakon o razvojni podpori Pomurski regiji v obdobju 2010-2015
