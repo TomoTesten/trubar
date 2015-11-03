@@ -7,6 +7,11 @@ sop: 2011-01-0374
 objava: "Uradni list RS 10/11  str. 989"
 kljucne_besede: ["prostovoljno delo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0374"
+spremembe:
+  - kratica: ZProst-A
+    datum: 2015-11-03
+    sop: 2015-01-3259
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o prostovoljstvu"
 ---
 
 # Zakon o prostovoljstvu
