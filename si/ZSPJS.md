@@ -64,6 +64,10 @@ spremembe:
     datum: 2013-05-29
     sop: 2013-01-1753
     naziv: "Zakon o spremembi in dopolnitvah Zakona o sistemu plač v javnem sektorju"
+  - kratica: ZSPJS-T
+    datum: 2015-11-03
+    sop: 2015-01-3254
+    naziv: "Zakon o dopolnitvi Zakona o sistemu plač v javnem sektorju"
 ---
 
 # Zakon o sistemu plač v javnem sektorju
