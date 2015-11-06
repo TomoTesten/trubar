@@ -7,6 +7,11 @@ sop: 2010-01-0250
 objava: "Uradni list RS 8/10  str. 929"
 kljucne_besede: ["geografski informacijski sistem", "dostop do informacij", "zbiranje podatkov"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0250"
+spremembe:
+  - kratica: ZIPI-A
+    datum: 2015-11-06
+    sop: 2015-01-3305
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o infrastrukturi za prostorske informacije"
 ---
 
 # Zakon o infrastrukturi za prostorske informacije
