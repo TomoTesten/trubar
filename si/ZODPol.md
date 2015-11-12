@@ -12,6 +12,10 @@ spremembe:
     datum: 2014-02-11
     sop: 2014-01-0291
     naziv: "Zakon o dopolnitvah Zakona o organiziranosti in delu v policiji"
+  - kratica: ZODPol-B
+    datum: 2015-11-12
+    sop: 2015-01-3374
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o organiziranosti in delu v policiji"
 ---
 
 # Zakon o organiziranosti in delu v policiji
