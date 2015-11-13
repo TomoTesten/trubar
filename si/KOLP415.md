@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za dejavnost vodenja in kontrole zračnega prometa"
 vrsta: "akt"
 datum: 2015-12-04
 sop: 2015-01-3629
-organ: "Javno podjetje Kontrola zračnega prometa Slovenije, d.o.o"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-3629"
 ---
 
