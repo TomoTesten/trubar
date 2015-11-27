@@ -16,6 +16,10 @@ spremembe:
     datum: 2013-12-03
     sop: 2013-01-3549
     naziv: "Zakon o spremembah in dopolnitvah Zakona o socialno varstvenih prejemkih"
+  - kratica: ZSVarPre-D
+    datum: 2015-11-27
+    sop: 2015-01-3501
+    naziv: "Zakon o spremembah Zakona o socialno varstvenih prejemkih"
 ---
 
 # Zakon o socialno varstvenih prejemkih
