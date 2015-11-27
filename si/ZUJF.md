@@ -20,6 +20,10 @@ spremembe:
     datum: 2014-12-29
     sop: 2014-01-3951
     naziv: "Zakon o spremembah in dopolnitvah Zakona za uravnoteženje javnih financ"
+  - kratica: ZUJF-D
+    datum: 2015-11-27
+    sop: 2015-01-3504
+    naziv: "Zakon o spremembah Zakona za uravnoteženje javnih financ"
 ---
 
 # Zakon za uravnoteženje javnih financ
