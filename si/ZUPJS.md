@@ -20,6 +20,10 @@ spremembe:
     datum: 2015-07-31
     sop: 2015-01-2374
     naziv: "Zakon o spremembi Zakona o uveljavljanju pravic iz javnih sredstev"
+  - kratica: ZUPJS-E
+    datum: 2015-11-27
+    sop: 2015-01-3503
+    naziv: "Zakon o spremembi in dopolnitvah Zakona o uveljavljanju pravic iz javnih sredstev"
 ---
 
 # Zakon o uveljavljanju pravic iz javnih sredstev
