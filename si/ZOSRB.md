@@ -7,6 +7,11 @@ sop: 2014-01-4070
 objava: "Uradni list RS 97/14  str. 10981"
 kljucne_besede: ["banka"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-4070"
+spremembe:
+  - kratica: ZOSRB-A
+    datum: 2015-11-30
+    sop: 2015-01-3572
+    naziv: "Zakon o dopolnitvah Zakona o organu in skladu za reševanje bank"
 ---
 
 # Zakon o organu in skladu za reševanje bank
