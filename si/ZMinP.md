@@ -7,6 +7,11 @@ sop: 2010-01-0519
 objava: "Uradni list RS 13/10  str. 1457"
 kljucne_besede: ["minimalna plača"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0519"
+spremembe:
+  - kratica: ZMinP-A
+    datum: 2015-12-04
+    sop: 2015-01-3610
+    naziv: "Zakon o dopolnitvi Zakona o minimalni plači"
 ---
 
 # Zakon o minimalni plači
