@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Poslovnika Sveta za radiodifuzijo"
 vrsta: "akt"
 datum: 2015-12-04
 sop: 2015-01-3623
-organ: "Svet za radiodifuzijo Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-3623"
 ---
 
