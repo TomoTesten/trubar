@@ -24,6 +24,10 @@ spremembe:
     datum: 2004-04-20
     sop: 2004-01-1665
     naziv: "Zakon o spremembah in dopolnitvah zakona o obrambi"
+  - kratica: ZObr-E
+    datum: 2015-12-10
+    sop: 2015-01-3750
+    naziv: "Zakon o dopolnitvi Zakona o obrambi"
 ---
 
 # Zakon o obrambi
