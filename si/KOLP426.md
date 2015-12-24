@@ -4,9 +4,9 @@ naziv: "Aneks št. 1 h Kolektivni pogodbi za gozdarsko dejavnost – tarifni del
 vrsta: "akt"
 datum: 2015-12-30
 sop: 2015-01-4343
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-4343"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Aneks št. 1 h Kolektivni pogodbi za dejavnost okolja in prostora – ta
 vrsta: "akt"
 datum: 2015-12-30
 sop: 2015-01-4341
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-4341"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Tarifa o vrednosti točke in o višini deleža glede na zaračunano upor
 vrsta: "akt"
 datum: 2015-12-28
 sop: 2015-01-4139
-organ: "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-4139"
 ---
 
