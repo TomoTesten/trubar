@@ -24,6 +24,10 @@ spremembe:
     datum: 2015-11-27
     sop: 2015-01-3504
     naziv: "Zakon o spremembah Zakona za uravnoteženje javnih financ"
+  - kratica: ZUJF-E
+    datum: 2015-12-24
+    sop: 2015-01-4084
+    naziv: "Zakon o dopolnitvi Zakona za uravnoteženje javnih financ"
 ---
 
 # Zakon za uravnoteženje javnih financ
