@@ -20,6 +20,10 @@ spremembe:
     datum: 2014-04-02
     sop: 2014-01-0876
     naziv: "Zakon o spremembah in dopolnitvah Zakona o dostopu do informacij javnega značaja"
+  - kratica: ZDIJZ-E
+    datum: 2015-12-24
+    sop: 2015-01-4086
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o dostopu do informacij javnega značaja"
 ---
 
 # Zakon o dostopu do informacij javnega značaja
