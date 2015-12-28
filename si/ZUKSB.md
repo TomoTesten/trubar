@@ -7,6 +7,11 @@ sop: 2012-01-4000
 objava: "Uradni list RS 105/12  str. 11394"
 kljucne_besede: ["banka"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-4000"
+spremembe:
+  - kratica: ZUKSB-A
+    datum: 2015-12-28
+    sop: 2015-01-4130
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o ukrepih Republike Slovenije za krepitev stabilnosti bank"
 ---
 
 # Zakon o ukrepih Republike Slovenije za krepitev stabilnosti bank
