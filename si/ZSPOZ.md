@@ -24,6 +24,10 @@ spremembe:
     datum: 2011-02-11
     sop: 2011-01-0328
     naziv: "Zakon o spremembah in dopolnitvah Zakona o plačilu odškodnine žrtvam vojnega in povojnega nasilja"
+  - kratica: ZSPOZ-E
+    datum: 2015-12-28
+    sop: 2015-01-4131
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o plačilu odškodnine žrtvam vojnega in povojnega nasilja"
 ---
 
 # Zakon o Skladu za poplačilo odškodnine žrtvam vojnega in povojnega nasilja
