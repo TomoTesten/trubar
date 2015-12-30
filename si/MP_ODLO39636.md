@@ -1,0 +1,261 @@
+---
+kratica: MP_ODLO39636
+naziv: "Odlok o 3. rebalansu proračuna Občine Šmartno pri Litiji za leto 2015 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2015-12-30
+sop: 2015-01-4377
+organ: "Občina Šmartno pri Litiji"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-4377"
+---
+
+# Odlok o 3. rebalansu proračuna Občine Šmartno pri Litiji za leto 2015 (ODLO)
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – UPB2, 76/08, 79/09, 51/10, 40/12 – ZUJF in 14/15 – ZUUJFO), 29. in 40. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – UPB4 (14/13 popr.), 101/13, 55/15 – ZfisP in 96/15 – ZIPRS1617) in 16. člena Statuta Občine Šmartno pri Litiji (Uradni list RS, št. 33/03, 106/03 in 34/04) je Občinski svet Občine Šmartno pri Litiji na 2. izredni seji občinskega sveta dne 23. 12. 2015 sprejel
+
+O D L O K
+
+o 3. rebalansu proračuna Občine Šmartno pri Litiji za leto 2015
+
+1. člen
+
+2. člen Odloka o proračunu Občine Šmartno pri Litiji za leto 2015 (Uradni list RS, št. 98/14, 8/15 in 74/15) se spremeni tako, da se glasi:
+
+»V splošnem delu proračuna so prikazani prejemki in izdatki po ekonomski klasifikaciji do ravni podkontov.
+
+Splošni del proračuna se na ravni podskupin kontov določa v naslednjih zneskih:
+
+Konto
+Splošni del proračuna Občine Šmartno pri Litiji za leto 2015
+3. rebalans 2015
+(v EUR)
+A. BILANCA PRIHODKOV IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+5.243.140
+TEKOČI PRIHODKI (70+71)
+4.210.860
+70
+DAVČNI PRIHODKI (700+703+704+706)
+3.417.226
+700
+DAVKI NA DOHODEK IN DOBIČEK
+2.989.876
+703
+DAVKI NA PREMOŽENJE
+296.350
+704
+DOMAČI DAVKI NA BLAGO
+IN STORITVE
+131.000
+706
+DRUGI DAVKI
+0
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+793.634
+710
+UDELEŽBA NA DOBIČKU
+IN DOHODKI OD PREMOŽENJA
+483.497
+711
+TAKSE IN PRISTOJBINE
+2.500
+712
+DENARNE KAZNI
+5.500
+713
+PRIHODKI OD PRODAJE BLAGA
+IN STORITEV
+137
+714
+DRUGI NEDAVČNI PRIHODKI
+302.000
+72
+KAPITALSKI PRIHODKI (720+721+722)
+76.600
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+42.900
+721
+PRIHODKI OD PRODAJE ZALOG
+0
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+33.700
+73
+PREJETE DONACIJE (730+731)
+0
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+0
+731
+PREJETE DONACIJE IZ TUJINE
+0
+74
+TRANSFERNI PRIHODKI (740+741)
+955.679
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+564.530
+741
+PREJETA SREDSTVA IZ SREDSTEV PRORAČUNA EU
+391.150
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE (787)
+0
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ
+0
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+5.347.759
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+1.855.547
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+204.126
+401
+PRISPEVKI DELODAJALCEV
+ZA SOCIALNO VARNOST
+29.608
+402
+IZDATKI ZA BLAGO IN STORITVE
+1.480.937
+403
+PLAČILA DOMAČIH OBRESTI
+108.500
+409
+REZERVE
+32.376
+41
+TEKOČI TRANSFERI (410+411+412+413+414)
+1.871.317
+410
+SUBVENCIJE
+12.200
+411
+TRANSFERI POSAMEZNIKOM
+IN GOSPODINJSTVOM
+1.240.798
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+128.024
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+490.295
+414
+TEKOČI TRANSFERI V TUJINO
+0
+42
+INVESTICIJSKI ODHODKI (420)
+1.503.711
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+1.503.711
+43
+INVESTICIJSKI TRANSFERI (431+432)
+117.184
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZIČNIM OSEBAM
+63.001
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+54.183
+III.
+PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I. – II.)
+(SKUPAJ PRIHODKI MINUS
+SKUPAJ ODHODKI)
+–104.620
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (75)
+3.000
+75
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+3.000
+750
+PREJETA VRAČILA DANIH POSOJIL
+0
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+3.000
+V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (44)
+0
+44
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441+442+443)
+0
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN NALOŽB
+0
+442
+PORABA SREDSTEV KUPNIN
+IZ NASLOVA PRIVATIZACIJE
+0
+443
+POVEČANJE NAMENSKEGA PREMOŽENJA V JAVNIH SKLADIH IN DRUGIH PRAVNIH OSEBAH JAVNEGA PRAVA, KI IMAJO PREMOŽENJE V SVOJI LASTI
+0
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV. – V.)
+3.000
+C. RAČUN FINANCIRANJA
+VII.
+ZADOLŽEVANJE (50)
+0
+50
+ZADOLŽEVANJE (500)
+0
+500
+DOMAČE ZADOLŽEVANJE
+0
+VIII.
+ODPLAČILA DOLGA (55)
+210.325
+55
+ODPLAČILA DOLGA (550)
+210.325
+550
+ODPLAČILA DOMAČEGA DOLGA
+210.325
+IX.
+POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (I.+IV.+VII.-II.-V.-VIII.)
+–311.945
+X.
+NETO ZADOLŽEVANJE (VII.-VIII.)
+–210.325
+XI.
+NETO FINANCIRANJE (VI.+X.-IX.)
+104.620
+XII.
+STANJE SREDSTEV NA RAČUNIH OB KONCU PRETEKLEGA LETA
+312.069
+
+Posebni del proračuna sestavljajo finančni načrti neposrednih uporabnikov, ki so razdeljeni na naslednje programske dele: področja proračunske porabe, glavne programe in podprograme, predpisane s programsko klasifikacijo izdatkov občinskih proračunov. Podprogram je razdeljen na proračunske postavke, te pa na podkonte, določene s predpisanim kontnim načrtom.
+
+Posebni del proračuna do ravni proračunskih postavk – podkontov in načrt razvojnih programov sta prilogi k temu odloku in se objavita na spletni strani Občine Šmartno pri Litiji.
+
+Načrt razvojnih programov sestavljajo projekti.«
+
+2. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 400-008/2014
+
+Šmartno pri Litiji, dne 23. decembra 2015
+
+Župan
+
+Občine Šmartno pri Litiji
+
+Rajko Meserko
+l.r.
