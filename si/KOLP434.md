@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za dejavnost zasebnega varovanja"
 vrsta: "akt"
 datum: 2016-01-28
 sop: 2016-01-0205
-organ: "Zbornica za razvoj slovenskega zasebnega varovanja"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-0205"
 ---
 

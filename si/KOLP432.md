@@ -4,9 +4,9 @@ naziv: "Aneks h Kolektivni pogodbi za cestni potniški promet Slovenije za leto 
 vrsta: "akt"
 datum: 2016-01-22
 sop: 2016-01-0177
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-0177"
 ---
 

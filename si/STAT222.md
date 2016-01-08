@@ -4,9 +4,9 @@ naziv: "Dopolnitev Statuta Univerze v Ljubljani"
 vrsta: "akt"
 datum: 2016-01-22
 sop: 2016-01-0176
-organ: "Univerza v Ljubljani"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-0176"
 ---
 
