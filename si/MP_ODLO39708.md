@@ -1,0 +1,790 @@
+---
+kratica: MP_ODLO39708
+naziv: "Odlok o kategorizaciji občinskih cest v Občini Tišina (ODLO)"
+vrsta: "občinski odlok"
+datum: 2016-01-22
+sop: 2016-01-0194
+organ: "Občina Tišina"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-0194"
+---
+
+# Odlok o kategorizaciji občinskih cest v Občini Tišina (ODLO)
+
+Na podlagi tretjega odstavka 39. člena Zakona o cestah (ZCes-1) (Uradni list RS, št. 109/10), 4. in 11. člena Uredbe o merilih za kategorizacijo javnih cest (Uradni list RS, št. 49/97 in 113/09) in 16. člena Statuta Občine Tišina (Uradni list RS, št. 41/15) je Občinski svet Občine Tišina na 12. redni seji dne 19. 1. 2016 sprejel
+
+O D L O K
+
+o kategorizaciji občinskih cest v Občini Tišina
+
+1.
+člen
+
+Ta odlok določa občinske ceste po njihovih kategorijah in namenu uporabe glede na vrsto cestnega prometa, ki ga prevzemajo.
+
+2. člen
+
+Občinske ceste se kategorizirajo na lokalne ceste (s skrajšano oznako: LC) in javne poti (s skrajšano oznako: JP).
+
+3. člen
+
+Lokalne ceste so:
+
+– lokalne ceste, s skrajšano oznako LC, namenjene povezovanju naselij v občini z naselji v sosednjih občinah, naselij ali delov naselij v občini med seboj in so pomembne za navezovanje prometa na ceste enake ali višje kategorije.
+
+Javne poti so:
+
+– Javne poti, s skrajšano oznako JP, namenjene povezovanju naselij ali delov naselij v občini in ne izpolnjujejo predpisanih meril za lokalne ceste ali so namenjene samo določenim vrstam udeležencev v prometu (krajevne ceste in poti, vaške ceste in poti, poti za pešce, kolesarje jezdece, gonjače in podobne).
+
+Cestišče je površina, omejena z mejo cestnega sveta, ki jo lahko uporabljajo vsi ali pa le določeni udeleženci v prometu pod pogoji, določenimi z zakonom ali drugimi predpisi.
+
+Vozišče je del cestišča, ki ima eno ali več smernih vozišč, namenjeno je prometu vozil, pod pogoji, določenimi s predpisi o pravilih cestnega prometa, pa tudi pešcem in drugim udeležencem cestnega prometa, če s prometno signalizacijo ni določeno drugače.
+
+4. člen
+
+Lokalne ceste (LC) med naselji v Občini Tišina in ceste med naselji v Občini Tišina in naselji v sosednjih občinah so:
+
+Št. ceste
+Št. odseka
+Začetek odseka
+OPIS POTEKA CESTE
+Konec odseka
+Dolžina ceste v občini
+LC 030030
+30031
+RII 440
+KRAJNA (H. ŠT. 48) – LOVSKI DOM RANKOVCI
+RII 441
+1848
+LC 030040
+30041
+RII 440
+M. PETROVCI (H. ŠT. 16) – TIŠINA (GRAD)
+RI 235
+3120
+LC 030050
+30051
+LC 030071
+GRADIŠČE – OD H. ŠT. 22 DO RIBIŠKI DOM
+RIBIŠKI DOM
+2899
+LC 030070
+30071
+RI 235
+TROPOVCI (KOLESARSKA UL. 1) – GRADIŠČE – M. ČRNCI (POKOPALIŠČE)
+RI 235
+3082
+LC 269010
+269011
+LC 050014
+KUPŠINCI (H. ŠT. 73) – VANČA VAS (H. ŠT. 46)
+RI 235
+1052
+LC 269010
+269012
+RII 441
+VANČA VAS (H. ŠT. 45) – TIŠINA (H. ŠT. 1)
+RI 235
+2367
+LC 269010
+269013
+RI 235
+TIŠINA TRIKOTNIK (H. ŠT. 5)
+LC 269012
+44
+LC 269110
+269112
+LC 050014
+KROG-M. ČRNCI (POKOPALIŠČE)
+RI 235
+477
+LC 269130
+269131
+LC 030071
+M. ČRNCI (H. ŠT. 15)-SATAHOVCI
+RI 235
+641
+LC 269140
+269142
+RI 235
+KUPŠINCI (GRAMOZNICA)-GRADIŠČE (H. ŠT. 2)
+LC 269142
+795
+SKUPNA DOLŽINA LC
+16325
+
+5. člen
+
+Javne poti (JP) v naseljih in med naselji so:
+
+Št. ceste
+Št. odseka
+Začetek odseka
+OPIS POTEKA CESTE
+Konec odseka
+Dolžina ceste v občini
+JP 530370
+530371
+RII 440
+KRAJNA – DO H. ŠT. 74
+H. ŠT. 74
+117
+JP 530380
+530381
+RII 440
+KRAJNA – OD H. ŠT. 60 DO 50 (OB DOBLU)
+RII 441
+376
+JP 530390
+530391
+RII 440
+KRAJNA – DO H. ŠT. 73
+H. ŠT. 78
+230
+JP 530400
+530401
+RII 441
+RANKOVCI – OD H. ŠT. 10 DO 34A
+JP 530455
+299
+JP 530400
+530402
+JP 530401
+RANKOVCI – DO H. ŠT. 30
+H. ŠT. 30
+50
+JP 530410
+530411
+LC 269011
+BOREJCI – OD H. ŠT. 2 DO 47
+H. ŠT. 47
+611
+JP 530420
+530421
+LC 269011
+BOREJCI – OD H. ŠT. 42 DO 13 (KROG)
+LC 269011
+724
+JP 530430
+530431
+JP 530421
+BOREJCI – OD H. ŠT. 33 DO IGRIŠČA
+IGRIŠČE
+304
+JP 530430
+530432
+JP 530431
+BOREJCI – DO H. ŠT. 34
+H. ŠT. 34
+68
+JP 530440
+530441
+RII 441
+GEDEROVCI – POKOPALIŠČE – SODIŠINCI
+JP 530481
+935
+JP 530450
+530451
+LC 269012
+TIŠINA – VANČA VAS (MIMO MLAKE)
+JP 530455
+432
+JP 530450
+530452
+JP 530452
+RANKOVCI – OD H. ŠT. 44 DO 45
+H. ŠT. 45
+117
+JP 530450
+530453
+JP 530455
+RANKOVCI – OD H. ŠT. 51 DO 50
+H. ŠT. 68
+342
+JP 530450
+530454
+JP 530455
+RANKOVCI – OD H. ŠT. 41 DO 48
+JP 530453
+127
+JP 530450
+530455
+RI 235
+TIŠINA (OD H. ŠT. 21) – RANKOVCI (H. ŠT. 37)
+RII 441
+2468
+JP 530460
+530461
+RI 235
+TROPOVCI – PIRŠČEK (OD H. ŠT. 3 PROTI POSESTVU)
+JP 530462
+351
+JP 530460
+530462
+LC 269142
+TROPOVCI – VZHODNO OD POSESTVA
+POSESTVO
+539
+JP 530470
+530471
+RII 440
+KRAJNA – POKOPALIŠČE
+POKOPALIŠČE
+119
+JP 530480
+530481
+RII 440
+SODIŠINCI (OD H. ŠT. 5 MINO 45) – M. PETROVCI
+LC 030041
+2157
+JP 530480
+530482
+JP 530481
+SODIŠINCI – OD H. ŠT. 45 DO POKOPALIŠČA
+POKOPALIŠČE
+595
+JP 530490
+530491
+JP 530492
+SODIŠINCI – OD H. ŠT. 50 DO 52
+H. ŠT. 52
+142
+JP 530490
+530492
+JP 530481
+SODIŠINCI – OD H. ŠT. 57 DO H. ŠT. 46
+RII 440
+436
+JP 530500
+530501
+LC 030031
+KRAJNA – OD H. ŠT. 46 DO 54
+H. ŠT. 54
+238
+JP 530510
+530511
+LC 030031
+KRAJNA – OD H. ŠT. 22 DO 24 (do igrišča)
+IGRIŠČE
+378
+JP 530520
+530521
+LC 030031
+KRAJNA – OD H. ŠT. 25 DO 26
+H. ŠT. 26
+110
+JP 530530
+530531
+LC 269011
+VANČA VAS – NASELJE ROMOV – OD POKOPALIŠČA MIMO 58 DO 66
+LC 269011
+431
+JP 530530
+530532
+LC 269011
+VANČA VAS – NASELJE ROMOV – OD H. ŠT. 68A DO 75A
+JP 530531
+128
+JP 530540
+530541
+LC 269012
+VANČA VAS – OD H. ŠT. 12 PROTI CESTI GEDEROVCI – MS
+RII 441
+540
+JP 530550
+530551
+LC 269012
+VANČA VAS – OD H. ŠT. 1C DO 2
+H. ŠT. 2
+227
+JP 530560
+530561
+RII 440
+GEDEROVCI – OD H. ŠT. 11 DO 17A (BENCINSKEGA SERVISA)
+RII 441
+597
+JP 530560
+530562
+JP 530561
+GEDEROVCI – OD H. ŠT. 12A DO11G
+H. ŠT. 11G
+166
+JP 530570
+530571
+RII 440
+GEDEROVCI – OD H. ŠT. 28C DO 27
+H. ŠT. 27
+223
+JP 530570
+530572
+RII 440
+GEDEROVCI – OD H. ŠT. 25 DO ŠOLE
+JP 530561
+315
+JP 530580
+530581
+RII 441
+RANKOVCI – OD H. ŠT. 21B DO 29A
+H. ŠT. 29A
+400
+JP 530590
+530591
+RII 441
+RANKOVCI – OD H. ŠT. 19 DO 22A
+H. ŠT. 22A
+170
+JP 530600
+530601
+RII 441
+RANKOVCI – OD H. ŠT. 5 DO IGRIŠČA
+IGRIŠČE
+200
+JP 530610
+530611
+RII 440
+SODIŠINCI – OD H. ŠT. 15 DO 27
+H. ŠT. 27
+232
+JP 530620
+530621
+RII 440
+SODIŠINCI – OD H. ŠT. 3 DO 28
+H. ŠT. 30
+312
+JP 530630
+530631
+RII 440
+M. PETROVCI – OD H. ŠT. 10A DO CVSP
+CVSP
+598
+JP 530640
+530641
+RI 235
+M. PETROVCI – PETANJCI (DO H. ŠT. 47)
+LC 030041
+1524
+JP 530650
+530651
+RII 440
+PETANJCI – DO H. ŠT. 128
+H. ŠT. 128
+116
+JP 530660
+530661
+RI 235
+GORNJI PETANJCI – OD H. ŠT. 98C DO 114D
+F.ŠT. 114D
+293
+JP 530670
+530671
+RI 235
+G. PETANJCI – OD H. ŠT. 103 DO 112 (PRI MOSTU)
+H. ŠT. 112
+438
+JP 530670
+530672
+JP 530661
+PETANJCI – OD H. ŠT. 103 DO 116C
+JP 530671
+71
+JP 530680
+530681
+RI 235
+PETANJCI – OD H. ŠT. 79 DO 79A
+H. ŠT. 79A
+694
+JP 530690
+530691
+RI 235
+SR. PETANJCI – OD H. ŠT. 67B DO 67E
+H. ŠT. 67E
+98
+JP 530700
+530701
+JP 530701
+SR. PETANJCI – OD H. ŠT. 64 DO IGRIŠČA
+POMURKA
+282
+JP 530700
+530702
+RI 235
+SR. PETANJCI – OD H. ŠT. 50 DO 59
+H. ŠT. 59
+569
+JP 530710
+530711
+RI 235
+DOL. PETANJCI – SPOMINSKI PARK
+H. ŠT. 19A
+157
+JP 530720
+530721
+JP 530722
+DOL. PETANJCI – OD H. ŠT. 6B DO 1A
+H. ŠT. 1
+247
+JP 530720
+530722
+JP 530731
+TIŠINA – H. ŠT. 66 DO PETANJCI 6B
+JP 530721
+43
+JP 530720
+530723
+JP 530722
+TIŠINA – OD H. ŠT. 6B DO 6A
+H. ŠT. 6A
+54
+JP 530730
+530731
+RI 235
+TIŠINA – OD H. ŠT. 65 DO 73
+H. ŠT. 73
+417
+JP 530740
+530741
+RI 235
+TIŠINA – OD H. ŠT. 46 DO DREVESNICE
+DREVESNICA
+271
+JP 530750
+530751
+LC 030041
+TIŠINA – OD H. ŠT. 31B DO 31D
+H. ŠT. 31D
+49
+JP 530760
+530761
+RI 235
+TIŠINA – OD H. ŠT. 23 DO 27A
+H. ŠT. 27A
+261
+JP 530780
+530781
+LC 269012
+TROPOVCI – ŠOLSKA ULICA 16-20
+H. ŠT. 20
+86
+JP 530780
+530782
+LC 269012
+TIŠINA POKOPALIŠČE (VANČA VAS, RANKOVCI, TROPOVCI)
+POKOPALIŠČE
+57
+JP 530790
+530791
+LC 269012
+TROPOVCI – ŠOLSKA ULICA 8 DO JORDAN 54
+RI 235
+169
+JP 530800
+530801
+LC 269131
+M. ČRNCI – OD H. ŠT. 65A DO 65B
+H. ŠT. 65B
+89
+JP 530810
+530811
+LC 269131
+M. ČRNCI – OD H. ŠT. 3 DO 1- DO VODOVODA
+VODOVOD M. ČRNCI
+403
+JP 530820
+530821
+LC 269131
+M. ČRNCI – OD H. ŠT. 55 DO 60
+H. ŠT. 60
+222
+JP 530820
+530822
+LC 269131
+M. ČRNCI – OD H. ŠT. 42 DO 82
+H. ŠT. 54
+728
+JP 530820
+530823
+JP530822
+M. ČRNCI – OD H. ŠT. 54J DO ČISTILNE
+ČISTILNA M. ČRNCI
+852
+JP 530820
+530824
+JP530822
+M. ČRNCI – OD H. ŠT. 46 DO 45A
+JP530842
+71
+JP 530830
+530831
+JP530842
+M. ČRNCI – OD H. ŠT. 33B DO 27I
+H. ŠT. 27I
+450
+JP 530840
+530841
+JP530842
+M. ČRNCI – OD H. ŠT. 33B DO 33H
+H. ŠT. 33E
+190
+JP 530840
+530842
+LC 269131
+M. ČRNCI – OD H. ŠT. 45J DO 45E
+H. ŠT. 45E
+364
+JP 530840
+530843
+JP530842
+M. ČRNCI – OD H. ŠT. 45C DO 45H
+H. ŠT. 45H
+37
+JP 530840
+530844
+JP530842
+M. ČRNCI – OD H. ŠT. 45D DO 45G
+H. ŠT. 45G
+37
+JP 530840
+530845
+JP530841
+M. ČRNCI – OD H. ŠT. 33G DO 33V
+H. ŠT. 33V
+179
+JP 530840
+530846
+JP530845
+M. ČRNCI – HIŠA 33O
+H. ŠT. 33O
+37
+JP 530840
+530847
+JP530845
+M. ČRNCI – HIŠA 33I
+H. ŠT. 33I
+39
+JP 530840
+530848
+JP530841
+M. ČRNCI – HIŠA 33J
+H. ŠT. 33J
+29
+JP 530850
+530851
+JP 530855
+GRADIŠČE – OD H. ŠT. 54 DO 50
+H. ŠT. 50
+129
+JP 530850
+530852
+LC 030051
+GRADIŠČE – OD H. ŠT. 66 DO 55A
+JP 530855
+132
+JP 530850
+530853
+JP 530855
+GRADIŠČE – OD H. ŠT. 62A DO 60
+H. ŠT. 60
+151
+JP 530850
+530854
+LC 030051
+GRADIŠČE – DO H. ŠT. 68A
+KMEČKI TURIZEM
+100
+JP 530850
+530855
+LC 030071
+GRADIŠČE – OD H. ŠT. 35 DO 64
+LC 030051
+410
+JP 530860
+530861
+JP 530862
+GRADIŠČE – OD H. ŠT. 38 DO 27
+H. ŠT. 27
+112
+JP 530860
+530862
+LC 030071
+GRADIŠČE – OD H. ŠT. 1 DO 37A
+RI 235
+337
+JP 530860
+530863
+LC 030071
+GRADIŠČE TRIKOTNIK – H. ŠT. 41
+JP 530862
+34
+JP 530870
+530871
+JP 530872
+GRADIŠČE – OD H. ŠT. 14A DO 14D
+H. ŠT. 13
+75
+JP 530870
+530872
+LC 030071
+GRADIŠČE – OD H. ŠT. 16 PROTI POKOPALIŠČU
+RI 235
+412
+JP 530880
+530881
+LC 030071
+GRADIŠČE – OD H. ŠT. 30 DO 26
+H. ŠT. 26
+101
+JP 530880
+530882
+LC 030051
+GRADIŠČE – OD H. ŠT. 71 DO 72
+H. ŠT. 72
+63
+JP 530890
+530891
+LC 030071
+TROPOVCI – OD KOLESARSKA UL. 105 DO 97
+H. ŠT. 103
+147
+JP 530900
+530901
+LC 030071
+TROPOVCI – OD KOLESARSKA UL. 69 DO 63
+H. ŠT. 63
+114
+JP 530910
+530911
+LC 030071
+TROPOVCI – OD VGD DO IGRIŠČA
+IGRIŠČE
+344
+JP 530910
+530912
+LC 030071
+TROPOVCI – MIMO VAŠKO GASILSKEGA DOMA
+JP 530911
+77
+JP 530920
+530921
+LC 030071
+TROPOVCI – KOLESARSKA UL 46-44
+H. ŠT. 45
+83
+JP 530930
+530931
+LC 030071
+TROPOVCI – KOLESARSKA UL. 24 – K MOKOŠU 7
+H. ŠT. 7
+98
+JP 530940
+530941
+RI 235
+TROPOVCI – KRIŽNA 2-17
+JP 530943
+137
+JP 530940
+530942
+JP 530943
+TROPOVCI – KRIŽNA 10-16
+H. ŠT. 16
+104
+JP 530940
+530943
+LC 030071
+TROPOVCI – KOLESARSKA 17-KRIŽNA 13
+H. ŠT. 13
+272
+JP 530950
+530951
+JP 530943
+TROPOVCI – OBRTNIŠKA 1-15
+H. ŠT. 15
+184
+JP 530960
+530961
+RI 235
+TROPOVCI – MEJNA 1-19
+H. ŠT. 19
+198
+JP 530960
+530962
+JP 530961
+TROPOVCI – MEJNA 11-9
+H. ŠT. 9
+39
+JP 530960
+530963
+JP 530961
+TIŠINA 3B-3F
+H. ŠT. 3F
+57
+JP 530970
+530971
+LC 269012
+TIŠINA – OD H. ŠT. 4A DO 6D
+H. ŠT. 6A
+104
+JP 530980
+530981
+LC 030071
+GRADIŠČE – OD H. ŠT. 47 DO 49D
+H. ŠT. 49D
+172
+JP 531010
+531011
+LC 030041
+M. PETROVCI – OD H. ŠT. 22A DO 17
+H. ŠT. 22A
+290
+JP 531020
+531021
+RI 235
+PETANJCI – OD H. ŠT. 18A DO 18B
+H. ŠT. 18B
+56
+JP 531030
+531031
+RI 235
+PETANJCI 12A
+H. ŠT. 12A
+43
+JP 770010
+770011
+JP 530531
+VANČA VAS – NASELJE ROMOV (H. ŠT. 58A) – KUPŠINCI
+JP 770011
+46
+JP 833030
+833031
+LC 030031
+KRAJNA (H. ŠT. 1) – PUŽEVCI
+2269
+SKUPNA DOLŽINA JP
+33315
+
+6. člen
+
+H kategorizaciji občinskih cest, določene s tem odlokom, je bilo v skladu z določili Uredbe o merilih za kategorizacijo javnih cest (Uradni list RS, št. 49/97 in 113/09) pridobljeno pozitivno mnenje Direkcije Republike Slovenije za ceste št. 37162-3/2015-89(507) z dne 20. 4. 2015.
+
+7. člen
+
+Z dnem uveljavitve tega odloka preneha veljati Odlok o kategorizaciji občinskih cest v Občini Tišina (Uradni list RS, št. 99/99 in 120/07).
+
+8. člen
+
+Priloga tega odloka je grafični prikaz občinskih javnih cest v Občini Tišina.
+
+9. člen
+
+Ta odlok začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 007-0001/2016-1
+
+Tišina, dne 20. januarja 2016
+
+Župan
+
+Občine Tišina
+
+Franc Horvat
+l.r.
