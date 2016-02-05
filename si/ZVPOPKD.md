@@ -7,6 +7,11 @@ sop: 2003-01-5393
 objava: "Uradni list RS 126/03  str. 17293"
 kljucne_besede: ["kulturna dediščina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5393"
+spremembe:
+  - kratica: ZVPOPKD-A
+    datum: 2016-02-05
+    sop: 2016-01-0281
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o vračanju protipravno odstranjenih predmetov kulturne dediščine"
 ---
 
 # Zakon o vračanju protipravno odstranjenih predmetov kulturne dediščine
