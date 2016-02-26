@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Statuta Fakultete za informacijske študije v No
 vrsta: "akt"
 datum: 2016-02-29
 sop: 2016-01-0558
-organ: "Fakulteta za informacijske študije Novo mesto"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-0558"
 ---
 
