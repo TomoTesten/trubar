@@ -16,6 +16,10 @@ spremembe:
     datum: 2012-06-22
     sop: 2012-01-1962
     naziv: "Zakon o spremembi Zakona o medijih"
+  - kratica: ZMed-C
+    datum: 2016-03-25
+    sop: 2016-01-0831
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o medijih"
 ---
 
 # Zakon o medijih
