@@ -4,9 +4,9 @@ naziv: "Resolucija o nacionalnem planu zdravstvenega varstva 2016–2025 »Skupa
 vrsta: "akt"
 datum: 2016-04-06
 sop: 2016-01-0999
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-0999"
 ---
 

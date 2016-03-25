@@ -4,9 +4,9 @@ naziv: "Aneks številka 1 h Kolektivni pogodbi dejavnosti trgovine Slovenije"
 vrsta: "akt"
 datum: 2016-04-01
 sop: 2016-01-0927
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-0927"
 ---
 

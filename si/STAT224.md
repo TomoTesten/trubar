@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Statuta Združenja mestnih občin Slovenije"
 vrsta: "akt"
 datum: 2016-04-15
 sop: 2016-01-1110
-organ: "Združenje mestnih občin Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-1110"
 ---
 
