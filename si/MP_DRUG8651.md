@@ -1,0 +1,235 @@
+---
+kratica: MP_DRUG8651
+naziv: "Zaključni račun proračuna Občine Rogašovci za leto 2015 (DRUG)"
+vrsta: "akt"
+datum: 2016-04-08
+sop: 2016-01-1056
+organ: "Občina Rogašovci"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-1056"
+---
+
+# Zaključni račun proračuna Občine Rogašovci za leto 2015 (DRUG)
+
+Na podlagi tretjega odstavka 98. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13 – popr., 101/13 in 55/15 – ZFisP) in 31. člena Statuta Občine Rogašovci (Uradni list RS, št. 66/99, 76/02, 29/03, 88/05, 79/06 in 69/10) je Občinski svet Občine Rogašovci na 10. seji dne 31. 3. 2016 sprejel
+
+Z A K L J U Č N I  R A Č U N
+
+proračuna Občine Rogašovci za leto 2015
+
+1. člen
+
+Sprejme se zaključni račun proračuna Občine Rogašovci za leto 2015.
+
+2. člen
+
+Zaključni račun proračuna Občine Rogašovci za leto 2015 sestavljajo splošni in posebni del. V splošnem delu je podan podrobnejši prikaz predvidenih in realiziranih prihodkov in odhodkov oziroma prejemkov in izdatkov iz bilance prihodkov in odhodkov, računa finančnih terjatev in naložb ter računa financiranja, v posebnem delu pa prikaz predvidenih in realiziranih odhodkov in drugih izdatkov proračuna Občine Rogašovci za leto 2015. Sestavni del zaključnega računa je tudi načrt razvojnih programov, v katerem je podan prikaz podatkov o načrtovanih vrednostih posameznih projektov ter o njihovi realizaciji v letu 2015.
+
+3. člen
+
+Prihodki in odhodki proračuna Občine Rogašovci za leto 2015 so razvidni iz splošnega dela proračuna na ravni podskupin kontov in so doseženi v naslednjih zneskih:
+
+OPIS
+Realizacija 2015 v EUR
+A. BILANCA PRIHODKOV IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+2.704.626,13
+TEKOČI PRIHODKI (70+71)
+2.107.782,99
+70
+DAVČNI PRIHODKI (700+703+704+706)
+1.869.296,21
+700
+DAVKI NA DOHODEK IN DOBIČEK
+1.778.372,00
+703
+DAVKI NA PREMOŽENJE
+15.829,92
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+74.858,40
+706
+DRUGI DAVKI
+235,89
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+238.486,78
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+41.144,12
+711
+TAKSE IN PRISTOJBINE
+1.694,90
+712
+GLOBE IN DRUGE DENARNE KAZNI
+622,50
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+6.576,66
+714
+DRUGI NEDAVČNI PRIHODKI
+188.448,60
+72
+KAPITALSKI PRIHODKI (720+721+722)
+46.946,92
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+14.261,82
+721
+PRIHODKI OD PRODAJE ZALOG
+0,00
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+32.685,10
+73
+PREJETE DONACIJE (730+731)
+0,00
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+0,00
+731
+PREJETE DONACIJE IZ TUJINE
+0,00
+74
+TRANSFERNI PRIHODKI (740+741)
+549.896,22
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+446.087,22
+741
+PREJETA SREDSTVA IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+103.809,00
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE (786+787)
+0,00
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+0,00
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ
+0,00
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+2.284.009,55
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+758.721,51
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+228.705,72
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+35.671,47
+402
+IZDATKI ZA BLAGO IN STORITVE
+483.038,86
+403
+PLAČILA DOMAČIH OBRESTI
+1.356,34
+409
+REZERVE
+9.949,12
+41
+TEKOČI TRANSFERI (410+411+412+413)
+1.025.631,29
+410
+SUBVENCIJE
+5.381,31
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+697.099,09
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+104.904,13
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+218.246,76
+414
+TEKOČI TRANSFERI V TUJINO
+0,00
+42
+INVESTICIJSKI ODHODKI (420)
+391.561,47
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+391.561,47
+43
+INVESTICIJSKI TRANSFERI (431+432)
+108.095,28
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ. OSEBAM
+78.871,78
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+29.223,50
+III.
+PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.-II.)
+420.616,58
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+75 IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0,00
+750
+PREJETA VRAČILA DANIH POSOJIL
+0,00
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0,00
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0,00
+44 V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+0,00
+440
+DANA POSOJILA
+0,00
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+0,00
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.-V.)
+0,00
+C. RAČUN FINANCIRANJA
+50 VII.
+ZADOLŽEVANJE (500)
+0,00
+500
+DOMAČE ZADOLŽEVANJE
+0,00
+55 VIII.
+ODPLAČILA DOLGA (550)
+110.000,00
+550
+ODPLAČILA DOMAČEGA DOLGA
+110.000,00
+IX.
+POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (III.+VI.+X.)=(I.+IV.+VII.)-(II.+V.+VIII.)
+310.616,58
+X.
+NETO ZADOLŽEVANJE (VII.-VIII.)
+–110.000,00
+XI.
+NETO FINANCIRANJE (VI.+X.-IX.)
+–420.616,58
+STANJE SREDSTEV NA RAČUNIH DNE 31. 12. 2014
+9009
+Splošni sklad z drugo
+97.769,31
+
+4. člen
+
+Zaključni račun proračuna Občine Rogašovci za leto 2015 se objavi v Uradnem listu Republike Slovenije.
+
+Št. 410-3/2016-14
+
+Rogašovci, dne 31. marca 2016
+
+Župan
+
+Občine Rogašovci
+
+Edvard Mihalič
+l.r.
