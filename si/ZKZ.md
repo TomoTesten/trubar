@@ -24,6 +24,10 @@ spremembe:
     datum: 2012-07-31
     sop: 2012-01-2468
     naziv: "Zakon o spremembah in dopolnitvi Zakona o kmetijskih zemljiščih"
+  - kratica: ZKZ-E
+    datum: 2016-04-11
+    sop: 2016-01-1075
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o kmetijskih zemljiščih"
 ---
 
 # Zakon o kmetijskih zemljiščih
