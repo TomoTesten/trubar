@@ -2,11 +2,11 @@
 kratica: ODRE731
 naziv: "Odredba o pristojbini za uporabo objektov za varnost plovbe na pomorskih plovnih poteh, ki jo morajo plačati čolni in jahte"
 vrsta: "odredba"
-datum: 1999-12-03
+datum: 2016-05-09
 sop: 1999-01-4620
-organ: "Ministrstvo za promet in zveze"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4620"
 ---
 
