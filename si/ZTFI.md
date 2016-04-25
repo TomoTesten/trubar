@@ -20,6 +20,10 @@ spremembe:
     datum: 2012-07-20
     sop: 2012-01-2328
     naziv: "Zakon o spremembah in dopolnitvah Zakona o trgu finančnih instrumentov"
+  - kratica: ZTFI-F
+    datum: 2016-04-25
+    sop: 2016-01-1265
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o trgu finančnih instrumentov"
 ---
 
 # Zakon o trgu finančnih instrumentov
