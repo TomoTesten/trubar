@@ -7,6 +7,11 @@ sop: 2010-01-5476
 objava: "Uradni list RS 106/10  str. 16421"
 kljucne_besede: ["holding", "železniški promet", "prevozno podjetje", "uporabnina za infrastrukturo", "prevozne zmogljivosti"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-5476"
+spremembe:
+  - kratica: ZDSŽ-B
+    datum: 2016-04-25
+    sop: 2016-01-1266
+    naziv: "Zakon o spremembi Zakona o družbi Slovenske železnice"
 ---
 
 # Zakon o družbi Slovenske železnice
