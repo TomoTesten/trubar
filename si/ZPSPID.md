@@ -20,6 +20,10 @@ spremembe:
     datum: 2009-10-30
     sop: 2009-01-3794
     naziv: "Zakon o spremembi Zakona o Prvem pokojninskem skladu Republike Slovenije in preoblikovanju pooblaščenih investicijskih družb"
+  - kratica: ZPSPID-D
+    datum: 2016-05-06
+    sop: 2016-01-1363
+    naziv: "Zakon o spremembi Zakona o Prvem pokojninskem skladu Republike Slovenije in preoblikovanju pooblaščenih investicijskih družb"
 ---
 
 # Zakon o Prvem pokojninskem skladu Republike Slovenije in preoblikovanju pooblaščenih investicijskih družb
