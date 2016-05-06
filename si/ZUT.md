@@ -36,6 +36,10 @@ spremembe:
     datum: 2010-11-05
     sop: 2010-01-4709
     naziv: "Zakon o spremembah in dopolnitvah Zakona o upravnih taksah"
+  - kratica: ZUT-I
+    datum: 2016-05-06
+    sop: 2016-01-1366
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o upravnih taksah"
 ---
 
 # Zakon o upravnih taksah
