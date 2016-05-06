@@ -28,6 +28,10 @@ spremembe:
     datum: 2015-04-03
     sop: 2015-01-0898
     naziv: "Zakon o spremembah in dopolnitvah Zakona o delovnem času in obveznih počitkih mobilnih delavcev ter o zapisovalni opremi v cestnih prevozih"
+  - kratica: ZDCOPMD-G
+    datum: 2016-05-06
+    sop: 2016-01-1365
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o delovnem času in obveznih počitkih mobilnih delavcev ter o zapisovalni opremi v cestnih prevozih"
 ---
 
 # Zakon o delovnem času in obveznih počitkih mobilnih delavcev ter o zapisovalni opremi v cestnih prevozih
