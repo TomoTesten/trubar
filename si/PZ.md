@@ -24,6 +24,10 @@ spremembe:
     datum: 2010-11-05
     sop: 2010-01-4707
     naziv: "Zakon o spremembah in dopolnitvah Pomorskega zakonika"
+  - kratica: PZ-F
+    datum: 2016-05-09
+    sop: 2016-01-1428
+    naziv: "Zakon o spremembah in dopolnitvah Pomorskega zakonika"
 ---
 
 # Pomorski zakonik
