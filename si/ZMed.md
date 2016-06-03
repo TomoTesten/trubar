@@ -20,6 +20,10 @@ spremembe:
     datum: 2016-03-25
     sop: 2016-01-0831
     naziv: "Zakon o spremembah in dopolnitvah Zakona o medijih"
+  - kratica: ZMed-D
+    datum: 2016-06-03
+    sop: 2016-01-1705
+    naziv: "Zakon o spremembi Zakona o medijih"
 ---
 
 # Zakon o medijih
