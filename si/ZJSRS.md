@@ -32,6 +32,10 @@ spremembe:
     datum: 2012-12-28
     sop: 2012-01-4070
     naziv: "Zakon o spremembah in dopolnitvah Zakona o Javnem jamstvenem in preživninskem skladu Republike Slovenije"
+  - kratica: ZJSRS-G
+    datum: 2016-06-03
+    sop: 2016-01-1706
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o Javnem jamstvenem, preživninskem in invalidskem skladu Republike Slovenije"
 ---
 
 # Zakon o Jamstvenem skladu Republike Slovenije
