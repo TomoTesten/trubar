@@ -28,6 +28,10 @@ spremembe:
     datum: 2012-07-27
     sop: 2012-01-2404
     naziv: "Zakon o dopolnitvi Zakona o socialnem varstvu"
+  - kratica: ZSV-F
+    datum: 2016-06-03
+    sop: 2016-01-1707
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o socialnem varstvu"
 ---
 
 # Zakon o socialnem varstvu
