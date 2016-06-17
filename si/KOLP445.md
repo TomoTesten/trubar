@@ -4,9 +4,9 @@ naziv: "Tarifna priloga h Kolektivni pogodbi dejavnosti bančništva Slovenije z
 vrsta: "akt"
 datum: 2016-06-30
 sop: 2016-01-2004
-organ: "Sindikat bančništva Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-2004"
 ---
 
