@@ -44,6 +44,10 @@ spremembe:
     datum: 2015-06-30
     sop: 2015-01-1934
     naziv: "Zakon o spremembi Zakona o spremembah in dopolnitvah Zakona o organizaciji in financiranju vzgoje in izobraževanja"
+  - kratica: ZOFVI-K
+    datum: 2016-06-30
+    sop: 2016-01-1999
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o organizaciji in financiranju vzgoje in izobraževanja"
 ---
 
 # Zakon o organizaciji in financiranju vzgoje in izobraževanja
