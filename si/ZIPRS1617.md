@@ -7,6 +7,11 @@ sop: 2015-01-3772
 objava: "Uradni list RS 96/15  str. 11905"
 kljucne_besede: ["državni proračun", "izvrševanje proračuna"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-3772"
+spremembe:
+  - kratica: ZIPRS1617-A
+    datum: 2016-06-30
+    sop: 2016-01-1995
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2016 in 2017"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2016 in 2017
