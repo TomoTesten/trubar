@@ -20,6 +20,10 @@ spremembe:
     datum: 2014-12-30
     sop: 2014-01-4071
     naziv: "Zakon o dopolnitvah Zakona o odvetništvu"
+  - kratica: ZOdv-E
+    datum: 2016-06-30
+    sop: 2016-01-1997
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o odvetništvu"
 ---
 
 # Zakon o odvetništvu
