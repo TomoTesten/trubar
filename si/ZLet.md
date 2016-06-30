@@ -20,6 +20,10 @@ spremembe:
     datum: 2010-07-30
     sop: 2010-01-3389
     naziv: "Zakon o spremembah in dopolnitvah Zakona o letalstvu"
+  - kratica: ZLet-D
+    datum: 2016-06-30
+    sop: 2016-01-1998
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o letalstvu"
 ---
 
 # Zakon o letalstvu
