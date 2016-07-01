@@ -24,6 +24,10 @@ spremembe:
     datum: 2015-10-30
     sop: 2015-01-3190
     naziv: "Zakon o spremembah Zakona o plačilnih storitvah in sistemih"
+  - kratica: ZPlaSS-E
+    datum: 2016-07-01
+    sop: 2016-01-2036
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o plačilnih storitvah in sistemih"
 ---
 
 # Zakon o plačilnih storitvah in sistemih
