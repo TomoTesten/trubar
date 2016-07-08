@@ -4,9 +4,9 @@ naziv: "Aneks h Kolektivni pogodbi dejavnosti gostinstva in turizma Slovenije"
 vrsta: "akt"
 datum: 2016-07-08
 sop: 2016-01-2126
-organ: "Turistično gostinska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-2126"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o zavrnitvi pobud za začetek postopka za oceno ustavnosti zakonov
 vrsta: "akt"
 datum: 2016-07-29
 sop: 2016-01-2310
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-2310"
 ---
 
