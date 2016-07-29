@@ -7,6 +7,11 @@ sop: 2012-01-3525
 objava: "Uradni list RS 90/12  str. 9267"
 kljucne_besede: ["javno naročilo", "obrambna politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-3525"
+spremembe:
+  - kratica: ZJNPOV-A
+    datum: 2016-07-29
+    sop: 2016-01-2297
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o javnem naročanju na področju obrambe in varnosti"
 ---
 
 # Zakon o javnem naročanju na področju obrambe in varnosti
