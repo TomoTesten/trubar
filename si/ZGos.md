@@ -20,6 +20,10 @@ spremembe:
     datum: 2007-07-06
     sop: 2007-01-3211
     naziv: "Zakon o spremembah in dopolnitvah zakona o gostinstvu"
+  - kratica: ZGos-D
+    datum: 2016-07-29
+    sop: 2016-01-2298
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o gostinstvu"
 ---
 
 # Zakon o gostinstvu
