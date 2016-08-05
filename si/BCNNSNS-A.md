@@ -1,0 +1,38 @@
+---
+kratica: BCNNSNS-A
+naziv: "Akt o dopolnitvi Akta o nasledstvu sporazumov nekdanje Jugoslavije z Ljudsko republiko Kitajsko, ki naj ostanejo v veljavi med Republiko Slovenijo in Ljudsko republiko Kitajsko"
+vrsta: "Sprejet zakon"
+datum: 2016-08-05
+sop: 2016-02-0039
+objava: "Uradni list RS MP 12/16  str. 328"
+kljucne_besede: []
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-02-0039"
+---
+
+# Akt o dopolnitvi Akta o nasledstvu sporazumov nekdanje Jugoslavije z Ljudsko republiko Kitajsko, ki naj ostanejo v veljavi med Republiko Slovenijo in Ljudsko republiko Kitajsko
+
+A K T
+
+O DOPOLNITVI AKTA O NASLEDSTVU SPORAZUMOV NEKDANJE JUGOSLAVIJE Z LJUDSKO REPUBLIKO KITAJSKO, KI NAJ OSTANEJO V VELJAVI MED REPUBLIKO SLOVENIJO IN LJUDSKO REPUBLIKO KITAJSKO (BCNNSNS-A)
+
+1.
+člen
+
+Akt o nasledstvu sporazumov nekdanje Jugoslavije z Ljudsko republiko Kitajsko, ki naj ostanejo v veljavi med Republiko Slovenijo in Ljudsko republiko Kitajsko (Uradni list RS – Mednarodne pogodbe, št. 20/97), se dopolni tako, da se doda točko 6, ki se glasi: »Sporazum med vlado Socialistične federativne republike Jugoslavije in vlado Ljudske republike Kitajske o civilnem zračnem prometu, Beograd, 12. 4. 1972, objavljen v Uradnem listu SFRJ – Mednarodne pogodbe, št. 51/73.«
+
+Ta akt začne veljati naslednji dan po objavi v Uradnem listu RS – Mednarodne pogodbe.
+
+Št. 007-09/16-4/9
+
+Ljubljana, dne 14. julija 2016
+
+EPA 1322-VII
+
+Državni zbor
+
+Republike Slovenije
+
+dr. Milan Brglez
+l.r.
+
+Predsednik
