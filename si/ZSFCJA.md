@@ -7,6 +7,11 @@ sop: 2010-01-4217
 objava: "Uradni list RS 77/10  str. 11291"
 kljucne_besede: ["pravna oseba", "javni interes", "filmska produkcija", "avdiovizualna produkcija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-4217"
+spremembe:
+  - kratica: ZSFCJA-A
+    datum: 2016-10-07
+    sop: 2016-01-2688
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o Slovenskem filmskem centru, javni agenciji Republike Slovenije"
 ---
 
 # Zakon o Slovenskem filmskem centru, javni agenciji Republike Slovenije
