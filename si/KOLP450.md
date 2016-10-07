@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za kmetijstvo in živilsko industrijo Slovenije"
 vrsta: "akt"
 datum: 2016-10-28
 sop: 2016-01-2869
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-2869"
 ---
 

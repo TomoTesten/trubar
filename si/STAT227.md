@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Statuta Univerze na Primorskem"
 vrsta: "akt"
 datum: 2016-10-07
 sop: 2016-01-2697
-organ: "Univerza na Primorskem"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-2697"
 ---
 
