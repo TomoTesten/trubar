@@ -4,9 +4,9 @@ naziv: "Avtentična razlaga četrtega odstavka 48. člena Zakona o nematerializi
 vrsta: "akt"
 datum: 2016-11-25
 sop: 2016-01-3134
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-3134"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za poštne in kurirske dejavnosti"
 vrsta: "akt"
 datum: 2016-11-25
 sop: 2016-01-3150
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-3150"
 ---
 

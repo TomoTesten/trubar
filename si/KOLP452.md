@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za lesarstvo"
 vrsta: "akt"
 datum: 2016-10-28
 sop: 2016-01-2871
-organ: "Gospodarska zbornica Slovenije - Združenje lesne in pohištvene industrije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-2871"
 ---
 
