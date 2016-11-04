@@ -12,6 +12,10 @@ spremembe:
     datum: 2015-04-03
     sop: 2015-01-0897
     naziv: "Zakon o spremembah in dopolnitvah Zakona o motornih vozilih"
+  - kratica: ZMV-B
+    datum: 2016-11-04
+    sop: 2016-01-2927
+    naziv: "Zakon o dopolnitvah Zakona o motornih vozilih"
 ---
 
 # Zakon o motornih vozilih
