@@ -24,6 +24,10 @@ spremembe:
     datum: 2013-12-27
     sop: 2013-01-4130
     naziv: "Zakon o spremembah in dopolnitvah Zakona o uresničevanju javnega interesa za kulturo"
+  - kratica: ZUJIK-F
+    datum: 2016-11-04
+    sop: 2016-01-2930
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o uresničevanju javnega interesa za kulturo"
 ---
 
 # Zakon o uresničevanju javnega interesa za kulturo
