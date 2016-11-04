@@ -7,6 +7,11 @@ sop: 2008-01-0487
 objava: "Uradni list RS 16/08  str. 1148"
 kljucne_besede: ["družinsko nasilje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-0487"
+spremembe:
+  - kratica: ZPND-A
+    datum: 2016-11-04
+    sop: 2016-01-2931
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o preprečevanju nasilja v družini"
 ---
 
 # Zakon o preprečevanju nasilja v družini
