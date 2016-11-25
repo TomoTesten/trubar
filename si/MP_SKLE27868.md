@@ -1,0 +1,65 @@
+---
+kratica: MP_SKLE27868
+naziv: "Sklep o določitvi ekonomske cene v Vrtcu Lavra, enota Tišina (SKLE)"
+vrsta: "občinski sklep"
+datum: 2016-12-05
+sop: 2016-01-3328
+organ: "Občina Tišina"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-3328"
+---
+
+# Sklep o določitvi ekonomske cene v Vrtcu Lavra, enota Tišina (SKLE)
+
+Na podlagi 17. člena Zakona o vrtcih (Uradni list RS, št. 100/05 uradno prečiščeno besedilo, 25/08, 98/09 – ZIUZGK, 36/10, 62/10 – ZUJPS, 94/10 – ZIU, 40/11 – ZUJPS-A in 40/12 – ZUJF, 14/15 – ZUUJFO), določil Pravilnika o plačilih staršev za programe v vrtcih (Uradni list RS, št. 129/06, 79/08, 119/08, 102/09, 62/10 – ZUPJS in 40/11), 34. člena Pravilnika o normativih in kadrovskih pogojih za opravljanje dejavnosti predšolske vzgoje (Uradni list RS, št. 75/05, 82/05, 76/08, 77/09, 102/09 in 105/10), 19. in 68. člena Pravilnika o normativih in minimalnih tehničnih pogojih za prostor in opremo vrtca (Uradni list RS, št. 73/00, 75/05, 33/08, 126/08, 47/10 in 47/13, 92/12) in 16. člena Statuta Občine Tišina (Uradni list RS, št. 41/15) je Občinski svet Občine Tišina na 18. redni seji dne 24. 11. 2016 sprejel
+
+S K L E P
+
+o določitvi ekonomske cene v Vrtcu Lavra, enota Tišina
+
+1.
+člen
+
+Cena dnevnega programa (6–9 ur) za otroka v kombiniranem oddelku starosti od 1. do 6. leta starosti znaša 370,00 EUR na otroka mesečno.
+
+2. člen
+
+Kot osnova za izračun plačila staršev za vse otroke vključene v Vrtec Lavra, enota Tišina s podeljeno koncesijo, ki imajo stalno bivališče v Občni Tišina se v skladu s Pravilnikom o plačilih staršev določi cena 312,27,00 EUR na otroka mesečno. Razliko do dejanske cene dnevnega programa iz 1. člena v višini 57,73 EUR (subvencija) bo varstvo za otroke, ki imajo stalno bivališče v Občini Tišina pokrivala Občina Tišina iz sredstev občinskega proračuna za predšolsko vzgojo.
+
+3. člen
+
+V skladu s tretjim odstavkom 34. člena Pravilnika o normativih in kadrovskih pogojih za opravljanje dejavnosti predšolske vzgoje, Občina Tišina pri izvajanju dnevnih programov v Vrtcu Lavra, enota Tišina, določa kot maksimalni normativ 2 starostno kombinirana oddelka, v prvem starostno kombiniranem oddelku je lahko vključenih največ 19 otrok, v drugem starostno kombiniranem oddelku pa je lahko vključenih največ 12 otrok.
+
+Na podlagi drugega odstavka 10. člena Pravilnika o metodologiji za oblikovanje cen programov v vrtcih, ki izvajajo javno službo (v nadaljevanju: Pravilnik o metodologiji), bo Občina Tišina Vrtcu Lavra, enota Tišina v odobrenih oddelkih zagotavljala finančna sredstva v višini cene programa brez živil za število otrok, ki predstavljajo razliko med dejanskim številom otrok v oddelku in maksimalnim normativnim številom.
+
+4. člen
+
+V skladu z drugim odstavkom 11. člena Pravilnika o metodologiji bo Občina Tišina v primeru potreb zagotavljala tudi sredstva za spremljevalce gibalno oviranih otrok.
+
+5. člen
+
+Za dneve odsotnosti otrok (ne glede na vzrok odsotnosti) se staršem od plačila odšteje sorazmerni del (glede na plačilni razred) vrednosti živil; ta mesečno znašajo 36,96 EUR na otroka.
+
+6. člen
+
+Za dneve odsotnosti v mesecu juliju in avgustu se za vsak dan odsotnosti otroka staršem odšteje celotni znesek dnevne oskrbnine. Da bi starši uveljavili navedeni odbitek, morajo odsotnost otroka pisno napovedati vsaj 7 dni pred nastopom. Finančna sredstva za pokrivanje stroškov v času odsotnosti otrok zagotavlja Občina Tišina na podlagi izdanih računov Vrtca, v obračunu se obvezno zniža cena za stroške neporabljenih živil.
+
+7. člen
+
+Z uveljavitvijo tega sklepa preneha veljati sklep Občinskega sveta Občine Tišina o določitvi ekonomske cene v vrtcu Lavra, enota Tišina (Uradni list RS, št. 81/09, 51/10, 104/10, 9/12, 76/12, 30/13, 15/14, 68/15, 4/16).
+
+8. člen
+
+Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se od 1. 1. 2017 dalje.
+
+Št. 007-0045/2016-1
+
+Tišina, dne 25. novembra 2016
+
+Župan
+
+Občine Tišina
+
+Franc Horvat
+l.r.
