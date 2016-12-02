@@ -16,6 +16,10 @@ spremembe:
     datum: 2015-11-12
     sop: 2015-01-3374
     naziv: "Zakon o spremembi in dopolnitvi Zakona o organiziranosti in delu v policiji"
+  - kratica: ZODPol-C
+    datum: 2016-12-02
+    sop: 2016-01-3231
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o organiziranosti in delu v policiji"
 ---
 
 # Zakon o organiziranosti in delu v policiji
