@@ -7,6 +7,11 @@ sop: 2004-02-0039
 objava: "Uradni list RS MP 13/04  str. 3841"
 kljucne_besede: ["ratifikacija sporazuma", "mednarodna konvencija", "Indija", "dvojna obdavčitev", "davčna utaja", "davek na dohodek", "protokol"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-02-0039"
+spremembe:
+  - kratica: BINIDO-A
+    datum: 2016-12-02
+    sop: 2016-02-0065
+    naziv: "Zakon o ratifikaciji Protokola o spremembah Konvencije med Vlado Republike Slovenije in Vlado Republike Indije o izogibanju dvojnega obdavčevanja in preprečevanju davčnih utaj v zvezi z davki od dohodka, ki je bila podpisana v Ljubljani 13. januarja 2003"
 ---
 
 # Zakon o ratifikaciji Konvencije med Vlado Republike Slovenije in Vlado Republike Indije o izogibanju dvojnega obdavčevanja in preprečevanju davčnih utaj v zvezi z davki od dohodka s protokolom
