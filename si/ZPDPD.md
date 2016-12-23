@@ -20,6 +20,10 @@ spremembe:
     datum: 2015-03-20
     sop: 2015-01-0711
     naziv: "Zakon o spremembah in dopolnitvah Zakona o praznikih in dela prostih dnevih v Republiki Sloveniji"
+  - kratica: ZPDPD-D
+    datum: 2016-12-23
+    sop: 2016-01-3568
+    naziv: "Zakon o spremembi Zakona o praznikih in dela prostih dnevih v Republiki Sloveniji"
 ---
 
 # Zakon o praznikih in dela prostih dnevih v Republiki Sloveniji
