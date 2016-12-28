@@ -24,6 +24,10 @@ spremembe:
     datum: 2015-11-03
     sop: 2015-01-3260
     naziv: "Zakon o spremembah Zakona o varnosti v železniškem prometu"
+  - kratica: ZVZelP-F
+    datum: 2016-12-28
+    sop: 2016-01-3690
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o varnosti v železniškem prometu"
 ---
 
 # Zakon o varnosti v železniškem prometu
