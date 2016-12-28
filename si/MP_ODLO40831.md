@@ -1,0 +1,808 @@
+---
+kratica: MP_ODLO40831
+naziv: "Odlok o spremembah in dopolnitvah Odloka o kategorizaciji občinskih cest v Občini Štore (ODLO)"
+vrsta: "občinski odlok"
+datum: 2016-12-28
+sop: 2016-01-3761
+organ: "Občina Štore"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-3761"
+---
+
+# Odlok o spremembah in dopolnitvah Odloka o kategorizaciji občinskih cest v Občini Štore (ODLO)
+
+Na podlagi 39. člena Zakona o cestah (Uradni list RS, št. 109/10, 48/12, 46/12) in 16. člena Statuta Občine Štore (Uradni list RS, št. 1/12 in 38/14) je Občinski svet Občine Štore na 14. seji dne 14. 12. 2016 sprejel
+
+O D L O K
+
+o spremembah in dopolnitvah Odloka o kategorizaciji občinskih cest v Občini Štore
+
+1. člen
+
+V 4. členu Odloka o kategorizaciji občinskih cest v Občini Štore (Uradni list RS, št. 101/09) se izbriše:
+
+ZP. ŠT.
+CESTA
+ODSEK
+ZAČETEK
+POTEK
+KONEC
+DOLŽ
+V (m)
+NAMEN UPORABE
+DOLŽINA
+V SOS. OBČINAH
+10
+412120
+C G2-107
+PROŽINSKA VAS-OGOREVC
+C 396170
+2.389
+412121
+C G2-107
+PROŽINSKA VAS-OGOREVC
+C 396170
+2.389
+vsa vozila
+
+spremeni dolžina:
+
+ZP. ŠT.
+CESTA
+ODSEK
+ZAČETEK
+POTEK
+KONEC
+DOLŽ
+V (m)
+NAMEN UPORABE
+DOLŽINA
+V SOS. OBČINAH
+7
+412080
+C R3-744
+Z.D.-LIPA-CESTA NA PEČ.
+C 036040
+788
+412081
+C R3-744
+Z.D.-LIPA-CESTA NA PEČ.
+C 036040
+788
+vsa vozila
+
+in doda:
+
+ZP. ŠT.
+CESTA
+ODSEK
+ZAČETEK
+POTEK
+KONEC
+DOLŽ
+V (m)
+NAMEN UPORABE
+DOLŽINA
+V SOS. OBČINAH
+10
+412120
+C G2-107
+PROŽINSKA VAS-OGOREVC
+C 396170
+2.552
+412121
+C G2-107
+PROŽINSKA VAS-OGOREVC
+C 396170
+2.389
+vsa vozila
+412122
+O 412121
+PROŽINSKA VAS-OGOREVC-LAPORJE
+C 412130
+134
+vsa vozila
+412123
+O 412121
+PROŽINSKA VAS-OGOREVC-LAPORJE
+O 412122
+29
+vsa vozila
+
+Spremeni se tudi podatek o skupni dolžini: 27.927 m.
+
+2. člen
+
+V 6. členu Odloka o kategorizaciji občinskih cest v Občini Štore (Uradni list RS, št. 101/09) se izbriše:
+
+ZP. ŠT.
+CESTA
+ODSEK
+ZAČETEK
+POTEK
+KONEC
+DOLŽ
+V (m)
+NAMEN UPORABE
+DOLŽINA
+V SOS. OBČINAH
+1
+912020
+C G2-107
+CESTA XIV. DIVIZIJE
+C G2-107
+165
+912021
+C G2-107
+CESTA XIV. DIVIZIJE
+C G2-107
+165
+vsa vozila
+3
+912330
+C 412080
+ULICA CVETKE JERIN
+Z HŠ 5
+275
+912331
+C 412080
+ULICA CVETKE JERIN
+Z HŠ 5
+275
+vsa vozila
+4
+912340
+C 412080
+VRTNA ULICA
+Z HŠ 40
+315
+912341
+C 412080
+VRTNA ULICA
+Z HŠ 40
+315
+vsa vozila
+5
+912350
+C 412080
+RAZGLEDNA ULICA
+Z HŠ 24
+1.139
+912351
+C 412080
+RAZGLEDNA ULICA
+Z HŠ 24
+789
+vsa vozila
+912352
+O 912351
+RAZGLEDNA UL.-DRAME
+Z HŠ 23
+350
+vsa vozila
+10
+912430
+C G2-107
+OBRTNIŠKA CESTA
+Z HŠ 8
+304
+912431
+C G2-107
+OBRTNIŠKA CESTA
+Z HŠ 8
+304
+vsa vozila
+11
+912440
+C 412010
+OB VOGLAJNI
+Z ŽEL.PR
+122
+912441
+C 412010
+OB VOGLAJNI
+Z ŽEL.PR
+122
+vsa vozila
+13
+912570
+C 412080
+RAZGLEDNA UL.-DOM.POLAK
+Z HŠ 10
+242
+912571
+C 412080
+RAZGLEDNA UL.-DOM.POLAK
+Z HŠ 10
+242
+vsa vozila
+
+in doda:
+
+ZP. ŠT.
+CESTA
+ODSEK
+ZAČETEK
+POTEK
+KONEC
+DOLŽ
+V (m)
+NAMEN UPORABE
+DOLŽINA
+V SOS. OBČINAH
+1
+912020
+C G2-107
+CESTA XIV. DIVIZIJE
+C G2-107
+305
+912021
+C G2-107
+CESTA XIV. DIVIZIJE
+C G2-107
+165
+vsa vozila
+912022
+O 912021
+CESTA XIV. DIVIZIJE
+C G2-107
+76
+vsa vozila
+912023
+O 912021
+CESTA XIV. DIVIZIJE
+Z HŠ 21
+64
+vsa vozila
+3
+912330
+C 412080
+ULICA CVETKE JERIN
+Z HŠ 5
+332
+912331
+C 412080
+ULICA CVETKE JERIN
+Z HŠ 5
+265
+vsa vozila
+912332
+O 912331
+ULICA CVETKE JERIN
+Z HŠ 5
+67
+vsa vozila
+4
+912340
+C 412080
+VRTNA ULICA
+Z HŠ 40
+555
+912341
+C 412080
+VRTNA ULICA
+Z HŠ 40
+315
+vsa vozila
+912342
+O 912341
+VRTNA ULICA
+Z HŠ 20
+101
+vsa vozila
+912343
+O 912342
+VRTNA ULICA
+Z HŠ 8
+52
+vsa vozila
+912344
+O 912341
+VRTNA ULICA
+Z HŠ 28
+87
+vsa vozila
+
+ZP. ŠT.
+CESTA
+ODSEK
+ZAČETEK
+POTEK
+KONEC
+DOLŽ
+V (m)
+NAMEN UPORABE
+DOLŽINA
+V SOS. OBČINAH
+5
+912350
+C 412080
+RAZGLEDNA ULICA
+Z HŠ 24
+1.315
+912351
+C 412080
+RAZGLEDNA ULICA
+Z HŠ 24
+789
+vsa vozila
+912352
+O 912351
+RAZGLEDNA UL.-DRAME
+Z HŠ 23
+350
+vsa vozila
+912353
+O 912351
+RAZGLEDNA ULICA
+Z HŠ 26
+176
+vsa vozila
+10
+912430
+C G2-107
+OBRTNIŠKA CESTA
+Z HŠ 8
+407
+912431
+C G2-107
+OBRTNIŠKA CESTA – LEVO
+Z HŠ 8
+304
+vsa vozila
+912432
+O 912431
+OBRTNIŠKA CESTA – DESNO
+Zp1112/2
+103
+vsa vozila
+13
+912570
+C 412080
+RAZGLEDNA UL.-DOM.POLAK
+Z HŠ 10
+282
+912571
+C 412080
+RAZGLEDNA UL.-DOM.POLAK
+Z HŠ 10
+242
+vsa vozila
+912572
+O 912571
+ULICA KARLA VOVKA
+Z HŠ 10
+40
+vsa vozila
+14
+912600
+C R3-744
+LIPA – ŠTORE STEEL
+Z P.1110
+307
+912601
+C R3-744
+LIPA – ŠTORE STEEL
+Z P.1110
+307
+vsa vozila
+15
+912610
+C 412080
+UDARNIŠKA ULICA
+Z HŠ 10
+143
+912611
+C 412080
+UDARNIŠKA ULICA
+Z HŠ 10
+143
+vsa vozila
+16
+912620
+C 412010
+ŽELEZARSKA CESTA
+Z HŠ 5
+101
+912621
+C 412010
+ŽELEZARSKA CESTA
+Z HŠ 5
+101
+vsa vozila
+
+Spremeni se tudi podatek o skupni dolžini 5.551 m.
+
+3. člen
+
+V 7. členu Odloka o kategorizaciji občinskih cest v Občini Štore (Uradni list RS, št. 101/09) se izbriše:
+
+ZP. ŠT.
+CESTA
+ODSEK
+ZAČETEK
+POTEK
+KONEC
+DOLŽ
+V (m)
+NAMEN UPORABE
+DOLŽINA
+V SOS. OBČINAH
+3
+912030
+C 396170
+NASELJE OGOREVC
+Z HŠ 10
+476
+912031
+C 396170
+NASELJE OGOREVC
+Z HŠ 10
+476
+vsa vozila
+6
+912060
+C 412020
+MOST-DRAGA-KRIŽ.JEL.
+Z HŠ 34
+1.397
+912061
+C 412020
+MOST-DRAGA-KRIŽ.JEL.
+Z HŠ 34
+961
+vsa vozila
+912062
+O 912061
+JAZBEC-ZAGORC
+O 912061
+211
+vsa vozila
+912063
+O 912061
+BLOKI-DRAGA 4D
+Z HŠ 4D
+225
+vsa vozila
+10
+912110
+C R3-744
+OCVIRK-KRIŽ.MAJERANC
+Z HŠ 22
+1.708
+912111
+C R3-744
+OCVIRK-KRIŽ.MAJERANC
+Z HŠ 22
+1.025
+vsa vozila
+912112
+O 912111
+KVASEK – VERHOVŠEK
+Z HŠ14A
+270
+vsa vozila
+912113
+O 912111
+OCVIRK-KRIŽ.MAJERANC
+Z HŠ 29
+413
+vsa vozila
+25
+912260
+C R3-744
+CESTA MIMO DOM.FRECE
+C R3-744
+622
+912261
+C R3-744
+CESTA MIMO DOM.FRECE
+C R3-744
+622
+vsa vozila
+28
+912290
+C 036040
+KRIŽ.-PEČOVJE 11
+Z HŠ 11
+445
+912291
+C 036040
+KRIŽ.-PEČOVJE 11
+Z HŠ 11
+403
+vsa vozila
+912292
+O 912291
+PEČOVJE-ODSEK
+Z HŠ 9A
+42
+vsa vozila
+32
+912380
+C 412020
+OB ŽEKOVSKEM POTOKU
+Z HŠ 24
+3.185
+912381
+C 412020
+OB ŽEKOVSKEM POTOKU
+Z HŠ 24
+2.187
+vsa vozila
+912382
+O 912381
+PODBREŠKI-STRNAD
+Z HŠ 77
+492
+vsa vozila
+912383
+O 912381
+NOVAK – KLINAR
+Z HŠ 93
+423
+vsa vozila
+912384
+O 912381
+OD ŽEKOVSKE POTOKU
+Z HŠ 90
+83
+vsa vozila
+
+se spremeni:
+
+ZP. ŠT.
+CESTA
+ODSEK
+ZAČETEK
+POTEK
+KONEC
+DOLŽ
+V (m)
+NAMEN UPORABE
+DOLŽINA
+V SOS. OBČINAH
+8
+912090
+C 912080
+ŠPULCER-DOM.GAJŠEK
+Z HŠ 194
+575
+912091
+C 912080
+ŠPULCER-DOM.GAJŠEK
+Z HŠ 194
+385
+vsa vozila
+912092
+O 912091
+KOMPOLE – IGRIŠČE
+Z IGRIS
+190
+vsa vozila
+12
+912130
+C R3-744
+ŠENTJANŽ-DOM.MASTNAK
+Z HŠ 40
+575
+912131
+C R3-744
+ŠENTJANŽ-DOM.MASTNAK
+Z HŠ 40
+575
+vsa vozila
+24
+912250
+C 412060
+NAD STRELIŠČEM
+Z HŠ 2
+394
+912251
+C 412060
+NAD STRELIŠČEM
+Z HŠ 2
+394
+vsa vozila
+
+in doda:
+
+ZP. ŠT.
+CESTA
+ODSEK
+ZAČETEK
+POTEK
+KONEC
+DOLŽ
+V (m)
+NAMEN UPORABE
+DOLŽINA
+V SOS. OBČINAH
+3
+912030
+C 396170
+NASELJE OGOREVC
+Z HŠ 10
+623
+912031
+C 396170
+NASELJE OGOREVC
+Z HŠ 10
+476
+vsa vozila
+912032
+O 912031
+NASELJE OGOREVC 2
+Z HŠ 2
+147
+vsa vozila
+6
+912060
+C 412020
+MOST-DRAGA-KRIŽ.JEL.
+Z HŠ 34
+1.464
+912061
+C 412020
+MOST-DRAGA-KRIŽ.JEL.
+Z HŠ 34
+961
+vsa vozila
+912062
+O 912061
+JAZBEC-ZAGORC
+O 912061
+211
+vsa vozila
+912063
+O 912061
+BLOKI-DRAGA 4D
+Z HŠ 4D
+225
+vsa vozila
+912064
+O 912061
+DRAGA 25
+Z HŠ 25
+67
+vsa vozila
+10
+912110
+C R3-744
+OCVIRK-KRIŽ.MAJERANC
+Z HŠ 22
+1.867
+912111
+C R3-744
+OCVIRK-KRIŽ.MAJERANC
+Z HŠ 22
+1.025
+vsa vozila
+912112
+O 912111
+KVASEK – VERHOVŠEK
+Z HŠ14A
+270
+vsa vozila
+912113
+O 912111
+OCVIRK-KRIŽ.MAJERANC
+Z HŠ 29
+413
+vsa vozila
+912114
+O 912113
+KOMPOLE
+Z HŠ 23
+159
+vsa vozila
+ZP. ŠT.
+CESTA
+ODSEK
+ZAČETEK
+POTEK
+KONEC
+DOLŽ V (m)
+NAMEN UPORABE
+DOLŽINA
+V SOS. OBČINAH
+25
+912260
+C R3-744
+CESTA MIMO DOM.FRECE
+C R3-744
+772
+912261
+C R3-744
+CESTA MIMO DOM.FRECE
+C R3-744
+622
+vsa vozila
+912262
+O 912261
+ŠENTJANŽ
+Z p.976/1
+150
+vsa vozila
+28
+912290
+C 036040
+KRIŽ.-PEČOVJE 11
+Z HŠ 11
+604
+912291
+C 036040
+KRIŽ.-PEČOVJE 11
+Z HŠ 11
+403
+vsa vozila
+912292
+O 912291
+PEČOVJE-ODSEK
+Z HŠ 9A
+42
+vsa vozila
+912293
+O 912291
+PEČOVJE
+Z P.663/4
+159
+vsa vozila
+32
+912380
+C 412020
+OB ŽEKOVSKEM POTOKU
+Z HŠ 24
+3.439
+912381
+C 412020
+OB ŽEKOVSKEM POTOKU
+Z HŠ 24
+2.187
+vsa vozila
+912382
+O 912381
+PODBREŠKI-STRNAD
+Z HŠ 77
+492
+vsa vozila
+912383
+O 912381
+NOVAK – KLINAR
+Z HŠ 93
+423
+vsa vozila
+912384
+O 912381
+OD ŽEKOVSKE POTOKU
+Z HŠ 90
+83
+vsa vozila
+912385
+O 912381
+KOMPOLE
+Z HŠ 80
+254
+vsa vozila
+
+Spremeni se tudi podatek o skupni dolžini 41.282 m.
+
+4. člen
+
+K spremembi kategorizacije občinskih cest, določene s tem odlokom, je bilo v skladu z določbo 17. člena Uredbe o merilih za kategorizacijo javnih cest (Uradni list RS, št. 48/97) pridobljeno pozitivno mnenje Direkcije Republike Slovenije za infrastrukturo št. 37162-3/2016-196 (507) z dne 21. 11. 2016.
+
+5. člen
+
+Ta odlok začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 371-0024/2016-2
+
+Štore, dne 14. decembra 2016
+
+Župan
+
+Občine Štore
+
+Miran Jurkošek
+l.r.
