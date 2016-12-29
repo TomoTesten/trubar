@@ -1,0 +1,73 @@
+---
+kratica: MP_SKLE28145
+naziv: "Sklep o indeksiranju obračunskih stroškov za izračun komunalnega prispevka (SKLE)"
+vrsta: "občinski sklep"
+datum: 2017-02-03
+sop: 2017-01-0263
+organ: "Občina Šmarje pri Jelšah"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-0263"
+---
+
+# Sklep o indeksiranju obračunskih stroškov za izračun komunalnega prispevka (SKLE)
+
+Na podlagi 6. člena Odloka o programu opremljanja stavbnih zemljišč za obstoječo komunalno opremo za območje Občine Šmarje pri Jelšah (Uradni list RS, št. 34/09) in 30. člena Statuta Občine Šmarje pri Jelšah (Uradni list RS, št. 35/10 in 59/15) je župan Občine Šmarje pri Jelšah dne 30. 1. 2017 sprejel
+
+S K L E P
+
+o indeksiranju obračunskih stroškov za izračun komunalnega prispevka
+
+1. člen
+
+Ta sklep določa vrednost obračunskih stroškov na enoto mere iz 5. člena Odloka o programu opremljanja stavbnih zemljišč za obstoječo komunalno opremo za območje Občine Šmarje pri Jelšah (Uradni list RS, št. 34/09).
+
+2. člen
+
+Obračunski stroški posameznih vrst komunalne opreme na ustreznem obračunskem območju, preračunani na enoto mere, tj. na m
+2
+parcele (Cp
+(i)
+) in na m
+2
+neto tlorisne površine objekta (Ct
+(i)
+), znašajo:
+
+Vrsta komunalne opreme
+Obračunski stroški na enoto (€)
+parcele Cp
+(i)
+NTP Ct
+(i)
+Občinske ceste – naselje Šmarje
+5,44
+16,29
+Občinske ceste – izven naselja Šmarje
+5,16
+13,94
+Vodovodno omrežje
+2,53
+6,89
+Kanalizacijsko omrežje
+1,37
+4,16
+
+in so obračunani na dan 31. 12. 2016.
+
+3. člen
+
+Z dnem uveljavitve tega Sklepa preneha veljati Sklep o indeksiranju obračunskih stroškov za izračun komunalnega prispevka (Uradni list RS, št. 17/16).
+
+Ta sklep se objavi v Uradnem listu Republike Slovenije in začne veljati naslednji dan po objavi.
+
+Št. 426-004/2017
+
+Šmarje pri Jelšah, dne 30. januarja 2017
+
+Župan
+
+Občine Šmarje pri Jelšah
+
+Stanislav Šket
+l.r.
