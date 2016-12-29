@@ -1,0 +1,233 @@
+---
+kratica: MP_ODLO40890
+naziv: "Odlok o spremembi Odloka o proračunu Občine Velika Polana za leto 2016 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2016-12-29
+sop: 2016-01-3916
+organ: "Občina Velika Polana"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-3916"
+---
+
+# Odlok o spremembi Odloka o proračunu Občine Velika Polana za leto 2016 (ODLO)
+
+Na podlagi 29. člena Zakon o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 76/08, 79/09, 51/10 in 40/12 – ZUJF), 29. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13 – popr. in 101/13) in 88., 89. in 90. člena Statuta Občine Velika Polana (Uradni list RS, št. 44/99, 52/03 in 89/13) je Občinski svet Občine Velika Polana na 11. redni seji dne 20. 12. 2016 sprejel
+
+O D L O K
+
+o spremembi Odloka o proračunu Občine Velika Polana za leto 2016
+
+1. člen
+
+V Odloku o proračunu Občine Velika Polana za leto 2016 (objavljenem v Uradnem listu RS, št. 26/16, dne 8. 4. 2016) se v 2. členu spremeni odstavek ter se glasi:
+
+»Proračun Občine Velika Polana za leto 2016 se določa v naslednjih zneskih:
+
+v EUR
+A. BILANCA PRIHODKOV IN ODHODKOV
+I. SKUPAJ PRIHODKI (70+71+72+73+74+78)
+1.141.392,84
+TEKOČI PRIHODKI (70+71)
+1.040.794,69
+70
+DAVČNI PRIHODKI (700+703+704+706)
+823.976,83
+700
+DAVKI NA DOHODEK IN DOBIČEK
+759.722,00
+703
+DAVKI NA PREMOŽENJE
+58.436,20
+704
+DOMAČI DAVKI NA BLAGO
+IN STORITVE
+5.318,63
+706
+DRUGI DAVKI
+500,00
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+216.817,86
+710
+UDELEŽBA NA DOBIČKU
+IN DOHODKI OD PREMOŽENJA
+98.839,46
+711
+TAKSE IN PRISTOJBINE
+700,00
+712
+DENARNE KAZNI
+250,00
+713
+PRIHODKI OD PRODAJE BLAGA
+IN STORITEV
+61.380,11
+714
+DRUGI NEDAVČNI PRIHODKI
+55.648,29
+72
+KAPITALSKI PRIHODKI (720+722)
+4.317,72
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+0
+721
+PRIHODKI OD PRODAJE ZALOG
+0
+722
+PRIHODKI OD PROD. ZEMLJ.
+IN NEMATER. DOLG. SRED.
+4.317,72
+73
+PREJETE DONACIJE (730+731)
+0
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+0
+731
+PREJETE DONACIJE IZ TUJINE
+0
+74
+TRANSFERNI PRIHODKI
+96.280,43
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINAN. INSTITUCIJ
+96.280,43
+741
+PREJETA SREDSTVA
+IZ DRŽAVNEGA PRORAČUNA EU
+0
+II. SKUPAJ ODHODKI (40+41+42+43)
+1.309.308,54
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+791.783,71
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+182.548,60
+401
+PRISPEVKI DELODAJALCEV
+ZA SOCIALNO VARNOST
+28.102,84
+402
+IZDATKI ZA BLAGO IN STORITVE
+564.706,12
+403
+PLAČILA DOMAČIH OBRESTI
+10.426,15
+409
+REZERVE
+6.000,00
+41
+TEKOČI TRANSFERI (410+411+412+413)
+315.281,99
+410
+SUBVENCIJE
+0
+411
+TRANSFERI POSAMEZNIKOM
+IN GOSPODINJSTVOM
+205.694,60
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+41.450,96
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+68.136,43
+414
+TEKOČI TRANSFERI V TUJINO
+0
+42
+INVESTICIJSKI ODHODKI (420)
+205.694,60
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+196.242,84
+43
+INVESTICIJSKI TRANSFERI (431+432)
+6.000,00
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZIČNIM OSEBAM
+6.000,00
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+0
+III. PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.-II.)
+–167.915,70
+B. RAČUN FINANČNIH TERJATEV
+IN NALOŽB
+0
+IV. PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV
+0
+75
+PREJETA VRAČILA DANIH POSOJIL
+0
+V. DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV
+0
+44
+DANA POSOJ. IN POVEČ. KAPIT. DELEŽ. (440+441)
+0
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN NALOŽB
+0
+442
+PORABA SREDSTEV KUPNIN
+IZ NASLOVA PRIVATIZACIJE
+0
+VI. PREJETA MINUS DANA POSOJILA IN SPREMEMBE
+KAPITALSKIH DELEŽEV (IV.–V.)
+0
+C. RAČUN FINANCIRANJA
+VII. ZADOLŽEVANJE
+307.046,00
+50
+ZADOLŽEVANJE (500)
+307.046,00
+5001
+NAJETI KREDITI PRI POSLOVNIH BANKAH – RIBNICA
+271.101,00
+5003
+NAJETI KREDITI PRI DRUGIH DOMAČIH KREDITODAJALCIH –
+21. člen ZFO
+35.945,00
+VIII. ODPLAČILA DOLGA
+323.616,09
+55
+ODPLAČILO DOLGA (550)
+323.616,09
+550
+ODPLAČILO DOMAČEGA DOLGA
+323.616,09
+IX. SPREMEMBA STANJA SREDSTEV NA RAČUNIH
+(I.+IV.+VII.-II.-V.-VIII.)
+–184.485,79
+X. NETO ZADOLŽEVANJE (VII.-VIII.)
+–16.570,09
+XI. NETO FINANCIRANJE (VI.+X.-IX.)
+167.915,70
+STANJE SREDSTEV NA RAČUNIH
+DNE 31. 12. PRETEKLEGA LETA
+192.546,07
+
+Posebni del proračuna sestavljajo finančni načrti neposrednih uporabnikov, ki so razdeljeni na naslednje programske dele: področje proračunske porabe, glavne programe in podprograme, predpisane s programsko klasifikacijo izdatkov občinskih proračunov. Podprogram je razdeljen na proračunske postavke, te pa na podskupine kontov in konte, določene s predpisanim načrtom.
+
+Posebni del proračuna do ravni proračunskih postavk – podskupin kontov in načrt razvojnih programov za obdobje 2016–2019, je priloga k temu odloku in se objavi na oglasni deski Občine Velika Polana.«
+
+2. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 05-11/16 OS
+
+Velika Polana, dne 20. decembra 2016
+
+Župan
+
+Občine Velika Polana
+
+mag. Damijan Jaklin
+l.r.
