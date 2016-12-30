@@ -20,6 +20,10 @@ spremembe:
     datum: 2015-11-27
     sop: 2015-01-3501
     naziv: "Zakon o spremembah Zakona o socialno varstvenih prejemkih"
+  - kratica: ZSVarPre-E
+    datum: 2016-12-30
+    sop: 2016-01-3926
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o socialno varstvenih prejemkih"
 ---
 
 # Zakon o socialno varstvenih prejemkih
