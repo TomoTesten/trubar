@@ -24,6 +24,10 @@ spremembe:
     datum: 2015-11-27
     sop: 2015-01-3503
     naziv: "Zakon o spremembi in dopolnitvah Zakona o uveljavljanju pravic iz javnih sredstev"
+  - kratica: ZUPJS-F
+    datum: 2016-12-30
+    sop: 2016-01-3928
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o uveljavljanju pravic iz javnih sredstev"
 ---
 
 # Zakon o uveljavljanju pravic iz javnih sredstev
