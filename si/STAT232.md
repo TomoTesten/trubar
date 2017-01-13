@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Statuta javnega zavoda Radiotelevizije Slovenija
 vrsta: "akt"
 datum: 2017-01-20
 sop: 2017-01-0105
-organ: "Radiotelevizija Slovenija"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-0105"
 ---
 
