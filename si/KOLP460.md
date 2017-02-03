@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za cestni potniški promet Slovenije za leto 2017"
 vrsta: "akt"
 datum: 2017-02-03
 sop: 2017-01-0236
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-0236"
 ---
 
