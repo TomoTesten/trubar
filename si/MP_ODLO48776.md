@@ -2,11 +2,11 @@
 kratica: MP_ODLO48776
 naziv: "Odlok o občinskih cestah v Mestni občini Novo mesto (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-04
+datum: 2017-02-23
 sop: 2017-23-0008
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Mestna občina Novo mesto"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-23-0008"
 ---
 
