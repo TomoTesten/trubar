@@ -7,6 +7,11 @@ sop: 2006-01-6040
 objava: "Uradni list RS 139/06  str. 16161"
 kljucne_besede: ["javna varnost", "javni red", "občinska policija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-6040"
+spremembe:
+  - kratica: ZORed-A
+    datum: 2017-02-24
+    sop: 2017-01-0406
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o občinskem redarstvu"
 ---
 
 # Zakon o občinskem redarstvu
