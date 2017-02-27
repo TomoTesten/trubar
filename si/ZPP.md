@@ -20,6 +20,10 @@ spremembe:
     datum: 2007-06-12
     sop: 2007-01-2778
     naziv: "Zakon o spremembah in dopolnitvah zakona o pravdnem postopku"
+  - kratica: ZPP-E
+    datum: 2017-02-27
+    sop: 2017-01-0463
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o pravdnem postopku"
 ---
 
 # Zakon o pravdnem postopku
