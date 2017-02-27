@@ -7,6 +7,11 @@ sop: 2013-01-0435
 objava: "Uradni list RS 15/13  str. 2035"
 kljucne_besede: ["policija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0435"
+spremembe:
+  - kratica: ZNPPol-A
+    datum: 2017-02-27
+    sop: 2017-01-0462
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o nalogah in pooblastilih policije"
 ---
 
 # Zakon o nalogah in pooblastilih policije
