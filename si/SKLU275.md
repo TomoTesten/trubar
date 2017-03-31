@@ -4,9 +4,9 @@ naziv: "Sklep o zavrženju ustavne pritožbe"
 vrsta: "akt"
 datum: 2017-04-21
 sop: 2017-01-1010
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-1010"
 ---
 
