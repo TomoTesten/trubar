@@ -4,9 +4,9 @@ naziv: "Aneks št. 9 h Kolektivni pogodbi za javni sektor (KPJS)"
 vrsta: "akt"
 datum: 2017-04-25
 sop: 2017-01-1101
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-1101"
 ---
 
