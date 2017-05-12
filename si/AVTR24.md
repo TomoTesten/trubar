@@ -4,9 +4,9 @@ naziv: "Avtentična razlaga tretjega odstavka 33. člena Zakona o ukrepih Republ
 vrsta: "akt"
 datum: 2017-05-26
 sop: 2017-01-1367
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-1367"
 ---
 
