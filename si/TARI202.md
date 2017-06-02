@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Tarife o taksah in nadomestilih"
 vrsta: "akt"
 datum: 2017-06-16
 sop: 2017-01-1610
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-1610"
 ---
 

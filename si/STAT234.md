@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Statuta Univerze v Mariboru"
 vrsta: "akt"
 datum: 2017-06-09
 sop: 2017-01-1537
-organ: "Univerza v Mariboru"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-1537"
 ---
 

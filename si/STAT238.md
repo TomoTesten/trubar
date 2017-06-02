@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Priloge k Statutu Univerze na Primorskem"
 vrsta: "akt"
 datum: 2017-06-23
 sop: 2017-01-1714
-organ: "Univerza na Primorskem"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-1714"
 ---
 
