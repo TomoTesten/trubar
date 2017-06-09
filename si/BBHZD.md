@@ -7,6 +7,11 @@ sop: 2012-02-0086
 objava: "Uradni list RS MP 14/12  str. 359"
 kljucne_besede: ["ratifikacija sporazuma", "Bosna in Hercegovina", "delavec migrant", "dovoljenje za delo"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-02-0086"
+spremembe:
+  - kratica: BBHZD-A
+    datum: 2017-06-09
+    sop: 2017-02-0038
+    naziv: "Zakon o ratifikaciji Sporazuma o spremembah in dopolnitvah Sporazuma med Vlado Republike Slovenije in Svetom ministrov Bosne in Hercegovine o zaposlovanju državljanov Bosne in Hercegovine v Republiki Sloveniji ter Protokola o spremembah in dopolnitvah Protokola o izvajanju Sporazuma med Vlado Republike Slovenije in Svetom ministrov Bosne in Hercegovine o zaposlovanju državljanov Bosne in Hercegovine v Republiki Sloveniji"
 ---
 
 # Zakon o ratifikaciji Sporazuma med Vlado Republike Slovenije in Svetom ministrov Bosne in Hercegovine o zaposlovanju državljanov Bosne in Hercegovine v Republiki Sloveniji in Protokola o izvajanju Sporazuma med Vlado Republike Slovenije in Svetom ministrov Bosne in Hercegovine o zaposlovanju državljanov Bosne in Hercegovine v Republiki Sloveniji
