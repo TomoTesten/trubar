@@ -1,0 +1,2701 @@
+---
+kratica: MP_ODLO41362
+naziv: "Odlok o spremembah in dopolnitvah Odloka o kategorizaciji občinskih javnih cest v Občini Trebnje (ODLO)"
+vrsta: "občinski odlok"
+datum: 2017-06-16
+sop: 2017-01-1656
+organ: "Občina Trebnje"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-1656"
+---
+
+# Odlok o spremembah in dopolnitvah Odloka o kategorizaciji občinskih javnih cest v Občini Trebnje (ODLO)
+
+Na podlagi določil 103. člena Zakona o cestah (Uradni list RS, št. 109/10, 48/12, 36/14 – odl. US in 46/15) in 18. člena Statuta Občine Trebnje (Uradni list RS, št. 29/14 in popravek 65/14) je Občinski svet Občine Trebnje na 23. redni seji dne 24. 5. 2017 sprejel
+
+O D L O K
+
+o spremembah in dopolnitvah Odloka o kategorizaciji občinskih javnih cest v Občini Trebnje
+
+1. člen
+
+3.
+člen Odloka o kategorizaciji občinskih javnih cest v Občini Trebnje (Uradni list RS, št. 76/08 z dne 25. 7. 2008, v nadaljnjem besedilu Odlok) se spremeni tako, da se glasi:
+
+»Lokalne ceste (LC) v mestu Trebnje, med naselji v Občini Trebnje ter med naselji v Občini Trebnje in naselji v sosednjih občinah so:
+
+Zap. št.
+Cesta
+Odsek
+Začetek odseka
+Opis
+Konec odseka
+Dolžina [m]
+Preostala dolžina v sosednji občini [m]
+1
+289150
+289151
+C 289120
+Sr. Lipovec–Podlipa–Vrb.
+O 425012
+2.156
+Žužemberk 3.780
+2
+425000
+425001
+O 425051
+Trebnje–Račje selo
+C 425200
+2.100
+3
+425000
+425002
+C 425200
+Račje s.–Blato–Križ–D. v.
+C R3 652
+7.019
+4
+425010
+425011
+C R2 448
+Trebnje–Grmada–Dobrnič
+C R3 650
+4.606
+5
+425010
+425012
+C R3 650
+Dobrnič–A. v.–Jordankal
+C 425630
+5.856
+Mirna Peč 631
+6
+425020
+425021
+O 425011
+Grmada–Vrhtrebnje–Repče
+O 425031
+3.623
+7
+425030
+425031
+O 425052
+Trebn–Repče–G. Vrh–Rd. K.
+O 425012
+6.911
+8
+425040
+425041
+C R1 215
+Trebnje–Dol. Nemška vas
+O 425042
+1.719
+9
+425040
+425042
+O 425041
+Priključek na R1
+C R1 215
+109
+10
+425040
+425043
+O 425041
+Dol. Nemška vas–Ponikve– Mirna Peč
+C R3 651
+2.443
+Mirna Peč 4.412
+11
+425050
+425051
+C R1 215
+Trebnje center–Štefan
+C R3 652
+3.262
+12
+425050
+425052
+O 425051
+Trebnje–grad
+C R2 448
+356
+13
+425200
+425202
+O 425211
+Trebnje–grad
+C R3 652
+5.697
+Mirna 1.050
+14
+425210
+425211
+C 425200
+Brezovica–Križ
+C 425000
+837
+Mirna 3.546
+15
+425230
+425231
+C R1 215
+Zabrdje–Praprotn.–Rodi.
+O 425601
+1.578
+Mirna 4.677
+16
+425600
+425601
+O 425611
+Dol. Nemška vas–Gomila
+C R1 215
+3.050
+Mirna 1.290
+17
+425610
+425611
+O 425041
+Dol. Nemška vas–Poljane
+C 291010
+4.037
+Mirna Peč 514
+18
+425620
+425621
+C R1 215
+Češnje.–Lipnik–B. Klanec
+O 425241
+3.633
+Mirna 1.301
+19
+425630
+425631
+O 425043
+D. Ponikve–D. vas–J. kal
+O 425012
+2.572
+Mirna Peč 408
+20
+425800
+425801
+C R3 650
+Železno–Volčja Jama
+O 426131
+4.654
+21
+425900
+425901
+C R3 650
+Mala v.–Selca–Babna G.
+O 426131
+3.760
+22
+426100
+426101
+O 426131
+Vel. Dole–Zagradec
+C R1 216
+5.454
+Ivančna Gorica 4.350
+23
+426110
+426111
+C R2 416
+Bič–Veliki Gaber
+C R2 448
+1.791
+24
+426110
+426112
+C R2 448
+Veliki Gaber–Stranje
+O 426211
+826
+25
+426110
+426113
+O 426211
+Stranje–M. Kostrevnica
+C R2 417
+3.154
+Šmartno pri Litiji 13.862
+26
+426120
+426121
+C R2 448
+Medvedjek–M. Dole.–Gomb.
+O 426131
+3.712
+27
+426120
+426122
+C R2 448
+Medv.–Mar. v.–Šentlovre.
+O 426211
+2.905
+28
+426120
+426123
+O 426211
+Šentlovrenc–Mačji Dol
+O 426113
+3.107
+29
+426130
+426131
+C R2 416
+Zagorica–V. jama–Žužem.
+C R3 650
+8.221
+Žužemberk 3.330
+30
+426210
+426211
+C R3 652
+Krtina–Vel. Gaber–Radohova vas
+C R2 416
+5.318
+Ivančna Gorica 2.660
+31
+426400
+426401
+C R3 652
+Trnje–Dolenja v./Čatežu
+O 425001
+4.480
+32
+426500
+426501
+C R3 652
+Velika Loka–Korenitka
+C R2 448
+2.211
+
+Skupna dolžina lokalnih cest (LC) v Občini Trebnje znaša 111.157 m (111,157 km).«
+
+2. člen
+
+4.
+člen Odloka se spremeni tako, da se glasi:
+
+»Javne poti (JP) v mestu Trebnje, v naseljih in med naselji Občine Trebnje ter med naselji Občine Trebnje in naselji v sosednjih občinah so:
+
+Zap. št.
+Cesta
+Odsek
+Začetek odseka
+Opis
+Konec odseka
+Dolžina [m]
+Preostala dolžina v sosednji občini [m]
+1
+789000
+789001
+C 291010
+Poljane–Studenci
+Z HŠ 17
+555
+Mirna Peč 905
+2
+925000
+925001
+C R3 650
+Občine–Luža–Mala vas
+C R3 650
+1.282
+3
+925000
+925002
+C R3 650
+Mala vas
+C R3 650
+181
+4
+925000
+925003
+O 925006
+Pluska 2
+O 925001
+414
+5
+925000
+925004
+O 925001
+Luža 22
+Z HŠ 22
+245
+6
+925000
+925006
+C R3 650
+Občine–Grič
+O 926501
+1.006
+7
+925010
+925011
+O 425901
+Babna Gora
+O 425901
+515
+8
+925020
+925021
+O 425901
+Babna Gora–G. Selce
+Z HŠ 17
+234
+9
+925030
+925031
+O 425901
+G. Selce 6
+Z HŠ 6
+122
+10
+925030
+925032
+O 425901
+G. Selce 8
+Z HŠ 7
+99
+11
+925040
+925041
+O 425901
+D. Selce–Roženpelj
+O 925072
+492
+12
+925060
+925061
+O 425901
+Mala v.–D. Kamenje
+Z HŠ 5
+2.103
+13
+925060
+925062
+O 925061
+G. Kamenje–Železno
+O 425801
+909
+14
+925060
+925063
+O 925061
+G. Kamenje–grad Kozjek
+Z HŠ 18
+954
+15
+925060
+925065
+O 925063
+G. Kamenje
+O 925061
+123
+16
+925070
+925071
+O 425901
+G. Selce–Krušni V.
+Z HŠ 8a
+848
+17
+925070
+925072
+O 425901
+G. Selce–Roženpelj
+Z HŠ 5a
+534
+18
+925070
+925073
+O 925072
+Roženpelj–G. Kamenje
+O 925063
+609
+19
+925100
+925101
+O 425202
+Hudeje
+Z HŠ 22
+592
+20
+925100
+925102
+O 425202
+Hudeje 23
+Z odc.23
+110
+21
+925110
+925111
+C 425000
+Račje selo
+Z HŠ 22
+89
+22
+925120
+925121
+C 425000
+Račje selo
+Z cerkev
+201
+23
+925130
+925131
+C 425000
+Blato
+Z ribnik
+355
+24
+925140
+925141
+C 425000
+Blato
+Z HŠ 24
+71
+25
+925150
+925151
+C 425000
+Blato
+Z HŠ 18
+924
+26
+925160
+925161
+C 425000
+Velika Ševnica 2
+Z HŠ 2
+274
+27
+925180
+925181
+C 425000
+Mala Ševnica
+Z HŠ 2
+97
+28
+925190
+925191
+C 425000
+M. Šev.–Škrjanče–Ševnica
+O 425211
+1.030
+Mirna 1.625
+29
+925190
+925192
+O 425211
+Križ
+Z konec
+218
+stik v O. Mirna
+30
+925300
+925301
+C 425000
+Križ–Kriška Reber
+Z HŠ 5
+418
+31
+925310
+925311
+C 425000
+Kriška Reber
+C 425000
+147
+32
+925340
+925341
+C 425000
+Goljek
+Z HŠ 16
+445
+33
+925350
+925351
+C 425000
+Goljek
+Z HŠ 13
+836
+34
+925350
+925352
+O 925351
+Goljek
+Z HŠ 11c
+154
+35
+925350
+925353
+O 925351
+Goljek
+Z HŠ 5
+208
+36
+925360
+925361
+C 425000
+Gorenja vas pri Čatežu 20
+Z HŠ 20
+154
+37
+925360
+925362
+C 425000
+Gorenja vas pri Čatežu 14
+Z HŠ 14
+158
+38
+925370
+925371
+C 425000
+Gorenja vas 1
+Z HŠ 1
+104
+39
+925370
+925372
+C 425000
+Dolenja vas–TEM
+Z TEM
+198
+40
+925380
+925381
+O 426401
+Roje 12
+Z HŠ 12
+621
+41
+925390
+925391
+C R3 652
+Dol. v./Čatežu–Obolnar
+Z HŠ 17a
+661
+42
+925400
+925401
+O 426401
+Roje–Trebanjski Vrh
+Z HŠ 25c
+1.811
+43
+925410
+925411
+C R3 652
+Čatež–Zaplaz–Čatež
+C R3 652
+1.512
+44
+925420
+925421
+C R3 652
+Čatež–Kržišče–Okrog
+Z gozdna
+1.082
+Litija 615
+45
+925430
+925431
+O 925441
+Razbore–V. Videm 24
+Z HŠ 24
+478
+46
+925430
+925433
+O 426123
+Šentlovrenc–Vel. Videm
+Z HŠ 25
+826
+47
+925440
+925441
+C R3 652
+Čatež–Razbore–Vrh
+O 709181
+2.411
+stik v O. Šmartno pri Litiji
+48
+925440
+925442
+O 925441
+Razbore 11–zadnji obj.
+Z HŠ 10
+479
+49
+925440
+925443
+O 925442
+Razbore
+Z HŠ 32
+84
+50
+925440
+925444
+O 709182
+Razbore–Vrh
+Z HŠ 45
+341
+stik v O. Šmartno pri Litiji
+51
+925450
+925451
+C R3 652
+Zagorica 4
+Z HŠ 4
+527
+52
+925460
+925461
+C R3 652
+Čatež 54
+Z HŠ 54
+521
+53
+925460
+925462
+O 925461
+Čatež–Krvica–Dol. v.
+Z HŠ 47
+419
+54
+925470
+925471
+O 426401
+Roje
+Z N.H.
+211
+55
+925500
+925501
+O 426101
+Zavrh
+Z HŠ 1
+592
+56
+925510
+925511
+O 426101
+Sela Šumberk–Vrh
+Z HŠ 25
+1.290
+57
+925510
+925512
+O 925511
+Sela 11
+Z HŠ 37
+408
+58
+925520
+925521
+O 925511
+Sela Šumberk–Srebotnica
+Z HŠ 23
+951
+59
+925540
+925541
+O 426101
+Orlaka
+Z HŠ 14
+259
+60
+925550
+925551
+O 426131
+Arčelca–Podbuk.–Orlaka
+O 426101
+2.424
+61
+925560
+925561
+O 426101
+Orlaka
+Z HŠ 17
+434
+62
+925580
+925581
+O 426101
+Sela Š.–kapelica Se. Š.
+O 426101
+180
+63
+925590
+925591
+O 426131
+Replje–Vrtače
+Z HŠ 5
+1.003
+64
+925620
+925621
+O 426131
+Log–D., G. Podš.–Sela Š.
+O 426101
+1.882
+65
+925620
+925622
+O 925621
+Dol. Podšumberk
+Z HŠ 5
+151
+66
+925620
+925623
+O 925621
+Gor. Podšumberk
+Z HŠ 2
+150
+67
+925630
+925631
+O 426131
+Log
+Z HŠ 2
+201
+68
+925700
+925701
+O 425031
+D. Vrh 5–6
+Z HŠ 6
+304
+69
+925700
+925702
+O 425031
+D. Vrh–Štupar
+Z HŠ 18
+239
+70
+925710
+925711
+O 425012
+Šmaver Kolenc–Šmaver 2
+O 925741
+798
+71
+925710
+925712
+O 925711
+Šmaver–ob. Pintar–Jarc
+Z HŠ 84e
+257
+72
+925710
+925713
+O 925711
+Rdeči Kal 25
+Z HŠ 25
+186
+73
+925710
+925714
+O 425012
+Šmaver
+O 925712
+320
+74
+925720
+925721
+O 925711
+Šmaver 2–Šmaver 8
+O 926881
+219
+75
+925730
+925731
+O 425012
+Šmaver 30 –cerk. Sv. Ane
+O 926881
+1.053
+stik v O. Mirna Peč
+76
+925740
+925741
+O 425031
+Svetin.–Sv. Mavr.–Sv. Ana
+O 926881
+1.044
+77
+925750
+925751
+O 425031
+Svetinje 5
+O 926881
+818
+78
+925750
+925752
+O 925751
+Svetinje–cesta škarpa
+Z HŠ 76
+298
+79
+925760
+925761
+O 925731
+Šmaver
+Z HŠ 101
+269
+80
+925760
+925762
+O 926881
+Šmaver 16–21
+O 926881
+670
+81
+925770
+925771
+O 925731
+Šmaver–Sv. Ana–Šmav. 112
+Z HŠ 112
+115
+82
+925780
+925782
+O 425012
+Rdeči Kal 28
+Z HŠ 28
+474
+83
+925790
+925792
+O 425012
+Korenov hrib
+Z HŠ 17
+217
+84
+925800
+925801
+O 426131
+Zagorica–Zag. 42, 43
+Z gozdna
+267
+85
+925810
+925811
+O 426131
+Velike Dole
+Z HŠ 3
+535
+86
+925820
+925821
+O 426131
+Zagorica
+Z HŠ 41
+73
+87
+925830
+925831
+O 426131
+Zagor.–Dob.–Pristavica
+C R2 416
+1.078
+88
+925830
+925832
+C R2 416
+Pristavica
+Z HŠ 18
+258
+89
+925840
+925841
+O 426131
+Zagorica
+Z HŠ 1
+410
+90
+925850
+925851
+O 426131
+Zagorica
+O 426131
+510
+91
+925850
+925852
+O 925851
+Zagorica
+Z HŠ 68
+247
+92
+925850
+925853
+O 925852
+Zagorica
+Z HŠ 69
+79
+93
+925850
+925854
+O 925852
+Zagorica
+Z HŠ 72
+102
+94
+925850
+925855
+O 925831
+Zagorica (odcep desno)
+Z HŠ 22a
+293
+95
+925850
+925856
+O 925841
+Zagorica
+Z HŠ 6
+95
+96
+925860
+925861
+O 426113
+Žubina (meja Iv. Gorica)
+Z HŠ 27
+459
+97
+925860
+925862
+O 426113
+Stranje
+Z HŠ 14
+141
+98
+925870
+925871
+O 426112
+Veliki Gaber
+Z pokop.
+160
+99
+925870
+925872
+O 925871
+Veliki Gaber
+Z HŠ 42
+95
+100
+925880
+925881
+O 426112
+Veliki Gaber
+Z HŠ 75
+201
+101
+925880
+925882
+O 426112
+Veliki Gaber
+Z HŠ 105
+155
+102
+925890
+925891
+O 426112
+Veliki Gaber
+Z HŠ 89
+198
+103
+925900
+925901
+C R2 448
+Mali Gaber
+Z HŠ 24
+504
+104
+925900
+925902
+O 925901
+Mali Gaber
+Z cerkev
+206
+105
+925910
+925911
+O 925901
+Mali Gaber–Stranje
+O 426112
+654
+106
+925920
+925921
+C R2 448
+Cesta
+C R2 448
+1.047
+107
+925920
+925922
+O 925921
+Cesta
+O 426211
+251
+stik v O. Ivančna Gorica
+108
+925930
+925931
+C R2 448
+Veliki Gaber–Gline
+Z HŠ 108
+387
+109
+925930
+925932
+C R2 448
+Veliki Gaber
+Z HŠ 32
+264
+110
+925940
+925941
+C R2 448
+Veliki Gaber
+Z vod.re
+416
+111
+925940
+925942
+C R2 448
+Medvedjek
+O 426122
+1.014
+112
+925950
+925951
+C R2 448
+Veliki Gaber–Medvedjek
+O 925942
+268
+113
+925960
+925961
+C R2 448
+Veliki Gaber
+Z HŠ 11
+232
+114
+925970
+925971
+O 426121
+Male Dole
+Z HŠ 17
+88
+115
+925970
+925972
+C R2 448
+Medvedjek–M. Dole
+O 426121
+2.718
+116
+925980
+925981
+O 426121
+Male Dole 16
+Z HŠ 16
+271
+117
+925980
+925982
+O 426121
+Male Dole
+O 426121
+240
+118
+925980
+925983
+O 426121
+Gombišče
+Z HŠ 15
+613
+119
+925980
+925984
+O 925982
+Male Dole 10
+Z HŠ 10
+110
+120
+925980
+925985
+O 426121
+Gombišče 12
+Z HŠ 12
+408
+121
+925990
+925991
+O 426131
+Velike Dole
+Z HŠ 11
+125
+122
+925990
+925992
+O 925991
+Velike Dole
+Z HŠ 14
+76
+123
+926500
+926501
+C R3 652
+Zidani Most–Grič
+Z odc. 7
+1.244
+124
+926500
+926502
+O 926501
+Zidani M.–Belšinja vas
+Z HŠ 7
+860
+125
+926500
+926503
+O 926502
+Belšinja vas 15
+Z HŠ 15
+135
+126
+926510
+926511
+O 425051
+Štefan
+Z HŠ 7
+78
+127
+926510
+926512
+O 425051
+Štefan
+Z HŠ 33
+120
+128
+926510
+926513
+C R3 652
+Gor. Nemška vas
+Z HŠ 11
+386
+129
+926520
+926521
+O 425051
+Štefan
+Z HŠ 28
+108
+130
+926530
+926531
+C R2 448
+Breza–Breza
+C R3 652
+1.080
+131
+926530
+926532
+C R3 652
+Kamni Potok 20
+Z HŠ 20
+650
+132
+926530
+926533
+O 926532
+Breza
+Z HŠ 14
+193
+133
+926530
+926534
+O 926532
+Breza
+Z HŠ 9
+128
+134
+926530
+926535
+C R2 448
+Pluska
+Z HŠ 12
+234
+135
+926530
+926536
+O 926531
+Breza 24
+Z HŠ 24
+384
+136
+926550
+926551
+C R3 652
+Kamni Potok
+Z HŠ 10
+41
+137
+926600
+926601
+O 425011
+Gorenja vas–Vavpča vas
+Z HŠ 16
+1.164
+138
+926600
+926603
+O 425011
+Stranje 5–Stranje 7
+Z HŠ 5
+684
+139
+926600
+926605
+C R3 650
+Železno–vas
+C R3 650
+272
+140
+926600
+926606
+O 926601
+Vavpča vas
+Z HŠ 1
+979
+141
+926600
+926607
+O 926601
+Vavpča vas
+Z gozdna
+323
+142
+926610
+926611
+O 425012
+Dobrnič–Šah.–Svetinje
+O 425031
+3.271
+143
+926610
+926612
+O 425011
+Gorenja vas–Dobrnič
+O 926611
+316
+144
+926610
+926613
+O 926611
+Lokve
+Z HŠ 6
+89
+145
+926610
+926614
+O 425012
+Dobrnič 18–28
+O 926611
+175
+146
+926610
+926615
+O 926611
+Šahovec 12–6
+Z HŠ 6
+60
+147
+926610
+926616
+O 926611
+Šahovec 6–Šahovec 18
+Z HŠ 18
+144
+148
+926620
+926621
+O 289151
+Vrbovec 17–Vrbovec 26
+O 289151
+295
+149
+926620
+926622
+O 289151
+Vrbovec 12–Vrbovec 30
+O 425012
+441
+150
+926620
+926623
+O 926621
+Vrbovec
+O 289151
+278
+151
+926630
+926631
+O 425012
+Art. v.–Korita–Dobrava
+C R3 650
+3.203
+152
+926630
+926632
+O 926631
+Korita 11–32
+Z HŠ 32
+690
+153
+926630
+926633
+O 926631
+Korita 11–28 –31
+Z HŠ 29
+158
+154
+926630
+926634
+O 926631
+Dobrava 11–Dobrava 12
+Z HŠ 13
+187
+155
+926630
+926635
+O 926631
+Dobrava 5–6d
+Z HŠ 6d
+221
+156
+926640
+926641
+C R3 650
+Zagorica 9–Zagorica 7
+Z HŠ 5
+454
+157
+926650
+926651
+C R3 650
+Preska–Podlisec
+Z HŠ 9
+268
+158
+926660
+926661
+C R3 650
+Preska 1–Dobrnič 21
+O 425012
+952
+159
+926670
+926671
+O 425012
+Artmanja vas–Reva
+Z HŠ 4
+722
+160
+926680
+926681
+C R3 650
+Dobrava–Licec 68
+Z HŠ 68
+1.468
+161
+926680
+926682
+O 926681
+Lisec
+O 425801
+2.217
+162
+926680
+926683
+O 425801
+Lisec
+O 926681
+2.473
+163
+926680
+926684
+O 926681
+Lisec
+O 926683
+2.184
+164
+926680
+926686
+O 926682
+Lisec
+O 926683
+209
+165
+926680
+926687
+C R3 650
+Lisec
+O 425801
+1.559
+Žužemberk 772
+166
+926680
+926688
+O 926687
+Lisec–Žužemberk
+O 926682
+301
+167
+926690
+926691
+C R2 448
+Korenitka
+Z HŠ 27
+1.158
+168
+926700
+926701
+C R3 652
+Mala Loka–Mačkovec
+Z HŠ 13
+576
+169
+926710
+926711
+C R3 652
+Mala Loka
+Z HŠ 1
+258
+170
+926720
+926721
+C R3 652
+Mala Loka–grad
+Z HŠ 19
+685
+171
+926730
+926731
+O 926741
+Iglenik–Šemerga
+Z HŠ 16
+155
+172
+926740
+926741
+O 425202
+Mrzla L.–Igl.–V.Ševnica
+O 425203
+3.404
+173
+926740
+926742
+O 926741
+Iglenik–Škovec
+O 426401
+1.840
+174
+926750
+926751
+O 926742
+Škovec –Mrzla Luža
+O 926741
+1.268
+175
+926760
+926761
+O 426501
+Velika Loka 61
+Z HŠ 49
+378
+176
+926770
+926771
+O 426501
+Velika Loka
+O 426501
+132
+177
+926770
+926772
+O 426501
+Velika Loka
+Z HŠ 47
+225
+178
+926780
+926781
+O 426501
+Velika Loka
+Z HŠ 76
+93
+179
+926790
+926791
+O 426501
+Velika Loka–Kukenberk
+O 927801
+1.252
+180
+926800
+926801
+O 425611
+D.Dobrava–Rihp.–Rad. v.
+O 425615
+2.508
+Mokronog - Trebelno 1.361
+181
+926800
+926802
+O 926801
+Rihpovec–Zvale–Lukovek
+Z HŠ 53
+845
+182
+926800
+926803
+O 926802
+Rihpovec(30)–Radna vas
+O 926801
+498
+Mokronog - Trebelno 294
+183
+926800
+926805
+O 926801
+Rihpovec s.h. 23
+O 926806
+1.400
+184
+926800
+926806
+O 926801
+Rihpovec (26, 27)
+O 926801
+1.314
+185
+926810
+926811
+O 425611
+Jezero
+Z HŠ 25
+114
+186
+926820
+926821
+O 425611
+Jezero–AC
+O 926824
+1.347
+stik v O. Mirna Peč
+187
+926820
+926822
+O 926821
+Jezero
+O 926821
+205
+188
+926820
+926823
+O 926821
+Jezero–D. Dobrava
+O 926831
+692
+189
+926820
+926824
+O 926821
+Jerero–Grm
+O 927191
+1.139
+190
+926830
+926831
+O 425611
+D. Dobrava
+Z HŠ 10
+428
+191
+926840
+926841
+O 425231
+Rodine–Aremberk
+O 425621
+3.333
+stik z O. Mirna
+192
+926840
+926842
+O 425621
+Aremberk–Lipnik
+O 926841
+703
+193
+926840
+926843
+O 425621
+Lipnik–Aremberk
+O 926842
+481
+194
+926840
+926844
+O 926841
+Gradišče 4–kapelica
+Z HŠ 37
+453
+195
+926840
+926845
+O 926841
+Gradišče 1
+Z HŠ 1
+215
+196
+926840
+926846
+O 926841
+Gradišče 4–Gradišče 6
+O 926841
+480
+197
+926840
+926847
+O 926873
+Mlada Gora
+O 926874
+325
+198
+926850
+926851
+O 425621
+Češnjevek
+Z HŠ 52
+552
+199
+926870
+926871
+O 425611
+Lukovek–Lipnik
+O 425621
+1.608
+200
+926870
+926872
+O 926871
+Lipnik
+Z HŠ 59
+769
+201
+926870
+926873
+O 425621
+Lipnik–Stari Lipnik
+O 425621
+303
+202
+926870
+926874
+O 926871
+Lukovek–Ječkovec
+Z HŠ 66
+2.554
+203
+926870
+926875
+O 926874
+Lukovek
+Z HŠ 26
+303
+204
+926870
+926876
+O 926871
+Lukovek povezava
+C 425610
+161
+205
+926880
+926881
+O 425631
+Dečja vas–Gorenji Vrh
+O 425031
+2.770
+206
+926890
+926891
+O 425601
+Rodine–Meglenik
+O 425621
+1.283
+207
+926890
+926892
+O 425601
+Dobrava–Meglenik
+O 926891
+1.497
+208
+926890
+926893
+O 926892
+Češnjevek–Meglenik
+O 926891
+929
+209
+926890
+926894
+O 926895
+Meglenik–Češnjevek 15
+O 426621
+719
+210
+926890
+926895
+O 425621
+Meglenik–Češnjevek
+Z HŠ 54
+521
+211
+926890
+926896
+O 425621
+Lipnik–Zavrh
+Z HŠ 44
+451
+212
+926890
+926897
+O 926898
+Lipnik–Ažental
+O 926899
+556
+213
+926890
+926898
+O 425621
+Lipnik 58
+Z HŠ 58
+704
+214
+926890
+926899
+O 926898
+Lipnik–Ažental
+Z HŠ 16a
+595
+215
+926900
+926906
+O 425601
+Rodine
+O 927162
+1.078
+216
+926900
+926907
+O 926906
+Rodine–povezava
+O 425601
+76
+217
+927000
+927001
+O 425001
+Pekel
+O 927004
+452
+218
+927000
+927002
+O 927004
+Paradiž
+O 425001
+229
+219
+927000
+927003
+O 425001
+Trebnje–Klemenčičeva u.
+O 927098
+396
+220
+927000
+927004
+O 425001
+Trebnje–Paradiž
+Z HŠ 5
+763
+221
+927000
+927005
+O 927098
+Trebnje
+Z HŠ 41
+55
+222
+927010
+927011
+O 425011
+Trebnje–Pod gradom
+Z HŠ 4
+146
+223
+927020
+927022
+O 425051
+Pristava–Rimska cesta
+O 927028
+129
+224
+927020
+927023
+O 927028
+Rožni Vrh
+Z HŠ 13
+218
+225
+927020
+927024
+O 425051
+Rož. V.–Studenec–Rim. c.
+O 927028
+975
+226
+927020
+927025
+O 927024
+Studenec
+Z HŠ 7b
+210
+227
+927020
+927026
+O 927024
+Studenec
+Z HŠ 25
+250
+228
+927020
+927027
+O 425011
+Benečija 5
+Z HŠ 5
+1.103
+229
+927020
+927028
+O 425051
+Rožni Vrh
+O 425051
+1.211
+230
+927020
+927029
+O 927024
+Studenec 41
+Z HŠ 41
+168
+231
+927030
+927031
+O 425021
+Vrhtrebnje 8–Vrhtre. 1
+Z HŠ 1
+101
+232
+927030
+927032
+O 425021
+Vrhtrebnje 18–gas. d.–17
+O 425021
+222
+233
+927030
+927033
+O 425021
+Vrhtrebnje–lovski dom
+Z HŠ 21
+245
+234
+927040
+927041
+O 425021
+Repče–gasilski dom
+O 425031
+240
+235
+927050
+927051
+O 425031
+Repče 9–24
+Z HŠ 24
+91
+236
+927050
+927052
+O 425031
+Podrepče
+Z HŠ 25
+151
+237
+927050
+927054
+O 425031
+Repče–Podrepče
+Z HŠ 1
+289
+238
+927060
+927061
+O 425041
+Trebnje–Vina Gorica 5
+Z cerkev
+539
+239
+927060
+927062
+O 927061
+Trebnje–Vina Gorica–TAP
+O 425041
+1.183
+240
+927060
+927063
+O 927062
+Trebnje–Vina G. 24–25
+Z HŠ 23
+275
+241
+927070
+927071
+O 927098
+Trebnje Jurč.–strelišče
+O 927074
+681
+242
+927070
+927072
+O 927077
+Trebnje–Prapreče 18
+Z HŠ 11
+437
+243
+927070
+927073
+O 927074
+Trebnje–Pekarna
+O 927091
+303
+244
+927070
+927074
+O 425051
+Tre.–Stari t.–Jurčičeva
+O 927077
+442
+245
+927070
+927075
+O 927074
+Trebnje–Jurčičeva ul.
+Z HŠ 11
+76
+246
+927070
+927076
+O 425051
+Trebnje–Temeniška pot
+Z HŠ 4
+312
+247
+927070
+927077
+O 927092
+T.–Jurčič. ul.–D. Medv. s.
+C R1 215
+1.124
+248
+927070
+927078
+O 927071
+Prapreče 17
+Z HŠ 17
+186
+249
+927070
+927079
+O 927077
+Dol. Medvedje Selo
+Z HŠ 10
+286
+250
+927080
+927081
+O 927088
+Tre.–Valvazorjeva ulica
+Z HŠ 10
+86
+251
+927080
+927082
+O 927088
+T.–Trdinova u.–Levstik.
+Z HŠ 9
+106
+252
+927080
+927083
+O 927088
+Tre.–Kresna ulica
+O 927088
+314
+253
+927080
+927084
+O 927088
+Tre.–Prešernova ulica
+Z HŠ 32
+329
+254
+927080
+927085
+O 927088
+Tre.–Obrtniška ulica
+C R1 215
+642
+255
+927080
+927086
+O 927088
+Tre.–Levstikova ulica
+O 927096
+313
+256
+927080
+927087
+O 927088
+Tre.–Majcnova ulica
+O 927096
+312
+257
+927080
+927088
+O 425051
+T.–St. trg 55–Pot/Hrib
+Z HŠ 2
+394
+258
+927080
+927089
+O 927085
+Tre.–Obrtniška ulica 31
+Z HŠ 31
+162
+259
+927090
+927091
+O 927096
+Tre.–Glavarjeva ulica
+O 927074
+202
+260
+927090
+927092
+O 927096
+Tre.–Pehanijeva ulica
+O 927077
+128
+261
+927090
+927093
+O 927096
+Tre.–Vegova ulica
+Z HŠ 6
+67
+262
+927090
+927094
+O 927096
+Tre.–Ulica OF
+Z HŠ 17
+190
+263
+927090
+927095
+O 927096
+Tre.–Kresetova ulica
+O 927095
+364
+264
+927090
+927096
+O 425051
+Tre.–Stari trg–Reber 4
+O 927077
+457
+265
+927090
+927097
+O 425051
+T.–Cankarjeva–Slakova
+O 927098
+442
+266
+927090
+927098
+O 425051
+T.–Gost. Pavlin–Slakova
+O 425001
+619
+267
+927090
+927099
+O 927097
+Tre.–Cankarjeva u. 21
+Z HŠ 21
+33
+268
+927100
+927101
+O 927097
+T.–Cankarjeva–Dolenjska
+Z HŠ 16
+256
+269
+927100
+927102
+O 927097
+Tre.–Maistrova ulica
+Z HŠ 13
+232
+270
+927100
+927103
+O 927097
+Tre.–Ul. herojev 6–14
+Z HŠ 14
+62
+271
+927100
+927104
+O 927097
+Tre.–Ulica herojev
+Z HŠ 22
+181
+272
+927100
+927106
+O 927097
+T.–Cankarjeva–bloki 23
+Z HŠ 27
+70
+273
+927100
+927107
+O 927097
+Tre.–Cankarjeva ulica
+Z HŠ 9
+73
+274
+927100
+927108
+O 927097
+Tre.–Cankarjeva ulica
+Z HŠ 13
+48
+275
+927100
+927109
+O 927097
+Tre.–Cankarjeva ulica
+Z HŠ 17
+38
+276
+927110
+927111
+O 927098
+Trebnje–sodišče
+O 927097
+266
+277
+927110
+927112
+O 927098
+Trebnje–Ob gozdu
+Z HŠ 7
+115
+278
+927110
+927113
+O 425041
+Trebnje–Občina–Zdrav. d.
+Z Zdr.d.
+90
+279
+927110
+927114
+O 927098
+Trebnje– VVO (vrtec)
+Z VVZ
+86
+280
+927110
+927115
+O 927098
+Tre.–Simončičeva ulica
+O 425001
+232
+281
+927110
+927116
+O 927115
+Tre.–Simončiče–igrišče
+Z igrišče
+73
+282
+927110
+927117
+O 425001
+Trebnje–Rožna ulica
+Z HŠ 23
+178
+283
+927110
+927118
+O 425051
+T.–Špringer–Kolodvorska
+Z ŽP
+127
+284
+927110
+927119
+O 927098
+Tre.–Povhe–Slakova 36
+Z HŠ 36
+32
+285
+927120
+927122
+O 927123
+Trebnje–Dol. Medvedje s.
+O 927077
+178
+286
+927120
+927123
+O 927077
+Tr.–Praproče–G. Medve. s.
+C R1 215
+1.421
+287
+927120
+927124
+O 927077
+Dol. Medv.Selo–Brezje
+O 927124
+242
+288
+927120
+927125
+O 927077
+Dol. Medv.Selo–Eržakov
+O 927077
+584
+289
+927120
+927126
+C R1 215
+Dol pri Trebnjem 2
+Z HŠ 2
+276
+290
+927130
+927131
+O 425051
+T.–Goliev. g–Trubarjeva
+O 927135
+231
+291
+927130
+927132
+O 927135
+T.–Ul. talcev–Tomšičeva
+O 927133
+89
+292
+927130
+927133
+O 425051
+T.–Rimska 19–Tomšičeva
+Z HŠ 19
+231
+293
+927130
+927134
+O 425051
+Tre.–Rimska c.–bloki
+Z HŠ 5
+183
+294
+927130
+927135
+O 425051
+Trebn.–pokopališče–šola
+Z HŠ 11
+311
+295
+927140
+927141
+O 425031
+Trebnje–Odrga
+Z HŠ 11
+77
+296
+927140
+927142
+O 425041
+Trebnje–Dol. Podboršt
+Z HŠ 10
+547
+297
+927140
+927143
+O 927142
+Trebnje–Dol. Podboršt
+Z HŠ 1
+64
+298
+927140
+927144
+O 927142
+D. Podboršt
+Z HŠ 13
+183
+299
+927140
+927145
+O 425051
+Trebnje–Labod
+Z HŠ 48
+110
+300
+927140
+927146
+O 425051
+Tr.–Stari t. Kukenb.–D.P
+C R1 215
+959
+301
+927150
+927151
+C R1 215
+Dol
+C R1 215
+947
+302
+927160
+927161
+O 927162
+Primštal
+Z HŠ 8
+227
+303
+927160
+927162
+C R1 215
+R 215–Primštal
+Z HŠ 4a
+588
+304
+927170
+927171
+O 425043
+Dol. Ponikve–vas
+Z HŠ 41
+160
+305
+927170
+927172
+O 927171
+Dol. Ponikve–vas
+Z HŠ 38
+58
+306
+927170
+927173
+O 927171
+Dol. Ponikve
+Z HŠ 10
+59
+307
+927170
+927175
+O 425043
+G. Ponikve–Smrekar–Sitar
+O 425043
+370
+308
+927170
+927176
+O 927175
+Gor. Ponikve–Čeh
+Z HŠ 13
+130
+309
+927170
+927177
+O 425043
+Dol. Ponikve–Krevs
+Z HŠ 21a
+123
+310
+927170
+927179
+O 927175
+Dol. Ponikve–Taferner
+Z gozdna
+139
+311
+927180
+927181
+O 425041
+D. Nemška vas–Brnek
+Z HŠ 60
+252
+312
+927180
+927182
+O 425041
+D. Nemška vas–vas
+Z HŠ 41
+832
+313
+927180
+927183
+O 927182
+D. Nemška vas–vas
+Z HŠ 54
+225
+314
+927190
+927191
+O 425043
+Grm
+C R1 215
+1.125
+315
+927190
+927192
+O 927191
+Grm
+Z HŠ 16
+217
+316
+927190
+927193
+O 927191
+Grm–Zupančič
+Z HŠ 5
+126
+317
+927190
+927194
+O 927191
+Priključek Grm
+Z HŠ 19
+94
+318
+927800
+927801
+O 426211
+Krtina–Kuk.–Šentlovrenc
+O 426122
+1.419
+319
+927800
+927802
+O 927801
+Kukenberk–Muhabran
+Z HŠ 4
+493
+320
+927810
+927811
+O 426211
+Krtina–Žabjek
+Z HŠ 6
+592
+321
+927820
+927821
+O 426123
+Mačji Dol
+Z HŠ 22
+302
+322
+927830
+927831
+O 426123
+Mačji Dol
+Z HŠ 4
+114
+323
+927840
+927841
+O 426123
+Šentlovrenc
+Z HŠ 46
+162
+324
+927840
+927842
+O 426211
+Mali Videm
+Z HŠ 16
+545
+325
+927840
+927843
+O 426211
+Prapreče–Vrhovo
+O 426211
+517
+326
+927840
+927844
+O 426211
+Prapreče
+Z HŠ 12
+114
+327
+927840
+927845
+O 927843
+Vrhovo pri Šentlovrencu
+O 426211
+572
+328
+927840
+927846
+O 426211
+Šentlovrenc 33
+Z HŠ 33
+151
+329
+927840
+927847
+O 927841
+Šentlovrenc 59
+Z HŠ 59
+70
+330
+927860
+927861
+O 426123
+Šentlovrenc–Dolga Njiva
+Z HŠ 19
+1.176
+331
+927870
+927871
+O 426123
+Potok–Žubina
+Z HŠ 18
+829
+332
+927870
+927872
+O 426123
+Potok
+Z HŠ 22
+155
+333
+927880
+927881
+O 426122
+Medvedjek–Martinja vas
+Z HŠ 42
+718
+334
+927890
+927891
+O 426122
+Martinja vas
+Z HŠ 24
+446
+335
+927900
+927901
+O 426122
+Marinja vas
+Z HŠ 16
+229
+336
+927920
+927921
+C R2 448
+Velika Loka
+Z HŠ 75
+151
+337
+927950
+927951
+O 426111
+Bič
+Z Treves
+197
+338
+927950
+927952
+O 426111
+Podgrič
+Z Eurotek
+84
+339
+927960
+927961
+O 927071
+Prapreče 20
+Z HŠ 20
+232
+
+Skupna dolžina javnih poti (JP) v Občini Trebnje znaša 180.610 m (180,610 km).«
+
+3. člen
+
+5.
+člen Odloka se spremeni tako, da se glasi:
+
+»H kategorizaciji občinskih cest, določenih s tem Odlokom, je bilo v skladu z določbo 18. člena Uredbe o merilih za kategorizacijo javnih cest (Uradni list RS, št. 49/97, 113/09 in 109/10 – ZCes-1) pridobljeno soglasje Direkcije Republike Slovenije za infrastrukturo št. 37162-3/2017-82 (507) z dne 18. 4. 2017.«
+
+4. člen
+
+Ta Odlok se objavi v Uradnem listu Republike Slovenije in začne veljati osmi dan po objavi.
+
+Št. 007-12/2017
+
+Trebnje, dne 26. maja 2017
+
+Župan
+
+Občine Trebnje
+
+Alojzij Kastelic
+l.r.
