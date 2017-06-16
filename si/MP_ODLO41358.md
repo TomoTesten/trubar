@@ -1,0 +1,231 @@
+---
+kratica: MP_ODLO41358
+naziv: "Odlok o spremembah in dopolnitvah Odloka o proračunu Občine Litija za leto 2017 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2017-06-16
+sop: 2017-01-1630
+organ: "Občina Litija"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-1630"
+---
+
+# Odlok o spremembah in dopolnitvah Odloka o proračunu Občine Litija za leto 2017 (ODLO)
+
+Na podlagi drugega odstavka 40. člena Zakona o javnih financah (Uradni list RS, št. 79/99, 124/00, 79/01, 30/02, 110/02 – ZDT-B, 56/02 – ZJU, 127/06 – ZJZP, 14/07 – ZSPDPO, 109/08, 49/09, 38/10 – ZUKN, 107/10, 110/11 – ZDIU12), 57. člena Zakona o lokalni samoupravi (Uradni list RS, št. 72/93, 6/94 – Odl. US, 45/94 – Odl. US, 57/94, 14/95, 20/95 – Odl. US, 63/95 – ORZLS19, 73/95 – Odl. US, 9/96 – Odl. US, 39/96 – Odl. US, 44/96 – Odl. US, 26/97, 70/97, 10/98, 68/98 – Odl. US, 74/98, 12/99 – Skl. US, 16/99 – popr., 59/99 – Odl. US, 70/00, 100/00 – Skl. US, 28/01 – Odl. US, 87/01 – ZSam-1, 16/02 – Skl. US, 51/02, 108/03 – Odl. US, 72/05, 21/06 – Odl. US, 60/07, 14/07 – ZSPDPO, 27/08 – Odl. US, 76/08, 79/09, 51/10, 84/10 – Odl. US, 40/12 – ZUJF) in 16. člena Statuta Občine Litija (Uradni list RS, št. 18/04, 33/06, 139/06, 47/10, 12/11) je Občinski svet Občine Litija na 16. redni seji dne 7. 6. 2017 sprejel
+
+O D L O K
+
+o spremembah in dopolnitvah Odloka o proračunu Občine Litija za leto 2017
+
+1. člen
+
+2. člen Odloka o proračunu Občine Litija za leto 2017 (Uradni list RS, št. 9/17) se spremeni tako, da se glasi:
+
+»2. člen
+
+V splošnem delu proračuna so prikazani prejemki in izdatki po ekonomski klasifikaciji do ravni podskupin kontov. Splošni del proračuna se na ravni podskupin kontov določa v naslednjih zneskih:
+
+I. SKUPAJ PRIHODKI
+(70+71+72+73+74+78)
+12.709.416,00
+TEKOČI PRIHODKI (70+71)
+11.752.600,00
+70
+DAVČNI PRIHODKI (700+703+704+706)
+10.213.200,00
+700
+DAVKI NA DOHODEK IN DOBIČEK
+9.057.000,00
+703
+DAVKI NA PREMOŽENJE
+929.000,00
+704
+DOMAČI DAVKI NA BLAGO
+IN STORITVE
+227.200,00
+706
+DRUGI DAVKI
+0,00
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+1.539.400,00
+710
+UDELEŽBA NA DOBIČKU
+IN DOHODKI OD PREMOŽENJA
+1.184.900,00
+711
+TAKSE IN PRISTOJBINE
+8.000,00
+712
+GLOBE IN DRUGE DENARNE KAZNI
+21.000,00
+713
+PRIHODKI OD PRODAJE BLAGA
+IN STORITEV
+75.500,00
+714
+DRUGI NEDAVČNI PRIHODKI
+250.000,00
+72
+KAPITALSKI PRIHODKI (720+721+722)
+392.000,00
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+3.000,00
+721
+PRIHODKI OD PRODAJE ZALOG
+0,00
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+389.000,00
+73
+PREJETE DONACIJE (730+731)
+1.000,00
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+1.000,00
+731
+PREJETE DONACIJE IZ TUJINE
+0,00
+74
+TRANSFERNI PRIHODKI (740+741)
+563.816,00
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+513.409,00
+741
+PREJETA SREDSTVA
+IZ DRŽAVNEGA PRORAČUNA
+IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+50.407,00
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE IN IZ DRUGIH DRŽAV (786+787)
+0,00
+786
+OSTALA PREJETA SREDSTVA
+IZ PRORAČUNA EVROPSKE UNIJE
+0,00
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ
+0,00
+II. SKUPAJ ODHODKI (40+41+42+43)
+13.473.264,00
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+3.201.089,02
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+720.500,00
+401
+PRISPEVKI DELODAJALCEV
+ZA SOCIALNO VARNOST
+111.800,00
+402
+IZDATKI ZA BLAGO IN STORITVE
+2.109.489,02
+403
+PLAČILA DOMAČIH OBRESTI
+129.300,00
+409
+REZERVE
+130.000,00
+41
+TEKOČI TRANSFERI (410+411+412+413)
+6.163.861,35
+410
+SUBVENCIJE
+72.202,00
+411
+TRANSFERI POSAMEZNIKOM
+IN GOSPODINJSTVOM
+3.551.300,00
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+526.850,00
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+2.013.509,35
+414
+TEKOČI TRANSFERI V TUJINO
+0,00
+42
+INVESTICIJSKI ODHODKI (420)
+2.437.263,63
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+2.437.263,63
+43
+INVESTICIJSKI TRANSFERI (431+432)
+1.671.050,00
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ. OSEBAM
+94.050,00
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+1.577.000,00
+III. PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.-II.)
+–763.848,00
+75
+IV. PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0,00
+750
+PREJETA VRAČILA DANIH POSOJIL
+0,00
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0,00
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0,00
+44
+V. DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+0,00
+440
+DANA POSOJILA
+0,00
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+0,00
+VI. PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.-V.)
+0,00
+50
+VII. ZADOLŽEVANJE (500)
+1.512.748,00
+500
+DOMAČE ZADOLŽEVANJE
+1.512.748,00
+55
+VIII. ODPLAČILA DOLGA (550)
+748.900,00
+550
+ODPLAČILA DOMAČEGA DOLGA
+748.900,00
+IX. POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (III.+VI.+X.) = (I.+IV.+VII.) - (II.+V.+VIII.)
+0,00
+X. NETO ZADOLŽEVANJE (VII.-VIII.)
+763.848,00
+XI. NETO FINANCIRANJE (VI.+X.-IX.)
+763.848,00
+STANJE SREDSTEV NA RAČUNIH
+OB KONCU PRETEKLEGA LETA
+146.650,46
+
+Posebni del proračuna sestavljajo finančni načrti neposrednih uporabnikov, ki so razdeljeni na naslednje programske dele: področja proračunske porabe, glavne programe in podprograme, predpisane s programsko klasifikacijo izdatkov občinskih proračunov. Podprogram je razdeljen na proračunske postavke, te pa na podkonte, določene s predpisanim kontnim načrtom.
+
+Posebni del proračuna do ravni proračunskih postavk – podkontov in načrt razvojnih programov sta prilogi k temu odloku in se objavita na spletni strani Občine Litija (www.litija.si). Načrt razvojnih programov sestavljajo projekti.«
+
+2. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 007-5/16
+
+Litija, dne 7. junija 2017
+
+Župan
+
+Občine Litija
+
+Franci Rokavec
+l.r.
