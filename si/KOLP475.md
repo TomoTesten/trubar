@@ -4,9 +4,9 @@ naziv: "Aneks št. 2 h Kolektivni pogodbi dejavnosti trgovine Slovenije"
 vrsta: "akt"
 datum: 2017-07-21
 sop: 2017-01-2027
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-2027"
 ---
 

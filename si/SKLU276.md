@@ -4,9 +4,9 @@ naziv: "Sklep o zavrnitvi pobude"
 vrsta: "akt"
 datum: 2017-07-28
 sop: 2017-01-2084
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-2084"
 ---
 

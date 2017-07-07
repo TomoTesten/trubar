@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Poslovnika Državnega zbora (PoDZ-1E)"
 vrsta: "akt"
 datum: 2017-07-14
 sop: 2017-01-1939
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-1939"
 ---
 

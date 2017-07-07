@@ -4,9 +4,9 @@ naziv: "Uredba o vzpostavitvi infrastrukture za alternativna goriva v prometu"
 vrsta: "akt"
 datum: 2017-07-28
 sop: 2017-01-2131
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-2131"
 ---
 
