@@ -2,11 +2,11 @@
 kratica: MP_PRAV7772
 naziv: "Pravilnik o dodeljevanju sredstev za pospeševanje in spodbujanje razvoja podjetništva v Občini Duplek (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2026-01-05
+datum: 2017-10-13
 sop: 2017-97-0496
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Duplek"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-97-0496"
 ---
 
