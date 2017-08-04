@@ -4,9 +4,9 @@ naziv: "Statut Zbornice podjetij za izterjavo"
 vrsta: "akt"
 datum: 2017-08-25
 sop: 2017-01-2232
-organ: "Zbornica podjetij za izterjavo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-2232"
 ---
 

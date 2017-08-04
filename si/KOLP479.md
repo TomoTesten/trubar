@@ -4,9 +4,9 @@ naziv: "Aneks št. 2 h Kolektivni pogodbi za gozdarsko dejavnost – tarifni del
 vrsta: "akt"
 datum: 2017-08-29
 sop: 2017-01-2252
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-2252"
 ---
 
