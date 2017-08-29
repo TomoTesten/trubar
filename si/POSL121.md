@@ -4,9 +4,9 @@ naziv: "Poslovnik Sveta za elektronske komunikacije Republike Slovenije"
 vrsta: "akt"
 datum: 2017-09-15
 sop: 2017-01-2353
-organ: "Svet za elektronske komunikacije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-2353"
 ---
 
