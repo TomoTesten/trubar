@@ -1,0 +1,1010 @@
+---
+kratica: MP_ODLO41773
+naziv: "Odlok o dopolnitvi Odloka o kategorizaciji občinskih javnih cest v Občini Podčetrtek (ODLO)"
+vrsta: "občinski odlok"
+datum: 2017-11-03
+sop: 2017-01-2956
+organ: "Občina Podčetrtek"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-2956"
+---
+
+# Odlok o dopolnitvi Odloka o kategorizaciji občinskih javnih cest v Občini Podčetrtek (ODLO)
+
+Na podlagi določil 103. člena Zakona o cestah (Uradni list RS, št. 109/10) in 17. člena Statuta Občine Podčetrtek (Uradni list RS, št. 54/10, 17/16) je Občinski svet Občine Podčetrtek na 19. redni seji dne 20. 10. 2017 sprejel
+
+O D L O K
+
+o dopolnitvi Odloka o kategorizaciji občinskih javnih cest v Občini Podčetrtek
+
+1. člen
+
+5.
+člen Odloka o kategorizaciji občinskih javnih cest v Občini Podčetrtek (Uradni list RS, št. 85/08 z dne 29. 8. 2008, v nadaljnjem besedilu Odlok) se spremeni tako, da se glasi:
+
+»Javne poti (JP) v naseljih in med naselji so:
+
+Zap. št.
+Cesta
+Odsek
+Začetek o dseka
+Potek
+Konec odseka
+Dolžina [m]
+Preostala dolžina v sosednji občini [m]
+1.
+681240
+681241
+C 683
+Dobležiče-Gostinca
+O 181132
+287
+366 Kozje
+2.
+681590
+681591
+O 181081
+Štukelj-Vrh 76
+Z HŠ 76
+684
+462 Kozje
+3.
+817010
+817011
+C 219
+Pristava 5
+Z HŠ 5
+457
+4.
+817020
+817021
+C 219
+Pristava 21c
+Z HŠ 21c
+110
+5.
+817030
+817031
+O 317011
+C 317010-C 317030
+O 317031
+462
+6.
+817040
+817041
+O 317011
+Kos
+Z HŠ 10
+254
+7.
+817050
+817051
+O 317011
+C 317010-C 317030
+O 317031
+437
+8.
+817050
+817052
+O 317031
+Nezbiše 22
+Z HŠ 22
+945
+9.
+817060
+817061
+O 317031
+Nezbiše 18
+Z HŠ 18
+377
+10.
+817060
+817062
+O 317031
+Nezbiše 15
+Z HŠ 15
+356
+11.
+817070
+817071
+C 219
+Pristava 38
+Z HŠ 38
+396
+12.
+817080
+817081
+O 356131
+Jerčin
+O 317031
+1.758
+13.
+817090
+817091
+O 317031
+Križ 21
+Z HŠ 21
+581
+14.
+817100
+817101
+O 817081
+Jerčin
+Z HŠ 8
+443
+15.
+817100
+817102
+O 817101
+Vovk
+Z HŠ 6
+726
+16.
+817110
+817111
+O 317021
+Mikulan
+Z HŠ 26
+287
+17.
+817120
+817121
+O 317021
+Sv. Ema
+Z N.H.
+490
+18.
+817130
+817131
+O 317021
+Vonarje-C 356120
+O 356121
+837
+19.
+817140
+817141
+O 356121
+Vonarje
+Z Vonar
+442
+20.
+817150
+817151
+O 356121
+Vidovica 2
+Z HŠ 2
+376
+21.
+817160
+817161
+O 317021
+Vidovica 15
+Z HŠ 15
+306
+22.
+817170
+817171
+O 356121
+Vonarje 6
+Z HŠ 6
+202
+23.
+817180
+817181
+C 219
+AT toplice (kamp)
+Z terme
+165
+24.
+817190
+817191
+O 317041
+Komerički
+Z HŠ 28a
+102
+25.
+817200
+817201
+O 396083
+Cmereška Gorca 10
+Z HŠ 10
+165
+26.
+817210
+817211
+O 317041
+Cmereška Gorca 4
+Z HŠ 4
+698
+27.
+817210
+817212
+O 317041
+Sv. Urban
+Z cerkev
+219
+28.
+817220
+817221
+O 396083
+Rog. Gorca-C 406310
+O 406311
+1.236
+29.
+817220
+817222
+O 817221
+Rog. Gorca 43
+Z HŠ 43
+152
+30.
+817240
+817241
+O 396083
+Rog. Gorca 18
+Z HŠ 18
+346
+31.
+817250
+817251
+O 406311
+Rog. Gorca-C 396080
+O 396083
+1.309
+32.
+817250
+817252
+O 396083
+Rog. Gorca 11
+Z HŠ 11
+878
+33.
+817250
+817253
+O 817252
+Rog. Gorca 17a
+Z HŠ 17a
+324
+34.
+817260
+817261
+O 396083
+Šumak-Esih
+O 396083
+1.151
+35.
+817270
+817271
+O 396083
+Cmereška Gorca 2
+Z HŠ 2
+400
+36.
+817270
+817272
+O 817271
+Cmereška Gorca 12
+Z HŠ 12
+159
+37.
+817280
+817281
+O 396083
+Cmereška Gorca-C 317040
+O 317041
+647
+28.
+817290
+817291
+O 396083
+Sodna vas 22
+Z HŠ 22
+260
+39.
+817300
+817301
+O 396083
+Sodna vas 12
+Z HŠ 12
+566
+40.
+817310
+817311
+O 907160
+Roginče 53
+Z HŠ 53
+1.214
+41.
+817320
+817321
+O 817081
+Nezbiše 25
+Z HŠ 25
+505
+42.
+817330
+817331
+O 356121
+Drž. meja RH
+M RH
+77
+43.
+817340
+817341
+O 317051
+Romih-OŠ
+O 317051
+1.125
+44.
+817340
+817342
+O 317051
+Grad Podčetrtek
+Z grad
+426
+45.
+817340
+817343
+O 817341
+Povezava Podčetrtek-Olimia
+Z Olimia
+281
+46.
+817350
+817351
+O 317051
+Zdravstveni dom
+Z ZD
+97
+47.
+817350
+817352
+O 317051
+Podojstršek
+Z HŠ 54
+115
+48.
+817350
+817353
+O 317051
+Šuster
+Z HŠ 43
+198
+49.
+817360
+817361
+O 317051
+Gobec
+Z HŠ 23
+563
+50.
+817370
+817371
+O 317051
+Lovren-Anderlon
+O 317081
+1.030
+51.
+817370
+817372
+O 817371
+Tejča
+Z HŠ 18
+1.022
+52.
+817370
+817373
+O 817372
+Lipošek
+Z HŠ 25
+451
+53.
+817370
+817374
+O 317081
+Bloki-Jug
+O 817371
+760
+54.
+817380
+817381
+O 317081
+Štus
+O 817391
+286
+55.
+817390
+817391
+O 317081
+Drofenik
+Z HŠ 26
+769
+56.
+817390
+817392
+O 817391
+Pustišek
+Z HŠ 22
+244
+57.
+817400
+817401
+O 317081
+Motoh 38
+Z HŠ 38
+727
+58.
+817400
+817402
+O 817401
+Motoh 36
+Z HŠ 36
+357
+59.
+817400
+817403
+O 317081
+C 317080-Devica Marija
+Z cerkev
+311
+60.
+817410
+817411
+O 317081
+Slake 17
+Z HŠ 17
+1.403
+61.
+817420
+817421
+O 317081
+Počivaušek-Osojnik
+O 317061
+757
+62.
+817430
+817431
+O 317081
+Korenc
+Z HŠ 34
+509
+63.
+817430
+817432
+O 317081
+Žagar
+Z HŠ 33
+585
+64.
+817440
+817441
+O 317081
+Matiček
+Z HŠ 35
+161
+65.
+817450
+817451
+O 317081
+Olimje
+O 317061
+2.079
+66.
+817450
+817452
+O 817451
+Sopote 90
+Z HŠ 90
+306
+67.
+817450
+817453
+O 817451
+Sopote 36
+Z HŠ 36
+280
+68.
+817460
+817461
+O 317081
+Arbeiter-Virštanj
+O 317121
+1.045
+69.
+817470
+817471
+O 317081
+Druškovič
+Z HŠ 49
+306
+70.
+817480
+817481
+O 317061
+Čokolad.-Olimje-Zakošek
+O 317061
+2.910
+71.
+817480
+817483
+O 817481
+Olimje 64
+Z HŠ 64
+299
+72.
+817490
+817491
+C 219
+Lešnik
+Z HŠ 7b
+218
+73.
+817500
+817501
+C 219
+Božiček-Žagar
+O 317111
+1.019
+74.
+817510
+817511
+C 219
+Spodnje Imeno 54
+Z HŠ 54
+171
+75.
+817510
+817512
+C 219
+Ulčnik
+Z HŠ 41
+160
+76.
+817510
+817513
+C 683
+Spodnje Imeno 55
+Z HŠ 55
+62
+77.
+817520
+817521
+O 317111
+Gluža
+Z HŠ 6
+536
+78.
+817520
+817522
+O 317111
+Vrhovnica
+O 817501
+259
+79.
+817530
+817531
+O 317111
+Božičnik Jože
+Z Božičn
+162
+80.
+817540
+817541
+O 317111
+Lovski dom
+Z Lov.do
+95
+81.
+817550
+817551
+O 317111
+Imenska gorca 17
+Z HŠ 17
+194
+82.
+817550
+817552
+O 317111
+Imenska gorca-C 317100
+O 317101
+931
+83.
+817560
+817561
+O 317111
+Bolha
+Z HŠ 21b
+129
+84.
+817570
+817571
+O 317112
+Volovšek
+Z HŠ 2
+342
+85.
+817580
+817581
+O 317101
+Imenska gorca-Trebeže
+Z HŠ 30
+1.245
+86.
+817580
+817582
+O 817581
+Sela 35
+Z HŠ 35
+140
+87.
+817580
+817583
+C 683
+Sela 35a
+Z HŠ 35a
+321
+88.
+817590
+817591
+C 683
+Plevnik-Stiplošek
+O 317101
+807
+89.
+817590
+817592
+O 817591
+Žakošek
+Z HŠ 67
+161
+90.
+817600
+817601
+O 317102
+Kajba
+Z HŠ 28
+605
+91.
+817600
+817602
+O 317102
+Amon
+Z HŠ 61
+250
+92.
+817610
+817611
+O 317102
+Turnšek-Drobnič
+Z HŠ 51
+679
+93.
+817610
+817612
+O 317121
+Hernaus
+Z HŠ 48d
+390
+94.
+817620
+817621
+O 317121
+Banovina-Zg. Virštanj
+O 396291
+808
+95.
+817630
+817631
+O 317132
+Podvrba 77
+Z HŠ 77
+196
+96.
+817640
+817641
+O 317101
+Virštanj 78
+Z HŠ 78
+91
+97.
+817650
+817651
+O 396291
+Virštanj 36a
+Z HŠ 36a
+332
+98.
+817650
+817652
+O 396291
+Virštanj 35
+Z HŠ 35
+167
+99.
+817660
+817661
+O 317131
+Reberšak
+O 396292
+1.482
+100.
+817670
+817671
+C 683
+Sela-Maljčajnsko
+Z HŠ 45
+992
+101.
+817670
+817672
+O 817671
+Trobentar
+Z HŠ 14
+402
+102.
+817670
+817673
+O 817661
+Čepin
+Z HŠ 15
+122
+103.
+817680
+817681
+O 317102
+Perkič
+Z HŠ 19
+440
+104.
+817690
+817691
+C 683
+Jurak
+Z HŠ 8
+673
+105.
+817700
+817701
+C 683
+Sela-Plevnik
+Z HŠ 5
+290
+106.
+817710
+817711
+C 683
+Ajdjek-Štukl
+O 317141
+1.162
+107.
+817720
+817721
+O 317141
+Založnik
+Z HŠ 9
+376
+108.
+817730
+817731
+O 317141
+Senica-Oglajner
+Z HŠ 29
+396
+109.
+817730
+817732
+O 317141
+Senica-Kuhar
+O 817733
+665
+110.
+817730
+817733
+O 317142
+Zagašca
+Z N.H.
+347
+111.
+817740
+817741
+O 317142
+Jug-Babič
+Z HŠ 49
+778
+112.
+817740
+817742
+O 317142
+Krofl
+O 817741
+470
+113.
+817750
+817751
+O 396292
+Cener-Urlep
+O 396292
+1.248
+114.
+817760
+817761
+C 683
+Verače 32
+Z HŠ 32
+436
+115.
+817770
+817771
+O 181132
+Gostinca 5
+Z HŠ 5
+152
+116.
+817780
+817781
+O 181132
+Štraus
+Z HŠ 14
+188
+117.
+817790
+817791
+O 181132
+Jug 17
+Z HŠ 17
+120
+118.
+817800
+817801
+C 317170
+Pristava pri Lesičnem
+Z HŠ 7
+519
+119.
+817820
+817821
+C 683
+Jug 6
+Z HŠ 6
+907
+120.
+817830
+817831
+C 219
+Prelasko-C 219
+C 219
+524
+121.
+817830
+817832
+O 817831
+Prelasko 15
+Z HŠ 15
+499
+122.
+817840
+817841
+O 317142
+Prelasko 18
+Z HŠ 18
+385
+123.
+817850
+817851
+C 684
+Prelasko-Sedlarska hosta
+Z S.host
+534
+124.
+817860
+817861
+O 817922
+Polje ob Sotli-Kunej
+O 396293
+1.075
+125.
+817860
+817862
+O 817861
+Kunej-Hostnik
+Z HŠ 38
+151
+126.
+817870
+817871
+C 219
+Juričan
+O 317151
+551
+127.
+817880
+817881
+C 219
+Lastnič 23
+Z HŠ 23
+962
+128.
+817880
+817882
+O 817881
+Lastnič-C 817890
+O 817891
+173
+129.
+817890
+817891
+C 219
+Lastnič-Marof
+Z HŠ 19
+1.095
+130.
+817900
+817901
+O 317151
+Pustek
+O 317151
+1.351
+131.
+817910
+817911
+O 181081
+Bevc
+O 181081
+1.734
+132.
+817920
+817921
+O 181081
+Brezovec
+Z HŠ 20
+508
+133.
+817920
+817922
+O 317151
+Kopinja Loka-Polje ob Sotli
+O 396293
+2.278
+134.
+817930
+817931
+O 317151
+Lastnič 35
+Z HŠ 35
+324
+135.
+817940
+817941
+O 317151
+Lastnič 48
+Z HŠ 48
+1.002
+136.
+817950
+817951
+C 683
+Čepin
+Z HŠ 11b
+279
+
+Skupna dolžina javnih poti (JP) v občini Podčetrtek znaša 77.248 m (77,248 km).«
+
+3. člen
+
+H kategorizaciji občinskih cest, določenih s tem odlokom, je bilo v skladu z določbo 18. člena Uredbe o merilih za kategorizacijo javnih cest (Uradni list RS, št. 49/97) pridobljeno soglasje Direkcije Republike Slovenije za infrastrukturo, št. 37162-3/2017-149(507), z dne 29. 8. 2017.
+
+4. člen
+
+Ta odlok začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 032-139/2017
+
+Podčetrtek, dne 23. oktobra 2017
+
+Župan
+
+Občine Podčetrtek
+
+Peter Misja
+l.r.
