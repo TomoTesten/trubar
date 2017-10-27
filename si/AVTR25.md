@@ -4,9 +4,9 @@ naziv: "Avtentična razlaga četrtega odstavka 153. člena in drugega odstavka 1
 vrsta: "akt"
 datum: 2017-11-24
 sop: 2017-01-3091
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-3091"
 ---
 
