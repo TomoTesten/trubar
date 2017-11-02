@@ -2,11 +2,11 @@
 kratica: TARI194
 naziv: "Cenik cestnine za uporabo cestninskih cest"
 vrsta: "akt"
-datum: 2016-12-02
+datum: 2017-11-10
 sop: 2016-01-3308
-organ: "Družba za avtoceste v Republiki Sloveniji"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-3308"
 ---
 
