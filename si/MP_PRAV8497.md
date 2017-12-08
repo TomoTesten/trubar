@@ -2,11 +2,11 @@
 kratica: MP_PRAV8497
 naziv: "Pravilnik o vrednotenju in sofinanciranju športnih programov v Občini Šenčur (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2026-01-05
+datum: 2017-12-22
 sop: 2017-97-0730
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Šenčur"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-97-0730"
 ---
 
