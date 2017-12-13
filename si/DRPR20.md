@@ -4,9 +4,9 @@ naziv: "Spremembe Proračuna Republike Slovenije za leto 2018 (DP2018-A)"
 vrsta: "akt"
 datum: 2017-12-13
 sop: 2017-01-3413
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-3413"
 ---
 

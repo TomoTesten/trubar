@@ -4,9 +4,9 @@ naziv: "Proračun Republike Slovenije za leto 2019 (DP2019)"
 vrsta: "akt"
 datum: 2017-12-13
 sop: 2017-01-3414
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-3414"
 ---
 

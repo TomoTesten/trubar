@@ -4,9 +4,9 @@ naziv: "Tarifa 2018 o vrednosti točke za plačilo na podlagi dovoljenja za izva
 vrsta: "akt"
 datum: 2017-12-22
 sop: 2017-01-3727
-organ: "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-3727"
 ---
 
