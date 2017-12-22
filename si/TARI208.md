@@ -4,9 +4,9 @@ naziv: "Tarifa o določitvi cene vozniškega izpita Javne agencije Republike Slo
 vrsta: "akt"
 datum: 2017-12-29
 sop: 2017-01-3897
-organ: "Javna agencija Republike Slovenije za varnost prometa"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-3897"
 ---
 
