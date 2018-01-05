@@ -4,9 +4,9 @@ naziv: "Aneks št. 2 h Kolektivni pogodbi za dejavnost poklicnega gasilstva – 
 vrsta: "akt"
 datum: 2018-01-26
 sop: 2018-01-0178
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-0178"
 ---
 

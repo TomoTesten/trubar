@@ -4,9 +4,9 @@ naziv: "Sklep o začasnem zadržanju izvrševanja drugega stavka druge alineje d
 vrsta: "akt"
 datum: 2018-01-26
 sop: 2018-01-0176
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-0176"
 ---
 
