@@ -4,9 +4,9 @@ naziv: "Resolucija o družinski politiki 2018–2028 »Vsem družinam prijazna d
 vrsta: "akt"
 datum: 2018-03-07
 sop: 2018-01-0655
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-0655"
 ---
 
