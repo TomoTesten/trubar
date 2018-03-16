@@ -4,9 +4,9 @@ naziv: "Merila za strokovnjake Nacionalne agencije Republike Slovenije za kakovo
 vrsta: "akt"
 datum: 2018-03-30
 sop: 2018-01-0911
-organ: "Nacionalna agencija Republike Slovenije za kakovost v visokem šolstvu"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-0911"
 ---
 
