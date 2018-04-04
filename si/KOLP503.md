@@ -4,9 +4,9 @@ naziv: "Tarifna priloga h Kolektivni pogodbi dejavnosti bančništva Slovenije z
 vrsta: "akt"
 datum: 2018-04-13
 sop: 2018-01-1067
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-1067"
 ---
 

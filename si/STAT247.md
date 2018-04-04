@@ -4,9 +4,9 @@ naziv: "Statut Skupnosti muzejev Slovenije"
 vrsta: "akt"
 datum: 2018-04-13
 sop: 2018-01-1065
-organ: "Skupnost muzejev Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-1065"
 ---
 

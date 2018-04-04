@@ -4,9 +4,9 @@ naziv: "Obvezna razlaga prve in druge alinee 1. točke tarifne številke 3 in 2.
 vrsta: "akt"
 datum: 2018-04-20
 sop: 2018-01-1245
-organ: "Odvetniška zbornica Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-1245"
 ---
 
