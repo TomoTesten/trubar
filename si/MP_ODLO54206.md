@@ -2,11 +2,11 @@
 kratica: MP_ODLO54206
 naziv: "Odlok o turistični taksi v Občini Divača (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-05
+datum: 2018-06-08
 sop: 2018-97-0346
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Divača"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-97-0346"
 ---
 

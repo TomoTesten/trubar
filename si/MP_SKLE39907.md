@@ -2,11 +2,11 @@
 kratica: MP_SKLE39907
 naziv: " Sklep o določitvi volilnih enot v krajevnih skupnostih v Mestni občini Novo mesto (SKLE)"
 vrsta: "občinski sklep"
-datum: 2026-01-05
+datum: 2018-06-12
 sop: 2018-23-0027
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Mestna občina Novo mesto"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-23-0027"
 ---
 
