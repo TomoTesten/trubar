@@ -4,9 +4,9 @@ naziv: "Sklep o nesprejemu ustavnih pritožb"
 vrsta: "akt"
 datum: 2018-05-25
 sop: 2018-01-1688
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-1688"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Spremembe Poslovnika občne seje Vrhovnega sodišča Republike Slovenije
 vrsta: "akt"
 datum: 2018-05-25
 sop: 2018-01-1691
-organ: "Vrhovno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-1691"
 ---
 
