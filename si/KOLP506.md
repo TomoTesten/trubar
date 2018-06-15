@@ -4,9 +4,9 @@ naziv: "Aneks številka 2 h Kolektivni pogodbi za kmetijstvo in živilsko indust
 vrsta: "akt"
 datum: 2018-06-29
 sop: 2018-01-2228
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-2228"
 ---
 
