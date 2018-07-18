@@ -24,6 +24,10 @@ spremembe:
     datum: 2006-05-09
     sop: 2006-01-2029
     naziv: "Zakon o spremembah in dopolnitvah zakona o zdravniški službi"
+  - kratica: ZZdrS-G
+    datum: 2018-07-18
+    sop: 2018-01-2523
+    naziv: "Zakon o dopolnitvi Zakona o zdravniški službi"
 ---
 
 # Zakon o zdravniški službi
