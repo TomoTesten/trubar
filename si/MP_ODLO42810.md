@@ -1,0 +1,221 @@
+---
+kratica: MP_ODLO42810
+naziv: "Odlok o spremembah in dopolnitvah Odloka o proračunu Mestne občine Slovenj Gradec za leto 2018 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2018-07-20
+sop: 2018-01-2600
+organ: "Mestna občina Slovenj Gradec"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-2600"
+---
+
+# Odlok o spremembah in dopolnitvah Odloka o proračunu Mestne občine Slovenj Gradec za leto 2018 (ODLO)
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 72/93, 6/94 – odločba US, 45/94 – odločba US, 57/94, 14/95, 20/95 – odločba US, 63/95 – obvezna razlaga, 9/96 – odločba US, 44/96 – odločba US, 26/97, 70/97, 10/98, 74/98, 59/99 – odločba US, 70/00, 100/00 – sklep US, 16/02 – sklep US, 51/02), 29. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – UPB, 14/13 – popr., 101/13) in 7. člena Statuta Mestne občine Slovenj Gradec (Uradni list RS, št. 87/15 – UPB) je Svet Mestne občine Slovenj Gradec na 40. redni seji dne 4. 7. 2018 sprejel
+
+O D L O K
+
+o spremembah in dopolnitvah Odloka o proračunu Mestne občine Slovenj Gradec za leto 2018
+
+1. člen
+
+V Odloku o proračunu Mestne občine Slovenj Gradec za leto 2018 (Uradni list RS, št. 4/18) se prvi odstavek 2. člena spremeni tako, da se glasi:
+
+»Splošni del proračuna na ravni podskupin kontov se določi v naslednjih zneskih:
+
+A
+BILANCA PRIHODKOV IN ODHODKOV
+v EUR
+KONTO
+NAZIV KONTA
+1. REBALANS 2018
+1
+2
+3
+I. SKUPAJ PRIHODKI(70+71+72+73+74)
+20.869.311,05
+TEKOČI PRIHODKI (70+71)
+15.848.137,35
+70
+DAVČNI PRIHODKI (700+703+704)
+12.631.525,64
+700
+DAVKI NA DOHODEK IN DOBIČEK
+9.519.101,26
+703
+DAVKI NA PREMOŽENJE
+2.715.924,38
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+396.500,00
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+3.216.611,71
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+1.861.667,69
+711
+TAKSE IN PRISTOJBINE
+5.000,00
+712
+GLOBE IN DRUGE DENARNE KAZNI
+20.000,00
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+8.177,75
+714
+DRUGI NEDAVČNI PRIHODKI
+1.321.766,27
+72
+KAPITALSKI PRIHODKI (720+722)
+1.521.289,41
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+45.805,00
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDM. SRED.
+1.475.484,41
+73
+PREJETE DONACIJE (730)
+0,00
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+0,00
+74
+TRANSFERNI PRIHODKI (740)
+3.499.884,29
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINAN. INSTITUC.
+2.604.394,84
+741
+PREJETA SREDSTVA IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV EVROPSKE UNIJE
+895.489,45
+II. SKUPAJ ODHODKI (40+41+42+43)
+22.617.550,51
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+5.976.835,68
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+1.560.138,85
+401
+PRISPEVKI DELODAJALCEV ZA SOC. VARNOST
+247.611,15
+402
+IZDATKI ZA BLAGO IN STORITVE
+3.839.461,68
+403
+PLAČILA DOMAČIH OBRESTI
+62.624,00
+409
+REZERVE
+267.000,00
+41
+TEKOČI TRANSFERI (410+411+412+413+414)
+6.845.638,85
+410
+SUBVENCIJE
+80.554,09
+411
+TRANSFERI POSAMEZNIKOM, GOSPODINJSTVOM
+3.262.546,00
+412
+TRANSFERI NEPRIDOBITNIM ORGANIZ. IN USTANOVAM
+605.587,29
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+2.881.951,47
+414
+TEKOČI TRANSFERI V TUJINO
+15.000,00
+42
+INVESTICIJSKI ODHODKI (420)
+9.426.797,98
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+9.426.797,98
+43
+INVESTICIJSKI TRANSFERI (430)
+368.278,00
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ. OSEBAM, KI NISO PRORAČ. UPORABNIKI
+153.000,00
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+215.278,00
+III. PRORAČUNSKI PRIMANJKLJAJ/PRESEŽEK (I.-II.)
+–1.748.239,46
+B
+RAČUN FINANČNIH TERJATEV IN NALOŽB
+75
+IV. PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750)
+50.000,00
+750
+PREJETA VRAČILA DANIH POSOJIL
+50.000,00
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0,00
+44
+V. DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440)
+50.000,00
+440
+DANA POSOJILA
+50.000,00
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FIN. NALOŽB
+0,00
+VI. PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITAL. DELEŽEV (IV.-V.)
+0,00
+C
+RAČUN FINANCIRANJA
+50
+VII. ZADOLŽEVANJE (500)
+1.162.800,00
+500
+DOMAČE ZADOLŽEVANJE
+1.162.800,00
+55
+VIII. ODPLAČILO DOLGA (550)
+750.717,00
+550
+ODPLAČILA DOMAČEGA DOLGA
+750.717,00
+IX. SPREMEMBA STANJA SREDSTEV NA RAČUNU(I.+IV.+VII.-II.-V.-VIII.)
+–1.336.156,46
+X. NETO ZADOLŽEVANJE (VII.-VIII.)
+412.083,00
+XI. NETO FINANCIRANJE (VI.+X.-IX.)
+1.748.239,46
+XII. STANJE SRED. NA RAČUNIH NA DAN 31. 12. PRETEKLEGA LETA
+1.336.156,46
+
+«
+
+2. člen
+
+(obseg zadolževanja mestne občine)
+
+Mestna občina Slovenj Gradec se bo v letu 2018 dolgoročno zadolžila do višine 1.162.800,00 EUR za izvrševanje občinskega proračuna za investicije, predvidene v občinskem proračunu.
+
+3. člen
+
+(upravljanje z dolgom)
+
+Mestna občina Slovenj Gradec v letu 2018 ne namerava upravljati z dolgom.
+
+4. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 410-0028/2018
+
+Slovenj Gradec, dne 5. julija 2018
+
+Župan
+
+Mestne občine Slovenj Gradec
+
+Andrej Čas
+l.r.
