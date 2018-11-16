@@ -1,0 +1,1277 @@
+---
+kratica: KOLP493
+naziv: "Aneks št. 3 h Kolektivni pogodbi za kmetijsko dejavnost – tarifni del"
+vrsta: "akt"
+datum: 2018-12-07
+sop: 2018-01-3876
+organ: "Vlada Republike Slovenije"
+zbirka: "Neveljavni predpisi"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-3876"
+---
+
+# Aneks št. 3 h Kolektivni pogodbi za kmetijsko dejavnost – tarifni del
+
+Na podlagi drugega odstavka 13. člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 108/09 – uradno prečiščeno besedilo, 13/10, 59/10, 85/10, 107/10, 35/11 – ORZSPJS49a, 27/12 – odl. US, 40/12 – ZUJF, 46/13, 25/14 – ZFU, 50/14, 95/14 – ZUPPJS15, 82/15, 23/17 – ZDOdv in 67/17) in 4. člena Kolektivne pogodbe za kmetijsko dejavnost – tarifni del (Uradni list RS, št. 60/08, 106/15 in 46/17)
+
+Vlada Republike Slovenije kot stranka na strani delodajalca, ki jo zastopajo Rudi Medved, minister za javno upravo, dr. Andrej Bertoncelj, minister za finance, in dr. Aleksandra Pivec, ministrica za kmetijstvo, gozdarstvo in prehrano
+
+in
+
+Sindikat državnih organov Slovenije, ki ga zastopa Frančišek Verk,
+
+kot stranka na strani delojemalcev,
+
+skleneta
+
+A N E K S  š t. 3
+
+h Kolektivni pogodbi za kmetijsko dejavnost – tarifni del
+
+1. člen
+
+(namen sklepanja)
+
+Ta aneks se sklepa zaradi realizacije IV. in VIII. točke Dogovora o ukrepih na področju stroškov dela in drugih ukrepih v javnem sektorju (Uradni list RS, št. 88/16) in Dogovora o plačah in drugih stroških dela v javnem sektorju (Uradni list RS, št. 80/18).
+
+2. člen
+
+(določitev plačnih razredov plačne skupine I in podskupine I1)
+
+V Kolektivni pogodbi za kmetijsko dejavnost – tarifni del (Uradni list RS, št. 60/08, 106/15 in 46/17) se v prvem odstavku 14. člena tabela nadomesti z novo tabelo, ki se glasi:
+
+»
+
+Zap. št.
+Šifra DM
+DELOVNO MESTO
+TR
+Šifra N
+NAZIV
+Plačni razred brez napr.
+Plačni razred z napr.
+1
+I012001
+DELAVEC V KMETIJSTVU II
+II
+0
+11
+21
+2
+I012002
+DELAVEC V KMETIJSTVU
+IN RIBIŠTVU II
+II
+0
+12
+22
+3
+I013003
+DELAVEC V KMETIJSTVU
+IN RIBIŠTVU III
+III
+0
+13
+23
+4
+I014003
+KONTROLOR II
+IV
+0
+15
+25
+5
+I014007
+SAMOSTOJNI REFERENT V
+IV
+0
+15
+25
+6
+I014013
+DELAVEC V KMETIJSTVU
+IN RIBIŠTVU IV
+IV
+0
+17
+27
+7
+I015001
+DELOVODJA V KMETIJSTVU II
+V
+0
+22
+32
+8
+I015002
+EVIDENTIČAR
+V
+0
+17
+27
+9
+I015011
+KONTROLOR I
+V
+0
+22
+32
+10
+I015013
+LABORATORIJSKI TEHNIK
+V
+0
+22
+32
+11
+I015023
+ODVZEMALEC SEMENA
+V
+0
+17
+27
+12
+I015028
+PREDDELAVEC
+V
+0
+20
+30
+13
+I015036
+REVIRNI RIBIŠKI ČUVAJ
+V
+0
+21
+31
+14
+I015037
+RIBOGOJEC
+V
+0
+21
+31
+15
+I015039
+RODOVNIČAR
+V
+0
+18
+28
+16
+I015040
+SAMOSTOJNI REFERENT IV
+V
+0
+22
+32
+17
+I015052
+TEHNIČNI SODELAVEC IV
+V
+0
+17
+27
+18
+I015053
+TEHNIK
+V
+0
+18
+28
+19
+I015058
+TEHNIK ZA SPREJEM VZORCEV
+V
+0
+19
+29
+20
+I015080
+DELAVEC V KMETIJSTVU IN RIBIŠTVU V
+V
+0
+19
+29
+21
+I015901
+SKUPINOVODJA
+V
+0
+22
+32
+22
+I016001
+ANALITIK LABORANT IV
+VI
+0
+25
+35
+23
+I016002
+DELOVODJA V KMETIJSTVU I
+VI
+0
+24
+34
+24
+I016008
+KONTROLOR V KMETIJSTVU
+VI
+0
+24
+34
+25
+I016009
+KOORDINATOR IV
+VI
+0
+26
+36
+26
+I016010
+LABORATORIJSKI TEHNIK POVZORČEVALEC
+VI
+0
+23
+33
+27
+I016018
+OBDELOVALEC PODATKOV
+VI
+0
+22
+32
+28
+I016026
+RODOVNIČAR
+VI
+0
+23
+33
+29
+I016027
+SAMOSTOJNI REFERENT II
+VI
+0
+24
+34
+30
+I016028
+SAMOSTOJNI REFERENT III
+VI
+0
+23
+33
+31
+I016031
+SELEKCIONIST IV
+VI
+0
+27
+37
+32
+I016034
+STROKOVNI SODELAVEC V
+VI
+0
+24
+34
+33
+I016036
+TEHNIČNI SODELAVEC III
+VI
+0
+22
+32
+34
+I016037
+TEHNOLOG IV
+VI
+0
+24
+34
+35
+I016040
+VIŠJI PROJEKTNI REFERENT II
+VI
+0
+25
+35
+36
+I016044
+VIŠJI STROKOVNI SODELAVEC I
+VI
+0
+25
+35
+37
+I016045
+VIŠJI STROKOVNI SODELAVEC II
+VI
+0
+24
+34
+38
+I016048
+TERENSKI KMETIJSKI SVETOVALEC IV
+VI
+0
+26
+36
+39
+I017001
+ANALITIK LABORANT I
+VII/2
+0
+35
+45
+40
+I017002
+ANALITIK LABORANT II
+VII/2
+0
+33
+43
+41
+I017003
+ANALITIK LABORANT III
+VII/1
+0
+29
+39
+42
+I017018
+KMETIJSKI SVETOVALEC I
+VII/1
+0
+30
+40
+43
+I017019
+KMETIJSKI SVETOVALEC II
+VII/1
+0
+29
+39
+44
+I017020
+KMETIJSKI SVETOVALEC III
+VII/1
+0
+28
+38
+45
+I017021
+KONTROLOR V KMETIJSTVU I
+VII/2
+0
+35
+45
+46
+I017022
+KONTROLOR V KMETIJSTVU II
+VII/2
+0
+33
+43
+47
+I017023
+KONTROLOR V KMETIJSTVU III
+VII/1
+0
+29
+39
+48
+I017025
+KOORDINATOR I
+VII/2
+0
+35
+45
+49
+I017026
+KOORDINATOR II
+VII/2
+0
+33
+43
+50
+I017027
+KOORDINATOR III
+VII/1
+0
+29
+39
+51
+I017028
+LABORATORIJSKI TEHNOLOG KEMIK
+VII/2
+0
+33
+43
+52
+I017034
+MLADI RAZISKOVALEC
+VII/1
+0
+29
+39
+53
+I017059
+PROJEKTNI SVETOVALEC I
+VII/1
+0
+29
+39
+54
+I017061
+RAZISKOVALEC I
+VII/2
+0
+34
+44
+55
+I017062
+RAZISKOVALEC II
+VII/2
+0
+32
+42
+56
+I017068
+SAMOSTOJNI SVETOVALEC I
+VII/1
+0
+28
+38
+57
+I017084
+SELEKCIONIST I
+VII/2
+0
+36
+46
+58
+I017085
+SELEKCIONIST II
+VII/2
+0
+34
+44
+59
+I017086
+SELEKCIONIST III
+VII/1
+0
+30
+40
+60
+I017091
+STROKOVNI SODELAVEC I
+VII/2
+0
+36
+46
+61
+I017092
+STROKOVNI SODELAVEC II
+VII/2
+0
+34
+44
+62
+I017093
+STROKOVNI SODELAVEC III
+VII/2
+0
+32
+42
+63
+I017094
+STROKOVNI SODELAVEC IV
+VII/1
+0
+29
+39
+64
+I017119
+SVETOVALEC SPECIALIST I
+VII/2
+0
+37
+47
+65
+I017120
+SVETOVALEC SPECIALIST II
+VII/2
+0
+35
+45
+66
+I017121
+SVETOVALEC SPECIALIST III
+VII/1
+0
+29
+39
+67
+I017128
+TEHNIČNI SODELAVEC I
+VII/2
+0
+34
+44
+68
+I017129
+TEHNIČNI SODELAVEC II
+VII/1
+0
+30
+40
+69
+I017130
+TEHNOLOG I
+VII/2
+0
+35
+45
+70
+I017131
+TEHNOLOG II
+VII/2
+0
+33
+43
+71
+I017132
+TEHNOLOG III
+VII/1
+0
+27
+37
+72
+I017136
+TERENSKI KMETIJSKI SVETOVALEC I
+VII/2
+0
+33
+43
+73
+I017137
+TERENSKI KMETIJSKI SVETOVALEC II
+VII/1
+0
+30
+40
+74
+I017138
+TERENSKI KMETIJSKI SVETOVALEC III
+VII/1
+0
+28
+38
+75
+I017143
+VIŠJI KOORDINATOR ZA PODROČJE KMETIJSTVA
+VII/2
+0
+40
+50
+76
+I017149
+VIŠJI SODELAVEC I
+VII/2
+0
+39
+49
+77
+I017150
+VIŠJI SODELAVEC II
+VII/2
+0
+37
+47
+78
+I017151
+VIŠJI SODELAVEC III
+VII/2
+0
+34
+44
+79
+I017173
+VODJA KAKOVOSTI I
+VII/2
+0
+36
+46
+80
+I017174
+VODJA KAKOVOSTI II
+VII/2
+0
+33
+43
+81
+I017177
+VODJA RODOVNIKA I
+VII/1
+0
+30
+40
+82
+I017178
+VODJA RODOVNIKA II
+VII/1
+0
+27
+37
+83
+I017923
+VODJA OBMOČNE ENOTE I
+VII/2
+0
+47
+57
+84
+I017924
+VODJA OBMOČNE ENOTE II
+VII/2
+0
+46
+56
+85
+I017925
+VODJA OBMOČNE ENOTE III
+VII/2
+0
+45
+55
+86
+I017927
+VODJA ODDELKA I
+VII/2
+0
+45
+55
+87
+I017928
+VODJA ODDELKA II
+VII/2
+0
+44
+54
+88
+I017929
+VODJA ODDELKA III
+VII/2
+0
+43
+53
+89
+I017930
+VODJA ODDELKA IV
+VII/2
+0
+42
+52
+90
+I017939
+VODJA SEKTORJA I
+VII/2
+0
+47
+57
+91
+I017940
+VODJA SEKTORJA II
+VII/2
+0
+46
+56
+92
+I017941
+VODJA SEKTORJA III
+VII/2
+0
+45
+55
+93
+I017944
+VODJA SLUŽBE I
+VII/2
+0
+42
+52
+94
+I017945
+VODJA SLUŽBE II
+VII/2
+0
+41
+51
+95
+I017946
+VODJA SLUŽBE III
+VII/2
+0
+40
+50
+
+«.
+
+3. člen
+
+(določitev plačnih razredov plačne skupine J)
+
+V prvem odstavku 16. člena se tabela nadomesti z novo tabelo, ki se glasi:
+
+»
+
+Zap. št.
+DM/N
+Šifra DM
+DELOVNO MESTO
+TR
+Šifra N
+NAZIV
+Plačni razred brez napr.
+Plačni razred z napr.
+1
+J015002
+BLAGAJNIK V
+V
+0
+19
+29
+2
+J015008
+FINANČNIK V
+V
+0
+20
+30
+3
+J015011
+KADROVIK V
+V
+0
+20
+30
+4
+J015013
+KNJIGOVODJA V
+V
+0
+20
+30
+5
+J015026
+PROGRAMER APLIKACIJ V
+V
+0
+22
+32
+6
+J016005
+FINANČNIK VI
+VI
+0
+24
+34
+7
+J016014
+KNJIGOVODJA VI
+VI
+0
+23
+33
+8
+J016027
+RAČUNOVODJA VI
+VI
+0
+25
+35
+9
+J016028
+REFERENT VI
+VI
+0
+23
+33
+10
+J016041
+VIŠJI REFERENT VI (I)
+VI
+0
+24
+34
+11
+J017003
+ANALITIK VII/1
+VII/1
+0
+29
+39
+12
+J017004
+ANALITIK VII/2 (I)
+VII/2
+0
+40
+50
+13
+J017005
+ANALITIK VII/2 (II)
+VII/2
+0
+35
+45
+14
+J017017
+FINANČNIK VII/2 (I)
+VII/2
+0
+40
+50
+15
+J017018
+FINANČNIK VII/2 (II)
+VII/2
+0
+35
+45
+16
+J017025
+INFORMATIK VII/1
+VII/1
+0
+30
+40
+17
+J017040
+KNJIGOVODJA VII/1
+VII/1
+0
+29
+39
+18
+J017054
+NOTRANJI REVIZOR VII/1
+VII/1
+0
+30
+40
+19
+J017055
+NOTRANJI REVIZOR VII/2
+VII/2
+0
+35
+45
+20
+J017056
+NOTRANJI REVIZOR VII/2 (I)
+VII/2
+0
+40
+50
+21
+J017058
+ODGOVORNI ANALITIK VII/2
+VII/2
+0
+33
+43
+22
+J017063
+ORGANIZATOR DELA VII/1
+VII/1
+0
+30
+40
+23
+J017090
+RAČUNOVODJA VII/1
+VII/1
+0
+30
+40
+24
+J017093
+RAČUNOVODJA VII/2 (III)
+VII/2
+0
+31
+41
+25
+J017110
+SAMOSTOJNI SVETOVALEC VII/2
+VII/2
+0
+36
+46
+26
+J017125
+SODELAVEC VII/2
+VII/2
+0
+32
+42
+27
+J017135
+STROKOVNI SODELAVEC VII/1
+VII/1
+0
+30
+40
+28
+J017136
+STROKOVNI SODELAVEC VII/2 (I)
+VII/2
+0
+40
+50
+29
+J017137
+STROKOVNI SODELAVEC VII/2 (II)
+VII/2
+0
+35
+45
+30
+J017145
+SVETOVALEC VII/1 (I)
+VII/1
+0
+30
+40
+31
+J017146
+SVETOVALEC VII/1 (II)
+VII/1
+0
+29
+39
+32
+J017147
+SVETOVALEC VII/2 (I)
+VII/2
+0
+34
+44
+33
+J017165
+VIŠJI SVETOVALEC VII/2 (I)
+VII/2
+0
+35
+45
+34
+J017166
+VIŠJI SVETOVALEC VII/2 (II)
+VII/2
+0
+34
+44
+35
+J017167
+VIŠJI SVETOVALEC VII/2 (III)
+VII/2
+0
+33
+43
+36
+J024003
+KURIR IV
+IV
+0
+15
+25
+37
+J025002
+ADMINISTRATOR V
+V
+0
+20
+30
+38
+J025003
+ARHIVAR V
+V
+0
+19
+29
+39
+J025005
+DOKUMENTALIST V
+V
+0
+18
+28
+40
+J025012
+REFERENT V
+V
+0
+18
+28
+41
+J025015
+TAJNICA DIREKTORJA V
+V
+0
+20
+30
+42
+J025016
+TAJNICA DIREKTORJA V (I)
+V
+0
+21
+31
+43
+J025017
+TAJNICA FUNKCIONARJA V
+V
+0
+22
+32
+44
+J025018
+TAJNICA FUNKCIONARJA V (I)
+V
+0
+23
+33
+45
+J025019
+TAJNICA V
+V
+0
+18
+28
+46
+J026004
+POSLOVNI SEKRETAR VI
+VI
+0
+23
+33
+47
+J027005
+POSLOVNI SEKRETAR VII/1
+VII/1
+0
+27
+37
+48
+J027006
+POSLOVNI SEKRETAR VII/2
+VII/2
+0
+32
+42
+49
+J032001
+ČISTILKA II
+II
+0
+11
+21
+50
+J032010
+LABORATORIJSKI STREŽNIK II
+II
+0
+12
+22
+51
+J033023
+TELEFONIST III
+III
+0
+13
+23
+52
+J034002
+AVTOMEHANIK IV
+IV
+0
+17
+27
+53
+J034004
+ČUVAJ IV
+IV
+0
+15
+25
+54
+J034032
+LABORANT IV
+IV
+0
+17
+27
+55
+J034052
+PREDDELAVEC IV
+IV
+0
+19
+29
+56
+J034054
+RECEPTOR IV
+IV
+0
+16
+26
+57
+J034074
+TEHNIČNI DELAVEC IV (I)
+IV
+0
+17
+27
+58
+J034075
+TEHNIČNI DELAVEC IV (II)
+IV
+0
+16
+26
+59
+J034082
+TRAKTORIST STROJNIK IV
+IV
+0
+17
+27
+60
+J034087
+VOZNIK FUNKCIONARJA IV
+IV
+0
+19
+29
+61
+J034090
+VOZNIK KURIR IV
+IV
+0
+15
+25
+62
+J034094
+VZDRŽEVALEC IV
+IV
+0
+16
+26
+63
+J035027
+KMETIJSKI STROJNIK V
+V
+0
+19
+29
+64
+J035028
+KMETIJSKI TEHNIK V
+V
+0
+20
+30
+65
+J035037
+LABORANT V
+V
+0
+19
+29
+66
+J035071
+TRAKTORIST V (I)
+V
+0
+18
+28
+67
+J035072
+TRAKTORIST V (II)
+V
+0
+17
+27
+68
+J035085
+VOZNIK V
+V
+0
+18
+28
+69
+J035092
+VZDRŽEVALEC V (I)
+V
+0
+18
+28
+
+«.
+
+PREHODNI IN KONČNA DOLOČBA
+
+4. člen
+
+(rok za uskladitev aktov)
+
+Akt o notranji organizaciji in sistemizaciji delovnih mest se uskladi s tem aneksom najkasneje v roku 45 dni od uveljavitve tega aneksa.
+
+5. člen
+
+(pridobitev pravice do izplačila višje plače)
+
+(1) Javni uslužbenci pridobijo pravico do izplačila višje plače v skladu s tem aneksom glede na uvrstitev delovnega mesta na dan pred uveljavitvijo tega aneksa postopno, in sicer na naslednji način:
+
+a) s 1. januarjem 2019 prvi plačni razred povišanja in
+
+b) s 1. novembrom 2019 drugi plačni razred povišanja.
+
+(2) Javnemu uslužbencu, ki se po uveljavitvi tega aneksa zaposli v javnem sektorju, se določi plačni razred za določitev plače glede na uvrstitev delovnega mesta v plačni razred skladno z rokom iz prejšnjega odstavka, ki je določen za izplačilo plačnega razreda povišanja.
+
+6. člen
+
+(veljavnost)
+
+Ta aneks začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 101-15/2017/2
+
+Ljubljana, dne 3. decembra 2018
+
+EVA 2017-2330-0113
+
+Vlada Republike Slovenije
+Rudi Medved
+l.r.
+Minister
+za javno upravo
+Reprezentativni sindikat javnega sektorja
+SINDIKAT DRŽAVNIH ORGANOV SLOVENIJE
+Frančišek Verk
+l.r.
+dr. Andrej Bertoncelj
+l.r.
+Minister
+za finance
+dr. Aleksandra Pivec
+l.r.
+Ministrica
+za kmetijstvo, gozdarstvo in prehrano
+
+Ministrstvo za delo, družino, socialne zadeve in enake možnosti je dne 5. 12. 2018 izdalo potrdilo št. 10101-8/2008-9 o tem, da je Aneks št. 3 h Kolektivni pogodbi za kmetijsko dejavnost – tarifni del vpisan v evidenco kolektivnih pogodb na podlagi 25. člena Zakona o kolektivnih pogodbah (Uradni list RS, št. 43/06) pod zaporedno številko 40/3.
