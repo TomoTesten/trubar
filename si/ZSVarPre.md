@@ -24,6 +24,10 @@ spremembe:
     datum: 2016-12-30
     sop: 2016-01-3926
     naziv: "Zakon o spremembah in dopolnitvah Zakona o socialno varstvenih prejemkih"
+  - kratica: ZSVarPre-G
+    datum: 2018-11-20
+    sop: 2018-01-3573
+    naziv: "Zakon o spremembi Zakona o socialno varstvenih prejemkih"
 ---
 
 # Zakon o socialno varstvenih prejemkih
