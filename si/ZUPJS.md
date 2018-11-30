@@ -28,6 +28,10 @@ spremembe:
     datum: 2016-12-30
     sop: 2016-01-3928
     naziv: "Zakon o spremembi in dopolnitvi Zakona o uveljavljanju pravic iz javnih sredstev"
+  - kratica: ZUPJS-H
+    datum: 2018-11-30
+    sop: 2018-01-3752
+    naziv: "Zakon o spremembah in dopolnitvi Zakona o uveljavljanju pravic iz javnih sredstev"
 ---
 
 # Zakon o uveljavljanju pravic iz javnih sredstev
