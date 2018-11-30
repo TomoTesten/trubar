@@ -7,6 +7,11 @@ sop: 2015-01-1326
 objava: "Uradni list RS 32/15  str. 3599"
 kljucne_besede: ["sklad"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-1326"
+spremembe:
+  - kratica: ZUAIS-A
+    datum: 2018-11-30
+    sop: 2018-01-3754
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o upravljavcih alternativnih investicijskih skladov"
 ---
 
 # Zakon o upravljavcih alternativnih investicijskih skladov
