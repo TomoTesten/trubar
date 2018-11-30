@@ -2,11 +2,11 @@
 kratica: MP_SKLE30497
 naziv: "Sklep o potrditvi cenika za izvajanje javnih linijskih prevozov v mestnem prometu Mestne občine Celje (SKLE)"
 vrsta: "občinski sklep"
-datum: 2026-01-04
+datum: 2019-01-30
 sop: 2019-01-0153
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Mestna občina Celje"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-0153"
 ---
 
