@@ -4,9 +4,9 @@ naziv: "Stavkovni sporazum med Vlado Republike Slovenije in Sindikatom vzgoje, i
 vrsta: "akt"
 datum: 2018-12-07
 sop: 2018-01-3863
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-3863"
 ---
 

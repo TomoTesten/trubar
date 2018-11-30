@@ -4,9 +4,9 @@ naziv: "Aneks št. 3 h Kolektivni pogodbi za kmetijsko dejavnost – tarifni del
 vrsta: "akt"
 datum: 2018-12-07
 sop: 2018-01-3876
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-3876"
 ---
 
