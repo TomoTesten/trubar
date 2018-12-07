@@ -1,0 +1,1789 @@
+---
+kratica: KOLP519
+naziv: "Aneks h Kolektivni pogodbi za raziskovalno dejavnost"
+vrsta: "akt"
+datum: 2018-12-07
+sop: 2018-01-3873
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-3873"
+---
+
+# Aneks h Kolektivni pogodbi za raziskovalno dejavnost
+
+Na podlagi drugega odstavka 13. člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 108/09 – uradno prečiščeno besedilo, 13/10, 59/10, 85/10, 107/10, 35/11 – ORZSPJS49a, 27/12 – odl. US, 40/12 – ZUJF, 46/13, 25/14 – ZFU, 50/14, 95/14 – ZUPPJS15, 82/15, 23/17 – ZDOdv in 67/17) in določila 2. točke II. poglavja Kolektivne pogodbe za raziskovalno dejavnost (Uradni list RS, št. 45/92, 50/92 – popr., 5/93, 18/94 – ZRPJZ, 50/94, 45/96, 51/98, 73/98 – popr., 39/99 – ZMPUPR, 106/99, 107/00, 64/01, 84/01, 85/01 – popr., 43/06 – ZKolP, 61/08, 67/08, 40/12, 46/13, 106/15 in 46/17)
+
+Vlada Republike Slovenije kot stranka na strani delodajalca, ki jo zastopajo Rudi Medved, minister za javno upravo, dr. Andrej Bertoncelj, minister za finance, in dr. Jernej Pikalo, minister za izobraževanje, znanost in šport,
+
+in
+
+SVIZ – Sindikat vzgoje, izobraževanja, znanosti in kulture Slovenije, ki ga zastopa glavni tajnik Branimir Štrukelj,
+
+kot stranka na strani javnih uslužbencev skleneta
+
+A N E K S
+
+h Kolektivni pogodbi za raziskovalno dejavnost
+
+1. člen
+
+(namen sklepanja)
+
+Ta aneks se sklepa zaradi realizacije IV. in VIII. točke Dogovora o ukrepih na področju stroškov dela in drugih ukrepih v javnem sektorju (Uradni list RS, št. 88/16) in Dogovora o plačah in drugih stroških dela (Uradni list RS, št. 80/18).
+
+2. člen
+
+(določitev plačnih razredov plačne skupine H)
+
+V Aneksu h Kolektivni pogodbi za raziskovalno dejavnost (Uradni list RS, št. 61/08, 106/15 in 46/17)
+se v prvem odstavku 3. člena tabela nadomesti z novo tabelo, ki se glasi:
+
+»
+
+Zap. Št. DM/N
+Šifra DM
+DELOVNO MESTO
+TR
+Šifra N
+NAZIV
+Plačni razred brez napr. MIN
+Plačni razred z napr. MAX
+1
+H017001
+ASISTENT
+VII/2
+0
+34
+44
+2
+H017002
+MLADI RAZISKOVALEC
+VII/2
+0
+32
+42
+3
+H017003
+MLADI RAZISKOVALEC NA ENOVITEM DOKTORSKEM ŠTUDIJU
+VII/2
+0
+33
+43
+4
+H017004
+RAZISKOVALEC
+VII/2
+0
+34
+44
+5
+H017005
+RAZVIJALEC
+VII/2
+0
+32
+42
+6
+H017006
+RAZVOJNI SODELAVEC
+VII/2
+0
+42
+52
+7
+H017007
+SAMOSTOJNI RAZISKOVALEC
+VII/2
+0
+33
+43
+8
+H017008
+SAMOSTOJNI RAZVIJALEC
+VII/2
+0
+37
+47
+9
+H017009
+SAMOSTOJNI STROKOVNI SODELAVEC V HUMANISTIKI
+VII/2
+0
+41
+51
+10
+H017010
+SAMOSTOJNI STROKOVNI SODELAVEC V HUMANISTIKI SPECIALIST
+VII/2
+0
+44
+54
+11
+H017011
+STROKOVNI SODELAVEC V HUMANISTIKI
+VII/2
+0
+35
+45
+12
+H017012
+VIŠJI ASISTENT
+VII/2
+0
+33
+43
+13
+H017013
+VIŠJI RAZISKOVALEC
+VII/2
+0
+35
+45
+14
+H017014
+VIŠJI RAZVIJALEC
+VII/2
+0
+33
+43
+15
+H017015
+VIŠJI STROKOVNO RAZISKOVALNI ASISTENT
+VII/2
+0
+37
+47
+16
+H018001
+ASISTENT Z MAGISTERIJEM
+VIII
+0
+37
+47
+17
+H018002
+MLADI RAZISKOVALEC Z MAGISTERIJEM NA DOKTORSKEM ŠTUDIJU
+VIII
+0
+35
+45
+18
+H018003
+RAZISKOVALEC Z MAGISTERIJEM
+VIII
+0
+37
+47
+19
+H018004
+SAMOSTOJNI RAZISKOVALEC Z MAGISTERIJEM
+VIII
+0
+37
+47
+20
+H018005
+VIŠJI RAZISKOVALEC Z MAGISTERIJEM
+VIII
+0
+38
+48
+21
+H018006
+VIŠJI RAZVOJNI SODELAVEC
+VIII
+0
+46
+56
+22
+H019001
+ASISTENT Z DOKTORATOM
+IX
+0
+43
+53
+23
+H019002
+RAZVOJNI SVETNIK
+IX
+0
+51
+57
+24
+H019003
+STROKOVNO RAZISKOVALNI SODELAVEC
+IX
+0
+46
+56
+25
+H019004
+STROKOVNO RAZISKOVALNI SVETNIK
+IX
+0
+53
+57
+26
+H019005
+VIŠJI STROKOVNO RAZISKOVALNI SODELAVEC
+IX
+0
+49
+57
+27
+H019006
+VIŠJI ZNANSTVENI SODELAVEC
+IX
+0
+49
+57
+28
+H019007
+ZNANSTVENI SODELAVEC
+IX
+0
+46
+56
+29
+H019008
+ZNANSTVENI SVETNIK
+IX
+0
+53
+57
+30
+H027001
+SAMOSTOJNI STROKOVNI SODELAVEC
+VII/2
+0
+33
+43
+31
+H027002
+STROKOVNI SODELAVEC
+VII/1
+0
+30
+40
+32
+H027003
+STROKOVNI SODELAVEC
+VII/2
+0
+31
+41
+33
+H027004
+STROKOVNI SODELAVEC S SPECIALIZACIJO
+VII/2
+0
+34
+44
+34
+H027005
+STROKOVNI SVETNIK
+VII/2
+0
+38
+48
+35
+H027006
+VIŠJI STROKOVNI SODELAVEC
+VII/2
+0
+32
+42
+36
+H027007
+VODILNI STROKOVNI SODELAVEC
+VII/2
+0
+37
+47
+37
+H028001
+VIŠJI STROKOVNI SODELAVEC
+VIII
+0
+35
+45
+38
+H029001
+STROKOVNI SVETNIK Z DOKTORATOM
+IX
+0
+45
+55
+39
+H029002
+VODILNI STROKOVNI SODELAVEC Z DOKTORATOM
+IX
+0
+42
+52
+
+«.
+
+3. člen
+
+(določitev plačnih razredov plačne skupine J)
+
+V Aneksu h Kolektivni pogodbi za raziskovalno dejavnost (Uradni list RS, št. 61/08, 106/15 in 46/17)
+se v prvem odstavku 4. člena tabela nadomesti z novo tabelo, ki se glasi:
+
+»
+
+Zap. št.
+DM/N
+Šifra DM
+DELOVNO MESTO
+TR
+Šifra N
+NAZIV
+Plačni razred brez napr.
+Plačni razred
+z napr.
+MIN
+MAX
+1
+J014003
+REFERENT IV
+IV
+0
+15
+25
+2
+J015001
+ANALITIK V
+V
+0
+19
+29
+3
+J015002
+BLAGAJNIK V
+V
+0
+19
+29
+4
+J015008
+FINANČNIK V
+V
+0
+20
+30
+5
+J015011
+KADROVIK V
+V
+0
+20
+30
+6
+J015013
+KNJIGOVODJA V
+V
+0
+20
+30
+7
+J015014
+KNJIŽNIČAR V
+V
+0
+20
+30
+8
+J015016
+KOMERCIALIST V
+V
+0
+19
+29
+9
+J015017
+KOORDINATOR V
+V
+0
+19
+29
+10
+J015022
+ORGANIZATOR DELA V
+V
+0
+19
+29
+11
+J015026
+PROGRAMER APLIKACIJ V
+V
+0
+22
+32
+12
+J015027
+PROJEKTNI SODELAVEC V
+V
+0
+23
+33
+13
+J015028
+RAČUNOVODJA V
+V
+0
+20
+30
+14
+J015030
+SAMOSTOJNI STROKOVNI
+SODELAVEC V
+V
+0
+20
+30
+15
+J015031
+SAMOSTOJNI TEHNIK V
+V
+0
+20
+30
+16
+J015039
+STROKOVNI SODELAVEC V
+V
+0
+19
+29
+17
+J015040
+TEHNIK V
+V
+0
+20
+30
+18
+J016001
+ANALITIK VI
+VI
+0
+23
+33
+19
+J016002
+BLAGAJNIK VI
+VI
+0
+23
+33
+20
+J016005
+FINANČNIK VI
+VI
+0
+24
+34
+21
+J016012
+INŽENIR VI
+VI
+0
+24
+34
+22
+J016013
+KADROVIK VI
+VI
+0
+23
+33
+23
+J016014
+KNJIGOVODJA VI
+VI
+0
+23
+33
+24
+J016015
+KNJIŽNIČAR VI
+VI
+0
+23
+33
+25
+J016017
+KOMERCIALIST VI
+VI
+0
+23
+33
+26
+J016018
+KOORDINATOR VI
+VI
+0
+23
+33
+27
+J016021
+OPERATER VI
+VI
+0
+24
+34
+28
+J016023
+ORGANIZATOR DELA VI
+VI
+0
+23
+33
+29
+J016025
+PROGRAMER APLIKACIJ VI
+VI
+0
+25
+35
+30
+J016027
+RAČUNOVODJA VI
+VI
+0
+25
+35
+31
+J016028
+REFERENT VI
+VI
+0
+23
+33
+32
+J016030
+SAMOSTOJNI STROKOVNI
+SODELAVEC VI
+VI
+0
+24
+34
+33
+J016038
+STROKOVNI SODELAVEC VI
+VI
+0
+23
+33
+34
+J016039
+VARNOSTNI INŽENIR VI
+VI
+0
+25
+35
+35
+J016044
+VODILNI INŽENIR VI
+VI
+0
+25
+35
+36
+J017003
+ANALITIK VII/1
+VII/1
+0
+29
+39
+37
+J017005
+ANALITIK VII/2 (II)
+VII/2
+0
+35
+45
+38
+J017012
+DIPLOMIRANI INŽENIR SPECIALIST VII/2
+VII/2
+0
+32
+42
+39
+J017013
+DIPLOMIRANI INŽENIR VII/1
+VII/1
+0
+29
+39
+40
+J017016
+FINANČNIK VII/1
+VII/1
+0
+30
+40
+41
+J017019
+FINANČNIK VII/2 (III)
+VII/2
+0
+32
+42
+42
+J017025
+INFORMATIK VII/1
+VII/1
+0
+30
+40
+43
+J017026
+INFORMATIK VII/2
+VII/2
+0
+32
+42
+44
+J017034
+INŽENIR ZA KAKOVOST VII/1
+VII/1
+0
+30
+40
+45
+J017035
+INŽENIR ZA KAKOVOST VII/2
+VII/2
+0
+32
+42
+46
+J017036
+KADROVIK VII/1
+VII/1
+0
+30
+40
+47
+J017038
+KADROVIK VII/2 (III)
+VII/2
+0
+32
+42
+48
+J017040
+KNJIGOVODJA VII/1
+VII/1
+0
+29
+39
+49
+J017042
+KNJIŽNIČAR VII/1
+VII/1
+0
+29
+39
+50
+J017043
+KNJIŽNIČAR VII/2
+VII/2
+0
+32
+42
+51
+J017046
+KOMERCIALIST VII/1
+VII/1
+0
+27
+37
+52
+J017048
+KOORDINATOR PROJEKTOV VII/1
+VII/1
+0
+30
+40
+53
+J017049
+KOORDINATOR PROJEKTOV VII/2
+VII/2
+0
+34
+44
+54
+J017052
+KOORIDNATOR PODROČIJ VII/2
+VII/2
+0
+35
+45
+55
+J017073
+PRAVNIK VII/1
+VII/1
+0
+30
+40
+56
+J017074
+PRAVNIK VII/2
+VII/2
+0
+34
+44
+57
+J017075
+PREVAJALEC VII/1
+VII/1
+0
+30
+40
+58
+J017078
+PREVAJALEC VII/2 (III)
+VII/2
+0
+34
+44
+59
+J017079
+PROGRAMER APLIKACIJ VII/1
+VII/1
+0
+30
+40
+60
+J017081
+PROGRAMER APLIKACIJ VII/2 (II)
+VII/2
+0
+35
+45
+61
+J017090
+RAČUNOVODJA VII/1
+VII/1
+0
+30
+40
+62
+J017093
+RAČUNOVODJA VII/2 (III)
+VII/2
+0
+31
+41
+63
+J017094
+RAZVOJNI INŽENIR VII/1
+VII/1
+0
+30
+40
+64
+J017097
+RAZVOJNI INŽENIR VII/2 (III)
+VII/2
+0
+34
+44
+65
+J017098
+REFERENT VII/1
+VII/1
+0
+27
+37
+66
+J017102
+SAMOSTOJNI STROKOVNI
+DELAVEC VII/2 (I)
+VII/2
+0
+35
+45
+67
+J017103
+SAMOSTOJNI STROKOVNI
+DELAVEC VII/2 (II)
+VII/2
+0
+34
+44
+68
+J017104
+SAMOSTOJNI STROKOVNI
+DELAVEC VII/2 (III)
+VII/2
+0
+33
+43
+69
+J017106
+SAMOSTOJNI STROKOVNI
+SODELAVEC VII/2
+VII/2
+0
+32
+42
+70
+J017117
+SISTEMSKI ANALITIK VII/1
+VII/1
+0
+30
+40
+71
+J017118
+SISTEMSKI ANALITIK VII/2
+VII/2
+0
+34
+44
+72
+J017119
+SISTEMSKI INŽENIR VII/1
+VII/1
+0
+30
+40
+73
+J017138
+STROKOVNI SODELAVEC VII/2 (III)
+VII/2
+0
+32
+42
+74
+J017141
+STROKOVNI SODELAVEC ZA UPRAVNO PRAVNE ZADEVE VII/1
+VII/1
+0
+30
+40
+75
+J017143
+STROKOVNI SVETNIK VII/2
+VII/2
+0
+34
+44
+76
+J017146
+SVETOVALEC VII/1 (II)
+VII/1
+0
+29
+39
+77
+J017147
+SVETOVALEC VII/2 (I)
+VII/2
+0
+34
+44
+78
+J017156
+VARNOSTNI INŽENIR VII/1
+VII/1
+0
+30
+40
+79
+J017157
+VARNOSTNI INŽENIR VII/2
+VII/2
+0
+34
+44
+80
+J017163
+VIŠJI STROKOVNI SODELAVEC VII/2
+VII/2
+0
+32
+42
+81
+J017171
+VODILNI STROKOVNI SODELAVEC VII/2
+VII/2
+0
+34
+44
+82
+J017173
+ZDRAVSTVENI FIZIK VII/2
+VII/2
+0
+32
+42
+83
+J017906
+SEKRETAR INŠTITUTA (NA JAVNEM ZAVODU DO 200 ZAPOSLENIMI)
+VII/2
+0
+36
+46
+84
+J017907
+SEKRETAR INŠTITUTA (NA JAVNEM ZAVODU Z VEČ KOT 200 ZAPOSLENIMI)
+VII/2
+0
+40
+50
+85
+J017914
+VODJA FINANČNO RAČUNOVODSKE SLUŽBE I (NA JAVNEM ZAVODU
+Z VEČ KOT 200 ZAPOSLENIMI)
+VII/2
+0
+40
+50
+86
+J017915
+VODJA FINANČNO RAČUNOVODSKE SLUŽBE II (NA JAVNEM ZAVODU
+Z DO 200 ZAPOSLENIMI)
+VII/2
+0
+36
+46
+87
+J017919
+VODJA NABAVNO PRODAJNE SLUŽBE (NA JAVNEM ZAVODU
+DO 200 ZAPOSLENIMI
+VII/2
+0
+36
+46
+88
+J017920
+VODJA NABAVNO PRODAJNE SLUŽBE (NA JAVNEM ZAVODU Z VEČ KOT 200 ZAPOSLENIMI
+VII/2
+0
+40
+50
+89
+J017923
+VODJA PODROČJA / ENOTE I – VII/2 (VEČ KOT 5 ZAPOSLENIH NA JAVNEM ZAVODU Z DO 200 ZAPOSLENIMI)
+VII/2
+0
+36
+46
+90
+J017924
+VODJA PODROČJA / ENOTE I – VII/2 (VEČ KOT 5 ZAPOSLENIH NA JAVNEM ZAVODU Z DO 200 ZAPOSLENIMI)
+VII/1
+0
+33
+43
+91
+J017925
+VODJA PODROČJA / ENOTE II – VII/1
+(DO 5 ZAPOSLENIH NA JAVNEM ZAVODU Z VEČ KOT 200 ZAPOSLENIMI)
+VII/1
+0
+32
+42
+92
+J017926
+VODJA PODROČJA / ENOTE II – VII/2
+(DO 5 ZAPOSLENIH NA JAVNEM ZAVODU Z VEČ KOT 200 ZAPOSLENIMI)
+VII/2
+0
+35
+45
+93
+J017927
+VODJA PODROČJA / ENOTE III – VII/1 (VEČ KOT 5 ZAPOSLENIH NA JAVNEM ZAVODU Z DO 200 ZAPOSLENIMI)
+VII/1
+0
+32
+42
+94
+J017928
+VODJA PODROČJA / ENOTE III – VII/2 (VEČ KOT 5 ZAPOSLENIH NA JAVNEM ZAVODU Z DO 200 ZAPOSLENIMI)
+VII/2
+0
+35
+45
+95
+J017929
+VODJA PODROČJA / ENOTE IV-VI
+(DO 5 ZAPOSLENIH NA JAVNEM ZAVODU Z DO 200 ZAPOSLENIMI)
+VII/1
+0
+31
+41
+96
+J017930
+VODJA PODROČJA / ENOTE IV-VII/2
+(DO 5 ZAPOSLENIH NA JAVNEM ZAVODU Z DO 200 ZAPOSLENIMI)
+VII/2
+0
+34
+44
+97
+J018001
+KOORDINATOR RAZISKOVALNIH ORGANIZACIJ VIII
+VIII
+0
+35
+45
+98
+J018002
+KOORDINATOR ZA MEDNARODNE PROJEKTE VIII
+VIII
+0
+38
+48
+99
+J018004
+SVETOVALEC VIII
+VIII
+0
+43
+53
+100
+J018006
+VIŠJI STROKOVNI SODELAVEC VIII
+VIII
+0
+35
+45
+101
+J018007
+VODILNI STROKOVNI SODELAVEC VIII
+VIII
+0
+38
+48
+102
+J018901
+VODJA PODROČJA / ENOTE I – VIII
+(VEČ KOT 5 ZAPOSLENIH NA JAVNEM ZAVODU Z VEČ KOT 200 ZAPOSLENIMI)
+VIII
+0
+40
+50
+103
+J018902
+VODJA PODROČJA / ENOTE II – VIII
+(DO 5 ZAPOSLENIH NA JAVNEM ZAVODU Z VEČ KOT 200 ZAPOSLENIMI)
+VIII
+0
+39
+49
+104
+J018903
+VODJA PODROČJA / ENOTE III – VIII (VEČ KOT 5 ZAPOSLENIH NA JAVNEM ZAVODU Z DO 200 ZAPOSLENIMI)
+VIII
+0
+38
+48
+105
+J018904
+VODJA PODROČJA / ENOTE IV-VIII
+(DO 5 ZAPOSLENIH NA JAVNEM ZAVODU Z DO 200 ZAPOSLENIMI)
+VIII
+0
+37
+47
+106
+J019001
+KOORDINATOR RAZISKOVALNIH ORGANIZACIJ IX
+IX
+0
+39
+49
+107
+J019002
+KOORDINATOR ZA MEDNARODNE PROJEKTE IX
+IX
+0
+44
+54
+108
+J019004
+STROKOVNI SVETNIK IX
+IX
+0
+39
+49
+109
+J019005
+SVETOVALEC IX
+IX
+0
+44
+54
+110
+J019007
+VODILNI STROKOVNI SODELAVEC
+Z DOKTORATOM IX
+IX
+0
+39
+49
+111
+J019901
+VODJA CENTRA ZIC
+IX
+0
+42
+52
+112
+J019902
+VODJA PISARNE ZA PRENOS TEHNOLOGIJ
+IX
+0
+46
+56
+113
+J019903
+VODJA PODROČJA / ENOTE I – IX
+(VEČ KOT 5 ZAPOSLENIH NA JAVNEM ZAVODU Z VEČ KOT 200 ZAPOSLENIMI)
+IX
+0
+44
+54
+114
+J019904
+VODJA PODROČJA / ENOTE II – IX
+(DO 5 ZAPOSLENIH NA JAVNEM ZAVODU Z VEČ KOT 200 ZAPOSLENIMI)
+IX
+0
+43
+53
+115
+J019905
+VODJA PODROČJA / ENOTE III – IX
+(VEČ KOT 5 ZAPOSLENIH NA JAVNEM ZAVODU Z DO 200 ZAPOSLENIMI)
+IX
+0
+42
+52
+116
+J019906
+VODJA PODROČJA / ENOTE IV-IX
+(DO 5 ZAPOSLENIH NA JAVNEM ZAVODU Z DO 200 ZAPOSLENIMI)
+IX
+0
+41
+51
+117
+J023004
+STROJEPISKA III
+III
+0
+15
+25
+118
+J023005
+TEHNIČNI MANIPULANT III
+III
+0
+12
+22
+119
+J024002
+ADMINISTRATOR IV (II)
+IV
+0
+15
+25
+120
+J024003
+KURIR IV
+IV
+0
+15
+25
+121
+J024005
+STROJEPISKA IV
+IV
+0
+17
+27
+122
+J025002
+ADMINISTRATOR V
+V
+0
+20
+30
+123
+J025005
+DOKUMENTALIST V
+V
+0
+18
+28
+124
+J025006
+LIKVIDATOR V
+V
+0
+21
+31
+125
+J025010
+POSLOVNI SEKRETAR V
+V
+0
+20
+30
+126
+J025012
+REFERENT V
+V
+0
+18
+28
+127
+J025019
+TAJNICA V
+V
+0
+18
+28
+128
+J026002
+ADMINISTRATOR VI
+VI
+0
+23
+33
+129
+J026003
+DOKUMENTALIST VI
+VI
+0
+23
+33
+130
+J026004
+POSLOVNI SEKRETAR VI
+VI
+0
+23
+33
+131
+J027001
+DOKUMENTALIST VII/1
+VII/1
+0
+27
+37
+132
+J027002
+DOKUMENTALIST VII/2
+VII/2
+0
+32
+42
+133
+J027005
+POSLOVNI SEKRETAR VII/1
+VII/1
+0
+27
+37
+134
+J027006
+POSLOVNI SEKRETAR VII/2
+VII/2
+0
+32
+42
+135
+J031004
+POMOŽNI DELAVEC I
+I
+0
+11
+21
+136
+J032001
+ČISTILKA II
+II
+0
+11
+21
+137
+J032013
+PERICA II
+II
+0
+12
+22
+138
+J032014
+POMOŽNI DELAVEC II
+II
+0
+11
+21
+139
+J032015
+POMOŽNI LABORANT II
+II
+0
+11
+21
+140
+J033001
+ČISTILKA III
+III
+0
+12
+22
+141
+J033009
+KURIR III
+III
+0
+14
+24
+142
+J033023
+TELEFONIST III
+III
+0
+13
+23
+143
+J033027
+VRATAR III
+III
+0
+13
+23
+144
+J034008
+EKONOM IV
+IV
+0
+16
+26
+145
+J034009
+ELEKTRIČAR IV
+IV
+0
+17
+27
+146
+J034010
+ELEKTROINŠTALATER IV
+IV
+0
+17
+27
+147
+J034012
+FINOMEHANIK IV
+IV
+0
+17
+27
+148
+J034018
+GRAFIK IV
+IV
+0
+17
+27
+149
+J034023
+KLEPAR IV
+IV
+0
+17
+27
+150
+J034024
+KLJUČAVNIČAR IV
+IV
+0
+17
+27
+151
+J034030
+KUHAR IV
+IV
+0
+17
+27
+152
+J034032
+LABORANT IV
+IV
+0
+17
+27
+153
+J034034
+LIVAR IV
+IV
+0
+17
+27
+154
+J034038
+MIZAR IV
+IV
+0
+17
+27
+155
+J034049
+PLASTIČAR IV
+IV
+0
+17
+27
+156
+J034054
+RECEPTOR IV
+IV
+0
+16
+26
+157
+J034056
+REZKALEC IV
+IV
+0
+17
+27
+158
+J034060
+SKLADIŠČNIK IV
+IV
+0
+17
+27
+159
+J034066
+STEKLOPIHALEC IV
+IV
+0
+17
+27
+160
+J034067
+STROJNIK IV
+IV
+0
+17
+27
+161
+J034069
+STRUGAR IV
+IV
+0
+17
+27
+162
+J034074
+TEHNIČNI DELAVEC IV (I)
+IV
+0
+17
+27
+163
+J034076
+TEHNIČNI RISAR IV
+IV
+0
+17
+27
+164
+J034081
+TISKAR IV
+IV
+0
+17
+27
+165
+J034082
+TRAKTORIST STROJNIK IV
+IV
+0
+17
+27
+166
+J034084
+VARNOSTNIK IV
+IV
+0
+17
+27
+167
+J034089
+VOZNIK IV
+IV
+0
+15
+25
+168
+J034092
+VRTNAR IV
+IV
+0
+17
+27
+169
+J034096
+VZDRŽEVALEC IV (II)
+IV
+0
+16
+26
+170
+J034097
+ZIDAR IV
+IV
+0
+17
+27
+171
+J035007
+DELOVODJA V
+V
+0
+23
+33
+172
+J035010
+EKONOM V
+V
+0
+19
+29
+173
+J035014
+FOTOGRAF V
+V
+0
+18
+28
+174
+J035017
+GLAVNI VZDRŽEVALEC V
+V
+0
+21
+31
+175
+J035025
+HIŠNIK V
+V
+0
+19
+29
+176
+J035035
+KUHAR V
+V
+0
+19
+29
+177
+J035037
+LABORANT V
+V
+0
+19
+29
+178
+J035040
+MOJSTER STROKE V
+V
+0
+21
+31
+179
+J035045
+OPERATER V
+V
+0
+20
+30
+180
+J035054
+RADIOLOŠKI TEHNIK V
+V
+0
+21
+31
+181
+J035056
+RECEPTOR V
+V
+0
+18
+28
+182
+J035059
+SKLADIŠČNIK V
+V
+0
+19
+29
+183
+J035074
+UPRAVNIK V
+V
+0
+18
+28
+184
+J035085
+VOZNIK V
+V
+0
+18
+28
+185
+J035092
+VZDRŽEVALEC V (I)
+V
+0
+18
+28
+186
+J036007
+GLAVNI VZDRŽEVALEC VI
+VI
+0
+25
+35
+187
+J036009
+LABORANT VI
+VI
+0
+24
+34
+188
+J036012
+PROJEKTANT KONSTRUKTOR VI
+VI
+0
+26
+36
+189
+J036013
+RADIOLOŠKI TEHNIK VI
+VI
+0
+24
+34
+
+«.
+
+4. člen
+
+(uporaba določil)
+
+Ne glede na določbe o povračilih stroškov v zvezi z delom in nekaterih drugih prejemkov javnih uslužbencev iz Kolektivne pogodbe za raziskovalno dejavnost (Uradni list RS, št. 45/92, 50/92 – popr., 5/93, 18/94 – ZRPJZ, 50/94, 45/96, 51/98, 73/98 – popr., 39/99 – ZMPUPR, 106/99, 107/00, 64/01, 84/01, 85/01 – popr., 43/06 – ZKolP, 61/08, 67/08, 40/12, 46/13, 106/15 in 46/17), se od začetka veljavnosti tega aneksa glede jubilejnih nagrad in odpravnine ob upokojitvi uporabljajo določbe tega aneksa.
+
+5. člen
+
+(jubilejna nagrada)
+
+(1) Javnemu uslužbencu pripada jubilejna nagrada v višini:
+
+– za 10 let delovne dobe 288,76 eura,
+
+– za 20 let delovne dobe 433,13 eura,
+
+– za 30 let delovne dobe 577,51 eura,
+
+– za 40 let delovne dobe 577,51 eura.
+
+(2) Jubilejna nagrada se izplača javnemu uslužbencu ob izplačilu plače v naslednjem mesecu po izpolnitvi pogojev.
+
+(3) Delovna doba po tem členu je delovna doba, ki jo je javni uslužbenec izpolnil pri delodajalcih v javnem sektorju.
+
+6. člen
+
+(odpravnina ob upokojitvi)
+
+(1) Odpravnina ob odhodu v pokoj znaša tri povprečne mesečne plače zaposlenega v Republiki Sloveniji za pretekle tri mesece oziroma tri zadnje mesečne plače javnega uslužbenca, če je to zanj ugodneje.
+
+(2) Javni uslužbenec je v primeru, ko je delodajalec zanj financiral dokup delovne dobe, upravičen do razlike do višine odpravnine, če so bila sredstva za dokup nižja od odpravnine.
+
+(3) V primeru, da javni uslužbenec po upokojitvi ponovno sklene delovno razmerje pri delodajalcu v javnem sektorju, mu ob ponovni upokojitvi odpravnina ne pripada.
+
+PREHODNI IN KONČNI DOLOČBI
+
+7. člen
+
+(rok za uskladitev aktov)
+
+Akti o notranji organizaciji in sistemizaciji delovnih mest se uskladijo s tem aneksom najkasneje v roku 45 dni od uveljavitve tega aneksa.
+
+8. člen
+
+(pridobitev pravice do izplačila plače)
+
+(1) Javni uslužbenci pridobijo pravico do izplačila višje plače v skladu s tem aneksom glede na uvrstitev delovnega mesta na dan pred uveljavitvijo tega aneksa postopno, in sicer na naslednji način:
+
+a) s 1. januarjem 2019 prvi plačni razred povišanja,
+
+b) s 1. novembrom 2019 drugi plačni razred povišanja in
+
+c) s 1. septembrom 2020 tretji plačni razred povišanja in ostali plačni razredi povišanj.
+
+(2) Javnemu uslužbencu, ki se po uveljavitvi tega aneksa zaposli v javnem sektorju, se določi plačni razred za določitev plače glede na uvrstitev delovnega mesta v plačni razred skladno z rokom iz prejšnjega odstavka, ki je določen za izplačilo plačnega razreda povišanja.
+
+9. člen
+
+(prenehanje veljavnosti)
+
+Z dnem uveljavitve tega aneksa prenehata veljati 12. člen in 14. člen Aneksa h Kolektivni pogodbi za raziskovalno dejavnost (Uradni list RS, št. 40/12).
+
+10. člen
+
+(veljavnost)
+
+Ta aneks začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 0070-60/2018
+
+Ljubljana, dne 3. decembra 2018
+
+EVA 2018-3330-0054
+
+Vlada Republike Slovenije
+Rudi Medved
+l.r.
+Minister
+za javno upravo
+dr. Andrej Bertoncelj
+l.r.
+Minister
+za finance
+dr. Jernej Pikalo
+l.r.
+Minister
+za izobraževanje, znanost in šport
+Reprezentativni sindikat javnega sektorja
+SVIZ – Sindikat vzgoje, izobraževanja, znanosti
+in kulture Slovenije
+Branimir Štrukelj
+l.r.
+
+Ministrstvo za delo, družino, socialne zadeve in enake možnosti je dne 5. 12. 2018 izdalo potrdilo št. 10101-7/2018-15 o tem, da je Aneks h Kolektivni pogodbi za raziskovalno dejavnost vpisan v evidenco kolektivnih pogodb na podlagi 25. člena Zakona o kolektivnih pogodbah (Uradni list RS, št. 43/06 in 45/08 – ZArbit) pod zaporedno številko 36/6.
