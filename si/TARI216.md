@@ -4,9 +4,9 @@ naziv: "Tarifa 2019 o vrednosti točke in o višini deleža glede na zaračunano
 vrsta: "akt"
 datum: 2018-12-24
 sop: 2018-01-4106
-organ: "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-4106"
 ---
 
