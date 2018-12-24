@@ -12,6 +12,10 @@ spremembe:
     datum: 2015-12-04
     sop: 2015-01-3610
     naziv: "Zakon o dopolnitvi Zakona o minimalni plači"
+  - kratica: ZMinP-B
+    datum: 2018-12-24
+    sop: 2018-01-4067
+    naziv: "Zakon o spremembah Zakona o minimalni plači"
 ---
 
 # Zakon o minimalni plači
