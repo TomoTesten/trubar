@@ -24,6 +24,10 @@ spremembe:
     datum: 2015-11-03
     sop: 2015-01-3261
     naziv: "Zakon o spremembah in dopolnitvah Zakona o postopnem zapiranju Rudnika Trbovlje-Hrastnik in razvojnem prestrukturiranju regije"
+  - kratica: ZPZRTH-G
+    datum: 2018-12-28
+    sop: 2018-01-4123
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o postopnem zapiranju Rudnika Trbovlje-Hrastnik in razvojnem prestrukturiranju regije"
 ---
 
 # Zakon o postopnem zapiranju Rudnika Trbovlje - Hrastnik in razvojnem prestrukturiranju regije
