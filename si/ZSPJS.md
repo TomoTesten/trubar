@@ -68,6 +68,10 @@ spremembe:
     datum: 2015-11-03
     sop: 2015-01-3254
     naziv: "Zakon o dopolnitvi Zakona o sistemu plač v javnem sektorju"
+  - kratica: ZSPJS-V
+    datum: 2018-12-28
+    sop: 2018-01-4122
+    naziv: "Zakon o spremembi in dopolnitvah Zakona o sistemu plač v javnem sektorju"
 ---
 
 # Zakon o sistemu plač v javnem sektorju
