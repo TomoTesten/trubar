@@ -7,6 +7,11 @@ sop: 2013-01-3547
 objava: "Uradni list RS 99/13  str. 10695"
 kljucne_besede: ["povrnitev škode", "register prebivalstva"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3547"
+spremembe:
+  - kratica: ZPŠOIRSP-A
+    datum: 2018-12-29
+    sop: 2018-01-4194
+    naziv: "Zakon o spremembi Zakona o povračilu škode osebam, ki so bile izbrisane iz registra stalnega prebivalstva"
 ---
 
 # Zakon o povračilu škode osebam, ki so bile izbrisane iz registra stalnega prebivalstva
