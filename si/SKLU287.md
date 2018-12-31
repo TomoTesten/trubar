@@ -4,9 +4,9 @@ naziv: "Sklep o zadržanju izvrševanja prve, druge in tretje povedi drugega ods
 vrsta: "akt"
 datum: 2019-01-04
 sop: 2019-01-0006
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-0006"
 ---
 

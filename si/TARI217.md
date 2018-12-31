@@ -4,9 +4,9 @@ naziv: "Tarifna priloga h Kolektivni pogodbi komunalnih dejavnosti"
 vrsta: "akt"
 datum: 2019-01-11
 sop: 2019-01-0036
-organ: "Gospodarska zbornica Slovenije - Zbornica komunalnega gospodarstva"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-0036"
 ---
 
