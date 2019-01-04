@@ -7,6 +7,11 @@ sop: 2000-02-0050
 objava: "Uradni list RS MP 10/2000  str. 344"
 kljucne_besede: ["ratifikacija sporazuma", "Makedonija", "zdravstveno zavarovanje", "invalidsko zavarovanje", "zavarovanje za primer brezposelnosti", "sistem pokojninskega zavarovanja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-02-0050"
+spremembe:
+  - kratica: BMKSZ-A
+    datum: 2019-01-04
+    sop: 2019-02-0006
+    naziv: "Zakon o ratifikaciji Sporazuma o spremembi in dopolnitvi Sporazuma o socialnem zavarovanju med Republiko Slovenijo in Republiko Makedonijo in Sporazuma o spremembi Administrativnega sporazuma o izvajanju Sporazuma o socialnem zavarovanju med Republiko Slovenijo in Republiko Makedonijo"
 ---
 
 # Zakon o ratifikaciji Sporazuma o socialnem zavarovanju med Republiko Slovenijo in Republiko Makedonijo
