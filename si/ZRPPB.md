@@ -7,6 +7,11 @@ sop: 2016-01-1921
 objava: "Uradni list RS 44/16  str. 6473"
 kljucne_besede: ["banka"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-1921"
+spremembe:
+  - kratica: ZRPPB-A
+    datum: 2019-02-11
+    sop: 2019-01-0289
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o reševanju in prisilnem prenehanju bank"
 ---
 
 # Zakon o reševanju in prisilnem prenehanju bank
