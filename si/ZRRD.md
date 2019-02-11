@@ -20,6 +20,10 @@ spremembe:
     datum: 2011-02-11
     sop: 2011-01-0325
     naziv: "Zakon o spremembah in dopolnitvah Zakona o raziskovalni in razvojni dejavnosti"
+  - kratica: ZRRD-D
+    datum: 2019-02-11
+    sop: 2019-01-0290
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o raziskovalni in razvojni dejavnosti"
 ---
 
 # Zakon o raziskovalni in razvojni dejavnosti
