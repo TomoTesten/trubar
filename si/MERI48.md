@@ -4,9 +4,9 @@ naziv: "Merila za prehode med študijskimi programi"
 vrsta: "akt"
 datum: 2019-03-08
 sop: 2019-01-0521
-organ: "Nacionalna agencija Republike Slovenije za kakovost v visokem šolstvu"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-0521"
 ---
 
