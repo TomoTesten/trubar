@@ -4,9 +4,9 @@ naziv: "Poslovnik komisij Radiotelevizije Slovenija za ocenjevanje filmskih in a
 vrsta: "akt"
 datum: 2019-04-19
 sop: 2019-01-1126
-organ: "Radiotelevizija Slovenija"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-1126"
 ---
 

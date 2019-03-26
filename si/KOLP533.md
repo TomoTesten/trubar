@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za kmetijstvo in živilsko industrijo Slovenije"
 vrsta: "akt"
 datum: 2019-04-12
 sop: 2019-01-1052
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-1052"
 ---
 

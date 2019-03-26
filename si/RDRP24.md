@@ -4,9 +4,9 @@ naziv: "Rebalans proračuna Republike Slovenije za leto 2019 (Rb2019)"
 vrsta: "akt"
 datum: 2019-03-29
 sop: 2019-01-0799
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-0799"
 ---
 
