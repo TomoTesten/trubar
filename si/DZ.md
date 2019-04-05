@@ -7,6 +7,11 @@ sop: 2017-01-0729
 objava: "Uradni list RS 15/17  str. 2099"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-0729"
+spremembe:
+  - kratica: DZ-A
+    datum: 2019-04-05
+    sop: 2019-01-0917
+    naziv: "Zakon o spremembah Družinskega zakonika"
 ---
 
 # Družinski zakonik
