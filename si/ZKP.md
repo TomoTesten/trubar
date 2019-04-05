@@ -52,6 +52,10 @@ spremembe:
     datum: 2014-12-05
     sop: 2014-01-3503
     naziv: "Zakon o spremembah in dopolnitvah Zakona o kazenskem postopku"
+  - kratica: ZKP-N
+    datum: 2019-04-05
+    sop: 2019-01-0915
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o kazenskem postopku"
 ---
 
 # Zakon o kazenskem postopku
