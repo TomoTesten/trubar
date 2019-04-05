@@ -12,6 +12,10 @@ spremembe:
     datum: 2012-12-31
     sop: 2012-01-4322
     naziv: "Zakon o spremembah in dopolnitvah Zakona o izvajanju rejniške dejavnosti"
+  - kratica: ZIRD-B
+    datum: 2019-04-05
+    sop: 2019-01-0918
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvajanju rejniške dejavnosti"
 ---
 
 # Zakon o izvajanju rejniške dejavnosti
