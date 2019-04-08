@@ -16,6 +16,10 @@ spremembe:
     datum: 2005-10-14
     sop: 2005-01-3887
     naziv: "Zakon o spremembah in dopolnitvah zakona o gasilstvu"
+  - kratica: ZGas-C
+    datum: 2019-04-08
+    sop: 2019-01-1030
+    naziv: "Zakon o dopolnitvi Zakona o gasilstvu"
 ---
 
 # Zakon o gasilstvu
