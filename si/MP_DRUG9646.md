@@ -1,0 +1,255 @@
+---
+kratica: MP_DRUG9646
+naziv: "Zaključni račun proračuna Mestne občine Kranj za leto 2018 (DRUG)"
+vrsta: "akt"
+datum: 2019-04-26
+sop: 2019-01-1231
+organ: "Mestna občina Kranj"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-1231"
+---
+
+# Zaključni račun proračuna Mestne občine Kranj za leto 2018 (DRUG)
+
+Na podlagi 96. in 98. člena Zakona o javnih financah (ZJF, Uradni list RS, št. 11/11 – UPB, 14/13 – popr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617 in 13/18) in 102. in 114. člena Statuta Mestne občine Kranj (Uradni list RS, št. 71/16) je Svet Mestne občine Kranj na 5. seji dne 17. 4. 2019 sprejel
+
+Z A K L J U Č N I   R A Č U N
+
+proračuna Mestne občine Kranj za leto 2018
+
+1. člen
+
+Sprejme se zaključni račun proračuna Mestne občine Kranj za leto 2018, ki zajema vse prihodke in druge prejemke ter odhodke in druge izdatke proračuna.
+
+2. člen
+
+Prihodki in drugi prejemki ter odhodki in drugi izdatki proračuna Mestne občine Kranj so bili v letu 2018 realizirani v naslednjih zneskih:
+
+V EUR
+KONTO
+OPIS
+2018
+A. BILANCA PRIHODKOV IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+49.861.996
+TEKOČI PRIHODKI (70+71)
+47.967.222
+70
+DAVČNI PRIHODKI (700+703+704+706)
+40.466.943
+700
+DAVKI NA DOHODEK IN DOBIČEK
+28.375.327
+703
+DAVKI NA PREMOŽENJE
+11.308.643
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+739.485
+706
+DRUGI DAVKI
+43.488
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+7.500.279
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+5.764.214
+711
+TAKSE IN PRISTOJBINE
+40.798
+712
+GLOBE IN DRUGE DENARNE KAZNI
+416.662
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+78.355
+714
+DRUGI NEDAVČNI PRIHODKI
+1.200.250
+72
+KAPITALSKI PRIHODKI (720+721+722)
+302.043
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+14.309
+721
+PRIHODKI OD PRODAJE ZALOG
+0
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+287.734
+73
+PREJETE DONACIJE (730+731)
+17.247
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+17.247
+731
+PREJETE DONACIJE IZ TUJINE
+0
+74
+TRANSFERNI PRIHODKI (740+741)
+1.456.017
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+1.236.331
+741
+PREJETA SREDSTVA IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+219.686
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE (783+786+787)
+119.467
+783
+PREJETA SREDSTVA IZ PRORAČUNA EU IZ KOHEZIJSKEGA SKLADA
+0
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+37.845
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ
+81.622
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+47.630.794
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+15.321.237
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+3.120.881
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+500.425
+402
+IZDATKI ZA BLAGO IN STORITVE
+10.454.053
+403
+PLAČILA DOMAČIH OBRESTI
+280.878
+409
+REZERVE
+965.000
+41
+TEKOČI TRANSFERI (410+411+412+413)
+23.962.028
+410
+SUBVENCIJE
+522.599
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+11.197.740
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+2.167.297
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+10.074.392
+414
+TEKOČI TRANSFERI V TUJINO
+0
+42
+INVESTICIJSKI ODHODKI (420)
+7.135.967
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+7.135.967
+43
+INVESTICIJSKI TRANSFERI (431+432)
+1.211.562
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ. OSEBAM
+412.281
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+799.281
+III.
+PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.–II.)
+2.231.202
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+75
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+34.317
+750
+PREJETA VRAČILA DANIH POSOJIL
+33.647
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+670
+44
+V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+12.903
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+12.903
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.–V.)
+21.414
+C. RAČUN FINANCIRANJA
+50
+VII.
+ZADOLŽEVANJE (500)
+0
+500
+DOMAČE ZADOLŽEVANJE
+0
+55
+VIII.
+ODPLAČILA DOLGA (550)
+2.239.601
+550
+ODPLAČILA DOMAČEGA DOLGA
+2.239.601
+IX.
+POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (III.+VI.+X.)= (I.+IV.+VII.)–(II.+V.+VIII.)
+13.015
+X.
+NETO ZADOLŽEVANJE (VII.–VIII.)
+–2.239.601
+XI.
+NETO FINANCIRANJE (VI.+X.-IX.)
+–2.231.202
+STANJE SREDSTEV NA RAČUNIH OB KONCU PRETEKLEGA LETA
+8.463.011
+– OD TEGA PRESEŽEK FINANČNE IZRAVNAVE IZ PRETEKLEGA LETA
+
+3. člen
+
+Podatki iz konsolidirane bilance stanja, ki v aktivi in pasivi izkazujejo vrednost sredstev in virov v višini 286.671.177 EUR, so priloga zaključnega računa.
+
+4. člen
+
+Saldo sredstev proračunske rezerve na dan 31. 12. 2018 v višini 780.652 EUR se prenese med sredstva proračunske rezerve v letu 2019.
+
+5. člen
+
+Neporabljena sredstva proračunskega stanovanjskega sklada na dan 31. 12. 2018 v višini 467.439 EUR se prenesejo med sredstva proračunskega stanovanjskega sklada v letu 2019.
+
+6. člen
+
+Bilanca prihodkov in odhodkov zaključnega računa proračuna Mestne občine Kranj za leto 2018 je priloga zaključnega računa. Priloga so tudi račun financiranja in račun finančnih terjatev in naložb Mestne občine Kranj za leto 2018 ter posebni del in načrt razvojnih programov.
+
+7. člen
+
+Ta zaključni račun začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije. Priloge se objavijo na spletni strani Mestne občine Kranj.
+
+Št. 410-11/2019-12
+
+Kranj, dne 17. aprila 2019
+
+Župan
+
+Mestne občine Kranj
+
+Matjaž Rakovec
+l.r.
