@@ -7,6 +7,11 @@ sop: 2006-01-2024
 objava: "Uradni list RS 47/06  str. 5029"
 kljucne_besede: ["nepremičnine", "nepremičninski trg"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-2024"
+spremembe:
+  - kratica: ZEN-B
+    datum: 2019-05-22
+    sop: 2019-01-1494
+    naziv: "Zakon o spremembah Zakona o spremembah in dopolnitvah Zakona o evidentiranju nepremičnin"
 ---
 
 # Zakon o evidentiranju nepremičnin
