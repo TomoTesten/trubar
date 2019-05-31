@@ -1,0 +1,475 @@
+---
+kratica: MP_DRUG9694
+naziv: "Zaključni račun proračuna Občine Ankaran za leto 2018 (DRUG)"
+vrsta: "akt"
+datum: 2019-05-31
+sop: 2019-01-1588
+organ: "Občina Ankaran"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-1588"
+---
+
+# Zaključni račun proračuna Občine Ankaran za leto 2018 (DRUG)
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo in spremembe), 96., 97. in 98. člena Zakona o javnih financah – UPB4 (Uradni list RS, št. 11/11) in 17. člena Statuta Občine Ankaran (Uradni list RS, št. 17/15) je Občinski svet Občine Ankaran na 4. redni seji dne 9. 4. 2019 sprejel
+
+Z A K L J U Č N I  R A Č U N
+
+proračuna Občine Ankaran za leto 2018
+
+1. člen
+
+Sprejme se zaključni račun Občine Ankaran za leto 2018.
+
+2. člen
+
+Proračun Občine Ankaran je bil realiziran v naslednjih zneskih:
+
+Realizacija
+KONTO
+OPIS
+od 1-12/2018
+A. BILANCA PRIHODKOV IN ODHODKOV
+I. SKUPAJ PRIHODKI (70+71+72+73+74+78)
+11.165.368,68
+TEKOČI PRIHODKI (70+71)
+8.473.384,32
+70
+DAVČNI PRIHODKI (700+703+704+706)
+6.017.402,81
+700
+DAVKI NA DOHODEK IN DOBIČEK
+1.529.648,00
+703
+DAVKI NA PREMOŽENJE
+4.218.825,83
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+268.588,45
+706
+DRUGI DAVKI
+340,53
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+2.455.981,51
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+2.033.831,88
+711
+TAKSE IN PRISTOJBINE
+2.760,92
+712
+GLOBE IN DRUGE DENARNE KAZNI
+4.190,00
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+315.843,49
+714
+DRUGI NEDAVČNI PRIHODKI
+99.355,22
+72
+KAPITALSKI PRIHODKI (720+721+722)
+2.561.129,00
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+0,00
+721
+PRIHODKI OD PRODAJE ZALOG
+0,00
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+2.561.129,00
+73
+PREJETE DONACIJE (730+731)
+0,00
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+0,00
+731
+PREJETE DONACIJE IZ TUJINE
+0,00
+74
+TRANSFERNI PRIHODKI (740+741)
+130.855,36
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+130.855,36
+741
+PREJETA SREDSTVA IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+0,00
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE IN IZ DRUGIH DRŽAV (786+787)
+0,00
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+0,00
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ
+0,00
+II. SKUPAJ ODHODKI (40+41+42+43)
+11.513.020,13
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+3.065.967,34
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+335.651,76
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+54.528,17
+402
+IZDATKI ZA BLAGO IN STORITVE
+2.655.787,41
+403
+PLAČILA DOMAČIH OBRESTI
+0,00
+409
+REZERVE
+20.000,00
+41
+TEKOČI TRANSFERI (410+411+412+413)
+2.947.247,49
+410
+SUBVENCIJE
+106.567,20
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+645.092,46
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+278.292,30
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+1.917.295,53
+414
+TEKOČI TRANSFERI V TUJINO
+0,00
+42
+INVESTICIJSKI ODHODKI (420)
+5.136.739,62
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+5.136.739,62
+43
+INVESTICIJSKI TRANSFERI (431+432)
+363.065,68
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ. OSEBAM
+30.456,27
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+332.609,41
+III. PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I. – II.)
+–347.651,45
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+75
+IV. PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0,00
+750
+PREJETA VRAČILA DANIH POSOJIL
+0,00
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0,00
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0,00
+44
+V. DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+0,00
+440
+DANA POSOJILA
+0,00
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+0,00
+VI. PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV. – V.)
+0,00
+C. FINANCIRANJA
+50
+VII. ZADOLŽEVANJE (500)
+0,00
+500
+DOMAČE ZADOLŽEVANJE
+0,00
+55
+VIII. ODPLAČILA DOLGA (550)
+0,00
+550
+ODPLAČILA DOMAČEGA DOLGA
+0,00
+IX. POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (III.+VI.+X.) = (I.+IV.+VII.) – (II.+V.+VIII.)
+–347.651,45
+X. NETO ZADOLŽEVANJE (VII. – VIII.)
+0,00
+XI. NETO FINANCIRANJE (VI.+X.-IX.)
+347.651,45
+STANJE SREDSTEV NA RAČUNIH OB KONCU PRETEKLEGA LETA
+0,00
+– OD TEGA PRESEŽEK FINANČNE IZRAVNAVE IZ PRETEKLEGA LETA
+–
+
+3. člen
+
+Zaključni račun proračuna Občine Ankaran za leto 2018 sestavljajo splošni in posebni del. V splošnem delu je podan podrobnejši prikaz predvidenih in realiziranih prihodkov in odhodkov oziroma prejemkov in izdatkov iz bilance prihodkov in odhodkov, računa finančnih terjatev in naložb ter računa financiranja. V posebnem delu je prikaz predvidenih in realiziranih odhodkov in drugih izdatkov proračuna Občine Ankaran za leto 2018.
+
+4. člen
+
+Denarna sredstva rezervnega sklada Občine Ankaran izkazujejo po zaključnem računu Občine Ankaran za leto 2018 naslednje stanje:
+
+Stanje na dan 1. 1. 2018
+42.736 EUR
+Prilivi v letu 2018
+20.000 EUR
+Odlivi v letu 2018
+0 EUR
+Stanje na dan 31. 12. 2018
+62.736 EUR
+
+Rezervni sklad nima odprtega posebnega podračuna, zato se vodijo denarna sredstva in njih poraba na posebnem podkontu v okviru transakcijskega podračuna proračuna Občine Ankaran.
+
+Neporabljena denarna sredstva rezervnega sklada na dan 31. 12. 2018 se prenesejo v rezervni sklad Občine Ankaran za leto 2019.
+
+5. člen
+
+Zaključni račun proračuna Občine Ankaran za leto 2018 začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 30/2019-SVT
+
+Župan
+
+Občine Ankaran
+
+Gregor Strmčnik
+
+Visto l'articolo 29 della Legge sull'autonomia locale (Gazzetta ufficiale della RS, n. 94/07 – testo unico ufficiale e modifiche), glia articoli 96, 97 e 98 della Legge sulle finanze pubbliche – UPB4 (Gazzetta ufficiale RS, n. 11/11) e dell'articolo 17 dello Statuto del Comune di Ancarano (Gazzetta ufficiale RS, n. 17/15) il Consiglio comunale del Comune di Ancarano, nella IV seduta ordinaria tenuta si il 9. 4. 2019, ha approvato il
+
+C O N T O  C O N S U N T I V O
+
+del Bilancio di previsione del Comune di Ancarano per l'anno 2018
+
+Articolo 1
+
+E' approvato il conto consuntivo del Comune di Ancarano per l'anno 2018.
+
+Articolo 2
+
+Il bilancio di previsione del Comune di Ancarano e' stato realizzato nei seguenti importi:
+
+Realizzazione
+CONTO
+DESCRIZIONE
+dal 1-12/2018
+A. BILANCIO DELLE ENTRATE E DELLE SPESE
+I. TOTALE ENTRATE (70+71+72+73+74+78)
+11.165.368,68
+ENTRATE CORRENTI (70+71)
+8.473.384,32
+70
+ENTRATE TRIBUTARIE (700+703+704+706)
+6.017.402,81
+700
+IMPOSTE SUL REDDITO E SUGLI UTILI
+1.529.648,00
+703
+IMPOSTE PATRIMONIALI
+4.218.825,83
+704
+IMPOSTE LOCALI SUI BENI E SERVIZI
+268.588,45
+706
+ALTRE IMPOSTE
+340,53
+71
+ENTRATE EXTRATRIBUTARIE (710+711+712+713+714)
+2.455.981,51
+710
+PARTECIPAZIONE AI PROFITTI ED ALLE ENTRATE PATRIMONIALI
+2.033.831,88
+711
+TASSE E CONTRIBUTI
+2.760,92
+712
+SANZIONI PECUNIARIE
+4.190,00
+713
+ENTRATE DA VENDITE E SERVIZI
+315.843,49
+714
+ALTRE ENTRATE EXTRATRIBUTARIE
+99.355,22
+72
+ENTRATE PROVENIENTI DA CAPITALE (720+721+722)
+2.561.129,00
+720
+ENTRATE RICAVATE DALLA VENDITA DI BENI STRUMENTALI
+0,00
+721
+ENTRATE RICAVATEDA VENDITA DI GIACENZE
+0,00
+722
+ENTRATE RICAVATE DALLA VENDITA DI TERRENI E DEL PATRIMONIO IMMATERIALE
+2.561.129,00
+73
+DONAZIONI RICEVUTE (730+731)
+0,00
+730
+DONAZIONI ED ELARGIZIONI DA PERSONE GIURIDICHE NAZIONALI
+0,00
+731
+DONAZIONI ED ELARGIZIONI DALL'ESTERO
+0,00
+74
+ENTRATE PROVENIENTI DA TRASFERIMENTI ERARIALI (740+741)
+130.855,36
+740
+TRASFERIMENTI ERARIALI DA ALTRI ENTI FINANZIARI PUBBLICI
+130.855,36
+741
+FONDI PERCEPITI DAL BILANCIO DELLO STATO E DAL BILANCIO DELL'UE
+0,00
+78
+FONDI ACQUISITI DALL'UE E DA ALTRI STATI (786+787)
+0,00
+786
+ALTRI FONDI DAL BILANCIO UE
+0,00
+787
+FONDI PERCEPITI DA ALTRE ISTITUZIONI COMUNITARIE
+0,00
+II. TOTALE SPESE (40+41+42+43)
+11.513.020,13
+40
+SPESE CORRENTI (400+401+402+403+409)
+3.065.967,34
+400
+SALARI ED ALTRE EROGAZIONI AL PERSONALE DIPENDENTE
+335.651,76
+401
+CONTRIBUTI PREVIDENZIALI DEI DATORI DI LAVORO
+54.528,17
+402
+SPESE PER BENI E SERVIZI
+2.655.787,41
+403
+SPESE PER INTERESSI IN AMBITO NAZIONALE
+0,00
+409
+FONDI DI ACCANTONAMENTO
+20.000,00
+41
+STANZIAMENTI CORRENTI (410+411+412+413)
+2.947.247,49
+410
+SOVVENZIONI
+106.567,20
+411
+SOVVENZIONI A FAVORE DI SINGOLI E NUCLEI FAMILIARI
+645.092,46
+412
+TRASFERIMENTI DI FONDI A FAVORE DI ORGANIZZAZIONI ED ENTI NO PROFIT
+278.292,30
+413
+ALTRI TRASFERIMENTI CORRENTI IN AMBITO NAZIONALE
+1.917.295,53
+414
+TRASFERIMENTI CORRENTI ALL'ESTERO
+0,00
+42
+SPESE PER INVESTIMENTI (420)
+5.136.739,62
+420
+ACQUISTO E COSTRUZIONE DI IMMOBILIZZAZIONI MATERIALI
+5.136.739,62
+43
+TRASFERIMENTI D'INVESTIMENTO (431+432)
+363.065,68
+431
+TRASFERIMENTI D'INVESTIMENTO A PERSONE FISICHE E GIURIDICHE
+30.456,27
+432
+TRASFERIMENTI D'INVESTIMENTO A FRUITORI DI BILANCIO
+332.609,41
+III. AVANZO (DISAVANZO) (I. – II.)
+–347.651,45
+B. CONTO DEI CREDITI FINANZIARI E DEGLI INVESTIMENTI
+75
+IV. RIMBORSO DI CREDITI E ALIENAZIONE DI QUOTE IN CAPITALE (750+751+752)
+0,00
+750
+RIMBORSO DI CREDITI
+0,00
+751
+VENDITA DI QUOTE IN CAPITALE
+0,00
+752
+RICAVATO IN SEGUITO A PRIVATIZZAZIONE
+0,00
+44
+V. CONCESSIONE DI PRESTITI ED AUMENTO DI QUOTE IN CAPITALE (440+441)
+0,00
+440
+CONCESSIONE DI CREDITI
+0,00
+441
+AUMENTO DI QUOTE IN CAPITALE E INVESTIMENTI FINANTIARI
+0,00
+VI. PRESTITI CONTRATTI MENO QUELLI CONCESSI E MUTAMENTI DELLE QUOTE IN CAPITALE (IV. – V.)
+0,00
+C. CONTO FINANZIARIO
+50
+VII. INDEBITAMENTO (500)
+0,00
+500
+INDEBITAMENTO IN AMBITO NAZIONALE
+0,00
+55
+VIII. RIMBORSI DI DEBITI (550)
+0,00
+550
+RIMBORSO DI DEBITI ASSUNTI IN AMBITO NAZIONALE
+0,00
+IX. INCREMENTO (RIDUZIONE) DEI FONDI DI CASSA (III.+VI.+X.) = (I.+IV.+VII.) – (II.+V.+VIII.)
+–347.651,45
+X. INDEBITAMENTO NETTO (VII. – VIII.)
+0,00
+XI. FINANZIAMENTO NETTO (VI.+X.-IX.)
+347.651,45
+SALDO CONTO ALLA FINE DELL'ANNO PRECEDENTE
+0,00
+– DI CUI AVANZO DI CONGUAGLIO FINANZIARIO DELL'ANNO PRECEDENTE
+–
+
+Articolo 3
+
+Compongono il conto consuntivo del Comune di Ancarano per l'anno 2018 la parte generale e la parte specifica. La parte generelae contiene prospetti dettagliati dei ricavi e dei costi di bilancio previsti e realizzati ovvero delle entrate e delle spese di cui al bilancio delle entrate e delle spese, al conto dei crediti e dei depositi finanziari ed al conto di finanziamento. La parte specifica invecie presenta i prospetti dei costi previsti e realizzati ed altre spese di bilancio del Comune di Ancarano per l'anno 2018.
+
+Articolo 4
+
+Gli importi del Fondo di riserva del Comune di Ancarano, secondo il conto consuntivo del Comune di Ancarano per l'anno 2018, presentano la seguente situazione:
+
+Situazione al 1. 1. 2018
+42.736 EUR
+Entrate ne''anno 2018
+20.000 EUR
+Uscite nell'anno 2018
+0 EUR
+Situazione al 31. 12. 2018
+62.736 EUR
+
+Il fondo di riserva non ha un proprio sottoconto apposito, pertanto gli importi e il loro utilizzo vengono gestiti su un apposito conto nell'ambito del conto del bilancio di previsione del Comune di Ancarano.
+
+Gli importi non utilizzati del Fondo di riserva al 31. 12. 2018 vengono trasferiti nel Fondo di riserva del Comune di Ancarano per l'anno 2019.
+
+Articolo 5
+
+Il Conto consuntivo del bilancio di previsione del Comune di Ancarano per l'anno 2018 entra in vigore il giorno successivo a quello della sua publicazione sulla Gazzetta Ufficiale della Repubblica di Slovenia.
+
+N. 30/2019-SVT
+
+Il Sindaco
+
+Comune di Ancarano
+
+Gregor Strmčnik
