@@ -4,9 +4,9 @@ naziv: "Sklep o nesprejemu ustavne pritožbe"
 vrsta: "akt"
 datum: 2019-06-14
 sop: 2019-01-1738
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-1738"
 ---
 
