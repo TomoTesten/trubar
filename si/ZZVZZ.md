@@ -52,6 +52,10 @@ spremembe:
     datum: 2013-11-05
     sop: 2013-01-3306
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
+  - kratica: ZZVZZ-N
+    datum: 2019-06-07
+    sop: 2019-01-1624
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
