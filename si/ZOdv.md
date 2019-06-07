@@ -24,6 +24,10 @@ spremembe:
     datum: 2016-06-30
     sop: 2016-01-1997
     naziv: "Zakon o spremembah in dopolnitvah Zakona o odvetništvu"
+  - kratica: ZOdv-F
+    datum: 2019-06-07
+    sop: 2019-01-1625
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o odvetništvu"
 ---
 
 # Zakon o odvetništvu
