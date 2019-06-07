@@ -1,0 +1,239 @@
+---
+kratica: MP_ODLO43679
+naziv: "Odlok o 1. rebalansu proračuna Občine Kranjska Gora za leto 2019 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2019-06-07
+sop: 2019-01-1667
+organ: "Občina Kranjska Gora"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-1667"
+---
+
+# Odlok o 1. rebalansu proračuna Občine Kranjska Gora za leto 2019 (ODLO)
+
+Na podlagi Zakona o javnih financah (Uradni list RS, št. 79/99 z vsemi spremembami in dopolnitvami), 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 72/93 z vsemi spremembami in dopolnitvami) in 16. člena Statuta Občine Kranjska Gora (Uradni list RS, št. 31/18) je Občinski svet Občine Kranjska Gora na 5. seji dne 29. 5. 2019 sprejel
+
+O D L O K
+
+o 1. rebalansu proračuna Občine Kranjska Gora za leto 2019
+
+1. člen
+
+V Odloku o proračunu Občine Kranjska Gora za leto 2019 (Uradni list RS, št. 86/18) se 3. člen spremeni tako, da se glasi:
+
+Splošni del proračuna na ravni podskupin kontov se določa v naslednjih zneskih:
+
+A. BILANCA PRIHODKOV IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+11.269.264
+TEKOČI PRIHODKI (70+71)
+9.317.528
+70
+DAVČNI PRIHODKI (700+703+704+706)
+6.536.778
+700
+DAVKI NA DOHODEK IN DOBIČEK
+3.515.408
+703
+DAVKI NA PREMOŽENJE
+1.741.560
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+1.279.810
+706
+DRUGI DAVKI
+0
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+2.780.750
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+2.074.750
+711
+TAKSE IN PRISTOJBINE
+15.000
+712
+GLOBE IN DRUGE DENARNE KAZNI
+115.500
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+6.000
+714
+DRUGI NEDAVČNI PRIHODKI
+569.500
+72
+KAPITALSKI PRIHODKI (720+721+722)
+270.800
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+170.800
+721
+PRIHODKI OD PRODAJE ZALOG
+0
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+100.000
+73
+PREJETE DONACIJE (730+731)
+0
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+0
+731
+PREJETE DONACIJE IZ TUJINE
+0
+74
+TRANSFERNI PRIHODKI (740+741)
+1.680.936
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+1.680.936
+741
+PREJETA SREDSTVA IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+0
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE (786+787)
+0
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+0
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ
+0
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+12.905.290
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+3.473.637
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+437.013
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+67.750
+402
+IZDATKI ZA BLAGO IN STORITVE
+2.737.321
+403
+PLAČILA DOMAČIH OBRESTI
+0
+409
+REZERVE
+231.554
+41
+TEKOČI TRANSFERI (410+411+412+413)
+3.704.278
+410
+SUBVENCIJE
+155.000
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+1.403.227
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+546.687
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+1.599.364
+414
+TEKOČI TRANSFERI V TUJINO
+0
+42
+INVESTICIJSKI ODHODKI (420)
+5.066.494
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+5.066.494
+43
+INVESTICIJSKI TRANSFERI (431+432)
+660.880
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ. OSEBAM
+401.200
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+259.680
+III.
+PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.–II.)
+–1.636.026
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+75
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0
+750
+PREJETA VRAČILA DANIH POSOJIL
+0
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0
+44
+V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+0
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+0
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.–V.)
+0
+C. RAČUN FINANCIRANJA
+50
+VII.
+ZADOLŽEVANJE (500)
+0
+500
+DOMAČE ZADOLŽEVANJE
+0
+55
+VIII.
+ODPLAČILA DOLGA (550)
+0
+550
+ODPLAČILA DOMAČEGA DOLGA
+0
+IX.
+POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (III.+VI.+X.)=(I.+IV.+VII.)–(II.+V.+VIII.)
+–1.636.026
+X.
+NETO ZADOLŽEVANJE (VII.-VIII.)
+0
+XI.
+NETO FINANCIRANJE (VI.+X.-IX.)
+1.636.026
+STANJE SREDSTEV NA RAČUNIH OB KONCU PRETEKLEGA LETA
+1.636.026
+– OD TEGA PRESEŽEK FINANČNE IZRAVNAVE IZ PRETEKLEGA LETA
+
+Proračunski primanjkljaj se pokriva iz presežkov preteklih let.
+
+2. člen
+
+Spremeni se 9. člen tako, da se glasi:
+
+V proračunu se zagotavljajo sredstva za proračunsko rezervo. V sredstva proračunske rezerve se izloča del skupno doseženih letnih prejemkov proračuna, ki se določa s proračunom, vendar največ do višine 1,5 % prejemkov proračuna. Proračunska rezerva se v letu 2019 oblikuje v višini 161.000,00 €.
+
+Na predlog za finance pristojnega organa občinske uprave odloča o uporabi sredstev proračunske rezerve za namene iz drugega odstavka 49. člena Zakona o javnih financah do višine 50.000,00 € v posameznem primeru župan. O uporabi sredstev s pisnimi poročili obvešča občinski svet.
+
+3. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 410-2/2018-9
+
+Kranjska Gora, dne 29. maja 2019
+
+Župan
+
+Občine Kranjska Gora
+
+Janez Hrovat
