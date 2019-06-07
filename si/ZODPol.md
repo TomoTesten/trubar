@@ -20,6 +20,10 @@ spremembe:
     datum: 2016-12-02
     sop: 2016-01-3231
     naziv: "Zakon o spremembah in dopolnitvah Zakona o organiziranosti in delu v policiji"
+  - kratica: ZODPol-E
+    datum: 2019-06-07
+    sop: 2019-01-1627
+    naziv: "Zakon o spremembi Zakona o organiziranosti in delu v policiji"
 ---
 
 # Zakon o organiziranosti in delu v policiji
