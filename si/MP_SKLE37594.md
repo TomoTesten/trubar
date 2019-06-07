@@ -2,11 +2,11 @@
 kratica: MP_SKLE37594
 naziv: "Sklep o cenah uporabe Kulturnega hrama Ignacija Borštnika v Cerkljah na Gorenjskem (SKLE)"
 vrsta: "občinski sklep"
-datum: 2026-01-05
+datum: 2019-09-13
 sop: 2019-97-0655
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Cerklje na Gorenjskem"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-97-0655"
 ---
 
