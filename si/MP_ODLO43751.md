@@ -1,0 +1,169 @@
+---
+kratica: MP_ODLO43751
+naziv: "Odlok o rebalansu Odloka o proračunu Občine Dol pri Ljubljani za leto 2019 – 1. rebalans proračuna (ODLO)"
+vrsta: "občinski odlok"
+datum: 2019-06-28
+sop: 2019-01-1962
+organ: "Občina Dol pri Ljubljani"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-1962"
+---
+
+# Odlok o rebalansu Odloka o proračunu Občine Dol pri Ljubljani za leto 2019 – 1. rebalans proračuna (ODLO)
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 76/08, 79/09, 51/10, 40/12 – ZUJF, 14/15 – ZUUJFO, 11/18 – ZSPDSLS-1 in 30/18), 40. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13 – popr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617 in 13/18) in 15. člena Statuta Občine Dol pri Ljubljani (Uradni list RS, št. 3/18 – UPB2) je Občinski svet Občine Dol pri Ljubljani na 5. redni seji dne 19. 6. 2019 sprejel
+
+O D L O K
+
+o rebalansu Odloka o proračunu Občine Dol pri Ljubljani za leto 2019 – 1. rebalans proračuna
+
+1. člen
+
+V Odloku o proračunu Občine Dol pri Ljubljani za leto 2019 (Uradni list RS, št. 17/19) se 3. člen spremeni tako, da se glasi:
+
+»V splošnem delu proračuna so prikazani prejemki in izdatki po ekonomski klasifikaciji do ravni kontov.
+
+Splošni del proračuna na ravni podskupin kontov se določa v naslednjih zneskih:
+
+A.
+BILANCA PRIHODKOV IN ODHODKOV
+I.
+PRIHODKI
+7
+SKUPAJ PRIHODKI
+6.217.000,00
+TEKOČI PRIHODKI (70+71)
+5.552.000,00
+70
+DAVČNI PRIHODKI
+4.452.000,00
+700 DAVKI NA DOHODEK IN DOBIČEK
+3.666.000,00
+703 DAVKI NA PREMOŽENJE
+624.000,00
+704 DOMAČI DAVKI NA BLAGO
+IN STORITEV
+152.000,00
+706 DRUGI DAVKI IN PRISPEVKI
+10.000,00
+71
+NEDAVČNI PRIHODKI
+1.100.000,00
+710 UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+304.000,00
+711 TAKSE IN PRISTOJBINE
+10.000,00
+712 GLOBE IN DRUGE DENARNE KAZNI
+32.000,00
+713 PRIHODKI OD PRODAJE BLAGA
+IN STORITEV
+200.000,00
+714 DRUGI NEDAVČNI PRIHODKI
+554.000,00
+74
+TRANSFERNI PRIHODKI
+665.000,00
+740 TRANSFERNI PRIHODKI
+IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+565.000,00
+741 PREJETA SREDSTVA
+IZ DRŽAVNEGA PRORAČUNA
+IZ SREDSTEV EU
+100.000,00
+II.
+ODHODKI
+4
+SKUPAJ ODHODKI (40+41+42+43+45)
+7.117.000,00
+40
+TEKOČI ODHODKI
+3.009.600,00
+400 PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+298.500,00
+401 PRISPEVKI DELODAJALCEV
+ZA SOCIALNO VARNOST
+46.200,00
+402 IZDATKI ZA BLAGO IN STORITVE
+2.544.900,00
+409 REZERVE
+120.000,00
+41
+TEKOČI TRANSFERI
+2.283.400,00
+410 SUBVENCIJE
+102.000,00
+411 TRANSFERI POSAMEZNIKOM
+IN GOSPODINJSTVOM
+1.309.000,00
+412 TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+214.000,00
+413 DRUGI TEKOČI DOMAČI TRANSFERI
+658.400,00
+42
+INVESTICIJSKI ODHODKI
+1.791.000,00
+420 NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+1.791.000,00
+43
+INVESTICIJSKI TRANSFERI
+33.000,00
+431 INVESTICIJSKI TRANSFERI PRAVNIM IN FIZIČNIM OSEBAM,
+KI NISO PRORAČUNSKI UPORABNIKI
+30.000,00
+432 INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+3.000,00
+III.
+PRORAČUNSKI PRIMANJKLJAJ
+900.000,00
+III/1.
+PRIMARNI PRIMANJKLJAJ
+900.000,00
+III/2.
+TEKOČI PRESEŽEK
+259.000,00
+B.
+RAČUN FINANČNIH TERJATEV
+IN NALOŽB
+IV.
+PREJETA VRAČILA DANIH POSOJIL
+IN PRODAJA KAPITALSKIH DELEŽEV
+0
+VI.
+PREJETA MINUS DANA POSOJILA
+IN SPREMEMBE KAPITALSKIH DELEŽEV
+0
+C.
+RAČUN FINANCIRANJA
+VII.
+ZADOLŽEVANJE
+0
+IX.
+SPREMEMBA STANJA SREDSTEV
+NA RAČUNU
+–900.000,00
+X.
+NETO ZADOLŽEVANJE
+0
+XI.
+NETO FINANCIRANJE
+900.000,00
+XII.
+STANJE SREDSTEV NA RAČUNIH
+NA DAN 31. 12. PRETEKLEGA LETA
+900.000,00
+
+2. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 4100-0001/2018-15
+
+Dol pri Ljubljani, dne 19. junija 2019
+
+Župan
+
+Občine Dol pri Ljubljani
+
+Željko Savič
+l.r.
