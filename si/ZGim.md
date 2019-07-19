@@ -16,6 +16,10 @@ spremembe:
     datum: 2006-11-10
     sop: 2006-01-4909
     naziv: "Zakon o spremembah in dopolnitvah zakona o gimnazijah"
+  - kratica: ZGim-D
+    datum: 2019-07-19
+    sop: 2019-01-2180
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o gimnazijah"
 ---
 
 # Zakon o gimnazijah
