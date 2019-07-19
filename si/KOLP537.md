@@ -4,9 +4,9 @@ naziv: "Tarifna priloga h Kolektivni pogodbi za dejavnost poslovanja z nepremič
 vrsta: "akt"
 datum: 2019-07-19
 sop: 2019-01-2224
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-2224"
 ---
 
