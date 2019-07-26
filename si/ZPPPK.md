@@ -7,6 +7,11 @@ sop: 2016-01-1704
 objava: "Uradni list RS 39/16  str. 5865"
 kljucne_besede: ["poklicna kvalifikacija"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-1704"
+spremembe:
+  - kratica: ZPPPK-A
+    datum: 2019-07-26
+    sop: 2019-01-2288
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o postopku priznavanja poklicnih kvalifikacij za opravljanje reguliranih poklicev"
 ---
 
 # Zakon o postopku priznavanja poklicnih kvalifikacij za opravljanje reguliranih poklicev
