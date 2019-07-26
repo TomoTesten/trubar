@@ -4,9 +4,9 @@ naziv: "Aneks št. 3 h Kolektivni pogodbi"
 vrsta: "akt"
 datum: 2019-08-16
 sop: 2019-01-2403
-organ: "Banka Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-2403"
 ---
 
