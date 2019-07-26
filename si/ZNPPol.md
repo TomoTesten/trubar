@@ -12,6 +12,10 @@ spremembe:
     datum: 2017-02-27
     sop: 2017-01-0462
     naziv: "Zakon o spremembah in dopolnitvah Zakona o nalogah in pooblastilih policije"
+  - kratica: ZNPPol-B
+    datum: 2019-07-26
+    sop: 2019-01-2290
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o nalogah in pooblastilih policije"
 ---
 
 # Zakon o nalogah in pooblastilih policije
