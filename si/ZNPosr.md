@@ -16,6 +16,10 @@ spremembe:
     datum: 2011-06-24
     sop: 2011-01-2354
     naziv: "Zakon o spremembah in dopolnitvah Zakona o nepremičninskem posredovanju"
+  - kratica: ZNPosr-C
+    datum: 2019-07-26
+    sop: 2019-01-2285
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o nepremičninskem posredovanju"
 ---
 
 # Zakon o nepremičninskem posredovanju
