@@ -32,6 +32,10 @@ spremembe:
     datum: 2018-11-30
     sop: 2018-01-3752
     naziv: "Zakon o spremembah in dopolnitvi Zakona o uveljavljanju pravic iz javnih sredstev"
+  - kratica: ZUPJS-I
+    datum: 2019-07-26
+    sop: 2019-01-2886
+    naziv: "Zakon o spremembah Zakona o uveljavljanju pravic iz javnih sredstev"
 ---
 
 # Zakon o uveljavljanju pravic iz javnih sredstev
