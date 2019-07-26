@@ -24,6 +24,10 @@ spremembe:
     datum: 2016-06-30
     sop: 2016-01-1998
     naziv: "Zakon o spremembi in dopolnitvi Zakona o letalstvu"
+  - kratica: ZLet-E
+    datum: 2019-07-26
+    sop: 2019-01-2289
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o letalstvu"
 ---
 
 # Zakon o letalstvu
