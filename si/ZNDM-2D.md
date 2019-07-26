@@ -1,0 +1,50 @@
+---
+kratica: ZNDM-2D
+naziv: "Zakon o spremembah in dopolnitvah Zakona o nadzoru državne meje"
+vrsta: "Sprejet zakon"
+datum: 2019-07-26
+sop: 2019-01-2887
+objava: "Uradni list RS 47/19  str. 5889"
+kljucne_besede: []
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-2887"
+---
+
+# Zakon o spremembah in dopolnitvah Zakona o nadzoru državne meje
+
+Na podlagi prvega odstavka 19. člena Zakona o državni statistiki (Uradni list RS, št. 45/95 in 9/01) Statistični urad Republike Slovenije objavlja
+
+K O E F I C I E N T E   R A S T I   C E N
+
+v Republiki Sloveniji, september 2019
+
+1. Mesečni koeficient rasti cen industrijskih proizvodov pri proizvajalcih na domačem trgu septembra 2019 v primerjavi z avgustom 2019 je bil 0,000.
+
+2. Koeficient rasti cen industrijskih proizvodov pri proizvajalcih na domačem trgu od začetka leta do konca septembra 2019 je bil 0,023.
+
+3. Koeficient povprečne mesečne rasti cen industrijskih proizvodov pri proizvajalcih na domačem trgu od začetka leta do konca septembra 2019 je bil 0,003.
+
+4. Koeficient rasti cen industrijskih proizvodov pri proizvajalcih na domačem trgu septembra 2019 v primerjavi z istim mesecem prejšnjega leta je bil 0,021.
+
+5. Mesečni koeficient rasti cen življenjskih potrebščin septembra 2019 v primerjavi z avgustom 2019 je bil –0,002.
+
+6. Koeficient rasti cen življenjskih potrebščin od začetka leta do septembra 2019 je bil 0,018.
+
+7. Koeficient povprečne mesečne rasti cen življenjskih potrebščin od začetka leta do septembra 2019 je bil 0,002.
+
+8. Koeficient rasti cen življenjskih potrebščin septembra 2019 v primerjavi z istim mesecem prejšnjega leta je bil 0,017.
+
+9. Koeficient povprečne rasti cen življenjskih potrebščin od začetka leta do septembra 2019 v primerjavi s povprečjem leta 2018 je bil 0,014.
+
+Št. 9621-193/2019/5
+
+Ljubljana, dne 21. oktobra 2019
+
+EVA 2019-1522-0030
+
+Bojan Nastav
+
+generalni direktor
+
+Statističnega urada
+
+Republike Slovenije
