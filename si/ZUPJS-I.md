@@ -1,0 +1,42 @@
+---
+kratica: ZUPJS-I
+naziv: "Zakon o spremembah Zakona o uveljavljanju pravic iz javnih sredstev"
+vrsta: "Sprejet zakon"
+datum: 2019-07-26
+sop: 2019-01-2886
+objava: "Uradni list RS 47/19  str. 5888"
+kljucne_besede: []
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-2886"
+---
+
+# Zakon o spremembah Zakona o uveljavljanju pravic iz javnih sredstev
+
+Na podlagi prvega odstavka 19. člena Zakona o državni statistiki (Uradni list RS, št. 45/95 in 9/01) Statistični urad Republike Slovenije objavlja
+
+P O R O Č I L O
+
+o gibanju plač za avgust 2019
+
+Povprečna mesečna bruto plača na zaposleno osebo v Sloveniji za avgust 2019 je znašala 1.725,91 EUR in je bila za 0,7 % nižja kot za julij 2019.
+
+Povprečna mesečna neto plača na zaposleno osebo v Sloveniji za avgust 2019 je znašala 1.114,16 EUR in je bila za 0,4 % nižja kot za julij 2019.
+
+Povprečna mesečna bruto plača za obdobje januar–avgust 2019 je znašala 1.729,49 EUR.
+
+Povprečna mesečna neto plača za obdobje januar–avgust 2019 je znašala 1.115,28 EUR.
+
+Povprečna mesečna bruto plača za obdobje junij–avgust 2019 je znašala 1.727,04 EUR.
+
+Št. 9611-305/2019/4
+
+Ljubljana, dne 25. oktobra 2019
+
+EVA 2019-1522-0032
+
+Bojan Nastav
+
+generalni direktor
+
+Statističnega urada
+
+Republike Slovenije
