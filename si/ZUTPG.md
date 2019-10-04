@@ -12,6 +12,10 @@ spremembe:
     datum: 2010-10-29
     sop: 2010-01-4555
     naziv: "Zakon o dopolnitvi Zakona o usklajevanju transferjev posameznikom in gospodinjstvom v Republiki Sloveniji"
+  - kratica: ZUTPG-C
+    datum: 2019-10-04
+    sop: 2019-01-2615
+    naziv: "Zakon o spremembah Zakona o usklajevanju transferjev posameznikom in gospodinjstvom v Republiki Sloveniji"
 ---
 
 # Zakon o usklajevanju transferjev posameznikom in gospodinjstvom v Republiki Sloveniji
