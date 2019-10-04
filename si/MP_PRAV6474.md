@@ -2,11 +2,11 @@
 kratica: MP_PRAV6474
 naziv: "Pravilnik o spodbujanju zaposlovanja v Občini Komen (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2026-01-04
+datum: 2019-10-30
 sop: 2019-01-2899
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Komen"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-2899"
 ---
 

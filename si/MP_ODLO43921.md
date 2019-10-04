@@ -2,11 +2,11 @@
 kratica: MP_ODLO43921
 naziv: "Odlok o nadomestilu za uporabo stavbnih zemljišč v Občini Laško (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-04
+datum: 2019-10-11
 sop: 2019-01-2748
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Laško"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-2748"
 ---
 
