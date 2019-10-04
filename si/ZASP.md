@@ -32,6 +32,10 @@ spremembe:
     datum: 2015-07-29
     sop: 2015-01-2358
     naziv: "Zakon o spremembah in dopolnitvah Zakona o avtorski in sorodnih pravicah"
+  - kratica: ZASP-H
+    datum: 2019-10-04
+    sop: 2019-01-2613
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o avtorski in sorodnih pravicah"
 ---
 
 # Zakon o avtorski in sorodnih pravicah
