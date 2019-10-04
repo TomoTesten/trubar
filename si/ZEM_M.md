@@ -7,6 +7,11 @@ sop: 2002-01-2837
 objava: "Uradni list RS 59/2002  str. 6104"
 kljucne_besede: ["davek", "živilo", "zaščitna oprema"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2837"
+spremembe:
+  - kratica: ZEMŽM-A
+    datum: 2019-10-04
+    sop: 2019-01-2616
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o enakih možnostih žensk in moških"
 ---
 
 # Zakon o enakih možnostih žensk in moških
