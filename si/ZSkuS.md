@@ -7,6 +7,11 @@ sop: 1994-01-1524
 objava: "Uradni list RS 38/94  str. 2449"
 kljucne_besede: ["študent/dijak"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1524"
+spremembe:
+  - kratica: ZSkuS-A
+    datum: 2019-10-04
+    sop: 2019-01-2611
+    naziv: "Zakon o spremembah Zakona o skupnosti študentov"
 ---
 
 # Zakon o skupnosti študentov
