@@ -4,9 +4,9 @@ naziv: "Merila za kreditno vrednotenje študijskih programov po ECTS"
 vrsta: "akt"
 datum: 2019-11-08
 sop: 2019-01-2943
-organ: "Nacionalna agencija Republike Slovenije za kakovost v visokem šolstvu"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-2943"
 ---
 

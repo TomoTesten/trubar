@@ -4,9 +4,9 @@ naziv: "Sklep o začasnem zadržanju izvrševanja druge povedi prvega odstavka 2
 vrsta: "akt"
 datum: 2019-11-05
 sop: 2019-01-2934
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-2934"
 ---
 
