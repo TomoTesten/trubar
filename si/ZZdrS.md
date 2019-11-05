@@ -28,6 +28,10 @@ spremembe:
     datum: 2018-07-18
     sop: 2018-01-2523
     naziv: "Zakon o dopolnitvi Zakona o zdravniški službi"
+  - kratica: ZZdrS-H
+    datum: 2019-11-05
+    sop: 2019-01-2922
+    naziv: "Zakon o spremembah Zakona o spremembah in dopolnitvah Zakona o zdravniški službi"
 ---
 
 # Zakon o zdravniški službi
