@@ -16,6 +16,10 @@ spremembe:
     datum: 2010-12-27
     sop: 2010-01-5479
     naziv: "Zakon o spremembah in dopolnitvah Zakona o matičnem registru"
+  - kratica: ZMatR-C
+    datum: 2019-11-08
+    sop: 2019-01-2936
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o matičnem registru"
 ---
 
 # Zakon o matičnem registru
