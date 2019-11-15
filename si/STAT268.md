@@ -4,9 +4,9 @@ naziv: "Splošni akt o spremembi Splošnega akta o strokovnem nadzoru nad delom 
 vrsta: "akt"
 datum: 2019-11-15
 sop: 2019-01-3002
-organ: "Inženirska zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-3002"
 ---
 
