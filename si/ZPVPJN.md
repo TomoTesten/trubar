@@ -12,6 +12,10 @@ spremembe:
     datum: 2013-07-26
     sop: 2013-01-2513
     naziv: "Zakon o spremembah in dopolnitvah Zakona o pravnem varstvu v postopkih javnega naročanja"
+  - kratica: ZPVPJN-C
+    datum: 2019-12-04
+    sop: 2019-01-3209
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o pravnem varstvu v postopkih javnega naročanja"
 ---
 
 # Zakon o pravnem varstvu v postopkih javnega naročanja
