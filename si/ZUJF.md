@@ -28,6 +28,10 @@ spremembe:
     datum: 2015-12-24
     sop: 2015-01-4084
     naziv: "Zakon o dopolnitvi Zakona za uravnoteženje javnih financ"
+  - kratica: ZUJF-F
+    datum: 2019-12-04
+    sop: 2019-01-3207
+    naziv: "Zakon o spremembah Zakona za uravnoteženje javnih financ"
 ---
 
 # Zakon za uravnoteženje javnih financ
