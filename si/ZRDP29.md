@@ -4,9 +4,9 @@ naziv: "Zaključni račun proračuna Republike Slovenije za leto 2018 (RZ2018)"
 vrsta: "akt"
 datum: 2019-12-09
 sop: 2019-01-3295
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-3295"
 ---
 

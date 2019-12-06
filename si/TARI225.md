@@ -4,9 +4,9 @@ naziv: "Sprememba Tarife o taksah in nadomestilih"
 vrsta: "akt"
 datum: 2019-12-12
 sop: 2019-01-3312
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-3312"
 ---
 

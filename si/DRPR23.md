@@ -4,9 +4,9 @@ naziv: "Proračun Republike Slovenije za leto 2020 (DP2020)"
 vrsta: "akt"
 datum: 2019-12-12
 sop: 2019-01-3302
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-3302"
 ---
 
