@@ -40,6 +40,10 @@ spremembe:
     datum: 2013-02-15
     sop: 2013-01-0372
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zdravstveni dejavnosti"
+  - kratica: ZZDej-L
+    datum: 2019-12-06
+    sop: 2019-01-3228
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zdravstveni dejavnosti"
 ---
 
 # Zakon o zdravstveni dejavnosti
