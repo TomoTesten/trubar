@@ -4,9 +4,9 @@ naziv: "Tarifo 2020 o vrednosti točke in o višini deleža glede na zaračunano
 vrsta: "akt"
 datum: 2019-12-27
 sop: 2019-01-3730
-organ: "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-3730"
 ---
 
