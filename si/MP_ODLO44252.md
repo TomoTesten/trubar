@@ -1,0 +1,317 @@
+---
+kratica: MP_ODLO44252
+naziv: "Odlok o proračunu Občine Dravograd za leto 2020 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2019-12-27
+sop: 2019-01-3675
+organ: "Občina Dravograd"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-3675"
+---
+
+# Odlok o proračunu Občine Dravograd za leto 2020 (ODLO)
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (ZLS) (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 76/08, 79/09, 51/10, 40/12 – ZUJF, 14/15 – ZUUJFO, 11/18 – ZSPDSLS-1 in 30/18), 29. člena Zakona o javnih financah (ZJF) (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13 – popr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617 in 13/18) in 16. člena Statuta Občine Dravograd (Uradni list RS, št. 101/13 – UPB3, 2/16, 76/17 in 24/18) je Občinski svet Občine Dravograd na 10. redni seji dne 19. 12. 2019 sprejel
+
+O D L O K
+
+o proračunu Občine Dravograd za leto 2020
+
+I. SPLOŠNA DOLOČBA
+
+1. člen
+
+(vsebina odloka)
+
+S tem odlokom se za Občino Dravograd za leto 2020 določajo proračun, postopki izvrševanja proračuna ter obseg zadolževanja in poroštev občine in javnega sektorja na ravni občine (v nadaljnjem besedilu: proračun).
+
+Prihodki in odhodki ožjih delov občine morajo biti zajeti v njihovih finančnih načrtih, ki so sestavni del občinskega proračuna.
+
+II. VIŠINA SPLOŠNEGA DELA PRORAČUNA IN STRUKTURA POSEBNEGA DELA PRORAČUNA
+
+2. člen
+
+(sestava proračuna in višina splošnega dela proračuna)
+
+V splošnem delu proračuna so prikazani prejemki in izdatki po ekonomski klasifikaciji do ravni kontov.
+
+Splošni del proračuna na ravni podskupin kontov se določa v naslednjih zneskih:
+
+A.
+BILANCA PRIHODKOV IN ODHODKOV
+v EUR
+Skupina/Podskupina kontov
+Proračun leta 2020
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74)
+12.368.787
+TEKOČI PRIHODKI (70+71)
+8.370.392
+70
+DAVČNI PRIHODKI
+6.549.016
+700 Davki na dohodek in dobiček
+5.281.916
+703 Davki na premoženje
+1.099.100
+704 Domači davki na blago in storitve
+168.000
+706 Drugi davki
+71
+NEDAVČNI PRIHODKI
+1.821.376
+710 Udeležba na dobičku in dohodki
+od premoženja
+1.538.226
+711 Takse in pristojbine
+4.000
+712 Globe in druge denarne kazni
+9.000
+713 Prihodki od prodaje blaga in storitev
+29.000
+714 Drugi nedavčni prihodki
+241.150
+72
+KAPITALSKI PRIHODKI
+1.280.000
+720 Prihodki od prodaje osnovnih sredstev
+620.000
+722 Prihodki od prodaje zemljišč
+in neopred. dolgoročnih sredstev
+660.000
+73
+PREJETE DONACIJE
+730 Prejete donacije iz domačih virov
+74
+TRANSFERNI PRIHODKI
+2.718.395
+740 Transferni prihodki iz drugih javnofinančnih institucij
+731.147
+741 Prejeta sredstva iz državnega proračuna iz sredstev EU
+1.987.248
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+13.037.481
+40
+TEKOČI ODHODKI
+3.345.266
+400 Plače in drugi izdatki zaposlenih
+681.063
+401 Prispevki delodajalcev za socialno varnost
+110.159
+402 Izdatki za blago in storitve
+2.313.129
+403 Plačilo domačih obresti
+30.000
+409 Rezerve
+210.915
+41
+TEKOČI TRANSFERI
+3.825.600
+410 Subvencije
+279.837
+411 Transferi posameznikom
+in gospodinjstvom
+1.838.306
+412 Transferi neprofitnim organizacijam
+in ustanovam
+355.788
+413 Drugi tekoči domači transferi
+1.351.669
+42
+INVESTICIJSKI ODHODKI
+5.693.259
+420 Nakup in gradnja osnovnih sredstev
+5.693.259
+43
+INVESTICIJSKI TRANSFERI
+173.356
+431 Investicijski transferi
+77.856
+432 Investicijski transferi
+95.500
+III.
+PRORAČUNSKI PRESEŽEK (I.-II.) (PRORAČUNSKI PRIMANJKLJAJ)
+–668.694
+B.
+RAČUN FINANČNIH TERJATEV
+IN NALOŽB
+IV.
+PREJETA VRAČILA DANIH POSOJIL
+IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+75
+PREJETA VRAČILA DANIH POSOJIL
+750 Prejeta vračila danih posojil
+751 Prodaja kapitalskih naložb
+752 Kupnine iz naslova privatizacije
+V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441+442+443)
+44
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV
+440 Dana posojila
+441 Povečanje kapitalskih deležev
+in naložb
+442 Poraba sredstev kupnin iz naslova privatizacije
+443 Povečanje namenskega premoženja v jav. skladih in dr. os. javnega prava
+VI.
+PREJETA MINUS DANA POSOJILA
+IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.-V.)
+C.
+RAČUN FINANCIRANJA
+VII.
+ZADOLŽEVANJE
+50
+ZADOLŽEVANJE
+1.200.000
+VIII.
+ODPLAČILA DOLGA (550)
+55
+ODPLAČILA DOLGA
+550 Odplačila domačega dolga
+565.000
+IX.
+POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH
+(I.+IV.+VII.-II.-V.-VIII.)
+–33.694
+X.
+NETO ZADOLŽEVANJE (VII.-VIII.)
+635.000
+XI.
+NETO FINANCIRANJE (VI.+VII.-VIII.-IX.)
+668.694
+STANJE SREDSTEV NA RAČUNIH
+DNE 31. 12. PRETEKLEGA LETA
+33.694
+
+Posebni del proračuna sestavljajo finančni načrti neposrednih uporabnikov, ki so razdeljeni na naslednje programske dele: področja proračunske porabe, glavne programe in podprograme, predpisane s programsko klasifikacijo izdatkov občinskih proračunov. Podprogram je razdeljen na proračunske postavke, te pa na podskupine kontov in konte, določene s predpisanim kontnim načrtom. Posebni del proračuna do ravni proračunskih postavk kontov in načrt razvojnih programov sta prilogi k temu odloku in se objavita na spletni strani Občine Dravograd.
+
+Načrt razvojnih programov sestavljajo projekti.
+
+III. POSTOPKI IZVRŠEVANJA PRORAČUNA
+
+3.
+člen
+
+(izvrševanje proračuna)
+
+Proračun se izvršuje na ravni proračunske postavke – konta.
+
+4. člen
+
+(namenski prihodki in odhodki proračuna)
+
+Namenski prihodki proračuna so poleg prihodkov, določenih v prvem stavku prvega odstavka 43. člena ZJF, tudi naslednji prihodki:
+
+1. prihodki požarne takse po 59. členu Zakona o varstvu pred požarom (ZVPoz) (Uradni list RS, št. 3/07 – uradno prečiščeno besedilo, 9/11, 83/12 in 61/17 – GZ),
+
+2. prihodki ožjih delov lokalnih skupnosti,
+
+3. prihodki proračunskega rezervnega sklada,
+
+4. drugi prihodki, ki jih določi občina.
+
+Prihodki ožjih delov lokalne skupnosti pripadajo tistemu ožjemu delu lokalne skupnosti, ki jih je prejel.
+
+5. člen
+
+(prerazporejanje pravic porabe)
+
+Osnova za prerazporejanje pravic porabe je zadnji sprejeti proračun, spremembe proračuna ali rebalans proračuna.
+
+O prerazporeditvah pravic porabe v posebnem delu proračuna med glavnimi programi v okviru področja proračunske porabe odloča na predlog predlagateljev finančnih načrtov neposrednega uporabnika predstojnik neposrednega uporabnika (župan/ja, predsedniki KS).
+
+Župan/ja s poročilom o izvrševanju proračuna v prvem polletju najkasneje v mesecu septembru in konec leta z zaključnim računom poroča občinskemu svetu o veljavnem proračunu za tekoče oziroma preteklo leto in njegovi realizaciji.
+
+6. člen
+
+(največji dovoljeni obseg prevzetih obveznosti v breme proračunov prihodnjih let)
+
+Neposredni uporabnik v tekočem letu razpiše javno naročilo za celotno vrednost projekta, ki je vključen v načrt razvojnih programov, če so zanj načrtovane pravice porabe na proračunskih postavkah v sprejetem proračunu.
+
+Skupni obseg prevzetih obveznosti neposrednega uporabnika, ki bodo zapadle v plačilo v prihodnjih letih za investicijske odhodke, investicijske transfere ne sme presegati 70 % pravic porabe v sprejetem finančnem načrtu neposrednega uporabnika, od tega:
+
+1. v letu 2021 50 % navedenih pravic porabe in
+
+2. v ostalih prihodnjih letih 20 % navedenih pravic porabe.
+
+Skupni obseg prevzetih obveznosti neposrednega uporabnika, ki bodo zapadle v plačilo v prihodnjih letih za blago in storitve in za tekoče transfere, ne sme presegati 25 % pravic porabe v sprejetem finančnem načrtu neposrednega uporabnika.
+
+Omejitve iz prvega in drugega odstavka tega člena ne veljajo za prevzemanje obveznosti z najemnimi pogodbami, razen če na podlagi teh pogodb lastninska pravica preide oziroma lahko preide iz najemodajalca na najemnika in prevzemanje obveznosti za dobavo elektrike, telefona, vode, komunalnih storitev in drugih storitev potrebnih za operativno delovanje neposrednih uporabnikov.
+
+Prevzete obveznosti iz drugega in tretjega odstavka tega člena se načrtujejo v finančnem načrtu neposrednega uporabnika in načrtu razvojnih programov.
+
+7. člen
+
+(spreminjanje načrta razvojnih programov)
+
+Predstojnik neposrednega uporabnika (župan/ja, predsedniki KS) lahko spreminja vrednost projektov v načrtu razvojnih programov. Projekte, katerih vrednost presega 300.000,00 EUR in se spremeni za več kot 20 %, mora predhodno potrditi občinski svet. Projekte, za katere se zaradi prenosa plačil v tekoče leto, zaključek financiranja prestavi iz predhodnega v tekoče leto, se uvrstijo v načrt razvojnih programov po uveljavitvi proračuna. Novi projekti se uvrstijo v načrt razvojnih programov na podlagi odločitve občinskega sveta.
+
+8. člen
+
+(proračunski skladi)
+
+Proračunski skladi so:
+
+1. račun proračunske rezerve, oblikovanje po ZJF,
+
+2. račun stanovanjskega sklada, ustanovljenega na podlagi odloka o ustanovitvi proračunskega sklada.
+
+Proračunska rezerva se v letu 2020 oblikuje v višini 79.229,00 evrov.
+
+Na predlog za finance pristojnega organa občinske uprave odloča o uporabi sredstev proračunske rezerve za namene iz drugega odstavka 49. člena ZJF do višine 30 % župan/ja in o tem s pisnimi poročili obvešča občinski svet.
+
+IV. POSEBNOSTI UPRAVLJANJA IN PRODAJE STVARNEGA IN FINANČNEGA PREMOŽENJA DRŽAVE
+
+9.
+člen
+
+Če so izpolnjeni pogoji iz tretjega odstavka 77. člena ZJF, lahko župan/ja dolžniku do višine 1.000,00 evrov odpiše oziroma delno odpiše plačilo dolga.
+
+V. OBSEG ZADOLŽEVANJA IN POROŠTEV OBČINE IN JAVNEGA SEKTORJA
+
+10.
+člen
+
+Za kritje presežkov odhodkov nad prihodki v bilanci prihodkov in odhodkov, presežkov izdatkov nad prejemki v računu finančnih terjatev in naložb ter odplačilo dolgov v računu financiranja, se občina lahko za proračun leta 2020 zadolži do višine 1.200.000,00 EUR, in sicer za investicije, sprejete s proračunom.
+
+Obseg poroštev občine za izpolnitev obveznosti javnih zavodov in javnih podjetij, katerih ustanoviteljica je Občina Dravograd, v letu 2020 ne sme preseči skupne višine glavnic 100.000,00 evrov.
+
+11. člen
+
+(obseg zadolževanja javnih zavodov in javnih podjetij ter obseg zadolževanja in izdanih poroštev pravnih oseb, v katerih ima občina odločujoč vpliv na upravljanje)
+
+Pravne osebe javnega sektorja na ravni občine (javni zavodi in javna podjetja, katerih ustanoviteljica je občina) se lahko v letu 2020 zadolžijo skupaj do višine 200.000,00 evrov.
+
+Pravne osebe, v katerih ima občina odločujoč vpliv na upravljanje, se lahko v letu 2020 zadolžijo skupaj do višine 200.000,00 evrov.
+
+O konkretni zadolžitvi posamezne pravne osebe odloča na predlog župana/je občinski svet.
+
+12. člen
+
+(obseg zadolževanja občine za upravljanje z dolgom občinskega proračuna)
+
+Za potrebe upravljanja občinskega dolga se občina lahko zadolži do višine 4.500.000,00 EUR.
+
+6. PREHODNE IN KONČNE DOLOČBE
+
+13.
+člen
+
+(začasno financiranje v letu 2021)
+
+V obdobju začasnega financiranja Občine Dravograd v letu 2021, če bo začasno financiranje potrebno, se uporablja ta odlok in sklep o določitvi začasnega financiranja.
+
+14. člen
+
+(uveljavitev odloka)
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 410-0002/2019
+
+Županja
+
+Občine Dravograd
+
+Marijana Cigala
