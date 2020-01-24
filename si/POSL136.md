@@ -4,9 +4,9 @@ naziv: "Poslovnik Državne volilne komisije (PoDVK-1)"
 vrsta: "akt"
 datum: 2020-02-21
 sop: 2020-01-0293
-organ: "Državna volilna komisija"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0293"
 ---
 
