@@ -20,6 +20,10 @@ spremembe:
     datum: 2010-02-09
     sop: 2010-01-0313
     naziv: "Zakon o spremembah Zakona o tajnih podatkih"
+  - kratica: ZTP-E
+    datum: 2020-02-07
+    sop: 2020-01-0197
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o tajnih podatkih"
 ---
 
 # Zakon o tajnih podatkih
