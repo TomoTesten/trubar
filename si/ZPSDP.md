@@ -16,6 +16,10 @@ spremembe:
     datum: 2001-06-13
     sop: 2001-01-2643
     naziv: "Zakon o spremembah zakona o višini povračil stroškov v zvezi z delom in nekaterih drugih prejemkov"
+  - kratica: ZPSDP-C
+    datum: 2020-02-07
+    sop: 2020-01-0198
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o višini povračil stroškov v zvezi z delom in nekaterih drugih prejemkov"
 ---
 
 # Zakon o višini povračil stroškov v zvezi z delom in nekaterih drugih prejemkov
