@@ -1,0 +1,263 @@
+---
+kratica: MP_ODLO44400
+naziv: "Odlok o spremembah in dopolnitvah Odloka o proračunu Občine Trebnje za leto 2020 – rebalans I (ODLO)"
+vrsta: "občinski odlok"
+datum: 2020-02-21
+sop: 2020-01-0332
+organ: "Občina Trebnje"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0332"
+---
+
+# Odlok o spremembah in dopolnitvah Odloka o proračunu Občine Trebnje za leto 2020 – rebalans I (ODLO)
+
+Na podlagi četrte alineje drugega odstavka 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 76/08, 79/09, 51/10, 40/12 – ZUJF, 14/15 – ZUUJFO, 11/18 – ZSPDSLS-1 in 30/18), določil Zakona o financiranju občin (Uradni list RS, št. 123/06, 57/08, 36/11, 14/15 – ZUUJFO, 71/17 in 21/18 – popr.); 28., 29., 30. in 40. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13 – popr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617 in 13/18); ob upoštevanju Zakona o izvrševanju proračunov Republike Slovenije za leti 2020 in 2021 (Uradni list RS, št. 75/19), v skladu s 17. členom Statuta Občine Trebnje (Uradni list RS, št. 29/14 in 65/14 – popr.) je Občinski svet Občine Trebnje na 12. redni seji dne 19. 2. 2020 sprejel
+
+O D L O K
+
+o spremembah in dopolnitvah Odloka o proračunu Občine Trebnje za leto 2020 – rebalans I
+
+1. člen
+
+V Odloku o proračunu Občine Trebnje za leto 2020 (Uradni list RS, št. 32/19) se 2. člen spremeni, tako da se glasi:
+
+»2. člen
+
+(obseg in struktura proračuna)
+
+Splošni del proračuna Občine Trebnje, vključno s krajevnimi skupnostmi, na ravni podskupin kontov, za leto 2020 se določa v naslednjih zneskih:
+
+SKUPINA/ PODSK.
+KONTOV
+OPIS
+LETO 2020
+v EUR
+A.
+BILANCA PRIHODKOV
+IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+15.201.857,63
+TEKOČI PRIHODKI (70+71)
+11.484.855,00
+70
+DAVČNI PRIHODKI (700+703+704+706)
+9.363.694,00
+700 DAVKI NA DOHODEK
+IN DOBIČEK
+7.770.034,00
+703 DAVKI NA PREMOŽENJE
+1.251.660,00
+704 DOMAČI DAVKI NA BLAGO IN STORITVE
+342.000,00
+706 DRUGI DAVKI
+0,00
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+2.121.161,00
+710 UDELEŽBA NA DOBIČKU
+IN DOHODKI OD PREMOŽENJA
+775.216,00
+711 TAKSE IN PRISTOJBINE
+14.000,00
+712 GLOBE IN DRUGE DENARNE KAZNI
+79.500,00
+713 PRIHODKI OD PRODAJE BLAGA IN STORITEV
+36.500,00
+714 DRUGI NEDAVČNI PRIHODKI
+1.215.945,00
+72
+KAPITALSKI PRIHODKI (720+721+722)
+550.000,00
+720 PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+0,00
+721 PRIHODKI OD PRODAJE ZALOG
+0,00
+722 PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+550.000,00
+73
+PREJETE DONACIJE (730+731)
+8.000,00
+730 PREJETE DONACIJE
+IZ DOMAČIH VIROV
+8.000,00
+731 PREJETE DONACIJE
+IZ TUJINE
+0,00
+74
+TRANSFERNI PRIHODKI
+(740+741)
+3.103.522,63
+740 TRANSFERNI PRIHODKI
+IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+1.139.252,76
+741 PREJETA SREDSTVA
+IZ DRŽAVNEGA PRORAČUNA
+IZ SREDSTEV PRORAČUNA EU
+1.964.269,87
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE IN IZ DRUGIH DRŽAV
+55.480,00
+786 OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+46.750,00
+787 PREJETA SREDSTVA
+OD DRUGIH EVROPSKIH INSTITUCIJ IN IZ DRUGIH DRŽAV
+8.730,00
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+16.804.564,07
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+3.323.098,23
+400 PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+782.078,26
+401 PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+122.593,00
+402 IZDATKI ZA BLAGO
+IN STORITVE
+2.308.667,10
+403 PLAČILA DOMAČIH OBRESTI
+45.500,00
+409 REZERVE
+64.259,87
+41
+TEKOČI TRANSFERI (410+411+412+413)
+5.734.290,35
+410 SUBVENCIJE
+113.000,00
+411 TRANSFERI POSAMEZNIKOM
+IN GOSPODINJSTVOM
+3.597.261,65
+412 TRANSFERI NEPRIDOBITNIM ORGANIZACIJAM
+IN USTANOVAM
+652.230,00
+413 DRUGI TEKOČI DOMAČI TRANSFERI
+1.371.798,70
+42
+INVESTICIJSKI ODHODKI (420)
+7.273.567,49
+420 NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+7.273.567,49
+43
+INVESTICIJSKI TRANSFERI (430+431+432)
+473.608,00
+430 INVESTICIJSKI TRANSFERI
+0,00
+431 INVESTICIJSKI TRANSFERI PRAVNIM IN FIZIČNIM OSEBAM, KI NISO PRORAČUNSKI UPORABNIKI
+257.800,00
+432 INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+215.808,00
+III.
+PRORAČUNSKI PRESEŽEK/PRIMANJKLJAJ
+(I.–II.) (SKUPAJ PRIHODKI MINUS SKUPAJ ODHODKI)
+–1.602.706,44
+B.
+RAČUN FINANČNIH TERJATEV IN NALOŽB
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0
+75
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV
+0
+750 PREJETA VRAČILA DANIH POSOJIL
+0
+751 PRODAJA KAPITALSKIH DELEŽEV
+0
+752 KUPNINE IZ NASLOVA PRIVATIZACIJE
+0
+V.
+DANA POSOJILA
+IN POVEČANJE KAPITALSKIH DELEŽEV (440+441+442+443)
+0
+44
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV
+0
+440 DANA POSOJILA
+0
+441 POVEČANJE KAPITALSKIH DELEŽEV
+0
+442 PORABA SREDSTEV KUPNIN IZ NASLOVA PRIVATIZACIJE
+0
+443 POVEČANJE NAMENSKEGA PREMOŽENJA V JAVNIH SKLADIH IN DRUGIH OSEBAH JAVNEGA PRAVA, KI IMAJO PREMOŽENJE V SVOJI LASTI
+0
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV
+(IV.–V.)
+0
+C.
+RAČUN FINANCIRANJA
+VII.
+ZADOLŽEVANJE (500)
+188.153,00
+50
+ZADOLŽEVANJE
+188.153,00
+500 DOMAČE ZADOLŽEVANJE
+188.153,00
+VIII.
+ODPLAČILA DOLGA (550)
+579.889,40
+55
+ODPLAČILA DOLGA
+579.889,40
+550 ODPLAČILA DOMAČEGA DOLGA
+579.889,40
+IX.
+SPREMEMBA STANJA SREDSTEV NA RAČUNIH
+(I.+IV.+VII.-II.-V.-VIII.)
+–1.994.442,84
+X.
+NETO ZADOLŽEVANJE (VII.-VIII.)
+–391.736,40
+XI.
+NETO FINANCIRANJE
+(VI.+VII.-VIII.-IX.=-III.)
+1.602.706,44
+XII.
+STANJE SREDSTEV
+NA RAČUNIH OB KONCU PRETEKLEGA LETA
+9009 Splošni sklad za drugo
+1.994.442,84
+
+Posebni del proračuna sestavljajo finančni načrti neposrednih uporabnikov, ki so razdeljeni na naslednje programske dele: področja proračunske porabe, glavne programe in podprograme, predpisane s programsko klasifikacijo izdatkov občinskih proračunov. Podprogram je razdeljen na proračunske postavke, te pa na konte in podkonte, določene s predpisanim enotnim kontnim načrtom.
+
+Posebni del proračuna do ravni proračunskih postavk – podkontov in načrt razvojnih programov sta prilogi k temu odloku in se objavita na spletni strani Občine Trebnje www.trebnje.si.«.
+
+2. člen
+
+V 4. členu se v prvem odstavku doda nova 9. točka, ki se glasi:
+
+»9. prihodki iz naslova lokacijske preveritve, ki so v skladu z Zakonom o urejanju prostora in Odlokom o določitvi stroškov lokacijske preveritve v Občini Trebnje, namenski vir občine za financiranje nalog urejanja prostora.«
+
+3. člen
+
+V 22. členu se v prvem odstavku črta besedilo »v višini 1.575.000,00 EUR«.
+
+4. člen
+
+Za 22. členom se doda nov 22.a člen, ki se glasi:
+
+»22.a člen
+
+(upravljanje z dolgom občinskega proračuna)
+
+Občina lahko upravlja z dolgom občinskega proračuna do višine 188.153,00 EUR«.
+
+5. člen
+
+(objava in uveljavitev odloka)
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Prilogi k temu odloku se objavita na spletni strani Občine Trebnje: www.trebnje.si.
+
+Št. 410-196/2018-70
+
+Trebnje, dne 19. februarja 2020
+
+Župan
+
+Občine Trebnje
+
+Alojzij Kastelic
