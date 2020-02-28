@@ -4,9 +4,9 @@ naziv: "Sklep o začasnem zadržanju izvrševanja Zakona o postopku sodnega in i
 vrsta: "akt"
 datum: 2020-03-12
 sop: 2020-01-0528
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0528"
 ---
 

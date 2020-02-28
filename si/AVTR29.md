@@ -4,9 +4,9 @@ naziv: "Avtentična razlaga prve alineje prvega odstavka 7. člena Zakona o inte
 vrsta: "akt"
 datum: 2020-03-09
 sop: 2020-01-0480
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0480"
 ---
 
