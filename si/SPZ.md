@@ -12,6 +12,10 @@ spremembe:
     datum: 2013-11-05
     sop: 2013-01-3303
     naziv: "Zakon o spremembah Stvarnopravnega zakonika"
+  - kratica: SPZ-B
+    datum: 2020-03-14
+    sop: 2020-01-0553
+    naziv: "Zakon o spremembah in dopolnitvah Stvarnopravnega zakonika"
 ---
 
 # Stvarnopravni zakonik
