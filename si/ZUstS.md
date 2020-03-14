@@ -16,6 +16,10 @@ spremembe:
     datum: 2012-12-31
     sop: 2012-01-4326
     naziv: "Zakon o spremembi in dopolnitvi Zakona o ustavnem sodišču"
+  - kratica: ZUstS-C
+    datum: 2020-03-14
+    sop: 2020-01-0554
+    naziv: "Zakon o dopolnitvi Zakona o ustavnem sodišču"
 ---
 
 # Zakon o ustavnem sodišču
