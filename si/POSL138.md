@@ -4,9 +4,9 @@ naziv: "Dopolnitve Poslovnika državnega zbora (PoDZ-1F)"
 vrsta: "akt"
 datum: 2020-04-08
 sop: 2020-01-0745
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0745"
 ---
 

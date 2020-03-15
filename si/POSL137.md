@@ -4,9 +4,9 @@ naziv: "Dopolnitve Poslovnika Ustavnega sodišča"
 vrsta: "akt"
 datum: 2020-03-27
 sop: 2020-01-0659
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0659"
 ---
 
