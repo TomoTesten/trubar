@@ -4,9 +4,9 @@ naziv: "Dopolnitve Poslovnika Državnotožilskega sveta"
 vrsta: "akt"
 datum: 2020-04-29
 sop: 2020-01-0895
-organ: "Državnotožilski svet"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0895"
 ---
 

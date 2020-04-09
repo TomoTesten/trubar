@@ -4,9 +4,9 @@ naziv: "Sklep o zadržanju izvrševanja 7. člena Odloka o začasni splošni pre
 vrsta: "akt"
 datum: 2020-04-24
 sop: 2020-01-0843
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0843"
 ---
 
