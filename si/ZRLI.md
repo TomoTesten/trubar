@@ -24,6 +24,10 @@ spremembe:
     datum: 2006-12-29
     sop: 2006-01-6044
     naziv: "Zakon o spremembah in dopolnitvah zakona o referendumu in o ljudski iniciativi"
+  - kratica: ZRLI-E
+    datum: 2020-04-15
+    sop: 2020-01-0785
+    naziv: "Zakon o spremembah in dopolnitvi Zakona o referendumu in o ljudski iniciativi"
 ---
 
 # Zakon o referendumu in o ljudski iniciativi
