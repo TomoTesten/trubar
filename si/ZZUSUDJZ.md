@@ -7,6 +7,11 @@ sop: 2020-01-0681
 objava: "Uradni list RS 36/20  str. 1932"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0681"
+spremembe:
+  - kratica: ZZUSUDJZ-A
+    datum: 2020-04-30
+    sop: 2020-01-0899
+    naziv: "Zakon o spremembi in dopolnitvah Zakona o začasnih ukrepih v zvezi s sodnimi, upravnimi in drugimi javnopravnimi zadevami za obvladovanje širjenja nalezljive bolezni SARS-CoV-2 (COVID-19)"
 ---
 
 # Zakon o začasnih ukrepih v zvezi s sodnimi, upravnimi in drugimi javnopravnimi zadevami za obvladovanje širjenja nalezljive bolezni SARS-CoV-2 (COVID-19)
