@@ -7,6 +7,11 @@ sop: 2020-01-0766
 objava: "Uradni list RS 49/20  str. 2091"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0766"
+spremembe:
+  - kratica: ZIUZEOP-A
+    datum: 2020-04-30
+    sop: 2020-01-0901
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o interventnih ukrepih za zajezitev epidemije COVID-19 in omilitev njenih posledic za državljane in gospodarstvo"
 ---
 
 # Zakon o interventnih ukrepih za zajezitev epidemije COVID-19 in omilitev njenih posledic za državljane in gospodarstvo
