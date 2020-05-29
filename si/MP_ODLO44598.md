@@ -1,0 +1,256 @@
+---
+kratica: MP_ODLO44598
+naziv: "Odlok o rebalansu proračuna Občine Ribnica za leto 2020 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2020-05-29
+sop: 2020-01-1171
+organ: "Občina Ribnica"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-1171"
+---
+
+# Odlok o rebalansu proračuna Občine Ribnica za leto 2020 (ODLO)
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 27/08 – odl. US, 76/08, 79/09, 51/10, 84/10 – odl. US, 40/12 – ZUJF, 14/15 – ZUUJFO, 76/16 – odl. US, 11/18 – ZSPDSLS-1, 30/18, 61/20 – ZIUZEOP-A), 28. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13, 110/11 – ZDIU12, 46/13 – ZIPRS1314-A, 101/13, 101/13 – ZIPRS1415, 38/14 – ZIPRS1415-A, 14/15 – ZIPRS1415-D, 55/15 – ZFisP, 96/15 – ZIPRS1617, 80/16 – ZIPRS1718, 71/17 – ZIPRS1819, 13/18, 75/19 – ZIPRS2021, 36/20 – ZIUJP, 61/20 – ZDLGPE) ter 32. člena Statuta Občine Ribnica (Uradni list RS, št. 17/12) je Občinski svet Občine Ribnica na 9. redni seji dne 21. 5. 2020 sprejel
+
+O D L O K
+
+o rebalansu proračuna Občine Ribnica za leto 2020
+
+1. člen
+
+Spremeni se 2. člen Odloka o proračunu Občine Ribnica za leto 2020 tako, da se glasi:
+
+»Proračun sestavljajo splošni del, posebni del in načrt razvojnih programov.
+
+Splošni del proračuna na ravni podskupin kontov se določa v naslednjih zneskih:
+
+KONTO
+OPIS
+Rebalans 2020 v EUR
+A. BILANCA PRIHODKOV IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+11.712.033
+TEKOČI PRIHODKI (70+71)
+8.278.397
+70
+DAVČNI PRIHODKI (700+703+704+706)
+7.204.040
+700
+DAVKI NA DOHODEK IN DOBIČEK
+6.292.277
+703
+DAVKI NA PREMOŽENJE
+709.447
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+202.316
+706
+DRUGI DAVKI
+0
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+1.074.357
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+648.388
+711
+TAKSE IN PRISTOJBINE
+12.203
+712
+GLOBE IN DRUGE DENARNE KAZNI
+54.122
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+55.088
+714
+DRUGI NEDAVČNI PRIHODKI
+304.557
+72
+KAPITALSKI PRIHODKI (720+721+722)
+556.107
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+232.873
+721
+PRIHODKI OD PRODAJE ZALOG
+0
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIHSREDSTEV
+323.234
+73
+PREJETE DONACIJE (730+731)
+20.000
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+20.000
+731
+PREJETE DONACIJE IZ TUJINE
+0
+74
+TRANSFERNI PRIHODKI (740+741)
+2.857.529
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+1.229.973
+741
+PREJETA SREDSTVA IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+1.627.557
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE (786+787)
+0
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+0
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ
+0
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+13.201.127
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+3.046.380
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+851.782
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+127.467
+402
+IZDATKI ZA BLAGO IN STORITVE
+1.980.213
+403
+PLAČILA DOMAČIH OBRESTI
+11.918
+409
+REZERVE
+75.000
+41
+TEKOČI TRANSFERI (410+411+412+413)
+3.808.436
+410
+SUBVENCIJE
+27.800
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+2.350.840
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+137.354
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+1.292.442
+414
+TEKOČI TRANSFERI V TUJINO
+0
+42
+INVESTICIJSKI ODHODKI (420)
+5.859.945
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+5.859.945
+43
+INVESTICIJSKI TRANSFERI (431+432)
+486.366
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ. OSEBAM
+212.000
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+274.366
+III.
+PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.–II.)
+–1.489.094
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+75
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0
+750
+PREJETA VRAČILA DANIH POSOJIL
+0
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0
+44
+V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+0
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+0
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.–V.)
+0
+C. RAČUN FINANCIRANJA
+50
+VII.
+ZADOLŽEVANJE (500)
+1.723.493
+500
+DOMAČE ZADOLŽEVANJE
+1.723.493
+5001
+NAJETI KREDITI PRI POSLOVNIH BANKAH
+1.478.919
+5002
+NAJETI KREDITI PRI DRUGIH FINANČNIH INSTITUCIJAH
+94.380
+5003
+NAJETI KREDITI PRI DRUGIH DOMAČIH KREDITODAJALCIH
+150.194
+55
+VIII.
+ODPLAČILA DOLGA (550)
+281.537
+550
+ODPLAČILA DOMAČEGA DOLGA
+281.537
+5501
+ODPLAČILA KREDITOV POSLOVNIM BANKAM
+147.996
+5502
+Odplačila kreditov drugim finančnim institucijam
+133.540
+IX.
+POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (III.+VI.+X.)= (I.+IV.+VII.)–(II.+V.+VIII.)
+–47.138
+X.
+NETO ZADOLŽEVANJE (VII.–VIII.)
+1.441.957
+XI.
+NETO FINANCIRANJE (VI.+X.-IX.)
+1.489.094
+STANJE SREDSTEV NA RAČUNIH NA DAN 31. 12. 2019
+47.138
+
+Posebni del proračuna sestavljajo finančni načrti neposrednih uporabnikov, ki so razdeljeni na naslednje programske dele: področja proračunske porabe, glavne programe in podprograme, predpisane s programsko klasifikacijo izdatkov občinskih proračunov. Podprogram je razdeljen na proračunske postavke, te pa na podskupine kontov in konte, določene s predpisanim kontnim načrtom. Posebni del proračuna do ravni proračunskih postavk – kontov in Načrt razvojnih programov sta prilogi k temu odloku in se objavita na spletni strani Občine Ribnica.«
+
+2. člen
+
+Spremeni se 20. člen Odloka o proračunu Občine Ribnica za leto 2020, in sicer tako, da se glasi:
+
+»Zaradi kritja presežkov odhodkov nad prihodki v bilanci prihodkov in odhodkov, presežkov izdatkov nad prejemki v računu finančnih terjatev in naložb ter odplačila dolgov v računu financiranja se občina za proračun leta 2020 lahko zadolži do višine 1.723.493 eurov.«
+
+3. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se za leto 2020.
+
+Št. 410-0118/2020
+
+Ribnica, dne 21. maja 2020
+
+Župan
+
+Občine Ribnica
+
+Samo Pogorelc
