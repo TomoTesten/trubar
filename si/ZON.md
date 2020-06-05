@@ -16,6 +16,10 @@ spremembe:
     datum: 2004-04-22
     sop: 2004-01-1693
     naziv: "Zakon o spremembah in dopolnitvah zakona o ohranjanju narave"
+  - kratica: ZON-E
+    datum: 2020-06-05
+    sop: 2020-01-1235
+    naziv: "Zakon o spremembah Zakona o ohranjanju narave"
 ---
 
 # Zakon o ohranjanju narave
