@@ -44,6 +44,10 @@ spremembe:
     datum: 2019-12-06
     sop: 2019-01-3228
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zdravstveni dejavnosti"
+  - kratica: ZZDej-M
+    datum: 2020-06-05
+    sop: 2020-01-1233
+    naziv: "Zakon o dopolnitvi Zakona o zdravstveni dejavnosti"
 ---
 
 # Zakon o zdravstveni dejavnosti
