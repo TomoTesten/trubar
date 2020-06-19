@@ -2,11 +2,11 @@
 kratica: MP_PRAV6590
 naziv: "Pravilnik o prometni ureditvi parkiranja na območju Velike planine (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2026-01-04
+datum: 2020-06-24
 sop: 2020-01-1528
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Kamnik"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-1528"
 ---
 

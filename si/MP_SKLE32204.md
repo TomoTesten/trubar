@@ -2,11 +2,11 @@
 kratica: MP_SKLE32204
 naziv: "Sklep o potrditvi elaborata lokacijske preveritve za EUP SE 28 (SKLE)"
 vrsta: "občinski sklep"
-datum: 2026-01-05
+datum: 2020-09-04
 sop: 2020-01-2188
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Velike Lašče"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-2188"
 ---
 
