@@ -1,0 +1,65 @@
+---
+kratica: KZ-1G
+naziv: "Zakon o spremembi Kazenskega zakonika"
+vrsta: "Sprejet zakon"
+datum: 2020-06-26
+sop: 2020-01-1559
+objava: "Uradni list RS 91/20  str. 3458"
+kljucne_besede: []
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-1559"
+---
+
+# Zakon o spremembi Kazenskega zakonika
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam
+
+U K A Z
+
+o razglasitvi Zakona o spremembi Kazenskega zakonika (KZ-1G)
+
+Razglašam Zakon o spremembi Kazenskega zakonika (KZ-1G), ki ga je sprejel Državni zbor Republike Slovenije na seji dne 16. junija 2020.
+
+Št. 003-02-5/2020-3
+
+Ljubljana, dne 24. junija 2020
+
+Borut Pahor
+
+predsednik
+
+Republike Slovenije
+
+Z A K O N
+
+O SPREMEMBI KAZENSKEGA ZAKONIKA (KZ-1G)
+
+1.
+člen
+
+V Kazenskem zakoniku (Uradni list RS, št. 50/12 – uradno prečiščeno besedilo, 6/16 – popr., 54/15, 38/16, 27/17 in 23/20) se v 308. členu v tretjem odstavku besedilo »do petih let« nadomesti z besedilom »od treh do desetih let«.
+
+V petem odstavku se besedilo »do petih let« nadomesti z besedilom »od treh do desetih let«.
+
+V šestem odstavku se besedilo »od enega do osmih let« nadomesti z besedilom »od treh do petnajstih let«.
+
+KONČNA DOLOČBA
+
+2. člen
+
+(začetek veljavnosti)
+
+Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 713-01/19-16/12
+
+Ljubljana, dne 16. junija 2020
+
+EPA 834-VIII
+
+Državni zbor
+
+Republike Slovenije
+
+Igor Zorčič
+
+predsednik
