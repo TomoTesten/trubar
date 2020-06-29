@@ -20,6 +20,10 @@ spremembe:
     datum: 2013-03-18
     sop: 2013-01-0848
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zaščiti živali"
+  - kratica: ZZZiv-D
+    datum: 2020-06-29
+    sop: 2020-01-1628
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zaščiti živali"
 ---
 
 # Zakon o zaščiti živali
