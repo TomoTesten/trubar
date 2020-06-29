@@ -20,6 +20,10 @@ spremembe:
     datum: 2016-11-04
     sop: 2016-01-2928
     naziv: "Zakon o spremembah in dopolnitvah Zakona o pravilih cestnega prometa"
+  - kratica: ZPrCP-E
+    datum: 2020-06-29
+    sop: 2020-01-1629
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o pravilih cestnega prometa"
 ---
 
 # Zakon o pravilih cestnega prometa
