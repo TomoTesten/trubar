@@ -24,6 +24,10 @@ spremembe:
     datum: 2016-12-23
     sop: 2016-01-3568
     naziv: "Zakon o spremembi Zakona o praznikih in dela prostih dnevih v Republiki Sloveniji"
+  - kratica: ZPDPD-E
+    datum: 2020-06-29
+    sop: 2020-01-1627
+    naziv: "Zakon o dopolnitvah Zakona o praznikih in dela prostih dnevih v Republiki Sloveniji"
 ---
 
 # Zakon o praznikih in dela prostih dnevih v Republiki Sloveniji
