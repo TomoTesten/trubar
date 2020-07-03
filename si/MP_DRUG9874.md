@@ -1,0 +1,262 @@
+---
+kratica: MP_DRUG9874
+naziv: "Zaključni račun proračuna Občine Horjul za leto 2019 (DRUG)"
+vrsta: "akt"
+datum: 2020-07-03
+sop: 2020-01-1658
+organ: "Občina Horjul"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-1658"
+---
+
+# Zaključni račun proračuna Občine Horjul za leto 2019 (DRUG)
+
+Na podlagi tretjega odstavka 98. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 43/13 – popr., 101/13, 55/15 – ZFisP in 96/15 – ZIPRS18/19) in 15. člena Statuta Občine Horjul (Uradni list RS, št. 63/10, 105/10, 100/11, 80/13) je Občinski svet Občine Horjul na 11. seji dne 18. 6. 2020 sprejel
+
+Z A K L J U Č N I   R A Č U N
+
+proračuna Občine Horjul za leto 2019
+
+1. člen
+
+S tem odlokom se sprejme zaključni račun proračuna Občine Horjul za leto 2019, ki zajema bilanco prihodkov in odhodkov, račun finančnih terjatev in naložb ter račun financiranja.
+
+2. člen
+
+Proračun občine Horjul za leto 2019 je realiziran v naslednjih zneskih v EUR:
+
+KONTO
+OPIS
+Realizacija proračuna 2019 v EUR
+A.
+BILANCA PRIHODKOV
+IN ODHODKOV
+Skupina/Podskupina kontov/Konto/Podkonto
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+2.458.343
+TEKOČI PRIHODKI (70+71)
+2.344.077
+70
+DAVČNI PRIHODKI (700+703+704+706)
+1.900.884
+700
+DAVKI NA DOHODEK
+N DOBIČEK
+1.777.653
+703
+DAVKI NA PREMOŽENJE
+94.388
+704
+DOMAČI DAVKI NA BLAGO
+IN STORITVE
+28.843
+706
+DRUGI DAVKI
+0
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+443.194
+710
+UDELEŽBA NA DOBIČKU
+IN DOHODKI OD PREMOŽENJA
+138.802
+711
+TAKSE IN PRISTOJBINE
+2.376
+712
+GLOBE IN DRUGE DENARNE KAZNI
+25.812
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+39.380
+714
+DRUGI NEDAVČNI PRIHODKI
+236.823
+72
+KAPITALSKI PRIHODKI (720+721+722)
+1.450
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+0
+721
+PRIHODKI OD PRODAJE ZALOG
+0
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ
+IN NEOPREDMETENIH SREDSTEV
+1.450
+73
+PREJETE DONACIJE (730+731)
+0
+730
+PREJETE DONACIJE
+IZ DOMAČIH VIROV
+0
+731
+PREJETE DONACIJE IZ TUJINE
+0
+74
+TRANSFERNI PRIHODKI (740+741)
+112.815
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+112.815
+741
+PREJETA SREDSTVA
+IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+0
+78
+PREJETA SREDSTVA
+IZ EVROPSKE UNIJE (786+787)
+0
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+0
+787
+PREJETA SREDSTVA
+OD DRUGIH EVROPSKIH INSTITUCIJ
+0
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+2.247.426
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+827.126
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+181.339
+401
+PRISPEVKI DELODAJALCEV
+ZA SOCIALNO VARNOST
+29.631
+402
+IZDATKI ZA BLAGO
+IN STORITVE
+616.156
+403
+PLAČILA DOMAČIH OBRESTI
+0
+409
+REZERVE
+0
+41
+TEKOČI TRANSFERI (410+411+412+413)
+897.759
+410
+SUBVENCIJE
+40.741
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+691.900
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+53.648
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+111.470
+414
+TEKOČI TRANSFERI V TUJINO
+0
+42
+INVESTICIJSKI ODHODKI (420)
+476.803
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+476.803
+43
+INVESTICIJSKI TRANSFERI (431+432)
+45.738
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ.OSEBAM
+43.483
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+2.255
+III.
+PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.-II.)
+210.917
+B.
+RAČUN FINANČNIH TERJATEV IN NALOŽB
+75
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0
+750
+PREJETA VRAČILA DANIH POSOJIL
+0
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0
+44
+V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+0
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+0
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV
+(IV.-V.)
+0
+C.
+RAČUN FINANCIRANJA
+50
+VII.
+ZADOLŽEVANJE (500)
+0
+500
+DOMAČE ZADOLŽEVANJE
+0
+55
+VIII.
+ODPLAČILA DOLGA (550)
+0
+550
+ODPLAČILA DOMAČEGA DOLGA
+0
+IX.
+POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (III.+VI.+X.) = (I.+IV.+VII.) – (II.+V.+VIII.)
+210.917
+X.
+NETO ZADOLŽEVANJE
+(VII.-VIII.)
+0
+XI.
+NETO FINANCIRANJE
+(VI.+X.-IX.)
+–210.917
+STANJE SREDSTEV
+NA RAČUNIH 31. 12. 2019
+3.405.719,43
+
+3. člen
+
+Skupni presežek prihodkov nad odhodki v višini 3,412.210,96 EUR se v celoti prenese v proračun leta 2020 in se uporabi za kritje neplačanih obveznosti iz leta 2019 in 2020.
+
+Kot namenska sredstva se iz leta 2019 prenašajo sredstva požarne takse v višini 1.087,67 EUR, sredstva okoljske dajatve za onesnaževanje okolja zaradi odvajanja odpadnih voda v višini 97.572,56 EUR in sredstva iz naslova vračil vlaganj v telekomunikacije v višini 12.084,62 EUR.
+
+4. člen
+
+Podrobnejši pregled prihodkov in odhodkov po zaključnem računu proračuna Občine Horjul za leto 2019 ter njihova realizacija sta zajeta v bilanci prihodkov in odhodkov in v posebnem delu proračuna, ki sta sestavni del tega odloka.
+
+5. člen
+
+Zaključni račun Občine Horjul brez prilog se objavi v Uradnem listu Republike Slovenije in prične veljati naslednji dan po objavi. Priloge se objavijo na spletni strani Občine Horjul.
+
+Št. 450-0001/2020-2
+
+Horjul, dne 19. junija 2020
+
+Župan
+
+Občine Horjul
+
+Janko Prebil
