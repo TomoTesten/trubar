@@ -4,9 +4,9 @@ naziv: "Sklep o začasnem zadržanju izvrševanja 2. člena Zakona o interventni
 vrsta: "akt"
 datum: 2020-07-17
 sop: 2020-01-1865
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-1865"
 ---
 
