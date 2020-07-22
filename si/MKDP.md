@@ -7,6 +7,11 @@ sop: 2016-02-0009
 objava: "Uradni list RS MP 2/16  str. 46"
 kljucne_besede: ["pomorska politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-02-0009"
+spremembe:
+  - kratica: MKDP-A
+    datum: 2020-07-22
+    sop: 2020-02-0010
+    naziv: "Zakon o ratifikaciji Sprememb iz leta 2014 Konvencije o delu v pomorstvu, 2006, in Sprememb iz leta 2016 Konvencije o delu v pomorstvu, 2006"
 ---
 
 # Zakon o ratifikaciji Konvencije o delu v pomorstvu, 2006 (Konvencija MOD št. 186)
