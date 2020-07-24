@@ -52,6 +52,10 @@ spremembe:
     datum: 2015-03-13
     sop: 2015-01-0624
     naziv: "Zakon o spremembah in dopolnitvah Zakona o sodiščih"
+  - kratica: ZS-M
+    datum: 2020-07-24
+    sop: 2020-01-1952
+    naziv: "Zakon o spremembah Zakona o sodiščih"
 ---
 
 # Zakon o sodiščih
