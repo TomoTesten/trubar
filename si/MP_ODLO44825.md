@@ -1,0 +1,3186 @@
+---
+kratica: MP_ODLO44825
+naziv: "Odlok o spremembi in dopolnitvi Odloka o kategorizaciji občinskih javnih cest v Občini Litija (ODLO)"
+vrsta: "občinski odlok"
+datum: 2020-07-27
+sop: 2020-01-1993
+organ: "Občina Litija"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-1993"
+---
+
+# Odlok o spremembi in dopolnitvi Odloka o kategorizaciji občinskih javnih cest v Občini Litija (ODLO)
+
+Na podlagi določil Zakona o cestah (Uradni list RS, št. 109/10, 48/12, 36/14 – odl US, 46/15 in 10/18), Pravilnika o načinu označevanja javnih cest in o evidencah o javnih cestah in objektih na njih (Uradni list RS, št. 49/97 in njegove dopolnitve) in 16. člena Statuta Občine Litija (Uradni list RS, št. 31/17) je Občinski svet Občine Litija na 11. redni seji dne 13. 7. 2020 sprejel
+
+O D L O K
+
+o spremembi in dopolnitvi Odloka o kategorizaciji občinskih javnih cest v Občini Litija
+
+1. člen
+
+V Odloku o kategorizaciji občinskih javnih cest v Občini Litija (Uradni list RS, št. 77/15) (v nadaljevanju odlok), se besedilo 4. člena spremeni tako, da se glasi:
+
+»Lokalne ceste (LC) med naselji znotraj občine in med naselji v občini in naselji v drugih občinah so:
+
+Zap. št.
+Cesta
+Odsek
+Začetek odseka
+Opis
+Konec odseka
+Dolžina [m]
+Vrsta prometa
+Preostala dolžina v sosednji občini [m]
+1.
+069030
+069031
+C 069020
+Slap.–Jev.–Kres–Litija
+C G2 108
+15.539
+V
+3.617 Dol pri Ljubljani
+2.
+208010
+208011
+C G2 108
+G2 108–Zapodje–Hrib
+C 263400
+4.388
+V
+3.572 Moravče
+3.
+208020
+208021
+C R3 921
+Klanec–Geoss
+Z GEOSS
+913
+V
+4.
+208020
+208022
+O 208021
+Geoss–Zapodje
+C 208010
+2.641
+V
+5.
+208030
+208031
+C R3 921
+Vače–Klenik
+O 708131
+853
+V
+6.
+208040
+208041
+C R3 921
+Vače–Podbukovje
+C 480160
+6.344
+V
+711 Zagorje ob Savi
+7.
+208050
+208051
+C 208060
+Boltija–Vače
+C R3 921
+4.041
+V
+8.
+208060
+208061
+C 208070
+Ponoviče–Spodnji Hotič
+C G2 108
+3.546
+V
+9.
+208070
+208071
+C G2 108
+Litija–Sava
+C G2 108
+7.496
+V
+10.
+208080
+208081
+C R2 416
+Jeze–Zagorica–Breg
+C G2 108
+1.413
+V
+184 Šmartno pri Litiji
+11.
+208090
+208091
+C R2 416
+Grbin–Pleskovec
+C 208080
+590
+V
+12.
+208090
+208092
+C 208080
+Plesk.–Grad. Laze–Jabla
+C R2 417
+1.041
+V
+2.186 Šmartno pri Litiji
+13.
+208100
+208101
+C 208090
+Grad. Laze–Mamolj
+O 708511
+2.429
+V
+4.032 Šmartno pri Litiji
+14.
+208100
+208102
+O 708511
+Mamolj–V.Preska
+C R3 665
+4.450
+V
+15.
+208110
+208111
+C R3 665
+Sopota–Polšnik–Pasjek
+C G2 108
+8.742
+V
+16.
+208120
+208121
+C G2 108
+Renke–Vodenik
+O 708341
+3.081
+V
+17.
+208120
+208122
+O 708341
+Vodenik–Preverg–Polšnik
+C 208110
+3.594
+V
+18.
+208130
+208131
+C 208140
+Čeplje–V. Preska
+C R3 665
+4.151
+V
+19.
+208140
+208141
+C R3 665
+Sopota–Dole–Brezo–Gabro
+C R2 417
+10.542
+V
+20.
+208140
+208142
+C R2 417
+R2 417–Brezje–R3 652
+C R3 652
+3.002
+V
+21.
+208160
+208161
+C 208140
+Kraje–Zavrh–Zagozd–Vaht
+C 425310
+2.297
+V
+22.
+208170
+208171
+C R3 665
+Murnov Graben
+C 425310
+2.222
+V
+23.
+208190
+208191
+C R2 417
+Javorski Pil–Gobnik–Mor
+C R2 417
+5.511
+V
+24.
+208240
+208241
+C 208320
+Litija–Šmartno
+C R2 416
+793
+V
+543 Šmartno pri Litiji
+25.
+208250
+208251
+C 208240
+Litija–Zavrstnik
+C R3 645
+1.123
+V
+449 Šmartno pri Litiji
+26.
+208270
+208271
+C 213070
+Beden–V. Vrh (Temelj)
+O 710251
+3.691
+V
+27.
+208280
+208281
+C G2 108
+Kresnice
+C 213070
+615
+V
+28.
+208280
+208282
+C 213070
+Kresnice–Golišče–Jevnic
+C 213070
+10.436
+V
+29.
+208280
+208283
+C 213070
+Jevnica–Senožeti
+C G2 108
+472
+V
+118 Dol pri Ljubljani
+30.
+208290
+208291
+C 213030
+Jevnica–Mala Štanga
+O 709931
+753
+V
+1.218 Ljubljana,
+3.576 Šmartno pri Litiji
+31.
+208300
+208301
+C 426110
+Poljane–Gabrsk.Gor–Mora
+C 208190
+4.182
+V
+2.068 Šmartno pri Litiji
+32.
+208310
+208311
+C R2 417
+Cerovica–Bukovica–D. Brd
+C 208100
+1.486
+V
+3.708 Šmartno pri Litiji
+33.
+208820
+208821
+C 208040
+Kunšt Mlin–Kobiljek–Sav
+C 208070
+3.582
+V
+34.
+208900
+208901
+C 208120
+LC 208120–Konjšica
+Z CERKEV
+1.591
+V
+35.
+208910
+208911
+C R3 652
+Tlaka–Krž. pri Čatežu
+O 710904
+2.934
+V
+36.
+208920
+208921
+C G2 108
+G2 108–Zg. Hotič
+C G2 108
+1.222
+V
+37.
+213030
+213036
+C 213040
+Trebeljevo–Tuji Grm–Jev
+C 208280
+3.555
+V
+2.162 Ljubljana
+38.
+263400
+263401
+C R2 415
+Moravče–Zgornje Ribče
+C G2 108
+1.088
+V
+5.520 Moravče
+39.
+263400
+263402
+C 263400
+Zg. Ribče–Sp. Ribče
+C G2 108
+955
+V
+40.
+263750
+263751
+C R2 415
+Gora Pri Pečah–Klanec
+C 208020
+1.002
+V
+1.580 Moravče
+41.
+425220
+425221
+C R2 417
+Migolica–G. Ravne
+C R3 652
+1.537
+V
+3.729 Mirna
+42.
+425300
+425302
+C 452310
+Šentrupert–Draga–Dole
+C 208140
+5.294
+V
+4.700 Šentrupert
+43.
+425310
+425313
+C 425300
+Ravne–Gradišče–Dole
+C 208140
+10.204
+V
+4.220 Šentrupert
+44.
+480170
+480171
+C 480160
+Podkrnica–Sava
+C 208070
+354
+V
+4.679 Zagorje ob Savi
+
+Skupna dolžina lokalnih cest (LC) v Občini Litija znaša 155.695 m (155,695 km).«
+
+2. člen
+
+Besedilo 5. člena odloka se spremeni tako, da se glasi:
+
+»Lokalne ceste v Občini Litija razvrščene v podkategorije, so:
+
+– zbirne mestne ali zbirne krajevne ceste (s skrajšano oznako LZ):
+
+Zap. št.
+Cesta
+Odsek
+Začetek odseka
+Opis
+Konec odseka
+Dolžina [m]
+Vrsta prometa
+Preostala dolžina v sosednji občini [m]
+1.
+208320
+208321
+C G2 108
+Ul. Mire Pregljeve–Grbin
+C R2 416
+802
+V
+2.
+208330
+208331
+C G2 108
+Nadvoz–Kidričeva–Graška
+C 208340
+1.876
+V
+3.
+208340
+208341
+C 208330
+Bevkova
+C 208350
+584
+V
+4.
+208350
+208351
+C 208330
+Predilniška–Graška
+C G2 108
+1.610
+V
+5.
+208360
+208361
+C 213070
+Trg Svobode–Valvazor. Tr
+C 208320
+326
+V
+6.
+208370
+208371
+C 208320
+Cesta Kom. Staneta
+C R2 416
+435
+V
+7.
+208380
+208381
+C R2 416
+Partizanska Pot
+C 208240
+758
+V
+
+Skupna dolžina zbirnih mestnih in zbirnih krajevnih cest (LZ) v Občini Litija znaša 6.391 m (6,391 km).
+
+– mestne ali krajevne ceste (s skrajšano oznako LK):
+
+Zap. št.
+Cesta
+Odsek
+Začetek odseka
+Opis
+Konec odseka
+Dolžina [m]
+Vrsta prometa
+Preostala dolžina v sosednji občini [m]
+1.
+208390
+208391
+C R2 416
+Grbinska Cesta
+Z HŠ 66A
+199
+V
+2.
+208400
+208401
+C R2 416
+Ježa
+C 208090
+588
+V
+3.
+208400
+208402
+C 208400
+Močvirnice
+C R2 416
+260
+V
+4.
+208410
+208411
+C R2 416
+Ježa
+C 208400
+334
+V
+5.
+208420
+208421
+C R2 416
+Brodarska Ulica
+C G2 108
+313
+V
+6.
+208420
+208422
+C 208420
+Brodarska Ul.–Priklj.
+C G2 108
+71
+V
+7.
+208420
+208423
+C 208370
+CKS–Brodarska
+C 208420
+101
+V
+8.
+208420
+208424
+C G2 108
+Savska cesta 5
+Z HŠ 5
+349
+V
+9.
+208430
+208431
+C 208440
+Ulica Solidarnosti
+Z HŠ 1
+114
+V
+10.
+208440
+208441
+C 208370
+Ulica Luke Svetca
+C 208450
+99
+V
+11.
+208450
+208451
+C 208440
+Maistrova Ulica
+Z HŠ 3
+194
+V
+12.
+208460
+208461
+C 208240
+Sitarjevška cesta
+C 208250
+438
+V
+13.
+208460
+208462
+C 208460
+Sitarjevška cesta 41
+Z HŠ 41
+94
+V
+14.
+208470
+208471
+C 208360
+Frtica I
+C 208320
+118
+V
+15.
+208470
+208472
+C 208470
+Frtica II
+C 208240
+249
+V
+16.
+208480
+208481
+C 208070
+Trg Na Stavbah I
+C 208070
+420
+V
+17.
+208480
+208482
+C 208480
+Trg Na Stavbah II
+C 208480
+173
+V
+18.
+208480
+208483
+C 208480
+Trg Na Stavbah III
+C 208480
+151
+V
+19.
+208490
+208491
+C 208480
+Parmova Ulica
+C 208500
+171
+V
+20.
+208500
+208501
+C G2 108
+Cankarjeva Ulica
+Z HŠ 4
+196
+V
+21.
+208500
+208502
+C 208500
+Cankarjeva Ul.–Priklj
+C G2 108
+33
+V
+22.
+208510
+208511
+C 208330
+Cesta Zasavskega Bat.I
+C 208510
+369
+V
+23.
+208510
+208512
+C 208330
+Cesta Zasavskega Bat.II
+Z PREDIL
+304
+V
+24.
+208520
+208521
+C 208580
+Vegova Ulica
+C 208330
+152
+V
+25.
+208530
+208531
+C 208580
+Gubčeva Ulica I
+C 208570
+185
+V
+26.
+208540
+208541
+C 208580
+Badjurova Ulica
+C 208570
+161
+V
+27.
+208550
+208551
+C 208580
+Loška Ulica
+C 208570
+172
+V
+28.
+208560
+208561
+C 208580
+Prečna Ulica
+C 208570
+292
+V
+29.
+208570
+208571
+C 208330
+Na Dobravi
+C 208550
+233
+V
+30.
+208580
+208581
+C 208330
+Prisojna Ulica
+C 208550
+331
+V
+31.
+208590
+208591
+C 208340
+Grumova Ulica
+C 208600
+205
+V
+32.
+208600
+208601
+C 208330
+Marokova Pot I
+C 208340
+217
+V
+33.
+208600
+208602
+C 208340
+Marokova Pot II
+C 208350
+462
+V
+34.
+208610
+208611
+C 208330
+Prvomajska Ulica
+Z HŠ 3
+131
+V
+35.
+208620
+208621
+C 208330
+Ulica Dušana Kvedra
+C 208340
+375
+V
+36.
+208620
+208622
+C 208630
+Ulica D.Kvedra–Povezava
+C 208620
+102
+V
+37.
+208630
+208631
+C 208350
+Predilniška Ulica
+C 208600
+279
+V
+38.
+208630
+208632
+C 208640
+Predilniška Ul–Povezava
+C 208630
+84
+V
+39.
+208640
+208641
+C 208350
+Topilniška Ulica
+C 208350
+148
+V
+40.
+208650
+208651
+C 208600
+Na Gričku
+Z HŠ 7
+87
+V
+41.
+208660
+208661
+C 208600
+Naselje 25. maja I
+C 208600
+170
+V
+42.
+208660
+208662
+C 208660
+Naselje 25. maja II
+C 208600
+155
+V
+43.
+208660
+208665
+C 208600
+Naselje 25. maja V
+O 708002
+88
+V
+44.
+208670
+208672
+C 208330
+Graška Cesta (Zajc)
+C 208330
+327
+V
+45.
+208680
+208681
+C 208380
+Ulica Bratov Poglajen I
+C 208380
+231
+V
+46.
+208680
+208682
+C 208380
+Ulica Brat. Poglajen II
+Z HŠ 23
+100
+V
+47.
+208680
+208683
+C 208380
+Partizanska Pot I
+Z HŠ 54A
+162
+V
+48.
+208680
+208684
+C 208380
+Partizanska Pot II
+C 208320
+297
+V
+49.
+208700
+208701
+C 208510
+Predilnica–Praprošče
+Z ŽEL.P.
+631
+V
+50.
+208830
+208831
+C G2 108
+Jerebova Ul
+C 208360
+99
+V
+51.
+208840
+208841
+C 208340
+Proti Šoli
+Z ŠOLA
+178
+V
+
+Skupna dolžina mestnih in krajevnih cest (LK) v Občini Litija znaša 11.392 m (11,392 km).«
+
+3. člen
+
+Besedilo 6. člena odloka se spremeni tako, da se glasi:
+
+»Javne poti (JP) v Občini Litija, v naseljih občine in med naselji so:
+
+Zap. št.
+Cesta
+Odsek
+Začetek odseka
+Opis
+Konec odseka
+Dolžina [m]
+Vrsta prometa
+Preostala dolžina v sosednji občini [m]
+1.
+569530
+569531
+C 069030
+Slapničar
+C 069030
+205
+V
+1.196 Dol pri Ljubljani
+2.
+708000
+708001
+C 208660
+Naselje 25. maja III
+Z HŠ 14
+61
+V
+3.
+708000
+708002
+C 208660
+Naselje 25. maja IV
+Z HŠ 13
+45
+V
+4.
+708010
+708011
+C 263400
+LC263400–Smrk.–LC263400
+Z HŠ 31
+284
+V
+5.
+708020
+708021
+C 263400
+Sp. Ribče–Zg. Prekar
+C 208010
+890
+V
+1.500 Moravče
+6.
+708020
+708022
+C 263400
+Ribče 34d
+Z HŠ 34d
+231
+V
+7.
+708030
+708031
+C 208920
+Zg. Hotič–Ravne
+C 208010
+434
+V
+8.
+708030
+708032
+O 708031
+Zg. Hotič
+Z HŠ 2E
+283
+V
+9.
+708040
+708042
+C 208920
+Zg. Hotič–Vajdič
+Z HŠ 42
+88
+V
+10.
+708040
+708043
+C 208920
+Varna pot Zg.–Sp. Hotič
+Z p859/2
+617
+P
+11.
+708040
+708044
+C 208920
+Zgornji Hotič 11B
+Z HŠ 11B
+177
+V
+12.
+708040
+708045
+O 708044
+Zgornji Hotič 10D
+Z HŠ 10D
+184
+V
+13.
+708050
+708051
+C G2 108
+Sp. Hotič–Bitiče–Jesenj
+C 208010
+3.330
+V
+14.
+708050
+708052
+O 708051
+Sp. Hotič
+Z HŠ 45
+164
+V
+15.
+708050
+708053
+O 708051
+Bitiče
+Z HŠ 3
+141
+V
+16.
+708050
+708054
+C RT 921
+Sp. Hotič–Gradišek
+Z NH
+240
+V
+17.
+708060
+708061
+C 208060
+LC 208060–Krhličje
+C 208060
+665
+V
+18.
+708070
+708071
+C 208060
+LC 208060–Konj
+Z HŠ 7
+719
+V
+19.
+708080
+708081
+C 208020
+Klanec–Sela
+C 208020
+1.836
+V
+20.
+708080
+708082
+O 708081
+Klanec–Sp. Slivna
+C 208020
+428
+V
+21.
+708090
+708091
+C 208020
+Sp. Slivna–Zg. Slivna
+Z HŠ 19
+1.891
+V
+22.
+708100
+708101
+C 263750
+LC 263750–Strmca–Tr 921
+C R3 921
+1.066
+V
+23.
+708110
+708111
+C R3 921
+R3 921–Mačkov
+C R3 921
+602
+V
+24.
+708110
+708112
+C R3 921
+R3 921–C 263750
+C 263750
+626
+V
+25.
+708120
+708121
+C R3 921
+Vače–Lošce (Spodaj)
+Z HŠ 49
+966
+V
+26.
+708120
+708122
+O 708121
+Vače–Lošce (Zgoraj)
+Z HŠ 86E
+287
+V
+27.
+708120
+708123
+C R3 921
+Vače 1
+O 708121
+71
+V
+28.
+708120
+708124
+O 708123
+Vače 2
+Z HŠ 36
+116
+V
+29.
+708120
+708125
+O 708124
+Vače 3
+Z p.99/8
+50
+V
+30.
+708130
+708131
+C 208040
+Hrastje–Klenik
+C 208030
+1.466
+V
+31.
+708130
+708132
+C 208030
+Klenik–Vovše
+Z HŠ 6
+3.689
+V
+32.
+708130
+708133
+C 208030
+Vače 48a
+Z HŠ 48A
+182
+V
+33.
+708130
+708134
+C 208030
+Klenik 1b
+Z HŠ 1b
+47
+V
+34.
+708140
+708141
+C 208040
+Sp. Laze–Zg. Laze
+Z HŠ 13
+864
+V
+35.
+708150
+708151
+C R3 921
+Tr 921–Tolsti Vrh
+Z HŠ 12
+1.406
+V
+36.
+708150
+708152
+O 708151
+Globodol
+Z HŠ 85
+688
+V
+37.
+708160
+708161
+C 208070
+Mačkovina–Cirkuše–Potok
+C 208040
+4.851
+V
+38.
+708170
+708171
+O 708161
+JP 708160–Boltija
+C 208050
+914
+V
+39.
+708180
+708181
+O 708161
+Zajc
+Z GC
+507
+V
+40.
+708180
+708182
+O 708181
+Cirkuše–Zakrajšek
+Z HŠ 23
+2.274
+V
+41.
+708190
+708191
+O 708161
+Zahrib–Kobiljek
+C 208820
+701
+V
+42.
+708200
+708201
+C 208070
+Žel. postaja Sava
+C 208070
+210
+V
+43.
+708210
+708211
+C 208040
+LC 208040–Široka Set
+Z CERKEV
+935
+V
+44.
+708210
+708212
+C 208040
+Podbukovje pri Vačah 8
+Z HŠ 8
+175
+V
+45.
+708220
+708221
+C R3 921
+Vače–Novo Naselje
+C R3 921
+390
+V
+46.
+708220
+708222
+O 708221
+Vače–Novo naselje
+Z NH
+175
+V
+47.
+708220
+708223
+C R3 921
+Vače vezna
+C 208040
+94
+V
+48.
+708230
+708231
+C 208040
+LC 208040–Praprotnik
+Z HŠ 15
+190
+V
+49.
+708240
+708241
+C 208070
+LC 208070–Grad Ponovi
+Z GRAD
+314
+V
+50.
+708250
+708251
+C 208070
+LC 208070–LC 208050
+C 208050
+1.319
+V
+51.
+708260
+708261
+C 208070
+LC 208070–Tori
+Z HŠ 4
+301
+V
+52.
+708260
+708262
+C 208070
+V Vasi
+Z HŠ 17B
+214
+V
+53.
+708270
+708271
+O 708501
+708501–Grčan
+Z NH
+2.371
+V
+54.
+708280
+708281
+C 208080
+Breg–Tenetiše
+C 208090
+1.042
+V
+55.
+708280
+708282
+O 708281
+Novo naselje Breg
+Z HŠ 27F
+275
+V
+56.
+708280
+708283
+O 708281
+Tenetiše 1
+Z HŠ 12
+207
+V
+57.
+708280
+708284
+O 708281
+Tenetiše 2
+C 208090
+430
+V
+58.
+708290
+708291
+C G2 108
+G2 108–Trinkavs–Ognišar
+O 708501
+5.346
+V
+59.
+708300
+708301
+C G2 108
+Sp. Log I
+C G2 108
+477
+V
+60.
+708300
+708302
+O 708301
+Sp. Log II
+Z HŠ 59
+286
+V
+61.
+708310
+708311
+C G2 108
+Renke–Kleviše
+C 208110
+2.383
+V
+62.
+708320
+708321
+O 708311
+St. Laze–Šumnik–Polšnik
+C 208110
+2.543
+V
+63.
+708330
+708331
+C 208120
+Smrekar–Ravne
+Z HŠ 1
+1.684
+V
+64.
+708340
+708341
+C 208120
+Vodenik–Ravne
+O 708331
+934
+V
+65.
+708340
+708342
+C 208120
+Vodenik–odcep Ubar
+Z GC
+249
+V
+66.
+708360
+708361
+O 710321
+Prevalca–Vrdjan
+Z HŠ 30
+2.472
+V
+67.
+708370
+708371
+C 708360
+Vrdjan–Meja–Rodež
+Z GC
+911
+V
+68.
+708380
+708381
+O 710321
+Preval–Vrtače–Sp. Šklend
+Z HŠ 26
+3.088
+V
+69.
+708390
+708392
+C 208900
+Konjšica–Dolanc–Kraje
+O 708381
+3.940
+V
+70.
+708390
+708393
+O 708392
+Odcep Dolanc
+Z HŠ 35
+575
+V
+71.
+708400
+708401
+C 208070
+Sava–Leše
+Z HŠ 12
+3.283
+V
+72.
+708410
+708411
+C 208120
+Sušje–Gričar
+O 981091
+2.417
+V
+73.
+708420
+708421
+O 708411
+Sušje–Stranski Vrh
+O 708441
+1.225
+V
+74.
+708430
+708431
+O 708441
+L. Koča–Koprivnik–Sušje
+Z HŠ 34A
+614
+V
+75.
+708440
+708441
+C 208110
+Polšnik–St. Vrh–Padež
+C 480140
+3.378
+V
+236 Zagorje ob Savi
+76.
+708450
+708451
+C 208110
+LC 208110–Glinjek
+Z HŠ 1
+584
+V
+77.
+708460
+708461
+C R3 665
+Sopota–Borovak–V. Preska
+C 208130
+1.764
+V
+78.
+708470
+708471
+C R3 665
+V. Peska–Zglavnica
+Z HŠ 12
+1.934
+V
+79.
+708480
+708481
+C 208100
+Savšek–Slop
+C 208110
+2.145
+V
+80.
+708480
+708482
+C 208100
+LC 208100–JP 708480
+O 708481
+685
+V
+81.
+708490
+708491
+C 208100
+Prelesje
+Z HŠ 7
+290
+V
+82.
+708500
+708501
+C 208100
+Zg. Mamolj–Ognišar
+O 708291
+2.424
+V
+83.
+708510
+708511
+C 208100
+Sp. Mamolj
+Z HŠ 2
+845
+V
+84.
+708520
+708521
+C 208110
+Polšnik–Seruč–Pasjek
+C 208110
+5.291
+V
+85.
+708520
+708522
+O 708521
+Mamolj
+Z HŠ 29
+446
+V
+86.
+708530
+708531
+C 208110
+Tepe–Žamboh
+C 208110
+947
+V
+87.
+708540
+708541
+C 208110
+Fele
+Z HŠ 2
+309
+V
+88.
+708550
+708551
+C R3 665
+R3 665–Kovaček
+Z HŠ 2
+1.119
+V
+89.
+708560
+708561
+C 208120
+Preveg–Gričar
+Z HŠ 6
+483
+V
+90.
+708570
+708571
+C 208110
+Polšnik–Dolar
+Z HŠ 20
+331
+V
+91.
+708580
+708581
+C 425310
+Prelesj–Dobje–JP 708590
+O 708591
+1.937
+V
+92.
+708590
+708591
+C 425310
+Prelesje–Ježevec–Meja O
+C 425310
+2.653
+V
+1.186 Šentrupert
+93.
+708620
+708621
+C 425310
+Podstr.–Javorje–Gradišč
+C 425310
+3.927
+V
+94.
+708620
+708622
+O 708621
+Javorje
+Z HŠ 13
+259
+V
+95.
+708630
+708631
+O 708621
+JP 708620–Sadež
+Z HŠ 23
+875
+V
+96.
+708630
+708632
+O 708621
+JP 708620–HŠ 22
+Z HŠ 22
+579
+V
+97.
+708640
+708641
+O 708621
+JP 708620–Gorenc
+Z HŠ 14
+509
+V
+98.
+708650
+708651
+O 708621
+JP 708620–Mlake
+Z HŠ 19
+1.166
+V
+99.
+708660
+708661
+O 708651
+JP 708620–Mlake(Zgoraj)
+Z HŠ 20
+303
+V
+100.
+708670
+708671
+C 425310
+LC 425310–Bobneči Vrh
+Z HŠ 8
+1.804
+V
+101.
+708680
+708681
+C 425310
+LC 425310–Predlog
+Z HŠ 6
+517
+V
+102.
+708690
+708691
+C 425310
+Radgonica–Selšek
+Z HŠ 6
+941
+V
+103.
+708700
+708701
+C R3 665
+Radgonica–Sopota
+Z GC
+1.366
+V
+104.
+708710
+708711
+C R3 665
+R3 665–Lamovje
+Z HŠ 7
+631
+V
+105.
+708720
+708721
+C 208170
+M.Graben–Ramovš–Dobovic
+C 425310
+1.947
+V
+106.
+708730
+708731
+C 425310
+LC 425310–Borje
+Z CERKEV
+344
+V
+107.
+708740
+708741
+C 425310
+LC 425310–Božičev Mlin
+O 708752
+1.659
+V
+108.
+708750
+708751
+C 425310
+LC 425310–Berin
+Z HŠ 8
+768
+V
+109.
+708750
+708752
+O 708751
+Berin–LC208140
+C 425310
+864
+V
+110.
+708760
+708761
+O 708752
+JP708750–L. Koč–LC208140
+C 425310
+564
+V
+111.
+708760
+708762
+C 208140
+LC 208140–Sp. Jelenje
+Z HŠ 31
+526
+V
+112.
+708770
+708771
+C 425300
+Dole–Suhadole–Selce
+C 425300
+2.605
+V
+113.
+708770
+708772
+O 708771
+Rogovila–Slavina
+Z HŠ 4
+439
+V
+114.
+708770
+708773
+C 425300
+LC–Rogovila
+O 708771
+326
+V
+115.
+708770
+708774
+O 708771
+Odcep Gradišče
+Z MLAKA
+294
+V
+116.
+708780
+708781
+C 425300
+Dole–Brdo
+Z HŠ 9
+2.573
+V
+117.
+708790
+708791
+C 425300
+LC 425300–Hude Ravne
+Z HŠ 5
+899
+V
+118.
+708790
+708792
+O 708791
+Hude Ravne
+Z HŠ 8
+110
+V
+119.
+708810
+708811
+C 208140
+Dole–Prevale
+Z HŠ 2
+2.424
+V
+120.
+708810
+708812
+O 708811
+Pasji vrh
+Z HŠ 17
+92
+V
+121.
+708820
+708821
+C 208140
+Pipančkov Mlin
+Z MLIN
+1.000
+V
+122.
+708830
+708831
+C 208130
+Križe–V. Goba–Fajdiga
+C R3 665
+3.140
+V
+123.
+708840
+708841
+O 708831
+V. Goba–Gadnje–Javo–Pil
+C R2 417
+3.667
+V
+124.
+708840
+708842
+O 708831
+Velika Goba
+Z HŠ 2A
+113
+V
+125.
+708850
+708851
+C 208130
+M. Goba
+Z HŠ 8
+764
+V
+126.
+708860
+708861
+C 208130
+Preženjske Njive–Bistri
+Z HŠ 6
+1.189
+V
+127.
+708870
+708871
+O 708881
+Bistrica–G. Jelenje–Kraj
+C 208140
+3.677
+V
+128.
+708880
+708881
+C 208140
+LC 208140–Bistrica
+Z HŠ 8
+1.639
+V
+129.
+708890
+708891
+C 208140
+Sp. Jelenje–G. Jelenje
+O 708871
+1.625
+V
+130.
+708890
+708892
+O 708871
+G. Jelenje–D. cesta
+C R3 665
+872
+V
+131.
+708890
+708893
+O 708891
+Sp. Jelenje
+O 708891
+183
+V
+132.
+708900
+708901
+C 208140
+Dole–Kal
+C 425310
+232
+V
+133.
+708900
+708902
+C 208140
+Dole KGZ
+C 208140
+204
+V
+134.
+708910
+708911
+C R3 665
+Ljubež
+Z HŠ 4
+627
+V
+135.
+708930
+708931
+O 708941
+Kamni Vrh
+C 208300
+2.004
+V
+136.
+708930
+708932
+O 708931
+Gobnik 2
+Z HŠ 24
+884
+V
+137.
+708940
+708941
+C 208190
+Cerkno–Laze–Gobnik
+Z HŠ 3
+1.654
+V
+138.
+708950
+708951
+C 208300
+Gabrje–Gora
+Z HŠ 2
+1.180
+V
+139.
+708950
+708952
+O 708951
+Gabrska Gora
+C 208300
+1.530
+V
+140.
+708950
+708953
+C 208300
+Kobile
+O 708952
+319
+V
+141.
+708960
+708961
+C R3 652
+Rs 652–Dule
+Z HŠ 4
+555
+V
+142.
+708970
+708971
+C R3 652
+Tlaka–Gabrovka I
+C R2 417
+2.824
+V
+143.
+708970
+708972
+O 708971
+Tlaka–Gabrovka II
+O 709091
+955
+V
+144.
+708970
+708973
+C R3 652
+Tlaka 11
+Z HŠ 11
+320
+V
+145.
+708990
+708991
+C 208140
+Kumpolje
+Z HŠ 5
+657
+V
+146.
+709000
+709001
+C 208330
+Kidričeva–Praprošče
+Z HŠ 15
+692
+V
+147.
+709000
+709002
+O 709001
+Odcep Proti Hš 1
+Z HŠ 1
+192
+V
+148.
+709010
+709011
+C 425220
+LC 425220–G. Ravne
+Z HŠ 5
+457
+V
+149.
+709020
+709021
+C R2 417
+Tihaboj–Brglez
+Z HŠ 6
+1.648
+V
+150.
+709020
+709022
+C R2 417
+Tihaboj 1
+O 709021
+132
+V
+151.
+709020
+709023
+O 709022
+Tihaboj 2
+Z HŠ 23
+108
+V
+152.
+709020
+709024
+O 709022
+Tihaboj 33
+Z HŠ 33
+971
+V
+153.
+709030
+709031
+C R2 417
+R2 417–Pečice
+Z HŠ 8
+1.070
+V
+154.
+709040
+709041
+C R2 417
+Tihaboj–Lukovec–Brinje
+Z GC
+1.466
+V
+155.
+709040
+709042
+C R2 417
+Odcep Tihaboj
+Z KOZOL.
+170
+V
+156.
+709040
+709043
+O 709041
+Odcep Lukovec
+Z HŠ 5
+98
+V
+157.
+709040
+709044
+C R2 417
+Tihaboj
+Z HŠ 3
+374
+V
+158.
+709050
+709051
+C 208140
+Simončič–Gabrovka
+C R2 417
+873
+V
+159.
+709060
+709061
+C R2 417
+R2 417–Korošec
+Z HŠ 12
+407
+V
+160.
+709060
+709062
+O 709061
+Gabrovka–Orešje
+C 208140
+652
+V
+161.
+709060
+709063
+C 208140
+Gabrovka 51
+Z HŠ 51
+256
+V
+162.
+709060
+709064
+O 709063
+Gabrovka 76–gabrovka 71
+C 208140
+405
+V
+163.
+709060
+709065
+O 709061
+Moravška gora 9
+Z HŠ 9
+221
+V
+164.
+709070
+709071
+C 208140
+Brez–Sp. Vodice
+O 709081
+329
+V
+165.
+709070
+709072
+O 709081
+Vodice–Roje–Klanec
+C R2 417
+4.384
+V
+166.
+709070
+709073
+O 709072
+Vodice
+Z HŠ 11
+285
+V
+167.
+709070
+709074
+C R2 417
+Klanec
+Z HŠ 5
+95
+V
+168.
+709070
+709075
+O 709072
+Podpeč pod Skalo
+O 709121
+1.006
+V
+169.
+709080
+709081
+C 208140
+M. Gor–Zg. Vodice–V. Goba
+O 708831
+4.035
+V
+170.
+709080
+709082
+O 709081
+Babja d.–Gabrovka
+O 709101
+1.291
+V
+171.
+709080
+709083
+O 709081
+Brezovo 26
+Z HŠ 26
+99
+V
+172.
+709090
+709091
+C R2 417
+Gabrovka–Mimo Blokov
+C R2 417
+453
+V
+173.
+709090
+709092
+O 709091
+Gabrovka–Odc. Pri Blokih
+C R2 417
+60
+V
+174.
+709100
+709101
+C R2 417
+Moravška Gora
+C R2 417
+1.318
+V
+175.
+709110
+709111
+O 709072
+Roje–Moravče
+O 709121
+545
+V
+176.
+709110
+709112
+O 709072
+Ozalj–Zg. njive–Roje
+O 709111
+488
+V
+177.
+709120
+709121
+C R2 417
+Moravče–Podpeč
+Z HŠ 3
+3.058
+V
+178.
+709130
+709131
+O 709121
+Hohovica–Štorovje
+C R2 417
+1.003
+V
+179.
+709130
+709132
+O 709131
+Hohovica 9
+Z HŠ 9
+179
+V
+180.
+709130
+709133
+C R2 417
+Moravče 36
+Z HŠ 36
+163
+V
+181.
+709140
+709141
+C R2 417
+Štorovje
+Z HŠ 94
+552
+V
+182.
+709140
+709142
+C R2 417
+Moravče 111
+Z HŠ 111
+186
+V
+183.
+709140
+709143
+O 709141
+Moravče 41a
+C R2 417
+403
+V
+184.
+709150
+709151
+C 208190
+LC 208190–N. Gora–Gobni
+C 208190
+2.439
+V
+185.
+709150
+709152
+C 208190
+Nova Gora
+O 709151
+757
+V
+186.
+709260
+709261
+C 208210
+Preska–Grmada–Cerovec
+C 208190
+605
+V
+2.374 Šmartno pri Litiji
+187.
+709710
+709711
+C 208260
+Št. Poljane–Blaj–M. Štang
+C 208290
+2.587
+V
+2.161 Šmartno pri Litiji
+188.
+709820
+709821
+C R3 645
+Zav–Šir. Hrib–Bedengrabe
+C 208270
+4.874
+V
+1.248 Šmartno pri Litiji
+189.
+709930
+709931
+C 208290
+M.Štanga–Nace–LC 208290
+C 208290
+975
+V
+1.513 Šmartno pri Litiji
+190.
+709940
+709941
+O 709931
+Mala Štanga–Golišče
+C 208280
+1.873
+V
+507 Šmartno pri Litiji
+191.
+709970
+709971
+C 208280
+Naselje Golišče
+C 208280
+1.524
+V
+192.
+709980
+709981
+C 213030
+M. Dolga Noga–Jevnica
+C 069030
+2.816
+V
+193.
+709980
+709982
+C 213030
+Mala Dolga noga–Bitnic
+Z HŠ 6
+568
+V
+194.
+709990
+709991
+C 069030
+Kresniške Poljane
+C 069030
+901
+V
+195.
+709990
+709992
+O 709991
+K. poljane
+Z HŠ 12B
+204
+V
+196.
+710010
+710011
+C 208280
+Naselje Jevnica
+Z HŠ 89
+588
+V
+197.
+710010
+710012
+O 710011
+Jevnica–Mala Noga
+O 709981
+1.066
+V
+198.
+710010
+710013
+O 710011
+Jevnica–odcep
+Z HŠ 69C
+443
+V
+199.
+710020
+710021
+C 208280
+LC208280–Žel. Podh–Pošta
+C 069030
+336
+V
+200.
+710030
+710031
+C 069030
+Kresnice Mimo Blokov
+C 069030
+268
+V
+201.
+710030
+710032
+C 069030
+Kresnice Bloki
+Z HŠ 92
+61
+V
+202.
+710040
+710041
+C 069030
+Kresnice Zahodni Del
+C 069030
+379
+V
+203.
+710050
+710051
+O 710041
+LC 213070–Kos–Koncilja
+Z HŠ 68
+152
+V
+204.
+710060
+710061
+C 208280
+Zg. Kresni Vrh–Sp. Kres. V
+C 069030
+2.263
+V
+205.
+710060
+710062
+O 710061
+Zg. KresnI vrh–Sp. Kr. vrh
+Z KRAŠNA
+300
+V
+206.
+710060
+710063
+O 710061
+Kresniški vrh 26–25
+O 710061
+364
+V
+207.
+710070
+710071
+C 069030
+Srednji Kresniški Vrh
+C 208280
+1.768
+V
+208.
+710080
+710081
+O 710061
+JP710060–Tomši–JP710070
+O 710071
+707
+V
+209.
+710090
+710091
+C 208280
+Mimo Osnovne Šole
+C 069030
+807
+V
+210.
+710090
+710092
+C 069030
+Obvoznica Kresnice
+Z TENIS
+679
+V
+211.
+710100
+710101
+C 069030
+Trgovina–Vidic
+O 710091
+259
+V
+212.
+710100
+710102
+O 710091
+Kresnice 32–cerkev
+Z CERKEV
+186
+V
+213.
+710100
+710103
+O 710091
+Kresnice 25
+Z HŠ 25A
+108
+V
+214.
+710100
+710104
+O 710103
+Pešpot Kresnice 21
+O 710101
+127
+P
+215.
+710100
+710105
+O 710104
+Pešpot Kresnice 24
+O 710031
+74
+P
+216.
+710110
+710111
+O 710061
+JP 710061–Vodno Zajet
+Z ZAJETJ
+905
+V
+217.
+710120
+710121
+C 208080
+Breg Skozi Vas
+C 708280
+449
+V
+218.
+710140
+710141
+C 208090
+Gradiške Laze
+Z HŠ 29
+145
+V
+219.
+710200
+710201
+C 069030
+Podšentjur–Bajde
+Z HŠ 16
+1.352
+V
+220.
+710210
+710211
+C 069030
+Podšentjur–Kovkar
+Z HŠ 17
+1.227
+V
+221.
+710220
+710221
+C 069030
+Podšentjur–Cestnik
+Z HŠ 4
+912
+V
+222.
+710230
+710231
+O 709821
+JP 709820–Mahkovec
+Z HŠ 3
+475
+V
+223.
+710240
+710241
+O 709821
+JP 709820–Borštnar
+Z HŠ 10
+598
+V
+224.
+710250
+710251
+C 208270
+Temel–Zgonc
+C 208270
+1.217
+V
+225.
+710250
+710252
+O 710251
+Veliki Vrh 53
+Z odc.53
+119
+V
+226.
+710250
+710253
+C 208280
+Golišče 121
+Z HŠ 121
+787
+V
+227.
+710250
+710254
+C 208280
+Golišče 126
+Z HŠ 126
+192
+V
+228.
+710260
+710261
+C 208270
+Ostrež
+Z HŠ 5
+471
+V
+229.
+710270
+710271
+C 208330
+Litija–Zg. Log
+O 710273
+1.127
+V
+230.
+710270
+710272
+C G2 108
+Zgornji Log 31
+Z HŠ 31
+124
+V
+231.
+710270
+710273
+C G2 108
+Zgornji Log
+O 710271
+665
+V
+232.
+710290
+710291
+C 208700
+Praprošče–Semenič
+Z HŠ 21
+548
+V
+233.
+710310
+710311
+C R2 417
+R2 417–Mizarstvo Gabrov
+Z HŠ 9B
+395
+V
+234.
+710320
+710321
+C 208120
+Vodenik–Prevalca–Podkum
+C 480150
+1.890
+V
+846 Zagorje ob Savi
+235.
+710330
+710331
+C 208530
+Gubčeva Ulica II
+Z HŠ 6
+44
+V
+236.
+710340
+710341
+C 208600
+Naselje 25. maja VI
+Z HŠ 33
+45
+V
+237.
+710340
+710342
+C 208340
+Bevkova ulica–vrtec
+Z VRTEC
+127
+V
+238.
+710400
+710402
+C 208280
+Kresnice 1b
+Z HŠ 117
+170
+V
+239.
+710400
+710403
+C 208280
+Kresnice 1c
+Z HŠ 128
+128
+V
+240.
+710400
+710404
+C 208280
+M. vežica Kresnice
+Z VEŽICA
+177
+V
+241.
+710400
+710405
+C 208280
+Kresnice 122
+Z HŠ 122
+247
+V
+242.
+710400
+710406
+C 208280
+Kresnice 84
+Z HŠ 84
+37
+V
+243.
+710400
+710407
+C 208280
+Kresnice 116
+Z HŠ 116
+105
+V
+244.
+710410
+710411
+C 208040
+Lebek
+Z HŠ 14
+449
+V
+245.
+710420
+710421
+C 208040
+Potok pri Vačah
+Z HŠ 5
+159
+V
+246.
+710430
+710431
+C 208190
+Gobnik 1
+Z HŠ 25A
+417
+V
+247.
+710430
+710432
+C 208190
+Gornji Gobnik
+Z HŠ 16
+423
+V
+248.
+710440
+710441
+C R2 417
+Moravče 21
+Z HŠ 21
+198
+V
+249.
+710450
+710451
+C 208140
+Brezovo 1
+Z HŠ 10
+141
+V
+250.
+710450
+710452
+C 208140
+Brezovo 2
+Z HŠ 19
+147
+V
+251.
+710450
+710453
+O 709081
+Brezovo 41
+Z HŠ 41
+201
+V
+252.
+710460
+710461
+C 425310
+Radgonica
+C 425310
+292
+V
+253.
+710470
+710471
+C 208280
+Roškov vrh
+Z HŠ 53
+385
+V
+254.
+710480
+710481
+C 208280
+Žumberger
+Z HŠ 87
+334
+V
+255.
+710490
+710491
+C 208280
+Golišče
+C 208280
+344
+V
+256.
+710500
+710501
+C G2 108
+Vernek 1
+Z HŠ 5A
+100
+V
+257.
+710500
+710502
+C G2 108
+Vernek 2
+Z HŠ 2
+122
+V
+258.
+710510
+710511
+C R3 921
+Vače–pokopališče
+Z POKOPA
+104
+V
+259.
+710510
+710512
+C R3 921
+Vače–zajetje
+Z ZAJETJ
+190
+V
+260.
+710520
+710521
+C 208110
+Zgornje Tepe 1
+Z HŠ 57
+459
+V
+261.
+710520
+710522
+O 710521
+Zgornje Tepe 2
+Z HŠ 62
+249
+V
+262.
+710530
+710531
+O 710273
+Zgornji Log II
+Z HŠ 5
+110
+V
+263.
+710710
+710711
+C 208360
+Pokopališka Pot I
+C 208240
+550
+V
+264.
+710710
+710712
+O 710711
+Pokopališka Pot II
+C 208250
+103
+V
+265.
+710730
+710731
+C 208360
+Rudarska Ul
+O 710711
+103
+V
+266.
+710900
+710902
+C 208910
+Čateška Gora–Križišče
+Z RAZCEP
+366
+V
+267.
+710900
+710903
+C 208910
+Čateška gora
+Z HŠ 9
+812
+V
+268.
+710900
+710904
+C 208910
+Kržišče
+Z NH
+93
+V
+269.
+710910
+710911
+C 208380
+Partizanska pot 10
+Z HŠ 10
+105
+V
+270.
+710910
+710912
+C 208380
+Partizanska pot 18d
+Z HŠ 18d
+60
+V
+271.
+710920
+710921
+C 208010
+Jesenje
+Z HŠ 9A
+199
+V
+272.
+710930
+710931
+C 208250
+Podsitarjevec
+Z HŠ 46
+106
+V
+273.
+710940
+710941
+C 208190
+Dolenji Gobnik
+Z HŠ 1A
+410
+V
+274.
+710950
+710951
+C 208020
+Ušenišč.–Cv.–Vrt–M. Sela
+Z HŠ 5B
+737
+V
+275.
+710960
+710961
+C G2 108
+Čistilna naprava
+Z ČN
+169
+V
+276.
+764080
+764081
+C 208010
+Dešen–Dašnik
+C G2 108
+152
+V
+2.085 Moravče
+277.
+764210
+764211
+C 263800
+Zg. Gora–Meja–Sp. Slivna
+C 208020
+828
+V
+792 Moravče
+278.
+925420
+925421
+C R3 652
+Kržišče pri Čatežu 3
+C 208910
+615
+V
+1.082 Trebnje
+
+Skupna dolžina javnih poti (JP) v Občini Litija znaša 250.137 m (250,137 km).«
+
+4. člen
+
+Besedilo 7. člena odloka se spremeni tako, da se glasi:
+
+»Skupna dolžina kategoriziranih občinskih javnih cest v Občini Litija znaša 423.615 m (423,615 km).«
+
+5. člen
+
+H kategorizaciji občinskih cest, določenih s tem odlokom, je bilo v skladu z določbo 18. člena Uredbe o merilih za kategorizacijo javnih cest (Uradni list RS, št. 49/97, 113/09 in 109/10 – ZCes-1) pridobljeno soglasje Direkcije Republike Slovenije za infrastrukturo, št. 37162-3/2020-219 (507) z dne 8. 7. 2020.
+
+6. člen
+
+Ta odlok začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 371-95/2016
+
+Litija, dne 13. julija 2020
+
+Župan
+
+Občine Litija
+
+Franci Rokavec
