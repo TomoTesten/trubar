@@ -1,0 +1,42 @@
+---
+kratica: MP_PRAV6620
+naziv: "Pravilnik o spremembi Pravilnika o subvencioniranju varstva otrok (PRAV)"
+vrsta: "občinski pravilnik"
+datum: 2020-07-27
+sop: 2020-01-1994
+organ: "Občina Litija"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-1994"
+---
+
+# Pravilnik o spremembi Pravilnika o subvencioniranju varstva otrok (PRAV)
+
+Na podlagi 16. člena v povezavi z 9. točko 7. člena Statuta Občine Litija (Uradni list RS, št. 31/17) in 29. člena v povezavi s šesto alinejo drugega odstavka 21. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 76/08, 79/09, 51/10, 40/12 – ZUJF, 14/15 – ZUUJFO, 11/18 – ZSPDSLS-1, 30/18, 61/20 – ZIUZEOP-A in 80/20 – ZIUOOPE) je Občinski svet Občine Litija na 11. seji dne 13. 7. 2020 sprejel
+
+P R A V I L N I K
+
+o spremembi Pravilnika o subvencioniranju varstva otrok
+
+1.
+člen
+
+V Pravilniku o subvencioniranju varstva otrok (Uradni list RS, št. 60/10, 60/11, 48/12, 55/13, 49/14, 44/15, 42/16, 30/17, 43/18 in 39/19) se 15. člen spremeni tako, da se glasi:
+
+»15. člen
+
+Pravica do subvencije je vezana na otroka in se prizna za čas tekočega šolskega leta, ko vlagatelj izpolnjuje vse predpisane pogoje za pridobitev subvencije, pri čemer se vloga za subvencijo presoja in obravnava za vsako šolsko leto znova.«.
+
+2. člen
+
+Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 007-7/2010
+
+Litija, dne 13. julija 2020
+
+Župan
+
+Občine Litija
+
+Franci Rokavec
