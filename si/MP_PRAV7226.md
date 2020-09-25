@@ -2,11 +2,11 @@
 kratica: MP_PRAV7226
 naziv: "Pravilnik o dodeljevanju finančnih sredstev za pospeševanje razvoja malega gospodarstva v Občini Gornji Grad za obdobje –2021-2024 (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2026-01-04
+datum: 2020-09-28
 sop: 2020-97-0573
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Gornji Grad"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-97-0573"
 ---
 

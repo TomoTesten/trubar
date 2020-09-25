@@ -2,11 +2,11 @@
 kratica: MP_ODLO47982
 naziv: "Odlok o ureditvi cestnega prometa v Mestni občini Novo mesto  (ODLO)"
 vrsta: "občinski odlok"
-datum: 2026-01-04
+datum: 2020-10-19
 sop: 2020-23-0026
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Mestna občina Novo mesto"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-23-0026"
 ---
 
