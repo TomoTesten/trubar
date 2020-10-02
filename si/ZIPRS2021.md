@@ -7,6 +7,11 @@ sop: 2019-01-3304
 objava: "Uradni list RS 75/19  str. 9637"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-3304"
+spremembe:
+  - kratica: ZIPRS2021-A
+    datum: 2020-10-02
+    sop: 2020-01-2352
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2020 in 2021"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2020 in 2021
