@@ -7,6 +7,11 @@ sop: 2019-01-3305
 objava: "Uradni list RS 75/19  str. 9653"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-3305"
+spremembe:
+  - kratica: ZUPPJS2021-A
+    datum: 2020-10-09
+    sop: 2020-01-2452
+    naziv: "Zakon o spremembi Zakona o ukrepih na področju plač in drugih stroškov dela v javnem sektorju za leti 2020 in 2021 ter izredni uskladitvi pokojnin"
 ---
 
 # Zakon o ukrepih na področju plač in drugih stroškov dela v javnem sektorju za leti 2020 in 2021 ter izredni uskladitvi pokojnin
