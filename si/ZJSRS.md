@@ -36,6 +36,10 @@ spremembe:
     datum: 2016-06-03
     sop: 2016-01-1706
     naziv: "Zakon o spremembah in dopolnitvah Zakona o Javnem jamstvenem, preživninskem in invalidskem skladu Republike Slovenije"
+  - kratica: ZJSRS-H
+    datum: 2020-10-09
+    sop: 2020-01-2449
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o Javnem štipendijskem, razvojnem, invalidskem in preživninskem skladu Republike Slovenije"
 ---
 
 # Zakon o Jamstvenem skladu Republike Slovenije
