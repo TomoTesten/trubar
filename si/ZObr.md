@@ -28,6 +28,10 @@ spremembe:
     datum: 2015-12-10
     sop: 2015-01-3750
     naziv: "Zakon o dopolnitvi Zakona o obrambi"
+  - kratica: ZObr-F
+    datum: 2020-10-09
+    sop: 2020-01-2455
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o obrambi"
 ---
 
 # Zakon o obrambi
