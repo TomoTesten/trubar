@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-12-28
     sop: 2005-01-5311
     naziv: "Zakon o spremembah in dopolnitvah zakona o nalezljivih boleznih"
+  - kratica: ZNB-B
+    datum: 2020-10-14
+    sop: 2020-01-2523
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o nalezljivih boleznih"
 ---
 
 # Zakon o nalezljivih boleznih
