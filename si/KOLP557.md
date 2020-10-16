@@ -4,9 +4,9 @@ naziv: "Aneks št. 10 h Kolektivni pogodbi javnega zavoda RTV Slovenija"
 vrsta: "akt"
 datum: 2020-11-06
 sop: 2020-01-2802
-organ: "Radiotelevizija Slovenija"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-2802"
 ---
 
