@@ -1,0 +1,269 @@
+---
+kratica: MP_ODLO45072
+naziv: "Odlok o spremembah Odloka o kategorizaciji občinskih cest v Občini Tolmin (ODLO)"
+vrsta: "občinski odlok"
+datum: 2020-10-30
+sop: 2020-01-2750
+organ: "Občina Tolmin"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-2750"
+---
+
+# Odlok o spremembah Odloka o kategorizaciji občinskih cest v Občini Tolmin (ODLO)
+
+Na podlagi 39. člena Zakona o cestah (Uradni list RS, št. 109/10) ter 11. in 21. člena Statuta Občine Tolmin (Uradni list RS, št. 13/09, 17/11 in 106/15) je Občinski svet Občine Tolmin na 15. dopisni seji, ki je trajala od 16. oktobra 2020 do vključno 19. oktobra 2020 sprejel
+
+O D L O K
+
+o spremembah Odloka o kategorizaciji občinskih cest v Občini Tolmin
+
+1. člen
+
+S tem odlokom se:
+
+– razveljavi Odlok o spremembah Odloka o kategorizaciji občinskih cest v Občini Tolmin (Uradni list RS, št. 77/19),
+
+– spremeni Odlok o kategorizaciji občinskih cest v Občini Tolmin (Uradni list RS, št. 42/09), v nadaljnjem besedilu: Odlok.
+
+2. člen
+
+(1) V 4. členu Odloka se v tabeli spremenijo podatki v stolpcu »Dolžina ceste ali odseka v občini (m)«, pri naslednjih lokalnih cestah v Občini Tolmin:
+
+Zap. št.
+Številka ceste ali odseka
+Začetek ceste ali odseka
+Potek ceste
+Konec ceste ali odseka
+Dolžina ceste ali odseka v občini (m)
+Namen uporabe
+Preostala dolžina ceste v sosednji občini (m)
+2
+043061
+043061
+Bukovo-Zakojca-Hudajužna
+R II 403
+1.208
+V
+4.969-Cerkno
+
+(2) Ob zaključku tabele v 4. členu Odloka se spremeni seštevek dolžin lokalnih cest v Občini Tolmin tako, da se število 217.131 nadomesti s številom 147.831.
+
+3. člen
+
+(1) V 6. členu Odloka se v tabeli spremenijo podatki v stolpcu »Dolžina ceste ali odseka v občini (m)«, pri naslednjih javnih poteh v Občini Tolmin:
+
+Zap. št.
+Številka ceste ali odseka
+Začetek ceste ali odseka
+Potek ceste
+Konec ceste ali odseka
+Dolžina ceste ali odseka v občini (m)
+Namen uporabe
+Preostala dolžina ceste v sosednji občini (m)
+1
+630561
+R III 610
+Oblakov vrh-Stržnikar-Gačnik
+920781
+3.471
+V
+2.837-Idrija
+2
+630821
+920780
+Gačnik-Bendija-Razazija
+920810
+1.873
+V
+529-Idrija
+5
+920011
+G II 103
+Kamno-Foni
+HŠ 152
+2.620
+V
+0
+36
+920291
+920280
+Bača-Kacenpoh
+HŠ 27
+1.257
+V
+0
+47
+920401
+420142
+Prapetno Brdo-Ruti
+HŠ 9
+636
+V
+0
+104
+920891
+420150
+Logaršče-Rakovec
+HŠ 49
+1.124
+V
+0
+116
+921001
+920770
+Kremenk-Brdo
+HŠ 12
+649
+V
+0
+117
+921011
+920770
+Melinar-Marcin
+920770
+193
+V
+0
+120
+921041
+420170
+Podgrad-Svetin
+HŠ 26
+727
+V
+0
+136
+922755
+420142
+Dolina-Zavlaka
+HŠ 1
+494
+V
+0
+
+(2) V 6. členu Odloka se izbriše javna pot pod zaporedno številko 6 »Volče-separacija«.
+
+(3) Ob zaključku tabele v 6. členu Odloka se spremeni seštevek dolžin javnih poti v Občini Tolmin tako, da se število 217.131 nadomesti s številom 216.657, ter seštevek dolžin javnih poti v sosednjih občinah tako, da se število 13.307 nadomesti s številom 13.303.
+
+4. člen
+
+(1) V 7. členu Odloka se pri javni poti v mestu Tolmin pod zaporedno številko 16 »Gradnikova ulica« spremeni podatek o dolžini ceste tako, da se število 21 nadomesti s številom 22.
+
+(2) Ob zaključku tabele v 7. členu Odloka se spremeni seštevek dolžin javnih poti v mestu Tolmin tako, da se število 10.070 nadomesti s številom 10.071.
+
+5. člen
+
+(1) V 8. členu Odloka se v tabeli spremenijo podatki v stolpcu »Dolžina ceste ali odseka v občini (m)«, pri naslednjih javnih poteh v naseljih Občine Tolmin:
+
+Zap. št.
+Številka ceste ali odseka
+Začetek ceste ali odseka
+Potek ceste
+Konec ceste
+ali odseka
+Dolžina ceste
+ali odseka v občini (m)
+Namen uporabe
+Preostala dolžina ceste
+v sosednji občini (m)
+38
+921791
+420021
+Koritnica – vaške poti
+HŠ 36
+385
+V
+0
+175
+922591
+920460
+Zarakovec – vaške poti
+HŠ 9
+131
+V
+0
+200
+922661
+920220
+Znojile – vaške poti
+HŠ 6
+84
+V
+0
+214
+922701
+920281
+Bača – vaške poti
+HŠ 21
+167
+V
+0
+232
+922753
+420142
+Prapetno Brdo – vaške poti
+HŠ 3
+89
+V
+0
+256
+922801
+G II 102
+Volče – vaške poti
+R3-1544
+506
+V
+0
+275
+922823
+420121
+Selca pri Volčah – vaške poti
+922821
+41
+V
+0
+317
+922912
+420140
+Odcep-Podkorito
+HŠ 16
+309
+V
+0
+335
+922945
+R III 608
+Dolenja Trebuša – vaške poti
+HŠ 28
+558
+V
+0
+342
+544022
+544021
+Odcep-Podkremenk
+420142
+895
+V
+2.103-Cerkno
+
+(2) Ob zaključku tabele v 8. členu Odloka se spremeni seštevek dolžin javnih poti v naseljih Občine Tolmin tako, da se število 63.033 nadomesti s številom 63.118.
+
+6. člen
+
+H kategorizaciji občinskih cest, določeni s tem odlokom, je bilo v skladu z določbo 17. člena Uredbe o merilih za kategorizacijo javnih cest (Uradni list RS, št. 48/97) pridobljeno pozitivno mnenje Direkcije Republike Slovenije za infrastrukturo, št. 37162-3/2020-87, z dne 16. 4. 2020, ter pozitivno mnenje št. 37162-3/2020-163, z dne 3. 6. 2020.
+
+7. člen
+
+Ta odlok začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 007-0012/2019
+
+Tolmin, dne 19. oktobra 2020
+
+Župan
+
+Občine Tolmin
+
+Uroš Brežan
