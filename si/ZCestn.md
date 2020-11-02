@@ -7,6 +7,11 @@ sop: 2015-01-0991
 objava: "Uradni list RS 24/15  str. 2661"
 kljucne_besede: ["cestnina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-0991"
+spremembe:
+  - kratica: ZCestn-B
+    datum: 2020-11-02
+    sop: 2020-01-2766
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o cestninjenju"
 ---
 
 # Zakon o cestninjenju
