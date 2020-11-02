@@ -16,6 +16,10 @@ spremembe:
     datum: 2011-06-03
     sop: 2011-01-2043
     naziv: "Zakon o spremembah in dopolnitvah Zakona o integriteti in preprečevanju korupcije"
+  - kratica: ZIntPK-C
+    datum: 2020-11-02
+    sop: 2020-01-2765
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o integriteti in preprečevanju korupcije"
 ---
 
 # Zakon o integriteti in preprečevanju korupcije
