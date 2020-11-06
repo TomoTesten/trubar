@@ -4,9 +4,9 @@ naziv: "Sprememba Statuta Univerze v Ljubljani"
 vrsta: "akt"
 datum: 2020-11-20
 sop: 2020-01-2939
-organ: "Univerza v Ljubljani"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-2939"
 ---
 

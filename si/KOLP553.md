@@ -4,9 +4,9 @@ naziv: "Aneks h Kolektivni pogodbi za negospodarske dejavnosti v Republiki Slove
 vrsta: "akt"
 datum: 2020-11-06
 sop: 2020-01-2799
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-2799"
 ---
 

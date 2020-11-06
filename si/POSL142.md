@@ -4,9 +4,9 @@ naziv: "Dopolnitev Poslovnika Vlade Republike Slovenije"
 vrsta: "akt"
 datum: 2020-11-13
 sop: 2020-01-2866
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-2866"
 ---
 
