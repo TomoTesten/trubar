@@ -4,9 +4,9 @@ naziv: "Spremembe Proračuna Republike Slovenije za leto 2021 (DP2021-A)"
 vrsta: "akt"
 datum: 2020-11-27
 sop: 2020-01-3086
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-3086"
 ---
 

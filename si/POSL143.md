@@ -4,9 +4,9 @@ naziv: "Poslovnik Sveta romske skupnosti Republike Slovenije"
 vrsta: "akt"
 datum: 2020-11-27
 sop: 2020-01-3035
-organ: "Svet romske skupnosti Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-3035"
 ---
 

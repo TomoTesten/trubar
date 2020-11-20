@@ -4,9 +4,9 @@ naziv: "Sklep o zadržanju izvrševanja Odloka o razpisu svetovalnega referendum
 vrsta: "akt"
 datum: 2020-11-27
 sop: 2020-01-3027
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-3027"
 ---
 
