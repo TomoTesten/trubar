@@ -7,6 +7,11 @@ sop: 2008-01-0455
 objava: "Uradni list RS 15/08  str. 1045"
 kljucne_besede: ["bolnikove pravice", "pravice posameznika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-0455"
+spremembe:
+  - kratica: ZPacP-B
+    datum: 2020-12-01
+    sop: 2020-01-3111
+    naziv: "Zakon o spremembah Zakona o pacientovih pravicah"
 ---
 
 # Zakon o pacientovih pravicah
