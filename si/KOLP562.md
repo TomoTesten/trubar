@@ -4,9 +4,9 @@ naziv: "Kolektivna pogodba za cestni potniški promet Slovenije"
 vrsta: "akt"
 datum: 2020-12-24
 sop: 2020-01-3566
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-3566"
 ---
 
