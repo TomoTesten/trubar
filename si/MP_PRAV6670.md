@@ -1,0 +1,567 @@
+---
+kratica: MP_PRAV6670
+naziv: "Pravilnik o dodeljevanju pomoči za razvoj podjetništva in gospodarstva v Občini Kočevje (PRAV)"
+vrsta: "občinski pravilnik"
+datum: 2020-12-29
+sop: 2020-01-3680
+organ: "Občina Kočevje"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-3680"
+---
+
+# Pravilnik o dodeljevanju pomoči za razvoj podjetništva in gospodarstva v Občini Kočevje (PRAV)
+
+Na podlagi 7. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13 – popr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617 in 13/18), 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 27/08 – odl. US, 76/08, 79/09, 51/10, 84/10 – odl. US, 40/12 – ZUJF, 14/15 – ZUUJFO, 76/16 – odl. US, 11/18 – ZSPDSLS-1, 30/18, 61/20 – ZIUZEOP-A, 80/20 – ZIUOOPE),18. člena v povezavi s 100. členom Statuta Občine Kočevje (Uradni list RS, št. 32/15) in 72. člena v povezavi s četrtim odstavkom 75. člena Poslovnika Občinskega sveta Občine Kočevje (Uradni list RS, št. 49/15) je Občinski svet Občine Kočevje na 15. redni seji dne 22. 12. 2020 sprejel
+
+P R A V I L N I K
+
+o dodeljevanju pomoči za razvoj podjetništva in gospodarstva v Občini Kočevje
+
+I. SPLOŠNE DOLOČBE
+
+1. člen
+
+(vsebina in namen)
+
+(1) Ta pravilnik podrobneje določa namene, upravičence, ukrepe in pogoje za dodeljevanje sredstev, upravičene stroške, postopek dodeljevanja in nadzor nad porabo sredstev za spodbujanje razvoja podjetništva in malega gospodarstva v Občini Kočevje (v nadaljevanju: občina).
+
+(2) Sredstva po tem pravilniku se dodeljujejo s ciljem in namenom vzpostavitve učinkovitega podpornega okolja za potencialne nove podjetnike ter že delujoča podjetja oziroma enote malega gospodarstva v vseh fazah njihovega razvoja, povečanja možnosti za ustanavljanje novih podjetij ali enot malega gospodarstva, spodbujanje njihovega razvoja ter ustvarjanje novih delovnih mest.
+
+2. člen
+
+(način zagotavljanja sredstev)
+
+(1) Sredstva za ukrepe iz tega pravilnika se zagotovijo v proračunu Občine Kočevje.
+
+(2) Sredstva po tem pravilniku se dodelijo v skladu z Uredbo Komisije EU (št. 1407/2013 o uporabi členov 107 in 108 Pogodbe o delovanju Evropske unije pri pomoči
+de minimis
+(Uradni list EU. št. L 352, 24. 12. 2013), spremenjena z Uredbo Komisije EU (št. 2020/972 z dne 2. julija 2020) in Zakonom o spremljanju državnih pomoči (Uradni list RS, št. 37/04).
+
+3. člen
+
+(oblika pomoči)
+
+Pomoči po tem pravilniku se dodeljujejo kot nepovratna sredstva v obliki dotacij ali subvencij.
+
+4. člen
+
+(opredelitev pojmov)
+
+Izrazi, uporabljeni v tem pravilniku, imajo naslednji pomen:
+
+1. »pomoč« pomeni vsak ukrep, ki izpolnjuje merila iz člena 107 (1) Pogodbe o delovanju Evropske unije.
+
+2. »podjetje« je vsak subjekt, ki opravlja gospodarsko dejavnost (tj. vsaka dejavnost ponujanja dobrin in storitev na trgu proti plačilu, ki pokriva vsaj stroške).
+
+3. »enotno podjetje« pomeni vsa podjetja, ki so med seboj najmanj v enem od naslednjih razmerij:
+
+a) podjetje ima večino glasovalnih pravic delničarjev ali družbenikov drugega podjetja,
+
+b) podjetje ima pravico imenovati ali odpoklicati večino članov upravnega, poslovnega ali nadzornega organa drugega podjetja,
+
+c) podjetje ima pravico izvrševati prevladujoč vpliv na drugo podjetje na podlagi pogodbe, sklenjene z navedenim podjetjem, ali določbe v njegovi družbeni pogodbi ali statutu,
+
+d) podjetje, ki je delničar ali družbenik drugega podjetja, na podlagi dogovora z drugimi delničarji ali družbeniki navedenega podjetja sámo nadzoruje večino glasovalnih pravic delničarjev ali družbenikov navedenega podjetja.
+
+Podjetja, ki so v katerem koli razmerju iz točk a) do d) tega odstavka preko enega ali več drugih podjetij, prav tako veljajo za enotno podjetje.
+
+4. »upravičeni stroški« so stroški, za katere se lahko dodeljuje pomoč.
+
+II. UPRAVIČENCI
+
+5. člen
+
+(upravičenci)
+
+(1) Upravičenci do pomoči po tem pravilniku so
+
+– samostojni podjetniki posamezniki, mikro, mala in srednja podjetja, ki so registrirana po Zakonu o gospodarskih družbah (Uradni list RS, št. 65/09 – uradno prečiščeno besedilo, 33/11, 91/11, 32/12, 57/12, 44/13 – odl. US, 82/13, 55/15, 15/17, 22/19 – ZPosS in 158/20 – ZIntPK-C; v nadaljevanju ZGD-1),
+
+– zadruge, ki so registrirane po Zakonu o zadrugah (Uradni list RS, št. 97/09 – uradno prečiščeno besedilo),
+
+– zasebni zavodi, ki opravljajo gospodarsko dejavnost in so registrirani po Zakonu o zavodih (Uradni list RS, št. 12/91, 8/96, 36/00 – ZPDZC in 127/06 – ZJZP),
+
+– nepridobitne pravne osebe, ki so registrirane po Zakonu o socialnem podjetništvu (Uradni list RS, št. 20/11, 90/14 – ZDU-1I in 13/18).
+
+(2) Upravičenci iz prvega odstavka tega člena so pravne ali fizične osebe, ki opravljajo pridobitno dejavnost; to je dejavnost, ki se opravlja na trgu zaradi pridobivanja dobička, dohodka, ali če z opravljanjem te dejavnosti subjekt konkurira na trgu z drugimi subjekti. Upravičenci so tudi nepridobitne pravne osebe, ki so registrirane po zakonu, ki ureja socialno podjetništvo. Za te upravičence se v tem pravilniku uporablja izraz »podjetje«.
+
+(3) Za upravičence iz prejšnjega odstavka se štejejo vsi subjekti, ki izvajajo ukrepe iz tega pravilnika tako, da imajo ti neposredne učinke v Občini Kočevje, kar se podrobneje določi v javnem razpisu.
+
+(4) Z javnim razpisom se lahko za posamezne razpisane ukrepe natančneje določijo ali omejijo upravičenci do pomoči »
+de minimis
+«.
+
+(5) Za opredelitev velikosti podjetja se upoštevajo določila Uredbe Komisije (EU) št. 651/2014 z dne 17. junija 2014 o razglasitvi nekaterih vrst pomoči za združljive z notranjim trgom pri uporabi členov 107 in 108 Pogodbe.
+
+6. člen
+
+(kumulacija
+de minimis
+pomoči (Uredba Komisije (EU) št. 1407/2013))
+
+(1) Pomoč
+de minimis
+se ne sme kumulirati z državno pomočjo v zvezi z istimi upravičenimi stroški ali državno pomočjo za isti ukrep za financiranje tveganja, če bi se s takšno kumulacijo presegla največja intenzivnost pomoči ali znesek pomoči.
+
+(2) Pomoč
+de minimis
+, dodeljena v skladu z Uredbo Komisije (EU) št. 1407/2013, se lahko kumulira s pomočjo
+de minimis
+, dodeljeno v skladu z Uredbo Komisije (EU) št. 360/2012 do zgornje meje, določene v uredbi št. 360/2012.
+
+(3) Pomoč
+de minimis
+, dodeljena v skladu z Uredbo Komisije (EU) št. 1407/2013, se lahko kumulira s pomočjo
+de minimis
+, dodeljeno v skladu z drugimi uredbami
+de minimis
+do ustrezne zgornje meje (200.000 EUR oziroma 100.000 EUR).
+
+7. člen
+
+(ostale določbe
+de minimis
+pomoči (Uredba Komisije (EU) št. 1407/2013))
+
+(1) Do
+de minimis
+pomoči v skladu z Uredbo Komisije (EU) št. 1407/2013 z dne 18. decembra 2013 niso upravičena podjetja iz sektorjev:
+
+– ribištva in akvakulture;
+
+– primarne proizvodnje kmetijskih proizvodov iz seznama v Prilogi I k Pogodbi o delovanju Evropske unije;
+
+– predelave in trženja kmetijskih proizvodov iz seznama v Prilogi I k Pogodbi o delovanju Evropske unije v naslednjih primerih:
+
+a) če je znesek pomoči določen na podlagi cene ali količine zadevnih proizvodov, ki so kupljeni od primarnih proizvajalcev ali jih zadevna podjetja dajo na trg;
+
+b) če je pomoč pogojena s tem, da se delno ali v celoti prenese na primarne proizvajalce.
+
+(2) Če je podjetje dejavno v sektorjih iz prvega odstavka tega člena, ter je poleg tega dejavno v enem ali več sektorjih, ali opravlja še druge dejavnosti, ki sodijo na področje uporabe Uredbe Komisije (ES) št. 1407/2013, se ta uredba uporablja za pomoč, dodeljeno v zvezi s slednjimi sektorji ali dejavnostmi, če podjetje na ustrezen način, kot je ločevanje dejavnosti ali razlikovanje med stroški, zagotovi, da dejavnosti v sektorjih, ki so izključeni iz področja uporabe te uredbe, ne prejemajo pomoči
+de minimis
+na podlagi Uredbe Komisije (ES) št. 1407/2013.
+
+(3) Pomoč ne bo namenjena izvozu oziroma z izvozom povezane dejavnosti v tretje države ali države članice, kot je pomoč, neposredno povezana z izvoženimi količinami, z ustanovitvijo in delovanjem distribucijske mreže ali drugimi tekočimi izdatki, povezanimi z izvozno dejavnostjo.
+
+(4) Do pomoči ni upravičen prejemnik, ki nima poravnanih vseh obveznosti zaradi sklepa Komisije o razglasitvi pomoči za nezakonito in nezdružljivo z notranjim trgom.
+
+(5) Do pomoči ni upravičen prejemnik, ki redno ne izplačuje plač in socialnih prispevkov.
+
+(6) Do pomoči ni upravičen prejemnik, ki je davčni dolžnik.
+
+(7) Pomoč ne bo pogojena s prednostno rabo domačih proizvodov pred uvoženimi.
+
+(8) Skupni znesek pomoči dodeljen enotnemu podjetju ne sme preseči 200.000 EUR v obdobju zadnjih treh proračunskih let, ne glede na obliko in namen pomoči ter ne glede na to, ali se pomoč dodeli iz sredstev države, občine ali EU (v primeru podjetij, ki delujejo v komercialnem cestnem tovornem prometu, znaša zgornja dovoljena meja pomoči 100.000 EUR).
+
+(9) Pomoč ni namenjena za nabavo vozil za prevoz tovora v podjetjih, ki opravljajo komercialni cestni tovorni prevoz.
+
+(10) Občina kot dajalec pomoči bo od upravičenca pred dodelitvijo sredstev pridobila pisno izjavo o:
+
+– vseh drugih pomočeh
+de minimis
+, ki jih je podjetje prejelo na podlagi uredb
+de minimis
+v predhodnih dveh in v tekočem proračunskem letu,
+
+– drugih že prejetih (ali zaprošenih) pomočeh za iste upravičene stroške
+
+in zagotovila, da z dodeljenim zneskom pomoči »
+de minimis
+« ne bo presežena zgornja meja
+de minimis
+pomoči ter intenzivnost pomoči po drugih predpisih.
+
+(11) Upravičenec mora k vlogi predložiti tudi:
+
+– seznam podjetij, s katerimi je lastniško povezan, tako da se preveri skupen znesek že prejetih
+de minimis
+pomoči za vsa, z njim povezana podjetja,
+
+– izjavo o ločitvi dejavnosti oziroma stroškov vezano na določilo drugega odstavka tega člena pravilnika.
+
+(12) Občina bo s sklepom pisno obvestila prejemnika:
+
+– da je pomoč dodeljena po pravilu
+de minimis
+v skladu z Uredbo Komisije (EU) št. 1407/2013 z dne 18. decembra 2013 o uporabi členov 107 in 108 Pogodbe o delovanju Evropske unije pri pomoči
+de minimis
+(Uradni list EU L 352, 24. 12. 2013),
+
+– o odobrenem znesku
+de minimis
+pomoči.
+
+(13) Občina bo evidence o individualni pomoči
+de minimis
+hranila še 10 let od datuma dodelitve pomoči upravičencem.
+
+8. člen
+
+(osnovni pogoji)
+
+(1) Pomoč po tem pravilniku se lahko dodeli upravičencem s sedežem, podružnico ali poslovno enoto na območju Občine Kočevje, v kolikor svojo dejavnost na tem območju tudi opravljajo.
+
+(2) Pomoč iz občinskega proračuna se za isti namen dodeljuje le enkrat.
+
+(3) Isti upravičeni stroški se iz katerega koli proračuna v nobenih okoliščinah ne financirajo dvakrat. Če občina ugotovi, da je izbrani prijavitelj (upravičenec) prejel sredstva za upravičene stroške projekta tudi iz drugih virov financiranja ali pa so mu bila odobrena, ne da bi o tem pisno obvestil občino, se lahko pogodba o dodelitvi sredstev razdre, prijavitelj pa je dolžan občini povrniti vsa neupravičeno prejeta sredstva s pripadajočimi obrestmi od dneva nakazila do dneva vračila sredstev.
+
+9. člen
+
+(omejitve pomoči)
+
+Do pomoči po tem pravilniku niso upravičeni poslovni subjekti, ki:
+
+a) so v prisilni poravnavi, stečaju ali likvidaciji;
+
+b) so v težavah in prejemajo državno pomoč za reševanje in prestrukturiranje;
+
+c) so že prejeli pomoč po tem pravilniku in sredstev niso koristili namensko ali niso izpolnili obveznosti iz pogodbe o dodelitvi sredstev;
+
+d) so že koristili državno pomoč za posamezne namene do višine, ki jo omogočajo posamezna pravila državnih pomoči;
+
+e) nimajo poravnanih vseh zapadlih obveznosti do Občine Kočevje.
+
+III. UKREPI POMOČI
+
+10. člen
+
+(ukrepi pomoči)
+
+Po tem pravilniku se lahko dodeljuje pomoč za naslednje ukrepe:
+
+1. sofinanciranje materialnih in nematerialnih investicij,
+
+2. sofinanciranje samozaposlovanja in odpiranja novih delovnih mest,
+
+3. sofinanciranje najemnin poslovnih prostorov,
+
+4. sofinanciranje izobraževanja, usposabljanja in promocije,
+
+5. sofinanciranje razvoja socialnega podjetništva.
+
+11. člen
+
+(sofinanciranje materialnih in nematerialnih investicij)
+
+(1) Namen ukrepa je spodbujanje naložb za namen ustanavljanja novih podjetij ter razširjanja in razvoja podjetij in s tem vzpostavitev boljših možnosti za gospodarski razvoj in povečanje konkurenčnih prednosti podjetij.
+
+(2) Predmeta pomoči sta:
+
+– sofinanciranje začetnih investicij;
+
+– sofinanciranje investicij v razširjanje dejavnosti in razvoj.
+
+(3) Pomoč se dodeljuje kot nepovratna sredstva v obliki dotacij.
+
+(4) Upravičenci po tem ukrepu so pravne osebe iz 5. člena tega pravilnika, ki investirajo v začetne investicije ali v razvoj in razširitev dejavnosti.
+
+(5) Upravičeni stroški po tem ukrepu so:
+
+– stroški nakupa, urejanja in opremljanja zemljišč za gradnjo poslovnih prostorov,
+
+– stroški nakupa, gradnje ali preureditve proizvodnih oziroma poslovnih prostorov,
+
+– stroški nakupa nove opreme,
+
+– stroški nakupa patentov, licenc, know-how ali nepatentiranega tehničnega znanja ter programske opreme,
+
+– stroški obrestne mere in odobritve kredita za najete kredite za izvedbo materialne in nematerialne investicije.
+
+(6) Neupravičeni stroški po tem ukrepu so:
+
+– stroški davka na dodano vrednost, razen za upravičence, ki niso identificirani za namene DDV in nimajo pravice odbijati vstopnega davka, kar se dokaže s potrdilom pristojnega finančnega urada,
+
+– stroški drugih davčnih dajatev,
+
+– stroški zamudnih obresti,
+
+– stroški dela zaposlenih pri upravičencu,
+
+– stroški nakupa drobnega inventarja,
+
+– drugi stroški, opredeljeni v javnem razpisu.
+
+(7) Višina dodeljene pomoči ne sme presegati 50 % upravičenih stroškov.
+
+(8) Višina razpisanih sredstev, omejitev najvišjega zneska pomoči in ostali pogoji se opredelijo v javnem razpisu.
+
+12. člen
+
+(sofinanciranje samozaposlovanja in odpiranja novih delovnih mest)
+
+(1) Namen ukrepa je spodbujanje ustanavljanja novih samostojnih podjetij in ustvarjanja novih delovnih mest z zaposlovanjem brezposelnih oseb iz lokalnega okolja ter posledično zmanjševanje števila brezposelnih oseb v občini.
+
+(2) Predmeta pomoči sta:
+
+– sofinanciranje samozaposlovanja;
+
+– sofinanciranje odpiranja novih delovnih mest.
+
+(3) Pomoč se dodeljuje kot nepovratna sredstva v obliki dotacij.
+
+(4) Upravičenci do pomoči v primeru samozaposlovanja so fizične osebe, ki:
+
+– imajo stalno prebivališče na območju občine,
+
+– registrirajo dejavnost na podlagi Zakona o gospodarskih družbah,
+
+– jim ta dejavnost pomeni edini in glavni poklic (zavarovalna podlaga 005).
+
+(5) Upravičenci do pomoči v primeru novih delovnih mest so pravne osebe iz 5. člena tega pravilnika, ki:
+
+– zaposlijo registrirano brezposelno osebo s stalnim bivališčem na območju občine (zavarovalna podlaga 001 in 013), pri čemer brezposelna oseba ni imela zadnje zaposlitve pri upravičencu ali njegovih povezanih družbah ali
+
+– zaposlijo iskalca prve zaposlitve s stalnim bivališčem na območju občine.
+
+(6) Upravičeni stroški po tem ukrepu so:
+
+– stroški prispevkov delodajalca na izplačana plače (za novo zaposlitev),
+
+– stroški plačanih prispevkov za samozaposlitev (za samozaposlitev).
+
+(7) Višina dodeljene pomoči ne sme presegati 100 % upravičenih stroškov.
+
+(8) Višina razpisanih sredstev, omejitev najvišjega zneska pomoči in ostali pogoji se opredelijo v javnem razpisu.
+
+13. člen
+
+(sofinanciranje najemnin poslovnih prostorov)
+
+(1) Namen ukrepa je spodbujanje lokalnega gospodarskega razvoja in ustvarjenje novih delovnih mest ter zapolnitev praznih poslovnih prostorov.
+
+(2) Predmet pomoči je sofinanciranje stroškov najemnin poslovnih prostorov.
+
+(3) Pomoč se dodeljuje kot nepovratna sredstva v obliki dotacij.
+
+(4) Upravičenci po tem ukrepu so pravne osebe iz 5. člena tega pravilnika, ki najemajo poslovne prostore na območju občine.
+
+(5) Upravičeni stroški po tem ukrepu so:
+
+– stroški mesečnega najema poslovnega prostora in letnega vrta ali terase (velja za gostinske obrate) v zasebni ali javni lasti.
+
+(6) Neupravičeni stroški po tem ukrepu so:
+
+– stroški davka na dodano vrednost,
+
+– stroški drugih davčnih dajatev,
+
+– obratovalni stroški,
+
+– stroški zamudnih obresti,
+
+– vplačane varščine in are.
+
+(7) Višina dodeljene pomoči ne sme presegati 50 % upravičenih stroškov.
+
+(8) Višina razpisanih sredstev, omejitev najvišjega zneska pomoči in ostali pogoji se opredelijo v javnem razpisu.
+
+14. člen
+
+(sofinanciranje izobraževanja, usposabljanja in promocije)
+
+(1) Namen ukrepa je spodbujanje izobraževanja, usposabljanja podjetnikov in njihovih zaposlenih ter promocije podjetij, ki omogoča lažje razvijanje in ohranjanje konkurenčnih prednosti upravičencev.
+
+(2) Predmet pomoči je:
+
+– sofinanciranje stroškov izobraževanja, usposabljanja in promocije.
+
+(3) Pomoč se dodeljuje kot nepovratna sredstva v obliki dotacij.
+
+(4) Upravičenci po tem ukrepu so podjetja iz 5. člena tega pravilnika.
+
+(5) Upravičeni stroški po tem ukrepu so:
+
+– stroški izobraževanja in usposabljanja za pridobitev specializiranih posebnih znanj zaposlenih in poslovodstva, ki so potrebna pri opravljanju dejavnosti,
+
+– stroški razstavljanja na sejmih,
+
+– stroški promocije izdelkov, storitev ali podjetja.
+
+(6) Neupravičeni stroški po tem ukrepu so:
+
+– stroški davka na dodano vrednost, razen za upravičence, ki niso identificirani za namene DDV in nimajo pravice odbijati vstopnega davka, kar se dokaže s potrdilom pristojnega finančnega urada,
+
+– za izobraževanje, ki pripomore k višji stopnji javno veljavne izobrazbe, oziroma sodi v javno veljavni izobraževalni program,
+
+– stroški dela zaposlenih pri upravičencu,
+
+– potni stroški,
+
+– stroški dnevnic, prehrane in prenočevanja,
+
+– tekoči stroški vzdrževanja spletnih strani,
+
+– drugi stroški, opredeljeni v javnem razpisu.
+
+(7) Višina dodeljene pomoči ne sme presegati 50 % upravičenih stroškov.
+
+(8) Višina razpisanih sredstev, omejitev najvišjega zneska pomoči in ostali pogoji se opredelijo v javnem razpisu.
+
+15. člen
+
+(sofinanciranje razvoja socialnega podjetništva)
+
+(1) Namen ukrepa je spodbujanje ustanavljanja novih kot tudi razvoja obstoječih socialnih podjetij ali poslovnih enot/podružnic na območju občine in pomoč pri vključevanju ranljivih skupin v trg dela.
+
+(2) Predmet pomoči je:
+
+– sofinanciranje zagona novih in razvoja obstoječih socialnih podjetij.
+
+(3) Pomoč se dodeljuje kot nepovratna sredstva v obliki dotacij.
+
+(4) Upravičenci po tem ukrepu so pravne osebe iz 5. člena tega pravilnika, ki imajo pridobljen status socialnega podjetja skladno z zakonom, ki ureja socialno podjetništvo.
+
+(5) Upravičeni stroški po tem ukrepu so:
+
+– stroški nakupa, urejanja in opremljanja zemljišč za gradnjo poslovnih prostorov,
+
+– stroški nakupa, gradnje ali preureditve proizvodnih oziroma poslovnih prostorov,
+
+– stroški nakupa nove opreme,
+
+– stroški nakupa patentov, licenc, know-how ali nepatentiranega tehničnega znanja ter programske opreme,
+
+– stroški izobraževanja za pridobitev specializiranih znanj, potrebnih za zagon oziroma izvajanje dejavnosti socialnega podjetja,
+
+– stroški obrestne mere in odobritve kredita za najete kredite za izvedbo materialne in nematerialne investicije.
+
+(6) Neupravičeni stroški po tem ukrepu so:
+
+– stroški davka na dodano vrednost, razen za upravičence, ki niso identificirani za namene DDV in nimajo pravice odbijati vstopnega davka, kar se dokaže s potrdilom pristojnega finančnega urada,
+
+– stroški drugih davčnih dajatev,
+
+– stroški zamudnih obresti,
+
+– stroški dela zaposlenih pri upravičencu,
+
+– stroški nakupa drobnega inventarja,
+
+– drugi stroški, opredeljeni v javnem razpisu.
+
+(7) Višina dodeljene pomoči ne sme presegati 100 % upravičenih stroškov.
+
+(8) Pomoč po tem ukrepu se ne sme kumulirati s pomočjo po ukrepu 1 (sofinanciranje materialnih in nematerialnih investicij).
+
+(9) Višina razpisanih sredstev, omejitev najvišjega zneska pomoči in ostali pogoji se opredelijo v javnem razpisu.
+
+IV. NAČIN DODELJEVANJA POMOČI
+
+16. člen
+
+(postopek dodeljevanja pomoči)
+
+(1) Sredstva po tem pravilniku se bodo upravičencem do sredstev pomoči dodeljevala na podlagi predhodno izvedenega javnega razpisa, skladno s pogoji in po postopku, določenim v tem pravilniku in v javnem razpisu, na podlagi rezultatov ocenjevanja vlog ter višine razpoložljivih sredstev.
+
+(2) Javni razpis se lahko objavi za vse ali za posamezne ukrepe ali predmete pomoči ter za vse ali posamezne vrste upravičencev iz 5. člena tega pravilnika.
+
+(3) V primeru morebitnega ostanka razpisanih sredstev, namenjenih posameznemu ukrepu, se le-ta lahko prerazporedijo na druge razpisane ukrepe iz tega pravilnika, vendar le v okviru sredstev zagotovljenih v proračunu.
+
+(4) O prerazporeditvah ostankov sredstev med ukrepi, na predlog strokovne komisije, odloči župan s sklepom.
+
+(5) Skupna višina z javnim razpisom razpisanih sredstev ne sme presegati v proračunu zagotovljenega skupnega letnega zneska.
+
+17. člen
+
+(javni razpis)
+
+Javni razpis mora vsebovati:
+
+– predmet javnega razpisa,
+
+– skupni znesek razpisanih sredstev,
+
+– ukrepe, ki so predmet javnega razpisa in razdelitev sredstev po ukrepih,
+
+– upravičence, ki lahko zaprosijo za pomoč,
+
+– pogoje, ki jih morajo upravičenci izpolnjevati,
+
+– merila in kriterije za dodeljevanje pomoči,
+
+– upravičene stroške,
+
+– obdobje upravičenosti,
+
+– rok za vložitev vlog,
+
+– naslov, na katerega se pošiljajo vloge in način oddaje vlog,
+
+– prijavne obrazce,
+
+– kontaktno osebo za dajanje pojasnil.
+
+18. člen
+
+(strokovna komisija)
+
+(1) Postopek za dodelitev pomoči
+de minimis
+vodi strokovna komisija, ki jo s sklepom imenuje župan.
+
+(2) Strokovne in administrativno tehnične naloge za komisijo opravlja pristojni občinski upravni organ.
+
+(3) Naloga strokovne komisije je, da sodeluje pri pripravi javnega razpisa, pregleda in ocenjuje prejete vloge ter predlaga razporeditev sredstev med ukrepi, ki jo s sklepom potrdi župan.
+
+(4) Strokovna komisija vodi zapisnik o odpiranju in ocenjevanju prejetih vlog in sestavi končni seznam prejemnikov sredstev.
+
+19. člen
+
+(pravni akti za dodelitev pomoči upravičencem)
+
+(1) O dodelitvi sredstev upravičencem po tem pravilniku na predlog strokovne komisije odloči župan s sklepom. Prav tako se sklepom obvesti prijavitelje, ki sredstev ne prejmejo.
+
+(2) Zoper sklep iz prvega odstavka tega člena ni možno vložiti pritožbe.
+
+(3) Medsebojne obveznosti in pravice med upravičencem pomoči in občino ter način in pogoje koriščenja dodeljenih sredstev se uredijo s pogodbo.
+
+(4) Kontrolo nad izvajanjem pogodb in namenskim koriščenjem pomoči opravlja pristojni občinski upravni organ preko obrazcev za poročanje, ki so jih dolžni upravičenci redno oddajati in z opravljanjem napovedanih kontrol pri upravičencih.
+
+20. člen
+
+(ukrepi v primeru kršitev)
+
+(1) V primeru, da se ugotovi:
+
+– da prejemnik pomoči projekta ni izvedel (za projekt se štejejo investicije ali druge oblike upravičenih stroškov pri posameznih ukrepih) ali
+
+– da sredstva niso bila porabljena za namen, za katerega so bila dodeljena, ali so bila dodeljena na podlagi neresničnih podatkov ali je prejemnik prekršil druga določila pogodbe ali
+
+– da so bili isti upravičeni stroški financirani iz drugih javnih virov ali
+
+– da prejemnik nima poravnanih vseh obveznosti zaradi sklepa Komisije o razglasitvi pomoči za nezakonito in nezdružljivo z notranjim trgom ali
+
+– da prejemnik pomoči ob sklenitvi pogodbe ni dal pravih podatkov oziroma je dal zavajajoče izjave ter ob drugih ugotovljenih kršitvah in nepravilnostih ali
+
+– da prejemnik redno ne izplačuje plač/socialnih prispevkov ali
+
+– da je davčni dolžnik,
+
+je občina na predlog pristojnega občinskega upravnega organa upravičena zahtevati vračilo dodeljenih sredstev s pripadajočimi zakonitimi zamudnimi obrestmi za obdobje od dneva nakazila dalje.
+
+(2) V primeru ugotovljenih kršitev iz prvega odstavka tega člena prejemnik sredstev še dve leti po vračilu neupravičeno prejetih sredstev ni upravičen do pomoči iz katerega koli ukrepa iz tega pravilnika.
+
+V. KONČNE DOLOČBE
+
+21. člen
+
+(prenehanje veljavnosti prejšnjih pravilnikov)
+
+Z dnem uveljavitve tega pravilnika preneha veljati Pravilnik o dodeljevanju finančnih sredstev iz občinskega proračuna za pospeševanje razvoja gospodarstva v Občini Kočevje (Uradni list RS, št. 85/13, 23/15, 84/15 in 10/17).
+
+22. člen
+
+(pričetek veljavnosti pravilnika)
+
+Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 007-0017/2020-4(623)
+
+Kočevje, dne 23. decembra 2020
+
+Župan
+
+Občine Kočevje
+
+dr. Vladimir Prebilič
