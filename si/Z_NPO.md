@@ -12,6 +12,10 @@ spremembe:
     datum: 2013-07-02
     sop: 2013-01-2145
     naziv: "Zakon o spremembi in dopolnitvi Zakona o žičniških napravah za prevoz oseb"
+  - kratica: ZŽNPO-C
+    datum: 2020-12-29
+    sop: 2020-01-3631
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o žičniških napravah za prevoz oseb"
 ---
 
 # Zakon o žičniških napravah za prevoz oseb
