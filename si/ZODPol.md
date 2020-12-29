@@ -24,6 +24,10 @@ spremembe:
     datum: 2019-06-07
     sop: 2019-01-1627
     naziv: "Zakon o spremembi Zakona o organiziranosti in delu v policiji"
+  - kratica: ZODPol-F
+    datum: 2020-12-29
+    sop: 2020-01-3632
+    naziv: "Zakon o spremembi in dopolnitvah Zakona o organiziranosti in delu v policiji"
 ---
 
 # Zakon o organiziranosti in delu v policiji
