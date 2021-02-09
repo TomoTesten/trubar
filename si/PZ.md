@@ -28,6 +28,10 @@ spremembe:
     datum: 2016-05-09
     sop: 2016-01-1428
     naziv: "Zakon o spremembah in dopolnitvah Pomorskega zakonika"
+  - kratica: PZ-H
+    datum: 2021-02-09
+    sop: 2021-01-0411
+    naziv: "Zakon o spremembah in dopolnitvah Pomorskega zakonika"
 ---
 
 # Pomorski zakonik
