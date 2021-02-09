@@ -20,6 +20,10 @@ spremembe:
     datum: 2014-12-31
     sop: 2014-01-4156
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zaposlitveni rehabilitaciji in zaposlovanju invalidov"
+  - kratica: ZZRZI-E
+    datum: 2021-02-09
+    sop: 2021-01-0414
+    naziv: "Zakon o spremembi Zakona o zaposlitveni rehabilitaciji in zaposlovanju invalidov"
 ---
 
 # Zakon o zaposlitveni rehabilitaciji in zaposlovanju invalidov
