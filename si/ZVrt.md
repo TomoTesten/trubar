@@ -24,6 +24,10 @@ spremembe:
     datum: 2010-05-04
     sop: 2010-01-1737
     naziv: "Zakon o spremembah in dopolnitvah Zakona o vrtcih"
+  - kratica: ZVrt-G
+    datum: 2021-02-09
+    sop: 2021-01-0412
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o vrtcih"
 ---
 
 # Zakon o vrtcih
