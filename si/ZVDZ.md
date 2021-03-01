@@ -16,6 +16,10 @@ spremembe:
     datum: 2006-07-25
     sop: 2006-01-3401
     naziv: "Zakon o spremembah in dopolnitvah zakona o volitvah v državni zbor"
+  - kratica: ZVDZ-D
+    datum: 2021-03-01
+    sop: 2021-01-0618
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o volitvah v državni zbor"
 ---
 
 # Zakon o volitvah v državni zbor
