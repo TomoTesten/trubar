@@ -12,6 +12,10 @@ spremembe:
     datum: 2004-07-23
     sop: 2004-01-3533
     naziv: "Zakon o spremembah in dopolnitvah zakona o določitvi volilnih enot za volitve poslancev v državni zbor"
+  - kratica: ZDVEDZ-B
+    datum: 2021-03-01
+    sop: 2021-01-0617
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o določitvi volilnih enot za volitve poslancev v državni zbor"
 ---
 
 # Zakon o določitvi volilnih enot za volitve poslancev v državni zbor
