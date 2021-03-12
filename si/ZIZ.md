@@ -48,6 +48,10 @@ spremembe:
     datum: 2015-07-20
     sop: 2015-01-2226
     naziv: "Zakon o spremembah in dopolnitvah Zakona o izvršbi in zavarovanju"
+  - kratica: ZIZ-M
+    datum: 2021-03-12
+    sop: 2021-01-0718
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvršbi in zavarovanju"
 ---
 
 # Zakon o izvršbi in zavarovanju
