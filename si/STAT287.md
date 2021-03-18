@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Statuta Fakultete za informacijske študije v No
 vrsta: "akt"
 datum: 2021-04-02
 sop: 2021-01-0987
-organ: "Fakulteta za informacijske študije Novo mesto"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-0987"
 ---
 
