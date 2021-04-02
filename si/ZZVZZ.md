@@ -56,6 +56,10 @@ spremembe:
     datum: 2019-06-07
     sop: 2019-01-1624
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
+  - kratica: ZZVZZ-O
+    datum: 2021-04-02
+    sop: 2021-01-0968
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
