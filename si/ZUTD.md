@@ -24,6 +24,10 @@ spremembe:
     datum: 2019-12-12
     sop: 2019-01-3307
     naziv: "Zakon o spremembah in dopolnitvah Zakona o urejanju trga dela"
+  - kratica: ZUTD-F
+    datum: 2021-04-09
+    sop: 2021-01-1049
+    naziv: "Zakon o dopolnitvi Zakona o urejanju trga dela"
 ---
 
 # Zakon o urejanju trga dela
