@@ -4,9 +4,9 @@ naziv: "Sklep o začasnem zadržanju izvrševanja tretjega odstavka 4. člena Od
 vrsta: "akt"
 datum: 2021-04-15
 sop: 2021-01-1227
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-1227"
 ---
 
