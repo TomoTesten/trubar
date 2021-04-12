@@ -7,6 +7,11 @@ sop: 2015-01-1930
 objava: "Uradni list RS 47/15  str. 5131"
 kljucne_besede: ["tuji državljan", "politika zaposlovanja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-1930"
+spremembe:
+  - kratica: ZZSDT-C
+    datum: 2021-04-12
+    sop: 2021-01-1154
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zaposlovanju, samozaposlovanju in delu tujcev"
 ---
 
 # Zakon o zaposlovanju, samozaposlovanju in delu tujcev
