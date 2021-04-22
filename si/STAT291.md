@@ -4,9 +4,9 @@ naziv: "Statut Detektivske zbornice Republike Slovenije"
 vrsta: "akt"
 datum: 2021-04-23
 sop: 2021-01-1302
-organ: "Detektivska zbornica Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-1302"
 ---
 
