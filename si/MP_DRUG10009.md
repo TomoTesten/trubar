@@ -1,0 +1,255 @@
+---
+kratica: MP_DRUG10009
+naziv: "Zaključni račun proračuna Mestne občine Kranj za leto 2020 (DRUG)"
+vrsta: "akt"
+datum: 2021-04-26
+sop: 2021-01-1372
+organ: "Mestna občina Kranj"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-1372"
+---
+
+# Zaključni račun proračuna Mestne občine Kranj za leto 2020 (DRUG)
+
+Na podlagi 96. in 98. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13 – popr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617, 80/16 – ZIPRS1718, 33/17 – ZIPRS1718-A, 71/17 – ZIPRS1819, 13/18, 75/19 – ZIPRS2021, 174/20 – ZIPRS2122) in 102. in četrtega odstavka 114. člena Statuta Mestne občine Kranj (Uradni list RS, št. 134/20 – UPB3) je Mestni svet Mestne občine Kranj na 25. seji dne 14. 4. 2021 sprejel
+
+Z A K L J U Č N I   R A Č U N
+
+proračuna Mestne občine Kranj za leto 2020
+
+1. člen
+
+Sprejme se zaključni račun proračuna Mestne občine Kranj za leto 2020, ki zajema vse prihodke in druge prejemke ter odhodke in druge izdatke proračuna.
+
+2. člen
+
+Prihodki in drugi prejemki ter odhodki in drugi izdatki proračuna Mestne občine Kranj so bili v letu 2020 realizirani v naslednjih zneskih:
+
+V EUR
+KONTO
+OPIS
+2020
+A. BILANCA PRIHODKOV IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+60.955.461
+TEKOČI PRIHODKI (70+71)
+50.486.578
+70
+DAVČNI PRIHODKI (700+703+704+706)
+42.419.477
+700
+DAVKI NA DOHODEK IN DOBIČEK
+32.100.532
+703
+DAVKI NA PREMOŽENJE
+9.566.695
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+752.249
+706
+DRUGI DAVKI
+0
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+8.067.101
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+5.988.247
+711
+TAKSE IN PRISTOJBINE
+45.329
+712
+GLOBE IN DRUGE DENARNE KAZNI
+633.740
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+46.847
+714
+DRUGI NEDAVČNI PRIHODKI
+1.352.938
+72
+KAPITALSKI PRIHODKI (720+721+722)
+460.900
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+368.311
+721
+PRIHODKI OD PRODAJE ZALOG
+0
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+92.589
+73
+PREJETE DONACIJE (730+731)
+90.300
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+90.300
+731
+PREJETE DONACIJE IZ TUJINE
+0
+74
+TRANSFERNI PRIHODKI (740+741)
+9.612.179
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+3.728.539
+741
+PREJETA SREDSTVA IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+5.883.640
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE (783+786+787)
+305.504
+783
+PREJETA SREDSTVA IZ PRORAČUNA EU IZ KOHEZIJSKEGA SKLADA
+0
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+24.092
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ
+281.412
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+66.343.882
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+15.286.450
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+3.758.131
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+607.219
+402
+IZDATKI ZA BLAGO IN STORITVE
+9.040.934
+403
+PLAČILA DOMAČIH OBRESTI
+228.443
+409
+REZERVE
+1.651.723
+41
+TEKOČI TRANSFERI (410+411+412+413+414)
+24.822.489
+410
+SUBVENCIJE
+616.659
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+10.884.522
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+1.917.643
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+11.403.665
+414
+TEKOČI TRANSFERI V TUJINO
+0
+42
+INVESTICIJSKI ODHODKI (420)
+23.839.704
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+23.839.704
+43
+INVESTICIJSKI TRANSFERI (431+432)
+2.395.239
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ. OSEBAM
+320.455
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+2.074.784
+III.
+PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.–II.)
+–5.388.421
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+75
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+7.652
+750
+PREJETA VRAČILA DANIH POSOJIL
+7.652
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0
+44
+V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+0
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+0
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.–V.)
+7.652
+C.
+RAČUN FINANCIRANJA
+50
+VII.
+ZADOLŽEVANJE (500)
+3.100.000
+500
+DOMAČE ZADOLŽEVANJE
+3.100.000
+55
+VIII.
+ODPLAČILA DOLGA (550)
+2.251.121
+550
+ODPLAČILA DOMAČEGA DOLGA
+2.251.121
+IX.
+POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (III.+VI.+X.)= (I.+IV.+VII.)–(II.+V.+VIII.)
+–4.531.890
+X.
+NETO ZADOLŽEVANJE (VII.–VIII.)
+848.879
+XI.
+NETO FINANCIRANJE (VI.+X.-IX.)
+5.388.421
+STANJE SREDSTEV NA RAČUNIH OB KONCU PRETEKLEGA LETA
+9.893.592
+– OD TEGA PRESEŽEK FINANČNE IZRAVNAVE IZ PRETEKLEGA LETA
+
+3. člen
+
+Podatki iz konsolidirane bilance stanja, ki v aktivi in pasivi izkazujejo vrednost sredstev in virov v višini 310.434.502 EUR, so priloga zaključnega računa.
+
+4. člen
+
+Saldo sredstev proračunske rezerve na dan 31. 12. 2020 v višini 732.110 EUR se prenese med sredstva proračunske rezerve v letu 2021.
+
+5. člen
+
+Neporabljena sredstva proračunskega stanovanjskega sklada na dan 31. 12. 2020 v višini 1.069.889 EUR se prenesejo med sredstva proračunskega stanovanjskega sklada v letu 2021.
+
+6. člen
+
+Bilanca prihodkov in odhodkov zaključnega računa proračuna Mestne občine Kranj za leto 2020 je priloga zaključnega računa. Priloga so tudi račun financiranja in račun finančnih terjatev in naložb Mestne občine Kranj za leto 2020 ter posebni del in načrt razvojnih programov.
+
+7. člen
+
+Ta zaključni račun začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije. Priloge se objavijo na spletni strani Mestne občine Kranj.
+
+Št. 410-9/2021-5
+
+Kranj, dne 14. aprila 2021
+
+Župan
+
+Mestne občine Kranj
+
+Matjaž Rakovec
