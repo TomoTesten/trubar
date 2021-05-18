@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Tarife o taksah in nadomestilih Agencije za trg 
 vrsta: "akt"
 datum: 2021-05-28
 sop: 2021-01-1796
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-1796"
 ---
 
