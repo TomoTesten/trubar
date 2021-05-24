@@ -24,6 +24,10 @@ spremembe:
     datum: 2016-06-03
     sop: 2016-01-1705
     naziv: "Zakon o spremembi Zakona o medijih"
+  - kratica: ZMed-E
+    datum: 2021-05-24
+    sop: 2021-01-1759
+    naziv: "Zakon o spremembah Zakona o medijih"
 ---
 
 # Zakon o medijih
