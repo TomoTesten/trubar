@@ -1,0 +1,279 @@
+---
+kratica: MP_ODLO45779
+naziv: "Odlok o drugem rebalansu proračuna Mestne občine Kranj za leto 2021 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2021-05-27
+sop: 2021-01-1778
+organ: "Mestna občina Kranj"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-1778"
+---
+
+# Odlok o drugem rebalansu proračuna Mestne občine Kranj za leto 2021 (ODLO)
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 76/08, 79/09, 51/10, 40/12 – ZUJF, 14/15 – ZUUJFO, 11/18 – ZSPDSLS-1, 30/18, 61/20 – ZIUZEOP-A in 80/20 – ZIUOOPE), 29. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13 – popr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617, 13/18 in 195/20 – odl. US), Zakona o stvarnem premoženju države in samoupravnih lokalnih skupnosti (Uradni list RS, št. 11/18 in 79/18) ter 22. člena Statuta Mestne občine Kranj (Uradni list RS, št. 134/20 – UPB3) je Mestni svet Mestne občine Kranj na 26. seji dne 26. 5. 2021 sprejel
+
+O D L O K
+
+o drugem rebalansu proračuna Mestne občine Kranj za leto 2021
+
+1. SPLOŠNA DOLOČBA
+
+1. člen
+
+(vsebina odloka)
+
+Spremeni se 2. člen Odloka o proračunu Mestne občine Kranj za leto 2021 (Uradni list RS, št. 79/19, 16/21 – Odlok o rebalansu proračuna Mestne občine Kranj za leto 2021) tako, da se v celoti glasi:
+
+»V splošnem delu proračuna so prikazani prejemki in izdatki po ekonomski klasifikaciji do ravni kontov.
+
+Splošni del proračuna se na ravni podskupin kontov določa v naslednjih zneskih:
+
+V EUR
+KONTO
+OPIS
+2. Rebalans 2021
+A. BILANCA PRIHODKOV
+IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+67.493.447
+TEKOČI PRIHODKI (70+71)
+50.333.016
+70
+DAVČNI PRIHODKI (700+703+704+706)
+41.867.955
+700
+DAVKI NA DOHODEK
+IN DOBIČEK
+32.219.605
+703
+DAVKI NA PREMOŽENJE
+8.970.750
+704
+DOMAČI DAVKI NA BLAGO
+IN STORITVE
+677.600
+706
+DRUGI DAVKI
+0
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+8.465.061
+710
+UDELEŽBA NA DOBIČKU
+IN DOHODKI
+OD PREMOŽENJA
+5.704.564
+711
+TAKSE IN PRISTOJBINE
+33.000
+712
+GLOBE IN DRUGE DENARNE KAZNI
+624.000
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+81.535
+714
+DRUGI NEDAVČNI PRIHODKI
+2.021.962
+72
+KAPITALSKI PRIHODKI (720+721+722)
+3.278.000
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+278.000
+721
+PRIHODKI OD PRODAJE ZALOG
+0
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ
+IN NEOPREDMETENIH SREDSTEV
+3.000.000
+73
+PREJETE DONACIJE (730+731)
+17.934
+730
+PREJETE DONACIJE
+IZ DOMAČIH VIROV
+17.934
+731
+PREJETE DONACIJE
+IZ TUJINE
+0
+74
+TRANSFERNI PRIHODKI (740+741)
+13.314.708
+740
+TRANSFERNI PRIHODKI
+IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+5.364.104
+741
+PREJETA SREDSTVA
+IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+7.950.604
+78
+PREJETA SREDSTVA
+IZ EVROPSKE UNIJE (783+786+787)
+549.789
+783
+PREJETA SREDSTVA
+IZ PRORAČUNA EU
+IZ KOHEZIJSKEGA SKLADA
+0
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+68.107
+787
+PREJETA SREDSTVA
+OD DRUGIH EVROPSKIH INSTITUCIJ
+481.682
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+79.481.875
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+20.740.928
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+4.526.790
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+700.580
+402
+IZDATKI ZA BLAGO
+IN STORITVE
+12.474.258
+403
+PLAČILA DOMAČIH OBRESTI
+342.000
+409
+REZERVE
+2.697.300
+41
+TEKOČI TRANSFERI (410+411+412+413)
+27.069.393
+410
+SUBVENCIJE
+685.630
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+12.293.173
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM
+IN USTANOVAM
+1.966.048
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+12.124.542
+414
+TEKOČI TRANSFERI
+V TUJINO
+0
+42
+INVESTICIJSKI ODHODKI (420)
+29.586.765
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+29.586.765
+43
+INVESTICIJSKI TRANSFERI (431+432)
+2.084.789
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ. OSEBAM
+882.959
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+1.201.830
+III.
+PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.–II.)
+–11.988.428
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+75
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0
+750
+PREJETA VRAČILA DANIH POSOJIL
+0
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0
+44
+V.
+DANA POSOJILA
+IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+0
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+0
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV
+(IV.–V.)
+0
+C. RAČUN FINANCIRANJA
+50
+VII.
+ZADOLŽEVANJE (500)
+9.550.000
+500
+DOMAČE ZADOLŽEVANJE
+9.550.000
+55
+VIII.
+ODPLAČILA DOLGA (550)
+2.604.660
+550
+ODPLAČILA DOMAČEGA DOLGA
+2.604.660
+IX.
+POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (III.+VI.+X.) = (I.+IV.+VII.) – (II.+V.+VIII.)
+–5.043.088
+X.
+NETO ZADOLŽEVANJE
+(VII. – VIII.)
+6.945.340
+XI.
+NETO FINANCIRANJE
+(VI.+X.-IX.)
+11.988.428
+STANJE SREDSTEV
+NA RAČUNIH OB KONCU PRETEKLEGA LETA
+5.360.827
+– OD TEGA PRESEŽEK FINANČNE IZRAVNAVE
+IZ PRETEKLEGA LETA
+
+Posebni del proračuna sestavljajo finančni načrti neposrednih uporabnikov, ki so razdeljeni na naslednje programske dele: področja proračunske porabe, glavne programe in podprograme, predpisane s programsko klasifikacijo izdatkov občinskih proračunov. Podprogram je razdeljen na proračunske postavke, te pa na podskupine kontov in konte, določene s predpisanim kontnim načrtom.
+
+Posebni del proračuna do ravni proračunskih postavk – kontov in načrt razvojnih programov sta prilogi k temu odloku in se objavita na spletni strani Mestne občine Kranj.
+
+Načrt razvojnih programov sestavljajo projekti.«
+
+2. člen
+
+(uveljavitev odloka)
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 410-19/2021-11
+
+Kranj, dne 26. maja 2021
+
+Župan
+
+Mestne občine Kranj
+
+Matjaž Rakovec
+
+Zanj
+
+Janez Černe
+
+podžupan
