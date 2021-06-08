@@ -20,6 +20,10 @@ spremembe:
     datum: 2020-03-14
     sop: 2020-01-0554
     naziv: "Zakon o dopolnitvi Zakona o ustavnem sodišču"
+  - kratica: ZUstS-D
+    datum: 2021-06-08
+    sop: 2021-01-1973
+    naziv: "Zakon o spremembah Zakona o ustavnem sodišču"
 ---
 
 # Zakon o ustavnem sodišču
