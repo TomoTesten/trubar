@@ -4,9 +4,9 @@ naziv: "Aneks št. 12 h Kolektivni pogodbi javnega zavoda RTV Slovenija"
 vrsta: "akt"
 datum: 2021-07-16
 sop: 2021-01-2481
-organ: "Radiotelevizija Slovenija"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-2481"
 ---
 
