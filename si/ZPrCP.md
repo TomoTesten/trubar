@@ -24,6 +24,10 @@ spremembe:
     datum: 2020-06-29
     sop: 2020-01-1629
     naziv: "Zakon o spremembah in dopolnitvah Zakona o pravilih cestnega prometa"
+  - kratica: ZPrCP-F
+    datum: 2021-07-27
+    sop: 2021-01-2630
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o pravilih cestnega prometa"
 ---
 
 # Zakon o pravilih cestnega prometa
