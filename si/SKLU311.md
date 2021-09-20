@@ -4,9 +4,9 @@ naziv: "Sklep o začasnem zadržanju izvrševanja 10.a člena Odloka o načinu i
 vrsta: "akt"
 datum: 2021-09-30
 sop: 2021-01-2985
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-2985"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Poslovnik Komisije za preprečevanje korupcije"
 vrsta: "akt"
 datum: 2021-09-30
 sop: 2021-01-2983
-organ: "Komisija za preprečevanje korupcije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-2983"
 ---
 
