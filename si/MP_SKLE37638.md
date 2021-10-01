@@ -2,11 +2,11 @@
 kratica: MP_SKLE37638
 naziv: "Sklep o določitvi javnih parkirnih površin v Občini Cerklje na Gorenjskem, kjer se plačuje parkirnina ali je parkiranje časovno omejeno (SKLE)"
 vrsta: "občinski sklep"
-datum: 2026-01-05
+datum: 2021-10-01
 sop: 2021-97-0705
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Cerklje na Gorenjskem"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-97-0705"
 ---
 
