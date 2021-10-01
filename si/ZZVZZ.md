@@ -60,6 +60,10 @@ spremembe:
     datum: 2021-04-02
     sop: 2021-01-0968
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
+  - kratica: ZZVZZ-P
+    datum: 2021-10-01
+    sop: 2021-01-2989
+    naziv: "Zakon o dopolnitvah Zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
