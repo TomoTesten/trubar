@@ -1,0 +1,262 @@
+---
+kratica: MP_ODLO46149
+naziv: "Odlok o spremembah Odloka o proračunu Občine Trebnje za leto 2021 – rebalans II (ODLO)"
+vrsta: "občinski odlok"
+datum: 2021-10-15
+sop: 2021-01-3248
+organ: "Občina Trebnje"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-3248"
+---
+
+# Odlok o spremembah Odloka o proračunu Občine Trebnje za leto 2021 – rebalans II (ODLO)
+
+Na podlagi četrte alineje drugega odstavka 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 76/08, 79/09, 51/10, 40/12 – ZUJF, 14/15 – ZUUJFO, 11/18 – ZSPDSLS-1, 30/18, 61/20 – ZIUZEOP-A in 80/20 – ZIUOOPE), določil Zakona o financiranju občin (Uradni list RS, št. 123/06, 57/08, 36/11, 14/15 – ZUUJFO, 71/17, 21/18 – popr. in 80/20 – ZIUOOPE), 28., 29., 30. in 40. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13 – popr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617, 13/18 in 195/20 – odl. US), ob upoštevanju Zakona o izvrševanju proračunov Republike Slovenije za leti 2021 in 2022 (Uradni list RS, št. 174/20, 15/21 – ZDUOP in 74/21), v skladu s 17. členom Statuta Občine Trebnje (Uradni list RS, št. 29/14 in 65/14 – popr.) je Občinski svet Občine Trebnje na 17. redni seji dne 13. 10. 2021 sprejel
+
+O D L O K
+
+o spremembah Odloka o proračunu Občine Trebnje za leto 2021 – rebalans II
+
+1. člen
+
+V Odloku o proračunu Občine Trebnje za leto 2021 (Uradni list RS, št. 36/21, 135/21) se 2. člen spremeni, tako da se glasi:
+
+»2. člen
+
+(obseg in struktura proračuna)
+
+Splošni del proračuna Občine Trebnje, vključno s krajevnimi skupnostmi, na ravni podskupin kontov, za leto 2021 se določa v naslednjih zneskih:
+
+SKUPINA/PODSK. KONTOV OPIS
+LETO 2021 v EUR
+A. BILANCA PRIHODKOV IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+15.679.705,35
+TEKOČI PRIHODKI (70+71)
+13.412.038,00
+70
+DAVČNI PRIHODKI (700+703+704+706)
+11.090.138,00
+700
+DAVKI NA DOHODEK IN DOBIČEK
+8.840.018,00
+703
+DAVKI NA PREMOŽENJE
+1.969.620,00
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+280.500,00
+706
+DRUGI DAVKI
+0,00
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+2.321.900,00
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+831.100,00
+711
+TAKSE IN PRISTOJBINE
+43.300,00
+712
+GLOBE IN DRUGE DENARNE KAZNI
+104.500,00
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+50.000,00
+714
+DRUGI NEDAVČNI PRIHODKI
+1.293.000,00
+72
+KAPITALSKI PRIHODKI (720+721+722)
+791.400,00
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+6.000,00
+721
+PRIHODKI OD PRODAJE ZALOG
+0,00
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+785.400,00
+73
+PREJETE DONACIJE (730+731)
+137.562,33
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+137.562,33
+731
+PREJETE DONACIJE IZ TUJINE
+0,00
+74
+TRANSFERNI PRIHODKI (740+741)
+1.298.705,02
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+953.111,09
+741
+PREJETA SREDSTVA IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EU
+345.593,93
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE IN IZ DRUGIH DRŽAV
+40.000,00
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+40.000,00
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ IN IZ DRUGIH DRŽAV
+0,00
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+20.199.279,83
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+3.704.057,59
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+906.627,00
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+130.210,00
+402
+IZDATKI ZA BLAGO IN STORITVE
+2.547.661,17
+403
+PLAČILA DOMAČIH OBRESTI
+38.094,77
+409
+REZERVE
+81.464,65
+41
+TEKOČI TRANSFERI (410+411+412+413)
+5.805.594,23
+410
+SUBVENCIJE
+73.000,00
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+3.637.016,19
+412
+TRANSFERI NEPRIDOBITNIM ORGANIZACIJAM IN USTANOVAM
+702.248,00
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+1.393.330,04
+42
+INVESTICIJSKI ODHODKI (420)
+10.186.379,22
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+10.186.379,22
+43
+INVESTICIJSKI TRANSFERI (430+431+432)
+503.248,79
+430
+INVESTICIJSKI TRANSFERI
+0,00
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZIČNIM OSEBAM, KI NISO PRORAČUNSKI UPORABNIKI
+296.407,52
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+206.841,27
+III.
+PRORAČUNSKI PRESEŽEK/PRIMANJKLJAJ (I.–II.) (SKUPAJ PRIHODKI MINUS SKUPAJ ODHODKI)
+–4.519.574,48
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0
+75
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV
+0
+750
+PREJETA VRAČILA DANIH POSOJIL
+0
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0
+V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441+442+443)
+0
+44
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV
+0
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV
+0
+442
+PORABA SREDSTEV KUPNIN IZ NASLOVA PRIVATIZACIJE
+0
+443
+POVEČANJE NAMENSKEGA PREMOŽENJA V JAVNIH SKLADIH IN DRUGIH OSEBAH JAVNEGA PRAVA, KI IMAJO PREMOŽENJE V SVOJI LASTI
+0
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.–V.)
+0
+C. RAČUN FINANCIRANJA
+VII.
+ZADOLŽEVANJE (500)
+3.000.000,00
+50
+ZADOLŽEVANJE
+3.000.000,00
+500
+DOMAČE ZADOLŽEVANJE
+3.000.000,00
+VIII.
+ODPLAČILA DOLGA (550)
+521.211,62
+55
+ODPLAČILA DOLGA
+521.211,62
+550
+ODPLAČILA DOMAČEGA DOLGA
+521.211,62
+IX.
+SPREMEMBA STANJA SREDSTEV NA RAČUNIH (I.+IV.+VII.-II.-V.–VIII.)
+–2.040.786,10
+X.
+NETO ZADOLŽEVANJE (VII.–VIII.)
+2.478.788,38
+XI.
+NETO FINANCIRANJE (VI.+VII.–VIII.-IX.=-III.)
+4.519.574,48
+XII.
+STANJE SREDSTEV NA RAČUNIH OB KONCU PRETEKLEGA LETA
+9009 Splošni sklad za drugo
+2.040.786,10
+
+Posebni del proračuna sestavljajo finančni načrti neposrednih uporabnikov, ki so razdeljeni na naslednje programske dele: področja proračunske porabe, glavne programe in podprograme, predpisane s programsko klasifikacijo izdatkov občinskih proračunov. Podprogram je razdeljen na proračunske postavke, te pa na konte in podkonte, določene s predpisanim enotnim kontnim načrtom.
+
+Posebni del proračuna do ravni proračunskih postavk – podkontov in načrt razvojnih programov sta prilogi k temu odloku in se objavita na spletni strani Občine Trebnje www.trebnje.si.«.
+
+2. člen
+
+V 22. členu se v prvem odstavku znesek »980.000,00 EUR« nadomesti z zneskom »3.000.000,00 EUR«.
+
+3. člen
+
+(objava in uveljavitev odloka)
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Prilogi k temu odloku se objavita na spletni strani Občine Trebnje: www.trebnje.si.
+
+Št. 410-161/2020-181
+
+Trebnje, dne 13. oktobra 2021
+
+Župan
+
+Občine Trebnje
+
+Alojzij Kastelic
