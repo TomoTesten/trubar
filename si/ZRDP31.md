@@ -4,9 +4,9 @@ naziv: "Zaključni račun proračuna Republike Slovenije za leto 2020 (RZ2020)"
 vrsta: "akt"
 datum: 2021-12-07
 sop: 2021-01-3808
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-3808"
 ---
 
