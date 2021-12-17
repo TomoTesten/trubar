@@ -2,11 +2,11 @@
 kratica: MP_PRAV6879
 naziv: "Pravilnik o spremembi in dopolnitvi Pravilnika o vrednotenju in sofinanciranju socialnovarstvenih programov in ostalih programov, ki jih izvajajo društva in druge organizacije in niso opredeljeni v ostalih razpisih Občine Gornji Petrovci (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2026-01-04
+datum: 2022-02-18
 sop: 2022-01-0398
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Gornji Petrovci"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-0398"
 ---
 
