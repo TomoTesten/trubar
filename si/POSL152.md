@@ -4,9 +4,9 @@ naziv: "Poslovnik komisij Radiotelevizije Slovenija za ocenjevanje filmskih in d
 vrsta: "akt"
 datum: 2021-12-28
 sop: 2021-01-4168
-organ: "Radiotelevizija Slovenija"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-4168"
 ---
 
