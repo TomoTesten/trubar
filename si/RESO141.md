@@ -4,9 +4,9 @@ naziv: "Resolucija o nacionalnem programu za kulturo 2022-2029 (ReNPK22–29)"
 vrsta: "akt"
 datum: 2022-03-04
 sop: 2022-01-0559
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-0559"
 ---
 

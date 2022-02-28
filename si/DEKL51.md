@@ -4,9 +4,9 @@ naziv: "Deklaracija o trenutnih razmerah v Ukrajini (DeTRUK)"
 vrsta: "akt"
 datum: 2022-03-10
 sop: 2022-01-0649
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-0649"
 ---
 
