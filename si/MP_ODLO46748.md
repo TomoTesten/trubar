@@ -1,0 +1,7245 @@
+---
+kratica: MP_ODLO46748
+naziv: "Odlok o spremembah in dopolnitvah Odloka o kategorizaciji občinskih cest v Mestni občini Kranj (ODLO)"
+vrsta: "občinski odlok"
+datum: 2022-04-29
+sop: 2022-01-1300
+organ: "Mestna občina Kranj"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-1300"
+---
+
+# Odlok o spremembah in dopolnitvah Odloka o kategorizaciji občinskih cest v Mestni občini Kranj (ODLO)
+
+Na podlagi določil Zakona o cestah (Uradni list RS, št. 109/10, 48/12, 36/14 – odl. US, 46/15, 10/18 in 123/21 – ZPrCP-F), 6. člena Odloka o občinskih cestah v Mestni občini Kranj (Uradni list RS, št. 189/21) in 22. člena Statuta Mestne občine Kranj (Uradni list RS, št. 165/21 – uradno prečiščeno besedilo – UPB4) je Mestni svet Mestne občine Kranj na 34. redni seji dne 13. 4. 2022 sprejel
+
+O D L O K
+
+o spremembah in dopolnitvah Odloka o kategorizaciji občinskih cest v Mestni občini Kranj
+
+1. člen
+
+V Odloku o kategorizaciji občinskih cest v Mestni občini Kranj (Uradni list RS, št. 51/12, 86/16, 22/19 in 89/20 v nadaljevanju: odlok) se 4. člen spremeni tako, da se glasi:
+
+»4. člen
+
+Lokalne ceste (LC) so:
+
+Zap. št.
+Cesta
+Odsek
+Začetek odseka
+Opis
+Konec odseka
+Dolžina [m]
+Preostala dolžina v sos. občini [m]
+Vrsta prometa
+1.
+183010
+183011
+C R2 412
+KR-Stražišče-Bukovščica- Ševlje
+C R2 403
+7.373
+6.150 Škofja Loka
+V
+2.
+183020
+183021
+C R2 412
+Kranj-Sp. Besnica-Njivica
+C 348090
+9.745
+V
+3.
+183020
+183024
+C 348090
+Njivica-Nemilje
+C 494110
+1.871
+V
+4.
+183020
+183025
+C 494110
+Nemilje-Podblica
+C R3 635
+3.479
+V
+5.
+183030
+183031
+C R1 210
+Žabnica-Sp. Bitnje
+C 183250
+2.212
+V
+6.
+183030
+183032
+C 183250
+Sp. Bitnje-Stražišče
+C 183010
+3.260
+V
+7.
+183050
+183051
+C R2 410
+Goriče-Trstenik
+C 183100
+1.835
+V
+8.
+183050
+183052
+C 183100
+Trstenik-Bašelj-Preddvor
+C R1 210
+2.788
+5.170 Preddvor
+V
+9.
+183060
+183061
+C 183050
+Trstenik-Sp. Bela
+C 326020
+2.314
+957 Preddvor
+V
+10.
+183080
+183081
+C R2 410
+Kokrica-Brdo-Britof
+C R1 210
+3.648
+V
+11.
+183090
+183091
+C AC A2
+Polica-Kranj Z.-Kokrica
+C R2 410
+999
+V
+12.
+183090
+183092
+C R2 410
+Kranj Z.-Kokrica
+C 183080
+343
+V
+13.
+183100
+183101
+C R2 410
+Tenetiše-Trstenik
+C 183050
+2.900
+V
+14.
+183140
+183141
+C R2 410
+Mlaka-Srakovlje
+C 326020
+1.124
+V
+15.
+183180
+183181
+O 183401
+Kranj-Britof
+C R1 210
+2.733
+V
+16.
+183200
+183201
+C 251040
+Breg-R1 211
+C R1 211
+1.605
+V
+17.
+183200
+183202
+C R1 211
+R1 211-Žabnica
+C R1 210
+2.926
+V
+18.
+183240
+183241
+C G2 104
+Kranj-Hrastje
+C 251010
+3.139
+V
+19.
+183250
+183251
+C R1 210
+Sp. Bitnje-iz R1 210
+C 183030
+320
+V
+20.
+251010
+251012
+O 251011
+Brezovec-Trboje-Kranj
+C R1 210
+2.223
+5.277 Medvode
+3.954 Šenčur
+V
+21.
+251040
+251041
+C R1 211
+Jeprca-Zbilje
+C R2 413
+218
+1.357 Medvode
+V
+22.
+251040
+251042
+C R2 413
+Zbilje-Podreča-Praše-Breg
+C 183200
+5.771
+743 Medvode
+V
+23.
+251040
+251043
+C 183200
+Breg-Labore
+C R2 412
+3.698
+V
+24.
+280010
+280011
+C R2 411
+Ind. c. Naklo-Okroglo-Polica
+C R2 411
+532
+2.876 Naklo
+V
+25.
+326020
+326021
+C 183050
+Preddvor-Sp. Bela-Kokrica
+C 183080
+2.006
+3.465 Preddvor
+V
+26.
+348090
+348091
+C R3 636
+Češnjiški most-Njivice
+C 183020
+1.221
+3.826 Radovljica
+V
+27.
+390130
+390131
+C 390140
+Šenčur-Britof
+C R1 210
+1.350
+1.147 Šenčur
+V
+28.
+390160
+390161
+C R1 210
+Visoko-Suha-Predoslje
+C 183080
+1.802
+1.188 Šenčur
+V
+29.
+401070
+401072
+C R1 210
+Sv. Duh-Žabnica
+C R1 210
+691
+1.150 Škofja Loka
+V
+30.
+401380
+401382
+C 401380
+Trata-Meja
+C R1 211
+1.466
+1.638 Škofja Loka
+V
+31.
+494110
+494111
+C R2 403
+Selca-Topolje-Nemilje
+C 183020
+1.905
+4.872 Železniki
+V
+
+Skupna dolžina lokalnih cest (LC) v Mestni občini Kranj znaša 77.497 m (77,497 km).«
+
+2. člen
+
+V odloku se 8. člen spremeni tako, da se glasi:
+
+»8. člen
+
+Javne poti (JP) so:
+
+Zap. št.
+Cesta
+Odsek
+Začetek odseka
+Opis
+Konec odseka
+Dolžina [m]
+Preostala dolžina v sos. občini [m]
+Vrsta prometa
+1.
+683030
+683031
+C 251040
+Podreča 117
+Z HŠ 117
+139
+V
+2.
+683040
+683041
+C 251040
+Podreča-krožna nad Savo
+C 251040
+504
+V
+3.
+683050
+683051
+O 683041
+Podreča 108
+Z HŠ 108
+72
+V
+4.
+683060
+683061
+C 251040
+Podreča-preko JP 685641
+C 251040
+653
+V
+5.
+683060
+683062
+O 683061
+Podreča 51
+Z HŠ 51
+57
+V
+6.
+683090
+683091
+O 683061
+Podreča 45
+Z HŠ 45
+245
+V
+7.
+683100
+683101
+O 683061
+Podreča 50
+Z HŠ 50
+110
+V
+8.
+683110
+683111
+C 251040
+Podreča 42a
+Z HŠ 42a
+51
+V
+9.
+683120
+683121
+C 751370
+Podreča 118
+Z HŠ 118
+90
+V
+10.
+683130
+683131
+C 251040
+Mavčiče-mimo HE
+C 251040
+750
+V
+11.
+683140
+683141
+O 683131
+Mavčiče-ob jezeru
+O 683131
+339
+V
+12.
+683150
+683151
+O 683131
+Mavčiče-priklop do HE
+Z HE
+138
+V
+13.
+683160
+683161
+C 251040
+Mavčiče-do jezera
+Z HŠ 57c
+126
+V
+14.
+683170
+683171
+C 251040
+Mavčiče I
+Z HŠ 103
+65
+V
+15.
+683180
+683181
+C 251040
+Mavčiče II
+Z HŠ 124
+84
+V
+16.
+683190
+683191
+C 251040
+Mavčiče-povezava
+Z HŠ 91a
+150
+V
+17.
+683200
+683201
+C 251040
+Mavčiče-krožna
+C 251040
+577
+V
+18.
+683220
+683221
+C 251040
+Mavčiče III
+O 683201
+55
+V
+19.
+683230
+683231
+C 251040
+Mavčiče IV
+O 683201
+70
+V
+20.
+683240
+683241
+O 683201
+Mavčiče V
+Z HŠ 58
+171
+V
+21.
+683250
+683251
+O 683201
+Mavčiče VI
+Z HŠ 102a
+206
+V
+22.
+683250
+683252
+O 683251
+Mavčiče-Meja
+Z N.H.
+95
+V
+23.
+683260
+683261
+C 251040
+Praše-ribiška koča
+Z koča
+330
+V
+24.
+683270
+683271
+C 251040
+Praše-krožna
+C 251040
+495
+V
+25.
+683290
+683291
+C 251040
+Jama 11
+Z HŠ 11
+74
+V
+26.
+683290
+683292
+C 251040
+Jama-Glavač
+Z HŠ 19
+25
+V
+27.
+683300
+683302
+C 251040
+Jama-Hvasti
+Z HŠ 38
+109
+V
+28.
+683310
+683312
+C 251040
+Breg-Suhadolnik
+Z N.H.
+86
+V
+29.
+683320
+683321
+C 251040
+Breg I
+Z HŠ 85
+93
+V
+30.
+683330
+683331
+C 251040
+Breg II
+C 183200
+197
+V
+31.
+683340
+683341
+C 251040
+Breg-ribiška koča
+Z koča
+856
+V
+32.
+683350
+683351
+C 251040
+Breg III
+O 683341
+176
+V
+33.
+683360
+683361
+O 683341
+Breg IV
+O 683351
+117
+V
+34.
+683370
+683371
+O 683361
+Breg V
+Z HŠ 54
+72
+V
+35.
+683380
+683381
+C 251040
+Breg VI
+Z HŠ 74
+46
+V
+36.
+683390
+683391
+O 683341
+Breg-za cerkvijo I
+Z HŠ 81
+330
+V
+37.
+683400
+683401
+C 251040
+Breg-za cerkvijo II
+Z HŠ 81d
+308
+V
+38.
+683410
+683411
+C 183050
+Goriče-Svarje
+Z HŠ 12
+1.775
+V
+39.
+683420
+683421
+O 683411
+Svarje I
+Z HŠ 61
+536
+V
+40.
+683420
+683422
+O 683421
+Svarje II
+Z HŠ 44
+47
+V
+41.
+683420
+683423
+O 683421
+Svarje III
+Z HŠ 25
+88
+V
+42.
+683420
+683424
+O 683421
+Svarje IV
+Z HŠ 34
+50
+V
+43.
+683420
+683425
+O 683421
+Svarje V
+Z HŠ 13
+221
+V
+44.
+683430
+683431
+C 183050
+Povlje-do Peskov I
+Z vod.r.
+2.441
+V
+45.
+683430
+683432
+O 683431
+Povlje-do Peskov II
+O 683441
+500
+V
+46.
+683430
+683433
+O 683431
+Povlje-do Peskov III
+O 683432
+155
+V
+47.
+683440
+683441
+C 183060
+Žablje-Babni vrt
+Z HŠ 10
+2.373
+V
+48.
+683450
+683451
+O 683441
+Babni vrt I
+Z HŠ 7
+103
+V
+49.
+683460
+683461
+C 183050
+Trstenik-Orlove glave I
+Z HŠ 126
+1.663
+V
+50.
+683460
+683462
+O 683461
+Trstenik-Orlove glave II
+Z HŠ 99
+258
+V
+51.
+683470
+683471
+C 183050
+Trstenik-za cerkvijo
+O 683461
+167
+V
+52.
+683480
+683481
+O 683461
+Trstenik I
+O 683431
+952
+V
+53.
+683490
+683491
+O 683461
+Trstenik II
+Z HŠ 53
+94
+V
+54.
+683500
+683501
+O 683461
+Trstenik-cerkev
+Z HŠ 24
+65
+V
+55.
+683510
+683511
+C 183050
+Trstenik III
+Z HŠ 39a
+158
+V
+56.
+683510
+683512
+O 683511
+Trstenik IV
+Z HŠ 62
+137
+V
+57.
+683520
+683521
+C 183050
+Trstenik VI
+Z HŠ 1i
+219
+V
+58.
+683520
+683522
+C 183050
+Trstenik-Gregorc
+Z N.H.
+70
+V
+59.
+683530
+683531
+C 183100
+Pangršica-Lovski dom
+Z HŠ 17
+604
+V
+60.
+683540
+683541
+C R2 410
+Tenetiše I
+Z HŠ 3
+97
+V
+61.
+683550
+683551
+C R2 410
+Tenetiše II
+Z HŠ 9
+537
+V
+62.
+683550
+683552
+O 683551
+Tenetiše 4
+Z HŠ 4
+79
+V
+63.
+683560
+683561
+C R2 410
+Tenetiše III
+Z HŠ 13
+212
+V
+64.
+683570
+683571
+C R2 410
+Tenetiše-mesarija Kern
+C R2 410
+95
+V
+65.
+683580
+683581
+C R2 410
+Tenetiše IV
+Z HŠ 41
+85
+V
+66.
+683590
+683591
+C R2 410
+Tenetiše-NK Podgorje
+Z HŠ 20
+173
+V
+67.
+683600
+683601
+C 183100
+Tenetiše V
+Z HŠ 78
+103
+V
+68.
+683610
+683611
+C 183100
+Tenetiše-cerkev
+Z cerkev
+274
+V
+69.
+683620
+683621
+C 183100
+Tenetiše VI
+Z HŠ 84a
+102
+V
+70.
+683630
+683631
+C 183100
+Tenetiše VII
+Z HŠ 77
+147
+V
+71.
+683630
+683632
+O 683631
+Tenetiše VIII
+Z HŠ 74
+31
+V
+72.
+683630
+683633
+C 183101
+Tenetiše IX
+Z HŠ 80a
+76
+V
+73.
+683640
+683641
+C 183050
+Goriče-mimo pokopališča
+C 183050
+443
+V
+74.
+683650
+683651
+O 683411
+Goriče-Zalog
+Z gozdna
+169
+V
+75.
+683660
+683661
+O 683411
+Zalog-cerkev
+Z HŠ 6
+80
+V
+76.
+683670
+683671
+O 683411
+Srednja vas-Goriče
+O 685671
+480
+V
+77.
+683680
+683681
+O 683671
+Goriče-Medved-Urbanc
+Z HŠ 64
+187
+V
+78.
+683690
+683691
+O 685671
+Goriče-Golnik-Vevarji
+Z HŠ 37
+511
+V
+79.
+683700
+683701
+O 683691
+Goriče-Golnik-Dolenci
+Z HŠ 42a
+258
+V
+80.
+683710
+683711
+C R2 410
+Golnik-stara cesta do gozda
+Z HŠ 3
+393
+V
+81.
+683720
+683721
+C R2 410
+Golnik-Malijev hrib I
+O 685681
+267
+V
+82.
+683720
+683722
+O 683721
+Golnik-Malijev hrib II
+C R2 410
+192
+V
+83.
+683730
+683731
+O 685681
+Golnik-do Matička I
+Z HŠ 15
+606
+V
+84.
+683740
+683741
+O 685681
+Golnik-do Matička II
+Z HŠ 27
+74
+V
+85.
+683750
+683751
+O 685681
+Golnik-do Ribnikarja
+Z HŠ 32a
+577
+V
+86.
+683750
+683752
+O 685681
+Golnik 33
+Z HŠ 33
+185
+V
+87.
+683760
+683761
+C R2 410
+Golnik-preko hriba I
+C 183110
+507
+V
+88.
+683770
+683771
+O 683761
+Golnik-preko hriba II
+C 183110
+223
+V
+89.
+683780
+683781
+O 683761
+Golnik-preko hriba III
+C 183110
+215
+V
+90.
+683790
+683791
+O 683761
+Golnik 117
+Z HŠ 117
+178
+V
+91.
+683800
+683801
+O 683761
+Golnik 80
+Z HŠ 80
+98
+V
+92.
+683810
+683811
+C 183110
+Golnik-krožna I
+C 183110
+371
+V
+93.
+683810
+683812
+O 683811
+Golnik-krožna II
+Z HŠ 139
+113
+V
+94.
+683810
+683813
+O 683811
+Golnik-krožna III
+Z HŠ 148
+51
+V
+95.
+683820
+683821
+O 685691
+Letence-Kamenjak
+Z HŠ 18
+935
+V
+96.
+683830
+683831
+C 183110
+Letence-Tišlar-Malij
+C R2 410
+752
+V
+97.
+683840
+683841
+C 183140
+Srakovlje-Štrbenc-Hribar
+Z HŠ 5
+791
+V
+98.
+683850
+683851
+C 826820
+Tatinec
+Z HŠ 14
+130
+V
+99.
+683860
+683861
+C 183080
+Bobovek-Vile Brdo I
+O 683891
+30
+V
+100.
+683870
+683871
+O 686671
+Predoslje-povezava I
+O 685752
+193
+V
+101.
+683880
+683881
+O 686671
+Predoslje 167
+Z HŠ 167
+176
+V
+102.
+683890
+683891
+C 326021
+Bobovek-Vile Brdo II
+Z HŠ 20
+290
+V
+103.
+683900
+683901
+O 686671
+Predoslje 185
+Z HŠ 185
+136
+V
+104.
+683900
+683902
+O 686671
+Predoslje 183
+Z HŠ 183
+157
+V
+105.
+683910
+683911
+O 686671
+Predoslje 138
+Z HŠ 138
+123
+V
+106.
+683920
+683921
+O 686671
+Predoslje-most-Krištof
+O 683931
+316
+V
+107.
+683920
+683922
+O 183081
+Predoslje 12
+Z HŠ 12
+81
+V
+108.
+683930
+683931
+O 686671
+Predoslje-Krištof
+C 183080
+263
+V
+109.
+683940
+683941
+C 183080
+Predoslje-povezava II
+O 683931
+182
+V
+110.
+683950
+683951
+O 683931
+Predoslje 78
+Z HŠ 78
+116
+V
+111.
+683960
+683961
+O 686671
+Predoslje-krožna
+O 686671
+194
+V
+112.
+683970
+683971
+O 683961
+Predoslje-povezava III
+O 683881
+162
+V
+113.
+683980
+683981
+O 683971
+Predoslje-povezava IV
+O 686671
+97
+V
+114.
+683990
+683991
+O 686671
+Predoslje-nad Oljarico
+Z HŠ 102
+166
+V
+115.
+684020
+684021
+C 390160
+Predoslje-gasilski dom
+Z HŠ 29
+196
+V
+116.
+684030
+684031
+C 183080
+Predoslje-osnovna šola
+Z šola
+165
+V
+117.
+684030
+684032
+C 183080
+Predoslje-igrišče
+Z igrišče
+169
+V
+118.
+684040
+684041
+C 183080
+Predoslje-povezava V
+O 684051
+101
+V
+119.
+684040
+684042
+O 684041
+Predoslje-povezava VI
+Z HŠ 32
+101
+V
+120.
+684050
+684051
+C 390160
+Suha-Predoslje
+C 183080
+1.019
+V
+121.
+684060
+684061
+C 390160
+Suha I
+Z HŠ 22
+549
+V
+122.
+684070
+684071
+O 684061
+Suha III
+O 684081
+76
+V
+123.
+684080
+684081
+C 390160
+Suha II
+Z HŠ 57
+277
+V
+124.
+684090
+684091
+O 684081
+Suha-most-gasilski dom
+Z HŠ 15a
+146
+V
+125.
+684110
+684111
+C 183080
+Predoslje-Brdski mlin
+Z most
+93
+V
+126.
+684120
+684121
+O 685701
+Ilovka-do Pinca
+Z HŠ 18
+206
+V
+127.
+684130
+684131
+O 685701
+Ilovka-krožna
+O 685701
+138
+V
+128.
+684140
+684141
+O 684131
+Ilovka
+Z HŠ 7
+74
+V
+129.
+684140
+684142
+O 684131
+Ilovka-povezava
+O 684141
+23
+V
+130.
+684150
+684151
+O 685701
+Rupa 32b
+Z HŠ 32b
+102
+V
+131.
+684160
+684161
+C 183510
+Rupa 29a
+Z HŠ 29a
+102
+V
+132.
+684170
+684171
+C 183510
+Rupa 36b
+Z HŠ 36b
+161
+V
+133.
+684180
+684181
+C 183510
+Rupa 14
+Z HŠ 14
+187
+V
+134.
+684190
+684191
+C 183510
+Rupa-cerkev
+Z cerkev
+30
+V
+135.
+684200
+684201
+C 183510
+Rupa 24
+Z HŠ 24
+188
+V
+136.
+684220
+684221
+C 183180
+Britof-mimo Pičmana I
+O 686661
+177
+V
+137.
+684220
+684222
+O 686661
+Britof-mimo Pičmana II
+O 684231
+107
+V
+138.
+684230
+684231
+C 183180
+Britof-Arvaj
+Z HŠ 27
+360
+V
+139.
+684240
+684241
+C 183180
+Britof-gas. dom-Čira-Čara
+O 686661
+279
+V
+140.
+684260
+684261
+C R1 210
+Britof-sp. konec III
+O 686651
+214
+V
+141.
+684270
+684271
+C R1 210
+Britof-sp. konec IV
+O 684261
+200
+V
+142.
+684280
+684281
+C R1 210
+Britof-gas. dom I
+O 686651
+157
+V
+143.
+684280
+684282
+O 686651
+Britof-gas. dom II
+C 183180
+220
+V
+144.
+684290
+684291
+O 684282
+Britof I
+Z HŠ 340
+115
+V
+145.
+684300
+684301
+O 686651
+Britof-trgovina I
+C 183180
+256
+V
+146.
+684300
+684302
+O 684301
+Britof-sp. konec I
+Z HŠ 299
+61
+V
+147.
+684300
+684303
+O 684301
+Britof-sp. konec II
+Z HŠ 307
+55
+V
+148.
+684310
+684311
+O 686651
+Britof-trgovina II
+O 684301
+273
+V
+149.
+684320
+684321
+O 686651
+Britof II
+Z HŠ 259
+187
+V
+150.
+684330
+684331
+O 686651
+Britof 231d
+Z HŠ 231d
+173
+V
+151.
+684340
+684341
+O 686651
+Britof 220f
+Z HŠ 220f
+182
+V
+152.
+684350
+684351
+O 686641
+Britof-ob avtocesti I
+Z HŠ 130a
+61
+V
+153.
+684350
+684352
+O 686641
+Britof-ob avtocesti II
+Z HŠ 132b
+76
+V
+154.
+684360
+684361
+O 686641
+Britof-pri avtocesti
+Z HŠ 123
+85
+V
+155.
+684370
+684371
+O 686641
+Britof III
+Z HŠ 137
+108
+V
+156.
+684370
+684372
+O 684371
+Britof IV
+Z HŠ 162a
+60
+V
+157.
+684380
+684381
+C R1 210
+Britof-do Arvaja I
+O 686641
+341
+V
+158.
+684380
+684382
+O 686641
+Britof-do Arvaja II
+C 183180
+178
+V
+159.
+684390
+684391
+O 686641
+Britof-Hobič
+Z HŠ 178
+85
+V
+160.
+684400
+684401
+O 686641
+Britof-sp. konec V
+Z HŠ 211
+108
+V
+161.
+684410
+684411
+O 686641
+Britof-Hobič-Kranj
+Z HŠ 233
+117
+V
+162.
+684420
+684421
+O 686641
+Britof-sp. konec VI
+Z HŠ 244
+62
+V
+163.
+684430
+684431
+C 183180
+Britof-proti Kokri
+Z HŠ 13
+186
+V
+164.
+684450
+684451
+C 183030
+Bitnje-tiskarna Košir
+Z HŠ 277
+51
+V
+165.
+684460
+684461
+C 183030
+Zg. Bitnje 229
+Z HŠ 229
+135
+V
+166.
+684470
+684471
+C 183030
+Zg. Bitnje 226
+Z HŠ 226
+133
+V
+167.
+684480
+684481
+C 183030
+Zg. Bitnje-krožna I
+C 183030
+208
+V
+168.
+684490
+684491
+C 183030
+Zg. Bitnje 129
+Z HŠ 129
+45
+V
+169.
+684500
+684501
+C 183030
+Zg. Bitnje 243
+Z HŠ 243
+49
+V
+170.
+684510
+684511
+C 183030
+Zg. Bitnje-Pot v Bitnje
+O 688172
+303
+V
+171.
+684530
+684531
+O 684511
+Zg. Bitnje 112
+Z HŠ 112
+56
+V
+172.
+684540
+684541
+O 684671
+Zg. Bitnje-krožna II
+C 183030
+271
+V
+173.
+684540
+684542
+O 684541
+Zg. Bitnje-novo naselje
+O 684671
+297
+V
+174.
+684540
+684543
+O 684541
+Zg. Bitnje 326
+Z HŠ 326
+91
+V
+175.
+684540
+684544
+O 684541
+Zg. Bitnje 313
+Z HŠ 313
+70
+V
+176.
+684550
+684551
+C 183030
+Zg. Bitnje-krožna III
+O 684511
+157
+V
+177.
+684560
+684561
+C R1 210
+Zg. Bitnje-pokopališče
+Z pokop.
+535
+V
+178.
+684570
+684571
+C R1 210
+Zg. Bitnje-pri HŠ 54
+O 684611
+291
+V
+179.
+684580
+684581
+O 684571
+Zg. Bitnje-picerija Antonio
+Z HŠ 44
+70
+V
+180.
+684590
+684591
+O 684571
+Zg. Bitnje 47
+Z HŠ 47
+65
+V
+181.
+684600
+684601
+O 684621
+Zg. Bitnje 236b
+Z HŠ 236b
+60
+V
+182.
+684610
+684611
+O 684621
+Zg. Bitnje 45
+Z HŠ 45
+114
+V
+183.
+684620
+684621
+O 684631
+Zg. Bitnje-krožna V
+C 183030
+145
+V
+184.
+684630
+684631
+O 686146
+Zg. Bitnje-krožna IV
+O 684571
+155
+V
+185.
+684640
+684641
+C 183030
+Zg. Bitnje-Sr. Bitnje
+C 183030
+642
+V
+186.
+684650
+684651
+O 684641
+Sr. Bitnje I
+Z HŠ 82
+52
+V
+187.
+684660
+684661
+O 684641
+Sr. Bitnje-prečna ulica
+O 684671
+149
+V
+188.
+684670
+684671
+C 183030
+Sr. Bitnje-preko JP 684641
+C 183030
+614
+V
+189.
+684680
+684681
+C 183030
+Zg. Bitnje-pri HŠ 245
+O 684671
+179
+V
+190.
+684690
+684691
+C 183030
+Zg. Bitnje-slepa
+Z HŠ 246
+256
+V
+191.
+684700
+684701
+C R1 210
+Zg. Bitnje-pri gas. domu
+C 183030
+386
+V
+192.
+684710
+684711
+C R1 210
+Sr. Bitnje-pri HŠ 3
+C 183030
+398
+V
+193.
+684720
+684721
+C R1 210
+Sr. Bitnje-pri HŠ 6
+C 183030
+424
+V
+194.
+684730
+684731
+C R1 210
+Sr. Bitnje-pri HŠ 10a
+C 183250
+408
+V
+195.
+684740
+684741
+O 684731
+Sr. Bitnje-slepa
+Z HŠ 123
+161
+V
+196.
+684750
+684751
+C R1 210
+Sr. Bitnje-pri HŠ 14
+C 183250
+398
+V
+197.
+684760
+684761
+O 684751
+Sr. Bitnje II
+C 183250
+612
+V
+198.
+684770
+684771
+C 183250
+Sp. Bitnje-picerija Gala
+Z HŠ 50
+105
+V
+199.
+684780
+684781
+C 183030
+Sr. Bitnje III
+Z HŠ 85
+106
+V
+200.
+684800
+684801
+C 183250
+Sr. Bitnje IV
+Z HŠ 126
+62
+V
+201.
+684810
+684811
+C 183250
+Sr. Bitnje V
+Z HŠ 37
+77
+V
+202.
+684820
+684821
+C 183250
+Sr. Bitnje VI
+Z HŠ 86
+123
+V
+203.
+684830
+684831
+C 183250
+Sr. Bitnje VII
+Z HŠ 46
+64
+V
+204.
+684840
+684841
+O 684751
+Sr. Bitnje-pri transformatorju
+C 183250
+322
+V
+205.
+684850
+684851
+O 684841
+Sr. Bitnje-pri HŠ 88
+C 183250
+165
+V
+206.
+684860
+684861
+C 183250
+Sr. Bitnje-pri HŠ 81a
+C 183250
+145
+V
+207.
+684870
+684871
+C 183250
+Sp. Bitnje 18
+Z HŠ 18
+199
+V
+208.
+684880
+684881
+C R1 210
+Žabnica-pri HŠ 5
+C R1 210
+625
+V
+209.
+684890
+684891
+O 684881
+Žabnica 2
+Z HŠ 2
+214
+V
+210.
+684900
+684901
+C R1 210
+Žabnica-prečna pri HŠ 9
+O 684881
+66
+V
+211.
+684920
+684921
+C 183030
+Šutna-krožna
+C 183030
+536
+V
+212.
+684930
+684931
+O 684921
+Šutna I
+Z HŠ 44
+144
+V
+213.
+684940
+684941
+O 684921
+Šutna II
+Z HŠ 130
+114
+V
+214.
+684950
+684951
+O 684921
+Šutna-pri HŠ 36
+C 183030
+200
+V
+215.
+684960
+684961
+O 684951
+Šutna III
+Z HŠ 74
+70
+V
+216.
+684970
+684971
+O 684921
+Šutna IV
+Z HŠ 8
+51
+V
+217.
+684980
+684981
+C 183030
+Šutna V
+Z HŠ 82
+151
+V
+218.
+684990
+684991
+C 183030
+Šutna VI
+Z HŠ 30
+77
+V
+219.
+685010
+685011
+C R1 210
+Žabnica-pokopališče
+Z HŠ 36
+162
+V
+220.
+685020
+685021
+C 183030
+Sp. Bitnje-do Mlinarja
+Z HŠ 31
+569
+V
+221.
+685030
+685031
+C 183020
+Rakovica
+Z HŠ 17
+473
+V
+222.
+685040
+685041
+C 183010
+Čepulje-Lavtarski vrh
+Z HŠ 2
+2.703
+V
+223.
+685040
+685042
+O 685041
+Čepulje-Dežman
+Z HŠ 7
+88
+V
+224.
+685050
+685051
+O 685041
+Lavtarski vrh I
+Z HŠ 4
+633
+V
+225.
+685060
+685061
+O 685051
+Lavtarski vrh II
+Z HŠ 3a
+214
+V
+226.
+685070
+685071
+O 685041
+Planica
+Z HŠ 2
+242
+V
+227.
+685070
+685072
+O 685071
+Planica-proti Sv. Gabrielu
+Z HŠ 7
+488
+V
+228.
+685080
+685081
+C 183010
+Javornik-Jošt
+Z cerkev
+1.492
+V
+229.
+685080
+685082
+C 183010
+Javornik-Prosen
+Z HŠ 27
+301
+V
+230.
+685080
+685083
+O 685082
+Javornik-Benedičič
+Z HŠ 33
+212
+V
+231.
+685080
+685084
+C 183010
+Javornik-Česen
+Z HŠ 36
+820
+V
+232.
+685080
+685085
+C 183010
+Pševo-Pirc
+Z HŠ 15
+206
+V
+233.
+685080
+685086
+C 183010
+Pševo-Oražem
+Z HŠ 12
+304
+V
+234.
+685090
+685091
+O 685111
+Zabukovje 22
+Z HŠ 22
+925
+V
+235.
+685100
+685101
+O 685111
+Zabukovje 21
+Z HŠ 21
+388
+V
+236.
+685110
+685111
+C 183020
+Zabukovje 3
+Z HŠ 3
+1.758
+V
+237.
+685120
+685121
+O 685111
+Zabukovje 19
+Z HŠ 19
+288
+V
+238.
+685130
+685131
+C 183020
+Sp. Besnica-Pešnica-krožna
+O 685151
+462
+V
+239.
+685140
+685141
+O 685131
+Sp. Besnica-Pešnica I
+Z HŠ 35
+75
+V
+240.
+685150
+685151
+C 183020
+Sp. Besnica-Pešnica II
+Z HŠ 42
+86
+V
+241.
+685160
+685161
+O 685131
+Sp. Besnica-Pešnica III
+Z HŠ 28
+148
+V
+242.
+685170
+685171
+O 685131
+Sp. Besnica-Pešnica IV
+Z HŠ 10
+118
+V
+243.
+685180
+685181
+C 183020
+Sp. Besnica-Rakovica
+Z HŠ 46
+497
+V
+244.
+685190
+685191
+O 685961
+Sp. Besnica-tenis
+Z HŠ 10
+258
+V
+245.
+685210
+685211
+C 183020
+Sp. Besnica-preko LZ 183791
+O 685961
+276
+V
+246.
+685220
+685221
+O 685961
+Sp. Besnica-trgovina-HŠ 113
+O 685231
+312
+V
+247.
+685230
+685231
+O 685961
+Sp. Besnica-Pešnica V
+Z HŠ 27
+223
+V
+248.
+685240
+685241
+O 685961
+Sp. Besnica-Pešnica VI
+Z HŠ 22
+106
+V
+249.
+685250
+685251
+O 685961
+Sp. Besnica-Pešnica VII
+Z HŠ 66
+432
+V
+250.
+685260
+685261
+O 685251
+Sp. Besnica-Pešnica VIII
+Z HŠ 51
+49
+V
+251.
+685270
+685271
+O 685251
+Sp. Besnica-Pešnica IX
+Z HŠ 45
+49
+V
+252.
+685280
+685281
+O 685251
+Sp. Besnica-Pešnica X
+Z HŠ 21
+69
+V
+253.
+685290
+685291
+C 183020
+Sp. Besnica-Pešnica XI
+Z HŠ 37
+65
+V
+254.
+685300
+685301
+C 183020
+Sp. Besnica-okoli cerkve
+C 183020
+365
+V
+255.
+685310
+685311
+C 183020
+Sp. Besnica I
+Z HŠ 4
+123
+V
+256.
+685330
+685331
+C 183020
+Sp. Besnica-do JP 685941
+O 685941
+286
+V
+257.
+685330
+685332
+O 685941
+Sp. Besnica-preko JP 685941
+Z HŠ 45
+384
+V
+258.
+685340
+685341
+O 685332
+Sp. Besnica II
+Z HŠ 49
+204
+V
+259.
+685350
+685351
+O 685332
+Sp. Besnica III
+Z HŠ 52
+331
+V
+260.
+685360
+685361
+O 685351
+Sp. Besnica-Matija
+Z HŠ 8
+566
+V
+261.
+685370
+685371
+O 685941
+Sp. Besnica-povezava
+O 685332
+86
+V
+262.
+685380
+685381
+C 183020
+Sp. Besnica IV
+Z HŠ 10
+118
+V
+263.
+685390
+685391
+C 183020
+Sp. Besnica V
+Z HŠ 27
+89
+V
+264.
+685400
+685401
+C 183020
+Sp. Besnica-žaga
+Z HŠ 17
+374
+V
+265.
+685410
+685411
+O 685401
+Sp. Besnica-proti ribogojnici
+Z razcep
+167
+V
+266.
+685420
+685421
+C 183020
+Zg. Besnica-do vikendov
+Z HŠ 39
+902
+V
+267.
+685430
+685431
+C 183020
+Zg. Besnica 22
+Z HŠ 22
+154
+V
+268.
+685440
+685441
+C 183020
+Zg. Besnica-prečna povezava
+O 685921
+184
+V
+269.
+685450
+685451
+O 685921
+Zg. Besnica-Klinar
+Z HŠ 101
+445
+V
+270.
+685460
+685461
+O 685451
+Zg. Besnica-Podrovnik
+Z HŠ 109
+578
+V
+271.
+685480
+685481
+O 685922
+Zg. Besnica-mrliške vežice
+Z HŠ 8
+369
+V
+272.
+685490
+685491
+O 685922
+Zg. Besnica-pri HŠ 69
+O 685921
+671
+V
+273.
+685500
+685501
+O 685921
+Zg. Besnica-do gozdne poti
+Z gozdna
+605
+V
+274.
+685510
+685511
+O 685921
+Zg. Besnica 4
+Z HŠ 4
+276
+V
+275.
+685520
+685521
+C 183020
+Zg. Besnica-Nova vas I
+Z HŠ 18
+207
+V
+276.
+685530
+685531
+O 685521
+Zg. Besnica-Nova vas II
+Z HŠ 16
+153
+V
+277.
+685550
+685551
+O 685931
+Zg. Besnica-Nova vas III
+Z HŠ 92
+118
+V
+278.
+685560
+685561
+O 685931
+Zg. Besnica-Nova vas IV
+Z HŠ 118
+208
+V
+279.
+685560
+685562
+O 685561
+Zg. Besnica-Nova vas V
+Z HŠ 90
+69
+V
+280.
+685570
+685571
+C 183020
+Zg. Besnica-Nova vas-krožna I
+C 183020
+170
+V
+281.
+685580
+685581
+C 494110
+Nemilje-krožna skozi vas
+C 494110
+227
+V
+282.
+685580
+685582
+C 183020
+Nemilje krožna-Na Razpokah
+C 494110
+30
+V
+283.
+685590
+685591
+C 183020
+Nemilje-Podblica-stara cesta
+C 183020
+1.837
+V
+284.
+685600
+685601
+O 685591
+Podblica-šola
+Z HŠ 3
+131
+V
+285.
+685610
+685611
+C 183020
+Podblica 26
+Z HŠ 26
+253
+V
+286.
+685620
+685621
+C R3 635
+Podblica 28
+Z HŠ 28
+206
+V
+287.
+685630
+685631
+C R3 635
+Jamnik-vzporednica z R3 635
+C R3 635
+469
+V
+288.
+685630
+685632
+O 685631
+Jamnik-cerkev
+Z cerkev
+919
+V
+289.
+685640
+685641
+C 251040
+Podreča 73
+Z HŠ 73
+211
+V
+290.
+685650
+685651
+C 251040
+Praše-Meja
+C R1 211
+1.947
+V
+291.
+685650
+685652
+O 685651
+Meja-Sušnik
+Z HŠ 1
+489
+V
+292.
+685660
+685661
+C R2 410
+Tenetiše-povezava z R2 410
+C 183100
+233
+V
+293.
+685670
+685671
+C R2 410
+R2 410-Goriče
+C 183050
+561
+V
+294.
+685680
+685681
+C R2 410
+Golnik-bolnica-Malijevo brdo
+C R2 410
+1.955
+V
+295.
+685680
+685682
+O 685681
+Golnik 178
+Z HŠ 178
+66
+V
+296.
+685680
+685683
+C R2 410
+Golnik-Letence
+C R2 410
+3340
+V
+297.
+685690
+685691
+C 183110
+Letence-jug
+C R2 410
+805
+V
+298.
+685700
+685701
+C 183080
+Kokrica-Ilovka-Rupa
+C 183510
+1.916
+V
+299.
+685730
+685721
+C R2 410
+Mlaka-Tenetiše
+C R2 410
+2.340
+V
+300.
+685730
+685731
+C R2 410
+Mlaka-Bobovek-Brdo
+C 183080
+1.623
+V
+301.
+685740
+685741
+C 326020
+Bobovek-Brdo
+C 183080
+591
+V
+302.
+685750
+685751
+O 685701
+Ilovka-polje-Brdo I
+C 183080
+976
+V
+303.
+685750
+685752
+O 685751
+Ilovka-polje-Brdo II
+O 686671
+802
+V
+304.
+685760
+685761
+O 683341
+Breg-RTV servis
+Z HŠ 75
+223
+V
+305.
+685770
+685771
+O 684221
+Britof-povezava pri Pičmanu
+O 684241
+162
+V
+306.
+685780
+685781
+O 686661
+Britof-nad Oljarico
+Z HŠ 69a
+178
+V
+307.
+685790
+685791
+C 183080
+Britof-zg. konec I
+Z HŠ 416
+168
+V
+308.
+685800
+685801
+C 183080
+Britof-zg. konec II
+Z HŠ 108a
+67
+V
+309.
+685810
+685811
+C R1 210
+Britof-zg. konec III
+Z HŠ 109
+110
+V
+310.
+685820
+685821
+C R1 210
+Britof-zg. konec IV
+Z HŠ 408
+154
+V
+311.
+685820
+685822
+O 685821
+Britof-zg. konec V
+Z HŠ 403
+61
+V
+312.
+685820
+685823
+O 685821
+Britof 485
+Z HŠ 485
+38
+V
+313.
+685830
+685831
+C R1 210
+Britof-zg. konec VI
+Z HŠ 375
+52
+V
+314.
+685840
+685841
+C R1 210
+Britof-povezava pri HŠ 371
+C R1 210
+122
+V
+315.
+685850
+685851
+C R1 210
+Britof-zg. konec VII
+Z HŠ 425
+168
+V
+316.
+685860
+685861
+O 686651
+Britof-sp. konec VII
+Z HŠ 246
+84
+V
+317.
+685870
+685871
+O 686641
+Britof-pri Hobiču
+Z HŠ 191
+59
+V
+318.
+685900
+685901
+O 683431
+Povlje-do vikendov
+Z HŠ 38
+492
+V
+319.
+685910
+685911
+C R1 210
+Zg. Bitnje 28
+Z HŠ 28
+192
+V
+320.
+685920
+685921
+C 183020
+Zg. Besnica-Podrovnik-Dvor
+C 183020
+1.523
+V
+321.
+685920
+685922
+O 685921
+Zg. Besnica-cerkev-LC 183021
+C 183020
+414
+V
+322.
+685920
+685923
+O 685922
+Za župniščem I
+Z HŠ 25
+146
+V
+323.
+685920
+685924
+O 685923
+Za župniščem II
+Z HŠ 41c
+24
+V
+324.
+685930
+685931
+C 183020
+Zg. Besnica-Nova vas-krožna II
+C 183020
+305
+V
+325.
+685940
+685941
+C 183020
+Sp. Besnica-Videmce-Trata
+C 183020
+716
+V
+326.
+685950
+685951
+C 348090
+Pot do Hlipa
+Z HŠ 5
+147
+V
+327.
+685960
+685961
+C 183020
+Sp. Besnica-krožna
+C 183020
+573
+V
+328.
+685970
+685971
+C 251040
+Zasavska c.-mimo OŠ Orehek
+Z HŠ 53c
+410
+V
+329.
+685980
+685981
+C 186350
+Pot na Jošta-Ješetova ul.
+C 183760
+573
+V
+330.
+685980
+685982
+C 183760
+Prečna ulica
+Z HŠ 24
+180
+V
+331.
+686010
+686011
+C 183080
+Predoslje-pokopališče
+Z pokop.
+155
+V
+332.
+686030
+686031
+C 183240
+Agromehanika-Prebačevo
+C 890100
+1.255
+V
+333.
+686040
+686041
+O 686042
+Planina
+O 686043
+154
+V
+334.
+686040
+686042
+O 183582
+Planina-Iskra
+Z HŠ 5
+158
+V
+335.
+686040
+686043
+O 183582
+Planina-ob toplarni
+Z HŠ 26
+141
+V
+336.
+686050
+686051
+C 183400
+Primskovo-trgovski c.
+C 183560
+269
+V
+337.
+686050
+686052
+C 183400
+Primskovo-kom. cona I
+C 183560
+451
+V
+338.
+686050
+686053
+C 183560
+Primskovo-kom. cona II
+Z HŠ 23a
+129
+V
+339.
+686050
+686054
+C 183560
+Ul. Mirka Vadnova 22
+Z HŠ 22
+183
+V
+340.
+686050
+686055
+C 183560
+Primskovo-hotel
+Z hotel
+203
+V
+341.
+686060
+686061
+C 186030
+Žanova ul. 3a
+Z HŠ 3a
+61
+V
+342.
+686060
+686062
+C 186030
+Žanova ul.-Kajuhova ul.
+C 186040
+64
+V
+343.
+686060
+686063
+C 186030
+Žanova ul.-C. na Klanec
+C 188840
+62
+V
+344.
+686060
+686064
+C 186030
+C. na Klanec-Huje
+C 186020
+303
+V
+345.
+686060
+686065
+C 188840
+C. talcev
+C 186020
+319
+V
+346.
+686060
+686066
+O 686283
+Na skalici-Kokrški breg
+Z razcep
+259
+V
+347.
+686070
+686071
+O 686293
+Glavni trg-Tomšičeva ul.
+O 686293
+73
+V
+348.
+686070
+686072
+O 686293
+Pot na Kolodvor 4
+Z HŠ 4
+33
+V
+349.
+686070
+686073
+O 686293
+Škrlovec
+Z HŠ 3
+37
+V
+350.
+686080
+686081
+C 183680
+Savska c.-Sejmišče I
+O 686084
+149
+V
+351.
+686080
+686082
+O 686081
+Savska c.-Sejmišče II
+O 686084
+52
+V
+352.
+686080
+686083
+O 686084
+Vodopivčeva ul. 3
+Z HŠ 3
+53
+V
+353.
+686080
+686084
+C 183680
+Sejmišče-Vodopivčeva ul.
+C 183420
+346
+V
+354.
+686090
+686091
+C 183500
+Mladinska ul.
+C 183250
+241
+V
+355.
+686090
+686092
+O 686091
+Mladinska ul.-Stritarjeva ul.
+C 183250
+57
+V
+356.
+686090
+686093
+O 183491
+Gregorčičeva-Partizanska
+O 686094
+123
+V
+357.
+686090
+686094
+O 183491
+Partizanska c.
+O 686097
+333
+V
+358.
+686090
+686095
+O 686094
+Partizanska c.-Rotarjeva ul.
+O 686094
+321
+V
+359.
+686090
+686096
+O 686094
+Jurčičeva ul.
+O 686095
+88
+V
+360.
+686090
+686097
+O 183491
+Komenskega ul.-Partizanska c.
+Z HŠ 18
+383
+V
+361.
+686090
+686098
+O 686094
+Partizanska 10 do 10d
+Z HŠ 10d
+69
+V
+362.
+686090
+686099
+O 686098
+Partizanska 10a
+Z HŠ 10a
+13
+V
+363.
+686100
+686101
+O 687727
+Kidričeva ul. I
+O 687728
+121
+V
+364.
+686100
+686102
+O 686101
+Kidričeva ul. II
+C 186620
+57
+V
+365.
+686100
+686103
+O 687727
+Kidričeva ul. III
+O 687728
+200
+V
+366.
+686100
+686104
+O 686103
+Kidričeva ul. IV
+O 687727
+45
+V
+367.
+686100
+686105
+C R2 410
+Kidričeva ul. V
+Z HŠ 18
+97
+V
+368.
+686100
+686106
+O 686105
+Kidričeva ul. VI
+Z HŠ 38
+106
+V
+369.
+686100
+686107
+C 186520
+Kidričeva ul. VII
+Z HŠ 22
+46
+V
+370.
+686100
+686108
+C 186520
+Kidričeva ul. VIII
+Z HŠ 8
+51
+V
+371.
+686100
+686109
+C 186520
+Kidričeva ul. IX-krožna
+C 186520
+117
+V
+372.
+686110
+686111
+C R2 412
+Zlato polje-Struževo I
+C 187170
+703
+V
+373.
+686110
+686112
+O 686111
+Zlato polje-Struževo II
+C R2 412
+239
+V
+374.
+686120
+686121
+C R2 412
+Savski log-Zimsko kop. I–C R 412
+C R2 412
+263
+V
+375.
+686120
+686123
+C 186590
+Kolodvorska c.-Carinsko s.
+Z Car.s.
+66
+V
+376.
+686130
+686131
+C 186740
+Stražiška ul. 17
+C 186730
+101
+V
+377.
+686130
+686132
+C 186740
+Stražiška ul. 27
+C 186730
+97
+V
+378.
+686130
+686133
+C 186730
+Finžgarjeva ul.-Bičkova ul.
+C 186780
+110
+V
+379.
+686130
+686134
+C 186790
+Kocjanova ul.-Bičkova ul.
+C 186780
+104
+V
+380.
+686130
+686135
+C 186790
+Kocjanova ul.-povezava
+C 186790
+108
+V
+381.
+686130
+686136
+O 687487
+Strmov II
+Z HŠ 12
+90
+V
+382.
+686130
+686137
+O 687487
+Strmov III
+C 188880
+41
+V
+383.
+686140
+686141
+C 183010
+Hafnarjeva pot I
+C 183440
+1.155
+V
+384.
+686140
+686142
+C 183010
+Hafnarjeva pot II
+O 686141
+147
+V
+385.
+686140
+686143
+O 686141
+Hafnarjeva pot III
+O 686144
+82
+V
+386.
+686140
+686144
+C 183010
+Križnarjeva pot I
+C R1 210
+876
+V
+387.
+686140
+686145
+O 686144
+Križnarjeva pot II
+O 686141
+103
+V
+388.
+686140
+686146
+C 183440
+Zg. Bitnje-Škofjeloška c.
+C 183030
+566
+V
+389.
+686140
+686147
+C 183010
+Medetova ul. 12
+Z HŠ 12
+154
+V
+390.
+686140
+686148
+O 686145
+Križnarjeva pot III
+Z HŠ 40
+134
+V
+391.
+686140
+686149
+O 686148
+Križnarjeva pot IV
+Z HŠ 24
+86
+V
+392.
+686150
+686151
+C 186980
+Sitarska pot 17
+Z HŠ 17
+114
+V
+393.
+686150
+686152
+C 186560
+Sitarska pot 7a
+Z HŠ 7a
+100
+V
+394.
+686150
+686153
+C 186560
+Pante
+O 686155
+215
+V
+395.
+686150
+686154
+C 186560
+Skokova ul.
+C 186980
+125
+V
+396.
+686150
+686155
+C 183010
+Gasilska ul.
+Z HŠ 22
+342
+V
+397.
+686150
+686156
+O 686155
+Matajčeva ul.
+C 186560
+154
+V
+398.
+686160
+686161
+C 188540
+Zasavska c.-proti stopnišču
+Z stopn.
+85
+V
+399.
+686160
+686162
+C 188550
+Drolčevo naselje I
+Z HŠ 18
+72
+V
+400.
+686160
+686163
+C 188550
+Drolčevo naselje II
+Z HŠ 23
+63
+V
+401.
+686160
+686164
+C 188550
+Drolčevo naselje III
+Z HŠ 27
+42
+V
+402.
+686160
+686165
+C 188550
+Drolčevo naselje IV
+Z HŠ 30
+29
+V
+403.
+686170
+686171
+O 686514
+Ul. Gorenjskega odreda
+O 686172
+510
+B
+404.
+686170
+686172
+O 686171
+Ul. Nikole Tesle
+Z Topl.
+594
+B
+405.
+686180
+686181
+C 183400
+Ul. Janka Puclja-Trg Rivoli
+Z HŠ 9
+399
+V
+406.
+686190
+686191
+C 188840
+Ul. Draga Brezarja
+C 188840
+250
+V
+407.
+686200
+686201
+C 187160
+Špikova ul. I
+Z HŠ 25
+180
+V
+408.
+686200
+686202
+O 686201
+Špikova ul. II
+O 686201
+99
+V
+409.
+686210
+686211
+C 187300
+Kuratova ul. 4
+Z HŠ 4
+28
+V
+410.
+686210
+686212
+C 187300
+Kuratova ul. 3
+Z HŠ 3
+50
+V
+411.
+686210
+686213
+C 187300
+Kuratova ul. 41
+Z HŠ 41
+55
+V
+412.
+686210
+686214
+C 183510
+Kuratova ul.-povezava
+O 688214
+81
+V
+413.
+686210
+686215
+O 686218
+Betonova ul. 27
+Z HŠ 27
+68
+V
+414.
+686210
+686216
+C 187280
+Betonova ul. I
+C 187280
+154
+V
+415.
+686210
+686217
+C 187280
+Betonova ul. II
+C 187280
+322
+V
+416.
+686210
+686218
+C 187280
+Betonova ul. 42
+Z HŠ 42
+157
+V
+417.
+686220
+686221
+C 183010
+Baragov trg
+C 183450
+235
+V
+418.
+686220
+686222
+C 183010
+Baragov trg-Krajevna pot
+C 183450
+251
+V
+419.
+686220
+686223
+C 186740
+Šolska ul.
+O 686221
+137
+V
+420.
+686230
+686231
+O 687684
+Mlakarjeva ul. 16
+Z HŠ 16
+60
+V
+421.
+686230
+686232
+O 687684
+Mrakova ul.-povezava
+O 687683
+87
+V
+422.
+686230
+686233
+O 687683
+Mencingerjeva ul. 3
+Z HŠ 3
+66
+V
+423.
+686240
+686241
+C 186380
+Šorlijeva ul. 3
+Z HŠ 3
+188
+V
+424.
+686240
+686242
+C 186380
+Šorlijeva ul. 24
+Z HŠ 24
+179
+V
+425.
+686240
+686243
+C 186380
+Bertoncljeva ul. I
+O 686243
+406
+V
+426.
+686240
+686244
+C 186380
+Bertoncljeva ul. II
+O 686244
+496
+V
+427.
+686250
+686251
+C 251010
+Smledniška cesta (stara) I
+Z HŠ 6
+453
+V
+428.
+686250
+686252
+C 183700
+Savska cesta
+C 183710
+414
+V
+429.
+686250
+686253
+O 686251
+Smledniška cesta (stara) II
+C 183700
+70
+V
+430.
+686250
+686254
+C 183680
+Smledniška cesta (stara) III
+Z HŠ 3
+330
+V
+431.
+686260
+686261
+C 183410
+Stošičeva ul.
+C 183420
+193
+V
+432.
+686260
+686262
+C 186520
+Ul. F. Rozmana-Staneta
+C 186100
+254
+V
+433.
+686260
+686263
+C 183400
+Dražgoška ul.
+C 186400
+186
+V
+434.
+686260
+686264
+C 183850
+Kebetova ul. I
+O 686265
+181
+V
+435.
+686260
+686265
+C 183400
+C. Kokrškega odreda 25
+Z HŠ 25
+147
+V
+436.
+686270
+686271
+C 183400
+Ul. Vide Šinkovčeve
+O 687332
+183
+V
+437.
+686270
+686272
+C 183400
+Reševa ul.
+C 186650
+187
+V
+438.
+686270
+686273
+C 186060
+Tomažičeva ul. I
+C 183400
+181
+V
+439.
+686270
+686274
+C 186060
+Luznarjeva ul.
+C 183400
+212
+V
+440.
+686270
+686275
+C 186060
+Štirnova ul.
+C 183400
+218
+V
+441.
+686270
+686276
+C 186060
+Tomažičeva ul. II
+Z HŠ 12
+102
+V
+442.
+686280
+686282
+O 183491
+Slovenski trg-mimo MOK
+C 183420
+158
+V
+443.
+686280
+686283
+O 183491
+Gregorčičeva ul.-Maistrov trg
+O 686291
+138
+V
+444.
+686290
+686291
+C 183400
+Poštna-Tavčarjeva-Maistrov trg
+C 183420
+489
+V
+445.
+686290
+686292
+O 686291
+Reginčeva ul. 13
+Z HŠ 13
+129
+V
+446.
+686290
+686293
+O 686292
+Tomšičeva ul.-Glavni trg
+O 686291
+604
+V
+447.
+686290
+686294
+O 686293
+Cankarjeva ul.-Trubarjev trg
+Z HŠ 7
+139
+V
+448.
+686290
+686295
+O 686291
+Tavčarjeva ul.
+O 686294
+246
+V
+449.
+686290
+686296
+O 686293
+Glavni trg-Prešernova ul.
+O 686292
+172
+V
+450.
+686290
+686297
+O 686293
+Jenkova ul.
+O 686296
+83
+V
+451.
+686300
+686301
+C 186100
+Gosposvetska ul. 13
+Z HŠ 13
+69
+V
+452.
+686300
+686302
+O 686301
+Gosposvetska ul. 11
+Z HŠ 11
+40
+V
+453.
+686300
+686303
+C 186100
+Gosposvetska ul. 19
+Z HŠ 19
+41
+V
+454.
+686320
+686324
+O 686181
+Trg Rivoli VIII
+Z HŠ 9
+176
+V
+455.
+686330
+686332
+C 280010
+Polica-Struževo
+C 187170
+1.338
+V
+456.
+686340
+686341
+C 280011
+Polica-železnica
+Z železnica
+274
+V
+457.
+686360
+686361
+C 186110
+Kranj-Struževo
+Z HŠ 27
+290
+V
+458.
+686360
+686362
+C 187170
+Struževo-pešpot
+O 686361
+863
+B
+459.
+686360
+686363
+C 186120
+Stara c.-Koroška c.
+C 183420
+390
+V
+460.
+686360
+686364
+O 686262
+Gradnikova ul.-krožna
+O 686262
+184
+V
+461.
+686360
+686365
+C 186520
+Ul. 1. avgusta 11
+Z HŠ 11
+134
+V
+462.
+686360
+686366
+C 183420
+Odcep AMD
+Z HŠ 53c
+46
+V
+463.
+686360
+686367
+O 686364
+Gradnikova ul. 3
+Z HŠ 3
+47
+V
+464.
+686360
+686368
+O 686261
+Vrtna ul. 7
+Z HŠ 7
+141
+V
+465.
+686370
+686371
+O 686651
+Britof-sp. konec VIII
+Z HŠ 197
+81
+V
+466.
+686500
+686501
+O 686172
+Gogalova ul. 2a
+Z HŠ 2a
+158
+B
+467.
+686500
+686502
+C 183600
+Gogalova ul. 10
+Z HŠ 10
+137
+V
+468.
+686510
+686511
+O 686171
+Gubčeva ul. 1
+Z HŠ 1
+164
+B
+469.
+686510
+686512
+O 686526
+Gubčeva ul. 2
+Z HŠ 2
+99
+V
+470.
+686510
+686513
+C 183400
+C. 1. maja-krožna
+O 686512
+104
+V
+471.
+686510
+686514
+C 183400
+Župančičeva ul.
+C 183600
+327
+V
+472.
+686520
+686521
+O 686171
+Vrečkova ul. I
+Z HŠ 5
+128
+B
+473.
+686520
+686526
+C 183400
+Vrečkova ul. III
+O 686511
+239
+V
+474.
+686520
+686527
+C 183400
+Ul. Gorenjskega odreda
+Z HŠ 2
+320
+V
+475.
+686520
+686528
+O 686527
+Ob stolpnicah
+O 686528
+237
+V
+476.
+686520
+686529
+C 183400
+Vrečkova ul. IV
+Z HŠ 5
+82
+V
+477.
+686530
+686531
+O 183581
+Trg Prešernove brigade I
+Z HŠ 10
+171
+V
+478.
+686530
+686532
+O 686181
+Trg Prešernove brigade II
+Z HŠ 1
+73
+V
+479.
+686530
+686534
+O 686531
+Trg Prešernove brigade III
+Z HŠ 5
+67
+V
+480.
+686530
+686535
+O 686531
+Trg Prešernove brigade IV
+O 686181
+328
+V
+481.
+686530
+686538
+O 686531
+Trg Prešernove brigade V
+O 686531
+187
+V
+482.
+686540
+686541
+O 183581
+Trg Rivoli I
+Z HŠ 4
+160
+V
+483.
+686540
+686543
+O 686541
+Trg Rivoli II
+O 686531
+184
+V
+484.
+686540
+686544
+O 686543
+Trg Rivoli III
+O 686181
+87
+V
+485.
+686540
+686545
+O 686181
+Trg Rivoli IV
+O 686543
+93
+V
+486.
+686540
+686546
+O 686545
+Trg Rivoli V
+Z HŠ 5
+75
+V
+487.
+686540
+686547
+O 686543
+Trg Rivoli VI
+O 686546
+74
+V
+488.
+686540
+686549
+O 183581
+Trg Rivoli VII
+O 686541
+119
+V
+489.
+686550
+686551
+O 686172
+Ul. Tončka Dežmana V
+Z HŠ 2
+191
+B
+490.
+686550
+686552
+O 686622
+Ul. Rudija Papeža II
+Z HŠ 2
+133
+B
+491.
+686550
+686553
+C R1 210
+Cesta Rudija Šeliga IV
+C 183583
+378
+V
+492.
+686550
+686555
+C 183600
+Ul. Tončka Dežmana I
+O 686172
+209
+V
+493.
+686550
+686556
+O 686555
+Ul. Tončka Dežmana II
+Z HŠ 1
+74
+V
+494.
+686550
+686557
+O 686556
+Ul. Tončka Dežmana III
+Z HŠ 9
+69
+V
+495.
+686550
+686558
+O 686555
+Ul. Tončka Dežmana IV
+Z HŠ 7b
+52
+V
+496.
+686560
+686561
+O 686623
+Ul. Juleta Gabrovška I
+O 968821
+133
+B
+497.
+686580
+686581
+C 686620
+Ul. Lojzeta Hrovata
+Z HŠ 9
+108
+B
+498.
+686590
+686591
+O 686622
+Ul. Rudija Papeža I
+O 968821
+130
+B
+499.
+686600
+686601
+O 686172
+Ul. Janeza Puharja II
+Z HŠ 1
+151
+B
+500.
+686600
+686602
+O 686601
+Ul. Janeza Puharja III
+O 686556
+31
+B
+501.
+686600
+686603
+O 686601
+Ul. Janeza Puharja IV
+O 686605
+42
+B
+502.
+686600
+686604
+O 686171
+Ul. Janeza Puharja V
+O 686172
+62
+B
+503.
+686600
+686605
+C 183600
+Ul. Janeza Puharja I
+O 686605
+314
+V
+504.
+686620
+686621
+C 183600
+Ul. Tuga Vidmarja I
+Z HŠ 4c
+151
+V
+505.
+686620
+686622
+O 686621
+Ul. Tuga Vidmarja II
+Z HŠ 1
+257
+B
+506.
+686620
+686623
+O 686621
+Ul. Tuga Vidmarja III
+Z HŠ 11
+281
+B
+507.
+686640
+686641
+C 183180
+Britof-sp. konec-povezava I
+C 183180
+864
+V
+508.
+686650
+686651
+C R1 210
+Britof-sp. konec-povezava II
+O 686641
+772
+V
+509.
+686660
+686661
+C 183080
+Britof-mimo igrišča
+C 183180
+515
+V
+510.
+686670
+686671
+C 183080
+Predoslje-Čira-Čara-krožna
+O 686661
+1.433
+V
+511.
+686700
+686701
+C 187110
+Seljakovo naselje I
+C 187110
+380
+V
+512.
+686700
+686702
+C 187110
+Seljakovo naselje II
+O 686701
+135
+V
+513.
+686700
+686703
+C 187110
+Seljakovo naselje III
+Z HŠ 1
+111
+V
+514.
+686700
+686704
+C 187110
+Seljakovo naselje IV
+O 686703
+132
+V
+515.
+686700
+686705
+C 187110
+Seljakovo naselje V
+O 686701
+124
+V
+516.
+686700
+686706
+O 686701
+Seljakovo naselje VI
+Z HŠ 59
+18
+V
+517.
+686710
+686711
+C R1 210
+Qlandia
+Z rondo
+276
+V
+518.
+686710
+686712
+O 686711
+Ul. Angelce Hlebce
+C 183400
+279
+V
+519.
+687020
+687021
+C 251040
+Drulovka I
+Z HŠ 48a
+117
+V
+520.
+687030
+687031
+C 251040
+Drulovka II
+Z HŠ 45f
+93
+V
+521.
+687040
+687041
+C 251040
+Drulovka III
+Z HŠ 44c
+93
+V
+522.
+687050
+687051
+C 183710
+Drulovka IV
+Z HŠ 37
+56
+V
+523.
+687060
+687061
+C 251040
+Drulovka-do HŠ 63
+Z HŠ 63
+163
+V
+524.
+687070
+687071
+C 251040
+Drulovka V
+C 251040
+163
+V
+525.
+687070
+687072
+O 687071
+Drulovka VI
+Z N.H.
+245
+V
+526.
+687070
+687073
+O 687072
+Drulovka VII
+O 687071
+350
+V
+527.
+687080
+687081
+C 251040
+Zasavska c. 74
+Z HŠ 74
+215
+V
+528.
+687080
+687082
+O 687081
+Zasavska c. 60a
+Z HŠ 60a
+29
+V
+529.
+687080
+687083
+O 687081
+Zasavska c. 68
+Z HŠ 68
+39
+V
+530.
+687090
+687091
+O 685971
+Zasavska c. 62
+Z HŠ 62
+257
+V
+531.
+687090
+687092
+O 687091
+Zasavska c. 56a
+Z HŠ 56a
+70
+V
+532.
+687090
+687093
+O 687091
+Zasavska c. 54c
+Z HŠ 54c
+91
+V
+533.
+687100
+687101
+C 251040
+Zasavska c. 43e
+Z HŠ 43e
+164
+V
+534.
+687110
+687111
+C 251040
+Zasavska c.-mimo HŠ 34
+O 687122
+127
+V
+535.
+687120
+687121
+O 687122
+Kutinova ul. III
+Z HŠ 20
+102
+V
+536.
+687120
+687122
+C 183730
+Kutinova ul. I
+C 251040
+432
+V
+537.
+687120
+687123
+O 687122
+Kutinova ul. II
+C 183730
+70
+V
+538.
+687130
+687131
+C 183730
+Dolenčeva ul.
+C 188530
+136
+V
+539.
+687140
+687141
+O 688783
+Gregoričeva ul. 25
+Z HŠ 25
+114
+V
+540.
+687150
+687151
+O 688782
+Retljeva ul. 16
+Z HŠ 16
+69
+V
+541.
+687160
+687161
+C 188530
+Povezava stara Zasavska
+C 251040
+71
+V
+542.
+687180
+687182
+C 183730
+Zevnikova ul.
+C 187610
+174
+V
+543.
+687190
+687191
+C 251040
+Pot za krajem-Orehek
+C 188530
+82
+V
+544.
+687200
+687201
+C R1 211
+Ljubljanska c. 28
+Z HŠ 28
+77
+V
+545.
+687210
+687211
+O 183582
+Planina-mimo VVZ
+Z HŠ 3b
+80
+V
+546.
+687220
+687221
+O 183582
+Planina-športna dvorana
+Z šp.dv.
+62
+V
+547.
+687230
+687231
+C 183600
+Cesta talcev I
+Z HŠ 81
+157
+V
+548.
+687240
+687241
+C 183600
+Cesta talcev I
+Z HŠ 63
+123
+V
+549.
+687250
+687251
+C 183600
+Ul. Juleta Gabrovška II
+Z HŠ 20
+140
+V
+550.
+687260
+687261
+C 183600
+Ul. Juleta Gabrovška III
+Z HŠ 3
+155
+V
+551.
+687270
+687271
+C 183400
+Skalica 11
+Z HŠ 11
+115
+V
+552.
+687270
+687272
+O 687271
+Skalica 6a
+Z HŠ 6a
+79
+V
+553.
+687280
+687281
+C 183400
+Skalica-OŠ Staneta Žagarja
+O 687291
+331
+V
+554.
+687290
+687291
+C 183400
+Ul. Tatjane Odrove I
+C 183400
+291
+V
+555.
+687300
+687301
+C 183400
+Ul. Tatjane Odrove II
+O 687291
+158
+V
+556.
+687300
+687302
+O 687301
+Ul. Tatjane Odrove III
+Z HŠ 18
+61
+V
+557.
+687310
+687311
+C 186610
+Oprešnikova ul. 86
+Z HP 86
+66
+V
+558.
+687320
+687321
+C 188840
+C. na Klanec II
+Z HŠ 51
+57
+V
+559.
+687320
+687322
+C 188840
+C. na Klanec III
+Z HŠ 55a
+53
+V
+560.
+687330
+687331
+O 687332
+Oprešnikova ul. 50
+Z HŠ 50
+64
+V
+561.
+687330
+687332
+C 186650
+Oprešnikova ul.-C. na Klanec
+C 188840
+153
+V
+562.
+687340
+687341
+C 186650
+Oprešnikova ul. 68
+Z HŠ 68
+80
+V
+563.
+687350
+687351
+O 685981
+Tominčeva c.-iz Poti na Jošta
+Z HŠ 49
+69
+V
+564.
+687350
+687352
+C 183760
+Tominčeva c. 58
+Z HŠ 58
+68
+V
+565.
+687350
+687353
+C 183760
+Rožna ul.
+C 186980
+181
+V
+566.
+687350
+687354
+C 183760
+Tominčeva c.-Benedikova ul.
+C 186980
+116
+V
+567.
+687360
+687361
+C R2 410
+Bleiweisova c.-Veliki hrib VI
+Z HŠ 65
+108
+V
+568.
+687380
+687381
+C 183180
+Jezerska c. I
+Z HŠ 8
+57
+V
+569.
+687390
+687391
+C 183180
+Jezerska c. II
+Z HŠ 22a
+109
+V
+570.
+687410
+687411
+C 183520
+Partizanska c.-mimo HŠ 41
+C 183520
+231
+V
+571.
+687420
+687421
+C 187160
+Drulovka-v Špik I
+Z HŠ 30
+266
+V
+572.
+687420
+687422
+O 687421
+Drulovka-v Špik II
+O 686201
+70
+V
+573.
+687420
+687423
+O 686201
+Drulovka-v Špik III
+O 687421
+74
+V
+574.
+687420
+687424
+O 686201
+Drulovka-v Špik IV
+O 687421
+81
+V
+575.
+687430
+687431
+C 183710
+Drulovka-v Graben I
+Z HŠ 23
+389
+V
+576.
+687430
+687432
+O 687431
+Drulovka-v Graben II
+Z HŠ 25a
+52
+V
+577.
+687460
+687461
+O 687462
+Mlaka
+Z HŠ 58
+114
+V
+578.
+687460
+687462
+C R2 410
+Pokopališka ulica
+C 183080
+775
+V
+579.
+687470
+687471
+O 686112
+Zlato polje I
+Z HŠ 15c
+155
+V
+580.
+687470
+687472
+O 687471
+Zlato polje II
+C 187170
+134
+V
+581.
+687470
+687473
+C 187170
+Koroška c.-pizzerija Gorenc
+Z HŠ 61a
+104
+V
+582.
+687480
+687481
+O 687482
+Trojarjeva ul. 12
+Z HŠ 12
+73
+V
+583.
+687480
+687482
+C 183450
+Trojarjeva ul. I
+C 188880
+164
+V
+584.
+687480
+687483
+C 188880
+Trojarjeva ul. II
+O 687484
+104
+V
+585.
+687480
+687484
+C 186350
+Šempeterska ul. I
+C 188880
+214
+V
+586.
+687480
+687485
+C 188880
+Šempeterska ul. II
+C 183450
+194
+V
+587.
+687480
+687486
+C 186350
+Detelova ul.
+C 188880
+289
+V
+588.
+687480
+687487
+C 183450
+Strmov I
+O 687486
+234
+V
+589.
+687480
+687488
+O 687487
+Šiškovo naselje
+Z HŠ 16
+195
+V
+590.
+687490
+687491
+C R2 410
+Bleiweisova c.-Veliki hrib I
+Z HŠ 62
+77
+V
+591.
+687500
+687501
+C 183030
+Zg. Bitnje 88
+Z HŠ 88
+88
+V
+592.
+687510
+687511
+C R1 210
+Zg. Bitnje 43
+Z HŠ 43
+103
+V
+593.
+687520
+687521
+C R1 210
+Zg. Bitnje 41
+Z HŠ 41
+134
+V
+594.
+687530
+687531
+C 183400
+C. na Klanec I
+Z HŠ 8g
+107
+V
+595.
+687540
+687541
+C 186610
+Ručigajeva c. I
+Z HŠ 36
+104
+V
+596.
+687550
+687551
+O 683451
+Babni vrt II
+Z HŠ 5a
+89
+V
+597.
+687560
+687561
+O 683441
+Babni vrt III
+Z HŠ 5
+211
+V
+598.
+687580
+687581
+C 183050
+Trstenik-do mini ranča
+Z HŠ 1d
+158
+V
+599.
+687590
+687591
+C 183060
+Čadovlje I
+Z HŠ 15
+41
+V
+600.
+687590
+687592
+C 183060
+Čadovlje II
+Z HŠ 20
+150
+V
+601.
+687590
+687593
+O 687592
+Čadovlje III
+Z HŠ 24
+68
+V
+602.
+687600
+687601
+C 183060
+Žablje-krožna mimo HŠ 1
+C 183060
+103
+V
+603.
+687610
+687611
+C 183060
+Žablje I
+Z HŠ 4
+99
+V
+604.
+687620
+687621
+C 183060
+Žablje II
+Z gozdna
+138
+V
+605.
+687630
+687631
+O 685671
+Goriče-krožna okoli cerkve
+O 685671
+113
+V
+606.
+687650
+687651
+C 183050
+Goriče-Bajt-Žogar
+Z HŠ 4
+35
+V
+607.
+687660
+687661
+C 187170
+Struževo-Korotan
+Z HŠ 20
+72
+V
+608.
+687670
+687671
+O 686232
+Mrakova ul.-Mlakarjeva ul. II
+O 687684
+88
+V
+609.
+687680
+687681
+O 687684
+Mlakarjeva ul.-bloki
+Z HŠ 23
+135
+V
+610.
+687680
+687682
+C 183520
+Partizanska c.-C. Kokrškega o.
+C 183510
+175
+V
+611.
+687680
+687683
+C 183510
+Ul. Mladinskih brigad
+C 183520
+189
+V
+612.
+687680
+687684
+C 183510
+Mrakova ul.-Mlakarjeva ul. I
+C 186450
+285
+V
+613.
+687680
+687685
+C 183510
+Vidmarjeva ul.
+Z HŠ 14
+160
+V
+614.
+687680
+687686
+O 687685
+Mandeljčeva pot
+O 687706
+194
+V
+615.
+687680
+687687
+C 183510
+Begunjska ul. 42
+Z HŠ 42
+281
+V
+616.
+687680
+687688
+C 186380
+Kebetova ul. II
+C 183860
+211
+V
+617.
+687680
+687689
+C 186380
+Valjavčeva ul.
+C 186380
+437
+V
+618.
+687690
+687691
+O 687687
+Begunjska ul. I
+O 687687
+190
+V
+619.
+687690
+687692
+O 687694
+Begunjska ul. II
+O 687691
+59
+V
+620.
+687690
+687693
+O 687694
+Begunjska ul. III
+O 687687
+62
+V
+621.
+687690
+687694
+C 183510
+Begunjska ul. IV
+O 687687
+120
+V
+622.
+687690
+687695
+O 687696
+Begunjska ul. V
+O 687694
+99
+V
+623.
+687690
+687696
+C 183860
+Begunjska ul. VI
+O 687694
+78
+V
+624.
+687690
+687697
+O 687696
+Begunjska ul. VII
+Z HŠ 50
+67
+V
+625.
+687700
+687702
+O 686264
+Kebetova ul. 3
+Z HŠ 3
+30
+V
+626.
+687700
+687703
+O 686264
+Kebetova ul. 9
+Z HŠ 9
+99
+V
+627.
+687700
+687704
+O 687688
+Kebetova ul. 11
+Z HŠ 11
+79
+V
+628.
+687700
+687705
+C 183500
+C. Kokrškega odreda
+O 686097
+102
+V
+629.
+687700
+687706
+C 183510
+C. Kokrškega odreda-stadion
+Z stadi.
+172
+V
+630.
+687710
+687711
+O 687712
+Nazorjeva ul.-bloki
+Z HŠ 10
+48
+V
+631.
+687710
+687712
+C 186400
+Nazorjeva ul. 6
+Z HŠ 6
+144
+V
+632.
+687720
+687722
+C R2 410
+Kidričeva c.-toplarna
+Z N.H.
+64
+V
+633.
+687720
+687723
+C R2 410
+Kidričeva c.-OŠ Helene Puhar
+Z HŠ 51
+72
+V
+634.
+687720
+687724
+C 186620
+Kidričeva ul. 63
+Z HŠ 63
+127
+V
+635.
+687720
+687725
+C 186620
+Kidričeva c.-FOV
+Z HŠ 55a
+78
+V
+636.
+687720
+687726
+C 186620
+Kidričeva c.-ESIC
+Z HŠ 65
+165
+V
+637.
+687720
+687727
+C R2 410
+Kidričeva c. I
+C R2 410
+176
+V
+638.
+687720
+687728
+C 186620
+Kidričeva c. II
+O 687727
+147
+V
+639.
+687750
+687751
+O 685332
+Sp. Besnica VI
+O 685341
+68
+V
+640.
+687750
+687752
+O 685341
+Sp. Besnica VII
+O 685351
+196
+V
+641.
+687760
+687761
+O 685351
+Sp. Besnica VIII
+O 685341
+184
+V
+642.
+687770
+687771
+C 183050
+Trstenik VII
+Z HŠ 37
+303
+V
+643.
+687770
+687772
+C 183050
+Trstenik-Verlič
+Z HŠ 37b
+292
+V
+644.
+687800
+687801
+C 251010
+Hrastje I
+C 251010
+661
+V
+645.
+687810
+687811
+C 251010
+Hrastje II
+Z HŠ 13
+359
+V
+646.
+687810
+687812
+O 687811
+Hrastje-povezava zg. del
+O 687801
+22
+V
+647.
+687820
+687821
+C 251010
+Hrastje III
+Z KS H.
+152
+V
+648.
+687830
+687831
+C 251010
+Hrastje IV
+Z HŠ 176a
+232
+V
+649.
+687840
+687841
+C 251010
+Hrastje V
+Z N.H.
+183
+V
+650.
+687850
+687851
+C 251010
+Hrastje VI
+Z HŠ 146a
+143
+V
+651.
+687860
+687861
+C 251010
+Hrastje VII
+Z HŠ 136
+116
+V
+652.
+687870
+687871
+C 251010
+Hrastje VIII
+Z HŠ 136a
+240
+V
+653.
+687880
+687881
+C 251010
+Hrastje IX
+Z HŠ 115
+164
+V
+654.
+687890
+687891
+C 251010
+Hrastje X
+Z HŠ 87a
+212
+V
+655.
+687900
+687901
+C 251010
+Hrastje XI
+Z HŠ 97
+110
+V
+656.
+687910
+687911
+C 251010
+Hrastje XII
+Z HŠ 86
+212
+V
+657.
+687920
+687921
+C 251010
+Hrastje XIII
+Z HŠ 67
+260
+V
+658.
+687930
+687931
+C R1 210
+Voge I
+C R1 210
+323
+289 Šenčur
+V
+659.
+687940
+687941
+O 687931
+Voge II
+O 687931
+203
+23 Šenčur
+V
+660.
+687940
+687942
+O 687941
+Voge III
+Z HŠ 454
+85
+V
+661.
+687940
+687943
+O 687941
+Voge IV
+Z HŠ 448
+47
+V
+662.
+687950
+687951
+O 687931
+Voge V
+O 687931
+503
+V
+663.
+687950
+687952
+O 687951
+Voge VI
+Z HŠ 544
+38
+V
+664.
+687950
+687953
+O 687951
+Voge VII
+Z N.H.
+36
+V
+665.
+687950
+687954
+O 687951
+Voge VIII
+Z N.H.
+42
+V
+666.
+687950
+687955
+O 687951
+Voge IX
+Z N.H.
+89
+V
+667.
+687950
+687956
+O 687951
+Voge X
+Z HŠ 538
+25
+V
+668.
+687950
+687957
+O 687951
+Voge XI
+Z N.H.
+59
+V
+669.
+687950
+687958
+O 687951
+Voge XII
+Z N.H.
+58
+V
+670.
+687950
+687959
+O 687951
+Voge XIII
+Z HŠ 531
+43
+V
+671.
+687960
+687961
+O 687951
+Voge XIV
+Z HŠ 517
+56
+V
+672.
+687960
+687962
+O 687951
+Voge XV
+Z HŠ 525
+63
+V
+673.
+687960
+687963
+O 687951
+Voge XVI
+Z HŠ 522
+40
+V
+674.
+688010
+688011
+C R2 410
+C. čez K. polje-mimo vrtnarije
+C R2 412
+1.217
+V
+675.
+688020
+688021
+O 686112
+Zlato polje-SPIZ I
+Z HŠ 2d
+198
+V
+676.
+688020
+688022
+O 688021
+Zlato polje-SPIZ II
+Z HŠ 2c
+148
+V
+677.
+688020
+688023
+O 688022
+Zlato polje-SPIZ III
+O 688021
+35
+V
+678.
+688020
+688024
+O 688022
+Zlato polje-SPIZ IV
+Z HŠ 3
+34
+V
+679.
+688030
+688031
+O 686111
+Zlato polje III
+O 686112
+135
+V
+680.
+688030
+688032
+O 688031
+Zlato polje IV
+Z HŠ 11b
+70
+V
+681.
+688030
+688033
+O 688031
+Zlato polje V
+Z HŠ 14c
+107
+V
+682.
+688040
+688041
+O 685981
+Pot na Šmarjetno-mimo kapele
+Z razcep
+654
+V
+683.
+688040
+688042
+O 685981
+Cicibanova ul. 7
+Z HŠ 7
+158
+V
+684.
+688050
+688051
+O 685981
+Pot v Torklo
+Z HŠ 6
+414
+V
+685.
+688050
+688052
+O 685981
+Pod gradom
+Z HŠ 8
+147
+V
+686.
+688060
+688061
+O 685981
+Na Vinograde
+Z HŠ 4
+880
+V
+687.
+688070
+688071
+O 688061
+Pot na Jošta 61
+Z HŠ 61
+71
+V
+688.
+688070
+688072
+O 685981
+Ješetova ul. 89
+Z HŠ 89
+126
+V
+689.
+688070
+688073
+O 685981
+Ješetova ul. 77
+Z HŠ 77
+143
+V
+690.
+688070
+688074
+C 183760
+Ješetova ul. 59
+Z HŠ 59
+83
+V
+691.
+688070
+688075
+C 186570
+Pševska c. I
+Z HŠ 38
+116
+V
+692.
+688070
+688076
+C 186570
+Pševska c. II
+C 183010
+108
+V
+693.
+688070
+688077
+O 688078
+Zlatnarjeva pot 6
+Z HŠ 6
+70
+V
+694.
+688070
+688078
+C 186570
+Zlatnarjeva pot 11
+Z HŠ 11
+144
+V
+695.
+688080
+688081
+C 183010
+Škofjeloška c. 48
+Z HŠ 48
+104
+V
+696.
+688090
+688091
+C 183440
+Škofjeloška c. 92
+Z HŠ 92
+142
+V
+697.
+688090
+688092
+O 688091
+Škof. c. 90-Ješetova ul. 2
+C183011
+120
+V
+698.
+688100
+688101
+O 688102
+Nartnikova ul. 7
+Z HŠ 7
+96
+V
+699.
+688100
+688102
+C 183010
+Stražišče-Nartnikova ul.
+C R2 412
+132
+V
+700.
+688110
+688111
+O 688102
+Žeškova ul. 5
+Z HŠ 5
+83
+V
+701.
+688120
+688121
+C 183450
+C. na Šmarjetno goro
+Z HŠ 6
+2.055
+V
+702.
+688130
+688131
+C 183440
+Pot v Bitnje-Bantale
+Z HŠ 26
+281
+V
+703.
+688140
+688141
+C 183440
+Pot v Bitnje-pri HŠ 13
+C 187200
+96
+V
+704.
+688150
+688151
+C 187200
+Pot v Bitnje-Križnarjevo p.
+Z HŠ 12
+130
+V
+705.
+688160
+688161
+C 183440
+Pot v Bitnje-krožna
+C 187200
+351
+V
+706.
+688170
+688171
+C 183440
+Pot v Bitnje-pri HŠ 152
+C 187200
+231
+V
+707.
+688170
+688172
+C 187200
+Pot v Bitnje-Bantale
+O 686146
+354
+V
+708.
+688180
+688181
+C R2 410
+Bleiweisova c.-Veliki hrib IV
+Z HŠ 102
+139
+V
+709.
+688180
+688182
+O 688181
+Bleiweisova c.-Veliki hrib V
+Z HŠ 108
+94
+V
+710.
+688190
+688191
+C R2 410
+Bleiweisova c.-Veliki hrib II
+Z HŠ 90
+87
+V
+711.
+688200
+688201
+C R2 410
+Bleiweisova c.-Veliki hrib III
+Z HŠ 72
+111
+V
+712.
+688210
+688211
+C 183510
+C. na Rupo I
+Z HŠ 22
+71
+V
+713.
+688210
+688212
+C 187300
+Kuratova ul. 14
+Z HŠ 14
+81
+V
+714.
+688210
+688213
+C 187300
+Kuratova ul. 36
+Z HŠ 36
+74
+V
+715.
+688210
+688214
+C 187300
+Kuratova ul. 39
+Z HŠ 39
+110
+V
+716.
+688220
+688221
+C 183510
+Dežmanova ul.
+C 187320
+242
+V
+717.
+688230
+688231
+C 183510
+Okornova ul.
+C 187320
+206
+V
+718.
+688240
+688241
+C 183510
+C. na Rupo II
+Z HŠ 29
+72
+V
+719.
+688250
+688251
+C 183510
+C. na Rupo III
+Z HŠ 41a
+132
+V
+720.
+688250
+688252
+C 183510
+Galetova ul. 2
+Z HŠ 2
+124
+V
+721.
+688260
+688261
+C 183510
+Snediceva ul.
+C 187320
+186
+V
+722.
+688270
+688271
+C 183080
+Dolžanova pot
+Z HŠ 8
+309
+V
+723.
+688280
+688281
+O 688292
+Partizanska pot 12a
+Z HŠ 12a
+72
+V
+724.
+688290
+688291
+O 688292
+Partizanska pot 6
+Z HŠ 6
+83
+V
+725.
+688290
+688292
+C 187410
+Partizanska pot-Čukova jama
+Z HŠ 17
+611
+V
+726.
+688300
+688301
+C 187410
+C. na Belo
+Z HŠ 13
+180
+V
+727.
+688310
+688311
+C R2 410
+Golniška c. 7
+Z HŠ 7
+65
+V
+728.
+688320
+688321
+O 688322
+Pestotnikova ul. 26
+Z HŠ 26
+70
+V
+729.
+688320
+688322
+C R2 410
+Pestotnikova ul. 21
+Z HŠ 21
+171
+V
+730.
+688330
+688331
+C R2 410
+Golniška cesta I
+Z HŠ 12
+79
+V
+731.
+688340
+688341
+C 685720
+Nedeljska vas
+O 688344
+159
+V
+732.
+688340
+688342
+C 685720
+Benedičičeva pot
+O 688344
+143
+V
+733.
+688340
+688343
+C R2 410
+Dolenčeva pot
+O 688345
+222
+V
+734.
+688340
+688344
+O 688345
+Zagrajškova ul. I
+Z HŠ 27
+266
+V
+735.
+688340
+688345
+C 388340
+Zagrajškova ul. II
+O 688341
+196
+V
+736.
+688350
+688351
+C R2 410
+Golniška cesta II
+Z HŠ 20
+65
+V
+737.
+688360
+688361
+C R2 410
+Golniška cesta III
+Z HŠ 41
+99
+V
+738.
+688370
+688371
+C R2 410
+Golniška cesta IV
+Z HŠ 55
+82
+V
+739.
+688380
+688381
+C 685720
+Golniška cesta V
+Z HŠ 69
+144
+V
+740.
+688390
+688391
+C 685720
+Štefetova ul.
+O 688392
+364
+V
+741.
+688390
+688392
+C R2 410
+Mlaška cesta
+C 685720
+505
+V
+742.
+688400
+688401
+O 688392
+Na Griču I
+Z HŠ 17
+224
+V
+743.
+688400
+688402
+O 688401
+Na Griču II
+Z HŠ 40
+113
+V
+744.
+688410
+688411
+O 688392
+Mlaška c. 93
+Z HŠ 93
+127
+V
+745.
+688420
+688421
+C 685720
+Na Griču III
+Z HŠ 12
+108
+V
+746.
+688430
+688431
+C 685720
+Mlaka-novo naselje I
+Z N.H.
+167
+V
+747.
+688430
+688432
+O 688431
+Mlaka-novo naselje II
+Z HŠ 83
+123
+V
+748.
+688430
+688433
+O 688431
+Mlaka-novo naselje III
+Z HŠ 88
+135
+V
+749.
+688440
+688441
+C 685720
+Na Griču (Mlaška c.) I
+Z HŠ 69
+164
+V
+750.
+688440
+688442
+O 688441
+Na Griču (Mlaška c.) II
+Z HŠ 64
+33
+V
+751.
+688440
+688443
+O 688441
+Na Griču (Mlaška c.) III
+Z HŠ 67
+46
+V
+752.
+688450
+688451
+C 685720
+Pot na Zelenec I
+Z HŠ 8
+129
+V
+753.
+688450
+688452
+C 685720
+Pot na Zelenec II
+Z HŠ 40
+41
+V
+754.
+688450
+688453
+C 685720
+Pot na Zelenec III
+Z HŠ 57
+71
+V
+755.
+688450
+688454
+C 685720
+Pot na Zelenec IV
+Z HŠ 39
+139
+V
+756.
+688450
+688455
+C 685720
+Pot na Zelenec V
+Z HŠ 19
+96
+V
+757.
+688460
+688461
+C R2 410
+Oretnekova pot I
+O 688391
+313
+V
+758.
+688460
+688462
+O 688461
+Oretnekova pot II
+O 688461
+90
+V
+759.
+688470
+688471
+C R2 410
+Golniška cesta-za lekarno I
+Z HŠ 95
+132
+V
+760.
+688470
+688473
+O 688471
+Golniška cesta-za lekarno II
+Z HŠ 81
+35
+V
+761.
+688480
+688481
+C 183090
+Konjederec-trim steza
+Z HŠ 114
+410
+V
+762.
+688490
+688491
+C 187170
+Struževo-strelišče
+Z strel.
+761
+V
+763.
+688500
+688501
+C 187170
+Struževo 47
+Z HŠ 47
+125
+V
+764.
+688510
+688511
+C 187170
+Struževo-ob železnici I
+C 187170
+400
+V
+765.
+688510
+688512
+O 688511
+Struževo-ob železnici II
+Z HŠ 47f
+198
+V
+766.
+688520
+688521
+C R2 412
+Ljubljanska c. 19b
+Z HŠ 19b
+129
+V
+767.
+688520
+688522
+C R2 412
+Povezava Remont Labore
+C 251040
+128
+V
+768.
+688530
+688531
+C 187750
+Zadružna ul.-Jezerska c.
+C 183180
+113
+V
+769.
+688540
+688541
+C 183550
+Jelenčeva ul.
+C 183530
+250
+V
+770.
+688550
+688551
+C 183180
+Kurirska pot
+C 183530
+159
+V
+771.
+688560
+688561
+O 688551
+Kokrški log I
+Z HŠ 3a
+241
+V
+772.
+688560
+688562
+O 688561
+Kokrški log-Z. krak
+O 688551
+63
+V
+773.
+688560
+688563
+O 688561
+Kokrški log II
+Z HŠ 8
+97
+V
+774.
+688560
+688564
+O 688561
+Kokrški log III
+C 183530
+154
+V
+775.
+688570
+688571
+C 183550
+Krašanova ul.
+Z HŠ 23
+178
+V
+776.
+688580
+688581
+C 183180
+Jezerska c. III
+Z HŠ 62b
+114
+V
+777.
+688590
+688591
+O 688581
+Jezerska c. IV
+Z HŠ 60b
+66
+V
+778.
+688600
+688601
+C 183180
+Jezerska c. V
+Z HŠ 56a
+159
+V
+779.
+688600
+688602
+C 183180
+Šuceva ul.
+C 183560
+299
+V
+780.
+688610
+688611
+O 688602
+Šuceva ul. 15
+Z HŠ 15
+62
+V
+781.
+688620
+688621
+O 688602
+Šuceva ul. 10
+Z HŠ 10
+72
+V
+782.
+688630
+688631
+C 183180
+Jezerska c.-mimo HŠ 78b
+C R1 210
+780
+V
+783.
+688640
+688641
+C 183180
+Jezerska c. VI
+Z HŠ 74c
+117
+V
+784.
+688650
+688651
+C 183180
+Jezerska c.-pri HŠ 94
+Z razcep
+189
+V
+785.
+688660
+688661
+C 183180
+Jezerska c. VII
+Z HŠ 104a
+82
+V
+786.
+688670
+688671
+C 183180
+Jezerska-mimo gostilne
+Z HŠ 93c
+49
+V
+787.
+688680
+688681
+C 187930
+Kalinškova ul.-krožna
+C 187930
+201
+V
+788.
+688680
+688682
+O 688681
+Kalinškova ul. 17
+Z HŠ 17
+36
+V
+789.
+688690
+688691
+C 187930
+Kalinškova ul. 31
+Z HŠ 31
+60
+V
+790.
+688700
+688701
+C 183400
+Ručigajeva c. II
+C 183180
+288
+V
+791.
+688710
+688711
+O 688712
+Smledniška c.-naselje Iskra II
+O 688711
+301
+V
+792.
+688710
+688712
+C 251010
+Smledniška c.-naselje Iskra I
+C 251010
+288
+V
+793.
+688720
+688721
+O 688742
+Smledniška c.-Šmidova ul.
+Z HŠ 132
+104
+V
+794.
+688730
+688731
+O 688742
+Smledniška c. 124
+Z HŠ 124
+53
+V
+795.
+688740
+688741
+O 688742
+Smledniška c. 122
+Z HŠ 122
+43
+V
+796.
+688740
+688742
+C 251010
+Pot v gozdičku-Luznar
+Z HŠ 144
+337
+V
+797.
+688750
+688751
+O 688782
+Gregoričeva ul. 21
+Z HŠ 21
+50
+V
+798.
+688760
+688761
+O 688783
+Retljeva ul. 11
+Z HŠ 11
+95
+V
+799.
+688770
+688771
+O 688782
+Šmidova ul. 15
+Z HŠ 15
+146
+V
+800.
+688770
+688772
+O 688771
+Šmidova ul. 8
+Z HŠ 8
+114
+V
+801.
+688770
+688773
+O 688771
+Šmidova ul. 3
+Z HŠ 3
+68
+V
+802.
+688780
+688781
+C 251010
+Smledniška c. 82
+Z HŠ 82
+101
+V
+803.
+688780
+688782
+C 251010
+Gregorčičeva ul.
+Z HŠ 31
+244
+V
+804.
+688780
+688783
+C 183700
+Retljeva ul.
+O 688782
+198
+V
+805.
+688790
+688791
+O 686253
+Pintarjeva ul.
+O 688801
+238
+V
+806.
+688800
+688801
+O 688821
+Staretova ul. I
+C 183700
+189
+V
+807.
+688800
+688802
+O 688801
+Staretova ul. II
+C 183700
+116
+V
+808.
+688800
+688803
+C 183700
+Staretova ul. 58
+Z HŠ 58
+282
+V
+809.
+688800
+688804
+O 688803
+Staretova ul. 46
+Z HŠ 46
+46
+V
+810.
+688800
+688805
+O 688803
+Staretova ul. 40
+Z HŠ 40
+43
+V
+811.
+688810
+688811
+C 183080
+C. na Brdo
+C 183090
+221
+V
+812.
+688820
+688821
+O 686251
+Staretova ul.-mimo cerkve
+C 183700
+307
+V
+813.
+688830
+688831
+O 686251
+Smledniška c. 11
+Z HŠ 11
+66
+V
+814.
+688840
+688841
+O 686251
+Smledniška c. 16
+Z HŠ 16
+67
+V
+815.
+688850
+688851
+O 686251
+Mlekarska ul.
+O 686251
+291
+V
+816.
+688850
+688852
+O 688851
+Mlekarska ul. 9
+Z HŠ 9
+64
+V
+817.
+688880
+688881
+O 686251
+Smledniška c. 9
+Z HŠ 9
+120
+V
+818.
+688890
+688891
+O 686251
+Staretova ul.-ob g. Krtina
+O 686251
+228
+V
+819.
+688890
+688893
+O 686251
+Smledniška c.-Čirče
+C 183700
+129
+V
+820.
+688900
+688901
+O 686251
+Nadižarjeva ul.
+O 688801
+227
+V
+821.
+688910
+688911
+C 183700
+Čirče
+Z HŠ 43
+168
+V
+822.
+688920
+688921
+C 183700
+Grmičeva ul. 27
+Z HŠ 43
+59
+V
+823.
+688930
+688931
+C 251040
+Sorška ul. I
+C 187160
+287
+V
+824.
+688930
+688932
+O 688931
+Sorška ul. II
+Z HŠ 15
+86
+V
+825.
+688930
+688936
+O 688931
+Sorška ul. III
+Z HŠ 5
+59
+V
+826.
+688940
+688941
+C 187160
+Kališka ul. I
+O 688941
+190
+V
+827.
+688940
+688942
+O 688941
+Kališka ul. II
+O 688941
+127
+V
+828.
+688940
+688943
+O 688941
+Kališka ul. III
+O 688942
+124
+V
+829.
+688940
+688944
+O 688941
+Kališka ul. IV
+Z HŠ 8
+186
+V
+830.
+688950
+688951
+C 187160
+Grintovška ul. I
+C 187160
+265
+V
+831.
+688950
+688952
+O 688951
+Grintovška ul. II
+O 688951
+63
+V
+832.
+688950
+688953
+O 688951
+Grintovška ul. III
+O 688952
+68
+V
+833.
+688950
+688954
+O 688951
+Grintovška ul. IV
+O 688951
+132
+V
+834.
+688950
+688955
+O 688951
+Grintovška ul. V
+O 688951
+115
+V
+835.
+688960
+688961
+C 187160
+Kriška ul. I
+O 688964
+260
+V
+836.
+688960
+688962
+O 688961
+Kriška ul. II
+O 688961
+73
+V
+837.
+688960
+688963
+O 688962
+Kriška ul. III
+O 688961
+131
+V
+838.
+688960
+688964
+O 688961
+Kriška ul. IV
+O 688961
+147
+V
+839.
+688970
+688971
+C 187160
+Storžiška ul. I
+C 187160
+239
+V
+840.
+688970
+688972
+O 688971
+Storžiška ul. II
+O 688971
+89
+V
+841.
+688970
+688973
+O 688971
+Storžiška ul. III
+O 688972
+48
+V
+842.
+688970
+688975
+O 688971
+Storžiška ul. IV
+O 688971
+102
+V
+843.
+688980
+688981
+C 187160
+Triglavska ul. I
+Z HŠ 13
+84
+V
+844.
+688980
+688982
+O 688981
+Triglavska ul. II
+O 688981
+64
+V
+845.
+688990
+688991
+C 187160
+Zariška ul. I
+O 688991
+264
+V
+846.
+688990
+688993
+O 688991
+Zariška ul. II
+O 688991
+55
+V
+847.
+688990
+688994
+O 688991
+Zariška ul. III
+O 688991
+68
+V
+848.
+688990
+688995
+O 688991
+Zariška ul. IV
+O 688991
+100
+V
+849.
+751370
+751371
+C R2 413
+Zbilje-Podreča
+C 251040
+694
+469 Medvode
+V
+850.
+826820
+826821
+C 326020
+Sp. Bela-Hraše-Tatinec
+C 326020
+951
+1.442 Preddvor
+V
+851.
+826870
+826871
+C 826820
+Čadovlje-Hraše
+C 326060
+1042
+989 Preddvor
+V
+852.
+902380
+902382
+C 401380
+Trata-Žabnica
+C 401070
+677
+1.354 Škofja Loka
+V
+853.
+902840
+902841
+C R1 210
+Dorfarje-Šutna
+C 183030
+79
+242 Škofja Loka
+V
+854.
+928260
+928261
+C 183111
+LC 111-Novake
+Z HŠ 4
+54
+809 Tržič
+V
+
+Skupna dolžina javnih poti (JP) v Mestni občini Kranj znaša 204.880 m (204,880 km).
+
+3. člen
+
+V odloku se 9. člen spremeni tako, da se glasi:
+
+»9. člen
+
+Javne poti za kolesarje (KJ) so:
+
+Zap. št.
+Cesta
+Odsek
+Začetek odseka
+Opis
+Konec odseka
+Dolžina [m]
+Preostala dolžina v sos. občini [m]
+Vrsta prometa
+1.
+968810
+968811
+O 968801
+Zlato polje-Mlaka
+C 183090
+1371
+K
+2.
+968820
+968821
+C 183400
+V. vpadnica-C. Jaja Platišče
+O 183582
+630
+K
+3.
+968830
+968831
+C R1 211
+Orehek-Žabnica I
+C 183200
+2062
+K
+4.
+968830
+968832
+C 183200
+Orehek-Žabnica II
+C 902380
+1770
+K
+5.
+990240
+990241
+C 401040
+Križna gora-Lavtarski vrh
+C 685040
+857
+435 Škofja Loka
+K
+
+Skupna dolžina javnih poti za kolesarje (KJ) v Mestni občini Kranj znaša 6.690 m (6,690 km).
+
+4. člen
+
+V odloku se 10. člen spremeni tako, da se glasi:
+
+»10. člen
+
+H kategorizaciji občinskih cest, določenih s tem odlokom, so bila v skladu z določili Uredbe o merilih za kategorizacijo javnih cest (Uradni list RS, št. 49/97, 113/09 in 109/10) pridobljena soglasja Direkcije RS za ceste št. 37162-3/2012-162(507) z dne 8. 6. 2012, št. 37162-3/2016-157(507) z dne 10. 8. 2016, št. 37162-3/2016-198(507) z dne 22. 11. 2016, št. 37162-3/2018-202(507) z dne 17. 12. 2018, št. 37162-4/2019-34(507) z dne 14. 10. 2019, št. 37162-3/2020-52(507) z dne 5. 3. 2020 in št. 37162-3/2022-18(509) z dne 24. 1. 2022 in št. 37162-3/2022-84(509) z dne 18. 2. 2022.«.
+
+5. člen
+
+Ta odlok začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 007-1/2021-15-402101
+
+Kranj, dne 13. aprila 2022
+
+Župan
+
+Mestne občine Kranj
+
+Matjaž Rakovec
