@@ -4,9 +4,9 @@ naziv: "Resolucija o nacionalnem programu izobraževanja odraslih v Republiki Sl
 vrsta: "akt"
 datum: 2022-04-08
 sop: 2022-01-0983
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-0983"
 ---
 
