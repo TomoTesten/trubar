@@ -2,11 +2,11 @@
 kratica: NAVO785
 naziv: "Navodilo o postopku in načinu ravnanja z osebami, ki v času trajanja začasne zaščite nezakonito vstopijo v Republiko Slovenijo"
 vrsta: "navodilo"
-datum: 2006-03-31
+datum: 2022-04-29
 sop: 2006-01-1413
-organ: "Ministrstvo za notranje zadeve"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1413"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Spremembe Statuta Univerze v Ljubljani"
 vrsta: "akt"
 datum: 2022-05-06
 sop: 2022-01-1388
-organ: "Univerza v Ljubljani"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-1388"
 ---
 
