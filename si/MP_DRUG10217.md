@@ -1,0 +1,247 @@
+---
+kratica: MP_DRUG10217
+naziv: "Zaključni račun proračuna Občine Gorenja vas - Poljane za leto 2021 (DRUG)"
+vrsta: "akt"
+datum: 2022-05-10
+sop: 2022-01-1516
+organ: "Občina Gorenja Vas - Poljane"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-1516"
+---
+
+# Zaključni račun proračuna Občine Gorenja vas - Poljane za leto 2021 (DRUG)
+
+Na podlagi tretjega odstavka 98. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – UPB4, 14/13 – popr., 101/13, 55/15 – ZFisP in 13/18) in 114. člena Statuta Občine Gorenja vas - Poljane (Uradni list RS, št. 85/13, 48/15 in 31/17) je Občinski svet Občine Gorenja vas - Poljane na 19. redni seji 25. aprila 2022 sprejel
+
+Z A K L J U Č N I   R A Č U N
+
+proračuna Občine Gorenja vas - Poljane za leto 2021
+
+1.
+člen
+
+Sprejme se zaključni račun proračuna Občine Gorenja vas - Poljane za leto 2021, ki zajema vse prihodke in odhodke proračuna Občine Gorenja vas - Poljane.
+
+2. člen
+
+Zaključni račun proračuna Občine Gorenja vas - Poljane za leto 2021 obsega:
+
+Skupina/podskupina kontov
+Realizacija 2021 v EUR brez centov
+A. BILANCA PRIHODKOV IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+10.932.844
+TEKOČI PRIHODKI (70+71)
+9.191.666
+70
+DAVČNI PRIHODKI (700+703+704+706)
+7.453.245
+700
+DAVKI NA DOHODEK IN DOBIČEK
+6.729.246
+703
+DAVKI NA PREMOŽENJE
+571.403
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+152.596
+706
+DRUGI DAVKI
+0
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+1.738.421
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+195.915
+711
+TAKSE IN PRISTOJBINE
+7.876
+712
+GLOBE IN DRUGE DENARNE KAZNI
+40.050
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+32.775
+714
+DRUGI NEDAVČNI PRIHODKI
+1.461.806
+72
+KAPITALSKI PRIHODKI (720+721+722)
+188.020
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+162.966
+721
+PRIHODKI OD PRODAJE ZALOG
+0
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+25.054
+73
+PREJETE DONACIJE (730+731)
+990
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+990
+731
+PREJETE DONACIJE IZ TUJINE
+0
+74
+TRANSFERNI PRIHODKI (740+741)
+1.552.167
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+1.546.727
+741
+PREJETA SREDSTVA IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+5.440
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE (786+787)
+0
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+0
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ
+0
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+11.594.481
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+2.848.901
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+551.257
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+88.858
+402
+IZDATKI ZA BLAGO IN STORITVE
+2.095.903
+403
+PLAČILA DOMAČIH OBRESTI
+11.945
+409
+REZERVE
+100.939
+41
+TEKOČI TRANSFERI (410+411+412+413)
+2.937.942
+410
+SUBVENCIJE
+162.922
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+1.954.114
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+190.743
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+630.163
+414
+TEKOČI TRANSFERI V TUJINO
+0
+42
+INVESTICIJSKI ODHODKI (420)
+5.700.764
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+5.700.764
+43
+INVESTICIJSKI TRANSFERI (431+432)
+106.873
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ. OSEBAM
+82.125
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+24.747
+III.
+PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.–II.)
+–661.637
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+75
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+32.156
+750
+PREJETA VRAČILA DANIH POSOJIL
+32.156
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0
+44
+V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+0
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+0
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.–V.)
+32.156
+C. RAČUN FINANCIRANJA
+50
+VII.
+ZADOLŽEVANJE (500)
+0
+500
+DOMAČE ZADOLŽEVANJE
+0
+55
+VIII.
+ODPLAČILA DOLGA (550)
+326.653
+550
+ODPLAČILA DOMAČEGA DOLGA
+326.653
+IX.
+POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (III.+VI.+X.) = (I.+IV.+VII.)–(II.+V.+VIII.)
+–956.134
+X.
+NETO ZADOLŽEVANJE (VII.–VIII.)
+–326.653
+XI.
+NETO FINANCIRANJE (VI.+X.-IX.)
+661.637
+XII.
+STANJE SREDSTEV NA RAČUNIH OB KONCU PRETEKLEGA LETA
+1.486.817
+D. PRORAČUNSKA REZERVA OBČINE na dan 31. 12. 2021 znaša 14.127,45 EUR.
+
+Sredstva proračunske rezerve občine po zaključnem računu proračuna so prenesena v rezervni sklad.
+
+Bilanca prihodkov in odhodkov, izkaz računa finančnih terjatev in naložb, izkaz računa financiranja ter bilanca stanja so sestavni del zaključnega računa proračuna in so objavljeni na spletni strani Občine Gorenja vas - Poljane.
+
+3. člen
+
+Stanje sredstev na računih po zaključnem računu proračuna v višini 530.682,69 EUR je preneseno v proračun občine za leto 2022 kot sredstva na računih.
+
+4. člen
+
+V okviru celotnega proračuna Občine Gorenja vas - Poljane so zajeti prihodki in odhodki krajevnih skupnosti.
+
+5. člen
+
+Zaključni račun proračuna Občine Gorenja vas - Poljane za leto 2021 se objavi v Uradnem listu Republike Slovenije.
+
+Št. 410-001/2020-66
+
+Gorenja vas, dne 25. aprila 2022
+
+Župan
+
+Občine Gorenja vas - Poljane
+
+Milan Janez Čadež
