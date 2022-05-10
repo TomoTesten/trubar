@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Poslovnika Državnega sveta (PoDS-1G)"
 vrsta: "akt"
 datum: 2022-05-13
 sop: 2022-01-1540
-organ: "Državni svet Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-1540"
 ---
 
