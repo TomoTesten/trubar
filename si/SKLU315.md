@@ -4,9 +4,9 @@ naziv: "Sklep o zadržanju izvrševanja tretjega in četrtega odstavka 37. člen
 vrsta: "akt"
 datum: 2022-06-10
 sop: 2022-01-1859
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-1859"
 ---
 
