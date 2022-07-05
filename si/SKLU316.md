@@ -4,9 +4,9 @@ naziv: "Sklep o začasnem zadržanju izvrševanja 22. člena Uredbe o vodovarstv
 vrsta: "akt"
 datum: 2022-07-08
 sop: 2022-01-2302
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-2302"
 ---
 
