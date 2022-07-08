@@ -1,0 +1,699 @@
+---
+kratica: KOLP606
+naziv: "Aneks št. 13 h Kolektivni pogodbi za javni sektor (KPJS)"
+vrsta: "akt"
+datum: 2022-10-25
+sop: 2022-01-3307
+organ: "Vlada Republike Slovenije"
+zbirka: "Neveljavni predpisi"
+status: "Neveljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-3307"
+---
+
+# Aneks št. 13 h Kolektivni pogodbi za javni sektor (KPJS)
+
+Na podlagi 4. člena Kolektivne pogodbe za javni sektor (Uradni list RS, št. 57/08, 23/09, 91/09, 89/10, 89/10, 40/12, 46/13, 95/14, 91/15, 21/17, 46/17, 69/17 in 80/18)
+
+Vlada Republike Slovenije kot stranka na strani delodajalca
+
+in
+
+reprezentativni sindikati javnega sektorja kot stranka na strani javnih uslužbencev
+
+sklenejo
+
+A N E K S   Š T.   1 3
+
+h Kolektivni pogodbi za javni sektor (KPJS)
+
+1. člen
+
+(namen sklepanja)
+
+Ta aneks se sklepa zaradi določitve višine uskladitve vrednosti plačnih razredov plačne lestvice iz priloge 1 Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 108/09 – uradno prečiščeno besedilo, 13/10, 59/10, 85/10, 107/10, 35/11 – ORZSPJS49a, 27/12 – odl. US, 40/12 – ZUJF, 46/13, 25/14 – ZFU, 50/14, 95/14 – ZUPPJS15, 82/15, 23/17 – ZDOdv, 67/17, 84/18 in 204/21; v nadaljnjem besedilu: ZSPJS), uskladitve višine dodatkov za specializacijo, magisterij in doktorat in dodatkov za manj ugodne delovne pogoje ter spremembe uvrstitev orientacijskih delovnih mest v skladu s 1. in 2. točko Dogovora o ukrepih na področju plač in drugih stroškov dela v javnem sektorju za leti 2022 in 2023.
+
+2. člen
+
+(višina uskladitve)
+
+Višina uskladitve vrednosti plačnih razredov plačne lestvice za javne uslužbence znaša 4,5 odstotkov.
+
+3. člen
+
+(uvrstitev orientacijskih delovnih mest)
+
+V Kolektivni pogodbi za javni sektor (Uradni list RS, št. 57/08, 23/09, 91/09, 89/10, 89/10, 40/12, 46/13, 95/14, 91/15, 21/17, 46/17, 69/17 in 80/18) se besedilo 16. člena spremeni tako, da se glasi:
+
+»V skladu s to pogodbo se določajo orientacijska delovna mesta plačnih skupin C do K, in sicer:
+
+Plačna skupina C:
+
+Šifra ODM
+Ime orientacijskega delovnega mesta
+Tarifni razred
+Plačni razred brez napr.
+C025003
+Referent
+V
+22
+C026002
+Višji referent
+VI
+25
+C027005
+Svetovalec
+VII/1
+31
+C027010
+Višji svetovalec
+VII/2
+36
+C027001
+Podsekretar
+VII/2
+43
+C035003
+Policist
+V
+25
+C035001
+Kriminalist
+V
+25
+C045001
+Vojak
+V
+25
+C055001
+Carinik
+V
+25
+C065006
+Pravosodni policist
+V
+25
+C055005
+Finančni izterjevalec
+V
+25
+C055008
+Finančni kontrolor
+V
+24
+C067002
+Inšpektor
+VII/2
+39
+C067016
+Notranji revizor svetovalec
+VII/1
+31
+C067017
+Notranji revizor višji svetovalec
+VII/2
+37
+C067014
+Notranji revizor podsekretar
+VII/2
+43
+
+Plačna skupina D:
+
+Šifra ODM
+Ime orientacijskega delovnega mesta
+Tarifni razred
+Plačni razred brez napr.
+D010001
+Asistent z doktoratom
+IX
+44
+D019001
+Visokošolski učitelj docent
+IX
+47
+D027021
+Predavatelj višje strokovne šole
+VII/2
+34
+D027030
+Učitelj
+VII/2
+33
+D035001
+Pomočnik vzgojitelja
+V
+23
+D037007
+Vzgojitelj
+VII/1
+33
+
+Plačna skupina E:
+
+Šifra ODM
+Ime orientacijskega delovnega mesta
+Tarifni razred
+Plačni razred brez napr.
+E017005
+Zdravnik sekundarij
+VII/2
+32
+E017022
+Zobozdravnik
+VII/2
+36
+E017001
+Zdravnik brez specializacije/zdravnik po opravljenem sekundariatu
+VII/2
+36
+E018001
+Zdravnik specialist II
+VIII
+42
+E025005
+Farmacevtski tehnik III
+V
+23
+E027005
+Farmacevt III
+VII/2
+35
+E028005
+Farmacevt specialist II
+VIII
+43
+E035009
+Srednja medicinska sestra v ambulanti
+V
+23
+E037001
+Diplomirana babica dispanzerska dejavnost
+VII/1
+32
+E037011
+Diplomirana medicinska sestra dispanzerska dejavnost
+VII/1
+32
+E037038
+Profesor zdravstvene vzgoje
+VII/2
+33
+E045007
+Laboratorijski tehnik III
+V
+23
+E047024
+Fizioterapevt III (ambulanta)
+VII/1
+32
+E047056
+Radiološki inženir III
+VII/1
+34
+E048001
+Klinični psiholog specialist
+VIII
+43
+E048007
+Medicinski biokemik specialist III
+VIII
+43
+
+Plačna skupina F:
+
+Šifra ODM
+Ime orientacijskega delovnega mesta
+Tarifni razred
+Plačni razred brez napr.
+F017012
+Strokovni delavec storitve
+VII/2
+33
+F017008
+Skupinski habilitator
+VII/2
+34
+F024002
+Bolničar negovalec II
+IV
+19
+F024005
+Socialna oskrbovalka II
+IV
+20
+F025012
+Varuhinja I
+V
+23
+F025010
+Srednja medicinska sestra II
+V
+25
+F027010
+Medicinska sestra vodja tima
+VII/1
+34
+F027001
+Delovni terapevt
+VII/1
+32
+
+Plačna skupina G:
+
+Šifra ODM
+Ime orientacijskega delovnega mesta
+Tarifni razred
+Plačni razred brez napr.
+G026020
+Tajnica režije skript
+VI
+27
+G016007
+Zborist
+VI
+27
+G027005
+Bibliotekar
+VII/2
+33
+G027029
+Snemalec
+VII/2
+32
+G027017
+Napovedovalec
+VII/2
+33
+G027016
+Montažer
+VII/2
+32
+G027006
+Kamerman
+VII/2
+32
+G027015
+Mojster zvoka
+VII/2
+35
+G027020
+Novinar specialist
+VII/2
+37
+G017008
+Dramski igralec
+VII/2
+33
+G017041
+Scenarist
+VII/2
+37
+G027021
+Novinar urednik
+VII/2
+39
+G017007
+Dramaturg
+VII/2
+36
+G017044
+Solist v simfoničnem ali operno simfoničnem orkestru
+VII/2
+40
+G027013
+Mojster mešalec slike
+VII/2
+35
+G027027
+Producent
+VII/2
+36
+G017010
+Glasbeni urednik
+VII/2
+38
+G017040
+Režiser
+VII/2
+44
+G027014
+Mojster osvetljave
+VII/2
+35
+G017014
+Koncertni mojster
+VII/2
+46
+G025033
+Šepetalec v dramskem gledališču
+V
+21
+G025002
+Arhivski tehnik
+V
+22
+G026003
+Inspicient
+VI
+26
+G027019
+Novinar poročevalec
+VII/2
+34
+G027012
+Kustos
+VII/2
+33
+G027018
+Novinar komentator
+VII/2
+44
+G028005
+Kustos z magisterijem
+VIII
+37
+G029010
+Kustos z doktoratom
+IX
+43
+
+Plačna skupina H:
+
+Šifra ODM
+Ime orientacijskega delovnega mesta
+Tarifni razred
+Plačni razred brez napr.
+H018001
+Asistent z magisterijem
+VIII
+38
+H019001
+Asistent z doktoratom
+IX
+44
+H019007
+Znanstveni sodelavec
+IX
+47
+
+Plačna skupina I:
+
+Šifra ODM
+Ime orientacijskega delovnega mesta
+Tarifni razred
+Plačni razred brez napr.
+I015038
+Revirni lovec II
+V
+23
+I015003
+Gasilec
+V
+25
+I016025
+Revirni gozdar V
+VI
+26
+I016015
+Namestnik vodje gasilske izmene II
+VI
+29
+I017008
+Gozdar načrtovalec
+VII/2
+33
+I017165
+Vodja gasilske izmene I
+VII/1
+35
+
+Plačna skupina J:
+
+Šifra ODM
+Ime orientacijskega delovnega mesta
+Tarifni razred
+Plačni razred brez napr.
+J015013
+Knjigovodja V
+V
+21
+J015001
+Analitik V
+V
+20
+J015008
+Finančnik V
+V
+21
+J016001
+Analitik VI
+VI
+24
+J016027
+Računovodja VI
+VI
+26
+J016005
+Finančnik VI
+VI
+25
+J017141
+Strokovni sodelavec za upravno pravne zadeve VII/1
+VII/1
+31
+J017016
+Finančnik VII/1
+VII/1
+31
+J017025
+Informatik VII/1
+VII/1
+31
+J017036
+Kadrovik VII/1
+VII/1
+31
+J017093
+Računovodja VII/2 – III
+VII/2
+32
+J017026
+Informatik VII/2
+VII/2
+33
+J025019
+Tajnica V
+V
+19
+J025013
+Sodni zapisnikar V
+V
+22
+J026004
+Poslovni sekretar VI
+VI
+24
+J027005
+Poslovni sekretar VII/1
+VII/1
+28
+J032013
+Perica II
+II
+13
+J032001
+Čistilka II
+II
+12
+J033027
+Vratar III
+III
+14
+J033023
+Telefonist III
+III
+14
+J034030
+Kuhar IV
+IV
+18
+J034089
+Voznik IV
+IV
+16
+J035025
+Hišnik V
+V
+20
+J035035
+Kuhar V
+V
+20
+J035005
+Delovni inštruktor (UIKS) V
+V
+24
+
+Plačna skupina K:
+
+Šifra ODM
+Ime orientacijskega delovnega mesta
+Tarifni razred
+Plačni razred brez napr.
+K015006
+Strokovni delavec za izvajanje zavarovanja/zaposlovanja II
+V
+22
+K017013
+Samostojni svetovalec IV
+VII/2
+33
+
+«.
+
+4. člen
+
+V 37. členu se drugi odstavek spremeni tako, da se glasi:
+
+»Dodatek iz prejšnjega člena je določen v nominalnem znesku, in sicer višina dodatka za specializacijo znaša 24,32 € bruto, za znanstveni magisterij 37,84 € bruto in za doktorat 62,15 € bruto.«.
+
+5. člen
+
+V 38. členu se v prvem odstavku v 1. in 2. točki število »1,04« povsod nadomesti s številom »1,09«, v 2. točki pa se število »0,51« nadomesti s številom »0,53«.
+
+KONČNA DOLOČBA
+
+6. člen
+
+(začetek veljavnosti in uporabe)
+
+Ta aneks začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Usklajena vrednost plačnih razredov plačne lestvice iz priloge 1 ZSPJS v višini, določeni v 2. členu tega aneksa, ter spremenjena 37. in 38. člen kolektivne pogodbe se začnejo uporabljati pri plači za oktober 2022.
+
+Uvrstitve orientacijskih delovnih mest iz 3. člena tega aneksa se začnejo uporabljati 1. aprila 2023.
+
+Št. 007-913/2022
+
+Ljubljana, dne 13. oktobra 2022
+
+EVA 2022-3130-0045
+
+Vlada Republike Slovenije
+Reprezentativni sindikati javnega sektorja
+Sanja Ajanović Hovnik
+ministrica
+za javno upravo
+SINDIKAT VZGOJE, IZOBRAŽEVANJA, ZNANOSTI IN KULTURE SLOVENIJE
+Jelka Velički
+Klemen Boštjančič
+minister
+za finance
+SINDIKAT DRŽAVNIH ORGANOV SLOVENIJE
+Frančišek Verk
+SINDIKAT VETERINARJEV SLOVENIJE – PERGAM
+Nataša Ajdič
+NI PODPISALA
+SINDIKAT DELAVCEV V VZGOJNI, IZOBRAŽEVALNI IN RAZISKOVALNI DEJAVNOSTI SLOVENIJE
+Bojan Ravnikar
+GLOSA – SINDIKAT KULTURE IN NARAVE SLOVENIJE
+Mitja Šuštar
+POLICIJSKI SINDIKAT SLOVENIJE
+Rok Cvetko
+SINDIKAT CARINIKOV SLOVENIJE
+Dušan Pečnik
+NI PODPISAL
+SINDIKAT ZDRAVSTVA IN SOCIALNEGA VARSTVA SLOVENIJE
+Irena Ilešič Čujovič
+FIDES, SINDIKAT ZDRAVNIKOV IN ZOBOZDRAVNIKOV SLOVENIJE
+Konrad Kuštrin
+NI PODPISAL
+SINDIKAT DELAVCEV V ZDRAVSTVENI NEGI SLOVENIJE
+Slavica Mencingar
+NI PODPISALA
+KONFEDERACIJA SINDIKATOV 90 SLOVENIJE
+Peter Majcen
+SINDIKAT POKLICNEGA GASILSTVA SLOVENIJE
+Anton Drenik
+po pooblastilu
+David Švarc
+NEODVISNI SINDIKAT DELAVCEV LJUBLJANSKE UNIVERZE
+dr. Tomaž Sajovic
+SINDIKAT KULTURNIH IN UMETNIŠKIH USTVARJALCEV RTV
+Peter Kosmač
+SIFARM – SINDIKAT FARMACEVTOV SLOVENIJE
+dr. Aljaž Sočan
+SINDIKAT ZDRAVSTVA IN SOCIALNEGA SKRBSTVA SLOVENIJE
+Aleksander Jus
+SINDIKATI V ZDRAVSTVU SLOVENIJE – PERGAM
+Vladimir Lazić
+NI PODPISAL
+SVAS-SINDIKAT VLADNE AGENCIJE SLOVENIJE
+Stanislav Luzar
+SINDIKAT SLOVENSKIH DIPLOMATOV
+Stanislav Sikošek
+NI PODPISAL
+SINDIKAT DELAVCEV RADIODIFUZIJE SLOVENIJE
+Tom Zalaznik
+NI PODPISAL
+SINDIKAT SOCIALNEGA ZAVAROVANJA SLOVENIJE
+Katarina Kralj Marinček
+SILMES – SINDIKAT LABORATORIJSKE MEDICINE SLOVENIJE
+Mojca Završnik
+SINDIKAT MINISTRSTVA ZA OBRAMBO
+Marjan Lah
+NI PODPISAL
+SINDIKAT NOVINARJEV SLOVENIJE
+Alenka Potočnik
+SINDIKAT DELAVCEV V PRAVOSODJU
+Tomaž Virnik
+SINDIKAT CENTROV ZA SOCIALNO DELO – SINCE 07 – KSS PERGAM
+Perica Radonjič
+SINDIKAT SEVALCEV SLOVENIJE PERGAM
+Grega Praprotnik
+SINDIKAT KAPITANIJE SLOVENIJE
+Aleš Rotar
+SINDIKAT POLICISTOV SLOVENIJE
+mag. Kristjan Mlekuš
+DENS – SINDIKAT ZOBOZDRAVNIKOV SLOVENIJE
+Alenka Krabonja
+NI PODPISALA
+SINDIR-SINDIKAT DIREKTORJEV IN RAVNATELJEV SLOVENIJE
+Anton Obreht
+SORS – SINDIKAT OBČINSKIH REDARJEV SLOVENIJE
+Matjaž Frangež
+NI PODPISAL
+SINDIKAT JAVNIH USLUŽBENCEV SLOVENIJE
+Tanja Popit
+SINDIKAT DELAVCEV STATISTIČNEGA URADA RS
+Aleš Sajovic Kavčič
+PRAKTIK.UM
+Igor Muževič
+NI PODPISAL
+KNSS NEODVISNOST
+Evelin Vesenjak
+ZVEZA DELAVSKIH SINDIKATOV SLOVENIJE – SOLIDARNOST
+Albert Pavlič
+NI PODPISAL
+VISOKOŠOLSKI SINDIKAT SLOVENIJE
+dr. Gorazd Kovačič
+NI PODPISAL
+SINDIKAT VOJAKOV SLOVENIJE
+Gvido Novak
+NI PODPISAL
+KONFEDERACIJA SLOVENSKIH SINDIKATOV
+Gvido Novak
+NI PODPISAL
+SPUKC – SINDIKAT ZDRAVSTVA SLOVENIJE
+Mateja Klep Breskvar
+NI PODPISALA
+SINDIKAT FINANČNO RAČUNOVODSKIH USLUŽBENCEV PLAČNE SKUPINE J
+Jožefa Frangeš
+SINDIKAT UPRAVLJAVCEV ŠPORTNE INFRASTRUKTURE
+mag. Urša Fink
+SINDIKAT MENEDŽERJEV V KULTURI IN UMETNOSTI
+mag. Nada Čibej
+KONFEDERACIJA SINDIKATOV JAVNEGA SEKTORJA SLOVENIJE
+Branimir Štrukelj
+
+Ministrstvo za delo, družino, socialne zadeve in enake možnosti je dne 19. 10. 2022 izdalo potrdilo št. 10101-2/2008-55 o tem, da je Aneks št. 13 h Kolektivni pogodbi za javni sektor (KPJS) vpisan v evidenco kolektivnih pogodb na podlagi 25. člena Zakona o kolektivnih pogodbah (Uradni list RS, št. 43/06 in 45/08 – ZArbit) pod zaporedno številko 30/16.
