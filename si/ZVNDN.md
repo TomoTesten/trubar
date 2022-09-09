@@ -16,6 +16,10 @@ spremembe:
     datum: 2010-12-03
     sop: 2010-01-5021
     naziv: "Zakon o spremembah in dopolnitvah Zakona o varstvu pred naravnimi in drugimi nesrečami"
+  - kratica: ZVNDN-C
+    datum: 2022-09-09
+    sop: 2022-01-2793
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o varstvu pred naravnimi in drugimi nesrečami"
 ---
 
 # Zakon o varstvu pred naravnimi in drugimi nesrečami
