@@ -1,11 +1,12 @@
 ---
 kratica: RDRP26
 naziv: "Rebalans proračuna Republike Slovenije za leto 2022 (Rb2022)"
-vrsta: "rdrp"
+vrsta: "akt"
 datum: 2022-10-07
 sop: 2022-01-3078
-organ: "Državni zbor Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-3078"
 ---
 
