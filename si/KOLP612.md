@@ -4,9 +4,9 @@ naziv: "Aneks št. 4 h Kolektivni pogodbi Javnega gospodarskega zavoda Brdo Prot
 vrsta: "akt"
 datum: 2022-10-25
 sop: 2022-01-3308
-organ: "Vlada Republike Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-3308"
 ---
 
