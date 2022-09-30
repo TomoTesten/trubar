@@ -16,6 +16,10 @@ spremembe:
     datum: 2020-10-14
     sop: 2020-01-2523
     naziv: "Zakon o spremembah in dopolnitvah Zakona o nalezljivih boleznih"
+  - kratica: ZNB-D
+    datum: 2022-09-30
+    sop: 2022-01-2917
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o nalezljivih boleznih"
 ---
 
 # Zakon o nalezljivih boleznih
