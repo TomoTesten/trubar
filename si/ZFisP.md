@@ -7,6 +7,11 @@ sop: 2015-01-2277
 objava: "Uradni list RS 55/15  str. 6286"
 kljucne_besede: ["fiskalna politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-2277"
+spremembe:
+  - kratica: ZFisP-A
+    datum: 2022-10-07
+    sop: 2022-01-3080
+    naziv: "Zakon o dopolnitvi Zakona o fiskalnem pravilu"
 ---
 
 # Zakon o fiskalnem pravilu
