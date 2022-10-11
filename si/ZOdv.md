@@ -28,6 +28,10 @@ spremembe:
     datum: 2019-06-07
     sop: 2019-01-1625
     naziv: "Zakon o spremembah in dopolnitvah Zakona o odvetništvu"
+  - kratica: ZOdv-G
+    datum: 2022-10-11
+    sop: 2022-01-3089
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o odvetništvu"
 ---
 
 # Zakon o odvetništvu
