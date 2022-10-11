@@ -7,6 +7,11 @@ sop: 2016-01-2683
 objava: "Uradni list RS 63/16  str. 8757"
 kljucne_besede: ["avtorska pravica"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-01-2683"
+spremembe:
+  - kratica: ZKUASP-A
+    datum: 2022-10-11
+    sop: 2022-01-3088
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o kolektivnem upravljanju avtorske in sorodnih pravic"
 ---
 
 # Zakon o kolektivnem upravljanju avtorske in sorodnih pravic
