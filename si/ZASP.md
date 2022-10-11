@@ -36,6 +36,10 @@ spremembe:
     datum: 2019-10-04
     sop: 2019-01-2613
     naziv: "Zakon o spremembah in dopolnitvah Zakona o avtorski in sorodnih pravicah"
+  - kratica: ZASP-I
+    datum: 2022-10-11
+    sop: 2022-01-3087
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o avtorski in sorodnih pravicah"
 ---
 
 # Zakon o avtorski in sorodnih pravicah
