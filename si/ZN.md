@@ -32,6 +32,10 @@ spremembe:
     datum: 2013-11-05
     sop: 2013-01-3304
     naziv: "Zakon o spremembi Zakona o notariatu"
+  - kratica: ZN-H
+    datum: 2022-10-11
+    sop: 2022-01-3090
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o notariatu"
 ---
 
 # Zakon o notariatu
