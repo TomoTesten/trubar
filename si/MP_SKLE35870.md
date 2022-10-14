@@ -2,11 +2,11 @@
 kratica: MP_SKLE35870
 naziv: "Sklep o določitvi cen programov predšolske vzgoje v Osnovni šoli Trzin, Enoti vrtec Žabica (SKLE)"
 vrsta: "občinski sklep"
-datum: 2026-01-04
+datum: 2023-02-16
 sop: 2023-77-0001
-organ: ""
-zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
-status: "Neznano"
+organ: "Občina Trzin"
+zbirka: "Neveljavni akti lokalnih skupnosti"
+status: "Neveljaven predpis"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-77-0001"
 ---
 
