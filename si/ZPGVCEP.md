@@ -7,6 +7,11 @@ sop: 2022-01-2792
 objava: "Uradni list RS 117/22  str. 8341"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-2792"
+spremembe:
+  - kratica: ZPGVCEP-A
+    datum: 2022-10-18
+    sop: 2022-01-3210
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o pomoči gospodarstvu zaradi visokih povišanj cen električne energije in zemeljskega plina"
 ---
 
 # Zakon o pomoči gospodarstvu zaradi visokih povišanj cen električne energije in zemeljskega plina
