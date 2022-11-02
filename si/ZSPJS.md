@@ -72,6 +72,10 @@ spremembe:
     datum: 2018-12-28
     sop: 2018-01-4122
     naziv: "Zakon o spremembi in dopolnitvah Zakona o sistemu plač v javnem sektorju"
+  - kratica: ZSPJS-AA
+    datum: 2022-11-02
+    sop: 2022-01-3402
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o sistemu plač v javnem sektorju"
 ---
 
 # Zakon o sistemu plač v javnem sektorju
