@@ -7,6 +7,11 @@ sop: 2010-01-1234
 objava: "Uradni list RS 28/10  str. 3809"
 kljucne_besede: ["železniško omrežje", "javna naložba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-1234"
+spremembe:
+  - kratica: ZZSIJŽI-B
+    datum: 2022-11-04
+    sop: 2022-01-3443
+    naziv: "Zakon o spremembi Zakona o zagotavljanju sredstev za investicije v prometno infrastrukturo"
 ---
 
 # Zakon o zagotavljanju sredstev za investicije v javno železniško infrastrukturo
