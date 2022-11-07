@@ -24,6 +24,10 @@ spremembe:
     datum: 2015-12-24
     sop: 2015-01-4086
     naziv: "Zakon o spremembah in dopolnitvah Zakona o dostopu do informacij javnega značaja"
+  - kratica: ZDIJZ-G
+    datum: 2022-11-07
+    sop: 2022-01-3466
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o dostopu do informacij javnega značaja"
 ---
 
 # Zakon o dostopu do informacij javnega značaja
