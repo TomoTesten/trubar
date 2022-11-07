@@ -28,6 +28,10 @@ spremembe:
     datum: 2020-12-29
     sop: 2020-01-3632
     naziv: "Zakon o spremembi in dopolnitvah Zakona o organiziranosti in delu v policiji"
+  - kratica: ZODPol-H
+    datum: 2022-11-07
+    sop: 2022-01-3467
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o organiziranosti in delu v policiji"
 ---
 
 # Zakon o organiziranosti in delu v policiji
