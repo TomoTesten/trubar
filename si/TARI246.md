@@ -4,9 +4,9 @@ naziv: "Tarifa 2023 o vrednosti točke za plačilo na podlagi dovoljenja za izva
 vrsta: "akt"
 datum: 2022-12-23
 sop: 2022-01-4109
-organ: "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-4109"
 ---
 
