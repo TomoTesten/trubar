@@ -4,9 +4,9 @@ naziv: "Proračun Republike Slovenije za leto 2024 (DP2024)"
 vrsta: "akt"
 datum: 2022-12-02
 sop: 2022-01-3735
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-3735"
 ---
 

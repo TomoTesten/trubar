@@ -4,9 +4,9 @@ naziv: "Dopolnitev Poslovnika Fiskalnega sveta (PoFS-A)"
 vrsta: "akt"
 datum: 2022-12-09
 sop: 2022-01-3838
-organ: "Fiskalni svet"
-zbirka: "Drugi splošni in posamični akti"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-3838"
 ---
 

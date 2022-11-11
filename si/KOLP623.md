@@ -4,9 +4,9 @@ naziv: "Spremembe h Kolektivni pogodbi dejavnosti trgovine Slovenije"
 vrsta: "akt"
 datum: 2022-12-09
 sop: 2022-01-3841
-organ: "Trgovinska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-3841"
 ---
 
