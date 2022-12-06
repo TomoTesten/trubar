@@ -32,6 +32,10 @@ spremembe:
     datum: 2016-05-06
     sop: 2016-01-1365
     naziv: "Zakon o spremembah in dopolnitvah Zakona o delovnem času in obveznih počitkih mobilnih delavcev ter o zapisovalni opremi v cestnih prevozih"
+  - kratica: ZDCOPMD-H
+    datum: 2022-12-06
+    sop: 2022-01-3794
+    naziv: "Zakon o spremembi in dopolnitvah Zakona o delovnem času in obveznih počitkih mobilnih delavcev ter o zapisovalni opremi v cestnih prevozih"
 ---
 
 # Zakon o delovnem času in obveznih počitkih mobilnih delavcev ter o zapisovalni opremi v cestnih prevozih
