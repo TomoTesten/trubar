@@ -2,11 +2,11 @@
 kratica: TARI227
 naziv: "Tarifa Javne agencije Republike Slovenije za zdravila in medicinske pripomočke"
 vrsta: "akt"
-datum: 2021-12-31
+datum: 2022-12-29
 sop: 2021-01-4397
-organ: "Javna agencija Republike Slovenije za zdravila in medicinske pripomočke"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-4397"
 ---
 

@@ -4,9 +4,9 @@ naziv: "Sklep o zavrženju pobude za začetek postopka za oceno ustavnosti tretj
 vrsta: "akt"
 datum: 2022-12-30
 sop: 2022-01-4276
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-4276"
 ---
 
