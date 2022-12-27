@@ -7,6 +7,11 @@ sop: 1997-01-2570
 objava: "Uradni list RS 49/97  str. 4213"
 kljucne_besede: ["žrtev vojne", "odškodnina"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2570"
+spremembe:
+  - kratica: ZPPZV91-C
+    datum: 2022-12-27
+    sop: 2022-01-4190
+    naziv: "Zakon o dopolnitvah Zakona o posebnih pravicah žrtev v vojni za Slovenijo 1991"
 ---
 
 # Zakon o posebnih pravicah žrtev v vojni za Slovenijo 1991
