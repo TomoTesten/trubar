@@ -20,6 +20,10 @@ spremembe:
     datum: 2007-11-09
     sop: 2007-01-5074
     naziv: "Zakon o spremembah in dopolnitvah zakona o odpravi posledic naravnih nesreč"
+  - kratica: ZOPNN-E
+    datum: 2022-12-27
+    sop: 2022-01-4189
+    naziv: "Zakon o dopolnitvi Zakona o odpravi posledic naravnih nesreč"
 ---
 
 # Zakon o odpravi posledic naravnih nesreč
