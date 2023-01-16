@@ -12,6 +12,10 @@ spremembe:
     datum: 2019-04-05
     sop: 2019-01-0917
     naziv: "Zakon o spremembah Družinskega zakonika"
+  - kratica: DZ-B
+    datum: 2023-01-16
+    sop: 2023-01-0098
+    naziv: "Zakon o spremembah Družinskega zakonika"
 ---
 
 # Družinski zakonik
