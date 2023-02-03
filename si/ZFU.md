@@ -7,6 +7,11 @@ sop: 2014-01-0961
 objava: "Uradni list RS 25/14  str. 2875"
 kljucne_besede: ["finančni nadzor", "davek"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0961"
+spremembe:
+  - kratica: ZFU-B
+    datum: 2023-02-03
+    sop: 2023-01-0239
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o finančni upravi"
 ---
 
 # Zakon o finančni upravi
