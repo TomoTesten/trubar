@@ -7,6 +7,11 @@ sop: 2022-01-4186
 objava: "Uradni list RS 163/22  str. 13661"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-4186"
+spremembe:
+  - kratica: ZPGOPEK-A
+    datum: 2023-02-06
+    sop: 2023-01-0297
+    naziv: "Zakon o spremembi in dopolnitvah Zakona o pomoči gospodarstvu za omilitev posledic energetske krize"
 ---
 
 # Zakon o pomoči gospodarstvu za omilitev posledic energetske krize
