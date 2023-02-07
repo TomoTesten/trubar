@@ -12,6 +12,10 @@ spremembe:
     datum: 2005-08-12
     sop: 2005-01-3386
     naziv: "Zakon o dopolnitvah zakona o državnem svetu"
+  - kratica: ZDSve-B
+    datum: 2023-02-07
+    sop: 2023-01-0305
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o državnem svetu"
 ---
 
 # Zakon o državnem svetu
