@@ -7,6 +7,11 @@ sop: 2022-01-2512
 objava: "Uradni list RS 100/22  str. 7621"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-2512"
+spremembe:
+  - kratica: ZSZUN-A
+    datum: 2023-02-07
+    sop: 2023-01-0303
+    naziv: "Zakon o dopolnitvi Zakona o strokovnih, znanstvenih in umetniških naslovih"
 ---
 
 # Zakon o strokovnih, znanstvenih in umetniških naslovih
