@@ -7,6 +7,11 @@ sop: 2020-01-3629
 objava: "Uradni list RS 200/20  str. 10226"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-3629"
+spremembe:
+  - kratica: ZIUIZVP-A
+    datum: 2023-02-07
+    sop: 2023-01-0304
+    naziv: "Zakon o spremembah Zakona o izvajanju Uredbe (EU) Evropskega parlamenta in Sveta o sodelovanju med nacionalnimi organi, odgovornimi za izvrševanje zakonodaje o varstvu potrošnikov"
 ---
 
 # Zakon o izvajanju Uredbe (EU) Evropskega parlamenta in Sveta o sodelovanju med nacionalnimi organi, odgovornimi za izvrševanje zakonodaje o varstvu potrošnikov
