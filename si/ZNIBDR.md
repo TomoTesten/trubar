@@ -12,6 +12,10 @@ spremembe:
     datum: 2010-02-05
     sop: 2010-01-0252
     naziv: "Zakon o spremembah in dopolnitvah Zakona o nadzoru izvoza blaga z dvojno rabo"
+  - kratica: ZNIBDR-B
+    datum: 2023-03-07
+    sop: 2023-01-0617
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o nadzoru izvoza blaga z dvojno rabo"
 ---
 
 # Zakon o nadzoru izvoza blaga z dvojno rabo
