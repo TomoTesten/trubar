@@ -1,0 +1,246 @@
+---
+kratica: MP_ODLO47606
+naziv: "Odlok o spremembah in dopolnitvah Odloka o proračunu Občine Tržič za leto 2023 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2023-03-24
+sop: 2023-01-0962
+organ: "Občina Tržič"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-0962"
+---
+
+# Odlok o spremembah in dopolnitvah Odloka o proračunu Občine Tržič za leto 2023 (ODLO)
+
+Na podlagi Odloka o proračunu Občine Tržič za leto 2023 (Uradni list RS, št. 139/22), 3. in 40. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13 – popr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617, 13/18, 195/20 – odl. US in 18/23 – ZDU-1O) ter 18. člena Statuta Občine Tržič (Uradni list RS, št. 19/13 in 74/15) je Občinski svet Občine Tržič na 1. izredni seji dne 20. 3. 2023 sprejel
+
+O D L O K
+
+o spremembah in dopolnitvah Odloka o proračunu Občine Tržič za leto 2023
+
+1.
+člen
+
+(sredstva proračuna in višina splošnega dela proračuna)
+
+Besedilo 2. člena Odloka o proračunu Občine Tržič za leto 2023 se nadomesti z novim, ki se glasi:
+
+»Proračun Občine Tržič za leto 2023 se določa v naslednjih zneskih:
+
+KONTO
+OPIS
+REB I 2023 v EUR
+A. BILANCA PRIHODKOV IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+16.231.056
+TEKOČI PRIHODKI (70+71)
+13.955.960
+70
+DAVČNI PRIHODKI (700+703+704+706)
+11.549.538
+700
+DAVKI NA DOHODEK IN DOBIČEK
+9.866.433
+703
+DAVKI NA PREMOŽENJE
+1.368.605
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+314.500
+706
+DRUGI DAVKI
+0
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+2.406.422
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+1.382.172
+711
+TAKSE IN PRISTOJBINE
+12.000
+712
+GLOBE IN DRUGE DENARNE KAZNI
+105.500
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+76.500
+714
+DRUGI NEDAVČNI PRIHODKI
+830.250
+72
+KAPITALSKI PRIHODKI (720+721+722)
+260.000
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+150.000
+721
+PRIHODKI OD PRODAJE ZALOG
+0
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+110.000
+73
+PREJETE DONACIJE (730+731)
+3.500
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+3.500
+731
+PREJETE DONACIJE IZ TUJINE
+0
+74
+TRANSFERNI PRIHODKI (740+741)
+2.011.597
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+1.097.682
+741
+PREJETA SREDSTVA IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+913.915
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE (786+787)
+0
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+0
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ
+0
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+22.118.489
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+5.602.393
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+1.273.663
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+164.087
+402
+IZDATKI ZA BLAGO IN STORITVE
+3.882.844
+403
+PLAČILA DOMAČIH OBRESTI
+168.000
+409
+REZERVE
+113.800
+41
+TEKOČI TRANSFERI (410+411+412+413)
+7.163.791
+410
+SUBVENCIJE
+521.645
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+4.213.585
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+802.105
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+1.626.455
+414
+TEKOČI TRANSFERI V TUJINO
+0
+42
+INVESTICIJSKI ODHODKI (420)
+8.950.210
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+8.950.210
+43
+INVESTICIJSKI TRANSFERI (431+432)
+402.095
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ. OSEBAM
+17.000
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+385.095
+III.
+PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.–II.)
+–5.887.432
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+75
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0
+750
+PREJETA VRAČILA DANIH POSOJIL
+0
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0
+44
+V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+30.000
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+30.000
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.–V.)
+–30.000
+C. RAČUN FINANCIRANJA
+50
+VII.
+ZADOLŽEVANJE (500)
+1.000.000
+500
+DOMAČE ZADOLŽEVANJE
+1.000.000
+55
+VIII.
+ODPLAČILA DOLGA (550)
+1.481.637
+550
+ODPLAČILA DOMAČEGA DOLGA
+1.481.637
+IX.
+POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (III.+VI.+X.)= (I.+IV.+VII.)–(II.+V.+VIII.)
+–6.399.069
+X.
+NETO ZADOLŽEVANJE (VII.–VIII.)
+–481.637
+XI.
+NETO FINANCIRANJE (VI.+X.-IX.)
+5.887.432
+STANJE SREDSTEV NA RAČUNIH OB KONCU PRETEKLEGA LETA
+6.829.899
+
+Prihodki in odhodki ter drugi prejemki in izdatki proračuna Občine Tržič so izkazani v bilanci prihodkov in odhodkov, računu finančnih terjatev in naložb ter računu financiranja, ki so sestavni deli odloka.«
+
+2. člen
+
+(proračunske rezerve)
+
+Besedilo drugega odstavka 8. člena Odloka o proračunu Občine Tržič za leto 2023 se nadomesti z novim, ki se glasi:
+
+»V proračunsko rezervo občine se, skladno z 49. členom zakona o javnih financah, najkasneje do konca tekočega koledarskega leta izloči del skupno doseženih letnih prejemkov proračuna, v višini 100.000,00 EUR.«
+
+3. člen
+
+(uveljavitev odloka)
+
+Odlok o spremembah in dopolnitvah Odloka proračuna Občine Tržič za leto 2023 začne veljati z dnem objave v Uradnem listu Republike Slovenije.
+
+Št. 410-0012/2022-401
+
+Tržič, dne 20. marca 2023
+
+Župan
+
+Občine Tržič
+
+Peter Miklič
