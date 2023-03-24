@@ -1,0 +1,350 @@
+---
+kratica: MP_ODLO47591
+naziv: "Odlok o proračunu Mestne občine Celje za leto 2023 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2023-03-24
+sop: 2023-01-0918
+organ: "Mestna občina Celje"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-0918"
+---
+
+# Odlok o proračunu Mestne občine Celje za leto 2023 (ODLO)
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – UPB, 76/08, 79/09, 51/10, 40/12 – ZUJF, 14/15 – ZUUJFO, 11/18 – ZSPDSLS-1, 30/18, 61/20 – ZIUZEOP-A in 80/20 – ZIUOOPE), 29. in 32. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – UPB, 14/13 – popr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617 in 13/18 in 195/20 – odl. US in 18/23 – ZDU-1O), 10., 19., 66.–69. in 115. člena Statuta Mestne občine Celje (Uradni list RS, št. 106/13, 93/15 in 5/19) in 70. člena Poslovnika Mestnega sveta Mestne občine Celje (Uradni list RS, št. 4/14) je Mestni svet Mestne občine Celje na 3. redni seji dne 22. 3. 2023 sprejel
+
+O D L O K
+
+o proračunu Mestne občine Celje za leto 2023
+
+1.
+SPLOŠNA DOLOČBA
+
+1. člen
+
+S tem odlokom se za Mestno občino Celje za leto 2023 določajo proračun, postopki izvrševanja proračuna ter obseg zadolževanja in poroštev občine in javnega sektorja na ravni občine (v nadaljnjem besedilu: proračun).
+
+2. VIŠINA SPLOŠNEGA DELA PRORAČUNA IN STRUKTURA POSEBNEGA DELA PRORAČUNA
+
+2. člen
+
+(1) V splošnem delu proračuna so prikazani prejemki in izdatki po ekonomski klasifikaciji do ravni kontov.
+
+(2) Splošni del proračuna se na ravni podskupin kontov določa v naslednjih zneskih:
+
+v eurih
+A. BILANCA PRIHODKOV IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+78.491.540
+TEKOČI PRIHODKI (70+71)
+62.907.832
+70
+DAVČNI PRIHODKI
+41.665.089
+700
+DAVKI NA DOHODEK IN DOBIČEK
+30.210.473
+703
+DAVKI NA PREMOŽENJE
+10.271.100
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+1.183.516
+71
+NEDAVČNI PRIHODKI
+21.242.743
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+16.075.346
+711
+TAKSE IN PRISTOJBINE
+53.000
+712
+GLOBE IN DRUGE DENARNE KAZNI
+493.000
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+480.501
+714
+DRUGI NEDAVČNI PRIHODKI
+4.140.896
+72
+KAPITALSKI PRIHODKI
+6.426.968
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+3.256.968
+721
+PRIHODKI OD PRODAJE ZALOG
+0
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+3.170.000
+73
+PREJETE DONACIJE
+10.100
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+10.100
+731
+PREJETE DONACIJE IZ TUJINE
+0
+74
+TRANSFERNI PRIHODKI
+9.098.040
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+6.770.743
+741
+PREJETA SREDSTVA IZ DRŽ. PRORAČ. IZ SREDSTEV PRORAČUNA EU IN DRUGIH DRŽAV
+2.327.297
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE IN IZ DRUGIH DRŽAV
+48.600
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ IN IZ DRUGIH DRŽAV
+48.600
+II.
+SKUPAJ ODHODKI (40+41+42+43+45)
+82.588.573
+40
+TEKOČI ODHODKI
+19.400.011
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+4.890.748
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+720.460
+402
+IZDATKI ZA BLAGO IN STORITVE
+11.427.803
+403
+PLAČILA DOMAČIH OBRESTI
+1.095.000
+409
+REZERVE
+1.266.000
+41
+TEKOČI TRANSFERI
+30.697.261
+410
+SUBVENCIJE
+4.025.130
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+12.346.531
+412
+TRANSFERI NEPRIDOBITNIM ORGANIZACIJAM IN USTANOVAM
+1.577.928
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+12.747.672
+42
+INVESTICIJSKI ODHODKI
+31.190.525
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+31.190.525
+43
+INVESTICIJSKI TRANSFERI
+1.300.776
+431
+INVESTICIJSKI TRANSF. PRAVNIM IN FIZIČNIM OSEBAM, KI NISO PU
+430.276
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+870.500
+III.
+PRORAČUNSKI PRIMANJKLJAJ (I.–II.)
+–4.097.033
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0
+75
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPIT. DELEŽEV
+0
+750
+PREJETA VRAČILA DANIH POSOJIL
+0
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0
+V.
+DANA POSOJILA IN POVEČANJE KAPIT. DELEŽEV (440+441+442+443)
+61.000
+44
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV
+61.000
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+61.000
+442
+PORABA SREDSTEV KUPNIN IZ NASLOVA PRIVATIZACIJE
+0
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.–V.)
+–61.000
+C. RAČUN FINANCIRANJA
+VII.
+ZADOLŽEVANJE (500+501)
+5.000.000
+50
+ZADOLŽEVANJE (500+501)
+5.000.000
+500
+DOMAČE ZADOLŽEVANJE
+5.000.000
+VIII.
+ODPLAČILA DOLGA (550+551)
+3.636.627
+55
+ODPLAČILA DOLGA (550+551)
+3.636.627
+550
+ODPLAČILA DOMAČEGA DOLGA
+3.636.627
+IX.
+SPREMEMBA STANJA SREDSTEV NA RAČUNU (I.+IV.+VII.–II.–V.–VIII.)
+–2.794.660
+X.
+NETO ZADOLŽEVANJE (VII.–VIII.)
+1.363.373
+XI.
+NETO FINANCIRANJE (VI.+X.–IX.)
+4.097.033
+XII.
+STANJE SREDSTEV NA RAČUNIH NA DAN 31. 12. 2021
+3.139.734
+
+(3)
+Posebni del proračuna sestavljajo finančni načrti neposrednih uporabnikov, ki so razdeljeni na naslednje programske dele: področja proračunske porabe, glavne programe in podprograme, predpisane s programsko klasifikacijo izdatkov občinskih proračunov. Podprogram je razdeljen na proračunske postavke, te pa na podkonte, določene s predpisanim kontnim načrtom.
+
+(4) Posebni del proračuna do ravni podkontov in načrt razvojnih programov sta prilogi k temu odloku in se objavita na spletni strani Mestne občine Celje http://moc.celje.si/.
+
+(5) Načrt razvojnih programov sestavljajo projekti.
+
+3. POSTOPKI IZVRŠEVANJA PRORAČUNA
+
+3. člen
+
+V tekočem letu se izvršuje proračun tekočega leta. Proračun se izvršuje skladno z določbami zakona, ki ureja javne finance in podzakonskimi predpisi, izdanimi na njegovi podlagi, in tega odloka. Proračun se izvršuje na ravni podkonta. Veljavni načrt razvojnih programov tekočega leta mora biti za tekoče leto usklajen z veljavnim proračunom.
+
+4. člen
+
+(1) Namenski prihodki proračuna so poleg prihodkov, določenih v prvem stavku prvega odstavka 43. člena ZJF, tudi naslednji prihodki:
+
+– požarna taksa,
+
+– državna sredstva, evropska sredstva in sredstva drugih sofinancerjev za investicije in tekoče zadeve,
+
+– turistična taksa,
+
+– lastna sredstva krajevnih skupnosti in mestnih četrti, ki se uporabljajo za namene, določene v finančnem načrtu posamezne krajevne skupnosti oziroma mestne četrti,
+
+– komunalni prispevek,
+
+– najemnine za stanovanja in poslovne prostore,
+
+– najemnine za gospodarsko javno infrastrukturo.
+
+(2) Če je bil v tekočem letu vplačan namenski prejemek, izdatek pa ni bil realiziran, se pravica porabe na proračunski postavki, ki ni bila porabljena v tekočem letu, prenese v naslednje leto za isti namen.
+
+5. člen
+
+(1) Osnova za prerazporejanje pravic porabe je zadnji sprejeti proračun, spremembe proračuna ali rebalans proračuna za leto izvrševanja.
+
+(2) O prerazporeditvah pravic porabe v posebnem delu proračuna (finančnem načrtu neposrednega uporabnika) znotraj področij proračunske porabe odloča na predlog neposrednega uporabnika župan, pri čemer povečanje ali zmanjšanje posameznega glavnega programa ne sme presegati 30 % načrtovanih sredstev glavnega programa v sprejetem proračunu.
+
+(3) Župan s poročilom o izvrševanju proračuna ob polletju in konec leta z zaključnim računom poroča občinskemu svetu o veljavnem proračunu za leto 2023 in njegovi realizaciji.
+
+6. člen
+
+(1) Neposredni uporabnik lahko v tekočem letu za projekte, ki so vključeni v veljavni načrt razvojnih programov, odda javno naročilo za celotno vrednost projekta, če so zanj načrtovane pravice porabe na proračunskih postavkah v sprejetem proračunu.
+
+(2) Skupni obseg prevzetih obveznosti neposrednega uporabnika, ki bodo zapadle v plačilo v prihodnjih letih za investicijske odhodke in investicijske transfere ne sme presegati 80 % pravic porabe v sprejetem finančnem načrtu neposrednega uporabnika.
+
+(3) Omejitve iz prvega in drugega odstavka tega člena ne veljajo za prevzemanje obveznosti z najemnimi pogodbami, razen če na podlagi teh pogodb lastninska pravica preide oziroma lahko preide iz najemodajalca na najemnika, in prevzemanje obveznosti za pogodbe za dobavo elektrike, telefona, vode, komunalnih storitve in drugih storitev, potrebnih za operativno delovanje neposrednih uporabnikov ter prevzemanje obveznosti za pogodbe, ki se financirajo iz namenskih sredstev EU, namenskih sredstev finančnih mehanizmov in sredstev drugih donatorjev ter pripadajočih postavk slovenske udeležbe.
+
+(4) Prevzete obveznosti iz drugega in tretjega odstavka tega člena se načrtujejo v finančnem načrtu neposrednega uporabnika in načrtu razvojnih programov.
+
+7. člen
+
+(1) Neposredni uporabnik vodi evidenco projektov iz veljavnega načrta razvojnih programov.
+
+(2) Spremembe veljavnega načrta razvojnih programov so uvrstitev novih projektov v načrt razvojnih programov in druge spremembe projektov.
+
+(3) O spremembi vrednosti veljavnih projektov do 20 % izhodiščne vrednosti odloča župan. Mestni svet odloča o uvrstitvi novih projektov v veljavni načrt razvojnih programov in o spremembi vrednosti projektov nad 20 % izhodiščne vrednosti projektov.
+
+8. člen
+
+(1) V skladu z drugim odstavkom 84. člena Statuta Mestne občine Celje so posamezni pravni posli, ki jih sklepajo krajevne skupnosti in mestne četrti do višine 5.000,00 eurov z DDV, veljavni brez soglasja župana.
+
+(2) Pravni posli, sklenjeni v nasprotju s prejšnjo določbo, so nični.
+
+9. člen
+
+V skladu z 42. členom ZJF se oblikuje splošna proračunska rezervacija v višini 716.000,00 eurov. O uporabi sredstev splošne proračunske rezervacije odloča župan.
+
+10. člen
+
+(1) V skladu z 49. členom ZJF se oblikuje proračunska rezerva v višini 50.000,00 eurov.
+
+(2) Na predlog za finance pristojnega organa občinske uprave odloča o uporabi sredstev proračunske rezerve za namene iz drugega odstavka 49. člena ZJF in do višine iz prejšnjega odstavka župan ter o tem s pisnimi poročili obvešča mestni svet.
+
+11. člen
+
+(1) V skladu z Odlokom o proračunskem skladu za izvedbo investicij in investicijskega vzdrževanja infrastrukture v Mestni občini Celje se v letu 2023 oblikuje sklad v višini 500.000,00 eurov.
+
+(2) Sredstva sklada se lahko v letu 2023 porabijo v višini do 500.000,00 eurov za nakup nepremičnin po predkupni pravici ter v višini do 1.000.000,00 eurov za vgradnjo kondenzacijske turbine na RCERO Toplarna. Preostala zbrana sredstva sklada se lahko prenesejo v naslednje leto.
+
+4. POSEBNOSTI UPRAVLJANJA IN PRODAJE STVARNEGA IN FINANČNEGA PREMOŽENJA
+
+12. člen
+
+(1) Če so izpolnjeni pogoji 77. člena ZJF, lahko župan v letu 2023 odpiše dolgove, ki jih imajo dolžniki do občine, in sicer največ do skupne višine 10.000,00 eurov.
+
+(2) Obseg sredstev se v primerih, ko dolg posameznega dolžnika do neposrednega uporabnika ne presega stroška dveh eurov, v poslovnih knjigah razknjiži in se v kvoto iz prvega odstavka tega člena ne všteva.
+
+5. OBSEG ZADOLŽEVANJA IN POROŠTEV OBČINE IN JAVNEGA SEKTORJA
+
+13. člen
+
+(1) Za kritje presežkov odhodkov nad prihodki v bilanci prihodkov in odhodkov, presežkov izdatkov nad prejemki v računu finančnih terjatev in naložb ter odplačila dolgov v računu financiranja se občina za proračun leta 2023 lahko zadolži do višine 5.000.000,00 eurov.
+
+(2) Mestna občina Celje v letu 2023 ne bo izdajala poroštev.
+
+(3) Posredni uporabniki občinskega proračuna, javna podjetja, katerih ustanoviteljica je občina ter druge pravne osebe, v katerih ima občina neposredno ali posredno prevladujoč vpliv se v letu 2023 lahko dolgoročno zadolžijo, in sicer: ZPO Celje d.o.o. za namen nadaljevanja obnove Ledene dvorane v višini 390.000,00 eurov za dobo 5 let.
+
+(4) Posredni uporabniki občinskega proračuna, javna podjetja, katerih ustanoviteljica je občina ter druge pravne osebe, v katerih ima občina neposredno ali posredno prevladujoč vpliv v letu 2023 ne bodo izdajali poroštev.
+
+(5) Za potrebe upravljanja občinskega dolga se občina lahko v letu 2023 zadolži do višine obstoječih kreditov.
+
+6. PREHODNE IN KONČNE DOLOČBE
+
+14. člen
+
+V obdobju začasnega financiranja Mestne občine Celje v letu 2024, če bo začasno financiranje potrebno, se uporablja ta odlok in sklep o določitvi začasnega financiranja.
+
+15. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 410-26/2022
+
+Celje, dne 22. marca 2023
+
+Župan
+
+Mestne občine Celje
+
+Matija Kovač
