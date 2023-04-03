@@ -7,6 +7,11 @@ sop: 2015-01-2372
 objava: "Uradni list RS 57/15  str. 6747"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-2372"
+spremembe:
+  - kratica: ZDavPR-B
+    datum: 2023-04-03
+    sop: 2023-01-1127
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o davčnem potrjevanju računov"
 ---
 
 # Zakon o davčnem potrjevanju računov
