@@ -7,6 +7,11 @@ sop: 2007-01-3761
 objava: "Uradni list RS 68/07  str. 9624"
 kljucne_besede: ["vojaška služba"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3761"
+spremembe:
+  - kratica: ZSSloV-B
+    datum: 2023-04-03
+    sop: 2023-01-1130
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o službi v Slovenski vojski"
 ---
 
 # Zakon o službi v Slovenski vojski
