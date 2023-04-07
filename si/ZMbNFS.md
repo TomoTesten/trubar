@@ -7,6 +7,11 @@ sop: 2013-01-3597
 objava: "Uradni list RS 100/13  str. 10935"
 kljucne_besede: ["finančna politika", "nadzor bančnega poslovanja"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3597"
+spremembe:
+  - kratica: ZMbNFS-A
+    datum: 2023-04-07
+    sop: 2023-01-1143
+    naziv: "Zakon o dopolnitvi Zakona o makrobonitetnem nadzoru finančnega sistema"
 ---
 
 # Zakon o makrobonitetnem nadzoru finančnega sistema
