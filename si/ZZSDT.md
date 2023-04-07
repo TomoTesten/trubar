@@ -12,6 +12,10 @@ spremembe:
     datum: 2021-04-12
     sop: 2021-01-1154
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zaposlovanju, samozaposlovanju in delu tujcev"
+  - kratica: ZZSDT-D
+    datum: 2023-04-07
+    sop: 2023-01-1142
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zaposlovanju, samozaposlovanju in delu tujcev"
 ---
 
 # Zakon o zaposlovanju, samozaposlovanju in delu tujcev
