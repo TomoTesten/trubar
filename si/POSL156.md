@@ -4,9 +4,9 @@ naziv: "Spremembe in dopolnitve Poslovnika državnega zbora (PoDZ-1H)"
 vrsta: "akt"
 datum: 2023-05-26
 sop: 2023-01-1758
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-1758"
 ---
 
