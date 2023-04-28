@@ -7,6 +7,11 @@ sop: 2022-01-4016
 objava: "Uradni list RS 158/22  str. 13163"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-4016"
+spremembe:
+  - kratica: ZNPOVCE-A
+    datum: 2023-04-28
+    sop: 2023-01-1517
+    naziv: "Zakon o spremembah Zakona o nujnem posredovanju za obravnavo visokih cen energije"
 ---
 
 # Zakon o nujnem posredovanju za obravnavo visokih cen energije
