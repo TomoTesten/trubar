@@ -7,6 +7,11 @@ sop: 2022-01-2848
 objava: "Uradni list RS 121/22  str. 8433"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-2848"
+spremembe:
+  - kratica: ZUOKPOE-A
+    datum: 2023-04-28
+    sop: 2023-01-1518
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o ukrepih za obvladovanje kriznih razmer na področju oskrbe z energijo"
 ---
 
 # Zakon o ukrepih za obvladovanje kriznih razmer na področju oskrbe z energijo
