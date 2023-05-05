@@ -7,6 +7,11 @@ sop: 2006-01-1768
 objava: "Uradni list RS 40/06  str. 4328"
 kljucne_besede: ["delo", "delodajalec", "delojemalec", "socialna varnost", "zbiranje podatkov"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1768"
+spremembe:
+  - kratica: ZEPDSV-A
+    datum: 2023-05-05
+    sop: 2023-01-1574
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o evidencah na področju dela in socialne varnosti"
 ---
 
 # Zakon o evidencah na področju dela in socialne varnosti
