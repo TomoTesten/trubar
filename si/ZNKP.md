@@ -7,6 +7,11 @@ sop: 2019-01-0287
 objava: "Uradni list RS 9/19  str. 623"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-0287"
+spremembe:
+  - kratica: ZNKP-A
+    datum: 2023-05-05
+    sop: 2023-01-1573
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o nekaterih koncesijskih pogodbah"
 ---
 
 # Zakon o nekaterih koncesijskih pogodbah
