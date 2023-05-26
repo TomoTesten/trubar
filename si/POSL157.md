@@ -1,11 +1,12 @@
 ---
 kratica: POSL157
 naziv: "Sprememba Poslovnika Državnega sveta (PoDS-1H)"
-vrsta: "posl"
+vrsta: "akt"
 datum: 2023-06-23
 sop: 2023-01-2101
-organ: "Državni svet Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-2101"
 ---
 
