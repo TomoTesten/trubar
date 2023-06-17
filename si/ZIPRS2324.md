@@ -7,6 +7,11 @@ sop: 2022-01-3736
 objava: "Uradni list RS 150/22  str. 11945"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-3736"
+spremembe:
+  - kratica: ZIPRS2324-A
+    datum: 2023-06-17
+    sop: 2023-01-2088
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2023 in 2024"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2023 in 2024
