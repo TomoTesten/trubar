@@ -52,6 +52,10 @@ spremembe:
     datum: 2022-11-07
     sop: 2022-01-3469
     naziv: "Zakon o spremembah Zakona o organizaciji in financiranju vzgoje in izobraževanja"
+  - kratica: ZOFVI-P
+    datum: 2023-06-30
+    sop: 2023-01-2202
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o organizaciji in financiranju vzgoje in izobraževanja"
 ---
 
 # Zakon o organizaciji in financiranju vzgoje in izobraževanja
