@@ -1,0 +1,1481 @@
+---
+kratica: ZGD-1L
+naziv: "Zakon o spremembah in dopolnitvah Zakona o gospodarskih družbah"
+vrsta: "Sprejet zakon"
+datum: 2023-07-10
+sop: 2023-01-2381
+objava: "Uradni list RS 75/23  str. 6605"
+kljucne_besede: []
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-2381"
+---
+
+# Zakon o spremembah in dopolnitvah Zakona o gospodarskih družbah
+
+Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam
+
+U K A Z
+
+o razglasitvi Zakona o spremembah in dopolnitvah Zakona o gospodarskih družbah (ZGD-1L)
+
+Razglašam Zakon o spremembah in dopolnitvah Zakona o gospodarskih družbah (ZGD-1L), ki ga je sprejel Državni zbor Republike Slovenije na seji dne 28. junija 2023.
+
+Št. 003-02-3/2022-159
+
+Ljubljana, dne 6. julija 2023
+
+Nataša Pirc Musar
+
+predsednica
+
+Republike Slovenije
+
+Z A K O N
+
+O SPREMEMBAH IN DOPOLNITVAH ZAKONA O GOSPODARSKIH DRUŽBAH (ZGD-1L)
+
+1.
+člen
+
+V Zakonu o gospodarskih družbah (Uradni list RS, št. 65/09 – uradno prečiščeno besedilo, 33/11, 91/11, 32/12, 57/12, 44/13 – odl. US, 82/13, 55/15, 15/17, 22/19 – ZPosS, 158/20 – ZIntPK-C, 18/21 in 18/23 – ZDU-1O) se v 2. členu prvi odstavek spremeni tako, da se glasi:
+
+»(1) S tem zakonom se v pravni red Republike Slovenije prenašajo naslednje direktive Evropske unije:
+
+– Direktiva 2007/36/ES Evropskega parlamenta in Sveta z dne 11. julija 2007 o uveljavljanju določenih pravic delničarjev družb, ki kotirajo na borzi (UL L št. 184 z dne 14. 7. 2007, str. 17), zadnjič spremenjena z Uredbo (EU) 2021/23 Evropskega parlamenta in Sveta z dne 16. decembra 2020 o okviru za sanacijo in reševanje centralnih nasprotnih strank ter spremembi uredb (EU) št. 1095/2010, (EU) št. 648/2012, (EU) št. 600/2014, (EU) št. 806/2014 in (EU) 2015/2365 ter direktiv 2002/47/ES, 2004/25/ES, 2007/36/ES, 2014/59/EU in (EU) 2017/1132 (UL L št. 22 z dne 22. 1. 2021, str. 1), (v nadaljnjem besedilu: Direktiva 2007/36/EU),
+
+– Direktiva 2009/38/ES Evropskega parlamenta in Sveta z dne 6. maja 2009 o ustanovitvi Evropskega sveta delavcev ali uvedbi postopka obveščanja in posvetovanja z delavci v družbah ali povezanih družbah na območju Skupnosti (Prenovitev) (UL L št. 122 z dne 16. 5. 2009, str. 28), zadnjič spremenjena z Direktivo (EU) 2015/1794 Evropskega parlamenta in Sveta z dne 6. oktobra 2015 o spremembi direktiv 2008/94/ES, 2009/38/ES in 2002/14/ES Evropskega parlamenta in Sveta ter direktiv Sveta 98/59/ES in 2001/23/ES v zvezi s pomorščaki (UL L št. 263 z dne 8. 10. 2015, str. 1), (v nadaljnjem besedilu: Direktiva 2009/38/ES) in
+
+– Direktiva 2009/102/ES Evropskega parlamenta in Sveta z dne 16. septembra 2009 na področju prava družb o družbah z omejeno odgovornostjo z enim družbenikom (Kodificirana različica) (UL L št. 258, 1. 10. 2009, str. 20), zadnjič spremenjena z Direktivo Sveta 2013/24/EU z dne 13. maja 2013 o prilagoditvi nekaterih direktiv na področju prava družb zaradi pristopa Republike Hrvaške (UL L št. 158 z dne 10. 6. 2013, str. 365), (v nadaljnjem besedilu: Direktiva 2009/102/ES).«.
+
+V drugem odstavku se v napovednem stavku besedilo »prenašata naslednji direktivi« nadomesti z besedilom »prenašajo naslednje direktive«.
+
+V prvi alineji se na koncu besedila beseda »in« nadomesti z vejico.
+
+V drugi alineji se besedilo »Sveta 2014/102/EU z dne 7. novembra 2014 o prilagoditvi Direktive 2013/34/EU Evropskega parlamenta in Sveta o letnih računovodskih izkazih, konsolidiranih računovodskih izkazih in povezanih poročilih nekaterih vrst podjetij zaradi pristopa Republike Hrvaške (UL L št. 334 z dne 21. 11. 2014, str. 86)« nadomesti z besedilom »(EU) 2022/2464 Evropskega parlamenta in Sveta z dne 14. decembra 2022 o spremembi Uredbe (EU) št. 537/2014, Direktive 2004/109/ES, Direktive 2006/43/ES in Direktive 2013/34/EU glede poročanja podjetij o trajnostnosti (UL L št. 322 z dne 16. 12. 2022, str. 15)«, pika na koncu besedila pa se nadomesti z besedo »in«.
+
+Za drugo alinejo se doda nova tretja alineja, ki se glasi:
+
+»– Direktiva (EU) 2017/1132 Evropskega parlamenta in Sveta z dne 14. julija 2017 o določenih vidikih prava družb (kodificirano besedilo) (UL L št. 169 z dne 30. 6. 2017, str. 46), zadnjič spremenjena z Uredbo (EU) 2021/23 Evropskega parlamenta in Sveta z dne 16. decembra 2020 o okviru za sanacijo in reševanje centralnih nasprotnih strank ter spremembi uredb (EU) št. 1095/2010, (EU) št. 648/2012, (EU) št. 600/2014, (EU) št. 806/2014 in (EU) 2015/2365 ter direktiv 2002/47/ES, 2004/25/ES, 2007/36/ES, 2014/59/EU in (EU) 2017/1132 (UL L št. 22 z dne 22. 1. 2021, str. 1), (v nadaljnjem besedilu: Direktiva 2017/1132/EU).«.
+
+2. člen
+
+V 10.a členu se za prvim odstavkom dodata nova drugi in tretji odstavek, ki se glasita:
+
+»(2) Omejitve iz prejšnjega odstavka ne veljajo za osebo, ki je postala družbenik ali podjetnik na podlagi univerzalnega pravnega nasledstva.
+
+(3) Omejitev iz 2. točke prvega odstavka tega člena v delu, ki se nanaša na javno objavo na seznamu neplačnikov na podlagi zakona, ki ureja davčni postopek, ne velja za stečajnega dolžnika, ki mu sodišče dovoli poslovanje kot podjetniku ali zasebniku v skladu z določbami o osebnem stečaju v zakonu, ki ureja finančno poslovanje, postopke zaradi insolventnosti in prisilno prenehanje. Stečajni dolžnik pri vpisu v Poslovni register Slovenije predloži pravnomočni sklep sodišča.«.
+
+V dosedanjem drugem odstavku, ki postane četrti odstavek, se v napovednem stavku besedi »prejšnjega odstavka« nadomestita z besedilom »prvega odstavka tega člena«, v tretji alineji pa se besedilo »Družba za upravljanje terjatev bank, d.d.,« črta.
+
+Dosedanji tretji odstavek postane peti odstavek.
+
+V dosedanjem četrtem odstavku, ki postane šesti odstavek, se v prvi alineji beseda »drugega« nadomesti z besedo »četrtega«.
+
+Dosedanji peti odstavek se črta.
+
+V dosedanjem šestem odstavku, ki postane sedmi odstavek, se beseda »tretjega« nadomesti z besedo »petega«.
+
+Dosedanji sedmi do enajsti odstavek postanejo osmi do dvanajsti odstavek.
+
+Dosedanji dvanajsti odstavek, ki postane trinajsti odstavek, se spremeni tako, da se glasi:
+
+»(13) Obstoj omejitev iz 1. do 4. točke prvega odstavka tega člena pristojni organi iz prejšnjega odstavka preverijo tudi v primeru ustanovitve družbe, podjetnika ali pridobitve statusa družbenika s strani osebe, ki ni državljan Republike Slovenije in v njej nima stalnega prebivališča ali v Republiki Sloveniji nima sedeža.«.
+
+Za trinajstim odstavkom se dodata nova štirinajsti in petnajsti odstavek, ki se glasita:
+
+»(14) Če ustrezne evidence ne omogočajo vzajemne izmenjave podatkov med Republiko Slovenijo, drugo državo članico ali tretjo državo, oseba iz prejšnjega odstavka pristojnemu organu iz dvanajstega odstavka tega člena neobstoj omejitev iz 1., 2. in 4. točke prvega odstavka tega člena izkaže s predložitvijo naslednjih dokazil države svojega stalnega prebivališča ali sedeža:
+
+– izpis iz ustreznega registra, če tega ni, pa enakovreden dokument, ki ga izda pristojni sodni ali upravni organ v Republiki Sloveniji, drugi državi članici ali matični državi ali državi, v kateri ima pravna oseba svoj sedež, iz katerega je razvidno, da ne obstajajo razlogi za omejitev ustanovitve družbe, podjetnika ali pridobitve statusa družbenika v zvezi s 1. in 4. točko prvega odstavka tega člena;
+
+– potrdilo, ki ga izda pristojni organ v Republiki Sloveniji, drugi državi članici ali tretji državi, iz katerega je razvidno, da oseba iz prejšnjega odstavka v matični državi ali državi, v kateri ima pravna oseba svoj sedež, nima neporavnanih davčnih obveznosti v zvezi z 2. točko prvega odstavka tega člena.
+
+Dokumenti iz tega odstavka, predloženi za dokazovanje neobstoja omejitve ustanavljanja družb, podjetnikov ali pridobitve statusa družbenika, ne smejo biti starejši od 60 dni. Omejitev iz 3. točke prvega odstavka tega člena se preverja v skladu s šestnajstim odstavkom tega člena.
+
+(15) Če država stalnega prebivališča ali sedeža osebe iz prejšnjega odstavka ne vodi evidenc, ki omogočajo vzajemne izmenjave podatkov z Republiko Slovenijo, ali ne izdaja izpisov iz ustreznega registra ali enakovrednih dokumentov iz prve alineje prejšnjega odstavka ali potrdil iz druge alineje prejšnjega odstavka, oseba iz trinajstega odstavka tega člena predloži izjavo, da:
+
+– država stalnega prebivališča ali sedeža osebe iz trinajstega odstavka tega člena ne vodi evidenc,
+
+– država stalnega prebivališča ali sedeža osebe iz trinajstega odstavka tega člena ne izdaja izpisov iz ustreznega registra ali enakovrednih dokumentov iz prve alineje prejšnjega odstavka ali potrdil iz druge alineje prejšnjega odstavka,
+
+– ne obstajajo razlogi za omejitev ustanovitve družbe, podjetnika ali pridobitve statusa družbenika v zvezi s 1., 2. oziroma 4. točko prvega odstavka tega člena.«.
+
+V dosedanjem trinajstem odstavku, ki postane šestnajsti odstavek, se v napovednem stavku beseda »tretjega« nadomesti z besedo »petega«, besedilo »drugega, četrtega ter šestega« se nadomesti z besedilom »četrtega, šestega in sedmega«, v prvi, drugi in tretji alineji pa se beseda »šestega« nadomesti z besedo »sedmega«.
+
+Dosedanji štirinajsti odstavek, ki postane sedemnajsti odstavek, se spremeni tako, da se glasi:
+
+»(17) Če so podani razlogi za omejitev iz 2. in 3. točke prvega odstavka in omejitev iz petega odstavka ter niso izpolnjeni pogoji iz četrtega, šestega in sedmega odstavka tega člena, točka za podporo poslovnim subjektom, notar ali informacijski sistem za podporo poslovnim subjektom stranko obvesti o obstoju in vrsti omejitve. Obvestilo o obstoju in vrsti omejitve se predloži vlogi za vpis v sodni register ali Poslovni register Slovenije. Stranka lahko vlogi za vpis v sodni register ali Poslovni register Slovenije predloži potrdilo iz devetega odstavka tega člena.«.
+
+Dosedanji petnajsti do sedemnajsti odstavek postanejo osemnajsti do dvajseti odstavek.
+
+3. člen
+
+Za 31. členom se doda nov 31.a člen, ki se glasi:
+
+»31.a člen
+
+(evropske podružnice družb s sedežem v Republiki Sloveniji)
+
+(1) V register se vpišejo podatki o podružnici, za katero velja pravo druge države članice, ki jo v tej državi članici ustanovi kapitalska družba s sedežem v Republiki Sloveniji.
+
+(2) Registrski organ po uradni dolžnosti vpiše podatke o podružnici, ki jih prejme prek sistema povezovanja poslovnih registrov, vzpostavljenega v skladu z drugim odstavkom 22. člena Direktive 2017/1132/EU (v nadaljnjem besedilu: sistem povezovanja poslovnih registrov).
+
+(3) Podatki o podružnici se vpišejo med podatke o družbi.«.
+
+4. člen
+
+V 50. členu se v prvem odstavku črta alineja, ki se glasi:
+
+»– zadevah v zvezi s čezmejno združitvijo kapitalskih družb (4. oddelek Drugega poglavja VI. dela tega zakona) in«.
+
+5. člen
+
+V 52. členu se v prvem odstavku pred besedo »uporablja« doda beseda »smiselno«, za besedo »drugem« pa se doda besedilo »in tretjem«.
+
+Za prvim odstavkom se doda nov drugi odstavek, ki se glasi:
+
+»(2) V zadevah iz 50. člena tega zakona sodišče glede na okoliščine primera razpiše narok ali izda sklep brez naroka.«.
+
+Dosedanja drugi in tretji odstavek postaneta tretji in četrti odstavek.
+
+6. člen
+
+V 58. členu se za petim odstavkom, ki je prenehal veljati, doda nov šesti odstavek, ki se glasi:
+
+»(6) AJPES prek sistema povezovanja poslovnih registrov po uradni dolžnosti nemudoma obvesti pristojni organ države članice podružnice, ki jo je ustanovila kapitalska družba s sedežem v Republiki Sloveniji, o javni objavi letnega poročila te družbe.«.
+
+Dosedanji šesti do trinajsti odstavek postanejo sedmi do štirinajsti odstavek.
+
+7. člen
+
+V 59. členu se v tretjem odstavku beseda »trinajstega« nadomesti z besedo »štirinajstega«.
+
+8. člen
+
+V 74. členu se na koncu besedila tretjega odstavka doda nov stavek, ki se glasi: »Izjava lastnika objekta in dovoljenje za opravljanje dejavnosti ne smeta biti starejša od 60 dni od dneva overitve podpisa na izjavi oziroma izdaje dovoljenja.«.
+
+9. člen
+
+V 75. členu se v četrtem in šestem odstavku beseda »tretjega« nadomesti z besedo »drugega«.
+
+V sedmem odstavku se beseda »petega« nadomesti z besedo »četrtega«, beseda »tretjega« pa z besedo »drugega«.
+
+10. člen
+
+V 183. členu se za prvim odstavkom doda nov drugi odstavek, ki se glasi:
+
+»(2) Statut iz prejšnjega odstavka je lahko sestavljen z uporabo videoelektronskih sredstev kot notarski zapis v elektronski obliki na način, ki ga določa zakon, ki ureja notariat.«.
+
+Dosedanja drugi in tretji odstavek postaneta tretji in četrti odstavek.
+
+11. člen
+
+V 235.č členu se tretji odstavek spremeni tako, da se glasi:
+
+»(3) Navodilo za uresničevanje pravic delničarjev se šteje za prijavo in pooblastilo za udeležbo na skupščini in uresničevanje glasovalne pravice.«.
+
+12. člen
+
+255. člen se spremeni tako, da se glasi:
+
+»255. člen
+
+(imenovanje in mandatna doba članov ter izmenjava podatkov prek sistema povezovanja poslovnih registrov)
+
+(1) Člani organov vodenja ali nadzora so imenovani za obdobje, ki je določeno v statutu in ni daljše od šestih let, z možnostjo ponovnega imenovanja.
+
+(2) Član organa vodenja ali nadzora je lahko vsaka poslovno sposobna fizična oseba, razen oseba, ki:
+
+– je že član drugega organa vodenja ali nadzora te družbe;
+
+– je bila pravnomočno obsojena zaradi kaznivega dejanja zoper gospodarstvo, zoper delovno razmerje in socialno varnost, zoper pravni promet, zoper premoženje ali zoper okolje, prostor in naravne dobrine. Ta oseba ne sme biti član organa vodenja ali nadzora pet let po pravnomočnosti sodbe in dve leti po prestani kazni zapora;
+
+– je bila v drugi državi članici pravnomočno obsojena zaradi kaznivega dejanja, ki je primerljivo kaznivim dejanjem iz prejšnje alineje. Ta oseba ne sme biti član organa vodenja ali nadzora pet let po pravnomočnosti sodbe in dve leti po prestani kazni zapora;
+
+– ji je bil izrečen varnostni ukrep prepovedi opravljanja poklica, in sicer dokler traja prepoved;
+
+– ji je bil v drugi državi članici izrečen varnostni ukrep prepovedi opravljanja poklica, in sicer dokler traja prepoved;
+
+– ji je bilo kot članu organa vodenja ali nadzora družbe, nad katero je bil začet stečajni postopek, pravnomočno naloženo plačilo odškodnine upnikom v skladu z določbami o odškodninski odgovornosti v zakonu, ki ureja finančno poslovanje, postopke zaradi insolventnosti in prisilno prenehanje. Ta oseba ne sme biti član organa vodenja ali nadzora dve leti po pravnomočni sodni odločbi na plačilo odškodnine upnikom; ali
+
+– ji je bilo v drugi državi članici naloženo plačilo odškodnine upnikom, ki je primerljivo določbam o odškodninski odgovornosti v zakonu iz prejšnje alineje. Ta oseba ne sme biti član organa vodenja ali nadzora dve leti po pravnomočni sodni odločbi na plačilo odškodnine upnikom.
+
+(3) Novi člani organa vodenja ali nadzora morajo prijavi za vpis v register priložiti pisno izjavo, da ni okoliščin, ki bi po določbah tega zakona nasprotovale njihovemu imenovanju.
+
+(4) Registrski organ v skladu z dvanajstim odstavkom 10.a člena tega zakona po uradni dolžnosti preveri, ali so podane okoliščine iz druge in četrte alineje drugega odstavka tega člena.
+
+(5) Registrski organ z vpogledom v evidenco iz trinajstega odstavka tega člena po uradni dolžnosti preveri, ali so podane okoliščine iz šeste alineje drugega odstavka tega člena.
+
+(6) Registrski organ po uradni dolžnosti z zahtevo v elektronski obliki, ki jo AJPES posreduje pristojnemu organu države članice prek sistema povezovanja poslovnih registrov, preveri, ali so podane okoliščine iz tretje, pete in sedme alineje drugega odstavka tega člena. Če so podane okoliščine v drugi državi članici in druga država članica zagotavlja dodatne podatke prek sistema povezovanja poslovnih registrov, registrski organ v skladu s prejšnjim stavkom zahteva dodatne podatke o teh okoliščinah.
+
+(7) Ministrstvo, pristojno za pravosodje, pošlje AJPES v elektronski obliki podatke iz kazenske evidence za namen ugotavljanja obstoja okoliščin iz druge in četrte alineje drugega odstavka tega člena na podlagi zahteve v elektronski obliki, ki jo pošlje pristojni organ države članice prek sistema povezovanja poslovnih registrov in jo AJPES v elektronski obliki posreduje ministrstvu, pristojnemu za pravosodje. Za namen izmenjave podatkov po tem odstavku se lahko nacionalno vozlišče sistema povezovanja poslovnih registrov, ki ga upravlja AJPES, na podlagi osebnega imena in EMŠO ali drugih podatkov, ki v povezavi z osebnim imenom zagotavljajo enolično identifikacijo člana organa vodenja ali nadzora, poveže s kazensko evidenco.
+
+(8) Vrhovno sodišče Republike Slovenije pošlje AJPES v elektronski obliki podatke iz evidence iz trinajstega odstavka tega člena za namen ugotavljanja obstoja okoliščin iz šeste alineje drugega odstavka tega člena na podlagi zahteve v elektronski obliki, ki jo pristojni organ države članice pošlje prek sistema povezovanja poslovnih registrov in jo AJPES v elektronski obliki posreduje Vrhovnemu sodišču Republike Slovenije.
+
+(9) Podatki iz šestega, sedmega in osmega odstavka tega člena vsebujejo naslednje podatke:
+
+1. podatke o osebi v skladu z zahtevami izvedbene uredbe Evropske komisije, ki določa pravila v zvezi s tehničnimi specifikacijami in postopki za sistem povezovanja poslovnih registrov: osebno ime, datum rojstva in EMŠO ali davčna številka ali drug podatek, ki v povezavi z osebnim imenom zagotavljajo enolično identifikacijo, in
+
+2. v zvezi s sedmim odstavkom tega člena podatek, da je oseba bila ali ni bila pravnomočno obsojena, in datum pravnomočnosti sodbe,
+
+3. v zvezi s sedmim odstavkom tega člena podatek, da je osebi bil ali ni bil izrečen varnostni ukrep prepovedi opravljanja poklica, ter datum izreka in trajanje ukrepa,
+
+4. v zvezi s prejšnjim odstavkom podatek, da je bilo osebi pravnomočno naloženo plačilo odškodnine upnikom, ter datum pravnomočnosti sodne odločbe.
+
+(10) AJPES na podlagi podatkov ministrstva, pristojnega za pravosodje, in Vrhovnega sodišča Republike Slovenije nemudoma posreduje prek sistema povezovanja poslovnih registrov pristojnemu organu države članice odgovor v elektronski obliki.
+
+(11) Za obveznosti glede predložitve zahteve iz šestega odstavka tega člena in odgovora iz prejšnjega odstavka v elektronski obliki prek sistema povezovanja poslovnih registrov se upoštevajo zahteve iz izvedbene uredbe Evropske komisije, ki določa pravila v zvezi s tehničnimi specifikacijami in postopki za sistem povezovanja poslovnih registrov.
+
+(12) Organi iz šestega do osmega in desetega odstavka tega člena smejo osebne podatke o članih organov vodenja ali nadzora iz šestega in devetega odstavka tega člena obdelovati za namen posredovanja zahteve registrskega organa in odgovora na zahtevo pristojnega organa države članice. Osebni podatki se lahko hranijo tako dolgo, kot je potrebno, vendar ne dlje od hrambe osebnih podatkov v registru.
+
+(13) Vrhovno sodišče Republike Slovenije upravlja evidenco oseb, ki jim je bilo kot članom organa vodenja ali nadzora družbe, nad katero je bil začet stečajni postopek, pravnomočno naloženo plačilo odškodnine upnikom v skladu z določbami o odškodninski odgovornosti v zakonu, ki ureja finančno poslovanje, postopke zaradi insolventnosti in prisilno prenehanje. Evidenca za vsako osebo vsebuje:
+
+1. osebno ime,
+
+2. datum rojstva,
+
+3. EMŠO ali davčno številko,
+
+4. opravilno številko postopka,
+
+5. datum pravnomočnosti sodbe.
+
+(14) Po pravnomočnosti sodbe iz šeste alineje drugega odstavka tega člena sodišče, ki jo je izdalo, nemudoma posreduje upravljavcu iz prejšnjega odstavka podatke iz prejšnjega odstavka za vpis v evidenco iz prejšnjega odstavka. Upravljavec podatke nemudoma vpiše v evidenco.
+
+(15) Podatki o osebah, vpisani v evidenci iz trinajstega odstavka tega člena, se obdelujejo zaradi učinkovitega preverjanja, ali so podane okoliščine v skladu s petim odstavkom tega člena, in ugotavljanja obstoja okoliščin v skladu z osmim odstavkom tega člena.
+
+(16) Podatki o osebi, vpisani v evidenci iz trinajstega odstavka tega člena, se vodijo dve leti po pravnomočnosti sodbe, potem pa se izbrišejo.«.
+
+13. člen
+
+V 296. členu se v prvem odstavku v deseti alineji za besedo »četrtim« doda besedilo »ali petim«.
+
+V enajsti alineji se za besedo »postopka« doda beseda »za«, beseda »uresničevanja« pa se nadomesti z besedo »uresničevanje«.
+
+Za sedmim odstavkom se doda nov osmi odstavek, ki se glasi:
+
+»(8) Poslovodstvo lahko v sklicu skupščine določi, da lahko delničarji najpozneje dva dneva pred skupščino, sklicano v skladu s četrtim ali petim odstavkom 297. člena tega zakona, z uporabo elektronskih sredstev predložijo družbi vprašanja, s katerimi uresničujejo delničarjevo pravico do obveščenosti iz 305. člena tega zakona. Poslovodstvo zagotovi pravico delničarjev iz prejšnjega stavka, če tako določa statut.«.
+
+14. člen
+
+V 297. členu se v četrtem odstavku za besedo »delničarji« doda besedilo »in njihovi pooblaščenci« in za besedo »prisotnosti« doda besedilo »(v nadaljnjem besedilu: elektronska skupščina)«.
+
+Za četrtim odstavkom se doda nov peti odstavek, ki se glasi:
+
+»(5) Statut družbe lahko določi, da se skupščina lahko izvede kot virtualna skupščina brez fizične prisotnosti delničarjev in njihovih pooblaščencev ter drugih oseb (v nadaljnjem besedilu: virtualna skupščina) in uredi postopek za to, če so izpolnjeni naslednji pogoji:
+
+– družba zagotovi prenos slike in tona celotne skupščine v realnem času,
+
+– družba zagotovi pogoje za ugotavljanje identitete delničarjev ali njihovih pooblaščencev,
+
+– glasovanje delničarjev ali njihovih pooblaščencev na skupščini je možno z uporabo elektronskih sredstev in so zagotovljeni pogoji za varno elektronsko komuniciranje ter
+
+– delničarji lahko uresničujejo delničarjevo pravico do obveščenosti iz 305. člena tega zakona z uporabo elektronskih sredstev.«.
+
+Dosedanji peti odstavek, ki postane šesti odstavek, se spremeni tako, da se glasi:
+
+»(6) Statut družbe lahko pooblasti poslovodstvo, da podrobneje uredi postopek iz četrtega in petega odstavka tega člena, vključno s tehničnim načinom uresničevanja glasovalne pravice na elektronski ali virtualni skupščini.«.
+
+15. člen
+
+V 298. členu se v drugem odstavku za besedilom »na organiziranem trgu« doda besedilo »ali katere statut določa, da se lahko skupščina izvede kot elektronska ali virtualna skupščina«, besedilo »s pomočjo« pa se nadomesti z besedilom »z uporabo«.
+
+16. člen
+
+V 300. členu se v drugem odstavku za besedilom »na organiziranem trgu« doda besedilo »ali katere statut določa, da se lahko skupščina izvede kot elektronska ali virtualna skupščina«.
+
+17. člen
+
+V 304. členu se v drugem odstavku na koncu besedila doda nov drugi stavek, ki se glasi: »V zapisniku elektronske ali virtualne skupščine se navede tudi način ugotovitve vsebine glasov.«.
+
+Za sedmim odstavkom se dodata nova osmi in deveti odstavek, ki se glasita:
+
+»(8) Identiteto na elektronski ali virtualni skupščini prisotnih ali zastopanih delničarjev in njihovih pooblaščencev preveri poslovodstvo ali predsednik skupščine.
+
+(9) Predsednik skupščine lahko na daljavo podpiše zapisnik elektronske ali virtualne skupščine s kvalificiranim elektronskim podpisom.«.
+
+18. člen
+
+V 308. členu se v sedmem odstavku za besedilom »na organiziranem trgu,« doda besedilo »in delničarji na skupščini, ki se izvede kot elektronska ali virtualna skupščina,«.
+
+19. člen
+
+V 387. členu se v tretjem odstavku drugi stavek spremeni tako, da se glasi: »Delnice v nematerializirani obliki od vpisa sklepa o prenosu delnic v register namesto pravic iz 176. člena tega zakona, ki preidejo na glavnega delničarja, dajejo manjšinskim delničarjem pravico do denarne odpravnine.«.
+
+20. člen
+
+V 395. členu se četrti odstavek spremeni tako, da se glasi:
+
+»(4) Izpodbijanje sklepa skupščine se ne more opirati na:
+
+1. kršitev pravic delničarjev, ki so posledica tehničnih motenj pri uporabi tehničnih sredstev na elektronski ali virtualni skupščini, razen če so tehnične motnje posledica hude malomarnosti ali naklepa odgovorne osebe družbe,
+
+2. kršitev petega odstavka 309. člena tega zakona.«.
+
+21. člen
+
+V 397. členu se za prvim odstavkom doda nov drugi odstavek, ki se glasi:
+
+»(2) Delničar, ki je bil navzoč na skupščini, ki se je izvedla kot elektronska ali virtualna skupščina, lahko napove izpodbijanje sklepa z uporabo elektronskih sredstev najpozneje v 24 urah po začetku skupščine.«.
+
+Dosedanji drugi odstavek postane tretji odstavek.
+
+22. člen
+
+V 474. členu se za prvim odstavkom dodata nova drugi in tretji odstavek, ki se glasita:
+
+»(2) Družbena pogodba je lahko sklenjena z uporabo videoelektronskih sredstev kot notarski zapis v elektronski obliki na način, ki ga določa zakon, ki ureja notariat.
+
+(3) Družbeno pogodbo, ki je sklenjena na posebnem obrazcu v elektronski obliki z uporabo videoelektronskih sredstev v skladu z določbami zakona, ki ureja notariat, mora v obliki notarskega zapisa potrditi notar.«.
+
+Za dosedanjim drugim odstavkom, ki postane četrti odstavek, se doda nov peti odstavek, ki se glasi:
+
+»(5) Če je družbena pogodba sklenjena v skladu z drugim ali tretjim odstavkom tega člena, se za potrditev družbenikovega pooblastila smiselno uporablja tudi drugi ali tretji odstavek tega člena.«.
+
+Dosedanja tretji in četrti odstavek postaneta šesti in sedmi odstavek.
+
+V dosedanjem petem odstavku, ki postane osmi odstavek, se besedilo »tretjega in četrtega« nadomesti z besedilom »šestega in sedmega«.
+
+Dosedanji šesti odstavek postane deveti odstavek.
+
+23. člen
+
+V 507. členu se na koncu besedila prvega odstavka doda stavek, ki se glasi: »Skupščina se lahko izvede tudi telefonsko ali prek prenosa slike in tona, če tako sklenejo vsi družbeniki s pisno izjavo.«.
+
+24. člen
+
+V 509. členu se na koncu besedila prvega odstavka doda nov drugi stavek, ki se glasi: »Skupščina se lahko skliče tudi z uporabo elektronskih sredstev, ki omogočajo osebi, ki je sklicala skupščino, da pridobi dokaz o dostavi sklica.«.
+
+25. člen
+
+V 515. členu se v šestem odstavku besedilo »in tretjega« nadomesti z besedilom »do dvanajstega«.
+
+26. člen
+
+V 523. členu se prvi odstavek spremeni tako, da se glasi:
+
+»(1) Če družbo ustanavlja samo ena oseba (v nadaljnjem besedilu: ustanovitelj), sprejme ta oseba akt o ustanovitvi, za katerega ni potrebno, da je v obliki notarskega zapisa. Akt o ustanovitvi je lahko tudi na posebnem obrazcu v fizični ali elektronski obliki. Če je akt o ustanovitvi na posebnem obrazcu v fizični obliki, mora biti družbenikov podpis overjen.«.
+
+27. člen
+
+V 589. členu se v drugem odstavku na koncu besedila 1. točke črta beseda »ali« in se doda nova 2. točka, ki se glasi:
+
+»2. če je oseba neposredno ali posredno imetnik vseh delnic prevzemne in prevzetih družb ali«.
+
+Dosedanja 2. točka postane 3. točka.
+
+28. člen
+
+V 614. členu se v prvem odstavku dodata nova drugi in tretji stavek, ki se glasita: »Če prevzemna družba ne založi predujma za te stroške, ga sodišče izterja po uradni dolžnosti. Pritožba ne zadrži izvršbe.«.
+
+29. člen
+
+V 622.a členu se drugi odstavek spremeni tako, da se glasi:
+
+»(2) Kapitalska družba, ki je lahko udeležena v čezmejni združitvi po določbah tega oddelka, je:
+
+1. družba iz Priloge II Direktive 2017/1132/EU ali
+
+2. družba s priznano pravno osebnostjo, ki za svoje obveznosti odgovarja izključno z lastnim premoženjem in za katero se uporabljajo zaščitni ukrepi za varovanje interesov družbenikov in tretjih oseb, določeni v 2. oddelku Drugega poglavja in 1. oddelku Tretjega poglavja I. naslova Direktive 2017/1132/EU.«.
+
+V tretjem odstavku se besedilo »imajo naslednji pomen« nadomesti z besedo »pomenijo«.
+
+Na koncu besedila 3. točke se vejica nadomesti s piko, 4. točka pa se črta.
+
+30. člen
+
+V 622.b členu se četrti odstavek spremeni tako, da se glasi:
+
+»(4) Določbe tega oddelka se ne uporabljajo za:
+
+– čezmejne združitve, v katerih je udeležena družba s ciljem kolektivnih naložb s strani javnosti zagotovljenega kapitala, ki deluje v skladu z načelom razpršitve tveganj in katere deleži se na zahtevo imetnikov odkupijo ali ponovno kupijo, neposredno ali posredno, iz premoženja te družbe. Ukrepi, s katerimi ta družba zagotovi, da se vrednost njenih deležev po borznem tečaju bistveno ne razlikuje od njihove neto vrednosti, se štejejo kot enakovredni takemu odkupu ali ponovnemu nakupu;
+
+– družbe v likvidaciji, ki so začele preostalo premoženje deliti med imetnike deležev, in
+
+– družbe, za katere se uporabljajo postopki in ukrepi za reševanje na podlagi zakona, ki ureja reševanje in prisilno prenehanje bank.«.
+
+31. člen
+
+V 622.c členu se v prvem odstavku za besedo »vodenja« doda beseda »družb«.
+
+V drugem odstavku se v 5. in 6. točki črta beseda »naprej«.
+
+7. do 9. točka se spremenijo tako, da se glasijo:
+
+»7. podrobnosti o pravicah ali ukrepih družbe, ki izide iz čezmejne združitve, za uresničitev pravic imetnikov posebnih pravic iz deležev prevzetih družb ali imetnikov vrednostnih papirjev, razen deležev prevzetih družb, ki predstavljajo kapital teh družb,
+
+8. podrobnosti o vseh posebnih ugodnostih, ki jih imajo poslovodstvo ali člani organov vodenja ali nadzora družb, ki se čezmejno združujejo,
+
+9. predlog akta o ustanovitvi in statuta, če je v obliki posebnega dokumenta, ali predlog družbene pogodbe ali statuta (v nadaljnjem besedilu tega oddelka: statut) družbe, ki izide iz čezmejne združitve,«.
+
+Za 9. točko se doda nova 10. točka, ki se glasi:
+
+»10. podrobnosti o ukrepih, ponujenih upnikom, kot so jamstva ali poroštva,«.
+
+V dosedanji 10. točki, ki postane 11. točka, se besedilo »s 16. členom Direktive 2005/56/ES« nadomesti z besedilom »z zakonom, ki ureja soodločanje delavcev pri čezmejnih združitvah kapitalskih družb«, besedilo »nastane s čezmejno združitvijo« pa z besedilom »izide iz čezmejne združitve.«.
+
+Dosedanja 11. in 12. točka postaneta 12. in 13. točka.
+
+Četrti odstavek se spremeni tako, da se glasi:
+
+»(4) Če je prevzemna družba imetnica vseh deležev prevzete družbe ali je ista oseba neposredno ali posredno imetnica vseh deležev družb, ki se čezmejno združujejo, prevzemna družba pa ne zagotovi deležev, ni treba upoštevati določb 2., 3. in 5. točke drugega odstavka in tretjega odstavka tega člena ter 622.d člena tega zakona, prevzeti družbi pa ni treba upoštevati niti določb 585. in 622.č člena tega zakona.«.
+
+32. člen
+
+622.č člen se spremeni tako, da se glasi:
+
+»622.č člen
+
+(poročilo poslovodstva ali organa vodenja o čezmejni združitvi)
+
+(1) V poročilu poslovodstva ali organa vodenja o čezmejni združitvi (v nadaljnjem besedilu: poročilo o čezmejni združitvi) za imetnike deležev in delavce je treba obrazložiti pravne in ekonomske posledice čezmejne združitve ter zlasti posledice čezmejne združitve za prihodnje poslovanje družbe, ki se čezmejno združuje.
+
+(2) Poročilo o čezmejni združitvi vsebuje tudi poročilo za imetnike deležev in poročilo za delavce. Družba se lahko odloči, da namesto enega poročila pripravi ločeni poročili za imetnike deležev in za delavce. Poročili vsebujeta obrazložitev iz prejšnjega odstavka in pojasnilo iz tretjega ali četrtega odstavka tega člena.
+
+(3) Poročilo za imetnike deležev vsebuje pojasnilo zlasti glede:
+
+1. denarne odpravnine in metod za določitev višine denarne odpravnine,
+
+2. kadar je to potrebno, menjalnega razmerja in metod za njegovo določitev,
+
+3. posledic čezmejne združitve za imetnike deležev,
+
+4. pravic in ukrepov za uresničevanje pravic imetnikov deležev.
+
+(4) Poročilo za delavce vsebuje pojasnilo zlasti glede:
+
+1. posledic čezmejne združitve za delovna razmerja in, kadar je to potrebno, ukrepov za njihovo zaščito,
+
+2. morebitne bistvene spremembe veljavnih pogojev zaposlitve ali sedežev poslovanja družbe,
+
+3. vpliva dejavnikov iz 1. in 2. točke tega odstavka na podružnice, če jih družba ima.
+
+(5) Poročilo o čezmejni združitvi ali poročili za imetnike deležev in za delavce so z načrtom čezmejne združitve, če je na voljo, vsaj v elektronski obliki dostopni imetnikom deležev in predstavniku, prek katerega delavci uresničujejo pravice do sodelovanja pri upravljanju v skladu z zakonom, ki ureja sodelovanje delavcev pri upravljanju, ali, če predstavnika delavcev ni, delavcem, vsaj šest tednov:
+
+1. pred zasedanjem skupščine vsake družbe, ki se čezmejno združuje, ki bo odločala o soglasju za čezmejno združitev, ali
+
+2. pred zasedanjem skupščine prevzete družbe, če se ne zahteva soglasje prevzemne družbe za čezmejno združitev.
+
+(6) Kadar poslovodstvo ali organ vodenja katere koli od družb, ki se čezmejno združujejo, pravočasno prejme mnenje predstavnika delavcev glede informacij iz prvega ali četrtega odstavka tega člena ali, če predstavnika delavcev ni, mnenje delavcev, se to mnenje doda poročilu in se o tem obvesti imetnike deležev.
+
+(7) Poročilo za imetnike deležev se ne zahteva, če se poročilu za imetnike deležev odpovejo vsi imetniki deležev. Izjava o odpovedi mora biti dana v obliki notarskega zapisa. Izjavo o odpovedi lahko dajo imetniki deležev tudi ustno na zasedanju skupščine družbe, ki odloča o čezmejni združitvi. V takem primeru se izjava vključi v zapisnik skupščine. Poročilo za delavce se ne zahteva, kadar družba ali njena podružnica nima delavcev, razen tistih, ki so del poslovodstva ali organa vodenja. Poročilo o čezmejni združitvi se ne zahteva, če se pod pogoji iz prvega do petega stavka tega odstavka imetniki deležev poročilu za imetnike deležev odpovejo in se poročilo za delavce ne zahteva.
+
+(8) V statutu se določijo podrobnosti v zvezi z zagotavljanjem dostopnosti poročila o čezmejni združitvi ali poročil za imetnike deležev in za delavce ter načrta čezmejne združitve v skladu s petim odstavkom tega člena in posredovanjem obvestila za imetnike deležev v skladu s šestim odstavkom tega člena.«.
+
+33. člen
+
+622.d člen se spremeni tako, da se glasi:
+
+»622.d člen
+
+(revizija čezmejne združitve)
+
+(1) Kadar je v čezmejni združitvi udeležena družba, ki je organizirana kot družba z omejeno odgovornostjo, se za revizijo čezmejne združitve smiselno uporabljajo določbe 583. člena in šestega odstavka 599. člena tega zakona.
+
+(2) Načrt čezmejne združitve morajo pregledati revizorji (pripojitveni revizorji), ki morajo o čezmejni združitvi izdelati pisno poročilo (v nadaljnjem besedilu: poročilo o reviziji čezmejne združitve). Poročilo o reviziji čezmejne združitve je lahko tudi skupno za vse družbe, ki se čezmejno združujejo. Pri izdelavi poročila so revizorji upravičeni, da zahtevajo vse informacije, ki jih potrebujejo, da izpolnijo svojo nalogo, od vsake družbe, ki je udeležena v čezmejni združitvi. Revizorji varujejo zaupne informacije, za katere so izvedeli pri reviziji čezmejne združitve, v skladu z določbami zakona, ki ureja revidiranje.
+
+(3) Poročilo o reviziji čezmejne združitve se imetnikom deležev predloži najpozneje en mesec pred zasedanjem skupščine družbe, ki se čezmejno združuje. Če se za čezmejno združitev ne zahteva soglasje prevzemne družbe, je poročilo o reviziji dostopno najpozneje en mesec pred zasedanjem skupščine druge družbe ali družb, ki se združujejo.
+
+(4) Poročilo o reviziji čezmejne združitve mora vsebovati mnenje revizorja ali revizorjev o tem, ali sta zagotovitev deležev prevzemne družbe po menjalnem razmerju, predlaganem v načrtu čezmejne združitve, in višina morebitnih denarnih doplačil ustrezni in ali je ponujena denarna odpravnina primerno nadomestilo za deleže prevzete družbe. Pri določitvi višine denarne odpravnine se upošteva tržna vrednost deležev v družbah, ki se združujejo, pred javno objavo predlagane čezmejne združitve ali vrednost družbe, v kateri ni upoštevan učinek predlagane čezmejne združitve in je določena v skladu s splošno sprejetimi metodami vrednotenja. V poročilu o reviziji čezmejne združitve je treba razložiti zlasti:
+
+1. z uporabo katerih metod je bilo določeno menjalno razmerje,
+
+2. z uporabo katerih metod ocenjevanja vrednosti podjetij je bila določena višina denarne odpravnine, ki je predlagana v načrtu čezmejne združitve,
+
+3. razloge, zaradi katerih je uporaba izbranih metod v zadevnem primeru primerna za določitev menjalnega razmerja ali višine denarne odpravnine, in
+
+4. če je bilo za določitev menjalnega razmerja ali višine denarne odpravnine uporabljenih več metod, kolikšna vrednost je bila ugotovljena pri uporabi vsake od izbranih metod; hkrati je treba podati mnenje o relativni pomembnosti, pripisani takim metodam pri izračunu vrednosti, o kateri se odloča, in če se v družbah, ki se združujejo, uporabijo različne metode, je treba navesti, ali je uporaba različnih metod upravičena, in opisati vse morebitne posebne težave pri ocenjevanju vrednosti družb, udeleženih pri čezmejni združitvi.
+
+(5) Mnenje revizorja o primernosti višine ponujene denarne odpravnine iz prejšnjega odstavka ni potrebno, če je ista oseba imetnik vseh deležev družbe ali če se vsi upravičenci do denarne odpravnine tej odpovedo. Izjava o odpovedi mora biti dana v obliki notarskega zapisa.
+
+(6) Kadar se s čezmejno združitvijo premoženje, pravice in obveznosti prevzete družbe s sedežem v Republiki Sloveniji prenašajo na družbo, ki izide iz čezmejne združitve, s sedežem v drugi državi članici, je treba v poročilu o reviziji čezmejne združitve navesti tudi višino osnovnega kapitala družb, ki se čezmejno združujejo, in višino vezanih rezerv teh družb.
+
+(7) Revizija načrta čezmejne združitve se ne opravi, če se ji odpovejo vsi imetniki deležev družb, ki se čezmejno združujejo. Izjava o odpovedi mora biti dana v obliki notarskega zapisa. Izjavo o odpovedi lahko dajo imetniki deležev tudi ustno na zasedanju skupščine družbe, ki odloča o čezmejni združitvi. V takem primeru se izjava vključi v zapisnik skupščine. Določbe tega člena se ne uporabljajo za družbe z enim imetnikom deležev.«.
+
+34. člen
+
+622.e člen se spremeni tako, da se glasi:
+
+»622.e člen
+
+(javna objava)
+
+(1) Družba, ki se čezmejno združuje, najpozneje pet tednov pred zasedanjem skupščine, ki bo odločala o soglasju za čezmejno združitev, predloži registrskemu organu zaradi javne objave naslednje listine:
+
+1. načrt čezmejne združitve,
+
+2. obvestilo, da lahko delavci, upniki in imetniki deležev družbe, ki se čezmejno združuje, najpozneje pet delovnih dni pred zasedanjem skupščine podajo pripombe na načrt čezmejne združitve, in
+
+3. poročilo o reviziji čezmejne združitve, če je na voljo.
+
+(2) Listine iz prejšnjega odstavka so javno dostopne najpozneje en mesec pred zasedanjem skupščine. Z dnem objave so listine javno dostopne tudi prek sistema povezovanja poslovnih registrov.
+
+(3) Kadar se s čezmejno združitvijo premoženje, pravice in obveznosti prevzete družbe s sedežem v Republiki Sloveniji prenašajo na družbo, ki izide iz čezmejne združitve, s sedežem v drugi državi članici, katere vsota osnovnega kapitala in vezanih rezerv bo manjša od vsote osnovnega kapitala in vezanih rezerv, ki jih je oblikovala ta prevzeta družba, je treba znane upnike te prevzete družbe osebno obvestiti o objavi listin iz prvega odstavka tega člena in o spletni strani, na kateri so listine javno dostopne.
+
+(4) Če pravni red držav članic družb, ki se čezmejno združujejo, določa izjemo od soglasja skupščine v skladu z drugim in tretjim odstavkom 599. člena in četrtim odstavkom 622.c člena tega zakona, so listine iz prvega odstavka tega člena in poročilo o čezmejni združitvi, če je na voljo, dostopni na spletni strani ali sedežu družbe najpozneje en mesec pred odločitvijo družbe o čezmejni združitvi.«.
+
+35. člen
+
+V 622.f členu se naslov člena spremeni tako, da se glasi: »(izvedba in soglasje skupščine za čezmejno združitev)«.
+
+Doda se nov prvi odstavek, ki se glasi:
+
+»(1) Za skupščino družbe, ki bo odločala o soglasju za čezmejno združitev, je treba predložiti vsaj načrt čezmejne združitve, poročili o čezmejni združitvi in o reviziji čezmejne združitve, če sta na voljo, mnenje iz šestega odstavka 622.č člena tega zakona ter pripombe delavcev, upnikov in imetnikov deležev družbe, ki se čezmejno združuje, iz 2. točke prvega odstavka prejšnjega člena.«.
+
+Dosedanji prvi odstavek postane drugi odstavek.
+
+V dosedanjem drugem odstavku, ki postane tretji odstavek, se besedilo »sodelujejo pri čezmejni združitvi« nadomesti z besedilom »se čezmejno združujejo«.
+
+36. člen
+
+V 622.g členu se prvi odstavek spremeni tako, da se glasi:
+
+»(1) Vsak imetnik deležev prevzete družbe s sedežem v Republiki Sloveniji, katere premoženje, pravice in obveznosti se s čezmejno združitvijo prenašajo na družbo s sedežem v drugi državi članici, ki je na skupščini prevzete družbe na zapisnik ugovarjal sklepu o soglasju za čezmejno združitev, lahko od družbe, ki izide iz čezmejne združitve, ali od druge osebe, ki se je zavezala plačati denarno odpravnino, zahteva, da prevzame deleže, ki mu jih mora zagotoviti zaradi čezmejne združitve, za plačilo primerne denarne odpravnine. To pravico ima tudi imetnik deležev prevzete družbe, ki se skupščine ni udeležil, če mu je bila protipravno preprečena udeležba na skupščini ali če skupščina ni bila pravilno sklicana ali če predmet odločanja na skupščini ni bil pravilno objavljen. Imetnik deležev, ki je bil navzoč na skupščini prevzete družbe, ki se je izvedla kot elektronska ali virtualna skupščina, lahko ugovarja sklepu o soglasju za čezmejno združitev z uporabo elektronskih sredstev najpozneje v 24 urah po začetku skupščine. Prevzeta družba določi elektronski naslov, na katerega lahko imetniki deležev pošljejo zahtevke iz tega odstavka.«.
+
+V drugem odstavku se besedilo »Ponudba vsebuje odložni pogoj« nadomesti z besedilom »Ponudba denarne odpravnine vsebuje odložni pogoj«.
+
+Za drugim stavkom se doda nov tretji stavek, ki se glasi: »Rok za plačilo denarne odpravnine je dva meseca po vpisu čezmejne združitve v register.«.
+
+V tretjem odstavku se besedilo »obveznosti plačati denarno odpravnino in« nadomesti z besedilom »obveznosti plačila denarne odpravnine«.
+
+V četrtem odstavku se beseda »četrtega« nadomesti z besedo »sedmega«, beseda »če« pa z besedo »ko«.
+
+37. člen
+
+V 622.i členu se v tretjem odstavku beseda »četrtega« nadomesti z besedo »sedmega«.
+
+38. člen
+
+V 622.j členu se prvi odstavek spremeni tako, da se glasi:
+
+»(1) Upniki prevzete družbe s sedežem v Republiki Sloveniji, ki s čezmejno združitvijo svoje premoženje, pravice in obveznosti prenaša na družbo, ki izide iz čezmejne združitve, s sedežem v drugi državi članici, lahko od sodišča zahtevajo zavarovanje za svoje nezapadle, negotove ali pogojne terjatve, ki so starejše od datuma objave načrta čezmejne združitve, če tako zavarovanje zahtevajo v treh mesecih po objavi načrta čezmejne združitve.«.
+
+Za prvim odstavkom se doda nov drugi odstavek, ki se glasi:
+
+»(2) Upniki lahko to pravico uveljavljajo samo, če verjetno izkažejo, da je zaradi čezmejne združitve ogrožena izpolnitev njihovih terjatev in ukrepi za uresničitev pravic upnikov iz načrta čezmejne združitve niso ustrezni. Šteje se, da je izpolnitev njihovih terjatev ogrožena in ukrepi za uresničitev pravic upnikov iz načrta čezmejne združitve niso ustrezni, če je vsota osnovnega kapitala in vezanih rezerv družbe, ki izide iz čezmejne združitve, manjša od vsote osnovnega kapitala in vezanih rezerv te prevzete družbe. Pravice zahtevati zavarovanje nimajo tisti upniki, ki imajo ob morebitnem stečajnem postopku pravico do prednostnega poplačila.«.
+
+Dosedanji drugi odstavek postane tretji odstavek.
+
+Dosedanji tretji odstavek, ki postane četrti odstavek, se spremeni tako, da se glasi:
+
+»(4) Registrski organ lahko potrdilo iz sedmega odstavka 622.k člena tega zakona izda šele, ko ugotovi, da je bilo upnikom, ki so upravičeni do zavarovanja po prvem in drugem odstavku tega člena, to dano ali da so bile imetnikom posebnih pravic iz prejšnjega odstavka zagotovljene enakovredne pravice.«.
+
+39. člen
+
+622.k člen se spremeni tako, da se glasi:
+
+»622.k člen
+
+(predhodni nadzor zakonitosti čezmejne združitve, potrdilo registrskega organa, vpis v register v Republiki Sloveniji)
+
+(1) Poslovodstvo ali organ vodenja družbe, ki s čezmejno združitvijo svoje premoženje, pravice in obveznosti prenaša na družbo, ki izide iz čezmejne združitve, s sedežem v drugi državi članici, predlaga vpis namere čezmejne združitve v register.
+
+(2) Prijavi za vpis namere čezmejne združitve je treba priložiti:
+
+1. načrt čezmejne združitve,
+
+2. zapisnik zasedanja skupščine prevzete družbe, ki je odločala o soglasju za čezmejno združitev,
+
+3. dovoljenje pristojnega organa, če se za čezmejno združitev to zahteva,
+
+4. poročilo poslovodstva ali organa vodenja prevzete družbe o čezmejni združitvi in mnenje iz šestega odstavka 622.č člena tega zakona, če je na voljo,
+
+5. poročilo ali poročila o reviziji čezmejne združitve, če je na voljo,
+
+6. pripombe delavcev, upnikov in imetnikov deležev prevzete družbe iz 2. točke prvega odstavka 622.e člena tega zakona,
+
+7. zaključno poročilo prevzete družbe,
+
+8. dokaz, da je bila nameravana čezmejna združitev objavljena v skladu s 622.e členom tega zakona,
+
+9. dokaze o zagotovitvi pogojev za uresničitev pravic imetnikov deležev in soglasje družb s sedežem v drugih državah članicah za začetek postopka za sodni preizkus primernosti višine denarne odpravnine,
+
+10. dokaze o zagotovitvi pogojev za uresničitev pravic upnikov v skladu z določbo prvega odstavka prejšnjega člena ali izjavo, da to ni bilo potrebno,
+
+11. izjavo poslovodstva ali organa vodenja prevzete družbe glede izpodbijanja sklepa skupščine, za katero se smiselno uporablja določba 1. točke drugega odstavka 590. člena tega zakona, in
+
+12. izjavo poslovodstva ali organa vodenja prevzete družbe o številu imetnikov deležev, ki uveljavljajo pravico zahtevati prevzem deležev za plačilo denarne odpravnine, in o načinu uresničitve te pravice.
+
+(3) Če poslovodstvo ali organ vodenja ne predloži izjave iz 11. ali 12. točke prejšnjega odstavka, ker je bila proti sklepu skupščine o soglasju za čezmejno združitev vložena tožba za izpodbijanje navedenega sklepa ali ugotovitev njegove ničnosti, se smiselno uporabljajo določbe tretjega do petega odstavka 590. člena tega zakona.
+
+(4) Registrski organ pregleda vse listine in informacije iz drugega in tretjega odstavka tega člena in, kadar je to primerno, izjavo poslovodstva ali organa vodenja, da so se začeli postopki v skladu z določbami zakona, ki ureja soodločanje delavcev pri čezmejnih združitvah kapitalskih družb, ter preizkusi, ali so bila v zvezi s čezmejno združitvijo pravilno opravljena vsa predpisana pravna opravila, ali so izpolnjene predpostavke za uveljavitev pravice imetnikov deležev zahtevati prevzem deležev za plačilo denarne odpravnine, ali je dokazano, da so se vsi imetniki deležev veljavno odpovedali tej pravici, ali so izpolnjene predpostavke za uveljavitev pravice upnikov zahtevati zavarovanje ter ali načrt čezmejne združitve vsebuje podatke o postopkih, s katerimi so določene podrobnosti o udeležbi delavcev pri opredelitvi njihovih pravic do soodločanja v družbi, ki izide iz čezmejne združitve, in o možnostih za udeležbo delavcev pri opredelitvi njihovih pravic do soodločanja.
+
+(5) Registrski organ preveri, da družba iz prvega odstavka tega člena nima zapadlih neplačanih obveznih dajatev in drugih denarnih nedavčnih obveznosti, ki jih izterjuje Finančna uprava Republike Slovenije, v višini več kot 50 eurov in da ima izpolnjene vse obveznosti v zvezi s predložitvijo obračuna davčnega odtegljaja za izplačilo plače in nadomestila plače za zadnjih 24 mesecev.
+
+(6) Registrski organ preizkusi, ali je čezmejna združitev namenjena zlorabam ali goljufijam, ki vodijo k izmikanju pravu EU ali zakonodaji Republike Slovenije ali obidu tega prava ali zakonodaje ali je takšno izmikanje ali obid njihov cilj, ali za kriminalne namene. Registrski organ zavrne predlog za vpis namere čezmejne združitve, če ugotovi namen iz prejšnjega stavka. Rok iz sedmega odstavka tega člena se lahko podaljša za tri mesece, če je to potrebno za razjasnitev posameznih vprašanj.
+
+(7) Če registrski organ ugotovi, da so bila v zvezi s čezmejno združitvijo pravilno opravljena vsa predpisana pravna opravila, da so izpolnjene predpostavke za uveljavitev pravice imetnikov deležev zahtevati prevzem deležev za plačilo denarne odpravnine in pravice upnikov zahtevati zavarovanje, da so imetnikom posebnih pravic zagotovljene enakovredne pravice, da okoliščine iz petega odstavka tega člena niso izpolnjene in da ne obstaja namen iz prejšnjega odstavka, vpiše namero čezmejne združitve in najpozneje v treh mesecih po prejemu popolne prijave izda potrdilo, s katerim potrdi, da so za čezmejno združitev izpolnjeni vsi pogoji in so bila pravilno opravljena vsa pravna opravila, ki jih je bilo treba opraviti za čezmejno združitev.
+
+(8) Če registrski organ ne odloči v roku iz šestega ali sedmega odstavka tega člena, predlagatelja vpisa iz prvega odstavka tega člena obvesti o razlogih za zamudo.
+
+(9) Registrski organ lahko v okviru postopka iz tega člena zahteva listine in informacije od družbe iz prvega odstavka tega člena, državnega organa ali nosilca javnih pooblastil, organa države članice družbe, ki izide iz čezmejne združitve, ali določi izvedenca.
+
+(10) Ob vpisu namere za čezmejno združitev se vpišeta nameravani sedež družbe, ki izide iz čezmejne združitve, in register, pri katerem bo ta družba vpisana. Vpis se opremi z zaznamkom, da je bilo izdano potrdilo iz sedmega odstavka tega člena.
+
+(11) Registrski organ potrdilo po uradni dolžnosti nemudoma brezplačno pošlje prek sistema povezovanja poslovnih registrov pristojnim organom držav članic, v katerih imajo svoj sedež družbe, ki se čezmejno združujejo.
+
+(12) Potrdilo je javno dostopno prek sistema povezovanja poslovnih registrov.
+
+(13) Registrski organ, pri katerem je vpisana prevzeta družba, po uradni dolžnosti vpiše izbris te družbe iz registra na podlagi obvestila pristojnega organa države članice o vpisu družbe, ki izide iz čezmejne združitve, v register, ki ga prejme prek sistema povezovanja poslovnih registrov.«.
+
+40. člen
+
+622.l člen se spremeni tako, da se glasi:
+
+»622.l člen
+
+(prijava za vpis čezmejne združitve, preizkus in vpis čezmejne združitve v register v Republiki Sloveniji)
+
+(1) Poslovodstvo ali organ vodenja vsake družbe, ki se čezmejno združuje, mora vložiti prijavo za vpis čezmejne združitve pri registrskem organu v Republiki Sloveniji, pri katerem bo družba, ki izide iz čezmejne združitve, vpisana v register.
+
+(2) Prijavi za vpis čezmejne združitve je treba priložiti načrt čezmejne združitve ter dokumente in listine iz drugega odstavka 590. člena tega zakona. Potrdilo vsake od prevzetih družb, ki ga je po opravljenem vpisu nameravane čezmejne združitve izdal pristojni organ države članice, v kateri ima vsaka od prevzetih družb svoj sedež, in ki dokazuje, da so bila pravilno opravljena vsa pravna opravila, ki jih je bilo treba opraviti za čezmejno združitev, registrski organ prejme prek sistema povezovanja poslovnih registrov.
+
+(3) Pred vpisom čezmejne združitve v register mora registrski organ preizkusiti:
+
+1. ali so skupščine družb, ki se čezmejno združujejo in se zahteva njihovo soglasje, s sklepom o soglasju za čezmejno združitev potrdile isti načrt čezmejne združitve in
+
+2. ali so bila v prevzetih družbah izvedena pogajanja o udeležbi delavcev pri upravljanju družbe, ki izide iz čezmejne združitve.
+
+(4) Registrski organ mora po vpisu čezmejne združitve v register po uradni dolžnosti o tem vpisu prek sistema povezovanja poslovnih registrov nemudoma obvestiti pristojni organ za vpis družb v državah članicah, v katerih so prevzete družbe vpisane v register.«.
+
+41. člen
+
+Za 622.l členom se doda nov 622.m člen, ki se glasi
+
+»622.m člen
+
+(izključitev ničnosti vpisa čezmejne združitve v register)
+
+Ne glede na določbe zakona, ki ureja sodni register, o tožbi za ugotovitev ničnosti vpisa tožba za ugotovitev ničnosti vpisa čezmejne združitve v register ni dovoljena.«.
+
+42. člen
+
+Za 638. členom se dodajo nov 4. oddelek in novi 638.a do 638.o člen, ki se glasijo:
+
+»4. oddelek
+
+Posebna pravila za čezmejne delitve kapitalskih družb
+
+638.a člen
+
+(splošna pravila in pomen pojmov)
+
+(1) V čezmejnih delitvah so lahko udeležene kapitalske družbe v oblikah iz Priloge II Direktive 2017/1132/EU (v nadaljnjem besedilu tega oddelka: družba), če za vsaj dve od udeleženih kapitalskih družb velja pravo različnih držav članic.
+
+(2) Če v tem oddelku ni določeno drugače, se za čezmejne delitve smiselno uporabljajo določbe Tretjega poglavja VI. dela tega zakona.
+
+(3) Družba se lahko čezmejno deli z:
+
+1. razdelitvijo vseh delov premoženja prenosne družbe, ki z razdelitvijo preneha, ne da bi bila opravljena njena likvidacija, na dve ali več novih družb iz prve alineje drugega odstavka 623. člena tega zakona, ali
+
+2. izčlenitvijo posameznih delov premoženja prenosne družbe, ki z izčlenitvijo ne preneha, na eno ali več novih družb iz prve alineje tretjega odstavka 623. člena tega zakona, ali
+
+3. oddelitvijo posameznih delov premoženja prenosne družbe, ki z oddelitvijo ne preneha, na eno ali več novih družb iz prve alineje četrtega odstavka 623. člena tega zakona.
+
+(4) Pri izčlenitvi se ne uporabljajo drugi stavek devetega odstavka 623. člena, 2., 3., 6., 9. in 17. točka 638.c člena ter 638.č, 638.d, 638.g, 638.h in 638.i člen tega zakona.
+
+(5) Pri oddelitvi se lahko delničarjem ali družbenikom (v nadaljnjem besedilu tega oddelka: imetniki deležev) prenosne družbe zagotovijo delnice ali poslovni deleži (v nadaljnjem besedilu tega oddelka: deleži) nove ali prenosne družbe ali obeh.
+
+(6) Določbe tega oddelka se uporabljajo tudi za čezmejne delitve iz 1. in 3. točke tretjega odstavka tega člena, kadar lahko po pravu vsaj ene države članice vsota denarnih doplačil, ki jih zagotovi nova ali prenosna družba, presega desetino skupnega najmanjšega emisijskega zneska delnic ali zneska osnovnih vložkov, ki jih nova ali prenosna družba zagotovi imetnikom deležev prenosne družbe.
+
+(7) Določbe tega oddelka se ne uporabljajo za:
+
+– čezmejne delitve, v katerih je udeležena družba s ciljem kolektivnih naložb s strani javnosti zagotovljenega kapitala, ki deluje v skladu z načelom razpršitve tveganj in katere deleži se na zahtevo imetnikov odkupijo ali ponovno kupijo, neposredno ali posredno, iz premoženja te družbe. Ukrepi, s katerimi ta družba zagotovi, da se vrednost njenih deležev po borznem tečaju bistveno ne razlikuje od njihove neto vrednosti, se štejejo kot enakovredni takemu odkupu ali ponovnemu nakupu;
+
+– družbe v likvidaciji, ki so začele preostalo premoženje deliti med imetnike deležev, in
+
+– družbe, za katere se uporabljajo postopki in ukrepi za reševanje na podlagi zakona, ki ureja reševanje in prisilno prenehanje bank.
+
+(8) Dan začetka veljavnosti čezmejne delitve se presoja po pravu, ki velja za prenosno družbo. Ta dan nastopi, ko so opravljeni predhodni nadzor zakonitosti čezmejne delitve, preizkus in vpis čezmejne delitve v register in so organi prejeli obvestila iz 638.k in 638.l člena tega zakona.
+
+638.b člen
+
+(čezmejna delitev)
+
+Družbe s sedežem v Republiki Sloveniji so lahko:
+
+– kot prenosne družbe udeležene v čezmejni delitvi z novimi družbami, ustanovljenimi po pravu držav članic, s sedežem, glavnim poslovodstvom ali krajem, kjer se v glavnem vodijo njihovi posli, v državah članicah ali
+
+– nove družbe, na katere se prenesejo vsi ali posamezni deli premoženja prenosne družbe (v nadaljnjem besedilu tega oddelka: družba, ki nastane s čezmejno delitvijo), ustanovljene po pravu države članice, s sedežem, glavnim poslovodstvom ali krajem, kjer se v glavnem vodijo njihovi posli, v državi članici.
+
+638.c člen
+
+(načrt čezmejne delitve)
+
+(1) Poslovodstvo ali organ vodenja prenosne družbe pripravi načrt čezmejne delitve.
+
+(2) Načrt čezmejne delitve mora vsebovati predvsem:
+
+1. pravnoorganizacijsko obliko, firmo in sedež prenosne družbe ter predlog pravnoorganizacijske oblike, firme in sedeža družb, ki nastanejo s čezmejno delitvijo,
+
+2. razmerje, v katerem se zamenjajo deleži prenosne družbe za deleže družb, ki nastanejo s čezmejno delitvijo (menjalno razmerje), vključno z višino morebitnega denarnega doplačila, ki mora biti izražena v denarnem znesku na posamezni delež prenosne družbe,
+
+3. natančen opis pogojev, postopkov in meril v zvezi s prenosom deležev družb, ki nastanejo s čezmejno delitvijo, ali prenosne družbe ali obojih, in plačilom denarnega doplačila, imetnikom deležev prenosne družbe,
+
+4. predlog časovnega okvira čezmejne delitve,
+
+5. natančen opis verjetnih vplivov čezmejne delitve na položaj delavcev v družbah, ki so udeležene v čezmejni delitvi,
+
+6. dan, od katerega so imetniki deležev družb, ki so udeležene v čezmejni delitvi, udeleženi pri dobičku teh družb, in vse podrobnosti v zvezi z uveljavitvijo te pravice,
+
+7. dan ali dneve, od katerih se šteje, da so dejanja prenosne družbe opravljena za račun družb, ki nastanejo s čezmejno delitvijo (dan ali dnevi obračuna čezmejne delitve),
+
+8. podrobnosti o vseh posebnih ugodnostih, ki jih imajo poslovodstvo ali člani organov vodenja ali nadzora prenosne družbe,
+
+9. podrobnosti o pravicah ali ukrepih družb, ki nastanejo s čezmejno delitvijo, za uresničitev pravic imetnikov posebnih pravic iz deležev prenosne družbe ali imetnikov vrednostnih papirjev, razen deležev prenosne družbe, ki predstavljajo kapital družbe,
+
+10. podrobnosti o ukrepih, ponujenih upnikom prenosne družbe, kot so jamstva in poroštva,
+
+11. predlog akta o ustanovitvi in statuta, če je v obliki posebnega dokumenta, ali predlog družbene pogodbe ali statuta (v nadaljnjem besedilu tega oddelka: statut) družb, ki nastanejo s čezmejno delitvijo, ter v primeru čezmejne delitve z izčlenitvijo ali oddelitvijo predlog sprememb statuta prenosne družbe,
+
+12. kadar je to primerno, podatke o postopkih, s katerimi so v skladu s 160.l členom Direktive 2017/1132/EU določene podrobnosti o udeležbi delavcev pri opredelitvi njihovih pravic do soodločanja v družbah, ki nastanejo s čezmejno delitvijo,
+
+13. natančen opis delov premoženja in obveznosti prenosne družbe, ki se prenesejo na posamezno družbo, ki nastane s čezmejno delitvijo, ter izjavo, kako je treba dele premoženja in obveznosti prenosne družbe prenesti na posamezno družbo, ki nastane s čezmejno delitvijo, ali zadržati v prenosni družbi v primeru čezmejne delitve z izčlenitvijo ali oddelitvijo,
+
+14. določilo o obravnavanju delov premoženja in obveznosti prenosne družbe, na primer delov premoženja in obveznosti prenosne družbe, ki na dan načrta čezmejne delitve niso znani in dodeljeni,
+
+15. podatke o vrednotenju delov premoženja in obveznosti, ki se prenesejo na družbe, ki nastanejo s čezmejno delitvijo,
+
+16. bilančni presečni dan računovodskega poročila prenosne družbe, ki je bil podlaga za določitev pogojev čezmejne delitve,
+
+17. podatke o višini denarne odpravnine za imetnike deležev prenosne družbe v skladu s 638.g členom tega zakona.
+
+(3) Načrt čezmejne delitve mora potrditi notar.
+
+638.č člen
+
+(poročilo poslovodstva ali organa vodenja o čezmejni delitvi)
+
+(1) V poročilu poslovodstva ali organa vodenja prenosne družbe o čezmejni delitvi (v nadaljnjem besedilu: poročilo o čezmejni delitvi) za imetnike deležev in delavce je treba obrazložiti pravne in ekonomske posledice čezmejne delitve ter zlasti posledice čezmejne delitve za prihodnje poslovanje družb.
+
+(2) Poročilo o čezmejni delitvi vsebuje tudi poročilo za imetnike deležev in poročilo za delavce. Družba se lahko odloči, da namesto enega poročila pripravi ločeni poročili za imetnike deležev in za delavce. Poročili vsebujeta obrazložitev iz prejšnjega odstavka in pojasnilo iz tretjega ali četrtega odstavka tega člena.
+
+(3) Poročilo za imetnike deležev vsebuje pojasnilo zlasti glede:
+
+1. denarne odpravnine in metod za določitev višine denarne odpravnine,
+
+2. kadar je to potrebno, menjalnega razmerja in metod za njegovo določitev,
+
+3. posledic čezmejne delitve za imetnike deležev,
+
+4. pravic in ukrepov za uresničevanje pravic imetnikov deležev.
+
+(4) Poročilo za delavce vsebuje pojasnilo zlasti glede:
+
+1. posledic čezmejne delitve za delovna razmerja in, kadar je to potrebno, ukrepov za njihovo zaščito,
+
+2. morebitne bistvene spremembe veljavnih pogojev zaposlitve ali sedežev poslovanja prenosne družbe,
+
+3. vpliva dejavnikov iz 1. in 2. točke tega odstavka na podružnice, če jih prenosna družba ima.
+
+(5) Poročilo o čezmejni delitvi ali poročili za imetnike deležev in za delavce so z načrtom čezmejne delitve, če je na voljo, vsaj šest tednov pred zasedanjem skupščine prenosne družbe, ki bo odločala o soglasju za čezmejno delitev, vsaj v elektronski obliki dostopni imetnikom deležev in predstavniku, prek katerega delavci uresničujejo pravice do sodelovanja pri upravljanju v skladu z zakonom, ki ureja sodelovanje delavcev pri upravljanju, ali, če predstavnika delavcev ni, delavcem.
+
+(6) Kadar poslovodstvo ali organ vodenja prenosne družbe pravočasno prejme mnenje predstavnika delavcev glede informacij iz prvega ali četrtega odstavka tega člena ali, če predstavnika delavcev ni, mnenje delavcev, se to mnenje doda poročilu o čezmejni delitvi in se o tem obvesti imetnike deležev.
+
+(7) Poročilo za imetnike deležev se ne zahteva, če se poročilu za imetnike deležev odpovejo vsi imetniki deležev. Izjava o odpovedi mora biti dana v obliki notarskega zapisa. Izjavo o odpovedi lahko dajo imetniki deležev tudi ustno na zasedanju skupščine prenosne družbe, ki odloča o čezmejni delitvi. V takem primeru se izjava vključi v zapisnik skupščine. Poročilo za delavce se ne zahteva, kadar prenosna družba ali njena podružnica nima delavcev, razen tistih, ki so del poslovodstva ali organa vodenja. Poročilo o čezmejni delitvi se ne zahteva, če se pod pogoji iz prvega do petega stavka tega odstavka imetniki deležev poročilu za imetnike deležev odpovejo in se poročilo za delavce ne zahteva.
+
+(8) V statutu se določijo podrobnosti v zvezi z zagotavljanjem dostopnosti poročila o čezmejni delitvi ali poročil za imetnike deležev in za delavce ter načrta čezmejne delitve v skladu s petim odstavkom tega člena in posredovanjem obvestila za imetnike deležev v skladu s šestim odstavkom tega člena.
+
+638.d člen
+
+(revizija čezmejne delitve)
+
+(1) Načrt čezmejne delitve mora pregledati revizor (delitveni revizor), ki mora o čezmejni delitvi izdelati pisno poročilo (v nadaljnjem besedilu: poročilo o reviziji čezmejne delitve).
+
+(2) Za revizijo čezmejne delitve se smiselno uporabljajo določbe drugega, četrtega in šestega do osmega odstavka 583. člena tega zakona.
+
+(3) Poročilo o reviziji čezmejne delitve mora vsebovati mnenje revizorja o tem, ali sta zagotovitev deležev družb, ki nastanejo s čezmejno delitvijo, po menjalnem razmerju, predlaganem v načrtu čezmejne delitve, in višina morebitnih denarnih doplačil ustrezni in ali je ponujena denarna odpravnina primerno nadomestilo za deleže prenosne družbe. Pri določitvi višine denarne odpravnine se upošteva tržna vrednost deležev prenosne družbe pred javno objavo predlagane čezmejne delitve ali vrednost prenosne družbe, v kateri ni upoštevan učinek predlagane čezmejne delitve in je določena v skladu s splošno sprejetimi metodami vrednotenja. V poročilu o reviziji čezmejne delitve je treba pojasniti zlasti:
+
+1. z uporabo katerih metod je bilo določeno menjalno razmerje,
+
+2. z uporabo katerih metod ocenjevanja vrednosti podjetij je bila določena višina denarne odpravnine, ki je predlagana v načrtu čezmejne delitve,
+
+3. razloge, zaradi katerih je uporaba izbranih metod v zadevnem primeru primerna za določitev menjalnega razmerja ali višine denarne odpravnine, in
+
+4. če je bilo za določitev menjalnega razmerja ali višine denarne odpravnine uporabljenih več metod, kolikšna vrednost je bila ugotovljena pri uporabi vsake od izbranih metod; hkrati je treba podati mnenje o relativni pomembnosti, pripisani takim metodam pri izračunu vrednosti, o kateri se odloča, ter opisati vse morebitne posebne težave pri ocenjevanju vrednosti deležev prenosne družbe.
+
+(4) Pri izdelavi poročila o reviziji čezmejne delitve je revizor upravičen, da od prenosne družbe zahteva vse informacije, ki jih potrebuje, da izpolni svojo nalogo. Revizorji varujejo zaupne informacije, za katere so izvedeli pri reviziji čezmejne delitve, v skladu z določbami zakona, ki ureja revidiranje.
+
+(5) Poročilo o reviziji čezmejne delitve se imetnikom deležev prenosne družbe predloži najpozneje en mesec pred zasedanjem skupščine prenosne družbe.
+
+(6) Revizija načrta čezmejne delitve se ne opravi, če se ji odpovejo vsi imetniki deležev prenosne družbe. Izjava o odpovedi mora biti dana v obliki notarskega zapisa. Izjavo o odpovedi lahko dajo imetniki deležev tudi ustno na zasedanju skupščine prenosne družbe, ki odloča o čezmejni delitvi. V takem primeru se izjava vključi v zapisnik skupščine. Določbe tega člena se ne uporabljajo za družbe z enim imetnikom deležev.
+
+638.e člen
+
+(javna objava)
+
+(1) Prenosna družba najpozneje pet tednov pred zasedanjem skupščine, ki bo odločala o soglasju za čezmejno delitev, predloži registrskemu organu zaradi javne objave naslednje listine:
+
+1. načrt čezmejne delitve,
+
+2. obvestilo, da lahko delavci, upniki in imetniki deležev prenosne družbe najpozneje pet delovnih dni pred zasedanjem skupščine podajo pripombe na načrt čezmejne delitve, in
+
+3. poročilo o reviziji čezmejne delitve, če je na voljo.
+
+(2) Listine iz prejšnjega odstavka so javno dostopne najpozneje en mesec pred zasedanjem skupščine. Z dnem objave so listine javno dostopne tudi prek sistema povezovanja poslovnih registrov.
+
+(3) Kadar se s čezmejno delitvijo premoženje, pravice in obveznosti prenosne družbe s sedežem v Republiki Sloveniji prenašajo na družbo, ki nastane s čezmejno delitvijo, s sedežem v drugi državi članici, katere vsota osnovnega kapitala in vezanih rezerv bo manjša od vsote osnovnega kapitala in vezanih rezerv, ki jih je oblikovala ta prenosna družba, je treba znane upnike te prenosne družbe osebno obvestiti o objavi listin iz prvega odstavka tega člena in o spletni strani, na kateri so listine javno dostopne.
+
+638.f člen
+
+(izvedba in soglasje skupščine za čezmejno delitev)
+
+(1) Za skupščino prenosne družbe, ki bo odločala o soglasju za čezmejno delitev, je treba predložiti vsaj načrt čezmejne delitve, poročili o čezmejni delitvi in o reviziji čezmejne delitve, če sta na voljo, mnenje iz šestega odstavka 638.č člena tega zakona ter pripombe delavcev, upnikov in imetnikov deležev prenosne družbe iz 2. točke prvega odstavka prejšnjega člena.
+
+(2) Za soglasje skupščine za čezmejno delitev se smiselno uporabljajo določbe 585. člena tega zakona.
+
+(3) Skupščina prenosne družbe lahko čezmejno delitev pogojuje tako, da se način soodločanja delavcev v družbah, ki bodo nastale s čezmejno delitvijo, izrecno potrdi pri teh družbah.
+
+(4) Sklepa skupščine, ki je odločila o soglasju za čezmejno delitev, ni mogoče izpodbijati iz razlogov iz 604. člena tega zakona.
+
+638.g člen
+
+(ponudba denarne odpravnine v načrtu čezmejne delitve)
+
+(1) Vsak imetnik deležev prenosne družbe s sedežem v Republiki Sloveniji, katere premoženje, pravice in obveznosti se s čezmejno delitvijo prenašajo na družbe s sedežem v državah članicah, ki je na skupščini prenosne družbe na zapisnik ugovarjal sklepu o soglasju za čezmejno delitev, lahko od družb, ki nastanejo s čezmejno delitvijo, ali od druge osebe, ki se je zavezala plačati denarno odpravnino, zahteva, da prevzame njegove deleže, ki mu jih morajo zagotoviti zaradi čezmejne delitve, za plačilo primerne denarne odpravnine. To pravico ima tudi imetnik deležev prenosne družbe, ki se skupščine prenosne družbe ni udeležil, če mu je bila protipravno preprečena udeležba na skupščini ali če skupščina ni bila pravilno sklicana ali če predmet odločanja na skupščini ni bil pravilno objavljen. Imetnik deležev, ki je bil navzoč na skupščini prenosne družbe, ki se je izvedla kot elektronska ali virtualna skupščina, lahko ugovarja sklepu o soglasju za čezmejno delitev z uporabo elektronskih sredstev najpozneje v 24 urah po začetku skupščine. Prenosna družba določi elektronski naslov, na katerega lahko imetniki deležev pošljejo zahtevke iz tega odstavka.
+
+(2) Ponudba denarne odpravnine veže ponudnika do izteka enega meseca od dneva sprejetja sklepa o soglasju za čezmejno delitev. Ponudba denarne odpravnine vsebuje odložni pogoj, ki nastopi, ko je čezmejna delitev vpisana v register. Rok za plačilo denarne odpravnine je dva meseca po vpisu čezmejne delitve v register. Obveznost plačati denarno odpravnino zastara v treh letih po objavi vpisa čezmejne delitve v register. Stroške v zvezi s prevzemom deležev krije družba ali druga oseba, ki je v načrtu čezmejne delitve prevzela obveznost plačati denarno odpravnino.
+
+(3) Upravičencem do denarne odpravnine iz prvega odstavka tega člena je treba za izpolnitev obveznosti plačila denarne odpravnine dati ustrezno zavarovanje.
+
+(4) Registrski organ lahko potrdilo iz sedmega odstavka 638.k člena tega zakona izda šele, ko ugotovi, da je bilo za izpolnitev obveznosti plačila denarne odpravnine dano ustrezno zavarovanje ali da so se vsi upravičenci do denarne odpravnine tej odpovedali.
+
+(5) Če statut določa, da je za prenos deležev potrebno dovoljenje prenosne družbe ali imetnikov deležev, se lahko deleži od dneva sprejetja sklepa o soglasju za čezmejno delitev do izteka roka za sprejem ponudbe denarne odpravnine prenašajo brez dovoljenja.
+
+638.h člen
+
+(sodni preizkus višine denarne odpravnine)
+
+(1) Imetniki deležev prenosne družbe, ki so na zapisnik ugovarjali sklepu o soglasju za čezmejno delitev, lahko zahtevajo sodni preizkus primernosti višine denarne odpravnine. To pravico ima tudi imetnik deležev, ki se skupščine ni udeležil, če mu je bila protipravno preprečena udeležba na skupščini ali če skupščina ni bila pravilno sklicana ali če predmet odločanja na skupščini ni bil pravilno objavljen.
+
+(2) Za postopek sodnega preizkusa primernosti višine denarne odpravnine se smiselno uporabljajo določbe 603. člena tega zakona.
+
+638.i člen
+
+(sodni preizkus menjalnega razmerja)
+
+(1) Imetniki deležev prenosne družbe, ki niso uveljavili pravice zahtevati prevzem deležev ali te pravice niso imeli, vendar menijo, da menjalno razmerje ali morebitna denarna doplačila, določena v načrtu čezmejne delitve, niso ustrezni, lahko zahtevajo dodatno denarno doplačilo zaradi izravnave. Pravica se uveljavlja s predlogom za sodni preizkus menjalnega razmerja.
+
+(2) Dodatno denarno doplačilo zaradi izravnave lahko zahtevajo le tisti imetniki deležev iz prejšnjega odstavka, ki so na skupščini, ki je odločala o soglasju za čezmejno delitev, na zapisnik napovedali vložitev predloga za sodni preizkus menjalnega razmerja ali ki so vložitev tega predloga napovedali v mesecu dni po sprejetju sklepa o soglasju za čezmejno delitev. V potrdilu iz sedmega odstavka 638.k člena tega zakona je treba navesti, ali in kateri imetniki deležev so napovedali vložitev predloga za sodni preizkus menjalnega razmerja.
+
+(3) Za postopek sodnega preizkusa menjalnega razmerja se smiselno uporabljajo določbe 605. do 615. člena tega zakona. Pravnomočna sodna odločba, pravnomočna sodna poravnava in pravnomočno potrjena poravnava pred poravnalnim odborom učinkujejo na družbe, ki nastanejo s čezmejno delitvijo, v primeru čezmejne delitve z oddelitvijo pa lahko tudi na prenosno družbo.
+
+638.j člen
+
+(varstvo upnikov in imetnikov posebnih pravic)
+
+(1) Upniki prenosne družbe, ki s čezmejno delitvijo svoje premoženje, pravice in obveznosti prenaša na družbe, ki nastanejo s čezmejno delitvijo, lahko od sodišča zahtevajo zavarovanje za svoje nezapadle, negotove ali pogojne terjatve, ki so starejše od datuma objave načrta čezmejne delitve, če tako zavarovanje zahtevajo v treh mesecih po objavi načrta čezmejne delitve.
+
+(2) Upniki lahko to pravico uveljavljajo samo, če verjetno izkažejo, da je zaradi čezmejne delitve ogrožena izpolnitev njihovih terjatev in prenosna družba ni zagotovila ustreznih ukrepov.
+
+(3) Če je prenosna družba izdala zamenljive obveznice, obveznice s pravico do prednostnega nakupa delnic ali dividendne obveznice ali posameznim osebam drugače zagotovila posebne pravice do udeležbe pri dobičku, je treba imetnikom teh pravic zagotoviti enakovredne pravice v družbah, ki nastanejo s čezmejno delitvijo.
+
+(4) Registrski organ lahko potrdilo iz sedmega odstavka 638.k člena tega zakona izda šele, ko ugotovi, da je bilo upnikom, ki so upravičeni do zavarovanja po prvem in drugem odstavku tega člena, to dano ali da so bile imetnikom posebnih pravic iz prejšnjega odstavka zagotovljene enakovredne pravice.
+
+(5) Če družba, ki nastane s čezmejno delitvijo, ne poplača obveznosti, ki ji je bila dodeljena z načrtom čezmejne delitve, do upnika, so za poplačilo te obveznosti kot solidarni dolžniki odgovorne druge družbe, ki so nastale s čezmejno delitvijo, v primeru čezmejne delitve z izčlenitvijo ali dodelitvijo pa prenosna družba. Višina odgovornosti katere koli družbe je omejena na vrednost neto sredstev, ki so ji bile dodeljene, na dan veljavnosti čezmejne delitve.
+
+638.k člen
+
+(predhodni nadzor zakonitosti čezmejne delitve, potrdilo registrskega organa in vpis v register v Republiki Sloveniji)
+
+(1) Poslovodstvo ali organ vodenja prenosne družbe, ki s čezmejno delitvijo prenaša svoje premoženje, pravice in obveznosti na družbe, ki nastanejo s čezmejno delitvijo, predlaga vpis namere čezmejne delitve v register.
+
+(2) Prijavi za vpis namere čezmejne delitve je treba priložiti:
+
+1. načrt čezmejne delitve,
+
+2. zapisnik zasedanja skupščine prenosne družbe, ki je odločala o soglasju za čezmejno delitev,
+
+3. dovoljenje pristojnega organa, če se za čezmejno delitev to zahteva,
+
+4. poročilo o čezmejni delitvi, če je na voljo, in mnenje iz šestega odstavka 638.č člena tega zakona,
+
+5. poročilo o reviziji čezmejne delitve, če je na voljo,
+
+6. pripombe delavcev, upnikov in imetnikov deležev prenosne družbe iz 2. točke prvega odstavka 638.e člena tega zakona,
+
+7. zaključno poročilo prenosne družbe,
+
+8. dokaz, da je bila nameravana čezmejna delitev objavljena v skladu s 638.e členom tega zakona,
+
+9. dokaze o zagotovitvi pogojev za uresničitev pravic imetnikov deležev,
+
+10. dokaze o zagotovitvi pogojev za uresničitev pravic upnikov v skladu s prvim in drugim odstavkom prejšnjega člena ali izjavo, da to ni bilo potrebno,
+
+11. izjavo poslovodstva ali organa vodenja prenosne družbe glede izpodbijanja sklepa skupščine, za katero se smiselno uporablja določba 1. točke drugega odstavka 590. člena tega zakona, in
+
+12. izjavo poslovodstva ali organa vodenja prenosne družbe o številu imetnikov deležev, ki uveljavljajo pravico zahtevati prevzem deležev za plačilo denarne odpravnine, in o načinu uresničitve te pravice.
+
+(3) Če poslovodstvo ali organ vodenja ne predloži izjave iz 11. ali 12. točke prejšnjega odstavka, ker je bila proti sklepu skupščine o soglasju za čezmejno delitev vložena tožba za izpodbijanje navedenega sklepa ali ugotovitev njegove ničnosti, se smiselno uporabljajo določbe tretjega do petega odstavka 590. člena tega zakona.
+
+(4) Registrski organ pregleda vse listine in informacije iz drugega in tretjega odstavka tega člena in, kadar je to primerno, izjavo poslovodstva ali organa vodenja, da so se začeli postopki v skladu z določbami zakona, ki ureja soodločanje delavcev pri čezmejnih delitvah kapitalskih družb, ter preizkusi, ali so bila v zvezi s čezmejno delitvijo pravilno opravljena vsa predpisana pravna opravila, ali so izpolnjene predpostavke za uveljavitev pravice imetnikov deležev zahtevati prevzem deležev za plačilo denarne odpravnine, ali je dokazano, da so se vsi imetniki deležev veljavno odpovedali tej pravici, ali so izpolnjene predpostavke za uveljavitev pravice upnikov zahtevati zavarovanje ter ali načrt čezmejne delitve vsebuje podatke o postopkih, s katerimi so določene podrobnosti o udeležbi delavcev pri opredelitvi njihovih pravic do soodločanja v družbah, ki nastanejo s čezmejno delitvijo, in o možnostih za udeležbo delavcev pri opredelitvi njihovih pravic do soodločanja.
+
+(5) Registrski organ preveri, da prenosna družba nima zapadlih neplačanih obveznih dajatev in drugih denarnih nedavčnih obveznosti, ki jih izterjuje Finančna uprava Republike Slovenije, v višini več kot 50 eurov in da ima izpolnjene vse obveznosti v zvezi s predložitvijo obračuna davčnega odtegljaja za izplačilo plače in nadomestila plače za zadnjih 24 mesecev.
+
+(6) Registrski organ preizkusi, ali je čezmejna delitev namenjena zlorabam ali goljufijam, ki vodijo k izmikanju pravu EU ali zakonodaji Republike Slovenije ali obidu tega prava ali zakonodaje ali je takšno izmikanje ali obid njihov cilj, ali za kriminalne namene. Registrski organ zavrne predlog za vpis namere čezmejne delitve, če ugotovi namen iz prejšnjega stavka. Rok za izdajo potrdila iz sedmega odstavka tega člena se lahko podaljša za tri mesece, če je to potrebno za razjasnitev posameznih vprašanj.
+
+(7) Če registrski organ ugotovi, da so bila v zvezi s čezmejno delitvijo pravilno opravljena vsa predpisana pravna opravila, da so izpolnjene predpostavke za uveljavitev pravice imetnikov deležev zahtevati prevzem deležev za plačilo denarne odpravnine in pravice upnikov zahtevati zavarovanje, da so imetnikom posebnih pravic zagotovljene enakovredne pravice, da okoliščine iz petega odstavka tega člena niso izpolnjene in da ne obstaja namen iz prejšnjega odstavka, vpiše namero čezmejne delitve in najpozneje v treh mesecih po prejemu popolne prijave izda potrdilo, s katerim potrdi, da so za čezmejno delitev izpolnjeni vsi pogoji in so bila pravilno opravljena vsa pravna opravila, ki jih je bilo treba opraviti za čezmejno delitev.
+
+(8) Če registrski organ ne odloči v roku iz šestega ali sedmega odstavka tega člena, predlagatelja vpisa iz prvega odstavka tega člena obvesti o razlogih za zamudo.
+
+(9) Registrski organ lahko v okviru postopka iz tega člena zahteva listine in informacije od prenosne družbe, državnega organa ali nosilca javnih pooblastil, organa države članice družbe, ki nastane s čezmejno delitvijo, ali določi izvedenca.
+
+(10) Ob vpisu namere za čezmejno delitev se vpišejo vsaj nameravane firme in sedeži družb, ki nastanejo s čezmejno delitvijo, in registri, pri katerih bodo te družbe vpisane. Vpis se opremi z zaznamkom, da je bilo izdano potrdilo iz sedmega odstavka tega člena.
+
+(11) Registrski organ potrdilo po uradni dolžnosti nemudoma brezplačno pošlje prek sistema povezovanja poslovnih registrov pristojnim organom držav članic, v katerih bodo imele svoj sedež družbe, ki bodo nastale s čezmejno delitvijo.
+
+(12) Potrdilo je javno dostopno prek sistema povezovanja poslovnih registrov.
+
+(13) V primeru iz 1. točke tretjega odstavka 638.a člena tega zakona registrski organ po uradni dolžnosti nemudoma vpiše vsaj prenehanje prenosne družbe zaradi čezmejne delitve, datum prenehanja ter registrsko številko, firmo in pravnoorganizacijsko obliko družbe, ki bo nastala s čezmejno delitvijo, na podlagi obvestila pristojnega organa države članice o vpisu družbe, ki bo nastala s čezmejno delitvijo, v register, ki ga prejme prek sistema povezovanja poslovnih registrov.
+
+(14) V primerih iz 2. in 3. točke tretjega odstavka 638.a člena tega zakona registrski organ po uradni dolžnosti vpiše vsaj čezmejno delitev prenosne družbe, zmanjšanje osnovnega kapitala, če je prenosna družba zmanjšala osnovni kapital zaradi čezmejne delitve, ter registrsko ali matično številko, firmo in pravnoorganizacijsko obliko družbe, ki bo nastala s čezmejno delitvijo, na podlagi obvestila pristojnega organa države članice o vpisu družbe, ki bo nastala s čezmejno delitvijo, v register, ki ga prejme prek sistema povezovanja poslovnih registrov.
+
+(15) Registrski organ o vpisu iz trinajstega ali štirinajstega odstavka tega člena prek sistema povezovanja poslovnih registrov obvesti pristojni organ države članice, v kateri je vpisana družba, ki bo nastala s čezmejno delitvijo.
+
+638.l člen
+
+(prijava za vpis čezmejne delitve, preizkus in vpis čezmejne delitve v register v Republiki Sloveniji)
+
+(1) Poslovodstvo ali organ vodenja prenosne družbe in poslovodstvo ali organ vodenja družbe, ki bo nastala s čezmejno delitvijo s sedežem v Republiki Sloveniji, morata hkrati predlagati vpis čezmejne delitve in vpis družbe, ki bo nastala s čezmejno delitvijo s sedežem v Republiki Sloveniji (v nadaljnjem besedilu: prijava za vpis čezmejne delitve), v register.
+
+(2) Prijavi za vpis čezmejne delitve je treba priložiti:
+
+1. načrt čezmejne delitve, ki ga je s sklepom o soglasju za čezmejno delitev potrdila skupščina prenosne družbe,
+
+2. za družbo, ki bo nastala s čezmejno delitvijo s sedežem v Republiki Sloveniji, listine, ki jih je treba predložiti za vpis ustanovitve družbe v register.
+
+(3) Potrdilo, ki ga je po opravljenem vpisu nameravane čezmejne delitve izdal pristojni organ države članice, v kateri ima prenosna družba svoj sedež, in ki dokazuje, da so bila pravilno opravljena vsa pravna opravila, ki jih je bilo treba opraviti za čezmejno delitev, registrski organ prejme prek sistema povezovanja poslovnih registrov.
+
+(4) Pred vpisom čezmejne delitve v register mora registrski organ preizkusiti, ali so bila v prenosni družbi izvedena pogajanja o udeležbi delavcev pri upravljanju družb, ki bodo nastale s čezmejno delitvijo.
+
+(5) Registrski organ po vpisu čezmejne delitve v register po uradni dolžnosti o tem vpisu prek sistema povezovanja poslovnih registrov obvesti pristojni organ države članice, v kateri je prenosna družba vpisana v register.
+
+638.m člen
+
+(obravnava nedodeljenih delov premoženja ali obveznosti)
+
+Če deli premoženja ali obveznosti prenosne družbe v načrtu čezmejne delitve niso dodeljeni in na podlagi načrta čezmejne delitve dodelitev ni mogoča, se ti deli premoženja ali nadomestilo zanje ali obveznosti dodelijo vsem družbam, ki nastanejo s čezmejno delitvijo, ali družbam, ki nastanejo s čezmejno delitvijo, in prenosni družbi v razmerju z deležem neto sredstev, ki so jim bila dodeljena v skladu z načrtom čezmejne delitve.
+
+638.n člen
+
+(primeri, v katerih se deleži zaradi čezmejne delitve ne zagotovijo)
+
+Družba, ki nastane s čezmejno delitvijo, ne sme zagotoviti deležev za izvedbo čezmejne delitve za lastne deleže prenosne družbe in za deleže prenosne družbe, katerih imetnik je druga oseba za račun prenosne družbe.
+
+638.o člen
+
+(izključitev ničnosti vpisa čezmejne delitve v register)
+
+Ne glede na določbe zakona, ki ureja sodni register, o tožbi za ugotovitev ničnosti vpisa tožba za ugotovitev ničnosti vpisa čezmejne delitve v register ni dovoljena.«.
+
+43. člen
+
+Za 661. členom se dodajo nov 6.a oddelek in novi 661.a do 661.m člen, ki se glasijo:
+
+»6.a oddelek
+
+Posebna pravila za čezmejna preoblikovanja kapitalskih družb
+
+661.a člen
+
+(splošna pravila in pomen pojmov)
+
+(1) V čezmejnih preoblikovanjih so lahko udeležene kapitalske družbe v oblikah iz Priloge II Direktive 2017/1132/EU s sedežem ali glavnim poslovodstvom ali glavno dejavnostjo v državah članicah.
+
+(2) S čezmejnim preoblikovanjem se družba brez prenehanja ali likvidacije preoblikuje iz pravnoorganizacijske oblike, vpisane v register v matični državi članici, v pravnoorganizacijsko obliko ciljne države članice, pri čemer ohrani lastnost pravne osebe in prenese vsaj sedež v ciljno državo članico.
+
+(3) Določbe tega oddelka se ne uporabljajo za:
+
+– čezmejna preoblikovanja, v katerih je udeležena družba s ciljem kolektivnih naložb s strani javnosti zagotovljenega kapitala, ki deluje v skladu z načelom razpršitve tveganj in katere deleži se na zahtevo imetnikov odkupijo ali ponovno kupijo, neposredno ali posredno, iz premoženja te družbe. Ukrepi, s katerimi ta družba zagotovi, da se vrednost njenih deležev po borznem tečaju bistveno ne razlikuje od njihove neto vrednosti, se štejejo kot enakovredni takemu odkupu ali ponovnemu nakupu;
+
+– družbe v likvidaciji, ki so začele preostalo premoženje deliti med delničarje ali družbenike, in
+
+– družbe, za katere se uporabljajo postopki in ukrepi za reševanje na podlagi zakona, ki ureja reševanje in prisilno prenehanje bank.
+
+(4) Izrazi, uporabljeni v tem oddelku, pomenijo:
+
+1. »družba« je kapitalska družba, ki izvede čezmejno preoblikovanje,
+
+2. »matična država članica« je država članica, v kateri je družba vpisana pred čezmejnim preoblikovanjem,
+
+3. »preoblikovana družba« je kapitalska družba, ki je v ciljni državi članici vpisana kot posledica čezmejnega preoblikovanja,
+
+4. »ciljna država članica« je država članica, v kateri je preoblikovana družba vpisana kot posledica čezmejnega preoblikovanja.
+
+(5) Dan začetka veljavnosti čezmejnega preoblikovanja se presoja po pravu, ki velja za preoblikovano družbo. Ta dan nastopi, ko so opravljeni predhodni nadzor zakonitosti čezmejnega preoblikovanja ter preizkus in vpis čezmejnega preoblikovanja v register.
+
+661.b člen
+
+(čezmejno preoblikovanje)
+
+Družba s sedežem v Republiki Sloveniji se lahko preoblikuje v družbo iz 3. točke četrtega odstavka prejšnjega člena, za katero velja pravo druge države članice.
+
+661.c člen
+
+(načrt čezmejnega preoblikovanja)
+
+(1) Poslovodstvo ali organ vodenja družbe pripravi načrt čezmejnega preoblikovanja.
+
+(2) Načrt čezmejnega preoblikovanja mora vsebovati predvsem:
+
+1. pravnoorganizacijsko obliko, firmo in sedež družbe,
+
+2. predlog pravnoorganizacijske oblike, firme in sedeža preoblikovane družbe,
+
+3. predlog akta o ustanovitvi in statuta, če je v obliki posebnega dokumenta, ali predlog družbene pogodbe ali statuta (v nadaljnjem besedilu tega oddelka: statut) preoblikovane družbe,
+
+4. predlog časovnega okvira čezmejnega preoblikovanja,
+
+5. podrobnosti o pravicah ali ukrepih preoblikovane družbe za uresničitev pravic imetnikov posebnih pravic iz deležev družbe ali imetnikov vrednostnih papirjev, razen deležev družbe, ki predstavljajo kapital družbe,
+
+6. podrobnosti o ukrepih, ponujenih upnikom družbe, kot so jamstva in poroštva,
+
+7. podrobnosti o vseh posebnih ugodnostih, ki jih imajo poslovodstvo ali člani organov vodenja ali nadzora družbe,
+
+8. podatek, ali je družba v zadnjih petih letih prejela spodbude ali subvencije v Republiki Sloveniji,
+
+9. podatke o višini denarne odpravnine za imetnike deležev družbe v skladu s 661.g členom tega zakona,
+
+10. natančen opis verjetnih vplivov čezmejnega preoblikovanja na položaj delavcev družbe,
+
+11. kadar je to primerno, podatke o postopkih, s katerimi so v skladu s 86.l členom Direktive 2017/1132/EU določene podrobnosti o udeležbi delavcev pri opredelitvi njihovih pravic do soodločanja v preoblikovani družbi.
+
+(3) Načrt čezmejnega preoblikovanja mora potrditi notar.
+
+661.č člen
+
+(poročilo poslovodstva ali organa vodenja o čezmejnem preoblikovanju)
+
+(1) V poročilu poslovodstva ali organa vodenja družbe o čezmejnem preoblikovanju (v nadaljnjem besedilu: poročilo o čezmejnem preoblikovanju) za imetnike deležev in delavce je treba obrazložiti pravne in ekonomske posledice čezmejnega preoblikovanja ter zlasti posledice čezmejnega preoblikovanja za prihodnje poslovanje družbe.
+
+(2) Poročilo o čezmejnem preoblikovanju vsebuje tudi poročilo za imetnike deležev in poročilo za delavce. Družba se lahko odloči, da namesto enega poročila pripravi ločeni poročili za imetnike deležev in za delavce. Poročili vsebujeta obrazložitev iz prejšnjega odstavka in pojasnilo iz tretjega ali četrtega odstavka tega člena.
+
+(3) Poročilo za imetnike deležev vsebuje pojasnilo zlasti glede:
+
+1. denarne odpravnine in metod za določitev višine denarne odpravnine,
+
+2. posledic čezmejnega preoblikovanja za imetnike deležev,
+
+3. pravic in ukrepov za uresničevanje pravic imetnikov deležev.
+
+(4) Poročilo za delavce vsebuje pojasnilo zlasti glede:
+
+1. posledic čezmejnega preoblikovanja za delovna razmerja in, kadar je to potrebno, ukrepov za njihovo zaščito,
+
+2. morebitne bistvene spremembe veljavnih pogojev zaposlitve ali sedežev poslovanja družbe,
+
+3. vpliva dejavnikov iz 1. in 2. točke tega odstavka na podružnice, če jih družba ima.
+
+(5) Poročilo o čezmejnem preoblikovanju ali poročili za imetnike deležev in za delavce so z načrtom čezmejnega preoblikovanja, če je na voljo, vsaj šest tednov pred zasedanjem skupščine družbe, ki bo odločala o soglasju za čezmejno preoblikovanje, vsaj v elektronski obliki dostopni imetnikom deležev in predstavniku, prek katerega delavci uresničujejo pravice do sodelovanja pri upravljanju v skladu z zakonom, ki ureja sodelovanje delavcev pri upravljanju, ali, če predstavnika delavcev ni, delavcem.
+
+(6) Kadar poslovodstvo ali organ vodenja pravočasno prejme mnenje predstavnika delavcev glede informacij iz prvega ali četrtega odstavka tega člena ali, če predstavnika delavcev ni, mnenje delavcev, se to mnenje doda poročilu o čezmejnem preoblikovanju in se o tem obvesti imetnike deležev.
+
+(7) Poročilo za imetnike deležev se ne zahteva, če se poročilu za imetnike deležev odpovejo vsi imetniki deležev. Izjava o odpovedi mora biti dana v obliki notarskega zapisa. Izjavo o odpovedi lahko dajo imetniki deležev tudi ustno na zasedanju skupščine, ki odloča o čezmejnem preoblikovanju. V takem primeru se izjava vključi v zapisnik skupščine. Poročilo za delavce se ne zahteva, kadar družba ali njena podružnica nima delavcev, razen tistih, ki so del poslovodstva ali organa vodenja. Poročilo o čezmejnem preoblikovanju se ne zahteva, če se pod pogoji iz prvega do petega stavka tega odstavka imetniki deležev poročilu za imetnike deležev odpovejo in se poročilo za delavce ne zahteva.
+
+(8) V statutu se določijo podrobnosti v zvezi z zagotavljanjem dostopnosti poročila o čezmejnem preoblikovanju ali poročil za imetnike deležev in za delavce ter načrta čezmejnega preoblikovanja v skladu s petim odstavkom tega člena in posredovanjem obvestila za imetnike deležev v skladu s šestim odstavkom tega člena.
+
+661.d člen
+
+(revizija čezmejnega preoblikovanja)
+
+(1) Načrt čezmejnega preoblikovanja mora pregledati revizor, ki mora o čezmejnem preoblikovanju izdelati pisno poročilo (v nadaljnjem besedilu: poročilo o reviziji čezmejnega preoblikovanja).
+
+(2) Za revizijo čezmejnega preoblikovanja se smiselno uporabljajo določbe drugega, četrtega in šestega do osmega odstavka 583. člena tega zakona.
+
+(3) Poročilo o reviziji čezmejnega preoblikovanja mora vsebovati mnenje revizorja o tem, ali je ponujena denarna odpravnina primerno nadomestilo za deleže družbe. Pri določitvi višine denarne odpravnine se upošteva tržna vrednost deležev družbe pred javno objavo predlaganega čezmejnega preoblikovanja ali vrednost družbe, v kateri ni upoštevan učinek predlaganega čezmejnega preoblikovanja in je določena v skladu s splošno sprejetimi metodami vrednotenja. V poročilu o reviziji čezmejnega preoblikovanja je treba pojasniti zlasti:
+
+1. z uporabo katerih metod ocenjevanja vrednosti podjetij je bila določena višina denarne odpravnine, ki je predlagana v načrtu čezmejnega preoblikovanja,
+
+2. razloge, zaradi katerih je uporaba izbranih metod v zadevnem primeru primerna za določitev višine denarne odpravnine, in
+
+3. če je bilo za določitev višine denarne odpravnine uporabljenih več metod, kolikšna vrednost je bila ugotovljena pri uporabi vsake od izbranih metod; hkrati je treba podati mnenje o relativni pomembnosti, pripisani takim metodam pri izračunu vrednosti, o kateri se odloča, in opisati vse morebitne posebne težave pri ocenjevanju vrednosti deležev družbe.
+
+(4) Pri izdelavi poročila o reviziji čezmejnega preoblikovanja je revizor upravičen, da od družbe zahteva vse informacije, ki jih potrebuje, da izpolni svojo nalogo. Revizorji varujejo zaupne informacije, za katere so izvedeli pri reviziji čezmejnega preoblikovanja, v skladu z določbami zakona, ki ureja revidiranje.
+
+(5) Poročilo o reviziji čezmejnega preoblikovanja se imetnikom deležev predloži najpozneje en mesec pred zasedanjem skupščine.
+
+(6) Revizija načrta čezmejnega preoblikovanja se ne opravi, če se ji odpovejo vsi imetniki deležev. Izjava odpovedi mora biti dana v obliki notarskega zapisa. Izjavo o odpovedi lahko dajo imetniki deležev tudi ustno na zasedanju skupščine, ki odloča o čezmejnem preoblikovanju. V takem primeru se izjava vključi v zapisnik skupščine. Določbe tega člena se ne uporabljajo za družbe z enim imetnikom deležev.
+
+661.e člen
+
+(javna objava)
+
+(1) Družba najpozneje pet tednov pred zasedanjem skupščine, ki bo odločala o soglasju za čezmejno preoblikovanje, predloži registrskemu organu zaradi javne objave naslednje listine:
+
+1. načrt čezmejnega preoblikovanja,
+
+2. obvestilo, da lahko delavci, upniki in imetniki deležev najpozneje pet delovnih dni pred zasedanjem skupščine podajo pripombe na načrt čezmejnega preoblikovanja, in
+
+3. poročilo o reviziji čezmejnega preoblikovanja, če je na voljo.
+
+(2) Listine iz prejšnjega odstavka so javno dostopne najpozneje en mesec pred zasedanjem skupščine. Z dnem objave so listine javno dostopne tudi prek sistema povezovanja poslovnih registrov.
+
+(3) Kadar premoženje, pravice in obveznosti družbe s čezmejnim preoblikovanjem preidejo na preoblikovano družbo, katere vsota osnovnega kapitala in vezanih rezerv bo manjša od vsote osnovnega kapitala in vezanih rezerv, ki jih je oblikovala družba, je treba znane upnike te družbe osebno obvestiti o objavi listin iz prvega odstavka tega člena in o spletni strani, na kateri so listine javno dostopne.
+
+661.f člen
+
+(izvedba in soglasje skupščine za čezmejno preoblikovanje)
+
+(1) Za skupščino družbe, ki bo odločala o soglasju za čezmejno preoblikovanje, je treba predložiti vsaj načrt čezmejnega preoblikovanja, poročili o čezmejnem preoblikovanju in o reviziji čezmejnega preoblikovanja, če sta na voljo, mnenje iz šestega odstavka 661.č člena tega zakona ter pripombe delavcev, upnikov in imetnikov deležev iz 2. točke prvega odstavka prejšnjega člena.
+
+(2) Za soglasje skupščine za čezmejno preoblikovanje se smiselno uporabljajo določbe 585. člena tega zakona.
+
+(3) Skupščina lahko čezmejno preoblikovanje pogojuje tako, da izrecno potrdi način soodločanja delavcev v preoblikovani družbi.
+
+(4) Sklepa skupščine, ki je odločila o soglasju za čezmejno preoblikovanje, ni mogoče izpodbijati, če se razlogi za izpodbijanje nanašajo le na:
+
+1. neprimernost višine denarne odpravnine ali
+
+2. neskladnost utemeljitve in obrazložitve denarne odpravnine s tem zakonom.
+
+661.g člen
+
+(ponudba denarne odpravnine v načrtu čezmejnega preoblikovanja)
+
+(1) Vsak imetnik deležev, ki je na skupščini na zapisnik ugovarjal sklepu o soglasju za čezmejno preoblikovanje, lahko od družbe ali od druge osebe, ki se je zavezala plačati denarno odpravnino, zahteva, da prevzame njegove deleže za plačilo primerne denarne odpravnine. To pravico ima tudi imetnik deležev, ki se skupščine ni udeležil, če mu je bila protipravno preprečena udeležba na skupščini ali če skupščina ni bila pravilno sklicana ali če predmet odločanja na skupščini ni bil pravilno objavljen. Imetnik deležev, ki je bil navzoč na skupščini, ki se je izvedla kot elektronska ali virtualna skupščina, lahko ugovarja sklepu o soglasju za čezmejno združitev z uporabo elektronskih sredstev najpozneje v 24 urah po začetku skupščine. Družba določi elektronski naslov, na katerega lahko imetniki deležev pošljejo zahtevke iz tega odstavka.
+
+(2) Ponudba denarne odpravnine veže ponudnika do izteka enega meseca od dneva sprejetja sklepa o soglasju za čezmejno preoblikovanje. Ponudba denarne odpravnine vsebuje odložni pogoj, ki nastopi, ko je čezmejno preoblikovanje vpisano v register. Rok za plačilo denarne odpravnine je dva meseca po vpisu čezmejnega preoblikovanja v register. Obveznost plačati denarno odpravnino zastara v treh letih po objavi vpisa čezmejnega preoblikovanja v register. Stroške v zvezi s prevzemom deležev krije družba ali druga oseba, ki je v načrtu čezmejnega preoblikovanja prevzela obveznost plačati denarno odpravnino.
+
+(3) Upravičencem do denarne odpravnine iz prvega odstavka tega člena je treba za izpolnitev obveznosti plačila denarne odpravnine dati ustrezno zavarovanje.
+
+(4) Registrski organ lahko potrdilo iz sedmega odstavka 661.j člena tega zakona izda šele, ko ugotovi, da je bilo za izpolnitev obveznosti plačila denarne odpravnine dano ustrezno zavarovanje ali da so se vsi upravičenci do denarne odpravnine tej odpovedali.
+
+(5) Če statut določa, da je za prenos deležev potrebno dovoljenje družbe ali imetnikov deležev, se lahko deleži od dneva sprejetja sklepa o soglasju za čezmejno preoblikovanje do izteka roka za sprejem ponudbe denarne odpravnine prenašajo brez dovoljenja.
+
+661.h člen
+
+(sodni preizkus višine denarne odpravnine)
+
+(1) Imetniki deležev, ki so na zapisnik ugovarjali sklepu o soglasju za čezmejno preoblikovanje, lahko zahtevajo sodni preizkus primernosti višine denarne odpravnine. To pravico ima tudi imetnik deležev, ki se skupščine ni udeležil, če mu je bila protipravno preprečena udeležba na skupščini ali če skupščina ni bila pravilno sklicana ali če predmet odločanja na skupščini ni bil pravilno objavljen.
+
+(2) Za postopek sodnega preizkusa primernosti višine denarne odpravnine se smiselno uporabljajo določbe 603. člena tega zakona.
+
+661.i člen
+
+(varstvo upnikov in imetnikov posebnih pravic)
+
+(1) Upniki lahko od sodišča zahtevajo zavarovanje za svoje nezapadle, negotove ali pogojne terjatve, ki so starejše od datuma objave načrta čezmejnega preoblikovanja, če tako zavarovanje zahtevajo v treh mesecih po objavi načrta čezmejnega preoblikovanja.
+
+(2) Upniki lahko to pravico uveljavljajo samo, če verjetno izkažejo, da je zaradi čezmejnega preoblikovanja ogrožena izpolnitev njihovih terjatev in družba ni zagotovila ustreznih ukrepov.
+
+(3) Če je družba izdala zamenljive obveznice, obveznice s pravico do prednostnega nakupa delnic ali dividendne obveznice ali posameznim osebam drugače zagotovila posebne pravice do udeležbe pri dobičku, je treba imetnikom teh pravic zagotoviti enakovredne pravice v preoblikovani družbi.
+
+(4) Registrski organ lahko potrdilo iz sedmega odstavka 661.j člena tega zakona izda šele, ko ugotovi, da je bilo upnikom, ki so upravičeni do zavarovanja po prvem in drugem odstavku tega člena, to dano ali da so bile imetnikom posebnih pravic iz prejšnjega odstavka zagotovljene enakovredne pravice.
+
+(5) Če obveznost do upnika iz prvega odstavka tega člena ni poplačana, lahko upnik v dveh letih po vpisu preoblikovane družbe v register zahteva poplačilo te obveznosti v Republiki Sloveniji. Pravica zahtevati poplačilo obveznosti iz prejšnjega stavka ne posega v pravila o pristojnosti na podlagi pravnih aktov EU, zakona ali sklenjene pogodbe.
+
+661.j člen
+
+(predhodni nadzor zakonitosti čezmejnega preoblikovanja, potrdilo registrskega organa in vpis prenehanja družbe v register v Republiki Sloveniji)
+
+(1) Poslovodstvo ali organ vodenja predlaga vpis namere čezmejnega preoblikovanja v register.
+
+(2) Prijavi za vpis namere čezmejnega preoblikovanja je treba priložiti:
+
+1. načrt čezmejnega preoblikovanja,
+
+2. zapisnik zasedanja skupščine družbe, ki je odločala o soglasju za čezmejno preoblikovanje,
+
+3. dovoljenje pristojnega organa, če se za čezmejno preoblikovanje to zahteva,
+
+4. poročilo o čezmejnem preoblikovanju, če je na voljo, in mnenje iz šestega odstavka 661.č člena tega zakona,
+
+5. poročilo o reviziji čezmejnega preoblikovanja, če je na voljo,
+
+6. pripombe delavcev, upnikov in imetnikov deležev družbe iz 2. točke prvega odstavka 661.e člena tega zakona,
+
+7. zaključno poročilo družbe,
+
+8. dokaz, da je bilo nameravano čezmejno preoblikovanje objavljeno v skladu s 661.e členom tega zakona,
+
+9. dokaze o zagotovitvi pogojev za uresničitev pravic imetnikov deležev,
+
+10. dokaze o zagotovitvi pogojev za uresničitev pravic upnikov v skladu s prvim in drugim odstavkom prejšnjega člena ali izjavo, da to ni bilo potrebno,
+
+11. izjavo poslovodstva ali organa vodenja glede izpodbijanja sklepa skupščine, za katero se smiselno uporablja določba 1. točke drugega odstavka 590. člena tega zakona, in
+
+12. izjavo poslovodstva ali organa vodenja o številu imetnikov deležev, ki uveljavljajo pravico zahtevati prevzem deležev za plačilo denarne odpravnine, in o načinu uresničitve te pravice.
+
+(3) Če poslovodstvo ali organ vodenja ne predloži izjave iz 11. ali 12. točke prejšnjega odstavka, ker je bila proti sklepu skupščine o soglasju za čezmejno preoblikovanje vložena tožba za izpodbijanje navedenega sklepa ali ugotovitev njegove ničnosti, se smiselno uporabljajo določbe tretjega do petega odstavka 590. člena tega zakona.
+
+(4) Registrski organ pregleda vse listine in informacije iz drugega in tretjega odstavka tega člena in, kadar je to primerno, izjavo poslovodstva ali organa vodenja, da so se začeli postopki v skladu z določbami zakona, ki ureja soodločanje delavcev pri čezmejnih preoblikovanjih kapitalskih družb, ter preizkusi, ali so bila v zvezi s čezmejnim preoblikovanjem pravilno opravljena vsa predpisana pravna opravila, ali so izpolnjene predpostavke za uveljavitev pravice imetnikov deležev zahtevati prevzem deležev za plačilo denarne odpravnine, ali je dokazano, da so se vsi imetniki deležev veljavno odpovedali tej pravici, ali so izpolnjene predpostavke za uveljavitev pravice upnikov zahtevati zavarovanje ter ali načrt čezmejnega preoblikovanja vsebuje podatke o postopkih, s katerimi so določene podrobnosti o udeležbi delavcev pri opredelitvi njihovih pravic do soodločanja v preoblikovani družbi, in o možnostih za udeležbo delavcev pri opredelitvi njihovih pravic do soodločanja.
+
+(5) Registrski organ preveri, da družba nima zapadlih neplačanih obveznih dajatev in drugih denarnih nedavčnih obveznosti, ki jih izterjuje Finančna uprava Republike Slovenije, v višini več kot 50 eurov in da ima izpolnjene vse obveznosti v zvezi s predložitvijo obračuna davčnega odtegljaja za izplačilo plače in nadomestila plače za zadnjih 24 mesecev.
+
+(6) Registrski organ preizkusi, ali je čezmejno preoblikovanje namenjeno zlorabam ali goljufijam, ki vodijo k izmikanju pravu EU ali zakonodaji Republike Slovenije ali obidu tega prava ali zakonodaje ali je takšno izmikanje ali obid njihov cilj, ali za kriminalne namene. Registrski organ zavrne predlog za vpis namere čezmejnega preoblikovanja, če ugotovi namen iz prejšnjega stavka. Rok iz sedmega odstavka tega člena se lahko podaljša za tri mesece, če je to potrebno za razjasnitev posameznih vprašanj.
+
+(7) Če registrski organ ugotovi, da so bila v zvezi s čezmejnim preoblikovanjem pravilno opravljena vsa predpisana pravna opravila, da so izpolnjene predpostavke za uveljavitev pravice imetnikov deležev zahtevati prevzem deležev za plačilo denarne odpravnine in pravice upnikov zahtevati zavarovanje, da so imetnikom posebnih pravic zagotovljene enakovredne pravice, da okoliščine iz petega odstavka tega člena niso izpolnjene in da ne obstaja namen iz prejšnjega odstavka, vpiše namero čezmejnega preoblikovanja in najpozneje v treh mesecih po prejemu popolne prijave izda potrdilo, s katerim potrdi, da so za čezmejno preoblikovanje izpolnjeni vsi pogoji in so bila pravilno opravljena vsa pravna opravila, ki jih je bilo treba opraviti za čezmejno preoblikovanje.
+
+(8) Če registrski organ ne odloči v roku iz šestega ali sedmega odstavka tega člena, predlagatelja vpisa iz prvega odstavka tega člena obvesti o razlogih za zamudo.
+
+(9) Registrski organ lahko v okviru postopka iz tega člena zahteva listine in informacije od družbe iz prvega odstavka tega člena, državnega organa ali nosilca javnih pooblastil, organa države članice preoblikovane družbe, ali določi izvedenca.
+
+(10) Ob vpisu namere za čezmejno preoblikovanje se vpišejo vsaj nameravana firma in sedež preoblikovane družbe, ter register, pri katerem bo ta družba vpisana. Vpis se opremi z zaznamkom, da je bilo izdano potrdilo iz sedmega odstavka tega člena.
+
+(11) Registrski organ potrdilo po uradni dolžnosti nemudoma brezplačno pošlje prek sistema povezovanja poslovnih registrov pristojnemu organu ciljne države članice, v kateri bo imela preoblikovana družba svoj sedež.
+
+(12) Potrdilo je javno dostopno prek sistema povezovanja poslovnih registrov.
+
+(13) Registrski organ po uradni dolžnosti nemudoma vpiše vsaj prenehanje družbe zaradi čezmejnega preoblikovanja, datum prenehanja ter registrsko številko, firmo in pravnoorganizacijsko obliko preoblikovane družbe, na podlagi obvestila pristojnega organa ciljne države članice o vpisu čezmejnega preoblikovanja v register, ki ga prejme prek sistema povezovanja poslovnih registrov.
+
+661.k člen
+
+(prijava za vpis čezmejnega preoblikovanja, preizkus in vpis čezmejnega preoblikovanja v register v Republiki Sloveniji)
+
+(1) Poslovodstvo ali organ vodenja družbe in poslovodstvo ali organ vodenja družbe, ki bo nastala s čezmejnim preoblikovanjem s sedežem v Republiki Sloveniji, morata hkrati predlagati vpis čezmejnega preoblikovanja in vpis družbe, ki bo nastala s čezmejnim preoblikovanjem s sedežem v Republiki Sloveniji (v nadaljnjem besedilu: prijava za vpis čezmejnega preoblikovanja), v register.
+
+(2) Prijavi za vpis čezmejnega preoblikovanja je treba priložiti:
+
+1. načrt čezmejnega preoblikovanja, ki ga je s sklepom o soglasju za čezmejno preoblikovanje potrdila skupščina družbe,
+
+2. za družbo, ki bo nastala s čezmejnim preoblikovanjem s sedežem v Republiki Sloveniji, listine, ki jih je treba predložiti za vpis ustanovitve družbe v register.
+
+(3) Potrdilo, ki ga je po opravljenem vpisu nameravanega čezmejnega preoblikovanja izdal pristojni organ matične države članice, v kateri ima družba svoj sedež, in ki dokazuje, da so bila pravilno opravljena vsa pravna opravila, ki jih je bilo treba opraviti za čezmejno preoblikovanje, registrski organ prejme prek sistema povezovanja poslovnih registrov.
+
+(4) Pred vpisom čezmejnega preoblikovanja v register mora registrski organ preizkusiti, ali so bila v družbi izvedena pogajanja o udeležbi delavcev pri soodločanju v družbi, ki bo nastala s čezmejnim preoblikovanjem.
+
+(5) Registrski organ po vpisu čezmejnega preoblikovanja v register po uradni dolžnosti o tem vpisu prek sistema povezovanja poslovnih registrov obvesti pristojni organ matične države članice, v kateri je družba vpisana v register.
+
+661.l člen
+
+(učinek vpisa)
+
+Z vpisom čezmejnega preoblikovanja v register nastanejo naslednje pravne posledice:
+
+1. na preoblikovano družbo preidejo vse premoženje, pravice in obveznosti družbe,
+
+2. imetniki deležev družbe postanejo imetniki deležev preoblikovane družbe, razen v primeru iz 661.g člena tega zakona,
+
+3. preoblikovana družba kot univerzalni pravni naslednik vstopi v vsa pravna razmerja, katerih subjekt je bila družba.
+
+661.m člen
+
+(izključitev ničnosti vpisa čezmejnega preoblikovanja v register)
+
+Ne glede na določbe zakona, ki ureja sodni register, o tožbi za ugotovitev ničnosti vpisa tožba za ugotovitev ničnosti vpisa čezmejnega preoblikovanja v register ni dovoljena.«.
+
+44. člen
+
+V 674. členu se v prvem odstavku kratica »ES« nadomesti z besedilom »države članice«.
+
+45. člen
+
+V 677. členu se prvi odstavek spremeni tako, da se glasi:
+
+»(1) Prijavo za vpis podružnice v register vloži zastopnik tujega podjetja in mora vsebovati:
+
+– firmo in sedež podružnice in tujega podjetja,
+
+– registrsko številko tujega podjetja,
+
+– enotni identifikator, če ga tuje podjetje ima,
+
+– pravnoorganizacijsko obliko tujega podjetja,
+
+– dejavnosti, ki jih opravlja podružnica,
+
+– podatke o osebah, ki zastopajo podružnico in tuje podjetje,
+
+– identifikacijske podatke o ustanoviteljih ali družbenikih tujega podjetja,
+
+– vrsto in obseg odgovornosti ustanoviteljev ali družbenikov tujega podjetja,
+
+– datum vstopa in izstopa ustanoviteljev ali družbenikov tujega podjetja,
+
+– višino vložka ustanoviteljev ali družbenikov tujega podjetja in
+
+– druge podatke, določene z zakonom.«.
+
+V drugem odstavku se v četrti alineji beseda »poslovno« nadomesti z besedo »letno«.
+
+Za četrtim odstavkom se doda nov peti odstavek, ki se glasi:
+
+»(5) Po vpisu podružnice tujega podjetja iz države članice registrski organ po uradni dolžnosti prek sistema povezovanja poslovnih registrov o tem dejstvu nemudoma obvesti pristojni organ države članice tujega podjetja.«.
+
+46. člen
+
+Za 677. členom se dodata nova 677.a in 677.b člen, ki se glasita:
+
+»677.a člen
+
+(vpis sprememb podatkov in listin tujega podjetja iz države članice)
+
+(1) Registrski organ po uradni dolžnosti vpiše v register spremembe podatkov in listin tujega podjetja iz države članice na podlagi obvestila pristojnega organa države članice tujega podjetja, ki ga prejme prek sistema povezovanja poslovnih registrov, in sicer:
+
+– firmo in sedež,
+
+– registrsko številko,
+
+– pravnoorganizacijsko obliko in
+
+– podatke o osebah, ki zastopajo tuje podjetje.
+
+(2) Registrski organ prek sistema povezovanja poslovnih registrov nemudoma potrdi prejem obvestila pristojnega organa države članice tujega podjetja.
+
+(3) Registrski organ po uradni dolžnosti obvesti podružnico o vpisu podatkov iz prvega odstavka tega člena.
+
+677.b člen
+
+(obvestilo v zvezi z letnim poročilom tujega podjetja iz države članice)
+
+(1) AJPES prejem letnega poročila tujega podjetja ali obvestila o objavi letnega poročila tujega podjetja iz države članice, ki ga pošlje pristojni organ države članice tujega podjetja prek sistema povezovanja poslovnih registrov, prek sistema povezovanja poslovnih registrov nemudoma potrdi pristojnemu organu države članice tujega podjetja.
+
+(2) AJPES po uradni dolžnosti nemudoma obvesti podružnico tujega podjetja iz države članice o prejemu letnega poročila ali obvestila pristojnega organa države članice tujega podjetja iz prejšnjega odstavka.«.
+
+47. člen
+
+V 683.a členu se za besedilom člena, ki se označi kot prvi odstavek, doda nov drugi odstavek, ki se glasi:
+
+»(2) Registrski organ o izbrisu podružnice tujega podjetja iz države članice prek sistema povezovanja poslovnih registrov obvesti pristojni organ države članice tujega podjetja.«.
+
+48. člen
+
+V 685. členu se v prvem odstavku 16. točka spremeni tako, da se glasi:
+
+»16. delničarjem zaračuna stroške v nasprotju s sedmim odstavkom 296. člena tega zakona;«.
+
+49. člen
+
+V 687. členu se za prvim odstavkom doda nov drugi odstavek, ki se glasi:
+
+»(2) Z globo od 300 do 4.000 eurov se kaznuje tudi odgovorna oseba tujega podjetja, ki stori prekršek iz prejšnjega odstavka.«.
+
+V dosedanjem drugem odstavku, ki postane tretji odstavek, se za 1. točko doda nova 2. točka, ki se glasi:
+
+»2. ne predloži AJPES podatkov iz letnih poročil o svojem premoženjskem in finančnem poslovanju ter poslovnem izidu v treh mesecih po koncu koledarskega leta (drugi odstavek 680. člena v zvezi s prvim odstavkom 59. člena);«.
+
+Dosedanja 2. točka postane 3. točka.
+
+Za tretjim odstavkom se doda nov četrti odstavek, ki se glasi:
+
+»(4) Z globo od 300 do 4.000 eurov se kaznuje tudi odgovorna oseba tujega podjetja, ki stori prekršek iz prejšnjega odstavka.«.
+
+50. člen
+
+687.a člen se črta.
+
+51. člen
+
+V 689.b členu se za 5. točko dodata novi 6. in 7. točka, ki se glasita:
+
+»6. vsebina sklica skupščine ni v skladu s prvim ali drugim odstavkom 296. člena tega zakona;
+
+7. skupščine ne skliče v skladu s tretjim do šestim odstavkom 296. členom tega zakona;«.
+
+Dosedanja 6. točka, ki postane 8. točka, se spremeni tako, da se glasi:
+
+»8. sklica skupščine ne objavi v roku iz prvega odstavka 297. člena tega zakona;«.
+
+Dosedanji 7. in 8. točka postaneta 9. in 10. točka.
+
+PREHODNE IN KONČNA DOLOČBA
+
+52. člen
+
+(spremembe in dopolnitve Zakona o Poslovnem registru Slovenije)
+
+V Zakonu o Poslovnem registru Slovenije (Uradni list RS, št. 49/06, 33/07 – ZSReg-B, 19/15, 54/17 in 18/23 – ZDU-1O) se v:
+
+– 1. členu drugi odstavek spremeni tako, da se glasi:
+
+»(2) S tem zakonom se v pravni red Republike Slovenije delno prenaša Direktiva (EU) 2017/1132 Evropskega parlamenta in Sveta z dne 14. julija 2017 o določenih vidikih prava družb (kodificirano besedilo) (UL L št. 169 z dne 30. 6. 2017, str. 46), zadnjič spremenjena z Uredbo (EU) 2021/23 Evropskega parlamenta in Sveta z dne 16. decembra 2020 o okviru za sanacijo in reševanje centralnih nasprotnih strank ter spremembi uredb (EU) št. 1095/2010, (EU) št. 648/2012, (EU) št. 600/2014, (EU) št. 806/2014 in (EU) 2015/2365 ter direktiv 2002/47/ES, 2004/25/ES, 2007/36/ES, 2014/59/EU in (EU) 2017/1132 (UL L št. 22 z dne 22. 1. 2021, str. 1), (v nadaljnjem besedilu: Direktiva 2017/1132/EU).«;
+
+– 3. členu tretji odstavek spremeni tako, da se glasi:
+
+»(3) Upravljavec registra prek sistema povezovanja poslovnih registrov:
+
+1. prejema podatke in listine o tujih podjetjih iz držav članic Evropske unije in Evropskega gospodarskega prostora in podružnicah, ki jih enote poslovnega registra iz 3. do 6. točke prvega odstavka Zakona o sodnem registru (Uradni list RS, št. 54/07 – uradno prečiščeno besedilo, 65/08, 49/09, 82/13 – ZGD-1H, 17/15, 54/17, 16/19 – ZNP-1 in 75/23; v nadaljnjem besedilu: ZSReg) ustanovijo v državah članicah Evropske unije in Evropskega gospodarskega prostora, ter jih posreduje registrskemu organu, ki vodi sodni register,
+
+2. posreduje podatke in listine o enotah poslovnega registra iz 3. do 6. točke prvega odstavka in 2. točke drugega odstavka 3. člena ZSReg, ki jih posreduje registrski organ iz prejšnje točke,
+
+3. prejema zahteve za podatke in listine o okoliščinah, ki nasprotujejo imenovanju osebe za poslovodjo ali člana organa nadzora ali upravnega odbora v tujih podjetjih držav članic ter jih posreduje ministrstvu, pristojnemu za pravosodje ali Vrhovnemu sodišču Republike Slovenije,
+
+4. posreduje podatke o okoliščinah, ki nasprotujejo imenovanju osebe za poslovodjo ali člana organa nadzora ali upravnega odbora v tujih podjetjih držav članic, ki jih posredujeta organa iz prejšnje točke,
+
+5. posreduje zahteve registrskega organa iz 1. točke tega odstavka državam članicam za podatke in listine o okoliščinah, ki nasprotujejo imenovanju osebe za poslovodjo ali člana organa vodenja ali nadzora ali upravnega odbora v enotah poslovnega registra iz 3. do 6. točke prvega odstavka 3. člena ZSReg,
+
+6. prejema podatke in listine iz držav članic o okoliščinah, ki nasprotujejo imenovanju osebe za poslovodjo ali člana organa vodenja ali nadzora ali upravnega odbora v enotah poslovnega registra iz 3. do 6. točke prvega odstavka 3. člena ZSReg, ter jih posreduje registrskemu organu iz 1. točke tega odstavka,
+
+7. prejema podatke in listine o čezmejnem preoblikovanju, čezmejni združitvi ali čezmejni delitvi iz držav članic Evropske unije in Evropskega gospodarskega prostora ter jih posreduje registrskemu organu iz 1. točke tega odstavka in
+
+8. posreduje podatke in listine o čezmejnem preoblikovanju, čezmejni združitvi in čezmejni delitvi, ki jih posreduje registrski organ iz 1. točke tega odstavka.«;
+
+– 22. členu drugi odstavek spremeni tako, da se glasi:
+
+»(2) Ne glede na prejšnji odstavek upravljavec registra brezplačno zagotavlja javne podatke in listine o:
+
+– posamezni enoti poslovnega registra iz 3. do 6. točke prvega odstavka 3. člena ZSReg in iz 2. točke drugega odstavka 3. člena ZSReg, ki jih ustanovijo poslovni subjekti iz držav članic Evropske unije in Evropskega gospodarskega prostora, za katere velja Priloga II Direktive 2017/1132/EU,
+
+– čezmejnem preoblikovanju ali čezmejni združitvi ali čezmejni delitvi
+
+tudi prek sistema povezovanja poslovnih registrov.«.
+
+53. člen
+
+(spremembe in dopolnitve Zakona o storitvah na notranjem trgu)
+
+V Zakonu o storitvah na notranjem trgu (Uradni list RS, št. 21/10) se v:
+
+– 1. členu tretji odstavek spremeni tako, da se glasi:
+
+»(3) S tem zakonom se v slovenski pravni red delno prenašata naslednji direktivi Evropske unije:
+
+– Direktiva Evropskega parlamenta in Sveta 2006/123/ES z dne 12. decembra 2006 o storitvah na notranjem trgu (UL L št. 376 z dne 27. 12. 2006, str. 36; v nadaljnjem besedilu: Direktiva 2006/123/ES) in
+
+– Direktiva (EU) 2017/1132 Evropskega parlamenta in Sveta z dne 14. julija 2017 o določenih vidikih prava družb (kodificirano besedilo) (UL L št. 169 z dne 30. 6. 2017, str. 46), zadnjič spremenjena z Uredbo (EU) 2021/23 Evropskega parlamenta in Sveta z dne 16. decembra 2020 o okviru za sanacijo in reševanje centralnih nasprotnih strank ter spremembi uredb (EU) št. 1095/2010, (EU) št. 648/2012, (EU) št. 600/2014, (EU) št. 806/2014 in (EU) 2015/2365 ter direktiv 2002/47/ES, 2004/25/ES, 2007/36/ES, 2014/59/EU in (EU) 2017/1132 (UL L št. 22 z dne 22. 1. 2021, str. 1).«.;
+
+– 7. členu drugi odstavek spremeni tako, da se glasi:
+
+»(2) Ponudnikom in prejemnikom storitev ter drugim uporabnikom so na enotni kontaktni točki dostopne naslednje informacije:
+
+– informacije o zahtevah in pogojih za ponudnike storitev s sedežem na ozemlju Republike Slovenije, vključno za gospodarske družbe in podružnice tujih podjetij, zlasti zahteve v zvezi s postopki, vključno s spletnimi postopki, in formalnostmi, ki morajo biti opravljeni za začetek opravljanja in opravljanje storitev, ter zahteve za identifikacijo oseb v teh postopkih, uporabo posebnega obrazca družbene pogodbe in akta o ustanovitvi in jezikov ter pristojbinami;
+
+– informacije po določbah zakona, ki ureja gospodarske družbe, o pogojih za imenovanje osebe za člana organa vodenja ali nadzora ali upravnega odbora ali izvršnega direktorja, ki ni član upravnega odbora, ali poslovodjo, o nalogah in pristojnostih teh organov ter o organih, pristojnih za vodenje in upravljanje podatkov o okoliščinah, ki nasprotujejo njenemu imenovanju za člana organa vodenja ali nadzora ali upravnega odbora ali izvršnega direktorja, ki ni član upravnega odbora, ali poslovodjo;
+
+– podatki, potrebni za navezavo stika s pristojnimi organi, vključno s podatki o organih, odgovornih za zadeve v zvezi z opravljanjem storitev;
+
+– informacije o sredstvih in pogojih za dostop do javnih registrov in zbirk podatkov o ponudnikih storitev in storitvah;
+
+– informacije o pravnih sredstvih v primeru spora med pristojnimi organi in ponudnikom ali prejemnikom storitev ali med ponudnikom in prejemnikom storitev ali med ponudniki storitev;
+
+– podatki, potrebni za navezavo stika z združenji, društvi, zbornicami ali organizacijami, ki niso pristojni organi, pri katerih lahko ponudniki in prejemniki storitev dobijo praktično pomoč.«.
+
+54. člen
+
+(končanje postopkov nadzora)
+
+Postopki nadzora, začeti na podlagi 16. točke prvega odstavka 685. člena Zakona o gospodarskih družbah (Uradni list RS, št. 65/09 – uradno prečiščeno besedilo, 33/11, 91/11, 32/12, 57/12, 44/13 – odl. US, 82/13, 55/15, 15/17, 22/19 – ZPosS, 158/20 – ZIntPK-C, 18/21 in 18/23 – ZDU-1O), se dokončajo po določbah, ki so veljale do uveljavitve tega zakona.
+
+55. člen
+
+(začetek uporabe posameznih določb tega zakona)
+
+(1) Določbe novega drugega odstavka 183. člena ter novega drugega in tretjega odstavka ter spremenjenega četrtega odstavka 474. člena zakona se začnejo uporabljati z dnem začetka uporabe določb, ki v zakonu, ki ureja notariat, urejajo sestavljanje notarske listine v elektronski obliki in overjanje podpisa prek neposredne varne videopovezave z notarjem.
+
+(2) Določbe novega šestega odstavka 58. člena, spremenjenega 255. člena, drugega stavka drugega odstavka spremenjenega 622.e člena, dvanajstega odstavka spremenjenega 622.k člena, drugega stavka drugega odstavka novega 638.e člena, dvanajstega odstavka novega 638.k člena, drugega stavka drugega odstavka novega 661.e člena, dvanajstega odstavka novega 661.j člena ter novih 677.a in 677.b člena zakona se začnejo uporabljati, ko so zagotovljeni tehnični pogoji za njihovo izvajanje vendar najpozneje 1. januarja 2025. Do začetka uporabe spremenjenega 255. člena zakona se uporablja 255. člen Zakona o gospodarskih družbah (Uradni list RS, št. 65/09 – uradno prečiščeno besedilo, 33/11, 91/11, 32/12, 57/12, 44/13 – odl. US, 82/13, 55/15, 15/17, 22/19 – ZPosS, 158/20 – ZIntPK-C, 18/21 in 18/23 – ZDU-1O), ki je veljal do uveljavitve tega zakona.
+
+(3) Kolikor določajo obveznost prejemanja in posredovanja listin prek sistema povezovanja poslovnih registrov ter dajanja na voljo listin prek sistema povezovanja poslovnih register, se določbe enajstega in trinajstega odstavka spremenjenega 622.k člena, drugega stavka drugega odstavka spremenjenega 622.l člena, enajstega in trinajstega do petnajstega odstavka novega 638.k člena, tretjega in petega odstavka novega 638.l člena, enajstega in trinajstega odstavka novega 661.j člena ter tretjega in petega odstavka novega 661.k člena zakona začnejo uporabljati, ko so zagotovljeni tehnični pogoji za njihovo izvajanje vendar najpozneje 1. januarja 2025.
+
+(4) Minister, pristojen za gospodarstvo, v soglasju z ministrom, pristojnim za pravosodje, ob zagotovitvi tehničnih pogojev z odredbo, ki se objavi v Uradnem listu Republike Slovenije, določi datum, od katerega se začnejo uporabljati določbe iz drugega in tretjega odstavka tega člena.
+
+(5) Do začetka uporabe določb iz tretjega odstavka tega člena, kolikor določajo obveznost prejemanja listin prek sistema povezovanja poslovnih registrov, mora listine registrskemu organu poslati oseba iz 46. člena zakona.
+
+(6) Do začetka uporabe določb iz tretjega odstavka tega člena, kolikor določajo obveznost posredovanja listin prek sistema povezovanja poslovnih registrov, mora registrski organ poslati listine pristojnemu organu države članice oziroma osebi iz 46. člena zakona.
+
+56. člen
+
+(začetek veljavnosti)
+
+Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 310-01/23-2/16
+
+Ljubljana, dne 28. junija 2023
+
+EPA 712-IX
+
+Državni zbor
+
+Republike Slovenije
+
+mag. Urška Klakočar Zupančič
+
+predsednica
