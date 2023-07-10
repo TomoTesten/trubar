@@ -28,6 +28,10 @@ spremembe:
     datum: 2015-03-13
     sop: 2015-01-0625
     naziv: "Zakon o spremembah in dopolnitvah Zakona o sodnem registru"
+  - kratica: ZSReg-H
+    datum: 2023-07-10
+    sop: 2023-01-2382
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o sodnem registru"
 ---
 
 # Zakon o sodnem registru
