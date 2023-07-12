@@ -32,6 +32,10 @@ spremembe:
     datum: 2021-02-09
     sop: 2021-01-0411
     naziv: "Zakon o spremembah in dopolnitvah Pomorskega zakonika"
+  - kratica: PZ-I
+    datum: 2023-07-12
+    sop: 2023-01-2394
+    naziv: "Zakon o spremembah in dopolnitvah Pomorskega zakonika"
 ---
 
 # Pomorski zakonik
