@@ -40,6 +40,10 @@ spremembe:
     datum: 2013-07-26
     sop: 2013-01-2519
     naziv: "Zakon o spremembah in dopolnitvah Zakona o osnovni šoli"
+  - kratica: ZOsn-J
+    datum: 2023-07-12
+    sop: 2023-01-2392
+    naziv: "Zakon o spremembi Zakona o osnovni šoli"
 ---
 
 # Zakon o osnovni šoli
