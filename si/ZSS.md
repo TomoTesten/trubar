@@ -56,6 +56,10 @@ spremembe:
     datum: 2015-03-13
     sop: 2015-01-0623
     naziv: "Zakon o spremembah in dopolnitvah Zakona o sodniški službi"
+  - kratica: ZSS-N
+    datum: 2023-07-12
+    sop: 2023-01-2389
+    naziv: "Zakon o dopolnitvi Zakona o sodniški službi"
 ---
 
 # Zakon o sodniški službi
