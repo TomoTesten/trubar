@@ -12,6 +12,10 @@ spremembe:
     datum: 2019-07-26
     sop: 2019-01-2288
     naziv: "Zakon o spremembah in dopolnitvah Zakona o postopku priznavanja poklicnih kvalifikacij za opravljanje reguliranih poklicev"
+  - kratica: ZPPPK-C
+    datum: 2023-07-12
+    sop: 2023-01-2387
+    naziv: "Zakon o spremembah in dopolnitvi Zakona o postopku priznavanja poklicnih kvalifikacij za opravljanje reguliranih poklicev"
 ---
 
 # Zakon o postopku priznavanja poklicnih kvalifikacij za opravljanje reguliranih poklicev
