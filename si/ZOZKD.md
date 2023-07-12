@@ -12,6 +12,10 @@ spremembe:
     datum: 2010-11-02
     sop: 2010-01-4657
     naziv: "Zakon o spremembah in dopolnitvah Zakona o odškodnini žrtvam kaznivih dejanj"
+  - kratica: ZOZKD-B
+    datum: 2023-07-12
+    sop: 2023-01-2388
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o odškodnini žrtvam kaznivih dejanj"
 ---
 
 # Zakona o odškodnini žrtvam kaznivih dejanj
