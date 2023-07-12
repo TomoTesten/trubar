@@ -36,6 +36,10 @@ spremembe:
     datum: 2013-12-09
     sop: 2013-01-3677
     naziv: "Zakon o dopolnitvi Zakona o javnih financah"
+  - kratica: ZJF-I
+    datum: 2023-07-12
+    sop: 2023-01-2386
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o javnih financah"
 ---
 
 # Zakon o javnih financah
