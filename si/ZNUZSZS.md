@@ -7,6 +7,11 @@ sop: 2022-01-2511
 objava: "Uradni list RS 100/22  str. 7615"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-2511"
+spremembe:
+  - kratica: ZNUZSZS-A
+    datum: 2023-07-12
+    sop: 2023-01-2395
+    naziv: "Zakon o spremembi Zakona o nujnih ukrepih za zagotovitev stabilnosti zdravstvenega sistema"
 ---
 
 # Zakon o nujnih ukrepih za zagotovitev stabilnosti zdravstvenega sistema
