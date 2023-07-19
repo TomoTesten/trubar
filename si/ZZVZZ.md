@@ -64,6 +64,10 @@ spremembe:
     datum: 2021-10-01
     sop: 2021-01-2989
     naziv: "Zakon o dopolnitvah Zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
+  - kratica: ZZVZZ-T
+    datum: 2023-07-19
+    sop: 2023-01-2480
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zdravstvenem varstvu in zdravstvenem zavarovanju"
 ---
 
 # Zakon o zdravstvenem varstvu in zdravstvenem zavarovanju
