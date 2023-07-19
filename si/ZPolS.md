@@ -28,6 +28,10 @@ spremembe:
     datum: 2013-12-03
     sop: 2013-01-3550
     naziv: "Zakon o spremembah in dopolnitvah Zakona o političnih strankah"
+  - kratica: ZPolS-G
+    datum: 2023-07-19
+    sop: 2023-01-2481
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o političnih strankah"
 ---
 
 # Zakon o političnih strankah
