@@ -4,9 +4,9 @@ naziv: "Sklep o zavrženju ustavne pritožbe"
 vrsta: "akt"
 datum: 2023-08-04
 sop: 2023-01-2578
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-2578"
 ---
 
