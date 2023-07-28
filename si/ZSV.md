@@ -36,6 +36,10 @@ spremembe:
     datum: 2019-05-03
     sop: 2019-01-1329
     naziv: "Zakon o spremembah in dopolnitvah Zakona o socialnem varstvu"
+  - kratica: ZSV-J
+    datum: 2023-07-28
+    sop: 2023-01-2528
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o socialnem varstvu"
 ---
 
 # Zakon o socialnem varstvu
