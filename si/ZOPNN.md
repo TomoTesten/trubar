@@ -24,6 +24,10 @@ spremembe:
     datum: 2022-12-27
     sop: 2022-01-4189
     naziv: "Zakon o dopolnitvi Zakona o odpravi posledic naravnih nesreč"
+  - kratica: ZOPNN-F
+    datum: 2023-08-10
+    sop: 2023-01-2599
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o odpravi posledic naravnih nesreč"
 ---
 
 # Zakon o odpravi posledic naravnih nesreč
