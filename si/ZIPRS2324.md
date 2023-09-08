@@ -12,6 +12,10 @@ spremembe:
     datum: 2023-06-17
     sop: 2023-01-2088
     naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2023 in 2024"
+  - kratica: ZIPRS2324-B
+    datum: 2023-09-08
+    sop: 2023-01-2674
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2023 in 2024"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2023 in 2024
