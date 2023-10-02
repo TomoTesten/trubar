@@ -7,6 +7,11 @@ sop: 2004-02-0026
 objava: "Uradni list RS MP 9/04  str. 3573"
 kljucne_besede: ["kmetijska politika"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-02-0026"
+spremembe:
+  - kratica: MSKOO-A
+    datum: 2023-10-02
+    sop: 2023-02-0022
+    naziv: "Zakon o spremembi Zakona o ratifikaciji Stockholmske konvencije o obstojnih organskih onesnaževalih"
 ---
 
 # Zakon o ratifikaciji Stockholmske konvencije o obstojnih organskih onesnaževalih
