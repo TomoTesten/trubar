@@ -12,6 +12,10 @@ spremembe:
     datum: 2013-12-06
     sop: 2013-01-3604
     naziv: "Zakon o spremembi in dopolnitvi Zakona o verski svobodi"
+  - kratica: ZVS-B
+    datum: 2023-10-02
+    sop: 2023-01-2874
+    naziv: "Zakon o spremembi Zakona o verski svobodi"
 ---
 
 # Zakon o verski svobodi
