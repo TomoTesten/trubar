@@ -12,6 +12,10 @@ spremembe:
     datum: 2013-03-28
     sop: 2013-02-0024
     naziv: "Zakon o ratifikaciji Protokola med Vlado Republike Slovenije in Švicarskim zveznim svetom o spremembah Konvencije med Vlado Republike Slovenije in Zveznim svetom švicarske konfederacije o izogibanju dvojnega obdavčevanja v zvezi z davki na dohodek in premoženje, podpisane v Ljubljani 12. junija 1996"
+  - kratica: BCHIDO-B
+    datum: 2023-10-02
+    sop: 2023-02-0023
+    naziv: "Zakon o ratifikaciji Protokola med Vlado Republike Slovenije in Švicarskim zveznim svetom o spremembah Konvencije med Vlado Republike Slovenije in Zveznim svetom Švicarske konfederacije o izogibanju dvojnega obdavčevanja v zvezi z davki na dohodek in premoženje, podpisane v Ljubljani 12. junija 1996 in spremenjene s protokolom, podpisanim v Ljubljani 7. septembra 2012"
 ---
 
 # Zakon o ratifikaciji Konvencije med Republiko Slovenijo in Švicarsko konfederacijo o izogibanju dvojnega obdavčevanja v zvezi z davki na dohodek in premoženje
