@@ -7,6 +7,11 @@ sop: 2001-01-2046
 objava: "Uradni list RS 35/2001  str. 4044"
 kljucne_besede: ["pravice manjšin", "dvojezičnost", "predšolska vzgoja", "osnovnošolsko izobraževanje", "izobraževanje", "Italija", "Madžarska"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2046"
+spremembe:
+  - kratica: ZPIMVI-B
+    datum: 2023-10-02
+    sop: 2023-01-2876
+    naziv: "Zakon o spremembi in dopolnitvi Zakona o posebnih pravicah italijanske in madžarske narodne skupnosti na področju vzgoje in izobraževanja"
 ---
 
 # Zakon o posebnih pravicah italijanske in madžarske narodne skupnosti na področju vzgoje in izobraževanja
