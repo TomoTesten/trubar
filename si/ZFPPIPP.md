@@ -36,6 +36,10 @@ spremembe:
     datum: 2016-04-11
     sop: 2016-01-1076
     naziv: "Zakon o spremembah in dopolnitvah Zakona o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju"
+  - kratica: ZFPPIPP-H
+    datum: 2023-10-02
+    sop: 2023-01-2872
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju"
 ---
 
 # Zakon o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju
