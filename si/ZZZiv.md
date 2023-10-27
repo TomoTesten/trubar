@@ -24,6 +24,10 @@ spremembe:
     datum: 2020-06-29
     sop: 2020-01-1628
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zaščiti živali"
+  - kratica: ZZZiv-F
+    datum: 2023-10-27
+    sop: 2023-01-3141
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zaščiti živali"
 ---
 
 # Zakon o zaščiti živali
