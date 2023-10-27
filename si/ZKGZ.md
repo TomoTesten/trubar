@@ -12,6 +12,10 @@ spremembe:
     datum: 2004-03-19
     sop: 2004-01-1065
     naziv: "Zakon o spremembah in dopolnitvah zakona o Kmetijsko gozdarski zbornici Slovenije"
+  - kratica: ZKGZ-C
+    datum: 2023-10-27
+    sop: 2023-01-3140
+    naziv: "Zakon o dopolnitvi Zakona o Kmetijsko gozdarski zbornici Slovenije"
 ---
 
 # Zakon o Kmetijsko gozdarski zbornici Slovenije
