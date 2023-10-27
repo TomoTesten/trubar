@@ -28,6 +28,10 @@ spremembe:
     datum: 2021-04-09
     sop: 2021-01-1049
     naziv: "Zakon o dopolnitvi Zakona o urejanju trga dela"
+  - kratica: ZUTD-H
+    datum: 2023-10-27
+    sop: 2023-01-3143
+    naziv: "Zakon o spremembi Zakona o urejanju trga dela"
 ---
 
 # Zakon o urejanju trga dela
