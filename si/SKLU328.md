@@ -4,9 +4,9 @@ naziv: "Sklep o zavrnitvi pritožbe zoper sklep Državnega zbora št. 020-09-2/2
 vrsta: "akt"
 datum: 2023-11-15
 sop: 2023-01-3332
-organ: "Ustavno sodišče Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-3332"
 ---
 
