@@ -1,0 +1,505 @@
+---
+kratica: MP_ODLO48618
+naziv: "Odlok o rebalansu proračuna Občine Ankaran za leto 2023 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2023-11-03
+sop: 2023-01-3243
+organ: "Občina Ankaran"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-3243"
+---
+
+# Odlok o rebalansu proračuna Občine Ankaran za leto 2023 (ODLO)
+
+Na podlagi šestega odstavka 40. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13 – popr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617, 13/18, 195/20 – odl. US, 18/23 – ZDU-1O in 76/23) ter 120. člena Statuta Občine Ankaran (Uradni list RS, št. 17/15, 10/22) je Občinski svet Občine Ankaran na 9. redni seji dne 26. 10. 2023 sprejel
+
+O D L O K
+
+o rebalansu proračuna Občine Ankaran za leto 2023
+
+1. člen
+
+V II. poglavju »VIŠINA SPLOŠNEGA DELA PRORAČUNA IN STRUKTURA POSEBNEGA DELA PRORAČUNA« Odloka o proračunu Občine Ankaran za leto 2023 (Uradni list RS, št. 34/23 (v nadaljevanju: »odlok«)) se 2. člen odloka spremeni tako, da se po novem glasi:
+
+»2. člen
+
+Splošni del proračuna se na ravni podskupin kontov določa v naslednjih zneskih:
+
+KONTO
+OPIS
+REBALANS- 2023-1 [1]
+v EUR
+A. BILANCA PRIHODKOV IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+11.260.512
+TEKOČI PRIHODKI (70+71)
+8.956.848
+70
+DAVČNI PRIHODKI (700+703+704+706)
+5.880.325
+700
+DAVKI NA DOHODEK IN DOBIČEK
+1.940.014
+703
+DAVKI NA PREMOŽENJE
+3.487.604
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+451.607
+706
+DRUGI DAVKI
+1.100
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+3.076.523
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+1.979.694
+711
+TAKSE IN PRISTOJBINE
+5.300
+712
+GLOBE IN DRUGE DENARNE KAZNI
+58.000
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+435.800
+714
+DRUGI NEDAVČNI PRIHODKI
+597.729
+72
+KAPITALSKI PRIHODKI (720+721+722)
+1.315.074
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+0
+721
+PRIHODKI OD PRODAJE ZALOG
+0
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+1.315.074
+73
+PREJETE DONACIJE (730+731)
+0
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+0
+731
+PREJETE DONACIJE IZ TUJINE
+0
+74
+TRANSFERNI PRIHODKI (740+741)
+988.590
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+345.146
+741
+PREJETA SREDSTVA IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+643.444
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE (786+787)
+0
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+0
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ
+0
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+15.198.970
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+3.844.936
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+1.139.811
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+181.620
+402
+IZDATKI ZA BLAGO IN STORITVE
+2.484.308
+403
+PLAČILA DOMAČIH OBRESTI
+18.830
+409
+REZERVE
+20.367
+41
+TEKOČI TRANSFERI (410+411+412+413)
+4.216.530
+410
+SUBVENCIJE
+97.687
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+1.165.731
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+509.962
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+2.443.150
+414
+TEKOČI TRANSFERI V TUJINO
+0
+42
+INVESTICIJSKI ODHODKI (420)
+6.677.666
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+6.677.666
+43
+INVESTICIJSKI TRANSFERI (431+432)
+459.839
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ. OSEBAM
+12.050
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+447.789
+III.
+PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.–II.)
+–3.938.458
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+75
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0
+750
+PREJETA VRAČILA DANIH POSOJIL
+0
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0
+44
+V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+50.000
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+50.000
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.–V.)
+–50.000
+C. RAČUN FINANCIRANJA
+50
+VII.
+ZADOLŽEVANJE (500)
+1.200.000
+500
+DOMAČE ZADOLŽEVANJE
+1.200.000
+55
+VIII.
+ODPLAČILA DOLGA (550)
+30.000
+550
+ODPLAČILA DOMAČEGA DOLGA
+30.000
+IX.
+POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (III.+VI.+X.)= (I.+IV.+VII.)–(II.+V.+VIII.)
+–2.818.458
+X.
+NETO ZADOLŽEVANJE (VII.–VIII.)
+1.170.000
+XI.
+NETO FINANCIRANJE (VI.+X.-IX.)
+3.938.458
+STANJE SREDSTEV NA RAČUNIH OB KONCU PRETEKLEGA LETA
+– OD TEGA PRESEŽEK FINANČNE IZRAVNAVE IZ PRETEKLEGA LETA
+
+«
+
+2. člen
+
+Pred 10. členom odloka se doda poimenovanje poglavja »V. OBSEG ZADOLŽEVANJA IN POROŠTEV OBČINE IN JAVNEGA SEKTORJA«. Vsa poglavja, ki sledijo, se smiselno preštevilčijo.
+
+3. člen
+
+V odlok se doda nov 11. člen, ki glasi:
+
+»(obseg zadolževanja občine in izdanih poroštev občine)
+
+Za kritje presežka odhodkov nad prihodki v bilanci prihodkov in odhodkov, presežka izdatkov nad prejemki v računu finančnih terjatev in naložb ter odplačila dolgov v računu financiranja se občina za proračun leta 2023 lahko zadolži do višine 1.200.000,00 eurov.
+
+Občina v letu 2023 ne bo izdajala poroštev.«
+
+Vsi členi, ki sledijo, se smiselno preštevilčijo.
+
+4. člen
+
+Deli splošnega in posebnega dela proračuna ter deli načrta razvojnih programov proračuna, ki se spremenijo z rebalansom, so kot priloge sestavni deli tega odloka in se objavijo na spletni strani Občine Ankaran.
+
+Preostala določila odloka ter deli splošnega in posebnega dela in načrta razvojnih programov proračuna, ki se s tem rebalansom ne spreminjajo, ostanejo v veljavi in se smiselno uporabljajo dalje.
+
+5. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 4109-0014/2023
+
+Ankaran, dne 26. oktobra 2023
+
+Župan
+
+Občine Ankaran
+
+Gregor Strmčnik
+
+Ai sensi del sesto comma dell’articolo 40 della Legge sulle finanze pubbliche (Gazzetta Ufficiale della RS, n. 11/11 – testo consolidato ufficiale, 14/13 – corr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617, 13/18, 195/20 – dec. CC, 18/23 – ZDU-1O e 76/23) e l’articolo 120 dello Statuto del Comune di Ancarano (Gazzetta Ufficiale della RS n. 17/15, 10/22), il Comune di Ancarano nella sua 9
+a
+seduta ordinaria del 26 ottobre 2023 ha adottato il seguente
+
+D E C R E T O
+
+sull’assestamento del bilancio di previsione del Comune di Ancarano per l’anno 2023
+
+articolo 1
+
+Nel II capitolo “IMPORTO DELLA PARTE GENERALE DEL BILANCIO E STRUTTURA DELLA SEZIONE PARTICOLARE DEL BILANCIO” del Decreto sul Bilancio di previsione del Comune di Ancarano per il 2023 (Gazzetta Ufficiale della RS, no. 34/23 (di seguito: “decreto”)) l’articolo 2 viene modificato come segue:
+
+“articolo 2
+
+La parte generale del bilancio al livello di sottogruppi di conti viene determinata nei seguenti importi:
+
+CONTO
+DESCRIZIONE
+ASSETSTAMENTO- 2023-1(1)
+IN EUR
+A. BILANCIO DELLE ENTRATE E DELLE SPESE
+I
+TOTALE ENTRATE (70+71+72+73+74+78)
+11.260.512
+ENTRATE CORRENTI (70+71)
+8.956.848
+70
+ENTRATE TRIBUTARIE (700+703+704+706)
+5.880.325
+700
+IMPOSTE SUL REDDITO E SUGLI UTILI
+1.940.014
+703
+IMPOSTE PATRIMONIALI
+3.487.604
+704
+IMPOSTE LOCALI SU BENI E SERVIZI
+451.607
+706
+ALTRE IMPOSTE
+1.100
+71
+ENTRATE EXTRATRIBUTARIE (710+711+712+713+714)
+3.076.523
+710
+PARTECIPAZIONE AI PROFITTI ED ENTRATE PATRIMONIALI
+1.979.694
+711
+TASSE E CONTRIBUTI
+5.300
+712
+SANZIONI PECUNIARIE
+58.000
+713
+ENTRATE DA VENDITE E SERVIZI
+435.800
+714
+ALTRE ENTRATE EXTRATRIBUTARIE
+597.729
+72
+ENTRATE PROVENIENTI DA CAPITALE (720+721+722)
+1315074
+720
+ENTRATE RICAVATE DALLA VENDITA DI BENI STRUMENTALI
+0
+721
+ENTRATE RICAVATE DALLA VENDITA DI GIACENZE
+0
+722
+ENTRATE RICAVATE DALLA VENDITA DI TERRENI E DEL PATRIMONIO IMMATERIALE
+1.315.074
+73
+DONAZIONI RICEVUTE (730+731)
+0
+730
+DONAZIONI ED ELARGIZIONI DA PERSONE GIURIDICHE NAZIONALI
+0
+731
+DONAZIONI ED ELARGIZIONI DALL’ESTERO
+0
+74
+ENTRATE PROVENIENTI DA TRASFERIMENTI ERARIALI (740+741)
+988.590
+740
+TRASFERIMENTI ERARIALI DA ALTRI ENTI FINANZIARI PUBBLICI
+345.146
+741
+FONDI PERCEPITI DAL BILANCIO DELLO STATO E DAL BILANCIO DELL’UNIONE EUROPEA
+643.444
+78
+FONDI ACQUISITI DALL’UNIONE EUROPEA (786+787)
+0
+786
+ALTRI FONDI DAL BILANCIO DELL’UNIONE EUROPEA
+0
+787
+FONDI PERCEPITI DA ALTRE ISTITUZIONI COMUNITARIE
+0
+II
+TOTALE SPESE (40+41+42+43)
+1.5198.970
+40
+SPESE CORRENTI (400+401+402+403+409)
+3.844.936
+400
+SALARI ED ALTRE EROGAZIONI AL PERSONALE DIPENDENTE
+1.139.811
+401
+CONTRIBUTI PREVIDENZIALI DEI DATORI DI LAVORO
+181.620
+402
+SPESE PER BENI E SERVIZI
+2.484.308
+403
+SPESE PER INTERESSI IN AMBITO NAZIONALE
+18.830
+409
+FONDI DI ACCANTONAMENTO
+20.367
+41
+STANZIAMENTI CORRENTI (410+411+412+413)
+4.216.530
+410
+SOVVENZIONI
+97.687
+411
+SOVVENZIONI A FAVORE DI SINGOLI E NUCLEI FAMILIARI
+1.165.731
+412
+TRASFERIMENTI DI FONDI A FAVORE DI ORGANIZZAZIONI ED EVENTI NO PROFIT
+509.962
+413
+ALTRI TRASFERIMENTI CORRENTI IN AMBITO NAZIONALE
+2.443.150
+414
+TRASFERIMENTI ALL’ESTERO
+0
+42
+SPESE PER INVESTIMENTI (420)
+6.677.666
+420
+ACQUISTO E COSTRUZIONE DI IMMOBILIZZAZIONI MATERIALI
+6.677.666
+43
+TRASFERIMENTI D’INVESTIMENTO (431+432)
+459.839
+431
+TRASFERIMENTI DI INVESTIMENTO A PERSONE FISICHE E GIURIDICHE
+12.050
+432
+TRANSFERIMENTI D’INVESTIMENTO A FRUITORI DI BILANCIO
+447.789
+III
+AVANZO (DISAVANZO) (I-II)
+–3.938.458
+B. CONTO DEI CREDITI E INVESTIMENTI FINANZIARI
+75
+IV
+RIMBORSO DI CREDITI E ALIENAZIONE DI QUOTE IN CAPITALE (750+751+752)
+0
+750
+RIMBORSO DI PRESTITI DATI
+0
+751
+VENDITE DI QUOTE IN CAPITALE
+0
+752
+RICAVATO IN SEGUITO A PRIVATIZZAZIONE
+0
+44
+V
+CONCESSIONE DI PRESTITI ED AUMENTO DI QUOTE DI CAPITALE (440+441)
+50.000
+440
+CONCESSIONE DI CREDITI
+0
+441
+AUMENTO DI QUOTE DI CAPITALE E INVESTIMENTI FINANZIARI
+50.000
+VI
+PRESTITI CONTRATTI MENO QUELLI CONCESSI E MUTAMENTI DELLE QUOTE IN CAPITALE (IV–V)
+–50.000
+C. CONTO DI FINANZIAMENTO
+50
+VII
+INDEBITAMENTO (500)
+1.200.000
+500
+INDEBITAMENTO IN AMBITO NAZIONALE
+1.200.000
+55
+VIII
+RIMBORSO DI DEBITI (550)
+30.000
+550
+RIMBORSO DI DEBITI ASSUNTI IN AMBITO NAZIONALE
+30.000
+IX
+INCREMETO (RIDUZIONE) DEI FONDI DI CASSA (III+VI+X)= (I+IV+VII)–(II+V+VIII)
+–2.818.458
+X
+X. INDEBITAMENTO NETTO (VII–VIII)
+1.170.000
+XI
+FINANZIAMENTO NETTO (VI+X+IX)
+3,938.458
+SALDO CONTO ALLA FINE DELL’ANNO PRECEDENTE
+– DI CUI AVANZO DI CONGUAGLIO FINANZIARIO DELL’ANNO
+
+”
+
+articolo 2
+
+Precedentemente l'articolo 10 del decreto viene inserito il capitolo “V VOLUME DELL’INDEBITAMENTO E DELLE GARANZIE DEL COMUNE E DEL SETTORE PUBBLICO”. I capitoli che seguono vengono rinumerati di conseguenza.
+
+articolo 3
+
+Nel decreto viene inserito un nuovo articolo 11, con la seguente dicitura:
+
+“(volume dell’indebitamento e delle garanzie rilasciate dal comune)
+
+Per l'esercizio finanziario 2023, il Comune può contrarre prestiti fino a un massimo di 1.200.000,00 euro per coprire l'eccedenza delle spese rispetto alle entrate nel bilancio delle entrate e delle spese, l’eccedenza delle uscite rispetto agli introiti nel conto dei crediti finanziari e degli investimenti e il rimborso dei debiti nel conto di finanziamento.
+
+Il Comune non rilascerà garanzie nel 2023”.
+
+Gli articoli che seguono vengono rinumerati di conseguenza.
+
+articolo 4
+
+Le varie sezioni della parte generale e di quella particolare del bilancio e parte del piano dei programmi di sviluppo del bilancio, che sono modificati con l’assestamento, sono parte integrante del presente decreto come allegati e sono pubblicati sul sito internet del Comune di Ancarano.
+
+Le restanti disposizioni del decreto e le sezioni della parte generale e particolare e il piano dei programmi di sviluppo del bilancio, che non vengono modificate con l’assestamento del bilancio, restano in vigore e continuano ad essere utilmente applicati.
+
+articolo 5
+
+Il presente decreto entra in vigore il giorno successivo alla sua pubblicazione nella Gazzetta Ufficiale della Repubblica di Slovenia.
+
+N. 4109-0014/2023
+
+Ancarano, 26 ottobre 2023
+
+Il Sindaco
+
+Comune di Ancarano
+
+Gregor Strmčnik
