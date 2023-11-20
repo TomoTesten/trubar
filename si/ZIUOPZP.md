@@ -7,6 +7,11 @@ sop: 2023-01-2670
 objava: "Uradni list RS 95/23  str. 7489"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-2670"
+spremembe:
+  - kratica: ZIUOPZP-A
+    datum: 2023-11-20
+    sop: 2023-01-3410
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o interventnih ukrepih za odpravo posledic poplav in zemeljskih plazov iz avgusta 2023"
 ---
 
 # Zakon o interventnih ukrepih za odpravo posledic poplav in zemeljskih plazov iz avgusta 2023
