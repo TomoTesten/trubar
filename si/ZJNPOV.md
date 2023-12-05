@@ -12,6 +12,10 @@ spremembe:
     datum: 2016-07-29
     sop: 2016-01-2297
     naziv: "Zakon o spremembah in dopolnitvah Zakona o javnem naročanju na področju obrambe in varnosti"
+  - kratica: ZJNPOV-B
+    datum: 2023-12-05
+    sop: 2023-01-3591
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o javnem naročanju na področju obrambe in varnosti"
 ---
 
 # Zakon o javnem naročanju na področju obrambe in varnosti
