@@ -1,0 +1,243 @@
+---
+kratica: MP_ODLO48890
+naziv: "Odlok o spremembi Odloka o proračunu Občine Gorenja vas - Poljane za leto 2023 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2023-12-08
+sop: 2023-01-3689
+organ: "Občina Gorenja Vas - Poljane"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-3689"
+---
+
+# Odlok o spremembi Odloka o proračunu Občine Gorenja vas - Poljane za leto 2023 (ODLO)
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – UPB2, 76/08, 100/08 – odl. US, 79/09, 51/10, 40/12 – ZUJF, 14/15 – ZUUJFO, 11/18 – ZSPDSLS-1 in 30/18, 61/20 – ZIUZEOP-A in 80/20 – ZIUOOPE), 29. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – UPB4, 14/13 – popr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617, 13/18 in 195/20 – odl. US, 18/23 – ZDU-1O in 76/23) in 107. člena Statuta Občine Gorenja vas - Poljane (Uradni list RS, št. 85/13, 48/15 in 31/17) je Občinski svet Občine Gorenja vas - Poljane na 7. redni seji dne 7. decembra 2023 sprejel
+
+O D L O K
+
+o spremembi Odloka o proračunu Občine Gorenja vas - Poljane za leto 2023
+
+1. člen
+
+V Odloku o proračunu Občine Gorenja vas - Poljane za leto 2023 (Uradni list RS, št. 25/23 in 69/23) se 2. člen spremeni tako, da se glasi:
+
+»2. člen
+
+(sestava proračuna in višina splošnega dela proračuna)
+
+V splošnem delu proračuna so prikazani prejemki in izdatki po ekonomski klasifikaciji do ravni kontov. Splošni del proračuna se na ravni podskupin kontov določa v naslednjih zneskih:
+
+Skupina/podskupina kontov
+Proračun leta 2023 v EUR
+A. BILANCA PRIHODKOV IN ODHODKOV
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+30.843.175
+TEKOČI PRIHODKI (70+71)
+10.105.193
+70
+DAVČNI PRIHODKI (700+703+704+706)
+8.209.751
+700
+DAVKI NA DOHODEK IN DOBIČEK
+7.471.678
+703
+DAVKI NA PREMOŽENJE
+575.031
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+163.041
+706
+DRUGI DAVKI
+0
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+1.895.443
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+266.530
+711
+TAKSE IN PRISTOJBINE
+6.100
+712
+GLOBE IN DRUGE DENARNE KAZNI
+21.100
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+20.524
+714
+DRUGI NEDAVČNI PRIHODKI
+1.581.189
+72
+KAPITALSKI PRIHODKI (720+721+722)
+180.940
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+156.634
+721
+PRIHODKI OD PRODAJE ZALOG
+0
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+24.306
+73
+PREJETE DONACIJE (730+731)
+287.009
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+275.069
+731
+PREJETE DONACIJE IZ TUJINE
+11.940
+74
+TRANSFERNI PRIHODKI (740+741)
+20.270.033
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+20.069.706
+741
+PREJETA SREDSTVA IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+200.327
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE IN IZ DRUGIH DRŽAV (782+786+787)
+0
+782
+PREJETA SREDSTVA IZ PRORAČUNA EU IZ STRUKTURNIH SKLADOV
+0
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+0
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ IN IZ DRUGIH DRŽAV
+0
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+32.135.575
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+8.815.148
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+669.072
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+96.204
+402
+IZDATKI ZA BLAGO IN STORITVE
+2.806.919
+403
+PLAČILA DOMAČIH OBRESTI
+51.157
+409
+REZERVE
+5.191.795
+41
+TEKOČI TRANSFERI (410+411+412+413+414)
+3.794.408
+410
+SUBVENCIJE
+226.182
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+2.573.359
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+223.817
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+771.050
+414
+TEKOČI TRANSFERI V TUJINO
+0
+42
+INVESTICIJSKI ODHODKI (420)
+19.032.214
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+19.032.214
+43
+INVESTICIJSKI TRANSFERI (431+432)
+493.805
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZ. OSEBAM
+156.198
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+337.607
+III.
+PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.–II.)
+–1.292.400
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+75
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+11.000
+750
+PREJETA VRAČILA DANIH POSOJIL
+0
+751
+PRODAJA KAPITALSKIH DELEŽEV
+11.000
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0
+44
+V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+0
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+0
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREMEMBE KAPITALSKIH DELEŽEV (IV.–V.)
+11.000
+C. RAČUN FINANCIRANJA
+50
+VII.
+ZADOLŽEVANJE (500)
+1.300.000
+500
+DOMAČE ZADOLŽEVANJE
+1.300.000
+55
+VIII.
+ODPLAČILA DOLGA (550)
+296.897
+550
+ODPLAČILA DOMAČEGA DOLGA
+296.897
+IX.
+POVEČANJE (ZMANJŠANJE) SREDSTEV NA RAČUNIH (III.+VI.+X.)=(I.+IV.+VII.)–(II.+V.+VIII.)
+–278.296
+X.
+NETO ZADOLŽEVANJE (VII.–VIII.)
+1.003.103
+XI.
+NETO FINANCIRANJE (VI.+X.-IX.)
+1.292.400
+STANJE SREDSTEV NA RAČUNIH OB KONCU PRETEKLEGA LETA
+278.296
+
+Posebni del proračuna sestavljajo finančni načrti neposrednih uporabnikov, ki so razdeljeni na naslednje programske dele: področja proračunske porabe, glavne programe in podprograme, predpisane s programsko klasifikacijo izdatkov občinskega proračuna. Podprogram je razdeljen na proračunske postavke, te pa na podskupine kontov, konte in podkonte, določene s predpisanim kontnim načrtom.
+
+Posebni del proračuna do ravni proračunskih postavk – podkontov in načrt razvojnih programov sta prilogi k temu odloku in se objavita na spletni strani Občine Gorenja vas - Poljane.
+
+Načrt razvojnih programov sestavljajo projekti.«
+
+2. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 410-01/2022-49
+
+Gorenja vas, dne 7. decembra 2023
+
+Župan
+
+Občine Gorenja vas - Poljane
+
+Milan Čadež
