@@ -2,11 +2,11 @@
 kratica: STAT50
 naziv: "Statut Univerze v Mariboru (integralni tekst prečiščenega besedila)"
 vrsta: "akt"
-datum: 2001-03-16
+datum: 2024-04-12
 sop: 2001-01-1077
-organ: "Univerza v Mariboru"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1077"
 ---
 
