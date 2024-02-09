@@ -7,6 +7,11 @@ sop: 2023-01-3596
 objava: "Uradni list RS 123/23  str. 10944"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-3596"
+spremembe:
+  - kratica: ZIPRS2425-A
+    datum: 2024-02-09
+    sop: 2024-01-0295
+    naziv: "Zakon o spremembi in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2024 in 2025"
 ---
 
 # Zakon o izvrševanju proračunov Republike Slovenije za leti 2024 in 2025
