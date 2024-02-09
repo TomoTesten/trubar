@@ -20,6 +20,10 @@ spremembe:
     datum: 2021-03-01
     sop: 2021-01-0618
     naziv: "Zakon o spremembah in dopolnitvah Zakona o volitvah v državni zbor"
+  - kratica: ZVDZ-E
+    datum: 2024-02-09
+    sop: 2024-01-0293
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o volitvah v državni zbor"
 ---
 
 # Zakon o volitvah v državni zbor
