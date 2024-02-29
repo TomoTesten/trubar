@@ -44,6 +44,10 @@ spremembe:
     datum: 2023-07-12
     sop: 2023-01-2392
     naziv: "Zakon o spremembi Zakona o osnovni šoli"
+  - kratica: ZOsn-K
+    datum: 2024-02-29
+    sop: 2024-01-0440
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o osnovni šoli"
 ---
 
 # Zakon o osnovni šoli
