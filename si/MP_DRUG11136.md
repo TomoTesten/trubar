@@ -1,0 +1,219 @@
+---
+kratica: MP_DRUG11136
+naziv: "Zaključni račun proračuna Občine Dobrna za leto 2023 (DRUG)"
+vrsta: "akt"
+datum: 2024-04-05
+sop: 2024-01-0849
+organ: "Občina Dobrna"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-0849"
+---
+
+# Zaključni račun proračuna Občine Dobrna za leto 2023 (DRUG)
+
+Na podlagi tretjega odstavka 98. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – UPB4, 14/13, 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617, 13/18, 195/20 – odl. US, 18/23 – ZDU-1O in 76/23) in 15. člena Statuta Občine Dobrna (Uradni list RS, št. 55/17) je občinski svet na 9. redni seji Občinskega sveta Občine Dobrna dne 27. 3. 2024 sprejel
+
+Z A K L J U Č N I   R A Č U N
+
+proračuna Občine Dobrna za leto 2023
+
+1. člen
+
+Sprejme se zaključni račun proračuna Občine Dobrna za leto 2023.
+
+Konto
+Opis
+Realizacija proračuna 2023
+A. BILANCA PRIHODKOV IN ODHODKOV
+I. SKUPAJ PRIHODKI (70+71+72+73+74+78)
+5.759.835
+TEKOČI PRIHODKI (70+71)
+2.739.975
+70
+DAVČNI PRIHODKI (700+703+704+706)
+2.102.063
+700
+DAVKI NA DOHODEK IN DOBIČEK
+1.844.204
+703
+DAVKI NA PREMOŽENJE
+132.152
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+119.351
+706
+DRUGI DAVKI
+6.356
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+637.912
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+565.769
+711
+TAKSE IN PRISTOJBINE
+2.669
+712
+GLOBE IN DRUGE DENARNE KAZNI
+1.864
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+12.904
+714
+DRUGI NEDAVČNI PRIHODKI
+54.706
+72
+KAPITALSKI PRIHODKI
+323.614
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+0
+721
+PRIHODKI OD PRODAJE ZGRADB
+0
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPREDMETENIH SREDSTEV
+323.614
+73
+PREJETE DONACIJE (730+731)
+0
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+0
+731
+PREJETE DONACIJE IZ TUJINE
+0
+74
+TRANSFERNI PRIHODKI (740+741)
+2.696.246
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+2.258.583
+741
+PREJETA SREDSTVA IZ DRŽAVNEGA PRORAČUNA IZ SREDSTEV PRORAČUNA EVROPSKE UNIJE
+437.663
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE (786+787)
+0
+786
+OSTALA PREJETA SREDSTVA IZ PRORAČUNA EVROPSKE UNIJE
+0
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ
+0
+II. SKUPAJ ODHODKI (40+41+42+43)
+5.333.285
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+1.095.725
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+327.083
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+50.186
+402
+IZDATKI ZA BLAGO IN STORITVE
+682.638
+403
+PLAČILA DOMAČIH OBRESTI
+8.155
+409
+REZERVE
+27.663
+41
+TEKOČI TRANSFERI (410+411+412+413)
+1.076.629
+410
+SUBVENCIJE
+16.004
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+681.034
+412
+TRANSFERI NEPROFITNIM ORGANIZACIJAM IN USTANOVAM
+48.327
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+331.264
+42
+INVESTICIJSKI ODHODKI (420)
+3.093.693
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+3.093.693
+43
+INVESTICIJSKI TRANSFERI (431+432)
+67.238
+431
+INVESTICIJSKI TRANSFERI PRAVNIM IN FIZIČNIM OSEBAM
+7.500
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+59.738
+III. PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.-II.)
+426.550
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+75
+IV. PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751+752)
+0
+750
+PREJETA VRAČILA DANIH POSOJIL
+0
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+752
+KUPNINE IZ NASLOVA PRIVATIZACIJE
+0
+44
+V. DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+0
+440
+DANA POSOJILA
+0
+441
+POVEČANJE KAPITALSKIH DELEŽEV IN FINANČNIH NALOŽB
+0
+C. RAČUN FINANCIRANJA
+50
+VII. ZADOLŽEVANJE (500)
+0
+500
+DOMAČE ZADOLŽEVANJE
+0
+55
+VIII. ODPLAČILO DOLGA (550)
+95.044
+550
+ODPLAČILO DOMAČEGA DOLGA
+95.044
+IX. SPREMEMBA STANJA SREDSTEV NA RAČUNU (I.+IV.+VII.-II.-V.-VIII.)
+331.506
+X. NETO ZADOLŽEVANJE (VII.-VIII.)
+–95.044
+XI. NETO FINANCIRANJE (VI.+X.-IX.)
+–426.550
+XII. STANJE SREDSTEV NA RAČUNIH NA DAN 31. 12. PRET. LETA
+548.571
+
+2. člen
+
+Zaključni račun proračuna Občine Dobrna za leto 2023 sestavljajo splošni in posebni del.
+
+V splošnem delu je podan podrobnejši prikaz predvidenih in realiziranih prihodkov in odhodkov oziroma prejemkov in izdatkov iz bilance prihodkov in odhodkov, računa finančnih terjatev in naložb ter računa financiranja, v posebnem delu pa prikaz predvidenih in realiziranih odhodkov in drugih izdatkov proračuna Občine Dobrna za leto 2023. Sestavni del zaključnega računa je tudi načrt razvojnih programov, v katerem je podan prikaz podatkov o načrtovanih vrednostih posameznih projektov, njihovih spremembah tekom leta 2023 ter o njihovi realizaciji v tem letu.
+
+3. člen
+
+Realizacija prihodkov in odhodkov proračuna, računa finančnih terjatev in naložb ter računa financiranja, se na ravni podskupin kontov objavi v Uradnem listu Republike Slovenije. Splošni in posebni del ter Načrt razvojnih programov pa se objavijo na spletni strani Občine Dobrna.
+
+Št. 4103-0001/2024-19(5)
+
+Dobrna, dne 27. marca 2024
+
+Župan
+
+Občine Dobrna
+
+Martin Brecl
