@@ -28,6 +28,10 @@ spremembe:
     datum: 2020-04-15
     sop: 2020-01-0785
     naziv: "Zakon o spremembah in dopolnitvi Zakona o referendumu in o ljudski iniciativi"
+  - kratica: ZRLI-F
+    datum: 2024-04-05
+    sop: 2024-01-0828
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o referendumu in o ljudski iniciativi"
 ---
 
 # Zakon o referendumu in o ljudski iniciativi
