@@ -7,6 +7,11 @@ sop: 2017-01-0404
 objava: "Uradni list RS 9/17  str. 1307"
 kljucne_besede: ["tobak"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-0404"
+spremembe:
+  - kratica: ZOUTPI-B
+    datum: 2024-04-09
+    sop: 2024-01-0899
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o omejevanju uporabe tobačnih in povezanih izdelkov"
 ---
 
 # Zakon o omejevanju uporabe tobačnih in povezanih izdelkov
