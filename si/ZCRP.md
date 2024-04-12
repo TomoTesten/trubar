@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-04-13
     sop: 2006-01-1678
     naziv: "Zakon o spremembi in dopolnitvi zakona o centralnem registru prebivalstva"
+  - kratica: ZCRP-B
+    datum: 2024-04-12
+    sop: 2024-01-0916
+    naziv: "Zakon o spremembi Zakona o centralnem registru prebivalstva"
 ---
 
 # Zakon o centralnem registru prebivalstva
