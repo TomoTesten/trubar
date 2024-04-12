@@ -12,6 +12,10 @@ spremembe:
     datum: 2010-02-05
     sop: 2010-01-0253
     naziv: "Zakon o spremembah in dopolnitvah Zakona o javni rabi slovenščine"
+  - kratica: ZJRS-B
+    datum: 2024-04-12
+    sop: 2024-01-0915
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o javni rabi slovenščine"
 ---
 
 # Zakon o javni rabi slovenščine
