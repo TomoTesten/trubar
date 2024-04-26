@@ -32,6 +32,10 @@ spremembe:
     datum: 2019-11-05
     sop: 2019-01-2922
     naziv: "Zakon o spremembah Zakona o spremembah in dopolnitvah Zakona o zdravniški službi"
+  - kratica: ZZdrS-J
+    datum: 2024-04-26
+    sop: 2024-01-1066
+    naziv: "Zakon o spremembi in dopolnitvah Zakona o zdravniški službi"
 ---
 
 # Zakon o zdravniški službi
