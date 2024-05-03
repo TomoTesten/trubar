@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-11-10
     sop: 2006-01-4910
     naziv: "Zakon o spremembah in dopolnitvah zakona o maturi"
+  - kratica: ZMat-B
+    datum: 2024-05-03
+    sop: 2024-01-1255
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o maturi"
 ---
 
 # Zakon o maturi
