@@ -76,6 +76,10 @@ spremembe:
     datum: 2022-11-02
     sop: 2022-01-3402
     naziv: "Zakon o spremembah in dopolnitvah Zakona o sistemu plač v javnem sektorju"
+  - kratica: ZSPJS-AB
+    datum: 2024-05-07
+    sop: 2024-01-1293
+    naziv: "Zakon o spremembi Zakona o sistemu plač v javnem sektorju"
 ---
 
 # Zakon o sistemu plač v javnem sektorju
