@@ -16,6 +16,10 @@ spremembe:
     datum: 2022-11-07
     sop: 2022-02-0040
     naziv: "Zakon o ratifikaciji Sprememb 8. člena Rimskega statuta Mednarodnega kazenskega sodišča, sprejetih v New Yorku 14. decembra 2017 in v Haagu 6. decembra 2019"
+  - kratica: MRSMKS-C
+    datum: 2024-05-07
+    sop: 2024-02-0012
+    naziv: "Zakon o ratifikaciji Spremembe 39. člena Rimskega statuta Mednarodnega kazenskega sodišča, sprejete v New Yorku 13. decembra 2023"
 ---
 
 # Zakon o ratifikaciji Rimskega statuta Mednarodnega kazenskega sodišča
