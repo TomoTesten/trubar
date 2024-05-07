@@ -7,6 +7,11 @@ sop: 2015-01-2871
 objava: "Uradni list RS 74/15  str. 8089"
 kljucne_besede: ["kmetijska skupnost"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-01-2871"
+spremembe:
+  - kratica: ZAgrS-B
+    datum: 2024-05-07
+    sop: 2024-01-1290
+    naziv: "Zakon o spremembi Zakona o spremembah in dopolnitvah Zakona o agrarnih skupnostih"
 ---
 
 # Zakon o agrarnih skupnostih
