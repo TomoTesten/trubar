@@ -12,6 +12,10 @@ spremembe:
     datum: 2023-02-06
     sop: 2023-01-0297
     naziv: "Zakon o spremembi in dopolnitvah Zakona o pomoči gospodarstvu za omilitev posledic energetske krize"
+  - kratica: ZPGOPEK-B
+    datum: 2024-05-07
+    sop: 2024-01-1291
+    naziv: "Zakon o spremembi in dopolnitvah Zakona o pomoči gospodarstvu za omilitev posledic energetske krize"
 ---
 
 # Zakon o pomoči gospodarstvu za omilitev posledic energetske krize
