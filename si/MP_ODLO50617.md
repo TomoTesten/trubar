@@ -1,0 +1,239 @@
+---
+kratica: MP_ODLO50617
+naziv: "Odlok o rebalansu-2 proračuna Občine Kobarid za leto 2024 (ODLO)"
+vrsta: "občinski odlok"
+datum: 2024-05-31
+sop: 2024-01-1544
+organ: "Občina Kobarid"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-1544"
+---
+
+# Odlok o rebalansu-2 proračuna Občine Kobarid za leto 2024 (ODLO)
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 76/08, 79/09, 51/10, 40/12 – ZUJF, 14/15 – ZUUJFO, 11/18 – ZSPDSLS-1, 30/18, 61/20 – ZIUZEOP-A in 80/20 – ZIUOOPE), 29. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 14/13 – popr., 101/13, 55/15 – ZFisP, 96/15 – ZIPRS1617, 13/18, 195/20 – odl. US, 18/23 – ZDU-1O in 76/23) in 18. člena Statuta Občine Kobarid (Uradni list RS, št. 39/16 – uradno prečiščeno besedilo) je Občinski svet Občine Kobarid na 12. redni seji dne 30. 5. 2024 sprejel
+
+O D L O K
+
+o rebalansu-2 proračuna Občine Kobarid za leto 2024
+
+1.
+SPLOŠNA DOLOČBA
+
+1. člen
+
+V Odloku o proračunu Občine Kobarid za leto 2024 (Uradni list RS, št. 42/23) se drugi odstavek 2. člena spremeni tako, da se glasi:
+
+»(2) Splošni del proračuna se na ravni podskupin kontov določa v naslednjih zneskih:
+
+A. BILANCA PRIHODKOV IN ODHODKOV
+v EUR
+Skupina/Podskupina kontov/ Konto/Podkonto
+Proračun leta 2024
+I.
+SKUPAJ PRIHODKI (70+71+72+73+74+78)
+8.747.431,67
+TEKOČI PRIHODKI (70+71)
+6.273.557,26
+70
+DAVČNI PRIHODKI (700+703+704+706)
+4.440.442,00
+700
+DAVKI NA DOHODEK IN DOBIČEK
+3.686.482,00
+703
+DAVKI NA PREMOŽENJE
+249.410,00
+704
+DOMAČI DAVKI NA BLAGO IN STORITVE
+504.550,00
+706
+DRUGI DAVKI
+0,00
+71
+NEDAVČNI PRIHODKI (710+711+712+713+714)
+1.833.115,26
+710
+UDELEŽBA NA DOBIČKU IN DOHODKI OD PREMOŽENJA
+405.802,80
+711
+TAKSE IN PRISTOJBINE
+12.500,00
+712
+DENARNE KAZNI
+52.600,00
+713
+PRIHODKI OD PRODAJE BLAGA IN STORITEV
+1.282.500,00
+714
+DRUGI NEDAVČNI PRIHODKI
+79.712,46
+72
+KAPITALSKI PRIHODKI (720+721+722)
+205.000,00
+720
+PRIHODKI OD PRODAJE OSNOVNIH SREDSTEV
+20.000,00
+722
+PRIHODKI OD PRODAJE ZEMLJIŠČ IN NEOPR. DOLG. SREDSTEV
+185.000,00
+73
+PREJETE DONACIJE (730+731)
+0,00
+730
+PREJETE DONACIJE IZ DOMAČIH VIROV
+0,00
+74
+TRANSFERNI PRIHODKI
+2.188.874,41
+740
+TRANSFERNI PRIHODKI IZ DRUGIH JAVNOFINANČNIH INSTITUCIJ
+1.722.309,93
+741
+PREJETA SREDSTVA IZ DRŽ. PRORAČ. IZ SRED. PRORAČ. EU
+466.564,48
+78
+PREJETA SREDSTVA IZ EVROPSKE UNIJE
+80.000,00
+787
+PREJETA SREDSTVA OD DRUGIH EVROPSKIH INSTITUCIJ
+80.000,00
+II.
+SKUPAJ ODHODKI (40+41+42+43)
+10.238.220,12
+40
+TEKOČI ODHODKI (400+401+402+403+409)
+3.380.490,02
+400
+PLAČE IN DRUGI IZDATKI ZAPOSLENIM
+1.091.968,00
+401
+PRISPEVKI DELODAJALCEV ZA SOCIALNO VARNOST
+170.657,00
+402
+IZDATKI ZA BLAGO IN STORITVE
+1.984.567,79
+403
+PLAČILA DOMAČIH OBRESTI
+68.000,00
+409
+SREDSTVA, IZLOČENA V REZERVE
+65.297,23
+41
+TEKOČI TRANSFERI (410+411+412+413)
+2.473.642,57
+410
+SUBVENCIJE
+195.800,00
+411
+TRANSFERI POSAMEZNIKOM IN GOSPODINJSTVOM
+1.114.324,54
+412
+TRANSFERI NEPROFITNIM ORGANIZAC. IN USTANOVAM
+224.782,00
+413
+DRUGI TEKOČI DOMAČI TRANSFERI
+938.736,03
+42
+INVESTICIJSKI ODHODKI (420)
+4.247.776,53
+420
+NAKUP IN GRADNJA OSNOVNIH SREDSTEV
+4.247.776,53
+43
+INVESTICIJSKI TRANSFERI (431+432)
+136.311,00
+431
+INVES. TRANSF. PRAV. IN FIZ. OSEBAM, KI NISO PR. POR.
+49.000,00
+432
+INVESTICIJSKI TRANSFERI PRORAČUNSKIM UPORABNIKOM
+87.311,00
+III.
+PRORAČUNSKI PRESEŽEK (PRIMANJKLJAJ) (I.-II.) (prih.-odhod.)
+–1.490.788,45
+B. RAČUN FINANČNIH TERJATEV IN NALOŽB
+IV.
+PREJETA VRAČILA DANIH POSOJIL IN PRODAJA KAPITALSKIH DELEŽEV (750+751)
+0,00
+750
+PREJETA VRAČILA DANIH POSOJIL
+0,00
+751
+PRODAJA KAPITALSKIH DELEŽEV
+0
+V.
+DANA POSOJILA IN POVEČANJE KAPITALSKIH DELEŽEV (440+441)
+0,00
+441
+POVEČANJE KAPITALSKIH DELEŽEV
+0,00
+442
+PORABA SREDSTEV KUPNIN IZ NASLOVA PRIVATIZACIJE
+0,00
+VI.
+PREJETA MINUS DANA POSOJILA IN SPREM. KAPITAL. DELEŽEV (IV.-V.)
+0,00
+C. RAČUN FINANCIRANJA
+VII.
+ZADOLŽEVANJE (500)
+1.337.000,00
+500
+DOMAČE ZADOLŽEVANJE
+1.337.000,00
+VIII.
+ODPLAČILA DOLGA (550)
+188.122,60
+550
+ODPLAČILA DOMAČEGA DOLGA
+188.122,60
+IX.
+POVEČANJE (ZMANJŠANJE SREDSTEV NA RAČUNIH)
+–341.911,05
+X.
+NETO ZADOLŽEVANJE (VII.-VIII.)
+1.148.877,40
+XI.
+NETO FINANCIRANJE
+1.490.788,45
+XII.
+STANJE SREDSTEV NA RAČUNIH DNE 31. 12. PRETEKLEGA LETA
+9009 Splošni sklad za drugo
+341.911,05
+
+«
+
+2. člen
+
+V 3. členu se doda drugi odstavek, ki se glasi:
+
+»(2) S tem odlokom se določi, da za plačevanje obveznosti občine in krajevnih skupnosti velja plačilni rok 30 dni od datuma prejema računa ali zahtevka za plačilo.«
+
+3. člen
+
+Spremeni se drugi odstavek 9. člena tako, da se glasi:
+
+»(2) Proračunska rezerva se v letu 2024 oblikuje v višini 55.297,23 EUR.«
+
+4. člen
+
+Spremeni se 14. člen tako, da se glasi:
+
+»(1) Občina Kobarid se bo v letu 2024 zadolžila pri poslovnih bankah v državi v višini 1.337.000,00 EUR.
+
+(2) Za potrebe upravljanja občinskega dolga (odplačila obstoječih posojil) se v letu 2024 nameni 188.122,60 evrov.«
+
+5. člen
+
+Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 410-22/2022
+
+Kobarid, dne 30. maja 2024
+
+Župan
+
+Občine Kobarid
+
+Marko Matajurc
