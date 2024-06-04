@@ -24,6 +24,10 @@ spremembe:
     datum: 2007-06-12
     sop: 2007-01-2780
     naziv: "Zakon o spremembah in dopolnitvah zakona o obveznih zavarovanjih v prometu"
+  - kratica: ZOZP-E
+    datum: 2024-06-04
+    sop: 2024-01-1561
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o obveznih zavarovanjih v prometu"
 ---
 
 # Zakon o obveznih zavarovanjih v prometu
