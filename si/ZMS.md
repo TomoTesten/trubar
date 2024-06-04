@@ -12,6 +12,10 @@ spremembe:
     datum: 2010-05-28
     sop: 2010-01-2103
     naziv: "Zakon o spremembah in dopolnitvah Zakona o mladinskih svetih"
+  - kratica: ZMS-B
+    datum: 2024-06-04
+    sop: 2024-01-1560
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o mladinskih svetih"
 ---
 
 # Zakon o mladinskih svetih
