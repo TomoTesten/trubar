@@ -2,11 +2,11 @@
 kratica: ANJP34
 naziv: "Akt o spremembah in dopolnitvi Akta o metodologiji za določitev regulativnega okvira za elektrooperaterje"
 vrsta: "akt"
-datum: 2024-06-28
+datum: 2024-07-01
 sop: 2024-01-1925
-organ: "Agencija za energijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-1925"
 ---
 

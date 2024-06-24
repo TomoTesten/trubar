@@ -2,11 +2,11 @@
 kratica: ANJP37
 naziv: "Pravilnik o zakupu kmetij in kmetijskih zemljišč"
 vrsta: "akt"
-datum: 2024-06-21
+datum: 2024-06-24
 sop: 2024-01-1813
-organ: "Sklad kmetijskih zemljišč in gozdov Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-1813"
 ---
 

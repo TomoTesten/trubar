@@ -2,11 +2,11 @@
 kratica: ANJP35
 naziv: "Akt o spremembah Akta o določitvi tarifnih postavk za omrežnine elektrooperaterjev"
 vrsta: "akt"
-datum: 2024-06-21
+datum: 2024-06-24
 sop: 2024-01-1815
-organ: "Agencija za energijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-1815"
 ---
 

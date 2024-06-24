@@ -2,11 +2,11 @@
 kratica: ANJP33
 naziv: "Poročilo o gibanju plač za april 2024"
 vrsta: "akt"
-datum: 2024-06-28
+datum: 2024-07-01
 sop: 2024-01-1846
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-1846"
 ---
 
