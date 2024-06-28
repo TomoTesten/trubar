@@ -60,6 +60,10 @@ spremembe:
     datum: 2020-12-29
     sop: 2020-01-3630
     naziv: "Zakon o spremembah in dopolnitvah Zakona o kazenskem postopku"
+  - kratica: ZKP-P
+    datum: 2024-06-28
+    sop: 2024-01-1818
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o kazenskem postopku"
 ---
 
 # Zakon o kazenskem postopku
