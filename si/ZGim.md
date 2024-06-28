@@ -20,6 +20,10 @@ spremembe:
     datum: 2019-07-19
     sop: 2019-01-2180
     naziv: "Zakon o spremembah in dopolnitvah Zakona o gimnazijah"
+  - kratica: ZGim-E
+    datum: 2024-06-28
+    sop: 2024-01-1821
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o gimnazijah"
 ---
 
 # Zakon o gimnazijah
