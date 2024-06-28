@@ -12,6 +12,10 @@ spremembe:
     datum: 2006-06-09
     sop: 2006-01-2540
     naziv: "Zakon o spremembah zakona o glasbenih šolah"
+  - kratica: ZGla-B
+    datum: 2024-06-28
+    sop: 2024-01-1819
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o glasbenih šolah"
 ---
 
 # Zakon o glasbenih šolah
