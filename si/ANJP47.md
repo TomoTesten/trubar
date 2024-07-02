@@ -2,11 +2,11 @@
 kratica: ANJP47
 naziv: "Sklep o razpisu volitev v svet Kmetijsko gozdarske zbornice Slovenije in v svete območnih enot Kmetijsko gozdarske zbornice Slovenije v letu 2024 (uradno prečiščeno besedilo)"
 vrsta: "akt"
-datum: 2024-07-05
+datum: 2024-07-09
 sop: 2024-01-1944
-organ: "Kmetijsko gozdarska zbornica"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-1944"
 ---
 

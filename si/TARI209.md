@@ -2,11 +2,11 @@
 kratica: TARI209
 naziv: "Cenik cestnine za uporabo cestninskih cest"
 vrsta: "akt"
-datum: 2018-03-02
+datum: 2024-07-15
 sop: 2018-01-0654
-organ: "Družba za avtoceste v Republiki Sloveniji"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-0654"
 ---
 

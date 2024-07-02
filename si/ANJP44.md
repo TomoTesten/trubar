@@ -2,11 +2,11 @@
 kratica: ANJP44
 naziv: "Pojasnilo 1 k okviru SRS-jev (2024) – terjatve za vstopni davek na dodano vrednost"
 vrsta: "akt"
-datum: 2024-07-05
+datum: 2024-07-09
 sop: 2024-01-1941
-organ: "Slovenski inštitut za revizijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-1941"
 ---
 

@@ -2,11 +2,11 @@
 kratica: ANJP46
 naziv: "Sklep o spremembah Sklepa o razpisu volitev v svet Kmetijsko gozdarske zbornice Slovenije in v svete območnih enot Kmetijsko gozdarske zbornice Slovenije v letu 2024"
 vrsta: "akt"
-datum: 2024-07-05
+datum: 2024-07-08
 sop: 2024-01-1943
-organ: "Kmetijsko gozdarska zbornica"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-1943"
 ---
 

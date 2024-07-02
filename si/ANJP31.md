@@ -2,11 +2,11 @@
 kratica: ANJP31
 naziv: "Sklep o obrazcih za vložitev vloge za dostop do virtualne podatkovne sobe"
 vrsta: "akt"
-datum: 2024-07-05
+datum: 2024-07-08
 sop: 2024-01-1940
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-1940"
 ---
 

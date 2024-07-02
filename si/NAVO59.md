@@ -2,10 +2,11 @@
 kratica: NAVO59
 naziv: "Pravilnik za izvajanje preventivnega zdravstvenega varstva na primarni ravni"
 vrsta: "navodilo"
-datum: 1998-03-12
+datum: 2024-07-04
 sop: 1998-01-0807
-organ: "Ministrstvo za zdravstvo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0807"
 ---
 

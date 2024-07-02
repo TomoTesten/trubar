@@ -2,11 +2,11 @@
 kratica: KOLP676
 naziv: "Stavkovni sporazum o načinu reševanja stavkovnih zahtev"
 vrsta: "akt"
-datum: 2024-07-05
+datum: 2024-07-08
 sop: 2024-01-1990
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-1990"
 ---
 
