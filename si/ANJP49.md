@@ -2,11 +2,11 @@
 kratica: ANJP49
 naziv: "Operativno-tehnična zahteva o določitvi območij obvezne uporabe odzivnika (TMZ) in območij obvezne uporabe radijske zveze (RMZ)"
 vrsta: "akt"
-datum: 2024-07-12
+datum: 2024-07-17
 sop: 2024-01-2005
-organ: "Javna agencija za civilno letalstvo Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2005"
 ---
 

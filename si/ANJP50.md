@@ -2,11 +2,11 @@
 kratica: ANJP50
 naziv: "Zastopniška tarifa o pravnih storitvah"
 vrsta: "akt"
-datum: 2024-07-12
+datum: 2024-07-17
 sop: 2024-01-2008
-organ: "Združenje slovenskih zastopnikov za intelektualno lastnino"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2008"
 ---
 

@@ -2,11 +2,11 @@
 kratica: ANJP30
 naziv: "Spremembe Cenika cestnine za uporabo cestninskih cest"
 vrsta: "akt"
-datum: 2024-07-12
+datum: 2024-07-17
 sop: 2024-01-2006
-organ: "Družba za avtoceste v Republiki Sloveniji"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2006"
 ---
 

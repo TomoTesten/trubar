@@ -2,11 +2,11 @@
 kratica: ANJP32
 naziv: "Sklep o sredstvih urada za izplačilo odškodnin v primeru insolventnosti zavarovalnice"
 vrsta: "akt"
-datum: 2024-07-16
+datum: 2024-07-17
 sop: 2024-01-2070
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2070"
 ---
 
