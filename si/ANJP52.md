@@ -2,11 +2,11 @@
 kratica: ANJP52
 naziv: "Pravilnik o načinu prijavljanja in odjavljanja sprejemnikov ter o načinu plačevanja prispevka za izvajanje dejavnosti Radiotelevizije Slovenija"
 vrsta: "akt"
-datum: 2024-07-19
+datum: 2024-07-22
 sop: 2024-01-2093
-organ: "Svet RTV Slovenija"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2093"
 ---
 

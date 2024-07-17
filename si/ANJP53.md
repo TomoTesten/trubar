@@ -2,11 +2,11 @@
 kratica: ANJP53
 naziv: "Pravilnik o spremembah in dopolnitvah Pravilnika o napredovanju v plačne razrede na Univerzi na Primorskem"
 vrsta: "akt"
-datum: 2024-07-19
+datum: 2024-07-22
 sop: 2024-01-2094
-organ: "Univerza na Primorskem"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2094"
 ---
 
