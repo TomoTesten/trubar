@@ -2,11 +2,11 @@
 kratica: ANJP69
 naziv: "Spremembe Tarife o taksah in nadomestilih"
 vrsta: "akt"
-datum: 2024-09-13
+datum: 2024-09-16
 sop: 2024-01-2349
-organ: "Slovenski inštitut za revizijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2349"
 ---
 

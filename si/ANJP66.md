@@ -2,11 +2,11 @@
 kratica: ANJP66
 naziv: "Tarifa o pravnih storitvah"
 vrsta: "akt"
-datum: 2024-09-06
+datum: 2024-09-09
 sop: 2024-01-2306
-organ: "PATENTNA PISARNA družba za zastopanje in svetovanje s področja intelektualne lastnine d.o.o."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2306"
 ---
 

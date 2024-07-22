@@ -2,11 +2,11 @@
 kratica: ANJP61
 naziv: "Sklep o uporabi smernic ESMA za standardne obrazce, oblike in predloge, s katerimi je mogoče zaprositi za dovoljenje za upravljanje tržne infrastrukture na podlagi tehnologije razpršene evidence (DLT)"
 vrsta: "akt"
-datum: 2024-09-06
+datum: 2024-09-09
 sop: 2024-01-2304
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2304"
 ---
 
