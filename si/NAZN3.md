@@ -2,11 +2,11 @@
 kratica: NAZN3
 naziv: "Naznanilo o datumu začetka veljavnosti Izvedbene uredbe 2024/1855/EU"
 vrsta: "akt"
-datum: 2024-07-26
+datum: 2024-07-29
 sop: 2024-01-2143
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2143"
 ---
 

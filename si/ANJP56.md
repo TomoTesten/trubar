@@ -2,11 +2,11 @@
 kratica: ANJP56
 naziv: "Spremembe in dopolnitev Pravilnika o merilih in pogojih za uporabo sredstev Fundacije za financiranje invalidskih in humanitarnih organizacij v Republiki Sloveniji"
 vrsta: "akt"
-datum: 2024-07-26
+datum: 2024-07-29
 sop: 2024-01-2147
-organ: "Fundacija za financiranje invalidskih in humanitarnih organizacij v Republiki Sloveniji"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2147"
 ---
 
