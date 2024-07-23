@@ -2,11 +2,11 @@
 kratica: ANJP63
 naziv: "Splošni akt o dokumentaciji za dokazovanje izpolnjevanja pogojev za imenovanje člana upravljalnega organa CDD"
 vrsta: "akt"
-datum: 2024-09-24
+datum: 2024-09-25
 sop: 2024-01-2426
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2426"
 ---
 

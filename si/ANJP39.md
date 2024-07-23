@@ -2,11 +2,11 @@
 kratica: ANJP39
 naziv: "Sistemska obratovalna navodila za distribucijski sistem električne energije"
 vrsta: "akt"
-datum: 2024-09-12
+datum: 2024-09-17
 sop: 2024-01-2339
-organ: "ELES, d.o.o."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2339"
 ---
 

@@ -2,11 +2,11 @@
 kratica: NAZN4
 naziv: "Obvestilo o vzpostavitvi virtualnih podatkovnih sob"
 vrsta: "akt"
-datum: 2024-09-16
+datum: 2024-09-17
 sop: 2024-01-2374
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2374"
 ---
 

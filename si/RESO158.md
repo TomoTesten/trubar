@@ -2,11 +2,11 @@
 kratica: RESO158
 naziv: "Resolucija o nacionalnem programu za kulturo 2024–2031 (ReNPK24–31)"
 vrsta: "akt"
-datum: 2024-07-22
+datum: 2024-07-23
 sop: 2024-01-2119
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2119"
 ---
 

@@ -2,11 +2,11 @@
 kratica: ANJP55
 naziv: "Obvestilo o veljavnosti prvega dopolnila k šesti izdaji slovenskega dodatka k Evropski farmakopeji – Formulariuma Slovenicuma 6.1"
 vrsta: "akt"
-datum: 2024-09-24
+datum: 2024-09-25
 sop: 2024-01-2431
-organ: "Javna agencija Republike Slovenije za zdravila in medicinske pripomočke"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2431"
 ---
 

@@ -2,11 +2,11 @@
 kratica: ANJP15
 naziv: "Spremembe in dopolnitve Pravil obveznega zdravstvenega zavarovanja"
 vrsta: "akt"
-datum: 2024-09-24
+datum: 2024-09-25
 sop: 2024-01-2428
-organ: "Zavod za zdravstveno zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2428"
 ---
 

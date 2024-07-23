@@ -2,11 +2,11 @@
 kratica: NAZN6
 naziv: "Naznanilo o prejetju odločitve Evropske komisije o združljivosti sheme državne pomoči »Nadomestilo za izpad dohodka zaradi oviranega gospodarskega ribolova« z notranjim trgom"
 vrsta: "akt"
-datum: 2024-09-24
+datum: 2024-09-25
 sop: 2024-01-2420
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2420"
 ---
 

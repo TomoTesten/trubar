@@ -2,11 +2,11 @@
 kratica: ANJP62
 naziv: "Splošni akt o dokumentaciji za dokazovanje izpolnjevanja pogojev za imenovanje člana upravljalnega organa borze"
 vrsta: "akt"
-datum: 2024-09-16
+datum: 2024-09-17
 sop: 2024-01-2375
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2375"
 ---
 

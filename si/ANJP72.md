@@ -2,11 +2,11 @@
 kratica: ANJP72
 naziv: "Sprememba in popravki Sklepa o imenovanju volilnih komisij volilnih enot Kmetijsko gozdarske zbornice Slovenije"
 vrsta: "akt"
-datum: 2024-09-20
+datum: 2024-09-23
 sop: 2024-01-2394
-organ: "Kmetijsko gozdarska zbornica"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2394"
 ---
 
