@@ -12,6 +12,10 @@ spremembe:
     datum: 2023-11-20
     sop: 2023-01-3410
     naziv: "Zakon o spremembah in dopolnitvah Zakona o interventnih ukrepih za odpravo posledic poplav in zemeljskih plazov iz avgusta 2023"
+  - kratica: ZIUOPZP-B
+    datum: 2024-07-24
+    sop: 2024-01-2126
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o interventnih ukrepih za odpravo posledic poplav in zemeljskih plazov iz avgusta 2023"
 ---
 
 # Zakon o interventnih ukrepih za odpravo posledic poplav in zemeljskih plazov iz avgusta 2023
