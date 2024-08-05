@@ -2,11 +2,11 @@
 kratica: ANJP59
 naziv: "Tarifa o pravnih storitvah"
 vrsta: "akt"
-datum: 2024-08-23
+datum: 2024-08-26
 sop: 2024-01-2248
-organ: "Zivko Mijatovic &amp; Partners d.o.o."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2248"
 ---
 

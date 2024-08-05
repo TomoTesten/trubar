@@ -2,11 +2,11 @@
 kratica: ANJP19
 naziv: "Splošni akt o spremembah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-5a)"
 vrsta: "akt"
-datum: 2024-08-09
+datum: 2024-08-12
 sop: 2024-01-2217
-organ: "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2217"
 ---
 

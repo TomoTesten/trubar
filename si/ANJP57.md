@@ -4,9 +4,9 @@ naziv: "Zastopniška tarifa o pravnih storitvah"
 vrsta: "akt"
 datum: 2024-08-16
 sop: 2024-01-2235
-organ: "SKOZAR Legal, pravno in poslovno svetovanje, d.o.o"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2235"
 ---
 
