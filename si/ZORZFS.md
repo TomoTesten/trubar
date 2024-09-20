@@ -7,6 +7,11 @@ sop: 2023-01-4011
 objava: "Uradni list RS 131/23  str. 11979"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-4011"
+spremembe:
+  - kratica: ZORZFS-A
+    datum: 2024-09-20
+    sop: 2024-01-2378
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o obnovi, razvoju in zagotavljanju finančnih sredstev"
 ---
 
 # Zakon o obnovi, razvoju in zagotavljanju finančnih sredstev
