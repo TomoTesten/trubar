@@ -2,11 +2,11 @@
 kratica: ANJP25
 naziv: "Akt o prispevkih za zagotavljanje podpor za proizvodnjo električne energije iz obnovljivih virov energije in v soproizvodnji z visokim izkoristkom"
 vrsta: "akt"
-datum: 2024-09-27
+datum: 2024-09-30
 sop: 2024-01-2503
-organ: "Agencija za energijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis, ki se še uporablja"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2503"
 ---
 

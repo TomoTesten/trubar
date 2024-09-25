@@ -2,11 +2,11 @@
 kratica: PLAN24
 naziv: "Poročilo o gibanju plač za julij 2024"
 vrsta: "akt"
-datum: 2024-09-27
+datum: 2024-09-30
 sop: 2024-01-2456
-organ: "Statistični urad Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2456"
 ---
 

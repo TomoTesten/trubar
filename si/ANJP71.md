@@ -2,11 +2,11 @@
 kratica: ANJP71
 naziv: "Sklep o uporabi Smernic Evropskega bančnega organa o uporabi preskusa kapitala skupine za skupine investicijskih podjetij v skladu z 8. členom Uredbe (EU) 2033/2019"
 vrsta: "akt"
-datum: 2024-10-02
+datum: 2024-10-03
 sop: 2024-01-2509
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2509"
 ---
 

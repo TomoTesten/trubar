@@ -2,11 +2,11 @@
 kratica: TARI199
 naziv: "Tarifa za izvajanje storitev Javne agencije za civilno letalstvo Republike Slovenije"
 vrsta: "akt"
-datum: 2017-07-14
+datum: 2024-09-25
 sop: 2017-01-1948
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-1948"
 ---
 
