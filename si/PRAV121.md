@@ -2,11 +2,11 @@
 kratica: PRAV121
 naziv: "Pravilnik o vrsti, obsegu in načinu analiznega, farmakološko-toksikološkega in kliničnega preskušanja zdravil za uporabo v veterinarski medicini"
 vrsta: "pravilnik"
-datum: 2004-03-25
+datum: 2024-11-04
 sop: 2004-01-1243
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1243"
 ---
 

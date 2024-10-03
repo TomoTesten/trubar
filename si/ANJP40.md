@@ -2,11 +2,11 @@
 kratica: ANJP40
 naziv: "Splošni akt o raziskovalnih nazivih"
 vrsta: "akt"
-datum: 2024-10-25
+datum: 2024-10-28
 sop: 2024-01-2763
-organ: "Javna agencija za znanstvenoraziskovalno in inovacijsko dejavnost Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2763"
 ---
 

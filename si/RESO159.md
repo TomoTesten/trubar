@@ -2,11 +2,11 @@
 kratica: RESO159
 naziv: "Resolucija o nacionalnem programu varstva pred naravnimi in drugimi nesrečami v letih od 2024 do 2030 (ReNPVNDN24–30)"
 vrsta: "akt"
-datum: 2024-10-30
+datum: 2024-11-05
 sop: 2024-01-2818
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2818"
 ---
 

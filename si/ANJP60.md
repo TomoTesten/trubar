@@ -2,11 +2,11 @@
 kratica: ANJP60
 naziv: "Splošni akt o spremembah in dopolnitvah Splošnega akta o postopkih (so)financiranja in ocenjevanja ter spremljanju izvajanja znanstvenoraziskovalne dejavnosti"
 vrsta: "akt"
-datum: 2024-10-25
+datum: 2024-10-28
 sop: 2024-01-2764
-organ: "Javna agencija za znanstvenoraziskovalno in inovacijsko dejavnost Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2764"
 ---
 
