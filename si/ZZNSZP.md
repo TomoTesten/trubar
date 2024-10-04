@@ -16,6 +16,10 @@ spremembe:
     datum: 2009-12-28
     sop: 2009-01-4928
     naziv: "Zakon o spremembah in dopolnitvah Zakona o zagotavljanju navigacijskih služb zračnega prometa"
+  - kratica: ZZNSZP-C
+    datum: 2024-10-04
+    sop: 2024-01-2519
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o zagotavljanju navigacijskih služb zračnega prometa"
 ---
 
 # Zakon o zagotavljanju navigacijskih služb zračnega prometa
