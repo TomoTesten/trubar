@@ -2,11 +2,11 @@
 kratica: STAT60
 naziv: "Statut Zavoda za zdravstveno zavarovanje Slovenije"
 vrsta: "akt"
-datum: 2001-11-08
+datum: 2024-10-22
 sop: 2001-01-4452
-organ: "Zavod za zdravstveno zavarovanje Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4452"
 ---
 

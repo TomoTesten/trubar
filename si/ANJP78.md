@@ -2,11 +2,11 @@
 kratica: ANJP78
 naziv: "Pravila o vsebini in obliki diplom Univerze v Novi Gorici"
 vrsta: "akt"
-datum: 2024-10-18
+datum: 2024-10-21
 sop: 2024-01-2692
-organ: "Univerza v Novi Gorici"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2692"
 ---
 

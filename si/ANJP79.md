@@ -2,11 +2,11 @@
 kratica: ANJP79
 naziv: "Skupni sporazum za določitev višine nadomestil za priobčitev javnosti fonogramov na prireditvah v organizaciji mladinskih centrov, ki imajo status organizacije v javnem interesu v mladinskem sektorju"
 vrsta: "akt"
-datum: 2024-10-18
+datum: 2024-10-21
 sop: 2024-01-2693
-organ: "Zavod Mladinska mreža MaMa"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2693"
 ---
 

@@ -2,11 +2,11 @@
 kratica: ANJP76
 naziv: "Sklep o uporabi Smernic Evropskega bančnega organa o ponovni predložitvi preteklih podatkov v skladu z okvirom poročanja organa EBA"
 vrsta: "akt"
-datum: 2024-10-15
+datum: 2024-10-16
 sop: 2024-01-2681
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2681"
 ---
 
