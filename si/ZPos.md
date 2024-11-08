@@ -24,6 +24,10 @@ spremembe:
     datum: 2012-06-26
     sop: 2012-01-2015
     naziv: "Zakon o spremembah in dopolnitvah Zakona o poslancih"
+  - kratica: ZPos-G
+    datum: 2024-11-08
+    sop: 2024-01-2868
+    naziv: "Zakon o dopolnitvi Zakona o poslancih"
 ---
 
 # Zakon o poslancih
