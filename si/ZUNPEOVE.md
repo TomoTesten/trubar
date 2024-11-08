@@ -7,6 +7,11 @@ sop: 2023-01-2478
 objava: "Uradni list RS 78/23  str. 6841"
 kljucne_besede: []
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-2478"
+spremembe:
+  - kratica: ZUNPEOVE-A
+    datum: 2024-11-08
+    sop: 2024-01-2872
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o uvajanju naprav za proizvodnjo električne energije iz obnovljivih virov energije"
 ---
 
 # Zakon o uvajanju naprav za proizvodnjo električne energije iz obnovljivih virov energije
