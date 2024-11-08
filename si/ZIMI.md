@@ -7,6 +7,11 @@ sop: 2010-01-4936
 objava: "Uradni list RS 94/10  str. 14535"
 kljucne_besede: ["invalid", "diskriminacija na podlagi invalidnosti", "enako obravnavanje"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-4936"
+spremembe:
+  - kratica: ZIMI-C
+    datum: 2024-11-08
+    sop: 2024-01-2869
+    naziv: "Zakon o dopolnitvah Zakona o izenačevanju možnosti invalidov"
 ---
 
 # Zakon o izenačevanju možnosti invalidov
