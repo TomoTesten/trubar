@@ -7,6 +7,11 @@ sop: 2002-01-5311
 objava: "Uradni list RS 108/2002  str. 12900"
 kljucne_besede: ["invalid"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5311"
+spremembe:
+  - kratica: ZInvO-A
+    datum: 2024-11-08
+    sop: 2024-01-2870
+    naziv: "Zakon o spremembi Zakona o invalidskih organizacijah"
 ---
 
 # Zakon o invalidskih organizacijah
