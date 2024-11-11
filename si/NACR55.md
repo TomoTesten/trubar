@@ -1,11 +1,12 @@
 ---
 kratica: NACR55
 naziv: "Uredba o izvajanju intervencije naložbe v učinkovito rabo dušikovih gnojil, intervencije naložbe v nakup kmetijske mehanizacije in opreme za optimalno uporabo hranil in trajnostno rabo FFS ter intervencije naložbe v nakup kmetijske mehanizacije in opreme za upravljanje traviščnih habitatov iz strateškega načrta skupne kmetijske politike 2023–2027"
-vrsta: "nacr"
-datum: 2024-11-08
+vrsta: "akt"
+datum: 2024-11-11
 sop: 2024-01-2926
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2926"
 ---
 
