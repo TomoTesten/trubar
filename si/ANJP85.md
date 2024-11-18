@@ -2,11 +2,11 @@
 kratica: ANJP85
 naziv: "Pravilnik o načinu pridobitve dovoljenja za dajanje zagotovil o trajnostnosti v prehodnem obdobju z udeležbo na dodatnem izobraževanju"
 vrsta: "akt"
-datum: 2024-11-15
+datum: 2024-11-18
 sop: 2024-01-2956
-organ: "Agencija za javni nadzor nad revidiranjem"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2956"
 ---
 
