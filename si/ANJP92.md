@@ -2,11 +2,11 @@
 kratica: ANJP92
 naziv: "Navodila za izvedbo licitacije zakupnine"
 vrsta: "akt"
-datum: 2024-11-22
+datum: 2024-11-25
 sop: 2024-01-3035
-organ: "Sklad kmetijskih zemljišč in gozdov Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3035"
 ---
 

@@ -2,11 +2,11 @@
 kratica: OBRA13
 naziv: "Obvezna razlaga 6. člena Pravilnika o zakupu kmetij in kmetijskih zemljišč"
 vrsta: "akt"
-datum: 2024-11-22
+datum: 2024-11-25
 sop: 2024-01-3034
-organ: "Sklad kmetijskih zemljišč in gozdov Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3034"
 ---
 

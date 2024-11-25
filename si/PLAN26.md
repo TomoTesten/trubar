@@ -2,11 +2,11 @@
 kratica: PLAN26
 naziv: "Dogovor o prenovi sistema plač in novih uvrstitvah delovnih mest in nazivov v plačne razrede v zdravstvu, socialnem varstvu in obvezni socialni varnosti"
 vrsta: "akt"
-datum: 2024-11-25
+datum: 2024-11-26
 sop: 2024-01-3082
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3082"
 ---
 

@@ -2,11 +2,11 @@
 kratica: KOLP690
 naziv: "Dogovor o uvrstitvah delovnih mest in nazivov plačnega stebra javnih uslužbencev v raziskovalni dejavnosti, izobraževanju in kulturi"
 vrsta: "akt"
-datum: 2024-11-25
+datum: 2024-11-26
 sop: 2024-01-3083
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3083"
 ---
 

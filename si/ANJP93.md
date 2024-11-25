@@ -2,11 +2,11 @@
 kratica: ANJP93
 naziv: "Kodeks etike v zdravstveni negi Slovenije"
 vrsta: "akt"
-datum: 2024-11-22
+datum: 2024-11-25
 sop: 2024-01-3037
-organ: "Zbornica zdravstvene in babiške nege – Zveza strokovnih društev medicinskih sester, babic in zdravstvenih tehnikov Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3037"
 ---
 
