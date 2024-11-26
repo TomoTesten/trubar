@@ -12,6 +12,10 @@ spremembe:
     datum: 2023-04-03
     sop: 2023-01-1127
     naziv: "Zakon o spremembah in dopolnitvah Zakona o davčnem potrjevanju računov"
+  - kratica: ZDavPR-C
+    datum: 2024-11-26
+    sop: 2024-01-3104
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o davčnem potrjevanju računov"
 ---
 
 # Zakon o davčnem potrjevanju računov
