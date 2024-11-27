@@ -2,11 +2,11 @@
 kratica: ANJP86
 naziv: "Sklep o spremembah in dopolnitvah Sklepa o dodatnem revizijskem pregledu zavarovalnice in dodatnem revizorjevem poročilu"
 vrsta: "akt"
-datum: 2024-11-29
+datum: 2024-12-03
 sop: 2024-01-3151
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3151"
 ---
 

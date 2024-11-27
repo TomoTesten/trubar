@@ -2,11 +2,11 @@
 kratica: ANJP96
 naziv: "Pravilnik o spremembah Pravilnika o vsebini in obliki diplom Univerze v Novem mestu in njenih članic"
 vrsta: "akt"
-datum: 2024-11-29
+datum: 2024-12-02
 sop: 2024-01-3154
-organ: "Univerza v Novem mestu"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3154"
 ---
 

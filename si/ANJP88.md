@@ -2,11 +2,11 @@
 kratica: ANJP88
 naziv: "Sklep o uporabi Smernic Evropskega bančnega organa za določanje skupnih referenčnih parametrov za scenarije stresnih testov, ki jih je treba vključiti v likvidnostne stresne teste iz člena 45(4) Uredbe (EU) 2023/1114"
 vrsta: "akt"
-datum: 2024-12-03
+datum: 2024-12-04
 sop: 2024-01-3210
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3210"
 ---
 
