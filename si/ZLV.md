@@ -40,6 +40,10 @@ spremembe:
     datum: 2012-11-06
     sop: 2012-01-3291
     naziv: "Zakon o spremembah in dopolnitvah Zakona o lokalnih volitvah"
+  - kratica: ZLV-K
+    datum: 2024-12-03
+    sop: 2024-01-3207
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o lokalnih volitvah"
 ---
 
 # Zakon o lokalnih volitvah
