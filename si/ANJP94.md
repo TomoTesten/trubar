@@ -2,11 +2,11 @@
 kratica: ANJP94
 naziv: "Splošni akt o spremembah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
 vrsta: "akt"
-datum: 2024-12-06
+datum: 2024-12-09
 sop: 2024-01-3249
-organ: "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3249"
 ---
 

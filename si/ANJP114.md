@@ -2,11 +2,11 @@
 kratica: ANJP114
 naziv: "Akt o določitvi tarifnih postavk omrežnine za distribucijski sistem zemeljskega plina na geografskem območju občine Žirovnica"
 vrsta: "akt"
-datum: 2024-12-31
+datum: 2025-01-06
 sop: 2024-01-3827
-organ: "ENOS, oskrba s toplo vodo, paro, elektriko in plinom, d.d."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3827"
 ---
 

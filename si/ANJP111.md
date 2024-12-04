@@ -2,11 +2,11 @@
 kratica: ANJP111
 naziv: "Akt o določitvi tarifnih postavk omrežnine za distribucijski sistem zemeljskega plina na geografskem območju Mestne občine Velenje in Občine Šoštanj"
 vrsta: "akt"
-datum: 2024-12-31
+datum: 2025-01-06
 sop: 2024-01-3826
-organ: "Komunalno podjetje Velenje, d.o.o., Velenje"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3826"
 ---
 

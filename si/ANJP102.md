@@ -2,11 +2,11 @@
 kratica: ANJP102
 naziv: "Akt o določitvi tarifnih postavk omrežnine za distribucijski sistem zemeljskega plina na geografskih območjih Mestne občine Maribor in Občin Ruše, Hoče - Slivnica, Šentilj, Miklavž na Dravskem polju in Rače - Fram"
 vrsta: "akt"
-datum: 2024-12-30
+datum: 2025-01-06
 sop: 2024-01-3801
-organ: "Plinarna Maribor d.o.o."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3801"
 ---
 

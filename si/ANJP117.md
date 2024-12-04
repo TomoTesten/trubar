@@ -2,11 +2,11 @@
 kratica: ANJP117
 naziv: "Sklep o določitvi članarine OOZ Ljubljana Vič za leto 2025"
 vrsta: "akt"
-datum: 2025-01-03
+datum: 2025-01-06
 sop: 2025-01-0001
-organ: "Območna obrtna zbornica Ljubljana Vič"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0001"
 ---
 

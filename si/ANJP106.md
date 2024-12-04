@@ -2,11 +2,11 @@
 kratica: ANJP106
 naziv: "Akt o določitvi tarifnih postavk omrežnine zadistribucijsko omrežje zemeljskega plina na geografskem območju Mestne občine Kranj, Občine Naklo in na 1., 2. in 4. ožjem območju Občine Šenčur"
 vrsta: "akt"
-datum: 2024-12-30
+datum: 2025-01-06
 sop: 2024-01-3803
-organ: "DOMPLAN, d.d."
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3803"
 ---
 

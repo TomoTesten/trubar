@@ -2,11 +2,11 @@
 kratica: ANJP99
 naziv: "Akt o določitvi tarifnih postavk omrežnine za distribucijski sistem zemeljskega plina na geografskem območju Občine Tržič, Občine Radovljica, Občine Beltinci, Občine Odranci, Občine Trzin, Občine Mengeš, Občine Domžale, Občine Turnišče, Občine Vodice, Občine Komenda, Občine Slovenska Bistrica, Občine Slovenske Konjice, Občine Gornja Radgona, Občine Cerklje na Gorenjskem, Občine Šenčur – 3. ožje območje, Občine Škofja Loka, Občine Dobrovnik – ožje območje, Občine Idrija, Občine Prevalje, Občine Mežica, Občine Ravne na Koroškem, Občine Dravograd, Občine Muta, Občine Črna – območje Žerjav, Mušenik in Rudarjevo, ter vod, s katerim so ta naselja priključena na distribucijski sistem v Občini Mežica, Občine Šmarje pri Jelšah, Občine Šentjernej, Občine Škocjan, Občine Črenšovci ter Občine Vransko"
 vrsta: "akt"
-datum: 2024-12-31
+datum: 2025-01-06
 sop: 2024-01-3822
-organ: "Petrol d.d., Ljubljana"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3822"
 ---
 

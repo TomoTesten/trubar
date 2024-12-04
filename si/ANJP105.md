@@ -2,11 +2,11 @@
 kratica: ANJP105
 naziv: "Akt o določitvi tarifnih postavk omrežnine za distribucijski sistem zemeljskega plina na geografskem območju Mestne občine Celje"
 vrsta: "akt"
-datum: 2024-12-30
+datum: 2025-01-06
 sop: 2024-01-3802
-organ: "Energetika Celje, javno podjetje, d.o.o., Celje"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3802"
 ---
 
