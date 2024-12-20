@@ -7,6 +7,11 @@ sop: 1993-01-2285
 objava: "Uradni list RS 63/93  str. 3037"
 kljucne_besede: ["parlamentarna preiskava", "parlamentarni nadzor"]
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2285"
+spremembe:
+  - kratica: ZPPre-A
+    datum: 2024-12-20
+    sop: 2024-01-3432
+    naziv: "Zakon o spremembah in dopolnitvah Zakona o parlamentarni preiskavi"
 ---
 
 # Zakon o parlamentarni preiskavi
