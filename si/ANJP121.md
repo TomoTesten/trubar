@@ -2,11 +2,11 @@
 kratica: ANJP121
 naziv: "Sklep o stopnjah, načinih in rokih zbiranja zborničnega prispevka Kmetijsko gozdarske zbornice Slovenije za leto 2025"
 vrsta: "akt"
-datum: 2025-01-10
+datum: 2025-01-13
 sop: 2025-01-0040
-organ: "Kmetijsko gozdarska zbornica"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0040"
 ---
 

@@ -2,11 +2,11 @@
 kratica: ANJP126
 naziv: "Revalorizacija tarif po Skupnem sporazumu za ureditev pogojev uporabe in plačevanja nadomestil iz naslova javne priobčitve fonogramov na področju dejavnosti turističnih kmetij (turizem na kmetiji, ki je gostinska dejavnost)"
 vrsta: "akt"
-datum: 2025-01-10
+datum: 2025-01-14
 sop: 2025-01-0049
-organ: "IPF- Zavod za uveljavljanje pravic izvajalcev in proizvajalcev fonogramov Slovenije (Zavod IPF)"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0049"
 ---
 

@@ -2,11 +2,11 @@
 kratica: ANJP122
 naziv: "Revalorizacija minimalne letne tarife"
 vrsta: "akt"
-datum: 2025-01-10
+datum: 2025-01-14
 sop: 2025-01-0045
-organ: "Združenje SAZAS- Združenje skladateljev in avtorjev za zaščito avtorske pravice Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0045"
 ---
 

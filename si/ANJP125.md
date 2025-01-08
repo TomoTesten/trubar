@@ -2,11 +2,11 @@
 kratica: ANJP125
 naziv: "Revalorizacija tarif po Skupnem sporazumu o pogojih in višini tarife pri uporabi avtorsko varovanih del iz repertoarja IPF, k.o. za področje trgovskih centrov, blagovnih centrov, prodajaln, tržnic in bencinskih črpalk"
 vrsta: "akt"
-datum: 2025-01-10
+datum: 2025-01-13
 sop: 2025-01-0048
-organ: "IPF- Zavod za uveljavljanje pravic izvajalcev in proizvajalcev fonogramov Slovenije (Zavod IPF)"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0048"
 ---
 

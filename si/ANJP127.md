@@ -2,11 +2,11 @@
 kratica: ANJP127
 naziv: "Revalorizacija tarif v Tarifi Zavoda IPF za javno priobčitev fonogramov"
 vrsta: "akt"
-datum: 2025-01-10
+datum: 2025-01-13
 sop: 2025-01-0050
-organ: "IPF- Zavod za uveljavljanje pravic izvajalcev in proizvajalcev fonogramov Slovenije (Zavod IPF)"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0050"
 ---
 

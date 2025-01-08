@@ -2,11 +2,11 @@
 kratica: ANJP131
 naziv: "Revalorizacija tarif po Skupnem sporazumu za določitev pogojev in višine nadomestil za uporabo fonogramov pri retransmisiji radijskih in televizijskih programov s strani kabelskih in IPTV operaterjev"
 vrsta: "akt"
-datum: 2025-01-10
+datum: 2025-01-13
 sop: 2025-01-0054
-organ: "IPF- Zavod za uveljavljanje pravic izvajalcev in proizvajalcev fonogramov Slovenije (Zavod IPF)"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0054"
 ---
 

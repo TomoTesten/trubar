@@ -2,11 +2,11 @@
 kratica: ANJP132
 naziv: "Revalorizacija tarif po Tarifi o pogojih in načinih uporabe fonogramov v komercialnih radijskih programih ter o višini nadomestil za njihovo uporabo"
 vrsta: "akt"
-datum: 2025-01-10
+datum: 2025-01-14
 sop: 2025-01-0055
-organ: "IPF- Zavod za uveljavljanje pravic izvajalcev in proizvajalcev fonogramov Slovenije (Zavod IPF)"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0055"
 ---
 

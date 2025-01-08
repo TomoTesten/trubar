@@ -2,11 +2,11 @@
 kratica: ANJP124
 naziv: "Revalorizacija tarif po Skupnem sporazumu za določitev pogojev in višine nadomestil za javno priobčitev fonogramov pri poučevanju plesa v plesnih organizacijah – plesnih šolah, plesnih klubih in drugih podobnih ustanovah in na plesnih tekmovanjih, ki se izvajajo na območju Republike Slovenije"
 vrsta: "akt"
-datum: 2025-01-10
+datum: 2025-01-14
 sop: 2025-01-0047
-organ: "IPF- Zavod za uveljavljanje pravic izvajalcev in proizvajalcev fonogramov Slovenije (Zavod IPF)"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0047"
 ---
 

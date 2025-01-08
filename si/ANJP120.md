@@ -2,11 +2,11 @@
 kratica: ANJP120
 naziv: "Splošni akt o načinu izvajanja zagovorništva otrok, organizaciji zagovorništva, vključitvi otroka v zagovorništvo ter nalogah, sestavi in načinu dela strokovnega sveta – uradno prečiščeno besedilo"
 vrsta: "akt"
-datum: 2025-01-10
+datum: 2025-01-13
 sop: 2025-01-0038
-organ: "Varuh človekovih pravic Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0038"
 ---
 

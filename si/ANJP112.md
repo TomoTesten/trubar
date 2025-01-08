@@ -2,11 +2,11 @@
 kratica: ANJP112
 naziv: "Akt o določitvi tarifnih postavk omrežnine za distribucijski sistem zemeljskega plina na geografskem območju Mestne občine Novo mesto, Občine Litija ter naselja Podkraj v Občini Hrastnik"
 vrsta: "akt"
-datum: 2025-01-10
+datum: 2025-01-14
 sop: 2025-01-0039
-organ: "Istrabenz plini, d.o.o., Koper"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0039"
 ---
 
