@@ -2,11 +2,11 @@
 kratica: STAT82
 naziv: "Statut Univerze na Primorskem"
 vrsta: "akt"
-datum: 2003-07-29
+datum: 2025-01-20
 sop: 2003-01-3580
-organ: "Univerza na Primorskem"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3580"
 ---
 

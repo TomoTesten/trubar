@@ -2,11 +2,11 @@
 kratica: ANJP95
 naziv: "Splošni akt o spremembah in dopolnitvah Splošnega akta o stabilnem financiranju znanstvenoraziskovalne dejavnosti"
 vrsta: "akt"
-datum: 2025-01-17
+datum: 2025-01-20
 sop: 2025-01-0109
-organ: "Javna agencija za znanstvenoraziskovalno in inovacijsko dejavnost Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0109"
 ---
 

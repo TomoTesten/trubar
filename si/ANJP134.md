@@ -2,11 +2,11 @@
 kratica: ANJP134
 naziv: "Priloga k Statutu Univerze na Primorskem"
 vrsta: "akt"
-datum: 2025-01-17
+datum: 2025-01-20
 sop: 2025-01-0111
-organ: "Univerza na Primorskem"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0111"
 ---
 

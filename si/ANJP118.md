@@ -2,11 +2,11 @@
 kratica: ANJP118
 naziv: "Sklep o uporabi Skupnih smernic organov EBA in ESMA o oceni primernosti članov upravljalnega organa izdajateljev žetonov, vezanih na sredstva, in ponudnikov storitev v zvezi s kriptosredstvi ter Skupnih smernic o ocenjevanju primernosti delničarjev ali družbenikov, neposrednih ali posrednih, s kvalificiranimi deleži v izdajateljih ART ali CASP"
 vrsta: "akt"
-datum: 2025-01-24
+datum: 2025-01-27
 sop: 2025-01-0150
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0150"
 ---
 

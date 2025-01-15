@@ -2,11 +2,11 @@
 kratica: ANJP135
 naziv: "Seznam gozdnih semenskih objektov – stanje na dan 1. 1. 2025"
 vrsta: "akt"
-datum: 2025-01-24
+datum: 2025-01-27
 sop: 2025-01-0152
-organ: "Gozdarski inštitut Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0152"
 ---
 
