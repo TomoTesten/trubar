@@ -2,11 +2,11 @@
 kratica: NAZN8
 naziv: "Naznanilo o odobritvi tretje spremembe strateškega načrta skupne kmetijske politike za obdobje 2023–2027"
 vrsta: "akt"
-datum: 2025-02-07
+datum: 2025-02-10
 sop: 2025-01-0252
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0252"
 ---
 

@@ -2,11 +2,11 @@
 kratica: ANJP136
 naziv: "Sklep o uporabi Smernic o načrtih unovčenja v skladu s členoma 47 in 55 Uredbe (EU) 2023/1114"
 vrsta: "akt"
-datum: 2025-02-11
+datum: 2025-02-12
 sop: 2025-01-0311
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0311"
 ---
 

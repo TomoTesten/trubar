@@ -2,11 +2,11 @@
 kratica: NAZN9
 naziv: "Minimalna zajamčena donosnost za obdobje od januarja do decembra 2025"
 vrsta: "akt"
-datum: 2025-02-07
+datum: 2025-02-10
 sop: 2025-01-0251
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0251"
 ---
 
