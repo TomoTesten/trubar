@@ -2,11 +2,11 @@
 kratica: ANJP143
 naziv: "Pravilnik o izvajanju javnih razpisov za odkup slovenskih avdiovizualnih del neodvisnih producentov"
 vrsta: "akt"
-datum: 2025-02-14
+datum: 2025-02-17
 sop: 2025-01-0329
-organ: "Radiotelevizija Slovenija"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0329"
 ---
 

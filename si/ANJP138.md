@@ -4,9 +4,9 @@ naziv: "Splošni akt o obveščanju Agencije za trg vrednostnih papirjev o preno
 vrsta: "akt"
 datum: 2025-02-18
 sop: 2025-01-0359
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0359"
 ---
 

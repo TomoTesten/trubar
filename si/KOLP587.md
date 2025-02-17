@@ -2,11 +2,11 @@
 kratica: KOLP587
 naziv: "Kolektivna pogodba za poštne in kurirske dejavnosti"
 vrsta: "akt"
-datum: 2021-12-24
+datum: 2025-02-18
 sop: 2021-01-4080
-organ: "Gospodarska zbornica Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-4080"
 ---
 
