@@ -2,11 +2,11 @@
 kratica: ANJP146
 naziv: "Pravilnik o pogojih za pridobitev potrdila o strokovnih znanjih za opravljanje nalog pooblaščenega revizorja, potrdila o strokovnih znanjih za opravljanje nalog dajanja zagotovil o trajnostnosti in obveznem praktičnem usposabljanju"
 vrsta: "akt"
-datum: 2025-02-21
+datum: 2025-02-24
 sop: 2025-01-0375
-organ: "Agencija za javni nadzor nad revidiranjem"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0375"
 ---
 

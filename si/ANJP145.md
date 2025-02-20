@@ -2,11 +2,11 @@
 kratica: ANJP145
 naziv: "Pravilnik o stalnem dodatnem strokovnem izobraževanju pooblaščenih revizorjev za podaljšanje dovoljenja za opravljanje nalog pooblaščenega revizorja in dovoljenja za dajanje zagotovil o trajnostnosti"
 vrsta: "akt"
-datum: 2025-02-21
+datum: 2025-02-24
 sop: 2025-01-0376
-organ: "Agencija za javni nadzor nad revidiranjem"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0376"
 ---
 
