@@ -2,10 +2,11 @@
 kratica: URED968
 naziv: "Uredba o oznakah v Slovenski vojski"
 vrsta: "uredba"
-datum: 1995-01-20
+datum: 2025-03-03
 sop: 1995-01-0270
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0270"
 ---
 
