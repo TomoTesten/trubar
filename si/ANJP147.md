@@ -2,11 +2,11 @@
 kratica: ANJP147
 naziv: "Sklep o uporabi Smernic ESMA o primerih, v katerih se šteje, da podjetje iz tretje države pridobiva stranke, ki imajo sedež ali se nahajajo v EU v smislu uredbe o trgih kriptosredstev (MiCA)"
 vrsta: "akt"
-datum: 2025-03-21
+datum: 2025-03-24
 sop: 2025-01-0603
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0603"
 ---
 

@@ -2,11 +2,11 @@
 kratica: ANJP148
 naziv: "Sklep o uporabi Smernic ESMA o postopkih in politikah, vključno s pravicami strank, v okviru storitev prenosa kriptosredstev v skladu z uredbo o trgih kriptosredstev (MiCA) za zaščito vlagateljev"
 vrsta: "akt"
-datum: 2025-03-21
+datum: 2025-03-24
 sop: 2025-01-0604
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0604"
 ---
 
