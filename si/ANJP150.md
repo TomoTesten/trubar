@@ -2,11 +2,11 @@
 kratica: ANJP150
 naziv: "Pravilnik o izvedbi javnega razpisa za sofinanciranje programov in projektov romskih društev"
 vrsta: "akt"
-datum: 2025-03-07
+datum: 2025-03-10
 sop: 2025-01-0501
-organ: "Svet romske skupnosti Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0501"
 ---
 

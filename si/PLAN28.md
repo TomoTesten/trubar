@@ -2,11 +2,11 @@
 kratica: PLAN28
 naziv: "Povprečna letna stopnja davka in prispevkov, ki se obračunavajo in plačujejo od plač v Republiki Sloveniji"
 vrsta: "akt"
-datum: 2025-03-07
+datum: 2025-03-10
 sop: 2025-01-0491
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0491"
 ---
 

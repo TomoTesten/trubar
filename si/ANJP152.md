@@ -2,11 +2,11 @@
 kratica: ANJP152
 naziv: "Pravilnik o izvedbi javnega razpisa za izbiro sofinanciranja radijskih programov, ki jih ustvarjajo pripadniki romskih skupnosti"
 vrsta: "akt"
-datum: 2025-03-07
+datum: 2025-03-10
 sop: 2025-01-0503
-organ: "Svet romske skupnosti Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0503"
 ---
 

@@ -2,11 +2,11 @@
 kratica: ANJP155
 naziv: "Revalorizacija denarnih vrednosti zneskov obračunskih osnov in zneskov nadomestil po Skupnem sporazumu za določitev višine nadomestil za tonsko in/ali vizualno snemanje, ki se vrši pod pogoji privatne ali druge lastne uporabe"
 vrsta: "akt"
-datum: 2025-03-18
+datum: 2025-03-19
 sop: 2025-01-0588
-organ: "Društvo KOPRIVA"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0588"
 ---
 

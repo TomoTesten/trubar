@@ -2,11 +2,11 @@
 kratica: ANJP151
 naziv: "Pravilnik o izvedbi javnega razpisa za izbiro sofinanciranja programa zvez društev, v katere se združujejo pripadniki romske skupnosti"
 vrsta: "akt"
-datum: 2025-03-07
+datum: 2025-03-10
 sop: 2025-01-0502
-organ: "Svet romske skupnosti Republike Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0502"
 ---
 
