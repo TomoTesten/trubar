@@ -2,11 +2,11 @@
 kratica: ANJP142
 naziv: "Akt o spremembi Akta o določitvi tarifnih postavk omrežnine za distribucijski sistem zemeljskega plina na geografskem območju Občine Sežana"
 vrsta: "akt"
-datum: 2025-03-28
+datum: 2025-03-31
 sop: 2025-01-0681
-organ: "Petrol d.d., Ljubljana"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0681"
 ---
 

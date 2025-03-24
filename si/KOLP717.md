@@ -2,11 +2,11 @@
 kratica: KOLP717
 naziv: "Tarifna priloga h Kolektivni pogodbi dejavnosti bančništva Slovenije za obdobje od 1. 4. 2025 do 31. 12. 2025"
 vrsta: "akt"
-datum: 2025-03-28
+datum: 2025-03-31
 sop: 2025-01-0685
-organ: "Združenje bank Slovenije"
-zbirka: "Neveljavni predpisi"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0685"
 ---
 

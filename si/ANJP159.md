@@ -2,11 +2,11 @@
 kratica: ANJP159
 naziv: "Pravilnik o strokovnem izpitu za strokovne delavce na področju socialnega varstva"
 vrsta: "akt"
-datum: 2025-03-28
+datum: 2025-04-01
 sop: 2025-01-0682
-organ: "Socialna zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0682"
 ---
 
