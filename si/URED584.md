@@ -2,10 +2,11 @@
 kratica: URED584
 naziv: "Uredba o ustanovitvi javnega podjetja Rudnik Trbovlje-Hrastnik, d.o.o."
 vrsta: "uredba"
-datum: 1995-07-21
+datum: 2025-06-11
 sop: 1995-01-1989
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1989"
 ---
 

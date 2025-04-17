@@ -2,10 +2,11 @@
 kratica: ODRE148
 naziv: "Pravilnik o načinih ugotavljanja skladnosti za posamezne vrste merilnih instrumentov ter o vrstah in načinih njihove označitve z oznakami skladnosti"
 vrsta: "odredba"
-datum: 2001-09-14
+datum: 2025-04-24
 sop: 2001-01-3876
-organ: "Ministrstvo za šolstvo, znanost in šport"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3876"
 ---
 
