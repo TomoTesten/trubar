@@ -1,0 +1,2611 @@
+---
+kratica: ANJP158
+naziv: "Sistemska obratovalna navodila za prenosni sistem plina"
+vrsta: "akt"
+datum: 2025-06-06
+sop: 2025-01-1595
+organ: "Plinovodi d.o.o."
+zbirka: "Splošni akti za izvrševanje javnih pooblastil"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-1595"
+---
+
+# Sistemska obratovalna navodila za prenosni sistem plina
+
+Na podlagi četrtega odstavka 90. člena in sedmega odstavka 120. člena Zakona o oskrbi s plini (Uradni list RS, št. 204/21 in 121/22), v skladu z Aktom o obvezni vsebini sistemskih obratovalnih navodil za prenosni sistem zemeljskega plina (Uradni list RS, št. 17/15, 66/17 in 204/21 – ZOP) ter po pridobitvi soglasja Sveta Agencije za energijo št. 112-20/2024/6 z dne 17. 4. 2025 operater prenosnega sistema, družba PLINOVODI d.o.o., izdaja
+
+S I S T E M S K A   O B R A T O V A L N A    N A V O D I L A
+
+za prenosni sistem plina
+
+I. SPLOŠNE DOLOČBE
+
+1. člen
+
+(vsebina akta)
+
+(1) Ta akt ureja obratovanje in vodenje prenosnega sistema plina iz 2. člena tega akta (v nadaljnjem besedilu: prenosni sistem).
+
+(2) S tem aktom se določajo:
+
+– tehnični in drugi pogoji za varno obratovanje prenosnega sistema z namenom zanesljive in kakovostne oskrbe s plinom;
+
+– pogoji za priključitev na sistem in način priključitve na sistem;
+
+– način izvajanja dostopa do sistema;
+
+– pravila o delovanju virtualne točke prenosnega sistema;
+
+– način zagotavljanja sistemskih storitev;
+
+– postopki za obratovanje prenosnega sistema v kriznih stanjih;
+
+– splošni pogoji za dobavo in odjem plina s prenosnega sistema;
+
+– tehnični pogoji za medsebojno priključitev in delovanje sistemov različnih operaterjev sistema;
+
+– pogoji izpolnjevanja in vzdrževanja zahtevanih fizikalnih in kemijskih parametrov plina za prevzem v sistem, prenos in oddajo v sistem;
+
+– pravila o izmenjavi podatkov, lastništvu podatkov in odgovornosti za merjenje porabe;
+
+– pravila za izvajanje Uredbe (EU) 2024/1789 Evropskega parlamenta in Sveta z dne 13. junija 2024 o notranjem trgu plina iz obnovljivih virov, zemeljskega plina in vodika, sprememb uredb (EU) št. 1227/2011, (EU) 2017/1938, (EU) 2019/942 in (EU) 2022/869 ter Sklepa (EU) 2017/684 in razveljavitvi Uredbe (ES) št. 715/2009 (prenovitev) (UL L št. 2024/1789 z dne 15. 7. 2024; v nadaljnjem besedilu: Uredba 2024/1789/EU);
+
+– pravila za izvajanje Uredbe Komisije (EU) 2017/459 z dne 16. marca 2017 o oblikovanju kodeksa omrežja za mehanizme za dodeljevanje zmogljivosti v prenosnih sistemih plina in razveljavitvi Uredbe (EU) št. 984/2013 (UL L št. 72 z dne 17. 3. 2017, str. 1; v nadaljnjem besedilu: Uredba 2017/459/EU);
+
+– pravila za izvajanje Uredbe Komisije (EU) št. 312/2014 z dne 26. marca 2014 o vzpostavitvi kodeksa omrežja za izravnavo odstopanj za plin v prenosnih omrežjih (UL L št. 91 z dne 27. 3. 2014; v nadaljnjem besedilu: Uredba 312/2014/EU).
+
+(3) S tem aktom se določajo vloge operaterja prenosnega sistema, uporabnikov prenosnega sistema, operaterjev sistema, ki so povezani s prenosnim sistemom, dobaviteljev plina, končnih odjemalcev plina in drugih oseb, ki so vključene v prenos plina po prenosnem sistemu ali izvajajo transakcije s količinami plina v tem sistemu, uporabljajo storitve operaterja prenosnega sistema v okviru izvajanja gospodarske javne službe dejavnosti operaterja prenosnega sistema plina oziroma izvajajo projektiranje, gradnjo ter vzdrževanje prenosnega sistema.
+
+(4) S tem aktom se urejajo vloge udeležencev na trgu, opredeljene glede na pogodbene dogovore, obveznosti do odjemalcev, izmenjavo podatkov ter pravila glede poravnave, lastništva podatkov in odgovornosti za merjenje porabe.
+
+2. člen
+
+(obseg uporabe akta)
+
+(1) Ta akt se uporablja za vsa pravna razmerja v zvezi s prenosnim sistemom, ki je v lasti družbe Plinovodi d.o.o. kot operaterja prenosnega sistema (v nadaljnjem besedilu: operater prenosnega sistema).
+
+(2) Ta akt se uporablja tudi za prenosni sistem iz prejšnjega odstavka v času, ko pod pogoji iz Zakona o oskrbi s plini (Uradni list RS, št. 204/21 in 121/22; v nadaljnjem besedilu: ZOP) na njem začasno prevzame izvajanje dejavnosti gospodarske javne službe operaterja prenosnega sistema plina drug certificirani operater prenosnega sistema.
+
+3. člen
+
+(pogodbeno urejanje razmerij)
+
+(1) Pogodbe, ki jih sklepa operater prenosnega sistema z osebami iz tretjega odstavka 1. člena tega akta, morajo biti v skladu s predpisi EU, zakonom ali z drugim predpisom, splošnim aktom Agencije za energijo (v nadaljnjem besedilu: Agencija) ter tem aktom.
+
+(2) Če se ta akt sklicuje na drug akt operaterja prenosnega sistema (npr. notranji tehnični normativ, operativna navodila), tak akt zavezuje operaterja prenosnega sistema, druge osebe pa le, če gre za akt, izdan po javnem pooblastilu.
+
+4. člen
+
+(pomen izrazov)
+
+(1) Izrazi v tem aktu imajo naslednji pomen:
+
+– »
+član virtualne točke
+« je pravna ali fizična oseba, ki preko postopka registracije s sklenitvijo pogodbe o članstvu z operaterjem prenosnega sistema pridobi pravice in obveznosti v zvezi s koriščenjem storitev virtualne točke;
+
+– »
+članstvo v virtualni točki
+« je status člana od dneva sklenitve pogodbe o članstvu do prenehanja članstva skladno s tem aktom;
+
+– »
+energija
+« je v enoti (kWh) izražena toplotna energija, ki se sprosti pri zgorevanju plina in se izračuna na podlagi količine in kurilnosti plina;
+
+– »
+kurilnost
+« pomeni zgornjo kurilnost ali zgornjo kalorično vrednost plina, to je množina toplote, ki se sprosti pri popolnem zgorevanju plina z zrakom, kjer voda popolnoma kondenzira. Podaja se v enoti kWh/m
+3
+pri temperaturi zgorevanja 25 °C in pri temperaturi plina 0 °C ter pri standardnem tlaku 1,01325 bar;
+
+– »
+MRP, MP
+« je postaja, kjer se izmeri predana količina plina za enega ali več odjemalcev in je opremljena z napravami ter opremo za čiščenje, merjenje in regulacijo pretoka in tlaka ter merjenje temperature plina;
+
+– »
+nesorazmerni stroški
+« pomenijo stroške, ki jih v zvezi s priključitvijo na prenosni sistem krije uporabnik sistema, in sicer v takšni višini, ki zagotavlja ekonomsko upravičenost investicije v nov priključek;
+
+– »
+normni kubični meter
+« (v nadaljnjem besedilu: Nm
+3
+) pomeni količino plina v volumnu 1 m
+3
+pri absolutnem tlaku 1,01325 bar in temperaturi 0 °C;
+
+– »
+nova tehnična zmogljivost
+« pomeni investicijo v prenosni sistem z izgradnjo nove povezovalne točke ali rekonstrukcijo obstoječih povezovalnih točk tako, da se poveča njihova tehnična zmogljivost;
+
+– »
+oprema MRP, MP, RP
+« je vsa strojna in elektro oprema znotraj gradbenega objekta in pripadajoča ostala oprema zunaj gradbenega objekta do ograje oziroma drugače varovane okolice. Sestavljena je iz vstopnega in izstopnega plinovoda, do ločitvenih zapornih elementov in opreme, ki se uporablja za regulacijo tlaka plina in zaščito pred preseganjem nastavljenega tlaka plina v nadzorovanem procesu, kjer se izmeri predana količina plina za enega ali več odjemalcev;
+
+– »
+pogodbena zmogljivost
+« pomeni zmogljivost, ki jo je operater prenosnega sistema v skladu s pogodbo o prenosu dodelil uporabniku sistema;
+
+– »
+povezovalna točka
+« pomeni mejno vstopno ali mejno izstopno točko, v kateri je prenosni sistem v Republiki Sloveniji povezan s prenosnim sistemom v sosednjih državah;
+
+– »
+priključno mesto
+« pomeni točko na prenosnem sistemu, kjer je oziroma bo priključen plinovod, s katerim upravlja uporabnik;
+
+– »
+priključek
+« pomeni plinovod ali del plinovoda, vključno s potrebnimi zgradbami in opremo MRP ali MP ter sistemom povezanih naprav, ki je namenjen povezavi prenosnega sistema in odjemnega mesta oziroma distribucijskega sistema;
+
+– »
+primarni trg
+« pomeni trg, na katerem operater prenosnega sistema trguje neposredno z zmogljivostjo;
+
+– »
+razpoložljiva zmogljivost
+« pomeni tisti del tehnične zmogljivosti, ki ni dodeljena in je v danem trenutku na razpolago v sistemu;
+
+– »
+sekundarni trg
+« pomeni trg zmogljivosti na posamezni relevantni točki, na katero se nanaša pogodba o prenosu;
+
+– »
+varianta 1
+« pomeni model za zagotavljanje informacij, kjer informacije za nednevno merjene prevzeme in dnevno merjene prevzeme temeljijo na porazdelitvi izmerjenih pretokov v dnevu dobave plina;
+
+– »
+zgradba MRP, MP, RP
+« je gradbeni del objekta, vključno z ograjeno oziroma drugače varovano okolico;
+
+– »
+zmogljivost
+« pomeni največji možni pretok, izražen v energijski enoti (kWh/h).
+
+(2) Drugi izrazi, uporabljeni v tem aktu, pomenijo enako kot izrazi, opredeljeni v ZOP, Energetskem zakonu (Uradni list RS, št. 38/24; v nadaljnjem besedilu: EZ-2) ter Uredbi 2024/1789/EU.
+
+II. OPREDELITEV PRENOSNEGA SISTEMA
+
+1.
+Prenosni sistem
+
+5. člen
+
+(splošna določba)
+
+(1) Prenosni sistem obsega vse prenosno plinovodno omrežje, vključno s skladiščno zmogljivostjo plinovoda, ter vse objekte, s katerimi se opravljajo sistemske storitve.
+
+(2) Prenosni sistem sestavljajo:
+
+– prenosno plinovodno omrežje;
+
+– sistem povezanih naprav;
+
+– sistem vodenja;
+
+– kompresorske postaje;
+
+– regulacijske, merilne in merilno-regulacijske postaje;
+
+– objekti, naprave in oprema za obratovanje, vzdrževanje in upravljanje prenosnega sistema.
+
+(3) Sestavni del prenosnega sistema so tudi stvarne in druge pravice na nepremičninah, potrebne za gradnjo, rekonstrukcijo, obratovanje, nadzor in vzdrževanje objektov, naprav in omrežij iz prejšnjega odstavka.
+
+6. člen
+
+(prenosno plinovodno omrežje in sistem povezanih naprav)
+
+(1) Prenosno plinovodno omrežje sestavljajo:
+
+– plinovodno omrežje, namenjeno izvajanju prenosa plina;
+
+– plinovodno omrežje, ki ne glede na njegovo tlačno stopnjo v skladu z EZ-2 sestavlja prenosni sistem;
+
+– povezovalni plinovodi za povezavo z drugimi prenosnimi sistemi, skladišči plina, napravami za utekočinjeni zemeljski plin (v nadaljnjem besedilu: UZP) in pridobivalnim omrežjem;
+
+– priključki za priključitev uporabnikov sistema;
+
+– drugi plinovodi, ki so funkcionalno del prenosnega sistema in potrebni za njegovo obratovanje.
+
+(2) Sistem povezanih naprav sestavljajo vsi objekti in naprave, povezani s plinovodnim sistemom, ki so potrebni za njegovo obratovanje, vzdrževanje, varovanje in nadzor, kot so premostitve, kanali, oznake plinovodov ter zračne oznake, katodna zaščita, telekomunikacijski vodi ob plinovodnem sistemu, opozorilne naprave, sekcijske zaporne postaje in razdelilne postaje, naprave za kromatografijo ipd.
+
+(3) Mejo med prenosnim plinovodnim sistemom in drugimi omrežji ter napravami določi operater prenosnega sistema z lastniki ali upravljalci teh drugih omrežij in naprav tako, da je zagotovljeno varno in zanesljivo obratovanje, nadzor in vzdrževanje prenosnega sistema, in da v prenosni sistem niso vključeni plinovodi in omrežja, ki za ta namen niso potrebna.
+
+(4) Meja med pridobivalnim omrežjem in prenosnim sistemom je zunanja meja merilno-regulacijske postaje prenosnega sistema.
+
+(5) Meja med prenosnim sistemom in distribucijskim sistemom oziroma med objekti in napravami končnih odjemalcev je praviloma izolacijska prirobnica, ki se nahaja približno 1 m izven merilne oziroma merilno-regulacijske postaje v smeri distribucijskega sistema ali končnega odjemalca na prenosnem sistemu.
+
+7. člen
+
+(sistem vodenja)
+
+Sistem vodenja sestavljajo:
+
+– stavba, del stavbe ali prostori, namenjeni za izvajanje nalog sistema vodenja, skupaj s pomožnimi prostori, vključno z dispečerskim centrom; v primeru dela stavbe ali posameznih prostorov spadajo k sistemu vodenja tudi pripadajoči skupni deli stavbe;
+
+– informacijski sistem za vodenje prenosnega sistema z vso potrebno programsko opremo in podatkovnimi bazami;
+
+– telekomunikacijski sistem za vodenje prenosnega sistema;
+
+– telemetrijski sistem za vodenje prenosnega sistema;
+
+– naprave za zagotavljanje napajanja z električno energijo;
+
+– naprave in postroji za varovanje sistema vodenja;
+
+– vsa potrebna oprema za delovanje sistema vodenja.
+
+8. člen
+
+(postaje)
+
+(1) Kompresorska postaja obsega:
+
+– stavbo ali več stavb, namenjenih vgradnji naprav in postrojev za kompresijo plina v prenosnem sistemu, namestitvi opreme, potrebne za obratovanje in vzdrževanje teh naprav in postrojev ter delu osebja, ki je potrebno za obratovanje in vzdrževanje teh naprav in postrojev, vključno z vsemi priključki in pomožnimi objekti;
+
+– vstopni plinovod do ločitvenega zapornega elementa in izstopni plinovod, vključno z vsemi napeljavami, napravami in elementi plinovoda;
+
+– naprave za zagotavljanje elektroenergetskega napajanja;
+
+– naprave za dvig tlaka plina v prenosnem sistemu;
+
+– naprave za hlajenje plina po izvedenem dvigu tlaka;
+
+– naprave za komprimirani zrak;
+
+– naprave za segrevanje plina;
+
+– terminalne in procesne naprave informacijskega in telekomunikacijskega sistema;
+
+– objekte in naprave za varovanje kompresorske postaje;
+
+– objekte in naprave za zagotavljanje požarne varnosti;
+
+– objekte in naprave za vzdrževanje kompresorske postaje;
+
+– drugo potrebno opremo za obratovanje, vzdrževanje, nadzor in varovanje kompresorske postaje.
+
+(2) Regulacijska postaja obsega:
+
+– stavbo ali več stavb, namenjenih vgradnji naprav in postrojev za regulacijo tlaka plina in zaščito pred preseganjem nastavljenega tlaka plina v nadzorovanem procesu, namestitvi opreme, potrebne za obratovanje in vzdrževanje teh naprav in postrojev ter delu osebja, ki je potrebno za obratovanje in vzdrževanje teh naprav in postrojev, vključno z vsemi priključki in pomožnimi objekti;
+
+– vstopni in izstopni plinovod do ločitvenih zapornih elementov, vključno z vsemi vmesnimi napeljavami in elementi plinovoda;
+
+– naprave za regulacijo tlaka plina;
+
+– naprave za segrevanje plina;
+
+– naprave za zagotavljanje napajanja z električno energijo;
+
+– objekte in opremo za varovanje regulacijske postaje;
+
+– objekte in opremo za zagotavljanje požarne varnosti;
+
+– potrebno opremo za obratovanje in vzdrževanje regulacijske postaje.
+
+(3) Merilno-regulacijska postaja obsega:
+
+– stavbo ali več stavb, namenjeno vgradnji naprav, postrojev in opreme za izmero predane količine plina za enega ali več odjemalcev ter za čiščenje, merjenje in regulacijo pretoka, tlaka in temperature plina, vključno z vsemi priključki in pomožnimi objekti ali
+
+– mobilni objekt ali več mobilnih objektov namenjenih vgradnji naprav, postrojev in opreme za izmero predane količine plina za enega ali več odjemalcev ter za čiščenje, merjenje in regulacijo pretoka, tlaka in temperature plina, vključno z vsemi priključki in pomožnimi objekti;
+
+– vstopni in izstopni plinovod do ločitvenih zapornih elementov in izstopni plinovod do meje med prenosnim sistemom in distribucijskim sistemom oziroma med objekti in napravami končnih odjemalcev;
+
+– naprave za merjenje pretoka in drugih potrebnih parametrov;
+
+– naprave za regulacijo tlaka plina;
+
+– naprave za segrevanje plina;
+
+– naprave za zagotavljanje napajanja z električno energijo;
+
+– objekte in opremo za varovanje regulacijske postaje;
+
+– objekte in opremo za zagotavljanje požarne varnosti;
+
+– potrebno opremo za obratovanje in vzdrževanje merilno-regulacijske postaje.
+
+(4) Merilna postaja obsega:
+
+– stavbo ali več stavb, namenjeno vgradnji naprav, postrojev in opreme za izmero predane količine plina za enega ali več odjemalcev ter za čiščenje plina in merjenje pretoka, tlaka in temperature plina, vključno z vsemi priključki in pomožnimi objekti;
+
+– vstopni in izstopni plinovod do ločitvenih zapornih elementov in izstopni plinovod do meje med prenosnim sistemom in distribucijskim sistemom oziroma med objekti in napravami končnih odjemalcev;
+
+– naprave za merjenje pretoka in drugih potrebnih parametrov;
+
+– naprave za merjenje tlaka plina;
+
+– naprave za segrevanje plina;
+
+– naprave za zagotavljanje napajanja z električno energijo;
+
+– objekte in opremo za varovanje merilne postaje;
+
+– objekte in opremo za zagotavljanje požarne varnosti;
+
+– potrebno opremo za obratovanje in vzdrževanje merilno-regulacijske postaje.
+
+9. člen
+
+(objekti, naprave in oprema za vzdrževanje in opravljanje sistemskih storitev)
+
+Prenosni sistem sestavljajo tudi:
+
+– stavbe, deli stavbe ali prostori, namenjeni za vgradnjo ali shranjevanje naprav in opreme za izvajanje nujnih vzdrževalnih del na prenosnem sistemu in opravljanju sistemskih storitev, izvajanju teh del in osebju za izvajanje teh del (klicni center, prostori za vzdrževalno osebje ipd.), skupaj s pomožnimi prostori; v primeru dela stavbe ali posameznih prostorov spadajo k tem prostorom tudi pripadajoči skupni deli stavbe;
+
+– vgrajene in premične naprave ter oprema, potrebna za izvajanje nujnih vzdrževalnih del na prenosnem sistemu in opravljanju sistemskih storitev;
+
+– vgrajene in premične naprave ter oprema, potrebna za izvajanje nadzora prenosnega sistema;
+
+– informacijski in telekomunikacijski sistemi, naprave in oprema za obveščanje o stanju prenosnega sistema, kolikor niso vključene v prej navedene sestavine prenosnega sistema.
+
+2.
+Pravni status in evidence v zvezi s prenosnim sistemom
+
+10. člen
+
+(pravni status prenosnega sistema)
+
+(1) Vsi objekti, naprave, omrežja, oprema in pravice iz 5., 6., 7., 8., in 9. člena tega akta so prenosni sistem.
+
+(2) Objekti, naprave in omrežja prenosnega sistema, vključno s pripadajočimi pravicami iz tretjega odstavka 5. člena tega akta, so infrastruktura v skladu z EZ-2.
+
+(3) Objekti, naprave in omrežja prenosnega sistema, ki so gospodarska javna infrastruktura, v skladu s predpisi, ki urejajo graditev, sestavljajo energetsko infrastrukturo.
+
+11. člen
+
+(lastništvo prenosnega sistema)
+
+Operater prenosnega sistema mora v skladu z ZOP biti lastnik vseh objektov, naprav, omrežij in opreme ter nosilec vseh potrebnih pravic na stvareh iz 5., 6., 7., 8., in 9. člena tega akta, ki sestavljajo prenosni sistem, s katerim opravlja dejavnost in naloge operaterja prenosnega sistema plina.
+
+12. člen
+
+(evidence v zvezi s prenosnim sistemom)
+
+(1) Operater prenosnega sistema vodi eno ali več evidenc podatkov o tehničnih in lokacijskih značilnostih stvari ter pravnih lastnosti pravic, ki sestavljajo prenosni sistem po 5., 6., 7., 8., in 9. členu tega akta.
+
+(2) Evidence iz prejšnjega odstavka operater prenosnega sistema vodi tako, da omogočajo varno ter zanesljivo obratovanje prenosnega sistema, nadzor prenosnega sistema in varnostnih in varovalnih pasov plinovodov, zagotavljanje podatkov za projektiranje in poseganje v prostor v varnostnem ali varovalnem pasu plinovodov, zagotavljanje podatkov za načrtovanje razvoja prenosnega sistema in njegovega obnavljanja ter zagotavljanje podatkov za izvajanje drugih nalog operaterja prenosnega sistema.
+
+(3) Evidence iz prvega odstavka tega člena morajo biti vodene in oblikovane tako, da omogočajo hkratno vodenje evidenc infrastrukture iz 107. člena EZ-2 in vodenje zbirnega katastra gospodarske javne infrastrukture, ki je del prenosnega sistema.
+
+(4) V zbirni kataster gospodarske javne infrastrukture mora operater prenosnega sistema vnesti vse izdelane geodetske načrte za novogradnje plinovodov, ki bodo postali sestavni del prenosnega sistema in te podatke redno posodabljati.
+
+(5) Operater prenosnega sistema upravlja in vzdržuje enoten informacijski sistem, v katerem se zbirajo in upravljajo podatki, potrebni za delovanje trga s plinom in zagotavljanje zanesljive oskrbe s plinom. Operater prenosnega sistema vsakokrat veljavna pravila za dostop in delovanje enotnega informacijskega sistema po prejetem soglasju Agencije objavi na svoji spletni strani.
+
+(6) Operater prenosnega sistema je bil z odločbo Agencije imenovan kot pripravljavec prognoz v območju izravnave plinskih omrežij Republike Slovenije in prognoziranje ne dnevno merjenih prevzemov uporabnikov omrežja izvaja na podlagi vsakokrat veljavne metodologije, ki je objavljena na spletni strani operaterja prenosnega sistema.
+
+(7) Operater prenosnega sistema obravnava identifikatorje za določitev entitet ter nadzoruje procese izmenjave podatkov skladno z vsakokrat veljavnim aktom, ki ga sprejme Agencija.
+
+III. TEHNIČNI IN DRUGI POGOJI ZA VARNO OBRATOVANJE PRENOSNEGA SISTEMA Z NAMENOM ZANESLJIVE IN KAKOVOSTNE OSKRBE S PLINOM
+
+1.
+Zagotavljanje varnega, zanesljivega in učinkovitega obratovanja prenosnega sistema
+
+13. člen
+
+(splošne obveznosti operaterja prenosnega sistema)
+
+(1) Operater prenosnega sistema zagotavlja varno, zanesljivo in učinkovito obratovanje prenosnega sistema z ustreznim načrtovanjem, gradnjo in vzdrževanjem sistema in druge opreme, s skrbnim upravljanjem in izvajanjem nadzora nad prenosnim sistemom ter nadziranjem vseh posegov v varovalnem pasu plinovodov.
+
+(2) Ne glede na druge določbe tega akta operater prenosnega sistema izvede vse potrebne organizacijske in druge ukrepe, da omogoči čim prejšnje ugotavljanje motenj v obratovanju prenosnega sistema, njihovo odpravo in ukrepe za obratovanje do odprave motenj. Operater prenosnega sistema svojo organiziranost in delovanje opravlja tako, da lahko neprekinjeno sprejema prijave uporabnikov sistema o motnjah pri odjemu plina.
+
+(3) Operater prenosnega sistema in uporabniki sistema so dolžni pri opravljanju svoje dejavnosti s skrbnostjo dobrega gospodarja neprestano skrbeti za največjo mero varnosti obratovanja prenosnega sistema in omrežij, ki so priključena na prenosni sistem, ter energetskih objektov, naprav in napeljav.
+
+(4) Operater prenosnega sistema s priključitvijo objektov, naprav in napeljav odjemalcev plina na prenosni sistem ne prevzema odgovornosti za tehnično brezhibno in varno obratovanje in delovanje teh objektov, naprav in napeljav, ki izhaja iz predloženih uporabnih dovoljenj oziroma ustreznih dokumentov, skladno z določili tega akta.
+
+14. člen
+
+(obveznosti uporabnikov sistema)
+
+(1) Uporabnik prenosnega sistema je dolžan zagotoviti operaterju prenosnega sistema prost dostop do plinovoda, postaj in merilnih naprav, kadar se le-ta nahaja na njegovih nepremičninah.
+
+(2) Uporabnik prenosnega sistema, ki zaradi višje sile, nepredvidenih vzdrževalnih del, motenj na prevzemnem ali predajnem mestu ali drugih razlogov ne more prevzemati oziroma predajati plina v skladu z nominacijo, je ob nastopu takih razmer dolžan o tem takoj obvestiti operaterja prenosnega sistema.
+
+(3) Uporabnik prenosnega sistema je pred začetkom odjema ali oddaje plina dolžan operaterju prenosnega sistema javiti po posameznih odjemnih mestih upravljavce energetskih naprav in dežurne kontaktne osebe, odgovorne za njihovo vzdrževanje, vključno s kontaktnimi podatki. O spremembah teh podatkov je dolžan uporabnik prenosnega sistema nemudoma obvestiti operaterja prenosnega sistema. Na vsak poziv operaterja prenosnega sistema mu je uporabnik prenosnega sistema dolžan po odjemnih mestih posredovati tudi vse podatke, ki jih ta operater potrebuje za pripravo načrta nujnih ukrepov.
+
+15. člen
+
+(ukrepanje v primeru ogroženosti prenosnega sistema)
+
+Operater prenosnega sistema pripravi in izdela navodila v skladu s predpisi, ki urejajo varstvo pred naravnimi in drugimi nesrečami, ter v primeru ogroženosti prenosnega sistema ravna v skladu z njimi.
+
+16. člen
+
+(ukrepanje v primeru poškodb, motenj in okvar)
+
+(1) Operater prenosnega sistema mora nemudoma in v najkrajšem možnem času popraviti in odpraviti vse poškodbe in okvare, ki se pojavijo na prenosnem sistemu.
+
+(2) Informacije o motnjah v delovanju, poškodbah ali okvarah na prenosnem sistemu ter o nenadnih dogodkih, ki vplivajo na delovanje dela ali celotnega prenosnega sistema, mora dispečerski center nemudoma posredovati dežurnim ekipam.
+
+(3) Dispečerski center s pomočjo dežurnih ekip nemudoma izvede vse možne posege na prenosnem sistemu za preprečevanje materialne škode in poškodb ljudi.
+
+(4) Operater prenosnega sistema ima v ustreznem stanju pripravljenosti organizirane in opremljene strokovne operativne ekipe, ki so sposobne izvesti vse potrebne posege za odpravo poškodb oziroma motenj na prenosnem sistemu in organizacijo potrebnih popravil za vzpostavitev uravnoteženega delovanja v najkrajšem možnem času.
+
+(5) Če pride do poškodbe, motnje ali okvare na prenosnem sistemu iz razlogov višje sile ali ravnanja tretjih oseb in ravna operater prenosnega sistema v skladu s tem členom in drugimi predpisi ter splošnimi akti, ni odškodninsko odgovoren zaradi začasne omejitve ali prekinitve prenosa plina, če ni drugih temeljev za obstoj odškodninske odgovornosti po splošnih pravilih obligacijskega prava.
+
+17. člen
+
+(zagotavljanje zanesljive oskrbe s plinom)
+
+(1) Operater prenosnega sistema je dolžan za zagotavljanje zanesljive oskrbe s plinom izvajati vse naloge, ki izhajajo iz Uredbe (EU) 2017/1938 Evropskega parlamenta in Sveta z dne 25. oktobra 2017 o ukrepih za zagotavljanje zanesljivosti oskrbe s plinom in o razveljavitvi Uredbe (EU) št. 994/2010 (UL L št. 280 z dne 28. 10. 2017, str. 1; v nadaljnjem besedilu: Uredba 2017/1938/EU), EZ-2, ZOP in načrtov pristojnega organa Republike Slovenije, pripravljenih na njeni podlagi.
+
+(2) V obdobju, ko je razglašena stopnja izrednih razmer pri oskrbi s plinom, mora operater prenosnega sistema v okviru varnega obratovanja sistema omogočiti prenos za dobavo plina zaščitenim odjemalcem in drugim odjemalcem skladno z načrtom pristojnega organa, ki ureja oskrbo s plinom.
+
+2.
+Postopki za obratovanje prenosnega sistema v kriznih stanjih
+
+18. člen
+
+(obratovanje v kriznih stanjih)
+
+(1) Krizno stanje na prenosnem sistemu je vsak dogodek ali okoliščina, zaradi katere je moteno uravnoteženo obratovanje dela ali celotnega prenosnega sistema, prekinjen prenos ali ustavljena dobava plina.
+
+(2) V primeru kriznih stanj prenosnega sistema ima operater prenosnega sistema pravico in obveznost, da takoj izvede možne tehnične ukrepe, s katerimi prepreči širjenje motenj ter vzpostavi nemoten prenos plina.
+
+(3) Kadar operater prenosnega sistema delno ali v celoti ne izpolni pogodbenih obveznosti zaradi nastopa kriznega stanja, je za čas njenega trajanja prost kakršnekoli odgovornosti do uporabnikov.
+
+(4) V času trajanja kriznega stanja je uporabnik dolžan plačevati uporabo sistema, skladno s splošnim aktom Agencije, ki ureja omrežnino za uporabo prenosnega sistema, uporabnik pa ni dolžan plačevati uporabo sistema, če je krizno stanje posledica višje sile.
+
+(5) O nastanku kriznega stanja je operater prenosnega sistema dolžan nemudoma na najhitrejši način pisno obvestiti prizadete uporabnike prenosnega sistema.
+
+3.
+Nadzor in zavarovanje prenosnega sistema
+
+19. člen
+
+(označevanje plinovodov prenosnega sistema)
+
+(1) Potek plinovoda mora biti nadzemno označen z označevalnimi tablami, oznakami za nadzor trase plinovoda iz zraka ter opozorilnimi tablami.
+
+(2) Pri plinovodih z delovnim tlakom do vključno 16 barov so označene spremembe smeri osi plinovoda z označevalnimi tablami, na katerih morajo biti naslednje oznake:
+
+– številka;
+
+– premer;
+
+– globina in
+
+– odmik plinovoda od postavljenega stebrička.
+
+(3) Pri gradnji je treba plinovodno cev označiti s položitvijo opozorilnega traku z napisom »PLINOVOD« 0,50 m nad plinovodom.
+
+(4) Pri plinovodih z delovnim tlakom nad 16 barov je treba najmanj na vsakih 1000 m ravnega dela visokotlačnega plinovoda ter na vseh izrazitejših spremembah smeri osi plinovoda postaviti stebričke za vertikalno signalizacijo. Ti so praviloma postavljeni na razdalji najmanj 0,80 m od osi plinovodne cevi.
+
+(5) Pri križanjih, kot so ceste, vodotoki, železniški tiri ipd., je treba ne glede na delovni tlak na obeh straneh objekta, ki ga plinovod križa, postaviti označbe ali opozorilne table.
+
+20. člen
+
+(nadzor prenosnega sistema)
+
+(1) Operater prenosnega sistema mora zagotoviti reden nadzor nad objekti in napravami prenosnega sistema ter redno pregledovati plinovode in njihove varnostne pasove.
+
+(2) Operater prenosnega sistema zagotovi fizično varovanje objektov in naprav prenosnega sistema glede na stopnjo njihove ogroženosti, upoštevaje tveganja, katerim so izpostavljeni.
+
+(3) Operater prenosnega sistema podrobneje uredi obveznosti in postopke v zvezi z nadzorom, pregledi in fizičnim varovanjem z internimi navodili.
+
+4.
+Zagotavljanje uravnoteženih obratovalnih razmer v prenosnem sistemu
+
+21. člen
+
+(splošna obveznost operaterja prenosnega sistema)
+
+(1) Operater prenosnega sistema skrbi za uravnotežene obratovalne razmere v prenosnem sistemu.
+
+(2) V okviru tehničnih možnosti je operater prenosnega sistema dolžan izravnavati pretočno-tlačne razmere v prenosnem sistemu tako, da zagotovi varno in zanesljivo obratovanje.
+
+(3) Za potrebe upravljanja prenosnega sistema in obračuna storitev ter ugotavljanja količin plina, ki je bil sprejet v prenosni sistem oziroma predan iz njega, morajo biti na vseh vstopnih in izstopnih točkah ustrezne merilne naprave.
+
+22. člen
+
+(zagotavljanje plina za delovanje sistema)
+
+Za zagotavljanje varnega in zanesljivega obratovanja prenosnega sistema si operater prenosnega sistema zagotovi dobavo plina za pokrivanje lastne rabe po preglednih, nediskriminatornih in tržno zasnovanih postopkih, ob upoštevanju tehničnih zahtev in zahtev glede zanesljivosti dobave plina.
+
+23. člen
+
+(dispečerski center)
+
+(1) Operater prenosnega sistema organizira dispečersko službo, ki izvaja neprekinjeni 24-urni nadzor nad obratovanjem in upravljanjem prenosnega sistema (v nadaljnjem besedilu: dispečerski center).
+
+(2) Nadzor nad obratovanjem in upravljanjem prenosnega sistema se izvaja s pomočjo procesne, merilne, registracijske, telemetrijske in programske opreme, ki omogoča:
+
+– spremljanje procesnih parametrov plina (fizikalnih in kemičnih značilnosti plina, ki so pomembne za prenos plina) in upravljanje prenosnega sistema;
+
+– evidentiranje vstopnih in izstopnih količin ter procesnih parametrov plina v prenosnem sistemu;
+
+– ugotavljanje količin plina v prenosnem sistemu;
+
+– simuliranje in napovedovanje pretočno-tlačnih razmer v prenosnem sistemu;
+
+– ugotavljanje in javljanje kriznih stanj in neuravnoteženih obratovalnih razmer;
+
+– nadzor nad obratovanjem in upravljanje ključnih objektov na prenosnem sistemu kot npr. merilno-regulacijskih postaj, kompresorskih postaj in drugih objektov.
+
+(3) Dispečerski center operaterja prenosnega sistema mora biti na primeren način informacijsko povezan z dispečerskimi centri operaterjev drugih prenosnih sistemov, na katerih sisteme meji oziroma je z njimi povezan sistem operaterja prenosnega sistema. Postopek dela dispečerjev je urejen z internimi navodili za delo operaterja prenosnega sistema.
+
+(4) Vse prejete informacije o motnjah v obratovanju prenosnega sistema oziroma posameznih plinovodnih objektov ali nenavadnih dogodkih se zabeležijo v dispečerski dnevnik in analizirajo. Na podlagi ugotovitev se izvedejo potrebni ukrepi za odpravo motenj in vzpostavitev uravnoteženega obratovanja prenosnega sistema.
+
+24. člen
+
+(koordinacija s sosednjimi sistemi)
+
+(1) Operater prenosnega sistema ima v svojem dispečerskem centru stalno povezavo z operaterji sosednjih prenosnih omrežij za potrebe koordinacije s sosednjimi prenosnimi sistemi.
+
+(2) Pri upravljanju prenosnega sistema operater prenosnega sistema upošteva pogodbena določila pogodb o prenosu z uporabniki prenosnega sistema in bilančnih pogodb z nosilci bilančnih skupin.
+
+5.
+Vzdrževanje prenosnega sistema
+
+25. člen
+
+(splošna obveznost vzdrževanja)
+
+(1) Operater prenosnega sistema je dolžan tekoče vzdrževati prenosni sistem tako, da je ves čas ohranjena njegova funkcionalna in obratovalna usposobljenost in varnost delovanja.
+
+(2) Operater prenosnega sistema je dolžan izvesti dopolnitve prenosnega sistema tako, da vzdržuje objekte in naprave prenosnega sistema s tem, da jih občasno obnovi, zamenja iztrošene sestavne dele oziroma spremeni njihovo konstrukcijo in s tem poveča njihovo vrednost, podaljša dobo obratovanja in izboljša značilnosti obratovanja (investicijsko vzdrževanje).
+
+(3) Operater prenosnega sistema prenosni sistem vzdržuje ob upoštevanju najboljših praks in sodobnih tehnologij, pri tem posebno skrbnost namenja varnosti, zanesljivosti in učinkovitosti naprav za prenos.
+
+(4) Operater prenosnega sistema je dolžan namenjati ustrezno pozornost varstvu okolja ter zagotavljanju ustreznih načinov za izpolnitev okoljskih ciljev.
+
+26. člen
+
+(načrti vzdrževanja)
+
+(1) Operater prenosnega sistema zagotavlja učinkovito vzdrževanje prenosnega sistema z izdelavo letnih načrtov tekočega vzdrževanja s popisom predvidenih del in posegov.
+
+(2) Dopolnitve prenosnega sistema iz drugega odstavka prejšnjega člena izvaja operater prenosnega sistema na podlagi okvirnih dvoletnih načrtov vzdrževalnih del.
+
+(3) Če je zaradi izrednih dogodkov potrebno izvesti določena dela vzdrževanja, se v teku načrtovanega obdobja, takoj po nastanku izrednih dogodkov, načrt vzdrževanja ustrezno spremeni oziroma dopolni.
+
+27. člen
+
+(vzdrževalna dela)
+
+(1) Za zagotovitev varnega in zanesljivega obratovanja prenosnega sistema je operater prenosnega sistema dolžan izvajati načrtovana in druga potrebna vzdrževalna dela.
+
+(2) V primeru motenj ali okvar na prenosnem sistemu, ki vplivajo ali bi lahko vplivale na njegovo varno in zanesljivo obratovanje, operater prenosnega sistema izvede izredna in nepredvidena dela za zagotovitev nemotenega in zanesljivega delovanja prenosnega sistema v najkrajšem možnem času.
+
+(3) Dela iz prvega in drugega odstavka tega člena obsegajo zlasti:
+
+– zaščito pred mehanskimi, električnimi in kemičnimi vplivi;
+
+– preventivne preglede;
+
+– popravila in rekonstrukcije prenosnega sistema;
+
+– vzdrževanje prenosnega sistema;
+
+– nadzor nad trasami in nad aktivnostmi tretjih oseb v varovalnem pasu;
+
+– servisiranje in zamenjave opreme.
+
+(4) Dela iz prejšnjega odstavka, ki povzročijo začasno omejitev ali prekinitev prenosa plina, operater prenosnega sistema izvaja skladno z 58. členom tega akta. O nameravani izvedbi del operater prenosnega sistema obvesti uporabnike v skladu s tretjim odstavkom 95. člena ZOP.
+
+(5) Operater prenosnega sistema ne odgovarja za škodo, ki uporabniku sistema nastane zaradi začasne omejitve ali prekinitve prenosa plina zaradi vzdrževalnih del na sistemu, če ravna v skladu z ZOP in sam ni odgovoren za nastanek razloga za vzdrževalna dela.
+
+28. člen
+
+(predvidena dela na prenosnem sistemu)
+
+(1) Predvidena dela je operater prenosnega sistema dolžan opraviti v času, ki je nujno potreben, da se delo opravi, in izbrati čas, ki čim manj prizadene uporabnike sistema plina. Za izbiro primernega časa lahko operater prenosnega sistema od uporabnikov sistema zahteva podatke o predvideni uporabi prenosnega sistema. Za začasno omejitev ali prekinitev prenosa ali dobave plina, ki je posledica izvedbe teh del, operater prenosnega sistema ni odškodninsko odgovoren.
+
+(2) Operater prenosnega sistema mora o predvideni prekinitvi v pisni obliki pravočasno obvestiti uporabnike iz prejšnjega odstavka. Kot pravočasno obvestilo se šteje obvestilo, poslano uporabnikom sistema najmanj mesec pred začetkom del.
+
+(3) Če je operater prenosnega sistema pozvan, da izvede na prenosnem sistemu določena dela zaradi potreb tretjih oseb, izvede ta dela na njihove stroške, po predhodni presoji upravičenosti zahtevanih del in vpliva predvidenih del na uporabnike. Operater prenosnega sistema o izvedbi del predhodno sklene ustrezen pisni sporazum oziroma pogodbo.
+
+(4) Operater prenosnega sistema začne z deli na zahtevo tretje osebe potem, ko mu je le-ta predložila usklajen dogovor z vsemi prizadetimi uporabniki prenosnega sistema. Če so posledice teh del motnje v delovanju dela ali celotnega prenosnega sistema, nosi stroške odprave motenj in morebitno škodo uporabnikov naročnik teh del.
+
+(5) Izvedbo del lahko operater prenosnega sistema prepusti tudi tretji osebi, kolikor ta oseba dokaže, da ima za izvedbo teh del izbranega usposobljenega izvajalca. Dela se morajo izvajati skladno z operativnimi tehničnimi navodili operaterja prenosnega sistema.
+
+6.
+Tehnične zahteve in smernice za prenosni sistem
+
+29. člen
+
+(splošne določbe)
+
+(1) Pri umeščanju v prostor, projektiranju in graditvi objektov, ki sestavljajo prenosni sistem, kot tudi pri njihovem opremljanju z napravami, operater prenosnega sistema upošteva zadnje stanje tehnike in uporablja najboljše ekonomsko upravičene rešitve in tehnologije, tako da je v največji možni meri zagotovljena varnost, zanesljivost in učinkovitost prenosnega sistema ter zasledovanje ciljev varovanja in izboljševanja okolja.
+
+(2) Operater prenosnega sistema izvede tudi gradnje, rekonstrukcije ali obnove, ki niso predvidene v veljavnem 10-letnem razvojnem načrtu omrežja, če gre za:
+
+– nujno odpravo posledic naravnih ali drugih nesreč ter drugih poškodb prenosnega sistema;
+
+– nujna vzdrževalna dela na prenosnem sistemu;
+
+– dela, ki so potrebna zaradi dovoljenih posegov tretjih oseb v varovalni pas prenosnega sistema;
+
+– dela, ki so potrebna zaradi dovoljene priključitve novih uporabnikov sistema;
+
+– izvedbo investicije, za katero je uporabnik sistema zagotovil pokritje nesorazmernih stroškov;
+
+– izvedbo investicij, ki so potrebne za odpravo lokalnih ozkih grl na prenosnem sistemu.
+
+(3) Operater prenosnega sistema mora kot dober gospodar skleniti zavarovalne pogodbe za zavarovanje tveganj, ki so povezana z izvrševanjem izvajanja dejavnosti operaterja prenosnega sistema. Obseg in vsota zavarovanj morata vključevati vsaj strojelomno in požarno zavarovanje in zavarovanje odgovornosti operaterja prenosnega sistema za neposredno škodo, povzročeno tretjim osebam.
+
+30. člen
+
+(tehnične zahteve)
+
+(1) Operater prenosnega sistema mora projektirati in graditi objekte, ki sestavljajo prenosni sistem, skladno s tehničnimi predpisi, in jih opremljati z napravami, ki izpolnjujejo zahteve teh predpisov.
+
+(2) Pri projektiranju in gradnji prenosnega sistema ter opremljanju objektov z napravami je treba upoštevati rešitve in ukrepe, ki izkazujejo zadnje stanje tehnike, razen če ni s predpisi iz prejšnjega odstavka določeno drugače.
+
+(3) Zadnje stanje tehnike in tehnične predpise iz tega člena morajo upoštevati tudi vse druge osebe, ki projektirajo ali gradijo dele prenosnega sistema.
+
+31. člen
+
+(opustitev dela prenosnega sistema)
+
+(1) Operater prenosnega sistema lahko opusti del prenosnega sistema s tem, da ga preneha uporabljati za izvajanje prenosa plina.
+
+(2) Opustitev dela prenosnega sistema je dopustna:
+
+– če je zaradi iztrošenosti tega dela prenosnega sistema njegovo nadaljnje obratovanje nevarno ali neizvedljivo, pa zaradi nadomestnih zmogljivosti sistema investicijska vlaganja v ta del sistema niso potrebna oziroma ekonomsko upravičena;
+
+– če se na mestu opuščenega plinovoda zgradi nov plinovod, pa je zaradi tega treba dosedanji plinovod opustiti in razgraditi;
+
+– če gre za priključni plinovod ali drug del prenosnega sistema, ki je namenjen le enemu ali več določenih uporabnikov, ki zaradi opustitve priključka ali trajnega odklopa ne odjema oziroma ne odjemajo plina več na zadevnem priključku oziroma priključkih, pa ni pričakovati, da bi na tem priključku ali teh priključkih prišlo do novih priključitev odjemalcev v času, ki bi opravičeval vzdrževanje tega dela prenosnega sistema in ohranjanje njegove obratovalne usposobljenosti;
+
+– če je treba zaradi prestavitve dela prenosnega plinovoda stari del opustiti oziroma fizično odstraniti;
+
+– če iz kakršnegakoli drugega razloga del prenosnega sistema ni več potreben za nemoteno obratovanje prenosnega sistema oziroma za zagotavljanje ustreznih prenosnih zmogljivosti skladno s predpisi, splošnimi akti in pogodbami.
+
+(3) Opustitev dela prenosnega plinovoda operater prenosnega sistema praviloma izvede tako, da ga z ustreznimi tehničnimi ukrepi zavaruje in s tem omogoči njegovo ohranitev ter vzdrževanje.
+
+(4) Operater prenosnega sistema fizično odstrani opuščeni del prenosnega sistema, če ni mogoče pričakovati, da bo opuščeni del tega sistema mogoče spet uporabljati in je to potrebno zaradi izvedbe dopustnih in načrtovanih prostorskih ureditev oziroma zaradi varovanja okolja.
+
+(5) Opuščeni del prenosnega plinovoda, ki se izroči v last in posest investitorju prestavitve prenosnega plinovoda (tretji osebi), ni več sestavni del prenosnega sistema in zanj ni potrebno operaterju prenosnega sistema voditi dokumentacije.
+
+7.
+Posegi v varovalni in varnostni pas plinovoda, ki je del prenosnega sistema
+
+32. člen
+
+(prostorsko načrtovanje v varovalnem pasu prenosnega plinovoda)
+
+(1) Varovalni pas prenosnega plinovoda je zemljišče na obeh straneh plinovoda, ki ga določa zakon ali drug predpis.
+
+(2) Pri pripravi smernic prostorskega načrtovanja operater prenosnega sistema upošteva tehnične zahteve, ki jih določajo predpisi, zahteve iz Priloge 1, ki je sestavni del tega akta, in pri posegih na prenosni sistem plina tudi zadnje stanje tehnike.
+
+(3) Pri pripravi smernic operater prenosnega sistema tudi določi morebitne posebne varnostne ukrepe, ki jih je treba predvideti, skladno s predpisom ministra, ki ureja pogoje poseganja v varovalni pas prenosnega plinovoda.
+
+33. člen
+
+(posegi v prostor v varovalnem in varnostnem pasu prenosnega plinovoda)
+
+(1) Za izvedbo kakršnekoli prostorske ureditve v smislu zakona, ki ureja prostor (v nadaljnjem besedilu: poseg), v območju varovalnega pasu prenosnega plinovoda, mora investitor ali izvajalec dobiti pisno soglasje oziroma mnenje operaterja prenosnega sistema na podlagi predpisa, ki ureja pogoje za posege na območjih varovalnega pasu prenosnega plinovoda.
+
+(2) Pred začetkom projektiranja ali izvajanja posega v prostor je dolžan projektant, izvajalec del ali investitor posega pridobiti potrebne podatke o legi plinovoda iz zbirnega katastra gospodarske javne infrastrukture ali iz evidence infrastrukture operaterja prenosnega sistema. Če projektant, izvajalec del ali investitor novogradnje ne pridobi teh podatkov, odškodninsko odgovarja operaterju prenosnega sistema za nastalo škodo, ki bi nastala pri poseganju v prostor.
+
+(3) Za gradnjo objektov, za katere je treba po predpisih, ki urejajo graditev, pridobiti gradbeno dovoljenje, se mnenje iz prvega odstavka tega člena izda v postopku pridobitve gradbenega dovoljenja. Predmetno mnenje se lahko izda tudi že pred postopkom pridobitve gradbenega dovoljenja, če investitor z vlogo predloži popolno projektno dokumentacijo, ki omogoča izdajo mnenja.
+
+(4) Za gradnjo objektov, za katere ni potrebno pridobiti gradbenega dovoljenja, kot tudi za izvajanje kakršnihkoli drugih prostorskih ureditev, za katere ni potrebna pridobitev gradbenega dovoljenja, mora investitor ali izvajalec pridobiti soglasje iz prvega odstavka tega člena pred začetkom izvajanja del.
+
+(5) Po izvedenem posegu operater prenosnega sistema izda investitorju oziroma izvajalcu del izjavo o izpolnjenih pogojih iz mnenja oziroma soglasja, potem ko ta oseba predloži načrt izvedenih del in geodetski načrt izvedenega posega z vrisanim plinovodom, če so bili pri izvedbi posega izpolnjeni pogoji iz mnenja oziroma soglasja.
+
+(6) Varnostni pas prenosnega plinovoda je zemljišče na obeh straneh plinovoda znotraj varovalnega pasu, ki ga določa zakon ali drug predpis.
+
+(7) V varnostnem pasu se smejo graditi objekti, naprave in napeljave ter izvajati dela le, če je to nujno potrebno za gradnjo, rekonstrukcijo, obratovanje, nadzor ali vzdrževanje prenosnega sistema ali gospodarske javne infrastrukture po predpisih, ki urejajo graditev, oziroma če investitor oziroma izvajalec del pridobi mnenje operaterja prenosnega sistema pred začetkom izvajanja del.
+
+34. člen
+
+(projektni pogoji in mnenje za gradbeno dovoljenje v varovalnem pasu)
+
+(1)
+Na zahtevo investitorja ali izvajalca del določi operater prenosnega sistema projektne pogoje na podlagi predpisov in tehničnih zahtev iz Priloge 1 tega akta.
+
+(2) Če posebni varnostni ukrepi, ki jih je v primeru posega v varovalni pas plinovoda treba predvideti, skladno s predpisom ministra, ki ureja pogoje poseganja v varovalni pas prenosnega plinovoda, niso bili določeni s prostorskim aktom, ki ureja prostor na območju načrtovane gradnje objekta ali drugega posega na podlagi gradbenega dovoljenja, mora v projektnih pogojih biti predvideno tudi, da mora projektna dokumentacije vsebovati izvedbo teh varnostnih ukrepov.
+
+(3) Če je zaradi načrtovane gradnje ali drugega posega, ki se izvaja na podlagi gradbenega dovoljenja, potrebna prestavitev prenosnega sistema, pa to ni že predvideno v prostorskem aktu, ki ureja prostor na območju načrtovane gradnje objekta ali drugega posega na podlagi gradbenega dovoljenja, operater prenosnega sistema v projektnih pogojih določi obveznosti v zvezi s pripravo projektne dokumentacije, ki se nanaša na prestavitev plinovoda skladno s predpisi in tem aktom.
+
+(4) Če izdaja projektnih pogojev za projektiranje objekta ali drugega posega v prostor na podlagi gradbenega dovoljenja po predpisih o graditvi objektov ni zahtevana, operater prenosnega sistema upošteva varnostne ukrepe ali obveznosti s prestavitvijo prenosnega sistema pri odločanju o izdaji soglasja k gradbenemu dovoljenju. Na vlogo investitorja ali projektanta ju lahko operater prenosnega sistema ne glede na obveznost izdaje projektnih pogojev obvesti o zahtevah za projektiranje iz tega člena.
+
+(5) Operater prenosnega sistema lahko izda mnenje le, če je investitor upošteval vse zahteve za projektiranje iz tega člena.
+
+(6) Če je zaradi načrtovane gradnje ali drugega posega, ki se izvaja na podlagi gradbenega dovoljenja, potrebna prestavitev prenosnega sistema, se ta izvede skladno s 36. členom tega akta. V takem primeru izda operater prenosnega sistema eno mnenje za prestavitev in eno za poseg v varovalni pas. Ta določba se uporablja tudi v primeru, ko je treba pridobiti posebno gradbeno dovoljenje za izvedbo varnostnega ukrepa iz drugega odstavka tega člena.
+
+35. člen
+
+(soglasje k drugim posegom v varovalnem pasu prenosnega plinovoda)
+
+(1) Za pridobitev soglasja iz četrtega odstavka 33. člena tega akta mora investitor ali izvajalec del predložiti operaterju prenosnega sistema projekt gradnje ali načrt izvajanja drugih del, ki je dovolj podroben, da je iz njega mogoče ugotoviti, ali bodo pri gradnji tega objekta upoštevane zahteve predpisov in Priloge 1 tega akta in pri posegih na prenosni sistem plina tudi zadnje stanje tehnike. Če projekt ni dovolj podroben, zahteva operater prenosnega sistema njegovo dopolnitev.
+
+(2) Določbe drugega, tretjega, četrtega, petega in šestega odstavka prejšnjega člena se uporabljajo tudi pri odločanju o izdaji soglasja k posegu iz prejšnjega odstavka.
+
+36. člen
+
+(prestavitev prenosnega sistema)
+
+(1) Prestavitev prenosnega sistema je prestavitev prenosnega plinovoda oziroma objekta, ki sestavlja prenosni sistem, skupaj s sistemom povezanih naprav.
+
+(2) Če je zaradi načrtovane gradnje ali drugega posega, za katerega je potrebno pridobiti samostojno gradbeno dovoljenje, potrebna prestavitev prenosnega sistema, mora za to prestavitev v imenu operaterja prenosnega sistema in za svoj račun investitor načrtovane gradnje ali drugega posega pridobiti gradbeno dovoljenje za prestavljeni del prenosnega sistema. Investitor načrtovane gradnje ali drugega posega lahko za prestavitev prenosnega sistema pridobi gradbeno dovoljenje tudi v svojem imenu in za svoj račun, vendar se mora pridobljeno gradbeno dovoljenje prenesti na operaterja prenosnega sistema pred pričetkom izvajanja gradnje prestavitve prenosnega sistema.
+
+(3) Operater prenosnega sistema izda mnenje k prestavitvi prenosnega sistema, ko investitor predloži operaterju prenosnega sistema popolno projektno dokumentacijo in podpisano pogodbo o ureditvi medsebojnih razmerij. Po izdaji mnenja k prestavitvi prenosnega sistema izda operater prenosnega sistema tudi mnenje za poseg v varovalnem pasu, zaradi katerega se prenosni sistem predhodno prestavi.
+
+(4) Investitor iz prejšnjega odstavka mora v imenu operaterja prenosnega sistema in za svoj račun pridobiti vse potrebne stvarne in druge pravice na nepremičninah, na katerih bo zgrajen nadomestni prenosni sistem. Pred zaplinitvijo nadomestnega prenosnega sistema je potrebno zagotoviti, da je v zemljiško knjigo vpisana služnost obratovanja, vzdrževanja in nadzora nadomestnega prenosnega sistema v korist operaterja prenosnega sistema, za čas trajanja prenosnega sistema za vso nadomestno traso prenosnega sistema.
+
+(5) Pred zaplinitvijo nadomestnega prenosnega sistema mora investitor pridobiti in operaterju prenosnega sistema predložiti vso potrebno dokumentacijo, na podlagi katere bo omogočeno obratovanje prenosnega sistema skladno s predpisi takoj po vključitvi nadomestnega prenosnega sistema v obstoječ prenosni sistem, med drugim uporabno dovoljenje prestavljenega dela prenosnega plinovoda (ali zapisnik tehničnega pregleda brez zadržkov za izdajo uporabnega dovoljenja), geodetski posnetek izvedenega stanja in dokazilo o zanesljivosti objekta.
+
+(6) Investitor nadomestnega prenosnega sistema in operater prenosnega sistema v roku 30 dni po zaplinitvi nadomestnega prenosnega sistema skleneta dogovor (primopredajo), s katerim investitor nadomestnega prenosnega sistema brezplačno izroči v last in posest nadomestni prenosni sistem operaterju prenosnega sistema. Operater prenosnega sistema pa investitorju sočasno brezplačno izroči v last in posest tisti del prenosnega sistema, ki je bil nadomeščen z nadomestnim prenosnim sistemom.
+
+(7) Določbe tega člena se smiselno uporabljajo tudi za izvedbo posebnih varnostnih ukrepov, ki jih je v primeru posega v varovalni pas prenosnega plinovoda treba predvideti skladno s predpisom ministra, ki ureja pogoje poseganja v varovalni pas prenosnega plinovoda.
+
+37. člen
+
+(izvajanje del v varovalnem ali varnostnem pasu)
+
+(1) Najmanj 10 dni pred začetkom izvajanja kakršnihkoli del na območju varovalnega pasu prenosnega plinovoda mora investitor ali izvajalec del predložiti operaterju prenosnega sistema:
+
+– pisno prijavo začetka del z navedbo datuma njihovega začetka in predvidene dinamike;
+
+– projekt za izvedbo del s pravnomočnim gradbenim dovoljenjem, če je za izvedbo del potrebno;
+
+– naročilo za nadzor operaterja prenosnega sistema in
+
+– podatke o izvajalcu ter odgovornem vodji del.
+
+(2) Investitor ali izvajalec del mora predložiti operaterju prenosnega sistema v potrditev situacijski prikaz transportnih poti na gradbišče, da zaradi izvajanja prevozov ne bi prišlo do poškodovanja obstoječega prenosnega plinovoda.
+
+(3) Transport preko prenosnega plinovoda izven javnih cest se lahko izvaja le po predhodno zavarovanih prehodih v dogovoru z operaterjem prenosnega sistema ob izvedenih ukrepih zavarovanja plinovoda in skladno s načrtom ureditve gradbišča.
+
+(4) Pred začetkom izvajanja del operater prenosnega sistema zakoliči plinovod, zakoličena trasa pa mora ostati vidno označena v času trajanja del.
+
+(5) V varnostnem pasu prenosnega plinovoda so dovoljena dela le pod neposrednim nadzorom pooblaščenih predstavnikov operaterja prenosnega sistema, pri čemer je treba upoštevati zahteve, določene s predpisi in Prilogo 1 tega akta in pri posegih na prenosni sistem plina tudi zadnje stanje tehnike.
+
+(6) Prejšnji odstavek velja tudi za dela v varnostnem pasu plinovoda, ki niso sestavni del izvajanja posega v prostor, lahko pa vplivajo na varno obratovanje plinovoda.
+
+38. člen
+
+(nedovoljeni posegi v varovalni ali varnostni pas prenosnega plinovoda)
+
+(1) Če operater prenosnega sistema ugotovi, da je prišlo do posega v varovalni oziroma varnostni pas v nasprotju s predpisi ali tem aktom, takoj neposredno prepove izvajanje del v zvezi s tem posegom osebam, ki jih izvajajo, in o tem obvesti državne organe, pristojne za ukrepe v zvezi z nedovoljenimi posegi v prostor in za pregon prekrškov v zvezi s tem.
+
+(2) Enako ravna operater prenosnega sistema, če se sicer dovoljena dela v varovalnem ali varnostnem pasu prenosnega plinovoda izvajajo v nasprotju s projektom za pridobitev gradbenega dovoljenja oziroma projektom za izvedbo del, na katere je operater prenosnega sistema izdal mnenje oziroma soglasje. Prav tako enako ravna operater prenosnega sistema v primeru izvajanja del v nasprotju s potrjenim načrtom gradbišča oziroma prikazom transportnih poti.
+
+(3) V varnostnem pasu prenosnega plinovoda operater prenosnega sistema zagotovi, da se dela ves čas izvajajo pod neposrednim nadzorom pooblaščenih predstavnikov operaterja prenosnega sistema in skladno z navodili teh oseb, pri čemer ravna v skladu s prvim in drugim odstavkom, če izvajalec del ne izvaja del pod neposrednim nadzorom pooblaščenih predstavnikov operaterja prenosnega sistema ali ne ravna v skladu z navodili teh oseb.
+
+39. člen
+
+(stroški posega v varovalni ali varnostni pas prenosnega plinovoda)
+
+(1) Investitor ali izvajalec del v varovalnem pasu prenosnega plinovoda nosi vse stroške, ki jih povzroči operaterju prenosnega sistema z umeščanjem v prostor, načrtovanjem in izvedbo teh del.
+
+(2) Stroški iz prejšnjega odstavka obsegajo neposredne stroške teh del, kot so stroški izvedbe posebnih varnostnih ukrepov ali prestavitve plinovoda, ne glede na to ali jih izvede investitor oziroma izvajalec del ali operater prenosnega sistema, in posredne stroške (npr. obveznosti operaterja prenosnega sistema do tretjih oseb zaradi poseganja v varovalni ali varnostni pas), ki nastanejo operaterju prenosnega sistema v zvezi z deli v varovalnem pasu prenosnega plinovoda.
+
+(3) Stroške v zvezi z deli v varovalnem pasu prenosnega plinovoda sestavljajo tudi vrednost izpihanega plina ter vrednost storitev in del, ki jih izvaja operater prenosnega sistema v zvezi z deli v varovalnem pasu prenosnega plinovoda in brez teh del ne bi bila potrebna, kot so strokovno delo v zvezi s soglasji, nadzor nad izvajanjem del ipd.
+
+(4) Če je za izvedbo posega v varovalnem pasu prenosnega plinovoda potrebno prestaviti plinovod, sestavljajo stroške, ki jih nosi investitor, vsi stroški, povezani s to prestavitvijo, vključno z izpihanim plinom ter vključno z morebitnimi obveznostmi do uporabnikov sistema.
+
+(5) Za plačilo stroškov posega v varovalni ali varnostni pas prenosnega plinovoda skleneta investitor oziroma izvajalec del ter operater prenosnega sistema najkasneje pred izdajo soglasja oziroma mnenja k posegu pogodbo, s katero uredita medsebojna vprašanja v zvezi s plačilom teh stroškov, vključno z ustreznim zavarovanjem obveznosti investitorja oziroma izvajalca del.
+
+(6) Operater prenosnega sistema lahko izda soglasje oziroma mnenje za poseg v varovalnem pasu plinovoda le, če je bila predhodno podpisana pogodba iz prejšnjega odstavka in je ta pogodba stopila v veljavo.
+
+IV. POGOJI ZA PRIKLJUČITEV NA PRENOSNI SISTEM IN NAČIN PRIKLJUČITVE NA PRENOSNI SISTEM
+
+1.
+Odločanje o pravici do priključitve
+
+40. člen
+
+(pravica do priključitve)
+
+(1) Pravico do priključitve na prenosni sistem (v nadaljnjem besedilu: pravica do priključitve) ima vsaka oseba, ki namerava zgraditi objekte in naprave, z uporabo katerih bo postala končni odjemalec plina, operater distribucijskega sistema plina ali drug uporabnik sistema, ki za predajo ali odjem plina potrebuje priključitev svojih objektov in naprav na prenosni sistem, razen če so izpolnjeni pogoji, določeni z zakonom ali drugim predpisom, po katerih sme operater prenosnega sistema priključitev zavrniti.
+
+(2) Pravica do priključitve na določenem priključnem mestu z določenim priključkom se pridobi z dokončnostjo soglasja za priključitev, izvršuje pa se na način, določen v pogodbi o priključitvi.
+
+(3) Pravica do priključitve preneha, če preneha soglasje za priključitev, po sklenitvi pogodbe o priključitvi pa, če preneha veljati ta pogodba.
+
+(4) Pravica do priključitve preneha tudi v trenutku, ko operater prenosnega sistema skladno z zakonom in tem aktom trajno odklopi uporabnika sistema.
+
+(5) Določbe tega akta o priključitvi na prenosni sistem se ne uporabljajo za povezavo dveh ali več prenosnih sistemov plina.
+
+41. člen
+
+(en uporabnik sistema na eno priključno mesto)
+
+(1) Na enem priključnem mestu so lahko priključeni le objekti in naprave enega končnega odjemalca plina ali enega operaterja distribucijskega sistema, razen v primerih, določenih s tem aktom.
+
+(2) Na istem priključnem mestu so lahko priključeni objekti in naprave več uporabnikov sistema, če so do 4. septembra 2004 za to priključno mesto pridobili soglasje za priključitev ali sklenili z operaterjem prenosnega sistema pogodbo o priključitvi ali pogodbo o dostopu do sistema ali če so bili pred tem datumom dejansko že priključeni s tem priključnim mestom.
+
+(3) Če zaradi statusnih sprememb uporabnika priključka ali zaradi pravnega prometa z njegovimi objekti in napravami pride do položaja, da bi novi lastnik oziroma uporabnik teh naprav odjemal plin preko priključnega mesta dosedanjega uporabnika priključka, lahko dosedanji uporabnik priključka zaprosi za pridobitev statusa zaprtega distribucijskega sistema. Če dosedanji uporabnik priključka ne želi zaprositi za pridobitev statusa zaprtega distribucijskega sistema ali tega dovoljenja ne dobi, mora novi lastnik oziroma uporabnik teh objektov in naprav vložiti zahtevo za izdajo soglasja za priključitev za svoje priključno mesto najkasneje v treh mesecih od vpisa statusne spremembe v sodni register oziroma od sklenitve pogodbe, na podlagi katere je pridobil zadevne objekte ali naprave.
+
+(4) Če novi lastnik oziroma uporabnik ne ravna v skladu s prejšnjim odstavkom, ali če mu je soglasje za priključitev dokončno zavrnjeno, mora dosedanji uporabnik priključka onemogočiti novemu lastniku oziroma uporabniku objektov in naprav, da bi odjemal plin preko priključnega mesta dosedanjega uporabnika, sicer ravna operater prenosnega sistema v skladu s pooblastili, ki jih ima za primer, da je končni odjemalec omogočil prek svojih energetskih naprav priključitev energetskih naprav drugih uporabnikov sistema brez soglasja operaterja prenosnega sistema.
+
+42. člen
+
+(zahteva za soglasje)
+
+(1) Operater prenosnega sistema odloča o soglasju za priključitev na zahtevo osebe iz prvega odstavka 40. člena tega akta.
+
+(2) Zahteva mora vsebovati:
+
+– ime oziroma firmo in naslov ter matično oziroma EMŠO številko vlagatelja;
+
+– podatke o napravah, na katerih se bo uporabljal plin;
+
+– želeno priključno mesto in pretočne karakteristike priključka ter predajni tlak;
+
+– največji in najmanjši pretok plina;
+
+– predvideni začetek uporabe priključka;
+
+– obdobje uporabe priključka;
+
+– namen uporabe priključka;
+
+– predviden obseg uporabe priključka po posameznih letih;
+
+– posebnosti odjema ali oddaje plina ter posebnosti tehnologije uporabe plina;
+
+– uporabo nadomestnega goriva;
+
+– soglasje Agencije, če gre za priključitev iz prvega odstavka 59. člena ZOP.
+
+(3) Operater prenosnega sistema objavi vzorec obrazca zahteve na svoji spletni strani.
+
+(4) Če operater prenosnega sistema ugotovi, da se na območju, kjer vlagatelj zahteva nov priključek, izvaja gospodarska javna služba dejavnost operaterja distribucijskega sistema, prekine postopek in napoti vlagatelja, da pridobi odločitev operaterja distribucijskega sistema o zavrnitvi obravnavane priključitve na distribucijski sistem. Ta določba se ne uporablja v postopku odločanja o zahtevi za prenos soglasja za priključitev iz 47. člena tega akta, zahtevi za spremembo uporabnika sistema na priključku iz 56. člena tega akta, zahtevi za spremembo tehničnih značilnosti priključka iz 57. člena tega akta, za novo priključitev na priključnem mestu, kjer je bil prejšnji uporabnik trajno odklopljen, ter v postopku odločanja o zahtevi za priključitev proizvajalca vodika, ki se želi priključiti in v sistem oddajati vodik.
+
+(5) Če v enem letu od vročitve sklepa o prekinitvi postopka vlagatelj ne pridobi odločitve operaterja distribucijskega sistema o zavrnitvi obravnavane priključitve na distribucijski sistem, operater prenosnega sistema zavrže zahtevo za priključitev.
+
+43. člen
+
+(pogoji za izdajo soglasja za priključitev)
+
+(1) Pred izdajo soglasja za priključitev operater prenosnega sistema preveri:
+
+– ali zahteva za izdajo soglasja za priključitev izpolnjuje predpisane tehnične pogoje za priključitev;
+
+– ali bi zaradi zahtevane priključitve prišlo do večjih motenj v delovanju prenosnega sistema;
+
+– ali bi zahtevana priključitev povzročila nastanek nesorazmernih stroškov (ekonomska upravičenost investicije).
+
+(2) Pri presoji pogojev iz druge in tretje alineje prejšnjega odstavka operater prenosnega sistema upošteva stanje prenosnega sistema v času odločanja o zahtevi za izdajo soglasja in predvidene naložbe v razvoj prenosnega sistema, ki so vključene v veljavni naložbeni načrt operaterja sistema, s predvideno dinamiko izvedbe v okviru naslednjih dveh let.
+
+44. člen
+
+(sprememba zahteve za soglasje)
+
+(1) Če operater prenosnega sistema ugotovi, da niso izpolnjeni predpisani pogoji za priključitev z zahtevanim priključkom, razen pogoja iz tretje alineje prvega odstavka prejšnjega člena, ali da bi zaradi tega priključka prišlo do večjih motenj v delovanju sistema, pa bi bili z drugačnimi pogoji in značilnostmi priključka pogoji za priključitev izpolnjeni oziroma ne bi prišlo do večjih motenj v delovanju sistema, o tem obvesti vlagatelja in določi rok, v katerem lahko spremeni svojo zahtevo. Spremenjena zahteva glede zmogljivosti zahtevanega priključka se šteje za novo zahtevo in operater prenosnega sistema postopa v skladu s četrtim in petim odstavkom 42. člena.
+
+(2) Če v roku iz prejšnjega odstavka stranka ne spremeni zahteve, nadaljuje operater prenosnega sistema odločanje o vloženi zahtevi.
+
+(3) Če operater prenosnega sistema ugotovi, da bodo nastali zaradi priključitve nesorazmerni stroški, jih izračuna skladno z 48. in 49. členom tega akta, o izračunu obvesti vlagatelja in določi rok, v katerem se mora izreči o tem, ali bo kril te stroške.
+
+(4) Po preteku roka iz prejšnjega odstavka nadaljuje operater prenosnega sistema odločanje o vloženi zahtevi, upoštevaje vsebino izjave o kritju nesorazmernih stroškov. Če je stranka prevzela kritje nesorazmernih stroškov, se ti določijo v odločbi o soglasju za priključitev.
+
+(5) V pritožbi zoper odločitev o zahtevi za izdajo soglasja lahko vlagatelj izpodbija višino nesorazmernih stroškov tudi, če je bila zahteva zavrnjena, ker vlagatelj ni dal izjave o tem, da bo kril nesorazmerne stroške ali da jih ne bo kril v tolikšni višini.
+
+45. člen
+
+(tehnični pogoji za priključitev)
+
+(1) Splošni tehnični pogoji za priključek so določeni s tehničnimi predpisi s področja plinskih naprav, tehničnih pogojih za graditev, obratovanje in vzdrževanje plinovodov z delovnim tlakom do vključno 16 bar in nad 16 barov ter o pogojih za posege v območjih njihovih varovalnih pasov ter drugimi predpisi, ki urejajo tehnične pogoje za priključitev.
+
+(2) Če ni s predpisi iz prejšnjega odstavka določeno drugače, mora biti priključek načrtovan in izdelan ob upoštevanju zadnjega stanja tehnike.
+
+46. člen
+
+(soglasje za priključitev)
+
+(1) Za vsako posamezno priključitev mora oseba iz prvega odstavka 40. člena pridobiti soglasje za priključitev.
+
+(2) Soglasje za priključitev je treba pridobiti tudi za:
+
+– povečanje ali zmanjšanje največjega oziroma najmanjšega dovoljenega pretoka, glede na veljavno soglasje za priključitev in pogodbo o priključitvi;
+
+– povečanje ali zmanjšanje predajnega tlaka glede na veljavno soglasje za priključitev in pogodbo o priključitvi;
+
+– tako spremembo ali rekonstrukcijo priključka, ki vpliva ali bi lahko vplivala na značilnosti odjema ali oddaje plina;
+
+– prenos priključka na drugo priključno mesto;
+
+– združitev več priključnih mest v eno priključno mesto.
+
+(3) V soglasju za priključitev morajo biti navedeni:
+
+– priključno mesto,
+
+– šifra merilnega mesta,
+
+– največji in najmanjši pretok plina,
+
+– predajni tlak,
+
+– datum predvidenega začetka uporabe priključka,
+
+– predvideno obdobje in predviden obseg uporabe priključka po posameznih letih,
+
+– namen uporabe priključka,
+
+– predvidena dinamika odjema ali oddaje,
+
+– posebnosti odjema ali oddaje ter posebnosti tehnologije uporabe plina,
+
+– uporaba nadomestnega goriva,
+
+– rok za sklenitev pogodbe o priključitvi,
+
+– višina morebitnih nesorazmernih stroškov, vključno s pogoji plačila, ter
+
+– tehnični pogoji za priključitev, določeni v skladu s 45. členom tega akta.
+
+(4) Soglasje za priključitev preneha, če v dveh letih po njegovi pravnomočnosti oseba, na katero se glasi soglasje (v nadaljevanju: imetnik soglasja), ne izpolni pogojev iz soglasja za priključitev in ne naroči izvedbe priključka, tako da podpiše pogodbo o priključitvi.
+
+(5) Pogodba o priključitvi se lahko sklene le z imetnikom veljavnega soglasja za priključitev.
+
+47. člen
+
+(prenos soglasja za priključitev)
+
+(1) Če pride po izdaji soglasja za priključitev in pred sklenitvijo pogodbe o priključitvi do katerega od naslednjih razlogov:
+
+– prenosa investitorstva skladno s predpisi, ki urejajo graditev, na objektih, vključno s plinovodom imetnika soglasja, za katerega je namenjen priključek, na katerega se nanaša soglasje za priključitev;
+
+– univerzalnega pravnega nasledstva nad imetnikom soglasja;
+
+– univerzalnega pravnega nasledstva zaradi statusne spremembe pravne osebe, ki se nanaša na objekte in naprave, za katere je namenjen priključek, na katerega se nanaša soglasje za priključitev;
+
+– zaradi pravnega prometa z objekti in napravami, za katere je namenjen priključek, na katerega se nanaša soglasje za priključitev, na drugi pravni podlagi,
+
+operater prenosnega sistema na zahtevo novega investitorja oziroma lastnika prenese soglasje za priključitev na novega lastnika oziroma investitorja.
+
+(2) Zahtevo za prenos soglasja za priključitev mora novi lastnik oziroma investitor vložiti najkasneje v 30 dneh po prejemu sodne ali upravne odločbe oziroma od sklenitve pogodbe, iz katere izhaja razlog za prenos soglasja iz prejšnjega odstavka. Zahtevi mora biti predložen dokaz o prenosu investitorstva, o pravnem nasledstvu ali o pridobitvi lastninske pravice iz prejšnjega odstavka.
+
+(3) Soglasje za priključitev se prenese na novo osebo ali osebe tako, da se tej osebi ali osebam izda soglasje o prenosu soglasja za priključitev v enaki vsebini, kot je bilo soglasje za priključitev prejšnjega imetnika, prejšnje soglasje za priključitev pa se razveljavi.
+
+2.
+Stroški priključitve
+
+48. člen
+
+(ocena ekonomske upravičenosti priključitve)
+
+(1) Operater prenosnega sistema oceni ekonomsko upravičenost priključitve na podlagi analize stroškov in koristi ter z uporabo metode sedanje vrednosti denarnih tokov, pri čemer se upoštevajo parametri iz splošnega akta Agencije, ki ureja metodologijo za določitev regulativnega okvira. Pri izračunu ekonomske upravičenosti investicije v priključek se upošteva referenčna ekonomska doba uporabe priključka 20 let.
+
+(2) Z analizo ekonomske upravičenosti priključitve operater prenosnega sistema z ustreznimi kazalniki ovrednoti finančno donosnost investicije v priključek, ki kaže zmožnost neto prihodkov, da povrnejo stroške priključitve.
+
+(3) Pri analizi ekonomske upravičenosti priključitve se upoštevajo:
+
+– stroški za izvedbo potrebne investicije (vrednost investicije);
+
+– predvideni dodatni stroški operaterja prenosnega sistema, kot na primer stroški za vzdrževanje in obratovanje novega priključka;
+
+– strošek iz naslova reguliranega donosa na sredstva, povezan z izvedeno investicijo;
+
+– predvideni dodatni prihodki operaterja prenosnega sistema, glede na predvideni obseg uporabe priključka s strani uporabnika sistema.
+
+(4) Stroški priključitve so vsi stroški, ki jih ima operater prenosnega sistema zaradi zahtevane priključitve iz prve, druge in tretje alineje prejšnjega odstavka.
+
+(5) Stroški za izvedbo potrebne investicije so stroški priključitve, ki se nanašajo na izvedbo priključka z merilno oziroma merilno-regulacijsko postajo, kot na primer stroški umeščanja v prostor in projektiranja priključka, merilno-regulacijskih postaj in morebitnih drugih objektov ter potrebnih nadgradenj oziroma ojačitev prenosnega sistema, stroški pridobivanja upravnih dovoljenj in potrebnih stvarnih pravic ter stroški gradnje teh objektov in naprav, stroški priključitve objektov, naprav in napeljav in zaplinjanja ter vsi drugi stroški, ki jih operater prenosnega sistema ne bi imel, če ne bi prišlo do zadevne priključitve. Za izračun stroškov se upoštevajo trenutne cene na trgu in podatki iz pogodb preteklih gradenj primerljivih objektov.
+
+(6) Predvideni dodatni stroški operaterja prenosnega sistema so vsi stroški z obratovanjem ter rednim in investicijskim vzdrževanjem, ki jih bo imel operater prenosnega sistema glede na izkustvena merila s podobno energetsko infrastrukturo v zvezi z investicijo iz prejšnjega odstavka v ekonomski dobi uporabe priključka.
+
+(7) Strošek iz naslova reguliranega donosa na sredstva se določi v višini, kot se določa s splošnim aktom Agencije, ki ureja metodologijo za določitev regulativnega okvira.
+
+(8) Pri izračunu amortizacijskih dob se za posamezne dele priključka upoštevajo amortizacijske dobe in stopnje, ki jih je operater prenosnega sistema upošteval pri pripravi zadnjih revidiranih letnih računovodskih izkazov, skladno s slovenskimi ali mednarodnimi računovodskimi standardi in ki ne presegajo davčno priznanih stopenj.
+
+(9) Predvideni dodatni prihodki operaterja prenosnega sistema so vsi prihodki, ki jih bo operater prenosnega sistema imel zaradi novega priključka, upoštevaje napovedani obseg uporabe priključka po posameznih letih, ki izhaja iz zahteve za izdajo soglasja za priključitev. Ti prihodki so izračunani kot zmnožek izstopne letne tarifne postavke izstopne točke v Republiki Sloveniji in stopnje izstopne tarifne postavke s predvideno zakupljeno prenosno zmogljivostjo plina po letih. Višina predvidene zakupljene prenosne zmogljivosti plina v kWh/dan je vhodni podatek, ki ga operaterju v zahtevi za soglasje za priključitev posreduje vlagatelj zahteve.
+
+(10) Pri izdelavi ocene ekonomske upravičenosti priključitve za spremembo priključka uporabnika sistema operater prenosnega sistema upošteva kot dodatne prihodke le tisti del prihodkov, ki presegajo morebitno obveznost obsega uporabe priključka s strani uporabnika sistema. Uporabnik sistema mora v tem primeru v zahtevi za soglasje za priključitev navesti predviden obseg uporabe spremenjenega priključka po posameznih letih. Operater prenosnega sistema v izreku soglasja za priključitev navede dosedanjo morebitno obveznost obsega uporabe priključka in napovedani dodatni obseg uporabe spremenjenega priključka po posameznih letih. Obveznost obsega uporabe, kot je bil napovedan in ugotovljen v soglasju za priključitev, se določi tudi s pogodbo o priključitvi.
+
+(11) Dodatne prihodke in stroške, ki se upoštevajo pri analizi ekonomske upravičenosti, ugotavlja operater prenosnega sistema na podlagi podatkov, ki veljajo na dan, ko je operater prenosnega sistema prejel popolno zahtevo za soglasje za priključitev uporabnika na prenosni sistem plina.
+
+49. člen
+
+(določitev sorazmernih in nesorazmernih stroškov priključitve)
+
+(1) Priključitev je ekonomsko upravičena, če predvideni dodatni prihodki zadoščajo za pokritje vseh stroškov priključitve. Vse stroške priključitve, ki so ekonomsko upravičeni, nosi operater prenosnega sistema (sorazmerni stroški priključitve).
+
+(2) Če predvideni dodatni prihodki ne zadoščajo za pokritje vseh stroškov priključitve, ima potencialni imetnik soglasja pravico do priključitve le, če sam pokrije tisti del stroškov, ki ni pokrit s predvidenimi dodatnimi prihodki (nesorazmerne stroške).
+
+(3) Operater prenosnega sistema določi nesorazmerne stroške kot znesek, ki je potreben, da je v referenčni ekonomski dobi uporabe priključka v celoti upoštevana takšna pričakovana interna stopnja donosnosti investicije kot znaša stopnja reguliranega donosa na sredstva operaterja prenosnega sistema, ki jo določi Agencija v skladu s splošnim aktom Agencije, ki ureja metodologijo za določitev omrežnine.
+
+(4) Operater prenosnega sistema ni dolžan začeti z investicijo, dokler imetnik soglasja ne sklene pogodbe o priključitvi, s katero se zaveže, da bo v referenčni ekonomski dobi uporabljal priključek v napovedanem obsegu uporabe priključka, ki izhaja iz soglasja za priključitev, in dokler ne plača nesorazmernih stroškov, če so le-ti bili določeni s soglasjem za priključitev.
+
+50. člen
+
+(neizpolnjevanje obveznosti iz pogodbe o priključitvi)
+
+(1) Če uporabnik sistema ne izpolnjuje obveznosti iz pogodbe o priključitvi, ker ne uporablja priključka ali pa ga uporablja v manjšem obsegu od dogovorjenega, operater prenosnega sistema od uporabnika sistema zahteva nadomestno izpolnitev pogodbe o priključitvi, in sicer tako, da za čas, ko uporabnik sistema ne izpolnjuje obveznosti iz pogodbe o priključitvi, zahteva plačilo zneska, ki ustreza znesku omrežnine, ki bi ga sicer moral plačati uporabnik sistema, če bi uporabljal priključek v napovedanem obsegu uporabe priključka (neuporaba priključka).
+
+(2) Znesek omrežnine, ki bi ga moral plačati uporabnik sistema, se za posamezni mesec zakupa ugotovi po enačbi, ki velja za obračun zneska zagotovljene letne izstopne zmogljivosti skladno s splošnim aktom Agencije, ki ureja obračunavanje omrežnine.
+
+(3) Mesečni znesek iz prejšnjega odstavka se v posameznem mesecu, za katerega se ugotavlja višina obveznosti nadomestne izpolnitve, obračuna na obseg zmogljivosti, ki se določi v višini 1/12 letne napovedi obsega uporabe priključka. Če uporabnik sistema s takšnim preračunom ne soglaša, mora uporabnik sistema operaterju prenosnega sistema do začetka plinskega leta sporočiti njegovo mesečno napoved zakupa za naslednje plinsko leto, pri čemer seštevek mesečnih napovedi ne sme biti manjši od napovedanega letnega obsega uporabe priključka.
+
+(4) Operater prenosnega sistema najkasneje do 15. dne v tekočem mesecu za pretekli mesec primerja znesek dejansko obračunanega zakupa prenosnih zmogljivosti z mesečnim zneskom, ugotovljenim v skladu z drugim in tretjim odstavkom tega člena. Če operater prenosnega sistema ugotovi neuporabo priključka po prvem odstavku tega člena, uporabniku sistema do konca tekočega koledarskega meseca izstavi račun za nadomestno izpolnitev pogodbe o priključitvi zaradi neuporabe priključka. Uporabnik sistema je dolžan račun plačati najkasneje do izteka zadnjega dne naslednjega meseca.
+
+(5) Če operater prenosnega sistema v skladu s prvim stavkom prejšnjega odstavka ugotovi, da je uporabnik sistema uporabljal priključek v večjem obsegu od napovedanega, mu za presežek zakupljenih zmogljivosti izstavi potrdilo o presežku uporabe zmogljivosti. Operater prenosnega sistema tako ugotovljen presežek uporabe zmogljivosti poračuna pri prvi ali več naslednjih ugotovljenih neuporabah priključka iz prvega odstavka tega člena, ne glede na to, v katerem letu je prišlo do neuporabe priključka.
+
+51. člen
+
+(vračilo dela nesorazmernih stroškov zaradi priključitve novih uporabnikov sistema)
+
+Če se na priključek, za katerega so bili plačani nesorazmerni stroški, priključi nov uporabnik v času amortizacije priključka, se mu pri oceni ekonomske upravičenosti priključitve upošteva tudi neamortizirani del prvotne investicije, ki se pokriva s prihodki iz naslova že zaračunanih nesorazmernih stroškov. Če novemu uporabniku na podlagi tako izračunane ocene ekonomske upravičenosti nastanejo nesorazmerni stroški, je-le te dolžan plačati v skladu s tem aktom. Delež plačanih nesorazmernih stroškov novega uporabnika je dolžan operater prenosnega sistema povrniti prejšnjemu uporabniku. Delež se določi v sorazmerju z deležem zakupa prenosnih zmogljivosti prejšnjega uporabnika glede na skupen zakup prenosnih zmogljivosti na priključku. Operater prenosnega sistema vrne del nesorazmernih stroškov uporabniku v 30 dneh po tem, ko je prejel celotno plačilo nesorazmernih stroškov od uporabnika, ki zahteva novi priključek.
+
+3.
+Priključitev
+
+52. člen
+
+(pogodba o priključitvi)
+
+(1) Operater prenosnega sistema in imetnik veljavnega soglasja za priključitev skleneta v roku, določenem v soglasju za priključitev, po nastopu njegove dokončnosti in pred začetkom projektiranja priključka oziroma morebitne širitve ali nadgradnje prenosnega sistema, merilno-regulacijske postaje oziroma drugih objektov in naprav, potrebnih za priključitev na prenosni sistem, pogodbo o priključitvi, s katero uredita medsebojne pravice in obveznosti v zvezi s priključitvijo.
+
+(2) V pogodbi o priključitvi stranki uredita zlasti:
+
+– obseg del, ki jih je potrebno realizirati za priključitev na prenosni sistem;
+
+– maksimalni in minimalni pretok plina;
+
+– predajni tlak in dopustna odstopanja (tolerance) predajnega tlaka;
+
+– glavne tehnične karakteristike priključka, kot npr.: točka priključitve, šifra merilnega mesta, primopredajno mesto in lastništvo merilnega mesta;
+
+– mejo lastništva priključka ter način meritev prevzetih ali predanih količin;
+
+– medsebojna razmerja v zvezi z vzdrževanjem priključka;
+
+– rok izvedbe investicije in začetek uporabe priključka;
+
+– obdobje in obveznost uporabe priključka v napovedanem obsegu, kot izhaja iz soglasja za priključitev;
+
+– namen uporabe priključka;
+
+– višino in način plačila nesorazmernih stroškov priključitve;
+
+– način in pogoje ugotavljanja in plačevanja nadomestne izpolnitve v skladu s 50. členom tega akta.
+
+(3) Na podlagi sklenjene pogodbe o priključitvi uporabnik sistema še ne pridobi pravice do prenosnih zmogljivosti, ki si jih zagotovi s sklenitvijo pogodbe o prenosu.
+
+53. člen
+
+(priključitev)
+
+(1) Na podlagi sklenjene pogodbe o priključitvi začne operater prenosnega sistema izvajati vsa pripravljalna dela, potrebna za izvedbo priključitve.
+
+(2) Priključitev energetskih objektov, naprav in napeljav na prenosni sistem izvede operater prenosnega sistema tako, da na podlagi sklenjene pogodbe o priključitvi po potrebi izvede nadgradnjo z namenom povečanja prenosne zmogljivosti ali razširitev prenosnega sistema, zgradi potrebni priključek ali del priključka, ustrezno merilno-regulacijsko postajo in morebitne druge potrebne objekte prenosnega sistema, ki omogočajo tehnično izvedbo priključka in njegovo uporabo skladno s pogodbo o priključitvi.
+
+(3) Operater prenosnega sistema izvede priključitev energetskih objektov, naprav in napeljav na prenosni sistem na najustreznejši točki, ki jo določi operater prenosnega sistema, v času in na način, da je vpliv na obratovanje prenosnega sistema čim manjši.
+
+(4) Uporabnik sistema mora pred priključitvijo uporabnikovega plinovoda na prenosni predložiti operaterju prenosnega sistema naslednje listine:
+
+– veljavno dovoljenje za gradnjo uporabnikovega plinovoda skladno s predpisi o graditvi objektov;
+
+– izjavo, ki jo sopodpišeta odgovorni nadzornik in odgovorni vodja del gradnje uporabnikovega plinovoda, da:
+
+a) so dokončana vsa dela, vezana na gradnjo uporabnikovega plinovoda, razen fizične priključitve na prenosni sistem;
+
+b) je celotna gradnja potekala skladno z veljavno zakonodajo, predpisi in standardi;
+
+c) je uporabnikov plinovod uspešno prestal trdnostni in tesnostni preskus, zato ga je mogoče zapliniti in z njim varno in zanesljivo obratovati, kar se izkaže z zapisnikom(a) o izvedenih tlačnih preskusih;
+
+č) objekti, naprave in napeljave, ki so sestavni del uporabnikovega plinovoda ali so povezane z uporabnikovim plinovodom, izpolnjujejo predpisane tehnične zahteve, s katerimi se zagotavlja njihovo nemoteno delovanje ter varnost ljudi in premoženja;
+
+– načrt izvedenega uporabnikovega plinovoda z jasno označenim prvim zapornim organom iz smeri prenosnega sistema ter načrt predvidene povezave uporabnikovega plinovoda s priključnim mestom, vključno s postopkom izvedbe povezave in varjenja, ki je pisno odobren s strani odgovornega nadzornika del;
+
+– izjavo uporabnika, da je uporabnikov plinovod v celoti zaprt in bo tak ostal do fizične priključitve, z opredelitvijo termina predvidene fizične priključitve;
+
+– izjavo uporabnika, da do priključitve in zaplinitve na uporabnikovem plinovodu, razen same fizične priključitve, ne bo izvajal in naročal izvajanje nobenih del;
+
+– izjavo uporabnika, da bo po fizični priključitvi obvestil organ, ki je izdal dovoljenje za gradnjo, da je ta zaključena in ga pozval k izdaji uporabnega dovoljenja ali odločbe za zagonske preskuse in nastavitve.
+
+54. člen
+
+(zaplinjanje)
+
+(1) Zaplinitev izvede operater prenosnega sistema v sodelovanju z uporabnikom sistema na podlagi tehnološkega postopka za izvedbo izrednih del.
+
+(2) Pred izvedbo zaplinitve mora biti za priključno mesto med uporabnikom in operaterjem prenosnega sistema sklenjena pogodba o prenosu, ki omogoča uporabniku prenos plina, in pogodba, s katero je uporabniku zagotovljena izravnava odstopanj.
+
+(3) Zaplinitev se izvede do prvega zapornega organa uporabnikovega plinovoda, ko je le-ta še v stanju zaprto.
+
+(4) Uporabnik sistema mora pred zaplinitvijo predložiti operaterju prenosnega sistema naslednje listine:
+
+– veljavno uporabno dovoljenje za uporabnikov plinovod ali odločbo upravnega organa za zagonski preskus in nastavitve parametrov, vendar če po preteku roka za poskusno obratovanje ne predloži uporabnega dovoljenja, ima operater prenosnega sistema pravico prekiniti prenos plina;
+
+– dokazilo o usposobljenosti osebja uporabnika za upravljanje plinskih naprav skladno s predpisom, ki ureja strokovno usposabljanje in preizkus znanja za upravljanje energetskih naprav;
+
+– v primeru, da še ni omogočen elektronski prenos podatkov o števčnih stanjih na merilnem mestu, s strani uporabnika in predstavnika operaterja prenosnega sistema podpisan zapisnik o primopredaji merilne ali merilno-regulacijske postaje v kontrolo in evidentiranje odjema s prilogami;
+
+– v primeru odštevalnega merilnega mesta pri ponovnem zaplinjanju, če je to potrebno, veljavno pogodbo o določanju predanih količin;
+
+– s strani uporabnika in predstavnika operaterja prenosnega sistema podpisan zapisnik o stanju na merilnem mestu.
+
+(5) Če so bila na priključku, ki je že obratoval, izvedena dela ali spremembe priključka, mora uporabnik sistema pred ponovno zaplinitvijo predložiti operaterju prenosnega sistema tudi listine iz četrtega odstavka prejšnjega člena.
+
+55. člen
+
+(naprave uporabnikov sistema)
+
+(1) Naprave in postroji, ki niso del prenosnega sistema in so v lasti uporabnikov prenosnega sistema (npr. prenos podatkov o odjemu, merilni oziroma odorirni postroj), morajo biti redno nadzorovani in vzdrževani.
+
+(2) Uporabnik prenosnega sistema, ki želi za svoje potrebe na prenosnem sistemu v objektih in postajah postaviti merilne oziroma odorirne postroje ali opremo za prenos podatkov o meritvah, mora predhodno pridobiti pogoje za vgradnjo in ustrezno pravico graditi od operaterja prenosnega sistema.
+
+(3) Uporabnik prenosnega sistema in lastnik teh naprav je dolžan za vsako napravo operaterju prenosnega sistema pred zagonom sporočiti dežurno kontaktno osebo za primer ugotovitve nepravilnega delovanja naprave ter pogodbenega vzdrževalca.
+
+4.
+Spremembe in prenehanje priključka
+
+56. člen
+
+(spremembe uporabnika sistema na priključku)
+
+(1) Če po sklenitvi pogodbe o priključitvi na podlagi univerzalnega pravnega nasledstva ali zaradi statusnih sprememb uporabnika sistema pride do spremembe osebe, ki odjema ali oddaja plin na priključku, mora novi lastnik teh objektov in naprav obvestiti operaterja prenosnega sistema o nastali spremembi osebe, ki odjema ali oddaja plin na priključku, najkasneje v enem mesecu od vpisa statusne spremembe v sodni register oziroma od sklenitve pogodbe, na podlagi katere je pridobil zadevne objekte ali naprave. Ta določba se uporablja tudi v primeru univerzalnega pravnega nasledstva fizične osebe, ki je uporabnik sistema.
+
+(2) Če po sklenitvi pogodbe o priključitvi zaradi pravnega prometa z objekti in napravami uporabnika sistema pride do spremembe osebe, ki bo odjemala ali oddajala plin na priključku, mora novi lastnik oziroma uporabnik teh objektov in naprav vložiti zahtevo za prenos pogodbe o priključitvi na novega uporabnika priključka najkasneje en mesec pred dnem začetka uporabe priključka.
+
+(3) Obvestilu iz prvega oziroma zahtevi iz drugega odstavka tega člena mora novi lastnik oziroma uporabnik predložiti listine, ki dokazujejo statusno spremembo oziroma izveden pravni promet.
+
+(4) V primeru iz prvega odstavka tega člena se prenos priključka izvede tako, da operater prenosnega sistema in novi lastnik oziroma uporabnik objektov in naprav k pogodbi o priključitvi, ki je predmet pravnega nasledstva, skleneta dodatek, s katerim potrdita dejstvo, da novi uporabnik sistema na podlagi univerzalnega pravnega nasledstva vstopa v vse pravice in obveznosti iz pogodbe o priključitvi.
+
+(5) V primeru iz drugega odstavka tega člena se prenos priključka izvede tako, da sklenejo dotedanji uporabnik sistema, novi uporabnik sistema in operater prenosnega sistema pogodbo o prenosu dosedanje pogodbe o priključitvi, tako da novi uporabnik sistema vstopi v vse pravice in obveznosti iz pogodbe o priključitvi.
+
+(6) Pri prenosu priključka na drugo osebo, ki je posledica singularnega pravnega nasledstva, se ne uporabljajo določbe o vračilu dela nesorazmernih stroškov priključka iz 51. člena tega akta.
+
+(7) Če novi lastnik oziroma uporabnik ne obvesti operaterja prenosnega sistema o nastali spremembi v skladu s prvim oziroma drugim odstavkom tega člena, kot tudi če v primernem roku, ki ga določi operater prenosnega sistema, ne sklene dodatka k pogodbi o priključitvi oziroma sporazuma o prenosu pogodbe o priključitvi, operater prenosnega sistema izvede odklop na podlagi 3. točke prvega odstavka 96. člena ZOP.
+
+57. člen
+
+(sprememba osnovnih parametrov priključka)
+
+(1) Uporabnik sistema zaprosi za novo soglasje za priključitev, če želi, da se spremenijo osnovni parametri (tehnične značilnosti) priključka.
+
+(2) Za spremembo tehničnih značilnosti se šteje vsaka sprememba v konstrukciji, obsegu oziroma tehničnih značilnosti odjema ali oddaje na priključku ali namenu uporabe priključka, ki vpliva na odjem ali oddajo plina na priključku, zlasti pa v primerih iz drugega odstavka 46. člena tega akta.
+
+(3) Kolikor je pretok plina izven v pogodbi o priključitvi določenih pretokov, mora uporabnik sistema nemudoma podati zahtevo za pridobitev soglasja za spremembo tehničnih značilnosti priključka.
+
+(4) Na zahtevo uporabnika sistema se lahko izvedejo spremembe tehničnih značilnosti priključka šele po pridobitvi novega soglasja za priključitev, ki se nanaša na nove tehnične značilnosti priključka in sklenitvi nove pogodbe o priključitvi.
+
+(5) Soglasje za spremembo tehničnih značilnosti priključka se izda tako, da se uporabniku sistema izda novo soglasje za priključitev, na podlagi katerega se z uporabnikom sistema sklene nova pogodba o priključitvi. Če na podlagi nove zahteve za izdajo soglasja za spremembo priključka operater prenosnega sistema ugotovi, da se bo obseg uporabe priključka zmanjšal glede na že izdano soglasje za priključitev in ekonomska referenčna doba prvotnega priključka še ni potekla, uporabnik sistema z novo pogodbo o priključitvi prevzame tudi vse obveznosti iz prejšnje pogodbe o priključitvi, ki se nanašajo na obveznost uporabe priključka do poteka ekonomske referenčne dobe.
+
+(6) Če sprememba tehničnih značilnosti priključka vključuje dela, zaradi katerih je bilo treba prekiniti odjem ali oddajo plina na priključnem mestu, se za ponovno zaplinjanje uporabljajo določbe 54. člena tega akta.
+
+5.
+Pravila v zvezi z odklopom
+
+58. člen
+
+(začasni odklop)
+
+(1) Operater prenosnega sistema lahko začasno odklopi uporabnika na priključku iz razlogov, določenih v 95. členu ZOP.
+
+(2) V primeru motenj ali okvar na prenosnem sistemu, ki nastanejo kot posledica višje sile, operater prenosnega sistema izvede izredna in nepredvidena dela za zagotovitev nemotenega in zanesljivega obratovanja prenosnega sistema v najkrajšem možnem času.
+
+(3) O začasnem odklopu iz prejšnjega odstavka operater prenosnega sistema nemudoma obvesti uporabnike prenosnega sistema, z navedbo predvidenega časa za odpravo nastalih motenj.
+
+(4) Predvidena dela je operater prenosnega sistema dolžan opraviti v času, ki je nujno potreben, da se delo opravi in izbrati čas, ki čim manj prizadene uporabnike.
+
+(5) Operater prenosnega sistema mora o predvidenem začasnem odklopu ali omejitvi prenosa v pisni obliki pravočasno obvestiti uporabnike iz prejšnjega odstavka. Kot pravočasno obvestilo se šteje obvestilo, poslano uporabnikom najmanj mesec dni pred začetkom del.
+
+(6) Uporabniki lahko v roku sedmih dni po prejemu obvestila iz prejšnjega člena operaterju prenosnega sistema predlagajo najustreznejši termin za izvajanje del. Kolikor načrta izvajanja del zaradi različnega interesa uporabnikov terminsko ni mogoče popolnoma uskladiti z vsemi prizadetimi uporabniki, operater prenosnega sistema sam določi termin.
+
+(7) Obvestilo o delih mora vsebovati:
+
+– del prenosnega sistema, ki je v delu,
+
+– začetek in predvideno končanje del,
+
+– načrt omejitev ali prekinitev prenosa plina,
+
+– seznam predajnih mest, ki bodo prizadeta.
+
+(8) Kolikor želi uporabnik zaradi različnih razlogov med letom terminsko prestavitev izvajanja del, je to mogoče izvesti po uskladitvi s operaterjem prenosnega sistema, pri čemer pa se dela ne smejo prestaviti za več kot 15 dni od predhodno skupno določenega termina. Stroške, nastale zaradi prestavitve izvajanja del, nosi uporabnik, ki je za prestavitev termina zaprosil. V nobenem primeru se predvidena dela na prenosnem sistemu ne smejo izvajati v času, ko je mogoče glede na letni čas oziroma nizke zunanje temperature pričakovati večjo porabo plina.
+
+(9) V primeru, da operater prenosnega sistema med letom ugotovi potrebo po izvedbi del na prenosnem sistemu in ta dela nimajo narave izrednih del, o tem takoj obvesti prizadete uporabnike sistema in predlaga najustreznejši termin izvedbe del. Uporabniki lahko z operaterjem prenosnega sistema usklajujejo točen termin izvedbe, pri čemer izvedba ne sme biti realizirana kasneje kot dva meseca po terminu, ki ga je v pisnem obvestilu določil operater prenosnega sistema.
+
+(10) V primeru, da do uskladitve termina izvajanja del s prizadetimi uporabniki skladno s predhodnim odstavkom ne pride in narava potrebnih del v tem času postane izredna, operater prenosnega sistema ta dela izvede v najkrajšem možnem času.
+
+59. člen
+
+(odklop po predhodnem obvestilu)
+
+(1) Operater prenosnega sistema lahko odklopi uporabnika sistema iz razlogov, navedenih v 96. členu ZOP le, če le-ta v roku, določenem v obvestilu, ne izpolni svoje obveznosti s tem, da odstrani vzrok ali vzroke odklopa. Rok za izpolnitev obveznosti, ki ga v predhodnem obvestilu določi operater prenosnega sistema, znaša najmanj osem dni, šteto od datuma prejema obvestila.
+
+(2) Obvestilo operaterja prenosnega sistema mora biti pisno, v njem pa morajo biti navedeni razlogi, zaradi katerih lahko pride do odklopa in določen rok za njihovo odpravo.
+
+(3) Po preteku roka, določenega v obvestilu, operater prenosnega sistema, če uporabnik ne odpravi vzroka, odklopi uporabnika sistema tako, da je onemogočen nadaljnji odjem ali oddaja plina na zadevnem priključku in o tem nemudoma obvesti uporabnika sistema. V tem obvestilu uporabnika sistema tudi obvesti o pravnih posledicah iz 62. člena tega akta, če v roku iz tega člena ne bo odstranil vzroka ali vzrokov začasnega odklopa.
+
+(4) Če bi bila z odklopom iz prejšnjega odstavka onemogočena oskrba s plinom drugim uporabnikom sistema, ki odjemajo plin na istem priključnem mestu, se odklop, če to glede na okoliščine ne bi bilo primerno, ne izvede, uporabnika sistema, pri kateremu je vzrok za odklop, pa operater prenosnega sistema v obvestilu iz prvega odstavka tega člena pozove, da po poteku roka iz obvestila preneha z odjemom plina. Z iztekom roka, določenega v obvestilu, se šteje, da je bil uporabnik sistema odklopljen, morebitni odjem plina po odklopu pa za neupravičen odjem.
+
+(5) Dobavitelj, ki je odstopil od pogodbe o dobavi, ali dobavitelj, kateremu je končni odjemalec sporočil, da odstopa od pogodbe, je dolžan operaterja prenosnega sistema obvestiti o odstopu najkasneje 15 dni pred potekom odpovednega roka oziroma, če je odpovedni rok krajši, nemudoma po odstopu od pogodbe. Operater prenosnega sistema v tem primeru odklopi uporabnika sistema, če le-ta v roku, določenem v predhodnem obvestilu o odklopu, ne zamenja dobavitelja ali v tem roku ne sklene nove pogodbe o dobavi z obstoječim dobaviteljem.
+
+(6) Če ima odjemalec v primeru iz prejšnjega odstavka na predmetnem odjemnem mestu sklenjenih več dobavnih pogodb, je dolžan operaterju prenosnega sistema posredovati spremenjeno razmerje med bilančnimi skupinami na odjemnem mestu v 24-tih urah po prejemu predhodnega obvestila o odklopu. V kolikor tega ne stori, se upošteva zadnje sporočeno razmerje brez pogodbe ali pogodb, ki so prenehale veljati, sorazmerno uporabljeno na preostale veljavne pogodbe. Če to razmerje prvič ni bilo sporočeno, se šteje, da gre za neupravičen odjem in da s svojim prevzemom moti dobavo plina drugim odjemalcem. Operater prenosnega sistema posreduje informacijo o spremenjenem razmerju med bilančnimi skupinami nosilcem teh bilančnih skupin.
+
+(7) Uporabnik sistema, kateremu je bil priključek odklopljen po predhodnem obvestilu, nosi stroške tega odklopa in ponovne priključitve, določene v ceniku dodatnih storitev operaterja prenosnega sistema.
+
+(8) V primeru, da se uporabnik sistema želi ponovno priključiti na prenosni sistem v roku, ki je krajši od enega leta, mora ob priklopu plačati tudi fiksne stroške omrežnine za čas odklopa v višini minimalnega pretoka plina po pogodbi o priključitvi. Če je operater prenosnega sistema za to obdobje uveljavljal nadomestno izpolnitev v skladu s prvim odstavkom 50. člena tega akta, se plačilo nadomestne izpolnitve v višini omrežnine obračunane skladno s tem členom šteje tudi za izpolnitev zahtevka iz tega člena.
+
+60. člen
+
+(odklop brez predhodnega obvestila)
+
+(1) Operater prenosnega sistema odklopi uporabnika sistema brez predhodnega obvestila iz razlogov, navedenih v 97. členu ZOP, tako da je onemogočen nadaljnji odjem ali oddaja plina na zadevnem priključku.
+
+(2) O odklopu operater prenosnega sistema nemudoma obvesti uporabnika sistema. V tem obvestilu uporabnika sistema tudi obvesti o pravnih posledicah iz 62. člena tega akta, če v roku iz tega člena ne bo odstranil vzroka ali vzrokov odklopa.
+
+(3) Uporabnik sistema, kateremu je bil priključek odklopljen, nosi stroške odklopa in ponovne priključitve, določene v ceniku dodatnih storitev operaterja prenosnega sistema.
+
+(4) V primeru, da se uporabnik sistema želi ponovno priključiti na prenosni sistem v roku, ki je krajši od enega leta, mora ob priklopu plačati tudi fiksne stroške omrežnine za čas odklopa v višini minimalnega pretoka plina po pogodbi o priključitvi. Če je operater prenosnega sistema za to obdobje uveljavljal nadomestno izpolnitev v skladu s prvim odstavkom 50. člena tega akta, se plačilo nadomestne izpolnitve v višini omrežnine obračunane skladno s tem členom šteje tudi za izpolnitev zahtevka iz tega člena.
+
+61. člen
+
+(odklop na zahtevo uporabnika sistema)
+
+(1) Uporabnik sistema, ki želi začasno ali trajno prenehati z odjemom ali oddajo plina, lahko zahteva od operaterja prenosnega sistema, da ga odklopi. Operater prenosnega sistema in uporabnik sistema sporazumno določita dan, ko se odjem ali oddaja plina na priključku prekine in se izvede odklop.
+
+(2) Pravica uporabnika sistema do odklopa po tem členu ne posega:
+
+– v obveznosti uporabnika sistema iz veljavnih pogodb o prenosu, ki so bile sklenjene za to odjemno ali prevzemno mesto, in se nanašajo na plačilo zakupljenih prenosnih zmogljivosti do poteka teh pogodb in
+
+– v obveznosti uporabnika sistema iz pogodbe o priključitvi, ki se nanašajo na obveznost uporabe priključka do poteka referenčne ekonomske dobe priključka.
+
+(3) V primeru, ko uporabnik sistema zahteva, da se ga odklopi, pogodba o priključitvi oziroma pogodba o prenosu ne preneha veljati, razen če se o njenem prenehanju sporazumno dogovorita pogodbeni stranki. Med trajanjem odklopa mirujejo pogodbene pravice in obveznosti strank iz pogodbe o priključitvi oziroma pogodbe o prenosu, razen obveznosti uporabnika sistema iz prejšnjega odstavka.
+
+(4) Uporabnik sistema mora za ponovno priključitev, če je odklop trajal dlje kot tri leta, pridobiti novo soglasje za priključitev in skleniti novo pogodbo o priključitvi. S sklenitvijo nove pogodbe o priključitvi se razveljavi prejšnja pogodba o priključitvi, če ta ni bila razvezana že na podlagi sporazuma strank.
+
+(5) Operater prenosnega sistema lahko uporabniku zavrne ponovno priključitev ali izdajo soglasja za priključitev na tem priključku, dokler mu ta uporabnik sistema ne poravna vseh obveznosti iz pogodbe o prenosu in pogodbe o priključitvi, ki izvirajo iz časa pred odklopom, ter povrne vso škodo zaradi kršitve teh obveznosti.
+
+(6) V primeru, da se uporabnik sistema želi ponovno priključiti na prenosni sistem v roku, ki je krajši od enega leta, mora ob priklopu plačati tudi fiksne stroške omrežnine za čas odklopa v višini minimalnega pretoka plina po pogodbi o priključitvi. Če je operater prenosnega sistema za to obdobje uveljavljal nadomestno izpolnitev v skladu s prvim odstavkom 50. člena tega akta, se plačilo nadomestne izpolnitve v višini omrežnine obračunane skladno s tem členom šteje tudi za izpolnitev zahtevka iz tega člena.
+
+(7) Uporabnik sistema, ki je zahteval odklop, nosi stroške odklopa in ponovne priključitve, določene v ceniku ostalih storitev operaterja prenosnega sistema.
+
+62. člen
+
+(trajni odklop)
+
+(1) Če v primeru odklopa iz 59. in 60. člena tega akta uporabnik sistema v roku treh let od prejema obvestila o odklopu ne odstrani vzroka ali vzrokov odklopa, mu operater prenosnega sistema trajno odklopi priključek.
+
+(2) Vsaka priključitev na trajno odklopljenem priključku je nova priključitev v smislu tega akta.
+
+6.
+Priključevanje skladišč, pridobivalnih omrežij in obratov za utekočinjenI zemeljski plin
+
+63. člen
+
+(priključevanje skladišč plina in obratov za UZP)
+
+Za priključitev na sistem skladišč plina in obratov za UZP se smiselno uporabljajo določila tega akta, ki urejajo priključitev uporabnikov sistema.
+
+64. člen
+
+(priključevanje pridobivalnega plinovodnega omrežja)
+
+Za priključitev pridobivalnega plinovodnega omrežja, ki ga uporablja proizvajalec, na prenosni sistem, se smiselno uporabljajo določila tega akta, ki urejajo priključitev uporabnikov sistema.
+
+65. člen
+
+(izvedba priključitve in zaplinjanja novega dela prenosnega sistema)
+
+Za izvedbo priključitve in zaplinjanja novega dela prenosnega sistema ali povezovalnega voda se smiselno uporabljajo določbe 54. in 55. člena tega akta.
+
+V. TEHNIČNI POGOJI ZA MEDSEBOJNO PRIKLJUČITEV IN DELOVANJE SISTEMOV RAZLIČNIH OPERATERJEV SISTEMOV
+
+66. člen
+
+(povezava z drugim prenosnim sistemom)
+
+(1) Operater prenosnega sistema najkasneje pred sprejemom odločitve o izvedbi investicije v povezovalni plinovod s prenosnim sistemom drugega operaterja sistema in po posredovanem obvestilu Agenciji, s tem operaterjem sklene sporazum o spojitvi obeh prenosnih sistemov, ki poleg drugih, vključuje najmanj naslednje sestavine:
+
+– ugotovitev, da oba operaterja sistema izpolnjujeta pogoje, ki jih potrebujeta za načrtovanje in gradnjo povezovalnega voda (morebitna soglasja ustrezne državne institucije – vlade, ministrstva, energetskega regulatorja, ipd.);
+
+– določbe, ki zagotavljajo uskladitev prostorske umestitve, presoje okoljskih vplivov in skladnosti tehničnih elementov ter pravil;
+
+– določbe o izvedbi postopka ugotavljanja interesa uporabnikov sistema;
+
+– določbe o načinu delitve stroškov načrtovanja, gradnje in obratovanja povezovalnega plinovoda;
+
+– terminski plan načrtovanja, gradnje in pridobitve uporabnega dovoljenja;
+
+– določbe o načinu izpolnjevanja obveznosti za omogočanje dvosmerne zmogljivosti povezovalnega plinovoda po Uredbi 2017/1938/EU.
+
+(2) Pri projektiranju, gradnji in obratovanju povezovalnega voda mora biti zagotovljena medobratovalnost obeh prenosnih sistemov.
+
+VI. NAČIN IZVAJANJA DOSTOPA DO PRENOSNEGA SISTEMA
+
+1.
+Splošne določbe o pogojih dostopa do prenosnega sistema
+
+67. člen
+
+(uporaba splošnih aktov operaterja prenosnega sistema)
+
+(1) Dostop do povezovalnih točk prenosnega sistema se izvaja skladno s pravili, ki določajo pogoje in način razdelitve zmogljivosti na povezovalnih točkah prenosnega sistema z dražbo.
+
+(2) Dostop do vstopnih in izstopnih točk znotraj Republike Slovenije se izvaja skladno s pravili, ki določajo postopek za dodeljevanje zmogljivosti prenosnega sistema za vstopne in izstopne točke znotraj Republike Slovenije.
+
+(3) Upravljanje prezasedenosti prenosnega sistema in trgovanje z zmogljivostmi na sekundarnem trgu se izvaja skladno s pravili, ki določajo upravljanja prezasedenosti prenosnega sistema in trgovanja z zmogljivostmi na sekundarnem trgu.
+
+68. člen
+
+(združene zmogljivosti)
+
+(1) Na povezovalnih točkah se v skladu z Uredbo 2017/459/EU storitve dostopa do sistema nudijo v obliki združene zmogljivosti, če je razpoložljiva zmogljivost na voljo na obeh straneh povezovalne točke in se o tem uskladita operaterja prenosnih sistemov na obeh straneh povezovalne točke.
+
+(2) Uporabnikom sistema se združena zmogljivost nudi kot zagotovljena in kot prekinljiva storitev dostopa. Združene zmogljivosti se za vsako posamezno povezovalno točko ponudijo na dražbah, skladno s pravili, ki urejajo dodeljevanje zmogljivosti na dražbah.
+
+(3) Če je v katerem koli obdobju na drugi strani povezovalne točke na voljo manj zagotovljenih zmogljivosti kot na strani prenosnega sistema v Republiki Sloveniji, lahko operater prenosnega sistema presežno zmogljivost na svoji strani povezovalne točke ponudi kot ločeno zmogljivost, vendar najdlje za čas do izteka pogodbe o prenosu za zmogljivost na drugi strani povezovalne točke.
+
+(4) Operater prenosnega sistema sodeluje z operaterji prenosnih sistemov na drugi strani povezovalne točke zaradi uskladitve ponudbe standardnih produktov združenih zmogljivosti. Cilj sodelovanja je tudi oblikovanje skupnih postopkov dodeljevanja združenih zmogljivosti in postopkov napovedi izvrševanja pogodb o prenosu za združene zmogljivosti.
+
+(5) Uporabnikom sistema se zmogljivosti, ki so jim bile dodeljene na obeh straneh povezovalne točke kot ločene zmogljivosti, na njihovo zahtevo preoblikujejo v združene zmogljivosti, če so uporabniki sistema o tem dosegli dogovor o združitvi in če to združitev odobri tudi operater prenosnega sistema na drugi strani povezovalne točke. V tem primeru se pogodba o prenosu za združeno zmogljivost sklene ob upoštevanju veljavnih pogojev iz obstoječih pogodb o prenosu, v nobenem primeru pa pogodba ne sme preseči trajanja obdobja najkrajše od prvotnih pogodb o prenosu na zadevni povezovalni točki.
+
+69. člen
+
+(določitev obsega ponudbe zmogljivosti na povezovalnih točkah)
+
+(1) Operater prenosnega sistema v sodelovanju z operaterji sosednjih prenosnih sistemov na drugi strani povezovalne točke zagotovi, da je ob upoštevanju celovitosti sistema, varnosti in učinkovitega obratovanja uporabnikom sistema na voljo največja možna zmogljivost na vseh povezovalnih točkah prenosnega sistema.
+
+(2) Operater prenosnega sistema z operaterji sosednjih prenosnih sistemov uskladi merila glede določitve skupne metodologije za izračun največje možne zmogljivosti povezovalnih točk v skladu z zahtevami iz 6. člena Uredbe 2017/459/EU.
+
+(3) Operater prenosnega sistema v skladu s šestim odstavkom 8. člena Uredbe 2017/459/EU in v soglasju z Agencijo določi delež tehnične zmogljivosti za vsako posamezno povezovalno točko, ki se zadrži in ponudi kot kratkoročna zagotovljena zmogljivost. Pred določitvijo deleža se opravi posvetovanje z zainteresiranimi uporabniki sistema in operaterji prenosnega sistema na drugi strani povezovalne točke.
+
+(4) Operater prenosnega sistema na svoji spletni strani redno izračunava in objavlja tehnične zmogljivosti posameznih vstopnih in izstopnih točk ter njihove omejitve.
+
+70. člen
+
+(naložbe v novo tehnično zmogljivost povezovalnih točk)
+
+(1) Dostop do nove tehnične zmogljivosti operater prenosnega sistema ponudi v obliki standardnih produktov zmogljivosti na povezovalnih točkah. Če gre za medsebojno pogojeno naložbo na obeh straneh povezovalne točke ali če obstaja razpoložljiva zmogljivost na drugi strani povezovalne točke in če to omogoči operater prenosnega sistema na drugi strani povezovalne točke, se dostop do nove tehnične zmogljivosti ponudi kot združena zmogljivost iz 68. člena tega akta.
+
+(2) Za prvo dodelitev nove tehnične zmogljivosti na primarnem trgu se ne uporabljajo določbe prvega do sedmega odstavka 8. člena, 11. do 18. člena, drugega odstavka 19. člena in 32. do 37. člena Uredbe 2017/459/EU, razen za zmogljivost, ki ostane neprodana po tem, ko je bila ponujena z drugim tržno zasnovanim postopkom.
+
+(3) V primeru iz prejšnjega odstavka operater prenosnega sistema uporabi za dodelitev novih zmogljivosti druge pregledne in nediskriminatorne postopke, ki so združljivi s tržnimi mehanizmi, kot je na primer odprti razpisni postopek, na podlagi katerega operater prenosnega sistema od zainteresiranih uporabnikov sistema zbere zavezujoče ponudbe za sklenitev pogodb o prenosu za nove zmogljivosti.
+
+(4) Nova tehnična zmogljivost se lahko na podlagi teh postopkov dodeli zainteresiranim uporabnikom sistema še pred pričetkom investicije. V tem primeru lahko operater prenosnega sistema zahteva od ponudnikov, da izpolnjujejo minimalne pogoje glede finančne sposobnosti in da, kadar je to primerno, predložijo ustrezna zavarovanja za primer, če kasneje ne bi sklenili pogodb o prenosu ali če bi pogodbo kršili.
+
+(5) Če gre za medsebojno pogojeno naložbo na obeh straneh povezovalne točke ali v primeru združevanja zmogljivosti na obeh straneh povezovalne točke, se razpisni postopek za dodelitev novih združenih zmogljivosti lahko izvede v sodelovanju s sosednjim operaterjem prenosnega sistema.
+
+(6) Pri načrtovanju naložbe v novo tehnično zmogljivost povezovalnih točk je v okviru priprave besedila 10-letnega razvojnega načrta predmet posvetovanja z zainteresiranimi stranmi tudi delež nove zmogljivosti, ki se zadrži in ponudi kot kratkoročna zmogljivost, pri čemer ta delež ne more biti manjši od 10 % nove tehnične zmogljivosti.
+
+2.
+Virtualna točka prenosnega sistema
+
+71. člen
+
+(storitve virtualne točke)
+
+(1) Operater prenosnega sistema skladno s tem aktom nudi naslednje storitve virtualne točke:
+
+– omogočanje izvedbe transakcij s plinom;
+
+– storitev oglasne deske.
+
+(2) Storitve virtualne točke lahko koristijo le člani virtualne točke.
+
+72. člen
+
+(transakcije s plinom v prenosnem sistemu)
+
+(1) Podjetja plinskega gospodarstva in končni odjemalci (v nadaljnjem besedilu: udeleženci trga s plinom) izvajajo vse transakcije s količinami plina v prenosnem sistemu v virtualni točki.
+
+(2) Transakcija je vsak pravni posel, ki ga sklene udeleženec trga s plinom, na podlagi katerega se spremeni pravica do razpolaganja z določeno količino plina v prenosnem sistemu v enem ali več obračunskih intervalih, vključno z vsemi pravnimi posli, ki lahko privedejo do take spremembe, tudi če celotno zaporedje teh pravnih poslov od oddaje do odjema plina ni povzročilo spremembe končnega odjemalca.
+
+(3) Šteje se, da so vse transakcije količin plina v prenosnem sistemu med posameznimi udeleženci transakcije izvedene v virtualni točki in na nivoju obračunskega intervala, in to ne glede na vstopno ali izstopno točko prenosnega sistema in ne glede na določila posameznih pogodb o dobavi.
+
+(4) V okviru transakcij s količinami plina v virtualni točki je dopustna tudi transakcija količin plina, ne da bi udeleženec transakcije imel sklenjeno pogodbo o prenosu plina, vendar pa mora biti za obseg količin, ki so predmet transakcije, sklenjena ustrezna pogodba o prenosu na vstopni in ustrezna pogodba o prenosu na izstopni točki za obračunsko obdobje ali obdobja, na katera se nanaša transakcija.
+
+73. člen
+
+(storitve oglasne deske)
+
+(1) Oglasna deska je storitev, ki se izvaja preko spletne aplikacije, zaščitene z ustrezno stopnjo zaščite operaterja prenosnega sistema, ki članom virtualne točke omogoča pregledne objave o ponudbi in povpraševanju po količinah plina.
+
+(2) Operater prenosnega sistema ne odgovarja za resničnost objavljenih podatkov v objavah.
+
+(3) Na spletni strani operaterja prenosnega sistema se objavijo samo agregirani podatki iz oglasne deske (vrsta objave, količine plina in obdobje).
+
+74. člen
+
+(registracija članstva virtualne točke)
+
+(1) Udeleženec trga s plinom se registrira v virtualni točki tako, da z operaterjem prenosnega sistema sklene pogodbo o članstvu. Vzorec pogodbe o članstvu objavi operater prenosnega sistema na svoji spletni strani.
+
+(2) Udeleženec trga s plinom, ki postane član virtualne točke, lahko prične uporabljati storitve virtualne točke, za katero je sklenil pogodbo o članstvu, najprej peti delovni dan od dneva, ko operater prenosnega sistema prejme vrnjeno podpisano pogodbo o članstvu, in kolikor je poravnal članarino za članstvo v virtualni točki. Pogodba o članstvu se sklene za nedoločen čas.
+
+(3) Članstvo v virtualni točki lahko oseba, ki je član virtualne točke, kadarkoli prekliče na podlagi pisne izjave. Članstvo v virtualni točki preneha z dnem, ki ga določi član virtualne točke, ki pa ne sme biti krajši od petih delovnih dni od dneva, ko operater prenosnega sistema prejme izjavo o prenehanje članstva.
+
+(4) Operater prenosnega sistema lahko prekliče članstvo v virtualni točki, če član:
+
+– pravočasno ne poravna zapadlih obveznosti do operaterja prenosnega sistema iz naslova opravljenih storitev virtualne točke,
+
+– kljub pozivu operaterja za predložitev ustreznega zavarovanje obveznosti skladno s tretjim odstavkom 78. člena tega akta, te zahteve ne izpolni.
+
+75. člen
+
+(priglasitev transakcij v virtualni točki)
+
+(1) Člani virtualne točke lahko izvedejo transakcijo s količinami plina v virtualni točki pod pogojem, da operaterju prenosnega sistema priglasijo transakcije. Člani bilančnih skupin so dolžni operaterju prenosnega sistema priglasiti vse transakcije s plinom. Člani virtualne točke lahko za posamezna odjemna ali prevzemna mesta, ki so vključena v eno ali več bilančnih skupin, pooblastijo nosilca te bilančne skupine, da le-ta po njihovem pooblastilu priglasi transakcije s količinami plina v prenosnem sistemu v virtualni točki.
+
+(2) Priglasitve transakcij se posredujejo operaterju prenosnega sistema preko spletne aplikacije iz 73. člena tega akta z naslednjimi podatki:
+
+– kontaktni podatki pošiljatelja priglasitve;
+
+– količina plina v transakciji;
+
+– datum plinskega dne, za katerega velja priglasitev;
+
+– udeleženi člani v predmetni transakciji;
+
+– vrsta priglasitve (prodaja oziroma nakup).
+
+(3) Transakcijo, ki se nanaša na dobavo za dan vnaprej, so udeleženci transakcije upravičeni priglasiti na predhodni plinski dan dobave »D-1« v dveh rokih, in sicer praviloma do 14.00 oziroma najkasneje do 19.00.
+
+(4) Transakcijo, ki se nanaša na dobavo znotraj plinskega dneva »D«, so udeleženci transakcije upravičeni priglasiti v intervalu med 9.00 in 19.00 z učinkovanjem vsaj dve uri od prve polne ure, ki sledi priglasitvi transakcije. Operater prenosnega sistema preverja skladnost transakcij vsako polno uro znotraj intervala za priglasitev transakcij za dobavo znotraj plinskega dneva.
+
+(5) Transakcijo, ki se nanaša na tedensko dobavo, ki velja od ponedeljka od 6.00 do naslednjega ponedeljka do 6.00 (sedem dni), so udeleženci transakcije upravičeni priglasiti najkasneje na predhodni plinski dan tedenske dobave »nedelja« do 14.00.
+
+(6) Transakcijo, ki se nanaša na mesečno dobavo, ki velja od prvega dne v mesecu od 6.00 do prvega dneva naslednjega koledarskega meseca do 6.00, so udeleženci transakcije upravičeni priglasiti na zadnji plinski dan v predhodnem koledarskem mesecu do 14.00.
+
+(7) Vsak od udeležencev v posamezni transakciji mora za vsak pravni posel v transakciji posredovati svojo priglasitev.
+
+(8) Priglasitev, ki ni posredovana na predpisan način, se šteje za neobstoječo.
+
+76. člen
+
+(zavrnitev priglasitve)
+
+(1) Operater prenosnega sistema lahko zavrne priglasitev, če:
+
+– posamezna transakcija oziroma veriga transakcij ni skladna s sklenjeno pogodbo o prenosu na vstopni točki in s sklenjeno pogodbo o prenosu na izstopni točki, ali
+
+– če posamezna transakcija oziroma verige transakcij ni zaključena, ali
+
+– če ni podana skladnost količin vsake posamezne priglasitve v verigi transakcij in skladnost količin celotne verige transakcij.
+
+(2) V primeru iz prejšnjega odstavka se taka transakcija v celoti zavrne. Izvršitev pogodb o dobavi v okviru tako prijavljenih transakcij ni mogoča.
+
+(3) Operater prenosnega sistema posreduje vsakemu članu virtualne točke, ki je posredoval priglasitev transakcije in njegovemu pooblaščencu, če ga le-ta ima, informacijo o odobrenih količinah najkasneje:
+
+– za transakcijo, ki se nanaša na dobavo za dan vnaprej, v roku 30 min po izteku roka za priglasitev transakcije;
+
+– za transakcijo znotraj plinskega dneva »D« v roku 30 min po izteku roka za priglasitev transakcije;
+
+– za transakcijo, ki se nanaša na tedensko dobavo, ki velja od ponedeljka od 6.00 do naslednjega ponedeljka do 6:00 (sedem dni), v roku 30 min po izteku roka za priglasitev;
+
+– za transakcijo, ki se nanaša na mesečno dobavo, ki velja od prvega dne v mesecu od 6.00 do prvega dneva naslednjega koledarskega meseca do 6.00, v roku 30 min po izteku roka za priglasitev.
+
+77. člen
+
+(alokacije količin)
+
+(1) Alokacije količin v virtualni točki se izvedejo po načelu, da je alocirana količina enaka odobreni količini.
+
+(2) Mesečno poročilo alociranih količin plina pripravi operater prenosnega sistema v petih delovnih dneh tekočega koledarskega meseca za pretekli mesec.
+
+(3) Mesečno poročilo obsega pregled izvedenih transakcij po posameznih dnevih in je priloga računa za znesek izvedenih transakcij, ki ga izda operater prenosnega sistema udeležencem v transakciji.
+
+78. člen
+
+(cena storitev virtualne točke)
+
+(1) Člani virtualne točke plačujejo operaterju prenosnega sistema stroške registracije in ceno za vsako izvedeno transakcijo v virtualni točki.
+
+(2) Strošek registracije in strošek posamezne transakcije določi operater prenosnega sistema po predhodnem soglasju Agencije, o čemer izda cenik in ga objavi na svoji spletni strani.
+
+(3) Če član virtualne točke svojih obveznosti ne poravna pravočasno, ima operater prenosnega sistema pravico od njega nemudoma zahtevati primerno zavarovanje plačila.
+
+VII. IZRAVNAVA ODSTOPANJ V PRENOSNEM SISTEMU
+
+1.
+Uporaba akta
+
+79. člen
+
+(subsidiarnost)
+
+(1) Z določili akta v tem poglavju se določajo pravila za izvajanje Uredbe 312/2014/EU.
+
+(2) Določila akta v tem poglavju se uporabljajo glede tistih vprašanj izravnave odstopanj v prenosnem sistemu, ki jih predpis iz prejšnjega odstavka ne ureja.
+
+(3) Določila tega poglavja se ne uporabljajo v obdobju, ko je razglašena stopnja izrednih razmer pri oskrbi s plinom, ko operater prenosnega sistema izvede določene ukrepe, opredeljene v ZOP ali Odredbi o načrtu za izredne razmere pri oskrbi s plinom (Uradni list RS, št. 109/23), tem aktu ali na podlagi Uredbe 2017/1938/EU, kolikor bi bila uporaba pravil v tem poglavju nezdružljiva s sprejetimi ukrepi v obdobju, ko je razglašena stopnja izrednih razmer pri oskrbi s plinom.
+
+2.
+Organiziranost sistema izravnave odstopanj
+
+80. člen
+
+(območje izravnave)
+
+(1) Za varno in zanesljivo obratovanje prenosnega sistema je pomembno, da je količina plina, ki ga uporabniki sistema predajo v sistem na vstopnih točkah prenosnega sistema, za vsak obračunski interval enaka količini plina, ki ga uporabniki sistema prevzamejo na izstopnih točkah iz prenosnega sistema.
+
+(2) V območje izravnave po tem aktu so vključene vse vstopne in izstopne točke na prenosnem sistemu ter virtualna točka.
+
+81. člen
+
+(primarna odgovornost uporabnikov sistema za izravnavo odstopanj v območju izravnave)
+
+(1) Uporabniki sistema nosijo primarno odgovornost za izravnavo količinskih odstopanj med predajami in prevzemi plina iz prenosnega sistema, tako da sklenejo bilančno pogodbo in da je čim manjša potreba po tem, da operater prenosnega sistema izvaja ukrepe izravnave iz 93. člena tega akta.
+
+(2) Uporabnike sistema se v skladu s tem aktom spodbuja, da v okviru območja izravnave uporabijo možnosti za trgovanje s plinom za izravnavo v virtualni točki.
+
+(3) Če uporabnik sistema ne uspe zagotoviti, da je vsota prevzetih količin plina na vstopnih točkah prenosnega sistema za vsak obračunski interval enaka vsoti predanih količin plina na njegovih izstopnih točkah iz prenosnega sistema, ki so vključene v njegovo bilančno skupino, mu operater prenosnega sistema obračuna stroške za izravnavo dnevnih odstopanj skladno z določili tega akta.
+
+(4) Izračun količinskega dnevnega odstopanja se na podlagi točke (i) pod (b) drugega odstavka 21. člena Uredbe 312/2014/EU ustrezno prilagodi za količine plina za sistemske razlike, ki so posledica merilnih negotovosti.
+
+82. člen
+
+(vloga operaterja prenosnega sistema)
+
+(1) Operater prenosnega sistema v skladu z določili akta v tem poglavju opravlja naslednje naloge v sistemu izravnave odstopanj:
+
+– organizira bilančno shemo za območje izravnave iz 84. člena tega akta;
+
+– izvaja aktivne ukrepe izravnave iz 93. člena tega akta;
+
+– opravlja naloge operaterja trgovalne platforme iz 94. člena tega akta;
+
+– sprejema in potrjuje napovedovanje prevzemov in predaj plina;
+
+– izvaja obračunavanje stroškov za izravnavo dnevnih odstopanj.
+
+(2) Za namene izravnave količinskih odstopanj operater prenosnega sistema skladno z določili 94. do 97. člena tega akta v virtualni točki prenosnega sistema zagotovi pogoje za trgovanje s količinami plina, ki so potrebne za izravnavo odstopanj med obračunskim dnevom in za dan vnaprej.
+
+(3) V skladu s pravili iz 5. člena Uredbe 312/2014/EU operater prenosnega sistema izvede transfer plina med bilančnimi skupinami kot predajo iz bilančne skupine, ki je v skladu s 75. členom tega akta priglasila transakcijo za predajo, in ga dodeli kot prevzem v bilančno skupino, ki priglasi transakcijo za prevzem.
+
+(4) Operater prenosnega sistema si prizadeva v okviru tehničnih in ekonomsko učinkovitih možnosti čim več potreb po izravnavi odstopanj zagotoviti prek trgovanja s kratkoročnimi standardiziranimi produkti na izravnalnem trgu. Preostanek odstopanj, ki jih ni mogoče izravnati na trgu ali bi bilo to ekonomsko neučinkovito, izravna operater prenosnega sistema v potrebnem obsegu, ki ga omogoča razpoložljivost prenosnih zmogljivosti, z uporabo sistemske storitve izravnave.
+
+83. člen
+
+(načelo stroškovne nevtralnosti)
+
+(1) Operater prenosnega sistema zagotovi, da v zvezi z izvajanjem nalog za izravnavo odstopanj po tem aktu in Uredbi 312/2014/EU ne zadrži nobene koristi ali utrpi izgube. Vse neto koristi ali stroške, ki izhajajo iz izvajanja teh nalog, operater prenosnega sistema prenese na uporabnike sistema, tako da jim v skladu z določili tega akta plača presežek prihodkov nad stroški oziroma jim zaračuna primanjkljaj.
+
+(2) Operater prenosnega sistema zagotavlja preglednost podatkov o skupnih stroških in prihodkih, ki nastanejo pri izvajanju nalog za izravnavo odstopanj, ter jih mesečno v petnajstih delovnih dneh za pretekli mesec objavlja na svoji spletni strani.
+
+3.
+Združevanje uporabnikov sistema v bilančne skupine
+
+84. člen
+
+(združevanje uporabnikov sistema v bilančne skupine)
+
+(1) Za območje izravnave iz 80. člena tega akta operater prenosnega sistema s sklepanjem bilančnih pogodb z uporabniki sistema organizira hierarhično urejeno bilančno shemo zaradi združevanja uporabnikov sistema v bilančne skupine.
+
+(2) Pred uporabo prenosnih zmogljivosti na vstopnih in izstopnih točkah se morajo uporabniki sistema na območju izravnave obvezno vključiti v bilančno shemo.
+
+(3) Uporabnik sistema se vključi v bilančno shemo s sklenitvijo bilančne pogodbe, na podlagi katere oblikuje lastno bilančno skupino (v nadaljnjem besedilu: nosilec bilančne skupine), ali tako da sklene pogodbo iz 91. člena tega akta z drugim uporabnikom sistema, ki je nosilec bilančne skupine ali bilančne podskupine (v nadaljnjem besedilu: člani bilančne skupine).
+
+(4) Količinska dnevna odstopanja prevzema in predaje plina operater prenosnega sistema ugotavlja posamično za vsako bilančno skupino. Bilančna skupina se za namen obračunavanja količinskih odstopanj prevzema in predaje plina šteje kot en uporabnik prenosnega sistema.
+
+85. člen
+
+(ustanovitev bilančne skupine)
+
+(1) Operater prenosnega sistema sklene bilančno pogodbo z uporabnikom sistema, če izpolnjuje pogoje iz 90. člena tega akta, in sicer ne glede na to ali ima nosilec bilančne skupine sklenjeno pogodbo o prenosu.
+
+(2) Dobavitelj plina, od katerega operater prenosnega sistema prevzame plin na vstopni točki prenosnega sistema, mora z operaterjem prenosnega sistema skleniti bilančno pogodbo zaradi ustanovitve bilančne skupine, v katero se vključijo odjemna mesta uporabnikov sistema, ki jim je namenjena dobava plina na izstopnih točkah iz prenosnega sistema.
+
+(3) Nosilec bilančne skupine mora z operaterjem prenosnega sistema skleniti bilančno pogodbo najpozneje deset delovnih dni pred začetkom delovanja bilančne skupine.
+
+(4) Bilančna pogodba, sklenjena med operaterjem prenosnega sistema in nosilcem bilančne skupine, vsebuje vsaj:
+
+– naziv in naslov pogodbenih strank;
+
+– opis načina zajemanja in sporočanja podatkov;
+
+– obvezo pogodbenih strank, da bosta podatke pridobljene neposredno ali posredno pri obračunavanju odstopanj, uporabljali le za namene povezane z obračunom odstopanj in jih ne bosta sporočali tretjim osebam, razen za izpolnjevanje obveznosti, ki izhajajo iz zakona ali izvedbenega predpisa;
+
+– pravice in dolžnosti pogodbenih strank ob odstopu od pogodbe;
+
+– način reševanja sporov;
+
+– način zavarovanja za primer neplačila pogodbenih obveznosti;
+
+– določbe o trajanju veljavnosti pogodbe in razlogih za njeno prenehanje;
+
+– prilogo, v kateri stranki navedeta nosilce bilančnih podskupin z njihovim nazivom in naslovom ter vstopne in izstopne točke, ki so vključene v bilančno skupino. V primeru sprememb podatkov iz priloge, stranki nadomestita prilogo z novo prilogo, v kateri navedeta vsakokrat aktualne podatke.
+
+86. člen
+
+(bilančna podskupina)
+
+(1) Član bilančne skupine lahko ustanovi bilančno podskupino in s tem postane nosilec bilančne podskupine.
+
+(2) Bilančna podskupina se ustanovi tako, da nosilec bilančne skupine oziroma nosilec nadrejene bilančne podskupine sklene pogodbo o izravnavi z nosilcem hierarhično nižje bilančne podskupine.
+
+(3) Nosilec nadrejene bilančne podskupine mora ob vsaki spremembi članstva v svoji podskupini obvestiti nosilca bilančne skupine, v katero je bilančna podskupina vključena, katere bilančne podskupine in katere izstopne točke do končnih odjemalcev ali vstopne točke proizvajalcev so vključene v njegovo podskupino.
+
+(4) Nosilec bilančne skupine mora o ustanovitvi bilančne podskupine obvestiti operaterja prenosnega sistema.
+
+87. člen
+
+(vključitev vstopnih in izstopnih točk v bilančno skupino)
+
+(1) Za vsako vstopno in izstopno točko na območju izravnave mora uporabnik sistema določiti, kateri bilančni skupini ali skupinam oziroma podskupinam pripada.
+
+(2) Če se pogodba o prenosu nanaša na zakup združene zmogljivosti na povezovalni točki, mora uporabnik sistema pred začetkom izvrševanja pogodbe o prenosu zagotoviti ustrezno urejenost izvrševanja pogodbe o prenosu na obeh straneh povezovalne točke.
+
+(3) Zakupljene zmogljivosti na vstopni in izstopni točki, razen izstopne točke do končnega odjemalca, distribucijskega sistema ali vstopne točke proizvajalca, lahko uporabnik sistema vključi tudi v več bilančnih skupin. V takem primeru mora uporabnik sistema sporočiti operaterju prenosnega sistema razmerje med zmogljivostmi, ki so vključene v posamezno bilančno skupino na tej vstopni ali izstopni točki.
+
+(4) Izstopna točka do končnega odjemalca ali vstopna točka proizvajalca je lahko vključena le v eno bilančno skupino oziroma podskupino, z nosilcem katere končni odjemalec zaradi izravnave odstopanj na tej vstopni ali izstopni točki sklene odprto pogodbo o dobavi.
+
+(5) Ne glede na prejšnji odstavek je lahko ob pogoju iz petega odstavka 80. člena ZOP izstopna točka do končnega odjemalca ali vstopna točka proizvajalca vključena tudi v več bilančnih skupin, z nosilci katerih ima uporabnik sklenjeno odprto pogodbo o dobavi. V takem primeru mora uporabnik za vsak obračunski interval sporočiti operaterju prenosnega sistema količinsko razmerje med posameznimi bilančnimi skupinami, ki jim pripada izstopna ali vstopna točka, sicer operater prenosnega sistema upošteva zadnje sporočeno razmerje.
+
+(6) Če se uporabnik, ki mu pripada vstopna ali izstopna točka, ne vključi v nobeno bilančno skupino, si mora zagotoviti izravnavo odstopanj s sklenitvijo bilančne pogodbe, v skladu s katero se zanj smiselno uporabljajo vse določbe tega akta in Uredbe 312/2014/EU, ki veljajo za nosilce bilančnih skupin.
+
+88. člen
+
+(naloge bilančnih skupin)
+
+(1) Nosilec bilančne skupine je operaterju prenosnega sistema odgovoren za izpolnjevanje naslednjih nalog bilančne skupine:
+
+– napovedovanje količin prevzema in predaje plina na vseh vstopnih in izstopnih točkah njegove bilančne skupine, za katere se skladno s tem aktom zahteva predložitev napovedi;
+
+– s primernimi ukrepi izravnavati količinska odstopanja med prevzemi in predajo plina v bilančni skupini;
+
+– aktivno sodelovanje na izravnalnem trgu kratkoročnih standardiziranih produktov;
+
+– obveščanje operaterja prenosnega sistema o vseh informacijah, ki bi lahko vplivale na njegovo sposobnost izravnavanja odstopanja;
+
+– obveščanje operaterja prenosnega sistema o sklenjenih dobavnih pogodbah z uporabniki na prenosnem sistemu;
+
+– vodenje evidence odjemnih ali oddajnih mest in ažurno sporočanje podatkov o spremembah članov bilančne skupine operaterju prenosnega sistema;
+
+– plačevanje stroškov dnevnega odstopanja.
+
+(2) Nosilec bilančne skupine mora ob sklenitvi pogodbe oziroma najkasneje dva delovna dneva pred spremembo članstva v svoji bilančni skupini pisno ali po elektronski pošti obvestiti operaterja prenosnega sistema, kateri uporabnik sistema in njegove prenosne zmogljivosti v okviru zakupljenih prenosnih zmogljivosti na posameznih vstopnih in izstopnih točkah spadajo v njegovo bilančno skupino.
+
+89. člen
+
+(odgovornost nosilca bilančne skupine za izravnavo odstopanj)
+
+(1) Nosilec bilančne skupine mora s primernimi ukrepi zagotoviti izravnavo količinskih odstopanj svoje bilančne skupine tako, da je čim manjša potreba po tem, da operater prenosnega sistema izvaja ukrepe za izravnavo odstopanj v prenosnem sistemu.
+
+(2) Če nosilec bilančne skupine sam ne dobavlja plina članom njegove bilančne skupine, ali ga ne dobavlja v celoti, mora s pogodbo zagotoviti, da ustrezne količine plina za vsak obračunski interval predajajo v prenosni sistem drugi dobavitelji. Podatke o teh pogodbah mora nosilec bilančne skupine posredovati operaterju prenosnega sistema najkasneje dva delovna dneva pred pričetkom posameznega obračunskega intervala.
+
+(3) Če pride v bilančni skupini do dnevnega odstopanja med prevzemi in predajo zaradi kratkoročnih nihanj v ponudbi in povpraševanju po plinu, si mora nosilec bilančne skupine prizadevati, da odstopanja izravna s primernimi ukrepi, ki vključujejo zlasti sklepanje pogodb o dobavi plina za izravnavo z drugimi uporabniki sistema ali z operaterjem prenosnega sistema na izravnalnem trgu kratkoročnih standardiziranih produktov.
+
+(4) Če nosilec bilančne skupine ne zagotovi izravnave odstopanj iz prejšnjega odstavka in jih operater prenosnega sistema ne more izravnati, operater prenosnega sistema pozove nosilca bilančne skupine na izvedbo primernih ukrepov za izravnavo. Če nosilec bilančne skupine tudi na poziv ne zagotovi izravnave odstopanj, mu operater prenosnega sistema lahko omeji prevzem ali omeji predajo plina.
+
+90. člen
+
+(pogoji, ki jim mora izpolnjevati nosilec bilančne pogodbe)
+
+(1) Uporabnik sistema, ki želi postati nosilec bilančne skupine, mora izpolnjevati naslednje pogoje:
+
+– da ni v postopku prisilne poravnave ali stečaja ali da zanj ni bil podan predlog za začetek postopka prisilne poravnave ali stečaja;
+
+– da ima zagotovljeno 24-urno kontaktno točko;
+
+– da predloži finančno jamstvo v obliki bančne garancije ali denarnih sredstev na posebnem računu operaterja prenosnega sistema kot zavarovanje za poravnavo obveznosti iz sklenjene bilančne pogodbe.
+
+(2) Višina finančnega jamstva iz tretje alineje prejšnjega odstavka:
+
+1. se za bilančne skupine, ki vključujejo izstopne točke v Republiki Sloveniji, izračuna po naslednji formuli:
+
+ZJ=10.000+3,2/100*Q
+p,m
+*c
+plina
+*2
+
+kjer pomeni:
+
+– ZJ (EUR)
+znesek finančnega jamstva, ki ga je potrebno predložiti;
+– Q
+p,m
+(kWh)
+povprečna mesečna količina plina, ki je bil v zadnjih zaporednih 12 mesecih pred predložitvijo vloge za nosilca bilančne skupine prenesen za zadevnega uporabnika sistema. V primeru, da je predlagatelj pred vložitvijo vloge prenosni sistem uporabljal manj kot 12 mesecev ali ga ni uporabljal, se upošteva povprečno mesečno količino, kot bo predvidoma prenesena za vlagatelja po njegovi oceni za naslednjih 12 mesecev;
+– c
+plina
+(EUR/kWh)
+cena plina, določena skladno s točko b) drugega odstavka 111. člena tega akta na dan vložitve vloge;
+
+2. za bilančne skupine, ki ne vključujejo izstopnih točk v Republiki Sloveniji, znaša:
+
+– ZJ = 30.000
+– ZJ (EUR)
+znesek finančnega jamstva, ki ga je potrebno predložiti.
+
+(3) Višina finančnega jamstva iz prve točke prejšnjega odstavka se preverja po koncu vsakega koledarskega meseca glede na izveden obračun odstopanj prevzema in predaje plina. Za izračun potrebne višine finančnega jamstva se namesto c
+plina
+uporabi povprečna mesečna cena plina, določena v skladu s točko b) drugega odstavka 111. člena tega akta za zadnji razpoložljivi koledarski mesec.
+
+(4) V primeru, da se ob preverjanju ugotovi, da je višina mesečnega odstopanja večja od trenutno predloženega finančnega jamstva, je nosilec bilančne skupine dolžan ustrezno povečati finančno jamstvo v 30 dneh po tem, ko mu operater sistema pošlje pisni zahtevek za povečanje, sicer lahko operater prenosnega sistema odstopi od bilančne pogodbe. V primeru, da se ob preverjanju mesečnega odstopanja ugotovi, da so le-ta nižja od trenutno predloženega finančnega jamstva, lahko nosilec bilančne skupine zmanjša svoje finančno jamstvo. Višina finančnega jamstva v nobenem primeru ne more biti nižja od višine finančnega jamstva, izračunane oziroma določene na podlagi drugega odstavka tega člena.
+
+(5) Bančna garancija mora biti izdana s strani za operaterja prenosnega sistema sprejemljive banke v obliki brezpogojne, nepreklicne in plačljive na prvi pisni poziv in z obdobjem veljavnosti vsaj eno leto. Nosilec bilančne skupine mora obnoviti veljavnost bančne garancije najpozneje 30 dni pred iztekom roka veljavne bančne garancije, sicer lahko operater prenosnega sistema odstopi od bilančne pogodbe.
+
+91. člen
+
+(člani bilančne skupine)
+
+(1) Vsak uporabnik sistema mora biti vključen v bilančno skupino ali mora sam skleniti bilančno pogodbo. Uporabnik sistema se vključi v bilančno skupino s sklenitvijo pogodbe o izravnavi ali odprte pogodbe o dobavi, ki jo sklene z nosilcem bilančne skupine oziroma nosilcem bilančne podskupine.
+
+(2) Z medsebojnimi pogodbami iz prejšnjega odstavka člani bilančne skupine v notranjem razmerju uredijo porazdelitev bremen in odgovornosti za obvladovanje in upravljanje s tveganji količinskega odstopanja bilančne skupine.
+
+(3) Uporabnik sistema si mora zagotoviti izravnavo odstopanja na vstopni ali izstopni točki v Republiki Sloveniji s sklenitvijo odprte pogodbe o dobavi, s katero določi bilančno pripadnost vstopne ali izstopne točke skladno s četrtim in petim odstavkom 87. člena tega akta.
+
+92. člen
+
+(evidenca nosilcev bilančnih skupin in podskupin)
+
+(1) Operater prenosnega sistema vodi evidenco nosilcev bilančnih skupin in njihovih podskupin. Evidenca obsega tudi zbirko sklenjenih bilančnih pogodb ter spremembe teh pogodb.
+
+(2) Podatki o identiteti nosilcev bilančnih skupin in podskupin so javni in jih operater prenosnega sistema objavi na svoji spletni strani.
+
+4.
+Ukrepi operaterja prenosnega sistema za uravnoteženje sistema
+
+93. člen
+
+(ukrepi izravnave)
+
+(1) Za dosego ciljev uravnoteženega prenosnega sistema iz prvega odstavka 6. člena Uredbe 312/2014/EU, zaradi česar mora operater prenosnega sistema doseči spremembo pretoka plina v ali iz prenosnega sistema, lahko operater prenosnega sistema izvede enega ali več ukrepov izravnave, tako da:
+
+– kupi ali proda kratkoročne standardizirane produkte na izravnalnem trgu;
+
+– uporabi sistemsko storitev izravnave za uravnoteženje prenosnega sistema iz 98. člena tega akta.
+
+(2) Kadar operater prenosnega sistema izvaja ukrepe izravnave iz prejšnjega odstavka in sicer v obsegu, kot je to primerno za dosego ciljev iz prvega odstavka 6. člena Uredbe 312/2014/EU, operater prenosnega sistema praviloma daje prednost uporabi kratkoročnih standardiziranih produktov pred uporabo sistemske storitve izravnave.
+
+(3) V kolikor je sistemska storitev izravnave stroškovno učinkovitejša od kratkoročnih standardiziranih produktov, lahko operater prenosnega sistema prednostno uporabi sistemsko storitev izravnave, pri čemer upošteva kriterije iz drugega odstavka 8. člena Uredbe 312/2014/EU.
+
+94. člen
+
+(trgovalna platforma)
+
+(1) Operater prenosnega sistema v virtualni točki prenosnega sistema vzpostavi elektronsko trgovalno platformo kot storitev virtualne točke, ki za potrebe izravnave odstopanj omogoča operaterju prenosnega sistema in nosilcem bilančnih skupin (udeleženci trgovanja) izvedbo transakcij s količinami plina za dobavo znotraj dneva ali dan vnaprej. Operater prenosnega sistema opravlja vse naloge operaterja trgovalne platforme, ki jih v zvezi s to platformo določa Uredba 312/2014/EU.
+
+(2) Operater prenosnega sistema trguje na trgovalni platformi pod enakimi pogoji kot veljajo za ostale uporabnike sistema, ki so udeleženci trgovanja na trgovalni platformi. Trgovalne produkte uporablja z namenom, da bi uporabnike sistema spodbudil k čim večji izravnavi odstopanj na trgu, tako da bi bila čim manjša potreba po uporabi sistemske storitve izravnave za uravnoteženje prenosnega sistema.
+
+(3) Storitve trgovalne platforme, ki omogočajo sklepanje transakcij s kratkoročnimi standardiziranimi produkti, lahko koristijo uporabniki sistema, ki postanejo člani virtualne točke v skladu s 74. členom tega akta in z operaterjem prenosnega sistema sklenejo pogodbo o članstvu za te storitve.
+
+95. člen
+
+(pravila trgovanja na trgovalni platformi)
+
+(1) Transakcije s plinom se na trgovalni platformi sklepajo preko trgovalne elektronske aplikacije, ki udeležencem trgovanja omogoča anonimni vnos ponudbe za prodajo ali nakup kratkoročnih standardiziranih produktov neprekinjeno v celotnem dnevu dobave, sedem dni v tednu. Vnos ponudbe za prodajo ali nakup za določen kratkoročni standardizirani produkt ima za udeleženca trgovanja, ki je vnesel to ponudbo, učinek objave zavezujoče ponudbe, s sprejemom katere je sklenjen posel o prodaji ali nakupu tega produkta. Operater prenosnega sistema na svoji spletni strani objavi navodila za uporabo trgovalne elektronske aplikacije.
+
+(2) Udeleženci trgovanja morajo ves čas trgovanja ravnati kot dobri strokovnjaki in pri svojim ravnanju na trgovalni platformi ne smejo omejevati konkurence v nasprotju s pravili konkurenčnega prava ali v nasprotju s pravili o prepovedi zlorabe energetskega trga iz Uredbe (EU) št. 1227/2011 Evropskega parlamenta in Sveta z dne 25. oktobra 2011 o celovitosti in preglednosti veleprodajnega energetskega trga (UL L št. 326 z dne 8. 12. 2011, str. 1). Ravnanje udeleženca trga, ki je v nasprotju s prepovedanimi oblikami ravnanj na trgu, je razlog, zaradi katerega lahko operater prenosnega sistema prekliče njegovo članstvo v virtualni točki.
+
+96. člen
+
+(kratkoročni standardizirani produkti)
+
+(1) Vrste kratkoročnih produktov plina, s katerimi je mogoče trgovati na trgovalni platformi, določi operater prenosnega sistema ob upoštevanju predvsem tehničnih pogojev za nemoteno obratovanje in zanesljivosti delovanja prenosnega sistema. Pri vzpostavitvi ustreznih kratkoročnih standardiziranih produktov operater prenosnega sistema sodeluje tudi z operaterji sosednjih prenosnih sistemov.
+
+(2) Pri trgovanju s kratkoročnimi standardiziranimi produkti daje operater prenosnega sistema prednost, kadar in v obsegu, kot je to primerno, uporabi produktov znotraj dneva pred produkti za dan vnaprej in v okviru tega prednost uporabi nazivnih produktov v smislu tretjega odstavka 7. člena Uredbe 312/2014/EU pred drugimi razpoložljivimi kratkoročnimi standardiziranimi produkti.
+
+97. člen
+
+(objava informacij o trgovanju na trgovalni platformi)
+
+Udeležencem trgovanja se na trgovalni platformi razkrijejo naslednje informacije:
+
+– o trenutnih nakupnih in prodajnih ponudbenih cenah in količinah plina;
+
+– o ceni in količini plina za vsak sklenjen posel, ki se objavi v razumnem času po sklenitvi posla;
+
+– o gibanju mejne nakupne in mejne prodajne cene plina, ki se objavijo takoj po vsaki izvedeni transakciji.
+
+98. člen
+
+(nabava sistemske storitve izravnave za uravnoteženje prenosnega sistema)
+
+(1) Ko v skladu s prvim odstavkom 8. člena Uredbe 312/2014/EU operater prenosnega sistema svojih potreb po uravnoteženju prenosnega sistema ne more zadostiti z nabavo oziroma prodajo kratkoročnih standardiziranih produktov na trgu, si dostop do plina za uravnoteženje sistema zagotovi z naročilom sistemske storitve izravnave, tako da z izbranim ponudnikom sklene:
+
+– pogodbo, na podlagi katere ima od ponudnika pravico zahtevati, da na poziv ponudnik odkupi ali proda plin na povezovalni oziroma virtualni točki;
+
+– pogodbo o zakupu skladiščne zmogljivosti oziroma zmogljivosti za UZP.
+
+(2) Naročilo za nabavo sistemske storitve izravnave operater prenosnega sistema odda na podlagi izvedbe preglednega in nediskriminatornega razpisa ob upoštevanju tehničnih in ekonomskih meril.
+
+(3) Čas trajanja pogodbe o zagotavljanju sistemske storitve o izravnavi je lahko največ eno leto, razen če Agencija na predlog operaterja prenosnega sistema dovoli daljši čas trajanja.
+
+(4) Za potrebe izvajanja sistemske storitve izravnave operater prenosnega sistema v obsegu iz prvega odstavka tega člena rezervira ustrezen delež tehnične zmogljivosti na povezovalnih točkah, ki se neposredno zadrži za potrebe izvajanja sistemske storitve izravnave. Tako zadržani delež tehnične zmogljivosti se ne upošteva pri izračunu obsega največje možne zmogljivosti na teh povezovalnih točkah, ki se skladno z 69. členom tega akta ponudi na dražbi.
+
+99. člen
+
+(lastna raba)
+
+(1) Operater prenosnega sistema vsako leto pod konkurenčnimi in nepristranskimi pogoji z upoštevanjem tehničnih in ekonomskih meril objavi razpis za nakup plina za lastno rabo. Pri nakupu plina za potrebe operaterja prenosnega sistema se upoštevajo predvsem tehnična merila, nemoteno obratovanje prenosnega sistema, zanesljivost izvajanja prenosa plina in ekonomska merila.
+
+(2) Z najboljšim ponudnikom, izbranem v preglednem in nepristranskem postopku, sklene operater prenosnega sistema pogodbo o nakupu količin plina za lastno rabo.
+
+(3) Ob upoštevanju kriterijev iz prvega odstavka tega člena si operater prenosnega sistema kot dober gospodar prizadeva pogodbo iz prejšnjega odstavka skleniti pod najboljšimi tržnimi pogoji.
+
+100. člen
+
+(omejitev ali prekinitev prenosa)
+
+(1) Če operater prenosnega sistema za posamezno bilančno skupino ugotovi, da prevzem in predaja plina odstopa v takšni višini, da tega odstopanja z ukrepi izravnave ni mogoče izravnati, ne da bi bilo ogroženo uravnoteženo delovanje prenosnega sistema, pozove nosilca bilančne skupine k izpolnjevanju napovedanega odjema ali oddaje količin plina, tako da se zagotovi uskladitev predaje in prevzema plina, in mu določi rok, v katerem mora to storiti.
+
+(2) Če pozvani nosilec bilančne skupine ne zagotovi izravnave odstopanj, eden ali več članov njegove bilančne skupine pa kljub temu odjema plin iz ali oddaja plin v prenosni sistem in član ali več članov z obratovanjem svojih energetskih objektov in naprav ogrožajo premoženje, življenje ali zdravje ljudi, ravna operater prenosnega sistema v skladu s 60. členom tega akta.
+
+101. člen
+
+(naložitev obveznosti izravnave odstopanj znotraj dneva)
+
+(1) Z namenom, da se zagotovi sistemska celovitost prenosnega sistema in čim bolj zmanjša potreba po izvajanju ukrepov izravnave, ki jih je potrebno izvesti znotraj obračunskega dneva, lahko operater prenosnega sistema na podlagi 24. do 27. člena Uredbe 312/2014/EU Agenciji predlaga, da mu dovoli uvedbo obveznosti znotraj dneva, s katerimi bi od nosilcev bilančnih skupin zahteval izpolnitev določenih obveznosti glede izravnave odstopanj prevzemov in predaje plina znotraj dneva za dan dobave »D«.
+
+(2) Za primer odstopanja od obveznosti znotraj dneva lahko operater prenosnega sistema predvidi obveznost plačila zneska za obveznosti znotraj dneva, ki odraža stroške izravnave odstopanj znotraj dneva in je dovolj velik, da spodbudi nosilce bilančnih skupin k izravnavi njihovih pozicij znotraj dneva.
+
+(3) Ob uvedbi obveznosti znotraj dneva operater prenosnega sistema zagotovi uporabnikom sistema potrebne informacije o izmerjenih količinah plina in druge informacije, ki so pomembne za izpolnjevanje teh obveznosti.
+
+5.
+Obračunski interval ter napovedi prevzema in predaje plina
+
+102. člen
+
+(obračunski interval)
+
+(1) Obračunski interval za izravnavo odstopanj v območju izravnave je standardiziran dnevni interval od 6.00 tekočega dne do 6.00 naslednjega dne (v nadaljnjem besedilu: obračunski dan dobave ali tudi dan dobave »D«).
+
+(2) Ne glede na prejšnji odstavek lahko operater prenosnega sistema skladno s prejšnjim členom za posamezno kategorijo uporabnikov sistema znotraj obračunskega dneva izjemoma določi tudi krajši obračunski interval.
+
+(3) Količinsko odstopanje bilančne skupine, ki se je tekom vsakokratnega obračunskega intervala akumulirala na osnovi razlike med prevzetimi količinami na vstopnih točkah in predanimi količinami na izstopnih točkah, ki so vključene v posamezno bilančno skupino, se obračuna nosilcem bilančnih skupin skladno s 113. členom tega akta.
+
+(4) Po obračunu za dnevno odstopanje se šteje, da je za ta obračunski interval bilanca bilančne skupine izravnana in je njena pozicija ob začetku naslednjega obračunskega intervala enaka nič.
+
+103. člen
+
+(predhodna napoved uporabe prenosnih zmogljivosti)
+
+(1) Uporabniki sistema lahko izvršujejo pravice iz pogodb o prenosu pod pogojem, da pred pričetkom izvršitve dobav v rokih, določenih s tem aktom, predložijo operaterju prenosnega sistema napoved uporabe dodeljenih zmogljivosti na vstopnih in izstopnih točkah, za katere velja obveznost napovedi skladno s tem aktom.
+
+(2) Pravice do prenosa lahko uporabniki sistema na določen dan dobave plina izvršijo v obsegu količin, ki jih je v skladu s tem aktom potrdil operater prenosnega sistema.
+
+104. člen
+
+(obveznost napovedi)
+
+(1) Nosilec bilančne skupine mora operaterju prenosnega sistema za vsak obračunski dan dobave predhodno napovedati količine prevzema in predaj plina za bilančno skupino.
+
+(2) Napoved je obvezna za vse vstopne točke in vse povezovalne izstopne točke, ki so vključene v bilančno skupino, za izstopne točke v Republiki Sloveniji iz bilančne skupine pa v agregirani količini teh točk. Za posamezne izstopne točke v Republiki Sloveniji iz bilančne skupine je napoved obvezna le, če:
+
+– za izstopno točko obstaja več kot ena pogodba o dobavi, pri tem se ne upoštevajo izstopne točke do distribucijskega sistema, ali
+
+– je pogodbena zmogljivost za izstopno točko do končnega odjemalca pomembna za nemoteno delovanje prenosnega sistema.
+
+(3) Izstopne točke iz druge alineje prejšnjega odstavka operater prenosnega sistema sporoči nosilcu bilančne skupine, v katero je izstopna točka vključena.
+
+(4) Pri napovedi morajo nosilci bilančnih skupin upoštevati:
+
+– da je napoved količin prevzema in predaje v okviru zakupljenih pogodbenih zmogljivosti na vstopnih in izstopnih točkah, za katere obstaja obveznost napovedi;
+
+– druge tehnične omejitve zakupljenih vstopnih in izstopnih točk, ki izhajajo iz pogodbe o prenosu;
+
+– morebitne obratovalne omejitve prenosnega sistema, ki jih v skladu s tem aktom ali drugimi predpisi sprejme operater prenosnega sistema in veljajo za dan dobave »D«, na katerega se nanaša napoved.
+
+(5) Nosilec bilančne skupine mora zagotoviti 24-urno dosegljivost, s katero je operaterju prenosnega sistema na voljo za obveščanje in izmenjavo informacij v primeru morebitnih večjih odstopanj ali obratovalnih posegov na prenosnem sistemu, ki lahko vplivajo na izvršitev dobavnih pogodb.
+
+105. člen
+
+(dnevna napoved)
+
+(1) Nosilci bilančnih skupin so za posamezno bilančno skupino dolžni predložiti dnevno napoved prevzema in predaje plina.
+
+(2) Nosilec bilančne skupine mora predložiti dnevno napoved za določen dan dobave (»D«) najkasneje do 14.00 predhodnega dne (v nadaljnjem besedilu: dan »D-1«).
+
+106. člen
+
+(vsebina napovedi)
+
+(1) Napoved količin, ki jih predložijo nosilci bilančnih skupin za vstopne točke in povezovalne izstopne točke, morajo vsebovati podatke iz 13. člena Uredbe 312/2014/EU in 83. člena ZOP.
+
+(2) Napoved količin za nepovezovalne izstopne točke, za katere se zahteva napoved skladno z drugim in tretjim odstavkom 104. člena tega akta, mora vsebovati naslednje podatke:
+
+– čas začetka in konca pretoka plina, za katerega se posreduje napoved;
+
+– dan dobave plina »D«;
+
+– količino predaje, za katero se zahteva prenos, ki mora biti podana ločeno za posamezno pogodbo o dobavi.
+
+107. člen
+
+(postopek potrjevanja napovedi)
+
+(1) V postopku potrjevanja napovedi za vsak obračunski dan dobave operater prenosnega sistema upošteva dnevne napovedi, ki jo prejme od nosilca bilančne skupine do roka iz drugega odstavka 105. člena tega akta.
+
+(2) Operater prenosnega sistema posreduje sporočilo o potrjenih količinah nosilcem bilančnih skupin najpozneje do 16.00 na dan »D-1«.
+
+(3) Operater prenosnega sistema lahko zavrne napoved, če je podan kateri od razlogov iz prvega odstavka 17. člena Uredbe 312/2014/EU.
+
+(4) Zavrnjenih napovedi uporabniki sistema ne smejo izvršiti.
+
+108. člen
+
+(spreminjanje potrjenih napovedi)
+
+(1) Nosilec bilančne skupine lahko spremeni predhodno potrjeno napoved, ki se nanaša na povezovalno vstopno ali izstopno točko, v skladu s pogoji in v rokih iz 15. člena Uredbe 312/2014/EU.
+
+(2) Operater prenosnega sistema lahko spremenjeno napoved zavrne, če je podan kateri od razlogov iz prvega in drugega odstavka 17. člena Uredbe 312/2014/EU.
+
+(3) Spremembo predhodno potrjene dnevne napovedi za vstopne oziroma izstopni točki v Republiki Sloveniji lahko nosilec bilančne skupine predloži najkasneje dve uri pred začetkom spremenjenega prenosa. Operater prenosnega sistema izvede tak prenos le, če pretočno tlačne razmere v prenosnem sistemu to omogočajo.
+
+109. člen
+
+(zagotavljanje sistemskih storitev na področju električne energije)
+
+(1) Uporabnik sistema lahko izjemoma za zagotavljanje sistemskih storitev na področju oskrbe z električno energijo, takoj ko dobi zahtevo za zagotavljanje sistemskih storitev na področju oskrbe z električno energijo, operaterju prenosnega sistema plina posreduje napoved prevzema in predaje plina v časovnem intervalu, ki je enak časovnemu intervalu, kot ga je uporabnik sam prejel v zahtevi za zagotavljanje sistemskih storitev na področju oskrbe z električno energijo.
+
+(2) Uporabnik sistema, ki operaterju prenosnega sistema posreduje napoved iz prejšnjega odstavka, lahko takšno napoved posreduje kot nosilec svoje, samostojne bilančne skupine in v to bilančno skupino ne sme vključiti odjemnih ali prevzemnih mest drugih uporabnikov sistema.
+
+(3) Napoved količin, ki jih predloži uporabnik sistema kot nosilec bilančne skupine iz prejšnjega odstavka, mora za vstopne točke vsebovati podatke iz 13. člena Uredbe 312/2014/EU, pri čemer mora biti napoved količin prevzema, za katere se zahteva prenos, podana ločeno za posamezno pogodbo o dobavi.
+
+(4) Napoved količin za nepovezovalne izstopne točke, za katere se zahteva napoved skladno z drugim in tretjim odstavkom 103. člena tega akta, mora vsebovati naslednje podatke:
+
+– čas začetka in konca pretoka plina, za katerega se posreduje napoved;
+
+– o urnih odjemih ali oddajah za dan dobave »D«;
+
+– količino predaje, za katero se zahteva prenos, ki mora biti podana ločeno za posamezno pogodbo o dobavi.
+
+(5) Če uporabnik sistema iz drugega odstavka tega člena ob posredovanju napovedi prenosa plina nima zagotovljene potrebne količine plina, mora kot nosilec samostojne bilančne skupine, hkrati z napovedjo na trgovalno platformo iz 95. člena tega akta, posredovati ponudbo za nakup kratkoročnih standardiziranih produktov.
+
+(6) Operater prenosnega sistema potrdi napoved uporabnika sistema iz drugega odstavka tega člena, če to dopuščajo prenosno tlačne razmere v sistemu in so izpolnjene vse zahteve iz tretjega do petega odstavka tega člena.
+
+6.
+Obračunavanje stroškov izravnave dnevnega odstopanja
+
+110. člen
+
+(nastanek obveznosti plačila za stroške dnevnega odstopanja)
+
+(1) Nosilci bilančnih skupin, ki imajo ob koncu obračunskega dneva za dan dobave »D« neizravnano pozicijo svoje bilančne skupine, so za ugotovljeno količino negativnih dnevnih odstopanj dolžni operaterju prenosnega sistema plačati znesek po ceni za negativna odstopanja oziroma so za ugotovljeno količino pozitivnih dnevnih odstopanj upravičeni do plačila oziroma prejema dobropisa po ceni za pozitivna odstopanja.
+
+(2) Količinska odstopanja prevzema in predaje plina se za posamezno bilančno skupino ugotavljajo na osnovi razlike med prevzetimi količinami na vstopnih točkah in predanimi količinami na izstopnih točkah, ki so vključene v to bilančno skupino.
+
+(3) Znesek za dnevno odstopanje, ki ga mora plačati ali do katerega je upravičen nosilec bilančne skupine, izračuna operater prenosnega sistema tako, da količino ugotovljenega dnevnega odstopanja za posamezno bilančno skupino pomnoži z veljavno ceno za stroške dnevnega odstopanja, ki se določi na podlagi 111. člena tega akta.
+
+111. člen
+
+(metodologija za določitev veljavne cene za obračun stroškov dnevnega odstopanja)
+
+(1) Veljavna cena, po kateri operater prenosnega sistema obračuna obveznosti za stroške dnevnega odstopanja, se določi kot mejna prodajna cena, če je količina dnevnega odstopanja pozitivna, oziroma kot mejna nakupna cena, če je količina dnevnega odstopanja negativna.
+
+(2) Mejna prodajna cena in mejna nakupna cena se za vsak obračunski dan dobave oblikujeta na osnovi referenčnih tržnih cen iz trgovanja z nazivnimi produkti na trgovalni platformi, tako da je:
+
+a) mejna prodajna cena nižja izmed:
+
+– najnižje cene morebitnih prodaj nazivnih produktov, v katerih je na trgovalni platformi sodeloval operater prenosnega sistema na dan dobave plina, ali
+
+– tehtane povprečne cene nazivnih produktov za dan dobave, zmanjšane za 10 %.
+
+b) mejna nakupna cena je višja izmed:
+
+– najvišje cene morebitnih nakupov nazivnih produktov, v katerih je na trgovalni platformi sodeloval operater prenosnega sistema na dan dobave, ali
+
+– tehtane povprečne cene nazivnih produktov za dan dobave, povišane za 10 %.
+
+(3) Tehtana povprečna cena iz prejšnjega odstavka pomeni na podlagi energije izračunana tehtana povprečna cena iz trgovanj z nazivnimi produkti na trgovalni platformi na dan dobave plina.
+
+(4) Če v posameznem dnevu dobave plina na trgovalni platformi ni bilo izvedenega trgovanja z nazivnimi produkti, se tehtana povprečna cena za izračun mejne prodajne in nakupne cene določi kot na podlagi energije tehtano povprečje zadnjih petih trgovanj z nazivnimi produkti na trgovalni platformi.
+
+(5) Vsakokratne veljavne cene za obračun stroškov dnevnega odstopanja se izrazijo v EUR/kWh in se zaokrožujejo na šest decimalnih mest z uporabo načela matematičnega zaokroževanja.
+
+112. člen
+
+(spremljanje količinskih odstopanj)
+
+(1) Po končanem obračunskem dnevu za dan dobave »D« operater prenosnega sistema ugotavlja in do 10.00 dneva »D+1« nosilcem bilančnih skupin zagotovi naslednje začasne podatke:
+
+– koliko plina je bilo prevzetega v sistem za uporabnike sistema,
+
+– koliko plina je bilo predanega iz sistema za uporabnike sistema,
+
+– alokacijo količin plina na prevzemnih in predajnih mestih z več dobavitelji oziroma odjemalci in skupno meritvijo,
+
+– količino plina, ki je bila predana končnim odjemalcem, priključenim na prenosni sistem,
+
+– količino plina, ki je bila porabljena za pogon kompresorjev,
+
+– dnevno količinsko odstopanje za posamezne uporabnike sistema,
+
+– preseganje pogodbene prenosne zmogljivosti pri posameznem uporabniku.
+
+(2) Po pretečenem mesecu »M« operater prenosnega sistema ugotovi in v desetih delovnih dneh po preteku meseca »M« nosilcem bilančnih skupin zagotovi podatke o:
+
+– količini plina, ki je bila prevzeta v omrežje za uporabnike vsak dan v mesecu »M«,
+
+– količini plina, ki je bila predana iz sistema za uporabnike vsak dan v mesecu »M«,
+
+– količini plina, ki je bila porabljena za lastno rabo v mesecu »M«,
+
+– količini plina o ugotovljenih sistemskih razlikah, ki so posledica merilnih negotovosti, porazdeljenih za vsak dan v mesecu »M«, v skladu z drugim odstavkom 114. člena tega akta,
+
+– podatkih o dnevnih odstopanjih za vsak obračunski dan za posamezne uporabnike prenosnega sistema,
+
+– alokaciji dnevnih količin na odjemnih mestih z več dobavitelji oziroma odjemalci in skupno meritvijo;
+
+– podatkih o stroških in prihodkih, ki izhajajo iz izvedenih ukrepov izravnave in ki so ločeno strukturirani po vrsti izvedenih ukrepov izravnave iz 93. člena tega akta.
+
+(3) Šteje se, da so ugotovitve in meritve, realizirane po pretečenem mesecu »M«, dokončne in se kot dokončne uporabljajo za vsakokratni obračun prenosa plina.
+
+113. člen
+
+(način obračuna stroškov dnevnega odstopanja)
+
+(1) V skladu s tem aktom obračunani stroški dnevnega odstopanja se uporabijo na način:
+
+– da se šteje, da je nosilec bilančne skupine po veljavni ceni, določeni za pozitivna odstopanja skladno s 111. členom tega akta, prodal operaterju prenosnega sistema plin v količini, ki je za dan dobave »D« enaka količini pozitivnega dnevnega odstopanja, zato je od operaterja prenosnega sistema upravičen do plačila stroškov za količine pozitivnega dnevnega odstopanja v znesku, določenem po naslednji formuli:
+
+kjer oznake pomenijo:
+
+Z
+PDO,d
+znesek pozitivnega dnevnega odstopanja,
+C
+PDO
+cena, določena za pozitivna odstopanja določena skladno s 111. členom tega akta,
+∆ Q
+PDO,d
+količina pozitivnega dnevnega odstopanja v dnevu dobave »D«;
+
+– da se šteje, da je nosilec bilančne skupine po veljavni ceni, določeni za negativna odstopanja skladno s 111. členom tega akta, kupil od operaterja prenosnega sistema plin v količini, ki je za dan dobave »D« enaka količini dnevnega odstopanja, zato je dolžan operaterju prenosnega sistema plačati stroške za količine negativnega dnevnega odstopanja v znesku, določenem po naslednji formuli:
+
+kjer oznake pomenijo:
+
+Z
+PDO,d
+znesek negativnega dnevnega odstopanja,
+C
+NDO
+cena, določena za negativna odstopanja določena skladno s 111. členom tega akta,
+∆ Q
+NDO,d
+količina negativnega dnevnega odstopanja v dnevu dobave »D«;
+
+(2) Saldo stroškov dnevnega odstopanja, ugotovljenih na način iz prejšnjega odstavka, operater prenosnega sistema poračuna enkrat mesečno za pretekli obračunski mesec. Saldo postavk za vse dni obračunskega meseca predstavlja končni znesek, ki ga operater prenosnega sistema zaračuna ali plača nosilcu bilančne skupine in se določi po naslednji formuli:
+
+kjer oznake pomenijo:
+
+Z o
+znesek, ki ga operater prenosnega sistema zaračuna ali plača nosilcu bilančne skupine,
+n
+število dni v mesecu.
+
+7.
+Sistemske razlike
+
+114. člen
+
+(sistemske razlike)
+
+(1) Sistemske razlike v prenosnem sistemu so višek ali manko energije in so posledica merilnih negotovosti in izgub. Izgube so količine plina, ki lahko nastanejo med obratovanjem prenosnega sistema ali med izvajanjem vzdrževalnih del na prenosnem sistemu. Sistemske razlike so sestavljene iz sistemskih razlik, ki so posledica merilnih negotovosti v kWh (SR
+MN
+) ter sistemskih razlik, ki so posledica izgub v kWh (SR
+IZ
+). Sistemskih razlik kot takih ni mogoče izmeriti in predstavljajo računski popravek kot višek ali manko energije v prenosnem sistemu. Operater prenosnega sistema sistemske razlike ugotovi z izračunom prek sistemske enačbe:
+
+Q(pred) – Q(prev) – ΔLP – (SR
+MN
++ SR
+IZ
+) = 0
+
+pri čemer posamezne oznake pomenijo:
+
+Q(pred)
+predana energija iz prenosnega sistema v kWh
+Q(prev)
+prevzeta energija v prenosni sistem v kWh
+ΔLP
+spremembe skupne energije v prenosnem sistemu (začetek – konec obdobja) v kWh
+SR
+MN
+sistemske razlike, ki so posledica merilnih negotovosti v kWh
+SR
+IZ
+sistemske razlike, ki so posledica izgub v kWh, in so določene s tehnološkimi in obratovalnimi postopki
+
+(2) Operater prenosnega sistema ugotavlja količine sistemskih razlik, ki so posledica merilnih negotovosti, na mesečnem nivoju in jih porazdeli med nosilce bilančnih skupin v razmerju mesečne vsote prevzetih in predanih količin za posameznega nosilca bilančne skupine ter vsote celotnih mesečnih prevzetih in predanih količin vseh nosilcev bilančnih skupin na vstopnih in izstopnih točkah prenosnega sistema. Mesečno količino sistemskih razlik bilančne skupine, ki so posledica merilnih negotovosti, operater prenosnega sistema porazdeli po dnevih, v razmerju vsote dnevnih prevzetih in predanih količin nosilca bilančne skupine ter vsote mesečnih prevzetih in predanih količin te bilančne skupine.
+
+8.
+Obračun stroškov za nevtralnost izravnave
+
+115. člen
+
+(mesečni obračun stroškov nevtralnosti)
+
+(1) Če operater prenosnega sistema v zvezi z izravnavo odstopanj konec vsakega meseca beleži večje prihodke, kot je imel s tem stroškov, ki izhajajo iz:
+
+a) stroškov za obračun dnevnega odstopanja,
+
+b) stroškov za izvedene ukrepe izravnave,
+
+c) tehtanih povprečnih stroškov kapitala pred obdavčitvijo, izračunanih v skladu s splošnim aktom Agencije, ki ureja metodologijo za določitev regulativnega okvira operaterja sistema plina, ki se obračunajo na povprečno vrednost količine plina za izravnavo,
+
+znesek presežka prihodkov nad navedenimi stroški vrne nosilcem tistih bilančnih skupin, za katere se je v obravnavanem mesecu izvajala izravnava dnevnega odstopanja. Presežek se med upravičene nosilce bilančnih skupin porazdeli v sorazmerju z vsoto absolutnih zneskov obračunanih odstopanj posameznih nosilcev bilančnih skupin v obravnavanem mesecu.
+
+(2) Če operater prenosnega sistema v zvezi z izravnavo odstopanj konec vsakega meseca beleži večje stroške iz prejšnjega odstavka, kot je imel s tem prihodkov, operater prenosnega sistema zaračuna primanjkljaj v naslednjem mesečnem obdobju tistim nosilcem bilančnih skupin, za katere se je v obravnavanem mesecu izvajala izravnava dnevnega odstopanja. Primanjkljaj se med upravičene nosilce bilančnih skupin porazdeli v sorazmerju z vsoto absolutnih zneskov obračunanih odstopanj posameznih nosilcev bilančnih skupin v obravnavanem mesecu.
+
+116. člen
+
+(letni poračun odstopanj na podlagi podatkov o odjemu na distribucijskih sistemih)
+
+Operater prenosnega sistema na podlagi podatkov operaterjev distribucijskih sistemov poračuna odstopanja na letni ravni. Operaterji distribucijskih sistemov sporočijo operaterju prenosnega sistema podatke letnega odbiranja števcev končnih odjemalcev z merilnimi napravami brez prigrajenih tarifnih spominskih enot o dejanskem odjemu teh odjemalcev v preteklem koledarskem letu ločeno po bilančnih skupinah in podskupinah. Operater prenosnega sistema na podlagi teh podatkov poračuna odstopanja na letni ravni, pri čemer uporabi letno povprečno ceno plina. Letno povprečno ceno plina operater prenosnega sistema izračuna iz dvanajstih zaporednih povprečnih mesečnih cen, izračunanih na podlagi povprečij mejnih prodajnih in mejnih nakupnih cen za posamezen koledarski mesec.
+
+9.
+Zaračunavanje stroškov izravnave odstopanj in način izdajanja računov
+
+117. člen
+
+(zaračunavanje stroškov izravnave odstopanj)
+
+(1) Operater prenosnega sistema nosilcu bilančne skupine najkasneje v roku 18 dni po zaključku obračunskega meseca, na katerega se nanaša obračun, zaračuna oziroma odobri naslednje stroške:
+
+– znesek salda stroškov dnevnega odstopanja, določenim v skladu s 113. členom tega akta,
+
+– znesek presežka oziroma primanjkljaja stroškov za nevtralnost, določenim skladno s 115. členom tega akta.
+
+(2) Posamezne postavke zaračunanih stroškov iz prejšnjega odstavka operater prenosnega sistema na računu navede ločeno ter računu priloži ustrezno specifikacijo.
+
+118. člen
+
+(obvezne dajatve)
+
+Zneski iz prejšnjega člena ne vključujejo davkov, taks, trošarin in drugih dajatev in jih je uporabnik prenosnega sistema dolžan poravnati skladno s predpisi o davkih, taksah, trošarinah in drugih dajatvah.
+
+119. člen
+
+(zapadlost obveznosti iz naslova stroškov izravnave)
+
+(1) Operater prenosnega sistema izda račun iz 117. člena tega akta z zapadlostjo 30 dni po nastanku terjatve oziroma zadnji dan v mesecu za mesec februar. Kot datum nastanka terjatve šteje zadnji dan obračunskega meseca, na katerega se račun nanaša.
+
+(2) Če nosilec bilančne skupine svoje obveznosti ne poravna vključno do dneva zapadlosti računa, mu operater prenosnega sistema od vključno naslednjega dne po zapadlosti in do plačila zaračunava zakonite zamudne obresti.
+
+(3) Če nosilec bilančne skupine svojih obveznosti, skladno s prvim odstavkom tega člena, ne poravna, ima operater prenosnega sistema pravico od nosilca bilančne skupine nemudoma zahtevati druge, za operaterja prenosnega sistema sprejemljive instrumente za zavarovanje plačil, ali drugačen način plačila. Operater prenosnega sistema lahko zahteva, da nosilec bilančne skupine zavaruje povprečno izračunani znesek dvomesečnega plačila računa iz 117. člena tega akta. Če nosilec bilančne skupine te zahteve ne izpolni, lahko operater prenosnega sistema po preteku 72 ur od predhodnega pisnega obvestila in prejema le-tega zavrne napovedi količin prevzema in predaje plina od tega nosilca bilančne skupine.
+
+10.
+Storitev prilagodljive notranje zmogljivosti plinovoda
+
+120. člen
+
+(storitev prilagodljive notranje zmogljivosti plinovoda)
+
+(1) Operater prenosnega sistema lahko uporabnikom prenosnega sistema ponudi storitev prilagodljive notranje zmogljivosti plinovoda, če je ta zmogljivost na voljo v prenosnem sistemu glede na trenutne pretočno tlačne razmere in operater prenosnega sistema oceni, da ta storitev ne ogroža njegove funkcije prenosa plina ter ne ovira delovanja izravnalnega trga.
+
+(2) Storitev prilagodljive notranje zmogljivosti plinovoda se omogoči, če uporabniki sistema izravnajo svoje predaje in prevzeme v dnevu dobave plina (dan D) in je kljub realizirani ali napovedani izravnavi operaterju prenosnega sistema še vedno na voljo notranja zmogljivost plinovoda, ki, tudi če bi bila izkoriščena, ne ogroža funkcije prenosa ter ne ovira delovanja izravnalnega trga. Operater prenosnega sistema lahko ponudi storitev prilagodljive notranje zmogljivosti plinovoda, če so predhodno izpolnjeni vsi pogoji iz 44. člena Uredbe 312/2014/EU.
+
+(3) Količina plina, ki se dobavi ali prevzame v okviru izvajanja storitve notranje zmogljivosti plinovoda, se upošteva pri izračunu njihove količine dnevnega odstopanja.
+
+(4) Določbe o obračunu stroškov za nevtralnost izravnave se pri izvajanju storitve notranje zmogljivosti plinovoda ne upoštevajo. Prihodki operaterja prenosnega sistema, ki jih le-ta ustvari z realizacijo storitve prilagodljive notranje zmogljivosti plinovoda, so drugi prihodki operaterja prenosnega sistema.
+
+(5) Operater prenosnega sistema ni dolžan upoštevati napovedi in popravljenih napovedi pri uporabi storitve prilagodljive notranje zmogljivosti plinovoda, ki jih operaterju prenosnega sistema posredujejo uporabniki, v kolikor sam razpolaga z zadostnimi informacijami, da lahko zagotovi točno dodelitev uporabe te storitve za naslednji dan dobave plina (D+1).
+
+(6) Storitev prilagodljive notranje zmogljivosti plinovoda, kot njeno prodajo, nudi operater prenosnega sistema uporabnikom le te po ceni, ki je enaka tehtani dnevni aritmetični sredini mejne prodajne in mejne nakupne cene plina, izračunane po metodologiji za določitev veljavne cene za obračun stroškov dnevnega odstopanja v skladu s 111. členom tega akta, pri čemer ta cena ne sme biti nižja, kot je za operaterja prenosnega sistema nabavna cena sistemske storitve izravnave za uravnoteženje prenosnega sistema.
+
+(7) Storitev prilagodljive notranje zmogljivosti plinovoda, kot njen nakup nudi operater prenosnega sistema uporabnikom le-te po ceni, ki je enaka polovici tehtane dnevne aritmetične sredine mejne nakupne cene plina, izračunane po metodologiji za določitev veljavne cene za obračun stroškov dnevnega odstopanja v skladu s 111. členom tega akta.
+
+(8) Uporabniki sistema sporočijo operaterju prenosnega sistema želeni obseg storitve notranje zmogljivosti plinovoda z elektronsko komunikacijo, kot je opredeljena v bilančni pogodbi.
+
+(9) Zahteve za prodajo oziroma nakup storitev prilagodljive notranje zmogljivosti plinovoda operater prenosnega sistema obravnava glede na vrstni red prejema zahtev. V primeru več sočasno prispelih zahtev in pomanjkanju zadostnega obsega razpoložljive storitve se te razdelijo sorazmerno glede na zahtevano oziroma nakup.
+
+(10) Operater prenosnega sistema izda račun za vse opravljene storitve prilagodljive notranje zmogljivosti plinovoda za posameznega uporabnika enkrat mesečno za pretekli mesec, z zapadlostjo in plačilnimi pogoji iz 138. člena tega akta.
+
+(11) Operater prenosnega sistema na svoji spletni strani v roku pol ure po začetku plinskega dneva »D« objavi obseg razpoložljive storitve prilagodljive notranje zmogljivosti plinovoda ter ceno te storitve, izraženo v EUR/kWh. Cena se izračuna skladno s prejšnjim odstavkom ter temelji na podatkih trgovanja na trgovalni platformi na dan dobave plina »D-1«. Operater prenosnega sistema na svoji spletni strani ažurira objavljeni obseg razpoložljive storitve prilagodljive notranje zmogljivosti plinovoda najmanj enkrat dnevno in najkasneje do 18.30. Če se obseg razpoložljive storitve prilagodljive notranje zmogljivosti plinovoda bistveno spremeni, operater prenosnega sistema takšno spremembo nemudoma objavi na svoji spletni strani.
+
+11.
+Zagotavljanje informacij
+
+121. člen
+
+(obveznost operaterja prenosnega sistema glede obveščanja uporabnikov sistema)
+
+(1) Informacije, ki jih v zvezi z izravnavo odstopanj uporabnikom sistema zagotavlja operater prenosnega sistema, se nanašajo na:
+
+– informacije o celovitem stanju prenosnega sistema v skladu s točko 5. pod 3.4. Priloge I k Uredbi 2024/1789/EU;
+
+– informacije o ukrepih za izravnavo, ki jih operater prenosnega sistema sprejme v skladu z določili tega akta, med njimi za posamezen obračunski mesec naslednje podatke:
+
+– skupne količine in zneske obračunanih odstopanj, ločeno za pozitivna in negativna odstopanja,
+
+– skupne količine in zneske stroškov ter prihodkov iz naslova izvajanja storitve izravnave;
+
+– informacije o količinah prevzema in predaje plina v skladu s 33. do 42. členom Uredbe 312/2014/EU.
+
+(2) Informacije iz prejšnjega odstavka se uporabnikom sistema posredujejo v elektronski obliki na enoten način, kot to določi operater prenosnega sistema, in so za uporabnike sistema brezplačne.
+
+122. člen
+
+(zagotavljanje informacij o pretoku in količine prevzema in predaje)
+
+(1) Operater prenosnega sistema brezplačno zagotavlja nosilcem bilančnih skupin zadostne, pravočasne in zanesljive informacije o količinskih odstopanjih njihovih bilančnih skupin, merjenih znotraj vsakokratnega obračunskega dneva v okviru tehničnih možnosti prenosnega sistema, tako da lahko pravočasno sprejmejo ustrezne ukrepe za izravnavo količinskih odstopanj.
+
+(2) Operater prenosnega sistema spremlja podatke o količinskih odjemih ali oddajah v posameznem obračunskem dnevu za uporabnike, ki so neposredno priključeni na prenosni sistem.
+
+123. člen
+
+(obveščanja operaterja prenosnega sistema o alokaciji količinskega odjema ali oddaje na distribucijskem sistemu med bilančne skupine)
+
+(1) Operaterji distribucijskih sistemov in operaterji zaprtih distribucijskih sistemov morajo ob uporabi 39. člena Uredbe 312/2014/EU operaterju prenosnega sistema najmanj dvakrat dnevno za dan dobave plina »D« posredovati podatke o količinskem odjemu ali oddaji v posameznem obračunskem intervalu na priključni točki distribucijskega sistema, ki so strukturirani ločeno za posamezne bilančne skupine oziroma podskupine, katerih člani so priključeni na njihov distribucijski sistem. Pri obveznostih obveščanja operaterja prenosnega sistema o alokaciji količinskega odjema ali oddaje na distribucijskem sistemu med bilančne skupine se neposredno uporabljajo določbe drugega do šestega odstavka 34. člena ter 35. do 37. člena Uredbe 312/2014/EU, izbrana varianta 1, čas druge posodobitve je 20.00.
+
+(2) Če operater prenosnega sistema ne prejme podatkov iz prejšnjega odstavka pravočasno, se šteje, da razmerje odjema ali oddaje med posameznimi bilančnimi skupinami oziroma podskupinami ustreza zadnjemu sporočenemu razmerju.
+
+(3) Posredovanja podatkov se izvede preko uporabe elektronskega načina sporočanja podatkov, skladno s 121. členom tega akta.
+
+124. člen
+
+(prijavljanje pogodb o dobavi plina)
+
+(1) Operater prenosnega sistema je dolžan, skladno z osmim odstavkom 80. člena ZOP, evidentirati vse pogodbe o dobavi plina na prenosnem sistemu.
+
+(2) Kupec plina, za potrebe katerega operater prenosnega sistema izvaja prenos plina, je dolžan takoj po sklenitvi oziroma najkasneje 30 dni po podpisu pogodbe o dobavi operaterju prenosnega sistema posredovati najmanj naslednje podatke iz pogodbe o dobavi, ki jih operater prenosnega sistema vodi v evidenci pogodb o dobavi:
+
+– naziv in naslov kupca;
+
+– naziv in naslov dobavitelja plina;
+
+– datum začetka in datum prenehanja veljavnosti pogodbe o dobavi;
+
+– letne količine plina, določene v pogodbi o dobavi z vstopno in izstopno točko v oziroma iz prenosnega sistema plina;
+
+– posebnosti pogodbe o dobavi, kot npr. prekinljivost, največja dnevna količina plina.
+
+(3) Kupci so dolžni operaterju prenosnega sistema posredovati vse spremembe podatkov iz prejšnjega odstavka v roku 30 dni od dneva nastanka spremembe.
+
+(4) Kupci lahko operaterju prenosnega sistema posredujejo podatke iz drugega odstavka tega člena tako, da mu posredujejo fotokopije pogodb o dobavi. Šteje se, da so posredovani podatki, ki jih je prejel operater prenosnega sistema, resnični. V primeru dvoma o resničnosti podatkov je dokazno breme na strani kupca, ki ga lahko operater prenosnega sistema pozove, da dokaže pravilnost oziroma točnost posredovanih podatkov.
+
+(5) Operater prenosnega sistema je dolžan s skrbnostjo dobrega gospodarja voditi evidenco pogodb o dobavi plina ter jo redno ob vsaki spremembi posodabljati.
+
+(6) Operater prenosnega sistema je podatke iz tega člena dolžan varovati v skladu z obveznostmi iz 56. člena ZOP.
+
+VIII. IZRAVNAVA ODSTOPANJ S KRIZNIM PLINOM V OBDOBJU IZREDNIH RAZMER IN IZVAJANJA NEPROSTOVOLJNEGA ZMANJŠANJA ALI PREKINITVE ODJEMA
+
+125. člen
+
+(razglasitev stopnje izrednih razmer in izvajanje neprostovoljnega zmanjšanja ali prekinitve odjema)
+
+(1) Določila tega poglavja se uporabljajo, ko je razglašena stopnja izrednih razmer, ki jo je v skladu z 11. členom Uredbe 2017/1938/EU in načrtom za izredne razmere razglasil pristojni organ (v nadaljnjem besedilu: obdobje izrednih razmer), in hkrati z ostalimi ukrepi ni mogoče zagotoviti zadostne količine plina glede na celoten predviden odjem ter operaterji sistemov na podlagi izdane generalne odločbe pristojnega organa za izvedbo ukrepov na stopnji izrednih razmer zmanjšajo ali prekinejo odjem plina na odjemnih mestih odjemalcev po posameznih skupinah in podskupinah, določenih v 13. členu Odredbe o načrtu za izredne razmere pri oskrbi s plinom (Uradni list RS, št. 109/23).
+
+(2) Operater prenosnega sistema generalno odločbo pristojnega organa iz prejšnjega odstavka predloži odjemalcem na prenosnem sistemu v njegovem upravljanju, na katere se glede na vrsto odjema plina iz sistema odločba nanaša. Operater prenosnega sistema o vsebini odločbe obvesti tudi dobavitelje plina teh odjemalcev. Operater prenosnega sistema generalno odločbo posreduje z uporabo elektronske komunikacije.
+
+126. člen
+
+(krizni plin in plin operaterja prenosnega sistema za izravnavo v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema)
+
+(1) V obdobju izrednih razmer in izvajanja neprostovoljnih ukrepov zmanjšanja ali prekinitve odjema se izravnava odstopanj izvaja s kriznim plinom.
+
+(2) Plin, ki ga v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema operater prenosnega sistema uporabi za izravnavo, se obravnava enako kot krizni plin.
+
+127. člen
+
+(cena kriznega plina za obračun izravnave odstopanj v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema)
+
+(1) Cena za krizni plin se obračunava za količine kriznega plina, ki so bile v sistemu sproščene v posameznem dnevu ob neprostovoljnem zmanjšanju ali prekinitvi odjema plina posameznim skupinam odjemalcev, z namenom oskrbe zaščitenih odjemalcev oziroma drugih odjemalcev, od katerih še ni bilo zahtevano zmanjšanje ali prekinitev odjema plina, ter se izračuna za vsak dan posebej.
+
+(2) Nadomestilo, izračunano skladno z 2. in 3. podpoglavjem III. poglavja Akta o metodologiji za izračun nadomestila od neprostovoljnem zmanjšanju ali prekinitvi odjema plina (Uradni list RS, št. 136/22), se posameznim skupinam odjemalcev obračunava za količine kriznega plina, ki so bile v posameznem dnevu ob neprostovoljnem zmanjšanju ali prekinitvi odjema plina v sistemu sproščene. Te količine operaterju prenosnega sistema posredujejo nosilci bilančnih skupin za posamezne dneve, ko imajo pozitivna odstopanja, in se obračunajo skladno s 130. členom tega akta.
+
+128. člen
+
+(nastanek obveznosti plačila za stroške dnevnega odstopanja v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema)
+
+(1) Nosilci bilančnih skupin, ki imajo v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema ob koncu obračunskega dneva za dan dobave »D« neizravnano pozicijo svoje bilančne skupine, so za ugotovljeno količino negativnih dnevnih odstopanj dolžni operaterju prenosnega sistema plačati znesek po ceni za krizni plin za negativna odstopanja oziroma so za ugotovljeno količino pozitivnih dnevnih odstopanj upravičeni do plačila oziroma prejema dobropisa po ceni za krizni plin za pozitivna odstopanja.
+
+(2) Količinska odstopanja prevzema in predaje plina se tudi v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema za posamezno bilančno skupino ugotavljajo na osnovi razlike med prevzetimi količinami na vstopnih točkah in predanimi količinami na izstopnih točkah, ki so vključene v to bilančno skupino.
+
+(3) Znesek za dnevno odstopanje, ki ga mora plačati ali do katerega je upravičen nosilec bilančne skupine, izračuna operater prenosnega sistema tako, da količino ugotovljenega dnevnega odstopanja za posamezno bilančno skupino pomnoži z veljavno ceno za stroške dnevnega odstopanja s kriznim plinom, ki se določi na podlagi 129. člena tega akta.
+
+129. člen
+
+(metodologija za določitev veljavne cene za obračun stroškov dnevnega odstopanja v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema)
+
+(1) Veljavna cena, po kateri operater prenosnega sistema obračuna obveznosti za stroške dnevnega odstopanja, se določi kot cena za krizni plin.
+
+(2) Cena kriznega plina ob neprostovoljnem zmanjšanju ali prekinitvi odjema se določi za vsak obračunski dan dobave, ločeno skladno z Aktom o metodologiji za izračun cene plina ob neprostovoljnem zmanjšanju ali prekinitvi odjema plina (Uradni list RS, št. 136/22) in Aktom o metodologiji za izračun nadomestila ob neprostovoljnem zmanjšanju ali prekinitvi odjema (Uradni list RS, št. 136/22).
+
+130. člen
+
+(spremljanje količinskih odstopanj v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema)
+
+(1) Po končanem obračunskem dnevu za dan dobave »D« operater prenosnega sistema ugotovi in do 10.00 dneva »D+1« nosilcem bilančnih skupin zagotovi začasne podatke, kot je opredeljeno v prvem odstavku 112. člena tega akta.
+
+(2) Po pretečenem mesecu »M« operater prenosnega sistema ugotovi in v desetih delovnih dneh po preteku meseca »M« nosilcem bilančnih skupin zagotovi ločeno podatke, kot je opredeljeno v drugem odstavku 112. člena tega akta za dneve, ko je bilo omogočeno normalno obratovanje, in ločeno za dneve, ko je bilo z odločbo pristojnega organa razglašeno stanje neprostovoljnih ukrepov zmanjšanja ali prekinitve odjema.
+
+(3) Nosilci bilančnih skupin, ki imajo pozitivna odstopanja, so dolžni v dveh delovnih dneh po prejemu podatkov iz prejšnjega odstavka oziroma najkasneje 12. delovni dan po pretečenem mesecu »M« operaterju prenosnega sistema posredovati razdelitev količin po skupinah odjemalcev skladno z Aktom o metodologiji za izračun nadomestila ob neprostovoljnem zmanjšanju ali prekinitvi odjema (Uradni list RS, št. 136/22) med poslovne odjemalce, industrijske odjemalce in elektrarne, ločeno za vsak dan neizravnanosti v obdobju razglašene stopnje izrednih razmer in neprostovoljnega zmanjšanja ali prekinitve odjema.
+
+(4) Če nosilci bilančnih skupin ne posredujejo razdelitve količin iz prejšnjega odstavka, se za te količine predpostavi, da so bile namenjene za odjemalce upravičene do najnižjega veljavnega nadomestila objavljenega na spletni strani Agencije.
+
+(5) Šteje se, da so ugotovitve in meritve, realizirane in sporočene 14. delovni dan po pretečenem mesecu »M«, dokončne in se kot dokončne uporabljajo za vsakokratni obračun prenosa plina v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema.
+
+131. člen
+
+(način obračuna stroškov dnevnega odstopanja v primeru razglašene stopnje izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema)
+
+(1) V skladu s tem aktom se obračunani stroški dnevnega odstopanja v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema uporabijo na način:
+
+– nosilec bilančne skupine, ki je po veljavni ceni, določeni za krizni plin, skladno s 129. členom tega akta, prodal operaterju prenosnega sistema plin v količini, ki je za dan dobave »D« enaka količini pozitivnega dnevnega odstopanja, je od operaterja prenosnega sistema upravičen do plačila stroškov za količine pozitivnega dnevnega odstopanja v znesku, določenem po naslednji formuli:
+
+kjer oznake pomenijo:
+
+Z
+PDO,D
+znesek pozitivnega dnevnega odstopanja,
+C
+KP,D
+cena za krizni plin za dan dobave »D«, določena skladno s 129. členom tega akta,
+ΔQ
+PDO,D
+količina pozitivnega dnevnega odstopanja v dnevu dobave »D«;
+
+– nosilec bilančne skupine, ki je po veljavni ceni, določeni za krizni plin, skladno s 129. členom tega akta, kupil od operaterja prenosnega sistema plin v količini, ki je za dan dobave »D« enaka količini dnevnega odstopanja, je dolžan operaterju prenosnega sistema plačati stroške za količine negativnega dnevnega odstopanja v znesku, določenem po naslednji formuli:
+
+kjer oznake pomenijo:
+
+Z
+NDO,D
+znesek negativnega dnevnega odstopanja,
+C
+KP,D
+cena za krizni plin za dan dobave »D«, določena skladno s 129. členom tega akta,
+ΔQ
+NDO,D
+količina negativnega dnevnega odstopanja v dnevu dobave »D«;
+
+(2) Saldo stroškov dnevnega odstopanja, ugotovljenih na način iz prejšnjega odstavka, operater prenosnega sistema poračuna enkrat mesečno za pretekli obračunski mesec, ločeno za dneve normalnega obratovanja skladno s 113. členom tega akta in ločeno za dneve v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema. Saldo postavk za vse dni obračunskega meseca za dneve razglašene stopnje izrednih razmer v obdobju neprostovoljnega zmanjšanja ali prekinitve odjema predstavlja končni znesek, ki ga operater prenosnega sistema zaračuna ali plača nosilcu bilančne skupine in se določi po naslednji formuli:
+
+kjer oznake pomenijo:
+
+Z
+O
+znesek, ki ga operater prenosnega sistema zaračuna ali plača nosilcu bilančne skupine za dneve v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema,
+N
+število dni v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema v posameznem mesecu.
+
+132. člen
+
+(sistemske razlike v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema)
+
+Določba 114. člena tega akta se smiselno uporablja tudi v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema na odjemnih mestih odjemalcev po posameznih skupinah in podskupinah.
+
+133. člen
+
+(mesečni obračun stroškov nevtralnosti v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema)
+
+(1) Mesečni obračun stroškov nevtralnosti se izvaja za zadnji pretekli mesec, ločeno za dneve, ko je bilo omogočeno normalno obratovanje, in dneve v obdobju izrednih razmer ter izvajanja neprostovoljnih ukrepov zmanjšanja ali prekinitve odjema.
+
+(2) Če operater prenosnega sistema v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema v zvezi z izravnavo odstopanj konec vsakega meseca za čas trajanja tega obdobja beleži večje prihodke, kot je imel s tem stroškov, ki izhajajo iz:
+
+a) stroškov za obračun dnevnega odstopanja,
+
+b) stroškov za izvedene ukrepe izravnave,
+
+c) tehtanih povprečnih stroškov kapitala pred obdavčitvijo, izračunanih v skladu s splošnim aktom Agencije, ki ureja metodologijo za določitev regulativnega okvira operaterja sistema plina, ki se obračunajo na povprečno vrednost količine plina za izravnavo,
+
+znesek presežka prihodkov nad stroški vrne nosilcem tistih bilančnih skupin, za katere se je v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema v zadnjem preteklem mesecu izvajala izravnava dnevnega odstopanja in so bili njihovi prihodki večji od stroškov iz naslova izvajanja izravnave odstopanj njihove bilančne skupine.
+
+(3) Če operater prenosnega sistema v zvezi z izravnavo odstopanj v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema v zadnjem preteklem mesecu beleži večje stroške iz prejšnjega odstavka, kot je imel s tem prihodkov, operater prenosnega sistema zaračuna primanjkljaj v naslednjem mesečnem obdobju tistim nosilcem bilančnih skupin, za katere se je v obravnavanem obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema v zadnjem preteklem mesecu izvajala izravnava dnevnega odstopanja in so bili njihovi stroški večji od prihodkov iz naslova izvajanja izravnave odstopanj njihove bilančne skupine.
+
+(4) Če operater prenosnega sistema v zvezi z izravnavo odstopanj v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema v zadnjem preteklem mesecu beleži večje prihodke iz drugega odstavka tega člena, kot je imel s tem stroškov, in so bili hkrati pri vseh nosilcih bilančnih skupin njihovi stroški večji od prihodkov iz naslova izvajanja izravnave odstopanj njihove bilančne skupine, operater prenosnega sistema znesek presežka prihodkov nad navedenimi stroški vrne nosilcem tistih bilančnih skupin, za katere se je v obravnavanem obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema v preteklem mesecu izvajala izravnava dnevnega odstopanja.
+
+(5) Če operater prenosnega sistema v zvezi z izravnavo odstopanj v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema v zadnjem preteklem mesecu beleži večje stroške iz drugega odstavka tega člena, kot je imel s tem prihodkov, in so bili hkrati pri vseh nosilcih bilančnih skupin njihovi prihodki večji od stroškov iz naslova izvajanja izravnave odstopanj njihove bilančne skupine, operater prenosnega sistema zaračuna primanjkljaj v naslednjem mesečnem obdobju nosilcem tistih bilančnih skupin, za katere se je v obravnavanem obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema v preteklem mesecu izvajala izravnava dnevnega odstopanja.
+
+(6) Ugotovljen presežek oziroma primanjkljaj iz tega člena se med upravičene nosilce bilančnih skupin porazdeli v sorazmerju z vsoto zneskov obračunanih odstopanj posameznih nosilcev bilančnih skupin v obravnavanem obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema v zadnjem preteklem mesecu, pri čemer je prihodek upoštevan s pozitivnim predznakom, strošek pa z negativnim predznakom.
+
+134. člen
+
+(zaračunavanje stroškov izravnave odstopanj v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema)
+
+(1) Operater prenosnega sistema nosilcu bilančne skupine najkasneje v roku 18 dni po zaključku obračunskega meseca, na katerega se nanaša obračun, ločeno zaračuna oziroma odobri naslednje stroške za dneve, ko je bilo omogočeno normalno obratovanje, in dneve, ko je bilo z odločbo pristojnega organa razglašeno stanje neprostovoljnih ukrepov zmanjšanja ali prekinitve odjema:
+
+– znesek salda stroškov dnevnega odstopanja, določenim v skladu s 113. členom in 131. členom tega akta,
+
+– znesek presežka oziroma primanjkljaja stroškov za nevtralnost, določenim skladno s 115. členom in 133. členom tega akta.
+
+(2) Posamezne postavke zaračunanih stroškov iz prejšnjega odstavka operater prenosnega sistema na računu navede ločeno ter računu priloži ustrezno specifikacijo.
+
+135. člen
+
+(zapadlost obveznosti iz naslova stroškov izravnave v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema in plačila na skrbniški račun)
+
+(1) Operater prenosnega sistema izda račun za znesek salda stroškov dnevnega odstopanja, določenim skladno s 131. členom tega akta, in za znesek presežka oziroma primanjkljaja stroškov za nevtralnost, določenim skladno s 133. členom tega akta, z zapadlostjo 30 dni po nastanku terjatve oziroma zadnji dan v mesecu za mesec februar na za to posebej odprt skrbniški račun. Kot datum nastanka terjatve šteje zadnji dan obračunskega meseca, na katerega se račun nanaša.
+
+(2) Če nosilec bilančne skupine svoje obveznosti ne poravna na skrbniški račun vključno do dneva zapadlosti računa, mu operater prenosnega sistema od vključno naslednjega dne po zapadlosti in do plačila zaračunava zakonite zamudne obresti.
+
+(3) Vsa plačila in izplačila, ki se nanašajo na krizni plin v obdobju izrednih razmer in izvajanja neprostovoljnega zmanjšanja ali prekinitve odjema, se izvajajo na in iz skrbniškega računa, ki je posebni in ločen bančni račun, ki ga upravlja operater prenosnega sistema.
+
+(4) Operater prenosnega sistema izvede plačilo oziroma plača dobropise po prejemu sredstev na skrbniški račun. V kolikor na skrbniškem računu v času zapadlosti terjatev ni dovolj sredstev za poplačilo vseh obveznosti, se plačila nosilcem bilančnih skupin izvedejo sorazmerno. Morebitna naknadna plačila na skrbniški račun za posamezni obračunski mesec se bodo sorazmerno razdelila med upravičene nosilce bilančnih skupin.
+
+136. člen
+
+(uporaba določil v primeru solidarnostne pomoči)
+
+V obdobju izrednih razmer, ko velja generalna odločba pristojnega organa, se v času izvajanja in nudenja solidarnostne pomoči za izravnavo in zaračunavanje odstopanj smiselno uporabljajo določbe tega poglavja.
+
+IX. SPLOŠNI POGOJI ZA DOBAVO IN ODJEM PLINA
+
+1.
+Splošne določbe o pogojih dostopa do prenosnega sistema
+
+137. člen
+
+(izvrševanje dostopa do prenosnega sistema in menjava dobavitelja)
+
+(1) Uporabnik sistema lahko ob upoštevanju obratovalnih omejitev zahteva prenos plina po prenosnem sistemu za namene izvršitve dobavnih pogodb, če mu je operater prenosnega sistema s pogodbo o prenosu dodelil pravico do uporabe prenosne zmogljivosti na določeni vstopni ali izstopni točki prenosnega sistema.
+
+(2) Operater prenosnega sistema je na podlagi pogodbe o prenosu in v skladu s splošnimi akti operaterja prenosnega sistema iz 67. člena tega akta dolžan od uporabnika sistema prevzeti plin na vstopni točki oziroma je uporabniku sistema dolžan predati plin na izstopni točki le do najvišje pogodbene zmogljivosti in največjega dovoljenega pretoka plina, določenega s pogodbo za posamezno prevzemno ali predajno mesto. Prenos plina med vstopnimi in izstopnimi točkami se izvaja v okviru tehnične zmogljivosti prenosnega sistema in posamezne vstopne ali izstopne točke na prenosnem sistemu.
+
+(3) Pravica dostopa do sistema se uporabniku sistema, ki svojih pogodbenih zmogljivosti ne izkorišča, zlasti tako da v nasprotju z veljavnimi predpisi z zadrževanjem zmogljivosti omejuje konkurenco, lahko proti njegovi volji deloma ali v celoti odvzame in dodeli drugim uporabnikom sistema v skladu s splošnim aktom operaterja prenosnega sistema, ki ureja upravljanje prezasedenosti prenosnega sistema.
+
+(4) Uporabnik sistema, ki mu je s pogodbo o prenosu dodeljen dostop do prenosnega sistema na vstopni točki, mora zagotoviti skladnost prevzetega plina z zahtevami glede kakovosti iz 143. člena tega akta.
+
+(5) Če ni s pogodbo o prenosu za posamezen primer izrecno drugače določeno, operater prenosnega sistema ne pridobi lastninske pravice na plinu, ki se prenaša po prenosnem sistemu po naročilu uporabnika sistema.
+
+(6) Uporabnik sistema ima pravico do menjave dobavitelja, ki jo operater prenosnega sistema izvede v skladu z ZOP in podzakonskim aktom iz sedmega odstavka 9. člena ZOP.
+
+138. člen
+
+(plačilni pogoji in opominjanje)
+
+(1) Operater prenosnega sistema izda račun za posamezno storitev dostopa po tem aktu z zapadlostjo 30 dni po nastanku terjatve oziroma zadnji dan v mesecu za mesec februar. Kot datum nastanka terjatve se šteje zadnji dan obračunskega meseca, v katerem je bila storitev opravljena.
+
+(2) Če uporabnik sistema svoje obveznosti ne poravna vključno do dneva zapadlosti računa, mu operater prenosnega sistema od vključno naslednjega dne po zapadlosti in do plačila zaračunava zakonite zamudne obresti.
+
+(3) V primeru nepravočasnega plačila bo operater prenosnega sistema vsa plačila uporabnika sistema vračunaval po vrstnem redu dospelosti terjatev, tako da se najprej odplačajo stroški, nato obresti in končno glavnica.
+
+(4) Če uporabnik sistema ne poravna svojih obveznosti in za njihovo poplačilo ne zadošča izvršitev zavarovanja iz finančnega jamstva, v kolikor je to bilo dano, ima operater prenosnega sistema pravico od njega nemudoma zahtevati druge, za operaterja prenosnega sistema sprejemljive instrumente za zavarovanje plačil, ali drugačen način plačila. Ko uporabnik sistema izpolni zahtevo operaterja prenosnega sistema po instrumentu zavarovanja plačil ali drugačnemu načinu plačila, skleneta operater prenosnega sistema in uporabnik sistema dogovor o poplačilu zapadlih obveznosti, ki ne predstavlja novacije le-teh.
+
+(5) Če uporabnik sistema ne poravna svojih zapadlih obveznosti niti na način v skladu s prejšnjim odstavkom, ali če ne sklene dogovora o poplačilu zapadlih obveznosti iz prejšnjega odstavka v roku 15 dni od prejema ponudbe dogovora s strani operaterja prenosnega sistema, lahko operater prenosnega sistema po preteku 72 ur od predhodnega pisnega obvestila prekine izvajanje prenosa plina na način, da zavrne napovedi količine prevzema in predaje plina od tega uporabnika sistema.
+
+(6) Določila tega člena se uporabljajo, če splošni akti operaterja prenosnega sistema iz 67. člena tega akta plačilnih pogojev in opominjanja ne urejajo drugače.
+
+2.
+Merjenje pretoka in količin plina
+
+139. člen
+
+(merilna mesta)
+
+(1) Operater prenosnega sistema zagotovi meritve pretoka in količin plina iz oziroma v prenosni sistem na vseh vstopnih in izstopnih točkah.
+
+(2) Operater prenosnega sistema zagotovi meritve pretoka, količin, tlaka in po potrebi ostalih parametrov plina na vseh priključitvah prenosnega sistema na druge prenosne sisteme (vstopnih in izstopnih točkah sistema), če tega po predhodnem dogovoru ne zagotovi operater drugega prenosnega sistema.
+
+(3) Če je povezani distribucijski sistem plina priključen na prenosni sistem z dvema ali več priključki (povezane izstopne točke), se za ugotavljanje predanih količin plina iz prenosnega sistema vse povezane izstopne točke, ne glede na njihovo število, upoštevajo kot ena izstopna točka, pri čemer se upošteva namen rabe te izstopne točke. Določilo tega odstavka se ne uporablja za ugotavljanje izpolnjevanja obveznosti iz 50. člena tega akta.
+
+140. člen
+
+(zahteve za merilna mesta)
+
+(1) Vsako merilno mesto mora biti opremljeno s števcem in korektorjem, ki omogočata neprekinjeno merjenje pretoka in količin plina za potrebe obračuna.
+
+(2) Na merilnem mestu se meri količina pretečenega plina v normnih kubičnih metrih (Nm3). Za pretvorbe količin plina iz normnih kubičnih metrov v standardne kubične metre je potrebno količino v normnih kubičnih metrih deliti s pretvorbenim faktorjem 0,9476.
+
+(3) V primeru okvare merilnih naprav se šteje, da je bila v času okvare predana oziroma prevzeta takšna količina plina, kot je bila povprečna predana oziroma prevzeta količina plina v treh primerljivih obdobjih pred nastalo okvaro, za katero obstajajo registrirani podatki.
+
+(4) Vse merilne naprave morajo biti izvedene, vgrajene in kontrolirane v skladu s predpisi, ki urejajo izvedbo in kontrolo teh naprav.
+
+(5) Če uporabnik sistema onemogoča pravilno registriranje obračunskih količin plina ali uporablja plin brez zahtevanih oziroma dogovorjenih merilnih naprav ali mimo njih, ga operater prenosnega sistema odklopi na podlagi 96. člena ZOP. Pri obračunu omrežnine in odstopanj se šteje, da je uporabnik sistema na zadevnem priključku realiziral odjem plina v skladu z največjo pogodbeno zmogljivostjo.
+
+141. člen
+
+(elektronski prenos podatkov)
+
+(1) Podatki meritev se iz merilnih mest preko elektronskega sistema za prenos podatkov prenašajo v centralni informacijski sistem operaterja prenosnega sistema, kjer se uporabijo za določanje prenesenih količin ter za obračun prenosa plina.
+
+(2) Za merilna mesta, ki še niso vključena v elektronski sistem za prenos podatkov, uporabniki vnašajo odčitane podatke preko spletne aplikacije operaterja prenosnega sistema. Operater prenosnega sistema preko spletne aplikacije uporabnikom omogoča tudi dostop do razpoložljivih podatkov o meritvah in odčitkov merilnih mest.
+
+(3) Podatki meritev iz merilnih mest so last operaterja prenosnega sistema.
+
+3.
+Kakovost plina
+
+142. člen
+
+(kakovost prevzetega plina)
+
+(1) Operater prenosnega sistema prenaša plin takšne kakovosti, kot ga prevzame na vstopni točki v prenosni sistem, ki ga nadzoruje in upravlja.
+
+(2) Kakovost prevzetega plina dnevno ugotavlja in dokumentira operater prenosnega sistema na podlagi meritev lastnosti plina operaterja sosednjega prenosnega sistema, na podlagi lastnih meritev ali obojega. Na vstopnih točkah, kjer je priključeno na prenosni sistem pridobivalno omrežje plina ali naprave za oddajo bioplina ali drugih plinov obnovljivega izvora ali nizkoogljičnih plinov ali terminal UZP, operater prenosnega sistema ugotavlja kakovost predanega plina na podlagi meritev, ki se izvajajo najmanj enkrat na uro.
+
+(3) Vsak dobavitelj, ki dobavlja plin odjemalcem, priključenim na prenosni sistem, je dolžan operaterju prenosnega sistema na njegov poziv predložiti specifikacijo o sestavi plina, ki ga je predal v prenos.
+
+(4) Plin v prenosnem sistemu ni odoriran.
+
+143. člen
+
+(zahteve kakovosti plina)
+
+(1) Operater prenosnega sistema je dolžan sprejeti v prenos le plin z lastnostmi, določenimi v Prilogi 2, ki je sestavni del tega akta. Če katerakoli lastnost plina odstopa od dopustne, operater prenosnega sistema ni dolžan prevzeti takega plina v prenos.
+
+(2) Tolerance v sestavi sprejemljivega plina, ki se sprejme v prenos po prenosnem sistemu, morajo omogočati prenos plina, ki je nastal z uplinjenjem utekočinjenega zemeljskega plina in bioplina, v okvirih specifikacije iz Priloge 2, ki je sestavni del tega akta.
+
+(3) Uporabniki morajo sami zagotoviti ustreznost svojih trošil sestavi plina.
+
+(4) Operater prenosnega sistema zagotavlja podatke o prenesenih količinah plina v energijskih enotah. Pri določanju kurilne vrednosti prenesenega plina uporablja rezultate meritev lastnosti plina na vstopnih točkah v prenosni sistem. Znotraj prenosnega sistema operater prenosnega sistema določa kurilnost plina z analitičnimi postopki. Dnevna količina v energijski enoti se določi na podlagi povprečne dnevne vrednosti kalorične vrednosti plina.
+
+4.
+Odjem plina iz prenosnega sistema
+
+144. člen
+
+(domneva pravilnosti količin)
+
+(1) Šteje se, da uporabnik sistema preda oziroma prevzame plin na vstopnih oziroma izstopnih točkah v enaki količini, kot je bila izmerjena na merilnem mestu za to vstopno ali izstopno točko.
+
+(2) Če uporabnik sistema ne soglaša s kakovostjo ali količino plina, kot je bila izmerjena na vstopni oziroma izstopni točki, je dokazno breme na strani uporabnika sistema.
+
+(3) Pretok plina mora biti znotraj delovnega območja plinomera, kot je določen v pogodbi o priključitvi.
+
+(4) Če je pretok plina izven delovnega območja plinomera, operater prenosnega sistema ne odgovarja za predpisano natančnost merjenja. V tem primeru se šteje, da je odjemalec prevzel odmerjene količine plina ne glede na možne merske napake merilne naprave.
+
+145. člen
+
+(neupravičen odjem plina)
+
+(1) Za neupravičen odjem plina se šteje vsak odjem plina iz prenosnega sistema, ki ni merjen z ustrezno merilno napravo ali merilna naprava nima predpisanega žiga, ki izkazuje njeno ustreznost.
+
+(2) Za neupravičen odjem se šteje tudi odjem plina brez sklenjene pogodbe o prenosu.
+
+(3) Za neupravičen odjem plina se šteje tudi, če uporabnik sistema za posameznega odjemalca, kljub pozivu operaterja prenosnega sistema iz prvega odstavka 100. člena tega akta, v roku ne zagotovi uskladitev predaje in prevzema plina, odjemalec pa odjema plin iz prenosnega sistema v nasprotju s pozivom.
+
+(4) Če ima odjemalec iz prejšnjega odstavka na predmetnem odjemnem mestu sklenjenih več dobavnih pogodb, je odjemalec dolžan operaterju prenosnega sistema posredovati spremenjeno razmerje med bilančnimi skupinami na odjemnem mestu v 24-tih urah po prejemu obvestila s strani uporabnika sistema. Če tega ne stori, operater prenosnega sistema upošteva zadnje sporočeno razmerje.
+
+146. člen
+
+(odgovornost za neupravičen odjem plina)
+
+(1) Če ni mogoče ugotoviti časa trajanja neupravičenega odjema plina, se neupravičen odjem obračuna od zadnjega odčitka merilne naprave.
+
+(2) Operater prenosnega sistema za čas, ko je trajal neupravičen odjem, zaračuna neupravičeno uporabo prenosne zmogljivosti in v tem času odvzete količine plina po cenah, ki na dan obračuna veljajo za obračunavanje omrežnine in izravnavo dnevnih odstopanj.
+
+(3) Obveznost plačila za neupravičen odjem plina nosi odjemalec, solidarno z njim pa tudi nosilec bilančne skupine, v katero je vključeno odjemno mesto odjemalca, če za tega odjemalca kljub pozivu operaterja prenosnega sistema iz prvega odstavka 100. člena tega akta ne preda plina ali zadostnih količin plina v prenos operaterju prenosnega sistema.
+
+(4) Če je dobavitelj obvestil operaterja prenosnega sistema, da bo ob vnaprej določenem času prenehal z dobavo plina za odjemalca in odjemalec kljub temu nadaljuje z odjemom plina, odjemalec v celoti odgovarja za neupravičen odjem plina operaterju prenosnega sistema in se šteje, da moti dobavo plina drugim odjemalcem, razen če ima odjemalec na predmetnem odjemnem mestu sklenjenih več dobavnih pogodb. Če ima odjemalec na predmetnem odjemnem mestu sklenjenih več dobavnih pogodb, je odjemalec dolžan operaterju prenosnega sistema posredovati novo razmerje med bilančnimi skupinami na odjemnem mestu v 24-tih urah po prejemu obvestila s strani dobavitelja. Če tega ne stori, se upošteva zadnje sporočeno razmerje brez pogodbe ali pogodb, ki so prenehale veljati, sorazmerno uporabljeno na preostale veljavne pogodbe.
+
+X. PREHODNE IN KONČNE DOLOČBE
+
+147. člen
+
+(ureditev lastniškopravnih razmerij na prestavljenih delih prenosnega sistema)
+
+Investitorji, ki so zaradi načrtovanih gradenj ali drugih posegov v varovalnem pasu prenosnega sistema plina izvedli prestavitve delov prenosnega sistema, so v skladu z drugim odstavkom 33. člena ZOP dolžni z operaterjem prenosnega sistema skleniti dogovor o izročitvi v last in posest tako zgrajenih nadomestnih (prestavljenih) delov prenosnega sistema plina. Pri sklenitvi dogovora se upoštevajo pogoji iz soglasja operaterja prenosnega sistema za izvedbo prestavitve dela prenosnega sistema in funkcionalni namen prestavljenega dela prenosnega sistema.
+
+148. člen
+
+(merilna mesta uporabnika sistema)
+
+(1) Če so ob uveljavitvi tega akta merilno-regulacijske postaje ali instalacije, ki so potrebne za izvajanje meritev pretoka in količin plina na predajnih mestih, v lasti uporabnika sistema, sta se operater prenosnega sistema in uporabnik sistema dolžna pisno dogovoriti o izvedbi meritev na teh merilnih mestih.
+
+(2) Operater prenosnega sistema je ne glede na 139. člen tega akta dolžan vzpostaviti meritve pretoka in količin plina v merilno-regulacijskih postajah ali na instalacijah, ki niso v njegovi lasti, le, če je dosežen dogovor med strankama iz prejšnjega odstavka ali če je to dogovorjeno s pogodbo o priključitvi.
+
+(3) Če uporabnik vzpostavi merilno mesto z meritvami pretoka in količin plina sam, mora zagotoviti operaterju prenosnega sistema podatke o pretoku in prevzetih količinah plina. Podatki o pretoku in prevzetih količinah plina morajo biti skladno s predhodnim dogovorom med uporabnikom in operaterjem posredovani operaterju prenosnega sistema.
+
+(4) Operater prenosnega sistema mora imeti za potrebe nadzora nad merilno opremo možnost neoviranega dostopa do merilnega mesta.
+
+(5) Lastnik merilne opreme je dolžan zagotoviti vzdrževanje in skrbeti za redne uradne kontrole merilne opreme v skladu s predpisi. Lastnik merilne opreme mora izvajati tudi izredne kontrole na zahtevo pogodbene stranke ali operaterja prenosnega sistema. V primeru izvajanja izrednih kontrol meritev nosi stroške izredne kontrole meritev lastnik merilne opreme, če se z izredno kontrolo meritev izkaže, da je bila izredna kontrola upravičena in da so bile meritve pred izredno kontrolo nepravilne. V nasprotnem primeru nosi stroške izredne kontrole stranka, ki je izredno kontrolo zahtevala.
+
+(6) Kadar je uporabnik sistema operater distribucijskega sistema plina na povezanem območju iz tretjega odstavka 139. člena tega akta, se vsa predajna mesta za ugotavljanje predanih količin plina iz prenosnega sistema, ne glede na njihovo število, upoštevajo kot eno predajno mesto, pri čemer se upošteva namen rabe tega predajnega mesta. Podatki iz meritev, ki jih je uporabnik sistema vzpostavil sam, morajo biti urejeni po posameznih predajnih mestih in kot zbir vseh podatkov, kot je določeno v drugem odstavku tega člena.
+
+(7) Ne glede na določilo prejšnjega odstavka operater prenosnega sistema zaračuna znesek za izvajanje meritev za vsako posamezno merilno mesto v posamezni izstopni točki v skladu s splošnim aktom Agencije, ki ureja metodologijo za obračunavanje omrežnine za prenosni sistem plina.
+
+149. člen
+
+(začetek uporabe 51. člena tega akta za nove priključke)
+
+Določila 51. člena tega akta o vračilu dela nesorazmernih stroškov se uporabljajo za priključitve uporabnikov na priključke, ki so bili ali bodo zgrajeni na podlagi soglasij o priključitvi, izdanih po 8. 8. 2015.
+
+150. člen
+
+(prenehanje veljavnosti)
+
+Z dnem uveljavitve tega akta prenehajo veljati Sistemska obratovalna navodila za prenosni sistem zemeljskega plina (Uradni list RS, št. 55/15, 80/17, 152/20, 204/21 – ZOP, 136/22 in 42/23).
+
+151. člen
+
+(začetek veljavnosti)
+
+Ta akt začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. STR/KN/2025-388
+
+Ljubljana, dne 18. aprila 2025
+
+EVA 2025-2570-0015
+
+PLINOVODI d.o.o.
+
+Glavni direktor
+
+Marjan Eberlinc
+
+Član poslovodstva
+
+mag. Matija Bitenc
+
+Priloga 1: Tehnične zahteve za gradnjo in druge posege v varovalni in varnostni pas prenosnega plinovoda
+
+Priloga 2: Tehnična specifikacija kakovosti plina v prenosnem sistemu
