@@ -1,0 +1,31 @@
+---
+kratica: MP_DRUG13675
+naziv: "Obvestilo o vloženi tožbi za odpravo oziroma razveljavitev Odloka o Občinskem podrobnem prostorskem načrtu za večstanovanjsko gradnjo ob Planinski cesti (DRUG)"
+vrsta: "akt"
+datum: 2025-06-13
+sop: 2025-01-1747
+organ: "Občina Sevnica"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-1747"
+---
+
+# Obvestilo o vloženi tožbi za odpravo oziroma razveljavitev Odloka o Občinskem podrobnem prostorskem načrtu za večstanovanjsko gradnjo ob Planinski cesti (DRUG)
+
+Upravno sodišče Republike Slovenije na podlagi devetega odstavka 61. člena Zakona o urejanju prostora (ZUreP-3) objavlja
+
+O B V E S T I L O
+
+o vloženi tožbi za odpravo oziroma razveljavitev Odloka o Občinskem podrobnem prostorskem načrtu za večstanovanjsko gradnjo ob Planinski cesti
+
+Dne 4. 7. 2022 je bila vložena tožba v upravnem sporu za odpravo oziroma razveljavitev Odloka o Občinskem podrobnem prostorskem načrtu za večstanovanjsko gradnjo ob Planinski cesti (oziroma podrejeno za odpravo oziroma razveljavitev 6., 9., 10., 11. in 14. člena Odloka o Občinskem podrobnem prostorskem načrtu za večstanovanjsko gradnjo ob Planinski cesti). Odlok o Občinskem podrobnem prostorskem načrtu za večstanovanjsko gradnjo ob Planinski cesti je bil objavljen v Uradnem listu RS, št. 41/22.
+
+Št. I U 901/2022
+
+Ljubljana, dne 4. junija 2025
+
+Upravno sodišče RS
+
+višja sodnica svétnica
+
+Petra Hočevar
