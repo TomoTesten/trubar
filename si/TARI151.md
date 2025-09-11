@@ -2,11 +2,11 @@
 kratica: TARI151
 naziv: "Tarifa za izvajanje storitev Javne agencije za knjigo Republike Slovenije"
 vrsta: "akt"
-datum: 2013-01-18
+datum: 2025-09-17
 sop: 2013-01-0127
-organ: "Vlada Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0127"
 ---
 

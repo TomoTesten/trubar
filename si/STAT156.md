@@ -2,11 +2,11 @@
 kratica: STAT156
 naziv: "Statut Združenja mestnih občin Slovenije"
 vrsta: "akt"
-datum: 2010-08-27
+datum: 2025-11-10
 sop: 2010-01-3778
-organ: "Združenje mestnih občin Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-3778"
 ---
 

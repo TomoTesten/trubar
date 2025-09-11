@@ -2,10 +2,11 @@
 kratica: NAVO507
 naziv: "Navodilo o pripravi zaključnega računa državnega in občinskega proračuna ter metodologije za pripravo poročila o doseženih ciljih in rezultatih neposrednih in posrednih uporabnikov proračuna"
 vrsta: "navodilo"
-datum: 2001-02-23
+datum: 2025-12-04
 sop: 2001-01-0743
-organ: "Ministrstvo za finance"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0743"
 ---
 
