@@ -1,0 +1,528 @@
+---
+kratica: ANJP214
+naziv: "Splošni akt o ključnih elementih investicijskega sklada ter tipih in vrstah investicijskih skladov"
+vrsta: "akt"
+datum: 2025-09-30
+sop: 2025-01-2631
+organ: "Agencija za trg vrednostnih papirjev"
+zbirka: "Splošni akti za izvrševanje javnih pooblastil"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-2631"
+---
+
+# Splošni akt o ključnih elementih investicijskega sklada ter tipih in vrstah investicijskih skladov
+
+Na podlagi četrtega odstavka 5. člena, 12. člena in tretjega odstavka 237. člena Zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 31/15, 81/15, 77/16, 77/18, 161/21 in 101/22 – ZOAIS) Agencija za trg vrednostnih papirjev izdaja
+
+S P L O Š N I   A K T
+
+o ključnih elementih investicijskega sklada ter tipih in vrstah investicijskih skladov
+
+I. SPLOŠNE DOLOČBE
+
+1. člen
+
+(vsebina splošnega akta)
+
+Ta splošni akt določa:
+
+1. ključne elemente, ki jih mora izpolnjevati kolektivni naložbeni podjem iz prvega odstavka 5. člena Zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 31/15 in 81/15, 77/16, 77/18, 161/21 in 101/22 – ZOAIS; v nadaljnjem besedilu: ZISDU-3), da šteje za investicijski sklad;
+
+2. podrobnejše tipe kolektivnih naložbenih podjemov za vlaganja v prenosljive vrednostne papirje (v nadaljnjem besedilu: KNPVP) glede na splošne značilnosti njihovih naložb;
+
+3. razdelitev in poimenovanje vrst KNPVP glede na posebnosti naložb, v katere ima sklad naložena svoja sredstva, oziroma glede na tehnike upravljanja sredstev, ki jih sklad uporablja za namene učinkovitega upravljanja naložb;
+
+4. v zvezi z dodatnimi likvidnimi sredstvi iz tretjega odstavka 237. člena ZISDU-3: pojem dodatnih likvidnih sredstev, vrste in njihove lastnosti, način določanja velikosti dodatnih likvidnih sredstev in njihovo razmerje do velikosti drugih sredstev vzajemnega sklada ter njihov najvišji dopusten obseg.
+
+2. člen
+
+(pojmi)
+
+Za namene tega splošnega akta veljajo naslednje opredelitve pojmov:
+
+1. »OTC izvedeni finančni instrumenti« pomenijo izvedene finančne instrumente, s katerimi se trguje na trgu institucionalnih vlagateljev;
+
+2. »SFI« in »SFI z vgrajenim izvedenim finančnim instrumentom« pomenijo strukturirane finančne instrumente iz splošnega akta Agencije za trg vrednostnih papirjev (v nadaljnjem besedilu: Agencija), ki ureja naložbe investicijskih skladov;
+
+3. »enote ciljnega sklada« pomenijo delnice ali enote ciljnega sklada iz splošnega akta Agencije, ki ureja naložbe investicijskih skladov;
+
+4. »dolžniški vrednostni papir« pomeni dolžniški vrednostni papir kot ga določa zakon, ki ureja trg finančnih instrumentov;
+
+5. »lastniški vrednostni papir« pomeni lastniški vrednostni papir kot ga določa zakon, ki ureja trg finančnih instrumentov;
+
+6. »imetnik enote« pomeni vsako fizično osebo, pravno osebo in drug subjekt zasebnega in javnega prava, ki je imetnik enot investicijskega sklada;
+
+7. »vlagatelj« pomeni imetnika enote oziroma potencialnega imetnika enote.
+
+3. člen
+
+(odstop od pravil o deležih naložb)
+
+Za odstop od pravil o deležih naložb po tem splošnem aktu se smiselno uporablja 185. člen ZISDU-3.
+
+4. člen
+
+(pojem investicijski sklad v III. in IV. poglavju)
+
+V III. in IV. poglavju tega splošnega akta se pojem investicijski sklad, nanaša na KNPVP.
+
+II. KLJUČNI ELEMENTI INVESTICIJSKEGA SKLADA
+
+5. člen
+
+(ključni elementi investicijskega sklada)
+
+Investicijski sklad je kolektivni naložbeni podjem iz prvega odstavka 5. člena ZISDU-3, ki izpolnjuje naslednje pogoje:
+
+1. nima splošnega poslovnega ali gospodarskega namena;
+
+2. zbira premoženje vlagateljev za namene nalaganja tega premoženja, da se navedenim vlagateljem zagotovi združen donos in
+
+3. lastniki njegovih enot kot skupina nimajo vsakodnevne presoje ali nadzora.
+
+6. člen
+
+(splošni poslovni ali gospodarski namen)
+
+Splošni poslovni ali gospodarski namen iz 1. točke prejšnjega člena ima podjem, ki sledi poslovni strategiji, ki vključuje predvsem vodenje:
+
+1. poslovne dejavnosti, ki vključuje nabavo, prodajo oziroma izmenjavo blaga ali proizvodov oziroma ponujanje nefinančnih storitev, ali
+
+2. gospodarske dejavnosti, ki vključuje proizvodnjo blaga ali gradnjo nepremičnin, ali kombinacij dejavnosti iz 1. in 2. točke tega člena.
+
+7. člen
+
+(združen donos)
+
+Združen donos iz 2. točke 5. člena tega splošnega akta pomeni donos, ustvarjen na podlagi skupnega tveganja, ki izhaja iz pridobivanja, posedovanja ali prodajanja naložbenih sredstev, vključno z dejavnostmi namenjenimi povečanju vrednosti ali optimizaciji teh sredstev, ne glede na to, ali so za imetnike enot ustvarjeni različni donosi.
+
+8. člen
+
+(vsakodnevna presoja ali nadzor)
+
+(1) Vsakodnevna presoja ali nadzor iz 3. točke 5. člena tega splošnega akta pomeni obliko neposredne in stalne pristojnosti odločanja o operativnih zadevah povezanih z vsakodnevnim upravljanjem sredstev podjema, ki precej presega običajne vsebine odločanja ali nadzora preko glasovanja na skupščinah delničarjev podjema.
+
+(2) Za presojo ali imajo imetniki enot podjema možnost vsakodnevne presoje ali nadzora, ni pomembno ali se ta možnost dejansko izkorišča ali ne.
+
+(3) Dejstvo, da ima možnost vsakodnevne presoje ali nadzora le en ali več izmed imetnikov enot vendar ne vsi, ne šteje kot dokaz, da podjem ni kolektivni naložbeni podjem.
+
+9. člen
+
+(zbiranje premoženja)
+
+(1) Dejavnost zbiranja premoženja iz prvega odstavka 5. člena ZISDU-3 in 2. točke 5. člena tega splošnega akta pomeni poslovno dejavnost, v okviru katere podjem oziroma oseba ali subjekt, ki deluje v njegovem imenu, opravi neposredne ali posredne korake za zagotovitev prenosa premoženja ali kapitalske zaveze enega ali več vlagateljev v podjem z namenom vlaganja tega premoženja v skladu z opredeljeno naložbeno politiko.
+
+(2) Za namen prejšnjega odstavka ni pomembno, ali:
+
+1. se dejavnost izvede samo enkrat, večkrat ali se izvaja stalno;
+
+2. ima prenos premoženja ali kapitalska zaveza obliko vpisov v denarju ali v naravi.
+
+(3) Za zbiranje premoženja ne šteje, če kapital v podjem vloži član predhodno obstoječe skupine, pri čemer je bil podjem ustanovljen izključno za vlaganje zasebnega premoženja članov take predhodno obstoječe skupine.
+
+(4) Za predhodno obstoječo skupino šteje tudi skupina do 50 oseb, ki:
+
+– ustanovi skupno podjetje v obliki gospodarske družbe, in
+
+– hkrati s sprejemom družbene pogodbe soglasno sprejme tudi naložbeno politiko upravljanja premoženja, ki ga take osebe prenesejo na skupno podjetje, in
+
+– to premoženje na podlagi soglasno sprejetih pravil upravlja sama, brez prenosa v upravljanje na zunanjega upravljavca.
+
+(5) Vsaka izmed oseb iz prejšnjega odstavka je predmet ločene presoje, ali izpolnjuje pogoje za investicijski sklad po ZISDU-3 in tem splošnemu aktu.
+
+10. člen
+
+(predhodno obstoječa skupina)
+
+(1) Predhodno obstoječa skupina iz tretjega odstavka prejšnjega člena je skupina družinskih članov, ne glede na vrsto pravne strukture, ki jo ti vzpostavijo za naložbe v podjem, katerega edini končni upravičenci so družinski člani, če je skupina obstajala že pred ustanovitvijo podjema.
+
+(2) Družinski član se lahko skupini pridruži tudi po ustanovitvi podjema.
+
+(3) Družinski član iz prvega in drugega odstavka tega člena pomeni zakonskega partnerja posameznika, osebo, ki s posameznikom živi v zunajzakonski skupnosti, sorodnike v ravni vrsti, sorojence, strice, tete, bratrance in sestrične v prvem kolenu ter osebe, ki jih posameznik vzdržuje.
+
+11. člen
+
+(število vlagateljev)
+
+(1) Podjem, ki mu na podlagi nacionalne zakonodaje, pravil upravljanja ali akta o ustanovitvi oziroma kakšne druge določbe ali ureditve s pravno zavezujočim učinkom ni preprečeno zbiranje premoženja več kot enega vlagatelja, se šteje za kolektivni podjem, ki zbira premoženje več vlagateljev v skladu s prvim odstavkom 5. člena ZISDU-3, tudi če ima dejansko samo enega imetnika enot.
+
+(2) Podjem, ki mu je na podlagi nacionalne zakonodaje, pravil upravljanja ali akta o ustanovitvi oziroma kakšne druge določbe ali ureditve s pravno zavezujočim učinkom preprečeno zbiranje premoženja več kot enega vlagatelja, se šteje za podjem, ki zbira premoženje več vlagateljev v skladu s prvim odstavkom 5. člena ZISDU-3, če edini imetnik enot:
+
+1. vloži premoženje, ki ga je zbral od več kot ene pravne ali fizične osebe z namenom vlaganja tega premoženja v korist navedenih oseb in
+
+2. vključuje ureditev ali strukturo, ki ima več kot enega vlagatelja v skladu s prvim odstavkom 5. člena ZISDU-3 in tem splošnim aktom.
+
+(3) Ureditve ali strukture iz 2. točke prejšnjega odstavka vključujejo centralno-napajalne strukture, pri katerih je edini imetnik enot podjema napajalni sklad, strukture sklada skladov, pri katerih je edini imetnik enot podjema sklad skladov, in ureditve, pri katerih je edini imetnik enot podjema pooblaščeni zastopnik, ki zastopa več imetnikov enot in združuje njihove interese za administrativne namene.
+
+12. člen
+
+(opredeljena naložbena politika)
+
+(1) Šteje se, da ima podjem opredeljeno naložbeno politiko v skladu s prvim odstavkom 5. člena ZISDU-3, če ima sprejeto politiko v zvezi z načinom upravljanja zbranega premoženja ki omogoča, da se ustvari združeni donos za njegove imetnike enot.
+
+(2) Dejavniki, ki po navadi posamično ali skupaj kažejo na obstoj take politike, so:
+
+1. naložbena politika je opredeljena in določena najpozneje takrat, ko zaveze vlagateljev do podjema zanje postanejo zavezujoče;
+
+2. naložbena politika je določena v dokumentu, ki postane del pravil upravljanja ali akta o ustanovitvi ali je v pravilih upravljanja oziroma v aktu o ustanovitvi naveden;
+
+3. podjem ali pravna oseba, ki podjem upravlja, je pravno zavezan imetnikom enot, da sledi naložbeni politiki, vključno z vsemi njenimi spremembami;
+
+4. v naložbeni politiki so naložbene smernice opredeljene s sklicevanjem na merila, med katerimi so lahko nekatera ali vsa naslednja merila:
+
+a) da se vlaga v določene kategorije sredstev ali se upoštevajo omejitve v zvezi z razporejanjem sredstev;
+
+b) da se sledi določenim strategijam;
+
+c) da se vlaga v posamezne geografske regije;
+
+d) da se upoštevajo omejitve finančnega vzvoda;
+
+e) da se upoštevajo minimalne dobe zadržanja ali
+
+f) da se upoštevajo druge omejitve za razpršitev tveganja.
+
+(3) Za naložbene smernice iz 4. točke prejšnjega odstavka štejejo tudi vse smernice, dane z namenom upravljanja podjema, ki določajo naložbena merila, razen tistih, ki jih določa poslovna strategija, ki ji sledi podjem s splošnim poslovnim ali gospodarskim namenom.
+
+(4) Šteje se, da ima podjem opredeljeno naložbeno politiko tudi takrat, kadar se vse naložbene odločitve prepustijo pravni osebi, ki upravlja podjem.
+
+13. člen
+
+(podsklad podjema)
+
+Če ima podsklad podjema vse elemente iz opredelitve investicijskega sklada, iz prvega odstavka 5. člena ZISDU-3 in tega splošnega akta, se podjem kot celota šteje za investicijski sklad.
+
+III. TIPI KNPVP
+
+14. člen
+
+(osnoven in kompleksen investicijski sklad)
+
+(1) KNPVP je lahko glede na splošne značilnosti naložb osnoven ali kompleksen investicijski sklad.
+
+(2) Za kompleksen šteje KNPVP, ki nalaga sredstva v:
+
+1. OTC izvedene finančne instrumente in/ali
+
+2. SFI z vgrajenimi izvedenimi finančnimi instrumenti, ki predstavljajo nadomestek OTC izvedenih finančnih instrumentov.
+
+(3) KNPVP, ki ne izpolnjuje pogojev iz prejšnjega odstavka, je osnoven investicijski sklad.
+
+15. člen
+
+(dovoljenje za upravljanje posameznega tipa investicijskega sklada)
+
+(1) Dovoljenje za opravljanje storitev upravljanja investicijskih skladov, ki ga družbi za upravljanje izda Agencija na podlagi 103. člena ZISDU-3, je lahko, glede na to ali družba za upravljanje izpolnjuje dodatne zahteve iz splošnega akta, ki ureja poslovanje družbe za upravljanje, izdano za:
+
+1. opravljanje storitev upravljanja investicijskih skladov;
+
+2. opravljanje storitev upravljanja kompleksnih investicijskih skladov.
+
+(2) Kompleksne investicijske sklade lahko upravlja samo družba za upravljanje, ki je pridobila ustrezno dovoljenje iz 2. točke prejšnjega odstavka tega člena.
+
+IV. VRSTE SKLADOV
+
+1.
+Skupne določbe
+
+16. člen
+
+(osnovne kategorije investicijskih skladov)
+
+Investicijski skladi se glede na vrste naložb, v katere imajo naložena sredstva, glede na tehnike upravljanja sredstev oziroma naložbeno strategijo razvrstijo v eno izmed naslednjih osnovnih kategorij:
+
+1. delniški skladi;
+
+2. obvezniški skladi;
+
+3. mešani skladi;
+
+4. skladi denarnega trga;
+
+5. skladi strategij absolutne donosnosti;
+
+6. preostali skladi.
+
+17. člen
+
+(opredelitev investicijskega sklada glede na strukturne značilnosti)
+
+(1) Investicijski sklad posamezne vrste iz priloge 2 k temu splošnemu aktu se lahko dodatno opredeli glede na strukturne značilnosti, ki niso povezane s kriteriji iz 16. člena tega splošnega akta kot strukturiran sklad, če so te strukturne značilnosti združljive s pogoji, ki jih ta splošni akt določa za to vrsto investicijskega sklada.
+
+(2) Strukturiran sklad je investicijski sklad, ki imetnikom enot na vnaprej določen dan v prihodnosti zagotavlja na algoritmu temelječa vnaprej določena izplačila, povezana z uspešnostjo poslovanja sklada, z dejansko spremembo cen ali drugimi pogoji povezanimi s finančnim premoženjem, indeksom, referenčnim premoženjem ali KNPVP s podobnimi lastnostmi.
+
+18. člen
+
+(opredelitev investicijskega sklada kot indeksnega investicijskega sklada)
+
+(1) Investicijski sklad se lahko, če je to združljivo s pogoji, ki jih ta splošni akt določa za posamezno vrsto sklada, opredeli kot:
+
+1. indeksni investicijski sklad;
+
+2. indeksni investicijski sklad z vzvodom.
+
+(2) Indeksni investicijski sklad je sklad, katerega strategija je posnemati strukturo indeksa ali slediti uspešnosti indeksa ali indeksov, na primer s sintetičnim ali fizičnim posnemanjem.
+
+(3) Indeksni investicijski sklad z vzvodom je investicijski sklad, katerega strategija je izpostavljenost z vzvodom indeksu ali izpostavljenost indeksu z vzvodom.
+
+19. člen
+
+(geografska izpostavljenost)
+
+(1) Če družba za upravljanje pri izbiri naložb investicijskega sklada upošteva kriterij geografske izpostavljenosti, morajo pravila upravljanja ali statut investicijskega sklada opredeliti okoliščine, ki določajo domicil izdajatelja finančnega instrumenta.
+
+(2) Družba za upravljanje pri določitvi okoliščin iz prejšnjega odstavka tega člena uporabi enega ali več izmed naslednjih kriterijev:
+
+1. državo, kjer poteka glavnina poslovanja izdajatelja;
+
+2. državo, v kateri se v glavnem vodijo posli izdajatelja;
+
+3. državo, primarne kotacije finančnega instrumenta.
+
+(3) Če ta splošni akt določa, da se investicijski sklad opredli po kriteriju geografske izpostavljenosti, mora imeti najmanj 80 odstotkov sredstev v vrednostnih papirjih izdajateljev z domicilom v posamezni državi, podregiji ali regiji ali v vrednostnih papirjih teh izdajateljev in enotah ciljnih skladov, ki nalagajo v tovrstne vrednostne papirje.
+
+(4) Regije, podregije in pripadajoče države so določene v prilogi 1 k temu splošnemu aktu.
+
+20. člen
+
+(valutna izpostavljenost)
+
+(1) Če ta splošni akt določa, da se investicijski sklad opredli po kriteriju izpostavljenosti do določene valute, mora imeti takšen investicijski sklad najmanj 70 odstotkov sredstev izpostavljenih do določene valute.
+
+(2) V obseg sredstev, izpostavljenih do določene valute, štejejo finančni instrumenti nominirani v tej valuti in del sredstev investicijskega sklada, ki je s pomočjo uporabe tehnik upravljanja naložb izpostavljen do te valute.
+
+(3) Valuta finančnega instrumenta se določi po standardu ISO 4271.
+
+2.
+Delniški skladi
+
+21. člen
+
+(opredelitev delniškega sklada)
+
+(1) Delniški sklad je investicijski sklad, ki ima najmanj 85 odstotkov sredstev naloženih v delnicah ali v delnicah in enotah delniških ciljnih skladov.
+
+(2) Delniški sklad se glede na izpolnjevanje pogojev iz tega oddelka razvrsti v eno izmed vrst delniških skladov iz priloge 2 k temu splošnemu aktu.
+
+22. člen
+
+(kriteriji razvrščanja delniških skladov)
+
+(1) Delniški sklad se opredeli po kriteriju geografske izpostavljenosti ali po kriteriju izpostavljenosti do gospodarskega sektorja.
+
+(2) Če se delniški sklad opredeli glede na geografsko izpostavljenost kot globalni delniški sklad, mora imeti sredstva v delnicah izdajateljev z domicilom v vsaj dveh regijah oziroma v delnicah teh izdajateljev in enotah ciljnih skladov, ki nalagajo v tovrstne delnice, pri čemer ima najmanj 20 odstotkov sredstev v državah trgov v razvoju, naložbe v posamezno regijo pa ne smejo doseči omejitve iz tretjega odstavka 19. člena tega splošnega akta.
+
+(3) Če se delniški sklad opredeli glede na izpostavljenost do posameznega gospodarskega sektorja, mora imeti najmanj 80 odstotkov sredstev v delnicah družb, ki spadajo v izbrani gospodarski sektor ali v delnicah teh družb in enotah delniških ciljnih skladov, ki nalagajo v izbrani gospodarski sektor opredeljen z izbrano klasifikacijo gospodarske dejavnosti.
+
+(4) Za klasifikacijo gospodarske dejavnosti iz prejšnjega odstavka šteje klasifikacija, ki je splošno priznana in uporabljena v stroki upravljanja finančnih naložb.
+
+(5) Če se delniški sklad opredeli glede na izpostavljenost do gospodarskega sektorja, brez osredotočanja na posamezen gospodarski sektor, mora imeti najmanj 80 odstotkov sredstev v delnicah družb, ki spadajo v dva ali več izbranih gospodarskih sektorjev ali v delnicah teh družb in enotah delniških ciljnih skladov, ki nalagajo v izbrane gospodarske sektorje, pri čemer naložbe v posamezen gospodarski sektor ne smejo doseči omejitve iz tretjega odstavka tega člena.
+
+(6) Delniški sklad opredeljen po enem od kriterijev iz prvega odstavka tega člena se lahko podrobneje opredeli tudi po kriteriju izpostavljenosti do družb z majhno kapitalizacijo.
+
+(7) Če se delniški sklad opredeli glede na izpostavljenost do družb z majhno kapitalizacijo, mora imeti najmanj 80 odstotkov sredstev v delnicah družb z majhno kapitalizacijo ali v delnicah teh družb in enotah delniških ciljnih skladov, ki nalagajo v te družbe.
+
+(8) Družba za upravljanje kriterije, ki določajo majhno kapitalizacijo opredeli v pravilih upravljanja delniškega sklada.
+
+3.
+Obvezniški skladi
+
+23. člen
+
+(opredelitev obvezniškega sklada)
+
+(1) Obvezniški sklad je investicijski sklad, ki ima najmanj 80 odstotkov sredstev naloženih v obveznicah ali v obveznicah in drugih oblikah olastninjenega dolga.
+
+(2) Olastninjen dolg po tem splošnemu aktu pomeni vrednostne papirje s fiksno donosnostjo, ki niso obveznice, in enote obvezniških ciljnih skladov.
+
+(3) Za namen tega oddelka beseda »obveznica« vključuje obveznice in druge oblike olastninjenega dolga iz prejšnjega odstavka.
+
+(4) Izpostavljenost obvezniškega sklada do zamenljivih obveznic in izpostavljenost do vrednostnih papirjev kritih z drugim premoženjem ali s hipotekami vsaka posamično ne sme preseči 20 odstotkov sredstev obvezniškega sklada.
+
+(5) Izpostavljenost obvezniškega sklada do delnic ni dovoljena.
+
+(6) Obvezniški sklad se glede na izpolnjevanje pogojev iz tega oddelka razvrsti v eno izmed vrst obvezniških skladov iz priloge 2 k temu splošnemu aktu.
+
+24. člen
+
+(kriteriji razvrščanja obvezniških skladov)
+
+(1) Obvezniški sklad se opredeli po kriteriju izpostavljenosti kreditnemu tveganju.
+
+(2) Obvezniški sklad se po kriteriju izpostavljenosti kreditnemu tveganju opredeli kot:
+
+1. splošni obvezniški sklad, ki ima sredstva naložena v državnih in podjetniških obveznicah, pri tem ima največ 30 odstotkov obveznic izpostavljenih do trgov v razvoju in največ 30 odstotkov obveznic zunaj naložbenega razreda, od katerih je lahko največ 10 odstotkov obveznic izpostavljenih do trgov v razvoju;
+
+2. sklad podjetniških obveznic, ki ima najmanj 70 odstotkov sredstev v podjetniških obveznicah, pri tem ima največ 30 odstotkov obveznic izpostavljenih do trgov v razvoju in največ 30 odstotkov obveznic zunaj naložbenega razreda, od katerih je lahko največ 10 odstotkov obveznic izpostavljenih do trgov v razvoju;
+
+3. sklad državnih obveznic, ki ima najmanj 80 odstotkov sredstev v državnih obveznicah in največ 10 odstotkov podjetniških obveznic, pri čemer ima največ 30 odstotkov obveznic, izpostavljenih do trgov v razvoju in največ 30 odstotkov obveznic zunaj naložbenega razreda, od katerih je lahko največ 10 odstotkov obveznic izpostavljenih do trgov v razvoju;
+
+4. splošni sklad obveznic zunaj naložbenega razreda, ki ima med 30 in 70 odstotkov sredstev v obveznicah zunaj naložbenega razreda in največ 30 odstotkov obveznic izpostavljenih do trgov v razvoju;
+
+5. sklad obveznic zunaj naložbenega razreda, ki ima najmanj 70 odstotkov sredstev v obveznicah zunaj naložbenega razreda in največ 30 odstotkov obveznic izpostavljenih do trgov v razvoju.
+
+(3) Obvezniški sklad opredeljen po kriteriju izpostavljenosti kreditnemu tveganju se lahko podrobneje opredeli po kriteriju izpostavljenosti do obrestnih mer.
+
+(4) Če se obvezniški sklad opredli po kriteriju izpostavljenosti do obrestnih mer, se opredli kot:
+
+1. sklad kratkoročnih obveznic, katerega povprečno modificirano trajanje je več kot 1 leto in manj kot 3 leta;
+
+2. sklad srednjeročnih obveznic, katerega povprečno modificirano trajanje je več kot 3 leta in manj kot 7 let;
+
+3. sklad dolgoročnih obveznic, katerega povprečno modificirano trajanje je več kot 7 let.
+
+(5) Obvezniški sklad opredeljen po kriterijih iz tega in 25. člena tega splošnega akta se lahko podrobneje opredeli tudi po kriteriju izpostavljenosti do določene valute.
+
+25. člen
+
+(posebne kategorije obvezniških skladov)
+
+(1) Obvezniški sklad se lahko namesto po kriterijih iz prvega do četrtega odstavka 24. člena tega splošnega akta opredeli kot:
+
+1. obvezniški sklad trgov v razvoju, ki ima najmanj 60 odstotkov sredstev izpostavljenih do držav trgov v razvoju;
+
+2. obvezniški sklad spremenljive obrestne mere, ki ima najmanj 70 odstotkov sredstev naloženih v vrednostne papirje s spremenljivo obrestno mero, pri čemer je WAM največ 6 mesecev in WAL najmanj 1 leto;
+
+3. obvezniški sklad, vezan na inflacijo, ki ima najmanj 70 odstotkov sredstev naloženih v obveznice, vezane na inflacijo;
+
+4. fleksibilni obvezniški sklad, ki prilagaja svoje naložbe v obveznice glede na kriterije izpostavljenosti kreditnemu tveganju, valuti, trgom v razvoju in obrestni meri ne glede na omejitve, določene za posamezne preostale vrste obvezniških skladov.
+
+(2) Obvezniški sklad trgov v razvoju iz 1. točke prejšnjega odstavka se podrobneje opredeli glede na kriterij geografske izpostavljenosti, pri čemer ima lahko obvezniški sklad trgov v razvoju najmanj 80 odstotkov sredstev v obveznicah izdajateljev z domicilom v regiji, kateri pripada podregija trgov v razvoju, za katero se je sklad opredelil, oziroma v obveznicah, za katere je izdal garancijo izdajatelj z domicilom iz te regije. Podregije trgov v razvoju in države trgov v razvoju, ki pripadajo določeni podregiji so določene v prilogi 1 k temu splošnemu aktu.
+
+(3) Če se obvezniški sklad trgov v razvoju opredeli kot globalni obvezniški sklad trgov v razvoju, mora imeti ob izpolnjevanju pogoja iz prejšnjega odstavka sredstva v obveznicah izdajateljev iz vsaj dveh podregij trgov v razvoju, pri čemer naložbe v posamezno podregijo ne smejo doseči omejitve iz prejšnjega odstavka.
+
+(4) Obvezniški sklad trgov v razvoju se lahko podrobneje opredli tudi po kriteriju izpostavljenosti do lokalne košarice valut, v kateri so nominirane obveznice, pri čemer mora imeti najmanj 70 odstotkov sredstev izpostavljenih do te košarice valut.
+
+4.
+Mešani skladi
+
+26. člen
+
+(opredelitev mešanega sklada)
+
+(1) Mešani sklad je investicijski sklad, ki ima sredstva naložena v lastniške vrednostne papirje, dolžniške vrednostne papirje, instrumente denarnega trga in enote ciljnih skladov, ki nalagajo v navedene finančne instrumente ter denar in denarne ustreznike.
+
+(2) Mešani sklad zasleduje doseganje relativne donosnosti glede na vodilo kot tradicionalni sklad dolgih pozicij. V to kategorijo ne prištevamo skladov kombiniranih strategij, ki se uvrščajo v kategorijo skladov absolutne donosnosti.
+
+(3) Mešani sklad se glede na izpolnjevanje pogojev iz tega oddelka razvrsti v eno izmed vrst mešanih skladov iz priloge 2 k temu splošnemu aktu.
+
+27. člen
+
+(kriteriji razvrščanja mešanih skladov)
+
+(1) Mešani sklad se opredeli po kriteriju uravnoteženosti sredstev in po kriteriju geografske izpostavljenosti.
+
+(2) Mešani sklad se po kriteriju uravnoteženosti sredstev opredeli kot:
+
+1. defenzivni mešani sklad, ki ima manj kot 35 odstotkov sredstev naloženih v lastniške vrednostne papirje in enote delniških ciljnih skladov;
+
+2. uravnoteženi sklad, ki ima med 35 in 65 odstotki sredstev naloženih v lastniške vrednostne papirje in enote delniških ciljnih skladov;
+
+3. dinamični mešani sklad, ki ima več kot 65 odstotkov sredstev naloženih v lastniške vrednostne papirje in enote delniških ciljnih skladov;
+
+4. fleksibilni mešani sklad, ki ima lahko v vsakem trenutku do 100 odstotkov sredstev naloženih v katerikoli obliki sredstev iz prvega odstavka 26. člena tega splošnega akta.
+
+(3) Mešani sklad opredeljen po kriterijih iz prvega odstavka tega člena se lahko podrobneje opredeli tudi po kriteriju izpostavljenosti do določene valute.
+
+5.
+Skladi denarnega trga
+
+28. člen
+
+(razvrščanje skladov denarnega trga)
+
+(1) Sklad denarnega trga je sklad iz Uredbe (EU) 2017/1131 Evropskega Parlamenta in Sveta z dne 14. junija 2017 o skladih denarnega trga (UL L št. 169 z dne 30. 6. 2017, str. 8), zadnjič spremenjene z Uredbo (EU) 2024/2987 Evropskega parlamenta in Sveta z dne 27. novembra 2024 o spremembi uredb (EU) št. 648/2012, (EU) št. 575/2013 in (EU) 2017/1131 v zvezi z ukrepi za zmanjšanje prekomerne izpostavljenosti do centralnih nasprotnih strank iz tretjih držav in izboljšanje učinkovitosti klirinških trgov Unije (UL L št. 2024/2987 z dne 4. 12. 2024) (v nadaljnjem besedilu: Uredba 2017/1131/EU).
+
+(2) Sklad denarnega trga se opredeli v skladu s prvim odstavkom 3. člena Uredbe 2017/1131/EU kot:
+
+1. sklad denarnega trga s spremenljivo NVS;
+
+2. sklad denarnega trga s konstantno NVS za naložbe v instrumente javnega dolga;
+
+3. sklad denarnega trga z manjšim nihanjem NVS.
+
+6.
+Skladi strategij absolutne donosnosti
+
+29. člen
+
+(opredelitev sklada strategij absolutne donosnosti)
+
+(1) Sklad strategij absolutne donosnosti je investicijski sklad, katerega naložbeni cilj je neodvisno od razmer na finančnih trgih dosegati donosnost v višini pribitka nad vodilom izraženim z referenčno medbančno obrestno mero, in katerega naložbena politika omogoča hitro in fleksibilno prilagajanje naložb sklada razmeram na trgu in vključuje uporabo izvedenih finančnih instrumentov in po potrebi uporabo tehnik upravljanja sredstev.
+
+(2) Sklad strategij absolutne donosnosti se glede na izpolnjevanje pogojev iz tega oddelka razvrsti v eno izmed vrst skladov strategij absolutne donosnosti iz priloge 2 k temu splošnemu aktu.
+
+30. člen
+
+(kriteriji razvrščanja skladov strategij absolutne donosnosti)
+
+(1) Sklad strategij absolutne donosnosti se opredeli glede na naložbeno strategijo, ki jo družba za upravljanje uporablja pri upravljanju njegovih sredstev.
+
+(2) Sklad strategij absolutne donosnosti se glede na naložbeno strategijo razvrsti v eno od naslednji kategorij:
+
+1. skladi smernih strategij, ki uporabljajo širok nabor naložbenih strategij s poudarkom na specifični usmeritvi sproženi z makro dejavniki. Smerne naložbene strategije lahko vključujejo tehnike relativne vrednosti, pri čemer pa je glavni kriterij izbire naložb napoved bodočih gibanj osnovnih instrumentov in ne unovčevanje neskladij, ki nastajajo pri vrednotenju naložb;
+
+2. skladi dolgih/kratkih pozicij, ki uporabljajo analitične tehnike za identifikacijo precenjenih in podcenjenih vrednostnih papirjev. Naložbene strategije tovrstnih investicijskih skladov, lahko sledijo ugotovitvam temeljnih ali tehničnih analiz;
+
+3. skladi relativne vrednosti, ki uporabljajo tehnike relativne vrednosti za namen izkoriščanja neskladja vrednotenja v razmerju med več vrednostnimi papirji, pri čemer uporabljajo temeljne ali kvantitativne analize;
+
+4. skladi korporativnih dogodkov, ki nalagajo v vrednostne papirje družb, ki so oziroma za katere se pričakuje, da bodo udeležene v korporativnih poslih;
+
+5. skladi kombiniranih strategij, ki uporabljajo več različnih naložbenih strategij.
+
+7.
+Preostali skladi
+
+31. člen
+
+(opredelitev in razvrščanje preostalih skladov)
+
+Investicijski skladi, ki se zaradi ene ali več posebnosti, ne uvrstijo v nobeno izmed drugih kategorij iz tega poglavja, se razvrstijo v eno izmed vrst preostalih skladov iz priloge 2 k temu splošnemu aktu, ob izpolnjevanju tam določenih pogojev.
+
+V. DODATNA LIKVIDNA SREDSTVA
+
+32. člen
+
+(pojem dodatnih likvidnih sredstev)
+
+(1) Dodatna likvidna sredstva vzajemnega sklada so imetje na denarnem računu vzajemnega sklada, depoziti na vpogled, depoziti z odpoklicem z možnostjo izplačila na dan odpoklica in drugi denarni ustrezniki, ki jih je mogoče hitro pretvoriti v vnaprej znani znesek denarnih sredstev in pri katerih je tveganje spremembe vrednosti nepomembno.
+
+(2) Dodatna likvidna sredstva se oblikujejo za namen pokrivanja tekočih in izrednih izplačil vzajemnega sklada oziroma se oblikujejo v času, potrebnem za reinvestiranje unovčenih naložb vzajemnega sklada in v primerih kadar družba za upravljanje zaradi izredno neugodnih razmer na trgu finančnih instrumentov začasno prekine nalaganje sredstev vzajemnega sklada na te trge.
+
+33. člen
+
+(obseg dodatnih likvidnih sredstev)
+
+(1) Dodatna likvidna sredstva in, v kolikor pravila upravljanja vzajemnega sklada tako določajo, tudi izvedeni finančni instrumenti, namenjeni izključno varovanju pred tveganji, predstavljajo razliko med deležem sredstev vzajemnega sklada iz naslova doseganja naložbenih ciljev vzajemnega sklada in celotnimi sredstvi vzajemnega sklada.
+
+(2) Dodatna likvidna sredstva, upoštevaje omejitve iz 21. do 31. člena tega splošnega akta, ne smejo presegati 20 odstotkov celotnih sredstev vzajemnega sklada.
+
+VI. KONČNI DOLOČBI
+
+34. člen
+
+(prenehanje uporabe sklepa)
+
+Z dnem uveljavitve tega splošnega akta se preneha uporabljati Sklep o ključnih elementih investicijskega sklada ter tipih in vrstah investicijskih skladov (Uradni list RS, št. 100/15, 16/17, 80/19 in 44/23).
+
+35. člen
+
+(uveljavitev splošnega akta)
+
+Ta splošni akt začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
+
+Št. 00701-4/2025-3
+
+Ljubljana, dne 25. septembra 2025
+
+EVA 2025-1611-0072
+
+Predsednica sveta
+
+Agencije za trg vrednostnih papirjev
+
+Anka Čadež
+
+Priloga 1
+
+Priloga 2
