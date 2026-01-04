@@ -2,11 +2,11 @@
 kratica: MP_ODLO43587
 naziv: "Odlok o ustanovitvi javnega lekarniškega zavoda Lekarna Kočevje (ODLO)"
 vrsta: "občinski odlok"
-datum: 2019-05-03
+datum: 2026-01-04
 sop: 2019-01-1340
-organ: "Občina Kočevje"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-1340"
 ---
 

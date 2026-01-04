@@ -2,11 +2,11 @@
 kratica: MP_ODLO47516
 naziv: "Odlok o proračunu Občine Gorenja vas - Poljane za leto 2023 (ODLO)"
 vrsta: "občinski odlok"
-datum: 2023-02-24
+datum: 2026-01-04
 sop: 2023-01-0506
-organ: "Občina Gorenja Vas - Poljane"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-0506"
 ---
 

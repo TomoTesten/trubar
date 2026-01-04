@@ -2,11 +2,11 @@
 kratica: MP_PRAV6925
 naziv: "Pravilnik o spremembah in dopolnitvah Pravilnika o dodelitvi enkratne denarne pomoči ob rojstvu otroka v Občini Sveti Jurij ob Ščavnici (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2022-04-29
+datum: 2026-01-04
 sop: 2022-01-1329
-organ: "Občina Sveti Jurij ob Ščavnici"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-1329"
 ---
 

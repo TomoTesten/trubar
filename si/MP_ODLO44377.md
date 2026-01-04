@@ -2,11 +2,11 @@
 kratica: MP_ODLO44377
 naziv: "Odlok o ustanovitvi javnega zavoda Valvasorjeva knjižnica Krško (ODLO)"
 vrsta: "občinski odlok"
-datum: 2020-02-07
+datum: 2026-01-04
 sop: 2020-01-0227
-organ: "Mestna občina Krško"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0227"
 ---
 

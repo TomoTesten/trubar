@@ -2,11 +2,11 @@
 kratica: MP_ODLO46979
 naziv: "Odlok o ustanovitvi in organiziranju Javnega podjetja Komunala Laško d.o.o. (ODLO)"
 vrsta: "občinski odlok"
-datum: 2022-07-01
+datum: 2026-01-04
 sop: 2022-01-2204
-organ: "Občina Laško"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-2204"
 ---
 

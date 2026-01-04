@@ -2,11 +2,11 @@
 kratica: MP_SKLE35051
 naziv: "Sklep o pripravi sprememb in dopolnitev zazidalnega načrta Turistično- oskrbovalni center III, Grosuplje/TOC III (SKLE)"
 vrsta: "občinski sklep"
-datum: 2023-02-03
+datum: 2026-01-04
 sop: 2023-01-0262
-organ: "Občina Grosuplje"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-0262"
 ---
 

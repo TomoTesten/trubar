@@ -2,11 +2,11 @@
 kratica: MP_ODLO14384
 naziv: "Odlok o ukinitvi delovanja Sklada stavbnih zemljišč Občine Sežana (ODLO)"
 vrsta: "občinski odlok"
-datum: 1996-01-26
+datum: 2026-01-04
 sop: 1996-01-0259
-organ: "Občina Divača"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0259"
 ---
 

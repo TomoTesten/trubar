@@ -2,11 +2,11 @@
 kratica: MP_ODLO42228
 naziv: "Odlok o ustanovitvi javnega vzgojno-izobraževalnega zavoda Kranjski vrtci (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-03-07
+datum: 2026-01-04
 sop: 2018-01-0672
-organ: "Mestna občina Kranj"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-0672"
 ---
 

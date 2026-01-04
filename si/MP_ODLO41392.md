@@ -2,11 +2,11 @@
 kratica: MP_ODLO41392
 naziv: "Odlok o ustanovitvi javnega zavoda Zavod za turizem in kulturo Poljanska dolina (ODLO)"
 vrsta: "občinski odlok"
-datum: 2017-06-30
+datum: 2026-01-04
 sop: 2017-01-1778
-organ: "Občina Gorenja Vas - Poljane"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-1778"
 ---
 

@@ -2,11 +2,11 @@
 kratica: MP_PRAV6800
 naziv: "Pravilnik o organiziranju in plačevanju stroškov predšolske vzgoje v Občini Kostanjevica na Krki (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2021-08-06
+datum: 2026-01-04
 sop: 2021-01-2677
-organ: "Občina Kostanjevica na Krki"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-2677"
 ---
 

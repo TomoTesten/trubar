@@ -2,11 +2,11 @@
 kratica: MP_ODLO46877
 naziv: "Odredba o ureditvi parkiranja proti plačilu na javnih parkiriščih v Občini Sevnica (ODLO)"
 vrsta: "občinski odlok"
-datum: 2022-06-10
+datum: 2026-01-04
 sop: 2022-01-1897
-organ: "Občina Sevnica"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-1897"
 ---
 

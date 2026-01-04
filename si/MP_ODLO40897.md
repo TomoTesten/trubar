@@ -2,11 +2,11 @@
 kratica: MP_ODLO40897
 naziv: "Odlok o občinskem prostorskem načrtu Občine Cerklje na Gorenjskem (ODLO)"
 vrsta: "občinski odlok"
-datum: 2014-09-16
+datum: 2026-01-04
 sop: 2014-63-0022
-organ: "Občina Cerklje na Gorenjskem"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-63-0022"
 ---
 

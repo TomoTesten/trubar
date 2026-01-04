@@ -2,11 +2,11 @@
 kratica: MP_ODLO47762
 naziv: "Odlok o podlagah za odmero komunalnega prispevka za obstoječo komunalno opremo za območje Občine Beltinci (ODLO)"
 vrsta: "občinski odlok"
-datum: 2020-11-27
+datum: 2026-01-04
 sop: 2020-97-0726
-organ: "Občina Beltinci"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-97-0726"
 ---
 

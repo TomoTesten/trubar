@@ -2,11 +2,11 @@
 kratica: MP_ODLO45533
 naziv: "Odlok o podlagah za odmero komunalnega prispevka za obstoječo komunalno opremo za območje občine Krško (ODLO)"
 vrsta: "občinski odlok"
-datum: 2021-03-12
+datum: 2026-01-04
 sop: 2021-01-0752
-organ: "Mestna občina Krško"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-0752"
 ---
 

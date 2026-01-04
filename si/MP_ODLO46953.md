@@ -2,11 +2,11 @@
 kratica: MP_ODLO46953
 naziv: "Odlok o porabi sredstev proračunske rezerve leta 2022 in 2023 za odpravo posledic naravnih nesreč na občinski infrastrukturi (ODLO)"
 vrsta: "občinski odlok"
-datum: 2022-06-30
+datum: 2026-01-04
 sop: 2022-01-2134
-organ: "Mestna občina Krško"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-2134"
 ---
 

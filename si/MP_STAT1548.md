@@ -2,11 +2,11 @@
 kratica: MP_STAT1548
 naziv: "Statut Občine Žužemberk (STAT)"
 vrsta: "akt"
-datum: 2018-12-07
+datum: 2026-01-04
 sop: 2018-01-3842
-organ: "Občina Žužemberk"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-3842"
 ---
 

@@ -2,11 +2,11 @@
 kratica: MP_ODLO45611
 naziv: "Odlok o kategorizaciji občinskih cest v Občini Dobrna (ODLO)"
 vrsta: "občinski odlok"
-datum: 2021-04-12
+datum: 2026-01-04
 sop: 2021-01-1142
-organ: "Občina Dobrna"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-1142"
 ---
 

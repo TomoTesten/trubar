@@ -2,11 +2,11 @@
 kratica: MP_ODLO46466
 naziv: "Odlok o ustanovitvi javnega zavoda Zdravstveni dom Kočevje (ODLO)"
 vrsta: "občinski odlok"
-datum: 2022-01-21
+datum: 2026-01-04
 sop: 2022-01-0146
-organ: "Občina Kočevje"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-0146"
 ---
 

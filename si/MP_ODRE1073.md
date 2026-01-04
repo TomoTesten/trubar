@@ -2,11 +2,11 @@
 kratica: MP_ODRE1073
 naziv: "Odredba o določitvi javnih parkirnih površin, kjer se plačuje parkirnina (ODRE)"
 vrsta: "akt"
-datum: 2018-02-16
+datum: 2026-01-04
 sop: 2018-01-0381
-organ: "Mestna občina Ljubljana"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-0381"
 ---
 
