@@ -2,11 +2,11 @@
 kratica: MP_ODLO47623
 naziv: "Odlok o izdajanju občinskega glasila Občine Velike Lašče (ODLO)"
 vrsta: "občinski odlok"
-datum: 2011-02-09
+datum: 2026-01-04
 sop: 2011-95-0003
-organ: "Občina Velike Lašče"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-95-0003"
 ---
 

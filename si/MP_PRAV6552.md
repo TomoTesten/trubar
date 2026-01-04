@@ -2,11 +2,11 @@
 kratica: MP_PRAV6552
 naziv: "Pravilnik o subvencioniranju servisa celodnevne povezave preko osebnega telefonskega alarma (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2020-03-27
+datum: 2026-01-04
 sop: 2020-01-0673
-organ: "Občina Šmartno pri Litiji"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0673"
 ---
 

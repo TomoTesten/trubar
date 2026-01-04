@@ -2,11 +2,11 @@
 kratica: MP_ODLO52274
 naziv: "Odlok o kategorizaciji občinskih javnih cest v Občini Velike Lašče (ODLO)"
 vrsta: "občinski odlok"
-datum: 2010-09-24
+datum: 2026-01-04
 sop: 2010-95-0013
-organ: "Občina Velike Lašče"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-95-0013"
 ---
 

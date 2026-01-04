@@ -2,11 +2,11 @@
 kratica: MP_POSL1192
 naziv: " Poslovnik Občinskega sveta Občine Trzin (POSL)"
 vrsta: "akt"
-datum: 2020-10-09
+datum: 2026-01-04
 sop: 2020-77-0058
-organ: "Občina Trzin"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-77-0058"
 ---
 

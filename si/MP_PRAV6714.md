@@ -2,11 +2,11 @@
 kratica: MP_PRAV6714
 naziv: "Pravilnik o dodelitvi enkratne denarni pomoči ob rojstvu otroka v Občini Sveti Jurij ob Ščavnici (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2021-03-12
+datum: 2026-01-04
 sop: 2021-01-0768
-organ: "Občina Sveti Jurij ob Ščavnici"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-0768"
 ---
 

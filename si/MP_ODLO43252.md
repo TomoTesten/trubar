@@ -2,11 +2,11 @@
 kratica: MP_ODLO43252
 naziv: "Odlok o ustanovitvi javnega lekarniškega zavoda Lekarne Ptuj (ODLO)"
 vrsta: "občinski odlok"
-datum: 2019-01-04
+datum: 2026-01-04
 sop: 2019-01-0009
-organ: "Občina Žetale"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-0009"
 ---
 

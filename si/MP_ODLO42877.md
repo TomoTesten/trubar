@@ -2,11 +2,11 @@
 kratica: MP_ODLO42877
 naziv: "Odlok o občinskem prostorskem načrtu Občine Šmarje pri Jelšah – izvedbeni del (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-08-13
+datum: 2026-01-04
 sop: 2018-01-2801
-organ: "Občina Šmarje pri Jelšah"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-2801"
 ---
 

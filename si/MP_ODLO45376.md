@@ -2,11 +2,11 @@
 kratica: MP_ODLO45376
 naziv: "Odlok o ustanovitvi in izdajanju časopisa Občine Žirovnica (uradno prečiščeno besedilo) (ODLO)"
 vrsta: "občinski odlok"
-datum: 2021-01-08
+datum: 2026-01-04
 sop: 2021-01-0091
-organ: "Občina Žirovnica"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-0091"
 ---
 

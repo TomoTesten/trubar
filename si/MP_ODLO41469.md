@@ -2,11 +2,11 @@
 kratica: MP_ODLO41469
 naziv: "Odlok o programu opremljanja stavbnih zemljišč za območje OPPN Marička (uradno prečiščeno besedilo) (ODLO)"
 vrsta: "občinski odlok"
-datum: 2017-07-14
+datum: 2026-01-04
 sop: 2017-01-1978
-organ: "Občina Piran"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-1978"
 ---
 

@@ -2,11 +2,11 @@
 kratica: MP_ODLO42323
 naziv: "Odlok o postopku in merilih za sofinanciranje letnega programa športa v Občini Komen (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-04-13
+datum: 2026-01-04
 sop: 2018-01-1087
-organ: "Občina Komen"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-1087"
 ---
 

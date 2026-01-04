@@ -2,11 +2,11 @@
 kratica: MP_ODLO44769
 naziv: "Odlok o obremenjevanju nepremičnega premoženja v lasti Občine Šmartno pri Litiji s služnostnimi pravicami (ODLO)"
 vrsta: "občinski odlok"
-datum: 2020-07-10
+datum: 2026-01-04
 sop: 2020-01-1809
-organ: "Občina Šmartno pri Litiji"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-1809"
 ---
 

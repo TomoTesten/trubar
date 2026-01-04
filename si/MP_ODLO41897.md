@@ -2,11 +2,11 @@
 kratica: MP_ODLO41897
 naziv: "Odlok o ustanovitvi Javnega podjetja Varaš, podjetje za komunalne in druge storitve, d.o.o., Turnišče (ODLO)"
 vrsta: "občinski odlok"
-datum: 2017-12-08
+datum: 2026-01-04
 sop: 2017-01-3355
-organ: "Občina Turnišče"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-3355"
 ---
 

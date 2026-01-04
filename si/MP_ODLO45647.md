@@ -2,11 +2,11 @@
 kratica: MP_ODLO45647
 naziv: "Odlok o podlagah za odmero komunalnega prispevka za obstoječo komunalno opremo na območju Občine Pivka (ODLO)"
 vrsta: "občinski odlok"
-datum: 2021-04-23
+datum: 2026-01-04
 sop: 2021-01-1331
-organ: "Občina Pivka"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-1331"
 ---
 

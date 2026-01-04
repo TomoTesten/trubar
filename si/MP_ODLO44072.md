@@ -2,11 +2,11 @@
 kratica: MP_ODLO44072
 naziv: "Odlok o ravnanju s komunalnimi odpadki v Občini Pivka (ODLO)"
 vrsta: "občinski odlok"
-datum: 2019-11-29
+datum: 2026-01-04
 sop: 2019-01-3160
-organ: "Občina Pivka"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-3160"
 ---
 
