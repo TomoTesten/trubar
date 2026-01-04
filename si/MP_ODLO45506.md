@@ -2,11 +2,11 @@
 kratica: MP_ODLO45506
 naziv: "Odlok o kategorizaciji občinskih cest v Občini Kočevje (ODLO)"
 vrsta: "občinski odlok"
-datum: 2021-03-04
+datum: 2026-01-04
 sop: 2021-01-0637
-organ: "Občina Kočevje"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-0637"
 ---
 

@@ -2,11 +2,11 @@
 kratica: MP_ODLO34445
 naziv: "Odlok o zazidalnem načrtu za območje zazidalnega otoka BM-2, dela zazidalnega otoka BP-2 in dela zazidalnega otoka BP-1 v Kamniku (ODLO)"
 vrsta: "občinski odlok"
-datum: 1981-12-18
+datum: 2026-01-04
 sop: 1981-04-0035
-organ: "Občina Kamnik"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1981-04-0035"
 ---
 

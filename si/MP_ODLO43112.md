@@ -2,11 +2,11 @@
 kratica: MP_ODLO43112
 naziv: "Odlok o nadomestilu za uporabo stavbnega zemljišča v Občini Šmartno pri Litiji (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-10-30
+datum: 2026-01-04
 sop: 2018-01-3442
-organ: "Občina Šmartno pri Litiji"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-3442"
 ---
 

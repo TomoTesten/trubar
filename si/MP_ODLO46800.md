@@ -1,22 +1,22 @@
 ---
-kratica: MP_ODLO46799
-naziv: "Odlok o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Maksa Pleteršnika Pišece (ODLO)"
+kratica: MP_ODLO46800
+naziv: "Odlok o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Velika Dolina (ODLO)"
 vrsta: "občinski odlok"
 datum: 2026-01-04
-sop: 2022-01-1510
+sop: 2022-01-1511
 organ: ""
 zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
 status: "Neznano"
-vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-1510"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-1511"
 ---
 
-# Odlok o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Maksa Pleteršnika Pišece (ODLO)
+# Odlok o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Velika Dolina (ODLO)
 
-Na podlagi 3. člena Zakona o zavodih (Uradni list RS – stari, št. 12/91, Uradni list RS/I, št. 17/91 – ZUDE, Uradni list RS, št. 55/92 – ZVDK, 13/93, 66/93, 66/93, 45/94 – odl. US, 8/96, 31/00 – ZP-L, 36/00 – ZPDZC in 127/06 – ZJZP), prvega odstavka 41. člena Zakona o organizaciji in financiranju vzgoje in izobraževanja (Uradni list RS, št. 16/07 – uradno prečiščeno besedilo, 118/06 – ZUOPP-A, 36/08, 58/09, 64/09 – popr., 65/09 – popr., 20/11, 40/12 – ZUJF, 57/12 – ZPCP-2D, 2/15 – odl. US, 47/15, 46/16, 49/16 – popr., 25/17 – ZVaj, 123/21, 172/21, 207/21) in 19. člena Statuta Občine Brežice (Uradni list RS, št. 100/21) je Občinski svet Občine Brežice na 22. redni seji dne 21. 4. 2022 sprejel
+Na podlagi 3. člena Zakona o zavodih (Uradni list RS – stari, št. 12/91, Uradni list RS/I, št. 17/91 – ZUDE, Uradni list RS, št. 55/92 – ZVDK, 13/93, 66/93, 66/93, 45/94 – odl. US, 8/96, 31/00 – ZP-L, 36/00 – ZPDZC in 127/06 – ZJZP), prvega odstavka 41. člena Zakona o organizaciji in financiranju vzgoje in izobraževanja (Uradni list RS, št. 16/07 – uradno prečiščeno besedilo, 118/06 – ZUOPP-A, 36/08, 58/09, 64/09 – popr., 65/09 – popr., 20/11, 40/12 – ZUJF, 57/12 – ZPCP-2D, 2/15 – odl. US, 47/15, 46/16, 49/16 – popr., 25/17 – ZVaj, 123/21, 172/21, 207/21) in 19. člena Statuta Občine Brežice (Uradni list RS, št. 100/21) je Občinski svet Občine Brežice na 21. redni seji dne 22. 4. 2022 sprejel
 
 O D L O K
 
-o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Maksa Pleteršnika Pišece
+o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Velika Dolina
 
 I. SPLOŠNA DOLOČBA
 
@@ -25,7 +25,7 @@ I. SPLOŠNA DOLOČBA
 
 (vsebina odloka)
 
-(1) S tem odlokom Občina Brežice, s sedežem Cesta prvih borcev 18, Brežice (v nadaljevanju: ustanovitelj) ustanavlja na področju osnovnega šolstva ter vzgoje in varstva predšolskih otrok javni vzgojno-izobraževalni zavod Osnovna šola Maksa Pleteršnika Pišece (v nadaljevanju: zavod).
+(1) S tem odlokom Občina Brežice, s sedežem Cesta prvih borcev 18, Brežice (v nadaljevanju: ustanovitelj) ustanavlja na področju osnovnega šolstva ter vzgoje in varstva predšolskih otrok javni vzgojno-izobraževalni zavod Osnovna šola Velika Dolina (v nadaljevanju: zavod).
 
 (2) Ustanoviteljske pravice uresničuje Občinski svet Občine Brežice.
 
@@ -38,15 +38,15 @@ Ime, sedež in pravni status zavoda
 
 (ime, sedež in pravni status zavoda)
 
-(1) Ime zavoda je Osnovna šola Maksa Pleteršnika Pišece.
+(1) Ime zavoda je Osnovna šola Velika Dolina.
 
-(2) Sedež zavoda je v Pišecah 34, Pišece.
+(2) Sedež zavoda je Velika Dolina 30, 8261 Jesenice na Dolenjskem.
 
-(3) Skrajšano ime zavoda je OŠ Pišece.
+(3) Skrajšano ime zavoda je OŠ Velika Dolina.
 
 (4) V sestavo zavoda sodi:
 
-– enota Vrtec pri Osnovni šoli Maksa Pleteršnika Pišece, Pišece 34, 8255 Pišece.
+– enota Vrtec pri Osnovni šoli Velika Dolina, Velika Dolina 30, 8261 Jesenice na Dolenjskem.
 
 3. člen
 
@@ -123,7 +123,7 @@ Območje zadovoljevanja vzgojno-izobraževalnih potreb
 
 (šolski okoliš)
 
-Zavod je ustanovljen za opravljanje osnovnošolskega izobraževanja za šolski okoliš, ki obsega naslednja naselja: Pavlova vas, Podgorje, Pišece, Blatno, Dednja vas.
+Zavod je ustanovljen za opravljanje osnovnošolskega izobraževanja za šolski okoliš, ki obsega naslednja naselja: Velika Dolina, Mala Dolina, Gaj, Ribnica, Podgračeno, Koritno, Laze, Cirnik, Brezje pri Veliki Dolini, Ponikve, Perišče, Slovenska vas, Obrežje, Jesenice na Dolenjskem, Nova vas pri Mokricah, Rajec.
 
 III. DEJAVNOSTI ZAVODA
 
@@ -134,37 +134,45 @@ III. DEJAVNOSTI ZAVODA
 
 (1) Dejavnosti zavoda so:
 
-– P85.200 Osnovnošolko izobraževanje,
-
-– P85.510 Izobraževanje, izpopolnjevanje in usposabljanje na področju športa in rekreacije,
-
-– P85.520 Izobraževanje, izpopolnjevanje in usposabljanje na področju kulture in umetnosti,
-
-– P85.590 Drugje nerazvrščeno izobraževanje, izpopolnjevanje in usposabljanje,
+– P85.200 Osnovnošolsko splošno izobraževanje,
 
 – P85.100 Predšolska vzgoja,
 
-– H49.391 Medkrajevni in drug cestni potniški promet,
+– P85.590 Drugje nerazvrščeno izobraževanje, izpopolnjevanje in usposabljanje,
 
-– H49.410 Cestni tovorni promet,
+– P85.600 Pomožne dejavnosti za izobraževanje,
 
-– I56.290 Druga oskrba z jedmi,
-
-– J58.140 Izdajanje revij in druge periodike,
-
-– J58.190 Drugo založništvo,
+– H49.391 Medkrajevni in drugi cestni potniški promet,
 
 – J62.090 Druge z informacijsko tehnologijo in računalniškimi storitvami povezane dejavnosti,
 
-– L68.200 oddajanje in obratovanje lastnih ali najetih nepremičnin,
+– L68.200 Oddajanje in obratovanje lastnih ali najetih nepremičnin,
 
-– N82.190 Fotokopiranje, priprava dokumentov in druge posamične pisarniške dejavnosti,
+– N77.110 Dajanje lahkih motornih vozil v najem in zakup,
 
-– Q88.910 Dnevno varstvo otrok,
+– N77.210 Dajanje športne opreme v najem in zakup,
+
+– N77.290 Dajanje drugih izdelkov za široko rabo v najem in zakup,
 
 – R93.190 Druge športne dejavnosti,
 
 – R93.299 Druge nerazvrščene dejavnosti za prosti čas,
+
+– R93.110 Obratovanje športnih objektov,
+
+– N82.190 Fotokopiranje, priprava dokumentov in druge posamične pisarniške dejavnosti,
+
+– I56.210 Priložnostna priprava in dostava jedi,
+
+– I56.290 Druga oskrba z jedmi,
+
+– J58.140 Izdajanje revij in periodike,
+
+– J58.190 Drugo založništvo,
+
+– A01.250 Gojenje drugih sadnih dreves in grmovnic,
+
+– A01.280 Gojenje začimbnih, aromatskih in zdravilnih rastlin,
 
 – S96.090 Druge storitvene dejavnosti, drugje nerazvrščene.
 
@@ -444,13 +452,13 @@ Mandat ravnatelja traja 5 let. Pogoji, ki jih mora izpolnjevati ravnatelj in pos
 (3) Pomočnik ravnatelja opravlja naloge, ki mu jih določi ravnatelj in naloge, ki so opisane v aktih o sistemizaciji.
 
 3.
-Vodja enote Vrtca pri Osnovni šoli Maksa Pleteršnika Pišece
+Vodja enote vrtca pri Osnovni šoli Velika Dolina
 
 26. člen
 
 (vodja enote vrtca)
 
-(1) Enoto Vrtca pri Osnovni šoli Maksa Pleteršnika Pišece vodi vodja enote. Naloge vodje enote opravlja pomočnik ravnatelja, ki to delo opravlja v okviru svojih nalog.
+(1) Enoto Vrtca pri Osnovni šoli Velika Dolina vodi vodja enote. Naloge vodje enote opravlja pomočnik ravnatelja, ki to delo opravlja v okviru svojih nalog.
 
 (2) Pomočnik ravnatelja opravlja v enoti vrtca pri šoli naloge vodje enote v skladu z določili predpisa, ki ureja normative in kadrovske pogoje za opravljanje predšolske vzgoje.
 
@@ -471,7 +479,7 @@ Strokovni organi
 
 – strokovni aktivi.
 
-(2) Strokovni organi v notranji organizacijski enoti Vrtca pri Osnovni šoli Maksa Pleteršnika Pišece sta vzgojiteljski zbor in strokovni aktiv vzgojiteljev.
+(2) Strokovni organi v notranji organizacijski enoti Vrtca pri Osnovni šoli Velika Dolina sta vzgojiteljski zbor in strokovni aktiv vzgojiteljev.
 
 28. člen
 
@@ -704,7 +712,7 @@ X. PREHODNE IN KONČNE DOLOČBE
 
 (prenehanje veljavnosti odloka)
 
-Z dnem uveljavitve tega odloka preneha veljati Odlok o preoblikovanju javnega vzgojno-izobraževalnega zavoda Osnovna šola Maksa Pleteršnika Pišece (Uradni list RS, št. 87/12 in 60/17).
+Z dnem uveljavitve tega odloka preneha veljati Odlok o preoblikovanju javnega vzgojno-izobraževalnega zavoda Osnovna šola Velika Dolina (Uradni list RS, št. 87/12 in 10/17).
 
 46.
 člen
@@ -733,7 +741,7 @@ Ravnatelju zavoda preneha mandat z iztekom dobe, za katero je bil imenovan.
 
 Ta odlok začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.
 
-Št. 007-0008/2022
+Št. 007-0005/2022
 
 Brežice, dne 21. aprila 2022
 

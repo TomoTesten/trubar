@@ -2,11 +2,11 @@
 kratica: MP_SKLE15977
 naziv: "Sklep o ustanovitvi javnega vzgojno-izobraževalnega zavoda Vrtca Jelka (SKLE)"
 vrsta: "občinski sklep"
-datum: 2008-04-21
+datum: 2026-01-04
 sop: 2008-01-1657
-organ: "Mestna občina Ljubljana"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-1657"
 ---
 

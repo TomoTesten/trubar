@@ -2,11 +2,11 @@
 kratica: MP_ODLO48348
 naziv: "Odlok o ustanovitvi javnega podjetja Komunala d.o.o. Gornji Grad (ODLO)"
 vrsta: "občinski odlok"
-datum: 2021-10-15
+datum: 2026-01-04
 sop: 2021-97-0743
-organ: "Občina Gornji Grad"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-97-0743"
 ---
 
