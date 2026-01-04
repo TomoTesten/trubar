@@ -2,11 +2,11 @@
 kratica: MP_POSL1296
 naziv: "Poslovnik Občinskega sveta Občine Cerklje na Gorenjskem (POSL)"
 vrsta: "akt"
-datum: 2018-05-11
+datum: 2026-01-05
 sop: 2018-97-0244
-organ: "Občina Cerklje na Gorenjskem"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-97-0244"
 ---
 

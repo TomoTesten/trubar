@@ -2,11 +2,11 @@
 kratica: MP_PRAV6304
 naziv: "Pravilnik o sofinanciranju priključkov na kanalizacijske sisteme komunalnih čistilnih naprav na območju Občine Šmarje pri Jelšah (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2018-05-11
+datum: 2026-01-05
 sop: 2018-01-1529
-organ: "Občina Šmarje pri Jelšah"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-1529"
 ---
 

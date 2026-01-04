@@ -2,11 +2,11 @@
 kratica: MP_ODLO49929
 naziv: "Odlok o ureditvi in pravilih cestnega prometa v občini Cerklje na Gorenjskem (ODLO)"
 vrsta: "občinski odlok"
-datum: 2014-09-16
+datum: 2026-01-05
 sop: 2014-63-0026
-organ: "Občina Cerklje na Gorenjskem"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-63-0026"
 ---
 

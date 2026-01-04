@@ -2,11 +2,11 @@
 kratica: MP_PRAV7533
 naziv: "Pravilnik o uporabi Kulturnega hrama Ignacija Borštnika v Cerkljah na Gorenjskem (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2019-09-13
+datum: 2026-01-05
 sop: 2019-97-0657
-organ: "Občina Cerklje na Gorenjskem"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-97-0657"
 ---
 

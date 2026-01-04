@@ -2,11 +2,11 @@
 kratica: MP_ODLO48605
 naziv: "Odlok o gospodarskih javnih službah v Občini Bloke (ODLO)"
 vrsta: "občinski odlok"
-datum: 2017-06-30
+datum: 2026-01-04
 sop: 2017-97-0369
-organ: "Občina Bloke"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-97-0369"
 ---
 

@@ -2,11 +2,11 @@
 kratica: MP_ODLO48273
 naziv: "Odlok o razglasitvi nepremičnih kulturnih spomenikov lokalnega pomena na območju Mestne občine Novo mesto (ODLO)"
 vrsta: "občinski odlok"
-datum: 2016-05-16
+datum: 2026-01-04
 sop: 2016-23-0020
-organ: "Mestna občina Novo mesto"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-23-0020"
 ---
 

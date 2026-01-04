@@ -2,11 +2,11 @@
 kratica: MP_ODLO42629
 naziv: "Odlok o turistični taksi v Občini Podčetrtek (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-06-22
+datum: 2026-01-04
 sop: 2018-01-2181
-organ: "Občina Podčetrtek"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-2181"
 ---
 

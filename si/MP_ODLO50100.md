@@ -2,11 +2,11 @@
 kratica: MP_ODLO50100
 naziv: "Odlok o lokalnih gospodarskih javnih službah v Občini Cerklje na Gorenjskem (ODLO)"
 vrsta: "občinski odlok"
-datum: 2021-11-19
+datum: 2026-01-05
 sop: 2021-97-0828
-organ: "Občina Cerklje na Gorenjskem"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-97-0828"
 ---
 

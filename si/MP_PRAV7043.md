@@ -2,11 +2,11 @@
 kratica: MP_PRAV7043
 naziv: "Pravilnik o sprejemu otrok v vrtec (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2023-04-07
+datum: 2026-01-04
 sop: 2023-01-1170
-organ: "Občina Dobrna"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-1170"
 ---
 

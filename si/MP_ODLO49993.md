@@ -2,11 +2,11 @@
 kratica: MP_ODLO49993
 naziv: "Odlok o nadomestilu za uporabo stavbnega zemljišča v Občini Cerklje na Gorenjskem (ODLO)"
 vrsta: "občinski odlok"
-datum: 2016-12-23
+datum: 2026-01-05
 sop: 2016-63-0049
-organ: "Občina Cerklje na Gorenjskem"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-63-0049"
 ---
 

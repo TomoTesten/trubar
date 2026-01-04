@@ -2,11 +2,11 @@
 kratica: MP_ODLO32665
 naziv: "Odlok o ustanovitvi javnega zavoda Zdravstveni dom Krško (ODLO)"
 vrsta: "občinski odlok"
-datum: 2011-10-05
+datum: 2026-01-04
 sop: 2011-01-3305
-organ: "Občina Kostanjevica na Krki"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-01-3305"
 ---
 
