@@ -2,11 +2,11 @@
 kratica: MP_ODLO41607
 naziv: "Odlok o ustanovitvi Javnega vzgojno-izobraževalnega zavoda Osnovna šola Antona Globočnika Postojna (ODLO)"
 vrsta: "občinski odlok"
-datum: 2017-10-06
+datum: 2026-01-04
 sop: 2017-01-2563
-organ: "Občina Postojna"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-2563"
 ---
 

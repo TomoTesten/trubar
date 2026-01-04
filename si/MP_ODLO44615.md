@@ -2,11 +2,11 @@
 kratica: MP_ODLO44615
 naziv: "Odlok o urejanju Mestne tržnice v Občini Grosuplje (ODLO)"
 vrsta: "občinski odlok"
-datum: 2020-06-05
+datum: 2026-01-04
 sop: 2020-01-1264
-organ: "Občina Grosuplje"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-1264"
 ---
 

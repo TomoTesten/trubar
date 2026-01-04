@@ -2,11 +2,11 @@
 kratica: MP_ODLO43854
 naziv: "Odlok o postopku sofinanciranja letnega programa športa v Občini Sveti Jurij ob Ščavnici (ODLO)"
 vrsta: "občinski odlok"
-datum: 2019-09-06
+datum: 2026-01-04
 sop: 2019-01-2478
-organ: "Občina Sveti Jurij ob Ščavnici"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-2478"
 ---
 

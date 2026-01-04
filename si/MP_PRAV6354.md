@@ -2,11 +2,11 @@
 kratica: MP_PRAV6354
 naziv: "Pravilnik o vrednotenju programov na področju socialno-humanitarnih dejavnosti, ki se sofinancirajo iz proračuna Občine Gorenja vas - Poljane (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2018-10-19
+datum: 2026-01-04
 sop: 2018-01-3268
-organ: "Občina Gorenja vas - Poljane"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-3268"
 ---
 

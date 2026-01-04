@@ -2,11 +2,11 @@
 kratica: MP_PRAV8063
 naziv: "Pravilnik o plačah občinskih funkcionarjev in nagradah članov delovnih teles občinskega sveta ter članov drugih občinskih organov ter o povračilih stroškov (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2007-07-05
+datum: 2026-01-04
 sop: 2007-95-0010
-organ: "Občina Velike Lašče"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-95-0010"
 ---
 

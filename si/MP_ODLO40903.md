@@ -2,11 +2,11 @@
 kratica: MP_ODLO40903
 naziv: "Odlok o preoblikovanju Komunalno stanovanjskega podjetja OKOLJE Piran v Javno podjetje OKOLJE Piran, družbo z omejeno odgovornostjo, in o ustanovitvi Javnega podjetja OKOLJE Piran, družbe z omejeno odgovornostjo - uradno prečiščeno besedilo (ODLO)"
 vrsta: "občinski odlok"
-datum: 2008-04-04
+datum: 2026-01-04
 sop: 2008-53-0011
-organ: "Občina Piran"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-53-0011"
 ---
 

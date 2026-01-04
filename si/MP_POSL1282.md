@@ -2,11 +2,11 @@
 kratica: MP_POSL1282
 naziv: "Poslovnik Nadzornega odbora Občine Loška dolina (POSL)"
 vrsta: "akt"
-datum: 2011-03-11
+datum: 2026-01-04
 sop: 2011-89-0002
-organ: "Občina Loška Dolina"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-89-0002"
 ---
 

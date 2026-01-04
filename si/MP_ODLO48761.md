@@ -2,11 +2,11 @@
 kratica: MP_ODLO48761
 naziv: "Odlok o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Pivka (ODLO)"
 vrsta: "občinski odlok"
-datum: 2023-11-24
+datum: 2026-01-04
 sop: 2023-01-3456
-organ: "Občina Pivka"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-3456"
 ---
 

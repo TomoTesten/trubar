@@ -2,11 +2,11 @@
 kratica: MP_ODLO46547
 naziv: "Odlok o ustanovitvi javnega zavoda Pokrajinski muzej Celje (ODLO)"
 vrsta: "občinski odlok"
-datum: 2022-02-25
+datum: 2026-01-04
 sop: 2022-01-0486
-organ: "Mestna občina Celje"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2022-01-0486"
 ---
 

@@ -2,11 +2,11 @@
 kratica: MP_SKLE29002
 naziv: "Sklep o določitvi cen koncesioniranih storitev pogrebne in pokopališke dejavnosti v Občini Pivka (SKLE)"
 vrsta: "občinski sklep"
-datum: 2017-07-04
+datum: 2026-01-04
 sop: 2017-01-1849
-organ: "Občina Pivka"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-1849"
 ---
 

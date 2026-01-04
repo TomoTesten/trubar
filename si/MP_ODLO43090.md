@@ -2,11 +2,11 @@
 kratica: MP_ODLO43090
 naziv: "Odlok o ustanovitvi javnega zavoda Vrtec Postojna (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-10-26
+datum: 2026-01-04
 sop: 2018-01-3379
-organ: "Občina Postojna"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-3379"
 ---
 
