@@ -2,11 +2,11 @@
 kratica: MP_ODLO50126
 naziv: "Odlok o Občinskem prostorskem načrtu Občine Cerklje na Gorenjskem (uradno prečiščeno besedilo – UPB1) (ODLO)"
 vrsta: "občinski odlok"
-datum: 2023-02-06
+datum: 2026-01-05
 sop: 2023-97-0097
-organ: "Občina Cerklje na Gorenjskem"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-97-0097"
 ---
 

@@ -2,11 +2,11 @@
 kratica: MP_SKLE37490
 naziv: "Sklep o določitvi javne infrastrukture na področju kulture v Občini Piran (SKLE)"
 vrsta: "občinski sklep"
-datum: 2024-03-08
+datum: 2026-01-05
 sop: 2024-01-0582
-organ: "Občina Piran"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-0582"
 ---
 

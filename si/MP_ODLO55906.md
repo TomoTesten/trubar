@@ -2,11 +2,11 @@
 kratica: MP_ODLO55906
 naziv: "Odlok o ustanovitvi Javnega zavoda Knjižnica Gornja Radgona (ODLO)"
 vrsta: "občinski odlok"
-datum: 2013-05-15
+datum: 2026-01-05
 sop: 2013-26-0007
-organ: "Občina Gornja Radgona"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-26-0007"
 ---
 

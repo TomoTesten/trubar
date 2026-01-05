@@ -2,11 +2,11 @@
 kratica: MP_ODLO50015
 naziv: "Odlok o spremembah in dopolnitvah Odloka o Občinskem prostorskem načrtu Občine Cerklje na Gorenjskem – spremembe št. 9 (SD OPN - št. 9) (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-05-11
+datum: 2026-01-05
 sop: 2018-97-0243
-organ: "Občina Cerklje na Gorenjskem"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-97-0243"
 ---
 

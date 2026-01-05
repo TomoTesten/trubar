@@ -2,11 +2,11 @@
 kratica: MP_ODLO52539
 naziv: "Odlok o organiziranju Gasilsko – reševalnega centra Novo mesto (ODLO)"
 vrsta: "občinski odlok"
-datum: 2015-05-29
+datum: 2026-01-05
 sop: 2015-23-0013
-organ: "Mestna občina Novo mesto"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-23-0013"
 ---
 

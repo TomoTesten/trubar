@@ -2,11 +2,11 @@
 kratica: MP_STAT1864
 naziv: "Statut Občine Škofja Loka uradno prečiščeno besedilo - UPB-2 (STAT)"
 vrsta: "akt"
-datum: 2016-01-22
+datum: 2026-01-05
 sop: 2016-97-0011
-organ: "Občina Škofja Loka"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-97-0011"
 ---
 

@@ -2,11 +2,11 @@
 kratica: MP_ODLO45375
 naziv: "Odlok o kategorizaciji občinskih cest v Občini Žirovnica (uradno prečiščeno besedilo) (ODLO)"
 vrsta: "občinski odlok"
-datum: 2021-01-08
+datum: 2026-01-05
 sop: 2021-01-0090
-organ: "Občina Žirovnica"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-0090"
 ---
 

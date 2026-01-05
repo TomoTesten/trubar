@@ -2,11 +2,11 @@
 kratica: MP_ODLO51819
 naziv: "Odlok o merilih za izdajo soglasij za obratovanje v podaljšanem obratovalnem času gostinskim obratom in kmetijam, na katerih se opravlja gostinska dejavnost, na območju Mestne občine Novo mesto (ODLO)"
 vrsta: "občinski odlok"
-datum: 2020-06-02
+datum: 2026-01-05
 sop: 2020-23-0017
-organ: "Mestna občina Novo mesto"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-23-0017"
 ---
 

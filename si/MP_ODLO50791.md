@@ -2,11 +2,11 @@
 kratica: MP_ODLO50791
 naziv: "Odlok o plakatiranju v občini Duplek (ODLO)"
 vrsta: "občinski odlok"
-datum: 2009-12-15
+datum: 2026-01-05
 sop: 2009-97-0168
-organ: "Občina Duplek"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-97-0168"
 ---
 
