@@ -2,11 +2,11 @@
 kratica: MP_ODLO50361
 naziv: "Odlok o Občinskem prostorskem načrtu Občine Zreče (ODLO)"
 vrsta: "občinski odlok"
-datum: 2015-11-23
+datum: 2026-01-05
 sop: 2015-97-0580
-organ: "Občina Zreče"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-97-0580"
 ---
 

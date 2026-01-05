@@ -2,11 +2,11 @@
 kratica: MP_ODLO50364
 naziv: "Odlok o razglasitvi kulturnih spomenikov lokalnega pomena na območju Občine Zreče (ODLO)"
 vrsta: "občinski odlok"
-datum: 2013-02-07
+datum: 2026-01-05
 sop: 2013-97-0043
-organ: "Občina Zreče"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-97-0043"
 ---
 

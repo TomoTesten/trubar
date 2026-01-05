@@ -2,11 +2,11 @@
 kratica: MP_ODLO42335
 naziv: "Odlok o kategorizaciji občinskih cest v Občini Pivka (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-04-13
+datum: 2026-01-05
 sop: 2018-01-1115
-organ: "Občina Pivka"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-1115"
 ---
 

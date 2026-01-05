@@ -2,11 +2,11 @@
 kratica: MP_ODLO11207
 naziv: "Odlok o ustanovitvi javnega vzgojno-izobraževalnega zavoda Glasbena šola Slovenske Konjice (ODLO)"
 vrsta: "občinski odlok"
-datum: 1997-03-07
+datum: 2026-01-05
 sop: 1997-01-0740
-organ: "Občina Zreče"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0740"
 ---
 

@@ -2,11 +2,11 @@
 kratica: MP_ODLO42776
 naziv: "Odlok o turistični in promocijski taksi v Občini Žirovnica (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-07-13
+datum: 2026-01-05
 sop: 2018-01-2510
-organ: "Občina Žirovnica"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-2510"
 ---
 

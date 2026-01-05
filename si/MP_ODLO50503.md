@@ -2,11 +2,11 @@
 kratica: MP_ODLO50503
 naziv: "Odlok o občinskih cestah v Občini Dornava (ODLO)"
 vrsta: "občinski odlok"
-datum: 2016-04-08
+datum: 2026-01-05
 sop: 2016-97-0159
-organ: "Občina Dornava"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-97-0159"
 ---
 

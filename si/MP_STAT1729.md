@@ -2,11 +2,11 @@
 kratica: MP_STAT1729
 naziv: "Statut Občine Dornava (STAT)"
 vrsta: "akt"
-datum: 2014-07-04
+datum: 2026-01-05
 sop: 2014-97-0361
-organ: "Občina Dornava"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-97-0361"
 ---
 
