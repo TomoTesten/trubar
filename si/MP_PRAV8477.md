@@ -2,11 +2,11 @@
 kratica: MP_PRAV8477
 naziv: "Pravilnik o sofinanciranju kulturnih dejavnosti v Občini Divača (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2016-04-29
+datum: 2026-01-05
 sop: 2016-97-0239
-organ: "Občina Divača"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-97-0239"
 ---
 

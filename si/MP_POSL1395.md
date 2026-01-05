@@ -2,11 +2,11 @@
 kratica: MP_POSL1395
 naziv: "Poslovnik Občinskega sveta občine Mislinja  (POSL)"
 vrsta: "akt"
-datum: 2010-08-20
+datum: 2026-01-05
 sop: 2010-97-0149
-organ: "Občina Mislinja"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-97-0149"
 ---
 

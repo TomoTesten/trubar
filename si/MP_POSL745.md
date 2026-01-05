@@ -2,11 +2,11 @@
 kratica: MP_POSL745
 naziv: "Poslovnik občinskega sveta Občine Makole (POSL)"
 vrsta: "akt"
-datum: 2007-02-05
+datum: 2026-01-05
 sop: 2007-97-0010
-organ: "Občina Makole"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-97-0010"
 ---
 

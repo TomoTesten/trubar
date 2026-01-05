@@ -2,11 +2,11 @@
 kratica: MP_ODLO54207
 naziv: "Odlok o uresničevanju javnega interesa na področju športa v občini Divača – postopki in merila za sofinanciranje letnega programa športa v občini Divača (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-06-08
+datum: 2026-01-05
 sop: 2018-97-0345
-organ: "Občina Divača"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-97-0345"
 ---
 

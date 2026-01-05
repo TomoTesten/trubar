@@ -2,11 +2,11 @@
 kratica: MP_ODLO54218
 naziv: "Odlok o podeljevanju priznanj Občine Divača (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-11-16
+datum: 2026-01-05
 sop: 2018-97-0663
-organ: "Občina Divača"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-97-0663"
 ---
 

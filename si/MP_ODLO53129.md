@@ -2,11 +2,11 @@
 kratica: MP_ODLO53129
 naziv: "Odlok o podlagah za odmero komunalnega prispevka za obstoječo komunalno opremo na območju Občine Mirna Peč (ODLO)"
 vrsta: "občinski odlok"
-datum: 2021-03-31
+datum: 2026-01-05
 sop: 2021-97-0258
-organ: "Občina Mirna Peč"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-97-0258"
 ---
 
