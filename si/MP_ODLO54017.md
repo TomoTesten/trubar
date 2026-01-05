@@ -2,11 +2,11 @@
 kratica: MP_ODLO54017
 naziv: "Odlok o občinskem prostorskem načrtu občine Šenčur (ODLO)"
 vrsta: "občinski odlok"
-datum: 2011-03-18
+datum: 2026-01-05
 sop: 2011-97-0092
-organ: "Občina Šenčur"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-97-0092"
 ---
 

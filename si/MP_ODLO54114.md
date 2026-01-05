@@ -2,11 +2,11 @@
 kratica: MP_ODLO54114
 naziv: "Odlok o organiziranosti in delovnem področju občinske uprave Občine Divača (ODLO)"
 vrsta: "občinski odlok"
-datum: 2016-03-04
+datum: 2026-01-05
 sop: 2016-97-0099
-organ: "Občina Divača"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-97-0099"
 ---
 

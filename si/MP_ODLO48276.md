@@ -2,11 +2,11 @@
 kratica: MP_ODLO48276
 naziv: "Odlok o javnih površinah Mestne občine Novo mesto (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-04-23
+datum: 2026-01-05
 sop: 2018-23-0010
-organ: "Mestna občina Novo mesto"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-23-0010"
 ---
 

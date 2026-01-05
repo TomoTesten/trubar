@@ -2,11 +2,11 @@
 kratica: MP_SKLE37530
 naziv: "Sklep o pripravi Občinskega podrobnega prostorskega načrta za območje enote urejanja prostora NT-06 Peske (SKLE)"
 vrsta: "občinski sklep"
-datum: 2024-03-11
+datum: 2026-01-05
 sop: 2024-77-0010
-organ: "Občina Trzin"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-77-0010"
 ---
 

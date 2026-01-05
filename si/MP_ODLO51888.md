@@ -2,11 +2,11 @@
 kratica: MP_ODLO51888
 naziv: " Odlok o določitvi volilnih enot za volitve članov organov krajevnih skupnosti na območju Občine Vojnik (uradno prečiščeno besedilo - UPB1) (ODLO)"
 vrsta: "občinski odlok"
-datum: 2014-08-13
+datum: 2026-01-05
 sop: 2014-97-0447
-organ: "Občina Vojnik"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-97-0447"
 ---
 
