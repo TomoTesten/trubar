@@ -2,10 +2,11 @@
 kratica: NAVO207
 naziv: "Pravilnik o povrnitvi stroškov v pravdnem postopku"
 vrsta: "navodilo"
-datum: 2003-02-14
+datum: 2026-01-07
 sop: 2003-01-0594
-organ: "Ministrstvo za pravosodje"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0594"
 ---
 
