@@ -2,11 +2,11 @@
 kratica: MP_ODLO50854
 naziv: "Odlok o organizaciji in delovnem področju Občinske uprave Občine Duplek (ODLO)"
 vrsta: "občinski odlok"
-datum: 2013-11-08
+datum: 2026-01-05
 sop: 2013-97-0507
-organ: "Občina Duplek"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-97-0507"
 ---
 

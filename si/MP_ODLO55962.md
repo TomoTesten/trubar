@@ -2,11 +2,11 @@
 kratica: MP_ODLO55962
 naziv: "Odlok o razglasitvi kulturnih spomenikov lokalnega pomena na območju občine Gornja Radgona (ODLO)"
 vrsta: "občinski odlok"
-datum: 2015-03-15
+datum: 2026-01-05
 sop: 2015-26-0003
-organ: "Občina Gornja Radgona"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2015-26-0003"
 ---
 

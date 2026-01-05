@@ -2,11 +2,11 @@
 kratica: MP_ODLO45812
 naziv: "Odlok o podlagah za odmero komunalnega prispevka za obstoječo komunalno opremo za območje Občine Miren - Kostanjevica (ODLO)"
 vrsta: "občinski odlok"
-datum: 2021-06-04
+datum: 2026-01-05
 sop: 2021-01-1912
-organ: "Občina Miren - Kostanjevica"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-01-1912"
 ---
 

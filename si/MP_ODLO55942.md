@@ -2,11 +2,11 @@
 kratica: MP_ODLO55942
 naziv: "Odlok o podlagah za odmero komunalnega prispevka za obstoječo komunalno opremo za območje Občine Dobrovnik (ODLO)"
 vrsta: "občinski odlok"
-datum: 2021-12-10
+datum: 2026-01-05
 sop: 2021-44-0011
-organ: "Občina Dobrovnik"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-44-0011"
 ---
 

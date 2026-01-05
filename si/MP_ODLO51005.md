@@ -2,11 +2,11 @@
 kratica: MP_ODLO51005
 naziv: "Odlok o ustanovitvi javnega vzgojno-izobraževalnega zavoda Osnovna šola Stročja vas (ODLO)"
 vrsta: "občinski odlok"
-datum: 2010-07-28
+datum: 2026-01-05
 sop: 2010-88-0019
-organ: "Občina Ljutomer"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-88-0019"
 ---
 

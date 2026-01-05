@@ -2,11 +2,11 @@
 kratica: MP_ODLO55750
 naziv: "Odlok o pogrebni in pokopališki dejavnosti v Občini Škofja Loka (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-05-18
+datum: 2026-01-05
 sop: 2018-97-0253
-organ: "Občina Škofja Loka"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-97-0253"
 ---
 

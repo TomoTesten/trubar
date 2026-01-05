@@ -2,11 +2,11 @@
 kratica: MP_ODLO50824
 naziv: "Odlok o priznanjih in nagradah Občine Ljutomer (ODLO)"
 vrsta: "občinski odlok"
-datum: 2007-05-14
+datum: 2026-01-05
 sop: 2007-88-0013
-organ: "Občina Ljutomer"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2007-88-0013"
 ---
 
