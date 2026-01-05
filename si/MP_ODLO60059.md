@@ -2,11 +2,11 @@
 kratica: MP_ODLO60059
 naziv: "Odlok o spremembah in dopolnitvah Odloka o ustanovitvi Zdravstvenega doma dr. Božidarja Lavriča – Cerknica (ODLO)"
 vrsta: "občinski odlok"
-datum: 2025-10-03
+datum: 2026-01-13
 sop: 2025-01-2651
-organ: "Občina Cerknica"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2025-01-2651"
 ---
 

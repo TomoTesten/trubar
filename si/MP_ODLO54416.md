@@ -2,11 +2,11 @@
 kratica: MP_ODLO54416
 naziv: "Odlok o nadomestilu za uporabo stavbnega zemljišča v občini Mislinja (ODLO)"
 vrsta: "občinski odlok"
-datum: 2017-11-17
+datum: 2026-01-05
 sop: 2017-97-0592
-organ: "Občina Mislinja"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-97-0592"
 ---
 

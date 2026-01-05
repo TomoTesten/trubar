@@ -2,11 +2,11 @@
 kratica: MP_PRAV177
 naziv: "Pravilnik o nagrajevanju odgovornega urednika in uredniškega odbora (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2000-05-05
+datum: 2026-02-05
 sop: 2000-01-1829
-organ: "Občina Loška Dolina"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1829"
 ---
 

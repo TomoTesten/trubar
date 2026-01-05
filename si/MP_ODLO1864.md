@@ -2,11 +2,11 @@
 kratica: MP_ODLO1864
 naziv: "Odlok o merilih in pogojih za odločanje o podaljšanem obratovalnem času gostinskih obratov in kmetij, na katerih se opravlja gostinska dejavnost, na območju Občine Šentjur pri Celju (ODLO)"
 vrsta: "občinski odlok"
-datum: 2000-07-07
+datum: 2026-02-04
 sop: 2000-01-2823
-organ: "Občina Šentjur"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2823"
 ---
 

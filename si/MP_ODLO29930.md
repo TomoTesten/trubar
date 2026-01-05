@@ -2,11 +2,11 @@
 kratica: MP_ODLO29930
 naziv: "Odlok o kategorizaciji občinskih javnih cest v Občini Divača (ODLO)"
 vrsta: "občinski odlok"
-datum: 2010-06-14
+datum: 2026-04-07
 sop: 2010-01-2475
-organ: "Občina Divača"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2010-01-2475"
 ---
 

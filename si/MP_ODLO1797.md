@@ -2,11 +2,11 @@
 kratica: MP_ODLO1797
 naziv: "Odlok o simbolih, občinskem prazniku in priznanjih v Občini Loška dolina (ODLO)"
 vrsta: "občinski odlok"
-datum: 2000-06-13
+datum: 2026-02-03
 sop: 2000-01-2477
-organ: "Občina Loška Dolina"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2477"
 ---
 

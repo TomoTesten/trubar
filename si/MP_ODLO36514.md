@@ -2,11 +2,11 @@
 kratica: MP_ODLO36514
 naziv: "Odlok o občinskem prostorskem načrtu Občine Škofja Loka (ODLO)"
 vrsta: "občinski odlok"
-datum: 2014-01-06
+datum: 2026-04-07
 sop: 2014-01-0028
-organ: "Občina Škofja Loka"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0028"
 ---
 

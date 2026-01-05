@@ -2,11 +2,11 @@
 kratica: MP_ODLO48261
 naziv: "Odlok o nadomestilu za uporabo stavbnega zemljišča v Mestni občini Novo mesto (ODLO)"
 vrsta: "občinski odlok"
-datum: 2019-12-23
+datum: 2026-01-16
 sop: 2019-23-0043
-organ: "Mestna občina Novo mesto"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-23-0043"
 ---
 
