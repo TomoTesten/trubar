@@ -2,11 +2,11 @@
 kratica: MP_ODLO34056
 naziv: "Odlok o preoblikovanju “Komunalno stanovanjskega podjetja Okolje Piran” v “Javno podjetje Okolje Piran, družbo z omejeno odgovornostjo” in ustanovitvi “Javnega podjetja Okolje Piran, družba z omejeno odgovornostjo”  (ODLO)"
 vrsta: "občinski odlok"
-datum: 1995-04-18
+datum: 2026-01-05
 sop: 1995-53-0003
-organ: "Občina Piran"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-53-0003"
 ---
 

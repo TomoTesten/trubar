@@ -1,16 +1,16 @@
 ---
-kratica: MP_STAT1771
-naziv: "Statut občine Lovrenc na Pohorju (STAT)"
+kratica: MP_STAT1775
+naziv: "Statuta Občine Lovrenc na Pohorju - uradno prečiščeno besedilo (STAT)"
 vrsta: "akt"
 datum: 2026-01-05
-sop: 2011-97-0143
+sop: 2016-97-0649
 organ: ""
 zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
 status: "Neznano"
-vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-97-0143"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-97-0649"
 ---
 
-# Statut občine Lovrenc na Pohorju (STAT)
+# Statuta Občine Lovrenc na Pohorju - uradno prečiščeno besedilo (STAT)
 
 > Opozorilo: Neuradno prečiščeno besedilo pravnega akta predstavlja zgolj informativni delovni pripomoček, glede katerega lokalna skupnost ne jamči odškodninsko ali kako drugače.
 N euradno prečiščeno besedilo Statuta Občine Lovrenc na Pohorju obsega:
@@ -18,15 +18,14 @@ N euradno prečiščeno besedilo Statuta Občine Lovrenc na Pohorju obsega:
 -         Spremembe Statuta Občine Lovrenc na Pohorju (Uradno glasilo slovenskih občin, št. 17/2014, z dne 10. 04. 2014),
 -         Spremembe in dopolnitve Statuta Občien Lovrenc na Pohorju (Uradno glasilo slovenskih občin, št. 45/2016, z dne 28. 10. 2016),
 -         Statut Občine Lovrenc na Pohorju uradno prečiščeno besedilo (Uradno glasilo slovenskih občin, št. 65/2016, z dne 23. 12. 2016),
--         Spremembe in dopolnitve Statuta Občine Lovrenc na Pohorju (Uradno glasilo slovenskih občin, št. 46/2017, z dne 29.09.2017),
--         Statut Občine Lovrenc na Pohorju - uradno prečiščeno besedilo (Uradno glasilo slovenskih občin št. 59/2017, z dne 22. 12. 2017).
+-         Spremembe in dopolnitve Statuta Občine Lovrenc na Pohorju (Uradno glasilo slovenskih občin, št. 46/2017, z dne 29.09.2017).
 
 ## STATUT OBČINE
 
 
 ## LOVRENC NA POHORJU
 
-(neuradno prečiščeno besedilo št. 5)
+(neuradno prečiščeno besedilo št. 4)
 I. Splošne določbe
 
 ### 1. člen
@@ -870,7 +869,7 @@ S pravilnikom se razčlenijo posamezne določbe statuta ali odloka v procesu nji
 
 (1) Statut, odloki in drugi predpisi občine morajo biti objavljeni v Uradnem glasilu slovenskih občin in pričnejo veljati petnajsti dan po objavi, če ni v njih drugače določeno.
 (2) V Uradnem glasilu slovenskih občin se objavljajo tudi drugi akti, za katere tako določi občinski  svet.
-2. Posamični Akti Občine
+2. Posamični akti občine
 
 ### 110. člen
 

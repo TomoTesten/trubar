@@ -2,11 +2,11 @@
 kratica: MP_ODLO52154
 naziv: "Odlok o lokacijskem načrtu za razširitev pokopališča in gradnjo dvoetažnega parkirišča v Piranu (ODLO)"
 vrsta: "občinski odlok"
-datum: 1993-12-14
+datum: 2026-01-05
 sop: 1993-53-0005
-organ: "Občina Piran"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1993-53-0005"
 ---
 

@@ -2,11 +2,11 @@
 kratica: MP_ODLO51092
 naziv: "Odlok o Občinskem podrobnem prostorskem načrtu za območje Puchove poslovne cone v Ljutomeru (ODLO)"
 vrsta: "občinski odlok"
-datum: 2011-06-13
+datum: 2026-01-05
 sop: 2011-88-0023
-organ: "Občina Ljutomer"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-88-0023"
 ---
 

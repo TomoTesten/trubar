@@ -2,11 +2,11 @@
 kratica: MP_ODLO42315
 naziv: "Odlok o načinu opravljanja gospodarske javne službe rednega vzdrževanja občinskih javnih cest v Mestni občini Celje (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-04-13
+datum: 2026-01-05
 sop: 2018-01-1072
-organ: "Mestna občina Celje"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-1072"
 ---
 

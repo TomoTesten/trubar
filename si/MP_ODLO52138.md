@@ -2,11 +2,11 @@
 kratica: MP_ODLO52138
 naziv: "Odlok o prostorskih ureditvenih pogojih za ruralno območje planske celote 12 v Občini Piran (ODLO)"
 vrsta: "občinski odlok"
-datum: 1990-02-23
+datum: 2026-01-05
 sop: 1990-53-0001
-organ: "Občina Piran"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1990-53-0001"
 ---
 

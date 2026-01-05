@@ -2,11 +2,11 @@
 kratica: MP_ODLO24356
 naziv: "Odlok o ustanovitvi Javnega medobčinskega stanovanjskega sklada Maribor (Uradno prečiščeno besedilo – UPB 1) (ODLO)"
 vrsta: "občinski odlok"
-datum: 2009-02-28
+datum: 2026-01-05
 sop: 2009-28-0025
-organ: "Občina Duplek"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-28-0025"
 ---
 

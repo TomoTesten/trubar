@@ -2,11 +2,11 @@
 kratica: MP_ODLO47603
 naziv: "Odlok o proračunu Občine Šentjur za leto 2024 (ODLO)"
 vrsta: "občinski odlok"
-datum: 2023-03-24
+datum: 2026-01-05
 sop: 2023-01-0956
-organ: "Občina Šentjur"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2023-01-0956"
 ---
 
