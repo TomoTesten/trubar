@@ -2,11 +2,11 @@
 kratica: MP_ODLO51397
 naziv: "Odlok o podlagah za odmero komunalnega prispevka za območje Občine Črenšovci (ODLO)"
 vrsta: "občinski odlok"
-datum: 2021-10-01
+datum: 2026-01-05
 sop: 2021-97-0707
-organ: "Občina Črenšovci"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-97-0707"
 ---
 

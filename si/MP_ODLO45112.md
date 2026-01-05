@@ -2,11 +2,11 @@
 kratica: MP_ODLO45112
 naziv: "Odlok o preoblikovanju zavoda ZELENICE, javni gospodarski zavod za urejanje in vzdrževanje zelenih in drugih javnih površin v Javno podjetje ZELENICE, družba za urejanje zelenih in drugih javnih površin, d.o.o. (ODLO)"
 vrsta: "občinski odlok"
-datum: 2020-11-20
+datum: 2026-01-05
 sop: 2020-01-2945
-organ: "Mestna občina Celje"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-01-2945"
 ---
 

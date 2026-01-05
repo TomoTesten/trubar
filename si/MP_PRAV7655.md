@@ -2,11 +2,11 @@
 kratica: MP_PRAV7655
 naziv: "Pravilnik o ohranjanju in spodbujanju razvoja kmetijstva in podeželja v Občini Velike Lašče (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2024-05-24
+datum: 2026-01-05
 sop: 2024-01-1480
-organ: "Občina Velike Lašče"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-1480"
 ---
 

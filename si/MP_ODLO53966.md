@@ -2,11 +2,11 @@
 kratica: MP_ODLO53966
 naziv: "Odlok o organizaciji in delovnem področju občinske uprave Občine Mislinja (ODLO)"
 vrsta: "občinski odlok"
-datum: 2011-11-30
+datum: 2026-01-05
 sop: 2011-97-0310
-organ: "Občina Mislinja"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2011-97-0310"
 ---
 

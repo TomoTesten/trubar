@@ -2,11 +2,11 @@
 kratica: MP_ODLO34133
 naziv: "Odlok o ustanovitvi Javnega podjetja komunala Slovenj Gradec d.o.o. (uradno prečiščeno besedilo – UPB1) (ODLO)"
 vrsta: "občinski odlok"
-datum: 2012-06-15
+datum: 2026-01-05
 sop: 2012-01-1903
-organ: "Občina Mislinja"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-01-1903"
 ---
 

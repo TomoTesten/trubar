@@ -2,11 +2,11 @@
 kratica: MP_ODLO48600
 naziv: "Odlok o ustanovitvi Javnega zavoda za šport, kulturo, turizem in mladino Novo mesto (ODLO)"
 vrsta: "občinski odlok"
-datum: 2016-07-19
+datum: 2026-01-05
 sop: 2016-23-0030
-organ: "Mestna občina Novo mesto"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-23-0030"
 ---
 

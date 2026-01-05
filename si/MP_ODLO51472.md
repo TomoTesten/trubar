@@ -2,11 +2,11 @@
 kratica: MP_ODLO51472
 naziv: "Odlok o ustanovitvi javnega vzgojno-varstvenega zavoda Vrtec Pedenjped Novo mesto (uradno prečiščeno besedilo – UPB1) (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-07-19
+datum: 2026-01-05
 sop: 2018-23-0041
-organ: "Mestna občina Novo mesto"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-23-0041"
 ---
 

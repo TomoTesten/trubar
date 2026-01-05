@@ -2,11 +2,11 @@
 kratica: MP_ODLO52122
 naziv: "Odlok o kategorizaciji občinskih cest in kolesarskih poti v Mestni občini Novo mesto (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-04-23
+datum: 2026-01-05
 sop: 2018-23-0009
-organ: "Mestna občina Novo mesto"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-23-0009"
 ---
 

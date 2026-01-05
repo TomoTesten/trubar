@@ -2,11 +2,11 @@
 kratica: MP_STAT1882
 naziv: "Statut Občine Divača (STAT)"
 vrsta: "akt"
-datum: 2014-01-24
+datum: 2026-01-05
 sop: 2014-97-0010
-organ: "Občina Divača"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2014-97-0010"
 ---
 

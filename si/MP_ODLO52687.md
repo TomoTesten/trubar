@@ -2,11 +2,11 @@
 kratica: MP_ODLO52687
 naziv: "Odlok o določitvi volilnih enot za volitve članov občinskega sveta in župana v Občini Dobrna (ODLO)"
 vrsta: "občinski odlok"
-datum: 2024-11-15
+datum: 2026-01-05
 sop: 2024-01-2961
-organ: "Občina Dobrna"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2024-01-2961"
 ---
 
