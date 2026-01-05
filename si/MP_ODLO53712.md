@@ -2,11 +2,11 @@
 kratica: MP_ODLO53712
 naziv: "Odlok o spremembah in dopolnitvah Odloka o sestavi in načinu volitev organov krajevnih skupnosti v Občini Majšperk (ODLO)"
 vrsta: "občinski odlok"
-datum: 2021-06-18
+datum: 2026-01-05
 sop: 2021-97-0518
-organ: "Občina Majšperk"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2021-97-0518"
 ---
 

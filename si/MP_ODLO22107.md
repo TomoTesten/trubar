@@ -2,11 +2,11 @@
 kratica: MP_ODLO22107
 naziv: "Odlok o socialno varstvenih pomočeh iz sredstev proračuna Občine Kostanjevica na Krki (ODLO)"
 vrsta: "občinski odlok"
-datum: 2008-04-07
+datum: 2026-01-05
 sop: 2008-01-1379
-organ: "Občina Kostanjevica na Krki"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-01-1379"
 ---
 

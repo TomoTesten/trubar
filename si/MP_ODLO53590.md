@@ -2,11 +2,11 @@
 kratica: MP_ODLO53590
 naziv: "Odlok o načinu opravljanja obveznih občinskih gospodarskih javnih služb ravnanja s komunalnimi odpadki v Občini Majšperk (ODLO)"
 vrsta: "občinski odlok"
-datum: 2018-03-30
+datum: 2026-01-05
 sop: 2018-97-0120
-organ: "Občina Majšperk"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-97-0120"
 ---
 

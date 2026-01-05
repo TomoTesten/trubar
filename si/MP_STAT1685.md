@@ -2,11 +2,11 @@
 kratica: MP_STAT1685
 naziv: "Statut Občine Majšperk (STAT)"
 vrsta: "akt"
-datum: 2012-08-31
+datum: 2026-01-05
 sop: 2012-97-0236
-organ: "Občina Majšperk"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2012-97-0236"
 ---
 

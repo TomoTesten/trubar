@@ -2,11 +2,11 @@
 kratica: MP_ODLO53538
 naziv: "Odlok o oddajanju poslovnih prostorov Občine Majšperk v najem (ODLO)"
 vrsta: "občinski odlok"
-datum: 2016-02-19
+datum: 2026-01-05
 sop: 2016-97-0060
-organ: "Občina Majšperk"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2016-97-0060"
 ---
 

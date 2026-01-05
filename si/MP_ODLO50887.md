@@ -2,11 +2,11 @@
 kratica: MP_ODLO50887
 naziv: "Odlok o razglasitvi kulturnih spomenikov lokalnega pomena v Občini Ljutomer (ODLO)"
 vrsta: "občinski odlok"
-datum: 2008-02-06
+datum: 2026-01-05
 sop: 2008-88-0002
-organ: "Občina Ljutomer"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2008-88-0002"
 ---
 

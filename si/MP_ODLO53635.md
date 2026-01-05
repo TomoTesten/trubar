@@ -2,11 +2,11 @@
 kratica: MP_ODLO53635
 naziv: "Odlok o ustanovitvi javnega vzgojno – izobraževalnega zavoda Osnovna šola Majšperk (ODLO)"
 vrsta: "občinski odlok"
-datum: 2019-03-29
+datum: 2026-01-05
 sop: 2019-97-0258
-organ: "Občina Majšperk"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-97-0258"
 ---
 

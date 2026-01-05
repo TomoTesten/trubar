@@ -2,11 +2,11 @@
 kratica: MP_ODLO53141
 naziv: "Odlok o načinu izvajanja lokalne gospodarske javne službe odvajanja in čiščenja komunalne in padavinske odpadne vode v Občini Radenci (ODLO)"
 vrsta: "občinski odlok"
-datum: 2006-03-13
+datum: 2026-01-05
 sop: 2006-97-0005
-organ: "Občina Radenci"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2006-97-0005"
 ---
 

@@ -2,11 +2,11 @@
 kratica: MP_ODLO52839
 naziv: "Odlok o lokalnih gospodarskih javnih službah v Občini Markovci (ODLO)"
 vrsta: "občinski odlok"
-datum: 2009-12-15
+datum: 2026-01-05
 sop: 2009-97-0179
-organ: "Občina Markovci"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2009-97-0179"
 ---
 

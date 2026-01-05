@@ -2,11 +2,11 @@
 kratica: MP_ODLO53425
 naziv: "Odlok o občinskem prostorskem načrtu občine Majšperk (ODLO)"
 vrsta: "občinski odlok"
-datum: 2013-09-23
+datum: 2026-01-05
 sop: 2013-97-0429
-organ: "Občina Majšperk"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2013-97-0429"
 ---
 

@@ -2,11 +2,11 @@
 kratica: MP_PRAV8365
 naziv: "Pravilnik o dodeljevanju denarnih pomoči za izobraževanje Občine Majšperk (PRAV)"
 vrsta: "občinski pravilnik"
-datum: 2020-02-28
+datum: 2026-01-05
 sop: 2020-97-0096
-organ: "Občina Majšperk"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2020-97-0096"
 ---
 

@@ -2,11 +2,11 @@
 kratica: MP_ODLO44137
 naziv: "Odlok o nadomestilu za uporabo stavbnega zemljišča v občini Krško (ODLO)"
 vrsta: "občinski odlok"
-datum: 2019-12-13
+datum: 2026-01-05
 sop: 2019-01-3341
-organ: "Mestna občina Krško"
-zbirka: "Veljavni akti lokalnih skupnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila lokalnih skupnosti"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2019-01-3341"
 ---
 
