@@ -2,11 +2,11 @@
 kratica: ANJP258
 naziv: "Sklep o določitvi članarine OOZ Ljubljana Vič za leto 2026"
 vrsta: "akt"
-datum: 2026-01-09
+datum: 2026-01-12
 sop: 2026-01-0018
-organ: "Območna obrtna zbornica Ljubljana Vič"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0018"
 ---
 

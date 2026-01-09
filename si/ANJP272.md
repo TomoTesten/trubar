@@ -2,11 +2,11 @@
 kratica: ANJP272
 naziv: "Revalorizacija tarif po Skupnem sporazumu za določitev pogojev in višine nadomestil za uporabo fonogramov in videogramov pri retransmisiji radijskih in televizijskih programov in dopolnilnih dejavnosti operaterjev retransmisije"
 vrsta: "akt"
-datum: 2026-01-14
+datum: 2026-01-15
 sop: 2026-01-0080
-organ: "IPF- Zavod za uveljavljanje pravic izvajalcev in proizvajalcev fonogramov Slovenije (Zavod IPF)"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0080"
 ---
 

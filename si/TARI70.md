@@ -2,11 +2,11 @@
 kratica: TARI70
 naziv: "Tarifa Zavoda IPF za javno priobčitev fonogramov"
 vrsta: "akt"
-datum: 2005-07-18
+datum: 2026-01-16
 sop: 2005-01-3016
-organ: "IPF- Zavod za uveljavljanje pravic izvajalcev in proizvajalcev fonogramov Slovenije (Zavod IPF)"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3016"
 ---
 

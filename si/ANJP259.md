@@ -2,11 +2,11 @@
 kratica: ANJP259
 naziv: "Revalorizacija minimalne letne tarife"
 vrsta: "akt"
-datum: 2026-01-09
+datum: 2026-01-12
 sop: 2026-01-0019
-organ: "Združenje SAZAS- Združenje skladateljev in avtorjev za zaščito avtorske pravice Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0019"
 ---
 

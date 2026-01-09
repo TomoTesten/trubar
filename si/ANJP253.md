@@ -2,11 +2,11 @@
 kratica: ANJP253
 naziv: "Akt o spremembah in dopolnitvi Akta o metodologiji za določitev regulativnega okvira za elektrooperaterje"
 vrsta: "akt"
-datum: 2026-01-16
+datum: 2026-01-19
 sop: 2026-01-0097
-organ: "Agencija za energijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0097"
 ---
 

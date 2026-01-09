@@ -2,11 +2,11 @@
 kratica: ANJP269
 naziv: "Revalorizacija tarif po Skupnem sporazumu o pogojih in načinih uporabe varovanih del iz repertoarja Zavoda IPF v lokalnih in regionalnih radijskih programih posebnega pomena ter o višini nadomestil za njihovo uporabo"
 vrsta: "akt"
-datum: 2026-01-14
+datum: 2026-01-15
 sop: 2026-01-0077
-organ: "IPF- Zavod za uveljavljanje pravic izvajalcev in proizvajalcev fonogramov Slovenije (Zavod IPF)"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0077"
 ---
 

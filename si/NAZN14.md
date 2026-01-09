@@ -2,11 +2,11 @@
 kratica: NAZN14
 naziv: "Višina predpisane obrestne mere zamudnih obresti"
 vrsta: "akt"
-datum: 2026-01-09
+datum: 2026-01-12
 sop: 2026-01-0011
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0011"
 ---
 
