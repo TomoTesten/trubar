@@ -4,9 +4,9 @@ naziv: "Seznam gozdnih semenskih objektov – stanje na dan 1. 1. 2026"
 vrsta: "akt"
 datum: 2026-01-23
 sop: 2026-01-0142
-organ: "Gozdarski inštitut Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0142"
 ---
 

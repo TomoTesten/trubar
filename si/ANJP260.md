@@ -2,11 +2,11 @@
 kratica: ANJP260
 naziv: "Statut Socialne zbornice Slovenije"
 vrsta: "akt"
-datum: 2026-01-14
+datum: 2026-01-15
 sop: 2026-01-0068
-organ: "Socialna zbornica Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0068"
 ---
 
