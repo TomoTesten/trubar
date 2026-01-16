@@ -2,11 +2,11 @@
 kratica: ANJP274
 naziv: "Sklep o uporabi Smernic o spremembi smernic o dejavnikih tveganja PD/FT"
 vrsta: "akt"
-datum: 2026-02-04
+datum: 2026-02-05
 sop: 2026-01-0255
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0255"
 ---
 

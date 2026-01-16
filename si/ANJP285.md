@@ -2,11 +2,11 @@
 kratica: ANJP285
 naziv: "Kodeks etike za babice Slovenije"
 vrsta: "akt"
-datum: 2026-01-30
+datum: 2026-02-03
 sop: 2026-01-0199
-organ: "Zbornica zdravstvene in babiške nege – Zveza strokovnih društev medicinskih sester, babic in zdravstvenih tehnikov Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0199"
 ---
 
