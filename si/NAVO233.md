@@ -2,10 +2,11 @@
 kratica: NAVO233
 naziv: "Navodilo o vojaški evidenci"
 vrsta: "navodilo"
-datum: 1992-08-31
+datum: 2026-01-30
 sop: 1992-01-2036
-organ: "Ministrstvo za obrambo"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2036"
 ---
 

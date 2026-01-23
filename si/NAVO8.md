@@ -2,10 +2,11 @@
 kratica: NAVO8
 naziv: "Navodilo o ukrepih za ugotavljanje, preprečevanje in zatiranje bruceloze (Brucellosis)"
 vrsta: "navodilo"
-datum: 1999-04-28
+datum: 2026-01-30
 sop: 1999-01-1470
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1470"
 ---
 

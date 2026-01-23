@@ -2,10 +2,11 @@
 kratica: NAVO37
 naziv: "Navodilo o ukrepih za ugotavljanje, preprečevanje in zatiranje tuberkuloze - Tuberculosis"
 vrsta: "navodilo"
-datum: 1997-02-21
+datum: 2026-01-30
 sop: 1997-01-0509
-organ: "Ministrstvo za kmetijstvo, gozdarstvo in prehrano"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0509"
 ---
 

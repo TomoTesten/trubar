@@ -2,11 +2,11 @@
 kratica: TARI269
 naziv: "Tarifa Javne agencije Republike Slovenije za zdravila in medicinske pripomočke za področje medicinskih pripomočkov"
 vrsta: "akt"
-datum: 2026-01-30
+datum: 2026-02-02
 sop: 2026-01-0198
-organ: "Javna agencija Republike Slovenije za zdravila in medicinske pripomočke"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0198"
 ---
 
