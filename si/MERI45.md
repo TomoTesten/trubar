@@ -2,11 +2,11 @@
 kratica: MERI45
 naziv: "Merila za mednarodno sodelovanje pri visokošolskem izobraževanju"
 vrsta: "akt"
-datum: 2017-12-08
+datum: 2026-02-09
 sop: 2017-01-3282
-organ: "Nacionalna agencija Republike Slovenije za kakovost v visokem šolstvu"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Neveljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2017-01-3282"
 ---
 

@@ -2,10 +2,11 @@
 kratica: ODLO543
 naziv: "Odlok o cenah za obračunavanje del in nalog vodnogospodarske javne službe"
 vrsta: "odlok"
-datum: 1997-09-19
+datum: 2026-02-06
 sop: 1997-01-2908
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2908"
 ---
 

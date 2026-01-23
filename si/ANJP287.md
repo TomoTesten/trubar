@@ -2,11 +2,11 @@
 kratica: ANJP287
 naziv: "Merila za mednarodno sodelovanje v visokošolskem izobraževanju"
 vrsta: "akt"
-datum: 2026-02-06
+datum: 2026-02-09
 sop: 2026-01-0302
-organ: "Nacionalna agencija Republike Slovenije za kakovost v visokem šolstvu"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0302"
 ---
 

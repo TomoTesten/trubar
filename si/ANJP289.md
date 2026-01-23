@@ -2,11 +2,11 @@
 kratica: ANJP289
 naziv: "Merila za kreditno vrednotenje po ECTS"
 vrsta: "akt"
-datum: 2026-02-06
+datum: 2026-02-09
 sop: 2026-01-0304
-organ: "Nacionalna agencija Republike Slovenije za kakovost v visokem šolstvu"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0304"
 ---
 
