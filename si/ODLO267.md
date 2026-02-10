@@ -2,10 +2,11 @@
 kratica: ODLO267
 naziv: "Odlok o razglasitvi gradu, vodnjaka in parka Polhov Gradec za kulturni spomenik državnega pomena"
 vrsta: "odlok"
-datum: 1999-10-05
+datum: 2026-02-13
 sop: 1999-01-3846
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3846"
 ---
 
