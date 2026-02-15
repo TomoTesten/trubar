@@ -2,11 +2,11 @@
 kratica: NAZN15
 naziv: "Minimalna zajamčena donosnost za obdobje od januarja do decembra 2026"
 vrsta: "akt"
-datum: 2026-02-13
+datum: 2026-02-16
 sop: 2026-01-0376
-organ: "Ministrstvo za finance"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0376"
 ---
 

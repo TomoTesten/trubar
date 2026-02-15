@@ -2,11 +2,11 @@
 kratica: MERI51
 naziv: "Rasti elementov cen socialno varstvenih storitev za leto 2026"
 vrsta: "akt"
-datum: 2026-02-13
+datum: 2026-02-16
 sop: 2026-01-0452
-organ: "Ministrstvo za solidarno prihodnost"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0452"
 ---
 
