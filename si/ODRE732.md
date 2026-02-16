@@ -2,10 +2,11 @@
 kratica: ODRE732
 naziv: "Odredba o določitvi zaokroženih turističnih območij za potrebe posebnih iger na srečo"
 vrsta: "odredba"
-datum: 1995-11-23
+datum: 2026-02-20
 sop: 1995-01-3067
-organ: "Ministrstvo za gospodarske dejavnosti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3067"
 ---
 

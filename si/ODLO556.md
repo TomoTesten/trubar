@@ -2,11 +2,11 @@
 kratica: ODLO556
 naziv: "Odlok o preoblikovanju Univerze v Mariboru (OdPUM-1)"
 vrsta: "odlok"
-datum: 2000-03-30
+datum: 2026-02-18
 sop: 2000-01-1260
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1260"
 ---
 
