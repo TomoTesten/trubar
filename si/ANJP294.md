@@ -2,11 +2,11 @@
 kratica: ANJP294
 naziv: "Pojasnilo 1 k SRS-ju 32 (2024) – Pripoznavanje prihodkov v organizacijah, ki izvajajo dejavnost regulirane gospodarske javne službe"
 vrsta: "akt"
-datum: 2026-02-24
+datum: 2026-02-25
 sop: 2026-01-0573
-organ: "Slovenski inštitut za revizijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0573"
 ---
 

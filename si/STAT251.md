@@ -2,11 +2,11 @@
 kratica: STAT251
 naziv: "Statut Zbornice za arhitekturo in prostor Slovenije"
 vrsta: "akt"
-datum: 2018-12-14
+datum: 2026-02-24
 sop: 2018-01-3898
-organ: "Zbornica za arhitekturo in prostor Slovenije"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2018-01-3898"
 ---
 

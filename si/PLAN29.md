@@ -2,11 +2,11 @@
 kratica: PLAN29
 naziv: "Resolucija o nacionalnem planu zdravstvenega varstva v Sloveniji 2026–2035 »Z odgovornostjo in sodelovanjem do boljših izidov zdravljenja« (ReNPZV26–35)"
 vrsta: "akt"
-datum: 2026-02-20
+datum: 2026-02-24
 sop: 2026-01-0492
-organ: "Državni zbor RS"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0492"
 ---
 

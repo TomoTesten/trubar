@@ -2,11 +2,11 @@
 kratica: ANJP295
 naziv: "Pojasnilo 3 k okviru SRS-jev (2024) – Razkritja v zvezi s predpostavko časovne neomejenosti delovanja"
 vrsta: "akt"
-datum: 2026-02-24
+datum: 2026-02-25
 sop: 2026-01-0574
-organ: "Slovenski inštitut za revizijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0574"
 ---
 
