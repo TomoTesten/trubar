@@ -2,11 +2,11 @@
 kratica: ANJP291
 naziv: "Akt o določitvi tarifnih postavk omrežnine za distribucijski sistem zemeljskega plina na geografskem območju Občine Ajdovščina, Občine Bled, Občine Brežice, Občine Gorje, Občine Hrastnik brez Podkraja, Občine Kamnik, Mestne občine Krško, Občine Laško, Občine Lendava, Občine Ljutomer, Občine Logatec, Mestne občine Murska Sobota, Mestne občine Nova Gorica, Občine Ormož, Občine Polzela, Občine Prebold, Mestne občine Ptuj, Občine Radeče, Občine Radenci, Občine Rogaška Slatina, Občine Središče ob Dravi, Občine Šempeter - Vrtojba, Občine Šentjur pri Celju, Občine Štore, Občine Vipava, Občine Vojnik, Občine Vrhnika, Občine Zagorje ob Savi, Občine Zreče in Občine Žalec"
 vrsta: "akt"
-datum: 2026-02-25
+datum: 2026-02-26
 sop: 2026-01-0582
-organ: "Adriaplin, d.o.o., Ljubljana"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0582"
 ---
 

@@ -2,11 +2,11 @@
 kratica: ANJP252
 naziv: "Akt o metodologiji za izdelavo strategije in sprejetje ukrepov o omejevanju tveganj dobaviteljev električne energije v zvezi s pogodbami o dobavi električne energije s fiksno ceno"
 vrsta: "akt"
-datum: 2026-01-23
+datum: 2026-02-27
 sop: 2026-01-0139
-organ: "Agencija za energijo"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0139"
 ---
 

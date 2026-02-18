@@ -2,11 +2,11 @@
 kratica: PLAN32
 naziv: "Znesek plačila dela rejniku"
 vrsta: "akt"
-datum: 2026-02-24
+datum: 2026-02-25
 sop: 2026-01-0570
-organ: "Ministrstvo za delo, družino, socialne zadeve in enake možnosti"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0570"
 ---
 

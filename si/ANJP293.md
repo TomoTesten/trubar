@@ -2,11 +2,11 @@
 kratica: ANJP293
 naziv: "Revalorizacija denarnih vrednosti zneskov obračunskih osnov in zneskov nadomestil po Skupnem sporazumu za določitev višine nadomestil za tonsko in/ali vizualno snemanje, ki se vrši pod pogoji privatne ali druge lastne uporabe"
 vrsta: "akt"
-datum: 2026-02-20
+datum: 2026-02-23
 sop: 2026-01-0512
-organ: "Društvo KOPRIVA"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0512"
 ---
 
