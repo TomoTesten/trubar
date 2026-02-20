@@ -1,0 +1,49 @@
+---
+kratica: MP_SKLE50163
+naziv: "Sklep o ukinitvi javnega dobra št. 1 / 2026"
+vrsta: "občinski sklep"
+datum: 2026-02-20
+sop: 2026-01-0522
+organ: "Mestna občina Krško"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0522"
+---
+
+# Sklep o ukinitvi javnega dobra št. 1 / 2026
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 76/08, 79/09, 51/10, 40/12 – ZUJF, 11/14 – popr., 14/15 – ZUUJFO, 11/18 – ZSPDSLS-1, 30/18, 61/20 – ZIUZEOP-A, 80/20 – ZIUOOPE, 62/24 – odločba US RS, 102/24 – ZLV-K in 83/25 – ZOUL) in 16. člena Statuta Mestne občine Krško (Uradni list RS, št. 132/22 in 82/25) je Občinski svet Mestne občine Krško, na 28. seji, dne 12. 2. 2026, sprejel
+
+S K L E P
+
+o ukinitvi javnega dobra št. 1 / 2026
+
+I.
+
+Ukine se javno dobro na naslednjih nepremičninah:
+
+– parc. št. 3066/50, k. o. 1322 – Krško,
+
+– parc. št. 3066/51, k. o. 1322 – Krško,
+
+– parc. št. 3386/2, k. o. 1324 – Ravno,
+
+– parc. št. 716/29 k. o. 1350 – Senovo.
+
+II.
+
+Po ukinitvi javnega dobra se na nepremičninah vknjiži lastninska pravica v korist Mestne občine Krško.
+
+III.
+
+Sklep prične veljati naslednji dan po objavi v Uradnem listu Republike Slovenije in se vpiše v zemljiško knjigo.
+
+Št. 478-2/2026(O507)
+
+Krško, dne 12. februarja 2026
+
+Župan
+
+Mestne občine Krško
+
+Janez Kerin
