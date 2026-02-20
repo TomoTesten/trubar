@@ -1,0 +1,39 @@
+---
+kratica: MP_SKLE50162
+naziv: "Sklep o ustanovitvi grajenega javnega dobra št. 1 / 2026"
+vrsta: "občinski sklep"
+datum: 2026-02-20
+sop: 2026-01-0521
+organ: "Mestna občina Krško"
+zbirka: "Veljavni akti lokalnih skupnosti"
+status: "Veljaven predpis"
+vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0521"
+---
+
+# Sklep o ustanovitvi grajenega javnega dobra št. 1 / 2026
+
+Na podlagi 29. člena Zakona o lokalni samoupravi (Uradni list RS, št. 94/07 – uradno prečiščeno besedilo, 76/08, 79/09, 51/10, 40/12 – ZUJF, 11/14 – popr., 14/15 – ZUUJFO, 11/18 – ZSPDSLS-1, 30/18, 61/20 – ZIUZEOP-A, 80/20 – ZIUOOPE, 62/24 – odločba US RS, 102/24 – ZLV-K in 83/25 – ZOUL) in 16. člena Statuta Mestne občine Krško (Uradni list RS, št. 132/22 in 82/25) je Občinski svet Mestne občine Krško, na 28. seji, dne 12. 2. 2026, sprejel
+
+S K L E P
+
+o ustanovitvi grajenega javnega dobra št. 1 / 2026
+
+I.
+
+Ustanovi se grajeno javno dobro v lasti Mestne občine Krško na nepremičnini:
+
+– parc. št. 122/37, vpisani v k. o. 1316 – Stara vas.
+
+II.
+
+Sklep prične veljati naslednji dan po objavi v Uradnem listu Republike Slovenije in se vpiše v zemljiško knjigo.
+
+Št. 478-2/2026(O507)
+
+Krško, dne 12. februarja 2026
+
+Župan
+
+Mestne občine Krško
+
+Janez Kerin
