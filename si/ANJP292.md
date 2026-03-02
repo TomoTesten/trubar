@@ -2,11 +2,11 @@
 kratica: ANJP292
 naziv: "Sklep o uporabi Smernic ESMA za merila za oceno znanja in kompetenc v skladu z uredbo o trgih kriptosredstev (MiCA)"
 vrsta: "akt"
-datum: 2026-02-27
+datum: 2026-03-02
 sop: 2026-01-0614
-organ: "Agencija za trg vrednostnih papirjev"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0614"
 ---
 

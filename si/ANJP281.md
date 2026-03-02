@@ -2,11 +2,11 @@
 kratica: ANJP281
 naziv: "Sklep o spremembah in dopolnitvah Sklepa o poročanju oseb, ki opravljajo dejavnost zavarovalnega zastopanja in zavarovalnega posredovanja"
 vrsta: "akt"
-datum: 2026-02-27
+datum: 2026-03-02
 sop: 2026-01-0617
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0617"
 ---
 

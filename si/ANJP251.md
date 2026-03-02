@@ -2,11 +2,11 @@
 kratica: ANJP251
 naziv: "Sklep o spremembah in dopolnitvi Sklepa o podrobnejši vsebini pristopne izjave o vključitvi v individualno zavarovanje"
 vrsta: "akt"
-datum: 2026-02-27
+datum: 2026-03-03
 sop: 2026-01-0615
-organ: "Agencija za zavarovalni nadzor"
-zbirka: "Splošni akti za izvrševanje javnih pooblastil"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0615"
 ---
 
