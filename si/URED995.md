@@ -2,10 +2,11 @@
 kratica: URED995
 naziv: "Uredba o graditvi in vzdrževanju zaklonišč"
 vrsta: "uredba"
-datum: 1996-10-19
+datum: 2026-03-19
 sop: 1996-01-3322
-organ: "Vlada Republike Slovenije"
-status: "Veljaven predpis"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3322"
 ---
 
