@@ -2,11 +2,11 @@
 kratica: STRA87
 naziv: "Resolucija o strategiji regionalnega razvoja Slovenije za obdobje 2026–2050 (ReSRR26–50)"
 vrsta: "akt"
-datum: 2026-03-17
+datum: 2026-03-19
 sop: 2026-01-0736
-organ: "Državni zbor Republike Slovenije"
-zbirka: "Drugi splošni in posamični akti"
-status: "Objavljen akt brez datuma začetka veljavnosti"
+organ: ""
+zbirka: "Neuradna prečiščena besedila"
+status: "Neznano"
 vir: "https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0736"
 ---
 
