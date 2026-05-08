@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-JOTA - link_amendments.py
+T.R.U.B.A.R. - link_amendments.py
 
 For each amendment law (e.g. ZVO-A, ZKP-1B), update the original law's
 Markdown frontmatter with a 'spremembe' list and commit with the amendment's date.

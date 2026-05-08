@@ -1,21 +1,23 @@
-# JOTA — Javna Odprtokodna Transparentna Arhivska zakonodaja
+# T.R.U.B.A.R.
+
+**T**ransparentni **R**egister **U**rejenih **B**esedil **A**ktov **R**epublike
 
 > Slovenian legislation as a Git repository — every law is a Markdown file, every reform is a commit.
 
-[Jota](https://en.wikipedia.org/wiki/Jota_(stew)) is a hearty Karst stew — beans, sauerkraut, pork,
-slow-cooked until everything melds together. This project does the same for Slovenian law:
-takes raw legislative material, slow-cooks it into something you can actually use.
+Named after [Primož Trubar](https://en.wikipedia.org/wiki/Primo%C5%BE_Trubar) (1508–1586), who wrote the first
+book in the Slovenian language. He made the written word accessible to Slovenians.
+This project does the same for their laws.
 
-JOTA mirrors Slovenia's complete legislative corpus from independence (1991) to the present.
+TRUBAR mirrors Slovenia's complete legislative corpus from independence (1991) to the present.
 Each law passed by the Državni zbor (National Assembly) lives as a Markdown file.
-Each amendment to that law is a dated git commit — so `git log` is Slovenia's legislative history.
+Each amendment is a dated git commit — so `git log` is Slovenia's legislative history since 1991.
 
 ## Why
 
-- **Defence preparation**: check exactly what a law said on any date with `git show`
-- **Transparency**: every legislative change is auditable — what changed, when, in what context
-- **AI/LLM tooling**: plain-text corpus ready for RAG, fine-tuning, semantic search, or MCP servers
-- **Academic research**: analyse amendment frequency, policy shifts, legislative velocity over time
+- **Defence preparation** — check exactly what a law said on any specific date with `git show`
+- **Transparency** — every legislative change is auditable: what changed, when, in what context
+- **AI/LLM tooling** — plain-text corpus ready for RAG, fine-tuning, semantic search, MCP servers
+- **Academic research** — analyse amendment frequency, policy shifts, legislative velocity over time
 
 ## Structure
 
@@ -51,7 +53,7 @@ git log --after=2022-01-01 --before=2023-01-01 --oneline
 # Search all laws for a term
 grep -rl "osebni podatki" si/
 
-# Laws that were amended more than 5 times
+# Which laws have been amended most often?
 for f in si/*.md; do
   count=$(git log --oneline -- "$f" | wc -l)
   [ "$count" -gt 5 ] && echo "$count $f"
@@ -60,11 +62,11 @@ done | sort -rn | head -20
 
 ## How it works
 
-1. **Index**: [Državni zbor open data](https://fotogalerija.dz-rs.si/datoteke/opendata/SZ.XML) — 3,987 laws since 1991
-2. **Text**: Fetched from [Uradni list RS](https://www.uradni-list.si) per SOP reference
-3. **Format**: Markdown + YAML frontmatter (title, date, keywords, source URL, amendment list)
-4. **History**: Each amendment law (`ZVO-A`, `ZKP-1B`, …) also updates the original law's
-   frontmatter with an amendment entry — creating a dated commit on that file for every reform
+1. **Index** — [Državni zbor open data](https://fotogalerija.dz-rs.si/datoteke/opendata/SZ.XML): 3,987 laws since 1991
+2. **Text** — fetched from [Uradni list RS](https://www.uradni-list.si) per SOP reference
+3. **Format** — Markdown + YAML frontmatter (title, date, keywords, source URL, amendment list)
+4. **History** — each amendment law (`ZVO-A`, `ZKP-1B`, …) also updates the original law's
+   frontmatter with an amendment entry, creating a dated commit for every reform event
 
 ## Reproducing from scratch
 
@@ -87,7 +89,7 @@ python3 link_amendments.py  # links amendments to originals, commits the connect
 - [ ] Government ordinances (uredbe) and ministerial rules (pravilniki)
 - [ ] PISRS consolidated texts — apply amendments automatically (seeking API key)
 - [ ] Full-text search index
-- [ ] MCP server — let Claude answer questions about specific articles
+- [ ] MCP server — query specific articles via Claude
 - [ ] English translations where available
 
 ## Contributing
@@ -96,5 +98,5 @@ Open an issue or PR. Data corrections and pipeline improvements welcome.
 
 ---
 
-*Named after [jota](https://en.wikipedia.org/wiki/Jota_(stew)), the slow-cooked Karst stew —
-because good law, like good jota, takes time, layers, and benefits from being left to develop.*
+*"Ta naš jezik je ta stari slovenski jezik." — Primož Trubar*
+*("This our language is the old Slovenian language.")*

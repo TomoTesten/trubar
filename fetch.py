@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-JOTA — Javna Odprtokodna Transparentna Arhivska zakonodaja
-https://github.com/jota-si/jota
+T.R.U.B.A.R. — Transparentni Register Urejenih Besedil Aktov Republike
+https://github.com/trubar-si/trubar
 
 Fetches Slovenian law texts from Uradni list RS, converts to Markdown,
 and commits each law chronologically so every reform is a commit.
