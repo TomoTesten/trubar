@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-legalize-si: Slovenian legislation as a Git repository.
+JOTA — Javna Odprtokodna Transparentna Arhivska zakonodaja
+https://github.com/jota-si/jota
 
-Fetches law texts from Uradni list RS, converts to Markdown,
+Fetches Slovenian law texts from Uradni list RS, converts to Markdown,
 and commits each law chronologically so every reform is a commit.
 
 Sources:
