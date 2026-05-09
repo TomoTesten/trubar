@@ -32,7 +32,8 @@ PISRS_HEADERS = {
 }
 
 # Skip ZAKO (laws — already in fetch.py) and USTAva/KOLPektivna/etc noise
-SKIP_PREFIXES = {"ZAKO", "USTA", "USTZ", "KOLP", "DRUG", "AKT", "STAT", "TARI"}
+SKIP_PREFIXES  = {"ZAKO", "USTA", "USTZ", "KOLP", "DRUG", "AKT", "STAT", "TARI"}
+INDEX_CACHE    = REPO_DIR / ".pisrs_index_cache.json"
 
 VRSTA_MAP = {
     "URED": "uredba",
@@ -48,13 +49,27 @@ VRSTA_MAP = {
 
 # ── PISRS pagination ───────────────────────────────────────────────────────────
 
+def pisrs_post(params, body, retries=5):
+    """POST to PISRS filter API with exponential-backoff retry."""
+    for attempt in range(retries):
+        try:
+            resp = requests.post(PISRS_FILTER, headers=PISRS_HEADERS,
+                                 params=params, json=body, timeout=30)
+            resp.raise_for_status()
+            data = resp.json().get("data") or {}
+            return data
+        except Exception as e:
+            if attempt == retries - 1:
+                raise
+            wait = 2 ** (attempt + 1)
+            print(f"  [PISRS retry {attempt+1}/{retries} in {wait}s: {e}]", flush=True)
+            time.sleep(wait)
+    return {}
+
+
 def pisrs_years():
-    """Return list of years that have items in Register predpisov."""
-    resp = requests.post(PISRS_FILTER, headers=PISRS_HEADERS,
-                         params={"cursorMark": "*"},
-                         json={"nazivZbirke": ["Register predpisov"]},
-                         timeout=30)
-    data = resp.json().get("data") or {}
+    """Return list of (year, count) tuples from Register predpisov."""
+    data = pisrs_post({"cursorMark": "*"}, {"nazivZbirke": ["Register predpisov"]})
     return [(f["value"], f["count"])
             for f in data.get("letoObjaveFacet", [])
             if isinstance(f.get("value"), int)]
@@ -64,12 +79,9 @@ def pisrs_items_for_year(year):
     """Yield all Register predpisov items for a given year (up to ~1000)."""
     cursor = "*"
     while True:
-        resp = requests.post(PISRS_FILTER, headers=PISRS_HEADERS,
-                             params={"cursorMark": cursor},
-                             json={"nazivZbirke": ["Register predpisov"],
-                                   "datumi": {"letoObjave": year}},
-                             timeout=30)
-        data  = resp.json().get("data") or {}
+        data  = pisrs_post({"cursorMark": cursor},
+                           {"nazivZbirke": ["Register predpisov"],
+                            "datumi": {"letoObjave": year}})
         items = data.get("seznam") or []
         if not items:
             break
@@ -79,6 +91,39 @@ def pisrs_items_for_year(year):
             break
         cursor = nc
         time.sleep(0.08)
+
+
+def build_index(from_year=0):
+    """Build (or load cached) list of wanted podzakonski items."""
+    if INDEX_CACHE.exists():
+        print("Loading PISRS index from cache...")
+        items = json.loads(INDEX_CACHE.read_text())
+        print(f"Loaded {len(items)} items from cache")
+        return items
+
+    print("Fetching year list from PISRS...")
+    years = pisrs_years()
+    print(f"Found {len(years)} years: {years[0][0]}–{years[-1][0]}")
+
+    if from_year:
+        years = [(y, c) for y, c in years if y >= from_year]
+
+    all_items = []
+    seen_zids = set()
+    for year, count in years:
+        batch = []
+        for item in pisrs_items_for_year(year):
+            zid = item.get("zunanjiId", "")
+            if wanted(item) and zid not in seen_zids:
+                batch.append(item)
+                seen_zids.add(zid)
+        if batch:
+            print(f"  {year}: {len(batch)} podzakonski (of {count} total)")
+            all_items.extend(batch)
+
+    INDEX_CACHE.write_text(json.dumps(all_items))
+    print(f"Index cached: {len(all_items)} items → {INDEX_CACHE}")
+    return all_items
 
 
 def wanted(item):
@@ -166,27 +211,7 @@ def main():
     LAW_DIR.mkdir(exist_ok=True)
     done = load_progress()
 
-    print("Fetching year list from PISRS...")
-    years = pisrs_years()
-    print(f"Found {len(years)} years: {years[0][0]}–{years[-1][0]}")
-
-    if args.from_year:
-        years = [(y, c) for y, c in years if y >= args.from_year]
-
-    # Collect all wanted items year by year
-    all_items = []
-    seen_zids = set()
-    for year, count in years:
-        batch = []
-        for item in pisrs_items_for_year(year):
-            zid = item.get("zunanjiId", "")
-            if wanted(item) and zid not in seen_zids:
-                batch.append(item)
-                seen_zids.add(zid)
-        if batch:
-            print(f"  {year}: {len(batch)} podzakonski (of {count} total)")
-            all_items.extend(batch)
-
+    all_items = build_index(from_year=args.from_year)
     print(f"\nTotal: {len(all_items)} podzakonski akti to process")
     all_items.sort(key=item_date)
 

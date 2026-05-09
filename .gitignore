@@ -1,4 +1,7 @@
 data/
 .progress.json
+.progress_*.json
+.pisrs_index_cache.json
+*.log
 __pycache__/
 *.pyc
