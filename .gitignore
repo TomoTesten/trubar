@@ -1,4 +1,5 @@
 data/
+.claude/
 .progress.json
 .progress_*.json
 .pisrs_index_cache.json
