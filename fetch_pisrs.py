@@ -101,6 +101,38 @@ def pisrs_items_for_year(zbirka, year):
         time.sleep(0.08)
 
 
+def _pisrs_cursor_pages(body):
+    """Paginate a single PISRS filter query body, yielding all items."""
+    cursor = "*"
+    while True:
+        data  = pisrs_post({"cursorMark": cursor}, body)
+        items = data.get("seznam") or []
+        if not items:
+            break
+        yield from items
+        nc = data.get("nextCursorMark", cursor)
+        if nc == cursor:
+            break
+        cursor = nc
+        time.sleep(0.08)
+
+
+def pisrs_items_by_municipality(zbirka, municipalities):
+    """Iterate items by municipality (fallback for collections without year facets)."""
+    for muni_val, count in municipalities:
+        muni_id = muni_val.split("#")[1] if "#" in muni_val else muni_val
+        base_body = {"nazivZbirke": [zbirka], "obcinaOrganSprejetjaOrgan": [muni_id]}
+        if count <= 900:
+            yield from _pisrs_cursor_pages(base_body)
+        else:
+            # Large municipality — sub-split by adoption year
+            for year in range(1945, date.today().year + 2):
+                body = dict(base_body)
+                body["datumi"] = {"letoSprejetja": year}
+                yield from _pisrs_cursor_pages(body)
+        time.sleep(0.05)
+
+
 # ── NPB fallback ───────────────────────────────────────────────────────────────
 
 def html_blocks_to_markdown(blocks):
@@ -254,22 +286,37 @@ def build_index(zbirka):
 
     print(f"Fetching year list for '{zbirka}'...")
     years = pisrs_years(zbirka)
-    if not years:
-        print("No years found.")
-        return []
-    print(f"  {len(years)} years: {years[0][0]}–{years[-1][0]}")
 
     items, seen = [], set()
-    for year, count in years:
-        batch = []
-        for item in pisrs_items_for_year(zbirka, year):
+
+    if years:
+        print(f"  {len(years)} years: {years[0][0]}–{years[-1][0]}")
+        for year, count in years:
+            batch = []
+            for item in pisrs_items_for_year(zbirka, year):
+                zid = item.get("zunanjiId", "")
+                if zid and zid not in seen:
+                    batch.append(item)
+                    seen.add(zid)
+            if batch:
+                print(f"  {year}: {len(batch)} (of {count})")
+                items.extend(batch)
+    else:
+        # Fallback: paginate by municipality
+        data = pisrs_post({"cursorMark": "*"}, {"nazivZbirke": [zbirka]})
+        municipalities = [(f["value"], f["count"])
+                         for f in (data.get("obcinaOrganSprejetjaOrganFacet") or [])
+                         if f.get("value")]
+        if not municipalities:
+            print("No years or municipalities found.")
+            return []
+        print(f"  No year facets — iterating by {len(municipalities)} municipalities")
+        for item in pisrs_items_by_municipality(zbirka, municipalities):
             zid = item.get("zunanjiId", "")
             if zid and zid not in seen:
-                batch.append(item)
+                items.append(item)
                 seen.add(zid)
-        if batch:
-            print(f"  {year}: {len(batch)} (of {count})")
-            items.extend(batch)
+        print(f"  Found {len(items)} unique items via municipality scan")
 
     cf.write_text(json.dumps(items))
     print(f"Cached {len(items)} items.")
