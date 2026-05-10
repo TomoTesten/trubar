@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Odredba o dostavi podatkov za odmero dohodnine — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Odredba o dostavi podatkov za odmero dohodnine</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>ODRE1184</strong></dd>
+      <dt>Vrsta</dt><dd>odredba</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>1991-12-12</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1206" target="_blank">Uradni list RS</a></dd>
+    </dl>
+    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1184.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+  </aside>
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:ODRE1184,vrsta:odredba">
+    <h1>Odredba o dostavi podatkov za odmero dohodnine</h1>
+<p>Na podlagi 272. in 273. člena zakona o sistemu državne uprave in o Izvršnem svetu Skupščine SR Slovenije ter o republiških upravnih organih (Uradni list SRS, št. 24/79, 12/82, 39/85, 37/87 in 18/88) ter v zvezi z 90. členom zakona o dohodnini (Uradni list Republike Slovenije, št. 48/90) izdaja Minister za finance</p>
+<h2>ODREDBO</h2>
+<p>o dostavi podatkov za odmero dohodnine</p>
+<ol>
+<li>S to odredbo se določajo vsebina, oblika, način in roki dostave podatkov, ki so jih podjetja in druge pravne osebe ter organi družbenopolitičnih skupnosti dolžni posredovati davčnim organom.</li>
+<li>Vsebina in oblika dostave podatkov<br />
+2.1 Podatki se pošljejo na enem od naslednjih računalniških podatkov:<br />
+– PC diskete iz IBM kompatibilnih osebnih računalnikov, ki imajo naslednje lastnosti:<br />
+• velikosti 5.25" (360KB ali 1,2MB) ali velikost 3.5". (750 KB ali 1,44 MB),<br />
+• zapisano v ASCII kodi,<br />
+• v datoteki imena VIR_DAT,<br />
+• vsak zapis je predpisane dolžine in ga zaključujeta dva posebna znaka LF ter CR.<br />
+Vključno s tema znakoma so zapisi dolgi 121 znakov.<br />
+– magnetni trak, ki ima naslednje lastnosti:<br />
+• 9 sledni zapis znakov,<br />
+• gostota zapisa 1600 bpi,<br />
+• koda zapisa ASCII ali EBCDIC,<br />
+• ne sme imeti znamke (NO LABEL),<br />
+• brez blokiranja, to pomeni, da je en blok en zapis (record) dolžine 119 znakov,<br />
+• zaključek podatkov označite z EOF oznako,<br />
+• razdalja od začetka traku do »start, marke Alu-folija« naj ne bo manjša od 7 m, da je možno trak avtomatično vpeti v magnetno tračno enoto.<br />
+Na nosilec računalniških podatkov je potrebno čitljivo vpisati:,<br />
+– naziv in naslov izplačevalca dohodkov,<br />
+– število zapisov, vključno z zapisom, kontrolnih vsot<br />
+in<br />
+– vse izbrane, v tej točki naštete lastnosti nosilca podatkov.<br />
+Nosilcu podatkov se priloži na papirju izpisano celotno vsebino diskete oziroma "magnetnega traku. Ta izpis mora biti popolna kopija računalniških podatkov, brez posebnih oblikovnih dodatkov, ki ga potrdi odgovorna oseba pravne osebe. Vsebino diskete se izpiše z ukazom<br />
+COPY a: VIR.DAT lpt1:<br />
+oznaki a: (disketne enote, in lpt1: (tiskalnika) se prilagodijo strojni opremi izplačevalca dohodkov.<br />
+2.2. ali na obrazcu:</li>
+</ol>
+<p>Z zaporedno številko se opremijo tudi vrstice seštevkov (SKUPAJ). Teh vrstic je toliko, kolikor vrst dohodkov je bilo izplačanih.<br />
+Pravilnost vsebine izpolnjenih obrazcev potrdi odgovorna oseba pravne osebe.<br />
+3. Podrobna vsebina poslanih podatkov:<br />
+Poslani podatki morajo vsebovati vse dohodke in obveznosti posameznega zavezanca za dohodnino od 1. 1. do 31. 12. 1991 iz posameznega vira dohodnine, ki je bil izplačan pri pravni osebi.<br />
+Da ne bi prišlo do pripisovanja podatkov napačnim osebam, je potrebno podatke označiti z enolično enotno matično številko občana (EMŠO) ter prvih 20 znakov njegovega priimka in imena. Za enolično označevanje tujcev se uporabi enotna matična številka tujca (EMŠT). Podatke enega vira dohodkov iste osebe se izpiše v enem zapisu, tako da v primeru, ko ima ista oseba izplačila različnih vrst, je izpolniti ustrezno število zapisov.<br />
+Zaradi kontrole zajetih podatkov je potrebno zbranim podatkom dodati ustrezno število zapisov brez identifikacije davčnega zavezanca (polja, številka davčnega zavezanca in priimek-ime davčnega zavezanca ter šifra občine bivanja, se pustijo prazna!) V tak zapis se vpiše za posamezno vrsto dohodka in obveznosti seštevke zneskov vseh individualnih zapisov.</p>
+<hr />
+<p>Zap.  Pozicija  Dolžina  Poravnava    Opis polja<br />
+št.             polja    L (levo),<br />
+                         D (desno)</p>
+<hr />
+<p>1     1-2       2        L            zadnji dve številki letnice, za katero<br />
+                                      navajamo prejemke in obveznosti,<br />
+2     3- 17     15       L            žiro račun pravne osebe, samo številke<br />
+                                      brez vezajev<br />
+3     18-22     5        D            zaporedna številka zapisa,<br />
+4     23-35     13       L            številka davčnega zavezanca (EMŠO) (glej<br />
+                                      3.1),<br />
+5     36-55     20       L            prvi znaki priimka in imena,<br />
+6     56-57     2                     šifra občine stalnega oziroma začasnega<br />
+                                      bivališča (glej 3.2),<br />
+7     58-59     2                     oznaka vrste dohodka in obveznosti (glej<br />
+                                      3.3),<br />
+8     60-71     12       *            bruto znesek; v izjemnih primerih (glej<br />
+                                      3.3) vpišemo neto znesek,<br />
+9     72-83     12       *            normirani priznani stroški,.<br />
+10    84-95     12       *            znesek akontacije dohodnine,<br />
+11    96-107    12                    prispevki za socialno varnost in posebni<br />
+                                      prispevki po zakonu,<br />
+12    108-119   12       *            samoprispevek, neobvezni podatek.</p>
+<hr />
+<p>• V prvih enajst znakov polja zneska se vpiše celi del zneska desno poravnano v tolarjih brez stotinov, samo številke brez posebnih znakov in pusti 12. znak prazen. Kadar je znesek negativen, se to označi tako, da se v 12. znak polja vpiše znak minus (-).<br />
+Dohodki izplačani v letu 1991 na način, ki je veljal v letu 1990, se preračunajo na naslednji način:<br />
+• pri določanju bruto zneska se upošteva sistem kot je veljal do vključno leta 1990,<br />
+• davki in prispevki za financiranje družbenih dejavnosti tvorijo znesek akontacije dohodnine,<br />
+• prispevki za financiranje pokojninskega in invalidskega zavarovanja, zdravstvenega zavarovanja, zaposlovanja ter posebni prispevki po zakonu predstavljajo znesek prispevkov za socialno varnost in posebnih prispevkov po zakonu.<br />
+3.1 Številka davčnega zavezanca:<br />
+V polje številke davčnega zavezanca se vpiše EMŠO oziroma EMŠT.<br />
+V primeru, ko ni možno določiti EMŠO (EMŠT), se izpolni trinajstmestno polje številke davčnega zavezanca na naslednji način:</p>
+<p>3.2 Šifre občin iz registra teritorialnih enot Zavoda za statistiko Republike Slovenije:</p>
+<p>01 Ajdovščina                       65 Pesnica<br />
+02 Brežice                          68 Ruše<br />
+03 Celje                            34 Metlika<br />
+04 Cerknica                         35 Mozirje<br />
+05 Črnomelj                         36 Murska Sobota<br />
+06 Domžale                          37 Nova Gorica<br />
+07 Dravograd                        38 Novo mesto<br />
+08 Gornja Radgona                   39 Ormož<br />
+09 Grosuplje                        40 Piran<br />
+10 Hrastnik                         41 Postojna<br />
+11 Idrija                           42 Ptuj<br />
+12 Ilirska Bistrica                 43 Radlje ob Dravi<br />
+13 Izola                            44 Radovljica<br />
+14 Jesenice                         45 Ravne na Koroškem<br />
+15 Kamnik                           46 Ribnica<br />
+16 Kočevje                          47 Sevnica<br />
+17 Koper                            48 Sežana<br />
+18 Kranj                            49 Slovenj Gradec<br />
+19 Krško                            50 Slovenska Bistrica<br />
+20 Laško                            51 Slovenske Konjice<br />
+21 Lenart                           52 Šentjur pri Celju<br />
+22 Lendava                          53 Škofja Loka<br />
+23 Litija                           54 Šmarje pri Jelšah<br />
+24 Ljubljana Bežigrad               55 Tolmin<br />
+25 Ljubljana Center                 56 Trbovlje<br />
+26 Ljubljana Moste-Polje            57 Trebnje<br />
+27 Ljubljana Šiška                  58 Tržič<br />
+28 Ljubljana Vič-Rudnik             59 Velenje<br />
+29 Ljutomer                         60 Vrhnika<br />
+30 Logatec                          61 Zagorje ob Savi<br />
+64 Maribor                          62 Žalec</p>
+<p>3.3 Tabela vrst dohodkov in obveznosti prikazuje vrste dohodkov in obveznosti ter določa način izpolnjevanja posameznih polj izpisa glede na vrsto dohodka oziroma obveznosti.<br />
+V posamezni vrstici seznama se obvezno izpolni prvih 8 polj. V vrsticah seštevkov mora biti polje EMŠO prazno. Izpolnjevanje ostalih polj je odvisno od vrste dohodka.</p>
+<ol>
+<li>
+<p>Izgled izpisa o celoletnih dohodkih in obveznostih, ki ga delavcu izroči izplačevalec dohodkov:</p>
+</li>
+<li>
+<p>izgled računalniškega izpisa:</p>
+</li>
+<li>
+<p>Podatki se pošljejo pristojni organizacijski enoti Službe družbenega knjigovodstva, kjer ima pravna oseba odprt žiro račun.<br />
+Rok za dostavo podatkov do 31. 1. 1992.<br />
+V primeru statusnih sprememb pravnih oseb (pripojitev, spojitev, delitev) predloži podatke o izplačilih zavezancem za dohodnino ustrezni pravni naslednik. Za podjetje v stečaju ali likvidaciji, ki nima pravnega naslednika, podatke pošlje stečajni ali likvidacijski upravitelj.<br />
+Pravne osebe, ki niso izplačevale prejemkov fizičnim osebam, morajo o tem predložiti pisno izjavo.<br />
+Poslovne enote, katerih matična pravna oseba ima sedež na območju druge republike, pošljejo podatke o izplačilih v Republiki Sloveniji (račun 604).</p>
+</li>
+</ol>
+<p>Št. 416-26/91</p>
+<p>Ljubljana, dne 5. decembra 1991.</p>
+<p>Minister<br />
+za finance<br />
+Dušan Šešok l. r.</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+</body>
+</html>

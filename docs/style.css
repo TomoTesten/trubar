@@ -1,0 +1,124 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 16px; line-height: 1.6; color: #202122; background: #f8f9fa;
+}
+
+a { color: #0645ad; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+header {
+  background: #fff; border-bottom: 1px solid #a7d7f9;
+  padding: 12px 24px;
+}
+header nav a { color: #555; font-size: 14px; }
+
+.index-header {
+  background: #3366cc; color: #fff; text-align: center; padding: 48px 24px 32px;
+}
+.index-header h1 { font-size: 2.8rem; font-weight: 700; letter-spacing: -0.5px; }
+.tagline { font-size: 1.1rem; margin-top: 8px; opacity: 0.9; }
+.tagline-sub { font-size: 0.95rem; margin-top: 4px; opacity: 0.75; }
+
+.index-search {
+  background: #fff; padding: 24px; border-bottom: 1px solid #ddd;
+}
+.index-search > div { max-width: 720px; margin: 0 auto; }
+
+.container { max-width: 1100px; margin: 0 auto; padding: 24px 16px; }
+
+/* Category grid */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px; margin-bottom: 32px;
+}
+.category-card {
+  background: #fff; border: 1px solid #ddd; border-radius: 6px;
+  padding: 20px 16px; text-align: center; display: flex;
+  flex-direction: column; gap: 6px; transition: border-color .15s;
+}
+.category-card:hover { border-color: #3366cc; text-decoration: none; }
+.cat-count { font-size: 1.8rem; font-weight: 700; color: #3366cc; }
+.cat-label { font-size: 0.9rem; color: #555; }
+.hf-card .cat-count { color: #ff9d00; }
+
+/* About */
+.about { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 24px; }
+.about h2 { margin-bottom: 12px; }
+.about p { margin-bottom: 10px; color: #444; }
+
+/* Law page layout */
+.law-title { font-size: 1.4rem; margin-top: 4px; font-weight: 600; color: #202122; }
+
+.law-container {
+  max-width: 1100px; margin: 0 auto; padding: 24px 16px;
+  display: grid; grid-template-columns: 240px 1fr; gap: 24px;
+}
+@media (max-width: 700px) {
+  .law-container { grid-template-columns: 1fr; }
+}
+
+/* Sidebar */
+.law-meta {
+  background: #fff; border: 1px solid #ddd; border-radius: 6px;
+  padding: 16px; height: fit-content;
+}
+.law-meta dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; }
+.law-meta dt { font-weight: 600; color: #555; font-size: 0.85rem; white-space: nowrap; }
+.law-meta dd { font-size: 0.9rem; color: #202122; }
+.btn-sm {
+  display: inline-block; margin-top: 16px; padding: 6px 12px;
+  border: 1px solid #3366cc; border-radius: 4px; color: #3366cc;
+  font-size: 0.85rem;
+}
+.btn-sm:hover { background: #3366cc; color: #fff; text-decoration: none; }
+
+/* Law body */
+.law-body {
+  background: #fff; border: 1px solid #ddd; border-radius: 6px;
+  padding: 24px 32px; min-width: 0;
+}
+.law-body h1, .law-body h2, .law-body h3 {
+  margin: 1.2em 0 0.5em; color: #202122;
+}
+.law-body h1 { font-size: 1.3rem; }
+.law-body h2 { font-size: 1.15rem; }
+.law-body p  { margin-bottom: 0.8em; }
+.law-body ul, .law-body ol { margin: 0.5em 0 0.8em 1.5em; }
+.law-body table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+.law-body th, .law-body td { border: 1px solid #ddd; padding: 6px 10px; font-size: 0.9rem; }
+.law-body th { background: #f3f4f5; }
+
+/* Cross-reference links */
+a.law-ref { color: #0645ad; border-bottom: 1px dotted #0645ad; }
+a.law-ref:hover { background: #eaf3fb; }
+
+/* Amendments */
+.amendments { margin-top: 32px; padding-top: 16px; border-top: 1px solid #eee; }
+.amendments h2 { font-size: 1rem; color: #555; margin-bottom: 8px; }
+.amendments ul { list-style: none; }
+.amendments li { padding: 4px 0; font-size: 0.9rem; border-bottom: 1px solid #f0f0f0; }
+
+/* Badges */
+.badge { padding: 2px 8px; border-radius: 3px; font-size: 0.8rem; font-weight: 600; }
+.badge.valid   { background: #d4edda; color: #155724; }
+.badge.invalid { background: #f8d7da; color: #721c24; }
+.badge.neutral { background: #e2e3e5; color: #383d41; }
+
+/* List pages */
+.list-filter {
+  width: 100%; padding: 10px 14px; border: 1px solid #ddd; border-radius: 4px;
+  font-size: 1rem; margin-bottom: 16px;
+}
+.law-table { width: 100%; border-collapse: collapse; background: #fff; }
+.law-table th { background: #f3f4f5; text-align: left; padding: 8px 12px; font-size: 0.9rem; border-bottom: 2px solid #ddd; }
+.law-table td { padding: 7px 12px; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; }
+.law-table tr:hover td { background: #f8f9fa; }
+
+footer {
+  text-align: center; padding: 24px; color: #555; font-size: 0.85rem;
+  border-top: 1px solid #ddd; margin-top: 32px; background: #fff;
+}
+footer a { color: #0645ad; }

@@ -6,3 +6,12 @@ data/
 *.log
 __pycache__/
 *.pyc
+*.token
+.gh_token
+.hf_token
+.env
+.progress_*.txt
+.index_*.json
+.dz_*.xml
+.court_hf_cache/
+us_rs/

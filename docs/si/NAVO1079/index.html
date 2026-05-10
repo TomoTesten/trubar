@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Navodilo o spremembi Navodila o vsebini in načinu poročanja o medbančnih depozitih — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Navodilo o spremembi Navodila o vsebini in načinu poročanja o medbančnih depozitih</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>NAVO1079</strong></dd>
+      <dt>Vrsta</dt><dd>navodilo</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2014-01-17</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0062" target="_blank">Uradni list RS</a></dd>
+    </dl>
+    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO1079.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+  </aside>
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:NAVO1079,vrsta:navodilo">
+    <h1>Navodilo o spremembi Navodila o vsebini in načinu poročanja o medbančnih depozitih</h1>
+<p>Na podlagi tretjega odstavka 29. člena Zakona o Banki Slovenije (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo in 59/11) in 5. točke Sklepa o poročanju o medbančnih depozitih (Uradni list RS, št. 103/06) sprejema guverner Banke Slovenije</p>
+<h2>N A V O D I L O   O   S P R E M E M B I   N A V O D I L A</h2>
+<p>o vsebini in načinu poročanja o medbančnih depozitih</p>
+<ol>
+<li>V Navodilu o vsebini in načinu poročanja o medbančnih depozitih (Uradni list RS, št. 105/06 in 27/07) se besedilo 5. točke nadomesti z besedilom, ki se glasi:<br />
+"5. Obveznik poročanja posreduje Banki Slovenije poročilo prek elektronske pošte po omrežju BSNET na naslov: bomp@bsi.si.<br />
+5.1. Definicija zadeve (subject)<br />
+Zadeva v elektronskem sporočilu se navede v obliki:<br />
+– CBOMP oznaka aplikacije v Banki Slovenije,<br />
+– SINNNNNNN MFI_ID obveznika poročanja,<br />
+– LLLLMMDD datum poročanja,<br />
+– (X.509) oznaka, da gre za uporabo X.509,<br />
+– (CP) kodna tabela (obvezno, kadar ni uporabljena kodna tabela CP1250, možne vrednosti CP: CP7BIT, CP1250, CP852, CPUNICODE, CPLATIN1, CPLATIN2).<br />
+primera:<br />
+CBOMPSI555555520060414(X.509) / uporabljena kodna tabela 1250<br />
+CBOMPSI555555520060414(X.509)(CP7BIT) / uporabljena 7 bitna kodna tabela.<br />
+5.2. Zaščita poročil<br />
+Vsa sporočila morajo biti elektronsko podpisana z digitalnimi potrdili po standardu SMIME/X.509. Za podpisovanje obveznik poročanja uporablja javni ključ, ki ga Banki Slovenije posreduje ob prijavi digitalnega potrdila. Sporočila so lahko tudi šifrirana (neobvezno). Za šifriranje se uporablja javni ključ Banke Slovenije, opisan v točki 5.3.<br />
+5.3. Odgovor obvezniku poročanja o prevzemu pošte<br />
+Vsi odgovori Banke Slovenije so elektronsko podpisani z javnim ključem "Medbančna posojila (BOMP)", ki je dostopen na spletni strani: http://www.bsi.si/porocanje-r.asp?MapaId=1098. Odgovor potrjuje sprejem sporočila in sporoča pravilnost oziroma nepravilnost podatkov.<br />
+Primer odgovora v primeru, ko je sporočilo sprejeto:<br />
+– RE: originalna zadeva, CBOMP-I-OK, tekst<br />
+Primer: RE: CBOMPSI555555520060414 CBOMP-I-OK, Podatki so v redu<br />
+Primer odgovora, ko so v sporočilu napake:<br />
+– RE: originalna zadeva, CBOMP-E-ERR, tekst<br />
+Napaka je opisana v vsebini sporočila in v skrajšani obliki v polju tekst.<br />
+5.4. Pravila za formiranje zapisov<br />
+Priporočamo uporabo kodne tabele CP1250. V kolikor je uporabljena druga kodna tabela, mora biti obvezno navedena kot zadnji podatek v zadevi (subjectu) (glej točko 5.1).<br />
+Vsakemu zapisu je na začetku dodana oznaka aplikacije (CBOMP) in tip zapisa (prvi zapis-00, podatki-11, zadnji zapis-99).<br />
+– prvi zapis: CBOMP00, v nadaljevanju:<br />
+– MFI_ID obveznika poročanja (9AN),<br />
+– datum poročanja (8N),<br />
+– status podatkov: N-novi, P-popravki (1AN),<br />
+– zaporedna številka popravka (2N).<br />
+– podatki: CBOMP11, v nadaljevanju:<br />
+– zaporedna številka vrstice (3N)<br />
+– MFI_ID posojilodajalca (15AN),<br />
+– MFI_ID posojilojemalca (15AN),<br />
+– datum sklenitve depozita (8N),<br />
+– datum valutacije depozita (8N),<br />
+– datum vračila depozita (8N)<br />
+– znesek depozita v EUR (9N)<br />
+– obrestna mera depozita (4,2N)<br />
+– tip obrestne mere depozita ("N" ali "O")<br />
+– zadnji zapis: CBOMP99, v nadaljevanju:<br />
+– število zapisov s podatki (3N),<br />
+– ime in priimek sestavljavca (40AN),<br />
+– telefon sestavljavca (12AN).<br />
+Razlaga oznak:<br />
+– N pomeni število numeričnih znakov. Prva številka pomeni število vseh cifer, druga število decimalnih mest.<br />
+Primer za 4,2N: 3,15 ---&gt; 0315<br />
+– AN pomeni število alfa numeričnih znakov (zapis znakov od leve proti desni). Kadar podatka ni, je polje prazno (napolnjeno s presledki).<br />
+V primeru, da datum vračila depozita ni določen, ga zapišemo kot 31.12.9999.<br />
+5.5. Pošiljanje popravkov<br />
+Poročilo, ki je napačno, je treba čim prej popraviti in še enkrat poslati v Banko Slovenije. Poslati je treba celotno poročilo. Novo, popravljeno poročilo zamenja oziroma prekrije prejšnje poročilo.<br />
+Poročilo se šteje kot popravek, če ima v prvem zapisu v polju status podatkov znak P in zaporedno številko popravka 01. Primer: CBOMP00SI555555520060414P01. Popravek popravka ima zaporedno številko popravka enako 02 in tako dalje.<br />
+5.6. Ponovno pošiljanje zavrnjenih poročil<br />
+Kadar je poročilo zavrnjeno (zaradi napačne strukture zadeve/subjecta, napačnega X.509 podpisa ipd.), je treba poročilo čim prej ponovno poslati v celoti. Ponovno poslana poročila, ki so bila predhodno zavrnjena, obveznik poročanja označi kot nova.<br />
+5.7. Primer poročila v obliki za pošiljanje prek elektronske pošte<br />
+Zadeva: CBOMPSI555555520060414(X.509)<br />
+CBOMP00SI555555520060414N00</li>
+</ol>
+<p>CBOMP11001   SI5555555SI1247777    2006041320060413200604180120000000325N<br />
+CBOMP11002   SI5555555SI1247777    2006041320060414200604180023000000310N<br />
+CBOMP11003   SI5555555DE62666666   2006041320060413200604220007500000400N<br />
+CBOMP11004   AT1211111SI5555555    2006041320060413200607010400000000325O<br />
+CBOMP99004JANEZ NOVAK                       01 999 99 99"</p>
+<ol>
+<li>To navodilo začne veljati 3. 2. 2014.</li>
+</ol>
+<p>Ljubljana, dne 14. januarja 2014</p>
+<p>Guverner<br />
+Boštjan Jazbec l.r.</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+</body>
+</html>

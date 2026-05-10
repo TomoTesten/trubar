@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pravilnik o spremembah pravilnika za predložitev in prevzem podatkov s plačilnih navodil in izpiska o prometu in stanju v računalniški obliki — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Pravilnik o spremembah pravilnika za predložitev in prevzem podatkov s plačilnih navodil in izpiska o prometu in stanju v računalniški obliki</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>PRAV5431</strong></dd>
+      <dt>Vrsta</dt><dd>pravilnik</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2004-07-02</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3232" target="_blank">Uradni list RS</a></dd>
+    </dl>
+    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5431.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+  </aside>
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:PRAV5431,vrsta:pravilnik">
+    <h1>Pravilnik o spremembah pravilnika za predložitev in prevzem podatkov s plačilnih navodil in izpiska o prometu in stanju v računalniški obliki</h1>
+<p>Na podlagi 2., 3. in 5. točke prvega odstavka 74. člena zakona o plačilnem prometu (Uradni list RS, št. 45/03 – uradno preprečiščeno besedilo in 37/04) izdaja minister za finance</p>
+<h2>P R A V I L N I K</h2>
+<p>o spremembah pravilnika za predložitev in prevzem podatkov s plačilnih navodil in izpiska o prometu in stanju v računalniški obliki</p>
+<h3>1. člen</h3>
+<p>V pravilniku za predložitev in prevzem podatkov s plačilnih navodil in izpiska o prometu in stanju v računalniški obliki (Uradni list RS, št. 117/02) se 19. člen spremeni, tako da glasi:</p>
+<h3>''19. člen</h3>
+<p>Struktura stavka v računalniškem zapisu podatkov o posameznih plačilnih transakcijah deviznih plačilnih navodil za odlive in prilive, ki ga UJP pripravi za proračunske uporabnike (TKDIS.TXT):</p>
+<p>+---------+-------+--------+-----------------------------------------------+<br />
+|Pozicija |Število|Tip     |Opis polja                                     |<br />
+|         |znakov |podatka |                                               |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|1        |18     |N       |Številka računa plačnika oziroma prejemnika    |<br />
+|         |       |        |plačila                                        |<br />
+|         |       |        |– če je račun daljši od 18 mest (računi pri    |<br />
+|         |       |        |tujih bankah) je prvih osemnajst številk računa|<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|19       |2      |N       |Vir informacije:                               |<br />
+|         |       |        |– za obremenitev:                              |<br />
+|         |       |        |· 11 = interna knjižba (prenos za zagotavljanje|<br />
+|         |       |        |kritja)                                        |<br />
+|         |       |        |· 12 = negotovinska obremenitev                |<br />
+|         |       |        |· 13 = obremenitev iz naslova dviga gotovine   |<br />
+|         |       |        |pri BS                                         |<br />
+|         |       |        |· 14 = obremenitev iz naslova dviga gotovine   |<br />
+|         |       |        |pri poslovni banki                             |<br />
+|         |       |        |· 15 = ček                                     |<br />
+|         |       |        |· 16 = marža                                   |<br />
+|         |       |        |· 17 = strošek transakcije v plačilnem prometu |<br />
+|         |       |        |– provizija                                    |<br />
+|         |       |        |· 18 = obresti                                 |<br />
+|         |       |        |· 19 = revalorizacija stanja za devizna        |<br />
+|         |       |        |sredstva                                       |<br />
+|         |       |        |                                               |<br />
+|         |       |        |– za odobritev:                                |<br />
+|         |       |        |· 21 = interna knjižba (prenos za zagotavljanje|<br />
+|         |       |        |kritja)                                        |<br />
+|         |       |        |· 22 = negotovinska odobritev                  |<br />
+|         |       |        |· 23 = odobritev iz naslova gotovinskega pologa|<br />
+|         |       |        |v BS                                           |<br />
+|         |       |        |· 24 = odobritev iz naslova gotovinskega pologa|<br />
+|         |       |        |v poslovni banki                               |<br />
+|         |       |        |· 26 = marža                                   |<br />
+|         |       |        |· 27 = že obračunani stroški                   |<br />
+|         |       |        |· 28 = obresti                                 |<br />
+|         |       |        |· 2 9 = revalorizacija stanja za devizna       |<br />
+|         |       |        |sredstva                                       |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|21       |8      |D       |Datum izpiska v UJP v obliki DD.MM.LL          |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|29       |1      |A       |Prazno                                         |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|30       |1      |A       |Klavzula vrste stroškov:                       |<br />
+|         |       |        |– B-BEN                                        |<br />
+|         |       |        |– S-SHA                                        |<br />
+|         |       |        |– O-OUR                                        |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|31       |15     |N       |Znesek transakcije je znesek v valuti podračuna|<br />
+|         |       |        |ali valuti računa                              |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|46       |3      |A       |Oznaka valute iz šifranta BS je informacija o: |<br />
+|         |       |        |– valuti nakazila prejemniku v primeru odliva  |<br />
+|         |       |        |– informacija o valuti priliva, kadar ta ni    |<br />
+|         |       |        |enaka valuti računa ali podračuna              |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|49       |12     |N       |Številka dokumenta:                            |<br />
+|         |       |        |– številka DPNO 70 za odlive                   |<br />
+|         |       |        |– številka DPNP 60 za prilive                  |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|61       |5      |A       |Prazno                                         |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|66       |1      |A       |Prazno                                         |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|67       |6      |D       |Datum vnosa podatkov v UJP v obliki DDMMLL     |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|73       |15     |N       |Številka računa ali podračuna proračunskega    |<br />
+|         |       |        |uporabnika – prejemnika izpiska                |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|88       |3      |A       |Valuta računa ali podračuna                    |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|91       |15     |N       |Znesek v SIT je preračunan znesek transakcije v|<br />
+|         |       |        |SIT po srednjem tečaju BS na dan obremenitve   |<br />
+|         |       |        |ali odobritve računa ali podračuna             |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|106      |2      |N       |Prazno                                         |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|108      |2      |N       |Šifra izdatkov iz šifranta šifer izdatkov      |<br />
+|         |       |        |oziroma prejemkov, ki ga vzdržuje AJPES        |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|110      |2      |N       |Šifra prejemkov iz šifranta šifer izdatkov     |<br />
+|         |       |        |oziroma prejemkov, ki ga vzdržuje AJPES        |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|112      |24     |A       |Sklicevanje na številko obremenitve je osnova  |<br />
+|         |       |        |za knjiženje pri proračunskem uporabniku       |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|136      |24     |A       |Sklicevanje na številko odobritve je osnova za |<br />
+|         |       |        |knjiženje pri prejemniku                       |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|160      |36     |A       |Namen nakazila je lahko:                       |<br />
+|         |       |        |– številka vknjižbe in številka odredbe        |<br />
+|         |       |        |– opis šifre osnove za statistiko plačilnega   |<br />
+|         |       |        |prometa s tujino                               |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|196      |10     |A       |Kraj plačnika oziroma prejemnika plačila       |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|206      |35     |A       |Ime plačnika oziroma prejemnika plačila        |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|241      |22     |N       |Številka za reklamacijo je podatek, ki ga      |<br />
+|         |       |        |programsko določi UJP in se ga uporabi za      |<br />
+|         |       |        |naknadno reševanje morebitnih reklamacij v     |<br />
+|         |       |        |zvezi z izvedenimi plačilnimi navodili         |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|263      |8      |N       |Ena enota srednje vrednosti SIT tečaja BS za   |<br />
+|         |       |        |tujo valuto na dan obremenitve ali odobritve   |<br />
+|         |       |        |podračuna oziroma evidence o stanju in prometu |<br />
+|         |       |        |na računu proračunskega uporabnika v UJP.      |<br />
+|         |       |        |Podatek je zapisan v obliki: NNN.NNNN, pri     |<br />
+|         |       |        |čemer zadnja štiri mesta pomenijo zapis        |<br />
+|         |       |        |decimalnih mest tečaja                         |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|271      |10     |N       |Prazno                                         |<br />
++---------+-------+--------+-----------------------------------------------+<br />
+|Skupaj   |280    |        |                                               |<br />
++---------+-------+--------+-----------------------------------------------+</p>
+<h3>2. člen</h3>
+<p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 496-01-5/2004/15</p>
+<p>Ljubljana, dne 29. junija 2004.</p>
+<p>EVA 2004-1611-0049</p>
+<p>dr. Dušan Mramor l. r.<br />
+Minister<br />
+za finance</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+</body>
+</html>

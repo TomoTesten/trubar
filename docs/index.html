@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>T.R.U.B.A.R. — Slovenski pravni red</title>
+<link rel="stylesheet" href="/trubar/style.css">
+<link href="/trubar/_pagefind/pagefind-ui.css" rel="stylesheet">
+</head>
+<body>
+<header class="index-header">
+  <h1>T.R.U.B.A.R.</h1>
+  <p class="tagline">Transparentni Register Urejenih Besedil Aktov Republike</p>
+  <p class="tagline-sub">Celoten slovenski pravni red — iskanje po besedilu, brskanje po zgodovini</p>
+</header>
+
+<div class="index-search">
+  <div id="search"></div>
+</div>
+
+<div class="container">
+  <div class="category-grid">
+    <a href="/trubar/zakoni/" class="category-card">
+      <span class="cat-count">3,973</span>
+      <span class="cat-label">Zakoni</span>
+    </a>
+    <a href="/trubar/uredbe/" class="category-card">
+      <span class="cat-count">6,892</span>
+      <span class="cat-label">Uredbe</span>
+    </a>
+    <a href="/trubar/pravilniki/" class="category-card">
+      <span class="cat-count">10,569</span>
+      <span class="cat-label">Pravilniki</span>
+    </a>
+    <a href="/trubar/lokalni/" class="category-card">
+      <span class="cat-count">45,226</span>
+      <span class="cat-label">Lokalni akti</span>
+    </a>
+    <a href="https://huggingface.co/datasets/TomoTesten/trubar-sodna-praksa"
+       class="category-card hf-card" target="_blank">
+      <span class="cat-count">254k</span>
+      <span class="cat-label">Sodne odločbe ↗</span>
+    </a>
+  </div>
+
+  <section class="about">
+    <h2>O projektu</h2>
+    <p>
+      T.R.U.B.A.R. je arhiv celotnega slovenskega pravnega reda v strojno berljivi obliki.
+      Vsak zakon je datoteka Markdown; vsaka sprememba je <em>git commit</em> — zakonodajna
+      zgodovina od osamosvojitve (1991) je vidna z enim ukazom.
+    </p>
+    <p>
+      Poimenovan po <a href="https://sl.wikipedia.org/wiki/Primo%C5%BE_Trubar">Primožu Trubarju</a>
+      (1508–1586), ki je napisal prvo knjigo v slovenskem jeziku.
+    </p>
+    <p>
+      Vir: <a href="https://pisrs.si" target="_blank">PISRS</a>,
+      <a href="https://www.uradni-list.si" target="_blank">Uradni list RS</a>,
+      <a href="https://fotogalerija.dz-rs.si" target="_blank">Državni zbor</a> ·
+      <a href="https://github.com/TomoTesten/trubar" target="_blank">GitHub ↗</a>
+    </p>
+  </section>
+</div>
+
+<footer>
+  CC0 javna domena · <a href="https://github.com/TomoTesten/trubar">GitHub</a> ·
+  <a href="https://huggingface.co/datasets/TomoTesten/trubar-sodna-praksa">Hugging Face</a>
+</footer>
+
+<script type="module">
+  import { PagefindUI } from "/trubar/_pagefind/pagefind-ui.js";
+  new PagefindUI({
+    element: "#search",
+    showImages: false,
+    excerptLength: 25,
+    translations: { placeholder: "Iščite zakon, člen, besedo..." },
+  });
+</script>
+</body>
+</html>

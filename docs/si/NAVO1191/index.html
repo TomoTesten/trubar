@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Navodilo o poročanju plačilnega prometa s tujino — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Navodilo o poročanju plačilnega prometa s tujino</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>NAVO1191</strong></dd>
+      <dt>Vrsta</dt><dd>navodilo</dd>
+      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Datum</dt><dd>2022-12-16</dd>
+      <dt>Organ</dt><dd>Banka Slovenije</dd>
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2022-01-3947" target="_blank">Uradni list RS</a></dd>
+    </dl>
+    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO1191.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+  </aside>
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:NAVO1191,vrsta:navodilo">
+    <h1>Navodilo o poročanju plačilnega prometa s tujino</h1>
+<p>Na podlagi tretjega odstavka 29. člena Zakona o Banki Slovenije (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo, Uradni list RS, 59/11 in 55/17) ter 4. in 6. člena Sklepa o obveznosti poročanja o poslovanju s tujino (Uradni list RS, št. 107/08 in 24/13) izdaja guverner Banke Slovenije</p>
+<p>N A V O D I L O</p>
+<p>o poročanju plačilnega prometa s tujino</p>
+<p>1. SPLOŠNE DOLOČBE</p>
+<p>1. člen</p>
+<p>(predmet urejanja)</p>
+<p>To navodilo predpisuje vsebino, obliko in roke poročanja o plačilnem prometu s tujino (v nadaljnjem besedilu: PPT).</p>
+<p>2. člen</p>
+<p>(obvezniki poročanja)</p>
+<p>Obvezniki poročanja so banke, ki opravljajo PPT.</p>
+<p>3. člen</p>
+<p>(predmet poročanja)</p>
+<p>(1)<br />
+Predmet poročanja so vsa plačila (prilivi/odlivi) ne glede na velikost zneska, ki jih banke in hranilnice (v nadaljevanju: banke) opravijo zase ali za stranke v odnosu s tujino.</p>
+<p>(2) Banka poroča:</p>
+<p>1. vse razpoložljive podatke, v okviru katerih so v podatkovni strukturi definirani obvezni oziroma neobvezni podatki za poročanje;</p>
+<p>2. vse prilive in odlive nefinančnih transakcij bank, ki jih opravijo za potrebe lastnega poslovanja v odnosu s tujino.</p>
+<p>(3) Banka ne poroča:</p>
+<p>1. množičnih plačil, kjer ena odlivna transakcija v breme transakcijskega računa lahko vsebuje množico odlivov v Sloveniji in v druge države;</p>
+<p>2. dokumentarnih plačil, ki se jih iz knjižb na transakcijskih računih ne da prepoznati kot transakcije s tujino, ter dokumentarnih plačil, ki se ne knjižijo na transakcijske račune;</p>
+<p>3. plačil v tuje vzajemne sklade (prilivi in odlivi), ki so izvršena z medbančnimi poboti, seznami pa so izdelani izven standardov plačilnega prometa SWIFT ali ISO;</p>
+<p>4. medbančnih prenosov;</p>
+<p>5. direktnih obremenitev;</p>
+<p>6. transakcij iz naslova posredništva med bankami (takih transakcij ne poroča posredniška banka, ampak inicialna banka za odlive in banka prejemnika plačila za prilive);</p>
+<p>7. prenosov sredstev/plačil med računi pri slovenskih bankah (rezidenti in nerezidenti), v katerikoli valuti.</p>
+<p>4. člen</p>
+<p>(rok poročanja)</p>
+<p>Obvezniki poročajo o PPT mesečno, najkasneje do 10. delovnega dne za podatke predhodnega meseca.</p>
+<p>5. člen</p>
+<p>(ponovno posredovanje poročil zaradi ugotovljenih napak)</p>
+<p>(1)<br />
+Obveznik poročanja je dolžan posredovati podatke, ki so formalno in vsebinsko pravilni.</p>
+<p>(2) Obveznik poročanja je dolžan posredovati morebitne popravke že poslanih podatkov/poročil v desetih delovnih dneh od zaznave razloga za popravek ali napake.</p>
+<p>6. člen</p>
+<p>(hramba poročil)</p>
+<p>Obveznik poročanja je dolžan poročila, posredovana Banki Slovenije v skladu s tem navodilom, hraniti pet let.</p>
+<p>2. PODATKOVNA STRUKTURA</p>
+<p>7. člen</p>
+<p>(podatkovna struktura – PPT)</p>
+<p>(1)<br />
+Obveznik poročanja PPT poroča skladno z XML shemo in tehničnim navodilom za poročanje podatkov PPT, ki sta objavljena na spletni strani Banke Slovenije.</p>
+<p>(2) Obvezniki poročajo naslednje podatke plačil s tujino:</p>
+<p>Zaporedna številka<br />
+IME POLJA<br />
+VSEBINA<br />
+Tip polja in največja dolžina<br />
+Status<br />
+1<br />
+banka poročevalka<br />
+10 mestna matična številka<br />
+AN 10<br />
+obvezno<br />
+2<br />
+obdobje poročila<br />
+mesec in leto za katerega se poroča (MMLLLL)<br />
+AN 6<br />
+obvezno<br />
+3<br />
+datum poslovnega dogodka<br />
+datum valutacije – datum odobritve oziroma obremenitve računa banke (DD-MM-LLLL)<br />
+AN 10<br />
+obvezno<br />
+4<br />
+smer<br />
+1 – priliv, 2 – odliv<br />
+AN 1<br />
+obvezno<br />
+5<br />
+znesek<br />
+znesek priliva ali odliva v poravnalni valuti<br />
+N 15 (13,2)<br />
+obvezno<br />
+6<br />
+valuta<br />
+poravnalna valuta odliva ali priliva po šifrantu ISO 4217 (tričrkovna koda; primer EUR)<br />
+AN 3<br />
+obvezno<br />
+7<br />
+BIC prejemnika<br />
+BIC/SWIFT koda prejemnika plačilnega naloga: pri prilivih je to vedno banka poročevalka, pri odlivih pa banka, kateri pošlje odliv v izvršitev<br />
+AN 11 (8 ali 11 mest)<br />
+pogojno (obvezno za prilive)<br />
+8<br />
+BIC pošiljatelja<br />
+BIC/SWIFT koda pošiljatelja plačilnega naloga: pri odlivih je to vedno banka poročevalka, pri prilivih pa banka, od katere prejme plačilni nalog<br />
+AN 11 (8 ali 11 mest)<br />
+pogojno (obvezno za odlive)<br />
+9<br />
+BIC banke plačnika<br />
+podatek je relevanten pri prilivih – iz tega se lahko razbere državo iniciatorja plačila (v kolikor ni IBANa plačnika ali pa je ta različna od države pošiljatelja plačilnega naloga)<br />
+AN 11 (8 ali 11 mest)<br />
+neobvezno<br />
+10<em><br />
+račun plačnika<br />
+IBAN, če obstaja, sicer v drugačni obliki<br />
+AN 34 (od 1 do 34 mest)<br />
+pogojno (obvezno za odlive)<br />
+11</em><br />
+naziv in naslov plačnika<br />
+naziv in naslov plačnika<br />
+AN 140 (od 1 do 140 mest)<br />
+obvezno<br />
+12<br />
+BIC banke prejemnika plačila<br />
+podatek je relevanten pri odlivih – iz njega se lahko razbere državo prejemnika plačila (v kolikor ni IBANa prejemnika plačila ali pa je ta različna od države prejemnika plačilnega naloga)<br />
+AN 11 (8 ali 11 mest)<br />
+neobvezno<br />
+13<em><br />
+račun prejemnika plačila<br />
+IBAN če obstaja, sicer v drugačni obliki<br />
+AN 34 (od 1 do 34 mest)<br />
+pogojno (obvezno za prilive)<br />
+14</em><br />
+naziv in naslov prejemnika plačila<br />
+naziv in naslov prejemnika plačila<br />
+AN 140 (od 1 do 140 mest)<br />
+obvezno</p>
+<p>*za komitente banke, ki so fizične osebe, se v polje vpiše vrednost FO</p>
+<p>3. PREHODNI IN KONČNA DOLOČBA</p>
+<p>8. člen</p>
+<p>(prehodna določba)</p>
+<p>Obvezniki poročanja prvič poročajo skladno s tem navodilom februarja 2023 podatke PPT, ki se nanašajo na januar 2023.</p>
+<p>9. člen</p>
+<p>(razveljavitev navodila)</p>
+<p>Z uveljavitvijo tega navodila preneha veljati V. člen Navodila za izvajanje sklepa o obveznosti poročanja o poslovanju s tujino (Uradni list RS, št. 18/17), ki pa se še uporablja za poročanje podatkov za december 2022 v januarju 2023.</p>
+<p>10. člen</p>
+<p>(začetek veljavnosti)</p>
+<p>To navodilo prične veljati 1. januarja 2023.</p>
+<p>Ljubljana, dne 8. decembra 2022</p>
+<p>Boštjan Vasle</p>
+<p>guverner</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+</body>
+</html>

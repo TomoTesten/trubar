@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pravilnik o nadzornem informacijskem sistemu igralnih naprav — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Pravilnik o nadzornem informacijskem sistemu igralnih naprav</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>PRAV8450</strong></dd>
+      <dt>Vrsta</dt><dd>pravilnik</dd>
+      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Datum</dt><dd>2008-06-13</dd>
+      <dt>Organ</dt><dd>Ministrstvo za finance</dd>
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-2492" target="_blank">Uradni list RS</a></dd>
+    </dl>
+    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8450.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+  </aside>
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:PRAV8450,vrsta:pravilnik">
+    <h1>Pravilnik o nadzornem informacijskem sistemu igralnih naprav</h1>
+<p>Na podlagi tretjega odstavka 80.a člena Zakona o igrah na srečo (Uradni list RS, št. 134/03 – uradno prečiščeno besedilo) izdaja minister za finance</p>
+<h2>P R A V I L N I K</h2>
+<p>o nadzornem informacijskem sistemu igralnih naprav</p>
+<h3>I. SPLOŠNE DOLOČBE</h3>
+<h3>1. člen</h3>
+<p>S tem pravilnikom se predpisujejo tehnične in druge lastnosti nadzornega informacijskega sistema igralnih naprav (v nadaljnjem besedilu: NIS), obseg in način vključitve igralnih naprav v NIS, obseg in način spremljanja igralnih procesov, ter način povezave NIS v informacijski sistem Urada RS za nadzor prirejanja iger na srečo (v nadaljnjem besedilu: nadzorni organ).</p>
+<h3>2. člen</h3>
+<p>(1) NIS je računalniški sistem, v katerem se zbirajo podatki z vseh igralnih naprav, na katerih prireja koncesionar posebne igre na srečo v igralnici oziroma v igralnem salonu.<br />
+(2) V NIS spadajo:<br />
+1. računalniki oziroma podatkovne strukture v podatkovnih zbirkah integriranega informacijskega sistema, ki vsebujejo v tem pravilniku zahtevane podatke, ki jih igralne naprave in vanje vgrajeni vmesniki NIS v NIS posredujejo oziroma, ki se jih mora v NIS vnesti v samem procesu izvajanja iger;<br />
+2. programi, oprema (npr. vmesniki NIS) in datoteke z nastavitvenimi parametri, ki zagotavljajo zbiranje oziroma vnos teh podatkov;<br />
+3. programi, ki omogočajo v tem pravilniku zahtevane vpoglede v te podatke;<br />
+4. programi, ki iz teh podatkov izdelajo s tem pravilnikom zahtevane preglede, zaključke in poročila;<br />
+5. strojna in programska oprema, nameščena pri koncesionarju, za povezavo z informacijskim sistemom nadzornega organa in za dostop nadzornega organa.</p>
+<h3>3. člen</h3>
+<p>Posamezne kratice in izrazi, uporabljeni v tem pravilniku, imajo naslednji pomen:<br />
+1. igralni avtomat (v nadaljnjem besedilu: IA) pomeni igralni avtomat oziroma posamezno igralno mesto za igralni avtomat z več igralnimi mesti, oziroma igralni terminal v strežniških sistemih iger, v zapisih v NIS pa enolično interno oznako, ki predstavlja igralni avtomat oziroma posamezno igralno mesto ali igralni terminal strežniškega sistema iger;<br />
+2. igralna miza (v nadaljnjem besedilu: IM) pomeni igro na srečo na igralni mizi s kroglicami, kockami ali kartami ali drugo posebno igro na srečo, ki ni IA, v zapisih NIS pa enolično interno oznako, ki predstavlja igro na srečo na igralni mizi ali drugo posebno igro na srečo;<br />
+3. BA (BILL ACCEPTOR) pomeni sprejemnik in zbiralnik bankovcev in lističev;<br />
+4. BCL (BILL CLEARANCE) pomeni skupno vrednost bankovcev, ki je ob praznitvi IA ugotovljena v BA;<br />
+5. CB (CASH-BOX) pomeni zbiralnik žetonov in je prostor, kjer se zbirajo v IA vstavljeni žetoni, ko je zalogovnik poln;<br />
+6. CI (COINS IN) pomeni števec žetonov, ki so bili vplačani v IA;<br />
+7. CL (COINS CLEARANCE) pomeni število žetonov, ki je ob praznitvi IA ugotovljeno v CB;<br />
+8. CO (COINS OUT) pomeni števec žetonov, ki so bili izplačani iz IA;<br />
+9. CTC (COINS TO CASH-BOX) pomeni števec žetonov, ki so bili na IA preusmerjeni v CB in ki lahko vključuje tudi v žetonih izraženo vrednost prejetih bankovcev;<br />
+10. GM (GAMES) pomeni števec odigranih iger na IA;<br />
+11. H (HOPPER) je v NIS izračunano število žetonov v zalogovniku IA;<br />
+12. JP (JACKPOT) pomeni števec obračunskih kreditnih točk, ki so bile na IA izplačane kot glavni dobitek (jackpot), oziroma dobitek, ki se izplača ročno;<br />
+13. PJP (PROGRESSIVE JACKPOT) pomeni števec obračunskih kreditnih točk ali vrednost v igralni valuti izplačanih dobitkov progresivnega sistema na posamezni igralni napravi;<br />
+14. CC (CREDIT CANCEL) pomeni števec obračunskih kreditnih točk, ki so bile za IA izplačane na blagajni in niso bile zavedene na števcih JP ali PJP;<br />
+15. TI (TOTAL IN) pomeni števec obračunskih kreditnih točk, ki so bile na posameznem igralnem mestu zaigrane;<br />
+16. TCL (TICKET CLEARANCE) pomeni skupno vrednost lističev, ki je ob praznitvi IA ugotovljena v BA;<br />
+17. TO (TOTAL OUT) pomeni:<br />
+a) števec obračunskih kreditnih točk, ki so bile na posameznem igralnem mestu priigrane, če IA beleži na njem vsa izplačila;<br />
+b) števec obračunskih kreditnih točk, ki so bile na posameznem igralnem mestu priigrane in na njem neposredno izplačane, če IA beleži ročna izplačila visokih dobitkov na drugih števcih;<br />
+18. MB (MOTHERBOARD) pomeni zaščiteni del IA s programom igre;<br />
+19. brisanje števcev IA je dogodek pri katerem pride do izbrisa vsebine vseh trajnih elektronskih števcev na IA in do njihove nastavitve na vrednost 0 (nič);<br />
+20. dnevnik pomeni dnevnik dogodkov, ki jih NIS, opremljene z zaporednimi številkami in zabeležko datuma in časa, beleži v posebno tabelo in so vezani na dogodke na igralnih napravah, na igralne procese in na procese, ki so z njimi povezani;<br />
+21. identifikacija progresive (ID progresive) je oznaka, ki enolično določa progresivni sistem, sklad progresive in nivo progresive in je lahko sestavljena iz oznake progresive, oznake sklada in številke nivoja, ter nastopa v vseh zapisih, ki se nanašajo na to progresivo;<br />
+22. kredit je stanje v dobro igralca, prikazano na IA kot število kreditnih točk;<br />
+23. kreditna točka je enota za merjenje vložka v igro in izplačil iz igre s točno določeno vrednostjo, ki jo lahko na IA izbere igralec;<br />
+24. kompatibilni terminal je oddaljena delovna postaja, s katere je mogoče izvajati programe na nadzornem računalniškem sistemu z uporabo standardnih programov za emulacijo terminalov, standardnih brskalnikov (npr. Internet Explorer, FireFox) ali standardnih tankih odjemalcev (thin client kot npr. NT Terminal Server Client);<br />
+25. listič (ticket) je vrednostni kupon opremljen s črtno kodo in z alfanumeričnimi kodami, ki je v povezavi z validacijskim sistemom, namenjen vplačilu na IA ali izplačilu gotovine na blagajni;<br />
+26. log pomeni zabeležko operacijskega sistema, sistema za delo z bazami, NIS oziroma drugega zaščitnega programa o neki aktivnosti na sistemu;<br />
+27. nivo dostopa pomeni na podlagi nalog in pooblastil definirane uporabniške vloge v NIS, s katerimi so urejene različne pristojnosti dostopa do programov in podatkov (npr. skrbnik sistema, blagajnik, tehnik, vodstvo, nadzor);<br />
+28. nivo progresive je posamezni del (večnivojskega) sklada progresive, pri katerem so vrednosti nivojev med seboj povezane;<br />
+29. obračunska kreditna točka (denominacija IA) je enota za merjenje vložka v igro in izplačil iz igre s točno določeno vrednostjo, s katero se na IA inkrementirajo elektronski števci vplačil v igro in izplačil iz igre;<br />
+30. obračunski model IA je formula za izračun obračuna posameznega IA na podlagi števcev vplačil v igro in izplačil iz igre;<br />
+31. polnitev IA je postopek dodajanja žetonov v zalogovnik žetonov;<br />
+32. postopek povratnega klica (call-back call) je postopek, ko računalniški sistem ali druga komunikacijska oprema ob zahtevi za vzpostavitev oddaljenega dostopa preko klicne telekomunikacijske povezave preveri identifikacijo in dostopne pravice uporabnika, prekine povezavo in ga za vzpostavitev povezave takoj pokliče na vnaprej dogovorjeno (lahko v sistemu ali opremi zabeleženo) klicno številko. Kot postopek povratnega klica za potrebe tega pravilnika ne velja ročno vzpostavljanje klicev in povezav s pomočjo osebja, vnaprejšnjih najav preko telefona, dopisa, telefaksa ali drugih podobnih komunikacijskih metod;<br />
+33. praznitev IA je postopek praznenja žetonov iz CB in zalogovnika, ter bankovcev in lističev iz BA;<br />
+34. progresivni dobitek je izplačana vrednost progresive po njenem proženju;<br />
+35. progresivni sistem se sestoji iz ene ali več igralnih naprav in iz pripadajoče progresivne nadgradnje;<br />
+36. prometna tabela je tabela podatkovne baze NIS, v katero se sproti beležijo z datumom in časom opremljeni podatki, ki nastajajo v procesu prirejanja iger na srečo (npr. dnevnik z zapisi dogodkov, periodični popisi števcev, vrednosti progresivnih skladov in progresivnih nivojev, vnosi blagajniških transakcij);<br />
+37. register je tabela podatkovne baze NIS, v kateri so poleg opisnih podatkov navedene enolične oznake, uporabljene v prometnih in drugih tabelah NIS, ki v NIS opredeljujejo naprave, progresivne sisteme, uporabnike in podobne spremenljive sezname (npr. register igralnih naprav, register progresivnih sistemov, register uporabnikov). V prometnih in drugih tabelah se registri uporabljajo kot šifranti;<br />
+38. sklad progresive je denarni sklad, ki se polni po v naprej določenih pravilih (npr. kot fiksne začetne vrednosti, ki se jim lahko dodajajo deleži vplačil v igro), igralcu pa se izplača ob dogodku proženja progresive deloma ali v celoti, skladno s pravili igre;<br />
+39. skrbnik NIS je oseba zaposlena pri koncesionarju, ki je odgovorna za vključenost igralnih naprav v NIS, za pravilnost in zanesljivost delovanja in uporabe NIS;<br />
+40. strežniški sistem iger je posebna izvedba IA sestavljena iz strežnika in igralnega terminala, ki skupaj omogočata izvajanje igre na srečo;<br />
+41. šifrant je tabela podatkovne baze NIS, v kateri so poleg opisnih podatkov navedene enolične kode (šifre), uporabljene v prometnih in drugih tabelah NIS, ki v NIS opredeljujejo vrste dogodkov, transakcij, procesov in števcev (npr. šifrant dogodkov, šifrant blagajniških transakcij, šifrant števcev, šifrant sporočil, šifrant aplikacij);<br />
+42. tokenizacija pomeni, da je žeton vreden več kreditnih točk;<br />
+43. transakcija pomeni vnos podatkov v NIS v blagajniških postopkih, kot so ročno izplačilo (JP, PJP, CC), polnitev IA, praznitev IA in zalogovnika žetonov (vnos rezultata štetja žetonov, bankovcev in vrednostnih lističev po posameznih IA), prodaja in odkup žetonov in lističev, rezultat štetja dropa in provizije, rezultat štetja napitnine na igralni mizi, dodatna dotacija mizi in odvod z mize na blagajno;<br />
+44. validacijski sistem je računalniški sistem, v katerega so povezani IA in blagajniška delovna mesta, z namenom preverjanja veljavnosti lističev;<br />
+45. vložek je znesek, ki ga igralec vplača v posamezno igro na igralni napravi;<br />
+46. vrsta NIS predstavlja NIS, ki je lahko sestavljen iz zaključenih funkcijskih delov enega ali več proizvajalcev (npr. NIS IA, NIS IM, poslovanje z lističi, blagajniško poslovanje), na platformi, ki jo določajo operacijski sistemi, sistemi za delo s podatkovnimi bazami, jedro podatkovnega modela, ključni šifranti, programska oprema in ključne funkcionalnosti sistema;<br />
+47. verzija NIS pomeni NIS iste vrste, na isti platformi, praviloma istih proizvajalcev, ki ima v osnovi isti, lahko dopolnjen podatkovni model, med seboj združljive in dopolnjujoče se ključne šifrante in se razlikuje v nekaterih delih programske opreme in v nekaterih funkcionalnostih;<br />
+48. zalogovnik žetonov (hopper) je del IA, v katerem je zaloga žetonov za izplačilo;<br />
+49. znesek v zapisih NIS predstavlja vrednost izraženo v igralni valuti;<br />
+50. žeton je nadomestilo za določeno vsoto denarja oziroma kovanec z določeno vrednostjo, ki se pri igri uporablja za vplačila ali izplačila.</p>
+<h3>II. OSNOVNE LASTNOSTI NADZORNEGA INFORMACIJSKEGA SISTEMA IGRALNIH NAPRAV</h3>
+<h3>Splošno</h3>
+<h3>4. člen</h3>
+<p>NIS mora koncesionarju in nadzornemu organu preko neposrednega spremljanja in beleženja števcev, dogodkov, postopkov in transakcij zagotavljati:<br />
+1. spremljanje in analiziranje igralnega procesa na posamezni igralni napravi;<br />
+2. ugotavljanje obračuna na posamezni igralni napravi glede na vplačila in izplačila;<br />
+3. ugotavljanje obračuna na posamezni igralni napravi po števcih vplačil v igro in izplačil iz igre;<br />
+4. ugotavljanje obračuna igralnice oziroma igralnega salona povezanega z blagajniškim poslovanjem;<br />
+5. preverjanje verodostojnosti izkazanih obračunov;<br />
+6. ugotavljanje ustreznosti in skladnosti postopkov z internimi akti, ki urejajo NIS, predpisi, ki urejajo igre na srečo in tehničnimi standardi za področje informacijskih sistemov;<br />
+7. spremljanje in ugotavljanje odstopanj od certificiranih lastnosti igralnih naprav na podlagi podatkov zabeleženih v NIS (npr. odstotek vračanja, statistika padlih številk);<br />
+8. spremljanje in ugotavljanje ustreznosti priklopa igralnih naprav.</p>
+<h3>5. člen</h3>
+<p>Podatki zbrani v NIS morajo biti:<br />
+1. pravilni in resnični, da odražajo dejanski potek igralnega procesa na igralni napravi;<br />
+2. zavarovani pred nepooblaščenim dostopom. Naknadni posegi v podatke, njihovo spreminjanje, brisanje ali dodajanje mora biti onemogočeno;<br />
+3. dostopni nadzornemu organu, kar pomeni, da morajo biti preko telekomunikacijske povezave omogočeni vpogled v podatke, izbira in prenos izbranih podatkov na računalniški sistem nadzornega organa (bralni dostop). Za dostop do podatkov, izbiro in njihov prenos se za uporabljene tehnologije zahteva združljivost z informacijskim sistemom nadzornega organa.</p>
+<h3>Registri in šifranti v NIS</h3>
+<h3>6. člen</h3>
+<p>(1) Šifranti dogodkov, sporočil in števcev, ki se beležijo v prometnih in drugih tabelah NIS, morajo biti enotni za vse verzije istega sistema.<br />
+(2) Če se NIS sestoji iz več funkcijskih delov z ločenimi registri oziroma šifranti, ki so med seboj različni in ki se nanašajo na iste naprave, progresivne sisteme in igre, mora v NIS obstajati enolična povezava med registri ali šifranti posameznih funkcijskih delov.<br />
+(3) NIS mora omogočati programsko pregledovanje in vzdrževanje vsebine registrov igralnih naprav, progresiv in iger.</p>
+<h3>Pravilnost in sinhronizacija datuma in časa</h3>
+<h3>7. člen</h3>
+<p>(1) V NIS mora obstajati mehanizem za zagotavljanje pravilnosti datuma in časa ter za sinhronizacijo le-tega med ločenimi funkcijskimi deli NIS in vmesniki NIS, vgrajenimi v igralne naprave.<br />
+(2) Odstopanje časa iz prejšnjega odstavka ne sme preseči 30 sekund.</p>
+<h3>Ročni vnosi in popravki</h3>
+<h3>8. člen</h3>
+<p>Vsi ročno vneseni podatki, ki se vpisujejo v zbirko podatkov, se morajo vključno s popravki (stornacijami) beležiti tako, da je iz zapisa razvidno, kdaj in kdo jih je vnašal. Pri popravkih mora biti razvidna stara in nova vrednost.</p>
+<h3>Hramba podatkov v NIS</h3>
+<h3>9. člen</h3>
+<p>(1) NIS mora hraniti vse podatke, dnevnike in loge za najmanj zadnjih 45 dni.<br />
+(2) Dnevne in mesečne obračune za posamezne igralne naprave, po posameznih vrstah iger in skupne, ter dnevne in mesečne blagajniške zaključke mora NIS hraniti najmanj za zadnji dve leti.</p>
+<h3>Obračunski dan in obratovalni čas</h3>
+<h3>10. člen</h3>
+<p>V NIS-u morata biti definirana obratovalni čas in obračunski dan, pri čemer morata biti začetek in konec obračunskega dne zaokrožena na polno uro. Obračunski dan se sme spremeniti le enkrat letno in to prvi dan v mesecu. Koncesionar mora o tem obvestiti nadzorni organ najkasneje 15 dni pred spremembo. Obratovalni čas mora biti znotraj meja, ki jih določa obračunski dan.</p>
+<h3>Igralna valuta</h3>
+<h3>11. člen</h3>
+<p>V NIS se sme uporabljati le ena igralna valuta.</p>
+<h3>Evidenčna številka igralne naprave</h3>
+<h3>12. člen</h3>
+<p>Ob vključitvi v NIS dobi igralna naprava enolično identifikacijo (evidenčno številko), ki jo obdrži ves čas uporabe. Enolična identifikacija mora v NIS omogočati sledenje igralne naprave ne glede na kasnejše spremembe nastavitev, nadgradnje, vzdrževalne posege in prestavitve naprave.</p>
+<h3>Fizični dostop do opreme NIS</h3>
+<h3>13. člen</h3>
+<p>(1) Računalniki NIS in komunikacijska oprema morajo biti nameščeni v prostoru z omejenim dostopom (v nadaljnjem besedilu: sistemski prostor) in zaščiteni pred nepooblaščenimi posegi. Razdelilne table delovnih postaj in priklopov igralnih naprav morajo biti zaščitene pred nepooblaščenimi posegi. Kabli za povezavo igralnih naprav, delovnih postaj ter druge opreme priključene na NIS morajo biti speljani tako, da do njih lahko dostopajo le pooblaščene osebe.<br />
+(2) Vstop in zadrževanje v sistemskem prostoru je potrebno vpisati v dnevnik vstopov, ki se hrani v sistemskem prostoru in ki ga mora koncesionar hraniti najmanj eno leto po poteku koledarskega leta, in vsebuje vsaj naslednje podatke: datum in čas vstopa in izstopa ter ime in priimek osebe, ki je vstopila.<br />
+(3) Koncesionar mora pisno opredeliti osebe, ki imajo pravico vstopa v sistemski prostor in dostopa do ostale zaščitene opreme.</p>
+<h3>Uporabniški dostop do NIS</h3>
+<h3>14. člen</h3>
+<p>(1) Dostop do podatkov, dnevnikov in logov mora biti izključno preko programov NIS. Izjema so dnevniki in logi, ki se vodijo na nivoju operacijskega sistema, do katerih se dostopa z orodji operacijskega sistema.<br />
+(2) Uporabniki lahko dostopajo do NIS samo preko sistemske programske opreme za prijavo in avtorizacijo dostopov, ki mora biti posebej zaščitena pred nepooblaščenimi dostopi in posegi in ki se je ne sme izklopiti ali obiti. Vse tabele z gesli in nivoji dostopa morajo biti shranjene v šifrirani obliki v zavarovanih datotekah, dostopnih le sistemu prijave, avtorizacije in administracije.</p>
+<h3>15. člen</h3>
+<p>(1) Koncesionar mora voditi evidenco o uporabnikih z dostopom do NIS, ki mora vsebovati podatke:<br />
+1. ime, priimek in uporabniško ime osebe, ki je pooblaščena za dostop;<br />
+2. do katerih podatkovnih zbirk, dnevnikov in programov ima dostop;<br />
+3. o načinu dostopa do podatkovnih zbirk, dnevnikov in programov (vpogled, vnos, popravljanje, brisanje, dodajanje, izvajanje);<br />
+4. o posebnih pooblastilih (administriranje, vzdrževanje).<br />
+(2) Evidenca iz prejšnjega odstavka je lahko oblikovana kot nabor dostopnih profilov, ki definirajo obseg in način dostopa (2. in 3. točka prejšnjega odstavka) in seznam uporabnikov z njimi dodeljenimi profili.<br />
+(3) Koncesionar mora evidenco iz prvega odstavka tega člena hraniti najmanj eno leto po poteku koledarskega leta.</p>
+<h3>16. člen</h3>
+<p>(1) Do NIS smejo dostopati uporabniki le preko sistema individualne prijave. Uporabniško ime mora enolično definirati uporabnika.<br />
+(2) Ne glede na prejšnji odstavek je dovoljena uporaba skupinskih uporabniških imen za potrebe vzdrževanja ali nadzora z oddaljene lokacije, če je v povezavi s sistemom prijave na oddaljeni lokaciji zagotovljena enolična identifikacija uporabnika.</p>
+<h3>17. člen</h3>
+<p>NIS mora v zvezi z dostopom uporabnikov beležiti:<br />
+1. neuspele poskuse dostopa (datum, čas, uporabnik, vstopna točka);<br />
+2. prijavo in odjavo uporabnikov (datum, čas, uporabnik, vstopna točka);<br />
+3. dostop ali poskus dostopa do NIS preko mreže oziroma komunikacijskih linij (datum, čas, vstopna točka);<br />
+4. poskuse uporabnikov za opravljanje nepooblaščenih aktivnosti (datum, čas, uporabnik, vstopna točka).</p>
+<h3>Dostop do NIS preko lokalne mreže oziroma telekomunikacijskih linij</h3>
+<h3>18. člen</h3>
+<p>V primeru, da so na NIS preko lokalne mreže ali telekomunikacijskih linij povezani še drugi računalniški sistemi, mora imeti koncesionar pisno opredeljeno za vse sisteme, ki do NIS dostopajo, kateri so ti sistemi in kakšen je namen njihovih dostopov.</p>
+<h3>19. člen</h3>
+<p>Za zaščito dostopov do NIS preko klicne linije se mora uporabiti najmanj komunikacijsko opremo z geselsko zaščito in z uporabo avtomatiziranega povratnega klica.</p>
+<h3>Dostop do podatkov, programov, logov</h3>
+<h3>20. člen</h3>
+<p>(1) Skrbnik NIS dodeljuje dostopna pooblastila glede na zadolžitve uporabnika. Uporabnik sme priti le do tistih podatkov in programov NIS, za katere je zadolžen in ki jih potrebuje za opravljanje svojega dela na način, ki ustreza njegovim pooblastilom.<br />
+(2) Dostop do kritičnih datotek, logov in dnevnikov mora biti onemogočen za vse uporabnike z izjemo oseb, ki so pooblaščene za njihovo pregledovanje, spreminjanje ali brisanje.</p>
+<h3>21. člen</h3>
+<p>NIS mora beležiti dostope uporabnikov do programov. Zabeležka dostopa do programov mora poleg datuma in časa vsebovati identifikacijo uporabnika in naziv programa ali programske funkcije, do katere dostopa.</p>
+<h3>Dostop nadzornega organa do NIS</h3>
+<h3>22. člen</h3>
+<p>(1) NIS mora preko telekomunikacijske povezave nadzornemu organu omogočati:<br />
+1. neposreden priklop oddaljenega kompatibilnega terminala;<br />
+2. neposredno spremljanje igralnega procesa vključno s procesi na vsaki posamezni igralni napravi;<br />
+3. pregledovanje vseh zabeležk dogodkov na igralnih napravah, z igralnim procesom povezanih blagajniških transakcij, vrednosti števcev, rezultatov štetja, šifrantov, registrov, kakor tudi zabeležk dostopov do sistema, do programov in do podatkov;<br />
+4. pregledovanje dnevnih in mesečnih obračunov igralnih naprav ter dnevnih in mesečnih zaključkov blagajniškega poslovanja;<br />
+5. vpogled, izbiro in izvoz podatkov iz podatkovnih zbirk NIS in drugih zabeležk (logov), opredeljenih v seznamu iz tretje alinee 2. točke prvega odstavka 38. člena tega pravilnika, ter njihov prenos po telekomunikacijski povezavi na računalnik nadzornega organa s protokolom, ki ga podpira informacijski sistem nadzornega organa.<br />
+(2) Za vpogled, izbiro in prenos podatkov iz 5. točke prejšnjega odstavka mora NIS zagotavljati združljivost s podatkovno bazo, informacijskim sistemom in tehnologijo dostopa nadzornega organa, pri prometnih tabelah pa mora zagotavljati tudi indekse, ki omogočajo učinkovito izbiro po datumu, v odvisnosti od tabele pa tudi po IA in po vrsti števca ali dogodka.</p>
+<h3>23. člen</h3>
+<p>(1) Nadzornemu organu se ne sme omejevati v tem pravilniku opredeljenega dostopa.<br />
+(2) Dostop nadzornega organa do NIS mora biti zagotovljen 24 ur dnevno.</p>
+<h3>24. člen</h3>
+<p>(1) Za dostop nadzornega organa do NIS se uporablja klicna ISDN BA linija. Povezava se realizira preko usmerjevalnika, ki je funkcionalno in administrativno (programsko) združljiv z usmerjevalniki nadzornega organa, z ISDN BRI in Ethernet vmesnikoma in ki ga administrira nadzorni organ. Nastavitev usmerjevalnika se opravi v sodelovanju z administratorjem sistema pri koncesionarju. Povezava se vzpostavlja samodejno na zahtevo s strani nadzornega organa in mora delovati s postopkom povratnega klica (v povezavi z ISDN identifikacijo kličočega). Za povezavo se praviloma uporablja TCP/IP protokol.<br />
+(2) Za potrebo izvedbe povezave vodi nadzorni organ seznam združljivih usmerjevalnikov ter podatke o zasedenem IP naslovnem prostoru in skrbi, da ne pride do kolizije privatnega IP naslovnega prostora povezanih sistemov. Koncesionarji privatni IP naslovni prostor nadzornemu organu dostopnih delov sistema izbirajo v okviru še razpoložljivega privatnega IP naslovnega prostora.</p>
+<h3>25. člen</h3>
+<p>Izjemoma je zaradi uporabe novih tehnologij možno odstopanje od predpisane vrste telekomunikacijske linije, od predpisane komunikacijske opreme in protokolov, kadar gre za odstopanje, ki je združljivo z informacijskim sistemom nadzornega organa.</p>
+<h3>26. člen</h3>
+<p>(1) V primeru, da se za povezavo z nadzornim organom uporablja klicna linija, se ta sme uporabljati izključno za povezavo z nadzornim organom in njene številke ne smejo biti javno znane.<br />
+(2) Pri širokopasovnih povezavah preko interneta na podlagi prejšnjega člena se lahko uporabljajo le šifrirane VPN povezave med usmerjevalniki na obeh straneh in skozi požarne pregrade.</p>
+<h3>27. člen</h3>
+<p>Nadzorni organ mora pri dostopu do NIS paziti na varnost in integriteto delovanja NIS. Nadzorni organ mora s podatki, ki jih pridobi od koncesionarja in izvajalcev NIS, upravljati skladno z dobro prakso in standardi, veljavnimi za to področje, in jih varovati pred nepooblaščenimi razkritji.</p>
+<h3>Zagotavljanje neprekinjenosti delovanja NIS</h3>
+<h3>28. člen</h3>
+<p>Koncesionar mora zagotoviti elemente zaščite, varnosti, zanesljivosti, neprekinjenosti in pravilnosti delovanja programske, računalniške in komunikacijske opreme NIS ter opreme za povezavo z igralnimi napravami.</p>
+<h3>29. člen</h3>
+<p>(1) Obratovalni čas NIS je 24 ur dnevno vse dni v letu.<br />
+(2) Izjemoma je dovoljeno odstopanje od predpisanega obratovalnega časa zaradi nujnih vzdrževalnih del in nepredvidenih okvar. Čas nedelovanja NIS v koledarskem letu ne sme preseči štiri dni.<br />
+(3) Če koncesionar začasno zaradi prenovitvenih ali vzdrževalnih del prekine s prirejanjem iger za več dni skupaj, se nedelovanje NIS v tem obdobju ne šteje v čas nedelovanja NIS iz prejšnjega odstavka.</p>
+<h3>30. člen</h3>
+<p>(1) Vsa nedelovanja NIS mora koncesionar najkasneje v 24 urah javiti nadzornemu organu.<br />
+(2) Planirana nedelovanja mora koncesionar prijaviti nadzornemu organu najmanj en teden vnaprej.</p>
+<h3>Uporabniška navodila in usposobljenost uporabnikov</h3>
+<h3>31. člen</h3>
+<p>Koncesionar mora imeti interni akt za vsako pomembnejšo funkcijo NIS (npr. blagajniško poslovanje, polnitve in praznitve, štetja in popisi, administracija sistema, vzdrževanje opreme, izdelava varnostnih kopij in restavracija podatkov).</p>
+<h3>32. člen</h3>
+<p>Uporabniki NIS morajo biti usposobljeni za delo na sistemu.</p>
+<h3>Neprekinjeno napajanje</h3>
+<h3>33. člen</h3>
+<p>Računalniki NIS, oprema za povezavo z igralnimi napravami in oprema za povezavo z nadzornim organom morajo biti priključeni na sistem neprekinjenega napajanja, ki v primeru izpada omrežnega napajanja omogoča nemoteno delovanje ali normalen zaključek dela in se ga lahko realizira tudi z agregatom. Za dostop do vklopa in izklopa tega napajanja velja isti režim kot za dostop do sistemskega prostora in komunikacijske opreme.</p>
+<h3>Varovanje programske opreme in podatkov</h3>
+<h3>34. člen</h3>
+<p>Koncesionar mora zagotoviti vzpostavitev delovanja NIS v primeru večjih okvar ali izpadov z izdelavo varnostnih kopij podatkov in programov na sekundarni medij ali z namestitvijo rezervnega sistema, na katerem je ažurna kopija vseh programov in podatkov in ki ob izpadu primarnega sistema brez izgube podatkov prevzame vse funkcije sistema.</p>
+<h3>Napake, okvare in nedelovanje NIS</h3>
+<h3>35. člen</h3>
+<p>(1) Zaradi nedelovanja NIS ne sme priti do izgube podatkov.<br />
+(2) V primeru okvare dela opreme ali povezave, vmesnika NIS v igralnih napravah ali igralne naprave in v drugih primerih pri katerih predpisano beleženje števcev in dogodkov na igralnih napravah ni možno in bi ob nadaljevanju igre na njih prišlo do izgube ali netočnosti podatkov oziroma do neustreznega beleženja ali nepravilnosti, je treba v primeru, če ne pride do samodejne blokade delovanja igralnih naprav, te igralne naprave izločiti iz uporabe do odprave okvare. Izločitev in vključitev igralnih naprav v igro je treba evidentirati v dnevnik obratovanja NIS. O izločitvi igralnih naprav mora koncesionar v treh dneh obvestiti nadzorni organ.</p>
+<h3>36. člen</h3>
+<p>(1) Koncesionar mora voditi dnevnik obratovanja NIS, v katerem morajo biti zabeleženi najmanj naslednji podatki:<br />
+1. opis posega ali napake in kdaj je prišlo do posega ali napake oziroma okvare;<br />
+2. ime in priimek osebe, ki je napako oziroma okvaro odkrila;<br />
+3. ime in priimek osebe, ki je poseg opravila, oziroma ki je odpravila napako oziroma okvaro;<br />
+4. kdaj je bila napaka oziroma okvara odpravljena;<br />
+5. način in uspešnost izvedbe posega oziroma odprave napake ali okvare in posledice.<br />
+(2) V okviru dnevnika obratovanja sistema iz prejšnjega odstavka mora koncesionar voditi tudi evidenco nedelovanja sistema iz 29. člena tega pravilnika.<br />
+(3) Dnevnik obratovanja NIS iz prvega odstavka tega člena mora koncesionar hraniti najmanj eno leto po preteku koledarskega leta.</p>
+<h3>Dovoljenje za povezavo NIS v informacijski sistem nadzornega organa</h3>
+<h3>37. člen</h3>
+<p>(1) Koncesionar ima lahko v uporabi le vrsto in verzijo NIS, za katerega mu je nadzorni organ izdal dovoljenje za povezavo NIS v informacijski sistem nadzornega organa.<br />
+(2) Vlogo za izdajo dovoljenja iz prejšnjega odstavka za vrsto NIS, ki še ni povezan v informacijski sistem nadzornega organa, lahko vloži koncesionar le za vrsto in verzijo NIS, za katerega je nadzorni organ:<br />
+– predhodno preizkusil združljivost z informacijskim sistemom nadzornega organa,<br />
+– predhodno preveril izpolnjevanje zahtev tega pravilnika in pri tem ni ugotovil odstopanj.<br />
+(3) Vlogo za izvedbo preizkusa združljivosti vrste in verzije NIS z informacijskim sistemom nadzornega organa iz prve alinee prejšnjega odstavka poda koncesionar, vsebovati pa mora:<br />
+– kratek opis NIS in funkcionalnosti;<br />
+– podatkovni model v delu, ki se nanaša na podatke, predpisane s tem pravilnikom, iz katerega so razvidni nazivi in tipi podatkovnih polj in pomen njihove vsebine, ki vključuje tudi potrebne poglede za dostop nadzornega organa do teh podatkov ter definicije obstoječih indeksov;<br />
+– tehnično dokumentacijo;<br />
+– uporabniška navodila;<br />
+– dostop do testnega ali pilotskega sistema.<br />
+(4) Vlogo za preverjanje izpolnjevanja zahtev tega pravilnika za vrsto in verzijo NIS iz druge alinee drugega odstavka tega člena poda koncesionar za vrsto in verzijo NIS, za katerega je bila predhodno s preizkusom iz prejšnjega odstavka že ugotovljena združljivost z informacijskim sistemom nadzornega organa, vsebovati pa mora:<br />
+– podroben opis, kje in kako so v NIS izpolnjene zahteve tega pravilnika po posameznih členih z navedbo konkretnih primerov;<br />
+– morebitne prilagoditve in dopolnitve zaradi specifičnih zahtev slovenske zakonodaje, ki ureja igre na srečo;<br />
+– morebitne posebnosti in omejitve uporabe zaradi specifičnih zahtev slovenske zakonodaje, ki ureja igre na srečo;<br />
+– testne podatke v obliki tabel (MS Excel) ali v drugi z nadzornim organom dogovorjeni obliki in dostop do testnega ali pilotskega sistema.<br />
+(5) Podatke iz tretjega in četrtega odstavka tega člena zaupne narave, lahko za posamezno vrsto in verzijo NIS na podlagi pooblastila koncesionarja predloži proizvajalec NIS.</p>
+<h3>38. člen</h3>
+<p>(1) Vloga za izdajo dovoljenja iz prvega odstavka prejšnjega člena mora vsebovati:<br />
+1. podatke o proizvajalcu, ter naziv, vrsto in verzijo NIS;<br />
+2. če gre za NIS, do katerega nadzorni organ še nima dostopa:<br />
+– podatke o osebi, odgovorni za delovanje NIS, in o kontaktni osebi iz 46. člena tega pravilnika;<br />
+– konkreten nabor računalnikov, podatkov, programov in modulov, do katerih nadzorni organ dostopa in ki nadzornemu organu zagotavljajo realizacijo izpolnitve zahtev tega pravilnika;<br />
+– seznam vseh modulov z izvršno kodo in vseh datotek, ki vsebujejo nastavitvene parametre NIS, vključno z imeni, točno lokacijo, datumi modulov oziroma datotek, njihovimi dolžinami, kratkim opisom funkcionalnosti, ter z izračunano kontrolno kodo po algoritmu Message Digest 5;<br />
+– podatke za dostop nadzornega organa do NIS, ki vključujejo klicne številke ISDN linije, morebitno izhodno številko za povratni klic, IP usmerjevalnika, IP naslove strežnikov, do katerih se dostopa, IP naslov morebitne vmesne požarne pregrade, imena instanc baz na strežnikih, do katerih se dostopa, navedbo TCP in UDP portov preko katerih poteka dostop do baz, imena in lokacijo programov za terminalski dostop nadzornega organa, ter morebitnih drugih podatkov, ki so potrebni za izvedbo dostopa in povezave;<br />
+– opremo iz 24. člena tega pravilnika, ki je na strani koncesionarja potrebna za izvedbo tega dostopa in<br />
+– na varen način posredovati vsa potrebna uporabniška imena in gesla;<br />
+3. če gre za verzijo NIS, ki še ni povezana v informacijski sistem nadzornega organa:<br />
+– opis funkcionalnih sprememb ter sprememb, ki se nanašajo na operacijski sistem ali sistem za upravljanje s podatkovno bazo;<br />
+– opis sprememb v podatkovni strukturi baze;<br />
+– podatkovni model v delu, ki se nanaša na podatke, predpisane s tem pravilnikom, ki se spreminjajo ali dodajajo, iz katerega so razvidni nazivi in tipi podatkovnih polj in pomen njihove vsebine, ki vključuje tudi potrebne poglede za dostop nadzornega organa do teh podatkov ter definicije obstoječih indeksov;<br />
+– spremembe tehnične dokumentacije ali spremenjeno tehnično dokumentacijo;<br />
+– spremembe uporabniških navodil ali spremenjena uporabniška navodila;<br />
+– testne podatke v obliki tabel (MS Excel) ali v drugi z nadzornim organom dogovorjeni obliki.<br />
+(2) Podatke iz prejšnjega odstavka, zaupne narave, lahko za posamezno vrsto in verzijo NIS, na podlagi pooblastila koncesionarja predloži proizvajalec NIS.</p>
+<h3>39. člen</h3>
+<p>(1) Pri vrsti in verziji NIS, za katerega ni treba ugotoviti združljivosti z informacijskim sistemom nadzornega organa in preveriti izpolnjevanja zahtev tega pravilnika, ker so sistemi iste vrste in verzije že povezani v informacijski sistem nadzornega organa, nadzorni organ odloči na podlagi v vlogi posredovane pisne dokumentacije in rezultatov vzpostavitve dostopa do NIS in povezave NIS v informacijski sistem nadzornega organa.<br />
+(2) Pri verziji NIS, pri kateri je NIS iste vrste ne pa tudi verzije že povezan v informacijski sistem nadzornega organa, preuči nadzorni organ spremembe s stališča vpliva na strukturo, vsebino, pravilnost, verodostojnost, zanesljivost in dostopnost podatkov, ki jih mora NIS zagotavljati, da lahko nadzorni organ svoje naloge opravlja nemoteno, učinkovito in uspešno in preveri izpolnjevanje zahtev tega pravilnika v delu NIS, ki je spremenjen. Če v postopku nadzorni organ ugotovi, da je verzija NIS združljiva z informacijskim sistemom nadzornega organa, da izpolnjuje zahteve predpisane v tem pravilniku in da omogoča uspešen in učinkovit nadzor nadzornega organa, opravi tudi vse programske spremembe informacijskega sistema nadzornega organa, ki so potrebne za povezavo te verzije NIS v informacijski sistem nadzornega organa.<br />
+(3) Pri vrsti NIS, ki še ni povezan v informacijski sistem nadzornega organa, nadzorni organ na podlagi vloge iz tretjega odstavka 37. člena tega pravilnika preuči vrsto in verzijo NIS, preizkusi združljivost NIS z informacijskim sistemom nadzornega organa in analizira uspešnost in učinkovitost dostopa nadzornega organa do NIS. Za vrsto in verzijo NIS, za katero je bila ugotovljena združljivost z informacijskim sistemom nadzornega organa, nadzorni organ na podlagi vloge iz četrtega odstavka 37. člena tega pravilnika preveri izpolnjevanje zahtev, predpisanih v tem pravilniku. Za vrsto in verzijo NIS, za katero je bilo v predhodni preučitvi in v preverjanju ugotovljeno, da je vrsta in verzija NIS združljiva z informacijskim sistemom nadzornega organa, da izpolnjuje zahteve predpisane v tem pravilniku in da omogoča uspešen in učinkovit nadzor nadzornega organa, opravi nadzorni organ na podlagi vloge iz prvega odstavka prejšnjega člena tudi vse programske spremembe informacijskega sistema nadzornega organa, ki so potrebne za povezavo te vrste in verzije NIS in izvede povezavo NIS v informacijski sistem nadzornega organa.<br />
+(4) Dovoljenje iz 37. člena tega pravilnika se lahko izda tudi samo za vrsto in verzijo zaključenega funkcionalnega dela NIS (npr. za NIS IA, za NIS IM). V tem primeru se vlogi priloži zahtevana dokumentacija, ki se nanaša le na funkcionalni del NIS, na katerega se nanaša vloga.<br />
+(5) Preizkus združljivosti iz prve alinee ter preverjanje izpolnjevanja zahtev iz druge alinee drugega odstavka 37. člena tega pravilnika se lahko izvedeta tudi samo za vrsto in verzijo zaključenega funkcionalnega dela NIS (npr. za NIS IA, za NIS IM). V tem primeru se vlogi priloži zahtevana dokumentacija, ki se nanaša le na funkcionalni del NIS, na katerega se nanaša vloga.</p>
+<h3>Enotne podatkovne strukture za povezovanje</h3>
+<h3>40. člen</h3>
+<p>(1) NIS se v informacijski sistem nadzornega organa povezuje preko enotnih podatkovnih struktur in vpogledov v obliki, ki jo na podlagi vloge iz 38. člena tega pravilnika določi nadzorni organ.<br />
+(2) Povezovanje z neposrednim dostopom do podatkov v tabelah NIS in skozi druge vpoglede v NIS se uporablja le za podatke, ki niso vključeni v enotne podatkovne strukture in vpoglede iz prejšnjega odstavka.</p>
+<h3>Povezljive vrste in verzije NIS in trajanje povezljivosti</h3>
+<h3>41. člen</h3>
+<p>(1) Nadzorni organ zagotavlja povezljivost vrste in verzije NIS v informacijski sistem nadzornega organa še eno leto po izteku koledarskega leta, v katerem je zadnji koncesionar prenehal uporabljati to vrsto in verzijo NIS.<br />
+(2) Nadzorni organ na svoji spletni strani objavi vrste in verzije NIS, ki so povezljive v informacijski sistem nadzornega organa.</p>
+<h3>Vzdrževanje programske in strojne opreme</h3>
+<h3>42. člen</h3>
+<p>(1) Spremembe NIS v vseh njegovih segmentih (nadgradnja operacijskega sistema, podatkovne zbirke, programov, protokolov, komunikacijskega in drugega programa), ki vplivajo na strukturo, vsebino, pravilnost, verodostojnost, zanesljivost in dostopnost podatkov, ki jih mora NIS zagotavljati, da lahko nadzorni organ svoje naloge opravlja nemoteno, učinkovito in uspešno, so možne le na podlagi dovoljenja nadzornega organa iz prvega odstavka 37. člena tega pravilnika.<br />
+(2) Nujne spremembe NIS, ki ne spreminjajo funkcionalnosti NIS ter strukture, vsebine, pravilnosti, verodostojnosti, zanesljivosti in dostopnosti podatkov, ki jih mora NIS zagotavljati, da lahko nadzorni organ svoje naloge opravlja nemoteno, učinkovito in uspešno, s katerimi se odpravijo kritične napake, se lahko opravijo takoj, koncesionar pa mora v naknadnem pisnem obvestilu, ki ga mora nadzornemu organu posredovati najkasneje v naslednjem delovnem dnevu, navesti razloge za izvedbo teh sprememb.</p>
+<h3>43. člen</h3>
+<p>Po vsaki opravljeni spremembi programske opreme mora koncesionar preveriti ustreznost delovanja spremenjenega NIS, zlasti pravilnost in celovitost beleženja v tem pravilniku predpisanih podatkov, izdelati pisno poročilo, kot podlago za uporabo spremenjenega NIS in najkasneje v treh delovnih dneh posredovati nadzornemu organu nov seznam modulov z izvršno kodo in vseh datotek, ki vsebujejo nastavitvene parametre NIS, vključno z imeni, točno lokacijo, datumi modulov oziroma datotek, njihovimi dolžinami, kratkim opisom funkcionalnosti, ter z izračunano kontrolno kodo po algoritmu Message Digest 5.</p>
+<h3>Druga programska orodja</h3>
+<h3>44. člen</h3>
+<p>(1) Namestitev in uporaba orodja za administracijo podatkovne baze NIS, s katerim je mogoče dostopiti do podatkov, je dovoljena, če je zagotovljeno:<br />
+1. da ga lahko uporablja le osebje pooblaščeno za administracijo podatkovne baze,<br />
+2. da se uporaba orodja beleži,<br />
+3. da v primeru posega v podatke ostajajo na sistemu revizijske sledi,<br />
+4. da obstaja notranja kontrola preverjanja uporabe orodja in pregledovanja revizijskih sledi, ki omogoča odkrivanje posegov v podatke.<br />
+(2) Namestitev in uporaba razvojnih orodij ter orodij in programov za neposreden dostop do baze podatkov NIS, ki omogočajo brisanje, spreminjanje, dodajanje ali vrivanje podatkov, nista dovoljeni.</p>
+<h3>Prenosi podatkov na druge sisteme</h3>
+<h3>45. člen</h3>
+<p>Podatke, zbrane v NIS, je dovoljeno prenašati na druge računalniške sisteme ali v druge podatkovne zbirke, ne pa tudi v obratni smeri.</p>
+<h3>Kontaktne in odgovorne osebe</h3>
+<h3>46. člen</h3>
+<p>(1) Koncesionar mora nadzornemu organu sporočiti ime, priimek, funkcijo, kontaktni naslov, številko telefona, številko telefaksa, številko mobilnega telefona in elektronski naslov osebe, ki je pri koncesionarju odgovorna za delovanje NIS in osebe, ki je zadolžena za neposredno komuniciranje z nadzornim organom zaradi NIS. Koncesionar je dolžan o spremembi odgovorne in neposredne kontaktne osebe in o spremembah njunih podatkov v treh delovnih dneh obvestiti nadzorni organ.<br />
+(2) Nadzorni organ mora koncesionarju sporočiti ime, priimek, funkcijo, kontaktni naslov, številko telefona, številko telefaksa, številko mobilnega telefona in elektronski naslov osebe, ki je pri nadzornem organu odgovorna za dostop do NIS. Nadzorni organ je dolžan koncesionarja v treh delovnih dneh obvestiti o spremembi odgovorne osebe, kot tudi o spremembi njenih navedenih podatkov.</p>
+<h3>III. POSEBNOSTI NADZORNEGA INFORMACIJSKEGA SISTEMA IGRALNIH AVTOMATOV</h3>
+<h3>Obračunski model IA</h3>
+<h3>47. člen</h3>
+<p>Za vsak IA mora v NIS obstojati obračunski model. Obračunski model mora omogočati pravilen obračun IA na podlagi zabeleženih števcev vplačil v igre in števcev izplačil iz iger.</p>
+<h3>Register IA</h3>
+<h3>48. člen</h3>
+<p>NIS mora vključevati register oziroma šifrant IA, v katerem so vpisani naslednji podatki:<br />
+1. enolična identifikacijska številka igralne naprave iz 12. člena tega pravilnika;<br />
+2. o IA:<br />
+– proizvajalec (naziv naveden v certifikatu IA),<br />
+– naziv IA (po igri, ki se na njem izvaja in je navedena v certifikatu IA),<br />
+– tip IA (npr. reel, video reel, ER),<br />
+– leto proizvodnje,<br />
+– serijska številka ohišja IA;<br />
+3. o nastavitvi:<br />
+– obračunski model,<br />
+– minimalni vložek (število obračunskih kreditov),<br />
+– maksimalni vložek (število obračunskih kreditov),<br />
+– tokenizacija (število obračunskih kreditov za žeton),<br />
+– denominacija (vrednost obračunskega kredita),<br />
+– najnižji teoretični odstotek vračanja,<br />
+– najvišji teoretični odstotek vračanja (za IA z več igrami);<br />
+4. o namestitvi:<br />
+– pozicijska oznaka IA,<br />
+– identifikacija progresivnega sistema (ID progresive),<br />
+– stanje (npr. 1 – v uporabi, 0 – izločen),<br />
+– enolična interna oznaka v NIS, ki je uporabljena v vseh zapisih, ki se nanašajo na ta IA;<br />
+5. o začetku veljavnosti:<br />
+– datum in čas.</p>
+<h3>49. člen</h3>
+<p>NIS mora voditi kronologijo sprememb registra IA, kjer je zapisom dodan datum in čas spremembe.</p>
+<h3>Komunikacija med NIS in IA</h3>
+<h3>50. člen</h3>
+<p>(1) NIS komunicira z IA po programskem protokolu, ki je skupen NIS in IA in ki omogoča NIS zbiranje podatkov brez izgub in napak. Na ta način se morajo zbirati podatki o vrednostih absolutnih elektronskih števcev za obračunavanje, o odigranem številu iger in drugi podatki iz 51. člena tega pravilnika. Podatke iz 5. točke 51. člena tega pravilnika, ki morajo biti dostopni tudi, če IA nima napajanja, mora posredovati strežniku NIS vmesnik NIS, ki je vgrajen v IA.<br />
+(2) NIS mora zagotoviti pravilno beleženje zahtevanih elektronskih števcev, tudi če se IA izklopi napajanje ali če se prekine povezava med vmesnikom NIS in strežnikom NIS. Ob izklopljenem napajanju IA ali prekinjeni povezavi z IA, ko vmesnik NIS ne more odčitati zahtevanih periodičnih števcev z IA, se morajo zabeležiti zadnje odčitane vrednosti števcev. V primeru, da vmesnik NIS ob prekinitvi povezave s strežnikom NIS ne more več zagotoviti pravilnega beleženja števcev in dogodkov iz prvega odstavka 51. člena tega pravilnika, mora blokirati delovanje IA.</p>
+<h3>Beleženje števcev in dogodkov</h3>
+<h3>51. člen</h3>
+<p>(1) NIS mora pri IA:<br />
+1. spremljati in v dnevnik dogodkov zabeležiti vse dogodke na posameznih IA:<br />
+– dobitek JP (datum, čas, število obračunskih kreditov, znesek, IA),<br />
+– dobitek PJP (datum, čas, znesek, IA, identifikacija progresive),<br />
+– brisanje kredita CC (datum, čas, število obračunskih kreditov, znesek, IA),<br />
+– zahtevek za ročno izplačilo (datum, čas, število obračunskih kreditov, znesek, IA),<br />
+– sprejem bankovca (datum, čas, znesek, IA),<br />
+– sprejem lističa (datum, čas, zaporedna številka lističa na IA, identifikacijska številka lističa, vrsta lističa, znesek, IA),<br />
+– izdaja lističa (datum, čas, zaporedna številka lističa na IA, identifikacijska številka lističa, vrsta lističa, znesek, IA),<br />
+– polnitev IA (datum, čas, število žetonov polnitve, IA),<br />
+– praznitev CB (datum, čas, pričakovano število žetonov praznitve CB, IA),<br />
+– praznitev zalogovnika žetonov (datum, čas, pričakovano število žetonov praznitve zalogovnika, IA),<br />
+– praznitev BA (datum, čas, pričakovano število bankovcev, pričakovan znesek bankovcev, IA);<br />
+2. spremljati vrednosti števcev na IA po posameznih igralnih mestih:<br />
+– vsako spremembo stanja števcev obračunskega modela (TI, TO, JP, PJP), števcev CC, CI, CO, CTC in GM na IA ter izračunano stanje števila žetonov v zalogovniku (H),<br />
+– vsako spremembo števcev sprejemnika bankovcev (skupno število bankovcev, skupno vrednost bankovcev ter skupno število sprejetih lističev in skupno vrednost sprejetih lističev),<br />
+– vsako spremembo števcev tiskalnika lističev (skupno število izdanih lističev, skupno vrednost izdanih lističev),<br />
+– vsako spremembo števcev za morebitne druge vrste vplačevanja oziroma izplačevanja;<br />
+3. spremljati in beležiti naraščanje vrednosti sklada in nivojev progresive (datum, čas, ID progresive, znesek);<br />
+4. spremljati vsa stanja posameznega IA in vsako spremembo stanja zabeležiti v dnevnik dogodkov:<br />
+– vklop napajanja (datum, čas, IA, stanje oziroma dogodek),<br />
+– izklop napajanja (datum, čas, IA, stanje oziroma dogodek),<br />
+– vzpostavitev povezave IA v NIS (datum, čas, IA, stanje oziroma dogodek),<br />
+– prekinitev povezave IA v NIS (datum, čas, IA, stanje oziroma dogodek);<br />
+5. spremljati in v dnevnik dogodkov zabeležiti vse posege v IA (tudi če IA nima napajanja):<br />
+– odpiranja vrat IA, CB, BA, MB (datum, čas, IA, vrata, stanje oziroma dogodek),<br />
+– zapiranja vrat IA, CB, BA, MB (datum, čas, IA, vrata, stanje oziroma dogodek);<br />
+6. detektirati in zabeležiti druge pomembne dogodke in napake na IA v primeru, da jih IA sporoča:<br />
+– brisanje števcev (datum, čas, IA),<br />
+– spremembo nastavitev (datum, čas, IA, opis),<br />
+– napako odkrito pri delovanju (datum, čas, IA, koda napake, opis).<br />
+(2) Zapisi v dnevniku dogodkov iz 1., 4., 5. in 6. točke prejšnjega odstavka morajo, poleg podatkov navedenih ob posameznih dogodkih, vsebovati tudi enolično zaporedno oznako zapisa.</p>
+<h3>52. člen</h3>
+<p>(1) Absolutne vrednosti elektronskih števcev iz 2. točke prvega odstavka prejšnjega člena mora NIS odčitati in beležiti v dnevnik popisov števcev periodično ob polnih urah, ob zaključku obračunskega dne in ob pomembnih dogodkih na IA. Interval beleženja je ena ura. Pomembni dogodki so: JP, CC, PJP, odpiranje vrat IA. Beleži se datum, čas, IA, dogodek ter števci: TI, TO, CC, JP, PJP, CTC, GM. Dnevnik periodičnih popisov števcev in dnevnik popisov števcev ob dogodkih sta lahko ločena.<br />
+(2) Če NIS ne beleži skupnega števila vseh sprejetih oziroma izdanih lističev, in skupnega zneska vseh sprejetih oziroma izdanih lističev, mora beležiti skupno število sprejetih oziroma izdanih lističev ter skupen znesek sprejetih ali izdanih lističev iz druge in tretje alinee 2. točke prvega odstavka prejšnjega člena ločeno za vsako posamezno vrsto lističev.</p>
+<h3>Progresivni sistem na IA</h3>
+<h3>53. člen</h3>
+<p>(1) NIS mora zabeležiti dogodek progresivnega dobitka iz 1. točke prvega odstavka 51. člena tega pravilnika za vse progresivne dobitke, ki presegajo znesek 1000 eurov, beleženje nižjih progresivnih dobitkov pa se zahteva le pri dobitkih, ki se ne beležijo na obračunskih števcih IA.<br />
+(2) NIS mora beležiti naraščanje vrednosti sklada progresive oziroma nivojev progresive iz 3. točke prvega odstavka 51. člena tega pravilnika vsako polno uro ter ob koncu obračunskega dne za vse progresivne sisteme, pri katerih se progresivni dobitki ne beležijo na obračunskih števcih IA. Beležijo se najmanj datum, čas, ID progresive in znesek.</p>
+<h3>54. člen</h3>
+<p>(1) IA je lahko vključen le v en progresivni sistem.<br />
+(2) V progresivni sistem so lahko vključeni le IA, ki znajo ob pogojih iz prejšnjega člena zagotoviti beleženje višine skladov in nivojev progresive in sporočanje dogodka progresivnega dobitka v NIS. IA, ki so vključeni v progresivni sistem z več skladi in nivoji, morajo sporočiti v NIS poleg višine dobitka tudi sklad in nivo (identifikacija progresive: ID progresive, oznaka sklada, številka nivoja).</p>
+<h3>Register progresiv</h3>
+<h3>55. člen</h3>
+<p>(1) NIS mora vsebovati register oziroma šifrant progresiv s podatki o nastavitvi vsakega posameznega progresivnega sistema, ki morajo omogočati preverjanje višine progresivnega dobitka na osnovi števcev IA, zabeleženih v NIS.<br />
+(2) Register progresiv vključuje:<br />
+1. enolično oznako progresive (ID progresive);<br />
+2. podatke o značilnostih progresive:<br />
+– vrsta (npr. L – lastna, S – skupna),<br />
+– tip (I – dobitek določa izid igre, K – dobitek določa krmilnik, IK – dobitek je kombinacija izida igre in naključnega procesa na krmilniku),<br />
+– sklad (oznaka sklada),<br />
+– nivo (številka nivoja);<br />
+3. začetno vrednost;<br />
+4. osnovni odstotek naraščanja;<br />
+5. mejno vrednost;<br />
+6. odstotek naraščanja po preseženi mejni vrednosti;<br />
+7. odstotek naraščanja skrite progresive;<br />
+8. ime progresive.</p>
+<h3>56. člen</h3>
+<p>IA vključeni v progresivni sistem morajo imeti v NIS nedvoumno zabeleženo pripadnost k progresivnemu sistemu. Pripadnost IA k progresivnemu sistemu se izraža v registru IA oziroma v samostojni tabeli, ki povezuje progresivne sisteme z IA.</p>
+<h3>Elektronska ruleta</h3>
+<h3>57. člen</h3>
+<p>(1) Za elektronsko ruleto se morajo v NIS poleg dogodkov opredeljenih v 51. členu tega pravilnika beležiti tudi:<br />
+1. dvig in spust pokrova za zavarovanje neposrednega dostopa do cilindra (datum, čas, IA, dogodek);<br />
+2. padla številka (datum, čas, IA, padla številka).<br />
+(2) V primeru, da se za elektronsko ruleto beležijo podatki iz prejšnjega odstavka za vsako igralno mesto zase, morajo biti podatki o datumu in času, ki se nanašajo na isti dogodek, identični.</p>
+<h3>58. člen</h3>
+<p>Za elektronsko ruleto mora NIS zabeležiti vsako odigrano igro skupaj z vložkom in dobitkom na posameznem igralnem mestu (datum, čas, IA – igralno mesto, vložek, dobitek).</p>
+<h3>Blagajniško poslovanje IA v NIS</h3>
+<h3>59. člen</h3>
+<p>Zabeležka blagajniških transakcij v NIS mora vsebovati najmanj naslednje podatke: datum, čas, vrsto transakcije, identifikacijo osebe, ki opravlja transakcijo, znesek in IA, če gre za izplačilo, polnitev ali praznitev, pri lističih pa identifikacijsko številko in vrsto lističa.</p>
+<h3>60. člen</h3>
+<p>(1) Vrste transakcij, ki jih je treba ločevati in vnašati v NIS:<br />
+1. izplačilo JP, ročno izplačilo CC;<br />
+2. izplačilo PJP;<br />
+3. polnitev IA;<br />
+4. praznitev CB;<br />
+5. praznitev zalogovnika;<br />
+6. praznitev BA – bankovci;<br />
+7. praznitev BA – lističi;<br />
+8. prodajo žetonov;<br />
+9. odkup žetonov;<br />
+10. dotacijo žetonov;<br />
+11. odvod žetonov;<br />
+12. izdajo lističa;<br />
+13. sprejem lističa.<br />
+(2) V primeru premične prodaje in odkupa žetonov v igralnem prostoru se kot transakcije obravnavajo skupni rezultati prodaje in odkupa osebe, ki vrši prodajo oziroma odkup.<br />
+(3) Pri praznitvah in polnitvah predstavlja transakcijo skupno število žetonov polnitve oziroma praznitve, skupen znesek bankovcev praznitve in skupen znesek lističev praznitve na posameznem IA.<br />
+(4) Kot vnos transakcije iz prvega odstavka tega člena se obravnavajo sistemsko predlagane transakcije, ki zahtevajo obvezen pregled in potrditev s strani osebe, ki opravlja transakcijo, in transakcije, ki se jih vnaša v celoti ročno.</p>
+<h3>61. člen</h3>
+<p>Podatke o praznitvah se vnaša takoj po štetju in sicer za obračunski dan na katerega se nanaša štetje, vse ostale blagajniške transakcije se vnaša sproti v skladu z navodilom za opravljanje dela na blagajni. Ročna izplačila (JP, PJP, CC) in brisanja kredita se opravi po preverjanju dobitka in po vnosu blagajniške transakcije.</p>
+<h3>62. člen</h3>
+<p>(1) NIS mora vsebovati izdelavo dnevnih in mesečnih poročil blagajniškega poslovanja povezanega z igralnim procesom in sicer skupnih poročil ter poročil po posameznih IA oziroma igralnih mestih.<br />
+(2) NIS mora na podlagi elektronskih števcev obračunskega modela, zabeleženih v NIS, izdelati dnevna in mesečna poročila o obračunu, in sicer skupna poročila ter poročila po posameznih IA oziroma igralnih mestih.<br />
+(3) NIS mora na podlagi elektronskih števcev, zabeleženih v NIS, izdelati dnevna in mesečna poročila poslovanja z vplačilnimi in izplačilnimi sredstvi, in sicer skupna poročila ter poročila po posameznih IA oziroma igralnih mestih.<br />
+(4) Dnevna in mesečna poročila morajo biti zaključena najkasneje v 12 urah po zaključku obračunskega dne oziroma obračunskega meseca pri obsegu do vključno 200 igralnih mest in najkasneje v 72 urah po zaključku obračunskega dne oziroma obračunskega meseca pri obsegu nad 200 igralnih mest.<br />
+(5) NIS mora omogočati tudi izdelavo obdobnih poročil iz prvega do tretjega odstavka tega člena. Obdobna poročila vključujejo tudi poročila med praznitvami IA.<br />
+(6) Koncesionar je dolžan za obračunski mesec med seboj primerjati poročila blagajniškega poslovanja s poročili, izdelanimi na podlagi elektronskih števcev, zabeleženih v NIS. V primeru, da odstopanje skupnega obračuna za IA presega 0.5% obračuna IA po blagajni, mora koncesionar do petega dne v mesecu nadzornemu organu posredovati pisno poročilo o vzrokih za odstopanje.<br />
+(7) Poročila iz drugega in tretjega odstavka tega člena morajo pravilno upoštevati brisanja in obrate elektronskih števcev.</p>
+<h3>Praznitve CB, BA in zalogovnika žetonov</h3>
+<h3>63. člen</h3>
+<p>(1) Praznitev BA na vseh IA je treba opraviti takoj po zaključku zadnjega obračunskega dne v mesecu.<br />
+(2) V primeru, da IA sprejema kovance, je treba takoj po zaključku zadnjega obračunskega dne v mesecu opraviti praznitev CB in zalogovnika.<br />
+(3) Redne in izredne praznitve CB in BA med mesecem se lahko izvajajo le po tedenskem razporedu in na način opredeljen v internih aktih koncesionarja.</p>
+<h3>64. člen</h3>
+<p>Redne praznitve zalogovnika se izvajajo po razporedu, opredeljenem v internem navodilu koncesionarja, in sicer tako, da pride vsak IA na vrsto najmanj enkrat v treh mesecih pri obsegu do 200 IA, najmanj enkrat v šestih mesecih pri obsegu od 201 do 400 IA in najmanj enkrat v dvanajstih mesecih pri obsegu nad 400 IA.</p>
+<h3>65. člen</h3>
+<p>Praznitve CB, BA in zalogovnika se na način, opredeljen v internih aktih koncesionarja, opravijo tudi ob odstranitvah in zamenjavah IA, ob večjih servisnih posegih v IA, ob spremembi denominacije žetonov, ob inventuri stanja žetonov ter ob zamenjavi in ukinitvi žetonov.</p>
+<h3>66. člen</h3>
+<p>NIS mora vsebovati poročila štetja žetonov, bankovcev in lističev pri praznjenju IA po posameznih IA in primerjavo z v NIS pričakovanim stanjem.</p>
+<h3>Spremembe pri IA</h3>
+<h3>67. člen</h3>
+<p>(1) S predhodnim obveščanjem nadzornega organa se zaradi sprememb, ki vplivajo na NIS, lahko opravi:<br />
+1. sprememba karakteristik IA, ki ne zahteva izdaje dovoljenja za uporabo igralne naprave, na podlagi zakona, ki ureja igre na srečo;<br />
+2. premestitev IA, ki ne spreminja tlorisa postavitve;<br />
+3. odstranitev IA v uporabi.<br />
+(2) Predhodno obvestilo iz 1. in 2. točke prejšnjega odstavka mora biti nadzornemu organu predloženo najmanj osem dni, iz 3. točke prejšnjega odstavka pa najmanj en dan pred nameravanim posegom.<br />
+(3) Predhodno obvestilo iz prvega odstavka tega člena mora vsebovati razloge za spremembo, datum in čas začetka del, predvidena datum in čas zaključka del, obračunski dan, s katerim bo IA ponovno vključen v uporabo in izpolnjen obrazec MF IGR NAP-IA, ki je skupaj z navodilom za izpolnjevanje Priloga 1 tega pravilnika in njegov sestavni del. V primeru iz 1. točke prvega odstavka tega člena, mora obvestilo vsebovati nove karakteristike IA na obrazcu MF IGR NAP-IA iz Priloge 1 tega pravilnika. V primeru iz 2. točke prvega odstavka tega člena, mora obvestilo vsebovati tudi staro in novo pozicijo IA ter tloris igralnega prostora z novo postavitvijo. V primeru iz 3. točke prvega odstavka tega člena mora obvestilo vsebovati tudi predvideni datum in čas odstranitve.</p>
+<h3>68. člen</h3>
+<p>Brez obveščanja nadzornega organa se lahko opravi:<br />
+1. priklop in odklop IA z NIS zaradi servisnega posega, kot posledice okvare, ki ne spreminja iger in karakteristik IA;<br />
+2. poseg v IA zaradi odprave okvare ali napake, ki ne spreminja iger in karakteristik IA.</p>
+<h3>69. člen</h3>
+<p>Vlogi za izdajo dovoljenja za uporabo igralne naprave, na podlagi zakona, ki ureja igre na srečo, mora koncesionar priložiti:<br />
+– obrazec MF IGR NAP-IA iz Priloge 1 tega pravilnika v elektronski in papirni obliki podatki o IA, ki so predmet vloge,<br />
+– poročilo o preizkusu igralne naprave,<br />
+– izjavo o ustreznosti vključitve IA v NIS,<br />
+– navedbo datuma in časa izvedbe del.</p>
+<h3>70. člen</h3>
+<p>(1) IA se po spremembah iz 1. in 2. točke prvega odstavka 67. člena in iz 69. člena tega pravilnika začne uporabljati z novim obračunskim dnevom.<br />
+(2) Pri spremembi iz 67., 68. in 69. člena tega pravilnika, pri kateri je prišlo do brisanja elektronskih števcev IA, mora koncesionar v mapo, ki jo na podlagi zakona, ki ureja igre na srečo, vodi za vsako igralno napravo, zabeležiti tudi datum in čas brisanja števcev, zadnje znano stanje elektronskih števcev obračunskega modela in števca GM pred brisanjem, ter stanje zabeleženih urnih števcev v NIS po opravljenem brisanju, ki izkazuje, da je brisanje pravilno zabeležil tudi NIS.</p>
+<h3>Vplačila in izplačila na IA</h3>
+<h3>71. člen</h3>
+<p>(1) Za vpeljavo, zamenjavo, ukinitev in spremembo vrednosti žetonov mora koncesionar pridobiti dovoljenje nadzornega organa.<br />
+(2) Koncesionar mora vlogi za izdajo dovoljenja iz prejšnjega odstavka predložiti:<br />
+– interne akte, ki se nanašajo na način poslovanja,<br />
+– izpis stanja žetonov.<br />
+(3) Pri vpeljavi in zamenjavi žetonov pa mora poleg zahtev iz prejšnjega odstavka priložiti tudi:<br />
+– vzorec žetona in barvno sliko obeh strani žetona ter<br />
+– račun in potrdilo o plačilu žetonov.</p>
+<h3>72. člen</h3>
+<p>(1) Za vpeljavo, spremembo ali ukinitev poslovanja z lističi oziroma poslovanja z drugimi vplačilnimi in izplačilnimi sredstvi mora koncesionar pridobiti dovoljenje nadzornega organa.<br />
+(2) Koncesionar mora vlogi za izdajo dovoljenja iz prejšnjega odstavka predložiti:<br />
+– interne akte, ki se nanašajo na način poslovanja in<br />
+– vzorce lističev oziroma sredstev za vplačevanje in izplačevanje.</p>
+<h3>Vzdrževanje registrov pri spremembah</h3>
+<h3>73. člen</h3>
+<p>(1) Ob opravljeni spremembi lastnosti IA, ob premestitvi IA, njegovi odstranitvi, ali ob namestitvi novega IA, morajo biti obračunski model, register IA, kronologija registra IA in register progresiv usklajeni s spremembami takoj po opravljeni spremembi. Podatki v teh registrih morajo točno podati datum in čas prenehanja veljavnosti starih, ter začetka veljavnosti novih karakteristik, IA oziroma progresivnih sistemov.<br />
+(2) Pri spremembi podatkov in registrov iz prejšnjega odstavka:<br />
+1. sme imeti IA v obračunskem dnevu le en nabor veljavnih vrednosti;<br />
+2. je lahko v enem obračunskem dnevu za IA v veljavi le en obračunski model;<br />
+3. se spremembo registra pri premestitvah in pri spremenjenih karakteristikah iz 67. člena tega pravilnika lahko opravi že ob izločitvi IA, vendar najkasneje do povezave IA v NIS, vnos novo dodeljene evidenčne številke igralne naprave pa najkasneje do začetka uporabe IA;<br />
+4. mora novo nameščeni IA, IA, ki se mu spremeni obračunska vrednost kredita, ter IA, ki se nadgradi z drugo igro, dobiti novo enolično interno oznako v NIS iz četrte alinee 4. točke 48. člena tega pravilnika.<br />
+(3) Opravljene spremembe v registrih iz prvega odstavka tega člena ne smejo vplivati na pravilnost prikaza prejšnjih podatkov, zabeleženih v NIS.</p>
+<h3>IV. POSEBNOSTI NADZORNEGA INFORMACIJSKEGA SISTEMA DRUGIH IGRALNIH NAPRAV</h3>
+<h3>Splošno</h3>
+<h3>74. člen</h3>
+<p>(1) Prirejanje iger na IM se spremlja z uporabo posebnih vhodno/izhodnih priročnih terminalov in opreme, nameščene na mizi, ki omogoča avtomatično spremljanje nekaterih dogodkov (npr. padle številke pri ruleti).<br />
+(2) Uporaba terminalov iz prejšnjega odstavka mora biti zaščitena z identifikacijo uporabnika.<br />
+(3) Posebne igre na srečo, pri katerih neposredno spremljanje procesa iger z NIS v praksi ni uveljavljeno (npr. craps, bingo, turnirsko prirejanje), se spremlja v okviru sistema za spremljanje iger na IM, in sicer dnevno z vnosom realizacije in evidentiranega skupnega zneska vplačil, izplačil in morebitnih napitnin za vsako posamezno igro ali izvedbo turnirja na delovnih postajah NIS.</p>
+<h3>Register IM</h3>
+<h3>75. člen</h3>
+<p>(1) NIS mora vključevati register oziroma šifrant IM in drugih igralnih naprav, v katerem so vpisani naslednji podatki:<br />
+1. enolična identifikacijska številka igralne naprave iz 12. člena tega pravilnika;<br />
+2. o napravi:<br />
+– inventarna številka,<br />
+– naziv (po igri, ki se izvaja, npr. Ameriška ruleta),<br />
+– kratki naziv (npr. AR),<br />
+– proizvajalec (kolesa rulete),<br />
+– leto proizvodnje (kolesa rulete),<br />
+– številka oziroma oznaka (kolesa rulete),<br />
+– enolična interna oznaka naprave v NIS, ki je uporabljena v vseh zapisih, ki se nanašajo na to napravo;<br />
+3. o namestitvi naprave:<br />
+– pozicijska oznaka (npr. AR1),<br />
+– identifikacija progresivnega sistema (ID progresive),<br />
+– stanje (npr. 1 – v uporabi, 0 – izločena).<br />
+(2) Za nazive druge in tretje alineje 2. točke in prve alineje 3. točke tega člena se uporabljajo izrazi določeni v navodilu za izpolnjevanje obrazca MF IGR NAP-IM, ki je skupaj z obrazcem Priloga 2 tega pravilnika in njegov sestavni del. Enolično interno oznako iz sedme alinee 2. točke tega člena, lahko nadomesti enolična pozicijska oznaka prve alinee 3. točke tega člena.<br />
+(3) V register IM iz prvega odstavka tega člena se smiselno zavedejo tudi podatki za druge posebne igre na srečo.</p>
+<h3>Beleženje dogodkov na IM</h3>
+<h3>76. člen</h3>
+<p>NIS mora na IM registrirati in beležiti naslednje dogodke:<br />
+1. prijavo in odjavo uporabnika – delavca na IM (datum, čas, IM, uporabnik);<br />
+2. odprtje IM (datum, čas, IM, znesek: otvoritveno stanje);<br />
+3. zaprtje IM (datum, čas, IM, znesek: končno stanje);<br />
+4. začasno zaprtje IM (datum, čas, IM, znesek: stanje ob zaprtju);<br />
+5. ponovno odprtje IM po začasnem zaprtju (datum, čas, IM, znesek: stanje ob odprtju);<br />
+6. dodatno dotacijo IM (identifikacija transakcije, datum, čas, IM, znesek);<br />
+7. odvod na blagajno (identifikacija transakcije, datum, čas, IM, znesek);<br />
+8. drop (identifikacija transakcije, datum, čas, IM, znesek);<br />
+9. provizija (identifikacija transakcije, datum, čas, IM, znesek);<br />
+10. padlo številko na ruleti (datum, čas, IM, številka).</p>
+<h3>Blagajniško poslovanje IM v NIS</h3>
+<h3>77. člen</h3>
+<p>Blagajniško poslovanje IM v NIS obsega najmanj ločevanje in vnos transakcij v točkah od 2. do 9.prejšnjega člena neposredno na IM in še naslednje transakcije na blagajni IM oziroma v števnici:<br />
+1. izdajo dodatne dotacije za posamezno IM (identifikacija transakcije, datum, čas, IM, znesek, blagajnik);<br />
+2. prejem odvoda s posamezne IM (identifikacija transakcije, datum, čas, IM, znesek, blagajnik);<br />
+3. popolnitev dotacije posamezne IM (identifikacija transakcije, datum, čas, IM, znesek, blagajnik);<br />
+4. rezultat štetja gotovine in vrednostnih žetonov na IM (identifikacija transakcije, datum, čas, IM, znesek, obračunski dan, vnašalec);<br />
+5. rezultat štetja napitnine na IM (identifikacija transakcije, datum, čas, IM, znesek, obračunski dan, vnašalec);<br />
+6. prodajo vrednostnih žetonov (identifikacija transakcije, datum, čas, znesek, obračunski dan, blagajnik);<br />
+7. odkup vrednostnih žetonov (identifikacija transakcije, datum, čas, znesek, obračunski dan, blagajnik).</p>
+<h3>Ugotavljanje realizacije</h3>
+<h3>78. člen</h3>
+<p>(1) V NIS se za posamezno IM ločeno vnašajo preštete vrednosti gotovine, vrednostnih žetonov in napitnine.<br />
+(2) NIS mora na osnovi vnesenih podatkov izdelati obračun realizacije in napitnine IM oziroma druge posebne igre na srečo. Prav tako mora NIS izdelati obračun IM tudi na osnovi sproti vnesenih podatkov dropa in provizije in ga primerjati z obračunom po rezultatih štetja.</p>
+<h3>79. člen</h3>
+<p>(1) NIS mora omogočati izdelavo in prikaz dnevnih in mesečnih obračunov po posamezni IM oziroma posebni igri na srečo in za vse IM in posebne igre na srečo skupaj.<br />
+(2) Dnevni in mesečni obračuni morajo biti zaključeni najkasneje v 24 urah po zaključku obračunskega dne oziroma obračunskega meseca.</p>
+<h3>Progresivni sistemi na IM</h3>
+<h3>80. člen</h3>
+<p>NIS mora vsebovati podatke, potrebne za opis vsakega posameznega progresivnega sistema – register oziroma šifrant progresiv. Register progresiv vsebuje splošne podatke o progresivi (identifikacijo-ID progresive, vrsto, oznako, nivoje) in podatke o začetnih vrednostih in o oblikovanju progresivne vrednosti dobitka na osnovi vplačil igralcev (odstotek, delitev, ipd.) za vsak posamezen nivo. Register progresiv za IM se vzpostavi smiselno na način, kot to velja za register progresivnih sistemov za IA iz 55. člena tega pravilnika.</p>
+<h3>81. člen</h3>
+<p>(1) NIS mora imeti ob zaključku obračunskega dne v obliki absolutnega števca vplačil zabeležena vsa vplačila igralcev na IM za sodelovanje pri progresivni igri.<br />
+(2) Na osnovi registra progresive in vplačil igralcev iz prejšnjega odstavka mora biti možno izračunati vrednost progresivnih dobitkov.</p>
+<h3>82. člen</h3>
+<p>V NIS mora biti zabeležena vrednost skladov oziroma nivojev progresive ob zaključku obračunskega dne (datum, čas, ID progresive, znesek).</p>
+<h3>83. člen</h3>
+<p>Ob padcu progresivnega dobitka mora zabeležka v NIS vsebovati datum, čas, oznako IM, ID progresive, oznako sklada, nivo in znesek dobitka. Če NIS sam ne zajame teh podatkov, jih je treba ob padcu progresivnega dobitka vnesti ročno.</p>
+<h3>Spremembe pri IM</h3>
+<h3>84. člen</h3>
+<p>(1) Vlogi za izdajo dovoljenja za uporabo igralne naprave, na podlagi zakona, ki ureja igre na srečo, mora koncesionar priložiti:<br />
+– obrazec MF IGR NAP-IM iz Priloge 2 tega pravilnika v elektronski in papirni obliki, s podatki o IM, ki so predmet vloge;<br />
+– navedbo datuma in časa izvedbe del, pri IM, vključenih v progresivne sisteme, pa še:<br />
+– opis progresivnega sistema;<br />
+– seznam progresivnih dobitkov, njihove začetne vrednosti in odstotke naraščanja oziroma deleže glede na vplačila;<br />
+– pravila za priigranje posameznega progresivnega dobitka;<br />
+– formulo za oblikovanje višine posameznega progresivnega dobitka iz zabeleženih vplačil za sodelovanje v progresivni igri.<br />
+(2) Vzpostavitev, sprememba in ukinitev iger in progresivnih sistemov na IM mora biti sproti zavedena v registru IM in v registru progresivnih sistemov iz 75. oziroma 80. člena tega pravilnika.</p>
+<h3>V. POSEBNOSTI NIS IGRALNIH NAPRAV STREŽNIŠKEGA SISTEMA IGER</h3>
+<h3>Splošno</h3>
+<h3>85. člen</h3>
+<p>Za strežniški sistem iger (v nadaljnjem besedilu: SSI) se smiselno uporabijo določbe III. poglavja tega pravilnika.</p>
+<h3>86. člen</h3>
+<p>Podatke, ki jih ni mogoče pridobiti od igralnega terminala SSI, lahko NIS pridobi neposredno od strežnika SSI. Za komunikacijo med NIS in strežnikom SSI velja vse, kar velja za komunikacijo med NIS in IA.</p>
+<h3>Beleženje dogodkov</h3>
+<h3>87. člen</h3>
+<p>Poleg dogodkov, navedenih v 51. členu tega pravilnika, mora NIS zabeležiti tudi dogodek namestitve novega kontrolnega programa na strežnik SSI in na igralni terminal (datum, čas, IA, oznaka kontrolnega programa), ter odkrite napake pri namestitvi ali delovanju kontrolnih programov (datum, čas, IA, vrsta napake).</p>
+<h3>Beleženje števcev</h3>
+<h3>88. člen</h3>
+<p>Poleg beleženja števcev po igralnih terminalih, mora NIS za SSI zagotavljati tudi dnevno beleženje števcev vseh vplačil v igro in vseh izplačil iz igre, ter beleženje števila odigranih iger za vsako posamezno igro SSI.</p>
+<h3>Registra igralnih naprav in iger</h3>
+<h3>89. člen</h3>
+<p>Register igralnih naprav SSI sestavljata register IA, ki vsebuje vse podatke o igralnih terminalih iz 48. člena tega pravilnika, razen podatkov, ki se nanašajo na kontrolne programe (igre) in nastavitve, ki so predmet prenosa s strežnika SSI sistema na igralni terminal SSI, in register iger in njihovih nastavitev, ki jih vsebuje strežnik SSI.</p>
+<h3>Obračunski model in obračunski kredit</h3>
+<h3>90. člen</h3>
+<p>Vsi igralni terminali SSI iste strojne platforme morajo imeti isti obračunski model in isto vrednost obračunskega kredita.</p>
+<h3>VI. TESTIRANJE IN TURNIR</h3>
+<h3>Igralna naprava za namen testiranja</h3>
+<h3>91. člen</h3>
+<p>Igralna naprava za namen testiranja mora biti vključena v NIS in ne sme biti vključena v progresivni sistem.</p>
+<h3>Turnir</h3>
+<h3>92. člen</h3>
+<p>(1) Koncesionar, ki prireja turnir na igralnih napravah, mora zagotoviti, da med izvajanjem turnirja ali zaradi izvedbe turnirja igralna naprava, na kateri prireja turnir, v NIS ne bo posredovala dogodkov, števcev in drugih podatkov, ki bi vplivali na obračun igralne naprave in njegovo preverjanje. V turnirskem načinu sme igralna naprava v NIS pošiljati le informativna sporočila kot so npr. vklop, izklop, odpiranje in zapiranje vrat in napake.<br />
+(2) Turnir se zavede v register iz 75. člena tega pravilnika. Realizacijo turnirja se spremlja preko blagajniškega poslovanja z vnosom pristopnin oziroma nakupov turnirskih žetonov na blagajnah oziroma prodajnih mestih, z vnosom izplačanih nagrad na blagajnah oziroma izplačilnih mestih, ter z vnosom provizije, kot je to opredeljeno v tretjem odstavku 74. člena tega pravilnika.</p>
+<h3>VII. PREHODNE IN KONČNE DOLOČBE</h3>
+<h3>93. člen</h3>
+<p>Za vrsto NIS, ki je v uporabi pri koncesionarju z dnem uveljavitve tega pravilnika, se določba iz drugega odstavka 9. člena tega pravilnika, začne uporabljati leto dni po uveljavitvi tega pravilnika.</p>
+<h3>94. člen</h3>
+<p>Za vrsto in verzijo NIS, ki je v uporabi pri koncesionarju z dnem začetka uporabe tega pravilnika, se šteje, da izpolnjuje pogoj iz 37. člena tega pravilnika.</p>
+<h3>95. člen</h3>
+<p>Šteje se, da izpolnjuje pogoj glede spremljanja in beleženja vrat MB iz prve in druge alinee 5. točke 51. člena tega pravilnika, IA, ki je bil v uporabi do uveljavitve tega pravilnika.</p>
+<h3>96. člen</h3>
+<p>Za vrsto NIS, ki je v uporabi pri koncesionarju z dnem uveljavitve tega pravilnika, se določba 40. člena tega pravilnika, določbi glede vnosa dropa in provizije iz 76. člena, določbi glede prodaje in odkupa vrednostnih žetonov iz 77. člena in določba glede izdelave obračuna IM na osnovi sproti vnesenih podatkov dropa in napitnine iz drugega odstavka 78. člena tega pravilnika začnejo uporabljati tri leta po uveljavitvi tega pravilnika.</p>
+<h3>97. člen</h3>
+<p>Za vrsto NIS, ki je v uporabi pri koncesionarju z dnem uveljavitve tega pravilnika, se določba glede blokiranja delovanja IA s strani vmesnika NIS iz drugega odstavka 50. člena tega pravilnika, začne uporabljati tri leta po uveljavitvi tega pravilnika.</p>
+<h3>98. člen</h3>
+<p>Register igralnih naprav iz 48. člena, kronologijo registra IA iz 49. člena, register progresiv iz 55. člena, register IM iz 75. člena in register progresiv IM iz 80. člena, beleženje števcev in dogodkov iz 51. člena in beleženje podatkov iz drugega odstavka 57. člena, je pri NIS, ki so v uporabi pri koncesionarju z dnem uveljavitve tega pravilnika, treba uskladiti s tem pravilnikom v letu dni po začetku uporabe tega pravilnika.</p>
+<h3>99. člen</h3>
+<p>Določba 58. člena tega pravilnika se za vrsto NIS, ki ne omogoča beleženja vsake odigrane igre na igralnem mestu elektronske rulete, začne uporabljati tri leta po uveljavitvi tega pravilnika.</p>
+<h3>100. člen</h3>
+<p>Za vrsto NIS, ki je v uporabi pri koncesionarju z dnem uveljavitve tega pravilnika, se določbe drugega, tretjega, petega, šestega in sedmega odstavka 62. člena, začnejo uporabljati leto dni po uveljavitvi tega pravilnika.</p>
+<h3>101. člen</h3>
+<p>Z dnem, ko začne veljati ta pravilnik, preneha veljati Pravilnik o nadzornem informacijskem sistemu igralnih naprav (Uradni list RS, št. 45/02 in 114/04).</p>
+<h3>102. člen</h3>
+<p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 007-608/2007/7</p>
+<p>Ljubljana, dne 2. junija 2008</p>
+<p>EVA 2007-1611-0106</p>
+<p>dr. Andrej Bajuk l.r.<br />
+Minister za finance</p>
+<p>Priloga 1: Podatki o igralnih avtomatih v igralnici/salonu (Obrazec MF IGR NAP-IA)</p>
+<p>Priloga 2: Podatki o igralnih mizah in drugih igrah v igralnici (Obrazec MF IGR NAP-IM)</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Navodilo o spremembi Navodila za izvajanje sklepa o obveznosti poročanja o poslovanju s tujino — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Navodilo o spremembi Navodila za izvajanje sklepa o obveznosti poročanja o poslovanju s tujino</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>NAVO1066</strong></dd>
+      <dt>Vrsta</dt><dd>navodilo</dd>
+      <dt>Status</dt><dd><span class="badge invalid">neveljaven</span></dd>
+      <dt>Datum</dt><dd>2013-03-29</dd>
+      <dt>Organ</dt><dd>Banka Slovenije</dd>
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0964" target="_blank">Uradni list RS</a></dd>
+    </dl>
+    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO1066.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+  </aside>
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:NAVO1066,vrsta:navodilo">
+    <h1>Navodilo o spremembi Navodila za izvajanje sklepa o obveznosti poročanja o poslovanju s tujino</h1>
+<p>Na podlagi tretjega odstavka 29. člena Zakona o Banki Slovenije (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo in 59/11) in 6. točke Sklepa o obveznosti poročanja o poslovanju s tujino (Uradni list RS, št. 107/08 in 24/13) izdaja guverner Banke Slovenije</p>
+<h2>N A V O D I L O</h2>
+<p>o spremembi Navodila za izvajanje sklepa o obveznosti poročanja o poslovanju s tujino</p>
+<ol>
+<li>V 7. alineji prvega odstavka poglavja 'I. SPLOŠNO' se briše besedilo: »– VP60 in VP70«</li>
+<li>Besedilo poglavja 'VIII. POROČILA O PLAČILNEM PROMETU S TUJINO' se spremni tako, da se glasi:</li>
+<li>Predmet poročanja: vsa plačila (prilivi /odlivi) ne glede na velikost zneska, ki jih banke in hranilnice /v nadaljevanju: banke/ opravijo zase in za stranke v odnosu s tujino.<br />
+Banka poroča:<br />
+– vse razpoložljive podatke; v okviru razpoložljivih podatkov pa so v podatkovni strukturi definirani obvezni oziroma neobvezni podatki za poročanje,<br />
+– vse prilive in odlive nefinančnih transakcij bank, ki jih opravijo za potrebe lastnega poslovanja v odnosu s tujino.<br />
+Banka ne poroča naslednjih plačilnih transakcij:<br />
+– množičnih plačil, kjer ena odlivna transakcija v breme transakcijskega računa lahko vsebuje množico odlivov v Sloveniji in v druge države,<br />
+– dokumentarnih plačil, ki se jih iz knjižb na transakcijskih računih ne da prepoznati kot transakcije s tujino, ter dokumentarnih plačil, ki se ne knjižijo na transakcijske račune,<br />
+– plačil v tuje vzajemne sklade (prilivi in odlivi), ki so izvršena z medbančnimi poboti, seznami pa so izdelani izven standardov plačilnega prometa SWIFT ali ISO,<br />
+– medbančnih prenosov,<br />
+– direktnih obremenitev,<br />
+– transakcij iz naslova posredništva med bankami (takih transakcij ne poroča posredniška banka, ampak inicialna banka za odlive in banka prejemnika plačila za prilive),<br />
+– prenosov sredstev / plačil med računi pri slovenskih bankah (rezidenti in nerezidenti), v katerikoli valuti.</li>
+<li>Obvezniki poročanja so banke, ki opravljajo plačilni promet s tujino.</li>
+<li>Rok za dostavo poročil Banki Slovenije: poroča se mesečno do desetega delovnega dne za podatke predhodnega meseca.</li>
+<li>Način poročanja: xml shema in tehnični protokol sta objavljena na spletni strani Banke Slovenije.</li>
+<li>Podatkovna struktura:</li>
+</ol>
+<p>+---------+--------------+-----------------+----------+---------+<br />
+|Zaporedna|  IME POLJA   |     VSEBINA     |Tip polja | Status  |<br />
+|številka |              |                 |    in    |         |<br />
+|         |              |                 | največja |         |<br />
+|         |              |                 | dolžina  |         |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|1        |banka         |10 mestna matična|AN 10     |obvezno  |<br />
+|         |poročevalka   |številka         |          |         |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|2        |obdobje       |mesec in leto za |AN 6      |obvezno  |<br />
+|         |poročila      |katerega se      |          |         |<br />
+|         |              |poroča (MMLLLL)  |          |         |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|3        |datum         |datum valutacije |AN 10     |obvezno  |<br />
+|         |poslovnega    |– datum odobritve|          |         |<br />
+|         |dogodka       |oziroma          |          |         |<br />
+|         |              |obremenitve      |          |         |<br />
+|         |              |računa banke     |          |         |<br />
+|         |              |(DD-MM-LLLL)     |          |         |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|4        |smer          |1 – priliv, 2 –  |AN 1      |obvezno  |<br />
+|         |              |odliv            |          |         |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|5        |znesek        |znesek priliva   |N 15      |obvezno  |<br />
+|         |              |ali odliva v     |(13,2)    |         |<br />
+|         |              |poravnalni valuti|          |         |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|6        |valuta        |poravnalna valuta|AN 3      |obvezno  |<br />
+|         |              |odliva ali       |          |         |<br />
+|         |              |priliva po       |          |         |<br />
+|         |              |šifrantu ISO 4217|          |         |<br />
+|         |              |(tričrkovna koda;|          |         |<br />
+|         |              |primer EUR)      |          |         |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|7        |BIC           |BIC/SWIFT koda   |AN 11 (8  |neobvezno|<br />
+|         |prejemnika    |prejemnika       |ali 11    |         |<br />
+|         |              |plačilnega       |mest)     |         |<br />
+|         |              |naloga: pri      |          |         |<br />
+|         |              |prilivih je to   |          |         |<br />
+|         |              |vedno banka      |          |         |<br />
+|         |              |poročevalka, pri |          |         |<br />
+|         |              |odlivih pa banka,|          |         |<br />
+|         |              |kateri se pošlje |          |         |<br />
+|         |              |odliv v izvršitev|          |         |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|8        |BIC           |BIC/SWIFT koda   |AN 11 (8  |pogojno  |<br />
+|         |pošiljatelja  |pošiljatelja     |ali 11    |obvezno  |<br />
+|         |              |plačilnega       |mest)     |(za      |<br />
+|         |              |naloga: pri      |          |odlive)  |<br />
+|         |              |odlivih je to    |          |         |<br />
+|         |              |vedno banka      |          |         |<br />
+|         |              |poročevalka, pri |          |         |<br />
+|         |              |prilivih pa      |          |         |<br />
+|         |              |banka, od katere |          |         |<br />
+|         |              |se prejme        |          |         |<br />
+|         |              |plačilni nalog   |          |         |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|9        |BIC banke     |podatek je       |AN 11 (8  |neobvezno|<br />
+|         |plačnika      |relevanten pri   |ali 11    |         |<br />
+|         |              |prilivih – iz    |mest)     |         |<br />
+|         |              |tega se lahko    |          |         |<br />
+|         |              |razbere državo   |          |         |<br />
+|         |              |iniciatorja      |          |         |<br />
+|         |              |plačila (v       |          |         |<br />
+|         |              |kolikor ni IBANa |          |         |<br />
+|         |              |plačnika ali pa  |          |         |<br />
+|         |              |je ta različna od|          |         |<br />
+|         |              |države           |          |         |<br />
+|         |              |pošiljatelja     |          |         |<br />
+|         |              |plačilnega       |          |         |<br />
+|         |              |naloga)          |          |         |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|10<em>      |račun         |IBAN, če obstaja,|AN 34 (od |pogojno  |<br />
+|         |plačnika      |sicer v drugačni |1 do 34   |obvezno  |<br />
+|         |              |obliki           |mest)     |(za      |<br />
+|         |              |                 |          |odlive)  |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|11</em>      |naziv in      |naziv in naslov  |AN 140    |obvezno  |<br />
+|         |naslov        |plačnika         |(od 1 do  |         |<br />
+|         |plačnika      |                 |140 mest) |         |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|12       |BIC banke     |podatek je       |AN 11 (8  |neobvezno|<br />
+|         |prejemnika    |relevanten pri   |ali 11    |         |<br />
+|         |plačila       |odlivih – iz     |mest)     |         |<br />
+|         |              |njega se lahko   |          |         |<br />
+|         |              |razbere državo   |          |         |<br />
+|         |              |prejemnika       |          |         |<br />
+|         |              |plačila (v       |          |         |<br />
+|         |              |kolikor ni IBANa |          |         |<br />
+|         |              |prejemnika       |          |         |<br />
+|         |              |plačila ali pa je|          |         |<br />
+|         |              |ta različna od   |          |         |<br />
+|         |              |države prejemnika|          |         |<br />
+|         |              |plačilnega       |          |         |<br />
+|         |              |naloga)          |          |         |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|13<em>      |račun         |IBAN če obstaja, |AN 34 (od |pogojno  |<br />
+|         |prejemnika    |sicer v drugačni |1 do 34   |obvezno  |<br />
+|         |plačila       |obliki           |mest)     |(za      |<br />
+|         |              |                 |          |prilive) |<br />
++---------+--------------+-----------------+----------+---------+<br />
+|14</em>      |naziv in      |naziv in naslov  |AN 140    |obvezno  |<br />
+|         |naslov        |prejemnika       |(od 1 do  |         |<br />
+|         |prejemnika    |plačila          |140 mest) |         |<br />
+|         |plačila       |                 |          |         |<br />
++---------+--------------+-----------------+----------+---------+</p>
+<p>*za komitente banke, ki so fizične osebe, se v polje vpiše vrednost FO<br />
+3. V PRILOGAH k navodilu se črtajo priloge:<br />
+PLAČILNI PROMET S TUJINO – SEZNAM KONTOV</p>
+<p>ŠIFRANT PLAČIL IZ TUJINE IN PLAČIL V TUJINO<br />
+ŠIFRANT INSTRUMENTOV PLAČIL<br />
+ŠIFRE REZIDENTOV IN NEREZIDENTOV (MATIČNE ŠTEVILKE)</p>
+<ol>
+<li>To navodilo začne veljati 1. 4. 2014. V skladu s tem navodilom se začne poročati plačila s tujino opravljena od aprila 2014 dalje.</li>
+</ol>
+<p>Ljubljana, dne 19. marca 2013</p>
+<p>Guverner<br />
+Banke Slovenije<br />
+Marko Kranjec l.r.</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+</body>
+</html>

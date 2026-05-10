@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-T.R.U.B.A.R. — general PISRS collection fetcher
+T.R.U.B.A.R. — general PISRS collection fetcher (optimized)
 
 Fetches any named PISRS collection year-by-year, downloads text from
 Uradni list RS (or PISRS NPB as fallback), and commits to git.
@@ -11,12 +11,14 @@ Usage:
   python fetch_pisrs.py --zbirka "Splošni akti za izvrševanje javnih pooblastil"
 
 Items are stored in si/{safe_zunanjiId}.md  (same directory as other predpisi).
-Progress is tracked per-collection in .progress_{safe_name}.json.
+Progress is tracked per-collection in .progress_{safe_name}.txt (append-only).
 """
 
 import json, re, os, time, argparse, subprocess
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from pathlib import Path
+import threading
 
 import requests
 from bs4 import BeautifulSoup
@@ -46,17 +48,36 @@ SODNAPRAKSA_URL = ("https://sodnapraksa.si/?q=id:{id}"
                    "&database[VDSS]=VDSS&database[UPRS]=UPRS"
                    "&_submit=išči&page=0&id={id}")
 
+# Module-level compiled regexes
+_SAFE_RE    = re.compile(r"[^a-zA-Z0-9_-]")
+_DATE_RE    = re.compile(r"\d{4}-\d{2}-\d{2}")
+_YEAR_RE    = re.compile(r"(\d{4})-")
+_DOC_RE     = re.compile(r"doc_(\d+)$")
+
+# Thread-local sessions
+_local = threading.local()
+
+def _session():
+    if not hasattr(_local, "session"):
+        s = requests.Session()
+        s.headers.update({"User-Agent": PISRS_HEADERS["User-Agent"]})
+        _local.session = s
+    return _local.session
+
+# Shared session for PISRS API (not thread-local — only used in main thread for index building)
+_api_session = requests.Session()
+_api_session.headers.update(PISRS_HEADERS)
+
 
 # ── PISRS API helpers ──────────────────────────────────────────────────────────
 
 def pisrs_post(params, body, retries=5):
     for attempt in range(retries):
         try:
-            r = requests.post(PISRS_FILTER, headers=PISRS_HEADERS,
-                              params=params, json=body, timeout=30)
+            r = _api_session.post(PISRS_FILTER, params=params, json=body, timeout=30)
             r.raise_for_status()
             return r.json().get("data") or {}
-        except Exception as e:
+        except Exception:
             if attempt == retries - 1:
                 raise
             time.sleep(2 ** (attempt + 1))
@@ -66,12 +87,12 @@ def pisrs_post(params, body, retries=5):
 def pisrs_get(url, retries=4):
     for attempt in range(retries):
         try:
-            r = requests.get(url, headers={"User-Agent": PISRS_HEADERS["User-Agent"]}, timeout=20)
+            r = _session().get(url, timeout=20)
             if r.status_code == 200:
                 return r.json().get("data")
             if r.status_code == 404:
                 return None
-        except Exception as e:
+        except Exception:
             if attempt == retries - 1:
                 raise
             time.sleep(2 ** (attempt + 1))
@@ -98,11 +119,10 @@ def pisrs_items_for_year(zbirka, year):
         if nc == cursor:
             break
         cursor = nc
-        time.sleep(0.08)
+        time.sleep(0.03)
 
 
 def _pisrs_cursor_pages(body):
-    """Paginate a single PISRS filter query body, yielding all items."""
     cursor = "*"
     while True:
         data  = pisrs_post({"cursorMark": cursor}, body)
@@ -114,39 +134,38 @@ def _pisrs_cursor_pages(body):
         if nc == cursor:
             break
         cursor = nc
-        time.sleep(0.08)
+        time.sleep(0.03)
 
 
 def pisrs_items_by_municipality(zbirka, municipalities):
-    """Iterate items by municipality (fallback for collections without year facets)."""
     for muni_val, count in municipalities:
         muni_id = muni_val.split("#")[1] if "#" in muni_val else muni_val
         base_body = {"nazivZbirke": [zbirka], "obcinaOrganSprejetjaOrgan": [muni_id]}
         if count <= 900:
             yield from _pisrs_cursor_pages(base_body)
         else:
-            # Large municipality — sub-split by adoption year
             for year in range(1945, date.today().year + 2):
                 body = dict(base_body)
                 body["datumi"] = {"letoSprejetja": year}
                 yield from _pisrs_cursor_pages(body)
-        time.sleep(0.05)
+        time.sleep(0.03)
 
 
 # ── NPB fallback ───────────────────────────────────────────────────────────────
 
+_HEADS = {"naslov": "##", "clen": "###", "tocka": "####", "podnaslov": "###",
+          "naslovDela": "##", "naslovPoglavja": "##"}
+
 def html_blocks_to_markdown(blocks):
     def strip(html):
         return BeautifulSoup(html or "", "lxml").get_text(separator=" ", strip=True)
-    HEADS = {"naslov": "##", "clen": "###", "tocka": "####", "podnaslov": "###",
-             "naslovDela": "##", "naslovPoglavja": "##"}
     lines = []
     for b in blocks:
         s, txt = b.get("struktura", ""), strip(b.get("vsebina", ""))
         if not txt:
             continue
-        if s in HEADS:
-            lines.append(f"\n{HEADS[s]} {txt}\n")
+        if s in _HEADS:
+            lines.append(f"\n{_HEADS[s]} {txt}\n")
         elif s == "alineja":
             lines.append(f"- {txt}")
         elif s == "opozorilo":
@@ -157,7 +176,6 @@ def html_blocks_to_markdown(blocks):
 
 
 def fetch_pisrs_npb(zunanji_id):
-    """Try to get consolidated text from PISRS NPB endpoint."""
     data = pisrs_get(f"{PISRS_RESULT}/zbirka/id/{zunanji_id}")
     if not data:
         return None
@@ -176,17 +194,17 @@ def fetch_pisrs_npb(zunanji_id):
 
 # ── Sodna praksa fetcher ───────────────────────────────────────────────────────
 
+_SP_SKIP = frozenset({"Priljubljeni dokumenti", "Nastavitve", "Pomoč", "Iskalnik sodne prakse"})
+
 def fetch_sodna_praksa(zunanji_id):
-    """Fetch court decision text from sodnapraksa.si."""
-    m = re.match(r"doc_(\d+)$", zunanji_id)
+    m = _DOC_RE.match(zunanji_id)
     if not m:
         return None
     doc_id = m.group(1)
     url = SODNAPRAKSA_URL.format(id=doc_id)
     for attempt in range(3):
         try:
-            r = requests.get(url, headers={"User-Agent": PISRS_HEADERS["User-Agent"]},
-                             timeout=20)
+            r = _session().get(url, timeout=20)
             if r.status_code != 200:
                 return None
             soup = BeautifulSoup(r.text, "lxml")
@@ -195,9 +213,7 @@ def fetch_sodna_praksa(zunanji_id):
             container = soup.find(id="container") or soup.find("body") or soup
             lines = [l.strip() for l in container.get_text(separator="\n").split("\n")
                      if len(l.strip()) > 40]
-            # Drop common navigation lines
-            skip = {"Priljubljeni dokumenti", "Nastavitve", "Pomoč", "Iskalnik sodne prakse"}
-            lines = [l for l in lines if l not in skip]
+            lines = [l for l in lines if l not in _SP_SKIP]
             return "\n\n".join(lines) if len(lines) > 3 else None
         except Exception:
             if attempt == 2:
@@ -209,16 +225,16 @@ def fetch_sodna_praksa(zunanji_id):
 # ── File helpers ───────────────────────────────────────────────────────────────
 
 def safe_name(s):
-    return re.sub(r"[^a-zA-Z0-9_-]", "_", s)
+    return _SAFE_RE.sub("_", s)
 
 
 def item_date(item):
     for f in ("datumObjave", "datumSprejetja"):
         d = item.get(f) or ""
-        if re.match(r"\d{4}-\d{2}-\d{2}", d):
+        if _DATE_RE.match(d):
             return d
     sop = item.get("sop") or ""
-    m   = re.match(r"(\d{4})-", sop)
+    m   = _YEAR_RE.match(sop)
     return f"{m.group(1)}-07-01" if m else "2000-07-01"
 
 
@@ -246,29 +262,68 @@ def make_frontmatter(item):
     )
 
 
-def git_commit_item(filepath, date_str, message):
-    e   = os.environ.copy()
+# ── Git plumbing (fast batch commits, no working-tree scan) ───────────────────
+
+_GIT_ENV_BASE = {**os.environ}
+
+_git_lock = threading.Lock()
+
+
+def _git(args, env=None, capture=True):
+    return subprocess.run(
+        ["git"] + args,
+        cwd=str(REPO_DIR),
+        env=env or _GIT_ENV_BASE,
+        check=True,
+        capture_output=capture,
+        text=True,
+    )
+
+
+def git_stage_file(filepath):
+    rel  = str(filepath.relative_to(REPO_DIR))
+    blob = _git(["hash-object", "-w", str(filepath)]).stdout.strip()
+    _git(["update-index", "--add", "--cacheinfo", f"100644,{blob},{rel}"])
+
+
+_MIN_GIT_DATE = "1970-01-02"  # git commit-tree rejects pre-epoch dates
+
+def git_commit_plumbing(date_str, message):
+    if date_str < _MIN_GIT_DATE:
+        date_str = _MIN_GIT_DATE
     iso = f"{date_str}T12:00:00+01:00"
-    e["GIT_AUTHOR_DATE"]    = iso
-    e["GIT_COMMITTER_DATE"] = iso
-    subprocess.run(["git", "add", str(filepath)], cwd=str(REPO_DIR), check=True)
-    subprocess.run(["git", "commit", "-m", message, "--allow-empty-message"],
-                   cwd=str(REPO_DIR), env=e, check=True, capture_output=True)
+    env = {**_GIT_ENV_BASE, "GIT_AUTHOR_DATE": iso, "GIT_COMMITTER_DATE": iso}
+    tree   = _git(["write-tree"], env=env).stdout.strip()
+    parent = _git(["rev-parse", "HEAD"], env=env).stdout.strip()
+    commit = _git(["commit-tree", tree, "-p", parent, "-m", message or " "], env=env).stdout.strip()
+    _git(["update-ref", "HEAD", commit], env=env)
 
 
-# ── Progress ───────────────────────────────────────────────────────────────────
+# ── Progress (append-only text file) ──────────────────────────────────────────
 
 def progress_file(zbirka):
-    return REPO_DIR / f".progress_{safe_name(zbirka)[:40]}.json"
+    return REPO_DIR / f".progress_{safe_name(zbirka)[:40]}.txt"
 
 
 def load_progress(zbirka):
     pf = progress_file(zbirka)
-    return set(json.loads(pf.read_text())) if pf.exists() else set()
+    return set(pf.read_text().splitlines()) if pf.exists() else set()
 
 
-def save_progress(zbirka, done):
-    progress_file(zbirka).write_text(json.dumps(list(done)))
+_progress_locks = {}
+_progress_lock_lock = threading.Lock()
+
+def _get_progress_lock(zbirka):
+    with _progress_lock_lock:
+        if zbirka not in _progress_locks:
+            _progress_locks[zbirka] = threading.Lock()
+        return _progress_locks[zbirka]
+
+
+def save_progress_append(zbirka, zid):
+    with _get_progress_lock(zbirka):
+        with open(progress_file(zbirka), "a") as f:
+            f.write(zid + "\n")
 
 
 # ── Index cache ────────────────────────────────────────────────────────────────
@@ -302,7 +357,6 @@ def build_index(zbirka):
                 print(f"  {year}: {len(batch)} (of {count})")
                 items.extend(batch)
     else:
-        # Fallback: paginate by municipality
         data = pisrs_post({"cursorMark": "*"}, {"nazivZbirke": [zbirka]})
         municipalities = [(f["value"], f["count"])
                          for f in (data.get("obcinaOrganSprejetjaOrganFacet") or [])
@@ -323,6 +377,33 @@ def build_index(zbirka):
     return items
 
 
+# ── Fetch worker ───────────────────────────────────────────────────────────────
+
+def fetch_one(item, use_npb_fallback):
+    """Fetch text for one item. Returns (item, filepath, content) or (item, None, None)."""
+    zid   = item.get("zunanjiId", "")
+    sop   = item.get("sop") or ""
+    naziv = item.get("nazivAkta", "")
+    body  = None
+
+    if zid.startswith("doc_"):
+        body = fetch_sodna_praksa(zid)
+    else:
+        if sop:
+            html = fetch_ul_html(sop)
+            if html:
+                body = html_to_markdown(html)
+        if not body and use_npb_fallback:
+            body = fetch_pisrs_npb(zid)
+
+    if not body:
+        return item, None, None
+
+    filepath = LAW_DIR / f"{safe_name(zid)}.md"
+    content  = make_frontmatter(item) + f"\n# {naziv}\n\n{body}\n"
+    return item, filepath, content
+
+
 # ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
@@ -330,7 +411,11 @@ def main():
     parser.add_argument("--zbirka",   required=True, help="PISRS collection name")
     parser.add_argument("--dry-run",  action="store_true")
     parser.add_argument("--limit",    type=int,   default=0)
-    parser.add_argument("--delay",    type=float, default=0.4)
+    parser.add_argument("--delay",    type=float, default=0.0,
+                        help="Extra delay between fetches (default 0, rarely needed)")
+    parser.add_argument("--workers",  type=int,   default=8)
+    parser.add_argument("--batch-size", type=int, default=50,
+                        help="Commit every N items (default 50)")
     parser.add_argument("--no-ul-fallback-npb", action="store_true",
                         help="Skip PISRS NPB fallback if UL fetch fails")
     args = parser.parse_args()
@@ -343,68 +428,87 @@ def main():
     if args.limit:
         items = items[:args.limit]
 
-    print(f"\nProcessing {len(items)} items from '{args.zbirka}'")
-    ok = skip = fail = 0
+    pending = [it for it in items if it.get("zunanjiId", "") and it["zunanjiId"] not in done]
+    skipped = len(items) - len(pending)
+    print(f"\nProcessing {len(pending)} items (skipping {skipped} already done) from '{args.zbirka}'")
+    print(f"Workers: {args.workers}, batch size: {args.batch_size}")
 
-    for i, item in enumerate(items, 1):
-        zid   = item.get("zunanjiId", "")
-        sop   = item.get("sop") or ""
-        naziv = item.get("nazivAkta", "")
+    use_npb = not args.no_ul_fallback_npb
+    ok = fail = 0
 
-        if not zid:
-            continue
-        if zid in done:
-            skip += 1
-            continue
+    # Staged files waiting to be committed, grouped by date
+    staged: dict[str, list[str]] = {}   # date_str → list of commit messages
+    staged_count = 0
 
-        print(f"[{i}/{len(items)}] {zid} ({sop})", end=" ", flush=True)
+    def flush_staged():
+        nonlocal staged, staged_count
+        if not staged:
+            return
+        with _git_lock:
+            for date_str in sorted(staged.keys()):
+                msgs = staged[date_str]
+                combined = msgs[0] if len(msgs) == 1 else f"[batch {date_str}] {len(msgs)} items"
+                git_commit_plumbing(date_str, combined)
+        staged = {}
+        staged_count = 0
 
-        body = None
+    total   = len(pending)
+    done_n  = 0
 
-        # Court decisions: fetch from sodnapraksa.si directly
-        if zid.startswith("doc_"):
-            body = fetch_sodna_praksa(zid)
-            if body:
-                print("[SP]", end=" ", flush=True)
-        else:
-            # Try Uradni list first
-            if sop:
-                html = fetch_ul_html(sop)
-                if html:
-                    body = html_to_markdown(html)
+    with ThreadPoolExecutor(max_workers=args.workers) as ex:
+        futures = {ex.submit(fetch_one, item, use_npb): item for item in pending}
 
-            # Fallback: PISRS NPB
-            if not body and not args.no_ul_fallback_npb:
-                body = fetch_pisrs_npb(zid)
-                if body:
-                    print("[NPB]", end=" ", flush=True)
+        for future in as_completed(futures):
+            item = futures[future]
+            zid  = item.get("zunanjiId", "")
+            done_n += 1
 
-        if not body:
-            print("→ NO TEXT")
-            fail += 1
-            done.add(zid)
-            save_progress(args.zbirka, done)
-            continue
-
-        filepath = LAW_DIR / f"{safe_name(zid)}.md"
-        content  = make_frontmatter(item) + f"\n# {naziv}\n\n{body}\n"
-        filepath.write_text(content, encoding="utf-8")
-
-        if not args.dry_run:
             try:
-                git_commit_item(filepath, item_date(item), f"[{zid}] {naziv}")
-            except subprocess.CalledProcessError:
-                print("→ GIT ERR")
+                _, filepath, content = future.result()
+            except Exception as e:
+                print(f"[{done_n}/{total}] {zid} → EXCEPTION: {e}")
                 fail += 1
+                done.add(zid)
+                save_progress_append(args.zbirka, zid)
                 continue
 
-        print("→ OK")
-        ok += 1
-        done.add(zid)
-        save_progress(args.zbirka, done)
-        time.sleep(args.delay)
+            if filepath is None:
+                print(f"[{done_n}/{total}] {zid} → NO TEXT")
+                fail += 1
+            else:
+                filepath.write_text(content, encoding="utf-8")
+                print(f"[{done_n}/{total}] {zid} → OK")
+                ok += 1
 
-    print(f"\nDone: {ok} ok, {skip} skipped, {fail} no-text")
+                if not args.dry_run:
+                    d = item_date(item)
+                    msg = f"[{zid}] {item.get('nazivAkta', '')}"
+                    with _git_lock:
+                        try:
+                            git_stage_file(filepath)
+                            if d not in staged:
+                                staged[d] = []
+                            staged[d].append(msg)
+                            staged_count += 1
+                        except Exception as e:
+                            print(f"  git stage error: {e}")
+
+            done.add(zid)
+            save_progress_append(args.zbirka, zid)
+
+            if args.delay:
+                time.sleep(args.delay)
+
+            # Commit batch when ready
+            if staged_count >= args.batch_size and not args.dry_run:
+                flush_staged()
+                print(f"  → committed batch (total ok={ok}, fail={fail})")
+
+    # Final commit for remaining staged files
+    if not args.dry_run:
+        flush_staged()
+
+    print(f"\nDone: {ok} ok, {skipped} skipped, {fail} no-text")
 
 
 if __name__ == "__main__":

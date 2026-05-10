@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pravilnik o predložitvi in prevzemu podatkov s plačilnih navodil, izpiska o prometu in stanju, delnih izpisov ter obrestnih listov v računalniški obliki — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Pravilnik o predložitvi in prevzemu podatkov s plačilnih navodil, izpiska o prometu in stanju, delnih izpisov ter obrestnih listov v računalniški obliki</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>PRAV10113</strong></dd>
+      <dt>Vrsta</dt><dd>pravilnik</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2010-02-05</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0260" target="_blank">Uradni list RS</a></dd>
+    </dl>
+    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10113.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+  </aside>
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:PRAV10113,vrsta:pravilnik">
+    <h1>Pravilnik o predložitvi in prevzemu podatkov s plačilnih navodil, izpiska o prometu in stanju, delnih izpisov ter obrestnih listov v računalniški obliki</h1>
+<p>Na podlagi tretjega odstavka 74. člena Zakona o plačilnem prometu (Uradni list RS, št. 110/06 – uradno prečiščeno besedilo, 114/06 – <a href="/trubar/si/ZUE/" class="law-ref" title="ZUE">ZUE</a>, 131/06 – <a href="/trubar/si/ZBan-1/" class="law-ref" title="ZBan-1">ZBan-1</a>, 102/07, 126/07 – <a href="/trubar/si/ZFPPIPP/" class="law-ref" title="ZFPPIPP">ZFPPIPP</a> in 58/09 – <a href="/trubar/si/ZPlaSS/" class="law-ref" title="ZPlaSS">ZPlaSS</a>) izdaja minister za finance</p>
+<h2>P R A V I L N I K</h2>
+<p>o predložitvi in prevzemu podatkov s plačilnih navodil, izpiska o prometu in stanju, delnih izpisov ter obrestnih listov v računalniški obliki</p>
+<h3>I. SPLOŠNE DOLOČBE</h3>
+<h3>1. člen</h3>
+<p>(1) Ta pravilnik določa:<br />
+– način predložitve podatkov s plačilnih navodil in prevzema podatkov izpiska o prometu in stanju, delnih izpisov ter obrestnih listov v računalniški obliki;<br />
+– strukturo računalniškega zapisa podatkov z domačega plačilnega navodila, z evropskega plačilnega naloga in s tujega plačilnega navodila za odliv, ki jih proračunski uporabnik predloži Upravi Republike Slovenije za javna plačila (v nadaljnjem besedilu: UJP) v izvršitev, strukturo računalniškega zapisa podatkov o opravljenih plačilnih transakcijah prek podračuna proračunskega uporabnika ali računa v obliki domačega izpiska, tujega izpiska in izpiska v xml strukturi, ki jih UJP pošlje proračunskemu uporabniku, strukturo računalniškega zapisa podatkov o določenih plačilnih transakcijah prek podračunov nadzornika v obliki delnega izpisa, ki ga UJP pošlje nadzorniku, ter strukturo računalniškega zapisa podatkov o obrestnih listih, prejetih od Banke Slovenije, ki jih UJP posreduje proračunskim uporabnikom.<br />
+(2) Določbe tega pravilnika, ki se nanašajo na proračunskega uporabnika, se uporabljajo tudi za nosilca javnih pooblastil, kadar nadzira javnofinančne prihodke.</p>
+<h3>2. člen</h3>
+<p>Pojmi, uporabljeni v tem pravilniku, imajo naslednji pomen:<br />
+1. proračunski uporabnik je neposredni ali posredni uporabnik državnega proračuna oziroma proračuna samoupravne lokalne skupnosti, ki je vpisan v register proračunskih uporabnikov pri UJP;<br />
+2. nadzornik je proračunski uporabnik ali nosilec javnih pooblastil, ki je s posebnim predpisom pooblaščen za nadzor nad obračunavanjem in plačevanjem obveznih dajatev in drugih javnofinančnih prihodkov;<br />
+3. odredbodajalec ali nalogodajalec je proračunski uporabnik – plačnik;<br />
+4. plačnik je proračunski uporabnik - nalogodajalec, ki odredi plačilno transakcijo tako, da izda plačilno navodilo;<br />
+5. dolžnik je referenčna stranka nalogodajalca, ki odredi plačilno transakcijo;<br />
+6. prejemnik plačila je fizična ali pravna oseba, ki je prejemnik denarnih sredstev, ki so predmet plačilne transakcije;<br />
+7. upnik je referenčna stranka prejemnika, ki je prejemnik denarnih sredstev, ki so predmet plačilne transakcije;<br />
+8. ponudnik plačilnih storitev je UJP;<br />
+9. plačilno navodilo je naročilo proračunskega uporabnika UJP za negotovinsko poravnavo obveznosti v domači ali tuji valuti. Proračunski uporabnik lahko uporablja:<br />
+– evropski plačilni nalog,<br />
+– domače plačilno navodilo (BN02),<br />
+– ali tuje plačilno navodilo za odliv (TPNO 70);<br />
+10. evropski plačilni nalog je plačilno navodilo, ki ga plačnik uporabi za negotovinsko poravnavo obveznosti v domači valuti, če ima prejemnik odprt račun pri enem od ponudnikov plačilnih storitev s sedežem v Republiki Sloveniji ali izven Republike Slovenije na območju evropskega gospodarskega prostora; evropski nalog omogoča izvrševanje plačil tudi v sistem SEPA;<br />
+11. domače plačilno navodilo (BN02) je plačilno navodilo, ki ga plačnik uporabi za negotovinsko poravnavo obveznosti v domači valuti, če ima prejemnik plačila račun odprt pri enem od ponudnikov plačilnih storitev s sedežem v Republiki Sloveniji, ter za dvig in polog gotovine v domači valuti pri enem od ponudnikov plačilnih storitev;<br />
+12. tuje plačilno navodilo za odliv (TPNO 70) je plačilno navodilo, ki ga plačnik uporabi za negotovinsko poravnavo obveznosti, kadar niso izpolnjeni pogoji za uporabo evropskega plačilnega naloga ali domačega plačilnega navodila;<br />
+13. Sistem SEPA (Single Euro Payments Area – Enotno območje plačil v eurih) vključuje ponudnike plačilnih storitev, ki so dosegljivi v okolju SEPA; plačilne transakcije med ponudniki plačilnih storitev se izmenjujejo skladno s pravili, pogoji in standardi, ki jih ureja SEPA;<br />
+14. plačilni instrumenti so naprave oziroma nizi postopkov, ki so dogovorjeni med posameznim proračunskim uporabnikom in UJP in so vezani le na tega proračunskega uporabnika z namenom, da ga uporabi za odreditev plačilnega navodila (v nadaljnjem besedilu: nosilec podatkov), in sicer:<br />
+– zgoščenka, dostavljena osebno ali po pošti,<br />
+– USB ključ, dostavljen osebno ali po pošti,<br />
+– e-sporočilo, poslano po elektronski pošti (v nadaljnjem besedilu: e-pošta),<br />
+– UJPnet sporočilo, posredovano prek spletne aplikacije UJPnet (v nadaljnjem besedilu: UJPnet);<br />
+15. račun pomeni enotni zakladniški račun (v nadaljnjem besedilu: EZR) ali posebni namenski transakcijski račun, ki je številčen v strukturi transakcijskega računa in odprt pri Banki Slovenije ter prek katerega potekajo vsa plačila in izplačila javnofinančnih sredstev, ali gotovinski račun proračunskega uporabnika ali transakcijski račun prejemnika oziroma plačnika plačila;<br />
+16. podračun pomeni podračun proračunskega uporabnika ali nadzornika, ki je številčen v strukturi transakcijskega računa in je odprt pri UJP;<br />
+17. izpisek je izpisek plačilnih transakcij računa ali podračuna proračunskega uporabnika in izpisek stanja na računu ali podračunu;<br />
+18. delni izpis je izpis določenih plačilnih transakcij enega ali več podračunov, pripravljenih za potrebe nadzornikov po posebnih merilih, ki so določena v pravilniku, ki ureja opravljanje nalog UJP na področju plačevanja in razporejanja obveznih dajatev in drugih javnofinančnih prihodkov;<br />
+19. obrestni list je izpis dnevnih obresti za prosta denarna sredstva na EZR in posebnem namenskem transakcijskem računu, ki jih obračuna Banka Slovenije in ga posreduje UJP.</p>
+<h3>3. člen</h3>
+<p>(1) Proračunski uporabnik predloži UJP podatke z domačih plačilnih navodil na zgoščenki, na USB ključu, po e-pošti ali prek UJPnet.<br />
+(2) Proračunski uporabnik predloži UJP podatke z evropskih plačilnih nalogov in s tujih plačilnih navodil za odlive prek UJPnet.<br />
+(3) Proračunski uporabnik od UJP prevzame podatke domačega izpiska, delnega izpisa in tujega izpiska po e-pošti ali prek UJPnet.<br />
+(4) Proračunski uporabnik od UJP prevzame podatke izpiska in delnega izpisa v xml strukturi prek UJPnet.<br />
+(5) Proračunski uporabnik prevzame podatke obrestnega lista v xml strukturi prek UJPnet.</p>
+<h3>4. člen</h3>
+<p>Način predložitve podatkov z domačih plačilnih navodil, evropskih plačilnih nalogov in s tujih plačilnih navodil za odliv ter način pošiljanja izpiskov, delnih izpisov ter obrestnih listov dogovorita proračunski uporabnik oziroma nadzornik in UJP.</p>
+<h3>5. člen</h3>
+<p>(1) Proračunski uporabnik lahko predloži UJP podatke z domačih plačilnih navodil, evropskih plačilnih nalogov in s tujih plačilnih navodil za odliv na nosilcu podatkov. Če so podatki predloženi na zgoščenki ali na USB ključu, mora proračunski uporabnik predložiti tudi izpis podatkov na papirju. Vsebina izpisa na papirju mora biti enaka vsebini podatkov na predloženi zgoščenki ali predloženem USB ključu, kar s podpisom potrdi pooblaščena oseba proračunskega uporabnika.<br />
+(2) Za predložitev podatkov UJP po e-pošti ali prek UJPnet veljajo splošni predpisi, ki urejajo elektronsko poslovanje. Podrobnosti in morebitne posebnosti pisno uredita proračunski uporabnik in UJP.<br />
+(3) Proračunski uporabnik lahko UJP na predpisan način predloži tudi nujna domača plačilna navodila, nujne evropske naloge in nujna tuja plačilna navodila za odliv.</p>
+<h3>6. člen</h3>
+<p>Proračunski uporabniki lahko predlagajo plačilna navodila v UJP in prevzemajo izpiske, delne izpise in obrestne liste v obliki tekstovnih datotek txt ali xml, in sicer v strukturi:<br />
+– TKDIS.txt za predložitev datoteke s podatki domačih plačilnih navodil;<br />
+– TPNO.txt za predložitev datoteke s podatki tujih plačilnih navodil za odliv, in sicer v primeru čezmejne plačilne transakcije oziroma plačilne transakcije v tujino oziroma domače plačilne transakcije do nerezidentov, v tuji ali v domači valuti;<br />
+– TKIZP.txt za prevzem podatkov izpiska o stanju na računu/podračunu ali podatkov delnega izpisa o prometu na računu/podračunu;<br />
+– TKDIS.txt za prevzem podatkov izpiska o transakcijah na računu/podračunu ali podatke delnega izpisa o določenih transakcijah na računu/podračunu;<br />
+– EvropskiNalog.xml za predložitev datoteke s podatki evropskih plačilnih nalogov, in sicer za domače plačilne transakcije, čezmejne plačilne transakcije in domače plačilne transakcije nerezidentu;<br />
+– Izpisek.xml za prevzem podatkov izpiska o stanju in transakcijah na računu/podračunu;<br />
+– DelniIzpis.xml za prevzem podatkov delnega izpisa o prometu in o določenih transakcijah na podračunu;<br />
+– ObrestniList.xml za prevzem podatkov obrestnega lista o dnevnih obrestih za prosta denarna sredstva na EZR in posebnem namenskem transakcijskem računu.</p>
+<h3>II. LASTNOSTI IN PRAVILA OBLIKOVANJA STRUKTURE DATOTEK V TXT OBLIKI</h3>
+<h3>7. člen</h3>
+<p>(1) Ime datoteke mora biti oblikovano na naslednji način:<br />
+a) datoteke, posredovane na zgoščenki, na USB ključu, prek UJPnet in po e-pošti ter prevzete na zgoščenki, na USB ključu in po e-pošti:<br />
+– TKDIS.txt za predložitev podatkov domačih plačilnih navodil,<br />
+– TPNO.txt za predložitev podatkov tujih plačilnih navodil za odlive,<br />
+– TKIZP.txt za prevzem podatkov izpiska o stanju na računu ali podatkov delnega izpisa o prometu na računu/podračunu,<br />
+– TKDIS.txt za prevzem podatkov izpiska o transakcijah na računu/podračunu ali podatkov delnega izpisa o določenih transakcijah na računu/podračunu,<br />
+b) datoteke, prevzete prek UJPnet:<br />
+– PPPPPPPPPPPPPPPVVV_DDMMLL_TKIZP.txt za prevzem podatkov izpiska o stanju na računu/podračunu,<br />
+– PPPPPPPPPPPPPPPVVV_DDMMLL_TKDIS.txt za prevzem podatkov izpiska o transakcijah na računu/podračunu</p>
+<p>PPPPPPPPPPPPPPP   = številka podračuna<br />
+ VVV               = šifra valute<br />
+ DDMMLL            = dan, mesec in leto izpiska<br />
+ TKIZP             = označuje datoteko z informacijami o<br />
+                     stanju<br />
+ TKDIS             = označuje datoteko z informacijami o<br />
+                     transakcijah</p>
+<p>– DD_BBBBB_LLLLMMDD_TKIZP.txt za prevzem podatkov delnega izpisa o prometu na računu/podračunu,<br />
+– DD_BBBBB_LLLLMMDD_TKDIS.txt za prevzem podatkov delnega izpisa o določenih transakcijah na računu/podračunu</p>
+<p>DD                = način priprave podatkov<br />
+ BBBBB             = oznaka prejemnika<br />
+ LLLLMMDD          = leto, mesec in dan delnega izpisa<br />
+ TKIZP             = označuje datoteko z informacijami o<br />
+                     stanju<br />
+ TKDIS             = označuje datoteko z informacijami o<br />
+                     transakcijah</p>
+<p>– GOT_ PPPPPPPPPPPPPPP_LLLLMMDD_TKIZP.txt za prevzem podatkov o stanju na gotovinskem računu,<br />
+– GOT_ PPPPPPPPPPPPPPP_LLLLMMDD_TKDIS.txt za prevzem podatkov o transakcijah na gotovinskem računu</p>
+<p>GOT               = oznaka izpiska<br />
+ PPPPPPPPPPPPPPP   = številka računa<br />
+ LLLLMMDD          = leto, mesec in dan izpiska<br />
+ TKIZP             = označuje datoteko z informacijami o<br />
+                     stanju<br />
+ TKDIS             = označuje datoteko z informacijami o<br />
+                     transakcijah.</p>
+<p>(2) Stavki v datoteki txt morajo biti:<br />
+– zapisani v standardu JUS. I. B1. 002 (1982),<br />
+– med seboj ločeni z znakoma CR (CtrlM, 13dec) in LF (CtrlJ, 10dec),<br />
+– zapisani le z velikimi črkami.<br />
+(3) Datoteka txt mora biti zaključena z znakom SUB (CtrlZ, 26dec).<br />
+(4) Podatki v txt obliki, predloženi na zgoščenki, na USB ključu, po e-pošti ali prek UJPnet, so lahko zapisani tudi v ASCII kodi (7 bit), vendar morajo biti naslednje črke (šumniki) zapisani s kodo:<br />
+Č-5E, Š-5B, Ž-40, Ć-5D, Đ-5C (hex)<br />
+Č-94, Š-91, Ž-64, Ć-93, Đ-92 (dec).<br />
+(5) Za oblikovanje posameznih stavkov veljajo splošna pravila:<br />
+– številčni podatki so zapisani z vodilnimi ničlami in desno poravnani,<br />
+– številčni podatki so zapisani brez decimalne vejice, zadnja dva znaka predstavljata decimalni mesti,<br />
+– negativen predznak je prisoten na prvem mestu numeričnega polja in dovoljen le v poljih izpiska 'prejšnje stanje' in 'novo stanje',<br />
+– prazni podatki se napolnijo s presledki,<br />
+– alfanumerični podatki so levo poravnani in do dolžine polja zapolnjeni s presledki in<br />
+– transakcijski račun zapolnjuje prvih 15 mest (15 številk) in je do dolžine polja zapolnjen s presledki ali oznako tuje valute.<br />
+(6) Datoteke txt s podatki izpiskov in delnih izpisov, prevzetih prek UJPnet, so pripravljene v kodni tabeli CP:1250.</p>
+<h3>8. člen</h3>
+<p>Če proračunski uporabnik UJP predloži nujna domača plačilna navodila, morajo biti ta plačilna navodila predložena ločeno od rednih plačilnih navodil, na ločenem nosilcu podatkov.</p>
+<h3>a) Struktura datoteke TKDIS.txt za predložitev podatkov</h3>
+<h3>9. člen</h3>
+<p>(1) Računalniški zapis za predložitev podatkov domačih plačilnih navodil vsebuje tri vrste stavkov: naslovnega, zbirnega in individualnega.<br />
+(2) Stavki se zapišejo na datoteko po naslednjem vrstnem redu:<br />
+naslovni {zbirni (individualni)}.<br />
+(3) Naslovnemu stavku sledijo skupine, sestavljene iz enega zbirnega in več individualnih stavkov. Zbirni stavek in pripadajoči individualni stavki sestavljajo logično celoto podatkov, za katero veljajo pravila:<br />
+– v elektronskem zapisu sme biti toliko zbirnih stavkov, kolikor je priloženih zbirnih plačilnih navodil, vendar ne več kot 999,<br />
+– v okviru enega zbirnega plačilnega navodila sme biti največ 9.999 individualnih plačilnih navodil,<br />
+– število znakov skupnega zneska v okviru ene logične celote na sme presegati 15 mest.</p>
+<h3>10. člen</h3>
+<p>Struktura naslovnega stavka:</p>
+<p>+----------+---------+-----+---------------------------------+<br />
+| Pozicija | Število | Tip |            Opis polja           |<br />
+|          | znakov  |polja|                                 |<br />
++----------+---------+-----+---------------------------------+<br />
+|         1|       15|  N  |Številka računa/podračuna        |<br />
+|          |         |     |plačnika:                        |<br />
+|          |         |     |20. številka računa ali          |<br />
+|          |         |     |podračuna proračunskega          |<br />
+|          |         |     |uporabnika,                      |<br />
+|          |         |     |21. identificira predlagatelja   |<br />
+|          |         |     |podatkov                         |<br />
++----------+---------+-----+---------------------------------+<br />
+|        16|        3|  A  |Prazno                           |<br />
++----------+---------+-----+---------------------------------+<br />
+|        19|       35|  A  |Ime plačnika                     |<br />
++----------+---------+-----+---------------------------------+<br />
+|        54|       10|  A  |Kraj plačnika                    |<br />
++----------+---------+-----+---------------------------------+<br />
+|        64|        6|  A  |Datum obdelave:                  |<br />
+|          |         |     |22. oblika: DDMMLL               |<br />
+|          |         |     |23. datum obdelave v UJP         |<br />
++----------+---------+-----+---------------------------------+<br />
+|        70|        3|  N  |Številka elektronskega zapisa:   |<br />
+|          |         |     |– določi jo organizacijska enota |<br />
+|          |         |     |UJP                              |<br />
++----------+---------+-----+---------------------------------+<br />
+|        73|        3|  N  |Vrsta posla: 16                  |<br />
++----------+---------+-----+---------------------------------+<br />
+|        76|      104|  A  |Prazno                           |<br />
++----------+---------+-----+---------------------------------+<br />
+|       180|        1|  N  |Tip stavka: 0                    |<br />
++----------+---------+-----+---------------------------------+<br />
+|   Skupaj:|      180|     |                                 |<br />
++----------+---------+-----+---------------------------------+</p>
+<h3>11. člen</h3>
+<p>Struktura zbirnega stavka:</p>
+<p>+----------+---------+-----+---------------------------------+<br />
+| Pozicija | Število | Tip |            Opis polja           |<br />
+|          | znakov  |polja|                                 |<br />
++----------+---------+-----+---------------------------------+<br />
+|         1|       15|  N  |Številka računa/podračuna        |<br />
+|          |         |     |plačnika:                        |<br />
+|          |         |     |24. številka računa ali          |<br />
+|          |         |     |podračuna proračunskega          |<br />
+|          |         |     |uporabnika; lahko je enaka       |<br />
+|          |         |     |številki v naslovnem stavku;     |<br />
+|          |         |     |25. identificira odredbodajalca  |<br />
+|          |         |     |– plačnika                       |<br />
++----------+---------+-----+---------------------------------+<br />
+|        16|        3|  A  |Prazno                           |<br />
++----------+---------+-----+---------------------------------+<br />
+|        19|       35|  A  |Ime plačnika                     |<br />
++----------+---------+-----+---------------------------------+<br />
+|        54|       10|  A  |Kraj plačnika                    |<br />
++----------+---------+-----+---------------------------------+<br />
+|        64|       15|  N  |Skupni znesek: seštevek zneskov  |<br />
+|          |         |     |individualnih stavkov v okviru   |<br />
+|          |         |     |logične celote podatkov          |<br />
+|          |         |     |(zbirnega stavka)                |<br />
++----------+---------+-----+---------------------------------+<br />
+|        79|        5|  N  |Število plačilnih navodil:       |<br />
+|          |         |     |število individualnih plačilnih  |<br />
+|          |         |     |navodil v okviru logične celote  |<br />
+|          |         |     |podatkov                         |<br />
++----------+---------+-----+---------------------------------+<br />
+|        84|        1|  N  |Vrsta logične celote:            |<br />
+|          |         |     |26. 1, če vsa individualna       |<br />
+|          |         |     |plačilna navodila v okviru       |<br />
+|          |         |     |zbirnega plačilnega naloga       |<br />
+|          |         |     |vsebujejo vse zahtevane podatke, |<br />
+|          |         |     |sicer                            |<br />
+|          |         |     |27. 0                            |<br />
++----------+---------+-----+---------------------------------+<br />
+|        85|        1|  N  |Karakter logične celote:         |<br />
+|          |         |     |28. 1 za plačilna navodila       |<br />
+|          |         |     |obremenitve                      |<br />
+|          |         |     |29. 2 za plačilna navodila       |<br />
+|          |         |     |odobritve                        |<br />
++----------+---------+-----+---------------------------------+<br />
+|        86|       89|  A  |Prazno                           |<br />
++----------+---------+-----+---------------------------------+<br />
+|       175|        3|  A  |Številka specifikacije:          |<br />
+|          |         |     |zaporedna številka dneva v letu  |<br />
++----------+---------+-----+---------------------------------+<br />
+|       178|        2|  A  |Vir informacije:                 |<br />
+|          |         |     |30. 33 - zgoščenka in USB ključ  |<br />
+|          |         |     |z nujnimi plačilnimi navodili    |<br />
+|          |         |     |31. 35 - e-pošta in UJPnet z     |<br />
+|          |         |     |nujnimi plačilnimi navodili      |<br />
+|          |         |     |32. prazno                       |<br />
++----------+---------+-----+---------------------------------+<br />
+|       180|        1|  N  |Tip stavka: 9                    |<br />
++----------+---------+-----+---------------------------------+<br />
+|   Skupaj:|      180|     |                                 |<br />
++----------+---------+-----+---------------------------------+</p>
+<h3>12. člen</h3>
+<p>Struktura individualnega stavka:</p>
+<p>+----------+----------+---+----------------------------------+<br />
+| Pozicija | Število  |Tip|            Opis polja            |<br />
+|          |  znakov  |   |                                  |<br />
++----------+----------+---+----------------------------------+<br />
+|         1|        15| N |Številka računa/podračuna         |<br />
+|          |          |   |prejemnika plačila / plačnika:    |<br />
+|          |          |   |33. številka računa ali podračuna |<br />
+|          |          |   |proračunskega uporabnika, številka|<br />
+|          |          |   |drugega transakcijskega računa;   |<br />
+|          |          |   |34. identificira prejemnika       |<br />
+|          |          |   |plačila                           |<br />
++----------+----------+---+----------------------------------+<br />
+|        16|         3| A |Prazno                            |<br />
++----------+----------+---+----------------------------------+<br />
+|        19|        35| A |Ime prejemnika plačila/plačnika   |<br />
++----------+----------+---+----------------------------------+<br />
+|        54|        10| A |Kraj prejemnika plačila/plačnika  |<br />
++----------+----------+---+----------------------------------+<br />
+|        64|         1| N |Zakonska prioriteta: številka     |<br />
+|          |          |   |zakonsko določenega vrstnega reda |<br />
+|          |          |   |plačevanja obveznosti             |<br />
+|          |          |   |polje je lahko prazno             |<br />
++----------+----------+---+----------------------------------+<br />
+|        65|        24| A |Referenca na številko obremenitve:|<br />
+|          |          |   |natančneje določi poslovno        |<br />
+|          |          |   |spremembo pri plačniku – osnova za|<br />
+|          |          |   |knjiženje pri proračunskem        |<br />
+|          |          |   |uporabniku                        |<br />
++----------+----------+---+----------------------------------+<br />
+|        89|        36| A |Namen nakazila: opis namena       |<br />
+|          |          |   |nakazila                          |<br />
++----------+----------+---+----------------------------------+<br />
+|       125|         5| A |Prazno                            |<br />
++----------+----------+---+----------------------------------+<br />
+|       130|         2| A |Oznaka za zvezo                   |<br />
++----------+----------+---+----------------------------------+<br />
+|       132|         2| A |Šifra izdatkov                    |<br />
++----------+----------+---+----------------------------------+<br />
+|       134|         2| A |Šifra prejemkov                   |<br />
++----------+----------+---+----------------------------------+<br />
+|       136|        13| N |Znesek: znesek individualnega     |<br />
+|          |          |   |plačilnega navodila               |<br />
++----------+----------+---+----------------------------------+<br />
+|       149|        24| A |Referenca na številko odobritve:  |<br />
+|          |          |   |natančneje določi poslovno        |<br />
+|          |          |   |spremembo pri prejemniku plačila  |<br />
++----------+----------+---+----------------------------------+<br />
+|       173|         7| A |Prazno                            |<br />
++----------+----------+---+----------------------------------+<br />
+|       180|         1| N |Tip stavka: 1                     |<br />
++----------+----------+---+----------------------------------+<br />
+|   Skupaj:|       180|   |                                  |<br />
++----------+----------+---+----------------------------------+</p>
+<h3>b) Struktura datoteke TPNO.txt za predložitev podatkov</h3>
+<h3>13. člen</h3>
+<p>(1) Datoteka za predložitev podatkov tujih plačilnih navodil za odliv, ki jo proračunski uporabnik predloži UJP, vsebuje štiri vrste stavkov: odredbodajalec, plačilo, statistika in kritje.<br />
+(2) Stavki se zapišejo na datoteko s podatki po naslednjem vrstnem redu:<br />
+odredbodajalec {plačilo (statistika,[kritje])}.<br />
+(3) Stavku ‘odredbodajalec’ sledijo skupine, sestavljene iz enega stavka ‘plačilo’ in enega ali več stavkov 'statistika' ter enega stavka 'kritje'. Stavek ‘plačilo’ in pripadajoči stavki ‘statistika’ in ‘kritje’ sestavljajo logično celoto podatkov, za katero veljajo pravila:<br />
+– v okviru enega stavka ‘plačilo’ sme biti največ 99 stavkov 'statistika' in največ en stavek ‘kritje’,<br />
+– številčni podatki morajo biti zapisani z vodilnimi ničlami,<br />
+– prazna polja se izpolnijo s presledki (32dec).</p>
+<h3>14. člen</h3>
+<p>Struktura stavka odredbodajalec:</p>
+<p>+----------+---------+-----+---------------------------------+<br />
+| Pozicija | Število | Tip |            Opis polja           |<br />
+|          | znakov  |polja|                                 |<br />
++----------+---------+-----+---------------------------------+<br />
+|         1|        1|  A  |Oznaka zapisa = O; en zapis v    |<br />
+|          |         |     |okviru datoteke                  |<br />
++----------+---------+-----+---------------------------------+<br />
+|         2|        3|  N  |Število zapisov tipa »P«;        |<br />
+|          |         |     |kontrolno polje (zaporedna       |<br />
+|          |         |     |številka 001-999)                |<br />
++----------+---------+-----+---------------------------------+<br />
+|         5|        4|  N  |Šifra proračunskega uporabnika   |<br />
+|          |         |     |brez kontrolne številke          |<br />
++----------+---------+-----+---------------------------------+<br />
+|         9|       35|  A  |Naziv plačnika                   |<br />
++----------+---------+-----+---------------------------------+<br />
+|        44|       50|  A  |Naslov plačnika                  |<br />
++----------+---------+-----+---------------------------------+<br />
+|        94|        7|  N  |Matična številka plačnika        |<br />
++----------+---------+-----+---------------------------------+<br />
+|       101|       15|  A  |Telefon: telefon kontaktne osebe |<br />
+|          |         |     |proračunskega uporabnika, ki je  |<br />
+|          |         |     |pripravila TPNO                  |<br />
++----------+---------+-----+---------------------------------+<br />
+|       116|       25|  A  |Referent: ime in priimek         |<br />
+|          |         |     |referenta pri proračunskem       |<br />
+|          |         |     |uporabniku, ki je pripravil TPNO |<br />
++----------+---------+-----+---------------------------------+<br />
+|       141|       15|  N  |Številka računa obremenitve:     |<br />
+|          |         |     |številka računa ali podračuna    |<br />
+|          |         |     |plačnika                         |<br />
++----------+---------+-----+---------------------------------+<br />
+|   Skupaj:|      155|     |                                 |<br />
++----------+---------+-----+---------------------------------+</p>
+<h3>15. člen</h3>
+<p>Struktura stavka plačilo:</p>
+<p>+----------+---------+-----+---------------------------------+<br />
+| Pozicija | Število | Tip |            Opis polja           |<br />
+|          | znakov  |polja|                                 |<br />
++----------+---------+-----+---------------------------------+<br />
+|         1|        1|  A  |Oznaka zapisa = P                |<br />
++----------+---------+-----+---------------------------------+<br />
+|         2|        2|  N  |Število zapisa tipa »S«;         |<br />
+|          |         |     |kontrolno polje (zaporedna       |<br />
+|          |         |     |številka 01-99)                  |<br />
++----------+---------+-----+---------------------------------+<br />
+|         4|        2|  N  |Število zapisa tipa »K«;         |<br />
+|          |         |     |kontrolno polje (zaporedna       |<br />
+|          |         |     |številka 00-99)                  |<br />
++----------+---------+-----+---------------------------------+<br />
+|         6|        1|     |Način izvršitve plačila:         |<br />
+|          |         |     |35. 1:nakazilo                   |<br />
+|          |         |     |36. 2:ček                        |<br />
+|          |         |     |37. 3:akreditiv                  |<br />
+|          |         |     |38. 4:gotovina                   |<br />
++----------+---------+-----+---------------------------------+<br />
+|         7|        1|  N  |Instrument plačila: šifra iz     |<br />
+|          |         |     |šifranta instrumentov plačil za  |<br />
+|          |         |     |statistiko tuje plačilne         |<br />
+|          |         |     |storitve, ki ga objavlja BS      |<br />
++----------+---------+-----+---------------------------------+<br />
+|         8|       35|  A  |Naziv prejemnika:                |<br />
+|          |         |     |39. naziv prejemnika             |<br />
+|          |         |     |40. konstanta »po seznamu«, ko   |<br />
+|          |         |     |se nakazilo izvaja po seznamu    |<br />
+|          |         |     |upravičencev                     |<br />
++----------+---------+-----+---------------------------------+<br />
+|        43|       50|  A  |Naslov prejemnika:               |<br />
+|          |         |     |41. naslov prejemnika            |<br />
+|          |         |     |42. prazno, ko se nakazilo       |<br />
+|          |         |     |izvaja po seznamu                |<br />
++----------+---------+-----+---------------------------------+<br />
+|        93|        3|  N  |Šifra države upravičenca: šifra  |<br />
+|          |         |     |iz šifranta držav                |<br />
++----------+---------+-----+---------------------------------+<br />
+|        96|       34|  A  |Račun prejemnika:                |<br />
+|          |         |     |43. račun prejemnika plačila v   |<br />
+|          |         |     |strukturi mednarodne številke    |<br />
+|          |         |     |bančnega računa – v nadaljnjem   |<br />
+|          |         |     |besedilu: v strukturi IBAN, če   |<br />
+|          |         |     |le-ta obstaja                    |<br />
+|          |         |     |44. številka računa BS v         |<br />
+|          |         |     |strukturi IBAN v primeru dviga   |<br />
+|          |         |     |gotovine pri BS                  |<br />
+|          |         |     |45. prazno, ko se nakazilo       |<br />
+|          |         |     |izvaja po seznamu                |<br />
++----------+---------+-----+---------------------------------+<br />
+|       131|       35|  A  |Banka (ponudnik plačilnih        |<br />
+|          |         |     |storitev) prejemnika             |<br />
++----------+---------+-----+---------------------------------+<br />
+|       166|        3|  N  |Šifra države banke: šifra iz     |<br />
+|          |         |     |šifranta držav                   |<br />
++----------+---------+-----+---------------------------------+<br />
+|       169|       11|  A  |SWIFT koda banke prejemnika      |<br />
+|          |         |     |plačila; polje je lahko prazno   |<br />
++----------+---------+-----+---------------------------------+<br />
+|       180|       15|  N  |Znesek nakazila:                 |<br />
+|          |         |     |46. znesek nakazila plačila      |<br />
+|          |         |     |47. skupni znesek vseh nakazil,  |<br />
+|          |         |     |ko se izvaja nakazilo po seznamu |<br />
++----------+---------+-----+---------------------------------+<br />
+|       195|        3|  A  |Valuta nakazila: iz šifranta     |<br />
+|          |         |     |valut                            |<br />
++----------+---------+-----+---------------------------------+<br />
+|       198|        8|  N  |Datum obremenitve računa ali     |<br />
+|          |         |     |podračuna plačnika (DDMMLLLL)    |<br />
++----------+---------+-----+---------------------------------+<br />
+|       206|       70|  A  |Obvestilo prejemniku: opis       |<br />
+|          |         |     |namena nakazila za prejemnika    |<br />
+|          |         |     |plačila                          |<br />
++----------+---------+-----+---------------------------------+<br />
+|       276|        1|  A  |Oznaka stroška:                  |<br />
+|          |         |     |48. O-OUR                        |<br />
+|          |         |     |49. B-BEN                        |<br />
+|          |         |     |50. S-SHA (privzeta vrednost)    |<br />
++----------+---------+-----+---------------------------------+<br />
+|       277|       12|  N  |Številka naloga: določi jo       |<br />
+|          |         |     |izpolnjevalec obrazca v          |<br />
+|          |         |     |strukturi                        |<br />
+|          |         |     |ppppllnnnnnn in po pravilih:     |<br />
+|          |         |     |51. pppp je šifra plačnika brez  |<br />
+|          |         |     |kontrolke                        |<br />
+|          |         |     |52. ll je koledarsko leto        |<br />
+|          |         |     |53. nnnnnn je zaporedna številka |<br />
+|          |         |     |v okviru koledarskega leta       |<br />
+|          |         |     |nnnnnn mora biti manjša od       |<br />
+|          |         |     |899999                           |<br />
++----------+---------+-----+---------------------------------+<br />
+|       289|        1|  A  |Kritje po nalogu zakladnice:     |<br />
+|          |         |     |54. prazno                       |<br />
+|          |         |     |55. konstanta »K«, ko se kritje  |<br />
+|          |         |     |nakazila izvaja po nalogu        |<br />
+|          |         |     |Zakladnice EZR                   |<br />
++----------+---------+-----+---------------------------------+<br />
+|       290|        1|  A  |Seznam nakazil:                  |<br />
+|          |         |     |56. prazno                       |<br />
+|          |         |     |57. konstanta »S«, kadar je      |<br />
+|          |         |     |priložen seznam nakazil          |<br />
+|          |         |     |prejemnikom                      |<br />
++----------+---------+-----+---------------------------------+<br />
+|   Skupaj:|      290|     |                                 |<br />
++----------+---------+-----+---------------------------------+</p>
+<h3>16. člen</h3>
+<p>Struktura stavka statistika:</p>
+<p>+----------+---------+-----+---------------------------------+<br />
+| Pozicija | Število | Tip |            Opis polja           |<br />
+|          | znakov  |polja|                                 |<br />
++----------+---------+-----+---------------------------------+<br />
+|         1|        1|  A  |Oznaka zapisa = S; obvezna       |<br />
+|          |         |     |prisotnost vsaj enega zapisa     |<br />
++----------+---------+-----+---------------------------------+<br />
+|         2|        2|  N  |Zaporedna številka osnove: zap.  |<br />
+|          |         |     |številka zapisa tipa »S«         |<br />
++----------+---------+-----+---------------------------------+<br />
+|         4|        3|  N  |Šifra osnove: šifra iz šifranta  |<br />
+|          |         |     |osnov za statistiko plačilnih    |<br />
+|          |         |     |storitev s tujino (BS)           |<br />
++----------+---------+-----+---------------------------------+<br />
+|         7|        4|  N  |Šifra PI: šifra iz šifranta      |<br />
+|          |         |     |statističnih šifer               |<br />
+|          |         |     |izdatkov/prejemkov domačih       |<br />
+|          |         |     |plačilnih storitev (1.-2. znak:  |<br />
+|          |         |     |izdatek, 3.-4. znak: prejemek)   |<br />
++----------+---------+-----+---------------------------------+<br />
+|        11|        6|  A  |Prazno                           |<br />
++----------+---------+-----+---------------------------------+<br />
+|        17|       70|  A  |Opis transakcije                 |<br />
++----------+---------+-----+---------------------------------+<br />
+|        87|       15|  N  |Znesek v valuti nakazila         |<br />
++----------+---------+-----+---------------------------------+<br />
+|       102|       24|  A  |Referenca v breme/dobro:         |<br />
+|          |         |     |referenca po predpisanih modelih |<br />
+|          |         |     |za odobritve/obremenitve         |<br />
++----------+---------+-----+---------------------------------+<br />
+|       126|       12|  A  |Namen plačnika:                  |<br />
+|          |         |     |Namen-številka vknjižbe:         |<br />
+|          |         |     |zaporedna številka vknjižbe      |<br />
+|          |         |     |dogodka v evidenci plačnika      |<br />
++----------+---------+-----+---------------------------------+<br />
+|       138|       20|  A  |Namen plačnika:                  |<br />
+|          |         |     |Namen-številka odredbe v         |<br />
+|          |         |     |strukturi: xxxx(xx)-II-yyyyy-    |<br />
+|          |         |     |zzzz po pravilih:                |<br />
+|          |         |     |xxxx(xx) = šifra plačnika ali    |<br />
+|          |         |     |njegovega stroškovnega mesta     |<br />
+|          |         |     |ll = koledarsko leto             |<br />
+|          |         |     |yyyyy = evidenčna številka       |<br />
+|          |         |     |obračunskega dokumenta, za       |<br />
+|          |         |     |katerega je bila odredba         |<br />
+|          |         |     |pripravljena                     |<br />
+|          |         |     |zzzz = zaporedna številka        |<br />
+|          |         |     |odredbe v okviru evidenčne       |<br />
+|          |         |     |številke                         |<br />
++----------+---------+-----+---------------------------------+<br />
+|   Skupaj:|      157|     |                                 |<br />
++----------+---------+-----+---------------------------------+</p>
+<h3>17. člen</h3>
+<p>Struktura stavka kritje:</p>
+<p>+----------+---------+-----+---------------------------------+<br />
+| Pozicija | Število | Tip |            Opis polja           |<br />
+|          | znakov  |polja|                                 |<br />
++----------+---------+-----+---------------------------------+<br />
+|         1|        1|  A  |Oznaka zapisa = K; če se kritje  |<br />
+|          |         |     |izvaja po nalogu Zakladnice EZR  |<br />
++----------+---------+-----+---------------------------------+<br />
+|         2|        2|  N  |Zaporedna številka               |<br />
++----------+---------+-----+---------------------------------+<br />
+|         4|        3|  A  |Valuta kritja: oznaka iz         |<br />
+|          |         |     |šifranta valut                   |<br />
++----------+---------+-----+---------------------------------+<br />
+|         7|       15|  N  |Znesek v valuti kritja           |<br />
++----------+---------+-----+---------------------------------+<br />
+|   Skupaj:|       21|     |                                 |<br />
++----------+---------+-----+---------------------------------+</p>
+<h3>d) Struktura datoteke TKIZP.txt in TKDIS.txt za prevzem podatkov</h3>
+<h3>18. člen</h3>
+<p>(1) Podatki izpiska o stanju na računu/podračunu se v datoteki TKIZP.txt zapišejo v dveh vrstah stavkov, in sicer 01 in 99.<br />
+(2) Struktura stavka 01:</p>
+<p>+----------+---------+---------+-----------------------------+<br />
+| Pozicija | Število |   Tip   |         Opis polja          |<br />
+|          | znakov  | podatka |                             |<br />
++----------+---------+---------+-----------------------------+<br />
+|         1|        2|    A    |Vrsta stavka: 01 – stanje na |<br />
+|          |         |         |računu/podračunu; na datoteki|<br />
+|          |         |         |je en sam stavek vrste 01    |<br />
++----------+---------+---------+-----------------------------+<br />
+|         3|       18|    N    |Številka računa: številka    |<br />
+|          |         |         |računa ali podračuna         |<br />
+|          |         |         |plačnika;                    |<br />
+|          |         |         |58. v primeru tujega izpiska |<br />
+|          |         |         |so zadnja tri mesta oznaka   |<br />
+|          |         |         |valute                       |<br />
+|          |         |         |59. v primeru domačega       |<br />
+|          |         |         |izpiska so zadnja tri mesta  |<br />
+|          |         |         |prazna                       |<br />
++----------+---------+---------+-----------------------------+<br />
+|        21|        8|    A    |Datum obdelave v obliki      |<br />
+|          |         |         |DDMMLLLL                     |<br />
++----------+---------+---------+-----------------------------+<br />
+|        29|        8|    A    |Datum predhodnega izpiska v  |<br />
+|          |         |         |obliki: DDMMLLLL oziroma     |<br />
+|          |         |         |datum obdelave, če gre za    |<br />
+|          |         |         |prvi izpisek tega            |<br />
+|          |         |         |računa/podračuna             |<br />
++----------+---------+---------+-----------------------------+<br />
+|        37|       18|    N    |Prejšnje stanje, ki je končno|<br />
+|          |         |         |stanje predhodnega izpiska   |<br />
++----------+---------+---------+-----------------------------+<br />
+|        55|        6|    N    |Število transakcij v breme   |<br />
++----------+---------+---------+-----------------------------+<br />
+|        61|       18|    N    |Dnevni promet v breme-       |<br />
+|          |         |         |poravnano                    |<br />
++----------+---------+---------+-----------------------------+<br />
+|        79|        6|    N    |Število transakcij v dobro   |<br />
++----------+---------+---------+-----------------------------+<br />
+|        85|       18|    N    |Dnevni promet v dobro        |<br />
++----------+---------+---------+-----------------------------+<br />
+|       103|       18|    N    |Novo stanje:                 |<br />
+|          |         |         |novo stanje = prejšnje stanje|<br />
+|          |         |         |– dnevni promet v breme +    |<br />
+|          |         |         |dnevni promet v dobro        |<br />
++----------+---------+---------+-----------------------------+<br />
+|       121|        6|    N    |Število transakcij v dnevni  |<br />
+|          |         |         |čakalni vrsti: število       |<br />
+|          |         |         |neizvršenih transakcij       |<br />
++----------+---------+---------+-----------------------------+<br />
+|       127|       18|    N    |Skupni znesek v dnevni       |<br />
+|          |         |         |čakalni vrsti: skupni znesek |<br />
+|          |         |         |neizvršenih transakcij       |<br />
++----------+---------+---------+-----------------------------+<br />
+|       145|        3|    N    |Zaporedna številka izpiska   |<br />
++----------+---------+---------+-----------------------------+<br />
+|   Skupaj:|      147|         |                             |<br />
++----------+---------+---------+-----------------------------+</p>
+<p>(3) Struktura stavka 99:</p>
+<p>+---------+----------+---------+-----------------------------+<br />
+| Pozicija|  Število |   Tip   |         Opis polja          |<br />
+|         |  znakov  | podatka |                             |<br />
++---------+----------+---------+-----------------------------+<br />
+|        1|         2|    A    |Vrsta stavka: 99 – obvestilo |<br />
+|         |          |         |plačniku; na datoteki je     |<br />
+|         |          |         |poljubno število takih       |<br />
+|         |          |         |stavkov                      |<br />
++---------+----------+---------+-----------------------------+<br />
+|        3|        18|    A    |Številka računa: številka    |<br />
+|         |          |         |računa ali podračuna         |<br />
++---------+----------+---------+-----------------------------+<br />
+|       21|         8|    A    |Datum obvestila v obliki:    |<br />
+|         |          |         |DDMMLLLL                     |<br />
++---------+----------+---------+-----------------------------+<br />
+|       29|       116|    A    |Obvestilo plačniku: vrstica  |<br />
+|         |          |         |vsebine obvestila            |<br />
++---------+----------+---------+-----------------------------+<br />
+|      145|         3|    N    |Zaporedna številka zapisa:   |<br />
+|         |          |         |zaporedna številka vrstice   |<br />
+|         |          |         |obvestila                    |<br />
++---------+----------+---------+-----------------------------+<br />
+|  Skupaj:|       147|         |                             |<br />
++---------+----------+---------+-----------------------------+</p>
+<p>(4) Podatki delnega izpisa o prometu na računu/podračunu se v datoteki TKIZP.txt zapišejo v stavku 02, lahko pa tudi v obliki stavka vrste 01 in 99.<br />
+(5) Struktura stavka 02:</p>
+<p>+---------+----------+---------+-----------------------------+<br />
+| Pozicija|  Število |   Tip   |         Opis polja          |<br />
+|         |  znakov  | podatka |                             |<br />
++---------+----------+---------+-----------------------------+<br />
+|        1|         2|    A    |Vrsta stavka 02-delno stanje |<br />
+|         |          |         |na računu/podračunu (v       |<br />
+|         |          |         |datoteki je vsaj en stavek   |<br />
+|         |          |         |02, glede na število         |<br />
+|         |          |         |kriterijev pa jih je lahko   |<br />
+|         |          |         |tudi več)                    |<br />
++---------+----------+---------+-----------------------------+<br />
+|        3|        18|    N    |Številka podračuna           |<br />
+|         |          |         |nadzornika;                  |<br />
+|         |          |         |– v primeru delnega izpisa so|<br />
+|         |          |         |zadnja tri mesta prazna      |<br />
++---------+----------+---------+-----------------------------+<br />
+|       21|         8|    A    |Datum obdelave v obliki:     |<br />
+|         |          |         |DDMMLLLL                     |<br />
++---------+----------+---------+-----------------------------+<br />
+|       29|         8|    A    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|       37|        18|    N    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|       55|         6|    N    |Število transakcij v breme   |<br />
++---------+----------+---------+-----------------------------+<br />
+|       61|        18|    N    |Dnevni promet v breme        |<br />
++---------+----------+---------+-----------------------------+<br />
+|       79|         6|    N    |Število transakcij v dobro   |<br />
++---------+----------+---------+-----------------------------+<br />
+|       85|        18|    N    |Dnevni promet v dobro        |<br />
++---------+----------+---------+-----------------------------+<br />
+|      103|        18|    N    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|      121|         6|    N    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|      127|        18|    N    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|      145|         3|    N    |Zaporedna številka delnega   |<br />
+|         |          |         |izpisa                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|      148|         5|    N    |Šifra PU                     |<br />
++---------+----------+---------+-----------------------------+<br />
+|      153|        18|    N    |Kumulativni promet v breme   |<br />
++---------+----------+---------+-----------------------------+<br />
+|      171|        18|    N    |Kumulativni promet v dobro   |<br />
++---------+----------+---------+-----------------------------+<br />
+|      189|         5|    A    |Oznaka prejemnika delnega    |<br />
+|         |          |         |izpisa                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|  Skupaj:|       194|         |                             |<br />
++---------+----------+---------+-----------------------------+</p>
+<h3>19. člen</h3>
+<p>(1) Podatki izpiska o transakcijah na računu/podračunu so v datoteki TKDIS. txt zapisani v naslednjem stavku:</p>
+<p>+---------+----------+---------+-----------------------------+<br />
+| Pozicija| Število  |   Tip   |         Opis polja          |<br />
+|         |  znakov  | podatka |                             |<br />
++---------+----------+---------+-----------------------------+<br />
+|        1|        15|    N    |Številka računa/podračuna    |<br />
+|         |          |         |prejemnika/plačnika          |<br />
++---------+----------+---------+-----------------------------+<br />
+|       16|         3|         |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|       19|         2|    N    |vir informacije:             |<br />
+|         |          |         |60. 1x za transakcije        |<br />
+|         |          |         |obremenitve                  |<br />
+|         |          |         |61. 2x za transakcije        |<br />
+|         |          |         |odobritve                    |<br />
++---------+----------+---------+-----------------------------+<br />
+|       21|         8|    D    |Datum obdelave v obliki      |<br />
+|         |          |         |DD.MM.LL; datum, ko so bile  |<br />
+|         |          |         |transakcije izvedene         |<br />
++---------+----------+---------+-----------------------------+<br />
+|       29|         1|    A    |Vir informacije              |<br />
++---------+----------+---------+-----------------------------+<br />
+|       30|         1|    A    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|       31|        35|    A    |Ime imetnika računa/podračuna|<br />
++---------+----------+---------+-----------------------------+<br />
+|       66|         1|    N    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|       67|         6|    D    |Datum plačila v banki/pošti v|<br />
+|         |          |         |obliki DDMMLL je datum, ko je|<br />
+|         |          |         |bilo plačilo izvedeno na     |<br />
+|         |          |         |banki ali pošti              |<br />
++---------+----------+---------+-----------------------------+<br />
+|       73|        15|    N    |Številka računa/podračuna    |<br />
+|         |          |         |plačnika                     |<br />
++---------+----------+---------+-----------------------------+<br />
+|       88|         3|         |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|       91|        15|    N    |Znesek transakcije           |<br />
++---------+----------+---------+-----------------------------+<br />
+|      106|         2|    N    |Konstanta:                   |<br />
+|         |          |         |62. 88 za plačilna navodila, |<br />
+|         |          |         |predložena v računalniški    |<br />
+|         |          |         |obliki                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|      108|         2|    N    |Šifra izdatkov iz šifranta   |<br />
+|         |          |         |šifer izdatkov oziroma       |<br />
+|         |          |         |prejemkov, ki ga vzdržuje    |<br />
+|         |          |         |AJPES                        |<br />
++---------+----------+---------+-----------------------------+<br />
+|      110|         2|    N    |Šifra prejemkov iz šifranta  |<br />
+|         |          |         |šifer izdatkov oziroma       |<br />
+|         |          |         |prejemkov, ki ga vzdržuje    |<br />
+|         |          |         |AJPES                        |<br />
++---------+----------+---------+-----------------------------+<br />
+|      112|        24|    A    |Referenca na številko        |<br />
+|         |          |         |obremenitve je osnova za     |<br />
+|         |          |         |knjiženje pri plačniku       |<br />
++---------+----------+---------+-----------------------------+<br />
+|      136|        24|    A    |Referenca na številko        |<br />
+|         |          |         |odobritve je osnova za       |<br />
+|         |          |         |knjiženje pri prejemniku     |<br />
++---------+----------+---------+-----------------------------+<br />
+|      160|        36|    A    |Namen nakazila je opis namena|<br />
+|         |          |         |nakazila za prejemnika       |<br />
++---------+----------+---------+-----------------------------+<br />
+|      196|        10|    A    |Kraj plačnika                |<br />
++---------+----------+---------+-----------------------------+<br />
+|      206|        35|    A    |Ime plačnika                 |<br />
++---------+----------+---------+-----------------------------+<br />
+|      241|        22|    N    |Številka za reklamacijo je   |<br />
+|         |          |         |podatek, ki ga programsko    |<br />
+|         |          |         |določi UJP in se ga uporabi  |<br />
+|         |          |         |za potrebe reševanja         |<br />
+|         |          |         |morebitnih reklamacij v zvezi|<br />
+|         |          |         |z že izvršenimi plačilnimi   |<br />
+|         |          |         |navodili                     |<br />
++---------+----------+---------+-----------------------------+<br />
+|      263|        18|    N    |Številka računa/podračuna je |<br />
+|         |          |         |podatek o številki računa, v |<br />
+|         |          |         |dobro katerega je bil izdan  |<br />
+|         |          |         |plačilni nalog, izvršen v    |<br />
+|         |          |         |dobro računa/podračuna       |<br />
+|         |          |         |naslednika                   |<br />
++---------+----------+---------+-----------------------------+<br />
+|  Skupaj:|       280|         |                             |<br />
++---------+----------+---------+-----------------------------+</p>
+<p>(2) Podatki delnega izpisa o transakcijah na računu/podračunu so v datoteki TKDIS. txt zapisani v naslednjem stavku:</p>
+<p>+---------+----------+---------+-----------------------------+<br />
+| Pozicija| Število  |   Tip   |         Opis polja          |<br />
+|         |  znakov  | podatka |                             |<br />
++---------+----------+---------+-----------------------------+<br />
+|        1|        18|    N    |Številka računa/podračuna    |<br />
+|         |          |         |prejemnika/plačnika          |<br />
++---------+----------+---------+-----------------------------+<br />
+|       19|         2|    N    |– Vir informacije:           |<br />
+|         |          |         |– 1x za transakcije          |<br />
+|         |          |         |obremenitve                  |<br />
+|         |          |         |– 2x za transakcije odobritve|<br />
++---------+----------+---------+-----------------------------+<br />
+|       21|         8|    D    |Datum obdelave v obliki      |<br />
+|         |          |         |DD.MM.LL                     |<br />
++---------+----------+---------+-----------------------------+<br />
+|       29|         1|    A    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|       30|         1|    A    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|       31|        35|    A    |Ime prejemnika delnega izpisa|<br />
++---------+----------+---------+-----------------------------+<br />
+|       66|         1|    N    |Način izvršitve plačilnega   |<br />
+|         |          |         |navodila:                    |<br />
+|         |          |         |1 – transakcije v domači     |<br />
+|         |          |         |valuti                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|       67|         6|    D    |Datum vnosa v UJP v obliki   |<br />
+|         |          |         |DD.MM.LL                     |<br />
++---------+----------+---------+-----------------------------+<br />
+|       73|        18|    N    |Številka računa oziroma      |<br />
+|         |          |         |podračuna nadzornika –       |<br />
+|         |          |         |prejemnika delnega izpisa    |<br />
++---------+----------+---------+-----------------------------+<br />
+|       91|        15|    N    |Znesek transakcije           |<br />
++---------+----------+---------+-----------------------------+<br />
+|      106|         1|    A    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|      107|         1|    N    |Vrsta posla v skladu z       |<br />
+|         |          |         |navodilom o načinu, postopkih|<br />
+|         |          |         |in udeležencih za izvajanje  |<br />
+|         |          |         |statističnega raziskovanja o |<br />
+|         |          |         |prejemkih na račune in o     |<br />
+|         |          |         |izdatkih z računov poslovnih |<br />
+|         |          |         |subjektov (AJPES) in         |<br />
+|         |          |         |standardi v medbančnih       |<br />
+|         |          |         |plačilnih storitvah v državi |<br />
+|         |          |         |(BS)                         |<br />
++---------+----------+---------+-----------------------------+<br />
+|      108|         2|    N    |Šifra izdatkov iz šifranta   |<br />
+|         |          |         |šifer izdatkov oziroma       |<br />
+|         |          |         |prejemkov, ki ga vzdržuje    |<br />
+|         |          |         |AJPES                        |<br />
++---------+----------+---------+-----------------------------+<br />
+|      110|         2|    N    |Šifra prejemkov iz šifranta  |<br />
+|         |          |         |šifer izdatkov oziroma       |<br />
+|         |          |         |prejemkov, ki ga vzdržuje    |<br />
+|         |          |         |AJPES                        |<br />
++---------+----------+---------+-----------------------------+<br />
+|      112|        24|    A    |Referenca na številko        |<br />
+|         |          |         |obremenitve je osnova za     |<br />
+|         |          |         |knjiženje odliva             |<br />
++---------+----------+---------+-----------------------------+<br />
+|      136|        24|    A    |Referenca na številko        |<br />
+|         |          |         |odobritve je osnova za       |<br />
+|         |          |         |knjiženje priliva            |<br />
++---------+----------+---------+-----------------------------+<br />
+|      160|        36|    A    |Namen nakazila je opis namena|<br />
+|         |          |         |nakazila za prejemnika       |<br />
++---------+----------+---------+-----------------------------+<br />
+|      196|        10|    A    |Kraj plačnika oziroma        |<br />
+|         |          |         |prejemnika plačila           |<br />
++---------+----------+---------+-----------------------------+<br />
+|      206|        35|    A    |Ime plačnika oziroma         |<br />
+|         |          |         |prejemnika plačila           |<br />
++---------+----------+---------+-----------------------------+<br />
+|      241|        22|    N    |Številka za reklamacijo je   |<br />
+|         |          |         |podatek, ki ga programsko    |<br />
+|         |          |         |določi UJP in se ga uporabi  |<br />
+|         |          |         |za potrebe reševanja         |<br />
+|         |          |         |morebitnih reklamacij v zvezi|<br />
+|         |          |         |z že izvršenimi plačilnimi   |<br />
+|         |          |         |navodili                     |<br />
++---------+----------+---------+-----------------------------+<br />
+|      263|         8|    N    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|      271|         5|    N    |Šifra PU                     |<br />
++---------+----------+---------+-----------------------------+<br />
+|      276|         5|    N    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|  Skupaj:|       280|         |                             |<br />
++---------+----------+---------+-----------------------------+</p>
+<p>(3) Podatki izpiska o posameznih plačilnih transakcijah tujih plačilnih navodil za odlive in prilive so v datoteki TKDIS. txt zapisani v naslednjem stavku:</p>
+<p>+---------+----------+---------+-----------------------------+<br />
+| Pozicija|  Število |   Tip   |         Opis polja          |<br />
+|         |  znakov  | podatka |                             |<br />
++---------+----------+---------+-----------------------------+<br />
+|        1|        18|    N    |Številka računa/podračuna    |<br />
+|         |          |         |plačnika oziroma prejemnika  |<br />
+|         |          |         |plačila                      |<br />
+|         |          |         |63. če je račun daljši od 18 |<br />
+|         |          |         |mest (račun pri tujih bankah)|<br />
+|         |          |         |je prvih osemnajst številk   |<br />
+|         |          |         |računa                       |<br />
+|         |          |         |                             |<br />
++---------+----------+---------+-----------------------------+<br />
+|       19|         2|    N    |Vir informacije:             |<br />
+|         |          |         |64. za obremenitev:          |<br />
+|         |          |         |– 11 = interna knjižba       |<br />
+|         |          |         |(prenos za zagotavljanje     |<br />
+|         |          |         |kritja)                      |<br />
+|         |          |         |– 12 = negotovinska          |<br />
+|         |          |         |obremenitev                  |<br />
+|         |          |         |– 13 = obremenitev iz naslova|<br />
+|         |          |         |dviga gotovine pri BS        |<br />
+|         |          |         |– 14 = obremenitev iz naslova|<br />
+|         |          |         |dviga gotovine pri poslovni  |<br />
+|         |          |         |banki                        |<br />
+|         |          |         |– 15 = ček                   |<br />
+|         |          |         |– 16 = marža                 |<br />
+|         |          |         |– 17 = strošek transakcije   |<br />
+|         |          |         |plačilne storitve – provizija|<br />
+|         |          |         |– 18 = obresti               |<br />
+|         |          |         |– 19 = revalorizacija stanja |<br />
+|         |          |         |za devizna sredstva          |<br />
+|         |          |         |                             |<br />
+|         |          |         |65. za odobritev:            |<br />
+|         |          |         |– 21 = interna knjižba       |<br />
+|         |          |         |(prenos za zagotavljanje     |<br />
+|         |          |         |kritja)                      |<br />
+|         |          |         |– 22 = negotovinska odobritev|<br />
+|         |          |         |– 23 = odobritev iz naslova  |<br />
+|         |          |         |gotovinskega pologa v BS     |<br />
+|         |          |         |– 24 = odobritev iz naslova  |<br />
+|         |          |         |gotovinskega pologa v        |<br />
+|         |          |         |poslovni banki               |<br />
+|         |          |         |– 26 = marža                 |<br />
+|         |          |         |– 27 = že obračunani stroški |<br />
+|         |          |         |– 28 = obresti               |<br />
+|         |          |         |– 29 = revalorizacija stanja |<br />
+|         |          |         |za devizna sredstva          |<br />
++---------+----------+---------+-----------------------------+<br />
+|       21|         8|    D    |Datum izpiska v UJP v obliki |<br />
+|         |          |         |DD.MM.LL                     |<br />
++---------+----------+---------+-----------------------------+<br />
+|       29|         1|    A    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|       30|         1|    A    |Klavzula vrste stroškov:     |<br />
+|         |          |         |– B-BEN                      |<br />
+|         |          |         |– S-SHA                      |<br />
+|         |          |         |– O-OUR                      |<br />
++---------+----------+---------+-----------------------------+<br />
+|       31|        15|    N    |Znesek transakcije je znesek |<br />
+|         |          |         |v valuti podračuna ali valuti|<br />
+|         |          |         |računa                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|       46|         3|    A    |Oznaka valute iz šifranta BS |<br />
+|         |          |         |je informacija o:            |<br />
+|         |          |         |– valuti nakazila prejemniku |<br />
+|         |          |         |v primeru odliva             |<br />
+|         |          |         |– informacija o valuti       |<br />
+|         |          |         |priliva, kadar ta ni enaka   |<br />
+|         |          |         |valuti računa ali podračuna  |<br />
++---------+----------+---------+-----------------------------+<br />
+|       49|        12|    N    |Številka dokumenta:          |<br />
+|         |          |         |– številka TPNO 70 za odlive |<br />
+|         |          |         |– številka TPNP 60 za prilive|<br />
++---------+----------+---------+-----------------------------+<br />
+|       61|         5|    A    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|       66|         1|    A    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|       67|         6|    D    |Datum vnosa podatkov v UJP v |<br />
+|         |          |         |obliki DDMMLL                |<br />
++---------+----------+---------+-----------------------------+<br />
+|       73|        15|    N    |Številka računa/podračuna    |<br />
+|         |          |         |plačnika – prejemnika izpiska|<br />
++---------+----------+---------+-----------------------------+<br />
+|       88|         3|    A    |Valuta računa/podračuna      |<br />
++---------+----------+---------+-----------------------------+<br />
+|       91|        15|    N    |Znesek v EUR je preračunan   |<br />
+|         |          |         |znesek transakcije v EUR po  |<br />
+|         |          |         |referenčnem tečaju BS,       |<br />
+|         |          |         |veljavnem na dan obremenitve |<br />
+|         |          |         |ali odobritve                |<br />
+|         |          |         |računa/podračuna             |<br />
++---------+----------+---------+-----------------------------+<br />
+|      106|         2|    N    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|      108|         2|    N    |Šifra izdatkov iz šifranta   |<br />
+|         |          |         |šifer izdatkov oziroma       |<br />
+|         |          |         |prejemkov, ki ga vzdržuje    |<br />
+|         |          |         |AJPES                        |<br />
++---------+----------+---------+-----------------------------+<br />
+|      110|         2|    N    |Šifra prejemkov iz šifranta  |<br />
+|         |          |         |šifer izdatkov oziroma       |<br />
+|         |          |         |prejemkov, ki ga vzdržuje    |<br />
+|         |          |         |AJPES                        |<br />
++---------+----------+---------+-----------------------------+<br />
+|      112|        24|    A    |Referenca na številko        |<br />
+|         |          |         |obremenitve je osnova za     |<br />
+|         |          |         |knjiženje pri plačniku       |<br />
++---------+----------+---------+-----------------------------+<br />
+|      136|        24|    A    |Referenca na številko        |<br />
+|         |          |         |odobritve je osnova za       |<br />
+|         |          |         |knjiženje pri prejemniku     |<br />
++---------+----------+---------+-----------------------------+<br />
+|      160|        36|    A    |Namen nakazila je lahko:     |<br />
+|         |          |         |– številka vknjižbe in       |<br />
+|         |          |         |številka odredbe             |<br />
+|         |          |         |– opis šifre osnove za       |<br />
+|         |          |         |statistiko plačilnih storitev|<br />
+|         |          |         |s tujino                     |<br />
++---------+----------+---------+-----------------------------+<br />
+|      196|        10|    A    |Kraj plačnika oziroma        |<br />
+|         |          |         |prejemnika plačila           |<br />
++---------+----------+---------+-----------------------------+<br />
+|      206|        35|    A    |Ime plačnika oziroma         |<br />
+|         |          |         |prejemnika plačila           |<br />
++---------+----------+---------+-----------------------------+<br />
+|      241|        22|    N    |Številka za reklamacijo je   |<br />
+|         |          |         |podatek, ki ga programsko    |<br />
+|         |          |         |določi UJP in se ga uporabi  |<br />
+|         |          |         |za naknadno reševanje        |<br />
+|         |          |         |morebitnih reklamacij v zvezi|<br />
+|         |          |         |z izvršenimi plačilnimi      |<br />
+|         |          |         |navodili                     |<br />
++---------+----------+---------+-----------------------------+<br />
+|      263|        13|    N    |Srednji tečaj BS na datum    |<br />
+|         |          |         |izpiska. Podatek je levo     |<br />
+|         |          |         |poravnan, s premakljivo      |<br />
+|         |          |         |decimalno piko, brez vodilnih|<br />
+|         |          |         |in brez končnih ničel ter se |<br />
+|         |          |         |zaključi s prvim presledkom  |<br />
++---------+----------+---------+-----------------------------+<br />
+|      276|         5|    N    |Prazno                       |<br />
++---------+----------+---------+-----------------------------+<br />
+|  Skupaj:|       280|         |                             |<br />
++---------+----------+---------+-----------------------------+</p>
+<h3>III. LASTNOSTI IN PRAVILA OBLIKOVANJA STRUKTURE DATOTEK V XML OBLIKI</h3>
+<h3>20. člen</h3>
+<p>(1) Ime datoteke mora biti oblikovano na naslednji način:<br />
+a) datoteke, posredovane prek UJPnet:<br />
+– EvropskiNalog.xml za predložitev podatkov evropskih plačilnih nalogov,<br />
+b) datoteke, prevzete prek UJPnet:<br />
+– PPPPPPPPPPPPPPPVVV_DDMMLL_izpisek.xml za prevzem podatkov izpiska o stanju in transakcijah na računu/podračunu</p>
+<p>PPPPPPPPPPPPPPP    = številka računa/podračuna<br />
+ VVV                = šifra valute<br />
+ DDMMLL             = dan, mesec in leto izpiska<br />
+ izpisek.xml        = označuje datoteko z informacijami o<br />
+                      stanju in transakcijah na<br />
+                      računu/podračunu</p>
+<p>– DD_BBBBB_LLLLMMDD_DelniIzpis.xml za prevzem podatkov delnega izpisa o stanju in o določenih transakcijah na računu/podračunu</p>
+<p>DD                 = način priprave podatkov<br />
+ BBBBB              = oznaka prejemnika<br />
+ LLLLMMDD           = leto, mesec in dan delnega izpisa<br />
+ DelniIzpis.xml     = označuje datoteko z informacijami o<br />
+                      stanju in o določenih transakcijah na<br />
+                      podračunu</p>
+<p>– PPPPPPPPPPPPPPPVVV_DDMMLL_ObrestniList.xml za prevzem podatkov obrestnega lista o dnevnih obrestih za prosta denarna sredstva na EZR in posebnem namenskem transakcijskem računu</p>
+<p>PPPPPPPPPPPPPPP     =   številka računa/podračuna<br />
+ VVV                 =   šifra valute<br />
+ DDMMLL              =   dan, mesec in leto izdelave<br />
+                         obrestnega lista<br />
+ ObrestniList.xml    =   označuje datoteko z informacijami o<br />
+                         obračunanih obrestih za stanja na EZR<br />
+                         in PNTR.</p>
+<p>(2) Stavki v datoteki xml morajo biti pripravljeni v skladu z veljavnim podatkovnim standardom ZBSxml. Datoteka xml mora biti zaključena v skladu z veljavnim podatkovnim standardom ZBSxml. Vsak prenos podatkov (sporočila oziroma elektronskega dokumenta) je opremljen s splošno ovojnico, v kateri se nahajajo splošni in vsebinski podatki o elektronskem dokumentu. Vsebinske podatke (Paket) sestavlja splošen vodilni zapis (element Vodilni Zapis ali element Vodilni Stavek) in skupek vsebinskih elementov, ki opredeljujejo vsebino specifičnega sporočila plačilnih storitev (elementi: Evropski Nalog, ali Izpisek ali Delni Izpis ali Obrestni List). Paket xml lahko vsebuje le istovrstne vsebinske elemente (npr. več elementov Evropski Nalog). V istem xml paketu ni dovoljeno kombinirati različnih vsebinskih elementov.<br />
+(3) Standard ZBSxml uporablja za zapis števil in datumov standardne podatkovne tipe xsd. Zato števila ne vsebujejo vodilnih ničel ali pozitivnega predznaka, decimalno ločilo je pika, zapis datuma je v skladu z ISO 8601 ipd. Vsa (cela in realna) števila so privzeto pozitivna (število 0 in pozitivna števila), razen v tistih primerih, v katerih je to izrecno navedeno.<br />
+(4) Kadar se dokument ZBSxml prenaša v binarni obliki, je lahko kodiran v skladu s poljubno kodno tabelo, kot je to opredeljeno v standardni specifikaciji xml (npr. UTF-8 idr.).<br />
+(5) V dokumentih xml se lahko v znakovnih nizih (ang. string) uporabljajo vsi znaki, ki so podprti v kodni tabeli UTF-8.<br />
+(6) UJP in proračunski uporabnik morata podpreti obdelavo in hranjenje nabora slovenskih črk, posebnih znakov ( /-?:().,'+) in cifer 0123456789. Pri medbančni izmenjavi ponudniki plačilnih storitev spreminjajo šumnike in druge znake v nabor dovoljenih znakov po SWIFT shemi. Po istem pravilu oziroma pravilu v Implementacijskih smernicah za CT (Credit transfer) se zadeve ureja tudi za čezmejna plačila po SEPA shemi.<br />
+(7) Pomen posameznih stolpcev in oznak v elementih xml:</p>
+<p>ZNAČKA   oznaka elementa (značka), ki se uporablja v<br />
+         dokumentu xml (angl. TAG)<br />
+Obv. PU  določa, ali mora proračunski uporabnik - plačnik<br />
+         izpolniti vrednost elementa<br />
+DA       element je obvezen, mora biti prisoten v dokumentu<br />
+         xml<br />
+NE       element je lahko prisoten v dokumentu xml, ni pa<br />
+         obvezen<br />
+PP       element mora biti prisoten v dokumentu xml, vendar<br />
+         le pod določenimi pogoji oziroma pravili<br />
+ -       element ne sme biti prisoten v dokumentu xml<br />
+Znaki    niz poljubnih znakov<br />
+Cifre    niz znakov, ki vsebuje samo številke<br />
+Črke     niz znakov, ki vsebuje samo črke<br />
+Datum    standardni datumski podatkovni tip xsd, skladen z<br />
+         obliko ISO 8601<br />
+         (LLLL-MM-DD)</p>
+<h3>a) Struktura datoteke EvropskiNalog.xml za predložitev podatkov</h3>
+<h3>21. člen</h3>
+<p>(1) Računalniški zapis za predložitev paketa s podatki evropskih plačilnih nalogov vsebuje en element Vodilni Zapis in enega ali več elementov Evropski Nalog.<br />
+(2) Struktura elementa Vodilni Zapis:</p>
+<p>+-------------+--------+---------------------------+----------------+----+<br />
+| Ime elementa| Format |     Značka                |  Opis elementa |Obv.|<br />
+|             |elementa|                           |                | PU |<br />
++-------------+--------+---------------------------+----------------+----+<br />
+|Številka     |34      |StevilkaRacunaNalogodajalca|Številka        | DA |<br />
+|računa       |znakov  |                           |računa/podračuna|    |<br />
+|nalogodajalca|        |                           |plačnika v IBAN |    |<br />
+|             |        |                           |strukturi       |    |<br />
++-------------+--------+---------------------------+----------------+----+<br />
+|Številka     |6 cifer |StevilkaPaketa             |Zaporedna       | NE |<br />
+|paketa       |        |                           |številka paketa,|    |<br />
+|             |        |                           |ki jo določi UJP|    |<br />
++-------------+--------+---------------------------+----------------+----+<br />
+|Datum paketa |Datum   |DatumPaketa                |Datum paketa, ki| DA |<br />
+|             |        |                           |se lahko od     |    |<br />
+|             |        |                           |tekočega        |    |<br />
+|             |        |                           |koledarskega    |    |<br />
+|             |        |                           |dneva izmenjave |    |<br />
+|             |        |                           |paketa razlikuje|    |<br />
+|             |        |                           |za največ 15 dni|    |<br />
++-------------+--------+---------------------------+----------------+----+<br />
+|Način        |4 črke  |NacinObdelave              |Način obdelave, | DA |<br />
+|obdelave     |        |                           |in sicer SNGL   |    |<br />
+|             |        |                           |(posamezni nalog|    |<br />
+|             |        |                           |v breme) ali    |    |<br />
+|             |        |                           |GRPD (zbirni    |    |<br />
+|             |        |                           |nalog v breme)  |    |<br />
++-------------+--------+---------------------------+----------------+----+</p>
+<p>(3) Struktura elementa Evropski Nalog:</p>
+<p>Tabela</p>
+<h3>b) Struktura datoteke Izpisek.xml za prevzem podatkov</h3>
+<h3>22. člen</h3>
+<p>(1) Računalniški zapis za prevzem paketa s podatki izpiska vsebuje en element Vodilni Zapis in en element Izpisek.<br />
+(2) Element Izpisek sestavljata podrejena elementa Glava Izpiska in Promet. Vse postavke Prometa se nanašajo na iso valuto, kot je definirana v Glavi Izpiska.<br />
+(3) Vse podatke oziroma elemente, ki so bili izpolnjeni v izvirni transakciji plačnika, mora ponudnik plačilnih storitev oziroma UJP zapisati v elementu Izpisek.<br />
+(4) Struktura elementa Vodilni zapis:</p>
+<p>+-------------+--------+---------------------------+----------------+<br />
+| Ime elementa| Format |           Značka          |  Opis elementa |<br />
+|             |elementa|                           |                |<br />
++-------------+--------+---------------------------+----------------+<br />
+|Številka     |34      |StevilkaRacunaNalogodajalca|Številka        |<br />
+|računa       |znakov  |                           |računa/podračuna|<br />
+|nalogodajalca|        |                           |plačnika v IBAN |<br />
+|             |        |                           |strukturi       |<br />
++-------------+--------+---------------------------+----------------+<br />
+|Številka     |6 cifer |StevilkaPaketa             |Zaporedna       |<br />
+|paketa       |        |                           |številka paketa,|<br />
+|             |        |                           |ki jo določi UJP|<br />
++-------------+--------+---------------------------+----------------+<br />
+|Datum paketa |Datum   |DatumPaketa                |Datum paketa    |<br />
++-------------+--------+---------------------------+----------------+<br />
+|Način        |4 črke  |NacinObdelave              |Način obdelave, |<br />
+|obdelave     |        |                           |in sicer SNGL   |<br />
+|             |        |                           |(posamezni nalog|<br />
+|             |        |                           |v breme) ali    |<br />
+|             |        |                           |GRPD (zbirni    |<br />
+|             |        |                           |nalog v breme)  |<br />
++-------------+--------+---------------------------+----------------+</p>
+<p>(5) Struktura elementa Glava Izpiska:</p>
+<p>+-------------+--------+---------------------------+----------------+<br />
+| Ime elementa| Format |           Značka          |  Opis elementa |<br />
+|             |elementa|                           |                |<br />
++-------------+--------+---------------------------+----------------+<br />
+|Številka     |5 cifer |StevilkaIzpiska            |Številka        |<br />
+|izpiska      |        |                           |izpiska, ki     |<br />
+|             |        |                           |znotraj tekočega|<br />
+|             |        |                           |leta enolično   |<br />
+|             |        |                           |narašča za      |<br />
+|             |        |                           |račun/podračun  |<br />
++-------------+--------+---------------------------+----------------+<br />
+|Koda SWIFT   |8 ali 11|KodaSWIFT                  |BIC koda Banke  |<br />
+|             |znakov  |                           |Slovenije:      |<br />
+|             |        |                           |BSLJSI2X        |<br />
+|             |        |                           |(konstanta)     |<br />
++-------------+--------+---------------------------+----------------+<br />
+|Številka     |34      |StevilkaRacunaNalogodajalca|Številka        |<br />
+|računa       |znakov  |                           |računa/podračuna|<br />
+|nalogodajalca|        |                           |v strukturi IBAN|<br />
++-------------+--------+---------------------------+----------------+<br />
+|Oznaka valute|3 črke  |OznakaValute               |Oznaka valute na|<br />
+|             |        |                           |katero se       |<br />
+|             |        |                           |nanašajo vsi    |<br />
+|             |        |                           |zneski elementa |<br />
+|             |        |                           |»Glava izpiska« |<br />
++-------------+--------+---------------------------+----------------+<br />
+|Znesek       |18 cifer|ZnesekZacetnoStanje        |Podatek o stanju|<br />
+|začetnega    |        |                           |sredstev na     |<br />
+|stanja       |        |                           |začetku         |<br />
+|             |        |                           |sporočanega     |<br />
+|             |        |                           |poslovnega      |<br />
+|             |        |                           |obdobja na      |<br />
+|             |        |                           |računu/podračunu|<br />
+|             |        |                           |Dovoljuje       |<br />
+|             |        |                           |negativne zneske|<br />
+|             |        |                           |in vsebuje      |<br />
+|             |        |                           |največ 16       |<br />
+|             |        |                           |celoštevilskih  |<br />
+|             |        |                           |mest in največ  |<br />
+|             |        |                           |dve decimalni   |<br />
+|             |        |                           |mesti.          |<br />
++-------------+--------+---------------------------+----------------+<br />
+|Znesek       |18 cifer|ZnesekKoncnoStanje         |Podatek o stanju|<br />
+|končnega     |        |                           |sredstev na     |<br />
+|stanja       |        |                           |koncu           |<br />
+|             |        |                           |sporočanega     |<br />
+|             |        |                           |poslovnega      |<br />
+|             |        |                           |obdobja na      |<br />
+|             |        |                           |računu/podračunu|<br />
+|             |        |                           |Dovoljuje       |<br />
+|             |        |                           |negativne zneske|<br />
+|             |        |                           |in vsebuje      |<br />
+|             |        |                           |največ 16       |<br />
+|             |        |                           |celoštevilskih  |<br />
+|             |        |                           |mest in največ  |<br />
+|             |        |                           |dve decimalni   |<br />
+|             |        |                           |mesti.          |<br />
++-------------+--------+---------------------------+----------------+<br />
+|Skupaj v     |        |SkupajVBreme               |Skupek elementov|<br />
+|breme        |        |                           |s podatki o     |<br />
+|             |        |                           |skupni          |<br />
+|             |        |                           |bremenitvi      |<br />
++-------------+--------+---------------------------+----------------+<br />
+|+Znesek      |18 cifer|Znesek                     |Podatek o       |<br />
+|             |        |                           |skupnem stanju  |<br />
+|             |        |                           |prometa v breme |<br />
+|             |        |                           |v okviru        |<br />
+|             |        |                           |sporočanega     |<br />
+|             |        |                           |poslovnega      |<br />
+|             |        |                           |obdobja na      |<br />
+|             |        |                           |računu/podračunu|<br />
+|             |        |                           |Dovoljuje       |<br />
+|             |        |                           |negativne zneske|<br />
+|             |        |                           |in vsebuje      |<br />
+|             |        |                           |največ 16       |<br />
+|             |        |                           |celoštevilskih  |<br />
+|             |        |                           |mest in največ  |<br />
+|             |        |                           |dve decimalni   |<br />
+|             |        |                           |mesti.          |<br />
++-------------+--------+---------------------------+----------------+<br />
+|+Število     |6 cifer |SteviloTransakcij          |Podatek o       |<br />
+|transakcij   |        |                           |številu         |<br />
+|             |        |                           |knjiženih       |<br />
+|             |        |                           |transakcij v    |<br />
+|             |        |                           |breme           |<br />
+|             |        |                           |računa/podračuna|<br />
+|             |        |                           |v okviru obdobja|<br />
+|             |        |                           |poročanja       |<br />
++-------------+--------+---------------------------+----------------+<br />
+|Skupaj v     |        |SkupajVDobro               |Skupek elementov|<br />
+|dobro        |        |                           |s podatki o     |<br />
+|             |        |                           |skupni odobritvi|<br />
++-------------+--------+---------------------------+----------------+<br />
+|+Znesek      |18 cifer|Znesek                     |Podatek o       |<br />
+|             |        |                           |skupnem stanju  |<br />
+|             |        |                           |prometa v dobro |<br />
+|             |        |                           |v okviru        |<br />
+|             |        |                           |sporočanega     |<br />
+|             |        |                           |poslovnega      |<br />
+|             |        |                           |obdobja na      |<br />
+|             |        |                           |računu/podračunu|<br />
+|             |        |                           |Dovoljuje       |<br />
+|             |        |                           |negativne zneske|<br />
+|             |        |                           |in vsebuje      |<br />
+|             |        |                           |največ 16       |<br />
+|             |        |                           |celoštevilskih  |<br />
+|             |        |                           |mest in največ  |<br />
+|             |        |                           |dve decimalni   |<br />
+|             |        |                           |mesti.          |<br />
++-------------+--------+---------------------------+----------------+<br />
+|+Število     |6 cifer |SteviloTransakcij          |Podatek o       |<br />
+|transakcij   |        |                           |številu         |<br />
+|             |        |                           |knjiženih       |<br />
+|             |        |                           |transakcij v    |<br />
+|             |        |                           |dobro           |<br />
+|             |        |                           |računa/podračuna|<br />
+|             |        |                           |v okviru obdobja|<br />
+|             |        |                           |poročanja.      |<br />
++-------------+--------+---------------------------+----------------+<br />
+|Datum začetka|Datum   |DatumZacetkaObdobja        |Podatek o       |<br />
+|obdobja      |        |                           |spodnji datumski|<br />
+|             |        |                           |meji za katero  |<br />
+|             |        |                           |se izpisek      |<br />
+|             |        |                           |poroča          |<br />
++-------------+--------+---------------------------+----------------+<br />
+|Datum konca  |Datum   |DatumKoncaObdobja          |Podatek o       |<br />
+|obdobja      |        |                           |zgornji datumski|<br />
+|             |        |                           |meji za katero  |<br />
+|             |        |                           |se izpisek      |<br />
+|             |        |                           |poroča          |<br />
++-------------+--------+---------------------------+----------------+<br />
+|Datum        |Datum   |DatumPredhodnegaIzpiska    |Podatek o       |<br />
+|predhodnega  |        |                           |zgornji datumski|<br />
+|izpiska      |        |                           |meji predhodnega|<br />
+|             |        |                           |izpiska         |<br />
++-------------+--------+---------------------------+----------------+</p>
+<p>(6) Struktura elementa Promet:</p>
+<p>Tabela</p>
+<h3>c) Struktura datoteke DelniIzpis.xml za prevzem podatkov</h3>
+<h3>23. člen</h3>
+<p>(1) Računalniški zapis za prevzem paketa s podatki delnega izpisa vsebuje en element Vodilni Zapis in en element Delni Izpis.<br />
+(2) Element Delni Izpis je sestavljen iz enega ali več elementov Glava Izpiska in enega ali več elementov Promet.<br />
+(3) Vse podatke oziroma elemente, ki so bili izpolnjeni v izvirni transakciji plačnika, mora ponudnik plačilnih storitev oziroma UJP zapisati v elementu Delni Izpis.<br />
+(4) Struktura elementa Vodilni Zapis:</p>
+<p>+-------------+--------+------------------+--------------------+<br />
+| Ime elementa| Format |      Značka      |   Opis elementa    |<br />
+|             |elementa|                  |                    |<br />
++-------------+--------+------------------+--------------------+<br />
+|Oznaka       |5 znakov|OznakaPrejemnikaDI|Oznaka prejemnika   |<br />
+|prejemnika   |        |                  |delnega izpisa      |<br />
+|delnega      |        |                  |                    |<br />
+|izpisa       |        |                  |                    |<br />
++-------------+--------+------------------+--------------------+<br />
+|Šifra        |5 cifer |SifraPU           |Šifra proračunskega |<br />
+|proračunskega|        |                  |uporabnika          |<br />
+|uporabnika   |        |                  |                    |<br />
++-------------+--------+------------------+--------------------+<br />
+|Način        |2 znaka |PripravaPodatkov  |Način priprave      |<br />
+|priprave     |        |                  |podatkov            |<br />
+|podatkov     |        |                  |                    |<br />
++-------------+--------+------------------+--------------------+<br />
+|Številka     |6 cifer |StevilkaPaketa    |Zaporedna številka  |<br />
+|paketa       |        |                  |paketa, ki jo       |<br />
+|             |        |                  |določi UJP          |<br />
++-------------+--------+------------------+--------------------+<br />
+|Datum paketa |Datum   |DatumPaketa       |Datum paketa        |<br />
++-------------+--------+------------------+--------------------+<br />
+|Način        |4 črke  |NacinObdelave     |Način obdelave, in  |<br />
+|obdelave     |        |                  |sicer SNGL          |<br />
+|             |        |                  |(posamezni nalog v  |<br />
+|             |        |                  |breme)              |<br />
++-------------+--------+------------------+--------------------+<br />
+|Koda SWIFT   |8 ali 11|KodaSWIFT         |BIC koda Banke      |<br />
+|             |znakov  |                  |Slovenije: BSLJSI2X |<br />
+|             |        |                  |(konstanta)         |<br />
++-------------+--------+------------------+--------------------+</p>
+<p>(5) Struktura elementa Glava Izpiska:</p>
+<p>+-----------+--------+---------------------------+------------------+<br />
+|    Ime    | Format |           Značka          |   Opis elementa  |<br />
+|  elementa |elementa|                           |                  |<br />
++-----------+--------+---------------------------+------------------+<br />
+|Številka   |5 cifer |StevilkaIzpiska            |Številka delnega  |<br />
+|delnega    |        |                           |izpisa, ki znotraj|<br />
+|izpisa     |        |                           |tekočega leta     |<br />
+|           |        |                           |enolično narašča  |<br />
+|           |        |                           |za račun/podračun |<br />
++-----------+--------+---------------------------+------------------+<br />
+|Številka   |34      |StevilkaRacunaNalogodajalca|Številka          |<br />
+|podračuna  |znakov  |                           |računa/podračuna  |<br />
+|nadzornika |        |                           |nadzornika v      |<br />
+|           |        |                           |strukturi IBAN –  |<br />
+|           |        |                           |glede na število  |<br />
+|           |        |                           |kriterijev je     |<br />
+|           |        |                           |lahko zapisanih n-|<br />
+|           |        |                           |računov/podračunov|<br />
+|           |        |                           |z eno ali več     |<br />
+|           |        |                           |transakcijami     |<br />
++-----------+--------+---------------------------+------------------+<br />
+|Oznaka     |3 črke  |OznakaValute               |Oznaka valute na  |<br />
+|valute     |        |                           |katero se nanašajo|<br />
+|           |        |                           |vsi zneski        |<br />
+|           |        |                           |elementa »Glava   |<br />
+|           |        |                           |izpiska«          |<br />
++-----------+--------+---------------------------+------------------+<br />
+|Znesek     |18 cifer|ZnesekZacetnoStanje        |Podatek o stanju  |<br />
+|začetnega  |        |                           |sredstev na       |<br />
+|stanja     |        |                           |začetku           |<br />
+|           |        |                           |sporočanega       |<br />
+|           |        |                           |poslovnega obdobja|<br />
+|           |        |                           |na                |<br />
+|           |        |                           |računu/podračunu  |<br />
+|           |        |                           |Dovoljuje         |<br />
+|           |        |                           |negativne zneske  |<br />
+|           |        |                           |in vsebuje največ |<br />
+|           |        |                           |16 celoštevilskih |<br />
+|           |        |                           |mest in največ dve|<br />
+|           |        |                           |decimalni mesti.  |<br />
+|           |        |                           |Podatek se        |<br />
+|           |        |                           |prikazuje le pri  |<br />
+|           |        |                           |načinu priprave   |<br />
+|           |        |                           |delnega izpisa D4.|<br />
++-----------+--------+---------------------------+------------------+<br />
+|Znesek     |18 cifer|ZnesekKoncnoStanje         |Podatek o stanju  |<br />
+|končnega   |        |                           |sredstev na koncu |<br />
+|stanja     |        |                           |sporočanega       |<br />
+|           |        |                           |poslovnega obdobja|<br />
+|           |        |                           |na                |<br />
+|           |        |                           |računu/podračunu  |<br />
+|           |        |                           |Dovoljuje         |<br />
+|           |        |                           |negativne zneske  |<br />
+|           |        |                           |in vsebuje največ |<br />
+|           |        |                           |16 celoštevilskih |<br />
+|           |        |                           |mest in največ dve|<br />
+|           |        |                           |decimalni mesti.  |<br />
+|           |        |                           |Podatek se        |<br />
+|           |        |                           |prikazuje le pri  |<br />
+|           |        |                           |načinu priprave   |<br />
+|           |        |                           |delnega izpisa D4.|<br />
++-----------+--------+---------------------------+------------------+<br />
+|Kumulativni|18 cifer|KumulativnoBreme           |Skupni promet v   |<br />
+|promet v   |        |                           |breme v tekočem   |<br />
+|breme      |        |                           |letu na           |<br />
+|           |        |                           |računu/podračunu  |<br />
++-----------+--------+---------------------------+------------------+<br />
+|Kumulativni|18 cifer|KumulativnoDobro           |Skupni promet v   |<br />
+|promet v   |        |                           |dobro v tekočem   |<br />
+|dobro      |        |                           |letu na           |<br />
+|           |        |                           |računu/podračunu  |<br />
++-----------+--------+---------------------------+------------------+<br />
+|Skupaj v   |        |SkupajVBreme               |Skupek elementov s|<br />
+|breme      |        |                           |podatki o skupni  |<br />
+|           |        |                           |bremenitvi        |<br />
++-----------+--------+---------------------------+------------------+<br />
+|+Znesek    |18 cifer|Znesek                     |Podatek o skupnem |<br />
+|           |        |                           |stanju prometa v  |<br />
+|           |        |                           |breme v okviru    |<br />
+|           |        |                           |sporočanega       |<br />
+|           |        |                           |poslovnega obdobja|<br />
+|           |        |                           |na                |<br />
+|           |        |                           |računu/podračunu  |<br />
+|           |        |                           |Dovoljuje         |<br />
+|           |        |                           |negativne zneske  |<br />
+|           |        |                           |in vsebuje največ |<br />
+|           |        |                           |16 celoštevilskih |<br />
+|           |        |                           |mest in največ dve|<br />
+|           |        |                           |decimalni mesti.  |<br />
++-----------+--------+---------------------------+------------------+<br />
+|+Število   |6 cifer |SteviloTransakcij          |Podatek o številu |<br />
+|transakcij |        |                           |knjiženih         |<br />
+|           |        |                           |transakcij v breme|<br />
+|           |        |                           |podračuna v okviru|<br />
+|           |        |                           |obdobja poročanja |<br />
++-----------+--------+---------------------------+------------------+<br />
+|Skupaj v   |        |SkupajVDobro               |Skupek elementov s|<br />
+|dobro      |        |                           |podatki o skupni  |<br />
+|           |        |                           |odobritvi         |<br />
++-----------+--------+---------------------------+------------------+<br />
+|+Znesek    |18 cifer|Znesek                     |Podatek o skupnem |<br />
+|           |        |                           |stanju prometa v  |<br />
+|           |        |                           |dobro v okviru    |<br />
+|           |        |                           |sporočanega       |<br />
+|           |        |                           |poslovnega obdobja|<br />
+|           |        |                           |na                |<br />
+|           |        |                           |računu/podračunu  |<br />
+|           |        |                           |Dovoljuje         |<br />
+|           |        |                           |negativne zneske  |<br />
+|           |        |                           |in vsebuje največ |<br />
+|           |        |                           |16 celoštevilskih |<br />
+|           |        |                           |mest in največ dve|<br />
+|           |        |                           |decimalni mesti.  |<br />
++-----------+--------+---------------------------+------------------+<br />
+|+Število   |6 cifer |SteviloTransakcij          |Podatek o številu |<br />
+|transakcij |        |                           |knjiženih         |<br />
+|           |        |                           |transakcij v dobro|<br />
+|           |        |                           |podračuna v okviru|<br />
+|           |        |                           |obdobja poročanja |<br />
++-----------+--------+---------------------------+------------------+<br />
+|Datum      |Datum   |DatumZacetkaObdobja        |Podatek o spodnji |<br />
+|začetka    |        |                           |datumski meji za  |<br />
+|obdobja    |        |                           |katero se delni   |<br />
+|           |        |                           |izpis poroča      |<br />
++-----------+--------+---------------------------+------------------+<br />
+|Datum konca|Datum   |DatumKoncaObdobja          |Podatek o zgornji |<br />
+|obdobja    |        |                           |datumski meji za  |<br />
+|           |        |                           |katero se delni   |<br />
+|           |        |                           |izpis poroča      |<br />
++-----------+--------+---------------------------+------------------+<br />
+|Datum      |Datum   |DatumPredhodnegaIzpiska    |Podatek o zgornji |<br />
+|predhodnega|        |                           |datumski meji     |<br />
+|izpiska    |        |                           |predhodnega       |<br />
+|           |        |                           |izpiska           |<br />
++-----------+--------+---------------------------+------------------+</p>
+<p>(6) Struktura elementa Promet:</p>
+<p>Tabela</p>
+<h3>24. člen</h3>
+<h3>d) Struktura datoteke ObrestniList.xml za prevzem podatkov</h3>
+<p>(1) Računalniški zapis za prevzem paketa s podatki obrestnega lista vsebuje en element Vodilni Stavek in enega ali več elementov Obrestni List.<br />
+(2) Vse podatke oziroma elemente obrestnega lista, ki ga UJP prejme od Banke Slovenije, mora UJP posredovati upravljavcu denarnih sredstev sistema EZR.<br />
+(3) Struktura elementa Vodilni Stavek:</p>
+<p>+------------+---------+-------------+-------------------------+<br />
+|Ime elementa|  Format |    Značka   |      Opis elementa      |<br />
+|            | elementa|             |                         |<br />
++------------+---------+-------------+-------------------------+<br />
+|Vrsta       |4 črke   |VrstaPodatkov|Ozaka za izmenjavo       |<br />
+|podatkov    |         |             |podatkov                 |<br />
++------------+---------+-------------+-------------------------+<br />
+|Pošiljatelj |19 znakov|Posiljatelj  |Identifikacija           |<br />
+|            |         |             |pošiljatelja; kadar      |<br />
+|            |         |             |pošilja MF-UJP ima       |<br />
+|            |         |             |vrednost: UJP, kadar     |<br />
+|            |         |             |pošilja BS ima vrednost: |<br />
+|            |         |             |PPBS2                    |<br />
++------------+---------+-------------+-------------------------+<br />
+|Oznaka      |16 cifer |RefPaketa    |Oznaka paketa            |<br />
+|paketa      |         |             |                         |<br />
++------------+---------+-------------+-------------------------+<br />
+|Število     |5 cifer  |StStavkov    |Število vseh xml stavkov |<br />
+|zapisov v   |         |             |v zapisu, maksimalno     |<br />
+|paketu      |         |             |število zapisov je 1000  |<br />
++------------+---------+-------------+-------------------------+<br />
+|Datum paketa|Datum    |Datum        |Datum pošiljanja paketa  |<br />
++------------+---------+-------------+-------------------------+<br />
+|Ura         |8 cifer  |Ura          |Ura kreiranja paketa     |<br />
+|kreiranja   |         |             |                         |<br />
+|paketa      |         |             |                         |<br />
++------------+---------+-------------+-------------------------+</p>
+<p>(4) Struktura elementa Obrestni List:</p>
+<p>+--------------+--------+------------+-------------------------+<br />
+| Ime elementa | Format |   Značka   |      Opis elementa      |<br />
+|              |elementa|            |                         |<br />
++--------------+--------+------------+-------------------------+<br />
+|Vrsta stavka  |2 črki  |VrstaStavka |Element je zapisan z     |<br />
+|              |        |            |velikimi tiskanimi       |<br />
+|              |        |            |črkami in se obvezno     |<br />
+|              |        |            |uporablja v              |<br />
+|              |        |            |vseh .stavkih            |<br />
++--------------+--------+------------+-------------------------+<br />
+|Referenčna    |16      |Referenca   |Oznaka BS     za primer  |<br />
+|oznaka        |znakov  |            |reklamacije obrestnega   |<br />
+|              |        |            |lista                    |<br />
++--------------+--------+------------+-------------------------+<br />
+|Datum od      |Datum   |DatumOd     |Datum prvega dne,        |<br />
+|              |        |            |vključenega v obračunsko |<br />
+|              |        |            |obdobje                  |<br />
++--------------+--------+------------+-------------------------+<br />
+|Datum do      |Datum   |DatumDo     |Datum zadnjega dne,      |<br />
+|              |        |            |vključenega v obračunsko |<br />
+|              |        |            |obdobje                  |<br />
++--------------+--------+------------+-------------------------+<br />
+|Datum pripisa |Datum   |DatumPri    |Datum pripisa obresti    |<br />
+|              |        |            |(pomeni tudi datum       |<br />
+|              |        |            |preračuna, ko je pripis  |<br />
+|              |        |            |v drugi valuti)          |<br />
++--------------+--------+------------+-------------------------+<br />
+|Številka      |34      |Racun       |Številka računa pri BS,  |<br />
+|računa pri BS |znakov  |            |praviloma v strukturi    |<br />
+|              |        |            |IBAN, za katerega se     |<br />
+|              |        |            |izračunavajo obresti; v  |<br />
+|              |        |            |kolikor gre za izračun   |<br />
+|              |        |            |obresti za stanja na     |<br />
+|              |        |            |kontu, se vpiše konto in |<br />
+|              |        |            |ne račun.                |<br />
++--------------+--------+------------+-------------------------+<br />
+|Oznaka valute |3 črke  |ValRac      |Valuta, v kateri je      |<br />
+|              |        |            |stanje računa            |<br />
++--------------+--------+------------+-------------------------+<br />
+|Skupni znesek |15 cifer|ZnesekObrRac|Znesek obračunanih       |<br />
+|obračunanih   |        |            |obresti za celotno       |<br />
+|obresti       |        |            |obdobje                  |<br />
++--------------+--------+------------+-------------------------+<br />
+|Račun pripisa |34      |RacunPri    |Račun pr ipisa obresti v |<br />
+|obresti       |znakov  |            |strukturi IBAN, če je    |<br />
+|              |        |            |različen od računa       |<br />
+|              |        |            |stanja, za katerega se   |<br />
+|              |        |            |obresti obračunavajo     |<br />
++--------------+--------+------------+-------------------------+<br />
+|Oznaka valute |3 črke  |ValObrPri   |Valuta, v kateri je      |<br />
+|pripisa       |        |            |pripis                   |<br />
++--------------+--------+------------+-------------------------+<br />
+|Skupni znesek |15 cifer|ZnesekObrPri|Znesek pripisanih        |<br />
+|pripisanih    |        |            |obresti na dnevno stanje |<br />
+|obresti       |        |            |zaokrožen na dve         |<br />
+|              |        |            |decimalni mesti          |<br />
++--------------+--------+------------+-------------------------+<br />
+|Namen plačila |        |Namen       |Vsebina je enaka nalogu  |<br />
+|              |        |            |za nakazilo/pripis       |<br />
+|              |        |            |obresti                  |<br />
++--------------+--------+------------+-------------------------+<br />
+|+Namen 1      |35      |Namen1      |Namen    nakazila/pripisa|<br />
+|              |znakov  |            |(referenca)              |<br />
++--------------+--------+------------+-------------------------+<br />
+|+Namen 2      |35      |Namen2      |Namen nakazila/pripisa 2 |<br />
+|              |znakov  |            |                         |<br />
++--------------+--------+------------+-------------------------+<br />
+|+Namen 3      |35      |Namen3      |Namen nakazila/pripisa 3 |<br />
+|              |znakov  |            |                         |<br />
++--------------+--------+------------+-------------------------+<br />
+|+Namen 4      |35      |Namen4      |Namen nakazila/pripisa 4 |<br />
+|              |znakov  |            |                         |<br />
++--------------+--------+------------+-------------------------+<br />
+|Tečaj valute  |25 cifer|TecSt       |Srednji    tečaj valute  |<br />
+|stanja        |        |            |stanja računa na datum   |<br />
+|              |        |            |pripisa                  |<br />
++--------------+--------+------------+-------------------------+<br />
+|Tečaj valute  |25 cifer|TecPri      |Srednji    tečaj valute  |<br />
+|pripisa       |        |            |pripisa obresti na datum |<br />
+|              |        |            |pripisa                  |<br />
++--------------+--------+------------+-------------------------+<br />
+|Obračun po    |        |DnObracun   |Sklop ponavljajočih polj |<br />
+|dnevih enakih |        |            |                         |<br />
+|pogojev       |        |            |                         |<br />
+|obračuna sklop|        |            |                         |<br />
+|ponavljajočih |        |            |                         |<br />
+|polj          |        |            |                         |<br />
++--------------+--------+------------+-------------------------+<br />
+|+Stanje računa|15 cifer|Stanje      |Stanje r ačuna na dan v  |<br />
+|              |        |            |obdobju obračuna         |<br />
++--------------+--------+------------+-------------------------+<br />
+|+Osnova za    |15 cifer|Osnova      |Vrednost       obračunske|<br />
+|obračun       |        |            |osnove na dan v obdobju  |<br />
+|              |        |            |obračuna                 |<br />
++--------------+--------+------------+-------------------------+<br />
+|+Datum od     |Datum   |DatumOd     |Datum dne, od katerega   |<br />
+|              |        |            |veljajo enaki pogoji     |<br />
+|              |        |            |obračuna                 |<br />
++--------------+--------+------------+-------------------------+<br />
+|+Datum do     |Datum   |DatumDo     |Datum dne, do katerega   |<br />
+|              |        |            |veljajo enaki pogoji     |<br />
+|              |        |            |obračuna                 |<br />
++--------------+--------+------------+-------------------------+<br />
+|+Obrestna mera|15 cifer|ObrMera     |Višina o   brestne mere  |<br />
+|              |        |            |zaokrožena na dve        |<br />
+|              |        |            |decimalni mesti          |<br />
++--------------+--------+------------+-------------------------+<br />
+|+Znesek       |15 cifer|ZnesekObr   |Znesek izračunanih       |<br />
+|obračunanih   |        |            |obresti na dnevno stanje |<br />
+|obresti       |        |            |                         |<br />
++--------------+--------+------------+-------------------------+</p>
+<h3>IV. ZAPIS IN KONTROLA PODATKOV V RAČUNALNIŠKI OBLIKI</h3>
+<h3>25. člen</h3>
+<p>Domača plačilna navodila, evropski plačilni nalogi in tuja plačilna navodila za odlive, ki jih proračunski uporabnik posreduje UJP v računalniški obliki, morajo vsebovati vse predpisane podatke. Pred predložitvijo/pošiljanjem podatkov UJP mora proračunski uporabnik vse vsebovane podatke preveriti po določbah tega pravilnika.</p>
+<h3>26. člen</h3>
+<p>(1) Kontrola številke računa plačnika in računa prejemnika plačila se opravi v skladu z izračunom kontrolne številke po poenostavljenem modelu ISO 7064, MOD 97-10. Primer izračuna kontrolne številke je v prilogi, ki je sestavni del tega pravilnika.<br />
+(2) Kontrola podatkov v referencah na številko obremenitve oziroma odobritve se opravi na način, predpisan za izbrano številko modela v Pregledu in vsebini osnovnih modelov za sklicevanje na številko obremenitve in odobritve ter v pojasnilih za njihovo uporabo, ki je priloga predpisa, ki določa obliko, vsebino in uporabo obrazca domačega plačilnega navodila.<br />
+(3) Podatki v referencah na številko obremenitve in odobritve se ne kontrolirajo, če je izbrana številka modela 00.</p>
+<h3>V. PREHODNA IN KONČNI DOLOČBI</h3>
+<h3>27. člen</h3>
+<p>V treh mesecih po uveljavitvi tega pravilnika se ukine uporaba e-pošte za predložitev in prevzem podatkov, kot je določena v 3. členu tega pravilnika.</p>
+<h3>28. člen</h3>
+<p>Z uveljavitvijo tega pravilnika preneha veljati Pravilnik za predložitev in prevzem podatkov s plačilnih navodil, izpiska o prometu in stanju ter delnih izpisov v računalniški obliki (Uradni list RS, št. 117/02, 72/04, 120/05, 137/06, 117/07 in 126/08).</p>
+<h3>29. člen</h3>
+<p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 479-1/2010/5</p>
+<p>Ljubljana, dne 21. januarja 2010</p>
+<p>EVA 2009-1611-0221</p>
+<p>dr. Franc Križanič l.r.<br />
+Minister<br />
+za finance</p>
+<p>Priloga 1: Izračun kontrolne številke transakcijskega računa oziroma podračuna enotnega zakladniškega računa po poenostavljenem postopku za ISO 7064, MOD 97-10</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+</body>
+</html>

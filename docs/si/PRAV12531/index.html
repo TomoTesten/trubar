@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pravilnik o izvajanju Zakona o davčnem potrjevanju računov — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Pravilnik o izvajanju Zakona o davčnem potrjevanju računov</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>PRAV12531</strong></dd>
+      <dt>Vrsta</dt><dd>pravilnik</dd>
+      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Datum</dt><dd>2015-08-14</dd>
+      <dt>Organ</dt><dd>Ministrstvo za finance</dd>
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2015-01-2498" target="_blank">Uradni list RS</a></dd>
+    </dl>
+    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12531.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+  </aside>
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:PRAV12531,vrsta:pravilnik">
+    <h1>Pravilnik o izvajanju Zakona o davčnem potrjevanju računov</h1>
+<p>Na podlagi šestega odstavka 4. člena, osmega odstavka 5. člena, dvanajstega odstavka 7. člena, sedmega odstavka 8. člena in tretjega odstavka 12. člena Zakona o davčnem potrjevanju računov (Uradni list RS, št. 57/15) izdaja minister za finance</p>
+<p>P R A V I L N I K</p>
+<p>o izvajanju Zakona o davčnem potrjevanju računov</p>
+<p>I. SPLOŠNA DOLOČBA</p>
+<p>1. člen</p>
+<p>(vsebina pravilnika)</p>
+<p>Ta pravilnik podrobneje ureja izvajanje Zakona o davčnem potrjevanju računov (Uradni list RS, št. 57/15, v nadaljnjem besedilu: <a href="/trubar/si/ZDavPR/" class="law-ref" title="ZDavPR">ZDavPR</a>): vsebino, postopek pridobivanja in uporabo namenskega digitalnega potrdila, način ustvarjanja, dolžino in obliko zapisa enkratne identifikacijske oznake računa, dolžino in obliko zapisa zaščitne oznake izdajatelja računa, vsebino in obliko sporočil z obveznimi podatki o računu, vrste poslovnih prostorov zavezanca, vsebino in obliko sporočila za pošiljanje podatkov o poslovnih prostorih zavezanca, protokole in varnostne mehanizme za izmenjavo podatkov, model uporabe, pri katerem se za pošiljanje in podpisovanje sporočil uporablja centralni informacijski sistem zavezanca, model uporabe, pri katerem se pošiljanje in podpisovanje elektronskih sporočil izvaja posamično na elektronskih napravah za izdajo računov, standardna sporočila o napakah in protokole postopkov v primeru napak ter vsebino in obliko obvestila o obveznosti izdaje računa in obveznosti kupca, da prevzame in zadrži izdani račun.</p>
+<p>II. NAMENSKA DIGITALNA POTRDILA</p>
+<p>2. člen</p>
+<p>(vsebina in uporaba namenskega digitalnega potrdila)</p>
+<p>(1) Za izvajanje postopka potrjevanja računov zavezanec uporabi namensko digitalno potrdilo z nazivom namena uporabe DavPotRac, ki vsebuje naslednje podatke: davčno številko in ime zavezanca, namen uporabe in zaporedno številko potrdila, izdanega posameznemu zavezancu.</p>
+<p>(2) Namenska digitalna potrdila iz prvega odstavka tega člena se izdajajo po standardu X.509V3 v skladu s priporočili PKIX (<br />
+Public Key Infrastructure based on X.509<br />
+).</p>
+<p>(3) Namensko digitalno potrdilo iz prvega odstavka tega člena lahko zavezanec uporablja le za izmenjavo podatkov o računih in poslovnih prostorih zavezanca iz 10. in 12. člena tega pravilnika pri izvajanju postopka potrjevanja računov.</p>
+<p>3. člen</p>
+<p>(postopek pridobivanja namenskega digitalnega potrdila)</p>
+<p>(1) Vlogo za dodelitev namenskega digitalnega potrdila za izvajanje postopka potrjevanja računov vloži zavezanec elektronsko prek portala eDavki.</p>
+<p>(2) Namensko digitalno potrdilo zavezanec prevzame prek portala za prevzem namenskih digitalnih potrdil za izvajanje postopka potrjevanja računov, s katerim upravlja ministrstvo, pristojno za javno upravo.</p>
+<p>III. ENKRATNA IDENTIFIKACIJSKA OZNAKA RAČUNA</p>
+<p>4. člen</p>
+<p>(način ustvarjanja, dolžina in oblika zapisa enkratne identifikacijske oznake računa)</p>
+<p>(1) Enkratno identifikacijsko oznako računa, ki je unikatna, ustvari informacijski sistem davčnega organa z metodo UUID (<br />
+universally unique identifier<br />
+).</p>
+<p>(2) Enkratna identifikacijska oznaka računa je sestavljena iz 32 znakov. Posamezni znaki enkratne identifikacijske oznake računa so številke od 0 do 9 in male črke od a do f. Znaki so navedeni v petih skupinah, ki so ločene z vezajem (-) v obliki zapisa 8-4-4-4-12.</p>
+<p>(3) Na računu se pred navedbo identifikacijske oznake računa navede kratica EOR.</p>
+<p>IV. ZAŠČITNA OZNAKA IZDAJATELJA RAČUNA</p>
+<p>5. člen</p>
+<p>(način ustvarjanja, dolžina in oblika zapisa zaščitne oznake izdajatelja računa)</p>
+<p>(1) Zaščitno oznako izdajatelja računa, ki je enkratna, ustvari elektronska naprava za izdajo računov na podlagi naslednjih podatkov:</p>
+<p>1. davčne številke zavezanca,</p>
+<p>2. datuma in časa izdaje računa,</p>
+<p>3. številke računa in</p>
+<p>4. vrednosti računa.</p>
+<p>(2) Podatki iz prvega odstavka tega člena se elektronsko podpišejo z namenskim digitalnim potrdilom iz 2. člena tega pravilnika.</p>
+<p>(3) Pri ustvarjanju zaščitne oznake izdajatelja računa se uporablja kodiranje UTF-8 (<br />
+Unicode Transformation Format 8<br />
+). Za zapis decimalnega mesta pri znesku računa se uporabi pika.</p>
+<p>(4) Z uporabo algoritma MD5 se ustvari zaščitna oznaka izdajatelja računa, ki je sestavljena iz 32 znakov v šestnajstiškem zapisu. Posamezni znaki zaščitne oznake izdajatelja računa so številke od 0 do 9 in male črke od a do f.</p>
+<p>(5) Na računu se pred navedbo zaščitne oznake izdajatelja računa navede kratica ZOI.</p>
+<p>(6) Zaščitna oznaka izdajatelja računa se na računu navede v tekstovni obliki (32 znakov v šestnajstiškem zapisu) in v obliki QR kode. QR koda vsebuje podatke v obliki: zaščitna oznaka izdajatelja računa#davčna številka zavezanca#datum in čas izdaje računa v obliki LLLL-MM-DDTUU:MM:SS. QR koda je sestavljena iz 29 x 29 modulov z ravnjo odprave napak »L«. Natisnjena velikost QR kode je vsaj 20 mm x 20 mm. QR koda je obdana s prazno obrobo v velikosti vsaj 2 mm.</p>
+<p>V. PODATKI O RAČUNU</p>
+<p>6. člen</p>
+<p>(vsebina in oblika sporočila s podatki o računu)</p>
+<p>(1) Vsebina in oblika sporočila s podatki o računu sta določeni v Prilogi I k temu pravilniku, ki je njegov sestavni del.</p>
+<p>(2) Sporočilo o spremembah podatkov o računu vsebuje identifikator sporočila, datum in čas pošiljanja, davčno številko zavezanca, ki izda račun, številko računa, na katerega se spremembe nanašajo in spremenjene podatke o računu.</p>
+<p>(3) Vsi zneski, ki so na računu v tuji valuti, se v sporočilo s podatki o računu iz prejšnjega odstavka vpisujejo v eurih. Za preračun vrednosti iz tuje valute v domačo se uporabi tečaj, ki se skladno s predpisi, ki urejajo davek na dodano vrednost, uporablja za določitev davčne osnove.</p>
+<p>VI. PODATKI O POSLOVNEM PROSTORU</p>
+<p>7. člen</p>
+<p>(vsebina in oblika sporočila s podatki o poslovnem prostoru)</p>
+<p>(1) Vsebina in oblika sporočila s podatki o poslovnem prostoru sta določeni v Prilogi II k temu pravilniku, ki je njegov sestavni del.</p>
+<p>(2) Sporočilo o spremembah podatkov o poslovnem prostoru vsebuje identifikator sporočila, datum in čas pošiljanja, davčno številko zavezanca, oznako poslovnega prostora na katerega se spremembe nanašajo in spremenjene podatke o poslovnem prostoru.</p>
+<p>VII. PROTOKOLI IN VARNOSTNI MEHANIZMI ZA IZMENJAVO PODATKOV, MODEL UPORABE, PRI KATEREM SE ZA POŠILJANJE IN PODPISOVANJE SPOROČIL UPORABLJA CENTRALNI INFORMACIJSKI SISTEM ZAVEZANCA, MODEL UPORABE, PRI KATEREM SE POŠILJANJE IN PODPISOVANJE ELEKTRONSKIH SPOROČIL IZVAJA POSAMIČNO NA ELEKTRONSKIH NAPRAVAH ZA IZDAJO RAČUNOV, STANDARDNA SPOROČILA O NAPAKAH IN PROTOKOLI POSTOPKOV V PRIMERU NAPAK</p>
+<p>8. člen</p>
+<p>(izmenjava podatkov/sporočil zavezanca z davčnim organom)</p>
+<p>(1) Zavezanci dostopajo do informacijskega sistema davčnega organa z vzpostavitvijo varne enosmerne povezave TLS.</p>
+<p>(2) Zavezanci izmenjujejo podatke z dostopno točko informacijskega sistema davčnega organa z uporabo varnega protokola TLS.</p>
+<p>(3) Izmenjava podatkov je sinhrona, kar pomeni, da dostopna točka informacijskega sistema davčnega organa takoj odgovori na zahtevo uporabnika.</p>
+<p>(4) Vsebina sporočil zavezanca je določena v Prilogah I in II tega pravilnika.</p>
+<p>(5) Zavezanec sporočila iz prejšnjega odstavka elektronsko podpiše z namenskim digitalnim potrdilom iz 2. člena tega pravilnika.</p>
+<p>9. člen</p>
+<p>(model uporabe za podpisovanje in pošiljanje sporočil)</p>
+<p>(1) Zavezanec za namene izmenjave podatkov o računu iz 10. člena in podatkov o poslovnem prostoru iz 12. člena tega pravilnika komunicira z davčnim organom prek svoje dostopne točke.</p>
+<p>(2) Kot dostopna točka zavezanca se šteje posamezna elektronska naprava za izdajanje računov zavezanca ali informacijski sistem zavezanca (centralizirani model).</p>
+<p>10. člen</p>
+<p>(postopek izmenjave podatkov o računu)</p>
+<p>Postopek izmenjave podatkov med zavezancem in informacijskim sistemom davčnega organa za izdajo računa v skladu z <a href="/trubar/si/ZDavPR/" class="law-ref" title="ZDavPR">ZDavPR</a> poteka v naslednjih korakih:</p>
+<p>1. dostopna točka zavezanca pripravi podatke o računu in ustvari zaščitno oznako izdajatelja računa;</p>
+<p>2. dostopna točka zavezanca pripravi sporočilo s podatki o računu v obliki datoteke XML ali JSON objekta in jo elektronsko podpiše z zasebnim ključem namenskega digitalnega potrdila iz 2. člena tega pravilnika;</p>
+<p>3. dostopna točka zavezanca vzpostavi enosmerno povezavo TLS z informacijskim sistemom davčnega organa, pri čemer se strežnik davčnega organa predstavi s strežniškim digitalnim potrdilom davčnega organa;</p>
+<p>4. po uspešno vzpostavljeni povezavi TLS se izvede klic spletne storitve;</p>
+<p>5. informacijski sistem davčnega organa prejme in obdela sporočilo zavezanca s podatki o računu. Če je sporočilo obdelano uspešno, ta sistem pripravi sporočilo z odgovorom v obliki datoteke XML ali JSON objekta, ki vsebuje enkratno identifikacijsko oznako računa. Sporočilo z odgovorom se elektronsko podpiše z zasebnim ključem digitalnega potrdila davčnega organa in pošlje dostopni točki zavezanca;</p>
+<p>6. dostopna točka zavezanca prejme sporočilo z odgovorom in z javnim ključem preveri elektronski podpis digitalnega potrdila davčnega organa;</p>
+<p>7. fizična oseba, ki izda račun z uporabo elektronske naprave za izdajo računov, izda kupcu račun z enkratno identifikacijsko oznako računa.</p>
+<p>11. člen</p>
+<p>(postopek v primeru napake pri izmenjavi podatkov o računu)</p>
+<p>(1) Če pri obdelavi sporočila s podatki o računu iz prejšnjega člena pride do napake, informacijski sistem davčnega organa vrne sporočilo z odgovorom v obliki datoteke XML ali JSON objekta z opisom napake brez enkratne identifikacijske oznake računa.</p>
+<p>(2) V primeru iz prejšnjega odstavka zavezanec izda račun brez identifikacijske oznake računa. Napako mora odpraviti in davčnemu organu naknadno poslati podatke o računu. Šteje se, da je račun pri davčnem organu potrjen, ko od slednjega prejme sporočilo z odgovorom, ki vsebuje enkratno identifikacijsko oznako računa.</p>
+<p>12. člen</p>
+<p>(postopek izmenjave podatkov o poslovnih prostorih zavezanca)</p>
+<p>Postopek izmenjave podatkov o poslovnih prostorih zavezanca poteka v naslednjih korakih:</p>
+<p>1. dostopna točka zavezanca pripravi podatke o poslovnem prostoru zavezanca;</p>
+<p>2. dostopna točka zavezanca pripravi sporočilo s podatki o poslovnem prostoru zavezanca v obliki datoteke XML ali JSON objekta in jo elektronsko podpiše z zasebnim ključem namenskega digitalnega potrdila iz 2. člena tega pravilnika;</p>
+<p>3. dostopna točka zavezanca vzpostavi enosmerno povezavo TLS z informacijskim sistemom davčnega organa, pri čemer se strežnik davčnega organa predstavi s strežniškim digitalnim potrdilom davčnega organa;</p>
+<p>4. po uspešno vzpostavljeni povezavi TLS se izvede klic spletne storitve;</p>
+<p>5. informacijski sistem davčnega organa sprejme in obdela sporočilo s podatki o poslovnem prostoru zavezanca. Če je sporočilo obdelano uspešno, ta sistem pripravi sporočilo z odgovorom v obliki datoteke XML ali JSON objekta, ki vsebuje potrdilo o prejemu podatkov. Sporočilo z odgovorom se elektronsko podpiše z zasebnim ključem digitalnega potrdila davčnega organa in pošlje dostopni točki zavezanca;</p>
+<p>6. dostopna točka zavezanca prejme sporočilo z odgovorom in z javnim ključem preveri elektronski podpis digitalnega potrdila davčnega organa;</p>
+<p>7. postopek izmenjave podatkov o poslovnem prostoru zavezanca se konča.</p>
+<p>13. člen</p>
+<p>(postopek v primeru napake pri izmenjavi podatkov o poslovnih prostorih)</p>
+<p>(1) Če pri obdelavi sporočila s podatki o poslovnih prostorih iz prejšnjega člena tega pravilnika pride do napake, informacijski sistem davčnega organa vrne sporočilo z odgovorom v obliki datoteke XML ali JSON objekta z opisom napake.</p>
+<p>(2) V primeru iz prejšnjega odstavka mora zavezanec odpraviti napako in davčnemu organu ponovno poslati podatke o poslovnem prostoru zavezanca. Šteje se, da je davčnemu organu sporočil podatke o poslovnem prostoru, ko od davčnega organa prejme potrdilo o prejemu podatkov.</p>
+<p>14. člen</p>
+<p>(najdaljši čas, ko dostopna točka zavezanca čaka odgovor informacijskega sistema davčnega organa)</p>
+<p>(1) Najdaljši čas, ko dostopna točka zavezanca pri izmenjavi podatkov iz 10. člena tega pravilnika čaka sporočilo z odgovorom informacijskega sistema davčnega organa, določi zavezanec.</p>
+<p>(2) Zavezanec pri določitvi najdaljšega časa iz prejšnjega odstavka upošteva najdaljši čas dveh sekund, v katerem mora informacijski sistem davčnega organa obdelati sporočilo s podatki o računu in vrniti zavezancu sporočilo z odgovorom (čas od trenutka vstopa sporočila v informacijski sistem davčnega organa do trenutka izhoda sporočila z odgovorom iz informacijskega sistema davčnega organa), vrsto in prepustnost spletne povezave, ki jo zavezanec uporablja za izmenjavo podatkov, ter značilnosti svojega poslovnega procesa.</p>
+<p>15. člen</p>
+<p>(informacijski sistem davčnega organa)</p>
+<p>(1) Informacijski sistem davčnega organa je za izvajanje postopka potrjevanja računov dostopen v preizkusnem in produkcijskem okolju.</p>
+<p>(2) Preizkusno in produkcijsko okolje informacijskega sistema davčnega organa imata različna naslova dostopnih točk in uporabljata različna digitalna potrdila.</p>
+<p>(3) Digitalna potrdila dostopne točke informacijskega sistema davčnega organa se uporabljajo za vzpostavitev povezave TLS z informacijskim sistemom davčnega organa in elektronsko podpisovanje sporočil.</p>
+<p>(4) Podatki med informacijskim sistemom davčnega organa in dostopno točko zavezanca se izmenjujejo prek spletne storitve z uporabo sporočil XML ali JSON sporočil.</p>
+<p>16. člen</p>
+<p>(povezovanje z informacijskim sistemom davčnega organa)</p>
+<p>(1) Za povezavo z informacijskim sistemom davčnega organa mora imeti zavezanec zagotovljen dostop do internetnega omrežja in ustrezno prepustnost povezave.</p>
+<p>(2) Ustrezno prepustnost povezave iz prejšnjega odstavka določi zavezanec na podlagi števila sporočil v sekundi med največjo obremenitvijo v skladu s 14. členom tega pravilnika.</p>
+<p>(3) Programska rešitev zavezanca mora za izvajanje postopka elektronske izmenjave podatkov o računih iz 10. člena in podatkov o poslovnih prostorih iz 12. člena tega pravilnika izpolnjevati naslednje pogoje:</p>
+<p>– za izmenjavo XML sporočil po protokolu SOAP:</p>
+<p>1. standard kreiranja odjemalca: WS-I,</p>
+<p>2. tip servisa: document-literal in</p>
+<p>3. aplikacijski protokol: SOAP/HTTPS (SOAP 1.1);</p>
+<p>– za izmenjavo JSON sporočil na način REST:</p>
+<p>1. standard kreiranja JSON objekta: json-shema v4,</p>
+<p>2. standard podpisovanja JSON objekta: JSON Web Signature in</p>
+<p>3. aplikacijski protokol: HTTPS.</p>
+<p>(4) Finančna uprava Republike Slovenije objavi tehnične specifikacije za izmenjavo podatkov o računih iz 10. člena in podatkov o poslovnih prostorih iz 12. člena tega pravilnika na portalu eDavki.</p>
+<p>17. člen</p>
+<p>(sporočila o napakah)</p>
+<p>V primeru napake pri obdelavi sporočila s podatki o računu iz 11. člena in sporočila s podatki o poslovnem prostoru zavezanca iz 13. člena tega pravilnika informacijski sistem davčnega organa dostopni točki zavezanca vrne eno izmed naslednjih sporočil o napakah:</p>
+<p>1. sporočilo ni v skladu s shemo XML;</p>
+<p>2. sporočilo ni v skladu s shemo JSON;</p>
+<p>3. digitalni podpis ni ustrezen;</p>
+<p>4. identifikator digitalnega potrdila ni ustrezen;</p>
+<p>5. digitalno potrdilo je preklicano;</p>
+<p>6. digitalnemu potrdilu je potekla veljavnost;</p>
+<p>7. davčna številka v sporočilu ni enaka davčni številki iz digitalnega potrdila;</p>
+<p>8. podatki o poslovnem prostoru niso posredovani;</p>
+<p>9. sistemska napaka pri obdelavi sporočila.</p>
+<p>VIII. OBVESTILO O OBVEZNOSTI IZDAJE RAČUNA IN OBVEZNOSTI KUPCA, DA PREVZAME IN ZADRŽI IZDANI RAČUN</p>
+<p>18. člen</p>
+<p>(vsebina in oblika obvestila)</p>
+<p>(1) Obvestilo o obveznosti izdaje računa in obveznosti kupca, da prevzame in zadrži izdani račun iz prvega odstavka 12. člena <a href="/trubar/si/ZDavPR/" class="law-ref" title="ZDavPR">ZDavPR</a>, je v velikosti 148 x 210 mm (format A5).</p>
+<p>(2) Obvestilo iz prejšnjega odstavka je razdeljeno na dva dela.</p>
+<p>(3) V zgornjem delu obvestila je na ozadju, ki je v barvi 355 C po barvni lestvici Pantone, navedeno besedilo »Ne spreglejte! Kupec mora prevzeti račun in ga zadržati neposredno po odhodu iz poslovnega prostora. Zakon o davčnem potrjevanju računov«. Črke besedila so v beli barvi.</p>
+<p>(4) V spodnjem delu obvestila je na ozadju, ki je v črni barvi, navedeno besedilo »Vklopi razum, zahtevaj račun!«. Črke besedila so v beli barvi. V desnem kotu je na belem ozadju vrisan stiliziran simbol za vklop. Simbol za vklop je v barvi 355 C po barvni lestvici Pantone.</p>
+<p>(5) Na obvestilu je uporabljena neserifna tipografija črk.</p>
+<p>(6) Vsebina in oblika obvestila o obveznosti izdaje računa in obveznosti kupca, da prevzame in zadrži izdani račun sta določeni v Prilogi III k temu pravilniku, ki je njegov sestavni del.</p>
+<p>IX. KONČNA DOLOČBA</p>
+<p>19. člen</p>
+<p>(veljavnost pravilnika)</p>
+<p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 007-536/2015/33</p>
+<p>Ljubljana, dne 13. avgusta 2015</p>
+<p>EVA 2015-1611-0093</p>
+<p>dr. Dušan Mramor<br />
+l.r.</p>
+<p>Minister za finance</p>
+<p>Priloga I: Vsebina in oblika sporočila s podatki o računu</p>
+<p>Priloga II: Vsebina in oblika sporočila s podatki o poslovnem prostoru zavezanca</p>
+<p>Priloga III: Vsebina in oblika obvestila o obveznosti izdaje računa in obveznosti kupca, da prevzame in zadrži račun</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pravilnik o tehničnih pogojiih za digitalne optične vodovne terminale za plesiohono digitalno hierarhijo s hitrostjo prenosa od 2 Mbit/s do 140 Mbit/s — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Pravilnik o tehničnih pogojiih za digitalne optične vodovne terminale za plesiohono digitalno hierarhijo s hitrostjo prenosa od 2 Mbit/s do 140 Mbit/s</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>PRAV3285</strong></dd>
+      <dt>Vrsta</dt><dd>pravilnik</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>1995-07-28</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2114" target="_blank">Uradni list RS</a></dd>
+    </dl>
+    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3285.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+  </aside>
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:PRAV3285,vrsta:pravilnik">
+    <h1>Pravilnik o tehničnih pogojiih za digitalne optične vodovne terminale za plesiohono digitalno hierarhijo s hitrostjo prenosa od 2 Mbit/s do 140 Mbit/s</h1>
+<p>Na podlagi 145. člena zakona o sistemih zvez (Uradni list SFRJ, št. 41/88, 80/89 in 29/90) v zvezi s 4. členom ustavnega zakona za izvedbo temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije (Uradni list RS, št. 1/91-I) in na podlagi 24. člena zakona o vladi Republike Slovenije (Uradni list RS, št. 4/93) izdaja minister za promet in zveze</p>
+<h2>P R A V I L N I K</h2>
+<p>o tehničnih pogojih za digitalne optične vodovne terminale za plesiohrono digitalno hierarhijo s hitrostmi prenosa od 2 Mbit/s do 140 Mbit/s</p>
+<h3>I. SPLOŠNE DOLOČBE</h3>
+<h3>1. člen</h3>
+<p>V javno telekomunikacijsko omrežje se smejo vključevati optični vodovni terminali (v nadaljnjem besedilu: terminali), ki izpolnjujejo določbe iz tega pravilnika.</p>
+<h3>2. člen</h3>
+<p>Terminali so namenjeni za pretvorbo digitalnih električnih signalov plesiohrone digitalne hierarhije (PDH) s hitrostmi delovanja 2048 kbit/s, 8448 kbit/s, 34368 kbit/s in 139264 kbit/s v optične signale, primerne za prenos po optičnem kablu, in njihovo pretvorbo nazaj v signale PDH.</p>
+<h3>3. člen</h3>
+<p>Terminali imajo enega ali več električnih vhodov oziroma izhodov za enake ali različne bitne hitrosti, predvidene v tem pravilniku.</p>
+<h3>II. SKUPNE DOLOČBE ZA VSE TERMINALE</h3>
+<h3>4. člen</h3>
+<ol>
+<li>Sistemska bitna napaka<br />
+Kakovost zveze med dvema terminaloma mora biti taka, da je ob nazivnem dometu bitna napaka manjša od 1×10(na-10). Nazivni domet terminala je razlika v decibelih (dB) med njegovo najmanjšo deklarirano optično oddajno močjo in najmanjšo deklarirano občutljivostjo sprejemnika za optični signal.</li>
+<li>Optični vmesnik<br />
+2.1 Pri nazivni valovni dolžini 1310 nm se mora njena dejanska vrednost v oddajnem signalu nahajati v mejah med 1270 nm in 1330 nm.<br />
+2.2 Pri nazivni valovni dolžini 1550 nm se mora njena dejanska vrednost v oddajnem signalu nahajati v mejah med 1530 nm in 1570 nm.</li>
+<li>Oddajanje alarmnega (AIS) signala<br />
+Ob izpadu signala na vhodu kateregakoli električnega vmesnika se mora signal, ki je prihajal s tega vmesnika, v terminalu nadomestiti signalom AIS tako, da se signal AIS pojavi v ustreznem delu oddajnega optičnega signala oziroma na ustreznem električnem izhodu terminala na drugi strani zveze med dvema terminaloma.<br />
+Ob izpadu sprejemnega optičnega signala ali ob bitni napaki pri optičnem sprejemu, ki je večja od 1×10-3, se mora signal AIS pojaviti na vseh izhodih električnih vmesnikov.<br />
+Ekvivalentno binarno vsebino signala AIS predstavlja neprekinjen niz enic, katerih bitne hitrosti in tolerance morajo biti v skladu s tabelo 1 priporočila ITU-T, G.921. Impulzi signala AIS morajo po obliki ustrezati impulzom električnega signala za dano hitrost prenosa.</li>
+<li>Električna trdnost vmesnikov osnovnega pasu<br />
+Električna vmesnika na vhodu in izhodu terminala morata zdržati električne preobremenitve v skladu z določbami priporočila ITU-T, G.703, dodatek B.</li>
+<li>Vplivi okolja<br />
+Terminali so namenjeni za trajno uporabo na zaščitenih mestih in morajo izpolnjevati vse določbe iz tega pravilnika ob pogojih okolja, ki so določeni v standardu ETS 300 019-1-3, razred 3.1, in se preverjajo po standardu ETS 300 019-2-3, razred 3.1.</li>
+</ol>
+<h3>III. ELEKTRIČNI VMESNIKI ZA HITROSTI DELOVANJA 2048 kbit/s</h3>
+<h3>5. člen</h3>
+<p>Električni vmesniki morajo ustrezati naslednjim določbam:<br />
+a) Splošno</p>
+<p>– bitna hitrost                                  2048 kbit/s<br />
+– dovoljeno odstopanje bitne hitrosti            ±50 ppm<br />
+– vrsta kode                                     HDB 3 v skladu s priporočilom<br />
+                                                 ITU-T, G.703, dodatek A</p>
+<p>b) Izhod</p>
+<p>– oblika impulza                                 v skladu s tabelo 6 in  sliko<br />
+                                                 15 priporočila ITU-T, G.703<br />
+– preskusna bremenska impedanca                  75Ω in 120 Ω realno, v skladu<br />
+                                                 s tabelo 6 ITU-T, G.703<br />
+– trepetanje faze                                v skladu z ITU-T, G.921 točka<br />
+                                                 1.3.2.4<br />
+– simetrija na simetričnem izhodu                v skladu s točko 5.2 standarda<br />
+                                                 ETS 300 166<br />
+– slabljenje refleksije                          v skladu s točko 5.3 standarda<br />
+                                                 ETS 300 166</p>
+<p>c) Vhod</p>
+<p>– nazivni vhodni signal                          v skladu s tabelo 6 in sliko<br />
+                                                 15 priporočila ITU-T, G.703<br />
+– nazivna impedanca                              75 Ω asim. in 120 Ω sim.<br />
+– slabljenje refleksije                          v skladu s točko 6.3.3 ITU-T,<br />
+                                                 G.703<br />
+– odpornost na odbojni signal                    v skladu s točko 6.3.4 ITU-T,<br />
+                                                 G.703<br />
+– odpornost na vzdolžno napetost                 v skladu s točko 5.1 standarda<br />
+na simetričnem vhodu                             ETS 300 166<br />
+– dovoljeno slabljenje kabla do vhoda<br />
+pri frekvenci 1024 kHz in<br />
+zakonitosti slabljenja √f                        od 0 do 6 dB  v skladu z ITU-T,<br />
+                                                 G.703, točka 6.3.1<br />
+– odpornost na vhodno trepetanje faze            v skladu z ITU-T, G.823,<br />
+                                                 slika 3 in tabela 2<br />
+– prenosna karakteristika trepetanja faze        &lt;3 dB v skladu z ITU-T, G.921,<br />
+                                                 točka 1.3.2.3</p>
+<h3>IV. ELEKTRIČNI VMESNIKI S HITROSTJO DELOVANJA 8448 kbit/s</h3>
+<h3>6. člen</h3>
+<p>Lastnosti električnega vmesnika morajo ustrezati naslednjim določbam:<br />
+a) Splošno</p>
+<p>– bitna hitrost                                  8448 kbit/s<br />
+– dovoljeno odstopanje bitne hitrosti            ±30 ppm<br />
+– vrsta kode                                     HDB 3 v skladu s priporočilom<br />
+                                                 ITU-T, G.703, dodatek A</p>
+<p>b) Izhod</p>
+<p>– oblika impulza                                 v skladu s tabelo 7 in sliko<br />
+                                                 16 priporočila ITU-T, G.703<br />
+– preskusna bremenska impedanca                  75 Ω realno v skladu z ITU-T,<br />
+                                                 G.703, tabela 7<br />
+– trepetanje faze                                v skladu z ITU-T, G.921 točka<br />
+                                                 1.3.2.4<br />
+– slabljenje refleksije                          v skladu s točko 5.3 standarda<br />
+                                                 ETS 300 166</p>
+<p>c) Vhod</p>
+<p>– nazivni vhodni signal                          v skladu s tabelo 7 in sliko<br />
+                                                 16 priporočila ITU-T, G.703<br />
+– nazivna impedanca                              75 Ω asim.<br />
+– slabljenje refleksije                          v skladu s točko 7.3.3 ITU-T,<br />
+                                                 G.703<br />
+– odpornost na odbojni signal                    v skladu s točko 7.3.4 ITU-T,<br />
+                                                 G.703<br />
+– dovoljeno slabljenje kabla do vhoda<br />
+pri frekvenci 4224 kHz in<br />
+zakonitosti slabljenja √f                        od 0 do 6 dB v skladu z ITU-T,<br />
+                                                 G.703, točka 7.3.1<br />
+– odpornost na vhodno trepetanje faze            v skladu z ITU-T, G.823,<br />
+                                                 slika 3 in tabela 2<br />
+– prenosna karakteristika trepetanja<br />
+faze                                             &lt;1 dB v skladu z ITU-T, G.921,<br />
+                                                 točka 1.3.2.3</p>
+<h3>V. ELEKTRIČNI VMESNIKI S HITROSTJO DELOVANJA 34368 kbit/s</h3>
+<h3>7. člen</h3>
+<p>Lastnosti električnega vmesnika morajo ustrezati naslednjim določbam:<br />
+a) Splošno</p>
+<p>– bitna hitrost                                  34368 kbit/s<br />
+– dovoljeno odstopanje bitne hitrosti            ±20 ppm<br />
+– vrsta kode                                     HDB 3 v skladu s priporočilom<br />
+                                                 ITU-T, G.703, dodatek A</p>
+<p>b) Izhod</p>
+<p>– oblika impulza                                 v skladu s tabelo 8 in sliko<br />
+                                                 17 priporočila ITU-T, G.703<br />
+– preskusna bremenska impedanca                  75 Ω realno v skladu z ITU-T,<br />
+                                                 G.703, tabela 8<br />
+– trepetanje faze                                v skladu z ITU-T, G.921 točka<br />
+                                                 1.3.2.4<br />
+– slabljenje refleksije                          v skladu s točko 5.3 standarda<br />
+                                                 ETS 300 166</p>
+<p>c) Vhod</p>
+<p>– nazivni vhodni signal                          v skladu s tabelo 8 in sliko<br />
+                                                 17 priporočila ITU-T, G.703<br />
+– nazivna impedanca                              75 Ω asim.<br />
+– slabljenje refleksije                          v skladu s točko 8.3.3 ITU-T,<br />
+                                                 G.703<br />
+– odpornost na odbojni signal                    v skladu s točko 8.3.4 ITU-T,<br />
+                                                 G.703<br />
+– dovoljeno slabljenje kabla do vhoda<br />
+pri frekvenci 17184 kHz in<br />
+zakonitosti slabljenja √f                        od 0 do 12 dB v skladu s<br />
+                                                 ITU-T, G.703, točka 8.3.1<br />
+– odpornost na vhodno trepetanje faze            v skladu z ITU-T, G.823,<br />
+                                                 slika 3 in tabela 2<br />
+– prenosna karakteristika trepetanja<br />
+faze                                             &lt;1 dB v skladu z ITU-T, G.921,<br />
+                                                 točka 1.3.2.3</p>
+<h3>VI. ELEKTRIČNI VMESNIKI S HITROSTJO DELOVANJA 139264 kbit/s</h3>
+<h3>8. člen</h3>
+<p>Lastnosti električnega vmesnika morajo ustrezati naslednjim določbam:<br />
+a) Splošno</p>
+<p>– bitna hitrost                                  139264 kbit/s<br />
+– dovoljeno odstopanje bitne hitrosti            ±15 ppm<br />
+– vrsta kode                                     CMI v skladu z ITU-T, G.703,<br />
+                                                 točka 9.1</p>
+<p>b) Izhod</p>
+<p>– oblika impulza                                 v skladu s tabelo 9 in slikama<br />
+                                                 19 in 20 priporočila ITU-T,<br />
+                                                 G.703<br />
+– preskusna bremenska impedanca                  75 Ω realno v skladu z ITU-T,<br />
+                                                 G.703, tabela 9<br />
+– trepetanje faze                                v skladu z ITU-T, G.921,<br />
+                                                 točka 1.3.2.4<br />
+– slabljenje refleksije                          v skladu z ITU-T, G.703,<br />
+                                                 tabela 9</p>
+<p>c) Vhod</p>
+<p>– nazivni vhodni signal                          v skladu s tabelo 9 in slikama<br />
+                                                 19 in 20 priporočila ITU-T,<br />
+                                                 G.703<br />
+– nazivna impedanca                              75 Ω asim.<br />
+– slabljenje refleksije od<br />
+7 MHz do 210 MHz                                 &gt;15 dB v skladu z ITU-T,<br />
+                                                  G.703, točka 9.3<br />
+– dovoljeno slabljenje kabla do vhoda<br />
+pri frekvenci 70 MHz in zakonitosti              slabljenja vf od 0 do 12 dB <br />
+                                                 v skladu z<br />
+                                                 ITU-T, G.703, točka 9.3<br />
+– odpornost na vhodno trepetanje faze            v skladu z ITU-T, G.823, <br />
+                                                 slika 3 in tabela 2<br />
+– prenosna karakteristika trepetanja<br />
+faze                                             &lt;1 dB v skladu z ITU-T, G.921,<br />
+                                                 točka 1.3.2.3</p>
+<h3>VII. PREHODNI IN KONČNI DOLOČBI</h3>
+<h3>9. člen</h3>
+<p>Z dnem uveljavitve tega pravilnika se prenehajo uporabljati tehnični pogoji za analogne in digitalne multipleksne in linijske sisteme (PTT Vestnik, št. 32/89) v delu, ki opredeljuje Digitalne optične linijske sisteme za 2048 kb/s, Digitalne optične linijske sisteme za 8448 kb/s, Digitalne optične linijske sisteme za 34368 kb/s in Digitalne optične  linijske sisteme za 139264 kb/s.</p>
+<h3>10. člen</h3>
+<p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije, razen določb četrte in pete alinee točke b) ter pete alinee točke c) 5. člena, četrte alinee točke b) 6. člena, in četrte alinee točke b) 7. člena, ki začnejo veljati dve leti od dneva objave tega pravilnika.</p>
+<p>Št. 346-20/95</p>
+<p>Ljubljana, dne 19. julija 1995.</p>
+<p>Igor Umek l. r.<br />
+Minister<br />
+za promet in zveze</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+</body>
+</html>

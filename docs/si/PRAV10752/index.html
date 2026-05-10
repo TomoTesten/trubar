@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pravilnik o elektronski izmenjavi podatkov med zemljiško knjigo in katastri — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Pravilnik o elektronski izmenjavi podatkov med zemljiško knjigo in katastri</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>PRAV10752</strong></dd>
+      <dt>Vrsta</dt><dd>pravilnik</dd>
+      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Datum</dt><dd>2011-04-22</dd>
+      <dt>Organ</dt><dd>Ministrstvo za pravosodje</dd>
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-1479" target="_blank">Uradni list RS</a></dd>
+    </dl>
+    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10752.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+  </aside>
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:PRAV10752,vrsta:pravilnik">
+    <h1>Pravilnik o elektronski izmenjavi podatkov med zemljiško knjigo in katastri</h1>
+<p>Na podlagi drugega odstavka 125.e člena Zakona o zemljiški knjigi (Uradni list RS, št. 58/03, 34/08 – ZST-1, 45/08, 59/90 in 25/11) izdaja minister za pravosodje v soglasju z ministrom za okolje in prostor</p>
+<h2>P R A V I L N I K</h2>
+<p>o elektronski izmenjavi podatkov med zemljiško knjigo in katastri</p>
+<h3>1. člen</h3>
+<h3>(vsebina pravilnika)</h3>
+<p>Ta pravilnik ureja podrobnejša pravila o vsebini, strukturi in načinu:<br />
+1. elektronske izmenjave podatkov, ki jih vključujejo obvestila iz 115. člena Zakona o zemljiški knjigi (Uradni list RS, št. št. 58/03, 34/08 – ZST-1, 45/08, 59/90 in 25/11 – v nadaljnjem besedilu: zakon) in<br />
+2. elektronskega posredovanja podatkov o izvedenih vpisih iz drugega odstavka 177. člena zakona.</p>
+<h3>2. člen</h3>
+<h3>(elektronska izmenjava podatkov iz obvestil o poočitvah glede nepremičnin)</h3>
+<p>(1) Geodetska uprava pošilja zemljiškoknjižnemu sodišču podatke o spremembi identifikacijskega znaka nepremične iz 1. točke 114. člena zakona in podatke o združitvi ali delitvi nepremičnin iz 2. točke 114. člena zakona tako, da jih posreduje informacijskemu sistemu e-ZK na naslednji način:<br />
+1. informacijski sistem Geodetske uprave mora vsako obvestilo poslati kot samostojen dokument po enaki XML shemi kot se uporablja za predloge, ki se vlagajo prek portala e-ZK,<br />
+2. obvestilo iz prejšnje točke mora vključevati te podatke:<br />
+– identifikacijski znak nepremičnine,<br />
+– tip identifikacijskega znaka nepremičnine,<br />
+– tip nepremičnine,<br />
+– podatek, da obvestilo pošilja geodetska uprava (matično številko),<br />
+3. informacijski sistem e-ZK izvede obdelavo obvestila, pri kateri:<br />
+– določi ID obvestila,<br />
+– XML dopolni z drugimi podatki po XML shemi in ga posreduje informacijskemu sistemu Geodetske uprave,<br />
+4. informacijski sistem Geodetske uprave elektronsko podpiše dopolnjeni XML in ga prek ID obvestila posreduje informacijskemu sistemu e-ZK,<br />
+5. informacijski sistem Geodetske uprave se pri pošiljanju v informacijski sistem e-ZK identificira z digitalnim potrdilom in IP naslovom, ki ga izbere Geodetska uprava in sporoči Centru za informatiko,<br />
+6. za obvestila se ob prevzemanju v modul Dn vpisnik ne izvajajo kontrole, ki se izvajajo na portalu e-ZK; izvede se samo kontrola, ali zapis ustreza XML shemi.<br />
+(2) Informacijski sistem e-ZK pošilja informacijskemu sistemu Geodetske uprave podatke, ki jih vključujejo obvestila iz šestega odstavka 115. člena zakona, paketno, enkrat dnevno tako, da informacijskemu sistemu Geodetske uprave omogoča, da prek ID obvestil iz prve alineje 3. točke prejšnjega odstavka:<br />
+1. prevzema status odločitve o poočitvah v informacijskem sistemu e-ZK,<br />
+2. za vse zadeve, v katerih je bil v posameznem dnevu odločeno o poočitvi:<br />
+– če je bil izvršen vpis poočitve v zemljiško knjigo, prevzame ta podatek,<br />
+– če je bilo odločeno, da vpis ni dovoljen, prevzame ta podatek in podatke o ovirah za dovolitev vpisa.</p>
+<h3>3. člen</h3>
+<h3>(elektronsko posredovanje podatkov o izvedenih vpisih)</h3>
+<p>(1) Informacijski sistem e-ZK posreduje informacijskemu sistemu Geodetski upravi podatke o izvedenih vpisih iz drugega odstavka 177. člena zakona paketno, enkrat dnevno preko varovanega protokola za prenos datotek (SFTP) tako, da za vse nepremičnine, glede katerih je bil v posameznem dnevu izvršen vpis spremembe osnovnega pravnega položaja, vpis spremembe imetnikov osnovnega pravnega položaja ali vpis ali izbris stavbne pravice, posreduje naslednje podatke:<br />
+1. če je bil spremenjen osnovni pravni položaj nepremičnine: podatke o osnovnem pravnem položaju pred in po spremembi,<br />
+2. če so bili spremenjeni imetniki osnovnega pravnega položaja: podatke o imetnikih pred in po spremembi,<br />
+3. če je bila vpisana stavbna pravica:<br />
+– podatke o zemljiški parceli, pri osnovnem pravnem položaju katere je bila vpisana stavbna pravica kot izvedena pravica, in<br />
+– podatke o osnovnem pravnem položaju stavbne pravice kot nepremičnine,<br />
+4. če je bila izbrisana stavbna pravica: podatke o izbrisani stavbni pravici.<br />
+(2) Informacijski sistem e-ZK posreduje podatke iz prejšnjega odstavka v XML shemi in s strukturo vpisa teh podatkov v informatizirani glavni knjigi.</p>
+<h3>PREHODNI IN KONČNI DOLOČBI</h3>
+<h3>4. člen</h3>
+<h3>(prilagoditev informacijskega sistema e-ZK)</h3>
+<p>(1) Center za informatiko mora do 1. novembra 2011 prilagoditi informacijski sistem e-ZK tako, da bo omogočen prevzem podatkov na način iz prvega odstavka 2. člena tega pravilnika in posredovanje podatkov na način iz drugega odstavka 2. člena in 3. člena tega pravilnika.<br />
+(2) Geodetska uprava mora do 1. novembra 2011 prilagoditi svoj informacijski sistem tako, da bo omogočeno posredovanje podatkov na način iz prvega odstavka 2. člena tega pravilnika in prevzem podatkov na način iz drugega odstavka 2. člena in 3. člena tega pravilnika.</p>
+<h3>5. člen</h3>
+<h3>(elektronska izmenjava podatkov v prehodnem obdobju)</h3>
+<p>(1) V obdobju od 1. maja 2011 do 31. decembra 2011 Geodetska uprava zemljiškoknjižnemu sodišču pošilja podatke iz obvestil o spremembi identifikacijskega znaka nepremičnine in o delitvi ali združitvi nepremičnin tako, da uporabi postopek z oznako 011, 034, 039 ali 062 na portalu e-ZK.<br />
+(2) Za pošiljanje obvestil iz prejšnjega odstavka se smiselno uporabljata 11. in 12. člen Pravilnika o zemljiški knjigi (Uradni list RS, št. 30/11).<br />
+(3) V obdobju od 1. maja 2011 do 31. decembra 2011 zemljiškoknjižno sodišče posreduje Geodetski upravi:<br />
+1. obvestila iz šestega odstavka 115. člena zakona tako, da informacijski sistem e-ZK PDF dokument z vsebino obvestila pošlje po elektronski pošti na elektronski naslov, ki ga sporoči Geodetska uprava,<br />
+2. obvestila o izvedenih vpisih iz drugega odstavka 177. člena zakona tako, da informacijski sistem e-ZK PDF dokument z vsebino sklepa o dovolitvi vpisa pošlje po elektronski pošti na elektronski naslov, ki ga sporoči Geodetska uprava.</p>
+<h3>6. člen</h3>
+<h3>(začetek uporabe)</h3>
+<p>Določbi 2. in 3. člena tega pravilnika se začneta uporabljati 1. januarja 2012.</p>
+<h3>7. člen</h3>
+<h3>(začetek veljavnosti)</h3>
+<p>Ta pravilnik začne veljati 1. maja 2011.</p>
+<p>Št. 007-101/2011</p>
+<p>Ljubljana, dne 20. aprila 2011</p>
+<p>EVA 2011-2011-0032</p>
+<p>Aleš Zalar l.r.<br />
+Minister<br />
+za pravosodje<br />
+Soglašam!<br />
+dr. Roko Žarnić l.r.<br />
+Minister<br />
+za okolje in prostor</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+</body>
+</html>

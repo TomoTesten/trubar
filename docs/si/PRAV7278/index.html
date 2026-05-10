@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pravilnik o spremembah in dopolnitvah Pravilnika za predložitev in prevzem podatkov s plačilnih navodil in izpiska o prometu in stanju v računalniški obliki — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Pravilnik o spremembah in dopolnitvah Pravilnika za predložitev in prevzem podatkov s plačilnih navodil in izpiska o prometu in stanju v računalniški obliki</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>PRAV7278</strong></dd>
+      <dt>Vrsta</dt><dd>pravilnik</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2005-12-29</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-5424" target="_blank">Uradni list RS</a></dd>
+    </dl>
+    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7278.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+  </aside>
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:PRAV7278,vrsta:pravilnik">
+    <h1>Pravilnik o spremembah in dopolnitvah Pravilnika za predložitev in prevzem podatkov s plačilnih navodil in izpiska o prometu in stanju v računalniški obliki</h1>
+<p>Na podlagi 2., 3. in 5. točke prvega odstavka 74. člena Zakona o plačilnem prometu (Uradni list RS, št. 105/04 – uradno prečiščeno besedilo in 100/05 – odločba US) izdaja minister za finance</p>
+<h2>P R A V I L N I K</h2>
+<p>o spremembah in dopolnitvah Pravilnika<br />
+za predložitev in prevzem podatkov s plačilnih navodil in izpiska o prometu in stanju<br />
+v računalniški obliki</p>
+<h3>1. člen</h3>
+<p>V Pravilniku za predložitev in prevzem podatkov s plačilnih navodil in izpiska o prometu in stanju v računalniški obliki (Uradni list RS, 117/02 in 72/04) se spremeni naslov tako, da se glasi:<br />
+''Pravilnik za predložitev in prevzem podatkov s plačilnih navodil, izpiska o prometu in stanju ter delnih izpisov v računalniški obliki''.</p>
+<h3>2. člen</h3>
+<p>V 2. členu se za deveto alineo doda nova deseta alinea, ki se glasi:<br />
+''– Delni izpis je izpis določenih plačilnih transakcij enega ali več podračunov, pripravljenih za potrebe nadzornikov po posebnih merilih, ki so določena v pravilniku, ki ureja opravljanje nalog Uprave Republike Slovenije za javna plačila na področju plačevanja in razporejanja obveznih dajatev in drugih javnofinančnih prihodkov;''.<br />
+Dosedanja deseta alinea postane enajsta alinea.</p>
+<h3>3. člen</h3>
+<p>V 3. členu se za besedama ''podatke izpiska'' doda besedilo ''ter delnega izpisa''.</p>
+<h3>4. člen</h3>
+<p>V prvem odstavku 4. člena se črta beseda ''ter'', na koncu stavka pa se pika nadomesti z vejico ter doda besedilo ''ter strukturo računalniškega zapisa podatkov o določenih plačilnih transakcijah prek podračunov nadzornikov v obliki tolarskega delnega izpisa, ki ga UJP pošlje nadzorniku.''.<br />
+V drugem odstavku se za besedama ''pošiljanja izpiskov'' doda besedilo ''ter delnih izpisov'', za besedama  ''proračunski uporabnik'' pa doda besedi ''oziroma nadzornik''.</p>
+<h3>5. člen</h3>
+<p>V naslovu c) poglavja se za besedama ''deviznega izpiska'' doda besedilo ''ter tolarskega delnega izpisa''.</p>
+<h3>6. člen</h3>
+<p>V 16. členu se za tretjim odstavkom doda nov četrti odstavek, ki se glasi:<br />
+''Nadzornik od UJP prejme tolarski delni izpis določenih plačilnih transakcij na podračunu o prejetih odobritvah in izvršenih obremenitvah ter skupni dnevni promet v dobro in skupni dnevni promet v breme. UJP zagotavlja nadzornikom delne izpise po e-pošti.''.</p>
+<h3>7. člen</h3>
+<p>V 17. členu se za drugo tabelo doda nov odstavek, ki se glasi:<br />
+''Tolarski delni izpis ima v datoteki TKIZP.TXT vrsto stavka 02, lahko pa datoteka vsebuje tudi vrsto stavka 01 in 99. Stavek 02 datoteke TKIZP.TXT ima naslednjo strukturo:</p>
+<p>+--------+---------+-------+------------------------------------------------+<br />
+|Pozicija|Število  |Tip    |Opis polja                                      |<br />
+|        |znakov   |podatka|                                                |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|1       |2        |A      |Vrsta stavka 02-delno stanje na računu (v       |<br />
+|        |         |       |datoteki je vsaj en stavek 02, glede na število |<br />
+|        |         |       |kriterijev pa jih je lahko tudi več)            |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|3       |18       |N      |Številka podračuna nadzornika;                  |<br />
+|        |         |       |– v primeru tolarskega delnega izpisa so zadnja |<br />
+|        |         |       |tri mesta prazna                                |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|21      |8        |A      |Datum obdelave v obliki: DDMMLLLL               |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|29      |8        |A      |Prazno                                          |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|37      |18       |N      |Prazno                                          |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|55      |6        |N      |Število transakcij v breme                      |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|61      |18       |N      |Dnevni promet v breme                           |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|79      |6        |N      |Število transakcij v dobro                      |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|85      |18       |N      |Dnevni promet v dobro                           |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|103     |18       |N      |Prazno                                          |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|121     |6        |N      |Prazno                                          |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|127     |18       |N      |Prazno                                          |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|145     |3        |N      |Zaporedna številka delnega izpisa preveri UJP   |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|148     |5        |N      |Šifra PU                                        |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|153     |18       |N      |Kumulativni promet v breme                      |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|171     |18       |N      |Kumulativni promet v dobro                      |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|189     |5        |A      |Oznaka prejemnika delnega izpisa                |<br />
++--------+---------+-------+------------------------------------------------+<br />
+|Skupaj  |194      |       |                                                |<br />
++--------+---------+-------+------------------------------------------------+</p>
+<p>''.</p>
+<h3>8. člen</h3>
+<p>V 18. členu se za tabelo doda nov odstavek, ki se glasi:<br />
+''Struktura stavka v računalniškem zapisu delnih izpisov o posameznih plačilnih transakcijah v domačem plačilnem prometu, ki ga UJP pripravi za nadzornika v datoteki TKDIS.TXT, ima naslednjo strukturo:</p>
+<p>+--------+--------+-------+-------------------------------------------------+<br />
+|Pozicija|Število |Tip    |Opis polja                                       |<br />
+|        |znakov  |podatka|                                                 |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|1       |18      |N      |Št. podračuna/transakcijskega računa             |<br />
+|        |        |       |prejemnika/plačnika                              |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|19      |2       |N      |– Vir informacije:                               |<br />
+|        |        |       |– 1x za transakcije obremenitve                  |<br />
+|        |        |       |2x za transakcije odobritve                      |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|21      |8       |D      |Datum obdelave v obliki DD.MM.LL                 |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|29      |1       |A      |Prazno                                           |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|30      |1       |A      |Prazno                                           |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|31      |35      |A      |Ime prejemnika delnega izpisa                    |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|66      |1       |N      |Način izvršitve plačilnega navodila:             |<br />
+|        |        |       |1 – tolarske transakcije                         |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|67      |6       |D      |Datum vnosa v UJP v obliki DD.MM.LL              |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|73      |18      |N      |Številka računa oziroma podračuna nadzornika –   |<br />
+|        |        |       |prejemnika delnega izpisa                        |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|91      |15      |N      |Znesek transakcije                               |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|106     |1       |A      |Vrsta posla v skladu z navodilom o načinu,       |<br />
+|        |        |       |postopkih in udeležencih za izvajanje            |<br />
+|        |        |       |statističnega raziskovanja o prejemkih na račune |<br />
+|        |        |       |in o izdatkih z računov poslovnih subjektov      |<br />
+|        |        |       |(AJPES) in standardi v medbančnem plačilnem      |<br />
+|        |        |       |prometu v državi (BS)                            |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|107     |1       |N      |Prazno                                           |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|108     |2       |N      |Šifra izdatkov iz šifranta šifer izdatkov oziroma|<br />
+|        |        |       |prejemkov, ki ga vzdržuje AJPES                  |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|110     |2       |N      |Šifra prejemkov iz šifranta šifer izdatkov       |<br />
+|        |        |       |oziroma prejemkov, ki ga                         |<br />
+|        |        |       |vzdržuje AJPES                                   |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|112     |24      |A      |Sklicevanje na številko obremenitve je osnova za |<br />
+|        |        |       |knjiženje odliva                                 |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|136     |24      |A      |Sklicevanje na številko odobritve je osnova za   |<br />
+|        |        |       |knjiženje priliva                                |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|160     |36      |A      |Namen nakazila je opis namena nakazila za        |<br />
+|        |        |       |prejemnika                                       |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|196     |10      |A      |Kraj plačnika oziroma prejemnika plačila         |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|206     |35      |A      |Ime plačnika oziroma prejemnika plačila          |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|241     |22      |N      |Številka za reklamacijo je podatek, ki ga        |<br />
+|        |        |       |programsko določi UJP in se ga uporabi za potrebe|<br />
+|        |        |       |reševanja morebitnih reklamacij v zvezi z že     |<br />
+|        |        |       |izvedenimi plačilnimi navodili                   |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|263     |8       |N      |Prazno                                           |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|271     |5       |N      |Šifra PU                                         |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|276     |5       |N      |Prazno                                           |<br />
++--------+--------+-------+-------------------------------------------------+<br />
+|Skupaj  |280     |       |                                                 |<br />
++--------+--------+-------+-------------------------------------------------+</p>
+<p>''.</p>
+<h3>9. člen</h3>
+<p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se od 1. januarja 2006 dalje.</p>
+<p>Št. 496-01-5/2004/96</p>
+<p>Ljubljana, dne 27. decembra 2005</p>
+<p>EVA 2005-1611-0182</p>
+<p>dr. Andrej Bajuk l.r.<br />
+Minister<br />
+za finance</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pravilnik o pošiljanju podatkov davčnemu organu o transakcijskih računih oseb in poslovanju preko transakcijskih računov — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Pravilnik o pošiljanju podatkov davčnemu organu o transakcijskih računih oseb in poslovanju preko transakcijskih računov</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>PRAV6356</strong></dd>
+      <dt>Vrsta</dt><dd>pravilnik</dd>
+      <dt>Status</dt><dd><span class="badge invalid">neveljaven</span></dd>
+      <dt>Datum</dt><dd>2005-03-25</dd>
+      <dt>Organ</dt><dd>Ministrstvo za finance</dd>
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-1033" target="_blank">Uradni list RS</a></dd>
+    </dl>
+    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6356.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+  </aside>
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:PRAV6356,vrsta:pravilnik">
+    <h1>Pravilnik o pošiljanju podatkov davčnemu organu o transakcijskih računih oseb in poslovanju preko transakcijskih računov</h1>
+<p>Na podlagi drugega odstavka 68. člena Zakona o davčnem postopku (Uradni list RS, št. 54/04, 57/04 – <a href="/trubar/si/ZDS-1/" class="law-ref" title="ZDS-1">ZDS-1</a>, 109/04 – odl. US, 128/04 – odl. US in 139/04) minister za finance izdaja</p>
+<h2>P R A V I L N I K</h2>
+<p>o pošiljanju podatkov davčnemu organu<br />
+o transakcijskih računih oseb in poslovanju preko transakcijskih računov</p>
+<h3>1. člen</h3>
+<p>Ta pravilnik določa roke, vsebino in način pošiljanja podatkov davčnemu organu o transakcijskih računih oseb in poslovanju preko transakcijskih računov s strani izvajalcev plačilnega prometa.</p>
+<h3>2. člen</h3>
+<p>(1) Izvajalci plačilnega prometa pošiljajo Generalnemu davčnemu uradu Davčne uprave Republike Slovenije (v nadaljnjem besedilu: GDU DURS) podatke o prilivih in odlivih na transakcijskih računih pravnih oseb, združenj oseb po tujem pravu, ki so brez pravne osebnosti, fizičnih oseb, ki opravljajo dejavnost, in drugih oseb, ki so subjekt vpisa v sodni register ali kakšen drug register oziroma evidenco, po koledarskih trimesečjih v obliki datoteke, kot je določeno v Prilogi 1 tega pravilnika, ki je njegov sestavni del.<br />
+(2) Izvajalci plačilnega prometa predložijo podatke iz prejšnjega odstavka v tolarjih ali, za transakcije s tujino, v tuji valuti. Podatki se predložijo v celih vrednostih in brez decimalk.<br />
+(3) Izvajalci plačilnega prometa pošiljajo podatke iz prvega odstavka tega člena enkrat letno, in sicer do 28. februarja tekočega leta za preteklo leto.</p>
+<h3>3. člen</h3>
+<p>(1) Izvajalci plačilnega prometa pošljejo GDU DURS predpisane podatke na prenosnem optičnem ali magnetnem mediju ali preko sistema eDavki. Optičnemu ali magnetnemu mediju mora biti priložen spremni dopis, ki mora vsebovati naslednje podatke:<br />
+– naziv izvajalca plačilnega prometa,<br />
+– davčno številko izvajalca plačilnega prometa,<br />
+– matično številko izvajalca plačilnega prometa,<br />
+– sedež izvajalca plačilnega prometa,<br />
+– število zapisov po posamezni datoteki,<br />
+– osebno ime osebe, ki je pripravila podatke, ter njen telefon in elektronski naslov,<br />
+– osebno ime pooblaščene osebe izvajalca plačilnega prometa ter njen telefon,<br />
+– podpis pooblaščene osebe izvajalca plačilnega prometa in pečat.<br />
+(2) Če je izvajalec plačilnega prometa podatke predložil preko sistema eDavki, mora preko sistema eDavki predložiti tudi spremni dopis iz prejšnjega odstavka.<br />
+(3) Če izvajalec plačilnega prometa predloži podatke na prenosnem mediju iz prvega odstavka tega člena, morajo biti predloženi na zgoščenki, le izjemoma pa so lahko predloženi na disketi.</p>
+<h3>4. člen</h3>
+<p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 425-10-3/2004/75</p>
+<p>Ljubljana, dne 9. marca 2005.</p>
+<p>EVA 2004-1611-0250</p>
+<p>dr. Andrej Bajuk l. r.<br />
+Minister<br />
+za finance</p>
+<p>PRILOGA 1</p>
+<p>Obvezne karakteristike datoteke:<br />
+   – ASCII znakovna datoteka<br />
+   – fiksna širina zapisa<br />
+   – konec zapisa je zaključen s CR in LF<br />
+   – naziv datoteke: PROD_NNNNN.DAT, kjer pomeni: NNNNN oznaka banke, po<br />
+     šifrantu Banke Slovenije</p>
+<p>Opis zloga datoteke:</p>
+<p>+------+----------+----------+---------------------------------+--------------+<br />
+|Zap.  |Pozicija  |Dolžina   |Opis podatka v polju             |Tip podatka   |<br />
+|št.   |          |          |                                 |              |<br />
++------+----------+----------+---------------------------------+--------------+<br />
+|1     |001-005   |5         |Oznaka izvajalca plačilnega      |Numeričen     |<br />
+|      |          |          |prometa                          |              |<br />
++------+----------+----------+---------------------------------+--------------+<br />
+|2     |006-013   |8         |Davčna številka imetnika računa  |Numeričen     |<br />
++------+----------+----------+---------------------------------+--------------+<br />
+|3     |014-028   |15        |Transakcijski račun imetnika     |Numeričen     |<br />
+|      |          |          |računa                           |              |<br />
++------+----------+----------+---------------------------------+--------------+<br />
+|4     |029-033   |4         |Leto, za katerega banka pošilja  |Numeričen     |<br />
+|      |          |          |podatke                          |              |<br />
++------+----------+----------+---------------------------------+--------------+<br />
+|5     |034-036   |3         |Šifra valute                     |Numeričen     |<br />
++------+----------+----------+---------------------------------+--------------+<br />
+|6     |037-048   |12        |Prilivi – prvi kvartal (cele     |Numeričen     |<br />
+|      |          |          |vrednosti, brez decimalk)        |              |<br />
++------+----------+----------+---------------------------------+--------------+<br />
+|7     |049-060   |12        |Odlivi – prvi kvartal (cele      |Numeričen     |<br />
+|      |          |          |vrednosti, brez decimalk)        |              |<br />
++------+----------+----------+---------------------------------+--------------+<br />
+|8     |061-072   |12        |Prilivi – drugi kvartal (cele    |Numeričen     |<br />
+|      |          |          |vrednosti, brez decimalk)        |              |<br />
++------+----------+----------+---------------------------------+--------------+<br />
+|9     |073-084   |12        |Odlivi – drugi kvartal (cele     |Numeričen     |<br />
+|      |          |          |vrednosti, brez decimalk)        |              |<br />
++------+----------+----------+---------------------------------+--------------+<br />
+|10    |085-096   |12        |Prilivi – tretji kvartal (cele   |Numeričen     |<br />
+|      |          |          |vrednosti, brez decimalk)        |              |<br />
++------+----------+----------+---------------------------------+--------------+<br />
+|11    |097-108   |12        |Prilivi – prvi kvartal (cele     |Numeričen     |<br />
+|      |          |          |vrednosti, brez decimalk)        |              |<br />
++------+----------+----------+---------------------------------+--------------+<br />
+|12    |109-120   |12        |Prilivi – četrti kvartal (cele   |Numeričen     |<br />
+|      |          |          |vrednosti, brez decimalk)        |              |<br />
++------+----------+----------+---------------------------------+--------------+<br />
+|13    |121-132   |12        |Odlivi – četrti kvartal (cele    |Numeričen     |<br />
+|      |          |          |vrednosti, brez decimalk)        |              |<br />
++------+----------+----------+---------------------------------+--------------+</p>
+<p>OPOMBA:<br />
+   Zneski so v formatu 999999999999 (brez ločil za tisočice).<br />
+   Polja 1-4 so levo poravnana, polja 5-12 so desno poravnana.<br />
+   Polje 2 ostane prazno, če imetnik računa nima davčne številke.</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+</body>
+</html>
