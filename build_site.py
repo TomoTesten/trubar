@@ -99,10 +99,32 @@ def status_badge(status):
     return f'<span class="badge neutral">{htmllib.escape(status or "")}</span>'
 
 
+_CLEN_RE = re.compile(r'^(#{1,4})\s+(\d+)\.\s+člen\b', re.MULTILINE)
+
+def add_article_anchors(body_md):
+    """Add anchor IDs to člen headings and build TOC."""
+    toc = []
+    def repl(m):
+        hashes, num = m.group(1), m.group(2)
+        toc.append(num)
+        return f'{hashes} <span id="člen-{num}">{num}. člen</span>'
+    anchored = _CLEN_RE.sub(repl, body_md)
+    return anchored, toc
+
+def render_toc(toc):
+    if len(toc) < 5:
+        return ""
+    # Group into columns of 20
+    items = "".join(f'<a href="#člen-{n}">{n}</a>' for n in toc)
+    return f'<nav class="toc"><strong>Členi:</strong> {items}</nav>'
+
+
 def render_law_page(slug, front, body_md, kratica_idx, crosslink_re):
+    body_md, toc = add_article_anchors(body_md)
     md.reset()
     body_html = md.convert(body_md)
     body_html = inject_crosslinks(body_html, crosslink_re, kratica_idx, slug)
+    toc_html  = render_toc(toc)
 
     kratica = front.get("kratica") or slug
     naziv   = front.get("naziv") or kratica
@@ -155,6 +177,7 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re):
   </aside>
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:{htmllib.escape(kratica)},vrsta:{htmllib.escape(vrsta)}">
+    {toc_html}
     {body_html}
     {amend_html}
   </article>
@@ -396,6 +419,18 @@ header nav a { color: #555; font-size: 14px; }
 /* Cross-reference links */
 a.law-ref { color: #0645ad; border-bottom: 1px dotted #0645ad; }
 a.law-ref:hover { background: #eaf3fb; }
+
+/* Article TOC */
+.toc {
+  background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px;
+  padding: 10px 14px; margin-bottom: 20px; font-size: 0.85rem; line-height: 1.8;
+}
+.toc strong { display: block; margin-bottom: 4px; color: #555; }
+.toc a { color: #0645ad; margin-right: 6px; }
+.toc a:hover { background: #eaf3fb; }
+
+/* Člen anchors */
+.law-body h3 span[id], .law-body h2 span[id] { scroll-margin-top: 80px; }
 
 /* Amendments */
 .amendments { margin-top: 32px; padding-top: 16px; border-top: 1px solid #eee; }
