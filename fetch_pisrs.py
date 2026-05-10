@@ -81,7 +81,7 @@ def pisrs_get(url, retries=4):
 def pisrs_years(zbirka):
     data = pisrs_post({"cursorMark": "*"}, {"nazivZbirke": [zbirka]})
     return [(f["value"], f["count"])
-            for f in data.get("letoObjaveFacet", [])
+            for f in (data.get("letoObjaveFacet") or [])
             if isinstance(f.get("value"), int)]
 
 
