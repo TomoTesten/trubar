@@ -38,7 +38,13 @@ VRSTA_MAP = {
     "DRUG": "drugi akt", "AKT": "akt", "MP_ODLO": "občinski odlok",
     "MP_SKLE": "občinski sklep", "MP_PRAV": "občinski pravilnik",
     "MP_NAWO": "občinsko navodilo",
+    "doc_": "sodna odločba",
 }
+
+SODNAPRAKSA_URL = ("https://sodnapraksa.si/?q=id:{id}"
+                   "&database[SOVS]=SOVS&database[IESP]=IESP"
+                   "&database[VDSS]=VDSS&database[UPRS]=UPRS"
+                   "&_submit=išči&page=0&id={id}")
 
 
 # ── PISRS API helpers ──────────────────────────────────────────────────────────
@@ -136,6 +142,38 @@ def fetch_pisrs_npb(zunanji_id):
     return html_blocks_to_markdown(blocks) if blocks else None
 
 
+# ── Sodna praksa fetcher ───────────────────────────────────────────────────────
+
+def fetch_sodna_praksa(zunanji_id):
+    """Fetch court decision text from sodnapraksa.si."""
+    m = re.match(r"doc_(\d+)$", zunanji_id)
+    if not m:
+        return None
+    doc_id = m.group(1)
+    url = SODNAPRAKSA_URL.format(id=doc_id)
+    for attempt in range(3):
+        try:
+            r = requests.get(url, headers={"User-Agent": PISRS_HEADERS["User-Agent"]},
+                             timeout=20)
+            if r.status_code != 200:
+                return None
+            soup = BeautifulSoup(r.text, "lxml")
+            for tag in soup.find_all(["script", "style", "nav", "header", "footer"]):
+                tag.decompose()
+            container = soup.find(id="container") or soup.find("body") or soup
+            lines = [l.strip() for l in container.get_text(separator="\n").split("\n")
+                     if len(l.strip()) > 40]
+            # Drop common navigation lines
+            skip = {"Priljubljeni dokumenti", "Nastavitve", "Pomoč", "Iskalnik sodne prakse"}
+            lines = [l for l in lines if l not in skip]
+            return "\n\n".join(lines) if len(lines) > 3 else None
+        except Exception:
+            if attempt == 2:
+                return None
+            time.sleep(2 ** attempt)
+    return None
+
+
 # ── File helpers ───────────────────────────────────────────────────────────────
 
 def safe_name(s):
@@ -155,7 +193,10 @@ def item_date(item):
 def make_frontmatter(item):
     def esc(s): return (s or "").replace('"', '\\"')
     zid   = item.get("zunanjiId", "")
-    prefix = next((k for k in sorted(VRSTA_MAP, key=len, reverse=True) if zid.startswith(k)), "")
+    prefix = next((k for k in sorted(VRSTA_MAP, key=len, reverse=True)
+                   if zid.startswith(k) and k != "doc_"), "")
+    if not prefix and zid.startswith("doc_"):
+        prefix = "doc_"
     vrsta = VRSTA_MAP.get(prefix, "akt")
     sop   = item.get("sop") or ""
     return (
@@ -273,17 +314,23 @@ def main():
 
         body = None
 
-        # Try Uradni list first
-        if sop:
-            html = fetch_ul_html(sop)
-            if html:
-                body = html_to_markdown(html)
-
-        # Fallback: PISRS NPB
-        if not body and not args.no_ul_fallback_npb:
-            body = fetch_pisrs_npb(zid)
+        # Court decisions: fetch from sodnapraksa.si directly
+        if zid.startswith("doc_"):
+            body = fetch_sodna_praksa(zid)
             if body:
-                print("[NPB]", end=" ", flush=True)
+                print("[SP]", end=" ", flush=True)
+        else:
+            # Try Uradni list first
+            if sop:
+                html = fetch_ul_html(sop)
+                if html:
+                    body = html_to_markdown(html)
+
+            # Fallback: PISRS NPB
+            if not body and not args.no_ul_fallback_npb:
+                body = fetch_pisrs_npb(zid)
+                if body:
+                    print("[NPB]", end=" ", flush=True)
 
         if not body:
             print("→ NO TEXT")
