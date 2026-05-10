@@ -1,0 +1,23 @@
+---
+unid: "C6630EE8FB5DD8E2C1256CDB003D9A3A"
+datum: "2003-02-27"
+naslov: "Predlog za začetek postopka za spremembe Ustave Republike Slovenije z osnutkom ustavnega zakona (mednarodno povezovanje in sodelovanje - predlog za spremembe 3., 8., 47., in 68. člena)"
+vrsta: ""
+epa: "699"
+seja: "28. Izredna"
+za: 71
+proti: 8
+kvorum: 79
+mandat: 3
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Predlog za začetek postopka za spremembe Ustave Republike Slovenije z osnutkom ustavnega zakona (mednarodno povezovanje in sodelovanje - predlog za spremembe 3., 8., 47., in 68. člena)
+
+**Datum:** 2003-02-27T14:29:06.000  
+**Seja:** 28. Izredna  
+**Točka:**   
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 71 | 8 | 79 |
+

@@ -1,0 +1,23 @@
+---
+unid: "5CD9C4AAEDF56DE1C1256B0C002F7E67"
+datum: "2001-11-21"
+naslov: "Zakon o plačilnem prometu"
+vrsta: ""
+epa: "1005"
+seja: "10. Redna"
+za: 45
+proti: 4
+kvorum: 52
+mandat: 3
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Zakon o plačilnem prometu
+
+**Datum:** 2001-11-21T11:59:49.000  
+**Seja:** 10. Redna  
+**Točka:**   
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 45 | 4 | 52 |
+

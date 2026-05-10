@@ -1,0 +1,23 @@
+---
+unid: "BDA792BDC887EDBAC1256B4B002D6B3A"
+datum: "2002-01-23"
+naslov: "Resolucija o položaju Slovencev, ki živijo izven Republike Slovenije, razen Slovencev v zamejstvu, ter s tem povezanimi nalogami državnih in drugih dejavnikov Republike Slovenije (Resolucija o odnosih s Slovenci po svetu)"
+vrsta: ""
+epa: "361"
+seja: "12. Redna"
+za: 50
+proti: 0
+kvorum: 50
+mandat: 3
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Resolucija o položaju Slovencev, ki živijo izven Republike Slovenije, razen Slovencev v zamejstvu, ter s tem povezanimi nalogami državnih in drugih dejavnikov Republike Slovenije (Resolucija o odnosih s Slovenci po svetu)
+
+**Datum:** 2002-01-23T14:57:15.000  
+**Seja:** 12. Redna  
+**Točka:**   
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 50 | 0 | 50 |
+

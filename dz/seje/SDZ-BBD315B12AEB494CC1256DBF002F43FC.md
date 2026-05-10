@@ -1,0 +1,20 @@
+---
+unid: "BBD315B12AEB494CC1256DBF002F43FC"
+oznaka: "32"
+vrsta: "Redna"
+status: "zaključena seja"
+mandat: 3
+zbirka: "Seje SDZ"
+---
+# Seja 32 (Redna)
+
+**Status:** zaključena seja  
+**Mandat:** 3  
+
+## Dobesedni zapisi
+
+- 31B73900EB1E0290C1256E15004AD009
+- 8D974204C80B076DC1256E19004075FA
+- F51FAB54B8C6E75BC1256E1A0038FB94
+- 76C5AC5621EA30BFC1256E1B003E3D45
+- DDDA08A435778D50C1256E1B004354F5

@@ -1,0 +1,20 @@
+---
+unid: "E3A7ACE1FED8694EC1256FFC003A22EB"
+oznaka: "08"
+vrsta: "Redna"
+status: "zaključena seja"
+mandat: 4
+zbirka: "Seje SDZ"
+---
+# Seja 08 (Redna)
+
+**Status:** zaključena seja  
+**Mandat:** 4  
+
+## Dobesedni zapisi
+
+- 4619D4F4BAA3A828C125704200469019
+- A270207589179813C12570430045C86C
+- 20E354E552FC9B7FC12570490046152C
+- 823C629A801740CDC125704A0038AC5B
+- AFD4665C555253C1C125704D002F9F75

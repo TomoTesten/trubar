@@ -1,0 +1,23 @@
+---
+unid: "BFCE9243BAE4BA4CC1256BDF0037E955"
+datum: "2002-06-21"
+naslov: "Zakon o enakih možnostih žensk in moških"
+vrsta: ""
+epa: "537"
+seja: "17. Redna"
+za: 45
+proti: 0
+kvorum: 49
+mandat: 3
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Zakon o enakih možnostih žensk in moških
+
+**Datum:** 2002-06-21T10:39:08.000  
+**Seja:** 17. Redna  
+**Točka:**   
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 45 | 0 | 49 |
+

@@ -1,0 +1,20 @@
+---
+unid: "D044E647DFABFD7BC12572BC004FEDFA"
+oznaka: "29"
+vrsta: "Redna"
+status: "zaključena seja"
+mandat: 4
+zbirka: "Seje SDZ"
+---
+# Seja 29 (Redna)
+
+**Status:** zaključena seja  
+**Mandat:** 4  
+
+## Dobesedni zapisi
+
+- C26AAD9D9069AF81C125730600464F36
+- FDF8FCC935A40C56C1257308002C6F97
+- 58DC7F79869A9C98C1257307002AD644
+- A0CA773675259557C125731A002530BB
+- 46306BA6272B2274C125731B00244177

@@ -1,0 +1,23 @@
+---
+unid: "08DDBF8B1BEA0FDEC1256A3600376AC2"
+datum: "2001-03-29"
+naslov: ""
+vrsta: ". člen v celoti"
+epa: ""
+seja: "04. Redna"
+za: 40
+proti: 0
+kvorum: 59
+mandat: 3
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: . člen v celoti
+
+**Datum:** 2001-03-29T10:11:18.000  
+**Seja:** 04. Redna  
+**Točka:**   
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 40 | 0 | 59 |
+

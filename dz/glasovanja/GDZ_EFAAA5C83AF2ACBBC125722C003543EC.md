@@ -1,0 +1,23 @@
+---
+unid: "EFAAA5C83AF2ACBBC125722C003543EC"
+datum: "2006-11-20"
+naslov: "Proračun Republike Slovenije za leto 2008"
+vrsta: ""
+epa: "1095"
+seja: "23. Izredna"
+za: 0
+proti: 44
+kvorum: 48
+mandat: 4
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Proračun Republike Slovenije za leto 2008
+
+**Datum:** 2006-11-20T10:41:46.000  
+**Seja:** 23. Izredna  
+**Točka:** Dopolnjen predlog proračuna Republike Slovenije za leto 2008 (DP2008) - EPA 1095-IV  
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 0 | 44 | 48 |
+

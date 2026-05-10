@@ -1,0 +1,23 @@
+---
+unid: "18DACDEBEC7EF6AAC125744F005137D2"
+datum: "2008-05-20"
+naslov: "Zakon o Triglavskem narodnem parku"
+vrsta: ""
+epa: "753"
+seja: "39. Redna"
+za: 15
+proti: 39
+kvorum: 66
+mandat: 4
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Zakon o Triglavskem narodnem parku
+
+**Datum:** 2008-05-20T16:47:03.000  
+**Seja:** 39. Redna  
+**Točka:** Predlog zakona o Triglavskem narodnem parku (ZTNP-1), druga obravnava  
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 15 | 39 | 66 |
+

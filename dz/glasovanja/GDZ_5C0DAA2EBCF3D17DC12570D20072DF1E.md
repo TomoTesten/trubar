@@ -1,0 +1,23 @@
+---
+unid: "5C0DAA2EBCF3D17DC12570D20072DF1E"
+datum: "2005-12-09"
+naslov: "Proračun Republike Slovenije za leto 2006"
+vrsta: ""
+epa: "459"
+seja: "13. Izredna"
+za: 19
+proti: 38
+kvorum: 59
+mandat: 4
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Proračun Republike Slovenije za leto 2006
+
+**Datum:** 2005-12-09T21:54:41.000  
+**Seja:** 13. Izredna  
+**Točka:** Dopolnjen predlog proračuna Republike Slovenije za leto 2006 (DP2006)  
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 19 | 38 | 59 |
+

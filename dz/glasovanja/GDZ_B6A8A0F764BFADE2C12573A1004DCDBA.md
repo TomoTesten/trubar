@@ -1,0 +1,23 @@
+---
+unid: "B6A8A0F764BFADE2C12573A1004DCDBA"
+datum: "2007-11-28"
+naslov: "Spremembe proračuna Republike Slovenije za leto 2008"
+vrsta: ""
+epa: "1663"
+seja: "30. Izredna"
+za: 22
+proti: 42
+kvorum: 66
+mandat: 4
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Spremembe proračuna Republike Slovenije za leto 2008
+
+**Datum:** 2007-11-28T15:09:49.000  
+**Seja:** 30. Izredna  
+**Točka:** Predlog sprememb proračuna Republike Slovenije za leto 2008 (DP2008-A)  
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 22 | 42 | 66 |
+

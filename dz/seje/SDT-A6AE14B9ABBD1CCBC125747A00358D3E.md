@@ -1,0 +1,20 @@
+---
+unid: "A6AE14B9ABBD1CCBC125747A00358D3E"
+oznaka: "019"
+vrsta: "Nujna"
+status: "Odbor za zdravstvo"
+mandat: 4
+zbirka: "Seje SDT"
+---
+# Seja 019 (Nujna)
+
+**Status:** Odbor za zdravstvo  
+**Mandat:** 4  
+
+## Dobesedni zapisi
+
+- 72C8CEF1CAFEF1E6C1257486001E5EC6
+- F9FB19CD70D5333DC12574860021BC61
+- 6B72381D6F0B1314C125748800266911
+- F9FB19CD70D5333DC12574860021BC61
+- 6B72381D6F0B1314C125748800266911

@@ -1,0 +1,23 @@
+---
+unid: "E1ABB4F72C0F53E6C1257CDE004FA28D"
+datum: "2014-05-20"
+naslov: ""
+vrsta: "Predlog sklepa (razprava o odgovoru na poslansko vprašanje)"
+epa: ""
+seja: "25. Redna"
+za: 24
+proti: 36
+kvorum: 62
+mandat: 6
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Vprašanja poslank in poslancev
+
+**Datum:** 2014-05-20T16:29:50.000  
+**Seja:** 25. Redna  
+**Točka:** Vprašanja poslank in poslancev  
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 24 | 36 | 62 |
+

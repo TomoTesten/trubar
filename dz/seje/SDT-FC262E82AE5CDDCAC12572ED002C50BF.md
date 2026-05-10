@@ -1,0 +1,13 @@
+---
+unid: "FC262E82AE5CDDCAC12572ED002C50BF"
+oznaka: "001"
+vrsta: "Redna"
+status: "Preiskovalna komisija za ugotovitev politične odgovornosti nosilcev javnih funkcij, ki so sodelovali pri pripravi in izvedbi nakupa lahkih oklepnih kolesnih vozil 6x6, vladnega letala, havbic 155 mm, sistema za upravljanje ognja (ACCS), letal Pilatus in obnovi tankov T55-S financiranih v okviru temeljnih razvojnih programov obrambnih sil Republike Slovenije v letih 1994 do 2007 zaradi suma, da so bili posli politično dogovorjeni, vodeni netransparentno in da so negospodarni, ter zaradi suma o prisotnosti klientelizma in korupcije, in za ugotovitev suma o odgovornosti nosilcev javnih funkcij pri razorožitvi nekdanje teritorialne obrambe"
+mandat: 4
+zbirka: "Seje SDT"
+---
+# Seja 001 (Redna)
+
+**Status:** Preiskovalna komisija za ugotovitev politične odgovornosti nosilcev javnih funkcij, ki so sodelovali pri pripravi in izvedbi nakupa lahkih oklepnih kolesnih vozil 6x6, vladnega letala, havbic 155 mm, sistema za upravljanje ognja (ACCS), letal Pilatus in obnovi tankov T55-S financiranih v okviru temeljnih razvojnih programov obrambnih sil Republike Slovenije v letih 1994 do 2007 zaradi suma, da so bili posli politično dogovorjeni, vodeni netransparentno in da so negospodarni, ter zaradi suma o prisotnosti klientelizma in korupcije, in za ugotovitev suma o odgovornosti nosilcev javnih funkcij pri razorožitvi nekdanje teritorialne obrambe  
+**Mandat:** 4  
+

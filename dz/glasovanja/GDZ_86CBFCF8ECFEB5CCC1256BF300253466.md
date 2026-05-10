@@ -1,0 +1,23 @@
+---
+unid: "86CBFCF8ECFEB5CCC1256BF300253466"
+datum: "2002-07-10"
+naslov: "Zakon o spremembah in dopolnitvah zakona o varnosti cestnega prometa"
+vrsta: ""
+epa: "382"
+seja: "21. Izredna"
+za: 37
+proti: 13
+kvorum: 54
+mandat: 3
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Zakon o spremembah in dopolnitvah zakona o varnosti cestnega prometa
+
+**Datum:** 2002-07-10T18:22:24.000  
+**Seja:** 21. Izredna  
+**Točka:**   
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 37 | 13 | 54 |
+

@@ -1,0 +1,23 @@
+---
+unid: "9EACDFFE70ED3E9FC1256BCD0027E0E3"
+datum: "2002-05-31"
+naslov: "Zakon o javnih agencijah"
+vrsta: ""
+epa: "1292"
+seja: "16. Redna"
+za: 45
+proti: 0
+kvorum: 47
+mandat: 3
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Zakon o javnih agencijah
+
+**Datum:** 2002-05-31T13:37:19.000  
+**Seja:** 16. Redna  
+**Točka:**   
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 45 | 0 | 47 |
+

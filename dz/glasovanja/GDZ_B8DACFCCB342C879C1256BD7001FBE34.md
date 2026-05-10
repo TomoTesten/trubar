@@ -1,0 +1,23 @@
+---
+unid: "B8DACFCCB342C879C1256BD7001FBE34"
+datum: "2002-06-12"
+naslov: "Zakon o morskem ribištvu"
+vrsta: ""
+epa: "509"
+seja: "20. Izredna"
+za: 50
+proti: 0
+kvorum: 52
+mandat: 3
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Zakon o morskem ribištvu
+
+**Datum:** 2002-06-12T12:17:19.000  
+**Seja:** 20. Izredna  
+**Točka:**   
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 50 | 0 | 52 |
+

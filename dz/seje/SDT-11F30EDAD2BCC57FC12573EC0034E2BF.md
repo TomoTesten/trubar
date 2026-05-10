@@ -1,0 +1,13 @@
+---
+unid: "11F30EDAD2BCC57FC12573EC0034E2BF"
+oznaka: "022"
+vrsta: "Redna"
+status: "Preiskovalna komisija za ugotovitev in oceno dejanskega stanja, ki je lahko podlaga za odločanje o politični odgovornosti nosilcev javnih funkcij v Vladi Republike Slovenije, na Ministrstvu za pravosodje in Vrhovnem Državnem tožilstvu Republike Slovenije v zvezi z izvrševanjem nadzora po Zakonu o državnem tožilstvu (Uradni list RS, št. 110/02-uradno prečiščeno besedilo), za spremembo zakonodaje in za druge odločitve v skladu z ustavnimi pristojnostmi državnega zbora"
+mandat: 4
+zbirka: "Seje SDT"
+---
+# Seja 022 (Redna)
+
+**Status:** Preiskovalna komisija za ugotovitev in oceno dejanskega stanja, ki je lahko podlaga za odločanje o politični odgovornosti nosilcev javnih funkcij v Vladi Republike Slovenije, na Ministrstvu za pravosodje in Vrhovnem Državnem tožilstvu Republike Slovenije v zvezi z izvrševanjem nadzora po Zakonu o državnem tožilstvu (Uradni list RS, št. 110/02-uradno prečiščeno besedilo), za spremembo zakonodaje in za druge odločitve v skladu z ustavnimi pristojnostmi državnega zbora  
+**Mandat:** 4  
+

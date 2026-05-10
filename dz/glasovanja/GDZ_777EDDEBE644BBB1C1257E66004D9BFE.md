@@ -1,0 +1,23 @@
+---
+unid: "777EDDEBE644BBB1C1257E66004D9BFE"
+datum: "2015-06-16"
+naslov: "Zakon o zaposlovanju, samozaposlovanju in delu tujcev "
+vrsta: ""
+epa: "426"
+seja: "09. Redna"
+za: 6
+proti: 74
+kvorum: 80
+mandat: 7
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Zakon o zaposlovanju, samozaposlovanju in delu tujcev 
+
+**Datum:** 2015-06-16T16:10:10.000  
+**Seja:** 09. Redna  
+**Točka:** Predlog zakona o zaposlovanju, samozaposlovanju in delu tujcev (ZZSDT), druga obravnava  
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 6 | 74 | 80 |
+

@@ -1,0 +1,23 @@
+---
+unid: "EFE861CCA99FF54BC1256BDE00228EAD"
+datum: "2002-06-19"
+naslov: ""
+vrsta: "Navzočnost"
+epa: ""
+seja: "17. Redna"
+za: 0
+proti: 0
+kvorum: 44
+mandat: 3
+zbirka: "Glasovanja GDZ"
+---
+# Glasovanje: Navzočnost
+
+**Datum:** 2002-06-19T15:13:13.000  
+**Seja:** 17. Redna  
+**Točka:**   
+
+| Za | Proti | Kvorum |
+|---|---|---|
+| 0 | 0 | 44 |
+
