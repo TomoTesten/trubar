@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2018-01-3515" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED7838.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED7838" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED7838.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED7838,vrsta:uredba">
+    
     <h1>Uredba o spremembi Uredbe o davčni obravnavi povračil stroškov in drugih dohodkov iz delovnega razmerja</h1>
 <p>Na podlagi 3., 4., 7. in 8. točke prvega odstavka ter drugega odstavka 44. člena Zakona o dohodnini (Uradni list RS, št. 13/11 – uradno prečiščeno besedilo, 9/12 – odl. US, 24/12, 30/12, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>, 75/12, 94/12, 52/13 – Odl. US, 96/13, 29/14 – odl. US, 50/14, 23/15, 55/15, 63/16 in 69/17) in četrte alineje tretjega odstavka 3. člena Zakona o posebnem davku na določene prejemke (Uradni list RS, št. 72/93, 22/94, 45/95, 12/96 in 82/97 – odl. US) izdaja Vlada Republike Slovenije</p>
 <p>U R E D B O</p>
@@ -50,5 +63,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2018-11-09", "kratica": "URED7838", "naziv": "Uredba o spremembi Uredbe o davčni obravnavi povračil stroškov in drugih dohodkov iz delovnega razmerja", "url": "/trubar/si/URED7838/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

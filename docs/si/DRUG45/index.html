@@ -21,22 +21,35 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3581" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG45.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG45" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG45.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG45,vrsta:drugi akt">
+    
     <h1>Pravilnik o omejitvi dajanja v promet ali uporabe določenih nevarnih snovi in pripravkov</h1>
 <p>Na podlagi tretjega odstavka 49. člena zakona o kemikalijah  (Uradni list RS, št. 36/99) izdaja minister za zdravstvo v soglasju z ministrom za okolje</p>
 <h2>P R A V I L N I K</h2>
 <p>o omejitvi dajanja v promet ali  uporabe določenih nevarnih snovi in pripravkov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa nevarne snovi in pripravke, katerih dajanje v promet ali uporaba sta omejena ali prepovedana.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Nevarne snovi in pripravki so določeni v prilogi, ki je sestavni del tega pravilnika in objavljena skupaj z njim.<br />
 Omejitve po tem pravilniku ne veljajo za snovi in pripravke, kadar se uporabljajo v raziskovalne, znanstvene ali analizne namene.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Omejitve in prepovedi iz tega pravilnika, se začnejo uporabljati najkasneje 29. 5. 2000, razen omejitev pod 5. točko priloge, ki se začnejo uporabljati z dnem uveljavitve tega pravilnika.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 022-22/99</p>
 <p>Ljubljana, dne 30. julija 1999.</p>
@@ -61,5 +74,36 @@ za okolje in prostor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-09-09", "kratica": "DRUG45", "naziv": "Pravilnik o omejitvi dajanja v promet ali uporabe določenih nevarnih snovi in pripravkov", "url": "/trubar/si/DRUG45/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

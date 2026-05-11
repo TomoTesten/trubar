@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0654" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPOGD-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPOGD-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPOGD-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPOGD-A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o poroštvih Republike Slovenije za obveznosti gospodarskih družb iz poslov restrukturiranja dolgov</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,19 +50,19 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O POROŠTVIH REPUBLIKE SLOVENIJE ZA OBVEZNOSTI GOSPODARSKIH DRUŽB IZ POSLOV RESTRUKTURIRANJA DOLGOV</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o poroštvih Republike Slovenije za obveznosti gospodarskih družb iz poslov restrukturiranja dolgov (Uradni list RS, št. 69/94) se v prvem odstavku 3. člena za besedo “da” doda beseda “mu”, besedilo “opustila vsa zavarovanja za svoje terjatve do njega in mu” pa se črta.<br />
 V prvem stavku drugega odstavka se za besedo “hranilnic” črta vejica in besedilo “kakršna bi bila”, za datumom “30. 9. 1994” pa se vejica nadomesti s piko, ostalo besedilo do konca stavka pa se črta. V drugem stavku se beseda “bi” črta, beseda “uvrstile” pa se nadomesti z besedo “uvrstijo”.<br />
 Doda se nov tretji odstavek, ki se glasi:</p>
 <p>“Če banka pri restrukturiranju dolgov opusti kakšno zavarovanje za svoje terjatve do dolžnika, se za izvajanje tega zakona upošteva razvrstitev terjatev po opustitvi zavarovanj.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 4. členu se črta prvi odstavek.<br />
 Dosedanji drugi, tretji in četrti odstavek postanejo prvi, drugi in tretji odstavek.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V četrti alinei drugega odstavka 5. člena se črtajo besede “kot edinim zavarovanjem za ta kredit”.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V četrtem odstavku 8. člena se pika nadomesti z vejico in doda besedilo “skupaj s sorazmernim delom zavarovanj za njeno izpolnitev”.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 450-07/94-12/2</p>
 <p>Ljubljana, dne 21. februarja 1995.</p>
@@ -65,5 +78,36 @@ Jožef Školč l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-03-03", "kratica": "ZPOGD-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o poroštvih Republike Slovenije za obveznosti gospodarskih družb iz poslov restrukturiranja dolgov", "url": "/trubar/si/ZPOGD-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2021-01-0420" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED8276.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED8276" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED8276.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED8276,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o izvajanju presejalnih programov za zgodnje odkrivanje okužb z virusom SARS-CoV-2</h1>
 <p>Na podlagi prvega odstavka 21. člena Zakona o Vladi Republike Slovenije (Uradni list RS, št. 24/05 – uradno prečiščeno besedilo, 109/08, 38/10 – <a href="/trubar/si/ZUKN/" class="law-ref" title="ZUKN">ZUKN</a>, 8/12, 21/13, 47/13 – <a href="/trubar/si/ZDU-1G/" class="law-ref" title="ZDU-1G">ZDU-1G</a>, 65/14 in 55/17) Vlada Republike Slovenije izdaja</p>
 <p>U R E D B O</p>
@@ -54,5 +67,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2021-02-11", "kratica": "URED8276", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o izvajanju presejalnih programov za zgodnje odkrivanje okužb z virusom SARS-CoV-2", "url": "/trubar/si/URED8276/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

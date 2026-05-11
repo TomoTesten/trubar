@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>PRAV15048</strong></dd>
       <dt>Vrsta</dt><dd>pravilnik</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>2023-07-21</dd>
-      <dt>Organ</dt><dd>Slovenski filmski center, javna agencija Republike Slovenije</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-2513" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV15048.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV15048" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV15048.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV15048,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi in dopolnitvah Pravilnika o Festivalu slovenskega filma</h1>
 <p>Na podlagi druge alineje prvega odstavka 18. člena in prvega odstavka 26. člena Zakona o javnih agencijah (Uradni list RS, št. 52/20, 51/04 – <a href="/trubar/si/EZ-A/" class="law-ref" title="EZ-A">EZ-A</a> in 33/11 – <a href="/trubar/si/ZEKom-C/" class="law-ref" title="ZEKom-C">ZEKom-C</a>), drugega odstavka 18. člena Zakona o Slovenskem filmskem centru, javni agenciji Republike Slovenije (Uradni list RS, št. 77/10, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>, 19/14 – odl. US, 63/16 in 31/18) in devete alineje prvega odstavka 15. člena Sklepa o preoblikovanju Filmskega sklada Republike Slovenije, javnega sklada, v Slovenski filmski center, javno agencijo Republike Slovenije, (Uradni list RS, št. 92/10, 20/11, 6/16, 3/17 in 52/18) je svet Slovenskega filmskega centra, javne agencije Republike Slovenije, na 19. redni seji dne 30. 3. 2023 sprejel</p>
 <p>P R A V I L N I K</p>
@@ -53,5 +66,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-07-21", "kratica": "PRAV15048", "naziv": "Pravilnik o spremembi in dopolnitvah Pravilnika o Festivalu slovenskega filma", "url": "/trubar/si/PRAV15048/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

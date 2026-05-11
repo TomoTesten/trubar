@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2016-01-0294" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4225.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG4225" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4225.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG4225,vrsta:drugi akt">
+    
     <h1>Operativno-tehnična zahteva za izvajanje zahtev glede omejitev delovnega časa posadk</h1>
 <p>Na podlagi drugega odstavka 5. člena in petega odstavka 179.i člena Zakona o letalstvu (Uradni list RS, št. 81/10 – UPB4, v nadaljnjem besedilu: Zakon o letalstvu), 25. člena Sklepa o ustanovitvi Javne agencije za civilno letalstvo Republike Slovenije (Uradni list RS, št. 81/10) in za izvrševanje drugega odstavka 8. člena in ARO.OPS.230 Poddela OPS Dela ARO Priloge II Uredbe Komisije (EU) št. 965/2012 z dne 5. oktobra 2012 o tehničnih zahtevah in upravnih postopkih za letalske operacije v skladu z Uredbo (ES) št. 216/2008 Evropskega parlamenta in Sveta, ki je bila nazadnje spremenjena z Uredbo Komisije (EU) 2015/1329 z dne 31. julija 2015 o spremembi Uredbe (EU) št. 965/2012 glede operacij zrakoplovov, registriranih v tretjih državah, ki jih uporabljajo letalski prevozniki Unije, izdaja direktor agencije naslednjo</p>
 <p>O P E R A T I V N O – T E H N I Č N O    Z A H T E V O</p>
@@ -61,5 +74,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2016-02-05", "kratica": "DRUG4225", "naziv": "Operativno-tehnična zahteva za izvajanje zahtev glede omejitev delovnega časa posadk", "url": "/trubar/si/DRUG4225/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

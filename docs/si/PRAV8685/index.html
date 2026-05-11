@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-0645" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8685.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV8685" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8685.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV8685,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o trženju razmnoževalnega materiala in sadik hmelja</h1>
 <p>Na podlagi 4.a člena, osmega, devetega in enajstega odstavka 10. člena, drugega odstavka 11. člena, šestega odstavka 12. člena, dvanajstega odstavka 22. člena in drugega odstavka 26. člena Zakona o semenskem materialu kmetijskih rastlin (Uradni list RS, št. 25/05 – uradno prečiščeno besedilo) ter 50. člena in drugega odstavka 95. člena Zakona o zdravstvenem varstvu rastlin (Uradni list RS, št. 62/07 – uradno prečiščeno besedilo) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o trženju razmnoževalnega materiala in sadik hmelja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o trženju razmnoževalnega materiala in sadik hmelja (Uradni list RS, št. 21/07) se v Prilogi 1 v točki 2.1 v petem odstavku črta besedilo »in pod pogojem da v 250-metrskem varovalnem pasu okoli rastlinjaka ali drugega zaprtega prostora v zadnjih 3 rastnih dobah ni bila potrjena okužba z letalno obliko hmeljeve uvelosti, ki jo povzročata glivi Verticillium alboatrum Reinke at Berthold in Verticillium dahliae Klebahn (v nadaljnjem besedilu: hmeljeva uvelost)«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V Prilogi 2 se 1. točka spremeni tako, da se glasi:<br />
 »Certificirane sadike A se pridobijo z razmnoževanjem uradno potrjenih osnovnih matičnih rastlin. Razmnoževanje poteka v rastlinjaku ali v drugem zavarovanem prostoru v razmerah, ki preprečujejo možnost okužb z zračnimi ali talnimi vektorji. Za vzgojo certificiranih sadik A se uporabi rastni substrat, ki je bil steriliziran ali testiran na ogorčice iz Priloge 3 tega pravilnika.<br />
 Certificirane sadike A se utrdijo oziroma donegujejo na prostem, v senčnici ali mrežniku, pod pogojem, da na površini, na kateri poteka utrjevanje, še ni bila potrjena okužba z blago ali letalno obliko hmeljeve uvelosti. Okoli površin za utrjevanje certificiranih sadik A mora biti najmanj dvometrski pas, ki mora biti ali brez vseh rastlin ali pa stalno košen. Sadike ne smejo priti v stik z ogorčicami iz Priloge 3 tega pravilnika. V ta namen je treba zemljo v tleh predhodno testirati na prisotnost ogorčic iz Priloge 3 tega pravilnika ali pa sadike posaditi v sterilirizan rastni substrat v lončke, ki se postavijo na folijo, da se prepreči neposreden stik korenin s tlemi. Sadike različnih sort hmelja morajo biti med seboj ločene in označene najmanj z imenom sorte in oznako partije. Če se sadike utrjujejo tako, da neposreden stik korenin z zemljo ni preprečen, mora biti s testiranjem vzorcev zemlje v imenovanem laboratoriju ugotovljeno, da v njej niso prisotne ogorčice in drugi škodljivi organizmi iz Priloge 3 tega pravilnika, ki se prenašajo z zemljo. Površine za utrjevanje certificiranih sadik A se smejo uporabljati samo za ta namen. Biti morajo ograjene oziroma prostorsko ločene od ostalih površin tako, da ni nevarnosti za zdravstveno varstvo rastlin. Vstop v ograjeni prostor se omogoči samo zaposlenim. Ob vstopu mora biti predpražnik ali korito z razkužilom širokega spektra. Zagotovljeno mora biti čiščenje in razkuževanje opreme in orodja, ki se uporablja pri pridelavi. Zagotovljen mora biti nekontaminiran vodni vir.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-399/2007</p>
 <p>Ljubljana, dne 5. februarja 2008</p>
@@ -51,5 +64,36 @@ za kmetijstvo, gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-02-25", "kratica": "PRAV8685", "naziv": "Pravilnik o spremembah Pravilnika o trženju razmnoževalnega materiala in sadik hmelja", "url": "/trubar/si/PRAV8685/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

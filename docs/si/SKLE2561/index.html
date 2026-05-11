@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4608" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE2561.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE2561" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE2561.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE2561,vrsta:sklep">
+    
     <h1>Sklep, št. 2/2001 Pridružitvenega sveta EU - Slovenija o sprejemu izvedbenih pravil za uporabo določb o državni pomoči, navedenih v točki iii) prvega odstavka in v drugem odstavku 65. člena skladno s tretjim odstavkom 65. člena Evropskega sporazuma o pridružitvi med Republiko Slovenijo na eni strani ter Evropskimi skupnostmi in njenimi državami članicami na drugi strani, in v točki iii) prvega odstavka in v drugem odstavku 7. člena Protokola 2 o izdelkih ESPJ k temu Sporazumu</h1>
 <p>Na podlagi 112. člena Evropskega sporazuma o pridružitvi med Republiko Slovenijo na eni strani in Evropskimi skupnostmi na drugi strani s sklepno listino – v nadaljnjem besedilu: Evropski sporazum (Uradni list RS – Mednarodne pogodbe, št. 13/97) in sklepa Vlade Republike Slovenije, sprejetega na 46. seji dne 18. 10. 2001, se objavi</p>
 <h2>S K L E P, št. 2/2001</h2>
@@ -41,9 +54,9 @@ Ker:<br />
 (5) bo Republika Slovenija, ob uvedbi potrebnih pravil za zagotovitev učinkovitega nadzora, še zlasti poskrbela za to, da bo nadzorni organ pravočasno prejemal vse ustrezne informacije od drugih vladnih služb na osrednji, regionalni in lokalni ravni.<br />
 (6) bo Komisija Evropskih skupnosti v okviru ustreznih programov Skupnosti pomagala nadzornemu organu z zagotavljanjem dokumentacije, usposabljanja, študijskih potovanj in druge ustrezne tehnične pomoči,<br />
 SKLENIL KOT SLEDI:</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem sklepom se sprejmejo izvedbena pravila, ki so priloga k temu sklepu, za uporabo določb o državni pomoči, navedenih v točki iii) prvega odstavka in v drugem odstavku 65. člena, skladno s tretjim odstavkom 65. člena Evropskega sporazuma o pridružitvi med Republiko Slovenijo na eni strani ter Evropskimi skupnostmi in njihovimi državami članicami na drugi strani, ter v točki iii) prvega odstavka in v drugem odstavku 7. člena Protokola 2 o izdelkih ESPJ tega Sporazuma.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Izvedbena pravila začnejo veljati prvi dan v mesecu po njihovem sprejetju.</p>
 <p>Podpisano v Bruslju, dne 3. 5. 2001.</p>
 <p>Za Pridružitveni svet<br />
@@ -323,5 +336,36 @@ str. 9), 100.000 EUR na podjetje za obdobje treh let.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-11-22", "kratica": "SKLE2561", "naziv": "Sklep, št. 2/2001 Pridružitvenega sveta EU - Slovenija o sprejemu izvedbenih pravil za uporabo določb o državni pomoči, navedenih v točki iii) prvega odstavka in v drugem odstavku 65. člena skladno s tretjim odstavkom 65. člena Evropskega sporazuma o pridružitvi med Republiko Slovenijo na eni strani ter Evropskimi skupnostmi in njenimi državami članicami na drugi strani, in v točki iii) prvega odstavka in v drugem odstavku 7. člena Protokola 2 o izdelkih ESPJ k temu Sporazumu", "url": "/trubar/si/SKLE2561/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

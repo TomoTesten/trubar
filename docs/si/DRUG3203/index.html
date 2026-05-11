@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1440" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3203.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3203" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3203.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3203,vrsta:drugi akt">
+    
     <h1>Spremembe in dopolnitve Kolektivne pogodbe za kulturne dejavnosti v Republiki Sloveniji</h1>
 <p>Na podlagi 3. točke II. Poglavja Kolektivne pogodbe za kulturne dejavnosti v Republiki Sloveniji (Uradni list RS, št. 45/94, 39/96, 102/00, 64/01 in 60/08) in upoštevaje določila Dogovora ob podpisu Aneksa h Kolektivni pogodbi za kulturne dejavnosti v RS (Uradni list RS, št. 61/08)</p>
 <p>sprejmejo pogodbene stranke<br />
@@ -34,11 +47,11 @@ GLOSA – Sindikat kulture Slovenije, ki ga zastopa predsednik, Doro Hvalica in<
 SVIZ – Sindikat vzgoje, izobraževanja, znanosti in kulture Slovenije, ki ga zastopa glavni tajnik, Branimir Štrukelj,</p>
 <h2>S P R E M E M B E   I N   D O P O L N I T V E   K O L E K T I V N E   P O G O D B E</h2>
 <p>za kulturne dejavnosti v Republiki Sloveniji</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Kolektivni pogodbi za kulturne dejavnosti (Uradni list RS, št. 45/94, 39/96, 82/99, 102/00, 52/01, 64/01 in 60/08) se 9. točka v poglavju II. spremeni tako, da se glasi:<br />
 »9. Stranki kolektivne pogodbe sporazumno imenujeta petčlanski odbor za razlago kolektivne pogodbe, pri čemer sindikata GLOSA in SVIZ predlagata po enega člana, Ministrstvo za kulturo dva člana in obe stranki neodvisnega člana, ki vodi odbor. Vsak član, razen predsednika, ima namestnika, ki ima v času odsotnosti člana polna pooblastila.<br />
 Delo odbora organizira in financira Ministrstvo za kulturo.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>103.a člen se spremeni tako, da se glasi:</p>
 <h3>»103.a člen</h3>
 <h3>(nadomestila sindikalnim zaupnikom za čas neprofesionalnega opravljanja funkcije)</h3>
@@ -50,11 +63,11 @@ Delo odbora organizira in financira Ministrstvo za kulturo.«</p>
 (2) V zavodih z do vključno 70 zaposlenimi ima pravico do nadomestila samo en sindikalni zaupnik (predsednik sindikata zavoda). V zavodih nad 70 do vključno 130 zaposlenimi, kjer organizacijska struktura v skladu z ustanovitvenim aktom zavoda zahteva več sindikalnih zaupnikov, imata pravico do nadomestila dva (predsednik sindikata zavoda 195 EUR in en zaupnik v skladu s številom zaposlenih v njegovi organizacijski enoti, vendar ne več kot 100 EUR). V zavodih z nad 130 zaposlenimi, kjer organizacijska struktura zavoda zahteva več sindikalnih zaupnikov, ima pravico do nadomestila več zaupnikov (predsednik sindikata zavoda 195 EUR in toliko zaupnikov, kolikor je enot s po več kot 20 zaposlenimi v skladu z merili v prvem odstavku, vendar ne več kot po 100 EUR).<br />
 (3) Sindikalni zaupnik ima pravico do nadomestila tudi, če z vodstvom zavoda še ni podpisana pogodba o pogojih za delo sindikata.<br />
 (4) Nominalni zneski, navedeni v tem dogovoru, se usklajujejo z rastjo plač v javnem sektorju.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(poračun nadomestila za sindikalne zaupnike)</h3>
 <p>(1) Sindikalnim zaupnikom, ki v času od vstopa v nov plačni sistem do uveljavitve tega aneksa niso prejemali dodatka za sindikalne zaupnike oziroma je bil njihov dodatek manjši, se nadomestilo poračuna tudi za ta čas.<br />
 (2) Previsoko izplačano nadomestilo sindikalnim zaupnikom za čas od vstopa v nov plačni sistem do uveljavitve tega aneksa, se ne vrača.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(uveljavitev)</h3>
 <p>Te spremembe in dopolnitve začnejo veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 10101-2/2009/4</p>
@@ -82,5 +95,36 @@ Glavni tajnik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-04-24", "kratica": "DRUG3203", "naziv": "Spremembe in dopolnitve Kolektivne pogodbe za kulturne dejavnosti v Republiki Sloveniji", "url": "/trubar/si/DRUG3203/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

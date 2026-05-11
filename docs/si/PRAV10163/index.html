@@ -21,24 +21,37 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-2110" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10163.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10163" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10163.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10163,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o veterinarskih pregledih živali pri vnosu na teritorij EU iz tretjih držav</h1>
 <p>Na podlagi petega odstavka 10. člena, četrtega odstavka 21. člena, šestega odstavka 49. člena, tretjega odstavka 50. člena in šestega odstavka 51. člena Zakona o veterinarskih merilih skladnosti (Uradni list RS, št. 93/05) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o veterinarskih pregledih živali pri vnosu na teritorij EU iz tretjih držav</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o veterinarskih pregledih živali pri vnosu na teritorij EU iz tretjih držav (Uradni list RS, št. 2/07) se 1. člen spremeni tako, da se glasi:</p>
 <h3>»1. člen</h3>
 <h3>(vsebina)</h3>
 <p>(1) Ta pravilnik ureja veterinarske preglede živali pri vstopu na teritorij Evropske unije (v nadaljnjem besedilu: EU) iz tretjih držav v skladu z Direktivo Sveta z dne 15. julija 1991 o določitvi načel o organizaciji veterinarskih pregledov živali, ki vstopajo v Skupnost iz tretjih držav, in o spremembi direktiv 89/662/EGS, 90/425/EGS ter 90/675/EGS (UL L št. 268 z dne 24. 9. 1991, str. 56), zadnjič spremenjeno z Direktivo Sveta 2008/73/ES z dne 15. julija 2008 o poenostavitvi postopkov za oblikovanje seznamov in objavljanje informacij na veterinarskem in zootehniškem področju, ter o spremembi direktiv 64/432/EGS, 77/504/EGS, 88/407/EGS, 88/661/EGS, 89/361/EGS, 89/556/EGS, 90/426/EGS, 90/427/EGS, 90/428/EGS, 90/429/EGS, 90/539/EGS, 91/68/EGS, 92/35/EGS, 91/496/EGS, 92/65/EGS, 92/66/EGS, 92/119/EGS, 94/28/ES, 200/75/ES, Odločbe 2000/258/ES ter direktiv 2001/89/ES, 2002/60/ES in 2005/94/ES (UL L št. 219 z dne 14. 8. 2008, str. 40), (v nadaljnjem besedilu: Direktiva 91/496/EGS).<br />
 (2) Ta pravilnik se ne uporablja za nekomercialne premike hišnih živali, ki potujejo skupaj z lastniki.<br />
 (3) Določbe tega pravilnika ne posegajo v obveznosti pravnih in fizičnih oseb, ki izhajajo iz carinskih predpisov.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V četrtem odstavku 9. člena se besedilo »ki o tem obvesti Evropsko komisijo zaradi uvrstitve karantenskega centra na listo EU odobrenih centrov, ki je objavljena v Uradnem listu Evropske unije« nadomesti z besedilom »ki pripravi in posodablja seznam odobrenih karantenskih centrov in njihovih številk odobritve ter ga objavi na spletni strani VURS: http://www.vurs.gov.si«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-12/2010</p>
 <p>Ljubljana, dne 6. maja 2010</p>
@@ -54,5 +67,36 @@ za kmetijstvo, gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-05-28", "kratica": "PRAV10163", "naziv": "Pravilnik o spremembah Pravilnika o veterinarskih pregledih živali pri vnosu na teritorij EU iz tretjih držav", "url": "/trubar/si/PRAV10163/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

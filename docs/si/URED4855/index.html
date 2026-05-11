@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-0845" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4855.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4855" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4855.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4855,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Uredba o spremembah in dopolnitvah Uredbe o enotni metodologiji in obrazcih za obračun in izplačilo plač v javnem sektorju</h1>
 <p>Na podlagi prvega odstavka 40. člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 95/07 – uradno prečiščeno besedilo in 17/08) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o enotni metodologiji in obrazcih za obračun in izplačilo plač v javnem sektorju</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o enotni metodologiji in obrazcih za obračun in izplačilo plač v javnem sektorju (Uradni list RS, št. 109/07 in 7/08) se v 2. členu v tabeli doda nov izraz Z571, ki se glasi:</p>
 <p>»<br />
 +------+---------------+-------------------------------------+<br />
@@ -115,7 +128,7 @@
 |      |člena <a href="/trubar/si/ZSSloV/" class="law-ref" title="ZSSloV">ZSSloV</a>   |                                     |<br />
 +------+---------------+-------------------------------------+<br />
                                                             «.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 3. členu se v tabeli dodata novi vrsti izplačil D040 in D050, ki se glasita:</p>
 <p>»<br />
 +------+------------+----------+------+--------+-------------+<br />
@@ -160,11 +173,11 @@
 |     |              |           |      |člena <a href="/trubar/si/ZDR/" class="law-ref" title="ZDR">ZDR</a>)   |        |<br />
 +-----+--------------+-----------+------+-------------+--------+<br />
                                                               «.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 20. členu se črta dvajseti odstavek.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 21. členu se na koncu prvega odstavka doda besedilo »na naslednji način: (osnovna plača za obračun + dodatek za delovno dobo) x pretvornik za delo v tujini«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V 22. členu se v tabeli besedilo pod šiframi S120 in S130 spremeni tako, da se glasi:</p>
 <p>»<br />
 +-----+--------------+---------------------+-------------+-----+<br />
@@ -182,9 +195,9 @@
 |     |Sloveniji)    |                     |             |     |<br />
 +-----+--------------+---------------------+-------------+-----+<br />
                                                               «.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>V Prilogi 1 se obrazca Plačilna lista 1 in Plačilna lista 2 nadomestita z novima obrazcema Plačilna lista 1 in Plačilna lista 2, ki sta sestavni del te uredbe. Prilogi 2 in 3 se nadomestita z novima prilogama 2 in 3, ki sta sestavni del te uredbe.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne 1. marca 2008.</p>
 <p>Št. 00714-5/2008/5</p>
 <p>Ljubljana, dne 28. februarja 2008</p>
@@ -203,5 +216,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-03-07", "kratica": "URED4855", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o enotni metodologiji in obrazcih za obračun in izplačilo plač v javnem sektorju", "url": "/trubar/si/URED4855/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

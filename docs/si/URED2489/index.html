@@ -21,35 +21,48 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2571" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2489.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2489" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2489.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2489,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Uredba o obsegu izdaje, sestavinah, apoenih in glavnih znamenjih priložnostnih kovancev ob 35. šahovski olimpiadi - Bled 2002</h1>
 <p>Na podlagi 5. člena zakona o priložnostnih kovancih (Uradni list RS, št. 7/93) in 1. člena uredbe o določitvi dogodkov, ob katerih se v letu 2002 izdajajo priložnostni kovanci (Uradni list RS, št. 13/02) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o obsegu izdaje, sestavinah, apoenih in glavnih znamenjih priložnostnih kovancev ob  35. šahovski olimpiadi – Bled 2002</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Republika Slovenija izda priložnostne kovance ob  35. šahovski olimpiadi – Bled 2002, v obsegu in z glavnimi znamenji ter drugimi značilnostmi, kot je določeno s to uredbo.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ob 35. šahovski olimpiadi – Bled 2002 izda Republika Slovenija:<br />
 – priložnostne zlatnike z nominalno vrednostjo 20.000 tolarjev, v količini 500 kovancev in v skupni nominalni vrednosti 10,000.000 tolarjev in<br />
 – priložnostne srebrnike z nominalno vrednostjo 2.500 tolarjev, v količini 1.000 kovancev in v skupni nominalni vrednosti 2,500.000 tolarjev.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Priložnostni zlatniki bodo izdelani iz zlata čistine 900/1000 v posebni tehniki z ravnimi površinami visokega sijaja in matiranimi reliefnimi površinami priložnostnega motiva.<br />
 Zlatniki bodo imeli težo 7 gramov in premer 24 milimetrov. Pri vsakem posameznem zlatniku je dovoljen odmik pri teži do ± 1‰ in pri premeru do ± 0,1 milimetra.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Priložnostni srebrniki bodo izdelani iz srebra čistine 925/1000 v posebni tehniki z ravnimi površinami visokega sijaja in matiranimi reliefnimi površinami priložnostnega motiva.<br />
 Srebrniki bodo imeli težo 15 gramov in premer  32 milimetrov. Pri vsakem posameznem srebrniku je dovoljen odmik pri teži do ± 1% in pri premeru do ± 0,1 milimetra.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Videz zlatnikov in srebrnikov iz 3. in 4. člena te uredbe bo naslednji:<br />
 – sprednja stran<br />
 V osrednjem delu kovanca je razporejenih vseh  32 šahovskih figur v začetnem položaju. Besedilo: “35. ŠAHOVSKA OLIMPIADA“ poteka ob robu zgornje polovice kovanca, besedilo: “BLED 2002“ pa se nadaljuje v spodnji del kovanca.<br />
 – hrbtna stran<br />
 Na desni polovici kovanca je figura vzpenjajočega konja z odsevom v vodi. Na levi polovici kovanca je ob robu napis: “Republika Slovenija 2002“, ob spodnjem robu desne polovice kovanca pa je izpisana nominalna vrednost: “20000 tolarjev“ oziroma “2500 tolarjev“.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Priložnostni kovanci, izdani na podlagi te uredbe, so po obodu nazobčani.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 448-00/2001-5</p>
 <p>Ljubljana, dne 11. junija 2002.</p>
@@ -64,5 +77,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-06-20", "kratica": "URED2489", "naziv": "Uredba o obsegu izdaje, sestavinah, apoenih in glavnih znamenjih priložnostnih kovancev ob 35. šahovski olimpiadi - Bled 2002", "url": "/trubar/si/URED2489/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

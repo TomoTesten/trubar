@@ -21,26 +21,39 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-1100" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5960.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5960" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5960.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5960,vrsta:pravilnik">
+    
     <h1>Pravilnik o razvrstitvi izdelkov iz prilog I in II Direktive 2004/57ES med pirotehnične izdelke</h1>
 <p>Za izvajanje 3. člena Zakona o eksplozivih (Uradni list RS, št. 96/02) izdaja minister za notranje zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o razvrstitvi izdelkov iz prilog I in II Direktive 2004/57ES med pirotehnične izdelke</p>
 <h3>I. SPLOŠNE DOLOČBE</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina)</h3>
 <p>Ta pravilnik določa v skladu z Direktivo Komisije 2004/57ES z dne 23. aprila 2004 o določitvi pirotehničnih izdelkov in določenih vrst streliva za namen izvajanja Direktive Sveta 93/15 EGS o usklajevanju določb v zvezi z dajanjem eksplozivov za civilno uporabo v promet in njihovim nadzorom (UL L, št. 127 z dne 29. 4. 2004), kateri izdelki, ki imajo lahko dvojno funkcijo, ker se lahko uporabljajo kot strelivo ali pirotehnični izdelki oziroma kot eksplozivi ali pirotehnični izdelki, spadajo zaradi njihovih pretežnih lastnosti med pirotehnične izdelke.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(izdelki, ki so lahko strelivo ali pirotehnični izdelki)</h3>
 <p>Izdelki, ki so po svojih lastnostih lahko strelivo ali piro­tehnični izdelki in se uvrščajo med pirotehnične izdelke, so navedeni v prilogi I, ki je sestavni del tega pravilnika.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(izdelki, ki so lahko eksplozivi ali pirotehnični izdelki)</h3>
 <p>Izdelki, ki so po svojih lastnostih lahko eksplozivi ali pirotehnični izdelki in se uvrščajo med pirotehnične izdelke, so navedeni v prilogi II, ki je sestavni del tega pravilnika.</p>
 <h3>II. KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(uveljavitev)</h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 1323-01-216-20/2005</p>
@@ -257,5 +270,36 @@ Strelivo ali pirotehnični izdelki<br />
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-03-29", "kratica": "PRAV5960", "naziv": "Pravilnik o razvrstitvi izdelkov iz prilog I in II Direktive 2004/57ES med pirotehnične izdelke", "url": "/trubar/si/PRAV5960/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

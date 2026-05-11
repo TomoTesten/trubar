@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1049" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZTro-G.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZTro-G" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZTro-G.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZTro-G,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Zakon o spremembah in dopolnitvah Zakona o trošarinah</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,15 +50,15 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O TROŠARINAH (ZTro-G)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o trošarinah (Uradni list RS, št. 2/07 – uradno prečiščeno besedilo) se v 6. točki 15. člena za besedno zvezo »izven trošarinskih skladišč« doda vejica in besedilo: »ali ko se v skladu z devetim odstavkom 51. člena tega zakona zanje zviša drobnoprodajna cena«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugem odstavku 17. člena se 7. točka spremeni tako, da se glasi:<br />
 »7. oseba, ki ima na zalogi trošarinske izdelke, za katere se v skladu s 6. točko 15. člena tega zakona spremeni višina trošarine ali zviša drobnoprodajna cena.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 35.a členu se za tretjim odstavkom doda nov četrti odstavek, ki se glasi:<br />
 »(4) Oseba iz 6. točke 15. člena tega zakona mora na dan pred spremembo trošarin oziroma drobnoprodajnih cen cigaret opraviti popis cigaret, ki jih ima na zalogi, ter carinskemu organu predložiti zapisnik o popisu cigaret ter obračun trošarine najpozneje 15. dan po popisu. Obračunana trošarina zapade v plačilo 60. dan po opravljenem popisu. Minister, pristojen za finance podrobneje določi vsebino zapisnika o popisu cigaret in način obračuna ter plačila trošarine v skladu s tem odstavkom.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 51. členu se v drugi alineji petega odstavka za besedno zvezo »najmanj 64 eurov« doda vejica in besedilo »od 1. maja 2009 najmanj 69 eurov«.<br />
 Sedmi odstavek se spremeni tako, da se glasi:<br />
 »(7) Če se med letom spremeni drobnoprodajna cena cigaret, lahko vlada ne glede na določbo prejšnjega odstavka sproti ugotavlja najbolje prodajani cenovni razred ter ustrezno spremeni znesek specifične in stopnjo proporcionalne trošarine.«.<br />
@@ -53,11 +66,11 @@ V osmem odstavku se 2. in 3. točka spremenita tako, da se glasita:<br />
 »2. za drobno rezani tobak: 35 eurov za en kilogram;<br />
 3. za preostali tobak za kajenje: 22 eurov za en kilogram.«.</p>
 <h3>PREHODNI IN KONČNA DOLOČBA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Novi 2. in 3. točka osmega odstavka 51. člena zakona se začneta uporabljati 1. maja 2009.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Za osebe iz devetega odstavka 51. člena zakona, ki želijo zaradi tega zakona spremeniti drobnoprodajne cene tobačnih izdelkov 1. maja 2009, znaša enotni rok za prijavo drobnoprodajnih cen, ne glede na deseti odstavek 51. člena zakona, 15 dni.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 434-03/09-1/10</p>
 <p>Ljubljana, dne 26. marca 2009</p>
@@ -74,5 +87,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-04-03", "kratica": "ZTro-G", "naziv": "Zakon o spremembah in dopolnitvah Zakona o trošarinah", "url": "/trubar/si/ZTro-G/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

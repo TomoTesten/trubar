@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-02-0063" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSKFVJM.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MSKFVJM" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSKFVJM.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MSKFVJM,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Spremembe Konvencije o fizičnem varovanju jedrskega materiala</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI SPREMEMBE KONVENCIJE O FIZIČNEM VAROVANJU JEDRSKEGA MATERIALA (MSKFVJM)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sprememba Konvencije o fizičnem varovanju jedrskega materiala, sprejeta na Dunaju 8. julija 2005.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo spremembe konvencije se v izvirniku v angleškem jeziku in prevodu v slovenskem jeziku glasi:</p>
 <h2>Amendment to the Convention on the Physical Protection of Nuclear Material</h2>
 <ol>
@@ -317,9 +330,9 @@ bodo kazniva po notranjem pravu vsake države pogodbenice.</li>
 (na b/) Material, ki ni bil obsevan v reaktorju, ali material, ki je bil obsevan v reaktorju, pri čemer je stopnja obsevanosti 1 gray/uro (100 rad/uro) ali manj v razdalji enega metra brez zaslona.<br />
 15. Opomba (na e/) Priloge II konvencije se spremeni tako, da se glasi:<br />
 (na e/) Drugo gorivo, ki se po svojem prvotnem deležu fisijskega materiala razvršča kot material iz I. in II. kategorije pred obsevanjem, se lahko uvrsti za eno kategorijo niže, medtem ko je stopnja obsevanosti večja od 1 gray/uro (100 rad/uro) v razdalji enega metra brez zaslona.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje spremembe konvencije skrbi Ministrstvo za notranje zadeve.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 801-10/09-6/8</p>
 <p>Ljubljana, dne 15. julija 2009</p>
@@ -336,5 +349,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-08-04", "kratica": "MSKFVJM", "naziv": "Zakon o ratifikaciji Spremembe Konvencije o fizičnem varovanju jedrskega materiala", "url": "/trubar/si/MSKFVJM/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

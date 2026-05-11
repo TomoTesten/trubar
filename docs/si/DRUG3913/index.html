@@ -21,18 +21,31 @@
       <dt>Organ</dt><dd>Plinovodi d.o.o.</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-2958" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3913.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3913" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3913.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3913,vrsta:drugi akt">
+    
     <h1>Pravila o spremembah in dopolnitvah Pravil o postopku za izvajanje Uredbe (ES) št. 715/2009 o pogojih za dostop do prenosnih omrežij zemeljskega plina in razveljavitvi Uredbe (ES) št. 1775/2005</h1>
 <p>Na podlagi drugega odstavka 31. člena in devetega odstavka 31.e člena Energetskega zakona (Uradni list RS, št. 27/07 – uradno prečiščeno besedilo, 70/08, 22/10, 37/11 – Odl. US, 10/12 in 94/12 – <a href="/trubar/si/ZDoh/" class="law-ref" title="ZDoh">ZDoh</a>) družba PLINOVODI d.o.o., kot izvajalec gospodarske javne službe dejavnost sistemskega operaterja prenosnega omrežja zemeljskega plina, po pridobitvi soglasja sveta Javne agencije Republike Slovenije za energijo št. 25-14/2013-16/336, z dne 24. 9. 2013, izdaja</p>
 <h2>P R A V I L A</h2>
 <p>o spremembah in dopolnitvah Pravil o postopku za izvajanje Uredbe (ES) št. 715/2009 o pogojih za dostop do prenosnih omrežij zemeljskega plina in razveljavitvi Uredbe (ES) št. 1775/2005</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilih o postopku za izvajanje Uredbe (ES) št. 715/2009 o pogojih za dostop do prenosnih omrežij zemeljskega plina in razveljavitvi Uredbe (ES) št. 1775/2005 (Uradni list RS, št. 68/12) se v 2. členu doda nova četrta alineja, ki se glasi:<br />
 »– postopke za upravljanje prezasedenosti v primeru pogodbene prezasedenosti,«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 18. členom se doda novo IV.a poglavje, ki se glasi: »IV.a POSTOPKI UPRAVLJANJA PREZASEDENOSTI V PRIMERU POGODBENE PREZASEDENOSTI«, ter novi 18.a–18.k člen, ki se glasijo:</p>
 <h3>»18.a člen</h3>
 <p>Operater prenosnega sistema izvaja postopke upravljanja prezasedenosti v primeru pogodbene prezasedenosti, z namenom vračanja neizkoriščenih zmogljivosti nazaj na trg tako, da se prerazporedijo v rednem postopku dodeljevanja kot zagotovljene zmogljivosti.<br />
@@ -86,13 +99,13 @@ Po izteku roka za zbiranje ponudb, operater prenosnega sistema izbere najcenejš
 V primeru, da obseg pridobljenih ponudb ni zadosten za realizacijo pogodb o prenosu za dodatne zmogljivosti, operater prenosnega sistema po metodi sorazmernega zmanjševanja (pro rata) zavrne tisti del nominacij za dodatne zmogljivosti, ki jih tehnično ni mogoče realizirati. Za zavrnjeni del nominacij operater prenosnega sistema alocira zemeljski plin iz sistema izravnave odstopanj, v obsegu in na način, kot ga omogoča sistem izravnave odstopanj. Pri tem se dovoljene prekoračitve in morebitne nedovoljene prekoračitve količin obravnavajo po ceni za dovoljene prekoračitve.</p>
 <h3>18.k člen</h3>
 <p>Operater prenosnega sistema obračuna dodatne zmogljivosti v skladu s tem aktom na enak način kot druge zagotovljene zmogljivosti na primarnem trgu.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
 <h3>»20. člen</h3>
 <p>Podatke iz IV. in IV.a poglavja mora operater prenosnega sistema arhivirati in hraniti še pet let po objavi.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravila začnejo veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začnejo 1. oktobra 2013.</p>
 <p>Št. EP/SKR-1269-MS/JoŠ</p>
 <p>Ljubljana, dne 24. septembra 2013</p>
@@ -110,5 +123,36 @@ mag. Sarah Jezernik l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-09-30", "kratica": "DRUG3913", "naziv": "Pravila o spremembah in dopolnitvah Pravil o postopku za izvajanje Uredbe (ES) št. 715/2009 o pogojih za dostop do prenosnih omrežij zemeljskega plina in razveljavitvi Uredbe (ES) št. 1775/2005", "url": "/trubar/si/DRUG3913/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

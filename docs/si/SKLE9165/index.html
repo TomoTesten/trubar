@@ -21,22 +21,35 @@
       <dt>Organ</dt><dd>Banka Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-4269" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9165.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE9165" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9165.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE9165,vrsta:sklep">
+    
     <h1>Sklep o spremembah in dopolnitvah Sklepa o izračunu kapitalske zahteve za kreditno tveganje po standardiziranem pristopu za banke in hranilnice</h1>
 <p>Na podlagi četrte alineje 4. točke 129. člena Zakona o bančništvu (Uradni list RS, št. 99/10 – uradno prečiščeno besedilo (52/11 – popravek), 9/11 – <a href="/trubar/si/ZPlaSS-B/" class="law-ref" title="ZPlaSS-B">ZPlaSS-B</a>, 35/11, 59/11 in 85/11) in prvega odstavka 31. člena Zakona o Banki Sloveniji (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo in 59/11) izdaja Svet Banke Slovenije</p>
 <h2>S K L E P</h2>
 <p>o spremembah in dopolnitvah Sklepa o izračunu kapitalske zahteve za kreditno tveganje po standardiziranem pristopu za banke in hranilnice</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V drugem odstavku 2. člena Sklepa o izračunu kapitalske zahteve za kreditno tveganje po standardiziranem pristopu za banke in hranilnice (Uradni list RS, št. 135/06, 104/07, 85/10, 97/10 in 62/11) se na koncu 31. točke pika nadomesti s podpičjem. Dodata se dve novi točki, ki se glasita:<br />
 »32. »Uredba o bonitetnih agencijah« je Uredba (ES) št. 1060/2009 Evropskega parlamenta in Sveta z dne 16. septembra 2009 o bonitetnih agencijah (UL L št. 320 z dne 17. novembra 2009, str. 1), zadnjič spremenjena z Direktivo 2011/61/EU Evropskega parlamenta in Sveta z dne 8. junija 2011 o upraviteljih alternativnih investicijskih skladov in spremembah direktiv 2003/41/ES in 2009/65/ES ter uredb (ES) št. 1060/2009 in (EU) št. 1095/2010 (UL L št. 174 z dne 1. julija 2011, str. 1);<br />
 33. »Evropski organ za vrednostne papirje in trge (ESMA)« je Evropski nadzorni organ (Evropski organ za vrednostne papirje in trge), ustanovljen z Uredbo (EU) št. 1095/2010 Evropskega parlamenta in Sveta z dne 24. novembra 2010 o ustanovitvi Evropskega nadzornega organa (Evropski organ za vrednostne papirje in trge) in o spremembi Sklepa št. 716/2009/ES ter razveljavitvi Sklepa Komisije 2009/77/ES (UL l št. 331 z dne 15. decembra 2010, str. 84).«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 37.a členu se besedilo drugega odstavka spremeni tako, da se glasi:<br />
 »(2) Ne glede na prvi odstavek tega člena lahko banka bonitetne ocene imenovane ECAI, ki je registrirana ali certificirana v skladu z Uredbo o bonitetnih agencijah in za katero je Evropski organ za vrednostne papirje in trge (ESMA) sprejel ukrep iz točke (a) ali (c) 24. člena Uredbe o bonitetnih agencijah, uporablja še največ toliko časa po sprejemu ukrepa, kot je določeno v četrtem odstavku 24. člena Uredbe o bonitetnih agencijah.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Ljubljana, dne 6. decembra 2011</p>
 <p>Marko Kranjec l.r.<br />
@@ -50,5 +63,36 @@ Sveta Banke Slovenije</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-12-09", "kratica": "SKLE9165", "naziv": "Sklep o spremembah in dopolnitvah Sklepa o izračunu kapitalske zahteve za kreditno tveganje po standardiziranem pristopu za banke in hranilnice", "url": "/trubar/si/SKLE9165/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

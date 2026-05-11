@@ -21,22 +21,35 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0888" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE8388.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE8388" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE8388.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE8388,vrsta:sklep">
+    
     <h1>Sklep o spremembi Sklepa o dokumentaciji za dokazovanje izpolnjevanja pogojev za opravljanje funkcije člana uprave borznoposredniške družbe oziroma izvršnega direktorja borznoposredniške družbe, likvidacijskega upravitelja borznoposredniške družbe oziroma poslovodje podružnice borznoposredniške družbe tretje države</h1>
 <p>Na podlagi 157. člena Zakona o trgu finančnih instrumentov (Uradni list RS, št. 67/07, 100/07 – popr., 69/08 in 40/09) v zvezi z 2. točko 61. člena Zakona o bančništvu (Uradni list RS, št. 131/06, 1/08, 109/08, 19/09 in 98/09), 159. člena Zakona o trgu finančnih instrumentov v zvezi z drugim in tretjim odstavkom 77. člena Zakona o bančništvu, tretjega odstavka 184. člena Zakona o trgu finančnih instrumentov in 1. točke 163. člena Zakona o trgu finančnih instrumentov Agencija za trg vrednostnih papirjev izdaja</p>
 <h2>S K L E P</h2>
 <p>o spremembi Sklepa o dokumentaciji za dokazovanje izpolnjevanja pogojev za opravljanje funkcije člana uprave borznoposredniške družbe oziroma izvršnega direktorja borznoposredniške družbe, likvidacijskega upravitelja borznoposredniške družbe oziroma poslovodje podružnice borznoposredniške družbe tretje države</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Sklepu o dokumentaciji za dokazovanje izpolnjevanja pogojev za opravljanje funkcije člana uprave borznoposredniške družbe oziroma izvršnega direktorja borznoposredniške družbe, likvidacijskega upravitelja borznoposredniške družbe oziroma poslovodje podružnice borznoposredniške družbe tretje države (Uradni list RS, št. 106/07) se obrazec VPR iz a) alineje drugega odstavka 2. člena spremeni tako, da se:<br />
 – k točki 2.5 doda polje:</p>
 <p>+----------+----------+<br />
                                          |    DA    |    NE    |<br />
                                          +----------+----------+</p>
 <p>– uvodno besedilo pred točko 2.6. prestavi pred točko 2.5.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 409-9/2010-1</p>
 <p>Ljubljana, dne 10. februarja 2010</p>
@@ -52,5 +65,36 @@ Anka Čadež l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-03-15", "kratica": "SKLE8388", "naziv": "Sklep o spremembi Sklepa o dokumentaciji za dokazovanje izpolnjevanja pogojev za opravljanje funkcije člana uprave borznoposredniške družbe oziroma izvršnega direktorja borznoposredniške družbe, likvidacijskega upravitelja borznoposredniške družbe oziroma poslovodje podružnice borznoposredniške družbe tretje države", "url": "/trubar/si/SKLE8388/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

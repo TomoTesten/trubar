@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-02-0100" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/BDEFPD.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=BDEFPD" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/BDEFPD.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:BDEFPD,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Dogovora o dopolnitvi Sporazuma z dne 5. novembra 1992 med Vlado Republike Slovenije in Vlado Zvezne republike Nemčije o finančni pomoči za ustvarjanje eksistence in poklicnemu vkjučevanju kvalificiranih delavcev</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -38,9 +51,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI DOGOVORA O DOPOLNITVI SPORAZUMA Z DNE 5. NOVEMBRA 1992  MED VLADO REPUBLIKE SLOVENIJE IN VLADO ZVEZNE REPUBLIKE NEMČIJE  O FINANČNI POMOČI ZA USTVARJANJE EKSISTENCE IN POKLICNEM VKLJUČEVANJU KVALIFICIRANIH DELAVCEV</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Dogovor o dopolnitvi Sporazuma z dne 5. novembra 1992 med Vlado Republike Slovenije in Vlado Zvezne republike Nemčije o finančni pomoči za ustvarjanje eksistence in poklicnem vključevanju kvalificiranih delavcev, sklenjen z izmenjavo not dne 16. junija 1994.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Dogovor se v izvirniku v nemškem in slovenskem jeziku in v prevodu glasi:<br />
 DER BOTSCHAFTER<br />
 DER BUNDESREPUBLIK DEUTSCHLAND</p>
@@ -128,9 +141,9 @@ Seiner Exzellenz<br />
 dem Botschafter<br />
 der Bundesrepublik Deutschland<br />
 Herrn Dr. Günther Seibert</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje dogovora skrbi ministrstvo, pristojno za delo, družino in socialne zadeve.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije - Mednarodne pogodbe.</p>
 <p>Št. 433-02/92-8/5</p>
 <p>Ljubljana, dne 3. novembra 1994</p>
@@ -146,5 +159,36 @@ Jožef Školč l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-11-30", "kratica": "BDEFPD", "naziv": "Zakon o ratifikaciji Dogovora o dopolnitvi Sporazuma z dne 5. novembra 1992 med Vlado Republike Slovenije in Vlado Zvezne republike Nemčije o finančni pomoči za ustvarjanje eksistence in poklicnemu vkjučevanju kvalificiranih delavcev", "url": "/trubar/si/BDEFPD/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

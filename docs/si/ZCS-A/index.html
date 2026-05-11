@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2122" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZCS-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZCS-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZCS-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZCS-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o dopolnitvi zakona o carinski službi</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. in 91. člena ustave Republike Slovenije izdajam</p>
 <h2>UKAZ</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>O DOPOLNITVI ZAKONA O CARINSKI SLUŽBI</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o carinski službi (Uradni list RS, št. 1/91-I) se za 35. členom doda nov 35.a člen, ki se glasi:</p>
 <h3>"35.a člen</h3>
 <p>Delavci carinske službe morajo med stavko zagotoviti nemoteno opravljanje naslednjih nalog:</p>
@@ -48,7 +61,7 @@ Milan Kučan l. r.</p>
 <p>– preprečevanje in odkrivanje carinskih prekrškov, gospodarskih prestopkov in kaznivih dejanj v carinskem postopku;</p>
 <p>– preprečevanje in odkrivanje deviznih prekrškov v mednarodnem potniškem in obmejnem prometu s tujino;</p>
 <p>– vodenje upravnega postopka na prvi in drugi stopnji in postopka za prekrške na prvi stopnji."</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 437-01/91-4/31</p>
 <p>Ljubljana, dne 13. oktobra 1993.</p>
@@ -64,5 +77,36 @@ mag. Herman Rigelnik l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1993-10-17", "kratica": "ZCS-A", "naziv": "Zakon o dopolnitvi zakona o carinski službi", "url": "/trubar/si/ZCS-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

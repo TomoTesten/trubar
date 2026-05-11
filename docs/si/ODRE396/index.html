@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1004" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE396.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE396" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE396.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE396,vrsta:odredba">
+    
     <h1>Odredba o prepovedi vznemirjanja zavarovanih vrst ptic v stenah na območju Kraškega roba</h1>
 <p>Minister za okolje in prostor izdaja na podlagi prvega odstavka 4. člena uredbe o zavarovanju ogroženih živalskih vrst (Uradni list RS, št. 57/93)</p>
 <h2>O D R E D B O</h2>
 <p>o prepovedi vznemirjanja zavarovanih vrst ptic  v stenah na območju Kraškega roba</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta odredba določa posege, ki so prepovedani v življenjskem prostoru zavarovanih vrst ptic na območju Kraškega roba.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Življenjski prostor zavarovanih vrst ptic na območju Kraškega roba zajema območje apnenčastih sten, ki se raztezajo od državne meje z Italijo pri Ospu in Socerbu proti jugovzhodu do državne meje s Hrvaško pri Mlinih in Rakitovcu. Na spodnjem delu poteka meja območja od Kala na italijanski meji, kjer se od nje loči v smeri proti Ospu, nadaljuje po robu doline Osapske reke do Stare Gabrovice, Črnega Kala in naprej proti Bezovici, kjer se priključi cesti proti Podpeči. Od tu se spusti do železniške proge pod Sv. Štefanom in poteka po njej do Dola pri Hrastovljah, nato pred tunelom prečka progo in se pri Velikem Gradežu obrne proti zahodu na Kuk. Meja se nadaljuje po grebenu SV nad naseljem Smokvice do Vrh Križa, kjer se spusti v Smokavsko valo, prečka cesto Gračišče–Smokvica in se po njenem odcepu nadaljuje proti Brgotu, naprej pa po cesti Gračišče–Mlini vse do meje s Hrvaško. Na zgornjem robu območje meji na Zgornji kras, nato meja pri naselju Kastelec prečka cesto Črni Kal–Kozina in se nadaljuje proti Gabru. Po robu Srednjega Krasa in Velikega Krasa mimo Črnotič se nadaljuje po celotnem zgornjem robu stene pri Gradišču in naprej mimo Praproč na Škrbino, Jampršnik, Kameniščik čez Gradišče na Lipnik, Kavčič in do državne meje.<br />
 Meja območja je označena na karti v merilu 1:50000, ki je sestavni del te odredbe.<br />
 Karta iz prejšnjega odstavka je na vpogled na Ministrstvu za okolje in prostor, Upravi RS za varstvo narave ter na Upravni enoti Koper.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Na območju iz prejšnjega člena je prepovedano:<br />
 1. nadelavati in označevati nove planinske pešpoti,<br />
 2. plezati izven obstoječih plezalnih smeri,<br />
@@ -47,7 +60,7 @@ Karta iz prejšnjega odstavka je na vpogled na Ministrstvu za okolje in prostor,
 – med Zanigradom in Podpečjo, ki vodi ob vznožju stene Škrljevice,<br />
 – iz Podpeči na Vrh stene ter plezalno pot iz Podpeči na Vrh stene,<br />
 – pod zahodnim delom sten Velega Badina in Kroga ter plezalno pot čez steno.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu RS in velja eno leto.</p>
 <p>Št. 354-09-22/98</p>
 <p>Ljubljana, dne 23. marca 1999.</p>
@@ -62,5 +75,36 @@ za okolje in prostor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-04-02", "kratica": "ODRE396", "naziv": "Odredba o prepovedi vznemirjanja zavarovanih vrst ptic v stenah na območju Kraškega roba", "url": "/trubar/si/ODRE396/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

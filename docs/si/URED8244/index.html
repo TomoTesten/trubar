@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2021-01-0642" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED8244.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED8244" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED8244.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED8244,vrsta:uredba">
+    
     <h1>Uredba o podelitvi rudarske pravice za izkoriščanje mineralne surovine tehnični kamen – dolomit v pridobivalnem prostoru Brinjeva gora v Občini Oplotnica</h1>
 <p>Na podlagi prvega odstavka 35. člena Zakona o rudarstvu (Uradni list RS, št. 14/14 – uradno prečiščeno besedilo in 61/17 – GZ) Vlada Republike Slovenije izdaja</p>
 <p>U R E D B O</p>
@@ -178,5 +191,36 @@ pridobitev okoljevarstvenega soglasja ali sklepa v predhodnem postopku na podlag
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2021-03-05", "kratica": "URED8244", "naziv": "Uredba o podelitvi rudarske pravice za izkoriščanje mineralne surovine tehnični kamen – dolomit v pridobivalnem prostoru Brinjeva gora v Občini Oplotnica", "url": "/trubar/si/URED8244/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

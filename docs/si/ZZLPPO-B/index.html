@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4105" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZLPPO-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZZLPPO-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZLPPO-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZZLPPO-B,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o zaključku lastninjenja in privatizaciji pravnih oseb v lasti Slovenske razvojne družbe</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBI ZAKONA O ZAKLJUČKU  LASTNINJENJA IN PRIVATIZACIJI PRAVNIH OSEB V LASTI SLOVENSKE RAZVOJNE DRUŽBE (ZZLPPO-B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o zaključku lastninjenja in privatizaciji pravnih oseb v lasti Slovenske razvojne družbe (Uradni list RS, št. 30/98, 72/98 – odločba US, 12/99 in 50/99) se 51. člen spremeni, tako da se glasi:</p>
 <h3>“51. člen</h3>
 <h3>(zavrnjene zahteve za denacionalizacijo)</h3>
@@ -62,7 +75,7 @@ Milan Kučan l. r.</p>
 <p>– 20% za prenos pooblaščenim investicijskim družbam za certifikate;</p>
 <p>– 40% za uporabo v skladu s 14. členom tega zakona.</p>
 <p>(17) Slovenska razvojna družba prenese deleže kupnine na uporabnike iz prejšnjega odstavka tega člena v roku  30 dni, če ni za posamezne primere določeno drugače. Prenos na deleže kupnine pooblaščenim investicijskim družbam se izvede pri prvi prodaji premoženja za certifikate.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 300-01/97-27/32</p>
 <p>Ljubljana, dne 26. septembra 2001.</p>
@@ -78,5 +91,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-10-10", "kratica": "ZZLPPO-B", "naziv": "Zakon o spremembah in dopolnitvah zakona o zaključku lastninjenja in privatizaciji pravnih oseb v lasti Slovenske razvojne družbe", "url": "/trubar/si/ZZLPPO-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

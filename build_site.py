@@ -119,6 +119,28 @@ def render_toc(toc):
     return f'<nav class="toc"><strong>Členi:</strong> {items}</nav>'
 
 
+def build_version_history(front, kratica_idx):
+    """Return sorted list of {date, kratica, naziv, url} versions, oldest first."""
+    kratica = front.get("kratica") or ""
+    versions = [{
+        "date":   str(front.get("datum") or "")[:10],
+        "kratica": kratica,
+        "naziv":  front.get("naziv") or kratica,
+        "url":    f"{BASE}/si/{kratica}/",
+    }]
+    for a in (front.get("spremembe") or []):
+        ak = a.get("kratica") or ""
+        target = kratica_idx.get(ak, ak)
+        versions.append({
+            "date":    str(a.get("datum") or "")[:10],
+            "kratica": ak,
+            "naziv":   a.get("naziv") or ak,
+            "url":     f"{BASE}/si/{target}/",
+        })
+    versions.sort(key=lambda v: v["date"])
+    return versions
+
+
 def render_law_page(slug, front, body_md, kratica_idx, crosslink_re):
     body_md, toc = add_article_anchors(body_md)
     md.reset()
@@ -133,10 +155,15 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re):
     vir_url = front.get("vir") or ""
     vrsta   = front.get("vrsta") or ""
     gh_url  = f"{GH_BLOB}/si/{slug}.md"
+    gh_history_url = f"https://github.com/TomoTesten/trubar/commits/master/si/{slug}.md"
 
     vir_row = f'<dt>Vir</dt><dd><a href="{htmllib.escape(vir_url)}" target="_blank">Uradni list RS</a></dd>' if vir_url else ""
 
-    # Amendment list
+    # Version history for date picker
+    versions = build_version_history(front, kratica_idx)
+    versions_json = json.dumps(versions, ensure_ascii=False)
+
+    # Amendment list with diff links
     amendments = front.get("spremembe") or []
     amend_html = ""
     if amendments:
@@ -145,10 +172,21 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re):
             ak = a.get("kratica") or ""
             an = a.get("naziv") or ak
             ad = str(a.get("datum") or "")
-            target = kratica_idx.get(ak)
-            link = f'<a href="{BASE}/si/{target}/">{htmllib.escape(ak)}</a>' if target else htmllib.escape(ak)
-            items.append(f'<li>{link} — {htmllib.escape(an)} ({ad})</li>')
-        amend_html = f'<section class="amendments"><h2>Spremembe</h2><ul>{"".join(items)}</ul></section>'
+            target = kratica_idx.get(ak, ak)
+            law_link = f'<a href="{BASE}/si/{target}/" class="amend-link">{htmllib.escape(ak)}</a>'
+            gh_diff  = f'<a href="https://github.com/TomoTesten/trubar/blob/master/si/{htmllib.escape(ak)}.md" class="diff-link" target="_blank" title="Besedilo spremembe na GitHubu">diff ↗</a>'
+            items.append(
+                f'<li><span class="amend-date">{ad}</span> '
+                f'{law_link} — {htmllib.escape(an)} {gh_diff}</li>'
+            )
+        amend_html = (
+            f'<section class="amendments">'
+            f'<h2>Kronologija sprememb '
+            f'<a href="{gh_history_url}" class="history-link" target="_blank" title="Celotna git zgodovina">git ↗</a>'
+            f'</h2><ul>{"".join(items)}</ul></section>'
+        )
+
+    compare_url = f"{BASE}/primerjaj/?a={htmllib.escape(kratica)}"
 
     return f"""<!DOCTYPE html>
 <html lang="sl">
@@ -173,8 +211,20 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re):
       {"<dt>Organ</dt><dd>" + htmllib.escape(organ) + "</dd>" if organ else ""}
       {vir_row}
     </dl>
-    <a href="{gh_url}" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="{compare_url}" class="btn-action">⇄ Primerjaj</a>
+      <a href="{gh_url}" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:{htmllib.escape(kratica)},vrsta:{htmllib.escape(vrsta)}">
     {toc_html}
@@ -187,6 +237,37 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re):
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){{
+  var versions = {versions_json};
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {{
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {{
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }}
+    return found;
+  }}
+  function update() {{
+    var d = input.value;
+    if (!d) {{ result.innerHTML = ''; return; }}
+    var v = findVersion(d);
+    if (!v) {{
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    }} else {{
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }}
+  }}
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) {{ input.value = params.get('date'); update(); }}
+}})();
+</script>
 </body>
 </html>"""
 
@@ -251,7 +332,7 @@ def render_index(stats):
 <body>
 <header class="index-header">
   <h1>T.R.U.B.A.R.</h1>
-  <p class="tagline">Transparentni Register Urejenih Besedil Aktov Republike</p>
+  <p class="tagline">Transparentni Register Urejenih Besedil Aktov Republike Slovenije</p>
   <p class="tagline-sub">Celoten slovenski pravni red — iskanje po besedilu, brskanje po zgodovini</p>
 </header>
 
@@ -434,9 +515,55 @@ a.law-ref:hover { background: #eaf3fb; }
 
 /* Amendments */
 .amendments { margin-top: 32px; padding-top: 16px; border-top: 1px solid #eee; }
-.amendments h2 { font-size: 1rem; color: #555; margin-bottom: 8px; }
+.amendments h2 { font-size: 1rem; color: #555; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
 .amendments ul { list-style: none; }
-.amendments li { padding: 4px 0; font-size: 0.9rem; border-bottom: 1px solid #f0f0f0; }
+.amendments li { padding: 5px 0; font-size: 0.9rem; border-bottom: 1px solid #f0f0f0; display: flex; align-items: baseline; gap: 6px; }
+.amend-date { color: #888; font-size: 0.8rem; min-width: 82px; }
+.amend-link { font-weight: 600; }
+.diff-link { font-size: 0.75rem; color: #888; border: 1px solid #ddd; border-radius: 3px; padding: 1px 5px; }
+.diff-link:hover { background: #f0f0f0; text-decoration: none; }
+.history-link { font-size: 0.75rem; color: #888; font-weight: 400; }
+
+/* Sidebar actions */
+.sidebar-actions { display: flex; flex-direction: column; gap: 6px; margin-top: 16px; }
+.btn-action {
+  display: block; padding: 7px 12px; border: 1px solid #ddd; border-radius: 4px;
+  background: #fff; color: #333; font-size: 0.85rem; cursor: pointer;
+  text-align: center; text-decoration: none;
+}
+.btn-action:hover { background: #f3f4f5; border-color: #3366cc; color: #3366cc; text-decoration: none; }
+
+/* Date picker */
+.date-picker-box {
+  margin-top: 16px; padding: 12px; background: #f8f9fa;
+  border: 1px solid #ddd; border-radius: 4px; font-size: 0.85rem;
+}
+.date-picker-box label { display: block; margin-bottom: 6px; }
+.date-picker-box input { width: 100%; padding: 5px 8px; border: 1px solid #ccc; border-radius: 3px; font-size: 0.85rem; }
+.date-note { margin-top: 8px; font-size: 0.82rem; color: #333; line-height: 1.5; }
+
+/* Compare page */
+.compare-container { max-width: 1400px; margin: 0 auto; padding: 16px; }
+.compare-controls { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 16px; margin-bottom: 16px; display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; }
+.compare-controls label { font-size: 0.85rem; font-weight: 600; }
+.compare-controls input { padding: 7px 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9rem; width: 180px; }
+.compare-btn { padding: 8px 20px; background: #3366cc; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.9rem; }
+.compare-btn:hover { background: #2a55b0; }
+.compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 800px) { .compare-grid { grid-template-columns: 1fr; } }
+.compare-pane { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 16px; overflow: auto; }
+.compare-pane h2 { font-size: 1rem; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #eee; }
+.compare-pane .law-body-inner { font-size: 0.9rem; line-height: 1.6; }
+
+/* Print styles */
+@media print {
+  header nav, .sidebar-actions, .date-picker-box, .toc, footer, .index-search { display: none !important; }
+  .law-container { display: block; }
+  .law-meta { border: none; padding: 0; margin-bottom: 12px; }
+  .law-body { border: none; padding: 0; box-shadow: none; }
+  a.law-ref { color: #000; border-bottom: none; }
+  .law-title { font-size: 1.2rem; }
+}
 
 /* Badges */
 .badge { padding: 2px 8px; border-radius: 3px; font-size: 0.8rem; font-weight: 600; }
@@ -562,6 +689,108 @@ def main():
     # ── Index ───────────────────────────────────────────────────────────────
     (DOCS_DIR / "index.html").write_text(render_index(stats), "utf-8")
     print("Generated index.html")
+
+    # ── Compare page ────────────────────────────────────────────────────────
+    (DOCS_DIR / "primerjaj").mkdir(exist_ok=True)
+    kratice_list = sorted(kratica_idx.keys())
+    kratice_json = json.dumps(kratice_list, ensure_ascii=False)
+    compare_page = f"""<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Primerjava zakonov — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="{BASE}/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="{BASE}/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Primerjava predpisov</h1>
+</header>
+<div class="compare-container">
+  <div class="compare-controls">
+    <div>
+      <label>Predpis A (kratica)</label><br>
+      <input type="text" id="inp-a" placeholder="npr. ZKP" list="kratice-list">
+    </div>
+    <div>
+      <label>Predpis B (kratica)</label><br>
+      <input type="text" id="inp-b" placeholder="npr. ZUP" list="kratice-list">
+    </div>
+    <button class="compare-btn" onclick="compare()">Primerjaj</button>
+  </div>
+  <datalist id="kratice-list"></datalist>
+  <div id="compare-status" style="padding:8px;color:#555;font-size:.9rem;"></div>
+  <div class="compare-grid" id="compare-grid" style="display:none">
+    <div class="compare-pane" id="pane-a"></div>
+    <div class="compare-pane" id="pane-b"></div>
+  </div>
+</div>
+<footer>
+  <a href="{BASE}/">Domov</a> · CC0 · <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+var kratice = {kratice_json};
+var dl = document.getElementById('kratice-list');
+kratice.forEach(function(k) {{
+  var opt = document.createElement('option'); opt.value = k; dl.appendChild(opt);
+}});
+
+// Pre-fill from query params
+var params = new URLSearchParams(window.location.search);
+if (params.get('a')) document.getElementById('inp-a').value = params.get('a');
+if (params.get('b')) document.getElementById('inp-b').value = params.get('b');
+if (params.get('a') && params.get('b')) compare();
+
+function setStatus(msg) {{ document.getElementById('compare-status').textContent = msg; }}
+
+function fetchLawText(kratica) {{
+  var url = '{BASE}/si/' + kratica + '/';
+  return fetch(url)
+    .then(function(r) {{
+      if (!r.ok) throw new Error('Napaka pri nalaganju ' + kratica);
+      return r.text();
+    }})
+    .then(function(html) {{
+      var dp = new DOMParser();
+      var doc = dp.parseFromString(html, 'text/html');
+      var title = (doc.querySelector('h1.law-title') || {{}}).textContent || kratica;
+      var body  = doc.querySelector('article.law-body');
+      // Remove TOC and amendments for cleaner comparison
+      if (body) {{
+        var toc = body.querySelector('.toc');
+        if (toc) toc.remove();
+        var amend = body.querySelector('.amendments');
+        if (amend) amend.remove();
+      }}
+      return {{ title: title, html: body ? body.innerHTML : '<p>Besedilo ni na voljo.</p>' }};
+    }});
+}}
+
+function compare() {{
+  var a = document.getElementById('inp-a').value.trim().toUpperCase();
+  var b = document.getElementById('inp-b').value.trim().toUpperCase();
+  if (!a || !b) {{ setStatus('Vnesite obe kratici.'); return; }}
+  // Update URL
+  history.replaceState(null,'','{BASE}/primerjaj/?a=' + a + '&b=' + b);
+  setStatus('Nalagam ' + a + ' in ' + b + '...');
+  document.getElementById('compare-grid').style.display = 'none';
+  Promise.all([fetchLawText(a), fetchLawText(b)])
+    .then(function(results) {{
+      var pa = document.getElementById('pane-a');
+      var pb = document.getElementById('pane-b');
+      pa.innerHTML = '<h2>' + results[0].title + '</h2><div class="law-body-inner">' + results[0].html + '</div>';
+      pb.innerHTML = '<h2>' + results[1].title + '</h2><div class="law-body-inner">' + results[1].html + '</div>';
+      document.getElementById('compare-grid').style.display = 'grid';
+      setStatus('');
+    }})
+    .catch(function(e) {{ setStatus('Napaka: ' + e.message + '. Preverite kratici.'); }});
+}}
+</script>
+</body>
+</html>"""
+    (DOCS_DIR / "primerjaj" / "index.html").write_text(compare_page, "utf-8")
+    print("Generated primerjaj/index.html")
 
     print("\nDone. Now run:")
     print("  npx pagefind --site docs --output-path docs/_pagefind")

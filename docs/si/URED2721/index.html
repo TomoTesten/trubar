@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5888" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2721.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2721" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2721.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2721,vrsta:uredba">
+    
     <h1>Uredba o valorizaciji katastrskega dohodka in o določitvi količnika za valorizacijo katastrskega dohodka za leto 2003</h1>
 <p>Na podlagi 7.b člena zakona o ugotavljanju katastrskega dohodka (Uradni list SRS, št. 23/76 in 24/88 ter Uradni list RS, št. 110/99) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o valorizaciji katastrskega dohodka in o določitvi količnika za valorizacijo katastrskega dohodka za leto 2003</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta uredba določa valorizacijo katastrskega dohodka in količnik za valorizacijo katastrskega dohodka za leto 2003.<br />
 Količnik za valorizacijo katastrskega dohodka se ugotovi na podlagi cen, ki jih je ugotovil Statistični urad Republike Slovenije, in sicer:<br />
 – za pridelke in prirastek lesne mase: na podlagi poprečnih odkupnih cen iz leta 2001, valoriziranih s količnikom, ugotovljenim na podlagi poprečne letne stopnje rasti teh cen v letu 2000 in 2001;<br />
 – za materialne stroške: na podlagi poprečnih nabavnih cen iz leta 2001, valoriziranih s količnikom, ugotovljenim na podlagi rasti teh cen v letu 2000 in 2001.<br />
 Katastrski dohodek, ugotovljen z lestvicami katastrskega dohodka iz 1. člena odloka o potrditvi lestvic katastrskega dohodka (Uradni list SRS, št. 38/89 ter Uradni list RS, št. 89/98 in 110/99), s 1. členom odloka o valorizaciji katastrskega dohodka in o določitvi količnika za valorizacijo katastrskega dohodka (Uradni list SRS, št. 42/89, Uradni list RS, št. 47/90, 33/91-I in Uradni list RS, št. 62/92 in 89/98) in 1. členom uredbe o valorizaciji katastrskega dohodka in o določitvi količnika za valorizacijo katastrskega dohodka (Uradni list RS, št. 72/93 in 89/98) se v vseh katastrskih okrajih za vse katastrske kulture valorizira s količnikom 1,06.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 422-14/2002-1</p>
 <p>Ljubljana, dne 30. decembra 2002.</p>
@@ -50,5 +63,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-12-30", "kratica": "URED2721", "naziv": "Uredba o valorizaciji katastrskega dohodka in o določitvi količnika za valorizacijo katastrskega dohodka za leto 2003", "url": "/trubar/si/URED2721/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

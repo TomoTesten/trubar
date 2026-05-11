@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0290" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE272.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE272" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE272.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE272,vrsta:odredba">
+    
     <h1>Odredba o spremembah in dopolnitvah odredbe o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu</h1>
 <p>Na podlagi prvega odstavka 115. člena zakona o davčnem postopku (Uradni list RS, št. 18/96) in 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95 – odl. US in 29/95) izdaja minister za finance</p>
 <h2>O D R E D B O</h2>
 <p>o spremembah in dopolnitvah odredbe o obrazcih  za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V navodilu za predložitev podatkov iz obrazcev REK-1, REK-1a, REK-1b in REK-2 v računalniški obliki, ki je sestavni del odredbe o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu (Uradni list RS, št. 77/96) se:<br />
 1. v tabeli 1: struktura datoteke REK-11.DAT:<br />
 – za zap. št. 14 doda polje: pod zap. št. “15”, pod pozicijo “15”, pod dolžino polja “13+2”, pod poravnavo “D”, pod opis polja “osnova IV (osnova za davek od osebnih prejemkov) s stotini (999999999999999)”,<br />
@@ -47,7 +60,7 @@
 – pri zap. št. 3 pozicija “29-34” nadomesti z “29-33”,<br />
 – pri zap. št. 4 pozicija “35-47” nadomesti s “34-46”,<br />
 – pri zap. št. 5 pozicija “48-60” nadomesti s “47-59”.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 416-116/96</p>
 <p>Ljubljana, dne 24. januarja 1997.</p>
@@ -62,5 +75,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-01-31", "kratica": "ODRE272", "naziv": "Odredba o spremembah in dopolnitvah odredbe o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu", "url": "/trubar/si/ODRE272/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

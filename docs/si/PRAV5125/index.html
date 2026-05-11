@@ -21,20 +21,33 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3556" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5125.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5125" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5125.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5125,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o programu posebnega dela izpita za zdravstvenega inšpektorja</h1>
 <p>Na podlagi 8. člena zakona o zdravstveni inšpekciji (Uradni list RS, št. 99/99) izdaja minister za zdravje</p>
 <h2>P R A V I L N I K</h2>
 <p>o programu posebnega dela izpita<br />
 za zdravstvenega inšpektorja</p>
 <h3>I. SPLOŠNA DOLOČBA</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa program posebnega dela izpita za zdravstvenega inšpektorja (v nadaljnjem besedilu: izpit).</p>
 <h3>II. PROGRAM IZPITA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Posebni del izpita obsega preverjanje znanja oziroma poznavanja predpisov z delovnega področja Zdravstvenega inšpektorata Republike Slovenije, in sicer nadzor nad izvajanjem zakonov in drugih predpisov, ki urejajo področja:<br />
 – nalezljivih bolezni;<br />
 – zdravstvene ustreznosti oziroma varnosti živil oziroma hrane;<br />
@@ -49,11 +62,11 @@ za zdravstvenega inšpektorja</p>
 – minimalnih sanitarno zdravstvenih pogojev v javnih zdravstvenih zavodih, pri pravnih in fizičnih osebah, ki opravljajo zdravstveno dejavnost, v dejavnostih na področju otroškega varstva, vzgoje, izobraževanja, gostinstva, turizma, higienske nege, sociale, zdravstveno higienskega stanja začasnih bivališč ob naravnih nesrečah in evakuacijah;<br />
 – splošne varnosti proizvodov v pristojnosti Ministrstva za zdravje, razen kemikalij, zdravil, medicinskih pripomočkov in virov sevanj;<br />
 – odpadkov, ki nastanejo pri opravljanju zdravstvene dejavnosti.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Podrobnejši seznam zakonov in drugih predpisov za posamezno področje, pregled pravnih virov in druge študijske literature pripravi Zdravstveni inšpektorat Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Kandidat opravlja posebni del izpita iz vseh področij iz 2. člena tega pravilnika.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0220-35/2003</p>
 <p>Ljubljana, dne 15. julija 2003.</p>
@@ -69,5 +82,36 @@ za zdravje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-07-29", "kratica": "PRAV5125", "naziv": "Pravilnik o programu posebnega dela izpita za zdravstvenega inšpektorja", "url": "/trubar/si/PRAV5125/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-02-0061" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/BHRUV.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=BHRUV" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/BHRUV.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:BHRUV,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji sporazuma med Vlado Republike Slovenije in Vlado Republike Hrvaške o ukinitvi vizumov</h1>
 <p>Na podlagi prvega odstavka 107. člena ustave Republike Slovenije izdaja Predsedstvo Republike Slovenije</p>
 <h2>UKAZ</h2>
@@ -36,9 +49,9 @@
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>O RATIFIKACIJI SPORAZUMA MED VLADO REPUBLIKE SLOVENIJE IN VLADO REPUBLIKE HRVAŠKE O UKINITVI VIZUMOV</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se sporazum med Vlado Republike Slovenije in Vlado Republike Hrvaške o ukinitvi vizumov, sklenjen z izmenjavo not z dne 7. aprila in 15. maja 1992.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sporazum se v izvirniku v slovenskem in hrvaškem jeziku glasi:<br />
 Štev.: 921-08/92</p>
 <h2>VERBALNA NOTA</h2>
@@ -129,9 +142,9 @@ Ministarstvo inozemnih poslova Republike Hrvatske koristi i ovu priliku da Minis
 Ministarstvo inozemnih poslova<br />
 Republike Slovenije<br />
 Ljubljana</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Ministrstvo za notranje zadeve.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 213-03/92-9/1-1</p>
 <p>Ljubljana, dne 29. julija 1992.</p>
@@ -147,5 +160,36 @@ dr. France Bučar l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-08-14", "kratica": "BHRUV", "naziv": "Zakon o ratifikaciji sporazuma med Vlado Republike Slovenije in Vlado Republike Hrvaške o ukinitvi vizumov", "url": "/trubar/si/BHRUV/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

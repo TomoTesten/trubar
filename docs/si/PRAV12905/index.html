@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Ministrstvo za delo, družino, socialne zadeve in enake možnosti</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2016-01-2986" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12905.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV12905" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12905.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV12905,vrsta:pravilnik">
+    
     <h1>Pravilnik o sofinanciranju socialnovarstvenih programov</h1>
 <p>Na podlagi osmega odstavka 18.s člena Zakona o socialnem varstvu (Uradni list RS, št. 3/07 – uradno prečiščeno besedilo, 23/07 – popr., 41/07 – popr., 114/06 – <a href="/trubar/si/ZUTPG/" class="law-ref" title="ZUTPG">ZUTPG</a>, 61/10 – <a href="/trubar/si/ZSVarPre/" class="law-ref" title="ZSVarPre">ZSVarPre</a>, 62/10 – <a href="/trubar/si/ZUPJS/" class="law-ref" title="ZUPJS">ZUPJS</a>, 57/12, 39/16 in 52/16 – <a href="/trubar/si/ZPPreb-1/" class="law-ref" title="ZPPreb-1">ZPPreb-1</a>) ministrica za delo, družino, socialne zadeve in enake možnosti izdaja</p>
 <p>P R A V I L N I K</p>
@@ -184,5 +197,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2016-11-11", "kratica": "PRAV12905", "naziv": "Pravilnik o sofinanciranju socialnovarstvenih programov", "url": "/trubar/si/PRAV12905/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

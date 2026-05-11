@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Državni zbor RS</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1877" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO172.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO172" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO172.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO172,vrsta:odlok">
+    
     <h1>Odlok o spremembah odloka o sestavi in imenovanju Preiskovalne komisije Državnega zbora Republike Slovenije o vpletenosti nosilcev javnih funkcij v poskuse diskreditiranja slovenskih policistov in vojakov, ki so leta 1991 sodelovali v osamosvojitveni vojni na Koroškem</h1>
 <p>Na podlagi prvega, drugega in tretjega odstavka  6. člena poslovnika o parlamentarni preiskavi (Uradni list RS, št. 63/93), ob upoštevanju 3. člena zakona o parlamentarni preiskavi (Uradni list RS, št. 63/93) ter na podlagi četrte alinee drugega odstavka 48. člena in  172. člena poslovnika Državnega zbora Republike Slovenije, je Državni zbor Republike Slovenije na seji dne 13. maja 1999 sprejel</p>
 <h2>O D L O K</h2>
@@ -57,5 +70,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-05-21", "kratica": "ODLO172", "naziv": "Odlok o spremembah odloka o sestavi in imenovanju Preiskovalne komisije Državnega zbora Republike Slovenije o vpletenosti nosilcev javnih funkcij v poskuse diskreditiranja slovenskih policistov in vojakov, ki so leta 1991 sodelovali v osamosvojitveni vojni na Koroškem", "url": "/trubar/si/ODLO172/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Agencija za zavarovalni nadzor</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3836" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6091.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE6091" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6091.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE6091,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Sklep o spremembah in dopolnitvah sklepa o podrobnejših pravilih za izračun minimalnega kapitala zavarovalnic</h1>
 <p>Strokovni svet Agencije za zavarovalni nadzor na podlagi 4. točke 109. člena, 2. točke 139. člena, 140. člena, 2. točke 256. člena Zakona o zavarovalništvu (Uradni list RS, št. 102/04 – uradno prečiščeno besedilo in 76/05 – <a href="/trubar/si/ZZVZZ-H/" class="law-ref" title="ZZVZZ-H">ZZVZZ-H</a>) in 62.č člena Zakona o zdravstvenem varstvu in zdravstvenem zavarovanju (Uradni list RS, št. 20/04 – uradno prečiščeno besedilo, 62/05 – odl. US in 76/05) izdaja</p>
 <h2>S K L E P</h2>
 <p>o spremembah in dopolnitvah sklepa o podrobnejših pravilih za izračun minimalnega kapitala zavarovalnic</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V prvem odstavku 1. člena Sklepa o podrobnejših pravilih za izračun minimalnega kapitala zavarovalnic (Uradni list RS, št. 118/04, 6/05 in 47/05) se besedilo »(Uradni list RS, št. 13/00, 31/00 – <a href="/trubar/si/ZP-1/" class="law-ref" title="ZP-1">ZP-1</a>, 91/00 – popr., 21/02, 52/02 – <a href="/trubar/si/ZJA/" class="law-ref" title="ZJA">ZJA</a>, 29/03 – odl. US in 50/04)« nadomesti z besedilom »(Uradni list RS, 102/04 – uradno prečiščeno besedilo in 76/05 – <a href="/trubar/si/ZZVZZ-H/" class="law-ref" title="ZZVZZ-H">ZZVZZ-H</a>)«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 6. členom se doda nov 6.a člen, ki se glasi:</p>
 <h3>»Dopolnilna zdravstvena zavarovanja</h3>
 <h3>6.a člen</h3>
@@ -45,12 +58,12 @@
 – za obračunska leta pred zadnjim obračunskim letom: zneski, ki jih je zavarovalnica iz naslova obveznosti oziroma iz naslova terjatev na osnovi odločbe Ministrstva, pristojnega za zdravje, obračunala do izravnalne sheme.<br />
 (6) Zavarovalnica v postavkah iz četrtega odstavka tega člena upošteva znesek za izravnavo tudi, če Minister, pristojen za zdravje, v skladu z 62.h členom <a href="/trubar/si/ZZVZZ/" class="law-ref" title="ZZVZZ">ZZVZZ</a> ugotovi, da se izravnava ne opravi.<br />
 (7) Za potrebe trimesečnih poročil se v postavki »Obračunani kosmati zneski škod« smiselno upoštevajo drseči podatki, ki zajemajo obdobje enega leta, kot to določa peti odstavek tega člena.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Črta se sedmi odstavek 21. člena.<br />
 (2) Prejšnji osmi odstavek postane sedmi.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Zavarovalnica prvič izračuna kapitalske zahteve v skladu s tem sklepom po stanju na dan 31. 12. 2005.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta sklep začne veljati 1. novembra 2005.</p>
 <p>Ljubljana, dne 5. oktober 2005.</p>
 <p>Predsednik<br />
@@ -65,5 +78,36 @@ dr. Mihael Perman l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-10-07", "kratica": "SKLE6091", "naziv": "Sklep o spremembah in dopolnitvah sklepa o podrobnejših pravilih za izračun minimalnega kapitala zavarovalnic", "url": "/trubar/si/SKLE6091/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

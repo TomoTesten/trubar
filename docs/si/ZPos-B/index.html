@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3849" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPos-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPos-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPos-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPos-B,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah zakona o poslancih</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -38,16 +51,16 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH ZAKONA O POSLANCIH (ZPos-B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o poslancih (Uradni list RS, št. 24/05 – uradno prečiščeno besedilo) se v prvem odstavku 13. člena beseda "tretjine" nadomesti z besedo "petine".</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
 <h3>"25. člen</h3>
 <p>Poslanec ima za čas letnega dopusta pravico do nadomestila plače v višini plače.</p>
 <p>Delodajalec poslancu za zadržanost z dela zaradi bolezni ali poškodbe, ki ni povezana z delom, izplačuje nadomestilo plače v višini 80% plače poslanca v preteklem mesecu, in sicer do 30 delovnih dni za posamezno odsotnost z dela, vendar največ za 120 delovnih dni v koledarskem letu.".</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 020-02/92-23/48</p>
 <p>Ljubljana, dne 28. septembra 2005</p>
@@ -64,5 +77,36 @@ France Cukjati, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-10-10", "kratica": "ZPos-B", "naziv": "Zakon o spremembah zakona o poslancih", "url": "/trubar/si/ZPos-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,22 +21,35 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0070" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9537.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE9537" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9537.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE9537,vrsta:sklep">
+    
     <h1>Sklep o spremembi in dopolnitvah Sklepa o upravljanju s tveganji in izvajanju procesa ocenjevanja ustreznega notranjega kapitala za banke in hranilnice</h1>
 <p>Na podlagi 9. točke 129. člena Zakona o bančništvu (Uradni list RS, št. 99/10 – uradno prečiščeno besedilo (52/11 – popravek), 9/11 – <a href="/trubar/si/ZPlaSS-B/" class="law-ref" title="ZPlaSS-B">ZPlaSS-B</a>, 35/11, 59/11, 85/11, 48/12 in 105/12) ter prvega odstavka 31. člena Zakona o Banki Slovenije (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo in 59/11) izdaja Svet Banke Slovenije</p>
 <h2>S K L E P</h2>
 <p>o spremembi in dopolnitvah Sklepa o upravljanju s tveganji in izvajanju procesa ocenjevanja ustreznega notranjega kapitala za banke in hranilnice</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Sklepu o upravljanju s tveganji in izvajanju procesa ocenjevanja ustreznega notranjega kapitala za banke in hranilnice (Uradni list RS, št. 135/06, 28/07, 104/07, 85/10 in 62/11) se v Prilogi I (Splošni standardi upravljanja s kreditnim tveganjem) v pododdelku 2.1.1. (Proces odobritve kredita) za četrtim odstavkom doda nov peti odstavek, ki se glasi:<br />
 »(5) Banka mora pri sklepanju kreditne pogodbe presoditi ustreznost pogodbenih zavez, ki jih bo vsebovala pogodba. Pogodbene zaveze morajo biti jasne. Pri presoji ustreznosti posameznih pogodbenih zavez banka med drugim upošteva vrsto in vrednost posla, vrsto in oceno tveganosti dolžnika, potrebne informacije o dolžniku ter pogodbeno pravo. Če banka v pogodbo ni mogla vključiti vseh pogodbenih zavez, ki jih običajno uporablja, mora razloge za to navesti v kreditni mapi.«.<br />
 V pododdelku 2.1.2. (Proces spremljave kredita) se prvi odstavek spremeni tako, da se glasi:<br />
 »(1) Proces spremljave vključuje spremljavo posameznega kredita, dolžnika, zavarovanj in pogodbenih zavez.«.<br />
 Za petim odstavkom se doda nov šesti odstavek, ki se glasi:<br />
 »(6) Banka mora zagotoviti spremljavo izvrševanja pogodbenih zavez ter evidentirati njihove morebitne kršitve. Spremljati mora tudi izvrševanje pogodbenih sankcij v primeru kršitev pogodbenih zavez.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne 1. marca 2013.</p>
 <p>Ljubljana, dne 4. januarja 2013</p>
 <p>mag. Janez Fabijan l.r.<br />
@@ -50,5 +63,36 @@ Sveta Banke Slovenije</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-01-11", "kratica": "SKLE9537", "naziv": "Sklep o spremembi in dopolnitvah Sklepa o upravljanju s tveganji in izvajanju procesa ocenjevanja ustreznega notranjega kapitala za banke in hranilnice", "url": "/trubar/si/SKLE9537/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

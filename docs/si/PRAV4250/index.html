@@ -21,22 +21,35 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3277" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4250.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV4250" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4250.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV4250,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o podrobnejših lastnostih naložb premoženja Prvega pokojninskega sklada ter o podrobnejših pravilih za razpršitev teh naložb in njihovo usklajenost</h1>
 <p>Na podlagi 2. točke 22. člena zakona o Prvem pokojninskem skladu RS in preoblikovanju pooblaščenih investicijskih družb (Uradni list RS, št. 50/99) izdaja minister za finance v soglasju z ministrom za delo, družino in socialne zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika  o podrobnejših lastnostih naložb premoženja  Prvega pokojninskega sklada ter o podrobnejših pravilih za razpršitev teh naložb in njihovo  usklajenost</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o podrobnejših lastnostih naložb premoženja Prvega pokojninskega sklada ter o podrobnejših pravilih za razpršitev teh naložb in njihovi usklajenosti (Uradni list RS, št. 51/00) se 2. točka prvega odstavka 4. člena spremeni tako, da se glasi:<br />
 »2. vrednostni papirji in enostranska oblikovalna upravičenja, s katerimi se trguje na organiziranem trgu vrednostnih papirjev v Republiki Sloveniji;«.<br />
 Za 2. točko se doda nova, 3. točka, ki se glasi:<br />
 »3. vrednostni papirji, s katerimi se trguje na organiziranem trgu vrednostnih papirjev v državi članici EU ali državi članici OECD;«.<br />
 Dosedanje 3., 4., 5., in 6. točka postanejo 4., 5., 6., in 7. točka.<br />
 V drugem odstavku se besedilo »4. točke« nadomesti z besedilom: »5. točke«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 438-26/02</p>
 <p>Anton Rop l. r.<br />
@@ -55,5 +68,36 @@ in socialne zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-08-02", "kratica": "PRAV4250", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o podrobnejših lastnostih naložb premoženja Prvega pokojninskega sklada ter o podrobnejših pravilih za razpršitev teh naložb in njihovo usklajenost", "url": "/trubar/si/PRAV4250/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

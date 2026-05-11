@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Ministrstvo za gospodarski razvoj in tehnologijo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2015-01-0386" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12263.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV12263" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12263.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV12263,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o izračunavanju in poročanju o stanju rezerv nafte in naftnih derivatov</h1>
 <p>Na podlagi drugega odstavka 21.e člena in tretjega odstavka 21.g člena Zakona o blagovnih rezervah (Uradni list RS, št. 96/09 – uradno prečiščeno besedilo in 83/12) izdaja minister za gospodarski razvoj in tehnologijo</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o izračunavanju in poročanju o stanju rezerv nafte in naftnih derivatov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o izračunavanju in poročanju o stanju rezerv nafte in naftnih derivatov (Uradni list RS, št. 102/12) se prva točka 2. člena spremeni tako, da se glasi:<br />
 »1. rezerve nafte in naftnih derivatov: rezerve nafte in naftnih derivatov naslednjih energetskih proizvodov: surova nafta, NGL, petrokemične surovine, drugi ogljikovodiki, plin iz rafinerije (neutekočinjeni), etan, UNP, primarni bencin, motorni bencin, letalski bencin, bencinsko reaktivno gorivo (petrolejsko reaktivno gorivo ali JP4), kerozinsko reaktivno gorivo, drugi kerozin, plinsko olje/dizelsko gorivo (destilat kurilnega olja), transportno dizelsko gorivo, plinsko olje za ogrevanje in drugo plinsko olje (z nizko in visoko vsebnostjo žvepla), beli špirit in SBP, maziva, bitumen, parafinske voske, petrolkoks, aditivi in biogorivo;«.<br />
 Za 5. točko se dodajo nove 6., 7. in 8. točka, ki se glasijo:<br />
@@ -37,13 +50,13 @@ Za 5. točko se dodajo nove 6., 7. in 8. točka, ki se glasijo:<br />
 7. biogorivo: pomeni tekoče ali plinasto gorivo, ki se uporablja v prometu in je proizvedeno iz biomase, pri čemer je biomasa biološko razgradljivi del izdelkov, odpadkov in ostankov v kmetijstvu (vključno z rastlinskimi in živalskimi snovmi), v gozdarstvu in s tem povezanih industrijskih vejah ter biološko razgradljivi del industrijskih in komunalnih odpadkov;<br />
 8. fizična dostopnost: ureditev za namestitev in prevoz rezerv, da se zagotovi njihovo dajanje v promet ali učinkovita dobava končnim uporabnikom in trgom v rokih in razmerah, ki spodbujajo blažitev morebitnih težav pri oskrbi;«.<br />
 Dosedanja 6. točka postane 9. točka.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za osmim odstavkom 6. člena se doda nov deveti odstavek, ki se glasi:<br />
 »(9) Če se posebne rezerve hranijo manj kakor 30 dni, se pri izračunu ravni obveznih rezerv naftnih derivatov zagotovi, da je vsaj ena tretjina vzdrževane ravni rezerv v obliki derivatov, sestavljenih v skladu s prvim odstavkom 7. člena tega pravilnika.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V osmem odstavku 7. člena se v prvem stavku za besedama »razpoložljivosti in« doda beseda »fizične«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-205/2014</p>
 <p>Ljubljana, dne 16. februarja 2015</p>
@@ -59,5 +72,36 @@ za gospodarski razvoj in tehnologijo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2015-02-20", "kratica": "PRAV12263", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o izračunavanju in poročanju o stanju rezerv nafte in naftnih derivatov", "url": "/trubar/si/PRAV12263/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0677" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZLS-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZLS-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZLS-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZLS-B,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi</h1>
 <p>Na podlagi 3. člena in 56. člena zakona o referendumu in o ljudski iniciativi (Uradni list RS, št. 15/94) in statuta Krajevne skupnosti Uršna sela je zbor krajanov Krajevne skupnosti Uršna sela na seji dne 18. 2. 1995 sprejel</p>
 <h2>S K L E P</h2>
 <p>o spremembi sklepa o uvedbi samoprispevka za območje Krajevne skupnosti Uršna sela</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Sklep o uvedbi samoprispevka za območje Krajevne skupnosti Uršna sela, objavljen v Uradnem listu RS, št. 38/94 se spremeni tako, da se črta tretja alinea 5. člena in nadomesti z naslednjim tekstom:<br />
 – zavezanci, ki prejemajo pokojnino, po stopnji 2 % od izplačane pokojnine.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta sklep začne veljati z dnem objave v Uradnem listu Republike Slovenije.</p>
 <p>Uršna sela, dne 18. februarja 1995.</p>
 <p>Predsednik<br />
@@ -46,5 +59,36 @@ Matija Zamida l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-03-10", "kratica": "ZLS-B", "naziv": "Zakon o spremembah in dopolnitvah zakona o lokalni samoupravi", "url": "/trubar/si/ZLS-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

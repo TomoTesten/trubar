@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2513" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8342.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV8342" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8342.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV8342,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o izvajanju Zakona o davčnem postopku</h1>
 <p>Na podlagi 14., 17., 36., 37., 51., 57., 61., 79., 101., 102., 124., 138., 152., 207., 266., 297. in 358. člena Zakona o davčnem postopku (Uradni list RS, št. 117/06) in drugega odstavka 37. člena Zakona o carinski službi (Uradni list RS, št. 103/04 – uradno prečiščeno besedilo in 113/05 – <a href="/trubar/si/ZJU-B/" class="law-ref" title="ZJU-B">ZJU-B</a>) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o izvajanju Zakona o davčnem postopku</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o izvajanju Zakona o davčnem postopku (Uradni list RS, št. 141/06) se za 23. členom doda nov tretji A. del, ki se glasi:</p>
 <h3>»TRETJI A. DEL</h3>
 <p>PRIMERI, V KATERIH SE PLAČILA ZA DOBAVLJENO BLAGO IN OPRAVLJENE STORITVE NE NAKAZUJEJO NA TRANSAKCIJSKE RAČUNE</p>
@@ -46,11 +59,11 @@
 9. sredstev, v primeru neplačila z zastavno pravico zavarovane terjatve iz naslova investicijskih kuponov vzajemnega sklada.<br />
 (2) V primeru, ko je oseba iz prvega odstavka 36. člena <a href="/trubar/si/ZDavP-2/" class="law-ref" title="ZDavP-2">ZDavP-2</a> fizična oseba, ki opravlja dejavnost, plačila za dobavljeno blago in opravljene storitve ni dolžna nakazati na transakcijski račun pravne osebe ali fizične osebe, ki opravlja dejavnost, če posamično plačilo ne presega 420 eurov.<br />
 (3) V primeru, ko je izplačevalec dohodka pravna oseba, plačila za dobavljeno blago in opravljene storitve, ki jih izplačuje, ni dolžna nakazati na transakcijski račun pravne osebe ali fizične osebe, ki opravlja dejavnost, če posamično plačilo ne presega 420 eurov.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugi alineji 77. člena se besedilo »z Direktivo Komisije 2004/79/ES z dne 4. marca 2004 o prilagoditvi Direktive 2002/94/ES na področju davkov ob pristopu Češke republike, Estonije, Cipra, Latvije, Litve, Madžarske, Malte, Poljske, Slovenije in Slovaške (UL L št. 168 z dne 1. 5. 2004, str. 68)« nadomesti z besedilom »z Direktivo Komisije 2006/84/ES z dne 23. oktobra 2006 o prilagoditvi Direktive 2002/94/ES o določitvi podrobnih pravil za izvajanje nekaterih določb Direktive Sveta 76/308/EGS o vzajemni pomoči pri izterjavi terjatev v zvezi z prelevmani, davki in drugimi ukrepi zaradi pristopa Bolgarije in Romunije (UL L št. 362 z dne 20. 12. 2006, str. 99)«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Obrazec, objavljen v Prilogi 18 Pravilnika o izvajanju Zakona o davčnem postopku (Uradni list RS, št. 141/06), se nadomesti z obrazcem, ki je priloga tega pravilnika in je njegov sestavni del.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-41/2007/16</p>
 <p>Ljubljana, dne 9. maja 2007</p>
@@ -67,5 +80,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-05-29", "kratica": "PRAV8342", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o izvajanju Zakona o davčnem postopku", "url": "/trubar/si/PRAV8342/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Združenje za trgovino</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0455" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6854.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV6854" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6854.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV6854,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o stopnjah običajnega odpisa blaga (kalo, razsip, razbitje, okvara)</h1>
 <p>Na podlagi 3. točke 15. člena Pravilnika o izvajanju zakona o davku na dodano vrednost (Uradni list RS, št. 17/04, 45/04, 84/04 in 122/04), 31. člena statuta Gospodarske zbornice Slovenije in 6. člena Pravil GZS – Združenja za trgovino je Upravni odbor Združenja za trgovino na seji z dne 9. 2. 2005 sprejel</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o stopnjah običajnega odpisa blaga (kalo, razsip, razbitje, okvara)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 2. členu Pravilnika o stopnjah običajnega odpisa blaga – kalo, razsip, razbitje, okvara (Uradni list RS, št. 53/99, 101/99, 113/00, 78/01 in 117/02) se številka »51.6« nadomesti s številko »51.8« in številka »51.7« nadomesti s številko »51.9«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V Pravilniku o stopnjah običajnega odpisa blaga – kalo, razsip, razbitje, okvara (Uradni list RS, št. 53/99, 101/99, 113/00, 78/01 in 117/02) se tabela 6. člena spremeni tako, da se:<br />
 – 3. točka pod TRGOVINA NA DEBELO – A) Trgovina na DEBELO S SADJEM IN ZELENJAVO spremeni tako, da se glasi:<br />
 »hitro pokvarljive vrste: vse vrste jagodičevja, smokve, češnje, sveže gozdne gobe ipd. 8,00%«<br />
@@ -55,7 +68,7 @@
 – akvarijske in ribniške rastline 10%«,<br />
 – pod TRGOVINA NA DROBNO se:<br />
 »dosedanja točka F) Trgovina na drobno s tekstilom spremeni v točko H) Trgovina na drobno s tekstilom in dosedanja točka G) Diskontne in cash &amp; carry prodajalne spremeni v točko (I) Diskontne in cash &amp; carry prodajalne«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Predsednik<br />
 Združenja za trgovino<br />
@@ -68,5 +81,36 @@ Stanislav Brodnjak, univ. dipl. prav. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-02-18", "kratica": "PRAV6854", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o stopnjah običajnega odpisa blaga (kalo, razsip, razbitje, okvara)", "url": "/trubar/si/PRAV6854/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

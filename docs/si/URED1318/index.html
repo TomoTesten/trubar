@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3206" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1318.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1318" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1318.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1318,vrsta:uredba">
+    
     <h1>Uredba o spremembi uredbe o določitvi letnih povračil za uporabo cest, ki jih plačujejo uporabniki cest za cestna motorna vozila in priklopna vozila</h1>
 <p>Na podlagi prvega in drugega odstavka 11. člena zakona o javnih cestah (Uradni list RS, št. 29/97) Vlada Republike Slovenije izdaja</p>
 <h2>U R E D B O</h2>
 <p>o spremembi uredbe o določitvi letnih povračil za uporabo cest, ki jih plačujejo uporabniki  cest za cestna motorna vozila  in priklopna vozila</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o določitvi letnih povračil za uporabo cest, ki jih plačujejo uporabniki cest za cestna motorna vozila in priklopna vozila (Uradni list RS, št. 48/98, 55/99 in 14/00) se 2. člen spremeni tako, da se glasi:</p>
 <p>“Višina letnega povračila za uporabo cest se za posamezne vrste motornih vozil in priklopnih vozil določi glede na naslednja merila in znaša za:</p>
 <ol>
@@ -188,7 +201,7 @@ Prevoz s skupino vozil iz 8. in 10. točke tega člena, ki presega dimenzije, ma
 Po tej točki se letno povračilo plačuje tudi za tovorno specialno vozilo za prevoz čebel, za prevoz konj, za dviganje vozil (pajk, vozila za prevoz poškodovanih vozil) ter za potujočo prodajalno, potujočo knjižnico in zabaviščno vozilo (luna park);<br />
 12. delovno priklopno vozilo, ne glede na skupno maso vozila, 1.120 tolarjev.<br />
 Po tej točki se letno povračilo plačuje tudi za specialno tovorno priklopno vozilo za prevoz čebel, za prevoz konj, za dvigovanje in prevoz poškodovanih vozil ter za potujočo prodajalno, potujočo knjižnico, zabaviščno priklopno vozilo (luna park) in bivalno priklopno vozilo.“.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se od 1. avgusta 2000.</p>
 <p>Št. 425-00/98-8</p>
 <p>Ljubljana, dne 27. julija 2000.</p>
@@ -203,5 +216,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-07-28", "kratica": "URED1318", "naziv": "Uredba o spremembi uredbe o določitvi letnih povračil za uporabo cest, ki jih plačujejo uporabniki cest za cestna motorna vozila in priklopna vozila", "url": "/trubar/si/URED1318/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

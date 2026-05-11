@@ -21,22 +21,35 @@
       <dt>Organ</dt><dd>Agencija za trg vrednostnih papirjev</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-0111" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6812.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE6812" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6812.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE6812,vrsta:sklep">
+    
     <h1>Sklep o obveščanju o spremembah deležev</h1>
 <p>Na podlagi tretjega odstavka 10. člena Zakona o prevzemih (Uradni list RS, št. 79/06) Agencija za trg vrednostnih papirjev izdaja</p>
 <h2>S K L E P</h2>
 <p>o obveščanju o spremembah deležev</p>
 <h3>I. SPLOŠNA DOLOČBA</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta sklep določa način obveščanja in vsebino obvestila o deležu glasovalnih pravic iz prvega oziroma drugega odstavka 10. člena Zakona o prevzemih (v nadaljevanju <a href="/trubar/si/ZPre-1/" class="law-ref" title="ZPre-1">ZPre-1</a>).</p>
 <h3>II. NAČIN IN VSEBINA OBVEŠČANJA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Oseba iz prvega in drugega odstavka 10. člena <a href="/trubar/si/ZPre-1/" class="law-ref" title="ZPre-1">ZPre-1</a> (v nadaljevanju zavezanec za poročanje) je dolžna izdajatelja vrednostnih papirjev in Agencijo obvestiti o preseganju ali nehanju preseganja kvalificiranega deleža oziroma o vsaki pridobitvi ali odsvojitvi deleža glasovalnih pravic pisno, in sicer na obrazcu (KVAL) DEL. Obrazec (KVAL) DEL in navodila za njegovo izpolnjevanje so v Prilogi 1, ki je sestavni del tega sklepa.</p>
 <h3>III. KONČNA DOLOČBA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 232-3/2-18/2006</p>
 <p>Ljubljana, dne 20. decembra 2006</p>
@@ -109,5 +122,36 @@ podpis zavezanca za poročanje.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-01-12", "kratica": "SKLE6812", "naziv": "Sklep o obveščanju o spremembah deležev", "url": "/trubar/si/SKLE6812/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

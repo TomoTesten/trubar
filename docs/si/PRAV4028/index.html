@@ -21,27 +21,40 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5150" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4028.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV4028" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4028.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV4028,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o prvih meritvah in obratovalnem monitoringu odpadnih vod ter o pogojih za njegovo izvajanje</h1>
 <p>Na podlagi drugega odstavka 70. in 71. člena zakona o varstvu okolja (Uradni list RS, št. 32/93, 1/96, 9/99 – odl. US, 56/99 – zakon o ohranjanju narave, 22/00 – zakon o javnih skladih) izdaja minister za okolje in prostor</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o prvih meritvah in obratovalnem monitoringu odpadnih vod ter o pogojih za njegovo izvajanje</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o prvih meritvah in obratovalnem monitoringu odpadnih vod ter o pogojih za njegovo izvajanje (Uradni list RS, št. 35/96 in 29/00) se v 5. členu peti, šesti in sedmi odstavek spremenijo, tako da se glasijo:<br />
 »Dodatni parametri odpadne vode iz prvega odstavka tega člena za tehnološko odpadno vodo iz virov onesnaževanja so:<br />
 – parametri odpadne vode, za katere poseben predpis o emisiji snovi pri odvajanju odpadnih vod določa mejne vrednosti, in<br />
 – parametri, ki niso parametri iz prejšnje alinee, vendar so ti parametri za posamezni vir onesnaževanja določeni v prilogi 1, ki je sestavni del tega pravilnika.<br />
 Za vir onesnaževanja, za katerega ni posebnega predpisa o emisiji snovi pri odvajanju odpadnih vod in ni vir onesnaževanja iz priloge 1 tega pravilnika, dodatne parametre odpadne vode iz prvega odstavka tega člena določi izvajalec meritev na podlagi analize tehnološkega procesa, ki povzroča onesnaženost odpadne vode.<br />
 Za vir onesnaževanja, kjer nastajajo le hladilne vode, ki ne vsebujejo nevarnih snovi in ni vir onesnaževanja iz predpisa o emisiji snovi pri odvajanju odpadnih vod iz naprav za hlajenje ter naprav za proizvodnjo pare ali vroče vode, se pri prvih meritvah izvedejo samo meritve temperature ne glede na to, ali se hladilna voda odvaja v kanalizacijo ali neposredno v vode.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 8. členu se v četrtem odstavku doda drugi stavek, ki se glasi:<br />
 »Če komunalna ali skupna čistilna naprava z zmogljivostjo od 2.000 do 10.000 PE čezmerno obremenjuje okolje, je letna pogostost meritev 12«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Priloge 1, 2 in 3 pravilnika se nadomestijo s prilogami 1, 2 in 3, ki so v prilogi, ki je sestavni del tega pravilnika.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati 1. januarja 2002.</p>
 <p>Št. 355-01-16/00</p>
 <p>Ljubljana, dne 12. decembra 2001.</p>
@@ -238,5 +251,36 @@ mag. Janez Kopač l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-12-21", "kratica": "PRAV4028", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o prvih meritvah in obratovalnem monitoringu odpadnih vod ter o pogojih za njegovo izvajanje", "url": "/trubar/si/PRAV4028/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

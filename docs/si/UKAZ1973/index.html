@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Predsednik Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-2183" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/UKAZ1973.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=UKAZ1973" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/UKAZ1973.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:UKAZ1973,vrsta:ukaz">
+    
     <h1>Ukaz o odpoklicu izrednega in pooblaščenega veleposlanika Republike Slovenije v Črni gori</h1>
 <p>Na podlagi prvega odstavka 107. člena Ustave Republike Slovenije (Uradni list RS, št. 33/91-I, 42/97 – UZS68, 66/00 – UZ80, 24/03 – UZ3a, 47, 68, 69/04 – UZ14, 69/04 – UZ43, 69/04 – UZ50, 68/06 – UZ121,140,143, 47/13 – UZ148, 47/13 – UZ90,97,99, 75/16 – UZ70a in 92/21 – UZ62a) in četrtega odstavka 17.a člena Zakona o zunanjih zadevah (Uradni list RS, št. 113/03 – uradno prečiščeno besedilo, 20/06 – <a href="/trubar/si/ZNOMCMO/" class="law-ref" title="ZNOMCMO">ZNOMCMO</a>, 76/08, 108/09, 80/10 – <a href="/trubar/si/ZUTD/" class="law-ref" title="ZUTD">ZUTD</a>, 31/15 in 30/18 – ZKZaš) izdajam</p>
 <p>U K A Z</p>
@@ -44,5 +57,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-06-29", "kratica": "UKAZ1973", "naziv": "Ukaz o odpoklicu izrednega in pooblaščenega veleposlanika Republike Slovenije v Črni gori", "url": "/trubar/si/UKAZ1973/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

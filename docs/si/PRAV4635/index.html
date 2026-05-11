@@ -21,26 +21,39 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5712" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4635.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV4635" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4635.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV4635,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Pravilnik o načinu izvajanja meroslovnega nadzora nad merili v prometu</h1>
 <p>Na podlagi tretjega odstavka 18. člena zakona o meroslovju (Uradni list RS, št. 22/00) izdaja ministrica za šolstvo znanost in šport v soglasju z ministrico za gospodarstvo</p>
 <h2>P R A V I L N I K</h2>
 <p>o načinu izvajanja meroslovnega nadzora nad merili v prometu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem pravilnikom se natančneje določa način izvajanja meroslovnega nadzora nad merili v prometu (v nadaljnjem besedilu: nadzor), ki ga izvajajo tržni inšpektorji (v nadaljnjem besedilu: inšpektorji).<br />
 Predmet nadzora so samo tista merila v prometu, katerih uporaba je določena kot merjenje na področjih iz 3. člena zakona o meroslovju in za katera so bili izdani predpisi o meroslovnih zahtevah.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Nadzor se izvaja na mestu, kjer se izvaja promet z merili.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Pri nadzoru se ugotavlja, ali je merilo označeno v skladu z veljavnimi predpisi in ali je bila zanj izdana listina o skladnosti.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Dobavitelj merila ne sme opremiti merila z oznakami, ki bi zaradi podobnosti z oznakami, s katerimi se potrdi skladnost meril s predpisanimi meroslovnimi zahtevami, zavajale kupce meril.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V primeru suma, da je merilo neskladno z meroslovnimi predpisi, mora inšpektor o tem obvestiti upravni organ pristojen za meroslovje, ki lahko izvede kontrolni preskus merila v skladu z navodilom o načinu izvajanja meroslovnega nadzora nad merili v uporabi (Uradni list RS, št. 59/02).</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>O nadzoru se sestavi zapisnik, ki mora vsebovati:<br />
 – podatke o: firmi in sedežu pravne osebe ali posameznika, kjer se opravlja nadzor,<br />
 – podatke o: firmi in sedežu pravne osebe ali posameznika, ki daje v promet merilo,<br />
@@ -51,7 +64,7 @@ Predmet nadzora so samo tista merila v prometu, katerih uporaba je določena kot
 – morebitne pripombe stranke,<br />
 – podpis pooblaščenega inšpektorja,<br />
 – podpis prisotne ali odgovorne osebe pravne osebe ali posameznika, ki samostojno opravlja dejavnost, pri kateri je bil opravljen nadzor,</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 009- 44/02</p>
 <p>Ljubljana, dne 12. novembra 2002.</p>
@@ -69,5 +82,36 @@ Ministrica za gospodarstvo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-12-28", "kratica": "PRAV4635", "naziv": "Pravilnik o načinu izvajanja meroslovnega nadzora nad merili v prometu", "url": "/trubar/si/PRAV4635/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

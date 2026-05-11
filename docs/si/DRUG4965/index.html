@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2021-01-4398" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4965.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG4965" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4965.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG4965,vrsta:drugi akt">
+    
     <h1>Tarifa 2022 o vrednosti točke za plačilo na podlagi dovoljenja za izvajanje televizijske dejavnosti oziroma vpisa v uradno evidenco ponudnikov avdiovizualnih medijskih storitev na zahtevo</h1>
 <p>Na podlagi petega odstavka 38. člena Zakona o avdiovizualnih medijskih storitvah (Uradni list RS, št. 87/11 in 84/15) in prvega odstavka 4. člena Pravilnika o načinu izračuna plačil na podlagi dovoljenja za izvajanje televizijske dejavnosti oziroma vpisa v uradno evidenco ponudnikov avdiovizualnih medijskih storitev na zahtevo (Uradni list RS, št. 72/12) izdaja Agencija za komunikacijska omrežja in storitve Republike Slovenije</p>
 <p>T A R I F O  2 0 2 2</p>
@@ -84,5 +97,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2021-12-31", "kratica": "DRUG4965", "naziv": "Tarifa 2022 o vrednosti točke za plačilo na podlagi dovoljenja za izvajanje televizijske dejavnosti oziroma vpisa v uradno evidenco ponudnikov avdiovizualnih medijskih storitev na zahtevo", "url": "/trubar/si/DRUG4965/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

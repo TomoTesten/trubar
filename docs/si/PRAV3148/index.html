@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2990" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3148.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV3148" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3148.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV3148,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Pravilnik o postopku uveljavljavljanja pravic iz zakona o Jamstvenem skladu Republike Slovenije</h1>
 <p>Na podlagi tretjega odstavka 25. člena zakona o Jamstvenem skladu Republike Slovenije (Uradni list RS, št. 25/97) in 99. člena zakona o upravi (Uradni list RS, št. 67/94) izdaja minister za delo, družino in socialne zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o postopku uveljavljanja pravic iz zakona o Jamstvenem skladu Republike Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik opredeljuje postopek uveljavljanja pravic iz zakona o Jamstvenem skladu Republike Slovenije (v nadaljnjem besedilu: zakon), vsebino obrazcev in dokumentacijo, ki jo je potrebno priložiti zahtevku.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Upravičenec vloži v skladu z zakonom zahtevo Jamstvenemu skladu Republike Slovenije preko območne enote Republiškega zavoda za zaposlovanje pristojne po sedežu delodajalca.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Upravičenec vloži zahtevo na obrazcu JS-001-Z, ki je priloga I tega pravilnika.<br />
 Upravičenec mora zahtevi iz prejšnjega odstavka priložiti naslednjo dokumentacijo:<br />
 – sklep o prenehanju delovnega razmerja,<br />
@@ -42,9 +55,9 @@ Upravičenec mora zahtevi iz prejšnjega odstavka priložiti naslednjo dokumenta
 – fotokopijo davčne številke,<br />
 – fotokopijo tekočega računa, hranilne knjižice oziroma nerezidenčnega računa.<br />
 Dokazi iz druge in tretje alinee prejšnjega odstavka se predložijo na obrazcu JS-002-P, ki je priloga II tega pravilnika.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Obrazca iz prejšnjega člena izda Republiški zavod za zaposlovanje. Obrazca sta na razpolago pri območnih enotah Republiškega zavoda za zaposlovanje in na sedežu Jamstvenega sklada Republike Slovenije.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Upravičenec mora zahtevi priložiti:<br />
 1. v primeru stečajnega postopka:<br />
 – objavo iz Uradnega lista Republike Slovenije o začetem stečajnem postopku,<br />
@@ -52,11 +65,11 @@ Dokazi iz druge in tretje alinee prejšnjega odstavka se predložijo na obrazcu 
 2. v primeru prisilne poravnave:<br />
 – izvleček sklepa poravnalnega senata o potrditvi prisilne poravnave, ki je objavljen v Uradnem listu Republike Slovenije,<br />
 – dokaz, da je zahteval varstvo svojih pravic v rokih in na način, določen v predpisih, ki urejajo delovna razmerja, če mu pravice niso bile priznane v skladu s temi predpisi.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Jamstveni sklad Republike Slovenije lahko na zahtevo upravičenca izda potrdilo o izplačanih nadomestilih in pravicah po zakonu.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Republiški zavod za zaposlovanje izda in natisne obrazca iz tega pravilnika v roku 30 dni po uveljavitvi tega pravilnika. Obrazca se lahko izdata skupaj, v obliki, ki služi kot ovoj za spis.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu RS.</p>
 <p>Št. 017-01-0012/97</p>
 <p>Ljubljana, dne 22. septembra 1997</p>
@@ -312,5 +325,36 @@ stečajni dolžnik                                .................<br />
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-09-26", "kratica": "PRAV3148", "naziv": "Pravilnik o postopku uveljavljavljanja pravic iz zakona o Jamstvenem skladu Republike Slovenije", "url": "/trubar/si/PRAV3148/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

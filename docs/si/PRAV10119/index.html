@@ -21,23 +21,36 @@
       <dt>Organ</dt><dd>Ministrstvo za zdravje</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0240" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10119.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10119" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10119.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10119,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnih zavodih iz pristojnosti Ministrstva za zdravje</h1>
 <p>Na podlagi 22.i člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 108/09 – uradno prečiščeno besedilo, 107/09 – odl. US in 98/09 – <a href="/trubar/si/ZIUZGK/" class="law-ref" title="ZIUZGK">ZIUZGK</a>) in prvega odstavka 3. člena Uredbe o delovni uspešnosti iz naslova prodaje blaga in storitev na trgu (Uradni list RS, št. 97/09) minister za zdravje izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnih zavodih iz pristojnosti Ministrstva za zdravje</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa obseg sredstev, ki ga javni zavodi in javne agencije iz pristojnosti Ministrstva za zdravje, lahko namenijo za plačilo delovne uspešnosti iz naslova prodaje blaga in storitev na trgu.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Med prihodke od prodaje blaga in storitev na trgu se uvrščajo prihodki od blaga in storitev, pridobljeni izven opravljanja dejavnosti iz naslova izvajanja javne službe, ki je opredeljena v Zakonu o zdravstvenem varstvu in zdravstvenem zavarovanju (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo, 114/06 – <a href="/trubar/si/ZUTPG/" class="law-ref" title="ZUTPG">ZUTPG</a>, 91/07 in 76/08), programih javnega zdravja in ustanovitvenem aktu posrednega proračunskega uporabnika. Prihodki od prodaje blaga in storitev na trgu se ustvarjajo v pogojih konkurence, pri čemer cene storitev določa posredni uporabnik proračuna sam.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V javnih zavodih in javnih agencijah iz pristojnosti Ministrstva za zdravje obseg sredstev za plačilo delovne uspešnosti iz naslova prodaje blaga in storitev na trgu znaša največ 60 odstotkov razlike med prihodki in odhodki od prodaje blaga in storitev na trgu.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Z dnem uveljavitve tega pravilnika preneha veljati Pravilnik o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnih zavodih iz pristojnosti Ministrstva za zdravje (Uradni list RS, št. 25/09).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-291/2009</p>
 <p>Ljubljana, dne 4. januarja 2010</p>
@@ -53,5 +66,36 @@ za zdravje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-01-29", "kratica": "PRAV10119", "naziv": "Pravilnik o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnih zavodih iz pristojnosti Ministrstva za zdravje", "url": "/trubar/si/PRAV10119/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

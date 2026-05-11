@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Ministrstvo za infrastrukturo in prostor</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-3597" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3811.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3811" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3811.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3811,vrsta:drugi akt">
+    
     <h1>Sprememba Splošnih pogojev za dobavo in odjem toplote in hladu iz distribucijskega omrežja za geografsko območje Mestne občine Ljubljana</h1>
 <p>Na podlagi tretjega odstavka 70. člena Energetskega zakona (Uradni list RS, št. 27/07 – uradno prečiščeno besedilo, 70/08, 22/10, 37/11 – odl. US in 10/12), 22. člena Akta o določitvi metodologije za določitev splošnih pogojev za dobavo in odjem toplote iz distribucijskega omrežja (Uradni list RS, št. 74/05 in 42/11) in 13. člena Odloka o dejavnosti sistemskega operaterja distribucijskega omrežja zemeljskega plina in o dobavi zemeljskega plina tarifnim odjemalcem ter o distribuciji toplote (Uradni list RS, št. 14/06), Javno podjetje Energetika Ljubljana d.o.o. kot izvajalec gospodarske javne službe dejavnosti distribucije toplote na geografskem območju Mestne občine Ljubljana, izdaja</p>
 <h2>S P R E M E M B O   S P L O Š N I H   P O G O J E V</h2>
 <p>za dobavo in odjem toplote in hladu iz distribucijskega omrežja za geografsko območje Mestne občine Ljubljana</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V splošnih pogojih za dobavo in odjem toplote in hladu iz distribucijskega omrežja za geografsko območje Mestne občine Ljubljana (Uradni list RS, št. 47/12) se drugi odstavek 60. člena spremeni tako, da se glasi:<br />
 »Pri posrednem merjenju so količine dobavljene toplote za ogrevanje sanitarne tople vode izražene v MWh in se izračunajo po enačbi:</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Drugi odstavek 76. člena se spremeni tako, da se glasi:<br />
 »Do 1. oktobra 2015 se poraba toplote za ogrevanje sanitarne tople vode pri posrednih meritvah obračunava po določilih 60. člena tega akta, pri čemer se količine dobavljene toplote za ogrevanje sanitarne tople vode izračunajo po enačbi:</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sprememba Splošnih pogojev začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. JPE3000170187</p>
 <p>Ljubljana, dne 9. novembra 2012</p>
@@ -52,5 +65,36 @@ Hrvoje Drašković l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-12-06", "kratica": "DRUG3811", "naziv": "Sprememba Splošnih pogojev za dobavo in odjem toplote in hladu iz distribucijskega omrežja za geografsko območje Mestne občine Ljubljana", "url": "/trubar/si/DRUG3811/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

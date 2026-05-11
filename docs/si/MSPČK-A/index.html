@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-02-0035" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSPČK-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MSPČK-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSPČK-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MSPČK-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o dopolnitvi zakona o ratifikaciji Sporazuma o sodelovanju za preprečevanje čezmejnega kriminala in boj proti njemu</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,10 +50,10 @@ Republike Slovenije<br />
 dr. Janez Drnovšek l. r.</p>
 <h2>Z A K O N</h2>
 <p>O DOPOLNITVI ZAKONA O RATIFIKACIJI SPORAZUMA O SODELOVANJU ZA PREPREČEVANJE ČEZMEJNEGA KRIMINALA IN BOJ PROTI NJEMU (MSPČK-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o ratifikaciji Sporazuma o sodelovanju za preprečevanje čezmejnega kriminala in boj proti njemu, sestavljenega v Bukarešti 26. maja 1999 (Uradni list RS – Mednarodne pogodbe, št. 23/2000), se za drugim odstavkom 3. člena doda tretji odstavek, ki se glasi:</p>
 <p>“Vlada Republike Slovenije je pooblaščena za umik pridržkov iz prvega in drugega odstavka tega člena.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 212-05/00-15/4</p>
 <p>Ljubljana, dne 29. maja 2003</p>
@@ -57,5 +70,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-06-13", "kratica": "MSPČK-A", "naziv": "Zakon o dopolnitvi zakona o ratifikaciji Sporazuma o sodelovanju za preprečevanje čezmejnega kriminala in boj proti njemu", "url": "/trubar/si/MSPČK-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

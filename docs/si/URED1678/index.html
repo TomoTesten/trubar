@@ -21,37 +21,50 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2770" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1678.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1678" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1678.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1678,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Uredba o spremembah in dopolnitvah uredbe o podrobnejših pogojih in merilih za spodbujanje razvoja turistične infrastrukture</h1>
 <p>Na podlagi četrtega odstavka 31. člena zakona o pospeševanju turizma (Uradni list RS, št. 57/98 in 68/00) in prvega odstavka 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96, 47/97, 23/99, 119/00 in 30/01), izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o podrobnejših pogojih in merilih za spodbujanje razvoja turistične infrastrukture</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o podrobnejših pogojih in merilih za spodbujanje razvoja turistične infrastrukture (Uradni list RS, št. 11/99 in 102/00) se v 1. členu besede: “projektne dokumentacije pri naložbah“ nadomestijo z besedo “naložb“.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 2. členu se dodata nova tretji in četrti odstavek, ki se glasita:</p>
 <p>“Če se malo ali srednje veliko podjetje nahaja v regiji, ki izpolnjuje pogoje za regionalno pomoč, se intenzivnost pomoči določi do višine pomoči, ki izhaja iz regionalne mape, povečane za 15 odstotnih točk.</p>
 <p>Prejemnik je upravičen do nadomestila dela stroškov, ki se nanašajo na realizacijo investicijskega programa (priprava projektne dokumentacije, izvajanje gradbenih in drugih del ter nabava opreme).“</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 4. členu se na koncu tretje alinee za vejico doda besedilo: “kar pomeni, da mora predlagatelj zagotoviti najmanj 25% predračunske vrednosti naložbe iz lastnih virov in zagotoviti, da skupna višina pridobljenih sredstev iz državnega proračuna in proračuna občine ne presega dovoljene višine sredstev iz 2. člena te uredbe,“.<br />
 Besedilo sedme alinee se nadomesti z besedilom:</p>
 <p>“- investicija iz programa, ki je predmet spodbujanja razvoja, mora ostati v regiji vsaj pet let,“.</p>
 <p>Besedilo osme alinee se črta.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 5. členu se besedilo prve alinee nadomesti z besedilom:</p>
 <p>“– katerih projekt predstavlja skupno turistično infrastrukturo v kraju, z ugodnimi učinki na razvoj turizma na turističnem območju,“.</p>
 <p>Besedilo druge alinee se črta.<br />
 Besedilo četrte alinee se nadomesti z besedilom:</p>
 <p>“– katerih projekt prispeva k ohranjanju kulturno-zgodovinske dediščine,“.</p>
 <p>Besedilo pete alinee se črta.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Besedilo 9. člena se nadomesti z novim besedilom, ki se glasi:</p>
 <h3>“9. člen</h3>
 <p>“Sredstva za sofinanciranje projektne dokumentacije, izvajanje gradbenih in drugih del ter nabavo opreme za naložbe v turistično infrastrukturo se prednostno namenijo za projekte, ki izkazujejo visoko stopnjo soodvisnosti s potrebami razvoja turizma na turističnem območju ali imajo pomen za razvoj turizma na širšem območju.“</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 403-09/2001-1</p>
 <p>Ljubljana, dne 14. junija 2001.</p>
@@ -66,5 +79,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-06-15", "kratica": "URED1678", "naziv": "Uredba o spremembah in dopolnitvah uredbe o podrobnejših pogojih in merilih za spodbujanje razvoja turistične infrastrukture", "url": "/trubar/si/URED1678/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

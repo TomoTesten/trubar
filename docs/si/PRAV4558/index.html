@@ -21,26 +21,39 @@
       <dt>Organ</dt><dd>Ministrstvo za zdravje</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3045" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4558.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV4558" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4558.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV4558,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o rokih in načinu obveščanja iz pristojnosti Inštituta za varovanje zdravja Republike Slovenije v zvezi z meritvami vsebnosti in sestavinami tobačnih izdelkov</h1>
 <p>Na podlagi drugega odstavka 18.c člena zakona o omejevanju uporabe tobačnih izdelkov (Uradni list RS, št. 57/96 in 119/02) izdaja minister za zdravje</p>
 <h2>P R A V I L N I K</h2>
 <p>o rokih in načinu obveščanja iz pristojnosti Inštituta za varovanje zdravja Republike Slovenije v zvezi z meritvami vsebnosti in sestavinami tobačnih izdelkov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa roke in način obveščanja, ki ga opravlja Inštitut za varovanje zdravja Republike Slovenije v zvezi s podatki iz 18.c člena zakona o omejevanju uporabe tobačnih izdelkov (Uradni list RS, št. 57/96 in 119/02).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>O rezultatih opravljenih meritev za katran, nikotin in ogljikov monoksid v cigaretah mora Inštitut za varovanje zdravja Republike Slovenije pisno obvestiti Ministrstvo za zdravje in jih enkrat letno, najpozneje do 31. januarja za preteklo leto, prvič do 31. 1. 2005, objaviti na svoji spletni strani.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ne glede na določbo prejšnjega člena mora Inštitut za varovanje zdravja Republike Slovenije v primerih, ko ugotovi, da vsebuje cigareta več kot 10 mg katrana, 1mg nikotina oziroma 10 mg ogljikovega monoksida, o tem v treh dneh pisno obvestiti Ministrstvo za zdravje in podatek objaviti na svoji spletni strani.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Enkrat letno, najpozneje do 31. januarja za preteklo leto, prvič 31. 1. 2005, mora Inštitut za varovanje zdravja Republike Slovenije pisno obvestiti Ministrstvo za zdravje in na svoji spletni strani objaviti:<br />
 – seznam sestavin in količine sestavin, ki so bile uporabljene pri proizvodnji posameznih tobačnih izdelkov in sicer po znamkah in vrstah, tako da se te razvrstijo po teži, začenši z največjo,<br />
 – navedbo delovanja sestavin iz prejšnje alinee, in<br />
 – toksikološke podatke sestavin v zgoreli in nezgoreli obliki, ki se nanašajo na njihove vplive na zdravje ljudi in učinke odvisnosti.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati trideseti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 022-6/2003</p>
 <p>Ljubljana, dne 18. junija 2003.</p>
@@ -56,5 +69,36 @@ za zdravje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-06-27", "kratica": "PRAV4558", "naziv": "Pravilnik o rokih in načinu obveščanja iz pristojnosti Inštituta za varovanje zdravja Republike Slovenije v zvezi z meritvami vsebnosti in sestavinami tobačnih izdelkov", "url": "/trubar/si/PRAV4558/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

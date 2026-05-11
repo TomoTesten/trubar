@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-02-0058" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPKEPSES.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MPKEPSES" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPKEPSES.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MPKEPSES,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o ratifikaciji Protokola na podlagi člena K.3 Pogodbe o Evropski uniji o razlagi Konvencije o ustanovitvi Evropskega policijskega urada, s predhodnim odločanjem Sodišča evropskih skupnosti</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 dr. Janez Drnovšek l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI PROTOKOLA NA PODLAGI ČLENA K.3 POGODBE O EVROPSKI UNIJI O RAZLAGI KONVENCIJE O USTANOVITVI EVROPSKEGA POLICIJSKEGA URADA, S PREDHODNIM ODLOČANJEM SODIŠČA EVROPSKIH SKUPNOSTI (MPKEPSES)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Protokol na podlagi člena K.3 Pogodbe o Evropski uniji o razlagi Konvencije o ustanovitvi Evropskega policijskega urada, s predhodnim odločanjem Sodišča evropskih skupnosti, podpisan v Bruslju dne 24. julija 1996.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo protokola se v izvirniku v angleškem in v prevodu v slovenskem jeziku glasi:</p>
 <h2>P R O T O C O L</h2>
 <p>drawn up on the basis of Article K.3 of the Treaty on European Union, on the interpretation, by way of preliminary rulings, by the Court of Justice of the European Communities of the Convention on the establishment of a European Police Office</p>
@@ -149,12 +162,12 @@ ob podpisu Akta Sveta o sestavi Protokola o razlagi Konvencije o ustanovitvi Evr
 z željo zagotoviti čim učinkovitejšo in enotnejšo razlago navedene konvencije od začetka njene veljavnosti,<br />
 izrazijo pripravljenost sprejeti ustrezne ukrepe za zagotovitev sočasne in kar najhitrejše zaključitve nacionalnih postopkov za sprejetje Konvencije o ustanovitvi Evropskega policijskega urada in Protokola o njeni razlagi.<br />
 V potrditev tega so podpisani pooblaščenci podpisali to izjavo.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Republika Slovenija izjavlja, da priznava pristojnost Sodišča evropskih skupnosti za predhodno odločanje o razlagi Konvencije o Europolu pod pogoji, določenimi v odstavku 2(b) člena 2 protokola.<br />
 Republika Slovenija izjavlja, da lahko katero koli sodišče Republike Slovenije predlaga, da Sodišče evropskih skupnosti predhodno odloči o vprašanju, ki se pojavi v primeru na tem sodišču in je v zvezi z razlago Konvencije o Europolu, če to sodišče meni, da je odločitev o tem vprašanju nujna za izdajo sodbe.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za izvajanje protokola skrbi Ministrstvo za notranje zadeve Republike Slovenije.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 212-05/04-45/1</p>
 <p>Ljubljana, dne 20. maja 2004</p>
@@ -171,5 +184,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-05-28", "kratica": "MPKEPSES", "naziv": "Zakon o ratifikaciji Protokola na podlagi člena K.3 Pogodbe o Evropski uniji o razlagi Konvencije o ustanovitvi Evropskega policijskega urada, s predhodnim odločanjem Sodišča evropskih skupnosti", "url": "/trubar/si/MPKEPSES/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

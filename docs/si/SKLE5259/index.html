@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Agencija za trg vrednostnih papirjev</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-5869" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5259.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE5259" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5259.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE5259,vrsta:sklep">
+    
     <h1>Sklep o podrobnejši vsebini statuta investicijske družbe</h1>
 <p>Na podlagi tretjega odstavka 165. člena Zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 110/02, 73/03 – sklep US, 32/04 – avtentična razlaga in 42/04) Agencija za trg vrednostnih papirjev izdaja</p>
 <h2>S K L E P</h2>
 <p>o podrobnejši vsebini statuta investicijske družbe</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Statut investicijske družbe, ki mora biti izdelan v obliki notarskega zapisa, mora določati:<br />
 (1) Vsebino, ki izhaja iz Zakona o gospodarskih družbah (Uradni list RS, št. 30/93, 29/94, 82/94, 20/98, 84/98, 6/99, 54/99 – <a href="/trubar/si/ZFPPod/" class="law-ref" title="ZFPPod">ZFPPod</a>, 31/00- <a href="/trubar/si/ZP-L/" class="law-ref" title="ZP-L">ZP-L</a>, 36/00 – <a href="/trubar/si/ZPDZC/" class="law-ref" title="ZPDZC">ZPDZC</a>, 45/01, 59/01 – popr., 93/02 – odločba US in 57/04; v nadaljevanju: <a href="/trubar/si/ZGD/" class="law-ref" title="ZGD">ZGD</a>):<br />
 1. firmo in sedež ustanovitelja;<br />
@@ -60,10 +73,10 @@
 10. pogoje in način prenosa upravljanja investicijske družbe na drugo družbo za upravljanje in zagotavljanje zaščite delničarjev investicijske družbe v takem primeru;<br />
 11. pogoje in način prenosa opravljanja skrbniških storitev na drugega skrbnika in zagotavljanje zaščite delničarjev investicijske družbe v takem primeru;<br />
 12. druge določbe, ki natančneje urejajo vsebino pravnega razmerja med investicijsko družbo in družbo za upravljanje.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Z dnem uveljavitve tega sklepa preneha veljati Sklep o podrobnejši vsebini statuta investicijske družbe (Uradni list RS, št. 80/03).<br />
 (2) Investicijske družbe so dolžne uskladiti določbe statuta z določbami tega sklepa na prvi skupščini po uveljavitvi tega sklepa, oziroma najkasneje do 1. 1. 2006.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 197-2/18-20/2004</p>
 <p>Ljubljana, dne 15. decembra 2004.</p>
@@ -80,5 +93,36 @@ dr. Miha Juhart l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-12-23", "kratica": "SKLE5259", "naziv": "Sklep o podrobnejši vsebini statuta investicijske družbe", "url": "/trubar/si/SKLE5259/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

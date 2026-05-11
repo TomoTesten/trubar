@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Državni zbor Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-1448" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO2732.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO2732" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO2732.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO2732,vrsta:odlok">
+    
     <h1>Odlok o spremembah Odloka o notranji organizaciji, delovnih mestih in nazivih v službah državnega zbora (OdNODMN-D)</h1>
 <p>Na podlagi prvega odstavka 32. člena Zakona o poslancih (Uradni list RS, št. 112/05 – uradno prečiščeno besedilo, 109/08, 39/11, 48/12 in 17/22), 108. člena Poslovnika državnega zbora (Uradni list RS, št. 92/07 – uradno prečiščeno besedilo, 105/10, 80/13, 38/17, 46/20, 105/21 – odl. US in 111/21) in petega odstavka 22. člena Zakona o javnih uslužbencih (Uradni list RS, št. 63/07 – uradno prečiščeno besedilo, 65/08, 69/08 – ZTFI-A, 69/08 – ZZavar-E, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>, 158/20 – <a href="/trubar/si/ZIntPK-C/" class="law-ref" title="ZIntPK-C">ZIntPK-C</a>, 203/20 – <a href="/trubar/si/ZIUPOPDVE/" class="law-ref" title="ZIUPOPDVE">ZIUPOPDVE</a>, 202/21 – odl. US in 3/22 – ZDeb) je Državni zbor na seji 21. aprila 2023 sprejel</p>
 <p>O D L O K</p>
@@ -52,5 +65,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-04-24", "kratica": "ODLO2732", "naziv": "Odlok o spremembah Odloka o notranji organizaciji, delovnih mestih in nazivih v službah državnega zbora (OdNODMN-D)", "url": "/trubar/si/ODLO2732/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

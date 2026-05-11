@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2401" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZP-H.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZP-H" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZP-H.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZP-H,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o prekrških</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. Člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>UKAZ</h2>
@@ -37,16 +50,16 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>o spremembah in dopolnitvah zakona o prekrških</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o prekrških (Uradni list SRS, št. 25/83, 42/85, 47/87 in 5/90 ter Uradni list RS, št. 10/91 in 13/93) se v drugem odstavku 25. člena v 1. in 3. točki številka "30.000" nadomesti s številko "120.000"; v 2. točki se številka "300.000" nadomesti s številko "1,200.000".<br />
 V tretjem odstavku se številka " 1,500.000" nadomesti s številko "6,000.000".<br />
 V četrtem odstavku se številka "30.000" nadomesti s številko "120.000".<br />
 V petem odstavku se v 1. in 3. točki številka "15.000" nadomesti s številko "60.000"; v 2. točki se številka "90.000" nadomesti s številko "360.000".</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V zakonih, uredbah in odlokih Vlade Republike Slovenije in v odlokih občinskih skupščin in skupščin posebnih družbenopolitičnih skupnosti še denarni zneski, s katerimi je določena zgornja meja predpisane denarne kazni za prekršek, zvišajo za 4-krat.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V zveznih zakonih, uredbah oziroma odlokih Zveznega izvršnega sveta in v pravilnikih oziroma odredbah kolegijskega zveznega upravnega organa ali funkcionarja zveznega upravnega organa oziroma zvezne organizacije, ki se na podlagi prvega odstavka 4. člena ustavnega zakona za izvedbo Temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije uporabljajo kot republiški predpis, se denarni zneski, s katerimi je določena zgornja meja predpisane denarne kazni za prekršek, zvišajo za 4-krat.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 716-01/89-1/21</p>
 <p>Ljubljana, dne 23. novembra 1993.</p>
@@ -62,5 +75,36 @@ mag. Herman Rigelnik l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1993-12-10", "kratica": "ZP-H", "naziv": "Zakon o spremembah in dopolnitvah zakona o prekrških", "url": "/trubar/si/ZP-H/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

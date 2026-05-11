@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1991-03-1025" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3200.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV3200" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3200.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV3200,vrsta:pravilnik">
+    
     <h1>Pravilnik o utekočinjenem naftnem plinu</h1>
 <blockquote>
 <p>Opozorilo: Neuradno prečiščeno besedilo predpisa predstavlja zgolj informativni delovni pripomoček, glede katerega organ ne jamči odškodninsko ali kako drugače.<br />
@@ -36,13 +49,13 @@ Neuradno prečiščeno besedilo Pravilnika o utekočinjenem naftnem plinu obsega
 <h2>o utekočinjenem naftnem plinu</h2>
 <p>( delno se preneha uporabljati )<br />
 (neuradno prečiščeno besedilo št. 1)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem pravilnikom in tehničnimi predpisi, ki so sestavni del tega pravilnika se predpisuje uporaba utekočinjenega naftnega plina, njegovo skladiščenje in pretakanje ter način vgradnje naprav in postrojev za utekočinjeni naftni plin in varnosti ukrepi s tem v zvezi.<br />
 Priloga: Tehnični predpisi o utekočinjenem naftnem plinu<br />
 Pravilnik o utekočinjenem naftnem plinu (Uradni list RS, št. 22/91) vsebuje naslednji končni določbi:</p>
 <h3>»2. člen</h3>
 <p>Z dnem, ko začne veljati ta pravilnik neha veljati pravilnik o gradnji naprav za tekoči naftni plin in o skladiščenju in pretakanju tekočega naftnega plina (Uradni list SFRJ, št. 24/71 in 26/71), ki se na področju Republike Slovenije uporablja kot republiški predpis na podlagi 49. člena zakona o eksplozivnih snoveh, vnetljivih tekočinah, plinih in drugih nevarnih snoveh (Uradni list SRS, št. 18/77).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.«.<br />
 Pravilnik o tehničnih zahtevah za gradnjo in obratovanje postaj za preskrbo motornih vozil z gorivi (Uradni list RS, št. 114/04 ) v zvezi z delnim prenehanjem uporabe tega pravilnika določa:<br />
 »166. člen<br />
@@ -58,5 +71,36 @@ Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Sl
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1991-05-31", "kratica": "PRAV3200", "naziv": "Pravilnik o utekočinjenem naftnem plinu", "url": "/trubar/si/PRAV3200/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

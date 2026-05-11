@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Agencija za trg vrednostnih papirjev</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0003" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5094.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE5094" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5094.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE5094,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Sklep o spremembah in dopolnitvah Sklepa o podrobnejši obliki, najmanjšem obsegu ter vsebini revizijskega pregleda in poročila o revidiranju letnega poročila družbe za upravljanje</h1>
 <p>Na podlagi drugega odstavka 192. člena Zakona o trgu vrednostnih papirjev (Uradni list RS, št. 56/99, 31/00 – <a href="/trubar/si/ZP-L/" class="law-ref" title="ZP-L">ZP-L</a>, 52/02 – <a href="/trubar/si/ZJA/" class="law-ref" title="ZJA">ZJA</a> in 86/04) in mnenja Slovenskega inštituta za revizijo Agencija za trg vrednostnih papirjev izdaja</p>
 <h2>S K L E P</h2>
@@ -33,24 +46,24 @@ o podrobnejši obliki, najmanjšem obsegu<br />
 ter vsebini revizijskega pregleda in poročila<br />
 o revidiranju letnega poročila družbe<br />
 za upravljanje</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 2. členu Sklepa o podrobnejši obliki, najmanjšem obsegu ter vsebini revizijskega pregleda in poročila o revidiranju letnega poročila družbe za upravljanje (Uradni list RS, št. 80/03 in 133/03; v nadaljevanju: Sklep) se 1. točka, 2. točka in 3. točka nadomestijo z novo 1. točko, ki se glasi:<br />
 »1. letnih računovodskih izkazih iz 4. člena tega sklepa,«,<br />
 dosedanje 4. točka, 5. točka in 6. točka postanejo 2. točka, 3. točka in 4. točka,<br />
 dosedanja 7. točka se črta,<br />
 dosedanji 8. točka in 9. točka pa postaneta 5. točka in 6. točka.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 7. členu Sklepa se črta 4. točka,<br />
 dosedanja 5. točka in 6. točka pa postaneta 4. točka in 5. točka.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 9. členu Sklepa se beseda »tretjega« nadomesti z besedo »petega«, beseda »petega« pa nadomesti z besedo »sedmega«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 10. členu Sklepa se besede »138. člena <a href="/trubar/si/ZISDU/" class="law-ref" title="ZISDU">ZISDU</a>–1« nadomestijo z besedami »138. člena in določbe 182. člena <a href="/trubar/si/ZISDU-1/" class="law-ref" title="ZISDU-1">ZISDU-1</a>«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <ol>
 <li>člen Sklepa se črta.</li>
 </ol>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 183-1/2-5/2004</p>
 <p>Ljubljana, dne 29. decembra 2004.</p>
@@ -67,5 +80,36 @@ dr. Miha Juhart l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-01-03", "kratica": "SKLE5094", "naziv": "Sklep o spremembah in dopolnitvah Sklepa o podrobnejši obliki, najmanjšem obsegu ter vsebini revizijskega pregleda in poročila o revidiranju letnega poročila družbe za upravljanje", "url": "/trubar/si/SKLE5094/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

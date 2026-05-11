@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1734" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZDZFI-C.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZDZFI-C" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZDZFI-C.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZDZFI-C,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o družbi za zavarovanje in financiranje izvoza Slovenije</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA  O DRUŽBI ZA ZAVAROVANJE IN FINANCIRANJE IZVOZA SLOVENIJE (ZDZFI-C)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o Družbi za zavarovanje in financiranje izvoza Slovenije (Uradni list RS, št. 32/92, 37/95 in 34/96) se za prvim odstavkom 12. člena doda nov drugi odstavek, ki glasi:</p>
 <p>“Za zavarovanje pred riziki sprememb vrednosti valut se oblikujejo posebne varnostne rezerve, ki se oblikujejo iz zavarovalnih premij in iz dobička, ki ga družba ustvari s poslovanjem na področju zavarovanja pred temi riziki.”</p>
 <p>V dosedanjem drugem odstavku, ki postane tretji odstavek, se za besedama “varnostnih rezerv” doda besedilo “ter posebnih varnostnih rezerv”.<br />
@@ -47,14 +60,14 @@ Za četrtim odstavkom se doda nov peti odstavek, ki glasi:</p>
 <p>Dosedanji četrti odstavek, ki postane šesti odstavek, se spremeni tako, da glasi:</p>
 <p>“Če nastalih škod ni mogoče povrniti iz varnostnih in posebnih varnostnih rezerv iz četrtega in petega odstavka tega člena, zagotovi sredstva za izplačilo odškodnin iz naslova zavarovanja pred srednjeročnimi komercialnimi in nekomercialnimi riziki ter riziki sprememb vrednosti valut Republika Slovenija, na podlagi proračuna Republike Slovenije.”</p>
 <p>Dosedanji peti odstavek postane sedmi odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Prva alinea tretjega odstavka 27. člena se spremeni tako, da glasi:</p>
 <p>“– oblikovanju zavarovalnih pogojev za zavarovanje pred srednjeročnimi komercialnimi riziki, nekomercialnimi riziki in riziki sprememb vrednosti valut ter “.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za naslovom XI. poglavja PREHODNE IN KONČNE DOLOČBE se doda nov 28.a člen, ki glasi:</p>
 <h3>“28. a člen</h3>
 <p>Sredstva za posebne varnostne rezerve družbe se zagotovijo iz proračuna Republike Slovenije za leto 1997 v višini do 2 milijard tolarjev.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 311-04/92-5/8</p>
 <p>Ljubljana, dne 20. maja 1997.</p>
@@ -70,5 +83,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-05-30", "kratica": "ZDZFI-C", "naziv": "Zakon o spremembah in dopolnitvah zakona o družbi za zavarovanje in financiranje izvoza Slovenije", "url": "/trubar/si/ZDZFI-C/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

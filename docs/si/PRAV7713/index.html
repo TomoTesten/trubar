@@ -21,19 +21,32 @@
       <dt>Organ</dt><dd>Ministrstvo za šolstvo in šport</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-2557" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7713.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7713" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7713.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7713,vrsta:pravilnik">
+    
     <h1>Pravilnik o dopolnitvi Pravilnika o dodatni strokovni in fizični pomoči za otroke in mladostnike s posebnimi potrebami</h1>
 <p>Na podlagi 9. člena Zakona o usmerjanju otrok s posebnimi potrebami (Uradni list RS, št. 54/00) minister za šolstvo in šport izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o dopolnitvi Pravilnika o dodatni strokovni in fizični pomoči za otroke in mladostnike s posebnimi potrebami</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o dodatni strokovni in fizični pomoči za otroke in mladostnike s posebnimi potrebami (Uradni list RS, št. 25/06) se v 4. členu za petim odstavkom doda nov šesti odstavek, ki se glasi:<br />
 »Za otroke, ki so bili v postopku usmerjanja v skladu s šesto alineo 10. člena Pravilnika o organizaciji in načinu dela komisij za usmerjanje otrok s posebnimi potrebami ter o kriterijih za opredelitev vrste in stopnje primanjkljajev, ovir oziroma motenj otrok s posebnimi potrebami (Uradni list RS, št. 54/03, 93/04 in 97/05) usmerjeni kot otroci z mejnimi intelektualnimi sposobnostmi v izobraževalni program s prilagojenim izvajanjem in dodatno strokovno pomočjo, se pri preverjanju ustreznosti usmeritve dodatna strokovna pomoč za predšolskega otroka določi največ tri ure tedensko, za šoloobveznega otroka največ pet ur tedensko in dijaka največ tri ure tedensko.«.<br />
 Dosedanji šesti in sedmi odstavek postaneta sedmi in osmi odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0070-42/2006</p>
 <p>Ljubljana, dne 11. aprila 2006</p>
@@ -49,5 +62,36 @@ za šolstvo in šport</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-06-09", "kratica": "PRAV7713", "naziv": "Pravilnik o dopolnitvi Pravilnika o dodatni strokovni in fizični pomoči za otroke in mladostnike s posebnimi potrebami", "url": "/trubar/si/PRAV7713/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

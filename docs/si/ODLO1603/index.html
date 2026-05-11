@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1050" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1603.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO1603" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1603.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO1603,vrsta:odlok">
+    
     <h1>Odlok o spremembah in dopolnitvah Odloka o Letnem načrtu razpolaganja z nepremičnim premoženjem države v posamični vrednosti nad 300.000 EUR za organe državne uprave in za pravosodne organe za leto 2009 (OdRNPD09-A)</h1>
 <p>Na podlagi drugega odstavka 11. člena Zakona o stvarnem premoženju države, pokrajin in občin (Uradni list RS, št. 14/07) in tretjega odstavka 108. člena Poslovnika državnega zbora (Uradni list RS, št. 92/07 – uradno prečiščeno besedilo) je Državni zbor Republike Slovenije dne 26. marca 2009 sprejel</p>
 <h2>O D L O K</h2>
 <p>o spremembah in dopolnitvah Odloka o Letnem načrtu razpolaganja z nepremičnim premoženjem države v posamični vrednosti nad 300.000 EUR za organe državne uprave in za pravosodne organe za leto 2009 (OdRNPD09-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) Besedilo prvega odstavka 2. člena Odloka o Letnem načrtu razpolaganja z nepremičnim premoženjem države v posamični vrednosti nad 300.000 EUR za organe državne uprave in za pravosodne organe za leto 2009 (Uradni list RS, št. 114/07, v nadaljnjem besedilu: letni načrt razpolaganja) se spremeni tako, da se orientacijska vrednost »12.972.057 EUR« nadomesti z orientacijsko vrednostjo »79.673.635,24 EUR«.<br />
 (2) Tabela v drugem odstavku 2. člena se dopolni tako, da se v rubriki »OSTALI OBJEKTI« za nepremičnino z zaporedno številko 1 doda nov upravljavec »Ministrstvo za visoko šolstvo, znanost in tehnologijo« ter pri njem nepremičnina z zaporedno številko 1a, z naslednjimi podatki:</p>
 <p>+-----------------+-------------------------+----------------+<br />
@@ -739,7 +752,7 @@
 |     |           |raba »počitniška hiša«.   |               |<br />
 +-----+-----------+--------------------------+---------------+</p>
 <p>V tabeli se skupna orientacijska vrednost spremeni tako, da se vrednost »12.972.057 EUR« nadomesti z vrednostjo »79.673.635,24 EUR«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 411-02/09-9/7</p>
 <p>Ljubljana, dne 26. marca 2009</p>
@@ -756,5 +769,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-04-03", "kratica": "ODLO1603", "naziv": "Odlok o spremembah in dopolnitvah Odloka o Letnem načrtu razpolaganja z nepremičnim premoženjem države v posamični vrednosti nad 300.000 EUR za organe državne uprave in za pravosodne organe za leto 2009 (OdRNPD09-A)", "url": "/trubar/si/ODLO1603/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

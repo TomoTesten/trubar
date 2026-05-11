@@ -21,25 +21,38 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2262" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3220.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3220" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3220.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED3220,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o kriterijih za ugotavljanje izpolnjevanja pogojev za pridobitev varnostnega spričevala in o postopku za izdajo varnostnega spričevala</h1>
 <p>Na podlagi tretjega odstavka 18. člena Zakona o železniškem prometu (Uradni list RS, št. 83/03 – prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o kriterijih za ugotavljanje izpolnjevanja pogojev za pridobitev varnostnega spričevala in o postopku za izdajo varnostnega spričevala</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o kriterijih za ugotavljanje izpolnjevanja pogojev za pridobitev varnostnega spričevala in o postopku za izdajo varnostnega spričevala (Uradni list RS, št. 4/01) se v prvem odstavku 3. člena besedilo prvega stavka nadomesti z besedilom, ki se glasi: ''V Republiki Sloveniji veljajo za vožnjo po progah železniškega omrežja varnostna spričevala, ki jih izda Javna agencija za železniški promet Republike Slovenije (v nadaljnjem besedilu: AŽP).''<br />
 V tretjem, četrtem, petem in šestem odstavku se beseda ''direkcija'' v vseh sklonih, nadomesti s kratico ''AŽP''.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo prve alinee 4. člena se spremeni tako, da se glasi:<br />
 '' – naziv pravne osebe – prosilca in njegov sedež''<br />
 Doda se nova peta alinea, ki se glasi:<br />
 ''– seznam priloženih dokumentov in dokazil o izpolnjevanju kriterijev za pridobitev varnostnega spričevala. ''</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Prilogi A in B se nadomestita z novima prilogama A in B, ki sta kot prilogi objavljeni skupaj s to uredbo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 342-08/2000-2</p>
 <p>Ljubljana, dne 29. aprila 2004</p>
@@ -57,5 +70,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-04-30", "kratica": "URED3220", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o kriterijih za ugotavljanje izpolnjevanja pogojev za pridobitev varnostnega spričevala in o postopku za izdajo varnostnega spričevala", "url": "/trubar/si/URED3220/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

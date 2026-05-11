@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2415" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZObr-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZObr-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZObr-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZObr-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembi in dopolnitvi zakona o obrambi</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,14 +50,14 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBI IN DOPOLNITVI ZAKONA  O OBRAMBI (ZObr-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o obrambi (Uradni list RS, št. 82/94) se  29. člen spremeni in dopolni tako, da se glasi:</p>
 <h3>“29. člen</h3>
 <h3>(obrambni objekti in okoliši)</h3>
 <p>(1) Vlada določi objekte in okoliše objektov, ki so posebnega pomena za obrambo ter predpiše ukrepe za njihovo varovanje.</p>
 <p>(2) Okoliš iz prejšnjega odstavka je funkcionalno, ograjeno ali neograjeno zemljišče vojaškega ali drugega objekta, ki je posebnega pomena za obrambo ter varnostni pas ali območje, ki je potrebno za varno uporabo takega objekta. Kot okoliš posebnega pomena za obrambo se lahko določi tudi območje, predvideno za razmestitev vojske.</p>
 <p>(3) Ministrstvo daje soglasje k prometu z zemljišči v okoliših iz tega člena, če obrambni interes ni zavarovan z drugimi predpisi ter soglasje za meritve, snemanje in raziskave v teh okoliših in objektih, posebnega pomena za obrambo.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 200-01/90-3/40</p>
 <p>Ljubljana, dne 10. julija 1997.</p>
@@ -60,5 +73,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-07-24", "kratica": "ZObr-A", "naziv": "Zakon o spremembi in dopolnitvi zakona o obrambi", "url": "/trubar/si/ZObr-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

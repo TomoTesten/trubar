@@ -21,34 +21,47 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1264" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO525.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO525" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO525.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO525,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik za vodenje evidenc količin mleka in mlečnih izdelkov ter poročanje</h1>
 <p>Na podlagi petega odstavka 30. člena uredbe o ureditvi trga z mlekom in mlečnimi izdelki (Uradni list RS, št. 111/00) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>N A V O D I L O</h2>
 <p>za vodenje evidenc količin mleka in mlečnih  izdelkov ter poročanje</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina navodila)</h3>
 <p>To navodilo določa način vodenja evidenc količin mleka in mlečnih izdelkov ter poročanja kmetijskih gospodarstev in odkupovalcev mleka.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(pomen izrazov)</h3>
 <p>V tem navodilu uporabljeni izrazi imajo naslednji pomen:<br />
 – ‘kmetijsko gospodarstvo’ pomeni vsako fizično ali pravno oseba, ki proizvaja mleko;<br />
 – ‘odkupovalec mleka’ pomeni vsako fizično ali pravno osebo, ki od kmetijskih gospodarstev kupi mleko z namenom toplotne obdelave ali predelave v mlečne izdelke, ali z namenom nadaljnje prodaje drugi fizični ali pravni osebi, ki mleko toplotno obdela ali predela v mlečne izdelke;<br />
 – ‘neposredna prodaja mleka in mlečnih izdelkov’ pomeni prodajo mleka in mlečnih izdelkov s kmetijskih gospodarstev direktno za potrošnjo ali trgovini;<br />
 – ‘poraba mleka in mlečnih izdelkov na kmetijskem gospodarstvu’ pomeni porabo mleka in mlečnih izdelkov v gospodinjstvu ali za krmljenje živali na kmetijskem gospodarstvu.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(vodenje evidence na kmetijskih gospodarstvih)</h3>
 <p>Kmetijska gospodarstva vodijo dnevno evidenco o porabi mleka in mlečnih izdelkov na kmetijskem gospodarstvu in dnevno evidenco o neposredni prodaji mleka in mlečnih izdelkov iz drugega odstavka 30. člena uredbe o ureditvi trga z mlekom in mlečnimi izdelki (Uradni list RS, št. 111/00) (v nadaljnjem besedilu: uredba) na vzorcu obrazca iz Priloge 1, ki je sestavni del tega navodila ali na drug ustrezen način, ki omogoča dnevno vodenje evidenc mleka in posameznih mlečnih izdelkov.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(obrazec za poročanje kmetijskih gospodarstev)</h3>
 <p>Kmetijska gospodarstva poročajo podatke iz drugega odstavka 30. člena uredbe na obrazcu iz Priloge 2, ki je sestavni del tega navodila.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(obrazec za poročanje odkupovalcev mleka)</h3>
 <p>Odkupovalci mleka poročajo podatke iz tretjega odstavka 30. člena uredbe na obrazcu iz Priloge 3, ki je sestavni del tega navodila.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <h3>(končna določba)</h3>
 <p>To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne s 1. aprilom 2001 .</p>
 <p>Št. 321-78/01</p>
@@ -68,5 +81,36 @@ prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-03-23", "kratica": "NAVO525", "naziv": "Pravilnik za vodenje evidenc količin mleka in mlečnih izdelkov ter poročanje", "url": "/trubar/si/NAVO525/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

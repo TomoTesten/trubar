@@ -21,28 +21,41 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-1899" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2690.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2690" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2690.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2690,vrsta:uredba">
+    
     <h1>Uredba o spremembi in dopolnitvi uredbe o določitvi in načinu obračunavanja posebnega nadomestila za izvrševanje gospodarske javne službe oblikovanja obveznih rezerv nafte in njenih derivatov</h1>
 <p>Na podlagi 21.b člena zakona o blagovnih rezervah (Uradni list RS, št. 60/95 in 38/99) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembi in dopolnitvi uredbe o določitvi<br />
 in načinu obračunavanja posebnega nadomestila za izvrševanje gospodarske javne službe oblikovanja obveznih rezerv nafte<br />
 in njenih derivatov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o določitvi in načinu obračunavanja posebnega nadomestila za izvrševanje gospodarske javne službe oblikovanja obveznih rezerv nafte in njenih derivatov (Uradni list RS, št. 96/99, 29/00, 102/00 in 85/01) se v 2. členu spremeni prvi odstavek, tako da se glasi:<br />
 ‘’Zavezanci so dolžni Zavodu za obvezne rezerve nafte in njenih derivatov (v nadaljevanju: zavod) plačevati članarino v višini 1,8 SIT/l za motorni bencin, letalski bencin, letalsko gorivo na bencinski bazi in 1,7 SIT/l za dizelsko gorivo, ekstra lahko kurilno olje, gorilni kerozin, letalsko gorivo na kerozinski bazi ter 1,7 SIT/kg za kurilno olje”.<br />
 Doda se nov drugi odstavek, ki se glasi:<br />
 ‘’Članarina iz prejšnjega odstavka ne vključuje davka na dodano vrednost.”<br />
 Dosedanji drugi odstavek postane tretji odstavek, dosedanji tretji odstavek, ki postane četrti odstavek, pa se spremeni, tako da se glasi:<br />
 ‘’Članarina se doda prodajni ceni pred obdavčitvijo.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 4. členu se za tretjim odstavkom doda nov četrti odstavek, ki se glasi:<br />
 ‘’Na podlagi prijave o članarini zavod izda zavezancu za plačilo članarine ustrezno listino v skladu s 33. in 34. členom zakona o davku na dodano vrednost (Uradni list RS, št. 89/98, 17/00, 30/01, 103/01, 67/02 in 30/03; v nadaljevanju: <a href="/trubar/si/ZDDV/" class="law-ref" title="ZDDV">ZDDV</a>).”<br />
 Dosedanji četrti do šesti odstavek postanejo peti do sedmi odstavek.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati 29. aprila 2003.</p>
 <p>Št. 427-06/2001-2</p>
 <p>Ljubljana, dne 24. aprila 2003.</p>
@@ -58,5 +71,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-04-28", "kratica": "URED2690", "naziv": "Uredba o spremembi in dopolnitvi uredbe o določitvi in načinu obračunavanja posebnega nadomestila za izvrševanje gospodarske javne službe oblikovanja obveznih rezerv nafte in njenih derivatov", "url": "/trubar/si/URED2690/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

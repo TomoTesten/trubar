@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Ministrstvo za delo, družino, socialne zadeve in enake možnosti</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2020-01-2719" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO1162.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO1162" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO1162.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO1162,vrsta:navodilo">
+    
     <h1>Navodilo o dopolnitvah Navodila o postopku za uveljavljanje pravice do nadomestila preživnine</h1>
 <p>Na podlagi četrtega odstavka 25. člena Zakona o Javnem štipendijskem, razvojnem, invalidskem in preživninskem skladu Republike Slovenije (Uradni list RS, št. 78/06 – uradno prečiščeno besedilo, 106/12, 39/16, 11/18 – ZIZ-L in 139/20) minister za delo, družino, socialne zadeve in enake možnosti izdaja</p>
 <p>N A V O D I L O</p>
@@ -67,5 +80,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2020-10-30", "kratica": "NAVO1162", "naziv": "Navodilo o dopolnitvah Navodila o postopku za uveljavljanje pravice do nadomestila preživnine", "url": "/trubar/si/NAVO1162/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

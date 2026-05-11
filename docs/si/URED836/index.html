@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0667" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED836.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED836" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED836.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED836,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o dostavljanju podatkov o zunanjetrgovinskem in deviznem poslovanju za leto 1993 davčnemu organu in deviznemu inšpektoratu za potrebe davčnega in deviznega nadziranja</h1>
 <p>Na podlagi prvega odstavka 26. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93) ter četrtega odstavka 68. člena in drugega odstavka 100b člena zakona o deviznem poslovanju (Uradni list RS, št. 1/91-I in 71/93) izdaja Vlada Republike Slovenije</p>
 <h2>UREDBO</h2>
@@ -32,16 +45,16 @@
 deviznem poslovanju za leto 1993 davčnemu organu in<br />
 deviznemu inšpektoratu za potrebe davčnega in deviznega<br />
 nadziranja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S to uredbo se določajo vsebina, oblika, način in roki dostave podatkov o zunanjetrgovinskem in deviznem poslovanju domačih oseb za leto 1993 davčnemu organu in deviznemu inšpektoratu za potrebe davčnega in deviznega nadziranja.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Podatke iz 1. člena te uredbe pridobi Služba družbenega knjigovodstva kot davčni organ za potrebe davčnega nadziranja najprej od poslovnih bank preko Banke Slovenije, ki jih Banka Slovenije zagotavlja na podlagi zakona o Banki Slovenije, zakona o deviznem poslovanju, zakona o kreditnih poslih s tujino in zakona o zunanjetrgovinskem poslovanju v obliki in vsebini skladno s sklepom o obveznosti poročanja o poslih s tujino (Uradni list RS, št. 60/92). navodilo za izvajanje sklepa o obveznosti poročanja o poslih s tujino (Uradni list RS, št. 8/93 in 19/93) in navodilo o načinu opravljanja plačilnega prometa s tujino (Uradni list RS, št. 63/92 in 71/93). Enotno urejene podatke prevzame Služba družbenega knjigovodstva od Banke Slovenije za leto 1993 do 30. aprila 1994 na magnetnem mediju in jih vnese v svoj informacijski sistem.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Podatke iz 1. člena te uredbe pridobi devizni inšpektorat od Banke Slovenije za svoje potrebe neposredno od Banke Slovenije v obliki, vsebini in na način, kot se dogovori z Banko Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Carinski organi posredujejo Službi družbenega knjigovodstva podatke o uvozu in izvozu blaga in storitev za potrebe davčnega, nadziranja preko Republiške carinske uprave na način, kot jih zagotavljajo na podlagi 5. člena zakona o carinski službi, do 30. aprila 1994 ter posamezne podatke po potrebi v okviru pravne pomoči kot velja med organi, ki odločajo o upravnih stvareh.<br />
 Republiškemu deviznemu inšpektoratu posredujejo carinski organi podatke iz predhodnega odstavka po potrebi, na njegovo posamično zahtevo, preko Republiške carinske uprave.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 430-02/94-1/2-8</p>
 <p>Ljubljana, dne 24. marca 1994</p>
@@ -56,5 +69,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-04-01", "kratica": "URED836", "naziv": "Uredba o dostavljanju podatkov o zunanjetrgovinskem in deviznem poslovanju za leto 1993 davčnemu organu in deviznemu inšpektoratu za potrebe davčnega in deviznega nadziranja", "url": "/trubar/si/URED836/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

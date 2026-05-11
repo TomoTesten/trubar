@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-02-0026" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3798.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3798" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3798.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED3798,vrsta:uredba">
+    
     <h1>Uredba o ratifikaciji Dogovora med Republiko Slovenijo in Bosno in Hercegovino o trajnem odstopu kontingenta Republike Slovenije v višini 800 delovnih dovoljenj na podlagi sporazumov Republike Slovenije z Zvezno republiko Nemčijo iz 1988. in 1991. leta v korist Bosne in Hercegovine in o pogojih koriščenja trajno odstopljenega kontingenta</h1>
 <p>Na podlagi tretje alinee petega odstavka 75. člena Zakona o zunanjih zadevah (Uradni list RS, št. 113/03 – uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>O RATIFIKACIJI DOGOVORA MED REPUBLIKO SLOVENIJO IN BOSNO IN HERCEGOVINO O TRAJNEM ODSTOPU KONTINGENTA REPUBLIKE SLOVENIJE V VIŠINI 800 DELOVNIH DOVOLJENJ NA PODLAGI SPORAZUMOV REPUBLIKE SLOVENIJE Z ZVEZNO REPUBLIKO NEMČIJO IZ 1988. IN 1991. LETA V KORIST BOSNE IN HERCEGOVINE IN O POGOJIH KORIŠČENJA TRAJNO ODSTOPLJENEGA KONTINGENTA</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Dogovor med Republiko Slovenijo in Bosno in Hercegovino o trajnem odstopu kontingenta Republike Slovenije v višini 800 delovnih dovoljenj na podlagi sporazumov Republike Slovenije z Zvezno Republiko Nemčijo iz 1988. in 1991. leta v korist Bosne in Hercegovine in o pogojih koriščenja trajno odstopljenega kontingenta, sklenjen z izmenjavo not 2. decembra 2004.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sporazum se v izvirniku v slovenskem in bosanskem jeziku ter v prevodu glasi:</p>
 <p>Št.: 287/04</p>
 <p>Ministrstvo za zunanje zadeve Republike Slovenije izraža spoštovanje Veleposlaništvu Bosne in Hercegovine ter ima v zvezi s pismi Ministrstva za zunanjo trgovino in ekonomske odnose Bosne in Hercegovine št. 02-01-116/03 z dne 8. 1. 2003 in št. 03-1-7170/03 z dne 20. 6. 2003, v katerih to ministrstvo izraža pripravljenost, da omogoči prednost bosansko-hercegovskim podjetjem z večinskim deležem slovenskega kapitala in bosansko-hercegovskim podjetjem, ki skupaj s temi podjetji nastopajo pri izvajanju del v Zvezni Republiki Nemčiji in koriščenje najmanj 50% odstopljenega kontingenta delovnih dovoljenj, čast predlagati naslednje:<br />
@@ -70,9 +83,9 @@ Sarajevo, 02. decembra 2004. godine</p>
 Vlada Bosne in Hercegovine se strinja s predlaganim v noti Ministrstva za zunanje zadeve Republike Slovenije, tako da nota MZZ Republike Slovenije številka 287/04 z dne 01. 12. 2004 in ta nota predstavljata dogovor o trajnem odstopu kontingenta Republike Slovenije v višini 800 delovnih dovoljenj na podlagi sporazumov Republike Slovenije z Zvezno Republiko Nemčijo iz 1988. in 1991. leta v korist Bosne in Hercegovine in o pogojih koriščenja trajno odstopljenega kontingenta. Ta dogovor začne veljati, ko se obe strani po diplomatski poti obvestita, da so za to izpolnjeni pogoji, predvideni z njuno notranjo zakonodajo, začasno pa se uporablja z dnem izmenjave teh not.<br />
 Ministrstvo za zunanje zadeve Bosne in Hercegovine izkorišča to priložnost, da Veleposlaništvu Republike Slovenije izrazi svoje odlično spoštovanje.<br />
 Sarajevo, 02. decembra 2004</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje dogovora skrbi Ministrstvo za delo, družino in socialne zadeve.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 00724-40/2005/3</p>
 <p>Ljubljana, dne 28. aprila 2005</p>
@@ -88,5 +101,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-05-18", "kratica": "URED3798", "naziv": "Uredba o ratifikaciji Dogovora med Republiko Slovenijo in Bosno in Hercegovino o trajnem odstopu kontingenta Republike Slovenije v višini 800 delovnih dovoljenj na podlagi sporazumov Republike Slovenije z Zvezno republiko Nemčijo iz 1988. in 1991. leta v korist Bosne in Hercegovine in o pogojih koriščenja trajno odstopljenega kontingenta", "url": "/trubar/si/URED3798/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

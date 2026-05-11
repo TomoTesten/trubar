@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-2494" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6971.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV6971" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6971.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV6971,vrsta:pravilnik">
+    
     <h1>Pravilnik o programski klasifikaciji izdatkov občinskih proračunov</h1>
 <p>Na podlagi petega odstavka 11. člena zakona o javnih financah (Uradni list RS, št. 79/99, 124/00, 79/01, 30/02, 56/02 – <a href="/trubar/si/ZJU/" class="law-ref" title="ZJU">ZJU</a> in 110/02 – <a href="/trubar/si/ZDT-B/" class="law-ref" title="ZDT-B">ZDT-B</a>) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o programski klasifikaciji izdatkov občinskih proračunov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa programsko klasifikacijo izdatkov občinskih proračunov (v nadaljnjem besedilu: programska klasifikacija).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Izdatki občinskih proračunov in finančnih načrtov neposrednih uporabnikov občinskih proračunov (v nadaljnjem besedilu: neposredni uporabnik) se v skladu s programsko klasifikacijo razvrščajo v:<br />
 1. področja proračunske porabe,<br />
 2. glavne programe in<br />
@@ -42,10 +55,10 @@ BB – šifra glavnega programa,<br />
 90 – šifra za podprograme občin in<br />
 CC – zaporedna številka podprograma.<br />
 Novi podprogrami se na predlog občin in v soglasju z ministrstvom, pristojnim za finance, uvedejo najkasneje do 30. junija tekočega leta za naslednje proračunsko leto.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Programska klasifikacija se uporablja pri pripravi predlogov občinskih proračunov in finančnih načrtov neposrednih uporabnikov ter pri njihovem izvrševanju.<br />
 Programska klasifikacija se prvič uporabi pri pripravi občinskih proračunov in finančnih načrtov neposrednih uporabnikov za leto 2006.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 411-14/2004</p>
 <p>Ljubljana, dne 23. maja 2005.</p>
@@ -520,5 +533,36 @@ dr. Andrej Bajuk l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-06-15", "kratica": "PRAV6971", "naziv": "Pravilnik o programski klasifikaciji izdatkov občinskih proračunov", "url": "/trubar/si/PRAV6971/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

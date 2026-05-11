@@ -6,7 +6,8 @@ Strategy: iterate PISRS Register predpisov year by year (avoiding the ~1000-item
 cursor cap that applies to the unfiltered index). For each year, cursor-paginate
 through all items and collect non-ZAKO acts, then fetch their text from Uradni list RS.
 
-Known limitation: year 2023 has 1,279 items; cursor cap yields ~1,000 of them.
+For years exceeding ~1000 items, falls back to subject-area (podrocjeVsebina)
+subdivision to stay under the cursor cap and retrieve all items.
 
 Usage:
   python fetch_podzakonski.py [--limit N] [--dry-run] [--delay SEC]
@@ -75,13 +76,11 @@ def pisrs_years():
             if isinstance(f.get("value"), int)]
 
 
-def pisrs_items_for_year(year):
-    """Yield all Register predpisov items for a given year (up to ~1000)."""
+def _cursor_pages(body):
+    """Generic cursor-paginated PISRS fetch."""
     cursor = "*"
     while True:
-        data  = pisrs_post({"cursorMark": cursor},
-                           {"nazivZbirke": ["Register predpisov"],
-                            "datumi": {"letoObjave": year}})
+        data  = pisrs_post({"cursorMark": cursor}, body)
         items = data.get("seznam") or []
         if not items:
             break
@@ -91,6 +90,41 @@ def pisrs_items_for_year(year):
             break
         cursor = nc
         time.sleep(0.08)
+
+
+def pisrs_items_for_year(year):
+    """Yield all Register predpisov items for a year.
+
+    For years with <=1000 items: single cursor-paginated query.
+    For years exceeding the cap: subdivide by podrocjeVsebina (subject area)
+    and deduplicate, guaranteeing all items are retrieved.
+    """
+    base_body = {"nazivZbirke": ["Register predpisov"], "datumi": {"letoObjave": year}}
+
+    # Check total count first
+    probe = pisrs_post({"cursorMark": "*"}, base_body)
+    total = probe.get("numOfAllResultsForIndex", 0)
+
+    if total <= 900:
+        yield from _cursor_pages(base_body)
+        return
+
+    # Year exceeds safe limit — subdivide by subject area
+    areas = [f["value"] for f in probe.get("podrocjeVsebinaFacet", []) if f.get("value")]
+    seen  = set()
+    for area in areas:
+        body = {**base_body, "podrocjeVsebina": [area]}
+        for item in _cursor_pages(body):
+            zid = item.get("zunanjiId") or item.get("sop", "")
+            if zid and zid not in seen:
+                seen.add(zid)
+                yield item
+    # Catch items with no subject area (yield from unfiltered, skip seen)
+    for item in _cursor_pages(base_body):
+        zid = item.get("zunanjiId") or item.get("sop", "")
+        if not zid or zid not in seen:
+            seen.add(zid)
+            yield item
 
 
 def build_index(from_year=0):

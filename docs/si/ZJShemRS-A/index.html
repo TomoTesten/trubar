@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2041" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZJShemRS-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZJShemRS-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZJShemRS-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZJShemRS-A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o spremembah in dopolnitvah Zakona o jamstveni shemi Republike Slovenije</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O JAMSTVENI SHEMI REPUBLIKE SLOVENIJE (ZJShemRS-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o jamstveni shemi Republike Slovenije (Uradni list RS, št. 33/09) se v prvem odstavku 6. člena doda za besedo »družbe« besedilo »in po zakonu, ki ureja zadruge, oboje«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 13. člena se za besedo »jamstva« doda besedilo »za kredite, ki so zavarovani s kvalitetnim zavarovanjem skladno z običajno bančno prakso«.<br />
 V prvi, drugi in tretji alineji prvega odstavka se za besedo »kredita,« doda besedilo »v delu, zavarovanem z jamstvom po tem zakonu«.<br />
 Doda se nov drugi odstavek, ki se glasi:<br />
@@ -50,7 +63,7 @@ Doda se nov drugi odstavek, ki se glasi:<br />
 V dosedanjem drugem odstavku, ki postane tretji odstavek, se besedi »prejšnjega odstavka« nadomestita z besedilom »prvega in drugega odstavka tega člena«.<br />
 V dosedanjem tretjem odstavku, ki postane četrti odstavek, se za besedo »prvega« doda besedilo »in drugega«.<br />
 V dosedanjem četrtem odstavku, ki postane peti odstavek, se za besedo »prvega« doda besedilo »in drugega« in beseda »tretjega« nadomesti z besedo »četrtega«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za 13. členom se doda nov 13.a člen, ki se glasi:</p>
 <h3>»13.a člen</h3>
 <h3>(omejitve pri poslovanju bank)</h3>
@@ -66,7 +79,7 @@ c) je uveden postopek presoje koncentracije zaradi neskladnosti s pravili konkur
 (5) Nadzor nad izvajanjem določb tega člena izvaja ministrstvo, pristojno za finance. Banke iz prvega odstavka tega člena so dolžne ministrstvu, pristojnemu za finance, na njegovo zahtevo posredovati podatke o stanju izpostavljenosti iz poslov iz prvega in drugega odstavka tega člena.<br />
 (6) Ministrstvo, pristojno za finance, je dolžno s podatki, pridobljenimi na podlagi tega člena, ravnati v skladu z določbami zakona, ki ureja bančništvo.<br />
 (7) Pogodbe, sklenjene v nasprotju z določbami tega člena, so nične.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za 17. členom se doda novo poglavje, ki se glasi:</p>
 <h3>»III.a SANKCIJE V PRIMERU KRŠITEV</h3>
 <h3>17.a člen</h3>
@@ -78,7 +91,7 @@ c) je uveden postopek presoje koncentracije zaradi neskladnosti s pravili konkur
 <h3>(uveljavljanje ničnosti)</h3>
 <p>Ničnost pogodb iz 13.a in 17.a člena tega zakona uveljavlja v javnem interesu državni pravobranilec Republike Slovenije.«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(začetek veljavnosti)</h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 411-07/09-22/22</p>
@@ -96,5 +109,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-06-05", "kratica": "ZJShemRS-A", "naziv": "Zakon o spremembah in dopolnitvah Zakona o jamstveni shemi Republike Slovenije", "url": "/trubar/si/ZJShemRS-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

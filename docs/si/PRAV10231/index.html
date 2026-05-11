@@ -21,18 +21,31 @@
       <dt>Organ</dt><dd>Ministrstvo za kulturo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-1618" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10231.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10231" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10231.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10231,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o merilih za ugotavljanje redne delovne uspešnosti direktorjev pravnih oseb javnega prava s področja kulture</h1>
 <p>Na podlagi tretjega odstavka 22.a člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 108/09 – uradno prečiščeno besedilo, in 13/10) in petega odstavka 8. člena Uredbe o plačah direktorjev v javnem sektorju (Uradni list RS, št. 73/05, 103/05, 12/06, 36/06, 46/06, 77/06, 128/06, 37/07, 95/07, 112/07, 104/08, 123/08, 21/09, 61/09, 91/09 in 3/10) ministrica za kulturo izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o merilih za ugotavljanje redne delovne uspešnosti direktorjev pravnih oseb javnega prava s področja kulture</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o merilih za ugotavljanje redne delovne uspešnosti direktorjev pravnih oseb javnega prava s področja kulture (Uradni list RS, št. 7/09) se v 1. členu doda tretji odstavek, ki se glasi:<br />
 »(3) Ta pravilnik se uporablja tudi za namestnike in pomočnike direktorjev ter člane uprave.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugem odstavku 2. člena se za besedo »leto« doda besedilo », razen ko direktorja imenuje sam svet pravne osebe javnega prava«.<br />
 Dodajo se tretji, četrti in peti odstavek, ki se glasijo:<br />
 »(3) Kadar organ iz prvega odstavka tega člena ni hkrati tudi organ ustanovitelja, mora pri odločanju o višini dela plače za redno delovno uspešnost direktorja pridobiti soglasje ustanovitelja.<br />
@@ -40,7 +53,7 @@ Dodajo se tretji, četrti in peti odstavek, ki se glasijo:<br />
 (5) V primeru iz tretjega odstavka, kadar je ustanoviteljica država, ter četrtega odstavka mora organ iz prvega odstavka za soglasje zaprositi najpozneje do 30. septembra tekočega leta za preteklo poslovno leto.«<br />
 Dosedanji tretji odstavek se črta.<br />
 V dosedanjem četrtem odstavku, ki postane šesti odstavek, se črta besedilo »oziroma ministrica, pristojna za kulturo (v nadaljnjem besedilu: minister)«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0070-4/2010/3</p>
 <p>Ljubljana, dne 15. aprila 2010</p>
@@ -56,5 +69,36 @@ za kulturo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-04-23", "kratica": "PRAV10231", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o merilih za ugotavljanje redne delovne uspešnosti direktorjev pravnih oseb javnega prava s področja kulture", "url": "/trubar/si/PRAV10231/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

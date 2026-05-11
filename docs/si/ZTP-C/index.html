@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0313" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZTP-C.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZTP-C" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZTP-C.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZTP-C,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah Zakona o tajnih podatkih</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,16 +50,16 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH ZAKONA O TAJNIH PODATKIH (ZTP-C)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o tajnih podatkih (Uradni list RS, št. 50/06 - uradno prečiščeno besedilo) se prvi in drugi odstavek 22. člena spremenita tako, da se glasita:<br />
 »Dovoljenja za dostop osebe do tajnih podatkov stopenj ZAUPNO, TAJNO ali STROGO TAJNO izdajajo ministrstvo, pristojno za notranje zadeve, ministrstvo, pristojno za obrambo, ter Slovenska obveščevalno-varnostna agencija (v nadaljnjem besedilu: pristojni organ).<br />
 Osebam, ki bodo dostop do tajnih podatkov potrebovale zaradi opravljanja funkcij ali izvajanja nalog na delovnih mestih v ministrstvu, pristojnem za notranje zadeve, ministrstvu, pristojnem za obrambo, ali Slovenski obveščevalno-varnostni agenciji, dovoljenje izda, skladno z določili tega zakona in predpisi, izdanimi na njegovi podlagi, minister, pristojen za notranje zadeve, oziroma minister, pristojen za obrambo, oziroma direktor Slovenske obveščevalno-varnostne agencije. O izdaji dovoljenja obvestijo nacionalni varnostni organ.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugem odstavku 35. člena se beseda »Policija« nadomesti z besedilom »ministrstvo, pristojno za notranje zadeve«.</p>
 <h3>PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Z dnem uveljavitve tega zakona ministrstvo, pristojno za notranje zadeve, od Policije prevzame vse nerešene zadeve za izdajo dovoljenj za dostop do tajnih podatkov in izdajo varnostnih dovoljenj organizacijam.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati 1. januarja 2010.</p>
 <p>Št. 040-05/09-45/21</p>
 <p>Ljubljana, dne 28. januarja 2010</p>
@@ -63,5 +76,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-02-09", "kratica": "ZTP-C", "naziv": "Zakon o spremembah Zakona o tajnih podatkih", "url": "/trubar/si/ZTP-C/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

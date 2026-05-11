@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3036" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPOP-1B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPOP-1B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPOP-1B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPOP-1B,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-5">5</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Zakon o spremembah in dopolnitvah Zakona o podpornem okolju za podjetništvo</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,10 +50,10 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O PODPORNEM OKOLJU ZA PODJETNIŠTVO (ZPOP-1B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o podpornem okolju za podjetništvo (Uradni list RS, št. 102/07 in 57/12) se v 3. členu prva alineja spremeni tako, da se glasi:<br />
 »– "podjetje" je vsaka pravna ali fizična oseba, ki se ukvarja z gospodarsko dejavnostjo, ne glede na njeno pravno obliko,«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>in 5. člen se spremenita tako, da se glasita:</li>
 </ol>
@@ -49,7 +62,7 @@ Republike Slovenije</p>
 <p>(1) Temeljni dokument načrtovanja v podjetništvu in pri inovativnosti na državni ravni je strategija, ki opredeljuje industrijsko politiko Republike Slovenije. Strategijo sprejme Vlada Republike Slovenije na predlog ministrice oziroma ministra, pristojnega za gospodarstvo (v nadaljnjem besedilu: minister, pristojen za gospodarstvo).<br />
 (2) Strategija je skladna s strateškimi razvojnimi dokumenti Republike Slovenije.<br />
 (3) Industrijska politika postavlja usmeritve, ki vsebujejo ukrepe za povečanje konkurenčnosti poslovnega okolja, krepitev podjetništva in inovacijske sposobnosti gospodarstva, učinkovit odgovor na družbene izzive ter aktivnosti za trajnostni razvoj industrije.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(razvojne spodbude za podjetništvo in inovativnost)</h3>
 <p>(1) Razvojne spodbude so spodbude, namenjene spodbujanju podjetništva in inovativnosti, ki prispevajo k uresničevanju temeljnih ciljev tega zakona. Razvojne spodbude so povratna ali nepovratna sredstva za:<br />
 – regionalne spodbude,<br />
@@ -69,14 +82,14 @@ Republike Slovenije</p>
 – finančna konstrukcija projekta in<br />
 – usposobljenost za izvedbo projekta.<br />
 (4) Podrobnejše pogoje, merila in vrste spodbud za podjetništvo in inovativnost določi Vlada Republike Slovenije z uredbo.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V Zakonu o spremembah in dopolnitvah Zakona o podpornem okolju za podjetništvo (Uradni list RS, št. 57/12) se črta 6. člen.</p>
 <h3>PREHODNI IN KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Uredbo iz 2. člena tega zakona izda Vlada Republike Slovenije v enem letu od uveljavitve tega zakona.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Do izdaje uredbe iz 2. člena tega zakona se uporablja Program ukrepov za spodbujanje podjetništva in konkurenčnosti za obdobje 2007–2013, ki ga je vlada sprejela na seji 6. julija 2006, in veljavne sheme državnih pomoči.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 300-01/13-15/16</p>
 <p>Ljubljana, dne 26. septembra 2013</p>
@@ -93,5 +106,36 @@ Podpredsednica</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-10-08", "kratica": "ZPOP-1B", "naziv": "Zakon o spremembah in dopolnitvah Zakona o podpornem okolju za podjetništvo", "url": "/trubar/si/ZPOP-1B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5392" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZVN-G.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZZVN-G" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZVN-G.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZZVN-G,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o žrtvah vojnega nasilja</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,16 +50,16 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA  O ŽRTVAH VOJNEGA NASILJA (<a href="/trubar/si/ZZVN-H/" class="law-ref" title="ZZVN-H">ZZVN-H</a>)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o žrtvah vojnega nasilja (Uradni list RS, št. 63/95, 8/96, 44/96, 68/96, 70/97, 39/98, 43/99, 19/2000, 28/2000, 1/2001 in 64/2001) se v prvem odstavku 2. člena za besedama “ali internacijo” doda besedilo “oziroma je bila kot pripadnik bivše jugoslovanske vojske v vojni od 6. 4. 1941 do 17. 4. 1941 odpeljana v ujetništvo”.<br />
 Osmi odstavek se spremeni tako, da se glasi:</p>
 <p>“Žrtev vojnega nasilja je ob pogojih iz 1. člena tega zakona tudi otrok, katerega starš je bil ubit kot pripadnik bivše jugoslovanske vojske v vojni od 6. 4. 1941 do 17. 4. 1941, ali je padel, umrl ali je bil pogrešan zaradi sodelovanja z NOB Slovenije, bil ubit kot talec ali je umrl ali bil pogrešan v okoliščinah za priznanje statusa žrtve vojnega nasilja po tem zakonu do 15. 5. 1945, oziroma tudi po tem datumu, če je umrl ali je bil pogrešan med čakanjem na vrnitev ali na poti v domovino, vendar najkasneje do 31. 12. 1945, ter tudi oseba, ki je pobegnila pred izgonom na isto okupacijsko ozemlje.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
 <p>“Ob pogojih iz tega zakona je žrtev vojnega nasilja tudi vojaški vojni invalid, civilni invalid vojne pa je žrtev vojnega nasilja na podlagi priznanega invalidskega statusa po posebnem zakonu.”</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 545-07/93-4/72</p>
 <p>Ljubljana, dne 29. novembra 2002.</p>
@@ -62,5 +75,36 @@ dr. Mihael Brejc l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-12-18", "kratica": "ZZVN-G", "naziv": "Zakon o spremembah in dopolnitvah zakona o žrtvah vojnega nasilja", "url": "/trubar/si/ZZVN-G/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

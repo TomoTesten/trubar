@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-3342" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5508.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5508" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5508.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5508,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o javnem financiranju visokošolskih in drugih zavodov od leta 2004 do leta 2010</h1>
 <p>Na podlagi 75. člena Zakona o visokem šolstvu (Uradni list RS, št. 119/06 – uradno prečiščeno besedilo, 59/07 – <a href="/trubar/si/ZŠtip/" class="law-ref" title="ZŠtip">ZŠtip</a> (63/07 – popr.), 15/08 – odl. US, 64/08 in 86/09) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o javnem financiranju visokošolskih in drugih zavodov od leta 2004 do leta 2010</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o javnem financiranju visokošolskih in drugih zavodov od leta 2004 do leta 2010 (Uradni list RS, št. 134/03, 72/04, 4/06, 132/06, 99/08, 30/09 in 110/09; v nadaljnjem besedilu: uredba) se v prilogi Seznam dodiplomskih študijskih programov za leto 2010, razvrščenih po študijskih skupinah, spremeni in dopolni tako, da se:<br />
 – v vrstici 6 v stolpcu »Klasius« številka »34« nadomesti s številko »31«;<br />
 – v vrstici 122 v stolpcu »Študijski program« besedilo »Francoski jezik (dvopredmetni)« nadomesti z besedilom »Francoski jezik in književnost (dvopredmetni)«;<br />
@@ -41,12 +54,12 @@
 – v vrstici 429 v stolpcu »Klasius« številka »14« nadomesti s številko »48«;<br />
 – v vrstici 521 v stolpcu »Študijska skupina« številka »6« nadomesti s številko »3«;<br />
 – na koncu doda nova vrstica z zaporedno številko 531, v kateri se v stolpec »Visokošolski zavod« vpiše »UL«, v stolpec »Članica univerze« vpiše »FRI«, v stolpec »Klasius« vpiše številka »48«, v stolpec »Vrsta programa« vpiše »UN«, stolpec »Oznaka, da gre za bolonjski program« pusti prazno, v stolpec »Študijski program« vpiše »Računalništvo in informatika«, v stolpec »Trajanje programa v semestrih« vpiše številka »8« in v stolpec »Študijska skupina« vpiše številka »3«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prilogi Navodilo za izračun letnih sredstev za študijsko dejavnost za leto 2010 se spremeni prvi stavek 13. točke tako, da se za besedilom »V nadaljevanju se v skladu s 16. členom spremembe uredbe preveri, ali so« doda besedilo »pri javnih visokošolskih zavodih«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V Uredbi o spremembah in dopolnitvah Uredbe o javnem financiranju visokošolskih in drugih zavodov od leta 2004 do leta 2009 (Uradni list RS, št. 110/09) se v 16. členu za besedilom »V letu 2010 se dodatno« doda besedilo »pri javnih visokošolskih zavodih«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00723-4/2010</p>
 <p>Ljubljana, dne 22. julija 2010</p>
@@ -62,5 +75,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-07-23", "kratica": "URED5508", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o javnem financiranju visokošolskih in drugih zavodov od leta 2004 do leta 2010", "url": "/trubar/si/URED5508/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-T.R.U.B.A.R. — Transparentni Register Urejenih Besedil Aktov Republike
+T.R.U.B.A.R. — Transparentni Register Urejenih Besedil Aktov Republike Slovenije
 https://github.com/trubar-si/trubar
 
 Fetches Slovenian law texts from Uradni list RS, converts to Markdown,

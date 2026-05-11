@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-4324" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZUOPZP-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZUOPZP-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZUOPZP-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZUOPZP-B,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah Zakona o ukrepih za odpravo posledic določenih zemeljskih plazov večjega obsega iz let 2000 in 2001</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,17 +50,17 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O UKREPIH ZA ODPRAVO POSLEDIC DOLOČENIH ZEMELJSKIH PLAZOV VEČJEGA OBSEGA IZ LET 2000 IN 2001 (ZUOPZP-B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o ukrepih za odpravo posledic določenih zemeljskih plazov večjega obsega iz let 2000 in 2001 (Uradni list RS, št. 3/06 – uradno prečiščeno besedilo in 80/10 – <a href="/trubar/si/ZUPUDPP/" class="law-ref" title="ZUPUDPP">ZUPUDPP</a>) se v 2. členu doda nov peti odstavek, ki se glasi:<br />
 »(5) Ne glede na določbe prvega in tretjega odstavka tega člena se sredstva za izvajanje ukrepov zagotovijo tudi v državnih proračunih Republike Slovenije v obdobju od leta 2013 do leta 2020.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za drugim odstavkom 14. člena se doda nov tretji odstavek, ki se glasi:<br />
 »(3) Ne glede na določbo prejšnjega odstavka se sredstva za izvajanje ukrepov zagotovijo tudi v državnih proračunih Republike Slovenije v obdobju od leta 2013 do leta 2020.«.<br />
 Dosedanji tretji odstavek postane četrti odstavek.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V drugem odstavku 21. člena se črta besedilo »oziroma Direkcija za železniški promet«, besedilo »Agencija Republike Slovenije za okolje« pa se nadomesti z besedilom »ministrstvo, pristojno za okolje«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 212-07/12-5/11</p>
 <p>Ljubljana, dne 20. decembra 2012</p>
@@ -64,5 +77,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-12-31", "kratica": "ZUOPZP-B", "naziv": "Zakon o spremembah in dopolnitvah Zakona o ukrepih za odpravo posledic določenih zemeljskih plazov večjega obsega iz let 2000 in 2001", "url": "/trubar/si/ZUOPZP-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-02-0015" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MEBPSZ.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MEBPSZ" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MEBPSZ.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MEBPSZ,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o ratifikaciji Pogodbe med Republiko Slovenijo in Evropsko banko za obnovo in razvoj o prevzemu pravic in obveznosti iz posojilne pogodbe (Projekt Slovenskih železnic) z dne 12.04.1994 med Slovenskimi železnicami, d.d. in Evropsko banko za obnovo in razvoj in Pogodbe med Republiko Slovenijo, Evropsko investicijsko banko in Holdingom Slovenske železnice, d.o.o., o odstopu in prevzemu pravic in obveznosti (Projekt Slovenskih železnic/A, Projekt Slovenskih železnic B/, Projekt Slovenskih železnic II, Transjugoslovanski železniški projekt II/A)</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -44,11 +57,11 @@ Republike Slovenije</p>
 IN<br />
 POGODBE MED REPUBLIKO SLOVENIJO, EVROPSKO INVESTICIJSKO BANKO IN HOLDINGOM SLOVENSKE ŽELEZNICE, D.O.O., O ODSTOPU IN PREVZEMU PRAVIC IN OBVEZNOSTI (PROJEKT SLOVENSKIH ŽELEZNIC/A, PROJEKT SLOVENSKIH ŽELEZNIC/B, PROJEKT SLOVENSKIH<br />
 ŽELEZNIC II, TRANSJUGOSLOVANSKI ŽELEZNIŠKI PROJEKT II/A) (MEBPSZ)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificirata se<br />
 Pogodba med Republiko Slovenijo in Evropsko banko za obnovo in razvoj o prevzemu pravic in obveznosti iz posojilne pogodbe (Projekt Slovenskih železnic) z dne 12. 04. 1994 med Slovenskimi železnicami, d.d. in Evropsko banko za obnovo in razvoj, sklenjena v Londonu 31. maja 2004, in<br />
 Pogodba med Republiko Slovenijo, Evropsko investicijsko banko in Holdingom Slovenske železnice, d.o.o., o odstopu in prevzemu pravic in obveznosti (Projekt Slovenskih železnic/A, Projekt Slovenskih železnic/B, Projekt Slovenskih železnic II, Transjugoslovanski železniški projekt II/A), sklenjena v Ljubljani 15. julija 2004.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pogodbi se v izvirniku v angleškem jeziku ter v slovenskem prevodu glasita:(*1)<br />
 Operation Number: 110</p>
 <h2>A S S U M P T I O N  A G R E E M E N T</h2>
@@ -516,15 +529,15 @@ EVROPSKO INVESTICIJSKO BANKO<br />
 in v njenem imenu<br />
 C. Murphy l. r.    G. D. Spota l. r.<br />
 12. marca 2004 v Luxembourgu</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje pogodb skrbi Ministrstvo za finance.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Z dnem uveljavitve tega zakona prenehajo veljati:<br />
 – zakon o poroštvu Republike Slovenije za obveznosti iz pogodbe o najetju posojila Evropske banke za obnovo in razvoj, za obnovo Slovenskih železnic – Ljubljana (<a href="/trubar/si/ZPOPNPEB/" class="law-ref" title="ZPOPNPEB">ZPOPNPEB</a> – UL RS, št. 47/93);<br />
 – zakon o poroštvu Republike Slovenije za obveznosti iz pogodb o najetju posojila Evropske investicijske banke za obnovo slovenskih železnic (<a href="/trubar/si/ZPOPNPEI/" class="law-ref" title="ZPOPNPEI">ZPOPNPEI</a> – Uradni list RS, št.71/93);<br />
 – zakon o garanciji Republike Slovenije za obveznosti iz pogodbe o najetju kredita Evropske investicijske banke za projekt Slovenskih železnic II (<a href="/trubar/si/ZGOPS/" class="law-ref" title="ZGOPS">ZGOPS</a> – Uradni list RS, št.39/94);<br />
 – zakon o poroštvu Republike Slovenije za obveznosti iz naslova kredita najetega pri Evropski investicijski banki za Transjugoslovanski železniški projekt II/A (ZKPTP – Uradni list RS, št. 41/97);</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati 15. dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 440-03/05-135/1</p>
 <p>Ljubljana, dne 20. aprila 2005</p>
@@ -542,5 +555,36 @@ France Cukjati, dr. med.  l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-05-09", "kratica": "MEBPSZ", "naziv": "Zakon o ratifikaciji Pogodbe med Republiko Slovenijo in Evropsko banko za obnovo in razvoj o prevzemu pravic in obveznosti iz posojilne pogodbe (Projekt Slovenskih železnic) z dne 12.04.1994 med Slovenskimi železnicami, d.d. in Evropsko banko za obnovo in razvoj in Pogodbe med Republiko Slovenijo, Evropsko investicijsko banko in Holdingom Slovenske železnice, d.o.o., o odstopu in prevzemu pravic in obveznosti (Projekt Slovenskih železnic/A, Projekt Slovenskih železnic B/, Projekt Slovenskih železnic II, Transjugoslovanski železniški projekt II/A)", "url": "/trubar/si/MEBPSZ/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-1587" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZGD-1D.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZGD-1D" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZGD-1D.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZGD-1D,vrsta:Sprejet zakon">
+    
     <h1>Zakon o dopolnitvah Zakona o gospodarskih družbah</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O DOPOLNITVAH ZAKONA O GOSPODARSKIH DRUŽBAH (ZGD-1D)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o gospodarskih družbah (Uradni list RS, št. 65/09 – uradno prečiščeno besedilo) se za 38. členom doda nov 38.a člen, ki se glasi:</p>
 <h3>»38.a člen</h3>
 <h3>(odprava nasprotja interesov)</h3>
@@ -48,13 +61,13 @@ Republike Slovenije</p>
 (5) Ne glede na 263. člen tega zakona odškodninska odgovornost poslovodje ni izključena, čeprav je za sklenitev posla dala soglasje skupščina.<br />
 (6) Če soglasje iz prvega odstavka tega člena ni bilo dano, se šteje, da je pravni posel ničen.<br />
 (7) Akt o ustanovitvi lahko za sklenitev pravnega posla iz prvega odstavka tega člena določi strožje omejitve.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 689. členom se doda nov 689.a člen, ki se glasi:</p>
 <h3>»689.a člen</h3>
 <h3>(prekršek poslovodstva)</h3>
 <p>Z globo od 4.000 do 5.000 eurov se kaznuje za prekršek poslovodstvo, prokurist ali izvršni direktor delniške družbe ali družbe z omejeno odgovornostjo, ki sklene pravni posel iz prvega odstavka 38.a člena tega zakona brez soglasja nadzornega sveta, upravnega odbora ali skupščine, ali teh organov ne obvesti o sklenitvi pravnega posla v skladu z drugim odstavkom 38.a člena tega zakona.«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 310-01/11-3/28</p>
 <p>Ljubljana, dne 20. aprila 2011</p>
@@ -71,5 +84,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-05-03", "kratica": "ZGD-1D", "naziv": "Zakon o dopolnitvah Zakona o gospodarskih družbah", "url": "/trubar/si/ZGD-1D/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

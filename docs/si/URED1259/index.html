@@ -21,20 +21,33 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2335" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1259.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1259" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1259.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1259,vrsta:uredba">
+    
     <h1>Uredba o spremembi uredbe o emisiji snovi v zrak iz naprav pri pridobivanju aluminija</h1>
 <p>Na podlagi prvega odstavka 27. člena zakona o varstvu okolja (Uradni list RS, št. 32/93, 44/95 – odl. US, 1/96, 9/99 – odl. US, 56/99 – <a href="/trubar/si/ZON/" class="law-ref" title="ZON">ZON</a>, 22/00 – <a href="/trubar/si/ZJS/" class="law-ref" title="ZJS">ZJS</a> in 1/96) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembi uredbe o emisiji snovi v zrak  iz naprav pri pridobivanju aluminija</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o emisiji snovi v zrak iz naprav za pridobivanje aluminija (Uradni list RS, št. 73/94) se prvi odstavek 3. člena spremeni tako, da se glasi:</p>
 <p>“Naprave in njihovo obratovanje, načrtovanje ter ocenjevanje ukrepov zmanjševanja emisije iz naprav in izbor metod meritev pri pridobivanju aluminija mora ustrezati določilom smernic:</p>
 <p>– VDI 2286, Zmanjševanje emisij pri elektrolizni proizvodnji aluminija, 1998,<br />
 – VDI 3467, Zmanjševanje emisij pri pripravi ogljikovih surovin in elektrografita za izdelavo anod, 1982.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Tabela 1 se v 4. členu spremeni tako, da se glasi:</p>
 <p>“Tabela 1</p>
 <hr />
@@ -66,10 +79,10 @@ Emisijski faktor      -              200 kg/t Al      200 kg/t Al</p>
 <ul>
 <li>Velja za 1% žvepla v koksu.“</li>
 </ul>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Besedilo 8. člena se spremeni tako, da se glasi:</p>
 <p>“Za obstoječe elektrolizne peči iz 6. člena te uredbe začnejo mejne vrednosti in drugi pogoji iz 3. in 4. člena te uredbe veljati 31. oktobra 2007.“</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 356-06/2000-1</p>
 <p>Ljubljana, dne 1. junija 2000.</p>
@@ -84,5 +97,36 @@ Podpredsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-06-06", "kratica": "URED1259", "naziv": "Uredba o spremembi uredbe o emisiji snovi v zrak iz naprav pri pridobivanju aluminija", "url": "/trubar/si/URED1259/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,27 +21,40 @@
       <dt>Organ</dt><dd>Ministrstvo za notranje zadeve</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-5598" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5580.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5580" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5580.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5580,vrsta:pravilnik">
+    
     <h1>Pravilnik o določitvi tarife za izvajanje programov strokovnih izobraževanj na področju zasebnega varovanja</h1>
 <p>Na podlagi prvega odstavka 13. člena Zakona o zasebnem varovanju (Uradni list RS, št. 126/03) izdaja minister za notranje zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o določitvi tarife za izvajanje programov strokovnih izobraževanj na področju zasebnega varovanja</p>
 <h3>I. SPLOŠNA DOLOČBA</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina)</h3>
 <p>Ta pravilnik določa višino denarnega prispevka (v nadaljnjem besedilu: tarifa) za izvajanje programov strokovnih izobraževanj (v nadaljnjem besedilu: izobraževanje) za varnostne menedžerje, varnostnike čuvaje, varnostnike, varnostnike nadzornike, varnostne tehnike, pooblaščene inženirje varnostnih sistemov, operaterje v varnostno nadzornem centru (v nadaljnjem besedilu: operater VNC) ter varovanje oseb, opravljanje intervencije in varovanje javnih zbiranj.</p>
 <h3>II. TARIFA ZA IZVAJANJE PROGRAMOV IZOBRAŽEVANJA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(točkovni sistem za plačilo udeležbe v programih izobraževanja)</h3>
 <p>(1) Zbornica določi tarifo za udeležbo v programih izobraževanj, določenih s pravilnikom, ki ureja izvajanje javnih pooblastil na področju zasebnega varovanja.<br />
 (2) Višina tarife se določi s točkami.<br />
 (3) Vrednost točke po tem pravilniku znaša 1.000 tolarjev.<br />
 (4) Višina tarife iz prvega odstavka tega člena se določi tako, da se vsota točk, določena s tem pravilnikom, pomnoži z vrednostjo točke.<br />
 (5) O spremembi vrednosti točke odloča minister, pristojen za notranje zadeve, na način, določen z zakonom.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(tarifa)</h3>
 <p>Zbornica določi višino tarife za udeležbo v programih izobraževanj, določenih s pravilnikom, ki ureja izvajanje javnih pooblastil na področju zasebnega varovanja, na naslednji način:</p>
 <p>A) Osnovni program izobraževanja za varnostnega menedžerja<br />
@@ -73,7 +86,7 @@ Tarifna številka 8</p>
 Tarifna številka 9</p>
 <p>Tarifa za izvajanje programa izobraževanja za varovanje javnih zbiranj znaša 35 točk.</p>
 <h3>III. KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(začetek veljavnosti)</h3>
 <p>Tarife, določene s tem pravilnikom, začnejo veljati z dnem, ko začne veljati pravilnik, ki ureja izvajanje javnih pooblastil na področju zasebnega varovanja.</p>
 <p>Št. 14-04-016-260/2004/2</p>
@@ -90,5 +103,36 @@ dr. Rado Bohinc l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-12-06", "kratica": "PRAV5580", "naziv": "Pravilnik o določitvi tarife za izvajanje programov strokovnih izobraževanj na področju zasebnega varovanja", "url": "/trubar/si/PRAV5580/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

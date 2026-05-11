@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2631" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPS.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPS" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPS.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPS,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Zakon o Pošti Slovenije</h1>
 <h2>Na podlagi druge alinee prvega odstavka 107. člena in 91. člena ustave Republike Slovenije izdajam</h2>
 <p>UKAZ<br />
@@ -36,15 +49,15 @@ o razglasitvi zakona o Pošti Slovenije</p>
 Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>ZAKON O POŠTI SLOVENIJE</h2>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta zakon ureja vprašanja ustanovitve in financiranja Pošte Slovenije.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pošto Slovenije, kot družbo z omejeno odgovornostjo za opravljanje poštnih storitev, ustanovi Vlada Republike Slovenije z uredbo, ki jo sprejme v roku 30 dni po uveljavitvi tega zakona.<br />
 Sedež Pošte Slovenije je v Mariboru.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Osnovni kapital Pošte Slovenije znaša 100,000.000 tolarjev v gotovini ter stvarni vložek Republike Slovenije, ugotovljen z zaključnim računom za leto 1994 PTT podjetja Slovenije, p.o., na dan 31. 12. 1994, ki pripada poštni dejavnosti, kar predstavlja otvoritveno bilanco stanja Pošte Slovenije na dan ustanovitve.<br />
 Znesek v gotovini iz prejšnjega odstavka zagotovi Pošti Slovenije na dan njene ustanovitve PTT podjetje Slovenije, p.o.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Sredstva za financiranje Pošte Slovenije se zagotavljajo:<br />
 – s prihodki, pridobljenimi z opravljanjem poštnih in drugih storitev,<br />
 – s posojili in izdajo dolžniških vrednostnih papirjev Pošte Slovenije,<br />
@@ -58,12 +71,12 @@ Sredstva iz tretje alinee prejšnjega odstavka, ki jih je PTT podjetje Slovenije
 – za leto 1999 1.400,000.000 tolarjev<br />
 Znesek se akontira v dvanajstih, z rastjo cen na drobno, revaloriziranih mesečnih obrokih.</p>
 <h3>PREHODNA IN KONČNI DOLOČBI</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Pošta Slovenije zagotovi nadaljevanje delovnega razmerja vsem delavcem, ki so na dan uveljavitve tega zakona v delovnem razmerju pri PTT podjetju Slovenije, p.o. in opravljajo dela in naloge v zvezi s poštno dejavnostjo.<br />
 Delavci iz prejšnjega odstavka so prevzeti na delo in v delovno razmerje pri Pošti Slovenije z dnem njenega vpisa v sodni register.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Družba z omejeno odgovornostjo iz 2. člena tega zakona posluje do uveljavitve, nove sistemske ureditve poštne dejavnosti.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št., 326-08/94-5/1</p>
 <p>Ljubljana, dne 15. novembra 1994.</p>
@@ -79,5 +92,36 @@ Jožef Školč l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-11-25", "kratica": "ZPS", "naziv": "Zakon o Pošti Slovenije", "url": "/trubar/si/ZPS/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

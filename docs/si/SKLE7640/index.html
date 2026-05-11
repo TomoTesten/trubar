@@ -21,18 +21,31 @@
       <dt>Organ</dt><dd>Agencija za trg vrednostnih papirjev</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-1811" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE7640.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE7640" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE7640.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE7640,vrsta:sklep">
+    
     <h1>Sklep o vsebini podatkov iz prospekta oziroma izvlečka prospekta vzajemnega sklada, za spremembo katerih ni potrebno dovoljenje Agencije za trg vrednostnih papirjev</h1>
 <p>Na podlagi osmega odstavka 96. člena Zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 26/05 – ZISDU-1-UPB1, 68/05 – odločba US, 28/06 – <a href="/trubar/si/ZTVP-1B/" class="law-ref" title="ZTVP-1B">ZTVP-1B</a>, 114/06 – <a href="/trubar/si/ZUE/" class="law-ref" title="ZUE">ZUE</a>, 92/07 in 109/07 – popr.) Agencija za trg vrednostnih papirjev izdaja</p>
 <h2>S K L E P</h2>
 <p>o vsebini podatkov iz prospekta oziroma izvlečka prospekta vzajemnega sklada, za spremembo katerih ni potrebno dovoljenje Agencije za trg vrednostnih papirjev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) Ta sklep določa podatke iz prospekta in izvlečka prospekta vzajemnega sklada, ki niso hkrati sestavni del pravil upravljanja vzajemnega sklada, za spremembo oziroma dopolnitev katerih družbi za upravljanje ni potrebno pridobiti dovoljenja Agencije za trg vrednostnih papirjev (v nadaljevanju Agencije) za objavo prospekta in izvlečka prospekta iz 96. člena Zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 26/05 – ZISDU-1-UPB1, 68/05 – odločba US, 28/06 – <a href="/trubar/si/ZTVP-1B/" class="law-ref" title="ZTVP-1B">ZTVP-1B</a>, 114/06 – <a href="/trubar/si/ZUE/" class="law-ref" title="ZUE">ZUE</a>, 92/07 in 109/07 – popr.; v nadaljevanju <a href="/trubar/si/ZISDU-1/" class="law-ref" title="ZISDU-1">ZISDU-1</a>).<br />
 (2) Ta sklep se smiselno uporablja tudi za krovne sklade.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Dovoljenje Agencije iz 96. člena <a href="/trubar/si/ZISDU-1/" class="law-ref" title="ZISDU-1">ZISDU-1</a> ni potrebno, kadar se spremembe oziroma dopolnitve prospekta in/ali izvlečka prospekta vzajemnega sklada nanašajo izključno na spremembo:<br />
 – firme in sedeža družbe za upravljanje ter kraja glavne uprave družbe za upravljanje, če ta ni enak sedežu družbe;<br />
 – firme in sedeža skrbnika premoženja vzajemnega sklada;<br />
@@ -49,9 +62,9 @@
 – sklicev na objave predpisov v uradnih publikacijah;<br />
 – podatkov o ISIN kodah investicijskih kuponov vzajemnega sklada;<br />
 – mesta in časa, ko je možen vpogled v splošne akte družbe za upravljanje in v zadnje razpoložljivo revidirano letno poročilo družbe za upravljanje.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Družba za upravljanje opravi spremembe oziroma dopolnitve prospekta in izvlečka prospekta vzajemnega sklada v skladu s tem sklepom ob vsakokratni dopolnitvi prospekta in izvlečka prospekta s podatki iz letnega oziroma polletnega poročila o poslovanju vzajemnega sklada iz 97. člena <a href="/trubar/si/ZISDU-1/" class="law-ref" title="ZISDU-1">ZISDU-1</a>.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 310-2/16-20/2008</p>
 <p>Ljubljana, dne 23. aprila 2008</p>
@@ -67,5 +80,36 @@ dr. Damjan Žugelj l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-04-30", "kratica": "SKLE7640", "naziv": "Sklep o vsebini podatkov iz prospekta oziroma izvlečka prospekta vzajemnega sklada, za spremembo katerih ni potrebno dovoljenje Agencije za trg vrednostnih papirjev", "url": "/trubar/si/SKLE7640/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

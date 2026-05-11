@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Odlok o dopolnitvi Odloka o Svetu za nacionalno varnost — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Odlok o dopolnitvi Odloka o Svetu za nacionalno varnost</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>ODLO2753</strong></dd>
+      <dt>Vrsta</dt><dd>odlok</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2023-06-30</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-2291" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO2753" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO2753.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:ODLO2753,vrsta:odlok">
+    
+    <h1>Odlok o dopolnitvi Odloka o Svetu za nacionalno varnost</h1>
+<p>Na podlagi 20. člena in tretjega odstavka 21. člena Zakona o Vladi Republike Slovenije (Uradni list RS, št. 24/05 – uradno prečiščeno besedilo, 109/08, 38/10 – <a href="/trubar/si/ZUKN/" class="law-ref" title="ZUKN">ZUKN</a>, 8/12, 21/13, 47/13 – <a href="/trubar/si/ZDU-1G/" class="law-ref" title="ZDU-1G">ZDU-1G</a>, 65/14, 55/17 in 163/22) Vlada Republike Slovenije izdaja</p>
+<p>O D L O K</p>
+<p>o dopolnitvi Odloka o Svetu za nacionalno varnost</p>
+<p>1. člen</p>
+<p>V Odloku o Svetu za nacionalno varnost (Uradni list RS, št. 137/22 in 144/22) se v 5. členu v prvem odstavku za 8. točko doda nova 9. točka, ki se glasi:</p>
+<p>»9. direktor Urada Vlade Republike Slovenije za komuniciranje,«.</p>
+<p>Dosedanje 9. do 12. točka postanejo 10. do 13. točka.</p>
+<p>KONČNA DOLOČBA</p>
+<p>2. člen</p>
+<p>(začetek veljavnosti)</p>
+<p>Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 00701-7/2023</p>
+<p>Ljubljana, dne 28. junija 2023</p>
+<p>EVA 2023-1411-0001</p>
+<p>Vlada Republike Slovenije</p>
+<p>dr. Robert Golob</p>
+<p>predsednik</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-06-30", "kratica": "ODLO2753", "naziv": "Odlok o dopolnitvi Odloka o Svetu za nacionalno varnost", "url": "/trubar/si/ODLO2753/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

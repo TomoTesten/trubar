@@ -21,31 +21,44 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3023" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5962.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5962" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5962.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5962,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o določitvi pristojnih organov in programu nadzora salmonele in drugih opredeljenih povzročiteljev zoonoz, ki se prenašajo z živili</h1>
 <p>Na podlagi prvega odstavka 77. člena in za izvedbo 9. člena zakona o veterinarstvu (Uradni list RS, št. 33/01 in 110/02 – <a href="/trubar/si/ZGO-1/" class="law-ref" title="ZGO-1">ZGO-1</a> in 45/04 –<a href="/trubar/si/ZdZPKG/" class="law-ref" title="ZdZPKG">ZdZPKG</a>) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o določitvi pristojnih organov in programu nadzora salmonele in drugih opredeljenih povzročiteljev zoonoz, ki se prenašajo z živili</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina pravilnika)</h3>
 <p>Ta pravilnik določa podrobnejše pogoje za izvajanje Uredbe Evropskega parlamenta in Sveta o nadzoru salmonele in drugih opredeljenih povzročiteljev zoonoz, ki se prenašajo z živili št. 2160/2003/ES (UL L št. 325 z dne 12. 12. 2003, str. 1-5) z vsemi spremembami (v nadaljnjem besedilu: Uredba).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(pomen izrazov)</h3>
 <p>Za potrebe tega pravilnika imajo izrazi, uporabljeni v Uredbi, naslednji pomen:<br />
 – država članica je Republika Slovenija;<br />
 – pristojni organ je Veterinarska uprava Republike Slovenije;<br />
 – opredeljene zoonoze so zoonoze, naštete v Prilogi I Uredbe.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(programi nadzora nosilcev dejavnosti)</h3>
 <p>(1) Nosilci živilske dejavnosti in nosilci dejavnosti proizvodnje krme, ki želijo, da njihov program nadzora postane del nacionalnega programa nadzora zoonoz, predložijo v skladu s 7. členom Uredbe programe v potrditev glavnemu uradu VURS.<br />
 (2) Generalni direktor VURS izda odločbo o odobritvi programa iz prejšnjega odstavka, če je v skladu z nacionalnim programom nadzora.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(prehodno obdobje)</h3>
 <p>Do objave nacionalnega programa nadzora zoonoz v Uradnem listu Republike Slovenije se za dosego cilja, določenega pri matičnih jatah vrste Gallus gallus, uporablja Pravilnik o monitoringu zoonoz in njihovih povzročiteljev v vzrejnih jatah kokoši nesnic (Uradni list RS, št. 28/04).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(uveljavitev)</h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 323-288/2004</p>
@@ -63,5 +76,36 @@ in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-06-18", "kratica": "PRAV5962", "naziv": "Pravilnik o določitvi pristojnih organov in programu nadzora salmonele in drugih opredeljenih povzročiteljev zoonoz, ki se prenašajo z živili", "url": "/trubar/si/PRAV5962/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

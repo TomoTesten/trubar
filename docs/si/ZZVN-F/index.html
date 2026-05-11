@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3469" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZVN-F.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZZVN-F" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZVN-F.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZZVN-F,vrsta:Sprejet zakon">
+    
     <h1>Zakon o dopolnitvi zakona o žrtvah vojnega nasilja</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,12 +50,12 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O DOPOLNITVI ZAKONA O ŽRTVAH VOJNEGA NASILJA (ZZVN-F)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o žrtvah vojnega nasilja (Uradni list RS, št. 63/95, 8/96, 44/96, 68/96, 70/97, 39/98, 43/99, 19/00, 28/00 in 1/01) se za 30. členom doda nov, 30.a člen, ki se glasi:</p>
 <h3>“30.a člen</h3>
 <p>Vojaškim vojnim invalidom, ki jim po 5. členu zakona o žrtvah vojnega nasilja (Uradni list RS, št. 63/95, 8/96, 44/96, 68/96, 70/97 in 39/98) ni bil priznan status žrtve vojnega nasilja, ker so izpolnjevali pogoje za priznanje statusa vojnega veterana, se priznajo status žrtve vojnega nasilja in pravice, za katere so izpolnjevali ostale zakonske pogoje že ob vložitvi zahteve, vložene pred 19. 6. 1999, od prvega dne naslednjega meseca po vložitvi zahteve, do 1. 7. 1999.</p>
 <p>O zahtevi iz prejšnjega odstavka za priznanje statusa in pravic žrtve vojnega nasilja odločijo upravne enote po uradni dolžnosti v roku treh mesecev po uveljavitvi tega zakona.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 545-07/93-4/50</p>
 <p>Ljubljana, dne 17. julija 2001.</p>
@@ -58,5 +71,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-08-03", "kratica": "ZZVN-F", "naziv": "Zakon o dopolnitvi zakona o žrtvah vojnega nasilja", "url": "/trubar/si/ZZVN-F/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

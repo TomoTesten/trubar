@@ -21,23 +21,36 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2087" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE1019.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE1019" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE1019.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE1019,vrsta:sklep">
+    
     <h1>Sklep o določitvi blaga z dvojno rabo</h1>
 <p>Na podlagi 3. člena in prvega odstavka 7. člena zakona o izvozu blaga z dvojno rabo (Uradni list RS, št. 31/00) je Vlada Republike Slovenije na 158. seji dne 18. maja 2000 sprejela</p>
 <h2>S K L E P</h2>
 <p>o določitvi blaga z dvojno rabo</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem sklepom se določa blago z dvojno rabo, ki se lahko izvaža le na podlagi dovoljenja, ki ga izda ministrstvo, pristojno za ekonomske odnose s tujino.<br />
 Seznam blaga za dvojno rabo je vsebovan v prilogi k temu sklepu, ki je njegov sestavni del.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V skladu s prvim odstavkom 7. člena zakona o izvozu blaga z dvojno rabo da obvezno mnenje poleg Ministrstva za zunanje zadeve, Ministrstva za obrambo in Ministrstva za notranje zadeve za blago, ki je v prilogi k temu sklepu, obvezno mnenje tudi:<br />
 – Ministrstvo za okolje in prostor za blago, ki je na tretjem mestu petmestne šifre (v nadaljevanju: »šifre«) označeno s številko »2« in za blago, ki je na prvem mestu šifre označeno s številko »0«;<br />
 – Ministrstvo za gospodarske dejavnosti za blago, ki je na tretjem mestu šifre označeno s številko »3« in »4«;<br />
 – Ministrstvo za gospodarske dejavnosti za blago, ki je na tretjem mestu šifre označeno s številko »0« ali »1«, razen za blago, ki je na prvem mestu šifre označeno s števiko »0«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sklep začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 332-07/2000-1</p>
 <p>Ljubljana, dne 18. maja 2000.</p>
@@ -63,5 +76,36 @@ Podpredsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-05-27", "kratica": "SKLE1019", "naziv": "Sklep o določitvi blaga z dvojno rabo", "url": "/trubar/si/SKLE1019/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

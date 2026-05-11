@@ -21,31 +21,44 @@
       <dt>Organ</dt><dd>Agencija za trg vrednostnih papirjev</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-2507" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5339.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE5339" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5339.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE5339,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Sklep o podrobnejši vsebini dokumentacije, s katero kandidat za člana uprave dokazuje izpolnjevanje pogojev za člana uprave borznoposredniške družbe</h1>
 <p>Na podlagi četrtega odstavka 86. člena Zakona o trgu vrednostnih papirjev (Uradni list RS, št. 56/99, 31/00 – <a href="/trubar/si/ZP-L/" class="law-ref" title="ZP-L">ZP-L</a>, 52/02 – <a href="/trubar/si/ZJA/" class="law-ref" title="ZJA">ZJA</a> in 86/04) Agencija za trg vrednostnih papirjev izdaja</p>
 <h2>S K L E P</h2>
 <p>o podrobnejši vsebini dokumentacije, s katero kandidat za člana uprave dokazuje izpolnjevanje pogojev za člana uprave borznoposredniške družbe</p>
 <h3>Predmet sklepa</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta sklep določa dokumentacijo, s katero kandidat za člana uprave dokazuje, da izpolnjuje pogoje za člana uprave borznoposredniške družbe.</p>
 <h3>Obličnost zahteve</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Vlagatelj zahteve za izdajo dovoljenja za opravljanje funkcije člana uprave iz drugega odstavka 86. člena Zakona o trgu vrednostnih papirjev (<a href="/trubar/si/ZTVP/" class="law-ref" title="ZTVP">ZTVP</a> – 1) poda zahtevo za izdajo dovoljenja na obrazcu ZAH/ČU-BPD, ki je v Prilogi 1 tega sklepa.<br />
 (2) Podatki v zahtevi morajo biti vpisani s pisalnim strojem ali računalnikom.</p>
 <h3>Priloge k zahtevi</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Zahtevi za izdajo dovoljenja morajo biti priložena dokazila, iz katerih je razvidno, da njen vlagatelj izpolnjuje pogoje za člana uprave borznoposredniške družbe.<br />
 (2) Kot dokazila, iz katerih je razvidno, da vlagatelj zahteve izpolnjuje pogoje za člana uprave borznoposredniške družbe, se štejejo zlasti dokazila, navedena v Prilogi 2 tega sklepa.<br />
 (3) Poleg dokazil iz Priloge 2 mora vlagatelj zahteve priložiti zahtevi tudi izpolnjen vprašalnik k zahtevi za izdajo dovoljenja z vsebino, določeno v Prilogi 3 tega sklepa.</p>
 <h3>Dostopnost na svetovnem spletu</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Priloge 1, 2 in 3 so objavljene tudi na spletni strani Agencije za trg vrednostnih papirjev www.a-tvp.si.</p>
 <h3>Končna določba</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 207-1/9-9/2005</p>
 <p>Ljubljana, dne 11. maja 2005.</p>
@@ -65,5 +78,36 @@ dr. Miha Juhart l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-06-15", "kratica": "SKLE5339", "naziv": "Sklep o podrobnejši vsebini dokumentacije, s katero kandidat za člana uprave dokazuje izpolnjevanje pogojev za člana uprave borznoposredniške družbe", "url": "/trubar/si/SKLE5339/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

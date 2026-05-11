@@ -21,23 +21,36 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2506" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV414.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV414" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV414.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV414,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o zdravstveni ustreznosti pitne vode</h1>
 <p>Na podlagi prve točke prvega odstavka 36. člena zakona o zdravstveni neoporečnosti živil in predmetov splošne rabe (Uradni list SFRJ, št. 55/78 in 58/85), v zvezi s 4. členom ustavnega zakona za izvedbo temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije (Uradni list RS, št. 1/91-I) izdaja minister za zdravstvo</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika  o zdravstveni ustreznosti pitne vode</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o zdravstveni ustreznosti pitne vode (Uradni list RS, št. 46/97) se 4. člen spremeni tako, da glasi:</p>
 <p>“Normativi za presojanje kakovosti pitne vode se na podlagi laboratorijskih preiskav uporabljajo tudi za embalirano pitno vodo v prometu, ki mora imeti označen rok uporabe ter veljajo kot priporočila za individualno oskrbo z vodo.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem in drugem odstavku 19. člena se besedi “in varnost” nadomestijo z besedami “oziroma varnost”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 35. členu se doda novi drugi odstavek, ki glasi:</p>
 <p>“Ne glede na prejšnji odstavek se parametri občasnih preiskav iz priloge D, ki se nanašajo na pesticide, uporabljajo od 1. 1. 2003.”</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 520-1/98</p>
 <p>Ljubljana, dne 28. julija 1998.</p>
@@ -52,5 +65,36 @@ za zdravstvo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-07-31", "kratica": "PRAV414", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o zdravstveni ustreznosti pitne vode", "url": "/trubar/si/PRAV414/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-02-0084" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSKVSM.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MSKVSM" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSKVSM.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MSKVSM,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Sprememb Konvencije o varstvu Sredozemskega morja pred onesnaževanjem</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI SPREMEMB KONVENCIJE O VARSTVU SREDOZEMSKEGA MORJA PRED ONESNAŽENJEM (MSKVSM)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificirajo se Spremembe Konvencije o varstvu Sredozemskega morja pred onesnaženjem, sprejete v Barceloni 10. junija 1995.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Spremembe konvencije se v izvirniku v angleškem jeziku in prevodu v slovenskem jeziku glasijo:</p>
 <h2>AMENDMENTS TO THE CONVENTION FOR THE PROTECTION OF THE MEDITERRANEAN SEA AGAINST POLLUTION</h2>
 <h3>A. TITLE</h3>
@@ -332,9 +345,9 @@ pogodbenicam redno poroča o izvajanju konvencije in protokolov;</p>
 Pogodbenice na zasedanjih na podlagi rednih poročil iz 20. člena in vseh drugih poročil, ki jih predložijo, presojajo skladnost s konvencijo in protokoli ter ukrepi in priporočili. Če je to primerno, priporočijo potrebne ukrepe, da se doseže polna skladnost s konvencijo in protokoli in pospeši izvajanje sklepov in priporočil.</li>
 </ol>
 <p>10., 16., 17., 19., 22., 23., 24., 25., 26., 27., 28. in 29. člen so preštevilčeni kot 12., 22., 23., 25., 28., 29., 30., 31., 32. 33., 34. in 35. člen.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sprememb konvencije skrbi Ministrstvo za okolje, prostor in energijo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 802-06/01-7/2</p>
 <p>Ljubljana, dne 25. oktobra 2002</p>
@@ -350,5 +363,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-11-28", "kratica": "MSKVSM", "naziv": "Zakon o ratifikaciji Sprememb Konvencije o varstvu Sredozemskega morja pred onesnaževanjem", "url": "/trubar/si/MSKVSM/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

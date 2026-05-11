@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-2022" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV15024.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV15024" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV15024.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV15024,vrsta:pravilnik">
+    
     <h1>Pravilnik o prenehanju uporabe Pravilnika o obveznem zdravstvenem pregledu posevkov in objektov, semena in sadilnega materiala kmetijskih in gozdnih rastlin</h1>
 <p>Na podlagi četrte alineje 73. člena Zakona o zdravstvenem varstvu rastlin (Uradni list RS, št. 62/07 – uradno prečiščeno besedilo, 36/10, 40/14 – ZIN-B in 21/18 – ZNOrg) ministrica za kmetijstvo, gozdarstvo in prehrano izdaja</p>
 <p>P R A V I L N I K</p>
@@ -49,5 +62,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-06-16", "kratica": "PRAV15024", "naziv": "Pravilnik o prenehanju uporabe Pravilnika o obveznem zdravstvenem pregledu posevkov in objektov, semena in sadilnega materiala kmetijskih in gozdnih rastlin", "url": "/trubar/si/PRAV15024/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

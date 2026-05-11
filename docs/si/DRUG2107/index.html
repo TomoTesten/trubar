@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4420" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2107.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG2107" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2107.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG2107,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Aneks št. 1 h kolektivni pogodbi med delavci in družbami drobnega gospodarstva</h1>
 <p>Na podlagi Dogovora o politiki plač v zasebnem sektorju v obdobju 2004–2005, in Kolektivne pogodbe med delavci in družbami drobnega gospodarstva (Uradni list RS, št. 06/00) sklepata pogodbeni stranki</p>
 <p>kot predstavnik delavcev:<br />
@@ -36,18 +49,18 @@ drobnega gospodarstva</p>
 <h2>A N E K S  št. 1</h2>
 <p>H   K O L E K T I V N I   P O G O D B I<br />
 med delavci in družbami drobnega gospodarstva</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Podpisnika Kolektivne pogodbe med delavci in družbami drobnega gospodarstva (v nadaljevanju: kolektivna pogodba) s tem aneksom v skladu z Dogovorom o politiki plač v zasebnem sektorju v obdobju 2004–2005 določata višino posebnega dodatka k bruto plači zaposlenim pri delodajalcih, za katere velja ta kolektivna pogodba.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Plače zaposlenih, za katere velja ta kolektivna pogodba, se povečajo:<br />
 – pri obračunu in izplačilu plač za mesec avgust 2004 in naprej za 7.400 SIT (bruto),<br />
 – pri obračunu in izplačilu plač za mesec avgust 2005 in naprej za 6.800 SIT (bruto).<br />
 Povečanje iz prvega odstavka tega člena se izplačuje kot dodatek k plači in je sestavni del plače za polni delovni čas.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Dodatek k plači iz prejšnjega člena tega aneksa se delavcem obračunava in izplačuje, dokler se ne vključi v znesek oziroma zneske plač, določenih s kolektivno pogodbo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta aneks začne veljati, ko ga podpišeta pooblaščena predstavnika obeh podpisnikov in začne veljati z dnem objave.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta aneks se objavi v Uradnem listu RS in vpiše v razvid kolektivnih pogodb pri Ministrstvu za delo, družino in socialne zadeve.</p>
 <p>Ljubljana, dne 1. septembra 2004.</p>
 <p>Gospodarska<br />
@@ -67,5 +80,36 @@ Peter Jančar l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-09-23", "kratica": "DRUG2107", "naziv": "Aneks št. 1 h kolektivni pogodbi med delavci in družbami drobnega gospodarstva", "url": "/trubar/si/DRUG2107/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

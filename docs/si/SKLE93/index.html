@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3715" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE93.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE93" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE93.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE93,vrsta:sklep">
+    
     <h1>Sklep o podaljšanju roka izvoza določenih pridobljenih proizvodov</h1>
 <p>Na podlagi 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93 in 23/96) in 93. člena carinskega zakona (Uradni list RS, št. 1/95 in 28/95) je Vlada Republike Slovenije na 221. seji 21. novembra 1996 sprejela</p>
 <h2>S K L E P</h2>
 <p>o podaljšanju roka izvoza določenih pridobljenih proizvodov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem sklepom se določa rok izvoza za blago – proizvode, namenjene izvozu na trge držav članic Evropske skupnosti, pridobljene iz blaga uvoženega v letu 1995, po postopku uvoza zaradi proizvodnje za izvoz.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pridobljeni proizvodi, za katere rok izvoza do uveljavitve tega sklepa še ni potekel, temveč bi se morali izvoziti do konca leta 1996 in se jim rok v skladu s tem sklepom podaljša do 31. marca 1997, so:</p>
 <p>tarifna     poimenovanje<br />
 oznaka<br />
@@ -40,9 +53,9 @@ oznaka<br />
 1602        Drugi pripravljeni ali konzervirani izdelki<br />
             iz mesa, drobovje ali kri<br />
 1602.50     – Goved</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Postopki uvoza zaradi izvoza, katerim je podaljšan rok izvoza v skladu s tem sklepom, se dokončajo v skladu z določbami 156. člena uredbe o carinskih postopkih z ekonomskim učinkom (Uradni list RS, št. 56/95 in 33/96).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 424-01/93-2/9-8</p>
 <p>Ljubljana, dne 21. novembra 1996.</p>
@@ -57,5 +70,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-11-22", "kratica": "SKLE93", "naziv": "Sklep o podaljšanju roka izvoza določenih pridobljenih proizvodov", "url": "/trubar/si/SKLE93/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

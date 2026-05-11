@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-02-0149" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPPU.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MPPU" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPPU.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MPPU,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Protokola o spremembi Protokola o prehodni ureditvi, ki je priložen Pogodbi o Evropski uniji, Pogodbi o delovanju Evropske unije in Pogodbi o ustanovitvi Evropske skupnosti za atomsko energijo</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI PROTOKOLA O SPREMEMBI PROTOKOLA O PREHODNI UREDITVI, KI JE PRILOŽEN POGODBI O EVROPSKI UNIJI, POGODBI O DELOVANJU EVROPSKE UNIJE IN POGODBI O USTANOVITVI EVROPSKE SKUPNOSTI ZA ATOMSKO ENERGIJO (MPPU)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Protokol o spremembi Protokola o prehodni ureditvi, ki je priložen Pogodbi o Evropski uniji, Pogodbi o delovanju Evropske unije in Pogodbi o ustanovitvi Evropske skupnosti za atomsko energijo, podpisan 23. junija 2010 v Bruslju.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo protokola se v izvirniku v slovenskem in angleškem jeziku glasi(*):</p>
 <p>Naslov protokola v različnih jezikih</p>
 <h2>P R O T O K O L</h2>
@@ -184,9 +197,9 @@ This Protocol shall enter into force if possible on 1 December 2010, provided th
 <p>This Protocol, drawn up in a single original in the Bulgarian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Irish, Italian, Latvian, Lithuanian, Maltese, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish and Swedish languages, each text being equally authentic, shall be deposited in the archives of the Government of the Italian Republic, which shall transmit a certified copy to each of the governments of the other signatory States.<br />
 IN WITNESS WHEREOF, the undersigned Plenipotentiaries have signed this Protocol.</p>
 <p>Podpisniki protokola</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje protokola skrbi Vlada Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 008-04/10-24/11</p>
 <p>Ljubljana, dne 23. novembra 2010</p>
@@ -204,5 +217,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-12-07", "kratica": "MPPU", "naziv": "Zakon o ratifikaciji Protokola o spremembi Protokola o prehodni ureditvi, ki je priložen Pogodbi o Evropski uniji, Pogodbi o delovanju Evropske unije in Pogodbi o ustanovitvi Evropske skupnosti za atomsko energijo", "url": "/trubar/si/MPPU/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

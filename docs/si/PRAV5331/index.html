@@ -21,24 +21,37 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0628" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5331.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5331" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5331.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5331,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o stroških postopka o prekršku</h1>
 <p>Na podlagi 149. člena zakona o prekrških (Uradni list RS, št. 7/03) izdaja minister za pravosodje</p>
 <h2>P R A V I L N I K</h2>
 <p>o stroških postopka o prekršku</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem pravilnikom se podrobneje ureja način povrnitve stroškov postopka o prekršku in določa višina povprečnine v postopku o prekršku.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za povrnitev stroškov postopka o prekršku se smiselno uporabljajo predpisi, ki urejajo povrnitev stroškov v kazenskem postopku, če ta pravilnik ne določa drugače.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Povprečnina v postopku o prekršku se določi v znesku, ki ne sme biti manjši od vrednosti 500 točk in ne višji od vrednosti 6.000 točk.<br />
 (2) Vrednost točke iz prejšnjega odstavka je enaka vrednosti točke, določeni z zakonom o sodnih taksah (Uradni list SRS, št. 30/78, 10/79, 36/83, 46/86, 34/88 in 1/90 ter Uradni list RS, št. 34/90, 14/91, 38/96, 20/98, 35/98 – odl. US, 50/98 – odl. US, 70/00, 29/01 – odl. US, 46/01 – odl. US 93/01, 16/02 – odl. US in 99/02 – odl. US).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Z dnem, ko začne veljati ta pravilnik, preneha veljati pravilnik o stroških postopka o prekršku (Uradni list SRS, št. 40/83, 1/88, 23/89 in 5/90 ter Uradni list RS, št. 108/99).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati 1. januarja 2005.</p>
 <p>Št. 071-03-8/2003</p>
 <p>Ljubljana, dne 13. januarja 2004.</p>
@@ -54,5 +67,36 @@ za pravosodje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-02-16", "kratica": "PRAV5331", "naziv": "Pravilnik o stroških postopka o prekršku", "url": "/trubar/si/PRAV5331/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

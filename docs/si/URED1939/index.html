@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-02-0082" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1939.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1939" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1939.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1939,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a></nav>
     <h1>Uredba o ratifikaciji Sporazuma med Republiko Slovenijo in Republiko Slonokoščeno obalo o vzpostavitvi diplomatskih odnosov</h1>
 <p>Na podlagi tretjega odstavka 63. člena Zakona o zunanjih zadevah (Uradni list RS, št. 1/91-I) Vlada Republike Slovenije izdaja</p>
 <h2>UREDBO</h2>
 <p>O RATIFIKACIJI SPORAZUMA MED REPUBLIKO SLOVENIJO IN REPUBLIKO SLONOKOŠČENO OBALO O VZPOSTAVITVI DIPLOMATSKIH ODNOSOV</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sporazum med Republiko Slovenijo in Republiko Slonokoščeno obalo o vzpostavitvi diplomatskih odnosov, podpisan v Rimu 12. maja 1994.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sporazum se v izvirniku v francoskem jeziku in v prevodu v slovenskem jeziku glasi:</p>
 <h2>ACCORD</h2>
 <p>ENTRE LA REPUBLIQUE DE LA SLOVENIE ET LA REPUBLIQUE DE COTE DTVOIRE SUR L'INSTAURATION DES RELATIONS DIPLOMATIQUES</p>
@@ -51,9 +64,9 @@ Souleymane Sako m. p.</p>
 <h2>SPORAZUM</h2>
 <p>MED REPUBLIKO SLOVENIJO IN REPUBLIKO SLONOKOŠČENO OBALO O VZPOSTAVITVI DIPLOMATSKIH ODNOSOV</p>
 <p>Vlada Republike Slovenije in Vlada Republike Slonokoščene obale sta se v želji, da bi spodbudili prijateljske odnose in sodelovanje med njunima narodoma na temelju določb in načel Ustanovne listine Združenih narodov, še zlasti načel enakosti, medsebojnega spoštovanja suverenosti držav, nevmešavanja v notranje zadeve vsake države in mirnega reševanja sporov, dogovorili o naslednjem:</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Republika Slovenija in Republika Slonokoščena obala sta se odločili, da vzpostavita diplomatske odnose med svojima državama z datumom uveljavitve tega sporazuma, in se obvezujeta, da boste čimprej izmenjali veleposlanika.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pogodbenici tega sporazuma se obvezujeta, da bosta za temelj svojih odnosov vzeli določila Dunajske konvencije z dne 18. aprila 1961 o diplomatskih odnosih in določila Dunajske konvencije z dne 24. aprila 1963 o konzularnih odnosih.<br />
 Ta sporazum bo začel veljati z datumom podpisa.<br />
 Sestavljeno v dveh izvirnikih v francoskem jeziku. Sestavljeno v Rimu, 12. maja 1994.</p>
@@ -63,7 +76,7 @@ Marko Kosin l. r.<br />
 Za Vlado Republike<br />
 Slonokoščene obale<br />
 Souleymane Sako l. r.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 900-04/94-44/1-8</p>
 <p>Ljubljana, dne 21. julija 1994.</p>
@@ -78,5 +91,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-08-18", "kratica": "URED1939", "naziv": "Uredba o ratifikaciji Sporazuma med Republiko Slovenijo in Republiko Slonokoščeno obalo o vzpostavitvi diplomatskih odnosov", "url": "/trubar/si/URED1939/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

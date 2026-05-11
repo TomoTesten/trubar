@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2016-01-2683" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZKUASP.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZKUASP" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZKUASP.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZKUASP,vrsta:Sprejet zakon">
+    
     <h1>Zakon o kolektivnem upravljanju avtorske in sorodnih pravic</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <p>U K A Z</p>
@@ -838,7 +851,7 @@ l.r.</p>
 <p>dr. Milan Brglez<br />
 l.r.</p>
 <p>Predsednik</p>
-    <section class="amendments"><h2>Spremembe</h2><ul><li><a href="/trubar/si/ZKUASP-A/">ZKUASP-A</a> — Zakon o spremembah in dopolnitvah Zakona o kolektivnem upravljanju avtorske in sorodnih pravic (2022-10-11)</li></ul></section>
+    <section class="amendments"><h2>Kronologija sprememb <a href="https://github.com/TomoTesten/trubar/commits/master/si/ZKUASP.md" class="history-link" target="_blank" title="Celotna git zgodovina">git ↗</a></h2><ul><li><span class="amend-date">2022-10-11</span> <a href="/trubar/si/ZKUASP-A/" class="amend-link">ZKUASP-A</a> — Zakon o spremembah in dopolnitvah Zakona o kolektivnem upravljanju avtorske in sorodnih pravic <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZKUASP-A.md" class="diff-link" target="_blank" title="Besedilo spremembe na GitHubu">diff ↗</a></li></ul></section>
   </article>
 </div>
 <footer>
@@ -846,5 +859,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2016-10-07", "kratica": "ZKUASP", "naziv": "Zakon o kolektivnem upravljanju avtorske in sorodnih pravic", "url": "/trubar/si/ZKUASP/"}, {"date": "2022-10-11", "kratica": "ZKUASP-A", "naziv": "Zakon o spremembah in dopolnitvah Zakona o kolektivnem upravljanju avtorske in sorodnih pravic", "url": "/trubar/si/ZKUASP-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

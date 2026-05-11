@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3666" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3323.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3323" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3323.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3323,vrsta:drugi akt">
+    
     <h1>Spremembe in dopolnitve Pravil Ljubljanske borze, d.d., Ljubljana</h1>
 <p>Na podlagi 331. člena Zakona o trgu finančnih instrumentov (Uradni list RS, št. 67/07, 100/07, 69/08 in 40/09) ter določb Statuta in 208. člena Pravil Ljubljanske borze, d.d., Ljubljana (Uradni list RS, št. 45/08, 96/08 in 1/09 – Pravila borze) je uprava borze dne 1. 9. 2009 sprejela</p>
 <h2>S P R E M E M B E   I N   D O P O L N I T V E</h2>
 <p>Pravil Ljubljanske borze, d.d., Ljubljana (Uradni list RS, št. 45/08, 96/08 in 1/09)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 129. členu se spremeni in dopolni 1. točka prvega odstavka tako, da se po novem glasi:<br />
 »1. dnevno naročilo – velja samo isti dan, kot je bilo vneseno; BTS neizvršena dnevna naročila po zaključku trgovanja avtomatično odstrani.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 134. členu se spremeni in dopolni tretji odstavek tako, da se po novem glasi:<br />
 »(3) Sistem BTS vsak posamezni trgovalni dan, po zaključku trgovanja, prestavi vsa naročila, ki jim je potekel rok veljavnosti, v stanje "odstranjeno".«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 213. členu se doda nov peti odstavek, ki se glasi:<br />
 »Spremembe in dopolnitve 1. točke prvega odstavka 129. člena in tretjega odstavka 134. člena Pravil začnejo veljati petnajsti (15) dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začnejo z dnem, ki ga s sklepom določi uprava. Do začetka uporabe teh določb se uporabljajo določbe 1. točke prvega odstavka 129. člena in tretjega odstavka 134. člena Pravil (Uradni list RS, št. 45/08, 96/08 in 1/09).«</p>
 <p>Ljubljana, dne 1. septembra 2009</p>
@@ -52,5 +65,36 @@ mag. Polona Peterle l.r.<br />
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-10-19", "kratica": "DRUG3323", "naziv": "Spremembe in dopolnitve Pravil Ljubljanske borze, d.d., Ljubljana", "url": "/trubar/si/DRUG3323/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

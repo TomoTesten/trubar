@@ -21,24 +21,37 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-2506" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5838.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5838" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5838.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5838,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o spremembah in dopolnitvi Uredbe o energetski infrastrukturi</h1>
 <p>Na podlagi drugega odstavka 57. člena, tretjega odstavka 58. člena in prvega odstavka 60. člena Energetskega zakona (Uradni list RS, št. 27/07 – uradno prečiščeno besedilo, 70/08, 22/10 in 37/11 – odl. US) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvi Uredbe o energetski infrastrukturi</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o energetski infrastrukturi (Uradni list RS, št. 62/03, 88/03 in 75/10) se v 4. členu besedilo »nad 110 kV napetosti« nadomesti z besedilom »nazivne napetosti 110 kV in več«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 5. členu se besedilo »pod 110 kV napetosti« nadomesti z besedilom »nazivne napetosti 110 kV in manj«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Priloga 1 se nadomesti z novo Prilogo 1, ki je kot priloga sestavni del te uredbe.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Na začetku prvega odstavka 23.a člena se doda oznaka »(1)«, za prvim odstavkom pa se doda novi drugi odstavek, ki se glasi:<br />
 »Ne glede na določbo 1. točke prejšnjega odstavka se enostavna naprava iz četrte alineje 23.b člena te uredbe montira s pomočjo nosilnega droga na zgradbo ali na zemljišče ob zgradbi, pri čemer montaža takšne naprave ne sme biti v nasprotju s prostorskimi akti. Če prostorski akt ne določa drugače, se takšna naprava lahko montira na zemljišču v območju, ki je s prostorskimi akti določeno kot območje proizvodnih dejavnosti, območje prometne, komunikacijske, energetske, okoljske in vodne infrastrukture ter območje mineralnih surovin. Drog je lahko montiran na temelj, višina naprave pa ne sme presegati 15 m, v primeru montaže na zgradbo pa tudi ne polovice višine zgradbe.«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00713-16/2011</p>
 <p>Ljubljana, dne 30. junija 2011</p>
@@ -55,5 +68,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-07-01", "kratica": "URED5838", "naziv": "Uredba o spremembah in dopolnitvi Uredbe o energetski infrastrukturi", "url": "/trubar/si/URED5838/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

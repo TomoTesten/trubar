@@ -21,28 +21,41 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0519" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6206.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV6206" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6206.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV6206,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Pravilnik o geografski označbi Prleška tünka</h1>
 <p>Na podlagi tretjega odstavka 46. člena Zakona o kmetijstvu (Uradni list RS, št. 54/00, 52/02 – <a href="/trubar/si/ZDU-1/" class="law-ref" title="ZDU-1">ZDU-1</a>, 58/02 – <a href="/trubar/si/ZMR-1/" class="law-ref" title="ZMR-1">ZMR-1</a> in 45/04 – <a href="/trubar/si/ZdZPKG/" class="law-ref" title="ZdZPKG">ZdZPKG</a>) izdaja ministrica za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o geografski označbi Prleška tünka</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa način predelave in priprave za trg ter območje predelave za tünko z geografsko označbo Prleška tünka.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Geografsko označbo Prleška tünka ima lahko tünka, predelana in pripravljena za trg po postopku in na območju, ki sta določena v specifikaciji za Prleško tünko in jo je potrdilo Ministrstvo za kmetijstvo, gozdarstvo in prehrano v skladu s predpisom, ki ureja postopke za priznavanje označb posebnih kmetijskih pridelkov oziroma živil.<br />
 (2) Specifikacija za Prleško tünko iz prejšnjega odstavka je dosegljiva na Ministrstvu za kmetijstvo, gozdarstvo in prehrano, Dunajska cesta 58, Ljubljana.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Tünka, ki ima geografsko označbo Prleška tünka, mora biti označena v skladu s predpisom, ki ureja splošno označevanje predpakiranih živil, in s tem pravilnikom.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Geografsko označbo Prleška tünka lahko uporablja predelovalec tünk, ki pridobi certifikat za to tünko v skladu s predpisom, ki ureja postopke za priznavanje označb posebnih kmetijskih pridelkov oziroma živil.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Zaščitni znak za tünko z geografsko označbo Prleška tünka pridobi predelovalec tünk v skladu s predpisom, ki ureja zaščitni znak za označevanje kmetijskih pridelkov oziroma živil.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Predelovalci Prleške tünke, ki so do uveljavitve tega pravilnika uporabljali oziroma navajali ime Prleška tünka za svoje proizvode, morajo pridobiti certifikat iz 4. člena tega pravilnika najpozneje v enem letu od dneva uveljavitve tega pravilnika, sicer tega imena ne smejo uporabljati oziroma navajati na svojih proizvodih.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 321-155/2001</p>
 <p>Ljubljana, dne 26. januarja 2005.</p>
@@ -59,5 +72,36 @@ in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-02-24", "kratica": "PRAV6206", "naziv": "Pravilnik o geografski označbi Prleška tünka", "url": "/trubar/si/PRAV6206/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

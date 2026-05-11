@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4699" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE668.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE668" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE668.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE668,vrsta:odredba">
+    
     <h1>Odredba o obrazcu napovedi za odmero dohodnine za leto 1998 in na obrazcu za obračun davka od dohodka iz dejavnosti</h1>
 <p>Na podlagi 105.člena, tretjega odstavka 109.člena in 120. člena zakona o davčnem postopku (Uradni list RS, št. 18/96, 87/97 in 82/98) in 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95 - odločba US in 29/95) izdaja minister za finance</p>
 <h2>O D R E D B O</h2>
 <p>o obrazcu napovedi za odmero dohodnine za leto 1998 in obrazcu za obračun davka od dohodkov iz dejavnosti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Zavezanci za dohodnino po zakonu o dohodnini (Uradni list RS, št. 71/93, popr. 2/94, 7/95, 14/96 - odločba US in 44/96) in zavezanci za davek od dohodkov iz dejavnosti, ki sami obračunavajo in plačujejo davek od dohodkov iz dejavnosti, vložijo napoved za odmero dohodnine in za odmero davka iz dejavnosti na obrazcih, ki sta sestavni del te odredbe.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V obrazcih napovedi za odmero davka od dobička iz kapitala, davka od dohodkov iz premoženja, davka od premoženja, davka na dediščine in darila, davka na promet nepremičnin, davka od osebnih prejemkov, doseženih v tujini, davka od dohodkov iz dejavnosti, davka od dohodkov iz dejavnosti z upoštevanjem normiranih odhodkov, davka od dohodkov iz premoženja, doseženih z udeležbo pri dobičku v tujini, davka od dohodkov iz premoženjskih pravic in davka od dobička iz kapitala od prodaje vrednostnih papirjev in deležev v kapitalu, ki so bili objavljeni v Uradnem listu RS, št. 77/96 in 1/98, se črta EMŠO – enotna matična številka občana.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 416-116/98</p>
 <p>Ljubljana, dne 16. decembra 1998</p>
@@ -50,5 +63,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-12-28", "kratica": "ODRE668", "naziv": "Odredba o obrazcu napovedi za odmero dohodnine za leto 1998 in na obrazcu za obračun davka od dohodka iz dejavnosti", "url": "/trubar/si/ODRE668/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

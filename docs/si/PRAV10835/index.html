@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-2526" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10835.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10835" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10835.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10835,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o zemljiški knjigi</h1>
 <p>Na podlagi prvega odstavka 125.e člena Zakona o zemljiški knjigi (Uradni list RS, št. 58/03, 34/08 – ZST-1, 45/08, 28/09 in 25/11) izdaja minister za pravosodje</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o zemljiški knjigi</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o zemljiški knjigi (Uradni list RS, št. 30/11) se v prvem odstavku 8. člena na koncu tretje alineje 3. točke pika nadomesti z vejico in doda nova četrta alineja, ki se glasi:<br />
 »– izpis osnovnih pravnih položajev in predznamovanih pravic, pri katerih je oseba, ki zahteva izdelavo izpisa, vpisana kot imetnik.«.<br />
 V četrtem odstavku se besedilo »druge in tretje« nadomesti z besedilom »druge do četrte«.<br />
@@ -38,7 +51,7 @@ Za četrtim odstavkom se doda se nov peti odstavek, ki se glasi:<br />
 1. stranka – pravna oseba glede osnovnih pravnih položajev in predznamovanih pravic, pri katerih je vpisana kot imetnik z matično številko, vpisano v varnostni shemi,<br />
 2. stranka – fizična oseba glede osnovnih pravnih položajev in predznamovanih pravic, pri katerih je vpisana kot imetnik z EMŠO, vpisano v varnostni shemi.«.<br />
 Dosedanji peti odstavek postane šesti odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Priloga se spremeni tako, da se glasi:</p>
 <p>»Priloga: Preglednica vrst elektronskih predlogov in obvestil<br />
 +----------------+----------------------------------------------+<br />
@@ -303,7 +316,7 @@ Dosedanji peti odstavek postane šesti odstavek.</p>
 |    |           |     |stečaja                                 |<br />
 +----+-----------+-----+----------------------------------------+<br />
                                                                «.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-224/2011</p>
 <p>Ljubljana, dne 7. julija 2011</p>
@@ -319,5 +332,36 @@ za pravosodje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-07-08", "kratica": "PRAV10835", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o zemljiški knjigi", "url": "/trubar/si/PRAV10835/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

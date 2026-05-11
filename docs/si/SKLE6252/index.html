@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-0467" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6252.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE6252" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6252.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE6252,vrsta:sklep">
+    
     <h1>Sklep o spremembi Sklepa o ustanovitvi in delovnem področju Službe Vlade Republike Slovenije za usklajevanje in spremljanje izvajanja strategije razvoja Slovenije</h1>
 <p>Na podlagi 25. člena Zakona o Vladi Republike Slovenije (Uradni list RS, št. 24/05 – uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>S K L E P</h2>
 <p>o spremembi Sklepa o ustanovitvi in delovnem področju Službe Vlade Republike Slovenije za usklajevanje in spremljanje izvajanja strategije razvoja Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Sklepu Vlade Republike Slovenije o ustanovitvi in delovnem področju Službe Vlade Republike Slovenije za usklajevanje in spremljanje izvajanja strategije razvoja Slovenije št. 00714-37/2005/4, EVA: 2005-3111-0056 z dne 17. novembra 2005 (Uradni list RS, št. 106/05) se ime "Služba Vlade Republike Slovenije za usklajevanje in spremljanje izvajanja strategije razvoja Slovenije" spremeni v "Služba Vlade Republike Slovenije za razvoj" (v nadaljnjem besedilu: "služba za razvoj").</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta sklep začne veljati dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00402-1/2006/6</p>
 <p>Ljubljana, dne 26. januarja 2006</p>
@@ -47,5 +60,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-02-03", "kratica": "SKLE6252", "naziv": "Sklep o spremembi Sklepa o ustanovitvi in delovnem področju Službe Vlade Republike Slovenije za usklajevanje in spremljanje izvajanja strategije razvoja Slovenije", "url": "/trubar/si/SKLE6252/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

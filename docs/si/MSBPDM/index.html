@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-02-0023" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSBPDM.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MSBPDM" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSBPDM.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MSBPDM,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-10">10</a><a href="#člen-3">3</a><a href="#člen-4">4</a></nav>
     <h1>Zakon o ratifikaciji sprememb Budimpeštanske pogodbe o mednarodnem priznanju depozita mikroorganizmov za postopek patentiranja</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI SPREMEMB BUDIMPEŠTANSKE POGODBE O MEDNARODNEM PRIZNANJU DEPOZITA MIKROORGANIZMOV ZA POSTOPEK PATENTIRANJA (MSBPDM)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificirajo se spremembe Budimpeštanske pogodbe o mednarodnem priznanju depozita mikroorganizmov za postopek patentiranja, sprejete 1. oktobra 2003 v Ženevi.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sprememb pogodbe se v izvirniku v angleškem jeziku in v prevodu v slovenskem jeziku glasi:</p>
 <h2>Budapest Treaty</h2>
 <p>on the International Recognition of the Deposit of Microorganisms for the Purposes of Patent Procedure</p>
@@ -70,7 +83,7 @@ Republike Slovenije</p>
 (8) The Assembly shall adopt its own rules of procedure.</p>
 <h2>Budimpeštanska pogodba</h2>
 <p>o mednarodnem priznanju depozita mikroorganizmov za postopek patentiranja</p>
-<h3>10. člen</h3>
+<h3><span id="člen-10">10. člen</span></h3>
 <h3>Skupščina</h3>
 <p>(1) (a) Skupščino sestavljajo države pogodbenice.<br />
 (b) Vsako državo pogodbenico zastopa en delegat, ki mu lahko pomagajo namestniki, svetovalci in strokovnjaki.<br />
@@ -95,9 +108,9 @@ Republike Slovenije</p>
 (7) (a) Skupščina se na sklic generalnega direktorja sestane na rednem zasedanju vsako koledarsko leto, po možnosti ob istem času in na istem kraju kot generalna skupščina organizacije.<br />
 (b) Skupščina ima izredna zasedanja, ki jih skliče generalni direktor na svojo pobudo ali na zahtevo četrtine držav pogodbenic.<br />
 (8) Skupščina sprejme svoj poslovnik.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sprememb pogodbe skrbi Ministrstvo za gospodarstvo – Urad Republike Slovenije za intelektualno lastnino.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 318-01/97-9/2</p>
 <p>Ljubljana, dne 1. februarja 2007</p>
@@ -114,5 +127,36 @@ France Cukjati, dr. med., l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-02-26", "kratica": "MSBPDM", "naziv": "Zakon o ratifikaciji sprememb Budimpeštanske pogodbe o mednarodnem priznanju depozita mikroorganizmov za postopek patentiranja", "url": "/trubar/si/MSBPDM/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-4611" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE7326.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE7326" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE7326.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE7326,vrsta:sklep">
+    
     <h1>Sklep o spremembah Sklepa o tarifi za zaračunavanje nadomestil za storitve Banke Slovenije</h1>
 <p>Na podlagi prvega odstavka 31. člena in 53. člena Zakona o Banki Slovenije (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo) izdaja Svet Banke Slovenije</p>
 <h2>S K L E P</h2>
 <p>o spremembah Sklepa o tarifi za zaračunavanje nadomestil za storitve Banke Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V sklepu o tarifi za zaračunavanje nadomestil za storitve Banke Slovenije (Uradni list RS, št. 131/06 in 46/07, v nadaljevanju: Sklep o tarifi), se v 1. členu, v poglavju »II. MEDBANČNI PLAČILNI PROMET«, spremeni tarifna številka 6 tako, da se glasi:<br />
 »6. Plačila v breme PM računa v sistemu TARGET2-Slovenija<br />
 a) za naloge, predložene v dobro PM računov udeležencev v sistemu TARGET2-Slovenija in udeležencev v sistemu TARGET2, ki so bili ob zaključku zadnjega delovnega dne pred 19. 11. 2007 udeleženci sistema RTGS(plus), glede na število nalogov, predloženih v posameznem mesecu</p>
@@ -42,7 +55,7 @@ a) za naloge, predložene v dobro PM računov udeležencev v sistemu TARGET2-Slo
 <p>(1) do 100 nalogov                             1,75 EUR/nalog<br />
 (2) od 101 do 1.000 nalogov                    1,00 EUR/nalog<br />
 (3) nad 1.000 nalogov                         0,80 EUR/nalog«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V Sklepu o tarifi se v 1. členu, v poglavju »II. MEDBANČNI PLAČILNI PROMET«, spremenijo tarifne številke 9, 10 in 11 tako, da se glasijo:<br />
 »9. Izvršitev prenosa sredstev med dvema PM računoma v imenu in za račun imetnika PM računa v sistemu TARGET2-Slovenija na podlagi ročnega posega v Banki Slovenije:</p>
 <p>a) prvi prenos sredstev                       62,55 EUR/nalog<br />
@@ -66,7 +79,7 @@ TARGET2-Slovenija na osnovi izvršitve<br />
 sklepa<br />
 o prisilni izterjavi ali sklepa o                   20,85 EUR<br />
 izvršbi                                   za posamezen prenos</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sklep začne veljati 19. novembra 2007.</p>
 <p>Ljubljana, dne 2. oktobra 2007</p>
 <p>Predsednik<br />
@@ -80,5 +93,36 @@ dr. Marko Kranjec l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-10-12", "kratica": "SKLE7326", "naziv": "Sklep o spremembah Sklepa o tarifi za zaračunavanje nadomestil za storitve Banke Slovenije", "url": "/trubar/si/SKLE7326/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

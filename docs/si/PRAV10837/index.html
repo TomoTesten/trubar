@@ -21,18 +21,31 @@
       <dt>Organ</dt><dd>Ministrstvo za zdravje</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-2729" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10837.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10837" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10837.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10837,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o zbiranju, pripravi, shranjevanju, razdeljevanju in prevozu krvi in komponent krvi</h1>
 <p>Na podlagi 27. in 30. člena Zakona o preskrbi s krvjo (Uradni list RS, št. 104/06) izdaja minister za zdravje</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o zbiranju, pripravi, shranjevanju, razdeljevanju in prevozu krvi in komponent krvi</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o zbiranju, pripravi, shranjevanju, razdeljevanju in prevozu krvi in komponent krvi (Uradni list RS, št. 9/07) se 1. člen spremeni tako, da se glasi:<br />
 »Ta pravilnik v skladu z Direktivo Komisije 2004/33/ES z dne 22. marca 2004 o izvajanju Direktive Evropskega parlamenta in Sveta 2002/98/ES glede nekaterih tehničnih zahtev za kri in komponente krvi (UL L št. 91 z dne 30. 3. 2004, str. 25), zadnjič spremenjeno z Izvedbeno Direktivo Komisije 2011/38/ES z dne 11. aprila 2011 o spremembi Priloge V k Direktivi 2004/33/EU v zvezi z najvišjimi vrednostmi pH za koncentrate trombocitov ob izteku roka uporabnosti (UL L št. 97 z dne 12. 4. 2011, str. 28), in Direktivo Komisije 2005/62/ES z dne 30. septembra 2005 o izvajanju Direktive Evropskega parlamenta in Sveta 2002/98/ES glede standardov in specifikacij Skupnosti v zvezi s sistemom kakovosti za transfuzijske ustanove (UL L št. 256 z dne 1. 10. 2005, str. 41) določa postopke pri zbiranju, pripravi, shranjevanju, razdeljevanju in prevozu krvi in komponent krvi ter zahteve glede njihove varnosti in kakovosti.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V PRILOGI 2 »Standardi kakovosti in varnosti krvi in komponent krvi« se pri naslednjih komponentah sprejemljivi rezultati za merila kakovosti pri zahtevanem merilu kakovosti pH nadomestijo z besedilom »najnižji 6,4 s korekcijo za 22 °C, ob izteku roka uporabnosti«:<br />
 – Trombociti, afereza,<br />
 – Trombociti, afereza, odstranjeni levkociti,<br />
@@ -40,7 +53,7 @@
 – Trombociti, pridobljeni iz polne krvi, zlitje, odstranjeni levkociti,<br />
 – Trombociti, pridobljeni iz polne krvi, posamezna enota,<br />
 – Trombociti, pridobljeni iz polne krvi, posamezna enota, odstranjeni levkociti.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0070-84/2011</p>
 <p>Ljubljana, dne 6. julija 2011</p>
@@ -56,5 +69,36 @@ za zdravje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-07-22", "kratica": "PRAV10837", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o zbiranju, pripravi, shranjevanju, razdeljevanju in prevozu krvi in komponent krvi", "url": "/trubar/si/PRAV10837/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,27 +21,40 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0718" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2170.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV2170" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2170.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV2170,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o programu preizkusa strokovne usposobljenosti ter o postopku in načinu opravljanja preizkusa za pridobitev licence za prevoze v cestnem prometu</h1>
 <p>Na podlagi drugega odstavka 5. člena zakona o prevozih v cestnem prometu (Uradni list RS, št. 72/94, 18/95 –pop. in 54/96) ter 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95 – odl. US in 29/95), minister za promet in zveze, v soglasju z ministrom za šolstvo in šport, izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o programu preizkusa strokovne usposobljenosti ter o postopku in načinu opravljanja preizkusa za pridobitev licence za prevoze v cestnem prometu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <ol>
 <li>člen pravilnika o programu preiskusa strokovne usposobljenosti ter o postopku in načinu opravljanja preizkusa za pridobitev licence za prevoze v cestnem prometu (Uradni list RS, št. 33/96 in 61/97) se spremeni tako, da se glasi:</li>
 </ol>
 <p>“Izvajalec iz 8. člena tega pravilnika, kandidata, ki je podal popolno prijavo za preizkus znanja, s pisnim obvestilom obvesti, da je njegova prijava sprejeta. Kandidata hkrati pozove, da plača stroške postopka za pridobitev strokovne usposobljenosti. Ko kandidat izvajalcu dostavi potrdilo o plačilu, ga izvajalec pisno obvesti o kraju in času preizkusa strokovne usposobljenosti.</p>
 <p>Kandidata, ki je podal nepopolno prijavo, izvajalec pozove, da jo dopolni v roku 8 dni.<br />
 Višino stroškov postopka za pridobitev strokovne usposobljenosti določi minister. “</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugem odstavku 25. člena se črtata besedi “ali visoko “<br />
 Doda se nov, četrti odstavek 25. člena, ki se glasi:</p>
 <p>“ Osebam, ki so pridobile nazive: diplomirani inženir prometne stroke, diplomirani gradbeni inženir (prometna smer), diplomirani ekonomist in diplomirani pravnik, se prizna preizkus strokovne usposobljenosti, če so zaposleni v cestno-prometni stroki najmanj 3 leta.“</p>
 <p>Dosedanji četrti odstavek postane peti.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik prične veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 2653-22/98-170</p>
 <p>Ljubljana, dne 11. februarja 1998.</p>
@@ -60,5 +73,36 @@ dr. Slavko Gaber l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-02-27", "kratica": "PRAV2170", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o programu preizkusa strokovne usposobljenosti ter o postopku in načinu opravljanja preizkusa za pridobitev licence za prevoze v cestnem prometu", "url": "/trubar/si/PRAV2170/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

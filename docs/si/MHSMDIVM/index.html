@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-02-0098" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MHSMDIVM.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MHSMDIVM" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MHSMDIVM.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MHSMDIVM,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Haaškega sporazuma o mednarodnem depozitu industrijskih vzorcev in modelov - Haaškega akta in dopolnilnega akta iz Stochkolma</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>UKAZ</h2>
@@ -37,14 +50,14 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>O RATIFIKACIJI HAAŠKEGA SPORAZUMA O MEDNARODNEM DEPIZITU INDUSTRIJSKIH VZORCEV IN MODELOV – HAAŠKEGA AKTA IN DOPOLNILNEGA AKTA IZ STOCKHOLMA</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Haaški sporazum o mednarodnem depozitu industrijskih vzorcev in modelov – Haaški akt, sklenjen 28. novembra 1960, in dopolnilni akt iz Stockholma, sklenjen 14. julija 1967 ter spremenjen in dopolnjen 28. septembra 1979.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo Haaškega sporazuma – Haaškega akta in dopolnilnega akta iz Stockholma se v francoskem izvirniku in slovenskem prevodu glasi:</p>
 <p>Acte de la Haye, du 28 november 1960; Haaški akt z dne 28. novembra 1960</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje Haaškega sporazuma – Haaškega akta in dopolnilnega akta iz Stockholma skrbi Ministrstvo za znanost in tehnologijo – Urad Republike Slovenije za intelektualno lastnino.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 318-01/94-9/1</p>
 <p>Ljubljana, dne 9. novembra. 1994</p>
@@ -60,5 +73,36 @@ Jože Školč l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-11-25", "kratica": "MHSMDIVM", "naziv": "Zakon o ratifikaciji Haaškega sporazuma o mednarodnem depozitu industrijskih vzorcev in modelov - Haaškega akta in dopolnilnega akta iz Stochkolma", "url": "/trubar/si/MHSMDIVM/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

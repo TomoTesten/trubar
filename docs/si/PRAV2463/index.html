@@ -21,20 +21,33 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1930" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2463.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV2463" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2463.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV2463,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o potnih listih in o vizumih ter o načinu vodenja evidenc o potnih listih in vizumih</h1>
 <p>Na podlagi prve in četrte točke 37. člena zakona o potnih listinah državljanov Republike Slovenije (Uradni list RS, št. 1/91-I) izdaja minister za notranje zadeve</p>
 <h2>PRAVILNIK</h2>
 <p>o spremembah in dopolnitvah pravilnika o potnih listih in vizumih ter o načinu vodenja evidenc o potnih listih in vizumih</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o potnih listih in vizumih ter o načinu vodenja evidenc o potnih listih in vizumih (Uradni list RS, št. 19/91-I) se 4, člen spremeni tako, da se glasi:<br />
 »Vizum se izda v obliki nalepke velikosti 9 X 7 cm.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Obrazec priloga št. 5 se nadomesti z novim obrazcem, ki je objavljen skupaj s tem pravilnikom.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati 1. septembra 1994.</p>
 <p>Št. 0101-6-sl. 447/93</p>
 <p>Ljubljana, dne 4. avgusta 1994.</p>
@@ -49,5 +62,36 @@ za notranje zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-08-30", "kratica": "PRAV2463", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o potnih listih in o vizumih ter o načinu vodenja evidenc o potnih listih in vizumih", "url": "/trubar/si/PRAV2463/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

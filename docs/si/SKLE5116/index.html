@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Banka Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4822" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5116.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE5116" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5116.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE5116,vrsta:sklep">
+    
     <h1>Sklep o spremembah in dopolnitvah sklepa o tarifi, po kateri se zaračunavajo nadomestila za storitve, ki jih opravlja Banka Slovenije</h1>
 <p>Na podlagi prvega odstavka 31. člena in 53. člena Zakona o Banki Slovenije (Uradni list RS, št. 58/02 in 85/02), izdaja Svet Banke Slovenije</p>
 <h2>S K L E P</h2>
 <p>o spremembah in dopolnitvah sklepa o tarifi, po kateri se zaračunavajo nadomestila za storitve, ki jih opravlja Banka Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V sklepu o tarifi, po kateri se zaračunavajo nadomestila za storitve, ki jih opravlja Banka Slovenije (Uradni list RS, št. 66/02, 83/02, 94/02, 64/03, 4/04 in 99/04; v nadaljevanju: sklep), se v 1. členu doda novo X. poglavje, ki se glasi:<br />
 »X. POSREDOVANJE PRI PLAČILIH V TUJIH PLAČILNIH SISTEMIH<br />
 34. Nadomestilo za letno udeležbo v skupni vstopni točki (SVT) v Banki Slovenije do sistema STEP2 in nadomestilo za posredovanje plačilnih nalogov preko SVT:</p>
@@ -41,7 +54,7 @@ b) posredovanje plačilnih nalogov v SVT<br />
     – od 6001 in več plačilnih nalogov      47,90 SIT/plačilni nalog<br />
 c) nadomestilo<br />
    za aktiviranje zavarovanja                        100.000,00 SIT«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta sklep začne veljati 1. novembra 2004.</p>
 <p>V Ljubljani, dne 21. oktobra 2004.</p>
 <p>Predsednik<br />
@@ -55,5 +68,36 @@ Mitja Gaspari l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-10-29", "kratica": "SKLE5116", "naziv": "Sklep o spremembah in dopolnitvah sklepa o tarifi, po kateri se zaračunavajo nadomestila za storitve, ki jih opravlja Banka Slovenije", "url": "/trubar/si/SKLE5116/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

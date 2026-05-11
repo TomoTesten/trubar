@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2015-01-0681" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4109.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG4109" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4109.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG4109,vrsta:drugi akt">
+    
     <h1>Spremembe in dopolnitve Kodeksa etike v zdravstveni negi in oskrbi</h1>
 <p>Na podlagi 87. člena Zakona o zdravstveni dejavnosti je Strokovno združenje izvajalcev zdravstvene in babiške nege Slovenije skladno s 13. členom Statuta na seji Izvršilnega odbora dne 17. 1. 2015 sprejel</p>
 <h2>S P R E M E M B E   I N   D O P O L N I T V E K O D E K S A   E T I K E</h2>
 <p>v zdravstveni negi in oskrbi (Uradni list RS, št. 52/14)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Peti odstavek uvodnih določb se spremeni tako, da se glasi:<br />
 »Kodeks je namenjen vsem izvajalcem zdravstvene nege in oskrbe v Republiki Sloveniji, ki so člani Strokovnega združenja izvajalcev zdravstvene in babiške nege Slovenije in so člani negovalnega tima ali samostojni izvajalci zdravstvene nege in oskrbe. Za dijake in študente zdravstvene nege je kodeks vodilo pri oblikovanju profesionalnih etičnih in moralnih stališč, vir znanja in refleksije. Izvajalcu zdravstvene nege, ki že opravlja poklic, pa je podlaga za etično presojo njegovega dela.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Tretji odstavek Končnih določb se spremeni tako, da se v glasi:<br />
 »Kršitve določb tega kodeksa ugotavlja skladno z 2. členom Pravilnika o izvajanju strokovnega nadzora s svetovanjem za posamezne poklicne skupine zdravstvenih delavcev, ki niso organizirani v poklicnih zbornicah oziroma strokovnih združenjih z javnim pooblastilom (Uradni list RS, št. 60/13) Ministrstvo za zdravje, ki glede na stopnjo in resnost kršitve skladno s sprejetim pravilnikom o ukrepih določi ukrepe, kot so:<br />
 – zahteva opravičilo izvajalca zdravstvene nege in oskrbe proti pacientu oziroma drugemu izvajalcu zdravstvene nege in oskrbe;<br />
@@ -48,5 +61,36 @@ Klemen Markeš l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2015-03-16", "kratica": "DRUG4109", "naziv": "Spremembe in dopolnitve Kodeksa etike v zdravstveni negi in oskrbi", "url": "/trubar/si/DRUG4109/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

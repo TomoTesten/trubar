@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-02-0053" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPESZDAZ.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MPESZDAZ" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPESZDAZ.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MPESZDAZ,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Protokola, ki spreminja Sporazum o zračnem prometu med Evropsko skupnostjo in njenimi državami članicami in Združenimi državami Amerike, podpisan 25. in 30. aprila 2007</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>ZAKON O RATIFIKACIJI PROTOKOLA, KI SPREMINJA SPORAZUM O ZRAČNEM PROMETU MED EVROPSKO SKUPNOSTJO IN NJENIMI DRŽAVAMI ČLANICAMI IN ZDRUŽENIMI DRŽAVAMI AMERIKE, PODPISAN 25. IN 30. APRILA 2007 (MPESZDAZ)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Protokol, ki spreminja Sporazum o zračnem prometu med Evropsko skupnostjo in njenimi državami članicami in Združenimi državami Amerike, podpisan 25. in 30. aprila 2007, sklenjen v Luxembourgu 24. junija 2010.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo protokola se v izvirniku v slovenskem in angleškem jeziku glasi:(*)<br />
 &lt; glej prilogo - RSM-2013-011-00053-OB~P001-0000.PDF # Priloga: Protokoli &gt;</p>
 <h2>P R O T O K O L</h2>
@@ -520,9 +533,9 @@ The delegations emphasised the importance of reducing the environmental impacts 
 – fostering and accelerating, as appropriate, the development and implementation of new aircraft technologies and sustainable alternative fuels, including through the Clean Sky Joint Technology Initiative, the Continuous Low Energy, Emissions and Noise (CLEEN) Program, the Commercial Aviation Alternative Fuels Initiative (CAAFI), and the Sustainable Way for Alternative Fuel and Energy in Aviation (SWAFEA) initiative; and<br />
 – collaborating with the scientific community through, for example, the CAEP Impacts and Science Group to better understand and quantify the effects of aviation on the environment, such as health and non-CO(2) climate impacts.<br />
 &lt; glej prilogo - RSM-2013-011-00053-OB~P002-0000.PDF # Podpisniki &gt;</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje protokola skrbi ministrstvo, pristojno za infrastrukturo in prostor.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 326-01/13-1/9</p>
 <p>Ljubljana, dne 20. junija 2013</p>
@@ -540,5 +553,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-07-08", "kratica": "MPESZDAZ", "naziv": "Zakon o ratifikaciji Protokola, ki spreminja Sporazum o zračnem prometu med Evropsko skupnostjo in njenimi državami članicami in Združenimi državami Amerike, podpisan 25. in 30. aprila 2007", "url": "/trubar/si/MPESZDAZ/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

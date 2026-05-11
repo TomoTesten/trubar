@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2748" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ObrZ-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ObrZ-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ObrZ-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ObrZ-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o dopolnitvah obrtnega zakona</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O DOPOLNITVAH OBRTNEGA ZAKONA (ObrZ-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V obrtnem zakonu (Uradni list RS, št. 50/94) se doda novo VIII.a poglavje “Pogoji za opravljanje obrtne dejavnosti oseb iz držav članic Evropske unije” s členi 42.a, 42.b, 42.c, 42.č, 42.d in 42.e, ki se glasijo:</p>
 <h3>“42.a člen</h3>
 <p>Določbe ostalih poglavij tega zakona se za državljane ter pravne osebe držav članic Evropske unije (v nadaljevanju: osebe držav članic EU) uporabljajo le, če v tem poglavju ni drugače urejeno.</p>
@@ -61,7 +74,7 @@ Milan Kučan l. r.</p>
 <p>(1) Strokovni in drugi nazivi oseb, ki opravljajo dejavnost obrti, se lahko uporabljajo na ozemlju Republike Slovenije tudi, če so bili pridobljeni v tujini.<br />
 (2) Če oseba uporablja strokovni ali drug naziv pridobljen v državi članici Evropske unije, mora nazivu slediti ime in mesto ustanove, ki je naziv podelila.<br />
 (3) Če oseba izpolnjuje pogoje po pravu Republike Slovenije za priznanje določene poklicne in strokovne kvalifikacije, pridobljene v državi članici Evropske unije, lahko uporablja tudi strokovni naziv, ki se za ustrezno poklicno kvalifikacijo uporablja v Republiki Sloveniji, če je ta pridobljena z diplomo ali drugo formalno kvalifikacijo. Te pravice nima oseba, če je njena poklicna kvalifikacija priznana z naknadnim izpitom, preizkusno dobo ali na drug podoben način.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne z dnem polnopravnega članstva Republike Slovenije v Evropski uniji.</p>
 <p>Št. 331-01/89-1/23</p>
 <p>Ljubljana, dne 20. junija 2000.</p>
@@ -77,5 +90,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-07-06", "kratica": "ObrZ-A", "naziv": "Zakon o dopolnitvah obrtnega zakona", "url": "/trubar/si/ObrZ-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

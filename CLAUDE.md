@@ -1,6 +1,6 @@
 # T.R.U.B.A.R.
 
-**Transparentni Register Urejenih Besedil Aktov Republike**
+**Transparentni Register Urejenih Besedil Aktov Republike Slovenije**
 
 Slovenian legislation as a Git repository. Every law is a Markdown file in `si/`.
 Every reform is a dated git commit. 5,196+ commits spanning 1946–2026.

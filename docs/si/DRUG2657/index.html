@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4696" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2657.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG2657" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2657.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG2657,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Aneks št. 2 k Tarifni prilogi h Kolektivni pogodbi dejavnosti cestnega gospodarstva</h1>
 <p>Na podlagi Kolektivne pogodbe dejavnosti cestnega gospodarstva (Uradni list RS, št. 135/04, 50/05, 87/05, 89/05 in 97/05) sklepajo pogodbene stranke</p>
 <p>na strani delodajalcev:<br />
@@ -39,7 +52,7 @@ na strani delojemalcev:<br />
 – KSS PERGAM – Sindikat cestnega gospodarstva Slovenije-SCGS</p>
 <h2>A N E K S   Š T.   2</h2>
 <p>k Tarifni prilogi h Kolektivni pogodbi dejavnosti cestnega gospodarstva</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 1. točki tarifne priloge se za tretjim odstavkom doda nov četrti odstavek, ki glasi:<br />
 »(4) Izhodiščne plače se od 1. 8. 2006 povečajo za 2,15%, tako, da po posameznih tarifnih razredih znašajo:</p>
 <p>I.         enostavna dela         1.00    85.086<br />
@@ -53,14 +66,14 @@ VII./2     visoko zahtevna dela   2.30   195.699<br />
 VIII.      najbolj zahtevna dela  2.50   212.715<br />
 IX.        izjemno zahtevna dela  3.00   255.259<br />
 in veljajo do 17. 12. 2006.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V točki 2 tarifne priloge se doda nov šesti odstavek, ki glasi:<br />
 »(6) Dodatki k plači po prvem odstavku te točke in po 1. točki aneksa št. 1 k tarifni prilogi se v skladu z 8. členom Zakona o izvajanju dogovora o politiki plač v zasebnem sektorju v obdobju 2004–2005 delavcem izplačujejo do njihove vključitve v najnižje osnovne plače.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Pogodbene stranke se zavezujejo, da bodo s KPCG do 17. 12. 2006 uvedle nov plačni sistem, ki bo temeljil na najnižjih osnovnih plačah. Pri tem bodo v najnižje osnovne plače vključile dodatke po Zakonu o izvajanju dogovora o politiki plač v zasebnem sektorju v obdobju 2004–2005.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ostala določila tarifne priloge, ki s tem aneksom niso spremenjena, ostanejo v veljavi.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta aneks začne veljati z dnem objave v Uradnem listu RS, uporablja pa se od 1. 8. 2006 dalje.</p>
 <p>Ljubljana, dne 20. septembra 2006</p>
 <p>Združenje delodajalcev<br />
@@ -98,5 +111,36 @@ Ivan Thaler l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-10-27", "kratica": "DRUG2657", "naziv": "Aneks št. 2 k Tarifni prilogi h Kolektivni pogodbi dejavnosti cestnega gospodarstva", "url": "/trubar/si/DRUG2657/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3526" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG228.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG228" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG228.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG228,vrsta:drugi akt">
+    
     <h1>Dodatek k pravilom kviz loterije "Olimpijska srečka"</h1>
 <p>Na podlagi zakona o igrah na srečo (Uradni list RS, št. 27/95), poslovnika o delu uprave in pravil kviz loterije “Olimpijska srečka”, je uprava družbe Športna loterija in igre na srečo d.d. dne 21. 4. 1999 sprejela</p>
 <h2>D O D A T E K</h2>
 <p>k pravilom kviz loterije “Olimpijska srečka”</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 1. seriji igre se sklad za dobitke razdeli na naslednje vrste dobitkov:</p>
 <hr />
 <pre><code>    1            10,000.000 SIT      10,000.000 SIT
@@ -53,13 +66,13 @@
 <pre><code>   20             1,900.000 SIT      38,000.000 SIT
 </code></pre>
 <hr />
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Začetek prodaje 1. serije srečk je 1. 9. 1999.<br />
 Zaključek prodaje 1. serije srečk je 1. 6. 2000.<br />
 Zaključno žrebanje 1. serije je 30. 6. 2000.<br />
 Zadnji dan za prevzem blagovnih dobitkov je 60 dni po javni objavi poročila o izidu žrebanja.<br />
 Zadnji dan za izplačilo denarnih dobitkov 1. serije je 31. 8. 2000.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V skladu s prvim odstavkom 10. člena pravil se na vsakem posameznem žrebanju, izžreba po dva dobitnika, ki potujeta na ogled Olimpijskih iger v Sydney.</p>
 <p>Št. 290/99</p>
 <p>Ljubljana, dne 21. junija 1999.</p>
@@ -73,5 +86,36 @@ Direktor družbe</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-09-03", "kratica": "DRUG228", "naziv": "Dodatek k pravilom kviz loterije \"Olimpijska srečka\"", "url": "/trubar/si/DRUG228/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

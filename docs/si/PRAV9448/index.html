@@ -21,29 +21,42 @@
       <dt>Organ</dt><dd>Ministrstvo za gospodarstvo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0159" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9448.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9448" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9448.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9448,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o minimalni stopnji izobrazbe za opravljanje trgovinske dejavnosti</h1>
 <p>Na podlagi drugega odstavka 5. člena Zakona o trgovini (Uradni list RS, št. 24/08) izdaja minister za gospodarstvo</p>
 <h2>P R A V I L N I K</h2>
 <p>o minimalni stopnji izobrazbe za opravljanje trgovinske dejavnosti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa minimalno stopnjo izobrazbe za tipična delovna mesta v trgovini.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Tipični delovni mesti v trgovini sta prodajalec in trgovski poslovodja.<br />
 (2) Določbe tega pravilnika ne veljajo za osebe, ki jim je za opravljanje prodaje določenega blaga predpisana minimalna stopnja izobrazbe z drugimi predpisi.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Prodajalec je oseba, ki neposredno prodaja blago v trgovini ali svetuje kupcem o lastnostih blaga ali sprejema plačila kupcev.<br />
 (2) Prodajalec mora imeti končano najmanj srednjo poklicno izobrazbo (IV. raven zahtevnosti).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>(1) Trgovski poslovodja je oseba, ki vodi trgovsko poslovanje s strokovnim urejanjem poslovnih in delovnih postopkov nabave, skladiščenja, priprave in prodaje blaga v poslovnih enotah trgovine ali delih teh poslovnih enot.<br />
 (2) Trgovski poslovodja mora imeti končano najmanj srednjo strokovno izobrazbo ali splošno srednjo izobrazbo (V. raven zahtevnosti).</p>
 <h3>KONČNI DOLOČBI</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z dnem uveljavitve tega pravilnika se preneha uporabljati Pravilnik o minimalni stopnji izobrazbe oseb, ki opravljajo trgovinsko dejavnost, po zahtevnosti posameznih vrst trgovinskih opravil (Uradni list RS, št. 28/93, 57/93, 60/07 in 24/08 – ZT-1).</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-226/2009-22</p>
 <p>Ljubljana, dne 7. januarja 2010</p>
@@ -59,5 +72,36 @@ za gospodarstvo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-01-22", "kratica": "PRAV9448", "naziv": "Pravilnik o minimalni stopnji izobrazbe za opravljanje trgovinske dejavnosti", "url": "/trubar/si/PRAV9448/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

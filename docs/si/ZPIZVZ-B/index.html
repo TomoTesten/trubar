@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1189" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPIZVZ-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPIZVZ-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPIZVZ-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPIZVZ-B,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o pravicah iz pokojninskega in invalidskega zavarovanja bivših vojaških zavarovancev</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,24 +50,24 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O PRAVICAH IZ POKOJNINSKEGA IN INVALIDSKEGA ZAVAROVANJA BIVŠIH VOJAŠKIH ZAVAROVANCEV (ZPIZVZ-B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o pravicah iz pokojninskega in invalidskega zavarovanja bivših vojaških zavarovancev (Uradni list RS, št. 12/07 – uradno prečiščeno besedilo) se v 3. členu za tretjo alinejo doda nova četrta alineja, ki se glasi:<br />
 »– do vdovske pokojnine,«.<br />
 Dosedanja četrta do osma alineja postanejo peta do deveta alineja.<br />
 Dosedanja deveta alineja, ki postane deseta alineja, se spremeni tako, da se glasi:<br />
 »– do letnega dodatka,«.<br />
 Dosedanja deseta in enajsta alineja postaneta enajsta in dvanajsta alineja.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 5. člena se za besedilom »pridobijo pravico do« dodata besedi »vdovske ter«.<br />
 V drugem odstavku se besedilo »dodatka za rekreacijo upokojencev« nadomesti z besedama »letnega dodatka«.<br />
 Za drugim odstavkom se doda nov tretji odstavek, ki se glasi:<br />
 »Vdovi oziroma vdovcu se lahko poleg starostne ali invalidske pokojnine, priznane po tem zakonu ali Zakonu o pokojninskem in invalidskem zavarovanju (Uradni list RS, št. 109/06 – uradno prečiščeno besedilo, v nadaljnjem besedilu: <a href="/trubar/si/ZPIZ-1/" class="law-ref" title="ZPIZ-1">ZPIZ-1</a>) izplačuje tudi del vdovske pokojnine, ki mu gre po pokojnem uživalcu pravic po tem zakonu oziroma po pokojnem zavarovancu ali uživalcu pravic po <a href="/trubar/si/ZPIZ-1/" class="law-ref" title="ZPIZ-1">ZPIZ-1</a>, vendar največ v višini in obsegu, določenem v <a href="/trubar/si/ZPIZ-1/" class="law-ref" title="ZPIZ-1">ZPIZ-1</a>.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prvem odstavku 15. člena se za besedama »invalidska pokojnina« doda vejico in besedo »vdovska«.<br />
 Doda se nov četrti odstavek, ki se glasi:<br />
 »Del vdovske pokojnine se izplačuje od prvega dne naslednjega meseca po vložitvi zahteve.«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 172-06/09-1/13</p>
 <p>Ljubljana, dne 31. marca 2009</p>
@@ -71,5 +84,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-04-10", "kratica": "ZPIZVZ-B", "naziv": "Zakon o spremembah in dopolnitvah zakona o pravicah iz pokojninskega in invalidskega zavarovanja bivših vojaških zavarovancev", "url": "/trubar/si/ZPIZVZ-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

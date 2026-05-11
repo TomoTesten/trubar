@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2183" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO857.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO857" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO857.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO857,vrsta:navodilo">
+    
     <h1>Navodilo o spremembi Navodila o statističnih raziskovanjih s področja turizma</h1>
 <p>Na podlagi 21. člena Zakona o državni statistiki (Uradni list RS, št. 45/95 in 9/01) izdaja generalna direktorica Statističnega urada Republike Slovenije naslednje</p>
 <h2>N A V O D I L O</h2>
 <p>o spremembi Navodila o statističnih raziskovanjih s področja turizma</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Navodilu o statističnih raziskovanjih s področja turizma (Uradni list RS, št. 56/06) se 1. člen spremeni, tako da se glasi:<br />
 »To navodilo v skladu z Direktivo Sveta št. 95/57/ES z dne 23. novembra 1995 o zbiranju statističnih podatkov na področju turizma (UL L št. 291 z dne 6. 12. 1995, str. 32), zadnjič spremenjeno z Direktivo Sveta 2006/110/ES z dne 20. novembra 2006 o prilagoditvi Direktiv 95/57/ES in 2001/109/ES na področju statistike zaradi pristopa Bolgarije in Romunije (UL L št. 363 z dne 20. 12. 2006, str. 418) (v nadaljnjem besedilu: Direktiva 95/57/ES) določa način in področja zbiranja podatkov o turističnem povpraševanju in ponudbi za območje Republike Slovenije (v nadaljnjem besedilu: podatki), ki jih zbira Statistični urad Republike Slovenije (v nadaljnjem besedilu: urad), in ureja njihovo združevanje in obdelovanje ter posredovanje usklajenih statističnih podatkov Evropski komisiji (v nadaljnjem besedilu: Komisija).«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-8/2006/7</p>
 <p>Ljubljana, dne 20. aprila 2007</p>
@@ -47,5 +60,36 @@ generalna direktorica Statističnega urada Republike Slovenije</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-05-07", "kratica": "NAVO857", "naziv": "Navodilo o spremembi Navodila o statističnih raziskovanjih s področja turizma", "url": "/trubar/si/NAVO857/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

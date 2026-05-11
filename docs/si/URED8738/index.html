@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>URED8738</strong></dd>
       <dt>Vrsta</dt><dd>uredba</dd>
-      <dt>Status</dt><dd><span class="badge invalid">neveljaven</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>2023-01-23</dd>
-      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-0148" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED8738.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED8738" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED8738.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED8738,vrsta:uredba">
+    
     <h1>Uredba o programih storitev obveznega zdravstvenega zavarovanja, zmogljivostih, potrebnih za njegovo izvajanje, in obsegu sredstev za leto 2023</h1>
 <p>Na podlagi četrtega odstavka 63. člena Zakona o zdravstvenem varstvu in zdravstvenem zavarovanju (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo, 114/06 – <a href="/trubar/si/ZUTPG/" class="law-ref" title="ZUTPG">ZUTPG</a>, 91/07, 76/08, 62/10 – <a href="/trubar/si/ZUPJS/" class="law-ref" title="ZUPJS">ZUPJS</a>, 87/11, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>, 21/13 – <a href="/trubar/si/ZUTD-A/" class="law-ref" title="ZUTD-A">ZUTD-A</a>, 91/13, 99/13 – <a href="/trubar/si/ZUPJS-C/" class="law-ref" title="ZUPJS-C">ZUPJS-C</a>, 99/13 – <a href="/trubar/si/ZSVarPre-C/" class="law-ref" title="ZSVarPre-C">ZSVarPre-C</a>, 111/13 – <a href="/trubar/si/ZMEPIZ-1/" class="law-ref" title="ZMEPIZ-1">ZMEPIZ-1</a>, 95/14 – <a href="/trubar/si/ZUJF-C/" class="law-ref" title="ZUJF-C">ZUJF-C</a>, 47/15 – <a href="/trubar/si/ZZSDT/" class="law-ref" title="ZZSDT">ZZSDT</a>, 61/17 – ZUPŠ, 64/17 – ZZDej-K, 36/19, 189/20 – <a href="/trubar/si/ZFRO/" class="law-ref" title="ZFRO">ZFRO</a>, 51/21, 159/21, 196/21 – ZDOsk, 15/22, 43/22, 100/22 – <a href="/trubar/si/ZNUZSZS/" class="law-ref" title="ZNUZSZS">ZNUZSZS</a> in 141/22 – <a href="/trubar/si/ZNUNBZ/" class="law-ref" title="ZNUNBZ">ZNUNBZ</a>) Vlada Republike Slovenije izdaja</p>
 <p>U R E D B O</p>
@@ -3501,5 +3514,36 @@ Druge obveznosti</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-01-23", "kratica": "URED8738", "naziv": "Uredba o programih storitev obveznega zdravstvenega zavarovanja, zmogljivostih, potrebnih za njegovo izvajanje, in obsegu sredstev za leto 2023", "url": "/trubar/si/URED8738/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

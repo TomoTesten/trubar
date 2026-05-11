@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-3101" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7416.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7416" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7416.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7416,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o podračunih ter načinu plačevanja obveznih dajatev in drugih javnofinančnih prihodkov</h1>
 <p>Na podlagi 61. člena Zakona o javnih financah (Uradni list RS, št. 79/99, 124/00, 79/01, 30/02, 56/02 – <a href="/trubar/si/ZJU/" class="law-ref" title="ZJU">ZJU</a> in 110/02 – <a href="/trubar/si/ZDT-B/" class="law-ref" title="ZDT-B">ZDT-B</a>), drugega odstavka 27. člena Zakona o davčnem postopku (Uradni list RS, št. 21/06 – uradno prečiščeno besedilo) in drugega odstavka 73. člena Zakona o plačilnem prometu (Uradni list RS, št. 105/04 – uradno prečiščeno besedilo, 100/05 – odločba US in 39/06) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o podračunih ter načinu plačevanja obveznih dajatev in drugih javnofinančnih prihodkov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o podračunih ter načinu plačevanja obveznih dajatev in<br />
 drugih javnofinančnih prihodkov (Uradni list RS, št. 141/04, 106/05 in<br />
 120/05) se 1. točka 6. člena spremeni tako, da se glasi:<br />
@@ -40,13 +53,13 @@ k.....k  3 do 7-mestna številka konta iz kontnega načrta za knjiženje<br />
          davkov in drugih dajatev Davčne uprave Republike Slovenije<br />
 K        kontrolna številka polj zzzzzzzz-k.....k<br />
 šššš     4-mestna številka, kadar jo dodatno določi nadzornik.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prilogi Osnovni seznam podračunov JFP skupine A se:<br />
 1. v vrste in podvrste dajatev dodajo novi podračuni JFP in njihovi podatki, tako kot so navedeni v Osnovnem seznamu novih podračunov JFP skupine A, ki je priloga tega pravilnika in njegov sestavni del;<br />
 2. nadomesti podatke podračunov JFP s podatki, ki so navedeni v Osnovnem seznamu sprememb podračunov JFP skupine A, ki je priloga tega pravilnika in njegov sestavni del;<br />
 3. ukine podračune JFP in njihove podatke, ki so navedeni v Osnovnem seznamu ukinjenih podračunov JFP skupine A, ki je priloga tega pravilnika in njegov sestavni del;<br />
 4. ukine podračun JFP 01100-8440145118 in njegovi podatki, ki so navedeni v Osnovnem seznamu podračunov JFP skupine A.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 420-01-39/2004/28</p>
 <p>Ljubljana, dne 30. junija 2006</p>
@@ -63,5 +76,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-07-11", "kratica": "PRAV7416", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o podračunih ter načinu plačevanja obveznih dajatev in drugih javnofinančnih prihodkov", "url": "/trubar/si/PRAV7416/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

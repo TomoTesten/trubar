@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-2419" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZRud-1B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZRud-1B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZRud-1B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZRud-1B,vrsta:Sprejet zakon">
+    
     <h1>Zakon o dopolnitvi Zakona o rudarstvu</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,19 +50,19 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O DOPOLNITVI ZAKONA O RUDARSTVU (ZRud-1B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o rudarstvu (Uradni list RS, št. 61/10, 62/10 – popr. in 76/10) se za 148. členom doda nov 148.a člen, ki se glasi:</p>
 <h3>»148.a člen</h3>
 <p>Določbe 50. člena tega zakona se ne uporabljajo za nosilce rudarske pravice za izkoriščanje, ki so imeli na dan 1. 1. 2011 veljavno rudarsko pravico za izkoriščanje.«.</p>
 <h3>PREHODNE IN KONČNA DOLOČBA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Če je nosilec rudarske pravice iz 1. člena tega zakona vložil vlogo za podaljšanje rudarske pravice za izkoriščanje in mu rudarska pravica ni bila podaljšana, se šteje, da je rudarska pravica podaljšana za največ tri leta od poteka dosedanje rudarske pravice, vendar najdlje do 31. 12. 2013. Ministrstvo, pristojno za rudarstvo, o podaljšanju rudarske pravice iz prejšnjega stavka v 15 dneh od uveljavitve tega zakona po uradni dolžnosti izda odločbo, v kateri določi obdobje podaljšanja rudarske pravice, pri čemer upošteva predlog nosilca rudarske pravice.<br />
 (2) Ministrstvo, pristojno za rudarstvo, izda nosilcu rudarske pravice iz 1. člena tega zakona, ki je vložil vlogo za podaljšanje rudarske pravice za izkoriščanje pred uveljavitvijo tega zakona in o njej še ni bilo odločeno, v 15 dneh od uveljavitve tega zakona odločbo, v kateri določi čas podaljšanja rudarske pravice, vendar ne za obdobje, daljše od treh let, vendar najdlje do 31. 12. 2013, pri čemer upošteva predlog nosilca rudarske pravice.<br />
 (3) Ministrstvo, pristojno za rudarstvo, izda nosilcu rudarske pravice iz 1. člena tega zakona, ki vloži vlogo za podaljšanje rudarske pravice za izkoriščanje po uveljavitvi tega zakona, v 15 dneh odločbo, v kateri določi čas podaljšanja rudarske pravice, vendar ne za obdobje, daljše od treh let, vendar najdlje do 31. 12. 2013, pri čemer upošteva predlog nosilca rudarske pravice.<br />
 (4) Medsebojno razmerje v zvezi s podaljšanjem veljavnosti rudarske pravice za izkoriščanje uredita Republika Slovenija in nosilec rudarske pravice za izkoriščanje z dodatkom h koncesijski pogodbi, ki ga podpišeta v imenu Republike Slovenije kot koncedenta minister, pristojen za rudarstvo, in nosilec rudarske pravice za izkoriščanje kot koncesionar.<br />
 (5) Ministrstvo, pristojno za rudarstvo, nosilcu rudarske pravice za izkoriščanje dodatek h koncesijski pogodbi, podpisan s strani ministra, pristojnega za rudarstvo, vroči osebno najkasneje v petnajstih dneh po pravnomočnosti odločbe o podaljšanju časa veljavnosti rudarske pravice za izkoriščanje, nosilec rudarske pravice za izkoriščanje pa ga je dolžan podpisanega vrniti najkasneje v tridesetih dneh po prejemu.<br />
 (6) Če nosilec rudarske pravice za izkoriščanje v roku iz prejšnjega odstavka ne dostavi na ministrstvo, pristojno za rudarstvo, podpisanega dodatka h koncesijski pogodbi ali če odkloni njegov podpis, ministrstvo, pristojno za rudarstvo, odločbo o podaljšanju časa veljavnosti rudarske pravice za izkoriščanje odpravi. Zoper to odločbo ni dopustna pritožba.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 320-01/12-8/11</p>
 <p>Ljubljana, dne 18. julija 2012</p>
@@ -66,5 +79,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-07-27", "kratica": "ZRud-1B", "naziv": "Zakon o dopolnitvi Zakona o rudarstvu", "url": "/trubar/si/ZRud-1B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

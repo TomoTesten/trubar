@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1512" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZSŠP-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZSŠP-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZSŠP-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZSŠP-B,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah Zakona o subvencioniranju študentske prehrane</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,12 +50,12 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O SUBVENCIONIRANJU ŠTUDENTSKE PREHRANE (ZSŠP-B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o subvencioniranju študentske prehrane (Uradni list RS, št. 74/07 – uradno prečiščeno besedilo) se v prvem odstavku 6. člena za besedo »Sloveniji« črta vejica, besedilo »ki niso zaposlene oziroma vpisane v evidenco brezposelnih oseb pri Zavodu Republike Slovenije za zaposlovanje« pa nadomesti z besedilom »ter niso zaposlene«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 8.a člena se za besedilom »upravičenca,« doda besedilo »EMŠO,«.<br />
 V drugem odstavku se črtata besedi »in ministrstvo«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Drugi odstavek 8.b člena se spremeni tako, da se glasi:<br />
 »Če so pri nadzoru nad delom ponudnika subvencionirane študentske prehrane ugotovljene nepravilnosti, lahko izvajalec izreče naslednje ukrepe: pisni opomin, prepoved prodaje študentskih bonov za dobo najmanj enega in največ treh mesecev, prepoved izvajanja subvencionirane študentske prehrane za dobo najmanj enega meseca in največ šest mesecev ter odpoved pogodbe ponudniku študentske prehrane.«.<br />
 Za tretjim odstavkom se doda nov četrti odstavek, ki se glasi:<br />
@@ -51,7 +64,7 @@ Dosedanji četrti odstavek, ki postane peti odstavek, se spremeni tako, da se gl
 »Prepoved izvajanja subvencionirane študentske prehrane za dobo najmanj enega meseca in največ šest mesecev se izreče za večkrat ponavljajoče se pomanjkljivosti pri izvajanju študentske prehrane ali ponavljajoče se kršitve pogodbe pri izvajanju študentske prehrane, storjene iz malomarnosti.«.<br />
 Dosedanji peti odstavek postane šesti odstavek.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 411-10/09-13/10</p>
 <p>Ljubljana, dne 21. aprila 2009</p>
@@ -68,5 +81,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-04-30", "kratica": "ZSŠP-B", "naziv": "Zakon o spremembah in dopolnitvah Zakona o subvencioniranju študentske prehrane", "url": "/trubar/si/ZSŠP-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

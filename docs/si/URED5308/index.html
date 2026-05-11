@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-4506" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5308.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5308" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5308.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5308,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o normativih in standardih za določanje sredstev za izvajanje nacionalnega raziskovalnega in razvojnega programa</h1>
 <p>Na podlagi 13. člena Zakona o raziskovalni in razvojni dejavnosti (Uradni list RS, št. 22/06 - uradno prečiščeno besedilo, 61/06 - <a href="/trubar/si/ZDru/" class="law-ref" title="ZDru">ZDru</a> - 1 in 112/07) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o normativih in standardih za določanje sredstev za izvajanje nacionalnega raziskovalnega in razvojnega programa</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o normativih in standardih za določanje sredstev za izvajanje nacionalnega raziskovalnega in razvojnega programa (Uradni list RS, št. 74/04, 32/05, 26/06, 80/07 in 89/08) se v 27. členu doda novi tretji odstavek, ki glasi:<br />
 »Obseg financiranja s strani agencije, vezan na posameznega raziskovalca, lahko znaša največ en ekvivalent polne zaposlitve.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 32. členu se doda novi drugi odstavek, ki se glasi:<br />
 »Poleg odstopanj, določenih v prejšnjem odstavku, je dovoljen dodaten prenos iz sredstev namenjenih pokrivanju neposrednih materialnih in nematerialnih stroškov programa oziroma projekta v višini 15% ob pogoju, da gre v celoti za prenos sredstev v korist sredstev za pokrivanje stroškov amortizacije opreme neposredno potrebne pri izvedbi programa oziroma projekta. V tem primeru je dovoljeno odstopanje, določeno v prvem odstavku tega člena, za sredstva za pokrivanje stroškov amortizacije lahko preseženo za preneseni del iz sredstev za neposredne materialne in nematerialne stroške.«.<br />
 Dosedanji drugi, tretji in četrti odstavek postanejo tretji, četrti in peti odstavek.<br />
@@ -40,7 +53,7 @@ Dosedanji peti odstavek se črta.<br />
 Za šestim odstavkom se dodata dva nova sedmi in osmi odstavek, ki se glasita:<br />
 »V primeru, da izvajanje programov oziroma projektov traja več kot eno leto, je dovoljeno ob koncu poslovnega leta v okviru obdobja izvajanja programov oziroma projektov izkazati kratkoročno odložene prihodke, skladno z Zakonom o računovodstvu in/ali Slovenskimi računovodskimi standardi, na način, da se ohrani struktura in namen v okviru dovoljenih odstopanj določenih s to uredbo.<br />
 Če pri izvajanju programov oziroma projektov pride do nižjih stroškov od normiranih, ki so določeni s to uredbo, in iz tega naslova pride do presežka prihodkov nad odhodki, je dovoljeno presežek, ki nastane iz naslova financiranja programov oziroma projektov, razporediti za razvoj raziskovalne dejavnosti oziroma presežek vrniti v Proračun Republike Slovenije, skladno z normativnimi akti, ki urejajo razporejanje presežka prihodkov nad odhodki.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00723-6/2009/4</p>
 <p>Ljubljana, dne 10. decembra 2009</p>
@@ -56,5 +69,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-12-11", "kratica": "URED5308", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o normativih in standardih za določanje sredstev za izvajanje nacionalnega raziskovalnega in razvojnega programa", "url": "/trubar/si/URED5308/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

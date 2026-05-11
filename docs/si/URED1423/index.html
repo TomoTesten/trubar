@@ -21,16 +21,29 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-02-0118" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1423.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1423" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1423.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1423,vrsta:uredba">
+    
     <h1>Uredba o ratifikaciji Memoranduma o soglasju med Vlado Republike Slovenije in Vlado Združenega kraljestva Velike Britanije in Severne Irske o sodelovanju pri kartografiji in geodeziji ter izmenjavi kartografskih gradiv med Sektorjem za civilno obrambo Ministrstva za obrambo Republike Slovenije in Obrambno vojaško geodetsko agencijo (MIL SVY) Združenega kraljestva</h1>
 <h2>U R E D B A</h2>
 <p>O RATIFIKACIJI MEMORANDUMA O SOGLASJU MED VLADO REPUBLIKE SLOVENIJE IN VLADO ZDRUŽENEGA KRALJESTVA VELIKE BRITANIJE IN SEVERNE IRSKE O SODELOVANJU PRI KARTOGRAFIJI IN GEODEZIJI TER IZMENJAVI GEOGRAFSKIH GRADIV MED SEKTORJEM ZA CIVILNO OBRAMBO MINISTRSTVA ZA OBRAMBO REPUBLIKE SLOVENIJE IN OBRAMBNO VOJAŠKO GEODETSKO AGENCIJO(MIL SVY) ZDRUŽENEGA KRALJESTVA</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Memorandum o soglasju med Vlado Republike Slovenije in Vlado Združenega kraljestva Velike Britanije in Severne Irske o sodelovanju pri kartografiji in geodeziji ter izmenjavi kartografskih gradiv med Sektorjem za civilno obrambo Ministrstva za obrambo Republike Slovenije in Obrambno vojaško geodetsko agencijo (MIL SVY) Združenega kraljestva, podpisan v Ljubljani 14. marca 2000.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Memorandum se v izvirniku v slovenskem in angleškem jeziku glasi:</p>
 <h2>MEMORANDUM O SOGLASJU</h2>
 <p>MED VLADO REPUBLIKE SLOVENIJE  IN VLADO ZDRUŽENEGA KRALJESTVA VELIKE BRITANIJE IN SEVERNE IRSKE O SODELOVANJU PRI KARTOGRAFIJI IN GEODEZIJI TER IZMENJAVI GEOGRAFSKIH GRADIV MED SEKTORJEM ZA CIVILNO OBRAMBO MINISTRSTVA ZA OBRAMBO REPUBLIKE SLOVENIJE IN OBRAMBNO VOJAŠKO GEODETSKO AGENCIJO (MIL SVY) ZDRUŽENEGA KRALJESTVA</p>
@@ -571,9 +584,9 @@ d.  notify, where appropriate, the National Security Authority of the originator
 <li>Intellectual Property Rights<br />
 12.1    These regulations apply to the protection of classified information and material only. When protective measures are necessary in respect of Intellectual Property Rights (IPR), they should be set out in separate Regulations which apply in addition to the Security Regulations.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje memoranduma skrbi Ministrstvo za obrambo Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 800-11/98-6</p>
 <p>Ljubljana, dne 4. septembra 2000</p>
@@ -588,5 +601,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-09-22", "kratica": "URED1423", "naziv": "Uredba o ratifikaciji Memoranduma o soglasju med Vlado Republike Slovenije in Vlado Združenega kraljestva Velike Britanije in Severne Irske o sodelovanju pri kartografiji in geodeziji ter izmenjavi kartografskih gradiv med Sektorjem za civilno obrambo Ministrstva za obrambo Republike Slovenije in Obrambno vojaško geodetsko agencijo (MIL SVY) Združenega kraljestva", "url": "/trubar/si/URED1423/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

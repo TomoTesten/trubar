@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Borzen d.o.o.</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3735" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED9221.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED9221" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED9221.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED9221,vrsta:uredba">
+    
     <h1>Pravila za delovanje centra za podpore</h1>
 <p>Na podlagi točke i) drugega odstavka 18. člena Zakona o spodbujanju rabe obnovljivih virov energije (Uradni list RS, št. 121/21, 189/21, 121/22 – <a href="/trubar/si/ZUOKPOE/" class="law-ref" title="ZUOKPOE">ZUOKPOE</a> in 102/24) in točke c) tretjega odstavka 37. člena Zakona o infrastrukturi za alternativna goriva in spodbujanju prehoda na alternativna goriva v prometu (Uradni list RS, št. 62/23) ter soglasja Vlade Republike Slovenije št. 36000-8/2024/2 z dne 18. 12. 2024 Borzen, d. o. o., izdaja</p>
 <p>P R A V I L A</p>
@@ -812,5 +825,36 @@ Ocenjevanje in vrednotenje vlog izvede strokovna komisija, ki je pristojna za do
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2024-12-27", "kratica": "URED9221", "naziv": "Pravila za delovanje centra za podpore", "url": "/trubar/si/URED9221/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,30 +21,43 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1993-01-0540" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE898.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE898" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE898.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE898,vrsta:odredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Odredba o shemi bilance stanja in bilance uspeha za letni obračun Banke Slovenije</h1>
 <p>Na podlagi prvega odstavka 4. člena Ustavnega zakona za izvedbo temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije (Uradni list RS, št. 1/91-I), 63. in 64. člena Zakona o Banki Slovenije (Uradni list RS, št. 1/91-I) ter 26. in 27. člena Zakona o računovodstvu (Uradni list SFRJ, št. 12/89, 35/89, 3/90, 42/90 in 61/90 ter Uradni list RS, št. 42/90) izdaja Minister za finance</p>
 <h2>ODREDBO</h2>
 <p>o shemi bilance stanja in bilanc uspeha za letni obračun Banke Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Banka Slovenije, ki opravlja po zakonu o Banki Slovenije posle centralne banke Republike Slovenije in vodi knjigovodstvo v skladu z odlokom o kontnem planu bank in drugih finančnih organizacij (Uradni list RS, št. 33/91 in 38/92), izkaže letni obračun na shemah:<br />
 Shema 1A: Bilanca stanja za letni obračun Banke Slovenije<br />
 Shema 1B: Bilanca uspeha Banke Slovenije<br />
 Shema 1C: Bilanca uspeha Banke Slovenije v primerjavi s planom.<br />
 Sheme iz prejšnjega odstavka so sestavni del te odredbe.<br />
 Metodologijo za podrobnejšo razčlenitev posameznih postavk v shemah bilanc določi Svet Banke Slovenije.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Banka Slovenije izkaže Bilanco stanja (shema 1A) in Bilanco uspeha (shema 1B) v primerjavi s predhodnim letom, Bilanco uspeha Banke Slovenije v primerjavi s planom (shema 1C) pa v primerjavi s finančnim načrtom. Shema bilanc so sestavni del letnega poročila Banke Slovenije.<br />
 V shemah bilanc 1A in 1B za leto 1992 Banka Slovenije izjemoma ne izkaže podatkov za leto 1991.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Zneski v shemah bilanc so izkazani v tisoč tolarjih.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Banka Slovenije predloži letni obračun, dokler ni določen pooblaščeni revizor, Službi družbenega knjigovodstva do 28. februarja tekočega leta za preteklo leto.<br />
 Banka Slovenije predloži letni obračun za leto 1992 izjemoma do 15. marca 1993.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 401-5/93</p>
 <p>Ljubljana, dne 26. februarja 1993.</p>
@@ -59,5 +72,36 @@ Banka Slovenije predloži letni obračun za leto 1992 izjemoma do 15. marca 1993
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1993-03-05", "kratica": "ODRE898", "naziv": "Odredba o shemi bilance stanja in bilance uspeha za letni obračun Banke Slovenije", "url": "/trubar/si/ODRE898/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

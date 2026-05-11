@@ -21,30 +21,43 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2093" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2908.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2908" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2908.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2908,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o spremembah in dopolnitvah uredbe o kriterijih za razporejanje državljanov na obrambne dolžnosti</h1>
 <p>Na podlagi 10. in 12. člena zakona o obrambi (Uradni list RS, št. 82/94, 44/97, 87/97, 13/98 – odl. US, 33/00 – odl. US, 87/01, 47/02, 67/02 in 110/02) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o kriterijih za razporejanje državljanov na obrambne dolžnosti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o kriterijih za razporejanje državljanov na obrambne dolžnosti (Uradni list RS, št. 6/97, 42/98 in 124/00) se 9. člen spremeni tako, da se glasi:</p>
 <h3>“9. člen</h3>
 <p>Vojaški obveznik se ne razporeja na vojaško dolžnost v enote Slovenske vojske in enote za zveze, dokler opravlja dolžnosti iz 6. in 8. člena te uredbe, razen izjemoma, če je predlagan za razporeditev na vojaško evidenčno dolžnost, za katero upravni organ, pristojen za obrambne zadeve, ne more zagotoviti ustrezne zamenjave med nerazporejenimi vojaškimi obvezniki.“.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 9. členom se doda 9.a člen, ki se glasi:</p>
 <h3>“9.a člen</h3>
 <p>Upravni organ, pristojen za obrambne zadeve, zavrne predlog za razporeditev na delovno dolžnost in na dolžnost v Civilno zaščito in druge sile za zaščito, reševanje in pomoč državljana, ki je vložil vlogo za opravljanje vojaške službe v rezervni sestavi ali za zaposlitev v stalni sestavi Slovenske vojske do zaključka postopka za sklenitev pogodbe za vojaško službo v rezervni ali stalni sestavi Slovenske vojske.</p>
 <p>S sklenitvijo pogodbe o opravljanju vojaške službe v rezervni sestavi oziroma o zaposlitvi v stalni sestavi Slovenske vojske se državljanu ukine dosedanji razpored.“.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 14. členu se doda nov drugi odstavek, ki se glasi:</p>
 <p>“Predlagatelj razporeditve lahko vloži ugovor tudi v primeru prerazporeditve z delovne dolžnosti ali dolžnosti v silah za zaščito, reševanje in pomoč.“.</p>
 <p>Dosedanji drugi in tretji odstavek postaneta tretji in četrti odstavek.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V obrazcih EDD-1, EDD-2 in EDD-3, ki so sestavni del uredbe o kriterijih za razporejanje državljanov na obrambne dolžnosti (Uradni list RS, št. 6/97, 42/98 in 124/00), se rubrika “datum rojstva“ nadomesti z rubriko “enotna matična številka“.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 822-00/2000-2</p>
 <p>Ljubljana, dne 8. maja 2003.</p>
@@ -60,5 +73,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-05-09", "kratica": "URED2908", "naziv": "Uredba o spremembah in dopolnitvah uredbe o kriterijih za razporejanje državljanov na obrambne dolžnosti", "url": "/trubar/si/URED2908/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

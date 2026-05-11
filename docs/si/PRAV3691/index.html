@@ -21,20 +21,33 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4714" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3691.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV3691" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3691.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV3691,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o stopnjah običajnega odpisa blaga (kalo, razsip, razbitje, okvara)</h1>
 <p>Na podlagi 4. člena zakona o davku na dodano vrednost (Uradni list RS, št. 89/98), 3. točke 14. člena pravilnika o izvajanju zakona o davku na dodano vrednost (Uradni list RS, št. 4/99, 45/99, 59/99, 110/99 in 27/00),  31. člena statuta Gospodarske zbornice Slovenije – Združenja za trgovino je Upravni odbor Združenja za trgovino na seji z dne 28. 11. 2000 sprejel</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika  o stopnjah običajnega odpisa blaga  (kalo, razsip, razbitje, okvara)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o stopnjah običajnega odpisa blaga – kalo, razsip, razbitje, okvara (Uradni list RS, št. 53/99 in št. 101/99) se tabela 6. člena spremeni tako, da se točka 5. pod Trgovina na drobno – A) Trgovina na drobno z živilskimi izdelki spremeni, in sicer tako, da glasi:</p>
 <ol>
 <li>ostali živilski izdelki             2,00%</li>
 </ol>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Te spremembe in dopolnitve pravilnika začnejo veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se od 1. 11. 2000 dalje.</p>
 <p>Predsednik<br />
 Združenja za trgovino<br />
@@ -47,5 +60,36 @@ Stanislav Brodnjak, univ. dipl. prav. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-12-08", "kratica": "PRAV3691", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o stopnjah običajnega odpisa blaga (kalo, razsip, razbitje, okvara)", "url": "/trubar/si/PRAV3691/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

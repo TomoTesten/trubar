@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-02-0079" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MNSFP14–20.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MNSFP14–20" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MNSFP14–20.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MNSFP14–20,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Notranjega sporazuma med predstavniki vlad držav članic Evropske unije, ki so se sestali v okviru Sveta, o financiranju pomoči Evropske unije v okviru večletnega finančnega okvira za obdobje 2014-2020 v skladu s Sporazumom o partnerstvu AKP-EU in o dodelitvi finančne pomoči čezmorskim državam in ozemljem, za katere se uporablja četrti del Pogodbe o delovanju Evropske unije</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI NOTRANJEGA SPORAZUMA MED PREDSTAVNIKI VLAD DRŽAV ČLANIC EVROPSKE UNIJE, KI SO SE SESTALI V OKVIRU SVETA, O FINANCIRANJU POMOČI EVROPSKE UNIJE V OKVIRU VEČLETNEGA FINANČNEGA OKVIRA ZA OBDOBJE 2014-2020 V SKLADU S SPORAZUMOM O PARTNERSTVU AKP-EU IN O DODELITVI FINANČNE POMOČI ČEZMORSKIM DRŽAVAM IN OZEMLJEM, ZA KATERE SE UPORABLJA ČETRTI DEL POGODBE O DELOVANJU EVROPSKE UNIJE (MNSFP14-20)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Notranji sporazum med predstavniki vlad držav članic Evropske unije, ki so se sestali v okviru Sveta, o financiranju pomoči Evropske unije v okviru večletnega finančnega okvira za obdobje 2014-2020 v skladu s Sporazumom o partnerstvu AKP-EU in o dodelitvi finančne pomoči čezmorskim državam in ozemljem, za katere se uporablja četrti del Pogodbe o delovanju Evropske unije, sestavljen v Luxembourgu in Bruslju 24. in 26. junija 2013.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sporazuma se v izvirniku v slovenskem in angleškem jeziku glasi(*):</p>
 <h2>NOTRANJI SPORAZUM MED PREDSTAVNIKI VLAD DRŽAV ČLANIC EVROPSKE UNIJE, KI SO SE SESTALI V OKVIRU SVETA, O FINANCIRANJU POMOČI EVROPSKE UNIJE V OKVIRU VEČLETNEGA FINANČNEGA OKVIRA ZA OBDOBJE 2014-2020 V SKLADU S SPORAZUMOM O PARTNERSTVU AKP-EU IN O DODELITVI FINANČNE POMOČI ČEZMORSKIM DRŽAVAM IN OZEMLJEM, ZA KATERE SE UPORABLJA ČETRTI DEL POGODBE O DELOVANJU EVROPSKE UNIJE</h2>
 <p>PREDSTAVNIKI VLAD DRŽAV ČLANIC EVROPSKE UNIJE, KI SO SE SESTALI V OKVIRU SVETA, SO SE -<br />
@@ -641,9 +654,9 @@ The 11th EDF Implementation Regulation shall contain appropriate measures to all
 (18) Decision 2005/446/EC of the Representatives of the Gover-nments of the Member States meeting within the Council of 30 May 2005 setting the deadline for the commitment of the funds of the 9th European Development Fund (EDF) (OJ L 156, 18. 6. 2005, p. 19).<br />
 (19) OJ L 152, 13. 6. 2007, p. 1.<br />
 (20) OJ L 348, 21. 12. 2002, p. 82.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbita Ministrstvo za zunanje zadeve in Ministrstvo za finance.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije - Mednarodne pogodbe.</p>
 <p>Št. 411-05/13-11/9</p>
 <p>Ljubljana, dne 27. novembra 2013</p>
@@ -661,5 +674,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-12-16", "kratica": "MNSFP14–20", "naziv": "Zakon o ratifikaciji Notranjega sporazuma med predstavniki vlad držav članic Evropske unije, ki so se sestali v okviru Sveta, o financiranju pomoči Evropske unije v okviru večletnega finančnega okvira za obdobje 2014-2020 v skladu s Sporazumom o partnerstvu AKP-EU in o dodelitvi finančne pomoči čezmorskim državam in ozemljem, za katere se uporablja četrti del Pogodbe o delovanju Evropske unije", "url": "/trubar/si/MNSFP14–20/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

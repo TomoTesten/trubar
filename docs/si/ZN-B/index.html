@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2977" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZN-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZN-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZN-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZN-B,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah zakona o notariatu</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>UKAZ</h2>
@@ -36,10 +49,10 @@
 Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>ZAKON O SPREMEMBAH ZAKONA O NOTARIATU</h2>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o notariatu (Uradni list RS, št. 13/94 in 48/94) se prvi odstavek 127. člena spremeni tako, da se glasi:</p>
 <p>"Notarska zbornica Slovenije se konstituira in začne veljavno delovati potem, ko je po tem zakonu imenovanih prvih trideset notarjev."</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
@@ -51,12 +64,12 @@ Milan Kučan l. r.</p>
 <li>prvi in drugi odstavek 2. člena in 17. člen zakona o overitvi podpisov, pisave in prepisov (Uradni list SRS, št. 29/72).</li>
 <li>junija 1995 se preneha uporabljati 69. člen zakona o menici (Uradni list FLRJ, št. 104/46 in Uradni list SFRJ, št. 16/65, 54/70 in 57/89)."</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <ol>
 <li>člen se spremeni, tako da se glasi:</li>
 </ol>
 <p>"Za dokončanje zadev, ki so do 31. maja 1995 predložene pristojnim sodiščem oziroma upravnim organom, so pristojni ti organi."</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 740-01/92-3/8</p>
 <p>Ljubljana, dne 19. decembra 1994.</p>
@@ -72,5 +85,36 @@ Jožef Školč l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-12-30", "kratica": "ZN-B", "naziv": "Zakon o spremembah zakona o notariatu", "url": "/trubar/si/ZN-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

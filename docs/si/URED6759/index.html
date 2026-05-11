@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0957" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6759.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6759" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6759.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6759,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o spremembah in dopolnitvah Uredbe o enotni metodologiji in obrazcih za obračun in izplačilo plač v javnem sektorju</h1>
 <p>Na podlagi prvega odstavka 40. člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 108/09 – uradno prečiščeno besedilo, 13/10, 59/10, 85/10, 107/10, 35/11 – ORZSPJS49a, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a> in 46/13) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o enotni metodologiji in obrazcih za obračun in izplačilo plač v javnem sektorju</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V drugem odstavku 1. člena Uredbe o enotni metodologiji in obrazcih za obračun in izplačilo plač v javnem sektorju (Uradni list RS, št. 14/09, 23/09, 48/09, 113/09, 25/10, 67/10, 105/10, 45/12, 24/13, 51/13 in 12/14) se besedilo »proračuna Republike Slovenije« nadomesti z besedo »proračunov«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 2. členu se v preglednici za šifro izraza Z620 dodajo novi izrazi Z621, Z622, Z623, Z624, Z625, Z626, Z627, Z628, Z629 in Z630, ki se glasijo:<br />
 »</p>
 <p>+-------+-----------------------+-------------------------------+<br />
@@ -118,7 +131,7 @@
 |       |                       |registrskem organu             |<br />
 +-------+-----------------------+-------------------------------+</p>
 <p>«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V drugem odstavku 3. člena se v preglednici za vrsto izplačila D040 doda nova vrsta izplačila D041 in za vrsto izplačila J151 nove vrste izplačil J152, J153 in J154, ki se glasijo:<br />
 »</p>
 <p>+-----+-----------+-----------+----+------------+----------+-+--+<br />
@@ -206,10 +219,10 @@ vrste izplačil C200, C201 in J071 se spremenijo tako, da se glasijo:<br />
 |     |funkcionarja |         |      |          |         |  |  |<br />
 +-----+-------------+---------+------+----------+---------+--+--+</p>
 <p>«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V četrtem odstavku 9. člena se črta besedilo »– Z611«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, novi izrazi iz spremenjenega 2. člena uredbe pa se začnejo uporabljati 1. julija 2014.</p>
 <p>Št. 00717-8/2014</p>
 <p>Ljubljana, dne 3. aprila 2014</p>
@@ -225,5 +238,36 @@ Predsednica</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-04-04", "kratica": "URED6759", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o enotni metodologiji in obrazcih za obračun in izplačilo plač v javnem sektorju", "url": "/trubar/si/URED6759/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

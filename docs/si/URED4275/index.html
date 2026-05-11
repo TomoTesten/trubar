@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4544" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4275.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4275" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4275.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4275,vrsta:uredba">
+    
     <h1>Uredba o spremembi in dopolnitvi Uredbe o plačilih za ukrepe Programa razvoja podeželja za Republiko Slovenijo 2004-2006 za leto 2006</h1>
 <p>Na podlagi 5. člena v zvezi s 7. in 126. členom Zakona o kmetijstvu (Uradni list RS, št. 51/06 – uradno prečiščeno besedilo) in v zvezi s Programom razvoja podeželja za Republiko Slovenijo 2004–2006 (Uradni list RS, št. 116/04 in 45/06) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembi in dopolnitvi Uredbe o plačilih za ukrepe Programa razvoja podeželja za Republiko Slovenijo 2004–2006 za leto 2006</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o plačilih za ukrepe Programa razvoja podeželja za Republiko Slovenijo 2004–2006 za leto 2006 (Uradni list RS, št. 11/06 in 46/06) se v drugi alinei 1. člena za besedilom »Uredba 817/2004/ES)« doda vejica, beseda »in« pa se črta.<br />
 V tretji alinei se na koncu stavka pika nadomesti z vejico in se doda nova četrta alinea, ki se glasi:<br />
 »– Uredbe Komisije (ES) št. 1320/2006 z dne 5. septembra 2006 o pravilih za prehod na podporo za razvoj podeželja, določeno v Uredbi Sveta (ES) št. 1698/2005 (UL L št. 243 z dne 6. 9. 2006, str. 6).«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugem odstavku 29. člena se beseda »decembra« nadomesti z besedo »oktobra«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00715-37/2006/6</p>
 <p>Ljubljana, dne 5. oktobra 2006</p>
@@ -51,5 +64,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-10-13", "kratica": "URED4275", "naziv": "Uredba o spremembi in dopolnitvi Uredbe o plačilih za ukrepe Programa razvoja podeželja za Republiko Slovenijo 2004-2006 za leto 2006", "url": "/trubar/si/URED4275/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

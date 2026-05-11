@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-02-0051" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MGPEB.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MGPEB" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MGPEB.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MGPEB,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o ratifikaciji Garancijske pogodbe med Republiko Slovenijo in Evropsko banko za obnovo in razvoj za projekt slovenskih železnic</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. Ustave Republike Slovenije izdajam</p>
 <h2>UKAZ</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>O RATIFIKACIJI GARANCIJSKE POGODBE MED REPUBLIKO SLOVENIJO IN EVROPSKO BANKO ZA OBNOVO IN RAZVOJ ZA PROJEKT SLOVENSKIH ŽELEZNIC</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se garancijska pogodba med Republiko Slovenijo in Evropsko banko za obnovo in razvoj za projekt slovenskih železnic, podpisana v Ljubljani dne 12. aprila 1994.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Garancijska pogodba se v izvirniku v angleškem jeziku in slovenskem prevodu glasi:</p>
 <h2>GUARANTEE AGREEMENT</h2>
 <p>(SLOVENIAN RAILWAY PROJECT) BETWEEN REPUBLIC OF SLOVENIA AND EUROPEAN BANK FOR RECONSTRUCTION AND DEVELOPMENT Dated: 12 April 1994</p>
@@ -297,11 +310,11 @@ EVROPSKA BANKA ZA<br />
 OBNOVO IN RAZVOJ<br />
 Podpis:<br />
 Roy Knighton l. r.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Slovenske železnice Ljubljana sklenejo z ministrstvom, pristojnim za finance, pogodbo o načinu in pogojih zavarovanja poroštva Republike Slovenije. S pogodbo se uredijo viri za vračila zneskov, plačanih iz naslova poroštva, instrumenti zavarovanja in realizacije terjatev ter način urejanja odnosov v primeru statusnih sprememb.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za izvajanje te garancijske pogodbe skrbi ministrstvo, pristojno za finance.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 440-03/94-43/1</p>
 <p>Ljubljana, dne 31. maja 1994.</p>
@@ -317,5 +330,36 @@ mag. Herman Rigelnik l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-06-22", "kratica": "MGPEB", "naziv": "Zakon o ratifikaciji Garancijske pogodbe med Republiko Slovenijo in Evropsko banko za obnovo in razvoj za projekt slovenskih železnic", "url": "/trubar/si/MGPEB/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

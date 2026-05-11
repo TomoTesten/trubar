@@ -21,24 +21,37 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1449" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1143.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1143" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1143.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1143,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o načinu oblikovanja cen učbenikov</h1>
 <p>Na podlagi 5. člena zakona o cenah (Uradni list RS, št. 1/91-I) in 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 23/96 in 47/97) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o načinu oblikovanja cen učbenikov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Drobnoprodajne cene učbenikov in drugih učnih sredstev (atlasi, priročniki, delovni listi ali zvezki ter druga audiovizualna sredstva) (v nadaljnjem besedilu: učbeniki), razen alternativnih učbenikov in alternativnih delovnih zvezkov, ki so bile oblikovane v skladu s predpisi in uporabljene na tržišču na dan uveljavitve te uredbe, se v nadaljevanju oblikujejo v skladu z določbami te uredbe.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Drobnoprodajne cene učbenikov in delovnih zvezkov, ki z davkom na promet:<br />
 – ne presegajo 1.500 SIT, se lahko povečajo za največ 4,5%,<br />
 – znašajo od 1.501 SIT do 2.300 SIT, se lahko povečajo za največ 4%,<br />
 – znašajo od 2.301 SIT do 2.999 SIT, se lahko povečajo za največ 3% in<br />
 – dosegajo raven 3.000 SIT, se ne spremenijo.<br />
 Cene učbenikov in delovnih zvezkov, katerih sestavni deli so kosi lesa, bakra in nerjaveče žice ipd., se lahko v času trajanja te uredbe povečajo največ za 3%.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Pravne osebe, ki opravljajo dejavnost zalaganja ali izdajanja učbenikov so dolžne pet dni pred uveljavitvijo cene učbenikov v skladu s to uredbo o tem obvestiti Mninistrstvo za ekonomske odnose in razvoj.<br />
 Obvestilo iz prejšnjega odstavka mora vsebovati:<br />
 – ime in sedež pravne osebe,<br />
@@ -49,9 +62,9 @@ Obvestilo iz prejšnjega odstavka mora vsebovati:<br />
 – navedbo odstotka povečanja cene,<br />
 – navedbo datuma uveljavitve cene na tržišču.<br />
 V primeru, da Ministrstvo za ekonomske odnose in razvoj ugotovi, da je v obvestilu napačno upoštevan odstotek povečanja cene za posamezni učbenik, o tem obvesti pravno osebo. Ta mora v roku in na način, ki ga določi ministrstvo, napako odpraviti. Do odprave napake pri oblikovanju cene učbenika, le-te ni mogoče uveljaviti na tržišču.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Z dnem, ko začne veljati ta uredba, preneha veljati uredba o določitvi najvišjih cen učbenikov (Uradni list RS, št. 84/97).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati 23. aprila 1998.</p>
 <p>Št. 387-03/98-1</p>
 <p>Ljubljana, dne 20. aprila 1998.</p>
@@ -66,5 +79,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-04-23", "kratica": "URED1143", "naziv": "Uredba o načinu oblikovanja cen učbenikov", "url": "/trubar/si/URED1143/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

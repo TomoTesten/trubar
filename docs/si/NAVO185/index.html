@@ -21,20 +21,33 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0659" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO185.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO185" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO185.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO185,vrsta:navodilo">
+    
     <h1>Navodilo o dopolnitvi navodila o postopku homologacije vozil v Republiki Sloveniji</h1>
 <p>Na podlagi 14. člena odredbe o homologaciji vozil (Uradni list RS, št. 3/95) izdaja minister za znanost in tehnologijo</p>
 <h2>N A V O D I L O</h2>
 <p>o dopolnitvi navodila o postopku homologacije vozil v Republiki Sloveniji</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V petem odstavku 16. člena navodila o postopku homologacije vozil (Uradni list RS, št. 5/95) se zadnji stavek spremeni tako, da se glasi:</p>
 <p>“V primeru dvoma mora zahtevati od lastnika vozila, da predloži uradno izvedensko cenitev vozila oziroma predračun pooblaščenega servisa za popravilo, ki ga overi s svojim žigom, kopijo pa zadrži v svojem arhivu.”</p>
 <p>Za petim odstavkom 16. člena se doda nov šesti odstavek, ki se glasi:</p>
 <p>“(6) Vrednost nepoškodovanega vozila, ki je osnova za določanje odstotka poškodovanosti se določa po carinskih predpisih. Vrednost poškodbe zajema vrednost vseh nadomestnih delov in potrebnega dela, da se vozilo usposobi za redni tehnični pregled.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 6.2-01/94-006/24</p>
 <p>Ljubljana, dne 16. februarja 1995.</p>
@@ -49,5 +62,36 @@ za znanost in tehnologijo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-03-03", "kratica": "NAVO185", "naziv": "Navodilo o dopolnitvi navodila o postopku homologacije vozil v Republiki Sloveniji", "url": "/trubar/si/NAVO185/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

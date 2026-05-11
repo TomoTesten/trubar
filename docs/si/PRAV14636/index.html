@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2022-01-0840" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV14636.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV14636" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV14636.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV14636,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o obrazcu informativnega izračuna dohodnine in obrazcu napovedi za odmero dohodnine</h1>
 <p>Na podlagi drugega odstavka 61. člena in prvega odstavka 270. člena Zakona o davčnem postopku (Uradni list RS, št. 13/11 – uradno prečiščeno besedilo, 32/12, 94/12, 101/13 – <a href="/trubar/si/ZDavNepr/" class="law-ref" title="ZDavNepr">ZDavNepr</a>, 111/13, 22/14 – odl. US, 25/14 – <a href="/trubar/si/ZFU/" class="law-ref" title="ZFU">ZFU</a>, 40/14 – ZIN-B, 90/14, 91/15, 63/16, 69/17, 13/18 – ZJF-H, 36/19, 66/19, 145/20 – odl. US in 203/20 – <a href="/trubar/si/ZIUPOPDVE/" class="law-ref" title="ZIUPOPDVE">ZIUPOPDVE</a>) minister za finance izdaja</p>
 <p>P R A V I L N I K</p>
@@ -52,5 +65,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2022-03-25", "kratica": "PRAV14636", "naziv": "Pravilnik o spremembah Pravilnika o obrazcu informativnega izračuna dohodnine in obrazcu napovedi za odmero dohodnine", "url": "/trubar/si/PRAV14636/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

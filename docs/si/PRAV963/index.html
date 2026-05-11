@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1519" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV963.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV963" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV963.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV963,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o uporabi kvantitativnih kriterijev za razvrščanje v znanstvene, strokovno-raziskovalne in razvojne nazive</h1>
 <p>Na podlagi 8. in 36. člena zakona o raziskovalni dejavnosti (Uradni list RS, št. 8/91-I), sklepa Vlade Republike Slovenije o pogojih dodeljevanja proračunskih sredstev za financiranje ustanoviteljskih obveznosti zavodom, ki opravljajo raziskovalno dejavnost (Uradni list RS, št. 17/94 in 33/96), ter v skladu s 37. členom pravilnika o merilih za ocenjevanje kakovosti raziskovalne dejavnosti in o evidencah ter spremljanju raziskovalne dejavnosti (Uradni list RS, št. 65/94 in 1/98) izdaja minister za znanost in tehnologijo</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika  o uporabi kvantitativnih kriterijev za razvrščanje v znanstvene, strokovno-raziskovalne  in razvojne nazive</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o uporabi kvantitativnih kriterijev za razvrščanje v znanstvene, strokovno-raziskovalne in razvojne nazive (Uradni list RS, št. 75/94) se v točki b) 2. člena besedilo prve alinee nadomesti z novim, ki se glasi:<br />
 – razvojni sodelavec najmanj 20 točk, strokovno-raziskovalni sodelavec pa najmanj 20 točk, od tega 3 na podlagi bibliografskih podatkov.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 3/98</p>
 <p>Ljubljana, dne 21. aprila 1998.</p>
@@ -47,5 +60,36 @@ dr. Lojze Marinček l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-05-08", "kratica": "PRAV963", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o uporabi kvantitativnih kriterijev za razvrščanje v znanstvene, strokovno-raziskovalne in razvojne nazive", "url": "/trubar/si/PRAV963/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

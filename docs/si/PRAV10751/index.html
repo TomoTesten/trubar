@@ -21,28 +21,41 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-1302" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10751.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10751" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10751.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10751,vrsta:pravilnik">
+    
     <h1>Pravilnik o rokih, vsebini, obliki in načinu izmenjave podatkov, ki so potrebni za postopek izvzema obveznosti iz sistema obveznega večstranskega pobota</h1>
 <p>Na podlagi sedmega odstavka 17. člena Zakona o preprečevanju zamud pri plačilih (Uradni list RS, št. 18/11) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o rokih, vsebini, obliki in načinu izmenjave podatkov, ki so potrebni za postopek izvzema obveznosti iz sistema obveznega večstranskega pobota</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina pravilnika)</h3>
 <p>Ta pravilnik določa rok, v katerem Davčna uprava Republike Slovenije (v nadaljnjem besedilu: davčni organ) skladno s četrtim odstavkom 17. člena Zakona o preprečevanju zamud pri plačilih (Uradni list RS, št. 18/11; v nadaljnjem besedilu: <a href="/trubar/si/ZPreZP/" class="law-ref" title="ZPreZP">ZPreZP</a>) obvesti upravljavca sistema obveznega večstranskega pobota (v nadaljnjem besedilu: upravljavec) o izvzetju določene prijavljene obveznosti iz sistema obveznega večstranskega pobota ter podrobnejšo vsebino, obliko in način izmenjave podatkov, ki so potrebni za izvzem iz sistema večstranskega pobota terjatev.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(namen preverjanja podatkov o prijavljenih obveznostih)</h3>
 <p>Upravljavec omogoča davčnemu organu preverjanje podatkov o prijavljenih obveznostih dolžnikov v posamezen krog pobota zaradi ugotavljanja, ali gre za obveznost do določenega davčnega dolžnika.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(vsebina, oblika in način obveščanja)</h3>
 <p>(1) Upravljavec najmanj 72 ur pred zaprtjem vnosa za posamezni krog pobota, davčnemu organu zagotovi dostop do spletnih storitev, ki omogočajo prevzem seznama prijavljenih denarnih obveznosti s podatki iz tretjega odstavka 17. člena <a href="/trubar/si/ZPreZP/" class="law-ref" title="ZPreZP">ZPreZP</a> in podatka o tem, da gre za seznam pred zaprtjem vnosa.<br />
 (2) Upravljavec, potem ko zapre vnos za posamezni krog pobota, davčnemu organu zagotovi dostop do spletnih storitev, ki omogočajo prevzem seznama prijavljenih denarnih obveznosti s podatki iz tretjega odstavka 17. člena <a href="/trubar/si/ZPreZP/" class="law-ref" title="ZPreZP">ZPreZP</a> in podatka o tem, da gre za seznam po zaprtju vnosa.<br />
 (3) Davčni organ v 24 urah po prevzemu seznama iz prejšnjega odstavka preko spletne storitve vrne seznam prijavljenih denarnih obveznosti, ki jih upravljavec izvzame iz sistema obveznega večstranskega pobota s podatki iz tretjega odstavka 17. člena <a href="/trubar/si/ZPreZP/" class="law-ref" title="ZPreZP">ZPreZP</a> in podatkom o znesku izvzete denarne obveznosti.<br />
 (4) Izmenjava podatkov med upravljavcem in davčnim organom praviloma poteka preko spletnih servisov.<br />
 (5) Ne glede na določbo prejšnjega odstavka, lahko, v primeru tehničnih težav ali drugih objektivnih okoliščin po predhodnem dogovoru med upravljavcem in davčnim organom, izmenjava podatkov poteka tudi s prenosom XML datotek prek strežnikov upravljavca in davčnega organa po SFTP protokolu.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-211/2011</p>
 <p>Ljubljana, dne 11. aprila 2011</p>
@@ -58,5 +71,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-04-15", "kratica": "PRAV10751", "naziv": "Pravilnik o rokih, vsebini, obliki in načinu izmenjave podatkov, ki so potrebni za postopek izvzema obveznosti iz sistema obveznega večstranskega pobota", "url": "/trubar/si/PRAV10751/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

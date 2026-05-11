@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2612" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPNPHE-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPNPHE-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPNPHE-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPNPHE-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o poroštvu Republike Slovenije za najetje posojil za obnovo in doinstaliranje HE Doblar I + II in HE Plave I + II</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,22 +50,22 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O POROŠTVU REPUBLIKE SLOVENIJE ZA NAJETJE POSOJIL ZA OBNOVO IN DOINSTALIRANJE HE DOBLAR I + II IN HE PLAVE I + II (ZPNPHE-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o poroštvu Republike Slovenije za najetje posojil za obnovo in doinstaliranje HE Doblar I + II in HE Plave I + II (Uradni list RS, št. 37/95) se v drugem odstavku 1. člena druga in tretja alinea spremenita tako, da se glasita:</p>
 <p>“– upnikova terjatev mora biti zavarovana; pogoji glede vrste in načina zavarovanja se natančneje uredijo s pogodbo med posojilodajalcem, posojilojemalcem in Republiko Slovenijo;</p>
 <p>– Republika Slovenija bo izpolnila poroštveno obveznost v roku desetih delovnih dni po prejemu upnikovega poziva, kateremu morajo biti priložena dokazila o začetih postopkih izterjave plačila iz vseh zavarovanj, dogovorjenih v pogodbi iz prejšnje alinee.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
 <p>“Poroštvene pogodbe z upniki sklepa oziroma daje poroštvene izjave minister, pristojen za finance, na podlagi pogodbe o zavarovanju iz 1. člena zakona.”</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za 3. členom se dodata nova 3.a in 3.b člen, ki se glasita:</p>
 <h3>“3.a člen</h3>
 <p>Vlada Republike Slovenije bo zagotovila ceno električne energije na pragu Soških elektrarn Nova Gorica v višini, ki jim bo pokrivala tudi lastni delež sredstev za investicije in odplačilo obveznosti iz najetih posojil.</p>
 <h3>3.b člen</h3>
 <p>V primeru, da so upniki mednarodne finančne institucije, katerih članica je Republika Slovenija, se poroštvena obveznost Republike Slovenije določi v skladu s pravili teh mednarodnih institucij.”</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon prične veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-03/95-54/2</p>
 <p>Ljubljana, dne 16. julija 1996.</p>
@@ -68,5 +81,36 @@ Jožef Školč l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-07-31", "kratica": "ZPNPHE-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o poroštvu Republike Slovenije za najetje posojil za obnovo in doinstaliranje HE Doblar I + II in HE Plave I + II", "url": "/trubar/si/ZPNPHE-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Agencija za zavarovalni nadzor</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-1640" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO925.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO925" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO925.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO925,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Navodilo o spremembah in dopolnitvah Navodila o načinu elektronskega poročanja zavarovalnice o naložbah kritnega premoženja in premoženja kritnega sklada ter o naložbah, ki niso financirane iz zavarovalno-tehničnih rezervacij</h1>
 <p>Na podlagi 6. in 9. točke 109. člena ter na podlagi 2. točke 256. člena Zakona o zavarovalništvu (Uradni list RS, št. 109/06 – uradno prečiščeno besedilo, 114/06, 9/07 in 102/07; v nadaljevanju: <a href="/trubar/si/ZZavar/" class="law-ref" title="ZZavar">ZZavar</a>) izdaja Agencija za zavarovalni nadzor</p>
 <h2>N A V O D I L O</h2>
 <p>o spremembah in dopolnitvah Navodila o načinu elektronskega poročanja zavarovalnice o naložbah kritnega premoženja in premoženja kritnega sklada ter o naložbah, ki niso financirane iz zavarovalno-tehničnih rezervacij</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Navodilu o načinu elektronskega poročanja zavarovalnice o naložbah kritnega premoženja in premoženja kritnega sklada ter o naložbah, ki niso financirane iz zavarovalno-tehničnih rezervacij (Uradni list RS, št. 118/05 in 28/07; v nadaljevanju: navodilo) se drugi stavek pod zaporedno številko (24) 2. točke tega navodila črta.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Zaporedna številka (25) 2. točke tega navodila se črta, posledično se zaporedne številke od (26) do (31) tega navodila preštevilčijo na (25) do (30).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V peti alineji zaporedne številke (30) 2. točke tega navodila (pred spremembami in dopolnitvami navodila številka (31)) se besedilo »pod zaporedno številko (30)« nadomesti z besedilom »pod zaporedno številko (29)«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>(1) V 5. točki priloge k navodilu se v tabeli šifranta vrst in podvrst naložb dodata naslednji vrstici:</p>
 <p>– za zaporedno vrstico 15 06 se doda nova vrstica,<br />
 ki se glasi:<br />
@@ -50,7 +63,7 @@ glasi:</p>
                         lastniškega kapitala</p>
 <hr />
 <p>(2) Obstoječi vrstici 21 01 in 22 01 5. točke priloge k navodilu se v skladu s drugo alinejo drugega odstavka tega člena ustrezno preštevilčita v 22 01 in 23 01.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Te spremembe in dopolnitve navodila začnejo veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začnejo pri poročanju po stanju na dan 30. 6. 2008.</p>
 <p>Ljubljana, dne 16. aprila 2008</p>
 <p>EVA 2008-1611-0057</p>
@@ -65,5 +78,36 @@ dr. Mihael Perman l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-04-21", "kratica": "NAVO925", "naziv": "Navodilo o spremembah in dopolnitvah Navodila o načinu elektronskega poročanja zavarovalnice o naložbah kritnega premoženja in premoženja kritnega sklada ter o naložbah, ki niso financirane iz zavarovalno-tehničnih rezervacij", "url": "/trubar/si/NAVO925/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

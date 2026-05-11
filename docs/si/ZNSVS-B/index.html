@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3212" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZNSVS-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZNSVS-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZNSVS-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZNSVS-B,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o nacionalni stanovanjski varčevalni shemi in subvencijah mladim družinam za prvo reševanje stanovanjskega vprašanja</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,15 +50,15 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O NACIONALNI STANOVANJSKI VARČEVALNI SHEMI IN SUBVENCIJAH MLADIM DRUŽINAM ZA PRVO REŠEVANJE STANOVANJSKEGA VPRAŠANJA (ZNSVS-B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o nacionalni stanovanjski varčevalni shemi in subvencijah mladim družinam za prvo reševanje stanovanjskega vprašanja (Uradni list RS, št. 44/06 - uradno prečiščeno besedilo) se prvi odstavek 1. člena spremeni tako, da se glasi:<br />
 »Ta zakon določa nacionalno stanovanjsko varčevalno shemo kot sistemsko podlago za vzpodbujanje dolgoročnega stanovanjskega varčevanja (v nadaljnjem besedilu: varčevanje), povečanje obsega ugodnega dolgoročnega stanovanjskega kreditiranja ter subvencije mladim družinam za prvo reševanje stanovanjskega vprašanja.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 2. členu se na koncu 4. točke beseda »in« nadomesti z vejico.<br />
 Na koncu 5. točke se pika nadomesti z besedo »in«.<br />
 Za 5. točko se doda nova 6. točka, ki se glasi:<br />
 »6. subvencioniranje mladih družin za prvo reševanje stanovanjskega vprašanja.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 4.a poglavju z naslovom »SUBVENCIJE« se 26.a do 26.c členi nadomestijo z novimi 26.a do 26.i členi, ki se glasijo:</p>
 <h3>»26.a člen</h3>
 <p>Subvencija po tem zakonu je znesek, ki vsako leto pripada mladi družini kot spodbuda za prvo reševanje stanovanjskega vprašanja.<br />
@@ -94,10 +107,10 @@ Subvencija pripada mladi družini največ dve leti, pri čemer se status mlade d
 <h3>26.i člen</h3>
 <p>Minister, pristojen za stanovanjske zadeve, s pravilnikom določi podrobnejše pogoje, merila in postopek dodelitve subvencij po 26.g členu tega zakona ter najvišjo priznano tržno najemnino za kvadratni meter stanovanjske površine po posamezni regiji.«.</p>
 <h3>PREHODNI IN KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ne glede na določbo 26.f člena zakona pripada mladi družini, ki je do uveljavitve tega zakona že pridobila pravico do subvencije v skladu z Zakonom o nacionalni stanovanjski varčevalni shemi in subvencijah mladim družinam za prvo reševanje stanovanjskega vprašanja (Uradni list RS, št. 44/06 - uradno prečiščeno besedilo), prva štiri leta subvencija najmanj v višini 160 eurov, naslednja štiri leta pa najmanj v višini 100 eurov na družinskega člana.<br />
 Ne glede na določbo prvega stavka 26.č člena zakona se javni poziv za dodelitev subvencij po tem zakonu za leto 2007 objavi najkasneje v dveh mesecih po uveljavitvi tega zakona.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 805-01/00-8/8</p>
 <p>Ljubljana, dne 22. junija 2007</p>
@@ -114,5 +127,36 @@ France Cukjati, dr. med., l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-07-06", "kratica": "ZNSVS-B", "naziv": "Zakon o spremembah in dopolnitvah zakona o nacionalni stanovanjski varčevalni shemi in subvencijah mladim družinam za prvo reševanje stanovanjskega vprašanja", "url": "/trubar/si/ZNSVS-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

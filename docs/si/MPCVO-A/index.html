@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-02-0081" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPCVO-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MPCVO-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPCVO-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MPCVO-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Spremembe in Druge spremembe Konvencije o presoji čezmejnih vplivov na okolje</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI SPREMEMBE IN DRUGE SPREMEMBE KONVENCIJE O PRESOJI ČEZMEJNIH VPLIVOV NA OKOLJE (MPCVO-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificirata se Sprememba Konvencije o presoji čezmejnih vplivov na okolje, sprejeta 27. februarja 2001 v Sofiji, in Druga sprememba Konvencije o presoji čezmejnih vplivov na okolje, sprejeta 4. junija 2004 v Cavtatu.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sprememb konvencije se v izvirniku v angleškem jeziku in prevodu v slovenskem jeziku glasi:<br />
 C.N.44.2002.TREATIES-1 (Annex)</p>
 <h2>ADOPTION OF AMENDMENT</h2>
@@ -238,9 +251,9 @@ b) se nivojsko ne križa z nobeno cesto, železniško ali tramvajsko progo ali p
 c) je posebej opremljena z oznakami kot avtocesta;<br />
 - »hitra cesta« pomeni cesto, rezervirano za motorni promet, ki je dostopna le na priključkih ali nadzorovanih križiščih, ter na kateri sta še posebej prepovedani ustavljanje in parkiranje na cestišču.<br />
 6/ V tej konvenciji »letališče« pomeni letališče v skladu z opredelitvijo v Čikaški konvenciji iz leta 1944 (priloga 14), s katero je bila ustanovljena Mednarodna organizacija za civilno letalstvo.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sprememb konvencije skrbi ministrstvo, pristojno za okolje.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije - Mednarodne pogodbe.</p>
 <p>Št. 801-01/13-10/10</p>
 <p>Ljubljana, dne 27. novembra 2013</p>
@@ -257,5 +270,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-12-16", "kratica": "MPCVO-A", "naziv": "Zakon o ratifikaciji Spremembe in Druge spremembe Konvencije o presoji čezmejnih vplivov na okolje", "url": "/trubar/si/MPCVO-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

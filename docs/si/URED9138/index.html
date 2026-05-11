@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>URED9138</strong></dd>
       <dt>Vrsta</dt><dd>uredba</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
-      <dt>Datum</dt><dd>2025-02-28</dd>
-      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2025-03-03</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0471" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED9138.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED9138" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED9138.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED9138,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvi Uredbe o oznakah v Slovenski vojski</h1>
 <p>Na podlagi tretjega odstavka 41. člena Zakona o obrambi (Uradni list RS, št. 103/04 – uradno prečiščeno besedilo, 95/15 in 139/20) Vlada Republike Slovenije izdaja</p>
 <p>U R E D B O</p>
@@ -56,5 +69,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2025-03-03", "kratica": "URED9138", "naziv": "Uredba o spremembah in dopolnitvi Uredbe o oznakah v Slovenski vojski", "url": "/trubar/si/URED9138/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

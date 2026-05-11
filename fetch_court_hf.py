@@ -363,7 +363,7 @@ size_categories:
 
 Slovenian court decisions as a machine-readable dataset, part of the
 [T.R.U.B.A.R.](https://github.com/TomoTesten/trubar) project
-(*Transparentni Register Urejenih Besedil Aktov Republike*).
+(*Transparentni Register Urejenih Besedil Aktov Republike Slovenije*).
 
 ## Contents
 

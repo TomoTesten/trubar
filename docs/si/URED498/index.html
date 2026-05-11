@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4761" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED498.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED498" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED498.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED498,vrsta:uredba">
+    
     <h1>Uredba o začasni uporabi sprememb in dopolnitev Protokola 4 k Začasnemu sporazumu o trgovini in zadevah v zvezi s trgovino med Republiko Slovenijo na eni strani in Evropsko skupnostjo, Evropsko skupnostjo za premog in jeklo in Evropsko skupnostjo za jedrsko energijo, na drugi strani</h1>
 <p>Na podlagi četrtega odstavka 60.člena zakona o zunanjih zadevah (Uradni list RS, št. 1/91-I) in prvega odstavka 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96 in 47/97) izdaja Vlada Republike Slovenije</p>
 <h2>UREDBO</h2>
 <p>o začasni uporabi sprememb in dopolnitev Protokola 4 k Začasnemu sporazumu o trgovini in zadevah v zvezi s trgovino med Republiko Slovenijo na eni strani in Evropsko skupnostjo, Evropsko skupnostjo za premog in jeklo in Evropsko skupnostjo za jedrsko energijo, na drugi strani</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Protokol 4 o definiciji pojma "izdelki s poreklom" in načinih upravnega sodelovanja, ki je sestavni del Začasnega sporazuma o trgovini in zadevah v zvezi s trgovino med Republiko Slovenijo na eni strani in Evropsko skupnostjo, Evropsko skupnostjo za premog in jeklo in Evropsko skupnostjo za jedrsko energijo,na drugi strani, se spremeni in dopolni v naslednjem:<br />
 1) Točka i)1.člena se nadomesti z:</p>
 <p>"i) "dodana vrednost" pomeni ceno izdelka franko tovarna, zmanjšano za carinsko vrednost vsakega od vključenih materialov s poreklom iz drugih držav, omenjenih v 3. in 4. členu, ali, če carinska vrednost ni znana ali se ne da ugotoviti, prva cena, ki se za izdelke dokazljivo plačuje v Skupnosti ali Sloveniji."</p>
@@ -51,7 +64,7 @@
 </li>
 </ol>
 <p>Skupnost priskrbi Sloveniji preko Komisije Evropskih Skupnosti podrobnosti o Sporazumih in njihovih ustreznih pravilih o poreklu, ki se uporabljajo z drugimi državami, omenjenimi v prvem odstavku. Komisija Evropskih Skupnosti objavi v Uradnem listu Evropskih skupnosti (Serija C) datum, ko lahko države, navedene v prvem odstavku, ki so izpolnile ustrezne zahteve, uporabijo kumulacijo, predvideno v tem členu.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>Kumulacija v Sloveniji</h3>
 <ol>
 <li>Ne glede na določbe drugega odstavka 2. člena izdelki veljajo za izdelke s poreklom iz Slovenije, če so bili tam pridobljeni in vključujejo materiale s poreklom iz Skupnosti, Bolgarije, Poljske, Madžarske, Češke republike, Slovaške republike, Romunije, Litve, Latvije, Estonije, Slovenije, Islandije, Norveške, Švice (vključno z Liechtensteinom) ali Turčije(2), v skladu z določbami Protokola o pravilih o poreklu blaga, priloženega k sporazumom med Slovenijo in vsako od teh držav, pod pogojem, da obdelava ali predelava, opravljena v Sloveniji presega tisto, omenjeno v 7. členu tega Protokola. Ni treba, da bi bili taki materiali zadosti obdelani ali predelani.</li>
@@ -357,7 +370,7 @@ ex 2208         Nedenaturirani etanol, z vsebnostjo alkohola manj kot 80 vol. %,
 </ol>
 <hr />
 <p>"</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati 1. januarja 1999.</p>
 <p>Št.: 334-05/98-4 (T1)</p>
 <p>Ljubljana, dne 23. decembra 1998</p>
@@ -374,5 +387,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-12-31", "kratica": "URED498", "naziv": "Uredba o začasni uporabi sprememb in dopolnitev Protokola 4 k Začasnemu sporazumu o trgovini in zadevah v zvezi s trgovino med Republiko Slovenijo na eni strani in Evropsko skupnostjo, Evropsko skupnostjo za premog in jeklo in Evropsko skupnostjo za jedrsko energijo, na drugi strani", "url": "/trubar/si/URED498/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

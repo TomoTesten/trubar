@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-02-0053" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MVPZSL98.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MVPZSL98" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MVPZSL98.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MVPZSL98,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Memoranduma o soglasju med Ministrstvom za obrambo Republike Slovenije in Vrhovnim poveljstvom zavezniških sil za Evropo (VPZSE) glede zagotavljanja logistične podpore države gostiteljice v podporo vojaški vaji "Cooperative Adventure Exchange 98"</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI MEMORANDUMA O SOGLASJU MED MINISTRSTVOM ZA OBRAMBO REPUBLIKE SLOVENIJE IN VRHOVNIM POVELJSTVOM ZAVEZNIŠKIH SIL ZA EVROPO (VPZSE) GLEDE ZAGOTAVLJANJA LOGISTIČNE PODPORE DRŽAVE GOSTITELJICE V PODPORO VOJAŠKI VAJI “COOPERATIVE ADVENTURE EXCHANGE 98“ (MVPZSL98)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Memorandum o soglasju med Ministrstvom za obrambo Republike Slovenije in Vrhovnim poveljstvom zavezniških sil za Evropo (VPZSE) glede zagotavljanja logistične podpore države gostiteljice v podporo vojaški vaji “Cooperative Adventure Exchange 98“, sklenjen 7. novembra 1998.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Memorandum se v izvirniku v angleškem jeziku in v prevodu v slovenskem jeziku glasi:*</p>
 <h2>M E M O R A N D U M O F   U N D E R S T A N D I N G</h2>
 <p>BETWEEN THE MINISTRY OF DEFENCE OF THE REPUBLIC OF SLOVENIA AND THE SUPREME HEADQUARTERS ALLIED POWERS EUROPE (SHAPE) REGARDING THE PROVISION OF HOST NATION LOGISTICS SUPPORT DURING THE EXERCISE COOPERATIVE ADVENTURE EXCHANGE 98</p>
@@ -317,9 +330,9 @@ c. Za udeležence se ne zahteva zavarovalno kritje proti tretji osebi.<br />
 d. Zadeve v zvezi s škodo in onesnaževanjem se preiskujejo v skladu z VIII. členom NATO SOFA.</li>
 <li>Smrt. V primeru smrti pripadnika sile udeležencev je pred vrnitvijo trupla v domovino ali njegovo odstranitvijo treba pridobiti dovoljenje organov DG. Kadar je treba opraviti obdukcijo, se DG trudi ugodno rešiti prošnjo države pošiljateljice, da se njenemu medicinskemu osebju dovoli sodelovati pri postopku. DG spoštuje navade in običaje države pošiljateljice.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje memoranduma skrbi Ministrstvo za obrambo Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 200-10/98-10/1</p>
 <p>Ljubljana, dne 25. novembra 1998</p>
@@ -336,5 +349,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-12-04", "kratica": "MVPZSL98", "naziv": "Zakon o ratifikaciji Memoranduma o soglasju med Ministrstvom za obrambo Republike Slovenije in Vrhovnim poveljstvom zavezniških sil za Evropo (VPZSE) glede zagotavljanja logistične podpore države gostiteljice v podporo vojaški vaji \"Cooperative Adventure Exchange 98\"", "url": "/trubar/si/MVPZSL98/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,18 +21,31 @@
       <dt>Organ</dt><dd>Agencija za trg vrednostnih papirjev</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3769" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6054.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE6054" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6054.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE6054,vrsta:sklep">
+    
     <h1>Sklep o spremembah in dopolnitvah sklepa o naložbah investicijskega sklada</h1>
 <p>Na podlagi 4. točke prvega odstavka 77. člena Zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 26/05) Agencija za trg vrednostnih papirjev izdaja</p>
 <h2>S K L E P</h2>
 <p>o spremembah in dopolnitvah sklepa o naložbah investicijskega sklada</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Besedilo prvega odstavka 20. člena Sklepa o naložbah investicijskega sklada (Uradni list RS, št. 80/03) se nadomesti z besedilom:<br />
 »Med organizirane trge vrednostnih papirjev tujih držav, trge instrumentov denarnega trga tujih držav in trge izvedenih finančnih instrumentov tujih držav iz 4. točke prvega odstavka 77. člena <a href="/trubar/si/ZISDU/" class="law-ref" title="ZISDU">ZISDU</a>–1 v zvezi s petim odstavkom 64. člena <a href="/trubar/si/ZISDU/" class="law-ref" title="ZISDU">ZISDU</a>–1 spadajo organizirani trgi, katerih organizatorji so polnopravni člani svetovnega združenja borz (World Federation of Exchanges – WFE oziroma FIBV) ter naslednje borze vrednostnih papirjev: Banjalucka berza hartija od vrijednosti a.d.- Banja Luka, Sarajevska berza a.d. – Sarajevo, Beogradska berza a.d. – Beograd, Makedonska berza a.d. – Skopje, Varazdinska burza d.d. – Varaždin, Zagrebačka burza d.d. – Zagreb, Bursa de Valori Bucuresti – Bukarešta in Bulgarian Stock Exchange – Sofia.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta sklep začne veljati osmi dan po objavi v Uradnem li­stu Republike Slovenije.</p>
 <p>Št. 212-2/2-14/2005</p>
 <p>Ljubljana, dne 21. septembra 2005.</p>
@@ -49,5 +62,36 @@ dr. Miha Juhart l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-09-30", "kratica": "SKLE6054", "naziv": "Sklep o spremembah in dopolnitvah sklepa o naložbah investicijskega sklada", "url": "/trubar/si/SKLE6054/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

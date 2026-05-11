@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-4742" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPRSTB-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPRSTB-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPRSTB-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPRSTB-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o poroštvu Republike Slovenije za najetje posojil za izgradnjo plinskih blokov moči 2 x 114 MW v termoelektrarni Brestanica</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,10 +50,10 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O POROŠTVU REPUBLIKE SLOVENIJE ZA NAJETJE POSOJIL ZA IZGRADNJO PLINSKIH BLOKOV MOČI 2 X 114 MW V TERMOELEKTRARNI BRESTANICA (ZPRSTB-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o poroštvu Republike Slovenije za najetje posojil za izgradnjo plinskih blokov moči 2 x 114 MW v Termoelektrarni Brestanica (Uradni list RS, št. 68/97) se drugi odstavek 1. člena spremeni tako, da se glasi:</p>
 <p>“Poroštvo iz prejšnjega odstavka se daje za glavnice, obresti in stroške kreditov ter obresti za čas moratorija odplačila glavnic, katerih skupna višina glavnic ne presega 119,750.000 DEM ali protivrednosti katerekoli tuje valute oziroma tolarske protivrednosti po srednjem tečaju Banke Slovenije na dan uveljavitve tega zakona.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-03/97-70/2</p>
 <p>Ljubljana, dne 22. decembra 1998.</p>
@@ -56,5 +69,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-12-30", "kratica": "ZPRSTB-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o poroštvu Republike Slovenije za najetje posojil za izgradnjo plinskih blokov moči 2 x 114 MW v termoelektrarni Brestanica", "url": "/trubar/si/ZPRSTB-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

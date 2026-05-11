@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-3794" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10898.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10898" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10898.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10898,vrsta:pravilnik">
+    
     <h1>Seznam zdravil za uporabo v humani medicini, za katera je bilo od 15. marca 2011 do 31. avgusta 2011 izdano, spremenjeno ali podaljšano dovoljenje za promet</h1>
 <p>Na podlagi 52. člena Zakona o zdravilih (Uradni list RS, št. 31/06 in 45/08) in 19. člena Sklepa o ustanovitvi Javne agencije Republike Slovenije za zdravila in medicinske pripomočke (Uradni list RS, št. 115/06) direktorica Javne agencije Republike Slovenije za zdravila in medicinske pripomočke objavlja</p>
 <h2>S E Z N A M   Z D R A V I L</h2>
 <p>za uporabo v humani medicini, za katera je bilo od 15. marca 2011 do 31. avgusta 2011 izdano, spremenjeno ali podaljšano dovoljenje za promet</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta seznam določa zdravila za uporabo v humani medicini, za katera je bilo od 15. marca 2011 do 31. avgusta 2011 izdano, spremenjeno ali podaljšano dovoljenje za promet (v nadaljnjem besedilu: seznam).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Seznam zdravil za uporabo v humani medicini, za katera je bilo od 15. marca 2011 do 31. avgusta 2011 izdano, spremenjeno ali podaljšano dovoljenje za promet</p>
 <p>Št. 715-14/2011</p>
 <p>Ljubljana, dne 6. septembra 2011</p>
@@ -47,5 +60,36 @@ Direktorica</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-11-08", "kratica": "PRAV10898", "naziv": "Seznam zdravil za uporabo v humani medicini, za katera je bilo od 15. marca 2011 do 31. avgusta 2011 izdano, spremenjeno ali podaljšano dovoljenje za promet", "url": "/trubar/si/PRAV10898/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

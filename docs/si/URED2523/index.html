@@ -21,19 +21,32 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3963" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2523.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2523" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2523.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2523,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah uredbe o podelitvi rudarske pravice imetnikom dovoljenj za raziskovanje oziroma pridobivanje mineralnih surovin</h1>
 <p>Na podlagi 105. člena zakona o rudarstvu (Uradni list RS, št. 56/99) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o podelitvi rudarske pravice imetnikom dovoljenj  za raziskovanje oziroma pridobivanje  mineralnih surovin</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o podelitvi rudarske pravice imetnikom dovoljenj za raziskovanje in pridobivanje mineralnih surovin (Uradni list RS, št. 103/00; v nadaljevanju: uredba) se v prilogi sznam pravnih in fizičnih oseb po drugem odstavku 2. člena uredbe Raziskovanje mineralnih surovin črtajo 4., 6. in  9. točka.<br />
 Besedilo dosedanje 8. točke se spremeni tako, da se glasi:<br />
 »8. MARMOR, D.D., Podjetje za pridobivanje in obdelavo naravnega kamna, Partizanska 73a, 6210 Sežana, matična številka 5090725, davčna številka 40342085, raziskovanje naravnega kamna v kamnolomu Rubije, na parcelah št. 241/8, 241/9, 241/10, 241/11, 241/60, 241/61, 241/62 in 241/63, Občina Komen, na podlagi dopisa Republiškega sekretariata za gospodarstvo, št. 1818/2-66 z dne 11. 5. 1966, ter poročila Geološkega zavoda Ljubljana, št. 26/1-68 iz februarja 1967.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prilogi Seznam pravnih in fizičnih oseb po drugem odstavku 2. člena uredbe Izkoriščanje mineralnih surovin se črtajo točke 4., 53., 90., 91., 105., 134., 165., 189. in 191.<br />
 V 43. točki se za številko »97« beseda »m2« nadomesti z besedo »km2«.<br />
 Besedilo dosedanje 92. točke se spremeni tako, da se glasi:<br />
@@ -50,7 +63,7 @@ Besedilo dosedanje 92. točke se spremeni tako, da se glasi:<br />
 5 490 747,00          5 148 217,40            738,70<br />
 5 490 698,97          5 148 547,42            700,74</p>
 <p>ki je del celotnega pridobivalnega prostora Rudnika svinca in cinka Mežica, določenega v odločbi št.  VII/3-718/3-53 z dne 26.12.1953.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 310-16/2002-1</p>
 <p>Ljubljana, dne 10. septembra 2002.</p>
@@ -65,5 +78,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-09-20", "kratica": "URED2523", "naziv": "Uredba o spremembah in dopolnitvah uredbe o podelitvi rudarske pravice imetnikom dovoljenj za raziskovanje oziroma pridobivanje mineralnih surovin", "url": "/trubar/si/URED2523/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

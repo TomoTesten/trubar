@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0304" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE574.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE574" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE574.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE574,vrsta:sklep">
+    
     <h1>Sklep o oglaševanju v zvezi z vrednostnimi papirji in storitev v zvezi z vrednostnimi papirji</h1>
 <p>Na podlagi četrtega odstavka 135. člena zakona o trgu vrednostnih papirjev (Uradni list RS, št. 56/99) izdaja Agencija za trg vrednostnih papirjev</p>
 <h2>S K L E P</h2>
 <p>o oglaševanju v zvezi z vrednostnimi papirji  in storitev v zvezi z vrednostnimi papirji</p>
 <h3>PREDMET SKLEPA</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta sklep določa posamezne dejanske stanove oglaševanja, ki je prepovedano po drugem odstavku 135. člena zakona o trgu vrednostnih papirjev (Uradni list RS, št. 56/99; v nadaljnjem besedilu: <a href="/trubar/si/ZTVP-1/" class="law-ref" title="ZTVP-1">ZTVP-1</a>).</p>
 <h3>PREPOVEDANO OGLAŠEVANJE</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Na podlagi drugega odstavka 135. člena <a href="/trubar/si/ZTVP-1/" class="law-ref" title="ZTVP-1">ZTVP-1</a> je prepovedano zlasti:<br />
 1. oglaševati ponudbe storitev v zvezi z vrednostnimi papirji, za katere borzno posredniška družba ni pridobila dovoljenja iz 92. člena <a href="/trubar/si/ZTVP-1/" class="law-ref" title="ZTVP-1">ZTVP-1</a>;<br />
 2. oglaševati javne ponudbe vrednostnih papirjev, če oglas ne vsebuje napotila na prospekt, izvleček iz prospekta ter njuno brezplačno dostopnost na sedežu izdajatelja ter mestih za vpisovanje in vplačevanje vrednostnih papirjev in napotilo na mesto in čas objave poziva za vplačevanje in vpisovanje vrednostnih papirjev iz 31. člena <a href="/trubar/si/ZTVP-1/" class="law-ref" title="ZTVP-1">ZTVP-1</a>;<br />
@@ -47,7 +60,7 @@
 – dejstva, da je seznanitev z vsemi oblikami tveganja pri naložbah v vrednostne papirje pogoj za oblikovanje ustrezne investicijske odločitve;<br />
 – vseh drugih dejstev in okoliščin, ki preprečujejo zavajanje investitorjev glede podatkov, pomembnih za investicijsko odločitev.</p>
 <h3>UVELJAVITEV SKLEPA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 86-1/13-13/2000</p>
 <p>Ljubljana, dne 20. januarja 2000.</p>
@@ -63,5 +76,36 @@ dr. Miha Juhart l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-01-27", "kratica": "SKLE574", "naziv": "Sklep o oglaševanju v zvezi z vrednostnimi papirji in storitev v zvezi z vrednostnimi papirji", "url": "/trubar/si/SKLE574/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

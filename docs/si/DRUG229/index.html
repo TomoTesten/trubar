@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3527" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG229.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG229" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG229.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG229,vrsta:drugi akt">
+    
     <h1>Dopolnitve pravil kviz loterije "Dobim podarim"</h1>
 <p>Na podlagi zakona o igrah na srečo (Uradni list RS, št. 27/95) in poslovnika o delu uprave je Uprava družbe Športna loterija in igre na srečo d.d., na seji dne 29. 7. 1999 sprejela</p>
 <h2>D O P O L N I T V E   P R A V I L</h2>
 <p>kviz loterije “Dobim podarim“</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilih kviz loterije “Dobim podarim”, ki jih je sprejel nadzorni svet na seji dne 20. 10. 1998, spremembe pravil pa uprava družbe na svoji seji dne 26. 3. 1999, se spremeni 13. člen, tako da glasi:<br />
 Žrebanje kartic, vrtenje kolesa in tekmovanje je javno, praviloma vsako nedeljo v televizijskem studiu. Celoten potek iger vodi voditelj oddaje.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Dopolni se 17. člen z naslednjimi dodatnimi igrami:</p>
 <h3>8. igra</h3>
 <p>V pravokotniku je osem vodoravnih vrst in sedem navpičnih stolpcev. Vrste in stolpci sestavljajo 56 polj. Vsako od polj je lahko označeno z eno, dvo ali trismerno puščico. Vsa polja so prekrita tako, da puščice niso vidne. V vrstah in stolpcih je skupaj 23 možnih izhodov od katerih je 20 izhodov označenih z zneski v vrednosti: 2 × 100.000, 2 × 150.000, 2 × 200.000, 2 × 250.000, 2 × 300.000, 2 × 350.000, 2 × 400.000, 2 × 450.000, 2 × 500.000 in 2 × 1,000.000 SIT, ostali 3 izhodi pa so označeni z besedo IZHOD.<br />
@@ -45,7 +58,7 @@ V vsakem primeru, ne glede na razplet igre, pripada igralcu dobitek 20.000 SIT.<
 <h3>10. igra</h3>
 <p>V 15 poljih je natisnjenih petnajst različnih števil od 1 do 99. Polja so označena s črkami in prekrita tako, da niso vidne številke. Poleg polja so tri grupe, od katerih je vsaka označena s petimi števili, enakimi kot so natisnjene v 15 poljih, in denarno vrednostjo v znesku 100.000 SIT, 300.000 SIT ali 500.000 SIT. Igralec postopoma odkriva števila v poljih in jih primerja s števili v grupi. Ko je pet odkritih števil v posamezni grupi enakih odkritim številom v poljih, je ta grupa dobitna in igra je končana. Igralcu pripada dobitek, ki je vpisan za to grupo.<br />
 V vsakem primeru, ne glede na razplet igre, pripada igralcu dobitek 20.000 SIT.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Te dopolnitve pravil začnejo veljati z dnem, ko jih potrdi nadzorni organ. Določbe 1. člena teh dopolnitev pravil se uporabljajo od 5. 9. 1999. Dopolnitve pravil prireditelj objavi v javnem glasilu.</p>
 <p>Janez Bukovnik l. r.<br />
 Direktor družbe</p>
@@ -57,5 +70,36 @@ Direktor družbe</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-09-03", "kratica": "DRUG229", "naziv": "Dopolnitve pravil kviz loterije \"Dobim podarim\"", "url": "/trubar/si/DRUG229/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

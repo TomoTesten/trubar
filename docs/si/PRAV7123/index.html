@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1528" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7123.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7123" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7123.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7123,vrsta:pravilnik">
+    
     <h1>Pravilnik o dopolnitvah Pravilnika o radijskih frekvencah, ki se smejo uporabljati brez odločbe o dodelitvi radijskih frekvenc</h1>
 <p>Na podlagi tretjega odstavka 35. člena Zakona o elektronskih komunikacijah (Uradni list RS, št. 43/04 in 86/04- <a href="/trubar/si/ZVOP-1/" class="law-ref" title="ZVOP-1">ZVOP-1</a>) izdaja minister za gospodarstvo</p>
 <h2>P R A V I L N I K</h2>
 <p>o dopolnitvah Pravilnika o radijskih frekvencah, ki se smejo uporabljati brez odločbe o dodelitvi radijskih frekvenc</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o radijskih frekvencah, ki se smejo uporabljati brez odločbe o dodelitvi radijskih frekvenc (Uradni list RS, št. 45/05), se tabela v prilogi dopolni z vrsticami tabele iz priloge, ki je sestavni del tega pravilnika, tako, da se ohrani zaporedje radijskih frekvenc.<br />
 Ta pravilnik je sprejet ob upoštevanju postopka informiranja v skladu z Direktivo 98/34/ES Evropskega parlamenta in Sveta z dne 22. junija 1998 o določitvi postopka za zbiranje informacij na področju tehničnih standardov in tehničnih predpisov (UL L št. 204 z dne 21. 7. 1998, str. 37), kot je bila nazadnje spremenjena z Direktivo 98/48/ES Evropskega parlamenta in Sveta z dne 20. julija 1998 o spremembi Direktive 98/34/ES o določitvi postopka za zbiranje informacij na področju tehničnih standardov in tehničnih predpisov (UL L št. 217 z dne 5. 8. 1998, str. 18).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem list Republike Slovenije.</p>
 <p>Št. 007-35/2005</p>
 <p>Ljubljana, dne 27. marca 2006</p>
@@ -48,5 +61,36 @@ za gospodarstvo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-04-07", "kratica": "PRAV7123", "naziv": "Pravilnik o dopolnitvah Pravilnika o radijskih frekvencah, ki se smejo uporabljati brez odločbe o dodelitvi radijskih frekvenc", "url": "/trubar/si/PRAV7123/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

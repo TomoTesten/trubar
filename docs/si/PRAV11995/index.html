@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3958" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11995.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11995" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11995.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11995,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvi Pravilnika o načinu in stopnjah odpisa neopredmetenih sredstev in opredmetenih osnovnih sredstev</h1>
 <p>Na podlagi drugega odstavka 42. člena Zakona o računovodstvu (Uradni list RS, št. 23/99, 30/02 – <a href="/trubar/si/ZJF-C/" class="law-ref" title="ZJF-C">ZJF-C</a> in 114/06 – <a href="/trubar/si/ZUE/" class="law-ref" title="ZUE">ZUE</a>) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvi Pravilnika o načinu in stopnjah odpisa neopredmetenih sredstev in opredmetenih osnovnih sredstev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o načinu in stopnjah odpisa neopredmetenih sredstev in opredmetenih osnovnih sredstev (Uradni list RS, št. 45/05, 114/06 – <a href="/trubar/si/ZUE/" class="law-ref" title="ZUE">ZUE</a>, 138/06, 120/07, 48/09, 112/09 in 58/10) se v 7. členu peti odstavek spremeni tako, da se glasi:<br />
 »Ne glede na četrti odstavek tega člena se v primeru, če so letne stopnje odpisa za opredmetena osnovna sredstva s področja gospodarskih javnih služb določene v področnih predpisih, uporabljajo te letne stopnje odpisa. Enako velja za uporabo druge metode amortiziranja.«.<br />
 Za šestim odstavkom se doda nov sedmi odstavek, ki se glasi:<br />
 »Stavbna pravica kot neopredmeteno sredstvo se amortizira v dobi trajanja stavbne pravice.«.<br />
 Dosedanji sedmi odstavek postane osmi odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-900/2013</p>
 <p>Ljubljana, dne 10. decembra 2013</p>
@@ -51,5 +64,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-12-20", "kratica": "PRAV11995", "naziv": "Pravilnik o spremembah in dopolnitvi Pravilnika o načinu in stopnjah odpisa neopredmetenih sredstev in opredmetenih osnovnih sredstev", "url": "/trubar/si/PRAV11995/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

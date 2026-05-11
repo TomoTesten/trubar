@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pravilnik o prenehanju veljavnosti Pravilnika o meroslovnih zahtevah za stikalne ure — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Pravilnik o prenehanju veljavnosti Pravilnika o meroslovnih zahtevah za stikalne ure</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>PRAV7292</strong></dd>
+      <dt>Vrsta</dt><dd>pravilnik</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
+      <dt>Datum</dt><dd>2006-02-24</dd>
+      <dt>Organ</dt><dd>Ministrstvo za visoko šolstvo, znanost in tehnologijo</dd>
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-0763" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7292" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7292.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:PRAV7292,vrsta:pravilnik">
+    
+    <h1>Pravilnik o prenehanju veljavnosti Pravilnika o meroslovnih zahtevah za stikalne ure</h1>
+<p>Na podlagi prvega in petega odstavka 9. člena in petega odstavka 11. člena Zakona o meroslovju (Uradni list RS, št. 26/05 – uradno prečiščeno besedilo) izdaja minister za visoko šolstvo, znanost in tehnologijo</p>
+<h2>P R A V I L N I K</h2>
+<p>o prenehanju veljavnosti Pravilnika<br />
+o meroslovnih zahtevah za stikalne ure</p>
+<h3><span id="člen-1">1. člen</span></h3>
+<p>Z dnem uveljavitve tega pravilnika, preneha veljati Pravilnik o meroslovnih zahtevah za stikalne ure (Uradni list RS, št. 26/02).</p>
+<h3><span id="člen-2">2. člen</span></h3>
+<p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 0073-2/2006</p>
+<p>Ljubljana, dne 6. februarja 2006</p>
+<p>EVA 2006-3211-0004</p>
+<p>dr. Jure Zupan l.r.<br />
+Minister<br />
+za visoko šolstvo,<br />
+znanost in tehnologijo</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-02-24", "kratica": "PRAV7292", "naziv": "Pravilnik o prenehanju veljavnosti Pravilnika o meroslovnih zahtevah za stikalne ure", "url": "/trubar/si/PRAV7292/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

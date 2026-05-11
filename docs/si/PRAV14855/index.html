@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>PRAV14855</strong></dd>
       <dt>Vrsta</dt><dd>pravilnik</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>2022-12-02</dd>
-      <dt>Organ</dt><dd>Ministrstvo za finance</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2022-01-3738" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV14855.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV14855" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV14855.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV14855,vrsta:pravilnik">
+    
     <h1>Pravilnik o dopolnitvi Pravilnika o izvajanju Zakona o trošarinah</h1>
 <p>Na podlagi 8., 11., 15., 16., 18., 19., 20., 29., 32., 33., 36., 43., 44., 45., 48., 49., 51., 52., 53., 55., 56., 58., 63., 72., 74., 77., 79., 80., 80.a, 87., 92., 97., 98., 99. in 101. člena in za izvrševanje 14., 22., 30., 32., 34., 59. in 86. člena Zakona o trošarinah (Uradni list RS, št. 47/16, 92/21, 192/21 in 140/22) ter na podlagi drugega odstavka v zvezi s 16. točko prvega odstavka 4. člena Zakona o opravljanju plačilnih storitev za proračunske uporabnike (Uradni list RS, št. 77/16 in 47/19) minister za finance izdaja</p>
 <p>P R A V I L N I K</p>
@@ -48,5 +61,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2022-12-02", "kratica": "PRAV14855", "naziv": "Pravilnik o dopolnitvi Pravilnika o izvajanju Zakona o trošarinah", "url": "/trubar/si/PRAV14855/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

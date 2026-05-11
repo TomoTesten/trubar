@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-02-0016" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5736.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5736" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5736.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5736,vrsta:uredba">
+    
     <h1>Uredba o ratifikaciji Sporazuma med Upravo Republike Slovenije za jedrsko varnost (URSJV) in Jedrsko regulatorno komisijo Združenih držav Amerike (NRC) o izmenjavi tehničnih informacij in sodelovanju na področju jedrske varnosti</h1>
 <p>Na podlagi petega odstavka 75. člena Zakona o zunanjih zadevah (Uradni list RS, št. 113/03 – uradno prečiščeno besedilo, 20/06 – <a href="/trubar/si/ZNOMCMO/" class="law-ref" title="ZNOMCMO">ZNOMCMO</a>, 76/08, 108/09 in 80/10 – <a href="/trubar/si/ZUTD/" class="law-ref" title="ZUTD">ZUTD</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>O RATIFIKACIJI SPORAZUMA MED UPRAVO REPUBLIKE SLOVENIJE ZA JEDRSKO VARNOST (URSJV) IN JEDRSKO REGULATORNO KOMISIJO ZDRUŽENIH DRŽAV AMERIKE (NRC) O IZMENJAVI TEHNIČNIH INFORMACIJ IN SODELOVANJU NA PODROČJU JEDRSKE VARNOSTI</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sporazum med Upravo Republike Slovenije za jedrsko varnost (URSJV) in Jedrsko regulatorno komisijo Združenih držav Amerike (NRC) o izmenjavi tehničnih informacij in sodelovanju na področju jedrske varnosti, sklenjen na Dunaju 4. aprila 2011.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sporazuma se v izvirniku v slovenskem in angleškem jeziku glasi:</p>
 <h2>S P O R A Z U M</h2>
 <p>MED UPRAVO REPUBLIKE SLOVENIJE ZA JEDRSKO VARNOST (URSJV)<br />
@@ -335,9 +348,9 @@ B. Rights to all forms of intellectual property, other than those rights describ
 (e) For each invention made under any cooperative activity, the Party employing or sponsoring the inventor(s) shall disclose the invention promptly to the other Party together with any documentation and information necessary to enable the other Party to establish any rights to which it may be entitled. Either Party may ask the other Party in writing to delay publication or public disclosure of such documentation or information for the purpose of protecting its rights in the invention. Unless otherwise agreed in writing, the delay shall not exceed a period of six months from the date of disclosure by the inventing Party to the other Party.</p>
 <p>IV. Business Confidential Information</p>
 <p>In the event that information identified in a timely fashion as business-confidential is furnished or created under this Arrangement, each Party and its participants shall protect such information in accordance with applicable laws, regulations, and administrative practices. Information may be identified as “business-confidential” if a person having the information may derive an economic benefit from it or may obtain a competitive advantage over those who do not have it, and the information is not generally known or publicly available from other sources, and the owner has not previously made the information available without imposing in a timely manner an obligation to keep it confidential.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Ministrstvo za kmetijstvo in okolje, Uprava Republike Slovenije za jedrsko varnost.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 00724-4/2012</p>
 <p>Ljubljana, dne 8. marca 2012</p>
@@ -353,5 +366,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-04-16", "kratica": "URED5736", "naziv": "Uredba o ratifikaciji Sporazuma med Upravo Republike Slovenije za jedrsko varnost (URSJV) in Jedrsko regulatorno komisijo Združenih držav Amerike (NRC) o izmenjavi tehničnih informacij in sodelovanju na področju jedrske varnosti", "url": "/trubar/si/URED5736/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0495" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO352.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO352" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO352.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO352,vrsta:navodilo">
+    
     <h1>Navodilo za ravnanje službe družbenega knjigovodstva pri dajanju mnenj o boniteti izdajateljev dolgoročnih vrednostnih papirjev</h1>
 <p>Na podlagi zakona o vrednostnih papirjih (Uradni list SFRJ, št. 64/89 in 29/90), odloka o izdajanju dovoljenja za izdajo dolgoročnih vrednostnih papirjev in za ustanovitev borze vrednostnih papirjev (Uradni list RS, št. 17/91-I) in ustavnega zakona za izvedbo ustave Republike Slovenije (Uradni list RS, št. 33/91-I) predpisuje generalni direktor Službe družbenega knjigovodstva v Republiki Sloveniji</p>
 <h2>NAVODILO</h2>
@@ -91,5 +104,36 @@ mag. Igor Omerza l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-02-28", "kratica": "NAVO352", "naziv": "Navodilo za ravnanje službe družbenega knjigovodstva pri dajanju mnenj o boniteti izdajateljev dolgoročnih vrednostnih papirjev", "url": "/trubar/si/NAVO352/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

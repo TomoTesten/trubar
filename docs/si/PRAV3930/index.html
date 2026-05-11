@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3484" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3930.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV3930" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3930.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV3930,vrsta:pravilnik">
+    
     <h1>Pravilnik o dopolnitvi pravilnika o metodologiji za upoštevanje dohodka iz kmetijske dejavnosti za pridobitev pravice do denarne socialne pomoči in denarne pomoči</h1>
 <p>Na podlagi prvega odstavka 30.a člena zakona o socialnem varstvu (Uradni list RS, št. 54/92, 56/92, 13/93, 42/94 – odl. US RS, 1/99, 41/99, 36/00, 54/00 in 26/01) in četrtega odstavka 35.a člena zakona o zaposlovanju in zavarovanju za primer brezposelnosti (Uradni list RS, št. 5/91, 17/91, 12/92, 12/93, 71/93, 2/94-popr., 38/94, 80/97 – odl. US RS, 69/98 in 65/00) izdaja minister za delo, družino in socialne zadeve v soglasju z ministrom za kmetijstvo, gozdarstvo in prehrano in ministrom za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o dopolnitvi pravilnika o metodologiji  za upoštevanje dohodka iz kmetijske dejavnosti za pridobitev pravice do denarne socialne  pomoči in denarne pomoči</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o metodologiji za upoštevanje dohodka iz kmetijske dejavnosti za pridobitev pravice do denarne socialne pomoči in denarne pomoči (Uradni list RS, št. 31/01) se v 5. členu doda nov četrti odstavek, ki se glasi:<br />
 »V postopku za pridobitev pravice do denarne socialne pomoči se od 1. septembra 2001 dalje dohodek iz dejavnosti upošteva na način, kot je določeno s pravilnikom o metodologiji za upoštevanje dohodka iz dejavnosti za pridobitev pravice do denarne socialne pomoči.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne  1. septembra 2001.</p>
 <p>Št. 017-01-012/99-28</p>
 <p>Ljubljana, dne 27. julija 2001.</p>
@@ -57,5 +70,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-08-03", "kratica": "PRAV3930", "naziv": "Pravilnik o dopolnitvi pravilnika o metodologiji za upoštevanje dohodka iz kmetijske dejavnosti za pridobitev pravice do denarne socialne pomoči in denarne pomoči", "url": "/trubar/si/PRAV3930/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

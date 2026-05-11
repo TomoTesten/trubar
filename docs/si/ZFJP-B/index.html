@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1507" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZFJP-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZFJP-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZFJP-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZFJP-B,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o financiranju javne porabe</h1>
 <p>Na podlagi prvega odstavka 107. člena ustave Republike Slovenije izdaja Predsedstvo Republike Slovenije</p>
 <h2>UKAZ</h2>
@@ -36,7 +49,7 @@
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>o spremembah in dopolnitvah zakona o financiranju javne porabe</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o financiranju javne porabe (Uradni list RS, št. 48/90 in 34/91) se za 17. členom dodata dva nova člena 17.a in 17.b, ki se glasita:</p>
 <h3>"17.a člen</h3>
 <p>Začasno financiranje javne porabe v občini se lahko nadaljuje tudi po preteku roka iz prejšnjega člena, če republiški proračun ni bil sprejet do konca februarja tekočega leta, vendar največ 30 dni po uveljavitvi republiškega proračuna.</p>
@@ -49,21 +62,21 @@ Po določbah prejšnjega odstavka se lahko financirajo le obveznosti javne porab
 Za izvajanje nalog financiranja javne porabe po prejšnjih odstavkih imenuje Skupščina Republike Slovenije na predlog vlade za čas do sprejetja proračuna občine začasnega upravitelja občinskega proračuna.<br />
 Pristojni organi občine morajo dati začasnemu upravitelju občinskega proračuna na njegovo zahtevo vse podatke in informacije, ki so potrebni za razporejanje proračunskih sredstev.<br />
 Začasni upravitelj občinskega proračuna poroča Skupščini Republike Slovenije o mesečnem izvrševanju proračuna po določbah tega člena najpozneje v 15. dneh po preteku vsakega meseca."</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 38. členu se doda nov tretji odstavek, ki se glasi:</p>
 <p>"Javna podjetja oziroma javni zavodi, katerih ustanovitelj je država oziroma občina, morajo na zahtevo pristojnega organa poslati zaključni račun skupščini republike oziroma občine."</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 41. členu se drugi odstavek nadomesti z novim drugim, tretjim in četrtim odstavkom, ki se glasijo:</p>
 <p>"Obseg potrebnih sredstev, ki jih občine zagotavljajo mestu oziroma regionalni skupnosti, se določi z njihovim medsebojnim dogovorom.</p>
 <p>Dogovor iz prejšnjega odstavka se predloži Skupščini Republike Slovenije in Službi družbenega knjigovodstva Slovenije.<br />
 Do sprejetja dogovora iz drugega odstavka tega člena pripada Mestu Ljubljana in Skupnosti obalnih občin Koper za financiranje nalog javne porabe naslednji del dohodnine, ki pripada občinam z ustreznega območja po odloku o razporeditvi določenih prihodkov med republiko in občinami:<br />
 – Mestu Ljubljana 40%;<br />
 – Skupnosti obalnih občin Koper 16%."</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za 41. členom se doda novi 41.a člen, ki se glasi:</p>
 <h3>"41. a člen</h3>
 <p>Določbe tega zakona o financiranju javne porabe v občini se smiselno uporabljajo tudi za financiranje javne porabe v mestih in regionalnih skupnostih."</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 411-01/90-14/11</p>
 <p>Ljubljana, dne 11. junija 1992.</p>
@@ -79,5 +92,36 @@ dr. France Bučar l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-06-15", "kratica": "ZFJP-B", "naziv": "Zakon o spremembah in dopolnitvah zakona o financiranju javne porabe", "url": "/trubar/si/ZFJP-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

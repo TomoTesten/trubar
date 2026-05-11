@@ -21,30 +21,43 @@
       <dt>Organ</dt><dd>Agencija za trg vrednostnih papirjev</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-5292" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5093.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE5093" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5093.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE5093,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Sklep o vrsti in obsegu dodatnih likvidnih sredstev investicijskega sklada</h1>
 <p>Na podlagi drugega odstavka 64. člena Zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 110/02, 73/03 – sklep US, 32/04 – avtentična razlaga in 42/04) Agencija za trg vrednostnih papirjev izdaja</p>
 <h2>S K L E P</h2>
 <p>o vrsti in obsegu dodatnih likvidnih sredstev investicijskega sklada</p>
 <h3>I. SPLOŠNA DOLOČBA</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta sklep določa vrsto in najvišji dovoljeni obseg dodatnih likvidnih sredstev investicijskega sklada.</p>
 <h3>II. POJEM DODATNIH LIKVIDNIH SREDSTEV</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Dodatna likvidna sredstva investicijskega sklada so denarna sredstva na vpogled in tista denarna sredstva, vezana na odpoklic z možnostjo izplačila na dan odpoklica, ki niso namenjena doseganju ciljev, opredeljenih v naložbeni politiki investicijskega sklada, temveč so namenjena pokrivanju tekočih in izrednih izplačil investicijskega sklada.<br />
 (2) Dodatna likvidna sredstva investicijskega sklada se lahko oblikujejo tudi v času, potrebnem za reinvestiranje unovčenih naložb investicijskega sklada in v primerih, kadar družba za upravljanje zaradi izredno neugodnih razmer na trgu finančnih instrumentov začasno prekine nalaganje sredstev investicijskega sklada na te trge.</p>
 <h3>III. OBSEG DODATNIH LIKVIDNIH SREDSTEV</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Družba za upravljanje v prospektu investicijskega sklada opredeli najvišji predvideni obseg dodatnih likvidnih sredstev investicijskega sklada v odstotku od vseh sredstev investicijskega sklada.<br />
 (2) Obseg dodatnih likvidnih sredstev investicijskega sklada iz prejšnjega odstavka ne sme presegati 20 odstotkov vrednosti vseh sredstev investicijskega sklada.<br />
 (3) Družba za upravljanje mora biti sposobna Agenciji v vsakem trenutku utemeljiti katera denarna sredstva, vezana na odpoklic z možnostjo izplačila na dan odpoklica, so namenjena doseganju ciljev opredeljenih v naložbeni politiki investicijskega sklada in katera predstavljajo dodatna likvidna sredstva investicijskega sklada.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Dodatna likvidna sredstva investicijskega sklada se upoštevajo pri izračunavanju izpostavljenosti investicijskega sklada iz četrtega in desetega odstavka 68. člena <a href="/trubar/si/ZISDU-1/" class="law-ref" title="ZISDU-1">ZISDU-1</a>.</p>
 <h3>IV. KONČNA DOLOČBA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>(1) Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.<br />
 (2) Z dnem uveljavitve tega sklepa preneha veljati Sklep o vrsti in obsegu dodatnih likvidnih sredstev investicijskega sklada (Uradni list RS, št. 80/03).</p>
 <p>Št. 182-2/3-4/2004</p>
@@ -62,5 +75,36 @@ dr. Miha Juhart l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-11-25", "kratica": "SKLE5093", "naziv": "Sklep o vrsti in obsegu dodatnih likvidnih sredstev investicijskega sklada", "url": "/trubar/si/SKLE5093/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

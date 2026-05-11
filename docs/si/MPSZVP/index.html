@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-02-0019" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPSZVP.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MPSZVP" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPSZVP.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MPSZVP,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Protokola o spremembi Zaupne varnostne priloge k Sporazumu med pogodbenicami Severnoatlantske pogodbe o sodelovanju na področju jedrskih podatkov</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI PROTOKOLA O SPREMEMBI ZAUPNE VARNOSTNE PRILOGE K SPORAZUMU MED POGODBENICAMI SEVERNOATLANTSKE POGODBE O SODELOVANJU NA PODROČJU JEDRSKIH PODATKOV (MPSZVP)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Protokol o spremembi Zaupne varnostne priloge k Sporazumu med pogodbenicami Severnoatlantske pogodbe o sodelovanju na področju jedrskih podatkov, sestavljen v Bruslju, 2. junija 1998.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo protokola se v izvirniku v angleškem in v prevodu v slovenskem jeziku glasi:(*)</p>
 <h2>P R O T O C O L</h2>
 <p>Amending the Security Annex to the Agreement between the Parties to the North Atlantic Treaty for Co-operation regarding Atomic Information</p>
@@ -77,9 +90,9 @@ so se podpisane pogodbenice dogovorile:</p>
 V potrditev tega so podpisani predstavniki podpisali ta protokol.<br />
 Sestavljeno v Bruslju 2. junija 1998 v angleškem in francoskem jeziku, pri čemer sta besedili enako verodostojni, v enem samem izvirniku, shranjenem v arhivu Vlade Združenih držav Amerike, ki pošlje overjene kopije izvirnika vsem državam podpisnicam in pristopnicam.</p>
 <p>Podpisniki protokola</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje protokola skrbi Urad Vlade Republike Slovenije za varovanje tajnih podatkov v sodelovanju z Ministrstvom za obrambo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 200-10/08-2/11</p>
 <p>Ljubljana, dne 4. marca 2010</p>
@@ -97,5 +110,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-03-22", "kratica": "MPSZVP", "naziv": "Zakon o ratifikaciji Protokola o spremembi Zaupne varnostne priloge k Sporazumu med pogodbenicami Severnoatlantske pogodbe o sodelovanju na področju jedrskih podatkov", "url": "/trubar/si/MPSZVP/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

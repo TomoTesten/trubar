@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2156" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED593.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED593" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED593.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED593,vrsta:uredba">
+    
     <h1>Uredba o dopolnitvah uredbe o načinu izdelave razdelitvene bilance in načinu ugotavljanja deleža občin v družbenem kapitalu obstoječih veterinarskih zavodov</h1>
 <p>Na podlagi pete alinee 108. člena zakona o veterinarstvu (Uradni list RS, št. 82/94 in 21/95) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o dopolnitvah uredbe o načinu izdelave razdelitvene bilance in načinu ugotavljanja deleža občin v družbenem kapitalu obstoječih veterinarskih zavodov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Za 6. členom uredbe o načinu izdelave razdelitvene bilance in načinu ugotavljanja deleža občin v družbenem kapitalu obstoječih veterinarskih zavodov (Uradni list RS, št. 10/95) se doda nov 6.a člen, ki se glasi:</p>
 <h3>“6.a člen</h3>
 <p>Veterinarski zavod Slovenije evidentira v otvoritveni bilanci na dan 1. julija 1995 del sredstev, ki jih posamezen obstoječi veterinarski zavod po odločbi ministrstva, pristojnega za veterinarstvo, v skladu z zakonom o veterinarstvu in delitveno bilanco nameni Veterinarskemu zavodu Slovenije po bilanci na dan 1. januarja 1993.</p>
@@ -38,7 +51,7 @@
 <p>Obstoječi veterinarski zavodi morajo obveznosti, ki jih je mogoče poravnati le v denarju, nakazati Veterinarskemu zavodu Slovenije v petnajstih dneh po potrditvi razdelitvene bilance s strani Veterinarskega zavoda Slovenije, razen sredstev na žiro računu obstoječega veterinarskega zavoda na dan 30. junija 1995, ki so namenjena za dejavnosti, ki jih lahko izvaja le Veterinarski zavod Slovenije. Ta sredstva mora obstoječi veterinarski zavod nakazati Veterinarskemu zavodu Slovenije v petih dneh po uveljavitvi te uredbe. Pri tem se obračunavajo obresti v višini R + 7 % in sicer za sredstva na žiro računu, ki so namenjena za izvajanje dejavnosti Veterinarskega zavoda Slovenije, od 30. junija 1995 pa do poplačila, za druga sredstva, ki se poplačajo v denarju, pa od prejema potrditve razdružitvene bilance s strani Veterinarskega zavoda Slovenije pa do poplačila.</p>
 <p>Druga sredstva morajo obstoječi veterinarski zavodi izročiti Veterinarskemu zavodu Slovenije v petnajstih dneh v naravi. Za vpis sprememb v zemljiški knjigi pri nepremičninah pa morajo obstoječi veterinarski zavodi oziroma Veterinarski zavod Slovenije vložiti ustrezne predloge v treh mesecih po potrditvi razdelitvene bilance s strani Veterinarskega zavoda Slovenije.</p>
 <p>Potrdilo Veterinarskega zavoda Slovenije, da so sredstva v skladu s to uredbo predana Veterinarskemu zavodu Slovenije, je pogoj za pridobitev prvega soglasja Agencije Republike Slovenije za prestrukturiranje in privatizacijo po zakonu o lastninskem preoblikovanju podjetij.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 300-01/95-12/2-8</p>
 <p>Ljubljana, dne 27. julija 1995.</p>
@@ -53,5 +66,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-07-28", "kratica": "URED593", "naziv": "Uredba o dopolnitvah uredbe o načinu izdelave razdelitvene bilance in načinu ugotavljanja deleža občin v družbenem kapitalu obstoječih veterinarskih zavodov", "url": "/trubar/si/URED593/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

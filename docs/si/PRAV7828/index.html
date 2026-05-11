@@ -21,20 +21,33 @@
       <dt>Organ</dt><dd>Ministrstvo za gospodarstvo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-3972" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7828.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7828" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7828.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7828,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o podatkih za ugotavljanje višine vračila vlaganj v javno telekomunikacijsko omrežje</h1>
 <p>Na podlagi četrtega odstavka 5. člena Zakona o vračanju vlaganj v javno telekomunikacijsko omrežje (Uradni list RS, št. 26/05 – uradno prečiščeno besedilo in 60/06) izdaja minister za gospodarstvo</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o podatkih za ugotavljanje višine vračila vlaganj v javno telekomunikacijsko omrežje</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o podatkih za ugotavljanje višine vračila vlaganj v javno telekomunikacijsko omrežje (Uradni list RS, št. 1/04 in 61/04 (95/04 – popr.)) se na koncu druge alinee prvega odstavka 1. člena pika nadomesti z besedo »ter« in se doda nova tretja alinea, ki se glasi:<br />
 »– podatke o povprečnih cenah tipičnih del in materialov, ki so razvidni iz tabele v prilogi 3.«.<br />
 Drugi odstavek se spremeni tako, da se glasi:<br />
 »(2) Priloge 1, 2 in 3 so sestavni del tega pravilnika in so objavljene skupaj z njim.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za prilogo 2 se doda nova priloga 3, ki se glasi:</p>
 <p>»PRILOGA 3<br />
    Tabela povprečnih cen tipičnih del in materialov<br />
@@ -157,7 +170,7 @@ Drugi odstavek se spremeni tako, da se glasi:<br />
 |   39    |V zračni izvedbi (izkop, drogovi, kabel,        |100 m |64.683,54«|<br />
 |         |zasutje)                                        |      |          |<br />
 +---------+------------------------------------------------+------+----------+</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-73/2006</p>
 <p>Ljubljana, dne 24. avgusta 2006</p>
@@ -173,5 +186,36 @@ za gospodarstvo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-09-01", "kratica": "PRAV7828", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o podatkih za ugotavljanje višine vračila vlaganj v javno telekomunikacijsko omrežje", "url": "/trubar/si/PRAV7828/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,19 +21,32 @@
       <dt>Organ</dt><dd>Ministrstvo za delo, družino in socialne zadeve</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-2070" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8786.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV8786" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8786.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV8786,vrsta:pravilnik">
+    
     <h1>Pravilnik o valorizacijskih količnikih za preračun plač in zavarovalnih osnov iz prejšnjih let na raven plač in pokojnin iz leta 2007</h1>
 <p>Na podlagi petega odstavka 47. člena Zakona o pokojninskem in invalidskem zavarovanju (Uradni list RS, št. 109/06 – uradno prečiščeno besedilo, 112/06 – odl. US, 114/06 – <a href="/trubar/si/ZUTPG/" class="law-ref" title="ZUTPG">ZUTPG</a> in 10/08 – ZVarDod) izdaja ministrica za delo, družino in socialne zadeve v soglasju z ministrom za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o valorizacijskih količnikih za preračun plač in zavarovalnih osnov iz prejšnjih let na raven plač in pokojnin iz leta 2007</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V skladu s prvim odstavkom 47. člena Zakona o pokojninskem in invalidskem zavarovanju (Uradni list RS, št. 109/06 – uradno prečiščeno besedilo, 112/06 – odl. US, 114/06 – <a href="/trubar/si/ZUTPG/" class="law-ref" title="ZUTPG">ZUTPG</a> in 10/08 – ZvarDod, v nadaljnjem besedilu: <a href="/trubar/si/ZPIZ-1/" class="law-ref" title="ZPIZ-1">ZPIZ-1</a>) se pri določitvi pokojninske osnove za odmero pokojnine, uveljavljene v letu 2008, plače oziroma zavarovalne osnove iz prejšnjih let predhodno preračunajo z valorizacijskimi količniki tako, da ustrezajo gibanjem povprečnih plač in pokojnin v koledarskem letu pred uveljavitvijo pravice do pokojnine.<br />
 Po drugem odstavku 47. člena <a href="/trubar/si/ZPIZ-1/" class="law-ref" title="ZPIZ-1">ZPIZ-1</a> se valorizacijski količniki določijo tako, da se povprečno plačo na zaposleno osebo v državi, izplačano za oktober 1990 in povečano za odstotek vseh uskladitev pokojnin po predpisih, veljavnih do 31. 12. 1999 in po 150., 150.a in 150.b členu <a href="/trubar/si/ZPIZ-1/" class="law-ref" title="ZPIZ-1">ZPIZ-1</a>, opravljenih od 1. 1. 1991 do konca leta 2007, deli z zneskom povprečne plače na zaposleno osebo v državi, dosežene v letih, iz katerih se po določbah zakona upoštevajo plače oziroma zavarovalne osnove za izračun pokojninske osnove.<br />
 Povprečno plačo na zaposleno osebo v posameznem koledarskem letu se izračuna tako, da se povprečno bruto plačo, ugotovljeno po uradnih statističnih podatkih, preračuna s povprečno stopnjo davkov in prispevkov.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Plače oziroma zavarovalne osnove iz prejšnjih let se pri izračunu pokojninske osnove preračunajo z naslednjimi valorizacijskimi količniki:</p>
 <hr />
 <h2>Leto                                 Valorizacijski količniki</h2>
@@ -81,7 +94,7 @@ Povprečno plačo na zaposleno osebo v posameznem koledarskem letu se izračuna 
 2006                                                    0,808<br />
 2007                                                    0,749</p>
 <hr />
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00720-14/2008</p>
 <p>Ljubljana, dne 25. aprila 2008</p>
@@ -102,5 +115,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-05-16", "kratica": "PRAV8786", "naziv": "Pravilnik o valorizacijskih količnikih za preračun plač in zavarovalnih osnov iz prejšnjih let na raven plač in pokojnin iz leta 2007", "url": "/trubar/si/PRAV8786/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

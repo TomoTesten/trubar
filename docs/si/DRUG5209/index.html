@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Poročilo o gibanju plač za marec 2023 — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Poročilo o gibanju plač za marec 2023</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>DRUG5209</strong></dd>
+      <dt>Vrsta</dt><dd>drugi akt</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2023-05-26</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-1772" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG5209" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5209.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:DRUG5209,vrsta:drugi akt">
+    
+    <h1>Poročilo o gibanju plač za marec 2023</h1>
+<p>Na podlagi prvega odstavka 19. člena Zakona o državni statistiki (Uradni list RS, št. 45/95 in 9/01) Statistični urad Republike Slovenije objavlja</p>
+<p>P O R O Č I L O</p>
+<p>o gibanju plač za marec 2023</p>
+<p>Povprečna mesečna bruto plača na zaposleno osebo v Sloveniji za marec 2023 je znašala 2.191,85 EUR in je bila za 2,8 % višja kot za februar 2023.</p>
+<p>Povprečna mesečna neto plača na zaposleno osebo v Sloveniji za marec 2023 je znašala 1.423,75 EUR in je bila za 2,3 % višja kot za februar 2023.</p>
+<p>Povprečna mesečna bruto plača za obdobje januar–marec 2023 je znašala 2.156,40 EUR.</p>
+<p>Povprečna mesečna neto plača za obdobje januar–marec 2023 je znašala 1.404,82 EUR.</p>
+<p>Št. 9616-447/2023/4</p>
+<p>Ljubljana, dne 23. maja 2023</p>
+<p>EVA 2023-1522-0015</p>
+<p>Tomaž Smrekar</p>
+<p>generalni direktor</p>
+<p>Statističnega urada</p>
+<p>Republike Slovenije</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-05-26", "kratica": "DRUG5209", "naziv": "Poročilo o gibanju plač za marec 2023", "url": "/trubar/si/DRUG5209/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

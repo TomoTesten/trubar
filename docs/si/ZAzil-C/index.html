@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4366" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZAzil-C.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZAzil-C" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZAzil-C.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZAzil-C,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o azilu</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -38,7 +51,7 @@ dr. Janez Drnovšek l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA<br />
 O AZILU (ZAzil-C)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o azilu (Uradni list RS, št. 61/99, 113/2000 – odločba US, 124/2000 in 67/2001) se 59. člen spremeni tako, da se glasi:</p>
 <h3>»59. člen</h3>
 <p>(1) Potni list se izda beguncu na njegovo vlogo pri pristojnem organu v skladu z zakonom, ki ureja pridobitev potnih listin za državljane Republike Slovenije, kolikor ta zakon ne določa drugače.<br />
@@ -47,7 +60,7 @@ O AZILU (ZAzil-C)</p>
 (4) Pristojni organ izda vlagatelju potrdilo o prejemu vloge.<br />
 (5) Potni list za begunca lahko pridobi oseba z veljavnim statusom begunca. Mladoletnemu beguncu, mlajšemu od štirih let, se potni list izda z veljavnostjo dveh let, mladoletnemu beguncu, staremu od štirih do osemnajst let, se potni list izda z veljavnostjo pet let, polnoletnemu beguncu pa se potni list izda z veljavnostjo 10 let.<br />
 (6) Imetnik mora potno listino po prenehanju statusa begunca izročiti pristojnemu organu.».</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 63. členom se doda naslov novega VI.a poglavja in členi od 63.a do 63.e, ki se glasijo:</p>
 <h3>»VI.a poglavje</h3>
 <p>EVIDENCE</p>
@@ -129,11 +142,11 @@ O AZILU (ZAzil-C)</p>
 (3) Evidence iz šeste, sedme, osme, devete, desete, enajste, dvanajste in trinajste alinee prvega odstavka 63.a člena tega zakona vsebujejo tudi rok, v katerem mora oseba zapustiti Republiko Slovenijo.<br />
 (4) Evidenci iz tretje in četrte alinee prvega odstavka 63.a člena tega zakona vsebujeta tudi podatke o prejeti denarni pomoči ali žepnini, humanitarni pomoči, osnovnošolskem izobraževanju in opravljanju začasnega in občasnega dela.».</p>
 <h3>PREHODNE IN KONČNE DOLOČBE</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Minister, pristojen za notranje zadeve, v enem letu po uveljavitvi tega zakona uskladi obrazce listin iz 56. člena zakona ter podrobneje predpiše način vodenja evidenc.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Izdane izkaznice prosilca za azil, osebne izkaznice za begunca, potni listi za begunca in izkaznice o priznani posebni obliki zaščite se lahko uporabljajo do izteka njihove veljavnosti, vendar največ dve leti po uveljavitvi tega zakona.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 213-04/98-25/8</p>
 <p>Ljubljana, dne 30. septembra 2003.</p>
@@ -150,5 +163,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-10-13", "kratica": "ZAzil-C", "naziv": "Zakon o spremembah in dopolnitvah zakona o azilu", "url": "/trubar/si/ZAzil-C/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

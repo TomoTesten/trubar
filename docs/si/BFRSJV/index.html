@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-02-0097" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/BFRSJV.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=BFRSJV" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/BFRSJV.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:BFRSJV,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Dogovora med Upravo Republike Slovenije za jedrsko varnost in Direkcijo za varnost jedrskih objektov Francoske republike za izmenjavo informacij in sodelovanje na področju jedrske varnosti</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI DOGOVORA MED UPRAVO REPUBLIKE SLOVENIJE ZA JEDRSKO VARNOST  IN DIREKCIJO ZA VARNOST JEDRSKIH OBJEKTOV FRANCOSKE REPUBLIKE ZA IZMENJAVO INFORMACIJ IN SODELOVANJE NA PODROČJU JEDRSKE VARNOSTI (BFRSJV)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Dogovor med Upravo Republike Slovenije za jedrsko varnost in Direkcijo za varnost jedrskih objektov Francoske republike za izmenjavo informacij in sodelovanje na področju jedrske varnosti, podpisan 18. februarja 2000 v Ljubljani.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Dogovor se v izvirniku v slovenskem in francoskem jeziku glasi:</p>
 <h2>DOGOVOR</h2>
 <p>med Upravo Republike Slovenije za jedrsko varnost<br />
@@ -165,9 +178,9 @@ Pour la Direction de la Sûreté<br />
 des Installations Nucléaires<br />
 de la République française<br />
 Andre-Claude Lacoste m.p.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje dogovora skrbi Ministrstvo za okolje in prostor – Uprava Republike Slovenije za jedrsko varnost.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 801-10/00-18/1</p>
 <p>Ljubljana, dne 19. julija 2000</p>
@@ -183,5 +196,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-08-10", "kratica": "BFRSJV", "naziv": "Zakon o ratifikaciji Dogovora med Upravo Republike Slovenije za jedrsko varnost in Direkcijo za varnost jedrskih objektov Francoske republike za izmenjavo informacij in sodelovanje na področju jedrske varnosti", "url": "/trubar/si/BFRSJV/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

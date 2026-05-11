@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0303" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6440.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV6440" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6440.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV6440,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o prepovedi prometa in uporabe fitofarmacevtskih sredstev, ki vsebujejo določene aktivne snovi</h1>
 <p>Na podlagi drugega odstavka 12. člena Zakona o fitofarmacevtskih sredstvih (Uradni list RS, št. 98/04 – uradno prečiščeno besedilo) izdaja ministrica za kmetijstvo, gozdar­stvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o prepovedi prometa in uporabe  fitofarmacevtskih sredstev, ki vsebujejo določene aktivne snovi</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina pravilnika)</h3>
 <p>Ta pravilnik ureja prepoved prometa in uporabe fitofarmacevtskih sredstev (v nadaljnjem besedilu: FFS), ki vsebujejo določene aktivne snovi, v skladu z Direktivo Sveta št. 79/117/EGS z dne 21. decembra 1978 (UL L, št. L 033, z dne 8. 2. 1979, str. 36, z vsemi spremembami) o prepovedi prometa in uporabe fitofarmacevtskih sredstev, ki vsebujejo določene aktivne snovi.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Prepovedano je dajati v promet in uporabljati FFS, ki vsebujejo eno ali več naslednjih aktivnih snovi:</p>
 <p>Imena aktivnih snovi ali skupin aktivnih snovi<br />
 1. Živosrebrove spojine</p>
@@ -64,14 +77,14 @@ Nitrofen<br />
 a) ki vsebujejo zanemarljive nečistote, prisotne zaradi narave postopka proizvodnje, če nimajo škodljivih učinkov na ljudi, živali ali okolje;<br />
 b) ki se uporabljajo v raziskovalne oziroma razvojne namene ali za analize;<br />
 c) ki se izvažajo v tretje države.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(posebnosti)</h3>
 <p>(1) Ne glede na prepoved iz prejšnjega člena Fitosanitarna uprava Republike Slovenije (v nadaljnjem besedilu: FURS) izjemoma dovoli promet oziroma uporabo FFS, ki vsebuje eno ali več aktivnih snovi iz prejšnjega člena, vendar največ za 120 dni. Dovoljenje se izda, če je to potrebno zaradi nepredvidljive nevarnosti, ki jo predstavlja škodljivi organizem, ki ga ni mogoče zatreti oziroma ustrezno omejiti z registriranimi FFS ali drugimi ukrepi.<br />
 (2) O dovoljenju iz prejšnjega odstavka FURS brez odlašanja obvesti Evropsko komisijo in ostale države članice.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(prenehanje veljavnosti)</h3>
 <p>Z dnem uveljavitve tega pravilnika preneha veljati Od­redba o prepovedi ali omejitvi prometa oziroma uporabe fitofarmacevtskih sredstev, ki vsebujejo določene aktivne snovi (Uradni list RS, št. 105/01).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(uveljavitev pravilnika)</h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 327-02-409/2004</p>
@@ -88,5 +101,36 @@ gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-02-04", "kratica": "PRAV6440", "naziv": "Pravilnik o prepovedi prometa in uporabe fitofarmacevtskih sredstev, ki vsebujejo določene aktivne snovi", "url": "/trubar/si/PRAV6440/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

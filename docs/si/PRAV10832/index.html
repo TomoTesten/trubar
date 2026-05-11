@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-4532" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10832.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10832" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10832.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10832,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvi Pravilnika o pristojbinah na področju veterinarstva</h1>
 <p>Na podlagi šestega odstavka 74. člena in 75. člena Zakona o veterinarskih merilih skladnosti (Uradni list RS, št. 93/05) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvi Pravilnika o pristojbinah na področju veterinarstva</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o pristojbinah na področju veterinarstva (Uradni list RS, št. 10/08, 51/09 in 5/10) se prvi odstavek 1. člena spremeni tako, da se glasi:<br />
 »(1) Ta pravilnik določa višino veterinarskih pristojbin, način njihovega obračunavanja in zavezance za plačilo ter pristojbine za zagotavljanje odstranjevanja trupel poginulih živali (v nadaljnjem besedilu: VHS) za izvajanje:<br />
 – Uredbe (ES) št. 882/2004 Evropskega parlamenta in Sveta z dne 29. aprila 2004 o izvajanju uradnega nadzora, da se zagotovi preverjanje skladnosti z zakonodajo o krmi in živilih ter s pravili o zdravstvenem varstvu živali in zaščiti živali (UL L št. 165 z dne 30. 4. 2004, str. 1), zadnjič spremenjene z Uredbo Komisije (EU) št. 208/2011 z dne 2. marca 2011 o spremembi Priloge VII k Uredbi (ES) št. 882/2004 Evropskega parlamenta in Sveta ter Uredb Komisije (ES) št. 180/2008 in (ES) št. 737/2008 glede seznamov in imen referenčnih laboratorijev EU (UL L št. 58 z dne 3. 3. 2011, str. 29), (v nadaljnjem besedilu: Uredba 882/2004/ES),<br />
 – Uredbe Komisije (ES) št. 1857/2006 z dne 15. decembra 2006 o uporabi členov 87 in 88 Pogodbe pri državni pomoči za majhna in srednje velika podjetja, ki se ukvarjajo s proizvodnjo kmetijskih proizvodov, in o spremembi Uredbe (ES) št. 70/2001 (UL L št. 358 z dne 16. 12. 2006, str. 3; v nadaljnjem besedilu: Uredba 1857/2006/ES) in<br />
 – Uredbe Komisije (ES) št. 669/2009 z dne 24. julija 2009 o izvajanju Uredbe (ES) št. 882/2004 Evropskega parlamenta in Sveta glede poostrenega uradnega nadzora pri uvozu nekatere krme in nekaterih živil neživalskega izvora ter spremembi Odločbe 2006/504/ES (UL L št. 194 z dne 25. 7. 2009, str. 11), zadnjič spremenjene z Izvedbeno uredbo Komisije (EU) št. 433/2011 z dne 4. maja 2011 o spremembi Priloge I k Uredbi (ES) št. 669/2009 o izvajanju Uredbe (ES) št. 882/2004 Evropskega parlamenta in Sveta glede poostrenega uradnega nadzora pri uvozu nekatere krme in nekaterih živil neživalskega izvora (UL L št. 115 z dne 5. 5. 2011, str. 5), (v nadaljnjem besedilu: Uredba 669/2009/ES).«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 5. člena se tabela spremeni tako, da se glasi:</p>
 <p>»<br />
 +-------+--------------------------------------+----------------+<br />
@@ -96,7 +109,7 @@
 |4.    |lagomorfi      |gojeni kunci        |    0,006 EUR/žival|<br />
 +------+---------------+--------------------+-------------------+</p>
 <p>«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati 1. januarja 2012.</p>
 <p>Št. 007-264/2011</p>
 <p>Ljubljana, dne 9. decembra 2011</p>
@@ -113,5 +126,36 @@ gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-12-21", "kratica": "PRAV10832", "naziv": "Pravilnik o spremembah in dopolnitvi Pravilnika o pristojbinah na področju veterinarstva", "url": "/trubar/si/PRAV10832/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

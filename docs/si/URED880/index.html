@@ -21,32 +21,45 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4606" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED880.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED880" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED880.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED880,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Uredba o določitvi in načinu obračunavanja posebnega nadomestila za izvrševanje gospodarske javne službe oblikovanja obveznih rezerv nafte in njenih derivatov</h1>
 <p>Na podlagi 21.b člena zakona o blagovnih rezervah (Uradni list RS, št. 60/95, 38/99) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o določitvi in načinu obračunavanja posebnega nadomestila za izvrševanje gospodarske javne službe oblikovanja obveznih rezerv nafte in njenih derivatov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta uredba določa višino in način obračunavanja in plačevanja posebnega nadomestila za izvrševanje gospodarske javne službe oblikovanja obveznih rezerv nafte in njenih derivatov (v nadaljnjem besedilu: članarina).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Zavezanci so dolžni Zavodu za obvezne rezerve nafte in njenih derivatov (v nadaljevanju: zavod) plačevati članarino v višini 0,37 SIT/l za motorni bencin, letalski bencin, letalsko gorivo na bencinski bazi, dizelsko gorivo, ekstra lahko kurilno olje, gorilni kerozin, letalsko gorivo na kerozinski bazi in 0,37 SIT/kg za kurilno olje.<br />
 Zavezancu se mesečna članarina določi tako, da se mesečne količine nafte in njenih derivatov pomnožijo s članarino.<br />
 Članarina se doda prodajni ceni brez obdavčitve.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Članarino so dolžni plačevati vsi uvozniki in proizvajalci (v nadaljnjem besedilu: zavezanci), ki so v preteklem letu in/ali tekočem letu uvozili ali proizvedli več kot 25 ton naftnih derivatov (motorni bencini, letalski bencin, letalsko gorivo na bencinski bazi, dizelsko gorivo, ekstra lahko kurilno olje, gorilni kerozin, letalsko gorivo na kerozinski bazi in kurilna olja).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Zavezanci so dolžni do 15. v mesecu za pretekli mesec oddati zavodu prijavo o članarini.<br />
 Prijava o članarini mora vsebovati za vsako skupino naftnih derivatov podatke o količini uvoženih naftnih derivatih (velja za uvoznike) in podatke o prodanih naftnih derivatih (velja za proizvajalce naftnih derivatov).<br />
 Pri prijavi članarine se od količin lahko odštejejo izvožene količine, ter začasno uvožene količine, vendar morajo biti te na prijavi posebej izkazane.<br />
 Zavezanci morajo poravnati članarino najkasneje do konca meseca za pretekli mesec.<br />
 Najkasneje do 15. 1. po preteku tekočega koledarskega leta mora vsak zavezanec posredovati zavodu potrjeno in overjeno prijavo o letni članarini.<br />
 V primeru zamude pri plačilu so dolžni zavezanci zavodu plačati zakonsko določene zamudne obresti.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Zavezanci so v primeru sprostitve rezerv nafte in njenih derivatov, ki so se oblikovale v zavodu na podlagi plačane članarine zavezancev, upravičeni do koriščenja rezerv v sorazmernem deležu plačane članarine.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 427-06/99-1</p>
 <p>Ljubljana, dne 25. novembra 1999.</p>
@@ -61,5 +74,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-11-26", "kratica": "URED880", "naziv": "Uredba o določitvi in načinu obračunavanja posebnega nadomestila za izvrševanje gospodarske javne službe oblikovanja obveznih rezerv nafte in njenih derivatov", "url": "/trubar/si/URED880/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

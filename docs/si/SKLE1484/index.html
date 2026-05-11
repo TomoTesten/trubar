@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1134" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE1484.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE1484" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE1484.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE1484,vrsta:sklep">
+    
     <h1>Sklep o izdelavi in pošiljanju poročil o realiziranih prihodkih iz naslova prevoza blaga in potnikov na tujih relacijah in o drugih storitvah v zvezi z mednarodnim prometom ter poročil o odhodkih v zvezi z opravljanjem teh dejavnosti</h1>
 <p>Na podlagi 7. člena in v zvezi z 8. členom zakona o deviznem poslovanju (Uradni list RS, št. 1/91-I) ter drugega odstavka 20. člena zakona o Banki Slovenije (Uradni list RS, št. 1/91-I) izdaja svet Banke Slovenije</p>
 <h2>SKLEP</h2>
@@ -143,5 +156,36 @@ kot kontrolni podatki, pomembni za avtomatsko obdelavo podatkov.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1991-11-29", "kratica": "SKLE1484", "naziv": "Sklep o izdelavi in pošiljanju poročil o realiziranih prihodkih iz naslova prevoza blaga in potnikov na tujih relacijah in o drugih storitvah v zvezi z mednarodnim prometom ter poročil o odhodkih v zvezi z opravljanjem teh dejavnosti", "url": "/trubar/si/SKLE1484/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

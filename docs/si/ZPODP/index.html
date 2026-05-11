@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2417" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPODP.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPODP" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPODP.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPODP,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o poravnavi odloženih davkov in prispevkov</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena ter prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>UKAZ</h2>
@@ -37,19 +50,19 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>O PORAVNAVI ODLOŽENIH DAVKOV IN PRISPEVKOV</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Davki in prispevki, katerih plačilo je bilo odloženo pravnim osebam na podlagi sklepa Vlade Republike Slovenije št. 422-04/90-2/35-8 z dne 24. septembra 1992 (v nadaljnjem besedilu: obveznosti) in jih pravne osebe niso poravnale do dneva uveljavitve tega zakona, se poravnajo pod pogoji in na način določen s tem zakonom.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za obveznosti iz prejšnjega člena se štejejo neporavnani davki in prispevki ter zamudne obresti, obračunane do dneva uveljavitve tega zakona.<br />
 Obveznosti se poravnajo v 36 enakih mesečnih obrokih.<br />
 Prvi obrok zapade v plačilo 25. septembra 1996, vsak naslednji pa 25. dne v mesecu.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Obveznosti na dan uveljavitve tega zakona ugotovi Agencija Republike Slovenije za plačilni promet, nadziranje in informiranje.<br />
 Obveznosti, ki so izkazane v ECU, se preračunajo v tolarje po srednjem tečaju Banke Slovenije, ki je veljal na dan uveljavitve tega zakona.<br />
 Za obdobje odloga se ne zaračunavajo obresti.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za obveznosti, ki niso poravnane v rokih iz 2. člena tega zakona se zaračunajo zamudne obresti v skladu z zakonom.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 435-02/94-4/1</p>
 <p>Ljubljana, dne 19. oktobra 1994</p>
@@ -65,5 +78,36 @@ Jožef Školč l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-10-28", "kratica": "ZPODP", "naziv": "Zakon o poravnavi odloženih davkov in prispevkov", "url": "/trubar/si/ZPODP/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

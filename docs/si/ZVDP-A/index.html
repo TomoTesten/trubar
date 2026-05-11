@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0957" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZVDP-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZVDP-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZVDP-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZVDP-A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o vinu in drugih proizvodih iz grozdja in vina</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,21 +50,21 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA  O VINU IN DRUGIH PROIZVODIH IZ GROZDJA  IN VINA (ZVDP-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o vinu in drugih proizvodih iz grozdja in vina (Uradni list RS, št. 70/97) se v 4. členu tretji stavek petega odstavka nadomesti z naslednjim besedilom:</p>
 <p>“Z oznako priznano tradicionalno poimenovanje (PTP) se označita vini teran in cviček. Vino teran je vino pridelano in polnjeno v originalno embalažo znotraj vinorodnega podokoliša Kraška planota. Vino cviček je vino pridelano in polnjeno v originalno embalažo znotraj vinorodnega okoliša Dolenjska.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 15. členu se v 1. točki tretjega odstavka besedilo “vinorodni okoliš Lendavske gorice-Goričko” nadomesti z besedilom “Prekmurski vinorodni okoliš” in črta beseda “Ptuj-”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 18. členu se v točki “B) Peneča vina” črta peta alinea.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 26. členu se za četrtim odstavkom doda nov peti odstavek, ki se glasi:</p>
 <p>“Kakovostno peneče vino z zaščitenim geografskim poreklom in vrhunsko peneče vino z zaščitenim geografskim poreklom pridelano v Republiki Sloveniji se označi z nazivom “penina”.”</p>
 <p>Dosedanji peti, šesti, sedmi, osmi, deveti, deseti in enajsti odstavek postanejo šesti, sedmi, osmi, deveti, deseti, enajsti in dvanajsti odstavek.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V 42. členu se za 17. točko doda nova 17.a točka, ki se glasi:</p>
 <p>“17.a   o vinu teran in o vinu cviček;”</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije, ne uporablja pa se za vino, ki je bilo polnjeno v originalno embalažo pred dnem uveljavitve tega zakona.</p>
 <p>Št. 322-05/90-1/11</p>
 <p>Ljubljana, dne 22. februarja 2001.</p>
@@ -67,5 +80,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-03-07", "kratica": "ZVDP-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o vinu in drugih proizvodih iz grozdja in vina", "url": "/trubar/si/ZVDP-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

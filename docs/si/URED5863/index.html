@@ -21,23 +21,36 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-2894" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5863.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5863" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5863.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5863,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o začasnih izrednih ukrepih na trgu s svežo zelenjavo</h1>
 <p>Na podlagi 10. člena Zakona o kmetijstvu (Uradni list RS, št. 45/08) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o začasnih izrednih ukrepih na trgu s svežo zelenjavo</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o začasnih izrednih ukrepih na trgu s svežo zelenjavo (Uradni list RS, št. 52/11) se v 7. členu za drugim odstavkom doda novi tretji odstavek, ki se glasi:<br />
 »(3) Ne glede na določbe prejšnjega odstavka se višina pomoči za zeleno obiranje in opustitev spravila, če je hektarski pridelek na ugotovljeno upravičeno površino nižji od najvišjih priznanih hektarskih pridelkov iz priloge 2, ki je sestavni del te uredbe, določi tako, da se višina pomoči za zeleno obiranje in opustitev spravila, določena v prejšnjem odstavku, pomnoži s koeficientom, določenim kot razmerje med hektarskim pridelkom na ugotovljeno upravičeno površino in hektarskim pridelkom iz priloge 2 te uredbe. Za določitev hektarskega pridelka na ugotovljeno upravičeno površino se upošteva količina pridelka, navedena na obrazcu »PREDHODNO URADNO OBVESTILO O NEZMOŽNOSTI PRODAJE / ZELENEM OBIRANJU / OPUSTITVI SPRAVILA« (v nadaljnjem besedilu: predhodno uradno obvestilo), ki je kot priloga 1 sestavni del te uredbe.«.<br />
 Dosedanji tretji odstavek postane četrti odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V tretjem odstavku 9. člena se besedilo »obrazec »PREDHODNO URADNO OBVESTILO O NEZMOŽNOSTI PRODAJE / ZELENEM OBIRANJU / OPUSTITVI SPRAVILA« (v nadaljnjem besedilu: predhodno uradno obvestilo), ki je kot priloga 1 sestavni del te uredbe in« nadomesti z besedilom »obrazec predhodno uradno obvestilo iz priloge 1 te uredbe, ki«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V tretji alineji drugega odstavka 10. člena se za besedilom »iz priloge 2« črtata vejica in besedilo »ki je sestavni del«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00715-19/2011</p>
 <p>Ljubljana, dne 28. julija 2011</p>
@@ -53,5 +66,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-07-29", "kratica": "URED5863", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o začasnih izrednih ukrepih na trgu s svežo zelenjavo", "url": "/trubar/si/URED5863/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

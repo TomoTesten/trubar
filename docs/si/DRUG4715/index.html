@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0092" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4715.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG4715" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4715.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG4715,vrsta:drugi akt">
+    
     <h1>Javni razpis za zbiranje kandidatur za dva člana Državne revizijske komisije, ki se imenujeta izmed kandidatov z ustrezno izobrazbo pravne smeri</h1>
 <p>Na podlagi drugega odstavka 17. člena Zakona o spremembah in dopolnitvah Zakona o pravnem varstvu v postopkih javnega naročanja (Uradni list RS, št. 72/19), 61.c člena Zakona o pravnem varstvu v postopkih javnega naročanja (Uradni list RS, št. 43/11, 60/11 – ZTP-D, 63/13, 90/14 – <a href="/trubar/si/ZDU-1I/" class="law-ref" title="ZDU-1I">ZDU-1I</a>, 60/17 in 72/19) in sklepa 18. seje Mandatno-volilne komisije z dne 23. 1. 2020 objavljam</p>
 <p>J A V N I  R A Z P I S</p>
@@ -75,5 +88,36 @@ Mandatno-volilna komisija, Šubičeva 4, p.p. 636, 1001 Ljubljana, do vključno 
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2020-01-24", "kratica": "DRUG4715", "naziv": "Javni razpis za zbiranje kandidatur za dva člana Državne revizijske komisije, ki se imenujeta izmed kandidatov z ustrezno izobrazbo pravne smeri", "url": "/trubar/si/DRUG4715/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1958" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPPZTH.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPPZTH" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPPZTH.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPPZTH,vrsta:Sprejet zakon">
+    
     <h1>Zakon o poroštvu Republike Slovenije za najetje posojil za financiranje postopnega zapiranja Rudnika Trbovlje Hrastnik v letu 2001</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O POROŠTVU REPUBLIKE SLOVENIJE  ZA NAJETJE POSOJIL ZA FINANCIRANJE POSTOPNEGA ZAPIRANJA RUDNIKA TRBOVLJE HRASTNIK V LETU 2001 (ZPPZTH)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Republika Slovenija daje poroštvo za obveznosti podjetja Rudnik Trbovlje Hrastnik, d.o.o. iz posojil, ki se najamejo za financiranje postopnega zapiranja Rudnika Trbovlje Hrastnik v letu 2001.<br />
 Skupen znesek glavnic kreditov, za katere jamči Republika Slovenija, ne sme presegati 2.229 milijonov tolarjev.<br />
 Posojila se lahko najamejo pod naslednjimi pogoji:<br />
@@ -45,11 +58,11 @@ Posojila se lahko najamejo pod naslednjimi pogoji:<br />
 – stroški za nadomestilo sredstev ne smejo presegati 0,25% od vrednosti kreditov,<br />
 – vsi skupni stroški kreditov ne smejo presegati 0,5% od vrednosti kreditov.<br />
 Obseg in vrsta poroštvene obveznosti Republike Slovenije se uredi v poroštveni pogodbi med Republiko Slovenijo in upniki.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Poroštvene pogodbe z upniki sklepa minister za finance, na podlagi pogodbe o zavarovanju poroštva, ki jo skleneta dolžnik in Republika Slovenija.<br />
 Če Republika Slovenija izpolni poroštveno obveznost in plača obveznost iz posojilne pogodbe, pridobi v razmerju do posojilojemalca pravico do regresiranja izplačanih zneskov in stroškov, ki so v zvezi s tem nastali.<br />
 Sredstva za izpolnitev poroštvene obveznosti se zagotovijo v proračunu Republike Slovenije.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-03/01-108/1</p>
 <p>Ljubljana, dne 18. aprila 2001.</p>
@@ -65,5 +78,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-05-05", "kratica": "ZPPZTH", "naziv": "Zakon o poroštvu Republike Slovenije za najetje posojil za financiranje postopnega zapiranja Rudnika Trbovlje Hrastnik v letu 2001", "url": "/trubar/si/ZPPZTH/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-4325" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZRacS-1A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZRacS-1A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZRacS-1A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZRacS-1A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o spremembah in dopolnitvah Zakona o računskem sodišču</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O RAČUNSKEM SODIŠČU (ZRacS-1A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o računskem sodišču (Uradni list RS, št. 11/01) se v 33. členu črtajo osmi, deveti in deseti odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 33. členom se dodata nova 33.a in 33.b člen, ki se glasita:</p>
 <h3>»33.a člen</h3>
 <h3>(pravice članov računskega sodišča po prenehanju funkcije)</h3>
@@ -58,7 +71,7 @@ Republike Slovenije</p>
 (6) Član računskega sodišča, ki mu je prenehala funkcija, zaradi izogibanja določbam o trajanju in višini nadomestila, ne sme sklepati dogovorov za odložena plačila in drugih dogovorov, ki bi bili v nasprotju z namenom pravice do nadomestila plače.<br />
 (7) Če član računskega sodišča, ki mu je prenehala funkcija, ravna v nasprotju s petim in šestim odstavkom tega člena, mu preneha pravica do nadomestila plače in mora vrniti zneske nadomestila plače, ki so bili prejeti neupravičeno.<br />
 (8) Nadomestilo plače, prispevki za socialno zavarovanje in odpravnina se izplačujejo iz proračunskih sredstev računskega sodišča.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
@@ -72,14 +85,14 @@ Republike Slovenije</p>
 (6) Če organ, ki mu je bil vročen poziv za razrešitev odgovorne osebe, ne odloči pravočasno o pozivu ali če ne sporoči pravočasno računskemu sodišču, kako je odločil (štirinajsti odstavek 29. člena), se odgovorno osebo organa kaznuje za prekršek z globo 2.000 eurov.<br />
 (7) Prekrškovni organ, ki odloča o prekrških in izreka globe po tem členu, je računsko sodišče.<br />
 (8) Postopek o prekršku po tem členu vodi in v njem odloča pooblaščena uradna oseba računskega sodišča, ki izpolnjuje pogoje po zakonu, ki ureja prekrške, in na njegovi podlagi sprejetih predpisih.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za 38. členom se doda nov 38.a člen, ki se glasi:</p>
 <h3>»38.a člen</h3>
 <h3>(prekršek glede izvajanja pravice do nadomestila plače)</h3>
 <p>(1) Z globo v višini 1.000 eurov se za prekršek kaznuje član računskega sodišča, ki mu je prenehala funkcija, če v času prejemanja nadomestila plače v nasprotju s petim odstavkom 33.b člena tega zakona ne obvesti pristojnega delovnega telesa državnega zbora in organa, ki izplačuje nadomestilo plače o vseh prejemkih iz naslova opravljanja dela ali če v času prejemanja nadomestila plače sklene dogovor o odloženem plačilu ali drug dogovor v nasprotju s šestim odstavkom 33.b člena tega zakona.<br />
 (2) Nadzor nad izvajanjem uveljavljanja pravice do nadomestila kot prekrškovni organ opravljajo proračunski inšpektorji.«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 020-14/12-4/9</p>
 <p>Ljubljana, dne 20. decembra 2012</p>
@@ -96,5 +109,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-12-31", "kratica": "ZRacS-1A", "naziv": "Zakon o spremembah in dopolnitvah Zakona o računskem sodišču", "url": "/trubar/si/ZRacS-1A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

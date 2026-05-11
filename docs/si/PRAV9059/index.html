@@ -21,32 +21,45 @@
       <dt>Organ</dt><dd>Ministrstvo za zdravje</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2440" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9059.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9059" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9059.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9059,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o pogojih in postopku za pridobitev naziva klinika, klinični inštitut ali klinični oddelek</h1>
 <p>Na podlagi prvega odstavka 18. člena Zakona o zdravstveni dejavnosti (Uradni list RS, št. 23/05 – uradno prečiščeno besedilo, 15/08 – <a href="/trubar/si/ZPacP/" class="law-ref" title="ZPacP">ZPacP</a> in 23/08) izdaja minister za zdravje</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o pogojih in postopku za pridobitev naziva klinika, klinični inštitut ali klinični oddelek</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o pogojih in postopku za pridobitev naziva klinika, klinični inštitut ali klinični oddelek (Uradni list RS, št. 72/06) se v členih ter v Prilogah I in II za besedilom »bolnišnica oziroma njen oddelek« v vseh sklonih in številih doda besedilo »ali oddelek visokošolskega zavoda« v ustreznem sklonu in številu.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 6. členu se v prvem odstavku:<br />
 – v drugi alinei 1. točke pred besedo »znanstvenega« beseda »ali« nadomesti z vejico, tik pred podpičjem pa doda besedilo »ali višjega svetnika«;<br />
 – v tretji alinei 1. točke pred besedo »znanstvenega« beseda »ali« nadomesti z vejico, za besedo »delavca« pa doda besedilo »ali višjega svetnika«;<br />
 – za 6. točko se doda nova 7 točka, ki se glasi »7. Pogoji za opravljanje strokovno-organizacijskega dela.«.<br />
 V drugem odstavku se besedilo »iz 4., 5. in 6. točke« spremeni tako, da se glasi: »iz 4., 5., 6. in 7. točke«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 7. členu se v prvem odstavku besedilo »4., 5. in 6. točki« spremeni tako, da se glasi: »4., 5., 6. in 7. točki«.<br />
 V tretjem odstavku se v prvem stavku beseda »treh« nadomesti z besedo »štirih«, besedilo »4., 5. in 6. točke« pa spremeni tako, da se glasi: »4., 5., 6. in 7. točke«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 11. členu se število »90« nadomesti s številom »60«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V 14. členu se vrstni red odstavkov spremeni tako, da dosedanji drugi odstavek postane prvi, dosedanji prvi odstavek pa drugi odstavek.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Prilogi se nadomestita z novima besediloma, ki sta v Prilogi tega pravilnika.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0070-77/2008</p>
 <p>Ljubljana, dne 12. junija 2009</p>
@@ -65,5 +78,36 @@ za zdravje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-06-29", "kratica": "PRAV9059", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o pogojih in postopku za pridobitev naziva klinika, klinični inštitut ali klinični oddelek", "url": "/trubar/si/PRAV9059/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

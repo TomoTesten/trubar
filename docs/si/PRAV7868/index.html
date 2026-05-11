@@ -21,29 +21,42 @@
       <dt>Organ</dt><dd>Ministrstvo za obrambo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5570" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7868.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7868" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7868.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7868,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o študiji požarne varnosti</h1>
 <p>Na podlagi tretjega in četrtega odstavka 30. člena Zakona o varstvu pred požarom (Uradni list RS, št. 71/93, 87/01 in 105/06) in za izvajanje Zakona o graditvi objektov (Uradni list RS, št. 102/04 – uradno prečiščeno besedilo in 14/05 – popr.) izdaja minister za obrambo v soglasju z ministrom za okolje in prostor</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah<br />
 Pravilnika o študiji požarne varnosti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o študiji požarne varnosti (Uradni list RS, št. 28/05 in 66/06 – Odl. US) se v prvem odstavku 2. člena beseda »dokument« nadomesti z besedo »načrt«.<br />
 Tretji odstavek se spremeni tako, da se glasi:<br />
 »(3) Pri izdelavi študije se upošteva predpise o projektni in tehnični dokumentaciji, o požarni varnosti v stavbah ter o uvedbi in uporabi enotne klasifikacije vrst objektov.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 3. členu se besedilo spremeni tako, da se glasi:<br />
 »(1) Izdelava študije je obvezna za objekte, navedene v prilogi 1, ki je sestavni del tega pravilnika.<br />
 (2) Izdelava študije je obvezna v primeru dozidave ali nadzidave objekta, če dozidava ali nadzidava s prvotnim objektom tvori funkcionalno celoto in tako izpolnjuje pogoje iz priloge iz prejšnjega odstavka«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Poleg odgovornih projektantov, ki imajo opravljen strokovni izpit za projektiranje požarne varnosti po predpisih o strokovnih izpitih s področja opravljanja inženirskih storitev in so vpisani v imenik pooblaščenih inženirjev pri Inženirski zbornici Slovenije s pooblastilom za projektiranje požarne varnosti, do 31. 12. 2010 lahko izdeluje študije požarne varnosti tudi posameznik, ki je izpolnjeval pogoje za odgovorno osebo za izdelovanje študij požarne varnosti na podlagi 8. in 18. člena Pravilnika o študiji požarne varnosti (Uradni list RS, št. 13/98 in 72/01).<br />
 (2) Kot ustrezne delovne izkušnje po Zakonu o graditvi objektov se za posameznika iz prejšnjega odstavka pri vpisu v imenik Inženirske zbornice Slovenije, upošteva obdobje od izdaje pooblastila za odgovorno osebo za izdelovanje študij požarne varnosti po Pravilniku o študiji požarne varnosti (Uradni list RS, št. 13/98 in 17/01).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Določba in priloga iz 2. člena tega pravilnika se začne uporabljati 1. januarja 2007.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 017-02-46/2000-28</p>
 <p>Ljubljana, dne 12. decembra 2006</p>
@@ -206,5 +219,36 @@ za okolje in prostor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-12-15", "kratica": "PRAV7868", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o študiji požarne varnosti", "url": "/trubar/si/PRAV7868/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

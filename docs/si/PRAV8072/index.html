@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-6005" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8072.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV8072" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8072.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV8072,vrsta:pravilnik">
+    
     <h1>Pravilnik o obrazcih za napovedi za odmero akontacije dohodnine in o obrazcih za napovedi za odmero dohodnine od dohodka iz kapitala</h1>
 <p>Na podlagi drugega odstavka 61. člena, drugega odstavka 285. člena, drugega odstavka 305. člena, drugega odstavka 317. člena, drugega odstavka 321. člena, tretjega in šestega odstavka 325. člena Zakona o davčnem postopku (Uradni list RS, št. 117/06) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o obrazcih za napovedi za odmero akontacije dohodnine in o obrazcih za napovedi za odmero dohodnine od dohodka iz kapitala</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem pravilnikom se določa vsebina obrazcev za napovedi za odmero akontacije dohodnine od dohodka iz zaposlitve, od dohodka iz dejavnosti, od dohodka iz oddajanja premoženja v najem in iz prenosa premoženjske pravice ter od drugih dohodkov.<br />
 S tem pravilnikom se določa tudi vsebina obrazcev za napovedi za odmero dohodnine od dohodka iz kapitala.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Davčni zavezanec oziroma davčna zavezanka (v nadaljnjem besedilu: davčni zavezanec) predloži davčnemu organu napoved za odmero akontacije dohodnine na obrazcu, izpolnjenem v skladu z navodilom za izpolnjevanje, ki je njegov sestavni del, in sicer:<br />
 1. od dohodka iz zaposlitve na obrazcih:<br />
 – Napoved za odmero akontacije dohodnine od dohodka iz zaposlitve (dohodek iz delovnega razmerja, pokojnine), ki je kot Priloga 1 sestavni del tega pravilnika,<br />
@@ -45,14 +58,14 @@ S tem pravilnikom se določa tudi vsebina obrazcev za napovedi za odmero dohodni
 – Napoved za odmero akontacije dohodnine od dohodka iz prenosa premoženjske pravice, ki je kot Priloga 5 sestavni del tega pravilnika,<br />
 4. od drugih dohodkov na obrazcu:<br />
 – Napoved za odmero akontacije dohodnine od drugih dohodkov (105. člen <a href="/trubar/si/ZDoh-2/" class="law-ref" title="ZDoh-2">ZDoh-2</a>), ki je kot Priloga 6 sestavni del tega pravilnika.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Davčni zavezanec predloži davčnemu organu napoved za odmero dohodnine od dohodka iz kapitala na obrazcu, izpolnjenem v skladu z navodilom za izpolnjevanje, ki je njegov sestavni del, in sicer:<br />
 1. Napoved za odmero dohodnine od obresti, ki je kot Priloga 7 sestavni del tega pravilnika,<br />
 2. Napoved za odmero dohodnine od obresti na denarne depozite pri bankah in hranilnicah ustanovljenih v skladu s predpisi v Sloveniji ter pri bankah in hranilnicah drugih državah članicah EU, ki je kot Priloga 8 sestavni del tega pravilnika,<br />
 3. Napoved za odmero dohodnine od dividend, ki je kot Priloga 9 sestavni del tega pravilnika,<br />
 4. Napoved za odmero dohodnine od dobička iz kapitala od odsvojitve vrednostnih papirjev in drugih deležev v kapitalu, ki je kot Priloga 10 sestavni del tega pravilnika,<br />
 5. Napoved za odmero dohodnine od dobička iz kapitala pri odsvojitvi nepremičnin, ki je kot Priloga 11 sestavni del tega pravilnika.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati 1. januarja 2007.</p>
 <p>Št. 421-345/2006/5</p>
 <p>Ljubljana, dne 20. decembra 2006</p>
@@ -80,5 +93,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-12-28", "kratica": "PRAV8072", "naziv": "Pravilnik o obrazcih za napovedi za odmero akontacije dohodnine in o obrazcih za napovedi za odmero dohodnine od dohodka iz kapitala", "url": "/trubar/si/PRAV8072/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

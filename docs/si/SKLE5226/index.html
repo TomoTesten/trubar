@@ -21,19 +21,32 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-5126" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5226.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE5226" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5226.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE5226,vrsta:sklep">
+    
     <h1>Sklep o odprtju Konzulata Republike Slovenije v Santiagu de Chile</h1>
 <p>Na podlagi 14. člena Zakona o zunanjih zadevah (Uradni list RS, št. 113/03 – uradno prečiščeno besedilo) in 21. člena Zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94 – <a href="/trubar/si/ZODPM/" class="law-ref" title="ZODPM">ZODPM</a>, 23/96, 47/97, 23/99 – <a href="/trubar/si/ZSOVA/" class="law-ref" title="ZSOVA">ZSOVA</a>, 119/00, 30/01 – <a href="/trubar/si/ZODPM-C/" class="law-ref" title="ZODPM-C">ZODPM-C</a> in 52/02 – <a href="/trubar/si/ZDU-1/" class="law-ref" title="ZDU-1">ZDU-1</a>), ter na predlog ministra za zunanje zadeve št. DKP-9/04-21 z dne 9. 8. 2004 je Vlada Republike Slovenije na 89. seji dne 9. 9. 2004 sprejela</p>
 <h2>S K L E P</h2>
 <p>o odprtju Konzulata Republike Slovenije v Santiagu de Chile</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Odpre se Konzulat Republike Slovenije v Santiagu de Chile, ki ga vodi častni konzul.<br />
 Konzularno območje obsega regijo prestolnice Santiago de Chile.<br />
 Konzulat spodbuja in pomaga pri razvijanju gospodarskih, kulturnih in znanstvenih odnosov Republike Slovenije z regijo prestolnice Santiago de Chile.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 111-52/2004-1</p>
 <p>Ljubljana, dne 9. septembra 2004.</p>
@@ -49,5 +62,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-11-18", "kratica": "SKLE5226", "naziv": "Sklep o odprtju Konzulata Republike Slovenije v Santiagu de Chile", "url": "/trubar/si/SKLE5226/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

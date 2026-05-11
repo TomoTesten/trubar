@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0284" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE274.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE274" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE274.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE274,vrsta:odredba">
+    
     <h1>Odredba o spremembah in dopolnitvah odredbe o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu</h1>
 <p>Na podlagi prvega odstavka 115. člena zakona o davčnem postopku (Uradni list RS, št. 18/96 in 87/97), prvega odstavka 16. člena zakona o prispevkih za socialno varnost (Uradni list RS, št. 5/96,34/96 in 3/98) in 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95 – odl. US in 29/95) izdaja minister za finance</p>
 <h2>O D R E D B O</h2>
 <p>o spremembah in dopolnitvah odredbe o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 2. členu odredbe o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu (Uradni list RS, št. 77/96 in 5/97) se za besedilom “ter drugih nadomestil” črta beseda “in” ter doda “,”. Med besedilom “drugih prejemkov in dohodkov” in “v skladu z navodilom” se vstavi besedilo “in REK-3 za obračun prispevkov od nagrad vajencem”.<br />
 V 3. členu odredbe iz prejšnjega odstavka se črta besedilo “(Uradni list RS, št. 5/96 in 34/96)”.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Naslov navodila se spremeni tako, da se glasi: “NAVODILO ZA IZPOLNJEVANJE REK OBRAZCEV “.<br />
 V navodilu za izpolnjevanje REK-1 obrazca se v drugem stavku drugega odstavka besedilo “davčnemu organu” nadomesti z besedilom “davčnemu uradu”.<br />
 V petem odstavku navodila za izpolnjevanje REK-1 obrazca se besedilo “za katere je v tem navodilu to izrecno določeno, ostali pa vpisujejo podatke v stolpec “za plačilo”” nadomesti z besedilom “ko se prispevki le obračunajo in ne plačajo, v stolpec “za plačilo” pa podatke za tiste obračunane prispevke, ki se tudi plačajo.”<br />
@@ -78,9 +91,9 @@ V skladu z deveto točko 19. člena zakona o dohodnini se od plačil učencem, d
 Davčnemu organu se obrazec predlaga tudi za primere, ko izplačevalec izplača nagrado, od katere ne plača prispevkov, ampak jih le obračuna in vpiše v stolpec “obračunani”.<br />
 Zaradi specifično določenih vrst prispevkov le-ti v obrazcu niso v celoti navedeni po vrstah, ampak jih zavezanci vpišejo sami, in sicer po vrstah, osnovah in stopnjah.<br />
 Pravne osebe plačujejo prispevke neposredno na vplačilne račune v skladu z odredbo o računih ter načinu vplačevanja in razporejanja javnofinančnih prihodkov, zasebniki pa na prehodni račun po izpostavah davčnih uradov.”</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Z dnem uveljavitve te odredbe prenehata veljati obrazca REK-1 in REK-1a, predpisana z odredbo o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu (Uradni list RS, št. 77/96 in 5/97).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 416-17/98</p>
 <p>Ljubljana, dne 23. januarja 1998.</p>
@@ -97,5 +110,36 @@ Minister za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-01-23", "kratica": "ODRE274", "naziv": "Odredba o spremembah in dopolnitvah odredbe o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu", "url": "/trubar/si/ODRE274/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

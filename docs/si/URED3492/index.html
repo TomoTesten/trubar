@@ -21,31 +21,44 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4408" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3492.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3492" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3492.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED3492,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o spremembah in dopolnitvah Uredbe o uvedbi kvot za mleko in mlečne proizvode za kvotno leto 2004/2005</h1>
 <p>Na podlagi 5. člena v povezavi z 20. členom Zakona o kmetijstvu (Uradni list RS, št. 54/00, 52/02 – <a href="/trubar/si/ZDU-1/" class="law-ref" title="ZDU-1">ZDU-1</a>, 58/02 – <a href="/trubar/si/ZMR-1/" class="law-ref" title="ZMR-1">ZMR-1</a> in 45/04 – <a href="/trubar/si/ZdZPKG/" class="law-ref" title="ZdZPKG">ZdZPKG</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe<br />
 o uvedbi kvot za mleko in mlečne proizvode<br />
 za kvotno leto 2004/2005</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o uvedbi kvot za mleko in mlečne proizvode za kvotno leto 2004/2005 (Uradni list RS, št. 22/04, 24/04 in 87/04) se v 2. členu besedilo tretje alinee spremeni tako, da se glasi:<br />
 »– proizvajalec je nosilec kmetijskega gospodarstva, ki je fizična ali pravna oseba s prebivališčem oziroma sedežem v Republiki Sloveniji, ki proizvaja in trži mleko oziroma mlečne proizvode;«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 5. členu se črtata drugi in tretji odstavek.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Besedilo drugega odstavka 6. člena se spremeni tako, da se glasi:<br />
 »(2) Če se proizvajalcu individualna kvota za neposredno prodajo pretvori v kvoto za oddajo in še nima dodeljene kvote za oddajo z referenčno vsebnostjo mlečne maščobe, se za količino, ki je predmet pretvorbe, upošteva mlečna maščoba v višini 38 g/kg.«.<br />
 Za drugim odstavkom se dodata nova tretji in četrti odstavek, ki se glasita:<br />
 »(3) Če se proizvajalcu individualna kvota za neposredno prodajo pretvori v kvoto za oddajo in ima že dodeljeno kvoto za oddajo z referenčno vsebnostjo mlečne maščobe, ostane referenčna vsebnost mlečne maščobe nespremenjena, če ponderirana vsebnost mlečne maščobe za tekoče kvotno leto na podlagi mesečnih poročil odkupovalca ni nižja za več kot 1 g/kg od prvotno dodeljene referenčne vsebnosti mlečne maščobe.<br />
 (4) Če je ponderirana vsebnost iz prejšnjega odstavka nižja za več kot 1 g/kg, znaša vsebnost maščobe, ki se nanaša na količino, ki je predmet pretvorbe, 38 g/kg. Nova referenčna vsebnost mlečne maščobe je izračunana ponderirana vsebnost mlečne maščobe.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 16. členu se doda nov peti odstavek, ki se glasi:<br />
 »(5) Vsem proizvajalcem, ki jim je bila dodeljena kvota za oddajo za kvotno leto 2004/2005, agencija z odločbo, ki jo izda po uradni dolžnosti, dodeli dodatno kvoto v višini, kolikor jim je bila zmanjšana kvota za oddajo zaradi presežka oddanih količin nad nacionalno kvoto za oddajo, upoštevajoč nacionalno rezervo. Ta kvota se dodeli v obliki kvote za neposredno prodajo.«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 331-11/2001-7</p>
 <p>Ljubljana, dne 16. septembra 2004.</p>
@@ -61,5 +74,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-09-23", "kratica": "URED3492", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o uvedbi kvot za mleko in mlečne proizvode za kvotno leto 2004/2005", "url": "/trubar/si/URED3492/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

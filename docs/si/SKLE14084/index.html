@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Slovenska akademija znanosti in umetnosti</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2025-01-1782" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE14084.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE14084" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE14084.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE14084,vrsta:sklep">
+    
     <h1>Sklep o imenovanju člana Sveta Radiotelevizije Slovenije</h1>
 <p>Na podlagi 22. člena Zakona o Slovenski akademiji znanosti in umetnosti (Uradni list RS, št. 48/94), desete alineje 51. člena Statuta Slovenske akademije znanosti in umetnosti, ki ga je skupščina sprejela na svoji seji 6. junija 1995 s spremembami, točke č) tretjega odstavka 17. člena v povezavi s tretjim odstavkom 17.b člena ter v povezavi z določili 17.a in 18. člena Zakona o Radioteleviziji Slovenija (Uradni list RS, št. 96/05, 109/05 – <a href="/trubar/si/ZDavP-1B/" class="law-ref" title="ZDavP-1B">ZDavP-1B</a>, 105/06 – odl. US, 26/09 – <a href="/trubar/si/ZIPRS0809-B/" class="law-ref" title="ZIPRS0809-B">ZIPRS0809-B</a>, 9/14 in 163/22) je predsedstvo Slovenske akademije znanosti in umetnosti na svoji izredni seji dne 19. junija 2025 sprejelo naslednji</p>
 <p>S K L E P</p>
@@ -42,5 +55,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2025-06-20", "kratica": "SKLE14084", "naziv": "Sklep o imenovanju člana Sveta Radiotelevizije Slovenije", "url": "/trubar/si/SKLE14084/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-02-0057" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1936.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1936" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1936.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1936,vrsta:uredba">
+    
     <h1>Uredba o ratifikaciji sporazuma o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Republiko San Marino</h1>
 <p>Na podlagi tretjega odstavka 63. člena zakona o zunanjih zadevah (Uradni list RS. št. 1/91-I) izdaja Vlada Republike Slovenije</p>
 <h2>UREDBO</h2>
 <p>o ratifikaciji sporazuma o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Republiko San Marino</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se sporazum o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Republiko San Marino, sklenjen z izmenjavo not z dne 14. in 28. januarja 1992.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sporazum se v originalu v italijanskem in angleškem jeziku ter slovenskem prevodu glasi:<br />
 Prot. n. 329/CC/119<br />
 La Segreteria di Stato per gli Affari Esteri della Repubblica di San Marino presenta i suoi complimenti all'Onorevole Ministero degli Affari Esteri della Repubblica di Slovenia e, nel fare seguito alla lettera prot. n. 9751/CC/119 indirizzata il 19 Novembre 1991 dal Segreterio di Stato per gli Affari Esteri, Gabriele Gatti, al Ministro degli Affari Esteri Dimitrij Rupel, ha l'onore d'informare che il Governo della Repubblica di San Marino, anche nel desiderio di attestare la più ampia solidarietà dei sammarinesi alle sofferenze della popolazione slovena per i dolorosi sacrifici attraverso i quali ha potuto conseguire la via dell'indipendenza, è venuto nella determinazione di stabilire relazioni ufficiali con la Repubblica di Slovenia, l'indipendenza e l'autonomia della quale saluta con particolare simpatia.<br />
@@ -70,7 +83,7 @@ Državni sekretariat<br />
 za zunanje zadeve<br />
 Republike San Marino<br />
 San Marino</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba prične veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 900-04/92-42/1-8</p>
 <p>Ljubljana, dne 17. julija 1992.</p>
@@ -85,5 +98,36 @@ dr. Janez Drnovšek l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-08-01", "kratica": "URED1936", "naziv": "Uredba o ratifikaciji sporazuma o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Republiko San Marino", "url": "/trubar/si/URED1936/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

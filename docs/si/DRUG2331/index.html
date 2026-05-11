@@ -21,22 +21,35 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3196" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2331.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG2331" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2331.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG2331,vrsta:drugi akt">
+    
     <h1>Dodatek št. 2 h Kolektivni pogodbi dejavnosti bank in hranilnic v Republiki Sloveniji</h1>
 <p>Na podlagi četrtega odstavka Tarifne priloge h Kolektivni pogodbi dejavnosti bank in hranilnic v Republiki Sloveniji (Uradni list RS, št. 81/04, 112/04 in 129/04) in v skladu z določili Dogovora o politiki plač v zasebnem sektorju v obdobju 2004–2005 (Uradni list RS, št. 55/04) sklepata pogodbeni stranki Združenje bank Slovenije Gospodarsko interesno združenje, Ljubljana, kot zastopnik delodajalcev in Sindikat delavcev bank in hranilnic Slovenije in Sindikat Nove Ljubljanske banke d.d., Ljubljana, kot zastopnika delojemalcev</p>
 <h2>D O D A T E K   Š T.   2   H   K O L E K T I V N I</h2>
 <p>P O G O D B I<br />
 dejavnosti bank in hranilnic<br />
 v Republiki Sloveniji</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Znesek uskladitve plač za leto 2005 znaša mesečno 9.768 SIT za redno delo za polni delovni čas in se izplačuje od plače za mesec avgust 2005 dalje. Znesek uskladitve se izplačuje kot poseben dodatek in mora biti prikazan na plačilni listi delavca, skupaj z zneskom uskladitve iz leta 2004.<br />
 Dodatek, ki je določen v nominalnem znesku, je sestavni del plače in s tem osnove za nadomestilo plače. Dodatek se obračuna glede na prisotnost na delu in se ne šteje v osnovno plačo, vse dokler se ne vključi v nov plačni sistem.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Znesek uskladitve se izplačuje kot dodatek, dokler se ne vključi v sistem plač v Kolektivni pogodbi dejavnosti bank in hranilnic v Republiki Sloveniji.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Dodatek št. 2 h Kolektivni pogodbi dejavnosti bank in hranilnic v Republiki Sloveniji začne veljati naslednji dan po objavi v Uradnem listu RS, uporablja pa se od 1. avgusta 2005 dalje.</p>
 <p>Ljubljana, dne 1. julija 2005.</p>
 <p>Sindikat delavcev bank<br />
@@ -60,5 +73,36 @@ Aljoša Tomaž l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-07-28", "kratica": "DRUG2331", "naziv": "Dodatek št. 2 h Kolektivni pogodbi dejavnosti bank in hranilnic v Republiki Sloveniji", "url": "/trubar/si/DRUG2331/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

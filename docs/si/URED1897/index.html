@@ -21,24 +21,37 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4332" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1897.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1897" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1897.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1897,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah uredbe o načinu, predmetu in pogojih opravljanja gospodarske javne službe toplotne obdelave klavničnih odpadkov in kužnega materiala živalskega porekla</h1>
 <p>Na podlagi 3., 7. in 32. člena zakona o gospodarskih javnih službah (Uradni list RS, št. 32/93 in 30/98), drugega odstavka 25. člena zakona o varstvu okolja (Uradni list RS, št. 32/93, 1/96, 9/99 – odl. US, 56/99 – <a href="/trubar/si/ZON/" class="law-ref" title="ZON">ZON</a>, 22/00 – <a href="/trubar/si/ZJS/" class="law-ref" title="ZJS">ZJS</a>) in 133. člena zakona o javnih naročilih (Uradni list RS, št. 39/00) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o načinu, predmetu in pogojih opravljanja gospodarske javne službe toplotne obdelave klavničnih odpadkov in kužnega materiala živalskega porekla</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 2. členu uredbe o načinu, predmetu in pogojih opravljanja gospodarske javne službe toplotne obdelave klavničnih odpadkov in kužnega materiala živalskega porekla (Uradni list RS, št. 11/01 in 58/01) se v 1. točki besedilo “so opredeljeni v skupini posebej nevarnih živalskih odpadkov“ zamenja z besedilom “v kategorijo živalskih odpadkov s specifičnim tveganjem“.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 33. členu se drugi odstavek spremeni tako, da se glasi:</p>
 <p>“Če zaradi neizpolnjevanja pogojev te uredbe uporabniki storitev javne službe povzročijo čezmerno obremenitev okolja, jim pristojni inšpektor prepove izvajanje dejavnosti, ki povzroča nastajanje živalskih odpadkov.“.</p>
 <p>Tretji odstavek se črta.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 34. členu se v prvem odstavku doda nova tretja alinea, ki se glasi:</p>
 <p>“– sredstva državnega proračuna za storitve javne službe – za živalske odpadke, ki nastajajo pri izvajanju veterinarske higienske službe,“.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 327-03/2001-5</p>
 <p>Ljubljana, dne 18. oktobra 2001.</p>
@@ -53,5 +66,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-10-26", "kratica": "URED1897", "naziv": "Uredba o spremembah in dopolnitvah uredbe o načinu, predmetu in pogojih opravljanja gospodarske javne službe toplotne obdelave klavničnih odpadkov in kužnega materiala živalskega porekla", "url": "/trubar/si/URED1897/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

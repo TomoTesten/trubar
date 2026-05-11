@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1211" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZDPre-C.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZDPre-C" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZDPre-C.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZDPre-C,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o družinskih prejemkih</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,12 +50,12 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O DRUŽINSKIH PREJEMKIH (ZDPre-C)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o družinskih prejemkih (Uradni list RS, št. 65/93, 71/94 in 73/95) se v prvem odstavku 40. člena besedilo “1. oktobrom“ nadomesti z besedilom “1. novembrom“. V drugem odstavku se besedilo “30. septembra“ nadomesti z besedilom “31. oktobra“.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>43.d člen se spremeni tako, da se glasi:</p>
 <p>“Otrok ima pravico do dodatka za nego otroka za obdobje, ko se mu zagotavlja posebno varstvo zaradi zdravstvenih razlogov, oziroma do 18. leta starosti, po tej starosti pa, če se šola, in sicer do konca šolanja, vendar največ do dopolnjenega 26. leta starosti.“</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
@@ -64,13 +77,13 @@ plače RS                          1            2           3</p>
 <p>Če družina v koledarskem letu pred vložitvijo zahtevka ni imela dohodkov in prejemkov oziroma so se njeni dohodki v tekočem letu bistveno spremenili, se upošteva le-te iz tekočega leta na način, kot ga določi ministrstvo, pristojno za družino.<br />
 Center za socialno delo vsako leto s 1. majem po uradni dolžnosti preverja upravičenost do otroškega dodatka. V ta namen morajo prejemniki otroškega dodatka najkasneje do 31. marca posredovati vsa potrebna dokazila.<br />
 Višina otroškega dodatka se usklajuje dvakrat letno z indeksom rasti cen življenjskih potrebščin. Uskladitev se opravi na koncu januarja in junija, pri čemer se upošteva kumulativna rast cen življenjskih potrebščin v predhodnem obdobju.“</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 57.a členu se šesti odstavek spremeni tako, da se glasi:</p>
 <p>“Kot dohodek iz dejavnosti se všteva v dohodek družine po tem zakonu dobiček, izkazan v davčni napovedi, povečan za plačane prispevke za socialno varnost. Pri tem se ne upoštevajo olajšave, ki jih zavezanci lahko uveljavijo po predpisih o dohodnini.“</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Center za socialno delo v roku 6 mesecev po uveljavitvi tega zakona po uradni dolžnosti preveri upravičenost do otroškega dodatka v skladu s tem zakonom. V ta namen morajo prejemniki otroškega dodatka najkasneje do 30. junija 1999 posredovati vsa potrebna dokazila.<br />
 Višina otroškega dodatka po tem zakonu se prvič uskladi konec januarja leta 2000 z indeksom rasti cen življenjskih potrebščin za obdobje od 1. 1. 1999 do 31. 12. 1999.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne 1. 5. 1999.</p>
 <p>Št. 541-01/91-1/16</p>
 <p>Ljubljana, dne 31. marca 1999.</p>
@@ -86,5 +99,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-04-15", "kratica": "ZDPre-C", "naziv": "Zakon o spremembah in dopolnitvah zakona o družinskih prejemkih", "url": "/trubar/si/ZDPre-C/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

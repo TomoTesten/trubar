@@ -21,30 +21,43 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0256" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12046.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV12046" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12046.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV12046,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah Pravilnika o strokovnih komisijah Javne agencije za knjigo Republike Slovenije</h1>
 <p>Na podlagi drugega odstavka 10. člena Zakona o javni agenciji za knjigo Republike Slovenije (Uradni list RS, št. 112/07, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>, 63/13) in drugega odstavka 24. člena Sklepa o ustanovitvi Javne agencije za knjigo Republike Slovenije (Uradni list RS, št. 57/08 in 68/13), po predhodnem soglasju ministra za kulturo, je Svet Javne agencije za knjigo Republike Slovenije na 2. redni seji dne 19. 12. 2013 sprejel</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o strokovnih komisijah Javne agencije za knjigo Republike Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o strokovnih komisijah Javne agencije za knjigo Republike Slovenije (Uradni list RS, št. 19/09) se drugi odstavek 2. člena spremeni tako, da se glasi:<br />
 »(2) Agencija ima tri strokovne komisije, in sicer:<br />
 – strokovno komisijo za knjižno in revijalno produkcijo s področja leposlovja in humanistike,<br />
 – strokovno komisijo za literarne prireditve in razvijanje bralne kulture,<br />
 – strokovno komisijo za mednarodno promocijo slovenskega leposlovja in humanistike.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 3. člena se v prvem stavku črta beseda », znanstvenikov«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V tretji alinei 6. člena se črta besedilo », ukrepe znanstvene politike«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Prvi odstavek 16. člena se spremeni tako, da se glasi:<br />
 »(1) Člani strokovne komisije imajo pravico do izplačila nadomestila za avtorsko delo in povračila potnih stroškov v zvezi z opravljanjem dela strokovne komisije.«<br />
 Drugi odstavek se spremeni tako, da se glasi:<br />
 »(2) Sklep o določitvi višine nadomestila za avtorsko delo ter načinu določitve povračila potnih stroškov članom strokovnih komisij sprejme svet agencija na predlog direktorja agencije.«</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 9000-3/2013/5</p>
 <p>Ljubljana, dne 19. decembra 2013</p>
@@ -61,5 +74,36 @@ Republike Slovenije</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-02-07", "kratica": "PRAV12046", "naziv": "Pravilnik o spremembah Pravilnika o strokovnih komisijah Javne agencije za knjigo Republike Slovenije", "url": "/trubar/si/PRAV12046/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>
