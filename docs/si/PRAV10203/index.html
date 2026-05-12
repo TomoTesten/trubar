@@ -21,24 +21,37 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-3521" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10203.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10203" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10203.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10203,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi in dopolnitvi Pravilnika o financiranju in sofinanciranju vlaganj v gozdove</h1>
 <p>Na podlagi četrtega odstavka 48. člena Zakona o gozdovih (Uradni list RS, št. 30/93, 13/98 – odl. US, 56/99 – <a href="/trubar/si/ZON/" class="law-ref" title="ZON">ZON</a>, 67/02, 110/02 – <a href="/trubar/si/ZGO-1/" class="law-ref" title="ZGO-1">ZGO-1</a> in 110/07) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembi in dopolnitvi Pravilnika o financiranju in sofinanciranju vlaganj v gozdove</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o financiranju in sofinanciranju vlaganj v gozdove (Uradni list RS, št. 71/04, 95/04, 37/05, 87/05 in 73/08) se v 1. členu na začetku odstavka doda oznaka »(1)«.<br />
 Za prvim odstavkom se dodajo nov drugi, tretji, četrti in peti odstavek, ki se glasijo:<br />
 »(2) Pomoč za financiranje aktivnosti izdelave kontrolnih in lovnih nastav iz 1. točke, četrte alinee 2. točke ter 3. in 5. točke 11. člena tega pravilnika, ki se izvajajo v zasebnih gozdovih, razen materialov za preventivna varstvena dela, in sofinanciranje aktivnosti iz 1. do 7. točke 12. člena tega pravilnika se izvaja v skladu z Uredbo Komisije (ES) št. 1998/2006 z dne 15. decembra 2006 o uporabi členov 87 in 88 Pogodbe pri pomoči de minimis (UL L št. 379 z dne 28. 12. 2006, str. 5; v nadaljnjem besedilu: Uredba 1998/2006/ES).<br />
 (3) Pomoč de minimis se upravičencu dodeli v skladu s pogoji iz drugega odstavka 2. člena Uredbe 1998/2006/ES.<br />
 (4) Upravičenec pred izplačilom pomoči de minimis Zavodu za gozdove Slovenije (v nadaljnjem besedilu: Zavod) predloži pisno izjavo o že prejetih pomočeh iz javnih sredstev za iste upravičene stroške.<br />
 (5) Pomoč de minimis in državna pomoč v zvezi z istimi upravičenimi stroški se upravičencu dodelita v skladu s pogoji iz petega odstavka 2. člena Uredbe 1998/2006/ES.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugem odstavku 3. člena se besedilo »za gozdove Slovenije (v nadaljnjem besedilu: Zavod)« črta.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-128/2010</p>
 <p>Ljubljana, dne 9. julija 2010</p>
@@ -54,5 +67,36 @@ za kmetijstvo, gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-08-03", "kratica": "PRAV10203", "naziv": "Pravilnik o spremembi in dopolnitvi Pravilnika o financiranju in sofinanciranju vlaganj v gozdove", "url": "/trubar/si/PRAV10203/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

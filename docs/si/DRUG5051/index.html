@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2022-01-2398" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5051.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG5051" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5051.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG5051,vrsta:drugi akt">
+    
     <h1>Podrobnejši standardi za izvajanje posameznih vrst oskrbe in kriteriji za določitev vrst oskrbe glede na potrebe uporabnikov storitve za področje institucionalnega varstva v domovih za starejše</h1>
 <p>Na podlagi 4. točke 68.b člena Zakona o socialnem varstvu (Uradni list RS, št. 3/07 – uradno prečiščeno besedilo, 23/07 – popr., 41/07 – popr., 61/10 – <a href="/trubar/si/ZSVarPre/" class="law-ref" title="ZSVarPre">ZSVarPre</a>, 62/10 – <a href="/trubar/si/ZUPJS/" class="law-ref" title="ZUPJS">ZUPJS</a>, 57/12, 39/16 in 52/16 – <a href="/trubar/si/ZPPreb-1/" class="law-ref" title="ZPPreb-1">ZPPreb-1</a>, 15/17 – <a href="/trubar/si/DZ/" class="law-ref" title="DZ">DZ</a>, 29/17 in 54/17, 46/19, 28/19 in 189/20 – <a href="/trubar/si/ZFRO/" class="law-ref" title="ZFRO">ZFRO</a>) in 8. člena Pravilnika o standardih in normativih socialnovarstvenih storitev (Uradni list RS, št. 45/10, 28/11, 104/11, 111/13, 102/15, 76/17, 54/19, 81/19, 203/21 in 54/22) je Upravni odbor Skupnosti socialnih zavodov Slovenije 14. 10. 2021 sprejel</p>
 <p>P O D R O B N E J Š E  S T A N D A R D E</p>
@@ -424,5 +437,36 @@ Skupaj:</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2022-07-15", "kratica": "DRUG5051", "naziv": "Podrobnejši standardi za izvajanje posameznih vrst oskrbe in kriteriji za določitev vrst oskrbe glede na potrebe uporabnikov storitve za področje institucionalnega varstva v domovih za starejše", "url": "/trubar/si/DRUG5051/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

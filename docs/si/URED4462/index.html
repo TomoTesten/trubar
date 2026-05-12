@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-1072" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4462.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4462" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4462.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4462,vrsta:uredba">
+    
     <h1>Odločba o imenovanju Aleksandre Vrhunc Kovačič za državno pravobranilko na Državnem pravobranilstvu na sedežu v Ljubljani</h1>
 <p>Na podlagi drugega odstavka 29. člena Zakona o državnem pravobranilstvu (Uradni list RS, št. 41/06 - uradno prečiščeno besedilo) in petega odstavka 21. člena Zakona o Vladi Republike Slovenije (Uradni list RS, št. 24/05 - uradno prečiščeno besedilo) je Vlada Republike Slovenije na predlog ministra za pravosodje, št. 110-302/2006 z dne 25. 1. 2007, na 110. seji dne 22. 2. 2007 izdala naslednjo</p>
 <h2>O D L O Č B O</h2>
@@ -43,5 +56,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-03-12", "kratica": "URED4462", "naziv": "Odločba o imenovanju Aleksandre Vrhunc Kovačič za državno pravobranilko na Državnem pravobranilstvu na sedežu v Ljubljani", "url": "/trubar/si/URED4462/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-01-0237" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV617.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV617" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV617.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV617,vrsta:pravilnik">
+    
     <h1>Pravilnik o pogojih, ki jih morajo izpolnjevati zaposleni v Zavodu za gozdove Slovenije</h1>
 <p>Na podlagi 52. člena zakona o gozdovih (Uradni list RS, št. 30/93) izdaja minister za kmetijstvo in gozdarstvo</p>
 <h2>PRAVILNIK</h2>
 <p>o pogojih, ki jih morajo izpolnjevati zaposleni v Zavodu za gozdove Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Za opravljanje nalog javne gozdarske službe morajo delavci, ki se zaposlijo v Zavodu za gozdove Slovenije (v nadaljevanju: zavod), na posameznih delovnih mestih izpolnjevati najmanj naslednje pogoje:<br />
 Naziv delovnega mesta: Direktor zavoda Zahtevana izobrazba in izkušnje:<br />
 – diplomirani inženir gozdarstva (aktivno znanje vsaj enega svetovnega jezika)<br />
@@ -113,7 +126,7 @@ Naziv delovnega mesta: Računalničar Zahtevana izobrazba in izkušnje:<br />
 – višja šola gozdarske ali druge ustrezne smeri (srednja šola) (obvladovanje ustreznih računalniških programov)<br />
 – enoletne izkušnje pri delu z računalnikom<br />
 Drugi pogoji za zasedbo delovnih mest se določijo s pravilnikom o organizaciji in sistemizaciji delovnih mest Zavoda.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Delavec, ki je ob organiziranju Zavoda razporejen na delovno mesto revirnega gozdarja, in ima srednješolsko izobrazbo gozdarske smeri, mora:<br />
 – do 31. 12. 1994 opraviti vpis za pridobitev višješolske strokovne izobrazbe gozdarske smeri<br />
 – do 31. 12. 1999 pridobiti višješolsko izobrazbo gozdarske smeri<br />
@@ -121,9 +134,9 @@ S potekom roka iz prve alinee prejšnjega odstavka delavcu, ki ni opravil vpisa 
 S potekom roka iz druge alinee prvega odstavka tega člena delavcu, ki si ni pridobil višješolske izobrazbe, ki se zahteva za revirnega gozdarja, preneha delovno razmerje v Zavodu.<br />
 Ne glede na prvi odstavek tega člena se delavcu, ki ima srednjo gozdarsko izobrazbo in opravlja naloge revirnega gozdarja ter ima ob sklenitvi delovnega razmerja v Zavodu najmanj 20 let delovne dobe, prizna ustrezna izobrazba za izvajanje nalog na tem delovnem mestu.<br />
 Delavcu, ki ima poklicno izobrazbo in opravlja naloge revirnega lovca ter ima ob sklenitvi delovnega razmerja v Zavodu najmanj 20 let delovne dobe, se prizna ustrezna izobrazba za izvajanje nalog na tem delovnem mestu.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Delavci, ki ob organiziranju Zavoda za gozdove Slovenije, zasedajo delovna mesta, ki zahtevajo preizkus znanja iz upravnega postopka, morajo preizkus opraviti v šestih mesecih po zaposlitvi v Zavodu.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 322-80/93</p>
 <p>Ljubljana, dne 29. decembra 1993.</p>
@@ -138,5 +151,36 @@ dr. Jože Osterc</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-02-04", "kratica": "PRAV617", "naziv": "Pravilnik o pogojih, ki jih morajo izpolnjevati zaposleni v Zavodu za gozdove Slovenije", "url": "/trubar/si/PRAV617/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

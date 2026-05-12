@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2725" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED486.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED486" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED486.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED486,vrsta:uredba">
+    
     <h1>Uredba o listi A obrtnih in listi B obrti podobnih dejavnostih</h1>
 <p>Na podlagi drugega odstavka 2. člena, drugega od stavka 3. člena in tretjega odstavka 5. člena obrtnega zakona (Uradni list RS, št. 50/94) in 26. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o listi A obrtnih dejavnosti in listi B obrti podobnih dejavnosti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S to uredbo so določene dejavnosti, ki se v skladu z določbo 5. člena obrtnega zakona (Uradni list RS, št. 50/94) uvrščajo v listo A obrtnih dejavnosti in listo B obrti podobnih dejavnosti.<br />
 Obrtne in obrti podobne dejavnosti so razvrščene v posamezne razrede, določene z uredbo o uvedbi in uporabi standardne klasifikacije dejavnosti (Uradni list RS, št. 34/94).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V listo A obrtnih dejavnosti se uvrščajo:<br />
 DA/15.11 Proizvodnja in konzerviranje mesa, razen perutninskega<br />
 – Klanje živine in drobnice<br />
@@ -310,7 +323,7 @@ O/93.02 Dejavnost frizerskih in kozmetičnih salonov<br />
 – Dejavnost pedikerskih salonov (pedikura, manikura in refleksna masaža stopal)<br />
 Sem spada tudi:<br />
 – prodaja na drobno tistega blaga, ki se uporablja pri opravljanju te storitve, osebam, katerim se ta storitev tudi opravi.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V listo B obrti podobnih dejavnosti se uvrščajo:<br />
 A/01.12 Pridelovanje vrtnin, okrasnih rastlin, semen in sadik<br />
 – Gojenje rož in drugih okrasnih rastlin (vrtnarstvo)<br />
@@ -865,7 +878,7 @@ O/93.05 Druge storitvene dejavnosti<br />
 – Delo z osebnimi tehtnicami<br />
 – Čiščenje rezervoarjev za tekoča goriva<br />
 – Kurjenje centralne kurjave</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 050-04/94-1/1-8</p>
 <p>Ljubljana, dne 24. novembra 1994.</p>
@@ -880,5 +893,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-12-09", "kratica": "URED486", "naziv": "Uredba o listi A obrtnih in listi B obrti podobnih dejavnostih", "url": "/trubar/si/URED486/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

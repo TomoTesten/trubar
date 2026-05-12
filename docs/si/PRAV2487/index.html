@@ -21,38 +21,51 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2003" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2487.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV2487" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2487.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV2487,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Pravilnik o kriterijih za podelitev statusa društva, ki deluje v javnem interesu na področju zdravstvenega varstva</h1>
 <p>Na podlagi četrtega odstavka 38. člena zakona o društvih (Uradni list RS, št. 60/95) izdaja minister za zdravstvo</p>
 <h2>P R A V I L N I K</h2>
 <p>o kriterijih za podelitev statusa društva, ki deluje v javnem interesu na področju zdravstvenega varstva</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Društva na področju zdravstvenega varstva, katerih namen ustanovitve in delovanja presega uresničevanje interesov njihovih članov in pomeni delovanje v javnem interesu, lahko predlagajo ministru za zdravstvo, da jim podeli status društva, ki deluje v javnem interesu.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Šteje se, da društvo deluje v javnem interesu, če njegova dejavnost pomeni dopolnitev organizirane skrbi za zdravje prebivalstva in se uresničuje v skladu z nacionalno strategijo “Zdravje za vse”, nacionalnim programom promocije zdravja in Planom in razvojno strategijo zdravstvenega varstva.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Dopolnitev organizirane skrbi za zdravje prebivalstva se izkazuje s posebnimi programi in storitvami, ki jih društva izvajajo na naslednjih področjih varovanja zdravja in krepitve zdravstvenega varstva:<br />
 – preventivna dejavnost,<br />
 – zdravstvena vzgoja,<br />
 – promocija zdravja,<br />
 – strokovno izpopolnjevanje,<br />
 – založništvo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Izpolnjevanje pogojev za pridobitev statusa društva, ki deluje v javnem interesu na področju zdravstvenega varstva se preverja najmanj vsakih pet let.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Predlogu za pridobitev statusa društva, ki deluje v javnem interesu na področju zdravstvenega varstva je treba predložiti naslednjo dokumentacijo:<br />
 –  odločbo o registraciji društva;<br />
 –  statut društva;<br />
 –  utemeljitev predloga, da je njegovo delovanje v javnem interesu;<br />
 –  poročilo o programih, ki so bili sprejeti na razpisih Ministrstva za zdravstvo v zvezi z dejavnostjo iz 2. člena tega pravilnika.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Status društva, ki deluje v javnem interesu na področju zdravstvenega varstva, podeli minister za zdravstvo.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ministrstvo za zdravstvo vodi evidenco društev, ki so pridobila status društva, ki deluje v javnem interesu.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 403-3/96</p>
 <p>Ljubljana, dne 6. junija 1996.</p>
@@ -67,5 +80,36 @@ za zdravstvo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-06-07", "kratica": "PRAV2487", "naziv": "Pravilnik o kriterijih za podelitev statusa društva, ki deluje v javnem interesu na področju zdravstvenega varstva", "url": "/trubar/si/PRAV2487/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

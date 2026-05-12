@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Uredba o spremembi Uredbe o izvajanju Programa ukrepov na področju čebelarstva v Republiki Sloveniji v letih 2005-2007 za leto 2005 — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Uredba o spremembi Uredbe o izvajanju Programa ukrepov na področju čebelarstva v Republiki Sloveniji v letih 2005-2007 za leto 2005</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>URED3875</strong></dd>
+      <dt>Vrsta</dt><dd>uredba</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
+      <dt>Datum</dt><dd>2005-08-05</dd>
+      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3286" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3875" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3875.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:URED3875,vrsta:uredba">
+    
+    <h1>Uredba o spremembi Uredbe o izvajanju Programa ukrepov na področju čebelarstva v Republiki Sloveniji v letih 2005-2007 za leto 2005</h1>
+<p>Na podlagi 5. člena v zvezi s 126. členom Zakona o kmetijstvu (Uradni list RS, št. 54/00, 52/02 – <a href="/trubar/si/ZDU-1/" class="law-ref" title="ZDU-1">ZDU-1</a>, 58/02 – <a href="/trubar/si/ZMR-1/" class="law-ref" title="ZMR-1">ZMR-1</a> in 45/04 – <a href="/trubar/si/ZdZPKG/" class="law-ref" title="ZdZPKG">ZdZPKG</a>) izdaja Vlada Republike Slovenije</p>
+<h2>U R E D B O</h2>
+<p>o spremembi Uredbe o izvajanju Programa ukrepov na področju čebelarstva v Republiki Sloveniji v letih 2005–2007 za leto 2005</p>
+<h3><span id="člen-1">1. člen</span></h3>
+<p>V Uredbi o izvajanju Programa ukrepov na področju čebelarstva v Republiki Sloveniji v letih 2005-2007 za leto 2005 (Uradni list RS, št. 117/04 in 27/05) se prvi odstavek 3. člena spremeni, tako da se glasi:<br />
+»(1) Ukrepi iz programa ukrepov v čebelarstvu v letu 2005 se financirajo iz sredstev proračuna Republike Slovenije (proračunska postavka 9881 – Program ukrepov v čebelarstvu – SLO) ter sredstev Jamstvenega sklada Evropskega kmetijskega usmerjevalnega in jamstvenega sklada (proračunska postavka 9863 – Program ukrepov v čebelarstvu – EU). Sofinancirana sredstva EU za leto 2005 znašajo do 61.527.074 SIT oziroma največ 50% višine skupnih sredstev, namenjenih posameznim ukrepom.«.</p>
+<h3><span id="člen-2">2. člen</span></h3>
+<p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 00175-39/2005/4</p>
+<p>Ljubljana, dne 28. julija 2005.</p>
+<p>EVA 2005-2311-0199</p>
+<h3>Vlada Republike Slovenije</h3>
+<p>Janez Janša l. r.<br />
+Predsednik</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-08-05", "kratica": "URED3875", "naziv": "Uredba o spremembi Uredbe o izvajanju Programa ukrepov na področju čebelarstva v Republiki Sloveniji v letih 2005-2007 za leto 2005", "url": "/trubar/si/URED3875/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

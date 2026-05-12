@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Agencija za trg vrednostnih papirjev</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3820" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE4053.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE4053" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE4053.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE4053,vrsta:sklep">
+    
     <h1>Sklep o podrobnejši vsebini obvestila delničarjem investicijske družbe o začetku likvidacije investicijske družbe in o podrobnejši vsebini javne objave obvestila o začetku likvidacije investicijske družbe</h1>
 <p>Na podlagi četrtega odstavka 189. člena zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 110/02) Agencija za trg vrednostnih papirjev izdaja</p>
 <h2>S K L E P</h2>
@@ -33,9 +46,9 @@ investicijske družbe o začetku likvidacije<br />
 investicijske družbe in o podrobnejši vsebini<br />
 javne objave obvestila o začetku likvidacije<br />
 investicijske družbe</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Družba za upravljanje mora v treh delovnih dneh po zasedanju skupščine investicijske družbe, ki je sprejela sklep o začetku likvidacije, delničarje investicijske družbe obvestiti o začetku likvidacije investicijske družbe z vsebino, določeno v 2. členu tega sklepa.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Obvestilo delničarjem o začetku likvidacije investicijske družbe mora imeti naslednjo vsebino:<br />
 1. firmo in sedež investicijske družbe, za katero je bil sprejet sklep o prenehanju investicijske družbe in začetku likvidacije;<br />
 2. navedbo organa, ki je sprejel sklep o prenehanju investicijske družbe in začetku likvidacije;<br />
@@ -44,7 +57,7 @@ investicijske družbe</p>
 5. navedbo družbe za upravljanje kot likvidacijskega upravitelja (firma, sedež);<br />
 6. opozorilo o pravnih posledicah likvidacije s kratko obrazložitvijo poteka postopka likvidacije;<br />
 7. mnenje skrbnika k sklepu skupščine investicijske družbe o prenehanju investicijske družbe in začetku likvidacije.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Družba za upravljanje mora hkrati z obvestilom iz prejšnjega člena javno objaviti obvestilo o začetku likvidacije investicijske družbe.<br />
 (2) Javna objava iz prvega odstavka tega člena mora imeti naslednjo vsebino:<br />
 1. 1. firmo in sedež investicijske družbe, ki je v začetku likvidacije;<br />
@@ -54,7 +67,7 @@ investicijske družbe</p>
 5. navedbo družbe za upravljanje kot likvidacijskega upravitelja (firma, sedež);<br />
 6. opozorilo na pravne posledice likvidacije s kratko obrazložitvijo poteka postopka likvidacije;<br />
 7. mnenje skrbnika k sklepu skupščine investicijske družbe o prenehanju investicijske družbe in začetku likvidacije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 138-2/10-14/2003</p>
 <p>Ljubljana, dne 18. junija 2003.</p>
@@ -71,5 +84,36 @@ dr. Miha Juhart l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-08-14", "kratica": "SKLE4053", "naziv": "Sklep o podrobnejši vsebini obvestila delničarjem investicijske družbe o začetku likvidacije investicijske družbe in o podrobnejši vsebini javne objave obvestila o začetku likvidacije investicijske družbe", "url": "/trubar/si/SKLE4053/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

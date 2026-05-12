@@ -21,22 +21,35 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3538" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2950.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2950" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2950.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2950,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o neposrednem plačilu za pitane prašiče, zaklane v obdobju od 1. marca 2003 do 30. junija 2003</h1>
 <p>Na podlagi 5. in 17. člena ter v zvezi s 126. členom zakona o kmetijstvu (Uradni list RS, št. 54/00, 52/02 – <a href="/trubar/si/ZDU-1/" class="law-ref" title="ZDU-1">ZDU-1</a> in 58/02 – <a href="/trubar/si/ZMR-1/" class="law-ref" title="ZMR-1">ZMR-1</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o neposrednem plačilu za pitane prašiče, zaklane v obdobju od 1. marca 2003<br />
 do 30. junija 2003</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina)</h3>
 <p>Ta uredba določa ukrep neposrednega plačila za pitane prašiče, zaklane v obdobju od 1. marca 2003 do 30. junija 2003.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(upravičenci)</h3>
 <p>Do neposrednega plačila za pitane prašiče za zakol so upravičeni rejci prašičev v Republiki Sloveniji.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(neposredno plačilo za pitane prašiče za zakol)</h3>
 <p>(1) Pogoji za uveljavljanje neposrednega plačila po tej uredbi so naslednji:<br />
 – prašiči so bili skoteni in vzrejeni v Republiki Sloveniji,<br />
@@ -48,10 +61,10 @@ do 30. junija 2003</p>
 – kopijo zapisnika kontrolne organizacije o ocenjevanju mesnatosti in razvrščanju prašičev na liniji klanja v skladu s predpisom, ki ureja kakovost zaklanih prašičev in kategorizacijo svinjskega mesa ali drug ustrezen dokument, ki ga izda klavnica in mora vsebovati KMG-MID klavnice, maso toplih polovic, datum zakola in dobavitelja. V primeru, da je zapisnik kontrolne organizacije za več upravičencev, mora biti iz kopije nedvoumno razvidno, za katere prašiče uveljavlja neposredno plačilo posamezen upravičenec.<br />
 (4) V primeru, da je zahtevku priložen zapisnik kontrolne organizacije, agencija za kontrolo uporabi podatke iz baze kontrolne organizacije.<br />
 (5) Višina neposrednega plačila znaša 1.172 SIT/žival za mesec marec 2003, 2.386 SIT/žival za mesec april 2003, 3.557 SIT/žival za mesec maj 2003 in 4.418 SIT/žival za mesec junij 2003.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(financiranje ukrepa)</h3>
 <p>Sredstva za izvedbo ukrepa iz te uredbe se zagotavljajo iz proračuna Ministrstva za kmetijstvo, gozdarstvo in prehrano, proračunske postavke 2252 Intervencije na kmetijskih trgih.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(uveljavitev)</h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 403-26/2001-8</p>
@@ -69,5 +82,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-07-25", "kratica": "URED2950", "naziv": "Uredba o neposrednem plačilu za pitane prašiče, zaklane v obdobju od 1. marca 2003 do 30. junija 2003", "url": "/trubar/si/URED2950/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

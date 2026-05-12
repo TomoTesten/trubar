@@ -21,18 +21,31 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2152" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE4545.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE4545" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE4545.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE4545,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Sklep o sodelovanju in delitvi dela med Carinsko upravo Republike Slovenije in Statističnim uradom Republike Slovenije pri izvajanju statističnega raziskovanja Intrastat v Republiki Sloveniji</h1>
 <p>Na podlagi 21. člena in v povezavi z 2. členom Zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94 – <a href="/trubar/si/ZODPM/" class="law-ref" title="ZODPM">ZODPM</a>, 23/96, 47/97, 23/99 – <a href="/trubar/si/ZSOVA/" class="law-ref" title="ZSOVA">ZSOVA</a>, 119/00, 30/01-ZODPM-C in 52/02 – <a href="/trubar/si/ZDU-1/" class="law-ref" title="ZDU-1">ZDU-1</a>) je Vlada Republike Slovenije sprejela</p>
 <h2>S K L E P</h2>
 <p>o sodelovanju in delitvi dela med Carinsko upravo Republike Slovenije in Statističnim uradom Republike Slovenije pri izvajanju statističnega raziskovanja Intrastat<br />
 v Republiki Sloveniji</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Statistični urad Republike Slovenije in Carinska uprava Republike Slovenije medsebojno sodelujeta pri izvajanju statističnega raziskovanja Intrastat (v nadaljevanju: Intrastat), to je statistike blagovne menjave med državami članicami Evropske unije.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Statistični urad Republike Slovenije je nosilec statističnega raziskovanja ter vodi in nadzoruje celoten sistem tako, da:<br />
 – je odgovoren za metodologijo Intrastata in za implementacijo metodoloških sprememb in sprememb statistične zakonodaje za Intrastat v programske rešitve;<br />
 – upravlja z registrom za Intrastat in je odgovoren za vzpostavitev in vzdrževanje zajetja za Intrastat;<br />
@@ -41,7 +54,7 @@ v Republiki Sloveniji</p>
 – je v celoti odgovoren za diseminacijo zunanjetrgovinskih statističnih podatkov vsem uporabnikom na nacionalni, evropski in mednarodni ravni;<br />
 – pripravlja in osvežuje gradiva, navodila in druga pojasnila za poročevalske enote ter vzdržuje spletno stran za Intrastat v okviru spletnih strani Statističnega urada;<br />
 – je odgovoren za izobraževanje lastnih kadrov za izvajanje Intrastata in nudi vso potrebno pomoč in znanje pri izobraževanju kadrov Carinske uprave Republike Slovenije.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Carinska uprava Republike Slovenije zagotavlja izvajanje operativnih in vsebinskih nalog, in sicer:<br />
 – zbira in vnaša podatke za vse poročevalske enote v Sloveniji;<br />
 – opravlja kontrolo zajetja podatkov na podlagi izpisov poročevalskih enot iz registra za Intrastat;<br />
@@ -52,9 +65,9 @@ v Republiki Sloveniji</p>
 – arhivira papirne obrazce za obdobje, kot je določeno v evropski zakonodaji za Intrastat;<br />
 – ureja spletne strani spletišča Intrastat, ki je namenjeno vključevanju poročevalskih enot v poročanje, spletnemu poročanju in nadzoru elektronskih pošiljk podatkov;<br />
 – skrbi za izobraževanje in preverjanje znanja delavcev v organizacijski enoti za Intrastat.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Carinska uprava Republike Slovenije in Statistični urad Republike Slovenije o podrobnejši določitvi nalog in ostalih medsebojnih razmerjih skleneta poseben sporazum.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta sklep se objavi v Uradnem listu Republike Slovenije in velja od 1. maja 2004 dalje.</p>
 <p>Št. 053-00/2004-1</p>
 <p>Ljubljana, dne 22. aprila 2004.</p>
@@ -70,5 +83,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-04-29", "kratica": "SKLE4545", "naziv": "Sklep o sodelovanju in delitvi dela med Carinsko upravo Republike Slovenije in Statističnim uradom Republike Slovenije pri izvajanju statističnega raziskovanja Intrastat v Republiki Sloveniji", "url": "/trubar/si/SKLE4545/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -16,22 +16,35 @@
     <dl>
       <dt>Kratica</dt><dd><strong>ODLO1245</strong></dd>
       <dt>Vrsta</dt><dd>odlok</dd>
-      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
       <dt>Datum</dt><dd>2003-02-28</dd>
-      
+      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0823" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1245.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO1245" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1245.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO1245,vrsta:odlok">
+    
     <h1>Odlok o spremembi odloka o glavnih znamenjih kovanca za 10 tolarjev</h1>
 <p>Na podlagi prvega odstavka 8. člena zakona o Banki Slovenije (Uradni list RS, št. 58/02 in 85/02) in 1. člena zakona o denarni enoti Republike Slovenije (Uradni list RS/I, št. 17/91 in Uradni list RS, št. 33/92) izdaja Vlada Republike Slovenije</p>
 <h2>O D L O K</h2>
 <p>o spremembi odloka o glavnih znamenjih kovanca za 10 tolarjev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zadnjem stavku 5. člena odloka o glavnih znamenjih kovanca za 10 tolarjev (Uradni list RS, št. 102/99) se črta številka »2000«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 448-03/2002-3</p>
 <p>Ljubljana, dne 20. februarja 2003.</p>
@@ -46,5 +59,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-02-28", "kratica": "ODLO1245", "naziv": "Odlok o spremembi odloka o glavnih znamenjih kovanca za 10 tolarjev", "url": "/trubar/si/ODLO1245/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

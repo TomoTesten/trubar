@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-02-0021" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPPHSAP.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MPPHSAP" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPPHSAP.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MPPHSAP,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-3">3</a><a href="#člen-4">4</a></nav>
     <h1>Zakon o ratifikaciji Protokola o pristopu Republike Hrvaške k Severnoatlantski pogodbi</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI PROTOKOLA O PRISTOPU REPUBLIKE HRVAŠKE K SEVERNOATLANTSKI POGODBI (MPPHSAP)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Protokol o pristopu Republike Hrvaške k Severnoatlantski pogodbi, podpisan v Bruslju 9. julija 2008.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo protokola se v izvirniku v angleškem jeziku in v prevodu v slovenskem jeziku glasi(*):</p>
 <h2>P r o t o c o l</h2>
 <p>to the North Atlantic Treaty on the Accession of the Republic of Croatia</p>
@@ -59,18 +72,18 @@ Signed at Brussels on this 9(na th) day of July 2008.</p>
 <p>Pogodbenice Severnoatlantske pogodbe, podpisane 4. aprila 1949 v Washingtonu, se,<br />
 zadovoljne, da se bo varnost severnoatlantskega območja povečala s pristopom Republike Hrvaške k tej pogodbi,<br />
 sporazumejo o naslednjem:</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ob začetku veljavnosti tega protokola generalni sekretar Organizacije Severnoatlantske pogodbe v imenu vseh pogodbenic Vladi Republike Hrvaške pošlje vabilo za pristop k Severnoatlantski pogodbi. V skladu z 10. členom pogodbe Republika Hrvaška postane pogodbenica z dnem, ko svojo listino o pristopu deponira pri Vladi Združenih držav Amerike.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta protokol začne veljati, ko vsaka pogodbenica Severnoatlantske pogodbe uradno obvesti Vlado Združenih držav Amerike, da ga je sprejela. Vlada Združenih držav Amerike obvesti vse pogodbenice Severnoatlantske pogodbe o datumu prejema vsakega takega uradnega obvestila in datumu začetka veljavnosti tega protokola.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta protokol, katerega angleško in francosko besedilo sta enako verodostojni, se deponira v arhivu Vlade Združenih držav Amerike. Ta vlada pošlje pravilno overjene kopije protokola vladam vseh pogodbenic Severnoatlantske pogodbe.<br />
 V potrditev tega so podpisani pooblaščenci podpisali ta protokol.<br />
 Podpisano v Bruslju 9. julija 2008.</p>
 <p>Podpisi protokola</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje protokola skrbita Ministrstvo za zunanje zadeve in Ministrstvo za obrambo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 007-02/08-2/37</p>
 <p>Ljubljana, dne 9. februarja 2009</p>
@@ -87,5 +100,36 @@ dr. Pavel Gantar l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-03-27", "kratica": "MPPHSAP", "naziv": "Zakon o ratifikaciji Protokola o pristopu Republike Hrvaške k Severnoatlantski pogodbi", "url": "/trubar/si/MPPHSAP/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2866" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZODPM-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZODPM-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZODPM-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZODPM-B,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o organizaciji in delovnem področju ministrstev</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,24 +50,24 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA  O ORGANIZACIJI IN DELOVNEM PODROČJU  MINISTRSTEV (ZODPM-B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o organizaciji in delovnem področju ministrstev (Uradni list RS, št. 71/94 in 47/97) se za četrto alineo 2. točke 2. člena doda nova peta alinea, ki se glasi:</p>
 <p>“– Agencija Republike Slovenije za regionalni razvoj,”.</p>
 <p>Dosedanji peta in šesta alinea 2. točke postaneta šesta in sedma alinea 2. točke.<br />
 Za drugo alineo 5. točke se doda nova tretja alinea, ki se glasi:</p>
 <p>“– Agencija Republike Slovenije za kmetijske trge in razvoj podeželja,”.</p>
 <p>Dosedanja tretja alinea 5. točke postane četrta alinea 5. točke.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za petim odstavkom 4. člena se doda nov šesti odstavek, ki se glasi:</p>
 <p>“Agencija Republike Slovenije za regionalni razvoj opravlja razvojne, svetovalne, pospeševalne in usklajevalne naloge pri spodbujanju regionalnega razvoja; pripravlja strokovne podlage za dodeljevanje spodbud regionalne strukturne politike različnih področij in vrednoti učinke dodeljenih spodbud; daje mnenja o regionalnih razvojnih programih, s katerimi se usklajujejo razvojna predvidevanja in naloge na področju gospodarskega, socialnega, kulturnega, prostorskega in okoljskega razvoja v regiji ter daje mnenja o skupnih razvojnih programih.”</p>
 <p>Dosedanja šesti in sedmi odstavek postaneta sedmi in osmi odstavek.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za tretjim odstavkom 7. člena se doda nov četrti odstavek, ki se glasi:</p>
 <p>“Agencija Republike Slovenije za kmetijske trge in razvoj podeželja opravlja zadeve, ki se nanašajo na izvajanje ukrepov in nalog na področju kmetijstva, živilstva in ribištva skladno s skupno kmetijsko in ribiško politiko Evropske Unije ter na druge naloge za izvajanje reforme kmetijske politike.”</p>
 <p>Dosedanji četrti odstavek postane peti odstavek.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Minister, pristojen za ekonomske odnose in razvoj in minister, pristojen za kmetijstvo, gozdarstvo in prehrano uskladita akte o notranji organizaciji in sistemizaciji delovnih mest z določbami tega zakona najkasneje v enem mesecu po uveljavitvi tega zakona.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 020-05/93-15/25</p>
 <p>Ljubljana, dne 14. julija 1999.</p>
@@ -70,5 +83,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-07-29", "kratica": "ZODPM-B", "naziv": "Zakon o spremembah in dopolnitvah zakona o organizaciji in delovnem področju ministrstev", "url": "/trubar/si/ZODPM-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

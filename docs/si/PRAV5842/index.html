@@ -21,16 +21,29 @@
       <dt>Organ</dt><dd>Ministrstvo za okolje, prostor in energijo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2305" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5842.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5842" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5842.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5842,vrsta:pravilnik">
+    
     <h1>Pravilnik o dopolnitvah pravilnika o ravnanju z odpadki, ki nastanejo pri gradbenih delih</h1>
 <p>Na podlagi prvega in drugega odstavka 30. člena zakona o varstvu okolja (Uradni list RS, št. 32/93, 44/95 – odl. US, 1/96, 9/99 – odl. US, 56/99 – <a href="/trubar/si/ZON/" class="law-ref" title="ZON">ZON</a>, 22/00 – <a href="/trubar/si/ZJS/" class="law-ref" title="ZJS">ZJS</a>, 67/02 – <a href="/trubar/si/ZV-1/" class="law-ref" title="ZV-1">ZV-1</a> in 10/04 – odl. US) izdaja minister za okolje, prostor in energijo</p>
 <h2>P R A V I L N I K</h2>
 <p>o dopolnitvah pravilnika o ravnanju z odpadki,<br />
 ki nastanejo pri gradbenih delih</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o ravnanju z odpadki, ki nastanejo pri gradbenih delih (Uradni list RS, št. 5/00) se za 13. členom doda novi 13.a člen, ki se glasi:</p>
 <h3>»13.a člen</h3>
 <p>Investitor, ki namerava pridobiti uporabno dovoljenje, mora kot sestavni del projekta izvedenih del pristojnemu upravnemu organu priložiti poročilo o gospodarjenju z gradbenimi odpadki, iz katerega so razvidni naslednji podatki:<br />
@@ -47,7 +60,7 @@ Poročila o gospodarjenju z gradbenimi odpadki iz prejšnjega odstavka ni treba 
 Za gradnje, pri katerih količine nastalih gradbenih odpadkov presegajo najmanjše količine iz tabele v 10. členu tega pravilnika se šteje, da je vloga za izdajo uporabnega dovoljenja nepopolna, če projekt izvedenih del ne vsebuje poročila o gospodarjenju z gradbenimi odpadki iz prvega odstavka tega člena.<br />
 Če se je v okviru gradnje, za katero je vložena zahteva za izdajo uporabnega dovoljenja, izvedla tudi odstranitev objekta iz 6. člena tega pravilnika, se morajo podatki o vrstah in količinah odpadkov, nastalih zaradi odstranitve objekta, v poročilu o gospodarjenju z gradbenimi odpadki iz prvega odstavka tega člena ujemati s podatki o vrstah in količinah odpadkov iz načrta gospodarjenja z gradbenimi odpadki iz 6. člena tega pravilnika.<br />
 Če za gradnjo, v okviru katere se je izvedla odstranitev objekta iz 6. člena tega pravilnika, ni treba pridobiti uporabnega dovoljenja, mora investitor posredovati poročilo o gospodarjenju z gradbenimi odpadki iz prvega odstavka tega člena skupaj s kopijo načrta gospodarjenja z gradbenimi odpadki iz 6. člena tega pravilnika najkasneje v tridesetih dneh po zaključku gradnje pristojnemu inšpektorju iz 26. člena tega pravilnika.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 354-11-32/2002</p>
 <p>Ljubljana, dne 29. aprila 2004.</p>
@@ -63,5 +76,36 @@ mag. Janez Kopač l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-05-06", "kratica": "PRAV5842", "naziv": "Pravilnik o dopolnitvah pravilnika o ravnanju z odpadki, ki nastanejo pri gradbenih delih", "url": "/trubar/si/PRAV5842/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

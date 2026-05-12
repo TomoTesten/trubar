@@ -21,24 +21,37 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1406" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO2996.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO2996" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO2996.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO2996,vrsta:odlok">
+    
     <h1>Odlok o pomilostitvi obdolženca in obsojencev - pomilostitev po uradni dolžnosti ob Dnevu samostojnosti Republike Slovenije, 26. decembru</h1>
 <p>Na podlagi 7. točke 379. člena ustave Republike Slovenije in 1. in 2. člena zakona o pomilostitvi Republike Slovenije, izdaja Predsedstvo Republike Slovenije</p>
 <h2>ODLOK</h2>
 <p>o pomilostitvi obdolženca in obsojencev – pomilostitev po uradni dolžnosti ob Dnevu samostojnosti Republike Slovenije, 26. decembru</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Kazenski pregon se odpusti<br />
 Antonu Vovku, rojenemu 2. 1. 1928 v Zalogičah pri Šmarjeti, zaradi hudega kaznivega dejanja zoper splošno varnost.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Izvršitev kazni zapora se odpusti<br />
 Viliju Cimpermanu, rojenemu 9. 12. 1971 v Ljubljani, se odpusti nadaljnje izvrševanje kazni zapora iz kazni 4 mesecev zapora.<br />
 Stanku Gaberču, rojenemu 7. 4. 1952 v Mariboru, se odpusti nadaljnje izvrševanje kazni zapora iz kazni 3 let zapora.<br />
 Božidarju Gentrihu, rojenemu 17. 8. 1970 v Zaboku, se odpusti nadaljnje izvrševanje kazni iz kazni 6 mesecev zapora.<br />
 Ališanu Fetahiju, rojenemu 21. 5. 1959 v Prištini, se odpusti nadaljnje izvrševanje kazni zapora iz kazni 4 let zapora.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Izrečena kazen zapora se zniža<br />
 Milošu Avdiču, rojenemu 10. 9. 1950 v Jovinih Livadah, SO Prokuplje, se kazen 7 let zapora zniža za 6 mesecev.<br />
 Alojzu Oražmu, rojenemu 17. 9. 1958 v Rečju, SO Ribnica, se kazen 7 let zapora zniža za 6 mesecev.<br />
@@ -48,7 +61,7 @@ Olgi Sršen, rojeni 2. 12. 1949 v Doliču, SO Murska Sobota, se kazen 1 leta, 8 
 Asanu Tairiju, rojenemu 16. 5. 1959 v Žirovnici, SO Gostivar, se kazen 7 let in 6 mesecev zapora zniža za 1 leto.<br />
 Bajramu Tairiju, rojenemu 2. 5. 1957 v Žirovnici, SO Gostivar, se kazen 7 let in 6 mesecev zapora zniža za 1 leto.<br />
 Ivanu Tukoviču, rojenemu 21. 11. 1951 v Zelini, se kazen 4 let zapora zniža za 6 mesecev.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Izrečena kazen zapora se spremeni v pogojno obsodbo<br />
 Antonu Bezjaku, rojenemu 7. 6. 1957 v Gajevcih, se kazen 3 mesecev zapora spremeni v pogojno obsodbo s tem, da se kazen ne bo izvršila, če obsojenec v dobi treh let ne bo storil novega kaznivega dejanja.</p>
 <p>Št. 25-1/91</p>
@@ -65,5 +78,36 @@ Milan Kučan l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1991-12-24", "kratica": "ODLO2996", "naziv": "Odlok o pomilostitvi obdolženca in obsojencev - pomilostitev po uradni dolžnosti ob Dnevu samostojnosti Republike Slovenije, 26. decembru", "url": "/trubar/si/ODLO2996/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

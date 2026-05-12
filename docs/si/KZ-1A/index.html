@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1876" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/KZ-1A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=KZ-1A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/KZ-1A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:KZ-1A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembi Kazenskega zakonika</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,12 +50,12 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBI KAZENSKEGA ZAKONIKA (KZ-1A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Kazenskem zakoniku (Uradni list RS, št. 55/08 in 66/08 – popravek) se 375. člen spremeni tako, da se glasi:</p>
 <h3>»375. člen</h3>
 <p>Do uveljavitve kazenskega zakona za mladoletnike iz drugega odstavka 5. člena tega zakonika se za mladoletnike uporabljajo določbe drugega odstavka 70. člena, določbe 71. do 94. člena, določbe, ki se nanašajo na mladoletniški zapor v petem odstavku 47. člena, v prvem, drugem in četrtem odstavku 49. člena, ter določbe tretjega odstavka 100. člena Kazenskega zakonika (Uradni list RS, št. 63/94, 70/94 – popravek, 23/99, 40/04 in 95/04, v nadaljnjem besedilu: Kazenski zakonik), določbe tega zakonika, kot sicer veljajo za polnoletne, pa le, kolikor ne nasprotujejo navedenim določbam Kazenskega zakonika.«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 713-01/09-16/31</p>
 <p>Ljubljana, dne 14. maja 2009</p>
@@ -59,5 +72,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-05-26", "kratica": "KZ-1A", "naziv": "Zakon o spremembi Kazenskega zakonika", "url": "/trubar/si/KZ-1A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

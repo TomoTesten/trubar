@@ -21,18 +21,31 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-2552" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6466.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE6466" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6466.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE6466,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Odlok o organizaciji in delovnem področju Urada Vlade Republike Slovenije za Slovence v zamejstvu in po svetu</h1>
 <p>Na podlagi 25. člena Zakona o Vladi Republike Slovenije (Uradni list RS, št. 24/05 – UPB1) in 13., 14., 15., 32., 64. in 74. člena Zakona o odnosih Republike Slovenije s Slovenci zunaj njenih meja (Uradni list RS, št. 43/06) je Vlada Republike Slovenije sprejela</p>
 <h2>O D L O K</h2>
 <p>o organizaciji in delovnem področju Urada Vlade Republike Slovenije za Slovence v zamejstvu<br />
 in po svetu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Urad Vlade Republike Slovenije za Slovence v zamejstvu in po svetu (v nadaljnjem besedilu: Urad) se organizira kot samostojna vladna služba z delovnim področjem določenim s tem odlokom, z Zakonom o odnosih Republike Slovenije s Slovenci zunaj njenih meja (Uradni list RS, št. 43/06) in z drugimi predpisi.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Urad opravlja naloge, ki se nanašajo na:<br />
 – oblikovanje in izvajanje državne politike do Slovencev v zamejstvu in po svetu;<br />
 – avtohtone slovenske narodne skupnosti v sosednjih državah;<br />
@@ -45,14 +58,14 @@ in po svetu</p>
 – skrb za repatriacijo Slovencev v domovino;<br />
 – pridobivanje statusa Slovenca brez slovenskega državljanstva;<br />
 – opravljanje drugih nalog, povezanih s posebnimi pravno-statusnimi zadevami pripadnikov avtohtone slovenske narodne skupnosti v sosednjih državah in slovenskih zdomcev oziroma izseljencev v Republiki Sloveniji.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Urad pri svojem delu sodeluje z Ministrstvom za zunanje zadeve in preko Ministrstva za zunanje zadeve daje pobude s svojega delovnega področja diplomatskim predstavništvom in konzulatom Republike Slovenije v tujini.<br />
 (2) Način sodelovanja iz prejšnjega odstavka se določi s sporazumom, ki ga skleneta predstojnika Urada in Ministrstva za zunanje zadeve.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Urad vodi državni sekretar, ki je odgovoren predsedniku vlade.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Akt o notranji organizaciji Urada in sistematizaciji delovnih mest v Uradu izda predstojnik Urada po predhodnem soglasju Vlade Republike Slovenije v 30 dneh po uveljavitvi tega odloka.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.<br />
 Šifra: 00401-1/2006/5</p>
 <p>Ljubljana, dne 25. maja 2006</p>
@@ -68,5 +81,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-06-09", "kratica": "SKLE6466", "naziv": "Odlok o organizaciji in delovnem področju Urada Vlade Republike Slovenije za Slovence v zamejstvu in po svetu", "url": "/trubar/si/SKLE6466/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-3128" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10852.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10852" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10852.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10852,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o kriterijih za ugotavljanje izpolnjevanja pogojev za vodjo raziskovalnega projekta</h1>
 <p>Na podlagi tretjega odstavka 29. člena Zakona o raziskovalni in razvojni dejavnosti (Uradni list RS, št. 22/06 – uradno prečiščeno besedilo, 61/06 – <a href="/trubar/si/ZDru-1/" class="law-ref" title="ZDru-1">ZDru-1</a>, 112/07 in 9/11) minister za visoko šolstvo, znanost in tehnologijo izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o kriterijih za ugotavljanje izpolnjevanja pogojev za vodjo raziskovalnega projekta</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o kriterijih za ugotavljanje izpolnjevanja pogojev za vodjo raziskovalnega projekta (Uradni list RS, št. 41/09) se prvi in drugi odstavek 4. člena spremenita tako, da se glasita:<br />
 »Vodja podoktorskega raziskovalnega projekta (v nadaljevanju: podoktorand) izpolnjuje pogoj za vodjo raziskovalnega projekta, določen v drugi alineji prvega odstavka 29. člena Zakona o raziskovalni in razvojni dejavnosti, če od zagovora njegovega doktorata niso potekla več kot tri leta ter izkazuje vsaj eno znanstveno objavo (tudi v soavtorstvu kot prvi avtor), določeno v pravilniku, ki ureja kazalce in merila znanstvene in strokovne uspešnosti ter izkazuje minimalno skupno število točk iz znanstvenih objav v zadnjih petih letih, citiranosti v zadnjih desetih letih in dokumentiranega sodelovanja z drugimi financerji v zadnjih petih letih. Minimalno število točk se določi v Metodologiji ocenjevanja prijav.<br />
 Če je podoktorand izkoristil starševski dopust, pri čemer se za enega otroka upošteva eno leto, se čas od zagovora podaljša nad tri leta za čas dejansko izrabljenega dopusta. Enako velja za dokumentirano bolniško odsotnost, daljšo od treh mesecev.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0071-24/2011</p>
 <p>Ljubljana, dne 31. avgusta 2011</p>
@@ -49,5 +62,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-09-16", "kratica": "PRAV10852", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o kriterijih za ugotavljanje izpolnjevanja pogojev za vodjo raziskovalnega projekta", "url": "/trubar/si/PRAV10852/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

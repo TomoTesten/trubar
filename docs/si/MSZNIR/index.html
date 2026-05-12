@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-02-0049" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSZNIR.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MSZNIR" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSZNIR.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MSZNIR,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Sporazuma o sodelovanju med Organizacijo Združenih narodov za industrijski razvoj in Vlado Republike Slovenije in Upravnega dogovora o posebnih namenskih prispevkih v Sklad za industrijski razvoj</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI SPORAZUMA O SODELOVANJU MED ORGANIZACIJO ZDRUŽENIH NARODOV ZA INDUSTRIJSKI RAZVOJ IN VLADO REPUBLIKE SLOVENIJE IN UPRAVNEGA DOGOVORA O POSEBNIH NAMENSKIH PRISPEVKIH V SKLAD ZA INDUSTRIJSKI RAZVOJ (MSZNIR)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sporazum o sodelovanju med Organizacijo Združenih narodov za industrijski razvoj in Vlado Republike Slovenije in Upravni dogovor o posebnih namenskih prispevkih v Sklad za industrijski razvoj, ki je bil sklenjen na Dunaju 22. junija 2005.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sporazuma se v izvirniku v angleškem jeziku ter prevodu v slovenskem jeziku glasi:</p>
 <h2>A G R E E M E N T</h2>
 <p>ON COOPERATION BETWEEN THE UNITED NATIONS INDUSTRIAL DEVELOPMENT ORGANIZATION AND THE GOVERNMENT OF THE REPUBLIC OF SLOVENIA AND AN ADMINISTRATIVE ARRANGEMENT WITH REGARD TO SPECIAL PURPOSE CONTRIBUTIONS TO THE INDUSTRIAL DEVELOPMENT FUND</p>
@@ -320,9 +333,9 @@ DRUGO<br />
 – sanacijski programi tovarn.</li>
 <li>Na podlagi dogovora med organizacijo UNIDO in donatorico se vsako navedeno merilo lahko spremeni, podrobneje določi, prilagodi ali dopolni v skladu z doseženim napredkom pri uporabi sporazuma.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Ministrstvo za gospodarstvo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 321-01/05-1/1</p>
 <p>Ljubljana, dne 29. septembra 2005</p>
@@ -339,5 +352,36 @@ France Cukjati, dr. med., l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-10-25", "kratica": "MSZNIR", "naziv": "Zakon o ratifikaciji Sporazuma o sodelovanju med Organizacijo Združenih narodov za industrijski razvoj in Vlado Republike Slovenije in Upravnega dogovora o posebnih namenskih prispevkih v Sklad za industrijski razvoj", "url": "/trubar/si/MSZNIR/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

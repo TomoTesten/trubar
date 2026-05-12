@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>SKLE13789</strong></dd>
       <dt>Vrsta</dt><dd>sklep</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>2025-03-25</dd>
-      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0654" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE13789.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE13789" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE13789.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE13789,vrsta:sklep">
+    
     <h1>Sklep o ugotovitvi javne koristi za izvedbo vodnogospodarske ureditve za zagotavljanje poplavne varnosti »Suhi zadrževalnik visokih vod na Pekrskem potoku«</h1>
 <p>Na podlagi drugega odstavka 204. člena Zakona o urejanju prostora (Uradni list RS, št. 199/21, 18/23 – <a href="/trubar/si/ZDU-1O/" class="law-ref" title="ZDU-1O">ZDU-1O</a>, 78/23 – <a href="/trubar/si/ZUNPEOVE/" class="law-ref" title="ZUNPEOVE">ZUNPEOVE</a>, 95/23 – <a href="/trubar/si/ZIUOPZP/" class="law-ref" title="ZIUOPZP">ZIUOPZP</a>, 23/24 in 109/24) v zvezi s tretjim odstavkom 36. člena in 44. členom Zakona o vodah (Uradni list RS, št. 67/02, 2/04 – <a href="/trubar/si/ZZdrI-A/" class="law-ref" title="ZZdrI-A">ZZdrI-A</a>, 41/04 – <a href="/trubar/si/ZVO-1/" class="law-ref" title="ZVO-1">ZVO-1</a>, 57/08, 57/12, 100/13, 40/14, 56/15, 65/20, 35/23 – odl. US, 78/23 – <a href="/trubar/si/ZUNPEOVE/" class="law-ref" title="ZUNPEOVE">ZUNPEOVE</a> in 52/24 – odl. US) je Vlada Republike Slovenije sprejela</p>
 <p>S K L E P</p>
@@ -56,5 +69,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2025-03-25", "kratica": "SKLE13789", "naziv": "Sklep o ugotovitvi javne koristi za izvedbo vodnogospodarske ureditve za zagotavljanje poplavne varnosti »Suhi zadrževalnik visokih vod na Pekrskem potoku«", "url": "/trubar/si/SKLE13789/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

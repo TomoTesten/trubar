@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2017-01-2977" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4425.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG4425" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4425.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG4425,vrsta:drugi akt">
+    
     <h1>Spremembe in dopolnitve Pravil Ljubljanske borze, d. d., Ljubljana</h1>
 <p>Na podlagi 331. člena Zakona o trgu finančnih instrumentov (Uradni list RS, št. 108/10 – uradno prečiščeno besedilo UPB3, s spremembami – <a href="/trubar/si/ZTFI/" class="law-ref" title="ZTFI">ZTFI</a>), je uprava borze, ki jo zastopata mag. Aleš Ipavec, predsednik uprave, in mag. Nina Vičar, članica uprave, dne 2. 11. 2017 sprejela naslednje Spremembe in dopolnitve Pravil Ljubljanske borze, d. d., Ljubljana (Uradni list RS, št. 88/10, 89/11, 71/12, 84/12, 44/13, 81/13, 10/14, 80/14, 88/15, 32/16, 67/16, 5/17 v nadaljevanju: Pravila), h katerim je Agencija za trg vrednostnih papirjev dne 9. 11. 2017 izdala soglasje z odločbo opr. št.: 40211-1/2017-4:</p>
 <p>S P R E M E M B E  I N D O P O L N I T V E  P R A V I L</p>
@@ -71,5 +84,36 @@ predsednik uprave</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2017-11-10", "kratica": "DRUG4425", "naziv": "Spremembe in dopolnitve Pravil Ljubljanske borze, d. d., Ljubljana", "url": "/trubar/si/DRUG4425/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,24 +21,37 @@
       <dt>Organ</dt><dd>Ministrstvo za okolje in prostor</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2015-01-1115" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12450.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV12450" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12450.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV12450,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Pravilnik o podrobnejši vsebini zbirke podatkov državnega prostorskega koordinatnega sistema</h1>
 <p>Na podlagi tretjega odstavka 8. člena Zakona o državnem geodetskem referenčnem sistemu (Uradni list RS, št. 25/14) izdaja ministrica za okolje in prostor</p>
 <h2>P R A V I L N I K</h2>
 <p>o podrobnejši vsebini zbirke podatkov državnega prostorskega koordinatnega sistema</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina)</h3>
 <p>Ta pravilnik določa podrobnejšo vsebino zbirke podatkov državnega prostorskega koordinatnega sistema.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(podatki v zbirki podatkov državnega prostorskega koordinatnega sistema)</h3>
 <p>V zbirki podatkov državnega prostorskega koordinatnega sistema se vodijo podatki o:<br />
 – državnih geodetskih točkah,<br />
 – državnem omrežju stalnih postaj za določanje položaja s tehnologijo globalnih navigacijskih satelitskih sistemov (v nadaljnjem besedilu: državno omrežje za globalno določanje položaja) in<br />
 – geografski koordinatni mreži.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(državne geodetske točke)</h3>
 <p>(1) V zbirki podatkov državnega prostorskega koordinatnega sistema se vodijo podatki o naslednjih državnih geodetskih točkah:<br />
 – horizontalnih državnih geodetskih točkah,<br />
@@ -68,7 +81,7 @@
 – vrednost težnega pospeška,<br />
 – red gravimetrične mreže in<br />
 – leto izmere.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(državno omrežje za globalno določanje položaja)</h3>
 <p>(1) V zbirki podatkov državnega prostorskega koordinatnega sistema se o državnem omrežju za globalno določanje položaja vodijo podatki o:<br />
 – postajah globalnih navigacijskih satelitskih sistemov (v nadaljnjem besedilu: GNSS postaje) s stalno nameščenimi geodetskimi napravami in instrumenti za merjenje položajev objektov in pojavov (v nadaljnjem besedilu: geodetske naprave),<br />
@@ -86,7 +99,7 @@
 (4) O nadzornem centru se vodita naslednja tehnična podatka:<br />
 – ime nadzornega centra in<br />
 – kontaktni podatki nadzornega centra (sedež, telefonska številka, elektronski naslov).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(geografska koordinatna mreža)</h3>
 <p>(1) Geografska koordinatna mreža je usklajena večločljivostna mreža s skupno točko izvira in standardizirano lokacijo ter velikostjo mrežnih celic.<br />
 (2) V zbirki podatkov državnega prostorskega koordinatnega sistema se o geografski koordinatni mreži vodijo naslednji tehnični podatki:<br />
@@ -95,10 +108,10 @@
 – stopnja ločljivosti mrežnih celic,<br />
 – izhodišče geografske koordinatne mreže in<br />
 – usmerjenost geografske koordinatne mreže.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <h3>(časovna sestavina)</h3>
 <p>V zbirki podatkov državnega prostorskega koordinatnega sistema se podatki iz tega pravilnika vodijo tako, da omogočajo historični pregled sprememb podatkov.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <h3>(začetek veljavnosti)</h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-23/2015</p>
@@ -115,5 +128,36 @@ za okolje in prostor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2015-04-17", "kratica": "PRAV12450", "naziv": "Pravilnik o podrobnejši vsebini zbirke podatkov državnega prostorskega koordinatnega sistema", "url": "/trubar/si/PRAV12450/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

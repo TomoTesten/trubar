@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2288" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3265.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3265" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3265.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3265,vrsta:drugi akt">
+    
     <h1>Pristop h Kolektivni pogodbi za cestni potniški promet</h1>
 <p>V skladu s prvim odstavkom 179. člena Zakona o splošnem upravnem postopku (<a href="/trubar/si/ZUP/" class="law-ref" title="ZUP">ZUP</a>, Uradni list RS, št. 24/06 – uradno prečiščeno besedilo, 105/06 – <a href="/trubar/si/ZUS-1/" class="law-ref" title="ZUS-1">ZUS-1</a>, 126/07 in 65/08) ter 27. člena Zakona o kolektivnih pogodbah (Uradni list RS, št. 43/06) Obrtno-podjetniška zbornica Slovenije, Celovška 71, 1000 Ljubljana</p>
 <h2>p r i s t o p a</h2>
@@ -42,5 +55,36 @@ Obrtno-podjetniška zbornica Slovenije</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-06-19", "kratica": "DRUG3265", "naziv": "Pristop h Kolektivni pogodbi za cestni potniški promet", "url": "/trubar/si/DRUG3265/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

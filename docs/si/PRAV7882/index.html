@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4729" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7882.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7882" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7882.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7882,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o meroslovnih zahtevah za pretočna merila in merilne sisteme za zvezno in dinamično merjenje količin tekočin razen vode</h1>
 <p>Na podlagi prvega odstavka 9. in petega odstavka 11. člena Zakona o meroslovju (Uradni list RS, št. 26/05 – uradno prečiščeno besedilo) izdaja minister za visoko šolstvo, znanost in tehnologijo</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika<br />
 o meroslovnih zahtevah za pretočna merila<br />
 in merilne sisteme za zvezno in dinamično merjenje količin tekočin razen vode</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o meroslovnih zahtevah za pretočna merila in merilne sisteme za zvezno in dinamično merjenje količin tekočin razen vode (Uradni list RS, št. 62/01, 100/02, 42/06 in 71/06) se za 56. členom doda nov 56.a člen, ki se glasi:</p>
 <h3>»56.a člen</h3>
 <p>Pretočno merilo mora biti pred izvedbo postopka izredne overitve naravnano tako, da je zagotovljeno najmanjše možno odstopanje kazanja od nazivne vrednosti. V primeru, da ima imetnik merila na eni lokaciji v uporabi večje število pretočnih meril ali merilnih sistemov v povprečju ne sme biti negativnega odstopanja kazanja od nazivne vrednosti.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prilogi I se besedilo 4.1. točke spremeni tako, da se glasi:<br />
 »4.1 Določitev pogreška merilnega sistema<br />
 Absolutna vrednost pogreška merilnega sistema se določi z uporabo naslednjih enačb:<br />
@@ -66,7 +79,7 @@ V delu priloge z naslovom »4. Priporočeni zapisnik meritve« se na koncu sprem
 <p>»Opombe:<br />
 E = E' + E(α) + E(ß)         E(α) = α (Ts – Tm) x 100,(α) = ...K(na -1).<br />
 E' = [(Vm – Vs)/Vs] x 100    E(ß)= (ß) (Tr – Ts) x 100,(ß) = ...K(na -1).«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0073-25/2006</p>
 <p>Ljubljana, dne 16. oktobra 2006</p>
@@ -83,5 +96,36 @@ in tehnologijo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-10-27", "kratica": "PRAV7882", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o meroslovnih zahtevah za pretočna merila in merilne sisteme za zvezno in dinamično merjenje količin tekočin razen vode", "url": "/trubar/si/PRAV7882/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

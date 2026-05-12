@@ -21,23 +21,36 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-4492" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1541.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO1541" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1541.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO1541,vrsta:odlok">
+    
     <h1>Odlok o spremembah in dopolnitvah Odloka o Programu prodaje državnega finančnega in stvarnega premoženja za leti 2007 in 2008 (OdPDFSP0708-A)</h1>
 <p>Na podlagi prvega odstavka 80.č člena Zakona o javnih financah (Uradni list RS, št. 79/99, 124/00, 79/01, 30/02, 54/02 – <a href="/trubar/si/ZJU/" class="law-ref" title="ZJU">ZJU</a>, 110/02 – <a href="/trubar/si/ZDT-B/" class="law-ref" title="ZDT-B">ZDT-B</a>, 127/06 – <a href="/trubar/si/ZJZP/" class="law-ref" title="ZJZP">ZJZP</a> in 14/07 – <a href="/trubar/si/ZSPDPO/" class="law-ref" title="ZSPDPO">ZSPDPO</a>), 11. člena Zakona o stvarnem premoženju države, pokrajin in občin (Uradni list RS, št. 14/07) in tretjega odstavka 108. člena ter prvega odstavka 171. člena Poslovnika državnega zbora (Uradni list RS št. 35/02, 60/04 in 64/07) je Državni zbor Republike Slovenije na seji dne 2. oktobra 2007 sprejel</p>
 <h2>O D L O K</h2>
 <p>o spremembah in dopolnitvah Odloka o Programu prodaje državnega finančnega in stvarnega premoženja za leti 2007 in 2008 (OdPDFSP0708-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Odloku o Programu prodaje državnega finančnega in stvarnega premoženja za leti 2007 in 2008 (Uradni list RS, št. 126/06) se v PRILOGI 1 Program prodaje finančnega premoženja države za leti 2007 in 2008, v Preglednici A: »Seznam kapitalskih naložb Republike Slovenije za prodajo in drugo razpolaganje v letih 2007 in 2008, pri katerih je kupnina prejemek proračuna«, pod zaporedno številko 3, v stolpcu »delež za prodajo in drugo razpolaganje v %« število »18,39« nadomesti s številom »37,53«, v stolpcu »število delnic oziroma poslovni delež v EUR za prodajo in drugo razpolaganje« pa se število »1.201.874« nadomesti s številom »2.452.548«.<br />
 V predstavitvi posameznih kapitalskih naložb ali skupin kapitalskih naložb, ki jih preglednica vsebuje, se v točki »3. Telekom Slovenije d.d.« v drugem stavku prvega odstavka črta besedilo »in čimprejšnje izplačilo povračil upravičencem iz naslova Zakona o vračanju vlaganj v javno telekomunikacijsko omrežje«.<br />
 Na začetku drugega odstavka se doda besedilo, ki se glasi:<br />
 »Program prodaje dopušča različne možnosti odprodaje, v primeru navzkrižnega lastništva tudi prodajo celotnega deleža države v enem koraku. V 37,53% deležu je že vključen tudi 10% delež delnic, ki jih bo prodal za potrebe vračila vlagateljem SOD.«.<br />
 V zadnjem stavku se delež »30%« nadomesti z deležem »do 49,14%«, delež »18,39%« pa se nadomesti z deležem »37,53%«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V PRILOGI 2: Program prodaje stvarnega premoženja države v letih 2007 in 2008 se pri Ministrstvu za zunanje zadeve, pod zaporedno številko 70, v opisu predmeta prodaje za besedilom »nadstropje: 001« doda vejica in besedilo »002, 003 in 004«, ocenjena vrednost v EUR v znesku »434.134,54« pa se nadomesti z ocenjeno vrednostjo v EUR »1.966.000,00«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 411-01/05-81/11</p>
 <p>Ljubljana, dne 2. oktobra 2007</p>
@@ -54,5 +67,36 @@ France Cukjati, dr. med., l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-10-08", "kratica": "ODLO1541", "naziv": "Odlok o spremembah in dopolnitvah Odloka o Programu prodaje državnega finančnega in stvarnega premoženja za leti 2007 in 2008 (OdPDFSP0708-A)", "url": "/trubar/si/ODLO1541/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

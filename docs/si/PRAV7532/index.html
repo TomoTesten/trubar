@@ -21,18 +21,31 @@
       <dt>Organ</dt><dd>Ministrstvo za gospodarstvo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-0115" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7532.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7532" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7532.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7532,vrsta:pravilnik">
+    
     <h1>Pravilnik o začasnih uvrstitvah delovnih mest direktorjev s področja gospodarstva v plačne razrede znotraj razponov plačnih razredov</h1>
 <p>Na podlagi 74. člena Zakona o državni upravi (Uradni list RS, št. 24/05 – uradno prečiščeno besedilo in 93/05) ter 13.a člena Uredbe o plačah direktorjev v javnem sektorju (Uradni list RS, št. 73/05 in 103/05) izdaja minister za gospodarstvo</p>
 <h2>P R A V I L N I K</h2>
 <p>o začasnih uvrstitvah delovnih mest direktorjev s področja gospodarstva v plačne razrede znotraj razponov plačnih razredov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) Ta pravilnik določa začasne uvrstitve delovnih mest direktorjev s področja gospodarstva v plačne razrede znotraj razponov plačnih razredov, določenih v Prilogi III Uredbe o plačah direktorjev v javnem sektorju (Uradni list RS, št. 73/05 in 103/05, v nadaljnjem besedilu: uredba).<br />
 (2) Začasne uvrstitve iz prejšnjega odstavka so izvedene na podlagi kriterijev, določenih v prilogi IV uredbe ter metodologije iz 6. člena uredbe.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Začasne uvrstitve v plačne razrede se izvedejo za vsako delovno mesto direktorja znotraj posameznega tipa osebe javnega prava.<br />
 (2) Začasne uvrstitve delovnih mest direktorjev po posameznih tipih oseb javnega prava v plačne razrede so naslednje:</p>
 <p>Dejavnost: DROBNO GOSPODARSTVO IN TURIZEM<br />
@@ -105,10 +118,10 @@
 |          |BELTINCI                  |          |JS/JZ/A      |             |<br />
 |          |                          |          |             |             |<br />
 +----------+--------------------------+----------+-------------+-------------+</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Ta pravilnik velja do dneva uveljavitve sklepa župana o uvrstitvi delovnih mest direktorjev iz prejšnjega člena v plačne razrede.<br />
 (2) Pred objavo akta iz prejšnjega odstavka mora župan na uvrstitve delovnih mest direktorjev v plačne razrede pridobiti soglasje pristojnega ministra.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne s 1. marcem 2006.</p>
 <p>Št. 100-1/2006-7</p>
 <p>Ljubljana, dne 10. januarja 2006</p>
@@ -124,5 +137,36 @@ za gospodarstvo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-01-13", "kratica": "PRAV7532", "naziv": "Pravilnik o začasnih uvrstitvah delovnih mest direktorjev s področja gospodarstva v plačne razrede znotraj razponov plačnih razredov", "url": "/trubar/si/PRAV7532/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

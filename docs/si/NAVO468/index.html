@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3778" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO468.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO468" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO468.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO468,vrsta:navodilo">
+    
     <h1>Navodilo o dopolnitvah navodila o ukrepih za ugotavljanje, preprečevanje in zatiranje klasične prašičje kuge (Pestis suum)</h1>
 <p>Na podlagi sedme in devete alinee 114. člena zakona o veterinarstvu (Uradni list RS, št. 82/94, 21/95, 16/96, 98/99, 101/99 in 8/00) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>N A V O D I L O</h2>
 <p>o dopolnitvah navodila o ukrepih za ugotavljanje, preprečevanje in zatiranje klasične prašičje kuge (Pestis suum)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V navodilu o ukrepih za ugotavljanje, preprečevanje in zatiranje klasične prašičje kuge (Pestis suum) (Uradni list RS, št. 30/99 in 108/99) se doda nov 11.a člen, ki se glasi:</p>
 <h3>»11.a člen</h3>
 <p>Načrt ukrepov v primeru pojava klasične prašičje kuge za Republiko Slovenijo je naveden v prilogi III tega navodila.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Doda se priloga III, ki je kot sestavni del tega navodila objavljena skupaj z njim.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>To navodilo začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 323-01-47/98-2</p>
 <p>Ljubljana, dne 7. septembra 2000.</p>
@@ -521,5 +534,36 @@ imetnikov živali in drugih organizacij.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-09-22", "kratica": "NAVO468", "naziv": "Navodilo o dopolnitvah navodila o ukrepih za ugotavljanje, preprečevanje in zatiranje klasične prašičje kuge (Pestis suum)", "url": "/trubar/si/NAVO468/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

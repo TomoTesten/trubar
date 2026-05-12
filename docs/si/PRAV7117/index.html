@@ -21,25 +21,38 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3716" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7117.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7117" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7117.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7117,vrsta:pravilnik">
+    
     <h1>Pravilnik o določitvi nacionalnega dodatka k Evropski farmakopeji</h1>
 <p>Na podlagi prvega odstavka 10. člena Zakona o zdravilih in medicinskih pripomočkih (Uradni list RS, št. 101/99, 70/00, 7/02, 13/02 – <a href="/trubar/si/ZKrmi/" class="law-ref" title="ZKrmi">ZKrmi</a>, 67/02 in 47/04 – <a href="/trubar/si/ZdZPZ/" class="law-ref" title="ZdZPZ">ZdZPZ</a>) izdaja minister za zdravje</p>
 <h2>P R A V I L N I K</h2>
 <p>o določitvi nacionalnega dodatka k Evropski farmakopeji</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) Nacionalni dodatek k Evropski farmakopeji je "Slovenski dodatek k Evropski farmakopeji – Formularium Slovenicum (FS)".<br />
 (2) Spremembe in dopolnitve Slovenskega dodatka k Evropski farmakopeji se periodično objavljajo z novimi izdajami oziroma dopolnili.<br />
 (3) Sklep o izdaji posamezne izdaje oziroma dopolnila se objavi v Uradnem listu Republike Slovenije.<br />
 (4) Nove izdaje oziroma dopolnila začnejo veljati petnajsti dan po objavi sklepa iz prejšnjega odstavka v Uradnem listu Republike Slovenije.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Dne 6. septembra 2005 je Ministrstvo za zdravje, Agencija Republike Slovenije za zdravila in medicinske pripomočke, izdalo Drugo izdajo Slovenskega dodatka k Evropski farmakopeji – Formularium Slovenicum (FS 2.0), ki ga je založil Zavod za farmacijo in za preizkušanje zdravil – Ljubljana.<br />
 (2) Druga izdaja nadomešča Prvo izdajo Slovenskega dodatka k Evropski farmakopeji – Formularium Slovenicum (FS) iz leta 1998 z vsemi dopolnili.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Z dnem uveljavitve tega pravilnika prenehajo veljati Odredba o določitvi nacionalnega dodatka k evropski farmakopeji (Uradni list RS, št. 45/98), Odredba o določitvi nacionalnega dodatka k evropski farmakopeji (Uradni list RS, št. 79/00), Sklep o izdaji 2. dopolnila k Slovenskemu dodatku k Evropski farmakopeji (Uradni list RS, št. 96/00), Sklep o 3. dopolnilu k Slovenskemu dodatku k Evropski farmakopeji – Formularium Slovenicum (Uradni list RS, št. 76/01), Sklep o izdaji 4. dopolnila k Slovenskemu dodatku k Evropski farmakopeji (Uradni list RS, št. 81/02), Sklep o izdaji 5. dopolnila k Slovenskemu dodatku k Evropski farmakopeji (Uradni list RS, št. 114/03) in Sklep o izdaji 6. dopolnila k Slovenskemu dodatku k Evropski farmakopeji (Uradni list RS, št. 130/04).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 022-14/2005</p>
 <p>Ljubljana, dne 19. septembra 2005.</p>
@@ -55,5 +68,36 @@ za zdravje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-09-26", "kratica": "PRAV7117", "naziv": "Pravilnik o določitvi nacionalnega dodatka k Evropski farmakopeji", "url": "/trubar/si/PRAV7117/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

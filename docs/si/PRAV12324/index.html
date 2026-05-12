@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2015-01-4325" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12324.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV12324" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12324.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV12324,vrsta:pravilnik">
+    
     <h1>Pravilnik o gozdnogospodarskem načrtu gozdnogospodarske enote Slovenska Bistrica (2015–2024)</h1>
 <p>Na podlagi sedmega odstavka 14. člena Zakona o gozdovih (Uradni list RS, št. 30/93, 56/99 – <a href="/trubar/si/ZON/" class="law-ref" title="ZON">ZON</a>, 67/02, 110/02 – <a href="/trubar/si/ZGO-1/" class="law-ref" title="ZGO-1">ZGO-1</a>, 115/06 – ORZG40, 110/07, 106/10, 63/13, 101/13 – <a href="/trubar/si/ZDavNepr/" class="law-ref" title="ZDavNepr">ZDavNepr</a>, 17/14 in 24/15) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <p>P R A V I L N I K</p>
@@ -94,5 +107,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2015-12-30", "kratica": "PRAV12324", "naziv": "Pravilnik o gozdnogospodarskem načrtu gozdnogospodarske enote Slovenska Bistrica (2015–2024)", "url": "/trubar/si/PRAV12324/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2333" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPKTP.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPKTP" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPKTP.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPKTP,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o poroštvu Republike Slovenije za obveznosti iz naslova kredita, ki je bil v času bivše SFRJ najet pri Evropski investicijski banki za transjugoslovanski železniški projekt II/A</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O POROŠTVU REPUBLIKE SLOVENIJE  ZA OBVEZNOSTI IZ NASLOVA KREDITA NAJETEGA PRI EVROPSKI INVESTICIJSKI BANKI ZA TRANSJUGOSLOVANSKI ŽELEZNIŠKI PROJEKT II/A (ZPKTP)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Republika Slovenija daje poroštvo za obveznosti Slovenskih železnic, d.d., Ljubljana (v nadaljnjem besedilu: SŽ) iz naslova kredita, ki je bil najet pri Evropski investicijski banki s pogodbo št. 1.4089 YU, dne 24. 7. 1989 za Transjugoslovanski železniški projekt II/A, v znesku 16 mio ECU za obnovo železniškega omrežja v Republiki Sloveniji, pod naslednjimi pogoji:<br />
 – obrestna mera je fiksna in znaša 8,20% letno;<br />
 – rok odplačila je 20 let z vključenim 4-letnim moratorijem za odplačilo glavnice, z začetkom odplačevanja 15. 9. 1994;<br />
@@ -46,15 +59,15 @@ Milan Kučan l. r.</p>
 – zamudne obresti so vsota pogodbenih obresti in dodatnih obresti v znesku 2,50% letno za zapadel in neodplačan znesek kredita in se obračunajo za čas od dneva zapadlosti do dneva dejanskega plačila zapadlega zneska kredita;<br />
 – stroški, povezani s črpanjem, odpovedjo in odplačilom kredita (razen obresti) se obračunavajo v ECU in so plačljivi v ECU ali katerikoli od valut držav članic Evropske gospodarske skupnosti.<br />
 Skladno s prejšnjim odstavkom bo Republika Slovenija v primeru, ko SŽ zaradi svoje plačilne nesposobnosti ne bodo poravnavale svojih dospelih obveznosti po kreditni pogodbi, na poseben poziv Evropske investicijske banke, plačala te obveznosti namesto SŽ.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pogodbo o poroštvu v imenu in za račun Republike Slovenije podpiše z Evropsko investicijsko banko minister, pristojen za finance.<br />
 Ministrstvo, pristojno za finance, skrbi za izvajanje tega zakona ter vseh pravic in obveznosti Republike Slovenije, ki iz njega izhajajo.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Sredstva za izpolnitev poroštvenih obveznosti Republike Slovenije v primeru iz drugega odstavka 1. člena tega zakona, se zagotavljajo v proračunu Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Če Republika Slovenija plača obveznosti iz kreditne pogodbe namesto SŽ, pridobi pravico regresiranja izplačanih zneskov od kreditojemalca, skupaj z vsemi stroški, ki so v zvezi s tem nastali.<br />
 SŽ sklenejo z ministrstvom, pristojnim za finance, pogodbo o načinu zavarovanja poroštva Republike Slovenije v roku 30 dni po podpisu poroštvene pogodbe iz 2. člena tega zakona. S pogodbo se uredijo viri za vračilo zneskov plačanih iz naslova poroštva, instrumenti zavarovanja in realizacije terjatev ter način urejanja odnosov v primeru statusnih sprememb SŽ.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-03/97-69/1</p>
 <p>Ljubljana, dne 1. julija 1997.</p>
@@ -70,5 +83,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-07-11", "kratica": "ZPKTP", "naziv": "Zakon o poroštvu Republike Slovenije za obveznosti iz naslova kredita, ki je bil v času bivše SFRJ najet pri Evropski investicijski banki za transjugoslovanski železniški projekt II/A", "url": "/trubar/si/ZPKTP/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

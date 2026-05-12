@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-02-0024" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKIRM.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MKIRM" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKIRM.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MKIRM,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Mednarodne konvencije o iskanju in reševanju na morju, 1979</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI MEDNARODNE KONVENCIJE O ISKANJU IN REŠEVANJU NA MORJU, 1979 (MKIRM)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Mednarodna konvencija o iskanju in reševanju na morju, 1979, sestavljena v Hamburgu 27. aprila 1979.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Konvencija se v izvirniku v angleškem jeziku in v prevodu v slovenskem jeziku glasi:</p>
 <h2>INTERNATIONAL CONVENTION</h2>
 <p>ON MARITIME SEARCH AND RESCUE, 1979</p>
@@ -485,9 +498,9 @@ Kot pomoč pri določanju ustreznih operativnih postopkov pristojni center za us
 5.4 Uporaba sistemov<br />
 5.4.1   Pogodbenice naj spodbujajo vse ladje, da sporočijo svoje položaje, ko potujejo v območjih, v katerih so bili sprejeti ukrepi zaradi zbiranja podatkov o položajih za iskanje in reševanje.<br />
 5.4.2   Pogodbenice, ki spremljajo podatke o položaju ladij, jih naj, če je to izvedljivo, pošljejo drugim državam, ko te zanje zaprosijo zaradi iskanja in reševanja.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje konvencije skrbi Ministrstvo za promet.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije - Mednarodne pogodbe.</p>
 <p>Št. 212-02/01-3/1</p>
 <p>Ljubljana, dne 5. aprila 2001</p>
@@ -503,5 +516,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-04-28", "kratica": "MKIRM", "naziv": "Zakon o ratifikaciji Mednarodne konvencije o iskanju in reševanju na morju, 1979", "url": "/trubar/si/MKIRM/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,19 +21,32 @@
       <dt>Organ</dt><dd>Agencija za zavarovalni nadzor</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-0290" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6844.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE6844" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6844.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE6844,vrsta:sklep">
+    
     <h1>Sklep o dopolnitvi Sklepa o podrobnejši vsebini dokumentacije k zahtevi za izdajo dovoljenja za opravljanje funkcije člana uprave</h1>
 <p>Na podlagi drugega odstavka 25. člena in 2. točke 256. člena Zakona o zavarovalništvu (Uradni list RS, št. 109/06 – uradno prečiščeno besedilo) izdaja strokovni svet Agencije za zavarovalni nadzor</p>
 <h2>S K L E P</h2>
 <p>o dopolnitvi Sklepa o podrobnejši vsebini dokumentacije k zahtevi za izdajo dovoljenja<br />
 za opravljanje funkcije člana uprave</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Sklepu o podrobnejši vsebini dokumentacije k zahtevi za izdajo dovoljenja za opravljanje funkcije člana uprave (Uradni list RS, št. 52/05) se Obrazec CV-AZN k zahtevi za izdajo dovoljenja Agencije za zavarovalni nadzor za opravljanje funkcije člana uprave zavarovalnice, pozavarovalnice, družbe za vzajemno zavarovanje in pokojninske družbe v 3. točki pod oznako b dopolni z naslednjo alineo:<br />
 »– soglašamo, da Agencija za zavarovalni nadzor sama pridobi potrdilo o nekaznovanosti v izvirniku iz kazenske evidence, iz katerega je razvidno, da izpolnjujem pogoje iz 2. točke prvega odstavka 24. člena Zakona o zavarovalništvu, kolikor ga ne bom sam predložil.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 40151-063/07</p>
 <p>Ljubljana, dne 16. januarja 2007</p>
@@ -50,5 +63,36 @@ Agencije za zavarovalni nadzor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-01-26", "kratica": "SKLE6844", "naziv": "Sklep o dopolnitvi Sklepa o podrobnejši vsebini dokumentacije k zahtevi za izdajo dovoljenja za opravljanje funkcije člana uprave", "url": "/trubar/si/SKLE6844/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

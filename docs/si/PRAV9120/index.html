@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-2802" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9120.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9120" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9120.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9120,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o prometni signalizaciji in prometni opremi na javnih cestah</h1>
 <p>Na podlagi tretjega odstavka 6. člena Zakona o javnih cestah (Uradni list RS, št. 33/06 – uradno prečiščeno besedilo in 45/08) izdaja minister za promet v soglasju z ministrom za notranje zadeve in ministrom za okolje in prostor</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o prometni signalizaciji in prometni opremi na javnih cestah</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o prometni signalizaciji in prometni opremi na javnih cestah (Uradni list RS, št. 46/00, 110/06 in 49/08) se v zadnji alineji točke 1) 2. člena beseda »sme« nadomesti z besedilom »in subjekti, ki izvajajo nadzor nad plačevanjem cestnine, smejo«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 22. členu se besedilo točke 68) spremeni tako, da se glasi:<br />
 »68) znak »omejitev največje dovoljene hitrosti na cestah v Republiki Sloveniji« (III-75), ki označuje splošne omejitve dovoljenih hitrosti v Republiki Sloveniji po vrsti ceste, opozarja na uporabo luči v prometu ter opozarja na način plačila cestnine na cestninskih cestah;«.<br />
 Grafični prikaz prometnega znaka III-75 se nadomesti z novim grafičnim prikazom III-75.</p>
@@ -44,17 +57,17 @@ Doda se nov grafični prikaz prometnega znaka III-101.1.</p>
 <p>Za točko 95) se doda nova točka 95.a), ki se glasi:<br />
 »95.a) znak »mešana vinjetna – cestninska steza (III-102.1), ki označuje na cesti, za uporabo katere se plačuje cestnina, prometni pas, ki ga smejo uporabljati vsa vozila;«.<br />
 Doda se nov grafični prikaz prometnega znaka III-102.1.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 26. členu se besedilo podtočke o) točke 2) spremeni tako, da se glasi:<br />
 »o) znak III-100 (razvrščanje vozil na območju cestninske postaje), ki ima osnovno barvo rumeno, simbole pa črne, oranžne in zelene barve;«.<br />
 Za podtočko z) točke 2) se dodata novi podtočki aa) in ab), ki se glasita:<br />
 »aa) znak III-101.1 (vinjetna – cestninska steza), ki je rumene barve z vstavljenim simbolom vinjete oranžne barve ter vstavljenim prometnim znakom II-6 in II-7.1 z napisom 3,5t;<br />
 ab) znak III-102.1 (mešana vinjetna – cestninska steza), ki je zelene barve in ki ima bel napis in vstavljen znak vinjete oranžne barve;«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 28. členu se za točko 19) doda nova točka 20), ki se glasi:<br />
 »20) dopolnilna tabla IV-20 »vinjeta«, ki vozniku pojasnjuje, da vstopa na avtocesto (kadar je dodana znaku III-10) oziroma hitro cesto (kadar je dodana znaku III-12), za uporabo katere se plačuje cestnina, in da morajo biti vozila, katerih največja dovoljena masa ne presega 3,5 t, označena s predpisano vinjeto.«.<br />
 Doda se nov grafični prikaz dopolnilne table IV-20.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 2640-5/2005/134-0032074</p>
 <p>Ljubljana, dne 10. junija 2008</p>
@@ -78,5 +91,36 @@ za okolje in prostor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-06-27", "kratica": "PRAV9120", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o prometni signalizaciji in prometni opremi na javnih cestah", "url": "/trubar/si/PRAV9120/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,25 +21,38 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1593" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5131.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5131" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5131.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5131,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o spremembah in dopolnitvah Uredbe o finančni pomoči ob nepredvidljivih dogodkih v kmetijstvu</h1>
 <p>Na podlagi 10. in 12. člena ter v zvezi z 22. členom Zakona o kmetijstvu (Uradni list RS, št. 45/08) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o finančni pomoči ob nepredvidljivih dogodkih v kmetijstvu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o finančni pomoči ob nepredvidljivih dogodkih v kmetijstvu (Uradni list RS, št. 71/08; v nadaljnjem besedilu: uredba) se v drugem odstavku 14. člena na koncu 3. točke pika nadomesti s podpičjem in doda nova 4. točka, ki se glasi:<br />
 »4. vlagatelji, ki so utrpeli škodo v letu 2008 in so škodni dogodek prijavili po telefonu številka 112 na Upravo Republike Slovenije za zaščito in reševanje, vendar niso pridobili zapisnika pregleda Nacionalnega veterinarskega inštituta, iz katerega bi bilo razvidno, da pogin ni posledica kužne bolezni oziroma nepravilne oskrbe čebeljih družin, predložijo izjavo o škodnem dogodku. Iz te izjave mora biti razvidno, kdaj je nastal škodni dogodek, identifikacijska številka čebelnjaka, ki je predmet odškodnine, in njegova lokacija. Agencija Republike Slovenije za kmetijske trge in razvoj podeželja pridobi dokazilo Nacionalnega veterinarskega inštituta, da na območju, na katerem je oškodovani čebelnjak, ni bilo omejitev zaradi prisotnosti bolezni.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 21. členu se na koncu točke b) pika nadomesti z vejico in doda nova točka c), ki se glasi:<br />
 »c) prepovedi prometa z živalmi, prepovedi razvažanja gnoja in gnojevke, prepovedi klanja živali, neškodljivega odstranjevanja trupel, dezinfekcije, dezinsekcije in deratizacije, zamenjave krme in postavitve dezbariere na kmetiji kot posledic izbruha vraničnega prisada na kmetijskem gospodarstvu.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 31. členu se za drugim odstavkom dodata nova tretji in četrti odstavek, ki se glasita:<br />
 »(3) Upravičenec mora omogočiti dostop do dokumentacije ter omogočiti kontrolo na kraju samem ARSKTRP, MKGP, revizijskemu organu in drugim nadzornim organom.<br />
 (4) Upravičenci iz ukrepov Finančna pomoč za nadomestilo škode zaradi požara ali strele na kmetijskem gospodarstvu in Finančna pomoč ob smrti, invalidnosti ali nesposobnosti za delo morajo ohraniti kmetovanje na tem kmetijskem gospodarstvu še nadaljnjih pet let po prejemu sredstev.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
@@ -59,7 +72,7 @@
 6. kužna živalska bolezen, ki prizadene vso kmetovo živino ali njen del.<br />
 (5) O višji sili ali izrednih okoliščinah iz prejšnjega odstavka mora upravičenec ali njegova pooblaščena oseba pisno obvestiti pristojni organ in predložiti ustrezna dokazila v desetih delovnih dneh od dneva, ko je upravičenec oziroma njegova pooblaščena oseba to zmožna storiti.«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(začetek veljavnosti)</h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00715-12/2009/6</p>
@@ -76,5 +89,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-05-04", "kratica": "URED5131", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o finančni pomoči ob nepredvidljivih dogodkih v kmetijstvu", "url": "/trubar/si/URED5131/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

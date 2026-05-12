@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2327" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG543.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG543" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG543.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG543,vrsta:drugi akt">
+    
     <h1>Spremembe in dopolnitve pravil igre na srečo "Prve stave"</h1>
 <p>Na podlagi zakona o igrah na srečo (Uradni list RS, št. 27/95) in poslovnika o delu uprave, je uprava družbe Športna loterija in igre na srečo d.d. Ljubljana, Cigaletova 15, na seji dne 27. 3. 2000 sprejela</p>
 <h2>S P R E M E M B E   I N   D O P O L N I T V E P R A V I L</h2>
 <p>igre na srečo »Prve stave«</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilih igre na srečo »Prve stave«, ki jih je sprejel nadzorni svet na seji dne 21. 4. 1999, spremembe in dopolnitve uprava družbe dne 24. 3. 2000, se 13. člen spremeni tako, da glasi:<br />
 »Za pravilno napovedane stave prireditelj upošteva dogodke, pri katerih so bila upoštevana naslednja določila:<br />
 Nogomet<br />
@@ -94,9 +107,9 @@ Za rezultat dogodka se upošteva končni izid, ki je določen s prvo uradno razg
 Če je dogodek odpovedan ali preložen in se ni ponovno začel v 48 urah, se obračuna kvota 1,0. Če se je dogodek začel v 48 urah, se upoštevajo igrane kvote. Če je dogodek odpovedan pred začetkom zaradi odstopa enega od tekmovalcev, se obračuna kvota 1,0. Če je tekmovalec odstopil ali bil diskvalificiran v času dogodka se upošteva, da je tekmovalec sodeloval v dogodku.<br />
 V primeru spremembe kraja dogodka, ki ga ni napovedal prireditelj, je stava nična in se obračuna kvota 1,0.<br />
 Če se sprejema stava na zmago ekipe ali tekmovalca v izbranem dogodku, se v primeru, da ekipi ali tekmovalca dosežeta enak izid ali če sta obe ekipi oziroma tekmovalca odstopila v času dogodka oziroma sta bila diskvalificirana, šteje, da v izbranem dogodku ni zmagovalca in je stava izgubljena.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ostala določila pravil ostanejo nespremenjena.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Spremembe pravil veljajo z dnem, ko jih potrdi nadzorni organ. Spremembe pravil prireditelj objavi v javnem glasilu.</p>
 <p>Ljubljana, dne 27. marca 2000.</p>
 <p>Janez Bukovnik l. r.<br />
@@ -115,5 +128,36 @@ Direktor družbe</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-06-02", "kratica": "DRUG543", "naziv": "Spremembe in dopolnitve pravil igre na srečo \"Prve stave\"", "url": "/trubar/si/DRUG543/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

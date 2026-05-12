@@ -21,35 +21,48 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3790" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3916.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV3916" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3916.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV3916,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o štipendiranju</h1>
 <p>Na podlagi 59. člena zakona o zaposlovanju in zavarovanju za primer brezposelnosti (Uradni list RS, št. 5/91, 17/91, 12/92, 71/93, 2/94 in 38/94) in 99. člena zakona o upravi (Uradni list RS, št. 67/94 in 20/95 – odl. US RS), izdaja minister za delo, družino in socialne zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o štipendiranju</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 2. členu pravilnika o štipendiranju (Uradni list RS, št. 29/93, 64/93, 64/94, 69/94, 33/95, 38/96 in 39/97) se za prvim odstavkom doda nov drugi odstavek, ki se glasi:</p>
 <p>“Pravico do republiške štipendije lahko uveljavijo tudi vajenci, ki se poklicno izobražujejo pri delodajalcu in v poklicni šoli, če je to razmerje urejeno z učno pogodbo v skladu s predpisi s področja poklicnega in strokovnega izobraževanja.”</p>
 <p>Dosedanji drugi odstavek postane tretji odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V četrtem odstavku 10. člena se za besedo “dobiček” dodata besedi “pred obdavčitvijo”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V tretjem odstavku 12. člena se v tabeli zaporedna številka 5 spremeni tako, da se glasi: “nad 131”.<br />
 Zaporedna številka 6 in celotno besedilo pod to številko se črta.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za 13. členom se doda nov 13.a člen, ki se glasi:</p>
 <p>“Štipendistom iz drugega odstavka 2. člena tega pravilnika pripada osnovna štipendija v višini štipendije za dijake, določena z drugim odstavkom 12. člena in dodatek v skladu s prejšnjim členom tega pravilnika.”</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Drugi odstavek 24. člena se spremeni tako, da se glasi:</p>
 <p>“Odločbo o Zoisovi štipendiji za študij v tujini izda Republiški zavod za zaposlovanje.”</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>25.a člen se spremeni tako, da se glasi:</p>
 <p>“O pritožbi zoper odločbo Republiškega zavoda za zaposlovanje odloča ministrstvo, pristojno za delo.”</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>25.b člen se črta.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta pravilnik začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 017-01-0013/96</p>
 <p>Ljubljana, dne 13. novembra 1997.</p>
@@ -65,5 +78,36 @@ mag. Anton Rop l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-12-19", "kratica": "PRAV3916", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o štipendiranju", "url": "/trubar/si/PRAV3916/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

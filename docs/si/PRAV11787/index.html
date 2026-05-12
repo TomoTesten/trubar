@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-2297" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11787.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11787" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11787.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11787,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o vodenju evidence o odpustu obveznosti in pošiljanju obvestil glede vodenja te evidence</h1>
 <p>Na podlagi petega odstavka 413. člena Zakona o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju (Uradni list RS, št. 126/07, 40/09, 59/09, 52/10, 106/10 – ORZFPPIPP21, 26/11, 47/11 – ORZFPPIPP21-1, 87/11 – ZPUOOD, 23/12 – odl. US in 47/13) izdaja minister za pravosodje</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o vodenju evidence o odpustu obveznosti in pošiljanju obvestil glede vodenja te evidence</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o vodenju evidence o odpustu obveznosti in pošiljanju obvestil glede vodenja te evidence (Uradni list RS, št. 83/08) se v 1. členu, v 2. točki pika na koncu nadomesti s podpičjem in doda nova 3. točka, ki se glasi:<br />
 »3. vsebini ter načinu posredovanja zahteve in podatkov po prvem odstavku 400. člena zakona.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 7. členom se dodata nova 7.a in 7.b člen, ki se glasita:</p>
 <h3>»7.a člen</h3>
 <h3>(vsebina in način pošiljanja zahtev sodišč za posredovanje podatkov iz evidence)</h3>
@@ -51,7 +64,7 @@
 1. če so v evidenci vpisani podatki o določenem dolžniku: podatke iz drugega odstavka 3. člena tega pravilnika,<br />
 2. če v evidenci o določenem dolžniku ni vpisa: identifikacijske podatke o dolžniku iz tretjega odstavka 17. člena zakona in podatek, da ta dolžnik ni vpisan v evidenco o odpustu obveznosti.<br />
 (2) Ministrstvo mora sodišču podatke iz prejšnjega odstavka poslati po elektronski pošti na naslov iz 2. točke prvega odstavka prejšnjega člena.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(končna določba)</h3>
 <p>Ta pravilnik začne veljati 15. julija 2013.</p>
 <p>Št. 007-529/2013/8</p>
@@ -68,5 +81,36 @@ za pravosodje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-07-12", "kratica": "PRAV11787", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o vodenju evidence o odpustu obveznosti in pošiljanju obvestil glede vodenja te evidence", "url": "/trubar/si/PRAV11787/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

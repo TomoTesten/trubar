@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0863" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3590.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3590" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3590.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3590,vrsta:drugi akt">
+    
     <h1>Priloga k Statutu Univerze na Primorskem</h1>
 <p>Na podlagi 6. in 10. člena Odloka o ustanovitvi Univerze na Primorskem (Uradni list RS, št. 13/03, 79/04, 36/06, 137/06 in 67/08), 20. člena, tretje alineje 38. člena in prve alineje 50. člena Statuta Univerze na Primorskem (Uradni list RS, št. 124/08) ter Uredbe o spremembah in dopolnitvah Uredbe o standardni klasifikaciji dejavnosti (Uradni list RS, št. 17/08), sta Senat Univerze na Primorskem na 37. redni seji dne 19. 1. 2011 in Upravni odbor Univerze na Primorskem na 6. izredni seji dne 31. 1. 2011 določila kot sestavni del statuta naslednjo</p>
 <h2>P R I L O G O</h2>
@@ -457,5 +470,36 @@ predsednik Senata UP, rektor Univerze na Primorskem</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-03-21", "kratica": "DRUG3590", "naziv": "Priloga k Statutu Univerze na Primorskem", "url": "/trubar/si/DRUG3590/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

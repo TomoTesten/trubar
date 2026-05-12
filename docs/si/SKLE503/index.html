@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2550" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE503.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE503" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE503.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE503,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Sklep o organizaciji in delovnem področju Urada Vlade Republike Slovenije za droge</h1>
 <p>Na podlagi četrtega odstavka 21. člena in prvega odstavka 23. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96 in 47/97) je Vlada Republike Slovenije na 71. seji, dne 23. julija 1998. sprejela</p>
 <h2>S K L E P</h2>
 <p>o organizaciji in delovnem področju Urada Vlade Republike Slovenije za droge</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Urad Vlade Republike Slovenije za droge (v nadaljnjem besedilu: urad) se ustanovi kot služba vlade za spremljanje problematike na področju preprečevanja uživanja prepovedanih in drugih drog, zmanjševanja povpraševanja po drogah, zmanjševanja škode zaradi uporabe drog ter za zdravljenje, rehabilitacijo ter resocializacijo nekdanjih uživalcev drog.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Urad opravlja naslednje naloge:<br />
 – usklajuje medresorske priprave nacionalnega programa za preprečevanje uživanja prepovedanih in drugih drog ter zdravljenje in rehabilitacijo uživalcev drog in ga predlaga Komisiji Vlade Republike Slovenije za droge  (v nadaljnjem besedilu: komisija),<br />
 – usklajuje medresorske predloge proračunskih sredstev namenjenih za programe za preprečevanje uživanja prepovedanih drog in drugih drog ter zdravljenje in rehabilitacijo uživalcev drog, ki se financirajo iz proračuna (v nadaljnjem besedilu: program),<br />
@@ -46,15 +59,15 @@
 – usklajuje medresorsko pripravo strokovnih in kadrovskih standardov za delovanje terapevtskih skupnosti ali programov,<br />
 – skrbi za vzpostavitev in delovanje medresorskega dokumentacijsko – informacijskega centra na področju drog, v skladu s kriteriji, ki jih o posredovanju podatkov centru določi Vlada Republike Slovenije.<br />
 Urad opravlja strokovne in tajniške naloge za komisijo iz prve alinee prejšnjega odstavka.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Urad pri opravljanju svojih nalog sodeluje z ministrstvi in z drugimi vladnimi službami, z delovnimi telesi državnega zbora, organi lokalnih skupnosti, zdravstvenimi zavodi, z organizacijami in drugimi združenji, ki se ukvarjajo s programi.<br />
 Urad in ministrstva, pristojna za zdravstvo, šolstvo, šport, obrambo, notranje zadeve, pravosodje, delo, družino, socialne zadeve ter finance, so na področju informacijske tehnologije na področju drog organizirani v enoten sistem.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Urad vodi direktor. Direktorja urada imenuje in razrešuje Vlada Republike Slovenije na predlog generalnega sekretarja Vlade Republike Slovenije.<br />
 Direktor je za delo urada odgovoren generalnemu sekretarju Vlade Republike Slovenije. Direktor ima namestnika, ki ga nadomešča z vsemi pooblastili in odgovornostmi v celoti, kadar je odsoten ali zadržan.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Akt o notranji organizaciji in o sistemizaciji delovnih mest v uradu izda direktor po predhodnem soglasju vlade najkasneje 30 dni od dneva uveljavitve tega sklepa.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 516-00/98-2</p>
 <p>Ljubljana, dne 23. julija 1998.</p>
@@ -69,5 +82,36 @@ dr. Janez Drnovšek l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-08-07", "kratica": "SKLE503", "naziv": "Sklep o organizaciji in delovnem področju Urada Vlade Republike Slovenije za droge", "url": "/trubar/si/SKLE503/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

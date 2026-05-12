@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Ministrstvo za javno upravo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-3505" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7822.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7822" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7822.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7822,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o uvrstitvi delovnih mest direktorjev s področja javne uprave v plačne razrede znotraj razponov plačnih razredov</h1>
 <p>Na podlagi 74. člena Zakona o državni upravi (Uradni list RS, št. 24/05 – uradno prečiščeno besedilo in 93/05) za izvajanje 11. člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 32/06 – uradno prečiščeno besedilo in 68/06) ter na podlagi 3. in 4. člena Uredbe o plačah direktorjev v javnem sektorju (Uradni list RS, št. 73/05, 103/05,12/06, 36/06, 46/06 in 77/06), izdaja minister za javno upravo</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o uvrstitvi delovnih mest direktorjev s področja javne uprave v plačne razrede znotraj razponov plačnih razredov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o uvrstitvi delovnih mest direktorjev s področja javne uprave v plačne razrede znotraj razponov plačnih razredov (Uradni list RS, št. 106/05, 20/06 in 39/06, v nadaljnjem besedilu: pravilnik) se v drugem odstavku 2. člena tabela »Tip osebe javnega prava: ministrstvo (generalni direktorat), Razpon plačnega razreda: 56-57«, nadomesti z novo tabelo, ki se glasi:</p>
 <p>Tip osebe javnega prava: ministrstvo (generalni direktorat)<br />
    Razpon plačnega razreda: 56-57<br />
@@ -211,7 +224,7 @@
 | 35114 |Direktorat za medije           |B017103|Generalni direktor|    56   |<br />
 |       |                               |       |direktorata MIN   |         |<br />
 +-------+-------------------------------+-------+------------------+---------+</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugem odstavku 2. člena pravilnika se tabela »Tip osebe javnega prava: ministrstvo (sekretariat), Razpon plačnega razreda: 54-55« nadomesti z novo tabelo, ki se glasi:</p>
 <p>Tip osebe javnega prava: ministrstvo (sekretariat)<br />
 Razpon plačnega razreda: 55-56<br />
@@ -266,7 +279,7 @@ Razpon plačnega razreda: 55-56<br />
 |   35114    |MINISTRSTVO ZA KULTURO       |B017104 |Generalni     |   55    |<br />
 |            |                             |        |sekretar MIN  |         |<br />
 +------------+-----------------------------+--------+--------------+---------+</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V drugem odstavku 2. člena pravilnika se v tabeli »Tip osebe javnega prava: upravna enota, Razpon plačnega razreda: 48-50, v petem stolpcu »plačni razred«, številka »48« nadomesti s številko »49«, pri naslednjih šifrah PU oziroma nazivih proračunskih uporabnikov:<br />
 62049 – Upravna enota Cerknica,<br />
 62111 – Upravna enota Idrija,<br />
@@ -279,7 +292,7 @@ Razpon plačnega razreda: 55-56<br />
 62421 – Upravna enota Ruše,<br />
 62545 – Upravna enota Tržič,<br />
 62570 – Upravna enota Zagorje ob Savi,</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne 1. avgusta 2006.</p>
 <p>Št. 0100-19/2006/16</p>
 <p>Ljubljana, dne 24. julija 2006</p>
@@ -295,5 +308,36 @@ za javno upravo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-07-27", "kratica": "PRAV7822", "naziv": "Pravilnik o spremembah Pravilnika o uvrstitvi delovnih mest direktorjev s področja javne uprave v plačne razrede znotraj razponov plačnih razredov", "url": "/trubar/si/PRAV7822/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

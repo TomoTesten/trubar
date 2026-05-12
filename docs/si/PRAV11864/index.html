@@ -21,29 +21,42 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3483" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11864.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11864" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11864.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11864,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o tehničnih pregledih motornih in priklopnih vozil</h1>
 <p>Na podlagi 47. in 61. člena Zakona o motornih vozilih (Uradni list RS, št. 106/10) izdaja minister za infrastrukturo in prostor</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o tehničnih pregledih motornih in priklopnih vozil</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o tehničnih pregledih motornih in priklopnih vozil (Uradni list RS, št. 44/13) se v drugem odstavku 17. člena v drugem stavku beseda »tehnični« nadomesti z besedo »tehničnega«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V četrtem odstavku 26. člena se v 2. točki za besedo »vozila« doda vejica in besedilo »če izvajalcu tehničnega pregleda vsebina dokazila ni razumljiva«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prvem, drugem in tretjem odstavku 29. člena se besedilo »2. decembra 2013« nadomesti z besedilom »7. maja 2014«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Drugi odstavek 31. člena se spremeni tako, da se glasi:<br />
 »(2) Nova pooblastila strokovnim organizacijam za izvajanje tehničnih pregledov vozil samo na preskuševalni stezi za osebne avtomobile, lahko agencija podeli, če je bilo za objekt pridobljeno pravnomočno gradbeno dovoljenje do 1. septembra 2013.«.<br />
 Za drugim odstavkom se dodata nova tretji in četrti odstavek, ki se glasita:<br />
 »(3) Nova pooblastila strokovnim organizacijam za izvajanje tehničnih pregledov vozil na preskuševalni stezi, ki ne izpolnjuje pogojev iz 9. člena tega pravilnika lahko agencija podeli, če preskuševalna steza izpolnjuje pogoje, ki so se za tako stezo uporabljali pred uveljavitvijo tega pravilnika in je bilo za objekt pridobljeno pravnomočno gradbeno dovoljenje do 31. decembra 2013.<br />
 (4) Nova pooblastila strokovnim organizacijam za izvajanje tehničnih pregledov vozil lahko agencija podeli tudi, če preskuševalna steza ne izpolnjuje pogojev tega pravilnika, vendar je bilo za objekt, v katerem je ta preskuševalna steza, že pridobljeno pooblastilo za izvajanje tehničnih pregledov vozil.«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V 32. členu se besedilo »3. decembra 2013« nadomesti z besedilom »8. maja 2014«.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-386/2013</p>
 <p>Ljubljana, dne 5. novembra 2013</p>
@@ -59,5 +72,36 @@ za infrastrukturo in prostor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-11-25", "kratica": "PRAV11864", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o tehničnih pregledih motornih in priklopnih vozil", "url": "/trubar/si/PRAV11864/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

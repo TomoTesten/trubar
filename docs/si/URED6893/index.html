@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-4048" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6893.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6893" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6893.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6893,vrsta:uredba">
+    
     <h1>Uredba o spremembah Uredbe o plačah in drugih prejemkih javnih uslužbencev za delo v tujini</h1>
 <p>Na podlagi 3. člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 108/09 – uradno prečiščeno besedilo, 13/10, 59/10, 85/10, 107/10, 35/11 – ORZSPJS49a, 27/12 – odl. US, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>, 46/13, 25/14 – <a href="/trubar/si/ZFU/" class="law-ref" title="ZFU">ZFU</a> in 50/14), 44. člena Zakona o zunanjih zadevah (Uradni list RS, št. 113/03 – uradno prečiščeno besedilo, 20/06 – <a href="/trubar/si/ZNOMCMO/" class="law-ref" title="ZNOMCMO">ZNOMCMO</a>, 76/08, 108/09 in 80/10 – <a href="/trubar/si/ZUTD/" class="law-ref" title="ZUTD">ZUTD</a>) in 96. člena Zakona o službi v Slovenski vojski (Uradni list RS, št. 68/07 in 58/08 – ZSPJS-I) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah Uredbe o plačah in drugih prejemkih javnih uslužbencev za delo v tujini</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o plačah in drugih prejemkih javnih uslužbencev za delo v tujini (Uradni list RS, št. 14/09, 16/09 – popr., 23/09, 51/10, 67/10, 80/10 – <a href="/trubar/si/ZUTD/" class="law-ref" title="ZUTD">ZUTD</a>, 41/12, 68/12 in 47/13) se v 43.a členu v naslovu in prvem odstavku letnica »2014« nadomesti z letnico »2015«.<br />
 V drugem odstavku se letnica »2015« nadomesti z letnico »2016«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati 1. januarja 2015.</p>
 <p>Št. 00714-7/2014</p>
 <p>Ljubljana, dne 24. decembra 2014</p>
@@ -49,5 +62,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-12-29", "kratica": "URED6893", "naziv": "Uredba o spremembah Uredbe o plačah in drugih prejemkih javnih uslužbencev za delo v tujini", "url": "/trubar/si/URED6893/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

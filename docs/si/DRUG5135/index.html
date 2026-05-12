@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>DRUG5135</strong></dd>
       <dt>Vrsta</dt><dd>drugi akt</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>2022-12-29</dd>
-      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2022-01-4237" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5135.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG5135" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5135.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG5135,vrsta:drugi akt">
+    
     <h1>Sporazum o razreševanju stavkovnih zahtev in o realizaciji Dogovora o nujnih ukrepih na področju plač v dejavnosti zdravstva in socialnega varstva in nadaljevanju pogajanj</h1>
 <p>Na podlagi 6. člena Zakona o stavki (Uradni list SFRJ, št. 23/91, in Uradni list RS, št. 22/91, 17/91-I, 13/93 in 66/93) skleneta Vlada Republike Slovenije (v nadaljnjem besedilu: Vlada RS), ki jo zastopata Danijel Bešič Loredan, minister za zdravje in Luka Mesec, minister za delo, družino, socialne zadeve in enake možnosti ter sindikati:</p>
 <p>Sindikat zdravstva in socialnega varstva Slovenije, ki ga zastopa Irena Ilešič Čujovič,</p>
@@ -118,5 +131,36 @@ Branimir Štrukelj</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2022-12-29", "kratica": "DRUG5135", "naziv": "Sporazum o razreševanju stavkovnih zahtev in o realizaciji Dogovora o nujnih ukrepih na področju plač v dejavnosti zdravstva in socialnega varstva in nadaljevanju pogajanj", "url": "/trubar/si/DRUG5135/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

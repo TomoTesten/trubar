@@ -21,35 +21,48 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2617" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2215.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV2215" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2215.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV2215,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Spremembe in dopolnitve pravilnika o zdravniški tarifi</h1>
 <p>Na podlagi 27. člena statuta Zdravniške zbornice Slovenije (Uradni list RS, št. 64/96 in 22/98) je skupščina Zdravniške zbornice Slovenije sprejela na seji dne 23. 6. 1998</p>
 <h2>S P R E M E M B E   I N   D O P O L N I T V E   P R A V I L N I K A</h2>
 <p>o zdravniški tarifi</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 1. členu se za besedo “zdravniških“ doda besedilo “ter zobozdravniških“. Črta se naslov “A) SPLOŠNI DEL“.<br />
 Doda se nov drugi odstavek, ki se glasi:</p>
 <p>“Določila pravilnika veljajo smiselno tudi za zobozdravniške storitve, kolikor posamezna določila posebej ne urejajo področje zobozdravniških storitev drugače.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 2. členu se za drugim odstavkom doda nov tretji odstavek, ki se glasi:</p>
 <p>“Stroški izvajanja zobozdravniških storitev ne vključujejo stroškov zobotehničnega laboratorija in stroškov za Rtg.“</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za 3. členom se doda nov člen, ki se glasi:</p>
 <p>“Osnova storitvenega sistema v zobozdravstvu so definicije posameznih zobozdravniških storitev in njihovo medsebojno razmerje, izraženo s točkami.</p>
 <p>Storitveni sistem v zobozdravstvu je priloga 2 tega pravilnika.“</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se na novo glasi:</li>
 </ol>
 <p>“Vrednost točke znaša 93 SIT in se spreminja glede na rast cen življenjskih potrebščin v Republiki Sloveniji, ki jo ugotavlja Zavod Republike Slovenije za statistiko. Vrednost točke se spremeni v primeru, da rast cen življenjskih potrebščin v času od zadnjega zvišanja znaša več kot 5%. Spremembo vrednosti točke določi izvršilni odbor zbornice s sklepom.“</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se točka “B TARIFA“ črta in v enakem besedilu določi kot Priloga 1 pravilnika o zdravniški tarifi.</li>
 </ol>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Spremembe in dopolnitve tega pravilnika začnejo  veljati osmi, dan po objavi v Uradnem listu RS.<br />
 Z dnem uveljavitve teh sprememb in dopolnitev pravilnika preneha veljati sklep o vrednosti točke zdravniške tarife (Uradni list RS, št. 55/96).</p>
 <p>Št. 200/98</p>
@@ -66,5 +79,36 @@ skupščine zdravniške zbornice</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-08-14", "kratica": "PRAV2215", "naziv": "Spremembe in dopolnitve pravilnika o zdravniški tarifi", "url": "/trubar/si/PRAV2215/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

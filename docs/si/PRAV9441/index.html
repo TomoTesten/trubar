@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3121" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9441.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9441" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9441.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9441,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o izvrševanju Zakona o matičnem registru</h1>
 <p>Na podlagi tretjega odstavka 19. člena, prvega odstavka 25. člena, prvega odstavka 26. člena in na podlagi drugega odstavka 30. člena Zakona o matičnem registru (Uradni list RS, št. 59/06 – uradno prečiščeno besedilo) izdaja ministrica za notranje zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o izvrševanju Zakona o matičnem registru</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o izvrševanju zakona o matičnem registru (Uradni list RS, št. 40/05) se v 52. členu doda nov drugi odstavek, ki se glasi:<br />
 »Izpiski in potrdila iz matičnega registra se lahko izdajajo v fizični ali v elektronski obliki. Izpiski in potrdila, izdana v elektronski obliki so opremljeni z elektronskim podpisom in žigom in se lahko uporabljajo v skladu z zakonom, ki ureja elektronsko poslovanje in elektronski podpis.«<br />
 Dosedanji drugi odstavek postane tretji odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 53. členom se doda nov 53.a člen, ki se glasi:</p>
 <h3>»53.a člen</h3>
 <h3>(izpiski v mednarodnem prometu)</h3>
@@ -46,7 +59,7 @@ Izpiski se izdajajo iz matičnega registra ali matičnih knjig na naslednjih obr
 – izpisek iz matičnega registra o sklenjeni zakonski zvezi, izdan na podlagi Pariške konvencije, na obrazcu št. 21 iz priloge tega pravilnika,<br />
 – izpisek iz matičnega registra o smrti, izdan na podlagi Pariške konvencije, na obrazcu št. 22 iz priloge tega pravilnika.<br />
 Obrazci iz prejšnjega odstavka so sestavni del tega pravilnika in so objavljeni skupaj z njim.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <ol>
 <li>členu se doda nov prvi odstavek, ki se glasi:<br />
 »Na podlagi vpisa v matični register se na zahtevo upravičenca izdaja Potrdilo o državljanstvu, na obrazcu št. 23 iz priloge tega pravilnika, na območjih, določenih z zakonom, kjer živita avtohtoni italijanska oziroma madžarska narodna skupnost, pa na obrazcu št. 24 oziroma 25 iz priloge tega pravilnika. Obrazci št. 23, 24 in 25 so objavljeni v prilogah št. 23, 24 in 25 tega pravilnika in so objavljeni skupaj z njim.«<br />
@@ -54,9 +67,9 @@ Dosedanji prvi odstavek postane drugi odstavek.<br />
 Dosedanji drugi odstavek se črta.</li>
 </ol>
 <h3>PREHODNE IN KONČNE DOLOČBE</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Z dnem uveljavitve tega pravilnika preneha veljati Pravilnik o izdajanju izpiskov iz matičnih knjig, namenjenih za uporabo v tujini (Uradni list RS, št. 48/93), in odločba ministra za notranje zadeve št., 0101-S-41/A-16/91 z dne 30. 3. 1994.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Določbe pravilnika, ki se nanašajo na izdajo izpiskov in potrdil v elektronski obliki, se začnejo uporabljati po zagotovitvi tehničnih in tehnoloških možnosti za elektronsko izdajo, vendar najpozneje v enem letu od uveljavitve pravilnika.<br />
 Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-179/2009/5 (1321-01)</p>
@@ -82,5 +95,36 @@ za notranje zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-09-04", "kratica": "PRAV9441", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o izvrševanju Zakona o matičnem registru", "url": "/trubar/si/PRAV9441/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

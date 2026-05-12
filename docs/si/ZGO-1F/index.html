@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2015-01-0708" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZGO-1F.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZGO-1F" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZGO-1F.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZGO-1F,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembi Zakona o graditvi objektov</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,11 +50,11 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBI ZAKONA O GRADITVI OBJEKTOV (ZGO-1F)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o graditvi objektov (Uradni list RS, št. 102/04 – uradno prečiščeno besedilo, 14/05 – popr., 92/05 – <a href="/trubar/si/ZJC-B/" class="law-ref" title="ZJC-B">ZJC-B</a>, 93/05 – <a href="/trubar/si/ZVMS/" class="law-ref" title="ZVMS">ZVMS</a>, 111/05 – odl. US, 126/07, 108/09, 61/10 – <a href="/trubar/si/ZRud-1/" class="law-ref" title="ZRud-1">ZRud-1</a>, 20/11 – odl. US, 57/12, 101/13 – <a href="/trubar/si/ZDavNepr/" class="law-ref" title="ZDavNepr">ZDavNepr</a> in 110/13) se v drugem odstavku 156.a člena v prvi alineji besedilo »eno leto« nadomesti z besedilom »pet let«, v drugi alineji pa besedilo »tri leta« nadomesti z besedilom »pet let«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Roki odloga izvršbe, določeni v sklepih o odlogu izvršbe, izdanih pred uveljavitvijo tega zakona na podlagi prve in druge alineje drugega odstavka 156.a člena Zakona o graditvi objektov (Uradni list RS, št. 102/04 – uradno prečiščeno besedilo, 14/05 – popr., 92/05 – <a href="/trubar/si/ZJC-B/" class="law-ref" title="ZJC-B">ZJC-B</a>, 93/05 – <a href="/trubar/si/ZVMS/" class="law-ref" title="ZVMS">ZVMS</a>, 111/05 – odl. US, 126/07, 108/09, 61/10 – <a href="/trubar/si/ZRud-1/" class="law-ref" title="ZRud-1">ZRud-1</a>, 20/11 – odl. US, 57/12, 101/13 – <a href="/trubar/si/ZDavNepr/" class="law-ref" title="ZDavNepr">ZDavNepr</a> in 110/13), se najpozneje v treh mesecih po uveljavitvi tega zakona podaljšajo po uradni dolžnosti, in sicer za toliko, kolikor znaša razlika med časom odobrenega odloga izvršbe iz že izdanega sklepa in na novo določenim najdaljšim časom odloga izvršbe iz drugega odstavka 156.a člena zakona.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 803-01/15-1/10</p>
 <p>Ljubljana, dne 9. marca 2015</p>
@@ -58,5 +71,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2015-03-20", "kratica": "ZGO-1F", "naziv": "Zakon o spremembi Zakona o graditvi objektov", "url": "/trubar/si/ZGO-1F/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

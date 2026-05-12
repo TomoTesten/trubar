@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3713" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5563.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5563" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5563.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5563,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o evidencah, ki jih vodi ministrstvo za notranje zadeve na področju eksplozivov</h1>
 <p>Na podlagi petega odstavka 42. člena zakona o eksplozivih (Uradni list RS, št. 96/02) izdaja minister za notranje zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o evidencah, ki jih vodi ministrstvo za notranje zadeve na področju eksplozivov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa obliko, vsebino in način vodenja evidenc, ki jih vodi ministrstvo za notranje zadeve (v nadaljnjem besedilu: ministrstvo) zaradi zagotavljanja podatkov o proizvodnji, prometu, ravnanju in uporabi eksplozivov.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ministrstvo vodi evidence v obliki:<br />
 – registra izdanih in odvzetih dovoljenj za proizvodnjo eksploziva,<br />
 – registra izdanih in odvzetih dovoljenj za promet z eksplozivi,<br />
@@ -39,7 +52,7 @@
 – registra izdanih in odvzetih dovoljenj za uvoz, izvoz ali tranzit eksploziva,<br />
 – registra odvzetih vzorcev eksploziva,<br />
 – registra eksplozivov, ki imajo soglasje k navodilu za uporabo.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) V registru izdanih in odvzetih dovoljenj za proizvodnjo eksploziva se vodijo naslednji podatki:<br />
 – podatki o pravni osebi (matična številka, firma/ime, sedež in naslov, dejavnost),<br />
 – podatki o odgovorni osebi pravne osebe (ime in priimek, EMŠO, prebivališče),<br />
@@ -76,11 +89,11 @@
 (6) V registru eksplozivov, ki imajo soglasje k navodilu za uporabo, se vodijo naslednji podatki:<br />
 – podatki o eksplozivu (ime, identifikacijska številka UN, vrsta, ime proizvajalca, številka CE),<br />
 – podatki o soglasju (ime organa, ki je izdal soglasje, številka soglasja, datum izdaje soglasja).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Evidence iz 2. člena tega pravilnika se vodijo na centralnem računalniku ministrstva. Podatke o izdanih in odvzetih dovoljenjih za promet in prenos eksplozivov iz drugega in tretjega odstavka prejšnjega člena, vnašajo v evidence pristojne upravne enote.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Za zbiranje, obdelovanje, shranjevanje, posredovanje in uporabo podatkov iz evidenc se uporabljajo določbe zakona, ki ureja varstvo osebnih podatkov.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 1323-01-216-121/2005</p>
 <p>Ljubljana, dne 12. septembra 2005.</p>
@@ -96,5 +109,36 @@ za notranje zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-09-26", "kratica": "PRAV5563", "naziv": "Pravilnik o evidencah, ki jih vodi ministrstvo za notranje zadeve na področju eksplozivov", "url": "/trubar/si/PRAV5563/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

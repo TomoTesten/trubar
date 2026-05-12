@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2064" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZVrt-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZVrt-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZVrt-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZVrt-A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o vrtcih</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,22 +50,22 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O VRTCIH (ZVrt-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o vrtcih (Uradni list RS, št. 12/96) se v petem odstavku 14. člena za besedo “delavcev“ doda besedilo, ki se glasi: “delovno obveznost ravnatelja in pomočnika ravnatelja.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Drugi odstavek 17. člena se spremeni tako, da se glasi:</p>
 <p>“Dnevni in poldnevni program izvajata vzgojitelj in pomočnik vzgojitelja. Dnevni program v oddelku prvega starostnega obdobja izvajata skupaj vsaj šest ur dnevno in v oddelku drugega starostnega obdobja vsaj štiri ure dnevno. Poldnevni program v oddelku prvega starostnega obdobja izvajata skupaj vsaj tri ure dnevno in v oddelku drugega starostnega obdobja vsaj dve uri dnevno.“</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za drugim odstavkom 30. člena se doda nov tretji odstavek, ki se glasi:</p>
 <p>“Osnova za plačilo staršev otrok, ki so vključeni v oddelke vrtcev na območjih s posebnimi razvojnimi problemi, je cena enakega programa, ki velja v vrtcu na območju občine oziroma povprečna cena enakih programov, ki veljajo v vrtcih na območju občine. V primeru, da so na območju lokalne skupnosti vsi oddelki vrtca oblikovani na podlagi posebnega normativa iz šestega odstavka 14. člena zakona, je osnova za plačilo staršev povprečna cena enakega programa v Republiki Sloveniji.“</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 31. členu se doda nov drugi odstavek, ki se glasi:</p>
 <p>“Metodologijo oblikovanja cen programov v vrtcih, ki opravljajo javno službo, določi minister, pristojen za predšolsko vzgojo.“</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V drugem odstavku 63. člena se letnica “2000“ nadomesti z letnico “2003“.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Določilo 2. člena tega zakona se začne uporabljati s 1. 9. 2000.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 601-01/90-1/9</p>
 <p>Ljubljana, dne 10. maja 2000.</p>
@@ -68,5 +81,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-05-26", "kratica": "ZVrt-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o vrtcih", "url": "/trubar/si/ZVrt-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

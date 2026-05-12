@@ -21,26 +21,39 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3241" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED828.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED828" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED828.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED828,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o spremembah in dopolnitvah uredbe o postopkih zadolževanja in prevzemanja obveznosti pravnih oseb v lasti Republike Slovenije</h1>
 <p>Na podlagi 48.a člena zakona o izvrševanju proračuna Republike Slovenije (Uradni list RS, št. 5/96, 78/97 in 34/98) in 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 23/96 in 47/97) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe  o postopkih zadolževanja in prevzemanja  obveznosti pravnih oseb v lasti  Republike Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o postopkih zadolževanja in prevzemanja obveznosti pravnih oseb v lasti Republike Slovenije (Uradni list RS, št. 52/98) se prvi odstavek 7. člena spremeni tako, da glasi:<br />
 ‘Določila te uredbe, razen 11. člena, se ne nanašajo na tiste pravne osebe, ki najemajo posojilo z ročnostjo do šest mesecev ali posojilo, s katerim nameravajo poplačati svoje obstoječe posojilne obveznosti pri istem upniku.’</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 8. členu se doda tretji odstavek, ki glasi:<br />
 ‘Določilo tega člena se ne nanaša na pravne osebe, pri katerih je pravna podlaga za izdajanje jamstev v zakonu.’</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V drugem odstavku 11. člena se besedilo ‘od zaporedne številke 10 do vključno zaporedne številke 462’ zamenja z besedilom ‘od zaporedne številke 10 dalje’.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V prilogi uredbe se za zaporedno številko 462 doda zaporedna številka 463, ki glasi:<br />
 ‘463 5034345 Nuklearna elektrarna Krško, d.o.o., Vrbina 12, Krško’.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-02/98-4</p>
 <p>Ljubljana, dne 24. septembra 1998</p>
@@ -55,5 +68,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-10-02", "kratica": "URED828", "naziv": "Uredba o spremembah in dopolnitvah uredbe o postopkih zadolževanja in prevzemanja obveznosti pravnih oseb v lasti Republike Slovenije", "url": "/trubar/si/URED828/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

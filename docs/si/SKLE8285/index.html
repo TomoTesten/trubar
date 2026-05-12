@@ -21,23 +21,36 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-4291" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE8285.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE8285" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE8285.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE8285,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Sklep o načinu vrednotenja knjigovodskih postavk vzajemnega pokojninskega sklada</h1>
 <p>Na podlagi osme alinee prvega odstavka 323. člena Zakona o pokojninskem in invalidskem zavarovanju (Uradni list RS, št. 109/06 – ZPIZ-1-UPB4, 114/06 – <a href="/trubar/si/ZUTPG/" class="law-ref" title="ZUTPG">ZUTPG</a> in 10/08 – ZVarDod) izdaja Agencija za trg vrednostnih papirjev</p>
 <h2>S K L E P</h2>
 <p>o načinu vrednotenja knjigovodskih postavk vzajemnega pokojninskega sklada</p>
 <h3>I. OPREDELITVE POJMOV OZIROMA RAZLAGE IZRAZOV</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <ol>
 <li>Dan prenehanja pravice do izplačila dividende je prvi dan, ko kupci delnic niso več upravičeni do izplačila dividend.</li>
 <li>Knjigovodska vrednost delnice je znesek, ki se dobi, če se celotna vrednost kapitala deli s številom izdanih delnic, zmanjšanim za število ne vplačanih in lastnih delnic.</li>
 <li>Ocenjena čista vrednost nepremičnine je tržna vrednost, zmanjšana za predvidene stroške prodaje.</li>
 </ol>
 <h3>II. OPREDELITEV POSAMEZNIH POSTAVK BILANCE STANJA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>V bilanci stanja se izkazujejo postavke po nakupni vrednosti. Vrednotijo se po zadnjem dnevnem tečaju oziroma udenarljivi vrednosti, razen v primerih skupnega ovrednotenja.</li>
 <li>Postavka sredstev Denarna sredstva zajema gotovino in druga denarna sredstva vzajemnega pokojninskega sklada.</li>
@@ -82,7 +95,7 @@ Presežek neiztrženih dobičkov nad neiztrženimi izgubami pri naložbah, ki so
 – nerazporejene čiste dobičke ali čiste izgube obračunskega obdobja.</li>
 </ol>
 <h3>III. OPREDELITEV POSAMEZNIH POSTAVK IZKAZA POSLOVNEGA IZIDA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <ol>
 <li>Postavka Prihodki od obresti zajema obračunane obresti od naložb do dneva, na katerega se sestavi izkaz poslovnega izida.</li>
 <li>Postavka Prihodki od dividend zajema:<br />
@@ -100,12 +113,12 @@ Presežek neiztrženih dobičkov nad neiztrženimi izgubami pri naložbah, ki so
 <li>Postavka Iztržene izgube pri naložbah zajema vse negativne razlike med prodajno ceno prodanih naložb in njihovo nakupno ceno oziroma vrednostjo na zadnji dan prejšnjega obračunskega obdobja.</li>
 <li>Postavka Drugi odhodki zajema druge odhodke vzajemnega pokojninskega sklada.</li>
 </ol>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Sestavni del tega sklepa je kontni načrt vzajemnega pokojninskega sklada, ki je v prilogi tega sklepa.</p>
 <h3>IV. PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z dnem uveljavitve tega sklepa preneha veljati Sklep o načinu vrednotenja knjigovodskih postavk vzajemnega pokojninskega sklada (Uradni list RS, št. 109/01).</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta sklep začne veljati 1. januarja 2010.</p>
 <p>Št. 00702-4/2009-16</p>
 <p>Ljubljana, dne 30. novembra 2009</p>
@@ -607,5 +620,36 @@ izdajateljev<br />
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-12-04", "kratica": "SKLE8285", "naziv": "Sklep o načinu vrednotenja knjigovodskih postavk vzajemnega pokojninskega sklada", "url": "/trubar/si/SKLE8285/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

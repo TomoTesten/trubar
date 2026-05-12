@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2022-01-1366" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV14652.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV14652" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV14652.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV14652,vrsta:pravilnik">
+    
     <h1>Pravilnik o olajšavi za zaposlitev osebe v poklicu, za katerega na trgu dela primanjkuje iskalcev zaposlitve</h1>
 <p>Na podlagi drugega odstavka 55.b člena Zakona o davku od dohodkov pravnih oseb (Uradni list RS, št. 117/06, 56/08, 76/08, 5/09, 96/09, 110/09 – <a href="/trubar/si/ZDavP-2B/" class="law-ref" title="ZDavP-2B">ZDavP-2B</a>, 43/10, 59/11, 24/12, 30/12, 94/12, 81/13, 50/14, 23/15, 82/15, 68/16, 69/17, 79/18, 66/19 in 172/21) in drugega odstavka 61.a člena Zakona o dohodnini (Uradni list RS, št. 13/11 – uradno prečiščeno besedilo, 9/12 – odl. US, 24/12, 30/12, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>, 75/12, 94/12, 52/13 – odl. US, 96/13, 29/14 – odl. US, 50/14, 23/15, 55/15, 63/16, 69/17, 21/19, 28/19, 66/19 in 39/22) minister za delo, družino, socialne zadeve in enake možnosti v soglasju z ministrom za finance izdaja</p>
 <p>P R A V I L N I K</p>
@@ -84,5 +97,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2022-05-06", "kratica": "PRAV14652", "naziv": "Pravilnik o olajšavi za zaposlitev osebe v poklicu, za katerega na trgu dela primanjkuje iskalcev zaposlitve", "url": "/trubar/si/PRAV14652/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

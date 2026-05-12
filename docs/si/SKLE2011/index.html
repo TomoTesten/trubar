@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0848" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE2011.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE2011" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE2011.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE2011,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Sklep o organizaciji in delovnem področju servisa skupnih služb Vlade Republike Slovenije</h1>
 <p>Na podlagi 25.a člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96, 47/97, 23/99 in 119/00) je Vlada Republike Slovenije sprejela</p>
 <h2>S K L E P</h2>
 <p>o organizaciji in delovnem področju servisa skupnih služb Vlade Republike Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Servis skupnih služb Vlade Republike Slovenije (v nadaljnjem besedilu: servis) je vladna služba z delovnim področjem, določenim s tem sklepom in drugimi predpisi.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Servis opravlja v skladu z veljavnimi predpisi naslednje naloge:<br />
 1. Za Vlado Republike Slovenije, ministrstva, vladne službe in upravne enote opravlja:<br />
 – strokovne in izvedbene naloge, ki se nanašajo na pridobivanje, odtujevanje in investicijsko vzdrževanje nepremičnin na ozemlju Republike Slovenije in v tujini;<br />
@@ -41,17 +54,17 @@
 2. Za ministrstva in vladne službe opravlja tudi druge administrativno-tehnične in izvedbene naloge, ki se nanašajo na njihovo poslovanje in se lahko izvajajo za več ministrstev in vladnih služb skupaj.<br />
 Prenos posamezne naloge, ki se nanaša na poslovanje, se izvede po pridobljenem soglasju generalnega sekretarja Vlade Republike Slovenije ter po izdaji soglasja vlade k spremembi akta o notranji organizaciji in sistemizaciji delovnih mest v servisu ter v posameznem ministrstvu oziroma vladni službi.<br />
 3. Za stanovanjsko komisijo Vlade Republike Slovenije opravlja administrativno-tehnične in strokovne naloge, ki se nanašajo na upravljanje s stanovanji in stanovanjskimi hišami ter na dodeljevanje stanovanjskih posojil.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Servis vodi direktor. Direktorja servisa imenuje in razrešuje Vlada Republike Slovenije na predlog generalnega sekretarja Vlade Republike Slovenije.<br />
 Direktor je za delo servisa odgovoren generalnemu sekretarju Vlade Republike Slovenije in Vladi Republike Slovenije.<br />
 Direktor ima dva namestnika, ki ju na njegov predlog imenuje Vlada Republike Slovenije. Namestnika nadomeščata direktorja z vsemi pooblastili in odgovornostmi, kadar je odsoten, po vrstnem redu, ki ga določi direktor.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Akt o notranji organizaciji in sistemizaciji delovnih mest v servisu izda, na predlog direktorja servisa in po predhodnem soglasju Vlade Republike Slovenije, generalni sekretar Vlade Republike Slovenije v 30 dneh po uveljavitvi tega sklepa.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Do ustreznih sprememb aktov iz druge točke 2. člena tega sklepa servis še naprej opravlja naloge, ki jih je izvajal na dan uveljavitve tega sklepa na podlagi odloka o organizaciji in delovnem področju Servisa skupnih služb Vlade Republike Slovenije (Uradni list RS, št. 62/96) in na podlagi svojega akta o notranji organizaciji in sistemizaciji delovnih mest.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Servis vzpostavi evidence iz zadnje alinee prve točke 2. člena v roku šestih mesecev po uveljavitvi tega sklepa.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 023-07/2000-2</p>
 <p>Ljubljana, dne 15. februarja 2001.</p>
@@ -66,5 +79,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-02-23", "kratica": "SKLE2011", "naziv": "Sklep o organizaciji in delovnem področju servisa skupnih služb Vlade Republike Slovenije", "url": "/trubar/si/SKLE2011/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

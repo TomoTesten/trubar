@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-3511" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE10183.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE10183" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE10183.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE10183,vrsta:sklep">
+    
     <h1>Sklep o spremembah in dopolnitvah Sklepa o letnem poročilu vzajemnega pokojninskega sklada in krovnega pokojninskega sklada</h1>
 <p>Na podlagi drugega odstavka 291. člena in prvega odstavka 292. člena Zakona o pokojninskem in invalidskem zavarovanju (Uradni list RS, št. 96/12, 39/13, 99/13 – <a href="/trubar/si/ZSVarPre-C/" class="law-ref" title="ZSVarPre-C">ZSVarPre-C</a>, 101/13 – <a href="/trubar/si/ZIPRS1415/" class="law-ref" title="ZIPRS1415">ZIPRS1415</a> in 44/14 – ORZPIZ206) Agencija za trg vrednostnih papirjev izdaja</p>
 <h2>S K L E P</h2>
 <p>o spremembah in dopolnitvah Sklepa o letnem poročilu vzajemnega pokojninskega sklada in krovnega pokojninskega sklada</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Sklepu o letnem poročilu vzajemnega pokojninskega sklada in krovnega pokojninskega sklada (Uradni list RS, št. 79/13) se v 2. členu dodata nov tretji in četrti odstavek, ki se glasita:<br />
 »(3) Poslovni izid in vseobsegajoči donos vzajemnega pokojninskega sklada se lahko prikažeta v enem izkazu (izkaz vseobsegajočega donosa), ali pa ločeno, v izkazu poslovnega izida in izkazu drugega vseobsegajočega donosa.<br />
 (4) Izkaz denarnih tokov vzajemnega pokojninskega sklada se lahko sestavi po neposredni ali posredni metodi.«.<br />
@@ -37,7 +50,7 @@ Dosedanji tretji in četrti odstavek postaneta peti in šesti odstavek.<br />
 Doda se sedmi odstavek, ki se glasi:<br />
 »(7) V računovodskih izkazih vzajemnega pokojninskega sklada ni treba prikazati tistih postavk, katerih vrednost je enaka nič, razen če je to potrebno zaradi primerjave z vrednostjo teh postavk v preteklem letu.«.<br />
 Dosedanji peti odstavek postane osmi odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prilogi 1 k sklepu se 1. točka spremeni tako, da se glasi:<br />
 »1. IZKAZ FINANČNEGA POLOŽAJA VZAJEMNEGA POKOJNINSKEGA SKLADA<br />
 Izkaz finančnega položaja vzajemnega pokojninskega sklada ima najmanj naslednje postavke:<br />
@@ -173,7 +186,7 @@ Prilagoditve za:<br />
 5. Učinki sprememb deviznih tečajev na denarna sredstva<br />
 6. Denarna sredstva na koncu obdobja«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne 1. januarja 2015.</p>
 <p>Št. 00702-2/2014-10</p>
 <p>Ljubljana, dne 2. decembra 2014</p>
@@ -189,5 +202,36 @@ dr. Damjan Žugelj l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-12-05", "kratica": "SKLE10183", "naziv": "Sklep o spremembah in dopolnitvah Sklepa o letnem poročilu vzajemnega pokojninskega sklada in krovnega pokojninskega sklada", "url": "/trubar/si/SKLE10183/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

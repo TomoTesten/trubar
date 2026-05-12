@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1830" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPSZZI.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPSZZI" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPSZZI.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPSZZI,vrsta:Sprejet zakon">
+    
     <h1>Zakon o poroštvu Republike Slovenije za obveznosti Slovenskih železnic, d.d. iz naslova posojil, najetih za financiranje določenih del gradnje in vzdrževanja javne železniške infrastrukture</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O POROŠTVU REPUBLIKE SLOVENIJE ZA OBVEZNOSTI SLOVENSKIH ŽELEZNIC, D.D. IZ NASLOVA POSOJIL, NAJETIH ZA FINANCIRANJE DOLOČENIH DEL GRADNJE IN VZDRŽEVANJA JAVNE ŽELEZNIŠKE INFRASTRUKTURE (ZPSZZI)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Republika Slovenija daje poroštvo za obveznosti Slovenskih železnic, d.d., iz naslova posojil najetih pri domačih bankah do skupne višine glavnic 6.000.000.000 tolarjev s pripadajočimi obrestmi in stroški posojil, za financiranje določenih del gradnje in vzdrževanja javne železniške infrastrukture, ki se bodo izvajala v letu 2001, skladno z nacionalnim programom razvoja slovenske železniške infrastrukture in letnim načrtom gradnje, modernizacije in vzdrževanja javne železniške infrastrukture.<br />
 Republika Slovenija daje poroštvo iz prejšnjega odstavka pod naslednjimi pogoji:<br />
 – rok in način odplačila glavnice: 5 let po preteku  3-letnega moratorija za začetek odplačevanja glavnice, v polletnih obrokih;<br />
@@ -45,12 +58,12 @@ Republika Slovenija daje poroštvo iz prejšnjega odstavka pod naslednjimi pogoj
 – vsi stroški, povezani s pripravo in odobritvijo posameznega posojila, ne smejo presegati 0,25 odstotka vrednosti glavnice posojila,<br />
 – strošek rezervacije sredstev posojila je lahko največ 0,5 odstotka od nečrpanega zneska posojila in se obračuna od pogodbeno določenega datuma črpanja posojila dalje.<br />
 Obseg izdajanja poroštev Republike Slovenije se zmanjšuje z vsakokratnim zneskom najetega posojila, za katerega bo dano poroštvo Republike Slovenije.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sredstva, zagotovljena s posojili iz prejšnjega člena, se črpajo po namenu in obsegu del, kot je prikazano v prilogi 1, ki je sestavni del tega zakona.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V primeru vnovčenja poroštva iz 1. člena tega zakona se sredstva za izpolnitev poroštvenih obveznosti zagotavljajo iz proračuna Republike Slovenije.<br />
 Poroštvene pogodbe, v katerih je določen tudi način izpolnjevanja obveznosti iz naslova posojila, v imenu in za račun Republike Slovenije sklene minister oziroma ministrica, pristojna za finance.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-03/01-106/1</p>
 <p>Ljubljana, dne 11. aprila 2001.</p>
@@ -109,5 +122,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-04-26", "kratica": "ZPSZZI", "naziv": "Zakon o poroštvu Republike Slovenije za obveznosti Slovenskih železnic, d.d. iz naslova posojil, najetih za financiranje določenih del gradnje in vzdrževanja javne železniške infrastrukture", "url": "/trubar/si/ZPSZZI/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

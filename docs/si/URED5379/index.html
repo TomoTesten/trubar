@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-02-0022" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5379.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5379" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5379.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5379,vrsta:uredba">
+    
     <h1>Uredba o ratifikaciji spremembe Statuta Mednarodne banke za obnovo in razvoj</h1>
 <p>Na podlagi petega odstavka 75. člena Zakona o zunanjih zadevah (Uradni list RS, št. 113/03 – uradno prečiščeno besedilo, 20/06 – <a href="/trubar/si/ZNOMCMO/" class="law-ref" title="ZNOMCMO">ZNOMCMO</a>, 76/08 in 108/09) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>O RATIFIKACIJI SPREMEMBE STATUTA MEDNARODNE BANKE ZA OBNOVO IN RAZVOJ</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se sprememba Statuta Mednarodne banke za obnovo in razvoj, ki jo je sprejel Odbor guvernerjev Mednarodne banke za obnovo in razvoj 30. januarja 2009 z Resolucijo št. 596, del A.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sprememba statuta se v izvirniku v angleškem jeziku in prevodu v slovenskem jeziku glasi:</p>
 <h2>AMENDMENT OF THE ARTICLES OF AGREEMENT OF THE INTERNATIONAL BANK FOR RECONSTRUCTION AND DEVELOPMENT</h2>
 <h3>Board of Governors Resolution No. 596, Part A</h3>
@@ -51,9 +64,9 @@ Oddelek 3 Glasovanje<br />
 (i) Osnovni glasovi vsake članice so število glasov, ki izhaja iz enake porazdelitve 5,55 odstotka celotne glasovalne moči vseh članic med vse članice, s tem da ni delnih osnovnih glasov.<br />
 (ii) Glasovi vsake članice na podlagi deleža so število glasov, ki izhaja iz dodelitve enega glasu za vsak delež.«<br />
 2. Sprememba začne veljati za vse članice tri mesece po tem, ko banka z uradnim obvestilom vsem članicam potrdi, da je tri četrtine vseh članic, ki imajo 85% celotne glasovalne moči, sprejelo spremembo.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje spremembe statuta skrbi Ministrstvo za finance v sodelovanju z Banko Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 00724-19/2010</p>
 <p>Ljubljana, dne 11. marca 2010</p>
@@ -69,5 +82,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-03-22", "kratica": "URED5379", "naziv": "Uredba o ratifikaciji spremembe Statuta Mednarodne banke za obnovo in razvoj", "url": "/trubar/si/URED5379/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

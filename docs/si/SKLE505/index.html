@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3241" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE505.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE505" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE505.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE505,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Sklep o ustanovitvi sveta Vlade Republike Slovenije za področje informatike v državnih organih, javnih zavodih in drugih organizacijah, ki opravljajo javne funkcije</h1>
 <p>Na podlagi 6. člena poslovnika Vlade Republike Slovenije (Uradni list RS, št. 13/93) je Vlada Republike Slovenije na 214. seji dne 26. septembra 1996 sprejela</p>
 <h2>S K L E P</h2>
 <p>o ustanovitvi sveta Vlade Republike Slovenije  za področje informatike v državnih organih, javnih zavodih in drugih organizacijah, ki opravljajo  javne funkcije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Vlada Republike Slovenije ustanovi svet za področje informatike v državnih organih, javnih zavodih in drugih organizacijah, ki opravljajo javne funkcije (v nadaljevanju: svet) kot strokovno posvetovalno telo za naslednja področja:<br />
 – pri oblikovanju, vzpostavljanju, povezovanju in izmenjavi podatkov iz evidenc, ki so v pristojnosti državnih organov in ki jih povezujejo v skupne baze podatkov ter v nacionalni program statističnih raziskovanj Republike Slovenije,<br />
 – pri načrtovanju dolgoročne strategije uvajanja informacijske tehnologije v delo državnih organov, javnih zavodov in drugih organizacij, ki opravljajo javne funkcije,<br />
@@ -37,7 +50,7 @@
 – pri izdelavi predlogov predpisov, ki temeljijo na uvajanju informatike v delovne procese državnih organov, javnih zavodov in organizacij, ki opravljajo javne funkcije in posledične organizacijske spremembe,<br />
 – pri uresničevanju programov, prevzetih po mednarodnih obveznostih, ki zadevajo tudi področje informatike,<br />
 – pri nalogah, ki jih določi Vlada Republike Slovenije.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Svet sestavljajo:<br />
 1. generalni sekretar Vlade Republike Slovenije kot predsednik sveta,<br />
 2. direktor Centra Vlade za informatiko kot njegov namestnik,<br />
@@ -59,19 +72,19 @@ Fakulteta za organizacijske vede Kranj<br />
 – dr. Ivan Rozman, Univerza v Mariboru,<br />
 Fakulteta za elektrotehniko, računalništvo in informatiko.<br />
 Svet lahko povabi na posamezne seje glede na predlagani dnevni red tudi predstavnike drugih državnih organov in zunanjih institucij.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Sejo sveta skliče predsednik, v odsotnosti pa njegov namestnik na predlog Vlade Republike Slovenije, državnega organa ali na lastno pobudo.<br />
 Svet dela na sejah, na katerih obravnava zadeve s področja, za katero je ustanovljen.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Gradivo za seje sveta lahko pripravi kateri koli državni organ.<br />
 Svet lahko obravnava tudi gradivo, ki ga je prejel od strokovnih organizacij ali drugih pravnih oseb.<br />
 Gradivo mora biti pred obravnavo v svetu poslano Centru Vlade za informatiko v mnenje.<br />
 Kolikor predloženo gradivo vsebuje projekt informatizacije, ki zajema oblikovanje, vzpostavljanje in povezovanje skupnih podatkovnih baz, mora Statistični urad Republike Slovenije oceniti njegovo skladnost z nacionalnim programom statističnih raziskovanj.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Organizacijske in administrativne naloge za potrebe sveta opravlja Urad predsednika Vlade Republike Slovenije.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Poslovnik o delu sveta sprejme svet na svoji prvi seji.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta sklep začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 021-02/95-22/2-8</p>
 <p>Ljubljana, dne 26. septembra 1996.</p>
@@ -86,5 +99,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-10-11", "kratica": "SKLE505", "naziv": "Sklep o ustanovitvi sveta Vlade Republike Slovenije za področje informatike v državnih organih, javnih zavodih in drugih organizacijah, ki opravljajo javne funkcije", "url": "/trubar/si/SKLE505/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

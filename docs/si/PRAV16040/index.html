@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>PRAV16040</strong></dd>
       <dt>Vrsta</dt><dd>pravilnik</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
-      <dt>Datum</dt><dd>2026-01-30</dd>
-      <dt>Organ</dt><dd>Ministrstvo za solidarno prihodnost</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2026-02-02</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0170" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV16040.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV16040" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV16040.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV16040,vrsta:pravilnik">
+    
     <h1>Pravilnik o kriterijih za določitev delovne uspešnosti javnih uslužbencev plačne skupine B s področja socialnega varstva, dolgotrajne oskrbe in stanovanjske politike</h1>
 <p>Na podlagi tretjega odstavka 57. člena Zakona o skupnih temeljih sistema plač v javnem sektorju (Uradni list RS, št. 95/24) minister za solidarno prihodnost izdaja</p>
 <p>P R A V I L N I K</p>
@@ -148,5 +161,36 @@ Direktorju socialnovarstvenega zavoda oziroma direktorju stanovanjskega sklada n
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2026-02-02", "kratica": "PRAV16040", "naziv": "Pravilnik o kriterijih za določitev delovne uspešnosti javnih uslužbencev plačne skupine B s področja socialnega varstva, dolgotrajne oskrbe in stanovanjske politike", "url": "/trubar/si/PRAV16040/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

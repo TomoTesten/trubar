@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3571" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE3197.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE3197" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE3197.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE3197,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Sklep o organizaciji in delovnem področju Urada Vlade Republike Slovenije za narodnosti</h1>
 <p>Na podlagi četrtega odstavka 21. člena in 25.a člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96, 47/97, 23/99, 119/00, 30/01 in 52/02) je Vlada Republike Slovenije sprejela</p>
 <h2>S K L E P</h2>
 <p>o organizaciji in delovnem področju Urada Vlade Republike Slovenije za narodnosti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Urad Vlade Republike Slovenije za narodnosti (v nadaljevanju: urad) je samostojna strokovna služba Vlade Republike Slovenije z delovnim področjem, določenim s tem sklepom in drugimi predpisi.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Urad opravlja naslednje naloge:<br />
 – spremlja uresničevanje ustavnih in zakonskih določil, ki se nanašajo na posebne pravice pripadnikov italijanske in madžarske narodne skupnosti ter spremlja in skrbi za zaščito posebnih pravic v Sloveniji živeče romske skupnosti, kolikor to ne spada v področje drugih državnih organov oziroma organov lokalnih skupnosti;<br />
 – usklajuje in koordinira delo državnih organov in organov lokalnih skupnosti na področju posebnih pravic narodnih skupnosti, romske skupnosti oziroma na področju narodnih manjšin v Republiki Sloveniji;<br />
@@ -46,17 +59,17 @@
 – sodeluje na mednarodnih in drugih konferencah, posvetih ter seminarjih s področja manjšinskih narodnostnih pravic, drugih sorodnih človekovih pravic in na tem področju sodeluje s Svetom Evrope, Evropsko unijo, njunimi organi ter s podobnimi asociacijami in organi v drugih državah;<br />
 – sodeluje v ustreznih delovnih telesih drugih resornih organov, v raziskovalnih ustanovah in drugih organizacijah, katerih ustanovitelj ali soustanovitelj je Vlada Republike Slovenije, ki imajo na skrbi položaj, pravice in obveznosti ali proučevanje narodnih skupnosti, romske skupnosti oziroma narodnih manjšin v Republiki Sloveniji;<br />
 – opravlja druge naloge in dejavnosti s področja narodnostne in romske problematike v skladu z ustavo Republike Slovenije in veljavno zakonodajo.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Urad vodi direktor.<br />
 Direktor urada lahko pooblasti državnega podsekretarja ali svetovalca vlade v uradu, da ga v primeru odsotnosti nadomešča v pravicah in obveznostih, ki mu jih določi.<br />
 Direktorja urada imenuje in razrešuje Vlada Republike Slovenije na predlog generalnega sekretarja Vlade Republike Slovenije.<br />
 Direktor je za delo urada odgovoren generalnemu sekretarju Vlade Republike Slovenije in Vladi Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Urad svoje naloge, ob upoštevanju specifičnosti, opravlja brez organizacijskih enot.<br />
 Akt o notranji organizaciji in sistemizaciji delovnih mest v uradu Vlade Republike Slovenije za narodnosti izda, na predlog direktorja urada in po predhodnem soglasju Vlade Republike Slovenije, generalni sekretar Vlade Republike Slovenije v 60 dneh po uveljavitvi tega sklepa.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z dnem uveljavitve tega sklepa preneha veljati odlok Izvršnega sveta Ljudske skupščine Ljudske Republike Slovenije, št. 01-56/3-59 z dne 3. aprila 1959 o ustanovitvi Urada za manjšinska vprašanja.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 023-402-00/2002</p>
 <p>Ljubljana, dne 2. avgusta 2002.</p>
@@ -71,5 +84,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-08-22", "kratica": "SKLE3197", "naziv": "Sklep o organizaciji in delovnem področju Urada Vlade Republike Slovenije za narodnosti", "url": "/trubar/si/SKLE3197/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

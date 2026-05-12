@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Ministrstvo za izobraževanje, znanost in šport</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2015-01-2354" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11727.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11727" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11727.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11727,vrsta:pravilnik">
+    
     <h1>Pravilnik o katastru komunikacijskega omrežja in pripadajoče infrastrukture</h1>
 <p>Na podlagi petega odstavka 89. člena Zakona o prostorskem načrtovanju (Uradni list RS, št. 33/07, 70/08 – ZVO-1B, 108/09, 80/10 – <a href="/trubar/si/ZUPUDPP/" class="law-ref" title="ZUPUDPP">ZUPUDPP</a>, 43/11 – <a href="/trubar/si/ZKZ-C/" class="law-ref" title="ZKZ-C">ZKZ-C</a>, 57/12, 57/12 – <a href="/trubar/si/ZUPUDPP-A/" class="law-ref" title="ZUPUDPP-A">ZUPUDPP-A</a>, 109/12, 76/14 – odl. US in 14/15 – <a href="/trubar/si/ZUUJFO/" class="law-ref" title="ZUUJFO">ZUUJFO</a>) in za izvrševanje prvega odstavka 14. člena Zakona o elektronskih komunikacijah (Uradni list RS, št. 109/12, 110/13, 40/14 – ZIN-B in 54/14 – odl. US) izdaja ministrica za izobraževanje, znanost in šport v soglasju z ministrico za okolje in prostor</p>
 <p>P R A V I L N I K</p>
@@ -114,5 +127,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2015-07-24", "kratica": "PRAV11727", "naziv": "Pravilnik o katastru komunikacijskega omrežja in pripadajoče infrastrukture", "url": "/trubar/si/PRAV11727/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

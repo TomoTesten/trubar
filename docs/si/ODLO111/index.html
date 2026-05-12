@@ -21,31 +21,44 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0818" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO111.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO111" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO111.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO111,vrsta:odlok">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Odlok o kadrovskem štipendiranju</h1>
 <p>Na podlagi petega odstavka 5. člena in tretjega odstavka 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96 in 47/97) izdaja Vlada Republike Slovenije</p>
 <h2>O D L O K</h2>
 <p>o kadrovskem štipendiranju</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Za stalno zagotavljanje kadrov za potrebe ministrstev, upravnih organov in upravnih organizacij v sestavi ministrstva, upravnih enot in služb Vlade Republike Slovenije (v nadaljnjem besedilu: državni organ), podeljuje podkomisija za štipendiranje pri komisiji Vlade Republike Slovenije za kadrovske in administrativne zadeve (v nadaljnjem besedilu: podkomisija za štipendiranje) dijakom in študentom, ki se izobražujejo v Republiki Sloveniji ali v tujini, kadrovske štipendije (v nadaljnjem besedilu: štipendije).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Štipendije se podeljujejo dijakom in študentom ustrezne smeri, ki se obvežejo, da bodo po končanem izobraževanju sklenili delovno razmerje v državnem organu.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Štipendiranje poteka na podlagi ugotovljenih kadrovskih potreb in odobrenih sredstev v proračunu Republike Slovenije.<br />
 Kadrovske potrebe ugotavlja Komisija Vlade Republike Slovenije za kadrovske in administrativne zadeve na podlagi predlogov posameznega državnega organa iz 1. člena tega odloka.<br />
 Vrednost točke za izračun štipendije določi Komisija Vlade Republike Slovenije za kadrovske in administrativne zadeve.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Komisija Vlade Republike Slovenije za kadrovske in administrativne zadeve sprejme pravilnik o štipendiranju.  S pravilnikom o štipendiranju se določijo:<br />
 – postopek in kriteriji podeljevanja štipendij;<br />
 – višina štipendij in drugi stroški izobraževanja;<br />
 – pravice in obveznosti štipenditorja in štipendista;<br />
 – druge zadeve v skladu s sklepi Vlade Republike Slovenije.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z dnem uveljavitve tega odloka preneha veljati odlok o kadrovskem štipendiranju učencev in študentov za potrebe republiških upravnih organov, Skupščine Republike Slovenije in Izvršnega sveta Skupščine Republike Slovenije (Uradni list RS, št. 16/91-I).</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta odlok začne veljati osmi dan po objavi v Uradnem listu RS.</p>
 <p>Št. 671-04/99-1</p>
 <p>Ljubljana, dne 25. februarja 1999.</p>
@@ -60,5 +73,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-03-19", "kratica": "ODLO111", "naziv": "Odlok o kadrovskem štipendiranju", "url": "/trubar/si/ODLO111/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

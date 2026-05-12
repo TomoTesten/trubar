@@ -21,20 +21,33 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-1936" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11729.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11729" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11729.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11729,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi Pravilnika o dokumentaciji v osnovni šoli</h1>
 <p>Na podlagi 86. člena Zakona o osnovni šoli (Uradni list RS, št. 81/06 – uradno prečiščeno besedilo, 102/07, 107/10, 87/11 in 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>) minister za izobraževanje, znanost in šport izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembi Pravilnika o dokumentaciji v osnovni šoli</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o dokumentaciji v osnovni šoli (Uradni list RS, št. 61/12) se priloga nadomesti z novo prilogo, ki je sestavni del tega pravilnika.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Nova priloga se začne uporabljati 1. septembra 2013, razen točke 5.5. priloge, ki se začne uporabljati z dnem uveljavitve tega pravilnika.<br />
 Do začetka uporabe nove priloge se uporablja dosedanja priloga.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0070-48/2013</p>
 <p>Ljubljana, dne 21. maja 2013</p>
@@ -51,5 +64,36 @@ za izobraževanje, znanost in šport</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-06-14", "kratica": "PRAV11729", "naziv": "Pravilnik o spremembi Pravilnika o dokumentaciji v osnovni šoli", "url": "/trubar/si/PRAV11729/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2346" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE187.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE187" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE187.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE187,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Sklep razširjene komisije EUROCONTROL, št. 36 v zvezi z amandmaji k pogojem uporabe sistema pristojbin na zračnih poteh in k plačilnim pogojem, ki se uporabljajo od 1. januarja 1977 dalje</h1>
 <p>Na podlagi 3. člena zakona o ratifikaciji večstranskega sporazuma o pristojbinah na zračnih poteh (Uradni list RS, št. 42/95, Mednarodne pogodbe, št. 11/95), 11. člena pogojev uporabe sistema pristojbin na zračnih poteh in plačilnih pogojev Evropske organizacije za varnost zračne plovbe – EUROCONTROL (Uradni list RS, št. 77/95) in 1. člena odredbe o pristojbinah na zračnih poteh (Uradni list RS, št. 77/95) objavlja minister za promet in zveze</p>
 <h2>S K L E P</h2>
@@ -36,18 +49,18 @@ glede na Večstranski sporazum o pristojbinah na zračnih poteh z dne 12. februa
 ob upoštevanju pogojev uporabe sistema pristojbin na zračnih poteh in njihovega Dodatka št. 3 (Plačilni pogoji);<br />
 na predlog razširjenega Odbora,<br />
 sprejme na podlagi soglasne potrditve vseh pogodbenic naslednji sklep</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Drugi odstavek 7. člena pogojev uporabe sistema pristojbin na zračnih poteh se nadomesti z:</p>
 <p>“2. Uporabljal se bo menjalni tečaj, ki je povprečni mesečni tečaj “zaključnega navzkrižnega tečaja” kot ga izračuna REUTERS na osnovi dnevnega ponudbenega tečaja.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Tretji odstavek 1. člena plačilnih pogojev se nadomesti z:</p>
 <p>“3. Znesek pristojbine zapade v plačilo z dnem, ko je opravljen polet. Skrajni datum, do katerega mora EUROCONTROL prejeti plačilo, je naveden na računu in je 30 dni po datumu izdaje računa.”</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Prvi odstavek 3. člena plačilnih pogojev se nadomesti z:</p>
 <p>“Šteje se, da je plačilo prejeto na datum valutacije, ko je bil dolgovani znesek vplačan v dobro določenega EUROCONTROL bančnega računa. Datum valutacije je datum, na katerega EUROCONTROL lahko uporabi namenska sredstva.”</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Drugi odstavek 3. člena plačilnih pogojev se razveljavi.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta sklep začne veljati s 1. januarjem 1997.<br />
 Sestavljeno v Bruslju 10. decembra 1996.</p>
 <p>Za predsednika razširjene komisije:<br />
@@ -66,5 +79,36 @@ mag. Anton Bergauer l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-07-17", "kratica": "SKLE187", "naziv": "Sklep razširjene komisije EUROCONTROL, št. 36 v zvezi z amandmaji k pogojem uporabe sistema pristojbin na zračnih poteh in k plačilnim pogojem, ki se uporabljajo od 1. januarja 1977 dalje", "url": "/trubar/si/SKLE187/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

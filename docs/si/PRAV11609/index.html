@@ -21,20 +21,33 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-1321" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11609.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11609" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11609.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11609,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o uvrstitvi delovnih mest direktorjev s področja visokega šolstva, znanosti in tehnologije v plačne razrede znotraj razponov plačnih razredov</h1>
 <p>Na podlagi 74. člena Zakona o državni upravi (Uradni list RS, št. 113/05 – uradno prečiščeno besedilo, 126/07 – <a href="/trubar/si/ZUP-E/" class="law-ref" title="ZUP-E">ZUP-E</a>, 48/09, 8/10 – <a href="/trubar/si/ZUP-G/" class="law-ref" title="ZUP-G">ZUP-G</a>, 8/12 – <a href="/trubar/si/ZVRS-F/" class="law-ref" title="ZVRS-F">ZVRS-F</a>, 21/12 in 21/13 – <a href="/trubar/si/ZVRS-G/" class="law-ref" title="ZVRS-G">ZVRS-G</a>) za izvajanje 11. člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 108/09 – uradno prečiščeno besedilo, 13/10, 59/10, 85/10, 94/10 – <a href="/trubar/si/ZIU/" class="law-ref" title="ZIU">ZIU</a>, 107/10, 35/11, 110/11 – <a href="/trubar/si/ZDIU12/" class="law-ref" title="ZDIU12">ZDIU12</a>, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a> in 104/12 – <a href="/trubar/si/ZIPRS1314/" class="law-ref" title="ZIPRS1314">ZIPRS1314</a>) in 3. in 4. člena Uredbe o plačah direktorjev v javnem sektorju (Uradni list RS, št. 73/05, 103/05, 12/06, 36/06, 46/06, 77/06, 128/06, 37/07, 95/07, 112/07, 104/08, 123/08, 21/09, 61/09, 91/09, 3/10, 27/10, 45/10, 62/10, 88/10, 94/10 – <a href="/trubar/si/ZIU/" class="law-ref" title="ZIU">ZIU</a>, 10/11, 45/11, 53/11, 86/11, 26/12, 41/12, 90/12 in 24/13) izdaja minister za izobraževanje, znanost in šport</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o uvrstitvi delovnih mest direktorjev s področja visokega šolstva, znanosti in tehnologije v plačne razrede znotraj razponov plačnih razredov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o uvrstitvi delovnih mest direktorjev s področja visokega šolstva, znanosti in tehnologije v plačne razrede znotraj razponov plačnih razredov (Uradni list RS, št. 106/05, 20/06, 65/06, 43/07, 28/09 in 10/12) se v naslovu in v prvem odstavku 1. člena za besedo »šolstva« črta vejica, besedilo »znanosti in tehnologije« pa se nadomesti z besedama »in znanosti«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugem odstavku 2. člena se v drugi tabeli Tip osebe javnega prava: javni raziskovalni zavod/javni infrastrukturni zavod, Razpon plačnega razreda: 50–57 črta vrstica »72591 DOM PODIPLOMCEV IN GOSTUJOČIH PROFESORJEV LJUBLJANA, B017370, Direktor JRZ/JIZ, 50«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0070-40/2013</p>
 <p>Ljubljana, dne 18. aprila 2013</p>
@@ -50,5 +63,36 @@ za izobraževanje, znanost in šport</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-04-26", "kratica": "PRAV11609", "naziv": "Pravilnik o spremembah Pravilnika o uvrstitvi delovnih mest direktorjev s področja visokega šolstva, znanosti in tehnologije v plačne razrede znotraj razponov plačnih razredov", "url": "/trubar/si/PRAV11609/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

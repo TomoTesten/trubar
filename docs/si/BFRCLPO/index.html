@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-02-0032" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/BFRCLPO.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=BFRCLPO" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/BFRCLPO.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:BFRCLPO,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Dogovora med Ministrstvom za promet in zveze Republike Slovenije in Ministrstvom za preskrbo, nastanitev, promet in turizem Republike Francije o pogojih opravljanja mednarodnega cestnega linijskega prevoza oseb med Republiko Slovenijo in Republiko Francijo in tranzitu čez njuni ozemlji</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI DOGOVORA MED MINISTRSTVOM ZA PROMET IN ZVEZE REPUBLIKE SLOVENIJE IN MINISTRSTVOM ZA PRESKRBO, NASTANITEV, PROMET IN TURIZEM REPUBLIKE FRANCIJE O POGOJIH OPRAVLJANJA MEDNARODNEGA CESTNEGA LINIJSKEGA PREVOZA OSEB MED REPUBLIKO SLOVENIJO IN REPUBLIKO FRANCIJO IN TRANZITU ČEZ NJUNI OZEMLJI (BFRLCPO)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Dogovor med Ministrstvom za promet in zveze Republike Slovenije in Ministrstvom za preskrbo, nastanitev, promet in turizem Republike Francije o pogojih opravljanja mednarodnega cestnega linijskega prevoza oseb med Republiko Slovenijo in Republiko Francijo in tranzitu čez njuni ozemlji, sklenjen z izmenjavo pisem dne 13. novembra 1998 v Parizu.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Dogovor se v izvirniku v slovenskem in francoskem jeziku ter prevodu glasi:<br />
 La Défense, le 13 novembre 1998<br />
 Monsieur le Président de la délégation slovène,<br />
@@ -195,9 +208,9 @@ Gospod vodja francoske delegacije, čast Vas imam obvestiti, da slovenska stran 
 Prosim, da prejmete, spoštovani gospod vodja francoske delegacije, izraze mojega odličnega spoštovanja.</p>
 <p>Vodja slovenske delegacije<br />
 Janez Požar l. r.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje dogovora skrbi Ministrstvo za promet in zveze.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 326-07/99-25/1</p>
 <p>Ljubljana, dne 29. februarja 2000</p>
@@ -215,5 +228,36 @@ Eda Okretič Salmič l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-03-17", "kratica": "BFRCLPO", "naziv": "Zakon o ratifikaciji Dogovora med Ministrstvom za promet in zveze Republike Slovenije in Ministrstvom za preskrbo, nastanitev, promet in turizem Republike Francije o pogojih opravljanja mednarodnega cestnega linijskega prevoza oseb med Republiko Slovenijo in Republiko Francijo in tranzitu čez njuni ozemlji", "url": "/trubar/si/BFRCLPO/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

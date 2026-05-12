@@ -21,24 +21,37 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-3640" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6872.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6872" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6872.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6872,vrsta:uredba">
+    
     <h1>Uredba o spremembah Uredbe o določitvi zneska specifične in stopnje proporcionalne trošarine za cigarete</h1>
 <p>Na podlagi šestega odstavka 51. člena Zakona o trošarinah (Uradni list RS, št. 97/10 – uradno prečiščeno besedilo, 48/12, 109/12 in 32/14) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah Uredbe o določitvi zneska specifične in stopnje proporcionalne trošarine za cigarete</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o določitvi zneska specifične in stopnje proporcionalne trošarine za cigarete (Uradni list RS, št. 58/10, 17/11, 67/11, 18/12, 49/12, 69/12, 93/12, 94/12 – popr., 98/13 in 33/14) se besedilo 2. člena spremeni tako, da se glasi:<br />
 »Tehtana povprečna drobnoprodajna cena cigaret je izračunana na podlagi podatkov iz obračunov za plačilo trošarine od 1. oktobra 2013 do 30. septembra 2014 in na dan 1. januarja 2015 znaša 3,41 eura za zavojček dvajsetih cigaret.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 4. člena se znesek »67,9221 eura« nadomesti z zneskom »68,3730 eura«.<br />
 V drugem odstavku se število »23,0078« nadomesti s številom »22,0686«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 5. členu se znesek »3,31 eura« nadomesti z zneskom »3,41 eura«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati 1. januarja 2015.</p>
 <p>Št. 00712-40/2014</p>
 <p>Ljubljana, dne 11. decembra 2014</p>
@@ -54,5 +67,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-12-12", "kratica": "URED6872", "naziv": "Uredba o spremembah Uredbe o določitvi zneska specifične in stopnje proporcionalne trošarine za cigarete", "url": "/trubar/si/URED6872/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

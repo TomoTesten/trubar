@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-02-0068" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED727.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED727" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED727.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED727,vrsta:uredba">
+    
     <h1>Uredba o ratifikaciji Sporazuma med Upravo Republike Slovenije za jedrsko varnost (URSJV) in Jedrsko regulatorno komisijo Združenih držav Amerike (US NRC) o izmenjavi tehničnih informacij in sodelovanju na področju jedrske varnosti</h1>
 <p>Na podlagi tretjega odstavka 63. člena Zakona o zunanjih zadevah (Uradni list RS, št. 1/91-I) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>O RATIFIKACIJI SPORAZUMA MED UPRAVO REPUBLIKE SLOVENIJE ZA JEDRSKO VARNOST (URSJV) IN JEDRSKO REGULATORNO KOMISIJO ZDRUŽENIH DRŽAV AMERIKE (US NRC) O IZMENJAVI TEHNIČNIH INFORMACIJ IN SODELOVANJU NA PODROČJU JEDRSKE VARNOSTI</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sporazum med Upravo Republike Slovenije za jedrsko varnost (URSJV) in Jedrsko regulatorno komisijo Združenih držav Amerike (US NRC) o izmenjavi tehničnih informacij in sodelovanju na področju jedrske varnosti, podpisan 29. aprila 1999 v Ljubljani.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sporazum se v izvirniku v slovenskem in angleškem jeziku glasi:</p>
 <h2>S P O R A Z U M</h2>
 <p>MED UPRAVO REPUBLIKE SLOVENIJE ZA JEDRSKO VARNOST (URSJV) IN  JEDRSKO REGULATORNO KOMISIJO ZDRUŽENIH DRŽAV AMERIKE (US NRC)  O IZMENJAVI TEHNIČNIH INFORMACIJ IN SODELOVANJU NA PODROČJU JEDRSKE VARNOSTI</p>
@@ -282,9 +295,9 @@ II. ALLOCATION OF RIGHTS<br />
 a. Visiting researchers, for example, scientists visiting primarily in furtherance of their education, shall receive intellectual property rights under the policies of the host institution. In addition, each visiting researcher named as an inventor shall be entitled to share in a portion of any royalties earned by the host institution from the licensing of such intellectual property.<br />
 b. (1) For intellectual property created during joint research, for example, when the Parties, participating institutions, or participating personnel have agreed in advance on the scope of work, each Party shall be entitled to obtain all rights and interests in its own country. The Party in whose country the invention was made shall have first option to acquire all rights and interests in third countries. If research is not designated as “joint research,“ rights to intellectual property arising from the research will be allocated in accordance with paragraph II.2.a., above. In addition, each person named as an inventor shall be entitled to share in a portion of any royalties earned by either institution from the licensing of the property.<br />
 (2) Notwithstanding paragraph II.2.b. (1), above, if a type of intellectual property is available under the laws of one Party but not of the other Party, the Party whose laws provide for this type of protection shall be entitled to all rights and interests worldwide. Persons named as inventors of the property shall nonetheless be entitled to royalties as provided in paragraph II.2.b. (1), above.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Ministrstvo za okolje in prostor – Uprava Republike Slovenije za jedrsko varnost.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 905-02/98-10 (T1)</p>
 <p>Ljubljana, dne 23. septembra 1999</p>
@@ -299,5 +312,36 @@ Podpredsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-10-01", "kratica": "URED727", "naziv": "Uredba o ratifikaciji Sporazuma med Upravo Republike Slovenije za jedrsko varnost (URSJV) in Jedrsko regulatorno komisijo Združenih držav Amerike (US NRC) o izmenjavi tehničnih informacij in sodelovanju na področju jedrske varnosti", "url": "/trubar/si/URED727/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

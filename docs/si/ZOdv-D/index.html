@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-4071" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZOdv-D.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZOdv-D" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZOdv-D.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZOdv-D,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o dopolnitvah Zakona o odvetništvu</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,13 +50,13 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O DOPOLNITVAH ZAKONA O ODVETNIŠTVU (ZOdv-D)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o odvetništvu (Uradni list RS, št. 18/93, 24/96 – odl. US, 24/01, 54/08 in 35/09) se za četrtim odstavkom 17. člena doda nov peti odstavek, ki se glasi:<br />
 »Odvetnik, postavljen po uradni dolžnosti, in odvetnik, ki izvaja storitve brezplačne pravne pomoči, je upravičen do plačila za svoje delo v višini polovice zneska, ki bi mu pripadal po odvetniški tarifi. V primeru zastopanja stranke po uradni dolžnosti ali v primeru nudenja brezplačne pravne pomoči so morebitni dogovori po drugem odstavku tega člena nični.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za sedmim odstavkom 31. člena se doda nov osmi odstavek, ki se glasi:<br />
 »Odvetniška zbornica Slovenije vodi in na svoji spletni strani javno objavlja tudi seznam izbrisov iz imenika odvetnikov iz razlogov po 3., 4. ali 9. točki prvega odstavka prejšnjega člena ali iz razloga po drugem odstavku prejšnjega člena. Javna objava osebnega imena odvetnika skupaj z razlogom izbrisa traja eno leto od izbrisa.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Besedilo 60. člena postane prvi odstavek tega člena.<br />
 Za prvim odstavkom se dodata nova drugi in tretji odstavek, ki se glasita:<br />
 »Naloga Odvetniške zbornice Slovenije, njenih disciplinskih organov in organov za ugotavljanje kršitev Kodeksa odvetniške poklicne etike je, da zagotovijo učinkovito, nepristransko in pregledno uveljavljanje odgovornosti njenih članov za disciplinske in etične kršitve.<br />
@@ -53,12 +66,12 @@ Odvetniška zbornica Slovenije na svojih spletnih straneh za posamezno leto javn
 – izrečene pravnomočne disciplinske ukrepe skupaj z obrazložitvijo za obdobje dveh let po izrečenem ukrepu brez objave osebnih in drugih varovanih podatkov;<br />
 – mnenja organov, pristojnih za odločanje o kršitvah Kodeksa odvetniške poklicne etike, brez objave osebnih in drugih varovanih podatkov.«.</p>
 <h3>KONČNE DOLOČBE</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <ol>
 <li>člen tega zakona se začne uporabljati z dnem uveljavitve nove Odvetniške tarife, ki jo je skupščina Odvetniške zbornice Slovenije sprejela 23. septembra 2014.<br />
 Do uveljavitve nove Odvetniške tarife se uporablja Zakon o odvetniški tarifi (Uradni list RS, št. 67/08 in 35/09 − <a href="/trubar/si/ZOdv-C/" class="law-ref" title="ZOdv-C">ZOdv-C</a>).</li>
 </ol>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 740-01/14-7/13</p>
 <p>Ljubljana, dne 17. decembra 2014</p>
@@ -75,5 +88,36 @@ Podpredsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-12-30", "kratica": "ZOdv-D", "naziv": "Zakon o dopolnitvah Zakona o odvetništvu", "url": "/trubar/si/ZOdv-D/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,23 +21,36 @@
       <dt>Organ</dt><dd>Ministrstvo za okolje in prostor</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0385" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10630.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10630" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10630.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10630,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah Pravilnika o pogojih in načinu računalniškega dostopa do podatkov iz evidenc in zbirk geodetskih podatkov</h1>
 <p>Na podlagi četrtega odstavka 115. člena in prvega odstavka 120. člena Zakona o evidentiranju nepremičnin (Uradni list RS, št. 47/06, 65/07 – odl. US in 106/10 – <a href="/trubar/si/ZDoh-2H/" class="law-ref" title="ZDoh-2H">ZDoh-2H</a>) izdaja minister za okolje in prostor</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o pogojih in načinu računalniškega dostopa do podatkov iz evidenc in zbirk geodetskih podatkov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o pogojih in načinu računalniškega dostopa do podatkov iz evidenc in zbirk geodetskih podatkov (Uradni list RS, št. 25/08) se v 1. členu besedilo »geodetska podjetja, ki imajo dovoljenje za izvajanje geodetskih storitev,« nadomesti z besedilom »geodetska podjetja, ki lahko v skladu z zakonom, ki ureja geodetsko dejavnost, izvajajo geodetske storitve,«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V tretjem odstavku 2. člena se besedilo »geodetskim podjetjem, ki imajo dovoljenja za izvajanje geodetskih storitev,« nadomesti z besedilom »geodetskim podjetjem, ki lahko v skladu z zakonom, ki ureja geodetsko dejavnost, izvajajo geodetske storitve,«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V četrtem odstavku 5. člena se besedilo »Geodetski inštitut Slovenije (v nadaljnjem besedilu: geodetski inštitut)« nadomesti z besedilom »geodetska uprava«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V prvem odstavku 6. člena, tretjem odstavku 7. člena, 8. členu, prvem in drugem odstavku 9. člena, drugem odstavku 10. člena in 11. členu se besedilo »geodetski inštitut« v različnih sklonih nadomesti z besedilom »geodetska uprava« v ustreznem sklonu.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0071-9/2011</p>
 <p>Ljubljana, dne 11. februarja 2011</p>
@@ -53,5 +66,36 @@ za okolje in prostor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-02-18", "kratica": "PRAV10630", "naziv": "Pravilnik o spremembah Pravilnika o pogojih in načinu računalniškega dostopa do podatkov iz evidenc in zbirk geodetskih podatkov", "url": "/trubar/si/PRAV10630/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

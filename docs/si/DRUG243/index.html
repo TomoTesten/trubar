@@ -21,22 +21,35 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0391" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG243.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG243" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG243.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG243,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Metodologija za izračun čiste vrednosti sredstev investicijskega sklada in vrednosti enote premoženja vzajemnega sklada</h1>
 <p>Na podlagi tretjega odstavka 27. člena in drugega odstavka 82. člena zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 6/94) predpisuje Agencija za trg vrednostnih papirjev</p>
 <h2>M E T O D O L O G I J O</h2>
 <p>za izračun čiste vrednosti sredstev investicijskega sklada in vrednosti enote premoženja vzajemnega sklada</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S to metodologijo se predpisuje način izračuna čiste vrednosti sredstev vzajemnega sklada, povprečne letne čiste vrednosti sredstev vzajemnega sklada in vrednosti enote premoženja vzajemnega sklada ter izračun čiste vrednosti sredstev investicijske družbe in povprečne letne čiste vrednosti sredstev investicijske družbe.<br />
 Pri izračunu se uporabljajo definicije posameznih računovodskih postavk, kot so določene v sklepu o vsebini letnega in polletnega poročila o poslovanju investicijskega sklada.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Čista vrednost sredstev investicijskega sklada se izračuna vsak delovni dan, tako, da se od sredstev odšteje obveznosti in rezervacije investicijskega sklada.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Povprečna letna čista vrednost sredstev investicijskega sklada se izračunava dnevno, kot aritmetična sredina čistih vrednosti sredstev v tekočem letu in se uporablja kot osnova za obračun letne provizije družbe za upravljanje.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Vrednost enote premoženja (v nadaljnjem besedilu: VEP) vzajemnega sklada se izračunava po naslednji enačbi:</p>
 <p>.       (celotna sredstva – (obveznosti + rezervacije))<br />
 VEP = --------------------------------------------------<br />
@@ -44,9 +57,9 @@ VEP = --------------------------------------------------<br />
 <p>Postavke iz zgornje enačbe se izkazujejo na dve decimalni mesti natančno in so izražene v tolarjih ter stotinih.<br />
 Število enot vzajemnega sklada v obtoku je enako seštevku števila enot vzajemnega sklada v obtoku predhodnega dne in številu prodanih enot vzajemnega sklada, od katerega se odšteje število odkupljenih enot vzajemnega sklada. Število prodanih enot vzajemnega sklada je tisto število enot, ki je na dan izračuna VEP v celoti vplačano, na podlagi naročila za nakup enot, prejetega najkasneje predhodnega dne, ne glede na dejanski priliv sredstev iz tega naslova. Število odkupljenih enot vzajemnega sklada je tisto število enot, ki je na dan izračuna VEP dejansko izplačano po veljavni vrednosti enote tega dne, na podlagi naročila za prodajo, prejetega najkasneje dan pred izplačilom enot.<br />
 Ne glede na prejšnji odstavek tega člena se lahko vplačuje enote vzajemnega sklada istega dne, ko je bilo dano naročilo za njihov nakup. V tem primeru se vplačuje enote po vrednosti VEP, izračunane konec tega dne (po neznani vrednosti). Število tako prodanih enot se upošteva pri izračunu VEP konec naslednjega dne po vplačilu.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Dokler se delnice investicijske družbe ne uvrstijo v kotacijo na borzi, se za te družbe ne glede na roke iz 2. in 3. člena te metodologije izračunava čista vrednost sredstev in povprečna čista vrednost sredstev investicijske družbe trimesečno.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta metodologija začne veljati 1. februarja 1995.</p>
 <p>Št. 27/ AG -94</p>
 <p>Ljubljana, dne 23. decembra 1994.</p>
@@ -62,5 +75,36 @@ Agencije za trg vrednostnih papirjev</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-01-27", "kratica": "DRUG243", "naziv": "Metodologija za izračun čiste vrednosti sredstev investicijskega sklada in vrednosti enote premoženja vzajemnega sklada", "url": "/trubar/si/DRUG243/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

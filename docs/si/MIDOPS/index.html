@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-02-0160" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MIDOPS.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MIDOPS" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MIDOPS.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MIDOPS,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Okvirnega sporazuma o obsežnem partnerstvu in sodelovanju med Evropsko skupnostjo in njenimi državami članicami na eni strani ter Republiko Indonezijo na drugi strani s sklepno listino</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI OKVIRNEGA SPORAZUMA O OBSEŽNEM PARTNERSTVU IN SODELOVANJU MED EVROPSKO SKUPNOSTJO IN NJENIMI DRŽAVAMI ČLANICAMI NA ENI STRANI TER REPUBLIKO INDONEZIJO NA DRUGI STRANI S SKLEPNO LISTINO (MIDOPS)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Okvirni sporazum o obsežnem partnerstvu in sodelovanju med Evropsko skupnostjo in njenimi državami članicami na eni strani ter Republiko Indonezijo na drugi strani s sklepno listino, podpisan v Džakarti 9. novembra 2009.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sporazuma se v izvirniku v slovenskem in angleškem jeziku glasi(1):</p>
 <p>Sporazum v tujih jezikih</p>
 <h2>OKVIRNI SPORAZUM</h2>
@@ -963,9 +976,9 @@ of the other part,<br />
 meeting at Jakarta on 9 November 2009 for the signature of the Framework Agreement on Comprehensive Partnership and Cooperation between the European Community and its Member States, of the one part and the Republic of Indonesia, of the other part, have adopted the Framework Agreement on Comprehensive Partnership and Cooperation.<br />
 The plenipotentiaries of the Member States and the plenipotentiary of the Republic of Indonesia take note of the following Unilateral Declaration by the European Community:<br />
 “The provisions of the Agreement that fall within the scope of Part III, Title IV of the Treaty establishing the European Community bind the United Kingdom and Ireland as separate Contracting Parties, and not as part of the European Community, until the United Kingdom or Ireland (as the case may be) notifies the Republic of Indonesia that it has become bound as part of the European Community in accordance with the Protocol on the position of the United Kingdom and Ireland annexed to the Treaty on European Union and the Treaty establishing the European Community. The same applies to Denmark, in accordance with the Protocol annexed to those Treaties on the position of Denmark.”</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Vlada Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 007-02/10-10/9</p>
 <p>Ljubljana, dne 20. decembra 2010</p>
@@ -984,5 +997,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-12-30", "kratica": "MIDOPS", "naziv": "Zakon o ratifikaciji Okvirnega sporazuma o obsežnem partnerstvu in sodelovanju med Evropsko skupnostjo in njenimi državami članicami na eni strani ter Republiko Indonezijo na drugi strani s sklepno listino", "url": "/trubar/si/MIDOPS/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

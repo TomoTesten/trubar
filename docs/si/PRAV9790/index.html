@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3088" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9790.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9790" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9790.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9790,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o pogojih in načinu oprostitve davkov za diplomatska predstavništva, konzulate ter mednarodne organizacije v skladu z mednarodnimi pogodbami, ki obvezujejo Slovenijo</h1>
 <p>Na podlagi 50. in 54. člena Zakona o davku na dodano vrednost (Uradni list RS, št. 117/06, 52/07 in 33/09) in 31. člena Zakona o trošarinah (Uradni list RS, št. 2/07 – uradno prečiščeno besedilo), izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o pogojih in načinu oprostitve davkov za diplomatska predstavništva, konzulate ter mednarodne organizacije v skladu z mednarodnimi pogodbami, ki obvezujejo Slovenijo</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o pogojih in načinu oprostitve davkov za diplomatska predstavništva, konzulate ter mednarodne organizacije v skladu z mednarodnimi pogodbami, ki obvezujejo Slovenijo (Uradni list RS, št. 141/06 in 117/08) se naslov pravilnika spremeni tako, da se glasi:<br />
 »Pravilnik o pogojih in načinu oprostitve davkov za diplomatska predstavništva, konzulate ter mednarodne organizacije v skladu z mednarodnimi pogodbami, ki obvezujejo Republiko Slovenijo«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Drugi odstavek 6. člena se spremeni tako, da se glasi:<br />
 »(2) Ne glede na prejšnji odstavek se lahko oprostitev plačila davkov uveljavlja tudi, če vrednost blaga ali storitev na računu ni višja od 60 eurov, če gre za nabavo pogonskega goriva za prevozna sredstva posameznih upravičencev oziroma če se uveljavlja neposredna oprostitev plačila davkov na podlagi pogodbenega oziroma naročniškega razmerja za priključke, ki so vezani na poslovni oziroma stanovanjski prostor ali na upravičenca iz tega pravilnika, ki je predmet oprostitve.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 425-5/2009/17</p>
 <p>Ljubljana, dne 17. avgusta 2009</p>
@@ -51,5 +64,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-08-28", "kratica": "PRAV9790", "naziv": "Pravilnik o spremembah Pravilnika o pogojih in načinu oprostitve davkov za diplomatska predstavništva, konzulate ter mednarodne organizacije v skladu z mednarodnimi pogodbami, ki obvezujejo Slovenijo", "url": "/trubar/si/PRAV9790/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -16,22 +16,35 @@
     <dl>
       <dt>Kratica</dt><dd><strong>ODRE1172</strong></dd>
       <dt>Vrsta</dt><dd>odredba</dd>
-      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
       <dt>Datum</dt><dd>1991-10-17</dd>
-      
+      <dt>Organ</dt><dd>Ministrstvo za notranje zadeve</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0718" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1172.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE1172" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1172.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE1172,vrsta:odredba">
+    
     <h1>Odredba o določitvi cene obrazca vloge za izdajo potnega lista in cene obrazca potnega lista</h1>
 <p>Na podlagi 2. točke 37. člena zakona o potnih listinah državljanov Republike Slovenije (Uradni list RS, št. 1/91-I) izdaja minister za notranje zadeve</p>
 <h2>ODREDBO</h2>
 <p>o določitvi cene obrazca vloge za izdajo potnega lista in cene obrazca potnega lista</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Cena obrazca vloge za izdajo potnega lista je 10 SLT. Cena obrazca potnega lista je 500 SLT.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0101-S-41/A-46/91</p>
 <p>Ljubljana, dne 9. oktobra 1991.</p>
@@ -46,5 +59,36 @@ Igor Bavčar l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1991-10-17", "kratica": "ODRE1172", "naziv": "Odredba o določitvi cene obrazca vloge za izdajo potnega lista in cene obrazca potnega lista", "url": "/trubar/si/ODRE1172/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

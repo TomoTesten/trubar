@@ -21,25 +21,38 @@
       <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-0455" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8225.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV8225" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8225.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV8225,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Pravilnik o pogojih za opravljanje del zunaj Carinske uprave Republike Slovenije</h1>
 <p>Na podlagi drugega odstavka 53. člena Zakona o carinski službi (Uradni list RS, št. 103/04 – uradno prečiščeno besedilo) in v skladu s 100. členom Zakona o javnih uslužbencih (Uradni list RS, št. 32/06 – uradno prečiščeno besedilo) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o pogojih za opravljanje del zunaj Carinske uprave Republike Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Uradniki carinske službe (v nadaljnjem besedilu: uradniki) imajo zaradi posebnosti dela v carinski službi posebne odgovornosti in obveznosti, zato veljajo za njihovo delo in dejavnosti zunaj organa carinske službe posebne omejitve in prepovedi.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik določa, katerih del uradniki carinske službe ne smejo opravljati.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Uradniki ne smejo:<br />
 – biti člani uprave ali nadzornega sveta gospodarske družbe, družbeniki v osebnih družbah ali samostojni podjetniki posamezniki;<br />
 – opravljati del, ki so nezdružljiva z opravljanjem dejavnosti carinske službe.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Prepoved članstva v upravi ali nadzornih svetih družb ne velja za uradnike, ki jih v te organe imenuje država kot svoje predstavnike.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z opravljanjem dejavnosti carinske službe niso združljiva zlasti naslednja dela:<br />
 – opravljanje špediterske in prevozniške dejavnosti v mednarodnem prometu;<br />
 – opravljanje trgovinske in gostinske dejavnosti oziroma storitev;<br />
@@ -50,14 +63,14 @@
 – posredovanje in sklepanje pogodb na področju zavarovalništva;<br />
 – opravljanje dejavnosti menjalnic, posojilnic, zastavljalnic in drugih oblik finančnega posredništva;<br />
 – opravljanje računovodske in knjigovodske dejavnosti ter svetovanje na tem področju.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Preden začne uradnik opravljati dejavnost, ki ni navedena v prejšnjem členu in za katero meni, da bi bila ali bi utegnila biti nezdružljiva z opravljanjem dejavnosti carinske službe, o tem pisno obvesti generalnega direktorja carinske uprave.<br />
 Če generalni direktor carinske uprave presodi, da je opravljanje dejavnosti nezdružljivo z opravljanjem dejavnosti carinske službe, o tem odloči s sklepom.<br />
 Generalni direktor carinske uprave izda sklep v 30 dneh od dneva prejema obvestila.<br />
 Kadar generalni direktor carinske uprave ne izda sklepa v roku, navedenem v prejšnjem odstavku, se šteje, da je opravljanje dejavnosti združljivo z opravljanjem dejavnosti carinske službe.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Z dnem uveljavitve tega pravilnika preneha veljati Pravilnik o pogojih za opravljanje del zunaj carinske uprave Republike Slovenije (Uradni list RS, št. 37/00).</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 429-08-11/2005/13</p>
 <p>Ljubljana, dne 19. januarja 2007</p>
@@ -73,5 +86,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-02-06", "kratica": "PRAV8225", "naziv": "Pravilnik o pogojih za opravljanje del zunaj Carinske uprave Republike Slovenije", "url": "/trubar/si/PRAV8225/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

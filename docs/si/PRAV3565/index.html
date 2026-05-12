@@ -21,33 +21,46 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3831" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3565.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV3565" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3565.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV3565,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Spremembe in dopolnitve pravil obveznega zdravstvenega zavarovanja</h1>
 <p>Na podlagi 14. člena statuta Zavoda za zdravstveno zavarovanje Slovenije (Uradni list RS, št. 9/95) je Skupščina Zavoda za zdravstveno zavarovanje Slovenije na 17. seji dne 14. 11. 1996 sprejela</p>
 <h2>S P R E M E M B E   I N   D O P O L N I T V E   P R A V I L</h2>
 <p>obveznega zdravstvenega zavarovanja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Črta se 3. člen sprememb in dopolnitev pravil obveznega zdravstvenega zavarovanja (Uradni list RS, št. 39/96) in ostaja še naprej v veljavi 5. točka 54. člena pravil obveznega zdravstvenega zavarovanja (Uradni list RS, št. 79/94).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Črta se 9. člen sprememb in dopolnitev pravil obveznega zdravstvenega zavarovanja (Uradni list RS, št. 39/96).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Spremeni se 2. člen sprememb in dopolnitev pravil obveznega zdravstvenega zavarovanja (Uradni list RS, št. 39/96) tako, da se na koncu odstavka doda besede “...za vsak porod.”</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Spremeni se drugi odstavek 45. člena pravil (Uradni list RS, št. 79/94), tako da se na koncu dodajo nove alinee z naslednjim besedilom:</p>
 <p>“4. hujše dermatoze (epidermolysis bullosa, sclerodermia),</p>
 <ol>
 <li>ichthyosis vulgaris,</li>
 <li>rekonvalescenca po tuberkulozi in hujših boleznih dihal.”</li>
 </ol>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Za prvim odstavkom 48. člena pravil (Uradni list RS, št. 79/94) se doda nov odstavek z naslednjim besedilom:</p>
 <p>“(2) Zdraviliško zdravljenje otrok traja praviloma 21 dni.”</p>
 <p>Spremeni se dosedanji drugi odstavek 48. člena pravil (Uradni list RS, št. 79/94), tako da se pravilno glasi:</p>
 <p>“(3) Zavarovana oseba lahko uveljavlja pravico do zdraviliškega zdravljenja zaradi iste bolezni oziroma enakega stanja največ enkrat na dve leti, otroci pa največ enkrat letno.”</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Te spremembe in dopolnitve se objavijo v Uradnem listu Republike Slovenije, ko da k njim soglasje minister za zdravstvo. Spremembe in dopolnitve začnejo veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-2/17-4-95/II</p>
 <p>Ljubljana, dne 14. novembra 1996.</p>
@@ -63,5 +76,36 @@ Erih Šerbec l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-12-06", "kratica": "PRAV3565", "naziv": "Spremembe in dopolnitve pravil obveznega zdravstvenega zavarovanja", "url": "/trubar/si/PRAV3565/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

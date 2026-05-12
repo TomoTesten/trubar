@@ -21,23 +21,36 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3083" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO98.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO98" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO98.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO98,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Navodilo o načinu obračunavanja in plačevanja v sklad za financiranje razgradnje Nuklearne elektrarne Krško in za odlaganje radioaktivnih odpadkov iz NEK</h1>
 <p>Na podlagi 5. člena zakona o skladu za financiranje razgradnje Nuklearne elektrarne Krško in odlaganje radioaktivnih odpadkov iz Nuklearne elektrarne Krško (Uradni list RS, št. 75/94), 18. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93 in št. 23/96) in obvezne razlage Državnega zbora (Uradni list RS, št. 35/96) izdajam</p>
 <h2>N A V O D I L O</h2>
 <p>o načinu obračunavanja in plačevanja v sklad za financiranje razgradnje Nuklearne elektrarne Krško in za odlaganje radioaktivnih odpadkov iz NEK</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Zavezanec za vplačilo sredstev v sklad za financiranje razgradnje Nuklearne elektrarne Krško in za odlaganje radioaktivnih odpadkov iz NEK (v nadaljevanju: sklad) je na podlagi 4. člena zakona o skladu za financiranje razgradnje Nuklearne elektrarne Krško in odlaganje radioaktivnih odpadkov iz Nuklearne elektrarne Krško (Uradni list RS, št. 75/94) (v nadaljevanju: zakon) Nuklearna elektrarna Krško (v nadaljevanju: NE Krško), prejemnik pa je sklad.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>NE Krško najkasneje 5. dan v mesecu za pretekli mesec, sporoča skladu količine dobavljene električne energije.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Sredstva v skladu s 4. členom zakona je NE Krško dolžna nakazati na račun sklada do 20. dne v mesecu za pretekli mesec.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Z dnem, ko začne veljati to navodilo preneha veljati navodilo o načinu obračunavanja in plačevanja prispevka v sklad za financiranje razgradnje NEK in za odlaganje radioaktivnih odpadkov iz NEK (Uradni list RS, št. 37/95).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 311-04/006-96</p>
 <p>Ljubljana, dne 9. septembra 1996.</p>
@@ -52,5 +65,36 @@ za gospodarske dejavnosti</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-09-20", "kratica": "NAVO98", "naziv": "Navodilo o načinu obračunavanja in plačevanja v sklad za financiranje razgradnje Nuklearne elektrarne Krško in za odlaganje radioaktivnih odpadkov iz NEK", "url": "/trubar/si/NAVO98/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

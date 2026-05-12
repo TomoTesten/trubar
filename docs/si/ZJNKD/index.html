@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1505" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZJNKD.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZJNKD" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZJNKD.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZJNKD,vrsta:Sprejet zakon">
+    
     <h1>Zakon o jamstvu Republike Slovenije za najete kredite za dokončanje gradnje slovenskega dela HE Golica</h1>
 <p>Na podlagi prvega odstavka 107. in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>UKAZ</h2>
@@ -37,13 +50,13 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>O JAMSTVU REPUBLIKE SLOVENIJE ZA NAJETE KREDITE ZA DOKONČANJE GRADNJE SLOVENSKEGA DELA HE GOLICA</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Republika Slovenija jamči vračilo kreditov, ki jih bo najel ELES – Elektro Slovenija, javno podjetje za prenos, nakup, prodajo, uvoz in izvoz električne energije, Ljubljana, Hajdrihova 2, za financiranje dokončanja gradnje slovenskega dela HE Golica.<br />
 Republika Slovenija daje jamstvo za najete kredite, povečane za obresti, do skupne višine 71.142.598,00 DEM ali tolarske protivrednosti na dan črpanja kredita.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Posamezne garancije za zavarovanje izpolnitve obveznosti Republike Slovenije izda minister, pristojen za finance, potem ko so znani pogoji posameznih kreditov in ko z njimi soglaša ministrstvo, pristojno za finance.<br />
 Način zavarovanja regresnega zahtevka Republike Slovenije do ELES – Elektro Slovenija se uredi s posebno pogodbo, ki jo s tem javnim podjetjem sklene ministrstvo, pristojno za finance.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 450-07/93-5/2</p>
 <p>Ljubljana, dne 23. junija 1993.</p>
@@ -59,5 +72,36 @@ mag. Herman Rigelnik l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1993-07-03", "kratica": "ZJNKD", "naziv": "Zakon o jamstvu Republike Slovenije za najete kredite za dokončanje gradnje slovenskega dela HE Golica", "url": "/trubar/si/ZJNKD/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

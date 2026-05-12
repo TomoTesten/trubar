@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0001" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5292.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5292" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5292.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5292,vrsta:uredba">
+    
     <h1>Uredba o spremembi in dopolnitvi Uredbe o načinu, predmetu in pogojih izvajanja gospodarske javne službe ravnanja s stranskimi živalskimi proizvodi kategorije 1 in 2</h1>
 <p>Na podlagi drugega odstavka 3. člena, 7., 32. in 36. člena Zakona o gospodarskih javnih službah (Uradni list RS, št. 32/93, 30/98 - <a href="/trubar/si/ZZLPPO/" class="law-ref" title="ZZLPPO">ZZLPPO</a> in 127/06 - <a href="/trubar/si/ZJZP/" class="law-ref" title="ZJZP">ZJZP</a>) in tretjega odstavka 148. člena Zakona o varstvu okolja (Uradni list RS, št. 39/06 - uradno prečiščeno besedilo, 49/06 - <a href="/trubar/si/ZMetD/" class="law-ref" title="ZMetD">ZMetD</a>, 66/06 - odl. US, 33/07 - <a href="/trubar/si/ZPNačrt/" class="law-ref" title="ZPNačrt">ZPNačrt</a>, 57/08 - ZFO-1A in 70/08) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembi in dopolnitvi Uredbe o načinu, predmetu in pogojih izvajanja gospodarske javne službe ravnanja s stranskimi živalskimi proizvodi kategorije 1 in 2</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o načinu, predmetu in pogojih izvajanja gospodarske javne službe ravnanja s stranskimi živalskimi proizvodi kategorije 1 in 2 (Uradni list RS, št. 134/06) se v četrtem odstavku 14. člena številka »II.« nadomesti s številko »I.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 1. in 2. točki 24. člena se besedilo »pristojne veterinarske službe« nadomesti z besedilom »Veterinarske uprave Republike Slovenije«.<br />
 Za 3. točko se pika nadomesti z vejico in doda nova 4. točka, ki se glasi:<br />
 »4. kot imetnik poginule ali usmrčene hišne živali preda truplo te živali v sežig v odobreno sežigalnico v skladu z 12. členom Uredbe 1774/2002/ES, pri čemer morajo biti izpolnjeni pogoji za prevoz, ravnanje in odstranjevanje iz navedene uredbe. V primeru ugotavljanja vzroka pogina je potrebno s truplom hišne živali ravnati v skladu s predpisom, ki določa pogoje za zbiranje, prevoz, skladiščenje, ravnanje, uporabo in odstranjevanje živalskih trupel kot vrste živalskih stranskih proizvodov, ki niso namenjeni prehrani ljudi, ter da imetnik žival odjavi v skladu z zakonom, ki ureja veterinarska merila skladnosti.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00719-51/2009/4</p>
 <p>Ljubljana, dne 30. decembra 2009</p>
@@ -51,5 +64,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-01-08", "kratica": "URED5292", "naziv": "Uredba o spremembi in dopolnitvi Uredbe o načinu, predmetu in pogojih izvajanja gospodarske javne službe ravnanja s stranskimi živalskimi proizvodi kategorije 1 in 2", "url": "/trubar/si/URED5292/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

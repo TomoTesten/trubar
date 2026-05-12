@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pravilnik o spremembi Pravilnika o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnem gospodarskem zavodu Protokolarne storitve Republike Slovenije — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Pravilnik o spremembi Pravilnika o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnem gospodarskem zavodu Protokolarne storitve Republike Slovenije</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>PRAV14907</strong></dd>
+      <dt>Vrsta</dt><dd>pravilnik</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2023-03-03</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-0540" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV14907" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV14907.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:PRAV14907,vrsta:pravilnik">
+    
+    <h1>Pravilnik o spremembi Pravilnika o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnem gospodarskem zavodu Protokolarne storitve Republike Slovenije</h1>
+<p>Na podlagi drugega odstavka 22.i člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 108/09 – uradno prečiščeno besedilo, 13/10, 59/10, 85/10, 107/10, 35/11 – ORZSPJS49a, 27/12 – odl. US, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>, 46/13, 25/14 – <a href="/trubar/si/ZFU/" class="law-ref" title="ZFU">ZFU</a>, 50/14, 95/14 – <a href="/trubar/si/ZUPPJS15/" class="law-ref" title="ZUPPJS15">ZUPPJS15</a>, 82/15, 23/17 – ZDOdv, 67/17, 84/18, 204/21 in 139/22) in prvega odstavka 3. člena Uredbe o delovni uspešnosti iz naslova prodaje blaga in storitev na trgu (Uradni list RS, št. 97/09 in 41/12) ministrica za javno upravo izdaja</p>
+<p>P R A V I L N I K</p>
+<p>o spremembi Pravilnika o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnem gospodarskem zavodu Protokolarne storitve Republike Slovenije</p>
+<p>1. člen</p>
+<p>V Pravilniku o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnem gospodarskem zavodu Protokolarne storitve Republike Slovenije (Uradni list RS, št. 4/16) se v 2. členu številka »30« nadomesti s številko »50«.</p>
+<p>KONČNA DOLOČBA</p>
+<p>2. člen</p>
+<p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 007-10/2023/7</p>
+<p>Ljubljana, dne 22. februarja 2023</p>
+<p>EVA 2023-3130-0001</p>
+<p>Sanja Ajanović Hovnik</p>
+<p>ministrica</p>
+<p>za javno upravo</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-03-03", "kratica": "PRAV14907", "naziv": "Pravilnik o spremembi Pravilnika o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnem gospodarskem zavodu Protokolarne storitve Republike Slovenije", "url": "/trubar/si/PRAV14907/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

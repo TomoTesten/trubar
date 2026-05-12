@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1721" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE759.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE759" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE759.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE759,vrsta:odredba">
+    
     <h1>Odredba o določitvi obrazca podpore volivca</h1>
 <p>Na podlagi petega odstavka 13. člena in tretjega odstavka 59. člena zakona o referendumu in o ljudski iniciativi (Uradni list RS, št. 15/94) izdaja minister za notranje zadeve</p>
 <h2>ODREDBO</h2>
 <p>o določitvi obrazca podpore volivca</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Besedilo obrazca podpore volivca se glasi:</p>
 <p>PODPORA VOLIVCA<br />
                         ZAHTEVI ZA RAZPIS ZAKONODAJNEGA<br />
@@ -62,9 +75,9 @@ V....................., dne.................M. P....................<br />
 OBVESTILO: Evidenca podpisov volivcev za podporo zahtevi za razpis<br />
 zakonodajnega referenduma, pobudi za spremembo ustave ali pobudi za predlog<br />
 zakona je uradna tajnost.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Velikost obrazca podpore volivca je 210 x297 mm (format A4), uporablja se sprednja stran.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0101-3-sl. 462/94</p>
 <p>Ljubljana, dne 14. julija 1994.</p>
@@ -78,5 +91,36 @@ Minister za notranje zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-07-15", "kratica": "ODRE759", "naziv": "Odredba o določitvi obrazca podpore volivca", "url": "/trubar/si/ODRE759/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

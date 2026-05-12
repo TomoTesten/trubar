@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2932" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1655.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1655" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1655.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1655,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah uredbe o uvedbi podpor za pripravo kmetijskih pridelkov in živil za zunanji trg</h1>
 <p>Na podlagi 5. člena, v zvezi z 19. in 126. členom zakona o kmetijstvu (Uradni list RS, št. 54/00) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe  o uvedbi podpor za pripravo kmetijskih pridelkov in živil za zunanji trg</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 7. členu uredbe o uvedbi podpor za pripravo kmetijskih pridelkov in živil za zunanji trg (Uradni list RS, št. 23/00, 27/00 in 38/00; v nadaljnjem besedilu: uredba) se doda nov drugi odstavek, ki se glasi:<br />
 »Ne glede na določbo prejšnjega odstavka je rok za vložitev zahtevkov za izplačilo podpore za pripravo trsnih cepljenk za zunanji trg, izvoženih v aprilu in maju 2001, 20. julij 2001.«.<br />
 Dosedanji drugi odstavek 7. člena postane tretji odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 12. členu uredbe se besedilo: »30. junija« nadomesti z besedilom, ki se glasi: »31. decembra«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V uredbi se v prilogi »Seznam proizvodov in višina podpor za pripravo kmetijskih pridelkov in živil za zunanji trg«:<br />
 – črta besedilo, ki se glasi:</p>
 <p>»0102 90    -  Druge:<br />
@@ -100,7 +113,7 @@ Podpora se dodeli le za izvoz v embalaži, namenjeni končnemu potrošniku (emba
 <li>Podpora velja za izvoz hrušk, ki dosegajo najmanj minimalno izvozno ceno 31,00 SIT/kg. Za izvoz v države Evropske unije znaša višina podpore za upravičence, ki so organizirani v GIZ Sadjarstvo Slovenije ali zadruge 20,00 SIT/kg, za ostale upravičence 14,00 SIT/kg. Za izvoz v druge države znaša višina podpore 14,00 SIT/kg za upravičence, ki so organizirani v GIZ Sadjarstvo Slovenije ali zadruge, za ostale upravičence 10,00 SIT/kg.<br />
 Podpora se dodeli le za izvoz v embalaži, namenjeni končnemu potrošniku (embalaža do 25 kg). Izvoženih v državo, ki je končna destinacija proizvoda.«.</li>
 </ul>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 403-22/2000-7</p>
 <p>Ljubljana, dne 21. junija 2001.</p>
@@ -115,5 +128,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-07-03", "kratica": "URED1655", "naziv": "Uredba o spremembah in dopolnitvah uredbe o uvedbi podpor za pripravo kmetijskih pridelkov in živil za zunanji trg", "url": "/trubar/si/URED1655/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

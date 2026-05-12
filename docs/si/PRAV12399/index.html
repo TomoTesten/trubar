@@ -21,20 +21,33 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2015-01-0387" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12399.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV12399" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12399.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV12399,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah Pravilnika o vlogah in dokazilih v zvezi z zaposlovanjem in delom tujcev ter o zaposlitvah tujcev, ki niso vezane na trg dela</h1>
 <p>Na podlagi osmega odstavka 10. člena, tretjega odstavka 18. člena, prvega odstavka 29. člena, šestega odstavka 48. člena in petega odstavka 60. člena Zakona o zaposlovanju in delu tujcev (Uradni list RS, št. 26/11, 21/13 – <a href="/trubar/si/ZUTD-A/" class="law-ref" title="ZUTD-A">ZUTD-A</a> in 100/13 – <a href="/trubar/si/ZUTD-C/" class="law-ref" title="ZUTD-C">ZUTD-C</a>) izdaja ministrica za delo, družino, socialne zadeve in enake možnosti</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o vlogah in dokazilih v zvezi z zaposlovanjem in delom tujcev ter o zaposlitvah tujcev, ki niso vezane na trg dela</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o vlogah in dokazilih v zvezi z zaposlovanjem in delom tujcev ter o zaposlitvah tujcev, ki niso vezane na trg dela (Uradni list RS, št. 45/11) se v prvem odstavku 24. člena črta 1. točka.<br />
 Dosedanje 2. do 10. točka postanejo 1. do 9. točka.<br />
 Drugi odstavek se črta.<br />
 V dosedanjem tretjem odstavku, ki postane drugi odstavek, se besedilo »10. točki prvega odstavka tega člena« nadomesti z besedilom »9. točki prejšnjega odstavka«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 25. členu se drugi odstavek spremeni tako, da se glasi:<br />
 »(2) Vlogi iz prejšnjega odstavka delodajalec priloži:<br />
 1. pogodbo o zaposlitvi, ki jo podpiše delodajalec, in izjavo tujca, da se je pripravljen zaposliti pri tem delodajalcu;<br />
@@ -43,12 +56,12 @@ V dosedanjem tretjem odstavku, ki postane drugi odstavek, se besedilo »10. toč
 4. fotokopijo potnega lista tujca;<br />
 5. dokazilo o ustrezni izobrazbi tujca v skladu z 21. členom tega pravilnika v primeru iz 1. in 9. točke prvega odstavka prejšnjega člena;<br />
 6. fotokopijo odločbe Zavoda za pokojninsko in invalidsko zavarovanje Slovenije ali sodišča v Republiki Sloveniji, s katero je tujcu priznana pravica na podlagi invalidnosti v primeru iz 8. točke prvega odstavka prejšnjega člena.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Obrazec ZRSZ-TUJ-2 se nadomesti z novim obrazcem ZRSZ-TUJ-2, ki je priloga in sestavni del tega pravilnika.</p>
 <h3>PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Postopki izdaje dovoljenj za zaposlitev, ki so se začeli do uveljavitve tega pravilnika, se dokončajo v skladu z določbami Pravilnika o vlogah in dokazilih v zvezi z zaposlovanjem in delom tujcev ter o zaposlitvah tujcev, ki niso vezane na trg dela (Uradni list RS, št. 45/11).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0072-2/2015</p>
 <p>Ljubljana, dne 11. februarja 2015</p>
@@ -66,5 +79,36 @@ in enake možnosti</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2015-02-20", "kratica": "PRAV12399", "naziv": "Pravilnik o spremembah Pravilnika o vlogah in dokazilih v zvezi z zaposlovanjem in delom tujcev ter o zaposlitvah tujcev, ki niso vezane na trg dela", "url": "/trubar/si/PRAV12399/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

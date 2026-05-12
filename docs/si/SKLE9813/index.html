@@ -21,25 +21,38 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-2399" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9813.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE9813" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9813.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE9813,vrsta:sklep">
+    
     <h1>Sklep o spremembah in dopolnitvah Sklepa o izračunu kapitalske zahteve za operativno tveganje za banke in hranilnice</h1>
 <p>Na podlagi 6. točke 129. člena Zakona o bančništvu (Uradni list RS, št. 99/10 – uradno prečiščeno besedilo (52/11 – popravek), 9/11 – <a href="/trubar/si/ZPlaSS-B/" class="law-ref" title="ZPlaSS-B">ZPlaSS-B</a>, 35/11, 59/11, 85/11, 48/12, 105/12 in 56/13) ter prvega odstavka 31. člena Zakona o Banki Slovenije (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo in 59/11) izdaja Svet Banke Slovenije</p>
 <h2>S K L E P</h2>
 <p>o spremembah in dopolnitvah Sklepa o izračunu kapitalske zahteve za operativno tveganje za banke in hranilnice</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Sklepu o izračunu kapitalske zahteve za operativno tveganje za banke in hranilnice (Uradni list RS, št. 135/06 in 85/10) se besedilo 1.a člena spremeni tako, da se glasi:<br />
 »S tem sklepom se v pravni red Republike Slovenije prenaša Direktiva 2006/48/ES Evropskega parlamenta in Sveta z dne 14. junija 2006 o začetku opravljanja in opravljanju dejavnosti kreditnih institucij (UL L št. 177 z dne 30. junija 2006, str. 1), zadnjič spremenjena z Direktivo 2011/89/EU Evropskega parlamenta in Sveta z dne 16. novembra 2011 o spremembah direktiv 98/78/ES, 2002/87/ES, 2006/48/ES in 2009/138/ES glede dopolnilnega nadzora finančnih subjektov v finančnem konglomeratu (UL L št. 326 z dne 8. decembra 2011, str. 113).«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V petem odstavku 24. člena se za besedo »holdingu« doda besedilo »ali EU nadrejenemu mešanemu finančnemu holdingu«.<br />
 Sedmi odstavek se spremeni tako, da se glasi:<br />
 »(7) Banka Slovenije izda dovoljenje za uporabo naprednega pristopa EU nadrejeni banki ali banki, ki jo obvladuje EU nadrejen finančni holding ali EU nadrejeni mešani finančni holding na podlagi odločitve iz tretjega in četrtega odstavka 291. člena <a href="/trubar/si/ZBan-1/" class="law-ref" title="ZBan-1">ZBan-1</a>. Pri tem v dovoljenju določi ali in v kolikšnem obsegu lahko ta EU nadrejena banka z njenimi podrejenimi institucijami ali ta banka z drugimi institucijami, ki so podrejene EU nadrejenemu finančnemu holdingu ali EU nadrejenemu mešanemu finančnemu holdingu, skupaj izpolnjujejo kvalifikacijske kriterije iz pododdelka 2.5.2. tega sklepa.«.<br />
 V osmem odstavku se za besedo »holdingu« doda besedilo »ali EU mešanemu finančnemu holdingu«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V PRILOGI I se v ODDELKU A4. za besedo »holdingu« doda besedilo »ali EU nadrejenemu mešanemu finančnemu holdingu«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Ljubljana, dne 16. julija 2013</p>
 <p>mag. Janez Fabijan l.r.<br />
@@ -53,5 +66,36 @@ Sveta Banke Slovenije</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-07-19", "kratica": "SKLE9813", "naziv": "Sklep o spremembah in dopolnitvah Sklepa o izračunu kapitalske zahteve za operativno tveganje za banke in hranilnice", "url": "/trubar/si/SKLE9813/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

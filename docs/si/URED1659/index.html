@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2566" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1659.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1659" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1659.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1659,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o vrsti, obsegu in pogojih za opravljanje dopolnilnih dejavnosti na kmetiji</h1>
 <p>Na podlagi petega odstavka 68. člena zakona o kmetijstvu (Uradni list RS, št. 54/00) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o vrsti, obsegu in pogojih za opravljanje dopolnilnih dejavnosti na kmetiji</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta uredba podrobneje določa vrste, obseg in druge pogoje za opravljanje dopolnilnih dejavnosti na kmetijah.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(vrste dopolnilnih dejavnosti)</h3>
 <p>Na kmetiji se lahko opravljajo naslednje vrste dopolnilnih dejavnosti:<br />
 1. predelava, obdelava, dodelava, zamrzovanje in pakiranje kmetijskih pridelkov in gozdnih sortimentov;<br />
@@ -46,7 +59,7 @@
 10. drugo izobraževanje na kmetijah, povezano z dejavnostjo na kmetiji;<br />
 11. vrtnarstvo, čebelarstvo, perutninarstvo, ribogojstvo, gobarstvo, zeliščarstvo, sodelovanje v pridelavi in dodelavi semena in sadik, drevesničarstvo, trsničarstvo, reja divjadi;<br />
 12. zbiranje in kompostiranje odpadnih organskih snovi.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(obseg)</h3>
 <p>Dopolnilne dejavnosti na kmetiji se lahko opravljajo največ v obsegu, na podlagi katerega nosilec dopolnilne dejavnosti ne preseže dohodka, ki ga določa tretji odstavek 68. člena zakona o kmetijstvu.<br />
 Ne glede na prejšnji odstavek se za posamezne dopolnilne dejavnosti iz prejšnjega člena uredbe v skladu s četrtim in petim odstavkom 68. člena zakona o kmetijstvu določajo naslednji največji dovoljeni fizični obseg ter posebni pogoji za njihovo opravljanje na kmetiji:<br />
@@ -61,9 +74,9 @@ Ne glede na prejšnji odstavek se za posamezne dopolnilne dejavnosti iz prejšnj
 9. Izkoriščanje vodnih, vetrnih in drugih obnovljivih virov energije do nazivne moči največ do 500 KW.<br />
 10. Storitve s kmetijsko in gozdarsko mehanizacijo do 500 ur letno.<br />
 11. Storitve z delovno silo do 600 ur letno.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Podrobnejše pogoje za opravljanje dopolnilne dejavnosti na kmetiji iz 4. točke 2. člena te uredbe urejajo predpisi s področja gostinstva.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 320-24/2001-1</p>
 <p>Ljubljana, dne 31. maja 2001.</p>
@@ -78,5 +91,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-06-08", "kratica": "URED1659", "naziv": "Uredba o vrsti, obsegu in pogojih za opravljanje dopolnilnih dejavnosti na kmetiji", "url": "/trubar/si/URED1659/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

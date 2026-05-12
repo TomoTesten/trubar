@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Ministrstvo za promet</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0048" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5217.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE5217" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5217.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE5217,vrsta:sklep">
+    
     <h1>Sklep razširjene komisije EUROCONTROL št. 80, o spremembi načel za določanje stroškovne baze za pristojbine na zračnih poteh in izračun cene za enoto storitve</h1>
 <p>Na podlagi 3. člena Zakona o ratifikaciji večstranskega sporazuma o pristojbinah na zračnih poteh (Uradni list RS – MP, št. 11/95), 10. člena Pogojev uporabe sistema pristojbin na zračnih poteh in plačilnih pogojev Evropske organizacije za varnost zračne plovbe – EUROCONTROL (Uradni list RS, št. 77/95, 42/97, 14/02 in 42/03) in 1. člena Odredbe o pri­stojbinah na zračnih poteh (Uradni list RS, št. 77/95) minister za promet objavlja</p>
 <h2>S K L E P</h2>
@@ -36,7 +49,7 @@ ob upoštevanju Mednarodne konvencije EUROCONTROL o sodelovanju za varnost zrač
 ob upoštevanju Večstranskega sporazuma o pristojbinah na zračnih poteh z dne 12. februarja 1981, in zlasti njegove točke e. drugega odstavka 3. člena in točke a. prvega odstavka 6. člena;<br />
 ob upoštevanju načel za določanje stroškovne baze za pristojbine na zračnih poteh in izračun cene za enoto storitve;<br />
 na predlog razširjenega odbora in začasnega sveta, sprejema naslednji sklep:</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Načela za določanje stroškovne baze za pristojbine na zračnih poteh in izračun cene za enoto storitve se spremenijo kot sledi:<br />
 1.1 V odstavku 1.1. se sklic na ICAO-jeve dokumente glasi:<br />
 (...) “ ICAO-jeve Politike o letaliških pristojbinah in pristojbinah navigacijskih služb zračnega prometa”, kot so navedena v Dokumentu ICAO 9082 in v “Priročniku za ekonomijo navigacijskih služb zračnega prometa”, kot so navedena v Dokumentu ICAO 9161 (...)«;<br />
@@ -60,7 +73,7 @@ Uprava za civilno letalstvo. Avtonomna uprava, ki izvaja regulatorne funkcije. V
 Korporatizacija. Ustanovitev pravne osebe, bodisi v zasebni ali javni lasti, za upravljanje z nekaterimi objekti in napravami ter službami bodisi na podlagi določenega zakona ali na podlagi obstoječega zakona, kot je na primer pravo o gospodarskih družbah. Pravna oseba postane avtonomna, ko je korporatizirana.«<br />
 1.8 PRILOGA VII (Ekonomski predpisi)<br />
 Iz naslova priloge se črta beseda »OSNUTEK«.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Te spremembe začnejo veljati na prvi dan meseca, ki sledi datumu tega sklepa.</p>
 <p>P. Lunardi<br />
 Predsednik Komisije”</p>
@@ -78,5 +91,36 @@ za promet</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-01-11", "kratica": "SKLE5217", "naziv": "Sklep razširjene komisije EUROCONTROL št. 80, o spremembi načel za določanje stroškovne baze za pristojbine na zračnih poteh in izračun cene za enoto storitve", "url": "/trubar/si/SKLE5217/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

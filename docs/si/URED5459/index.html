@@ -21,23 +21,36 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-1333" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5459.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5459" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5459.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5459,vrsta:uredba">
+    
     <h1>Uredba o dopolnitvah Uredbe o skladiščenju nevarnih tekočin v nepremičnih skladiščnih posodah</h1>
 <p>Na podlagi drugega odstavka 19. člena Zakona o varstvu okolja (Uradni list RS, št. 39/06 – uradno prečiščeno besedilo, 49/06 – <a href="/trubar/si/ZMetD/" class="law-ref" title="ZMetD">ZMetD</a>, 66/06 – odl. US, 33/07 – <a href="/trubar/si/ZPNačrt/" class="law-ref" title="ZPNačrt">ZPNačrt</a>, 57/08 – ZFO-1A, 70/08 in 108/09) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o dopolnitvah Uredbe o skladiščenju nevarnih tekočin v nepremičnih skladiščnih posodah</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o skladiščenju nevarnih tekočin v nepremičnih skladiščnih posodah (Uradni list RS, št. 104/09) se na začetku prvega odstavka 20. člena doda oznaka »(1)«, za prvim odstavkom pa se doda novi drugi odstavek, ki se glasi:<br />
 »(2) Če je skladišče sestavni del naprave, ki lahko povzroča onesnaževanje okolja večjega obsega, in je hkrati obrat ali del obrata v skladu z zakonom, ki ureja varstvo okolja, je treba zahteve iz te uredbe za obratovanje skladišča in njegovih rezervoarjev vključiti v okoljevarstveno dovoljenje za napravo.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 28. členom se doda novi 28.a člen, ki se glasi:</p>
 <h3>»28.a člen</h3>
 <h3>(dokončanje postopkov izdaje okoljevarstvenih dovoljenj)</h3>
 <p>Postopki izdaje okoljevarstvenih dovoljenj, začeti pred uveljavitvijo te uredbe, se končajo po Pravilniku o tem, kako morajo biti zgrajena in opremljena skladišča ter transportne naprave za nevarne in škodljive snovi (Uradni list SRS, št. 3/79 in Uradni list RS, št. 67/02 – <a href="/trubar/si/ZV-1/" class="law-ref" title="ZV-1">ZV-1</a>).«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00719-12/2010/4</p>
 <p>Ljubljana, dne 8. aprila 2010</p>
@@ -53,5 +66,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-04-09", "kratica": "URED5459", "naziv": "Uredba o dopolnitvah Uredbe o skladiščenju nevarnih tekočin v nepremičnih skladiščnih posodah", "url": "/trubar/si/URED5459/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

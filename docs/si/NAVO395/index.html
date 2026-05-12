@@ -21,29 +21,42 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0175" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO395.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO395" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO395.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO395,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Navodilo o ukrepih za ugotavljanje, preprečevanje in zatiranje ehinokokoze-Echinococcosis</h1>
 <p>Na podlagi prve alinee 114. člena zakona o veterinarstvu (Uradni list RS, št. 82/94, 21/95 in 16/96) in 99. člena zakona o upravi (Uradni list RS, št. 67/94, 25/95 – odl. US in Uradni list RS, št. 29/95) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>N A V O D I L O</h2>
 <p>o ukrepih za ugotavljanje, preprečevanje in zatiranje ehinokokoze – Echinococcosis</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Za ugotavljanje, zatiranje in preprečevanje ehinokokoze se izvajajo ukrepi, ki jih določa to navodilo.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Na ehinokokozo se sumi na podlagi ugotovitve mehurnjakov na jetrih, pljučih in nekaterih drugih organih zaklanih ali poginulih prašičev, drobnice, govedi, kopitarjev in nekaterih vrst divjadi.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ehinokokozo imajo prašiči, drobnica, govedo, kopitarji in nekatere vrste divjadi, pri katerih se ugotovijo mehurnjaki na jetrih, pljučih in drugih organih, iz njih pa se v laboratoriju mikroskopsko ugotovijo protoskoleksi ali se s serološkim pregledom dokažejo značilna protitelesa.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Če se ugotovi ehinokokoza, se odredi:<br />
 – na območjih, kjer se enzootsko pojavlja ta bolezen, dvakratna dehelmentizacija psov;<br />
 – ob zakolih prašičev, drobnice, govedi ali kopitarjev in ob uplenitvi divjadi neškodljivo uničenje mehurnjakov.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Primer ehinokokoze je treba prijaviti pristojni veterinarski in zdravstveni službi.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Stroške diagnostičnih preiskav plača Republika Slovenija iz proračuna, stroške drugih ukrepov in sanacijo reje pa plača lastnik živali.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 323-01-168/96</p>
 <p>Ljubljana, dne 16. januarja 1997.</p>
@@ -59,5 +72,36 @@ gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-01-24", "kratica": "NAVO395", "naziv": "Navodilo o ukrepih za ugotavljanje, preprečevanje in zatiranje ehinokokoze-Echinococcosis", "url": "/trubar/si/NAVO395/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

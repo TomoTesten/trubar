@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-02-0059" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MRSMKS-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MRSMKS-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MRSMKS-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MRSMKS-A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o ratifikaciji Sprememb Rimskega statuta Mednarodnega kazenskega sodišča, Kampala, 10. in 11. junij 2010</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI SPREMEMB RIMSKEGA STATUTA MEDNARODNEGA KAZENSKEGA SODIŠČA, KAMPALA, 10. IN 11. JUNIJ 2010 (MRSMKS-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificirajo se Spremembe Rimskega statuta Mednarodnega kazenskega sodišča, sprejete na Pregledni konferenci statuta v Kampali (Uganda) 10. in 11. junija 2010.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Spremembe se v izvirniku v angleškem jeziku in prevodu v slovenskem jeziku glasijo(1):<br />
 Amendment to the Rome Statute of the International Criminal Court<br />
 Kampala, 10 June 2010<br />
@@ -239,14 +252,14 @@ Državna pristojnost za kaznivo dejanje agresije<br />
 Drugi dogovori o razlagi<br />
 6. Agresija je najhujša in najnevarnejša oblika protipravne uporabe sile in pri ugotavljanju, ali je bilo dejanje agresije storjeno, je treba preučiti vse okoliščine posameznega primera, vključno s težo teh dejanj in njihovih posledic, v skladu z Ustanovno listino Organizacije združenih narodov.<br />
 7. Pri ugotavljanju, ali dejanje agresije pomeni očitno kršitev Ustanovne listine Organizacije združenih narodov, morajo narava, teža in obseg biti takšni, da upravičujejo »očitnost«. Nobeno od teh treh meril samo po sebi ni dovolj pomembno, da bi lahko zadostilo standardu očitnosti.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ob sklenitvi sprememb so vse pogodbenice za njihovo razlago sprejele naslednje dogovore in listine:<br />
 – resoluciji številka 5 in 6 (Priloga 1),<br />
 – znake kaznivih dejanj (Priloga 2) in<br />
 – dogovore o razlagi sprememb Rimskega statuta Mednarodnega kazenskega sodišča v zvezi s kaznivim dejanjem agresije (Priloga 3).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za izvajanje sprememb skrbi ministrstvo, pristojno za pravosodje.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 700-01/13-12/9</p>
 <p>Ljubljana, dne 15. julija 2013</p>
@@ -264,5 +277,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-08-30", "kratica": "MRSMKS-A", "naziv": "Zakon o ratifikaciji Sprememb Rimskega statuta Mednarodnega kazenskega sodišča, Kampala, 10. in 11. junij 2010", "url": "/trubar/si/MRSMKS-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

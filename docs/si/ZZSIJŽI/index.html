@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-1234" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZSIJŽI.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZZSIJŽI" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZSIJŽI.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZZSIJŽI,vrsta:Sprejet zakon">
+    
     <h1>Zakon o zagotavljanju sredstev za investicije v javno železniško infrastrukturo</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,15 +50,15 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O ZAGOTAVLJANJU SREDSTEV ZA INVESTICIJE V JAVNO ŽELEZNIŠKO INFRASTRUKTURO (ZZSIJŽI)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem zakonom se v proračunu Republike Slovenije določi način zagotavljanja sredstev za izvedbo investicij in vzdrževanje v javno železniško infrastrukturo (v nadaljnjem besedilu: infrastruktura) v obdobju od leta 2010 do leta 2023.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Viri za naloge iz prejšnjega člena so plačila iz naslova:<br />
 - letne dajatve za uporabo vozil v cestnem prometu,<br />
 - koncesijske dajatve Luke Koper d.d., ki pripada Republiki Sloveniji.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Viri, zagotovljeni po tem zakonu, so namenjeni za izvedbo investicij v infrastrukturo in vzdrževanje infrastrukture, kot je določeno v nacionalnem programu razvoja infrastrukture ter letnih načrtih investicij in letnih načrtih vzdrževanja infrastrukture.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 411-01/10-58/27</p>
 <p>Ljubljana, dne 24. marca 2010</p>
@@ -54,7 +67,7 @@ Republike Slovenije</p>
 Republike Slovenije<br />
 dr. Pavel Gantar l.r.<br />
 Predsednik</p>
-    <section class="amendments"><h2>Spremembe</h2><ul><li><a href="/trubar/si/ZZSIJŽI-B/">ZZSIJŽI-B</a> — Zakon o spremembi Zakona o zagotavljanju sredstev za investicije v prometno infrastrukturo (2022-11-04)</li></ul></section>
+    <section class="amendments"><h2>Kronologija sprememb <a href="https://github.com/TomoTesten/trubar/commits/master/si/ZZSIJŽI.md" class="history-link" target="_blank" title="Celotna git zgodovina">git ↗</a></h2><ul><li><span class="amend-date">2022-11-04</span> <a href="/trubar/si/ZZSIJŽI-B/" class="amend-link">ZZSIJŽI-B</a> — Zakon o spremembi Zakona o zagotavljanju sredstev za investicije v prometno infrastrukturo <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZSIJŽI-B.md" class="diff-link" target="_blank" title="Besedilo spremembe na GitHubu">diff ↗</a></li></ul></section>
   </article>
 </div>
 <footer>
@@ -62,5 +75,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-04-06", "kratica": "ZZSIJŽI", "naziv": "Zakon o zagotavljanju sredstev za investicije v javno železniško infrastrukturo", "url": "/trubar/si/ZZSIJŽI/"}, {"date": "2022-11-04", "kratica": "ZZSIJŽI-B", "naziv": "Zakon o spremembi Zakona o zagotavljanju sredstev za investicije v prometno infrastrukturo", "url": "/trubar/si/ZZSIJŽI-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

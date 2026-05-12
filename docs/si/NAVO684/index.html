@@ -21,33 +21,46 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1932" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO684.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO684" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO684.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO684,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a><a href="#člen-9">9</a></nav>
     <h1>Navodilo o vsebini in formatu vizuma</h1>
 <p>Na podlagi tretjega odstavka 21. člena zakona o tujcih (Uradni list RS, št. 108/02 – uradno prečiščeno besedilo) izdaja minister za notranje zadeve v soglasju z ministrom za zunanje zadeve</p>
 <h2>N A V O D I L O</h2>
 <p>o vsebini in formatu vizuma</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik ureja prošnjo za izdajo vizuma, obliko in vsebino vizuma ter način razveljavitve vizuma.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Prošnjo za izdajo vizuma vloži tujec na obrazcu iz priloge št. 1 tega navodila.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Vizum vsebuje podatke o vrsti vizuma, roku veljavnosti, trajanju bivanja v državi, številu vstopov, namenu obiska in osebne podatke ter fotografijo osebe, ki ji je bil vizum izdan, številki potnega lista ter datumu in kraju izdaje vizuma.<br />
 Vizum se izda v obliki nalepke, velikosti 74 × 105 mm.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Vizum se izda na obrazcu iz priloge št. 2 tega navodila, tako da se prilepi v potni list.<br />
 Ne glede na določbo prejšnjega odstavka, se vizum lahko izda na poseben dokument iz priloge št 3. tega navodila v primeru, da Republika Slovenija tujčevega potnega lista ne prizna.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Razveljavitev vizuma se označi tako, da se preko vizuma odtisne štampiljka iz priloge št. 4 tega navodila, optični variabilni znak – kinegram se prečrta s koničastim kovinskim predmetom, na nalepko pa se diagonalno nariše rdeč križ.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Priloge št. od 1 do 4 so sestavni del tega navodila in so objavljene skupaj z njim.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Z dnem, ko začne veljati to navodilo, preneha veljati Navodilo o vsebini in formatu vizuma (Uradni list RS, št. 45/00).</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ne glede na določbo 3. člena tega navodila, se lahko vizum brez fotografije imetnika izdaja najdlje do dneva, ki je določen z Uredbo Sveta EU, ki določa enoten format vizuma. V tem primeru je potrebno v prostor namenjen za fotografijo zapisati besedilo: »Velja brez fotografije« v slovenskem, angleškem in francoskem jeziku.</p>
-<h3>9. člen</h3>
+<h3><span id="člen-9">9. člen</span></h3>
 <p>To navodilo začne veljati 1. maja 2004.</p>
 <p>Št. 1333/08-214-28/2004-4</p>
 <p>Ljubljana, dne 2. aprila 2004.</p>
@@ -71,5 +84,36 @@ za zunanje zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-04-26", "kratica": "NAVO684", "naziv": "Navodilo o vsebini in formatu vizuma", "url": "/trubar/si/NAVO684/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

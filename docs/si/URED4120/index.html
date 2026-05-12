@@ -21,30 +21,43 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1132" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4120.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4120" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4120.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4120,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Uredba o spremembah in dopolnitvah Uredbe o okoljski dajatvi za onesnaževanje okolja zaradi odlaganja odpadkov</h1>
 <p>Na podlagi četrtega odstavka 112. in četrtega odstavka 113. člena Zakona o varstvu okolja (Uradni list RS, št. 41/04) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o okoljski dajatvi za onesnaževanje okolja zaradi odlaganja odpadkov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o okoljski dajatvi za onesnaževanje okolja zaradi odlaganja odpadkov (Uradni list RS, št. 129/04 in 68/05) se v 2. členu na koncu besedila 10. točke doda besedilo »ali državna gospodarska javna služba sežiganja komunalnih odpadkov«.<br />
 V 11. točki se za besedilom »naprave za zbiranje« doda besedilo »obdelavo«, črta se besedilo »komunalna oprema zemljišč za«, na koncu besedila te točke pa se doda besedilo »ter objekti in naprave za sežiganje komunalnih odpadkov, ostankov njihove predelave ter muljev komunalnih čistilnih naprav«.<br />
 Na koncu besedila 12. točke se doda besedilo »v lasti občine ali države«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 3. členu se v tretjem odstavku za besedilom »pripravljalnih del« doda besedilo »vključno z izdelavo projektne dokumentacije, največ v višini, ki ne presega 4% vrednosti investicije«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prvem odstavku 22. člena se za besedilom »v infrastrukturo javne službe« doda besedilo »v njeni lasti«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V drugem odstavku 26. člena se za besedo »več« doda beseda »javnih« in za besedo »sredstev« črta besedilo<br />
 »državne pomoči«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V 35.a členu se za prvim odstavkom doda nov drugi odstavek, ki se glasi:<br />
 »Ne glede na določbe petega odstavka 35. člena te uredbe se zavezancu iz prvega odstavka 35. člena te uredbe, ki je pridobil odločbo o oprostitvi plačila okoljske dajatve, na podlagi ugotovitve o dejanski izvedbi del za zmanjšanje obremenjevanja tal oziroma zraka zaradi odlaganja odpadkov v odločbi o odmeri okoljske dajatve za leto 2006 zmanjša plačilo okoljske dajatve do zneska upravičenih stroškov iz<br />
 12. točke 2. člena te uredbe.«.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00719-12/2006/7</p>
 <p>Ljubljana, dne 9. marca 2006</p>
@@ -60,5 +73,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-03-17", "kratica": "URED4120", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o okoljski dajatvi za onesnaževanje okolja zaradi odlaganja odpadkov", "url": "/trubar/si/URED4120/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>PRAV15030</strong></dd>
       <dt>Vrsta</dt><dd>pravilnik</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>2023-03-31</dd>
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-1075" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV15030.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV15030" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV15030.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV15030,vrsta:pravilnik">
+    
     <h1>Pravilnik o vsebini in obliki diplom ter potrdil o izpopolnjevanju na Fakulteti za zdravstvene vede v Celju</h1>
 <p>Na podlagi prvega odstavka 32.a člena Zakona o visokem šolstvu (Uradni list RS, št. 32/12 – uradno prečiščeno besedilo, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>, 57/12 – <a href="/trubar/si/ZPCP-2D/" class="law-ref" title="ZPCP-2D">ZPCP-2D</a>, 109/12, 85/14, 75/16, 61/17 – ZUPŠ, 65/17, 175/20 – <a href="/trubar/si/ZIUOPDVE/" class="law-ref" title="ZIUOPDVE">ZIUOPDVE</a>, 57/21 – odl. US, 54/22 – ZUPŠ-1 in 100/22 – <a href="/trubar/si/ZSZUN/" class="law-ref" title="ZSZUN">ZSZUN</a>) ter 52. in 53. člena Statuta Fakultete za zdravstvene vede v Celju je Senat Fakultete za zdravstvene vede v Celju na 3. korespondenčni seji dne 20. 3. 2023 sprejel</p>
 <p>P R A V I L N I K</p>
@@ -83,5 +96,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-03-31", "kratica": "PRAV15030", "naziv": "Pravilnik o vsebini in obliki diplom ter potrdil o izpopolnjevanju na Fakulteti za zdravstvene vede v Celju", "url": "/trubar/si/PRAV15030/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

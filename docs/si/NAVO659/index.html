@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Ministrstvo za pravosodje</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4091" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO659.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO659" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO659.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO659,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Navodilo za sestavo mnenj o delu sodniškega pripravnika in potrdil o obveznih oblikah izobraževanja</h1>
 <p>Na podlagi petega odstavka 17. člena zakona o pravniškem državnem izpitu – uradno prečiščeno besedilo (Uradni list RS, št. 83/03) izdaja minister za pravosodje</p>
 <h2>N A V O D I L O</h2>
 <p>za sestavo mnenj o delu sodniškega pripravnika in potrdil o obveznih oblikah izobraževanja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>To navodilo določa, kako sodnik mentor sestavi mnenje o delu sodniškega pripravnika (v nadaljnjem besedilu: pripravnik) ter kako izvajalec obvezne oblike izobraževanja sestavi potrdilo o udeležbi pripravnika v obvezni obliki izobraževanja.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Sodnik mentor izdela mnenje o delu pripravnika na podlagi ocene posameznih konkretnih nalog in pravnih opravil ter po pregledu pripravnikovega poročila o delu, ki se nanaša na opravljanje sodniškega pripravništva pod njegovim mentorstvom.<br />
 (2) Mnenje o delu pripravnika vsebuje:<br />
 – osebno ime, datum in kraj rojstva, stalno oziroma začasno prebivališče pripravnika, enoto oziroma oddelek sodišča, kjer je opravljal sodniško pripravništvo ter čas opravljanja sodniškega pripravništva,<br />
@@ -39,7 +52,7 @@
 – obseg opravljenega dela z navedbo opravilnih številk posameznih zadev,<br />
 – splošno oceno pripravnikovega dela (neuspešno, uspešno ali zelo uspešno), izdelano ob upoštevanju ustreznosti izbrane metode dela, uporabe tehničnega znanja pri izvedbi naloge, pravilnosti rešitve naloge, sposobnosti pisnega in ustnega izražanja ter pripravnikovega odnosa do dela, strank in sodelavcev.<br />
 (3) Sodnik mentor predloži en izvod mnenja o delu pripravnika predsedniku višjega sodišča, en izvod pa pripravniku, in sicer v osmih dneh po poteku pripravništva pod njegovim mentorstvom.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Izvajalec obvezne oblike izobraževanja pripravniku izda potrdilo o udeležbi v obvezni obliki izobraževanja, določeni s pravilnikom, ki ureja program sodniškega pripravništva.<br />
 (2) Potrdilo vsebuje:<br />
 – osebno ime, datum in kraj rojstva, stalno oziroma začasno prebivališče pripravnika,<br />
@@ -47,11 +60,11 @@
 – opis obvezne oblike izobraževanja,<br />
 – osebno ime ter funkcijo oziroma delovno mesto izvajalca obvezne oblike izobraževanja.<br />
 (3) O obvezni udeležbi na kolokvijih pridobi pripravnik potrdilo, ki poleg podatkov iz prejšnjega odstavka, vsebuje še oceno neuspešno, uspešno ali zelo uspešno.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Z dnem uveljavitve tega navodila, preneha veljati navodilo za sestavo mnenj o delu sodniškega pripravnika (Uradni list RS, št. 14/95).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Za pripravnike, ki so začeli opravljati sodniško pripravništvo pred uveljavitvijo tega navodila, se mnenja o njihovem delu sestavijo po določbah navodila iz prejšnjega člena.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>To navodilo začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 071-19-4/2003</p>
 <p>Ljubljana, dne 3. septembra 2003.</p>
@@ -66,5 +79,36 @@ Minister za pravosodje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-09-12", "kratica": "NAVO659", "naziv": "Navodilo za sestavo mnenj o delu sodniškega pripravnika in potrdil o obveznih oblikah izobraževanja", "url": "/trubar/si/NAVO659/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -16,20 +16,33 @@
     <dl>
       <dt>Kratica</dt><dd><strong>URED446</strong></dd>
       <dt>Vrsta</dt><dd>uredba</dd>
-      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
       <dt>Datum</dt><dd>1995-11-17</dd>
-      
+      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3023" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED446.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED446" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED446.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED446,vrsta:uredba">
+    
     <h1>Uredba o uporabi znižanih carinskih stopenj</h1>
 <p>Na podlagi 3. člena zakona o ratifikaciji protokola o pristopu Republike Slovenije k splošnemu sporazumu o carinah in trgovini (Uradni list RS, št. 59/94) ter 26.člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o uporabi znižanih carinskih stopenj</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Pri uvozu blaga na carinsko območje Republike Slovenije iz spodaj določenih tarifnih številk se uporabljajo naslednje carinske stopnje:</p>
 <hr />
 <p>Tarifna        Poimenovanje                              Carinska<br />
@@ -438,9 +451,9 @@
               akumulatorja, s štoparico ali brez nje:<br />
 9101.11       - - samo z mehaničnim kazalnikom                 15</p>
 <hr />
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Carinske stopnje, določene v 1. členu te uredbe so podlaga za uveljavljanje znižanj po uredbi o merilih, ki se bodo uporabljala pri znižanju carinske stopnje “prosto” pri uvozu blaga v letu 1995 (Uradni list RS, št. 80/94 in 2/95).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 424-04/94-6/2-8</p>
 <p>Ljubljana, dne 2. novembra 1995.</p>
@@ -455,5 +468,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-11-17", "kratica": "URED446", "naziv": "Uredba o uporabi znižanih carinskih stopenj", "url": "/trubar/si/URED446/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

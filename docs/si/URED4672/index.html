@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-6170" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4672.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4672" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4672.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4672,vrsta:uredba">
+    
     <h1>Uredba o dopolnitvi Uredbe o razvrstitvi prepovedanih drog</h1>
 <p>Na podlagi drugega odstavka 2. člena Zakona o proizvodnji in prometu s prepovedanimi drogami (Uradni list RS, št. 108/99, 44/00, 2/04 – <a href="/trubar/si/ZZdrI-A/" class="law-ref" title="ZZdrI-A">ZZdrI-A</a> in 47/04 – <a href="/trubar/si/ZdZPZ/" class="law-ref" title="ZdZPZ">ZdZPZ</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o dopolnitvi Uredbe o razvrstitvi prepovedanih drog</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o razvrstitvi prepovedanih drog (Uradni list RS, st. 49/00, 8/01 – popr., 49/01, 78/02 in 53/04) se v skladu s Sklepom Komisije o mamilih z dne 14. marca 2007 o razvrstitvi ORIPAVINA (3<br />
 -0-demetiltebain ali 6,7,8,14-tetradehidro- 4,5-alfa-epoksi-6-metoksi- 17-metilmorfinan-3-ol) v skupino I Enotne konvencije o mamilih, 1961, kakor je bila spremenjena s Protokolom iz leta 1972, seznam skupine I. dopolni z naslednjo novo prepovedano drogo:</p>
 <p>+------------+---------------------+---------------------------+<br />
@@ -43,7 +56,7 @@
 |            |                     |Mr = 297,33                |<br />
 +------------+---------------------+---------------------------+</p>
 <p>Zaporedne številke prepovedanih drog skupin II. in III. se ustrezno preštevilčijo.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00725-18/2007/6</p>
 <p>Ljubljana, dne 20. decembra 2007</p>
@@ -59,5 +72,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-12-28", "kratica": "URED4672", "naziv": "Uredba o dopolnitvi Uredbe o razvrstitvi prepovedanih drog", "url": "/trubar/si/URED4672/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

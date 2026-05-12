@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-02-0036" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKSULSP10.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MKSULSP10" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKSULSP10.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MKSULSP10,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Manilskih sprememb, 2010, priloge k Mednarodni konvenciji o standardih za usposabljanje, izdajanje spričeval in ladijsko stražarjenje pomorščakov (STCW), 1978</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI MANILSKIH SPREMEMB, 2010, PRILOGE K MEDNARODNI KONVENCIJI O STANDARDIH ZA USPOSABLJANJE, IZDAJANJE SPRIČEVAL IN LADIJSKO STRAŽARJENJE POMORŠČAKOV (STCW), 1978 (MKSULSP10)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificirajo se Manilske spremembe, 2010, priloge k Mednarodni konvenciji o standardih za usposabljanje, izdajanje spričeval in ladijsko stražarjenje pomorščakov (STCW), 1978, sprejete v Manili 25. junija 2012.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sprememb se v izvirniku v angleškem jeziku in prevodu v slovenskem jeziku glasi:</p>
 <h2>2010 MANILA AMENDMENTS TO THE ANNEX TO THE INTERNATIONAL CONVENTION ON STANDARDS OF TRAINING, CERTIFICATION AND WATCHKEEPING FOR SEAFARERS (STCW), 1978 (Resolution 1 of the Conference of Parties to the International Convention on Standards of Training, Certification and Watchkeeping for Seafarers, 1978)</h2>
 <p>RESOLUTION 1<br />
@@ -1076,9 +1089,9 @@ Ureditev ladijskega stražarjenja in obvezna načela<br />
 2.3 častniki strojne straže, kot je določeno v kodeksu STCW, pod vodstvom upravitelja stroja takoj dosegljivi in pripravljeni priti v strojnico in so po potrebi fizično prisotni v strojnici med svojo izmeno;<br />
 2.4 straže ustrezne in učinkovite, da je vedno zagotovljena varnost, kadar je ladja zasidrana ali privezana, če pa ladja prevaža nevaren tovor, se organizirajo tako, da upoštevajo njegovo naravo, količino in način pakiranja in razporeditve ter vse posebne okoliščine na ladji, med plovbo ali v pristanišču ter<br />
 2.5 zaradi zaščite zagotovljene ustrezne in učinkovite straže.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sprememb skrbi ministrstvo, pristojno za infrastrukturo in prostor.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 326-04/13-1/10</p>
 <p>Ljubljana, dne 2. aprila 2013</p>
@@ -1095,5 +1108,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-04-29", "kratica": "MKSULSP10", "naziv": "Zakon o ratifikaciji Manilskih sprememb, 2010, priloge k Mednarodni konvenciji o standardih za usposabljanje, izdajanje spričeval in ladijsko stražarjenje pomorščakov (STCW), 1978", "url": "/trubar/si/MKSULSP10/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

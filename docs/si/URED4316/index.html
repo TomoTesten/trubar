@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5518" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4316.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4316" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4316.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4316,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o uvedbi dajatve za mleko in mlečne proizvode</h1>
 <p>Na podlagi 5. člena v povezavi z 20. členom Zakona o kmetijstvu (Uradni list RS, št. 51/06 – uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o uvedbi dajatve za mleko in mlečne proizvode</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o uvedbi dajatve za mleko in mlečne proizvode (Uradni list RS, št. 10/05) se v 4. členu za devetim odstavkom dodajo nov deseti, enajsti, dvanajsti, trinajsti in štirinajsti odstavek, ki se glasijo:<br />
 »(10) Agencija z odločbo dodeli v kvotnem letu 2006/2007 iz nacionalne rezerve upravičencem dodatno kvoto za oddajo v skupni višini do 33.000.000 kg.<br />
 (11) Agencija z odločbo dodeli v kvotnem letu 2006/2007 iz nacionalne rezerve upravičencem dodatno kvoto za neposredno prodajo v skupni višini do 6.000.000 kg.<br />
@@ -41,11 +54,11 @@
 – proizvajalci mleka, ki so v kvotnem letu 2005/2006 presegli individualno kvoto za neposredno prodajo. Kvota se dodeli v višini razlike med neposredno prodajo mleka in mlečnih proizvodov v kvotnem letu 2005/2006 in individualno kvoto za neposredno prodajo mleka na dan 31. 3. 2006;<br />
 – proizvajalci mleka, ki so v kvotnem letu 2005/2006 pridobili mlečno kvoto za neposredno prodajo s prenosom kvote brez zemlje ali prenosom kvote z zemljo v primeru nakupa kmetijskih zemljišč. Upravičencem se dodeli mlečna kvota za neposredno prodajo v višini 30% prenesene kvote za neposredno prodajo.<br />
 (14) Če je upravičenec iz dvanajstega ali trinajstega odstavka tega člena upravičen do manj kot 50 kg kvote za oddajo ali kvote za neposredno prodajo, mu agencija dodeli 50 kg kvote za oddajo ali neposredno prodajo.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V točki d) prvega odstavka 11. člena se besedilo »30. aprila« nadomesti z besedilom »15. maja«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V drugem odstavku 14. člena se besedilo »30. aprila« nadomesti z besedilom »15. maja«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00715-41/2006/5</p>
 <p>Ljubljana, dne 7. decembra 2006</p>
@@ -61,5 +74,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-12-15", "kratica": "URED4316", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o uvedbi dajatve za mleko in mlečne proizvode", "url": "/trubar/si/URED4316/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5119" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2028.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2028" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2028.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2028,vrsta:uredba">
+    
     <h1>Uredba o določitvi prehoda s srednjeevropskega pasovnega časa na poletno računanje časa in prehoda nazaj v letih od 2002 do 2006</h1>
 <p>Na podlagi tretjega odstavka 2. člena zakona o računanju časa (Uradni list RS, št. 13/93 in 8/96) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o določitvi prehoda s srednjeevropskega pasovnega časa na poletno računanje časa  in prehoda nazaj v letih od 2002 do 2006</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) V letih od 2002 do 2006 se prehod na poletni čas izvede:<br />
 – v letu 2002 – 31. marca,<br />
 – v letu 2003 – 30. marca,<br />
@@ -45,7 +58,7 @@ ob 2. uri 00 minut 00 sekund tako, da se ura pomakne za eno uro naprej in se ča
 – v letu 2006 – 29. oktobra,<br />
 ob 3. uri 00 minut 00 sekund tako, da se ura pomakne za eno uro nazaj in se čas ob 3. uri 00 minut 00 sekund računa kot 2. ura 00 minut 00 sekund.<br />
 (3) Uro, ki se v datumih iz prejšnjega odstavka med  2. uro 00 minut 00 sekund in 3. uro 00 minut 00 sekund zaradi premaknitve za eno uro nazaj pojavi dvakrat, se označi: prvo kot uro 2A, drugo pa kot uro 2B.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 140-03/2001-1</p>
 <p>Ljubljana, dne 12. decembra 2001.</p>
@@ -60,5 +73,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-12-20", "kratica": "URED2028", "naziv": "Uredba o določitvi prehoda s srednjeevropskega pasovnega časa na poletno računanje časa in prehoda nazaj v letih od 2002 do 2006", "url": "/trubar/si/URED2028/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

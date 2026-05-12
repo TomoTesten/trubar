@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5312" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZSNNPK-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZSNNPK-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZSNNPK-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZSNNPK-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o zagotavljanju sredstev za nekatere nujne programe Republike Slovenije v kulturi</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,19 +50,19 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O ZAGOTAVLJANJU SREDSTEV ZA NEKATERE NUJNE PROGRAME REPUBLIKE SLOVENIJE V KULTURI (ZSNNPK-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o zagotavljanju sredstev za nekatere nujne programe Republike Slovenije v kulturi (Uradni list RS, št. 24/98) se v 2. členu za 4. točko doda nova 5. točka, ki se glasi:</p>
 <p>“5. vzpodbujanje kulturniških mrež na področju posredovanja založništva, kinematografije in sodobne informacijske tehnologije.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 3. členu se za drugim odstavkom doda nov tretji odstavek, ki se glasi:</p>
 <p>“Republika Slovenija bo za uresničevanje programov iz prejšnjega člena z vsakokratnimi letnimi proračuni v obdobju od leta 2004 do 2008 zagotavljala sredstva v skupni višini 29.319,500.000 tolarjev. Sredstva so izračunana po cenah na dan 29. 4. 2002.”</p>
 <p>V tretjem odstavku, ki postane četrti odstavek, se besedi “prejšnjega odstavka” nadomestita z besedama “prejšnjih odstavkov”.<br />
 Za četrtim odstavkom se doda nov peti odstavek, ki se glasi:</p>
 <p>“Posamezni projekti v okviru programov iz prejšnjega člena se v celoti financirajo iz državnega proračuna v primerih, ko gre za lastništvo oziroma ustanoviteljstvo države. Ostali projekti pa se iz državnega proračuna sofinancirajo v višini 50% vrednosti, razen če ni pri posameznem programu oziroma projektu določeno drugače. V primeru spremembe namembnosti ali odtujitve objekta, ki je bil sofinanciran iz državnega proračuna, se vložek države v realni vrednosti vrne v državni proračun, kar se posebej uredi s pogodbo.”</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 5. členu se doda nov drugi odstavek, ki se glasi:</p>
 <p>“Letni finančni načrt pripravi ministrstvo, pristojno za kulturo, praviloma na osnovi javnega razpisa oziroma javnega poziva, pri čemer imajo prednost nerealizirani projekti iz programov, določenih s tem zakonom za obdobje od leta 1998 do leta 2003 (prvi odstavek 3. člena).”</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne s 1. 1. 2004.</p>
 <p>Št. 411-07/96-6/8</p>
 <p>Ljubljana, dne 27. novembra 2002.</p>
@@ -70,5 +83,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-12-12", "kratica": "ZSNNPK-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o zagotavljanju sredstev za nekatere nujne programe Republike Slovenije v kulturi", "url": "/trubar/si/ZSNNPK-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

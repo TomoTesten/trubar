@@ -21,25 +21,38 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-4142" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4574.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4574" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4574.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4574,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o cestninskih cestah in cestnini za uporabo cestninskih cest</h1>
 <p>Na podlagi 11.a člena Zakona o javnih cestah (Uradni list RS, št. 33/06 – uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o cestninskih cestah in cestnini za uporabo cestninskih cest</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o cestninskih cestah in cestnini za uporabo cestninskih cest (Uradni list RS, št. 110/05 in 115/06) se osmi odstavek 8. člena spremeni tako, da se glasi:<br />
 »(8) Na posameznih manj pogosto uporabljanih cestninskih postajah lahko upravljavec cestninskih cest vzpostavi samo takšne načine plačevanja cestnine, ki ne zahtevajo navzočnosti osebja upravljavca cestninske ceste (avtomatske cestninske postaje). Cestninske postaje iz tega odstavka in možni načini plačevanja cestnine na njih se določijo v prilogi k tej uredbi, na priključkih nanje pa morajo biti tudi jasno označene.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prilogi uredbe se zadnji odstavek nadomesti z naslednjim besedilom:<br />
 »Avtomatske cestninske postaje<br />
 Cestninska postaja Razdrto:<br />
 Na tej cestninski postaji se lahko z avtoceste izstopa le z vozili prvega cestninskega razreda, ki so opremljena z elektronsko tablico za avtomatski brezgotovinski način plačevanja cestnine (tablica ABC) z zadostnim dobroimetjem za plačilo cestnine. Na avtocesto pa se preko te cestninske postaje lahko vključujejo vozila vseh cestninskih razredov, katerih vstop se evidentira s tablico ABC ali s cestninskim listkom iz avtomatskega podajalca cestninskih listkov.<br />
 Cestninski postaji Blagovica in Lukovica:<br />
 Na obeh cestninskih postajah se cestnina lahko plačuje z vsemi brezgotovinskimi plačilnimi instrumenti za plačevanje cestnine (tablica ABC, DARS kartice in plačilne kartice) in gotovinsko z euri, ne pa tudi s tujimi valutami.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne z dnem predaje avtomatskih cestninskih postaj Blagovica in Lukovica v promet.</p>
 <p>Št. 00721-11/2007/6</p>
 <p>Ljubljana, dne 23. avgusta 2007</p>
@@ -55,5 +68,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-09-04", "kratica": "URED4574", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o cestninskih cestah in cestnini za uporabo cestninskih cest", "url": "/trubar/si/URED4574/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

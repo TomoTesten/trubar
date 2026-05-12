@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0718" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPOFOP.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPOFOP" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPOFOP.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPOFOP,vrsta:Sprejet zakon">
+    
     <h1>Zakon o poroštvu Republike Slovenije za obveznosti iz kredita, ki ga najame Ekološko razvojni sklad Republike Slovenije, javni sklad pri Evropski investicijski banki za projekt financiranja okoljskih projektov</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O POROŠTVU REPUBLIKE SLOVENIJE  ZA OBVEZNOSTI IZ KREDITA, KI GA NAJAME EKOLOŠKO RAZVOJNI SKLAD REPUBLIKE  SLOVENIJE, JAVNI SKLAD PRI EVROPSKI  INVESTICIJSKI BANKI ZA PROJEKT  FINANCIRANJA OKOLJSKIH PROJEKTOV  (ZPOFOP)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Republika Slovenija daje poroštvo za obveznosti Ekološko razvojnega sklada Republike Slovenije, javnega sklada (v nadaljnjem besedilu: EKO sklad) iz naslova kredita, ki ga EKO sklad najame pri Evropski investicijski banki Luksemburg, v znesku 10 mio EUR, za projekt financiranja okoljskih projektov, pod naslednjimi pogoji:<br />
 – končni rok za črpanje kredita je 30. september 2004;<br />
 – valuta črpanja je EUR ali valuta ene izmed držav članic Evropske investicijske banke, ki ni udeležena v tretji fazi EMU, ali katerakoli valuta, s katero se v širšem obsegu trguje na glavnih mednarodnih denarnih trgih;<br />
@@ -51,14 +64,14 @@ Milan Kučan l. r.</p>
 – provizija za nepravočasno razveljavitev odobrenega črpanja dela kredita je enaka znesku, ki se zaračuna pavšalno, po polovični letni obrestni meri, ki bi sicer veljala za ta del kredita;<br />
 – razpise za material in dela, ki se financirajo s sredstvi kredita Evropske investicijske banke, ne glede na odstotek sredstev te banke v okviru posameznega razpisa, kreditojemalec opravlja na podlagi odprtih mednarodnih razpisov pod enakimi pogoji za udeležence iz vseh držav.<br />
 V primeru, da EKO sklad ne bi poravnaval svojih dospelih obveznosti po kreditni pogodbi iz prejšnjega odstavka, bo Republika Slovenija na poziv Evropske investicijske banke odplačala te obveznosti namesto EKO sklada.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pogodbo o poroštvu z Evropsko investicijsko banko podpiše v imenu Republike Slovenije minister, pristojen za finance ali oseba, ki jo za to pooblasti vlada.<br />
 Ministrstvo, pristojno za finance, skrbi za izvajanje tega zakona ter vseh pravic in obveznosti Republike Slovenije, ki iz njega izhajajo.<br />
 Poroštvo iz prvega odstavka tega člena se všteva v letno kvoto, ki se določi za izdajo poroštev države z zakonom o izvrševanju proračuna Republike Slovenije</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Če Republika Slovenija plača obveznosti namesto EKO sklada, pridobi pravico regresiranja izplačanih zneskov od kreditojemalca, skupaj z vsemi stroški, ki so v zvezi s tem nastali.<br />
 EKO sklad sklene z ministrstvom, pristojnim za finance, pogodbo o načinu zavarovanja poroštva Republike Slovenije v roku 90 dni po začetku veljavnosti poroštvene pogodbe iz 2. člena tega zakona. S pogodbo se uredijo viri za vračilo zneskov, plačanih iz naslova poroštva, instrumenti zavarovanja in realizacije terjatev ter način urejanja odnosov v primeru statusnih sprememb EKO sklada.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-03/02-110/1</p>
 <p>Ljubljana, dne 14. februarja 2002.</p>
@@ -74,5 +87,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-02-28", "kratica": "ZPOFOP", "naziv": "Zakon o poroštvu Republike Slovenije za obveznosti iz kredita, ki ga najame Ekološko razvojni sklad Republike Slovenije, javni sklad pri Evropski investicijski banki za projekt financiranja okoljskih projektov", "url": "/trubar/si/ZPOFOP/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

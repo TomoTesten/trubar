@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0335" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE312.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE312" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE312.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE312,vrsta:odredba">
+    
     <h1>Odredba o proizvodih, ki spadajo med kmetijsko mehanizacijo, naprave in drugo opremo, kmetijska orodja za primarno obdelavo zemljišča ter nadomestne dele za to opremo in naprave</h1>
 <p>Na podlagi 5. točke tarifne številke 3 tarife davka od prometa proizvodov, ki je sestavni del zakona o prometnem davku (Uradni list RS, št. 4/92), izdaja minister za finance v soglasju z ministrom za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>ODREDBO</h2>
 <p>o proizvodih, ki spadajo med kmetijsko mehanizacijo, naprave in drugo opremo, kmetijska orodja za primarno obdelavo zemljišča ter nadomestne dele za to opremo in naprave</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Proizvodi, ki spadajo med kmetijsko mehanizacijo, naprave in drugo opremo, kmetijska orodja za primarno obdelavo zemljišča ter nadomestne dele za to kmetijsko mehanizacijo, opremo in naprave iz tarifne številke 3 tarife davka od prometa proizvodov, so:<br />
 1. stroji, naprave in oprema za osnovno obdelavo zemlje:<br />
 – dvoosni traktorji;<br />
@@ -108,7 +121,7 @@
 – oprema za gojenje čebel (panji, centrifuge in stiskalnice za satje);<br />
 8. orodje za ročno obdelavo zemlje:<br />
 – motike, rezače, grablje, vile, srpi in kose.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 415-5/92</p>
 <p>Ljubljana, dne 28. januarja 1992.</p>
@@ -126,5 +139,36 @@ dr. Jože Osterc l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-02-07", "kratica": "ODRE312", "naziv": "Odredba o proizvodih, ki spadajo med kmetijsko mehanizacijo, naprave in drugo opremo, kmetijska orodja za primarno obdelavo zemljišča ter nadomestne dele za to opremo in naprave", "url": "/trubar/si/ODRE312/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

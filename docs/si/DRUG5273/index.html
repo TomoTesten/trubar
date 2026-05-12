@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Naknadni pristop Lekarniške zbornice Slovenije h Kolektivni pogodbi za dejavnost zdravstva in socialnega varstva Slovenije — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Naknadni pristop Lekarniške zbornice Slovenije h Kolektivni pogodbi za dejavnost zdravstva in socialnega varstva Slovenije</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>DRUG5273</strong></dd>
+      <dt>Vrsta</dt><dd>drugi akt</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2023-11-24</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-3435" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG5273" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5273.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:DRUG5273,vrsta:drugi akt">
+    
+    <h1>Naknadni pristop Lekarniške zbornice Slovenije h Kolektivni pogodbi za dejavnost zdravstva in socialnega varstva Slovenije</h1>
+<p>Lekarniška zbornica Slovenije v skladu s 27. členom Zakona o kolektivnih pogodbah (Uradni list RS, št. 43/06 in 45/08 – ZArbit) in 17. točko prvega odstavka 96. člena Zakona o lekarniški dejavnosti (Uradni list RS, št. 85/16, 77/17, 73/19 in 186/21) in na podlagi sklepa 44. rednega zasedanja skupščine Lekarniške zbornice Slovenije z dne 15. 6. 2023 naknadno</p>
+<p>P R I S T O P A</p>
+<p>k že sklenjeni Kolektivni pogodbi za dejavnost zdravstva in socialnega varstva Slovenije (Uradni list RS, št. 15/94, 18/94 – <a href="/trubar/si/ZRPJZ/" class="law-ref" title="ZRPJZ">ZRPJZ</a>, 57/95, 19/96, 56/98, 76/98, 39/99 – <a href="/trubar/si/ZMPUPR/" class="law-ref" title="ZMPUPR">ZMPUPR</a>, 102/00, 62/01, 43/06 – <a href="/trubar/si/ZKolP/" class="law-ref" title="ZKolP">ZKolP</a>, 60/08, 75/08, 107/11, 40/12, 46/13, 106/15, 46/17, 80/18, 5/19 – popr., 160/20, 88/21 in 181/21), v skladu s 7. členom Zakona o kolektivnih pogodbah kot predstavnik delodajalcev v lekarniški dejavnosti.</p>
+<p>Št. 72-3/2023-58</p>
+<p>Ljubljana, dne 21. novembra 2023</p>
+<p>Mag. Darja Potočnik Benčič</p>
+<p>predsednica LZS</p>
+<p>Ministrstvo za delo, družino, socialne zadeve in enake možnosti je dne 16. 11. 2023 izdalo potrdilo št. 02047-2/2007-66 o tem, da je naknadni pristop Lekarniške zbornice Slovenije h Kolektivni pogodbi za dejavnost zdravstva in socialnega varstva Slovenije, ki je vpisana v evidenco kolektivnih pogodb pod zaporedno št. 21/1, na podlagi 25. člena Zakona o kolektivnih pogodbah vpisan v evidenco kolektivnih pogodb pod zaporedno št. 21/21.</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-11-24", "kratica": "DRUG5273", "naziv": "Naknadni pristop Lekarniške zbornice Slovenije h Kolektivni pogodbi za dejavnost zdravstva in socialnega varstva Slovenije", "url": "/trubar/si/DRUG5273/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

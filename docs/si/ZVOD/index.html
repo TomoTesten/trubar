@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1585" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZVOD.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZVOD" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZVOD.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZVOD,vrsta:Sprejet zakon">
+    
     <h1>Zakon o višini otroškega dodatka</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O VIŠINI OTROŠKEGA DODATKA (ZVOD)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta zakon ureja višino otroškega dodatka v obdobju od 1. 5. 2001 do uveljavitve zakona, ki bo na novo uredil pravico do otroškega dodatka.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ne glede na določbo 35. člena zakona o družinskih prejemkih (Uradni list RS, št. 65/93, 71/94, 73/95 in 26/99) se v obdobju iz prejšnjega člena otroški dodatek dodeli kot družbena pomoč otrokom glede na povprečni mesečni dohodek družine na družinskega člana v koledarskem letu pred vložitvijo zahtevka.<br />
 Višina otroškega dodatka znaša v tolarjih:</p>
 <hr />
@@ -60,7 +73,7 @@ nad 75% do 99%                     3.058       4.234       5.410</p>
 <p>Če družina v koledarskem letu pred vložitvijo zahtevka ni imela dohodkov in prejemkov oziroma so se njeni dohodki v tekočem letu bistveno spremenili, se upošteva le-te iz tekočega leta na način, kot ga določi ministrstvo, pristojno za družino.<br />
 Center za socialno delo vsako leto s 1. majem po uradni dolžnosti preverja upravičenost do otroškega dodatka. V ta namen morajo prejemniki oziroma prejemnice otroškega dodatka najkasneje do 31. marca posredovati vsa potrebna dokazila.<br />
 Uskladitev višine otroškega dodatka iz drugega odstavka tega člena se opravi januarja, pri čemer se upošteva indeks rasti cen življenjskih potrebščin v preteklem letu.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati 1. maja 2001.</p>
 <p>Št. 541-03/01-1/1</p>
 <p>Ljubljana, dne 30. marca 2001.</p>
@@ -76,5 +89,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-04-12", "kratica": "ZVOD", "naziv": "Zakon o višini otroškega dodatka", "url": "/trubar/si/ZVOD/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

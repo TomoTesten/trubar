@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-02-0082" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPSKMŽP-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MPSKMŽP-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPSKMŽP-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MPSKMŽP-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o dopolnitvi zakona o ratifikaciji Protokola o spremembi Konvencije o mednarodnem železniškem prometu (COTIF) z dne 9. maja 1980 (Protokol 1999)</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,12 +50,12 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O DOPOLNITVI ZAKONA O RATIFIKACIJI PROTOKOLA O SPREMEMBI KONVENCIJE O MEDNARODNEM ŽELEZNIŠKEM PROMETU (COTIF) Z DNE 9. MAJA 1980 (PROTOKOL 1999) (MPSKMŽP-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o ratifikaciji Protokola o spremembi Konvencije o mednarodnem železniškem prometu (COTIF) z dne 9. maja 1980 (Protokol 1999) (Uradni list RS – MP, št. 2/04) se za 2. členom doda 2.a člen, ki se glasi:</p>
 <h3>"2.a člen</h3>
 <p>Republika Slovenija daje v zvezi z izvajanjem Protokola 1999 naslednjo izjavo:</p>
 <p>Do dokončnega rezultata razprav o pristopu Evropske skupnosti k COTIF Republika Slovenija ne bo uporabljala Enotnih pravil za pogodbo o uporabi infrastrukture v mednarodnem železniškem prometu (CUI – dodatek E h konvenciji), Enotnih pravil za potrditev tehničnih standardov in sprejetje enotnih tehničnih predpisov za železniški material, namenjen uporabi v mednarodnem prometu (APTU – dodatek F h konvenciji) in Enotnih pravil za tehnično odobritev železniškega materiala, ki se uporablja v mednarodnem prometu (ATMF – dodatek G h konvenciji).".</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 326-03/03-17/2</p>
 <p>Ljubljana, dne 14. julija 2006</p>
@@ -59,5 +72,36 @@ France Cukjati, dr. med., l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-08-02", "kratica": "MPSKMŽP-A", "naziv": "Zakon o dopolnitvi zakona o ratifikaciji Protokola o spremembi Konvencije o mednarodnem železniškem prometu (COTIF) z dne 9. maja 1980 (Protokol 1999)", "url": "/trubar/si/MPSKMŽP-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

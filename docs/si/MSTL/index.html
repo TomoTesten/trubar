@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-02-0040" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSTL.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MSTL" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSTL.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MSTL,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Mednarodnega sporazuma o tropskem lesu iz leta 2006</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI MEDNARODNEGA SPORAZUMA O TROPSKEM LESU IZ LETA 2006 (MSTL)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Mednarodni sporazum o tropskem lesu iz leta 2006, sestavljen 27. januarja 2006 v Ženevi.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sporazuma se v izvirniku v angleškem jeziku in v prevodu v slovenskem jeziku glasi:(1)</p>
 <h2>INTERNATIONAL TROPICAL TIMBER AGREEMENT, 2006</h2>
 <h3>PREAMBLE</h3>
@@ -1130,9 +1143,9 @@ Evropska skupnost izjavlja, da so v skladu s Pogodbo o ustanovitvi Evropske skup
 – trgovinske zadeve, ki jih ureja Sporazum, v pristojnosti Evropske skupnosti v okviru njene skupne trgovinske politike,<br />
 – v okoljskih zadevah in pri razvojnem sodelovanju pa si Evropska skupnost pristojnosti deli z državami članicami.<br />
 Obseg in uresničevanje pristojnosti Evropske skupnosti sta takšnega značaja, da se stalno razvijata; Evropska skupnost bo to izjavo po potrebi dopolnila oziroma spremenila v skladu s členom 36(3) Sporazuma.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbijo Ministrstvo za kmetijstvo, gozdarstvo in prehrano, Ministrstvo za gospodarstvo ter Ministrstvo za okolje in prostor.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 801-04/08-1/11</p>
 <p>Ljubljana, dne 23. aprila 2009</p>
@@ -1150,5 +1163,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-05-18", "kratica": "MSTL", "naziv": "Zakon o ratifikaciji Mednarodnega sporazuma o tropskem lesu iz leta 2006", "url": "/trubar/si/MSTL/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

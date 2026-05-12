@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-02-0012" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MMIUZP.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MMIUZP" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MMIUZP.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MMIUZP,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Resolucije, ki jo je sprejela Generalna skupščina Mednarodnega inštituta za unifikacijo zasebnega prava, s katero se spreminja in dopolnjuje 20. člen osnovnega statuta</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI RESOLUCIJE, KI JO JE SPREJELA GENERALNA SKUPŠČINA MEDNARODNEGA INŠTITUTA ZA UNIFIKACIJO ZASEBNEGA PRAVA, S KATERO SE SPREMINJA IN DOPOLNJUJE 20.ČLEN OSNOVNEGA STATUTA (MMIUZP)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Resolucija, ki jo je sprejela Generalna skupščina Mednarodnega inštituta za unifikacijo zasebnega prava, s katero se spreminja in dopolnjuje 20. člen Osnovnega statuta. Resolucija je bila sprejeta v Rimu 2. decembra 1993.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Resolucija se v izvirniku v angleškem jeziku in prevodu v slovenskem jeziku glasi:</p>
 <h2>R E S O L U T I O N</h2>
 <p>adopted by the General Assembly at its 47th session on 2 December 1993</p>
@@ -69,9 +82,9 @@ SKLENILA:<br />
 4.– Italijanska vlada obvesti sodelujoče vlade o pristopih in odpovedih.<br />
 5.– Nobene vlade, ki je odpovedala ta statut ali za katero se šteje, da ga je odpovedala v skladu s pogoji tretjega odstavka tega člena, se ponovno ne sprejme v članstvo, dokler ni v celoti poravnala vseh odprtih finančnih obveznosti do Inštituta.”<br />
 2. da od 1. januarja 1994 naprej črta s seznama prispevkov Inštituta vsako vlado, ki ima nakopičene zaostanke pri plačevanju prispevkov, če ti zaostanki ustrezajo štiriletnemu obdobju, omenjenemu, v tretjem odstavku 20. člena statuta v skladu s spremembami in dopolnitvami iz prvega odstavka operativnega dela te Resolucije. Vsaka taka vlada pa ostane odgovorna  za plačilo ocenjenih letnih prispevkov do trenutka, ko preneha njeno članstvo v Inštitutu z uveljavitvijo sprememb in dopolnitev k 20. členu, kot je določeno v tej Resoluciji ali po katerih koli drugih določbah statuta.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje resolucije skrbi Ministrstvo za zunanje zadeve.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 700-01/97-54/1</p>
 <p>Ljubljana, dne 25. februarja 1998</p>
@@ -87,5 +100,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-03-20", "kratica": "MMIUZP", "naziv": "Zakon o ratifikaciji Resolucije, ki jo je sprejela Generalna skupščina Mednarodnega inštituta za unifikacijo zasebnega prava, s katero se spreminja in dopolnjuje 20. člen osnovnega statuta", "url": "/trubar/si/MMIUZP/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

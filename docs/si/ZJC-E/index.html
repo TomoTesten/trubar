@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-4926" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZJC-E.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZJC-E" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZJC-E.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZJC-E,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah Zakona o javnih cestah</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,23 +50,23 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O JAVNIH CESTAH (ZJC-E)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o javnih cestah (Uradni list RS, št. 33/06 – uradno prečiščeno besedilo, 45/08, 57/08 – ZLDUVCP, 69/08 – ZCestV in 42/09) se prvi odstavek 75.c člena spremeni tako, da se glasi:<br />
 »(1) Pri izvajanju nadzora ima upravljavec cestninskih cest pooblastilo slikovno snemati vozila na kateremkoli delu cestninske ceste za namen identifikacije registrske označbe vozila in ugotavljanja pravilne uporabe vinjet, prevzema in oddaje zadnjega veljavnega dokumenta za plačilo cestnine v zaprtem sistemu cestninjenja ter pravilnosti registracije pri plačevanju cestnine z elektronsko napravo za cestninjenje.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 75.č člena se šesta alineja spremeni tako, da se glasi:<br />
 »– izvede elektronsko registracijo prehoda cestninske postaje oziroma drugega mesta elektronske registracije v nasprotju s splošnimi pogoji uporabe elektronskih naprav, ki jih določi upravljavec cestninskih cest;«.<br />
 Za osmo alinejo se doda nova deveta alineja, ki se glasi:<br />
 »– prevozi cestninsko postajo oziroma drugo mesto elektronske registracije z elektronsko napravo za cestninjenje na vozilu neustreznega cestninskega razreda ali registrsko številko vozila, ki ni enaka zapisu na elektronski napravi;«.<br />
 Za šestim odstavkom se doda nov sedmi odstavek, ki se glasi:<br />
 »(7) Način cestninjenja in plačevanja cestnine z elektronskimi mediji upravljavca cestninskih cest podrobneje uredi upravljavec cestninskih cest v splošnih pogojih uporabe elektronskih naprav, ki jih sprejme na podlagi javnega pooblastila, ter objavi na svoji spletni strani in v Uradnem listu Republike Slovenije.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prvem odstavku 77.a člena se sedma alineja spremeni tako, da se glasi:<br />
 »– izvede elektronsko registracijo prehoda cestninske postaje oziroma drugega mesta elektronske registracije v nasprotju s splošnimi pogoji uporabe elektronskih naprav, ki jih določi upravljavec cestninskih cest (šesta alineja prvega odstavka 75.č člena tega zakona);«.<br />
 Za deseto alinejo se doda nova enajsta alineja, ki se glasi:<br />
 »– prevozi cestninsko postajo oziroma drugo mesto elektronske registracije z elektronsko napravo za cestninjenje na vozilu neustreznega cestninskega razreda ali registrska številka vozila, ki ni enaka zapisu na elektronski napravi (deveta alineja prvega odstavka 75.č člena tega zakona);«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 326-07/09-85/19</p>
 <p>Ljubljana, dne 16. decembra 2009</p>
@@ -70,5 +83,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-12-28", "kratica": "ZJC-E", "naziv": "Zakon o spremembah in dopolnitvah Zakona o javnih cestah", "url": "/trubar/si/ZJC-E/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

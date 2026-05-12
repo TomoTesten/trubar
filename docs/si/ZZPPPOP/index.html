@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0884" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZPPPOP.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZZPPPOP" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZPPPOP.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZZPPPOP,vrsta:Sprejet zakon">
+    
     <h1>Zakon o začasni prepovedi privatizacije pravnih oseb in premoženja v lasti Republike Slovenije</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,10 +50,10 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O ZAČASNI PREPOVEDI PRIVATIZACIJE PRAVNIH OSEB IN PREMOŽENJA V LASTI REPUBLIKE SLOVENIJE</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Z dnem uveljavitve tega zakona je do sprejema posebnega zakona prepovedana privatizacija pravnih oseb, ki so delno ali v celoti v lasti Republike Slovenije ali lokalnih samoupravnih skupnosti in zavodov, katerih ustanovitelj je Republika Slovenija ali lokalna samoupravna skupnost.<br />
 Privatizacija po tem zakonu je odtujitev delnic, deležev in ustanoviteljskih pravic Republike Slovenije ali lokalnih samoupravnih skupnosti in njihov prehod v zasebno lastnino oziroma njihov prehod na pravno osebo, ki je vsaj delno v lasti fizičnih ali zasebnih pravnih oseb in vsaka odtujitev premoženja v lasti Republike Slovenije.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Določbe tega zakona se ne uporabljajo za pravne osebe:<br />
 1. ki so v lasti Sklada Republike Slovenije za razvoj in se privatizirajo na podlagi zakona o privatizaciji pravnih oseb v lasti Sklada Republike Slovenije za razvoj in obveznostih Agencije Republike Slovenije za prestrukturiranje in privatizacijo (Uradni list RS, št. 71/94);<br />
 2. ki opravljajo dejavnost gospodarskih javnih služb, kulturne dejavnosti, gozdnogospodarske dejavnosti, veterinarske dejavnosti in druge, v posebnih zakonih urejene dejavnosti, v delu, v katerem se ugotovljeni družbeni kapital lastninsko preoblikuje po zakonu o lastninskem preoblikovanju podjetij (Uradni list RS, št. 55/92, 7/93 in 31/93);<br />
@@ -48,9 +61,9 @@ Privatizacija po tem zakonu je odtujitev delnic, deležev in ustanoviteljskih pr
 4. ki so v celoti ali delno v lasti Republike Slovenije ali lokalnih samoupravnih skupnosti in se privatizirajo po posebnem zakonu;<br />
 5. ki preidejo v zasebno lastnino v zameno za lastniške certifikate zaposlenih, bivših zaposlenih in upokojenih delavcev v skladu z 31. členom zakona o lastninskem preoblikovanju podjetij (Uradni list RS, št. 55/92, 7/93 in  31/93), oziroma v zameno za potrdila za neizplačane plače iz 25. člena navedenega zakona;<br />
 6. ki preidejo v zasebno lastnino na podlagi pravnomočne odločbe organa, ki odloča v postopkih denacionalizacije.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Pravni posli, ki so sklenjeni v nasprotju s prepovedjo iz 1. člena tega zakona, so nični.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 300-01/95-24/1</p>
 <p>Ljubljana, dne 22. marca 1995.</p>
@@ -58,7 +71,7 @@ Privatizacija po tem zakonu je odtujitev delnic, deležev in ustanoviteljskih pr
 Državnega zbora<br />
 Republike Slovenije<br />
 Jožef Školč l. r.</p>
-    <section class="amendments"><h2>Spremembe</h2><ul><li><a href="/trubar/si/ZZPPPOP-A/">ZZPPPOP-A</a> — Zakon o dopolnitvi zakona o začasni prepovedi privatizacije pravnih oseb in premoženja v lasti Republike Slovenije (1995-06-30)</li></ul></section>
+    <section class="amendments"><h2>Kronologija sprememb <a href="https://github.com/TomoTesten/trubar/commits/master/si/ZZPPPOP.md" class="history-link" target="_blank" title="Celotna git zgodovina">git ↗</a></h2><ul><li><span class="amend-date">1995-06-30</span> <a href="/trubar/si/ZZPPPOP-A/" class="amend-link">ZZPPPOP-A</a> — Zakon o dopolnitvi zakona o začasni prepovedi privatizacije pravnih oseb in premoženja v lasti Republike Slovenije <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZPPPOP-A.md" class="diff-link" target="_blank" title="Besedilo spremembe na GitHubu">diff ↗</a></li></ul></section>
   </article>
 </div>
 <footer>
@@ -66,5 +79,36 @@ Jožef Školč l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-04-07", "kratica": "ZZPPPOP", "naziv": "Zakon o začasni prepovedi privatizacije pravnih oseb in premoženja v lasti Republike Slovenije", "url": "/trubar/si/ZZPPPOP/"}, {"date": "1995-06-30", "kratica": "ZZPPPOP-A", "naziv": "Zakon o dopolnitvi zakona o začasni prepovedi privatizacije pravnih oseb in premoženja v lasti Republike Slovenije", "url": "/trubar/si/ZZPPPOP-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

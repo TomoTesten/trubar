@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Gospodarska zbornica Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4076" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2630.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG2630" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2630.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG2630,vrsta:drugi akt">
+    
     <h1>Aneks št. 2 k tarifni prilogi h Kolektivni pogodbi grafične dejavnosti</h1>
 <h2>A N E K S   Š T.  2</h2>
 <p>k tarifni prilogi h Kolektivni pogodbi grafične dejavnosti<br />
 (Uradni list RS, št. 103/04, 79/05)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 1. točki tarifne priloge se dodata nova osmi in deveti odstavek, ki se glasita:<br />
 »(8) Izhodiščne plače iz četrtega odstavka 1. točke te tarifne priloge se po posameznih tarifnih razredih povečajo za 2,15% in znašajo:</p>
 <p>+-------------------------------+--------------+-----------------------------+<br />
@@ -57,14 +70,14 @@
 +-------------------------------+--------------+-----------------------------+</p>
 <p>ter veljajo od meseca avgusta 2006 dalje.<br />
 (9) Osnovne plače delavcev iz druge alineje petega odstavka 1. točke te tarifne priloge, tudi tiste, ki so višje od izhodiščnih plač v posameznem tarifnem razredu, določenih v osmem odstavku 1. točke te tarifne priloge, se z mesecem avgustom 2006 povečajo za 2,15% in se izplačujejo od meseca avgusta 2006 dalje.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Doda se nova točka 2.a, ki se glasi:</p>
 <h3>»2.a DODATNA USKLADITEV IZHODIŠČNIH IN OSNOVNIH PLAČ</h3>
 <p>Če bo inflacija decembra 2006 v primerjavi z decembrom 2005 presegla 2,3%, se izhodiščne plače iz osmega odstavka 1. točke in osnovne plače iz devetega odstavka 1. točke te tarifne priloge avgusta 2007 dodatno povečajo za razliko med 2,3% in doseženo rastjo inflacije«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 4. točki se doda nov (2) odstavek, ki se glasi:<br />
 »Delodajalci in sindikati se v družbah izjemoma lahko dogovorijo za podaljšanje roka iz prvega odstavka te točke, vendar največ do treh mesecev.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta aneks k tarifni prilogi h Kolektivni pogodbi grafične dejavnosti začne veljati z dnem objave v Uradnem listu RS, uporablja pa se od 1. avgusta 2006.<br />
 Ta aneks k tarifni prilogi velja do sklenitve nove tarifne priloge.</p>
 <p>Ljubljana, dne 10. avgusta 2006</p>
@@ -92,5 +105,36 @@ Metod Jerman l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-09-12", "kratica": "DRUG2630", "naziv": "Aneks št. 2 k tarifni prilogi h Kolektivni pogodbi grafične dejavnosti", "url": "/trubar/si/DRUG2630/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

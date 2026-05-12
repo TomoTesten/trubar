@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1246" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE816.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE816" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE816.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE816,vrsta:odredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Odredba o koeficientu povečanja dolarskih cen nacionaliziranega premoženja</h1>
 <p>Na podlagi petega odstavka 44. člena zakona o denacionalizaciji (Uradni list RS, št. 27/91-I) in drugega odstavka 76. člena zakona o zadrugah (Uradni list RS, št. 13/92) izdaja minister za finance naslednjo</p>
 <h2>ODREDBO</h2>
 <p>o koeficientu povečanja dolarskih cen nacionaliziranega premoženja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S to odredbo se določajo koeficienti povečanja dolarskih cen nacionaliziranega premoženja in način uporabe teh koeficientov pri določanju denarne vrednosti v postopku denacionalizacije.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Koeficienti za posamezna obdobja, v katerih je bila izvedena nacionalizacija, znašajo:<br />
 – leto 1945: 5,9<br />
 – leto 1946: 5,5<br />
@@ -80,7 +93,7 @@
 – leto 1989: 1,0<br />
 – leto 1990: 1,0<br />
 – leto 1991: 1,0</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Vrednosti nacionaliziranega premoženja, določene v jugoslovanskih dinarjih, se preračunajo v ZDA dolarje po uradnem tečaju Narodne banke Jugoslavije, ki znaša:<br />
 – od leta 1945 do 31. 12. 1951: 1 ZDA $ 50din<br />
 – od 1. 1. 1952 do 31. 12. 1962: 1 ZDA $ 300din<br />
@@ -88,10 +101,10 @@
 – od 26. 7. 1965 do 31. 12. 1965: 1 ZDA $ 1250 din<br />
 – od 1. 1. 1966 do 31. 12. 1970: 1 ZDA $ 12,50 din<br />
 Vrednosti nacionaliziranega premoženja po 31. 12. 1970 se preračunajo v ZDA dolarje po dnevnem tečaju Narodne banke Jugoslavije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Denarne vrednosti, izračunane v ZDA dolarjih po prejšnjem členu se pomnožijo s koeficienti iz 2. člena te odredbe.<br />
 Denarna vrednost iz prejšnjega odstavka se pretvori v tolarsko protivrednost po srednjem tečaju Banke Slovenije na dan izdaje odločbe o denacionalizaciji.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta odredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 36/LJ-92</p>
 <p>Ljubljana, dne 8. maja 1992.</p>
@@ -105,5 +118,36 @@ Dušan Šešok l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-05-22", "kratica": "ODRE816", "naziv": "Odredba o koeficientu povečanja dolarskih cen nacionaliziranega premoženja", "url": "/trubar/si/ODRE816/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>DRUG5211</strong></dd>
       <dt>Vrsta</dt><dd>drugi akt</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>2023-05-19</dd>
-      <dt>Organ</dt><dd>Javna agencija za civilno letalstvo Republike Slovenije</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-1708" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5211.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG5211" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5211.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG5211,vrsta:drugi akt">
+    
     <h1>Operativno-tehnična zahteva za opredelitev primernosti »zrakoplovov iz Priloge I Uredbe 2018/1139/EU« za uporabo v organizacijah za usposabljanje</h1>
 <p>Na podlagi druge alineje petega odstavka 179.i člena Zakona o letalstvu (Uradni list RS, št. 81/10 – uradno prečiščeno besedilo, 46/16, 47/19<br />
 in 18/23 – <a href="/trubar/si/ZDU-1O/" class="law-ref" title="ZDU-1O">ZDU-1O</a>), 25. člena Sklepa o ustanovitvi Javne agencije za civilno letalstvo Republike Slovenije (Uradni list RS, št. 81/10) in za izvrševanje 1. točke odstavka (a) ORA.ATO.135 Priloge VII (Del ORA) in 1. točke odstavka (a) DTO.GEN.240 Priloge VIII (Del DTO) Uredbe 1178/2011/EU ter 57. člena Zakona o letalstvu, izdaja v.d. direktorja Javne agencije za civilno letalstvo Republike Slovenije (v nadaljnjem besedilu: agencija) naslednjo</p>
@@ -124,5 +137,36 @@ Obrazec CAA 123 – Zapis o izvedbi standardne Spremembe/standardnega popravila 
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-05-19", "kratica": "DRUG5211", "naziv": "Operativno-tehnična zahteva za opredelitev primernosti »zrakoplovov iz Priloge I Uredbe 2018/1139/EU« za uporabo v organizacijah za usposabljanje", "url": "/trubar/si/DRUG5211/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

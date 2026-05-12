@@ -21,27 +21,40 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0451" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5420.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5420" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5420.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5420,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o upravljanju z vojaškimi nepremičninami</h1>
 <p>Na podlagi 21. člena Ustavnega zakona za izvedbo Temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije (Uradni list RS, št. 1/91 – I. in 45/94), 21. člena Zakona o Vladi Republike Slovenije (Uradni list RS, št. 24/05 – uradno prečiščeno besedilo in 109/08) in drugega odstavka 113. člena Zakona o obrambi (Uradni list RS, št. 103/04 – uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o upravljanju z vojaškimi nepremičninami</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o upravljanju z vojaškimi nepremičninami (Uradni list RS, št. 70/95 in 92/99) se 3. člen spremeni tako, da se glasi:</p>
 <h3>»3. člen</h3>
 <p>Ministrstvo za obrambo vzdržuje in upravlja vojaški stanovanjski sklad. Minister za obrambo po predhodnem soglasju Vlade Republike Slovenije podrobno uredi postopke, merila in kriterije v zvezi z vojaškimi stanovanji, ki se kot službena stanovanja dodeljujejo pripadnikom stalne sestave Slovenske vojske oziroma javnim uslužbencem Ministrstva za obrambo, ki delajo na delovnih mestih, na katerih se opravlja vojaška služba. Službena stanovanja, ki se ne dodelijo pripadnikom stalne sestave Slovenske vojske, se izjemoma lahko dodelijo, zlasti zaradi kadrovskih potreb, kot službena stanovanja tudi drugim javnim uslužbencem Ministrstva za obrambo.<br />
 Minister za obrambo lahko določeno število službenih stanovanj iz vojaškega stanovanjskega sklada dodeli Generalštabu Slovenske vojske oziroma tistim organizacijskim enotam Ministrstva za obrambo, ki ta stanovanja potrebujejo za opravljanje njihove redne dejavnosti in ki jih ni mogoče uporabljati za druge namene.<br />
 Za službena stanovanja, ki jih ni mogoče dodeliti v skladu s prvim odstavkom tega člena in so trajno nezasedena, se lahko sklene najemna pogodba za tri leta z možnostjo podaljšanja za največ tri leta z javnim uslužbencem, ki izpolnjuje pogoje za dodelitev stanovanja po Stanovanjskem pravilniku Stanovanjske komisije Vlade Republike Slovenije ali po Pravilniku o oddaji službenih stanovanj, samskih sob in ležišč v samskih sobah Policije, pod pogojem da Stanovanjska komisija Vlade Republike Slovenije ali Policija nima na razpolago primernega stanovanja.<br />
 Službena stanovanja, za katera ni sklenjena najemna pogodba v skladu s prejšnjim odstavkom, se lahko oddajo v skladu s predpisi, ki urejajo stvarno premoženje države.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 4. členu se črta drugi odstavek.<br />
 Dosedanji tretji odstavek postane drugi odstavek.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 5. členu se črta drugi odstavek.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00718-1/2010/8</p>
 <p>Ljubljana, dne 4. februarja 2010</p>
@@ -57,5 +70,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-02-16", "kratica": "URED5420", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o upravljanju z vojaškimi nepremičninami", "url": "/trubar/si/URED5420/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

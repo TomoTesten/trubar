@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>URED8538</strong></dd>
       <dt>Vrsta</dt><dd>uredba</dd>
-      <dt>Status</dt><dd><span class="badge invalid">neveljaven</span></dd>
-      <dt>Datum</dt><dd>2022-03-24</dd>
-      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2024-09-09</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2022-01-0825" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED8538.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED8538" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED8538.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED8538,vrsta:uredba">
+    
     <h1>Uredba o načinu zagotavljanja pravic osebam z začasno zaščito</h1>
 <p>Na podlagi drugega odstavka 23. člena, drugega odstavka 26. člena in drugega odstavka 33. člena ter za izvrševanje 17. člena Zakona o začasni zaščiti razseljenih oseb (Uradni list RS, št. 16/17 – uradno prečiščeno besedilo) Vlada Republike Slovenije izdaja</p>
 <p>U R E D B O</p>
@@ -236,5 +249,36 @@ minimalnega dohodka<br />
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2024-09-09", "kratica": "URED8538", "naziv": "Uredba o načinu zagotavljanja pravic osebam z začasno zaščito", "url": "/trubar/si/URED8538/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

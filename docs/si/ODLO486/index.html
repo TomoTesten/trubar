@@ -21,25 +21,38 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0483" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO486.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO486" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO486.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO486,vrsta:odlok">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Odlok o višini denarnega nadomestila med izvrševanjem določenih dolžnosti obrambe in zaščite</h1>
 <p>Na podlagi drugega odstavka 138. člena zakona o obrambi in zaščiti (Uradni list RS, št. 15/91) ter četrtega in petega odstavka 65. člena zakona o vojaški dolžnosti (Uradni list RS, št. 18/91) izdaja Izvršni svet Skupščine Republike Slovenije</p>
 <h2>ODLOK</h2>
 <p>o višini denarnega nadomestila med izvrševanjem določenih dolžnosti obrambe in zaščite</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Državljanom, ki opravljajo zasebno dejavnost, in državljanom, ki nimajo dohodkov, pripada med izvrševanjem dolžnosti obrambe in zaščite, določenih v 138. členu zakona o obrambi in zaščiti in 65. členu zakona o vojaški dolžnosti, denarno nadomestilo v višini, določeni s tem odlokom.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Državljanu, ki opravlja zasebno dejavnost, se odmeri nadomestilo izgubljenega zaslužka do bruto osnove, določene za plačilo prispevka za pokojninsko in invalidsko zavarovanje za mesec pred mesecem, v katerem je prejel poziv za izvrševanje dolžnosti.<br />
 Dnevni znesek nadomestila izgubljenega zaslužka se izračuna tako, da se bruto osnova iz prejšnjega odstavka deli s 30.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Državljanu, ki nima dohodka, se odmeri denarno nadomestilo od zajamčenega osebnega dohodka, določenega za čas, v katerem izvršuje dolžnost.<br />
 Dnevni znesek denarnega nadomestila se izračuna tako, da se znesek zajamčenega osebnega dohodka iz prejšnjega odstavka deli s 30.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Državljanu, ki med izvrševanjem dolžnosti iz 1. člena tega odloka prejme nadomestilo osebnega dohodka, nadomestilo izgubljenega zaslužka, pokojnino ali denarno nadomestilo za primer brezposelnosti v nižjem znesku od zneska denarnega nadomestila iz prejšnjega člena, pripada razlika do tega zneska.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta odlok začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 113-07/91-7/1-8</p>
 <p>Ljubljana, dne 5. septembra 1991.</p>
@@ -55,5 +68,36 @@ dr. Andrej Ocvirk l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1991-09-13", "kratica": "ODLO486", "naziv": "Odlok o višini denarnega nadomestila med izvrševanjem določenih dolžnosti obrambe in zaščite", "url": "/trubar/si/ODLO486/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

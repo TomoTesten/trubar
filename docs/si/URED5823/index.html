@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-2396" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5823.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5823" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5823.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5823,vrsta:uredba">
+    
     <h1>Uredba o spremembi Uredbe o državnem lokacijskem načrtu za daljnovod 2 × 110 kV Murska Sobota–Mačkovci</h1>
 <p>Na podlagi drugega odstavka 37. člena in prvega odstavka 40. člena Zakona o umeščanju prostorskih ureditev državnega pomena v prostor (Uradni list RS, št. 80/10 in 106/10 – popr.) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembi Uredbe o državnem lokacijskem načrtu za daljnovod 2 × 110 kV Murska Sobota–Mačkovci</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o državnem lokacijskem načrtu za daljnovod 2 × 110 kV Murska Sobota–Mačkovci (Uradni list RS, št. 51/09 in 80/10 – <a href="/trubar/si/ZUPUDPP/" class="law-ref" title="ZUPUDPP">ZUPUDPP</a>) se tretji odstavek 6. člena spremeni, tako da se glasi:<br />
 »(3) Nadzemni vod od RTP Murska Sobota do stebra številka 63 je dolg 13484 m. Širina koridorja znaša 30 m (2 × 15 m, levo in desno od osi daljnovoda). Nadzemni vod ima 63 stebrov z naslednjimi tehničnimi značilnostmi:<br />
 – jeklena predalčna konstrukcija,<br />
@@ -37,7 +50,7 @@
 – ozemljitev,<br />
 – višina stebra do spodnje konzole je od 17,5 do 32,0 m, skupna višina stebra je do 42,45 m,<br />
 – štirje betonski temelji na koti terena velikosti 1 × 1 m na skupni površini 6 × 6 m.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00719-25/2011</p>
 <p>Ljubljana, dne 23. junija 2011</p>
@@ -53,5 +66,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-06-29", "kratica": "URED5823", "naziv": "Uredba o spremembi Uredbe o državnem lokacijskem načrtu za daljnovod 2 × 110 kV Murska Sobota–Mačkovci", "url": "/trubar/si/URED5823/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

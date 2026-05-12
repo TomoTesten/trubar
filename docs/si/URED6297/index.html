@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-02-0092" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6297.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6297" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6297.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6297,vrsta:uredba">
+    
     <h1>Uredba o ratifikaciji Sporazuma o drugi spremembi Sporazuma o partnerstvu med članicami skupine afriških, karibskih in pacifiških držav na eni strani ter Evropsko skupnostjo in njenimi državami članicami na drugi strani, podpisanega v Cotonouju dne 23. junija 2000, kakor je bil prvič spremenjen v Luxembourgu 25. junija 2005</h1>
 <p>Na podlagi petega odstavka 75. člena Zakona o zunanjih zadevah (Uradni list RS, št. 113/03 – uradno prečiščeno besedilo, 20/06 – <a href="/trubar/si/ZNOMCMO/" class="law-ref" title="ZNOMCMO">ZNOMCMO</a>, 76/08, 108/09 in 80/10 – <a href="/trubar/si/ZUTD/" class="law-ref" title="ZUTD">ZUTD</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o ratifikaciji Sporazuma o drugi spremembi Sporazuma o partnerstvu med članicami skupine afriških, karibskih in pacifiških držav na eni strani ter Evropsko skupnostjo in njenimi državami članicami na drugi strani, podpisanega v Cotonouju dne 23. junija 2000, kakor je bil prvič spremenjen v Luxembourgu 25. junija 2005</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sporazum o drugi spremembi Sporazuma o partnerstvu med članicami skupine afriških, karibskih in pacifiških držav na eni strani ter Evropsko skupnostjo in njenimi državami članicami na drugi strani, podpisanega v Cotonouju dne 23. junija 2000, kakor je bil prvič spremenjen v Luxembourgu 25. junija 2005, ki je bil podpisan v Ouagadougouju dne 22. junija 2010 s sklepno listino.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sporazuma s sklepno listino se v izvirniku v slovenskem in angleškem jeziku glasi:(1)</p>
 <h2>S P O R A Z U M</h2>
 <p>O DRUGI SPREMEMBI SPORAZUMA O PARTNERSTVU MED ČLANICAMI SKUPINE AFRIŠKIH, KARIBSKIH IN PACIFIŠKIH DRŽAV NA ENI STRANI TER EVROPSKO SKUPNOSTJO IN NJENIMI DRŽAVAMI ČLANICAMI NA DRUGI, PODPISANEGA V COTONOUJU DNE 23. JUNIJA 2000, KAKOR JE BIL PRVIČ SPREMENJEN V LUXEMBOURGU 25. JUNIJA 2005</p>
@@ -2890,9 +2903,9 @@ They further agree to work towards the timely completion of this dialogue and to
 <p>As a consequence of the entry into force of the Treaty of Lisbon on 1 December 2009, the European Union has replaced and succeeded the European Community and from that date exercises all rights and assumes all obligations of the European Community. Therefore, references to "the European Community" in the text of the Agreement are, where appropriate, to be read as "the European Union".<br />
 The European Union will propose to the ACP States an exchange of letters with the aim of bringing the Agreement into conformity with the institutional changes in the European Union resulting from the entry into force of the Treaty of Lisbon.</p>
 <p>Podpisniki</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazum skrbijo ministrstvo, pristojno za zunanje zadeve, ministrstvo, pristojno za finance, ministrstvo, pristojno za obrambo in ministrstvo, pristojno za gospodarstvo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 5611-224/2012</p>
 <p>Ljubljana, dne 28. novembra 2012</p>
@@ -2921,5 +2934,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-12-18", "kratica": "URED6297", "naziv": "Uredba o ratifikaciji Sporazuma o drugi spremembi Sporazuma o partnerstvu med članicami skupine afriških, karibskih in pacifiških držav na eni strani ter Evropsko skupnostjo in njenimi državami članicami na drugi strani, podpisanega v Cotonouju dne 23. junija 2000, kakor je bil prvič spremenjen v Luxembourgu 25. junija 2005", "url": "/trubar/si/URED6297/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

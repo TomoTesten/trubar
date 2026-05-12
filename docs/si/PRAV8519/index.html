@@ -21,27 +21,40 @@
       <dt>Organ</dt><dd>Ministrstvo za okolje in prostor</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3595" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8519.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV8519" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8519.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV8519,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o načinu prostorskega prikaza tras planinskih poti</h1>
 <p>Na podlagi drugega odstavka 8. člena Zakona o planinskih poteh (Uradni list RS, št. 61/07) izdaja minister za okolje in prostor v soglasju z ministrom za šolstvo in šport</p>
 <h2>P R A V I L N I K</h2>
 <p>o načinu prostorskega prikaza tras planinskih poti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(namen)</h3>
 <p>Ta pravilnik določa način prostorskega prikaza tras planinskih poti in njihovega označevanja v informacijskih gradivih o planinskih poteh ter na turističnih tablah in zemljevidih.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(izdelava prostorskega prikaza planinske poti na geodetskem načrtu)</h3>
 <p>(1) Prostorski prikaz planinske poti se izdela na geodetskem načrtu, ki je v skladu s predpisi, ki urejajo vsebino, izdelavo in uporabo geodetskih načrtov, namenjen za pripravo projektne dokumentacije za graditev objektov in vsebuje podatke o reliefu in vodah, praviloma v merilu 1:5000.<br />
 (2) Če je prostorski prikaz planinske poti namenjen evidentiranju planinske poti v zemljiškem katastru, mora geodetski načrt poleg vsebine iz prejšnjega odstavka tega člena vsebovati še podatke o dejanski rabi zemljišč in katastrsko vsebino.<br />
 (3) Prostorski prikaz planinske poti mora biti izdelan v digitalni obliki. Tehnična pravila za posredovanje podatkov v evidenco se objavijo na portalu prostorskega informacijskega sistema v skladu s predpisi, ki urejajo prostorsko načrtovanje kot sestavni del tehničnih pravil za posredovanje podatkov v zbirni kataster gospodarske javne infrastrukture.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(prostorski prikaz planinskih poti v informacijskih gradivih ter turističnih tablah in zemljevidih)</h3>
 <p>(1) Prostorski prikaz planinskih poti v informacijskih gradivih in na turističnih tablah in zemljevidih mora biti izdelan po pravilih geodetske stroke.<br />
 (2) V prikazu iz prejšnjega odstavka mora biti v kolofonu naveden vir podatka in datum pridobitve takšnega podatka.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(označevanje planinskih poti v informacijskih gradivih ter na turističnih tablah in zemljevidih)</h3>
 <p>(1) V informacijskih gradivih o planinskih poteh ter na turističnih informacijskih tablah in zemljevidih se označi zahtevnost planinske poti v skladu s predpisom, ki določa način kategoriziranja planinskih poti.<br />
 (2) V informacijskih gradivih o planinskih poteh ter na turističnih informacijskih tablah se zahtevnost planinske poti označi s pisno navedbo njene razvrstitve v kategorije.<br />
@@ -52,7 +65,7 @@
 (4) Pod vsakim prikazom planinskih poti v informacijskih gradivih ter na turističnih tablah in zemljevidih mora biti natisnjeno oziroma napisano naslednje besedilo:<br />
 »POZOR – planinske poti uporabljate na lastno odgovornost!«.<br />
 (5) Besedilo iz prejšnjega odstavka mora biti v slovenskem, angleškem, nemškem in italijanskem jeziku, na območju, kjer je uradni jezik tudi madžarski jezik pa namesto v italijanskem v madžarskem jeziku.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(začetek veljavnosti)</h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0071-150/2007</p>
@@ -73,5 +86,36 @@ za šolstvo in šport</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-08-08", "kratica": "PRAV8519", "naziv": "Pravilnik o načinu prostorskega prikaza tras planinskih poti", "url": "/trubar/si/PRAV8519/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

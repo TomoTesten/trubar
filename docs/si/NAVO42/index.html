@@ -21,32 +21,45 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3983" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO42.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO42" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO42.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO42,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Navodilo o ukrepih za ugotavljanje, preprečevanje in izkoreninjanje afriške smrkavosti - lymphagioitis epizootica</h1>
 <p>Na podlagi prve alinee 114. člena zakona o veterinarstvu (Uradni list RS, št. 82/94, 21/95 in 16/96) in 99. člena zakona o upravi (Uradni list RS, št. 67/94, 25/95 – odl. US RS in Uradni list RS, št. 29/95) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>N A V O D I L O</h2>
 <p>o ukrepih za ugotavljanje, preprečevanje  in izkoreninjenje afriške smrkavosti –  Lymphagioitis epizootica</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Za ugotavljanje, preprečevanje in izkoreninjenje afriške smrkavosti se uporabljajo ukrepi, ki jih določa to navodilo.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za afriško smrkavostjo lahko zbolijo: konji, osli, mezgi in mule. Bolezen je kronična. Pojavlja se sporadično po poškodbi kože. Na mestu okužbe nastane podkožna zadebelina, iz katere se lahko cedi gnoj. Povečane so lahko tudi področne bezgavke. Bolezen je klinično podobna kožni obliki smrkavosti.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Sum na afriško smrkavost se postavi na podlagi kliničnega pregleda živali.<br />
 Afriška smrkavost se potrdi s serološko preiskavo krvi in z mikrološko preiskavo izcedka iz spremenjenih podkožnih bezgavk, s katerima se izključi sum na smrkavost.<br />
 Vzorce vzame pristojni veterinar in jih še isti dan pošlje po kurirju na Veterinarski inštitut Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Če se pri živali ugotovi afriška smrkavost se odredijo:<br />
 – zakol ali pokončanje okužene živali,<br />
 – dezinfekcija staj, hlevov, predmetov in naprav, ki so prišli z okuženo živaljo v stik in<br />
 – drugi ukrepi za sanacijo okužene reje.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ukrepi iz 4. člena tega navodila prenehajo 3 mesece po zadnjem obolenju in izvršeni končni dezinfekciji.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Stroške diagnostičnih preiskav in drugih ukrepov sanacije okužene reje plača lastnik živali.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>To navodilo začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 323-01-173/96</p>
 <p>Ljubljana, dne 5. decembra 1996.</p>
@@ -61,5 +74,36 @@ gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-12-13", "kratica": "NAVO42", "naziv": "Navodilo o ukrepih za ugotavljanje, preprečevanje in izkoreninjanje afriške smrkavosti - lymphagioitis epizootica", "url": "/trubar/si/NAVO42/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

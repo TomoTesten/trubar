@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-2980" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIO-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZIO-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIO-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZIO-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o izobraževanju odraslih</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -39,10 +52,10 @@ Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA<br />
 O IZOBRAŽEVANJU ODRASLIH (ZIO-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o izobraževanju odraslih (Uradni list RS, št. 12/96 in 86/04 – <a href="/trubar/si/ZVSI/" class="law-ref" title="ZVSI">ZVSI</a>) se v 4. členu doda drugi odstavek, ki se glasi:<br />
 »Udeleženci izobraževanja odraslih, ki se izobražujejo po javno veljavnih programih osnovnošolskega, poklicnega, srednjega in višjega strokovnega izobraževanja, imajo pravico do zdravstvenega varstva iz obveznega zdravstvenega zavarovanja v skladu z zakonom, ki ureja zdravstveno varstvo in zdravstveno zavarovanje, in pravico do drugih ugodnosti ter pravic (na primer: prevozi, štipendiranje, opravljanje začasnih ali občasnih del prek pooblaščene organizacije za posredovanje dela) v skladu s posebnimi predpisi, če niso v delovnem razmerju, prijavljeni kot brezposelne osebe ali se ne izobražujejo v skladu s predpisi o zaposlovanju in zavarovanju za primer brezposelnosti. Omenjene pravice je mogoče uveljavljati do dopolnjenega 27. leta starosti.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:<br />
 »Z globo od 500.000 do 2.000.000 tolarjev se kaznuje za prekršek pravna oseba, ki izobražuje po javno veljavnih izobraževalnih programih za odrasle, čeprav ni vpisana v razvid v skladu z zakonom.<br />
@@ -57,7 +70,7 @@ Z globo od 250.000 do 1.000.000 tolarjev se kaznuje za prekršek pravna oseba, k
 – ne vodi dokumentacije in evidenc v skladu z določbami tega zakona.<br />
 Z globo od 50.000 do 300.000 tolarjev se kaznuje za prekršek iz prejšnjega odstavka odgovorna oseba pravne osebe.«.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije, 1. člen pa se začne uporabljati 1. septembra 2006.</p>
 <p>Št. 602-10/94-2/4</p>
 <p>Ljubljana, dne 22. junija 2006</p>
@@ -74,5 +87,36 @@ mag. Vasja Klavora l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-07-03", "kratica": "ZIO-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o izobraževanju odraslih", "url": "/trubar/si/ZIO-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

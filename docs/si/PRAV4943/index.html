@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pravilnik o izobraževalnem programu za pridobitev srednje poklicne izobrazbe avtoklepar za izvajanje na narodno mešanem območju — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Pravilnik o izobraževalnem programu za pridobitev srednje poklicne izobrazbe avtoklepar za izvajanje na narodno mešanem območju</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>PRAV4943</strong></dd>
+      <dt>Vrsta</dt><dd>pravilnik</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
+      <dt>Datum</dt><dd>2003-06-03</dd>
+      <dt>Organ</dt><dd>Ministrstvo za šolstvo, znanost in šport</dd>
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2484" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV4943" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4943.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:PRAV4943,vrsta:pravilnik">
+    
+    <h1>Pravilnik o izobraževalnem programu za pridobitev srednje poklicne izobrazbe avtoklepar za izvajanje na narodno mešanem območju</h1>
+<p>Na podlagi 15. člena zakona o organizaciji in financiranju vzgoje in izobraževanja (Uradni list RS, št. 12/96, 23/96, 64/01, 108/02 in 34/03) minister za šolstvo, znanost in šport izdaja</p>
+<h2>P R A V I L N I K</h2>
+<p>o izobraževalnem programu za pridobitev srednje poklicne izobrazbe avtoklepar za izvajanje<br />
+na narodno mešanem območju</p>
+<h3><span id="člen-1">1. člen</span></h3>
+<p>Minister za šolstvo, znanost in šport sprejme izobraževalni program za pridobitev srednje poklicne izobrazbe avtoklepar, naziv srednje poklicne izobrazbe avtoklepar/avtokleparka, katerega splošni del je predlagal, posebni del pa določil Strokovni svet Republike Slovenije za splošno izobraževanje na 54. seji dne 19. 12. 2002.<br />
+Izobraževalni program iz prejšnjega odstavka se izvaja dvojezično, in sicer v slovenskem in madžarskem učnem jeziku.</p>
+<h3><span id="člen-2">2. člen</span></h3>
+<p>Izobraževalni program iz prejšnjega člena objavi Ministrstvo za šolstvo, znanost in šport v posebni publikaciji oziroma v elektronskih medijih in se začne postopoma izvajati od šolskega leta 2003/04.</p>
+<h3><span id="člen-3">3. člen</span></h3>
+<p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 011-03-29/2003<br />
+Ljubljana, dne 5. maja 2003.<br />
+EVA 2003-3311-0033</p>
+<p>Minister<br />
+za šolstvo, znanost in šport<br />
+dr. Slavko Gaber l. r.</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-06-03", "kratica": "PRAV4943", "naziv": "Pravilnik o izobraževalnem programu za pridobitev srednje poklicne izobrazbe avtoklepar za izvajanje na narodno mešanem območju", "url": "/trubar/si/PRAV4943/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

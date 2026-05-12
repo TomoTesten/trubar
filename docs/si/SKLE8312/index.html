@@ -21,25 +21,38 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-4895" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE8312.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE8312" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE8312.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE8312,vrsta:sklep">
+    
     <h1>Sklep o spremembi in dopolnitvi Sklepa o naložbah investicijskega sklada</h1>
 <p>Na podlagi 77. člena Zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 26/05 – ZISDU-1-UPB1, 68/05 – odločba US, 28/06 – <a href="/trubar/si/ZTVP-1B/" class="law-ref" title="ZTVP-1B">ZTVP-1B</a>, 114/06 – <a href="/trubar/si/ZUE/" class="law-ref" title="ZUE">ZUE</a>, 92/07, 109/07 – popr. in 65/08) Agencija za trg vrednostnih papirjev izdaja</p>
 <h2>S K L E P</h2>
 <p>o spremembi in dopolnitvi Sklepa o naložbah investicijskega sklada</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Sklepu o naložbah investicijskega sklada (Uradni list RS, št. 80/03, 87/05 in 31/08) se v 2i. členu tretji odstavek spremeni tako, da se glasi:<br />
 »(3) Tehnike in orodja za učinkovito upravljanje naložb med drugimi vključujejo dogovore o finančnem zavarovanju, kot so opredeljeni v Zakonu o finančnih zavarovanjih (Uradni list RS, št. 81/06 – ZFZ-UPB1), repo posle, sprejete garancije in posojanje vrednostnih papirjev. Usklajenost investicijskega sklada z določbami 66. člena <a href="/trubar/si/ZISDU-1/" class="law-ref" title="ZISDU-1">ZISDU-1</a> pomeni, da je treba v primeru, ko je družbi za upravljanje dovoljeno uporabljati repo posle ali posojanje vrednostnih papirjev, učinke teh poslov vštevati v celotno izpostavljenost investicijskega sklada.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 22. členom se doda 22.a člen, ki se glasi:</p>
 <h3>»22.a člen</h3>
 <p>Za namene izračuna izpostavljenosti do posamezne osebe se za sredstva investicijskega sklada iz 68. člena <a href="/trubar/si/ZISDU-1/" class="law-ref" title="ZISDU-1">ZISDU-1</a> upošteva vrednost sredstev investicijskega sklada, zmanjšana za vrednost obveznosti iz nakupa vrednostnih papirjev in drugih finančnih instrumentov ter za vrednost obveznosti za vplačana in še ne konvertirana sredstva investitorjev.«.</p>
 <h3>PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Družba za upravljanje mora naložbe investicijskega sklada, ki ga upravlja, uskladiti z določbami 2. člena tega sklepa najkasneje do 25. februarja 2010.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta sklep začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00701-23/2009-4</p>
 <p>Ljubljana, dne 18. decembra 2009</p>
@@ -55,5 +68,36 @@ dr. Damjan Žugelj l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-12-28", "kratica": "SKLE8312", "naziv": "Sklep o spremembi in dopolnitvi Sklepa o naložbah investicijskega sklada", "url": "/trubar/si/SKLE8312/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

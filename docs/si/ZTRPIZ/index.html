@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4809" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZTRPIZ.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZTRPIZ" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZTRPIZ.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZTRPIZ,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o temeljnih razvojnih programih na področju izobraževanja in znanosti v letih 2003 - 2008</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O TEMELJNIH RAZVOJNIH PROGRAMIH NA PODROČJU IZOBRAŽEVANJA IN ZNANOSTI V LETIH 2003–2008 (ZTRPIZ)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Republika Slovenija bo za zagotavljanje skladnejšega in bolj uravnovešenega razvoja izobraževanja in znanosti ter za posodobitev šolske in raziskovalne infrastrukture v okviru načrta razvojnih programov v letih 2003–2008 z vsakokratnimi letnimi proračuni zagotovila sredstva, ki v skupni višini ne bodo manjša od 167.722,653.000 tolarjev. Letna višina sredstev posameznih razvojnih programov je opredeljena v prilogi 1 tega zakona in je njegov sestavni del. Sredstva za leta 2003 do 2008 so v prilogi 1 izračunana po cenah na dan 1. 1. 2002 in se bodo letno valorizirala skladno s povprečno rastjo drobnoprodajnih cen. Prilogi 2 in 3 podrobneje opredeljujeta posamezne razvojne programe in sta tudi sestavni del tega zakona.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Razvojni programi po tem zakonu so:<br />
 – raziskovalna in razvojna dejavnost;<br />
 – izobraževanje odraslih s ciljem večje zaposljivosti;<br />
@@ -47,12 +60,12 @@ Milan Kučan l. r.</p>
 – regionalna mreža višjih in visokih šol ter njihove povezanosti z gospodarstvom;<br />
 – razvoj zdrave prehrane;<br />
 – investicije na področju izobraževanja in znanosti.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Sredstva iz 1. člena tega zakona se oblikujejo v finančnem načrtu ministrstva, pristojnega za šolstvo in znanost (v nadaljnjem besedilu: ministrstvo) tako, da bodo zagotovila izvedbo vseh predvidenih programov.<br />
 O spremembah znotraj razvojnega programa iz šeste alinee 2. člena tega zakona odloča Vlada Republike Slovenije. O višini potrebnih sredstev za izvedbo posameznih investicij, ki jih vsebuje ta razvojni program, odloča ministrstvo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Zaradi skupnega interesa tako države kot lokalnih skupnosti in gospodarstva za pospešeno investicijsko dejavnost na področju izgradnje šolskih objektov in raziskovalne infrastrukture, bodo v okviru strokovno enakovrednih programov prednostno obravnavani programi, pri katerih bo lokalna skupnost iz lastnih sredstev sodelovala pri investiciji z zagotavljanjem komunalno opremljenega zemljišča, gospodarstvo pa z nepovratnim vlaganjem, pri čemer morajo nepovratna finančna vlaganja, vrednost zemljišča ali pripadajoče komunalne opreme dosegati vsaj 15% vrednosti celotne investicije.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 411-09/02-12/1</p>
 <p>Ljubljana, dne 25. oktobra 2002.</p>
@@ -72,5 +85,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-11-14", "kratica": "ZTRPIZ", "naziv": "Zakon o temeljnih razvojnih programih na področju izobraževanja in znanosti v letih 2003 - 2008", "url": "/trubar/si/ZTRPIZ/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

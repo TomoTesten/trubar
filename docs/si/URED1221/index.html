@@ -21,22 +21,35 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1478" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1221.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1221" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1221.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1221,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah uredbe o določitvi carinskih kontingentov pri uvozu blaga v letu 2000</h1>
 <p>Na podlagi drugega odstavka 5. člena zakona o carinski tarifi (Uradni list RS, št. 74/95) ter v zvezi s 3., 4. in 9. členom uredbe o natančnejših kriterijih za določitev carinskih kontingentov in uporabe znižane carinske stopnje ali stopnje prosto pri uvozu blaga (Uradni list RS, št. 75/95 in 26/96) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o določitvi carinskih kontingentov pri uvozu blaga  v letu 2000</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V drugem odstavku 16. člena uredbe o določitvi carinskih kontingentov pri uvozu blaga v letu 2000 (Uradni list RS, št. 103/99) se številka »11« nadomesti s številko »10«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 18. členu se:<br />
 – v osmi alinei številka »14« nadomesti s številko »15«<br />
 – v deveti alinei številka »15« nadomesti s številko »16« in<br />
 – v deseti alinei številka »16« nadomesti s številko »17«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Priloga 5 k uredbi se dopolni tako, da se:<br />
 – za tarifno številko 8414 80 900 doda besedilo, ki se glasi:</p>
 <p>» 8419       Stroji, naprave in laboratorijska oprema (vključno električno<br />
@@ -54,7 +67,7 @@
              pouku ali na razstavah), ki niso primerni za kaj drugega; deli in<br />
              pribor<br />
 9023 00 800  – Drugo «</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.<br />
 3. člen te uredbe se uporablja do 31. maja 2000.</p>
 <p>Št. 424-06/98-9</p>
@@ -70,5 +83,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-04-07", "kratica": "URED1221", "naziv": "Uredba o spremembah in dopolnitvah uredbe o določitvi carinskih kontingentov pri uvozu blaga v letu 2000", "url": "/trubar/si/URED1221/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Ministrstvo za okolje in prostor</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-0906" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6301.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE6301" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6301.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE6301,vrsta:sklep">
+    
     <h1>Sklep o določitvi cene osnove plačila za koncesijo za gospodarsko izkoriščanje vode za vzrejo salmonidnih vrst rib za leto 2006</h1>
 <p>Na podlagi drugega odstavka 8.c člena:</p>
 <p>– Uredbe o koncesijah za gospodarsko izkoriščanje vode na posameznih odsekih vodotokov Mošenika in Trebuščice za vzrejo salmonidnih vrst rib (Uradni list RS, št. 66/94, 71/94 – popr., 26/95 – popr., 49/03 in 41/04 – <a href="/trubar/si/ZVO-1/" class="law-ref" title="ZVO-1">ZVO-1</a>),<br />
@@ -63,5 +76,36 @@ za okolje in prostor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-03-03", "kratica": "SKLE6301", "naziv": "Sklep o določitvi cene osnove plačila za koncesijo za gospodarsko izkoriščanje vode za vzrejo salmonidnih vrst rib za leto 2006", "url": "/trubar/si/SKLE6301/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

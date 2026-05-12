@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0987" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9952.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE9952" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9952.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE9952,vrsta:sklep">
+    
     <h1>Sklep o določitvi zdravstvenih stanj za upravičenost do posameznih medicinskih pripomočkov</h1>
 <p>Na podlagi prvega odstavka 64. člena Pravil obveznega zdravstvenega zavarovanja (Uradni list RS, št. 30/03 – prečiščeno besedilo, 35/03 – popr., 78/03, 84/04, 44/05, 86/06, 90/06 – popr., 64/07, 33/08, 71/08 – Skl. US, 7/09, 88/09, 30/11, 49/12, 106/12, 99/13 – <a href="/trubar/si/ZSVarPre-C/" class="law-ref" title="ZSVarPre-C">ZSVarPre-C</a> in 25/14) in 13. člena Statuta Zavoda za zdravstveno zavarovanje Slovenije (Uradni list RS, št. 87/01 in 1/02 – popr.) je Skupščina Zavoda za zdravstveno zavarovanje Slovenije na 3. redni seji dne 25. 3. 2014 sprejela</p>
 <h2>S K L E P</h2>
@@ -190,5 +203,36 @@ pripomočkov</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-11-28", "kratica": "SKLE9952", "naziv": "Sklep o določitvi zdravstvenih stanj za upravičenost do posameznih medicinskih pripomočkov", "url": "/trubar/si/SKLE9952/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

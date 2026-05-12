@@ -21,27 +21,40 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5217" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5307.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5307" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5307.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5307,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o registru kmetijskih gospodarstev in evidenci subjektov</h1>
 <p>Na podlagi 114. člena, v zvezi s 101., 102. in 103. členom zakona o kmetijstvu (Uradni list RS, št. 54/00, <a href="/trubar/si/ZMR-1/" class="law-ref" title="ZMR-1">ZMR-1</a> 58/02, <a href="/trubar/si/ZDU-1/" class="law-ref" title="ZDU-1">ZDU-1</a> 52/02) in 23. člena <a href="/trubar/si/ZDU-1/" class="law-ref" title="ZDU-1">ZDU-1</a> (Uradni list RS, št. 52/02), izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika<br />
 o registru kmetijskih gospodarstev<br />
 in evidenci subjektov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 1. členu pravilnika o registru kmetijskih gospodarstev in evidenci subjektov (Uradni list RS, št. 36/03) se pred piko doda besedilo: »(v nadaljnjem besedilu: ministrstvo)«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se črta.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V vseh členih, razen v prvem odstavku 8. člena, se v ustreznih sklonih nadomesti beseda »agencija« z besedo »ministrstvo«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Priloge št. I., II., III., IV., V., VI., VII. in VIII. se nadomestijo z novimi prilogami št. I., II., III., IV., V., VI., VII. in VIII., ki so sestavni del tega pravilnika.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 631-459/2003-2</p>
 <p>Ljubljana, dne 21. oktobra 2003.</p>
@@ -65,5 +78,36 @@ gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-12-08", "kratica": "PRAV5307", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o registru kmetijskih gospodarstev in evidenci subjektov", "url": "/trubar/si/PRAV5307/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

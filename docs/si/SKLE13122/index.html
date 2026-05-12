@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>SKLE13122</strong></dd>
       <dt>Vrsta</dt><dd>sklep</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>2023-01-13</dd>
-      <dt>Organ</dt><dd>Državni zbor Republike Slovenije</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-0049" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE13122.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE13122" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE13122.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE13122,vrsta:sklep">
+    
     <h1>Sklep o ugotovitvi prenehanja funkcije ministra</h1>
 <p>Na podlagi 115. člena Ustave Republike Slovenije (Uradni list RS, št. 33/91-I, 42/97, 66/00, 24/03, 69/04, 68/06, 47/13, 75/16 in 92/21), 12. člena Zakona o Vladi Republike Slovenije (Uradni list RS, št. 24/05 – uradno prečiščeno besedilo, 109/08, 38/10 – <a href="/trubar/si/ZUKN/" class="law-ref" title="ZUKN">ZUKN</a>, 8/12, 21/13, 47/13 – <a href="/trubar/si/ZDU-1G/" class="law-ref" title="ZDU-1G">ZDU-1G</a>, 65/14 in 55/17) ter v skladu s 112. in 261. členom Poslovnika državnega zbora (Uradni list RS, št. 92/07 – uradno prečiščeno besedilo, 105/10, 80/13, 38/17, 46/20, 105/21 – odl. US in 111/21) se je Državni zbor na seji 9. januarja 2023 seznanil s</p>
 <p>S K L E P O M</p>
@@ -46,5 +59,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-01-13", "kratica": "SKLE13122", "naziv": "Sklep o ugotovitvi prenehanja funkcije ministra", "url": "/trubar/si/SKLE13122/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

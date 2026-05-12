@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Državni zbor RS</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0292" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1705.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO1705" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1705.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO1705,vrsta:odlok">
+    
     <h1>Odlok o programu varstva in razvoja Parka Škocjanske jame za obdobje 2013-2017 (OdPVRPŠJ13-17)</h1>
 <p>Državni zbor je na podlagi prvega odstavka 13. člena Zakona o regijskem parku Škocjanske jame (Uradni list RS, št. 57/96, 7/99 – <a href="/trubar/si/ZVKD/" class="law-ref" title="ZVKD">ZVKD</a> in 110/02 – <a href="/trubar/si/ZGO-1/" class="law-ref" title="ZGO-1">ZGO-1</a>) v zvezi s 60. členom Zakona o ohranjanju narave (Uradni list RS, št. 96/04 – uradno prečiščeno besedilo, 61/06 – <a href="/trubar/si/ZDru-1/" class="law-ref" title="ZDru-1">ZDru-1</a> in 8/10 – <a href="/trubar/si/ZSKZ-B/" class="law-ref" title="ZSKZ-B">ZSKZ-B</a>) ter v zvezi s 108. členom Poslovnika državnega zbora (Uradni list RS, št. 92/07 – uradno prečiščeno besedilo, 105/10 in 80/13) na seji dne 30. januarja 2014 sprejel</p>
 <h2>O D L O K</h2>
@@ -841,5 +854,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-02-11", "kratica": "ODLO1705", "naziv": "Odlok o programu varstva in razvoja Parka Škocjanske jame za obdobje 2013-2017 (OdPVRPŠJ13-17)", "url": "/trubar/si/ODLO1705/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2022-01-1205" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV14610.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV14610" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV14610.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV14610,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o pogojih za vpis v register dobaviteljev in drugih obveznostih dobaviteljev ter zahtevah za trženje gozdnega reprodukcijskega materiala</h1>
 <p>Na podlagi četrtega odstavka 7. člena, petega odstavka 15. člena, petega odstavka 16. člena, četrtega odstavka 21. člena, sedmega odstavka 23. člena in drugega odstavka 25. člena Zakona o gozdnem reprodukcijskem materialu (Uradni list RS, št. 58/02, 85/02 – popr., 45/04 – <a href="/trubar/si/ZdZPKG/" class="law-ref" title="ZdZPKG">ZdZPKG</a> in 77/11) minister za kmetijstvo, gozdarstvo in prehrano izdaja</p>
 <p>P R A V I L N I K</p>
@@ -55,5 +68,36 @@ spp.) s seznama iz četrtega odstavka 7. člena tega pravilnika v zemlji, subst
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2022-04-22", "kratica": "PRAV14610", "naziv": "Pravilnik o spremembah Pravilnika o pogojih za vpis v register dobaviteljev in drugih obveznostih dobaviteljev ter zahtevah za trženje gozdnega reprodukcijskega materiala", "url": "/trubar/si/PRAV14610/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

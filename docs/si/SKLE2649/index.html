@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Notarska zbornica Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0051" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE2649.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE2649" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE2649.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE2649,vrsta:sklep">
+    
     <h1>Sklep o spremembi vrednosti točke v notarski tarifi</h1>
 <p>Na podlagi drugega odstavka 107. člena zakona o notariatu (Uradni list RS, št. 13/94, 48/94, 82/94 in 41/95) in 13. točke 19. člena statuta Notarske zbornice Slovenije (Uradni list RS, št. 18/95 in 66/96) ter na podlagi četrtega in petega odstavka 11. člena notarske tarife (Uradni list RS, št. 28/95, 31/96, 6/97, 65/98, 45/99, 48/99, 78/00, 27/01 in 37/01) je izvršni odbor Notarske zbornice Slovenije na seji dne 4. 12. 2001 sprejel</p>
 <h2>S K L E P</h2>
@@ -47,5 +60,36 @@ Bojan Podgoršek l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-01-11", "kratica": "SKLE2649", "naziv": "Sklep o spremembi vrednosti točke v notarski tarifi", "url": "/trubar/si/SKLE2649/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

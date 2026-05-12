@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-1951" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1695.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG1695" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1695.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG1695,vrsta:drugi akt">
+    
     <h1>Zavrnitev pobud za začetek postopka za oceno ustavnosti 19. člena zakona o spremembah in dopolnitvah zakona o jamstvenem skladu Republike Slovenije</h1>
 <p>Ustavno sodišče je v postopku za preizkus pobude Antonije Markelj in drugih, ki jih zastopa mag. Tatjana Gregorc, odvetnica v Radovljici, pobude Stojana Despota iz Ljubljane, ki ga zastopa Emil Lipovec, odvetnik v Ljubljani, pobude Sindikata kovinske in elektroindustrije Slovenije, Ljubljana, ki ga zastopa predsednik Albert Vodovnik, in pobude družbe Bombažna predilnica in tkalnica Tržič, d.d., Tržič, ki jo zastopa Darja Roblek, odvetnica v Kranju, na seji dne 10. aprila 2003</p>
 <h2>s k l e n i l o:</h2>
@@ -72,5 +85,36 @@ dr. Dragica Wedam Lukić l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-04-30", "kratica": "DRUG1695", "naziv": "Zavrnitev pobud za začetek postopka za oceno ustavnosti 19. člena zakona o spremembah in dopolnitvah zakona o jamstvenem skladu Republike Slovenije", "url": "/trubar/si/DRUG1695/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

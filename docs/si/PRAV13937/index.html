@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2019-01-3655" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV13937.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV13937" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV13937.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV13937,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o obrazcih za priglasitev začetka, konca in sprememb ugotavljanja davčne osnove od dohodka iz osnovne kmetijske in osnovne gozdarske dejavnosti na podlagi dejanskih prihodkov in dejanskih odhodkov oziroma dejanskih prihodkov in normiranih odhodkov</h1>
 <p>Na podlagi drugega odstavka 304. člena Zakona o davčnem postopku (Uradni list RS, št. 13/11 – uradno prečiščeno besedilo, 32/12, 94/12, 101/13 – <a href="/trubar/si/ZDavNepr/" class="law-ref" title="ZDavNepr">ZDavNepr</a>, 111/13, 22/14 – odl. US, 25/14 – <a href="/trubar/si/ZFU/" class="law-ref" title="ZFU">ZFU</a>, 40/14 – ZIN-B, 90/14, 91/15, 63/16, 69/17, 13/18 – ZJF-H, 36/19 in 66/19) minister za finance izdaja</p>
 <p>P R A V I L N I K</p>
@@ -67,5 +80,36 @@ se v prvem odstavku besedilo »91/15 in 63/16« nadomesti z besedilom »91/15, 6
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2019-12-27", "kratica": "PRAV13937", "naziv": "Pravilnik o spremembah Pravilnika o obrazcih za priglasitev začetka, konca in sprememb ugotavljanja davčne osnove od dohodka iz osnovne kmetijske in osnovne gozdarske dejavnosti na podlagi dejanskih prihodkov in dejanskih odhodkov oziroma dejanskih prihodkov in normiranih odhodkov", "url": "/trubar/si/PRAV13937/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

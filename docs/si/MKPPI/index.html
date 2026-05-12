@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-02-0028" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKPPI.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MKPPI" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKPPI.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MKPPI,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o ratifikaciji Konvencije, pripravljene na podlagi člena K.3 Pogodbe o Evropski uniji, o poenostavljenem postopku izročitve med državami članicami Evropske unije</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI KONVENCIJE, PRIPRAVLJENE NA PODLAGI ČLENA K.3 POGODBE O EVROPSKI UNIJI, O POENOSTAVLJENEM POSTOPKU IZROČITVE MED DRŽAVAMI ČLANICAMI EVROPSKE UNIJE (MKPPI)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Konvencija, pripravljena na podlagi člena K.3 Pogodbe o Evropski uniji, o poenostavljenem postopku izročitve med državami članicami Evropske unije, sklenjena 10. marca 1995 v Bruslju.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo konvencije se v izvirniku v angleškem jeziku in v prevodu v slovenskem jeziku glasi:</p>
 <h2>C O N V E N T I O N</h2>
 <p>DRAWN UP ON THE BASIS OF ARTICLE K.3 OF THE TREATY ON EUROPEAN UNION, ON SIMPLIFIED EXTRADITION PROCEDURE BETWEEN THE MEMBER STATES OF THE EUROPEAN UNION</p>
@@ -283,7 +296,7 @@ DOGOVORILE O NASLEDNJEM:</p>
 V potrditev tega so spodaj podpisani pooblaščenci podpisali to konvencijo.<br />
 V Bruslju, desetega marca leta tisoč devetsto petindevetdeset, v edinem izvirniku v angleškem, danskem, finskem, francoskem, grškem, irskem, italijanskem, nemškem, nizozemskem, portugalskem, španskem in švedskem jeziku, pri čemer so besedila v vseh teh jezikih enako verodostojna, izvirnik pa je deponiran v arhivih generalnega sekretariata Sveta Evropske unije, ki pošlje vsaki državi članici overjeno kopijo.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Republika Slovenija ob deponiranju listine o pristopu poda naslednje izjave:<br />
 V zvezi s četrtim odstavkom člena 7 konvencije Republika Slovenija izjavlja, da se lahko soglasje osebe, dano v postopku pred sodiščem, prekliče do odločitve ministra, pristojnega za pravosodje.<br />
 V zvezi s členom 9 konvencije Republika Slovenija izjavlja, da se določbe 14. člena Evropske konvencije o izročitvi ne uporabijo, če oseba soglaša z izročitvijo in se izrecno odpove pravici do načela specialnosti skladno s členom 7 te konvencije.<br />
@@ -291,9 +304,9 @@ V zvezi s tretjim odstavkom člena 12 konvencije Republika Slovenija izjavlja, d
 V skladu s členom 15 konvencije Republika Slovenija izjavlja, da je pristojni organ za namene člena 4, drugega odstavka člena 5, člena 10 in člena 14 konvencije Ministrstvo za pravosodje.<br />
 V skladu s členom 15 konvencije Republika Slovenija izjavlja, do so pristojni organi Republike Slovenije v smislu člena 6, člena 7 in člena 8 konvencije krajevno pristojna okrožna sodišča.<br />
 V zvezi s tretjim odstavkom člena 16 konvencije Republika Slovenija izjavlja, da se bo ta konvencija uporabljala v odnosih med Republiko Slovenijo in državami članicami, ki so podale enako izjavo, v roku 90 dni po dnevu deponiranja njene izjave.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za izvajanje konvencije skrbi Ministrstvo za pravosodje.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 700-01/06-93/1</p>
 <p>Ljubljana, dne 1. februarja 2007</p>
@@ -310,5 +323,36 @@ France Cukjati, dr. med., l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-03-02", "kratica": "MKPPI", "naziv": "Zakon o ratifikaciji Konvencije, pripravljene na podlagi člena K.3 Pogodbe o Evropski uniji, o poenostavljenem postopku izročitve med državami članicami Evropske unije", "url": "/trubar/si/MKPPI/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

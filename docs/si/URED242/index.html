@@ -21,25 +21,38 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1352" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED242.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED242" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED242.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED242,vrsta:uredba">
+    
     <h1>Odredba o določitvi mejnih prehodov za uvoz, izvoz in prevoz pošiljk živali, živil, surovin in odpadkov živalskega izvora, krme, živalskega semena, jajčnih celic in zarodkov ter drugih predmetov, s katerimi se lahko prenese kužna bolezen živali</h1>
 <p>Na podlagi enaindvajsete alinee 114. člena zakona o veterinarstvu (Uradni list RS, št. 82/94, 21/95 in 16/96) in 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95 – odl. US in 29/95) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>O D R E D B O</h2>
 <p>o določitvi mejnih prehodov za izvoz, uvoz  in prevoz pošiljk živali, proizvodov, surovin  in odpadkov živalskega izvora, krme, živalskega semena, jajčnih celic in zarodkov ter drugih predmetov, s katerimi se lahko prenese kužna bolezen živali</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Pošiljke živali, proizvodov, surovin in odpadkov živalskega izvora, krme, živalskega semena, jajčnih celic in zarodkov ter drugih predmetov, s katerimi se lahko prenese kužna bolezen živali, se smejo izvažati, uvažati ali prevažati v tranzitu samo čez mejne prehode v naslednjih krajih:<br />
 1. z železniškimi prevoznimi sredstvi: Jesenice, Ljubljana, Maribor, Nova Gorica, Sežana, Pragersko, Dobova,  Ilirska Bistrica in Rakitovec;<br />
 2. s cestnimi prevoznimi sredstvi: Predor Karavanke, Šentilj, Vrtojba, Fernetiči, Središče ob Dravi, Gruškovje, Obrežje, Jelšane, Dragonja, Škofije in Dolga vas;<br />
 3. s pomorskimi prevoznimi sredstvi: Luka Koper;<br />
 4. z zračnimi prevoznimi sredstvi: Letališče Ljubljana – Brnik.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Direktor Veterinarske uprave Republike Slovenije lahko s soglasjem direktorja Carinske uprave Republike Slovenije v upravičenih primerih izjemoma dovoli vnos ali iznos pošiljk živali, proizvodov, surovin in odpadkov živalskega izvora, krme, živalskega semena, jajčnih celic in zarodkov ter drugih predmetov, s katerimi se lahko prenese kužna bolezen živali v Republiko Slovenijo in prevoz v tranzitu tudi preko drugih mejnih prehodov.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Z dnem uveljavitve te odredbe preneha veljati odredba o določitvi mejnih prehodov za izvoz, uvoz in tranzit pošiljk živali, proizvodov, surovin in odpadkov živalskega izvora, semena za umetno osemenjevanje, oplojenih jajčnih celic za oplojevanje živali ter drugih predmetov, s katerimi se lahko prenese kužna bolezen živali (Uradni list RS, št. 11/92).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta odredba začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 323-7/99</p>
 <p>Ljubljana, dne 8. aprila 1999.</p>
@@ -55,5 +68,36 @@ prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-04-22", "kratica": "URED242", "naziv": "Odredba o določitvi mejnih prehodov za uvoz, izvoz in prevoz pošiljk živali, živil, surovin in odpadkov živalskega izvora, krme, živalskega semena, jajčnih celic in zarodkov ter drugih predmetov, s katerimi se lahko prenese kužna bolezen živali", "url": "/trubar/si/URED242/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,31 +21,44 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3141" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV1002.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV1002" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV1002.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV1002,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o razvrstitvi živalskih kužnih bolezni, določitvi načina in postopka obveščanja ter določitvi laboratorijskih testov in metod</h1>
 <p>Na podlagi 1., 6. in 7. alinee 114. člena zakona o veterinarstvu (Uradni list RS, št. 82/94, 21/95 in 16/96) in 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95 – odl. US in 29/95) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o razvrstitvi živalskih kužnih bolezni, določitvi načina in postopka obveščanja ter določitvi laboratorijskih testov in metod</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V prvem odstavku 3. člena pravilnika o razvrstitivi živalskih kužnih bolezni, določitvi načina in postopka obveščanja ter določitvi laboratorijskih testov in metod (Uradni list RS, št. 34/96) se  med besedi “so slabo” vstavi beseda “praviloma” in v drugem odstavku istega člena  se med besedi “bolezni bremenijo” vstavi beseda “praviloma”.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 4. členu se za sedmo alineo doda nova alinea, ki se glasi:</p>
 <p>“–  infekciozna hematopoetska nekroza postrvi – Necrosis infectiosa haematopoetica salmonis”</p>
 <p>in za štiriindvajseto alineo nova alinea, ki se glasi:</p>
 <p>“–  tuberkuloza – Tuberculosis”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 5. členu se besedilo štirinajste alinee nadomesti z besedilom:</p>
 <p>“– pljučna kuga govedi – Pleuropneumonia contagiosa bovum”</p>
 <p>in se za njo dodata dve novi alinei, ki se glasita:</p>
 <p>“–  nalezljiva ohromelost prašičev – Encephalomyelitis enzootica suum,” ter</p>
 <p>“– osepnice ovac in koz – Variola ovina et caprina”.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 6. členu se na koncu doda kot nova zadnja alinea:</p>
 <p>“– vranični prisad – Antrax”.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 323-01-69/96</p>
 <p>Ljubljana, dne 20. septembra 1996.</p>
@@ -60,5 +73,36 @@ za kmetijstvo, gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-09-27", "kratica": "PRAV1002", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o razvrstitvi živalskih kužnih bolezni, določitvi načina in postopka obveščanja ter določitvi laboratorijskih testov in metod", "url": "/trubar/si/PRAV1002/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

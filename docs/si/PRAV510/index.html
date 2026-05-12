@@ -21,34 +21,47 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3921" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV510.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV510" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV510.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV510,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o meroslovnih zahtevah za pomožno opremo za pretočna merila za tekočine razen vode, ki lahko nosijo oznake in znake EEC</h1>
 <p>Na podlagi prvega in četrtega odstavka 9. člena in petega odstavka 11. člena zakona o meroslovju (Uradni list RS, št. 22/00) izdaja ministrica za šolstvo, znanost in šport</p>
 <h2>P R A V I L N I K</h2>
 <p>o meroslovnih zahtevah za pomožno opremo za pretočna merila za tekočine razen vode, ki lahko nosi oznake in znake EEC*</p>
 <h3>I. SPLOŠNA DOLOČBA</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa meroslovne zahteve, ki jih mora izpolnjevati pomožna oprema za pretočna merila za tekočine razen vode, ki lahko nosi oznake in znake EEC (v nadaljevanju: pomožna oprema), način označevanja ter postopke ugotavljanja skladnosti in overitev.<br />
 Ta pravilnik se označi skrajšano z oznako MP-17-71/348.</p>
 <h3>II. MEROSLOVNE ZAHTEVE</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pomožna oprema mora izpolnjevati meroslovne zahteve iz Priloge I, ki je sestavni del tega pravilnika.</p>
 <h3>III. OZNAKE</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Zagotoviti je treba zaščitne oznake, ki preprečujejo odstranitev pomožne opreme in onemogočajo dostop do elementov, ki omogočajo kalibracijo.</p>
 <h3>IV. UGOTAVLJANJE SKLADNOSTI</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za pomožno opremo je obvezna EEC-odobritev tipa merila. EEC-prva overitev pomožne opreme se opravi hkrati z EEC-prvo overitvijo pretočnih meril, katerim je pomožna oprema namenjena.</p>
 <h3>V. REDNE IN IZREDNE OVERITVE</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Redne in izredne overitve pomožne opreme se izvedejo hkrati z rednimi in izrednimi overitvami pretočnih meril, katerim je pomožna oprema namenjena. Redne in izredne overitve pomožne opreme vključujejo:<br />
 – ugotavljanje skladnosti pomožne opreme z EEC-odobrenim tipom merila,<br />
 – meroslovni pregled, s katerim se ugotavlja, ali pomožna oprema izpolnjuje zahteve tega pravilnika.</p>
 <h3>VI. KONČNA DOLOČBA</h3>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije, začne pa se uporabljati z dnem pristopa Republike Slovenije v Evropsko unijo oziroma z dnem uveljavitve ustreznega mednarodnega sporazuma.</p>
 <p>Št. 009-13/01-4</p>
 <p>Ljubljana, dne 10. septembra 2001.</p>
@@ -345,5 +358,36 @@ za šolstvo, znanost in šport</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-09-21", "kratica": "PRAV510", "naziv": "Pravilnik o meroslovnih zahtevah za pomožno opremo za pretočna merila za tekočine razen vode, ki lahko nosijo oznake in znake EEC", "url": "/trubar/si/PRAV510/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

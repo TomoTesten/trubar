@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>DRUG4551</strong></dd>
       <dt>Vrsta</dt><dd>drugi akt</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
-      <dt>Datum</dt><dd>2018-08-31</dd>
-      <dt>Organ</dt><dd>Javna agencija za civilno letalstvo Republike Slovenije</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2025-10-24</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2018-01-2890" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4551.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG4551" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4551.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG4551,vrsta:drugi akt">
+    
     <h1>Operativno-tehnična zahteva za izvajanje del v zraku in uvodnih letov z ultralahkimi letalnimi napravami</h1>
 <p>Na podlagi drugega odstavka 5. člena in petega odstavka 179.i člena Zakona o letalstvu (Uradni list RS, št. 81/10 – UPB4 in 46/16), 25. člena Sklepa o ustanovitvi Javne agencije za civilno letalstvo Republike Slovenije (Uradni list RS, št. 81/10) in za izvrševanje sedmega odstavka 5.a člena in drugega odstavka 5.b člena Pravilnika o ultralahkih letalnih napravah (Uradni list RS, št. št. 49/16, 52/16 in 32/18), izdaja direktor Javne agencije za civilno letalstvo Republike Slovenije naslednjo</p>
 <p>O P E R A T I V N O - T E H N I Č N O</p>
@@ -621,5 +634,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2025-10-24", "kratica": "DRUG4551", "naziv": "Operativno-tehnična zahteva za izvajanje del v zraku in uvodnih letov z ultralahkimi letalnimi napravami", "url": "/trubar/si/DRUG4551/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

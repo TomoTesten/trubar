@@ -21,29 +21,42 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2416" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2875.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV2875" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2875.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV2875,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Pravilnik za izračun matematičnih rezervacij</h1>
 <p>Na podlagi 22. člena zakona o prvem pokojninskem skladu Republike Slovenije in preoblikovanju pooblaščenih investicijskih družb (Uradni list RS, št. 50/99) izdaja minister za finance v soglasju z ministrom za delo, družino in socialne zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>za izračun matematičnih rezervacij</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa podrobnejša pravila za izračun matematičnih rezervacij v zvezi z zavarovanji, ki jih krije prvi pokojninski sklad.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Matematične rezervacije se prvič izračunajo za vsako posamezno zavarovalno polico dodatnega pokojninskega zavarovanja prvega pokojninskega sklada iz 32. člena zakona o prvem pokojninskem skladu Republike Slovenije in preoblikovanju pooblaščenih investicijskih družb (<a href="/trubar/si/ZPSPID/" class="law-ref" title="ZPSPID">ZPSPID</a>; Uradni list RS, št. 50/99) (v nadaljevanju: polica), ko zavarovanec izpolni pogoje za pridobitev pravice do mesečne pokojninske rente v skladu s sklenjeno polico.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Matematične rezervacije prvega pokojninskega sklada se računajo po prospektivni aktuarski metodi in so odvisne od višine rente, ki izhaja iz posamezne police, od starosti imetnika zavarovalne police na dan izračuna matematične rezervacije, ustreznih tablic umrljivosti, diskontne stopnje in predvidenih stroškov poslovanja.<br />
 (2) Tablice umrljivosti za izračun matematičnih rezervacij določi uprava kapitalskega sklada invalidskega in pokojninskega zavarovanja (v nadaljevanju: kapitalski sklad) s soglasjem nadzornega organa, pristojnega za nadzor nad zavarovalnicami.<br />
 (3) Diskontna stopnja iz prvega odstavka tega člena je enaka obrestni meri, ki se uporablja za izračun pokojninske rente.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Višina matematičnih rezervacij se izračunava na zadnji dan v mesecu za vsako posamezno zavarovalno polico in kot vsota matematičnih rezervacij posameznih zavarovalnih polic, na podlagi katerih se izplačuje mesečna pokojninska renta.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Če so matematične rezervacije prvega pokojninskega sklada za vse police skupaj ob zaključku vsakega trimesečja višje od njegovega kritnega sklada, kapitalski sklad oblikuje rezervacije iz naslova izplačevanja pokojninskih rent zavarovancem prvega pokojninskega sklada, ki so enake razliki matematičnih rezervacij prvega pokojninskega sklada in kritnega sklada prvega pokojninskega sklada.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Kapitalski sklad mora nadzornemu organu, pristojnemu za nadzor nad zavarovalnicami, najkasneje v treh mesecih po poteku koledarskega leta posredovati zahtevane podatke na obrazcih MR-PPS, MRs1-PPS in MRs-PPS, ki so sestavni del tega pravilnika. Obrazcem mora biti priloženo poročilo pooblaščenega aktuarja.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 438-24/2000</p>
 <p>Ljubljana, dne 1. junija 2000.</p>
@@ -64,5 +77,36 @@ in socialne zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-06-09", "kratica": "PRAV2875", "naziv": "Pravilnik za izračun matematičnih rezervacij", "url": "/trubar/si/PRAV2875/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

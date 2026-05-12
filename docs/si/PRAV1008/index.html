@@ -21,18 +21,31 @@
       <dt>Organ</dt><dd>Ministrstvo za promet in zveze</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1454" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV1008.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV1008" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV1008.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV1008,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o programu preizkusa strokovne usposobljenosti ter o postopku in načinu opravljanja preizkusa za pridobitev licence za prevoze v cestnem prometu</h1>
 <p>Na podlagi tretjega odstavka 5. člena zakona o prevozih v cestnem prometu ( Uradni list RS, št. 72/94, 54/96, 48/98 in 7/99 – odl. US) in 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95, – odl. US in 29/95), izdaja minister za promet in zveze, v soglasju z ministrom za šolstvo in šport</p>
 <h2>P R A V I L N I K</h2>
 <p>spremembah in dopolnitvah pravilnika  o programu preizkusa strokovne usposobljenosti ter o postopku in načinu opravljanja preizkusa  za pridobitev licence za prevoze  v cestnem prometu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o programu preizkusa strokovne usposobljenosti ter o postopku in načinu opravljanja preizkusa za pridobitev licence za prevoze v cestnem prometu (Uradni list RS, št. 33/96, 61/97 in 15/98) se v 9. členu doda nov tretji odstavek, ki se glasi:<br />
 »Minister pristojen za promet, lahko imenuje tudi komisijo z manjšim številom namestnikov predsednika in članov komisije, ter za krajše obdobje od dveh let, če to zahtevajo spremenjene pravne ali dejanske razmere na področju pridobivanja licenc za opravljanje prevozov v cestnem prometu.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 2653-22/98</p>
 <p>Ljubljana, dne 14. aprila 1999.</p>
@@ -51,5 +64,36 @@ in šport</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-04-23", "kratica": "PRAV1008", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o programu preizkusa strokovne usposobljenosti ter o postopku in načinu opravljanja preizkusa za pridobitev licence za prevoze v cestnem prometu", "url": "/trubar/si/PRAV1008/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

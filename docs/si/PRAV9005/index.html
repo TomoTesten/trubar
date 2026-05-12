@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3463" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9005.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9005" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9005.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9005,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o opravljanju nalog Uprave Republike Slovenije za javna plačila na področju plačevanja in razporejanja obveznih dajatev in drugih javnofinančnih prihodkov</h1>
 <p>Na podlagi drugega odstavka 73. člena in drugega odstavka 74. člena Zakona o plačilnem prometu (Uradni list RS, št. 110/06 – uradno prečiščeno besedilo, 114/06 – <a href="/trubar/si/ZUE/" class="law-ref" title="ZUE">ZUE</a>, 131/06 – <a href="/trubar/si/ZBan-1/" class="law-ref" title="ZBan-1">ZBan-1</a>, 102/07 in 126/07 – <a href="/trubar/si/ZFPPIPP/" class="law-ref" title="ZFPPIPP">ZFPPIPP</a>) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o opravljanju nalog Uprave Republike Slovenije za javna plačila na področju plačevanja in razporejanja obveznih dajatev in drugih javnofinančnih prihodkov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o opravljanju nalog Uprave Republike Slovenije za javna plačila na področju plačevanja in razporejanja obveznih dajatev in drugih javnofinančnih prihodkov (Uradni list RS, št. 110/02, 42/03, 134/03, 70/04, 141/04, 106/05, 120/05, 72/06, 136/06 in 117/07) se besedilo prvega stavka v šestem odstavku 5. člena spremeni tako, da se glasi:<br />
 »Pri zamenjavi upravnih kolkov na območnih enotah UJP in pri vračanju preveč ali napačno plačanih upravnih taks, ki se delijo med državo in občine, se najprej zagotovijo vsa sredstva za zamenjavo oziroma za vračilo v breme podračuna državnega proračuna.«<br />
 Doda se nov sedmi odstavek, ki se glasi:<br />
 »(7) Kadar tekoči prilivi iz naslova upravnih taks, ki se delijo med državo in občine, ne zadostujejo za vračilo predpisanega dela, ki bi moral biti vrnjen v breme podračunov proračunov občin, UJP izda občinam zahtevke, da zadnji delovni dan v mesecu iz svojih proračunov nakažejo predpisan del vračila državi. UJP vodi evidenco o stanju založenih sredstev države po občinah in o tem poroča občinam ter državi.«<br />
 Dosedanji sedmi do trinajsti odstavek postanejo osmi do štirinajsti odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Na koncu prvega odstavka 6.a člena se doda besedilo:<br />
 »VP=11 je nakazilo vračila založenih sredstev. To je priliv sredstev na podračun državnega proračuna; transakcijo sproži občina na zahtevo UJP, kadar ta ugotovi, da še niso vrnjena vsa založena sredstva; državni proračun za ta sredstva zmanjša terjatev do občin; občina za ta znesek zmanjša obveznost do državnega proračuna.«<br />
 V tretjem odstavku se na koncu tabele doda naslednja vrstica:</p>
@@ -45,7 +58,7 @@ V tretjem odstavku se na koncu tabele doda naslednja vrstica:</p>
  |  |za vračilo|  |  |       |        |  |     |       |        |<br />
  |  |založenega|  |  |       |        |  |     |       |        |<br />
  +--+----------+--+--+-------+--------+--+-----+-------+--------+«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 479-32/2007/27</p>
 <p>Ljubljana, dne 15. julija 2008</p>
@@ -60,5 +73,36 @@ Minister za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-07-28", "kratica": "PRAV9005", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o opravljanju nalog Uprave Republike Slovenije za javna plačila na področju plačevanja in razporejanja obveznih dajatev in drugih javnofinančnih prihodkov", "url": "/trubar/si/PRAV9005/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

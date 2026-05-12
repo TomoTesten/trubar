@@ -21,32 +21,45 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-5104" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1085.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG1085" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1085.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG1085,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Dogovor o načinu usklajevanja plač v javnem sektorju v letu 2001</h1>
 <h2>D O G O V O R</h2>
 <p>o načinu usklajevanja plač v javnem sektorju v letu 2001</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Vlada Republike Slovenije in sindikati s področja negospodarskih dejavnosti (v nadaljnjem besedilu: socialni partnerji) s tem dogovorom določamo način usklajevanja izhodiščnih plač in osnov za določanje plač, ki so določene z zakoni, v letu 2001 tako, da dogovorjene rešitve veljajo za vse delodajalce v dejavnostih, za katere velja kolektivna pogodba za negospodarske dejavnosti in za vse pri njih zaposlene delavce.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Socialni partnerji se strinjamo, da se v letu 2001 del sredstev, namenjenih za uskladitev plač nameni v javnem sektorju za zmanjševanje nesorazmerij med plačami zaposlenih.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Socialni partnerji menimo, da je nujno, da Vlada RS v letu 2001 s sodelovanjem sindikatov pripravi novo ureditev, ki bo vzpostavila enotnost plačnega sistema v javnem sektorju in omogočila odpravljanje nesorazmerij med plačami znotraj tega sektorja.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ne glede na poglavje III.1 “Usklajevanje plač“, točka 1.3.1., v veljavnem dogovoru o politiki plač za obdobje 1999–2001 (Uradni list RS, št. 22/99 in 51/00) se izhodiščne plače zaposlenih, za katere velja kolektivna pogodba za negospodarske dejavnosti v RS, in osnove za določanje plač, ki so določene z zakoni, v letu 2001 povečajo na naslednji način:<br />
 S 1. januarjem 2001 se izhodiščne plače in osnove za določanje plač, ki so določene z zakoni, povečajo za 3,6%.<br />
 Drugi del povečanja plač se izvede s 1. avgustom 2001 tako, da se sredstva v višini, ki ustreza razliki do povečanja izhodiščnih plač do 6,3%, namenijo za zmanjšanje nesorazmerij med plačami. Način, ki bo omogočil zmanjšanje nesorazmerij, bo opredeljen s kolektivnimi pogodbami dejavnosti oziroma za organe državne uprave z aktom Vlade Republike Slovenije.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Če ni drugače dogovorjeno za vse zaposlene v Republiki Sloveniji, se v primeru:<br />
 – da rast cen življenjskih potrebščin v letu 2001 pred koncem leta preseže 7%, za razliko nad 6,3% povečajo izhodiščne plače ob izplačilu plač za mesec januar 2002,<br />
 – da rast cen življenjskih potrebščin 6,3% v celem letu ni dosežena, razlika prav tako upošteva pri določitvi povečanja izhodiščnih plač za januar 2002.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Socialni partnerji se strinjamo, da ta dogovor velja od 1. 1. 2001 do 31. 12. 2001.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Socialni partnerji se strinjamo, da Vlada Republike Slovenije z zakonom zagotovi izvajanje tega dogovora.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta dogovor se objavi v Uradnem listu Republike Slovenije.</p>
 <p>Sindikati<br />
 Sindikat zdravstva in<br />
@@ -90,5 +103,36 @@ in socialne zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-12-28", "kratica": "DRUG1085", "naziv": "Dogovor o načinu usklajevanja plač v javnem sektorju v letu 2001", "url": "/trubar/si/DRUG1085/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

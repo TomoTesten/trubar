@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-02-0023" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1884.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1884" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1884.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1884,vrsta:uredba">
+    
     <h1>Uredba o ratifikaciji sporazuma o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Kraljevino Dansko</h1>
 <p>Na podlagi tretjega odstavka 63. člena zakona o zunanjih zadevah (Uradni list RS, št. 1/91-I) izdaja Vlada Republike Slovenije</p>
 <h2>UREDBO</h2>
 <p>o ratifikaciji sporazuma o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Kraljevino Dansko</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se sporazum o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Kraljevino Dansko, sklenjen z izmenjavo not z dne 16. in 20. januarja 1992.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sporazum se v izvirniku v angleškem jeziku in slovenskem prevodu glasi:<br />
 The Ministry for Foreign Affairs of the Republic of Slovenia presents its compliments to the Ministry for Foreign Affairs of the Kingdom of Denmark and has the honour to express its gratitude for the decision of the Government of the Kingdom of Denmark on recognition of the Republic of Slovenia, which was transmitted in the telegram of the Minister for Foreign Affairs of the Kingdom of Denmark, his Excellency Mr. Uffe Ellenann-Jensen of January 15. 1992.<br />
 The Ministry fully agrees with the proposal for the establishment of the diplomatic relations between our two countries and suggests that the respectful confirmation of the receipt of this note be considered as a date of the establishment of diplomatic relations. We also propose the exchange of diplomatic envoys with the rank of ambassador.<br />
@@ -63,7 +76,7 @@ Ministrstvo za zunanje zadeve Kraljevine Danske izkorišča to priložnost, da i
 <p>Kopenhagen, dne 20. januarja 1992.</p>
 <p>Ministrstvu za zunanje zadeve Republike Slovenije<br />
 Ljubljana</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba prične veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 900-03/92-27/1-8</p>
 <p>Ljubljana, dne 4. junija 1992.</p>
@@ -78,5 +91,36 @@ dr. Janez Drnovšek l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-06-30", "kratica": "URED1884", "naziv": "Uredba o ratifikaciji sporazuma o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Kraljevino Dansko", "url": "/trubar/si/URED1884/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

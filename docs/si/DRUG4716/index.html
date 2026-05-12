@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2020-01-0114" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4716.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG4716" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4716.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG4716,vrsta:drugi akt">
+    
     <h1>Seznam gozdnih semenskih objektov – stanje na dan 1. 1. 2020</h1>
 <p>Na podlagi 45. člena Zakona o gozdnem reprodukcijskem materialu (Uradni list RS, št. 58/02, 85/02), Pravilnika o seznamu drevesnih vrst in umetnih križancev (Uradni list RS, št. 83/02, 94/02), Odločbe EU o izvzemu nekaterih vrst (Commission Decision 2005/871/EC), Pravilnika o pogojih za odobritev gozdnih semenskih objektov v kategorijah »znano poreklo« in »izbran« in o seznamu gozdnih semenskih objektov (Uradni list RS, št. 91/03), Pravilnika o pogojih in postopku za odobritev gozdnih semenskih objektov, namenjenih pridelovanju gozdnega reprodukcijskega materiala v kategorijah »kvalificiran« in »testiran« (Uradni list RS, št. 19/04), Odredbe o seznamu drevesnih vrst in umetnih križancev (Uradni list RS, št. 4/10, 5/10) objavlja Gozdarski inštitut Slovenije</p>
 <p>S E Z N A M</p>
@@ -42,5 +55,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2020-01-24", "kratica": "DRUG4716", "naziv": "Seznam gozdnih semenskih objektov – stanje na dan 1. 1. 2020", "url": "/trubar/si/DRUG4716/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

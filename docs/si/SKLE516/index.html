@@ -21,30 +21,43 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1808" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE516.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE516" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE516.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE516,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Sklep o delovnem področju Centra Vlade Republike Slovenije za informatiko</h1>
 <p>Na podlagi 26. in 33. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93) je Vlada Republike Slovenije na 38. seji 29. julija 1993 sprejela</p>
 <h2>SKLEP</h2>
 <p>o delovnem področju Centra Vlade Republike Slovenije za informatiko</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Center Vlade Republike Slovenije za informatiko (v nadaljnjem besedilu: center), kot samostojna strokovna služba Vlade Republike Slovenije, opravlja zlasti naloge, ki se nanašajo na:<br />
 – razvoj aplikativne programske opreme, svetovanje državnim organom v zadevah načrtovanja in uvajanja informacijske tehnologije, strokovni nadzor pri razvijanju in uvajanju aplikativne programske opreme, uvajanje telekomunikacijske opreme, zagotavljanje ustrezne kvalitete storitev in proizvodov informacijske tehnologije ter metodološko in tehnološko koordinacijo pri razvoju projektov;<br />
 – izdelavo in realizacijo načrta informatizacije državnih organov, nabavo in izdajanje mnenj v zvezi z nabavo informacijske opreme posameznih državnih organov, distribucijo in vzdrževanje le-te;<br />
 – metodološke in tehnološke rešitve pri povezovanju in uporabi javnih baz podatkov ter posredovanje informacijskih storitev državnim organom in zunanjim uporabnikom;<br />
 – delovanje računalniškega centra državnih organov in skupne telekomunikacijske mreže državnih organov ter zagotavljanje skupnih telekomunikacijskih servisov, storitev in elektronske pošte;<br />
 – strokovno usposabljanje in izobraževanje s področja informatizacije.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Center opravlja naloge iz prejšnjega člena v sodelovanju z državnimi organi, mednarodnimi, domačimi in tujimi vladnimi in nevladnimi organizacijami in s strokovnimi institucijami s področja informacijske tehnologije v državi ter s sorodnimi institucijami v tujini.<br />
 V ta namen ustanavlja delovne skupine, organizira skupne sestanke in akcije ter druge oblike sodelovanja.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Delo centra vodi direktor.<br />
 Direktor ima namestnika, ki ga nadomešča v času odsotnosti ali zadržanosti.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Akt o notranji organizaciji in sistemizaciji centra izda direktor centra v 90 dneh po uveljavitvi tega sklepa po predhodnem soglasju Komisije Vlade Republike Slovenije za kadrovske in administrativne zadeve.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 021-02/93-5/2-8</p>
 <p>Ljubljana, dne 29. julija 1993.</p>
@@ -59,5 +72,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1993-08-06", "kratica": "SKLE516", "naziv": "Sklep o delovnem področju Centra Vlade Republike Slovenije za informatiko", "url": "/trubar/si/SKLE516/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

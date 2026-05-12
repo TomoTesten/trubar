@@ -16,24 +16,37 @@
     <dl>
       <dt>Kratica</dt><dd><strong>ODRE934</strong></dd>
       <dt>Vrsta</dt><dd>odredba</dd>
-      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
       <dt>Datum</dt><dd>1993-09-10</dd>
-      
+      <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1993-01-1920" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE934.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE934" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE934.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE934,vrsta:odredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Odredba o vodenju knjige naročil za trgovanje z vrednostnimi papirji</h1>
 <p>Na podlagi četrtega odstavka 45.d člena Zakona o vrednostnih papirjih (Uradni list SFRJ, št. 64/89 in 29/90) in 1.a člena Odloka o izdajanju dovoljenj za izdajo dolgoročnih vrednostnih papirjev in za ustanovitev borze vrednostnih papirjev (Uradni list RS, št. 17/91-I in 59/92) izdaja minister za finance</p>
 <h2>ODREDBO</h2>
 <p>o vodenju knjige naročil za trgovanje z vrednostnimi papirji</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Člani borze morajo voditi knjigo naročil, v katero vpisujejo vsa naročila strank (sprejeta in nesprejeta) in svoja naročila v zvezi z nakupi in prodajo vrednostnih papirjev.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Naročila oziroma preklice naročil iz prejšnjega odstavka mora član borze voditi po časovnem vrstnem redu glede na prejem naročila.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Knjiga naročil mora vsebovati najmanj naslednje podatke glede naročila oziroma evidentiranja naročila:<br />
 – zaporedno številko;<br />
 – datum, čas in način prejetja;<br />
@@ -46,16 +59,16 @@
 – označbo o sprejemu in morebitni razveljavitvi naročila pred izvršitvijo;<br />
 – označbo o zavrnitvi naročila.<br />
 Za mesto izvršitve naročila se lahko vpiše borzni sestanek, javljen posel ali drugo (OTC).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Če se knjiga naročil vodi ročno, mora biti knjiga vezana z zaporedno označenimi stranmi, ki onemogoča menjavo ali odvzem posameznih listov.<br />
 Če se knjiga naročil vodi z računalniško podporo, mora izpiske dnevno podpisati pristojna oseba in morajo biti mesečno vezani.<br />
 Član borze mora stranki redno predložiti izvlečke iz knjige naročil, ki se nanašajo na njene posle.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ministrstvo za finance lahko pregleduje in nadzoruje vodenje knjig naročil članov borze, pri čemer lahko pooblasti drugo osebo za izvedbo pregleda.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Član borze mora hraniti knjige naročil najmanj 5 let.<br />
 Član borze mora za naročila, evidentirana v knjigi naročil, hraniti tudi ustrezna dokazila o sklenjenih poslih z vrednostnimi papirji in sicer najmanj za dobo 2 let.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta odredba začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 39/LJ-93</p>
 <p>Ljubljana, dne 2. septembra 1993.</p>
@@ -69,5 +82,36 @@ Mitja Gaspari l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1993-09-10", "kratica": "ODRE934", "naziv": "Odredba o vodenju knjige naročil za trgovanje z vrednostnimi papirji", "url": "/trubar/si/ODRE934/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

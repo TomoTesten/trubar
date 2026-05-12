@@ -21,16 +21,29 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3433" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG700.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG700" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG700.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG700,vrsta:drugi akt">
+    
     <h1>Aneks št. 3 h kolektivni pogodbi za dejavnost kovinskih materialov in livarn ter kovinsko in elektroindustrijo Slovenije</h1>
 <p>Na podlagi 80. člena kolektivne pogodbe za dejavnost kovinskih materialov in livarn ter za kovinsko in elektroindustrijo Slovenije (Uradni list RS, št. 37/96, 14/99 in 50/99) pogodbene stranke sprejemajo</p>
 <h2>A N E K S  št. 3</h2>
 <p>h kolektivni pogodbi za dejavnost kovinskih  materialov in livarn ter kovinsko  in elektroindustrijo Slovenije</p>
 <p>(Uradni list RS, št. 37/96, 14/99 in 50/99)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <ol>
 <li>točka tarifne priloge h kolektivni pogodbi se spremeni tako, da glasi:<br />
 Izhodiščne bruto plače za mesec julij 2000 za posamezne tarifne razrede so:</li>
@@ -50,7 +63,7 @@ VIII.           Najbolj zahtevna dela        2,60               163.761<br />
 IX.             Izjemno pomembna najbolj<br />
                 zahtevna dela                3,10               195.253</p>
 <hr />
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta aneks h kolektivni pogodbi začne veljati z dnem objave v Uradnem listu RS, uporabljajo pa se za izplačila plač za mesec julij 2000.</p>
 <p>Ljubljana, dne 13. julija 2000.</p>
 <p>Podpisniki kolektivne pogodbe:<br />
@@ -97,5 +110,36 @@ Stane Habjan l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-08-19", "kratica": "DRUG700", "naziv": "Aneks št. 3 h kolektivni pogodbi za dejavnost kovinskih materialov in livarn ter kovinsko in elektroindustrijo Slovenije", "url": "/trubar/si/DRUG700/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

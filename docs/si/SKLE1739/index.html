@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3830" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE1739.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE1739" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE1739.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE1739,vrsta:sklep">
+    
     <h1>Sklep o spremembah in dopolnitvah sklepa o razvrstitvi zdravil na liste</h1>
 <p>Na podlagi določil 26. in 100. člena zakona o zdravstvenem varstvu in zdravstvenem zavarovanju (Uradni list RS, št. 9/92, 13/93 in 9/96) in 61. člena pravil obveznega zdravstvenega zavarovanja (Uradni list RS, št. 79/94 in 73/95) je Skupščina Zavoda za zdravstveno zavarovanje Slovenije (v nadaljnjem besedilu: zavod), na 17. seji dne 14. 11. 1996 sprejela</p>
 <h2>S K L E P</h2>
 <p>o spremembah in dopolnitvah sklepa o razvrstitvi zdravil na liste</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Spremeni se seznam zdravil, ki so razvrščena na pozitivno in vmesno listo in je priloga ter sestavni del sklepa o razvrstitvi zdravil na liste (Uradni list RS, št. 39/96), tako da se dopolni z naslednjimi zdravili:</p>
 <p>AD3 kapljice 15ml                           069213             P<br />
 AKINETON tbl. 50 × 2mg                      077666             P<br />
@@ -184,12 +197,12 @@ TOLVON tbl 20 × 30mg                        061727             P<br />
 URSOSAN kaps.50 × 250mg                     094064             P<br />
 VIVALAN tbl 30 × 50mg                       088285             P<br />
 VIVALAN tbl 100 × 50mg                      088293             P</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Iz seznama zdravil, ki so bila s sklepom o razvrstitvi zdravil na liste razvrščena na pozitivno in vmesno listo se črtajo naslednja zdravila:</p>
 <p>BURINEX TBL 20 × 10MG MERC                                048216<br />
 EPREX amp 6 × 4000IE/ml CILAG                             040460<br />
 MICROGYNON 30 tabl. 21 × ALKALOID                         051349</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za predpisovanje zdravil:</p>
 <p>NORDITROPIN PENSET 12 IE amp 1 × 12 IE<br />
 + topilo                                    060445             P<br />
@@ -200,7 +213,7 @@ GENOTROPIN KABIQUICK 4 IE amp<br />
 10 × 4 IE+topilo                            076465             P<br />
 HUMATROPE amp 1 × 4 IE + topilo             037060             P</p>
 <p>v breme obveznega zdravstvenega zavarovanja je pooblaščena le Pediatrična klinika v Ljubljani in njen specialist, ki ga določi zavod.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Sklep o spremembah in dopolnitvah sklepa o razvrstitvi zdravil na liste se objavi v Uradnem listu RS, ko da nanj soglasje minister za zdravstvo Republike Slovenije. Veljati začne osmi dan po objavi v Uradnem listu RS.</p>
 <p>Št. 007-2/17-5-95/II</p>
 <p>Ljubljana, dne 14. novembra 1996.</p>
@@ -216,5 +229,36 @@ Erih Šerbec l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-12-06", "kratica": "SKLE1739", "naziv": "Sklep o spremembah in dopolnitvah sklepa o razvrstitvi zdravil na liste", "url": "/trubar/si/SKLE1739/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

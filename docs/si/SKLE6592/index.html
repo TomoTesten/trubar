@@ -21,33 +21,46 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-3417" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6592.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE6592" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6592.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE6592,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Sklep o enotnem in celovitem informiranju uporabnikov storitev plačilnega prometa o tarifah za storitve plačilnega prometa</h1>
 <p>Na podlagi 6. člena Zakona o plačilnem prometu (Uradni list RS, št. 105/04 – UPB2, 100/05 – odločba US in 39/06) in 31. člena Zakona o Banki Slovenije (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo) izdaja Svet Banke Slovenije</p>
 <h2>S K L E P</h2>
 <p>o enotnem in celovitem informiranju uporabnikov storitev plačilnega prometa<br />
 o tarifah za storitve plačilnega prometa</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(Pomen uporabljenih pojmov)</h3>
 <p>(1) Tarife so za potrebe tega sklepa vse tarife, v skladu s katerimi izvajalci plačilnega prometa zaračunavajo provizije in druga nadomestila iz naslova opravljanja storitev plačilnega prometa ter z njimi povezanih dodatnih in pomožnih storitev.<br />
 (2) Uporabnik storitev plačilnega prometa je za potrebe tega sklepa oseba, ki stopi v stik z izvajalcem plačilnega prometa v zvezi z izvedbo storitev plačilnega prometa.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(Namen)</h3>
 <p>Namen tega sklepa je zagotoviti enotnost pri informiranju uporabnikov o tarifah, ki jih izvajalci plačilnega prometa zaračunavajo pri opravljanju storitev plačilnega prometa.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(Objavljanje veljavnih tarif)</h3>
 <p>Izvajalci plačilnega prometa morajo v vsakem prostoru, v katerem nudijo storitve plačilnega prometa, ter na svojih spletnih straneh, če jih imajo, na vidnem in dostopnem mestu uporabnikom omogočiti vpogled v veljavne tarife.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(Določnost vsebine)</h3>
 <p>(1) Tarifa mora biti oblikovana tako, da se lahko uporabnik na enostaven in hiter način celovito seznani z višino provizij in drugih nadomestil, ki jih izvajalec zaračunava za posamezno storitev.<br />
 (2) V primeru, če izvajalec določi skupno nadomestilo oziroma provizijo za paket storitev, pri čemer pa lahko uporabnik uporabi tudi zgolj posamezne storitve iz paketa, mora tarifa določati tudi nadomestila in provizije za posamezne storitve, ki so del paketa.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(Enotna objava)</h3>
 <p>Banka Slovenije zbira podatke, objavljene v skladu s 3. in 4. členom tega sklepa, in zagotavlja enotno objavo provizij in nadomestil, ki jih zaračunavajo izvajalci plačilnega prometa za storitve plačilnega prometa.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Ljubljana, dne 19. julija 2006</p>
 <p>Predsednik<br />
@@ -61,5 +74,36 @@ Mitja Gaspari l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-07-25", "kratica": "SKLE6592", "naziv": "Sklep o enotnem in celovitem informiranju uporabnikov storitev plačilnega prometa o tarifah za storitve plačilnega prometa", "url": "/trubar/si/SKLE6592/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

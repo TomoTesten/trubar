@@ -21,20 +21,33 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3801" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4979.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4979" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4979.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4979,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o notranji organizaciji, sistemizaciji, delovnih mestih in nazivih v organih javne uprave in v pravosodnih organih</h1>
 <p>Na podlagi prvega odstavka 41. člena in šestega odstavka 87. člena Zakona o javnih uslužbencih (Uradni list RS, št. 63/07 – uradno prečiščeno besedilo, in 65/08) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o notranji organizaciji, sistemizaciji, delovnih mestih in nazivih v organih javne uprave in v pravosodnih organih</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o notranji organizaciji, sistemizaciji, delovnih mestih in nazivih v organih javne uprave in v pravosodnih organih (Uradni list RS, št. 58/03, 81/03, 109/03, 22/04, 43/04, 58/04 – popr., 138/04, 35/05, 60/05, 72/05, 112/05, 49/06, 140/06, 9/07, 33/08 in 66/08) se v drugem odstavku 52. člena pred zadnjim stavkom doda besedilo:<br />
 »Za uradniška delovna mesta se v sistemizaciji navede, da morajo uradniki, imenovani v nazive, v skladu z 89. členom Zakona o javnih uslužbencih v enem letu od sklenitve pogodbe o zaposlitvi opraviti obvezno usposabljanje navedeno v tem členu zakona, ki to določa kot njihovo redno delovno obveznost.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V tretjem odstavku 55. člena se za piko doda besedilo: »Naloge policistov, paznikov, izterjevalcev in carinikov na uradniških delovnih mestih v V. tarifnem razredu se lahko opravljajo v enem nazivu. Število takih delovnih mest v posameznem organu lahko znaša največ 20 odstotkov zaposlenih javnih uslužbencev v organu, izjemoma več v skladu z odločitvijo vlade.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prilogi I se zahtevani pogoji za delovna mesta pod zaporednimi številkami od 61 do 69 spremenijo tako, da se glasijo:<br />
 »61. delovno mesto: PAZNIK</p>
 <p>Šifra delovnega mesta: C065006</p>
@@ -641,7 +654,7 @@
 +--------------------------------------------------------------+</p>
 <p>V prilogi I se pri vseh delovnih mestih, pri katerih je kot pogoj določen državni izpit iz javne uprave ali strokovni upravni izpit, ta pogoj črta.<br />
 V prilogi II – Uradniški položaji v vrstici A.7 se v stolpcu: »Stopnja naziva, v kateri se lahko opravlja delo na položaju« dodata vejica in besedilo: »III ali II, v istem stolpcu se v vrstici A.8 doda vejica in besedilo »III ali II«, v vrsticah od B.4 do B.6 se besedilo »ali II« nadomesti z vejico in besedilom »III ali II«, v vrstici B.7 se doda vejica in besedilo »III ali II« in v vrstici C.6 se besedilo »III ali III/II« nadomesti z besedilom »III/II, III ali II«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se s prvim obračunom plač po Zakonu o sistemu plač v javnem sektorju (Uradni list RS, št. 95/07 – uradno prečiščeno besedilo, 17/08, 57/08 in 80/08).</p>
 <p>Št. 00714-25/2008/5</p>
 <p>Ljubljana, dne 11. septembra 2008</p>
@@ -657,5 +670,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-09-12", "kratica": "URED4979", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o notranji organizaciji, sistemizaciji, delovnih mestih in nazivih v organih javne uprave in v pravosodnih organih", "url": "/trubar/si/URED4979/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

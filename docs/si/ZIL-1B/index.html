@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1601" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIL-1B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZIL-1B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIL-1B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZIL-1B,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembi zakona o industrijski lastnini</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 dr. Janez Drnovšek l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBI ZAKONA O INDUSTRIJSKI LASTNINI (ZIL-1B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o industrijski lastnini (Uradni list RS, št. 7/03 – uradno prečiščeno besedilo) se besedilo drugega, tretjega in četrtega odstavka 131. člena spremeni tako, da se glasi:<br />
 »(2) Patentni zastopnik je lahko:<br />
 a) oseba z univerzitetno izobrazbo tehnične ali naravoslovne smeri, ki je opravila strokovni izpit za patentnega zastopnika pri uradu;<br />
@@ -48,7 +61,7 @@ a) oseba z univerzitetno izobrazbo, ki je opravila strokovni izpit za zastopnika
 b) odvetnik ali odvetniška družba;<br />
 c) pravna oseba, ki zaposluje vsaj eno osebo, ki izpolnjuje pogoje iz točke a) tega odstavka.<br />
 (4) Patentni zastopniki, zastopniki za modele in znamke ter pooblaščeni delavci zastopnika lahko v postopkih, ki se nanašajo na pravice po tem zakonu, zastopajo stranke tudi pred sodišči in drugimi državnimi organi, če izpolnjujejo pogoje, določene s predpisi, ki urejajo zastopanje pred sodišči in drugimi državnimi organi. V takih primerih je zastopnik upravičen do plačila za svoje delo in do povračila stroškov v zvezi z opravljenim delom po zastopniški tarifi. Zastopniško tarifo sprejme zastopnik ali združenje zastopnikov v soglasju z ministrom, pristojnim za pravosodje.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati z dnem pristopa Republike Slovenije k Evropski uniji.</p>
 <p>Št. 318-01/91-5/14</p>
 <p>Ljubljana, dne 26. marca 2004.</p>
@@ -65,5 +78,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-04-15", "kratica": "ZIL-1B", "naziv": "Zakon o spremembi zakona o industrijski lastnini", "url": "/trubar/si/ZIL-1B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

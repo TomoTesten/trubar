@@ -21,24 +21,37 @@
       <dt>Organ</dt><dd>Banka Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1204" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE4522.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE4522" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE4522.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE4522,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Sklep o soglasju k dogovoru o načinu poslovanja s plačilnimi instrumenti: posebno položnico, posebno nakaznico, trajnim nalogom, direktno obremenitvijo in direktno odobritvijo, ter o enotni uporabi teh plačilnih instrumentov</h1>
 <p>Na podlagi 6. člena zakona o plačilnem prometu (Uradni list RS, št. 30/02 in 15/03) in v skladu s prvim odstavkom 31. člena zakona o Banki Slovenije (Uradni list RS, št. 58/02 in 85/02) izdaja Svet Banke Slovenije</p>
 <h2>S K L E P</h2>
 <p>o soglasju k dogovoru o načinu poslovanja s plačilnimi instrumenti: posebno položnico, posebno nakaznico, trajnim nalogom, direktno obremenitvijo in direktno odobritvijo, ter o enotni uporabi teh plačilnih instrumentov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem sklepom Banka Slovenije daje soglasje k dogovoru o načinu poslovanja s plačilnimi instrumenti: posebno položnico, posebno nakaznico, trajnim nalogom, direktno obremenitvijo in direktno odobritvijo (v nadaljevanju: dogovor), ki so ga sklenile podpisnice in ga je 7. 5. 2003 potrdil Nadzorni svet združenja bank Slovenije, ter ugotavlja dolžnosti izdajateljev posebnih položnic ter tiskarjev posebnih položnic in posebnih nakaznic, ki v zvezi z enotno uporabo teh plačilnih instrumentov, izhajajo iz dogovora.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Banka Slovenije ugotavlja, da je standard plačilnega instrumenta posebne položnice ter plačilnega instrumenta posebne nakaznice, ki je del dogovora, isti standard, kot je bil za navedena plačilna instrumenta predpisan z navodilom Agencije RS za plačilni promet o obliki, vsebini in uporabi posebne položnice in posebne nakaznice, ter o načinu poravnavanja obveznosti pri matični banki s trajnim nalogom, direktno obremenitvijo in direktno odobritvijo (Uradni list RS, št. 22/97, št. 32/97, št. 69/98, št. 88/99 in 7/00).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Posebno položnico in posebno nakaznico izdajajo tisti izdajatelji, ki pri banki, hranilnici ali hranilno kreditni službi, podpisnici dogovora, podpišejo Izjavo o vključitvi v poslovanje z izbranim plačilnim instrumentom, ki je predvidena v dogovoru.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Obrazce posebne položnice in posebne nakaznice, ki ustrezajo standardu iz 2. člena tega sklepa, oziroma standardu, ki je določen v dogovoru, tiskajo tiskarji, katerih usposobljenost za tiskanje obrazcev v tem standardu preveri Združenje bank Slovenije.<br />
 Izdajatelji posebnih položnic za tiskanje posebnih položnic izberejo tiskarja iz prvega odstavka tega člena.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Ljubljana, dne 19. marca 2004.</p>
 <p>Predsednik<br />
@@ -52,5 +65,36 @@ Mitja Gaspari l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-03-23", "kratica": "SKLE4522", "naziv": "Sklep o soglasju k dogovoru o načinu poslovanja s plačilnimi instrumenti: posebno položnico, posebno nakaznico, trajnim nalogom, direktno obremenitvijo in direktno odobritvijo, ter o enotni uporabi teh plačilnih instrumentov", "url": "/trubar/si/SKLE4522/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

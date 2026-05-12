@@ -21,28 +21,41 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-2985" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6228.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6228" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6228.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6228,vrsta:uredba">
+    
     <h1>Uredba o izvajanju Uredbe (EU) o določitvi usklajenih pogojev za trženje gradbenih proizvodov</h1>
 <p>Na podlagi sedmega odstavka 21. člena Zakona o Vladi Republike Slovenije (Uradni list RS, št. 24/05 – uradno prečiščeno besedilo, 109/08, 38/10 – <a href="/trubar/si/ZUKN/" class="law-ref" title="ZUKN">ZUKN</a> in 8/12) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o izvajanju Uredbe (EU) o določitvi usklajenih pogojev za trženje gradbenih proizvodov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S to uredbo se za izvajanje Uredbe (EU) št. 305/2011 Evropskega parlamenta in Sveta z dne 9. marca 2011 o določitvi usklajenih pogojev za trženje gradbenih proizvodov in razveljavitvi Direktive Sveta 89/106/EGS (UL L št. 88 z dne 4. aprila 2011, str. 5; v nadaljnjem besedilu: Uredba 305/2011/EU) določa organ, ki je pristojen za imenovanje in nadzor organa za tehnično ocenjevanje.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Minister, pristojen za trg (v nadaljnjem besedilu: minister), lahko imenuje organ za tehnično ocenjevanje za eno ali več področij gradbenih proizvodov iz preglednice 1 Priloge IV Uredbe 305/2011/EU.<br />
 (2) Vloga za imenovanje organa za tehnično ocenjevanje se vloži na ministrstvo, pristojno za trg (v nadaljnjem besedilu: ministrstvo), in vsebuje najmanj naslednje:<br />
 – navedbo področij gradbenih proizvodov iz preglednice 1 Priloge IV Uredbe 305/2011/EU, na katerih namerava vložnik delovati kot organ za tehnično ocenjevanje,<br />
 – podatke o izpolnjevanju zahtev iz preglednice 2 Priloge IV Uredbe 305/2011/EU.<br />
 (3) Če organ izpolnjuje zahteve iz prejšnjega odstavka, minister izda odločbo o imenovanju organa za tehnično ocenjevanje.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Organ za tehnično ocenjevanje mora:<br />
 – nemudoma obvestiti ministrstvo o vseh spremembah, ki vplivajo na njegovo usposobljenost, obseg nalog iz odločbe ali na izpolnjevanje zahtev za imenovanje,<br />
 – letno poročati ministrstvu o svojem delu v preteklem obdobju.<br />
 (2) Nadzor nad izpolnjevanjem zahtev in obveznosti iz prejšnjega odstavka opravlja ministrstvo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00726-29/2012</p>
 <p>Ljubljana, dne 4. oktobra 2012</p>
@@ -58,5 +71,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-10-12", "kratica": "URED6228", "naziv": "Uredba o izvajanju Uredbe (EU) o določitvi usklajenih pogojev za trženje gradbenih proizvodov", "url": "/trubar/si/URED6228/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

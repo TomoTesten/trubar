@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2015-01-0632" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11981.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11981" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11981.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11981,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o določitvi dejavnosti uslužbencev Finančne uprave Republike Slovenije, ki so nezdružljive z nalogami Finančne uprave Republike Slovenije</h1>
 <p>Na podlagi drugega odstavka 88. člena Zakona o finančni upravi (Uradni list RS, št. 25/14) minister za finance izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o določitvi dejavnosti uslužbencev Finančne uprave Republike Slovenije, ki so nezdružljive z nalogami Finančne uprave Republike Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa dejavnosti, ki niso združljive z nalogami Finančne uprave Republike Slovenije (v nadaljnjem besedilu: Finančna uprava) in jih uslužbenci Finančne uprave ne smejo opravljati.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Uslužbenec Finančne uprave ne sme:<br />
 – opravljati računovodske, knjigovodske in revizijske dejavnosti,<br />
 – svetovati s področja dela Finančne uprave (zlasti davčnega svetovanja in svetovanja s carinskega področja),<br />
@@ -39,16 +52,16 @@
 – sodelovati pri izvajanju detektivske dejavnosti,<br />
 – zastopati v carinskih, trošarinskih in davčnih postopkih,<br />
 – podati izvedenskih ali strokovnih mnenj s področja nalog Finančne uprave razen po odredbi pravosodnih ali upravnih organov.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Uslužbenec Finančne uprave, ki meni, da bi opravljanje določene dejavnosti, ki ni navedena v prejšnjem členu, utegnilo biti nezdružljivo z opravljanjem nalog Finančne uprave, te dejavnosti ne začne opravljati, dokler na podlagi njegove pisne vloge predstojnik Finančne uprave ne odloči s sklepom iz 4. člena tega pravilnika.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>(1) Predstojnik Finančne uprave odloči s sklepom, ali je opravljanje dejavnosti nezdružljivo z opravljanjem nalog Finančne uprave. Sklep se izda v 30 dneh, šteto od dneva prejema pisne vloge.<br />
 (2) Pri odločanju o nezdružljivosti opravljanja posamezne dejavnosti z nalogami Finančne uprave predstojnik Finančne uprave upošteva obseg in naravo te dejavnosti, in sicer glede na naloge, ki jih uslužbenec opravlja v okviru svojega delovnega mesta v Finančni upravi, ter glede na stopnjo tveganja, ki bi jo opravljanje te dejavnosti imelo na objektivno oziroma nepristransko opravljanje nalog uslužbenca v Finančni upravi in bi opravljanje dejavnosti lahko pomenilo nedovoljeno uporabo informacij, podatkov ali spoznanj, do katerih ima uslužbenec dostop pri opravljanju nalog Finančne uprave.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z dnem uveljavitve tega pravilnika se prenehata uporabljati:<br />
 – Pravilnik o pogojih za opravljanje del zunaj Carinske uprave Republike Slovenije (Uradni list RS, št. 10/07 in 25/14 – <a href="/trubar/si/ZFU/" class="law-ref" title="ZFU">ZFU</a>) in<br />
 – Pravilnik o določitvi dejavnosti uslužbencev davčne uprave, ki so nezdružljive z nalogami davčne službe (Uradni list RS, št. 73/05 in 25/14 – <a href="/trubar/si/ZFU/" class="law-ref" title="ZFU">ZFU</a>).</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta pravilnik začne veljati 1. aprila 2015.</p>
 <p>Št. 007-688/2014/40</p>
 <p>Ljubljana, dne 6. marca 2015</p>
@@ -64,5 +77,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2015-03-13", "kratica": "PRAV11981", "naziv": "Pravilnik o določitvi dejavnosti uslužbencev Finančne uprave Republike Slovenije, ki so nezdružljive z nalogami Finančne uprave Republike Slovenije", "url": "/trubar/si/PRAV11981/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

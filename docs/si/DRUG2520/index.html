@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1073" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2520.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG2520" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2520.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG2520,vrsta:drugi akt">
+    
     <h1>Aneks k tarifni prilogi kolektivne pogodbe dejavnosti trgovine Slovenije</h1>
 <h2>A N E K S</h2>
 <p>k tarifni prilogi kolektivne pogodbe dejavnosti trgovine Slovenije<br />
 (Uradni list RS, št. 10/98, 110/99)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Izhodiščne plače v dejavnosti G – Trgovina, popravila motornih vozil in izdelkov široke porabe se povečajo za 3%, pri čemer imajo delodajalci in sindikati možnost izbire med povečanjem izhodiščnih plač ali premije dodatnega pokojninskega zavarovanja za navedeni odstotek povečanja.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta aneks začne veljati z dnem podpisa pogodbenih strank, uporablja pa se od 1. marca 2002.</p>
 <p>Ljubljana, dne 27. februarja 2002.</p>
 <p>Zveza svobodnih sindikatov<br />
@@ -63,5 +76,36 @@ mag. Marjan Sedej l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-03-15", "kratica": "DRUG2520", "naziv": "Aneks k tarifni prilogi kolektivne pogodbe dejavnosti trgovine Slovenije", "url": "/trubar/si/DRUG2520/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

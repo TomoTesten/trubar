@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3152" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1188.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG1188" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1188.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG1188,vrsta:drugi akt">
+    
     <h1>Seznam potrjenih domačih sort kmetijskih rastlin in tujih sort kmetijskih rastlin, za katere je bila dovoljena introdukcija v Republiki Sloveniji, ter udomačenih sort kmetijskih rastlin, za katere je dovoljen promet v Republiki Sloveniji</h1>
 <p>Na podlagi 29. člena zakona o potrjevanju novih sort, dovolitvi introdukcije tujih sort in o varstvu sort kmetijskih in gozdnih rastlin (Uradni list SFRJ, št. 38/80 in 82/90 ter Uradni list RS, št. 86/98 – <a href="/trubar/si/ZVNSR/" class="law-ref" title="ZVNSR">ZVNSR</a>) ter v zvezi s 4. členom ustavnega zakona za izvedbo temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije (Uradni list RS, št. 1/91-I in 45/94) objavlja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>S E Z N A M</h2>
@@ -10343,5 +10356,36 @@ AA Enkhuizen, Nizozemska</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-07-19", "kratica": "DRUG1188", "naziv": "Seznam potrjenih domačih sort kmetijskih rastlin in tujih sort kmetijskih rastlin, za katere je bila dovoljena introdukcija v Republiki Sloveniji, ter udomačenih sort kmetijskih rastlin, za katere je dovoljen promet v Republiki Sloveniji", "url": "/trubar/si/DRUG1188/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

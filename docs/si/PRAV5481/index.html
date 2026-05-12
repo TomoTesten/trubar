@@ -21,26 +21,39 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1351" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5481.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5481" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5481.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5481,vrsta:pravilnik">
+    
     <h1>Pravilnik o dodatnih standardnih opozorilih in obvestilih za fitofarmacevtska sredstva</h1>
 <p>Na podlagi tretjega odstavka 4. člena Zakona o fitofarmacevtskih sredstvih (Uradni list RS, št. 11/01) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o dodatnih standardnih opozorilih in obvestilih za fitofarmacevtska sredstva</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) Ta pravilnik določa za izvedbo Direktive št. 2003/82/ES (UL L 228/03, 11. 9. 2003) dodatna standardna opozorila in obvestila ter kriterije za njihovo dodelitev fitofarmacevtskim sredstvom (v nadaljnjem besedilu: FFS), ki vsebujejo aktivne snovi iz Priloge 3, ki je sestavni del tega pravilnika.<br />
 (2) Dodatna standardna opozorila in obvestila omogočajo enotno označevanje FFS in uporabo enotnih ukrepov za zmanjšanje posebnega tveganja, do katerega lahko pride pri uporabi FFS.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Dodatna standardna opozorila za posebno tveganje za ljudi in okolje (RS stavki) so navedena v Prilogi 1, ki je sestavni del tega pravilnika.<br />
 (2) Dodatna standardna obvestila za varovanje ljudi in okolja (SP stavki) so navedena v Prilogi 2, ki je sestavni del tega pravilnika.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Poleg standardnih opozoril in obvestil, ki jih določata pravilnik, ki ureja razvrščanje označevanje in pakiranje nevarnih snovi (Direktiva št. 67/548/EGS) in pravilnik, ki ureja razvrščanje označevanje in pakiranje nevarnih pripravkov (Direktiva št. 99/45/ES) so za FFS, ki vsebujejo aktivne snovi iz Priloge 3, obvezen sestavni del etikete z navodilom za uporabo tudi dodatna standardna obvestila in opozorila iz Priloge 1 in Priloge 2.<br />
 (2) Imetniki registracij oziroma vlagatelji zahtevkov za izdajo, podaljšanje ali spremembo registracije za FFS, ki vsebujejo aktivne snovi iz Priloge 3, morajo v roku, predpisanem v tej prilogi, dopolniti etikete in varnostne liste z dodatnimi standardnimi opozorili in obvestili iz prilog 1 in 2 tega pravilnika ter Fitosanitarni upravi Republike Slovenije hkrati predložiti dokumentacijo v zvezi s temi oznakami.<br />
 (3) Če FFS vsebuje več aktivnih snovi, za katere so v Prilogi 3 določeni različni datumi, se upošteva zadnji datum.<br />
 (4) Ne glede na drugi odstavek tega člena so lahko FFS, ki vsebujejo aktivne snovi iz priloge 3 in so že dana v promet in uporabo pred 30. julijem 2004 v prometu in uporabi do poteka roka uporabe, ki je originalno označen na embalaži.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 327-02-292/2003</p>
 <p>Ljubljana, dne 23. marca 2004.</p>
@@ -398,5 +411,36 @@ prepreči sekundarne zastrupitve živali.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-03-31", "kratica": "PRAV5481", "naziv": "Pravilnik o dodatnih standardnih opozorilih in obvestilih za fitofarmacevtska sredstva", "url": "/trubar/si/PRAV5481/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

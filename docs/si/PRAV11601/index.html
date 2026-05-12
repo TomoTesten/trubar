@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Ministrstvo za izobraževanje, znanost, kulturo in šport</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0571" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11601.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11601" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11601.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11601,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Odredba o spremembah izobraževalnega programa Program osnovne šole za odrasle</h1>
 <p>Na podlagi 15. člena Zakona o organizaciji in financiranju vzgoje in izobraževanja (Uradni list RS, št. 16/07 – uradno prečiščeno besedilo, 118/06 – <a href="/trubar/si/ZUOPP-A/" class="law-ref" title="ZUOPP-A">ZUOPP-A</a>, 36/08, 58/09, 64/09 – popr., 65/09 – popr., 20/11, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a> in 57/12 – <a href="/trubar/si/ZPCP-2D/" class="law-ref" title="ZPCP-2D">ZPCP-2D</a>) minister za izobraževanje, znanost, kulturo in šport izdaja</p>
 <h2>O D R E D B O</h2>
 <p>o spremembah izobraževalnega programa Program osnovne šole za odrasle</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Minister za izobraževanje, znanost, kulturo in šport je sprejel spremembe izobraževalnega programa, sprejetega s Pravilnikom o izobraževalnem programu Program osnovne šole za odrasle (Uradni list RS, št. 51/03), ki jih je določil Strokovni svet Republike Slovenije za splošno izobraževanje na seji dne 13. 12. 2012.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V izobraževalnem programu Program osnovna šola za odrasle se:<br />
 – spremenijo predmetnik, prilagojeni predmetnik za izvajanje programa s slovenskim učnim jezikom na narodno mešanem območju slovenske Istre, prilagojeni predmetnik za izvajanje programa z italijanskim učnim jezikom na narodno mešanem območju slovenske Istre in prilagojeni predmetnik za dvojezično izvajanje na narodno mešanem območju Prekmurja,<br />
 – določi učni načrti za predmet Domovinska in državljanska kultura in etika,<br />
@@ -39,11 +52,11 @@
 – določi učni načrti za predmet Glasbena umetnost,<br />
 – določi prenovljeni učni načrt izbirnega predmeta Risanje v geometriji in tehniki ter<br />
 – določi nove izbirne predmete Klekljanje 1, Klekljanje 2, Klekljanje 3 in učni načrt za te predmete.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Spremenjeni predmetniki in učni načrti iz prejšnjega člena se pričnejo uporabljati v šolskem letu 2013/2014.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Spremenjeni izobraževalni program iz drugega člena tega pravilnika se objavi na spletnih straneh Ministrstva za izobraževanje, znanost, kulturo in šport.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0070-34/2013</p>
 <p>Ljubljana, dne 20. februarja 2013</p>
@@ -60,5 +73,36 @@ kulturo in šport</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-02-26", "kratica": "PRAV11601", "naziv": "Odredba o spremembah izobraževalnega programa Program osnovne šole za odrasle", "url": "/trubar/si/PRAV11601/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

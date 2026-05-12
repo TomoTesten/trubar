@@ -21,24 +21,37 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5407" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8051.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV8051" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8051.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV8051,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o metodologiji za oblikovanje cen socialno varstvenih storitev</h1>
 <p>Na podlagi prvega odstavka 101. člena Zakona o socialnem varstvu (Uradni list RS, št. 36/04 – uradno prečiščeno besedilo, 69/05 – odl. US in 21/06 – odl. US) izdaja minister za delo, družino in socialne zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o metodologiji<br />
 za oblikovanje cen socialno varstvenih storitev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o metodologiji za oblikovanje cen socialno varstvenih storitev (Uradni list RS, št. 87/06) se v 29. členu besedilo »drugega odstavka 25. člena« nadomesti z besedilom »prvega odstavka 25. člena«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
 <h3>»46. člen</h3>
 <p>Ministrstvo, pristojno za socialno varstvo, do izdaje sklepa iz 29. člena tega pravilnika izdela podrobnejša navodila kot tehnični pripomoček za izvajanje metodologije po tem pravilniku.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za 46. členom se doda nov 46.a člen, ki se glasi:</p>
 <h3>»46.a člen</h3>
 <p>Do uveljavitve standardov stroškov iz 29. člena tega pravilnika za leto 2007 se cene oskrbe I za izvajalce storitev institucionalnega varstva oseb, starejših od 65 let, ki v tem obdobju začnejo z izvajanjem storitve, oblikujejo tako, da se standardi stroškov dela ter stroškov in odhodkov oskrbe določijo največ v naslednji višini:<br />
@@ -47,7 +60,7 @@ za oblikovanje cen socialno varstvenih storitev</p>
 – drugi stroški dela: 42.823,60 SIT mesečno na zaposlenega<br />
 – standard stroškov in odhodkov oskrbe: 1,123 SIT dnevno oziroma 34.167,90 SIT povprečno mesečno na oskrbovanca.<br />
 Višina plač se določi na podlagi veljavne izhodiščne plače za negospodarske dejavnosti za I tarifni razred, ki znaša 55.536,00 SIT.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 01203-57/2005-7</p>
 <p>Ljubljana, dne 29. novembra 2006</p>
@@ -64,5 +77,36 @@ in socialne zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-12-07", "kratica": "PRAV8051", "naziv": "Pravilnik o spremembah Pravilnika o metodologiji za oblikovanje cen socialno varstvenih storitev", "url": "/trubar/si/PRAV8051/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0900" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPol-H.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPol-H" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPol-H.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPol-H,vrsta:Sprejet zakon">
+    
     <h1>Zakon o dopolnitvah Zakona o policiji</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O DOPOLNITVAH ZAKONA O POLICIJI (ZPol-H)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o policiji (Uradni list RS, št. 66/09 – uradno prečiščeno besedilo) se za 6. členom dodajo 6.a, 6.b, 6.c in 6.č členi, ki se glasijo:</p>
 <h3>»6.a člen</h3>
 <p>Nacionalni preiskovalni urad (v nadaljnjem besedilu: NPU) je specializirana kriminalistična preiskovalna enota Uprave kriminalistične policije pri Generalni policijski upravi, ustanovljena za posebne primere odkrivanja in preiskovanja zahtevnih kaznivih dejanj, zlasti s področij gospodarstva, korupcije in organiziranega kriminala, ki terjajo posebno usposobljenost, organiziranost in opremljenost kriminalističnih preiskovalcev ali posebej usmerjeno delovanje državnih organov in institucij s področij davkov, carin, finančnega poslovanja, vrednostnih papirjev, varstva konkurence, preprečevanja pranja denarja, preprečevanja korupcije, prepovedanih drog in inšpekcijskega nadzora.<br />
@@ -74,13 +87,13 @@ Delo pomočnikov direktorja NPU, vodij preiskav in preiskovalcev vsaka štiri le
 Ocenjevanje po prejšnjem odstavku tega člena se izvaja poleg ocenjevanj, ki jih urejajo predpisi s področja sistema javnih uslužbencev. Pri ocenjevanju se upošteva zlasti strokovnost, uspešnost in pravočasnost pri delu, obseg opravljenega dela, izpolnjevanje naloženih nalog in odnos do strank v postopku in sodelavcev. Natančnejši postopek in merila ocenjevanja dela pomočnikov direktorja NPU, vodij preiskav in preiskovalcev iz prejšnjega odstavka predpiše minister na predlog generalnega direktorja policije.<br />
 Sestavo in način delovanja posebne komisije iz drugega odstavka tega člena predpiše minister, pristojen za notranje zadeve, na predlog generalnega direktorja policije.«.</p>
 <h3>PREHODNE IN KONČNE DOLOČBE</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Interni akt iz četrtega odstavka 6.c člena zakona sprejme Generalni direktor policije v roku enega meseca od uveljavitve tega zakona.<br />
 Pravilnik iz petega odstavka 6.č člena zakona sprejme minister, pristojen za notranje zadeve, na predlog Generalnega direktorja policije v roku šestih mesecev od uveljavitve tega zakona.<br />
 Pravilnik iz šestega odstavka 6.č člena zakona sprejme minister, pristojen za notranje zadeve, na predlog Generalnega direktorja policije v roku enega meseca od uveljavitve tega zakona.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Do imenovanja direktorja NPU po tem zakonu naloge direktorja opravlja vršilec dolžnosti direktorja, ki ga v soglasju z direktorjem Uprave kriminalistične policije imenuje generalni direktor policije za obdobje, ki ne sme biti daljše od šestih mesecev.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 210-01/09-15/26</p>
 <p>Ljubljana, dne 8. marca 2010</p>
@@ -97,5 +110,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-03-19", "kratica": "ZPol-H", "naziv": "Zakon o dopolnitvah Zakona o policiji", "url": "/trubar/si/ZPol-H/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

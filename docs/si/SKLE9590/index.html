@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0609" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9590.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE9590" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9590.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE9590,vrsta:sklep">
+    
     <h1>Sklep o spremembi Sklepa o tarifi za zaračunavanje nadomestil za storitve Banke Slovenije</h1>
 <p>Na podlagi prvega odstavka 31. člena in 53. člena Zakona o Banki Slovenije (Uradni list RS, št. 72/06, uradno prečiščeno besedilo in št. 59/11) izdaja Svet Banke Slovenije</p>
 <h2>S K L E P</h2>
 <p>o spremembi Sklepa o tarifi za zaračunavanje nadomestil za storitve Banke Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Sklepu o tarifi za zaračunavanje nadomestil za storitve Banke Slovenije (Uradni list RS, št. 12/12 in 36/12) se v poglavju III. STORITVE V PLAČILNIH SISTEMIH spremeni vsebina tarifne številke 13 tako, da se glasi:</p>
 <p>»13. Izvajanje mesečnih postopkov<br />
 v povezavi s skladom PJS SEPA IKP<br />
@@ -46,7 +59,7 @@ Slovenija                         v sistemu TARGET2-Slovenija,<br />
 c) Nadomestilo SWIFT              0,21 EUR za vsako<br />
                                   transakcijo iz predhodne<br />
                                   točke«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta sklep začne veljati 1. marca 2013.</p>
 <p>Ljubljana, dne 19. februarja 2013</p>
 <p>Marko Kranjec l.r.<br />
@@ -60,5 +73,36 @@ Sveta Banke Slovenije</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-02-26", "kratica": "SKLE9590", "naziv": "Sklep o spremembi Sklepa o tarifi za zaračunavanje nadomestil za storitve Banke Slovenije", "url": "/trubar/si/SKLE9590/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

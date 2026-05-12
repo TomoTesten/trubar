@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3244" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2615.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2615" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2615.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2615,vrsta:uredba">
+    
     <h1>Uredba o spremembi in dopolnitvi uredbe o načinu delitve količin blaga v okviru carinskih kvot</h1>
 <p>Na podlagi drugega odstavka 8. člena zakona o kmetijstvu (Uradni list RS, št. 54/00, 52/02 in 58/02) in v zvezi s 3. členom zakona o ratifikaciji Marakeškega sporazuma o ustanovitvi Svetovne trgovinske organizacije in v njegovem okviru Sporazuma o postopkih za izdajanje uvoznih dovoljenj (Uradni list RS – MP, št. 10/95) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembi in dopolnitvi uredbe o načinu  delitve količin blaga v okviru carinskih kvot</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o načinu delitve količin blaga v okviru carinskih kvot (Uradni list RS, št. 107/01) se za 9. členom doda novo III.a poglavje z 9.a in 9.b členom, ki se glasita:</p>
 <h3>“III. a DODELITEV KOLIČIN PŠENICE OZIROMA  PŠENIČNE MOKE</h3>
 <h3>9.a člen</h3>
@@ -41,9 +54,9 @@ Razdelitev mora biti končana najmanj dva meseca pred iztekom leta.</p>
 <h3>9.b člen</h3>
 <p>Prijava za dodelitev količin pšenice oziroma pšenične moke v okviru posamezne carinske kvote se vloži pri agenciji na obrazcu, ki ustreza vzorcu iz priloge 3, ki je sestavni del te uredbe.<br />
 Agencija izda vlagatelju potrdilo o dodeljeni količini pšenice oziroma pšenične moke, v katerem določi tudi rok, do katerega je mogoče uvoziti dodeljeno količino.“.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 3. točki priloge 2 se številka “50100-630-000-0010014“ nadomesti z novo številko “01100-6300109972“.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 424-06/2001-2</p>
 <p>Ljubljana, dne 25. julija 2002.</p>
@@ -59,5 +72,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-07-26", "kratica": "URED2615", "naziv": "Uredba o spremembi in dopolnitvi uredbe o načinu delitve količin blaga v okviru carinskih kvot", "url": "/trubar/si/URED2615/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

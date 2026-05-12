@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1893" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZBH-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZBH-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZBH-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZBH-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembi zakona o bankah in hranilnicah</h1>
 <p>Na podlagi prvega odstavka 107. člena ustave Republike Slovenije izdaja Predsedstvo Republike Slovenije</p>
 <h2>UKAZ</h2>
@@ -36,10 +49,10 @@
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>O SPREMEMBI ZAKONA O BANKAH IN HRANILNICAH</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o bankah in hranilnicah (Uradni list RS, št. 1/91-I) se 79. člen spremeni tako. da se glasi:<br />
 »Hranilno kreditna služba iz tretje točke 63. člena tega zakona je hranilnica, ustanovljena pri kmetijski ali obrtni zadrugi na način in pod pogoji, ki jih določa poseben zakon.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 450-03/91-12/11</p>
 <p>Ljubljana, dne 29. julija 1992.</p>
@@ -54,5 +67,36 @@ dr. France Bučar l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-08-01", "kratica": "ZBH-A", "naziv": "Zakon o spremembi zakona o bankah in hranilnicah", "url": "/trubar/si/ZBH-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

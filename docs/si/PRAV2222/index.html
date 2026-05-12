@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-5041" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2222.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV2222" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2222.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV2222,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi pravilnika o stroških postopka o prekršku</h1>
 <p>Na podlagi 180. člena zakona o prekrških (Uradni list SRS, št. 25/83, 42/85, 47/87 in 5/90 ter Uradni list RS, št. 10/91, 13/93, 66/93, 35/97, 73/98 – odl. US, 87/97 in 73/98) izdaja minister za pravosodje</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembi pravilnika o stroških postopka  o prekršku</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o stroških postopka o prekršku (Uradni list SRS, št. 40/83, 1/88, 23/89 in 5/90) se 2. člen spremeni tako, da se glasi:</p>
 <h3>“2. člen</h3>
 <p>Povprečnina v postopku o prekršku se določi v znesku, ki ne sme biti manjši od vrednosti 300 točk in ne višji od vrednosti 5000 točk, kot je določena v zakonu o sodnih taksah (Uradni list SRS št. 1/90, in Uradni list RS, št. 48/90, 14/91, 38/96, 20/98 in 50/98 – odl. US) in na njegovi podlagi izdanih predpisih.“.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 1999-2011-0015</p>
 <p>Ljubljana, dne 9. novembra 1999.</p>
@@ -48,5 +61,36 @@ za pravosodje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-12-27", "kratica": "PRAV2222", "naziv": "Pravilnik o spremembi pravilnika o stroških postopka o prekršku", "url": "/trubar/si/PRAV2222/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

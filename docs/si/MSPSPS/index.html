@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-02-0086" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSPSPS.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MSPSPS" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSPSPS.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MSPSPS,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Sporazuma med pogodbenicami Severnoatlantske pogodbe o statusu njihovih sil</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI SPORAZUMA MED POGODBENICAMI SEVERNOATLANTSKE POGODBE O STATUSU NJIHOVIH SIL (MSPSPS)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sporazum med pogodbenicami Severnoatlantske pogodbe o statusu njihovih sil, sestavljen 19. junija 1951 v Londonu.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sporazum med pogodbenicami Severnoatlantske pogodbe o statusu njihovih sil se v izvirniku v angleškem jeziku in prevodu v slovenskem jeziku glasi:</p>
 <h2>A G R E E M E N T</h2>
 <p>BETWEEN THE PARTIES TO THE<br />
@@ -464,9 +477,9 @@ b) se praviloma v državi gostiteljici ne sme odtujiti s prodajo ali kot darilo;
 Da bi to potrdili, so pooblaščenci podpisali ta sporazum.<br />
 Sestavljeno v Londonu devetnajstega junija 1951 v angleškem in francoskem jeziku, besedili sta enako verodostojni, v enem izvirniku, ki se deponira v arhivih vlade Združenih držav Amerike. Vlada Združenih držav Amerike pošlje overjene kopije sporazuma vsem državam podpisnicam in državam, ki pristopajo k sporazumu.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Ministrstvo za obrambo Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št.  200-10/04-35/1</p>
 <p>Ljubljana, dne 15. julija 2004</p>
@@ -483,5 +496,36 @@ Feri Horvat l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-07-29", "kratica": "MSPSPS", "naziv": "Zakon o ratifikaciji Sporazuma med pogodbenicami Severnoatlantske pogodbe o statusu njihovih sil", "url": "/trubar/si/MSPSPS/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

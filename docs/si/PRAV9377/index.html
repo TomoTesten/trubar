@@ -21,29 +21,42 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1725" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9377.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9377" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9377.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9377,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o pristojbinah na področju zdravstvenega varstva rastlin</h1>
 <p>Na podlagi 58.a člena Zakona o zdravstvenem varstvu rastlin (Uradni list RS, št. 62/07 – uradno prečiščeno besedilo) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o pristojbinah na področju zdravstvenega varstva rastlin</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o pristojbinah na področju zdravstvenega varstva rastlin (Uradni list RS, št. 142/04 in 93/05) se na koncu petega odstavka 7. člena doda besedilo, ki se glasi:<br />
 »Če se opravi preverjanje dokumentacije in istovetnosti iz prvega odstavka tega člena pri nosilcu kooperacije za vse kooperante skupaj, plača pristojbino nosilec kooperacije.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za tretjim odstavkom 9. člena se doda četrti odstavek, ki se glasi:<br />
 »(4) Za zdravstveni pregled, ki se opravi za več pošiljk skupaj na enem mestu, se plača enkratna pristojbina za skupno količino vseh pošiljk.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prvem odstavku 10. člena se za besedilom »tega pravilnika« doda besedilo »ali pošiljko spremlja rastlinski potni list oziroma drugo potrdilo, iz katerega je razvidno, da so izpolnjene fitosanitarne zahteve države uvoznice«.<br />
 Za tretjim odstavkom se doda četrti odstavek, ki se glasi:<br />
 »(4) Če je bila pošiljka, ki jo že spremlja fitosanitarno spričevalo, deljena, prepakirana ali sestavljena iz več pošiljk, brez možnosti spremembe zdravstvenega stanja od izdaje fitosanitarnega spričevala, se plača pristojbina le za preverjanje dokumentov in istovetnosti ter za izdajo fitosanitarnega spričevala.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V Prilogi 2 se v koloni »Postavka« v drugi alineji točke (c) črta besedilo »in gozdnih«.<br />
 V tretji alineje se za besedo »zarodišč« doda besedilo »ter gozdni reprodukcijski material«.<br />
 V koloni »Št. točk« se v točki (d) število »330« nadomesti s številom »375«, število »238« se nadomesti s številom »270«, število »169« se nadomesti s številom »190«, število »123« se nadomesti s številom »140« in število »105« se nadomesti s številom »120«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(uveljavitev pravilnika)</h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-66/2009</p>
@@ -61,5 +74,36 @@ gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-05-15", "kratica": "PRAV9377", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o pristojbinah na področju zdravstvenega varstva rastlin", "url": "/trubar/si/PRAV9377/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

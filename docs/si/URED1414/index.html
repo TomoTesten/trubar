@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2506" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1414.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1414" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1414.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1414,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah uredbe o koncesijah za gospodarsko izkoriščanje vode na posameznih odsekih vodotokov Skopičnika, Tbina, Koritnice, Prodarjeve grape, Bače, Velunje, Mislinje, Mitroviškega potoka, Save Dolinke, Rupovščice, Bohinjske Bistrice, Tople, Rajterbaha in Kneže za proizvodnjo električne energije</h1>
 <p>Na podlagi 23. člena zakona o varstvu okolja (Uradni list RS, št. 23/93 in 1/96) in 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93 in 23/96) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o koncesijah za gospodarsko izkoriščanje vode na posameznih odsekih vodotokov Skopičnika, Tbina, Koritnice, Prodarjeve  grape, Bače, Velunje, Mislinje, Mirtoviškega potoka,  Save Dolinke, Rupovščice, Bohinjske Bistrice, Tople, Rajterbaha in Kneže za proizvodnjo električne energije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o koncesijah za gospodarsko izkoriščanje vode na posameznih odsekih vodotokov Skopičnika, Tbina, Koritnice, Prodarjeve grape, Bače, Velunje, Mislinje, Mirtoviškega potoka, Save Dolinke, Rupovščice, Bohinjske Bistrice, Tople, Rajterbaha in Kneže za proizvodnjo električne energije (Uradni list RS, št. 66/94, 71/94 in 26/95) se v tabeli 1. člena pri vodotoku Kneža številka kote zgornje vode ‘278,50’ nadomesti s številko ‘332,00’ in številka bruto potenciala ‘1280’ nadomesti s številko ‘2503’.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 351-04/94-2/24-8</p>
 <p>Ljubljana, dne 18. julija 1996.</p>
@@ -46,5 +59,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-07-19", "kratica": "URED1414", "naziv": "Uredba o spremembah in dopolnitvah uredbe o koncesijah za gospodarsko izkoriščanje vode na posameznih odsekih vodotokov Skopičnika, Tbina, Koritnice, Prodarjeve grape, Bače, Velunje, Mislinje, Mitroviškega potoka, Save Dolinke, Rupovščice, Bohinjske Bistrice, Tople, Rajterbaha in Kneže za proizvodnjo električne energije", "url": "/trubar/si/URED1414/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,26 +21,39 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4379" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED631.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED631" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED631.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED631,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah uredbe o emisiji snovi v zrak iz kurilnih naprav</h1>
 <p>Na podlagi prvega odstavka 27. člena zakona o varstvu okolja (Uradni list RS, št. 32/93, 44/95 – Odl. US, 1/96, 9/99 – Odl. US, 56/99 – <a href="/trubar/si/ZON/" class="law-ref" title="ZON">ZON</a> in 22/00 <a href="/trubar/si/ZJS/" class="law-ref" title="ZJS">ZJS</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o emisiji snovi  v zrak iz kurilnih naprav</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 2. členu se 1. točka uredbe o emisiji snovi v zrak iz kurilnih naprav (Uradni list RS, št. 73/94 in 51/98, v nadaljnjem besedilu: uredba) spremeni tako, da se glasi:<br />
 »1. Kurilna naprava je naprava, v kateri se z zgorevanjem goriv pridobiva toplota. Kurilna naprava je lahko mala, srednja ali velika. Mala kurilna naprava je sestavljena iz enega ali več kurišč in veznih elementov za odvajanje dimnih plinov skozi odvodnik. Srednja ali velika kurilna naprava je sestavljena iz enega ali več kurišč, ne glede na vrsto uporabljenega goriva, in veznih elementov za odvajanje dimnih plinov skozi odvodnik ter odvodnika dimnih plinov.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V tabeli 1 iz 3. člena uredbe se v vrstici za plinasta goriva pri srednjih in velikih kurilnih napravah vrednost »100 MW« nadomesti z vrednostjo »50 MW«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za 3. členom uredbe se doda nov 3.a člen, ki se glasi:</p>
 <h3>»3.a člen</h3>
 <p>(1) V primeru namestitve dveh ali več kurilnih naprav, katerih skupna vhodna toplotna moč presega 50 MW, se te štejejo kot ena kurilna naprava, če se v postopku za presojo vplivov na okolje ugotovi, da je tehnično izvedljivo izpuščati njihove dimne pline skozi skupni odvodnik dimnih plinov in če to predstavlja do 100 odstotno povečanje cene siceršnje namestitve posamičnih odvodnikov dimnih plinov.<br />
 (2) Ugotovitev o presoji iz prejšnjega odstavka se vključi v poročilo o presoji vplivov na okolje, ki ga pripravi pooblaščena oseba, v skladu s predpisom o metodologiji za pripravo tega poročila.<br />
 (3) Za kurilno napravo iz prvega odstavka tega člena se šteje tudi rekonstruirana obstoječa kurilna naprava.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 356-01/98-2</p>
 <p>Ljubljana, dne 26. oktobra 2000.</p>
@@ -55,5 +68,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-11-17", "kratica": "URED631", "naziv": "Uredba o spremembah in dopolnitvah uredbe o emisiji snovi v zrak iz kurilnih naprav", "url": "/trubar/si/URED631/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

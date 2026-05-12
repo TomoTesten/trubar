@@ -21,28 +21,41 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0888" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE3519.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE3519" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE3519.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE3519,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Sklep o ustanovitvi, nalogah in organizaciji Uprave Republike Slovenije za varstvo pred sevanji</h1>
 <p>Na podlagi 138. člena zakona o varstvu pred ionizirajočimi sevanji in jedrski varnosti (Uradni list RS, št. 67/02 in 110/02) je Vlada Republike Slovenije sprejela</p>
 <h2>S K L E P</h2>
 <p>o ustanovitvi, nalogah in organizaciji Uprave  Republike Slovenije za varstvo pred sevanji</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ustanovi se Uprava Republike Slovenije za varstvo pred sevanji (v nadaljnjem besedilu: URSVS) kot organ v sestavi ministrstva, pristojnega za zdravje, ki skrbi za varovanje zdravja ljudi pred škodljivimi vplivi ionizirajočih in neionizirajočih sevanj.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>URSVS opravlja strokovne, upravne, nadzorne in razvojne naloge na področju izvajanja dejavnosti in uporabe virov ionizirajočih sevanj v zdravstvu in veterinarstvu, varovanja zdravja ljudi pred škodljivimi vplivi ionizirajočih sevanj, sistematičnega pregledovanja delovnega in bivalnega okolja zaradi izpostavljenosti ljudi naravnim virom ionizirajočih sevanj, izvajanja monitoringa radioaktivne kontaminacije živil in pitne vode, omejevanja, zmanjševanja in preprečevanja zdravju škodljivih vplivov neionizirajočih sevanj, presojanja ustreznosti in pooblaščanja izvedencev varstva pred sevanji.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>URSVS vodi direktor, ki ga imenuje in razrešuje Vlada Republike Slovenije na predlog ministra, pristojnega za zdravje.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ministrstvo, pristojno za zdravje, izvaja naloge na področju upravljanja s kadrovskimi, finančnimi in informacijskimi viri za URSVS.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Akt o notranji organizaciji in sistemizaciji delovnih mest v URSVS izda na predlog direktorja URSVS minister, pristojen za zdravje, v soglasju z Vlado Republike Slovenije.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Delavci se URSVS zagotovijo z razporeditvijo treh delavcev Zdravstvenega inšpektorata Republike Slovenije, ki delajo na področju varovanja zdravja pred sevanji in z dodatnimi zaposlitvami v skladu z akcijskim planom institucionalne usposobljenosti Republike Slovenije ter zakonom o varstvu pred ionizirajočimi sevanji in jedrski varnosti.<br />
 Na URSVS se prenese dokumentacija, ki je vezana na naloge, ki so jih v Zdravstvenem inšpektoratu Republike Slovenije na področju varovanja zdravja pred sevanji opravljali prerazporejeni delavci ter z delom povezana oprema in inventar.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta sklep začne veljati 1. marca 2003.</p>
 <p>Št. 024-21/2003-1</p>
 <p>Ljubljana, dne 27. februarja 2003.</p>
@@ -57,5 +70,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-03-03", "kratica": "SKLE3519", "naziv": "Sklep o ustanovitvi, nalogah in organizaciji Uprave Republike Slovenije za varstvo pred sevanji", "url": "/trubar/si/SKLE3519/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

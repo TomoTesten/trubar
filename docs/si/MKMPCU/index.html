@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-02-0063" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKMPCU.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MKMPCU" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKMPCU.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MKMPCU,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o ratifikaciji Konvencije o medsebojni pomoči in sodelovanju med carinskimi upravami, sestavljene na podlagi člena K.3 Pogodbe o Evropski uniji</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 dr. Janez Drnovšek l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI KONVENCIJE O MEDSEBOJNI POMOČI IN SODELOVANJU MED CARINSKIMI UPRAVAMI, SESTAVLJENE NA PODLAGI ČLENA K.3 POGODBE O EVROPSKI UNIJI (MKMPCU)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Konvencija o medsebojni pomoči in sodelovanju med carinskimi upravami, sestavljena na podlagi člena K.3 Pogodbe o Evropski uniji, sklenjena v Bruslju 18. decembra 1997.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo konvencije se v izvirniku v angleškem jeziku in prevodu v slovenskem jeziku glasi:</p>
 <p>Besedilo konvencije v angleškem jeziku</p>
 <h2>K O N V E N C I J A</h2>
@@ -383,16 +396,16 @@ Posebna skupna preiskovalna skupina opravlja naslednje naloge:<br />
 V potrditev tega so podpisani pooblaščenci podpisali to konvencijo.<br />
 V Bruslju, dne osemnajstega decembra tisoč devetsto sedemindevetdeset, v enem samem izvirniku v danskem, nizozemskem, angleškem, finskem, francoskem, nemškem, grškem, irskem, italijanskem, portugalskem, španskem in švedskem jeziku, od katerih je vsako besedilo enako verodostojno in je shranjeno v arhivu generalnega sekretariata Sveta Evropske unije.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Republika Slovenija ob deponiranju listine o ratifikaciji poda naslednje izjave:<br />
 V skladu z osmim odstavkom člena 20 konvencije Republika Slovenija izjavlja, da jo člen 20 ne zavezuje.<br />
 V skladu s petim odstavkom člena 21 konvencije Republika Slovenija izjavlja, da jo člen 21 ne zavezuje.<br />
 V skladu s petim odstavkom člena 23 konvencije Republika Slovenija izjavlja, da jo člen 23 ne zavezuje.<br />
 V skladu s četrtim odstavkom člena 26 konvencije Republika Slovenija izjavlja, da sprejema pristojnost Sodišča v skladu s postopki iz točke a) petega odstavka člena 26 konvencije.<br />
 V skladu s četrtim odstavkom člena 32 konvencije Republika Slovenija izjavlja, da se ta konvencija, razen člena 23, uporablja v odnosih s tistimi državami članicami, ki so dale isto izjavo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za izvajanje konvencije skrbita Ministrstvo za finance – Carinska uprava Republike Slovenije in Ministrstvo za notranje zadeve – Policija.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 437-06/04-3/1</p>
 <p>Ljubljana, dne 20. maja 2004</p>
@@ -413,5 +426,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-05-28", "kratica": "MKMPCU", "naziv": "Zakon o ratifikaciji Konvencije o medsebojni pomoči in sodelovanju med carinskimi upravami, sestavljene na podlagi člena K.3 Pogodbe o Evropski uniji", "url": "/trubar/si/MKMPCU/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

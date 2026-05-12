@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-02-0020" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/BNLPDO.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=BNLPDO" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/BNLPDO.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:BNLPDO,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Dvostranskega sporazuma o plačilu dolžniških obveznosti iz deleža zunanjega dolga, ki ga je Republika Slovenija prevzela kot ena od držav naslednic nekdanje Socialistične federativne republike Jugoslavije - SFRJ, nizozemskim upnikom</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI DVOSTRANSKEGA SPORAZUMA O PLAČILU DOLŽNIŠKIH OBVEZNOSTI IZ DELEŽA ZUNANJEGA DOLGA, KI GA JE REPUBLIKA SLOVENIJA PREVZELA KOT ENA OD DRŽAV NASLEDNIC NEKDANJE SOCIALISTIČNE FEDERATIVNE REPUBLIKE JUGOSLAVIJE – SFRJ,  NIZOZEMSKIM UPNIKOM (BNLPDO)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Dvostranski sporazum o plačilu dolžniških obveznosti iz deleža zunanjega dolga, ki ga je Republika Slovenija prevzela kot ena od držav naslednic nekdanje Socialistične federativne republike Jugoslavije – SFRJ, nizozemskim upnikom, ki je bil sklenjen 19. februarja 1999 v Ljubljani.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sporazum se v izvirniku v angleškem jeziku ter v prevodu v slovenskem jeziku glasi:<br />
 Bilateral agreement on the payment of the external debt service obligations, allocated to the Republic of Slovenia as one of the successor states of the former Socialist Federal Republic of Yugoslavia – SFRY -,  to the Netherlands’ creditors<br />
 This agreement is concluded between the government of the Republic of Slovenia (hereinafter referred to as “the Government“) and NCM, the latter acting by order and with authorization of the government of the Netherlands (hereinafter referred to as “NCM“).<br />
@@ -136,9 +149,9 @@ NLG 1.311.428 po 7,75% 31.10.91-30.11.94       NLG     313.261,00<br />
 – plačane obresti:                             NLG    -152.314,00<br />
 saldo                                                             NLG   1.900.404,00<br />
 Skupaj znesek odplačila na dan 15.11.1998                         NLG  20.258.456,00</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Ministrstvo za finance Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 450-07/99-22/1</p>
 <p>Ljubljana, dne 15. februarja 2000</p>
@@ -154,5 +167,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-03-10", "kratica": "BNLPDO", "naziv": "Zakon o ratifikaciji Dvostranskega sporazuma o plačilu dolžniških obveznosti iz deleža zunanjega dolga, ki ga je Republika Slovenija prevzela kot ena od držav naslednic nekdanje Socialistične federativne republike Jugoslavije - SFRJ, nizozemskim upnikom", "url": "/trubar/si/BNLPDO/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

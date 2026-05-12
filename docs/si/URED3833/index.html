@@ -21,24 +21,37 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-1950" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3833.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3833" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3833.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED3833,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o plačilih za ukrepe Programa razvoja podeželja za Republiko Slovenijo 2004-2006 za leto 2005</h1>
 <p>Na podlagi 5., 6. in 7. člena ter v zvezi s 126. členom Zakona o kmetijstvu (Uradni list RS, št. 54/00, 52/02 – <a href="/trubar/si/ZDU-1/" class="law-ref" title="ZDU-1">ZDU-1</a>, 58/02 – <a href="/trubar/si/ZMR-1/" class="law-ref" title="ZMR-1">ZMR-1</a> in 45/04 – <a href="/trubar/si/ZdZPKG/" class="law-ref" title="ZdZPKG">ZdZPKG</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o plačilih za ukrepe Programa razvoja podeželja za Republiko Slovenijo 2004–2006 za leto 2005</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) V Uredbi o plačilih za ukrepe Programa razvoja podeželja za Republiko Slovenijo 2004–2006 za leto 2005 (Uradni list RS, št. 10/05 in 21/05) se besedilo devetega odstavka 13. člena spremeni tako, da se glasi:<br />
 »(9) Plačila za ukrep XIII. iz prejšnjega člena lahko upravičenci uveljavljajo za najmanj 1 GVŽ za avtohtone in tradicionalne pasme domačih živali, navedene v prilogi 16 k PRP oziroma Seznamu avtohtonih in tradicionalnih pasem domačih živali (Uradni list RS, št. 77/04). Število živali mora biti v reji pet let od vstopa v ukrep, pri čemer se te živali lahko nadomestijo z živalmi druge avtohtone ali tradicionalne pasme. Število živali se lahko poveča do obremenitve 1,9 GVŽ/ha kmetijskih zemljišč v uporabi, zmanjša pa se lahko za največ 5% oziroma v takem obsegu, da po zmanjšanju stalež živali ni manjši od 1 GVŽ.«<br />
 (2) Za enaindvajsetim odstavkom se dodata nova dvaindvajseti in triindvajseti odstavek, ki se glasita:<br />
 »(22) Glede na obseg površin, vključenih v ukrep SKOP v letu 2004, upravičenec v okviru obstoječe obveznosti površine pod ukrepom SKOP lahko poveča za največ 2 ha oziroma 75% v petih letih izvajanja ukrepa SKOP, pri čemer se njegova obveznost iz leta 2004 nadaljuje. Če pa upravičenec poveča površine za več kot 2 ha oziroma 75%, sklene novo petletno obveznost za izvajanje ukrepa SKOP za celoten obseg površin, ki vključuje obstoječe in povečane površine.<br />
 (23) Glede na obseg površin, vključenih v ukrep SKOP v letu 2004, se površine pod ukrepom SKOP v letu 2005 lahko zmanjšajo za največ 5%.«<br />
 (3) Dosedanji dvaindvajseti odstavek postane štiriindvajseti odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V osmem, devetem in desetem odstavku 34. člena se besedilo »15. maja 2005« nadomesti z besedilom »31. maja 2005«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00715-25/2005/6</p>
 <p>Ljubljana, dne 12. maja 2005.</p>
@@ -54,5 +67,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-05-13", "kratica": "URED3833", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o plačilih za ukrepe Programa razvoja podeželja za Republiko Slovenijo 2004-2006 za leto 2005", "url": "/trubar/si/URED3833/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

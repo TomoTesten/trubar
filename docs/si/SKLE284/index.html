@@ -21,35 +21,48 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-3379" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE284.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE284" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE284.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE284,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Statutarni sklep</h1>
 <p>Na podlagi 6. in 86. člena zakona o lokalni samoupravi ter 22. člena statuta Stalne konference lokalnih skupnosti Slovenije – Združenja slovenskih občin in mest, skupščina stalne konference lokalnih skupnosti, na seji dne 29. junija 1999 predlaga naslednji</p>
 <h2>S T A T U T A R N I  S K L E P</h2>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta statutarni sklep začasno, do sprejema statuta Stalne konference lokalnih skupnosti Slovenije (v nadaljevanju: stalne konference), določa organe in organizacijo dela stalne konference.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Skupščino stalne konference sestavljajo župani vseh članic ali njihovi pooblaščeni predstavniki.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Stalna konferenca ima tri stalne sekcije, in sicer:<br />
 – sekcijo mestnih občin,<br />
 – sekcijo občin, v katerih so sedeži upravnih enot,<br />
 – sekcijo ostalih občin.<br />
 Sekcije sklicujejo in vodijo podpredsedniki stalne konference.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Predsedstvo stalne konference šteje petindvajset članov.<br />
 Predsedstvo sestavlja:<br />
 – sedem članov, predstavnikov mestnih občin,<br />
 – sedem članov, predstavnikov občin, v katerih so sedeži upravnih enot,<br />
 – sedem članov, predstavnikov ostalih občin.<br />
 Člani predsedstva so tudi predsednik in trije podpredsedniki. Eden podpredsednik je iz vrst predstavnikov mestnih občin, eden iz vrst predstavnikov občin, v katerih so sedeži upravnih enot in eden pa izmed predstavnikov ostalih občin.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Generalnega sekretarja stalne konference imenuje predsedstvo.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Predsedstvo stalne konference najkasneje v roku šestih mesecev pripravi predlog statuta.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta statutarni sklep začne veljati z dnem, ko so prejeta pisna soglasja županov več kot polovice članic stalne konference. Sklep se objavi v Uradnem listu RS.</p>
 <p>Velenje, dne 29. junija 1999.</p>
 <p>Predsednik<br />
@@ -64,5 +77,36 @@ Boris Sovič l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-08-20", "kratica": "SKLE284", "naziv": "Statutarni sklep", "url": "/trubar/si/SKLE284/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

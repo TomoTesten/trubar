@@ -21,34 +21,47 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3733" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8745.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV8745" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8745.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV8745,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o razvrstitvi vitaminskih in mineralnih izdelkov za peroralno uporabo, ki so v farmacevtskih oblikah, med zdravila</h1>
 <p>Na podlagi 7. in 11. člena Zakona o zdravilih (Uradni list RS, št. 31/06 in 45/08) izdaja ministrica za zdravje</p>
 <h2>P R A V I L N I K</h2>
 <p>o razvrstitvi vitaminskih in mineralnih izdelkov za peroralno uporabo, ki so v farmacevtskih oblikah, med zdravila</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(področje urejanja)</h3>
 <p>(1) S tem pravilnikom so določena merila za razvrstitev vitaminskih in mineralnih izdelkov za peroralno uporabo, ki so v farmacevtskih oblikah, med zdravila.<br />
 (2) Ta pravilnik ne predpisuje priporočenih dnevnih odmerkov vitaminov, mineralov in oligoelementov.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(merila za razvrstitev)</h3>
 <p>Vitaminski in mineralni izdelki za peroralno uporabo, ki so v farmacevtskih oblikah, se štejejo za zdravila, če dnevni odmerki vitaminov, mineralov in oligoelementov, ki jih vsebujejo, presegajo vrednosti, določene v tabeli 1 in 2, ki sta v prilogi tega pravilnika, ali če so predstavljeni z lastnostmi za zdravljenje ali preprečevanje bolezni.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(drugačna razvrstitev)</h3>
 <p>(1) Ne glede na določbe prejšnjega člena lahko organ, pristojen za zdravila sprejme drugačno razvrstitev o vitaminskih in mineralnih izdelkih, ki vsebujejo vitamine, minerale in oligoelemente v višjih dnevnih odmerkih, če predlagatelj poleg podatkov o kakovostni in količinski sestavi ter označevanju izdelka predloži utemeljeno mnenje Evropske agencije za varnost hrane ali drugega pristojnega organa Evropske unije, da se izdelek ne razvršča med zdravila.<br />
 (2) Prav tako organ, pristojen za zdravila odloča o razvrstitvi izdelkov, če vitaminski in mineralni izdelki vsebujejo vitamine, minerale ali oligoelemente, ki niso določeni s tem pravilnikom ali s predpisi, ki urejajo področje živil.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(označevanje)</h3>
 <p>Vitaminski in mineralni izdelki, določeni s tem pravilnikom, morajo imeti na ovojnini ali v navodilu za uporabo navedena naslednja opozorila:<br />
 – pred sočasnim jemanjem drugih vitaminskih, vitaminsko-mineralnih ali mineralnih izdelkov se posvetujte z zdravnikom ali farmacevtom,<br />
 – nosečnice, doječe matere in otroci ter mladostniki do 14. leta naj jemljejo ta izdelek le po nasvetu zdravnika ali farmacevta.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(prenehanje veljavnosti)</h3>
 <p>Z dnem uveljavitve tega pravilnika preneha veljati Pravilnik o razvrstitvi vitaminskih in mineralnih izdelkov za peroralno uporabo, ki so v farmacevtskih oblikah, med zdravila (Uradni list RS, št. 83/03).</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <h3>(uveljavitev pravilnika)</h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 715-2011/2008</p>
@@ -67,5 +80,36 @@ za zdravje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-09-05", "kratica": "PRAV8745", "naziv": "Pravilnik o razvrstitvi vitaminskih in mineralnih izdelkov za peroralno uporabo, ki so v farmacevtskih oblikah, med zdravila", "url": "/trubar/si/PRAV8745/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

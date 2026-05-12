@@ -21,22 +21,35 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3277" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4896.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4896" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4896.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4896,vrsta:uredba">
+    
     <h1>Uredba o izvajanju Odločbe Komisije o zahtevi glede opozorila na magnetnih igračah, ki se dajejo na trg ali se dajo na voljo na trgu</h1>
 <p>Na podlagi drugega odstavka 8. člena Zakona o splošni varnosti proizvodov (Uradni list RS, št. 101/03) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o izvajanju Odločbe Komisije o zahtevi glede opozorila na magnetnih igračah, ki se dajejo na trg ali se dajo na voljo na trgu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S to uredbo se določijo pristojni organ in kazenske določbe glede izvajanja Odločbe Komisije št. 2008/329/ES z dne 21. aprila 2008 o zahtevi, da države članice zagotovijo, da imajo magnetne igrače, ki se dajejo na trg ali se dajo na voljo na trgu, opozorilo glede tveganj za zdravje in varnost, ki jih povzročajo (UL L št. 114 z dne 26. 4. 2008, str. 90; v nadaljnjem besedilu Odločba 2008/329/ES).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pristojni organ za izvajanje Odločbe 2008/329/ES in te uredbe je Zdravstveni inšpektorat Republike Slovenije.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Z globo od 2.000 eurov do 42.000 eurov se kaznuje za prekršek pravna oseba oziroma samostojni podjetnik posameznik, ki daje na trg magnetne igrače, ki niso v skladu z 2. členom Odločbe 2008/329/ES.<br />
 (2) Z globo od 200 eurov do 2.000 eurov se kaznuje za prekršek odgovorna oseba pravne osebe oziroma samostojnega podjetnika posameznika, ki stori prekršek iz prejšnjega odstavka.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne 21. julija 2008.</p>
 <p>Št. 00713-20/2008/5</p>
 <p>Ljubljana, dne 17. julija 2008</p>
@@ -52,5 +65,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-07-18", "kratica": "URED4896", "naziv": "Uredba o izvajanju Odločbe Komisije o zahtevi glede opozorila na magnetnih igračah, ki se dajejo na trg ali se dajo na voljo na trgu", "url": "/trubar/si/URED4896/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

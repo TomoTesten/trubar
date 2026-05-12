@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>PRAV14863</strong></dd>
       <dt>Vrsta</dt><dd>pravilnik</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
-      <dt>Datum</dt><dd>2024-06-21</dd>
-      <dt>Organ</dt><dd>Ministrstvo za zdravje</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2024-06-24</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2024-01-1741" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV14863.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV14863" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV14863.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV14863,vrsta:pravilnik">
+    
     <h1>Pravilnik o pogojih, ki jih morajo izpolnjevati izvajalci zdravstvene dejavnosti za izvajanje programov pripravništva, sekundariata in specializacij zdravnikov in doktorjev dentalne medicine</h1>
 <p>Na podlagi 21. člena Zakona o zdravniški službi (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo, 15/08 – <a href="/trubar/si/ZPacP/" class="law-ref" title="ZPacP">ZPacP</a>, 58/08, 107/10 – <a href="/trubar/si/ZPPKZ/" class="law-ref" title="ZPPKZ">ZPPKZ</a>, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>, 88/16 – <a href="/trubar/si/ZdZPZD/" class="law-ref" title="ZdZPZD">ZdZPZD</a>, 40/17, 64/17 – ZZDej-K, 49/18, 66/19, 199/21 in 136/23 – <a href="/trubar/si/ZIUZDS/" class="law-ref" title="ZIUZDS">ZIUZDS</a>) ministrica za zdravje izdaja</p>
 <p>P R A V I L N I K</p>
@@ -84,5 +97,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2024-06-24", "kratica": "PRAV14863", "naziv": "Pravilnik o pogojih, ki jih morajo izpolnjevati izvajalci zdravstvene dejavnosti za izvajanje programov pripravništva, sekundariata in specializacij zdravnikov in doktorjev dentalne medicine", "url": "/trubar/si/PRAV14863/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

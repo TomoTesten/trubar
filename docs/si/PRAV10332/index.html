@@ -21,24 +21,37 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-4648" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10332.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10332" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10332.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10332,vrsta:pravilnik">
+    
     <h1>Pravilnik o dopolnitvah Pravilnika o preiskovanju pomorskih nesreč</h1>
 <p>Na podlagi drugega odstavka 197. člena Pomorskega zakonika (Uradni list RS, št. 120/06 – uradno prečiščeno besedilo) izdaja minister za promet</p>
 <h2>P R A V I L N I K</h2>
 <p>o dopolnitvah Pravilnika o preiskovanju pomorskih nesreč</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o preiskovanju pomorskih nesreč (Uradni list RS, št. 108/05) se v prvem odstavku 1. člena za zaklepajem doda vejica in besedilo »zadnjič spremenjene z Direktivo 2009/17/ES Evropskega parlamenta in Sveta z dne 23. aprila 2009 o spremembi Direktive 2002/59/ES o vzpostavitvi sistema spremljanja in obveščanja za ladijski promet (UL L št. 131 z dne 28. 5. 2009, str. 101)«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 2. člena se doda nova 13. točka, ki se glasi:<br />
 »13. Smernice IMO o pravičnem obravnavanju pomorščakov v primeru pomorskih nezgod« pomenijo smernice, priložene k Resoluciji LEG 3(91) pravnega odbora IMO z dne 27. aprila 2006, kakor jih je odobril upravni odbor Mednarodne organizacije dela na svojem 296. zasedanju od 12. do 16. junija 2006.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za 9. členom se doda nov 9.a člen, ki se glasi:</p>
 <h3>»9.a člen</h3>
 <p>Inšpektor mora pri preiskovanju nesreč na morju v notranjih morskih vodah in teritorialnem morju Republike Slovenije obravnavati pomorščake v skladu s Smernicami IMO o pravičnem obravnavanju pomorščakov v primeru pomorskih nezgod.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-172/2010/22</p>
 <p>Ljubljana, dne 21. oktobra 2010</p>
@@ -54,5 +67,36 @@ za promet</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-10-29", "kratica": "PRAV10332", "naziv": "Pravilnik o dopolnitvah Pravilnika o preiskovanju pomorskih nesreč", "url": "/trubar/si/PRAV10332/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

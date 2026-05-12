@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0851" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11295.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11295" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11295.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11295,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi Pravilnika o usposabljanju, licencah in registru licenc neodvisnih strokovnjakov za izdelavo energetskih izkaznic</h1>
 <p>Na podlagi devetega odstavka 68.e člena Energetskega zakona (Uradni list RS, št. 27/07 – uradno prečiščeno besedilo, 70/08, 22/10, 37/11 – odl. US, 10/12 in 94/12 – <a href="/trubar/si/ZDoh-2L/" class="law-ref" title="ZDoh-2L">ZDoh-2L</a>) izdaja minister za infrastukturo in prostor</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembi Pravilnika o usposabljanju, licencah in registru licenc neodvisnih strokovnjakov za izdelavo energetskih izkaznic</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o usposabljanju, licencah in registru licenc neodvisnih strokovnjakov za izdelavo energetskih izkaznic (Uradni list RS, št. 6/10) se Priloga 4 nadomesti z novo Prilogo 4, ki je kot priloga sestavni del tega pravilnika.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-72/2013/6</p>
 <p>Ljubljana, dne 12. februarja 2013</p>
@@ -48,5 +61,36 @@ za infrastrukturo in prostor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-03-18", "kratica": "PRAV11295", "naziv": "Pravilnik o spremembi Pravilnika o usposabljanju, licencah in registru licenc neodvisnih strokovnjakov za izdelavo energetskih izkaznic", "url": "/trubar/si/PRAV11295/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

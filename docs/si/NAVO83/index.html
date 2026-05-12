@@ -21,36 +21,49 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-4119" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO83.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO83" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO83.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO83,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a><a href="#člen-9">9</a><a href="#člen-10">10</a></nav>
     <h1>Navodilo o vsebini in obliki obrazcev prijave za vpis v register davčnih zavezancev</h1>
 <p>Na podlagi 45. člena zakona o davčni službi Republike Slovenije (Uradni list RS, št. 18 in 36/96) in 24. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93 in 23/96) izdaja minister za finance</p>
 <h2>N A V O D I L O</h2>
 <p>o vsebini in obliki obrazcev prijave za vpis v register davčnih zavezancev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>To navodilo določa način dajanja podatkov davčnih zavezancev za vpis v davčni register ter njihovih sprememb, izdajo potrdil o vpisu ter dodelitev davčne številke.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Predlog za vpis ali spremembo podatkov v davčnem registru predloži davčni zavezanec na prijavi za vpis v davčni register pri pristojnem davčnem organu.<br />
 Prijava za vpis ali za spremembo podatkov v davčnem registru se izpolni na obrazcih DR-02, DR-03 in DR-04, ki so sestavni del tega navodila, ali na drugem dokumentu, na katerem so izpisani vsi podatki vsebovani v navedenih obrazcih.<br />
 Pri predložitvi podatkov o spremembi izpolni davčni zavezanec z novimi podatki samo tiste rubrike, ki se spreminjajo.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Davčni zavezanec lahko predloži podatke za vpis v davčni register ali za spremembo na magnetnih medijih.<br />
 Način predložitve podatkov na magnetnem mediju iz prejšnjega odstavka predpiše minister za finance.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Obrazec DR-02 izpolnijo davčni zavezanci po členih 32. do 34. zakona o davčni službi, to so fizične osebe, ki imajo stalno ali začasno prebivališče v Republiki Sloveniji ter fizične osebe, ki nimajo niti začasnega prebivališča v Republiki Sloveniji pa na njenem območju dosegajo obdavčljive dohodke.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Obrazec DR-03 izpolnijo davčni zavezanci po 35. členu zakona o davčni službi, to so samostojni podjetniki ali druge fizične osebe, ki opravljajo dejavnost in so vpisane v kak drug register ali evidenco.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Obrazec DR-04 izpolnjujejo davčni zavezanci po 36. in 37. člena zakona o davčni službi, to so pravne in druge osebe, ki so subjekti vpisa v sodni ali kak drug register oziroma evidenco ter tuje pravne osebe, ki nimajo sedeža ali druge oblike registracije v Republiki Sloveniji.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Davčni organ dodeli davčnemu zavezancu davčno številko ob predložitvi obrazcev prijave za vpis v davčni register, potrdilo o vpisu, na katerem navede njegovo davčno številko, pa mu izda v osmih dneh.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Če davčni urad ugotovi, da predlog za vpis v davčni register ne vsebuje vseh zahtevanih podatkov, pozove davčnega zavezanca, da v roku, ki ne sme biti daljši od 15 dni, predloži manjkajoče podatke.</p>
-<h3>9. člen</h3>
+<h3><span id="člen-9">9. člen</span></h3>
 <p>Izbris davčnega zavezanca iz davčnega registra opravi davčni organ na podlagi pisne vloge ali po uradni dolžnosti.</p>
-<h3>10. člen</h3>
+<h3><span id="člen-10">10. člen</span></h3>
 <p>To navodilo začne veljati 1. januarja 1997.</p>
 <p>Št. 416-122/96</p>
 <p>Ljubljana, dne 24. decembra 1996.</p>
@@ -68,5 +81,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-12-28", "kratica": "NAVO83", "naziv": "Navodilo o vsebini in obliki obrazcev prijave za vpis v register davčnih zavezancev", "url": "/trubar/si/NAVO83/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

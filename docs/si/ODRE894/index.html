@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Odredba o količnikih za določitev osnovnih plač za tipična delovna mesta v višjih strokovnih šolah — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Odredba o količnikih za določitev osnovnih plač za tipična delovna mesta v višjih strokovnih šolah</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>ODRE894</strong></dd>
+      <dt>Vrsta</dt><dd>odredba</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
+      <dt>Datum</dt><dd>2000-03-10</dd>
+      <dt>Organ</dt><dd>Ministrstvo za šolstvo in šport</dd>
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0989" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE894" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE894.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:ODRE894,vrsta:odredba">
+    
+    <h1>Odredba o količnikih za določitev osnovnih plač za tipična delovna mesta v višjih strokovnih šolah</h1>
+<p>Za uresničevanje zakona o razmerjih plač v javnih zavodih, državnih organih in v organih lokalnih skupnosti (Uradni list RS, št. 18/94, 36/96) izdajam naslednjo</p>
+<h2>O D R E D B O</h2>
+<h3>I</h3>
+<p>Količniki za določitev osnovnih plač za tipična delovna mesta v višjih strokovnih šolah so:</p>
+<hr />
+<p>Delovno mesto           Tarifna           Naziv           Osnovni<br />
+                        skupina                          količnik</p>
+<hr />
+<p>predavatelj             VII.              brez naziva        3,60<br />
+višje šole                                mentor             3,80<br />
+                                          svetovalec         4,00<br />
+                                          svetnik            4,40<br />
+predavatelj             VI.               brez naziva        2,90<br />
+višje šole                                mentor             3,25<br />
+                                          svetovalec         3,40<br />
+inštruktor              VII.                                 3,25<br />
+inštruktor              VI.                                 2,75.</p>
+<hr />
+<h3>II</h3>
+<p>Za strokovnjake iz prakse, ki so imenovani za predavatelje višje šole in ki občasno sodelujejo pri izvajanju višješolskih izobraževalnih programov se določi količnik za izračun plače 4,70.</p>
+<h3>III</h3>
+<p>Ta odredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 141-2/00</p>
+<p>Ljubljana, dne 15. februarja 2000.</p>
+<p>dr. Pavel Zgaga<br />
+Minister<br />
+za šolstvo in šport</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-03-10", "kratica": "ODRE894", "naziv": "Odredba o količnikih za določitev osnovnih plač za tipična delovna mesta v višjih strokovnih šolah", "url": "/trubar/si/ODRE894/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

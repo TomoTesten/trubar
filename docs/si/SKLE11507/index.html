@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2018-01-1562" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE11507.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE11507" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE11507.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE11507,vrsta:sklep">
+    
     <h1>Sklep o zgornjih mejah za izplačilo dela vdovske pokojnine od 1. januarja 2018 do 31. marca 2018</h1>
 <p>Za izvrševanje 61. člena Zakona o pokojninskem in invalidskem zavarovanju (Uradni list RS, št. 96/12, 39/13, 99/13 – <a href="/trubar/si/ZSVarPre-C/" class="law-ref" title="ZSVarPre-C">ZSVarPre-C</a>, 101/13 – <a href="/trubar/si/ZIPRS1415/" class="law-ref" title="ZIPRS1415">ZIPRS1415</a>, 44/14 – ORZPIZ206, 85/14 – <a href="/trubar/si/ZUJF-B/" class="law-ref" title="ZUJF-B">ZUJF-B</a>, 95/14 – <a href="/trubar/si/ZUJF-C/" class="law-ref" title="ZUJF-C">ZUJF-C</a>, 90/15 – <a href="/trubar/si/ZIUPTD/" class="law-ref" title="ZIUPTD">ZIUPTD</a>, 102/15, 23/17, 40/17 in 65/17) je Svet Zavoda za pokojninsko in invalidsko zavarovanje Slovenije na seji 24. aprila 2018 sprejel</p>
 <p>S K L E P</p>
@@ -48,5 +61,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2018-05-18", "kratica": "SKLE11507", "naziv": "Sklep o zgornjih mejah za izplačilo dela vdovske pokojnine od 1. januarja 2018 do 31. marca 2018", "url": "/trubar/si/SKLE11507/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

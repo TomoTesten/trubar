@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3309" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZMP-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZZMP-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZZMP-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZZMP-A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o zdravilih in medicinskih pripomočkih</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,27 +50,27 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA  O ZDRAVILIH IN MEDICINSKIH PRIPOMOČKIH (ZZMP-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o zdravilih in medicinskih pripomočkih (Uradni list RS, št. 101/99) se v 57. členu za besedo “lekarnam“ doda besedilo “in veterinarskim organizacijam za uporabo v skladu s predpisi“.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
 <p>“Nadzorstvo nad izvajanjem tega zakona in na njegovi podlagi izdanih predpisov opravljajo zdravstveni inšpektorji farmacevtske smeri za zdravila za uporabo v humani medicini, za nadzorstvo nad prometom z zdravili za uporabo v veterinarski medicini pa veterinarski inšpektorji (v nadaljnjem besedilu: pristojni inšpektorji).“</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V drugi alinei prvega odstavka 84. člena se za besedo “recept“ doda besedilo “oziroma naročilnico ali brez recepta oziroma naročilnice v lekarnah in specializiranih prodajalnah“. Ostalo besedilo se črta.<br />
 Tretja alinea se črta.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Tretja alinea prvega odstavka 101. člena se spremeni tako, da se glasi:</p>
 <p>“- imeti mora zaposleno odgovorno osebo za medicinske pripomočke razreda I. z najmanj V. stopnjo izobrazbe ustrezne smeri, za razrede II.a, II.b in III. pa z najmanj VI. stopnjo izobrazbe ustrezne smeri ter dodatno usposobljenost za promet z medicinskimi pripomočki, za spremljanje in javljanje neželenih učinkov ter ukrepanje v primeru tveganja.“</p>
 <p>V drugem odstavku 101. člena se za besedilom “na debelo“ doda besedilo “ter stroške vpisa v register izdelovalcev, dobaviteljev ter pravnih in fizičnih oseb, ki opravljajo dejavnost prometa na drobno z medicinskimi pripomočki ter stroške vpisa v register medicinskih pripomočkov“.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Doda se nov 116.a člen, ki se glasi:</p>
 <p>“Rok iz tretje alinee prvega odstavka 15. člena tega zakona, se začne uporabljati 31. 12. 2002.“</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>V 117. členu se četrti odstavek spremeni tako, da se glasi:</p>
 <p>“Nalogo nadzora nad izvajanjem tega zakona opravlja do ustanovitve Agencije za zdravila in medicinske pripomočke Zdravstveni inšpektorat Republike Slovenije, razen nadzora nad prometom z zdravili za uporabo v veterinarski medicini, kar opravlja Veterinarska uprava Republike Slovenije.“</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 520-02/99-3/5</p>
 <p>Ljubljana, dne 21. julija 2000.</p>
@@ -73,5 +86,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-08-08", "kratica": "ZZMP-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o zdravilih in medicinskih pripomočkih", "url": "/trubar/si/ZZMP-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

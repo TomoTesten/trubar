@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1684" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3717.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV3717" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3717.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV3717,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o razvrščanju, pakiranju in označevanju nevarnih pripravkov</h1>
 <p>Na podlagi 28. člena zakona o kemikalijah (Uradni list RS, št. 36/99) izdaja minister za zdravstvo</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o razvrščanju, pakiranju in označevanju nevarnih pripravkov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 7. členu pravilnika o razvrščanju, pakiranju in označevanju nevarnih pripravkov (Uradni list RS, št. 73/99 in 45/00) se v tretjem odstavku v točki (f) doda peti odstavek, ki se glasi:</p>
 <p>“Na embalažnih enotah enakih ali manjših od 125 mililitrov ni treba navajati številčne oznake R in S stavkov (primer: stavek “R10 Vnetljivo.“ se zapiše: “Vnetljivo.“).“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 9. členu se v prvem odstavku tabela spremeni tako, da se glasi:</p>
 <hr />
 <h2>Vsebnost embalaže                Mere etikete (v mm)</h2>
@@ -44,10 +57,10 @@ nad 500 litrov                   najmanj 148 x 210</p>
 <hr />
 <p>V drugem odstavku se prvi stavek spremeni tako, da se glasi:</p>
 <p>“Vsak simbol mora pokrivati najmanj eno desetino površine etikete razen na embalažnih enotah velikosti 125 mililitrov ali manj, kjer ne sme biti manjši od 1 cm2.“</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 13. členu se doda nov, drugi odstavek, ki se glasi:</p>
 <p>“Ne glede na prejšnji odstavek se mora označevanje fitofarmacevtskih sredstev, ki so že v prometu na dan uveljavitve tega pravilnika, uskladiti z določbami tega pravilnika do 30. 7. 2004.“</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 022-11/01</p>
 <p>Ljubljana, dne 5.  aprila 2001.</p>
@@ -62,5 +75,36 @@ za zdravstvo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-04-19", "kratica": "PRAV3717", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o razvrščanju, pakiranju in označevanju nevarnih pripravkov", "url": "/trubar/si/PRAV3717/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-2528" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG580.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG580" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG580.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG580,vrsta:drugi akt">
+    
     <h1>Aneks k tarifni prilogi k splošni kolektivni pogodbi za gospodarske dejavnosti</h1>
 <h2>A N E K S</h2>
 <p>k tarifni prilogi k splošni kolektivni pogodbi za gospodarske dejavnosti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V tarifni prilogi k splošni kolektivni pogodbi za gospodarske dejavnosti (Uradni list RS, št. 40/97) se 3. točka Regres za letni dopust spremeni tako, da se glasi:</p>
 <p>“Delavcem pripada regres za letni dopust najmanj v višini 107.712 SIT in največ 70% povprečne mesečne plače na zaposlenega v Republiki Sloveniji.</p>
 <p>Delavci, ki so regres za letni dopust za leto 2000 že prejeli v nižjem znesku, imajo na podlagi tega aneksa pravico do dodatnega izplačila do višine iz prejšnjega odstavka.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Aneks k tarifni prilogi k splošni kolektivni pogodbi za gospodarske dejavnosti začne veljati naslednji dan po objavi v Uradnem listu RS.</p>
 <p>Ljubljana, dne 5. junija 2000.</p>
 <h3>Podpisniki:</h3>
@@ -75,5 +88,36 @@ Drago Jurenec l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-06-16", "kratica": "DRUG580", "naziv": "Aneks k tarifni prilogi k splošni kolektivni pogodbi za gospodarske dejavnosti", "url": "/trubar/si/DRUG580/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

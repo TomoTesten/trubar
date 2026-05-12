@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Slovenski inštitut za revizijo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-2868" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10335.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10335" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10335.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10335,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o pridobitvi potrdil o strokovnih znanjih za opravljanje nalog pooblaščenih ocenjevalcev</h1>
 <p>Na podlagi prvega odstavka 10. člena Zakona o revidiranju (Uradni list RS, št. 65/08) ter na podlagi soglasja Agencije za javni nadzor nad revidiranjem št. 10.00-14/2010 z dne 25. 5. 2010 je strokovni svet na seji 24. 6. 2010 sprejel</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o pridobitvi potrdil o strokovnih znanjih za opravljanje nalog pooblaščenih ocenjevalcev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V šestem odstavku 9. člena Pravilnika o pridobitvi potrdil o strokovnih znanjih za opravljanje nalog pooblaščenih ocenjevalcev, se »s slovenskimi poslovnofinančnimi standardi« nadomesti z »z mednarodnimi standardi ocenjevanja vrednosti in hierarhijo standardov ocenjevanja vrednosti«.<br />
 V osmem odstavku 9. člena Pravilnika o pridobitvi potrdil o strokovnih znanjih za opravljanje nalog pooblaščenih ocenjevalcev se »v letu dni« nadomesti z »najkasneje v šestih mesecih«.<br />
 9. člen Pravilnika o pridobitvi potrdil o strokovnih znanjih za opravljanje nalog pooblaščenih ocenjevalcev, se dopolni z novim devetim odstavkom.<br />
 »Če kandidat zagovora zaključnega dela trikrat ne opravi uspešno, mora izbrati novo temo zaključnega dela, zaključno delo na novo izdelati in ga zagovarjati eno leto po neuspešnem zagovoru.«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 7/2010</p>
 <p>Ljubljana, dne 24. junija 2010</p>
@@ -50,5 +63,36 @@ dr. Ivan Turk l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-07-02", "kratica": "PRAV10335", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o pridobitvi potrdil o strokovnih znanjih za opravljanje nalog pooblaščenih ocenjevalcev", "url": "/trubar/si/PRAV10335/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3066" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPJZOIL.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPJZOIL" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPJZOIL.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPJZOIL,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Zakon o poroštvu Republike Slovenije za kredite javnega zavoda Onkološki inštitut Ljubljana, najete za dokončanje gradnje in opremljanje objektov 1. faze</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,22 +50,22 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O POROŠTVU REPUBLIKE SLOVENIJE ZA KREDITE JAVNEGA ZAVODA ONKOLOŠKI INŠTITUT LJUBLJANA, NAJETE ZA DOKONČANJE GRADNJE IN OPREMLJANJE OBJEKTOV 1. FAZE (ZPJZOIL)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Republika Slovenija daje poroštvo za obveznosti javnega zavoda Onkološki inštitut v Ljubljani iz naslova kreditov, najetih za dokončanje 1. faze novogradnje in rekonstrukcije ter opremljanje objektov Onkološkega inštituta Ljubljana, do skupne višine glavnic 3.846.800.000 tolarjev s pripadajočimi obrestmi in stroški kreditov.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Republika Slovenija daje poroštvo iz prejšnjega člena pod naslednjimi pogoji:<br />
 – rok črpanja kreditov je do 31. 12. 2004;<br />
 – višina obrestne mere in stroškov kreditov mora biti primerljiva z višino obrestne mere in stroškov kreditov z državnim poroštvom;<br />
 – obresti za najete kredite se v letu 2004 pripisujejo h glavnicam kreditov;<br />
 – krediti se odplačajo v dveh tranšah: prva tranša do 31. januarja 2005 in druga tranša do 31. januarja 2006.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Posamezne obveznosti iz naslova najetih kreditov ob njihovi zapadlosti poravna na poziv kreditodajalca Republika Slovenija iz sredstev sklada za investicije v javne zdravstvene zavode.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Poroštvene pogodbe s kreditodajalci sklene v imenu in za račun Republike Slovenije minister, pristojen za finance.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Za izvajanje tega zakona ter vseh pravic in obveznosti za Republiko Slovenijo, ki iz njega izhajajo, skrbi ministrstvo, pristojno za finance.<br />
 Ne glede na prejšnji odstavek izvaja ministrstvo, pristojno za zdravje, nadzor nad namensko porabo sredstev kreditov, za katere Republika Slovenija daje poroštvo po tem zakonu.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-03/03-124/1</p>
 <p>Ljubljana, dne 18. junija 2003.</p>
@@ -69,5 +82,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-06-30", "kratica": "ZPJZOIL", "naziv": "Zakon o poroštvu Republike Slovenije za kredite javnega zavoda Onkološki inštitut Ljubljana, najete za dokončanje gradnje in opremljanje objektov 1. faze", "url": "/trubar/si/ZPJZOIL/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

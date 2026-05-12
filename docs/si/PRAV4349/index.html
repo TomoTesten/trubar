@@ -21,30 +21,43 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3387" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4349.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV4349" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4349.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV4349,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-24">24</a><a href="#člen-25">25</a><a href="#člen-26">26</a><a href="#člen-2">2</a></nav>
     <h1>Pravilnik o dopolnitvah pravilnika o štipendiranju</h1>
 <p>Na podlagi V. točke odloka o kadrovskem štipendiranju učencev in študentov za potrebe republiških upravnih organov, Skupščine Republike Slovenije in Izvršnega sveta Skupščine Republike Slovenije (Uradni list RS, št. 16/91-I), je komisija Vlade Republike Slovenije za kadrovske in administrativne zadeve na 142. seji, dne 4. 10. 1996, sprejela</p>
 <h2>P R A V I L N I K</h2>
 <p>o dopolnitvah pravilnika o štipendiranju</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Za 23. členom prečiščenega besedila pravilnika o štipendiranju (Uradni list RS, št. 58/95) se doda novo, IV. poglavje, ki se glasi:</p>
 <h3>“IV. ŠTIPENDIRANJE OTROK ŽRTEV VOJNE ZA SLOVENIJO</h3>
-<h3>24. člen</h3>
+<h3><span id="člen-24">24. člen</span></h3>
 <p>Otroci žrtev vojne za Slovenijo, ki se redno šolajo, imajo ne glede na vrsto, smer in stopnjo izobraževanja, od začetka šolskega leta 1996/97 do zaključka rednega šolanja, pravico do štipendije v skladu z določili IV. poglavja tega pravilnika.<br />
 Štipendija iz prejšnjega odstavka se podeli na predlog Ministrstva za obrambo brez javnega razpisa.<br />
 Višina štipendije je odvisna od stopnje šolanja oziroma izobraževanja in znaša:<br />
 – 60% najvišje možne kadrovske štipendije po tem pravilniku za štipendiste, ki se šolajo v osnovni šoli<br />
 – 80% najvišje možne kadrovske štipendije po tem pravilniku za štipendiste, ki se izobražujejo na III. IV. ali V. stopnji zahtevnosti<br />
 – 100% najvišje možne kadrovske štipendije po tem pravilniku za štipendiste, ki se šolajo na VI. ali VII. stopnji zahtevnosti.</p>
-<h3>25. člen</h3>
+<h3><span id="člen-25">25. člen</span></h3>
 <p>V primeru kadrovskih potreb posameznih državnih organov se štipendist iz prejšnjega člena po zaključku izobraževanja lahko zaposli v organu državne uprave.</p>
-<h3>26. člen</h3>
+<h3><span id="člen-26">26. člen</span></h3>
 <p>Medsebojna razmerja štipendist ter podkomisija za štipendiranje uredita s pisno pogodbo.<br />
 V pogodbi se lahko določijo druge pravice iz II. in III. poglavja tega pravilnika, do katerih je upravičen štipendist.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pravilnik o dopolnitvah pravilnika o štipendiranju začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 604-03/96</p>
 <p>Ljubljana, dne 4. oktobra 1996.</p>
@@ -61,5 +74,36 @@ Mirko Bandelj l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-10-19", "kratica": "PRAV4349", "naziv": "Pravilnik o dopolnitvah pravilnika o štipendiranju", "url": "/trubar/si/PRAV4349/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

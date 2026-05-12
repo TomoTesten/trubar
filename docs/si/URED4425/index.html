@@ -21,23 +21,36 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-5222" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4425.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4425" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4425.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4425,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o določitvi prekrškov in sankcij zanje za kršitve določb Uredbe 1228/2003/ES</h1>
 <p>Na podlagi sedmega odstavka 21. člena Zakona o Vladi Republike Slovenije (Uradni list RS, št. 24/05 - uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o določitvi prekrškov in sankcij zanje za kršitve določb Uredbe 1228/2003/ES</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta uredba določa prekrške in sankcije zanje za kršitve določb Uredbe (ES) št. 1228/2003 Evropskega parlamenta in Sveta z dne 26. junija 2003 o pogojih za dostop do omrežja za čezmejne izmenjave električne energije (UL L št. 176 z dne 15. 7. 2003, str. 1; v nadaljnjem besedilu: Uredba 1228/2003/ES), kot je bila spremenjena z Uredbo Sveta (ES) št. 1223/2004 z dne 28. junija 2004 o spremembah Uredbe (ES) št. 1228/2003 Evropskega parlamenta in Sveta glede datuma uporabe nekaterih določb za Slovenijo (UL L št. 233 z dne 2. 7. 2004, str. 3) in Sklepom Komisije št. 2006/770/ES z dne 9. novembra 2006 o spremembi Priloge k Uredbi (ES) št. 1228/2003 o pogojih za dostop do omrežja za čezmejne izmenjave električne energije (UL L št. 312 z dne 11. 11. 2006, str. 59).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Z globo od 30.000 do 100.000 eurov se kaznuje za prekršek sistemski operater prenosnega omrežja električne energije, ki:<br />
 - ravna v nasprotju s prvim odstavkom 4. člena Uredbe 1228/2003/ES;<br />
 - ravna v nasprotju s prvim odstavkom 6. člena Uredbe 1228/2003/ES;<br />
 - ravna v nasprotju z drugim odstavkom 6. člena Uredbe 1228/2003/ES.<br />
 (2) Z globo od 2.000 do 4.000 eurov se kaznuje za prekršek tudi odgovorna oseba sistemskega operaterja prenosnega omrežja električne energije, ki stori prekršek iz prejšnjega odstavka tega člena.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Z globo od 20.000 do 50.000 eurov se kaznuje za prekršek sistemski operater prenosnega omrežja električne energije, ki:<br />
 - ravna v nasprotju s prvim odstavkom 5. člena Uredbe 1228/2003/ES;<br />
 - ravna v nasprotju z drugim odstavkom 5. člena Uredbe 1228/2003/ES;<br />
@@ -46,9 +59,9 @@
 - ravna v nasprotju s četrtim odstavkom 6. člena Uredbe 1228/2003/ES;<br />
 - ravna v nasprotju s petim odstavkom 6. člena Uredbe 1228/2003/ES.<br />
 (2) Z globo od 1.000 do 2.000 eurov se kaznuje za prekršek tudi odgovorna oseba sistemskega operaterja prenosnega omrežja električne energije, ki stori prekršek iz prejšnjega odstavka tega člena.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za odločanje o prekrških iz te uredbe je pristojen Inšpektorat Republike Slovenije za energetiko in rudarstvo.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00713-36/2007/8</p>
 <p>Ljubljana, dne 8. novembra 2007</p>
@@ -64,5 +77,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-11-19", "kratica": "URED4425", "naziv": "Uredba o določitvi prekrškov in sankcij zanje za kršitve določb Uredbe 1228/2003/ES", "url": "/trubar/si/URED4425/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

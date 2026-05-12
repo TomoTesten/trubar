@@ -21,32 +21,45 @@
       <dt>Organ</dt><dd>Ministrstvo za šolstvo, znanost in šport</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2948" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5075.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5075" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5075.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5075,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o obrazcu izpisa iz evidence</h1>
 <p>Na podlagi 41. člena zakona o gimnazijah (Uradni list RS, št. 12/96 in 59/01) in 75. člena zakona o poklicnem in strokovnem izobraževanju (Uradni list RS, št. 12/96 in 44/00) ter za izvrševanje 55. člena zakona o maturi (Uradni list RS, št. 15/03) izdaja minister za šolstvo, znanost in šport</p>
 <h2>P R A V I L N I K</h2>
 <p>o obrazcu izpisa iz evidence</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem pravilnikom se določi vsebina in oblika obrazca izpisa iz evidence v osnovni in dveh posebnih različicah glede na namen ter v vseh treh jezikovnih različicah.<br />
 Obrazec se uporablja za izdajo nadomestnih šolskih listin v skladu s 35. členom pravilnika o šolski dokumentaciji v srednješolskem izobraževanju (Uradni list RS, št. 96/99 in 108/99).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Obrazec izpisa iz evidence v vseh različicah je velikosti 21 cm x 29,7 cm, A4 formata in natisnjen na 80 gr. brezlesnem papirju v enobarvnem tisku.<br />
 Obrazec izpisa iz evidence ima tri različice glede na namen:<br />
 – osnovna različica se uporablja za izdajanje šolskih listin kot nadomestnih spričeval o zaključku izobraževanja oziroma drugih šolskih listin, ki ne vsebujejo ocen (npr. maturitetnega spričevala oziroma spričevala o poklicni maturi in podobno);<br />
 – a – različica, ki vsebuje poleg vsebine obrazca izpisa iz evidence v osnovni različici tudi rubrike za vpis ocen, se uporablja za izdajanje nadomestnih šolskih listin za šolske listine z ocenami (npr. letna spričevala, obvestila o uspehu, potrdila o izpitu in podobno);<br />
 – b – različica, ki vsebuje poleg vsebine obrazca izpisa iz evidence v osnovni različici tudi rubrike za vpis doseženih točk, se uporablja za izdajanje nadomestnih šolskih listin za tiste listine, ki poleg ocen vsebujejo še točke (npr. obvestilo o uspehu pri splošni oziroma poklicni maturi).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Na obrazcu izpisa v slovenski jezikovni različici izdajajo nadomestne šolske listine šole, ki izvajajo izobraževalne programe v slovenščini.<br />
 Na obrazcu izpisa v slovensko-italijanski jezikovni različici, ki poleg besedila obrazca v slovenščini, vsebuje še isto besedilo v italijanščini, izdajajo nadomestne šolske listine šole, ki izvajajo izobraževalne programe v italijanščini.<br />
 Na obrazcu izpisa v slovensko-madžarski jezikovni različici, ki poleg besedila obrazca v slovenščini, vsebuje še isto besedilo v madžarščini, izdajajo nadomestne šolske listine šole, ki izvajajo izobraževalne programe v slovenščini in madžarščini (dvojezično).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Obrazec izpisa iz evidence, določen s tem pravilnikom, se začne uporabljati za izdajanje nadomestnih listin za vse šolske listine z uveljavitvijo tega pravilnika.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Obrazci izpisa iz evidence so v prilogah od 1 do 9 tega pravilnika in so njegov sestavni del.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 011-03-140/03</p>
 <p>Ljubljana, dne 29. maja 2003.</p>
@@ -72,5 +85,36 @@ dr. Slavko Gaber l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-06-20", "kratica": "PRAV5075", "naziv": "Pravilnik o obrazcu izpisa iz evidence", "url": "/trubar/si/PRAV5075/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

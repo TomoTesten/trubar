@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2019-01-0588" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED7623.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED7623" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED7623.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED7623,vrsta:uredba">
+    
     <h1>Uredba o ureditvi nekaterih vprašanj glede pridobivanja premoženja države iz naslova dedovanja</h1>
 <p>Za izvrševanje 19. člena Zakona o spremembah in dopolnitvah Zakona o državni upravi (Uradni list RS, št. 90/14 – ZDU-1l in 51/16 – <a href="/trubar/si/ZDU-1J/" class="law-ref" title="ZDU-1J">ZDU-1J</a>), 2. člena Zakona o Skladu kmetijskih zemljišč in gozdov Republike Slovenije (Uradni list RS, št. 19/10 – uradno prečiščeno besedilo, 56/10 – ORZSKZ16, 14/15 – <a href="/trubar/si/ZUUJFO/" class="law-ref" title="ZUUJFO">ZUUJFO</a> in 9/16 – <a href="/trubar/si/ZGGLRS/" class="law-ref" title="ZGGLRS">ZGGLRS</a>), 14. člena v zvezi z 19. členom Zakona o gospodarjenju z gozdovi v lasti Republike Slovenije (Uradni list RS, št. 9/16), 2., 12. in 94. člena Zakona o državnem odvetništvu (Uradni list RS, št. 23/17), 12. in 13. člena Zakona o stvarnem premoženju države in samoupravnih lokalnih skupnosti (Uradni list RS, št. 11/18 in 79/18) ter 9., 128., 129. in 219. člena Zakona o dedovanju (Uradni list SRS, št. 15/76, 23/78, Uradni list RS, št. 13/94 – <a href="/trubar/si/ZN/" class="law-ref" title="ZN">ZN</a>, 40/94 – odl. US, 117/00 – odl. US, 67/01, 83/01 – <a href="/trubar/si/OZ/" class="law-ref" title="OZ">OZ</a>, 73/04 – <a href="/trubar/si/ZN-C/" class="law-ref" title="ZN-C">ZN-C</a>, 31/13 – odl. US in 63/16) Vlada Republike Slovenije izdaja</p>
 <p>U R E D B O</p>
@@ -121,5 +134,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2019-03-08", "kratica": "URED7623", "naziv": "Uredba o ureditvi nekaterih vprašanj glede pridobivanja premoženja države iz naslova dedovanja", "url": "/trubar/si/URED7623/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

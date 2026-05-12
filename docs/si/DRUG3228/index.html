@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Slovenski inštitut za revizijo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1519" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3228.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3228" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3228.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3228,vrsta:drugi akt">
+    
     <h1>Pojasnilo 7 - Dajanje mnenja pooblaščenega ocenjevalca vrednosti podjetij v zvezi s 146. členom <a href="/trubar/si/ZFPPIPP/" class="law-ref" title="ZFPPIPP">ZFPPIPP</a></h1>
 <p>Na podlagi 9. in 16. člena Zakona o revidiranju (Uradni list RS, št. 11/01, 118/05-5309 in 42/06-1799 (popr. 60/06)) 19. člena Statuta Slovenskega inštituta za revizijo (Uradni list RS, št. 70/01) in 8. člena Hierarhije standardov ocenjevanja vrednosti (Uradni list RS, št. 47/04) je strokovni svet Slovenskega inštituta za revizijo na redni 109. seji dne 20. aprila 2009 sprejel</p>
 <h2>P O J A S N I L O   7</h2>
@@ -167,5 +180,36 @@ Slovenskega inštituta za revizijo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-04-30", "kratica": "DRUG3228", "naziv": "Pojasnilo 7 - Dajanje mnenja pooblaščenega ocenjevalca vrednosti podjetij v zvezi s 146. členom ZFPPIPP", "url": "/trubar/si/DRUG3228/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

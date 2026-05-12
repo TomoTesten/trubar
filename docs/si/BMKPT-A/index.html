@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-02-0078" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/BMKPT-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=BMKPT-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/BMKPT-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:BMKPT-A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-3">3</a><a href="#člen-4">4</a></nav>
     <h1>Zakon o ratifikaciji Sporazuma o spremembi in dopolnitvi Sporazuma o prosti trgovini med Republiko Slovenijo in Republiko Makedonijo</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI SPORAZUMA O SPREMEMBI IN DOPOLNITVI SPORAZUMA O PROSTI TRGOVINI MED REPUBLIKO SLOVENIJO IN REPUBLIKO MAKEDONIJO (BMKPT-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sporazum o spremembi in dopolnitvi Sporazuma o prosti trgovini med Republiko Slovenijo in Republiko Makedonijo, podpisan v Skopju 5. junija 2002.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sporazum se v izvirniku v slovenskem jeziku glasi: *</p>
 <h2>S P O R A Z U M</h2>
 <p>O SPREMEMBI IN DOPOLNITVI SPORAZUMA O PROSTI TRGOVINI MED REPUBLIKO SLOVENIJO IN REPUBLIKO MAKEDONIJO</p>
@@ -49,14 +62,14 @@ odločeni, da odstranita ovire v medsebojni trgovini v skladu z načeli, določe
 ob priznanju, da je končni cilj pogodbenic pristop k Evropski uniji (v nadaljevanju EU),<br />
 sta v skladu z določbami drugega odstavka 37. člena Sporazuma o prosti trgovini med Republiko Slovenijo in Republiko Makedonijo<br />
 sklenili:</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Drugi odstavek 5. člena Sporazuma o prosti trgovini med Republiko Slovenijo in Republiko Makedonijo se spremeni tako, da se glasi: “Republika Makedonija bo pri uvozu blaga s poreklom iz Republike Slovenije ukinila vse posebne carinske dajatve z dnem začetka uporabe tega sporazuma.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 40. členu se na koncu doda nov odstavek, ki se glasi:</p>
 <p>“Če ena od pogodbenic zaradi pristopa k EU odpove sporazum, ta preneha veljati en dan pred datumom pristopa te pogodbenice k EU. Druga pogodbenica se odpove vsem nadomestilom do razširjene EU ali pogodbenice, ki odpove sporazum.“</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sporazum je sestavni del Sporazuma o prosti trgovini med Republiko Slovenijo in Republiko Makedonijo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta sporazum začne veljati prvi dan meseca po datumu, ko pogodbenici druga drugo uradno obvestita, da so izpolnjeni notranjepravni pogoji za začetek veljavnosti tega sporazuma.<br />
 Ta sporazum se začasno uporablja od prvega dneva meseca, ki sledi datumu uradnega obvestila Republike Slovenije, da so izpolnjeni njeni notranjepravni pogoji za začetek veljavnosti tega sporazuma.<br />
 V DOKAZ TEGA sta podpisana pooblaščenca, ki sta bila za to pravilno pooblaščena, podpisala ta sporazum.<br />
@@ -65,9 +78,9 @@ Sestavljeno v Skopju dne 5. junija 2002 v dveh izvodih v slovenskem in makedonsk
 dr. Tea Petrin l. r.<br />
 Za Republiko Makedonijo<br />
 mag. Besnik Fetai l. r.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Ministrstvo za gospodarstvo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 311-04/99-32/3</p>
 <p>Ljubljana, dne 25. oktobra 2002</p>
@@ -86,5 +99,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-11-08", "kratica": "BMKPT-A", "naziv": "Zakon o ratifikaciji Sporazuma o spremembi in dopolnitvi Sporazuma o prosti trgovini med Republiko Slovenijo in Republiko Makedonijo", "url": "/trubar/si/BMKPT-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

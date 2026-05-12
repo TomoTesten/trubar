@@ -21,31 +21,44 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2123" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO519.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO519" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO519.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO519,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Navodilo o opremljanju jabolk in hrušk v specialno promocijsko embalažo na ciljnih trgih</h1>
 <p>Na podlagi 17. člena uredbe o ureditvi trga s svežim sadjem, zelenjavo in oljčnim oljem (Uradni list RS, št. 34/01) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>N A V O D I L O</h2>
 <p>o opremljanju jabolk in hrušk v specialno promocijsko embalažo na ciljnih trgih</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem navodilom se določajo države prve skupine in države druge skupine, oblika in uporaba specialne promocijske embalaže za izvoz jabolk in hrušk, pridelanih v Republiki Sloveniji, obrazec ter priloge, ki sestavljajo vlogo za uveljavljanje podpore za uporabo te embalaže pri izvozu.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Države prve skupine so tiste države, ki so določene kot najpomembnejši ciljni trg za jabolka in hruške, pridelane v Republiki Sloveniji. To so države Evropske unije, Češka Republika, Slovaška Republika in Republika Hrvaška.<br />
 Države druge skupine so tiste države, ki so določene kot dodatni ciljni trg za jabolka in hruške, pridelane v Republiki Sloveniji. To so Republika Makedonija, Zvezna Republika Jugoslavija in Republika Bosna in Hercegovina.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Specialna promocijska embalaža je embalaža, namenjena vsebini do 50 kg. Embalaža je lahko kartonska, plastična ali lesena. Na embalaži mora biti oznaka “Slovensko Sadje“ ali “Slovenian Fruit“, v obliki in barvah, kot je narisana in opisana v prilogi 1 k temu navodilu, kot njegov sestavni del.<br />
 Na embalaži, namenjeni vsebini od vključno 5 kg do 50 kg, mora biti oznaka iz prejšnjega odstavka na vidnem mestu (na čelni strani oziroma na bočni strani oziroma na zavihku) v velikosti najmanj 145 mm v dolžino in najmanj 35 mm v višino.<br />
 Če so jabolka oziroma hruške pakirane v embalažo, ki je namenjena vsebini do vključno 5kg, je oznaka lahko manjša od navedene v prejšnjem odstavku, vendar ne sme biti manjša od 60 mm v dolžino in 21mm v višino.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Vloga za uveljavljanje podpore za uporabo specialne promocijske embalaže na ciljnih trgih se vloži na obrazcu, ki je kot priloga 2 k temu navodilu njegov sestavni del.<br />
 K vlogi mora biti priložena kopija enotne carinske listine (v nadaljnjem besedilu: ECL), kot jo določa predpis, ki ureja izvajanje carinskega zakona, in sicer kopija izvoda ECL za izvoznika.<br />
 Iz kopije ECL mora biti razvidno, da je bila izvožena pošiljka jabolk oziroma hrušk pakirana v:<br />
 – specialno promocijsko embalažo, to je kartonsko, leseno ali plastično embalažo, označeno v skladu s prejšnjim členom. Na obrazcu ECL mora biti pod točko 31. vpisano</p>
 <p>“specialna promocijska embalaža“ z navedbo materiala embalaže;</p>
 <p>– embalažo, namenjeno vsebini do vključno 50 kg.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začnem z dnem, ko se prične uporabljati uredba Vlade Republike Slovenije o ureditvi trga s svežim sadjem, zelenjavo in oljčnim oljem (Uradni list RS, št. 34/01).</p>
 <p>Št. 321-91/01-2</p>
 <p>Ljubljana, dne 8. maja 2001.</p>
@@ -62,5 +75,36 @@ za kmetijstvo, gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-05-17", "kratica": "NAVO519", "naziv": "Navodilo o opremljanju jabolk in hrušk v specialno promocijsko embalažo na ciljnih trgih", "url": "/trubar/si/NAVO519/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

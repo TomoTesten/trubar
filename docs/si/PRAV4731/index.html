@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0826" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4731.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV4731" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4731.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV4731,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o koncesijah na področju socialnega varstva</h1>
 <p>Na podlagi 44. in 47. člena zakona o socialnem varstvu (Uradni list RS, št. 54/92, 56/92, 42/94 – odl. US, 41/99, 36/00, 54/00, 26/01 in 6/02) izdaja minister za delo, družino in socialne zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika  o koncesijah na področju socialnega varstva</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o koncesijah na področju socialnega varstva (Uradni list RS, št. 72/97, 57/99 in 54/01, v nadaljnjem besedilu: pravilnik) se v 19. členu dodajo nov peti, šesti in sedmi odstavek, ki se glasijo:<br />
 »Ponudnik iz tretjega odstavka mora v roku iz tretjega oziroma četrtega odstavka predložiti koncedentu tudi poročilo o finančnem poslovanju v času od podpisa koncesijske pogodbe do začetka opravljanja koncesije, ki mora najmanj vsebovati:<br />
 – podatke o kapitalski strukturi koncesionarja;<br />
@@ -37,7 +50,7 @@
 – podatke o morebitnih hipotekah in drugih stvarnih pravicah na teh objektih ali prostorih.<br />
 Poročilu mora ponudnik predložiti letne računovodske izkaze za navedeno obdobje. Računovodski izkazi morajo biti revidirani, če je ponudnik k temu zavezan. Zadnji predloženi računovodski izkaz ne sme biti starejši od 6 mesecev in mora biti revidiran tudi, če ponudnik k reviziji ni zavezan.<br />
 Če iz poročila izhaja, da izguba koncesionarja presega 50% osnovnega kapitala, ali da finančno poslovanje ponudnika v navedenem obdobju bistveno odstopa od projekcije finančnega poslovanja, ki jo je predložil v svoji ponudbi, kakor tudi če je iz drugih razlogov mogoče utemeljeno sklepati, da ponudnik ne bo mogel ustrezno izvrševati dejavnosti, ki je predmet koncesije, s potekom roka iz tretjega oziroma četrtega odstavka izgubi pravico do koncesije, razen če koncedent ta rok podaljša.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 28. členom se doda novo poglavje VI.a in novi 28.a, 28.b in 28.c členi, ki se glasijo:</p>
 <h3>„VI.a NADALJEVANJE DEJAVNOSTI</h3>
 <h3>28.a člen</h3>
@@ -51,7 +64,7 @@ Za primer iz prejšnjega odstavka se v koncesijski pogodbi, oziroma v drugi pogo
 V koncesijski pogodbi oziroma v drugi pogodbi z lastnikom objektov in prostorov je treba urediti tudi instrumente zavarovanja te obveznosti koncesionarja ali lastnika objektov in prostorov.</p>
 <h3>28.c člen</h3>
 <p>Koncesionar in koncedent nimata obveznosti iz 28.a in 28.b člena, če koncesionar ob prenehanju koncesije zagotovi za vse uporabnike storitve njihovo bivanje v okviru mreže javne službe, ali z njimi sklene poseben dogovor o nadomestni namestitvi in o poravnavi medsebojnih obveznosti.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu RS.</p>
 <p>Št. 017-01-018/01-05</p>
 <p>Ljubljana, dne 25. februarja 2003.</p>
@@ -66,5 +79,36 @@ dr. Vlado Dimovski l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-02-28", "kratica": "PRAV4731", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o koncesijah na področju socialnega varstva", "url": "/trubar/si/PRAV4731/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

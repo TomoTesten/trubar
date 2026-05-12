@@ -21,32 +21,45 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-4512" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9977.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9977" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9977.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9977,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o preizkušanju hidrantnih omrežij</h1>
 <p>Na podlagi četrtega odstavka 41. člena Zakona o varstvu pred požarom (Uradni list RS, št. 3/07 - uradno prečiščeno besedilo) izdaja ministrica za obrambo</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o preizkušanju hidrantnih omrežij</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o preizkušanju hidrantnih omrežij (Uradni list RS, št. 22/95) se v 1. členu doda nov drugi odstavek, ki se glasi:<br />
 »(2) Ta pravilnik v skladu z Direktivo 2006/123/ES Evropskega parlamenta in Sveta z dne 12. decembra 2006 o storitvah na notranjem trgu (UL L št. 376 z dne, 27. 12. 2006, str. 36) določa zahteve, vezane na najmanjše število zaposlenih in veljavnost dovoljenja oziroma pooblastila.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 4. členu se v prvem odstavku druga alineja spremeni tako, da se glasi:<br />
 »- delavec (v nadaljevanju: tehnični nadzornik), ki preizkuša hidrantna omrežja, mora izpolnjevati pogoje iz tretjega odstavka tega člena;«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 8. členu se besedilo spremeni tako, da se glasi:<br />
 »Pooblastilo za preizkušanje hidrantnih omrežij se izda za nedoločen čas.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <ol>
 <li>člen se črta.</li>
 </ol>
 <h3>PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>(1) Pooblastila za preizkušanje hidrantnih omrežij, ki jih je Uprava Republike Slovenije za zaščito in reševanje izdala pred uveljavitvijo tega pravilnika, ostanejo v veljavi do izteka roka.<br />
 (2) Ne glede na prejšnji odstavek se izvajalcem, ki opravljajo preizkuse in izdajajo potrdila o brezhibnem delovanju hidrantnih omrežij in ki želijo pridobiti pooblastilo za preizkušanje hidrantnih omrežij za nedoločen čas, izda na njihovo zahtevo pooblastilo v skladu s tem pravilnikom.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-284/2009-5</p>
 <p>Ljubljana, dne 8. decembra 2009</p>
@@ -62,5 +75,36 @@ za obrambo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-12-11", "kratica": "PRAV9977", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o preizkušanju hidrantnih omrežij", "url": "/trubar/si/PRAV9977/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

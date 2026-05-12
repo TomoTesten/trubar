@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-02-0073" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/BUSPSOA.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=BUSPSOA" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/BUSPSOA.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:BUSPSOA,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Sporazuma med Republiko Slovenijo in Združenimi državami Amerike o spremembi sporazuma med Republiko Slovenijo in Združenimi državami Amerike o sodelovanju pri preprečevanju širjenja orožij za množično uničevanje</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI SPORAZUMA MED REPUBLIKO SLOVENIJO IN ZDRUŽENIMI DRŽAVAMI AMERIKE O SPREMEMBI SPORAZUMA MED REPUBLIKO SLOVENIJO IN ZDRUŽENIMI DRŽAVAMI AMERIKE O SODELOVANJU PRI PREPREČEVANJU ŠIRJENJA OROŽIJ ZA MNOŽIČNO UNIČEVANJE (BUSPSOA)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sporazum med Republiko Slovenijo in Združenimi državami Amerike o spremembi sporazuma med Republiko Slovenijo in Združenimi državami Amerike o sodelovanju pri preprečevanju širjenja orožij za množično uničevanje, sklenjen z izmenjavo not z dne 27. februarja 2004 in 5. aprila 2004 v Ljubljani.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sporazum se v izvirniku v angleškem jeziku in v prevodu v slovenskem jeziku glasi:</p>
 <p>No. 3/2004</p>
 <p>The Embassy of the United States of America presents its compliments to the Ministry of Foreign Affairs of the Republic of Slovenia and has the honor to present a proposal, on behalf of the United States of America, to amend Article II, paragraph 1, of the Agreement between the United States of America and the Republic of Slovenia Concerning Cooperation in the Prevention of the Proliferation of Weapons of Mass Destruction, which was signed at Ljubljana June 21, 1999, and entered into force June 26, 2000 (the Agreement), to read as follows:<br />
@@ -77,9 +90,9 @@ Veleposlaništvo ob tej priložnosti ponovno izraža svoje odlično spoštovanje
 Ministrstvo v imenu Republike Slovenije z veseljem sprejema sporazum, predlagan v noti veleposlaništva, ki začne veljati na dan, ko slovenska stran uradno obvesti Združene države Amerike, da so bili izpolnjeni vsi ustrezni postopki, potrebni za začetek veljavnosti te spremembe, in potrjuje, da Republika Slovenija izraža soglasje z razlago, navedeno v noti veleposlaništva.<br />
 Ministrstvo za zunanje zadeve Republike Slovenije ob tej priložnosti ponovno izraža svoje odlično spoštovanje Veleposlaništvu Združenih države Amerike.<br />
 Ljubljana, 5. aprila 2004</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Ministrstvo za obrambo Republike Slovenije v sodelovanju s pristojnimi resornimi organi, na katerih delovnem področju se bo sodelovanje izvajalo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št.  200-10/99-21/3</p>
 <p>Ljubljana, dne 20. maja 2004</p>
@@ -96,5 +109,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-06-07", "kratica": "BUSPSOA", "naziv": "Zakon o ratifikaciji Sporazuma med Republiko Slovenijo in Združenimi državami Amerike o spremembi sporazuma med Republiko Slovenijo in Združenimi državami Amerike o sodelovanju pri preprečevanju širjenja orožij za množično uničevanje", "url": "/trubar/si/BUSPSOA/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

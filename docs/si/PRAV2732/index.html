@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0172" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2732.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV2732" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2732.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV2732,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitve pravilnika o pogojih, ki jih morajo izpolnjevati javni veterinarski zavodi in zasebna veterinarska dejavnost in o postopku njihove verifikacije ter preverjanja</h1>
 <p>Na podlagi triintridesete alinee 114. člena zakona o veterinarstvu (Uradni list RS, št. 82/94, 21/95 in 16/96) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o pogojih,  ki jih morajo izpolnjevati javni veterinarski zavodi  in zasebna veterinarska dejavnost in o postopku njihove verifikacije in preverjanja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o pogojih, ki jih morajo izpolnjevati javni veterinarski zavodi in zasebna veterinarska dejavnost in o postopku njihove verifikacije in preverjanja (Uradni list RS, št. 6/96 in 33/96) se v 7. členu doda drugi odstavek, ki se glasi:</p>
 <p>“Veterinarska ambulanta v vzrejališču mladih plemenskih bikov mora imeti naslednje prostore:</p>
 <p>– prostor za pregled in zdravljenje živali, za pakiranje in odpremo odvzetega materiala, pomivalnico s sterilizacijo;<br />
@@ -42,7 +55,7 @@
 – prostor za rezerve tekočega dušika v primeru, da se z njim konzervira seme;<br />
 – prostor za veterinarske delavce in dokumentacijo;<br />
 – sanitarne prostore (umivalnico in prho ter garderobni prostor z omaricami za dnevno in delovno obleko), ki so urejeni tako, da se preprečijo vnosi in prenos kužnih bolezni.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 29. členu se v točki A:<br />
 1. spremeni druga alinea drugega odstavka tako, da se glasi:</p>
 <p>“ – 1 doktorja veterinarske medicine;”;</p>
@@ -52,7 +65,7 @@
 <p>“Veterinarska ambulanta v vzrejališču mladih plemenskih bikov mora imeti naslednje kadre:</p>
 <p>– 1 doktorja veterinarske medicine z najmanj 3 leti delovnih izkušenj in z ustrezno specializacijo ali magisterijem;<br />
 – 1 veterinarskega ali živinorejsko-veterinarskega tehnika.”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 35. členu se<br />
 1. v prvi alinei 1. točke prvega odstavka črta naslednje besedilo:</p>
 <p>“oziroma registra samostojnih podjetnikov”;</p>
@@ -60,7 +73,7 @@
 <li>za tretjo alineo 1. točke prvega odstavka doda naslednje besedilo:</li>
 </ol>
 <p>“Samostojni veterinar mora pristojnemu organu predložiti kopijo overjenega priglasitvenega lista po predpisih o gospodarskih družbah v roku 30 dni od njegovega prejema.”</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 323-03/96</p>
 <p>Ljubljana, dne 8. januarja 1997.</p>
@@ -75,5 +88,36 @@ za kmetijstvo, gozdarstvo  in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-01-24", "kratica": "PRAV2732", "naziv": "Pravilnik o spremembah in dopolnitve pravilnika o pogojih, ki jih morajo izpolnjevati javni veterinarski zavodi in zasebna veterinarska dejavnost in o postopku njihove verifikacije ter preverjanja", "url": "/trubar/si/PRAV2732/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,36 +21,49 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3222" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4759.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV4759" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4759.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV4759,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a><a href="#člen-9">9</a></nav>
     <h1>Pravilnik o kakovosti kefirja</h1>
 <p>Na podlagi drugega odstavka 37. člena zakona o kmetijstvu (Uradni list RS, št. 54/00, 52/02-ZDU-1 in 58/02-ZMR-1) izdaja minister za kmetijstvo, gozdarstvo in prehrano v soglasju z ministrom za zdravje</p>
 <h2>P R A V I L N I K</h2>
 <p>o kakovosti kefirja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa pogoje za minimalno kakovost, ki jih mora v prometu izpolnjevati kefir kot predpakirano živilo (v nadaljnjem besedilu: kefir).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Kefir je izdelan iz polnega, polposnetega ali posnetega mleka, pod pogojem, da je fermentiran s kefirnimi zrni. Kefir vsebuje naravni ogljikov dioksid in kefiran.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Kefir mora biti označen v skladu s predpisom, ki ureja splošno označevanje predpakiranih živil.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Nazivna oziroma neto količina, dovoljena negativna odstopanja ter način označevanja nazivne oziroma neto količine za predpakiran kefir morajo biti v skladu s predpisom, ki ureja predpakirane izdelke.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Kefir, ki je v prometu, mora izpolnjevati naslednje pogoje:<br />
 – biti mora bele do belo rumenkaste barve,<br />
 – biti mora gosto tekoče in penaste konsistence,<br />
 – imeti mora prijeten aromatičen vonj, značilen za kefir, in<br />
 – imeti mora značilen, lahko rezek in osvežujoč okus.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Za zaprto embalažo, v kateri je pakiran kefir, je značilna izbočenost zaradi prisotnega naravnega ogljikovega dioksida.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Kefir mora biti izdelan v skladu z zahtevami iz tega pravilnika do 1. januarja 2004.<br />
 Ne glede na določbo prejšnjega odstavka je kefir, izdelan in označen pred 1. januarjem 2004, lahko v prometu do porabe zalog.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Z dnem uveljavitve tega pravilnika prenehajo veljati določbe pravilnika o kakovosti mleka, mlečnih izdelkov, siril in čistih cepiv (Uradni list RS, št. 21/93, 71/97 – popr., 59/99 – <a href="/trubar/si/ZTZPUS/" class="law-ref" title="ZTZPUS">ZTZPUS</a>, 2/00, 14/00 in 71/00), ki se nanašajo na kefir.</p>
-<h3>9. člen</h3>
+<h3><span id="člen-9">9. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 324-01-32-2003</p>
 <p>Ljubljana, dne 9. maja 2003.</p>
@@ -70,5 +83,36 @@ prof. dr. Dušan Keber, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-07-07", "kratica": "PRAV4759", "naziv": "Pravilnik o kakovosti kefirja", "url": "/trubar/si/PRAV4759/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

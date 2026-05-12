@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-02-0091" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSSSOPT.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MSSSOPT" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSSSOPT.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MSSSOPT,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-3">3</a><a href="#člen-4">4</a></nav>
     <h1>Zakon o ratifikaciji Sporazuma o spremembah Srednjeevropskega sporazuma o prosti trgovini</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI SPORAZUMA O SPREMEMBAH SREDNJEEVROPSKEGA SPORAZUMA O PROSTI TRGOVINI (MSSSOPT)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sporazum o spremembah Srednjeevropskega sporazuma o prosti trgovini, podpisan na Bledu 4. julija 2003.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sporazuma se v izvirniku v angleškem jeziku in prevodu v slovenskem jeziku glasi:</p>
 <h2>A G R E E M E N T</h2>
 <p>AMENDING THE CENTRAL EUROPEAN FREE TRADE AGREEMENT</p>
@@ -90,7 +103,7 @@ ker ponovno potrjujejo, da je Srednjeevropski sporazum o prosti trgovini pomembn
 ob priznanju, da je cilj pogodbenic članstvo v Evropski uniji,<br />
 trdno prepričane, da je Srednjeevropski sporazum o prosti trgovini pripomogel k pripravljenosti pogodbenic za članstvo v Evropski uniji,</p>
 <p>sporazumele:</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <ol>
 <li>člen Srednjeevropskega sporazuma o prosti trgovini se glasi:</li>
 </ol>
@@ -103,12 +116,12 @@ trdno prepričane, da je Srednjeevropski sporazum o prosti trgovini pripomogel k
 <ol>
 <li>Sporazum ostane veljaven za preostale pogodbenice.”</li>
 </ol>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 42. členu Srednjeevropskega sporazuma o prosti trgovini se doda nov odstavek, ki se glasi:</p>
 <p>“Vlada Republike Bolgarije prevzame obveznosti depozitarja tega sporazuma 1. aprila 2004.”</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sporazum je sestavni del Srednjeevropskega sporazuma o prosti trgovini.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <ol>
 <li>Ta sporazum začne veljati na dan, ko depozitar od pogodbenic Srednjeevropskega sporazuma o prosti trgovini prejme zadnje uradno obvestilo o tem, da so končani potrebni postopki, vendar najpozneje 1. aprila 2004.</li>
 <li>Depozitar uradno obvesti vse pogodbenice o končanih postopkih, potrebnih za začetek veljavnosti tega sporazuma.<br />
@@ -131,9 +144,9 @@ Za Slovaško republiko<br />
 Eva Šimková l.r.<br />
 Za Republiko Slovenijo<br />
 Tea Petrin l.r.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Ministrstvo za gospodarstvo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 311-04/97-25/6</p>
 <p>Ljubljana, dne 28. novembra 2003</p>
@@ -150,5 +163,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-12-18", "kratica": "MSSSOPT", "naziv": "Zakon o ratifikaciji Sporazuma o spremembah Srednjeevropskega sporazuma o prosti trgovini", "url": "/trubar/si/MSSSOPT/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

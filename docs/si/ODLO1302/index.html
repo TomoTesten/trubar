@@ -16,21 +16,34 @@
     <dl>
       <dt>Kratica</dt><dd><strong>ODLO1302</strong></dd>
       <dt>Vrsta</dt><dd>odlok</dd>
-      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
       <dt>Datum</dt><dd>2003-09-26</dd>
-      
+      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4174" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1302.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO1302" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1302.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO1302,vrsta:odlok">
+    
     <h1>Odlok o spremembi in dopolnitvi odloka o dodatnem premoženju, ki se preda pooblaščenim investicijskim družbam za lastniške certifikate</h1>
 <p>Na podlagi prvega in drugega odstavka 36. člena ter prvega in drugega odstavka 37. člena zakona o prvem pokojninskem skladu Republike Slovenije in preoblikovanju pooblaščenih investicijskih družb (Uradni list RS, št. 50/99, 106/99 – <a href="/trubar/si/ZPIZ-1/" class="law-ref" title="ZPIZ-1">ZPIZ-1</a>, 31/00 – <a href="/trubar/si/ZP-L/" class="law-ref" title="ZP-L">ZP-L</a>, 58/02 in 110/02 – <a href="/trubar/si/ZISDU-1/" class="law-ref" title="ZISDU-1">ZISDU-1</a>) izdaja Vlada Republike Slovenije</p>
 <h2>O D L O K</h2>
 <p>o spremembi in dopolnitvi odloka o dodatnem premoženju, ki se preda pooblaščenim<br />
 investicijskim družbam za lastniške certifikate</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V odloku o dodatnem premoženju, ki se preda pooblaščenim investicijskim družbam za lastniške certifikate (Uradni list RS, št. 56/98, 69/98, 41/99, 102/99, 110/99, 5/00, 34/01, 76/01 in 99/01; v nadaljevanju: odlok), se seznam premoženja, naveden v prilogi B, dopolni z naslednjim premoženjem:</p>
 <hr />
 <p>Zap.št. Mat. št. Naziv                                    Pravna      Velikost    Vrednost<br />
@@ -67,7 +80,7 @@ investicijskim družbam za lastniške certifikate</p>
 425     5049393  Dana, d.d., Mirna                        d.d.           6.825   8.872.500</p>
 <hr />
 <p>V prilogi B v rubriki SKUPAJ se številka »21.758.317.075« nadomesti s številko »21.832.013.173«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta odlok začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 301-03/2001-5</p>
 <p>Ljubljana, dne 18. septembra 2003.</p>
@@ -83,5 +96,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-09-26", "kratica": "ODLO1302", "naziv": "Odlok o spremembi in dopolnitvi odloka o dodatnem premoženju, ki se preda pooblaščenim investicijskim družbam za lastniške certifikate", "url": "/trubar/si/ODLO1302/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

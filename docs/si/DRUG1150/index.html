@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1490" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1150.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG1150" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1150.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG1150,vrsta:drugi akt">
+    
     <h1>Spremembe in dopolnitve splošnih pogojev poslovanja za vzpodbujanje razvoja na področju varstva okolja</h1>
 <p>Na podlagi 16. člena zakona o javnih skladih (Uradni list RS, št. 22/00), 30. in 38. člena ustanovitvenega akta Ekološko razvojnega sklada Republike Slovenije, javnega sklada (Uradni list RS, št. 96/00) izdaja direktor Ekološko razvojnega sklada Republike Slovenije, javnega sklada po predhodnem soglasju nadzornega sveta št. 110-02/03 z dne 29. 3. 2001</p>
 <h2>S P R E M E M B E   I N   D O P O L N I T V E    S P L O Š N I H   P O G O J E V</h2>
 <p>poslovanja za vzpodbujanje razvoja na področju varstva okolja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V splošnih pogojih poslovanja za vzpodbujanje razvoja na področju varstva okolja (Uradni list RS, št. 117/00) se doda nov tretji odstavek 1. člena, ki glasi:</p>
 <p>“Splošni pogoji ne veljajo za razpise, ki se financirajo s sredstvi mednarodnih finančnih ustanov in razpisov, pri katerih so pogoji dodeljevanja pomoči ter merila in kriteriji za pridobitev pomoči določeni z mednarodno pogodbo ali drugo pogodbo Republike Slovenije oziroma sklada z mednarodno finančno ustanovo.</p>
 <p>V primeru iz prejšnjega odstavka se lahko neposredno uporabljajo pravila določena z mednarodno pogodbo ali drugo pogodbo Republike Slovenije oziroma sklada z mednarodno finančno ustanovo.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V tretjem odstavku 16. člena se besedilo “12. člen <a href="/trubar/si/ZVO/" class="law-ref" title="ZVO">ZVO</a>” nadomesti z besedilom “28. člen <a href="/trubar/si/ZVO/" class="law-ref" title="ZVO">ZVO</a>”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prilogi 1 se v točki: A) Zmanjšanje obremenjevanja okolja z emisijami snovi in energije doda nov zadnji odstavek, ki glasi:</p>
 <p>“Pri hrupu upoštevamo zmanjšanje čezmerne obremenitve okolja s hrupom:</p>
 <hr />
@@ -51,7 +64,7 @@ obremenitve s hrupom</p>
 1                               5–10</p>
 <hr />
 <p>pri čemer mora investitor z zmanjšanjem doseči mejno raven hrupa za posamezno območje oziroma raven.”.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Te spremembe in dopolnitve splošnih pogojev poslovanja začnejo veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 110-02/03</p>
 <p>Ljubljana, dne 29. marca 2001.</p>
@@ -67,5 +80,36 @@ Ljubo Žužek l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-04-05", "kratica": "DRUG1150", "naziv": "Spremembe in dopolnitve splošnih pogojev poslovanja za vzpodbujanje razvoja na področju varstva okolja", "url": "/trubar/si/DRUG1150/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2021-01-2730" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO2535.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO2535" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO2535.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO2535,vrsta:odlok">
+    
     <h1>Odlok o določitvi otroških igrišč Vrtca Anice Černejeve, Enota Luna, Ljubljanska cesta 48, Vrtca Zarja, Enota Iskrica, Pucova ulica 3, in Vrtca Tončke Čečeve, Enota Center, Kocenova ulica 10, ter igrišča na Savinjskem nabrežju v Mestni občini Celje za degradirano okolje in o programu ukrepov za izboljšanje kakovosti tal na teh območjih</h1>
 <p>Na podlagi prvega odstavka 24. člena Zakona o varstvu okolja (Uradni list RS, št. 39/06 – uradno prečiščeno besedilo, 49/06 – <a href="/trubar/si/ZMetD/" class="law-ref" title="ZMetD">ZMetD</a>, 66/06 – odl. US, 33/07 – <a href="/trubar/si/ZPNačrt/" class="law-ref" title="ZPNačrt">ZPNačrt</a>, 57/08 – ZFO-1A, 70/08, 108/09, 108/09 – <a href="/trubar/si/ZPNačrt-A/" class="law-ref" title="ZPNačrt-A">ZPNačrt-A</a>, 48/12, 57/12, 92/13, 56/15, 102/15, 30/16, 61/17 – GZ, 21/18 – ZNOrg, 84/18 <a href="/trubar/si/ZIURKOE/" class="law-ref" title="ZIURKOE">ZIURKOE</a> in 158/20) Vlada Republike Slovenije izdaja</p>
 <p>O D L O K</p>
@@ -59,5 +72,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2021-08-20", "kratica": "ODLO2535", "naziv": "Odlok o določitvi otroških igrišč Vrtca Anice Černejeve, Enota Luna, Ljubljanska cesta 48, Vrtca Zarja, Enota Iskrica, Pucova ulica 3, in Vrtca Tončke Čečeve, Enota Center, Kocenova ulica 10, ter igrišča na Savinjskem nabrežju v Mestni občini Celje za degradirano okolje in o programu ukrepov za izboljšanje kakovosti tal na teh območjih", "url": "/trubar/si/ODLO2535/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

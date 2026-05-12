@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3084" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11796.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11796" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11796.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11796,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o priznavanju poklicne kvalifikacije odgovorni projektant za področje arhitekture državljanom držav članic Evropske unije, Evropskega gospodarskega prostora in Švicarske konfederacije</h1>
 <p>Na podlagi 6. člena Zakona o postopku priznavanja poklicnih kvalifikacij državljanom držav članic Evropske unije, Evropskega gospodarskega prostora in Švicarske konfederacije za opravljanje reguliranih poklicev oziroma dejavnosti v Republiki Sloveniji (Uradni list RS, št. 21/02, 92/07, 85/09 in 55/12) izdaja minister za infrastrukturo in prostor</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika  o priznavanju poklicne kvalifikacije odgovorni projektant za področje arhitekture državljanom držav članic Evropske unije, Evropskega gospodarskega prostora  in Švicarske konfederacije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o priznavanju poklicne kvalifikacije odgovorni projektant za področje arhitekture državljanom držav članic Evropske unije, Evropskega gospodarskega prostora in Švicarske konfederacije (Uradni list RS, št. 63/08) se prvi odstavek 4. člena, spremeni tako, da se glasi:<br />
 »(1) V postopku priznavanja poklicne kvalifikacije odgovornega projektanta za področje arhitekture se avtomatično priznajo kvalifikacije navedene v prilogi št. V.7. Direktive Evropskega Parlamenta in Sveta št. 2005/36/ES o priznavanju poklicnih kvalifikacij (UL L, št. 255 z dne 30. 9. 2005, str. 22) zadnjič spremenjene z Direktivo Sveta 2013/25/EU z dne 13. maja 2013 o prilagoditvi nekaterih direktiv na področju pravice do ustanavljanja in svobode opravljanja storitev zaradi pristopa Republike Hrvaške (UL L 158 z dne 10. 6. 2013, str. 368), (v nadaljnjem besedilu: Direktiva). Te kvalifikacije dokazujejo dokončan program usposabljanja iz prejšnjega člena, če se študij ni začel prej kot med referenčnim letom, navedenim v prilogi št. V.7. Direktive.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Prvi odstavek 6. člena se spremeni tako, da se glasi:<br />
 »(1) Ne glede na določbe 4. in 5. člena tega pravilnika se prizna dokazila o formalnih kvalifikacijah za arhitekta, navedena v prilogi VI. Direktive, ki jih podeljujejo druge države članice EU, s katerimi se potrjuje program usposabljanja, ki se je začel ne kasneje kot v referenčnem akademskem letu iz priloge VI. Direktive, tudi če ne izpolnjujejo minimalnih zahtev iz 2. člena tega pravilnika. Za dostop do opravljanja poklicnih dejavnosti arhitekta, se takim dokazilom prizna enako veljavo kot dokazilom o formalnih kvalifikacijah za arhitekta, ki se jih izdaja državljanom Republike Slovenije.«<br />
 Drugi odstavek se spremeni tako, da se glasi:<br />
@@ -41,9 +54,9 @@ V tretjem odstavku se za drugo alinejo dodata novi tretja in četrta alineja, ki
 »– 1. januarja 2007 za Bolgarijo in Romunijo,«<br />
 »– 1. julija 2013 za Hrvaško.«.<br />
 Dosedanja tretja alineja postane peta alineja.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Prilogi 1 in 2 se črtata.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0071-3/2013</p>
 <p>Ljubljana, dne 17. septembra 2013</p>
@@ -59,5 +72,36 @@ za infrastrukturo in prostor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-10-11", "kratica": "PRAV11796", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o priznavanju poklicne kvalifikacije odgovorni projektant za področje arhitekture državljanom držav članic Evropske unije, Evropskega gospodarskega prostora in Švicarske konfederacije", "url": "/trubar/si/PRAV11796/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

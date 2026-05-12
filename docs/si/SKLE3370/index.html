@@ -21,25 +21,38 @@
       <dt>Organ</dt><dd>Kmetijsko gozdarska zbornica</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-5158" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE3370.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE3370" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE3370.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE3370,vrsta:sklep">
+    
     <h1>Sprememba sklepa o stopnjah, načinih in rokih zbiranja zborničnega prispevka Kmetijsko gozdarske zbornice Slovenije za leto 2002</h1>
 <p>Svet Kmetijsko gozdarske zbornice Slovenije je na podlagi 13. člena zakona o Kmetijsko gozdarski zbornici Slovenije (Uradni list RS, št. 41/99) in 17. člena statuta Kmetijsko gozdarske zbornice Slovenije (Uradni list RS, št. 64/01) na seji dne 22. 11. 2002 sprejel</p>
 <h2>S P R E M E M B O  S K L E P A</h2>
 <p>o stopnjah, načinih in rokih zbiranja zborničnega prispevka Kmetijsko gozdarske zbornice Slovenije za leto 2002</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V sklepu o stopnjah, načinih in rokih zbiranja zborničnega prispevka Kmetijsko gozdarske zbornice Slovenije za leto 2002 (Uradni list RS, št. 12/02) se 8. člen spremeni in se glasi:<br />
 »Zavezancem zborničnega prispevka, ki so sočasno obvezni člani Gospodarske zbornice Slovenije ali Obrtne zbornice Slovenije ali pa so sočasno obvezni člani Gospodarske zbornice Slovenije in Obrtne zbornice Slovenije, se ugotovi prispevno obveznost po vsaki posamezni podlagi.<br />
 V primeru dvojnega članstva plača zavezanec zbornični prispevek, odmerjen v skladu s prvim odstavkom tega člena v višini 50% zborničnega prispevka, ne glede na obseg opravljanja posamezne dejavnosti.<br />
 V primeru trojnega članstva plača zavezanec zbornični prispevek odmerjen v skladu s prvim odstavkom tega člena v višini 33,33% zborničnega prispevka, ne glede na obseg opravljanja posamezne dejavnosti.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:<br />
 »Zbornični prispevek za leto 2002 se odmeri do  31. 12. 2003.«</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sprememba sklepa se objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 1008/2002</p>
 <p>Ljubljana, dne 28. novembra 2002.</p>
@@ -53,5 +66,36 @@ Predsednik sveta KGZS</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-11-29", "kratica": "SKLE3370", "naziv": "Sprememba sklepa o stopnjah, načinih in rokih zbiranja zborničnega prispevka Kmetijsko gozdarske zbornice Slovenije za leto 2002", "url": "/trubar/si/SKLE3370/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

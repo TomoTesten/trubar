@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-02-0083" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKKUES.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MKKUES" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKKUES.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MKKUES,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Konvencije, pripravljene na podlagi člena K.3(2)(c) Pogodbe o Evropski uniji, o boju proti korupciji uradnikov Evropskih skupnosti ali uradnikov držav članic Evropske unije</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI KONVENCIJE, PRIPRAVLJENE NA PODLAGI ČLENA K.3(2)(c) POGODBE O EVROPSKI UNIJI, O BOJU PROTI KORUPCIJI URADNIKOV EVROPSKIH SKUPNOSTI ALI URADNIKOV DRŽAV ČLANIC EVROPSKE UNIJE (MKKUES)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Konvencija, pripravljena na podlagi člena K.3(2)(c) Pogodbe o Evropski uniji, o boju proti korupciji uradnikov Evropskih skupnosti ali uradnikov držav članic Evropske unije, sestavljena v Bruslju dne 26. maja 1997.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo konvencije se v izvirniku v angleškem in v prevodu v slovenskem jeziku glasi:</p>
 <p>Besedilo konvencije v angleškem jeziku</p>
 <h2>K O N V E N C I J A,</h2>
@@ -171,9 +184,9 @@ c) če je dejanja, za katera je bila izrečena sodba v tujini, storil uradnik te
 V potrditev tega so pooblaščenci lastnoročno podpisali to konvencijo.<br />
 Sestavljeno v Bruslju šestindvajsetega maja tisoč devetsto sedemindevetdeset v enem izvirniku v angleškem, danskem, finskem, francoskem, grškem, holandskem, irskem, italijanskem, nemškem, portugalskem, španskem in švedskem jeziku, pri čemer so vsa besedila enako verodostojna, izvirnik pa je deponiran v arhivu generalnega sekretariata Sveta Evropske unije.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje konvencije skrbi Ministrstvo za notranje zadeve Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št.  212-05/04-47/1</p>
 <p>Ljubljana, dne 15. julija 2004</p>
@@ -190,5 +203,36 @@ Feri Horvat l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-07-27", "kratica": "MKKUES", "naziv": "Zakon o ratifikaciji Konvencije, pripravljene na podlagi člena K.3(2)(c) Pogodbe o Evropski uniji, o boju proti korupciji uradnikov Evropskih skupnosti ali uradnikov držav članic Evropske unije", "url": "/trubar/si/MKKUES/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,20 +21,33 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2798" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED958.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED958" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED958.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED958,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah uredbe o načinu, pogojih in postopku uporabe obveznic Republike Slovenije za izvajanje programa prestrukturiranja podjetij</h1>
 <p>Na podlagi 29. člena zakona o Slovenski razvojni družbi in programu prestrukturiranja podjetij (Uradni list RS, št. 39/97 in 69/97) in 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 23/96 in 47/97) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o načinu, pogojih in postopku uporabe obveznic Republike Slovenije za izvajanje programa prestrukturiranja podjetij</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o načinu, pogojih in postopku uporabe obveznic Republike Slovenije za izvajanje programa prestrukturiranja podjetij (Uradni list RS, št. 41/98) se prva alinea  2. člena  spremeni tako, da glasi:<br />
 – za odkup obstoječih terjatev z diskontom ali brez diskonta, kar je odvisno od kvalitete terjatve in zlasti od stopnje zavarovanja.<br />
 Druga alinea se spremeni tako, da se glasi:<br />
 – za odkup novih terjatev v menjalnem razmerju, ki se določi preko zbiranja konkurenčnih ponudb na način, ki ga predpiše minister za finance.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 447-06/98-2</p>
 <p>Ljubljana, dne 20. avgusta 1998.</p>
@@ -49,5 +62,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-08-28", "kratica": "URED958", "naziv": "Uredba o spremembah in dopolnitvah uredbe o načinu, pogojih in postopku uporabe obveznic Republike Slovenije za izvajanje programa prestrukturiranja podjetij", "url": "/trubar/si/URED958/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

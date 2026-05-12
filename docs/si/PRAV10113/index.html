@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0260" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10113.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10113" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10113.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10113,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a><a href="#člen-9">9</a><a href="#člen-10">10</a><a href="#člen-11">11</a><a href="#člen-12">12</a><a href="#člen-13">13</a><a href="#člen-14">14</a><a href="#člen-15">15</a><a href="#člen-16">16</a><a href="#člen-17">17</a><a href="#člen-18">18</a><a href="#člen-19">19</a><a href="#člen-20">20</a><a href="#člen-21">21</a><a href="#člen-22">22</a><a href="#člen-23">23</a><a href="#člen-24">24</a><a href="#člen-25">25</a><a href="#člen-26">26</a><a href="#člen-27">27</a><a href="#člen-28">28</a><a href="#člen-29">29</a></nav>
     <h1>Pravilnik o predložitvi in prevzemu podatkov s plačilnih navodil, izpiska o prometu in stanju, delnih izpisov ter obrestnih listov v računalniški obliki</h1>
 <p>Na podlagi tretjega odstavka 74. člena Zakona o plačilnem prometu (Uradni list RS, št. 110/06 – uradno prečiščeno besedilo, 114/06 – <a href="/trubar/si/ZUE/" class="law-ref" title="ZUE">ZUE</a>, 131/06 – <a href="/trubar/si/ZBan-1/" class="law-ref" title="ZBan-1">ZBan-1</a>, 102/07, 126/07 – <a href="/trubar/si/ZFPPIPP/" class="law-ref" title="ZFPPIPP">ZFPPIPP</a> in 58/09 – <a href="/trubar/si/ZPlaSS/" class="law-ref" title="ZPlaSS">ZPlaSS</a>) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o predložitvi in prevzemu podatkov s plačilnih navodil, izpiska o prometu in stanju, delnih izpisov ter obrestnih listov v računalniški obliki</p>
 <h3>I. SPLOŠNE DOLOČBE</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) Ta pravilnik določa:<br />
 – način predložitve podatkov s plačilnih navodil in prevzema podatkov izpiska o prometu in stanju, delnih izpisov ter obrestnih listov v računalniški obliki;<br />
 – strukturo računalniškega zapisa podatkov z domačega plačilnega navodila, z evropskega plačilnega naloga in s tujega plačilnega navodila za odliv, ki jih proračunski uporabnik predloži Upravi Republike Slovenije za javna plačila (v nadaljnjem besedilu: UJP) v izvršitev, strukturo računalniškega zapisa podatkov o opravljenih plačilnih transakcijah prek podračuna proračunskega uporabnika ali računa v obliki domačega izpiska, tujega izpiska in izpiska v xml strukturi, ki jih UJP pošlje proračunskemu uporabniku, strukturo računalniškega zapisa podatkov o določenih plačilnih transakcijah prek podračunov nadzornika v obliki delnega izpisa, ki ga UJP pošlje nadzorniku, ter strukturo računalniškega zapisa podatkov o obrestnih listih, prejetih od Banke Slovenije, ki jih UJP posreduje proračunskim uporabnikom.<br />
 (2) Določbe tega pravilnika, ki se nanašajo na proračunskega uporabnika, se uporabljajo tudi za nosilca javnih pooblastil, kadar nadzira javnofinančne prihodke.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pojmi, uporabljeni v tem pravilniku, imajo naslednji pomen:<br />
 1. proračunski uporabnik je neposredni ali posredni uporabnik državnega proračuna oziroma proračuna samoupravne lokalne skupnosti, ki je vpisan v register proračunskih uporabnikov pri UJP;<br />
 2. nadzornik je proračunski uporabnik ali nosilec javnih pooblastil, ki je s posebnim predpisom pooblaščen za nadzor nad obračunavanjem in plačevanjem obveznih dajatev in drugih javnofinančnih prihodkov;<br />
@@ -63,19 +76,19 @@
 17. izpisek je izpisek plačilnih transakcij računa ali podračuna proračunskega uporabnika in izpisek stanja na računu ali podračunu;<br />
 18. delni izpis je izpis določenih plačilnih transakcij enega ali več podračunov, pripravljenih za potrebe nadzornikov po posebnih merilih, ki so določena v pravilniku, ki ureja opravljanje nalog UJP na področju plačevanja in razporejanja obveznih dajatev in drugih javnofinančnih prihodkov;<br />
 19. obrestni list je izpis dnevnih obresti za prosta denarna sredstva na EZR in posebnem namenskem transakcijskem računu, ki jih obračuna Banka Slovenije in ga posreduje UJP.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Proračunski uporabnik predloži UJP podatke z domačih plačilnih navodil na zgoščenki, na USB ključu, po e-pošti ali prek UJPnet.<br />
 (2) Proračunski uporabnik predloži UJP podatke z evropskih plačilnih nalogov in s tujih plačilnih navodil za odlive prek UJPnet.<br />
 (3) Proračunski uporabnik od UJP prevzame podatke domačega izpiska, delnega izpisa in tujega izpiska po e-pošti ali prek UJPnet.<br />
 (4) Proračunski uporabnik od UJP prevzame podatke izpiska in delnega izpisa v xml strukturi prek UJPnet.<br />
 (5) Proračunski uporabnik prevzame podatke obrestnega lista v xml strukturi prek UJPnet.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Način predložitve podatkov z domačih plačilnih navodil, evropskih plačilnih nalogov in s tujih plačilnih navodil za odliv ter način pošiljanja izpiskov, delnih izpisov ter obrestnih listov dogovorita proračunski uporabnik oziroma nadzornik in UJP.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>(1) Proračunski uporabnik lahko predloži UJP podatke z domačih plačilnih navodil, evropskih plačilnih nalogov in s tujih plačilnih navodil za odliv na nosilcu podatkov. Če so podatki predloženi na zgoščenki ali na USB ključu, mora proračunski uporabnik predložiti tudi izpis podatkov na papirju. Vsebina izpisa na papirju mora biti enaka vsebini podatkov na predloženi zgoščenki ali predloženem USB ključu, kar s podpisom potrdi pooblaščena oseba proračunskega uporabnika.<br />
 (2) Za predložitev podatkov UJP po e-pošti ali prek UJPnet veljajo splošni predpisi, ki urejajo elektronsko poslovanje. Podrobnosti in morebitne posebnosti pisno uredita proračunski uporabnik in UJP.<br />
 (3) Proračunski uporabnik lahko UJP na predpisan način predloži tudi nujna domača plačilna navodila, nujne evropske naloge in nujna tuja plačilna navodila za odliv.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Proračunski uporabniki lahko predlagajo plačilna navodila v UJP in prevzemajo izpiske, delne izpise in obrestne liste v obliki tekstovnih datotek txt ali xml, in sicer v strukturi:<br />
 – TKDIS.txt za predložitev datoteke s podatki domačih plačilnih navodil;<br />
 – TPNO.txt za predložitev datoteke s podatki tujih plačilnih navodil za odliv, in sicer v primeru čezmejne plačilne transakcije oziroma plačilne transakcije v tujino oziroma domače plačilne transakcije do nerezidentov, v tuji ali v domači valuti;<br />
@@ -86,7 +99,7 @@
 – DelniIzpis.xml za prevzem podatkov delnega izpisa o prometu in o določenih transakcijah na podračunu;<br />
 – ObrestniList.xml za prevzem podatkov obrestnega lista o dnevnih obrestih za prosta denarna sredstva na EZR in posebnem namenskem transakcijskem računu.</p>
 <h3>II. LASTNOSTI IN PRAVILA OBLIKOVANJA STRUKTURE DATOTEK V TXT OBLIKI</h3>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>(1) Ime datoteke mora biti oblikovano na naslednji način:<br />
 a) datoteke, posredovane na zgoščenki, na USB ključu, prek UJPnet in po e-pošti ter prevzete na zgoščenki, na USB ključu in po e-pošti:<br />
 – TKDIS.txt za predložitev podatkov domačih plačilnih navodil,<br />
@@ -137,10 +150,10 @@ b) datoteke, prevzete prek UJPnet:<br />
 – alfanumerični podatki so levo poravnani in do dolžine polja zapolnjeni s presledki in<br />
 – transakcijski račun zapolnjuje prvih 15 mest (15 številk) in je do dolžine polja zapolnjen s presledki ali oznako tuje valute.<br />
 (6) Datoteke txt s podatki izpiskov in delnih izpisov, prevzetih prek UJPnet, so pripravljene v kodni tabeli CP:1250.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Če proračunski uporabnik UJP predloži nujna domača plačilna navodila, morajo biti ta plačilna navodila predložena ločeno od rednih plačilnih navodil, na ločenem nosilcu podatkov.</p>
 <h3>a) Struktura datoteke TKDIS.txt za predložitev podatkov</h3>
-<h3>9. člen</h3>
+<h3><span id="člen-9">9. člen</span></h3>
 <p>(1) Računalniški zapis za predložitev podatkov domačih plačilnih navodil vsebuje tri vrste stavkov: naslovnega, zbirnega in individualnega.<br />
 (2) Stavki se zapišejo na datoteko po naslednjem vrstnem redu:<br />
 naslovni {zbirni (individualni)}.<br />
@@ -148,7 +161,7 @@ naslovni {zbirni (individualni)}.<br />
 – v elektronskem zapisu sme biti toliko zbirnih stavkov, kolikor je priloženih zbirnih plačilnih navodil, vendar ne več kot 999,<br />
 – v okviru enega zbirnega plačilnega navodila sme biti največ 9.999 individualnih plačilnih navodil,<br />
 – število znakov skupnega zneska v okviru ene logične celote na sme presegati 15 mest.</p>
-<h3>10. člen</h3>
+<h3><span id="člen-10">10. člen</span></h3>
 <p>Struktura naslovnega stavka:</p>
 <p>+----------+---------+-----+---------------------------------+<br />
 | Pozicija | Število | Tip |            Opis polja           |<br />
@@ -184,7 +197,7 @@ naslovni {zbirni (individualni)}.<br />
 +----------+---------+-----+---------------------------------+<br />
 |   Skupaj:|      180|     |                                 |<br />
 +----------+---------+-----+---------------------------------+</p>
-<h3>11. člen</h3>
+<h3><span id="člen-11">11. člen</span></h3>
 <p>Struktura zbirnega stavka:</p>
 <p>+----------+---------+-----+---------------------------------+<br />
 | Pozicija | Število | Tip |            Opis polja           |<br />
@@ -245,7 +258,7 @@ naslovni {zbirni (individualni)}.<br />
 +----------+---------+-----+---------------------------------+<br />
 |   Skupaj:|      180|     |                                 |<br />
 +----------+---------+-----+---------------------------------+</p>
-<h3>12. člen</h3>
+<h3><span id="člen-12">12. člen</span></h3>
 <p>Struktura individualnega stavka:</p>
 <p>+----------+----------+---+----------------------------------+<br />
 | Pozicija | Število  |Tip|            Opis polja            |<br />
@@ -301,7 +314,7 @@ naslovni {zbirni (individualni)}.<br />
 |   Skupaj:|       180|   |                                  |<br />
 +----------+----------+---+----------------------------------+</p>
 <h3>b) Struktura datoteke TPNO.txt za predložitev podatkov</h3>
-<h3>13. člen</h3>
+<h3><span id="člen-13">13. člen</span></h3>
 <p>(1) Datoteka za predložitev podatkov tujih plačilnih navodil za odliv, ki jo proračunski uporabnik predloži UJP, vsebuje štiri vrste stavkov: odredbodajalec, plačilo, statistika in kritje.<br />
 (2) Stavki se zapišejo na datoteko s podatki po naslednjem vrstnem redu:<br />
 odredbodajalec {plačilo (statistika,[kritje])}.<br />
@@ -309,7 +322,7 @@ odredbodajalec {plačilo (statistika,[kritje])}.<br />
 – v okviru enega stavka ‘plačilo’ sme biti največ 99 stavkov 'statistika' in največ en stavek ‘kritje’,<br />
 – številčni podatki morajo biti zapisani z vodilnimi ničlami,<br />
 – prazna polja se izpolnijo s presledki (32dec).</p>
-<h3>14. člen</h3>
+<h3><span id="člen-14">14. člen</span></h3>
 <p>Struktura stavka odredbodajalec:</p>
 <p>+----------+---------+-----+---------------------------------+<br />
 | Pozicija | Število | Tip |            Opis polja           |<br />
@@ -345,7 +358,7 @@ odredbodajalec {plačilo (statistika,[kritje])}.<br />
 +----------+---------+-----+---------------------------------+<br />
 |   Skupaj:|      155|     |                                 |<br />
 +----------+---------+-----+---------------------------------+</p>
-<h3>15. člen</h3>
+<h3><span id="člen-15">15. člen</span></h3>
 <p>Struktura stavka plačilo:</p>
 <p>+----------+---------+-----+---------------------------------+<br />
 | Pozicija | Število | Tip |            Opis polja           |<br />
@@ -453,7 +466,7 @@ odredbodajalec {plačilo (statistika,[kritje])}.<br />
 +----------+---------+-----+---------------------------------+<br />
 |   Skupaj:|      290|     |                                 |<br />
 +----------+---------+-----+---------------------------------+</p>
-<h3>16. člen</h3>
+<h3><span id="člen-16">16. člen</span></h3>
 <p>Struktura stavka statistika:</p>
 <p>+----------+---------+-----+---------------------------------+<br />
 | Pozicija | Število | Tip |            Opis polja           |<br />
@@ -507,7 +520,7 @@ odredbodajalec {plačilo (statistika,[kritje])}.<br />
 +----------+---------+-----+---------------------------------+<br />
 |   Skupaj:|      157|     |                                 |<br />
 +----------+---------+-----+---------------------------------+</p>
-<h3>17. člen</h3>
+<h3><span id="člen-17">17. člen</span></h3>
 <p>Struktura stavka kritje:</p>
 <p>+----------+---------+-----+---------------------------------+<br />
 | Pozicija | Število | Tip |            Opis polja           |<br />
@@ -526,7 +539,7 @@ odredbodajalec {plačilo (statistika,[kritje])}.<br />
 |   Skupaj:|       21|     |                                 |<br />
 +----------+---------+-----+---------------------------------+</p>
 <h3>d) Struktura datoteke TKIZP.txt in TKDIS.txt za prevzem podatkov</h3>
-<h3>18. člen</h3>
+<h3><span id="člen-18">18. člen</span></h3>
 <p>(1) Podatki izpiska o stanju na računu/podračunu se v datoteki TKIZP.txt zapišejo v dveh vrstah stavkov, in sicer 01 in 99.<br />
 (2) Struktura stavka 01:</p>
 <p>+----------+---------+---------+-----------------------------+<br />
@@ -663,7 +676,7 @@ odredbodajalec {plačilo (statistika,[kritje])}.<br />
 +---------+----------+---------+-----------------------------+<br />
 |  Skupaj:|       194|         |                             |<br />
 +---------+----------+---------+-----------------------------+</p>
-<h3>19. člen</h3>
+<h3><span id="člen-19">19. člen</span></h3>
 <p>(1) Podatki izpiska o transakcijah na računu/podračunu so v datoteki TKDIS. txt zapisani v naslednjem stavku:</p>
 <p>+---------+----------+---------+-----------------------------+<br />
 | Pozicija| Število  |   Tip   |         Opis polja          |<br />
@@ -991,7 +1004,7 @@ odredbodajalec {plačilo (statistika,[kritje])}.<br />
 |  Skupaj:|       280|         |                             |<br />
 +---------+----------+---------+-----------------------------+</p>
 <h3>III. LASTNOSTI IN PRAVILA OBLIKOVANJA STRUKTURE DATOTEK V XML OBLIKI</h3>
-<h3>20. člen</h3>
+<h3><span id="člen-20">20. člen</span></h3>
 <p>(1) Ime datoteke mora biti oblikovano na naslednji način:<br />
 a) datoteke, posredovane prek UJPnet:<br />
 – EvropskiNalog.xml za predložitev podatkov evropskih plačilnih nalogov,<br />
@@ -1042,7 +1055,7 @@ Datum    standardni datumski podatkovni tip xsd, skladen z<br />
          obliko ISO 8601<br />
          (LLLL-MM-DD)</p>
 <h3>a) Struktura datoteke EvropskiNalog.xml za predložitev podatkov</h3>
-<h3>21. člen</h3>
+<h3><span id="člen-21">21. člen</span></h3>
 <p>(1) Računalniški zapis za predložitev paketa s podatki evropskih plačilnih nalogov vsebuje en element Vodilni Zapis in enega ali več elementov Evropski Nalog.<br />
 (2) Struktura elementa Vodilni Zapis:</p>
 <p>+-------------+--------+---------------------------+----------------+----+<br />
@@ -1076,7 +1089,7 @@ Datum    standardni datumski podatkovni tip xsd, skladen z<br />
 <p>(3) Struktura elementa Evropski Nalog:</p>
 <p>Tabela</p>
 <h3>b) Struktura datoteke Izpisek.xml za prevzem podatkov</h3>
-<h3>22. člen</h3>
+<h3><span id="člen-22">22. člen</span></h3>
 <p>(1) Računalniški zapis za prevzem paketa s podatki izpiska vsebuje en element Vodilni Zapis in en element Izpisek.<br />
 (2) Element Izpisek sestavljata podrejena elementa Glava Izpiska in Promet. Vse postavke Prometa se nanašajo na iso valuto, kot je definirana v Glavi Izpiska.<br />
 (3) Vse podatke oziroma elemente, ki so bili izpolnjeni v izvirni transakciji plačnika, mora ponudnik plačilnih storitev oziroma UJP zapisati v elementu Izpisek.<br />
@@ -1243,7 +1256,7 @@ Datum    standardni datumski podatkovni tip xsd, skladen z<br />
 <p>(6) Struktura elementa Promet:</p>
 <p>Tabela</p>
 <h3>c) Struktura datoteke DelniIzpis.xml za prevzem podatkov</h3>
-<h3>23. člen</h3>
+<h3><span id="člen-23">23. člen</span></h3>
 <p>(1) Računalniški zapis za prevzem paketa s podatki delnega izpisa vsebuje en element Vodilni Zapis in en element Delni Izpis.<br />
 (2) Element Delni Izpis je sestavljen iz enega ali več elementov Glava Izpiska in enega ali več elementov Promet.<br />
 (3) Vse podatke oziroma elemente, ki so bili izpolnjeni v izvirni transakciji plačnika, mora ponudnik plačilnih storitev oziroma UJP zapisati v elementu Delni Izpis.<br />
@@ -1418,7 +1431,7 @@ Datum    standardni datumski podatkovni tip xsd, skladen z<br />
 +-----------+--------+---------------------------+------------------+</p>
 <p>(6) Struktura elementa Promet:</p>
 <p>Tabela</p>
-<h3>24. člen</h3>
+<h3><span id="člen-24">24. člen</span></h3>
 <h3>d) Struktura datoteke ObrestniList.xml za prevzem podatkov</h3>
 <p>(1) Računalniški zapis za prevzem paketa s podatki obrestnega lista vsebuje en element Vodilni Stavek in enega ali več elementov Obrestni List.<br />
 (2) Vse podatke oziroma elemente obrestnega lista, ki ga UJP prejme od Banke Slovenije, mora UJP posredovati upravljavcu denarnih sredstev sistema EZR.<br />
@@ -1563,18 +1576,18 @@ Datum    standardni datumski podatkovni tip xsd, skladen z<br />
 |obresti       |        |            |                         |<br />
 +--------------+--------+------------+-------------------------+</p>
 <h3>IV. ZAPIS IN KONTROLA PODATKOV V RAČUNALNIŠKI OBLIKI</h3>
-<h3>25. člen</h3>
+<h3><span id="člen-25">25. člen</span></h3>
 <p>Domača plačilna navodila, evropski plačilni nalogi in tuja plačilna navodila za odlive, ki jih proračunski uporabnik posreduje UJP v računalniški obliki, morajo vsebovati vse predpisane podatke. Pred predložitvijo/pošiljanjem podatkov UJP mora proračunski uporabnik vse vsebovane podatke preveriti po določbah tega pravilnika.</p>
-<h3>26. člen</h3>
+<h3><span id="člen-26">26. člen</span></h3>
 <p>(1) Kontrola številke računa plačnika in računa prejemnika plačila se opravi v skladu z izračunom kontrolne številke po poenostavljenem modelu ISO 7064, MOD 97-10. Primer izračuna kontrolne številke je v prilogi, ki je sestavni del tega pravilnika.<br />
 (2) Kontrola podatkov v referencah na številko obremenitve oziroma odobritve se opravi na način, predpisan za izbrano številko modela v Pregledu in vsebini osnovnih modelov za sklicevanje na številko obremenitve in odobritve ter v pojasnilih za njihovo uporabo, ki je priloga predpisa, ki določa obliko, vsebino in uporabo obrazca domačega plačilnega navodila.<br />
 (3) Podatki v referencah na številko obremenitve in odobritve se ne kontrolirajo, če je izbrana številka modela 00.</p>
 <h3>V. PREHODNA IN KONČNI DOLOČBI</h3>
-<h3>27. člen</h3>
+<h3><span id="člen-27">27. člen</span></h3>
 <p>V treh mesecih po uveljavitvi tega pravilnika se ukine uporaba e-pošte za predložitev in prevzem podatkov, kot je določena v 3. členu tega pravilnika.</p>
-<h3>28. člen</h3>
+<h3><span id="člen-28">28. člen</span></h3>
 <p>Z uveljavitvijo tega pravilnika preneha veljati Pravilnik za predložitev in prevzem podatkov s plačilnih navodil, izpiska o prometu in stanju ter delnih izpisov v računalniški obliki (Uradni list RS, št. 117/02, 72/04, 120/05, 137/06, 117/07 in 126/08).</p>
-<h3>29. člen</h3>
+<h3><span id="člen-29">29. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 479-1/2010/5</p>
 <p>Ljubljana, dne 21. januarja 2010</p>
@@ -1591,5 +1604,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-02-05", "kratica": "PRAV10113", "naziv": "Pravilnik o predložitvi in prevzemu podatkov s plačilnih navodil, izpiska o prometu in stanju, delnih izpisov ter obrestnih listov v računalniški obliki", "url": "/trubar/si/PRAV10113/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

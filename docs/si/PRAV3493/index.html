@@ -16,30 +16,43 @@
     <dl>
       <dt>Kratica</dt><dd><strong>PRAV3493</strong></dd>
       <dt>Vrsta</dt><dd>pravilnik</dd>
-      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
       <dt>Datum</dt><dd>1995-01-27</dd>
-      
+      <dt>Organ</dt><dd>Ministrstvo za delo, družino in socialne zadeve</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0386" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3493.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV3493" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3493.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV3493,vrsta:pravilnik">
+    
     <h1>Pravilnik o določitvi metodologije za nadzor nad izvajanjem zakona o razmerjih plač v javnih zavodih, državnih organih in v organih lokalnih skupnosti</h1>
 <p>Na podlagi 21. člena zakona o razmerjih plač v javnih zavodih, državnih organih in v organih lokalnih skupnosti (Uradni list RS, št. 18/94) izdaja ministrica za delo, družino in socialne zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o določitvi metodologije za nadzor nad izvajanjem zakona o razmerjih plač v javnih zavodih, državnih organih in v organih lokalnih skupnosti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Nadzor nad izvajanjem zakona o razmerjih plač v javnih zavodih, državnih organih in v organih lokalnih skupnosti (Uradni list RS, št. 18/94 – v nadaljnjem besedilu: zakon) se opravlja z občasnimi kontrolnimi pregledi izplačil plač v javnem zavodu, državnem organu oziroma organu lokalne skupnosti. Nadzor se opravlja s pregledi individualnih izplačil in spremljanjem obsega izplačanih sredstev.<br />
 Nadzor individualnih izplačil plač se lahko opravi tudi na podlagi vzorca.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Organ, pristojen za nadzor, ugotavlja zakonitost individualnega izplačila s kontrolo:<br />
 – osnove za obračun plač,<br />
 – količnika osnove plače,<br />
 – dela plače za delovno uspešnost in<br />
 – dela plače iz naslova dodatkov.<br />
 Zakonitost izplačil se ugotavlja s primerjavo dejanskih izplačil z izplačili po zakonu in drugih veljavnih predpisih.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Organ, pristojen za nadzor, ugotavlja zakonitost izplačanih sredstev za plače na podlagi naslednjih podatkov:<br />
 – skupnega obsega koeficientov za vse zaposlene v zavodu, ob uveljavitvi zakona,<br />
 – razlike v koeficientih iz naslova napredovanja,<br />
@@ -48,7 +61,7 @@ Zakonitost izplačil se ugotavlja s primerjavo dejanskih izplačil z izplačili 
 – obsega sredstev za delovno uspešnost in<br />
 – vrednosti osnove za izračun plač.<br />
 Organ, pristojen za nadzor, podatke dostavi ministrstvu pristojnemu za dejavnost.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 141-112/94-66</p>
 <p>Ljubljana, dne 11. januarja 1995.</p>
@@ -64,5 +77,36 @@ Rina Klinar l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-01-27", "kratica": "PRAV3493", "naziv": "Pravilnik o določitvi metodologije za nadzor nad izvajanjem zakona o razmerjih plač v javnih zavodih, državnih organih in v organih lokalnih skupnosti", "url": "/trubar/si/PRAV3493/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

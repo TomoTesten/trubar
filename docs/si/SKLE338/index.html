@@ -21,26 +21,39 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0389" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE338.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE338" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE338.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE338,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Sklep o vsebini letnega in polletnega poročila o poslovanju investicijskega sklada</h1>
 <p>Na podlagi drugega odstavka 102. člena zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 6/94) izdaja Agencija za trg vrednostnih papirjev</p>
 <h2>S K L E P</h2>
 <p>o vsebini letnega in polletnega poročila o poslovanju investicijskega sklada</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta sklep določa vsebino letnega in polletnega poročila o poslovanju vzajemnega sklada, investicijske družbe in pooblaščene investicijske družbe (investicijskega sklada).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Letno in polletno poročilo o poslovanju investicijskega sklada mora vsebovati podatke in postavke, določene v računovodskih rešitvah v investicijskih skladih in v računovodskih rešitvah v pooblaščenih investicijskih družbah, ki so v prilogi 1 tega sklepa.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Postavke, vključene v računovodske rešitve iz priloge 1 tega sklepa, se evidentirajo in razvrščajo za potrebe polletnega in letnega poročanja po kontnem načrtu za vzajemne sklade, investicijske družbe in pooblaščene investicijske družbe, ki je v prilogi 2 tega sklepa.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Družbe za upravljanje uskladijo vodenje poslovnih knjig investicijskih skladov s kontnim načrtom iz priloge 2 tega sklepa s 1. januarjem 1995.<br />
 Pravne osebe, ki upravljajo vzajemne sklade, so dolžne zaradi uskladitve poslovanja po 145. členu zakona o investicijskih skladih in družbah za upravljanje na dan 1. januarja 1995 ponovno vrednotiti sredstva in obveznosti do njihovih virov v skladu s tem sklepom.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Družba za upravljanje je dolžna Agenciji za trg vrednostnih papirjev dostaviti polletno in letno poročilo o poslovanju investicijskega sklada najkasneje 5 dni pred objavo v sredstvih javnega obveščanja.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta sklep začne veljati z dnem objave v Uradnem listu Republike Slovenije.</p>
 <p>Št. 26/ AG -94</p>
 <p>Ljubljana, dne 23. decembra 1994.</p>
@@ -1662,5 +1675,36 @@ osebah</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-01-27", "kratica": "SKLE338", "naziv": "Sklep o vsebini letnega in polletnega poročila o poslovanju investicijskega sklada", "url": "/trubar/si/SKLE338/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

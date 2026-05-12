@@ -21,27 +21,40 @@
       <dt>Organ</dt><dd>Ministrstvo za visoko šolstvo, znanost in tehnologijo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0013" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10097.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10097" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10097.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10097,vrsta:pravilnik">
+    
     <h1>Pravilnik o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnih zavodih iz pristojnosti s področja izobraževanja, znanosti in športa</h1>
 <p>Na podlagi drugega odstavka 22.i člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 95/07 - uradno prečiščeno besedilo, 17/08, 58/08, 69/08 - ZTFI-A, 69/08 - ZZavar-E, 80/08, 48/09 in 91/09) ter prvega odstavka 3. člena Uredbe o delovni uspešnosti iz naslova prodaje blaga in storitev na trgu (Uradni list RS, št. 97/09) minister za visoko šolstvo, znanost in tehnologijo izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnih zavodih iz pristojnosti Ministrstva za visoko šolstvo, znanost in tehnologijo</p>
 <h3>I. SPLOŠNA DOLOČBA</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(predmet urejanja)</h3>
 <p>S tem pravilnikom se določa obseg sredstev, ki ga javni zavodi iz pristojnosti Ministrstva za visoko šolstvo, znanost in tehnologijo lahko namenijo za plačilo delovne uspešnosti iz naslova prodaje blaga in storitev na trgu.</p>
 <h3>(OBSEG SREDSTEV)</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(obseg sredstev)</h3>
 <p>V javnih zavodih iz pristojnosti Ministrstva za visoko šolstvo, znanost in tehnologijo obseg sredstev za plačilo delovne uspešnosti iz naslova prodaje blaga in storitev na trgu znaša največ 60 odstotkov dosežene razlike med prihodki in odhodki od prodaje blaga in storitev na trgu.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(prenehanje veljavnosti)</h3>
 <p>Z dnem uveljavitve tega pravilnika preneha veljati Pravilnik o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnih zavodih iz pristojnosti Ministrstva za visoko šolstvo, znanost in tehnologijo (Uradni list RS, št. 121/08).</p>
 <h3>III. KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(začetek veljavnosti)</h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi.</p>
 <p>Št. 007-18/2009</p>
@@ -59,5 +72,36 @@ znanost in tehnologijo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-01-08", "kratica": "PRAV10097", "naziv": "Pravilnik o določitvi obsega sredstev za delovno uspešnost iz naslova prodaje blaga in storitev na trgu v javnih zavodih iz pristojnosti s področja izobraževanja, znanosti in športa", "url": "/trubar/si/PRAV10097/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

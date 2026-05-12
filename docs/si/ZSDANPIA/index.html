@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2772" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZSDANPIA.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZSDANPIA" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZSDANPIA.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZSDANPIA,vrsta:Sprejet zakon">
+    
     <h1>Zakon o soglasju Republike Slovenije DARS d.d. za najetje kreditov in izdajo obveznic za realizacijo gradnje avtocestnih odsekov iz Nacionalnega programa izgradnje avtocest v Republiki Sloveniji v višini 246,72 mio evrov</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -42,10 +55,10 @@ Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SOGLASJU REPUBLIKE SLOVENIJE DARS D.D. ZA NAJETJE KREDITOV IN IZDAJO OBVEZNIC<br />
 ZA REALIZACIJO GRADNJE AVTOCESTNIH ODSEKOV IZ NACIONALNEGA PROGRAMA IZGRADNJE AVTOCEST V REPUBLIKI SLOVENIJI V VIŠINI 246,72 MIO EUR (ZSDANPIA)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Državni zbor Republike Slovenije daje Družbi za avtoceste v Republiki Sloveniji d.d. (v nadaljevanju besedila: DARS d.d.) soglasje za najetje kreditov pri domačih ali tujih kreditodajalcih in za izdajo obveznic do skupne višine 246,72 mio evrov glavnice s pripadajočimi obrestmi in drugimi stroški v tolarski protivrednosti po srednjem tečaju Banke Slovenije na dan sklenitve kreditnih pogodb oziroma izdaje obveznic.<br />
 Sredstva kreditov oziroma obveznic iz prejšnjega odstavka tega člena se namenijo za financiranje realizacije gradnje načrtovanih avtocestnih odsekov iz nacionalnega programa izgradnje avtocest v Republiki Sloveniji (Uradni list RS, št. 13/96 in 41/98) in v skladu z dinamiko izvedbe iz letnih planov razvoja in vdrževanja avtocest, in sicer za odseke: Krška vas – Obrežje, Škofije – Srmin, Podtabor – Naklo, Bič – Trebnje – Hrastje (etapa: Korenitka – Pluska), Hrastje – Kronovo (etapa: Hrastje – Lešnica), Šentvid – Koseze in Smednik – Krška vas.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>DARS d.d. lahko najame kredite iz prejšnjega člena pod naslednjimi pogoji:<br />
 – sredstva se lahko črpajo v več obrokih, in sicer do konca leta 2008,<br />
 – rok odplačila je do 30 let, z vključenim najmanj 5-letnim moratorijem na odplačilo glavnice,<br />
@@ -58,7 +71,7 @@ DARS d.d. lahko izda obveznice iz prejšnjega člena pod naslednjimi pogoji:<br 
 – obrestna mera mora biti primerljiva z obrestno mero za podobne obveznosti, zavarovane z državnim poroštvom,<br />
 – stroški, povezani s pripravo oziroma izdajo obveznic, ne smejo presegati 1% vrednosti izdanih obveznic,<br />
 – rok zastaranja pravic iz obveznic je 3 leta po zapadlosti posamezne obveznosti.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-03/03-120/1</p>
 <p>Ljubljana, dne 29. maja 2003.</p>
@@ -75,5 +88,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-06-13", "kratica": "ZSDANPIA", "naziv": "Zakon o soglasju Republike Slovenije DARS d.d. za najetje kreditov in izdajo obveznic za realizacijo gradnje avtocestnih odsekov iz Nacionalnega programa izgradnje avtocest v Republiki Sloveniji v višini 246,72 mio evrov", "url": "/trubar/si/ZSDANPIA/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

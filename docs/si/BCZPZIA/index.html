@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-02-0079" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/BCZPZIA.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=BCZPZIA" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/BCZPZIA.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:BCZPZIA,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Sporazuma o spremembi Sporazuma med Republiko Slovenijo in Češko republiko o podpori in zaščiti investicij in o njegovem prenehanju</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI SPORAZUMA O SPREMEMBI SPORAZUMA MED REPUBLIKO SLOVENIJO IN ČEŠKO REPUBLIKO O PODPORI IN ZAŠČITI INVESTICIJ IN O NJEGOVEM PRENEHANJU (BCZPZIA)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sporazum o spremembi Sporazuma med Republiko Slovenijo in Češko republiko o podpori in zaščiti investicij in o njegovem prenehanju, sklenjen z izmenjavo not 8. julija 2009.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sporazum se v izvirniku v angleškem jeziku in prevodu v slovenskem jeziku glasi:<br />
 No. 4/2009<br />
 The Embassy of the Czech Republic in Ljubljana presents its compliments to the Ministry of Foreign Affairs of the Republic of Slovenia and, referring to the recommendations contained in the 2006 Annual Report to the ECOFIN Council and desiring to ensure that all investors from all Member States of the European Union are accorded equal treatment based on ED legislation, has the honour to convey to the esteemed Ministry the following:<br />
@@ -85,9 +98,9 @@ Ministrstvo za zunanje zadeve izkorišča tudi to priložnost, da Veleposlaništ
 Ljubljana, 8. julij 2009<br />
 VELEPOSLANIŠTVO ČEŠKE REPUBLIKE<br />
 LJUBLJANA</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Ministrstvo za gospodarstvo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 410-01/09-2/11</p>
 <p>Ljubljana, dne 18. junija 2010</p>
@@ -104,5 +117,36 @@ Podpredsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-07-12", "kratica": "BCZPZIA", "naziv": "Zakon o ratifikaciji Sporazuma o spremembi Sporazuma med Republiko Slovenijo in Češko republiko o podpori in zaščiti investicij in o njegovem prenehanju", "url": "/trubar/si/BCZPZIA/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

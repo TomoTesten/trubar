@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0952" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED194.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED194" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED194.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED194,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah uredbe o kombinirani nomenklaturi carinske tarife</h1>
 <p>Na podlagi tretjega odstavka 9. člena zakona o carinski tarifi (Uradni list RS, št. 74/95) in 26. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o kombinirani nomenklaturi carinske tarife</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o kombinirani nomenklaturi carinske tarife (Uradni list RS, št. 75/95 in 15/96) se priloga, ki je sestavni del uredbe spremeni v naslednjem:</p>
 <p>1.) pri tarifni oznaki 030799 180 se v koloni 4 doda stopnja "2";</p>
 <p>2.) tarifna oznaka 2505 10 000 in pripadajoče besedilo se črtata<br />
@@ -291,7 +304,7 @@ in nadomesti z naslednjim:</p>
 <p>"8481 80 99 - - - - drugi:</p>
 <p>*8481 80 991 - - - - - ventili z razpršilci - 15</p>
 <p>*8481 80 999 - - - - - drugi - 15"</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 424– 04/95– 11/3– 8</p>
 <p>Ljubljana, dne 14. marca 1996.</p>
@@ -306,5 +319,36 @@ Janko Deželak l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-03-22", "kratica": "URED194", "naziv": "Uredba o spremembah in dopolnitvah uredbe o kombinirani nomenklaturi carinske tarife", "url": "/trubar/si/URED194/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

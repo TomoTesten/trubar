@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pravilnik o razveljavitvi Pravilnika o pogojih, ki jih morajo izpolnjevati strokovnjaki, ki dajejo izvedenska mnenja o zdravilu za uporabo v veterinarski medicini — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Pravilnik o razveljavitvi Pravilnika o pogojih, ki jih morajo izpolnjevati strokovnjaki, ki dajejo izvedenska mnenja o zdravilu za uporabo v veterinarski medicini</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>PRAV8766</strong></dd>
+      <dt>Vrsta</dt><dd>pravilnik</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
+      <dt>Datum</dt><dd>2008-09-26</dd>
+      <dt>Organ</dt><dd>Ministrstvo za zdravje</dd>
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3892" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV8766" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8766.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:PRAV8766,vrsta:pravilnik">
+    
+    <h1>Pravilnik o razveljavitvi Pravilnika o pogojih, ki jih morajo izpolnjevati strokovnjaki, ki dajejo izvedenska mnenja o zdravilu za uporabo v veterinarski medicini</h1>
+<p>Na podlagi drugega odstavka 2. člena in v zvezi s prvim odstavkom 124. člena Zakona o zdravilih (Uradni list RS, št. 31/06 in 45/08) ministrica za zdravje, v soglasju z ministrom za kmetijstvo, gozdarstvo in prehrano, izdaja</p>
+<h2>P R A V I L N I K</h2>
+<p>o razveljavitvi Pravilnika o pogojih, ki jih morajo izpolnjevati strokovnjaki, ki dajejo izvedenska mnenja o zdravilu za uporabo v veterinarski medicini</p>
+<h3><span id="člen-1">1. člen</span></h3>
+<p>Z dnem uveljavitve tega pravilnika preneha veljati Pravilnik o pogojih, ki jih morajo izpolnjevati strokovnjaki, ki dajejo izvedenska mnenja o zdravilu za uporabo v veterinarski medicini (Uradni list RS, št. 28/04).</p>
+<h3><span id="člen-2">2. člen</span></h3>
+<p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 715-2000/2008</p>
+<p>Ljubljana, dne 24. julija 2008</p>
+<p>EVA 2008-2711-0031</p>
+<p>Zofija Mazej Kukovič l.r.<br />
+Ministrica<br />
+za zdravje<br />
+Soglašam!<br />
+Iztok Jarc l.r.<br />
+Minister<br />
+za kmetijstvo, gozdarstvo in prehrano</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-09-26", "kratica": "PRAV8766", "naziv": "Pravilnik o razveljavitvi Pravilnika o pogojih, ki jih morajo izpolnjevati strokovnjaki, ki dajejo izvedenska mnenja o zdravilu za uporabo v veterinarski medicini", "url": "/trubar/si/PRAV8766/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

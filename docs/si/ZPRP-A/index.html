@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1813" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPRP-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPRP-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPRP-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPRP-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o pogojih za refundiranje prispevkov, ki jih plačujejo delodajalci za socialno zavarovanje</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,14 +50,14 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O POGOJIH ZA REFUNDIRANJE PRISPEVKOV, KI JIH PLAČUJEJO DELODAJALCI ZA SOCIALNO ZAVAROVANJE</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o pogojih za refundiranje prispevkov, ki jih plačujejo delodajalci za socialno zavarovanje (Uradni list RS, št. 18/94) se v 4. členu doda nov drugi odstavek, ki se glasi:</p>
 <p>“V primeru, da bi bila brezposelna oseba upravičena do denarnega nadomestila ali denarne pomoči za manj kot eno leto, se prispevki refundirajo za obdobje enega leta.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 5. člena se doda nova četrta alinea, ki se glasi:</p>
 <p>“– da za zaposlitev brezposelne osebe še ni prejel drugih finančnih sredstev, namenjenih za izvajanje programov zaposlovanja.”</p>
 <p>V drugem odstavku se beseda “zadnje” nadomesti z besedo “tretje”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
@@ -52,7 +65,7 @@ Milan Kučan l. r.</p>
 <p>Zahtevku priloži:<br />
 – podatke o višini obračunanih plač ter podatke o obračunanih davkih in prispevkih za socialno varnost za vse zaposlene, s tem da morajo biti v obračunu plač ločeno izkazani podatki o obračunanih plačah in obračunanih davkih in prispevkih za socialno zavarovanje za delavce, ki so zaposleni po tem zakonu. Obračun plač, ki ga pravna oseba predloži Republiškemu zavodu za zaposlovanje, mora biti identična obračunu plač, ki ga je predložila Agenciji Republike Slovenije za plačilni promet, nadziranje in informiranje (v nadaljnjem besedilu: Agencija), kar potrdi Agencija na obračunu plač;<br />
 – potrdilo Agencije oziroma Republiške uprave za javne prihodke, da so obračunani davki in prispevki za socialno zavarovanje od izplačanih plač za vse zaposlene pri pravni oziroma fizični osebi, plačani.”</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 170-01/94-1/4</p>
 <p>Ljubljana, dne 21. junija 1995.</p>
@@ -68,5 +81,36 @@ Jožef Školč l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-06-30", "kratica": "ZPRP-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o pogojih za refundiranje prispevkov, ki jih plačujejo delodajalci za socialno zavarovanje", "url": "/trubar/si/ZPRP-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

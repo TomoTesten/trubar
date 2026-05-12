@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1102" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6329.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE6329" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6329.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE6329,vrsta:sklep">
+    
     <h1>Cenik cestnine za uporabo cestninskih cest</h1>
 <p>Na podlagi drugega odstavka 6.b člena Zakona o Družbi za avtoceste v Republiki Sloveniji (Uradni list RS, št. 20/04 – uradno prečiščeno besedilo), določb 5., 6. in 8. člena Uredbe o cestninskih cestah in cestnini za uporabo cestninskih cest (Uradni list RS, št. 110/05) ter 34. člena Statuta Družbe za avtoceste v Republiki Sloveniji, d.d. in 2. člena poslovnika uprave Družbe za avtoceste v Republiki Sloveniji, d.d. je uprava Družbe za avtoceste v Republiki Sloveniji, d.d. na seji dne 10. januarja 2006 sprejela</p>
 <h2>C E N I K</h2>
@@ -1441,5 +1454,36 @@ predsednik uprave DARS d.d.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-03-10", "kratica": "SKLE6329", "naziv": "Cenik cestnine za uporabo cestninskih cest", "url": "/trubar/si/SKLE6329/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

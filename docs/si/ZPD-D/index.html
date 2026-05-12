@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2899" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPD-D.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPD-D" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPD-D.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPD-D,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembi zakona o prometnem davku</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in drugega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBI ZAKONA O PROMETNEM DAVKU (ZPD-D)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o prometnem davku (Uradni list RS, št. 4/92, 9/92 – popravek, 12/93 – odločba US, 71/93 in 16/96) se v 18. členu 14. točka spremeni tako, da glasi:</p>
 <p>“14) od novih osebnih avtomobilov z delovno prostornino bencinskega motorja do 1,8 litra in dieselskega motorja do 1,9 litra oziroma z delovno prostornino bencinskega motorja do 2 litra in dieselskega motorja do 2,2 litra za nove osebne avtomobile z avtomatskim upravljanjem ter od kombi vozil, posebej prirejenih za prevoz invalida na invalidskem vozičku, ki jih največ enkrat v petih letih kupijo izključno za svoj osebni prevoz osebe, ki imajo vozniško dovoljenje ali jim je potrebna pomoč drugih oseb, ki imajo vozniško dovoljenje, neposredno od pravne osebe ali zasebnika, ki se ukvarja s proizvodno ali trgovsko dejavnostjo, ali jih same neposredno uvozijo, in sicer:</p>
 <p>– osebe, pri katerih je zaradi izgube, okvare ali paraliziranosti spodnjih okončin ali medenice nastala najmanj 80% telesna okvara;<br />
@@ -51,7 +64,7 @@ V prometno dovoljenje tako kupljenega oziroma uvoženega avtomobila se vpiše po
 Če invalidna oseba oziroma njeni starši ali skrbniki prodajo osebni avtomobil ali ga brezplačno ali kako drugače odtujijo ali ga dajo v rabo komu drugemu pred potekom petletnega roka od dneva nakupa oziroma uvoza, morajo plačati davek od prometa proizvodov v višini davka, ki ni bil plačan ob nakupu oziroma uvozu avtomobila, in pripadajoče obresti od dneva nakupa oziroma uvoza do dneva plačila davka. Ob izpolnjevanju osnovnih pogojev se pravica do oprostitev po tej točki na novo vzpostavi dan po takšnem plačilu. Če je imela invalidna oseba prometno nesrečo in je bil osebni avtomobil poškodovan za več kot 70% tržne vrednosti avtomobila na dan nesreče, sme poškodovani osebni avtomobil prodati, ne da bi plačala davek od prometa proizvodov. Če invalidna oseba umre pred potekom petletnega roka od dneva nakupa oziroma uvoza avtomobila, smejo zakoniti dediči prodati osebni avtomobil, ki so ga podedovali, ne da bi plačali davek od prometa proizvodov.<br />
 Vojni invalid prve skupine, ki uveljavi pravico do doplačila k stroškom tehničnega pripomočka – osebnega motornega vozila po zakonu o vojnih invalidih (Uradni list RS, št. 63/95, 19/97 in 21/97 – popravek), nima pravice do davčne oprostitve iz te točke.<br />
 Če upravičenci po tej točki niso vozniki, lahko v njihovem imenu za njihove potrebe motorno vozilo po tej točki vozijo starši oziroma skrbnik ali osebe, ki imajo pisno pooblastilo upravičenca, njegovih staršev oziroma skrbnika.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije</p>
 <p>Št. 434-02/91-7/100</p>
 <p>Ljubljana, dne 10. septembra 1997.</p>
@@ -67,5 +80,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-09-19", "kratica": "ZPD-D", "naziv": "Zakon o spremembi zakona o prometnem davku", "url": "/trubar/si/ZPD-D/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

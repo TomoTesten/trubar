@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Banka Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2021-01-2933" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE12533.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE12533" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE12533.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE12533,vrsta:sklep">
+    
     <h1>Sklep o uporabi Smernic o poenostavljenem in okrepljenem skrbnem preverjanju strank ter dejavnikih, ki bi jih kreditne in finančne institucije morale upoštevati pri oceni tveganja pranja denarja in financiranja terorizma, povezanega s posameznimi poslovnimi odnosi in občasnimi transakcijami</h1>
 <p>Na podlagi tretjega odstavka 13. člena Zakona o bančništvu (Uradni list RS, št. 92/21 in 123/21 – ZBNIP; v nadaljevanju: ZBan-3), enajstega odstavka 243. člena Zakona o plačilnih storitvah, storitvah izdajanja elektronskega denarja in plačilnih sistemih (Uradni list RS, št. 7/18, 9/18 – popr. in 102/20; v nadaljevanju: ZPlaSSIED), drugega odstavka 13. člena Zakona o deviznem poslovanju (Uradni list RS, št. 16/08, 85/09 in 109/12; v nadaljevanju: <a href="/trubar/si/ZDP-2/" class="law-ref" title="ZDP-2">ZDP-2</a>), in prvega odstavka 151. člena Zakona o preprečevanju pranja denarja in financiranja terorizma (Uradni list RS, št. 68/16, 81/19, 91/20 in 2/21 – popr.; v nadaljevanju: <a href="/trubar/si/ZPPDFT-1/" class="law-ref" title="ZPPDFT-1">ZPPDFT-1</a>) ter prvega odstavka 31. člena tretjega odstavka 43. člena Zakona o Banki Slovenije (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo, 59/11 in 55/17) izdaja Svet Banke Slovenije</p>
 <p>S K L E P</p>
@@ -75,5 +88,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2021-09-24", "kratica": "SKLE12533", "naziv": "Sklep o uporabi Smernic o poenostavljenem in okrepljenem skrbnem preverjanju strank ter dejavnikih, ki bi jih kreditne in finančne institucije morale upoštevati pri oceni tveganja pranja denarja in financiranja terorizma, povezanega s posameznimi poslovnimi odnosi in občasnimi transakcijami", "url": "/trubar/si/SKLE12533/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,29 +21,42 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-1463" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO45.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO45" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO45.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO45,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Navodilo o vodenju pripravniškega dnevnika in pripravniškem programu na ladjah trgovske mornarice</h1>
 <p>Na podlagi prvega odstavka 7. člena zakona o varnosti pomorske in notranje plovbe (Uradni list SRS, št. 17/88) ter 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95 – odl. US) izdaja minister za promet in zveze</p>
 <h2>N A V O D I L O</h2>
 <p>o vodenju pripravniškega dnevnika  in pripravniškem programu na ladjah  trgovske mornarice</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>To navodilo določa način vodenja pripravniškega dnevnika in program del, vaj in pismenih nalog za pripravnike za posamezne nazive v trgovski mornarici.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pripravniški dnevnik vodijo eno leto člani posadk ladij trgovske mornarice, ki nimajo dovolj plovbne dobe, ki jo potrebujejo za naziv “častnik zadolžen za krovno stražo na ladjah z bruto tonažo 500 ali več“, “častnik stroja zadolžen za stražo v strojnici na ladji s pogonskim strojem z močjo 750 kW ali več“, “radiotelegrafist II. razreda“ in naziv “radijski elektronik II. razreda” (v nadaljnjem besedilu: pripravnik).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Strani pripravniškega dnevnika so oštevilčene. Na prvi strani je vpisan priimek, očetovo ime in ime pripravnika ter naziv, za katerega se usposablja. Te podatke potrdi upravni organ pristojen za pomorstvo ali slovensko konzularno predstavništvo, če je ladja v tujini.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Poveljnik ladje oziroma upravitelj stroja pregleda in potrdi pripravniški dnevnik najmanj enkrat mesečno in neposredno pred izkrcanjem pripravnika z ladje.<br />
 Neposredni pripravnikov vodja (častnik krova, častnik stroja, radiotelegrafist) pregleda pripravniški dnevnik enkrat tedensko.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Iz pripravniškega dnevnika mora biti jasno razvidno dnevno opravljeno delo, vaje in pismene naloge, opravljene po programu del, vaj in pismenih nalog (v nadaljnjem besedilu: pripravniški program).<br />
 Pripravniški program za posamezne nazive je določen v prilogi, ki je sestavni del tega pravilnika.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Z dnem uveljavitve tega navodila preneha veljati navodilo o vodenju pripravniškega dnevnika na ladjah trgovske mornarice (Uradni list SRS, št. 12/74).</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>To navodilo začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 2620-10/98</p>
 <p>Ljubljana, dne 17. aprila 1998.</p>
@@ -344,5 +357,36 @@ reševanje ter njihovo vzdrževanje in hranjenje na ladji in</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-04-24", "kratica": "NAVO45", "naziv": "Navodilo o vodenju pripravniškega dnevnika in pripravniškem programu na ladjah trgovske mornarice", "url": "/trubar/si/NAVO45/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Uredba o prenehanju veljavnosti Uredbe o povračilu stroškov prevoza na delo in z dela javnim uslužbencem in funkcionarjem v državnih organih — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Uredba o prenehanju veljavnosti Uredbe o povračilu stroškov prevoza na delo in z dela javnim uslužbencem in funkcionarjem v državnih organih</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>URED6210</strong></dd>
+      <dt>Vrsta</dt><dd>uredba</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
+      <dt>Datum</dt><dd>2012-05-31</dd>
+      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-1726" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6210" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6210.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:URED6210,vrsta:uredba">
+    
+    <h1>Uredba o prenehanju veljavnosti Uredbe o povračilu stroškov prevoza na delo in z dela javnim uslužbencem in funkcionarjem v državnih organih</h1>
+<p>Na podlagi drugega odstavka 71. člena Zakona o delavcih v državnih organih (Uradni list RS – stari, št. 15/90, 5/91, 18/91, 22/91 in Uradni list RS/I, št. 2/91 ter Uradni list RS, št. 4/93, 18/94 – <a href="/trubar/si/ZRPJZ/" class="law-ref" title="ZRPJZ">ZRPJZ</a>, 70/97, 87/97 – <a href="/trubar/si/ZPSDP/" class="law-ref" title="ZPSDP">ZPSDP</a>, 38/99 in 56/02 – <a href="/trubar/si/ZJU/" class="law-ref" title="ZJU">ZJU</a>) in 18. člena Zakona o funkcionarjih v državnih organih (Uradni list RS – stari, št. 30/90, 18/91, 22/91 in Uradni list RS/I, št. 2/91 ter Uradni list RS, št. 4/93 in 18/94 – <a href="/trubar/si/ZRPJZ/" class="law-ref" title="ZRPJZ">ZRPJZ</a>) izdaja Vlada Republike Slovenije</p>
+<h2>U R E D B O</h2>
+<p>o prenehanju veljavnosti Uredbe o povračilu stroškov prevoza na delo in z dela javnim uslužbencem in funkcionarjem v državnih organih</p>
+<h3><span id="člen-1">1. člen</span></h3>
+<p>Z dnem uveljavitve te uredbe preneha veljati Uredba o povračilu stroškov prevoza na delo in z dela javnim uslužbencem in funkcionarjem v državnih organih (Uradni list RS, št. 95/06 in 16/07).</p>
+<h3><span id="člen-2">2. člen</span></h3>
+<p>Ta uredba začne veljati s prvim dnem v mesecu, ki sledi mesecu, v katerem je bil uveljavljen Zakon za uravnoteženje javnih financ (Uradni list RS, št. 40/12).</p>
+<p>Št. 00730-14/2012</p>
+<p>Ljubljana, dne 31. maja 2012</p>
+<p>EVA 2012-2030-0034</p>
+<p>Janez Janša l.r.<br />
+Predsednik</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-05-31", "kratica": "URED6210", "naziv": "Uredba o prenehanju veljavnosti Uredbe o povračilu stroškov prevoza na delo in z dela javnim uslužbencem in funkcionarjem v državnih organih", "url": "/trubar/si/URED6210/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

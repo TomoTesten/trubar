@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1690" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO309.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO309" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO309.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO309,vrsta:navodilo">
+    
     <h1>Navodilo o dopolnitvi navodila o načinu in postopku vodenja računa obvezne rezerve bank in hranilnic pri Banki Slovenije in opravljanju plačilnega prometa na tem računu</h1>
 <p>Na podlagi 23. člena zakona o Banki Slovenije (Uradni list RS, št. 1/91-I), sklepa o obvezni rezervi bank in hranilnic (Uradni list RS, št. 80/94, 26/95, 33/95 in 10/97) in sklepa o pričetku vodenja računa obvezne rezerve bank in hranilnic pri Banki Slovenije (Uradni list RS, št. 10/97) izdaja guverner Banke Slovenije</p>
 <h2>D O P O L N I T E V  N A V O D I L A</h2>
@@ -47,5 +60,36 @@ Sveta Banke Slovenije</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-05-23", "kratica": "NAVO309", "naziv": "Navodilo o dopolnitvi navodila o načinu in postopku vodenja računa obvezne rezerve bank in hranilnic pri Banki Slovenije in opravljanju plačilnega prometa na tem računu", "url": "/trubar/si/NAVO309/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

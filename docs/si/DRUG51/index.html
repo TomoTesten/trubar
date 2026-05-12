@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3045" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG51.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG51" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG51.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG51,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o stroških ocenjevanja in pridobitve potrdila o dobri laboratorijski praksi</h1>
 <p>Na podlagi tretjega odstavka 54. člena zakona o kemikalijah (Uradni list RS, št. 36/99) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o stroških ocenjevanja in pridobitve potrdila o dobri laboratorijski praksi</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V postopkih ocenjevanja laboratorijev glede skladnosti z načeli dobre laboratorijske prakse (v nadaljnjem besedilu: DLP) in pridobitve potrdila o dobri laboratorijski praksi (v nadaljnjem besedilu: DLP-potrdilo) se plačujejo stroški za naslednje dejavnosti:<br />
 1. priprava na pregled preskuševalnega laboratorija ali presojo študije,<br />
 2. izvedba pregleda preskuševalnega laboratorija ali presoje študije,<br />
@@ -40,14 +53,14 @@ Stroški za delo ocenjevalca iz 1., 2., 3. in 4. točke prejšnjega odstavka zna
 Stroški za izdajo ali odvzem DLP-potrdila iz 5. točke prvega odstavka znašajo 20.000 SIT.<br />
 Pod pregledom preskuševalnega laboratorija in presojo študije iz prvega odstavka tega člena so mišljeni predhodni, prvi, periodični, preveritveni in posebni pregled ter posebna presoja študije.<br />
 Število ur za izvedbo dejavnosti točk prvega odstavka tega člena je odvisno od velikosti preskuševalnega laboratorija in vrste študije.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Stroški za delo ocenjevalca iz prvega odstavka prejšnjega člena ne zajemajo stroškov dnevnic in potnih stroškov, ki jih zaračuna ocenjevalec.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Stroške, dnevnice in potne stroške plača predlagatelj postopka za ocenjevanje skladnosti z načeli DLP v roku 15 dni po prejemu sklepa o stroških s strani Urada za kemikalije Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Predlagatelj postopka plača stroške, dnevnice in potne stroške po tej uredbi v dobro proračuna Republike Slovenije, na žiro račun št. 50100-630-10014 z obveznim sklicem na številko po modelu 18 in sicer 27154-7141009-<em> _ _ _ _ </em>-00.<br />
 Dokazilo o vplačilu iz prejšnjega odstavka je pogoj za izdajo DLP-potrdila.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 389-09/2000-1</p>
 <p>Ljubljana, dne 13. julija 2000.</p>
@@ -62,5 +75,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-07-21", "kratica": "DRUG51", "naziv": "Uredba o stroških ocenjevanja in pridobitve potrdila o dobri laboratorijski praksi", "url": "/trubar/si/DRUG51/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

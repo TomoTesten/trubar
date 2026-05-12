@@ -21,23 +21,36 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-1249" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1660.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG1660" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1660.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG1660,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Spremembe in dopolnitve pravil kviz loterije "Dobim podarim"</h1>
 <p>Na podlagi zakona o igrah na srečo (Uradni list RS, št. 27/95 spremembe in dopolnitve Uradni list RS, št. 85/01) in poslovnika o delu uprave je Uprava družbe Športna loterija in igre na srečo d.d., Ljubljana, Cigaletova 15, na seji dne 27. 1. 2003 sprejela</p>
 <h2>S P R E M E M B E   I N   D O P O L N I T V E P R A V I L</h2>
 <p>kviz loterije »Dobim podarim«</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilih kviz loterije Dobim podarim, ki jih je sprejel nadzorni svet na seji dne 20. 10. 1998, spremembe in dopolnitve pravil pa uprava družbe na seji dne 26. 3. 1999, 29. 7. 1999, 13. 12. 1999, 14. 9. 2000, 29. 11. 2000, 29. 1. 2001, 16. 3. 2001, 21. 3. 2001, 17. 9. 2001 in 19. 8. 2002, se 5. člen spremeni tako, da glasi:<br />
 »Udeleženec izve za rezultat, ko na kartici odstrani premaz.<br />
 Kartica je dobitna, če je ena od številk v polju Vroče številke enaka številki v polju Vaša številka. V tem primeru pripada igralcu dobitek v znesku, ki je vpisan v polju Dobitek. Če je enaka številka v polju Vroče številke v rdeči barvi, se vrednost dobitka v polju Dobitek podvoji.<br />
 Če na kartici v polju Vroče številke ni enake številke kot je v polju Vaša številka, ta kartica nima dobitka.<br />
 Pred izplačilom dobitka mora udeleženec odgovoriti na kviz vprašanje, ki je navedeno na kartici.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugem odstavku 7. člena se vrednost »500 SIT« nadomesti z vrednostjo »250 SIT«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Spremeni se 11. člen tako, da glasi:<br />
 »Sklad za dobitke znaša 50% od vrednosti izdanih kartic.<br />
 V seriji so na posameznih karticah natisnjeni dobitki v številu in po vrednosti, in sicer:</p>
@@ -57,12 +70,12 @@ V seriji so na posameznih karticah natisnjeni dobitki v številu in po vrednosti
 skupaj:<br />
 769.341                                       250,000.000,00 SIT«</p>
 <hr />
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Besedilo 12. člena se črta.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Besedilo 20. člena se spremeni tako, da glasi:<br />
 »Dobitke do vključno 10.000 SIT izplačujejo prodajalci. Dobitke do vključno 100.000 SIT izplačujejo prodajalci, ki so s terminali povezani s centralo. Vse dobitke izplačuje prireditelj na naslovu Športna loterija, Cigaletova 15, 1000 Ljubljana, vsak delavnik od 8. do 12. ure.«</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>V 28. členu se številka »9« nadomesti s številko »10«.</p>
 <p>Št. 64-1/03</p>
 <p>Ljubljana, dne 21. marca 2003.</p>
@@ -78,5 +91,36 @@ Ministrstvo za finance – Urad RS za nadzor prirejanja iger na srečo je te spr
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-03-27", "kratica": "DRUG1660", "naziv": "Spremembe in dopolnitve pravil kviz loterije \"Dobim podarim\"", "url": "/trubar/si/DRUG1660/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

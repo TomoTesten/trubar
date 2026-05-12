@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>ODLO2893</strong></dd>
       <dt>Vrsta</dt><dd>odlok</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
-      <dt>Datum</dt><dd>2025-01-24</dd>
-      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2025-01-27</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0138" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO2893.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO2893" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO2893.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO2893,vrsta:odlok">
+    
     <h1>Odlok o določitvi degradiranega okolja in programa ukrepov za izboljšanje kakovosti okolja na območju vrtcev, šol in javnih igrišč v občinah Črna na Koroškem, Mežica, Prevalje, Ravne na Koroškem in Dravograd</h1>
 <p>Na podlagi prvega odstavka 59. člena Zakona o varstvu okolja (Uradni list RS, št. 44/22, 18/23 – <a href="/trubar/si/ZDU-1O/" class="law-ref" title="ZDU-1O">ZDU-1O</a>, 78/23 – <a href="/trubar/si/ZUNPEOVE/" class="law-ref" title="ZUNPEOVE">ZUNPEOVE</a> in 23/24) in 79. člena Zakona o obnovi, razvoju in zagotavljanju finančnih sredstev (Uradni list RS, št. 131/23 in 81/24) Vlada Republike Slovenije izdaja</p>
 <p>O D L O K</p>
@@ -81,5 +94,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2025-01-27", "kratica": "ODLO2893", "naziv": "Odlok o določitvi degradiranega okolja in programa ukrepov za izboljšanje kakovosti okolja na območju vrtcev, šol in javnih igrišč v občinah Črna na Koroškem, Mežica, Prevalje, Ravne na Koroškem in Dravograd", "url": "/trubar/si/ODLO2893/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

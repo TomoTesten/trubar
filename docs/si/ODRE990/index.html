@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1992" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE990.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE990" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE990.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE990,vrsta:odredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o smeri strokovne izobrazbe, ki jo morajo imeti učitelji, korepetitorji in knjižničarji v glasbenih šolah</h1>
 <p>Na podlagi petega odstavka 92. člena zakona o organizaciji in financiranju vzgoje in izobraževanja (Uradni list RS, št. 12/96 in 23/96) izdaja minister za šolstvo in šport</p>
 <h2>O D R E D B O</h2>
 <p>o smeri strokovne izobrazbe, ki jo morajo imeti učitelji, korepetitorji in knjižničarji v glasbenih šolah</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta odredba določa smer strokovne izobrazbe, ki jo morajo (ob izpolnjevanju drugih z zakonom določenih pogojev) imeti učitelji, korepetitorji in knjižničarji v glasbenih šolah.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V tej odredbi je kot smer strokovne izobrazbe določen študijski program za pridobitev izobrazbe, po katerem se pridobi strokovni naslov v skladu z zakonom o strokovnih in znanstvenih naslovih (Uradni listi RS, št. 47/98), za knjižničarje pa še študijski program za izpopolnjevanje.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <ol>
 <li>Učitelj<br />
 1.1 Klavir<br />
@@ -186,11 +199,11 @@ Knjižničar je lahko,<br />
 – kdor je končal enopredmetni ali dvopredmetni univerzitetni študijski program iz bibliotekarstva,<br />
 – kdor izpolnjuje pogoje za učitelja v glasbeni šoli in je opravil študijski program za izpopolnjevanje iz bibliotekarstva.</li>
 </ol>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Učitelji, korepetitorji in knjižničarji, ki so do uveljavitve te odredbe izpolnjevali s predpisi določene pogoje za opravljanje vzgojno-izobraževalne dejavnosti za tiste predmete, ki jih našteva ta odredba, lahko opravljajo vzgojno-izobraževalno dejavnost tudi po uveljavitvi te odredbe.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ne glede na določbe te odredbe je ustrezna tudi izobrazba, pridobljena po podiplomskih študijskih programih za pridobitev specializacije, magisterija oziroma doktorata znanosti z ustrezne smeri.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se od 1. 9. 2000 dalje.</p>
 <p>Št. 011-44/00</p>
 <p>Ljubljana, dne 9. maja 2000.</p>
@@ -205,5 +218,36 @@ dr. Pavel Zgaga l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-11-13", "kratica": "ODRE990", "naziv": "Pravilnik o smeri strokovne izobrazbe, ki jo morajo imeti učitelji, korepetitorji in knjižničarji v glasbenih šolah", "url": "/trubar/si/ODRE990/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

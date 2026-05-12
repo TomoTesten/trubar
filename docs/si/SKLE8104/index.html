@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Banka Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2052" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE8104.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE8104" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE8104.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE8104,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Sklep o spremembah Sklepa o družbah za izdajo elektronskega denarja</h1>
 <p>Na podlagi 1. točke 82. člena in 389. člena Zakona o bančništvu (Uradni list RS, št. 131/06, 1/08, 109/08 in 19/09) ter prvega odstavka 31. člena Zakona o Banki Slovenije (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo) izdaja Svet Banke Slovenije</p>
 <h2>S K L E P</h2>
 <p>o spremembah Sklepa o družbah za izdajo elektronskega denarja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Sklepu o družbah za izdajo elektronskega denarja (Uradni list RS, št. 28/07) se spremeni naslov 7. poglavja tako, da se glasi: »7. REVIZIJSKI PREGLED LETNEGA POROČILA IN DODATNI REVIZIJSKI PREGLED«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
@@ -41,9 +54,9 @@
 (a) revizijski pregled letnega poročila in konsolidiranega letnega poročila po prvem odstavku 57. člena <a href="/trubar/si/ZGD-1/" class="law-ref" title="ZGD-1">ZGD-1</a>;<br />
 (b) dodatni revizijski pregled izpolnjevanja pravil o upravljanju s tveganji.<br />
 (2) Za revizijski pregled iz točke (a) prejšnjega odstavka se smiselno uporabljajo določbe 5. poglavja Sklepa o poslovnih knjigah in letnih poročilih bank in hranilnic (Uradni list RS, št. 28/07, 119/07, 102/08 in 21/09; v nadaljevanju: sklep o poslovnih knjigah in letnih poročilih).«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Naslov 7.1. poglavja se spremeni tako, da se glasi: »7.1. Dodatni revizijski pregled in dodatno revizorjevo poročilo«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
@@ -60,11 +73,11 @@
 (a) morebitne pomanjkljivosti, ugotovljene pri revizijskem pregledu področij iz prvega odstavka tega člena;<br />
 (b) ugotovitve glede izpolnjevanja revizorjevih priporočil iz preteklih let, vezanih na področja iz prvega odstavka tega člena;<br />
 (c) priporočila glede izboljšanja politik, procesov in postopkov, vezanih na pregled področij iz prvega odstavka tega člena.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V prvem stavku 20., 21., 22., 23. in 24. člena ter v prvem stavku prvega odstavka 25. člena se besedilo »izoblikovanju mnenja glede« nadomesti z besedilom »pregledu področja«.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>V 25. členu se črta drugi odstavek.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta sklep začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Ljubljana, dne 2. junija 2009</p>
 <p>dr. Marko Kranjec l.r.<br />
@@ -78,5 +91,36 @@ Sveta Banke Slovenije</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-06-05", "kratica": "SKLE8104", "naziv": "Sklep o spremembah Sklepa o družbah za izdajo elektronskega denarja", "url": "/trubar/si/SKLE8104/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

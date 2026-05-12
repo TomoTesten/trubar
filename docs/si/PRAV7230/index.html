@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-2096" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7230.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7230" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7230.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7230,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi Pravilnika o delovnem času notarjev</h1>
 <p>Na podlagi tretjega odstavka 20. člena Zakona o notariatu (Uradni list RS, št. 2/07 – uradno prečiščeno besedilo) minister za pravosodje izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembi Pravilnika o delovnem času notarjev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o delovnem času notarjev (Uradni list RS, št. 50/94 in 28/95) se 2. člen spremeni tako, da se glasi:</p>
 <h3>»2. člen</h3>
 <p>Uradne ure v notarskih pisarnah trajajo petkrat tedensko, in sicer vsak ponedeljek, torek, sredo, četrtek in petek. V ponedeljek se začnejo ob 8.00 uri in končajo ob 15.00 uri, v torek se začnejo ob 8.00 uri in končajo ob 15.30 uri, v sredo se začnejo ob 8.00 uri in končajo ob 18.00 uri, v četrtek se začnejo ob 9.00 in končajo ob 12.00 uri, v popoldanskem času se začnejo ob 14.00 uri in končajo ob 16.00 uri, v petek pa se začnejo ob 8.00 uri in končajo ob 13.30 uri. Uradne ure se v ponedeljek, torek, sredo in petek izvajajo neprekinjeno, razen če z organizacijo dela ni mogoče notarju in vsem zaposlenim v notarski pisarni zagotoviti odmora za malico, v tem primeru se uradne ure ne izvajajo od 12.00 ure do 12.30 ure.<br />
 Posamezen notar lahko določi in opravlja uradne ure tudi poleg obsega, ki je določen v prejšnjem odstavku.<br />
 Ne glede na prvi odstavek tega člena imajo notarske pisarne uradne ure tudi vsako prvo soboto v koledarskem mesecu oziroma drugo soboto, če pride prva na državni praznik ali drug z zakonom določen dela prost dan, od 8.30 ure do 12.30. ure.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se od 1. maja 2007.</p>
 <p>Št. 704-30/2005</p>
 <p>Ljubljana, dne 26. aprila 2007</p>
@@ -51,5 +64,36 @@ za pravosodje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-04-26", "kratica": "PRAV7230", "naziv": "Pravilnik o spremembi Pravilnika o delovnem času notarjev", "url": "/trubar/si/PRAV7230/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

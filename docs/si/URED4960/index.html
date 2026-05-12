@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3517" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4960.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4960" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4960.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4960,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o enotni metodologiji in obrazcih za obračun in izplačilo plač v javnem sektorju</h1>
 <p>Na podlagi prvega odstavka 40. člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 95/07 – uradno prečiščeno besedilo, 17/08, 58/08, 69/08 – ZTFI-A in 69/08 – ZZavar-E) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o enotni metodologiji in obrazcih za obračun in izplačilo plač v javnem sektorju</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o enotni metodologiji in obrazcih za obračun in izplačilo plač v javnem sektorju (Uradni list RS, št. 64/08 in 69/08) se v tabeli 2. člena besedilo izraza Z104 dopolni tako, da se glasi:</p>
 <p>»<br />
 +------+--------------------+----------------------------------+<br />
@@ -39,7 +52,7 @@
 |      |                    |če bi delal polni delovni čas     |<br />
 +------+--------------------+----------------------------------+<br />
                                                               «.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 3. členu se v tabeli dodajo nove vrste izplačil H120, N040, O031, O032, O041 in O042:</p>
 <p>»<br />
 +-----+------------+------------+----+-------------+-----------+<br />
@@ -308,12 +321,12 @@
 +----+---------------+-----------+------+---------------+--------+<br />
                                                                 «.</p>
 <p>V tabeli se črtajo vrste izplačil C112, E050, E051, O030 in O040.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prvem stavku sedmega odstavka 20. člena se besedilo »C050« nadomesti z novim besedilom, ki se glasi: »(C050 ali C051 ali C052)«.<br />
 V prvem stavku sedemnajstega odstavka se besedilo »C050« nadomesti z novim besedilom, ki se glasi: »(C050 ali C051 ali C052)«.<br />
 Enaindvajseti odstavek se spremeni tako, da se glasi:<br />
 »(21) Delež razlike za odpravo nesorazmerja (Z113), ki je ugotovljen pri prehodu javnega uslužbenca v nov plačni sistem, pripada javnemu uslužbencu od maja 2008. Delež se poračuna za pripadajoče mesece (število pripadajočih mesecev x Z113) pri prvi plači, izračunani na osnovi določil <a href="/trubar/si/ZSPJS/" class="law-ref" title="ZSPJS">ZSPJS</a>. Za mesece, ko je javni uslužbenec na porodniškem dopustu, v neplačani in neupravičeni odsotnosti, ko je odstranjen z dela, ko čaka na delo in ko prejema refundirano nadomestilo med bolniško odsotnostjo, se delež za odpravo nesorazmerja ne izračuna in ne izplača. Delež za odpravo nesorazmerja v primeru bolniške odsotnosti v breme organizacije se korigira s faktorjem bolniške odsotnosti.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati 1. avgusta 2008.</p>
 <p>Št. 00714-22/2008/12</p>
 <p>Ljubljana, dne 29. julija 2008</p>
@@ -329,5 +342,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-07-30", "kratica": "URED4960", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o enotni metodologiji in obrazcih za obračun in izplačilo plač v javnem sektorju", "url": "/trubar/si/URED4960/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

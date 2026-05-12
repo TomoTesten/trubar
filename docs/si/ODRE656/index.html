@@ -21,33 +21,46 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5219" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE656.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE656" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE656.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE656,vrsta:odredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Odredba o izdelkih iz kristalnega stekla</h1>
 <p>Na podlagi 2. člena zakona o tehničnih zahtevah za proizvode in o ugotavljanju skladnosti (Uradni list RS, št. 59/99, 31/00 in 54/00) izdaja ministrica za gospodarstvo</p>
 <h2>O D R E D B O</h2>
 <p>o izdelkih iz kristalnega stekla*</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta odredba določa tehnične zahteve za sestavo ter označevanje izdelkov iz kristalnega stekla, navedenih v Prilogi I, ki je sestavni del te odredbe in metode za določanje kemičnih in fizikalnih lastnosti vrst kristalnega stekla, navedenih v Prilogi II, ki je sestavni del te odredbe, ki spadajo pod poglavje 7013 kombinirane nomenklature carinske tarife.<br />
 Proizvodi, ki so namenjeni za izvoz izven Evropske unije, niso predmet te odredbe.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prometu ne smejo biti izdelki, označeni z opisom iz stolpca (b) Priloge I, ki ne vsebujejo ustreznih značilnosti, ki se nanašajo na % kovinskih oksidov, gostoto, refrakcijski indeks in površinsko trdoto in so navedeni v stolpcih (d), (e), (f) in (g) Priloge I.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Če je izdelek, ki se nanaša na to odredbo, označen z enim od opisov, naštetih v stolpcu (b) Priloge I, ima tak izdelek lahko ustrezen identifikacijski simbol, ki je predstavljen in opisan v stolpcih (h) in (i) te priloge.<br />
 Kadar je blagovna znamka, ime podjetja ali kakršenkoli napis vsebovan kot glavni del, kot pridevnik ali kot koren opisa, ki se pojavlja v stolpcih (b) in (c) Priloge I ali pa opis, ki se z njim lahko pomotoma zamenja, mora takoj pred blagovno znamko, imenom ali napisom stati viden napis, ki zajema:<br />
 a) Opis izdelka, če ima ta izdelek značilnosti, določene v stolpcih od (d) do (g) Priloge I ali;<br />
 b) Izjavo o natančnih lastnostih izdelka, če ta izdelek nima značilnosti, ki so določene v stolpcih od (d) do (g) Priloge I.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Opis in identifikacijski simboli, ki so navedeni v Prilogi I, se lahko pojavijo na isti etiketi.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Pri preverjanju, ali izdelki, ki so označeni z opisi iz stolpca (b) Priloge I in identifikacijskimi simboli iz stolpca (h) Priloge I, izpolnjujejo značilnosti, določene v stolpcih od (d) do (g) Priloge I, se uporabljajo samo metode, ki so določene v Prilogi II, ki je sestavni del te odredbe.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Pristojni inšpekcijski organ za nadzor nad izvajanjem te odredbe v prometu je Tržni inšpektorat Republike Slovenije v skladu z zakonom o tržni inšpekciji Republike Slovenije (Uradni list RS, št. 20/97) in 16. členom zakona o tehničnih zahtevah za proizvode in o ugotavljanju skladnosti.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Določbe te odredbe se začnejo uporabljati z dnem pristopa Republike Slovenije k Evropski uniji ali z dnem uveljavitve ustreznega mednarodnega sporazuma z Evropsko unijo.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta odredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 017-103/01</p>
 <p>Ljubljana, dne 12. decembra 2001.</p>
@@ -66,5 +79,36 @@ za gospodarstvo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-12-27", "kratica": "ODRE656", "naziv": "Odredba o izdelkih iz kristalnega stekla", "url": "/trubar/si/ODRE656/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

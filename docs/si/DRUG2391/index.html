@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3862" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2391.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG2391" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2391.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG2391,vrsta:drugi akt">
+    
     <h1>Odpoved Splošne kolektivne pogodbe za gospodarske dejavnosti</h1>
 <p>Podpisniki Splošne kolektivne pogodbe za gospodarske dejavnosti na strani delodajalcev, in sicer: Gospodarska zbornica Slovenije, Ljubljana; Obrtna zbornica Slovenije, Ljubljana; Združenje delodajalcev Slovenije, Ljubljana in združenje delodajalcev obrtnih dejavnosti Slovenije GIZ (prej OGISTTA, Ljubljana); na podlagi 67. člena Splošne kolektivne pogodbe za gospodarske dejavnosti (Uradni list RS, št. 40/97, 54/00, 45/02 in 38/03) ter sklepom upravnega odbora Gospodarske zbornice Slovenije z dne 30. 9. 2005, sklepom upravnega odbora Obrtne zbornice Slovenije z dne 27. 9. 2005, sklepom upravnega odbora Združenja delodajalcev Slovenije z dne 28. 9. 2005 ter sklepom skupščine Združenja delodajalcev obrtnih dejavnosti Slovenije z dne 28. 9. 2005, z dnem 30. 9. 2005 odpovedujemo Splošno kolektivno pogodbo za gospodarske dejavnosti (Uradni list RS, št. 40/97, 54/00, 45/02 in 38/03) in njeno tarifno prilogo ter obenem ugotavljamo, da kolektivna pogodba s tarifno prilogo velja še do 31. 12. 2005, določbe njenega normativnega dela pa se uporabljajo do vključno 30. 6. 2006.</p>
 <p>Gospodarska zbornica Slovenije,<br />
@@ -44,5 +57,36 @@ Slovenije GIZ<br />
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-10-10", "kratica": "DRUG2391", "naziv": "Odpoved Splošne kolektivne pogodbe za gospodarske dejavnosti", "url": "/trubar/si/DRUG2391/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

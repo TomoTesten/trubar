@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-1687" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4013.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG4013" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4013.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG4013,vrsta:drugi akt">
+    
     <h1>Poročilo o izidu nadomestnih volitev člana državnega sveta</h1>
 <p>Državna volilna komisija je na podlagi 7. člena Zakona o državnem svetu (Uradni list RS, št. 100/05 – <a href="/trubar/si/ZDSve/" class="law-ref" title="ZDSve">ZDSve</a> – UPB1), 5. točke prvega odstavka 37. člena Zakona o volitvah v državni zbor (Uradni list RS, št. 109/06 – ZVDZ-UPB1 in 54/07– odločba US) in na podlagi zapisnika Volilne komisije 5. volilne enote ter Volilne komisije 7. volilne enote, ki sta ugotovili izid glasovanja na nadomestnih volitvah člana državnega sveta – predstavnika lokalnih interesov, na 27. seji, 5. 6. 2014, ugotovila naslednji</p>
 <h2>rezultat glasovanja in izid volitev za člana državnega sveta na nadomestnih volitvah, ki so bile 29. maja 2014 v 3. in 6. volilni enoti za volitve predstavnikov lokalnih interesov v Državni svet Republike Slovenije</h2>
@@ -70,5 +83,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-06-09", "kratica": "DRUG4013", "naziv": "Poročilo o izidu nadomestnih volitev člana državnega sveta", "url": "/trubar/si/DRUG4013/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

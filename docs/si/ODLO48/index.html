@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0292" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO48.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO48" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO48.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO48,vrsta:odlok">
+    
     <h1>Odlok o spremembi odloka o preferencialnih pravilih o poreklu blaga, ki se v letu 1999 uprabljajo za izvajanje uredbe o izvajanju začasnega sporazuma o trgovini in zadevah v zvezi s trgovino med Republiko Slovenijo na eni strani in Evropsko skupnostjo, Evropsko skupnostjo za premog in jeklo in Evropsko skupnostjo za jedrsko energijo na drugi strani</h1>
 <p>Na podlagi prvega odstavka 10. člena uredbe o izvajanju Evropskega sporazuma o pridružitvi med Republiko Slovenijo na eni strani in Evropskimi skupnostmi ter njihovimi državami članicami, ki delujejo v okviru Evropske unije, na drugi strani, v delu, ki se nanaša na trgovino in zadeve v zvezi s trgovino (Uradni list RS, št. 7/99) in tretjega odstavka  21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96 in 47/97) izdaja Vlada Republike Slovenije</p>
 <h2>O D L O K</h2>
 <p>o spremembi odloka o preferencialnih pravilih  o poreklu blaga, ki se v letu 1999 uporabljajo  za izvajanje uredbe o izvajanju začasnega  sporazuma o trgovini in zadevah v zvezi  s trgovino med Republiko Slovenijo na eni strani in Evropsko skupnostjo, Evropsko skupnostjo  za premog in jeklo in Evropsko skupnostjo  za jedrsko energijo na drugi strani</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Naslov odloka o preferencialnih pravilih o poreklu blaga, ki se v letu 1999 uporabljajo za izvajanje uredbe o izvajanju začasnega sporazuma o trgovini in zadevah v zvezi s trgovino med Republiko Slovenijo na eni strani in Evropsko skupnostjo, Evropsko skupnostjo za premog in jeklo in Evropsko skupnostjo za jedrsko energijo na drugi strani (Uradni list RS, št. 92/98) se spremeni tako, da se glasi:</p>
 <p>“Odlok o preferencialnih pravilih o poreklu blaga, ki se v letu 1999 uporabljajo za izvajanje uredbe o izvajanju Evropskega sporazuma o pridružitvi med Republiko Slovenijo na eni strani in Evropskimi skupnostmi ter njihovimi državami članicami, ki delujejo v okviru Evropske unije, na drugi strani, v delu, ki se nanaša na trgovino in zadeve v zvezi s trgovino.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta odlok začne veljati naslednji dan po objavi v Uradnem listu RS.</p>
 <p>Št. 334-05/98-6</p>
 <p>Ljubljana, dne 28. januarja 1999.</p>
@@ -47,5 +60,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-02-05", "kratica": "ODLO48", "naziv": "Odlok o spremembi odloka o preferencialnih pravilih o poreklu blaga, ki se v letu 1999 uprabljajo za izvajanje uredbe o izvajanju začasnega sporazuma o trgovini in zadevah v zvezi s trgovino med Republiko Slovenijo na eni strani in Evropsko skupnostjo, Evropsko skupnostjo za premog in jeklo in Evropsko skupnostjo za jedrsko energijo na drugi strani", "url": "/trubar/si/ODLO48/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

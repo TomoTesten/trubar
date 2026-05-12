@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>DRUG5137</strong></dd>
       <dt>Vrsta</dt><dd>drugi akt</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>2022-12-21</dd>
-      <dt>Organ</dt><dd>Državni svet Republike Slovenije</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2022-01-4039" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5137.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG5137" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5137.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG5137,vrsta:drugi akt">
+    
     <h1>Izvolitev podpredsednika Državnega sveta Republike Slovenije</h1>
 <p>Na podlagi 43. člena Zakona o državnem svetu (Uradni list RS, št. 100/05 – uradno prečiščeno besedilo, 95/09 – odl. US, 21/13 – <a href="/trubar/si/ZFDO-F/" class="law-ref" title="ZFDO-F">ZFDO-F</a> in 81/18 – odl. US) in 78. člena Poslovnika Državnega sveta (Uradni list RS, št. 70/08, 73/09, 101/10, 6/14, 26/15, 55/20, 123/20 in 67/22) je Državni svet Republike Slovenije na nadaljevanju 1. seje 19. 12. 2022</p>
 <p>i z v o l i l</p>
@@ -44,5 +57,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2022-12-21", "kratica": "DRUG5137", "naziv": "Izvolitev podpredsednika Državnega sveta Republike Slovenije", "url": "/trubar/si/DRUG5137/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

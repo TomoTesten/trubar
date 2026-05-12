@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0447" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZSTNIIP-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZSTNIIP-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZSTNIIP-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZSTNIIP-B,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah Zakona o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,10 +50,10 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O SPODBUJANJU TUJIH NEPOSREDNIH INVESTICIJ IN INTERNACIONALIZACIJE PODJETIJ (ZSTNIIP-B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij (Uradni list RS, št. 107/06 – uradno prečiščeno besedilo) se v 2. členu na koncu osme alineje pika nadomesti s podpičjem in doda nova alineja, ki se glasi:<br />
 »– »projektno podjetje« je gospodarska družba, registrirana v Republiki Sloveniji, v kateri ima tuji investitor neposredno najmanj desetodstotni lastniški delež.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 7. členom se dodata nova 7.a in 7.b člen, ki se glasita:</p>
 <h3>»7.a člen</h3>
 <h3>(postopek dodeljevanja spodbud)</h3>
@@ -56,9 +69,9 @@ Republike Slovenije</p>
 (6) Po pozitivni odločitvi komisije, ki jo potrdi minister, se lahko na predlog vlagatelja izda potrdilo, da investicija iz vloge izpolnjuje pogoje in merila iz tega zakona. V potrdilu mora biti izrecno navedeno, da le-to ne pomeni dodelitve spodbude. Dela na projektu, ki je predmet spodbude, se ne smejo začeti pred sklenitvijo pogodbe, razen v primeru, ko vlagatelj prejme potrdilo iz prvega stavka tega odstavka.<br />
 (7) Vlada na predlog ministrstva sprejme sklep o dodelitvi spodbude. Minister s projektnim podjetjem sklene pogodbo. Če vlada zavrne predlog o dodelitvi spodbude, ministrstvo vlagatelja o tem pisno obvesti. Zoper to obvestilo ni pritožbe in ni mogoč upravni spor.«.</p>
 <h3>PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Z dnem uveljavitve tega zakona preneha veljati 22. člen Uredbe o finančnih spodbudah za tuje neposredne investicije (Uradni list RS, št. 11/07 in 19/09).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 310-08/11-01/17</p>
 <p>Ljubljana, dne 9. februarja 2011</p>
@@ -75,5 +88,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-02-21", "kratica": "ZSTNIIP-B", "naziv": "Zakon o spremembah in dopolnitvah Zakona o spodbujanju tujih neposrednih investicij in internacionalizacije podjetij", "url": "/trubar/si/ZSTNIIP-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

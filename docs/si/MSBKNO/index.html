@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-02-0097" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSBKNO.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MSBKNO" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSBKNO.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MSBKNO,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Spremembe Baselske konvencije o nadzoru prehoda nevarnih odpadkov preko meja in njihovega odstranjevanja, sprejete na tretjem zasedanju konference pogodbenic 22. septembra 1995 v Ženevi</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI SPREMEMBE BASELSKE KONVENCIJE O NADZORU PREHODA NEVARNIH ODPADKOV PREKO MEJA IN NJIHOVEGA ODSTRANJEVANJA, SPREJETE NA TRETJEM ZASEDANJU KONFERENCE POGODBENIC 22. SEPTEMBRA 1995 V ŽENEVI (MSBKNO)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sprememba Baselske konvencije o nadzoru prehoda nevarnih odpadkov preko meja in njihovega odstranjevanja, sprejeta na tretjem zasedanju konference pogodbenic 22. septembra 1995 v Ženevi.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo spremembe se v izvirniku v angleškem jeziku ter v prevodu v slovenskem jeziku glasi:</p>
 <h2>AMENDMENT</h2>
 <p>TO THE BASEL CONVENTION ON THE CONTROL OF TRANSBOUNDARY MOVEMENTS OF HAZARDOUS WASTES AND THEIR DISPOSAL, ADOPTED AT THE THIRD MEETING OF THE CONFERENCE OF THE PARTIES AT GENEVA ON 22 SEPTEMBER 1995</p>
@@ -59,9 +72,9 @@ Doda se novi 4. A člen:<br />
 2. Vsaka pogodbenica, navedena v Dodatku VII, do 31. decembra 1997 postopoma opusti in od tega datuma dalje prepove v skladu s pododstavkom (a) prvega odstavka 1. člena Konvencije vse prehode nevarnih odpadkov preko meja, ki so namenjeni za postopke v skladu z Dodatkom IV B, v države, ki niso navedene v Dodatku VII. Taki prehodi preko meja niso prepovedani, razen če imajo zadevni odpadki lastnosti nevarnih odpadkov v smislu Konvencije.«<br />
 »Dodatek VII<br />
 Pogodbenice in druge države, ki so članice OECD, ES in Lihtenštajn.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje spremembe skrbi Ministrstvo za okolje, prostor in energijo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št.  801-10/93-5/7</p>
 <p>Ljubljana, dne 15. julija 2004</p>
@@ -78,5 +91,36 @@ Feri Horvat l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-08-02", "kratica": "MSBKNO", "naziv": "Zakon o ratifikaciji Spremembe Baselske konvencije o nadzoru prehoda nevarnih odpadkov preko meja in njihovega odstranjevanja, sprejete na tretjem zasedanju konference pogodbenic 22. septembra 1995 v Ženevi", "url": "/trubar/si/MSBKNO/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

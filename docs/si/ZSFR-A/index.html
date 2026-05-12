@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0901" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZSFR-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZSFR-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZSFR-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZSFR-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah zakona o Skladu za financiranje razgradnje Nuklearne elektrarne Krško in odlaganju radioaktivnih odpadkov iz Nuklearne elektrarne Krško</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,18 +50,18 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH ZAKONA O SKLADU ZA FINANCIRANJE RAZGRADNJE NUKLEARNE ELEKTRARNE KRŠKO IN ODLAGANJU RADIOAKTIVNIH ODPADKOV IZ NUKLEARNE ELEKTRARNE KRŠKO (ZSFR-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o Skladu za financiranje razgradnje Nuklearne elektrarne Krško in odlaganja radioaktivnih odpadkov iz Nuklearne elektrarne Krško (Uradni list RS, št. 75/94 in 35/96) se v 4. členu prvi in drugi odstavek spremenita tako, da se glasita:</p>
 <p>“Sredstva Sklada se za namene iz 3. člena tega zakona zagotavljajo iz razlike med lastno ceno električne energije za vsako kWh proizvedene električne energije v NEK, dobavljene ELES GEN d.o.o. in prodajno ceno, ki jo slednja dosega na trgu električne energije.</p>
 <p>Zavezanec za obračun in vplačilo sredstev po prvem odstavku tega člena, ki jih mesečno vplačuje v Sklad, je od 1. januarja 2004 dalje ELES GEN d.o.o.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
 <p>“Za uresničitev nalog iz 3. člena tega zakona Vlada Republike Slovenije (v nadaljnjem besedilu: Vlada) do 31. decembra 2003 sprejme spremembe obstoječega programa razgradnje NEK, ki veljajo do sprejema skupnega programa razgradnje skladno z uveljavljeno Pogodbo med Vlado Republike Slovenije in Vlado Republike Hrvaške o ureditvi statusnih in drugih pravnih razmerij, povezanih z vlaganjem v NEK in njenim izkoriščanjem in razgradnjo (v nadaljnjem besedilu: Pogodba). Spremenjeni program vsebuje tudi prikaz možnih načinov izvedbe razgradnje NEK, vključno z oceno potrebnih sredstev in terminskim planom, ki ga pripravi NEK.“</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Sklad za financiranje razgradnje NEK in odlaganja radioaktivnih odpadkov iz NEK iz 1. člena zakona nadaljuje z nalogami sklada iz tretjega odstavka 11. člena Pogodbe. Višina zneska, ki ga vplačuje ELES GEN d.o.o. v ta Sklad, ostaja nespremenjena do sprejetja skupnega programa razgradnje iz tretjega odstavka 11. člena Pogodbe.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 412-01/93-14/16</p>
 <p>Ljubljana, dne 25. februarja 2003.</p>
@@ -64,5 +77,36 @@ Irma Pavlinič Krebs l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-03-07", "kratica": "ZSFR-A", "naziv": "Zakon o spremembah zakona o Skladu za financiranje razgradnje Nuklearne elektrarne Krško in odlaganju radioaktivnih odpadkov iz Nuklearne elektrarne Krško", "url": "/trubar/si/ZSFR-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

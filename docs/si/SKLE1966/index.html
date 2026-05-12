@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0994" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE1966.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE1966" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE1966.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE1966,vrsta:sklep">
+    
     <h1>Sklep o spremembah in dopolnitvah sklepa o ustanovitvi, sestavi, organizaciji in nalogah sveta za strukturno politiko</h1>
 <p>Na podlagi 6. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 23/96, 47/97, 23/99 in 119/00) je Vlada Republike Slovenije sprejela</p>
 <h2>S K L E P</h2>
 <p>o spremembah in dopolnitvah sklepa  o ustanovitvi, sestavi, organizaciji in nalogah  sveta za strukturno politiko</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V sklepu o ustanovitvi, sestavi, organizaciji in nalogah sveta za strukturno politiko (Uradni list RS, št. 59/00) se  4. člen spremeni tako, da se glasi:</p>
 <p>“Svet sestavljajo stalni člani sveta:</p>
 <p>– minister, pristojen za gospodarstvo;<br />
@@ -41,7 +54,7 @@
 – minister, pristojen za šolstvo, znanost in šport;<br />
 – minister, pristojen za evropske zadeve;<br />
 – predstojnik službe za lokalno samoupravo.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 4. členom se doda nov 4.a člen, ki se glasi:</p>
 <h3>“4.a člen</h3>
 <p>Svet sestavljajo ministri in predstojnik Službe Vlade Republike Slovenije za lokalno samoupravo kot stalni člani sveta, v primeru njihove odsotnosti ali zadržanosti pa jih nadomeščajo:</p>
@@ -54,12 +67,12 @@
 <p>– ministra, pristojnega za finance, državni sekretar, pristojen za proračun;</p>
 <p>– ministra, pristojnega za šolstvo, znanost in šport, državni sekretar, pristojen za področje višjega in visokega šolstva;</p>
 <p>– predstojnika Službe Vlade Republike Slovenije za lokalno samoupravo, njegov namestnik.”</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <ol>
 <li>člen sklepa se spremeni tako, da se glasi:</li>
 </ol>
 <p>“Svet vodi minister za gospodarstvo, ki je predsednik sveta. Predsednik je za delo sveta odgovoren predsedniku vlade in vladi.”</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 119-76/01</p>
 <p>Ljubljana, dne 22. februarja 2001.</p>
@@ -74,5 +87,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-03-09", "kratica": "SKLE1966", "naziv": "Sklep o spremembah in dopolnitvah sklepa o ustanovitvi, sestavi, organizaciji in nalogah sveta za strukturno politiko", "url": "/trubar/si/SKLE1966/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Popravni sklep Ustavnega sodišča — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Popravni sklep Ustavnega sodišča</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>SKLE13375</strong></dd>
+      <dt>Vrsta</dt><dd>sklep</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2023-05-12</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-1633" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE13375" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE13375.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:SKLE13375,vrsta:sklep">
+    
+    <h1>Popravni sklep Ustavnega sodišča</h1>
+<p>Številka: Mp-3/22-20</p>
+<p>U-I-349/18-11</p>
+<p>Datum: 9. 5. 2023</p>
+<p>Na podlagi prvega odstavka 70. člena Poslovnika Ustavnega sodišča (Uradni list RS, št. 86/07, 54/10, 56/11, 70/17 in 35/20) izdajam</p>
+<p>P O P R A V N I  S K L E P</p>
+<p>Prvi odstavek 2. točke izreka dopolnilne odločbe in odločbe Ustavnega sodišča št. Mp-3/22, U-I-349/18 z dne 19. 4. 2023 se popravi tako, da se pravilno glasi:</p>
+<p>»2. Pritožbi zoper sklep Državnega sveta št. 020-09-2/2022/20 z dne 12. 12. 2022 se ugodi, sklep Državnega sveta št. 020-09-2/2022/20 z dne 12. 12. 2022 se odpravi in volitve člana Državnega sveta – predstavnika za področje kulture in športa – se razveljavijo v delu, ki se nanaša na končno glasovanje.«</p>
+<p>O b r a z l o ž i t e v</p>
+<p>Pri redigiranju besedila prvega odstavka 2. točke izreka dopolnilne odločbe in odločbe Ustavnega sodišča št. Mp-3/22, U-I-349/18 z dne 19. 4. 2023<br />
+je prišlo do očitne pomote pri navajanju številke sklepa Državnega sveta z dne 12. 12. 2022. Namesto številke 020-09-2/2022/20 je bila navedena številka 020-09-2/20/2. Pomote v odločbah in sklepih, ki so bili sprejeti na seji, popravi s sklepom predsednik Ustavnega sodišča (prvi odstavek 70. člena Poslovnika Ustavnega sodišča).</p>
+<p>Dr. Matej Accetto</p>
+<p>predsednik</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-05-12", "kratica": "SKLE13375", "naziv": "Popravni sklep Ustavnega sodišča", "url": "/trubar/si/SKLE13375/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

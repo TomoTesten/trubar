@@ -21,16 +21,29 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1844" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6170.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE6170" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6170.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE6170,vrsta:sklep">
+    
     <h1>Sklep o spremembah in dopolnitvah Sklepa o ustanovitvi, sestavi, organizaciji in nalogah Sveta za strukturno politiko</h1>
 <p>Na podlagi četrtega odstavka 19. člena Zakona o spodbujanju skladnega regionalnega razvoja (Uradni list RS, št.  93/05) je Vlada Republike Slovenije sprejela</p>
 <h2>S K L E P</h2>
 <p>o spremembah in dopolnitvah Sklepa<br />
 o ustanovitvi, sestavi, organizaciji in nalogah Sveta za strukturno politiko</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Sklepu o ustanovitvi, sestavi, organizaciji in nalogah Sveta za strukturno politiko (Uradni list RS, št. 59/00, 17/01, 13/03 in 93/05 – <a href="/trubar/si/ZSRR-1/" class="law-ref" title="ZSRR-1">ZSRR-1</a>) se 3. člen spremeni tako, da se glasi:</p>
 <h3>»3. člen</h3>
 <p>Svet opravlja naslednje naloge:<br />
@@ -41,7 +54,7 @@ d) spremlja izvajanje Načrta razvojnih programov proračuna v delu, ki se nana�
 e) medresorsko usklajuje spodbude ter druge oblike pomoči in dejavnosti, pomembne za skladni regionalni razvoj;<br />
 f) daje pobude in predlaga vladi spremembe in dopolnitve drugih dokumentov razvojnega načrtovanja;<br />
 g) opravlja druge naloge, povezane s kohezijsko politiko Evropske unije in regionalno politiko.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
@@ -60,13 +73,13 @@ g) opravlja druge naloge, povezane s kohezijsko politiko Evropske unije in regio
 – minister, pristojen za kulturo;<br />
 – minister, pristojen za zdravje;<br />
 – minister, pristojen za pravosodje.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
 <h3>»8. člen</h3>
 <p>Administrativno in strokovno podporo svetu zagotavlja služba.«</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00402-2/2006/7</p>
 <p>Ljubljana, dne 22. marca 2006</p>
@@ -82,5 +95,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-04-21", "kratica": "SKLE6170", "naziv": "Sklep o spremembah in dopolnitvah Sklepa o ustanovitvi, sestavi, organizaciji in nalogah Sveta za strukturno politiko", "url": "/trubar/si/SKLE6170/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,18 +21,31 @@
       <dt>Organ</dt><dd>Ministrstvo za notranje zadeve</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-5045" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7177.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7177" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7177.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7177,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o programu in načinu opravljanja preizkusa usposobljenosti nadzornikov smučišč</h1>
 <p>Na podlagi sedmega odstavka 23. člena Zakona o varnosti na smučiščih (Uradni list RS, št. 110/02 – <a href="/trubar/si/ZVSmuč/" class="law-ref" title="ZVSmuč">ZVSmuč</a>) izdaja minister za notranje zadeve v soglasju z ministrom za promet</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o programu in načinu opravljanja preizkusa usposobljenosti nadzornikov smučišč</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) Točka A) drugega odstavka 3. člena se spremeni: "Za določene vsebine prava o prekrških se uporablja program strokovnega usposabljanja za izvajanje pooblastil po Zakonu o prekrških (Uradni list RS, št. 7/03) in Uredba o vrsti izobrazbe, strokovnem usposabljanju in preizkusu znanja za vodenje in odločanje v prekrškovnem postopku (Uradni list RS, št. 42/04).".<br />
 (2) Določbe točke A drugega odstavka 3. člena se brišejo.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-145/2005/10 (141-04)</p>
 <p>Ljubljana, dne 8. decembra 2005</p>
@@ -52,5 +65,36 @@ za promet</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-12-19", "kratica": "PRAV7177", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o programu in načinu opravljanja preizkusa usposobljenosti nadzornikov smučišč", "url": "/trubar/si/PRAV7177/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

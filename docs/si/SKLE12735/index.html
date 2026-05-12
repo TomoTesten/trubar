@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Banka Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2022-01-0322" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE12735.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE12735" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE12735.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE12735,vrsta:sklep">
+    
     <h1>Sklep o uporabi Smernic o stresnih testih sistemov jamstva za vloge v skladu z Direktivo 2014/49/EU (revidirane)</h1>
 <p>Na podlagi tretjega odstavka 13. člena Zakona o bančništvu (Uradni list RS, št. 92/21 in 123/21 – ZBNIP; v nadaljevanju ZBan-3), tretjega odstavka 9. člena Zakona o reševanju in prisilnem prenehanju bank (Uradni list RS, št. 92/21; v nadaljevanju ZRPPB-1), 47. člena Zakona o sistemu jamstva za vloge (Uradni list RS, št. 27/16; v nadaljevanju <a href="/trubar/si/ZSJV/" class="law-ref" title="ZSJV">ZSJV</a>) v povezavi s tretjim odstavkom 13. člena ZBan-3, prvega odstavka 151. člena Zakona o preprečevanju pranja denarja in financiranja terorizma (Uradni list RS, št. 68/16, 81/19,91/20 in 2/21 – popr.; v nadaljevanju: <a href="/trubar/si/ZPPDFT-1/" class="law-ref" title="ZPPDFT-1">ZPPDFT-1</a>) in prvega odstavka 31. člena Zakona o Banki Slovenije (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo, 59/11 in 55/17) izdaja Svet Banke Slovenije</p>
 <p>S K L E P</p>
@@ -67,5 +80,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2022-02-11", "kratica": "SKLE12735", "naziv": "Sklep o uporabi Smernic o stresnih testih sistemov jamstva za vloge v skladu z Direktivo 2014/49/EU (revidirane)", "url": "/trubar/si/SKLE12735/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,27 +21,40 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1344" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5726.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5726" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5726.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5726,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi pravilnika o zahtevani dokumentaciji za registracijo in oceno fitofarmacevtskih sredstev</h1>
 <p>Na podlagi četrtega odstavka 16. člena in drugega odstavka 68. člena zakona o fitofarmacevtskih sredstvih (Uradni list RS, št. 11/01 in 2/04 – <a href="/trubar/si/ZZdrI-A/" class="law-ref" title="ZZdrI-A">ZZdrI-A</a>) izdaja minister za kmetijstvo, gozdarstvo in prehrano v soglasju z ministrom za zdravje</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembi pravilnika o zahtevani dokumentaciji za registracijo in oceno fitofarmacevtskih sredstev*</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) V pravilniku o zahtevani dokumentaciji za registracijo in oceno fitofarmacevtskih sredstev (Uradni list RS, št. 31/02) se v 2. členu 7. točka spremeni tako, da se glasi:<br />
 »7. metaboliti so produkti razgradnje ali reakcije aktivnih snovi in produkti razgradnje ali biosinteze v mikroorganizmu ali drugem organizmu, uporabljenem za tvorbo mikroorganizma;«.<br />
 (2) 9. točka se spremeni tako, da se glasi:<br />
 »9. nečistote so vse sestavine, razen čiste aktivne snovi in specificiranega mikroorganizma, ki so nastale v proizvodnem postopku ali zaradi razgradnje aktivne snovi med skladiščenjem, vključno z neaktivnimi izomerami;«.<br />
 (3) Za besedilom 15. točke se pika nadomesti s podpičjem in doda nova 16. točka, ki se glasi:<br />
 »16. mikroorganizem je celični ali necelični organizem, sposoben reprodukcije ali prenosa genskega materiala (npr. bakterije, glive, virusi, viroidi, protozoe in drugi, vključno z virusi in njim podobnimi organizmi).«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 9. členu se doda nov tretji odstavek, ki se glasi:<br />
 »(3) Teste in analize za pridobitev podatkov o lastnostih in varnosti FFS, ki vsebuje aktivno snov na podlagi mikroorganizmov ali virusov, razen vpliva na ljudi, opravljajo uradno priznani izvajalci, ki izpolnjujejo z zakonom predpisane pogoje.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prilogi se poglavje B – FFS na osnovi mikroorganizmov in virusov nadomesti z besedilom, ki je kot priloga sestavni del tega pravilnika.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 327-02-236/2003</p>
 <p>Ljubljana, dne 5. marca 2004.</p>
@@ -972,5 +985,36 @@ onesnaževanja okolja in za zaščito neciljnih vrst.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-03-31", "kratica": "PRAV5726", "naziv": "Pravilnik o spremembi pravilnika o zahtevani dokumentaciji za registracijo in oceno fitofarmacevtskih sredstev", "url": "/trubar/si/PRAV5726/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

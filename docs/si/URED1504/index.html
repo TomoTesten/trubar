@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4599" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1504.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1504" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1504.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1504,vrsta:uredba">
+    
     <h1>Uredba o primerih in pogojih, v katerih pooblaščene uradne osebe carinske službe opravljajo naloge službe v civilni obleki</h1>
 <p>Na podlagi prvega odstavka 18. člena zakona o carinski službi (Uradni list RS, št. 56/99) Vlada Republike Slovenije izdaja</p>
 <h2>U R E D B O</h2>
 <p>o primerih in pogojih, v katerih pooblaščene uradne osebe carinske službe opravljajo naloge službe v civilni obleki</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta uredba določa primere in pogoje, v katerih pooblaščene uradne osebe carinske službe opravljajo naloge službe v civilni obleki.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V civilni obleki lahko naloge službe opravljajo vse pooblaščene uradne osebe v Sektorju za preiskovalne zadeve, ki sicer naloge službe opravljajo v službeni obleki, razen pooblaščenih uradnih oseb enot za zatiranje tihotapstva.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Civilno obleko lahko nosijo pooblaščene uradne osebe iz prejšnjega člena pri opravljanju vseh nalog službe, razen v primerih, določenih v 27. členu zakona o carinski službi.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 424-30/2000-1</p>
 <p>Ljubljana, dne 23. novembra 2000.</p>
@@ -50,5 +63,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-12-01", "kratica": "URED1504", "naziv": "Uredba o primerih in pogojih, v katerih pooblaščene uradne osebe carinske službe opravljajo naloge službe v civilni obleki", "url": "/trubar/si/URED1504/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

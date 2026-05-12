@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Športna loterija in igre na srečo d.d.</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-0928" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2521.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG2521" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2521.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG2521,vrsta:drugi akt">
+    
     <h1>Poročilo o prodaji 25. serije igre Hitra srečka</h1>
 <p>Vlada Republike Slovenije je družbi Športna loterija in igre na srečo d.d. dodelila koncesijo za prirejanje klasične igre na srečo z imenom »Hitra srečka« s svojim sklepom številka 470-04/97-1 (V) z dne 24. 7. 1997 in jo prvič podaljšala s svojim sklepom številka 473-01/98-5 (N) z dne 17. 12. 1988 ter nato še z odločbo številka 473-01/2001-67 z dne 11. 12. 2003. Skladno z določbami koncesijske pogodbe, ki je bila sklenjena na podlagi dodeljene koncesije, objavljamo</p>
 <h2>P O R O Č I L O</h2>
@@ -41,5 +54,36 @@ predsednik uprave</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-03-03", "kratica": "DRUG2521", "naziv": "Poročilo o prodaji 25. serije igre Hitra srečka", "url": "/trubar/si/DRUG2521/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>URED9251</strong></dd>
       <dt>Vrsta</dt><dd>uredba</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
-      <dt>Datum</dt><dd>2025-01-17</dd>
-      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2025-01-20</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2025-01-0132" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED9251.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED9251" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED9251.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED9251,vrsta:uredba">
+    
     <h1>Uredba o metodologiji in normativih za določanje ocenjenih vrednosti, povezanih z odstranitvijo objektov ter nadomestitvenimi objekti</h1>
 <p>Na podlagi 157.a člena Zakona o interventnih ukrepih za odpravo posledic poplav in zemeljskih plazov iz avgusta 2023 (Uradni list RS, št. 95/23, 117/23, 131/23 – <a href="/trubar/si/ZORZFS/" class="law-ref" title="ZORZFS">ZORZFS</a> in 62/24) Vlada Republike Slovenije izdaja</p>
 <p>U R E D B O</p>
@@ -323,5 +336,36 @@ PZO<br />
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2025-01-20", "kratica": "URED9251", "naziv": "Uredba o metodologiji in normativih za določanje ocenjenih vrednosti, povezanih z odstranitvijo objektov ter nadomestitvenimi objekti", "url": "/trubar/si/URED9251/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,20 +21,33 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0034" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10687.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10687" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10687.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10687,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o vsebini in obliki diplom Visoke poslovne šole Erudio</h1>
 <p>Na podlagi Zakona o visokem šolstvu (Uradni Iist RS, št. 67/93, 99/99 in 100/04) in Statuta Visoke poslovne šole Erudio je Senat Visoke poslovne šole Erudio dne 24. 11. 2010 sprejel</p>
 <h2>P R A V I L N I K</h2>
 <p>o vsebini in obliki diplom Visoke poslovne šole Erudio</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa obliko in vsebino diplom, ki jih izdaja Visoka poslovna šola Erudio (v nadaljevanju VPS Erudio) in so javna listina. Diplomo dobi študent/ka, ki opravi vse obveznosti po študijskem programu za pridobitev javno veljavne izobrazbe.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>VPS Erudio izdaja naslednje vrste diplom o pridobljeni javno veljavni izobrazbi:<br />
 – Diplomo o pridobljeni visokošolski strokovni izobrazbi bolonjske I. stopnje.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Diploma se izdaja na posebnem, s slepim tiskom zaščitenem papirju. Na papirju dimenzij 21 mm x 29,7 mm je v sredini zgornjega dela na beli podlagi natisnjen znak VPŠ Erudio. Diplome o pridobljeni visokošolski strokovni izobrazbi bolonjske I. stopnje vsebujejo:<br />
 – Ime in priimek kandidata/ke,<br />
 – Datum rojstva,<br />
@@ -47,13 +60,13 @@
 – Datum in kraj izdaje,<br />
 – Pečat Visoke poslovne šole Erudio in<br />
 – Podpis dekana/ice Visoke poslovne šole Erudio.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Sestavni del diplome je tudi »Priloga k diplomi«, ki vsebuje zakonsko zahtevane informacije. Priloga vsebuje:<br />
 – Datum izdaje,<br />
 – Pečat Visoke poslovne šole Erudio ter<br />
 – Podpis dekana/ice Visoke poslovne šole Erudio.<br />
 Vzorec diplome o pridobljeni dodiplomski izobrazbi je objavljen v prilogi tega sklepa in je njegov sestavni del.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik se objavi v Uradnem listu Republike Slovenije in začne veljati na dan objave.</p>
 <p>Ljubljana, dne 24. novembra 2010</p>
 <p>Dekan VPŠ Erudio<br />
@@ -67,5 +80,36 @@ Matjaž Škabar l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-01-10", "kratica": "PRAV10687", "naziv": "Pravilnik o vsebini in obliki diplom Visoke poslovne šole Erudio", "url": "/trubar/si/PRAV10687/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2768" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO89.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO89" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO89.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO89,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Navodilo o vsebini objav za javna naročila v Uradnem listu Republike Slovenije</h1>
 <p>Na podlagi 77. člena zakona o javnih naročilih (Uradni list RS, št. 24/97) in 99. člena zakona o upravi (Uradni list RS, št. 67/94) izdaja minister za finance</p>
 <h2>N A V O D I L O</h2>
 <p>o vsebini objav za javna naročila  v Uradnemu listu Republike Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) To navodilo podrobneje določa vsebino objav in obliko obrazcev, s katerimi naročniki, skladno s prvim in tretjim odstavkom 18. člena, tretjim odstavkom 42. člena in tretjim odstavkom 55. člena zakona o javnih naročilih (Uradni list RS, št. 24/97), objavljajo podatke o javnih naročilih v Uradnem listu Republike Slovenije.<br />
 (2) Naročniki uporabijo za naročilo objave obrazce za tiste objave, ki jih zakon predpisuje v izbranem načinu naročanja.<br />
 (3) Vzorci obrazcev so sestavni del tega navodila.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Za objave v Uradnem listu Republike Slovenije naročniki uporabljajo naslednje obrazce:<br />
 1. (a) ZJN-01 – BLAGO<br />
 (b) ZJN-01 – GRADBENA DELA<br />
@@ -56,11 +69,11 @@ za naročilo objave dodelitve javnega naročila brez predhodnega javnega razpisa
 (c) ZJN-05 – STORITVE<br />
 za naročilo objave javnega razpisa za prijavo interesa in ugotavljanje sposobnosti po 43. do 45. členih zakona o javnih naročilih.<br />
 (2) Naročnik, poleg v obrazcu predvidenih podatkov, naroči v razpisu tudi objavo drugih podatkov, ki so potrebni za uspešno izvedbo postopka. Dodatne podatke ali večji obseg podatkov naročnik priloži izpolnjenim obrazcem na posebnih listih.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za naročilo objave lahko naročnik uporabi kopije obrazcev ali računalniške izpise enake oblike in vsebine.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Z dnem uveljavitve tega navodila preneha veljati navodilo o vsebini in obliki obrazcev za objavo namere o oddaji javnega naročila, javnega razpisa in izida javnega razpisa v Uradnem listu RS in določitvi enotnih obrazcev za objavo (Uradni list RS, št. 41/97).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>To navodilo prične veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št.  403-24/98</p>
 <p>Ljubljana, dne 15. maja 1998.</p>
@@ -76,5 +89,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-08-28", "kratica": "NAVO89", "naziv": "Navodilo o vsebini objav za javna naročila v Uradnem listu Republike Slovenije", "url": "/trubar/si/NAVO89/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

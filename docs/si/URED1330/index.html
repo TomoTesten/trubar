@@ -21,23 +21,36 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3048" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1330.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1330" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1330.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1330,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah uredbe o določitvi uporabe znižane carinske stopnje in stopnje "prosto"</h1>
 <p>Na podlagi tretjega in četrtega odstavka 5. člena zakona o carinski tarifi (Uradni list RS, št. 74/95), v zvezi s 6. in 7. členom uredbe o natančnejših kriterijih za določitev carinskih kontingentov in uporabe znižane carinske stopnje ali stopnje “prosto“ pri uvozu blaga (Uradni list RS, št. 75/95 in 26/96) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o določitvi uporabe znižane carinske stopnje in stopnje “prosto“</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o določitvi uporabe znižane carinske stopnje in stopnje “prosto“ (Uradni list RS, št. 103/99) se priloga dopolni tako, da se:<br />
 – za tarifno oznako 0707 00 doda besedilo, ki se glasi:</p>
 <p>“0707 00 05         – Kumare<br />
 0707 00 053         – – od 16. maja do 30. septembra 15% “</p>
 <p>– pri tarifni oznaki 0707 00 900 carinska stopnja “30“ črta in nadomesti s “prosto“.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Določila prejšnjega člena se uporabljajo do vključno 30. septembra 2000.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 2000-2211-0085</p>
 <p>Ljubljana, dne 20. julija 2000.</p>
@@ -52,5 +65,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-07-21", "kratica": "URED1330", "naziv": "Uredba o spremembah in dopolnitvah uredbe o določitvi uporabe znižane carinske stopnje in stopnje \"prosto\"", "url": "/trubar/si/URED1330/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

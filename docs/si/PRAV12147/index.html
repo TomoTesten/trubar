@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-1804" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12147.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV12147" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV12147.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV12147,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o izvedbi postopka izbire projektov, pogojih in merilih za izbor avdiovizualnih projektov</h1>
 <p>Na podlagi drugega odstavka 26. člena Zakona o javnih agencijah (Uradni list RS, št. 52/02, 51/04) in četrtega odstavka 14. člena Zakona o slovenskem filmskem centru, javni agenciji Republike Slovenije (Uradni list RS, št. 77/10 in 19/14), je direktor Slovenskega filmskega centra, javne agencije Republike Slovenije, na podlagi soglasja sveta Slovenskega filmskega centra, javne agencije Republike Slovenije na 47. redni seji, dne 30. 5. 2014, sprejel naslednji</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o izvedbi postopka izbire projektov, pogojih in merilih za izbor avdiovizualnih projektov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <ol>
 <li>člen se črta.</li>
 </ol>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:<br />
 »(1) Po pridobitvi poročila strokovno programske komisije iz prejšnjega člena tega pravilnika, direktor v roku petnajstih dni povabi prijavitelje projektov, prijavljenih na razpis, ki jih je glede na število točk strokovno programska komisija predlagala direktorju v sofinanciranje, na usklajevanje finančnih, časovnih in vseh drugih modalitet izvedbe prijavljenega projekta.<br />
@@ -45,7 +58,7 @@
 (7) Če se prijavitelj vabilu na izvedbeno usklajevanje ne odzove ali če finančnih, časovnih in vseh drugih modalitet izvedbe projekta ni mogoče uskladiti, se šteje, da je prijavitelj odstopil od zahteve za sofinanciranje projekta, na kar mora agencija prijavitelja v vabilu opozoriti.<br />
 (8) Ko se izvedbena usklajevanja iz prvega odstavka tega člena končajo, direktor izda odločbe o sofinanciranju izbranih projektov.«.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 014-85/2012-MIZKS/64</p>
 <p>Ljubljana, dne 30. maja 2014</p>
@@ -64,5 +77,36 @@ javne agencije Republike Slovenije</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-06-13", "kratica": "PRAV12147", "naziv": "Pravilnik o spremembah Pravilnika o izvedbi postopka izbire projektov, pogojih in merilih za izbor avdiovizualnih projektov", "url": "/trubar/si/PRAV12147/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

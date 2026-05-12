@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3901" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1738.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1738" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1738.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1738,vrsta:uredba">
+    
     <h1>Uredba o avtonomnem ukrepu ukinitve carinske stopnje in posebne dajatve v okviru carinskega kontingenta</h1>
 <p>Na podlagi 9. člena zakona o carinski tarifi (Uradni list RS, št. 66/00) ter v zvezi s prvim odstavkom 3. člena uredbe o natančnejših pogojih za določitev avtonomnih ukrepov znižanja ali ukinitve carinskih stopenj (Uradni list RS, št. 120/00) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o avtonomnem ukrepu ukinitve carinske stopnje in posebne dajatve v okviru carinskega kontingenta</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V okviru carinskega kontingenta, določenega s to uredbo, se uporablja carinska stopnja prosto in posebna uvozna dajatev se ne plačuje pri uvozu naslednjega blaga:</p>
 <hr />
 <h2>Tarifna oznaka  Poimenovanje                  Carinski kontingent</h2>
@@ -39,12 +52,12 @@
                 in soržica:<br />
 1001 90 99      - - - drugo                           40.000 ton.</p>
 <hr />
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Upravičenec za uvoz blaga iz prejšnjega člena je Zavod Republike Slovenije za blagovne rezerve (v nadaljnjem besedilu: zavod), ki mora za vsakokratni uvoz predhodno pridobiti potrdilo Ministrstva za gospodarstvo.<br />
 Zavod lahko uvozi blago iz prejšnjega člena sam ali pooblasti drugo osebo, da za njegov račun opravi carinske formalnosti.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Pri uvozu blaga po določbah te uredbe se v enotno carinsko listino (ECL) v skladu s 94. členom uredbe za izvajanje carinskega zakona (Uradni list RS, št. 46/99, 103/99, 14/00, 112/00 in 40/01) v polje 39 vpiše štirimestno šifro “8000“.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 424-37/2001-1</p>
 <p>Ljubljana, dne 13. septembra 2001.</p>
@@ -59,5 +72,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-09-14", "kratica": "URED1738", "naziv": "Uredba o avtonomnem ukrepu ukinitve carinske stopnje in posebne dajatve v okviru carinskega kontingenta", "url": "/trubar/si/URED1738/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

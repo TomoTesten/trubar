@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2021-01-1059" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED8255.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED8255" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED8255.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED8255,vrsta:uredba">
+    
     <h1>Uredba o spremembi in dopolnitvah Uredbe o ureditvi nekaterih vprašanj glede pridobivanja premoženja države iz naslova dedovanja</h1>
 <p>Za izvrševanje 19. člena Zakona o spremembah in dopolnitvah Zakona o državni upravi (Uradni list RS, št. 90/14 – ZDU-1l in 51/16 – <a href="/trubar/si/ZDU-1J/" class="law-ref" title="ZDU-1J">ZDU-1J</a>), 2. člena Zakona o Skladu kmetijskih zemljišč in gozdov Republike Slovenije (Uradni list RS, št. 19/10 – uradno prečiščeno besedilo, 56/10 – ORZSKZ16, 14/15 – <a href="/trubar/si/ZUUJFO/" class="law-ref" title="ZUUJFO">ZUUJFO</a>, 9/16 – <a href="/trubar/si/ZGGLRS/" class="law-ref" title="ZGGLRS">ZGGLRS</a> in 36/21 – <a href="/trubar/si/ZZIRDKG/" class="law-ref" title="ZZIRDKG">ZZIRDKG</a>), 14. v zvezi z 19. členom Zakona o gospodarjenju z gozdovi v lasti Republike Slovenije (Uradni list RS, št. 9/16 in 36/21 – <a href="/trubar/si/ZZIRDKG/" class="law-ref" title="ZZIRDKG">ZZIRDKG</a>), 29. in 30. člena Zakona o državni upravi (Uradni list RS, št. 113/05 – uradno prečiščeno besedilo, 89/07 – odl. US, 126/07 – <a href="/trubar/si/ZUP-E/" class="law-ref" title="ZUP-E">ZUP-E</a>, 48/09, 8/10 – <a href="/trubar/si/ZUP-G/" class="law-ref" title="ZUP-G">ZUP-G</a>, 8/12 – <a href="/trubar/si/ZVRS-F/" class="law-ref" title="ZVRS-F">ZVRS-F</a>, 21/12, 47/13, 12/14, 90/14, 51/16 in 36/21), 2., 12. in 94. člena Zakona o državnem odvetništvu (Uradni list RS, št. 23/17), 12. in 13. člena Zakona o stvarnem premoženju države in samoupravnih lokalnih skupnosti (Uradni list RS, št. 11/18 in 79/18) ter 9., 128., 129. in 219. člena Zakona o dedovanju (Uradni list SRS, št. 15/76, 23/78, Uradni list RS, št. 13/94 – <a href="/trubar/si/ZN/" class="law-ref" title="ZN">ZN</a>, 40/94 – odl. US, 117/00 – odl. US, 67/01, 83/01 – <a href="/trubar/si/OZ/" class="law-ref" title="OZ">OZ</a>, 73/04 – <a href="/trubar/si/ZN-C/" class="law-ref" title="ZN-C">ZN-C</a>, 31/13 – odl. US in 63/16) Vlada Republike Slovenije izdaja</p>
 <p>U R E D B O</p>
@@ -62,5 +75,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2021-04-09", "kratica": "URED8255", "naziv": "Uredba o spremembi in dopolnitvah Uredbe o ureditvi nekaterih vprašanj glede pridobivanja premoženja države iz naslova dedovanja", "url": "/trubar/si/URED8255/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

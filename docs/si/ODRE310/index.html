@@ -16,29 +16,42 @@
     <dl>
       <dt>Kratica</dt><dd><strong>ODRE310</strong></dd>
       <dt>Vrsta</dt><dd>odredba</dd>
-      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
       <dt>Datum</dt><dd>1992-02-07</dd>
-      
+      <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0337" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE310.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE310" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE310.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE310,vrsta:odredba">
+    
     <h1>Odredba o enotnem zaščitnem znaku</h1>
 <p>Na podlagi 11. točke 18. člena zakona o prometnem davku (Uradni list RS, št. 4/92) izdaja minister za finance</p>
 <h2>ODREDBO</h2>
 <p>o enotnem zaščitnem znaku</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Od proizvodov, razen motornih vozil, alkoholnih in brezalkoholnih pijač ter proizvodov iz tarifnih številk 4, 5, 6 in 7 tarife davka od prometa proizvodov, ki so proizvedeni v podjetju ali zavodu za zaposlovanje invalidov se ne plačuje prometni davek, če so ti proizvodi označeni z enotnim zaščitnim znakom.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Zaščitni znak iz 1. člena te odredbe je objavljen skupaj s to odredbo in je njen sestavni del. Znak je pravilen krog, katerega površina je črne ali modre barve; beli vodoravni pas debeline 4% premera kroga ga deli na dva dela; zgornji odsek kroga z višino 3/5 (tri petine) premera kroga (merjeno po horizontalnem pasu) in spodnji odsek z višino 2/5 (dve petini) premera. Na levi strani spodnjega odseka kroga se pravokotno na delilno črto spušča bel pas debeline 8% premera, katerega levi spodnji rob določa tangenta, ki seka zgornji rob vodoravnega pasu pod notranjim kotom 40° (stopinj). V zgornjem odseku kroga je v osi belega navpičnega pasu bela ali rdeča pika, širine navpičnega pasu, ki se dotika krožnice. Celoten znak obkroža v razdalji debeline horizontalne črte krožnice enake debeline in barve osnovnega kroga.<br />
 Zaščitni znak mora biti natisnjen na proizvodu ali nanj prilepljen ali k njemu pripet oziroma v njega reliefno vtisnjen.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>O pravici do uporabe enotnega zaščitnega znaka se vodi register.<br />
 Register uporabe enotnega zaščitnega znaka vodi združenje podjetij in zavodov za zaposlovanje invalidov. Na podlagi registrskega lista, ki ga potrdi pristojno združenje, se pridobi pravica do uporabe zaščitnega znaka. V registrski list se vpišejo dejavnost, sedež in firma podjetja ali zavoda za zaposlovanje invalidov, številka vpisa v sodni register in sedež gospodarskega sodišča, pri katerem je registrirano podjetje ali zavod za zaposlovanje invalidov, vrste proizvodov na katerih bo zaščitni znak, določen s to odredbo in letne količine omenjenih proizvodov. Vsaka sprememba obveznih elementov registrskega lista se mora posebej evidentirati in jo mora potrditi združenje podjetij in zavodov za zaposlovanje invalidov.<br />
 Združenje podjetij in zavodov za zaposlovanje invalidov je dolžno o izdanih registrskih listih obvestiti ministrstvo za finance v 30 dneh po poteku vsakih 6 mesecev za vse registrske liste, izdane v preteklem obdobju.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 415-5/92</p>
 <p>Ljubljana, dne 30. januarja 1992.</p>
@@ -52,5 +65,36 @@ Dušan Šešok l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-02-07", "kratica": "ODRE310", "naziv": "Odredba o enotnem zaščitnem znaku", "url": "/trubar/si/ODRE310/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

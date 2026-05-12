@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1239" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIPK.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZIPK" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIPK.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZIPK,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Zakon o izdaji priložnostnih kovancev ob prvi obletnici plebiscita o samostojnosti in neodvisnosti Republike Slovenije</h1>
 <p>Na podlagi 3. točke 379. člena ustave Republike Slovenije izdaja Predsedstvo Republike Slovenije</p>
 <h2>UKAZ</h2>
@@ -36,26 +49,26 @@
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>o izdaji priložnostnih kovancev ob prvi obletnici plebiscita o samostojnosti in neodvisnosti Republike Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ob prvi obletnici plebiscita o samostojnosti in neodvisnosti Republike Slovenije izdaja Republika Slovenija priložnostne kovance – priložnostne zlatnike in priložnostne srebrnike.<br />
 Priložnostni kovanci so zakonito plačilno sredstvo na ozemlju Republike Slovenije.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Priložnostni zlatniki se izdajo v apoenu 5.000 tolarjev, v količini 4.000 kovancev in v skupni vrednosti 20.000.000 tolarjev.<br />
 Priložnostni srebrniki se izdajo v apoenu 500 tolarjev v količini 50.000 kovancev in v skupni vrednosti 25.000.000 tolarjev.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Glavna znamenja priložnostnih kovancev določi Izvršni svet Skupščine Republike Slovenije na predlog Banke Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Strokovne in tehnične naloge v zvezi z izdajo priložnostnih kovancev opravlja Banka Slovenije na podlagi pogodbe, ki jo v imenu Republike Slovenije sklene minister za finance.<br />
 Priložnostne kovance izdela specializirana organizacija, ki jo določi Banka Slovenije.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Priložnostni kovanci se prodajajo po ceni, ki je večja od njihove nominalne vrednosti.<br />
 Prodajno ceno priložnostnih kovancev določi Banka Slovenije.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Banka Slovenije določi dan izročitve priložnostnih kovancev v prodajo.<br />
 Priložnostne kovance prodaja Banka Slovenije neposredno ali preko bank in drugih specializiranih organizacij.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Prihodki od prodaje priložnostnih kovancev se po odbitku stroškov stekajo v republiški proračun.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 450-05/91-5/1</p>
 <p>Ljubljana, dne 11. decembra 1991.</p>
@@ -71,5 +84,36 @@ dr. France Bučar l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1991-12-14", "kratica": "ZIPK", "naziv": "Zakon o izdaji priložnostnih kovancev ob prvi obletnici plebiscita o samostojnosti in neodvisnosti Republike Slovenije", "url": "/trubar/si/ZIPK/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

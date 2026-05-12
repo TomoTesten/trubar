@@ -21,29 +21,42 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-4356" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6344.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6344" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6344.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6344,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o organih v sestavi ministrstev</h1>
 <p>Na podlagi 21. člena, petega odstavka 23. člena in drugega odstavka 42. člena Zakona o državni upravi (Uradni list RS, št. 113/05 – uradno prečiščeno besedilo, 126/07 – <a href="/trubar/si/ZUP-E/" class="law-ref" title="ZUP-E">ZUP-E</a>, 48/09, 8/10 – <a href="/trubar/si/ZUP-G/" class="law-ref" title="ZUP-G">ZUP-G</a>, 8/12 – <a href="/trubar/si/ZVRS-F/" class="law-ref" title="ZVRS-F">ZVRS-F</a> in 21/12) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o organih v sestavi ministrstev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o organih v sestavi ministrstev (Uradni list RS, št. 58/03, 45/04, 86/04 – <a href="/trubar/si/ZVOP-1/" class="law-ref" title="ZVOP-1">ZVOP-1</a>, 138/04, 52/05, 82/05, 17/06, 76/06, 132/06, 41/07, 64/08 – ZViS-F, 63/09, 69/10, 40/11, 98/11, 17/12, 23/12 in 82/12) se v prvem odstavku 5. člena črta četrta alineja.<br />
 V tretjem odstavku se za besedilom »davčnega informacijskega sistema,« doda besedilo »izdajanja dovoljenj in nadziranja področnih predpisov, ki urejajo igre na srečo, nadziranja dejavnosti iger na srečo ter spremljanja, zbiranja in analiziranja podatkov, prejetih od prirediteljev oziroma koncesionarjev,«.<br />
 Črta se peti odstavek.<br />
 Dosedanji šesti in sedmi odstavek postaneta peti in šesti odstavek.</p>
 <h3>PREHODNI IN KONČNA DOLOČBA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Davčna uprava Republike Slovenije s 1. januarjem 2013 prevzame naloge iz 1. člena te uredbe in dokumentacijo, povezano z njimi.<br />
 Davčna uprava Republike Slovenije in Ministrstvo za finance prevzameta javne uslužbence Urada Republike Slovenije za nadzor prirejanja iger na srečo.<br />
 Pravice porabe, zagotovljene za stroške dela in materialne stroške v finančnem načrtu Urada Republike Slovenije za nadzor prirejanja iger na srečo za leto 2013, se prerazporedijo Davčni upravi Republike Slovenije in Ministrstvu za finance sorazmerno deležu prevzetih javnih uslužbencev, in sicer v razmerju Davčna uprava Republike Slovenije 74 odstotkov in Ministrstvo za finance 26 odstotkov.<br />
 Obveznosti za izplačilo sredstev za delo za december 2012 se prerazporedijo na enak način, kot je določeno v prejšnjem odstavku.<br />
 Opremo Urada Republike Slovenije za nadzor prirejanja iger na srečo prevzame Ministrstvo za finance.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Akt o notranji organizaciji in sistemizaciji delovnih mest Davčne uprave Republike Slovenije in Ministrstva za finance se s to uredbo uskladi najpozneje v petnajstih dneh od njene uveljavitve.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00730-49/2012</p>
 <p>Ljubljana, dne 31. decembra 2012</p>
@@ -59,5 +72,36 @@ Ministrica</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-12-31", "kratica": "URED6344", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o organih v sestavi ministrstev", "url": "/trubar/si/URED6344/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

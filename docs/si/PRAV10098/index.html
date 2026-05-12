@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0170" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10098.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10098" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10098.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10098,vrsta:pravilnik">
+    
     <h1>Pravilnik o dopolnitvah Pravilnika o pristojbinah na področju veterinarstva</h1>
 <p>Na podlagi šestega odstavka 74. člena in 75. člena Zakona o veterinarskih merilih skladnosti (Uradni list RS, št. 93/05) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o dopolnitvah Pravilnika o pristojbinah na področju veterinarstva</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o pristojbinah na področju veterinarstva (Uradni list RS, št. 10/08 in 51/09) se v prvem odstavku 1. člena za besedilom »(v nadaljnjem besedilu: Uredba 1857/2006/ES)« doda besedilo »ter Uredbe Komisije (ES) št. 669/2009 z dne 24. julija 2009 o izvajanju Uredbe (ES) št. 882/2004 Evropskega parlamenta in Sveta glede poostrenega uradnega nadzora pri uvozu nekatere krme in nekaterih živil neživalskega izvora ter spremembi Odločbe 2006/504/ES (UL L št. 194 z dne 25. 7. 2009, str. 11), (v nadaljnjem besedilu: Uredba 669/2009/ES)«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 14. členu se dodata peti in šesti odstavek, ki se glasita:<br />
 »(5) V primeru uvoza rizičnih pošiljk krme neživalskega izvora, ki so določene v Prilogi I Uredbe 669/2009/ES, je uvoznik ali njegov zastopnik oziroma oseba, odgovorna za tovor, pred sprostitvijo pošiljke v prost pretok dolžan plačati pristojbino v višini:<br />
 – 55 EUR na pošiljko do 50 ton,<br />
@@ -41,7 +54,7 @@
 – 600 EUR na plovilo s tovorom do 500 ton,<br />
 – 1 200 EUR na plovilo s tovorom nad 500 do 2 000 ton,<br />
 – 2 400 EUR na plovilo s tovorom nad 2 000 ton.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-46/2009</p>
 <p>Ljubljana, dne 20. januarja 2010</p>
@@ -58,5 +71,36 @@ gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-01-25", "kratica": "PRAV10098", "naziv": "Pravilnik o dopolnitvah Pravilnika o pristojbinah na področju veterinarstva", "url": "/trubar/si/PRAV10098/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

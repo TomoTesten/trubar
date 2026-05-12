@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Ministrstvo za delo, družino in socialne zadeve</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2600" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE8107.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE8107" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE8107.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE8107,vrsta:sklep">
+    
     <h1>Sklep o razširjeni veljavnosti celotne Kolektivne pogodbe za kovinsko industrijo Slovenije</h1>
 <p>Minister za delo, družino in socialne zadeve izdaja v zadevi razširitve veljavnosti Kolektivne pogodbe za kovinsko industrijo Slovenije, na predlog stranke na strani delavcev (Sindikat kovinske in elektroindustrije Slovenije, Dalmatinova 4, Ljubljana, ki ga zastopa Lidija Jerkič, Sindikat kovinske, elektro in metalurške industrije Neodvisnost, Linhartova 13, Ljubljana, ki ga zastopa Milan Škafar, Neodvisni sindikat Slovenije – Sindikat kovinske industrije, Trstenjakova 9, Ptuj ki ga zastopa Vladimir Pajek, Konfederacija sindikatov 90 – Sindikat kovinske, elektroindustrije in elektronike, Slovenski trg 3, Kranj, ki ga zastopa Ljubomir Ocvirk in Sindikat za dejavnost proizvodnje motornih vozil, prikolic in polprikolic, Trg OF 7, Ljubljana ki ga zastopa Slavko Pungeršič), na podlagi drugega odstavka 12. člena in 13. člena Zakona o kolektivnih pogodbah (Uradni list RS, št. 43/06) naslednji</p>
 <h2>S K L E P</h2>
@@ -43,5 +56,36 @@ za delo, družino in socialne zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-07-10", "kratica": "SKLE8107", "naziv": "Sklep o razširjeni veljavnosti celotne Kolektivne pogodbe za kovinsko industrijo Slovenije", "url": "/trubar/si/SKLE8107/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

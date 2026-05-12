@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-3680" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1762.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG1762" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1762.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG1762,vrsta:drugi akt">
+    
     <h1>Memorandum o soglasju med Evropsko skupnostjo in Republiko Slovenijo o sodelovanju Slovenije v večletnem programu Skupnosti, namenjenem spodbujanju razvoja in uporabe evropskih digitalnih vsebin na svetovnih omrežjih ter pospeševanju jezikovne raznolikosti v informacijski družbi (eVsebine)</h1>
 <p>Na podlagi Uredbe o ratifikaciji Sklepa št. 2/2002 Pridružitvenega sveta EU – Slovenija o sprejemu splošnih določil in pogojev sodelovanja Republike slovenije v programih Skupnosti (Uradni list RS – MP, št. 15/2002) in sklepa Vlade Republike Slovenije, sprejetega na 84. seji dne 25. 7. 2002, se objavi</p>
 <h2>M E M O R A N D U M   O   S O G L A S J U</h2>
@@ -131,5 +144,36 @@ uradnega opomina, poslanega Sloveniji.</li>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-08-06", "kratica": "DRUG1762", "naziv": "Memorandum o soglasju med Evropsko skupnostjo in Republiko Slovenijo o sodelovanju Slovenije v večletnem programu Skupnosti, namenjenem spodbujanju razvoja in uporabe evropskih digitalnih vsebin na svetovnih omrežjih ter pospeševanju jezikovne raznolikosti v informacijski družbi (eVsebine)", "url": "/trubar/si/DRUG1762/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

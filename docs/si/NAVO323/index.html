@@ -16,23 +16,36 @@
     <dl>
       <dt>Kratica</dt><dd><strong>NAVO323</strong></dd>
       <dt>Vrsta</dt><dd>navodilo</dd>
-      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
       <dt>Datum</dt><dd>2000-03-24</dd>
-      
+      <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1246" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO323.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO323" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO323.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO323,vrsta:navodilo">
+    
     <h1>Navodilo o spremembah in dopolnitvah navodila za uskladitev računovodskih evidenc za uporabnike enotnega kontnega načrta z zakonom o računovodstvu</h1>
 <p>Na podlagi tretjega odstavka 56. člena zakona o računovodstvu (Uradni list RS, št. 23/99) izdaja minister za finance</p>
 <h2>N A V O D I L O</h2>
 <p>o spremembah in dopolnitvah navodila za uskladitev računovodskih evidenc za uporabnike enotnega kontnega načrta z zakonom o računovodstvu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Besedilo prvega odstavka 14. člena navodila za uskladitev računovodskih evidenc za uporabnike enotnega kontnega načrta z zakonom o računovodstvu (Uradni list RS, št.110/99) se spremeni tako, da se glasi:</p>
 <p>“Drugi in določeni uporabniki enotnega kontnega načrta, katerih ustanovitelj je država, pošljejo otvoritveno bilanco na obrazcu otvoritvena bilanca stanja, ki je sestavni del tega navodila (Priloga 1), ministrstvu za finance. Drugi in določeni uporabniki enotnega kontnega načrta, katerih ustanovitelj je občina, pa pošljejo otvoritveno bilanco stanja organu občine, pristojnemu za finance.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 402 - 7/2000</p>
 <p>Ljubljana, dne 22. marca 2000.</p>
@@ -154,5 +167,36 @@ skupine kontov                        skupine   AOP    (v tisočih<br />
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-03-24", "kratica": "NAVO323", "naziv": "Navodilo o spremembah in dopolnitvah navodila za uskladitev računovodskih evidenc za uporabnike enotnega kontnega načrta z zakonom o računovodstvu", "url": "/trubar/si/NAVO323/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

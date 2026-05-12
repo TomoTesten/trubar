@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0726" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZOMZO.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZOMZO" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZOMZO.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZOMZO,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Zakon o obrestni meri zamudnih obresti</h1>
 <p>Na podlagi prvega odstavka 107. člena ustave Republike Slovenije izdaja Predsedstvo Republike Slovenije</p>
 <h2>UKAZ</h2>
@@ -36,23 +49,23 @@
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>o obrestni meri zamudnih obresti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Dolžnik, ki zamudi z izpolnitvijo denarne obveznosti iz obligacijskih razmerij, plača od zneska dolga od nastanka zamude do trenutka plačila zamudne obresti po obrestni meri, določeni s tem zakonom.<br />
 Po tem zakonu se plačuje zamudne obresti tudi v primeru zamude za izpolnitev denarnih obveznosti za davke, prispevke, carine in druge uvozne davščine.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Obrestna mera zamudnih obresti za obligacijska razmerja je enaka stopnji rasti cen na drobno v preteklem mesecu, preračunani na letno raven, in realni letni zamudni obrestni meri 30%.<br />
 Obrestna mera zamudnih obresti za davke, prispevke, carine in druge uvozne davščine je enaka stopnji rasti cen na drobno v preteklem mesecu, preračunani na letno raven, in realni letni zamudni obrestni meri 30%.<br />
 Zamudne obresti se obračunavajo po konformni metodi.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon se ne uporablja za dolžniško-upniška razmerja, ki jih ureja poseben zakon.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Minister za finance izda podrobnejši predpis o načinu izračunavanja zamudnih obresti.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Podatke o stopnji rasti cen iz 2. člena tega zakona objavlja Zavod Republike Slovenije za statistiko v Uradnem listu Republike Slovenije.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Z dnem uveljavitve tega zakona preneha veljati zakon o obrestni meri zamudnih obresti (Uradni list SFRJ, št. 57/89).<br />
 Z dnem uveljavitve tega zakona prenehajo veljati določbe 102. člena zakona o dohodnini (Uradni list RS, št. 48/90 in 34/91-I), 214. člena zakona o davkih občanov (Uradni list SRS, št. 36/88 in 8/89 ter Uradni list RS, št. 48/90), 32. člena zakona o davku od dobička pravnih oseb (Uradni list RS, št. 48/90 in 32/91-I), 46. člena zakona o prometnem davku (Uradni list RS, št. 4/92), 13. člena zakona o davku na promet nepremičnin (Uradni list RS, št. 47/90), 16. člena zakona o prispevkih za pokojninsko in invalidsko zavarovanje, zdravstveno varstvo in zaposlovanje (Uradni list RS, št. 48/90) in 269. člena carinskega zakona (Uradni list SFRJ, št. 10/76, 36/79, 52/79, 12/82, 61/82, 7/84, 25/85, 38/86, 28/88, 40/89, 70/89 in 21/90).</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 450-06/91-1/2</p>
 <p>Ljubljana, dne 18. marca 1992.</p>
@@ -68,5 +81,36 @@ dr. France Bučar l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-03-27", "kratica": "ZOMZO", "naziv": "Zakon o obrestni meri zamudnih obresti", "url": "/trubar/si/ZOMZO/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

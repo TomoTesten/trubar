@@ -21,30 +21,43 @@
       <dt>Organ</dt><dd>Ministrstvo za infrastrukturo in prostor</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0119" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11533.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11533" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11533.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11533,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvi Pravilnika o vozniških dovoljenjih</h1>
 <p>Na podlagi 24. točke 14. člena Zakona o voznikih (Uradni list RS, št. 109/10) izdaja minister za infrastrukturo in prostor</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvi Pravilnika o vozniških dovoljenjih</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o vozniških dovoljenjih (Uradni list RS, št. 68/11 in 55/12) se prvi odstavek 1. člena spremeni tako, da se glasi:<br />
 »(1) Ta pravilnik natančneje določa postopek za izdajo vozniškega dovoljenja, podaljšanje veljavnosti, nadomestitev in zamenjavo vozniških dovoljenj, enotne kode dodatnih informacij in omejitev, ki jih mora voznik upoštevati pri vožnji vozila v skladu z Direktivo Evropskega parlamenta in Sveta 2006/126/ES z dne 20. 12. 2006 o vozniških dovoljenjih (UL L št. 403, str. 18), zadnjič spremenjeno z Direktivo Komisije 2012/36/EU z dne 19. novembra 2012 o spremembi Direktive 2006/126/ES Evropskega parlamenta in Sveta o vozniških dovoljenjih (UL L št. 321, str. 54), način vodenja evidenc izdanih vozniških dovoljenj ter izdajo mednarodnih vozniških dovoljenj.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugem odstavku 5. člena se črta zadnji stavek.<br />
 V tretjem odstavku se beseda »državljana« nadomesti z besedo »osebe«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 7. členu se na začetku odstavka doda oznaka »(1)«.<br />
 Doda se drugi odstavek, ki se glasi:<br />
 »(2) Za izdajo vozniškega dovoljenja se lahko uporabi fotografija v digitalni obliki, ki se hrani v evidenci izdanega drugega uradnega identifikacijskega dokumenta, če kaže pravo podobo osebe.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Priloga 7 se nadomesti z novo prilogo 7, ki je kot priloga sestavni del tega pravilnika.</p>
 <h3>PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Določba 5. člena pravilnika o predložitvi fotografije v digitalni obliki in določba drugega odstavka 7. člena pravilnika se začneta uporabljati z vzpostavitvijo tehnično-tehnoloških možnosti, vendar najpozneje dve leti po uveljavitvi tega pravilnika.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne 19. januarja 2013.</p>
 <p>Št. 007-494/2012</p>
 <p>Ljubljana, dne 19. decembra 2012</p>
@@ -61,5 +74,36 @@ za infrastrukturo in prostor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-01-18", "kratica": "PRAV11533", "naziv": "Pravilnik o spremembah in dopolnitvi Pravilnika o vozniških dovoljenjih", "url": "/trubar/si/PRAV11533/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

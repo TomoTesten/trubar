@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0788" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZFDO-F.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZFDO-F" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZFDO-F.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZFDO-F,vrsta:Sprejet zakon">
+    
     <h1>Zakon o dopolnitvi Zakona o funkcionarjih v državnih organih</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,16 +50,16 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O DOPOLNITVI ZAKONA O FUNKCIONARJIHV DRŽAVNIH ORGANIH (ZFDO-F)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o funkcionarjih v državnih organih (Uradni list RS, št. 30/90, 18/91, 22/91, 2/91-I, 4/93, 13/93 – <a href="/trubar/si/ZNOIP/" class="law-ref" title="ZNOIP">ZNOIP</a>, 18/94 – <a href="/trubar/si/ZRPJZ/" class="law-ref" title="ZRPJZ">ZRPJZ</a> in 109/12) se za 13. členom doda nov 13.a člen, ki se glasi:</p>
 <h3>»13.a člen</h3>
 <p>Član Državnega sveta Republike Slovenije (v nadaljnjem besedilu: državni svet) ima pravico do plačila za opravljanje funkcije ter do povračila stroškov, ki jih ima v zvezi z opravljanjem funkcije.<br />
 Višina plačila za opravljanje funkcije podpredsednika in člana državnega sveta lahko znaša mesečno največ tretjino osnovne plače predsednika državnega sveta.<br />
 Višino plačila za opravljanje funkcije in povračila stroškov podpredsednika in člana državnega sveta določi državni svet s svojim aktom, v katerem določi tudi pogoje, ob katerih jim plačilo pripada.«.</p>
 <h3>KONČNI DOLOČBI</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Z dnem uveljavitve tega zakona preneha veljati drugi odstavek 62. člena Zakona o državnem svetu (Uradni list RS, št. 100/05 – uradno prečiščeno besedilo in 95/09 – odločba US).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne prvega dne v mesecu, ki sledi mesecu, v katerem je ta zakon uveljavljen.</p>
 <p>Št. 020-01/12-10/17</p>
 <p>Ljubljana, dne 5. marca 2013</p>
@@ -63,5 +76,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-03-13", "kratica": "ZFDO-F", "naziv": "Zakon o dopolnitvi Zakona o funkcionarjih v državnih organih", "url": "/trubar/si/ZFDO-F/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

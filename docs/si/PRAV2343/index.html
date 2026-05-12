@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2215" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2343.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV2343" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2343.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV2343,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o registraciji in označevanju vozil, zrakoplovov in vodnih plovil Ministrstva za obrambo</h1>
 <p>Na podlagi 4. člena ustavnega zakona za izvedbo temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije (Uradni list RS, št. 1/91-I) v zvezi z 202. členom zakona o temeljih varnosti cestnega prometa (Uradni list SFRJ, št. 50/88, 80/89 in Uradni list RS, št. 29/90 in 11/91) ter na podlagi 41. in 101. člena zakona o obrambi (Uradni list RS, št. 82/94) in 28. člena zakona o grbu, zastavi in himni Republike Slovenije ter o slovenski narodni zastavi (Uradni list RS, št. 67/94) minister za obrambo izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o registraciji in označevanju vozil, zrakoplovov in vodnih plovil Ministrstva za obrambo</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o registraciji in označevanju vozil, zrakoplovov in vodnih plovil Ministrstva za obrambo (Uradni list RS, št. 67/95) se v 42. členu spremenita tretji in četrti odstavek tako, da se glasita:</p>
 <p>“Zastava na premcu je pravokotne oblike in belo, modro in zlatorumene barve, ki so barve grba Republike Slovenije. Razmerje med širino in dolžino zastave je ena proti dva. Barve se sledijo po naslednjem vrstnem redu: bela (N-1N 95), modra (N-46N 72 25 09) in zlatorumena (N-6N 19 75 12), vse po SCOTDIC CODE 777 - International color codification sistem (2034). Vsaka barva zavzema po širini eno tretjino prostora zastave. Velikost zastave se prilagaja velikosti ladje ali čolna.</p>
 <p>Tuje vojaške ladje ob obiskih Republike Slovenije pozdravijo zastavo Republike Slovenije.”.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 634/96</p>
 <p>Ljubljana, dne 19. junija 1996.</p>
@@ -48,5 +61,36 @@ za obrambo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-06-29", "kratica": "PRAV2343", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o registraciji in označevanju vozil, zrakoplovov in vodnih plovil Ministrstva za obrambo", "url": "/trubar/si/PRAV2343/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

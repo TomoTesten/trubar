@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-02-0072" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPKOZV.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MPKOZV" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPKOZV.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MPKOZV,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji protokola h konvenciji iz leta 1979 o onesnaževanju zraka na velike razdalje preko meja glede nadzora nad emisijami dušikovih oksidov ali njihovih čezmejnih tokov</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI PROTOKOLA H KONVENCIJI IZ LETA 1979 O ONESNAŽEVANJU ZRAKA NA VELIKE RAZDALJE PREKO MEJA GLEDE NADZORA NAD EMISIJAMI DUŠIKOVIH OKSIDOV ALI NJIHOVIH ČEZMEJNIH TOKOV (MPKOZV)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Protokol h Konvenciji iz leta 1979 o onesnaževanju zraka na velike razdalje preko meja glede nadzora nad emisijami dušikovih oksidov ali njihovih čezmejnih tokov, sestavljen v Sofiji 31. oktobra 1988.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo protokola se v izvirniku v angleškem jeziku ter v prevodu v slovenskem jeziku glasi:</p>
 <h2>P R O T O C O L</h2>
 <p>TO THE 1979 CONVENTION ON LONG-RANGE TRANSBOUNDARY AIR POLLUTION CONCERNING THE CONTROL OF EMISSIONS OF NITROGEN OXIDES OR THEIR TRANSBOUNDARY FLUXES</p>
@@ -806,9 +819,9 @@ c/ Nadzor trdnih delcev in drugi dejavniki so vključeni v znesek.</p>
 <p>(<em>/) Študije o onesnaževanju zraka št. 4 (publikacija Združenih narodov, prodajna št. E.87.II.E.36).<br />
 (</em><em>/) Trenutno je težko ponuditi zanesljive podatke o stroških kontrolnih tehnologij v absolutnem smislu. Za podatke o stroških iz te priloge je zato treba dati poudarek na razmerje med stroški različnih tehnologij in ne na absolutne stroške.<br />
 (</em>**/) Obratovalne izkušnje v zvezi s to vrsto tehnologije zgorevanja so omejene.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje protokola skrbijo Ministrstvo za okolje in prostor, Ministrstvo za promet in Ministrstvo za gospodarstvo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 801-08/05-10/1</p>
 <p>Ljubljana, dne 29. septembra 2005</p>
@@ -825,5 +838,36 @@ France Cukjati, dr. med., l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-12-02", "kratica": "MPKOZV", "naziv": "Zakon o ratifikaciji protokola h konvenciji iz leta 1979 o onesnaževanju zraka na velike razdalje preko meja glede nadzora nad emisijami dušikovih oksidov ali njihovih čezmejnih tokov", "url": "/trubar/si/MPKOZV/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

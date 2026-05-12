@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0900" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3987.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3987" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3987.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3987,vrsta:drugi akt">
+    
     <h1>Aneks k Tarifni prilogi Kolektivne pogodbe za tekstilne, oblačilne, usnjarske in usnjarsko predelovalne dejavnosti</h1>
 <p>Na podlagi Kolektivne pogodbe za tekstilne, oblačilne, usnjarske in usnjarsko predelovalne dejavnosti (Uradni list RS, št. 18/14) sklepata pogodbeni stranki</p>
 <p>predstavnik delodajalcev:<br />
@@ -34,9 +47,9 @@ predstavnik delojemalcev:<br />
 Sindikat tekstilne in usnjarsko-predelovalne industrije Slovenije</p>
 <h2>A N E K S</h2>
 <p>k Tarifni prilogi Kolektivne pogodbe za tekstilne, oblačilne, usnjarske in usnjarsko predelovalne dejavnosti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Podpisnika Kolektivne pogodbe za tekstilne, oblačilne, usnjarske in usnjarsko predelovalne dejavnosti in tarifne priloge k tej pogodbi (v nadaljevanju: KPtoupd) določata s tem aneksom višino dodatkov za posebne pogoje dela, ki izhajajo iz posebnih obremenitev pri delu, neugodnih vplivov okolja in nevarnosti pri delu, za katere se uporablja KPtoupd.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pod pogoji iz KPtoupd znašajo dodatki za posebne pogoje dela, ki izhajajo iz razporeditve delovnega časa, in sicer za:</p>
 <p>10 %        čas dela v popoldanski in nočni izmeni, kadar se<br />
             delovni proces izvaja najmanj v dveh izmenah,<br />
@@ -47,7 +60,7 @@ Sindikat tekstilne in usnjarsko-predelovalne industrije Slovenije</p>
 50 %        delo v nedeljo,<br />
 100 %       delo na dan praznika ali dela prostega dne po zakonu.</p>
 <p>Pod pogoji iz normativnega dela kolektivne pogodbe znaša dodatek za vsako uro stalne pripravljenosti na delo doma oziroma na dogovorjenem kraju nadomestilo v višini 10 % urne postavke osnovne plače delavca.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Aneks k Tarifni prilogi začne veljati in se uporabljati naslednji dan po objavi v Uradnem listu Republike Slovenije.<br />
 Aneks k Tarifni prilogi velja do sklenitve nove Tarifne priloge.</p>
 <p>Ljubljana, dne 26. marca 2014</p>
@@ -65,5 +78,36 @@ Jože Türkl l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-04-04", "kratica": "DRUG3987", "naziv": "Aneks k Tarifni prilogi Kolektivne pogodbe za tekstilne, oblačilne, usnjarske in usnjarsko predelovalne dejavnosti", "url": "/trubar/si/DRUG3987/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

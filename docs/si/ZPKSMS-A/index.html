@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2839" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPKSMS-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPKSMS-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPKSMS-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPKSMS-A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o predlaganju kandidatov iz Republike Slovenije za sodnike mednarodnih sodišč</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,18 +50,18 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O PREDLAGANJU KANDIDATOV IZ REPUBLIKE SLOVENIJE ZA SODNIKE MEDNARODNIH SODIŠČ (ZPKSMS-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o predlaganju kandidatov iz Republike Slovenije za sodnike mednarodnih sodišč (Uradni list RS, št. 64/2001) se v tretjem odstavku 1. člena beseda “sodne“ nadomesti z besedo “pravosodne“.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 3. člena se pred piko vstavi besedilo: “ali oseba, ki izpolnjuje pogoje za izvolitev za sodnika ustavnega sodišča“.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V drugem odstavku 4. člena se besedilo “primeru predčasnega prenehanja mandata ali prejema poziva za predložitev kandidatov“ nadomesti z besedama “drugih primerih“.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 8. členu se doda nov drugi odstavek, ki se glasi:</p>
 <p>“Če je s pravili mednarodnega sodišča ali mednarodno pogodbo, ki obvezuje Republiko Slovenijo, določeno, da Republika Slovenija imenuje namestnika izvoljenega sodnika za odločanje v posamezni zadevi, ga določi Vlada Republike Slovenije na predlog ministra, pristojnega za pravosodje, po pridobitvi mnenja sodnega sveta.“</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Za postopke predlaganja in izvolitve kandidatov za sodnike mednarodnega sodišča, v katerih je ministrstvo, pristojno za pravosodje, na temelju prvega odstavka 4. člena zakona že razpisalo prosto sodniško mesto, se uporabljajo določbe zakona, ki so veljale do uveljavitve tega zakona.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 700-04/00-19/2</p>
 <p>Ljubljana, dne 21. junija 2002.</p>
@@ -64,5 +77,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-07-05", "kratica": "ZPKSMS-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o predlaganju kandidatov iz Republike Slovenije za sodnike mednarodnih sodišč", "url": "/trubar/si/ZPKSMS-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,30 +21,43 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-2448" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5852.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5852" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5852.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5852,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Uredba o izvajanju uredbe (ES) o pregledu transakcij, ki so del sistema financiranja Evropskega kmetijskega jamstvenega sklada, s strani držav članic</h1>
 <p>Na podlagi sedmega odstavka 21. člena Zakona o Vladi Republike Slovenije (Uradni list RS, št. 24/05 – uradno prečiščeno besedilo, 109/08 in 38/10 – <a href="/trubar/si/ZUKN/" class="law-ref" title="ZUKN">ZUKN</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o izvajanju uredbe (ES) o pregledu transakcij, ki so del sistema financiranja Evropskega kmetijskega jamstvenega sklada, s strani držav članic</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina)</h3>
 <p>S to uredbo se določi organ, pristojen za izvajanje nalog v skladu z 11. členom Uredbe Sveta (ES) št. 485/2008 z dne 26. maja 2008 o pregledu transakcij, ki so del sistema financiranja Evropskega kmetijskega jamstvenega sklada, s strani držav članic (UL L št. 143 z dne 3. 6. 2008, str. 1; v nadaljnjem besedilu: Uredba 485/2008/ES), v Republiki Sloveniji.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(pristojni organ)</h3>
 <p>Pristojni organ za izvajanje nalog koordinacije in spremljanja uporabe Uredbe 485/2008/ES v skladu z 11. členom Uredbe 485/2008/ES ter za izvrševanje pregledov tistih subjektov ali njihovih predstavnikov, ki prejemajo ali izvajajo izplačila, neposredno ali posredno povezana s sistemom financiranja Evropskega kmetijskega jamstvenega sklada (EKJS), je Carinska uprava Republike Slovenije.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(posredovanje podatkov)</h3>
 <p>Na podlagi zahteve je Agencija Republike Slovenije za kmetijske trge in razvoj podeželja dolžna pristojnemu organu iz prejšnjega člena posredovati vse podatke, ki jih ta potrebuje za opravljanje nalog v skladu z Uredbo 485/2008/ES.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(prehodna določba)</h3>
 <p>Inšpektorat Republike Slovenije za kmetijstvo, gozdarstvo in hrano izvrši preglede na področju drugih ukrepov v skladu s pristojnostmi iz 3. člena Uredbe o izvajanju 11. člena Uredbe Sveta (EGS) št. 4045/89 o pregledu transakcij, ki so del sistema financiranja Jamstvenega oddelka Evropskega kmetijskega usmerjevalnega in jamstvenega sklada, s strani držav članic in razveljavitvi Direktive 77/435/EGS (Uradni list RS, št. 55/05), če so bili načrtovani v programih pregledov pred obdobjem 2011/2012.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(prenehanje veljavnosti)</h3>
 <p>Z dnem uveljavitve te uredbe preneha veljati Uredba o izvajanju 11. člena Uredbe Sveta (EGS) št. 4045/89 o pregledu transakcij, ki so del sistema financiranja Jamstvenega oddelka Evropskega kmetijskega usmerjevalnega in jamstvenega sklada, s strani držav članic in o razveljavitvi Direktive 77/435/EGS (Uradni list RS, št. 55/05), uporablja pa se za dokončanje pregledov pred obdobjem 2011/2012.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <h3>(uveljavitev uredbe)</h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00712-36/2011</p>
@@ -61,5 +74,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-06-29", "kratica": "URED5852", "naziv": "Uredba o izvajanju uredbe (ES) o pregledu transakcij, ki so del sistema financiranja Evropskega kmetijskega jamstvenega sklada, s strani držav članic", "url": "/trubar/si/URED5852/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2020-01-2873" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE12175.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE12175" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE12175.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE12175,vrsta:sklep">
+    
     <h1>Sklep o določitvi faktorja izhodiščne vrednosti enote posebne rabe vode (D) za potrebe kopališč in ogrevanje, če se rabi mineralna, termalna ali termomineralna voda, za leto 2021</h1>
 <p>Na podlagi prvega odstavka 7. člena Uredbe o koncesiji za rabo podzemne vode za ogrevanje in potrebe kopališča Terme Čatež d. d. iz vrtin K-1/69, V-3/69, V-16/97, V-17/97, V-1/63, V-4/63 in V-14/72 (Uradni list RS, št. 103/15), prvega odstavka 7. člena Uredbe o koncesiji za rabo termalne vode iz vrtin Mt-1/60, Mt-4/74, Mt-5/82, Mt-6/83 in Mt-7/93 za ogrevanje in potrebe kopališča Terme 3000 – Moravske Toplice (Uradni list RS, št. 103/15 in 14/18), prvega odstavka 7. člena Uredbe o koncesiji za rabo termalne vode za potrebe Zdravilišča Radenci iz vrtin V-M in V-50t (Uradni list RS, št.<br />
 103/15), prvega odstavka 7. člena Uredbe o koncesiji za rabo termalne vode za ogrevanje in potrebe kopališča Terme Vivat iz vrtine Mt-8g/05 (Uradni list RS, št. 103/15), prvega odstavka 7. člena Uredbe o koncesiji za rabo termalne vode iz vrtine RT-1/92 v Rogaški Slatini za ogrevanje in potrebe kopališč ter naravnih zdravilišč (Uradni list RS, št.<br />
@@ -49,5 +62,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2020-11-13", "kratica": "SKLE12175", "naziv": "Sklep o določitvi faktorja izhodiščne vrednosti enote posebne rabe vode (D) za potrebe kopališč in ogrevanje, če se rabi mineralna, termalna ali termomineralna voda, za leto 2021", "url": "/trubar/si/SKLE12175/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,20 +21,33 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-1973" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6448.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6448" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6448.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6448,vrsta:uredba">
+    
     <h1>Uredba o spremembah Uredbe o sejninah in povračilih stroškov v javnih skladih, javnih agencijah, javnih zavodih in javnih gospodarskih zavodih</h1>
 <p>Na podlagi četrtega odstavka 17. člena Zakona o javnih skladih (Uradni list RS, št. 77/08 in 8/10 – <a href="/trubar/si/ZSKZ-B/" class="law-ref" title="ZSKZ-B">ZSKZ-B</a>), drugega odstavka 16. člena Zakona o javnih agencijah (Uradni list RS, št. 52/02, 51/04 – <a href="/trubar/si/EZ-A/" class="law-ref" title="EZ-A">EZ-A</a> in 33/11 – <a href="/trubar/si/ZEKom-C/" class="law-ref" title="ZEKom-C">ZEKom-C</a>) in 6. člena ter prvega in drugega odstavka 7. člena Zakona o Vladi Republike Slovenije (Uradni list RS, št. 24/05 – uradno prečiščeno besedilo, 109/08, 38/10 – <a href="/trubar/si/ZUKN/" class="law-ref" title="ZUKN">ZUKN</a>, 8/12, 21/13 in 47/13 – <a href="/trubar/si/ZDU-1G/" class="law-ref" title="ZDU-1G">ZDU-1G</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah Uredbe o sejninah in povračilih stroškov v javnih skladih, javnih agencijah, javnih zavodih in javnih gospodarskih zavodih</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o sejninah in povračilih stroškov v javnih skladih, javnih agencijah, javnih zavodih in javnih gospodarskih zavodih (Uradni list RS, št. 16/09, 107/10 in 66/12) se v drugem odstavku 7. člena v drugi alineji besedilo »v višini 80 odstotkov« nadomesti z besedilom »v višini 50 odstotkov«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V tretjem odstavku 11. člena se drugi stavek spremeni tako, da se glasi:<br />
 »Enaka je višini 8 odstotkov cene neosvinčenega motornega bencina – 95 oktanov.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00712-28/2013</p>
 <p>Ljubljana, dne 13. junija 2013</p>
@@ -50,5 +63,36 @@ Predsednica</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-06-14", "kratica": "URED6448", "naziv": "Uredba o spremembah Uredbe o sejninah in povračilih stroškov v javnih skladih, javnih agencijah, javnih zavodih in javnih gospodarskih zavodih", "url": "/trubar/si/URED6448/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Ministrstvo za zdravstvo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4716" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3692.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV3692" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3692.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV3692,vrsta:pravilnik">
+    
     <h1>Spremembi pravilnika o vrstah, vsebini in poteku specializacij zdravnikov</h1>
 <p>Na podlagi zakona o zdravniški službi (Uradni list RS, št. 98/99), 9. in 28. člena statuta Zdravniške zbornice Slovenije (Uradni list RS, št. 64/96 in 22/98) ter 12. člena poslovnika o delu skupščine in izvršilnega odbora Zdravniške zbornice Slovenije je skupščina Zdravniške zbornice Slovenije na korespondenčni seji dne 21. 11. 2000, v soglasju z ministrom za zdravstvo sprejela</p>
 <h2>S P R E M E M B I   P R A V I L N I K A</h2>
 <p>o vrstah, vsebini in poteku specializacij zdravnikov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o vrstah, vsebini in poteku specializacij zdravnikov (Uradni list RS, št. 8/98, 44/99, 59/99, 109/99, 35/00, 42/00, 57/00, 107/00) se besedilo prvega odstavka 43.b člena spremeni tako, da glasi:</p>
 <p>“Ne glede na določila tega pravilnika se do 28. 2. 2001 uporabljajo naslednja določila:“.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo prvega odstavka 43.c člena se spremeni tako, da glasi:</p>
 <p>“Ne glede na določila tega pravilnika se do 28. 2. 2001 uporabljajo naslednja določila:“.</p>
-<h3>3.  člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ti spremembi začneta veljati osmi dan po objavi v  Uradnem listu RS.</p>
 <p>Št. 424/2000</p>
 <p>Ljubljana, dne 28. novembra 2000.</p>
@@ -53,5 +66,36 @@ prim. Anton Židanik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-12-08", "kratica": "PRAV3692", "naziv": "Spremembi pravilnika o vrstah, vsebini in poteku specializacij zdravnikov", "url": "/trubar/si/PRAV3692/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

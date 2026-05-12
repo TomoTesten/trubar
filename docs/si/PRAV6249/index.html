@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Ministrstvo za šolstvo, znanost in šport</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4900" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6249.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV6249" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6249.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV6249,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o merilih za sofinanciranje izvajanja letnega programa športa na državni ravni</h1>
 <p>Na podlagi 9. člena Zakona o športu (Uradni list RS, št. 22/98) izdaja minister za šolstvo, znanost in šport</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o merilih za sofinanciranje izvajanja letnega programa športa na državni ravni</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o merilih za sofinanciranje izvajanja letnega programa športa na državni ravni (Uradni list RS, št. 121/03) se 46. člen spremeni tako, da se glasi:<br />
 »Sofinancira se plače trenerjev v programih panožnih športnih šol v individualnih športih in v kolektivnih športih s športnimi igrami v športnih panogah oziroma disciplinah rednega programa OI ob izpolnjevanju naslednjih pogojev:<br />
 1. najvišji strokovni organ NPŠZ sprejme dolgoročen program organiziranosti in delovanja panožnih športnih šol za posamezno športno panogo oziroma disciplino;<br />
@@ -121,7 +134,7 @@ V prvem odstavku 47. člena se za besedo »obdobje« doda beseda »največ.«<br
 |                                    |za nedoločen čas            |        |<br />
 +------------------------------------+----------------------------+--------+<br />
                                                                            «</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:<br />
 »Posamezni programi usposabljanja in spopolnjevanja, ki izpolnjujejo pogoje iz prejšnjega člena, se ocenjujejo in izbirajo po merilih iz naslednje preglednice:</li>
@@ -176,7 +189,7 @@ V prvem odstavku 47. člena se za besedo »obdobje« doda beseda »največ.«<br
 +----+----------------------------------------------------------------+-------+</p>
 <p>Vsota točk posameznega programa po vseh merilih iz gornjih preglednic pomeni skupno število točk posameznega programa. Sofinancira se samo tiste programe, ki pri točkovanju zberejo najmanj 75 točk.<br />
 Za tekoče leto določi ministrstvo vrednost točke za programe usposabljanja in spopolnjevanja ločeno; ta se izračuna kot razmerje med obsegom sredstev, določenih v letnem programu športa za programe usposabljanja in spopolnjevanja, in skupnim številom točk vseh na javni razpis prijavljenih programov usposabljanja in spopolnjevanja, ki izpolnjujejo pogoje za sofinanciranje.«</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 011-02-2/2004</p>
 <p>Ljubljana, dne 29. oktobra 2004.</p>
@@ -192,5 +205,36 @@ za šolstvo, znanost in šport</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-11-05", "kratica": "PRAV6249", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o merilih za sofinanciranje izvajanja letnega programa športa na državni ravni", "url": "/trubar/si/PRAV6249/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

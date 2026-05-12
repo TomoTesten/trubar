@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-4109" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7146.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7146" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7146.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7146,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o spremembah Pravilnika o vinu z oznako priznanega tradicionalnega poimenovanja - teran</h1>
 <p>Na podlagi 4. člena Zakona o vinu in drugih proizvodih iz grozdja in vina (Uradni list RS, št. 70/97 in 16/01) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o vinu z oznako priznanega tradicionalnega poimenovanja – teran</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o vinu z oznako priznanega tradicionalnega poimenovanja – teran (Uradni list RS, št. 43/00) se v prvem odstavku 10. člena besedilo »70° OE ali 9,2 vol%« nadomesti z besedilom »70° OE ali 9,33 vol%«.<br />
 V drugem odstavku se besedilo »67° OE ali 8,7 vol%« nadomesti z besedilom »67° OE ali 8,87 vol%«.<br />
 V četrtem odstavku se besedilo »80° OE ali 10,8 vol%« nadomesti z besedilom »80° OE ali 10,85 vol%«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 13. člena se v prvi alinei besedilo »do največ 12,5 vol%« nadomesti z besedilom »do največ 13,0 vol%«.<br />
 Peta alinea se spremeni tako, da se glasi:<br />
 »– titracijske kisline: 6 do 11 g/l;«.<br />
@@ -41,17 +54,17 @@ Sedma alinea se spremeni tako, da se glasi:<br />
 »– reducirajoči sladkor: do 4 g/l;«.<br />
 Trinajsta alinea se spremeni tako, da se glasi:<br />
 »– mlečna kislina, kot del skupnih kislin: 1 do 5 g/l, za vino, kjer se biološki razkis še ni začel;«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Besedilo 15. člena se spremeni tako, da se glasi:<br />
 »Vino teran PTP se polni v steklenice nazivne prostornine do vključno 10 litrov ali v posodo iz nerjavečega jekla (Inox posode), ki omogočajo točenje vina pod tlakom iz točilne naprave, nazivne prostornine od 10 do vključno 60 litrov.<br />
 Steklenice morajo biti zamašene z zamaški iz plute ali iz materiala, ki je vizualno enak pluti.<br />
 Za zapiranje steklenic nazivne prostornine do vključno enega litra se lahko poleg zamaškov iz plute uporabljajo tudi navojni zamaški. Izbrani teran PTP se polni izključno v steklenice.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Besedilo 17. člena se spremeni tako, da se glasi:<br />
 »Vino teran PTP ne sme biti dano v promet pred 8. novembrom v letu pridelave grozdja. Če se vino teran PTP nudi končnemu potrošniku neustekleničeno, sme biti v prometu največ 18 mesecev po trgatvi grozdja, iz katerega je pridelano vino.«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V drugem odstavku 22. člena se letnica »2005« nadomesti z letnico »2007«.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 321-03-1219/2005/3</p>
 <p>Ljubljana, dne 10. oktobra 2005</p>
@@ -67,5 +80,36 @@ gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-10-25", "kratica": "PRAV7146", "naziv": "Pravilnik o spremembah Pravilnika o vinu z oznako priznanega tradicionalnega poimenovanja - teran", "url": "/trubar/si/PRAV7146/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

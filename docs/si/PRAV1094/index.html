@@ -21,30 +21,43 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2548" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV1094.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV1094" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV1094.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV1094,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o pridobitvi dovoljenja za izdajo tujih dolžniških vrednostnih papirjev v Republiki Sloveniji</h1>
 <p>Na podlagi prvega in drugega odstavka 28. člena zakona o deviznem poslovanju (Uradni list RS, št. 23/99 ) in 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95 –odl. US in 29/95 – odl. US) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o pridobitvi dovoljenja za izdajo tujih dolžniških vrednostnih papirjev v Republiki Sloveniji</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik ureja pogoje in način, pod katerimi je možno pridobiti dovoljenje in soglasje Ministrstva za finance za izdajo tujih dolžniških vrednostnih papirjev v Republiki Sloveniji.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Za pridobitev dovoljenja za izdajo tujih dolžniških vrednostnih papirjev v Republiki Sloveniji mora izdajatelj tujih dolžniških vrednostnih papirjev v Republiki Sloveniji (v nadaljevanju: zavezanec) pri Ministrstvu za finance vložiti zahtevo.<br />
 (2) Zahteva mora vsebovati podatke o izdajatelju dolžniškega vrednostnega papirja, oceno njegove bonitete, podatke o dolžniških vrednostnih papirjih, zlasti vrednost celotne izdaje in valuto na katero se glasijo tuji dolžniški vrednostni papirji, namen uporabe sredstev, zbranih na osnovi izdaje dolžniških vrednostnih papirjev, opredelitev ali se bodo ta sredstva uporabila v Republiki Sloveniji ali v tujini ter način prve prodaje tujih dolžniških vrednostnih papirjev v Republiki Sloveniji (javna ali nejavna ponudba).<br />
 (3) Ministrstvo za finance lahko od zavezanca po potrebi zahteva dodatne podatke, iz katerih izhaja, da je zahtevek za izdajo dovoljenja utemeljen.<br />
 (4) Če Ministrstvo za finance ugotovi, da zahteva za izdajo dovoljena ne vsebuje vseh zahtevanih dokumentov, pozove zavezanca, da v roku, ki ne sme biti daljši od 15 dni, predloži manjkajoče dokumente.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Za izdajo dovoljenja mora zavezanec izpolnjevati naslednje pogoje:<br />
 – boniteto izdajatelja dolžniških vrednostnih papirjev, izdelano po oceni vsaj ene od naslednjih mednarodno priznanih agencij za ocenjevanje tveganja: Moody‘s Investors Service, Standard and Poor‘s, Fitch IBCA ali Thomson Bank Watch,<br />
 – najmanj triletno ročnost dolžniških vrednostnih papirjev in<br />
 – dolžniški vrednostni papirji morajo biti denominirani v slovenskih tolarjih.<br />
 (2) Ne glede na prvi odstavek tega člena, minister za finance zavezancu ne izda dovoljenja, če bi odtok kapitala iz Republike Slovenije, do katerega bi lahko prišlo na osnovi izdaje tujega dolžniškega papirja, predstavljal nevarnost v smislu 50. člena zakona o deviznem poslovanju (Uradni list RS, št. 23/99).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Minister za finance izda zavezancu dovoljenje v 30 dneh od predložitve zahtevane dokumentacije.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 421-14/99</p>
 <p>Ljubljana, dne 21. junija 1999.</p>
@@ -59,5 +72,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-07-08", "kratica": "PRAV1094", "naziv": "Pravilnik o pridobitvi dovoljenja za izdajo tujih dolžniških vrednostnih papirjev v Republiki Sloveniji", "url": "/trubar/si/PRAV1094/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

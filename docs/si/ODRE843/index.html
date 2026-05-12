@@ -21,24 +21,37 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0377" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE843.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE843" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE843.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE843,vrsta:odredba">
+    
     <h1>Odredba o ovirah za odpust iz državljanstva Republike Slovenije zaradi vojaške dolžnosti</h1>
 <p>Na podlagi drugega odstavka 18. člena zakona o državljanstvu Republike Slovenije (Uradni list RS, št. 1/91–I) izdaja Ministrstvo za obrambo</p>
 <h2>ODREDBO</h2>
 <p>o ovirah za odpust iz državljanstva Republike Slovenije zaradi vojaške dolžnosti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Zaradi izvrševanja vojaške dolžnosti iz državljanstva Republike Slovenije ne more biti odpuščen:<br />
 1. nabornik, ki mu je bil pred vložitvijo prošnje za odpust vročen poziv za služenje vojaškega roka, dokler vojaškega roka ne odsluži ali dolžnosti služenja vojaškega roka ne uredi kako drugače,<br />
 2. vojak, dokler je na služenju vojaškega roka,<br />
 3. vojaški obveznik, ki je odšel v tujino ali tam ostal brez dovoljenja pristojnega organa za potovanje ali bivanje vojaških obveznikov v tujini, dokler ne uredi bivanja v tujini v skladu z zakonom,<br />
 4. aktivna vojaška oseba in civilna oseba, dokler je v službi v stalnem sestavu teritorialne obrambe ter eno leto po prenehanju te službe.<br />
 Šteje se, da je podana ovira za odpust iz državljanstva Republike Slovenije iz 1. točke prejšnjega odstavka, če je bil vpoklic za služenje vojaškega roka vročen po uveljavitvi zakona o državljanstvu Republike Slovenije.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Podatke o tem, ali so podane ovire za odpust iz državljanstva Republike Slovenije iz 1. člena te odredbe, daje Ministrstvo za obrambo.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta odredba začne veljati z dnem objave v Uradnem listu Republike Slovenije.</p>
 <p>Št. 801/401</p>
 <p>Ljubljana, dne 1. avgusta 1991.</p>
@@ -52,5 +65,36 @@ Janez Janša l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1991-08-08", "kratica": "ODRE843", "naziv": "Odredba o ovirah za odpust iz državljanstva Republike Slovenije zaradi vojaške dolžnosti", "url": "/trubar/si/ODRE843/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

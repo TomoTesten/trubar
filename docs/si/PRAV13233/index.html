@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2017-01-3792" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV13233.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV13233" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV13233.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV13233,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o postopkih (so)financiranja in ocenjevanja ter spremljanju izvajanja raziskovalne dejavnosti</h1>
 <p>Na podlagi 43. člena Zakona o raziskovalni in razvojni dejavnosti (Uradni list RS, št. 22/06 – uradno prečiščeno besedilo, 61/06 – <a href="/trubar/si/ZDru-1/" class="law-ref" title="ZDru-1">ZDru-1</a>, 112/07, 9/11 in 57/12 – <a href="/trubar/si/ZPOP-1A/" class="law-ref" title="ZPOP-1A">ZPOP-1A</a>), 16. in 35. člena Sklepa o ustanovitvi Javne agencije za raziskovalno dejavnost Republike Slovenije (Uradni list RS, št. 123/03 in 105/10) in po predhodnem soglasju ministrice za izobraževanje, znanost in šport št. 007-192/2017/33 z dne 17. 11. 2017 je Upravni odbor Javne agencije za raziskovalno dejavnost Republike Slovenije na 8. seji dne 29. 11. 2017 sprejel</p>
 <p>P R A V I L N I K</p>
@@ -400,5 +413,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2017-12-28", "kratica": "PRAV13233", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o postopkih (so)financiranja in ocenjevanja ter spremljanju izvajanja raziskovalne dejavnosti", "url": "/trubar/si/PRAV13233/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

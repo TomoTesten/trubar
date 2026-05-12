@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-1222" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE3615.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE3615" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE3615.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE3615,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Sklep o ustanovitvi in imenovanju Sveta za slovenski znakovni jezik</h1>
 <p>Na podlagi 24. in 25. člena zakona o uporabi slovenskega znakovnega jezika (Uradni list RS, št. 96/02) je Vlada Republike Slovenije sprejela</p>
 <h2>S K L E P</h2>
 <p>o ustanovitvi in imenovanju Sveta za slovenski znakovni jezik</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Za strokovno pomoč pri sprejemanju odločitev s področja razvoja, uveljavljanja in uporabe slovenskega znakovnega jezika ter izvajanje zakona o uporabi slovenskega znakovnega jezika se ustanovi Svet za slovenski znakovni jezik (v nadaljevanju: svet).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V svet se imenujejo:<br />
 – doc. dr. Stane Košir na predlog Univerze v Ljubljani,<br />
 – prof. dr. Marko Jesenšek na predlog Univerze v Mariboru,<br />
@@ -48,14 +61,14 @@
 – dr. Janez Dular na predlog Vlade Republike Slovenije, Urada za slovenski jezik,<br />
 – Ljubica Podboršek na predlog Zavoda za gluhe in naglušne Ljubljana, Centra za sluh in govor v Mariboru in Centra za korekcijo sluha in govora v Portorožu in<br />
 – Danica Hrovatič na predlog Socialne zbornice Slovenije.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Prvo sejo sveta skliče Ministrstvo za delo, družino in socialne zadeve najkasneje v roku enega meseca od uveljavitve tega sklepa.<br />
 Člani sveta na prvi seji izvolijo predsednika in podpredsednika sveta.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Strokovna, administrativna, tehnična in druga dela za svet opravlja Združenje tolmačev za slovenski znakovni jezik.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Sredstva za delo sveta (sejnine, potni in drugi materialni stroški) zagotavlja ministrstvo, pristojno za invalidsko varstvo, v okviru svojega finančnega načrta in se po pogodbi nakazujejo Združenju tolmačev za slovenski znakovni jezik.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 008-03/2003-1</p>
 <p>Ljubljana, dne 20. marca 2003.</p>
@@ -70,5 +83,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-03-27", "kratica": "SKLE3615", "naziv": "Sklep o ustanovitvi in imenovanju Sveta za slovenski znakovni jezik", "url": "/trubar/si/SKLE3615/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

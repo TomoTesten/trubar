@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-1962" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZMed-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZMed-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZMed-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZMed-B,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembi Zakona o medijih</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBI ZAKONA O MEDIJIH (ZMed-B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o medijih (Uradni list RS, št. 110/06 – uradno prečiščeno besedilo, 69/06 – <a href="/trubar/si/ZOIPub/" class="law-ref" title="ZOIPub">ZOIPub</a>, 36/08 – ZPOmK-1, 77/10 – <a href="/trubar/si/ZSFCJA/" class="law-ref" title="ZSFCJA">ZSFCJA</a> in 87/11 – ZAvMS) se 114.a člen spremeni tako, da se glasi:</p>
 <h3>»114.a člen</h3>
 <p>(1) Za operaterja prizemeljskega digitalnega omrežja se ne uporabljajo določbe 112. člena tega zakona.<br />
@@ -46,7 +59,7 @@ Republike Slovenije</p>
 (4) Operater prizemeljskega digitalnega omrežja na posameznem območju Republike Slovenije mora pod enakimi pogoji razširjati radijske in televizijske programe, ki imajo dovoljenje iz 104.a člena tega zakona za isto območje, razen ko gre za razširjanje programov na podlagi drugega in tretjega odstavka tega člena.<br />
 (5) V določbah drugega in tretjega odstavka tega člena uporabljena izraza »multipleks« in »operater multipleksa« imata enak pomen, kot je določen v zakonu, ki ureja digitalno radiodifuzijo.«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 010-02/12-6/21</p>
 <p>Ljubljana, dne 12. junija 2012</p>
@@ -63,5 +76,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-06-22", "kratica": "ZMed-B", "naziv": "Zakon o spremembi Zakona o medijih", "url": "/trubar/si/ZMed-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

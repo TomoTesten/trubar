@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Ministrstvo za javno upravo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-2825" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9096.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9096" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9096.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9096,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi Pravilnika o štipendiranju v organih državne uprave</h1>
 <p>Na podlagi 4. člena Odloka o kadrovskem štipendiranju (Uradni list RS, št. 16/99) je Komisija Vlade Republike Slovenije za kadrovske in administrativne zadeve na 166. seji dne 17. 6. 2008 sprejela</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembi Pravilnika o štipendiranju v organih državne uprave</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o štipendiranju v organih državne uprave (Uradni list RS, št. 49/04, 66/05 in 67/07) se v 5. členu II. točka tretjega odstavka spremeni tako, da se glasi:<br />
 »II. predlog organa, za potrebe katerega je razpisana štipendija:</p>
 <p>+--------------------------------------+-----------------------+<br />
@@ -42,7 +55,7 @@
 |rezervni kandidat                     |         10–5          |<br />
 +--------------------------------------+-----------------------+<br />
                                                               «.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00731-6/2008/6</p>
 <p>Ljubljana, dne 17. junija 2008</p>
@@ -60,5 +73,36 @@ mag. Božo Predalič l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-06-30", "kratica": "PRAV9096", "naziv": "Pravilnik o spremembi Pravilnika o štipendiranju v organih državne uprave", "url": "/trubar/si/PRAV9096/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

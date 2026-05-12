@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4609" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE2562.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE2562" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE2562.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE2562,vrsta:sklep">
+    
     <h1>Sklep, št. 3/2001 Pridružitvenega sveta EU - Slovenija o določitvi finančnega prispevka Slovenije za sodelovanjev programih Socrates II in Mladina v letih 2001 do 2006</h1>
 <p>Na podlagi 112. člena Evropskega sporazuma o pridružitvi med Republiko Slovenijo na eni strani in Evropskimi skupnostmi na drugi strani s sklepno listino – v nadaljnjem besedilu: Evropski sporazum (Uradni list RS – Mednarodne pogodbe, št. 13/97) in sklepa Vlade Republike Slovenije, sprejetega na 46. seji dne 18. 10. 2001, se objavi</p>
 <h2>S K L E P, št. 3/2001</h2>
@@ -38,17 +51,17 @@ ker:<br />
 (3) sprejel pogoje za sodelovanje Republike Slovenije v programu Mladina, ki se uporablja v času trajanja tega programa;<br />
 3. Priloga II, točka 2 Sklepa 2/2000 in Priloga II, točka 1 Sklepa 3/2000 določata, da o finančnem prispevku, ki ga mora Slovenija plačati v proračun Evropske unije za sodelovanje v programih Socrates II in Mladina v letih 2001 do 2006, odloči Pridružitveni svet v letu 2000,<br />
 SKLENIL, KOT SLEDI:</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Finančni prispevek, ki ga mora Slovenija plačati v proračun Evropske unije za sodelovanje v programu Socrates II v letih 2001 do 2006, je naslednji (v evrih):</p>
 <hr />
 <h2>Leto 2001     Leto 2002     Leto 2003     Leto 2004     Leto 2005     Leto 2006</h2>
 <h2>989 000       1 013 000     1 036 000     1 064 000     1 096 000     1 137 000</h2>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Finančni prispevek, ki ga mora Slovenija plačati v proračun Evropske unije za sodelovanje v programu Mladina v letih 2001 do 2006, je naslednji (v evrih):</p>
 <hr />
 <h2>Leto 2001      Leto 2002     Leto 2003     Leto 2004     Leto 2005    Leto 2006</h2>
 <h2>570 000        604 000       639 000       671 000       703 000      746 000</h2>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Sredstva PHARE se zahtevajo skladno z naslednjim razporedom:<br />
 – za finančni prispevek za program Socrates II naslednji letni zneski (v evrih):</p>
 <hr />
@@ -59,7 +72,7 @@ SKLENIL, KOT SLEDI:</p>
 <h2>Leto 2001     Leto 2002     Leto 2003     Leto 2004     Leto 2005     Leto 2006</h2>
 <h2>274 000       260 000       243 000       221 000       197 000       172 000</h2>
 <p>Preostali del prispevka Slovenije se krije iz slovenskega državnega proračuna.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta sklep začne veljati na dan, ko ga sprejme Pridružitveni svet.</p>
 <p>Podpisano v Bruslju, dne 4. 7. 2001.</p>
 <p>Za Pridružitveni svet<br />
@@ -81,5 +94,36 @@ Mirko Bandelj l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-11-22", "kratica": "SKLE2562", "naziv": "Sklep, št. 3/2001 Pridružitvenega sveta EU - Slovenija o določitvi finančnega prispevka Slovenije za sodelovanjev programih Socrates II in Mladina v letih 2001 do 2006", "url": "/trubar/si/SKLE2562/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

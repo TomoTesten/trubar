@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5727" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE4356.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE4356" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE4356.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE4356,vrsta:sklep">
+    
     <h1>Sklep o spremembah in dopolnitvah sklepa o shemah letnih in polletnih računovodskih izkazov investicijskih skladov, vsebini njihovih prilog s pojasnili, analitičnem kontnem načrtu, pravilih vrednotenja postavk v računovodskih izkazih in pravilih za izračun čiste vrednosti sredstev investicijskega sklada</h1>
 <p>Na podlagi prvega odstavka 89. člena zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 110/02 in 73/03) in mnenja Slovenskega inštituta za revizijo Agencija za trg vrednostnih papirjev izdaja</p>
 <h2>S K L E P</h2>
@@ -33,7 +46,7 @@ investicijskih skladov, vsebini njihovih prilog<br />
 s pojasnili, analitičnem kontnem načrtu, pravilih vrednotenja postavk v računovodskih izkazih<br />
 in pravilih za izračun čiste vrednosti sredstev<br />
 investicijskega sklada</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <ol>
 <li>Tretji odstavek 12. člena sklepa o shemah letnih in polletnih računovodskih izkazov investicijskih skladov, vsebini njihovih prilog s pojasnili, analitičnem kontnem načrtu, pravilih vrednotenja postavk v računovodskih izkazih in pravilih za izračun čiste vrednosti sredstev investicijskega sklada (Uradni list RS, št. 80/2003; v nadaljevanju sklep) se spremeni tako, da se glasi:</li>
 </ol>
@@ -41,17 +54,17 @@ investicijskega sklada</p>
 <ol>
 <li>Četrti odstavek 12. člena sklepa se črta.</li>
 </ol>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>V PRILOGI 2 sklepa se v poglavju I. “BILANCA STANJA INVESTICIJSKE DRUŽBE Z OPREDELITVAMI POSAMEZNIH POSTAVK” v razdelku I. “Sredstva” podtočka 6.b “Terjatve za prodane investicijske kupone” črta.</li>
 <li>Dosedanje podtočke 6.c, 6.d, 6.e in 6.f razdelka I. “Sredstva” poglavja I. “BILANCA STANJA INVESTICIJSKE DRUŽBE Z OPREDELITVAMI POSAMEZNIH POSTAVK” PRILOGE 2 sklepa, postanejo podtočke 6.b, 6.c, 6.d in 6.e razdelka I. “Sredstva” poglavja I. “BILANCA STANJA INVESTICIJSKE DRUŽBE Z OPREDELITVAMI POSAMEZNIH POSTAVK” PRILOGE 2 sklepa.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <ol>
 <li>V PRILOGI 2 sklepa se v poglavju I. “BILANCA STANJA INVESTICIJSKE DRUŽBE Z OPREDELITVAMI POSAMEZNIH POSTAVK” v razdelku II. “Obveznosti do virov sredstev” podtočka 1.b “Obveznosti iz odkupa investicijskih kuponov” in podtočka 1.c “Obveznosti za vplačana in še nekonverirana sredstva investitorjev” črtata.</li>
 <li>Dosedanje podtočke 1.d, 1.e, 1.f, 1.g, 1.h, 1.i in 1.j razdelka II. “Obveznosti do virov sredstev” poglavja I. “BILANCA STANJA INVESTICIJSKE DRUŽBE Z OPREDELITVAMI POSAMEZNIH POSTAVK” PRILOGE 2 sklepa, postanejo podtočke 1.b, 1.c, 1.d, 1.e, 1.f, 1.g in 1.h. razdelka II. “Obveznosti do virov sredstev” poglavja I. “BILANCA STANJA INVESTICIJSKE DRUŽBE Z OPREDELITVAMI POSAMEZNIH POSTAVK” PRILOGE 2 sklepa.</li>
 </ol>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 171-2/43-47/2003</p>
 <p>Ljubljana, dne 17. decembra 2003.</p>
@@ -68,5 +81,36 @@ dr. Miha Juhart l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-12-29", "kratica": "SKLE4356", "naziv": "Sklep o spremembah in dopolnitvah sklepa o shemah letnih in polletnih računovodskih izkazov investicijskih skladov, vsebini njihovih prilog s pojasnili, analitičnem kontnem načrtu, pravilih vrednotenja postavk v računovodskih izkazih in pravilih za izračun čiste vrednosti sredstev investicijskega sklada", "url": "/trubar/si/SKLE4356/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

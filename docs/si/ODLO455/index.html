@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1246" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO455.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO455" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO455.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO455,vrsta:odlok">
+    
     <h1>Odlok o sestavi in imenovanju predsednika, namestnika predsednika in članov Preiskovalne komisije Državnega zbora Republike Slovenije o preiskavi politične odgovornosti posameznih nosilcev javnih funkcij v izvršnih svetih občin in republike za razkroj gospodarskega sistema Iskre</h1>
 <p>Na podlagi 93. člena ustave Republike Slovenije, odredbe o parlamentarni preiskavi o politični odgovornosti posameznih nosilcev javnih funkcij v izvršnih svetih občin in republike za razkroj gospodarskega sistema Iskra, 3. člena zakona o parlamentarni preiskavi (Uradni list RS, št. 63/93), 5. člena, prvega, drugega, četrtega in petega odstavka 6. člena poslovnika o parlamentarni preiskavi (Uradni list RS, št. 63/93), četrte alinee drugega odstavka 48. člena, 172. in 246. člena svojega poslovnika je Državni zbor Republike Slovenije na seji dne 26. maja 1994 sprejel</p>
 <h2>ODLOK</h2>
@@ -63,5 +76,36 @@ mag. Herman Rigelnik l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-06-03", "kratica": "ODLO455", "naziv": "Odlok o sestavi in imenovanju predsednika, namestnika predsednika in članov Preiskovalne komisije Državnega zbora Republike Slovenije o preiskavi politične odgovornosti posameznih nosilcev javnih funkcij v izvršnih svetih občin in republike za razkroj gospodarskega sistema Iskre", "url": "/trubar/si/ODLO455/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

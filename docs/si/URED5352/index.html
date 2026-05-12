@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-1768" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5352.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5352" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5352.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5352,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Uredba o določitvi programa javne svetovalne službe v čebelarstvu</h1>
 <p>Na podlagi 118. člena Zakona o kmetijstvu (Uradni list RS, št. 45/08) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o določitvi programa javne svetovalne službe v čebelarstvu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina)</h3>
 <p>S to uredbo se določa program javne svetovalne službe v čebelarstvu za obdobje 2010–2014 (v nadaljnjem besedilu: program), vrsto in obseg storitev javne svetovalne službe v čebelarstvu (v nadaljnjem besedilu: javna služba), način in dinamiko izvajanja javne službe ter obseg in način financiranja javne službe.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(program)</h3>
 <p>Program je določen v prilogi 1, ki je sestavni del te uredbe.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(vrsta in obseg storitev javne službe)</h3>
 <p>(1) Vrste storitev javne službe so:<br />
 – svetovanje svetovalcev specialistov s specialističnega področja na področju tehnologije, ekonomike in zagotavljanja varne hrane, pri izdelavi razvojnih načrtov za čebelarstvo, pri uveljavljanju ukrepov skupne kmetijske politike v čebelarstvu, pri organizaciji in delovanju organizacij pridelovalcev, pri izvajanju predpisov, ki urejajo čebelarstvo, pri pripravi razvojnih programov v čebelarstvu ter pri ozaveščanju mladine in širše javnosti o pomenu čebelarstva;<br />
@@ -48,15 +61,15 @@
 – 480 ur s področja specifičnega usposabljanja;<br />
 – 6.000 ur s področja terenskega svetovanja.<br />
 (3) Natančnejši letni obseg storitev javne službe se določi z letnimi programi javne službe v odvisnosti od letnih kazalcev, potreb na terenu in dejanskega stanja v čebelarstvu, po postopku in na način, kot je določen v predpisu, ki ureja koncesijo za opravljanje javne službe.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(način in dinamika izvajanja storitev javne službe)</h3>
 <p>(1) Storitve javne službe izvajajo svetovalci specialisti in terenski svetovalci v skladu z letnimi programi iz tretjega odstavka prejšnjega člena.<br />
 (2) Izvajalec javne službe mora zagotavljati storitve svetovanja uporabnikom neprekinjeno v celotnem obdobju trajanja koncesije in v skladu z dinamiko, določeno z letnimi programi iz tretjega odstavka prejšnjega člena.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(obseg in način financiranja javne službe)</h3>
 <p>(1) Sredstva za izvajanje javne službe zagotovi Ministrstvo za kmetijstvo, gozdarstvo in prehrano (v nadaljnjem besedilu: ministrstvo) v skladu z razpoložljivimi proračunskimi sredstvi v posameznem proračunskem letu. Obseg financiranja javne službe je odvisen od obsega storitev javne službe, ki se določi z letnimi programi iz tretjega odstavka 3. člena te uredbe.<br />
 (2) Izvajalec javne službe vsak mesec pošlje ministrstvu poročilo o opravljenih nalogah, z opisom izvedenih vsebin, prikazom stroškov in dokazili o izvedenem programu v skladu z letnimi programi iz tretjega odstavka 3. člena te uredbe. Ministrstvo izvrši mesečno izplačilo za financiranje storitev javne službe v skladu s koncesijsko pogodbo na račun izvajalca javne službe.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <h3>(začetek veljavnosti)</h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00715-11/2010/5</p>
@@ -74,5 +87,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-05-07", "kratica": "URED5352", "naziv": "Uredba o določitvi programa javne svetovalne službe v čebelarstvu", "url": "/trubar/si/URED5352/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

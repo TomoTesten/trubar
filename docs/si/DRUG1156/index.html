@@ -21,23 +21,36 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1695" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1156.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG1156" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1156.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG1156,vrsta:drugi akt">
+    
     <h1>Dopolnitev splošnih pogojev poslovanja Stanovanjskega sklada Republike Slovenije, javnega sklada</h1>
 <p>Direktor Stanovanjskega sklada Republike Slovenije, javnega sklada, v skladu s 6. in 16. člena zakona o javnih skladih (Uradni list RS, št. 22/00) in 81. in 82. člena stanovanjskega zakona (Uradni list RS, št. 18/91-I, 19/91-I – popr., 9/94 – odl. US, 21/94, 23/96, 24/96 – odl. US, 44/96 – odl. US, 1/00 in 1/00 – odl. US, in 22/00) na podlagi 10. člena, 19. in 22. člena akta o ustanovitvi Stanovanjskega sklada Republike Slovenije kot javnega sklada (Uradni list RS, št. 96/00) po predhodnem soglasju nadzornega sveta z dne 11. 4. 2001 določa</p>
 <h2>D O P O L N I T V E  S P L O Š N I H  P O G O J E V  P O S L O V A N J A</h2>
 <p>Stanovanjskega sklada Republike Slovenije, javnega sklada</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V splošnih pogojih poslovanja Stanovanjskega sklada Republike Slovenije, javnega sklada (Uradni list RS, št.  119/00) se za 7. členom doda nov 7.a člen, ki glasi:</p>
 <h3>“7.a člen</h3>
 <p>Ne glede na določbe 6. člena so fizične osebe upravičenci do kreditov, če so bivši imetniki stanovanjske pravice v denacionaliziranih stanovanjih in se skladno s 125. členom stanovanjskega zakona odločijo za nakup lastnega stanovanja ali gradnjo stanovanjske hiše.</p>
 <p>Pogoje in način dodelitve sredstev iz prejšnjega odstavka skladno s 125. členom stanovanjskega zakona ob upoštevanju siceršnjih pogojev kreditiranja sklada določi nadzorni svet.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za tretjim odstavkom 14. člena se doda nov četrti odstavek, ki glasi:</p>
 <p>“Ne glede na določbe prejšnjih odstavkov sredstva sklada za posojilo dobijo upravičenci iz 125. člena stanovanjskega zakona brez javnega razpisa po drugem odstavku 7.a člena splošnih pogojev.“</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Te dopolnitve začnejo veljati z dnem objave v Uradnem listu RS.</p>
 <p>Št. 1107-1/01</p>
 <p>Ljubljana, dne 11. aprila 2001.</p>
@@ -53,5 +66,36 @@ Edvard Oven l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-04-19", "kratica": "DRUG1156", "naziv": "Dopolnitev splošnih pogojev poslovanja Stanovanjskega sklada Republike Slovenije, javnega sklada", "url": "/trubar/si/DRUG1156/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

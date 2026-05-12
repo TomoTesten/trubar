@@ -21,22 +21,35 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3538" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3432.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3432" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3432.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED3432,vrsta:uredba">
+    
     <h1>Uredba o določitvi zunanje meje priobalnega zemljišča potoka Boben v Hrastniku</h1>
 <p>Na podlagi četrtega odstavka 14. člena in četrtega odstavka 21. člena Zakona o vodah (Uradni list RS, št. 67/02 in 110/02 – <a href="/trubar/si/ZGO-1/" class="law-ref" title="ZGO-1">ZGO-1</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o določitvi zunanje meje priobalnega zemljišča na nekaterih zemljiških parcelah ob potoku Boben v Hrastniku</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta uredba določa zunanjo mejo priobalnega zemljišča na nekaterih zemljiških parcelah ob potoku Boben na območju Občine Hrastnik.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Zunanja meja priobalnega zemljišča dela potoka Boben na območju Občine Hrastnik poteka po zemljiščih parc. št. 1486, 1485, 1298, 1299, 1334/1, 339/1, 1336, 1337, 1338, 1335, 1333, 1345, vse k.o. Hrastnik mesto, in sega 0,5 m od zunanje meje vodnega zemljišča parc. št. 1484, 1464 in 1483/1, k.o. Hrastnik mesto.<br />
 (2) Na priobalnih zemljiščih iz prejšnjega odstavka je splošna raba vodnega dobra zaradi varovanja življenja in zdravja ljudi prepovedana.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Podatek o širini in zunanji meji priobalnega zemljišča iz prejšnjega člena te uredbe se vnese kot podatek v zemljiški kataster oziroma v evidenco pravnih režimov po predpisih o evidentiranju nepremičnin, državne meje in prostorskih enot.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 354-28/2003-3</p>
 <p>Ljubljana, dne 15. julija 2004.</p>
@@ -52,5 +65,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-07-23", "kratica": "URED3432", "naziv": "Uredba o določitvi zunanje meje priobalnega zemljišča potoka Boben v Hrastniku", "url": "/trubar/si/URED3432/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

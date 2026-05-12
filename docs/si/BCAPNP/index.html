@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-02-0004" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/BCAPNP.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=BCAPNP" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/BCAPNP.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:BCAPNP,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Dogovora med Vlado Republike Slovenije in Vlado Kanade o medsebojnem sodelovanju pri preprečevanju nezakonitega preseljevanja</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI DOGOVORA MED VLADO REPUBLIKE SLOVENIJE IN VLADO KANADE O MEDSEBOJNEM SODELOVANJU PRI PREPREČEVANJU NEZAKONITEGA PRESELJEVANJA (BCAPNP)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Dogovor med Vlado Republike Slovenije in Vlado Kanade o medsebojnem sodelovanju pri preprečevanju nezakonitega preseljevanja, sklenjen z izmenjavo not 28. julija 1995.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Dogovor se v izvirniku v slovenskem in angleškem jeziku glasi:<br />
 Veleposlaništvo Kanade v Budimpešti izraža spoštovanje Ministrstvu za zunanje zadeve Republike Slovenije in ima čast, z željo da bi podpirali obstoječe vezi prijateljstva med državama, predlagati sklenitev Dogovora med Vlado Kanade in Vlado Republike Slovenije o medsebojnem sodelovanju pri preprečevanju nezakonitega preseljevanja, tako da:<br />
 1. podpirata dejavnosti nadzora priseljevanja, ki jih opravljajo uradniki obeh držav v zvezi s preprečevanjem nezakonitega preseljevanja;<br />
@@ -231,9 +244,9 @@ Each party undertakes to fully maintain, respect and protect the confidentiality
 <li>Designated officials<br />
 All inquiries and requests for information, and information provided in response thereto under the Arrangement,will be communicated between officials of the respective Parties designated for that purpose by, in the case of Canada, the Assistant Deputy Minister, International Service of Citizenship and Immigration and in the case of the Republic of Slovenia, the Minister of the Interior.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje dogovora skrbi Ministrstvo za notranje zadeve.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 213-07/95-2/1</p>
 <p>Ljubljana, dne 26. januarja 1996</p>
@@ -249,5 +262,36 @@ Jožef Školč l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-02-12", "kratica": "BCAPNP", "naziv": "Zakon o ratifikaciji Dogovora med Vlado Republike Slovenije in Vlado Kanade o medsebojnem sodelovanju pri preprečevanju nezakonitega preseljevanja", "url": "/trubar/si/BCAPNP/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

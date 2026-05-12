@@ -21,24 +21,37 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5432" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2046.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2046" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2046.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2046,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah uredbe o ureditvi trga s svežim sadjem, zelenjavo in oljčnim oljem</h1>
 <p>Na podlagi 5., 6., 19., 74., 101. in 117. člena v zvezi s 126. členom zakona o kmetijstvu (Uradni list RS, št. 54/00) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o ureditvi trga s svežim sadjem, zelenjavo in oljčnim oljem</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 16. členu uredbe o ureditvi trga s svežim sadjem, zelenjavo in oljčnim oljem (Uradni list RS, št. 34/01 in 60/01) se doda nov tretji odstavek, ki se glasi:</p>
 <p>“Skupna višina sredstev v letu 2002, namenjenih obnovi trajnih nasadov, predvsem obnovi sadovnjakov in oljčnikov, vključno z napravo nasadov jagod in špargljev, ki so bila obnovljena jeseni leta 2000 in spomladi 2001, znaša 250,000.000 SIT. Sredstva se zagotovijo iz proračuna Republike Slovenije za leto 2002, s proračunske postavke Ministrstva za kmetijstvo, gozdarstvo in prehrano 5538: programi podpor za prestrukturiranje in prenovo kmetijske proizvodnje. Če skupna višina zahtevkov, prispelih v vlogah na javni razpis za dodelitev podpore za izvedeno napravo nasadov jagod (Uradni list RS, št. 63-64/01), javni razpis za dodelitev podpore za izvedeno obnovo sadovnjakov in oljčnikov (Uradni list RS, št. 63-64/01) in javni razpis za dodelitev podpore za napravo nasadov špargljev (Uradni list RS, št. 63-64/01), presega obseg razpoložljivih sredstev, se višina podpor lahko uskladi z razpoložljivimi sredstvi.“</p>
 <p>Dosedanji tretji odstavek postane četrti odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 17. členu se v drugem odstavku letnica “2001“ nadomesti z letnico “2002“.<br />
 Tretji odstavek se spremeni tako, da se glasi:</p>
 <p>“Sredstva iz prejšnjega odstavka se zagotovijo iz proračuna Republike Slovenije, s proračunske postavke Ministrstva za kmetijstvo, gozdarstvo in prehrano 2242: podpora promociji za sadje in vino. Skupna višina sredstev za ta namen v letu 2002 je 95,171.000 SIT. Sredstva se izplačujejo po vrstnem redu vlaganja zahtevkov, vendar največ do višine skupnega zneska, navedenega v prejšnjem stavku. Vloge, za katere ni več na voljo sredstev, se zavrnejo.“</p>
 <p>Na koncu petega odstavka se doda nov stavek, ki se glasi: “Vloga mora biti oddana na agencijo do 20. v mesecu, ki sledi mesecu izvoza jabolk ali hrušk.“.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne s 1. januarjem 2002.</p>
 <p>Št. 331-18/2001-3</p>
 <p>Ljubljana, dne 20. decembra 2001.</p>
@@ -53,5 +66,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-12-28", "kratica": "URED2046", "naziv": "Uredba o spremembah in dopolnitvah uredbe o ureditvi trga s svežim sadjem, zelenjavo in oljčnim oljem", "url": "/trubar/si/URED2046/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

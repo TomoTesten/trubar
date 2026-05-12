@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5493" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIJZ-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZIJZ-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIJZ-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZIJZ-B,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o investicijah v javne zdravstvene zavode, katerih ustanovitelj je Republika Slovenija za obdobje 1994 - 2003</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,11 +50,11 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O INVESTICIJAH V JAVNE ZDRAVSTVENE ZAVODE, KATERIH USTANOVITELJ JE REPUBLIKA SLOVENIJA, ZA OBDOBJE 1994-2003 (ZIJZ-B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o investicijah v javne zdravstvene zavode, katerih ustanovitelj je Republika Slovenija, za obdobje 1994 - 2003 (Uradni list RS, št. 19/94 in 28/00), se v naslovu zakona, v 1. členu, v drugem odstavku 4. člena in v drugem odstavku 5. člena letnica “2003” nadomesti z letnico “2008”.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugem odstavku 4. člena se številka “60.504,064.000” nadomesti s številko “76.873,969.000”, datum “december 1998” pa z datumom “oktober 2001”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 5. členu se v prvem odstavku za četrto alineo doda nova peta alinea, ki se glasi:</p>
 <p>“– prejemki od sredstev, ki jih osebe zasebnega prava namenijo za investicije v opremo in objekte javnih zdravstvenih zavodov.”</p>
 <p>V drugem odstavku se številka “43.559,335.000” nadomesti s številko “54.308,419.000”.<br />
@@ -49,11 +62,11 @@ Za drugim odstavkom se dodajo novi tretji, četrti in peti odstavek, ki se glasi
 <p>“Ne glede na določbo drugega odstavka 7. člena zakona o zdravstvenem varstvu in zdravstvenem zavarovanju (Uradni list RS, št. 9/92, 13/93, 9/96, 29/98, 77/98, 6/99, 56/99 - <a href="/trubar/si/ZVZD/" class="law-ref" title="ZVZD">ZVZD</a> in 99/01) je lahko soinvestitor ali investitor (v nadaljnjem besedilu: zasebni investitor) v objekte in opremo javnih zdravstvenih zavodov tudi fizična oseba ali pravna oseba zasebnega prava.</p>
 <p>Razmerja med Republiko Slovenijo, javnim zdravstvenim zavodom in zasebnim investitorjem se podrobneje uredijo v pogodbi. Predmet pogodbe je lahko najem, nakup na obroke, zakup z možnostjo nakupa ali postopni odkup objektov ali opreme (leasing), ki je lahko vezan tudi na podelitev koncesije za opravljanje javne službe.<br />
 Zasebnega investitorja ministrstvo, pristojno za zdravje, izbere v skladu s področnimi predpisi.”</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za 11. členom se doda nov 11.a člen, ki se glasi:</p>
 <h3>“11.a člen</h3>
 <p>Z dnem, ko preneha veljati zakon o zagotovitvi sredstev za izgradnjo nove Pediatrične klinike v Ljubljani (Uradni list RS, št. 54/96) se investicija v novo Pediatrično kliniko vključi med investicije v javne zdravstvene zavode po tem zakonu.”</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 411-07/94-5/8</p>
 <p>Ljubljana, dne 21. decembra 2001.</p>
@@ -69,5 +82,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-12-29", "kratica": "ZIJZ-B", "naziv": "Zakon o spremembah in dopolnitvah zakona o investicijah v javne zdravstvene zavode, katerih ustanovitelj je Republika Slovenija za obdobje 1994 - 2003", "url": "/trubar/si/ZIJZ-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,20 +21,33 @@
       <dt>Organ</dt><dd>Zdravniška zbornica Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1950" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5891.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5891" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5891.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5891,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o zdravniškem registru</h1>
 <p>Na podlagi 29. člena zakona o zdravniški službi (Uradni list RS, št. 98/99, 67/02 in 15/03) ter 27. člena statuta Zdravniške zbornice Slovenije (Uradni list RS, št. 64/96, 22/98, 113/00, 30/01 in 43/02) je skupščina Zdravniške zbornice Slovenije na korespondenčni seji dne 26. 3. 2004, sprejela</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o zdravniškem registru</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o zdravniškem registru (Uradni list RS, št. 35/00 in 57/00 – popr.) se za prvim odstavkom 3. člena doda nov drugi odstavek, ki se glasi:<br />
 »Zdravnik, državljan države EU, ki opravlja zdravniško službo na območju druge države EU in želi občasno opravljati zdravniško službo v Republiki Sloveniji, mora opraviti prijavo pri zbornici in se registrirati s statusom začasnega člana.«<br />
 Dosedanji drugi odstavek 3. člena postane tretji odstavek in se spremeni tako, da se glasi:<br />
 »Z vpisom v register zdravnik pridobi vse pravice in obveznosti, ki mu gredo kot članu zbornice, razen če je v tem pravilniku ali drugih aktih zbornice določeno drugače.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Določba sedme alinee drugega odstavka 5. člena se spremeni tako, da se glasi:<br />
 »– zdravnik, ki je državljan druge države članice EU in ki mu je bila izdana odločba o priznanju kvalifikacij za opravljanje poklica v Republiki Sloveniji.«<br />
 Za drugim odstavkom se dodajo nov tretji, četrti, peti in šesti odstavek, ki se glasijo:<br />
@@ -50,11 +63,11 @@ Potrdila iz četrtega odstavka tega člena ne smejo biti starejša od 12 mesecev
 Sedanji tretji odstavek postane sedmi odstavek.<br />
 Prva alinea sedmega odstavka, 5. člena se spremeni tako, da se glasi:<br />
 »– študent medicine ali dentalne medicine,«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prvem odstavku 12. člena pravilnika se beseda »sklep« nadomesti z besedo »odločbo«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V prvi alinei prvega odstavka 13. člena se za besedo »zdravnik« doda besedilo »s pisno vlogo«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Te spremembe in dopolnitve pravilnika začnejo veljati osmi dan po objavi v Uradnem listu Republike Slovenije, določbe 1. in 2. člen tega pravilnika (drugi in tretji odstavek 3. člena, sedma alinea 5. člena in tretji, četrti, peti in šesti odstavek 5. člena pravilnika) pa se začnejo uporabljati od dne pristopa Republike Slovenije k EU.</p>
 <p>Št. 215-1/04</p>
 <p>Ljubljana, dne 26. marca 2004.</p>
@@ -69,5 +82,36 @@ Zdravniške zbornice Slovenije</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-04-26", "kratica": "PRAV5891", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o zdravniškem registru", "url": "/trubar/si/PRAV5891/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

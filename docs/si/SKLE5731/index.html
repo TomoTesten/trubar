@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Agencija za zavarovalni nadzor</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-1930" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5731.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE5731" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5731.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE5731,vrsta:sklep">
+    
     <h1>Sklep o spremembah sklepa o podrobnejših pravilih za izračun minimalnega kapitala zavarovalnic</h1>
 <p>Strokovni svet Agencije za zavarovalni nadzor na podlagi 4. točke 109. člena, 2. točke 139. člena, 140. člena in 2. točke 256. člena Zakona o zavarovalništvu (Uradni list RS, št. 102/04 – uradno prečiščeno besedilo – v nadaljevanju: ZZavar-UPB1) in drugega in tretjega odstavka 153. člena Zakona o spremembah in dopolnitvah zakona o zavarovalništvu (Uradni list RS, št. 50/04) izdaja</p>
 <h2>S K L E P</h2>
 <p>o spremembah sklepa o podrobnejših pravilih za izračun minimalnega kapitala zavarovalnic</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 1. točki sedmega odstavka 21. člena se za besedilom »za leto 2004« doda besedilo »in za leto 2005«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 2. točki sedmega odstavka 21. člena se besedilom »za leto 2005« nadomesti z besedilom »za leto 2006«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Zavarovalnice, ki sklepajo dopolnilna zdravstvena zavarovanja iz sedmega odstavka 2. člena <a href="/trubar/si/ZZavar/" class="law-ref" title="ZZavar">ZZavar</a>, ki niso v skladu z zahtevami šestega odstavka 110. člena <a href="/trubar/si/ZZavar/" class="law-ref" title="ZZavar">ZZavar</a>, in so že poslale predpisane obrazce za obdobje od 1. 4. 2004 do 31. 3. 2005, morajo še enkrat izračunati kapitalske zahteve in do 31. 5. 2005 poslati predpisane obrazce, ki so sestavni del Sklepa o podrobnejših pravilih za izračun minimalnega kapitala zavarovalnic in Sklepa o podrobnejšem načinu izračuna kapitala in izpolnjevanju kapitalskih zahtev ter kapitalske ustreznosti zavarovalnic.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Ljubljana, dne 11. maja 2005.</p>
 <p>Predsednik<br />
@@ -50,5 +63,36 @@ dr. France Križanič l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-05-13", "kratica": "SKLE5731", "naziv": "Sklep o spremembah sklepa o podrobnejših pravilih za izračun minimalnega kapitala zavarovalnic", "url": "/trubar/si/SKLE5731/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,22 +21,35 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5574" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5441.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5441" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5441.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5441,vrsta:pravilnik">
+    
     <h1>Pravilnik o dopolnitvi pravilnika o pogojih za registracijo imetnikov določenih rastlin, rastlinskih proizvodov in nadzorovanih predmetov za namene zdravstvenega varstva rastlin in o pogojih za izdajanje rastlinskih potnih listov</h1>
 <p>Na podlagi 20., 21., 22., 23., 41., 43., 44., 45., 49. in 50. člena zakona o zdravstvenem varstvu rastlin (Uradni list RS, št. 45/01) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o dopolnitvi pravilnika o pogojih za registracijo imetnikov določenih rastlin, rastlinskih proizvodov in nadzorovanih predmetov<br />
 za namene zdravstvenega varstva rastlin<br />
 in o pogojih za izdajanje rastlinskih potnih listov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o pogojih za registracijo imetnikov določenih rastlin, rastlinskih proizvodov in nadzorovanih predmetov za namene zdravstvenega varstva rastlin in o pogojih za izdajanje rastlinskih potnih listov (Uradni list RS, št. 93/01 in 117/02) se doda nov 42.b člen, ki se glasi:</p>
 <h3>»42.b člen</h3>
 <h3>(potrdilo o temeljnem znanju)</h3>
 <p>Ne glede na določbe četrtega odstavka 17. člena tega pravilnika lahko imetniki, ki pridobijo dovoljenje za izdajanje rastlinskih potnih listov do 31. januarja 2004, predložijo potrdilo o temeljnem znanju za svojo odgovorno osebo za zdravstveno varstvo rastlin najpozneje do 31. januarja 2005.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(uveljavitev pravilnika)</h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 327-11/01-3</p>
@@ -53,5 +66,36 @@ za kmetijstvo, gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-12-24", "kratica": "PRAV5441", "naziv": "Pravilnik o dopolnitvi pravilnika o pogojih za registracijo imetnikov določenih rastlin, rastlinskih proizvodov in nadzorovanih predmetov za namene zdravstvenega varstva rastlin in o pogojih za izdajanje rastlinskih potnih listov", "url": "/trubar/si/PRAV5441/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

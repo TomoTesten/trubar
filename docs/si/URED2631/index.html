@@ -21,29 +21,42 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-02-0041" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2631.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2631" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2631.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2631,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-24">24</a><a href="#člen-25">25</a><a href="#člen-3">3</a><a href="#člen-4">4</a></nav>
     <h1>Uredba o ratifikaciji amandmajev k 24. in 25. členu Ustanovne listine Svetovne zdravstvene organizacije</h1>
 <p>Na podlagi tretjega odstavka 63. člena Zakona o zunanjih zadevah (Uradni list RS, št. 1/91-I) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>O RATIFIKACIJI AMANDMAJEV K 24. IN 25. ČLENU USTANOVNE LISTINE SVETOVNE ZDRAVSTVENE ORGANIZACIJE</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificirata se amandmaja k 24. in 25. členu Ustanovne listine Svetovne zdravstvene organizacije, sprejeta z resolucijo št. 51.23 dne 14. maja 1998 na 51. zasedanju Skupščine Svetovne zdravstvene organizacije.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo amandmajev se v izvirniku v angleškem jeziku in v prevodu v slovenskem jeziku glasi:</p>
 <h3>Article 24 – Delete and replace by</h3>
 <p>The Board shall consist of thirty-four persons designated by as many Members. The Health Assembly, taking into account an equitable geographical distribution, shall elect the Members entitled to designate a person to serve on the Board, provided that, of such Members, not less than three shall be elected from each of the regional organizations established pursuant to Article 44. Each of these Members should appoint to the Board a person technically qualified in the field of health, who may be accompanied by alternates and advisers.</p>
 <h3>Article 25 – Delete and replace by</h3>
 <p>These Members shall be elected for three years and may be re-elected, provided that of the Members elected at the first session of the Health Assembly held after the coming into force of the amendment to this Constitution increasing the membership of the Board from thirty-two to thirty-four the term of office of the additional Members elected shall, insofar as may be necessary, be of such lesser duration as shall facilitate the election of at least one Member from each regional organization in each year.</p>
-<h3>24. člen – Izbrisati in zamenjati z:</h3>
+<h3><span id="člen-24">24. člen</span> – Izbrisati in zamenjati z:</h3>
 <p>Odbor bo sestavljalo štiriintrideset oseb, ki jih bo določilo enako število članov. Skupščina Svetovne zdravstvene organizacije bo ob upoštevanju zemljepisnega položaja izvolila člane, ki imajo pravico do imenovanja oseb za opravljanje nalog odbora pod pogojem, da bodo ti člani izvoljeni iz vrst vsake od regionalnih organizacij, ustanovljenih v skladu s 44. členom. Vsak izmed članov bo imenoval v odbor osebo, strokovno usposobljeno za zdravstvo, ki jo lahko spremljajo namestniki in svetovalci.</p>
-<h3>25. člen – Izbrisati in zamenjati z:</h3>
+<h3><span id="člen-25">25. člen</span> – Izbrisati in zamenjati z:</h3>
 <p>Ti člani bodo izvoljeni za tri leta in so lahko ponovno izvoljeni pod pogojem, da bo pri članih, izvoljenih na prvi seji Skupščine Svetovne zdravstvene organizacije, po tem ko začne veljati amandma te Ustanovne listine, po katerem se je število članov povečalo z dvaintrideset na štiriintrideset članov, mandat dodatno izvoljenih članov po potrebi mnogo krajši, kar bo omogočilo izvolitev vsaj enega člana letno iz vrst vsake regionalne organizacije.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje amandmajev skrbi Ministrstvo za zdravstvo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 907-06/98-4 (T1)</p>
 <p>Ljubljana, dne 24. septembra 1998</p>
@@ -58,5 +71,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-10-09", "kratica": "URED2631", "naziv": "Uredba o ratifikaciji amandmajev k 24. in 25. členu Ustanovne listine Svetovne zdravstvene organizacije", "url": "/trubar/si/URED2631/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

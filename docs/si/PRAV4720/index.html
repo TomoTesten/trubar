@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0608" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4720.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV4720" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4720.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV4720,vrsta:pravilnik">
+    
     <h1>Pravilnik o določitvi cen obrazcev dovoljenj za voznika inštruktorja, učitelja predpisov in vodjo avto šole</h1>
 <p>Na podlagi 149. člena zakona o varnosti cestnega prometa (Uradni list RS, št. 30/98, 61/00, 21/02 in 67/02) izdaja minister za šolstvo, znanost in šport</p>
 <h2>P R A V I L N I K</h2>
 <p>o določitvi cen obrazcev dovoljenj za voznika  inštruktorja, učitelja predpisov in vodjo avto šole</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa cene naslednjih tiskovin: obrazca dovoljenj za voznika inštruktorja, obrazca dovoljenj za učitelja predpisov in obrazca dovoljenj za vodjo avto šole.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <hr />
 <h2>Cene za posamezne tiskovine so:</h2>
 <pre><code>                                   Prodajna cena v SIT z DDV
@@ -41,7 +54,7 @@
 dovoljenje za učitelja predpisov                        1.670,00<br />
 dovoljenje za vodjo avto šole                           7.870,00</p>
 <hr />
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 011-3/2003</p>
 <p>Ljubljana, dne 27. januarja 2003.</p>
@@ -56,5 +69,36 @@ dr. Slavko Gaber l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-02-14", "kratica": "PRAV4720", "naziv": "Pravilnik o določitvi cen obrazcev dovoljenj za voznika inštruktorja, učitelja predpisov in vodjo avto šole", "url": "/trubar/si/PRAV4720/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

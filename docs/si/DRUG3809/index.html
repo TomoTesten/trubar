@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-3539" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3809.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3809" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3809.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3809,vrsta:drugi akt">
+    
     <h1>Povprečni znesek trošarine za plinsko olje za pogonski namen v oktobru 2012</h1>
 <p>Za izvrševanje devetega in dvajsetega odstavka 54. člena Zakona o trošarinah (Uradni list RS, št. 97/10 – uradno prečiščeno besedilo in 48/12) in na podlagi tretjega odstavka 5. člena Pravilnika o načinu vračila trošarine za energente, ki se porabijo za pogon kmetijske in gozdarske mehanizacije (Uradni list RS, št. 10/06, 12/07 in 3/09) in v zvezi s 1. členom Uredbe o določitvi zneska trošarine za energente (Uradni list RS, št. 26/10, 39/10, 43/10, 48/10, 55/10, 61/10, 74/10, 77/10, 82/10, 101/10, 5/11, 8/11, 11/11, 16/11, 21/11, 29/11, 36/11, 59/11, 63/11, 66/11, 70/11, 73/11, 77/11, 87/11, 91/11, 96/11, 101/11, 106/11, 2/12, 39/12, 44/12, 70/12 in 74/12) minister za finance objavlja</p>
 <h2>P O V P R E Č N I   Z N E S E K</h2>
@@ -44,5 +57,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-11-30", "kratica": "DRUG3809", "naziv": "Povprečni znesek trošarine za plinsko olje za pogonski namen v oktobru 2012", "url": "/trubar/si/DRUG3809/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

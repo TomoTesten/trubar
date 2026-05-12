@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-4209" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10548.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10548" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10548.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10548,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o vsebini in obliki obračuna davčnih odtegljajev ter o načinu predložitve davčnemu organu</h1>
 <p>Na podlagi drugega odstavka 57. člena, tretjega odstavka 278. člena, tretjega odstavka 325. člena ter drugega in tretjega odstavka 352. člena Zakona o davčnem postopku (Uradni list RS, št. 13/11 - uradno prečiščeno besedilo, 32/12 in 94/12) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o vsebini in obliki obračuna davčnih odtegljajev ter o načinu predložitve davčnemu organu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o vsebini in obliki obračuna davčnih odtegljajev ter o načinu predložitve davčnemu organu (Uradni list RS, št. 37/08, 64/08, 62/09, 22/10 in 109/10) se v Prilogi 1, v poglavju A. Prikaz zbirnih podatkov iz obračuna davčnih odtegljajev za vse vrste dohodkov - pojasnila v zvezi z vsebino podatkov, v točki 1.1.1 Splošna navodila, za tretjim odstavkom doda nov četrti odstavek, ki se glasi:<br />
 »Invalidska podjetja, ki imajo zaposlenih manj kakor tretjino invalidov, ki niso delovni invalidi II. ali III. kategorije, oziroma imajo zaposlenih manj kakor tretjino delovnih invalidov s prišteto dobo za pridobitev in odmero pravic na podlagi osebnih okoliščin, oziroma imajo zaposlenih manj kot 50 % invalidov so, skladno s prvim odstavkom 74. člena Zakona o zaposlitveni rehabilitaciji in zaposlovanju invalidov (v nadaljnjem besedilu: <a href="/trubar/si/ZZRZI/" class="law-ref" title="ZZRZI">ZZRZI</a>), oproščena plačila prispevkov le za zaposlene invalide. Ob izplačilu dohodkov iz delovnega razmerja davčnemu organu dostavijo ločen obračun davčnega odtegljaja za izplačila zaposlenim invalidom in ločen obračun za izplačila zaposlenim, ki nimajo statusa invalida.«.<br />
 Dosedanji četrti in peti odstavek postaneta peti in šesti odstavek.<br />
@@ -120,7 +133,7 @@ V opisu polja A052 se za letnico »2012« doda besedilo »ter 2013«.<br />
 V opisu polja A062 se črta tretji odstavek.<br />
 V opisu polja A091 se črtata drugi in tretji odstavek.<br />
 V opisu polja A101 se črtata tretji in četrti odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati 1. januarja 2013.</p>
 <p>Št. 007-936/2012</p>
 <p>Ljubljana, dne 27. decembra 2012</p>
@@ -136,5 +149,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-12-28", "kratica": "PRAV10548", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o vsebini in obliki obračuna davčnih odtegljajev ter o načinu predložitve davčnemu organu", "url": "/trubar/si/PRAV10548/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

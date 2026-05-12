@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Zavod za pokojninsko in invalidsko zavarovanje Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-0808" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8303.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV8303" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8303.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV8303,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o organizaciji in načinu delovanja invalidskih komisij ter drugih izvedenskih organov Zavoda za pokojninsko in invalidsko zavarovanje Slovenije</h1>
 <p>Na podlagi 261. in 266. člena Zakona o pokojninskem in invalidskem zavarovanju (Uradni list Republike Slovenije, št. 109/06 – uradno prečiščeno besedilo) je Svet Zavoda za pokojninsko in invalidsko zavarovanje Slovenije na 14. seji dne 16. 2. 2007 sprejel</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o organizaciji in načinu delovanja invalidskih komisij ter drugih izvedenskih organov Zavoda za pokojninsko in invalidsko zavarovanje Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o organizaciji in načinu delovanja invalidskih komisij ter drugih izvedenskih organov Zavoda za pokojninsko in invalidsko zavarovanje Slovenije (Uradni list Republike Slovenije, št. 118/05) se 1. točka 63. člena spremeni tako, da se doda nov odstavek E z naslovom »Izvedensko mnenje v zvezi z družinskim pomočnikom (v nadaljevanju DP)« z naslednjimi alineami:</p>
 <p>+--------------------------------+-------+<br />
 |   »1. Pripravljalni postopek v |20     |<br />
@@ -65,7 +78,7 @@
 |senatu o upravičencu do DP      |točk.«.|<br />
 |                                |       |<br />
 +--------------------------------+-------+</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 63. členu se v 2. točki doda novi odstavek »E« z naslovom »Izvedensko mnenje v zvezi z družinskim pomočnikom« (v nadaljevanju: DP) z naslednjimi alineami:</p>
 <p>+--------------------------------+-------+<br />
 |   »1. Pripravljalni postopek v |20     |<br />
@@ -101,12 +114,12 @@
 |senatu o upravičencu do DP      |točk.«.|<br />
 |                                |       |<br />
 +--------------------------------+-------+</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 66. členu se 2. točka spremeni tako, da se glasi:<br />
 »2) Vrednost bruto točke, določene po tem pravilniku, znaša:<br />
 – za predsednika senata in zdravnika izvedenca posameznika 0, 30 EUR<br />
 – za člana senata 0,24 EUR.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 03000-14/2007</p>
 <p>Ljubljana, dne 16. februarja 2007</p>
@@ -122,5 +135,36 @@ Ivan Sisinger l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-02-26", "kratica": "PRAV8303", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o organizaciji in načinu delovanja invalidskih komisij ter drugih izvedenskih organov Zavoda za pokojninsko in invalidsko zavarovanje Slovenije", "url": "/trubar/si/PRAV8303/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

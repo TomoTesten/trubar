@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-1907" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3819.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV3819" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3819.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV3819,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah pravilnika o napredovanju strokovnih delavcev in strokovnih sodelavcev na področju socialnega varstva v nazive</h1>
 <p>Na podlagi drugega odstavka 73. člena v zvezi s 74. členom zakona o socialnem varstvu (Uradni list RS, št. 54/92, 56/92, 42/94 – odl. US, 1/99, 41/99, 36/00, 54/00 in 26/01) izdaja minister za delo, družino in socialne zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah pravilnika o napredovanju strokovnih delavcev in strokovnih sodelavcev  na področju socialnega varstva v nazive</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o napredovanju strokovnih delavcev in strokovnih sodelavcev na področju socialnega varstva v nazive (Uradni list RS, št. 107/00) se 6. člen spremeni tako, da se glasi:</p>
 <p>“Ne glede na druge določbe tega pravilnika mentor oziroma svetovalec napreduje v naziv samostojni svetovalec oziroma višji svetovalec, ko pridobi visokošolsko izobrazbo, in sicer ob prvi redni podelitvi nazivov po tem, ko je oddal vlogo z dokazili.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>dr. Vlado Dimovski l. r.<br />
 Minister za delo, družino in<br />
@@ -45,5 +58,36 @@ socialne zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-04-28", "kratica": "PRAV3819", "naziv": "Pravilnik o spremembah pravilnika o napredovanju strokovnih delavcev in strokovnih sodelavcev na področju socialnega varstva v nazive", "url": "/trubar/si/PRAV3819/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

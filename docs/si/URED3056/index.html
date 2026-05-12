@@ -21,16 +21,29 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4608" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3056.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3056" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3056.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED3056,vrsta:uredba">
+    
     <h1>Uredba o spremembah uredbe o uvedbi podpor za pripravo kmetijskih pridelkov in živil za zunanji trg za obdobje od 1. julija do 31. decembra 2003</h1>
 <p>Na podlagi 5. člena in v zvezi z 19. ter 126. členom zakona o kmetijstvu (Uradni list RS, št. 54/00, 52/02 – <a href="/trubar/si/ZDU-1/" class="law-ref" title="ZDU-1">ZDU-1</a> in 58/02 – <a href="/trubar/si/ZMR-1/" class="law-ref" title="ZMR-1">ZMR-1</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah uredbe o uvedbi podpor<br />
 za pripravo kmetijskih pridelkov in živil za zunanji trg za obdobje od 1. julija do 31. decembra 2003</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o uvedbi podpor za pripravo kmetijskih pridelkov in živil za zunanji trg za obdobje od 1. julija do 31. decembra 2003 (Uradni list RS, št. 62/03 in 79/03) se v Prilogi 1 za tarifno oznako 0102 10 10 črta besedilo, ki se glasi:</p>
 <p>»0102 90      –  Druge:<br />
               – – domačih pasem:<br />
@@ -47,7 +60,7 @@ Za tarifno oznako 0409 00 00 se črta besedilo, ki se glasi:</p>
 <p>»0701         Krompir, svež ali ohlajen<br />
 0701 90       – Drug:<br />
 0701 90 90    – – – drug                         3,00/kg«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 403-22/2000-21</p>
 <p>Ljubljana, dne 23. oktobra 2003.</p>
@@ -63,5 +76,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-10-24", "kratica": "URED3056", "naziv": "Uredba o spremembah uredbe o uvedbi podpor za pripravo kmetijskih pridelkov in živil za zunanji trg za obdobje od 1. julija do 31. decembra 2003", "url": "/trubar/si/URED3056/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

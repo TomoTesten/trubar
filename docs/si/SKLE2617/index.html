@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4805" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE2617.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE2617" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE2617.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE2617,vrsta:sklep">
+    
     <h1>Sklep o dopolnitvi in spremembi sklepa o ustanovitvi in sestavi Komisije za nadzor nad državnimi pomočmi</h1>
 <p>Na podlagi 4. člena zakona o nadzoru državnih pomoči (Uradni list RS, št. 1/00) in šestega odstavka 21. člena zakona o vladi (Uradni list RS, št. 4/93, 71/94, 23/96, 47/97, 23/99, 119/00 in 30/01), je Vlada Republike Slovenije v vlogi skupščine na 51. seji dne 22. 11. 2001 sprejela</p>
 <h2>S K L E P</h2>
 <p>o dopolnitvi in spremembi sklepa o ustanovitvi  in sestavi Komisije za nadzor nad državnimi  pomočmi</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Prvi odstavek 1. člena sklepa o ustanovitvi in sestavi Komisije za nadzor nad državnimi pomočmi (Uradni list RS, št. 23/00, 59/00, 62/00 in 31/01) se spremeni tako, da se na začetku doda besedilo, ki se glasi:</p>
 <p>“Predsednica:</p>
 <p>mag. Helena Kamnar, državna sekretarka na Ministrstvu za finance,”<br />
@@ -39,7 +52,7 @@ in nadomesti besedilo:</p>
 <p>“mag. Maja Bogataj, univ. dipl. prav., Levstikova 2, Žiri, predstavnica Ministrstva za gospodarstvo,”</p>
 <p>Drugi odstavek se spremeni tako, da se glasi:</p>
 <p>“Člani, ki niso delavci v državni upravi, so upravičeni do povračila stroškov v zvezi z delom in udeležbo na sejah in sicer kilometrine za pot od stalnega bivališča do sedeža Komisije in nazaj ter polne dnevnice za dan dejanske udeležbe na seji. Kilometrina in dnevnice se obračunavajo v skladu z zakonom o višini povračil stroškov v zvezi z delom in nekaterih drugih prejemkov (Uradni list RS, št. 87/97, 9/98 in 48/01).”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 117-83/2001</p>
 <p>Ljubljana, dne 22. novembra 2001.</p>
@@ -54,5 +67,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-12-04", "kratica": "SKLE2617", "naziv": "Sklep o dopolnitvi in spremembi sklepa o ustanovitvi in sestavi Komisije za nadzor nad državnimi pomočmi", "url": "/trubar/si/SKLE2617/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

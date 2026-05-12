@@ -16,25 +16,38 @@
     <dl>
       <dt>Kratica</dt><dd><strong>URED1050</strong></dd>
       <dt>Vrsta</dt><dd>uredba</dd>
-      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
       <dt>Datum</dt><dd>1994-06-30</dd>
-      
+      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1533" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1050.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1050" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1050.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1050,vrsta:uredba">
+    
     <h1>Uredba o določitvi kriterijev za odločanje Agencije za trg vrednostnih papirjev na podlagi določil 8., 100. in 129. člena zakona o investicijskih skladih in družbah za upravljanje</h1>
 <p>Na podlagi drugega odstavka 124. člena zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 6/94) izdaja Vlada Republike Slovenije na predlog Agencije za trg vrednostnih papirjev</p>
 <h2>UREDBO</h2>
 <p>o določitvi kriterijev za odločanje Agencije za trg vrednostnih papirjev na podlagi določil 8., 100. in 129. člena zakona o investicijskih skladih in družbah za upravljanje</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta uredba določa kriterije, ki jih uporablja Agencija za trg vrednostnih papirjev (v nadaljnjem besedilu: Agencija) pri:<br />
 – dajanju soglasij tujim fizičnim in pravnim osebam, da lahko posredno ali neposredno pridobijo več kot 20% delnic oziroma poslovnih deležev družbe za upravljanje;<br />
 – dajanju soglasij tujim fizičnim in pravnim osebam, da lahko posredno ali neposredno pridobijo več kot 10% delnic oziroma poslovnih deležev pooblaščene družbe za upravljanje;<br />
 – dajanju soglasij investicijskim družbam, da se smejo zadolževati oziroma izdajati dolžniške vrednostne papirje.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pri dajanju soglasij iz prve in druge alinee 1. člena te uredbe upošteva Agencija naslednje:<br />
 – prisotnost delničarjev oziroma družbenikov iz različnih držav;<br />
 – delež tujih oseb v družbah za upravljanje v Republiki Sloveniji;<br />
@@ -43,7 +56,7 @@
 – mnenje pristojnega nadzornega organa, če je tuji delničar oziroma družbenik družba, ki opravlja posle upravljanja investicijskih skladov;<br />
 – mnenje priznanih mednarodnih organizacij za presojo bonitete, če je tuji delničar oziroma družbenik družba, ki ne opravlja poslov upravljanja investicijskih skladov;<br />
 – razmere na trgu vrednostnih papirjev.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Pri dajanju soglasij iz tretje alinee 1. člena te uredbe upošteva Agencija naslednje:<br />
 1. za zadolževanje do višine 5% čiste vrednosti sredstev investicijske družbe:<br />
 – namen in obliko zadolževanja;<br />
@@ -53,7 +66,7 @@
 – zaščito delničarjev investicijske družbe;<br />
 – potrebo po likvidnih sredstvih za oblikovanje portfelja investicijske družbe;<br />
 – razmere na trgu vrednostnih papirjev.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati z dnem objave v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-11/94-14/1-8</p>
 <p>Ljubljana, dne 23. junija 1994.</p>
@@ -68,5 +81,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-06-30", "kratica": "URED1050", "naziv": "Uredba o določitvi kriterijev za odločanje Agencije za trg vrednostnih papirjev na podlagi določil 8., 100. in 129. člena zakona o investicijskih skladih in družbah za upravljanje", "url": "/trubar/si/URED1050/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

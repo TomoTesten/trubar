@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-02-0119" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MEKZVU.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MEKZVU" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MEKZVU.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MEKZVU,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o ratifikaciji Evropske konvencije za zaščito vretenčarjev, ki se uporabljajo v poskusne in druge znanstvene namene</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI EVROPSKE KONVENCIJE ZA ZAŠČITO VRETENČARJEV, KI SE UPORABLJAJO V POSKUSNE IN DRUGE ZNANSTVENE NAMENE (MEKZVU)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Evropska konvencija za zaščito vretenčarjev, ki se uporabljajo v poskusne in druge znanstvene namene, sklenjena 18. marca 1986 v Strasbourgu.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo konvencije se v izvirniku v angleškem jeziku ter v prevodu v slovenskem jeziku glasi(*):</p>
 <h2>E U R O P E A N   C O N V E N T I O N</h2>
 <p>FOR THE PROTECTION OF VERTEBRATE ANIMALS USED FOR EXPERIMENTAL AND OTHER SCIENTIFIC PURPOSES</p>
@@ -482,12 +495,12 @@ c. vsakem datumu začetka veljavnosti te konvencije po členih 32, 33 in 35;<br 
 d. vsakem drugem dejanju, obvestilu ali sporočilu v zvezi s to konvencijo.<br />
 V potrditev navedenega smo podpisani, za to pravilno pooblaščeni, podpisali to konvencijo.<br />
 Sestavljeno v Strasbourgu 18. marca 1986 v angleškem in francoskem jeziku, pri čemer sta obe besedili enako verodostojni, v enem samem izvodu, ki se deponira v arhivih Sveta Evrope. Generalni sekretar Sveta Evrope pošlje overjene kopije vsaki državi članici Sveta Evrope, Evropskim skupnostim in vsaki državi, povabljeni, da pristopi k tej konvenciji.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Republika Slovenija daje v skladu s členom 34(1) konvencije naslednji pridržek:<br />
 Na podlagi člena 34(1) Evropske konvencije za zaščito vretenčarjev, ki se uporabljajo v poskusne in druge znanstvene namene, se Republika Slovenija ne šteje za zavezano zahtevam po sporočanju statističnih podatkov iz člena 28(1) navedene konvencije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za izvajanje konvencije skrbi Ministrstvo za kmetijstvo, gozdarstvo in prehrano – Veterinarska uprava Republike Slovenije.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 801-12/06-25/1</p>
 <p>Ljubljana, dne 29. septembra 2006</p>
@@ -505,5 +518,36 @@ France Cukjati, dr. med., l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-11-09", "kratica": "MEKZVU", "naziv": "Zakon o ratifikaciji Evropske konvencije za zaščito vretenčarjev, ki se uporabljajo v poskusne in druge znanstvene namene", "url": "/trubar/si/MEKZVU/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

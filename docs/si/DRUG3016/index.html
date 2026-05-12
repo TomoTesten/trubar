@@ -21,27 +21,40 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-2501" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3016.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3016" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3016.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3016,vrsta:drugi akt">
+    
     <h1>Splošni akt o dopolnitvah Splošnega akta o preglednosti in objavi informacij</h1>
 <p>Na podlagi drugega odstavka 84. člena Zakona o elektronskih komunikacijah (Uradni list RS, št. 13/07 – UPB1 in št. 102/07 – <a href="/trubar/si/ZDRad/" class="law-ref" title="ZDRad">ZDRad</a>) izdaja direktor Agencije za pošto in elektronske komunikacije Republike Slovenije</p>
 <h2>S P L O Š N I   A K T</h2>
 <p>o dopolnitvah Splošnega akta o preglednosti in objavi informacij</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Splošnemu aktu o preglednosti in objavi informacij (Uradni list RS, št. 96/04; v nadaljevanju: splošni akt) se doda nov 2.a člen, ki se glasi:</p>
 <h3>»2.a člen</h3>
 <h3>(dostopnost klica v sili)</h3>
 <p>(1) Operaterji javnih telefonskih omrežij oziroma javno dostopnih telefonskih storitev so dolžni jasno in nedvoumno seznaniti uporabnika z omejitvami storitve klica na enotno evropsko telefonsko številko za klice v sili »112«, zlasti glede zagotavljanja informacije o lokaciji kličočega v skladu z drugim odstavkom 72. člena Zakona o elektronskih komunikacijah (Uradni list RS, št. 13/07 – UPB1 in št. 102/07 – <a href="/trubar/si/ZDRad/" class="law-ref" title="ZDRad">ZDRad</a>).<br />
 (2) Operaterji javnih telefonskih omrežij oziroma javno dostopnih telefonskih storitev so informacije iz prejšnjega odstavka dolžni javno objaviti v svojih splošnih pogojih in z njimi jasno in nedvoumno seznaniti uporabnika v pisnem obvestilu ob sklenitvi ali spremembi naročniškega razmerja. Operater mora informacije iz prejšnjega odstavka posredovati tudi z nalepkami na terminalski opremi za končne uporabnike ali z jasno vidnimi informacijami na računih.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 3. člena splošnega akta se besedilo »Agencijo za telekomunikacije, radiodifuzijo in pošto Republike Slovenije« nadomesti z besedilom »Agencijo za pošto in elektronske komunikacije Republike Slovenije«.</p>
 <h3>PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(prehodna določba)</h3>
 <p>Operaterji javnih telefonskih omrežij oziroma javno dostopnih telefonskih storitev so dolžni obstoječe uporabnike najkasneje v roku 30 dni od uveljavitve tega splošnega akta pisno obvestiti o omejitvah storitve klica na enotno evropsko telefonsko številko za klice v sili »112«, kot to izhaja iz 1. člena tega splošnega akta, ter skladno z navedenim uskladiti splošne pogoje.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(končna določba)</h3>
 <p>Ta splošni akt začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 38241-16/2008/5</p>
@@ -57,5 +70,36 @@ Direktor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-06-13", "kratica": "DRUG3016", "naziv": "Splošni akt o dopolnitvah Splošnega akta o preglednosti in objavi informacij", "url": "/trubar/si/DRUG3016/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -16,20 +16,33 @@
     <dl>
       <dt>Kratica</dt><dd><strong>SKLE9217</strong></dd>
       <dt>Vrsta</dt><dd>sklep</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
-      <dt>Datum</dt><dd>2012-02-17</dd>
-      <dt>Organ</dt><dd>Banka Slovenije</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2024-11-25</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-0459" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9217.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE9217" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9217.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE9217,vrsta:sklep">
+    
     <h1>Sklep o tarifi za zaračunavanje nadomestil za storitve Banke Slovenije</h1>
 <p>Na podlagi prvega odstavka 31. člena in 53. člena Zakona o Banki Slovenije (Uradni list RS, št. 72/06, uradno prečiščeno besedilo in št. 59/11) izdaja Svet Banke Slovenije</p>
 <h2>S K L E P</h2>
 <p>o tarifi za zaračunavanje nadomestil za storitve Banke Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Banka Slovenije zaračunava storitve, ki jih opravlja po tarifi:</p>
 <hr />
 <p>Tarifna             Vrsta posla           Višina plačila<br />
@@ -265,9 +278,9 @@
                   soglasij in drugih        4,15 EUR za vsako<br />
                   dovoljenj, ki so izdana   potrdilo, soglasje,<br />
                   v listinski obliki        dovoljenje</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Z dnem, ko začne veljati ta sklep, preneha veljati Sklep o tarifi za zaračunavanje nadomestil za storitve Banke Slovenije, po kateri se zaračunavajo plačila za storitve, ki jih opravlja Banka Slovenije (Uradni list RS, št. 131/06, 46/07, 93/07, 3/08, 51/08, 59/08, 99/08, 14/09 (23/09 – popr.) in 104/09).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sklep začne veljati 1. marca 2012.</p>
 <p>Ljubljana, dne 7. februarja 2012</p>
 <p>Marko Kranjec l.r.<br />
@@ -281,5 +294,36 @@ Sveta Banke Slovenije</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2024-11-25", "kratica": "SKLE9217", "naziv": "Sklep o tarifi za zaračunavanje nadomestil za storitve Banke Slovenije", "url": "/trubar/si/SKLE9217/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

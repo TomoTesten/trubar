@@ -21,29 +21,42 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-2334" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3705.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3705" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3705.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED3705,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o spremembah in dopolnitvi Uredbe o določitvi zneska specifične in določitvi stopnje proporcionalne trošarine za cigarete</h1>
 <p>Na podlagi prvega odstavka 66. člena Zakona o trošarinah (Uradni list RS, št. 103/04 – uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvi Uredbe o določitvi zneska specifične in določitvi stopnje proporcionalne trošarine za cigarete</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o določitvi zneska specifične in določitvi stopnje proporcionalne trošarine za cigarete (Uradni list RS, št. 64/04, 140/04 in 55/05) se besedilo 3. člena spremeni tako, da se glasi:<br />
 »Drobnoprodajna cena cigaret iz najbolje prodajanega cenovnega razreda na dan 1. julija 2006 znaša 475 tolarjev za zavojček dvajsetih cigaret.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 4. členu se v prvem odstavku število »3.339,9463« nadomesti s številom »3.570,8079«.<br />
 V drugem odstavku se število »42,7101« nadomesti s številom »43,4732«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za 4. členom se doda nov 4. a člen, ki se glasi:</p>
 <h3>»4. a člen</h3>
 <p>Ne glede na prejšnji člen te uredbe, se od cigaret, katerih drobnoprodajna cena je 410 tolarjev ali manj, plačuje trošarina v višini 12.506,1282 za 1000 kosov cigaret.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Trošarinski zavezanec (v nadaljnjem besedilu: zavezanec) plača trošarino v znesku iz te uredbe za cigarete, ki jih sprosti v porabo od vključno 1. julija 2006 naprej.<br />
 Zavezanec iz 7. točke tretjega odstavka 17. člena Zakona o trošarinah (Uradni list RS, št. 103/04 – uradno prečiščeno besedilo) mora na dan 30. junija 2006 opraviti popis zalog cigaret. Sestaviti mora zapisnik o stanju zalog cigaret po vrstah, vrednosti in količinah ter obračun razlike med zneskom že plačane trošarine in trošarine, določene s to uredbo (ločeno po vrstah cigaret). Zapisnik in obračun mora predložiti 15. dan po popisu carinskemu organu, ki je krajevno pristojen glede na sedež plačnika. Obračun se sestavi v skladu z vzorcem obračuna, ki je priloga k tej uredbi in je njen sestavni del.<br />
 Zavezanec iz prejšnjega odstavka mora najpozneje 60. dan po opravljenem popisu plačati razliko v trošarini, in sicer v skladu s predpisom, ki ureja podračune ter način plačevanja obveznih dajatev in drugih javnofinančnih prihodkov v dobro podračuna: 01100-1008310474 – trošarina od tobačnih izdelkov. Poleg številke vplačilnega računa se na plačilnem nalogu obvezno navede tudi številka sklica, ki je določena z modelom 19: model 19, davčna številka plačnika – 08656–0606.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Šifra: 42301-2/2006/5</p>
 <p>Ljubljana, dne 18. maja 2006</p>
@@ -60,5 +73,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-05-26", "kratica": "URED3705", "naziv": "Uredba o spremembah in dopolnitvi Uredbe o določitvi zneska specifične in določitvi stopnje proporcionalne trošarine za cigarete", "url": "/trubar/si/URED3705/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

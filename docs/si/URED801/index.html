@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0223" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED801.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED801" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED801.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED801,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah uredbe o začasni uporabi sporazuma o prosti trgovini med Republiko Slovenijo in Republiko Hrvaško</h1>
 <p>Na podlagi četrtega odstavka 60. člena zakona o zunanjih zadevah (Uradni list RS, št. 1/91-I), drugega odstavka 3. člena zakona o carinski tarifi (Uradni list RS, št. 74/95) in prvega odstavka 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 23/96 in 47/97) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o začasni uporabi sporazuma o prosti trgovini med Republiko Slovenijo in Republiko Hrvaško</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o začasni uporabi sporazuma o prosti trgovini med Republiko Slovenijo in Republiko Hrvaško (Uradni list RS, št. 85/97) se:<br />
 1. v prilogi 1<br />
 – pri tarifnih oznakah 271000270, 271000290, 271000360, 271000661, 271000669, 271000671, 271000679, 271000681, 271000689 carinska stopnja “1,5” črta in nadomesti s carinsko stopnjo “3”;<br />
@@ -40,7 +53,7 @@
 <p>“– (1) Kjer je navedena štirimestna, šestmestna oziroma osemmestna tarifna oznaka, se carinska stopnja, kot je določena v prilogi, uporablja za vse tarifne podštevilke v okviru navedene tarifne oznake.</p>
 <p>– * pri tarifni oznaki 081010 pomeni: Izdelki se ne smejo uvažati v Republiko Slovenijo v obdobju od 15. maja do 30. junija.<br />
 – * pri tarifni oznaki 210390 pomeni: “Od tega je 120 ton majoneze in 480 ton drugega (kar se najprej dodeli izdelku, z imenom Vegeta in nato drugim izdelkom.)”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 333-00/98-1</p>
 <p>Ljubljana, dne 15. januarja 1998.</p>
@@ -55,5 +68,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-01-17", "kratica": "URED801", "naziv": "Uredba o spremembah in dopolnitvah uredbe o začasni uporabi sporazuma o prosti trgovini med Republiko Slovenijo in Republiko Hrvaško", "url": "/trubar/si/URED801/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

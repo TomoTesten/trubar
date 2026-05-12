@@ -21,23 +21,36 @@
       <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3880" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9878.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9878" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9878.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9878,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o zaključku izvrševanja državnega in občinskih proračunov za leto 2009</h1>
 <p>Na podlagi 95. člena Zakona o javnih financah (Uradni list RS, št. 79/99, 124/00, 79/01, 30/02, 56/02 – <a href="/trubar/si/ZJU/" class="law-ref" title="ZJU">ZJU</a>, 127/06 – <a href="/trubar/si/ZJZP/" class="law-ref" title="ZJZP">ZJZP</a>, 14/07 – <a href="/trubar/si/ZSPDPO/" class="law-ref" title="ZSPDPO">ZSPDPO</a>, 109/08 in 49/09) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o zaključku izvrševanja državnega in občinskih proračunov za leto 2009</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o zaključku izvrševanja državnega in občinskih proračunov za leto 2009 (Uradni list RS, št. 81/09) se v napovednem stavku drugega odstavka 1. člena besedilo »Prvi in drugi odstavek tega člena ne veljata« nadomesti z besedilom »Prejšnji odstavek ne velja«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za drugim odstavkom 4. člena se doda nov tretji odstavek, ki se glasi:<br />
 »(3) Izplačila iz postavk slovenske udeležbe in postavk namenskih sredstev EU iz 12. in 13. točke drugega odstavka 2. člena <a href="/trubar/si/ZIPRS0809/" class="law-ref" title="ZIPRS0809">ZIPRS0809</a> so mogoča najkasneje do petka, 6. novembra 2009 pod pogojem, da so neposredni uporabniki predložili odredbe za plačilo – nakazilo teh obveznosti do vključno 27. oktobra 2009, do 17. ure.«.<br />
 Dosedanji tretji odstavek postane četrti odstavek.<br />
 Dosedanji četrti odstavek, ki postane peti odstavek se spremeni tako, da se glasi:<br />
 »(5) Ne glede drugi in tretji odstavek tega člena, lahko ministrstvo, pristojno za finance, v skladu z likvidnostnimi možnostmi, odobri izplačilo iz proračuna za plačilo obveznosti iz drugega in tretjega odstavka tega člena, do četrtka, 31. decembra 2009 pod pogojem, da Ministrstvo za finance prejme odredbe za plačilo teh obveznosti tri delovne dni pred rokom izplačila iz proračuna.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-561/2009</p>
 <p>Ljubljana, dne 4. novembra 2009</p>
@@ -53,5 +66,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-11-05", "kratica": "PRAV9878", "naziv": "Pravilnik o spremembah Pravilnika o zaključku izvrševanja državnega in občinskih proračunov za leto 2009", "url": "/trubar/si/PRAV9878/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

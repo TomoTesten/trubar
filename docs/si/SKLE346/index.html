@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0577" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE346.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE346" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE346.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE346,vrsta:sklep">
+    
     <h1>Sklep o dopolnitvah statuta Odvetniške zbornice Slovenije</h1>
 <p>Na podlagi 44. člena zakona o odvetništvu (Uradni list RS, št. 18/93) je skupščina Odvetniške zbornice Slovenije dne 16. decembra 1994 sprejela</p>
 <h2>S K L E P</h2>
 <p>o dopolnitvah statuta Odvetniške zbornice Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 44. členu se četrta alinea glasi:</p>
 <p>“– Krški območni zbor odvetnikov za območje sodnega okrožja Krško,”</p>
 <p>Sedanja četrta alinea postane peta, sedanja peta alinea postane šesta, sedanja šesta alinea postane sedma, sedanja sedma alinea postane osma in sedanja osma alinea postane deveta alinea.<br />
@@ -38,7 +51,7 @@ Deseta alinea:</p>
 <p>“– Ptujski območni zbor odvetnikov za območje sodnega okrožja Ptuj,” in</p>
 <p>enajsta alinea:</p>
 <p>“– Slovenjegraški območni zbor odvetnikov za območje sodnega okrožja Slovenj Gradec,”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Predsednik zbornice<br />
 Mitja Stupan l. r.</p>
@@ -51,5 +64,36 @@ Mitja Stupan l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-02-18", "kratica": "SKLE346", "naziv": "Sklep o dopolnitvah statuta Odvetniške zbornice Slovenije", "url": "/trubar/si/SKLE346/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

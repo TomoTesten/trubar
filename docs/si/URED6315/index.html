@@ -21,39 +21,52 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-3942" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6315.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6315" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6315.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6315,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Uredba o spremembah in dopolnitvah Uredbe o prostovoljnem služenju vojaškega roka</h1>
 <p>Na podlagi petega odstavka 62.č člena Zakona o vojaški dolžnosti (Uradni list RS, št. 108/02 - uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o prostovoljnem služenju vojaškega roka</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o prostovoljnem služenju vojaškega roka (Uradni list RS, št. 81/03 in 116/07) se v prvem odstavku 3. člena na koncu besedila črta pika in doda besedilo: »ter zanj ob varnostnem preverjanju skladno s predpisi o obrambi ni bil ugotovljen varnostni zadržek.«.<br />
 V tretjem odstavku se besedilo »in da ni bil« nadomesti z besedilom »ali je bil pravnomočno«. Besedi »treh mesecev« pa se nadomestita z besedama »tri mesece«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugem odstavku 7. člena se na koncu besedila doda nov stavek, ki se glasi: »K vlogi mora kandidat priložiti pisno soglasje za varnostno preverjanje.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Prvi odstavek 16. člena se spremeni tako, da se glasi:<br />
 »(1) Vojaku prostovoljcu se prostovoljno služenje vojaškega roka prekine, če je ocenjen kot začasno nesposoben za vojaško službo ter zaradi razlogov iz 33. člena Zakona o vojaški dolžnosti.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V prvem odstavku 17. člena se prva alinea spremeni tako, da se glasi:<br />
 »- če preneha izpolnjevati splošne pogoje iz 3. člena te uredbe, razen pogoja starosti;«.<br />
 V četrtem odstavku se za besedo »prostovoljec« doda besedilo »iz prve alinee, razen v primeru, če je ocenjen kot nesposoben za vojaško službo,«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Prvi odstavek 19. člena se spremeni tako, da se glasi:<br />
 »(1) Prejemki za izvajanje vojaške službe, določeni od osnove iz prejšnjega člena, znašajo:<br />
 - ob nastopu služenja 13 odstotkov;<br />
 - prvi mesec služenja 18 odstotkov;<br />
 - drugi mesec služenja 27 odstotkov;<br />
 - tretji in nadaljnji meseci služenja 40 odstotkov.«.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>V prvem odstavku 20. člena se besedi »minimalne plače« nadomestita z besedilom »90 odstotkov od osnove, ki jo predstavlja minimalna plača«.</p>
 <h3>PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Kandidati in vojaki prostovoljci, ki so podpisali pogodbo o prostovoljnem služenju vojaškega roka pred uveljavitvijo te uredbe, opravijo postopke do napotitve na prostovoljno služenje vojaškega roka in prostovoljno služenje vojaškega roka po določbah, ki so veljale pred uveljavitvijo te uredbe.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00718-10/2012</p>
 <p>Ljubljana, dne 20. decembra 2012</p>
@@ -69,5 +82,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-12-21", "kratica": "URED6315", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o prostovoljnem služenju vojaškega roka", "url": "/trubar/si/URED6315/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

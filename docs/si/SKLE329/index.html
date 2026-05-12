@@ -21,28 +21,41 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-2120" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE329.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE329" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE329.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE329,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Sklep o določitvi postopka medsebojnega trgovanja pooblaščenih investicijskih družb, slovenskega odškodninskega sklada in kapitalskega sklada pokojninskega in invalidskega zavarovanja</h1>
 <p>Na podlagi 1. alinee 114. člena in petega odstavka 140. člena zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 6/94) izdaja Agencija za trg vrednostnih papirjev</p>
 <h2>S K L E P</h2>
 <p>o določitvi postopka medsebojnega trgovanja pooblaščenih investicijskih družb, slovenskega odškodninskega sklada in kapitalskega sklada pokojninskega in invalidskega zavarovanja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta sklep določa postopek trgovanja pooblaščenih investicijskih družb, Slovenskega odškodninskega sklada in Kapitalskega sklada pokojninskega in invalidskega zavarovanja ter poročanje pooblaščenih investicijskih družb o sklenjenih poslih.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pooblaščene investicijske družbe trgujejo s Slovenskim odškodninskim skladom, Kapitalskim skladom pokojninskega in invalidskega zavarovanja in drugimi pooblaščenimi investicijskimi družbami z delnicami in drugimi vrednostnimi papirji, ki so jih pridobile od Sklada za razvoj, Slovenski odškodninski sklad in Kapitalski sklad pokojninskega in invalidskega zavarovanja pa z vrednostnimi papirji, ki sta jih pridobila na podlagi zakona o lastninskem preoblikovanju podjetij (Uradni list RS, št. 55/92, 7/93, 31/93, 43/93 in 32/94).<br />
 Trgovanje iz prejšnjega odstavka tega člena je prosto.<br />
 Ne glede na drugi odstavek tega člena trgujejo pooblaščene investicijske družbe z vrednostnimi papirji, ki so uvrščeni na katerega od javnih organiziranih trgov, izključno preko organiziranega trga.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Pooblaščene investicijske družbe morajo o vseh na podlagi tega sklepa sklenjenih poslih obveščati Agencijo za trg vrednostnih papirjev in sicer naslednji dan po sklenjenem poslu.<br />
 Obvestilo iz prvega odstavka mora biti na obrazcu PID/T, ki je sestavni del tega sklepa.<br />
 Pooblaščene investicijske družbe obvestijo Agencijo za trg vrednostnih papirjev na obrazcu PID/T tudi o vseh poslih iz tega sklepa, sklenjenih do uveljavitve tega sklepa, in sicer najkasneje 30 dni po uveljavitvi tega sklepa.<br />
 Določbe prejšnjih odstavkov tega člena ne veljajo za vrednostne papirje, ki so uvrščeni na katerega od javnih organiziranih trgov.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Določbi 2. in 3. člena tega sklepa veljata tudi v primeru, ko pooblaščene investicijske družbe prodajo delnice in druge vrednostne papirje tretjim osebam pod pogoji iz petega odstavka 140. člena zakona o investicijskih skladih in družbah za upravljanje.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta sklep začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 32/AG 95</p>
 <p>Ljubljana, dne 28. junija 1995.</p>
@@ -77,5 +90,36 @@ Predsednik strokovnega sveta</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-07-28", "kratica": "SKLE329", "naziv": "Sklep o določitvi postopka medsebojnega trgovanja pooblaščenih investicijskih družb, slovenskega odškodninskega sklada in kapitalskega sklada pokojninskega in invalidskega zavarovanja", "url": "/trubar/si/SKLE329/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

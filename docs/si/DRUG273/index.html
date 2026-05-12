@@ -21,31 +21,44 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0575" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG273.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG273" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG273.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG273,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Sklep o podrobnejši vsebini povzetka revidiranega letnega poročila</h1>
 <p>Na podlagi drugega odstavka 171. člena in 2. točke 256. člena zakona o zavarovalništvu (Uradni list RS, št. 13/00 in 91/00) izdaja Agencija za zavarovalni nadzor</p>
 <h2>S K L E P</h2>
 <p>o podrobnejši vsebini povzetka revidiranega letnega poročila</p>
 <h3>PREDMET SKLEPA</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta sklep določa podrobnejšo vsebino povzetka revidiranega letnega poročila in povzetka konsolidiranega revidiranega letnega poročila, ki ga je dolžna objaviti zavarovalnica, zavarovalni in pozavarovalni pool ter Slovensko zavarovalno združenje v delu, ki se nanaša na poslovanje škodnega sklada (v nadaljevanju: zavarovalnice).<br />
 Določila tega sklepa veljajo tudi za pokojninske družbe, ustanovljene po zakonu o pokojninskem in invalidskem zavarovanju (Uradni list RS, št. 106/99 in 72/00).</p>
 <h3>VSEBINA POVZETKA REVIDIRANEGA LETNEGA POROČILA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Povzetek revidiranega letnega poročila in povzetek revidiranega konsolidiranega letnega poročila zavarovalnice mora vsebovati:<br />
 1. posebno revizorjevo mnenje za potrebe obveščanja javnosti;<br />
 2. računovodske izkaze zavarovalnice po predpisanih shemah, ki so priloga k temu sklepu in so njegov sestavni del.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Bilanca stanja se prikaže skupaj za celotno poslovanje zavarovalnice.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Postavke bilance stanja se izkazujejo v dveh stolpcih, pri čemer se v prvem stolpcu izkažejo podatki na zadnji dan poslovnega leta, v drugem stolpcu pa podatki na zadnji dan predhodnega poslovnega leta.<br />
 Za postavkami bilance stanja se prikaže največja vrednost skupnih naložb v posamično finančno organizacijo, posebej za premoženjska in posebej za življenjska zavarovanja.<br />
 Postavke v izkazu uspeha se izkazujejo v dveh stolpcih, pri čemer se v prvem stolpcu izkažejo podatki zadnjega poslovnega leta, v drugem pa podatki predhodnega poslovnega leta.</p>
 <h3>UVELJAVITEV SKLEPA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Ljubljana, dne 30. januarja 2001.</p>
 <p>Predsednik<br />
@@ -219,5 +232,36 @@ II)</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-02-09", "kratica": "DRUG273", "naziv": "Sklep o podrobnejši vsebini povzetka revidiranega letnega poročila", "url": "/trubar/si/DRUG273/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

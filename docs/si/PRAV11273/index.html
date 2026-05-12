@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-1405" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11273.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11273" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11273.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11273,vrsta:pravilnik">
+    
     <h1>Pravilnik o razvrstitvi razvojnih regij po stopnji razvitosti za programsko obdobje 2014–2020</h1>
 <p>Na podlagi tretjega odstavka 23. člena Zakona o spodbujanju skladnega regionalnega razvoja (Uradni list RS, št. 20/11 in 57/12) izdaja minister za gospodarski razvoj in tehnologijo</p>
 <h2>P R A V I L N I K</h2>
 <p>o razvrstitvi razvojnih regij po stopnji razvitosti za programsko obdobje 2014–2020</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina pravilnika)</h3>
 <p>Ta pravilnik podrobneje določa kazalnike in metodo za izračun indeksa razvojne ogroženosti za programsko obdobje 2014–2020 ter razvršča razvojne regije (v nadaljnjem besedilu: regije NUTS 3) po stopnji razvitosti. Statistična teritorialna členitev Republike Slovenije po regijah NUTS 3 je določena z Uredbo Evropskega parlamenta in Sveta (ES) št. 1888/2005 z dne 26. oktobra 2005 o spremembah Uredbe (ES) št. 1059/2003 o oblikovanju skupne klasifikacije statističnih teritorialnih enot (NUTS) zaradi pristopa Češke, Estonije, Cipra, Latvije, Litve, Madžarske, Malte, Slovenije in Slovaške k Evropski uniji (UL L, št. 309 z dne 25. 11. 2005, str. 1).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(kazalniki in metoda za izračun)</h3>
 <p>(1) Kazalniki razvitosti, ogroženosti in razvojnih možnosti so:<br />
 – bruto domači proizvod na prebivalca,<br />
@@ -50,7 +63,7 @@
 – razpoložljivi dohodek na prebivalca in<br />
 – poseljenost.<br />
 (2) Indeks razvojne ogroženosti za regije NUTS 3 se izračuna kot aritmetična sredina standardiziranih vrednosti kazalnikov pri čemer se kot metodo standardizacije uporabi metodo relativnega odklona od skrajnih vrednosti. Pri vsakem kazalniku sta to regiji z najvišjo in najnižjo vrednostjo. Standardizirana vrednost posameznega kazalnika se izračuna po formuli: standardizirana vrednost = (dejanska vrednost – najnižja vrednost) / (najvišja vrednost – najnižja vrednost). Izračunana inverzna vrednost (dejanska vrednost se odšteje od 1) se izrazi v indeksu ravni (Slovenija = 100), pri čemer večja vrednost indeksa pomeni večjo razvojno ogroženost regije. Pri izračunu se upošteva triletno povprečje zadnjih razpoložljivih podatkov, razen pri kazalniku »delež prebivalstva s terciarno izobrazbo v starosti 25–64 let«, pri katerem so podatki razpoložljivi le za leti 2011 in 2012, ter pri kazalnikih »delež bruto investicij v osnovna sredstva v bruto domačem proizvodu«, »delež prečiščene odpadne vode z vsaj sekundarnim čiščenjem v izpuščeni odpadni vodi« in »delež površine varovanih območij v regiji«, pri katerih se upoštevajo podatki za zadnje razpoložljivo leto. Vsi kazalniki morajo biti pri tem enako uteženi. Upoštevani so podatki, ki so bili razpoložljivi do 31. marca 2014.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(razvrstitev regij NUTS 3)</h3>
 <p>Regije NUTS 3 v Republiki Sloveniji se v programskem obdobju 2014–2020, upoštevaje indeks razvojne ogroženosti, razvrščajo po stopnji svoje razvitosti, kot sledi:<br />
 1. Osrednjeslovenska (35,5),<br />
@@ -65,7 +78,7 @@
 10. Primorsko-notranjska (124,8),<br />
 11. Zasavska (125,1) in<br />
 12. Pomurska (161,8).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(končna določba)</h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-36/2013/37</p>
@@ -82,5 +95,36 @@ za gospodarski razvoj in tehnologijo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-05-12", "kratica": "PRAV11273", "naziv": "Pravilnik o razvrstitvi razvojnih regij po stopnji razvitosti za programsko obdobje 2014–2020", "url": "/trubar/si/PRAV11273/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

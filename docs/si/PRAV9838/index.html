@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Ministrstvo za javno upravo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-4045" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9838.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9838" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9838.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9838,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o uvrstitvi delovnih mest direktorjev s področja javne uprave v plačne razrede znotraj razponov plačnih razredov</h1>
 <p>Za izvrševanje 11. člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 95/07 – uradno prečiščeno besedilo, 17/08, 58/08, 69/08 – ZTFI-A, 69/08 – ZZAVAR-E, 80/08, 120/08 – odl. US in 48/09) ter na podlagi 3. in 4. člena Uredbe o plačah direktorjev v javnem sektorju (Uradni list RS, št. 73/05, 103/05, 12/06, 36/06, 46/06, 77/06, 128/06, 37/07, 95/07, 112/07, 104/08, 123/08, 21/09 in 61/09) izdaja ministrica za javno upravo</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o uvrstitvi delovnih mest direktorjev s področja javne uprave v plačne razrede znotraj razponov plačnih razredov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o uvrstitvi delovnih mest direktorjev s področja javne uprave v plačne razrede znotraj razponov plačnih razredov (Uradni list RS, št. 106/05, 20/06, 39/06, 79/06, 132/06, 47/07, 60/07, 17/09 in 67/09) se v drugem odstavku 2. člena tabela »Tip osebe javnega prava: vladna služba, Razpon plačnega razreda: 52-57«, nadomesti z naslednjo tabelo:<br />
 Tip osebe javnega prava: vladna služba<br />
 Razpon plačnega razreda: 52-57</p>
@@ -497,7 +510,7 @@ Razpon plačnega razreda: 56-57</p>
 |      |mednarodne zadeve   |        |direktorata   |       |<br />
 |      |                    |        |MIN           |       |<br />
 +------+--------------------+--------+--------------+-------+</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-168/2009/15</p>
 <p>Ljubljana, dne 30. oktobra 2009</p>
@@ -513,5 +526,36 @@ za javno upravo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-11-19", "kratica": "PRAV9838", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o uvrstitvi delovnih mest direktorjev s področja javne uprave v plačne razrede znotraj razponov plačnih razredov", "url": "/trubar/si/PRAV9838/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

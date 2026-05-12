@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2562" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1128.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1128" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1128.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1128,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Uredba o načinu oblikovanja cen oskrbe z zemeljaskim plinom po plinovodni mreži in cen proizvodnje in distribucije pare in tople vode</h1>
 <p>Na podlagi 5. člena zakona o cenah (Uradni list RS, št. 1/91-I) in 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93 in 23/96) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o načinu oblikovanja cen oskrbe z zemeljskim plinom  po plinovodni mreži in cen proizvodnje in distribucije pare in tople vode</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Pravne osebe, ki opravljajo oskrbo s plinastimi gorivi po plinovodni mreži do končnega porabnika (v nadaljnjem besedilu: zavezanci), lahko cene zemeljskega plina povečajo največ za 1,05 SIT/m3.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pravne osebe, ki opravljajo proizvodnjo in distribucijo pare in tople vode (v nadaljnjem besedilu: zavezanci) lahko cene toplotne energije za MWh povečajo za znesek, pridobljen na podlagi izračuna, pri katerem se upošteva letna struktura in normativna letna količina energenta, potrebnega za proizvodnjo in distribucijo MWh toplotne energije. Pri tem izračunu se lahko upoštevajo povišanja cen posameznih vrst energentov na enoto v višini:</p>
 <ol>
 <li>zemeljski plin                1,050 SIT/m3</li>
@@ -44,9 +57,9 @@
 <li>Utekočinjeni naftni plin      7,100 SIT/kg</li>
 </ol>
 <p>oziroma pri električni energiji v odstotku povišanja, to je za 9,8%.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Cene, ki so bile oblikovane skladno s predpisi in so se uporabljale na tržišču na dan 31. julija 1997, se lahko povečajo na način, določen v prvem in drugem členu te uredbe, od  1. avgusta 1997 dalje.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Zavezanci, ki oblikujejo cene v skladu s to uredbo, morajo najkasneje pet dni po uveljavitvi cen, o tem obvestiti Ministrstvo za ekonomske odnose in razvoj.<br />
 Obvestilo za cene storitev oskrbe z zemeljskim plinom mora vsebovati naslednje podatke:<br />
 – raven povprečne cene za m3 zemeljskega plina in cene po posameznih vrstah porabnikov po in pred izvršenim povišanjem,<br />
@@ -55,9 +68,9 @@ Obvestilo za cene MWh toplotne energije mora vsebovati naslednje podatke:<br />
 – raven povprečne cene za MWh in cene po posameznih vrstah porabnikov, po in pred izvršenim povišanjem;<br />
 – normativno letno porabo posameznih vrst energentov potrebnih za proizvodnjo in distribucijo MWh toplotne energije;<br />
 – izračun potrebnega povišanja cene za MWh toplotne energije z upoštevanjem dovoljenih povišanj na enoto energentov, navedenih v 2. členu te uredbe.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z dnem, ko začne veljati ta uredba, preneha veljati uredba o načinu oblikovanja cen oskrbe z zemeljskim plinom po plinovodni mreži in cen proizvodnje in distribucije pare in tople vode (Uradni list RS, št. 22/97).</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta uredba začne veljati 1. avgusta 1997.</p>
 <p>Št. 380-05/97-72</p>
 <p>Ljubljana, dne 31. julija 1997.</p>
@@ -72,5 +85,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-08-01", "kratica": "URED1128", "naziv": "Uredba o načinu oblikovanja cen oskrbe z zemeljaskim plinom po plinovodni mreži in cen proizvodnje in distribucije pare in tople vode", "url": "/trubar/si/URED1128/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

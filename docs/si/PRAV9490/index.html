@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-0413" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9490.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9490" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9490.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9490,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o obrazcih prijav podatkov o pokojninskem in invalidskem ter zdravstvenem zavarovanju, zavarovanju za starševsko varstvo, zavarovanju za primer brezposelnosti in o sklenitvi delovnega razmerja</h1>
 <p>Na podlagi 65. člena Zakona o matični evidenci zavarovancev in uživalcev pravic iz pokojninskega in invalidskega zavarovanja (Uradni list RS, št. 81/00 in 111/07) izdaja minister za delo, družino in socialne zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o obrazcih prijav podatkov o pokojninskem in invalidskem ter zdravstvenem zavarovanju, zavarovanju za starševsko varstvo, zavarovanju za primer brezposelnosti in o sklenitvi delovnega razmerja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o obrazcih prijav podatkov o pokojninskem in invalidskem ter zdravstvenem zavarovanju, zavarovanju za starševsko varstvo, zavarovanju za primer brezposelnosti in o sklenitvi delovnega razmerja (Uradni list RS, št. 45/05, 121/05 – popr. in 75/08), se v navodilih za izpolnjevanje obrazcev M-1 in M-1/M-2 v rubriki 20 tabela šifer, ki pomeni podlago za pokojninsko in invalidsko ter zdravstveno zavarovanje, zavarovanje za starševsko varstvo in zavarovanje za primer brezposelnosti, nadomesti s tabelo:</p>
 <p>+--------------------------------------+----------------+<br />
 |        Podlaga za zavarovanje        |Vrste zavarovanj|<br />
@@ -411,7 +424,7 @@
 +-----+--------------------------------+----+--+---+----+</p>
 <p>Pomen oznak:<br />
 x – zavarovalno razmerje</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V navodilih za obrazca iz prejšnjega člena se v rubriki 24 tabela delovnih/zavarovalnih časov za podlage za zavarovanje nadomesti s tabelo:</p>
 <p>+--------------------+--------------------+--------------------+<br />
 |      Podlaga       |       Polni        | Dovoljeni (možni)  |<br />
@@ -444,9 +457,9 @@ x – zavarovalno razmerje</p>
 +--------------------+--------------------+--------------------+<br />
 |012                 |   30 ali 36–40     |       01–40        |<br />
 +--------------------+--------------------+--------------------+</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V navodilih za obrazca iz 1. člena tega pravilnika se v rubriki 26 v drugem odstavku besedilo spremeni tako, da se glasi: »Za državljane držav članic EU, EGP in Švicarske konfederacije, ki od 1. 5. 2004 dalje ne potrebujejo delovnega dovoljenja, se vpiše oznaka »EU«.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V navodilih za izpolnjevanje obrazca M-DČ se v rubriki 12 tabela šifer o statusu družinskega člana – podlagi za zdravstveno zavarovanje, nadomesti s tabelo:</p>
 <p>+------------------------------------------------------------+<br />
 |                   Podlaga za zavarovanje                   |<br />
@@ -466,7 +479,7 @@ x – zavarovalno razmerje</p>
 |        |zavarovanja, ki prebiva v tujini – zakonodaja EU,  |<br />
 |        |meddržavna pogodba                                 |<br />
 +--------+---------------------------------------------------+</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 10600-9/2007</p>
 <p>Ljubljana, dne 21. januarja 2009</p>
@@ -482,5 +495,36 @@ za delo, družino in socialne zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-02-13", "kratica": "PRAV9490", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o obrazcih prijav podatkov o pokojninskem in invalidskem ter zdravstvenem zavarovanju, zavarovanju za starševsko varstvo, zavarovanju za primer brezposelnosti in o sklenitvi delovnega razmerja", "url": "/trubar/si/PRAV9490/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

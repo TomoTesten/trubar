@@ -21,22 +21,35 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-0457" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3168.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3168" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3168.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3168,vrsta:drugi akt">
+    
     <h1>Dopolnitev splošnih pogojev za dobavo in odjem zemeljskega plina iz distribucijskega omrežja za geografsko območje Mestne občine Celje</h1>
 <p>Na podlagi tretjega odstavka 70. člena Energetskega zakona (Uradni list RS, št. 27/07 uradno prečiščeno besedilo in 70/08) in 5. člena Akta o določitvi metodologije za določitev splošnih pogojev za dobavo in odjem zemeljskega plina iz distribucijskega omrežja (Uradni list RS, št. 87/05 in 102/05 – popr.) družba Energetika Celje javno podjetje d.o.o., kot izvajalec gospodarske javne službe dejavnost sistemskega operaterja distribucijskega omrežja zemeljskega plina, po pridobitvi soglasja Odbora Energetike Celje št. 26 z dne 22. 10. 2008 in soglasja sveta Javne agencije Republike Slovenije za energijo št. 25-3/2008-4/ZP-33 z dne 17. 12. 2008, izdaja</p>
 <h2>D O P O L N I T E V   S P L O Š N I H   P O G O J E V</h2>
 <p>za dobavo in odjem zemeljskega plina iz distribucijskega omrežja za geografsko območje Mestne občine Celje</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Splošnih pogojih za dobavo in odjem zemeljskega plina iz distribucijskega omrežja za geografsko območje Mestne občine Celje (Uradni list RS, št. 42/08) se za 27. členom doda novi 27.a člen, ki se glasi:</p>
 <h3>»27.a člen</h3>
 <p>(1) Pogodbo o dostopu, sklenjeno za nedoločen čas, lahko končni odjemalec, ki ima letni odjem manjši ali enak 100.000 Sm3, pisno odpove s 30-dnevnim odpovednim rokom. Odpovedni rok začne teči z dnem, ko sistemski operater prejme pisno obvestilo o odstopu od pogodbe.<br />
 (2) Sistemski operater ob izteku odpovednega roka pri končnem odjemalcu na odjemnem mestu prekine dostop do omrežja in na stroške končnega odjemalca opravi odčitek merilne naprave.<br />
 (3) Če se končni odjemalec znova odloči za dostop na istem odjemnem mestu, mora pri istem sistemskem operaterju ponovno podati zahtevo za dostop, v skladu z določbami tega akta.<br />
 (4) Če se končni odjemalec znova odloči za dostop na isto odjemno mesto v roku, ki je krajši od 12 mesecev, šteto od dneva prekinitve dostopa, mu sistemski operater zaračuna vse fiksne stroške omrežnine, ki bi jih končni odjemalec plačeval, če bi imel dostop omogočen ves čas od prekinitve dostopa dalje.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ti splošni pogoji za dobavo in odjem začnejo veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. SP-ZP 01 2008/I.</p>
 <p>Celje, dne 17. decembra 2008</p>
@@ -52,5 +65,36 @@ mag. Aleksander Mirt l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-02-20", "kratica": "DRUG3168", "naziv": "Dopolnitev splošnih pogojev za dobavo in odjem zemeljskega plina iz distribucijskega omrežja za geografsko območje Mestne občine Celje", "url": "/trubar/si/DRUG3168/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

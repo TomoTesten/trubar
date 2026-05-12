@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-1258" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6789.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6789" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6789.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6789,vrsta:uredba">
+    
     <h1>Uredba o spremembi Uredbe o soglasjih za proizvodnjo in dovoljenjih za promet z vojaškim orožjem in opremo ter predhodnih dovoljenjih za uvoz, izvoz, tranzit in prenos obrambnih proizvodov</h1>
 <p>Na podlagi 77. in 78. člena Zakona o obrambi (Uradni list RS, št. 103/04 – uradno prečiščeno besedilo in 96/12 – <a href="/trubar/si/ZPIZ-2/" class="law-ref" title="ZPIZ-2">ZPIZ-2</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembi Uredbe o soglasjih za proizvodnjo in dovoljenjih za promet z vojaškim orožjem in opremo ter predhodnih dovoljenjih za uvoz, izvoz, tranzit in prenos obrambnih proizvodov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o soglasjih za proizvodnjo in dovoljenjih za promet z vojaškim orožjem in opremo ter predhodnih dovoljenjih za uvoz, izvoz, tranzit in prenos obrambnih proizvodov (Uradni list RS, št. 59/11, 88/11, 74/12 in 46/13) se drugi odstavek 1. člena spremeni tako, da se glasi:<br />
 »(2) S to uredbo se prenaša v pravni red Republike Slovenije Direktiva 2009/43/ES Evropskega parlamenta in Sveta z dne 6. maja 2009 o poenostavitvi pogojev za prenose obrambnih proizvodov znotraj Skupnosti (UL L št. 146 z dne 10. 6. 2009, str. 1), zadnjič spremenjena z Direktivo Komisije 2014/18/EU z dne 29. januarja 2014 o spremembi Direktive 2009/43/ES Evropskega parlamenta in Sveta v zvezi s seznamom obrambnih proizvodov (UL L št. 40 z dne 11. 2. 2014, str. 20), (v nadaljnjem besedilu: direktiva).«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne 17. maja 2014.</p>
 <p>Št. 00718-4/2014</p>
 <p>Ljubljana, dne 24. aprila 2014</p>
@@ -48,5 +61,36 @@ Predsednica</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-04-25", "kratica": "URED6789", "naziv": "Uredba o spremembi Uredbe o soglasjih za proizvodnjo in dovoljenjih za promet z vojaškim orožjem in opremo ter predhodnih dovoljenjih za uvoz, izvoz, tranzit in prenos obrambnih proizvodov", "url": "/trubar/si/URED6789/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

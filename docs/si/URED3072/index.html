@@ -21,19 +21,32 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-02-0078" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3072.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3072" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3072.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED3072,vrsta:uredba">
+    
     <h1>Uredba o ratifikaciji Dogovora med Republiko Slovenijo in Evropskim policijskim uradom o dopolnitvi Priloge 1 Sporazuma med Republiko Slovenijo in Evropskim policijskim uradom</h1>
 <p>Na podlagi prve in tretje alinee petega odstavka 75. člena Zakona o zunanjih zadevah (Uradni list RS, št. 45/01 in 78/03) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>O RATIFIKACIJI DOGOVORA MED REPUBLIKO SLOVENIJO IN EVROPSKIM POLICIJSKIM URADOM<br />
 O DOPOLNITVI PRILOGE 1 SPORAZUMA MED REPUBLIKO SLOVENIJO<br />
 IN EVROPSKIM POLICIJSKIM URADOM</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Dogovor med Republiko Slovenijo in Evropskim policijskim uradom o dopolnitvi Priloge 1 Sporazuma med Republiko Slovenijo in Evropskim policijskim uradom, sklenjen z izmenjavo pisem z dne 2. januarja 2002 in 28. marca 2002.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Dogovor se v izvirniku v angleškem in v prevodu v slovenskem jeziku glasi:</p>
 <p>EUROPOL                                  2 January 2002<br />
 <br />
@@ -137,9 +150,9 @@ Prosimo sprejmite izraze mojega globokega spoštovanja</p>
 g. Jürgen Storbeck<br />
 direktor Europola<br />
 Haag</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje dogovora skrbi Ministrstvo za notranje zadeve.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije-Mednarodne pogodbe.</p>
 <p>Št. 245-17/2002-5</p>
 <p>Ljubljana, dne 30. oktobra 2003</p>
@@ -155,5 +168,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-11-13", "kratica": "URED3072", "naziv": "Uredba o ratifikaciji Dogovora med Republiko Slovenijo in Evropskim policijskim uradom o dopolnitvi Priloge 1 Sporazuma med Republiko Slovenijo in Evropskim policijskim uradom", "url": "/trubar/si/URED3072/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

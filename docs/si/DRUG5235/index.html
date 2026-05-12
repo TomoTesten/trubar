@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Obvestilo o veljavnosti četrtega, petega in šestega dodatka k enajsti izdaji Evropske farmakopeje — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Obvestilo o veljavnosti četrtega, petega in šestega dodatka k enajsti izdaji Evropske farmakopeje</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>DRUG5235</strong></dd>
+      <dt>Vrsta</dt><dd>drugi akt</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2023-09-22</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-2769" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG5235" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5235.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:DRUG5235,vrsta:drugi akt">
+    
+    <h1>Obvestilo o veljavnosti četrtega, petega in šestega dodatka k enajsti izdaji Evropske farmakopeje</h1>
+<p>Na podlagi drugega odstavka 28. člena Zakona o zdravilih (Uradni list RS, št. 17/14 in 66/19) Javna agencija Republike Slovenije za zdravila in medicinske pripomočke objavlja</p>
+<p>O B V E S T I L O</p>
+<p>o veljavnosti četrtega, petega in šestega dodatka k enajsti izdaji Evropske farmakopeje</p>
+<p>I</p>
+<p>V skladu z »Resolucijo AP-CPH (23) 1«, ki jo je sprejel Svet Evrope, Evropski odbor za farmacevtske izdelke in farmacevtsko skrb (Delni sporazum) (CD-P-PH), 21. marca 2023, začne 1. aprila 2024 v Republiki Sloveniji veljati četrti dodatek (Supplement 11.4) k enajsti izdaji Evropske farmakopeje (European Pharmacopoeia Eleventh Edition), ki ga je založila Evropska direkcija za kakovost zdravil (European Directorate for the Quality of Medicines) pri Svetu Evrope v Strasbourgu.</p>
+<p>II</p>
+<p>V skladu z »Resolucijo AP-CPH (23) 2«, ki jo je sprejel Svet Evrope, Evropski odbor za farmacevtske izdelke in farmacevtsko skrb (Delni sporazum) (CD-P-PH), 21. marca 2023, začne 1. julija 2024 v Republiki Sloveniji veljati peti dodatek (Supplement 11.5) k enajsti izdaji Evropske farmakopeje (European Pharmacopoeia Eleventh Edition), ki ga je založila Evropska direkcija za kakovost zdravil (European Directorate for the Quality of Medicines) pri Svetu Evrope v Strasbourgu.</p>
+<p>III</p>
+<p>V skladu z »Resolucijo AP-CPH (23) 3«, ki jo je sprejel Svet Evrope, Evropski odbor za farmacevtske izdelke in farmacevtsko skrb (Delni sporazum) (CD-P-PH), 21. marca 2023, začne 1. januarja 2025 v Republiki Sloveniji veljati šesti dodatek (Supplement 11.6) k enajsti izdaji Evropske farmakopeje (European Pharmacopoeia Eleventh Edition), ki jo je založila Evropska direkcija za kakovost zdravil (European Directorate for the Quality of Medicines) pri Svetu Evrope v Strasbourgu.</p>
+<p>IV</p>
+<p>To obvestilo se objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 0070-228/2023</p>
+<p>Ljubljana, dne 23. avgusta 2023</p>
+<p>EVA 2023-2711-0123</p>
+<p>Javna agencija Republike Slovenije</p>
+<p>za zdravila in medicinske pripomočke</p>
+<p>Momir Radulović</p>
+<p>direktor</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-09-22", "kratica": "DRUG5235", "naziv": "Obvestilo o veljavnosti četrtega, petega in šestega dodatka k enajsti izdaji Evropske farmakopeje", "url": "/trubar/si/DRUG5235/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

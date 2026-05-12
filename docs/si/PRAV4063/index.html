@@ -21,22 +21,35 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-5333" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4063.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV4063" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4063.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV4063,vrsta:pravilnik">
+    
     <h1>Pravilnik o dopolnitvi pravilnika o vsebini lovskogojitvenih načrtov območij</h1>
 <p>Na podlagi 16. člena zakona o gozdovih (Uradni list RS, št. 30/93, 13/98 – odl. US in 56/99) izdaja minister za kmetijstvo, gozdarstvo in prehrano v soglasju z ministrom za okolje in prostor</p>
 <h2>P R A V I L N I K</h2>
 <p>o dopolnitvi pravilnika o vsebini lovskogojitvenih načrtov območij</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o vsebini lovskogojitvenih načrtov območij (Uradni list RS, št. 27/99 in 39/00) se v 22. členu spremeni drugi odstavek tako, da se glasi:</p>
 <p>“Zavod pošlje z odločbo ministra pristojnega za divjad in lovstvo potrjeni letni lovskogojitveni načrt pristojnemu organu lovskogojitvenega območja, ki zagotovi, da se letni načrti gospodarjenja z divjadjo v loviščih uskladijo z letnim lovskogojitvenim načrtom. Eden od članov organa lovskogojitvenega območja je tudi predstavnik zavoda. Organ lovskogojitvenega območja z zapisnikom potrdi razdelilnik odvzema in del v življenjskem okolju in ga vroči zavodu ter pristojni lovski inšpekciji. Tako usklajene letne načrte gospodarjenja z divjadjo sprejmejo pristojni organi lovskih organizacij najpozneje v 30 dneh od sprejema lovskogojitvenega načrta.”</p>
 <p>Četrti odstavek se spremeni tako, da se glasi:</p>
 <p>“Dovoljen je odstrel divjadi, ki se po določbah predpisa, ki ureja varstvo, gojitev in lov divjadi, lahko lovi vse leto. Pri vrstah divjadi, za katere je določen delni lovopust pa je dovoljen odstrel divjadi v višini 30% od odstrela, predvidenega v načrtu iz preteklega leta. Do sprejema letnih lovskogojitvenih načrtov se izvajajo ukrepi v življenjskem okolju divjadi, kot so bili opredeljeni v letnem lovskogojitvenem načrtu za isto obdobje preteklega leta.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 23. členu se besede “do 25. aprila” nadomestijo z besedami “do 10. aprila”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 322-08-20/01</p>
 <p>Ljubljana, dne 21. decembra 2001.</p>
@@ -52,5 +65,36 @@ Mag. Franc But l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-12-28", "kratica": "PRAV4063", "naziv": "Pravilnik o dopolnitvi pravilnika o vsebini lovskogojitvenih načrtov območij", "url": "/trubar/si/PRAV4063/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

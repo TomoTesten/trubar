@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2842" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED428.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED428" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED428.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED428,vrsta:uredba">
+    
     <h1>Uredba o spremembi stopenj davka od prometa določenih naftnih derivatov</h1>
 <p>Na podlagi 77. člena zakona o prometnem davku (Uradni list RS, št. 4/92, 12/93 – odločba US, 71/93, 35/94 – odločba US, 16/96, 57/97, 3/98, 7/98 – odločba US in 35/98) in 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 23/96 in 47/97) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembi stopenj davka od prometa določenih naftnih derivatov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Od naftnih derivatov iz tarifne številke 5 tarife davka od prometa proizvodov se plačuje prometni davek po naslednjih stopnjah:</p>
 <ol>
 <li>od motornega bencina:                                       %<br />
@@ -66,9 +79,9 @@
 <li>lahkega (L), srednjega (S), težkega (T), <br />
  ekstra težkega (ET)                                     45,0000</li>
 </ol>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Z dnem uveljavitve te uredbe preneha veljati uredba o spremembi stopenj davka od prometa določenih naftnih derivatov (Uradni list RS, št. 51/98).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 421-00/98-7</p>
 <p>Ljubljana, dne 3. septembra 1998.</p>
@@ -83,5 +96,36 @@ Podpredsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-09-04", "kratica": "URED428", "naziv": "Uredba o spremembi stopenj davka od prometa določenih naftnih derivatov", "url": "/trubar/si/URED428/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

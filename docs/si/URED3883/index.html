@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3223" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3883.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3883" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3883.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED3883,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o programih kmetijske strukturne politike in kmetijske politike razvoja podeželja za leti 2005 in 2006</h1>
 <p>Na podlagi 5. in 7. člena v zvezi s 126. členom Zakona o kmetijstvu (Uradni list RS, št. 54/00, 52/02 – <a href="/trubar/si/ZDU-1/" class="law-ref" title="ZDU-1">ZDU-1</a>, 58/02 – <a href="/trubar/si/ZMR-1/" class="law-ref" title="ZMR-1">ZMR-1</a> in 45/04 – <a href="/trubar/si/ZdZPKG/" class="law-ref" title="ZdZPKG">ZdZPKG</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
@@ -32,10 +45,10 @@
 o programih kmetijske strukturne politike<br />
 in kmetijske politike razvoja podeželja<br />
 za leti 2005 in 2006</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o programih kmetijske strukturne politike in kmetijske politike razvoja podeželja za leti 2005 in 2006 (Uradni list RS, št. 45/04 in 10/05) se v 1. členu prva alinea spremeni tako, da se glasi:<br />
 »– programe kmetijske strukturne politike in kmetijske politike razvoja podeželja, nacionalni del, za leto 2005 ter za leto 2006 ukrepa komasacije in sanacija nedokončanih komasacij ter pomoč mladim kmetom za prevzem kmetij;«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Četrti odstavek 9. člena se spremeni tako, da se glasi:<br />
 »(4) Upravičenci do podpor so kmetije, ki se uvrščajo med majhna in srednje velika podjetja, kot je opredeljeno v prilogi I. k Uredbi Komisije (ES) št. 70/2001 z dne 12. januarja 2001 o uporabi členov 87 in 88 Pogodbe Evropske skupnosti pri pomoči za majhna in srednje velika podjetja (UL L št. 10, z dne 13. 1. 2001, str. 33; z vsemi spremembami), razen pašnih in agrarnih skupnosti, ki opravljajo kmetijsko dejavnost v skladu z načeli dobre kmetijske prakse na ozemlju Republike Slovenije ter izpolnjujejo predpisane pogoje. Tem upravičencem bo podpora dodeljena v skladu z določili Uredbe Komisije (ES) št. 1/ 2004 z dne 23. decembra 2003 o uporabi členov 87 in 88 Pogodbe o ustanovitvi ES za državno pomoč malim in srednje velikim podjetjem, ki se ukvarjajo s proizvodnjo, predelavo in trženjem kmetijskih proizvodov (UL L št. 1, z dne 3. 1. 2004, str. 1; z vsemi spremembami).«.<br />
 (2) Šesta alinea 3. točke petega odstavka se spremeni tako, da se glasi:<br />
@@ -44,7 +57,7 @@ za leti 2005 in 2006</p>
 »– kot datum prvega lastniškega prevzema se šteje datum zaprtja javnega razpisa, kolikor predlog za vpis lastnine, ki je bila predmet prevzema, v zemljiško knjigo ni bil vložen več kot 24 mesecev pred zaprtjem javnega razpisa,«.<br />
 (4) 2. točka sedmega odstavka se spremeni tako, da se glasi:<br />
 »2. vsa merila se točkujejo. Kolikor na razpis prispe več vlog, kakor je razpoložljivih sredstev po tem razpisu, se za izplačilo sredstev prevzame obveznost v breme proračuna prihodnjega leta, v skladu s predpisi, ki urejajo izvrševanje proračuna.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00715-38/2005/9</p>
 <p>Ljubljana, dne 21. julija 2005.</p>
@@ -60,5 +73,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-07-29", "kratica": "URED3883", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o programih kmetijske strukturne politike in kmetijske politike razvoja podeželja za leti 2005 in 2006", "url": "/trubar/si/URED3883/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

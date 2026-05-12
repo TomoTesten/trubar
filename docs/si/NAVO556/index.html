@@ -21,26 +21,39 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0366" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO556.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO556" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO556.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO556,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Navodilo za razvrščanje društev v registru društev</h1>
 <p>Minister za notranje zadeve izdaja na podlagi 26. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95, 29/95, 80/99)</p>
 <h2>N A V O D I L O</h2>
 <p>za razvrščanje društev v registru društev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Društva in zveze društev (v nadaljnjem besedilu: društva), se za analitične in statistične potrebe razvrščajo v skupine in podskupine glede na vrsto društev (šifrant vrst društev).<br />
 Društva se razvrščajo na podlagi namena ustanovitve ter ciljev in nalog, določenih v temeljnem aktu.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Društvo v skupino in podskupino razvrsti upravna enota, na območju katere je sedež društva (v nadaljnjem besedilu: registrski organ), ob vpisu društva v register društev na podlagi enotne metodologije, določene s tem navodilom.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Pri razvrstitvi društva registrski organ upošteva v temeljnem aktu opredeljen namen in cilje društva, če ima društvo v temeljnem aktu opredeljenih več namenov oziroma različne cilje, pa po glavnem namenu oziroma ciljih.<br />
 Če na podlagi namena in ciljev društva ni mogoče razvrstiti, se pri razvrstitvi upoštevajo tudi naloge društva, določene v temeljnem aktu.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Razvrstitev društva se z določeno šifro vpiše v register društev.<br />
 O razvrstitvi društva v registru društev registrski organ obvesti upravljavca poslovnega registra Republike Slovenije.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Društva se razvrščajo v naslednje skupine in podskupine:</p>
 <h2>Šifra  Skupina in podskupina</h2>
 <p>0100   ŠPORTNA IN REKREATIVNA DRUŠTVA<br />
@@ -156,12 +169,12 @@ V to skupino se razvrščajo tudi društva, ki razvijajo kulturno, športno ali 
 9999   druga društva</p>
 <p>V to skupino in ustrezno podskupino se razvrščajo vsa društva, katerih namen oziroma cilji delovanja so hobiji in druga organizirana izraba prostega časa ter društva, ki jih ni mogoče razvrstiti v nobeno drugo skupino in podskupino, določeno s tem navodilom.<br />
 V to skupino se ob izpolnjevanju splošnih kriterijev razvrščajo tudi ljubiteljska in navijaška društva ter druga podobna društva.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Z razvrstitvijo na podlagi tega navodila društvo ne pridobi in ne more pridobiti nobenih pravic, prav tako pa zanj ne morejo nastati nobene obveznosti oziroma druge pravne posledice.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Razvrstitev se za društva, ki so bila vpisana v register društev pred uveljavitvijo tega navodila, opravi na podlagi dosedanje razvrstitve; če to ni mogoče, pa na podlagi določbe drugega odstavka 1. člena tega navodila.<br />
 Razvrstitev iz prejšnjega odstavka se izvede najkasneje v roku 2 let po uveljavitvi tega navodila.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>To navodilo začne veljati tri mesece po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0302-18/03-026/01-2000</p>
 <p>dr. Rado Bohinc l. r.<br />
@@ -175,5 +188,36 @@ za notranje zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-01-30", "kratica": "NAVO556", "naziv": "Navodilo za razvrščanje društev v registru društev", "url": "/trubar/si/NAVO556/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,20 +21,33 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2421" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5228.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5228" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5228.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5228,vrsta:uredba">
+    
     <h1>Uredba o dopolnitvah Uredbe o določitvi carinskih uradov v Republiki Sloveniji, njihovem sedežu in krajevni pristojnosti</h1>
 <p>Na podlagi drugega odstavka 5. člena Zakona o carinski službi (Uradni list RS, št. 103/04 – uradno prečiščeno besedilo, 113/05 – <a href="/trubar/si/ZJU-B/" class="law-ref" title="ZJU-B">ZJU-B</a> in 40/09) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o dopolnitvah Uredbe o določitvi carinskih uradov v Republiki Sloveniji, njihovem sedežu in krajevni pristojnosti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o določitvi carinskih uradov v Republiki Sloveniji, njihovem sedežu in krajevni pristojnosti (Uradni list RS, št. 45/04, 96/05, 120/05, 66/06 in 31/08) se v 3. členu na koncu četrte alinee pika nadomesti s podpičjem ter dodajo nove peta, šesta in sedma alinea, ki se glasijo:<br />
 »– Carinski urad Sežana za izvajanje postopkov davčne izvršbe denarnih terjatev države in samoupravnih lokalnih skupnosti za terjatve iz naslova denarnih kazni po zakonu, ki ureja pravdni postopek, denarnih kazni in stroškov postopka ter odvzema premoženjske koristi po zakonu, ki ureja kazenski postopek, ter sodnih taks po zakonu, ki ureja sodne takse;<br />
 – Carinski urad Celje za izvajanje postopkov davčne izvršbe denarnih terjatev države in samoupravnih lokalnih skupnosti za terjatve iz naslova zakona, ki ureja splošni upravni postopek, in zakona, ki ureja upravne takse;<br />
 – Carinski urad Dravograd za izvajanje postopkov vračila dela plačane trošarine za plinsko olje, ki se dokazljivo porabi kot pogonsko gorivo za komercialni namen, upravičencem s sedežem v drugih državah članicah Evropske skupnosti ali s sedežem v državah članicah EFTE.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.<br />
 (2) Določbi pete in sedme alinee 3. člena uredbe se začneta uporabljati 1. julija 2009, določba šeste alinee 3. člena uredbe pa 1. januarja 2010.</p>
 <p>Št. 00712-33/2009/4</p>
@@ -51,5 +64,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-06-26", "kratica": "URED5228", "naziv": "Uredba o dopolnitvah Uredbe o določitvi carinskih uradov v Republiki Sloveniji, njihovem sedežu in krajevni pristojnosti", "url": "/trubar/si/URED5228/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

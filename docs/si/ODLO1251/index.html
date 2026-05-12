@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Državni zbor RS</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0518" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1251.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO1251" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1251.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO1251,vrsta:odlok">
+    
     <h1>Odlok o razpisu posvetovalnega referenduma o pristopu Republike Slovenije k Organizaciji Severnoatlantske pogodbe (NATO) (OdNATO)</h1>
 <p>Na podlagi 26. člena zakona o referendumu in o ljudski iniciativi (Uradni list RS, št. 15/94, 13/95 – odločba US, 34/96 – odločba US, 38/96, 43/96 – odločba US in 59/2001) ter prvega odstavka 108. člena in prvega odstavka 184. člena poslovnika državnega zbora (Uradni list RS, št. 35/2002) je Državni zbor Republike Slovenije na seji dne 30. 1. 2003 sprejel</p>
 <h2>O D L O K</h2>
@@ -54,5 +67,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-02-07", "kratica": "ODLO1251", "naziv": "Odlok o razpisu posvetovalnega referenduma o pristopu Republike Slovenije k Organizaciji Severnoatlantske pogodbe (NATO) (OdNATO)", "url": "/trubar/si/ODLO1251/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

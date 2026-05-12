@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Ministrstvo za gospodarstvo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1876" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5787.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5787" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5787.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5787,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi odredbe o metodah kvantitativne analize dvokomponentnih mešanic tekstilnih vlaken</h1>
 <p>Na podlagi 2. člena Zakona o tehničnih zahtevah za proizvode in o ugotavljanju skladnosti (Uradni list RS, št. 59/99, 31/00 – popr. in 54/00 – <a href="/trubar/si/ZKme/" class="law-ref" title="ZKme">ZKme</a>) izdaja ministrica za gospodarstvo</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembi odredbe o metodah kvantitativne analize dvokomponentnih mešanic tekstilnih vlaken</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Odredbi o metodah kvantitativne analize dvokomponentnih mešanic tekstilnih vlaken (Uradni list RS, št. 7/00) se v Prilogi II, poglavje II. Metode kvantitativne analize z ročnim ločevanjem, v Metodi št. 3, pod točko 6. Natančnost, številka »1« nadomesti s številko »2«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 1999-2111-0022</p>
 <p>Ljubljana, dne 15. aprila 2004.</p>
@@ -47,5 +60,36 @@ za gospodarstvo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-04-23", "kratica": "PRAV5787", "naziv": "Pravilnik o spremembi odredbe o metodah kvantitativne analize dvokomponentnih mešanic tekstilnih vlaken", "url": "/trubar/si/PRAV5787/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

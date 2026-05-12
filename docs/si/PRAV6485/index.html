@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Ministrstvo za promet</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3753" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6485.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV6485" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6485.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV6485,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah Signalnega pravilnika</h1>
 <p>Na podlagi tretjega odstavka 50. člena Zakona o varnosti v železniškem prometu (Uradni list RS, št. 102/04 – uradno prečiščeno besedilo) izdaja minister za promet</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Signalnega pravilnika</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Signalnem pravilniku (Uradni list RS, št. 32/02, 112/02, 123/03 in 140/04) se triindvajseta točka 3. člena spremeni tako, da se glasi:<br />
 »23. »Signalni znak« je v tem pravilniku predpisani znak, ki se daje s stalnim, prenosnim, ročnim signalom, ustno ali preko telekomunikacijskih naprav in ima pomen odredbe ali predsignaliziranja oziroma odredbe in predsignaliziranja.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 59. členu se doda nov sedmi odstavek, ki se glasi:<br />
 »(7) Signalni znaki za preizkus zavor se lahko dajejo tudi neposredno ustno ali preko telekomunikacijskih naprav z izgovorjavo naziva signalnega znaka brez uporabe njegove številke.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 61. členu se dodajo novi deveti, deseti in enajsti odstavek, ki se glasijo:<br />
 (9.) Signalne znake premikalnega osebja lahko premikalno osebje daje tudi ustno preko UKV radijske zveze z izgovorjavo naziva signalnega znaka brez uporabe njegove številke.<br />
 (10.) Dajanje signalnih znakov premikalnega osebja preko UKV radijske zveze je premikalnemu osebju dovoljeno pod naslednjimi pogoji:<br />
@@ -48,12 +61,12 @@
 – po vsakem oddanem signalnem znaku mora uporabnik vzpostaviti UKV radijsko napravo v stanje sprejema;<br />
 – način uporabe UKV radijskih naprav za oddajanje in sprejemanje signalnih znakov premikalnega osebja mora biti predpisano v posebnem navodilu, ki je sestavni del postajnega poslovnega reda.<br />
 (11.) Če se med premikom ponavljanje signalnih znakov premikalnega osebja preko UKV radijske zveze ne sliši ali se zasliši še kakršnokoli drugo sprejemanje, je treba premik takoj ustaviti. Nadaljevanje premika z uporabo UKV radijske zveze je dovoljeno, ko je sporazumevanje mogoče.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 92. členu se na koncu stavka črta pika in doda besedilo: »razen 23. točke 3. člena, sedmega odstavka 59. člena ter devetega, desetega in enajstega odstavka 61. člena, ki se uporabljajo od 1. oktobra 2005.«</p>
 <h3>KONČNI DOLOČBI</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z dnem uveljavitve tega pravilnika se preneha uporabljati tretji stavek 134. točke Navodila za premik (Navodilo 42; Službeni glasnik SJŽ 3/80, 6/83, 3/87 in 4/88).</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne 1. oktobra 2005.</p>
 <p>Št. 2600-10/2005-7-0006102</p>
 <p>Ljubljana, dne 26. septembra 2005.</p>
@@ -69,5 +82,36 @@ za promet</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-09-30", "kratica": "PRAV6485", "naziv": "Pravilnik o spremembah in dopolnitvah Signalnega pravilnika", "url": "/trubar/si/PRAV6485/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

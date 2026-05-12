@@ -21,20 +21,33 @@
       <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-2136" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11785.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11785" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11785.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11785,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi Pravilnika o vsebini, obliki, načinu in rokih za predložitev izpisa podatkov iz elektronsko vodenih poslovnih knjig in evidenc zavezanca za davek</h1>
 <p>Na podlagi desetega odstavka 38. člena Zakona o davčnem postopku (Uradni list RS, št. 13/11 – uradno prečiščeno besedilo, 32/12 in 94/12) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembi Pravilnika o vsebini, obliki, načinu in rokih za predložitev izpisa podatkov iz elektronsko vodenih poslovnih knjig in evidenc zavezanca za davek</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o vsebini, obliki, načinu in rokih za predložitev izpisa podatkov iz elektronsko vodenih poslovnih knjig in evidenc zavezanca za davek (Uradni list RS, št. 59/07, 126/07 in 107/09) se v celotni prilogi »Vsebina, oblika in način izpisa podatkov iz elektronsko vodenih poslovnih knjig in evidenc zavezanca za davek« stopnja »8,5 %« nadomesti s stopnjo »9,5 %« in stopnja »20 %« s stopnjo »22 %«.</p>
 <h3>PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ne glede na 1. člen tega pravilnika zavezanec za davek obračunani davek na dodano vrednost (v nadaljnjem besedilu: DDV) po stopnjah, ki sta veljali pred spremembo stopenj DDV na podlagi prvega in drugega odstavka 60.a člena Zakona o izvrševanju proračunov Republike Slovenije za leti 2013 in 2014 (Uradni list RS, št. 104/12 in 46/13), vpisuje v ustrezna polja (stolpce) posameznega izpisa, kot so bila določena pred uveljavitvijo tega pravilnika.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati 1. julija 2013.</p>
 <p>Št. 007-478/2013</p>
 <p>Ljubljana, dne 28. junija 2013</p>
@@ -50,5 +63,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-06-28", "kratica": "PRAV11785", "naziv": "Pravilnik o spremembi Pravilnika o vsebini, obliki, načinu in rokih za predložitev izpisa podatkov iz elektronsko vodenih poslovnih knjig in evidenc zavezanca za davek", "url": "/trubar/si/PRAV11785/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

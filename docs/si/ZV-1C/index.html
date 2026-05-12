@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3602" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZV-1C.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZV-1C" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZV-1C.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZV-1C,vrsta:Sprejet zakon">
+    
     <h1>Zakon o dopolnitvah Zakona o vodah</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,15 +50,15 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O DOPOLNITVAH ZAKONA O VODAH (ZV-1C)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o vodah (Uradni list RS, št. 67/02, 110/02 – <a href="/trubar/si/ZGO-1/" class="law-ref" title="ZGO-1">ZGO-1</a>, 2/04 – ZZdrl-A, 41/04 – <a href="/trubar/si/ZVO-1/" class="law-ref" title="ZVO-1">ZVO-1</a>, 57/08 in 57/12) se v tretjem odstavku 162. člena za 2. točko dodata nova 3. in 4. točka, ki se glasita:<br />
 »3. izvajanje javnih gospodarskih služb iz prejšnjega člena,<br />
 4. gradnje in posodobitve vodnih zadrževalnikov namenjenih za namakanje kmetijskih zemljišč, ki so državna vodna infrastruktura,«.<br />
 Dosedanje 3., 4., 5. in 6. točka postanejo 5., 6., 7. in 8. točka.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 181. člena se pika na koncu 32. točke nadomesti s podpičjem in doda nova 33. točka, ki se glasi:<br />
 »33. v roku iz tretjega odstavka 199.g člena tega zakona ne posreduje ali posreduje napačne podatke iz prvega in drugega odstavka 199.g člena (199.g člen).«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za 199. členom se dodajo novi 199.a do 199.j člen, ki se glasijo:</p>
 <h3>»199.a člen</h3>
 <h3>(podelitev vodne pravice v prehodnem obdobju)</h3>
@@ -146,7 +159,7 @@ c) če je T(vir) &gt; 50 °C:                    delta T = T(vir) – 35 °C.</p
 <h3>199.j člen</h3>
 <h3>(plačilo za vodno pravico od 1. januarja 2014)</h3>
 <p>Ne glede na tretji odstavek 123. člena tega zakona in drugi odstavek 141. člena tega zakona se plačilo za vodno pravico v primerih iz prvega in četrtega odstavka 199.b člena tega zakona in prvega odstavka 199.e člena tega zakona začne plačevati po pridobitvi vodne pravice za obdobje od 1. januarja 2014 dalje.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 802-01/13-14/18</p>
 <p>Ljubljana, dne 27. novembra 2013</p>
@@ -163,5 +176,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-12-06", "kratica": "ZV-1C", "naziv": "Zakon o dopolnitvah Zakona o vodah", "url": "/trubar/si/ZV-1C/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

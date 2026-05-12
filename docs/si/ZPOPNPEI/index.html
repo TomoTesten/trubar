@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1993-01-2569" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPOPNPEI.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPOPNPEI" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPOPNPEI.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPOPNPEI,vrsta:Sprejet zakon">
+    
     <h1>Zakon o poroštvu Republike Slovenije za obveznosti iz pogodb o najetju posojila Evropske Investicijske banke za obnovo Slovenskih železnic</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>UKAZ</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K ON</h2>
 <p>O POROŠTVU REPUBLIKE SLOVENIJE ZA OBVEZNOSTI IZ POGODB O NAJETJU POSOJILA EVROPSKE INVESTICIJSKE BANKE ZA OBNOVO SLOVENSKIH ŽELEZNIC</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Republika Slovenija daje poroštvo za plačilo obveznosti iz dveh separatnih posojilnih pogodb, sklenjenih med Evropsko Investicijsko Banko in Slovenskimi železnicami – Ljubljana, javno podjetje, za namene obnove slovenskega železniškega omrežja, pod naslednjimi pogoji:<br />
 Posojilo A:<br />
 – znesek posojila – 38,00 mio ECU, posojilo se črpa v ECU ali v eni od valut držav članic ES;<br />
@@ -49,11 +62,11 @@ Posojilo B:<br />
 – obrestna mera – variabilna, vendar fiksirana za vsak črpan znesek za izbrano valuto črpanja, zmanjšana za 2% beneficirane obresti;<br />
 – rok odplačila – 20 let z vključenim 54-mesečnim moratorijem, začetek odplačevanja 1998;<br />
 – drugi stroški – provizija za odlog črpanja, odpoved posojila ter zamudne obresti, največ v višini 2,25% skupaj.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pogodbi o poroštvu v imenu Republike Slovenije podpiše z Evropsko Investicijsko Banko minister za finance.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Sredstva za izpolnjevanje obveznosti iz pogodb o poroštvu se zagotavljajo v proračunu Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-03/93-36/1</p>
 <p>Ljubljana, dne 17. decembra 1993.</p>
@@ -69,5 +82,36 @@ mag. Herman Rigelnik l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1993-12-30", "kratica": "ZPOPNPEI", "naziv": "Zakon o poroštvu Republike Slovenije za obveznosti iz pogodb o najetju posojila Evropske Investicijske banke za obnovo Slovenskih železnic", "url": "/trubar/si/ZPOPNPEI/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

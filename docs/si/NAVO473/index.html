@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0518" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO473.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO473" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO473.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO473,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Pravilnik o načinu, obliki in rokih za pošiljanje podatkov Uradu Republike Slovenije za nadzor prirejanja iger na srečo</h1>
 <p>Na podlagi tretjega odstavka 76. in 106. člena zakona o igrah na srečo (Uradni list RS, št. 27/95) in 99. člena zakona o upravi (Uradni list RS, št. 67/94) izdaja minister za finance</p>
 <h2>N A V O D I L O</h2>
 <p>o načinu, obliki in rokih za pošiljanje podatkov Uradu Republike Slovenije za nadzor prirejanja iger na srečo</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem navodilom se predpisujejo način, oblika in roki za pošiljanje podatkov iz 76. in 106. člena zakona o igrah na srečo (Uradni list RS, št. 27/95), ki so jih koncesionarji iz 55. člena in pravne osebe iz prvega odstavka 128. člena dolžni pošiljati Uradu RS za nadzor prirejanja iger na srečo.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Osebe iz 1. člena tega navodila, ki imajo več igralnic, morajo pošiljati podatke, ki se nanašajo na posamezno igralnico, za vsako igralnico posebej.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Podatki se morajo pošiljati na naslednjih obrazcih:<br />
 – desetdnevno poročilo o realizaciji iz iger, napitnin in vstopnin (obr. MF IGR 1)<br />
 – trimesečno poročilo o kreditih/posojilih (obr. MF IGR 2)<br />
@@ -43,17 +56,17 @@
 – poročilo o nabavi žetonov (obr. MF IGR 6)<br />
 – poročilo o uničenju žetonov (obr. MF IGR 7)<br />
 Obrazci z navodili za izpolnjevanje so sestavni del tega navodila.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Podatki se morajo nanašati na obdobja, kot so opredeljena v posameznem obrazcu.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Osebe iz 1. člena tega navodila morajo pošiljati podatke v naslednjih rokih:<br />
 – desetdnevno poročilo o realizaciji iz iger, napitnin in vstopnin (obr. MF IGR 1) najkasneje 2 dni po zaključku obdobja;<br />
 – trimesečno poročilo o kreditih/posojilih (obr. MF IGR 2), polletni pregled stroškov (obr. MF IGR 3) in polletni pregled investicij (obr. MF IGR 4) najkasneje 8 dni po zaključku obdobja;<br />
 – stanje žetonov v igralnici (obr. MF IGR 5) na dan uveljavitve tega navodila, v roku 5 dni po uveljavitvi tega navodila;<br />
 – poročilo o nabavi žetonov (obr. MF IGR 6) in poročilo o uničenju žetonov (obr. MF IGR7) v roku 2 dni po prejemu oziroma uničenju žetonov.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Podatki iz tega navodila se morajo pošiljati po pošti s priporočeno pisemsko pošiljko.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 471-32/96</p>
 <p>Ljubljana, dne 9. februarja 1996.</p>
@@ -170,5 +183,36 @@ proizvajalca.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-02-23", "kratica": "NAVO473", "naziv": "Pravilnik o načinu, obliki in rokih za pošiljanje podatkov Uradu Republike Slovenije za nadzor prirejanja iger na srečo", "url": "/trubar/si/NAVO473/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

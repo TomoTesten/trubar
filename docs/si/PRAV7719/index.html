@@ -21,27 +21,40 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-2779" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7719.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7719" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7719.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7719,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o preverjanju in ocenjevanju znanja ter napredovanju učencev v osnovni šoli</h1>
 <p>Na podlagi 80. člena v povezavi s 111. členom Zakona o osnovni šoli (Uradni list RS, št. 70/05 – uradno prečiščeno besedilo in 60/06) minister za šolstvo in šport izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika<br />
 o preverjanju in ocenjevanju znanja ter napredovanju učencev v osnovni šoli</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o preverjanju in ocenjevanju znanja ter napredovanju učencev v osnovni šoli (Uradni list RS, št. 29/96, 64/03 in 65/05) se 6. člen spremeni tako, da se glasi:<br />
 »Pri vsakem predmetu se učenčevo znanje ocenjuje skozi vse ocenjevalno obdobje.<br />
 Znanje učencev se pri vsakem predmetu oceni najmanj trikrat v posameznem ocenjevalnem obdobju. Najmanj ena ocena v vsakem ocenjevalnem obdobju in najmanj tri ocene v šolskem letu ne smejo biti pridobljene na podlagi pisnih izdelkov.<br />
 Pri predmetih, za katere je s predmetnikom določena največ ena ura tedensko, se znanje učencev oceni najmanj enkrat v vsakem ocenjevalnem obdobju in najmanj trikrat v šolskem letu, pri čemer ne sme biti večina ocen pridobljenih na podlagi pisnih izdelkov.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Drugi stavek drugega odstavka 7. člena se spremeni tako, da se glasi: »V tem primeru učenci ne smejo pisati pisnih izdelkov tri dni zaporedoma.«.<br />
 Četrti odstavek se spremeni tako, da se glasi:<br />
 »Deset delovnih dni pred ocenjevalno konferenco učenci ne pišejo izdelkov za oceno, razen v primeru iz petega odstavka tega člena.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prvem stavku 15. člena se črta beseda »vsakega«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne 1. septembra 2006.</p>
 <p>Št. 0070-41/2006</p>
 <p>Ljubljana, dne 15. junija 2006</p>
@@ -57,5 +70,36 @@ za šolstvo in šport</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-06-20", "kratica": "PRAV7719", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o preverjanju in ocenjevanju znanja ter napredovanju učencev v osnovni šoli", "url": "/trubar/si/PRAV7719/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

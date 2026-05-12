@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-02-0005" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1235.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG1235" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1235.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG1235,vrsta:drugi akt">
+    
     <h1>Zapisnik z zasedanja delovne skupine za realizacijo Sporazuma med Vlado Republike Belorusije in Izvršnim svetom Skupščine Republike Slovenije o trgovinsko-gospodarskem, znanstveno-tehničnem in kulturnem sodelovanju</h1>
 <h2>ZAPISNIK</h2>
 <p>z zasedanja delovne skupine za realizacijo Sporazuma med Vlado Republike Belorusije in Izvršnim svetom Skupščine Republike Slovenije o trgovinsko-gospodarskem, znanstveno-tehničnem in kulturnem sodelovanju*</p>
@@ -217,5 +230,36 @@ DOBAV BLAGA IZ REPUBLIKE SLOVENIJE V REPUBLIKO BELORUSIJO</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-03-20", "kratica": "DRUG1235", "naziv": "Zapisnik z zasedanja delovne skupine za realizacijo Sporazuma med Vlado Republike Belorusije in Izvršnim svetom Skupščine Republike Slovenije o trgovinsko-gospodarskem, znanstveno-tehničnem in kulturnem sodelovanju", "url": "/trubar/si/DRUG1235/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

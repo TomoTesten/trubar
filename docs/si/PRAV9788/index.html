@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2341" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9788.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9788" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9788.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9788,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o napredovanju javnih uslužbencev v plačne razrede pri Informacijskem pooblaščencu</h1>
 <p>Na podlagi tretjega odstavka 17. člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 95/07 – uradno prečiščeno besedilo, 17/08, 58/08, 69/08 – ZTFI-A, 69/08 – ZZavar-E, 80/08, 120/08 Odl.US: U-I-159/08-18 in 20/09 – <a href="/trubar/si/ZZZPF/" class="law-ref" title="ZZZPF">ZZZPF</a>; v nadaljnjem besedilu: <a href="/trubar/si/ZSPJS/" class="law-ref" title="ZSPJS">ZSPJS</a>) izdaja Informacijski pooblaščenec</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o napredovanju javnih uslužbencev v plačne razrede pri Informacijskem pooblaščencu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o napredovanju javnih uslužbencev v plačne razrede pri Informacijskem pooblaščencu (Uradni list RS, št. 84/08) se v petem odstavku 5. člena beseda »tri« nadomesti z besedo »dobro«.<br />
 Doda se novi šesti odstavek, ki se glasi:<br />
 »(6) Vsak plačni razred, dosežen z napredovanjem ali z uvrstitvijo nad plačni razred delovnega mesta, se šteje za eno napredovanje.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
@@ -53,9 +66,9 @@ b) če zbrane točke in ocena nadrejenega ne zadostujejo za napredovanje, se jav
 (6) Ocene, določene v skladu s prejšnjim odstavkom, se vpišejo v evidenčni list, ki je kot Priloga IVa sestavni del tega pravilnika.<br />
 (7) Javni uslužbenec, ki v letu 2010 izpolni pogoje za napredovanje, določene v 4. in 5. členu tega pravilnika, lahko napreduje v skladu s tem pravilnikom, če v tekočem letu izpolni pogoj treh let od zadnjega napredovanja.<br />
 (8) V primeru, ko ocene javnega uslužbenca, ki jih je pridobil na podlagi ocenjevanja po Zakonu o javnih uslužbencih, in ocene, pridobljene v skladu s petim odstavkom tega člena, niso enake, se upošteva ocena, ki je za javnega uslužbenca ugodnejša.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Priloga IV se nadomesti z novo Prilogo IVa.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 100-6/2009/1</p>
 <p>Ljubljana, dne 15. junija 2009</p>
@@ -71,5 +84,36 @@ Priloga je objavljena na spletni strani Informacijskega pooblaščenca: http://w
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-06-23", "kratica": "PRAV9788", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o napredovanju javnih uslužbencev v plačne razrede pri Informacijskem pooblaščencu", "url": "/trubar/si/PRAV9788/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

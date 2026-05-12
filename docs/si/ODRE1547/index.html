@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-5083" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1547.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE1547" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1547.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE1547,vrsta:odredba">
+    
     <h1>Odredba o spremembah in dopolnitvah odredbe o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu</h1>
 <p>Na podlagi prvega odstavka 115. člena zakona o davčnem postopku (Uradni list RS, št. 18/96, 87/97, 82/98, 91/98 in 108/99) in prvega odstavka 16. člena zakona o prispevkih za socialno varnost (Uradni list RS, št. 5/96, 34/96, 3/98 in 81/00) izdaja minister za finance</p>
 <h2>O D R E D B O</h2>
 <p>o spremembah in dopolnitvah odredbe o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V navodilu za izpolnjevanje REK-1 obrazca, ki je sestavni del odredbe o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu (Uradni list RS, št. 77/96, 5/97, 5/98 in 50/99), se pod osnovo I (osnova za prispevke) doda nova osnova:</p>
 <p>“V osnovo I c) se vpiše razlika do minimalne plače, ki je osnova za obračun prispevkov za pokojninsko in invalidsko zavarovanje v skladu z zakonom o pokojninskem in invalidskem zavarovanju v primeru, ko je izplačana plača oziroma nadomestilo plače nižje od minimalne plače, in je sicer že vključena v podatek pod zaporedno številko (10) ali (11).“.</p>
 <p>V zaporedni številki (17) – osnova V se v prvem odstavku pred piko doda besedilo: “in za premije, vplačane v prostovoljno dodatno pokojninsko zavarovanje po zakonu o pokojninskem in invalidskem zavarovanju, od katerih se prispevki za socialno varnost obračunajo od osnove, izkazane pod osnovo V d).“.<br />
@@ -58,9 +71,9 @@ V navodilu za izpolnjevanje REK-3 obrazca se četrti odstavek spremeni tako, da 
 Doda se nova zaporedna številka:</p>
 <p>“(309) – osnova za prispevek</p>
 <p>Vpiše se osnova za prispevke, ki v skladu z določbami zakona o pokojninskem in invalidskem zavarovanju ne more biti nižja od polovice zneska minimalne plače.“.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Z dnem uporabe te odredbe prenehajo veljati obrazci REK-1, REK-1a, REK-2 in REK-3, predpisani z odredbo o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu (Uradni list RS, št. 77/96, 5/97, 5/98 in 50/99).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se od 1. januarja 2001.</p>
 <p>Št. 416-108/2000</p>
 <p>Ljubljana, dne 20. decembra 2000.</p>
@@ -79,5 +92,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-12-28", "kratica": "ODRE1547", "naziv": "Odredba o spremembah in dopolnitvah odredbe o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu", "url": "/trubar/si/ODRE1547/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

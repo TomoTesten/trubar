@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-01-2117" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED551.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED551" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED551.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED551,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Uredba o prostorskih ureditvenih pogojih za sanacijo degradiranega prostora občine Gornja Radgona</h1>
 <p>Na podlagi četrtega odstavka 16. člena zakona o spremembah in dopolnitvah zakona o urejanju naselij in drugih posegov v prostor (Uradni list RS, št. 18/93 in 47/93) in v zvezi s prvim odstavkom 6. člena uredbe o postopku priprave in sprejemanja prostorskih ureditvenih pogojev za sanacijo degradiranega prostora (Uradni list RS, št. 56/93 in 47/94) ter na podlagi prvega odstavka 26. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93) izdaja Vlada Republike Slovenije.</p>
 <h2>UREDBO</h2>
 <p>o prostorskih ureditvenih pogojih za sanacijo degradiranega prostora občine Gornja Radgona</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S to uredbo se sprejmejo prostorski ureditveni pogoji za sanacijo degradiranega prostora občine Gornja Radgona (v nadaljevanju: akt legalizacije), ki jih je izdelal Zavod za ekonomiko in urbanizem, Murska Sobota, pod št. projekta 5/93.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Splošni podatki o aktu legalizacije, vsebinsko kazalo o vseh sestavinah akta legalizacije, skupna obrazložitev oziroma utemeljitev akta legalizacije, pregledna karta občine z označeno razvrstitvijo posegov, evidentiranih po 11. členu zakona o spremembah in dopolnitvah zakona o urejanju naselij in drugih posegov v prostor, vsa potrebna soglasja organov in organizacij, ki so dali pogoje k tem posegom, projektne rešitve sanacij ter ocene prispevkov vsakega posega k stroškom za pripravo in opremljanje stavbnih zemljišč, so sestavni del te uredbe in so na vpogled pri upravnem organu občine Gornja Radgona, pristojnem za urejanje prostora.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Meja območja, ki ga obravnava akt legalizacije, se določi po naslednjih parcelah in sicer:<br />
 k.o. APAČE: 469/47;<br />
 k.o. BORAČEVA: 259/1, 259/3;<br />
@@ -51,11 +64,11 @@ k.o. STAVEŠINCI: 327/1;<br />
 k.o. ŠRATOVCI: 280/2;<br />
 k.o. ŽEPOVC1: 1088,<br />
 ki so sestavni del tega območja.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Funkcija območja s pogoji za izrabo in kvaliteto graditve ali drugega posega v prostor, pogoji za urbanistično, arhitektonsko in krajinsko oblikovanje ter drugi pogoji, pomembni za izvedbo akta legalizacije, so sestavni del te uredbe in so razvidni za vsak poseg ali skupine posegov posebej iz projektnih rešitev sanacije kot sestavni del akta legalizacije, ki je na vpogled pri upravnem organu občine Gornja Radgona, pristojnem za urejanje prostora.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Nadzor nad izvajanjem te uredbe opravlja organ urbanistične inšpekcije.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 350-01/94-574-8</p>
 <p>Ljubljana, dne 29. septembra 1994.</p>
@@ -70,5 +83,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-10-07", "kratica": "URED551", "naziv": "Uredba o prostorskih ureditvenih pogojih za sanacijo degradiranega prostora občine Gornja Radgona", "url": "/trubar/si/URED551/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

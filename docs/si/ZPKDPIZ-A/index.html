@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-1156" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPKDPIZ-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPKDPIZ-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPKDPIZ-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPKDPIZ-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah Zakona o preoblikovanju Kapitalske družbe pokojninskega in invalidskega zavarovanja ter o naložbeni politiki Kapitalske družbe pokojninskega in invalidskega zavarovanja in Slovenske odškodninske družbe</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,14 +50,14 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O PREOBLIKOVANJU KAPITALSKE DRUŽBE POKOJNINSKEGA IN INVALIDSKEGA ZAVAROVANJA TER O NALOŽBENI POLITIKI KAPITALSKE DRUŽBE POKOJNINSKEGA IN INVALIDSKEGA ZAVAROVANJA IN SLOVENSKE ODŠKODNINSKE DRUŽBE (ZPKDPIZ-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o preoblikovanju Kapitalske družbe pokojninskega in invalidskega zavarovanja ter o naložbeni politiki Kapitalske družbe pokojninskega in invalidskega zavarovanja in Slovenske odškodninske družbe (Uradni list RS, št 79/10) se peti odstavek 7. člena spremeni tako, da se glasi:<br />
 »(5) Za prenos izvrševanja glasovalnih pravic v imenu in za račun družbe KAD, družbe SOD oziroma Zavarovalnice v skladu z drugim, tretjim in četrtim odstavkom tega člena z družbe KAD, družbe SOD oziroma Zavarovalnice na upravljavca se ne uporabljajo določbe zakonov, ki urejajo prevzeme in preprečevanje omejevanja konkurence.«.</p>
 <h3>PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Do sprejetja strategije se ne uporablja drugi odstavek 7. člena tega zakona, ampak upravljavec izvršuje glasovalne pravice na skupščinah v imenu in za račun družbe KAD in družbe SOD v vseh družbah, v katerih skupna knjigovodska vrednost kapitalske naložbe družbe KAD ali družbe SOD presega 20 milijonov eurov.<br />
 (2) Do sprejetja strategije družbi KAD in SOD razpolagata z naložbami, katerih skupna knjigovodska vrednost naložbe družbe KAD ali družbe SOD presega 20 milijonov eurov oziroma z naložbami v družbah, v katerih ima družba KAD ali družba SOD najmanj 25-odstotni lastniški delež oziroma delež glasovalnih pravic, s soglasjem upravljavca, ki mora pred izdajo soglasja o posamezni naložbi pridobiti mnenje Vlade Republike Slovenije.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 001-03/11-2/18</p>
 <p>Ljubljana, dne 30. marca 2011</p>
@@ -61,5 +74,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-04-08", "kratica": "ZPKDPIZ-A", "naziv": "Zakon o spremembah in dopolnitvah Zakona o preoblikovanju Kapitalske družbe pokojninskega in invalidskega zavarovanja ter o naložbeni politiki Kapitalske družbe pokojninskega in invalidskega zavarovanja in Slovenske odškodninske družbe", "url": "/trubar/si/ZPKDPIZ-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

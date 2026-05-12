@@ -21,20 +21,33 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-5348" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10442.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10442" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10442.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10442,vrsta:pravilnik">
+    
     <h1>Pravilnik o dopolnitvah Pravilnika o enotnem kontnem načrtu za proračun, proračunske uporabnike in druge osebe javnega prava</h1>
 <p>Na podlagi 13. člena Zakona o računovodstvu (Uradni list RS, št. 23/99, 30/02 – <a href="/trubar/si/ZJF-C/" class="law-ref" title="ZJF-C">ZJF-C</a> in 114/06 – <a href="/trubar/si/ZUE/" class="law-ref" title="ZUE">ZUE</a>) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o dopolnitvah Pravilnika o enotnem kontnem načrtu za proračun, proračunske uporabnike in druge osebe javnega prava</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o enotnem kontnem načrtu za proračun, proračunske uporabnike in druge osebe javnega prava (Uradni list RS, št. 112/09 in 58/10) se v Prilogi I v enotnem kontnem načrtu, v okviru konta 7047 – Drugi davki na uporabo blaga in storitev, doda nov podkonto, ki se glasi:<br />
 »704733 – Zamudne obresti od okoljske dajatve za onesnaževanje okolja zaradi odlaganja odpadkov«.<br />
 V okviru konta 7813 – Ostala prejeta sredstva iz proračuna EU za izvajanje skupne kmetijske politike se doda nov podkonto, ki se glasi:<br />
 »781399 – Ostala prejeta sredstva iz proračuna EU za izvajanje skupne kmetijske politike«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, prvič pa se uporabi za pripravo letnega poročila za leto 2010.</p>
 <p>Št. 007-812/2010</p>
 <p>Ljubljana, dne 7. decembra 2010</p>
@@ -50,5 +63,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-12-23", "kratica": "PRAV10442", "naziv": "Pravilnik o dopolnitvah Pravilnika o enotnem kontnem načrtu za proračun, proračunske uporabnike in druge osebe javnega prava", "url": "/trubar/si/PRAV10442/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1050" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO501.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO501" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO501.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO501,vrsta:odlok">
+    
     <h1>Odlok o dopolnitvah odloka o načinu določanja vrednosti kmetijskih zamljišč, gozdov in zemljišč, uporabljenih za gradnjo, v postopku denacionalizacije</h1>
 <p>Na podlagi tretjega odstavka 44. člena zakona o denacionalizaciji (Uradni list RS, št. 27/91-I) izdaja Vlada Republike Slovenije</p>
 <h2>ODLOK</h2>
 <p>o dopolnitvah odloka o načinu določanja vrednosti kmetijskih zemljišč, gozdov in zemljišč, uporabljenih za gradnjo, v postopku denacionalizacije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V odloku o načinu določanja vrednosti kmetijskih zemljišč, gozdov in zemljišč, uporabljenih za gradnjo, v postopku denacionalizacije (Uradni list RS, št. 16/92) se za 4. členom dodajo novi 4.a do 4.č členi, ki se glasijo:</p>
 <h3>»4.a člen</h3>
 <p>Po tem. odloku se izračunavajo tudi:<br />
@@ -69,7 +82,7 @@ VPN = (IVTN x KVI x KMVT x AM) + (IVTN x KVZ).<br />
 VPZ = IVTN x KVZ.<br />
 3. Vrednost sodobnega trajnega nasada (VSTN), se izračuna na dan izdaje denacionalizacijske odločbe po naslednji formuli:<br />
 VSTN = (IVTN x KVI x AM) + (IVTN x KVZ).«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 465-01/92-8/2-8</p>
 <p>Ljubljana, dne 16. aprila 1992.</p>
@@ -84,5 +97,36 @@ Lojze Peterle l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-04-30", "kratica": "ODLO501", "naziv": "Odlok o dopolnitvah odloka o načinu določanja vrednosti kmetijskih zamljišč, gozdov in zemljišč, uporabljenih za gradnjo, v postopku denacionalizacije", "url": "/trubar/si/ODLO501/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

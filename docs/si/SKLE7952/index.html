@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-0319" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE7952.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE7952" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE7952.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE7952,vrsta:sklep">
+    
     <h1>Sklep o spremembah in dopolnitvah seznama poslovnih subjektov, objavljenega v Uradnem listu RS, št. 43/07, s katerimi na podlagi določb Zakona o preprečevanju korupcije ne smejo poslovati naročniki iz prvega, drugega in tretjega odstavka 28. člena <a href="/trubar/si/ZPKor/" class="law-ref" title="ZPKor">ZPKor</a></h1>
 <p>Na podlagi šestega odstavka 28. člena Zakona o preprečevanju korupcije (Uradni list RS, št. 2/04, v nadaljevanju <a href="/trubar/si/ZPKor/" class="law-ref" title="ZPKor">ZPKor</a>), 13. člena Poslovnika Komisije za preprečevanje korupcije (Uradni list RS, št. 105/04) in odločbe Ustavnega sodišča Republike Slovenije št. U-I-163/05 (Uradni list RS, št. 97/05) je komisija na seji dne 29. 1. 2009 sprejela</p>
 <h2>S K L E P</h2>
 <p>o spremembah in dopolnitvah seznama poslovnih subjektov, objavljenega v Uradnem listu RS, št. 43/07, s katerimi na podlagi določb Zakona o preprečevanju korupcije ne smejo poslovati naročniki iz prvega, drugega in tretjega odstavka 28. člena <a href="/trubar/si/ZPKor/" class="law-ref" title="ZPKor">ZPKor</a></p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Seznam poslovnih subjektov po prvem odstavku 28. člena <a href="/trubar/si/ZPKor/" class="law-ref" title="ZPKor">ZPKor</a> se dopolni z naslednjimi poslovnimi subjekti:<br />
 Tabela 1</p>
 <p>+-----+---------------+--------------+----------+-------------------------------+<br />
@@ -232,7 +245,7 @@ Tabela 1</p>
 |  53 |USTAVNO SODIŠČE|GRIP D.O.O.   |1992236000|BRNČIČEVA  |1231|ČRNUČE        |<br />
 |     |RS             |              |          |29         |    |              |<br />
 +-----+---------------+--------------+----------+-----------+----+--------------+</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>S seznama poslovnih subjektov po prvem odstavku 28. člena se brišejo naslednji poslovni subjekti:<br />
 Tabela 2</p>
 <p>+-----+-----------+-------------+----------+---------------------------+<br />
@@ -334,7 +347,7 @@ Tabela 2</p>
 |  18 |VRHOVNO    |GRIP D.O.O.  |1992236000|BRNČIČEVA 29|1231|ČRNUČE   |<br />
 |     |SODIŠČE RS |             |          |            |    |         |<br />
 +-----+-----------+-------------+----------+------------+----+---------+</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se za vsak poslovni subjekt od dneva, ko so zanj nastopili ali prenehali razlogi iz prvega, drugega in tretjega odstavka 28. člena <a href="/trubar/si/ZPKor/" class="law-ref" title="ZPKor">ZPKor</a>.</p>
 <p>Št. 11-033-13/2007</p>
 <p>Ljubljana, dne 29. januarja 2009</p>
@@ -349,5 +362,36 @@ Drago Kos l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-02-09", "kratica": "SKLE7952", "naziv": "Sklep o spremembah in dopolnitvah seznama poslovnih subjektov, objavljenega v Uradnem listu RS, št. 43/07, s katerimi na podlagi določb Zakona o preprečevanju korupcije ne smejo poslovati naročniki iz prvega, drugega in tretjega odstavka 28. člena ZPKor", "url": "/trubar/si/SKLE7952/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2019-01-0108" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE2482.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE2482" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE2482.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE2482,vrsta:odredba">
+    
     <h1>Odredba o usklajeni višini minimalnega dohodka od januarja 2019</h1>
 <p>Na podlagi prvega odstavka 8. člena Zakona o socialno varstvenih prejemkih (Uradni list RS, št. 61/10, 40/11, 14/13, 99/13, 90/15, 88/16, 31/18 in 73/18) v zvezi s prvim odstavkom 3. člena Zakona o usklajevanju transferjev posameznikom in gospodinjstvom v Republiki Sloveniji (Uradni list RS, št. 114/06, 59/07 – <a href="/trubar/si/ZŠtip/" class="law-ref" title="ZŠtip">ZŠtip</a>, 10/08 – ZVarDod, 71/08, 98/09 – <a href="/trubar/si/ZIUZGK/" class="law-ref" title="ZIUZGK">ZIUZGK</a>, 62/10 – <a href="/trubar/si/ZUPJS/" class="law-ref" title="ZUPJS">ZUPJS</a>, 85/10, 94/10 – <a href="/trubar/si/ZIU/" class="law-ref" title="ZIU">ZIU</a>, 110/11 – <a href="/trubar/si/ZDIU12/" class="law-ref" title="ZDIU12">ZDIU12</a>, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a> in 96/12 – <a href="/trubar/si/ZPIZ-2/" class="law-ref" title="ZPIZ-2">ZPIZ-2</a>) ministrica za delo, družino, socialne zadeve in enake možnosti izdaja</p>
 <p>O D R E D B O</p>
@@ -46,5 +59,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2019-01-25", "kratica": "ODRE2482", "naziv": "Odredba o usklajeni višini minimalnega dohodka od januarja 2019", "url": "/trubar/si/ODRE2482/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

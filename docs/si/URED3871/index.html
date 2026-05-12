@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-02-0041" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3871.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3871" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3871.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED3871,vrsta:uredba">
+    
     <h1>Uredba o ratifikaciji Sporazuma med Vlado Republike Slovenije in Vlado Kraljevine Danske o zaposlovanju družinskih članov uslužbencev diplomatskih predstavništev ali konzulatov</h1>
 <p>Na podlagi tretje alinee petega odstavka 75. člena Zakona o zunanjih zadevah (Uradni list RS, št. 113/03 – uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>UREDBO</h2>
 <p>O RATIFIKACIJI SPORAZUMA MED VLADO REPUBLIKE SLOVENIJE IN VLADO KRALJEVINE DANSKE O ZAPOSLOVANJU DRUŽINSKIH ČLANOV USLUŽBENCEV DIPLOMATSKIH PREDSTAVNIŠTEV ALI KONZULATOV</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sporazum med Vlado Republike Slovenije in Vlado Kraljevine Danske o zaposlovanju družinskih članov uslužbencev diplomatskih predstavništev ali konzulatov, sklenjen z izmenjavo not z dne 30. maja 2005 in 6. junija 2005.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sporazuma se v izvirniku v angleškem jeziku in v prevodu v slovenskem jeziku glasi:<br />
 Republic of Slovenia<br />
 Ministry of Foreign Affairs<br />
@@ -137,9 +150,9 @@ Veleposlaništvo Kraljevine Danske tudi ob tej priložnosti izraža Ministrstvu 
 Ljubljana, 6. junij 2005<br />
 Ministrstvo za zunanje zadeve Republike Slovenije<br />
 Ljubljana</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Ministrstvo za zunanje zadeve.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 00724-62/2005/3</p>
 <p>Ljubljana, dne 7. julija 2005</p>
@@ -155,5 +168,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-07-18", "kratica": "URED3871", "naziv": "Uredba o ratifikaciji Sporazuma med Vlado Republike Slovenije in Vlado Kraljevine Danske o zaposlovanju družinskih članov uslužbencev diplomatskih predstavništev ali konzulatov", "url": "/trubar/si/URED3871/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

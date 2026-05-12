@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5243" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7801.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7801" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7801.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7801,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi Pravilnika o vsebini in načinu vodenja evidence o izvajalcih raziskovalne in razvojne dejavnosti</h1>
 <p>Na podlagi 43. člena Zakona o raziskovalni in razvojni dejavnosti (Uradni list RS, št. 22/06 – UPB1), 16. in 35. člena Sklepa o ustanovitvi Javne agencije za dejavnost Republike Slovenije (Uradni list RS, št. 123/03) ter predhodno danem soglasju ministra za visoko šolstvo, znanost in tehnologijo št. 0071-2/2006/33 z dne 5. 9. 2006 je Upravni odbor Javne agencije za raziskovalno dejavnost Republike Slovenije na 31. seji dne 27. 9. 2006 sprejel</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembi Pravilnika o vsebini in načinu vodenja evidence o izvajalcih raziskovalne in razvojne dejavnosti</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o vsebini in načinu vodenja evidence o izvajalcih raziskovalne in razvojne dejavnosti (Uradni list RS, št. 12/05) se besedilo 20. člena spremeni tako, da se glasi:<br />
 »Vloga za vpis v evidenco RO se vloži na obrazcih. Vlogi mora vlagatelj priložiti še:<br />
 – ustanovitveni akt ali statut vlagatelja;<br />
@@ -43,7 +56,7 @@
 Zapisnik komisije oziroma veččlanskega strokovnega telesa iz četrte alineje prejšnjega odstavka se lahko izjemoma nadomesti s sklepom direktorja, kolikor vlagatelj v splošnem pravnem aktu iz tretje alineje prejšnjega odstavka opredeli ustrezen postopek in pri tem upošteva predpisane pogoje in merila za razvrstitev raziskovalca v posamezen naziv. Podelitev raziskovalnih nazivov s sklepom direktorja lahko traja do podelitve raziskovalnega naziva komisije oziroma veččlanskega strokovnega telesa, in sicer največ za dobo enega leta.<br />
 Če vlagatelj k vlogi za vpis prilaga fotokopije dokumentov, mora biti njihova istovetnost z originalom potrjena. Izjavo o istovetnosti lahko napiše vlagatelj, ki jo potrdi pooblaščeni zastopnik vlagatelja.<br />
 Agencija po prejemu vloge za vpis po uradni dolžnosti pridobi izpisek iz sodnega registra oziroma uradni dokument o priglasitvi pristojnemu organu, dokument Statističnega urada Republike Slovenije oziroma Agencije Republike Slovenije za javnopravne evidence in storitve (AJPES) o matični številki vlagatelja in šifri dejavnosti in dokument o davčni številki oziroma identifikacijski številki vlagatelja, ki ga je izdal pristojni davčni urad.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-11/2006-1</p>
 <p>Ljubljana, dne 27. septembra 2006</p>
@@ -61,5 +74,36 @@ prof. dr. Tadej Bajd l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-11-28", "kratica": "PRAV7801", "naziv": "Pravilnik o spremembi Pravilnika o vsebini in načinu vodenja evidence o izvajalcih raziskovalne in razvojne dejavnosti", "url": "/trubar/si/PRAV7801/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

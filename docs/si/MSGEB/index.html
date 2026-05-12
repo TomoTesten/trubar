@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1993-02-0056" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSGEB.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MSGEB" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MSGEB.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MSGEB,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o ratifikaciji Sporazuma o garanciji med Republiko Slovenijo in Evropsko banko za obnovo in razvoj (projekt dravskih elektrarn)</h1>
 <p>Na podlagi prvega odstavka 107. in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>UKAZ</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>O RATIFIKACIJI SPORAZUMA O GARANCIJI MED REPUBLIKO SLOVENIJO IN EVROPSKO BANKO ZA OBNOVO IN RAZVOJ (PROJEKT DRAVSKIH ELEKTRARN)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se sporazum o garanciji med Republiko Slovenijo in Evropsko banko za obnovo in razvoj (projekt dravskih elektrarn), podpisan v Londonu dne 25. aprila 1993 v angleškem jeziku.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sporazum se v angleškem izvirniku in slovenskem prevodu glasi:</p>
 <h2>GUARANTEE AGREEMENT</h2>
 <p>GUARANTEE AGREEMENT, dated 25 April 1993, between the REPUBLIC OF SLOVENIA (the "Guarantor") and the EUROPEAN BANK FOR RECONSTRUCTION AND DEVELOPMENT (the "Bank")</p>
@@ -234,11 +247,11 @@ EVROPSKA BANKA<br />
 ZA OBNOVO IN RAZVOJ<br />
 Jacques Attali. l. r.<br />
 Predsednik</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Če posojilojemalec – Dravske elektrarne Maribor oziroma njegova banka, pooblaščena za posle s tujino, ne izpolni obveznosti iz posojila, najetega za prvi projekt obnove verige Dravskih elektrarn, v roku zapadlosti in je zaradi tega vnovčena garancija, izda Ministrstvo za finance najpozneje v 30 dneh od izpolnitve obveznosti nalog Službi družbenega knjigovodstva, da prenese v dobro proračuna Republike Slovenije z računa posojilojemalca tolarska sredstva v višini izvršenega plačila, povečanega za obračunane obresti in za druge stroške, nastale v zvezi z izpolnitvijo obveznosti.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Ministrstvo za finance.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 450-07/93-7/1-1</p>
 <p>Ljubljana, dne 25. maja 1993.</p>
@@ -254,5 +267,36 @@ mag. Herman Rigelnik l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1993-06-10", "kratica": "MSGEB", "naziv": "Zakon o ratifikaciji Sporazuma o garanciji med Republiko Slovenijo in Evropsko banko za obnovo in razvoj (projekt dravskih elektrarn)", "url": "/trubar/si/MSGEB/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

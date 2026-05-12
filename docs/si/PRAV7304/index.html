@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-3621" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7304.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7304" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7304.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7304,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Pravilnik o merilih za določanje nagrade članom poravnalnega odbora izvedencev</h1>
 <p>Na podlagi sedmega odstavka 615. člena Zakona o gospodarskih družbah (Uradni list RS, št. 42/06 in 60/06 – popr.) izdajajo minister za gospodarstvo, minister za pravosodje in minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o merilih za določanje nagrade članom poravnalnega odbora izvedencev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina)</h3>
 <p>Ta pravilnik določa merila za določanje nagrad članom poravnalnega odbora izvedencev iz 609. člena Zakona o gospodarskih družbah (Uradni list RS, št. 42/06 in 60/06 – popr.; v nadaljnjem besedilu: zakon).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(merila)</h3>
 <p>(1) Temeljno merilo za določanje višine nagrad članom poravnalnega odbora izvedencev je:</p>
 <p>+-------------------------+--------------+<br />
@@ -57,19 +70,19 @@
 (4) Namestniku predsednika pripada za udeležbo na eni seji poravnalnega odbora izvedencev nagrada v višini 30.000 tolarjev, namestniku odsotnega člana pa nagrada v višini 25.000 tolarjev.<br />
 (5) V primeru odsotnosti člana poravnalnega odbora izvedencev na seji, se nagrada iz prvega odstavka tega člena zniža za znesek nagrade, ki pripada nadomestnemu članu za prisotnost na seji po prejšnjem odstavku, vendar ne pod 50 odstotkov višine nagrade, določene v prvem odstavku tega člena.<br />
 (6) Če v skladu s šestim odstavkom 609. člena zakona poravnalni odbor izvedencev pritegne zunanje izvedence in jim naroči izdelavo izvedenskega mnenja, se višina nagrade, določene v prvem odstavku tega člena, zniža za 30 odstotkov.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(širši odbor)</h3>
 <p>Članu poravnalnega odbora izvedencev, ki ima v skladu z drugim odstavkom 609. člena zakona pet članov, se višina nagrade, določene v prvem odstavku prejšnjega člena, poviša za 25 odstotkov.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(poravnava)</h3>
 <p>Če udeleženci sklenejo poravnavo pred poravnalnim odborom izvedencev in sodišče potrdi sklenjeno poravnavo v skladu s drugim odstavkom 610. člena zakona, se višina nagrade, določene v prvem odstavku 2. člena tega pravilnika, poviša za 50 odstotkov.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(stroškovnik)</h3>
 <p>Vse nagrade po tem pravilniku in stroški postopka iz šestega odstavka 609. člena zakona se sproti vpisujejo v stroškovnik, ki ga poravnalni odbor izvedencev skupaj s svojim mnenjem pošlje sodišču.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <h3>(razveljavitev predpisa)</h3>
 <p>Z dnem uveljavitve tega pravilnika se preneha uporabljati Odredba o merilih za določanje nagrade članom poravnalnega odbora izvedencev (Uradni list RS, št. 10/02 in 42/06 – <a href="/trubar/si/ZGD-1/" class="law-ref" title="ZGD-1">ZGD-1</a>).</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <h3>(začetek veljavnosti)</h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-72/2006</p>
@@ -92,5 +105,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-08-02", "kratica": "PRAV7304", "naziv": "Pravilnik o merilih za določanje nagrade članom poravnalnega odbora izvedencev", "url": "/trubar/si/PRAV7304/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

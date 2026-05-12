@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2998" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5934.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5934" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5934.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5934,vrsta:pravilnik">
+    
     <h1>Pravilnik o dopolnitvi pravilnika o obrazcu za obračun posebnega davka na bilančno vsoto bank in hranilnic</h1>
 <p>Na podlagi tretjega odstavka 16. člena Zakona o posebnem davku na bilančno vsoto bank in hranilnic (Uradni list RS, št. 87/97, 84/98, 40/99 – sklep US in 61/99 – odločba US) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o dopolnitvi pravilnika o obrazcu za obračun posebnega davka na bilančno vsoto bank in hranilnic</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o obrazcu za obračun posebnega davka na bilančno vsoto bank in hranilnic (Uradni list RS, št. 40/03 in 46/03 – popravek) se v metodologiji za izpolnjevanje obrazca, ki je njegov sestavni del, v zaporedno številko 2 a) dodajo konti 7004, 7005, 7006, 7012 in 7013.<br />
 V zaporedno številko 2 b) se dodajo konti 7702, 7703 in 7709, in sicer v delu, ki se nanaša na znesek kratkoročnih obveznosti v tuji valuti do neodvisnih bank.<br />
 V zaporedno številko 2 c) se dodajo konti 7702, 7703 in 7709, in sicer v delu, ki se nanaša na znesek kratkoročnih obveznosti v tuji valuti do bank v skupini.<br />
@@ -46,7 +59,7 @@ V zaporedno številko 5 c) se dodajo konti 5501, 5505, 5508 in 5509.<br />
 V zaporedno številko 5 d) se dodajo konti 5511, 5515, 5518 in 5519.<br />
 V zaporedno številko 6 b) se v 1. točko dodajo konti 5541, 5545, 5548 in 5549.<br />
 V zaporedno številko 7 a) se dodata konta 5558 in 5559.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 423-03-1/2004/4</p>
 <p>Ljubljana, dne 11. junija 2004.</p>
@@ -62,5 +75,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-06-18", "kratica": "PRAV5934", "naziv": "Pravilnik o dopolnitvi pravilnika o obrazcu za obračun posebnega davka na bilančno vsoto bank in hranilnic", "url": "/trubar/si/PRAV5934/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

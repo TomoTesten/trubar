@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2559" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE411.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE411" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE411.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE411,vrsta:odredba">
+    
     <h1>Odredba o prepovedi uporabe zračnega prostora za letenje oziroma jadranje na območju Zabiče-Oslice-Mali razbor-Gradišče-Zabiče ter prepoved uporabe vzletišča na Oslicah</h1>
 <p>Na podlagi drugega odstavka 4. člena uredbe o zavarovanju ogroženih živalskih vrst (Uradni list RS, št. 57/93) in 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95 – odl. US in 29/95) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>O D R E D B O</h2>
 <p>o prepovedi uporabe zračnega prostora  za letenje oziroma jadranje na območju  Zabiče-Oslice-Mali razbor-Gradišče-Zabiče  ter prepoved uporabe vzletišča na Oslicah</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Z namenom, da se zavaruje življenjsko pomembno gnezdišče planinskega orla, kot naravne znamenitosti, se s to odredbo za obdobje enega leta od njene uveljavitve prepoveduje:<br />
 – uporaba zračnega prostora za letenje s športnimi letali, helikopterji, ultralahkimi letalnimi napravami za letenje ter jadranje z jadralnimi letali in padali, zmaji in podobnimi napravami nad območjem štirikotnika, katerega zunanja meja poteka med Zabičami (koordinate x(m)=5 449 100, y(m)=5 041 400), Oslicami (x=5 452 000, y=5 042 300), Malim Razborjem (x=5 451 100, y=5 044 700) in Gradiščem (x=5 448 200, y=5 044 300) nazaj do Zabič;<br />
 – ter uporaba vzletišča za jadranje oziroma letenje z napravami iz prejšnje alinee tega člena na Oslicah (x=5 452 000, y=5 042 300).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Nad območjem, iz prejšnjega člena je prepovedano letenje pod višino letenja 1500 metrov nadmorske višine, ki ga določajo orientacijske točke Kozlek (x=5447400, y=5044700), Goljak (x=5453300, y=5041700) ter Mali Razbor (x=5451100, y=5044700).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu RS.</p>
 <p>Št. 324-05 / 98</p>
 <p>Ljubljana, dne 20. julija 1998.</p>
@@ -51,5 +64,36 @@ in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-08-07", "kratica": "ODRE411", "naziv": "Odredba o prepovedi uporabe zračnega prostora za letenje oziroma jadranje na območju Zabiče-Oslice-Mali razbor-Gradišče-Zabiče ter prepoved uporabe vzletišča na Oslicah", "url": "/trubar/si/ODRE411/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

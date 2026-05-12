@@ -21,22 +21,35 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-3551" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1010.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO1010" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1010.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO1010,vrsta:odlok">
+    
     <h1>Odlok o spremembi odloka o razglasitvi gradu, vodnjaka in parka Polhov Gradec za kulturni spomenik državnega pomena</h1>
 <p>Na podlagi 12. člena zakona o varstvu kulturne dediščine (Uradni list RS, št. 7/99) izdaja Vlada Republike Slovenije</p>
 <h2>O D L O K</h2>
 <p>o spremembi odloka o razglasitvi gradu, vodnjaka in parka Polhov Gradec za kulturni spomenik državnega pomena</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V odloku o razglasitvi gradu, vodnjaka in parka Polhov Gradec (EŠD 1594, EŠD 554, EŠD 7879) za kulturni spomenik državnega pomena (Uradni list RS, št. 81/99) se 3. člen spremeni tako, da se glasi:</p>
 <h3>“3. člen</h3>
 <p>Grad obsega zemljišča, parcelne številke 117/1, 154, 1238/1-del, vodnjak obsega parcelno številka 1238/1-del in park parcelne številke <em>1/2, </em>7/1, 117/1, 1238/1-del, 137/19, 137/2, 138, 145, 153, 154.</p>
 <p>Vplivno območje spomenika obsega površine, ki so funkcionalno in vidno povezane s kulturnim spomenikom.</p>
 <p>Meje gradu, vodnjaka in parka so določene na katastrskem načrtu v merilu 1 : 2880 z dne 4. 5. 2001, meja vplivnega območja pa na temeljnem topografskem načrtu v merilu 1 : 5000. Načrta sta na vpogled na Ministrstvu za kulturo, Upravi Republike Slovenije za kulturno dediščino in Javnem zavodu Republike Slovenije za varstvo kulturne dediščine (v nadaljnjem besedilu: zavod).”.</p>
 <p>Meje spomenikov in vplivnega območja se objavijo na publikacijski karti v merilu 1 : 5000 v prilogi, ki je sestavni del tega odloka.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 634-03/2001-3</p>
 <p>Ljubljana, dne 26. julija 2001.</p>
@@ -51,5 +64,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-08-09", "kratica": "ODLO1010", "naziv": "Odlok o spremembi odloka o razglasitvi gradu, vodnjaka in parka Polhov Gradec za kulturni spomenik državnega pomena", "url": "/trubar/si/ODLO1010/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

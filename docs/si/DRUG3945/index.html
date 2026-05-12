@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3869" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3945.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3945" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3945.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3945,vrsta:drugi akt">
+    
     <h1>Slovenski poslovnofinančni standard 5 – Dajanje mnenja pooblaščenega ocenjevalca vrednosti podjetij v zvezi s 146. členom Zakona o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju (<a href="/trubar/si/ZFPPIPP/" class="law-ref" title="ZFPPIPP">ZFPPIPP</a>)</h1>
 <p>Na podlagi prvega odstavka 16. člena v povezavi s 1. točko drugega odstavka 9. člena Zakona o revidiranju (Uradni list RS, št. 65/08) ter na podlagi soglasja Agencije za javni nadzor nad revidiranjem št. 10.00-28/2013 z dne 10. 12. 2013 je strokovni svet na seji dne 12. 12. 2013 sprejel</p>
 <h2>S L O V E N S K I  P O S L O V N O F I N A N Č N I  S T A N D A R D   5</h2>
@@ -266,5 +279,36 @@ Slovenskega inštituta za revizijo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-12-18", "kratica": "DRUG3945", "naziv": "Slovenski poslovnofinančni standard 5 – Dajanje mnenja pooblaščenega ocenjevalca vrednosti podjetij v zvezi s 146. členom Zakona o finančnem poslovanju, postopkih zaradi insolventnosti in prisilnem prenehanju (ZFPPIPP)", "url": "/trubar/si/DRUG3945/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

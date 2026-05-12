@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0090" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED933.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED933" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED933.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED933,vrsta:uredba">
+    
     <h1>Uredba o spremembi uredbe o prispevku oseb z začasnim zatočiščem k oskrbi in nastanitvi v nastanitvenem centru in višini človekoljubne pomoči, ki jo lahko prejemajo osebe z začasnim zatočiščem</h1>
 <p>Na podlagi 21. člena zakona o začasnem zatočišču (Uradni list RS, št. 20/97) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembi uredbe o prispevku oseb  z začasnim zatočiščem k oskrbi in nastanitvi  v nastanitvenem centru in višini človekoljubne pomoči, ki jo lahko prejemajo osebe  z začasnim zatočiščem</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o prispevku oseb z začasnim zatočiščem k oskrbi in nastanitvi v nastanitvenem centru in višini človekoljubne pomoči, ki jo lahko prejemajo osebe z začasnim zatočiščem (Uradni list RS, št. 20/97) se spremenita prvi in drugi odstavek 3. člena tako, da se glasita:</p>
 <p>“Do človekoljubne pomoči, ki jo izplačuje Republika Slovenija, so upravičene osebe z začasnim zatočiščem, ki ne žive v nastanitvenem centru, če mesečni prihodek družine na družinskega člana ne presega:</p>
 <p>– za otroke do dopolnjenega<br />
@@ -40,7 +53,7 @@ do dopolnjenega 14. leta starosti            27% zajamčene plače;<br />
 do zaključka rednega šolanja                 34% zajamčene plače;<br />
 – za odrasle osebe                           42% zajamčene plače.</p>
 <p>Človekoljubna pomoč se določi v višini razlike med prihodki na družinskega člana in zneskom, izračunanim po merilih iz prejšnjega odstavka. Najvišja družini izplačana človekoljubna pomoč ne more presegati dveh zajamčenih plač. Človekoljubna pomoč se lahko zagotovi tudi v funkcionalni obliki.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 262-07/99-2</p>
 <p>Ljubljana, dne 6. januarja 2000.</p>
@@ -55,5 +68,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-01-07", "kratica": "URED933", "naziv": "Uredba o spremembi uredbe o prispevku oseb z začasnim zatočiščem k oskrbi in nastanitvi v nastanitvenem centru in višini človekoljubne pomoči, ki jo lahko prejemajo osebe z začasnim zatočiščem", "url": "/trubar/si/URED933/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

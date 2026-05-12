@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-02-0090" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPAEB-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MPAEB-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MPAEB-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MPAEB-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Spremembe Kreditne pogodbe (Projekt slovenskih avtocest vzhod-zahod) med Republiko Slovenijo in Evropsko banko za obnovo in razvoj z dne 10. junija 1994</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI SPREMEMBE KREDITNE POGODBE (PROJEKT SLOVENSKIH AVTOCEST VZHOD–ZAHOD) MED REPUBLIKO SLOVENIJO IN EVROPSKO BANKO ZA OBNOVO IN RAZVOJ Z DNE 10. JUNIJA 1994 (MPAEB-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sprememba Kreditne pogodbe (Projekt slovenskih avtocest vzhod–zahod) med Republiko Slovenijo in Evropsko banko za obnovo in razvoj z dne 10. junija 1994, podpisana 11. septembra 1998 v Ljubljani.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sprememba se v angleškem izvirniku in slovenskem prevodu glasi:<br />
 AMENDMENT dated 11. September 1998 (the “Amendment“) to the LOAN AGREEMENT, dated 10 June 1994, between the EUROPEAN BANK FOR RECONSTRUCTION AND DEVELOPMENT (the “Bank“) and Republic of Slovenia (the “ Borrower“).<br />
 WHEREAS, the Bank and the Borrower entered into a Loan Agreement, dated 10 June 1994 (the “Loan Agreement“);<br />
@@ -126,9 +139,9 @@ M3 Dravograd-Maribor                                      20.795<br />
 M10-8 Dravograd-Slovenj Gradec                             9.114</p>
 <hr />
 <p>SKUPAJ                                                   177.739</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje spremembe kreditne pogodbe ter vseh pravic in obveznosti za Republiko Slovenijo, ki izhajajo iz spremembe, skrbi Ministrstvo za finance.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 440-03/94-48/2</p>
 <p>Ljubljana, dne 19. novembra 1999</p>
@@ -144,5 +157,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-12-03", "kratica": "MPAEB-A", "naziv": "Zakon o ratifikaciji Spremembe Kreditne pogodbe (Projekt slovenskih avtocest vzhod-zahod) med Republiko Slovenijo in Evropsko banko za obnovo in razvoj z dne 10. junija 1994", "url": "/trubar/si/MPAEB-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

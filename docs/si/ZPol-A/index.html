@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4635" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPol-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPol-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPol-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPol-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o dopolnitvah zakona o policiji</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O DOPOLNITVI ZAKONA O POLICIJI (ZPol-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o policiji (Uradni list RS, št. 49/98 in 66/98 – popravek) se za 126. členom doda 126.a člen, ki se glasi:</p>
 <h3>“126.a člen</h3>
 <p>(1) Do sprejema zakona, ki bo urejal parlamentarni nadzor nad delom nosilcev obveščevalno-varnostne dejavnosti, mora minister za notranje zadeve (v nadaljnjem besedilu: minister) omogočiti delovnemu telesu državnega zbora, pristojnemu za nadzor nad delom varnostnih in obveščevalnih služb (v nadaljnjem besedilu: komisija za nadzor), stalen nadzor nad zakonitostjo dejavnosti policije pri izvajanju pooblastil določenih v 49. členu tega zakona in 150., 151., 152. in 155. členu zakona o kazenskem postopku (Uradni list RS, št. 63/94, 70/94 – popravek, 25/96 – odl. US, 5/98 – odl. US, 49/98 – <a href="/trubar/si/ZPol/" class="law-ref" title="ZPol">ZPol</a>, 72/98, 6/99 in 66/00) v skladu z določili tega člena.</p>
@@ -49,7 +62,7 @@ Milan Kučan l. r.</p>
 <p>– število oseb zoper katere so bili izvedeni ukrepi in število podanih kazenskih ovadb.</p>
 <p>(4) O uporabi ukrepov po 150., 151., 152. in  155. členu in načinu izvajanja ukrepov po drugem, tretjem in četrtem odstavku 152. člena zakona o kazenskem postopku lahko komisija za nadzor preveri skladnost števila izvajanih ukrepov s številom odredb preiskovalnega sodnika in skladnost izvedenih posameznih ukrepov z izrekom odredbe preiskovalnega sodnika. O izvrševanju dejavnosti policije glede uporabe pooblastil iz 49. člena tega zakona lahko komisija za nadzor preveri skladnost izdanih pisnih odobritev generalnega direktorja policije oziroma njegovega namestnika in državnega tožilca s številom izvajanih ukrepov po teh odobritvah ter preveri, če so bili izvedeni postopki skladni z določili šestega in sedmega odstavka 49. člena tega zakona.</p>
 <p>(5) Člani komisije so dolžni varovati podatke zaupne narave, ki so jih izvedeli v zvezi z delom komisije. Dolžnost varovanja zaupnih podatkov ne preneha s prenehanjem članstva v komisiji oziroma s prenehanjem mandata.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 210-01/94-5/17</p>
 <p>Ljubljana, dne 13. novembra 2001.</p>
@@ -65,5 +78,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-11-23", "kratica": "ZPol-A", "naziv": "Zakon o dopolnitvah zakona o policiji", "url": "/trubar/si/ZPol-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,25 +21,38 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-2714" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6473.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6473" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6473.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6473,vrsta:uredba">
+    
     <h1>Uredba o določitvi lestvic katastrskega dohodka in pavšalne ocene dohodka na panj za leto 2014</h1>
 <p>Na podlagi drugega odstavka 8. člena Zakona o ugotavljanju katastrskega dohodka (Uradni list RS, št. 9/11, 47/12 in 55/13) v zvezi s prvim odstavkom 9. člena Zakona o spremembah in dopolnitvah Zakona o ugotavljanju katastrskega dohodka (Uradni list RS, št. 55/13) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o določitvi lestvic katastrskega dohodka in pavšalne ocene dohodka na panj za leto 2014</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina)</h3>
 <p>Ta uredba določa lestvice katastrskega dohodka in pavšalno oceno dohodka na panj za leto 2014.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(lestvice katastrskega dohodka)</h3>
 <p>(1) Lestvice katastrskega dohodka se določijo za vsako od proizvodnih območij z zneski katastrskega dohodka na hektar kmetijskih zemljišč glede na proizvodno območje, vrsto dejanske rabe in boniteto zemljišča oziroma na hektar gozdnih zemljišč glede na proizvodno območje in rastiščni koeficient.<br />
 (2) Lestvice katastrskega dohodka so določene v prilogi 1, ki je sestavni del te uredbe.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(pavšalna ocena dohodka na panj)</h3>
 <p>Pavšalna ocena dohodka na čebelji panj za leto 2014 znaša 17 eurov na čebelji panj.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(začetek veljavnosti)</h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00729-49/2013</p>
@@ -57,5 +70,36 @@ Predsednica</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-08-30", "kratica": "URED6473", "naziv": "Uredba o določitvi lestvic katastrskega dohodka in pavšalne ocene dohodka na panj za leto 2014", "url": "/trubar/si/URED6473/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

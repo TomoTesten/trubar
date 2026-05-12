@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3230" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO337.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO337" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO337.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO337,vrsta:odlok">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Odlok o spremembah in dopolnitvah odloka o preoblikovanju Univerze v Mariboru</h1>
 <p>Na podlagi 86. člena zakona o visokem šolstvu (Uradni list RS, št. 67/93 in 39/95 – odločba US) in 172. člena svojega poslovnika je Državni zbor Republike Slovenije na seji dne 1. oktobra 1996 sprejel</p>
 <h2>O D L O K</h2>
 <p>o spremembah in dopolnitvah odloka o preoblikovanju Univerze v Mariboru (OdPUM-B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V odloku o preoblikovanju Univerze v Mariboru (Uradni list RS, št. 82/94 in 77/95) se v 3. členu napovedni stavek spremeni tako, da se glasi:</p>
 <p>“Fakultete, visoke strokovne šole in knjižnice univerze (v nadaljnjem besedilu: članice) so:”</p>
 <p>Doda se nova enajsta alinea, ki se glasi:</p>
@@ -37,14 +50,14 @@
 <p>Univerzitetna knjižnica Maribor<br />
 Skrajšano ime: UM UK<br />
 Sedež: Maribor, Gospejna ulica 10.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Univerza v Mariboru prevzame delavce, ki so bili na dan uveljavitve tega odloka zaposleni v Univerzitetni knjižnici Maribor.<br />
 Z dnem uveljavitve tega odloka Univerza v Mariboru prevzame tudi premoženje ter vse pravice in obveznosti univerzitetne knjižnice.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Univerza v Mariboru mora najkasneje v treh mesecih po uveljavitvi tega odloka sprejeti spremembe in dopolnitve statuta v skladu s tem odlokom, v enem mesecu po uveljavitvi statuta pa oblikovati organe.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ravnateljica Univerzitetne knjižnice Maribor opravlja svojo funkcijo do konstituiranja organov v skladu s statutom Univerze v Mariboru.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 602-04/94-16/3</p>
 <p>Ljubljana, dne 1. oktobra 1996.</p>
@@ -60,5 +73,36 @@ Jožef Školč l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-10-11", "kratica": "ODLO337", "naziv": "Odlok o spremembah in dopolnitvah odloka o preoblikovanju Univerze v Mariboru", "url": "/trubar/si/ODLO337/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

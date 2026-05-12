@@ -16,20 +16,33 @@
     <dl>
       <dt>Kratica</dt><dd><strong>ODLO731</strong></dd>
       <dt>Vrsta</dt><dd>odlok</dd>
-      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
       <dt>Datum</dt><dd>1991-11-14</dd>
-      
+      <dt>Organ</dt><dd>IZVRŠNI SVET SKUPŠČINE REPUBLIKE SLOVENIJE</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1021" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO731.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO731" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO731.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO731,vrsta:odlok">
+    
     <h1>Odlok o znižanju stopenj temeljnega davka od prometa določenih naftnih derivatov</h1>
 <p>Na podlagi 70. člena zakona o začasnih ukrepih o davku od prometa proizvodov in storitev (Uradni list SFRJ, št. 4/91) izdaja Izvršni svet Skupščine Republike Slovenije</p>
 <h2>ODLOK</h2>
 <p>o znižanju stopenj temeljnega davka od prometa določenih naftnih derivatov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Od naftnih derivatov se plačuje temeljni prometni davek in sicer:</p>
 <ol>
 <li>od motornega bencina:                                                     %<br />
@@ -51,7 +64,7 @@ nizko vsebnostjo žvepla (LNŽ), srednjega, z nizko vsebnostjo žvepla (SNŽ),<b
 in težkega, z nizko vsebnostjo žvepla (TNŽ)                                6,8</li>
 </ol>
 <p>Če pravne osebe kurilno olje – mazut kupujejo pod pogoji in na način iz 7. člena tega zakona izključno za porabo pri pridobivanju surovega železa v plavžih, pri pridobivanju jekla v Siemens-martinskih pečeh ter v globinskih in ogrevnih pečeh, pri pridobivanju aluminija – v vseh fazah (proces razklopa boksita z natrijevim hidroksidom); pri uparjanju luga zaradi pridobitve glinice v fazi kalcinacije oziroma praženja aluminijevega hidrata; v procesu za vzdrževanje elektrolitnega aluminija v tekočem stanju pri določeni temperaturi v zbiralnih pečeh; pri proizvodnji livarskih zlitin aluminija v zbiralnih pečeh; pri pridobivanju feroniklja; pri proizvodnji cementa; pri proizvodnji bakrenca v plemenskih pečeh; za taljenje vložka za rafinacijo v topilnicah svinca, cinka in antimona; pri proizvodnji ognjevzdržnih materialov v rotacijskih pečeh; pri sortiranju keramičnih izdelkov; za taljenje surovin (kremenovega peska, dolomita, natrijevega glinenca, kalcinirane sode) v steklarskih pečeh; pri proizvodnji embalažnega in votlega stekla; v živilski industriji (proizvodnja sladkorja in jedilnega olja); v industriji gradbenega materiala; v termoelektrarnah na premog, v katerih se mazut uporablja za vžig; v termoelektrarnah in toplarnah na mazut z močjo več kot 30 MW – se plačuje temeljni davek od prometa proizvodov po stopnji 2,05%.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta odlok začne veljati z dnem objave v Uradnem listu Republike Slovenije.</p>
 <p>Št. 421-02/91-2/1-8</p>
 <p>Ljubljana, dne 13. novembra 1991.</p>
@@ -67,5 +80,36 @@ dr. Andro Ocvirk l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1991-11-14", "kratica": "ODLO731", "naziv": "Odlok o znižanju stopenj temeljnega davka od prometa določenih naftnih derivatov", "url": "/trubar/si/ODLO731/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

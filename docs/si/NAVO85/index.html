@@ -21,25 +21,38 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-01-1981" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO85.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO85" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO85.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO85,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Navodilo o načinu izdajanja mnenja, da posamezne barve za fasade, zidove, okna in vrata ne vsebujejo škodljivih snovi</h1>
 <p>Na podlagi drugega odstavka 1. točke opomb tar. št. 2 tarife davka od prometa proizvodov zakona o prometnem davku (Uradni list RS, št. 4/92), 272. in tretjega odstavka 273. člena zakona o sistemu državne uprave in o Izvršnem svetu Skupščine SR Slovenije ter o republiških upravnih organih (Uradni list SRS, št. 24/79, 12/82, 39/85, 37/87 in 18/88) in 18. člena zakona o organizaciji in delovnem področju republiške uprave (Uradni list RS, št. 27/91) izdaja minister za varstvo okolja in urejanje prostora</p>
 <h2>NAVODILO</h2>
 <p>o načinu izdajanja mnenja, da posamezne barve za fasade, zidove, okna in vrata ne vsebujejo škodljivih snovi</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem navodilom se določa način izdajanja mnenja, da posamezne barve za fasade, zidove, okna in vrata (v nadaljevanju: izdelki) ne vsebujejo škodljivih snovi, na podlagi katerega upravičenci uveljavljajo pravico do plačila prometnega davka po tar. št. 2 tarife davka od prometa proizvodov, ki je sestavni del zakona o prometnem davku.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Mnenje, da posamezni izdelki ne vsebujejo škodljivih snovi, izda Zavod Republike Slovenije za varstvo okolja in vodni režim kot organ v sestavi Ministrstva za varstvo okolja in urejanje prostora, v sodelovanju z Ministrstvom za finance.<br />
 Mnenje iz prejšnjega odstavka velja do spremembe sestave izdelka, vendar največ tri leta od njegove izdaje.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Zahtevku za pridobitev mnenja, da posamezni izdelki ne vsebujejo škodljivih snovi, mora prosilec priložiti presojo o ustreznosti izdelkov iz 4. člena tega navodila oziroma potrdilo o pridobitvi znaka za ekološko primerni proizvod v tujini.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Presojo o ustreznosti izdelkov glede na kriterije iz 5. člena tega navodila opravljajo strokovne institucije na osnovi raziskav posameznih izdelkov.<br />
 Izdelki, za katere je proizvajalec pridobil znak za ekološko primerni proizvod v tujini (npr. modri angel), ne potrebujejo dodatne presoje.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Pri izdaji mnenja, da posamezni izdelki ne vsebujejo škodljivih snovi, se upoštevajo naslednji kriteriji:<br />
 1. Izključene so naslednje skupine izdelkov:<br />
 a) zaščitna sredstva in lazure za les, ki vsebujejo biocide (razen fungicidov; glej točko 2c);<br />
@@ -57,7 +70,7 @@ f) izdelki ne smejo vsebovati hlapnih organskih spojin, navedenih v zadnji izdaj
 – vodotopni premazi 10,0 ut%<br />
 – nevodotopni premazi 15,0 ut%.<br />
 Nomenklatura površinskih premazov po teh kriterijih je povzeta po DIN 55945, december 1988, Površinski premazi (laki, barve in podobne snovi), izrazi.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 354-01-71/92</p>
 <p>Ljubljana, dne 3. avgusta 1992.</p>
@@ -73,5 +86,36 @@ Miha Jazbinšek l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-08-07", "kratica": "NAVO85", "naziv": "Navodilo o načinu izdajanja mnenja, da posamezne barve za fasade, zidove, okna in vrata ne vsebujejo škodljivih snovi", "url": "/trubar/si/NAVO85/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

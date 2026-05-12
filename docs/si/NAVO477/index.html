@@ -21,19 +21,32 @@
       <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4150" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO477.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO477" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO477.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO477,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Navodilo o zaključku izvrševanja državnega in občinskih proračunov za leto 2000</h1>
 <p>Na podlagi 95. člena zakona o javnih financah (Uradni list RS, št. 79/99) in 3. točke četrtega odstavka 13. člena zakona o izvrševanju proračuna Republike Slovenije za leto 2000 (Uradni list RS, št. 9/00) izdaja minister za finance</p>
 <h2>N A V O D I L O</h2>
 <p>o zaključku izvrševanja državnega in občinskih proračunov za leto 2000</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Neposredni uporabniki proračuna Republike Slovenije (v nadaljnjem besedilu: uporabniki) morajo pri prevzemanju obveznosti v breme proračuna Republike Slovenije za leto 2000 dogovarjati roke plačil, ki znašajo devetdeset dni od prejema listine, ki je podlaga za izplačilo.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Uporabniki lahko prevzemajo obveznosti, ki zapadejo v plačilo v breme proračuna Republike Slovenije za leto 2000, do vključno 2. novembra 2000, kar pa ne velja za obveznosti izvajanja poslov zadolževanja in subvencij.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V primeru, če v kvoti uporabnika, v okviru katere smejo uporabniki plačevati obveznosti v breme svojih finančnih načrtov, niso zagotovljene pravice porabe za plačilo vseh obveznosti, ki zapadejo v plačilo v letošnjem proračunskem letu, se obveznosti plačujejo v naslednjem vrstnem redu:<br />
 1. plačila domačih obresti – podskupina 403, plačila obresti v tujino – podskupina 404, odplačila domačega dolga – podskupina 550, odplačila dolga v tujino – podskupina 551, stroški finančnih razmerij (proračunska postavka številka 6522), stroški izdaje kratkoročnih vrednostnih papirjev (proračunska postavka številka 8761) in poroštva – podskupina 440, kot to omogoča 39. člen zakona o javnih financah (Uradni list RS, št. 79/99);<br />
 2. plače in drugi izdatki zaposlenim – podskupina 400, prispevki delodajalcev za socialno varnost – podskupina 401 in davek na izplačane plače – podkonto 402911;<br />
@@ -44,9 +57,9 @@
 7. izdatki za blago in storitve – podskupina 402 in<br />
 8. druga plačila.<br />
 Določba prejšnjega odstavka ne velja, če se s prerazporeditvami pravic porabe med uporabniki, izvedenimi na podlagi realizacije varčevalnih ukrepov Vlade Republike Slovenije za uravnoteženje proračuna Republike Slovenije za leto 2000, zagotovijo uporabniku zadostne pravice porabe za plačilo zapadlih obveznosti.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Župan določi končni rok za prevzemanje obveznosti, ki zapadejo v plačilo v breme občinskega proračuna za leto 2000, upoštevaje, da je proračunsko leto za občine enako koledarskemu, in da za občine veljajo plačilni roki iz 13. člena zakona o izvrševanju proračuna Republike Slovenije za leto 2000 (Uradni list RS, št. 9/00).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 401-76/2000</p>
 <p>Ljubljana, dne 23. oktobra 2000.</p>
@@ -61,5 +74,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-10-26", "kratica": "NAVO477", "naziv": "Navodilo o zaključku izvrševanja državnega in občinskih proračunov za leto 2000", "url": "/trubar/si/NAVO477/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

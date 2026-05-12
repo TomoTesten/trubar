@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4184" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1513.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG1513" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1513.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG1513,vrsta:drugi akt">
+    
     <h1>Dodatek k pravilom kviz loterije "Olimpijska srečka"</h1>
 <p>Na podlagi zakona o igrah na srečo (Uradni list RS, št. 27/95, spremembe in dopolnitve Uradni list RS, št. 85/01), poslovnika o delu uprave in pravil kviz loterije »Olimpijska srečka«, je uprava družbe Športna loterija in igre na srečo d.d., dne 19. 8. 2002 sprejela</p>
 <h2>D O D A T E K   K   P R A V I L O M</h2>
 <p>kviz loterije »Olimpijska srečka«</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 3. seriji igre se sklad za dobitke razdeli na naslednje vrste dobitkov:</p>
 <hr />
 <h2>Število dobitkov        Vrednost dobitkov        Skupna vrednost</h2>
@@ -52,14 +65,14 @@
 <p>Bonus dobitki<br />
              170              100.000 SIT         17,000.000 SIT</p>
 <hr />
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Začetek prodaje 3. serije srečk je 1. 10. 2002.<br />
 Zaključek prodaje 3. serije srečk je 28. 2. 2004.<br />
 Zaključno žrebanje 3. serije je najmanj 7 dni po zaključku prodaje serije.<br />
 Zadnji dan za izplačilo bonus dobitkov je 60 dni po javni objavi poročila o izidu žrebanja.<br />
 Zadnji dan za izplačilo denarnih dobitkov 3. serije je 28. 5. 2004.<br />
 Če prireditelj proda vse srečke pred uradnim zaključkom prodaje, ali če podaljša zaključek prodaje 3. serije srečk, lahko datum zaključnega žrebanja spremeni. Datum zaključnega žrebanja bo objavljen v javnem glasilu najmanj 30 dni pred zaključnim žrebanjem.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V skladu z 10. členom pravil je žrebanje praviloma vsak prvi ponedeljek v mesecu. Na vsakem žrebanju izžrebamo po deset dobitnikov, ki prejmejo bonus dobitek v vrednosti 100.000 SIT. Morebitno spremembo dneva žrebanja prireditelj objavi v javnem glasilu najmanj 7 dni pred žrebanjem.</p>
 <p>Št. 180-4/02</p>
 <p>Ljubljana, dne 30. septembra 2002.</p>
@@ -75,5 +88,36 @@ Ministrstvo za finance – Urad RS za nadzor prirejanja iger na srečo je ta dod
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-10-04", "kratica": "DRUG1513", "naziv": "Dodatek k pravilom kviz loterije \"Olimpijska srečka\"", "url": "/trubar/si/DRUG1513/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

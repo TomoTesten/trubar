@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-2911" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIPRS0809-C.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZIPRS0809-C" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIPRS0809-C.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZIPRS0809-C,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembi in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2008 in 2009</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,18 +50,18 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBI IN DOPOLNITVAH ZAKONA O IZVRŠEVANJU PRORAČUNOV REPUBLIKE SLOVENIJE ZA LETI 2008 IN 2009 (ZIPRS0809-C)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o izvrševanju proračunov Republike Slovenije za leti 2008 in 2009 (Uradni list RS, št. 114/07, 58/08, 58/08 – ZZdrS-E, 109/08 – <a href="/trubar/si/ZJF-D/" class="law-ref" title="ZJF-D">ZJF-D</a>, 26/09 in 31/09 – popr.) se v četrtem odstavku 20. člena za 4. točko pika nadomesti s podpičjem in doda nova 5. točka, ki se glasi:<br />
 »5. pogodbe za izvedbo popisa, kadar predpisi Skupnosti določajo obveznost popisa in časovni okvir v katerem je popis potrebno izvesti.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 27. členom se doda nov 27.a člen, ki se glasi:</p>
 <h3>»27.a člen</h3>
 <h3>(izjema od obveznosti izterjave)</h3>
 <p>Postopkov izterjave za zneske, ki brez obresti ne presegajo 100 eurov, ni potrebno izvesti za namenska sredstva EU in sredstva slovenske udeležbe, kadar predpisi Skupnosti, ki se uporabljajo neposredno, to omogočajo.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prvem odstavku 31. člena se znesek »2.296.167.073 eurov« nadomesti z zneskom »3.347.432.617 eurov«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 411-02/09-16/16</p>
 <p>Ljubljana, dne 17. julija 2009</p>
@@ -65,5 +78,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-07-30", "kratica": "ZIPRS0809-C", "naziv": "Zakon o spremembi in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2008 in 2009", "url": "/trubar/si/ZIPRS0809-C/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

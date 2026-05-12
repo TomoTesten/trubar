@@ -21,30 +21,43 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0162" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO69.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO69" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO69.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO69,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a><a href="#člen-9">9</a><a href="#člen-10">10</a><a href="#člen-11">11</a><a href="#člen-12">12</a></nav>
     <h1>Navodilo za izračun komunalnega prispevka</h1>
 <p>Na podlagi tretjega odstavka 42. člena zakona o stavbnih zemljiščih (Uradni list RS, št. 44/97) izdaja minister za okolje in prostor</p>
 <h2>N A V O D I L O</h2>
 <p>za izračun komunalnega prispevka</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) Osnovo za izračun komunalnega prispevka predstavljajo stroški prve izgradnje komunalne opreme, ki ima status javne infrastrukture in njenega priključevanja na ustrezna omrežja oskrbovalnih sistemov.<br />
 (2) V osnovo za izračun komunalnega prispevka ni mogoče vključevati stroškov za obratovanje in redno vzdrževanje komunalne opreme.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Pri izračunu komunalnega prispevka je prispevek zavezanca za plačilo komunalnega prispevka (v nadaljnjem besedilu: zavezanec) lahko največ enak dejanskim stroškom, ki jih povzroči zgraditev komunalne opreme na določenem območju naselja (v nadaljnjem besedilu: območje opremljanja) in ki v sorazmernem delu odpadejo na njegov objekt, namenjen za prebivanje oziroma opravljanje dejavnosti (v nadaljnjem besedilu: stavba) oziroma zemljiško parcelo, na kateri namerava graditi stavbo oziroma je njegova stavba že zgrajena (v nadaljnjem besedilu: stavbna parcela).<br />
 (2) Zgraditev komunalne opreme iz prejšnjega odstavka pomeni gradnja nove komunalne opreme ali rekonstrukcija in povečanje zmogljivosti obstoječe komunalne opreme (v nadaljnjem besedilu: prenova komunalne opreme) in njeno priključevanje na ustrezna omrežja oskrbovalnih sistemov.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Pri izračunu komunalnega prispevka morajo biti na določenih območjih opremljanja vsi zavezanci enakomerno obremenjeni glede na delež dejanskih stroškov iz prvega odstavka prejšnjega člena, ki v sorazmernem delu odpadejo na njihove stavbe oziroma stavbne parcele.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>(1) Občina lahko izračuna komunalni prispevek le na podlagi sprejetega programa opremljanja.<br />
 (2) Pri izračunu komunalnega prispevka se morajo poleg določb tega navodila upoštevati tudi merila za razdelitev stroškov komunalne opreme med zavezance in občino, ki jih določa finančni del programa opremljanja stavbnih zemljišč (v nadaljnjem besedilu: program opremljanja).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>(1) Komunalni prispevek se po izbiri zavezanca lahko plača kot enkratni znesek ali z akontiranjem odmerjenega zneska in končnim poračunom.<br />
 (2) Osnovo za izračun komunalnega prispevka v enkratnem znesku predstavlja projektantski popis s predizmerami in stroškovno oceno, ki se jo izračuna v skladu s predpisi o podrobnejši vsebini projektne dokumentacije. Zahtevani podatki se prevzemajo neposredno iz projekta za pridobitev gradbenega dovoljenja.<br />
 (3) Osnovo za izračun višine akontiranih zneskov komunalnega prispevka predstavlja strošek izgradnje tiste komunalne opreme, ki predstavlja javno infrastrukturo ter njenega priključevanja na ustrezna omrežja oskrbovalnih sistemov, preračunan na m2 vseh stavbnih parcel v občini in površino posamezne stavbne parcele. Zahtevani podatki se prevzamejo neposredno iz finančnega dela programa opremljanja.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Komunalni prispevek se za vse vrste komunalne opreme, ki jih za posamezno območje opremljanja določa program opremljanja, izračuna kot vsota prispevkov, ki se jih za posamezno vrsto komunalne opreme izračuna po naslednjem obrazcu:</p>
 <p>s. ps<br />
 kpx = ------- · psp<br />
@@ -55,7 +68,7 @@ s - stroški izgradnje oziroma prenove posamezne vrste komunalne opreme in njene
 ps - prispevna stopnja zavezanca, v %<br />
 vpsp - vsota površin vseh stavbnih parcel na območju opremljanja, v m2<br />
 psp - površina stavbne parcele zavezanca, v m2.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Če je zaradi priključitve posameznega območja opremljanja na ustrezno omrežje oskrbovalnega sistema potrebno rekonstruirati ali razširiti zmogljivost posameznih objektov in naprav takšnega oskrbovalnega sistema, se h komunalnemu prispevku, izračunanemu na način iz prejšnjega člena, prištejejo še ustrezni dodatni prispevki, ki se jih izračuna po naslednjih obrazcih:<br />
 1. pri omrežjih oskrbovalnih sistemov s področja individualne rabe:</p>
 <p>s. ps<br />
@@ -87,17 +100,17 @@ s - stroški izgradnje novih oziroma razširjevanja obstoječih zmogljivosti, v 
 ps - prispevna stopnja zavezanca, v %<br />
 dvp - dodaten volumen prometa<br />
 vp - volumen prometa, ki ga povzroči zavezanec.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>(1) Do uveljavitve programov opremljanja po predpisu o vsebini programa opremljanja se za program opremljanja šteje občinski investicijski program urejanja stavbnih zemljišč, sprejet po dosedanjih predpisih.<br />
 (2) Do uveljavitve programa opremljanja po predpisu iz prejšnjega odstavka se komunalni prispevek izračuna tako, da se kot podlaga za izračun upoštevajo povprečni stroški izgradnje oziroma prenove komunalne opreme in njenega priključevanja na ustrezna omrežja oskrbovalnih sistemov (v nadaljnjem besedilu: povprečni stroški komunalne opreme). Povprečni stroški komunalne opreme se določijo kot povprečje stroškov opremljanja na kvadratni meter (1 m2) vseh stavbnih parcel v občini v predhodnem letu.</p>
-<h3>9. člen</h3>
+<h3><span id="člen-9">9. člen</span></h3>
 <p>Začeti postopki za izračun komunalnega prispevka, v katerih do uveljavitve tega navodila še niso izdane odločbe o odmeri komunalnega prispevka, se nadaljujejo po dosedanjih predpisih.</p>
-<h3>10. člen</h3>
+<h3><span id="člen-10">10. člen</span></h3>
 <p>(1) Za omrežja oskrbovalnih sistemov po tem navodilu se štejejo primarna in magistralna omrežja po navodilu o tem, kaj se šteje za sekundarno, primarno in magistralno omrežje komunalnih in drugih objektov in naprav (Uradni list SRS, št. 27/85) in tisti objekti in naprave sekundarnih omrežij oziroma njihovi deli, ki s predpisom o tehničnih pogojih opremljanja stavbnih zemljišč (v nadaljnjem besedilu: tehnični pogoji opremljanja) niso določeni kot komunalna oprema.<br />
 (2) Do uveljavitve predpisa o tehničnih pogojih opremljanja se za tehnične pogoje opremljanja po tem navodilu štejejo tisti tehnični predpisi, normativi in standardi, s katerimi se zagotavlja, da so za stavbe oziroma stavbne parcele v skladu z zakonom zagotovljeni priključki na predpisano javno infrastrukturo.</p>
-<h3>11. člen</h3>
+<h3><span id="člen-11">11. člen</span></h3>
 <p>Z dnem uveljavitve tega navodila preneha veljati navodilo za podrobnejši izračun sorazmernega dela stroškov priprave in opremljanja stavbnega zemljišča s komunalnimi in drugimi objekti in napravami sekundarnega omrežja (Uradni list RS, št. 22/90).</p>
-<h3>12. člen</h3>
+<h3><span id="člen-12">12. člen</span></h3>
 <p>To navodilo začne veljati 25. januarja 1999.</p>
 <p>Št. 462-00-33/97/3</p>
 <p>Ljubljana, dne 19. januarja 1999.</p>
@@ -112,5 +125,36 @@ za okolje in prostor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-01-22", "kratica": "NAVO69", "naziv": "Navodilo za izračun komunalnega prispevka", "url": "/trubar/si/NAVO69/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

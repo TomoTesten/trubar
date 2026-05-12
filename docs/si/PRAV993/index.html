@@ -21,38 +21,51 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1577" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV993.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV993" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV993.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV993,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a><a href="#člen-9">9</a></nav>
     <h1>Pravilnik o finančnem poslovanju zbornice</h1>
 <p>Na podlagi 28. člena statuta Veterinarske zbornice Slovenije je ustanovna skupščina Veterinarske zbornice Slovenije dne 22. 4. 1995 sprejela</p>
 <h2>P R A V I L N I K</h2>
 <p>o finančnem poslovanju zbornice</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik ureja način zbiranja in razporejanja sredstev zbornice ter nadzor nad finančnim poslovanjem.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Finančno poročilo za preteklo leto mora sprejeti skupščina do konca februarja tekočega leta.<br />
 Predlog proračuna zbornice pripravi izvršilni odbor do 31. decembra za naslednje leto, sprejema pa ga skupščina zbornice z navadno večino prisotnih poslancev.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Dokler ni sprejet proračun, se iz prihodkov lahko financirajo le tekoče dejavnosti zbornice.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Izvršilni odbor med letom usklajuje bilanco prihodkov in odhodkov, določa dinamiko porabe, odloča o začasni uporabi likvidnostnih proračunskih sredstev ali o zadolževanju zbornice ter o nenačrtovani porabi. Za zneske do 1 milijona SIT odloča tudi direktor zbornice.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Viri sredstev zbornice so:<br />
 – vpisnina,<br />
 – članarina in drugi prispeki članov,<br />
 – dohodki od izvajanja strokovnih nalog ter drugih poslov,<br />
 – proračun,<br />
 – donatorstvo in drugi viri.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Finančno poslovanje zbornice se opravlja preko enotnega žiro računa.<br />
 Regijski odbori imajo lahko svoje vire dohodkov.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Nadzor nad finančnim poslovanjem zbornice opravlja nadzorni odbor, ki so mu strokovne službe dolžne omogočiti dostop do vseh podatkov. Nadzor se opravi enkrat letno pred sprejemom zaključnega računa, ali na zahtevo predsednika zbornice, izvršilnega odbora ali dveh regijskih odborov.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Odgovorne osebe za podpisovanje finančnih dokumentov so predsednik zbornice, predsednik izvršilnega odbora in direktor zbornice.</p>
-<h3>9. člen</h3>
+<h3><span id="člen-9">9. člen</span></h3>
 <p>Ta pravilnik začne veljati, ko ga sprejme skupščina zbornice in je objavljen v Vestniku Veterinarske zbornice.<br />
 Pravilnik je bil objavljen v Vestniku Veterinarske zbornice, št. 13. z dne 6. 3. 1997.</p>
 <p>Predsednik<br />
@@ -67,5 +80,36 @@ doc. dr. Borut Zemljič l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-05-16", "kratica": "PRAV993", "naziv": "Pravilnik o finančnem poslovanju zbornice", "url": "/trubar/si/PRAV993/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

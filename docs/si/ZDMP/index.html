@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4832" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZDMP.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZDMP" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZDMP.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZDMP,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o določitvi minimalne plače</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in drugega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,17 +50,17 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O DOLOČITVI MINIMALNE PLAČE (ZDMP)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem zakonom se določa način usklajevanja minimalne plače, ki pripada zaposlenemu oziroma zaposleni za delo s polnim delovnim časom, in znesek minimalne plače za opravljeno delo za čas od 1. avgusta 2006 do 31. julija 2007, ter zajamčena plača od 1. avgusta 2006 dalje.<br />
 Minimalna plača je določena v mesečnem znesku in se lahko izplačuje v nižjem, sorazmernem znesku le pri zaposlitvi za krajši delovni čas od polnega.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Minimalna plača se 1. avgusta vsako leto poveča za pričakovano rast cen življenjskih potrebščin v letu, ki jo kot podlago za pripravo državnega proračuna sprejme Vlada Republike Slovenije.<br />
 Znesek minimalne plače na podlagi navedene ocene in po posvetovanju s socialnimi partnerji ugotovi minister oziroma ministrica, pristojna za delo, in ga objavi v Uradnem listu Republike Slovenije.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ob upoštevanju pričakovane rasti cen življenjskih potrebščin v letu 2006 in dogovorjenih odstotkov povečanja plač v kolektivnih pogodbah za javni in zasebni sektor za leto 2006 se veljavni znesek minimalne plače za opravljeno delo od 1. avgusta 2006 do 31. julija 2007 poveča za 2% in je 125.052 tolarjev.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za odstotek iz prejšnjega člena se poveča tudi veljavna zajamčena plača, ki se uporablja kot osnova za odmero pravic na podlagi posebnih zakonov, tako da je od 1. avgusta 2006 56.970 tolarjev.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 430-03/06-21/1</p>
 <p>Ljubljana, dne 26. oktobra 2006</p>
@@ -64,5 +77,36 @@ France Cukjati, dr. med., l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-11-09", "kratica": "ZDMP", "naziv": "Zakon o določitvi minimalne plače", "url": "/trubar/si/ZDMP/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

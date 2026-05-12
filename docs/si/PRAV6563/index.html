@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-0709" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6563.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV6563" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6563.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV6563,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi in dopolnitvah Pravilnika o ukrepih za preprečevanje širjenja in zatiranje hruševega ožiga</h1>
 <p>Na podlagi tretjega odstavka 9. člena, petega odstavka 10. člena, tretjega odstavka 12. člena, prve, tretje in četrte alinee 73. člena Zakona o zdravstvenem varstvu rastlin (Uradni list RS, št. 45/01, 52/02 – <a href="/trubar/si/ZDU-1/" class="law-ref" title="ZDU-1">ZDU-1</a>, 45/04 – <a href="/trubar/si/ZdZPKG/" class="law-ref" title="ZdZPKG">ZdZPKG</a> in 86/04) izdaja ministrica za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembi in dopolnitvah Pravilnika o ukrepih za preprečevanje širjenja in zatiranje hruševega ožiga</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o ukrepih za preprečevanje širjenja in zatiranje hruševega ožiga (Uradni list RS, št. 18/04 in 44/04) se 29. člen spremeni tako, da se glasi:</p>
 <h3>»29. člen</h3>
 <h3>(lokacija pridelave)</h3>
@@ -40,7 +53,7 @@
 – je mogoče vzpostaviti območje brez gostiteljskih rastlin iz prvega odstavka 24. člena tega pravilnika.<br />
 (3) Fitosanitarni inšpektor ne odobri vzpostavitve drevesnice ali matičnega nasada, če se lokacija nahaja na območju, kjer se je hrušev ožig ustalil.<br />
 (4) V primerih iz prejšnjega odstavka fitosanitarni inšpektor napoti pridelovalca gostiteljskih rastlin za saditev, da poda predlog za vzpostavitev nevtralnega območja pridelave rastlin za saditev v skladu s petim odstavkom 4. člena tega pravilnika.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 29. členom se dodata 29.a in 29.b člen, ki se glasita:</p>
 <h3>»29.a člen</h3>
 <h3>(letna prijava pridelave v drevesnici)</h3>
@@ -54,7 +67,7 @@
 <p>(1) Pridelovalec cepičev in podlag gostiteljskih rastlin prijavi na odobreni lokaciji iz 29. člena tega pravilnika letno pridelavo najpozneje do 30. aprila v skladu s prvim odstavkom prejšnjega člena.<br />
 (2) Pridelovalec, ki namerava uporabljati rodni nasad kot matični nasad gostiteljskih rastlin, mora takšen nasad prijaviti v skladu s prvim odstavkom prejšnjega člena do 31. marca v letu pred začetkom uporabe cepičev oziroma drugih delov rastlin za saditev.<br />
 (3) Pristojni fitosanitarni inšpektor prepove rabo matičnega nasada, če ugotovi, da se lokacija ne nahaja na varovanem ali nevtralnem območju oziroma če imetnik rastlin ni izvršil vseh odrejenih ukrepov, da se rastline, okužene s hruševim ožigom, odstrani v skladu z 10. členom tega pravilnika.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 327-01-613/2003-2</p>
 <p>Ljubljana, dne 9. februarja 2005.</p>
@@ -70,5 +83,36 @@ gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-03-04", "kratica": "PRAV6563", "naziv": "Pravilnik o spremembi in dopolnitvah Pravilnika o ukrepih za preprečevanje širjenja in zatiranje hruševega ožiga", "url": "/trubar/si/PRAV6563/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

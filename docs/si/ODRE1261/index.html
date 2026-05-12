@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Ministrstvo za notranje zadeve</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3641" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1261.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE1261" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1261.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE1261,vrsta:odredba">
+    
     <h1>Odredba o delih, ki jih policist ne sme opravljati</h1>
 <p>Na podlagi 83. člena zakona o policiji (Uradni list RS, št. 49/98) izdaja minister za notranje zadeve</p>
 <h2>O D R E D B O</h2>
 <p>o delih, ki jih policist ne sme opravljati</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Policist ne sme poleg svojega dela opravljati naslednjih del, ker bi ga ovirala pri opravljanju policijskih nalog:<br />
 – delo v tujini in delo za tuje pravne osebe;<br />
 – prodaja in trženje blaga;<br />
@@ -40,9 +53,9 @@
 – spremljanje in zavarovanje izrednih prevozov, predimenzioniranih tovorov ali prenosov pošiljk na javnih cestah;<br />
 – delo v zasebni varnostni agenciji in detektivski dejavnosti;<br />
 – zavarovanje javnih shodov in javnih prireditev ter rediteljska dejavnost v gostinskih in drugih objektih.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Z dnem uveljavitve te odredbe preneha veljati odredba o delih, ki jih policist ne sme opravljati (Uradni list RS,  št. 42/00).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta odredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0202-1-009/55-2000</p>
 <p>Ljubljana, dne 29. avgusta 2000.</p>
@@ -57,5 +70,36 @@ za notranje zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-09-08", "kratica": "ODRE1261", "naziv": "Odredba o delih, ki jih policist ne sme opravljati", "url": "/trubar/si/ODRE1261/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -16,20 +16,33 @@
     <dl>
       <dt>Kratica</dt><dd><strong>PRAV2497</strong></dd>
       <dt>Vrsta</dt><dd>pravilnik</dd>
-      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
       <dt>Datum</dt><dd>1995-01-20</dd>
-      
+      <dt>Organ</dt><dd>Ministrstvo za okolje in prostor</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0291" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2497.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV2497" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2497.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV2497,vrsta:pravilnik">
+    
     <h1>Pravilnik o načinu valorizacije vrednosti lastne udeležbe za pridobitev stanovanjske pravice</h1>
 <p>Na podlagi 153. člena stanovanjskega zakona (Uradni list RS, št 18/91-I in 21/94) izdaja minister za okolje in prostor</p>
 <h2>P R A V I L N I K</h2>
 <p>o načinu valorizacije vrednosti lastne udeležbe za pridobitev stanovanjske pravice</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Lastna udeležba, ki so jo bili imetniki stanovanjske pravice dolžni plačati pred vselitvijo v družbeno stanovanje, se valorizira glede na leto, v katerem je bila plačana na podlagi količnikov za valorizacijo vrednosti lastne udeležbe.<br />
 Količniki za valorizacijo zneska lastne udeležbe so izračunani za vsako leto na stanje 31. december, razen za tekoče leto. Znesek lastne udeležbe (upoštevaje denominacijo iz leta 1989), plačan v določenem mesecu med letom, se najprej valorizira do konca leta z mesečnimi indeksi porasta cen na drobno. Tako dobljen znesek se pomnoži s pripadajočim količnikom, izračunanim na osnovi rasti vrednosti točke za ugotovitev vrednosti stanovanja, in sicer:</p>
 <hr />
@@ -66,9 +79,9 @@ plačana lastna udeležba</p>
      1994 (december)              1,00
 </code></pre>
 <hr />
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Z dnem uveljavitve tega pravilnika preneha veljati pravilnik o načinu valorizacije vrednosti lastne udeležbe (Uradni list RS, št. 80/94).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 361-00-81/91</p>
 <p>Ljubljana, dne 17. januarja 1995</p>
@@ -83,5 +96,36 @@ dr. Pavel Gantar l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-01-20", "kratica": "PRAV2497", "naziv": "Pravilnik o načinu valorizacije vrednosti lastne udeležbe za pridobitev stanovanjske pravice", "url": "/trubar/si/PRAV2497/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

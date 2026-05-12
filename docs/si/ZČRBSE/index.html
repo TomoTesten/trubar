@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-0665" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZČRBSE.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZČRBSE" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZČRBSE.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZČRBSE,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Zakon o članstvu Republike Slovenije v Razvojni Banki Sveta Evrope</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,24 +50,24 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O ČLANSTVU REPUBLIKE SLOVENIJE  V RAZVOJNI BANKI SVETA EVROPE (ZČRBSE)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem zakonom se urejajo vprašanja v zvezi s članstvom Republike Slovenije v Razvojni banki Sveta Evrope, v skladu s pogoji Razvojne banke Sveta Evrope.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V skladu s sklepom upravnega odbora Razvojne banke Sveta Evrope, da Sklad Sveta Evrope za socialni razvoj preimenuje v Razvojno banko Sveta Evrope (Council of Europe Development Bank), se v Republiki Sloveniji uporablja ime Razvojna banka Sveta Evrope (v nadaljnjem besedilu: banka).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ministrstvo, pristojno za finance in ministrstvo, pristojno za zunanje zadeve, skrbita za uresničevanje vseh pravic in obveznosti, ki izhajajo iz članstva Republike Slovenije v banki.<br />
 Ministrstvi iz prejšnjega odstavka sta pristojni za komuniciranje z banko.<br />
 Minister, pristojen za finance in minister, pristojen za zunanje zadeve, izdata potrebne listine in izvedeta opravila, ki so potrebna za uresničevanje pravic in obveznosti iz prvega odstavka tega člena.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ministrstvo, pristojno za finance, je fiskalni agent Republike Slovenije v poslovanju z banko.<br />
 Delnice Republike Slovenije v banki so premoženje Republike Slovenije in so v skrbi ministrstva, pristojnega za finance. Sredstva za plačilo dospelih obveznosti iz naslova povečanj delniškega kapitala banke ter morebitnih drugih obveznosti, določenih v skladu s pravili banke se zagotavljajo iz proračuna Republike Slovenije.<br />
 Vlada Republike Slovenije odloča o vsakokratnem povečanju kapitala banke, svojo odločitev pa posreduje v vednost Državnemu zboru Republike Slovenije.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Republiko Slovenijo v administrativnem svetu banke predstavlja predstavnik ministrstva, pristojnega za finance, v upravnem odboru pa predstavnik ministrstva, pristojnega za zunanje zadeve.<br />
 Predstavnike po tem členu imenuje Vlada Republike Slovenije.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Vlada Republike Slovenije lahko določi natančnejše pogoje za izvajanje obveznosti do banke.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 412-01/00-25/1</p>
 <p>Ljubljana, dne 1. februarja 2001.</p>
@@ -70,5 +83,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-02-16", "kratica": "ZČRBSE", "naziv": "Zakon o članstvu Republike Slovenije v Razvojni Banki Sveta Evrope", "url": "/trubar/si/ZČRBSE/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

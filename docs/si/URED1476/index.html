@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-0349" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1476.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1476" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1476.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1476,vrsta:uredba">
+    
     <h1>Uredba o dopolnitvi uredbe o kriterijih za določanje količnikov za določitev osnovne plače direktorjev javnih zavodov</h1>
 <p>Na podlagi 5. člena zakona o razmerjih plač v javnih zavodih, državnih organih in v organih lokalnih skupnosti (Uradni list RS, št. 18/94 in 36/96) in 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93 in 23/96) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o dopolnitvi uredbe o kriterijih za določanje količnikov za določitev osnovne plače direktorjev javnih zavodov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o kriterijih za določanje količnikov za določitev osnovne plače direktorjev javnih zavodov (Uradni list RS, št. 26/94) se v 5. členu doda nova četrta alinea, ki se glasi:<br />
 ‘– na področju vzgoje in izobraževanja in socialnega varstva le delovna mesta direktorjev javnih zavodov, ki opravljajo strokovno, svetovalno, analitično, informacijsko ter razvojno raziskovalno dejavnost nacionalnega pomena in je njihov ustanovitelj Republika Slovenija.’</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 113-01/97-23/1-8</p>
 <p>Ljubljana, dne 24. januarja 1997.</p>
@@ -47,5 +60,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-01-31", "kratica": "URED1476", "naziv": "Uredba o dopolnitvi uredbe o kriterijih za določanje količnikov za določitev osnovne plače direktorjev javnih zavodov", "url": "/trubar/si/URED1476/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2015-01-1612" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6120.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6120" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6120.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6120,vrsta:uredba">
+    
     <h1>Uredba o podelitvi koncesije in načinu izvajanja gospodarske javne službe dejavnost operaterja trga z elektriko</h1>
 <p>Na podlagi četrtega odstavka 98. člena in za izvrševanja 97. člena Energetskega zakona (Uradni list RS, št. 17/14), drugega odstavka 3. člena in 32. člena Zakona o gospodarskih javnih službah (Uradni list RS, št. 32/93, 30/98 – <a href="/trubar/si/ZZLPPO/" class="law-ref" title="ZZLPPO">ZZLPPO</a>, 127/06 – <a href="/trubar/si/ZJZP/" class="law-ref" title="ZJZP">ZJZP</a>, 38/10 – <a href="/trubar/si/ZUKN/" class="law-ref" title="ZUKN">ZUKN</a> in 57/11) ter 36. in 40. člena Zakona o javno-zasebnem partnerstvu (Uradni list RS, št. 127/07) izdaja Vlada Republike Slovenije</p>
 <p>U R E D B O</p>
@@ -206,5 +219,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2015-06-05", "kratica": "URED6120", "naziv": "Uredba o podelitvi koncesije in načinu izvajanja gospodarske javne službe dejavnost operaterja trga z elektriko", "url": "/trubar/si/URED6120/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

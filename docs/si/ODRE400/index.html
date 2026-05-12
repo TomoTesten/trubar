@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2345" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE400.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE400" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE400.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE400,vrsta:odredba">
+    
     <h1>Odredba o spremembi EUROCONTROL pogojev uporabe sistema pristojbin na zračnih poteh in plačilnih pogojev</h1>
 <p>Na podlagi 264. člena zakona o zračni plovbi (Uradni list SFRJ, št. 45/86, 24/88, 80/89 in 29/90 in Uradni list RS, št. 58/93) v zvezi s 4. členom ustavnega zakona za izvedbo temeljne ustavne listine o samostojnosti in neodvisnoti Republike Slovenije (Uradni list RS, št. 1/91-I), 99. člena zakona o upravi (Uradni list RS, št. 67/94) in 11. člena EUROCONTROL pogojev uporabe sistema pristojbin na zračnih poteh in plačilnih pogojev (Uradni list RS, št. 77/95) in v skladu s sklepom razširjene Stalne komisije Evropske organizacije za varnost zračne plovbe – EUROCONTROL št. 36 z dne 10. 12. 1996, ki velja od dne 1. 1. 1997 izdaja minister za promet in zveze v soglasju z ministrom za finance</p>
 <h2>O D R E D B O</h2>
 <p>o spremembi EUROCONTROL pogojev uporabe sistema pristojbin na zračnih poteh in plačilnih pogojev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>EUROCONTROL pogoji uporabe sistema pristojbin na zračnih poteh in plačilni pogoji (Uradni list RS, št. 77/95) se dopolnijo tako, da se drugi odstavek 7. člena pogojev uporabe sistema pristojbin na zračnih poteh nadomesti z besedilom, ki se glasi:</p>
 <p>“2. Uporabljal se bo menjalni tečaj, ki je povprečni mesečni tečaj “zaključnega navzkrižnega tečaja” kot ga izračunava REUTERS na osnovi dnevnega ponudbenega tečaja.”</p>
 <p>Tretji odstavek 1. člena plačilnih pogojev se nadomesti z besedilom, ki se glasi:</p>
@@ -37,7 +50,7 @@
 <p>Prvi odstavek 3. člena plačilnih pogojev se nadomesti z besedilom, ki se glasi:</p>
 <p>“Šteje se, da je plačilo sprejeto na datum valutacije, ko je bil dolgovan znesek vplačan v dobro EUROCONTROL bančnega računa. Datum valutacije je datum, na katerega EUROCONTROL lahko uporabi namenska sredstva.</p>
 <p>Drugi odstavek 3. člena plačilnih pogojev se razveljavi.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 921-21/97-647</p>
 <p>Ljubljana, dne 20. junija 1997.</p>
@@ -56,5 +69,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-07-17", "kratica": "ODRE400", "naziv": "Odredba o spremembi EUROCONTROL pogojev uporabe sistema pristojbin na zračnih poteh in plačilnih pogojev", "url": "/trubar/si/ODRE400/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

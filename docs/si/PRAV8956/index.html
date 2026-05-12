@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-0315" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8956.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV8956" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV8956.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV8956,vrsta:pravilnik">
+    
     <h1>Pravilnik o določitvi seznama enakovrednih tretjih držav</h1>
 <p>Na podlagi petega odstavka 25. člena Zakona o preprečevanju pranja denarja in financiranja terorizma (Uradni list RS, št. 60/07) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o določitvi seznama enakovrednih tretjih držav</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem pravilnikom se določa seznam enakovrednih tretjih držav, ki po podatkih Evropske komisije in drugih pristojnih mednarodnih organizacij ter po podatkih Urada Republike Slovenije za preprečevanje pranja denarja predpisujejo in upoštevajo standarde glede odkrivanja in preprečevanja pranja denarja in financiranja terorizma, kakor so opredeljeni v Direktivi Evropskega parlamenta in Sveta 2005/60/ES z dne 26. oktobra 2005 o preprečevanju uporabe finančnega sistema za pranje denarja in financiranje terorizma (UL L št. 309 z dne 25. 11. 2005, str. 15).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Države iz prejšnjega člena so določene v Seznamu enakovrednih tretjih držav, ki je Priloga tega pravilnika in njegov sestavni del.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-20/2008/2</p>
 <p>Ljubljana, dne 16. januarja 2008</p>
@@ -67,5 +80,36 @@ republike Kitajske,<br />
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-01-30", "kratica": "PRAV8956", "naziv": "Pravilnik o določitvi seznama enakovrednih tretjih držav", "url": "/trubar/si/PRAV8956/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

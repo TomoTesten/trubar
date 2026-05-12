@@ -21,26 +21,39 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1991-01-0522" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO671.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO671" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO671.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO671,vrsta:odlok">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Odlok o načinu oblikovanja cen pšenice, moke in kruha</h1>
 <p>Na podlagi 5. člena zakona o cenah (Uradni list Republike Slovenije, št. 1/91-I) in 271. člena zakona o sistemu državne uprave in o Izvršnem svetu Skupščine SR Slovenije ter o republiških upravnih organih (Uradni list SRS, št. 24/79, 12/82, 39/85, 37/87 in 18/88) izdaja Izvršni svet Skupščine Republike Slovenije</p>
 <h2>ODLOK</h2>
 <p>o načinu oblikovanja cen pšenice, moke in kruha</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Podjetja in zasebniki, ki predelujejo pšenico in kupujejo moko, oblikujejo drobnoprodajne cene moke v kilogramski embalaži v razmerju do cene pšenice, ki znaša 6 dinarjev za kg, in sicer:<br />
 1: največ 3,5 za moko TIP 400<br />
 1: največ 3,0 za moko TIP 500<br />
 1: največ 2,5 za moko TIP 850.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Drobnoprodajne cene vseh vrst kruha (razen rženega, koruznega in ajdovega kruha) smejo podjetja in zasebniki, ki proizvajajo ta kruh, oblikovati do cene pšenice, oblikovane na podlagi 1. člena tega odloka, v razmerju 1: največ 6 dinarjev za kilogram.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Delež stroškov prometa se vključi v drobnoprodajno ceno moke in kruha, oblikovano na podlagi 1. in 2. člena tega odloka. Stroški prometa na debelo in drobno pri moki znašajo skupaj 20% od drobnoprodajne cene, pri kruhu pa 13%.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Z dnem uveljavitve tega odloka preneha veljati odlok o načinu oblikovanja cen pšenice, moke in kruha (Uradni list RS, št. 7/91-I).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 380-05/91-7/2-8</p>
 <p>Ljubljana, dne 20. septembra 1991.</p>
@@ -56,5 +69,36 @@ Matija Malešič l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1991-09-30", "kratica": "ODLO671", "naziv": "Odlok o načinu oblikovanja cen pšenice, moke in kruha", "url": "/trubar/si/ODLO671/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3929" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO471.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO471" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO471.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO471,vrsta:odlok">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Odlok o organizaciji in delovnem področju službe Vlade Republike Slovenije za evropske zadeve</h1>
 <p>Na podlagi 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 23/96 in 47/97) in prvega odstavka 7. člena zakona o spremembah in dopolnitvah zakona o organizaciji in delovnem področju ministrstev (Uradni list RS, št. 47/97) izdaja Vlada Republike Slovenije</p>
 <h2>O D L O K</h2>
 <p>o organizaciji in delovnem področju službe Vlade Republike Slovenije za evropske zadeve</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Služba Vlade Republike Slovenije za evropske zadeve (v nadaljnjem besedilu: služba) se organizira kot samostojna strokovna služba vlade z delovnim področjem, določenim z zakonom in s tem odlokom.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Služba opravlja naslednje naloge:<br />
 – usklajuje in nadzoruje priprave Republike Slovenije za vstop v Evropsko unijo,<br />
 – vodi medresorske priprave za pogajanja in usklajuje pogajanja z Evropsko unijo,<br />
@@ -39,24 +52,24 @@
 – oblikuje prioritete, vsebinsko nadzoruje in usklajuje uresničevanje programov PHARE ter drugih programov pomoči Republiki Sloveniji pri vključevanju v Evropsko unijo,<br />
 – usklajuje sodelovanje Republike Slovenije pri delu ustanov in teles Evropske unije.<br />
 Služba opravlja strokovne naloge za ministrsko koordinacijo za odnose z Evropsko unijo, medresorski odbor za odnose z Evropsko unijo na ravni državnih sekretarjev in usklajuje delovne skupine odbora.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Služba pri opravljanju svojih nalog sodeluje z ministrstvi in z drugimi vladnimi službami, s predstavništvi Republike Slovenije v tujini, z delovnimi telesi Državnega zbora Republike Slovenije ter s strokovnimi službami ustanov in teles Evropske unije.<br />
 Služba in ministrstvo, pristojno za zunanje zadeve, sta na področju informacijske tehnologije in diplomatskega protokola organizirana v enoten sistem.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Službo vodi direktor.<br />
 Pri vodenju službe ima direktor enaka pooblastila, kot jih ima minister pri vodenju ministrstva.<br />
 Vlada Republike Slovenije lahko na predlog predsednika Vlade Republike Slovenije poveri vodenje službe ministru brez resorja.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Direktor službe ima dva namestnika.<br />
 Namestnika imenuje in razrešuje Vlada Republike Slovenije na predlog direktorja službe.<br />
 Namestnika imata položaj državnega sekretarja.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Namestnika pomagata direktorju službe na področjih, ki jih določi direktor.<br />
 Namestnika nadomeščata direktorja, kadar je ta odsoten ali zadržan.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Služba opravlja svoje naloge v organizacijskih enotah, ki jih praviloma vodijo državni podsekretarji.<br />
 Akt o notranji organizaciji in o sistemizaciji delovnih mest v službi izda direktor po predhodnem soglasju Vlade Republike Slovenije najkasneje en mesec od dneva uveljavitve tega odloka.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 021-23/97-1</p>
 <p>Ljubljana, dne 18. decembra 1997.</p>
@@ -71,5 +84,36 @@ dr. Janez Drnovšek l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-12-24", "kratica": "ODLO471", "naziv": "Odlok o organizaciji in delovnem področju službe Vlade Republike Slovenije za evropske zadeve", "url": "/trubar/si/ODLO471/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

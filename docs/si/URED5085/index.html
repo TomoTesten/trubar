@@ -21,30 +21,43 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-0561" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5085.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5085" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5085.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5085,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o spremembah in dopolnitvah Uredbe o napredovanju uradnikov v nazive</h1>
 <p>Na podlagi drugega odstavka 111. člena Zakona o javnih uslužbencih (Uradni list RS, št. 63/07 – uradno prečiščeno besedilo, 65/08, 69/08 – ZTFI-A in 69/08 – ZZavar-E) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o napredovanju uradnikov v nazive</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o napredovanju uradnikov v nazive (Uradni list RS, št. 98/08) se v drugem odstavku 7. člena besedilo »višjem nazivu od naziva, doseženega na delovnem mestu pred premestitvijo«, nadomesti z besedilom »nazivu višje stopnje«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
 <h3>»8. člen</h3>
 <h3>(pospešeno napredovanje)</h3>
 <p>V eno stopnjo višji naziv lahko napreduje tudi uradnik, ki enkrat doseže oceno odlično, če so izpolnjeni pogoji iz prve in druge alinee prvega odstavka 3. člena te uredbe in predstojnik na predlog nadrejenega ugotovi, da so delovne in strokovne kvalitete uradnika izjemnega pomena za delo organa. Število napredovanj po tem členu ne sme presegati deleža 5% uradnikov v organu, ki so bili za isto leto ocenjeni z oceno odlično. Delež 5% se zaokrožuje navzgor, tako da v organu na način iz tega člena lahko napreduje vsaj en uradnik.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 11. členu se za prvim odstavkom doda nov, drugi odstavek, ki se glasi:<br />
 »(2) V eno stopnjo višji naziv napredujejo uradniki, ki najkasneje 15. marca vsakega koledarskega leta izpolnijo pogoje za napredovanje po tej uredbi.«.</p>
 <h3>PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ne glede na določbo 14. člena Uredbe o napredovanju uradnikov v nazive (Uradni list RS, št. 98/08) se za uradnike, ki so do uveljavitve te uredbe dosegli naziv tretje stopnje, dosežene ocene dobro v nazivu tretje stopnje ob preverjanju izpolnjevanja pogojev po Uredbi o napredovanju uradnikov v nazive (Uradni list RS, št. 98/08) za napredovanje v naziv druge stopnje štejejo za ocene zelo dobro.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00714-4/2009/4</p>
 <p>Ljubljana, dne 19. februarja 2009</p>
@@ -60,5 +73,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-02-27", "kratica": "URED5085", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o napredovanju uradnikov v nazive", "url": "/trubar/si/URED5085/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

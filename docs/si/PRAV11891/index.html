@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3973" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11891.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11891" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11891.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11891,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o načinu ter rokih izdelave obračuna, poročanja in razporejanja presežka upravljanja s prostimi denarnimi sredstvi na računih, vključenih v sistem enotnega zakladniškega računa</h1>
 <p>Na podlagi 68. in 69. člena Zakona o javnih financah (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 110/11 – <a href="/trubar/si/ZDIU12/" class="law-ref" title="ZDIU12">ZDIU12</a>, 14/13 – popr. in 101/13) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o načinu ter rokih izdelave obračuna, poročanja in razporejanja presežka upravljanja s prostimi denarnimi sredstvi na računih, vključenih v sistem enotnega zakladniškega računa</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o načinu ter rokih izdelave obračuna, poročanja in razporejanja presežka upravljanja s prostimi denarnimi sredstvi na računih, vključenih v sistem enotnega zakladniškega računa (Uradni list RS, št. 41/07, 81/09 in 95/11) se v prvem odstavku 3. člena besedilo »Zakladnica enotnega zakladniškega računa države« nadomesti z besedilom »Upravljavec sredstev sistema EZR države«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 4. člena se besedilo »0,5 % vsote naložb zakladniškega podračuna« nadomesti z besedilom »1 % vsote naložb upravljavca sredstev sistema EZR«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Priloga 1 se nadomesti z novo Prilogo 1, ki je priloga in sestavni del tega pravilnika.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-859/2013/10</p>
 <p>Ljubljana, dne 16. decembra 2013</p>
@@ -52,5 +65,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-12-23", "kratica": "PRAV11891", "naziv": "Pravilnik o spremembah Pravilnika o načinu ter rokih izdelave obračuna, poročanja in razporejanja presežka upravljanja s prostimi denarnimi sredstvi na računih, vključenih v sistem enotnega zakladniškega računa", "url": "/trubar/si/PRAV11891/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

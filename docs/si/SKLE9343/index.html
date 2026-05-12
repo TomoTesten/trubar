@@ -21,19 +21,32 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-1841" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9343.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE9343" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE9343.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE9343,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Sklep o določitvi, območju in sedežu območnih enot Uprave Republike Slovenije za javna plačila</h1>
 <p>Na podlagi tretjega odstavka 7. člena Zakona o opravljanju plačilnih storitev za proračunske uporabnike (Uradni list RS, št. 59/10) je Vlada Republike Slovenije sprejela</p>
 <h2>S K L E P</h2>
 <p>o določitvi, območju in sedežu območnih enot Uprave Republike Slovenije za javna plačila</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta sklep določa območne enote Uprave Republike Slovenije za javna plačila in njihove sedeže ter območja krajevne pristojnosti po statističnih regijah v Republiki Sloveniji.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Upravo Republike Slovenije za javna plačila (v nadaljnjem besedilu: UJP) sestavljajo Urad UJP in osem (8) območnih enot UJP.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Območne enote UJP in njihovi sedeži ter območja krajevne pristojnosti po statističnih regijah so:<br />
 1. Območna enota UJP Koper, s sedežem v Kopru, ki obsega Obalno-kraško statistično regijo,<br />
 2. Območna enota UJP Kranj, s sedežem v Kranju, ki obsega Gorenjsko statistično regijo,<br />
@@ -44,17 +57,17 @@
 7. Območna enota UJP Slovenska Bistrica, s sedežem v Slovenski Bistrici, ki obsega Podravsko in Koroško statistično regijo,<br />
 8. Območna enota UJP Žalec, s sedežem v Žalcu, ki obsega Savinjsko statistično regijo.<br />
 Za določanje krajevne pristojnosti posamezne območne enote UJP se upoštevajo območja statističnih regij, ki so določena v skladu z Uredbo o standardni klasifikaciji teritorialnih enot (Uradni list RS, št. 9/07).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Najpozneje do 31. 10. 2012 prenehajo delovati te območne enote UJP:<br />
 – Območna enota UJP Nova Gorica,<br />
 – Območna enota UJP Trbovlje,<br />
 – Območna enota UJP Krško in<br />
 – Območna enota UJP Radlje ob Dravi.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Akt o notranji organizaciji in sistemizaciji delovnih mest UJP se mora uskladiti z določbami tega sklepa najpozneje v 30 dneh od dneva uveljavitve tega sklepa.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Z dnem uveljavitve tega sklepa preneha veljati Sklep o določitvi uradov Uprave Republike Slovenije za javna plačila in njihovih sedežev (Uradni list RS, št. 53/02, 87/02 in 59/10 – <a href="/trubar/si/ZOPSPU/" class="law-ref" title="ZOPSPU">ZOPSPU</a>).</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00712-32/2012</p>
 <p>Ljubljana, dne 7. junija 2012</p>
@@ -69,5 +82,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-06-11", "kratica": "SKLE9343", "naziv": "Sklep o določitvi, območju in sedežu območnih enot Uprave Republike Slovenije za javna plačila", "url": "/trubar/si/SKLE9343/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

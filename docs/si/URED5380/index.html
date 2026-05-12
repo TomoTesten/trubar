@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-02-0023" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5380.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5380" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5380.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5380,vrsta:uredba">
+    
     <h1>Uredba o ratifikaciji spremembe Statuta Mednarodnega denarnega sklada za razširitev pooblastila Mednarodnega denarnega sklada za vlaganja</h1>
 <p>Na podlagi petega odstavka 75. člena Zakona o zunanjih zadevah (Uradni list RS, št. 113/03 – uradno prečiščeno besedilo, 20/06 – <a href="/trubar/si/ZNOMCMO/" class="law-ref" title="ZNOMCMO">ZNOMCMO</a>, 76/08 in 108/09) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>O RATIFIKACIJI SPREMEMBE STATUTA MEDNARODNEGA DENARNEGA SKLADA ZA RAZŠIRITEV POOBLASTILA MEDNARODNEGA DENARNEGA SKLADA ZA VLAGANJA</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se sprememba Statuta Mednarodnega denarnega sklada za razširitev pooblastila Mednarodnega denarnega sklada za vlaganja, ki jo je sprejel Odbor guvernerjev Mednarodnega denarnega sklada dne 5. maja 2008 z Resolucijo št. 63-3.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sprememba statuta se v izvirniku v angleškem jeziku in prevodu v slovenskem jeziku glasi:</p>
 <h2>AMENDMENT OF THE ARTICLES OF AGREEMENT OF THE INTERNATIONAL MONETARY FUND TO EXPAND THE INVESTMENT AUTHORITY OF THE INTERNATIONAL MONETARY FUND</h2>
 <p>The Governments on whose behalf the present Agreement is signed agree as follows:<br />
@@ -53,9 +66,9 @@
 »(h) Razen za namene iz (f) zgoraj lahko Sklad za vlaganja, ki jih sam določi, uporabi valuto članice s posebnega računa za črpanje v skladu s pravili in predpisi, ki jih je sprejel s sedemdesetodstotno večino vseh glasov celotne glasovalne moči. Prihodek od vlaganja in obresti, prejet po (f) (ii) zgoraj, se vplačuje na posebni račun za črpanje.«<br />
 4. V členu V, oddelek 12, se doda (k), ki se glasi:<br />
 »(k) Če Sklad na podlagi (c) zgoraj proda zlato, ki ga je pridobil po datumu druge spremembe tega statuta, se znesek iztržka, ki je enak nakupni ceni zlata, vplača na račun splošnih virov, presežek pa na račun za vlaganja za uporabo v skladu z določbami člena XII, oddelek 6 (f). Če je zlato, ki ga je Sklad pridobil po datumu druge spremembe tega statuta, prodano po 7. aprilu 2008, vendar pred datumom začetka veljavnosti te določbe, bo ob začetku veljavnosti te določbe in ne glede na omejitev iz člena XII, oddelek 6 (f) (ii), Sklad na račun za vlaganja z računa splošnih virov prenesel znesek iztržka od prodaje, zmanjšan za (i) nakupno ceno prodanega zlata ter za (ii) kateri koli znesek iztržka, ki presega nakupno ceno in je lahko že bil prenesen na račun za vlaganja pred datumom začetka veljavnosti te določbe.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje spremembe statuta skrbi Ministrstvo za finance v sodelovanju z Banko Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 00724-18/2010</p>
 <p>Ljubljana, dne 11. marca 2010</p>
@@ -71,5 +84,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-03-22", "kratica": "URED5380", "naziv": "Uredba o ratifikaciji spremembe Statuta Mednarodnega denarnega sklada za razširitev pooblastila Mednarodnega denarnega sklada za vlaganja", "url": "/trubar/si/URED5380/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

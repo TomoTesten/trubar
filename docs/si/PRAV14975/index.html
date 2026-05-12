@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>PRAV14975</strong></dd>
       <dt>Vrsta</dt><dd>pravilnik</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>2023-03-10</dd>
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-0724" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV14975.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV14975" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV14975.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV14975,vrsta:pravilnik">
+    
     <h1>Pravilnik o projektni in drugi dokumentaciji ter obrazcih pri graditvi objektov</h1>
 <p>Na podlagi tretjega odstavka 7. člena, šestega odstavka 11. člena, desetega odstavka 39. člena, osmega odstavka 43. člena in osmega odstavka 142. člena ter za izvrševanje petega odstavka 14. člena, četrtega odstavka in sedmega odstavka 15. člena, tretjega odstavka 17. člena, sedmega odstavka 39. člena, prvega odstavka 54. člena, prvega odstavka 62. člena, prvega odstavka 76. člena, drugega odstavka 80. člena, drugega odstavka 86. člena in drugega odstavka 144. člena Gradbenega zakona (Uradni list RS, št. 199/21 in 105/22 – ZZNŠPP) minister za naravne vire in prostor izdaja</p>
 <p>P R A V I L N I K</p>
@@ -806,5 +819,36 @@ Zahtevi za izdajo projektnih in drugih pogojev se do 1. januarja 2025 lahko pri
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-03-10", "kratica": "PRAV14975", "naziv": "Pravilnik o projektni in drugi dokumentaciji ter obrazcih pri graditvi objektov", "url": "/trubar/si/PRAV14975/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

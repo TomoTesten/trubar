@@ -21,24 +21,37 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-1352" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE414.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE414" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE414.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE414,vrsta:sklep">
+    
     <h1>Sklep o spremembi tolarskih zneskov za izračun višine solventne meje in garancijskega sklada</h1>
 <p>Na podlagi tretjega odstavka 71. člena in tretjega odstavka 72. člena zakona o zavarovalnicah (Uradni list RS, št. 64/94) in 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93 in 23/96) je Vlada Republike Slovenije na 9. seji dne 17. aprila 1997 sprejela</p>
 <h2>S K L E P</h2>
 <p>o spremembi tolarskih zneskov za izračun višine solventne meje in garancijskega sklada</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Znesek za izračun višine solventne meje lastnih sredstev iz prvega odstavka 2.a) točke 71. člena zakona o zavarovalnicah (Uradni list RS, št. 64/94) se poveča na 1.730 milijonov tolarjev in iz 3.a) točke prvega odstavka istega člena na 1.200 milijonov tolarjev.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Zneski potrebne višine garancijskega sklada iz drugega odstavka 72. člena zakona o zavarovalnicah se povečajo tako, da znašajo po:<br />
 – 1. točki 70.000.000 tolarjev,<br />
 – 2. točki 50.000.000 tolarjev,<br />
 – 3. točki 35.000.000 tolarjev,<br />
 – 4., 5. in 7. točki po 140.000.000 tolarjev in<br />
 – 8. točki 170.000.000 tolarjev.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-04/97-4</p>
 <p>Ljubljana, dne 17. aprila 1997.</p>
@@ -53,5 +66,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-04-18", "kratica": "SKLE414", "naziv": "Sklep o spremembi tolarskih zneskov za izračun višine solventne meje in garancijskega sklada", "url": "/trubar/si/SKLE414/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

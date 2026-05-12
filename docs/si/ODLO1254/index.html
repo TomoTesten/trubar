@@ -16,23 +16,36 @@
     <dl>
       <dt>Kratica</dt><dd><strong>ODLO1254</strong></dd>
       <dt>Vrsta</dt><dd>odlok</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
-      <dt>Datum</dt><dd>2003-05-21</dd>
-      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2026-02-20</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2244" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1254.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO1254" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1254.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO1254,vrsta:odlok">
+    
     <h1>Odlok o višini sredstev za ukrepe kmetijske strukturne politike in kmetijske politike razvoja podeželja za proračunski leti 2003 in 2004</h1>
 <p>Na podlagi 5. in 7. v zvezi s 126. členom zakona o kmetijstvu (Uradni list RS, št. 54/00, 52/02 in 58/02) ter v zvezi z uredbo o programih kmetijske strukturne politike in kmetijske politike razvoja podeželja za leti 2003 in 2004 (Uradni list RS, št. 43/03) izdaja Vlada Republike Slovenije</p>
 <h2>O D L O K</h2>
 <p>o višini sredstev za ukrepe kmetijske strukturne politike in kmetijske politike razvoja podeželja<br />
 za proračunski leti 2003 in 2004</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta odlok določa namene, za katere se dodelijo sredstva za ukrepe kmetijske strukturne politike in kmetijske politike razvoja podeželja, višino sredstev za posamezen namen in obdobje izvajanja obveznosti plačil.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za izvajanje ukrepov kmetijske strukturne politike in kmetijske politike razvoja podeželja se dodelijo nepovratna sredstva za naslednje namene in v naslednjih višinah:<br />
 1. proračunska postavka 1491 – ukrep: Agromelioracije<br />
 a) za leto 2003 do višine 52,525.652 SIT:<br />
@@ -155,7 +168,7 @@ a) za leto 2003 do višine 91,677.386 SIT in sicer:<br />
 – za sprejete obveznosti do 22,798.942 SIT,<br />
 – za sofinanciranje strokovnih programov do 22,000.000 SIT,<br />
 – za podporo organizaciji 40. svetovnega kongresa vinskih redov in bratovščin v Republiki Sloveniji 8,000.000 SIT.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 403-21/2001-14<br />
 Ljubljana, dne 8. maja 2003.<br />
@@ -171,5 +184,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2026-02-20", "kratica": "ODLO1254", "naziv": "Odlok o višini sredstev za ukrepe kmetijske strukturne politike in kmetijske politike razvoja podeželja za proračunski leti 2003 in 2004", "url": "/trubar/si/ODLO1254/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

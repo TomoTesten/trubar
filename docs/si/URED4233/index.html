@@ -21,25 +21,38 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4071" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4233.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4233" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4233.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4233,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o dopolnitvi Uredbe o koncesiji za rabo vode za proizvodnjo električne energije v hidroelektrarnah do 10 MW nazivne moči, za katere je bilo pridobljeno pravnomočno uporabno dovoljenje</h1>
 <p>Na podlagi 199. člena Zakona o vodah (Uradni list RS, št. 67/02, 110/02 – <a href="/trubar/si/ZGO-1/" class="law-ref" title="ZGO-1">ZGO-1</a>, 2/04 – ZZdrl-A in 41/04 – <a href="/trubar/si/ZVO-1/" class="law-ref" title="ZVO-1">ZVO-1</a>) in 165. člena Zakona o varstvu okolja (Uradni list RS, št. 39/06 – uradno prečiščeno besedilo, 49/06 – <a href="/trubar/si/ZMetD/" class="law-ref" title="ZMetD">ZMetD</a> in 66/06 – odl. US) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o dopolnitvi Uredbe o koncesiji za rabo vode za proizvodnjo električne energije v hidroelektrarnah do 10 MW nazivne moči, za katere je bilo pridobljeno pravnomočno uporabno dovoljenje</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o koncesiji za rabo vode za proizvodnjo električne energije v hidroelektrarnah do 10 MW nazivne moči, za katere je bilo pridobljeno pravnomočno uporabno dovoljenje (Uradni list RS, št. 23/04 in 120/05; v nadaljnjem besedilu: uredba), se Priloga nadomesti s Prilogo, ki je sestavni del te uredbe.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Koncesionarji, ki upravljajo hidroelektrarne na delih vodnega telesa, ki so na seznamu v Prilogi te uredbe označeni s številkami od 202 do 230, začnejo plačevati za koncesijo s 1. januarjem 2007 dalje pod pogoji iz te uredbe.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Za koncesionarje iz prejšnjega člena določi višino akontacije plačila za koncesijo v letu 2006 Agencija Republike Slovenije za okolje (v nadaljnjem besedilu: agencija) na podlagi podatkov o električni energiji, ki so jo v hidroelektrarnah na delih vodnih teles iz seznama v Prilogi te uredbe proizvedli in v javno električno omrežje oddali v letu 2005.<br />
 (2) Podatke o proizvedeni in v javno električno omrežje oddani električni energiji v letu 2005 mora koncesionar iz prejšnjega člena posredovati agenciji najkasneje do 31. oktobra 2006.<br />
 (3) Če koncesionar iz prejšnjega člena agenciji ni posredoval podatkov iz prejšnjega odstavka, se za višino akontacije plačila za koncesijo v letu 2007 uporabijo podatki ministrstva, pristojnega za energijo, o proizvodnji električne energije kvalificiranih proizvajalcev električne energije za leto 2005.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Koncesionar iz 2. člena te uredbe mora dokumentacijo, s katero dokazuje resničnost podatkov o proizvedeni in v javno električno omrežje oddani električni energiji za določitev akontacije za plačilo koncesije v letu 2007, hraniti še najmanj pet let po uveljavitvi te uredbe.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00719-66/2006/5</p>
 <p>Ljubljana, dne 31. avgusta 2006</p>
@@ -56,5 +69,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-09-12", "kratica": "URED4233", "naziv": "Uredba o dopolnitvi Uredbe o koncesiji za rabo vode za proizvodnjo električne energije v hidroelektrarnah do 10 MW nazivne moči, za katere je bilo pridobljeno pravnomočno uporabno dovoljenje", "url": "/trubar/si/URED4233/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

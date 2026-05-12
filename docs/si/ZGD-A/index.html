@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1994-01-1227" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZGD-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZGD-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZGD-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZGD-A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o gospodarskih družbah</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>UKAZ</h2>
@@ -37,23 +50,23 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O GOSPODARSKIH DRUŽBAH</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o gospodarskih družbah (Uradni list RS, št. 30/93) se v 417. členu besedilo prvega odstavka spremeni tako, da se glasi:</p>
 <p>"(1) Za pridobitelja poslovnega deleža se šteje le tisti, ki poslovodji prijavi in dokaže pridobitev."</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 573. členu se za besedo "podjetnik" dodajo besede "ali fizična oseba".</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 580. členu se v prvem, drugem, četrtem in sedmem odstavku besedilo "do 31. maja 1994" nadomesti z besedilom "do 31. decembra 1994".<br />
 V tretjem odstavku se beseda "drugega" nadomesti z besedo "tretjega".</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 582. členu se v prvem, drugem in tretjem odstavku besedilo "do 31. maja 1994" nadomesti z besedilom "do 31. decembra 1994".</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V 583. členu se v prvem odstavku besedilo "do 31. maja 1994" nadomesti z besedilom "do 31. decembra 1994".</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>V 584. členu se besedilo "do 31. maja 1994" nadomesti z besedilom "do 31. decembra 1994".</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>V 590. členu se doda nov tretji odstavek, ki se glasi: "(3) Družbe, ki se preoblikujejo po zakonu o lastninskem preoblikovanju podjetij, morajo najkasneje v štirih mesecih po odobritvi programa o lastninskem preoblikovanju vložiti zahtevek za pridobitev soglasja Agencije Republike Slovenije za prestrukturiranje in privatizacijo, ki je podlaga za vpis družbe v sodni register." Dosedanji tretji odstavek postane četrti odstavek.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 001-03/92-1/14</p>
 <p>Ljubljana, dne 24. maja 1994.</p>
@@ -69,5 +82,36 @@ mag. Herman Rigelnik l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1994-05-31", "kratica": "ZGD-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o gospodarskih družbah", "url": "/trubar/si/ZGD-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

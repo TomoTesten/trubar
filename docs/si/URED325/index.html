@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-2371" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED325.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED325" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED325.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED325,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Uredba o pristojbinah in stroških za nadzor izvajanja preskušanja in certificiranja proizvodov, za katere je certificiranje obvezno</h1>
 <p>Na podlagi 26. člena zakona o standardizaciji (Uradni list RS, št. 1/95) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o pristojbinah in stroških za nadzor izvajanja preskušanja in certificiranja proizvodov, za katere je certificiranje obvezno</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Za izvajanje rednega nadzora nad zakonitostjo dela organov, ki izdajajo poročila o preskusih in certifikate o skladnosti (v nadaljnjem besedilu: izvajalci), morajo certifikacijski organi plačati pristojbino, katere višina je odvisna od skupno zaračunanih stroškov preskušanja in certificiranja za vsak izdani certifikat:</p>
 <hr />
 <h2>Stroški                                              Pristojbina</h2>
@@ -39,18 +52,18 @@ do 500.000 SIT                                          3000 SIT<br />
 nad 500.000 SIT                                         5000 SIT</p>
 <hr />
 <p>Certifikacijski organi uveljavijo od izvajalcev preskušanja povračilo dela plačane pristojbine glede na razmerje med stroški preskušanja in certificiranja.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Če se pri izrednem nadzoru ugotovijo nepravilnosti, mora izvajalec povrniti stroške v višini dnevnice in potnih stroškov članov komisije.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Cena obrazca certifikata o skladnosti znaša 900 SIT.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Pristojbine iz 1. in 3. člena te uredbe ter stroške iz 2. člena plača certifikacijski organ na vplačilni račun, odprt pri Agenciji Republike Slovenije za plačilni promet v Ljubljani, in se razporejajo v dobro državnega proračuna – med druge prihodke države.<br />
 Pristojbine iz 1. člena te uredbe plača certifikacijski organ do 15. dne v mesecu za certifikate, izdane v prejšnjem mesecu.<br />
 Pristojbine iz 3. člena te uredbe plača certifikacijski organ 15 dni po prevzemu obrazcev certifikatov o skladnosti.<br />
 Stroške iz 2. člena te uredbe plača certifikacijski organ v roku 15 dni po prejemu poziva za plačilo.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Pristojbine iz 1. člena te uredbe plačujejo certifikacijski organi v tistih postopkih, v katerih je bila zahteva za izdajo certifikata vložena po začetku veljavnosti te uredbe.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 427-01/97-1</p>
 <p>Ljubljana, dne 10. julija 1997.</p>
@@ -65,5 +78,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-07-18", "kratica": "URED325", "naziv": "Uredba o pristojbinah in stroških za nadzor izvajanja preskušanja in certificiranja proizvodov, za katere je certificiranje obvezno", "url": "/trubar/si/URED325/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

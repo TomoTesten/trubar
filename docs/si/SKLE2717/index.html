@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0263" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE2717.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE2717" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE2717.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE2717,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Sklep o ustanovitvi, nalogah in organizaciji Urada Vlade Republike Slovenije za varovanje tajnih podatkov</h1>
 <p>Na podlagi 25a. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96, 47/97, 23/99, 119/00 in 30/01) in 43. člena zakona o tajnih podatkih (Uradni list RS, št. 87/01) je Vlada Republike Slovenije sprejela</p>
 <h2>S K L E P</h2>
 <p>o ustanovitvi, nalogah in organizaciji Urada Vlade Republike Slovenije za varovanje tajnih podatkov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem sklepom se ustanovi Urad Vlade Republike Slovenije za varovanje tajnih podatkov (v nadaljnjem besedilu: urad) in se v skladu z zakonom določijo strokovne naloge urada in njegova organizacija.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Urad je vladna služba in opravlja naslednje strokovne naloge oziroma izvršuje zakonsko določene naloge na naslednji način:<br />
 1. Spremlja stanje na področju določanja in varovanja tajnih podatkov preko poročil, ki so jih na njegovo zahtevo dolžni predložiti posamezni državni organi, organi lokalnih skupnosti, nosilci javnih pooblastil ter gospodarske  družbe in organizacije, ki pridobijo ali razpolagajo s tajnimi podatki (v nadaljnjem besedilu: organi).<br />
 Predlaga Vladi Republike Slovenije (v nadaljnjem besedilu: vlada) v sprejem standarde za fizično, organizacijsko in tehnično varovanje tajnih podatkov. Pri pripravi standardov za varstvo tajnih podatkov sodeluje z drugimi organi, še zlasti z Generalno policijsko upravo in Slovensko obveščevalno-varnostno agencijo. Pri pripravi standardov za varstvo tajnih podatkov pri elektronskem poslovanju urad sodeluje s Centrom vlade za informatiko.<br />
@@ -47,14 +60,14 @@ Navedene podatke in njihove spremembe so uradu dolžni tekoče sporočati držav
 7. Vodi evidenco oseb iz četrtega odstavka 23. člena zakona o tajnih podatkih (Uradni list RS, št. 87/01). Predstojnik organa je uradu dolžan takoj sporočiti identifikacijske podatke navedenih oseb, navedbo funkcije ali delovnega mesta, na katero je oseba razporejena ter stopnjo tajnosti podatkov, do katerih ima oseba dostop. Predstojnik organa je dolžan urad obvestiti tudi o morebiti kasneje pridobljenem dovoljenju oziroma o nadaljnjih prerazporeditvah osebe.<br />
 8. Organom predlaga ukrepe za izboljšanje varovanja tajnih podatkov, jim svetuje, organizira izobraževanja in odgovarja na strokovna vprašanja s področja varovanja tajnih podatkov.<br />
 9. V skladu s predpisi, sklepi vlade in navodili generalnega sekretarja vlade opravlja druge naloge s področja varovanja tajnih podatkov.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Urad ima direktorja, ki ga imenuje in razrešuje vlada na predlog generalnega sekretarja vlade.<br />
 Direktor je za svoje delo in delo urada odgovoren vladi in generalnemu sekretarju vlade.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Akt o notranji organizaciji in sistemizaciji delovnih mest v uradu izda na predlog direktorja urada in po predhodnem soglasju Vlade Republike Slovenije generalni sekretar vlade najkasneje v 30 dneh po uveljavitvi tega sklepa.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Urad je dolžan predložiti vladi v sprejem predloge predpisov iz 46. člena zakona o tajnih podatkih (Uradni list RS, št. 87/01) najkasneje do 1. 5. 2002.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 023-32/2001-1</p>
 <p>Ljubljana, dne 17. januarja 2002.</p>
@@ -69,5 +82,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2018-07-27", "kratica": "SKLE2717", "naziv": "Sklep o ustanovitvi, nalogah in organizaciji Urada Vlade Republike Slovenije za varovanje tajnih podatkov", "url": "/trubar/si/SKLE2717/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

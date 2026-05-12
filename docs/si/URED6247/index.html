@@ -21,28 +21,41 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-2466" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6247.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6247" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6247.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6247,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o povračilu stroškov prevoza na delo in z dela za funkcionarje</h1>
 <p>Na podlagi sedmega odstavka 168. člena Zakona za uravnoteženje javnih financ (Uradni list RS, št. 40/12) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o povračilu stroškov prevoza na delo in z dela za funkcionarje</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina)</h3>
 <p>Ta uredba podrobneje ureja povračilo stroškov prevoza na delo in z dela za funkcionarje in javne uslužbence, za katere povračila stroškov prevoza na delo in z dela ne ureja kolektivna pogodba (v nadaljnjem besedilu: funkcionar in javni uslužbenec).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(kdaj javni prevoz ni možen)</h3>
 <p>Funkcionar in javni uslužbenec nimata možnosti prevoza z javnimi prevoznimi sredstvi, če javni prevoz ne obstaja, če ga glede na delovni čas funkcionarja ali javnega uslužbenca ni možno uporabiti ali če bi uporaba javnega prevoza glede na vozni red in delovni čas funkcionarja ali javnega uslužbenca, ne upoštevaje čas trajanja vožnje, za funkcionarja ali javnega uslužbenca pomenila več kot eno uro dnevne časovne izgube v eno smer.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(dodelitev ali razporeditev funkcionarja)</h3>
 <p>Kot premeščen zaposleni iz tretjega odstavka 168. člena Zakona za uravnoteženje javnih financ (Uradni list RS, št. 40/12) se šteje tudi funkcionar, ki je dodeljen ali razporejen v drug kraj po odločitvi oziroma volji delodajalca.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(vrsta in cena javnega prevoza)</h3>
 <p>Izjavi za povračilo stroškov prevoza na delo in z dela se priloži podatek o vrsti in ceni javnega prevoza.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(začetek veljavnosti)</h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije</p>
 <p>Št. 00730-27/2012</p>
@@ -58,5 +71,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-07-27", "kratica": "URED6247", "naziv": "Uredba o povračilu stroškov prevoza na delo in z dela za funkcionarje", "url": "/trubar/si/URED6247/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-5310" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZUP-D.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZUP-D" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZUP-D.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZUP-D,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o splošnem upravnem postopku</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -38,16 +51,16 @@ Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA<br />
 O SPLOŠNEM UPRAVNEM POSTOPKU (ZUP-D)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o splošnem upravnem postopku (Uradni list RS, št. 22/05 – uradno prečiščeno besedilo) se v 64. členu dodata drugi in tretji odstavek, ki se glasita:<br />
 »(2) Vloge se lahko vložijo tudi pri organih, ki opravljajo naloge enotnih vstopnih točk. Organi, ki opravljajo naloge enotnih vstopnih točk, morajo vloge nemudoma v fizični obliki ali po elektronski poti, podpisane z varnim elektronskim podpisom organa, posredovati pristojnim organom. Organ mora s takšno vlogo postopati enako kot z vlogo, ki jo dobi po elektronski poti neposredno od stranke.<br />
 (3) Vlada z uredbo določi seznam vlog in enotne vstopne točke iz prejšnjega odstavka.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za prvim odstavkom 89. člena se doda nov drugi odstavek, ki se glasi:<br />
 »(2) Kadar stranka o obstoju pooblastila za vročanje dokumentov ne obvesti organa, ki vodi postopek, vročevalec pooblaščencu lahko vroča vse dokumente, ki so naslovljeni na stranko, če se pooblaščenec izkaže s pooblastilom, na katerem je lastnoročni podpis stranke, potem ko je njegovo istovetnost preveril z osebnim dokumentom s fotografijo, ki ga je izdal pristojni državni organ; pri tem ni potrebno, da bi bil podpis overjen. Na vročilnico vročevalec čitljivo napiše osebno ime in številko osebnega dokumenta pooblaščenca. Pod enakimi pogoji lahko pooblaščenec prevzame dokument pri pravni ali fizični osebi, ki opravlja vročanje dokumentov kot svojo dejavnost, ali pri organu.«.<br />
 Dosedanji drugi, tretji, četrti in peti odstavek postanejo tretji, četrti, peti in šesti odstavek.</p>
 <h3>Končna določba</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 030-01/92-2/29</p>
 <p>Ljubljana, dne 19. decembra 2005</p>
@@ -64,5 +77,36 @@ mag. Vasja Klavora l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-12-28", "kratica": "ZUP-D", "naziv": "Zakon o spremembah in dopolnitvah zakona o splošnem upravnem postopku", "url": "/trubar/si/ZUP-D/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2057" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV197.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV197" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV197.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV197,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi pravilnika o ukrepih za zatiranje in izkorinjanje Bruceloze govedi, drobnice in prašičev</h1>
 <p>Na podlagi petega odstavka 16. člena zakona o varstvu živali pred kužnimi boleznimi, ki ogrožajo vso državo (Uradni list SFRJ, št. 43/86) in v zvezi s 4. členom ustavnega zakona za izvedbo temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije (Uradni list RS, št. 1/91-I) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>PRAVILNIK</h2>
 <p>o spremembi pravilnika o ukrepih za zatiranje in izkoreninjenje bruceloze goved, drobnice in prašičev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V prvem odstavku 2. člena pravilnika o ukrepih za zatiranje in izkoreninjenje bruceloze goved, drobnice in prašičev (Uradni list SFRJ, št. 44/84) se v oklepaju črta besedilo »Brucella ovis«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 323-01-030/92</p>
 <p>Ljubljana, dne 3. septembra 1992.</p>
@@ -47,5 +60,36 @@ mag. Jože Protner l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-09-05", "kratica": "PRAV197", "naziv": "Pravilnik o spremembi pravilnika o ukrepih za zatiranje in izkorinjanje Bruceloze govedi, drobnice in prašičev", "url": "/trubar/si/PRAV197/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

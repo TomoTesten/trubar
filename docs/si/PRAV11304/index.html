@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-1224" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11304.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11304" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11304.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11304,vrsta:pravilnik">
+    
     <h1>Pravilnik o dopolnitvi Pravilnika o zaposlovanju vrhunskih športnikov in trenerjev v Slovenski vojski</h1>
 <p>Za izvrševanje osmega odstavka 92. člena Zakona o obrambi (Uradni list RS, št. 103/04 – uradno prečiščeno besedilo) in 7. točke prvega odstavka 68. člena Zakona o javnih uslužbencih (Uradni list RS, št. 63/07 – uradno prečiščeno besedilo in 65/08) izdaja minister za obrambo</p>
 <h2>P R A V I L N I K</h2>
 <p>o dopolnitvi Pravilnika o zaposlovanju vrhunskih športnikov in trenerjev v Slovenski vojski</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o zaposlovanju vrhunskih športnikov in trenerjev v Slovenski vojski (Uradni list RS, št. 39/10) se v 6. členu v drugem odstavku za prvim stavkom doda besedilo »Za zaposlovanje trenerjev reprezentanc se lahko določi tudi določeno število formacijskih dolžnosti vojaških uslužbencev praviloma v Športni enoti Slovenske vojske.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 9. členu v prvem odstavku se na koncu besedila doda »Možnost zaposlitve v Slovenski vojski se ponudi tudi trenerjem, ki so sklenili pogodbe o zaposlitvi kot trenerji reprezentanc na formacijskih dolžnostih vojaških uslužbencev, če izpolnjujejo pogoje za zaposlitev v stalni sestavi Slovenske vojske.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0070-27/2012-5</p>
 <p>Ljubljana, dne 16. aprila 2012</p>
@@ -49,5 +62,36 @@ za obrambo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-04-20", "kratica": "PRAV11304", "naziv": "Pravilnik o dopolnitvi Pravilnika o zaposlovanju vrhunskih športnikov in trenerjev v Slovenski vojski", "url": "/trubar/si/PRAV11304/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-4398" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE423.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE423" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE423.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE423,vrsta:sklep">
+    
     <h1>Sklep o spremembi sklepa o ustanovitvi Veterinarskega zavoda Slovenije</h1>
 <p>Na podlagi tretjega odstavka 3. člena in 8. člena zakona o zavodih (Uradni list RS, št. 12/91 in 8 /96), druge alinee 108. člena zakona o veterinarstvu (Uradni list RS, št. 82/94, 21/95 in 16/96) in šestega odstavka 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96, 47/97 in 23/99) je Vlada Republike Slovenije na 134. seji dne 11. novembra 1999 sprejela</p>
 <h2>S K L E P</h2>
 <p>o spremembi sklepa o ustanovitvi Veterinarskega zavoda Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 7. členu sklepa o ustanovitvi Veterinarskega zavoda Slovenije (Uradni list RS, št. 6/95 in 86/99) se tretji odstavek spremeni tako, da se glasi:</p>
 <p>“Svet zavoda sestavljajo:</p>
 <p>– deset predstavnikov ustanovitelja,<br />
@@ -38,10 +51,10 @@
 V petem odstavku se črta besedilo “, in sicer tako, da ima vsaka območna enota po enega predstavnika“.<br />
 Šesti odstavek se spremeni tako, da se glasi:</p>
 <p>“Predstavnike uporabnikov imenujejo: Gospodarska zbornica Slovenije, Obrtna zbornica Slovenije, Zadružna zveza Slovenije, Veterinarska zbornica in Zveza potrošnikov Slovenije.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Dosedanji člani sveta zavoda opravljajo svojo funkcijo do imenovanja novih članov.<br />
 Novi člani morajo biti imenovani v roku 7 dni po uveljavitvi spremembe sklepa o ustanovitvi Veterinarskega zavoda Slovenije.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 322-04/98-4</p>
 <p>Ljubljana, dne 11. novembra 1999.</p>
@@ -56,5 +69,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-11-12", "kratica": "SKLE423", "naziv": "Sklep o spremembi sklepa o ustanovitvi Veterinarskega zavoda Slovenije", "url": "/trubar/si/SKLE423/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

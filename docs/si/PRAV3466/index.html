@@ -21,34 +21,47 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-0805" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3466.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV3466" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3466.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV3466,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika za uveljavljanje regresa za potovanja otrok in mladine</h1>
 <p>Na podlagi 99. člena zakona o upravi (Uradni list RS, št. 67/94) in enajste alinee 2. točke drugega odstavka 54. člena zakona o organizaciji in financiranju vzgoje in izobraževanja (Uradni list RS, št. 12/91-I) izdaja minister za šolstvo in šport</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika za uveljavljanje regresa za potovanja otrok in mladine</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku za uveljavljanje regresa za potovanja otrok in mladine (Uradni list RS, št. 23/94) se v prvem odstavku 2. člena alinea pod a) dopolni tako, da se glasi:</p>
 <p>“organizirane skupine otrok in mladine (v šolah, vzgojno-varstvene organizacije, mladinske organizacije, društva, sindikati itd.) tudi, če vključujejo begunske otroke in mladino.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 3. člena se številka “30” nadomesti s številko “20”.<br />
 V drugem odstavku se za besedo “avtobusni” doda nov vrinjeni stavek, ki se glasi:</p>
 <p>“in pri prevozih z izrednimi vlaki,”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 5. členu se za prvim odstavkom doda nov odstavek, ki se glasi:</p>
 <p>“Do sredine decembra tekočega leta, morajo upravičenci pod alineo a) prvega odstavka 2. člena, oddati društvom PZS plan voženj za naslednje koledarsko leto.”</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V drugi alinei prvega odstavka 6. člena se za prvim stavkom doda nov stavek, ki se glasi:</p>
 <p>“Dva izvoda zahtevka hrani Počitniška zveza Slovenije.”.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Peta točka druge alinee prvega odstavka 6. člena se spremeni tako, da se glasi:</p>
 <p>“povzetek programa potovanja v obsegu največ A4 formata”.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Za sedmo točko druge alinee prvega odstavka 6. člena se doda nova osma točka, ki se glasi:</p>
 <p>“V primeru, da organizacija, ki vlaga zahtevek, nima statusa Nacionalne mladinske organizacije, mora poleg naročilnice in zahtevka priložiti tudi z žigom potrjen poimenski seznam udeležencev potovanja z letnicami njihovega rojstva.”</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 121-3/95</p>
 <p>Ljubljana, dne 14. februarja 1995.</p>
@@ -62,5 +75,36 @@ Minister za šolstvo in šport</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-03-17", "kratica": "PRAV3466", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika za uveljavljanje regresa za potovanja otrok in mladine", "url": "/trubar/si/PRAV3466/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,37 +21,50 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0294" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV700.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV700" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV700.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV700,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o potrjevanju učbenikov</h1>
 <p>Na podlagi drugega odstavka 21. člena zakona o organizaciji in financiranju vzgoje in izobraževanja (Uradni list Republike Slovenije št. 12/96 in 23/96) izdaja minister za šolstvo in šport</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o potrjevanju učbenikov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Za 3. členom pravilnika o potrjevanju učbenikov (Uradni list RS, št. 68/96) se doda nov 3.a člen, ki glasi:</p>
 <p>“Učbeniki ne smejo vsebovati reklamnih sporočil in oglasov. Kadar fizične ali pravne osebe, ki nastopajo v pravnem prometu, prispevajo sredstva za nastanek učbenika, smejo biti navedene v kolofonu, skupaj z logotipom in predstavitvijo podjetja pa le na zadnjih dveh straneh učbenika.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 4. členu se pred prvim odstavkom doda nov prvi odstavek, ki glasi:</p>
 <p>“Učitelji in predavatelji višjih šol uporabljajo učbenike v skladu z zakonom in tem pravilnikom. Pred zaključkom šolskega leta morajo vodstva šol udeležence izobraževanja pisno obvestiti, katere učbenike bodo uporabljali v naslednjem šolskem letu.”</p>
 <p>Dosedanji prvi odstavek postane drugi odstavek.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 5. členu se doda nov tretji odstavek, ki glasi:</p>
 <p>“Javni zavod skrbi za javno dostopnost učnih načrtov in katalogov znanj.”</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Na koncu tretjega odstavka 10. člena se doda nov stavek, ki glasi:</p>
 <p>“V primerih, ko je član pristojnega strokovnega sveta avtor rokopisa, ki je v postopku potrditve, le-ta nima pravice glasovanja, ko svet odloča o potrditvi njegovega rokopisa.”</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <ol>
 <li>člen se dopolni tako, da se za besedilom “po izidu” doda besedilo “ali ponatisu”.</li>
 </ol>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>V 18. členu se doda nov drugi odstavek, ki glasi:</p>
 <p>“Pri postopku razveljavitve učbenika se smiselno uporablja postopek potrditve učbenika.”</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Učbeniki, ki ne izpolnjujejo pogojev iz 1. člena tega pravilnika in so bili potrjeni pred uveljavitvijo tega pravilnika, ostanejo v uporabi do izteka veljavnosti zadnjega sklepa pristojnega strokovnega sveta.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 601-47/97</p>
 <p>Ljubljana, dne 28. januarja 1998.</p>
@@ -66,5 +79,36 @@ za šolstvo in šport</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-01-30", "kratica": "PRAV700", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o potrjevanju učbenikov", "url": "/trubar/si/PRAV700/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,24 +21,37 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-01-2575" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE642.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE642" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE642.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE642,vrsta:odredba">
+    
     <h1>Odredba o določitvi podjetij za opravljanje posebnih pregledov motornih in priklopnih vozil za prevoz nevarnih snovi glede izpolnjevanja pogojev za prevoz nevarnih snovi</h1>
 <p>Na podlagi prvega odstavka 4. člena ustavnega zakona za izvedbo temeljne ustavne listine o samostojnosti in neodvisnosti Republike Slovenije (Uradni list RS, št. 1/91-I), zakona o prevozu nevarnih snovi (Uradni list SFRJ, št. 27/90) in v zvezi z 9. členom Pravilnika o načinu prevoza nevarnih snovi v cestnem prometu (Uradni list SFRJ, št. 82/90) izdaja minister za notranje zadeve</p>
 <h2>ODREDBO</h2>
 <p>o določitvi podjetij za opravljanje posebnih pregledov motornih in priklopnih vozil za prevoz nevarnih snovi glede izpolnjevanja pogojev za prevoz nevarnih snovi</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Posebne preglede opravljajo naslednja podjetja:<br />
 1. Inštitut za varstvo pri delu in varstvo okolja Maribor, Ulica Štravhovih 2;<br />
 2. Petrol, Transport Ilirska Bistrica, p.o., Ilirska Bistrica, Šercerjeva 17.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za motorno in priklopno vozilo, za katera je bilo s posebnim pregledom ugotovljeno, da izpolnjujeta pogoje za prevoz določene nevarne snovi, podjetje iz prejšnjega člena izda potrdilo na obrazcu, ki je objavljen skupaj s to odredbo (priloga št. 1) in je njen sestavni del.<br />
 Za motorno in priklopno vozilo, za katera ADR zahteva izdajo certifikata podjetje iz prejšnjega člena izda potrdilo na obrazcu, ki je objavljen skupaj s to odredbo (priloga št. 2) in je njen sestavni del.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Na podlagi potrdila iz drugega odstavka prejšnjega člena se za motorna in priklopna vozila, za katera to zahteva ADR, izda cerfitikat.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta odredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0101-S-22/10-A-15/92</p>
 <p>Ljubljana, dne 12. oktobra 1992.</p>
@@ -55,5 +68,36 @@ za notranje zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-11-27", "kratica": "ODRE642", "naziv": "Odredba o določitvi podjetij za opravljanje posebnih pregledov motornih in priklopnih vozil za prevoz nevarnih snovi glede izpolnjevanja pogojev za prevoz nevarnih snovi", "url": "/trubar/si/ODRE642/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

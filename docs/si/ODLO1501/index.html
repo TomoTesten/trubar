@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-4606" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1501.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO1501" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1501.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO1501,vrsta:odlok">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Odlok o spremembah in dopolnitvah Odloka o programu prodaje državnega finančnega in stvarnega premoženja za leto 2006 in 2007 (OdPDFSP0607-A)</h1>
 <p>Na podlagi prvega odstavka 80.č člena Zakona o javnih financah (Uradni list RS, št. 79/99, 124/00, 79/01, 30/02, 56/02 – <a href="/trubar/si/ZJU/" class="law-ref" title="ZJU">ZJU</a> in 110/02 – <a href="/trubar/si/ZDT-B/" class="law-ref" title="ZDT-B">ZDT-B</a>) in tretjega odstavka 108. člena ter prvega odstavka 171. člena Poslovnika državnega zbora (Uradni list RS, št. 35/02 in 60/04) je Državni zbor Republike Slovenije dne 29. septembra 2006 sprejel</p>
 <h2>O D L O K</h2>
@@ -32,17 +45,17 @@
 o programu prodaje državnega finančnega<br />
 in stvarnega premoženja za leto 2006<br />
 in 2007 (OdPDFSP0607-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Odloku o programu prodaje državnega finančnega in stvarnega premoženja za leto 2006 in 2007 (Uradni list RS, št. 116/05) se v drugem odstavku 2. člena znesek »187.025.287.036,21 tolarjev« nadomesti z zneskom »221.012.728.089,68 tolarjev«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 3. člena se znesek »3.908.848.715,00 tolarjev« nadomesti z zneskom »5.366.137.862,00 tolarjev«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prilogi se Tabela 1a »Seznam kapitalskih naložb države za prodajo v letih 2006 in 2007, pri katerih gre kupnina v proračun brez navedbe odvisnih družb« dopolni tako, da se za kapitalsko naložbo pod zaporedno številko 42. dodajo nove kapitalske naložbe, tako kot je prikazano v Prilogi »Dopolnitev seznama kapitalskih naložb države za prodajo v letih 2006 in 2007, pri katerih gre kupnina v proračun brez navedbe odvisnih družb«, ki je sestavni del tega odloka.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V prilogi se »Obrazložitev posameznih kapitalskih naložb, ki bodo predmet prodaje« dopolni z obrazložitvijo za kapitalske naložbe, navedene v dopolnitvi tabele 1a, kot je prikazano v Prilogi »Dopolnitev Obrazložitve posameznih kapitalskih naložb, ki bodo predmet prodaje«, ki je sestavni del tega odloka.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V prilogi se Tabela 3: »Program prodaje državnega stvarnega premoženja za leti 2006 in 2007« spremeni in dopolni tako, kot je prikazano v Prilogi »Dopolnitev programa prodaje državnega stvarnega premoženja za leti 2006 in 2007«, ki je sestavni del tega odloka.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta odlok začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 411-01/05-79/8</p>
 <p>Ljubljana, dne 29. septembra 2006</p>
@@ -1365,5 +1378,36 @@ prevzetega premoženja, katerega je potrebno unovčiti in upnike poplačati.    
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-10-20", "kratica": "ODLO1501", "naziv": "Odlok o spremembah in dopolnitvah Odloka o programu prodaje državnega finančnega in stvarnega premoženja za leto 2006 in 2007 (OdPDFSP0607-A)", "url": "/trubar/si/ODLO1501/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

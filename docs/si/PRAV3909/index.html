@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-01-0740" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3909.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV3909" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3909.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV3909,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o štipendiranju</h1>
 <p>Na podlagi 59. člena zakona o zaposlovanju in zavarovanju za primer brezposelnosti (Uradni list RS, št. 5/91 in 12/92), in 272. člena zakona o sistemu državne uprave in o Izvršnem svetu Skupščine Republike Slovenije (Uradni list RS, št. 24/79, 12/82, 39/85, 37/87 in 18/88) izdaja ministrica za delo</p>
 <h2>PRAVILNIK</h2>
 <p>o spremembah in dopolnitvah pravilnika o štipendiranju</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o štipendiranju (Uradni list RS, št. 24/91) se v drugi alinei prvega odstavka 11. člena številka »45%« nadomesti s številko »65%«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 12. členu se tabela spremeni tako, da se glasi:</p>
 <p>+----------------------------------+------------------------------+<br />
 | »a) delež dohodka na družinskega | b) delež izračunanega zneska |<br />
@@ -56,13 +69,13 @@
 +----------------------------------+------------------------------+<br />
 |              do 30%              |              0«              |<br />
 +----------------------------------+------------------------------+</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za 28. členom se doda nov 28.a člen, ki se glasi:</p>
 <h3>»28.a člen</h3>
 <p>Štipendistu, katerega dohodek na družinskega člana ne presega cenzusa iz drugega odstavka 56. člena zakona za več kot 20%, in redno izpolnjuje učne oziroma študijske obveznosti, se izplačevanje štipendije ne prekine.«</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V skladu z zakonom o spremembi in dopolnitvi zakona o zaposlovanju in zavarovanju za primer brezposelnosti (Uradni list RS, št. 12/92) in tem pravilnikom, se za šolsko leto 1991/92 ponovno objavi razpis republiških štipendij.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.<br />
 Določila 2. in 3. člena tega pravilnika pa se uporabljajo od začetka šolskega leta 1991/92.</p>
 <p>Št. 111-07/92</p>
@@ -77,5 +90,36 @@ Jožica Puhar l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-03-27", "kratica": "PRAV3909", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o štipendiranju", "url": "/trubar/si/PRAV3909/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

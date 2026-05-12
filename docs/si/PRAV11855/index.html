@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3499" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11855.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11855" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11855.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11855,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o poročanju revizijskih družb</h1>
 <p>Na podlagi tretjega odstavka 31. člena ter četrtega odstavka 77. člena Zakona o revidiranju (Uradni list RS, št. 65/08 in 63/13 – <a href="/trubar/si/ZS-K/" class="law-ref" title="ZS-K">ZS-K</a>) je strokovni svet Agencije za javni nadzor nad revidiranjem na 50. seji dne 21. 10. 2013 sprejel</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o poročanju revizijskih družb</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o poročanju revizijskih družb (Uradni list RS, št. 72/10) se v drugem odstavku 5. člena črta besedilo »pisni in«.<br />
 V tretjem odstavku se črta besedilo »in s priporočeno pošiljko oziroma vloži na sedežu Agencije in Inštituta v času uradnih ur«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 10.00-20/2013</p>
 <p>Ljubljana, dne 21. oktobra 2013</p>
@@ -47,5 +60,36 @@ Predsednica strokovnega sveta</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-11-29", "kratica": "PRAV11855", "naziv": "Pravilnik o spremembah Pravilnika o poročanju revizijskih družb", "url": "/trubar/si/PRAV11855/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

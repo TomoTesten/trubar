@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-5349" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6251.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV6251" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6251.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV6251,vrsta:pravilnik">
+    
     <h1>Pravilnik o valorizaciji zneskov za odmero davkov po zakonu o davkih občanov za leto 2005</h1>
 <p>Na podlagi 193.a člena Zakona o davkih občanov (Uradni list SRS, št. 36/88 in 8/89 ter Uradni list RS, št. 48/90, 8/91 in 7/93, 18/96 – <a href="/trubar/si/ZDavP/" class="law-ref" title="ZDavP">ZDavP</a> in 91/98 – <a href="/trubar/si/ZDavP/" class="law-ref" title="ZDavP">ZDavP</a> – C) ter na podlagi podatka Statističnega urada Republike Slovenije izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o valorizaciji zneskov za odmero davkov po zakonu o davkih občanov za leto 2005</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Zneski za odmero davka na dediščine in darila, določeni v 150. členu Zakona o davkih občanov (Uradni list SRS, št. 36/88 in 8/89 ter Uradni list RS, št. 48/90, 8/91 in 7/93, 18/96 – <a href="/trubar/si/ZDavP/" class="law-ref" title="ZDavP">ZDavP</a> in 91/98 – <a href="/trubar/si/ZDavP-C/" class="law-ref" title="ZDavP-C">ZDavP-C</a>, v nadaljnem besedilu: zakon), se valorizirajo tako, da znašajo:<br />
 a) II. dedni red (starši, bratje, sestre in njihovi potomci)</p>
 <hr />
@@ -82,7 +95,7 @@ nad                   do            SIT              %               SIT</p>
 77.759.012    88.438.526  14.529.964,61         +   27  nad   77.759.012<br />
 88.438.526                17.413.433,08         +   30  nad   88.438.526</p>
 <hr />
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Zneski za odmero davka od premoženja, določeni v 159. in 165. členu zakona, se valorizirajo tako, da znašajo za:<br />
 a) stavbe</p>
 <hr />
@@ -126,9 +139,9 @@ nad                       do         SIT            %                  SIT</p>
 35.471.691,76                 220.025,98       + 1,25   nad  35.471.691,76</p>
 <hr />
 <p>d) plovne objekte dolžine od 8 do 9 metrov 29.137 SIT, za vsak nadaljnji meter 11.404 SIT.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Vrednost dobitka, do katerega se davek od iger na srečo ne plačuje, določena v 169. členu zakona, se v letu 2005 valorizira tako, da znaša 45.607 SIT.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 425-03-2/2004</p>
 <p>Ljubljana, dne 18. novembra 2004.</p>
@@ -144,5 +157,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-11-30", "kratica": "PRAV6251", "naziv": "Pravilnik o valorizaciji zneskov za odmero davkov po zakonu o davkih občanov za leto 2005", "url": "/trubar/si/PRAV6251/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Ministrstvo za zdravje</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-1765" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV15044.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV15044" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV15044.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV15044,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o vsebnosti nevarnih snovi v materialih in sestavnih delih motornih vozil</h1>
 <p>Na podlagi 49. člena Zakona o kemikalijah (Uradni list RS, št. 110/03 – uradno prečiščeno besedilo, 47/04 – <a href="/trubar/si/ZdZPZ/" class="law-ref" title="ZdZPZ">ZdZPZ</a>, 61/06 – <a href="/trubar/si/ZBioP/" class="law-ref" title="ZBioP">ZBioP</a>, 16/08, 9/11 in 83/12 – <a href="/trubar/si/ZFfS-1/" class="law-ref" title="ZFfS-1">ZFfS-1</a>) minister za zdravje izdaja</p>
 <p>P R A V I L N I K</p>
@@ -52,5 +65,36 @@ besedilom »Delegirano direktivo Komisije (EU) 2023/544 z dne 16. decembra 2022
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-05-26", "kratica": "PRAV15044", "naziv": "Pravilnik o spremembah Pravilnika o vsebnosti nevarnih snovi v materialih in sestavnih delih motornih vozil", "url": "/trubar/si/PRAV15044/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

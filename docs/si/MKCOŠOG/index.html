@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-02-0044" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKCOŠOG.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MKCOŠOG" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKCOŠOG.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MKCOŠOG,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o ratifikaciji Mednarodne konvencije o civilni odgovornosti za škodo, ki jo povzroči onesnaženje z gorivom, 2001 (EU)</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Republike Slovenije<br />
 dr. Janez Drnovšek l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI MEDNARODNE KONVENCIJE O CIVILNI ODGOVORNOSTI ZA ŠKODO, KI JO POVZROČI ONESNAŽENJE Z GORIVOM, 2001 (MKCOŠOG)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Mednarodna konvencija o civilni odgovornosti za škodo, ki jo povzroči onesnaženje z gorivom, sklenjena 23. marca 2001 v Londonu.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo konvencije se v izvirniku v angleškem jeziku ter v prevodu v slovenskem jeziku glasi:</p>
 <h2>INTERNATIONAL CONVENTION</h2>
 <p>ON CIVIL LIABILITY FOR BUNKER OIL POLLUTION DAMAGE, 2001</p>
@@ -373,12 +386,12 @@ Dodeljeno pooblastilo začne veljati šele po treh mesecih od datuma, ko je bil 
 V LONDONU, triindvajsetega marca, dva tisoč ena.<br />
 V POTRDITEV TEGA so spodaj podpisani predstavniki, ki so jih njihove vlade v ta namen pravilno pooblastile, podpisali to konvencijo.</p>
 <p>PRILOGA: Potrdilo zavarovanja ali drugega finančnega jamstva glede civilne odgovornosti za škodo, ki jo povzroči onesnaženje z gorivom iz ladijskih rezervoarjev</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje konvencije skrbi Ministrstvo za promet.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ob predložitvi listine o ratifikaciji konvencije Republika Slovenija v skladu s sklepom Sveta št. 2002/762/ES poda Evropskemu Svetu in Evropski komisiji izjavo, ki se v slovenskem jeziku glasi:</p>
 <p>"Sodbe o zadevah, za katere velja Konvencija, se, kadar jih izda sodišče v katerikoli državi članici, za katero se uporablja sklep Sveta z dne 19. 9. 2002, ki države članice pooblašča, da v interesu Skupnosti podpišejo ali ratificirajo Mednarodno konvencijo o civilni odgovornosti za škodo, ki jo povzroči onesnaženje z gorivom, 2001 (2002/762/ES), ali k njej pristopijo, razen v Republiki Sloveniji in na Danskem, priznajo in izvršijo v Republiki Sloveniji, skladno z ustreznimi notranjimi pravili Skupnosti o tej zadevi."</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 802-06/04-11/1</p>
 <p>Ljubljana, dne 9. aprila 2004</p>
@@ -395,5 +408,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-04-22", "kratica": "MKCOŠOG", "naziv": "Zakon o ratifikaciji Mednarodne konvencije o civilni odgovornosti za škodo, ki jo povzroči onesnaženje z gorivom, 2001 (EU)", "url": "/trubar/si/MKCOŠOG/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

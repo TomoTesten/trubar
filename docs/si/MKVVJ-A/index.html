@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-02-0023" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKVVJ-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MKVVJ-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MKVVJ-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MKVVJ-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Dopolnitev 25. in 26. člena Konvencije o varstvu in uporabi čezmejnih vodotokov in mednarodnih jezer</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI DOPOLNITEV 25. IN 26. ČLENA KONVENCIJE O VARSTVU IN UPORABI ČEZMEJNIH VODOTOKOV IN MEDNARODNIH JEZER (MKVVJ-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificirata se Dopolnitvi 25. in 26. člena Konvencije o varstvu in uporabi čezmejnih vodotokov in mednarodnih jezer, sprejeti 28. novembra 2003 v Ženevi.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo dopolnitev konvencije se v izvirniku v angleškem jeziku in prevodu v slovenskem jeziku glasi:</p>
 <h3>AMENDMENTS TO ARTICLES 25 AND 26 OF THE CONVENTION ON THE PROTECTION AND USE OF TRANSBOUNDARY WATERCOURSES AND INTERNATIONAL LAKES</h3>
 <p>The Meeting of the Parties,<br />
@@ -71,9 +84,9 @@ b) v tretjem odstavku 26. člena se za »omenjeno v 23. členu« doda »ali tret
 4. spodbuja države zunaj območja UNECE, zlasti države, ki nanj mejijo, da pristopijo h konvenciji in za ta namen zaprosijo sestanek pogodbenic za odobritev;<br />
 5. vabi zainteresirane države članice Združenih narodov, da se udeležujejo sestankov pogodbenic kot opazovalke in sodelujejo pri dejavnostih delovnega programa konvencije;<br />
 6. vabi države, ki mejijo na območje UNECE in še niso sklenile sporazumov o tehničnem sodelovanju in dvostranskih ali večstranskih sporazumov z obrežnimi državami UNECE skladno z določbami II. dela konvencije, da to storijo čim prej.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje dopolnitev konvencije skrbi ministrstvo, pristojno za okolje.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 802-06/13-2/9</p>
 <p>Ljubljana, dne 7. marca 2013</p>
@@ -90,5 +103,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-03-28", "kratica": "MKVVJ-A", "naziv": "Zakon o ratifikaciji Dopolnitev 25. in 26. člena Konvencije o varstvu in uporabi čezmejnih vodotokov in mednarodnih jezer", "url": "/trubar/si/MKVVJ-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

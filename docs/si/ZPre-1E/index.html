@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-2140" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPre-1E.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPre-1E" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPre-1E.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPre-1E,vrsta:Sprejet zakon">
+    
     <h1>Zakon o dopolnitvah Zakona o prevzemih</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O DOPOLNITVAH ZAKONA O PREVZEMIH (ZPre-1E)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o prevzemih (Uradni list RS, št. 79/06, 67/07 – <a href="/trubar/si/ZTFI/" class="law-ref" title="ZTFI">ZTFI</a>, 1/08, 68/08, 35/11 – ORZPre75, 105/11 – odločba US, 10/12 in 38/12) se za 22.a členom dodata nova 22.b in 22.c člen, ki se glasita:</p>
 <h3>»22.b člen</h3>
 <h3>(oprostitve in izvrševanje glasovalnih pravic zaradi zagotovitve kapitalske ustreznosti ciljne družbe)</h3>
@@ -53,7 +66,7 @@ Republike Slovenije</p>
 <p>(1) Oseba ali osebe, ki delujejo usklajeno, in jim je bilo z odločbo agencije prepovedano izvrševanje glasovalnih pravic v ciljni družbi, lahko ob predhodni pridobitvi soglasja agencije izvršujejo glasovalne pravice iz delnic, katerih imetnice so, pri glasovanju na skupščini ciljne družbe o predlogih sklepov, ki so nujno potrebni za zaščito javnega interesa (na primer: varnost ali obramba države, javna varnost, varnost življenja, zdravja in premoženja ljudi, delovanje ekonomskega sistema).<br />
 (2) Soglasje iz prejšnjega odstavka izda agencija na podlagi obrazloženega predloga osebe ali oseb, ki želijo izvrševanje glasovalne pravice. Predlog mora biti vložen najmanj deset delovnih dni pred skupščino, na kateri želi vlagatelj uresničevati glasovalne pravice. Soglasje izda agencija z odločbo, po postopku, ki ga za izdajo dovoljenj agencije določa zakon, ki ureja trg finančnih instrumentov. Agencija izda odločbo najkasneje do začetka skupščine, na kateri želi oseba ali osebe izvrševati glasovalne pravice.«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 310-09/13-1/19</p>
 <p>Ljubljana, dne 20. junija 2013</p>
@@ -70,5 +83,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-07-02", "kratica": "ZPre-1E", "naziv": "Zakon o dopolnitvah Zakona o prevzemih", "url": "/trubar/si/ZPre-1E/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

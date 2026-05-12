@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2739" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO137.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO137" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO137.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO137,vrsta:navodilo">
+    
     <h1>Navodilo o spremembah navodila o sprejemanju in izdajanju slovenskih standardov</h1>
 <p>Na podlagi petega odstavka 7. člena zakona o standardizaciji (Uradni list RS, št. 1/95) in 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95 – odl. US in 29/95) izdaja minister za znanost in tehnologijo</p>
 <h2>N A V O D I L O</h2>
 <p>o spremembah navodila o sprejemanju  in izdajanju slovenskih standardov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V navodilu o sprejemanju in izdajanju slovenskih standardov (Uradni list RS, št. 32/95) se drugi odstavek  11. člena spremeni tako, da se glasi: “Če ustrezen TC še ni ustanovljen, pomočnik direktorja Urada, pristojen za standardizacijo, pobudo obravnava in jo sprejme ali zavrne”.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako da se glasi: “Pri metodi platnice se tujemu standardu doda nacionalna platnica, ki vsebuje predgovor s pojasnili in dodatkom s parametri za uporabo v Sloveniji”.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>To navodilo začne veljati petnajsti dan po objavi v Uradnem listu RS.</p>
 <p>Št. 009-2/99</p>
 <p>Ljubljana, dne 28. junija 1999.</p>
@@ -50,5 +63,36 @@ dr. Lojze Marinček l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-07-20", "kratica": "NAVO137", "naziv": "Navodilo o spremembah navodila o sprejemanju in izdajanju slovenskih standardov", "url": "/trubar/si/NAVO137/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

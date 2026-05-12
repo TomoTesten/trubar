@@ -21,33 +21,46 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-2441" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6624.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV6624" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6624.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV6624,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o programu sodniškega pripravništva in pravniškem državnem izpitu</h1>
 <p>Na podlagi tretjega odstavka 14. člena in 27.a člena Zakona o pravniškem državnem izpitu (Uradni list RS, št. 83/03 – prečiščeno besedilo) izdaja minister za pravosodje</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika<br />
 o programu sodniškega pripravništva<br />
 in pravniškem državnem izpitu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o programu sodniškega pripravništva in pravniškem državnem izpitu (Uradni list RS, št. 86/03, 50/04) se drugi odstavek 14. člena spremeni tako, da se glasi:</p>
 <p>"(2) Vsi kandidati, za katere je določen izpitni rok v istem mesecu, opravljajo pisni del izpita istočasno. V primeru, da je zahtevo za opravljanje izpita vložilo večje število kandidatov, se lahko pisni del izpita opravlja večkrat mesečno. Ustni del izpita se opravlja v naslednjem mesecu po opravljenem pisnem delu."</p>
 <p>Četrti odstavek se spremeni tako, da se glasi:</p>
 <p>"(4) Pisna naloga iz civilnega področja se opravlja praviloma vsak drugi ponedeljek v mesecu, pisna naloga iz kazenskega področja pa praviloma vsak drugi torek v mesecu. V primeru, da je zahtevo za opravljanje izpita vložilo večje število kandidatov, se lahko pisni nalogi opravljata katerikoli ponedeljek oziroma torek v mesecu."</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 15. člena se za besedo "mesec" doda besedilo "oziroma za posamezno skupino kandidatov, ki opravlja izpit istočasno,".<br />
 Drugi odstavek se spremeni tako, da se glasi:</p>
 <p>"Člane komisije iz prejšnjega odstavka določi minister za pravosodje vnaprej za vsako skupino kandidatov, ki opravlja izpit istočasno, z letnim razporedom."</p>
 <p>V četrtem odstavku se črta besedilo "v istem mesecu", za besedo "kandidate" se doda vejica in besedilo "ki izpit opravljajo istočasno".</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Prvi odstavek 16. člena se spremeni tako, da se glasi:</p>
 <p>"(1) Člana komisije, določena za pisni del izpita, skupaj pregledata in ocenita vse naloge najkasneje pet delovnih dni pred koncem meseca, v katerem so bile izdelane, in jih vrneta predsedniku izpitne komisije iz drugega odstavka 21. člena zakona (v nadaljnjem besedilu: predsednik izpitne komisije). V primeru, da so se pisne naloge opravljale v več skupinah, morata člana komisije vsako skupino nalog pregledati in oceniti najkasneje deset delovnih dni pred opravljanjem ustnega dela izpita."</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V prvem odstavku 18. člena se za besedo "mesec" doda besedilo "oziroma za posamezno skupino kandidatov, ki opravlja izpit istočasno,".</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 071-19-4/2005</p>
 <p>Ljubljana, dne 30. maja 2005.</p>
@@ -63,5 +76,36 @@ za pravosodje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-06-10", "kratica": "PRAV6624", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o programu sodniškega pripravništva in pravniškem državnem izpitu", "url": "/trubar/si/PRAV6624/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-02-0045" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2482.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2482" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2482.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2482,vrsta:uredba">
+    
     <h1>Uredba o ratifikaciji protokola o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Ukrajino</h1>
 <p>Na podlagi tretjega odstavka 63. člena zakona o zunanjih zadevah (Uradni list RS, št. 1/91-I) izdaja Vlada Republike Slovenije</p>
 <h2>UREDBO</h2>
 <p>o ratifikaciji protokola o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Ukrajino</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se protokol o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Ukrajino, podpisan v Kijevu dne 10. marca 1992.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Protokol se v izvirniku v slovenskem* jeziku glasi:</p>
 <h2>PROTOKOL</h2>
 <p>o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Ukrajino</p>
@@ -44,7 +57,7 @@ Pogodbenici sta se sporazumeli, da bosta razvijali medsebojne odnose na podlagi 
 Na podlagi tretjega odstavka 63. člena zakona o zunanjih zadevah (Uradni list RS, št. 1/91-I) izdaja Vlada Republike Slovenije</p>
 <h2>UREDBO</h2>
 <p>o ratifikaciji protokola o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Rusko federacijo</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se protokol o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Rusko federacijo, podpisan v Ljubljani dne 25. maja 1992.<br />
 medsebojnega spoštovanja ozemeljske celovitosti in nevmešavanja v notranje zadeve v skladu z Ustanovno listino OZN, Sklepno listino Helsinške konference, Pariško listino za novo Evropo in drugimi dokumenti KVSE.<br />
 Republika Slovenija in Ukrajina se bosta ravnali v skladu s svojimi interesi in sprejetimi načeli mednarodnega sodelovanja ter ohranitve miru.<br />
@@ -53,7 +66,7 @@ Sklenjeno v Kijevu, dne 10. marca 1992. leta, v dveh izvodih v slovenskem in ukr
 Zoran Thaler l. r.<br />
 Za Ukrajino<br />
 Valentin M. Lipatov l. r.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba prične veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 900-03/92-40/1-8</p>
 <p>Ljubljana, dne 4. junija 1992.</p>
@@ -71,5 +84,36 @@ dr. Janez Drnovšek l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-06-30", "kratica": "URED2482", "naziv": "Uredba o ratifikaciji protokola o vzpostavitvi diplomatskih odnosov med Republiko Slovenijo in Ukrajino", "url": "/trubar/si/URED2482/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2753" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPPO-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPPO-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPPO-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPPO-A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o priznanju Republike Slovenije za poslovno odličnost</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -38,25 +51,25 @@ Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA<br />
 O PRIZNANJU REPUBLIKE SLOVENIJE ZA POSLOVNO ODLIČNOST (ZPPO-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Prvi odstavek 3. člena zakona o priznanju Republike Slovenije za poslovno odličnost (Uradni list RS, št. 22/98) se spremeni tako, da se glasi:</p>
 <p>“Priznanja se vsako leto lahko podelijo osebam v zasebnem in javnem sektorju v kategorijah, ki jih določi Odbor za priznanja Republike Slovenije za poslovno odličnost (v nadaljnjem besedilu: odbor), upoštevajoč kriterije in merila evropske nagrade za kakovost.”.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 6. člena se besedilo “Odbor za priznanja Republike Slovenije za poslovno odličnost (v nadaljnjem besedilu: odbor)” nadomesti z besedo “odbor”.<br />
 V drugem odstavku 6. člena se beseda “sedem” nadomesti z besedo “devet”.<br />
 V tretjem odstavku 6. člena se črtata besedi “in tehnologijo”, besedi “gospodarske dejavnosti” se nadomestita z besedo “gospodarstvo”, pred piko pa se doda besedilo “ter predstavnik reprezentativnih sindikatov”.<br />
 V četrtem odstavku 6. člena se besedilo “en direktor javnega zavoda” nadomesti z besedilom “dva direktorja organizacij iz javnega sektorja”.<br />
 Peti odstavek 6. člena se spremeni tako, da se glasi:</p>
 <p>“Člane odbora iz prejšnjega odstavka imenuje Vlada Republike Slovenije za dobo štirih let na predlog ministra, pristojnega za znanost. Predsednika odbora izvolijo člani odbora izmed sebe.”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prvem odstavku 7. člena se peta alinea spremeni tako, da se glasi:</p>
 <p>“- kategorije priznanja, merila in sistem ocenjevanja ter”.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 8. členu se črtata besedi “standardizacijo in”.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Vlada Republike Slovenije imenuje nove člane odbora v skladu s tem zakonom potem, ko sedanjim članom odbora poteče mandat.<br />
 Odbor uskladi pravilnik s tem zakonom najpozneje v enem mesecu po uveljavitvi tega zakona.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije, uporabljati pa se začne za postopek podelitve priznanja Republike Slovenije za poslovno odličnost za leto 2004.</p>
 <p>Št. 091-02/94-4/5</p>
 <p>Ljubljana, dne 28. maja 2003.</p>
@@ -73,5 +86,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-06-09", "kratica": "ZPPO-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o priznanju Republike Slovenije za poslovno odličnost", "url": "/trubar/si/ZPPO-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

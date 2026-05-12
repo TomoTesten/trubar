@@ -21,20 +21,33 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3032" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4909.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4909" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4909.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4909,vrsta:uredba">
+    
     <h1>Uredba o spremembah Uredbe o sejninah in povračilih stroškov predsedniku, namestniku predsednika in članom Komisije za izvajanje Zakona o popravi krivic</h1>
 <p>Na podlagi 9. člena Zakona o popravi krivic (Uradni list RS, št. 70/05 – uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah Uredbe o sejninah in povračilih stroškov predsedniku, namestniku predsednika in članom Komisije za izvajanje Zakona o popravi krivic</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o sejninah in povračilih stroškov predsedniku, namestniku predsednika in članom Komisije za izvajanje Zakona o popravi krivic (Uradni list RS, št. 97/06) se v prvem odstavku 3. člena besedilo »dveh dnevnic« nadomesti z besedilom »2,6 dnevnice«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Prvi odstavek 4. člena se spremeni tako, da se glasi:<br />
 »Član je za udeležbo na seji komisije, predsednik pa tudi za prisotnost na sedežu komisije v času uradnih ur predsednika (največ dvakrat tedensko), upravičen do povračila prevoznih stroškov.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
@@ -46,7 +59,7 @@ Za potovanje v drug kraj se šteje, če je seja ali drugo delo komisije v drugem
 Članu se povrnejo prevozni stroški v višini stroškov javnega prevoza. Član je upravičen do povračila stroškov javnega prevoza največ do razdalje med krajem, v katerem je bila seja ali drugo delo komisije, in krajem, v katerem ima stalno oziroma začasno prebivališče, oziroma krajem zaposlitve oziroma krajem, iz katerega dejansko odpotuje na sejo ali drugo delo komisije. Stroški javnega prevoza se priznajo v obe smeri potovanja. Če član nima možnosti prevoza z javnimi prevoznimi sredstvi, je upravičen do kilometrine.<br />
 Kilometrina je povračilo stroškov za uporabo lastnega avtomobila za prevoz na sejo ali drugo delo za komisijo in je enaka višini kilometrine, ki jo določajo Zakon o višini povračil stroškov v zvezi z delom, in nekaterih drugih prejemkov oziroma na njegovi podlagi izdani predpisi. Član je upravičen do povračila kilometrine, če nima možnosti prevoza z javnimi prevoznimi sredstvi, ter največ do razdalje med krajem, v katerem je bila seja ali drugo delo komisije, in krajem, v katerem ima stalno oziroma začasno prebivališče, oziroma krajem zaposlitve oziroma krajem, iz katerega dejansko odpotuje na sejo ali drugo delo komisije. Član je upravičen do kilometrine v obe smeri potovanja.<br />
 Član lahko zahteva povračilo za stroške javnega prevoza samo na podlagi dokazil (vozovnica javnega prevoznega sredstva).«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00720-9/2008/7</p>
 <p>Ljubljana, dne 3. julija 2008</p>
@@ -62,5 +75,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-07-11", "kratica": "URED4909", "naziv": "Uredba o spremembah Uredbe o sejninah in povračilih stroškov predsedniku, namestniku predsednika in članom Komisije za izvajanje Zakona o popravi krivic", "url": "/trubar/si/URED4909/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1377" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3219.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3219" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3219.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3219,vrsta:drugi akt">
+    
     <h1>Aneks h Kolektivni pogodbi za gozdarstvo Slovenije</h1>
 <p>Na podlagi 64. člena Kolektivne pogodbe za gozdarstvo Slovenije (Uradni list RS, št. 16/05, 37/06 – tarifna priloga, 19/08 – tarifna priloga in 99/08 – aneks in tarifna priloga)</p>
 <p>stranki:<br />
@@ -34,13 +47,13 @@ SINDIKAT GOZDARSTVA SLOVENIJE, na strani delojemalcev<br />
 sklepata:</p>
 <h2>A N E K S</h2>
 <p>h Kolektivni pogodbi za gozdarstvo Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Spremeni se 2. člen Kolektivne pogodbe za gozdarstvo Slovenije tako, da se glasi:<br />
 Ta pogodba velja za vse delodajalce, člane GZS – Združenja za gozdarstvo Slovenije, ki na pridobiten način po Standardni klasifikaciji dejavnosti (Uradni list RS, št. 69/07) opravljajo eno od navedenih dejavnosti, kot glavno dejavnost:<br />
 – 02.100 gojenje gozdov in druge gozdarske storitve<br />
 – 02.200 sečnja<br />
 – 02.400 storitve za gozdarstvo.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 6. členu se za drugim odstavkom dodajo novi, tretji, četrti, peti in šesti odstavek, ki se glasijo:<br />
 (3) Delodajalci in sindikati se lahko v primeru bistvenega poslabšanja poslovanja, ki ni na strani delodajalca in bi lahko ogrozilo obstoj delodajalca, obstoj delovnih mest ali v podobnih utemeljenih primerih z aneksom h podjetniški kolektivni pogodbi ali s pisnim dogovorom, za določen čas dogovorijo, da se določene pravice in delovni pogoji določijo manj ugodno od pravic in delovnih pogojev, ki jih določa ta kolektivna pogodba.<br />
 (4) Delodajalci in sindikati morajo v aneksu h podjetniški kolektivni pogodbi ali v pisnem dogovoru določiti:<br />
@@ -50,7 +63,7 @@ c) čas trajanja odstopanja od minimalnih standardov.<br />
 Delodajalci in sindikati se lahko dogovorijo o podaljšanju dogovorjenih ukrepov.<br />
 (5) Pravice in delovni pogoji iz prejšnjega odstavka se ne smejo znižati pod višino pravic, ki jih določajo zakoni.<br />
 (6) Delodajalci, ki v podjetju nimajo organiziranega sindikata lahko odstopanje od minimalnih standardov uredijo s splošnim aktom. Pred sprejemom akta morajo delodajalci neposredno obvestiti delavce. Obveščanje se lahko izvede na naslednje načine: z vročitvijo besedila predloga splošnega akta vsakemu posameznemu delavcu, v podjetniškem glasilu, z objavo besedila predloga splošnega akta na oglasni deski ali na spletni strani delodajalca, oziroma na način, ki je običajen pri delodajalcu.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Aneks začne veljati s podpisom obeh strank.<br />
 Podpisnik delodajalcev je dolžan seznaniti vse članice Združenja za gozdarstvo in Združenje delodajalcev Slovenije, takoj po podpisu tega aneksa zaradi pravočasne uporabe.<br />
 Aneks se vpiše v razvid kolektivnih pogodb pri Ministrstvu za delo, družino in socialne zadeve in se objavi v Uradnem listu Republike Slovenije.</p>
@@ -72,5 +85,36 @@ Marko Fičur l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-04-17", "kratica": "DRUG3219", "naziv": "Aneks h Kolektivni pogodbi za gozdarstvo Slovenije", "url": "/trubar/si/DRUG3219/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

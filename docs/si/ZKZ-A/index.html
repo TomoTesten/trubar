@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-3230" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZKZ-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZKZ-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZKZ-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZKZ-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah zakona o kmetijskih zemljiščih</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH ZAKONA O KMETIJSKIH ZEMLJIŠČIH (ZKZ-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o kmetijskih zemljiščih (Uradni list RS, št. 59/96, 31/98 – odločba US, 1/99 – <a href="/trubar/si/ZNIDC/" class="law-ref" title="ZNIDC">ZNIDC</a>, 54/2000 – <a href="/trubar/si/ZKme/" class="law-ref" title="ZKme">ZKme</a>, 68/2000 – odločba US, 27/2002 – odločba US in 58/2002 – <a href="/trubar/si/ZMR-1/" class="law-ref" title="ZMR-1">ZMR-1</a>) se 22. člen spremeni tako, da se glasi:</p>
 <p>“V smislu tega zakona je kmet fizična oseba:</p>
 <p>– ki je lastnik, zakupnik oziroma drugačen uporabnik kmetijskega zemljišča, to zemljišče obdeluje sama ali s pomočjo drugih, je za to obdelovanje ustrezno usposobljena in iz kmetijske dejavnosti pridobiva pomemben del dohodka;<br />
@@ -50,9 +63,9 @@ Kmet mora imeti najmanj poklicno kmetijsko izobrazbo ali opravljen preizkus znan
 V smislu tega zakona je kmetijska organizacija gospodarska  družba, kmetijska zadruga ali druga pravna oseba, ki je registrirana za kmetijsko dejavnost, za katero potrebuje kmetijska zemljišča, in izpolnjuje druge predpisane pogoje za opravljanje te dejavnosti.<br />
 Če nastane dvom, ali je fizična oseba kmet oziroma pravna oseba kmetijska organizacija, odloča o tem upravna enota, v kateri leži pretežni del kmetijskega zemljišča, ki ga fizična oseba obdeluje oziroma organizacija uporablja.<br />
 Predpise, s katerimi se določijo podrobnejši pogoji, ki jih morajo izpolnjevati kmetijske organizacije, ter o vsebini in načinu opravljanja preizkusa znanja, izda minister, pristojen za kmetijstvo.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 111. členu se v prvem odstavku besedilo “občan, ki se je štel“ nadomesti z besedilom “fizična oseba, ki se je štela“.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 720-03/89-1/66</p>
 <p>Ljubljana, dne 10. julija 2002.</p>
@@ -68,5 +81,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-07-26", "kratica": "ZKZ-A", "naziv": "Zakon o spremembah zakona o kmetijskih zemljiščih", "url": "/trubar/si/ZKZ-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

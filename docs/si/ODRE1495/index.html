@@ -21,30 +21,43 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4540" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1495.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE1495" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1495.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE1495,vrsta:odredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Odredba o oblikah oznak skladnosti in znakov za označevanje čistine ter o načinu označevanja čistine na izdelkih iz plemenitih kovin</h1>
 <p>Na podlagi 21. člena zakona o izdelkih iz plemenitih kovin (Uradni list RS, št. 85/00) izdaja minister za znanost in tehnologijo</p>
 <h2>O D R E D B O</h2>
 <p>o oblikah oznak skladnosti in znakov  za označevanje čistine ter o načinu označevanja čistine na izdelkih iz plemenitih kovin</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Z oznako skladnosti se potrjuje skladnost izdelka iz plemenite kovine s predpisanimi tehničnimi zahtevami.<br />
 Oznake skladnosti imajo obliko ščita, na katerem so kemijska oznaka za plemenito kovino, oznaka SI in številka območne enote za overjanje in nadzor Urada RS za standardizacijo in meroslovje, ki je izdelek iz plemenite kovine preskusila in označila.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Oblike oznak skladnosti so v prilogi št. 1, ki je sestavni del te odredbe.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Načrti in matrice oznak se hranijo na Uradu RS za standardizacijo in meroslovje.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Z znakom za označevanje čistine se potrjuje, da ima izdelek iz plemenite kovine eno od standardnih stopenj čistine iz 7. člena zakona od izdelkih iz plemenitih kovin (Uradni list RS, št. 85/00).<br />
 Znak za označevanje čistine na izdelkih iz plemenitih kovin je sestavljen iz kombinacije treh številk, ki so lahko vtisnjene v okvir z merami 0,8 mm x 1,25 mm. Številke so lahko tudi brez okvira, vendar morajo biti tolikšne, da jih je mogoče očrtati z okvirom navedene velikosti in da so jasno vidne.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Znak za označevanje čistine mora biti na izdelku iz plemenite kovine vtisnjen poleg znaka dobavitelja.<br />
 Na izdelek iz plemenite kovine je dovoljeno vtisniti samo en znak za označevanje čistine.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Z dnem, ko začne veljati ta odredba, preneha veljati odredba o oblikah žigov za označevanje pravilne sestave in čistote predmetov iz plemenitih kovin in o načinu označevanja čistote na predmetih iz plemenitih kovin (Uradni list RS, št. 40/97).</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta odredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 009-09/00</p>
 <p>Ljubljana, dne 16. novembra 2000.</p>
@@ -60,5 +73,36 @@ za znanost in tehnologijo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-11-28", "kratica": "ODRE1495", "naziv": "Odredba o oblikah oznak skladnosti in znakov za označevanje čistine ter o načinu označevanja čistine na izdelkih iz plemenitih kovin", "url": "/trubar/si/ODRE1495/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

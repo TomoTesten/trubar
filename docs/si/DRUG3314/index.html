@@ -21,30 +21,43 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-3215" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3314.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3314" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3314.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3314,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Spremembe in dopolnitve Poslovnika Državnega sveta (PoDS-1A)</h1>
 <p>Državni svet je na 18. seji, dne 16. 9. 2009, na podlagi 101. člena Ustave Republike Slovenije (Uradni list RS, št. 33I/91-I, 42/97, 66/00, 24/03, 69/04, 69/04, 69/04, 68/06) sprejel</p>
 <h2>S P R E M E M B E   I N   D O P O L N I T V E   P O S L O V N I K A</h2>
 <p>Državnega sveta (PoDS-1A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Poslovniku Državnega sveta (Uradni list RS, št. 70/08) se v tretjem odstavku 15. člena beseda »predsedniku« nadomesti z besedo »vodji«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Drugi odstavek 69. člena se črta.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za 75. členom se doda nov 75.a člen, ki se glasi:</p>
 <h3>»75.a člen</h3>
 <p>(1) Osem državnih svetnikov, komisija ali interesna skupina lahko da pisno pobudo za sprejem odložilnega veta ali zahteve za razpis referenduma.<br />
 (2) Pobuda iz prejšnjega odstavka, ki izpolnjuje pogoje, določene s tem poslovnikom, se uvrsti na dnevni red seje državnega sveta brez razprave in glasovanja.<br />
 (3) Če državni svet po opravljeni razpravi ne sprejme odložilnega veta ali zahteve za razpis referenduma, pobude iz prvega odstavka tega člena za isti zakon ni mogoče ponovno obravnavati.«</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V tretjem odstavku 93. člena se besedi »predlog razlage« nadomestita z besedo »razlago«, za besedama »državnega svetnika« se doda vejica in besedi »interesne skupine«.<br />
 Dodata se nova četrti in peti odstavek, ki se glasita:<br />
 »(4) Državni svet sprejme avtentično razlago poslovnika.<br />
 (5) Razlaga poslovnika in avtentična razlaga poslovnika se sprejmeta z večino glasov vseh članov.«</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Te spremembe in dopolnitve poslovnika začnejo veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 020-01/09-8</p>
 <p>Ljubljana, dne 16. septembra 2009</p>
@@ -58,5 +71,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-09-21", "kratica": "DRUG3314", "naziv": "Spremembe in dopolnitve Poslovnika Državnega sveta (PoDS-1A)", "url": "/trubar/si/DRUG3314/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

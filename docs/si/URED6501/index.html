@@ -21,18 +21,31 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-2135" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6501.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6501" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6501.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6501,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o spremembah Uredbe o republiških priznavalninah na področju kulture</h1>
 <p>Na podlagi 90. in 91. člena Zakona o uresničevanju javnega interesa za kulturo (Uradni list RS, št. 77/07, 56/08, 4/10 in 20/11) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah Uredbe o republiških priznavalninah na področju kulture</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o republiških priznavalninah na področju kulture (Uradni list RS, št. 70/03) se v drugem odstavku 4. člena druga alineja spremeni tako, da se glasi:<br />
 »– podatke o višini zadnje izplačane pokojnine pri Zavodu za pokojninsko in invalidsko zavarovanje Slovenije in podatke o višini pokojnin v drugih državah oziroma izjavo, da pokojnine v drugih državah ne prejema z izjavo o resničnosti in točnosti podatkov,«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
@@ -41,12 +54,12 @@
 Znesek iz prejšnjega odstavka se letno uskladi s spremembo pokojnin v Republiki Sloveniji.<br />
 Prejemnik republiške priznavalnine je dolžan sporočiti spremembe podatkov o izplačevani pokojnini v Republiki Sloveniji in v tujini v 15 dneh od nastanka dejstva, ki vpliva na določitev višine republiške priznavalnine, ter nato vsako leto do konca januarja posredovati podatke o izplačevanih pokojninah za preteklo leto. Na podlagi spremenjenih dejstev minister ponovno odloči o upravičenosti do priznavalnine in njeni višini.«.</p>
 <h3>PREHODNE IN KONČNA DOLOČBA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Upravičenci, ki imajo ob uveljavitvi te uredbe že priznano pravico do republiške priznavalnine po Uredbi o republiških priznavalninah na področju kulture (Uradni list RS, št. 70/03), od 1. 1. 2013 do uveljavitve teh sprememb ohranijo pravico v dodeljenem znesku. Z uveljavitvijo te uredbe se višina priznavalnine uskladi z višino, določeno v 2. členu te uredbe.<br />
 Upravičenci, ki imajo pravico do republiške priznavalnine priznano po predpisih pred Uredbo o republiških priznavalninah na področju kulture (Uradni list RS, št. 70/03), z uveljavitvijo te uredbe obdržijo pravico v dodeljenem znesku.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Postopki za dodelitev republiške priznavalnine, o katerih pred uveljavitvijo te uredbe še ni bilo odločeno z odločbo, se dokončajo po določbah te uredbe.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta sprememba začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00716-3/2013</p>
 <p>Ljubljana, dne 26. junija 2013</p>
@@ -62,5 +75,36 @@ Predsednica</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-06-28", "kratica": "URED6501", "naziv": "Uredba o spremembah Uredbe o republiških priznavalninah na področju kulture", "url": "/trubar/si/URED6501/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

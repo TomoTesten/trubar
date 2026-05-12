@@ -21,23 +21,36 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0437" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6581.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6581" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6581.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6581,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvi Uredbe o notranji organizaciji, sistemizaciji, delovnih mestih in nazivih v organih javne uprave in v pravosodnih organih</h1>
 <p>Na podlagi prvega odstavka 41. člena Zakona o javnih uslužbencih (Uradni list RS, št. 63/07 – uradno prečiščeno besedilo, 65/08, 69/08 – ZTFI-A, 69/08 – ZZavar-E in 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvi Uredbe o notranji organizaciji, sistemizaciji, delovnih mestih in nazivih v organih javne uprave in v pravosodnih organih</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o notranji organizaciji, sistemizaciji, delovnih mestih in nazivih v organih javne uprave in v pravosodnih organih (Uradni list RS, št. 58/03, 81/03, 109/03, 43/04, 58/04 – popr., 138/04, 35/05, 60/05, 72/05, 112/05, 49/06, 140/06, 9/07, 33/08, 66/08, 88/08, 8/09, 63/09, 73/09, 11/10, 42/10, 82/10, 17/11, 14/12, 17/12, 23/12, 98/12, 16/13, 18/13, 36/13, 51/13 in 59/13) se v 13. členu v tretji alineji črtata besedilo »Direktorat za evropsko kohezijsko politiko« in besedilo »in evropsko teritorialno sodelovanje«, v četrti alineji pa se besedilo »Direktorat za javne službe varstva okolja in investicije v okolje« nadomesti z besedilom »Direktorat za vode in investicije«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 18. členu se za drugim odstavkom doda nov tretji odstavek, ki se glasi:<br />
 »(3) Urad iz prvega odstavka tega člena se lahko ustanovi za izvajanje projektov, financiranih iz evropskih sredstev, za čas, ko ima ministrstvo vlogo organa upravljanja, organa za potrjevanje, posredniškega telesa ali upravičenca, če je za delovno področje urada sistemiziranih najmanj 30 delovnih mest. Znotraj tega urada se lahko organizirajo notranje organizacijske enote, za katere veljajo omejitve glede števila sistemiziranih delovnih mest.«.<br />
 Dosedanji tretji, četrti in peti odstavek postanejo četrti, peti in šesti odstavek.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V petem odstavku 45. člena se črta drugi stavek.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije. Spremenjeni 13. člen uredbe se v delu, ki se nanaša na spremembo tretje alineje, začne uporabljati z dnem, ko vladna služba prevzame javne uslužbence, ki opravljajo naloge na področju evropske kohezijske politike, v delu, ki se nanaša na spremembo četrte alineje, pa se začne uporabljati 1. aprila 2014.</p>
 <p>Št. 00717-35/2013</p>
 <p>Ljubljana, dne 20. februarja 2014</p>
@@ -53,5 +66,36 @@ Podpredsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-02-21", "kratica": "URED6581", "naziv": "Uredba o spremembah in dopolnitvi Uredbe o notranji organizaciji, sistemizaciji, delovnih mestih in nazivih v organih javne uprave in v pravosodnih organih", "url": "/trubar/si/URED6581/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

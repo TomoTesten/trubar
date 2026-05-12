@@ -21,35 +21,48 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-5517" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4306.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4306" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4306.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4306,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Uredba o spremembah in dopolnitvah Uredbe o organih v sestavi ministrstev</h1>
 <p>Na podlagi 21. člena, petega odstavka 23. člena in drugega odstavka 42. člena Zakona o državni upravi (Uradni list RS, št. 113/05 – uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o organih v sestavi ministrstev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) V Uredbi o organih v sestavi ministrstev (Uradni list RS, št. 58/03, 45/04, 138/04, 52/05, 82/05, 17/06 in 76/06) se v petem odstavku 6. člena črta besedilo », tlačnih posod«.<br />
 (2) V sedmem odstavku se za besedo »termoenergetiko« dodata vejica in besedilo »nad premično tlačno opremo in opremo pod tlakom v prometu in v uporabi,«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) V drugem odstavku 14. člena se za besedilom »javne ceste,« črta beseda »ter«, za besedilom »homologacija vozil« pa se črta pika in doda besedilo »ter naloge preventive in vzgoje v cestnem prometu.«.<br />
 (2) V četrtem odstavku se za besedo »železniškega« doda beseda »prometa« ter črta besedilo »zračnega,«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) V prvem odstavku 15.a člena se beseda »je« nadomesti z besedo »sta«, namesto pike pa se postavi vejica in doda nova druga alinea, ki se glasi:<br />
 »– Urad Republike Slovenije za visoko šolstvo.«<br />
 (2) Za drugim odstavkom se doda nov tretji odstavek, ki se glasi:<br />
 »Urad Republike Slovenije za visoko šolstvo opravlja upravne, strokovne in organizacijske naloge za Svet Republike Slovenije za visoko šolstvo, akreditacijo visokošolskih zavodov in študijskih programov, evalvacijo kakovosti visokega šolstva in višjega strokovnega izobraževanja, sodeluje pri načrtovanju nacionalne visokošolske politike, sodeluje z visokošolskimi zavodi pri organizaciji usposabljanja zunanjih evalvacijskih komisij in samoevalvacijskih skupin visokošolskih zavodov ter pripravlja strokovne podlage za odločanje o drugih zadevah iz pristojnosti Sveta Republike Slovenije za visoko šolstvo.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>(1) V prvem odstavku 16. člena se črta prva alinea.<br />
 (2) Drugi odstavek se črta.<br />
 (3) Dosedanji tretji, četrti in peti odstavek postanejo drugi, tretji in četrti odstavek.</p>
 <h3>PREHODNI IN KONČNA DOLOČBA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Akti o notranji organizaciji in sistemizaciji delovnih mest Ministrstva za visoko šolstvo, znanost in tehnologijo, Ministrstva za zdravje in Ministrstva za promet se s to uredbo uskladijo najpozneje v enem mesecu od njene uveljavitve.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Določba prvega odstavka 2. člena in določba 4. člena te uredbe se uporabljata od 1. 1. 2007.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00712-53/2006/8</p>
 <p>Ljubljana, dne 7. decembra 2006</p>
@@ -65,5 +78,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-12-15", "kratica": "URED4306", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o organih v sestavi ministrstev", "url": "/trubar/si/URED4306/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

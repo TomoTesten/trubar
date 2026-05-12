@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3722" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED114.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED114" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED114.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED114,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Uredba o mejnih, opozorilnih in kritičnih imisijskih vrednostih nevarnih snovi v tleh</h1>
 <p>Na podlagi prvega in drugega odstavka 27. člena zakona o varstvu okolja (Uradni list RS, št. 32/93 in 1/96) in  21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93 in 23/96) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o mejnih, opozorilnih in kritičnih imisijskih vrednostih nevarnih snovi v tleh</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta uredba določa mejne, opozorilne in kritične imisijske vrednosti za posamezne nevarne snovi, razen za radioaktivne snovi, v tleh.<br />
 Ta uredba velja za celotno območje Republike Slovenije ne glede na sestavo ali vrsto rabe tal.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pojmi imajo po tej uredbi naslednji pomen:<br />
 1. Tla so površinski del litosfere, ki ga sestavljajo mineralne in organske snovi, voda, zrak in organizmi.<br />
 2. Imisija snovi v tleh je gostota posamezne nevarne snovi v tleh in se izraža v miligramih ali mikrogramih na kilogram mase suhih tal.<br />
@@ -40,13 +53,13 @@ Ta uredba velja za celotno območje Republike Slovenije ne glede na sestavo ali 
 4. Opozorilna imisijska vrednost (v nadaljnjem besedilu: opozorilna vrednost) je gostota posamezne nevarne snovi v tleh, ki pomeni pri določenih vrstah rabe tal verjetnost škodljivih učinkov ali vplivov na zdravje človeka ali okolje.<br />
 5. Kritična imisijska vrednost (v nadaljnjem besedilu: kritična vrednost) je gostota posamezne nevarne snovi v tleh, pri kateri zaradi škodljivih učinkov ali vplivov na človeka in okolje onesnažena tla niso primerna za pridelavo rastlin, namenjenih prehrani ljudi ali živali ter za zadrževanje ali filtriranje vode.<br />
 6. Reprezentativni vzorec tal je zmes 25 vzorcev tal, odvzetih na največ 5 ha velikem območju z enako vrsto rabe in je namenjen analizi onesnaženosti tal.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Mejne, opozorilne in kritične vrednosti posameznih nevarnih snovi v tleh so določene v prilogi 1, ki je sestavni del te uredbe.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Mejne, opozorilne in kritične vrednosti nevarnih snovi v tleh, določene s to uredbo, veljajo za reprezentativen vzorec tal, posušen do konstantne teže pri temperaturi do 40 °C.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z dnem uveljavitve te uredbe prenehajo veljati določbe 8. in 9. člena uredbe o ugotavljanju onesnaženosti kmetijskih zemljišč in gozda (Uradni list SRS, št. 6/90).</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 353-03/96-6/1-8</p>
 <p>Ljubljana, dne 7. novembra 1996.</p>
@@ -136,5 +149,36 @@ benzo(k)fluorantena in indeno(1,2,3)pirena,</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-11-29", "kratica": "URED114", "naziv": "Uredba o mejnih, opozorilnih in kritičnih imisijskih vrednostih nevarnih snovi v tleh", "url": "/trubar/si/URED114/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

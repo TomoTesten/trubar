@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-1120" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2762.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG2762" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2762.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG2762,vrsta:drugi akt">
+    
     <h1>Skupni sporazum o pogojih in načinih uporabe varovanih fonogramov iz repertoarja Zavoda IPF v dejavnosti lokalnih, regionalnih, študentskih in nepridobitnih lokalnih, regionalnih in študentskih televizijskih programov ter višini nadomestil za njihovo uporabo</h1>
 <p>Zavod za uveljavljanje pravic izvajalec in proizvajalcev fonogramov Slovenije, Šmartinska cesta 152, Ljubljana, ki ga zastopa direktor Gregor Štibernik, (v nadaljevanju IPF) in</p>
 <p>Gospodarska zbornica Slovenije, Dimičeva 13, 1504 Ljubljana, ki jo zastopa začasni predsednik Samo Hribar Milič, (v nadaljevanju Združenje)<br />
@@ -64,5 +77,36 @@ Irena Brglez l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-03-16", "kratica": "DRUG2762", "naziv": "Skupni sporazum o pogojih in načinih uporabe varovanih fonogramov iz repertoarja Zavoda IPF v dejavnosti lokalnih, regionalnih, študentskih in nepridobitnih lokalnih, regionalnih in študentskih televizijskih programov ter višini nadomestil za njihovo uporabo", "url": "/trubar/si/DRUG2762/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

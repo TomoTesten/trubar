@@ -21,20 +21,33 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-4741" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4647.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4647" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4647.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4647,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o prodaji in drugih oblikah razpolaganja s finančnim premoženjem države in občin</h1>
 <p>Na podlagi 80.h člena Zakona o javnih financah (Uradni list RS, št. 79/99, 124/00, 79/01, 30/02, 56/02 – <a href="/trubar/si/ZJU/" class="law-ref" title="ZJU">ZJU</a>, 127/06 – <a href="/trubar/si/ZJZP/" class="law-ref" title="ZJZP">ZJZP</a> in 14/07 – <a href="/trubar/si/ZSPDPO/" class="law-ref" title="ZSPDPO">ZSPDPO</a>) in 21. člena Zakona o Vladi Republike Slovenije (Uradni list RS, št. 24/05 – uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o prodaji in drugih oblikah razpolaganja s finančnim premoženjem države in občin</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o prodaji in drugih oblikah razpolaganja s finančnim premoženjem države in občin (Uradni list RS, št. 123/03 in 140/06) se v 45. členu dodata nov drugi in tretji odstavek, ki se glasita:<br />
 »(2) Če se prodaja finančnega premoženja izvede s ponudbo vrednostnih papirjev, za katero se sestavi prospekt v skladu s predpisi, ki urejajo trg finančnih instrumentov, se postopek javnega zbiranja ponudb izvede v skladu s predpisi, ki urejajo trg finančnih instrumentov. V tem primeru se določbe od 46. do 54. člena te uredbe ne uporabljajo, določba 55. člena te uredbe pa se uporablja smiselno.<br />
 (3) V primeru prodaje iz drugega odstavka tega člena se enakopravno obravnavanje ponudnikov in preglednost postopkov prodaje zagotavlja z objavo prospekta ter z zagotovitvijo enake prodajne cene za vse izbrane ponudnike.«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00712-38/2007/8</p>
 <p>Ljubljana, dne 11. oktobra 2007</p>
@@ -50,5 +63,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-10-19", "kratica": "URED4647", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o prodaji in drugih oblikah razpolaganja s finančnim premoženjem države in občin", "url": "/trubar/si/URED4647/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

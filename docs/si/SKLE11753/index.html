@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2019-01-0816" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE11753.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE11753" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE11753.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE11753,vrsta:sklep">
+    
     <h1>Sklep o spremembah Sklepa o sestavi in imenovanju predsednika, podpredsednika, članov in namestnikov članov Preiskovalne komisije o ugotavljanju odgovornosti nosilcev javnih funkcij na programu otroške kardiologije ter področju nabav in upravljanja z medicinsko opremo in zdravstvenimmaterialom</h1>
 <p>Na podlagi 93. člena Ustave Republike Slovenije (Uradni list RS, št. 33/91-I, 42/97, 66/00, 24/03, 69/04, 68/06, 47/13 in 75/16), 3. člena Zakona o parlamentarni preiskavi (Uradni list RS, št. 63/93 in 63/94 – <a href="/trubar/si/KZ/" class="law-ref" title="KZ">KZ</a>), 5. člena ter prvega, drugega, tretjega in petega odstavka 6. člena Poslovnika o parlamentarni preiskavi (Uradni list RS, št. 63/93 in 33/03), 112. in 201. člena Poslovnika državnega zbora (Uradni list RS, št. 92/07 – uradno prečiščeno besedilo, 105/10, 80/13 in 38/17) in Akta o odreditvi parlamentarne preiskave (Uradni list RS, št. 83/18) je Državni zbor na seji 28. marca 2019 sprejel</p>
 <p>S K L E P</p>
@@ -62,5 +75,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2019-03-29", "kratica": "SKLE11753", "naziv": "Sklep o spremembah Sklepa o sestavi in imenovanju predsednika, podpredsednika, članov in namestnikov članov Preiskovalne komisije o ugotavljanju odgovornosti nosilcev javnih funkcij na programu otroške kardiologije ter področju nabav in upravljanja z medicinsko opremo in zdravstvenimmaterialom", "url": "/trubar/si/SKLE11753/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

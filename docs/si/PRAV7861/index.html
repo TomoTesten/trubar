@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2007-01-3356" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7861.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7861" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7861.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7861,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o prosto živečih živalskih vrstah, za katere ni treba pridobiti dovoljenja za gojitev</h1>
 <p>Na podlagi drugega odstavka 21. člena Zakona o ohranjanju narave (Uradni list RS, št. 96/04 – uradno prečiščeno besedilo in 61/06 – <a href="/trubar/si/ZDru-1/" class="law-ref" title="ZDru-1">ZDru-1</a>) izdaja minister za okolje in prostor</p>
 <h2>P R A V I L N I K</h2>
 <p>o prosto živečih živalskih vrstah, za katere ni treba pridobiti dovoljenja za gojitev</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa prosto živeče živalske vrste, za katere ni treba pridobiti dovoljenja za gojitev živali domorodnih in tujerodnih vrst (v nadaljnjem besedilu: živali vrst), ker ne ogrožajo domorodnih živalskih vrst.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Dovoljenja za gojitev ni treba pridobiti za živali vrst:<br />
 1. sesalcev (Mammalia):<br />
 – činčila (Chinchilla spp.) – samo za osebke udomačene oblike,<br />
@@ -58,15 +71,15 @@
 4. nevretenčarjev (Invertebrata):<br />
 – ki so nezavarovane in se uporabljajo v znanstveno-raziskovalne, vzgojno izobraževalne ali biomedicinske namene (laboratorijske raziskave) oziroma za prehrano živali ali za predelavo organske mase, in<br />
 – ki so nezavarovane domorodne vrste in se pojavljajo v Jadranskem morju.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Dovoljenja za gojitev živali vrst ni treba pridobiti za gojenje:<br />
 – živali kopenskih vrst, razen ptic, z območjem naravne razširjenosti samo med 20. vzporednikom severne in 20. vzporednikom južne geografske širine, ki niso zavarovane z ratificiranimi mednarodnimi sporazumi ali predpisi Evropske unije na področju varstva rastlinskih in živalskih vrst ali niso uvrščene v kategorije ogroženosti Ex, Ex?, E ali V, katerih lastnosti so določene v predpisu, ki uvršča ogrožene rastlinske in živalske vrste v rdeči seznam, in<br />
 – živali vrst celinskih voda, z območjem naravne razširjenosti samo med 20. vzporednikom severne in 20. vzporednikom južne geografske širine, ki niso zavarovane z ratificiranimi mednarodnimi sporazumi ali predpisi Evropske unije na področju varstva rastlinskih in živalskih vrst ali niso uvrščene v kategorije ogroženosti Ex, Ex?, E ali V, katerih lastnosti so določene v predpisu, ki uvršča ogrožene rastlinske in živalske vrste v rdeči seznam.<br />
 (2) Pravne ali fizične osebe, ki nameravajo gojiti živali vrst iz prejšnjega odstavka, morajo pred začetkom gojitve o tem pisno obvestiti ministrstvo, pristojno za ohranjanje narave.</p>
 <h3>PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Postopki za izdajo dovoljenja za gojitev živali domorodnih ali tujerodnih vrst, začeti pred uveljavitvijo tega pravilnika, za katere v skladu s tem pravilnikom ni treba pridobiti dovoljenja za gojitev, se ustavijo po uradni dolžnosti.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0071-180/2006</p>
 <p>Ljubljana, dne 21. maja 2007</p>
@@ -826,5 +839,36 @@ katere ni treba pridobiti dovoljenja za gojitev.<br />
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2007-07-12", "kratica": "PRAV7861", "naziv": "Pravilnik o prosto živečih živalskih vrstah, za katere ni treba pridobiti dovoljenja za gojitev", "url": "/trubar/si/PRAV7861/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,26 +21,39 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5504" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE4374.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE4374" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE4374.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE4374,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Sklep o spremembah in dopolnitvah sklepa o podrobnejši obliki in najmanjšem obsegu ter vsebini revizijskega pregleda in revizorjevega poročila zavarovalnice</h1>
 <p>Na podlagi drugega odstavka 170. člena in 2. točke 256. člena zakona o zavarovalništvu (Uradni list RS, št. 13/00 in nasl.) izdaja Agencija za zavarovalni nadzor</p>
 <h2>S K L E P</h2>
 <p>o spremembah in dopolnitvah sklepa o podrobnejši obliki in najmanjšem obsegu ter vsebini revizijskega pregleda in revizorjevega poročila zavarovalnice</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V sklepu o podrobnejši obliki in najmanjšem obsegu ter vsebini revizijskega pregleda in revizorjevega poročila zavarovalnice (Uradni list RS, št. 6/01 in 108/01) se besedilo prvega odstavka 4. člena spremeni tako, da se glasi: »Revizorjevo poročilo o revizijskem pregledu zavarovalnice mora poleg poročila o revidiranju kot ga določata Zakon o gospodarskih družbah (v nadaljevanju: <a href="/trubar/si/ZGD/" class="law-ref" title="ZGD">ZGD</a>) in <a href="/trubar/si/ZRev/" class="law-ref" title="ZRev">ZRev</a>, vsebovati še dodatna poročila o temeljnih postavkah in procesih oziroma dodatek k poročilu o računovodskih izkazih.«<br />
 V besedilu drugega odstavka 4. člena se za besedo tabelami dodata besedi »izdelati in«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo 8. člena »Poročila iz prvega odstavka 4. člena tega sklepa so:« se spremeni tako, da se glasi: »Revizorjevo poročilo mora v okviru dodatka k poročilu o računovodskih izkazih vsebovati:«.<br />
 Besedilo 1. točke se spremeni tako, da se glasi: »1. poročilo o razlikah med nerevidiranimi in revidiranimi postavkami v računovodskih izkazih in manjkajočih  razkritjih«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 9. členu se besedilo spremeni tako, da se glasi:<br />
 »Pooblaščeni revizor mora v primeru, da se postavke v nerevidiranem letnem poročilu, ki jih mora zavarovalnica predložiti Agenciji do 30.3. naslednjega leta za predhodno leto, razlikujejo od postavk v revidiranem letnem poročilu, razlike obrazložiti«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za 18. členom se doda nov 18.a člen, ki se glasi: «Zavarovalnice so dolžne predložiti Agenciji revizorjevo poročilo po tem sklepu najkasneje v šestih mesecih po izteku koledarskega leta, pozavarovalnice in pozavarovalni pooli pa najkasneje v sedmih mesecih po izteku koledarskega leta.«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Ljubljana, dne 15. decembra 2003.</p>
 <p>Predsednik<br />
@@ -55,5 +68,36 @@ dr. France Križanič l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-12-22", "kratica": "SKLE4374", "naziv": "Sklep o spremembah in dopolnitvah sklepa o podrobnejši obliki in najmanjšem obsegu ter vsebini revizijskega pregleda in revizorjevega poročila zavarovalnice", "url": "/trubar/si/SKLE4374/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

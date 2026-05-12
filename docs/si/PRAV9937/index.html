@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-0985" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9937.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9937" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9937.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9937,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o varnosti igrač</h1>
 <p>Na podlagi 2. člena Zakona o tehničnih zahtevah za proizvode in o ugotavljanju skladnosti (Uradni list RS, št. 99/04 – uradno prečiščeno besedilo) izdaja minister za zdravje</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o varnosti igrač</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o varnosti igrač (Uradni list RS, št. 62/03, 35/04 in 47/07) se v 1. členu prvi odstavek spremeni tako, da se glasi: »Ta pravilnik v skladu z Direktivo Sveta z dne 3. maja 1988 o približevanju zakonodaje držav članic v zvezi z varnostjo igrač (UL L št. 187 z dne 16. 7. 1988, str. 1), spremenjeno z Direktivo Evropskega parlamenta in Sveta 2008/112/ES z dne 16. decembra 2008 o spremembi direktiv Sveta 76/768/EGS, 88/378/EGS, 1999/13/ES in direktiv 2000/53/ES, 2002/96/ES in 2004/42/ES Evropskega parlamenta in Sveta z namenom prilagoditve Uredbi (ES) št. 1272/2008 o razvrščanju, označevanju in pakiranju snovi ter zmesi (UL L št. 345 z dne 23. 12. 2008, str. 68) določa zahteve, ki jih morajo izpolnjevati igrače, ki se dajejo v promet zato, da se zagotovi njihov prosti pretok ter varnost in zdravje njihovih uporabnikov.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V Prilogi II se v celotnem besedilu beseda »pripravek« v vseh sklonih in številih nadomesti z besedo »zmes« v ustreznem sklonu in številu.<br />
 V poglavju »II. Posebna tveganja« se:<br />
 – v 2. točki »Vnetljivost« podtočka b) spremeni tako, da se glasi:<br />
@@ -47,7 +60,7 @@ b) razredi nevarnosti 3.1 do 3.6, 3.7 (škodljivi učinki na spolno delovanje in
 c) razred nevarnosti 4.1;<br />
 d) razred nevarnosti 5.1,<br />
 v količinah, ki lahko škodujejo zdravju otrok, ki igrače uporabljajo. V vsakem primeru je takšne snovi ali zmesi strogo prepovedano vključiti v igračo, če naj bi bile uporabljene kot take ob uporabi igrače.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V Prilogi IV se v celotnem besedilu beseda »pripravek« v vseh sklonih in številih nadomesti z besedo »zmes« v ustreznem sklonu in številu.<br />
 Naslov 4. točke in podtočka a) se spremenita tako, da se glasita:<br />
 »4. Igrače, ki vsebujejo snovi ali zmesi, ki so same po sebi nevarne<br />
@@ -58,7 +71,7 @@ a) Ne glede na Uredbo 1272/2008/ES, navodila za uporabo igrač, ki vsebujejo zme
 – razred nevarnosti 4.1;<br />
 – razred nevarnosti 5.1,<br />
 vsebujejo opozorilo glede nevarnosti teh snovi ali zmesi ter navodila v zvezi z varnostnimi ukrepi, ki jih mora upoštevati uporabnik, da bi se izognil z njimi povezanim nevarnostim, ki so na kratko opisana glede na vrsto igrače. Opozorilo mora vsebovati tudi prva pomoč v primeru hude nesreče zaradi uporabe te vrste igrače ter navedbo, da morajo biti igrače izven dosega zelo majhnih otrok.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati 1. junija 2010, določbe 2. in 3. člena tega pravilnika pa se začnejo uporabljati 1. decembra 2010.</p>
 <p>Št. 0070-10/2010</p>
 <p>Ljubljana, dne 9. marca 2010</p>
@@ -74,5 +87,36 @@ za zdravje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-03-22", "kratica": "PRAV9937", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o varnosti igrač", "url": "/trubar/si/PRAV9937/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

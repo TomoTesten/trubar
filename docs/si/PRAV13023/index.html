@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2016-01-3656" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV13023.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV13023" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV13023.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV13023,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvi Pravilnika o uvrstitvi delovnih mest direktorjev s področja javne uprave v plačne razrede znotraj razponov plačnih razredov</h1>
 <p>Za izvrševanje 11. člena Zakona o sistemu plač v javnem sektorju (Uradni list RS, št. 108/09 – uradno prečiščeno besedilo, 13/10, 59/10, 85/10, 107/10, 35/11 – ORZSPJS49a, 27/12 – odl. US, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>, 46/13, 25/14 – <a href="/trubar/si/ZFU/" class="law-ref" title="ZFU">ZFU</a>, 50/14, 95/14 – <a href="/trubar/si/ZUPPJS15/" class="law-ref" title="ZUPPJS15">ZUPPJS15</a> in 82/15) ter na podlagi 3. in 4. člena Uredbe o plačah direktorjev v javnem sektorju (Uradni list RS, št. 73/05, 103/05, 12/06, 36/06, 46/06, 77/06, 128/06, 37/07, 95/07, 112/07, 104/08, 123/08, 21/09, 61/09, 91/09, 3/10, 27/10, 45/10, 62/10, 88/10, 94/10 – <a href="/trubar/si/ZIU/" class="law-ref" title="ZIU">ZIU</a>, 10/11, 45/11, 53/11, 86/11, 26/12, 41/12, 90/12, 24/13, 75/13, 79/13, 108/13, 15/14, 43/14, 6/15, 57/15, 98/15 in 15/16) izdaja minister za javno upravo</p>
 <p>P R A V I L N I K</p>
@@ -90,5 +103,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2016-12-23", "kratica": "PRAV13023", "naziv": "Pravilnik o spremembah in dopolnitvi Pravilnika o uvrstitvi delovnih mest direktorjev s področja javne uprave v plačne razrede znotraj razponov plačnih razredov", "url": "/trubar/si/PRAV13023/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

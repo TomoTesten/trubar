@@ -21,14 +21,27 @@
       <dt>Organ</dt><dd>Gospodarska zbornica Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-4117" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3095.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG3095" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG3095.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG3095,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Aneks št. 6 k Tarifni prilogi h Kolektivni pogodbi grafične dejavnosti</h1>
 <h2>A N E K S   š t.   6</h2>
 <p>k Tarifni prilogi h Kolektivni pogodbi grafične dejavnosti (Uradni list RS, št. 103/04, 79/05, 95/06, 10/07, 93/07, 35/08)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V prvi točki Tarifne priloge Kolektivne pogodbe grafične dejavnosti se dodajo novi petnajsti, šestnajsti in sedemnajsti odstavek, ki se glasijo:<br />
 (15) Izhodiščne plače po posameznih tarifnih razredih, določene v trinajstem odstavku te točke, se meseca avgusta 2008 povečajo za 4,0%.<br />
 (16) Izhodiščne plače, povečane v skladu s prejšnjim odstavkom, so po posameznih tarifnih razredih naslednje:</p>
@@ -59,19 +72,19 @@
 +-------+----------------------+---------------+---------------+</p>
 <p>in veljajo od meseca avgusta 2008 dalje.<br />
 (17) Osnovne plače delavcev iz štirinajstega odstavka te točke, tudi tiste, ki so višje od izhodiščnih plač v posameznem tarifnem razredu, določenih v šestnajstem odstavku te točke, se z mesecem avgustom 2008 povečajo za 4,0% in se izplačujejo od meseca avgusta 2008 dalje.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V točki 2.a tarifne priloge Kolektivne pogodbe grafične dejavnosti se doda nov tretji odstavek, ki se glasi:<br />
 (3) Če bo povprečna letna inflacija v obdobju januar–december 2008 v primerjavi z obdobjem januar–december 2007 presegla 4,9%, se izhodiščne plače iz šestnajstega odstavka 1. točke in osnovne plače delavcev iz sedemnajstega odstavka 1. točke te tarifne priloge za januar 2009 dodatno povečajo za razliko med 4,9% in dejansko povprečno letno inflacijo.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Točka 5. tarifne priloge Kolektivne pogodbe grafične dejavnosti se spremeni tako, da se v celoti glasi:</p>
 <h3>5. REGRES ZA LETNI DOPUST</h3>
 <p>Delavcu pripada regres za letni dopust v višini od 63,5% do 70% zadnjega znanega podatka povprečne mesečne plače na zaposlenega v Republiki Sloveniji.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V točki 6 Tarifne priloge Kolektivne pogodbe grafične dejavnosti se spremeni drugi odstavek, tako, da se v celoti glasi:<br />
 (2) Znesek povračila stroškov prehrane med delom za polni delovni čas znaša 3,69 EUR na dan za dneve prisotnosti na delu. Znesek se usklajuje vsako leto januarja in julija za odstotek rasti cen prehrambenih izdelkov v preteklem polletnem obdobju.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Druge določbe Tarifne priloge h Kolektivni pogodbi grafične dejavnosti ostanejo nespremenjene.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta aneks začne veljati z dnem objave v Uradnem listu Republike Slovenije, uporablja pa se od 1. avgusta 2008, razen določb tretjega člena tega aneksa, ki se uporabljajo od 1. januarja 2009.</p>
 <p>Ljubljana, dne 25. avgusta 2008</p>
 <p>Gospodarska zbornica Slovenije<br />
@@ -97,5 +110,36 @@ Metod Jerman l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-10-10", "kratica": "DRUG3095", "naziv": "Aneks št. 6 k Tarifni prilogi h Kolektivni pogodbi grafične dejavnosti", "url": "/trubar/si/DRUG3095/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

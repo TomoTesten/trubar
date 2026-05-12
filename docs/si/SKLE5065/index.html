@@ -21,24 +21,37 @@
       <dt>Organ</dt><dd>Agencija za zavarovalni nadzor</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4464" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5065.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE5065" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE5065.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE5065,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Sklep o višini najnižjih začetnih sredstvih odškodninskega urada</h1>
 <p>Na podlagi 42.n člena Zakona o obveznih zavarovanjih v prometu (Uradni list RS, št. 70/94, 29/96 in 67/02) in 2. točke 256. člena Zakona o zavarovalništvu (Uradni list RS, št. 13/00, 31/00 – <a href="/trubar/si/ZP-1/" class="law-ref" title="ZP-1">ZP-1</a>, 91/00 – popr., 21/02, 52/02 – <a href="/trubar/si/ZJA/" class="law-ref" title="ZJA">ZJA</a>, 29/03 – odl. US in 50/04) izdaja Agencija za zavarovalni nadzor</p>
 <h2>S K L E P</h2>
 <p>o višini najnižjih začetnih sredstvih odškodninskega urada</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta sklep določa višino najnižjih začetnih sredstev odškodninskega urada, ustanovljenega v okviru Slovenskega zavarovalnega združenja na podlagi 42.j člena Zakona o obveznih zavarovanjih v prometu (Uradni list RS, št. 70/94, 29/96 in 67/02).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Najnižja začetna sredstva odškodninskega urada znašajo 18,000.000 SIT.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Prispevek posamezne zavarovalnice za začetna sredstva odškodninskega urada je sorazmeren njenemu deležu v letu 2003 sklenjenih zavarovanj avtomobilske odgovornosti v Republiki Sloveniji. Delež sklenjenih zavarovanj se določi na osnovi kosmate obračunane zavarovalne premije.<br />
 Prispevek posamezne zavarovalnice za tekoče potrebe odškodninskega urada je sorazmeren njenemu deležu v predhodnem letu sklenjenih zavarovanj avtomobilske odgovornosti v Republiki Sloveniji, ki se določi na osnovi kosmate obračunane zavarovalne premije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Odškodninski urad mora v roku 15 dni od začetka veljavnosti tega sklepa sporočiti zavarovalnicam višino njihovega deleža za začetna sredstva odškodninskega urada, ki ga morajo zavarovalnice nakazati odškodninskemu uradu v 15 dneh od prejema sporočila.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Ljubljana, dne 21. septembra 2004.</p>
 <p>Predsednik<br />
@@ -53,5 +66,36 @@ dr. France Križanič l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-09-27", "kratica": "SKLE5065", "naziv": "Sklep o višini najnižjih začetnih sredstvih odškodninskega urada", "url": "/trubar/si/SKLE5065/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

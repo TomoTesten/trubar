@@ -21,23 +21,36 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-3394" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6217.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6217" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6217.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6217,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o spremembah in dopolnitvah Uredbe o določitvi divjadi in lovnih dob</h1>
 <p>Na podlagi 38. člena in tretjega odstavka 43. člena Zakona o divjadi in lovstvu (Uradni list RS, št. 16/04, 120/06 – odl. US, 17/08 in 46/14 – ZON-C) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o določitvi divjadi in lovnih dob</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o določitvi divjadi in lovnih dob (Uradni list RS, št. 101/04) se 1. člen spremeni tako, da se glasi:</p>
 <h3>»1. člen</h3>
 <h3>(vsebina)</h3>
 <p>Ta uredba določa vrste prostoživečih sesalcev in ptic, ki so divjad, njihove lovne dobe ter vrste divjadi, ki se lahko lovijo s pastmi, v skladu s 7. členom in prilogo II Direktive 2009/147/ES Evropskega parlamenta in Sveta z dne 30. novembra 2009 o ohranjanju prosto živečih ptic (UL L št. 20 z dne 26. 1. 2010, str. 7), zadnjič spremenjene z Direktivo Sveta 2013/17/EU z dne 13. maja 2013 o prilagoditvi nekaterih direktiv na področju okolja zaradi pristopa Republike Hrvaške (UL L št. 158 z dne 10. 6. 2013, str. 193), ter 14. členom in prilogo V Direktive Sveta 92/43/EGS z dne 21. maja 1992 o ohranjanju naravnih habitatov ter prosto živečih živalskih in rastlinskih vrst (UL L št. 206 z dne 22. 7. 1992, str. 7), zadnjič spremenjene z Direktivo Sveta 2013/17/EU z dne 13. maja 2013 o prilagoditvi nekaterih direktiv na področju okolja zaradi pristopa Republike Hrvaške (UL L št. 158 z dne 10. 6. 2013, str. 193).«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 3. členu se v 1. točki pod 1. i) na koncu druge alinee podpičje nadomesti z vejico in doda nova tretja alinea, ki se glasi:<br />
 »– šakal (Canis aureus L.);«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 4. členu se 2. točka spremeni tako, da se glasi:<br />
 »2. navadni jelen:<br />
 – jelen: od 16. avgusta do 31. decembra,<br />
@@ -66,10 +79,10 @@ Dosedanja 20. točka, ki postane 21. točka, se spremeni tako, da se glasi:<br /
 Dosedanja 21. točka postane 22. točka.<br />
 Dosedanja 22. točka, ki postane 23. točka, se spremeni tako, da se glasi:<br />
 »23. siva vrana: od 1. avgusta do 28. februarja.«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Četrti odstavek 5. člena se spremeni tako, da se glasi:<br />
 »(4) Z lovko se lahko lovijo vse vrste divjadi.«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00715-4/2014</p>
 <p>Ljubljana, dne 13. novembra 2014</p>
@@ -85,5 +98,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-11-14", "kratica": "URED6217", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o določitvi divjadi in lovnih dob", "url": "/trubar/si/URED6217/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

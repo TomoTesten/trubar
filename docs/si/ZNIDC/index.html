@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0001" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZNIDC.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZNIDC" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZNIDC.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZNIDC,vrsta:Sprejet zakon">
+    
     <h1>Zakon o nadomestitvi indeksa drobnoprodajnih cen z indeksom cen življenjskih potrebščin</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O NADOMESTITVI INDEKSA DROBNOPRODAJNIH CEN Z INDEKSOM CEN ŽIVLJENJSKIH POTREBŠČIN (ZNIDC)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem zakonom se pojem “indeks drobnoprodajnih cen“, ki je določen v vlogi kazalca splošne rasti cen oziroma inflacije in je v posameznih zakonih poimenovan tudi s pojmi “indeks rasti cen na drobno“, “stopnja rasti drobnoprodajnih cen“, “koeficient rasti cen na drobno“, in podobno, nadomešča s pojmom “indeks cen življenjskih potrebščin“ v ustreznem sklonu v naslednjih zakonih:<br />
 – v drugem odstavku 41. člena zakona o socialnem varstvu (Uradni list RS, št. 54/92, 56/92 – popravek, 13/93 in 42/94 – odl. US);<br />
 – v 6. členu zakona o poračunavanju obveznosti Republike Slovenije do Zavoda za pokojninsko in invalidsko zavarovanje Slovenije (Uradni list RS, št. 71/93);<br />
@@ -54,7 +67,7 @@ Milan Kučan l. r.</p>
 – v zadnjem odstavku 23. člena zakona o političnih strankah (Uradni list RS, št. 62/94 in 13/98 – odl. US);<br />
 – v 38. členu in v 113. členu zakona o prisilni poravnavi, stečaju in likvidaciji (Uradni list RS, št. 67/93, 45/94, 74/94 – odl. US, 8/96 – odl. US in 39/97);<br />
 – v zadnjem odstavku 4. člena zakona o Pošti Slovenije (Uradni list RS, št. 73/94).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 312-01/98-3/1</p>
 <p>Ljubljana, dne 23. decembra 1998.</p>
@@ -70,5 +83,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-01-09", "kratica": "ZNIDC", "naziv": "Zakon o nadomestitvi indeksa drobnoprodajnih cen z indeksom cen življenjskih potrebščin", "url": "/trubar/si/ZNIDC/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

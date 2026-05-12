@@ -21,24 +21,37 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-2676" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6994.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV6994" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6994.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV6994,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o izvajanju ukrepov aktivne politike zaposlovanja</h1>
 <p>Na podlagi 51. člena Zakona o zaposlovanju in zavarovanju za primer brezposelnosti (Uradni list RS, št. 5/91, 17/91 – popr., 12/92, 71/93, 2/94 – popr., 38/94, 80/97 – odl. US, 69/98 in 67/02) izdaja minister za delo, družino in socialne zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o izvajanju ukrepov aktivne politike zaposlovanja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o izvajanju ukrepov aktivne politike zaposlovanja (Uradni list RS, št. 61/01, 31/03, 135/03 in 80/04) se v 3. členu drugi odstavek spremeni tako, da se glasi:<br />
 »Zavod Republike Slovenije za zaposlovanje (v nadaljevanju: zavod) v skladu z vsakokratnim programom ukrepov aktivne politike zaposlovanja pripravi katalog ukrepov aktivne politike zaposlovanja, s katerim določi podrobnejšo vsebino in način izvajanja posameznih ukrepov. H katalogu daje soglasje minister, pristojen za delo.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 7a. členom se doda novi 7b. člen, ki se glasi:</p>
 <h3>»7.b člen</h3>
 <p>Gospodarski subjekti, ki izvajajo programe reševanja in/ali prestrukturiranja in so v ta namen pridobili državno pomoč, niso upravičeni do sredstev iz ukrepov aktivne politike zaposlovanja, ki predstavljajo državno pomoč.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V drugem odstavku 32. člena se pred besedo »opravi« doda beseda »lahko«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 01701-46/2005/1</p>
 <p>Ljubljana, dne 13. junija 2005.</p>
@@ -54,5 +67,36 @@ za delo, družino in socialne zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-06-30", "kratica": "PRAV6994", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o izvajanju ukrepov aktivne politike zaposlovanja", "url": "/trubar/si/PRAV6994/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

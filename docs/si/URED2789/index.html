@@ -21,23 +21,36 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-0495" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2789.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2789" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2789.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2789,vrsta:uredba">
+    
     <h1>Uredba o spremembah uredbe o podrobnejših pogojih in merilih za spodbujanje razvoja turistične infrastrukture</h1>
 <p>Na podlagi četrtega odstavka 31. člena zakona o pospeševanju turizma (Uradni list RS, št. 57/98, 68/00, 21/02, 86/02 – odl. US in 94/02 – odl. US) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah uredbe o podrobnejših pogojih  in merilih za spodbujanje razvoja turistične infrastrukture</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o podrobnejših pogojih in merilih za spodbujanje razvoja turistične infrastrukture (Uradni list RS, št. 11/99, 102/00 in 50/01) se drugi odstavek 2. člena spremeni tako, da se glasi:<br />
 »Sredstva iz prejšnjega odstavka se lahko dodelijo le skladno s pravili dodeljevanja neposrednih razvojnih spodbud, določenimi s programom za pospeševanje podjetništva in konkurenčnosti za obdobje 2002 -2006 – povzetek izhodišč in ciljev (Uradni list RS, št. 28/02).«.<br />
 Črta se tretji odstavek.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 3. členu se črta prva alinea.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 5. členu se črta četrta alinea.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 403-09/2001-2</p>
 <p>Ljubljana, dne 30. januarja 2003.</p>
@@ -52,5 +65,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-01-31", "kratica": "URED2789", "naziv": "Uredba o spremembah uredbe o podrobnejših pogojih in merilih za spodbujanje razvoja turistične infrastrukture", "url": "/trubar/si/URED2789/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

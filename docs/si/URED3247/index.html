@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0634" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3247.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3247" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3247.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED3247,vrsta:uredba">
+    
     <h1>Uredba o spremembah uredbe o koncesijah za gospodarsko izkoriščanje vode na posameznih odsekih vodotokov Barbarski potok, Mislinja, Dolžanka, Cerknica, Oresovka, Trševka, Jaška grapa, Dolova grapa, Muštrova grapa, Kanomljica, Ravenski potok, Lahinja, Poljanska Sora, Ramšakov graben, Rečki potok, Zadnja Sora, Savinja za proizvodnjo električne energije</h1>
 <p>Na podlagi 23. člena zakona o varstvu okolja (Uradni list RS, št. 32/93, 44/95 – odl. US, 1/96 – <a href="/trubar/si/ZVO-A/" class="law-ref" title="ZVO-A">ZVO-A</a>, 9/99 – odl. US, 56/99 – <a href="/trubar/si/ZON/" class="law-ref" title="ZON">ZON</a>, 22/00 – <a href="/trubar/si/ZJS/" class="law-ref" title="ZJS">ZJS</a>, 67/02 – <a href="/trubar/si/ZV-1/" class="law-ref" title="ZV-1">ZV-1</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah uredbe o koncesijah za gospodarsko izkoriščanje vode na posameznih odsekih vodotokov Barbarski potok, Mislinja, Dolžanka, Cerknica, Oresovka, Trševka, Jaška grapa, Dolova grapa, Muštrova grapa, Kanomljica, Ravenski potok, Lahinja, Poljanska Sora, Ramšakov graben, Rečki potok, Zadnja Sora, Savinja za proizvodnjo električne energije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o koncesijah za gospodarsko izkoriščanje vode na posameznih odsekih vodotokov Barbarski potok, Mislinja, Dolžanka, Cerknica, Oresovka, Trševka, Jaška grapa, Dolova grapa, Muštrova grapa, Kanomljica, Ravenski potok, Lahinja, Poljanska Sora, Ramšakov graben, Rečki potok, Zadnja Sora, Savinja za proizvodnjo električne energije (Uradni list RS, št. 5/00 in 49/03) se v tabeli 1. člena:<br />
 – v tretji vrstici pri vodotoku Mislinja (Straže):<br />
 številke koordinat gorvodne meje odseka »Y =5 513 420, X =5 144 985 in H =542,00« nadomestijo s številkami »Y = 5 513 050, X = 5 145 130 in H = 535,00«,<br />
@@ -38,7 +51,7 @@ ter številka bruto potenciala »273« nadomesti s številko »192«;<br />
 – v sedemnajsti vrstici pri vodotoku Kanomljica (Sp. Kanomlja):<br />
 številke koordinat gorvodne meje odseka »Y =5 423 910, X =5 099 350 in H =307,00« nadomestijo s številkami »Y =5 423 384, X =5 099 201 in H =310,00«,<br />
 ter številka bruto potenciala »113« nadomesti s številko »180«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 329-01/2001-12</p>
 <p>Ljubljana, dne 12. februarja 2004.</p>
@@ -54,5 +67,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-02-20", "kratica": "URED3247", "naziv": "Uredba o spremembah uredbe o koncesijah za gospodarsko izkoriščanje vode na posameznih odsekih vodotokov Barbarski potok, Mislinja, Dolžanka, Cerknica, Oresovka, Trševka, Jaška grapa, Dolova grapa, Muštrova grapa, Kanomljica, Ravenski potok, Lahinja, Poljanska Sora, Ramšakov graben, Rečki potok, Zadnja Sora, Savinja za proizvodnjo električne energije", "url": "/trubar/si/URED3247/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

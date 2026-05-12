@@ -21,24 +21,37 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3417" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2042.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG2042" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2042.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG2042,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Splošni akt o določitvi upoštevnih trgov</h1>
 <p>Na podlagi prvega odstavka 20. člena Zakona o elektronskih komunikacijah (Uradni list RS, št. 43/04) izdaja direktor Agencije za telekomunikacije, radiodifuzijo in pošto Republike Slovenije</p>
 <h2>S P L O Š N I   A K T</h2>
 <p>o določitvi upoštevnih trgov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina akta)</h3>
 <p>Ta akt določa produktne in storitvene trge na določenem geografskem območju (v nadaljnjem besedilu: upoštevni trgi).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(uporabljeni izrazi)</h3>
 <p>(1) Izrazi, uporabljeni v tem splošnem aktu, imajo naslednji pomen:<br />
 1. Rezidenčni uporabniki so fizične osebe, ki uporabljajo javno dostopne komunikacijske storitve, razen samostojni podjetniki posamezniki.<br />
 2. Poslovni uporabniki so pravne osebe in samostojni podjetniki posamezniki, ki uporabljajo javno dostopne komunikacijske storitve.<br />
 (2) Ostali izrazi uporabljeni v tem splošnem aktu imajo enak pomen, kot je določen v Zakonu o elektronskih komunikacijah (Uradni list RS, št. 43/04).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(upoštevni trgi)</h3>
 <p>Agencija na geografskem območju Republike Slovenije v skladu z opredeljenimi trgi iz priporočila Evropske komisije o upoštevnih trgih produktov in storitev na področju elektronskih komunikacij določa naslednje upoštevne trge:<br />
 1. Dostop do javnega telefonskega omrežja na fiksni lokaciji za rezidenčne uporabnike (maloprodajni trg).<br />
@@ -59,10 +72,10 @@
 16. Zaključevanje govornih klicev v posamičnih javnih mobilnih telefonskih omrežjih (medoperaterski trg).<br />
 17. Nacionalni trg za mednarodno gostovanje v javnih mobilnih telefonskih omrežjih (medoperaterski trg).<br />
 18. Prenos radiodifuzne vsebine do končnih uporabnikov (medoperaterski trg).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(prenehanje veljavnosti)</h3>
 <p>Z dnem uveljavitve tega splošnega akta preneha veljati Splošni akt o postopku in kriterijih za določitev operaterja s pomembno tržno močjo (Uradni list RS, št. 97/03).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(veljavnost)</h3>
 <p>Ta splošni akt začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Ljubljana, dne 7. julija 2004.</p>
@@ -77,5 +90,36 @@ Direktor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-07-16", "kratica": "DRUG2042", "naziv": "Splošni akt o določitvi upoštevnih trgov", "url": "/trubar/si/DRUG2042/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,20 +21,33 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-2109" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10162.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10162" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10162.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10162,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o ukrepih za ugotavljanje, preprečevanje in zatiranje afriške prašičje kuge</h1>
 <p>Na podlagi drugega odstavka 18. člena in drugega odstavka 20. člena Zakona o veterinarskih merilih skladnosti (Uradni list RS, št. 93/05) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o ukrepih za ugotavljanje, preprečevanje in zatiranje afriške prašičje kuge</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o ukrepih za ugotavljanje, preprečevanje in zatiranje afriške prašičje kuge (Uradni list RS, št. 136/06) se 1. člen spremeni tako, da se glasi:</p>
 <h3>»1. člen</h3>
 <h3>(vsebina)</h3>
 <p>Ta pravilnik določa minimalne ukrepe za ugotavljanje, preprečevanje in zatiranje afriške prašičje kuge (v nadaljnjem besedilu: bolezen) v skladu z Direktivo Sveta 2002/60/ES z dne 27. junija 2002 o določitvi posebnih ukrepov za nadzor nad afriško prašičjo kugo in o spremembi Direktive 92/119/EGS v zvezi z nalezljivo ohromelostjo prašičev in afriško prašičjo kugo (UL L št. 192 z dne 20. 7. 2002, str. 27), zadnjič spremenjeno z Direktivo Sveta 2008/73/ES z dne 15. julija 2008 o poenostavitvi postopkov za oblikovanje seznamov in objavljanje informacij na veterinarskem in zootehniškem področju, ter o spremembi direktiv 64/432/EGS, 77/504/EGS, 88/407/EGS, 88/661/EGS, 89/361/EGS, 89/556/EGS, 90/426/EGS, 90/427/EGS, 90/428/EGS, 90/429/EGS, 90/539/EGS, 91/68/EGS, 92/35/EGS, 91/496/EGS, 92/65/EGS, 92/66/EGS, 92/119/EGS, 94/28/ES, 200/75/ES, Odločbe 2000/258/ES ter direktiv 2001/89/ES, 2002/60/ES in 2005/94/ES (UL L št. 219 z dne 14. 8. 2008, str. 40).«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
@@ -43,9 +56,9 @@
 <p>(1) Diagnostični postopki, vzorčenje in laboratorijsko testiranje na prisotnost afriške prašičje kuge se morajo izvajati v skladu z diagnostičnim priročnikom.<br />
 (2) Nacionalni referenčni laboratorij za afriško prašičjo kugo je določen v pravilniku, ki ureja bolezni živali.<br />
 (3) Z namenom zaščite zdravstvenega varstva živali je dovoljeno z virusom afriške prašičje kuge, njegovim genomom, antigeni in cepivi rokovati ali jih uporabljati v raziskovalne, diagnostične ali proizvodne namene samo na mestih, v institucijah in laboratorijih, ki so odobreni in pod nadzorom VURS. Spisek odobrenih mest, institucij in laboratorijev VURS predloži Evropski komisiji in jo sproti obvešča o vseh spremembah.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Priloga 5 se črta.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-11/2010</p>
 <p>Ljubljana, dne 6. maja 2010</p>
@@ -61,5 +74,36 @@ za kmetijstvo, gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-05-28", "kratica": "PRAV10162", "naziv": "Pravilnik o spremembah Pravilnika o ukrepih za ugotavljanje, preprečevanje in zatiranje afriške prašičje kuge", "url": "/trubar/si/PRAV10162/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

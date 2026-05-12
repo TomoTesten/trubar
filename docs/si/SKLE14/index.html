@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-01-3655" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE14.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE14" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE14.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE14,vrsta:sklep">
+    
     <h1>Sklep o začasnem zadržanju izvrševanja drugega odstavka 3. člena, 4. člena, 5. člena, drugega odstavka 11. člena ter 3. in 6. točke prvega odstavka 16. člena pravilnika o pogojih za pridobitev licenc za prevoze v cestnem prometu, načinu in postopku njihove pridobitve ter o načinu vodenja evidence o izdanih licencah</h1>
 <p>Ustavno sodišče je v postopku za preizkus pobude  družbe Aurora Auto d.o.o., Ljubljana, na seji dne 20. novembra 1997</p>
 <h2>s k l e n i l o:</h2>
@@ -48,5 +61,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-12-05", "kratica": "SKLE14", "naziv": "Sklep o začasnem zadržanju izvrševanja drugega odstavka 3. člena, 4. člena, 5. člena, drugega odstavka 11. člena ter 3. in 6. točke prvega odstavka 16. člena pravilnika o pogojih za pridobitev licenc za prevoze v cestnem prometu, načinu in postopku njihove pridobitve ter o načinu vodenja evidence o izdanih licencah", "url": "/trubar/si/SKLE14/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

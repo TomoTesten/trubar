@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2624" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1891.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE1891" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1891.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE1891,vrsta:odredba">
+    
     <h1>Odredba o določitvi standarda stroškov dela in standarda stroškov in odhodkov oskrbe institucionalnega varstva starejših</h1>
 <p>Na podlagi 101. člena zakona o socialnem varstvu (Uradni list RS, št. 54/92, 42/94 – odl. US RS, 1/99, 41/99, 36/00, 54/00 in 26/01) v povezavi s četrtim odstavkom 28. člena pravilnika o metodologiji za oblikovanje cen socialno varstvenih storitev (Uradni list RS, št. 36/02) izdaja minister za delo, družino in socialne zadeve</p>
 <h2>O D R E D B O</h2>
 <p>o določitvi standarda stroškov dela in standarda stroškov in odhodkov oskrbe institucionalnega varstva starejših</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta odredba določa standard stroškov dela iz prve alineje drugega odstavka 28. člena Pravilnika o metodologiji za oblikovanje cen socialno varstvenih storitev (Uradni list RS, št. 36/02, v nadaljnjem besedilu: pravilnik) ter standard stroškov in odhodkov oskrbe iz druge alineje drugega odstavka 28. člena pravilnika, za oblikovanje cene storitev institucionalnega varstva starejših, in sicer za standardno storitev socialne oskrbe za osebe, ki so starejše od 65 let, ki ne potrebujejo neposredne osebne pomoči-oskrbe I.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Standard stroškov dela se določi v naslednji višini:</p>
 <p>– povprečni kvalifikacijski količnik za število<br />
 zaposlenih, potrebnih za opravljanje storitve v skladu<br />
@@ -41,10 +54,10 @@ oziroma vodstveni kader (en vodilni oziroma<br />
 vodstveni na 180 oskrbovancev-uporabnikov)                  0,07<br />
 – drugi stroški dela: 37.629 SIT mesečno<br />
 na zaposlenega.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Standard stroškov in odhodkov oskrbe se določi v naslednji višini:<br />
 994 SIT dnevno oziroma 30.234,17 SIT povprečno mesečno.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 017-02-012/02</p>
 <p>Ljubljana, dne 19. junija 2002.</p>
@@ -60,5 +73,36 @@ in socialne zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-06-21", "kratica": "ODRE1891", "naziv": "Odredba o določitvi standarda stroškov dela in standarda stroškov in odhodkov oskrbe institucionalnega varstva starejših", "url": "/trubar/si/ODRE1891/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

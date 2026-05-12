@@ -21,19 +21,32 @@
       <dt>Organ</dt><dd>Ministrstvo za šolstvo in šport</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1809" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9734.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV9734" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV9734.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV9734,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o obrazcih javnih listin v srednješolskem izobraževanju</h1>
 <p>Na podlagi 71. člena Zakona o organizaciji in financiranju vzgoje in izobraževanja (Uradni list RS, št. 16/07 – uradno prečiščeno besedilo in 36/08), 75. člena Zakona o poklicnem in strokovnem izobraževanju (Uradni list RS, št. 79/06), 41. člena Zakona o gimnazijah (Uradni list RS, št. 1/07 – uradno prečiščeno besedilo), 44. in 45. člena Zakona o maturi (Uradni list RS, št. 1/07 – uradno prečiščeno besedilo) in 49. člena Zakona o izobraževanju odraslih (Uradni list RS, št. 110/06 – uradno prečiščeno besedilo) minister za šolstvo in šport izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o obrazcih javnih listin v srednješolskem izobraževanju</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V prilogi Pravilnika o obrazcih javnih listin v srednješolskem izobraževanju (Uradni list RS, št. 44/08) se spremeni vsebina in oblika naslednjih obrazcev:<br />
 – Letno spričevalo, Letno spričevalo (v italijanskem jeziku), Letno spričevalo (v madžarskem jeziku), Obvestilo o uspehu, Obvestilo o uspehu (v madžarskem jeziku), Obvestilo o uspehu (v italijanskem jeziku), Obvestilo o uspehu pri izpitu v izrednem izobraževanju, Obvestilo o uspehu pri izpitu v izrednem izobraževanju (v italijanskem jeziku), Obvestilo o uspehu pri izpitu v izrednem izobraževanju (v madžarskem jeziku), Spričevalo o zaključnem izpitu, Spričevalo o zaključnem izpitu (v italijanskem jeziku), Spričevalo o zaključnem izpitu (v madžarskem jeziku), Spričevalo o zaključnem izpitu s pohvalo, Spričevalo o zaključnem izpitu s pohvalo (v madžarskem jeziku), Spričevalo o zaključnem izpitu s pohvalo (v italijanskem jeziku), Obvestilo o uspehu pri zaključnem izpitu, Obvestilo o uspehu pri zaključnem izpitu (v madžarskem jeziku), Obvestilo o uspehu pri zaključnem izpitu (v italijanskem jeziku), Spričevalo o poklicni maturi, Spričevalo o poklicni maturi (v madžarskem jeziku), Spričevalo o poklicni maturi (v italijanskem jeziku), Spričevalo o poklicni maturi s pohvalo, Spričevalo o poklicni maturi s pohvalo (v madžarskem jeziku), Spričevalo o poklicni maturi s pohvalo (v italijanskem jeziku), Obvestilo o uspehu pri poklicni maturi, Obvestilo o uspehu pri poklicni maturi (v italijanskem jeziku), Obvestilo o uspehu pri poklicni maturi (v madžarskem jeziku), Izpis iz evidence za letno spričevalo ali obvestilo o uspehu, Izpis iz evidence za letno spričevalo ali obvestilo o uspehu (v madžarskem jeziku), Izpis iz evidence za letno spričevalo ali obvestilo o uspehu (v italijanskem jeziku), Izpis iz evidence za obvestilo o uspehu pri zaključku izobraževanja, Izpis iz evidence za obvestilo o uspehu pri zaključku izobraževanja (v madžarskem jeziku), Izpis iz evidence za obvestilo o uspehu pri zaključku izobraževanja (v italijanskem jeziku), Izpis iz evidence za spričevalo o zaključku izobraževanja, Izpis iz evidence za spričevalo o zaključku izobraževanja (v italijanskem jeziku), Izpis iz evidence za spričevalo o zaključku izobraževanja (v madžarskem jeziku) in Potrdilo o usposabljanju.<br />
 Spremenjeni obrazci, ki nadomestijo obrazce iz prejšnjega odstavka, so določeni v prilogi, ki je sestavni del tega pravilnika.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0070-27/2008</p>
 <p>Ljubljana, dne 14. maja 2009</p>
@@ -62,5 +75,36 @@ za šolstvo in šport</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-05-18", "kratica": "PRAV9734", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o obrazcih javnih listin v srednješolskem izobraževanju", "url": "/trubar/si/PRAV9734/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

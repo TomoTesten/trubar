@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-2772" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG466.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG466" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG466.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG466,vrsta:drugi akt">
+    
     <h1>Dopolnilo št.1 k tarifnemu sistemu za dobavo in prodajo zemeljskega plina iz transportnega omrežja</h1>
 <p>Na podlagi 24. člena uredbe o načinu izvajanja gospodarske javne službe oskrbe z zemeljskim plinom iz transportnega omrežja (Uradni list RS, št. 77/96) ter soglasja Vlade Republike Slovenije, je Geoplin, d.o.o., Ljubljana, dne  9. julija 1998 sprejel</p>
 <h2>D O P O L N I L O   Š T.  1   K    T A R I F N E M U   S I S T E M U</h2>
 <p>za dobavo in prodajo zemeljskega plina  iz transportnega omrežja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V tarifnem sistemu za dobavo in prodajo zemeljskega plina iz transportnega omrežja (Uradni list RS, št. 50/97), se v 4. členu dopolni opis skupine 4, z naslednjim besedilom:</p>
 <p>“Iz obračunavanja zemeljskega plina po tarifnem sistemu se izvzame tiste odjemalce, ki zemeljski plin uporabljajo kot surovino in katerih odjem za normalni tehnološki proces presega 10.000 Sm3/h”.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 6. členu se spremeni definicija QT tako, da glasi:</p>
 <p>“QT letna pogodbena količina vseh odjemalcev, ki so vključeni v tarifni sistem, to je vsota letnih pogodbenih količin teh odjemalcev, izražena v Sm3”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta dopolnila začnejo veljati z dnem soglasja Vlade Republike Slovenije in se uporabljajo od 1. dneva meseca, v katerem je bilo dano soglasje Vlade Republike Slovenije.</p>
 <p>Geoplin, d.o.o., Ljubljana<br />
 uprava<br />
@@ -50,5 +63,36 @@ Janez Možina l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-08-28", "kratica": "DRUG466", "naziv": "Dopolnilo št.1 k tarifnemu sistemu za dobavo in prodajo zemeljskega plina iz transportnega omrežja", "url": "/trubar/si/DRUG466/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

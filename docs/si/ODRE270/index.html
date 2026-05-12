@@ -21,26 +21,39 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-4115" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE270.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE270" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE270.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE270,vrsta:odredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Odredba o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu</h1>
 <p>Na podlagi prvega odstavka 115. člena zakona o davčnem postopku (Uradni list RS, št. 18/96) in 99. člena zakona o upravi (Uradni list RS, št. 67/94, 20/95 – odl. US in 29/95) izdaja minister za finance</p>
 <h2>O D R E D B O</h2>
 <p>o obrazcih za obračun davkov po odbitku in drugih  dajatev ter načinu in rokih predlaganja obrazcev  davčnemu organu</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S to odredbo se določi vsebina obrazcev za obračun davkov po odbitku in drugih dajatev ter način in roki za predlaganje obrazcev davčnemu organu.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Izplačevalci osebnih prejemkov in drugih dohodkov so dolžni predložiti davčnemu organu podatke o obračunu davka po odbitku in drugih dajatev na obrazcih REK-1, REK-1a in REK-1b za obračun davkov in prispevkov od plač, nadomestil plač in drugih osebnih prejemkov iz delovnega razmerja ter drugih nadomestil in REK-2 za obračun davkov od drugih prejemkov in dohodkov v skladu z navodilom za izpolnjevanje obrazcev v prilogi, ki so sestavni del te odredbe.<br />
 Podatke na obrazcih REK predložijo izplačevalci dohodkov davčnemu organu na dan izplačila dohodkov.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ne glede na določbo prejšnjega člena, se za obračun davka in prispevkov od plač ter drugih prispevkov po odbitku (obrazec REK-1) pri fizičnih osebah štejejo plačilne liste, ki so jih za te osebe dolžne dostavljati davčnemu organu po prvem odstavku 16. člena zakona o prispevkih za socialno varnost (Uradni list RS, št. 5/96 in 34/96) in obračun prispevkov za socialno varnost za lastnike zasebnih podjetij, ki nimajo plač in so jih dolžni dostavljati davčnemu organu po drugem odstavku 16. člena prej navedenega zakona.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Podatki se pošiljajo na obrazcih ali na magnetnih medijih (PC diskete). Navodilo za predložitev podatkov v računalniški obliki je v prilogi in je sestavni del te odredbe.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z dnem, ko začne veljati ta odredba, preneha veljati določba 3. člena odredbe o dajanju podatkov za vodenje davčne evidence o odmeri, obračunu, izterjavi in knjiženju davkov za pravne osebe (Uradni list RS, št. 26/96).</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta odredba začne veljati 1. januarja 1997.</p>
 <p>Št. 416-116/96</p>
 <p>Ljubljana, dne 17. decembra 1996.</p>
@@ -837,5 +850,36 @@ postavk na obrazcu REK-1b!</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-12-28", "kratica": "ODRE270", "naziv": "Odredba o obrazcih za obračun davkov po odbitku in drugih dajatev ter načinu in rokih predlaganja obrazcev davčnemu organu", "url": "/trubar/si/ODRE270/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

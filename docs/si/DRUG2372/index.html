@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3634" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2372.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG2372" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2372.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG2372,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Aneks h Kolektivni pogodbi za zavarovalstvo Slovenije</h1>
 <p>Na podlagi Zakona o izvajanju dogovora o politiki plač v obdobju 2004–2005 (Uradni list RS, št. 70/04), Dogovora o politiki plač v obdobju 2004–2005 (Uradni list RS, št. 55/04), Kolektivne pogodbe za zavarovalstvo Slovenije (Uradni list RS, št. 60/98)</p>
 <p>pogodbene stranke<br />
@@ -36,17 +49,17 @@ in<br />
 Sindikat finančnih organizacij Slovenije kot predstavnik delojemalcev sklepata</p>
 <h2>A N E K S   H   K O L E K T I V N I   P O G O D B I</h2>
 <p>za zavarovalstvo Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V skladu z Zakonom o izvajanju dogovora o politiki plač v zasebnem sektorju za obdobje 2004–2005 in Dogovorom o politiki plač v zasebnem sektorju za obdobje 2004–2005 s tem aneksom določamo višino in način izplačevanja zneska uskladitve k izplačani plači zaposlenih pri delodajalcih, za katere se uporablja Kolektivna pogodba za zavarovalstvo Slovenije (v nadaljevanju: delavcem).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Podpisniki tega aneksa se strinjamo, da se ob izplačilu plač za mesec avgust 2005 in dalje plača vsakega delavca za polni delovni čas, poveča za 7.250 SIT, kar je v skladu z zakonom in dogovorom iz prvega odstavka predstavlja znesek uskladitve.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Znesek uskladitve iz 2. člena se izplačuje kot poseben dodatek k izplačanim plačam in mora biti prikazan na plačilni listi zaposlenega.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Znesek uskladitve iz 2. člena se izplačuje vse dokler se v kolektivni pogodbi dejavnosti ne vključi v sistem plač.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta aneks začne veljati naslednji dan po objavi v Uradnem listu RS in se uporablja od 1. 8. 2005 dalje.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>V primeru spora se uporabljajo določbe te kolektivne pogodbe.</p>
 <p>Ljubljana, dne 26. avgusta 2005.</p>
 <p>Podpisniki:<br />
@@ -72,5 +85,36 @@ mag. Miro Kaluža l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-09-12", "kratica": "DRUG2372", "naziv": "Aneks h Kolektivni pogodbi za zavarovalstvo Slovenije", "url": "/trubar/si/DRUG2372/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

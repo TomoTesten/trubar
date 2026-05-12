@@ -21,22 +21,35 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1346" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5706.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5706" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5706.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5706,vrsta:pravilnik">
+    
     <h1>Pravilnik o razveljavitvi oziroma prenehanju veljavnosti predpisov na področju kakovosti kmetijskih pridelkov oziroma živil</h1>
 <p>Na podlagi drugega odstavka 37. člena in drugega odstavka 64. člena zakona o kmetijstvu (Uradni list RS, št. 54/00, 52/02 – <a href="/trubar/si/ZDU-1/" class="law-ref" title="ZDU-1">ZDU-1</a> in 58/02 – <a href="/trubar/si/ZMR-1/" class="law-ref" title="ZMR-1">ZMR-1</a>) izdaja minister za kmetijstvo, gozdarstvo in prehrano, v soglasju z ministrom za zdravje</p>
 <h2>P R A V I L N I K</h2>
 <p>o razveljavitvi oziroma prenehanju veljavnosti predpisov na področju kakovosti kmetijskih pridelkov oziroma živil</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa predpise, ki prenehajo veljati oziroma se prenehajo uporabljati na področju kakovosti kmetijskih pridelkov oziroma živil.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(prenehanje veljavnosti)</h3>
 <ol>
 <li>Z dnem uveljavitve tega pravilnika preneha veljati Pravilnik o začimbah, začimbnih ekstraktih in začimbnih mešanicah (Uradni list RS, št. 63/02).</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(prenehanje uporabe)</h3>
 <p>Z dnem uveljavitve tega pravilnika se prenehajo uporabljati:<br />
 1. Pravilnik o kakovosti juh, jušnih koncentratov za omake in dodatkov jedem (Uradni list SFRJ, št. 5/82, 58/85, Uradni list RS, št. 1/95 – Zsta, 30/99, 59/99 – <a href="/trubar/si/ZTZPUS/" class="law-ref" title="ZTZPUS">ZTZPUS</a>, 2/00);<br />
@@ -47,7 +60,7 @@
 6. Pravilnik o kakovosti sadnih, zelenjavnih in gobjih izdelkov ter pektinskih preparatov (Uradni list SFRJ, št. 1/79, 20/82, 74/90, 79/90, Uradni list RS, št. 1/95 – Zsta, 30/99, 59/99 – <a href="/trubar/si/ZTZPUS/" class="law-ref" title="ZTZPUS">ZTZPUS</a>, 60/99, 2/00, 71/00, 9/01);<br />
 7. Pravilnik o kakovosti dalmatinskega žajbla, namenjenega za izvoz (Uradni list SFRJ, št. 34/76);<br />
 8. Pravilnik o kakovosti osvežilnih brezalkoholnih pijač (Uradni list SFRJ, št. 52/83, 56/83, Uradni list RS, št. 1/95 – Zsta, 30/99, 59/99 – <a href="/trubar/si/ZTZPUS/" class="law-ref" title="ZTZPUS">ZTZPUS</a>, 2/00, 71/00).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 324-01-23/2004</p>
 <p>Ljubljana, dne 18. marca 2004.</p>
@@ -67,5 +80,36 @@ dr. Dušan Keber l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-03-31", "kratica": "PRAV5706", "naziv": "Pravilnik o razveljavitvi oziroma prenehanju veljavnosti predpisov na področju kakovosti kmetijskih pridelkov oziroma živil", "url": "/trubar/si/PRAV5706/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

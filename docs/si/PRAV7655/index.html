@@ -21,18 +21,31 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1302" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7655.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7655" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7655.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7655,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o pristojbinah na področju veterinarstva</h1>
 <p>Na podlagi šestega odstavka 74. člena v zvezi z drugim odstavkom 97. člena Zakona o veterinarskih merilih skladnosti (Uradni list RS, št. 93/05) izdaja ministrica za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o pristojbinah na področju veterinarstva</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o pristojbinah na področju veterinarstva (Uradni list RS, št. 28/04, 42/04, 58/04, 33/05 in 93/05-ZVMS) se prvi odstavek 16. člena spremeni tako, da se glasi:<br />
 »(1) Za registracijo psov in izvajanje veterinarsko-higienske službe se ob cepljenju psa proti steklini zaračuna pristojbina v višini 5.5 točke.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo 22. člena se spremeni tako, da se glasi:<br />
 »(1) Do ustanovitve sklada za razvoj kmetijstva je treba pristojbine nakazati v proračun RS, in sicer:<br />
 a) za veterinarski pregled ob vnosu iz drugega odstavka 13. člena tega pravilnika na podračun št. 01100-1000321457, z navedbo sklica 11 23124-7111347-xxxxxxLL;<br />
@@ -41,7 +54,7 @@ c) za veterinarski pregled pri trgovanju in izvozu iz 11. člena in prvega odsta
 d) za izvajanje veterinarsko-higienske službe iz 16. člena tega pravilnika na podračun št. 01100-1000321166, z navedbo sklica 11 23124-7111321166-LL;<br />
 e) za izvajanje monitoringa iz 12. člena tega pravilnika na podračun št. 01100-1000321554, z navedbo sklica 11 23124-7111355-xxxxxxLL.<br />
 (2) Pri sklicnih številkah iz prejšnjega odstavka oznaka »xxxxxx« pomeni številko obračuna, oznaka »LL« pa dvomestno oznako letnice.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 323-122/2004-3</p>
 <p>Ljubljana, dne 10. marca 2006</p>
@@ -57,5 +70,36 @@ za kmetijstvo, gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-03-24", "kratica": "PRAV7655", "naziv": "Pravilnik o spremembah Pravilnika o pristojbinah na področju veterinarstva", "url": "/trubar/si/PRAV7655/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

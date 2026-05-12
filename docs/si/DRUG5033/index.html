@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2022-01-0791" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5033.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG5033" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5033.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG5033,vrsta:drugi akt">
+    
     <h1>Povprečni znesek trošarine za plinsko olje za pogonski namen v februarju 2022</h1>
 <p>Na podlagi tretjega odstavka 4. člena Pravilnika o načinu vračila trošarine za energente, ki se porabijo za kmetijsko in gozdarsko mehanizacijo (Uradni list RS, št. 70/17 in 8/18), tretjega odstavka 2. člena Pravilnika o načinu vračila trošarine za energente, ki se porabijo za industrijsko-komercialni namen in komercialni prevoz (Uradni list RS, št. 70/17) in v zvezi s 1. členom Uredbe o določitvi zneska trošarine za energente (Uradni list RS, št. 34/18, 45/20, 55/20, 62/20, 72/20, 81/20, 87/20, 92/20, 99/20, 105/20, 109/20, 114/20, 119/20, 125/20 in 12/22) minister za finance objavlja</p>
 <p>P O V P R E Č N I  Z N E S E K</p>
@@ -44,5 +57,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2022-03-23", "kratica": "DRUG5033", "naziv": "Povprečni znesek trošarine za plinsko olje za pogonski namen v februarju 2022", "url": "/trubar/si/DRUG5033/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

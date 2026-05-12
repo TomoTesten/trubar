@@ -21,23 +21,36 @@
       <dt>Organ</dt><dd>Ministrstvo za obrambo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-3709" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11498.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11498" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11498.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11498,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o določitvi kriterijev za izkazovanje pomembnejših dosežkov delovanja društva za podelitev statusa društva v javnem interesu na področju obrambe</h1>
 <p>Na podlagi tretjega odstavka 30. člena Zakona o društvih (Uradni list RS, št. 64/11 – uradno prečiščeno besedilo) izdaja minister za obrambo</p>
 <h2>P R A V I L N I K</h2>
 <p>o določitvi kriterijev za izkazovanje pomembnejših dosežkov delovanja društva za podelitev statusa društva v javnem interesu na področju obrambe</p>
 <h3>I. SPLOŠNA DOLOČBA</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina pravilnika)</h3>
 <p>Ta pravilnik določa kriterije za izkazovanje pomembnejših dosežkov o delovanju društva, ki Ministrstvo za obrambo zaprosi za podelitev statusa društva v javnem interesu na področju obrambe.</p>
 <h3>II. KRITERIJI ZA IZKAZOVANJE POMEMBNEJŠIH DOSEŽKOV</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(pomembnejši dosežek društva)</h3>
 <p>Za pomembnejši dosežek delovanja društva se šteje, da društvo s svojim delovanjem pomembno prispeva k razvoju obrambnega področja.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(kriteriji)</h3>
 <p>Kriteriji za izkazovanje delovanja društva na obrambnem področju so zlasti:<br />
 – ohranjanje spomina na dejanja, povezana z nacionalno samobitnostjo, obrambo nacionalnega ozemlja ali samostojnosti;<br />
@@ -50,11 +63,11 @@
 – prispevanje k povezovanju obrambnih struktur, medgeneracijskemu razumevanju in sožitju, z različnimi oblikami prostovoljskega dela zaposlenih in nekdanjih delavcev Ministrstva za obrambo;<br />
 – sodelovanje pri oblikovanju predpisov na obrambnem področju;<br />
 – izdajanje strokovne literature, povezane z obrambnim področjem.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(izkazovanje izpolnjevanja kriterijev)</h3>
 <p>Društvo izkaže izpolnjevanje kriterijev iz prejšnjega člena s programi delovanja in poročili o izvedenem delu v skladu z 32. členom Zakona o društvih ter z drugimi dokazili in listinami, s katerimi lahko izkaže pomembnejše dosežke in rezultate svojega delovanja v javnem interesu.</p>
 <h3>III. KONČNA DOLOČBA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(začetek veljavnosti)</h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0070-30/2012-12</p>
@@ -71,5 +84,36 @@ za obrambo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-12-14", "kratica": "PRAV11498", "naziv": "Pravilnik o določitvi kriterijev za izkazovanje pomembnejših dosežkov delovanja društva za podelitev statusa društva v javnem interesu na področju obrambe", "url": "/trubar/si/PRAV11498/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

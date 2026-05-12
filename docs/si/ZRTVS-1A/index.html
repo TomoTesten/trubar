@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-0220" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZRTVS-1A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZRTVS-1A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZRTVS-1A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZRTVS-1A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o spremembah Zakona o Radioteleviziji Slovenija</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,12 +50,12 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH ZAKONA O RADIOTELEVIZIJI SLOVENIJA (ZRTVS-1A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o Radioteleviziji Slovenija (Uradni list RS, št. 96/05, 109/05 – <a href="/trubar/si/ZDavP-1B/" class="law-ref" title="ZDavP-1B">ZDavP-1B</a>, 105/06 – odločba US in 26/09 – <a href="/trubar/si/ZIPRS0809-B/" class="law-ref" title="ZIPRS0809-B">ZIPRS0809-B</a>) se v drugem odstavku 16. člena beseda »šeste« nadomesti z besedo »sedme«.<br />
 V tretjem odstavku se beseda »sedme« nadomesti z besedo »osme«.<br />
 V četrtem odstavku se beseda »osme« nadomesti z besedo »devete«.<br />
 V petem odstavku se besedilo »šeste in osme« nadomesti z besedilom »sedme in devete«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo 32. člena se spremeni tako, da se glasi:<br />
 »(1) Mesečni prispevek se plačuje RTV Sloveniji v naslednji višini:<br />
 1. za zasebno rabo:<br />
@@ -64,11 +77,11 @@ c) hoteli in druga turistična podjetja plačujejo za prvih deset televizijskih 
 (4) Osebe iz prejšnjega odstavka lahko dokazujejo upravičenost do oprostitve plačevanja prispevka le s pravnomočno odločbo organa, s katero je ugotovljena upravičenost do denarne socialne pomoči oziroma varstvenega dodatka.<br />
 (5) Zavezanci iz druge do četrte alineje drugega odstavka tega člena lahko uveljavljajo oprostitev prispevka le na podlagi pravnomočne odločbe Zavoda za pokojninsko in invalidsko zavarovanje Slovenije ali drugega organa, s katero je ugotovljena stopnja invalidnosti.«.</p>
 <h3>Prehodne in končne določbe</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Nadzorni svet RTV Slovenija v šestih mesecih od uveljavitve tega zakona uskladi Statut javnega zavoda Radio­televizija Slovenija (Uradni list RS, št. 106/06 in 9/12) z določbami tega zakona.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Z dnem uveljavitve tega zakona preneha veljati 58. člen Zakona o izvrševanju proračunov Republike Slovenije za leti 2014 in 2015 (Uradni list RS, št. 101/13).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 010-02/13-17/16</p>
 <p>Ljubljana, dne 28. januarja 2014</p>
@@ -85,5 +98,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-02-05", "kratica": "ZRTVS-1A", "naziv": "Zakon o spremembah Zakona o Radioteleviziji Slovenija", "url": "/trubar/si/ZRTVS-1A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

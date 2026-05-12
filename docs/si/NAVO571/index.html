@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0522" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO571.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO571" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO571.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO571,vrsta:navodilo">
+    
     <h1>Navodilo o spremembah navodila o finančnem poslovanju upravnih enot ter uprav, uradov in inšpektoratov, ki so upravni organi in organizacije v sestavi ministrstev in imajo svoje enote na lokalnih ravneh</h1>
 <p>Na podlagi 89. člena zakona o javnih financah (Uradni list RS, št. 79/99, 124/00 in 79/01), v zvezi z zakonom o upravi (Uradni list RS, št. 67/94) in zakonom o organizaciji in delovnem področju ministrstev (Uradni list RS, št. 71/94 in 47/ 97) izdaja minister za finance</p>
 <h2>N A V O D I L O</h2>
 <p>o spremembah navodila o finančnem poslovanju upravnih enot ter uprav, uradov in inšpektoratov, ki so upravni organi in organizacije v sestavi ministrstev in imajo svoje enote  na lokalnih ravneh</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 15. členu navodila o finančnem poslovanju upravnih enot ter uprav, uradov in inšpektoratov, ki so upravni organi in organizacije v sestavi ministrstev in imajo svoje enote na lokalnih ravneh (Uradni list RS, št. 65/97, 20/98, 22/99, 93/99 in 41/01) se za četrtim odstavkom doda nov peti odstavek, ki se glasi:</p>
 <p>“Ne glede na prejšnji odstavek se v primeru, da je vplačan prejemek iz naslova zaračunljivih tiskovin na prehodni račun 845, sredstva iz prehodnega računa 845 tekoče preodkažejo v dobro računa državnega proračuna, v plačilne naloge pa se vpišejo podatki, kot so določeni v  5. členu navodila o načinu vpisovanja podatkov, potrebnih za spremljanje izvrševanja proračuna, v plačilne naloge (Uradni list RS, št. 86/99 in 94/01).“</p>
 <p>Sedanji peti odstavek postane šesti odstavek.<br />
 Doda se nov sedmi odstavek, ki se glasi:</p>
 <p>“Ne glede na prejšnji odstavek se storitve iz naslova zaračunljivih tiskovin, ki so plačane v gotovini, direktno nakažejo na račun državnega proračuna, s sklicem na številko, ki je opredeljen v petem odstavku tega člena.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 403-38/02</p>
 <p>Ljubljana, dne 23. januarja 2002.</p>
@@ -50,5 +63,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-02-14", "kratica": "NAVO571", "naziv": "Navodilo o spremembah navodila o finančnem poslovanju upravnih enot ter uprav, uradov in inšpektoratov, ki so upravni organi in organizacije v sestavi ministrstev in imajo svoje enote na lokalnih ravneh", "url": "/trubar/si/NAVO571/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2017-01-0235" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE10961.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE10961" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE10961.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE10961,vrsta:sklep">
+    
     <h1>Sklep o dopolnitvi Sklepa o določitvi javnih zavodov s področja vzgoje in izobraževanja ter delovnih mest, na katerih so javni uslužbenci upravičeni do dodatka iz 10. točke prvega odstavka 39. člena Kolektivne pogodbe za javni sektor</h1>
 <p>Ministrica za izobraževanje, znanost in šport s soglasjem reprezentativnih sindikatov za dejavnost vzgoje in izobraževanja, podpisniki Aneksa št. 3 h Kolektivni pogodbi za javni sektor (Uradni list RS, št. 89/10), na podlagi petega odstavka 10. točke 39. člena Kolektivne pogodbe za javni sektor (Uradni list RS, št. 57/08, 23/09, 91/09, 89/10, 89/10, 40/12, 46/13, 95/14 in 91/15) izdaja</p>
 <p>S K L E P</p>
@@ -64,5 +77,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2017-02-03", "kratica": "SKLE10961", "naziv": "Sklep o dopolnitvi Sklepa o določitvi javnih zavodov s področja vzgoje in izobraževanja ter delovnih mest, na katerih so javni uslužbenci upravičeni do dodatka iz 10. točke prvega odstavka 39. člena Kolektivne pogodbe za javni sektor", "url": "/trubar/si/SKLE10961/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

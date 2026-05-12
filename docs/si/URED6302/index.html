@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-02-0096" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6302.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6302" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6302.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6302,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o ratifikaciji Sporazuma v obliki izmenjave pisem o obdavčevanju dohodka od prihrankov in začasni uporabi tega sporazuma, sklenjenega med Republiko Slovenijo in Kraljevino Nizozemsko glede Nizozemskih Antilov</h1>
 <p>Na podlagi petega odstavka 75. člena Zakona o zunanjih zadevah (Uradni list RS, št. 113/03 – uradno prečiščeno besedilo, 20/06 – <a href="/trubar/si/ZNOMCMO/" class="law-ref" title="ZNOMCMO">ZNOMCMO</a>, 76/08, 108/09 in 80/10 – <a href="/trubar/si/ZUTD/" class="law-ref" title="ZUTD">ZUTD</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o ratifikaciji Sporazuma v obliki izmenjave pisem o obdavčevanju dohodka od prihrankov in začasni uporabi tega sporazuma, sklenjenega med Republiko Slovenijo in Kraljevino Nizozemsko glede Nizozemskih Antilov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Sporazum v obliki izmenjave pisem o obdavčevanju dohodka od prihrankov in začasni uporabi tega sporazuma, sklenjen z izmenjavo pisem 27. avgusta 2004 med Republiko Slovenijo in Kraljevino Nizozemsko glede Nizozemskih Antilov.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sporazuma se v izvirniku v slovenskem in angleškem jeziku glasi(*):</p>
 <h2>S P O R A Z U M</h2>
 <p>V OBLIKI IZMENJAVE PISEM O OBDAVČEVANJU DOHODKA OD PRIHRANKOV IN ZAČASNI UPORABI TEGA SPORAZUMA</p>
@@ -288,11 +301,11 @@ In addition, Member States may provide for the information referred to in the fi
 2. Paragraph 1 shall not oblige a Member State whose legislation or administrative practice lays down, for domestic purposes, narrower limits than those contained in the provisions of that paragraph, to provide information if the State concerned does not undertake to respect those narrower limits.<br />
 3. Notwithstanding paragraph 1, the competent authorities of the Member State providing the information may permit it to be used for other purposes in the requesting State, if, under the legislation of the informing State, the information could, in similar circumstances, be used in the informing State for similar purposes.<br />
 4. Where a competent authority of a Member State considers that information which it has received from the competent authority of another Member State is likely to be useful to the competent authority of a third Member State, it may transmit it to the latter competent authority with the agreement of the competent authority which supplied the information.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V skladu z ustavno preureditvijo Kraljevine Nizozemske se sporazum uporablja za Curaçao, Sint Maarten in Karibski del Nizozemske.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi ministrstvo, pristojno za finance.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 00724-58/2012</p>
 <p>Ljubljana, dne 6. decembra 2012</p>
@@ -309,5 +322,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-12-24", "kratica": "URED6302", "naziv": "Uredba o ratifikaciji Sporazuma v obliki izmenjave pisem o obdavčevanju dohodka od prihrankov in začasni uporabi tega sporazuma, sklenjenega med Republiko Slovenijo in Kraljevino Nizozemsko glede Nizozemskih Antilov", "url": "/trubar/si/URED6302/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

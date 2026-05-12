@@ -21,30 +21,43 @@
       <dt>Organ</dt><dd>Ministrstvo za notranje zadeve</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1965" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4217.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV4217" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4217.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV4217,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o vozilih s prednostjo in vozilih za spremstvo</h1>
 <p>Na podlagi 114. člena zakona o varnosti cestnega prometa (Uradni list RS, št. 30/98, 33/00-odl. US, 61/00, 100/00-odl. US in 21/02) izdaja minister za notranje zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o vozilih s prednostjo in vozilih za spremstvo</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o vozilih s prednostjo in vozilih za spremstvo (Uradni list RS, št. 78/99) se v 1. členu črtajo besede “ter pogoje, ki jih morajo izpolnjevati vozniki teh vozil”.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 3. člena se za besedama “gasilske službe,” dodata besedi “carinske službe,”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V drugem odstavku 4. člena se besede “posebno pomembnih prevozov” nadomestijo z besedami “prevozov posebno pomembnih tovorov”.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V. poglavje se v celoti črta.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Naslov VI. poglavja, ki postane V. poglavje, se spremeni in se glasi: “PREDHODNA IN KONČNA DOLOČBA”.<br />
 Besedilo 11. člena, ki postane 9. člen, se spremeni in se glasi:</p>
 <p>“Motorno kolo, ki se uporablja kot vozilo s prednostjo in je bilo registrirano pred 1. 1. 1994, ima lahko na zadnjem delu namesto utripajoče luči iz prvega odstavka 7. člena tega pravilnika, ki je vidna z vseh strani, dve modri utripajoči luči, nameščeni simetrično na vzdolžno os vozila, ki sta usmerjeni nazaj.”.</p>
 <ol>
 <li>člen postane 10. člen.</li>
 </ol>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0212-1/2</p>
 <p>Ljubljana, dne 24. aprila 2002.</p>
@@ -59,5 +72,36 @@ dr. Rado Bohinc l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-05-10", "kratica": "PRAV4217", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o vozilih s prednostjo in vozilih za spremstvo", "url": "/trubar/si/PRAV4217/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

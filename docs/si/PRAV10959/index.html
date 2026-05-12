@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-3796" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10959.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10959" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10959.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10959,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi Pravilnika o stopnjah normalnega odpisa blaga (kalo, razsip, razbitje, okvara)</h1>
 <p>Na podlagi 7. in 8. točke 4. člena Zakona o davku na dodano vrednost (<a href="/trubar/si/ZDDV-1/" class="law-ref" title="ZDDV-1">ZDDV-1</a>, Uradni list RS, št. 117/06), 3. točke 17. člena Pravilnika o izvajanju Zakona o davku na dodano vrednost (Uradni list RS, št. 141/06) je upravni odbor Lekarniške zbornice dne 27. 10. 2011 sprejel</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembi Pravilnika o stopnjah normalnega odpisa blaga (kalo, razsip, razbitje, okvara)</p>
 <h3>I. SPLOŠNE DOLOČBE</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o stopnjah normalnega odpisa blaga (kalo, razsip, razbitje, okvara) (Uradni list RS, št. 61/07), se 4. člen spremeni tako, da se glasi:</p>
 <h3>»4. člen</h3>
 <p>Navedene stopnje normalnega odpisa se nanašajo na nabavno vrednost v obračunskem obdobju nabavljenega blaga, ki je povečano za nabavno vrednost zalog blaga, ki se nahaja v skladišču na začetku obračunskega obdobja.«</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati z dnem objave v Uradnem listu Republike Slovenije.</p>
 <p>v.d. predsednika<br />
 dr. Aleš Mlinarič, mag. farm., l.r.</p>
@@ -47,5 +60,36 @@ dr. Aleš Mlinarič, mag. farm., l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-11-08", "kratica": "PRAV10959", "naziv": "Pravilnik o spremembi Pravilnika o stopnjah normalnega odpisa blaga (kalo, razsip, razbitje, okvara)", "url": "/trubar/si/PRAV10959/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

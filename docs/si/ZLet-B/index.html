@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-01-1511" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZLet-B.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZLet-B" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZLet-B.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZLet-B,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah Zakona o letalstvu</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O LETALSTVU (ZLet-B)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o letalstvu (Uradni list RS, št. 113/06 – uradno prečiščeno besedilo) se v tretjem odstavku 128. člena četrta alineja spremeni tako, da se glasi:<br />
 »– dokazil o neizbrisanih pravnomočnih obsodbah za naklepna kazniva dejanja, ki se preganjajo po uradni dolžnosti,«.<br />
 Za četrto alinejo se dodata nova peta in šesta alineja, ki se glasita:<br />
@@ -55,7 +68,7 @@ V osmem odstavku se 11. in 12. točka spremenita tako, da se glasita:<br />
 12. tekoče kazenske postopke za naklepna kazniva dejanja, ki se preganjajo po uradni dolžnosti;«.<br />
 Črtata se 17. in 21. točka.<br />
 V desetem odstavku se besedilo »Obveščevalno varnostne službe Ministrstva za obrambo« nadomesti z besedilom »ministrstva, pristojnega za obrambo.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 128.a člena se 2. točka spremeni tako, da se glasi:<br />
 »2. dejansko ugotovljene okoliščine iz varnostnega preverjanja kažejo na utemeljen dvom o zanesljivosti posameznika za samostojno gibanje v območjih iz prvega odstavka 128. člena tega zakona (varnostni zadržek);«.<br />
 5. in 6. točka se spremenita tako, da se glasita:<br />
@@ -65,7 +78,7 @@ V 7. točki se pika nadomesti s podpičjem.<br />
 Za 7. točko se doda nova 8. točka, ki se glasi:<br />
 »8. se ugotovi, da je prosilec v vlogi za pridobitev dovoljenja za gibanje navedel neresnične podatke.«.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 326-06/09-2/20</p>
 <p>Ljubljana, dne 21. aprila 2009</p>
@@ -82,5 +95,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-04-30", "kratica": "ZLet-B", "naziv": "Zakon o spremembah in dopolnitvah Zakona o letalstvu", "url": "/trubar/si/ZLet-B/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

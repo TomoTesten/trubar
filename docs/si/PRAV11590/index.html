@@ -21,22 +21,35 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-1085" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11590.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11590" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11590.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11590,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o načinu dostopa prosilcev za mednarodno zaščito do svetovalcev za begunce ter nagrajevanju in povračilu stroškov svetovalcem za begunce</h1>
 <p>Na podlagi tretjega odstavka 13.b člena Zakona o mednarodni zaščiti (Uradni list RS, št. 11/11 – uradno prečiščeno besedilo, 98/11 – odl. US in 83/12) izdaja minister za notranje zadeve in javno upravo</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o načinu dostopa prosilcev za mednarodno zaščito do svetovalcev za begunce ter nagrajevanju in povračilu stroškov svetovalcem za begunce</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o načinu dostopa prosilcev za mednarodno zaščito do svetovalcev za begunce ter nagrajevanju in povračilu stroškov svetovalcem za begunce (Uradni list RS, št. 3/12) se v 1. členu črta besedilo »v postopku za pridobitev mednarodne zaščite na prvi stopnji ter«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 5. členu se črta prvi odstavek.</p>
 <h3>PREHODNA IN KONČNA DOLOČBA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V primerih iz drugega odstavka 16. člena Zakona o spremembah in dopolnitvah Zakona o mednarodni zaščiti (Uradni list RS, št. 83/12) se nagrada in stroški svetovalcem za begunce odmerijo na podlagi prvega odstavka 5. člena Pravilnika o načinu dostopa prosilcev za mednarodno zaščito do svetovalcev za begunce ter nagrajevanju in povračilu stroškov svetovalcem za begunce (Uradni list RS, št. 3/12).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-32/2013/10</p>
 <p>Ljubljana, dne 2. aprila 2013</p>
@@ -52,5 +65,36 @@ za notranje zadeve in javno upravo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-04-05", "kratica": "PRAV11590", "naziv": "Pravilnik o spremembah Pravilnika o načinu dostopa prosilcev za mednarodno zaščito do svetovalcev za begunce ter nagrajevanju in povračilu stroškov svetovalcem za begunce", "url": "/trubar/si/PRAV11590/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

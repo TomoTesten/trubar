@@ -21,20 +21,33 @@
       <dt>Organ</dt><dd>Ministrstvo za pravosodje in javno upravo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-1928" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11351.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11351" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11351.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11351,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o izvrševanju dela v splošno korist</h1>
 <p>Na podlagi petega odstavka 99. člena Zakona o izvrševanju kazenskih sankcij (Uradni list RS, št. 110/06 – uradno prečiščeno besedilo, 76/08, 40/09 in 9/11 – <a href="/trubar/si/ZP-1G/" class="law-ref" title="ZP-1G">ZP-1G</a>) in šestega odstavka 202. člena Zakona o prekrških (Uradni list RS, št. 29/11 – uradno prečiščeno besedilo) ter 127. člena Zakona o spremembah in dopolnitvah Kazenskega zakonika (Uradni list RS, št. 91/11) izdaja minister za pravosodje in javno upravo</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o izvrševanju dela v splošno korist</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o izvrševanju dela v splošno korist (Uradni list RS, št. 109/08) se prvi odstavek 1. člena spremeni tako, da se glasi:<br />
 »(1) Ta pravilnik podrobneje ureja izvrševanje dela v splošno korist kot načina izvršitve kazni zapora do dveh let ali denarne kazni, ki ga sodišče določi pod pogoji iz kazenskega zakonika.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 3. člena se za besedama »kazen zapora« doda besedilo »ali denarna kazen«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-89/2012</p>
 <p>Ljubljana, dne 11. junija 2012</p>
@@ -50,5 +63,36 @@ za pravosodje in javno upravo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-06-19", "kratica": "PRAV11351", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o izvrševanju dela v splošno korist", "url": "/trubar/si/PRAV11351/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,29 +21,42 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1413" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO785.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO785" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO785.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO785,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Navodilo o postopku in načinu ravnanja z osebami, ki v času trajanja začasne zaščite nezakonito vstopijo v Republiko Slovenijo</h1>
 <p>Na podlagi tretjega odstavka 7. člena Zakona o začasni zaščiti razseljenih oseb (Uradni list RS, št. 65/05) izdaja minister za notranje zadeve s soglasjem ministra za pravosodje</p>
 <h2>N A V O D I L O</h2>
 <p>o postopku in načinu ravnanja z osebami, ki v času trajanja začasne zaščite nezakonito vstopijo v Republiko Slovenijo</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) To navodilo določa postopek in način ravnanja z osebami, ki v času trajanja začasne zaščite nezakonito vstopijo v Republiko Slovenijo.<br />
 (2) Določbe tega navodila se uporabljajo le za osebe iz 2. člena Zakona o začasni zaščiti razseljenih oseb (Uradni list RS, št. 65/05; v nadaljnjem besedilu: zakon).<br />
 (3) Za namene izvajanja tega navodila se šteje, da oseba nezakonito vstopi v Republiko Slovenijo, če vstopi v Republiko Slovenijo izven mejnega prehoda ali v nasprotju z namembnostjo mejnega prehoda.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Državni organ, kateremu oseba iz drugega odstavka prejšnjega člena izjavi, da namerava zaprositi za začasno zaščito, o tem nemudoma obvesti policijo.<br />
 (2) Policisti pri ugotavljanju okoliščin nezakonitega vstopa zoper osebo, ki državnemu organu izjavi, da namerava zaprositi za začasno zaščito, izvedejo potrebne ukrepe, določene v predpisih o državni meji, tujcih in policijskih pooblastilih.<br />
 (3) Osebo, ki je nezakonito vstopila v Republiko Slovenijo in izjavila, da namerava zaprositi za začasno zaščito, morajo policisti pripeljati v najbližji sprejemni center čimprej, najpozneje pa v roku 24 ur po tem, ko je oseba izjavila, da namerava zaprositi za začasno zaščito.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Podano izjavo, s katero je oseba izjavila, da namerava zaprositi za začasno zaščito, mora organ, kateremu je oseba podala tako izjavo, nemudoma posredovati pristojnemu organu iz četrtega odstavka 16. člena zakona.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>(1) Pristojni organ iz četrtega odstavka 16. člena zakona mora policijo obvestiti o vložitvi vloge za začasno zaščito.<br />
 (2) Če oseba ne vloži vloge za začasno zaščito v roku treh dni od nezakonitega vstopa v Republiko Slovenijo, se zoper njo začne postopek o prekršku zaradi nezakonitega vstopa v Republiko Slovenijo.<br />
 (3) Do pravnomočno končanega postopka o prekršku se oseba iz prejšnjega odstavka nastani v centru za tujce.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 021-112/2005 (136-02)</p>
 <p>Ljubljana, dne 24. marca 2006</p>
@@ -63,5 +76,36 @@ za pravosodje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2022-04-29", "kratica": "NAVO785", "naziv": "Navodilo o postopku in načinu ravnanja z osebami, ki v času trajanja začasne zaščite nezakonito vstopijo v Republiko Slovenijo", "url": "/trubar/si/NAVO785/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4086" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO476.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO476" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO476.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO476,vrsta:navodilo">
+    
     <h1>Navodilo o spremembi navodila o načinu izvajanja akreditiranja in o splošnih pogojih, ki jih morajo izpolnjevati akreditirani organi</h1>
 <p>Za izvrševanje zakona o akreditaciji (Uradni list RS, št. 59/00) izdaja minister za znanost in tehnologijo</p>
 <h2>N A V O D I L O</h2>
 <p>o spremembi navodila o načinu izvajanja  akreditiranja in o splošnih pogojih, ki jih morajo izpolnjevati akreditirani organi</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V navodilu o načinu izvajanja akreditiranja in o splošnih pogojih, ki jih morajo izpolnjevati akreditirani organi (Uradni list RS, št. 90/98) se črta 25. člen.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ne glede na določilo prejšnjega člena, se za postopke akreditiranja začete pred uveljavitvijo zakona o akreditaciji, 25. člen navodila še nadalje uporablja.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>To navodilo začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 009-17/98-8</p>
 <p>Ljubljana, dne 12. oktobra 2000.</p>
@@ -48,5 +61,36 @@ za znanost in tehnologijo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-10-20", "kratica": "NAVO476", "naziv": "Navodilo o spremembi navodila o načinu izvajanja akreditiranja in o splošnih pogojih, ki jih morajo izpolnjevati akreditirani organi", "url": "/trubar/si/NAVO476/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

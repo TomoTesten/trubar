@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3033" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIPRS1314-C.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZIPRS1314-C" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIPRS1314-C.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZIPRS1314-C,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2013 in 2014</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,12 +50,12 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O IZVRŠEVANJU PRORAČUNOV REPUBLIKE SLOVENIJE ZA LETI 2013 IN 2014 (ZIPRS1314-C)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o izvrševanju proračunov Republike Slovenije za leti 2013 in 2014 (Uradni list RS, št. 104/12, 46/13, 56/13 – <a href="/trubar/si/ZŠtip-1/" class="law-ref" title="ZŠtip-1">ZŠtip-1</a> in 61/13) se 8. člen spremeni tako, da se glasi:</p>
 <h3>»8. člen</h3>
 <h3>(status poslovnih dogodkov iz naslova zavarovanja kreditnega tveganja)</h3>
 <p>Prejemki oziroma izdatki nastali z zavarovanjem kreditnega tveganja v povezavi z državnim dolgom se evidentirajo kot terjatve in obveznosti iz naslova prejetih in danih varščin.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za drugim odstavkom 39. člena se dodata nov tretji in četrti odstavek, ki se glasita:<br />
 »(3) Ne glede na 84. člen <a href="/trubar/si/ZJF/" class="law-ref" title="ZJF">ZJF</a> lahko minister, pristojen za finance, ali oseba, ki jo minister, pristojen za finance, pisno pooblasti, odloča o sklepanju poslov iz 3. točke šestega odstavka tega člena.<br />
 (4) Ne glede na prejšnji odstavek minister, pristojen za finance, ali oseba, ki jo minister, pristojen za finance, pisno pooblasti, o sklepanju poslov iz 3. točke šestega odstavka tega člena za namen financiranja primanjkljaja oziroma odplačila glavnic dolga proračuna države, odloča na podlagi letnega programa financiranja, ki ga sprejme vlada.«.<br />
@@ -60,7 +73,7 @@ Za novim šestim odstavkom se dodajo nov sedmi do deseti odstavek, ki se glasijo
 V dosedanjem petem odstavku, ki postane enajsti odstavek, se beseda »četrti« nadomesti z besedo »šesti«.<br />
 V dosedanjem šestem odstavku, ki postane dvanajsti odstavek, se beseda »petega« nadomesti z besedo »enajstega«.<br />
 V dosedanjem sedmem odstavku, ki postane trinajsti odstavek, se beseda »petega« nadomesti z besedo »enajstega«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 411-02/13-9/10</p>
 <p>Ljubljana, dne 26. septembra 2013</p>
@@ -77,5 +90,36 @@ Podpredsednica</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-10-08", "kratica": "ZIPRS1314-C", "naziv": "Zakon o spremembah in dopolnitvah Zakona o izvrševanju proračunov Republike Slovenije za leti 2013 in 2014", "url": "/trubar/si/ZIPRS1314-C/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

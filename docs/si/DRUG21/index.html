@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3742" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG21.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG21" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG21.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG21,vrsta:drugi akt">
+    
     <h1>Odločba, da so določbe 10. člena zakona o dohodnini v neskladju z ustavo, kolikor ne izvzemajo v celoti od obdavčenja tistih zneskov, ki jih roditelj mora nameniti preživljanju svojega otroka, da bi bil le-temu zagotovljen življenjski minimum. Državni zbor mora to neskladnost odpraviti najkasneje v enem letu od objave te odločbe v Uradnem listu RS</h1>
 <p>Ustavno sodišče je v postopku za oceno ustavnosti,  začetem na pobudo Marjetice Nosan iz Celja, na seji  dne 14. novembra 1996</p>
 <h3>o d l o č i l o:</h3>
@@ -70,5 +83,36 @@ dr. Tone Jerovšek l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-11-29", "kratica": "DRUG21", "naziv": "Odločba, da so določbe 10. člena zakona o dohodnini v neskladju z ustavo, kolikor ne izvzemajo v celoti od obdavčenja tistih zneskov, ki jih roditelj mora nameniti preživljanju svojega otroka, da bi bil le-temu zagotovljen življenjski minimum. Državni zbor mora to neskladnost odpraviti najkasneje v enem letu od objave te odločbe v Uradnem listu RS", "url": "/trubar/si/DRUG21/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

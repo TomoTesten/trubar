@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>SKLE13528</strong></dd>
       <dt>Vrsta</dt><dd>sklep</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>2023-12-08</dd>
-      <dt>Organ</dt><dd>Univerza v Mariboru</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-3610" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE13528.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE13528" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE13528.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE13528,vrsta:sklep">
+    
     <h1>Dopolnitev Sklepa o vsebini in obliki diplomskih listin Univerze v Mariboru</h1>
 <p>Na podlagi 32.a člena Zakona o visokem šolstvu (Uradni list RS, št. 32/12 – uradno prečiščeno besedilo, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>, 57/12 – <a href="/trubar/si/ZPCP-2D/" class="law-ref" title="ZPCP-2D">ZPCP-2D</a>, 109/12, 85/14, 75/16, 61/17 – ZUPŠ, 65/17, 175/20 – <a href="/trubar/si/ZIUOPDVE/" class="law-ref" title="ZIUOPDVE">ZIUOPDVE</a>, 57/21 – odl. US, 54/22 – ZUPŠ-1, 100/22 – <a href="/trubar/si/ZSZUN/" class="law-ref" title="ZSZUN">ZSZUN</a> in 102/23) je Senat Univerze v Mariboru na 3. redni seji z dne 26. 9. 2023 sprejel</p>
 <p>D O P O L N I T E V  S K L E P A</p>
@@ -44,5 +57,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-12-08", "kratica": "SKLE13528", "naziv": "Dopolnitev Sklepa o vsebini in obliki diplomskih listin Univerze v Mariboru", "url": "/trubar/si/SKLE13528/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

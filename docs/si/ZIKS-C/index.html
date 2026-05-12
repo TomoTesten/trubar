@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-0435" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIKS-C.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZIKS-C" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZIKS-C.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZIKS-C,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o izvrševanju kazenskih sankcij</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,14 +50,14 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA  O IZVRŠEVANJU KAZENSKIH SANKCIJ (ZIKS-G)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o izvrševanju kazenskih sankcij (Uradni list SRS, št. 17/78, 41/87, 32/89 in 8/90 ter Uradni list RS, št. 12/92, 58/93, 71/94 in 29/95) se 145. člen spremeni tako, da se glasi:</p>
 <h3>“145. člen</h3>
 <p>(1) Če je kazen zaplembe premoženja razveljavljena, se zaplenjeno premoženje vrne obsojencu oziroma njegovim dedičem.</p>
 <p>(2) Zavezanec za vrnitev premoženja v naravi je Republika Slovenija oziroma lokalna samoupravna skupnost, v katere lasti je premoženje, ki je bilo zaplenjeno.</p>
 <p>(3) Če vrnitev zaplenjenega premoženja ali njegovih posameznih delov stvarno ali pravno ni več mogoča, povrne dejansko vrednost tega premoženja po času izdaje sklepa o vrnitvi in po stanju v času zaplembe Republika Slovenija.</p>
 <p>(4) Republika Slovenija lahko uveljavlja povrnitev plačane odškodnine iz prejšnjega odstavka tega člena od samoupravne lokalne skupnosti, če je samoupravna lokalna skupnost odklonila vrnitev premoženja v nasprotju z določili prejšnjega odstavka. Enako lahko tudi lokalna skupnost zahteva od Republike Slovenije že plačano odškodnino, če je premoženje prevzela Republika Slovenija.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 145. členom se dodajo novi 145.a, 145.b, 145.c in 145.č člen, ki se glasijo:</p>
 <h3>“145.a člen</h3>
 <p>(1) Ne glede na določbo prejšnjega člena se za vračanje zaplenjenega premoženja v kazenskih postopkih, ki so bili pravnomočno končani do 31. 12. 1958, kazen zaplembe premoženja pa je bila razveljavljena na podlagi izrednih pravnih sredstev, glede oblik in obsega vračanja, omejitev v zvezi z vračanjem in glede vrednotenja premoženja smiselno uporabljajo določbe III. poglavja zakona o denacionalizaciji (Uradni list RS, št. 27/91-I, 56/92 – odločba US, 13/93 – odločba US, 31/93, 24/95 – odločba US, 20/97 – odločba US, 23/97 – odločba US).</p>
@@ -60,9 +73,9 @@ Milan Kučan l. r.</p>
 <h3>145. č člen</h3>
 <p>(1) O vrnitvi zaplenjenega premoženja odloča sodišče, ki je izvršilo kazen zaplembe premoženja, v nepravdnem postopku.<br />
 (2) Zoper odločbo sodišča druge stopnje je dovoljena revizija.“</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Nepravdni postopki in pravdni postopki v zvezi z vrnitvijo zaplenjenega premoženja, ki so se začeli pred uveljavitvijo tega zakona, pa do dneva uveljavitve tega zakona še niso pravnomočno končani, se končajo po tem zakonu.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 713-03/92-5/20</p>
 <p>Ljubljana, dne 28. januarja 1998.</p>
@@ -78,5 +91,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-02-10", "kratica": "ZIKS-C", "naziv": "Zakon o spremembah in dopolnitvah zakona o izvrševanju kazenskih sankcij", "url": "/trubar/si/ZIKS-C/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

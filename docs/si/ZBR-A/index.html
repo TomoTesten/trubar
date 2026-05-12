@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-1876" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZBR-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZBR-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZBR-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZBR-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o dopolnitvah zakona o blagovnih rezervah</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O DOPOLNITVAH ZAKONA O BLAGOVNIH REZERVAH (ZBR-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o blagovnih rezervah (Uradni list RS, št. 60/95) se za III. poglavjem z naslovom “OBVEZNOSTI IN PRAVICE ZAVODA“ doda novo III.a poglavje z naslovom “ZAGOTAVLJANJE OBVEZNIH REZERV NAFTE IN NAFTNIH DERIVATOV“ tako, da se za sedanjim 21. členom v novo poglavje doda nove člene 21.a, 21.b, 21.c in 21.č, ki se glasijo:</p>
 <h3>“21.a člen</h3>
 <p>Kot posebna gospodarska javna služba se zagotavlja oblikovanje obvezne rezerve nafte in njenih derivatov za naslednje skupine proizvodov:</p>
@@ -64,16 +77,16 @@ Upravni odbor imenuje Vlada Republike Slovenije.<br />
 Po enega člana upravnega odbora imenuje Vlada Republike Slovenije izmed predstavnikov ministrstva, pristojnega za preskrbo in ministrstva, pristojnega za energetiko, dva člana na poziv ministrstva, pristojnega za preskrbo predlagajo uporabniki gospodarske javne službe, dva člana pa se na predlog ministrstva, pristojnega za preskrbo, imenujeta izmed neodvisnih strokovnjakov.<br />
 Za predsednika upravnega odbora imenuje Vlada Republike Slovenije enega izmed predstavnikov ministrstva, pristojnega za preskrbo.<br />
 Druge pravice in odgovornosti ustanovitelja izvršuje Zavod Republike Slovenije za blagovne rezerve.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 22. členu se dodata nov prvi in drugi odstavek, ki se glasita:</p>
 <p>“Z denarno kaznijo najmanj 2,000.000 tolarjev se kaznuje za prekršek pravna oseba ali posameznik, ki stori prekršek pri samostojnem opravljanju gospodarske dejavnosti, če ne posreduje podatkov, zahtevanih po 21.c členu tega zakona.</p>
 <p>Z denarno kaznijo najmanj 500.000 tolarjev se kaznuje za prekršek iz prvega odstavka odgovorna oseba pravne osebe, ki stori dejanje iz prejšnjega odstavka.“<br />
 Dosedanji prvi, drugi, tretji in četrti odstavek postanejo tretji, četrti, peti in šesti odstavek.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Zavod za obvezne rezerve nafte in njenih derivatov se ustanovi najpozneje v tridesetih dneh po uveljavitvi tega zakona.<br />
 Sredstva za začetek dela Zavoda za obvezne rezerve nafte in njenih derivatov se zagotovijo iz premoženja Zavoda Republike Slovenije za blagovne rezerve.<br />
 Vlada Republike Slovenije v roku desetih dni po sprejemu ustanovitvenega akta imenuje upravni odbor Zavoda za obvezne rezerve nafte in njenih derivatov, ki sprejme statut zavoda v roku šestdesetih dni.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 310-04/90-2/12</p>
 <p>Ljubljana, dne 11. maja 1999.</p>
@@ -89,5 +102,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-05-21", "kratica": "ZBR-A", "naziv": "Zakon o dopolnitvah zakona o blagovnih rezervah", "url": "/trubar/si/ZBR-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

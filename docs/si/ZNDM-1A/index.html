@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-5384" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZNDM-1A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZNDM-1A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZNDM-1A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZNDM-1A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o nadzoru državne meje</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -38,22 +51,22 @@ Republike Slovenije<br />
 dr. Janez Drnovšek l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH ZAKONA O NADZORU DRŽAVNE MEJE (ZNDM-1A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o nadzoru državne meje (Uradni list RS, št. 87/02) se v tretjem odstavku 11. člena besedilo “minister, pristojen za notranje zadeve,” nadomesti z besedo “policija”, besede “na drugi stopnji” pa se črtajo. Besede “Vlada Republike Slovenije” se nadomestijo z besedilom “ministrstvo, pristojno za notranje zadeve”.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 12. členu se besedilo “ministrstvo, pristojno za notranje zadeve” nadomesti z besedo “policija”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prvem odstavku 18. člena se v prvem stavku besedilo “Minister, pristojen za notranje zadeve,” nadomesti z besedo “Policija”, besedilo “ministrom, pristojnim za finance” pa z besedilom “upravnim organom, pristojnim za carinske zadeve”. V drugem stavku se besedilo “minister, pristojen za notranje zadeve,” nadomesti z besedo “policija”. Besedilo “ministrom, pristojnim za finance” se nadomesti z besedilom “upravnim organom, pristojnim za carinske zadeve”, za besedo “in” pa se besedilo “ministrom, pristojnim za promet” nadomesti z besedilom “upravnim organom, pristojnim za letalstvo”. V zadnjem stavku prvega odstavka se besede “na drugi stopnji” črtajo, besede “Vlada Republike Slovenije” pa se nadomestijo z besedilom “ministrstvo, pristojno za notranje zadeve”.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V prvem odstavku 19. člena se besedilo “Minister, pristojen za notranje zadeve,” nadomesti z besedo “Policija”, besedilo “ministrom, pristojnim za finance” pa z besedami “upravnim organom, pristojnim za carinske zadeve”.<br />
 V drugem odstavku se za besedama “na letališču” beseda “ali” nadomesti z vejico, za besedo “vzletišču” pa se dodajo besede “ali železniški progi”. Besedilo “minister, pristojen za notranje zadeve,” se nadomesti z besedo “policija”, besedilo “ministrom, pristojnim za finance” se nadomesti z besedilom “upravnim organom, pristojnim za carinske zadeve”, besedilo “ministrom, pristojnim za promet” pa se nadomesti z besedilom “ministrstvom, pristojnim za promet”.<br />
 V petem odstavku se besede “na drugi stopnji” črtajo, besede “Vlada Republike Slovenije” pa se nadomestijo z besedilom “ministrstvo, pristojno za notranje zadeve”.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V drugem odstavku 36. člena se besedilo “minister, pristojen za notranje zadeve,” nadomesti z besedo “policija”.<br />
 V petem odstavku se besedilo “ministra, pristojnega za notranje zadeve” nadomesti z besedo “policije”.<br />
 V šestem odstavku se besede “na drugi stopnji” črtajo, besede “Vlada Republike Slovenije” pa se nadomestijo z besedilom “ministrstvo, pristojno za notranje zadeve”.</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 212-08/91-3/50</p>
 <p>Ljubljana, dne 27. novembra 2003.</p>
@@ -70,5 +83,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-12-18", "kratica": "ZNDM-1A", "naziv": "Zakon o spremembah in dopolnitvah zakona o nadzoru državne meje", "url": "/trubar/si/ZNDM-1A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

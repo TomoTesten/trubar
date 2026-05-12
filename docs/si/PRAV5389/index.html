@@ -21,29 +21,42 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0794" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5389.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5389" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5389.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5389,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o krmnih dodatkih</h1>
 <p>Na podlagi šestega odstavka 4. člena, tretjega odstavka 6. člena, tretjega odstavka 10. člena in šestega odstavka 11. člena zakona o krmi (Uradni list RS, št. 13/02) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o krmnih dodatkih*</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o krmnih dodatkih (Uradni list RS, št. 47/03 in 103/03) se v šestem odstavku 16. člena besedilo: » »dodatki, dovoljen(i) v Evropski uniji:«, kateri sledi navedba: »barvilo(a)«, »konzervans(i)« ali »antioksidant(i)« » nadomesti z besedilom: » »barvilo(a)«, »konzervans(i)« ali »antioksidant(i)«, kateri sledi navedba »dodatki, dovoljeni v Evropski uniji«.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prilogi 1 se v seznamu I pod »2. KOKCIDIOSTATIKI IN DRUGE ZDRAVILNE SNOVI« v razpredelnici »E 766« doda besedilo, ki se glasi:</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prilogi 1 se v seznamu II pod »7. ELEMENTI V SLEDOVIH« besedilo v razpredelnici pri »Št. ES« »E1« nadomesti z novim besedilom, ki se glasi:</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V prilogi 1 se v seznamu II pod »10. ENCIMI« v razpredelnici »Št. ali ES Št. 14« na koncu razpredelnice doda besedilo, ki se glasi:</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V prilogi 1 se v seznamu II pod »11. MIKROORGANIZMI« v razpredelnici za »Št. ali ES Št. 1702« doda nova številka »E 1703« in besedilo, ki se glasi:</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>V prilogi 1 se v seznamu II pod »11. MIKROORGANIZMI« v razpredelnici »Št. ali ES Št. 13« na koncu doda besedilo, ki se glasi:</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>V prilogi 1 se v seznamu II pod »11. MIKROORGANIZMI« v razpredelnici pod »Št. (ali ES Št.)« pod številko 22 na koncu doda besedilo in nova številka 23 z besedilom, ki se glasi:</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 324-85/2003</p>
 <p>Ljubljana, dne 2. februarja 2004.</p>
@@ -62,5 +75,36 @@ za kmetijstvo gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-02-27", "kratica": "PRAV5389", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o krmnih dodatkih", "url": "/trubar/si/PRAV5389/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

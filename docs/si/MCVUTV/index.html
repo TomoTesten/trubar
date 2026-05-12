@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-02-0043" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MCVUTV.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MCVUTV" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MCVUTV.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MCVUTV,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Chestrskega večstranskega usklajevalnega sporazuma iz leta 1997 o tehničnih merilih, načelih usklajevanja in postopkih za uvajanje prizemne digitalne videoradiodifuzije (DVB-T)</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI CHESTRSKEGA VEČSTRANSKEGA USKLAJEVALNEGA SPORAZUMA IZ LETA 1997 O TEHNIČNIH MERILIH, NAČELIH USKLAJEVANJA IN POSTOPKIH ZA UVAJANJE PRIZEMNE DIGITALNE VIDEORADIODIFUZIJE (DVB-T) (MCVUTV)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Chestrski večstranski usklajevalni sporazum iz leta 1997 o tehničnih merilih, načelih usklajevanja in postopkih za uvajanje prizemne digitalne videoradiodifuzije (DVB-T), sestavljen v Chestru 25. julija 1997.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sporazuma se v izvirniku v angleškem jeziku ter prevodu v slovenskem jeziku glasi:</p>
 <h2>The Chester 1997 Multilateral Coordination Agreement</h2>
 <p>relating to Technical Criteria, Coordination Principles and Procedures for<br />
@@ -1003,9 +1016,9 @@ postopek:</p>
         sporazuma in določeni tehnični standardi, ki jih je treba uporabiti v<br />
         odgovor na zahteve uprav.</p>
 <p>Dopolnilna informacija - diagrami poteka za usklajevalne postopke in združljivostno analizo</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Ministrstvo za gospodarstvo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 326-08/05-16/1</p>
 <p>Ljubljana, dne 21. junija 2005</p>
@@ -1022,5 +1035,36 @@ France Cukjati, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-07-28", "kratica": "MCVUTV", "naziv": "Zakon o ratifikaciji Chestrskega večstranskega usklajevalnega sporazuma iz leta 1997 o tehničnih merilih, načelih usklajevanja in postopkih za uvajanje prizemne digitalne videoradiodifuzije (DVB-T)", "url": "/trubar/si/MCVUTV/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

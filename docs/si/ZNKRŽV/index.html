@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-2811" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZNKRŽV.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZNKRŽV" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZNKRŽV.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZNKRŽV,vrsta:Sprejet zakon">
+    
     <h1>Zakon o najemu kredita pri Evropski investicijski banki v znesku 20 milijonov EVROV za financiranje ekološke sanacije Rudnika urana Žirovski vrh</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O NAJEMU KREDITA PRI EVROPSKI INVESTICIJSKI BANKI V ZNESKU 20 MILIJONOV EVROV ZA FINANCIRANJE EKOLOŠKE SANACIJE RUDNIKA URANA ŽIROVSKI VRH (ZNKRŽV)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Republika Slovenija najame kredit pri Evropski investicijski banki za namen financiranja ekološke sanacije Rudnika urana Žirovski vrh v znesku 20 milijonov evrov v tolarski protivrednosti po srednjem tečaju Banke Slovenije na dan črpanja pod naslednjimi pogoji:<br />
 – znesek kredita: 20 milijonov evrov; kredit se črpa v evrih ali drugi valuti članic EU, oziroma v katerikoli valuti, s katero se trguje na mednarodnem denarnem trgu;<br />
 – poseben pogoj za prvo črpanje: Republika Slovenija kot posojilojemalka se zavezuje, da bo v primeru, če tretja oseba proti EIB sproži postopek zaradi okoliščin, nastalih v zvezi s projektom ali njegovo implementacijo, sodelovala z Banko ter brezpogojno poravnala vse nastale stroške, vključno z odškodninami, pravnimi stroški, sodnimi stroški ipd.;<br />
@@ -45,11 +58,11 @@ Milan Kučan l. r.</p>
 – drugi stroški: (a) nadomestilo za odlog napovedanega črpanja kredita: 1% vrednosti najavljenega črpanja letno; (b) nadomestilo za odpoved napovedanega črpanja kredita: 0,75% vrednosti odpovedanega črpanja letno; (c) zamudne obresti: višja od: (i) redne obrestne mere, povečane za 25 bazičnih točk ali (ii) medbančne obrestne mere za enomesečne depozite v predmetni valuti (za USD v Londonu in za EUR na evro področju), povečane za 200 bazičnih točk;<br />
 – rok za zadnje črpanje kredita: 15. marec 2006;<br />
 – rok odplačila: 10 do 15 let z vključenim 4,5-letnim moratorijem na odplačilo glavnice, z začetkom odplačevanja glavnice 15. 3. 2007 in koncem 15. 6. 2016 ali 2021.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Pogodbo o najemu kredita z Evropsko investicijsko banko v imenu Republike Slovenije podpiše minister, pristojen za finance.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Sredstva za izpolnjevanje obveznosti iz pogodbe o najemu kredita se zagotavljajo v proračunu Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-03/02-111/1</p>
 <p>Ljubljana, dne 12. junija 2002.</p>
@@ -65,5 +78,36 @@ Borut Pahor l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-07-04", "kratica": "ZNKRŽV", "naziv": "Zakon o najemu kredita pri Evropski investicijski banki v znesku 20 milijonov EVROV za financiranje ekološke sanacije Rudnika urana Žirovski vrh", "url": "/trubar/si/ZNKRŽV/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

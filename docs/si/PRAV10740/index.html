@@ -21,19 +21,32 @@
       <dt>Organ</dt><dd>Ministrstvo za zdravje</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-2051" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10740.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10740" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10740.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10740,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o vsebini poročil ter rokih in načinu poročanja o letnih izvedenih strateških dejavnostih</h1>
 <p>Na podlagi petega odstavka 18. člena Zakona o nadzoru strateškega blaga posebnega pomena za varnost in zdravje (Uradni list RS, št. 29/06 in 8/10 – <a href="/trubar/si/ZNIBDR-A/" class="law-ref" title="ZNIBDR-A">ZNIBDR-A</a>) ter za izvajanje Uredbe o določitvi seznama strateškega blaga in pripadajočih nadzornih režimih (Uradni list RS, št. 4/11) izdaja minister za zdravje</p>
 <h2>P R A V I L N I K</h2>
 <p>o vsebini poročil ter rokih in načinu poročanja o letnih izvedenih strateških dejavnostih</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa vsebino poročil ter roke in način poročanja o letnih izvedenih strateških dejavnostih.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Izrazi, uporabljeni v tem pravilniku, imajo enak pomen kot izrazi, uporabljeni v Zakonu o nadzoru strateškega blaga posebnega pomena za varnost in zdravje (Uradni list RS, št. 29/06 in 8/10 – <a href="/trubar/si/ZNIBDR-A/" class="law-ref" title="ZNIBDR-A">ZNIBDR-A</a>; v nadaljnjem besedilu: zakon).</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Zavezanec, ki opravlja strateško dejavnost v skladu z zakonom in Uredbo o določitvi seznama strateškega blaga in pripadajočih nadzornih režimih (Uradni list RS, št. 4/11), mora v poročilu o izvedenih strateških dejavnostih v preteklem letu pristojnemu organu v elektronski ali pisni obliki posredovati naslednje podatke:<br />
 1. podatki o zavezancu:<br />
 a) naslov pravne oziroma fizične osebe, ki je opravljala strateško dejavnost,<br />
@@ -46,9 +59,9 @@ a) strateško blago, na katerega se nanaša opis izvedenih strateških dejavnost
 – carinsko tarifno oznako,<br />
 b) opis izvedene strateške dejavnosti; v primeru uvoza oziroma izvoza tudi podatke o uvozniku oziroma izvozniku in mejnem prehodu, prek katerega je bil opravljen zadevni uvoz oziroma izvoz,<br />
 c) količino strateškega blaga.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Z dnem uveljavitve tega pravilnika preneha veljati Pravilnik o vsebini poročil ter rokih in načinu poročanja o letnih izvedenih strateških dejavnostih (Uradni list RS, št. 25/09).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0070-39/2011</p>
 <p>Ljubljana, dne 5. maja 2011</p>
@@ -64,5 +77,36 @@ za zdravje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-06-03", "kratica": "PRAV10740", "naziv": "Pravilnik o vsebini poročil ter rokih in načinu poročanja o letnih izvedenih strateških dejavnostih", "url": "/trubar/si/PRAV10740/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

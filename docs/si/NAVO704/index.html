@@ -21,35 +21,48 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4175" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO704.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO704" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO704.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO704,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o rokih in načinu posredovanja podatkov Davčne uprave Republike Slovenije v evidenco prometa nepremičnin</h1>
 <p>Na podlagi 28. člena Zakona o nepremičninskem posredovanju (Uradni list RS, št. 42/03) minister za prostor, okolje in energijo v soglasju z ministrom za finance izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o rokih in načinu posredovanja podatkov Davčne uprave Republike Slovenije v evidenco prometa nepremičnin</p>
 <h3>I. SPLOŠNE DOLOČBE</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina)</h3>
 <p>Ta pravilnik ureja roke in način posredovanja podatkov Davčne uprave Republike Slovenije iz evidence o odmeri, obračunu, izterjavi in knjiženju davka na promet nepremičnin ministrstvu, pristojnemu za prostor (v nadaljnjem besedilu: ministrstvo) v evidenco prometa nepremičnin.</p>
 <h3>II. POSREDOVANJE PODATKOV IZ EVIDENCE O ODMERI, OBRAČUNU, IZTERJAVI IN KNJIŽENJU DAVKA NA PROMET NEPREMIČNIN V EVIDENCO PROMETA NEPREMIČNIN</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(roki in način posredovanja podatkov v evidenco prometa nepremičnin)</h3>
 <p>(1) Davčna uprava Republike Slovenije posreduje podatke iz zakona, ki ureja nepremičninsko posredovanje (v nadaljnjem besedilu: zakon) ministrstvu, ki jih privzame v evidenco prometa nepremičnin enkrat mesečno in sicer najkasneje do zadnjega dne v mesecu za podatke preteklega koledarskega meseca.<br />
 (2) Davčna uprava Republike Slovenije mora podatke iz prejšnjega odstavka posredovati v evidenco prometa nepremičnin elektronsko v predpisanem izmenjevalnem formatu v obliki, določeni v prilogi 1, ki je sestavni del tega pravilnika.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(pristojnost vodenja evidence prometa nepremičnin)</h3>
 <p>Za vodenje in vzdrževanje evidence prometa nepremičnin je pristojno Ministrstvo za okolje, prostor in energijo, Geodetska uprava Republike Slovenije, ki vodi evidenco v digitalni obliki.</p>
 <h3>III. PREHODNE IN KONČNE DOLOČBE</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(posredovanje podatkov Davčne uprave Republike Slovenije v prehodnem obdobju)</h3>
 <p>(1) Davčna uprava Republike Slovenije mora začeti s posredovanjem podatkov iz zakona najkasneje dva meseca po uveljavitvi tega pravilnika.<br />
 (2) Pri prvem posredovanju podatkov je Davčna uprava Republike Slovenije dolžna posredovati podatke evidentirane od 1. januarja 2004 do konca zadnjega meseca pred mesecem prvega posredovanja podatkov.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(vzpostavitev evidence prometa nepremičnin)</h3>
 <p>Ministrstvo in Geodetska uprava Republike Slovenije zagotovita tehnične možnosti vzpostavitve in vpogleda v podatke evidence prometa nepremičnin najkasneje do 1. marca 2005.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <h3>(uveljavitev navodila)</h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 466-00-56/2004</p>
@@ -96,5 +109,36 @@ decimalkama v obliki(NNNNNNNNNNN.NN)</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-08-20", "kratica": "NAVO704", "naziv": "Pravilnik o rokih in načinu posredovanja podatkov Davčne uprave Republike Slovenije v evidenco prometa nepremičnin", "url": "/trubar/si/NAVO704/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

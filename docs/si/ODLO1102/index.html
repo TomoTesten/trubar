@@ -16,28 +16,41 @@
     <dl>
       <dt>Kratica</dt><dd><strong>ODLO1102</strong></dd>
       <dt>Vrsta</dt><dd>odlok</dd>
-      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
       <dt>Datum</dt><dd>2002-04-04</dd>
-      
+      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-1216" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1102.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODLO1102" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO1102.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODLO1102,vrsta:odlok">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Odlok o operativnem programu ravnanja z embalažo in odpadno embalažo za obdobje od 2002 do konca 2007</h1>
 <p>Na podlagi 49. člena zakona o varstvu okolja (Uradni list RS, št. 32/93, 44/95 – odl. US, 1/96, 9/99 – odl. US, 56/99 – <a href="/trubar/si/ZON/" class="law-ref" title="ZON">ZON</a>, 86/99 – odl. US, 22/00 – <a href="/trubar/si/ZJS/" class="law-ref" title="ZJS">ZJS</a> in 82/01 – odl. US) izdaja Vlada Republike Slovenije</p>
 <h2>O D L O K</h2>
 <p>o operativnem programu ravnanja z embalažo in odpadno embalažo za obdobje od 2002 do konca 2007</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem odlokom se določi operativni program varstva okolja s področja ravnanja z embalažo in odpadno embalažo (v nadaljnjem besedilu: operativni program).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Operativni program vsebuje:<br />
 – zakonska in programska izhodišča za pripravo operativnega programa,<br />
 – analizo obstoječega stanja in ugotovitev ključnih problemov,<br />
 – opredelitev ciljev z okvirno dinamiko njihovega doseganja do konca leta 2007 in<br />
 – program ukrepov z določitvijo nosilcev, časovnim načrtom izvedbe in oceno stroškov.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Program ukrepov iz prejšnjega člena vsebuje naslednje vsebinske sklope:<br />
 – zmanjševanje količin embalaže in preprečevanje nastajanja odpadne embalaže,<br />
 – vzpostavitev in delovanje sistema ravnanja z odpadno embalažo,<br />
@@ -49,13 +62,13 @@
 – vključevanje ciljnih javnosti,<br />
 – vzpostavitev in delovanje informacijskega sistema in sistema poročanja in<br />
 – spremljanje in nadzor nad izvajanjem operativnega programa.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za izvajanje operativnega programa so na osnovi naraščajočih količin odpadne embalaže do konca leta 2007 in stroškov vzpostavitve in delovanja sistema ravnanja z odpadno embalažo ocenjeni stroški v višini okrog 55 milijard SIT.<br />
 Iz državnega proračuna se do konca leta 2007 nameni predvidoma skupaj 220 milijonov SIT, in sicer zlasti na področju oblikovanja politike, dodatne institucionalne organiziranosti, spremljanja in nadzora izvajanja programa ter vključevanja ciljnih javnosti.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Operativni program je kot priloga sestavni del tega odloka.<br />
 Tabelarni prikaz programa ukrepov je kot priloga sestavni del operativnega programa.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta odlok začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 354-18/2002-1</p>
 <p>Ljubljana, dne 22. marca 2002.</p>
@@ -71,5 +84,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-04-04", "kratica": "ODLO1102", "naziv": "Odlok o operativnem programu ravnanja z embalažo in odpadno embalažo za obdobje od 2002 do konca 2007", "url": "/trubar/si/ODLO1102/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

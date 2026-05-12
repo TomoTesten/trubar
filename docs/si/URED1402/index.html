@@ -21,28 +21,41 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-0385" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1402.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1402" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1402.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1402,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o spremembah in dopolnitvah uredbe o taksi za obremenjevanje vode</h1>
 <p>Na podlagi 80. člena zakona o varstvu okolja (Uradni list RS, št. 32/93 in 1/96) in 26. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o taksi za obremenjevanje vode</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V prvem odstavku 2. člena uredbe o taksi za obremenjevanje vode (Uradni list RS, št. 41/95) se besedilo 4. točke spremeni, tako da se glasi:<br />
 4. Komunalna odpadna voda je voda, ki nastaja v bivalnem okolju gospodinjstev zaradi rabe vode v sanitarnih prostorih, pri kuhanju, pranju in drugih gospodinjskih opravilih. Komunalna odpadna voda je tudi voda, ki nastaja v objektih v javni rabi ali pri kakršni koli dejavnosti, če je po nastanku in sestavi podobna vodi po uporabi v gospodinjstvu.<br />
 Komunalna odpadna voda je tudi tehnološka odpadna voda, ki je po sestavi podobna odpadni vodi po uporabi v gospodinjstvu, katere povprečni dnevni pretok ne presega 15 mł/dan, letna količina ne presega 4.000 mł, ki se odvaja iz vira onesnaževanja, katerega obremenjevanje okolja ne presega 50 PE in pri kateri za nobeno od nevarnih snovi, določenih kot nevarne s predpisi o emisiji snovi pri odvajanju odpadnih vod iz virov onesnaževanja, letna količina ni presežena.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 7. členu uredbe se doda nov šesti odstavek, ki se glasi:<br />
 Pri porazdelitvi plačila takse iz prvega odstavka tega člena med uporabnike, ki so priključeni na kanalizacijsko omrežje ali imajo greznice in niso dolžni izvajati obratovalnega monitoringa za odpadne vode, mora zavezanec upoštevati njihovo letno količino porabljene vode.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 8. členu uredbe se doda nov tretji odstavek, ki se glasi:<br />
 Porazdelitev plačila takse iz prvega odstavka tega člena med uporabnike, ki so priključeni na kanalizacijsko omrežje ali imajo greznice in niso dolžni izvajati obratovalnega monitoringa za odpadne vode, mora zavezanec izvesti tako, da upošteva za vsakega prebivalca enak delež takse.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Zadnji odstavek 15. člena uredbe se spremeni, tako da se glasi:<br />
 Za zavezanca iz prvega in četrtega odstavka 4. člena te uredbe znesek mesečne akontacije zapade v plačilo vsakega desetega dne v mesecu za pretekli mesec, za zavezanca iz drugega in tretjega odstavka 4. člena te uredbe pa vsakega desetega dne v mesecu za obveznost, ki je nastala pred tremi meseci.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 423-04/95-1/5-8</p>
 <p>Ljubljana, dne 1. februarja 1996.</p>
@@ -57,5 +70,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-02-12", "kratica": "URED1402", "naziv": "Uredba o spremembah in dopolnitvah uredbe o taksi za obremenjevanje vode", "url": "/trubar/si/URED1402/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

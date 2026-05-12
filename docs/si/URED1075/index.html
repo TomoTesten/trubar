@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-3384" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1075.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED1075" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED1075.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED1075,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Uredba o cenah informacijskih in drugih storitev Urada Republike Slovenije za intelektualno lastnino</h1>
 <p>Na podlagi četrtega odstavka 39. člena zakona o industrijski lastnini (Uradni list RS, št. 13/92, 27/93) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o cenah informacijskih in drugih storitev Urada Republike Slovenije za intelektualno lastnino</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S to uredbo so določene cene za kritje stroškov informacijskih in drugih storitev, ki jih Urad Republike Slovenije za intelektualno lastnino (v nadaljevanju: urad) opravlja na podlagi prvega in drugega odstavka 7. člena zakona o industrijski lastnini za naročnike, ki niso uporabniki proračuna Republike Slovenije.</p>
 <hr />
 <h2>Cene storitev                                                 v tolarjih</h2>
@@ -77,22 +90,22 @@ D.4       1/6 strani (120 × 62 mm ali 60 × 126 mm)                11.000<br />
 D.5       1/2 strani (180 × 126 mm)                               20.000<br />
 D.6       cela stran (253 × 180 mm)                               40.000</p>
 <hr />
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Izpisi za opravljene storitve iz točke A iz 1. člena te uredbe in za storitev iz točke B.4 iz 1. člena te uredbe se dodatno zaračunavajo v skladu s točkama B.2 in B.3 iz 1. člena te uredbe.<br />
 Za storitev iz točke B.1 iz 1. člena te uredbe je potrebno pisno naročilo z dokazilom o plačilu zadevne storitve. Storitve iz točk B.2 in B.3 iz 1. člena te uredbe se plačujejo sprotno pri blagajni urada, razen kadar so vštete v obračun in plačilo storitev iz točke A iz 1. člena te uredbe.<br />
 Plačila do višine 10.000 tolarjev lahko naročnik plača v gotovini na blagajni urada.<br />
 Za vse storitve iz te uredbe se plačuje temeljni prometni davek na storitve.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za storitve, pri katerih celotni znesek plačila ni znan ob naročilu, a je manjši od 15.000 tolarjev, pošlje urad naročniku račun skupaj z rezultatom storitve. Če je znesek storitve večji, urad najprej pozove naročnika za celotno plačilo in izroči rezultat naročniku po prejemu celotnega plačila.<br />
 Tolarska protivrednost zneskov v tuji valuti se izračunava po srednjem tečaju Banke Slovenije na dan plačila.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Poizvedbe in posredovane informacije po tej uredbi ne zavezujejo urada pri odločanju o upravnih zadevah, ki se nanašajo na pridobitev in varstvo izumov ter znakov razlikovanja na podlagi zakona o industrijski lastnini.<br />
 Urad ne jamči za popolnost danih informacij in ne prevzema odgovornosti v tej zvezi.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z dnem, ko začne veljati ta uredba, prenehajo veljati:<br />
 – uredba o cenah informacijskih in drugih storitev Urada Republike Slovenije za intelektualno lastnino (Uradni list RS, št. 14/95),<br />
 – točki 5.4. in 5.5. iz 1. člena uredbe o pristojbinah Urada Republike Slovenije za intelektualno lastnino za pridobitev in varstvo pravic industrijske lastnine (Uradni list RS, št. 14/95).</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 391-01/93-2/5-8</p>
 <p>Ljubljana, dne 10. oktobra 1996.</p>
@@ -107,5 +120,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-10-19", "kratica": "URED1075", "naziv": "Uredba o cenah informacijskih in drugih storitev Urada Republike Slovenije za intelektualno lastnino", "url": "/trubar/si/URED1075/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

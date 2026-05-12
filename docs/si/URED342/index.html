@@ -21,28 +21,41 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-0345" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED342.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED342" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED342.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED342,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Uredba o načinu določanja osebne identifikacijske številke</h1>
 <p>Na podlagi 10. člena zakona o Centralnem registru prebivalstva (Uradni list RS, št. 1/99) in 21. člena zakona o Vladi Republike Slovenije (Uradni list RS, št. 4/93, 71/94, 23/96 in 47/97) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o načinu določanja osebne identifikacijske številke</p>
 <h3>I. SPLOŠNI DOLOČBI</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S to uredbo predpisuje Vlada Republike Slovenije način določanja osebne identifikacijske številke in izračun kontrolne številke.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Osebna identifikacijska številka v Republiki Sloveniji je trinajstmestna enotna matična številka občana (v nadaljevanju: emšo), ki jo določa ministrstvo, pristojno za notranje zadeve kot upravljalec Centralnega registra prebivalstva (v nadaljevanju: upravljalec CRP).</p>
 <h3>II. DOLOČITEV EMŠOJA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Emšo določi upravljavec CRP po algoritmu, ki vključuje modul 11.<br />
 Določi ga na osnovi sedemmestnega datuma rojstva in spola.<br />
 Številke od prvega do sedmega mesta emšoja so datum rojstva - 2-mestni dan, 2-mestni mesec in 3-mestna letnica. Na osmem in devetem mestu je številka registra – šifra 50. Na desetem, enajstem in dvanajstem mestu je zaporedna številka, na trinajstem mestu pa kontrolna številka.<br />
 Zaporedna številka je kombinacija spola in zaporedne številke za osebe, rojene istega dne – 000-499 za moške in 500-999 za ženske. Osnova za izračun zaporedne številke je evidenca določenih emšojev: zaporedni številki zadnjega emšoja, ki je bil določen na isti datum rojstva in spol, se prišteje vrednosti 1. Tako dobljeni seštevek je zaporedna številka za emšo, ki se določa.<br />
 Na osnovi prvih dvanajstih številk se izračuna kontrolna številka po algoritmu iz 4. člena te uredbe.<br />
 V evidenci določenih emšojev nekatere zaporedne in kontrolne številke pri posameznem datumu rojstva niso možne.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Vsako številko emšoja se pomnoži z ustrezno vrednostjo<br />
 od 7 do 2:</p>
 <p>– prva številka emšoja se pomnoži          s 7<br />
@@ -63,10 +76,10 @@ Ostanek pri delitvi se odšteje od števila 11, razlika je kontrolna številka. 
 Če je ostanek pri delitvi O je kontrolna številka 0.<br />
 Kadar upravljavec CRP emšo določa in je ostanek pri delitvi enak 1, je razlika dvomestna in kontrolne številke ni mogoče izračunati. V takem primeru zaporedno število preskoči, vrednost zaporedne številke poveča za 1, izračun kontrolne številke pa ponovi po istem postopku.</p>
 <h3>III. NAČIN UPORABE ALGORITMA</h3>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Algoritem za izračun kontrolne številke iz 4. člena se uporablja pri vnosu podatkov za kontroliranje pravilnosti vnosa emšoja in pri določanju novega emšoja. Način uporabe algoritma je razviden iz Priloge 1 k tej uredbi.</p>
 <h3>IV. KONČNA DOLOČBA</h3>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta uredba začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 204-01/99-1</p>
 <p>Ljubljana, dne 28. januarja 1999.</p>
@@ -108,5 +121,36 @@ trolno številko 6.</li>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-02-10", "kratica": "URED342", "naziv": "Uredba o načinu določanja osebne identifikacijske številke", "url": "/trubar/si/URED342/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

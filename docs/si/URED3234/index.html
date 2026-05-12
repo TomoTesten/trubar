@@ -21,35 +21,48 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0945" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3234.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3234" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3234.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED3234,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Uredba o določitvi seznama del na področju geodetske dejavnosti, katerih izvedba vpliva ali bi lahko vplivala na varnost življenja ali zdravja ljudi</h1>
 <p>Na podlagi drugega odstavka 3. člena Zakona o geodetski dejavnosti (Uradni list RS, št. 8/00 in 1/01 – sklep US) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o določitvi seznama del na področju geodetske dejavnosti, katerih izvedba vpliva ali bi lahko vplivala na varnost življenja ali zdravja ljudi</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta uredba določa dela na področju geodetske dejavnosti, katerih izvedba vpliva ali bi lahko vplivala na varnost življenja ali zdravja ljudi.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Dela na področju geodetske dejavnosti, katerih izvedba vpliva ali bi lahko vplivala na varnost življenja ali zdravja ljudi, so:<br />
 – geodetske inženirsko-tehnične meritve, opazovanja in druga geodetska dela, povezana s projektiranjem, gradnjo, vzdrževanjem in uporabo objektov, ki zagotavljajo zanesljivost in varno uporabo objekta, in<br />
 – geodetske meritve in dela, povezana z določanjem in uporabo državnega koordinatnega sistema.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Geodetske inženirsko-tehnične meritve, opazovanja in druga geodetska dela, povezana s projektiranjem, gradnjo, vzdrževanjem in uporabo objektov, ki zagotavljajo zanesljivost in varno uporabo objekta, so:<br />
 – izdelava geodetskih načrtov za projektiranje, gradnjo in vzdrževanje in<br />
 – geodetske meritve in opazovanja, kadar se zahteva visoka natančnost, ki se izvajajo pri:<br />
 – operativni položajni in višinski zakoličbi med gradnjo zahtevnih objektov,<br />
 – kontrolnih opazovanjih med gradnjo, vzdrževanjem in uporabo zahtevnih objektov,<br />
 – opazovanju in deformacijskih analizah horizontalnih in vertikalnih premikov, posedanj ali drsenj grajenih in naravnih objektov.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Geodetske meritve in dela, povezana z določanjem in uporabo državnega koordinatnega sistema, so:<br />
 – dela, povezana z določanjem geodetskih točk, ki so del državnega koordinatnega sistema,<br />
 – vzpostavitev stalnih GPS postaj, ki se uporabljajo za geodetsko izmero s satelitskim navigacijskim sistemom in<br />
 – določanje transformacijskih parametrov in izvedba transformacij med različnimi koordinatnimi sistemi.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Na dokumentaciji, ki se izdela v zvezi z opravljenim delom iz 3. in 4. člena te uredbe, odgovorni geodet potrdi, da uporabljene metode merjenj ter obdelava in prikaz podatkov zagotavljajo skladnost s tehničnimi predpisi in standardi oziroma z zahtevanimi tolerancami iz projekta za graditev oziroma z drugimi posebnimi zahtevami, določenimi za izvedbo posameznih geodetskih del iz te uredbe.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 450-05/2004-1</p>
 <p>Ljubljana, dne 26. februarja 2004.</p>
@@ -65,5 +78,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-03-12", "kratica": "URED3234", "naziv": "Uredba o določitvi seznama del na področju geodetske dejavnosti, katerih izvedba vpliva ali bi lahko vplivala na varnost življenja ali zdravja ljudi", "url": "/trubar/si/URED3234/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

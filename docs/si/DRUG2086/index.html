@@ -21,24 +21,37 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-4119" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2086.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG2086" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG2086.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG2086,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Aneks k tarifni prilogi kolektivne pogodbe dejavnosti trgovine Slovenije</h1>
 <h2>A N E K S   K   T A R I F N I   P R I L O G I</h2>
 <p>K O L E K T I V N E   P O G O D B E<br />
 dejavnosti trgovine Slovenije</p>
 <p>(Uradni list RS, št. 10/98, 110/99, 23/02 in 73/03)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Na podlagi Zakona o izvajanju dogovora o politiki plač v zasebnem sektorju v obdobju 2004–2005 (Uradni list RS, št. 70/04) in v skladu z Dogovorom o politiki plač v zasebnem sektorju za obdobje 2004–2005 (Uradni list RS, št. 55/04) znaša uskladitveni znesek za dejavnost G – Trgovina popravila motornih vozil in izdelkov široke porabe 7.500 SIT bruto. V tem znesku je vključena uskladitev bruto plač z dogovorjeno stopnjo rasti življenjskih stroškov in uskladitev s porastom produktivnost v dejavnosti trgovine.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Uskladitveni znesek iz 1. člena tega aneksa se izplača kot posebni bruto nominalni dodatek k izplačani bruto plači od meseca avgusta 2004 dalje. Če so se bruto plače v letu 2004 že povečale, se ob izplačilu plač za mesec avgust 2004 izplača le razlika do uskladitvenega zneska.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Uskladitveni znesek iz 1. člena se izplačuje dokler ni dogovorjeno drugače.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Aneks začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije in se uporablja od 1. avgusta 2004.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V primeru spora se uporabljajo določbe Kolektivne pogodbe dejavnosti trgovine Slovenije.</p>
 <p>Ljubljana, dne 20. julija 2004.</p>
 <p>Zveza svobodnih sindikatov<br />
@@ -70,5 +83,36 @@ Aleš Čerin l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-08-13", "kratica": "DRUG2086", "naziv": "Aneks k tarifni prilogi kolektivne pogodbe dejavnosti trgovine Slovenije", "url": "/trubar/si/DRUG2086/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

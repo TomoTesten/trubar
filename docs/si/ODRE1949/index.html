@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3598" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1949.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE1949" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1949.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE1949,vrsta:odredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Odredba o prepovedi uporabe cestno-železniških prehodov</h1>
 <p>Na podlagi osmega odstavka 109. člena Zakona o varnosti v železniškem prometu (Uradni list RS, št. 102/04 – uradno prečiščeno besedilo) izdaja minister za promet</p>
 <h2>O D R E D B O</h2>
 <p>o prepovedi uporabe cestno-železniških prehodov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Prepove se uporaba naslednjih cestno-železniških prehodov:<br />
 1. na glavni železniški progi št. 10 d.m.-Dobova-Ljubljana, v km »455,811; 457.205; 505.270; 488.010; 534.938; 535.595; 544.890; 545.885; 546.290; 469.795; 517.820; 550.030; 530.945; 564.166; 537.589; 537.795; 542,835; 542.970; 543.195«;<br />
 2. na glavni železniški progi št. 20 Ljubljana-Jesenice-d.m., v km »568.396; 582.660; 588.318; 615.962; 616.886; 619.315; 625.954; 587.138; 587.337; 587.943; 588.867; 589.898«;<br />
@@ -52,19 +65,19 @@
 19. na regionalni železniški progi št. 33 Stranje-Imeno-d.m., v km »38.872«;<br />
 20. na glavni železniški progi št. 60 Divača (Prešnica)-Koper potniška, v km »29.187; 11.136; 8.143«;<br />
 21. na regionalni železniški progi št. 72 Prvačina-Ajdovščina, v km »13.705; 14.476«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ne glede na določbo 12. točke prejšnjega člena te odredbe se dovoli uporaba cestno železniškega prehoda v kilometru 580.092, in sicer le v času, ko se iz gozdov odvaža les.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ne glede na določbo 12. točke 1. člena te odredbe se dovoli uporaba cestno-železniškega prehoda v kilometru 516.479, in sicer le za prehajanje pešcev.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Z dnem uveljavitve te odredbe se preneha uporabljati Odredba o prepovedi uporabe cestno-železniških prehodov (Uradni list RS, 26/91, 28/91 – popravek, 29/94, 18/95, 75/96, 70/99, 85/00 in 9/01).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z dnem uveljavitve te odredbe preneha veljati:<br />
 – Odredba o prepovedi uporabe cestno-železniških prehodov (Uradni list RS, št. 9/01),<br />
 – Odredba o prepovedi uporabe cestno-železniških prehodov (Uradni list RS, št. 76/01),<br />
 – Odredba o prepovedi uporabe cestno-železniških prehodov (Uradni list RS, št. 22/02),<br />
 – Pravilnik o prepovedi uporabe cestno-železniških prehodov (Uradni list RS, št. 112/02).</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 2610-5/2005-12-0006102</p>
 <p>Ljubljana, dne 30. avgusta 2005.</p>
@@ -80,5 +93,36 @@ mag. Janez Božič l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-09-09", "kratica": "ODRE1949", "naziv": "Odredba o prepovedi uporabe cestno-železniških prehodov", "url": "/trubar/si/ODRE1949/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

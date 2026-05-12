@@ -21,27 +21,40 @@
       <dt>Organ</dt><dd>Ministrstvo za pravosodje</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1486" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE925.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE925" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE925.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE925,vrsta:odredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Odredba o začetku opravljanja dejanj izvršbe in zavarovanja po izvršiteljih</h1>
 <p>Na podlagi drugega odstavka 299. člena zakona o izvršbi in zavarovanju (Uradni list RS, št. 51/98) izdaja minister za pravosodje</p>
 <h2>O D R E D B O</h2>
 <p>o začetku opravljanja dejanj izvršbe  in zavarovanja po izvršiteljih</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta odredba določa začetek opravljanja dejanj izvršbe in zavarovanja po določbah zakona o izvršbi in zavarovanju, po izvršiteljih, imenovanih z odločbo ministra za pravosodje ter način prenosa na izvršitelje tistih zadev, v katerih je sodišče do uveljavitve te odredbe že izdalo sklep o dovolitvi izvršbe in zadev, v katerih se je po izdaji sklepa o dovolitvi izvršbe, izvršba že začela opravljati.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Dejanja izvršbe in zavarovanja pričnejo izvršitelji opravljati z dnem, ko začne veljati ta odredba.<br />
 Z dnem, določenim v prejšnjem odstavku, prenehajo opravljati dejanja izvršbe in zavarovanja sodni izvršitelji, zaposleni na sodiščih.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V zadevah, v katerih je sodišče do uveljavitve te odredbe že izdalo sklep s katerim je dovolilo izvršbo in se izvršba še ni začela opravljati, sodišče izda sklep s katerim določi izvršitelja.<br />
 Če je bil v zadevah iz prejšnjega odstavka že plačan predujem za stroške za opravo dejanj izvršbe ali zavarovanja, ga sodišče nakaže na račun izvršitelja, ter po potrebi, v skladu s tarifo za plačilo za delo izvršitelja in povračilo stroškov v zvezi z opravljenim delom, s sklepom naloži upniku doplačilo predujma, oziroma v primeru izdanega in še nerealiziranega sklepa o plačilu predujma, izda še dodaten sklep o doplačilu predujma.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V zadevah, v katerih je sodišče izdalo sklep s katerim je dovolilo izvršbo in se je izvršba že začela opravljati, ostanejo vsa že opravljena dejanja izvršbe ali zavarovanja v veljavi.<br />
 S sklepom o določitvi izvršitelja, sodišče določi izvršitelja. Način prevzema že opravljenih dejanj izvršbe ali zavarovanja določi sodišče z odredbo. O prevzemu že opravljenih dejanj se sestavi zapisnik, ki ga podpišeta sodnik in izvršitelj.<br />
 Glede predujma za stroške za opravo dejanj izvršbe ali zavarovanja ravna sodišče tako, kot je določeno v 3. členu te odredbe.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta odredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. MP</p>
 <p>Ljubljana, dne 5. aprila 2000.</p>
@@ -56,5 +69,36 @@ za pravosodje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-04-13", "kratica": "ODRE925", "naziv": "Odredba o začetku opravljanja dejanj izvršbe in zavarovanja po izvršiteljih", "url": "/trubar/si/ODRE925/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

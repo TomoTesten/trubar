@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-0777" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6241.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6241" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6241.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6241,vrsta:uredba">
+    
     <h1>Uredba o spremembah Uredbe o vrstah posegov v okolje, za katere je treba izvesti presojo vplivov na okolje</h1>
 <p>Na podlagi drugega odstavka 51. člena Zakona o varstvu okolja (Uradni list RS, št. 39/06 – uradno prečiščeno besedilo, 49/06 – <a href="/trubar/si/ZMetD/" class="law-ref" title="ZMetD">ZMetD</a>, 66/06 – odl. US, 33/07 – <a href="/trubar/si/ZPNačrt/" class="law-ref" title="ZPNačrt">ZPNačrt</a>, 57/08 – ZFO-1A, 70/08, 108/09, 48/12 in 57/12) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah Uredbe o vrstah posegov v okolje, za katere je treba izvesti presojo vplivov na okolje</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Uredbi o vrstah posegov v okolje, za katere je treba izvesti presojo vplivov na okolje (Uradni list RS, št. 78/06, 72/07, 32/09 in 95/11) se v Prilogi II v preglednici v 2. točki z naslovom »Pridobivanje mineralnih surovin« besedilo v vrstici z oznako c spremeni tako, da se glasi:</p>
 <p>+-----+------------------+--------------------------------------+<br />
 |»c   |pridobivanje      |zmogljivost pridobivanja 50.000 m3    |<br />
@@ -119,7 +132,7 @@
 |    |komunalne       |             | potnikov  |   |   |   |   |<br />
 |    |priveze         |             |           |   |   |   |   |<br />
 +----+----------------+-------------+-----------+---+---+---+---+</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00728-14/2013</p>
 <p>Ljubljana, dne 7. marca 2013</p>
@@ -135,5 +148,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-03-08", "kratica": "URED6241", "naziv": "Uredba o spremembah Uredbe o vrstah posegov v okolje, za katere je treba izvesti presojo vplivov na okolje", "url": "/trubar/si/URED6241/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

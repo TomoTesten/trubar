@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1992-02-0033" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2166.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2166" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2166.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2166,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-3">3</a></nav>
     <h1>Uredba o ratifikaciji protokola med Republiko Slovenijo in Državo Izrael o vzpostavitvi diplomatskih odnosov</h1>
 <p>Na podlagi tretjega odstavka 63. člena zakona o zunanjih zadevah (Uradni list RS, št. 1/91-I) izdaja Vlada Republike Slovenije</p>
 <h2>UREDBO</h2>
 <p>o ratifikaciji protokola med Republiko Slovenijo in Državo Izrael o vzpostavitvi diplomatskih odnosov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se protokol med Republiko Slovenijo in Državo Izrael o vzpostavitvi diplomatskih odnosov, podpisan dne 28. aprila 1992 v Jeruzalemu v angleškem in hebrejskem jeziku.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Protokol se v izvirniku v angleškem jeziku* in slovenskem prevodu glasi:</p>
 <h2>PROTOCOL</h2>
 <p>between the Republic of Slovenia and the State of Israel regarding the establishment of Diplomatic Relations</p>
@@ -59,13 +72,13 @@ Josef Govrin, (s)</p>
 <p>Republika Slovenija in Država Izrael (v nadaljevanju podpisnici),<br />
 sta se v želji, da okrepita in razvijata odnose med svojima državama v skladu s cilji in načeli Ustanovne listine Združenih narodov<br />
 dogovorili naslednje:</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Slovenija in Izrael bosta vzpostavila medsebojne diplomatske odnose z dnem, ko začne veljati ta protokol in bosta izmenjali diplomatske predstavnike na ravni veleposlanikov, brž ko bo to mogoče.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Podpisnici tega protokola soglašata, da se bosta v medsebojnih odnosih ravnali po določbah Dunajske konvencije o diplomatskih odnosih z dne 18. aprila 1961.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Podpisnici tega protokola soglašata, da še bosta v medsebojnih konzularnih odnosih ravnali po določbah Dunajske konvencije o konzularnih odnosih z dne 24. aprila 1963.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta protokol začne veljati z dnem podpisa.<br />
 Ta protokol je podpisan v dveh izvodih v angleškem in hebrejskem jeziku, oba teksta sta enako verodostojna.<br />
 Sestavljeno v Jeruzalemu dne 28. aprila 1992, kar se ujema s 25. dnem Nisana 5752.</p>
@@ -73,7 +86,7 @@ Sestavljeno v Jeruzalemu dne 28. aprila 1992, kar se ujema s 25. dnem Nisana 575
 dr. Dimitrij Rupel l. r.<br />
 za Državo Izrael<br />
 Josef Govrin l. r.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba prične veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 900-03/92-31/1-8</p>
 <p>Ljubljana, dne 4. junija 1992.</p>
@@ -91,5 +104,36 @@ dr. Janez Drnovšek l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1992-06-30", "kratica": "URED2166", "naziv": "Uredba o ratifikaciji protokola med Republiko Slovenijo in Državo Izrael o vzpostavitvi diplomatskih odnosov", "url": "/trubar/si/URED2166/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,28 +21,41 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-3507" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4153.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4153" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4153.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4153,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o prepovedi nabave, posesti, vnosa, uvoza in nošenja določenih vrst orožja</h1>
 <p>Na podlagi 7. člena Zakona o orožju (Uradni list RS, št. 23/05 – uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o prepovedi nabave, posesti, vnosa, uvoza<br />
 in nošenja določenih vrst orožja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina uredbe)</h3>
 <p>Ta uredba ureja prepoved nabave, posesti, vnosa in nošenja določenih vrst orožja, ki zaradi svojega učinkovanja in načina delovanja pomenijo posebno veliko nevarnost za življenje in zdravje ljudi.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(opis prepovedanega orožja)</h3>
 <p>Prepovedani so nabava, posest, vnos in nošenje orožja, ki z električnim delovanjem na mišice oziroma čutne in gibalne funkcije osrednjega živčnega sistema povzroči začasni mišični krč, ki zajame celo telo, če je orožje izdelano tako, da deluje na daljavo z izstrelitvijo puščic ali drugih podobnih izstrelkov.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(nadzorstvo)</h3>
 <p>Izvajanje določb te uredbe pri pravnih osebah in samostojnih podjetnikih posameznikih nadzirata Policija in Inšpektorat Republike Slovenije za notranje zadeve, pri fizičnih osebah pa Policija.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(seznam prepovedanega orožja)</h3>
 <p>Ministrstvo, pristojno za notranje zadeve, iz obstoječih evidenc trgovcev z orožjem izdela seznam orožja iz 2. člena te uredbe, ki je bilo nabavljeno pred začetkom njegove veljavnosti. Na seznam uvrsti tudi v tujini nabavljeno orožje iz 2. člena te uredbe, za katero obstajajo listine, iz katerih je razviden datum nabave.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(začetek veljavnosti)</h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 21600-2/2006/6</p>
@@ -59,5 +72,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-07-28", "kratica": "URED4153", "naziv": "Uredba o prepovedi nabave, posesti, vnosa, uvoza in nošenja določenih vrst orožja", "url": "/trubar/si/URED4153/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

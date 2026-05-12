@@ -21,19 +21,32 @@
       <dt>Organ</dt><dd>Banka Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-2453" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE8986.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE8986" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE8986.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE8986,vrsta:sklep">
+    
     <h1>Sklep o dajanju zbirateljskih kovancev ob Svetovnem prvenstvu v veslanju na Bledu v prodajo in obtok</h1>
 <p>Na podlagi prvega odstavka 31. člena Zakona o Banki Slovenije (Uradni list RS, št. 72/06 – uradno prečiščeno besedilo) ter petega odstavka 5. člena in 10. člena Zakona o priložnostnih kovancih (Uradni list RS, št. 53/07) izdaja Svet Banke Slovenije</p>
 <h2>S K L E P</h2>
 <p>o dajanju zbirateljskih kovancev ob Svetovnem prvenstvu v veslanju na Bledu v prodajo in obtok</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Banka Slovenije bo 22. avgusta 2011 dala v prodajo in obtok zbirateljske kovance, ki jih bo izdala Republika Slovenija ob Svetovnem prvenstvu v veslanju na Bledu. Izdani bodo zlatniki z nominalno vrednostjo 100 eurov in srebrniki z nominalno vrednostjo 30 eurov. Znamenja zbirateljskih kovancev so določena z Uredbo o obsegu izdaje, sestavinah, apoenih in glavnih znamenjih zbirateljskih kovancev ob Svetovnem prvenstvu v veslanju na Bledu (Uradni list RS, št. 62/10).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Prodajna cena zlatnikov in srebrnikov bo višja od njihove nominalne vrednosti in jo bo Banka Slovenije objavila na svoji spletni strani najkasneje na dan dajanja zbirateljskih kovancev v prodajo in obtok.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. GP-199/11</p>
 <p>Ljubljana, dne 20. junija 2011</p>
@@ -48,5 +61,36 @@ Marko Kranjec l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-06-29", "kratica": "SKLE8986", "naziv": "Sklep o dajanju zbirateljskih kovancev ob Svetovnem prvenstvu v veslanju na Bledu v prodajo in obtok", "url": "/trubar/si/SKLE8986/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

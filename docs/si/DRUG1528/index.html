@@ -21,22 +21,35 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1551" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1528.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG1528" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1528.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG1528,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah programa pripravništva in strokovnega izpita za poklic zobozdravnik-zobozdravnica</h1>
 <p>Na podlagi 13. člena zakona o zdravniški službi (Uradni list RS, št. 45/03 – prečiščeno besedilo, 63/03 – odl. US in 2/04) minister za zdravje v sodelovanju z Zdravniško zbornico Slovenije izdaja</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah programa pripravništva in strokovnega izpita za poklic zobozdravnik-zobozdravnica</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V naslovu in besedilu Programa pripravništva in strokovnega izpita za poklic zobozdravnik-zobozdravnica (Uradni list RS, št. 74/01) se beseda ''program'' v vseh sklonih nadomesti z besedo ''pravilnik'' v ustreznem sklonu, beseda "zobozdravnik" oziroma "zobozdravnica" v vseh sklonih pa z besedo ''doktor dentalne medicine" oziroma "doktorica dentalne medicine" v ustreznem sklonu.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Točke 1 do 18 se nadomestijo s členi 1 do 18.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Deseta alinea 3. člena se spremeni tako, da se glasi:</p>
 <p>"– oralne in maksilofacialne kirurgije         7 tednov."</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Besedilo 12. člena se spremeni tako, da se glasi:</p>
 <h3>" 7. Oralna in maksilofacialna kirurgija</h3>
 <p>Splošni del<br />
@@ -56,11 +69,11 @@ Praktični del obsega:<br />
 – obvladanje osnovnih kirurških posegov s področja oralne kirurgije (ekstrakcija zoba, kirurška ekstrakcija, izklesanje zaostale korenine, cistektomija, replantacija zoba, kirurška oskrba rane),<br />
 – asistiranje pri različnih operativnih posegih s področja oralne in maksilofacialne kirurgije,<br />
 – spoznavanje praktičnega pomena evidentiranja lastnega opravljenega dela."</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V prvi alinei 13. člena se besedi "in oralne" nadomestita z "ter oralne in maksilofacialne".</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>V prvem odstavku 15. člena se ob koncu stavka doda besedilo "– reanimacija pacienta in nudenje prve pomoči pri urgentnih stanjih v ustni votlini, na glavi in vratu."</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 166-308/2002</p>
 <p>Ljubljana, dne 26. februarja 2004.</p>
@@ -80,5 +93,36 @@ mag. Marko Bitenc, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-04-09", "kratica": "DRUG1528", "naziv": "Pravilnik o spremembah in dopolnitvah programa pripravništva in strokovnega izpita za poklic zobozdravnik-zobozdravnica", "url": "/trubar/si/DRUG1528/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

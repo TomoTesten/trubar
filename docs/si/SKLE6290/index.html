@@ -21,27 +21,40 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-0966" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6290.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE6290" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE6290.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE6290,vrsta:sklep">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Sklep o razvrstitvi razvojnih regij po stopnji razvitosti za programsko obdobje 2007-2013</h1>
 <p>Na podlagi petega odstavka 34. člena Zakona o spodbujanju skladnega regionalnega razvoja (Uradni list RS, št. 93/05) izdaja Vlada Republike Slovenije</p>
 <h2>S K L E P</h2>
 <p>o razvrstitvi razvojnih regij po stopnji razvitosti za programsko obdobje 2007–2013</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina sklepa)</h3>
 <p>Ta sklep podrobneje določa kazalce in metode za izračun indeksa razvojne ogroženosti in za programsko obdobje Državnega razvojnega programa 2007–2013 razvršča razvojne regije po stopnji njihove razvitosti.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(indeks razvojne ogroženosti)</h3>
 <p>Izraz »indeks razvojne ogroženosti«, uporabljen v tem sklepu, pomeni relativni kazalec razvitosti razvojne regije, ki se izračuna na podlagi utežitve kazalcev razvitosti, ogroženosti in razvojnih možnosti.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(kazalci in metode za izračun indeksa razvojne ogroženosti)</h3>
 <p>(1) Kazalci razvitosti so: bruto domači proizvod na prebivalca, bruto dodana vrednost na zaposlenega, bruto osnova za dohodnino na prebivalca in število delovnih mest na število aktivnega prebivalstva.<br />
 (2) Kazalci ogroženosti so: indeks staranja prebivalstva, stopnja registrirane brezposelnosti in stopnja zaposlenosti.<br />
 (3) Kazalci razvojnih možnosti so: povprečno število let šolanja, opremljenost s komunalno infrastrukturo, delež območij Natura 2000 in kazalec poseljenosti.<br />
 (4) Kazalci iz prejšnjih odstavkov imajo enake uteži. Indeks razvojne ogroženosti se izračuna kot navadna aritmetična sredina iz standardiziranih vrednosti teh kazalcev na osnovi zadnjih razpoložljivih podatkov.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(razvrstitev razvojnih regij</h3>
 <p>Glede na indeks razvojne ogroženosti se za programsko obdobje Državnega razvojnega programa 2007–2013 razvojne regije, ki so v skladu s 6. členom Zakona o spodbujanju skladnega regionalnega razvoja (Uradni list RS, št. 93/05) določene kot teritorialne enote NUTS 3, opredeljene v Uredbi Evropskega parlamenta in Sveta (ES) št. 1888/2005 z dne 26. oktobra 2005 o spremembah Uredbe (ES) št. 1059/2003 o oblikovanju skupne klasifikacije statističnih teritorialnih enot (NUTS) zaradi pristopa Češke, Estonije, Cipra, Latvije, Litve, Madžarske, Malte, Slovenije in Slovaške k Evropski uniji (UL L, št. 309, 25. 11. 2005, str. 1), takole razvrščajo po stopnji svoje razvitosti:<br />
 1. pomurska (159,5),<br />
@@ -56,7 +69,7 @@
 10. gorenjska (83,1),<br />
 11. obalno-kraška (82,4) in<br />
 12. osrednjeslovenska (8,7).</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(končna določba)</h3>
 <p>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se za programsko obdobje Državnega razvojnega programa 2007–2013.</p>
 <p>Št. 30300-1/2006/7</p>
@@ -73,5 +86,36 @@ Minister</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2006-03-03", "kratica": "SKLE6290", "naziv": "Sklep o razvrstitvi razvojnih regij po stopnji razvitosti za programsko obdobje 2007-2013", "url": "/trubar/si/SKLE6290/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

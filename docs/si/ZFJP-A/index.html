@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1446" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZFJP-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZFJP-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZFJP-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZFJP-A,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Zakon o spremembah in dopolnitvah zakona o financiranju javne porabe</h1>
 <p>Na podlagi 3. točke 379. člena ustave Republike Slovenije izdaja Predsedstvo Republike Slovenije</p>
 <h2>UKAZ</h2>
@@ -36,26 +49,26 @@
 Milan Kučan l. r.</p>
 <h2>ZAKON</h2>
 <p>o spremembah in dopolnitvah zakona o financiranju javne porabe</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V zakonu o financiranju javne porabe (Uradni list RS, št. 48/90) se na koncu prvega odstavka 36. člena doda nov stavek, ki se glasi:<br />
 »Občine o dolgoročni zadolžitvi obvestijo republiški upravni organ za finance.«<br />
 Na koncu drugega odstavka se doda naslednje besedilo:<br />
 »S financiranjem dejavnosti gospodarske infrastrukture v občini so mišljene investicije v komunalne objekte in objekte za oskrbo z vodo ter sofinanciranje investicij v lokalno poštno in cestno omrežje.«<br />
 Doda se nov tretji odstavek, ki se glasi:<br />
 »Občina zagotavlja odplačevanje obveznosti iz dolgoročne zadolžitve s celotnimi sredstvi javne porabe in premoženjem občine. Če obveznosti z naslova dolgoročne zadolžitve presegajo finančne možnosti občin, lahko Skupščina Republike Slovenije uvede ukrepe glede razpolaganja s sredstvi javne porabe občine.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 41. členu se doda nov drugi odstavek, ki se glasi:<br />
 »Za financiranje nalog javne porabe, ki so z ustavo in zakonom določene kot izvirne naloge mesta oziroma regionalne skupnosti, pripada Mestu Ljubljana in Skupnosti obalnih občin Koper za čas do uveljavitve novih predpisov o lokalni samoupravi naslednji del dohodnine, ki pripada občinam z ustreznega območja po odloku o razporeditvi določenih prihodkov med republiko in občinami:<br />
 – Mestu Ljubljana 90%,<br />
 – Skupnosti obalnih občin Koper 16%.«</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:<br />
 »Če ni s posebnimi predpisi drugače določeno, se sredstva za izvajanje nalog republike in občin ter posebnih družbenopolitičnih skupnosti na področju družbenih dejavnosti, socialne varnosti in gospodarske infrastrukture, zagotavljajo v proračunu republike in proračunih občin ter posebnih družbenopolitičnih skupnosti za leto 1991 in 1992 za enake naloge oziroma namene kot v letu 1990.«</li>
 </ol>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V prvem odstavku 45. člena se za prvim navajanjem letnice »1991« doda besedilo »in 1992«, na koncu odstavka pa se besedilo »v letu 1991« črta in nadomesti z besedami »za ustrezno leto«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 411-01/90-14/9</p>
 <p>Ljubljana, dne 27. decembra 1991.</p>
@@ -71,5 +84,36 @@ dr. France Bučar l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1991-12-31", "kratica": "ZFJP-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o financiranju javne porabe", "url": "/trubar/si/ZFJP-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

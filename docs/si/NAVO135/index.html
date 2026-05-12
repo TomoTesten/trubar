@@ -16,30 +16,43 @@
     <dl>
       <dt>Kratica</dt><dd><strong>NAVO135</strong></dd>
       <dt>Vrsta</dt><dd>navodilo</dd>
-      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
       <dt>Datum</dt><dd>1999-07-09</dd>
-      
+      <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1999-01-2647" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO135.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO135" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO135.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO135,vrsta:navodilo">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Navodilo o plačevanju skupnih obveznosti proračunskih uporabnikov</h1>
 <p>Na podlagi 87. člena zakona o izvrševanju proračuna Republike Slovenije (Uradni list RS, št. 5/96, 78/97, 34/98 in 91/98) izdaja minister za finance</p>
 <h2>N A V O D I L O</h2>
 <p>o plačevanju skupnih obveznosti proračunskih uporabnikov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem navodilom se določa način skupnega plačevanja telefona, elektrike, poštnih stroškov, najemnin in komunalnih storitev uporabnikov proračuna (v nadaljevanju: uporabniki).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Uporabnik, nosilec skupnega plačevanja obveznosti, lahko prevzame plačilo obveznosti iz 1. člena tega navodila le, če je tako medsebojno dogovorjen z drugimi uporabniki, prejemniki oziroma koristniki storitev iz 1. člena tega navodila. Prejemniki oziroma koristniki storitev so za plačilo teh storitev dolžni zagotoviti sredstva v proračunu.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Skupno plačevanje navedenih obveznosti je možno le na podlagi pooblastila po priloženem obrazcu ali na podlagi posebne pogodbe, ki mora vsebovati vse finančne elemente predobremenitve. Pri določanju višine obveznosti se upoštevajo le neposredni materialni stroški.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V poslovnih knjigah uporabnikov se izkaže sorazmerni del stroška.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z dnem uveljavitve tega navodila preneha veljati navodilo o obračunavanju obveznosti med uporabniki proračuna 401-43/96, ki ga je dne 3. 6. 1996 izdal minister pristojen za finance.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>To navodilo začne veljati naslednji dan po podpisu ministra pristojnega za finance.</p>
 <p>Št. 401-45/99</p>
 <p>Ljubljana, dne 28. junija 1999.</p>
@@ -55,5 +68,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1999-07-09", "kratica": "NAVO135", "naziv": "Navodilo o plačevanju skupnih obveznosti proračunskih uporabnikov", "url": "/trubar/si/NAVO135/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

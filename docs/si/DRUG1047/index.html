@@ -21,14 +21,27 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-4284" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1047.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG1047" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1047.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG1047,vrsta:drugi akt">
+    
     <h1>Aneks h kolektivni pogodbi za dejavnost zdravstva in socialnega varstva Slovenije</h1>
 <h2>A N E K S</h2>
 <p>h kolektivni pogodbi za dejavnost zdravstva  in socialnega varstva Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V kolektivni pogodbi za dejavnost zdravstva in socialnega varstva Slovenije (Uradni list RS, št. 15/94, 57/95, 19/96, 56/98 in 76/98) se 89.b člen spremeni tako, da glasi:</p>
 <h3>g) Dodatek za zahtevnost in izpostavljenost dela</h3>
 <h3>89.b člen</h3>
@@ -47,7 +60,7 @@
 12. zaposlenim na delovnih mestih iz področja varstva varovancev in bolniške strežbe pripada dodatek v višini od 0,42 do 0,80 količnika,<br />
 13. zaposlenim na delovnih mestih iz področja zdravstvene nege pripada dodatek v višini od 0,44 do 1,20 količnika (dodatek za zdravstveno nego),<br />
 Višina dodatka glede na plačilni razred (osnovno plačo) zaposlenega v okviru določb tega člena za posamezna področja dela je določena v prilogi tega aneksa.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta aneks začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije, uporablja pa se od 1. 12. 2000 dalje.</p>
 <p>Ljubljana, dne 27. oktobra 2000.</p>
 <p>Podpisniki:<br />
@@ -359,5 +372,36 @@ varstva v področja dela izhaja iz dogovora o izvajanju 89.b<br />
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-11-10", "kratica": "DRUG1047", "naziv": "Aneks h kolektivni pogodbi za dejavnost zdravstva in socialnega varstva Slovenije", "url": "/trubar/si/DRUG1047/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

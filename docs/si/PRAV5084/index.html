@@ -21,18 +21,31 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-2995" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5084.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5084" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5084.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5084,vrsta:pravilnik">
+    
     <h1>Pravilnik o določitvi števila sekretarjev, strokovnih sodelavcev in ostalih delavcev sodnega osebja na višjih sodiščih</h1>
 <p>Na podlagi 59. člena zakona o sodiščih (Uradni list RS, št. 19/94, 45/95, 26/99 – <a href="/trubar/si/ZPP/" class="law-ref" title="ZPP">ZPP</a>, 38/99, 28/00, 26/01 in 56/02 – <a href="/trubar/si/ZJU/" class="law-ref" title="ZJU">ZJU</a>) izdaja minister za pravosodje</p>
 <h2>P R A V I L N I K</h2>
 <p>o določitvi števila sekretarjev, strokovnih sodelavcev in ostalih delavcev sodnega osebja na višjih sodiščih</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ostali delavci sodnega osebja po tem pravilniku so računovodski delavci, upravno-tehnični delavci, administrativni delavci in tehnični delavci.<br />
 Število posameznih poklicnih kategorij sodnega osebja iz prejšnjega odstavka določi predsednik posameznega višjega sodišča z aktom o notranji organizaciji in sistemizaciji delovnih mest. Skupno število sodnega osebja na sodišču ne sme presegati števila, ki je določen v tem pravilniku.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Višje sodišče v Celju ima<br />
 enega sekretarja,<br />
 pet strokovnih sodelavcev in<br />
@@ -49,9 +62,9 @@ Višje sodišče v Mariboru ima<br />
 enega sekretarja<br />
 šest strokovnih sodelavcev in<br />
 trinajst ostalih delavcev sodnega osebja.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Z dnem uveljavitve tega pravilnika preneha veljati odredba o določitvi števila sekretarjev, strokovnih sodelavcev, upravno-tehničnih delavcev, računovodskih delavcev, administrativnih delavcev in tehničnih delavcev na višjih sodiščih (Uradni list RS, št. 53/95 in 84/01).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 164-4/2003</p>
 <p>Ljubljana, dne 16. junija 2003.</p>
@@ -67,5 +80,36 @@ za pravosodje</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-06-23", "kratica": "PRAV5084", "naziv": "Pravilnik o določitvi števila sekretarjev, strokovnih sodelavcev in ostalih delavcev sodnega osebja na višjih sodiščih", "url": "/trubar/si/PRAV5084/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

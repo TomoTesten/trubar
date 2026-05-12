@@ -21,19 +21,32 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-3492" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5885.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED5885" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED5885.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED5885,vrsta:uredba">
+    
     <h1>Uredba o načinu izračuna stanja kreditov</h1>
 <p>Na podlagi prvega odstavka 9. člena Zakona o davku na bilančno vsoto bank (Uradni list RS, št. 59/11) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o načinu izračuna stanja kreditov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta uredba določa metodologijo za izračun stanja kreditov, tako da določa izbor postavk poročila iz metodologije Banke Slovenije (v nadaljnjem besedilu: poročilo), ki je določena v Sklepu o poročanju monetarnih finančnih institucij (Uradni list RS, št. 46/09) in navodilih Banke Slovenije za izvajanje Sklepa o poročanju monetarnih finančnih institucij, ki so objavljena na spletnem naslovu Banke Slovenije http://www.bsi.si/porocanje.asp ?MapaId=166 (v nadaljnjem besedilu: navodila).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Povprečno stanje kreditov pred oblikovanimi popravki vrednosti zaradi oslabitev oziroma spremembe poštene vrednosti v koledarskem letu se izračuna s seštevkom stanj kreditov na vsak zadnji dan v mesecu, ki se deli s številom mesecev v koledarskem letu.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>(1) Stanje kreditov iz prejšnjega člena se izračuna kot seštevek naslednjih postavk poročila:<br />
 – A0408 Krediti, razen sindiciranih kreditov,<br />
 – A0410 Odkupljene terjatve,<br />
@@ -41,7 +54,7 @@
 – A0419 Sindicirani krediti.<br />
 (2) Pri izračunu stanja kreditov iz prejšnjega člena se upoštevajo postavke poročila, ki se nanašajo na sektor nefinančnih družb (v navodilih po šifrantu 9 Sektor označen s šifro S.11) in samostojne podjetnike (v navodilih po šifrantu 54 Delitev sektorja S.14 označene s šifro 1).<br />
 (3) Pri izračunu stanja kreditov iz prejšnjega člena se pri kreditih, merjenih po odplačni vrednosti, upošteva njihova knjigovodska vrednost pred oblikovanimi popravki vrednosti zaradi oslabitev (v navodilih seštevek vrednostnih podatkov 80 Znesek knjigovodske vrednosti postavke, 81 Znesek diskonta pri odkupljenih terjatvah, 82 Znesek obračunanih obresti, 83 Znesek razmejenih obresti in 84 Znesek stroškov ob začetnem pripoznanju finančnih instrumentov), pri kreditih, merjenih po pošteni vrednosti, pa njihova knjigovodska vrednost pred izvršenimi popravki vrednosti zaradi spremembe poštene vrednosti (v navodilih seštevek vrednostnih podatkov 41 Znesek po nominalni vrednosti, 81 Znesek diskonta pri odkupljenih terjatvah, 82 Znesek obračunanih obresti in 83 Znesek razmejenih obresti).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00712-67/2011</p>
 <p>Ljubljana, dne 13. oktobra 2011</p>
@@ -57,5 +70,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-10-17", "kratica": "URED5885", "naziv": "Uredba o načinu izračuna stanja kreditov", "url": "/trubar/si/URED5885/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

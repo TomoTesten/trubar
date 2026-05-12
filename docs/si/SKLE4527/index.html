@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1250" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE4527.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE4527" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE4527.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE4527,vrsta:sklep">
+    
     <h1>Sklep o uskladitvi preživnin in uskladitvi višine nadomestila preživnin</h1>
 <p>Na podlagi prvega in drugega odstavka 132. člena Zakona o zakonski zvezi in družinskih razmerjih (Uradni list SRS, št. 15/76, 30/86 – ZNP, 1/89, 14/89 – PB in Uradni list RS, št. 60/99 – odl. US, 70/00 – <a href="/trubar/si/ZZNPOB/" class="law-ref" title="ZZNPOB">ZZNPOB</a>, 64/01 – <a href="/trubar/si/ZZZDR-B/" class="law-ref" title="ZZZDR-B">ZZZDR-B</a>, 110/02 – <a href="/trubar/si/ZIRD/" class="law-ref" title="ZIRD">ZIRD</a>, 42/03 – odl. US in 16/04) in na podlagi petega odstavka 21.d člena Zakona o Javnem jamstvenem in preživninskem skladu Republike Slovenije (Uradni list RS, št. 25/97, 10/98 – <a href="/trubar/si/ZJSRS-A/" class="law-ref" title="ZJSRS-A">ZJSRS-A</a>, 41/99 – <a href="/trubar/si/ZJSRS-B/" class="law-ref" title="ZJSRS-B">ZJSRS-B</a>, 53/99 – <a href="/trubar/si/ZJSRS-C/" class="law-ref" title="ZJSRS-C">ZJSRS-C</a>, 22/00 – <a href="/trubar/si/ZJS/" class="law-ref" title="ZJS">ZJS</a> in 119/02 – <a href="/trubar/si/ZJSRS-D/" class="law-ref" title="ZJSRS-D">ZJSRS-D</a>) je Vlada Republike Slovenije sprejela</p>
 <h2>S K L E P</h2>
@@ -74,5 +87,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-03-26", "kratica": "SKLE4527", "naziv": "Sklep o uskladitvi preživnin in uskladitvi višine nadomestila preživnin", "url": "/trubar/si/SKLE4527/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

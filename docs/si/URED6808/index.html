@@ -21,25 +21,38 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2014-01-2526" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6808.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED6808" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED6808.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED6808,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Uredba o določitvi parametrov horizontalne sestavine in gravimetričnega dela vertikalne sestavine državnega prostorskega koordinatnega sistema, imen teh sestavin in državne kartografske projekcije</h1>
 <p>Na podlagi drugega odstavka 6. člena Zakona o državnem geodetskem referenčnem sistemu (Uradni list RS, št. 25/14) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o določitvi parametrov horizontalne sestavine in gravimetričnega dela vertikalne sestavine državnega prostorskega koordinatnega sistema, imen teh sestavin in državne kartografske projekcije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina)</h3>
 <p>Ta uredba določa parametre horizontalne sestavine in gravimetričnega dela vertikalne sestavine državnega prostorskega koordinatnega sistema, imena teh sestavin in državno kartografsko projekcijo.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(parametri in ime horizontalne sestavine državnega prostorskega koordinatnega sistema)</h3>
 <p>(1) Parametre horizontalne sestavine državnega prostorskega koordinatnega sistema tvorijo:<br />
 – parametri evropskega terestričnega referenčnega sistema z epoho 1989,0 in<br />
 – koordinate 49 temeljnih državnih geodetskih točk, določene v epohi 1995,55.<br />
 (2) Ime (oznaka) horizontalne sestavine državnega prostorskega koordinatnega sistema (oznaka horizontalnega geodetskega datuma) je D96.<br />
 (3) Imena 49 temeljnih državnih geodetskih točk iz druge alinee prvega odstavka tega člena in njihove koordinate so v prilogi 1, ki je sestavni del te uredbe.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(parametri in ime gravimetričnega dela vertikalne sestavine državnega prostorskega koordinatnega sistema)</h3>
 <p>(1) Parametre gravimetričnega dela vertikalne sestavine državnega prostorskega koordinatnega sistema tvorijo:<br />
 – parametri mednarodne gravimetrične standardne mreže z imenom International Gravity Standardisation Network 1971 (v nadaljnjem besedilu: IGSN71),<br />
@@ -47,7 +60,7 @@
 – težni pospeški 35 temeljnih gravimetričnih točk, določeni v epohi 2006.<br />
 (2) Ime (oznaka) gravimetričnega dela vertikalne sestavine državnega prostorskega koordinatnega sistema (oznaka gravimetričnega geodetskega datuma) je GD06.<br />
 (3) Imena 35 temeljnih gravimetričnih točk iz tretje alinee prvega odstavka tega člena in vrednosti težnih pospeškov, ki so določene v IGSN71, so v prilogi 2, ki je sestavni del te uredbe.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(državna kartografska projekcija)</h3>
 <p>(1) Državna kartografska projekcija je prečna Mercatorjeva projekcija, ki jo določa:<br />
 – rotacijski elipsoid GRS80,<br />
@@ -57,13 +70,13 @@
 – pomik proti vzhodu: 500 000 m,<br />
 – modul projekcije: 0,9999.<br />
 (2) Oznaka državne kartografske projekcije je TM.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(državni ravninski koordinatni sistem)</h3>
 <p>(1) Državni ravninski koordinatni sistem določata:<br />
 – horizontalna sestavina državnega koordinatnega sistema iz 2. člena te uredbe in<br />
 – državna kartografska projekcija iz prejšnjega člena.<br />
 (2) Oznaka državnega ravninskega koordinatnega sistema je D96/TM.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <h3>(začetek veljavnosti)</h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 00729-26/2014</p>
@@ -82,5 +95,36 @@ Predsednica</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2014-07-25", "kratica": "URED6808", "naziv": "Uredba o določitvi parametrov horizontalne sestavine in gravimetričnega dela vertikalne sestavine državnega prostorskega koordinatnega sistema, imen teh sestavin in državne kartografske projekcije", "url": "/trubar/si/URED6808/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

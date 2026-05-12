@@ -21,18 +21,31 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-3000" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5916.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5916" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5916.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5916,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi Pravilnika o vinu z oznako priznanega tradicionalnega poimenovanja - cviček</h1>
 <p>Na podlagi 18. točke prvega odstavka 42. člena in za izvajanje 4. člena Zakona o vinu in drugih proizvodih iz grozdja in vina (Uradni list RS, št. 70/97, 16/01 in 96/01 – odl.US) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembi Pravilnika o vinu z oznako priznanega tradicionalnega poimenovanja – cviček</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o vinu z oznako priznanega tradicionalnega poimenovanja – cviček (Uradni list RS, št. 3/00, 101/00 – odl. US in 96/01 – odl. US) se drugi odstavek 16. člena spremeni tako, da se glasi:<br />
 »Volumen steklenic, v katere se polni vino cviček PTP, je 0,375 l, 0,75 l, 1 l in 1,5 l. Steklenice morajo biti zamašene z navojnimi zamaški ali zamaški iz plute.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 321-03-131/2003</p>
 <p>Ljubljana, dne 7. maja 2004.</p>
@@ -49,5 +62,36 @@ in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-06-18", "kratica": "PRAV5916", "naziv": "Pravilnik o spremembi Pravilnika o vinu z oznako priznanega tradicionalnega poimenovanja - cviček", "url": "/trubar/si/PRAV5916/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

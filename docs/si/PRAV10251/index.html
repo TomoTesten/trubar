@@ -21,28 +21,41 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0005" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10251.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10251" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10251.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10251,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o pogojih glede strokovne, prostorske in tehnične usposobljenosti laboratorijev za izvajanje laboratorijskih preiskav zaradi diagnostike škodljivih organizmov</h1>
 <p>Na podlagi 61., 66. in 68. člena Zakona o zdravstvenem varstvu rastlin (Uradni list RS, št. 62/07 – uradno prečiščeno besedilo in 36/10) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o pogojih glede strokovne, prostorske in tehnične usposobljenosti laboratorijev za izvajanje laboratorijskih preiskav zaradi diagnostike škodljivih organizmov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o pogojih glede strokovne, prostorske in tehnične usposobljenosti laboratorijev za izvajanje laboratorijskih preiskav zaradi diagnostike škodljivih organizmov (Uradni list RS, št. 82/02 in 131/03) se 1. člen spremeni tako, da se glasi:</p>
 <h3>»1. člen</h3>
 <h3>(vsebina)</h3>
 <p>Ta pravilnik določa pogoje glede strokovne, prostorske in tehnične usposobljenosti laboratorijev za izvajanje laboratorijskih preiskav (v nadaljnjem besedilu: preskusi) vzorcev zaradi diagnostike škodljivih organizmov, način obveščanja ter obliko poročil o preskusu, ki jih laboratoriji izdajajo, v skladu z Direktivo Sveta 2000/29/ES z dne 8. maja 2000 o varstvenih ukrepih proti vnosu organizmov, škodljivih za rastline in rastlinske proizvode, v Skupnost in proti njihovemu širjenju v Skupnosti (UL L št. 169 z dne 10. 7. 2000, str.1), zadnjič spremenjeno z Direktivo Komisije 2010/1/EU z dne 8. januarja 2010 o spremembi prilog II, III in IV k Direktivi Sveta 2000/29/ES o varstvenih ukrepih proti vnosu organizmov, škodljivih za rastline ali rastlinske proizvode, v Skupnost in proti njihovemu širjenju v Skupnosti (UL L št. 7 z dne 12. 1. 2010, str. 17).«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V prvem odstavku 3. člena se besedilo »Uprava Republike Slovenije za varstvo rastlin in semenarstvo« nadomesti z besedilom »Fitosanitarna uprava Republike Slovenije«.<br />
 V četrtem odstavku se prvi stavek spremeni tako, da se glasi:<br />
 »Laboratorij skrbi za varstvo zaupnih informacij in opravlja preskuse za vse naročnike enako kakovostno, z enako zanesljivostjo rezultatov in nepristransko.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V prvem odstavku 5. člena se v tretji alineji podpičje nadomesti z vejico in doda se besedilo »oziroma bi bila v navzkrižju interesov;«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V prvem odstavku 10. člena se za besedo »laboratorij« doda besedilo »kot uradno izjavo v skladu z zakonom, ki ureja zdravstveno varstvo rastlin,«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-470/2010</p>
 <p>Ljubljana, dne 5. januarja 2011</p>
@@ -59,5 +72,36 @@ gozdarstvo in prehrano</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-01-07", "kratica": "PRAV10251", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o pogojih glede strokovne, prostorske in tehnične usposobljenosti laboratorijev za izvajanje laboratorijskih preiskav zaradi diagnostike škodljivih organizmov", "url": "/trubar/si/PRAV10251/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

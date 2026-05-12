@@ -21,27 +21,40 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-3193" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO427.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO427" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO427.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO427,vrsta:navodilo">
+    
     <h1>Navodilo o načinu sporočanja podatkov o pogodbah o delu Zavodu Republike Slovenije za zaposlovanje</h1>
 <p>Na podlagi 9. člena zakona o zaposlovanju in zavarovanju za primer brezposelnosti (Uradni list RS, št. 5/91, 17/91, 12/92, 71/93, 2/94, 38/94 in 69/98), 16. člena pravilnika o postopku prijave in objave prostega delovnega mesta ter načinu sporočanja podatkov Zavodu Republike Slovenije za zaposlovanje (Uradni list RS, št. 50/99),  110. člena zakona o delovnih razmerjih (Uradni list SRS, št. 14/90, 5/91, 10/91, 17/91, 29/92, 13/93, 71/93, 2/94, 19/94, 38/94, 29/95, 12/99) in 35. člena statuta Zavoda Republike Slovenije za zaposlovanje (Uradni list RS, št. 84/99) objavlja generalni direktor Zavoda Republike Slovenije za zaposlovanje</p>
 <h2>N A V O D I L O</h2>
 <p>o načinu sporočanja podatkov o pogodbah  o delu Zavodu Republike Slovenije  za zaposlovanje</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina obrazcev)</h3>
 <p>Delodajalci obveščajo Zavod Republike Slovenije za zaposlovanje (v nadaljnjem besedilu: zavod) o potrebi po sklenitvi pogodbe o delu in o potrebi po opravljanju kratkotrajnih del na obrazcu OBV-P, ki je priloga št. 1 tega navodila.<br />
 Delodajalci pošiljajo zavodu obvestilo o sklenjeni pogodbi o delu ali avtorski pogodbi na obrazcu OBV-S, ki je priloga št. 2 tega navodila v 15 dneh od sklenitve pogodbe. Za posredovanje obvestila za več delavcev delodajalec priloži k obrazcu seznam, ki vsebuje vse podatke, navedene v obrazcu.<br />
 Obrazci OBV-P in OBV-S so na voljo v poslovalnicah DZS.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(način posredovanja obrazcev)</h3>
 <p>Delodajalci pošljejo obrazce iz 1. člena tega navodila pristojni območni službi zavoda po pošti ali preko spletnih strani Zavoda Republike Slovenije za zaposlovanje.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(pristojna območna služba zavoda)</h3>
 <p>Delodajalci pošljejo obrazec OBV-P območni službi zavoda po sedežu delodajalca oziroma organizacijske enote delodajalca, kjer se bo delo opravljalo.<br />
 Delodajalci pošljejo obrazec OBV-S območni službi zavoda po prebivališču osebe, s katero je sklenjena pogodba.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>To navodilo začne veljati dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 013-1/00-42</p>
 <p>Ljubljana, dne 20. junija 2000.</p>
@@ -59,5 +72,36 @@ Jože Glazer l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-07-28", "kratica": "NAVO427", "naziv": "Navodilo o načinu sporočanja podatkov o pogodbah o delu Zavodu Republike Slovenije za zaposlovanje", "url": "/trubar/si/NAVO427/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,29 +21,42 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-1304" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6904.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV6904" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV6904.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV6904,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvi Pravilnika o financiranju in sofinanciranju vlaganj v gozdove</h1>
 <p>Na podlagi četrtega odstavka 48. člena Zakona o gozdovih (Uradni list RS, št. 30/93, 13/98 –odl. US, 56/99 –<a href="/trubar/si/ZON/" class="law-ref" title="ZON">ZON</a>, 67/02 in 110/02 – <a href="/trubar/si/ZGO-1/" class="law-ref" title="ZGO-1">ZGO-1</a>) izdaja ministrica za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvi Pravilnika o financiranju in sofinanciranju vlaganj v gozdove</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o financiranju in sofinanciranju vlaganj v gozdove (Uradni list RS, št. 71/04 in 95/04) se besedilo 13. člena spremeni tako, da se glasi:<br />
 »Iz sredstev RS se sofinancirajo:<br />
 1. obnova gozda na pogorišču in obnova gozda, poškodovanega po naravni ujmi, kalamitetah in epifitocijah, priprava površine za obnovo in obnova s sadnjo ali setvijo;<br />
 2. varstvena dela v gozdovih: gradnja in vzdrževanje protipožarnih presek, zidov in stez;<br />
 3. vzdrževanje gozdnih cest;<br />
 4. gradnja gozdnih cest.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 24. členu se za prvim odstavkom doda nov drugi odstavek, ki se glasi:<br />
 »(2) Ne glede na prejšnji odstavek se za obračun financiranja gojitvenih in varstvenih del v gozdovih, ki so lahko predmet denacionalizacije, uporablja vrednost delovnega dne 21.800 SIT.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Priloge 1 do 5 se nadomestijo z novimi prilogami 1 do 5, ki so kot priloga 1 sestavni del tega pravilnika.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Besedilo priloge 6, ki se nanaša na šifrant aktivnosti, se nadomesti z novim besedilom, ki je kot priloga 2 sestavni del tega pravilnika.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 322-29/2005</p>
 <p>Ljubljana, dne 1. aprila 2005.</p>
@@ -61,5 +74,36 @@ Marija Lukačič l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-04-11", "kratica": "PRAV6904", "naziv": "Pravilnik o spremembah in dopolnitvi Pravilnika o financiranju in sofinanciranju vlaganj v gozdove", "url": "/trubar/si/PRAV6904/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

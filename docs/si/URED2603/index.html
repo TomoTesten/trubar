@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-4066" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2603.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED2603" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED2603.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED2603,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o spremembah in dopolnitvah uredbe o vrstah posegov v okolje, za katere je obvezna presoja vplivov na okolje</h1>
 <p>Na podlagi 57. člena zakona o varstvu okolja (Uradni list RS, št. 32/93, 1/96, 56/99 in 22/00) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o vrstah posegov v okolje, za katere je obvezna presoja vplivov na okolje</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V uredbi o vrstah posegov v okolje, za katere je obvezna presoja vplivov na okolje (Uradni list RS, št. 66/96 in 12/00) se v 3. členu:<br />
 (1) v skupini B) v 1. točki za besedo “vodovod“ vstavi besedilo “zunaj ureditvenih območij strnjenih naselij“,<br />
 (2) v skupini C) besedilo 11. točke “ali na območju arheološkega spomenika ali spomenika oblikovane narave državnega pomena“ nadomesti z besedilom “ali na območju kulturne dediščine, varovanem na osnovi predpisov o varstvu kulturne dediščine“,<br />
@@ -41,15 +54,15 @@
 (8) v skupini H) v 8. točki številka “1.000“ nadomesti s številko “2.000“, besedilo “v vsakem primeru“ pa se nadomesti z besedilom “z zmogljivostjo 500 PE ali več“,<br />
 (9) besedilo v drugem odstavku “ali na območju arheološkega spomenika ali spomenika oblikovane narave državnega pomena“ nadomesti z besedilom “ali na območju kulturne dediščine, varovanem na osnovi predpisov o varstvu kulturne dediščine“,<br />
 (10) v skupini A) v 5. točki, v skupini B) v 3. točki, v skupini C) v 8. točki in v skupini I) v 4. točki besedilo “ali na območju, ki ga ustanovi država na osnovi predpisov o varstvu kulturne dediščine“ nadomesti z besedilom “ali na območju kulturne dediščine, varovanem na osnovi predpisov o varstvu kulturne dediščine“.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 3. členom se doda nov 3.a člen, ki se glasi:</p>
 <h3>“3.a člen</h3>
 <p>Ne glede na določbe 2. in 3. člena te uredbe je presoja vplivov na okolje obvezna pri posegih v okolje, če gre za vire večjega tveganja za okolje ali vire manjšega tveganja za okolje, ki so določeni v predpisu o ukrepih za zmanjšanje tveganja za okolje zaradi večjih nesreč z nevarnimi kemikalijami.“</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Priloga 1, priloga 2 in priloga 3 se črtajo.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Postopki izdaje dovoljenj za poseg v prostor za posege iz 1. in 2. člena te uredbe, ki so bili začeti pred uveljavitvijo te uredbe, se zaključijo po dosedanjih predpisih.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 354-09/2002-1</p>
 <p>Ljubljana, dne 17. septembra 2002.</p>
@@ -64,5 +77,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-09-27", "kratica": "URED2603", "naziv": "Uredba o spremembah in dopolnitvah uredbe o vrstah posegov v okolje, za katere je obvezna presoja vplivov na okolje", "url": "/trubar/si/URED2603/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

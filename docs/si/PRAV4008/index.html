@@ -21,33 +21,46 @@
       <dt>Organ</dt><dd>Ministrstvo za kmetijstvo, gozdarstvo in prehrano</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4430" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4008.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV4008" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV4008.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV4008,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Pravilnik o pogojih, ki jih mora izpolnjevati veterinarska zbornica za opravljanje nalog, ki se opravljajo kot javna pooblastila po zakonu, ki ureja veterinarstvo</h1>
 <p>Na podlagi sedmega odstavka 59. člena zakona o veterinarstvu (Uradni list RS, št. 33/01) izdaja minister za kmetijstvo, gozdarstvo in prehrano</p>
 <h2>P R A V I L N I K</h2>
 <p>o pogojih, ki jih mora izpolnjevati veterinarska zbornica za opravljanje nalog, ki se opravljajo kot javna pooblastila po zakonu, ki ureja veterinarstvo</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>S tem pravilnikom se določajo pogoji glede prostorov in opreme ter kadrovski pogoji, ki jih mora izpolnjevati veterinarska zbornica za opravljanje nalog, ki se opravljajo kot javna pooblastila po zakonu, ki ureja veterinarstvo.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Prostori veterinarske zbornice morajo biti urejeni tako, da je možno nemoteno opravljanje javnih pooblastil. Če prostori niso v lasti veterinarske zbornice, mora imeti veterinarska zbornica sklenjeno pogodbo o najemu oziroma uporabi z drugo pravno ali fizično osebo, ki pa teh prostorov ne uporablja za opravljanje veterinarske dejavnosti.<br />
 Velikost prostorov je odvisna od števila zaposlenih. Zagotovljeni morajo biti sanitarni prostori.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Prostori morajo biti opremljeni z ustrezno računalniško opremo, ki omogoča vodenje evidenc ter registra verificiranih veterinarskih organizacij in podeljenih licenc.<br />
 Zbornica mora imeti priključek na državno komunikacijsko omrežje v skladu z normativi organa, odgovornega za informatiko v državni upravi.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Sistemizacija delovnih mest za opravljanje javnih pooblastil mora biti usklajena s predpisi, ki urejajo skupne osnove in kriterije za notranjo organizacijo in sistemizacijo delovnih mest v organih državne uprave, ter predpisi, ki urejajo količnike za določitev osnovne plače in dodatke za zaposlene v državnih organih.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Osebe, ki vodijo upravni postopek oziroma odločajo v upravnih stvareh, ki se nanašajo na javna pooblastila, morajo biti zaposlene v veterinarski zbornici in morajo izpolnjevati predpisane pogoje po predpisih o upravnem postopku.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Za izvajanje javnih pooblastil mora zbornica v roku treh mesecev po začetku opravljanja teh nalog sprejeti naslednje akte:<br />
 – pravilnik o izdaji, podaljšanju in odvzemu licence;<br />
 – pravilnik o vsebini strokovnega izpopolnjevanja veterinarjev in o preskusu strokovne usposobljenosti veterinarjev v veterinarskih organizacijah;<br />
 – pravilnik o strokovnem nadzoru.<br />
 K sprejetim aktom iz prejšnjega odstavka da soglasje minister, pristojen za veterinarstvo.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 323-428/01</p>
 <p>Ljubljana, dne 8. oktobra 2001.</p>
@@ -62,5 +75,36 @@ mag. Franc But l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-11-02", "kratica": "PRAV4008", "naziv": "Pravilnik o pogojih, ki jih mora izpolnjevati veterinarska zbornica za opravljanje nalog, ki se opravljajo kot javna pooblastila po zakonu, ki ureja veterinarstvo", "url": "/trubar/si/PRAV4008/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

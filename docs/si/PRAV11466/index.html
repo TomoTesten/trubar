@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Ministrstvo za obrambo</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-01-3591" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11466.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11466" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11466.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11466,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Pravilnik o delih, ki jih delavci na obrambnem področju ne smejo opravljati</h1>
 <p>Na podlagi 91. člena Zakona o obrambi (Uradni list RS, št. 103/04 – uradno prečiščeno besedilo) izdaja minister za obrambo</p>
 <h2>P R A V I L N I K</h2>
 <p>o delih, ki jih delavci na obrambnem področju ne smejo opravljati</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ta pravilnik določa dela, ki jih delavci na obrambnem področju poleg svojega dela ne smejo opravljati in dela, za katera potrebujejo soglasje delodajalca.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Delavci na obrambnem področju ne smejo opravljati naslednjih del:<br />
 1. dela v tujini;<br />
 2. posredovanje ali sklepanje pogodb pri prodaji nepremičnin ali storitev;<br />
@@ -44,17 +57,17 @@
 9. spremljanje prevozov in prenosov denarja in drugih vrednostnih pošiljk.<br />
 (2) Delavci, ki poklicno opravljajo vojaško službo, kot so letalsko tehnično osebje, radarsko osebje, pirotehniki, potapljači in drugi, ne smejo poleg del iz prejšnjega odstavka, opravljati tudi del, ki po posebnih predpisih niso združljiva z opravljanjem vojaške službe.<br />
 (3) Delavci na obrambnem področju lahko dela v gospodarskih družbah ali enaka oziroma podobna dela kot jih opravljajo na svojem delovnem mestu, pri drugem organu ali organizaciji, opravljajo le po predhodnem soglasju ministra, razen del, za katera zakon določa, da soglasja ministra ni treba pridobiti.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Delavcu na obrambnem področju se ne izda soglasje za opravljanje del iz tretjega odstavka prejšnjega člena, če se ugotovi, da bi takšno delo delavca oviralo pri opravljanju dela, škodovalo ugledu Ministrstva za obrambo ali Slovenske vojske ali ni združljivo z dejavnostjo Ministrstva za obrambo ali Slovenske vojske. Iz enakih razlogov se že izdano soglasje lahko prekliče.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Delavec na obrambnem področju vlogo za izdajo soglasja vloži pri pristojni kadrovski službi, ki predlog odločitve posreduje ministru. Obrazec vloge je kot priloga sestavni del tega pravilnika.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Minister za obrambo izda pisno soglasje za dobo največ enega leta in se na podlagi vloge delavca lahko podaljša.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Soglasja, izdana pred uveljavitvijo tega pravilnika, prenehajo veljati 31. decembra 2012.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Z dnem uveljavitve tega pravilnika preneha veljati Pravilnik o delih, ki jih delavci na obrambnem področju ne smejo opravljati (Uradni list RS, št. 60/03).</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0070-41/2012-10</p>
 <p>Ljubljana, dne 26. novembra 2012</p>
@@ -71,5 +84,36 @@ za obrambo</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-12-06", "kratica": "PRAV11466", "naziv": "Pravilnik o delih, ki jih delavci na obrambnem področju ne smejo opravljati", "url": "/trubar/si/PRAV11466/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

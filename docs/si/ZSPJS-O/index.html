@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2010-01-4554" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZSPJS-O.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZSPJS-O" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZSPJS-O.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZSPJS-O,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembi Zakona o sistemu plač v javnem sektorju</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBI ZAKONA O SISTEMU PLAČ V JAVNEM SEKTORJU (ZSPJS-O)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o sistemu plač v javnem sektorju (Uradni list RS, št. 108/09 – uradno prečiščeno besedilo, 98/09 – <a href="/trubar/si/ZIUZGK/" class="law-ref" title="ZIUZGK">ZIUZGK</a>, 13/10 in 59/10) se besedilo 42. člena spremeni tako, da se glasi:<br />
 »(1) Kolektivna pogodba za javni sektor ali njene spremembe in dopolnitve so sklenjene, ko jih podpišejo Vlada Republike Slovenije in večina reprezentativnih sindikatov javnega sektorja, ki predstavljajo najmanj štiri različne dejavnosti javnega sektorja.<br />
 (2) V primeru, da kolektivna pogodba za javni sektor ali njene spremembe in dopolnitve niso sklenjene v skladu s prejšnjim odstavkom, za sklenitev kolektivne pogodbe za javni sektor ali njenih sprememb in dopolnitev zadostuje tudi, če jih podpišejo Vlada Republike Slovenije in reprezentativni sindikati javnega sektorja najmanj štirih različnih dejavnosti javnega sektorja, katerih skupno število članstva presega 40% zaposlenih v javnem sektorju, za katere velja kolektivna pogodba za javni sektor.<br />
@@ -51,10 +64,10 @@ Republike Slovenije</p>
 (10) Reprezentativni sindikat, ki je podpisal kolektivno pogodbo za javni sektor ali njene spremembe in dopolnitve, ni dolžan posredovati dokumentacije v skladu s sedmim in osmim odstavkom tega člena. Sindikat, ki ne predloži dokumentacije, se ne upošteva pri ugotavljanju pogojev iz drugega odstavka tega člena.<br />
 (11) Uveljavitev kolektivnih pogodb, ki pomenijo povečanje finančnih obveznosti, razen za kolektivno pogodbo iz četrtega odstavka 5. člena tega zakona, mora biti dogovorjena najkasneje 30 dni pred rokom, določenim za predložitev predloga državnega proračuna državnemu zboru.«.</p>
 <h3>PREHODNE IN KONČNE DOLOČBE</h3>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>(1) Določbe tega zakona se uporabljajo za sklenitev kolektivne pogodbe za javni sektor oziroma njenih sprememb in dopolnitev, sklenjenih po uveljavitvi tega zakona.<br />
 (2) Vlada Republike Slovenije v treh dneh po uveljavitvi tega zakona ponovno pozove reprezentativne sindikate javnega sektorja k podpisu Aneksa št. 4 h Kolektivni pogodbi za javni sektor. Za ugotavljanje pogojev za njegovo sklenitev se uporabijo določbe tega zakona.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 110-06/10-41/40</p>
 <p>Ljubljana, dne 7. septembra 2010</p>
@@ -71,5 +84,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2010-10-29", "kratica": "ZSPJS-O", "naziv": "Zakon o spremembi Zakona o sistemu plač v javnem sektorju", "url": "/trubar/si/ZSPJS-O/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

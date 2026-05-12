@@ -21,10 +21,23 @@
       <dt>Organ</dt><dd>Agencija za trg vrednostnih papirjev</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2019-01-1915" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO1158.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO1158" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO1158.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO1158,vrsta:navodilo">
+    
     <h1>Navodilo o dokumentaciji za izdajo dovoljenj za opravljanje investicijskih ter pomožnih investicijskih storitev in drugih dovoljenj</h1>
 <p>Na podlagi 6. točke 481. člena Zakona o trgu finančnih instrumentov (Uradni list RS, št. 108/10 – uradno prečiščeno besedilo, 78/11, 55/12, 105/12 – <a href="/trubar/si/ZBan-1J/" class="law-ref" title="ZBan-1J">ZBan-1J</a>, 63/13 – <a href="/trubar/si/ZS-K/" class="law-ref" title="ZS-K">ZS-K</a>, 30/16, 9/17 in 77/18 – <a href="/trubar/si/ZTFI-1/" class="law-ref" title="ZTFI-1">ZTFI-1</a>) Agencija za trg vrednostnih papirjev izdaja</p>
 <p>N A V O D I L O</p>
@@ -130,5 +143,36 @@ L št. 276 z dne 26. 10. 2017, str. 4; v nadaljnjem besedilu: Uredba (EU) 2017
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2019-06-27", "kratica": "NAVO1158", "naziv": "Navodilo o dokumentaciji za izdajo dovoljenj za opravljanje investicijskih ter pomožnih investicijskih storitev in drugih dovoljenj", "url": "/trubar/si/NAVO1158/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

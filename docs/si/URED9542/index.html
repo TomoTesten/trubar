@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>URED9542</strong></dd>
       <dt>Vrsta</dt><dd>uredba</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
-      <dt>Datum</dt><dd>2026-02-20</dd>
-      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2026-02-23</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0497" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED9542.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED9542" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED9542.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED9542,vrsta:uredba">
+    
     <h1>Uredba o spremembah in dopolnitvah Uredbe o odpadni električni in elektronski opremi</h1>
 <p>Na podlagi enajstega in štirinajstega odstavka 20. člena Zakona o varstvu okolja (Uradni list RS, št. 39/06 – uradno prečiščeno besedilo, 49/06 – <a href="/trubar/si/ZMetD/" class="law-ref" title="ZMetD">ZMetD</a>, 66/06 – odl. US, 33/07 – <a href="/trubar/si/ZPNačrt/" class="law-ref" title="ZPNačrt">ZPNačrt</a>, 57/08 – ZFO-1A, 70/08, 108/09, 108/09 – <a href="/trubar/si/ZPNačrt-A/" class="law-ref" title="ZPNačrt-A">ZPNačrt-A</a>, 48/12, 57/12, 92/13, 56/15, 102/15, 30/16, 61/17 – GZ, 21/18 – ZNOrg, 84/18 – <a href="/trubar/si/ZIURKOE/" class="law-ref" title="ZIURKOE">ZIURKOE</a>, 158/20 in 44/22 – ZVO-2), šeste točke tretjega odstavka 21. člena in šestega odstavka 24. člena ter v zvezi s prvim odstavkom 264. člena Zakona o varstvu okolja (Uradni list RS, št. 44/22, 18/23 – <a href="/trubar/si/ZDU-1O/" class="law-ref" title="ZDU-1O">ZDU-1O</a>, 78/23 – <a href="/trubar/si/ZUNPEOVE/" class="law-ref" title="ZUNPEOVE">ZUNPEOVE</a>, 23/24, 21/25 – ZOPVOOV, 56/25 – PoZ in 11/26 – odl. US) Vlada Republike Slovenije izdaja</p>
 <p>U R E D B O</p>
@@ -106,5 +119,36 @@
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2026-02-23", "kratica": "URED9542", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o odpadni električni in elektronski opremi", "url": "/trubar/si/URED9542/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

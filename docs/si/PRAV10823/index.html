@@ -21,25 +21,38 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-2299" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10823.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10823" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10823.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10823,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o podračunih ter načinu plačevanja obveznih dajatev in drugih javnofinančnih prihodkov</h1>
 <p>Na podlagi drugega odstavka 91. člena Zakona o davčnem postopku (Uradni list RS, št. 13/11 – uradno prečiščeno besedilo), četrte in pete alineje petega odstavka 22. člena Zakona o opravljanju plačilnih storitev za proračunske uporabnike (Uradni list RS, št. 59/10) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah Pravilnika o podračunih ter načinu plačevanja obveznih dajatev in drugih javnofinančnih prihodkov</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 2. členu Pravilnika o podračunih ter načinu plačevanja obveznih dajatev in drugih javnofinančnih prihodkov (Uradni list RS, št. 103/10) se v tretji točki prvega odstavka na koncu drugega stavka doda besedilo », 01100-888OBČNNkk, če ima občina odprt podračun v EZR države«. V opisu dela strukture OBČ se črta besedilo », za občine, vključene v enotni zakladniški račun države, statistična oznaka občine povečana za 300«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V drugem odstavku 5. člena se za besedo »položnico« doda besedilo » ali univerzalni plačilni nalog«.<br />
 V petem odstavku se za besedo »položnico« doda besedilo »ali univerzalnim plačilnim nalogom« in za besedo »položnice« doda besedilo »ali univerzalnega plačilnega naloga«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V četrti točki 6. člena se za besedo »položnico,« doda besedilo »ali univerzalnim plačilnim nalogom«.<br />
 V drugem odstavku 7. člena se beseda »julija« nadomesti z besedo »oktobra«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Za drugim odstavkom se doda nov tretji odstavek, ki se glasi »Določbe, vezane na posebno položnico, se uporabljajo do 31. decembra 2011.«</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-424/2011/9</p>
 <p>Ljubljana, dne 17. junija 2011</p>
@@ -55,5 +68,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-06-24", "kratica": "PRAV10823", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o podračunih ter načinu plačevanja obveznih dajatev in drugih javnofinančnih prihodkov", "url": "/trubar/si/PRAV10823/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

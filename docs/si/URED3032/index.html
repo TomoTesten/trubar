@@ -21,21 +21,34 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4506" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3032.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3032" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3032.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED3032,vrsta:uredba">
+    
     <h1>Uredba o spremembi in dopolnitvi uredbe o koncesiji za rabo reke Drave za proizvodnjo električne energije</h1>
 <p>Na podlagi četrtega odstavka 199. člena zakona o vodah (Uradni list RS, št. 67/02 in 110/02 “ <a href="/trubar/si/ZGO-1/" class="law-ref" title="ZGO-1">ZGO-1</a>) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembi in dopolnitvi uredbe o koncesiji<br />
 za rabo reke Drave za proizvodnjo električne energije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 10. členu uredbe o koncesiji za rabo reke Drave za proizvodnjo električne energije (Uradni list RS, št. 26/03) se peti odstavek spremeni tako, da se glasi:<br />
 »Plačilo za koncesijo, ki gre v proračun občin, se razdeli med občine na naslednji način:<br />
 – 30% tega plačila se razdeli med občine sorazmerno pripadajočemu deležu potencialne energije vodnega telesa reke Drave in<br />
 – 70% tega plačila se razdeli med občine sorazmerno pripadajočemu deležu površine vodnega dobra zajezitev in kanalov hidroelektrarn na reki Dravi.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Za 12. členom se doda novi 12.a člen, ki se glasi:</p>
 <h3>»12.a člen</h3>
 <p>Ne glede na določbe 10. člena te uredbe koncesionar plača za leto 2003 koncesijo koncedentu v višini 375 mio SIT in posamezni občini v letni višini, ki se jo izračuna tako, da vsota plačila za koncesijo posamezni občini in za leto 2003 plačanega nadomestila za uporabo stavbnih zemljišč, ki jih uporablja koncesionar, ne presega vrednosti iz naslednje tabele:</p>
@@ -63,7 +76,7 @@ Dravograd                            50,402</p>
 <hr />
 <h2>Skupaj                            3.107,701</h2>
 <p>Plačilo iz prejšnjega odstavka tega člena se v letu 2003 šteje kot nadomestilo za uporabo stavbnega zemljišča.«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta uredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 329-01/2001-10</p>
 <p>Ljubljana, dne 9. oktobra 2003.</p>
@@ -79,5 +92,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-10-21", "kratica": "URED3032", "naziv": "Uredba o spremembi in dopolnitvi uredbe o koncesiji za rabo reke Drave za proizvodnjo električne energije", "url": "/trubar/si/URED3032/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

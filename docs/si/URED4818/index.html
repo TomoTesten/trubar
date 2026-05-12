@@ -21,32 +21,45 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2008-01-3356" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4818.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED4818" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4818.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4818,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Uredba o spremembah in dopolnitvah Uredbe o višini povračil stroškov v zvezi z delom in drugih dohodkov, ki se ne vštevajo v davčno osnovo</h1>
 <p>Na podlagi 3., 4., 7. in 8. točke prvega odstavka in drugega odstavka 44. člena Zakona o dohodnini (Uradni list RS, št. 117/06 in 10/08) in četrte alinee tretjega odstavka 3. člena Zakona o posebnem davku na določene prejemke (Uradni list RS, št. 72/93, 22/94, 45/95, 12/96 in 82/97 – odl. US) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah Uredbe o višini povračil stroškov v zvezi z delom in drugih dohodkov, ki se ne vštevajo v davčno osnovo</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Naslov Uredbe o višini povračil stroškov v zvezi z delom in drugih dohodkov, ki se ne vštevajo v davčno osnovo (Uradni list RS, št. 140/06), se spremeni, tako da se glasi: »Uredba o davčni obravnavi povračil stroškov in drugih dohodkov iz delovnega razmerja«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 2. členu se v prvem odstavku število »5,54« nadomesti s številom »6,12«.<br />
 V drugem odstavku se število »0,69« nadomesti s številom »0,76«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 3. členu se v četrtem, petem in osmem odstavku število »0,15« nadomesti s številom »0,18«.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>V 4. členu se v prvem odstavku število »15,02« nadomesti s številom »21,39«, število »7,51« nadomesti s številom »10,68« in število »5,26« nadomesti s številom »7,45«.<br />
 Za tretjim odstavkom se doda novi četrti odstavek, ki se glasi:<br />
 »(4) Ne glede na prvi odstavek tega člena, je pri prejemkih, namenjenih pokritju stroškov dnevnice, kadar je izplačilo opravljeno fizični osebi, ki na podlagi imenovanja opravi funkcijo člana volilnega odbora na podlagi predpisov o volitvah, znesek celodnevne dnevnice 15,00 eura.«.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>V 5. členu se v tretjem odstavku število »0,29« nadomesti s številom »0,37«.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>V 7. členu se v drugem in četrtem odstavku število »3,13« nadomesti s številom »4,49«.</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>V 10. členu se število »3.443« nadomesti s številom »4.063«.</p>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <p>Ta uredba začne veljati 1. avgusta 2008.</p>
 <p>Št. 00712-18/2008/8</p>
 <p>Ljubljana, dne 17. julija 2008</p>
@@ -62,5 +75,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2008-07-25", "kratica": "URED4818", "naziv": "Uredba o spremembah in dopolnitvah Uredbe o višini povračil stroškov v zvezi z delom in drugih dohodkov, ki se ne vštevajo v davčno osnovo", "url": "/trubar/si/URED4818/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

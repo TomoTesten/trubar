@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-01-3025" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO96.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=NAVO96" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/NAVO96.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:NAVO96,vrsta:navodilo">
+    
     <h1>Navodilo o spremembah in dopolnitvah navodila o vrsti in načinu pošiljanja podatkov o stanju in spremembah dolgov in izdanih jamstev oseb javnega prava v skladu z 48.a členom zakona o izvrševanju proračuna Republike Slovenije</h1>
 <p>Na podlagi drugega odstavka 48.a člena zakona o izvrševanju proračuna Republike Slovenije (Uradni list RS, št. 5/96, 78/97 in 34/98) izdaja minister za finance</p>
 <h2>N A V O D I L O</h2>
 <p>o spremembah in dopolnitvah navodila o vrsti  in načinu pošiljanja podatkov o stanju  in spremembah dolgov in izdanih jamstev oseb javnega prava v skladu z 48.a členom zakona  o izvrševanju proračuna Republike Slovenije</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V navodilu o vrsti in načinu pošiljanja podatkov o stanju in spremembah dolgov in izdanih jamstev oseb javnega prava v skladu z 48.a členom zakona o izvrševanju proračuna Republike Slovenije (Uradni list RS, št. 52/98) se v I. točki 1. člena v drugem odstavku za besedo “obveznosti” doda beseda “do”.<br />
 V tretjem odstavku I. točke 1. člena se besedilo: “iz prvega odstavka” nadomesti z besedilom: “iz I. točke”<br />
 V I. točki 1. člena se doda nov, četrti odstavek, ki glasi: “Kratkoročni dolgovi po tem navodilu so posojila z ročnostjo do enega leta; dolgoročni dolgovi so posojila z ročnostjo nad enim letom; obveznosti do dobaviteljev so obveznosti iz pogodb z odloženim plačilom in dobaviteljski krediti.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 2. členu se besedilo “podatke pod točko 1” nadomesti z besedilom: “podatke pod točko I”, besedilo, “podatke pod točko 2” nadomesti z besedilom: “podatke pod točko II”, in besedilo: “podatke pod točko 3” nadomesti z besedilom: “podatke pod točko III”.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>To navodilo začne veljati naslednji dan po objavi v Uradnem listu RS.</p>
 <p>Št. 403-132/98</p>
 <p>Ljubljana, dne 16. septembra 1998.</p>
@@ -49,5 +62,36 @@ Minister za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-09-25", "kratica": "NAVO96", "naziv": "Navodilo o spremembah in dopolnitvah navodila o vrsti in načinu pošiljanja podatkov o stanju in spremembah dolgov in izdanih jamstev oseb javnega prava v skladu z 48.a členom zakona o izvrševanju proračuna Republike Slovenije", "url": "/trubar/si/NAVO96/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,28 +21,41 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1377" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG487.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG487" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG487.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG487,vrsta:drugi akt">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Spremembe in dopolnitve pravil igre na srečo "Prve stave"</h1>
 <p>Na podlagi zakona o igrah na srečo (Uradni list RS,  št. 27/95) in poslovnika o delu uprave, je uprava družbe Športna loterija in igre na srečo d.d., Ljubljana, Cigaletova 15, na seji dne 24. 3. 2000 sprejela</p>
 <h2>S P R E M E M B E  I N  D O P O L N I T V E P R A V I L</h2>
 <p>igre na srečo »Prve stave«</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilih igre na srečo »Prve stave«, ki jih je sprejel nadzorni svet na svoji seji dne 21. 4. 1999, se v prvem odstavku 3. člena zadnji stavek spremeni tako, da glasi:<br />
 »Konto lahko odprejo samo osebe, ki imajo v Republiki Sloveniji odprt račun pri banki ali hranilnici.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V 7. členu se črta četrta alinea prvega odstavka.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V 10. členu se na koncu drugega odstavka doda nov odstavek, ki glasi:<br />
 »Prodajalec na stavnici mora zavrniti izplačilo dobitka, če je v bazi podatkov predloženi stavni listek že označen kot izplačani dobitek. V tem primeru mora udeleženec izplačilo morebitnega dobitka uveljavljati na sedežu prireditelja. Če prireditelj ugotovi nepravilnosti pri stavljenju, udeleženec nima pravice do dobitka.«</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da glasi:<br />
 »Prireditelj najkasneje v 24 urah po odigranem dogodku objavi tip in rezultat dogodka. Rezultate končanih dogodkov prireditelj objavi na vseh stavnicah in na internetu. Pri izplačilu dobitka se upošteva rezultat, ki je zapisan na magnetnem mediju prireditelja.«</li>
 </ol>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Te spremembe pravil veljajo z dnem, ko jih potrdi nadzorni organ. Spremembe pravil prireditelj objavi v javnem glasilu.<br />
 Športna loterija in igre na srečo d.d., prireja klasično igro na srečo z imenom »Prve stave« na podlagi koncesije, ki ji jo je dodelila Vlada Republike s svojim sklepom  št. 473-01/98-13 (V), z dne 22. 4. 1999.<br />
 Ministrstvo za finance – Urad RS za nadzor prirejanja iger na srečo je te spremembe pravil igre na srečo »Prve stave« potrdilo pod št. 471-212-11/99-8 dne 27. 3. 2000.</p>
@@ -58,5 +71,36 @@ Janez Bukovnik l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-03-31", "kratica": "DRUG487", "naziv": "Spremembe in dopolnitve pravil igre na srečo \"Prve stave\"", "url": "/trubar/si/DRUG487/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

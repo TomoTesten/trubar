@@ -21,15 +21,28 @@
       <dt>Organ</dt><dd>Gospodarska zbornica Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-2902" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3881.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV3881" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3881.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV3881,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o stopnjah običajnega odpisa blaga v proizvodnji hrane in pijač (kalo, razsip, razbitje in primanjkljaj)</h1>
 <p>Na podlagi zakona o davku na dodano vrednost (Uradni list RS, št. 89/98), v povezavi s 14. členom pravilnika o izvajanju zakona o davku na dodano vrednost (Uradni list RS, št. 4/99, 45/99, 59/99 in 101/99) 31. člena statuta Gospodarske zbornice Slovenije in pravilnika o organizaciji dela združenja agroživilstva GZS, je upravni odbor Združenja agroživilstva GZS na seji dne 12. 4. 2001 sprejel</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika o stopnjah običajnega odpisa blaga v proizvodnji hrane in pijač (kalo, razsip, razbitje in primanjkljaj)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o stopnjah običajnega odpisa blaga v proizvodnji hrane in pijač (kalo, razsip, razbitje in primanjkljaj (Uradni list RS, št. 101/99) se v 11. členu na koncu  2. točke (pred 3. Testenine) doda nov odstavek, ki glasi:<br />
 Pri gotovih pekovskih izdelkih se priznava kalo iz naslova osuška, ki je neločljivo povezan s prevozom, manipulacijo in skladiščenjem v višini:<br />
 – pri kruhu 6,0%,<br />
@@ -40,7 +53,7 @@ Pri gotovih pekovskih, slaščičarskih in konditorskih izdelkih ter polizdelkih
 – pri slaščičarskih izdelkih 8%,<br />
 – pri konditorskih izdelkih 0,5%,<br />
 od vhodnega prometa skladišča.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Te spremembe in dopolnitve pravilnika začnejo veljati in se uporabljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 013.13-UO/01-32/SZ-200</p>
 <p>Ljubljana, dne 19. junija 2001.</p>
@@ -56,5 +69,36 @@ Janez Železnikar l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2001-06-29", "kratica": "PRAV3881", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o stopnjah običajnega odpisa blaga v proizvodnji hrane in pijač (kalo, razsip, razbitje in primanjkljaj)", "url": "/trubar/si/PRAV3881/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

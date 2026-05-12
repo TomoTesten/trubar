@@ -21,15 +21,28 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-1629" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5718.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5718" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5718.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5718,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Pravilnik o višini stroškov vozniškega izpita in preizkusa znanja</h1>
 <p>Na podlagi 159. člena Zakona o varnosti cestnega prometa (Uradni list RS, št. 30/98, 33/00 – odl. US, 39/00 – popr. odl. US, 61/00, 100/00 – odl. US, 21/02 in 67/02) izdaja minister za notranje zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o višini stroškov vozniškega izpita in preizkusa znanja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Stroški vozniškega izpita znašajo:</p>
 <ol>
 <li>Teoretični del vozniškega izpita:<br />
@@ -41,15 +54,15 @@
 – za kategoriji: F in H                               2.400 tolarjev</li>
 </ol>
 <p>Stroške vozniškega izpita plača kandidat, za vsako kategorijo, za katero opravlja vozniški izpit, posebej.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Stroški za preizkus znanja predpisov o varnosti cestnega prometa za voznika inštruktorja oziroma učitelja predpisov znašajo 3.300 SIT, ne glede na kategorijo oziroma število kategorij za katere voznik inštruktor oziroma učitelj predpisov opravlja preizkus znanja.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Stroški vozniškega izpita oziroma preizkusa znanja zajemajo vse materialne in druge stroške.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Stroške vozniškega izpita oziroma preizkusa znanja mora kandidat, voznik inštruktor ali učitelj predpisov nakazati po plačilnem nalogu ali vplačati na vplačilnem mestu upravne enote.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Z dnem, ko začne veljati ta pravilnik, preneha veljati Odredba o višini stroškov vozniškega izpita, preizkusa znanja predpisov o varnosti cestnega prometa in preverjanja vozniškega znanja (Uradni list RS, št. 28/95).</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 1344/04-214/76-2004</p>
 <p>Ljubljana, dne 17. marca 2004.</p>
@@ -65,5 +78,36 @@ za notranje zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-04-16", "kratica": "PRAV5718", "naziv": "Pravilnik o višini stroškov vozniškega izpita in preizkusa znanja", "url": "/trubar/si/PRAV5718/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

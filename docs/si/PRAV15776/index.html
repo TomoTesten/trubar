@@ -21,21 +21,34 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1991-01-1435" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV15776.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV15776" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV15776.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV15776,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembi pravilnika o izvrševanju zakona o osebni izkaznici</h1>
 <p>Na podlagi zakona o osebni izkaznici (Uradni list SRS, št. 16/74, 29/79 in 42/86) izdaja minister za notranje zadeve</p>
 <h2>PRAVILNIK</h2>
 <p>o spremembi pravilnika o izvrševanju zakona o osebni izkaznici</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o izvrševanju zakona o osebni izkaznici (Uradni, list SRS, št. 16/81 in 2/89) se 8. člen spremeni tako, da se glasi:<br />
 »Obrazec osebne izkaznice je izdelan iz posebnega debelejšega papirja z zaščitnimi elementi. Obrazec je velikosti 10,5 x 7cm. Na prednji strani obrazca je v podlagi natisnjen grb Republike Slovenije.<br />
 – Oblika in vsebina podatkov v osebni izkaznici je podrobneje določena v obrazcu št. 3, ki je objavljen skupaj s tem pravilnikom in je njegov sestavni del.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Obrazec št. 3 se nadomesti z novim obrazcem št. 3, ki je objavljen skupaj s tem pravilnikom.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati osmi dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0101-Z-031/206-91</p>
 <p>Ljubljana, dne 19. decembra 1991.</p>
@@ -50,5 +63,36 @@ Igor Bavčar l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1991-12-28", "kratica": "PRAV15776", "naziv": "Pravilnik o spremembi pravilnika o izvrševanju zakona o osebni izkaznici", "url": "/trubar/si/PRAV15776/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

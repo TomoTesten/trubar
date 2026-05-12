@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2012-02-0102" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MOSEUKR.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MOSEUKR" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MOSEUKR.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MOSEUKR,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Okvirnega sporazuma med Evropsko unijo in njenimi državami članicami na eni strani ter Republiko Korejo na drugi strani</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI OKVIRNEGA SPORAZUMA MED EVROPSKO UNIJO IN NJENIMI DRŽAVAMI ČLANICAMI NA ENI STRANI TER REPUBLIKO KOREJO NA DRUGI STRANI (MOSEUKR)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Okvirni sporazum med Evropsko unijo in njenimi državami članicami na eni strani ter Republiko Korejo na drugi strani, podpisan v Bruslju 10. maja 2010.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo sporazuma se v izvirniku v slovenskem in angleškem jeziku glasi:</p>
 <p>Besedilo naslova sporazuma v vseh jezikih</p>
 <h2>O K V I R N I   S P O R A Z U M</h2>
@@ -1060,9 +1073,9 @@ In respect of Article 46, where measures have been taken with respect to a speci
 <h3>UNILATERAL DECLARATION BY THE EUROPEAN UNION ON ARTICLE 12</h3>
 <p>The plenipotentiaries of the Member States and the plenipotentiary of the Republic of Korea take note of the following Unilateral Declaration:<br />
 The European Union declares that the Member States are committed under Article 12 only to the extent that they have subscribed to these principles of good governance in the tax area at the level of the European Union.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma skrbi Vlada Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 007-02/12-1/9</p>
 <p>Ljubljana, dne 14. decembra 2012</p>
@@ -1080,5 +1093,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2012-12-29", "kratica": "MOSEUKR", "naziv": "Zakon o ratifikaciji Okvirnega sporazuma med Evropsko unijo in njenimi državami članicami na eni strani ter Republiko Korejo na drugi strani", "url": "/trubar/si/MOSEUKR/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

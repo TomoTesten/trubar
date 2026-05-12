@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pravilnik o enotnih postopkih nadzora cestnega prevoza nevarnega blaga — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Pravilnik o enotnih postopkih nadzora cestnega prevoza nevarnega blaga</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>PRAV15999</strong></dd>
+      <dt>Vrsta</dt><dd>pravilnik</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2026-02-23</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2026-01-0503" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV15999" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV15999.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:PRAV15999,vrsta:pravilnik">
+    
+    <h1>Pravilnik o enotnih postopkih nadzora cestnega prevoza nevarnega blaga</h1>
+<p>Na podlagi tretjega odstavka 38. člena in drugega odstavka 43. člena Zakona o prevozu nevarnega blaga (Uradni list RS, št. 33/06 – uradno prečiščeno besedilo, 41/09, 97/10 in 56/15) ministrica za infrastrukturo izdaja</p>
+<p>P R A V I L N I K</p>
+<p>o enotnih postopkih nadzora cestnega prevoza nevarnega blaga</p>
+<p>1. člen</p>
+<p>(1) Ta pravilnik določa vsebino in obliko zapisnika o nadzoru nad prevozom nevarnega blaga ter seznam kršitev in z njimi povezane ukrepe pristojnih organov v skladu z Direktivo (EU) 2022/1999 Evropskega parlamenta in Sveta z dne 19. oktobra 2022 o enotnih postopkih kontrol cestnega prevoza nevarnega blaga (kodificirano besedilo) (UL L št. 274 z dne 24. 10. 2022, str. 1), zadnjič spremenjeno z Delegirano direktivo Komisije (EU) 2025/1801 z dne 23. junija 2025 o prilagoditvi prilog I in II k Direktivi (EU) 2022/1999 Evropskega parlamenta in Sveta o enotnih postopkih kontrol cestnega prevoza nevarnega blaga znanstvenemu in tehničnemu napredku (UL L št. 2025/1801 z dne 13. 10. 2025).</p>
+<p>(2) Ta pravilnik določa tudi sestavine in obliko letnega poročila.</p>
+<p>2. člen</p>
+<p>Vsebina in oblika zapisnika o nadzoru nad prevozom nevarnega blaga sta določeni v Prilogi 1, ki je sestavni del tega pravilnika.</p>
+<p>3. člen</p>
+<p>Seznam kršitev in z njimi povezani ukrepi pristojnih organov so določeni v Prilogi 2, ki je sestavni del tega pravilnika.</p>
+<p>4. člen</p>
+<p>Sestavine in oblika letnega poročila o kršitvah in kaznih so določene v Prilogi 3, ki je sestavni del tega pravilnika.</p>
+<p>5. člen</p>
+<p>Z dnem uveljavitve tega pravilnika preneha veljati Pravilnik o enotnih postopkih nadzora cestnega prevoza nevarnega blaga (Uradni list RS, št. 108/05).</p>
+<p>6. člen</p>
+<p>Ta pravilnik začne veljati 24. junija 2026.</p>
+<p>Št. 007-296/2025/10-02131245</p>
+<p>Ljubljana, dne 13. februarja 2026</p>
+<p>EVA 2025-2430-0052</p>
+<p>Mag. Alenka Bratušek</p>
+<p>ministrica</p>
+<p>za infrastrukturo</p>
+<p>Priloga 1</p>
+<p>Priloga 2</p>
+<p>Priloga 3</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2026-02-23", "kratica": "PRAV15999", "naziv": "Pravilnik o enotnih postopkih nadzora cestnega prevoza nevarnega blaga", "url": "/trubar/si/PRAV15999/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

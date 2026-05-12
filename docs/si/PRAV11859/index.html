@@ -21,25 +21,38 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-01-3216" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11859.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV11859" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV11859.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV11859,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah Pravilnika o tehničnih in varnostnih zahtevah, obrazcih ter evidencah za eksplozive in pirotehnične izdelke</h1>
 <p>Na podlagi prve, druge, četrte in pete alineje prvega odstavka 50. člena Zakona o eksplozivih in pirotehničnih izdelkih (Uradni list RS, št. 35/08) izdaja minister za notranje zadeve</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o tehničnih in varnostnih zahtevah, obrazcih ter evidencah za eksplozive in pirotehnične izdelke</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o tehničnih in varnostnih zahtevah, obrazcih ter evidencah za eksplozive in pirotehnične izdelke (Uradni list RS, št. 105/08, 100/10 in 24/12) se prvi odstavek 1. člena spremeni tako, da se glasi:</p>
 <p>"(1) Ta pravilnik določa tehnične in varnostne zahteve za eksplozive in pirotehnične izdelke, postopke za ugotavljanje skladnosti ter način, vsebino in obliko označevanja pirotehničnih izdelkov, v skladu z Direktivo Sveta 93/15/EGS z dne 5. aprila 1993 o usklajevanju določb v zvezi z dajanjem eksplozivov za civilno uporabo v promet in njihovim nadzorom (UL L št. 121 z dne 15. 5. 1993, str. 20), zadnjič spremenjeno z Uredbo (ES) št. 1882/2003 Evropskega parlamenta in Sveta z dne 29. septembra 2003 o prilagoditvi določb glede odborov, ki pomagajo Komisiji pri uresničevanju njenih izvedbenih pooblastil, predvidenih aktih, za katere se uporablja postopek iz člena 251 Pogodbe ES, Sklepu Sveta 1999/468/ES (UL L št. 284 z dne 31. 10. 2003, str. 1), Direktivo 2007/23/ES Evropskega parlamenta in Sveta z dne 23. maja 2007 o dajanju pirotehničnih izdelkov v promet (UL L št. 154 z dne 14. 6. 2007, str. 1) in Direktivo 2013/29/EU Evropskega parlamenta in Sveta z dne 12. junija 2013 o harmonizaciji zakonodaj držav članic v zvezi z dostopnostjo pirotehničnih izdelkov na trgu (prenovitev) (UL L št. 178 z dne 28. 6. 2013, str. 27).".</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Tretji odstavek 13. člena se spremeni tako, da se glasi:</p>
 <p>"(3) Pirotehnični izdelki ne smejo vsebovati eksplozivov razen črnega smodnika in snovi za bliskanje. Pirotehnični izdelki kategorij P1, P2, T2 in izdelki za ognjemete kategorije 4 smejo vsebovati eksplozive, če izpolnjujejo naslednje pogoje:</p>
 <p>– da eksplozivov ni mogoče enostavno ločiti od pirotehničnega izdelka;<br />
 – da izdelek kategorije P1 ni eksploziven ali tak, kot je bil zasnovan in izdelan, ne more sprožiti sekundarnih eksplozivov;<br />
 – da so izdelki kategorije 4, T2 in P2 načrtovani tako in namenjen temu, da ne delujejo kot eksploziv, če pa so načrtovani kot eksploziv, taki, kot so bili zasnovani in izdelani, ne morejo sprožiti sekundarnih eksplozivov.".</p>
 <h3>KONČNA DOLOČBA</h3>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 007-559/2013</p>
 <p>Ljubljana, dne 23. oktobra 2013</p>
@@ -55,5 +68,36 @@ za notranje zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2013-10-25", "kratica": "PRAV11859", "naziv": "Pravilnik o spremembah Pravilnika o tehničnih in varnostnih zahtevah, obrazcih ter evidencah za eksplozive in pirotehnične izdelke", "url": "/trubar/si/PRAV11859/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Uredba o prenehanju veljavnosti Uredbe o določitvi najvišjih tarifnih postavk za prodajo električne energije za tarifne odjemalce — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Uredba o prenehanju veljavnosti Uredbe o določitvi najvišjih tarifnih postavk za prodajo električne energije za tarifne odjemalce</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>URED3388</strong></dd>
+      <dt>Vrsta</dt><dd>uredba</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Konzumiran ali obsoleten predpis</span></dd>
+      <dt>Datum</dt><dd>2004-06-18</dd>
+      <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-2989" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED3388" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED3388.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:URED3388,vrsta:uredba">
+    
+    <h1>Uredba o prenehanju veljavnosti Uredbe o določitvi najvišjih tarifnih postavk za prodajo električne energije za tarifne odjemalce</h1>
+<p>Na podlagi 8. in 9. člena Zakona o kontroli cen (Uradni list RS, št. 63/99), 90. člena Energetskega zakona (Uradni list RS, št. 79/99, 8/00, 52/02 – <a href="/trubar/si/ZJA/" class="law-ref" title="ZJA">ZJA</a>, 110/02 – <a href="/trubar/si/ZGO-1/" class="law-ref" title="ZGO-1">ZGO-1</a>, 50/03 – odl. US in 51/04) in v zvezi z 2. členom Uredbe o listi blaga in storitev, za katere se uporabljajo ukrepi kontrole cen (Uradni list RS, št. 80/00 in 17/04) izdaja Vlada Republike Slovenije</p>
+<h2>U R E D B O</h2>
+<p>o prenehanju veljavnosti Uredbe o določitvi najvišjih tarifnih postavk za prodajo električne energije za tarifne odjemalce</p>
+<h3><span id="člen-1">1. člen</span></h3>
+<p>Uredba o določitvi najvišjih tarifnih postavk za prodajo električne energije za tarifne odjemalce (Uradni list RS, št. 8/04) preneha veljati z dnem uveljavitve te uredbe.</p>
+<h3><span id="člen-2">2. člen</span></h3>
+<p>Ta uredba začne veljati 1. julija 2004.</p>
+<p>Št. 382-11/2001-5</p>
+<p>Ljubljana, dne 3. junija 2004.</p>
+<p>EVA 2004-2111-0071</p>
+<h3>Vlada Republike Slovenije</h3>
+<p>mag. Anton Rop l. r.<br />
+Predsednik</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-06-18", "kratica": "URED3388", "naziv": "Uredba o prenehanju veljavnosti Uredbe o določitvi najvišjih tarifnih postavk za prodajo električne energije za tarifne odjemalce", "url": "/trubar/si/URED3388/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

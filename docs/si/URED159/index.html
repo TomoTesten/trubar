@@ -21,17 +21,30 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1998-02-0033" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED159.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED159" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED159.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED159,vrsta:uredba">
+    
     <h1>Uredba o ratifikaciji Resolucije št. 48, ki jo je 2. julija 1993 sprejela delovna skupina pri <a href="/trubar/si/ZN/" class="law-ref" title="ZN">ZN</a>/EKE za carinska vprašanja, ki se nanašajo na promet za pogodbenice Carinske konvencije iz leta 1954 o začasnem uvozu zasebnih cestnih vozil (4. junij 1954) in Carinske konvencije iz leta 1956 o začasnem uvozu komercialnih cestnih vozil (18. maj 1956), ter Priporočila Sveta za carinsko sodelovanje glede sprejemanja karnetov ATA za začasni uvoz</h1>
 <p>Na podlagi tretjega odstavka 63. člena Zakona o zunanjih zadevah (Uradni list RS, št. 1/91-I) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o ratifikaciji Resolucije št. 48, ki jo je 2. julija 1993 sprejela delovna skupina pri <a href="/trubar/si/ZN/" class="law-ref" title="ZN">ZN</a>/EKE za carinska vprašanja, ki se nanašajo na promet za pogodbenice Carinske konvencije iz leta 1954 o začasnem uvozu zasebnih cestnih vozil (4. junij 1954) in Carinske konvencije iz leta 1956 o začasnem uvozu komercialnih cestnih vozil (18. maj 1956), ter Priporočila Sveta za carinsko sodelovanje glede sprejemanja karnetov ATA za začasni uvoz</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificirata se Resolucija št. 48, ki jo je 2. julija 1993 sprejela delovna skupina pri <a href="/trubar/si/ZN/" class="law-ref" title="ZN">ZN</a>/EKE za carinska vprašanja, ki se nanašajo na promet za pogodbenice Carinske konvencije iz leta 1954 o začasnem uvozu zasebnih cestnih vozil (4. junij 1954) in Carinske konvencije iz leta 1956 o začasnem uvozu komercialnih cestnih vozil (18. maj 1956), ter Priporočilo Sveta za carinsko sodelovanje glede sprejemanja karnetov ATA za začasni uvoz, sprejeto 25. junija 1992.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Resolucija in priporočilo se v izvirniku v angleškem jeziku in v prevodu v slovenskem jeziku glasita:</p>
 <h2>Resolution No. 48,</h2>
 <p>adopted on 2 July 1993,<br />
@@ -99,9 +112,9 @@ ZAHTEVA, da vsaka pogodbenica Konvencije ATA ali Istanbulske konvencije obvesti 
 Če ga sprejme, pogodbenica obvesti generalnega sekretarja tudi o dnevu, s katerim bo začela uporabljati priporočilo, ter o pogojih njegove uporabe.<br />
 Če generalni sekretar Sveta za carinsko sodelovanje v enem letu ne prejme obvestila, pomeni, da pogodbenica ne more sprejeti priporočila. Vendar pogodbenica lahko to priporočilo sprejme kasneje.<br />
 Generalni sekretar to informacijo pošlje carinskim upravam članicam Sveta. Pošlje jo tudi carinskim upravam članic Združenih narodov ali njegovih specializiranih agencij, carinskim ali gospodarskim unijam, ki se štejejo za pogodbenice, in Mednarodnemu uradu gospodarskih zbornic.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje resolucije in priporočila skrbi Ministrstvo za finance.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 424-07/98-1 (T1)</p>
 <p>Ljubljana, dne 2. julija 1998</p>
@@ -116,5 +129,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1998-07-10", "kratica": "URED159", "naziv": "Uredba o ratifikaciji Resolucije št. 48, ki jo je 2. julija 1993 sprejela delovna skupina pri ZN/EKE za carinska vprašanja, ki se nanašajo na promet za pogodbenice Carinske konvencije iz leta 1954 o začasnem uvozu zasebnih cestnih vozil (4. junij 1954) in Carinske konvencije iz leta 1956 o začasnem uvozu komercialnih cestnih vozil (18. maj 1956), ter Priporočila Sveta za carinsko sodelovanje glede sprejemanja karnetov ATA za začasni uvoz", "url": "/trubar/si/URED159/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,30 +21,43 @@
       <dt>Organ</dt><dd>Ministrstvo za promet</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2002-01-0254" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1728.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ODRE1728" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODRE1728.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ODRE1728,vrsta:odredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a></nav>
     <h1>Odredba o višini zavarovalne vsote</h1>
 <p>Na podlagi petega odstavka 214. člena zakona o letalstvu (Uradni list RS, št. 18/01) izdaja minister za promet</p>
 <h2>O D R E D B O</h2>
 <p>o višini zavarovalne vsote</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>(1) Ta odredba določa višino zavarovalne vsote za invalidsko in nezgodno zavarovanje delavcev iz prvega odstavka 214. člena zakona o letalstvu (Uradni list RS, št. 18/01).<br />
 (2) Delavci iz prejšnjega odstavka so v državni upravi zaposleni poklicni in prometni piloti z ratingom oziroma pooblastilom inštruktorja ali učitelja letenja, če je to zahtevano s sistemizacijo, delavci v preiskovalnem organu za preiskovanje letalskih nesreč in incidentov, delavci tehničnih služb Uprave Republike Slovenije za civilno letalstvo (v nadaljnjem besedilu: uprava), ki opravljajo delo na terenu, delavci Sektorja za varnost in letalske standarde v upravi, ki opravljajo delo na terenu ter letalski inšpektorji.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Zavarovalna vsota iz prejšnjega člena se določi za posameznega delavca iz prejšnjega člena (v nadaljnjem besedilu: delavec) v višini:<br />
 – 2,000.000 tolarjev za primer smrti zaradi nezgode in<br />
 – 4,000.000 tolarjev za primer invalidnosti.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Predstojnik proračunskega uporabnika, pri katerem je zaposlen delavec (v nadaljnjem besedilu: organ), sklene pogodbo o zavarovanju z zavarovalnico.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>(1) Plačilo mesečne oziroma letne zavarovalne premije po tej odredbi krije organ.<br />
 (2) Predstojnik organa izda delavcu odločbo o plačilu zavarovanja po tej odredbi.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>(1) V primeru, da je delavec za čas od dneva uveljavitve zakona o letalstvu do dneva uveljavitve te odredbe, to je za čas od 13. aprila 2001 dalje, že imel sklenjeno pogodbo o zavarovanju, ki zajema nezgodno in invalidsko zavarovanje oziroma je v navedenem obdobju sklenil tako pogodbo, je upravičen do povračila sorazmernega dela stroškov takega zavarovanja v skladu z drugim odstavkom tega člena.<br />
 (2) Predstojnik organa izda delavcu odločbo o povračilu sorazmernega dela stroškov nezgodnega in invalidskega zavarovanja iz prejšnjega odstavka, ki zajema kritje stroškov invalidskega in nezgodnega zavarovanja do višine, določene s to odredbo, na podlagi specificiranega zahtevka, ki ga delavec predloži organu skupaj z vsemi dokazili, iz katerih je razvidno upravičenje do povračila navedenih stroškov.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Ta odredba začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 2630-9/2001</p>
 <p>Ljubljana, dne 12. decembra 2001.</p>
@@ -63,5 +76,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2002-01-21", "kratica": "ODRE1728", "naziv": "Odredba o višini zavarovalne vsote", "url": "/trubar/si/ODRE1728/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

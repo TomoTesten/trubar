@@ -16,15 +16,28 @@
     <dl>
       <dt>Kratica</dt><dd><strong>DRUG5361</strong></dd>
       <dt>Vrsta</dt><dd>drugi akt</dd>
-      <dt>Status</dt><dd><span class="badge valid">veljaven</span></dd>
-      <dt>Datum</dt><dd>2024-12-30</dd>
-      <dt>Organ</dt><dd>Državno odvetništvo Republike Slovenije</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2025-01-06</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2024-01-3800" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5361.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG5361" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5361.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG5361,vrsta:drugi akt">
+    
     <h1>Pravilnik o uvrstitvi delovnih mest in nazivov v plačne razrede na Državnem odvetništvu Republike Slovenije</h1>
 <p>Na podlagi prvega odstavka 14. člena, tretjega odstavka 70. člena in prvega odstavka 98. člena Zakona o skupnih temeljih sistema plač v javnem sektorju (Uradni list RS, št. 95/24; v nadaljnjem besedilu: ZSTSPJS) ter 50. člena Zakona o državnem odvetništvu (Uradni list RS, št. 23/17), se izdaja</p>
 <p>P R A V I L N I K</p>
@@ -468,5 +481,36 @@ VII/2<br />
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2025-01-06", "kratica": "DRUG5361", "naziv": "Pravilnik o uvrstitvi delovnih mest in nazivov v plačne razrede na Državnem odvetništvu Republike Slovenije", "url": "/trubar/si/DRUG5361/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0322" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZUODNO-G.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZUODNO-G" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZUODNO-G.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZUODNO-G,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah Zakona o ustanovitvi občin ter o določitvi njihovih območij</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,7 +50,7 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O USTANOVITVI OBČIN TER O DOLOČITVI NJIHOVIH OBMOČIJ (ZUODNO-G)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Zakonu o ustanovitvi občin ter o določitvi njihovih območij (Uradni list RS, št. 108/06 – uradno prečiščeno besedilo) se v 2. členu za točko 90. Miren - Kostanjevica doda nova točka 90.a Mirna, ki se glasi:<br />
 »90.a Mirna:<br />
 Brezovica pri Mirni,<br />
@@ -66,7 +79,7 @@ Sedež Občine Mirna je na Mirni.<br />
 Prvi občinski svet šteje devet članov.«.<br />
 V točki 139. Sveti Jurij se ime občine »Sveti Jurij« nadomesti z imenom »Sveti Jurij ob Ščavnici«.<br />
 V točki 157. Trebnje se črtajo naselja: »Brezovica pri Mirni, Cirnik, Debenec, Glinek, Gomila, Gorenja vas pri Mirni, Migolica, Migolska Gora, Mirna, Praprotnica, Ravne, Sajenice, Selo pri Mirni, Selska Gora, Stan, Stara Gora, Ševnica, Škrjanče, Trbinc, Volčje Njive, Zabrdje, Zagorica«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 003-04/10-33/54</p>
 <p>Ljubljana, dne 1. februarja 2011</p>
@@ -83,5 +96,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-02-11", "kratica": "ZUODNO-G", "naziv": "Zakon o spremembah in dopolnitvah Zakona o ustanovitvi občin ter o določitvi njihovih območij", "url": "/trubar/si/ZUODNO-G/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

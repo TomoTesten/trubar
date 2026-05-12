@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sklep o spremembah Sklepa o tehnikah upravljanja sredstev investicijskega sklada — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">Sklep o spremembah Sklepa o tehnikah upravljanja sredstev investicijskega sklada</h1>
+</header>
+<div class="law-container">
+  <aside class="law-meta">
+    <dl>
+      <dt>Kratica</dt><dd><strong>SKLE13318</strong></dd>
+      <dt>Vrsta</dt><dd>sklep</dd>
+      <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
+      <dt>Datum</dt><dd>2023-04-14</dd>
+      
+      <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2023-01-1260" target="_blank">Uradni list RS</a></dd>
+    </dl>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=SKLE13318" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE13318.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
+  </aside>
+
+  <article class="law-body" data-pagefind-body
+           data-pagefind-meta="kratica:SKLE13318,vrsta:sklep">
+    
+    <h1>Sklep o spremembah Sklepa o tehnikah upravljanja sredstev investicijskega sklada</h1>
+<p>Na podlagi četrtega odstavka 186. člena Zakona o investicijskih skladih in družbah za upravljanje (Uradni list RS, št. 31/15, 81/15, 77/16, 77/18, 161/21 in 101/22 – <a href="/trubar/si/ZOAIS/" class="law-ref" title="ZOAIS">ZOAIS</a>) Agencija za trg vrednostnih papirjev izdaja</p>
+<p>S K L E P</p>
+<p>o spremembah Sklepa o tehnikah upravljanja sredstev investicijskega sklada</p>
+<p>1. člen</p>
+<p>V Sklepu o tehnikah upravljanja sredstev investicijskega sklada (Uradni list RS, št. 11/16) se v 1. členu črta drugi odstavek.</p>
+<p>KONČNA DOLOČBA</p>
+<p>2. člen</p>
+<p>Ta sklep začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
+<p>Št. 00701-3/2023-2</p>
+<p>Ljubljana, dne 6. aprila 2023</p>
+<p>EVA 2023-1611-0028</p>
+<p>Predsednica sveta</p>
+<p>Agencije za trg vrednostnih papirjev</p>
+<p>Anka Čadež</p>
+    
+  </article>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> ·
+  Zakonodaja RS, javna domena (CC0) ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a>
+</footer>
+<script>
+(function(){
+  var versions = [{"date": "2023-04-14", "kratica": "SKLE13318", "naziv": "Sklep o spremembah Sklepa o tehnikah upravljanja sredstev investicijskega sklada", "url": "/trubar/si/SKLE13318/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
+</body>
+</html>

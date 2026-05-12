@@ -21,17 +21,30 @@
       <dt>Organ</dt><dd>Ministrstvo za malo gospodarstvo in turizem</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-1814" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2746.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV2746" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV2746.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV2746,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o načinu in postopku pridobitve licence za opravljanje dejavnosti organiziranja turističnih potovanj, dejavnosti prodaje oziroma posredovanja turističnih potovanj ter o načinu vodenja registra izdanih licenc</h1>
 <p>Na podlagi četrtega odstavka 37. člena zakona o pospeševanju turizma (Uradni list RS, št. 57/98) izdaja minister za malo gospodarstvo in turizem</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika  o načinu in postopku pridobitve licence  za opravljanje dejavnosti organiziranja turističnih potovanj, dejavnosti prodaje oziroma posredovanja turističnih potovanj ter o načinu vodenja registra izdanih licenc</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o načinu in postopku pridobitve licence za opravljanje dejavnosti organiziranja turističnih potovanj, dejavnosti prodaje oziroma posredovanja turističnih potovanj ter o načinu vodenja registra izdanih licenc (Uradni list RS, št. 13/99), se v prvem odstavku 1. člena za besedo »36.« dodata besedi »in 37.«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <ol>
 <li>člen se spremeni, tako da se glasi:<br />
 »K vlogi za pridobitev licence za opravljanje dejavnosti mora predlagatelj predložiti pisna dokazila o:</li>
@@ -51,7 +64,7 @@
 – potrdilo iz kazenske evidence Ministrstva za pravosodje, iz katerega je razvidno, da vodja dejavnosti ni bil pravnomočno obsojen zaradi kaznivega dejanja zoper gospodarstvo, pravni promet oziroma mu ni bil izrečen varnostni ukrep prepovedi opravljanja dejavnosti s področja organiziranja in prodaje turističnih potovanj – dokler ta prepoved traja.<br />
 Pisna dokazila o izpolnjevanju pogojev predlagatelj predloži v originalu in kopiji, pri čemer se mu original vrne, razen potrdila o nekaznovanosti in zavarovanju za primer nesolventnosti (garantno pismo), ki morata biti vedno priložena v originalu. V primeru, da predlagatelj predloži dokazila samo v kopiji, morajo biti notarsko overjena.«</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 352-1/99-7-138</p>
 <p>Maribor, dne 12. aprila 2000.</p>
@@ -67,5 +80,36 @@ in turizem</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-05-05", "kratica": "PRAV2746", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o načinu in postopku pridobitve licence za opravljanje dejavnosti organiziranja turističnih potovanj, dejavnosti prodaje oziroma posredovanja turističnih potovanj ter o načinu vodenja registra izdanih licenc", "url": "/trubar/si/PRAV2746/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

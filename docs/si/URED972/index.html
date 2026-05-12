@@ -21,31 +21,44 @@
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2000-01-0171" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED972.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=URED972" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED972.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED972,vrsta:uredba">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Uredba o spremembah in dopolnitvah uredbe o kriterijih za dodeljevanje sredstev za investicije v javni sektor gospodarstva</h1>
 <p>Na podlagi 9. člena, v zvezi z osmo alineo prvega odstavka 7. člena zakona o uporabi sredstev pridobljenih iz naslova kupnine na podlagi zakona o lastninskem preoblikovanju podjetij (Uradni list RS, št. 45/95) izdaja Vlada Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o spremembah in dopolnitvah uredbe o kriterijih za dodeljevanje sredstev za investicije v javni sektor gospodarstva</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 2. členu uredbe o kriterijih za dodeljevanje sredstev za investicije v javni sektor gospodarstva (Uradni list RS, št. 82/98) se doda nov drugi odstavek, ki se glasi:</p>
 <p>“V javni sektor po tej uredbi šteje tudi opravljanje energetske dejavnosti predelava nafte in naftnih derivatov in sodi po standardni klasifikaciji dejavnosti med dejavnosti:</p>
 <p>– DF/23.20 – Proizvodnja naftnih derivatov.“</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Na koncu drugega odstavka 4. člena se črta pika in doda novo besedilo, ki se glasi:</p>
 <p>“ali naftnih derivatov.“</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>V četrti alinei 5. člena se za besedo “premoga“ dodajo besede “ali naftnih derivatov“, ostalo besedilo ostane nespremenjeno.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <ol>
 <li>člen se spremeni tako, da se glasi:</li>
 </ol>
 <h3>“7. člen</h3>
 <p>Sredstva se bodo upravičencem dodeljevala tudi za namene tehnološke ali ekološke sanacije ali za zaključek investicijskih projektov.</p>
 <p>Podjetje je dolžno izvesti dokapitalizacijo v višini dodeljenih sredstev v roku 60 dni po koriščenju zadnjega obroka dodeljenih sredstev.“</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta uredba začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 403-06/98-2</p>
 <p>Ljubljana, dne 13. januarja 2000.</p>
@@ -60,5 +73,36 @@ Predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2000-01-14", "kratica": "URED972", "naziv": "Uredba o spremembah in dopolnitvah uredbe o kriterijih za dodeljevanje sredstev za investicije v javni sektor gospodarstva", "url": "/trubar/si/URED972/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

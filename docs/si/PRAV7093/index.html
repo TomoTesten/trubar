@@ -21,33 +21,46 @@
       <dt>Organ</dt><dd>Ministrstvo za finance</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2005-01-3677" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7093.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV7093" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV7093.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV7093,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a></nav>
     <h1>Pravilnik o vodenju evidence o davčnih preiskavah</h1>
 <p>Na podlagi četrtega odstavka 26. člena Zakona o davčni službi (Uradni list RS, št. 17/05 – uradno prečiščeno besedilo in 59/05 – odločba US) izdaja minister za finance</p>
 <h2>P R A V I L N I K</h2>
 <p>o vodenju evidence o davčnih preiskavah</p>
 <h3>I. SPLOŠNE DOLOČBE</h3>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <h3>(vsebina pravilnika)</h3>
 <p>Ta pravilnik ureja obliko in način vodenja evidence o davčnih preiskavah (v nadaljnjem besedilu: evidenca) in način njenega vodenja v Davčni upravi Republike Slovenije (v nadaljnjem besedilu: DURS).</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <h3>(pojem in način vodenja evidence)</h3>
 <p>Evidenca izvedenih preiskovalnih dejanj je centralna evidenca, ki je vodena v računalniški obliki in vsebuje načrtovane in izvedene aktivnosti DURS na področju davčnih preiskav.<br />
 Evidenco vodi Generalni davčni urad DURS. Vpis v evidenco opravi davčni urad, ki vodi davčno preiskavo.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <h3>(subjekt vpisa v evidenco)</h3>
 <p>V evidenco se vpiše subjekt, zoper katerega DURS izvaja dejanja in ukrepe davčne preiskave, določene z zakonom, ki ureja davčno službo, in zakonom, ki ureja davčni postopek.</p>
 <h3>II. OBLIKA EVIDENCE</h3>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <h3>(identifikacijski podatki preiskovanca)</h3>
 <p>Evidenca vsebuje podatke o fizični osebi, pravni osebi in o drugih osebah, ki so predmet preiskovalnih aktivnosti. Podatki se vpišejo v obsegu, ki je predpisan v navodilu generalnega direktorja.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <h3>(identifikacija preiskovalca)</h3>
 <p>Pri vstopanju pooblaščene uradne ali druge osebe v evidenco, ki opravi preiskovalna ali druga dejanja v davčni preiskavi, mora ta vpisati svojo identifikacijsko oznako.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <h3>(vsebina evidence)</h3>
 <p>Po zaključku preiskovalnih in drugih dejanj mora pooblaščena uradna ali druga oseba v evidenco vpisati:<br />
 – šifro zadeve,<br />
@@ -65,11 +78,11 @@ Evidenco vodi Generalni davčni urad DURS. Vpis v evidenco opravi davčni urad, 
 – sklepne ugotovitve preiskave v povezavi s podanim sumom kršitve davčne zakonodaje in<br />
 – podatke o razkritju podatkov.</p>
 <h3>III. VODENJE EVIDENCE</h3>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <h3>(vpis v evidenco)</h3>
 <p>Podatke, o katerih se vodi evidenca, zagotavlja in vpisuje preiskovalec, ki opravi preiskovalno dejanje.</p>
 <h3>IV. KONČNA DOLOČBA</h3>
-<h3>8. člen</h3>
+<h3><span id="člen-8">8. člen</span></h3>
 <h3>(uveljavitev)</h3>
 <p>Ta pravilnik začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 429-07-6/2005/5</p>
@@ -86,5 +99,36 @@ za finance</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2005-09-16", "kratica": "PRAV7093", "naziv": "Pravilnik o vodenju evidence o davčnih preiskavah", "url": "/trubar/si/PRAV7093/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

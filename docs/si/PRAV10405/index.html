@@ -21,23 +21,36 @@
       <dt>Organ</dt><dd>Ministrstvo za okolje in prostor</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2011-01-0094" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10405.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV10405" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV10405.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV10405,vrsta:pravilnik">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
     <h1>Pravilnik o spremembah Pravilnika o presoji sprejemljivosti vplivov izvedbe planov in posegov v naravo na varovana območja</h1>
 <p>Na podlagi petega odstavka 33.a člena, prvega odstavka 101.d člena in tretjega odstavka 104. člena v zvezi s prvim odstavkom 104.a člena Zakona o ohranjanju narave (Uradni list RS, št. 96/04 – uradno prečiščeno besedilo, 61/06 – <a href="/trubar/si/ZDru-1/" class="law-ref" title="ZDru-1">ZDru-1</a> in 8/10 – <a href="/trubar/si/ZSKZ-B/" class="law-ref" title="ZSKZ-B">ZSKZ-B</a>) izdaja minister za okolje in prostor</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah Pravilnika o presoji sprejemljivosti vplivov izvedbe planov in posegov v naravo na varovana območja</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V Pravilniku o presoji sprejemljivosti vplivov izvedbe planov in posegov v naravo na varovana območja (Uradni list RS, št. 130/04, 53/06 in 38/10) se v Prilogi 2 v poglavju XII. pri posegu v naravo »Redčenje ali odstranjevanje obrežne vegetacije« v polju »Opombe« številka »0« nadomesti z besedilom »Razen varstveno sanacijskih sečenj«.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>V poglavju XIV. priloge 2 se pri posegu v naravo »Krčenje ali odstranjevanje grmovja, mejic, posameznih dreves ali manjših skupin dreves« v polju »Opombe« številka »0« nadomesti z besedilom »Razen varstveno-sanacijskih sečenj«.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Poglavje XV. priloge 2 se nadomesti z novim poglavjem XV. priloge 2, ki je kot priloga 1 sestavni del tega pravilnika.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Postopki, ki so se začeli na podlagi Pravilnika o presoji sprejemljivosti vplivov izvedbe planov in posegov v naravo na varovana območja (Uradni list RS, št. 130/04, 53/06 in 38/10) in se do uveljavitve tega pravilnika še niso končali, se končajo po dosedanjih predpisih.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 0071-22/2006</p>
 <p>Ljubljana, dne 11. januarja 2011</p>
@@ -52,5 +65,36 @@ Minister za okolje in prostor</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2011-01-14", "kratica": "PRAV10405", "naziv": "Pravilnik o spremembah Pravilnika o presoji sprejemljivosti vplivov izvedbe planov in posegov v naravo na varovana območja", "url": "/trubar/si/PRAV10405/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

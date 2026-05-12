@@ -23,10 +23,23 @@ Interpretativna deklaracija Državnega zbora Republike Slovenije v zvezi z ratif
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1997-02-0051" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MESP.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MESP" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MESP.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MESP,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Evropskega sporazuma o pridružitvi med Republiko Slovenijo na eni strani in Evropskimi skupnostmi in njihovimi državami članicami, ki delujejo v okviru Evropske unije na drugi strani s sklepno listino ter Protokola, s katerim se spreminja Evropski sporazum o pridružitvi med Republiko Slovenijo na eni strani in Evropskimi skupnostmi in njihovimi državami članicami, ki delujejo v okviru Evropske unije na drugi strani</h1>
 <p>Interpretativna deklaracija Državnega zbora Republike Slovenije v zvezi z ratifikacijo Evropskega sporazuma o pridružitvi med Republiko Slovenijo na eni strani in Evropskimi skupnostmi in njihovimi državami članicami, ki delujejo v okviru Evropske unije na drugi strani</p>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
@@ -40,15 +53,15 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI EVROPSKEGA SPORAZUMA O PRIDRUŽITVI MED REPUBLIKO SLOVENIJO  NA ENI STRANI IN EVROPSKIMI SKUPNOSTMI IN NJIHOVIMI DRŽAVAMI ČLANICAMI,  KI DELUJEJO V OKVIRU EVROPSKE UNIJE NA DRUGI STRANI S SKLEPNO LISTINO  TER PROTOKOLA, S KATERIM SE SPREMINJA EVROPSKI SPORAZUM O PRIDRUŽITVI  MED REPUBLIKO SLOVENIJO NA ENI STRANI IN EVROPSKIMI SKUPNOSTMI TER NJIHOVIMI DRŽAVAMI ČLANICAMI, KI DELUJEJO V OKVIRU EVROPSKE UNIJE NA DRUGI STRANI (MESP)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Evropski sporazum o pridružitvi med Republiko Slovenijo na eni strani in Evropskimi skupnostmi in njihovimi državami članicami, ki delujejo v okviru Evropske unije na drugi strani s sklepno listino (v nadaljnjem besedilu: sporazum), podpisan 10. junija 1996 v Luksemburgu ter Protokol, s katerim se spreminja Evropski sporazum o pridružitvi med Republiko Slovenijo na eni strani in Evropskimi skupnostmi ter njihovimi državami članicami, ki delujejo v okviru Evropske unije na drugi strani, podpisan 11. novembra 1996 v Bruslju.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Sporazum in protokol se v izvirniku v slovenskem in angleškem jeziku glasita:*</p>
 <p>Evropski sporazum o pridružitvi med Republiko Slovenijo na eni strani in Evropskimi skupnostmi in njihovimi državami članicami, ki delujejo v okviru Evropske unije na drugi strani</p>
 <p>Europe agreement establishing an association between the European communities and their member states, acting within the framework of the european union, of the one part, and The Republic of Slovenia, of the other part</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje sporazuma in protokola skrbi Vlada Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe.</p>
 <p>Št. 311-04/97-27/3</p>
 <p>Ljubljana, dne 15. julija 1997</p>
@@ -67,5 +80,36 @@ Janez Podobnik, dr. med. l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1997-07-24", "kratica": "MESP", "naziv": "Zakon o ratifikaciji Evropskega sporazuma o pridružitvi med Republiko Slovenijo na eni strani in Evropskimi skupnostmi in njihovimi državami članicami, ki delujejo v okviru Evropske unije na drugi strani s sklepno listino ter Protokola, s katerim se spreminja Evropski sporazum o pridružitvi med Republiko Slovenijo na eni strani in Evropskimi skupnostmi in njihovimi državami članicami, ki delujejo v okviru Evropske unije na drugi strani\nInterpretativna deklaracija Državnega zbora Republike Slovenije v zvezi z ratifikacijo Evropskega sporazuma o pridružitvi med Republiko Slovenijo na eni strani in Evropskimi skupnostmi in njihovimi državami članicami, ki delujejo v okviru Evropske unije na drugi strani", "url": "/trubar/si/MESP/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

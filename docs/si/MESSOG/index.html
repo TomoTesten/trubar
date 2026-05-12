@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2009-02-0076" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/MESSOG.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=MESSOG" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/MESSOG.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:MESSOG,vrsta:Sprejet zakon">
+    
     <h1>Zakon o ratifikaciji Vmesnega sporazuma o gospodarskem partnerstvu med Slonokoščeno obalo na eni strani ter Evropsko skupnostjo in njenimi državami članicami na drugi strani</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,9 +50,9 @@ Predsednik<br />
 Republike Slovenije</p>
 <h2>Z A K O N</h2>
 <p>O RATIFIKACIJI VMESNEGA SPORAZUMA O GOSPODARSKEM PARTNERSTVU MED SLONOKOŠČENO OBALO NA ENI STRANI TER EVROPSKO SKUPNOSTJO IN NJENIMI DRŽAVAMI ČLANICAMI NA DRUGI STRANI (MESSOG)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Ratificira se Vmesni sporazum o gospodarskem partnerstvu med Slonokoščeno obalo na eni strani ter Evropsko skupnostjo in njenimi državami članicami na drugi strani, sklenjen 22. januarja 2009 v Bruslju.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Besedilo Vmesnega sporazuma se v izvirniku v slovenskem in angleškem jeziku glasi(1):<br />
 ВРЕМЕННО СПОРАЗУМЕНИЕ ЗА ИКОНОМИЧЕСКО ПАРТНЬОРСТВО МЕЖДУ КОТ Д’ИВОАР, ОТ ЕДНА СТРАНА, И ЕВРОПЕЙСКАТА ОБЩНОСТ И НЕЙНИТЕ ДЪРЖАВИ-ЧЛЕНКИ, ОТ ДРУГА СТРАНА<br />
 ACUERDO DE ASOCIACIÓN ECONÓMICA PRELIMINAR<br />
@@ -1648,9 +1661,9 @@ emanating from the applicant authority and falling within the scope of this Prot
 <li>Notwithstanding the provisions of paragraph 1, the provisions of this Protocol shall take precedence over the provisions of any bilateral agreement on mutual assistance which has been or may be concluded between individual Member States and Côte d'Ivoire insofar as the provisions of the latter are incompatible with those of this Protocol.</li>
 <li>In respect of questions relating to the applicability of this Protocol, the Parties shall consult each other to resolve the matter in the framework of the EPA Committee set up under Article 73 of the stepping stone Economic Partnership Agreement between Cote d'Ivoire and the European Community and its Member States.</li>
 </ol>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Za izvajanje Vmesnega sporazuma skrbi Vlada Republike Slovenije.</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije – Mednarodne pogodbe</p>
 <p>Št. 310-08/09-6/9</p>
 <p>Ljubljana, dne 25. septembra 2009</p>
@@ -1674,5 +1687,36 @@ predsednik</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2009-10-27", "kratica": "MESSOG", "naziv": "Zakon o ratifikaciji Vmesnega sporazuma o gospodarskem partnerstvu med Slonokoščeno obalo na eni strani ter Evropsko skupnostjo in njenimi državami članicami na drugi strani", "url": "/trubar/si/MESSOG/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

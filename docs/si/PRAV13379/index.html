@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2018-01-0171" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV13379.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV13379" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV13379.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV13379,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah Pravilnika o načinu ugotavljanja premoženja in njegove vrednosti pri dodeljevanju pravic iz javnih sredstev ter o razlogih za zmanjševanje v postopku dodelitve denarne socialne pomoči</h1>
 <p>Na podlagi tretjega in četrtega odstavka 17. člena Zakona o uveljavljanju pravic iz javnih sredstev (Uradni list RS, št. 62/10, 40/11, 40/12 – <a href="/trubar/si/ZUJF/" class="law-ref" title="ZUJF">ZUJF</a>, 57/12 – <a href="/trubar/si/ZPCP-2D/" class="law-ref" title="ZPCP-2D">ZPCP-2D</a>, 14/13, 56/13 – <a href="/trubar/si/ZŠtip-1/" class="law-ref" title="ZŠtip-1">ZŠtip-1</a>, 99/13, 14/15 – <a href="/trubar/si/ZUUJFO/" class="law-ref" title="ZUUJFO">ZUUJFO</a>, 57/15, 90/15, 38/16 – odl. US, 51/16 – odl. US, 88/16, 61/17 – ZUPŠ in 75/17) in tretjega odstavka 31. člena Zakona o socialno varstvenih prejemkih (Uradni list RS, št. 61/10, 40/11, 14/13, 99/13, 90/15 in 88/16) izdaja ministrica za delo, družino, socialne zadeve in enake možnosti</p>
 <p>P R A V I L N I K</p>
@@ -78,5 +91,36 @@ l.r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2018-01-26", "kratica": "PRAV13379", "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o načinu ugotavljanja premoženja in njegove vrednosti pri dodeljevanju pravic iz javnih sredstev ter o razlogih za zmanjševanje v postopku dodelitve denarne socialne pomoči", "url": "/trubar/si/PRAV13379/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

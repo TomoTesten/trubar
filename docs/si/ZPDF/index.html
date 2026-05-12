@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-1356" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPDF.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZPDF" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZPDF.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZPDF,vrsta:Sprejet zakon">
+    <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a></nav>
     <h1>Zakon o prevzemu državnih funkcij, ki so jih do 31.12.1994 opravljali organi občin</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in drugega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,11 +50,11 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O PREVZEMU DRŽAVNIH FUNKCIJ, KI SO JIH DO 31. 12. 1994 OPRAVLJALI ORGANI OBČIN</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>Državne funkcije, ki so jih po 5. členu ustavnega zakona za izvedbo ustave Republike Slovenije do 31. 12. 1994 opravljali organi občin na podlagi predpisov, izdanih pred uveljavitvijo ustave Republike Slovenije, opravljajo od 1. 1. 1995 dalje pristojni državni organi.</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Upravne naloge, ki so s predpisi iz prejšnjega člena določene kot pristojnosti občinskih organov in so jih do 31. 5. 1995 opravljale upravne enote in ministrstva v skladu s 101. členom zakona o upravi (Uradni list RS, št. 67/94), opravljajo od 1. 6. 1995 ti organi v skladu z določbami tega zakona.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Upravne enote opravljajo upravne naloge, ki so določene kot pristojnosti občinskih organov v naslednjih zakonih:<br />
 I. Na delovnem področju Ministrstva za delo, družino in socialne zadeve:<br />
 1. zakon o zakonski zvezi in družinskih razmerjih (Uradni list SRS, št. 15/76 in 1/89),<br />
@@ -121,16 +134,16 @@ VIII. Na delovnem področju Ministrstva za šolstvo in šport:<br />
 IX. Na delovnem področju Ministrstva za zdravstvo:<br />
 1. zakon o zdravstvenih ukrepih pri uresničevanju pravice do svobodnega odločanja o rojstvu otrok (Uradni list SRS, št. 11/77 in 42/86),<br />
 2. zakon o varstvu prebivalstva pred nalezljivimi boleznimi (Uradni list SRS, št. 18/87).</p>
-<h3>4. člen</h3>
+<h3><span id="člen-4">4. člen</span></h3>
 <p>Pristojna ministrstva in upravni organi v njihovi sestavi neposredno opravljajo upravne naloge, ki so s predpisi iz 1. člena tega zakona določene kot pristojnosti občinskih organov na področjih:<br />
 1. geodetske službe,<br />
 2. upravnega in inšpekcijskega nadzorstva,<br />
 3. obrambe in zaščite.</p>
-<h3>5. člen</h3>
+<h3><span id="člen-5">5. člen</span></h3>
 <p>Šteje se, da so posamične upravne akte, ki so jih izdale upravne enote, ministrstva in organi v njihovi sestavi na podlagi 101. člena zakona o upravi do dneva uveljavitve tega zakona, izdali pristojni organi.</p>
-<h3>6. člen</h3>
+<h3><span id="člen-6">6. člen</span></h3>
 <p>Z dnem uveljavitve tega zakona neha veljati drugi odstavek 101. člena zakona o upravi (Uradni list RS, št. 67/94).</p>
-<h3>7. člen</h3>
+<h3><span id="člen-7">7. člen</span></h3>
 <p>Ta zakon začne veljati 1. junija 1995.</p>
 <p>Št. 020-01/95-5/1</p>
 <p>Ljubljana, dne 26. maja 1995.</p>
@@ -146,5 +159,36 @@ Jožef Školč l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1995-05-30", "kratica": "ZPDF", "naziv": "Zakon o prevzemu državnih funkcij, ki so jih do 31.12.1994 opravljali organi občin", "url": "/trubar/si/ZPDF/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1996-01-2450" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZNPMBP-A.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=ZNPMBP-A" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZNPMBP-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZNPMBP-A,vrsta:Sprejet zakon">
+    
     <h1>Zakon o spremembah in dopolnitvah zakona o najetju posojila pri Mednarodni banki za obnovo in razvoj za pripravo projektov za realizacijo strategije namakanja</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
@@ -37,12 +50,12 @@ Republike Slovenije<br />
 Milan Kučan l. r.</p>
 <h2>Z A K O N</h2>
 <p>O SPREMEMBAH IN DOPOLNITVAH ZAKONA O NAJETJU POSOJILA PRI MEDNARODNI BANKI ZA OBNOVO IN RAZVOJ ZA PRIPRAVO PROJEKTOV ZA REALIZACIJO STRATEGIJE NAMAKANJA (ZNPMBP-A)</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V 1. členu zakona o najetju posojila pri Mednarodni banki za obnovo in razvoj za pripravo projektov za realizacijo strategije namakanja (<a href="/trubar/si/ZNPMBP/" class="law-ref" title="ZNPMBP">ZNPMBP</a>, Uradni list RS, št. 8/96) se črta druga alinea drugega odstavka.<br />
 Dodata se nov tretji in četrti odstavek, ki se glasita:</p>
 <p>“Če izdelana investicijsko-tehnična dokumentacija pokaže upravičenost izvedbe projekta, bo znesek posojila vrnjen s črpanjem bodočega posojila Mednarodne banke za obnovo in razvoj.</p>
 <p>Če izdelana investicijsko-tehnična dokumentacija pokaže neupravičenost izvedbe projekta, bo znesek posojila, ki bo manjši kot 50.000 USD, vrnjen v enem obroku, medtem ko bo znesek, večji kot 50.000 USD, vrnjen v desetih približno enakih polletnih obrokih.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 440-03/96-59/2</p>
 <p>Ljubljana, dne 2. julija 1996.</p>
@@ -58,5 +71,36 @@ Jožef Školč l. r.</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "1996-07-19", "kratica": "ZNPMBP-A", "naziv": "Zakon o spremembah in dopolnitvah zakona o najetju posojila pri Mednarodni banki za obnovo in razvoj za pripravo projektov za realizacijo strategije namakanja", "url": "/trubar/si/ZNPMBP-A/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

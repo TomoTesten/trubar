@@ -21,26 +21,39 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0662" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1917.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG1917" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG1917.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG1917,vrsta:drugi akt">
+    
     <h1>Spremembe in dopolnitve splošnih pogojev poslovanja Filmskega sklada Republike Slovenije - javnega sklada</h1>
 <p>Uprava Filmskega sklada Republike Slovenije – javnega sklada je na podlagi 6. in 16. člena zakona o javnih skladih (Uradni list RS, št. 22/00) in osme alinee prvega odstavka 12. člena sklepa o ustanovitvi Filmskega sklada Republke Slovenije – javnega sklada (Uradni list RS, št. 96/00, 111/00 in 66/01, 84/01 in 85/02) ter zakona o Filmskem skladu Republike Slovenije (Uradni list RS, št.  17/94, 22/00 in 59/01), po predhodnem soglasju nadzornega sveta z dne 30. 6. 2003, 29. 12. 2003 in 11. 2. 2004 sprejela</p>
 <h2>S P R E M E M B E   I N   D O P O L N I T V E</h2>
 <p>S P L O Š N I H   P O G O J E V<br />
 poslovanja Filmskega sklada Republike Slovenije – javnega sklada</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V splošnih pogojih poslovanja Filmskega sklada Republike Slovenije – javnega sklada (Uradni list RS, št. 69/03, 5/04) se 3. člen spremeni tako, da se glasi:</p>
 <h3>»3. člen</h3>
 <p>Za sredstva sklada se lahko potegujejo pravne osebe, ki so v Republiki Sloveniji registrirane za opravljanje dejavnosti s področja filmske in video dejavnosti (producenti) ter fizične osebe, s prebivališčem v Republiki Sloveniji.<br />
 Za sredstva sklada se lahko potegujejo poleg oseb iz prejšnjega odstavka tega člena tudi tuje pravne in fizične osebe, če izpolnjujejo pogoj iz 20. člena zakona o Filmskem skladu Republike Slovenije.«</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Doda se nov 56. člen, ki se glasi:</p>
 <h3>»56. člen</h3>
 <p>V obdobju do vzpostavitve razvida pri ministrstvu, pristojnem za kulturo, kot to določa 19. člen zakona o filmskem skladu, se pravna oseba iz 3. člena SPP lahko poteguje za sredstva sklada, če predloži dokazilo o registraciji dejavnosti s področja filmske in video dejavnosti.«<br />
 Dosedanji 56. člen postane 57. člen in vsi naslednji členi se ustrezno preštevilčijo.</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Te spremembe in dopolnitve splošnih pogojev začnejo veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Ljubljana, dne 11. februarja 2004.</p>
 <p>Saša Jovanović l. r.<br />
@@ -56,5 +69,36 @@ Predsednik NS</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2004-02-20", "kratica": "DRUG1917", "naziv": "Spremembe in dopolnitve splošnih pogojev poslovanja Filmskega sklada Republike Slovenije - javnega sklada", "url": "/trubar/si/DRUG1917/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

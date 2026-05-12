@@ -21,10 +21,23 @@
       
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2022-01-2753" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5090.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=DRUG5090" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG5090.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:DRUG5090,vrsta:drugi akt">
+    
     <h1>Začasni dogovor o izvajanju 4. točke prvega odstavka 22.n člena Kolektivne pogodbe za policiste in zagotavljanju fonda plačanih ur za sindikalno delo sindikalnih zaupnikov, ki delujejo v stalnem organu sindikata</h1>
 <p>Na podlagi drugega odstavka 20. člena Zakona o kolektivnih pogodbah (Uradni list RS, št. 43/06 in 45/08 – ZArbit) stranke</p>
 <p>VLADA REPUBLIKE SLOVENIJE, Gregorčičeva ulica 20, 25, 1000 Ljubljana, ki jo zastopa mag. Tatjana Bobnar, ministrica za notranje zadeve, na strani delodajalca ter</p>
@@ -91,5 +104,36 @@ za notranje zadeve</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2022-08-31", "kratica": "DRUG5090", "naziv": "Začasni dogovor o izvajanju 4. točke prvega odstavka 22.n člena Kolektivne pogodbe za policiste in zagotavljanju fonda plačanih ur za sindikalno delo sindikalnih zaupnikov, ki delujejo v stalnem organu sindikata", "url": "/trubar/si/DRUG5090/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>

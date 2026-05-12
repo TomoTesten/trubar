@@ -21,28 +21,41 @@
       <dt>Organ</dt><dd>Ministrstvo za promet</dd>
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2003-01-4699" target="_blank">Uradni list RS</a></dd>
     </dl>
-    <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5265.md" class="btn-sm" target="_blank">Prikaži na GitHub ↗</a>
+
+    <div class="sidebar-actions">
+      <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
+      <a href="/trubar/primerjaj/?a=PRAV5265" class="btn-action">⇄ Primerjaj</a>
+      <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV5265.md" class="btn-action" target="_blank">GitHub ↗</a>
+    </div>
+
+    <div class="date-picker-box">
+      <label for="law-date"><strong>Stanje na datum:</strong></label>
+      <input type="date" id="law-date" min="1991-01-01">
+      <div id="date-result"></div>
+    </div>
   </aside>
+
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:PRAV5265,vrsta:pravilnik">
+    
     <h1>Pravilnik o spremembah in dopolnitvah pravilnika o pogojih za opravljanje varnega prometa in vzdrževanje reda v pristaniščih in ostalih delih teritorialnega morja in notranjih morskih voda</h1>
 <p>Na podlagi petega odstavka 57. člena pomorskega zakonika (Uradni list RS, št. 26/01 in 21/02) izdaja minister za promet</p>
 <h2>P R A V I L N I K</h2>
 <p>o spremembah in dopolnitvah pravilnika<br />
 o pogojih za opravljanje varnega prometa<br />
 in vzdrževanje reda v pristaniščih in ostalih delih teritorialnega morja in notranjih morskih voda*</p>
-<h3>1. člen</h3>
+<h3><span id="člen-1">1. člen</span></h3>
 <p>V pravilniku o pogojih za opravljanje varnega prometa in vzdrževanje reda v pristaniščih in ostalih delih teritorialnega morja in notranjih morskih voda (Uradni list RS, št. 72/01) se v 33. členu spremeni tako, da se glasi:</p>
 <h3>“3. člen</h3>
 <p>Ladja mora ob prihodu iz tujine v pristanišče izročiti upravi splošno izjavo, seznam posadke in zdravstveno izjavo. Ladja, ki prevaža potnike, mora izročiti tudi seznam potnikov.</p>
 <p>Ladja mora ob prihodu iz tujine v pristanišče na zahtevo pristojnega organa izročiti izjavo o ladijskih zalogah in izjavo o osebnih predmetih članov posadke.</p>
 <p>Obrazci splošne izjave, izjave o ladijskih zalogah, izjave o osebnih predmetih članov posadke, seznama članov posadke in seznama potnikov so kot Priloga št. III sestavni del tega pravilnika.”</p>
-<h3>2. člen</h3>
+<h3><span id="člen-2">2. člen</span></h3>
 <p>Prvi odstavek 34. člena se nadomesti s tremi novimi odstavki, ki se glasijo:</p>
 <p>“Ladja mora ob prijavi odhoda iz pristanišča v tujino izročiti upravi listine iz prvega odstavka prejšnjega člena, razen zdravstvene izjave.</p>
 <p>Ladja mora ob prijavi odhoda iz pristanišča v tujino na zahtevo pristojnega organa izročiti tudi izjavo o ladijskih zalogah.<br />
 Seznam članov posadke je lahko kopija seznama, priloženega ob prihodu ladje, z označenimi spremembami v številu in sestavi članov posadke.”</p>
-<h3>3. člen</h3>
+<h3><span id="člen-3">3. člen</span></h3>
 <p>Ta pravilnik začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.</p>
 <p>Št. 2620-12/2001/13</p>
 <p>Ljubljana, dne 9. oktobra 2003.</p>
@@ -61,5 +74,36 @@ Minister za promet</p>
   Zakonodaja RS, javna domena (CC0) ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a>
 </footer>
+<script>
+(function(){
+  var versions = [{"date": "2003-11-06", "kratica": "PRAV5265", "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o pogojih za opravljanje varnega prometa in vzdrževanje reda v pristaniščih in ostalih delih teritorialnega morja in notranjih morskih voda", "url": "/trubar/si/PRAV5265/"}];
+  var input = document.getElementById('law-date');
+  var result = document.getElementById('date-result');
+  function findVersion(date) {
+    var found = null;
+    for (var i = 0; i < versions.length; i++) {
+      if (versions[i].date <= date) found = versions[i];
+      else break;
+    }
+    return found;
+  }
+  function update() {
+    var d = input.value;
+    if (!d) { result.innerHTML = ''; return; }
+    var v = findVersion(d);
+    if (!v) {
+      result.innerHTML = '<p class="date-note">Zakon na ta datum še ni obstajal.</p>';
+    } else {
+      result.innerHTML = '<p class="date-note">Na dan <strong>' + d + '</strong> je veljala verzija:<br>'
+        + '<a href="' + v.url + '">' + v.kratica + '</a>'
+        + ' (od ' + v.date + ')</p>';
+    }
+  }
+  input.addEventListener('change', update);
+  // Handle ?date= query param
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+</script>
 </body>
 </html>
