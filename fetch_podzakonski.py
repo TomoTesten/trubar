@@ -211,6 +211,13 @@ def git_commit_item(filepath, date_str, message):
     e["GIT_AUTHOR_DATE"]    = iso
     e["GIT_COMMITTER_DATE"] = iso
     subprocess.run(["git", "add", str(filepath)], cwd=str(REPO_DIR), check=True)
+    # Check if anything is actually staged (file might already be committed)
+    diff = subprocess.run(
+        ["git", "diff", "--cached", "--name-only"],
+        cwd=str(REPO_DIR), capture_output=True, text=True
+    )
+    if not diff.stdout.strip():
+        return  # already committed, nothing to do
     subprocess.run(
         ["git", "commit", "-m", message, "--allow-empty-message"],
         cwd=str(REPO_DIR), env=e, check=True, capture_output=True,

@@ -88,6 +88,38 @@ def inject_crosslinks(html_str, crosslink_re, kratica_idx, current_slug):
                    for i, p in enumerate(parts))
 
 
+# Matches EU directives, regulations, decisions referenced in Slovenian law texts.
+# Direktiva/Odločba/Sklep YYYY/NNN/EU|ES → EUR-Lex CELEX
+# Uredba (EU|ES) YYYY/NNN → EUR-Lex CELEX
+_EU_RE = re.compile(
+    r'(?:'
+    r'(?P<dir>Direktiva\s+(?P<dir_y>\d{4})/(?P<dir_n>\d+)/(?:ES|EU|EGS|Euratom))'
+    r'|(?P<odl>Odločba\s+(?P<odl_y>\d{4})/(?P<odl_n>\d+)/(?:ES|EU|EGS))'
+    r'|(?P<skl>Sklep\s+(?P<skl_y>\d{4})/(?P<skl_n>\d+)/(?:EU|ES|EGS))'
+    r'|(?P<ure>Uredba\s+\((?:EU|ES|EGS|Euratom)\)\s+(?:št\.\s+)?(?P<ure_y>\d{4})/(?P<ure_n>\d+))'
+    r')'
+)
+
+def inject_eu_links(html_str):
+    """Replace EU law references in text nodes with EUR-Lex links."""
+    def eu_repl(m):
+        if m.group('dir'):
+            year, num, tc = m.group('dir_y'), m.group('dir_n'), 'L'
+        elif m.group('odl'):
+            year, num, tc = m.group('odl_y'), m.group('odl_n'), 'D'
+        elif m.group('skl'):
+            year, num, tc = m.group('skl_y'), m.group('skl_n'), 'D'
+        else:
+            year, num, tc = m.group('ure_y'), m.group('ure_n'), 'R'
+        celex = f"3{year}{tc}{int(num):04d}"
+        url = f"https://eur-lex.europa.eu/legal-content/SL/TXT/?uri=CELEX:{celex}"
+        return f'<a href="{url}" class="eu-ref" target="_blank" title="EUR-Lex {celex}">{m.group(0)}</a>'
+
+    parts = re.split(r'(<[^>]+>)', html_str)
+    return "".join(_EU_RE.sub(eu_repl, p) if i % 2 == 0 else p
+                   for i, p in enumerate(parts))
+
+
 # ── HTML helpers ───────────────────────────────────────────────────────────────
 
 def status_badge(status):
@@ -141,11 +173,34 @@ def build_version_history(front, kratica_idx):
     return versions
 
 
-def render_law_page(slug, front, body_md, kratica_idx, crosslink_re):
+def render_court_decisions(decisions):
+    """Render a 'Sodna praksa' section from court_links entries."""
+    if not decisions:
+        return ""
+    items = []
+    for d in decisions:
+        datum  = d.get("datum") or ""
+        zbirka = d.get("zbirka") or ""
+        vir    = d.get("vir") or ""
+        doc_id = d.get("id") or ""
+        label  = f"{datum[:10]}" if datum else doc_id
+        short_z = zbirka.replace("Sodna praksa ", "").replace(" sodišča", "")
+        link = f'<a href="{htmllib.escape(vir)}" class="court-ref" target="_blank">{label} ({htmllib.escape(short_z)})</a>' if vir else label
+        items.append(f"<li>{link}</li>")
+    return (
+        '<section class="court-decisions">'
+        '<h2>Sodna praksa</h2>'
+        f'<ul>{"".join(items)}</ul>'
+        '</section>'
+    )
+
+
+def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links=None):
     body_md, toc = add_article_anchors(body_md)
     md.reset()
     body_html = md.convert(body_md)
     body_html = inject_crosslinks(body_html, crosslink_re, kratica_idx, slug)
+    body_html = inject_eu_links(body_html)
     toc_html  = render_toc(toc)
 
     kratica = front.get("kratica") or slug
@@ -185,6 +240,9 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re):
             f'<a href="{gh_history_url}" class="history-link" target="_blank" title="Celotna git zgodovina">git ↗</a>'
             f'</h2><ul>{"".join(items)}</ul></section>'
         )
+
+    decisions = (court_links or {}).get(kratica, [])
+    court_html = render_court_decisions(decisions)
 
     compare_url = f"{BASE}/primerjaj/?a={htmllib.escape(kratica)}"
 
@@ -230,6 +288,7 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re):
     {toc_html}
     {body_html}
     {amend_html}
+    {court_html}
   </article>
 </div>
 <footer>
@@ -500,6 +559,14 @@ header nav a { color: #555; font-size: 14px; }
 /* Cross-reference links */
 a.law-ref { color: #0645ad; border-bottom: 1px dotted #0645ad; }
 a.law-ref:hover { background: #eaf3fb; }
+a.eu-ref { color: #003399; border-bottom: 1px dotted #003399; }
+a.eu-ref:hover { background: #eef2ff; }
+.court-decisions { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e0e0e0; }
+.court-decisions h2 { font-size: 1rem; color: #555; margin-bottom: 0.5rem; }
+.court-decisions ul { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 1.5rem; }
+.court-decisions li { font-size: 0.85rem; margin-bottom: 0.25rem; break-inside: avoid; }
+a.court-ref { color: #5a2d82; }
+a.court-ref:hover { text-decoration: underline; }
 
 /* Article TOC */
 .toc {
@@ -562,6 +629,7 @@ a.law-ref:hover { background: #eaf3fb; }
   .law-meta { border: none; padding: 0; margin-bottom: 12px; }
   .law-body { border: none; padding: 0; box-shadow: none; }
   a.law-ref { color: #000; border-bottom: none; }
+  a.eu-ref { color: #000; border-bottom: none; }
   .law-title { font-size: 1.2rem; }
 }
 
@@ -625,6 +693,14 @@ def main():
     crosslink_re = make_crosslink_re(kratica_idx)
     print(f"  {len(kratica_idx)} kratice for cross-linking")
 
+    court_links_path = REPO_DIR / "data" / "court_links.json"
+    if court_links_path.exists():
+        court_links = json.loads(court_links_path.read_text())
+        print(f"  Loaded court links for {len(court_links)} kratice")
+    else:
+        court_links = {}
+        print("  No court_links.json found, skipping sodna praksa links")
+
     # Categorise
     by_vrsta = {}
     for slug, front in fronts.items():
@@ -666,7 +742,7 @@ def main():
         _, body = parse_md(paths[slug])   # load body only when needed
         page_dir = DOCS_DIR / "si" / slug
         page_dir.mkdir(exist_ok=True)
-        page_html = render_law_page(slug, front, body, kratica_idx, crosslink_re)
+        page_html = render_law_page(slug, front, body, kratica_idx, crosslink_re, court_links)
         (page_dir / "index.html").write_text(page_html, encoding="utf-8")
         generated += 1
         if generated % 500 == 0:
