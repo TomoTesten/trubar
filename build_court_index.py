@@ -5,7 +5,7 @@ Output: data/court_links.json  {kratica: [{id, vir, zbirka, datum},...]}
 Capped at 20 most recent decisions per kratica.
 """
 import json, re
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 import pyarrow.parquet as pq
@@ -41,9 +41,9 @@ def load_kratice():
 
 
 def find_kratice_in_text(text, kratice_set):
-    """O(len(text)) lookup: tokenise then set-intersect. No regex alternation."""
-    tokens = set(_TOK_RE.findall(text))
-    return tokens & kratice_set
+    """O(len(text)) lookup: tokenise then count. Requires ≥2 occurrences to reduce false positives."""
+    counts = Counter(_TOK_RE.findall(text))
+    return {k for k, c in counts.items() if c >= 2 and k in kratice_set}
 
 
 def main():

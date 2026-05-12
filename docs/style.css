@@ -42,6 +42,7 @@ header nav a { color: #555; font-size: 14px; }
 .category-card:hover { border-color: #3366cc; text-decoration: none; }
 .cat-count { font-size: 1.8rem; font-weight: 700; color: #3366cc; }
 .cat-label { font-size: 0.9rem; color: #555; }
+.cat-sublabel { font-size: 0.75rem; color: #888; line-height: 1.3; }
 .hf-card .cat-count { color: #ff9d00; }
 
 /* About */
@@ -58,6 +59,16 @@ header nav a { color: #555; font-size: 14px; }
 }
 @media (max-width: 700px) {
   .law-container { grid-template-columns: 1fr; }
+  .law-body { padding: 16px; }
+  .law-body table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .law-title { font-size: 1.1rem; }
+  header { padding: 10px 16px; }
+  .ai-api-row { flex-direction: column; align-items: stretch; }
+  .ai-apikey, .ai-select, .ai-send-btn { width: 100%; }
+  .amendments li { flex-wrap: wrap; }
+  .court-decisions ul { columns: 1; }
+  .ai-buttons { flex-direction: column; }
+  .ai-btn { min-width: 0; }
 }
 
 /* Sidebar */
@@ -157,9 +168,65 @@ a.court-ref:hover { text-decoration: underline; }
 .compare-pane h2 { font-size: 1rem; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #eee; }
 .compare-pane .law-body-inner { font-size: 0.9rem; line-height: 1.6; }
 
+/* AI assistant panel */
+.ai-section-outer {
+  max-width: 1100px; margin: 0 auto; padding: 0 16px 24px;
+}
+.ai-panel {
+  background: #f6f8fa; border: 1px solid #d0d7de;
+  border-radius: 6px; padding: 1.25rem 1.5rem;
+}
+.ai-panel-title { font-size: 1rem; margin-bottom: 0.4rem; color: #202122; }
+.ai-panel-desc  { font-size: 0.85rem; color: #555; margin-bottom: 0.75rem; line-height: 1.5; }
+.ai-textarea {
+  width: 100%; border: 1px solid #ccc; border-radius: 4px;
+  padding: 8px 10px; font-size: 0.9rem; resize: vertical;
+  font-family: inherit; margin-bottom: 0.75rem; line-height: 1.5;
+}
+.ai-buttons { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 0.6rem; }
+.ai-btn {
+  flex: 1 1 auto; padding: 8px 14px; border: none; border-radius: 4px;
+  cursor: pointer; font-size: 0.85rem; font-weight: 600;
+  transition: opacity .15s; min-width: 130px; text-align: center;
+}
+.ai-btn:hover { opacity: 0.82; }
+.ai-btn-claude   { background: #d97706; color: #fff; }
+.ai-btn-gpt      { background: #10a37f; color: #fff; }
+.ai-btn-deepseek { background: #4a6cf7; color: #fff; }
+.ai-copy-note {
+  font-size: 0.82rem; color: #155724; min-height: 1.3em;
+  padding: 4px 0; line-height: 1.4;
+}
+.ai-advanced { margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid #dde1e7; }
+.ai-advanced summary {
+  cursor: pointer; font-size: 0.85rem; color: #555; user-select: none; padding: 2px 0;
+}
+.ai-api-inner { margin-top: 0.75rem; }
+.ai-api-desc  { font-size: 0.82rem; color: #666; margin-bottom: 0.6rem; line-height: 1.5; }
+.ai-api-row   { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 0.5rem; }
+.ai-select  {
+  padding: 6px 8px; border: 1px solid #ccc; border-radius: 4px;
+  font-size: 0.85rem; flex: 0 0 auto;
+}
+.ai-apikey  {
+  flex: 1 1 160px; padding: 6px 8px; border: 1px solid #ccc;
+  border-radius: 4px; font-size: 0.85rem; min-width: 0;
+}
+.ai-send-btn {
+  padding: 6px 18px; background: #3366cc; color: #fff;
+  border: none; border-radius: 4px; cursor: pointer; font-size: 0.85rem; white-space: nowrap;
+}
+.ai-send-btn:hover { background: #2a55b0; }
+.ai-response {
+  margin-top: 0.75rem; padding: 12px 14px; background: #fff;
+  border: 1px solid #ddd; border-radius: 4px; font-size: 0.88rem;
+  line-height: 1.65; white-space: pre-wrap; display: none;
+}
+
 /* Print styles */
 @media print {
-  header nav, .sidebar-actions, .date-picker-box, .toc, footer, .index-search { display: none !important; }
+  header nav, .sidebar-actions, .date-picker-box, .toc, footer, .index-search,
+  .ai-section-outer { display: none !important; }
   .law-container { display: block; }
   .law-meta { border: none; padding: 0; margin-bottom: 12px; }
   .law-body { border: none; padding: 0; box-shadow: none; }
@@ -183,6 +250,9 @@ a.court-ref:hover { text-decoration: underline; }
 .law-table th { background: #f3f4f5; text-align: left; padding: 8px 12px; font-size: 0.9rem; border-bottom: 2px solid #ddd; }
 .law-table td { padding: 7px 12px; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; }
 .law-table tr:hover td { background: #f8f9fa; }
+
+.npb-link { background: #f0f9f0; border-color: #2e7d32; color: #2e7d32; margin-top: 4px; }
+.npb-link:hover { background: #2e7d32; color: #fff; }
 
 footer {
   text-align: center; padding: 24px; color: #555; font-size: 0.85rem;

@@ -195,7 +195,7 @@ def render_court_decisions(decisions):
     )
 
 
-def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links=None):
+def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links=None, npb=False, npb_slug=None, original_slug=None):
     body_md, toc = add_article_anchors(body_md)
     md.reset()
     body_html = md.convert(body_md)
@@ -205,14 +205,25 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
 
     kratica = front.get("kratica") or slug
     naziv   = front.get("naziv") or kratica
-    datum   = str(front.get("datum") or "")
+    datum   = str(front.get("datum") or front.get("veljaOd") or "")
     organ   = front.get("organ") or ""
     vir_url = front.get("vir") or ""
     vrsta   = front.get("vrsta") or ""
-    gh_url  = f"{GH_BLOB}/si/{slug}.md"
-    gh_history_url = f"https://github.com/TomoTesten/trubar/commits/master/si/{slug}.md"
+    npb_type = front.get("npb") or ""
+    gh_path = f"si/npb/{slug}.md" if npb else f"si/{slug}.md"
+    gh_url  = f"{GH_BLOB}/{gh_path}"
+    gh_history_url = f"https://github.com/TomoTesten/trubar/commits/master/{gh_path}"
 
-    vir_row = f'<dt>Vir</dt><dd><a href="{htmllib.escape(vir_url)}" target="_blank">Uradni list RS</a></dd>' if vir_url else ""
+    vir_label = "PISRS" if npb else "Uradni list RS"
+    vir_row = f'<dt>Vir</dt><dd><a href="{htmllib.escape(vir_url)}" target="_blank">{vir_label}</a></dd>' if vir_url else ""
+    npb_row  = f'<dt>NPB</dt><dd>{htmllib.escape(npb_type)}</dd>' if npb_type else ""
+    npb_link_row = ""
+    if npb_slug:
+        npb_link_row = f'<a href="{BASE}/npb/{htmllib.escape(npb_slug)}/" class="btn-action npb-link">Prečiščeno besedilo (NPB) →</a>'
+    original_link_row = ""
+    if original_slug:
+        original_link_row = f'<a href="{BASE}/si/{htmllib.escape(original_slug)}/" class="btn-action">← Izvirno besedilo</a>'
+    back_url = f"{BASE}/npb/" if npb else f"{BASE}/"
 
     # Version history for date picker
     versions = build_version_history(front, kratica_idx)
@@ -246,6 +257,44 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
 
     compare_url = f"{BASE}/primerjaj/?a={htmllib.escape(kratica)}"
 
+    naziv_json = json.dumps(naziv, ensure_ascii=False)
+
+    ai_html = f"""<section class="ai-panel">
+  <h2 class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</h2>
+  <p class="ai-panel-desc">
+    Besedilo predpisa bo samodejno kopirano skupaj z vašim vprašanjem.
+    Ko se odpre pogovorno okno AI, besedilo prilepite (<kbd>Ctrl+V</kbd> oz. <kbd>Cmd+V</kbd>).
+  </p>
+  <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
+  <div class="ai-buttons">
+    <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
+    <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
+    <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
+  </div>
+  <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
+  <details class="ai-advanced">
+    <summary>Imam lasten API ključ (napredno)</summary>
+    <div class="ai-api-inner">
+      <p class="ai-api-desc">
+        API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
+        <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
+        Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
+        Poizvedba se izvede neposredno do ponudnika, brez posrednika.
+      </p>
+      <div class="ai-api-row">
+        <select id="ai-provider" class="ai-select">
+          <option value="openai">ChatGPT (OpenAI)</option>
+          <option value="deepseek">DeepSeek</option>
+          <option value="mistral">Mistral</option>
+        </select>
+        <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
+        <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
+      </div>
+      <div id="ai-response" class="ai-response"></div>
+    </div>
+  </details>
+</section>"""
+
     return f"""<!DOCTYPE html>
 <html lang="sl">
 <head>
@@ -256,24 +305,27 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
 </head>
 <body>
 <header>
-  <nav><a href="{BASE}/">← T.R.U.B.A.R.</a></nav>
+  <nav><a href="{back_url}">← T.R.U.B.A.R.{" / Prečiščena besedila" if npb else ""}</a></nav>
   <h1 class="law-title">{htmllib.escape(naziv)}</h1>
 </header>
 <div class="law-container">
   <aside class="law-meta">
     <dl>
       <dt>Kratica</dt><dd><strong>{htmllib.escape(kratica)}</strong></dd>
-      <dt>Vrsta</dt><dd>{htmllib.escape(vrsta)}</dd>
-      <dt>Status</dt><dd>{status_badge(str(front.get("status") or ""))}</dd>
+      <dt>Vrsta</dt><dd>{"Prečiščeno besedilo (NPB)" if npb else htmllib.escape(vrsta)}</dd>
+      {"<dt>Status</dt><dd>" + status_badge(str(front.get("status") or "")) + "</dd>" if not npb else ""}
       <dt>Datum</dt><dd>{htmllib.escape(datum)}</dd>
       {"<dt>Organ</dt><dd>" + htmllib.escape(organ) + "</dd>" if organ else ""}
+      {npb_row}
       {vir_row}
     </dl>
 
     <div class="sidebar-actions">
+      {original_link_row}
       <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
       <a href="{compare_url}" class="btn-action">⇄ Primerjaj</a>
       <a href="{gh_url}" class="btn-action" target="_blank">GitHub ↗</a>
+      {npb_link_row}
     </div>
 
     <div class="date-picker-box">
@@ -290,6 +342,9 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
     {amend_html}
     {court_html}
   </article>
+</div>
+<div class="ai-section-outer">
+  {ai_html}
 </div>
 <footer>
   <a href="{BASE}/">Domov</a> ·
@@ -326,22 +381,101 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
   var params = new URLSearchParams(window.location.search);
   if (params.get('date')) {{ input.value = params.get('date'); update(); }}
 }})();
+
+(function(){{
+  var lawName = {naziv_json};
+  var URLS = {{
+    claude:   'https://claude.ai/new',
+    gpt:      'https://chatgpt.com/',
+    deepseek: 'https://chat.deepseek.com/'
+  }};
+  var EPS = {{
+    openai:   {{ url: 'https://api.openai.com/v1/chat/completions',  model: 'gpt-4o-mini' }},
+    deepseek: {{ url: 'https://api.deepseek.com/chat/completions',    model: 'deepseek-chat' }},
+    mistral:  {{ url: 'https://api.mistral.ai/v1/chat/completions',   model: 'mistral-small-latest' }},
+  }};
+
+  function getLawText() {{
+    var el = document.querySelector('.law-body');
+    return el ? el.innerText.slice(0, 5000) : '';
+  }}
+
+  window.aiOpen = function(service) {{
+    var question = document.getElementById('ai-prompt').value.trim();
+    var text = getLawText();
+    var prompt = 'Pravni predpis: ' + lawName + '\\n\\n'
+      + text.slice(0, 4000)
+      + (text.length > 4000 ? '\\n[besedilo je skrajšano zaradi dolžine]\\n' : '\\n')
+      + '\\nVprašanje: ' + question;
+    var note = document.getElementById('ai-copy-note');
+    navigator.clipboard.writeText(prompt)
+      .then(function() {{
+        note.textContent = 'Besedilo je bilo kopirano v odložišče. Ko se odpre pogovorno okno AI, prilepite ga (Ctrl+V oz. Cmd+V).';
+        window.open(URLS[service], '_blank');
+      }})
+      .catch(function() {{
+        window.open(URLS[service], '_blank');
+      }});
+  }};
+
+  var savedKey  = localStorage.getItem('trubar_ai_key');
+  var savedProv = localStorage.getItem('trubar_ai_prov');
+  if (savedKey)  document.getElementById('ai-apikey').value   = savedKey;
+  if (savedProv) document.getElementById('ai-provider').value = savedProv;
+
+  window.aiSendApi = function() {{
+    var provider = document.getElementById('ai-provider').value;
+    var apikey   = document.getElementById('ai-apikey').value.trim();
+    var question = document.getElementById('ai-prompt').value.trim();
+    var respEl   = document.getElementById('ai-response');
+    if (!apikey) {{ respEl.textContent = 'Prosim vnesite API ključ.'; return; }}
+    localStorage.setItem('trubar_ai_key',  apikey);
+    localStorage.setItem('trubar_ai_prov', provider);
+    var text   = getLawText();
+    var ep     = EPS[provider];
+    var sysMsg = 'Si pravni asistent. Odgovarjaš vedno v slovenščini, jasno in razumljivo, brez pravnega žargona. Pomagaš pri razlagi slovenskega pravnega besedila.';
+    var userMsg = 'Predpis: ' + lawName + '\\n\\n' + text.slice(0, 6000) + '\\n\\nVprašanje: ' + question;
+    respEl.textContent = 'Čakam na odgovor ...';
+    respEl.style.display = 'block';
+    fetch(ep.url, {{
+      method: 'POST',
+      headers: {{ 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + apikey }},
+      body: JSON.stringify({{
+        model: ep.model,
+        messages: [
+          {{ role: 'system', content: sysMsg }},
+          {{ role: 'user',   content: userMsg }}
+        ],
+        max_tokens: 1200,
+      }})
+    }}).then(function(r) {{ return r.json(); }})
+      .then(function(data) {{
+        var msg = (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content)
+                  || (data.error && data.error.message)
+                  || JSON.stringify(data);
+        respEl.textContent = msg;
+      }})
+      .catch(function(e) {{ respEl.textContent = 'Napaka: ' + e.message; }});
+  }};
+}})();
 </script>
 </body>
 </html>"""
 
 
-def render_list_page(title, laws_list, desc=""):
+def render_list_page(title, laws_list, desc="", page_prefix=None):
     """A simple browse/list page for a category."""
+    if page_prefix is None:
+        page_prefix = f"{BASE}/si"
     rows = []
     for slug, front in sorted(laws_list, key=lambda x: x[1].get("naziv") or ""):
         kratica = front.get("kratica") or slug
         naziv   = front.get("naziv") or kratica
-        datum   = str(front.get("datum") or "")[:10]
+        datum   = str(front.get("datum") or front.get("veljaOd") or "")[:10]
         st      = str(front.get("status") or "")
         badge   = status_badge(st)
-        has_page = front.get("vrsta") in FULL_PAGE_VRSTE
-        href    = f"{BASE}/si/{slug}/" if has_page else f"{GH_BLOB}/si/{slug}.md"
+        has_page = front.get("vrsta") in FULL_PAGE_VRSTE or front.get("npb")
+        href    = f"{page_prefix}/{slug}/" if has_page else f"{GH_BLOB}/si/{slug}.md"
         target  = "" if has_page else ' target="_blank"'
         rows.append(
             f'<tr><td><a href="{href}"{target}>{htmllib.escape(kratica)}</a></td>'
@@ -417,19 +551,41 @@ def render_index(stats):
       <span class="cat-count">{stats['lokalni']:,}</span>
       <span class="cat-label">Lokalni akti</span>
     </a>
+    <a href="{BASE}/npb/" class="category-card">
+      <span class="cat-count">{stats['npb']:,}</span>
+      <span class="cat-label">Prečiščena besedila</span>
+      <span class="cat-sublabel">Besedila z vgrajenimi spremembami</span>
+    </a>
     <a href="https://huggingface.co/datasets/TomoTesten/trubar-sodna-praksa"
        class="category-card hf-card" target="_blank">
       <span class="cat-count">254k</span>
       <span class="cat-label">Sodne odločbe ↗</span>
+      <span class="cat-sublabel">Prosto dostopna zbirka za razvoj in analizo</span>
     </a>
   </div>
 
   <section class="about">
     <h2>O projektu</h2>
     <p>
-      T.R.U.B.A.R. je arhiv celotnega slovenskega pravnega reda v strojno berljivi obliki.
-      Vsak zakon je datoteka Markdown; vsaka sprememba je <em>git commit</em> — zakonodajna
-      zgodovina od osamosvojitve (1991) je vidna z enim ukazom.
+      T.R.U.B.A.R. je <strong>brezplačni, javno dostopni arhiv celotnega slovenskega pravnega reda</strong>.
+      Vsebuje zakone, uredbe, pravilnike in odloke od osamosvojitve (1991) do danes.
+      Besedila so brez okraskov — samo čisto besedilo, primerno za branje, iskanje in analizo.
+    </p>
+    <p>
+      Vsak predpis ima svojo stran; v iskalno polje vpišete besedo ali frazo in takoj najdete,
+      v katerem zakonu se pojavi. Vsaka sprememba zakona je zabeležena — vidite, kaj se je
+      spremenilo in kdaj.
+    </p>
+    <p>
+      <strong>Prečiščena besedila (NPB):</strong> poleg izvirnih besedil so dostopna neuradna
+      prečiščena besedila, kjer so vse spremembe že vgrajene v besedilo — brez skakanja med
+      osnovnim zakonom in amandmaji. Označena kot "Prečiščena besedila" v zgornjem meniju.
+    </p>
+    <p>
+      <strong>Sodne odločbe (254.000+):</strong> zbrane odločbe Vrhovnega, Ustavnega in
+      višjih sodišč so dostopne tudi kot <em>prosta zbirka za analizo in razvoj programske opreme</em>
+      (gumb "Sodne odločbe ↗" zgoraj vodi na platformo HuggingFace, ki je repozitorij za
+      tovrstne podatkovne zbirke — registracija ni potrebna za prenos).
     </p>
     <p>
       Poimenovan po <a href="https://sl.wikipedia.org/wiki/Primo%C5%BE_Trubar">Primožu Trubarju</a>
@@ -445,7 +601,9 @@ def render_index(stats):
 </div>
 
 <footer>
-  CC0 javna domena · <a href="https://github.com/TomoTesten/trubar">GitHub</a> ·
+  CC0 javna domena ·
+  <a href="{BASE}/npb/">Prečiščena besedila</a> ·
+  <a href="https://github.com/TomoTesten/trubar">GitHub</a> ·
   <a href="https://huggingface.co/datasets/TomoTesten/trubar-sodna-praksa">Hugging Face</a>
 </footer>
 
@@ -507,6 +665,7 @@ header nav a { color: #555; font-size: 14px; }
 .category-card:hover { border-color: #3366cc; text-decoration: none; }
 .cat-count { font-size: 1.8rem; font-weight: 700; color: #3366cc; }
 .cat-label { font-size: 0.9rem; color: #555; }
+.cat-sublabel { font-size: 0.75rem; color: #888; line-height: 1.3; }
 .hf-card .cat-count { color: #ff9d00; }
 
 /* About */
@@ -523,6 +682,17 @@ header nav a { color: #555; font-size: 14px; }
 }
 @media (max-width: 700px) {
   .law-container { grid-template-columns: 1fr; }
+  .law-body { order: -1; }
+  .law-body { padding: 16px; }
+  .law-body table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .law-title { font-size: 1.1rem; }
+  header { padding: 10px 16px; }
+  .ai-api-row { flex-direction: column; align-items: stretch; }
+  .ai-apikey, .ai-select, .ai-send-btn { width: 100%; }
+  .amendments li { flex-wrap: wrap; }
+  .court-decisions ul { columns: 1; }
+  .ai-buttons { flex-direction: column; }
+  .ai-btn { min-width: 0; }
 }
 
 /* Sidebar */
@@ -622,9 +792,65 @@ a.court-ref:hover { text-decoration: underline; }
 .compare-pane h2 { font-size: 1rem; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #eee; }
 .compare-pane .law-body-inner { font-size: 0.9rem; line-height: 1.6; }
 
+/* AI assistant panel */
+.ai-section-outer {
+  max-width: 1100px; margin: 0 auto; padding: 0 16px 24px;
+}
+.ai-panel {
+  background: #f6f8fa; border: 1px solid #d0d7de;
+  border-radius: 6px; padding: 1.25rem 1.5rem;
+}
+.ai-panel-title { font-size: 1rem; margin-bottom: 0.4rem; color: #202122; }
+.ai-panel-desc  { font-size: 0.85rem; color: #555; margin-bottom: 0.75rem; line-height: 1.5; }
+.ai-textarea {
+  width: 100%; border: 1px solid #ccc; border-radius: 4px;
+  padding: 8px 10px; font-size: 0.9rem; resize: vertical;
+  font-family: inherit; margin-bottom: 0.75rem; line-height: 1.5;
+}
+.ai-buttons { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 0.6rem; }
+.ai-btn {
+  flex: 1 1 auto; padding: 8px 14px; border: none; border-radius: 4px;
+  cursor: pointer; font-size: 0.85rem; font-weight: 600;
+  transition: opacity .15s; min-width: 130px; text-align: center;
+}
+.ai-btn:hover { opacity: 0.82; }
+.ai-btn-claude   { background: #d97706; color: #fff; }
+.ai-btn-gpt      { background: #10a37f; color: #fff; }
+.ai-btn-deepseek { background: #4a6cf7; color: #fff; }
+.ai-copy-note {
+  font-size: 0.82rem; color: #155724; min-height: 1.3em;
+  padding: 4px 0; line-height: 1.4;
+}
+.ai-advanced { margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid #dde1e7; }
+.ai-advanced summary {
+  cursor: pointer; font-size: 0.85rem; color: #555; user-select: none; padding: 2px 0;
+}
+.ai-api-inner { margin-top: 0.75rem; }
+.ai-api-desc  { font-size: 0.82rem; color: #666; margin-bottom: 0.6rem; line-height: 1.5; }
+.ai-api-row   { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 0.5rem; }
+.ai-select  {
+  padding: 6px 8px; border: 1px solid #ccc; border-radius: 4px;
+  font-size: 0.85rem; flex: 0 0 auto;
+}
+.ai-apikey  {
+  flex: 1 1 160px; padding: 6px 8px; border: 1px solid #ccc;
+  border-radius: 4px; font-size: 0.85rem; min-width: 0;
+}
+.ai-send-btn {
+  padding: 6px 18px; background: #3366cc; color: #fff;
+  border: none; border-radius: 4px; cursor: pointer; font-size: 0.85rem; white-space: nowrap;
+}
+.ai-send-btn:hover { background: #2a55b0; }
+.ai-response {
+  margin-top: 0.75rem; padding: 12px 14px; background: #fff;
+  border: 1px solid #ddd; border-radius: 4px; font-size: 0.88rem;
+  line-height: 1.65; white-space: pre-wrap; display: none;
+}
+
 /* Print styles */
 @media print {
-  header nav, .sidebar-actions, .date-picker-box, .toc, footer, .index-search { display: none !important; }
+  header nav, .sidebar-actions, .date-picker-box, .toc, footer, .index-search,
+  .ai-section-outer { display: none !important; }
   .law-container { display: block; }
   .law-meta { border: none; padding: 0; margin-bottom: 12px; }
   .law-body { border: none; padding: 0; box-shadow: none; }
@@ -648,6 +874,9 @@ a.court-ref:hover { text-decoration: underline; }
 .law-table th { background: #f3f4f5; text-align: left; padding: 8px 12px; font-size: 0.9rem; border-bottom: 2px solid #ddd; }
 .law-table td { padding: 7px 12px; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; }
 .law-table tr:hover td { background: #f8f9fa; }
+
+.npb-link { background: #f0f9f0; border-color: #2e7d32; color: #2e7d32; margin-top: 4px; }
+.npb-link:hover { background: #2e7d32; color: #fff; }
 
 footer {
   text-align: center; padding: 24px; color: #555; font-size: 0.85rem;
@@ -714,10 +943,28 @@ def main():
                   if "občinski" in v.lower() or "lokalni" in v.lower()
                   for s, f in lst]
 
+    # ── NPB (Neuradna prečiščena besedila) ─────────────────────────────────
+    NPB_DIR = SI_DIR / "npb"
+    npb_fronts = {}
+    npb_paths  = {}
+    if NPB_DIR.exists():
+        for path in NPB_DIR.glob("*.md"):
+            front_npb, _ = parse_md(path)
+            k = front_npb.get("kratica") or path.stem
+            if not front_npb.get("datum") and front_npb.get("veljaOd"):
+                front_npb["datum"] = str(front_npb["veljaOd"])
+            npb_fronts[k] = front_npb
+            npb_paths[k]  = path
+    print(f"  {len(npb_fronts)} NPB texts found")
+
+    # Build set of kratice that have an NPB version (for linking from regular pages)
+    npb_set = set(npb_fronts.keys())
+
     stats = dict(zakoni=len(zakoni), uredbe=len(uredbe),
-                 pravilniki=len(pravilniki), lokalni=len(lokalni))
+                 pravilniki=len(pravilniki), lokalni=len(lokalni),
+                 npb=len(npb_fronts))
     print(f"  zakoni={stats['zakoni']} uredbe={stats['uredbe']} "
-          f"pravilniki={stats['pravilniki']} lokalni={stats['lokalni']}")
+          f"pravilniki={stats['pravilniki']} lokalni={stats['lokalni']} npb={stats['npb']}")
 
     # Create output dirs
     DOCS_DIR.mkdir(exist_ok=True)
@@ -726,6 +973,7 @@ def main():
     (DOCS_DIR / "uredbe").mkdir(exist_ok=True)
     (DOCS_DIR / "pravilniki").mkdir(exist_ok=True)
     (DOCS_DIR / "lokalni").mkdir(exist_ok=True)
+    (DOCS_DIR / "npb").mkdir(exist_ok=True)
 
     # Write static assets
     (DOCS_DIR / "style.css").write_text(CSS)
@@ -739,15 +987,33 @@ def main():
         vrsta = front.get("vrsta") or ""
         if vrsta not in FULL_PAGE_VRSTE:
             continue
-        _, body = parse_md(paths[slug])   # load body only when needed
+        _, body = parse_md(paths[slug])
         page_dir = DOCS_DIR / "si" / slug
         page_dir.mkdir(exist_ok=True)
-        page_html = render_law_page(slug, front, body, kratica_idx, crosslink_re, court_links)
+        npb_slug = slug if slug in npb_set else None
+        page_html = render_law_page(slug, front, body, kratica_idx, crosslink_re,
+                                    court_links, npb_slug=npb_slug)
         (page_dir / "index.html").write_text(page_html, encoding="utf-8")
         generated += 1
         if generated % 500 == 0:
             print(f"  {generated} pages ...")
     print(f"  Generated {generated} law pages")
+
+    # ── NPB pages ───────────────────────────────────────────────────────────
+    print("Generating NPB pages ...")
+    npb_generated = 0
+    for slug, front_npb in npb_fronts.items():
+        _, body = parse_md(npb_paths[slug])
+        page_dir = DOCS_DIR / "npb" / slug
+        page_dir.mkdir(exist_ok=True)
+        page_html = render_law_page(slug, front_npb, body, kratica_idx, crosslink_re,
+                                    court_links, npb=True,
+                                    original_slug=slug if slug in fronts else None)
+        (page_dir / "index.html").write_text(page_html, encoding="utf-8")
+        npb_generated += 1
+        if npb_generated % 1000 == 0:
+            print(f"  {npb_generated} NPB pages ...")
+    print(f"  Generated {npb_generated} NPB pages")
 
     # ── Category list pages ─────────────────────────────────────────────────
     print("Generating category pages ...")
@@ -761,6 +1027,11 @@ def main():
     (DOCS_DIR / "lokalni" / "index.html").write_text(
         render_list_page("Lokalni akti", lokalni,
                          "Odloki, sklepi in pravilniki lokalnih skupnosti"), "utf-8")
+    (DOCS_DIR / "npb" / "index.html").write_text(
+        render_list_page("Prečiščena besedila (NPB)",
+                         list(npb_fronts.items()),
+                         f"Vseh {len(npb_fronts)} neuradnih prečiščenih besedil iz PISRS",
+                         page_prefix=f"{BASE}/npb"), "utf-8")
 
     # ── Index ───────────────────────────────────────────────────────────────
     (DOCS_DIR / "index.html").write_text(render_index(stats), "utf-8")
