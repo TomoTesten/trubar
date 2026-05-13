@@ -1,11 +1,13 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getLawManifest, loadLaw, RENDERABLE_VRSTE } from '@/lib/laws';
+import { LawSidebar } from '@/components/LawSidebar';
+import { LawToc } from '@/components/LawToc';
+import { AmendmentList } from '@/components/AmendmentList';
 
 export const dynamicParams = true;
 
-// SSG cap: in dev/preview we only pre-render a small set so iteration is fast.
-// Production cutover bumps this to the full ~3,975 zakoni (and adds NPB at /npb/).
 const SSG_LIMIT = process.env.SSG_LIMIT ? Number(process.env.SSG_LIMIT) : 25;
 
 export async function generateStaticParams() {
@@ -37,22 +39,38 @@ export default async function LawPage(props: PageProps<'/[kratica]'>) {
   const { kratica } = await props.params;
   const law = await tryLoad(kratica);
   if (!law) notFound();
-  const { frontmatter, html } = law;
+  const { frontmatter, html, cleni } = law;
 
   return (
-    <main className="mx-auto max-w-3xl px-4 py-8">
-      <header className="mb-8 border-b pb-6">
-        <p className="text-sm text-muted-foreground">{frontmatter.kratica}</p>
-        <h1 className="mt-1 text-2xl font-semibold tracking-tight">{frontmatter.naziv}</h1>
-        {frontmatter.datum ? (
-          <p className="mt-2 text-sm text-muted-foreground">Sprejet: {frontmatter.datum}</p>
-        ) : null}
+    <div className="mx-auto max-w-7xl px-4 py-6">
+      <header className="mb-6">
+        <nav className="text-sm">
+          <Link href="/" className="text-muted-foreground hover:text-foreground">
+            ← T.R.U.B.A.R.
+          </Link>
+        </nav>
+        <h1 className="mt-3 text-3xl font-bold tracking-tight">{frontmatter.naziv}</h1>
       </header>
 
-      <article
-        className="prose prose-sm max-w-none dark:prose-invert"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
-    </main>
+      <div className="grid gap-8 md:grid-cols-[260px_1fr]">
+        <LawSidebar frontmatter={frontmatter} />
+
+        <article
+          data-pagefind-body
+          data-pagefind-meta={`kratica:${frontmatter.kratica}${
+            frontmatter.vrsta ? `,vrsta:${frontmatter.vrsta}` : ''
+          }${frontmatter.organ ? `,organ:${frontmatter.organ}` : ''}${
+            frontmatter.status ? `,status:${frontmatter.status}` : ''
+          }${frontmatter.datum ? `,year:${frontmatter.datum.slice(0, 4)}` : ''}`}
+        >
+          <LawToc cleni={cleni} />
+          <div
+            className="prose prose-sm max-w-none dark:prose-invert"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+          <AmendmentList frontmatter={frontmatter} isNpb={false} />
+        </article>
+      </div>
+    </div>
   );
 }

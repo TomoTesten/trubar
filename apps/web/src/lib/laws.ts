@@ -9,13 +9,19 @@ import rehypeStringify from 'rehype-stringify';
 import { z } from 'zod';
 import { remarkKraticaLinks } from './remark-kratica-links';
 import { remarkEuLinks } from './remark-eu-links';
+import { remarkClenAnchors } from './remark-clen-anchors';
 
 const REPO_ROOT = path.resolve(process.cwd(), '..', '..');
 
-function buildRenderer(kraticaIndex: Map<string, string>, current: string) {
+function buildRenderer(
+  kraticaIndex: Map<string, string>,
+  current: string,
+  clenCollector: string[],
+) {
   return unified()
     .use(remarkParse)
     .use(remarkGfm)
+    .use(remarkClenAnchors, clenCollector)
     .use(remarkKraticaLinks, { index: kraticaIndex, current })
     .use(remarkEuLinks)
     .use(remarkRehype)
@@ -66,15 +72,13 @@ export type LawFrontmatter = z.infer<typeof lawFrontmatterSchema>;
 // The URL slug (filename minus .md) is the source of truth for kratica. The YAML
 // `kratica:` field can be blank (e.g. older 1991_01_NNNN-style files) — fall back
 // to the filename in that case.
-export async function loadLaw(
-  kratica: string,
-): Promise<{ frontmatter: LawFrontmatter; html: string }> {
+export type LoadedLaw = { frontmatter: LawFrontmatter; html: string; cleni: string[] };
+
+export async function loadLaw(kratica: string): Promise<LoadedLaw> {
   return loadFromPath(path.join(REPO_ROOT, 'si', `${kratica}.md`), kratica);
 }
 
-export async function loadNpb(
-  kratica: string,
-): Promise<{ frontmatter: LawFrontmatter; html: string }> {
+export async function loadNpb(kratica: string): Promise<LoadedLaw> {
   return loadFromPath(path.join(REPO_ROOT, 'si', 'npb', `${kratica}.md`), kratica);
 }
 
@@ -83,9 +87,10 @@ async function loadFromPath(filePath: string, kratica: string) {
   const parsed = matter(file);
   const frontmatter = lawFrontmatterSchema.parse({ ...parsed.data, kratica });
   const index = await getKraticaIndex();
-  const renderer = buildRenderer(index, kratica);
+  const cleni: string[] = [];
+  const renderer = buildRenderer(index, kratica, cleni);
   const html = String(await renderer.process(parsed.content));
-  return { frontmatter, html };
+  return { frontmatter, html, cleni };
 }
 
 let _kraticaIndexPromise: Promise<Map<string, string>> | null = null;
