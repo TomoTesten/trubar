@@ -72,7 +72,13 @@ export type LawFrontmatter = z.infer<typeof lawFrontmatterSchema>;
 // The URL slug (filename minus .md) is the source of truth for kratica. The YAML
 // `kratica:` field can be blank (e.g. older 1991_01_NNNN-style files) — fall back
 // to the filename in that case.
-export type LoadedLaw = { frontmatter: LawFrontmatter; html: string; cleni: string[] };
+export type LawVersion = { date: string; kratica: string; naziv: string; url: string };
+export type LoadedLaw = {
+  frontmatter: LawFrontmatter;
+  html: string;
+  cleni: string[];
+  versions: LawVersion[];
+};
 
 export async function loadLaw(kratica: string): Promise<LoadedLaw> {
   return loadFromPath(path.join(REPO_ROOT, 'si', `${kratica}.md`), kratica);
@@ -82,7 +88,29 @@ export async function loadNpb(kratica: string): Promise<LoadedLaw> {
   return loadFromPath(path.join(REPO_ROOT, 'si', 'npb', `${kratica}.md`), kratica);
 }
 
-async function loadFromPath(filePath: string, kratica: string) {
+// Port of build_site.py:154-173 `build_version_history`. Original + every amendment,
+// sorted oldest-first, used by the date picker to answer "what was in force on date X?".
+function buildVersionHistory(frontmatter: LawFrontmatter): LawVersion[] {
+  const out: LawVersion[] = [
+    {
+      date: frontmatter.datum ?? '',
+      kratica: frontmatter.kratica,
+      naziv: frontmatter.naziv,
+      url: `/${frontmatter.kratica}`,
+    },
+  ];
+  for (const a of frontmatter.spremembe ?? []) {
+    out.push({
+      date: a.datum ?? '',
+      kratica: a.kratica,
+      naziv: a.naziv ?? a.kratica,
+      url: `/${a.kratica}`,
+    });
+  }
+  return out.sort((x, y) => x.date.localeCompare(y.date));
+}
+
+async function loadFromPath(filePath: string, kratica: string): Promise<LoadedLaw> {
   const file = await readFile(filePath, 'utf8');
   const parsed = matter(file);
   const frontmatter = lawFrontmatterSchema.parse({ ...parsed.data, kratica });
@@ -90,7 +118,8 @@ async function loadFromPath(filePath: string, kratica: string) {
   const cleni: string[] = [];
   const renderer = buildRenderer(index, kratica, cleni);
   const html = String(await renderer.process(parsed.content));
-  return { frontmatter, html, cleni };
+  const versions = buildVersionHistory(frontmatter);
+  return { frontmatter, html, cleni, versions };
 }
 
 let _kraticaIndexPromise: Promise<Map<string, string>> | null = null;

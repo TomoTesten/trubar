@@ -5,6 +5,9 @@ import { getLawManifest, loadLaw, RENDERABLE_VRSTE } from '@/lib/laws';
 import { LawSidebar } from '@/components/LawSidebar';
 import { LawToc } from '@/components/LawToc';
 import { AmendmentList } from '@/components/AmendmentList';
+import { DatePicker } from '@/components/DatePicker';
+import { CourtDecisions } from '@/components/CourtDecisions';
+import { AiPanel } from '@/components/AiPanel';
 
 export const dynamicParams = true;
 
@@ -39,7 +42,7 @@ export default async function LawPage(props: PageProps<'/[kratica]'>) {
   const { kratica } = await props.params;
   const law = await tryLoad(kratica);
   if (!law) notFound();
-  const { frontmatter, html, cleni } = law;
+  const { frontmatter, html, cleni, versions } = law;
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-6">
@@ -53,7 +56,10 @@ export default async function LawPage(props: PageProps<'/[kratica]'>) {
       </header>
 
       <div className="grid gap-8 md:grid-cols-[260px_1fr]">
-        <LawSidebar frontmatter={frontmatter} />
+        <div className="space-y-6">
+          <LawSidebar frontmatter={frontmatter} />
+          {versions.length > 1 ? <DatePicker versions={versions} /> : null}
+        </div>
 
         <article
           data-pagefind-body
@@ -69,8 +75,11 @@ export default async function LawPage(props: PageProps<'/[kratica]'>) {
             dangerouslySetInnerHTML={{ __html: html }}
           />
           <AmendmentList frontmatter={frontmatter} isNpb={false} />
+          <CourtDecisions kratica={frontmatter.kratica} />
         </article>
       </div>
+
+      <AiPanel lawName={frontmatter.naziv} />
     </div>
   );
 }
