@@ -1,6 +1,7 @@
 data/
 !data/court_links.json
 !data/SZ_fixed.XML
+!docs/data/
 .claude/
 .progress.json
 .progress_*.json
