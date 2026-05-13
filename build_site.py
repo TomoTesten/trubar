@@ -602,6 +602,11 @@ def render_index(stats):
     </a>
   </div>
 
+  <section class="recent-changes">
+    <h2>Zadnje spremembe <a href="{BASE}/changelog/" class="more-link">vse →</a></h2>
+    <ul id="recent-list"><li style="color:#888">Nalagam...</li></ul>
+  </section>
+
   <section class="about">
     <h2>O projektu</h2>
     <p>
@@ -655,6 +660,16 @@ def render_index(stats):
     translations: {{ placeholder: "Iščite zakon, člen, besedo..." }},
   }});
 </script>
+<script>
+fetch('{BASE}/data/changelog.json')
+  .then(r=>r.json())
+  .then(items=>{{
+    document.getElementById('recent-list').innerHTML =
+      items.slice(0,10).map(i=>
+        `<li><span class="cl-date">${{i.date}}</span> <a href="${{i.url}}">${{i.kratica}}</a> <span class="cl-subject">${{i.subject.replace(/</g,'&lt;')}}</span></li>`
+      ).join('');
+  }});
+</script>
 </body>
 </html>"""
 
@@ -706,6 +721,16 @@ header nav a { color: #555; font-size: 14px; }
 .cat-label { font-size: 0.9rem; color: #555; }
 .cat-sublabel { font-size: 0.75rem; color: #888; line-height: 1.3; }
 .hf-card .cat-count { color: #ff9d00; }
+
+/* Recent changes */
+.recent-changes { background:#fff; border:1px solid #ddd; border-radius:6px; padding:20px 24px; margin-bottom:24px; }
+.recent-changes h2 { font-size:1rem; margin-bottom:10px; display:flex; justify-content:space-between; align-items:center; }
+.more-link { font-size:0.82rem; font-weight:400; color:#0645ad; }
+.recent-changes ul { list-style:none; }
+.recent-changes li { padding:5px 0; border-bottom:1px solid #f5f5f5; font-size:0.88rem; display:flex; gap:10px; align-items:baseline; }
+.recent-changes li:last-child { border-bottom:none; }
+.cl-date { color:#888; font-size:0.8rem; min-width:88px; flex-shrink:0; }
+.cl-subject { color:#555; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 
 /* About */
 .about { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 24px; }
