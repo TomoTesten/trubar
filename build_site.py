@@ -7,7 +7,7 @@ Run: python3 build_site.py
 Then: npx pagefind --site docs --output-path docs/_pagefind
 """
 
-import json, re, os, sys, html as htmllib
+import json, re, os, sys, html as htmllib, multiprocessing
 from pathlib import Path
 import yaml
 import markdown as mdlib
@@ -54,34 +54,31 @@ GLOSSARY = {
 }
 
 
+_GLOSSARY_PATTERNS = [
+    (re.compile(r'(?<![a-zA-ZčšžČŠŽ])(' + re.escape(term) + r')(?![a-zA-ZčšžČŠŽ])', re.IGNORECASE), term, defn)
+    for term, defn in GLOSSARY.items()
+]
+
+
 def apply_glossary(html):
     """Wrap first occurrence of each glossary term with <abbr class="gl" title="...">."""
     seen = set()
-
-    def replace_term(term, defn, text):
-        if term in seen:
-            return text
-        pat = re.compile(
-            r'(?<![a-zA-ZčšžČŠŽ])(' + re.escape(term) + r')(?![a-zA-ZčšžČŠŽ])',
-            re.IGNORECASE
-        )
-        def sub(m):
-            if term not in seen:
-                seen.add(term)
-                safe_defn = defn.replace('"', '&quot;')
-                return f'<abbr class="gl" title="{safe_defn}">{m.group(1)}</abbr>'
-            return m.group(1)
-        return pat.sub(sub, text)
-
-    # Only replace in text nodes (not inside HTML tags or attributes)
     parts = re.split(r'(<[^>]+>)', html)
     result = []
     for part in parts:
         if part.startswith('<'):
             result.append(part)
         else:
-            for term, defn in GLOSSARY.items():
-                part = replace_term(term, defn, part)
+            for pat, term, defn in _GLOSSARY_PATTERNS:
+                if term in seen:
+                    continue
+                def _sub(m, _term=term, _defn=defn):
+                    if _term not in seen:
+                        seen.add(_term)
+                        safe_defn = _defn.replace('"', '&quot;')
+                        return f'<abbr class="gl" title="{safe_defn}">{m.group(1)}</abbr>'
+                    return m.group(1)
+                part = pat.sub(_sub, part)
             result.append(part)
     return ''.join(result)
 
@@ -1184,6 +1181,46 @@ document.addEventListener('DOMContentLoaded', function() {
 
 # ── Main build ─────────────────────────────────────────────────────────────────
 
+# ── Multiprocessing worker globals ─────────────────────────────────────────────
+_g_kratica_idx = None
+_g_crosslink_re = None
+_g_court_links = None
+_g_cited_by = None
+
+
+def _init_worker(kratica_idx, crosslink_re, court_links, cited_by):
+    global _g_kratica_idx, _g_crosslink_re, _g_court_links, _g_cited_by
+    _g_kratica_idx = kratica_idx
+    _g_crosslink_re = crosslink_re
+    _g_court_links = court_links
+    _g_cited_by = cited_by
+
+
+def _render_si_page(args):
+    slug, front, path_str, npb_slug = args
+    path = Path(path_str)
+    _, body = parse_md(path)
+    page_html = render_law_page(slug, front, body, _g_kratica_idx, _g_crosslink_re,
+                                _g_court_links, npb_slug=npb_slug,
+                                citers=_g_cited_by.get(slug, []))
+    page_dir = DOCS_DIR / "si" / slug
+    page_dir.mkdir(exist_ok=True)
+    (page_dir / "index.html").write_text(page_html, encoding="utf-8")
+    return slug
+
+
+def _render_npb_page(args):
+    slug, front_npb, path_str, orig_slug = args
+    path = Path(path_str)
+    _, body = parse_md(path)
+    page_html = render_law_page(slug, front_npb, body, _g_kratica_idx, _g_crosslink_re,
+                                _g_court_links, npb=True, original_slug=orig_slug)
+    page_dir = DOCS_DIR / "npb" / slug
+    page_dir.mkdir(exist_ok=True)
+    (page_dir / "index.html").write_text(page_html, encoding="utf-8")
+    return slug
+
+
 def main():
     print("Scanning si/ (frontmatter only) ...")
     fronts = {}   # slug → front dict
@@ -1293,39 +1330,35 @@ def main():
     (DOCS_DIR / ".nojekyll").write_text("")   # disable Jekyll
 
     # ── Individual law pages ────────────────────────────────────────────────
-    print("Generating law pages ...")
+    n_workers = max(1, multiprocessing.cpu_count() - 1)
+    print(f"Rendering si/ pages with {n_workers} workers ...")
+    si_args = [
+        (slug, front, str(paths[slug]), slug if slug in npb_set else None)
+        for slug, front in fronts.items()
+        if (front.get("vrsta") or "") in FULL_PAGE_VRSTE
+    ]
     generated = 0
-    for slug, front in fronts.items():
-        vrsta = front.get("vrsta") or ""
-        if vrsta not in FULL_PAGE_VRSTE:
-            continue
-        _, body = parse_md(paths[slug])
-        page_dir = DOCS_DIR / "si" / slug
-        page_dir.mkdir(exist_ok=True)
-        npb_slug = slug if slug in npb_set else None
-        page_html = render_law_page(slug, front, body, kratica_idx, crosslink_re,
-                                    court_links, npb_slug=npb_slug,
-                                    citers=cited_by.get(slug, []))
-        (page_dir / "index.html").write_text(page_html, encoding="utf-8")
-        generated += 1
-        if generated % 500 == 0:
-            print(f"  {generated} pages ...")
-    print(f"  Generated {generated} law pages")
+    with multiprocessing.Pool(n_workers, initializer=_init_worker,
+                              initargs=(kratica_idx, crosslink_re, court_links, cited_by)) as pool:
+        for i, slug in enumerate(pool.imap_unordered(_render_si_page, si_args, chunksize=50), 1):
+            if i % 1000 == 0:
+                print(f"  {i} pages ...")
+            generated = i
+    print(f"  Generated {generated} si/ pages")
 
     # ── NPB pages ───────────────────────────────────────────────────────────
-    print("Generating NPB pages ...")
+    print(f"Rendering npb/ pages ...")
+    npb_args = [
+        (slug, front_npb, str(npb_paths[slug]), slug if slug in fronts else None)
+        for slug, front_npb in npb_fronts.items()
+    ]
     npb_generated = 0
-    for slug, front_npb in npb_fronts.items():
-        _, body = parse_md(npb_paths[slug])
-        page_dir = DOCS_DIR / "npb" / slug
-        page_dir.mkdir(exist_ok=True)
-        page_html = render_law_page(slug, front_npb, body, kratica_idx, crosslink_re,
-                                    court_links, npb=True,
-                                    original_slug=slug if slug in fronts else None)
-        (page_dir / "index.html").write_text(page_html, encoding="utf-8")
-        npb_generated += 1
-        if npb_generated % 1000 == 0:
-            print(f"  {npb_generated} NPB pages ...")
+    with multiprocessing.Pool(n_workers, initializer=_init_worker,
+                              initargs=(kratica_idx, crosslink_re, court_links, {})) as pool:
+        for i, slug in enumerate(pool.imap_unordered(_render_npb_page, npb_args, chunksize=50), 1):
+            if i % 1000 == 0:
+                print(f"  {i} NPB pages ...")
+            npb_generated = i
     print(f"  Generated {npb_generated} NPB pages")
 
     # ── Category list pages ─────────────────────────────────────────────────
