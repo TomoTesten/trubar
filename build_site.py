@@ -195,7 +195,24 @@ def render_court_decisions(decisions):
     )
 
 
-def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links=None, npb=False, npb_slug=None, original_slug=None):
+def render_cited_by(citers, kratica_idx):
+    """Render a 'Citirajo ta zakon' section."""
+    if not citers:
+        return ""
+    items = []
+    for k in sorted(citers)[:30]:  # cap at 30
+        slug = kratica_idx.get(k, k)
+        items.append(f'<li><a href="{BASE}/si/{slug}/" class="law-ref">{htmllib.escape(k)}</a></li>')
+    more = f'<li class="more-count">… in še {len(citers)-30}</li>' if len(citers) > 30 else ""
+    return (
+        '<section class="cited-by">'
+        '<h2>Zakoni, ki citirajo ta predpis</h2>'
+        f'<ul>{"".join(items)}{more}</ul>'
+        '</section>'
+    )
+
+
+def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links=None, npb=False, npb_slug=None, original_slug=None, citers=None):
     body_md, toc = add_article_anchors(body_md)
     md.reset()
     body_html = md.convert(body_md)
@@ -251,6 +268,8 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
             f'<a href="{gh_history_url}" class="history-link" target="_blank" title="Celotna git zgodovina">git ↗</a>'
             f'</h2><ul>{"".join(items)}</ul></section>'
         )
+
+    cited_by_html = render_cited_by(citers or [], kratica_idx)
 
     court_placeholder = f'<div class="court-placeholder" data-kratica="{htmllib.escape(kratica)}"></div>'
 
@@ -337,6 +356,7 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
     {toc_html}
     {body_html}
     {amend_html}
+    {cited_by_html}
     {court_placeholder}
   </article>
 </div>
@@ -802,6 +822,12 @@ a.eu-ref:hover { background: #eef2ff; }
 a.court-ref { color: #5a2d82; }
 a.court-ref:hover { text-decoration: underline; }
 
+.cited-by { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e0e0e0; }
+.cited-by h2 { font-size: 1rem; color: #555; margin-bottom: 0.5rem; }
+.cited-by ul { list-style: none; padding: 0; columns: 3; column-gap: 1rem; }
+.cited-by li { font-size: 0.85rem; margin-bottom: 0.2rem; break-inside: avoid; }
+.more-count { color: #888; font-style: italic; }
+
 /* Article TOC */
 .toc {
   background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px;
@@ -988,6 +1014,28 @@ def main():
     crosslink_re = make_crosslink_re(kratica_idx)
     print(f"  {len(kratica_idx)} kratice for cross-linking")
 
+    # Build reverse citation index (which laws mention each kratica)
+    print("Building reverse citation index...")
+    cited_by = {}  # slug → [kratica, ...]
+    for src_slug, src_front in fronts.items():
+        src_vrsta = src_front.get("vrsta") or ""
+        if src_vrsta not in FULL_PAGE_VRSTE:
+            continue
+        _, src_body = parse_md(paths[src_slug])
+        if not src_body or crosslink_re is None:
+            continue
+        found = set(crosslink_re.findall(src_body))
+        src_kratica = src_front.get("kratica") or src_slug
+        for target_kratica in found:
+            if target_kratica == src_kratica:
+                continue
+            target_slug = kratica_idx.get(target_kratica)
+            if target_slug:
+                cited_by.setdefault(target_slug, [])
+                if src_kratica not in cited_by[target_slug]:
+                    cited_by[target_slug].append(src_kratica)
+    print(f"  {sum(len(v) for v in cited_by.values())} citations across {len(cited_by)} laws")
+
     court_links_path = REPO_DIR / "data" / "court_links.json"
     if court_links_path.exists():
         court_links = json.loads(court_links_path.read_text())
@@ -1066,7 +1114,8 @@ def main():
         page_dir.mkdir(exist_ok=True)
         npb_slug = slug if slug in npb_set else None
         page_html = render_law_page(slug, front, body, kratica_idx, crosslink_re,
-                                    court_links, npb_slug=npb_slug)
+                                    court_links, npb_slug=npb_slug,
+                                    citers=cited_by.get(slug, []))
         (page_dir / "index.html").write_text(page_html, encoding="utf-8")
         generated += 1
         if generated % 500 == 0:
