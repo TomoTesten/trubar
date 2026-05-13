@@ -246,7 +246,7 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
     versions = build_version_history(front, kratica_idx)
     versions_json = json.dumps(versions, ensure_ascii=False)
 
-    # Amendment list with diff links
+    # Amendment timeline with diff links
     amendments = front.get("spremembe") or []
     amend_html = ""
     if amendments:
@@ -258,15 +258,17 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
             target = kratica_idx.get(ak, ak)
             law_link = f'<a href="{BASE}/si/{target}/" class="amend-link">{htmllib.escape(ak)}</a>'
             gh_diff  = f'<a href="https://github.com/TomoTesten/trubar/blob/master/si/{htmllib.escape(ak)}.md" class="diff-link" target="_blank" title="Besedilo spremembe na GitHubu">diff ↗</a>'
+            an_short = (an[:60] + "…") if len(an) > 60 else an
+            css_cls = "tl-upb" if ak.endswith("-UPB") else ("tl-other" if any(ak.endswith(s) for s in ("-ZRU", "-ZRJN", "-ZRU1")) else "")
             items.append(
-                f'<li><span class="amend-date">{ad}</span> '
-                f'{law_link} — {htmllib.escape(an)} {gh_diff}</li>'
+                f'<li class="{css_cls}"><span class="tl-date">{ad}</span>'
+                f'{law_link} <span class="tl-naziv" title="{htmllib.escape(an)}">{htmllib.escape(an_short)}</span> {gh_diff}</li>'
             )
         amend_html = (
             f'<section class="amendments">'
-            f'<h2>Kronologija sprememb '
-            f'<a href="{gh_history_url}" class="history-link" target="_blank" title="Celotna git zgodovina">git ↗</a>'
-            f'</h2><ul>{"".join(items)}</ul></section>'
+            f'<h2>Kronologija sprememb ({len(amendments)})'
+            f' <a href="{gh_history_url}" class="history-link" target="_blank" title="Celotna git zgodovina">git ↗</a>'
+            f'</h2><ul class="timeline">{"".join(items)}</ul></section>'
         )
 
     cited_by_html = render_cited_by(citers or [], kratica_idx)
@@ -840,15 +842,20 @@ a.court-ref:hover { text-decoration: underline; }
 /* Člen anchors */
 .law-body h3 span[id], .law-body h2 span[id] { scroll-margin-top: 80px; }
 
-/* Amendments */
+/* Amendments timeline */
 .amendments { margin-top: 32px; padding-top: 16px; border-top: 1px solid #eee; }
 .amendments h2 { font-size: 1rem; color: #555; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
-.amendments ul { list-style: none; }
-.amendments li { padding: 5px 0; font-size: 0.9rem; border-bottom: 1px solid #f0f0f0; display: flex; align-items: baseline; gap: 6px; }
-.amend-date { color: #888; font-size: 0.8rem; min-width: 82px; }
+.timeline { list-style: none; padding: 0; margin: 0; position: relative; max-height: 420px; overflow-y: auto; }
+.timeline::before { content: ''; position: absolute; left: 7px; top: 4px; bottom: 4px; width: 2px; background: #ddd; }
+.timeline li { position: relative; padding: 4px 0 4px 26px; font-size: 0.88rem; border-bottom: none; display: block; }
+.timeline li::before { content: ''; position: absolute; left: 0; top: 9px; width: 14px; height: 14px; border-radius: 50%; border: 2px solid #4a90e2; background: #fff; }
+.timeline li.tl-upb::before { border-color: #8b5cf6; }
+.timeline li.tl-other::before { border-color: #f59e0b; }
+.timeline .tl-date { font-weight: 600; color: #333; margin-right: 6px; }
+.timeline .tl-naziv { color: #666; }
 .amend-link { font-weight: 600; }
-.diff-link { font-size: 0.75rem; color: #888; border: 1px solid #ddd; border-radius: 3px; padding: 1px 5px; }
-.diff-link:hover { background: #f0f0f0; text-decoration: none; }
+.diff-link { font-size: 0.8rem; color: #999; margin-left: 4px; }
+.diff-link:hover { text-decoration: underline; }
 .history-link { font-size: 0.75rem; color: #888; font-weight: 400; }
 
 /* Sidebar actions */
