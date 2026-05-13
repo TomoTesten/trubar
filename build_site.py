@@ -1241,21 +1241,21 @@ def main():
     crosslink_re = make_crosslink_re(kratica_idx)
     print(f"  {len(kratica_idx)} kratice for cross-linking")
 
-    # Build reverse citation index (which laws mention each kratica)
+    # Build reverse citation index using fast set lookup (not giant regex)
     print("Building reverse citation index...")
-    cited_by = {}  # slug → [kratica, ...]
+    kratica_set = set(kratica_idx.keys())
+    _tok_re = re.compile(r'[A-ZČŠŽ][A-ZČŠŽ0-9]*(?:-[A-ZČŠŽ0-9]+)*')
+    cited_by = {}
     for src_slug, src_front in fronts.items():
         src_vrsta = src_front.get("vrsta") or ""
         if src_vrsta not in FULL_PAGE_VRSTE:
             continue
         _, src_body = parse_md(paths[src_slug])
-        if not src_body or crosslink_re is None:
+        if not src_body:
             continue
-        found = set(crosslink_re.findall(src_body))
         src_kratica = src_front.get("kratica") or src_slug
+        found = {t for t in _tok_re.findall(src_body) if t in kratica_set and t != src_kratica}
         for target_kratica in found:
-            if target_kratica == src_kratica:
-                continue
             target_slug = kratica_idx.get(target_kratica)
             if target_slug:
                 cited_by.setdefault(target_slug, [])
