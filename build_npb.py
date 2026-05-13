@@ -35,6 +35,14 @@ def main():
     court_links_path = REPO_DIR / "data" / "court_links.json"
     court_links = json.loads(court_links_path.read_text()) if court_links_path.exists() else {}
 
+    # Write per-kratica court JSON files for lazy client-side loading
+    courts_dir = DOCS_DIR / "data" / "courts"
+    courts_dir.mkdir(parents=True, exist_ok=True)
+    for kratica_key, decisions in court_links.items():
+        (courts_dir / f"{kratica_key}.json").write_text(
+            json.dumps(decisions, ensure_ascii=False, separators=(",", ":")))
+    print(f"  Wrote {len(court_links)} court JSON shards")
+
     # Scan NPB dir
     NPB_DIR = SI_DIR / "npb"
     npb_fronts = {}
@@ -95,6 +103,33 @@ def main():
                          f"Vseh {len(npb_fronts)} neuradnih prečiščenih besedil iz PISRS",
                          page_prefix=f"{BASE}/npb"), "utf-8")
     print("Generated npb/index.html")
+
+    # ── Export metadata for DuckDB WASM (merge regular + NPB) ───────────────
+    laws_meta = []
+    for slug, front in fronts.items():
+        laws_meta.append({
+            "kratica": front.get("kratica") or slug,
+            "naziv":   (front.get("naziv") or "")[:200],
+            "vrsta":   front.get("vrsta") or "",
+            "datum":   str(front.get("datum") or "")[:10],
+            "organ":   (front.get("organ") or "")[:100],
+            "status":  str(front.get("status") or "")[:50],
+            "url":     f"/trubar/si/{slug}/",
+        })
+    for slug, front in npb_fronts.items():
+        laws_meta.append({
+            "kratica": front.get("kratica") or slug,
+            "naziv":   (front.get("naziv") or "")[:200],
+            "vrsta":   "npb",
+            "datum":   str(front.get("datum") or front.get("veljaOd") or "")[:10],
+            "organ":   (front.get("organ") or "")[:100],
+            "status":  str(front.get("status") or "")[:50],
+            "url":     f"/trubar/npb/{slug}/",
+        })
+    (DOCS_DIR / "data").mkdir(exist_ok=True)
+    (DOCS_DIR / "data" / "laws.json").write_text(
+        json.dumps(laws_meta, ensure_ascii=False, separators=(",", ":")))
+    print(f"  Wrote laws.json ({len(laws_meta)} records)")
 
     # Update main index.html with new stats (including npb count)
     (DOCS_DIR / "index.html").write_text(render_index(stats), "utf-8")

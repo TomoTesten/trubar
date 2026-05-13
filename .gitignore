@@ -17,3 +17,4 @@ __pycache__/
 .dz_*.xml
 .court_hf_cache/
 us_rs/
+trubar.db

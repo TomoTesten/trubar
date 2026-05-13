@@ -252,46 +252,43 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
             f'</h2><ul>{"".join(items)}</ul></section>'
         )
 
-    decisions = (court_links or {}).get(kratica, [])
-    court_html = render_court_decisions(decisions)
+    court_placeholder = f'<div class="court-placeholder" data-kratica="{htmllib.escape(kratica)}"></div>'
 
     compare_url = f"{BASE}/primerjaj/?a={htmllib.escape(kratica)}"
 
     naziv_json = json.dumps(naziv, ensure_ascii=False)
 
     ai_html = f"""<section class="ai-panel">
-  <h2 class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</h2>
-  <p class="ai-panel-desc">
-    Besedilo predpisa bo samodejno kopirano skupaj z vašim vprašanjem.
-    Ko se odpre pogovorno okno AI, besedilo prilepite (<kbd>Ctrl+V</kbd> oz. <kbd>Cmd+V</kbd>).
-  </p>
-  <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
-  <div class="ai-buttons">
-    <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
-    <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
-    <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
-  </div>
-  <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
-  <details class="ai-advanced">
-    <summary>Imam lasten API ključ (napredno)</summary>
-    <div class="ai-api-inner">
-      <p class="ai-api-desc">
-        API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
-        <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
-        Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
-        Poizvedba se izvede neposredno do ponudnika, brez posrednika.
-      </p>
-      <div class="ai-api-row">
-        <select id="ai-provider" class="ai-select">
-          <option value="openai">ChatGPT (OpenAI)</option>
-          <option value="deepseek">DeepSeek</option>
-          <option value="mistral">Mistral</option>
-        </select>
-        <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
-        <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
-      </div>
-      <div id="ai-response" class="ai-response"></div>
+  <details>
+    <summary class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</summary>
+    <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
+    <div class="ai-buttons">
+      <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
+      <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
+      <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
     </div>
+    <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
+    <details class="ai-advanced">
+      <summary>Imam lasten API ključ (napredno)</summary>
+      <div class="ai-api-inner">
+        <p class="ai-api-desc">
+          API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
+          <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
+          Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
+          Poizvedba se izvede neposredno do ponudnika, brez posrednika.
+        </p>
+        <div class="ai-api-row">
+          <select id="ai-provider" class="ai-select">
+            <option value="openai">ChatGPT (OpenAI)</option>
+            <option value="deepseek">DeepSeek</option>
+            <option value="mistral">Mistral</option>
+          </select>
+          <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
+          <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
+        </div>
+        <div id="ai-response" class="ai-response"></div>
+      </div>
+    </details>
   </details>
 </section>"""
 
@@ -340,7 +337,7 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
     {toc_html}
     {body_html}
     {amend_html}
-    {court_html}
+    {court_placeholder}
   </article>
 </div>
 <div class="ai-section-outer">
@@ -380,6 +377,42 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
   // Handle ?date= query param
   var params = new URLSearchParams(window.location.search);
   if (params.get('date')) {{ input.value = params.get('date'); update(); }}
+}})();
+
+(function() {{
+  var placeholder = document.querySelector('.court-placeholder[data-kratica]');
+  if (!placeholder) return;
+  var kratica = placeholder.getAttribute('data-kratica');
+  var url = '{BASE}/data/courts/' + encodeURIComponent(kratica) + '.json';
+
+  function renderDecisions(decisions) {{
+    if (!decisions || !decisions.length) return;
+    var items = decisions.map(function(d) {{
+      var label = d.datum ? d.datum.slice(0,10) : d.id;
+      var short_z = (d.zbirka||'').replace('Sodna praksa ','').replace(' sodišča','');
+      if (d.vir) {{
+        return '<li><a href="'+d.vir+'" class="court-ref" target="_blank">'+label+' ('+short_z+')</a></li>';
+      }}
+      return '<li>'+label+'</li>';
+    }});
+    var section = document.createElement('section');
+    section.className = 'court-decisions';
+    section.innerHTML = '<h2>Sodna praksa</h2><ul>'+items.join('')+'</ul>';
+    placeholder.replaceWith(section);
+  }}
+
+  function load() {{
+    fetch(url).then(function(r){{ return r.ok ? r.json() : []; }}).then(renderDecisions).catch(function(){{}});
+  }}
+
+  if ('IntersectionObserver' in window) {{
+    var obs = new IntersectionObserver(function(entries) {{
+      if (entries[0].isIntersecting) {{ obs.disconnect(); load(); }}
+    }}, {{rootMargin: '200px'}});
+    obs.observe(placeholder);
+  }} else {{
+    load();
+  }}
 }})();
 
 (function(){{
@@ -562,6 +595,11 @@ def render_index(stats):
       <span class="cat-label">Sodne odločbe ↗</span>
       <span class="cat-sublabel">Prosto dostopna zbirka za razvoj in analizo</span>
     </a>
+    <a href="{BASE}/sql/" class="category-card">
+      <span class="cat-count">SQL</span>
+      <span class="cat-label">Poizvedbe ↗</span>
+      <span class="cat-sublabel">DuckDB v brskalniku, brez strežnika</span>
+    </a>
   </div>
 
   <section class="about">
@@ -603,6 +641,7 @@ def render_index(stats):
 <footer>
   CC0 javna domena ·
   <a href="{BASE}/npb/">Prečiščena besedila</a> ·
+  <a href="{BASE}/sql/">SQL iskanje</a> ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a> ·
   <a href="https://huggingface.co/datasets/TomoTesten/trubar-sodna-praksa">Hugging Face</a>
 </footer>
@@ -800,8 +839,10 @@ a.court-ref:hover { text-decoration: underline; }
   background: #f6f8fa; border: 1px solid #d0d7de;
   border-radius: 6px; padding: 1.25rem 1.5rem;
 }
-.ai-panel-title { font-size: 1rem; margin-bottom: 0.4rem; color: #202122; }
-.ai-panel-desc  { font-size: 0.85rem; color: #555; margin-bottom: 0.75rem; line-height: 1.5; }
+.ai-panel-title { font-size: 1rem; color: #202122; list-style: none; }
+.ai-panel-title::-webkit-details-marker { display: none; }
+.ai-panel details > summary { cursor: pointer; }
+.ai-panel details[open] > summary { margin-bottom: 0.75rem; }
 .ai-textarea {
   width: 100%; border: 1px solid #ccc; border-radius: 4px;
   padding: 8px 10px; font-size: 0.9rem; resize: vertical;
@@ -930,6 +971,14 @@ def main():
         court_links = {}
         print("  No court_links.json found, skipping sodna praksa links")
 
+    # Write per-kratica court JSON files for lazy client-side loading
+    courts_dir = DOCS_DIR / "data" / "courts"
+    courts_dir.mkdir(parents=True, exist_ok=True)
+    for kratica_key, decisions in court_links.items():
+        (courts_dir / f"{kratica_key}.json").write_text(
+            json.dumps(decisions, ensure_ascii=False, separators=(",", ":")))
+    print(f"  Wrote {len(court_links)} court JSON shards")
+
     # Categorise
     by_vrsta = {}
     for slug, front in fronts.items():
@@ -1032,6 +1081,23 @@ def main():
                          list(npb_fronts.items()),
                          f"Vseh {len(npb_fronts)} neuradnih prečiščenih besedil iz PISRS",
                          page_prefix=f"{BASE}/npb"), "utf-8")
+
+    # ── Export metadata for DuckDB WASM ─────────────────────────────────────
+    laws_meta = []
+    for slug, front in fronts.items():
+        laws_meta.append({
+            "kratica": front.get("kratica") or slug,
+            "naziv":   (front.get("naziv") or "")[:200],
+            "vrsta":   front.get("vrsta") or "",
+            "datum":   str(front.get("datum") or "")[:10],
+            "organ":   (front.get("organ") or "")[:100],
+            "status":  str(front.get("status") or "")[:50],
+            "url":     f"/trubar/si/{slug}/",
+        })
+    (DOCS_DIR / "data").mkdir(exist_ok=True)
+    (DOCS_DIR / "data" / "laws.json").write_text(
+        json.dumps(laws_meta, ensure_ascii=False, separators=(",", ":")))
+    print(f"  Wrote laws.json ({len(laws_meta)} records)")
 
     # ── Index ───────────────────────────────────────────────────────────────
     (DOCS_DIR / "index.html").write_text(render_index(stats), "utf-8")

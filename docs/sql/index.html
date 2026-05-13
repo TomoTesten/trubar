@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SQL iskanje — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+<style>
+  .sql-editor { font-family: monospace; width: 100%; min-height: 80px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9rem; resize: vertical; }
+  .sql-run { padding: 8px 24px; background: #3366cc; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.9rem; margin-top: 8px; }
+  .sql-run:hover { background: #2a55b0; }
+  .sql-run:disabled { background: #aaa; cursor: not-allowed; }
+  .sql-status { font-size: 0.85rem; color: #555; margin: 8px 0; min-height: 1.2em; }
+  .sql-results { overflow-x: auto; margin-top: 12px; }
+  .sql-results table { border-collapse: collapse; width: 100%; font-size: 0.85rem; }
+  .sql-results th { background: #f3f4f5; padding: 6px 10px; text-align: left; border-bottom: 2px solid #ddd; white-space: nowrap; cursor: pointer; user-select: none; }
+  .sql-results th:hover { background: #e8e9ea; }
+  .sql-results td { padding: 5px 10px; border-bottom: 1px solid #f0f0f0; }
+  .sql-results tr:hover td { background: #f8f9fa; }
+  .example-queries { margin: 12px 0; }
+  .example-queries button { margin: 4px 4px 4px 0; padding: 4px 10px; font-size: 0.8rem; border: 1px solid #ddd; border-radius: 3px; cursor: pointer; background: #fff; }
+  .example-queries button:hover { background: #f3f4f5; }
+  .loading-msg { color: #888; font-style: italic; }
+</style>
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">← T.R.U.B.A.R.</a></nav>
+  <h1 class="law-title">SQL iskanje po predpisih</h1>
+</header>
+<div class="container" style="max-width:1100px;margin:0 auto;padding:24px 16px">
+  <p style="color:#555;margin-bottom:16px">Tabela <code>zakoni</code> vsebuje vse predpise (kratica, naziv, vrsta, datum, organ, status). Poizvedbe se izvajajo lokalno v vašem brskalniku — brez strežnika.</p>
+
+  <div class="example-queries">
+    <strong>Primeri:</strong><br>
+  </div>
+
+  <textarea class="sql-editor" id="sql-input" disabled>SELECT kratica, naziv, vrsta, datum FROM zakoni WHERE vrsta = 'uredba' ORDER BY datum DESC LIMIT 20</textarea>
+  <br>
+  <button class="sql-run" id="sql-run-btn" onclick="runQuery()" disabled>Zaženi ▶</button>
+  <div class="sql-status" id="sql-status"><span class="loading-msg">Nalagam podatkovno bazo...</span></div>
+  <div class="sql-results" id="sql-results"></div>
+</div>
+<footer>
+  <a href="/trubar/">Domov</a> · CC0 · <a href="https://github.com/TomoTesten/trubar">GitHub</a> ·
+  Powered by <a href="https://duckdb.org/" target="_blank">DuckDB-WASM</a>
+</footer>
+<script type="module">
+import * as duckdb from 'https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.29.0/+esm';
+
+const BUNDLES = {
+  mvp: {
+    mainModule: 'https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.29.0/dist/duckdb-mvp.wasm',
+    mainWorker: 'https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.29.0/dist/duckdb-browser-mvp.worker.js',
+  },
+  eh: {
+    mainModule: 'https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.29.0/dist/duckdb-eh.wasm',
+    mainWorker: 'https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.29.0/dist/duckdb-browser-eh.worker.js',
+  },
+};
+
+let conn;
+const status  = document.getElementById('sql-status');
+const resultsEl = document.getElementById('sql-results');
+const runBtn  = document.getElementById('sql-run-btn');
+const sqlInput = document.getElementById('sql-input');
+
+async function init() {
+  try {
+    const bundle = await duckdb.selectBundle(BUNDLES);
+    const worker = new Worker(bundle.mainWorker);
+    const logger = new duckdb.ConsoleLogger();
+    const db = new duckdb.AsyncDuckDB(logger, worker);
+    await db.instantiate(bundle.mainModule);
+    conn = await db.connect();
+
+    // Fetch laws.json and register as a virtual file buffer
+    const resp = await fetch('/trubar/data/laws.json');
+    if (!resp.ok) throw new Error('Napaka pri nalaganju laws.json: ' + resp.status);
+    const buf = await resp.arrayBuffer();
+    await db.registerFileBuffer('laws.json', new Uint8Array(buf));
+    await conn.query("CREATE TABLE zakoni AS SELECT * FROM read_json_auto('laws.json')");
+
+    const countResult = await conn.query("SELECT COUNT(*) as n FROM zakoni");
+    const n = countResult.toArray()[0].n;
+
+    status.textContent = `Pripravljeno — ${Number(n).toLocaleString('sl')} predpisov naloženih.`;
+    sqlInput.disabled = false;
+    runBtn.disabled = false;
+  } catch(e) {
+    status.textContent = 'Napaka pri nalaganju: ' + e.message;
+    console.error(e);
+  }
+}
+
+window.runQuery = async function() {
+  if (!conn) { status.textContent = 'Baza se še nalaga...'; return; }
+  const sql = sqlInput.value.trim();
+  if (!sql) return;
+  status.textContent = 'Izvajam...';
+  resultsEl.innerHTML = '';
+  try {
+    const t0 = Date.now();
+    const result = await conn.query(sql);
+    const rows = result.toArray();
+    const cols = result.schema.fields.map(f => f.name);
+    const elapsed = Date.now() - t0;
+
+    if (!rows.length) { status.textContent = 'Ni rezultatov. (' + elapsed + ' ms)'; return; }
+
+    // Cap at 500 rows for display
+    const displayed = rows.slice(0, 500);
+    let html = '<table><thead><tr>' + cols.map(c => '<th>' + c + '</th>').join('') + '</tr></thead><tbody>';
+    for (const row of displayed) {
+      html += '<tr>' + cols.map(c => {
+        let val = row[c] ?? '';
+        if (c === 'kratica' && row['url']) {
+          return '<td><a href="' + String(row['url']).replace(/"/g, '&quot;') + '">' + String(val).replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</a></td>';
+        }
+        if (c === 'url') {
+          return '<td><a href="' + String(val).replace(/"/g, '&quot;') + '">↗</a></td>';
+        }
+        return '<td>' + String(val).replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</td>';
+      }).join('') + '</tr>';
+    }
+    html += '</tbody></table>';
+    if (rows.length > 500) {
+      html += '<p style="color:#888;font-size:.8rem">Prikazanih 500 od ' + rows.length.toLocaleString('sl') + ' rezultatov.</p>';
+    }
+    resultsEl.innerHTML = html;
+    status.textContent = rows.length.toLocaleString('sl') + ' vrstic (' + elapsed + ' ms)';
+  } catch(e) {
+    status.textContent = 'Napaka: ' + e.message;
+    console.error(e);
+  }
+};
+
+// Keyboard shortcut: Ctrl+Enter / Cmd+Enter to run
+sqlInput.addEventListener('keydown', function(e) {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+    e.preventDefault();
+    window.runQuery();
+  }
+});
+
+// Example query buttons
+const examples = [
+  ['Uredbe 2024+', "SELECT kratica, naziv, datum FROM zakoni WHERE vrsta = 'uredba' AND datum >= '2024-01-01' ORDER BY datum DESC LIMIT 30"],
+  ['Ministrstvo za finance', "SELECT kratica, naziv, vrsta, datum FROM zakoni WHERE organ LIKE '%finance%' ORDER BY datum DESC LIMIT 30"],
+  ['Veljavni zakoni A–B', "SELECT kratica, naziv, datum FROM zakoni WHERE vrsta = 'Sprejet zakon' AND status LIKE '%veljav%' AND kratica < 'C' ORDER BY kratica LIMIT 30"],
+  ['Štetje po vrsti', "SELECT vrsta, COUNT(*) AS stevilo FROM zakoni GROUP BY vrsta ORDER BY stevilo DESC"],
+  ['Najnovejši pravilniki', "SELECT kratica, naziv, datum FROM zakoni WHERE vrsta = 'pravilnik' ORDER BY datum DESC LIMIT 20"],
+  ['NPB besedila', "SELECT kratica, naziv, datum FROM zakoni WHERE vrsta = 'npb' ORDER BY datum DESC LIMIT 30"],
+  ['Organi (top 20)', "SELECT organ, COUNT(*) AS stevilo FROM zakoni WHERE organ != '' GROUP BY organ ORDER BY stevilo DESC LIMIT 20"],
+];
+const exDiv = document.querySelector('.example-queries');
+examples.forEach(([label, sql]) => {
+  const btn = document.createElement('button');
+  btn.textContent = label;
+  btn.onclick = () => { sqlInput.value = sql; };
+  exDiv.appendChild(btn);
+});
+
+init();
+</script>
+</body>
+</html>
