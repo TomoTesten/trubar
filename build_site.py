@@ -23,6 +23,68 @@ GH_BLOB  = "https://github.com/TomoTesten/trubar/blob/master"
 FULL_PAGE_VRSTE = {"Sprejet zakon", "uredba", "pravilnik", "odredba",
                    "navodilo", "ukaz", "odlok", "drugi akt", "sklep"}
 
+# ── Glossary of common legal terms ────────────────────────────────────────────
+
+GLOSSARY = {
+    "zakon": "Zakon je splošni pravni akt, ki ga sprejme Državni zbor. Ureja določeno področje življenja za vse.",
+    "uredba": "Uredba je podzakonski predpis vlade, ki podrobneje ureja področje, določeno z zakonom.",
+    "pravilnik": "Pravilnik je podzakonski predpis ministrstva z detajlnimi tehničnimi ali postopkovnimi pravili.",
+    "odredba": "Odredba je podzakonski predpis za konkretne ali organizacijske ukrepe.",
+    "prekršek": "Prekršek je lažja kršitev zakona, za katero se izreče globa ali opomin (ne zaporna kazen).",
+    "kaznivo dejanje": "Kaznivo dejanje je hujša kršitev, za katero zakon predpisuje zaporno kazen ali denarno kazen.",
+    "tožnik": "Tožnik je oseba, ki začne sodni postopek in zahteva varstvo svojih pravic.",
+    "tožena stranka": "Tožena stranka je oseba, zoper katero je vložena tožba.",
+    "sodba": "Sodba je odločitev sodišča o bistvenih vprašanjih spora ali obtožbe.",
+    "sklep": "Sklep je odločitev sodišča ali organa o procesnih vprašanjih (npr. o predlogih, pritožbah).",
+    "pritožba": "Pritožba je pravno sredstvo za izpodbijanje odločitve prvostopenjskega organa pred višjim organom.",
+    "revizija": "Revizija je izredno pravno sredstvo pred Vrhovnim sodiščem za vprašanja pravne prakse.",
+    "zastopnik": "Zastopnik je oseba, ki pravno zastopa drugo osebo ali subjekt.",
+    "pooblaščenec": "Pooblaščenec je oseba s pisnim pooblastilom, da deluje v imenu drugega.",
+    "organ": "Organ je državna ali lokalna institucija z javnimi pooblastili (ministrstvo, agencija, občina).",
+    "minister": "Minister vodi ministrstvo in je član vlade. Pristojnost ministrstva določa zakon.",
+    "vlada": "Vlada je izvršilna veja oblasti, sestavljena iz predsednika vlade in ministrov.",
+    "Državni zbor": "Državni zbor je slovensko zakonodajno telo — parlament. Sprejema zakone in državni proračun.",
+    "Uradni list": "Uradni list RS je uradna publikacija, v kateri se objavijo vsi veljavni predpisi.",
+    "veljavnost": "Veljavnost predpisa pomeni, da predpis zavezuje in ga je treba spoštovati.",
+    "rok": "Rok je zakonsko določen čas, v katerem je treba opraviti določeno dejanje.",
+    "globa": "Globa je denarna kazen, ki se izreče za prekršek ali kršitev predpisa.",
+    "inšpektor": "Inšpektor je uradna oseba, ki nadzira spoštovanje zakonov na določenem področju.",
+    "pravna oseba": "Pravna oseba je organizacija (podjetje, društvo, zavod), ki ima po zakonu lastno pravno sposobnost.",
+    "fizična oseba": "Fizična oseba je posameznik — vsak živi človek ima pravno sposobnost od rojstva.",
+}
+
+
+def apply_glossary(html):
+    """Wrap first occurrence of each glossary term with <abbr class="gl" title="...">."""
+    seen = set()
+
+    def replace_term(term, defn, text):
+        if term in seen:
+            return text
+        pat = re.compile(
+            r'(?<![a-zA-ZčšžČŠŽ])(' + re.escape(term) + r')(?![a-zA-ZčšžČŠŽ])',
+            re.IGNORECASE
+        )
+        def sub(m):
+            if term not in seen:
+                seen.add(term)
+                safe_defn = defn.replace('"', '&quot;')
+                return f'<abbr class="gl" title="{safe_defn}">{m.group(1)}</abbr>'
+            return m.group(1)
+        return pat.sub(sub, text)
+
+    # Only replace in text nodes (not inside HTML tags or attributes)
+    parts = re.split(r'(<[^>]+>)', html)
+    result = []
+    for part in parts:
+        if part.startswith('<'):
+            result.append(part)
+        else:
+            for term, defn in GLOSSARY.items():
+                part = replace_term(term, defn, part)
+            result.append(part)
+    return ''.join(result)
+
 md = mdlib.Markdown(extensions=["tables", "fenced_code", "nl2br"])
 
 
@@ -218,6 +280,7 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
     body_html = md.convert(body_md)
     body_html = inject_crosslinks(body_html, crosslink_re, kratica_idx, slug)
     body_html = inject_eu_links(body_html)
+    body_html = apply_glossary(body_html)
     toc_html  = render_toc(toc)
 
     kratica = front.get("kratica") or slug
@@ -945,6 +1008,11 @@ a.court-ref:hover { text-decoration: underline; }
   border: 1px solid #ddd; border-radius: 4px; font-size: 0.88rem;
   line-height: 1.65; white-space: pre-wrap; display: none;
 }
+
+/* Glossary tooltips */
+abbr.gl { text-decoration: underline dotted #999; cursor: help; position: relative; }
+abbr.gl:hover::after { content: attr(title); position: absolute; bottom: 125%; left: 0; background: #222; color: #fff; padding: 5px 9px; border-radius: 5px; font-size: 0.8rem; white-space: normal; width: 260px; z-index: 100; line-height: 1.4; pointer-events: none; }
+abbr.gl:hover::before { content: ''; position: absolute; bottom: 115%; left: 10px; border: 6px solid transparent; border-top-color: #222; z-index: 100; }
 
 /* Print styles */
 @media print {
