@@ -7,14 +7,20 @@ import remarkGfm from 'remark-gfm';
 import remarkRehype from 'remark-rehype';
 import rehypeStringify from 'rehype-stringify';
 import { z } from 'zod';
+import { remarkKraticaLinks } from './remark-kratica-links';
+import { remarkEuLinks } from './remark-eu-links';
 
 const REPO_ROOT = path.resolve(process.cwd(), '..', '..');
 
-const renderer = unified()
-  .use(remarkParse)
-  .use(remarkGfm)
-  .use(remarkRehype)
-  .use(rehypeStringify);
+function buildRenderer(kraticaIndex: Map<string, string>, current: string) {
+  return unified()
+    .use(remarkParse)
+    .use(remarkGfm)
+    .use(remarkKraticaLinks, { index: kraticaIndex, current })
+    .use(remarkEuLinks)
+    .use(remarkRehype)
+    .use(rehypeStringify);
+}
 
 // YAML auto-parses unquoted ISO dates into JS Date objects. Coerce everything to
 // YYYY-MM-DD strings at the schema boundary so the rest of the app sees one type.
@@ -76,8 +82,35 @@ async function loadFromPath(filePath: string, kratica: string) {
   const file = await readFile(filePath, 'utf8');
   const parsed = matter(file);
   const frontmatter = lawFrontmatterSchema.parse({ ...parsed.data, kratica });
+  const index = await getKraticaIndex();
+  const renderer = buildRenderer(index, kratica);
   const html = String(await renderer.process(parsed.content));
   return { frontmatter, html };
+}
+
+let _kraticaIndexPromise: Promise<Map<string, string>> | null = null;
+
+// Cross-link target index: kratica → URL slug. Only includes entries whose
+// frontmatter advertises a real kratica field, matching build_site.py:50-57.
+export function getKraticaIndex(): Promise<Map<string, string>> {
+  if (!_kraticaIndexPromise) {
+    _kraticaIndexPromise = (async () => {
+      const manifest = await getLawManifest();
+      const idx = new Map<string, string>();
+      for (const entry of manifest) {
+        // The manifest's kratica field is filename-derived; we want the YAML one
+        // so cross-links match references in body text (e.g. "ZKP" not "1991_01...").
+        const k = entry.kratica;
+        // Heuristic guard against using filename-style kratice as link targets.
+        // Real kratice are typically ALL-CAPS abbreviations under ~15 chars.
+        if (k && /^[A-ZČŠŽ][A-ZČŠŽa-z0-9-]{0,14}$/.test(k)) {
+          idx.set(k, k);
+        }
+      }
+      return idx;
+    })();
+  }
+  return _kraticaIndexPromise;
 }
 
 // Per build_site.py:23 — vrsta values that warrant a full page rather than just a
