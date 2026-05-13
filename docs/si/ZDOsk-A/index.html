@@ -19,13 +19,16 @@
       <dt>Status</dt><dd><span class="badge neutral"></span></dd>
       <dt>Datum</dt><dd>2022-12-27</dd>
       
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2022-01-4193" target="_blank">Uradni list RS</a></dd>
     </dl>
 
     <div class="sidebar-actions">
+      
       <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
       <a href="/trubar/primerjaj/?a=ZDOsk-A" class="btn-action">⇄ Primerjaj</a>
       <a href="https://github.com/TomoTesten/trubar/blob/master/si/ZDOsk-A.md" class="btn-action" target="_blank">GitHub ↗</a>
+      
     </div>
 
     <div class="date-picker-box">
@@ -38,7 +41,7 @@
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:ZDOsk-A,vrsta:Sprejet zakon">
     
-    <h1>Zakon o spremembah Zakona o dolgotrajni oskrbi</h1>
+    <h1><abbr class="gl" title="Zakon je splošni pravni akt, ki ga sprejme <abbr class="gl" title="Državni zbor je slovensko zakonodajno telo — parlament. Sprejema zakone in državni proračun.">Državni zbor</abbr>. Ureja določeno področje življenja za vse.">Zakon</abbr> o spremembah Zakona o dolgotrajni oskrbi</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <p>U K A Z</p>
 <p>o razglasitvi Zakona o spremembah Zakona o dolgotrajni oskrbi (ZDOsk-A)</p>
@@ -52,7 +55,7 @@
 <p>O SPREMEMBAH ZAKONA O DOLGOTRAJNI OSKRBI (ZDOsk-A)</p>
 <p>1.<br />
 člen</p>
-<p>V Zakonu o dolgotrajni oskrbi (Uradni list RS, št. 196/21) se v 127. členu v drugem odstavku:</p>
+<p>V Zakonu o dolgotrajni oskrbi (<abbr class="gl" title="Uradni list RS je uradna publikacija, v kateri se objavijo vsi veljavni predpisi.">Uradni list</abbr> RS, št. 196/21) se v 127. členu v drugem odstavku:</p>
 <p>– v prvi alineji letnica »2023« nadomesti z letnico »2024«,</p>
 <p>– v drugi alineji na dveh mestih letnica »2024« nadomesti z letnico »2025«.</p>
 <p>2. člen</p>
@@ -61,7 +64,7 @@
 <p>(financiranje dodatnih stroškov dela)</p>
 <p>(1) Od 1. decembra 2021 do začetka uporabe prve alineje 1. točke prvega odstavka 10. člena in tretjega odstavka 15. člena tega zakona, ki urejata pravico do DO v instituciji iz drugega odstavka 58. člena tega zakona, se izvajalcem socialno varstvene storitve institucionalnega varstva odraslih iz 50., 51., 52. in 54. člena <a href="/trubar/si/ZSV/" class="law-ref" title="ZSV">ZSV</a> in izvajalcem pomoči na domu iz tretjega odstavka 15. člena <a href="/trubar/si/ZSV/" class="law-ref" title="ZSV">ZSV</a> zagotavljajo sredstva za sofinanciranje dodatnih stroškov dela v skladu z Aneksom h Kolektivni pogodbi za dejavnost zdravstva in socialnega varstva (Uradni list RS, št. 181/21). Izvajalcem iz prejšnjega stavka se zagotovijo sredstva za financiranje dodatnih kadrov, ki opravljajo storitve iz prejšnjega stavka, v skladu s pravilnikom, ki ureja standarde in normative socialnovarstvenih storitev.</p>
 <p>(2) Zahtevki za izplačilo sredstev iz prejšnjega odstavka se z dokazili vložijo pri ministrstvu, pristojnem za socialne zadeve.</p>
-<p>(3) Podrobnejša merila, pogoje in postopek za dodelitev sredstev iz prvega odstavka tega člena določi minister, pristojen za socialne zadeve.«.</p>
+<p>(3) Podrobnejša merila, pogoje in postopek za dodelitev sredstev iz prvega odstavka tega člena določi <abbr class="gl" title="Minister vodi ministrstvo in je član vlade. Pristojnost ministrstva določa zakon.">minister</abbr>, pristojen za socialne zadeve.«.</p>
 <p>3. člen</p>
 <p>V 132. členu se v prvem odstavku letnica »2022« nadomesti z letnico »2023«.</p>
 <p>4. člen</p>
@@ -102,43 +105,77 @@
 <p>mag. Urška Klakočar Zupančič</p>
 <p>predsednica</p>
     
+    <section class="applic-panel">
+<details>
+<summary class="applic-title">Ali ta predpis velja za mene?</summary>
+<div class="aq-body">
+<div class="aq-row">
+  <span class="aq-q">Ali živite ali delate v Sloveniji?</span>
+  <label><input type="radio" name="aq0" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq0" value="no" onchange="aqUpdate()"> Ne</label>
+</div><div class="aq-row">
+  <span class="aq-q">Ali se predpis nanaša na vaše področje dela ali življenja?</span>
+  <label><input type="radio" name="aq1" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq1" value="no" onchange="aqUpdate()"> Ne</label>
+</div>
+<div id="aq-result" class="aq-result" aria-live="polite"></div>
+<script>
+(function(){
+  var conc={"true,true": "Ta zakon verjetno velja za vas. Priporočamo, da preverite konkretne člene.", "true,false": "Ta zakon verjetno ne velja neposredno za vas, a je del slovenskega pravnega reda.", "false,true": "Ta zakon ne velja neposredno za vas, ker niste v Sloveniji.", "false,false": "Ta zakon verjetno ne velja za vas."};
+  var n=2;
+  function aqUpdate(){
+    var answers=[];
+    for(var i=0;i<n;i++){
+      var v=document.querySelector('input[name="aq'+i+'"]:checked');
+      if(!v)return;
+      answers.push(v.value==='yes'?'true':'false');
+    }
+    var key=answers.join(',');
+    var res=conc[key]||'Odgovorite na vsa vprašanja.';
+    document.getElementById('aq-result').textContent=res;
+  }
+  window.aqUpdate=aqUpdate;
+})();
+</script>
+</div>
+</details>
+</section>
     
+    <div class="court-placeholder" data-kratica="ZDOsk-A"></div>
   </article>
 </div>
 <div class="ai-section-outer">
   <section class="ai-panel">
-  <h2 class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</h2>
-  <p class="ai-panel-desc">
-    Besedilo predpisa bo samodejno kopirano skupaj z vašim vprašanjem.
-    Ko se odpre pogovorno okno AI, besedilo prilepite (<kbd>Ctrl+V</kbd> oz. <kbd>Cmd+V</kbd>).
-  </p>
-  <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
-  <div class="ai-buttons">
-    <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
-    <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
-    <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
-  </div>
-  <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
-  <details class="ai-advanced">
-    <summary>Imam lasten API ključ (napredno)</summary>
-    <div class="ai-api-inner">
-      <p class="ai-api-desc">
-        API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
-        <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
-        Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
-        Poizvedba se izvede neposredno do ponudnika, brez posrednika.
-      </p>
-      <div class="ai-api-row">
-        <select id="ai-provider" class="ai-select">
-          <option value="openai">ChatGPT (OpenAI)</option>
-          <option value="deepseek">DeepSeek</option>
-          <option value="mistral">Mistral</option>
-        </select>
-        <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
-        <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
-      </div>
-      <div id="ai-response" class="ai-response"></div>
+  <details>
+    <summary class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</summary>
+    <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
+    <div class="ai-buttons">
+      <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
+      <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
+      <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
     </div>
+    <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
+    <details class="ai-advanced">
+      <summary>Imam lasten API ključ (napredno)</summary>
+      <div class="ai-api-inner">
+        <p class="ai-api-desc">
+          API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
+          <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
+          Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
+          Poizvedba se izvede neposredno do ponudnika, brez posrednika.
+        </p>
+        <div class="ai-api-row">
+          <select id="ai-provider" class="ai-select">
+            <option value="openai">ChatGPT (OpenAI)</option>
+            <option value="deepseek">DeepSeek</option>
+            <option value="mistral">Mistral</option>
+          </select>
+          <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
+          <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
+        </div>
+        <div id="ai-response" class="ai-response"></div>
+      </div>
+    </details>
   </details>
 </section>
 </div>
@@ -176,6 +213,42 @@
   // Handle ?date= query param
   var params = new URLSearchParams(window.location.search);
   if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+
+(function() {
+  var placeholder = document.querySelector('.court-placeholder[data-kratica]');
+  if (!placeholder) return;
+  var kratica = placeholder.getAttribute('data-kratica');
+  var url = '/trubar/data/courts/' + encodeURIComponent(kratica) + '.json';
+
+  function renderDecisions(decisions) {
+    if (!decisions || !decisions.length) return;
+    var items = decisions.map(function(d) {
+      var label = d.datum ? d.datum.slice(0,10) : d.id;
+      var short_z = (d.zbirka||'').replace('Sodna praksa ','').replace(' sodišča','');
+      if (d.vir) {
+        return '<li><a href="'+d.vir+'" class="court-ref" target="_blank">'+label+' ('+short_z+')</a></li>';
+      }
+      return '<li>'+label+'</li>';
+    });
+    var section = document.createElement('section');
+    section.className = 'court-decisions';
+    section.innerHTML = '<h2>Sodna praksa</h2><ul>'+items.join('')+'</ul>';
+    placeholder.replaceWith(section);
+  }
+
+  function load() {
+    fetch(url).then(function(r){ return r.ok ? r.json() : []; }).then(renderDecisions).catch(function(){});
+  }
+
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) { obs.disconnect(); load(); }
+    }, {rootMargin: '200px'});
+    obs.observe(placeholder);
+  } else {
+    load();
+  }
 })();
 
 (function(){

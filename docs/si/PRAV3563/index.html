@@ -19,13 +19,16 @@
       <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>1995-12-22</dd>
       
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=1995-01-3383" target="_blank">Uradni list RS</a></dd>
     </dl>
 
     <div class="sidebar-actions">
+      
       <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
       <a href="/trubar/primerjaj/?a=PRAV3563" class="btn-action">⇄ Primerjaj</a>
       <a href="https://github.com/TomoTesten/trubar/blob/master/si/PRAV3563.md" class="btn-action" target="_blank">GitHub ↗</a>
+      
     </div>
 
     <div class="date-picker-box">
@@ -39,7 +42,7 @@
            data-pagefind-meta="kratica:PRAV3563,vrsta:pravilnik">
     <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a><a href="#člen-6">6</a><a href="#člen-7">7</a><a href="#člen-8">8</a><a href="#člen-9">9</a><a href="#člen-10">10</a><a href="#člen-11">11</a><a href="#člen-12">12</a><a href="#člen-13">13</a><a href="#člen-14">14</a><a href="#člen-15">15</a><a href="#člen-16">16</a><a href="#člen-17">17</a><a href="#člen-18">18</a></nav>
     <h1>Spremembe in dopolnitve pravil obveznega zdravstvenega zavarovanja</h1>
-<p>Na podlagi 14. člena statuta Zavoda za zdravstveno zavarovanje Slovenije (Uradni list RS, št. 9/95) je Skupščina Zavoda za zdravstveno zavarovanje Slovenije na 12. seji dne 17. 11. 1995 ter na 13. korespondenčni seji dne 19. 12. 1995 sprejela</p>
+<p>Na podlagi 14. člena statuta Zavoda za zdravstveno zavarovanje Slovenije (<abbr class="gl" title="Uradni list RS je uradna publikacija, v kateri se objavijo vsi veljavni predpisi.">Uradni list</abbr> RS, št. 9/95) je Skupščina Zavoda za zdravstveno zavarovanje Slovenije na 12. seji dne 17. 11. 1995 ter na 13. korespondenčni seji dne 19. 12. 1995 sprejela</p>
 <h2>S P R E M E M B E  I N  D O P O L N I T V E</h2>
 <p>pravil obveznega zdravstvenega zavarovanja</p>
 <h3><span id="člen-1">1. člen</span></h3>
@@ -113,7 +116,7 @@ V tretjem odstavku 74. člena se črta besedilo: “ali toaletnega vozička”.<
 <li>posebna zdravniška komisija, ki jo imenuje zavod, za pripomočke 93. in 94. člena pravil;</li>
 <li>za ostale pripmočke specialisti s svojega delovnega področja.<br />
 (2) Pripomočke iz 1. točke prejšnjega odstavka lahko predpisujejo tudi specialisti, če jih zato pooblastijo osebni zdravniki zavarovanih oseb z napotnico.<br />
-(3) Pripomočke, pri katerih je potrebna timska obravnava zavarovane osebe trer individualna aplikacija oziroma prilagoditev pripomočka, lahko predpisujejo v okviru svoje terciarne dejavnosti le zdravniki – specialisti Inštituta Republike Slovenije za rehabilitacijo oziroma drugega zdravstvenega zavoda, ki je pooblaščen za opravljanje ustrezne terciarne dejavnosti. Seznam teh pripomočkov določi minister za zdravstvo.”<br />
+(3) Pripomočke, pri katerih je potrebna timska obravnava zavarovane osebe trer individualna aplikacija oziroma prilagoditev pripomočka, lahko predpisujejo v okviru svoje terciarne dejavnosti le zdravniki – specialisti Inštituta Republike Slovenije za rehabilitacijo oziroma drugega zdravstvenega zavoda, ki je pooblaščen za opravljanje ustrezne terciarne dejavnosti. Seznam teh pripomočkov določi <abbr class="gl" title="Minister vodi ministrstvo in je član vlade. Pristojnost ministrstva določa zakon.">minister</abbr> za zdravstvo.”<br />
 Dosedanji tretji in četrti odstavek postaneta četrti in peti odstavek.</li>
 </ol>
 <h3><span id="člen-16">16. člen</span></h3>
@@ -147,43 +150,77 @@ zavarovanje Slovenije<br />
 Erih Šerbec l. r.</p>
 <p>Na podlagi 26. člena zakona o zdravstvenem varstvu in zdravstvenem zavarovanju (Uradni list RS, št. 9/92 in 13/93) je dal minister za zdravstvo Republike Slovenije dr. Božidar Voljč k spremembam in dopolnitvam pravil obveznega zdravstvenega zavarovanja SOGLASJE dne 5. 12. 1995, št. 50-20/95.</p>
     
+    <section class="applic-panel">
+<details>
+<summary class="applic-title">Ali ta predpis velja za mene?</summary>
+<div class="aq-body">
+<div class="aq-row">
+  <span class="aq-q">Ali delujete v panogi ali poklicu, ki ga ureja ta pravilnik?</span>
+  <label><input type="radio" name="aq0" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq0" value="no" onchange="aqUpdate()"> Ne</label>
+</div><div class="aq-row">
+  <span class="aq-q">Ali ste delodajalec ali vodja organizacije?</span>
+  <label><input type="radio" name="aq1" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq1" value="no" onchange="aqUpdate()"> Ne</label>
+</div>
+<div id="aq-result" class="aq-result" aria-live="polite"></div>
+<script>
+(function(){
+  var conc={"true,true": "Ta pravilnik vas zavezuje kot vodjo organizacije v tej panogi.", "true,false": "Ta pravilnik vas zadeva kot delavca ali udeleženca v tej panogi.", "false,true": "Ta pravilnik verjetno ne zavezuje vaše organizacije.", "false,false": "Ta pravilnik verjetno ne velja za vas."};
+  var n=2;
+  function aqUpdate(){
+    var answers=[];
+    for(var i=0;i<n;i++){
+      var v=document.querySelector('input[name="aq'+i+'"]:checked');
+      if(!v)return;
+      answers.push(v.value==='yes'?'true':'false');
+    }
+    var key=answers.join(',');
+    var res=conc[key]||'Odgovorite na vsa vprašanja.';
+    document.getElementById('aq-result').textContent=res;
+  }
+  window.aqUpdate=aqUpdate;
+})();
+</script>
+</div>
+</details>
+</section>
     
+    <div class="court-placeholder" data-kratica="PRAV3563"></div>
   </article>
 </div>
 <div class="ai-section-outer">
   <section class="ai-panel">
-  <h2 class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</h2>
-  <p class="ai-panel-desc">
-    Besedilo predpisa bo samodejno kopirano skupaj z vašim vprašanjem.
-    Ko se odpre pogovorno okno AI, besedilo prilepite (<kbd>Ctrl+V</kbd> oz. <kbd>Cmd+V</kbd>).
-  </p>
-  <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
-  <div class="ai-buttons">
-    <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
-    <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
-    <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
-  </div>
-  <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
-  <details class="ai-advanced">
-    <summary>Imam lasten API ključ (napredno)</summary>
-    <div class="ai-api-inner">
-      <p class="ai-api-desc">
-        API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
-        <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
-        Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
-        Poizvedba se izvede neposredno do ponudnika, brez posrednika.
-      </p>
-      <div class="ai-api-row">
-        <select id="ai-provider" class="ai-select">
-          <option value="openai">ChatGPT (OpenAI)</option>
-          <option value="deepseek">DeepSeek</option>
-          <option value="mistral">Mistral</option>
-        </select>
-        <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
-        <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
-      </div>
-      <div id="ai-response" class="ai-response"></div>
+  <details>
+    <summary class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</summary>
+    <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
+    <div class="ai-buttons">
+      <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
+      <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
+      <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
     </div>
+    <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
+    <details class="ai-advanced">
+      <summary>Imam lasten API ključ (napredno)</summary>
+      <div class="ai-api-inner">
+        <p class="ai-api-desc">
+          API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
+          <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
+          Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
+          Poizvedba se izvede neposredno do ponudnika, brez posrednika.
+        </p>
+        <div class="ai-api-row">
+          <select id="ai-provider" class="ai-select">
+            <option value="openai">ChatGPT (OpenAI)</option>
+            <option value="deepseek">DeepSeek</option>
+            <option value="mistral">Mistral</option>
+          </select>
+          <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
+          <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
+        </div>
+        <div id="ai-response" class="ai-response"></div>
+      </div>
+    </details>
   </details>
 </section>
 </div>
@@ -221,6 +258,42 @@ Erih Šerbec l. r.</p>
   // Handle ?date= query param
   var params = new URLSearchParams(window.location.search);
   if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+
+(function() {
+  var placeholder = document.querySelector('.court-placeholder[data-kratica]');
+  if (!placeholder) return;
+  var kratica = placeholder.getAttribute('data-kratica');
+  var url = '/trubar/data/courts/' + encodeURIComponent(kratica) + '.json';
+
+  function renderDecisions(decisions) {
+    if (!decisions || !decisions.length) return;
+    var items = decisions.map(function(d) {
+      var label = d.datum ? d.datum.slice(0,10) : d.id;
+      var short_z = (d.zbirka||'').replace('Sodna praksa ','').replace(' sodišča','');
+      if (d.vir) {
+        return '<li><a href="'+d.vir+'" class="court-ref" target="_blank">'+label+' ('+short_z+')</a></li>';
+      }
+      return '<li>'+label+'</li>';
+    });
+    var section = document.createElement('section');
+    section.className = 'court-decisions';
+    section.innerHTML = '<h2>Sodna praksa</h2><ul>'+items.join('')+'</ul>';
+    placeholder.replaceWith(section);
+  }
+
+  function load() {
+    fetch(url).then(function(r){ return r.ok ? r.json() : []; }).then(renderDecisions).catch(function(){});
+  }
+
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) { obs.disconnect(); load(); }
+    }, {rootMargin: '200px'});
+    obs.observe(placeholder);
+  } else {
+    load();
+  }
 })();
 
 (function(){

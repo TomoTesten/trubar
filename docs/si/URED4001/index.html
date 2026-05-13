@@ -19,13 +19,16 @@
       <dt>Status</dt><dd><span class="badge invalid">neveljaven</span></dd>
       <dt>Datum</dt><dd>2006-03-23</dd>
       <dt>Organ</dt><dd>Vlada Republike Slovenije</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2006-01-1265" target="_blank">Uradni list RS</a></dd>
     </dl>
 
     <div class="sidebar-actions">
+      
       <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
       <a href="/trubar/primerjaj/?a=URED4001" class="btn-action">⇄ Primerjaj</a>
       <a href="https://github.com/TomoTesten/trubar/blob/master/si/URED4001.md" class="btn-action" target="_blank">GitHub ↗</a>
+      
     </div>
 
     <div class="date-picker-box">
@@ -38,8 +41,8 @@
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:URED4001,vrsta:uredba">
     <nav class="toc"><strong>Členi:</strong> <a href="#člen-1">1</a><a href="#člen-2">2</a><a href="#člen-3">3</a><a href="#člen-4">4</a><a href="#člen-5">5</a></nav>
-    <h1>Uredba o dopolnitvah Uredbe o upravnem poslovanju</h1>
-<p>Na podlagi 19. člena in tretjega odstavka 64. člena Zakona o splošnem upravnem postopku (Uradni list RS, št. 24/06 – uradno prečiščeno besedilo) izdaja Vlada Republike Slovenije</p>
+    <h1><abbr class="gl" title="Uredba je podzakonski predpis vlade, ki podrobneje ureja področje, določeno z zakonom.">Uredba</abbr> o dopolnitvah Uredbe o upravnem poslovanju</h1>
+<p>Na podlagi 19. člena in tretjega odstavka 64. člena Zakona o splošnem upravnem postopku (<abbr class="gl" title="Uradni list RS je uradna publikacija, v kateri se objavijo vsi veljavni predpisi.">Uradni list</abbr> RS, št. 24/06 – uradno prečiščeno besedilo) izdaja <abbr class="gl" title="Vlada je izvršilna veja oblasti, sestavljena iz predsednika vlade in ministrov.">Vlada</abbr> Republike Slovenije</p>
 <h2>U R E D B O</h2>
 <p>o dopolnitvah Uredbe o upravnem<br />
 poslovanju</p>
@@ -54,7 +57,7 @@ poslovanju</p>
 <p>Krajevni uradi, ki so organizirani kot notranje organizacijske enote ali kot način dela upravnih enot, opravljajo naloge enotnih vstopnih točk: sprejemanja napovedi za odmero dohodnine.«.</p>
 <h3><span id="člen-3">3. člen</span></h3>
 <p>V 17. členu se doda nov tretji odstavek, ki se glasi:<br />
-»(3) Organi državne uprave redno ugotavljajo zadovoljstvo strank tudi z vprašalnikom, ki ga določi minister, pristojen za javno upravo. Vprašalnik mora biti na primernem mestu dostopen vsem strankam organa. V postopkih, ki so uvedeni na zahtevo stranke, se vprašalnik, skupaj s prošnjo za izpolnitev in ustrezno pisemsko ovojnico za vrnitev vprašalnika, posreduje z odločbo oziroma sklepom, s katerim se postopek zaključi. Pri izpolnjevanju vprašalnika se strankam zagotovi popolna anonimnost. Organi so dolžni obdelati vprašalnike za vsak koledarski mesec posebej, najpozneje do desetega dne v naslednjem mesecu, in rezultate objaviti na spletni aplikaciji, ki jo zagotovi ministrstvo, pristojno za javno upravo.«.</p>
+»(3) Organi državne uprave redno ugotavljajo zadovoljstvo strank tudi z vprašalnikom, ki ga določi <abbr class="gl" title="Minister vodi ministrstvo in je član vlade. Pristojnost ministrstva določa zakon.">minister</abbr>, pristojen za javno upravo. Vprašalnik mora biti na primernem mestu dostopen vsem strankam organa. V postopkih, ki so uvedeni na zahtevo stranke, se vprašalnik, skupaj s prošnjo za izpolnitev in ustrezno pisemsko ovojnico za vrnitev vprašalnika, posreduje z odločbo oziroma sklepom, s katerim se postopek zaključi. Pri izpolnjevanju vprašalnika se strankam zagotovi popolna anonimnost. Organi so dolžni obdelati vprašalnike za vsak koledarski mesec posebej, najpozneje do desetega dne v naslednjem mesecu, in rezultate objaviti na spletni aplikaciji, ki jo zagotovi ministrstvo, pristojno za javno upravo.«.</p>
 <h3>PREHODNE IN KONČNE DOLOČBE</h3>
 <h3><span id="člen-4">4. člen</span></h3>
 <p>Določba novega tretjega odstavka 17. člena uredbe se uporablja od 1. maja 2006.</p>
@@ -67,43 +70,77 @@ poslovanju</p>
 <p>Janez Janša l.r.<br />
 Predsednik</p>
     
+    <section class="applic-panel">
+<details>
+<summary class="applic-title">Ali ta predpis velja za mene?</summary>
+<div class="aq-body">
+<div class="aq-row">
+  <span class="aq-q">Ali vas ta predpis zadeva kot podjetje ali organizacijo?</span>
+  <label><input type="radio" name="aq0" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq0" value="no" onchange="aqUpdate()"> Ne</label>
+</div><div class="aq-row">
+  <span class="aq-q">Ali delujete na področju, ki ga ureja ta uredba?</span>
+  <label><input type="radio" name="aq1" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq1" value="no" onchange="aqUpdate()"> Ne</label>
+</div>
+<div id="aq-result" class="aq-result" aria-live="polite"></div>
+<script>
+(function(){
+  var conc={"true,true": "Ta uredba verjetno zavezuje vašo organizacijo.", "true,false": "Ta uredba verjetno ne zadeva vaše organizacije neposredno.", "false,true": "Ta uredba vas zadeva kot posameznika na tem področju.", "false,false": "Ta uredba vas verjetno ne zadeva."};
+  var n=2;
+  function aqUpdate(){
+    var answers=[];
+    for(var i=0;i<n;i++){
+      var v=document.querySelector('input[name="aq'+i+'"]:checked');
+      if(!v)return;
+      answers.push(v.value==='yes'?'true':'false');
+    }
+    var key=answers.join(',');
+    var res=conc[key]||'Odgovorite na vsa vprašanja.';
+    document.getElementById('aq-result').textContent=res;
+  }
+  window.aqUpdate=aqUpdate;
+})();
+</script>
+</div>
+</details>
+</section>
     
+    <div class="court-placeholder" data-kratica="URED4001"></div>
   </article>
 </div>
 <div class="ai-section-outer">
   <section class="ai-panel">
-  <h2 class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</h2>
-  <p class="ai-panel-desc">
-    Besedilo predpisa bo samodejno kopirano skupaj z vašim vprašanjem.
-    Ko se odpre pogovorno okno AI, besedilo prilepite (<kbd>Ctrl+V</kbd> oz. <kbd>Cmd+V</kbd>).
-  </p>
-  <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
-  <div class="ai-buttons">
-    <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
-    <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
-    <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
-  </div>
-  <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
-  <details class="ai-advanced">
-    <summary>Imam lasten API ključ (napredno)</summary>
-    <div class="ai-api-inner">
-      <p class="ai-api-desc">
-        API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
-        <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
-        Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
-        Poizvedba se izvede neposredno do ponudnika, brez posrednika.
-      </p>
-      <div class="ai-api-row">
-        <select id="ai-provider" class="ai-select">
-          <option value="openai">ChatGPT (OpenAI)</option>
-          <option value="deepseek">DeepSeek</option>
-          <option value="mistral">Mistral</option>
-        </select>
-        <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
-        <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
-      </div>
-      <div id="ai-response" class="ai-response"></div>
+  <details>
+    <summary class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</summary>
+    <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
+    <div class="ai-buttons">
+      <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
+      <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
+      <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
     </div>
+    <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
+    <details class="ai-advanced">
+      <summary>Imam lasten API ključ (napredno)</summary>
+      <div class="ai-api-inner">
+        <p class="ai-api-desc">
+          API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
+          <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
+          Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
+          Poizvedba se izvede neposredno do ponudnika, brez posrednika.
+        </p>
+        <div class="ai-api-row">
+          <select id="ai-provider" class="ai-select">
+            <option value="openai">ChatGPT (OpenAI)</option>
+            <option value="deepseek">DeepSeek</option>
+            <option value="mistral">Mistral</option>
+          </select>
+          <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
+          <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
+        </div>
+        <div id="ai-response" class="ai-response"></div>
+      </div>
+    </details>
   </details>
 </section>
 </div>
@@ -141,6 +178,42 @@ Predsednik</p>
   // Handle ?date= query param
   var params = new URLSearchParams(window.location.search);
   if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+
+(function() {
+  var placeholder = document.querySelector('.court-placeholder[data-kratica]');
+  if (!placeholder) return;
+  var kratica = placeholder.getAttribute('data-kratica');
+  var url = '/trubar/data/courts/' + encodeURIComponent(kratica) + '.json';
+
+  function renderDecisions(decisions) {
+    if (!decisions || !decisions.length) return;
+    var items = decisions.map(function(d) {
+      var label = d.datum ? d.datum.slice(0,10) : d.id;
+      var short_z = (d.zbirka||'').replace('Sodna praksa ','').replace(' sodišča','');
+      if (d.vir) {
+        return '<li><a href="'+d.vir+'" class="court-ref" target="_blank">'+label+' ('+short_z+')</a></li>';
+      }
+      return '<li>'+label+'</li>';
+    });
+    var section = document.createElement('section');
+    section.className = 'court-decisions';
+    section.innerHTML = '<h2>Sodna praksa</h2><ul>'+items.join('')+'</ul>';
+    placeholder.replaceWith(section);
+  }
+
+  function load() {
+    fetch(url).then(function(r){ return r.ok ? r.json() : []; }).then(renderDecisions).catch(function(){});
+  }
+
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) { obs.disconnect(); load(); }
+    }, {rootMargin: '200px'});
+    obs.observe(placeholder);
+  } else {
+    load();
+  }
 })();
 
 (function(){

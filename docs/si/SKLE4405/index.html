@@ -19,13 +19,16 @@
       <dt>Status</dt><dd><span class="badge invalid">neveljaven</span></dd>
       <dt>Datum</dt><dd>2004-01-15</dd>
       <dt>Organ</dt><dd>Banka Slovenije</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2004-01-0092" target="_blank">Uradni list RS</a></dd>
     </dl>
 
     <div class="sidebar-actions">
+      
       <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
       <a href="/trubar/primerjaj/?a=SKLE4405" class="btn-action">⇄ Primerjaj</a>
       <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE4405.md" class="btn-action" target="_blank">GitHub ↗</a>
+      
     </div>
 
     <div class="date-picker-box">
@@ -38,8 +41,8 @@
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE4405,vrsta:sklep">
     
-    <h1>Sklep o obveznih rezervah</h1>
-<p>Na podlagi 1. točke 11. člena, 19. člena in prvega odstavka 31. člena zakona o Banki Slovenije (Uradni list RS, št. 58/02 in 85/02) izdaja Svet Banke Slovenije</p>
+    <h1><abbr class="gl" title="Sklep je odločitev sodišča ali organa o procesnih vprašanjih (npr. o predlogih, pritožbah).">Sklep</abbr> o obveznih rezervah</h1>
+<p>Na podlagi 1. točke 11. člena, 19. člena in prvega odstavka 31. člena zakona o Banki Slovenije (<abbr class="gl" title="Uradni list RS je uradna publikacija, v kateri se objavijo vsi veljavni predpisi.">Uradni list</abbr> RS, št. 58/02 in 85/02) izdaja Svet Banke Slovenije</p>
 <h2>S K L E P</h2>
 <p>o obveznih rezervah</p>
 <ol>
@@ -108,7 +111,7 @@ Nadomestilo obveznik obračuna in plača drugi delovni dan po zaključku obdobja
 Poročanje Banki Slovenije</li>
 <li>Obveznik poroča Banki Slovenije o izračunu obveznih rezerv. Način poročanja določi guverner z navodilom iz 18. točke tega sklepa.</li>
 <li>Poročilo iz 19. točke tega sklepa predloži obveznik na predpisanem obrazcu Banki Slovenije najkasneje tretji delovni dan po zaključku obdobja izračuna obveznih rezerv.<br />
-Veljavnost sklepa in prehodne določbe</li>
+<abbr class="gl" title="Veljavnost predpisa pomeni, da predpis zavezuje in ga je treba spoštovati.">Veljavnost</abbr> sklepa in prehodne določbe</li>
 <li>Ta sklep začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije. Prvič se uporabi v obdobju izračuna od 22. 1. do 21. 2. 2004 in v obdobju izpolnjevanja od 27. 1. do 26. 2. 2004.</li>
 <li>V obdobju izpolnjevanja od 27. 1. do 26. 2. 2004 obveznik izpolni obvezne rezerve, ki so izračunane v obdobju izračuna od 22. 12. 2003 do 21. 1. 2004 na podlagi sklepa o obveznih rezervah (Uradni list RS, št. 103/02 in 65/03 – v nadaljevanju: prejšnji sklep).</li>
 <li>
@@ -128,43 +131,77 @@ Veljavnost sklepa in prehodne določbe</li>
 Sveta Banke Slovenije<br />
 Mitja Gaspari l. r.</p>
     
+    <section class="applic-panel">
+<details>
+<summary class="applic-title">Ali ta predpis velja za mene?</summary>
+<div class="aq-body">
+<div class="aq-row">
+  <span class="aq-q">Ali se ta predpis nanaša na vaše področje ali dejavnost?</span>
+  <label><input type="radio" name="aq0" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq0" value="no" onchange="aqUpdate()"> Ne</label>
+</div><div class="aq-row">
+  <span class="aq-q">Ali ste zavezani k spoštovanju tega predpisa po drugi zakonodaji?</span>
+  <label><input type="radio" name="aq1" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq1" value="no" onchange="aqUpdate()"> Ne</label>
+</div>
+<div id="aq-result" class="aq-result" aria-live="polite"></div>
+<script>
+(function(){
+  var conc={"true,true": "Ta predpis verjetno velja za vas.", "true,false": "Ta predpis se vas tiče, a morda ni neposredno zavezujoč.", "false,true": "Ta predpis vas posredno zadeva.", "false,false": "Ta predpis verjetno ne velja neposredno za vas."};
+  var n=2;
+  function aqUpdate(){
+    var answers=[];
+    for(var i=0;i<n;i++){
+      var v=document.querySelector('input[name="aq'+i+'"]:checked');
+      if(!v)return;
+      answers.push(v.value==='yes'?'true':'false');
+    }
+    var key=answers.join(',');
+    var res=conc[key]||'Odgovorite na vsa vprašanja.';
+    document.getElementById('aq-result').textContent=res;
+  }
+  window.aqUpdate=aqUpdate;
+})();
+</script>
+</div>
+</details>
+</section>
     
+    <div class="court-placeholder" data-kratica="SKLE4405"></div>
   </article>
 </div>
 <div class="ai-section-outer">
   <section class="ai-panel">
-  <h2 class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</h2>
-  <p class="ai-panel-desc">
-    Besedilo predpisa bo samodejno kopirano skupaj z vašim vprašanjem.
-    Ko se odpre pogovorno okno AI, besedilo prilepite (<kbd>Ctrl+V</kbd> oz. <kbd>Cmd+V</kbd>).
-  </p>
-  <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
-  <div class="ai-buttons">
-    <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
-    <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
-    <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
-  </div>
-  <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
-  <details class="ai-advanced">
-    <summary>Imam lasten API ključ (napredno)</summary>
-    <div class="ai-api-inner">
-      <p class="ai-api-desc">
-        API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
-        <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
-        Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
-        Poizvedba se izvede neposredno do ponudnika, brez posrednika.
-      </p>
-      <div class="ai-api-row">
-        <select id="ai-provider" class="ai-select">
-          <option value="openai">ChatGPT (OpenAI)</option>
-          <option value="deepseek">DeepSeek</option>
-          <option value="mistral">Mistral</option>
-        </select>
-        <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
-        <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
-      </div>
-      <div id="ai-response" class="ai-response"></div>
+  <details>
+    <summary class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</summary>
+    <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
+    <div class="ai-buttons">
+      <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
+      <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
+      <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
     </div>
+    <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
+    <details class="ai-advanced">
+      <summary>Imam lasten API ključ (napredno)</summary>
+      <div class="ai-api-inner">
+        <p class="ai-api-desc">
+          API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
+          <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
+          Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
+          Poizvedba se izvede neposredno do ponudnika, brez posrednika.
+        </p>
+        <div class="ai-api-row">
+          <select id="ai-provider" class="ai-select">
+            <option value="openai">ChatGPT (OpenAI)</option>
+            <option value="deepseek">DeepSeek</option>
+            <option value="mistral">Mistral</option>
+          </select>
+          <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
+          <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
+        </div>
+        <div id="ai-response" class="ai-response"></div>
+      </div>
+    </details>
   </details>
 </section>
 </div>
@@ -202,6 +239,42 @@ Mitja Gaspari l. r.</p>
   // Handle ?date= query param
   var params = new URLSearchParams(window.location.search);
   if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+
+(function() {
+  var placeholder = document.querySelector('.court-placeholder[data-kratica]');
+  if (!placeholder) return;
+  var kratica = placeholder.getAttribute('data-kratica');
+  var url = '/trubar/data/courts/' + encodeURIComponent(kratica) + '.json';
+
+  function renderDecisions(decisions) {
+    if (!decisions || !decisions.length) return;
+    var items = decisions.map(function(d) {
+      var label = d.datum ? d.datum.slice(0,10) : d.id;
+      var short_z = (d.zbirka||'').replace('Sodna praksa ','').replace(' sodišča','');
+      if (d.vir) {
+        return '<li><a href="'+d.vir+'" class="court-ref" target="_blank">'+label+' ('+short_z+')</a></li>';
+      }
+      return '<li>'+label+'</li>';
+    });
+    var section = document.createElement('section');
+    section.className = 'court-decisions';
+    section.innerHTML = '<h2>Sodna praksa</h2><ul>'+items.join('')+'</ul>';
+    placeholder.replaceWith(section);
+  }
+
+  function load() {
+    fetch(url).then(function(r){ return r.ok ? r.json() : []; }).then(renderDecisions).catch(function(){});
+  }
+
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) { obs.disconnect(); load(); }
+    }, {rootMargin: '200px'});
+    obs.observe(placeholder);
+  } else {
+    load();
+  }
 })();
 
 (function(){

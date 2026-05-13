@@ -47,7 +47,17 @@
       <span class="cat-label">Sodne odločbe ↗</span>
       <span class="cat-sublabel">Prosto dostopna zbirka za razvoj in analizo</span>
     </a>
+    <a href="/trubar/sql/" class="category-card">
+      <span class="cat-count">SQL</span>
+      <span class="cat-label">Poizvedbe ↗</span>
+      <span class="cat-sublabel">DuckDB v brskalniku, brez strežnika</span>
+    </a>
   </div>
+
+  <section class="recent-changes">
+    <h2>Zadnje spremembe <a href="/trubar/changelog/" class="more-link">vse →</a></h2>
+    <ul id="recent-list"><li style="color:#888">Nalagam...</li></ul>
+  </section>
 
   <section class="about">
     <h2>O projektu</h2>
@@ -88,6 +98,7 @@
 <footer>
   CC0 javna domena ·
   <a href="/trubar/npb/">Prečiščena besedila</a> ·
+  <a href="/trubar/sql/">SQL iskanje</a> ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a> ·
   <a href="https://huggingface.co/datasets/TomoTesten/trubar-sodna-praksa">Hugging Face</a>
 </footer>
@@ -99,6 +110,16 @@
     showImages: false,
     excerptLength: 25,
     translations: { placeholder: "Iščite zakon, člen, besedo..." },
+  });
+</script>
+<script>
+fetch('/trubar/data/changelog.json')
+  .then(r=>r.json())
+  .then(items=>{
+    document.getElementById('recent-list').innerHTML =
+      items.slice(0,10).map(i=>
+        `<li><span class="cl-date">${i.date}</span> <a href="${i.url}">${i.kratica}</a> <span class="cl-subject">${i.subject.replace(/</g,'&lt;')}</span></li>`
+      ).join('');
   });
 </script>
 </body>

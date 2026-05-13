@@ -19,13 +19,16 @@
       <dt>Status</dt><dd><span class="badge neutral"></span></dd>
       <dt>Datum</dt><dd>2013-12-30</dd>
       
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2013-02-0094" target="_blank">Uradni list RS</a></dd>
     </dl>
 
     <div class="sidebar-actions">
+      
       <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
       <a href="/trubar/primerjaj/?a=BRUMVTP" class="btn-action">⇄ Primerjaj</a>
       <a href="https://github.com/TomoTesten/trubar/blob/master/si/BRUMVTP.md" class="btn-action" target="_blank">GitHub ↗</a>
+      
     </div>
 
     <div class="date-picker-box">
@@ -38,7 +41,7 @@
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:BRUMVTP,vrsta:Sprejet zakon">
     
-    <h1>Zakon o ratifikaciji Sporazuma med Vlado Republike Slovenije in Vlado Ruske federacije o medsebojnem varovanju tajnih podatkov</h1>
+    <h1><abbr class="gl" title="Zakon je splošni pravni akt, ki ga sprejme <abbr class="gl" title="Državni zbor je slovensko zakonodajno telo — parlament. Sprejema zakone in državni proračun.">Državni zbor</abbr>. Ureja določeno področje življenja za vse.">Zakon</abbr> o ratifikaciji Sporazuma med Vlado Republike Slovenije in Vlado Ruske federacije o medsebojnem varovanju tajnih podatkov</h1>
 <p>Na podlagi druge alinee prvega odstavka 107. člena in prvega odstavka 91. člena Ustave Republike Slovenije izdajam</p>
 <h2>U K A Z</h2>
 <p>o razglasitvi Zakona o ratifikaciji Sporazuma med Vlado Republike Slovenije in Vlado Ruske federacije o medsebojnem varovanju tajnih podatkov (BRUMVTP)</p>
@@ -56,7 +59,7 @@ Republike Slovenije</p>
 <p>Besedilo sporazuma se v izvirniku v slovenskem in ruskem jeziku glasi:</p>
 <h2>S P O R A ZUM</h2>
 <p>med Vlado Republike Slovenije in Vlado Ruske federacije o medsebojnem varovanju tajnih podatkov</p>
-<p>Vlada Republike Slovenije in Vlada Ruske federacije, v nadaljevanju pogodbenici, sta se<br />
+<p><abbr class="gl" title="Vlada je izvršilna veja oblasti, sestavljena iz predsednika vlade in ministrov.">Vlada</abbr> Republike Slovenije in Vlada Ruske federacije, v nadaljevanju pogodbenici, sta se<br />
 v želji, da zagotovita varovanje tajnih podatkov, ki se izmenjavajo v okviru političnega, vojaškega, vojaško-tehničnega, gospodarskega oziroma drugega sodelovanja, ter tajnih podatkov, ki so nastali med tovrstnim sodelovanjem,<br />
 upoštevajoč vzajemne interese pri zagotavljanju varovanja tajnih podatkov v skladu z zakoni in drugimi predpisi države vsake pogodbenice,<br />
 dogovorili:</p>
@@ -66,7 +69,7 @@ dogovorili:</p>
 »tajni podatek«: podatek, izražen v kateri koli obliki, ki je v Republiki Sloveniji določen kot tajni podatek in v Ruski federaciji kot državna skrivnost, poslan in/ali prejet tako, kot določita pogodbenici in ta sporazum, ali nastane pri sodelovanju pogodbenic in se varuje v skladu z zakoni in drugimi predpisi države vsake pogodbenice;<br />
 »nosilci tajnih podatkov«: materialni objekti, vključno s fizičnimi polji, na katerih imajo tajni podatki obliko simbolov, podob, signalov, tehničnih rešitev in postopkov;<br />
 »oznaka stopnje tajnosti«: oznaka na nosilcu tajnih podatkov, ki določa stopnjo tajnosti podatkov, ki jih vsebuje, in/ali je navedena v spremnih dokumentih zanj;<br />
-»pooblaščeni organ«: organ državne uprave ali organizacija, ki jo pogodbenica pooblasti, da daje, prejema, hrani, varuje in uporablja tajne podatke;<br />
+»pooblaščeni <abbr class="gl" title="Organ je državna ali lokalna institucija z javnimi pooblastili (ministrstvo, agencija, občina).">organ</abbr>«: organ državne uprave ali organizacija, ki jo pogodbenica pooblasti, da daje, prejema, hrani, varuje in uporablja tajne podatke;<br />
 »dovoljenje za dostop do tajnih podatkov«: administrativna odločitev, sprejeta v skladu z zakoni in drugimi predpisi države vsake pogodbenice, ki potrjuje, da lahko ima posameznik dostop do tajnih podatkov določene stopnje tajnosti;<br />
 »licenca/varnostno dovoljenje«: administrativna odločitev, sprejeta v skladu z zakoni in drugimi predpisi države vsake pogodbenice, ki potrjuje, da ima pooblaščeni organ pravico do opravljanja del vključno z uresničevanjem projektov, pri katerih se uporabljajo tajni podatki določene stopnje tajnosti;<br />
 »dostop do tajnih podatkov«: v skladu z zakoni in drugimi predpisi države vsake pogodbenice odobreno seznanjanje s tajnimi podatki posameznika z ustreznim dovoljenjem za dostop do tajnih podatkov;<br />
@@ -298,43 +301,77 @@ Republike Slovenije<br />
 Janko Veber l.r.<br />
 Predsednik</p>
     
+    <section class="applic-panel">
+<details>
+<summary class="applic-title">Ali ta predpis velja za mene?</summary>
+<div class="aq-body">
+<div class="aq-row">
+  <span class="aq-q">Ali živite ali delate v Sloveniji?</span>
+  <label><input type="radio" name="aq0" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq0" value="no" onchange="aqUpdate()"> Ne</label>
+</div><div class="aq-row">
+  <span class="aq-q">Ali se predpis nanaša na vaše področje dela ali življenja?</span>
+  <label><input type="radio" name="aq1" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq1" value="no" onchange="aqUpdate()"> Ne</label>
+</div>
+<div id="aq-result" class="aq-result" aria-live="polite"></div>
+<script>
+(function(){
+  var conc={"true,true": "Ta zakon verjetno velja za vas. Priporočamo, da preverite konkretne člene.", "true,false": "Ta zakon verjetno ne velja neposredno za vas, a je del slovenskega pravnega reda.", "false,true": "Ta zakon ne velja neposredno za vas, ker niste v Sloveniji.", "false,false": "Ta zakon verjetno ne velja za vas."};
+  var n=2;
+  function aqUpdate(){
+    var answers=[];
+    for(var i=0;i<n;i++){
+      var v=document.querySelector('input[name="aq'+i+'"]:checked');
+      if(!v)return;
+      answers.push(v.value==='yes'?'true':'false');
+    }
+    var key=answers.join(',');
+    var res=conc[key]||'Odgovorite na vsa vprašanja.';
+    document.getElementById('aq-result').textContent=res;
+  }
+  window.aqUpdate=aqUpdate;
+})();
+</script>
+</div>
+</details>
+</section>
     
+    <div class="court-placeholder" data-kratica="BRUMVTP"></div>
   </article>
 </div>
 <div class="ai-section-outer">
   <section class="ai-panel">
-  <h2 class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</h2>
-  <p class="ai-panel-desc">
-    Besedilo predpisa bo samodejno kopirano skupaj z vašim vprašanjem.
-    Ko se odpre pogovorno okno AI, besedilo prilepite (<kbd>Ctrl+V</kbd> oz. <kbd>Cmd+V</kbd>).
-  </p>
-  <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
-  <div class="ai-buttons">
-    <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
-    <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
-    <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
-  </div>
-  <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
-  <details class="ai-advanced">
-    <summary>Imam lasten API ključ (napredno)</summary>
-    <div class="ai-api-inner">
-      <p class="ai-api-desc">
-        API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
-        <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
-        Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
-        Poizvedba se izvede neposredno do ponudnika, brez posrednika.
-      </p>
-      <div class="ai-api-row">
-        <select id="ai-provider" class="ai-select">
-          <option value="openai">ChatGPT (OpenAI)</option>
-          <option value="deepseek">DeepSeek</option>
-          <option value="mistral">Mistral</option>
-        </select>
-        <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
-        <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
-      </div>
-      <div id="ai-response" class="ai-response"></div>
+  <details>
+    <summary class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</summary>
+    <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
+    <div class="ai-buttons">
+      <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
+      <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
+      <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
     </div>
+    <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
+    <details class="ai-advanced">
+      <summary>Imam lasten API ključ (napredno)</summary>
+      <div class="ai-api-inner">
+        <p class="ai-api-desc">
+          API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
+          <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
+          Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
+          Poizvedba se izvede neposredno do ponudnika, brez posrednika.
+        </p>
+        <div class="ai-api-row">
+          <select id="ai-provider" class="ai-select">
+            <option value="openai">ChatGPT (OpenAI)</option>
+            <option value="deepseek">DeepSeek</option>
+            <option value="mistral">Mistral</option>
+          </select>
+          <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
+          <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
+        </div>
+        <div id="ai-response" class="ai-response"></div>
+      </div>
+    </details>
   </details>
 </section>
 </div>
@@ -372,6 +409,42 @@ Predsednik</p>
   // Handle ?date= query param
   var params = new URLSearchParams(window.location.search);
   if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+
+(function() {
+  var placeholder = document.querySelector('.court-placeholder[data-kratica]');
+  if (!placeholder) return;
+  var kratica = placeholder.getAttribute('data-kratica');
+  var url = '/trubar/data/courts/' + encodeURIComponent(kratica) + '.json';
+
+  function renderDecisions(decisions) {
+    if (!decisions || !decisions.length) return;
+    var items = decisions.map(function(d) {
+      var label = d.datum ? d.datum.slice(0,10) : d.id;
+      var short_z = (d.zbirka||'').replace('Sodna praksa ','').replace(' sodišča','');
+      if (d.vir) {
+        return '<li><a href="'+d.vir+'" class="court-ref" target="_blank">'+label+' ('+short_z+')</a></li>';
+      }
+      return '<li>'+label+'</li>';
+    });
+    var section = document.createElement('section');
+    section.className = 'court-decisions';
+    section.innerHTML = '<h2>Sodna praksa</h2><ul>'+items.join('')+'</ul>';
+    placeholder.replaceWith(section);
+  }
+
+  function load() {
+    fetch(url).then(function(r){ return r.ok ? r.json() : []; }).then(renderDecisions).catch(function(){});
+  }
+
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) { obs.disconnect(); load(); }
+    }, {rootMargin: '200px'});
+    obs.observe(placeholder);
+  } else {
+    load();
+  }
 })();
 
 (function(){

@@ -19,13 +19,16 @@
       <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>2021-12-15</dd>
       
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2021-01-3890" target="_blank">Uradni list RS</a></dd>
     </dl>
 
     <div class="sidebar-actions">
+      
       <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
       <a href="/trubar/primerjaj/?a=DRUG4990" class="btn-action">⇄ Primerjaj</a>
       <a href="https://github.com/TomoTesten/trubar/blob/master/si/DRUG4990.md" class="btn-action" target="_blank">GitHub ↗</a>
+      
     </div>
 
     <div class="date-picker-box">
@@ -39,14 +42,14 @@
            data-pagefind-meta="kratica:DRUG4990,vrsta:drugi akt">
     
     <h1>Javni poziv invalidskim in humanitarnim organizacijam ter Nacionalnemu svetu invalidskih organizacij Slovenije za predlaganje kandidatov za člane Sveta Fundacije za financiranje invalidskih in humanitarnih organizacij v Republiki Sloveniji</h1>
-<p>Mandatno-volilna komisija na podlagi 1. točke drugega odstavka 10. člena Zakona o lastninskem preoblikovanju Loterije Slovenije (Uradni list RS, št. 44/96, 47/97, 102/07, 26/11, 109/11, 58/12 in 29/17 – <a href="/trubar/si/ZŠpo-1/" class="law-ref" title="ZŠpo-1">ZŠpo-1</a>) ter sklepa, sprejetega na 1. nadaljevanju 37. seje Mandatno-volilne komisije dne 13. 12. 2021 objavlja</p>
+<p>Mandatno-volilna komisija na podlagi 1. točke drugega odstavka 10. člena Zakona o lastninskem preoblikovanju Loterije Slovenije (<abbr class="gl" title="Uradni list RS je uradna publikacija, v kateri se objavijo vsi veljavni predpisi.">Uradni list</abbr> RS, št. 44/96, 47/97, 102/07, 26/11, 109/11, 58/12 in 29/17 – <a href="/trubar/si/ZŠpo-1/" class="law-ref" title="ZŠpo-1">ZŠpo-1</a>) ter sklepa, sprejetega na 1. nadaljevanju 37. seje Mandatno-volilne komisije dne 13. 12. 2021 objavlja</p>
 <p>J A V N I   P O Z I V</p>
 <p>invalidskim in humanitarnim organizacijam ter Nacionalnemu svetu invalidskih organizacij Slovenije za predlaganje kandidatov za člane Sveta Fundacije za financiranje invalidskih in humanitarnih organizacij v Republiki Sloveniji</p>
 <p>1.</p>
 <p>Mandatno-volilna komisija objavlja javni poziv invalidskim in humanitarnim organizacijam ter Nacionalnemu svetu invalidskih organizacij Slovenije (NSIOS) za predlaganje kandidatov za člane Sveta Fundacije za financiranje invalidskih in humanitarnih organizacij v Republiki Sloveniji (Svet FIHO), ki jim v Svetu FIHO pripada 17 mest od tega:</p>
 <p>– deset mest na predlog vseh reprezentativnih in drugih invalidskih organizacij, ki delujejo na državni ravni, in na predlog NSIOS ter</p>
 <p>– sedem mest na predlog humanitarnih organizacij, ki so vpisane v razvid humanitarnih organizacij.</p>
-<p>Javni poziv se objavlja zaradi poteka mandata članom Sveta FIHO s 25. 6. 2022, zato mora Državni zbor imenovati nove člane za petletno obdobje.</p>
+<p>Javni poziv se objavlja zaradi poteka mandata članom Sveta FIHO s 25. 6. 2022, zato mora <abbr class="gl" title="Državni zbor je slovensko zakonodajno telo — parlament. Sprejema zakone in državni proračun.">Državni zbor</abbr> imenovati nove člane za petletno obdobje.</p>
 <p>Uporabljeni izrazi, zapisani v moški slovnični obliki, so uporabljeni kot nevtralni za ženski in moški spol.</p>
 <p>2.</p>
 <p>V skladu s prvim odstavkom 10.a člena Zakona o lastninskem preoblikovanju Loterije Slovenije (<a href="/trubar/si/ZLPLS/" class="law-ref" title="ZLPLS">ZLPLS</a>) člani Sveta FIHO ne morejo biti osebe, ki:</p>
@@ -92,43 +95,77 @@
 <p>Državnega zbora</p>
 <p>Priloga: Soglasje h kandidaturi in izjava o izpolnjevanju pogojev</p>
     
+    <section class="applic-panel">
+<details>
+<summary class="applic-title">Ali ta predpis velja za mene?</summary>
+<div class="aq-body">
+<div class="aq-row">
+  <span class="aq-q">Ali se ta predpis nanaša na vaše področje ali dejavnost?</span>
+  <label><input type="radio" name="aq0" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq0" value="no" onchange="aqUpdate()"> Ne</label>
+</div><div class="aq-row">
+  <span class="aq-q">Ali ste zavezani k spoštovanju tega predpisa po drugi zakonodaji?</span>
+  <label><input type="radio" name="aq1" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq1" value="no" onchange="aqUpdate()"> Ne</label>
+</div>
+<div id="aq-result" class="aq-result" aria-live="polite"></div>
+<script>
+(function(){
+  var conc={"true,true": "Ta predpis verjetno velja za vas.", "true,false": "Ta predpis se vas tiče, a morda ni neposredno zavezujoč.", "false,true": "Ta predpis vas posredno zadeva.", "false,false": "Ta predpis verjetno ne velja neposredno za vas."};
+  var n=2;
+  function aqUpdate(){
+    var answers=[];
+    for(var i=0;i<n;i++){
+      var v=document.querySelector('input[name="aq'+i+'"]:checked');
+      if(!v)return;
+      answers.push(v.value==='yes'?'true':'false');
+    }
+    var key=answers.join(',');
+    var res=conc[key]||'Odgovorite na vsa vprašanja.';
+    document.getElementById('aq-result').textContent=res;
+  }
+  window.aqUpdate=aqUpdate;
+})();
+</script>
+</div>
+</details>
+</section>
     
+    <div class="court-placeholder" data-kratica="DRUG4990"></div>
   </article>
 </div>
 <div class="ai-section-outer">
   <section class="ai-panel">
-  <h2 class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</h2>
-  <p class="ai-panel-desc">
-    Besedilo predpisa bo samodejno kopirano skupaj z vašim vprašanjem.
-    Ko se odpre pogovorno okno AI, besedilo prilepite (<kbd>Ctrl+V</kbd> oz. <kbd>Cmd+V</kbd>).
-  </p>
-  <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
-  <div class="ai-buttons">
-    <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
-    <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
-    <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
-  </div>
-  <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
-  <details class="ai-advanced">
-    <summary>Imam lasten API ključ (napredno)</summary>
-    <div class="ai-api-inner">
-      <p class="ai-api-desc">
-        API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
-        <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
-        Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
-        Poizvedba se izvede neposredno do ponudnika, brez posrednika.
-      </p>
-      <div class="ai-api-row">
-        <select id="ai-provider" class="ai-select">
-          <option value="openai">ChatGPT (OpenAI)</option>
-          <option value="deepseek">DeepSeek</option>
-          <option value="mistral">Mistral</option>
-        </select>
-        <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
-        <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
-      </div>
-      <div id="ai-response" class="ai-response"></div>
+  <details>
+    <summary class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</summary>
+    <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
+    <div class="ai-buttons">
+      <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
+      <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
+      <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
     </div>
+    <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
+    <details class="ai-advanced">
+      <summary>Imam lasten API ključ (napredno)</summary>
+      <div class="ai-api-inner">
+        <p class="ai-api-desc">
+          API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
+          <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
+          Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
+          Poizvedba se izvede neposredno do ponudnika, brez posrednika.
+        </p>
+        <div class="ai-api-row">
+          <select id="ai-provider" class="ai-select">
+            <option value="openai">ChatGPT (OpenAI)</option>
+            <option value="deepseek">DeepSeek</option>
+            <option value="mistral">Mistral</option>
+          </select>
+          <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
+          <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
+        </div>
+        <div id="ai-response" class="ai-response"></div>
+      </div>
+    </details>
   </details>
 </section>
 </div>
@@ -166,6 +203,42 @@
   // Handle ?date= query param
   var params = new URLSearchParams(window.location.search);
   if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+
+(function() {
+  var placeholder = document.querySelector('.court-placeholder[data-kratica]');
+  if (!placeholder) return;
+  var kratica = placeholder.getAttribute('data-kratica');
+  var url = '/trubar/data/courts/' + encodeURIComponent(kratica) + '.json';
+
+  function renderDecisions(decisions) {
+    if (!decisions || !decisions.length) return;
+    var items = decisions.map(function(d) {
+      var label = d.datum ? d.datum.slice(0,10) : d.id;
+      var short_z = (d.zbirka||'').replace('Sodna praksa ','').replace(' sodišča','');
+      if (d.vir) {
+        return '<li><a href="'+d.vir+'" class="court-ref" target="_blank">'+label+' ('+short_z+')</a></li>';
+      }
+      return '<li>'+label+'</li>';
+    });
+    var section = document.createElement('section');
+    section.className = 'court-decisions';
+    section.innerHTML = '<h2>Sodna praksa</h2><ul>'+items.join('')+'</ul>';
+    placeholder.replaceWith(section);
+  }
+
+  function load() {
+    fetch(url).then(function(r){ return r.ok ? r.json() : []; }).then(renderDecisions).catch(function(){});
+  }
+
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) { obs.disconnect(); load(); }
+    }, {rootMargin: '200px'});
+    obs.observe(placeholder);
+  } else {
+    load();
+  }
 })();
 
 (function(){

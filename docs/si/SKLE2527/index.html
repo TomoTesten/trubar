@@ -19,13 +19,16 @@
       <dt>Status</dt><dd><span class="badge invalid">neveljaven</span></dd>
       <dt>Datum</dt><dd>2001-10-19</dd>
       <dt>Organ</dt><dd>Banka Slovenije</dd>
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2001-01-4226" target="_blank">Uradni list RS</a></dd>
     </dl>
 
     <div class="sidebar-actions">
+      
       <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
       <a href="/trubar/primerjaj/?a=SKLE2527" class="btn-action">⇄ Primerjaj</a>
       <a href="https://github.com/TomoTesten/trubar/blob/master/si/SKLE2527.md" class="btn-action" target="_blank">GitHub ↗</a>
+      
     </div>
 
     <div class="date-picker-box">
@@ -38,8 +41,8 @@
   <article class="law-body" data-pagefind-body
            data-pagefind-meta="kratica:SKLE2527,vrsta:sklep">
     
-    <h1>Sklep o dnevnem načrtovanju tolarske likvidnosti in spremljanju koncentracije deponentov</h1>
-<p>Na podlagi 74. člena in 92. člena v zvezi s 6. točko 91. člena zakona o bančništvu (Uradni list RS, št. 7/99 in 59/01) ter drugega odstavka 20. člena zakona o Banki Slovenije (Uradni list RS, št. 1/91-I) izdaja Svet Banke Slovenije</p>
+    <h1><abbr class="gl" title="Sklep je odločitev sodišča ali organa o procesnih vprašanjih (npr. o predlogih, pritožbah).">Sklep</abbr> o dnevnem načrtovanju tolarske likvidnosti in spremljanju koncentracije deponentov</h1>
+<p>Na podlagi 74. člena in 92. člena v zvezi s 6. točko 91. člena zakona o bančništvu (<abbr class="gl" title="Uradni list RS je uradna publikacija, v kateri se objavijo vsi veljavni predpisi.">Uradni list</abbr> RS, št. 7/99 in 59/01) ter drugega odstavka 20. člena zakona o Banki Slovenije (Uradni list RS, št. 1/91-I) izdaja Svet Banke Slovenije</p>
 <h2>S K L E P</h2>
 <p>o dnevnem načrtovanju tolarske likvidnosti  in spremljanju koncentracije deponentov</p>
 <h3>I. UVOD</h3>
@@ -57,7 +60,7 @@ Navodilo izda guverner Banke Slovenije.</li>
 </ol>
 <h3>III. SPREMLJANJE KONCENTRACIJE  DEPONENTOV</h3>
 <ol>
-<li>Pomemben dejavnik upravljanja z likvidnostnim tveganjem je zagotavljanje razpršenosti vlog glede na izvor in rok dospelosti.</li>
+<li>Pomemben dejavnik upravljanja z likvidnostnim tveganjem je zagotavljanje razpršenosti vlog glede na izvor in <abbr class="gl" title="Rok je zakonsko določen čas, v katerem je treba opraviti določeno dejanje.">rok</abbr> dospelosti.</li>
 <li>Banka mora poročati Banki Slovenije o največjih deponentih po stanju na zadnji dan v preteklem mesecu najkasneje deseti dan v tekočem mesecu v obliki in na način, ki je predpisan z navodilom.<br />
 Navodilo izda guverner Banke Slovenije.</li>
 </ol>
@@ -65,7 +68,7 @@ Navodilo izda guverner Banke Slovenije.</li>
 <ol>
 <li>Določila tega sklepa se smiselno uporabljajo tudi za podružnico tuje banke ter za podružnico banke iz države članice.</li>
 <li>Uprava banke mora sprejeti ustrezne interne postopke za izvajanje določil sklepa in navodil ter zagotoviti:<br />
-– da notranja revizija pregleduje poslovanje na področju likvidnosti ter izvajanje sprejetih politik in postopkov;<br />
+– da notranja <abbr class="gl" title="Revizija je izredno pravno sredstvo pred Vrhovnim sodiščem za vprašanja pravne prakse.">revizija</abbr> pregleduje poslovanje na področju likvidnosti ter izvajanje sprejetih politik in postopkov;<br />
 – vzpostavitev računovodskih postopkov in ustreznega informacijskega sistema za spremljanje izvajanja sklepa ter za pravilno in pravočasno poročanje Banki Slovenije.</li>
 <li>V primeru posebne zahteve Banke Slovenije je banka dolžna predložiti poročila tudi po stanju na dan, ki je naveden v zahtevi in v zahtevanem roku.</li>
 <li>Ta sklep začne veljati 1. januarja 2002.</li>
@@ -76,43 +79,77 @@ Sveta Banke Slovenije<br />
 Guverner<br />
 Mitja Gaspari l. r.</p>
     
+    <section class="applic-panel">
+<details>
+<summary class="applic-title">Ali ta predpis velja za mene?</summary>
+<div class="aq-body">
+<div class="aq-row">
+  <span class="aq-q">Ali se ta predpis nanaša na vaše področje ali dejavnost?</span>
+  <label><input type="radio" name="aq0" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq0" value="no" onchange="aqUpdate()"> Ne</label>
+</div><div class="aq-row">
+  <span class="aq-q">Ali ste zavezani k spoštovanju tega predpisa po drugi zakonodaji?</span>
+  <label><input type="radio" name="aq1" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq1" value="no" onchange="aqUpdate()"> Ne</label>
+</div>
+<div id="aq-result" class="aq-result" aria-live="polite"></div>
+<script>
+(function(){
+  var conc={"true,true": "Ta predpis verjetno velja za vas.", "true,false": "Ta predpis se vas tiče, a morda ni neposredno zavezujoč.", "false,true": "Ta predpis vas posredno zadeva.", "false,false": "Ta predpis verjetno ne velja neposredno za vas."};
+  var n=2;
+  function aqUpdate(){
+    var answers=[];
+    for(var i=0;i<n;i++){
+      var v=document.querySelector('input[name="aq'+i+'"]:checked');
+      if(!v)return;
+      answers.push(v.value==='yes'?'true':'false');
+    }
+    var key=answers.join(',');
+    var res=conc[key]||'Odgovorite na vsa vprašanja.';
+    document.getElementById('aq-result').textContent=res;
+  }
+  window.aqUpdate=aqUpdate;
+})();
+</script>
+</div>
+</details>
+</section>
     
+    <div class="court-placeholder" data-kratica="SKLE2527"></div>
   </article>
 </div>
 <div class="ai-section-outer">
   <section class="ai-panel">
-  <h2 class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</h2>
-  <p class="ai-panel-desc">
-    Besedilo predpisa bo samodejno kopirano skupaj z vašim vprašanjem.
-    Ko se odpre pogovorno okno AI, besedilo prilepite (<kbd>Ctrl+V</kbd> oz. <kbd>Cmd+V</kbd>).
-  </p>
-  <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
-  <div class="ai-buttons">
-    <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
-    <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
-    <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
-  </div>
-  <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
-  <details class="ai-advanced">
-    <summary>Imam lasten API ključ (napredno)</summary>
-    <div class="ai-api-inner">
-      <p class="ai-api-desc">
-        API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
-        <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
-        Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
-        Poizvedba se izvede neposredno do ponudnika, brez posrednika.
-      </p>
-      <div class="ai-api-row">
-        <select id="ai-provider" class="ai-select">
-          <option value="openai">ChatGPT (OpenAI)</option>
-          <option value="deepseek">DeepSeek</option>
-          <option value="mistral">Mistral</option>
-        </select>
-        <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
-        <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
-      </div>
-      <div id="ai-response" class="ai-response"></div>
+  <details>
+    <summary class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</summary>
+    <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
+    <div class="ai-buttons">
+      <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
+      <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
+      <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
     </div>
+    <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
+    <details class="ai-advanced">
+      <summary>Imam lasten API ključ (napredno)</summary>
+      <div class="ai-api-inner">
+        <p class="ai-api-desc">
+          API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
+          <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
+          Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
+          Poizvedba se izvede neposredno do ponudnika, brez posrednika.
+        </p>
+        <div class="ai-api-row">
+          <select id="ai-provider" class="ai-select">
+            <option value="openai">ChatGPT (OpenAI)</option>
+            <option value="deepseek">DeepSeek</option>
+            <option value="mistral">Mistral</option>
+          </select>
+          <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
+          <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
+        </div>
+        <div id="ai-response" class="ai-response"></div>
+      </div>
+    </details>
   </details>
 </section>
 </div>
@@ -150,6 +187,42 @@ Mitja Gaspari l. r.</p>
   // Handle ?date= query param
   var params = new URLSearchParams(window.location.search);
   if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+
+(function() {
+  var placeholder = document.querySelector('.court-placeholder[data-kratica]');
+  if (!placeholder) return;
+  var kratica = placeholder.getAttribute('data-kratica');
+  var url = '/trubar/data/courts/' + encodeURIComponent(kratica) + '.json';
+
+  function renderDecisions(decisions) {
+    if (!decisions || !decisions.length) return;
+    var items = decisions.map(function(d) {
+      var label = d.datum ? d.datum.slice(0,10) : d.id;
+      var short_z = (d.zbirka||'').replace('Sodna praksa ','').replace(' sodišča','');
+      if (d.vir) {
+        return '<li><a href="'+d.vir+'" class="court-ref" target="_blank">'+label+' ('+short_z+')</a></li>';
+      }
+      return '<li>'+label+'</li>';
+    });
+    var section = document.createElement('section');
+    section.className = 'court-decisions';
+    section.innerHTML = '<h2>Sodna praksa</h2><ul>'+items.join('')+'</ul>';
+    placeholder.replaceWith(section);
+  }
+
+  function load() {
+    fetch(url).then(function(r){ return r.ok ? r.json() : []; }).then(renderDecisions).catch(function(){});
+  }
+
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) { obs.disconnect(); load(); }
+    }, {rootMargin: '200px'});
+    obs.observe(placeholder);
+  } else {
+    load();
+  }
 })();
 
 (function(){

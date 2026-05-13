@@ -24,6 +24,7 @@
     </dl>
 
     <div class="sidebar-actions">
+      
       <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
       <a href="/trubar/primerjaj/?a=ANJP299" class="btn-action">⇄ Primerjaj</a>
       <a href="https://github.com/TomoTesten/trubar/blob/master/si/npb/ANJP299.md" class="btn-action" target="_blank">GitHub ↗</a>
@@ -60,7 +61,7 @@ Tabela: 3 – blagajniški riziko 0,3% na dan – trezorsko soključarstvo ali h
 <h3><span id="člen-6">6. člen</span> (povračila stroškov v zvezi z delom)</h3>
 <p>(1) Znesek povračila stroškov prehrane med delom se določi s kolektivno pogodbo pri delodajalcu ali s splošnim aktom delodajalca, vendar ne v nižjem znesku, kot je delodajalec izplačal v novembru 2012.<br />
 (2) Povračilo stroškov prevoza na delo in z dela znaša 100% zneska najcenejšega javnega prevoza.<br />
-(3) Kjer ni možen prevoz z javnimi prevoznimi sredstvi, se delavcu obračunajo stroški za prevoženi kilometer v višini 15% cene litra motornega bencina (95 oktanov), vendar ne več kot določa vladna uredba o višini povračil stroškov, do najbližje postaje javnega prevoznega sredstva, od tam naprej pa pod pogoji in na način, določen v prejšnjem odstavku tega člena.<br />
+(3) Kjer ni možen prevoz z javnimi prevoznimi sredstvi, se delavcu obračunajo stroški za prevoženi kilometer v višini 15% cene litra motornega bencina (95 oktanov), vendar ne več kot določa vladna <abbr class="gl" title="Uredba je podzakonski predpis vlade, ki podrobneje ureja področje, določeno z zakonom.">uredba</abbr> o višini povračil stroškov, do najbližje postaje javnega prevoznega sredstva, od tam naprej pa pod pogoji in na način, določen v prejšnjem odstavku tega člena.<br />
 (4) Nadomestilo za uporabo lastnih sredstev pri delu na domu se določi v višini najmanj 2,00 eur na dan, ko delavec dela doma.</p>
 <h3><span id="člen-7">7. člen</span> (druge materialne pravice)</h3>
 <p>(1) Skladno s prvim odstavkom 68. člena te kolektivne pogodbe delodajalec izplača regres za letni dopust v višini najmanj 85% povprečne plače predpreteklega meseca zaposlenih v Republiki Sloveniji.<br />
@@ -73,7 +74,7 @@ Tabela: 3 – blagajniški riziko 0,3% na dan – trezorsko soključarstvo ali h
 (4) Na podlagi prvega odstavka 72. člena te kolektivne pogodbe pripada ob smrti delavca solidarnostna pomoč v višini 5.000,00 evrov</p>
 <h3><span id="člen-8">8. člen</span> (bruto zneski)</h3>
 <p>Vsi zneski v tej kolektivni pogodbi in v tej tarifni prilogi so v bruto zneskih.</p>
-<h3><span id="člen-9">9. člen</span> (veljavnost)</h3>
+<h3><span id="člen-9">9. člen</span> (<abbr class="gl" title="Veljavnost predpisa pomeni, da predpis zavezuje in ga je treba spoštovati.">veljavnost</abbr>)</h3>
 <p>Tarifna priloga te kolektivne pogodbe se uporablja od 1. 4. 2026. Pogodbeni stranki se dogovorita, da bosta najkasneje do 31. 10. 2026 pristopili k pogajanjem za novo tarifno prilogo. Če le-ta ni sklenjena do 31. 12. 2026, se ta tarifna priloga uporablja do sklenitve nove oziroma najkasneje do 31. 3. 2027.<br />
 Št. I2500001<br />
 Ljubljana, 16. marca 2026<br />
@@ -84,43 +85,77 @@ Združenje bank Slovenije Predsednik NS <a href="/trubar/si/ZBS/" class="law-ref
 Direktorica mag. Stanislava Zadravec Caprirolo<br />
 Ministrstvo za delo, družino, socialne zadeve in enake možnosti je izdalo potrdilo št. 02047-6/2005-2611-30 z dne 18. 3. 2026 o vpisu te tarifne priloge v evidenco kolektivnih pogodb.</p>
     
+    <section class="applic-panel">
+<details>
+<summary class="applic-title">Ali ta predpis velja za mene?</summary>
+<div class="aq-body">
+<div class="aq-row">
+  <span class="aq-q">Ali se ta predpis nanaša na vaše področje ali dejavnost?</span>
+  <label><input type="radio" name="aq0" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq0" value="no" onchange="aqUpdate()"> Ne</label>
+</div><div class="aq-row">
+  <span class="aq-q">Ali ste zavezani k spoštovanju tega predpisa po drugi zakonodaji?</span>
+  <label><input type="radio" name="aq1" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq1" value="no" onchange="aqUpdate()"> Ne</label>
+</div>
+<div id="aq-result" class="aq-result" aria-live="polite"></div>
+<script>
+(function(){
+  var conc={"true,true": "Ta predpis verjetno velja za vas.", "true,false": "Ta predpis se vas tiče, a morda ni neposredno zavezujoč.", "false,true": "Ta predpis vas posredno zadeva.", "false,false": "Ta predpis verjetno ne velja neposredno za vas."};
+  var n=2;
+  function aqUpdate(){
+    var answers=[];
+    for(var i=0;i<n;i++){
+      var v=document.querySelector('input[name="aq'+i+'"]:checked');
+      if(!v)return;
+      answers.push(v.value==='yes'?'true':'false');
+    }
+    var key=answers.join(',');
+    var res=conc[key]||'Odgovorite na vsa vprašanja.';
+    document.getElementById('aq-result').textContent=res;
+  }
+  window.aqUpdate=aqUpdate;
+})();
+</script>
+</div>
+</details>
+</section>
     
+    <div class="court-placeholder" data-kratica="ANJP299"></div>
   </article>
 </div>
 <div class="ai-section-outer">
   <section class="ai-panel">
-  <h2 class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</h2>
-  <p class="ai-panel-desc">
-    Besedilo predpisa bo samodejno kopirano skupaj z vašim vprašanjem.
-    Ko se odpre pogovorno okno AI, besedilo prilepite (<kbd>Ctrl+V</kbd> oz. <kbd>Cmd+V</kbd>).
-  </p>
-  <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
-  <div class="ai-buttons">
-    <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
-    <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
-    <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
-  </div>
-  <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
-  <details class="ai-advanced">
-    <summary>Imam lasten API ključ (napredno)</summary>
-    <div class="ai-api-inner">
-      <p class="ai-api-desc">
-        API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
-        <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
-        Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
-        Poizvedba se izvede neposredno do ponudnika, brez posrednika.
-      </p>
-      <div class="ai-api-row">
-        <select id="ai-provider" class="ai-select">
-          <option value="openai">ChatGPT (OpenAI)</option>
-          <option value="deepseek">DeepSeek</option>
-          <option value="mistral">Mistral</option>
-        </select>
-        <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
-        <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
-      </div>
-      <div id="ai-response" class="ai-response"></div>
+  <details>
+    <summary class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</summary>
+    <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
+    <div class="ai-buttons">
+      <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
+      <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
+      <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
     </div>
+    <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
+    <details class="ai-advanced">
+      <summary>Imam lasten API ključ (napredno)</summary>
+      <div class="ai-api-inner">
+        <p class="ai-api-desc">
+          API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
+          <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
+          Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
+          Poizvedba se izvede neposredno do ponudnika, brez posrednika.
+        </p>
+        <div class="ai-api-row">
+          <select id="ai-provider" class="ai-select">
+            <option value="openai">ChatGPT (OpenAI)</option>
+            <option value="deepseek">DeepSeek</option>
+            <option value="mistral">Mistral</option>
+          </select>
+          <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
+          <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
+        </div>
+        <div id="ai-response" class="ai-response"></div>
+      </div>
+    </details>
   </details>
 </section>
 </div>
@@ -158,6 +193,42 @@ Ministrstvo za delo, družino, socialne zadeve in enake možnosti je izdalo potr
   // Handle ?date= query param
   var params = new URLSearchParams(window.location.search);
   if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+
+(function() {
+  var placeholder = document.querySelector('.court-placeholder[data-kratica]');
+  if (!placeholder) return;
+  var kratica = placeholder.getAttribute('data-kratica');
+  var url = '/trubar/data/courts/' + encodeURIComponent(kratica) + '.json';
+
+  function renderDecisions(decisions) {
+    if (!decisions || !decisions.length) return;
+    var items = decisions.map(function(d) {
+      var label = d.datum ? d.datum.slice(0,10) : d.id;
+      var short_z = (d.zbirka||'').replace('Sodna praksa ','').replace(' sodišča','');
+      if (d.vir) {
+        return '<li><a href="'+d.vir+'" class="court-ref" target="_blank">'+label+' ('+short_z+')</a></li>';
+      }
+      return '<li>'+label+'</li>';
+    });
+    var section = document.createElement('section');
+    section.className = 'court-decisions';
+    section.innerHTML = '<h2>Sodna praksa</h2><ul>'+items.join('')+'</ul>';
+    placeholder.replaceWith(section);
+  }
+
+  function load() {
+    fetch(url).then(function(r){ return r.ok ? r.json() : []; }).then(renderDecisions).catch(function(){});
+  }
+
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) { obs.disconnect(); load(); }
+    }, {rootMargin: '200px'});
+    obs.observe(placeholder);
+  } else {
+    load();
+  }
 })();
 
 (function(){

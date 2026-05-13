@@ -19,13 +19,16 @@
       <dt>Status</dt><dd><span class="badge neutral">Neznano</span></dd>
       <dt>Datum</dt><dd>2020-11-05</dd>
       
+      
       <dt>Vir</dt><dd><a href="https://www.uradni-list.si/1/objava.jsp?sop=2020-01-2691" target="_blank">Uradni list RS</a></dd>
     </dl>
 
     <div class="sidebar-actions">
+      
       <button onclick="window.print()" class="btn-action">🖨 Natisni / PDF</button>
       <a href="/trubar/primerjaj/?a=ODLO2185" class="btn-action">⇄ Primerjaj</a>
       <a href="https://github.com/TomoTesten/trubar/blob/master/si/ODLO2185.md" class="btn-action" target="_blank">GitHub ↗</a>
+      
     </div>
 
     <div class="date-picker-box">
@@ -39,7 +42,7 @@
            data-pagefind-meta="kratica:ODLO2185,vrsta:odlok">
     
     <h1>Odlok o odrejanju in izvajanju ukrepov za preprečitev širjenja nalezljive bolezni COVID-19 na mejnih prehodih na zunanji meji in na kontrolnih točkah na notranjih mejah Republike Slovenije</h1>
-<p>Na podlagi 1. točke prvega odstavka 39. člena Zakona o nalezljivih boleznih (Uradni list RS, št. 33/06 – uradno prečiščeno besedilo, 49/20 – <a href="/trubar/si/ZIUZEOP/" class="law-ref" title="ZIUZEOP">ZIUZEOP</a> in 152/10 – <a href="/trubar/si/ZZUOOP/" class="law-ref" title="ZZUOOP">ZZUOOP</a>) Vlada Republike Slovenije izdaja</p>
+<p>Na podlagi 1. točke prvega odstavka 39. člena Zakona o nalezljivih boleznih (<abbr class="gl" title="Uradni list RS je uradna publikacija, v kateri se objavijo vsi veljavni predpisi.">Uradni list</abbr> RS, št. 33/06 – uradno prečiščeno besedilo, 49/20 – <a href="/trubar/si/ZIUZEOP/" class="law-ref" title="ZIUZEOP">ZIUZEOP</a> in 152/10 – <a href="/trubar/si/ZZUOOP/" class="law-ref" title="ZZUOOP">ZZUOOP</a>) <abbr class="gl" title="Vlada je izvršilna veja oblasti, sestavljena iz predsednika vlade in ministrov.">Vlada</abbr> Republike Slovenije izdaja</p>
 <p>O D L O K</p>
 <p>o odrejanju in izvajanju ukrepov za preprečitev širjenja nalezljive bolezni COVID-19 na mejnih prehodih na zunanji meji in na kontrolnih točkah na notranjih mejah Republike Slovenije</p>
 <p>1. člen</p>
@@ -118,7 +121,7 @@
 <p>(3) Osebi, ki ji je bila v tujini odrejena karantena zaradi stika z okuženo osebo s SARS-CoV-2 in želi prestajati karanteno v drugi državi, za vstop v katero izpolnjuje pogoje, policija na podlagi najave pristojnega organa v Republiki Sloveniji dovoli vstop in tranzit čez Republiko Slovenijo z lastnim vozilom po najkrajši poti v šestih urah po vstopu.</p>
 <p>(4) Državljanu Republike Slovenije ali tujcu s prebivališčem v Republiki Sloveniji, ki jima je bila v tujini odrejena karantena zaradi stika z okuženo osebo s SARS-CoV-2 ter želita prestajati karanteno v Republiki Sloveniji, policija na podlagi najave pristojnega organa v Republiki Sloveniji dovoli vstop in potovanje z lastnim vozilom po najkrajši poti do naslova, kjer bosta prestajala karanteno.</p>
 <p>12. člen</p>
-<p>Strokovno utemeljenost ukrepov iz tega odloka Vlada Republike Slovenije ugotavlja vsakih sedem dni in ob upoštevanju strokovnih razlogov odloči, da se ti ukrepi še naprej uporabljajo, ali pa ukrepe spremeni oziroma odpravi ter o tem obvesti Državni zbor in javnost.</p>
+<p>Strokovno utemeljenost ukrepov iz tega odloka Vlada Republike Slovenije ugotavlja vsakih sedem dni in ob upoštevanju strokovnih razlogov odloči, da se ti ukrepi še naprej uporabljajo, ali pa ukrepe spremeni oziroma odpravi ter o tem obvesti <abbr class="gl" title="Državni zbor je slovensko zakonodajno telo — parlament. Sprejema zakone in državni proračun.">Državni zbor</abbr> in javnost.</p>
 <p>KONČNI DOLOČBI</p>
 <p>13. člen</p>
 <p>Z dnem uveljavitve tega odloka preneha veljati Odlok o odrejanju in izvajanju ukrepov za preprečitev širjenja nalezljive bolezni COVID-19 na mejnih prehodih na zunanji meji, na kontrolnih točkah na notranjih mejah in v notranjosti Republike Slovenije (Uradni list RS, št. 130/20, 131/20 – popr., 132/20 in 141/20).</p>
@@ -133,43 +136,77 @@
 <p>Priloga 1 Zeleni seznam (seznam epidemiološko varnih držav oziroma administrativnih enot držav)</p>
 <p>Priloga 2 Rdeči seznam (seznam držav ali administrativnih enot držav, za katere obstaja visoko tveganje za okužbo z virusom SARS-CoV-2)</p>
     
+    <section class="applic-panel">
+<details>
+<summary class="applic-title">Ali ta predpis velja za mene?</summary>
+<div class="aq-body">
+<div class="aq-row">
+  <span class="aq-q">Ali se ta predpis nanaša na vaše področje ali dejavnost?</span>
+  <label><input type="radio" name="aq0" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq0" value="no" onchange="aqUpdate()"> Ne</label>
+</div><div class="aq-row">
+  <span class="aq-q">Ali ste zavezani k spoštovanju tega predpisa po drugi zakonodaji?</span>
+  <label><input type="radio" name="aq1" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq1" value="no" onchange="aqUpdate()"> Ne</label>
+</div>
+<div id="aq-result" class="aq-result" aria-live="polite"></div>
+<script>
+(function(){
+  var conc={"true,true": "Ta predpis verjetno velja za vas.", "true,false": "Ta predpis se vas tiče, a morda ni neposredno zavezujoč.", "false,true": "Ta predpis vas posredno zadeva.", "false,false": "Ta predpis verjetno ne velja neposredno za vas."};
+  var n=2;
+  function aqUpdate(){
+    var answers=[];
+    for(var i=0;i<n;i++){
+      var v=document.querySelector('input[name="aq'+i+'"]:checked');
+      if(!v)return;
+      answers.push(v.value==='yes'?'true':'false');
+    }
+    var key=answers.join(',');
+    var res=conc[key]||'Odgovorite na vsa vprašanja.';
+    document.getElementById('aq-result').textContent=res;
+  }
+  window.aqUpdate=aqUpdate;
+})();
+</script>
+</div>
+</details>
+</section>
     
+    <div class="court-placeholder" data-kratica="ODLO2185"></div>
   </article>
 </div>
 <div class="ai-section-outer">
   <section class="ai-panel">
-  <h2 class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</h2>
-  <p class="ai-panel-desc">
-    Besedilo predpisa bo samodejno kopirano skupaj z vašim vprašanjem.
-    Ko se odpre pogovorno okno AI, besedilo prilepite (<kbd>Ctrl+V</kbd> oz. <kbd>Cmd+V</kbd>).
-  </p>
-  <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
-  <div class="ai-buttons">
-    <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
-    <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
-    <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
-  </div>
-  <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
-  <details class="ai-advanced">
-    <summary>Imam lasten API ključ (napredno)</summary>
-    <div class="ai-api-inner">
-      <p class="ai-api-desc">
-        API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
-        <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
-        Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
-        Poizvedba se izvede neposredno do ponudnika, brez posrednika.
-      </p>
-      <div class="ai-api-row">
-        <select id="ai-provider" class="ai-select">
-          <option value="openai">ChatGPT (OpenAI)</option>
-          <option value="deepseek">DeepSeek</option>
-          <option value="mistral">Mistral</option>
-        </select>
-        <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
-        <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
-      </div>
-      <div id="ai-response" class="ai-response"></div>
+  <details>
+    <summary class="ai-panel-title">Vprašajte umetno inteligenco o tem predpisu</summary>
+    <textarea id="ai-prompt" class="ai-textarea" rows="3" spellcheck="false">Razloži mi ta predpis v preprostem jeziku. Katere so najpomembnejše določbe in kaj pomenijo v praksi?</textarea>
+    <div class="ai-buttons">
+      <button class="ai-btn ai-btn-claude" onclick="aiOpen('claude')">Odpri v Claudu (Anthropic)</button>
+      <button class="ai-btn ai-btn-gpt" onclick="aiOpen('gpt')">Odpri v ChatGPT</button>
+      <button class="ai-btn ai-btn-deepseek" onclick="aiOpen('deepseek')">Odpri v DeepSeek</button>
     </div>
+    <div id="ai-copy-note" class="ai-copy-note" aria-live="polite"></div>
+    <details class="ai-advanced">
+      <summary>Imam lasten API ključ (napredno)</summary>
+      <div class="ai-api-inner">
+        <p class="ai-api-desc">
+          API ključ dobite pri ponudniku (npr. <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI</a>,
+          <a href="https://platform.deepseek.com/" target="_blank">DeepSeek</a>).
+          Ključ se hrani le v vašem brskalniku, ne zapusti vaše naprave.
+          Poizvedba se izvede neposredno do ponudnika, brez posrednika.
+        </p>
+        <div class="ai-api-row">
+          <select id="ai-provider" class="ai-select">
+            <option value="openai">ChatGPT (OpenAI)</option>
+            <option value="deepseek">DeepSeek</option>
+            <option value="mistral">Mistral</option>
+          </select>
+          <input type="password" id="ai-apikey" class="ai-apikey" placeholder="API ključ (sk-...)" autocomplete="off">
+          <button class="ai-send-btn" onclick="aiSendApi()">Pošlji</button>
+        </div>
+        <div id="ai-response" class="ai-response"></div>
+      </div>
+    </details>
   </details>
 </section>
 </div>
@@ -207,6 +244,42 @@
   // Handle ?date= query param
   var params = new URLSearchParams(window.location.search);
   if (params.get('date')) { input.value = params.get('date'); update(); }
+})();
+
+(function() {
+  var placeholder = document.querySelector('.court-placeholder[data-kratica]');
+  if (!placeholder) return;
+  var kratica = placeholder.getAttribute('data-kratica');
+  var url = '/trubar/data/courts/' + encodeURIComponent(kratica) + '.json';
+
+  function renderDecisions(decisions) {
+    if (!decisions || !decisions.length) return;
+    var items = decisions.map(function(d) {
+      var label = d.datum ? d.datum.slice(0,10) : d.id;
+      var short_z = (d.zbirka||'').replace('Sodna praksa ','').replace(' sodišča','');
+      if (d.vir) {
+        return '<li><a href="'+d.vir+'" class="court-ref" target="_blank">'+label+' ('+short_z+')</a></li>';
+      }
+      return '<li>'+label+'</li>';
+    });
+    var section = document.createElement('section');
+    section.className = 'court-decisions';
+    section.innerHTML = '<h2>Sodna praksa</h2><ul>'+items.join('')+'</ul>';
+    placeholder.replaceWith(section);
+  }
+
+  function load() {
+    fetch(url).then(function(r){ return r.ok ? r.json() : []; }).then(renderDecisions).catch(function(){});
+  }
+
+  if ('IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function(entries) {
+      if (entries[0].isIntersecting) { obs.disconnect(); load(); }
+    }, {rootMargin: '200px'});
+    obs.observe(placeholder);
+  } else {
+    load();
+  }
 })();
 
 (function(){
