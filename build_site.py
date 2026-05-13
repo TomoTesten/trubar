@@ -274,6 +274,110 @@ def render_cited_by(citers, kratica_idx):
     )
 
 
+APPLICABILITY_RULES = {
+    "Sprejet zakon": {
+        "questions": [
+            ("Ali živite ali delate v Sloveniji?", "si_v_slo"),
+            ("Ali se predpis nanaša na vaše področje dela ali življenja?", "rel_field"),
+        ],
+        "conclusions": {
+            (True, True):  "Ta zakon verjetno velja za vas. Priporočamo, da preverite konkretne člene.",
+            (True, False): "Ta zakon verjetno ne velja neposredno za vas, a je del slovenskega pravnega reda.",
+            (False, True): "Ta zakon ne velja neposredno za vas, ker niste v Sloveniji.",
+            (False, False):"Ta zakon verjetno ne velja za vas.",
+        },
+    },
+    "uredba": {
+        "questions": [
+            ("Ali vas ta predpis zadeva kot podjetje ali organizacijo?", "is_org"),
+            ("Ali delujete na področju, ki ga ureja ta uredba?", "in_field"),
+        ],
+        "conclusions": {
+            (True, True):  "Ta uredba verjetno zavezuje vašo organizacijo.",
+            (True, False): "Ta uredba verjetno ne zadeva vaše organizacije neposredno.",
+            (False, True): "Ta uredba vas zadeva kot posameznika na tem področju.",
+            (False, False):"Ta uredba vas verjetno ne zadeva.",
+        },
+    },
+    "pravilnik": {
+        "questions": [
+            ("Ali delujete v panogi ali poklicu, ki ga ureja ta pravilnik?", "in_sector"),
+            ("Ali ste delodajalec ali vodja organizacije?", "is_employer"),
+        ],
+        "conclusions": {
+            (True, True):  "Ta pravilnik vas zavezuje kot vodjo organizacije v tej panogi.",
+            (True, False): "Ta pravilnik vas zadeva kot delavca ali udeleženca v tej panogi.",
+            (False, True): "Ta pravilnik verjetno ne zavezuje vaše organizacije.",
+            (False, False):"Ta pravilnik verjetno ne velja za vas.",
+        },
+    },
+}
+
+DEFAULT_APPLICABILITY = {
+    "questions": [
+        ("Ali se ta predpis nanaša na vaše področje ali dejavnost?", "relevant"),
+        ("Ali ste zavezani k spoštovanju tega predpisa po drugi zakonodaji?", "obligated"),
+    ],
+    "conclusions": {
+        (True, True):  "Ta predpis verjetno velja za vas.",
+        (True, False): "Ta predpis se vas tiče, a morda ni neposredno zavezujoč.",
+        (False, True): "Ta predpis vas posredno zadeva.",
+        (False, False):"Ta predpis verjetno ne velja neposredno za vas.",
+    },
+}
+
+
+def render_applicability(vrsta):
+    import json as _json
+    rules = APPLICABILITY_RULES.get(vrsta, DEFAULT_APPLICABILITY)
+    questions = rules["questions"]
+    conclusions = rules["conclusions"]
+
+    q_html = []
+    for i, (q_text, q_id) in enumerate(questions):
+        q_html.append(f'''<div class="aq-row">
+  <span class="aq-q">{htmllib.escape(q_text)}</span>
+  <label><input type="radio" name="aq{i}" value="yes" onchange="aqUpdate()"> Da</label>
+  <label><input type="radio" name="aq{i}" value="no" onchange="aqUpdate()"> Ne</label>
+</div>''')
+
+    conc_map = {}
+    for key_tuple, text in conclusions.items():
+        js_key = ",".join("true" if v else "false" for v in key_tuple)
+        conc_map[js_key] = text
+    conc_json = _json.dumps(conc_map, ensure_ascii=False)
+
+    n = len(questions)
+
+    return f'''<section class="applic-panel">
+<details>
+<summary class="applic-title">Ali ta predpis velja za mene?</summary>
+<div class="aq-body">
+{"".join(q_html)}
+<div id="aq-result" class="aq-result" aria-live="polite"></div>
+<script>
+(function(){{
+  var conc={conc_json};
+  var n={n};
+  function aqUpdate(){{
+    var answers=[];
+    for(var i=0;i<n;i++){{
+      var v=document.querySelector('input[name="aq'+i+'"]:checked');
+      if(!v)return;
+      answers.push(v.value==='yes'?'true':'false');
+    }}
+    var key=answers.join(',');
+    var res=conc[key]||'Odgovorite na vsa vprašanja.';
+    document.getElementById('aq-result').textContent=res;
+  }}
+  window.aqUpdate=aqUpdate;
+}})();
+</script>
+</div>
+</details>
+</section>'''
+
+
 def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links=None, npb=False, npb_slug=None, original_slug=None, citers=None):
     body_md, toc = add_article_anchors(body_md)
     md.reset()
@@ -335,6 +439,7 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
         )
 
     cited_by_html = render_cited_by(citers or [], kratica_idx)
+    applic_html = render_applicability(front.get("vrsta") or "")
 
     court_placeholder = f'<div class="court-placeholder" data-kratica="{htmllib.escape(kratica)}"></div>'
 
@@ -421,6 +526,7 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
     {toc_html}
     {body_html}
     {amend_html}
+    {applic_html}
     {cited_by_html}
     {court_placeholder}
   </article>
@@ -1044,6 +1150,15 @@ abbr.gl:hover::before { content: ''; position: absolute; bottom: 115%; left: 10p
 
 .npb-link { background: #f0f9f0; border-color: #2e7d32; color: #2e7d32; margin-top: 4px; }
 .npb-link:hover { background: #2e7d32; color: #fff; }
+
+/* Applicability questionnaire */
+.applic-panel { margin-top: 24px; padding-top: 16px; border-top: 1px solid #eee; }
+.applic-title { font-size: 0.95rem; cursor: pointer; color: #555; font-weight: 600; }
+.aq-body { padding: 10px 0; }
+.aq-row { margin-bottom: 10px; font-size: 0.88rem; }
+.aq-q { display: block; margin-bottom: 4px; color: #333; }
+.aq-row label { margin-right: 12px; cursor: pointer; }
+.aq-result { margin-top: 10px; padding: 8px 12px; background: #f0f7ff; border-left: 3px solid #4a90e2; border-radius: 3px; font-size: 0.88rem; color: #333; min-height: 20px; }
 
 footer {
   text-align: center; padding: 24px; color: #555; font-size: 0.85rem;
