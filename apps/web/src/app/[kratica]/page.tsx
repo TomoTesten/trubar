@@ -45,7 +45,7 @@ export default async function LawPage(props: PageProps<'/[kratica]'>) {
   const { frontmatter, html, cleni, versions } = law;
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-6">
+    <main className="mx-auto max-w-7xl px-4 py-6">
       <header className="mb-6">
         <nav className="text-sm">
           <Link href="/" className="text-muted-foreground hover:text-foreground">
@@ -80,6 +80,6 @@ export default async function LawPage(props: PageProps<'/[kratica]'>) {
       </div>
 
       <AiPanel lawName={frontmatter.naziv} />
-    </div>
+    </main>
   );
 }

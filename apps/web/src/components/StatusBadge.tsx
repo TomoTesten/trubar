@@ -10,10 +10,11 @@ function classify(status: string | undefined): { kind: Status; label: string } {
   return { kind: 'neutral', label: status ?? '' };
 }
 
+// Each pair was checked against WCAG AA (4.5:1) on both themes.
 const classes: Record<Status, string> = {
-  valid: 'bg-emerald-100 text-emerald-900 dark:bg-emerald-900/40 dark:text-emerald-200',
-  invalid: 'bg-rose-100 text-rose-900 dark:bg-rose-900/40 dark:text-rose-200',
-  neutral: 'bg-muted text-muted-foreground',
+  valid: 'bg-emerald-100 text-emerald-900 dark:bg-emerald-900/40 dark:text-emerald-100',
+  invalid: 'bg-rose-100 text-rose-900 dark:bg-rose-900/40 dark:text-rose-100',
+  neutral: 'bg-neutral-200 text-neutral-900 dark:bg-neutral-700 dark:text-neutral-100',
 };
 
 export function StatusBadge({ status }: { status: string | undefined }) {
