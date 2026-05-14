@@ -61,7 +61,11 @@ function escapeMeta(s) {
 
 function year(d) {
   if (!d) return '';
-  return String(d).slice(0, 4);
+  // YAML auto-parses unquoted ISO dates to Date objects; String(date) starts
+  // with the weekday ("Tue Jul 11 2023 …"). Coerce via toJSON for Date, fall
+  // back to string slice, then extract the 4-digit year prefix.
+  const s = typeof d.toJSON === 'function' ? d.toJSON() : String(d);
+  return /^\d{4}/.test(s) ? s.slice(0, 4) : '';
 }
 
 async function renderOne(srcPath, kratica, isNpb) {
