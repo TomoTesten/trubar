@@ -788,16 +788,15 @@ def render_index(stats):
       <span class="cat-label">Prečiščena besedila</span>
       <span class="cat-sublabel">Besedila z vgrajenimi spremembami</span>
     </a>
-    <a href="https://huggingface.co/datasets/TomoTesten/trubar-sodna-praksa"
-       class="category-card hf-card" target="_blank">
-      <span class="cat-count">254k</span>
-      <span class="cat-label">Sodne odločbe ↗</span>
-      <span class="cat-sublabel">Prosto dostopna zbirka za razvoj in analizo</span>
+    <a href="{BASE}/sodbe/" class="category-card">
+      <span class="cat-count">129k</span>
+      <span class="cat-label">Sodne odločbe</span>
+      <span class="cat-sublabel">Vrhovno, Ustavno, Upravno, višja sodišča</span>
     </a>
-    <a href="{BASE}/sql/" class="category-card">
-      <span class="cat-count">SQL</span>
-      <span class="cat-label">Poizvedbe ↗</span>
-      <span class="cat-sublabel">DuckDB v brskalniku, brez strežnika</span>
+    <a href="{BASE}/iskanje/" class="category-card cat-search">
+      <span class="cat-count">🔍</span>
+      <span class="cat-label">Iskanje</span>
+      <span class="cat-sublabel">Išči po vseh zakonih in odločbah</span>
     </a>
   </div>
 
@@ -824,10 +823,8 @@ def render_index(stats):
       osnovnim zakonom in amandmaji. Označena kot "Prečiščena besedila" v zgornjem meniju.
     </p>
     <p>
-      <strong>Sodne odločbe (254.000+):</strong> zbrane odločbe Vrhovnega, Ustavnega in
-      višjih sodišč so dostopne tudi kot <em>prosta zbirka za analizo in razvoj programske opreme</em>
-      (gumb "Sodne odločbe ↗" zgoraj vodi na platformo HuggingFace, ki je repozitorij za
-      tovrstne podatkovne zbirke — registracija ni potrebna za prenos).
+      <strong>Sodne odločbe (129.000+):</strong> zbrane odločbe Vrhovnega, Ustavnega, Upravnega
+      in višjih sodišč so iskljive po ključnih besedah skupaj z zakoni — v enotnem iskalnem vmesniku.
     </p>
     <p>
       Poimenovan po <a href="https://sl.wikipedia.org/wiki/Primo%C5%BE_Trubar">Primožu Trubarju</a>
@@ -844,8 +841,10 @@ def render_index(stats):
 
 <footer>
   CC0 javna domena ·
+  <a href="{BASE}/iskanje/">Iskanje</a> ·
   <a href="{BASE}/npb/">Prečiščena besedila</a> ·
-  <a href="{BASE}/sql/">SQL iskanje</a> ·
+  <a href="{BASE}/sodbe/">Sodne odločbe</a> ·
+  <a href="{BASE}/sql/">SQL</a> ·
   <a href="https://github.com/TomoTesten/trubar">GitHub</a> ·
   <a href="https://huggingface.co/datasets/TomoTesten/trubar-sodna-praksa">Hugging Face</a>
 </footer>
