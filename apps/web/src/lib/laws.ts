@@ -167,6 +167,8 @@ export type ManifestEntry = {
   naziv: string;
   datum?: string;
   status?: string;
+  /** Uradni list / PISRS source URL — used when the entry doesn't have a detail page. */
+  vir?: string;
 };
 
 let _manifestPromise: Promise<ManifestEntry[]> | null = null;
@@ -209,6 +211,7 @@ async function scanDir(dir: string, npb: boolean): Promise<ManifestEntry[]> {
                       ? d.veljaOd.toISOString().slice(0, 10)
                       : undefined,
             status: typeof d.status === 'string' ? d.status : undefined,
+            vir: typeof d.vir === 'string' ? d.vir : undefined,
           } satisfies ManifestEntry;
         } catch {
           return null;

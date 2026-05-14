@@ -33,6 +33,7 @@ export default function Home() {
             { href: '/uredbe', label: 'Uredbe' },
             { href: '/pravilniki', label: 'Pravilniki' },
             { href: '/npb', label: 'Prečiščena besedila (NPB)' },
+            { href: '/lokalni', label: 'Lokalni predpisi' },
           ].map(({ href, label }) => (
             <li key={href}>
               <Link

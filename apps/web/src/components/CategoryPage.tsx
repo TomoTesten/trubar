@@ -6,11 +6,19 @@ type Props = {
   description: string;
   /** vrsta value(s) to include in this listing. */
   vrsta: string | readonly string[];
-  /** URL prefix for row links (e.g. '/' or '/npb/'). */
+  /** URL prefix for row links (e.g. '/' or '/npb/'). Ignored when externalLink=true. */
   urlPrefix?: string;
+  /** When true, rows link to entry.vir in a new tab (občinski entries have no detail pages). */
+  externalLink?: boolean;
 };
 
-export async function CategoryPage({ title, description, vrsta, urlPrefix = '/' }: Props) {
+export async function CategoryPage({
+  title,
+  description,
+  vrsta,
+  urlPrefix = '/',
+  externalLink = false,
+}: Props) {
   const wanted = typeof vrsta === 'string' ? [vrsta] : vrsta;
   const manifest = await getLawManifest();
   const entries: ManifestEntry[] = manifest
@@ -23,7 +31,7 @@ export async function CategoryPage({ title, description, vrsta, urlPrefix = '/' 
         <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
         <p className="mt-1 text-sm text-muted-foreground">{description}</p>
       </header>
-      <LawListingTable entries={entries} urlPrefix={urlPrefix} />
+      <LawListingTable entries={entries} urlPrefix={urlPrefix} externalLink={externalLink} />
     </main>
   );
 }

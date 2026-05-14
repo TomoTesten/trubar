@@ -4,12 +4,39 @@
 // navigation; rendering uses @tanstack/react-virtual so only the visible rows
 // land in the DOM (handles 10k+ entries on a single page without jank).
 
-import { useMemo, useRef, useState } from 'react';
+import { useMemo, useRef, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import { useVirtualizer } from '@tanstack/react-virtual';
 import type { ManifestEntry } from '@/lib/laws';
 
 const ROW_HEIGHT = 44; // px
+
+// Picks between Next's <Link> for internal routes (prefetch, client nav) and a
+// plain <a target=_blank> for external Uradni list URLs (občinski entries).
+function ListingLink({
+  href,
+  external,
+  className,
+  children,
+}: {
+  href: string;
+  external: boolean;
+  className?: string;
+  children: ReactNode;
+}) {
+  if (external) {
+    return (
+      <a href={href} target="_blank" rel="noopener" className={className}>
+        {children}
+      </a>
+    );
+  }
+  return (
+    <Link href={href} className={className}>
+      {children}
+    </Link>
+  );
+}
 
 type Props = {
   entries: ManifestEntry[];
@@ -17,6 +44,9 @@ type Props = {
   // "/npb/" for NPB). Functions can't cross the RSC→client boundary, so the
   // server-side caller serializes the URL shape into a prefix string.
   urlPrefix: string;
+  // When true, rows link to entry.vir (external source URL) and open in a new
+  // tab — used for občinski entries which don't have detail pages.
+  externalLink?: boolean;
 };
 
 function normalize(s: string): string {
@@ -26,7 +56,7 @@ function normalize(s: string): string {
     .replace(/[̀-ͯ]/g, '');
 }
 
-export function LawListingTable({ entries, urlPrefix }: Props) {
+export function LawListingTable({ entries, urlPrefix, externalLink = false }: Props) {
   const [q, setQ] = useState('');
   const filtered = useMemo(() => {
     if (!q.trim()) return entries;
@@ -86,8 +116,9 @@ export function LawListingTable({ entries, urlPrefix }: Props) {
                 }}
                 className="border-b border-border last:border-b-0"
               >
-                <Link
-                  href={`${urlPrefix}${e.kratica}`}
+                <ListingLink
+                  href={externalLink ? (e.vir ?? `${urlPrefix}${e.kratica}`) : `${urlPrefix}${e.kratica}`}
+                  external={externalLink && !!e.vir}
                   className="flex h-full items-center gap-4 px-4 text-sm hover:bg-muted"
                 >
                   <span className="w-32 shrink-0 truncate font-mono text-xs font-semibold">
@@ -99,7 +130,7 @@ export function LawListingTable({ entries, urlPrefix }: Props) {
                       {e.datum}
                     </span>
                   ) : null}
-                </Link>
+                </ListingLink>
               </div>
             );
           })}
