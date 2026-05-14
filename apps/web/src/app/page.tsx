@@ -25,7 +25,31 @@ export default function Home() {
 
       <section className="space-y-3">
         <h2 className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
-          Primeri
+          Brskaj
+        </h2>
+        <ul className="grid gap-2 sm:grid-cols-2">
+          {[
+            { href: '/zakoni', label: 'Zakoni' },
+            { href: '/uredbe', label: 'Uredbe' },
+            { href: '/pravilniki', label: 'Pravilniki' },
+            { href: '/npb', label: 'Prečiščena besedila (NPB)' },
+          ].map(({ href, label }) => (
+            <li key={href}>
+              <Link
+                href={href}
+                className="flex items-baseline gap-3 rounded-md border border-border bg-card px-3 py-2 text-sm hover:bg-muted"
+              >
+                <span className="font-medium">{label}</span>
+                <span className="ml-auto text-muted-foreground">→</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="space-y-3">
+        <h2 className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
+          Pogosti zakoni
         </h2>
         <ul className="grid gap-2 sm:grid-cols-2">
           {SAMPLES.map(({ kratica, naziv }) => (
@@ -40,9 +64,6 @@ export default function Home() {
             </li>
           ))}
         </ul>
-        <p className="text-xs text-muted-foreground">
-          Iskanje, seznami in primerjava prihajajo v naslednji različici.
-        </p>
       </section>
 
       <footer className="mt-auto border-t border-border pt-6 text-xs text-muted-foreground">

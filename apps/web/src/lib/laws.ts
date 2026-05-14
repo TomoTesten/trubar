@@ -176,8 +176,7 @@ export function getLawManifest(): Promise<ManifestEntry[]> {
   return _manifestPromise;
 }
 
-async function scanLaws(): Promise<ManifestEntry[]> {
-  const dir = path.join(REPO_ROOT, 'si');
+async function scanDir(dir: string, npb: boolean): Promise<ManifestEntry[]> {
   const files = (await readdir(dir, { withFileTypes: true }))
     .filter((d) => d.isFile() && d.name.endsWith('.md'))
     .map((d) => d.name);
@@ -191,21 +190,24 @@ async function scanLaws(): Promise<ManifestEntry[]> {
       slice.map(async (name) => {
         const kratica = name.slice(0, -3);
         try {
-          // Only read enough to capture frontmatter (typically <1 KB).
           const raw = await readFile(path.join(dir, name), 'utf8');
           const parsed = matter(raw);
           const d = parsed.data as Record<string, unknown>;
           if (!d.naziv) return null;
           return {
             kratica,
-            vrsta: typeof d.vrsta === 'string' ? d.vrsta : undefined,
+            vrsta: npb ? 'NPB' : (typeof d.vrsta === 'string' ? d.vrsta : undefined),
             naziv: String(d.naziv),
             datum:
               typeof d.datum === 'string'
                 ? d.datum.slice(0, 10)
                 : d.datum instanceof Date
                   ? d.datum.toISOString().slice(0, 10)
-                  : undefined,
+                  : typeof d.veljaOd === 'string'
+                    ? d.veljaOd.slice(0, 10)
+                    : d.veljaOd instanceof Date
+                      ? d.veljaOd.toISOString().slice(0, 10)
+                      : undefined,
             status: typeof d.status === 'string' ? d.status : undefined,
           } satisfies ManifestEntry;
         } catch {
@@ -216,4 +218,12 @@ async function scanLaws(): Promise<ManifestEntry[]> {
     for (const entry of batch) if (entry) out.push(entry);
   }
   return out;
+}
+
+async function scanLaws(): Promise<ManifestEntry[]> {
+  const [si, npb] = await Promise.all([
+    scanDir(path.join(REPO_ROOT, 'si'), false),
+    scanDir(path.join(REPO_ROOT, 'si', 'npb'), true).catch(() => [] as ManifestEntry[]),
+  ]);
+  return [...si, ...npb];
 }
