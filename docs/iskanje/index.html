@@ -28,41 +28,31 @@
 </main>
 <script type="module">
   import { PagefindUI } from "/trubar/_pagefind/pagefind-ui.js";
-  let activeFilter = "";
-  const ui = new PagefindUI({
-    element: "#search",
-    showSubResults: false,
-    excerptLength: 30,
-    resetStyles: false,
-    translations: {
-      placeholder: "Vpišite ključno besedo...",
-      zero_results: "Ni rezultatov za [SEARCH_TERM]",
-      many_results: "[COUNT] rezultatov za [SEARCH_TERM]",
-      one_result: "1 rezultat za [SEARCH_TERM]",
-      alt_search: "Ni rezultatov za [SEARCH_TERM]. Prikazani rezultati za [DIFFERENT_TERM]",
-      search_suggestion: "Ni rezultatov za [SEARCH_TERM]. Poskusite z [LINK]",
-      searching: "Iščem...",
-    },
-    filters: activeFilter ? {vrsta: activeFilter} : undefined,
-  });
 
-  // Filter buttons
+  let activeFilter = "";
+  let ui = null;
+
+  function initUI(filter) {
+    document.getElementById("search").innerHTML = "";
+    const opts = { element: "#search", showSubResults: false, excerptLength: 25, resetStyles: false };
+    if (filter) opts.filters = { vrsta: filter };
+    ui = new PagefindUI(opts);
+    const params = new URLSearchParams(location.search);
+    if (params.get("q")) ui.triggerSearch(params.get("q"));
+  }
+
+  initUI("");
+
   document.querySelectorAll(".filter-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
       activeFilter = btn.dataset.filter;
-      ui.filters(activeFilter ? {vrsta: activeFilter} : {});
-      const q = document.querySelector(".pagefind-ui__search-input")?.value;
-      if (q) ui.triggerSearch(q);
+      const q = document.querySelector(".pagefind-ui__search-input")?.value || "";
+      initUI(activeFilter);
+      if (q) setTimeout(() => ui.triggerSearch(q), 50);
     });
   });
-
-  // Pre-fill from URL ?q=
-  const params = new URLSearchParams(location.search);
-  if (params.get("q")) {
-    ui.triggerSearch(params.get("q"));
-  }
 </script>
 </body>
 </html>
