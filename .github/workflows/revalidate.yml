@@ -1,0 +1,48 @@
+name: revalidate-isr
+
+# Trigger an ISR cache bust on the Vercel-deployed app for every law (or NPB)
+# whose markdown changed in the latest commit. Without this, ISR'd pages keep
+# serving stale content until their `revalidate` window expires.
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - 'si/**.md'
+
+jobs:
+  revalidate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Compute changed law paths
+        id: paths
+        run: |
+          # Map si/<kratica>.md → /<kratica>; si/npb/<kratica>.md → /npb/<kratica>.
+          paths=$(git diff --name-only HEAD^ HEAD -- 'si/**.md' \
+            | awk '
+                /^si\/npb\//   { gsub("^si/npb/", "/npb/"); gsub("\\.md$", ""); print }
+                /^si\/[^/]+\.md$/ { gsub("^si/", "/"); gsub("\\.md$", ""); print }
+              ' \
+            | jq -R . | jq -s .)
+          {
+            echo 'json<<EOF'
+            echo "$paths"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: POST /api/revalidate
+        if: steps.paths.outputs.json != '[]'
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+          REVALIDATE_TOKEN: ${{ secrets.REVALIDATE_TOKEN }}
+        run: |
+          payload=$(jq -nc --argjson p '${{ steps.paths.outputs.json }}' '{paths: $p}')
+          echo "Revalidating: $payload"
+          curl -fsS -X POST "$SITE_URL/api/revalidate" \
+            -H "Authorization: Bearer $REVALIDATE_TOKEN" \
+            -H 'Content-Type: application/json' \
+            -d "$payload"

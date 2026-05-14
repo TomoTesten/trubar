@@ -13,14 +13,17 @@ import { SearchHighlight } from '@/components/SearchHighlight';
 
 export const dynamicParams = true;
 
-const SSG_LIMIT = process.env.SSG_LIMIT ? Number(process.env.SSG_LIMIT) : 25;
+// SSG_FULL=1 (set on Vercel Production) pre-renders all ~3,975 Sprejet zakon
+// for instant first-hit performance. Dev/preview builds keep a 25-page cap for
+// fast iteration; the long tail still renders via ISR on first hit either way.
+const FULL = process.env.SSG_FULL === '1';
+const DEV_CAP = 25;
 
 export async function generateStaticParams() {
   const manifest = await getLawManifest();
-  return manifest
-    .filter((m) => m.vrsta === 'Sprejet zakon')
-    .slice(0, SSG_LIMIT)
-    .map((m) => ({ kratica: m.kratica }));
+  const zakoni = manifest.filter((m) => m.vrsta === 'Sprejet zakon');
+  const set = FULL ? zakoni : zakoni.slice(0, DEV_CAP);
+  return set.map((m) => ({ kratica: m.kratica }));
 }
 
 async function tryLoad(kratica: string) {

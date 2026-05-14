@@ -56,6 +56,14 @@ vir: https://www.uradni-list.si/1/objava.jsp?sop=1994-11-0205
 
 ---
 
+## Web app
+
+A read-friendly web interface lives at [trubar.vercel.app](https://trubar.vercel.app) (Next.js, Pagefind full-text search, in-page highlighter, side-by-side comparison of any two laws, per-page AI assistant). Source under [`apps/web/`](./apps/web). See [`apps/web/README.md`](./apps/web/README.md) for local dev.
+
+The original GitHub Pages site at [tomotesten.github.io/trubar](https://tomotesten.github.io/trubar/) is preserved as a fallback; its Python build pipeline now lives at [`legacy/build_site/`](./legacy/build_site/).
+
+---
+
 ## For developers
 
 ### Repository structure
@@ -164,9 +172,11 @@ All source texts are official public records of the Republic of Slovenia.
 
 ## Roadmap
 
-- [ ] Full-text search web interface for non-technical users (GitHub Pages + Pagefind)
+- [x] Full-text search web interface (Next.js + Pagefind at apps/web/)
+- [x] EU law cross-references (EUR-Lex CELEX IDs)
 - [ ] Automatic weekly sync via GitHub Actions
-- [ ] EU law cross-references (EUR-Lex CELEX IDs)
+- [ ] Auth + paid tier (Better Auth + Polar.sh) for API access, alerts, saved searches
+- [ ] Surface dz/ corpus (votes / parliamentary questions / bill proposals) on law pages
 - [ ] ECHR Slovenia cases
 - [ ] English translations where available
 

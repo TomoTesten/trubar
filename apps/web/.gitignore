@@ -17,7 +17,8 @@
 /.next/
 /out/
 
-# pagefind search index — built locally / on CI from docs/
+# pagefind search source + index — built from si/*.md by postbuild
+/.pagefind-source/
 /public/_pagefind/
 
 # court decisions shards — built from data/court_links.json by postbuild

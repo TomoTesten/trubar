@@ -18,3 +18,4 @@ __pycache__/
 .court_hf_cache/
 us_rs/
 trubar.db
+node_modules

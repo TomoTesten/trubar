@@ -12,15 +12,16 @@ import { SearchHighlight } from '@/components/SearchHighlight';
 
 export const dynamicParams = true;
 
-// Same SSG_LIMIT story as the main law route: a small dev set, ramped at cutover.
-const SSG_LIMIT = process.env.SSG_LIMIT ? Number(process.env.SSG_LIMIT) : 25;
+// Same SSG_FULL gate as /[kratica]: production pre-renders all ~10,042 NPB
+// pages; dev caps at 25 for fast iteration.
+const FULL = process.env.SSG_FULL === '1';
+const DEV_CAP = 25;
 
 export async function generateStaticParams() {
   const manifest = await getLawManifest();
-  return manifest
-    .filter((m) => m.vrsta === 'NPB')
-    .slice(0, SSG_LIMIT)
-    .map((m) => ({ kratica: m.kratica }));
+  const npb = manifest.filter((m) => m.vrsta === 'NPB');
+  const set = FULL ? npb : npb.slice(0, DEV_CAP);
+  return set.map((m) => ({ kratica: m.kratica }));
 }
 
 async function tryLoad(kratica: string) {

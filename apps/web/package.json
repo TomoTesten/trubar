@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "node ./scripts/build-pagefind.mjs && node ./scripts/build-court-shards.mjs",
+    "postbuild": "node ./scripts/build-search-source.mjs && node ./scripts/build-pagefind.mjs && node ./scripts/build-court-shards.mjs",
     "start": "next start",
     "lint": "eslint"
   },
