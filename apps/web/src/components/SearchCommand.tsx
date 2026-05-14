@@ -109,9 +109,11 @@ export function SearchCommand() {
   const onSelect = useCallback(
     (url: string) => {
       setOpen(false);
-      router.push(url);
+      // Carry the query through so the law page can highlight in-page matches.
+      const q = query.trim();
+      router.push(q ? `${url}?q=${encodeURIComponent(q)}` : url);
     },
-    [router],
+    [router, query],
   );
 
   return (

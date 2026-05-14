@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { Suspense } from 'react';
 import { notFound } from 'next/navigation';
 import { getLawManifest, loadNpb } from '@/lib/laws';
 import { LawSidebar } from '@/components/LawSidebar';
@@ -7,6 +8,7 @@ import { LawToc } from '@/components/LawToc';
 import { AmendmentList } from '@/components/AmendmentList';
 import { CourtDecisions } from '@/components/CourtDecisions';
 import { AiPanel } from '@/components/AiPanel';
+import { SearchHighlight } from '@/components/SearchHighlight';
 
 export const dynamicParams = true;
 
@@ -75,6 +77,9 @@ export default async function Page(props: PageProps<'/npb/[kratica]'>) {
       </div>
 
       <AiPanel lawName={frontmatter.naziv} />
+      <Suspense fallback={null}>
+        <SearchHighlight />
+      </Suspense>
     </main>
   );
 }
