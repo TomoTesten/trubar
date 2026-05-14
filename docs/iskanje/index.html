@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Iskanje — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="/trubar/style.css">
+<link href="/trubar/_pagefind/pagefind-ui.css" rel="stylesheet">
+</head>
+<body>
+<header>
+  <nav><a href="/trubar/">T.R.U.B.A.R.</a></nav>
+</header>
+<main class="search-page">
+  <div class="search-hero">
+    <h1 class="search-title">Iskanje po slovenskem pravnem redu</h1>
+    <p class="search-subtitle">Zakoni, uredbe, pravilniki, NPB besedila in sodne odločbe</p>
+  </div>
+  <div class="search-filters">
+    <button class="filter-btn active" data-filter="">Vse</button>
+    <button class="filter-btn" data-filter="zakon">Zakoni</button>
+    <button class="filter-btn" data-filter="uredba">Uredbe</button>
+    <button class="filter-btn" data-filter="pravilnik">Pravilniki</button>
+    <button class="filter-btn" data-filter="npb">NPB</button>
+    <button class="filter-btn" data-filter="sodba">Sodne odločbe</button>
+  </div>
+  <div id="search"></div>
+</main>
+<script type="module">
+  import { PagefindUI } from "/trubar/_pagefind/pagefind-ui.js";
+  let activeFilter = "";
+  const ui = new PagefindUI({
+    element: "#search",
+    showSubResults: false,
+    excerptLength: 30,
+    resetStyles: false,
+    translations: {
+      placeholder: "Vpišite ključno besedo...",
+      zero_results: "Ni rezultatov za [SEARCH_TERM]",
+      many_results: "[COUNT] rezultatov za [SEARCH_TERM]",
+      one_result: "1 rezultat za [SEARCH_TERM]",
+      alt_search: "Ni rezultatov za [SEARCH_TERM]. Prikazani rezultati za [DIFFERENT_TERM]",
+      search_suggestion: "Ni rezultatov za [SEARCH_TERM]. Poskusite z [LINK]",
+      searching: "Iščem...",
+    },
+    filters: activeFilter ? {vrsta: activeFilter} : undefined,
+  });
+
+  // Filter buttons
+  document.querySelectorAll(".filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      activeFilter = btn.dataset.filter;
+      ui.filters(activeFilter ? {vrsta: activeFilter} : {});
+      const q = document.querySelector(".pagefind-ui__search-input")?.value;
+      if (q) ui.triggerSearch(q);
+    });
+  });
+
+  // Pre-fill from URL ?q=
+  const params = new URLSearchParams(location.search);
+  if (params.get("q")) {
+    ui.triggerSearch(params.get("q"));
+  }
+</script>
+</body>
+</html>
