@@ -375,6 +375,15 @@ def render_applicability(vrsta):
 </section>'''
 
 
+_VRSTA_FILTER = {
+    "Sprejet zakon": "zakon",
+    "uredba": "uredba",
+    "pravilnik": "pravilnik",
+    "odredba": "odredba",
+    "npb": "npb",
+}
+
+
 def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links=None, npb=False, npb_slug=None, original_slug=None, citers=None):
     body_md, toc = add_article_anchors(body_md)
     md.reset()
@@ -390,6 +399,7 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
     organ   = front.get("organ") or ""
     vir_url = front.get("vir") or ""
     vrsta   = front.get("vrsta") or ""
+    vrsta_filter = "npb" if npb else _VRSTA_FILTER.get(vrsta, "drugo")
     npb_type = front.get("npb") or ""
     gh_path = f"si/npb/{slug}.md" if npb else f"si/{slug}.md"
     gh_url  = f"{GH_BLOB}/{gh_path}"
@@ -488,7 +498,7 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
 </head>
 <body>
 <header>
-  <nav><a href="{back_url}">← T.R.U.B.A.R.{" / Prečiščena besedila" if npb else ""}</a></nav>
+  <nav><a href="{back_url}">← T.R.U.B.A.R.{" / Prečiščena besedila" if npb else ""}</a> <a href="{BASE}/iskanje/" class="nav-search-link" title="Iskanje">🔍 Išči</a></nav>
   <h1 class="law-title">{htmllib.escape(naziv)}</h1>
 </header>
 <div class="law-container">
@@ -519,7 +529,8 @@ def render_law_page(slug, front, body_md, kratica_idx, crosslink_re, court_links
   </aside>
 
   <article class="law-body" data-pagefind-body
-           data-pagefind-meta="kratica:{htmllib.escape(kratica)},vrsta:{htmllib.escape(vrsta)}">
+           data-pagefind-meta="kratica:{htmllib.escape(kratica)},vrsta:{htmllib.escape(vrsta)}"
+           data-pagefind-filter="vrsta:{vrsta_filter}">
     {toc_html}
     {body_html}
     {amend_html}
@@ -715,7 +726,7 @@ def render_list_page(title, laws_list, desc="", page_prefix=None):
 </head>
 <body>
 <header>
-  <nav><a href="{BASE}/">← T.R.U.B.A.R.</a></nav>
+  <nav><a href="{BASE}/">← T.R.U.B.A.R.</a> <a href="{BASE}/iskanje/" class="nav-search-link" title="Iskanje">🔍 Išči</a></nav>
   <h1>{htmllib.escape(title)}</h1>
   {f'<p>{htmllib.escape(desc)}</p>' if desc else ''}
 </header>
@@ -1162,6 +1173,24 @@ footer {
   border-top: 1px solid #ddd; margin-top: 32px; background: #fff;
 }
 footer a { color: #0645ad; }
+
+.search-page { max-width: 860px; margin: 0 auto; padding: 24px 16px; }
+.search-hero { text-align: center; margin-bottom: 24px; }
+.search-title { font-size: 1.8rem; font-weight: 700; color: #1a1a2e; margin-bottom: 8px; }
+.search-subtitle { color: #666; font-size: 1rem; }
+.search-filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; justify-content: center; }
+.filter-btn { padding: 6px 16px; border: 1px solid #ddd; border-radius: 20px; background: #fff; cursor: pointer; font-size: 0.88rem; color: #555; transition: all 0.15s; }
+.filter-btn:hover { border-color: #4a90e2; color: #4a90e2; }
+.filter-btn.active { background: #4a90e2; color: #fff; border-color: #4a90e2; }
+.nav-search-link { font-size: 0.9rem; }
+.sodba-page { max-width: 860px; margin: 0 auto; padding: 24px 16px; }
+.sodba-naziv { font-size: 1.4rem; margin-bottom: 8px; }
+.sodba-meta { display: flex; gap: 12px; align-items: center; margin-bottom: 16px; font-size: 0.88rem; color: #666; }
+.badge-sodba { background: #7c3aed; color: #fff; padding: 2px 8px; border-radius: 4px; font-size: 0.78rem; }
+.sodba-excerpt { color: #444; line-height: 1.7; margin-bottom: 16px; }
+.sodba-fulltext { border-top: 1px solid #eee; padding-top: 20px; margin-top: 20px; }
+.sodba-fulltext h2 { font-size: 1rem; color: #555; margin-bottom: 12px; }
+.sodba-source { margin-top: 16px; font-size: 0.88rem; color: #999; }
 """
 
 LIST_FILTER_JS = """\
@@ -1180,6 +1209,78 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 # ── Main build ─────────────────────────────────────────────────────────────────
+
+
+def render_search_page():
+    return f"""<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Iskanje — T.R.U.B.A.R.</title>
+<link rel="stylesheet" href="{BASE}/style.css">
+<link href="{BASE}/_pagefind/pagefind-ui.css" rel="stylesheet">
+</head>
+<body>
+<header>
+  <nav><a href="{BASE}/">T.R.U.B.A.R.</a></nav>
+</header>
+<main class="search-page">
+  <div class="search-hero">
+    <h1 class="search-title">Iskanje po slovenskem pravnem redu</h1>
+    <p class="search-subtitle">Zakoni, uredbe, pravilniki, NPB besedila in sodne odločbe</p>
+  </div>
+  <div class="search-filters">
+    <button class="filter-btn active" data-filter="">Vse</button>
+    <button class="filter-btn" data-filter="zakon">Zakoni</button>
+    <button class="filter-btn" data-filter="uredba">Uredbe</button>
+    <button class="filter-btn" data-filter="pravilnik">Pravilniki</button>
+    <button class="filter-btn" data-filter="npb">NPB</button>
+    <button class="filter-btn" data-filter="sodba">Sodne odločbe</button>
+  </div>
+  <div id="search"></div>
+</main>
+<script type="module">
+  import {{ PagefindUI }} from "{BASE}/_pagefind/pagefind-ui.js";
+  let activeFilter = "";
+  const ui = new PagefindUI({{
+    element: "#search",
+    showSubResults: false,
+    excerptLength: 30,
+    resetStyles: false,
+    translations: {{
+      placeholder: "Vpišite ključno besedo...",
+      zero_results: "Ni rezultatov za [SEARCH_TERM]",
+      many_results: "[COUNT] rezultatov za [SEARCH_TERM]",
+      one_result: "1 rezultat za [SEARCH_TERM]",
+      alt_search: "Ni rezultatov za [SEARCH_TERM]. Prikazani rezultati za [DIFFERENT_TERM]",
+      search_suggestion: "Ni rezultatov za [SEARCH_TERM]. Poskusite z [LINK]",
+      searching: "Iščem...",
+    }},
+    filters: activeFilter ? {{vrsta: activeFilter}} : undefined,
+  }});
+
+  // Filter buttons
+  document.querySelectorAll(".filter-btn").forEach(btn => {{
+    btn.addEventListener("click", () => {{
+      document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      activeFilter = btn.dataset.filter;
+      ui.filters(activeFilter ? {{vrsta: activeFilter}} : {{}});
+      const q = document.querySelector(".pagefind-ui__search-input")?.value;
+      if (q) ui.triggerSearch(q);
+    }});
+  }});
+
+  // Pre-fill from URL ?q=
+  const params = new URLSearchParams(location.search);
+  if (params.get("q")) {{
+    ui.triggerSearch(params.get("q"));
+  }}
+</script>
+</body>
+</html>"""
+
 
 # ── Multiprocessing worker globals ─────────────────────────────────────────────
 _g_kratica_idx = None
@@ -1399,6 +1500,11 @@ def main():
     # ── Index ───────────────────────────────────────────────────────────────
     (DOCS_DIR / "index.html").write_text(render_index(stats), "utf-8")
     print("Generated index.html")
+
+    # ── Search page ─────────────────────────────────────────────────────────
+    (DOCS_DIR / "iskanje").mkdir(exist_ok=True)
+    (DOCS_DIR / "iskanje" / "index.html").write_text(render_search_page(), "utf-8")
+    print("Generated iskanje/index.html")
 
     # ── Compare page ────────────────────────────────────────────────────────
     (DOCS_DIR / "primerjaj").mkdir(exist_ok=True)
