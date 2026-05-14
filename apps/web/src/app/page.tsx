@@ -1,65 +1,77 @@
-import Image from "next/image";
+import Link from 'next/link';
+
+const SAMPLES: Array<{ kratica: string; naziv: string }> = [
+  { kratica: 'ZKP', naziv: 'Zakon o kazenskem postopku' },
+  { kratica: 'ZUP', naziv: 'Zakon o splošnem upravnem postopku' },
+  { kratica: 'ZGD-1', naziv: 'Zakon o gospodarskih družbah' },
+  { kratica: 'ZDR-1', naziv: 'Zakon o delovnih razmerjih' },
+  { kratica: 'ZPP', naziv: 'Zakon o pravdnem postopku' },
+  { kratica: 'ZIZ', naziv: 'Zakon o izvršbi in zavarovanju' },
+];
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+    <main className="mx-auto flex max-w-3xl flex-1 flex-col gap-12 px-4 py-16">
+      <header className="space-y-4">
+        <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">T.R.U.B.A.R.</p>
+        <h1 className="text-4xl font-bold tracking-tight">
+          Transparentni register urejenih besedil aktov Republike Slovenije
+        </h1>
+        <p className="max-w-2xl text-muted-foreground">
+          Slovenska zakonodaja kot Git repozitorij. Vsak zakon je Markdown datoteka, vsaka
+          sprememba je datiran commit. Repozitorij obsega obdobje od 1946 do danes.
+        </p>
+      </header>
+
+      <section className="space-y-3">
+        <h2 className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
+          Primeri
+        </h2>
+        <ul className="grid gap-2 sm:grid-cols-2">
+          {SAMPLES.map(({ kratica, naziv }) => (
+            <li key={kratica}>
+              <Link
+                href={`/${kratica}`}
+                className="flex items-baseline gap-3 rounded-md border border-border bg-card px-3 py-2 text-sm hover:bg-muted"
+              >
+                <span className="font-mono font-semibold">{kratica}</span>
+                <span className="text-muted-foreground">{naziv}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <p className="text-xs text-muted-foreground">
+          Iskanje, seznami in primerjava prihajajo v naslednji različici.
+        </p>
+      </section>
+
+      <footer className="mt-auto border-t border-border pt-6 text-xs text-muted-foreground">
+        <p>
+          Vir besedil:{' '}
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://www.uradni-list.si/"
+            className="underline"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
+            Uradni list RS
+          </a>{' '}
+          ·{' '}
+          <a href="https://pisrs.si/" className="underline" target="_blank" rel="noopener">
+            PISRS
           </a>
+          . Koda:{' '}
           <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://github.com/TomoTesten/trubar"
+            className="underline"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
           >
-            Documentation
+            GitHub
           </a>
-        </div>
-      </main>
-    </div>
+          . Besedila so javna domena (CC0).
+        </p>
+      </footer>
+    </main>
   );
 }
