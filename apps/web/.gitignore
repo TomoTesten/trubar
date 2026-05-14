@@ -20,6 +20,9 @@
 # pagefind search index — built locally / on CI from docs/
 /public/_pagefind/
 
+# court decisions shards — built from data/court_links.json by postbuild
+/public/data/courts/
+
 # production
 /build
 
